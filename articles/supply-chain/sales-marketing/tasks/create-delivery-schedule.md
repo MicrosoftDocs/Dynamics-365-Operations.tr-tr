@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af983b30530a7f5d0a82f98deeb12180c42d86cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 487188531434e65908fbf5fe9dac89bfba8b6a47
+ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215827"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3606857"
 ---
 # <a name="create-delivery-schedule"></a>Teslimat planı oluşturun
 
@@ -65,4 +65,3 @@ Bu prosedür, satış siparişi için teslimat oluşturmayı göstermektedir. Te
 22. Tamam'a tıklayın.
 23. Evet'i tıklatın.
 24. Sayfayı kapatın.
-

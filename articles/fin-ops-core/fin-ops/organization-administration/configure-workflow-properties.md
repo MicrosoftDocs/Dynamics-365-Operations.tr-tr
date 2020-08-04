@@ -3,7 +3,7 @@ title: İş akışı özelliklerini yapılandırma
 description: Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199448"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541121"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
@@ -91,12 +91,7 @@ Yapılandırmakta olduğunuz iş akışının ne zaman kullanılacağını belir
 3. **Koşul ekle** seçeneğini tıklatın.
 4. Koşulu girin.
 5. Varsa, gerekli ek koşulları girin.
-6. Girdiğiniz koşulların doğru biçimde ayarlandığını doğrulamak için, aşağıdaki adımları izleyin:
-
-    1. **Sına**'yı tıklatın.
-    2. **İş akışını test et** sayfasında, **Koşulu doğrula** alanında, bir kayıt seçin.
-    3. **Sına**'yı tıklatın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir. Örneğin, İspanya için bir satınalma talebi iş akışı oluşturuyorsanız, sayfanın **Koşulu doğrula** bölgesi satınalma taleplerinin bir listesini gösterir. **Sına**'yı tıklattığınızda, sistem seçili olan satınalma talebini değerlendirir ve ülke/bölgenin olarak ES olup olmadığını belirler.
-    4. **Özellikler** sayfasında geri dönmek için **OK** ya da **İptal Et**'e tıklayın.
+6. Koşulun, kayıtları doğru şekilde dahil ettiğinden ve hariç tuttuğundan emin olmak için bazı hedef kayıtları bulunan iş akışı aracılığıyla çalıştırın.
 
 ## <a name="specify-when-notifications-are-sent"></a>Bildirimlerin ne zaman gönderileceğini belirtme
 

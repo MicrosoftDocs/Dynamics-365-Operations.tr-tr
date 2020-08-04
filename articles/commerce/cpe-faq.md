@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce önizleme ortamıyla ilgili SSS
-description: Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
+title: Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS
+description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254736"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599783"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce önizleme ortamıyla ilgili SSS
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
+Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 
-**Ticari önizleme ortamı için daveti başka bir kiracıya aktarabilir miyim?**
+**Commerce değerlendirme ortamı, şu anda Retail uygulayan müşteriler için bir e-Ticaret mağazası olarak kullanabilir mi?**
 
-Evet. Davet aktarımları için, [Commerce Önizleme aktarım formunu](https://aka.ms/Dynamics365CommercePreviewTransferForm) kullanabilirsiniz.
+No Commerce değerlendirme ortamı yalnızca değerlendirme içindir. Perakende satış teknolojisini kullanan bir müşteri için ortam gerekiyorsa Microsoft 'a başvurun.
 
-**Davetiye aktarımının ne kadar sürer?**
+**Commerce değerlendirme ortamı, Retail uygulayan mevcut bir uygulamanın/ortamın üstünde e-Ticaret özelliklerinin sağlanması için kullanılabilir mi?**
 
-Aktarım, yaklaşık üç-beş iş günü ortalamasını alır. Ancak, özel durumlar geçerli olabilir.
+Hayır (çoğunlukla). Commerce değerlendirme bileşenleri, yalnızca önkoşullar ve sağlama kılavuzunda belirtilen yapılandırmalarla eşleşen ortamlar için geçerlidir. Ek olarak, gerekli temel demo verileri 10.0.8 öncesindeki ilk sürümle dağıtılan ortamlarda kullanılamaz. 
 
-**Commerce önizleme ortamı Dynamics 365 Finance ile veya Dynamics 365 tedarik zinciri projeleriyle çalışıyor mu?**
+**Microsoft Dynamics Lifecycle Services (LCS) yoluyla Microsoft Azure üzerine Commerce değerlendirme ortamını dağıtmaya hangi maliyetler dahil edilecek?**
 
-Hayır. Commerce önizleme ortamı yalnızca Dynamics 365 Retail projelerle çalışır.
+Geleneksel Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce genel merkezi demo ortamı (sanal makine \[VM\]) Azure aboneliğinizde barındırılacaktır. Bu maliyeti tahmin etmek için [Azure fiyatlandırma hesap makinesini](https://azure.microsoft.com/pricing/calculator/) kullanabilirsiniz.
 
-**Commerce önizleme ortamını, şu anda perakende satılan müşteriler için bir e-ticaret mağazası olarak kullanabilir mi?**
+Commerce Scale Unit, Commerce Site Oluşturucu ve e-Ticaret siteniz gibi diğer bileşenler, hizmet olarak yazılım olarak kullanılacak ve Microsoft tarafından barındırılacaktır.
 
-Hayır. Ticari önizleme ortamı yalnızca değerlendirme ortamıdır. Perakende satış teknolojisini kullanan bir müşteri için ortam gerekiyorsa Microsoft 'a başvurun.
+**Şu anda Commerce değerlendirme ortamında hangi Azure coğrafyaları destekleniyor?**
 
-**Perakende önizleme ortamı, perakendeciyi uygulayan varolan bir uygulamanın/ortamın en üstünde e-ticaret özelliklerinin sağlanması için kullanılabilir mi?**
-
-Hayır. Ticari önizleme ortamı şu anda yalnızca 10.0.6 sürümünde tanıtım verileri bulunan perakende stok tutma birimi (SKU) projelerinde dağıtılan yeni ortamlarda kullanılabilir.
-
-**Microsoft Dynamics Lifecycle Services (LCS) yoluyla Microsoft Azure üzerine Commerce önizleme ortamını dağıtmaya hangi maliyetler dahil edilecek?**
-
-Perakende, aboneliğinizde bulunan tek bileşendir. Retail Cloud Scale Unit (Rcsu) ve e-ticaret gibi diğer bileşenler Microsoft abonelikleri içinde barınacaktır. Bu maliyeti tahmin etmek için [Azure fiyatlandırma hesap makinesini](https://azure.microsoft.com/pricing/calculator/) kullanabilirsiniz.
-
-**Şu anda Commerce önizleme ortamında hangi Azure coğrafyaları destekleniyor?**
-
-Commerce önizleme ortamı yalnızca Kuzey Amerika Coğrafyasında dağıtılabilir.
+Commerce değerlendirme ortamı yalnızca Kuzey Amerika Coğrafyasında dağıtılabilir.
 
 **Tam OneBox sanal makinesi (VM) seçeneği olan bir indirilebilir sanal sabit disk (VHD) var mı?**
 
-Dynamics 365 Retail Cloud Scale Unit (RCSU) ve e-ticaret, tamamen hizmet olarak yazılımdır (SaaS) ve bulutta barındırılan bulut olmalıdır.
+Dynamics 365 Commerce ve Commerce Scale Unit tamamen hizmet olarak yazılımdır (SaaS) ve bulutta barındırılmalıdır.
 
-**Ticari önizleme ortamı ne kadar süreyle kullanılabilir?**
+**Commerce değerlendirme ortamı ne kadar süreyle kullanılabilir?**
 
-Commerce önizleme ortamının, e-ticaret sağlama tarihinden itibaren 30 günlük zaman sınırlaması vardır.
+Commerce değerlendirme ortamının Commerce Scale Unit, Commerce site oluşturucu ve e-Ticaret gibi SaaS bileşenlerinin sağlandığı tarihten itibaren 30 günlük zaman sınırı vardır.
 
-**Commerce önizleme ortamım için zaman sınırını genişletebilirim?**
+**Commerce değerlendirme ortamım için zaman sınırını genişletebilirim?**
 
-Evet. [Commerce önizleme genişletme formunu](https://aka.ms/Dynamics365CommercePreviewExtensionForm) kullanarak destek ekibine başvurabilirsiniz.
-
-**Bir Commerce önizleme ortamı için çoklu istekler yapabilir mi?**
-
-Kabul edilen her istek için bir Commerce önizleme ortamının kotası veriyoruz. Birden fazla önizleme ortamına gereksinim duyarsanız, Microsoft'a başvurun. İletişim bilgileri için sonraki bölüme bakın.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce önizleme ortamı iletişim bilgileri
-
-Commerce önizleme ortamıyla ilgili sorularınız veya istekleriniz varsa, Microsoft'a başvurmak için yardım almak üzere [Microsoft Dynamics 365 Commerce Önizleme Yammer grubunu](https://aka.ms/Dynamics365CommercePreviewYammer) ziyaret edin.
+Zaman sınırı genişletme norm için bir istisnadır ve duruma göre değerlendirilir. Yardım için Microsoft iş ortağınıza başvurmanız gerekir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Dynamics 365 Commerce önizleme ortamına genel bakış](cpe-overview.md)
+[Dynamics 365 Commerce değerlendirme ortamına genel bakış](cpe-overview.md)
 
-[Dynamics 365 Commerce önizleme ortamını hazırlama](provisioning-guide.md)
+[Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md)
 
-[Dynamics 365 Commerce önizleme ortamını yapılandırma](cpe-post-provisioning.md)
+[Dynamics 365 Commerce değerlendirme ortamı yapılandırma](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
+[Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](cpe-bopis.md)
+
+[Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)

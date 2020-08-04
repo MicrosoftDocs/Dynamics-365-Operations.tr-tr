@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6988bb95cf2ffe8146434f4b194d97491952915
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157422"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555278"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (19 Mart 2020)
 
@@ -122,3 +122,9 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 
 - **Kazançlar yönetimi önizleme özelliği** -bilinen sorunlar da dahil olmak üzere daha fazla bilgi için, bkz. [Kazançlar yönetimi önizleme özelliği](hr-benefits-management-overview.md).
 
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

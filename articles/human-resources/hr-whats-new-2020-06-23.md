@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500449"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555039"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 23 2020)
 
@@ -119,3 +119,10 @@ Personel self servis çalışma alanının adını Self servis olarak güncelle�
 ## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
 
 Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: İş akışındaki iş öğelerini devretme
 description: Bir süreliğine ofis dışında olacaksanız ya da iş öğeleri ile ilgili uygulama yapamayacaksanız iş öğelerinizi diğer kullanıcılara devredebilir veya yeniden atayabilirsiniz.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515776"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541097"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
@@ -49,13 +49,15 @@ Bir süreliğine ofis dışında olmayı veya başka sebeple iş öğeleri üzer
 1. **Ortak > Kurulum > Kullanıcı** seçenekleri'ne gidin.
 2. **İş akışı** sekmesine tıklayın. Temsilci bölümünün genişletilmiş olduğundan emin olun. Diğer kullanıcılar iş maddelerinize otomatik olarak temsilci olarak atanacak biçimde sistemi yapılandırmak için, hangi iş maddesi türlerine ne zaman temsilci atanacağını belirten temsilci kuralları oluşturmanız gerekir. Temsilci kuralı oluşturmak için aşağıdaki adımları izleyin.  
 3. **Ekle** öğesine tıklayın.
-4. **Kapsam** alanında, bir seçenek belirleyin.
+4. **Kapsam** alanında, bir seçenek belirleyin:
     - Tümü: Size atanmış olan tüm iş maddelerine temsilci seçin.
-    - Modül: Yalnızca belirli bir iş akışı türüyle ilişkili iş maddelerine temsilci atayın. Bu seçeneği belirlerseniz Ad alanında iş akışı türünü seçmeniz gerekir.
-    - İş akışı: Yalnızca belirli bir iş akışıyla ilişkili iş maddelerine temsilci atayın. Bu seçeneği belirlerseniz Ad alanında iş akışını seçmeniz gerekir.  
-5. **Temsilci** alanında, iş maddelerine temsilci olarak atanacak kullanıcıyı seçin. İş maddelerine ne zaman otomatik olarak temsilci atanmasını istediğinizi belirtmek için Başlangıç tarihi/saati ve Bitiş tarihi/saati alanlarını kullanın.  
-6. **Başlangıç tarihi/saati** alanına tarih ve saati girin.
-7. **Bitiş tarihi/saati** alanına tarih ve saati girin.
-8. Bu temsilci kuralını etkinleştirmek için **Etkin** onay kutusunu işaretleyin. Kapsam olarak **Modül**'ü seçtiyseniz Ad alanında modülü seçmeniz gerekir. Kapsam olarak **İş akışı**'nı seçtiyseniz Ad alanında temsilci atamak üzere ilgili iş akışını seçmeniz gerekir.  
-9. **Yorum** alanına, iş maddelerine neden temsilci atadığınızı belirten bir yorum girin.
-
+    - Modül: Yalnızca belirli bir iş akışı türüyle ilişkili iş maddelerine temsilci atayın. Bu seçeneği belirlerseniz **Ad** alanında iş akışı türünü seçmeniz gerekir.
+    - İş akışı: Yalnızca belirli bir iş akışıyla ilişkili iş maddelerine temsilci atayın. Bu seçeneği belirlerseniz **Ad** alanında iş akışını seçmeniz gerekir.  
+5. **Ad** alanını doldurun:
+    - **Modül** kapsamı için hedef modülü seçin.
+    - **İş akışı** kapsamı için hedef iş akışını seçin.
+6. **Temsilci** alanında, iş maddelerine temsilci olarak atanacak kullanıcıyı seçin. İş öğelerine ne zaman otomatik olarak temsilci atanmasını istediğinizi belirtmek için **Başlangıç tarihi/saati** ve **Bitiş tarihi/saati** alanlarını kullanın.  
+7. **Başlangıç tarihi/saati** alanına tarih ve saati girin.
+8. **Bitiş tarihi/saati** alanına tarih ve saati girin.
+9. Bu temsilci kuralını etkinleştirmek için **Etkin** onay kutusunu işaretleyin. 
+10. **Yorum** alanına, iş maddelerine neden temsilci atadığınızı belirten bir yorum girin.

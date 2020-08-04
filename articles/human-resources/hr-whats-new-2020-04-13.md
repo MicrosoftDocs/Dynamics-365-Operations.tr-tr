@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 711cc4491024e647429b108438ce1d88483ea63c
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 4f61283f3bab26f54d55ffe7cbea21b1201ed234
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259829"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555159"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (13 Nisan 2020)
 
@@ -88,3 +88,10 @@ SharePoint'te depolanan belgelere ait belge önizlemesi çalışmazsa, aşağıd
 3. Belge önizlemesini başlatmak için SharePoint ' deki bir eke erişin.
 
 4. Eklere erişimi olan başka bir kullanıcı hesabıyla oturum açın ve önizlemenin beklendiği gibi çalıştığını doğrulayın.
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

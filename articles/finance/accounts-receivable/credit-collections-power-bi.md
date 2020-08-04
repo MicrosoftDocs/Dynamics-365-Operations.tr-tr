@@ -3,7 +3,7 @@ title: Alacak ve tahsilat yönetimi Power BI içeriği
 description: Bu konu, Power BI Kredi ve Tahsilatlar Yönetimi'nde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278886"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598070"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Alacak ve tahsilat yönetimi Power BI içeriği
 
@@ -47,9 +47,10 @@ Gösterilen tüm tutarlar sistem para birimi cinsindendir. Sistem para birimini 
 Verilerin **müşteri alacak ve tahsilatları** Power BI görsellerinde görüntülenmesi için aşağıdaki kurulumun tamamlanması gereklidir.
 
 1. **Sistem para birimi** ve **Sistem döviz kuru**'nu ayarlamak için **Sistem yönetimi > Kurulum > Sistem Paramatreleri**'ne gidin.
-2. **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin ve **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlayın.
-3. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
-4. **CustCollectionsBIMeasurementsV2** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin.
+2. Etkin döneme atanan mali takvim tarihlerini doğrulamak için **Genel muhasebe > Takvimler > Mali takvimler**'e gidin.
+3. **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin ve **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlayın.
+4. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
+5. **CustCollectionsBIMeasurementsV2** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 

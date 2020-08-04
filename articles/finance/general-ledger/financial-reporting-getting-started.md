@@ -3,7 +3,7 @@ title: Mali raporlamaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262661"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609601"
 ---
 # <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 
@@ -34,7 +34,7 @@ Bu konu, mali raporlara nereden erişileceğini ve finansal raporlama yetenekler
 <a name="accessing-financial-reporting"></a>Mali raporlamaya erişmek
 -----------------------------
 
-**Finansal raporlama** menüsünü aşağıdaki yerlerde bulabilirsiniz:
+**Finansal raporlama** menüsünü aşağıdaki konumlarda bulabilirsiniz:
 
 -   **Genel muhasebe** &gt; **Sorgulamalar ve raporlar**
 -   **Bütçeleme** &gt; **Sorgular ve raporlar** &gt; **Temel bütçeleme**
@@ -49,6 +49,7 @@ Bir tüzel kişilik için finansal raporlar oluşturmak ve üretmek için, bu t�
 -   Hesap planı
 -   Para Birimi
 
+## <a name="granting-security-access-to-financial-reporting"></a>Financial Reporting'e güvenlik erişimi verme
 Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri aracılığıyla görevler atanmış kullanıcılar için kullanılabilirdir. Aşağıdaki bölümlerde bu ayrıcalıklar ve görevler, ilişkili rollerle birlikte listelenmiştir.
 
 ### <a name="duties"></a>Görev
@@ -78,15 +79,26 @@ Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri a
 | Mali raporlar oluştur            | Mali raporlar oluştur            | CEO, CFO, Muhasebeci                                                            |
 | Mali raporları görüntüle                | Mali performansı gözden geçir          | Hiçbiri atanmadı                                                                   |
 
-Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde mali raporlamaya erişebilmesi gerekir. **Not:** sysadmin rolünü finansal raporlamada tüm rollere eklenir.
+Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde mali raporlamaya erişebilmesi gerekir. 
+
+> [!NOTE]
+> sysadmin rolü finansal raporlamadaki tüm rollere eklenir.
 
 ## <a name="report-deletions-and-expirations"></a>Silme ve süre sonlarını bildir
 Rapor oluşturan kullanıcılar kendi raporlarını silebilir. **Finansal Raporlama Güvenlik** vergisi olan kullanıcıların diğer raporlarını silebilir. 
 
-Sürüm 10.0.8'de, bitiş tarihleri kavramı kullanıma sunulmuştur. Özellik yönetimi çalışma alanı içindeki **Tümü** sayfasında yeni bir gerekli özellik etkinleştirilecektir. **Finansal rapor tutma ilkeleri** özelliği aşağıdaki değişiklikleri içerir:
+10.0.7 sürümden başlayarak sona erme tarihleri kavramı kullanılmaya başlandı. Özellik yönetimi çalışma alanında yeni bir gerekli özellik etkinleştirilecek. Bu özellik aşağıdaki değişiklikleri içerir:
+
+* Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek.
+* Özelliğin yüklenmesi öncesinde varolan tüm raporlara, 90 günlük bir geçerlilik süresi verilir. Mali Raporlama Servisi tamamlanana kadar tarih kısa bir süre için boş olarak gösterilebilir, bir rapor oluşturulur ve servis güncelleştirmeyi boş bitiş tarihi olan mevcut raporlar için yapar. 
+* **Finansal Raporlama güvenliğini** olan kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir:
+   * 90 gün sonu
+   * Raporu asla sona erdirmez olarak ayarlamak için bir seçenek
+
+90 gün gibi bir süre sonu seçildiğinde, bugünden itibaren 90 gün uygulanır; bu da rapor oluşturulduğunda orijinal oluşturma tarihinden itibaren 90 günden farklı bir davranıştır. Sürüm 10.0.8'de, bitiş tarihleri kavramı kullanıma sunulmuştur. Özellik yönetimi çalışma alanı içindeki **Tümü** sayfasında yeni bir gerekli özellik etkinleştirilmiştir. **Finansal rapor tutma ilkeleri** özelliği aşağıdaki değişiklikleri içerir:
 * Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek
 * Özelliğin yüklenmesi öncesinde varolan tüm raporlara, 90 günlük bir geçerlilik süresi verilir. Mali Raporlama Servisi tamamlanana kadar tarih kısa bir süre için boş olarak gösterilebilir, bir rapor oluşturulur ve servis güncelleştirmeyi boş bitiş tarihi olan mevcut raporlar için yapar. 
-* **Finansal Raporlama güvenliğini koru** ayrıcalığına sahip kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir. 
+* **Finansal Raporlama güvenliğini koru** ayrıcalığına sahip kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir: 
   * 90 günlük bitiş tarihi.
   * Raporu asla sona erme olarak ayarlamak için bir seçenek.
   
@@ -125,16 +137,36 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, varsayılan ana
 | Bütçe Fonları Kullanılabilir - Varsayılan                         | Tüm kullanılabilir hesaplar için gözden geçirilmiş bütçenin, fiili harcamaların, bütçe ayırmalarının ve bütçe fonlarının ayrıntılı bir karşılaştırmasını görüntüleyin.                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Mali raporları açmak
-**Finansal Raporlama** menüsüne tıklattığınızda, şirketin varsayılan finansal raporlarının listesi gösterilir. Sonra bir raporu açabilir veya değiştirebilirsiniz. Varsayılan raporlardan birini açmak için, rapor adını seçin. Bir rapor ilk defa açıldığında, otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2016'de açarsanız, rapor 31 Temmuz 2016 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
+**Finansal raporlama** menüsünü seçtiğinizde şirketin varsayılan finansal raporlarının listesi gösterilir. Sonra bir raporu açabilir veya değiştirebilirsiniz. Varsayılan raporlardan birini açmak için, rapor adını seçin. Bir rapor ilk defa açıldığında, otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2019'de açarsanız, rapor 31 Temmuz 2019 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Mali raporları oluşturma ve değiştirme
-Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** üzerine tıklayarak yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Finance'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
+Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni**'yi seçerek yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Dynamics 365 Finance'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
 
-> [!NOTE] 
-> Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .NET Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Rapor Tasarımcısı açma sorunlarını giderme
+Rapor Tasarımcısı'nı açtığınızda sorunlara neden olabilen bazı genel sorunlar bulunmaktadır. Bu sorunlar ve bunları gidermek için gereken adımlar aşağıdaki gibidir.
+
+Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başlamıyor.
+
+* Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i ve sonra **Siteler**'i seçin. **Bu web sitesini bölgeye ekle** alanında "\*\.dynamics.com" (tırnak işaretleri olmadan) girin ve **Ekle**'yi seçin. 
+* Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
+* Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
+* Visual Studio .NET 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir.
+
+Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
+* Chrome tarayıcı kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Chrome ile oturum açamazsanız, Internet Explorer ve Edge kullanarak Sorun 1'de açıklanan kurulum adımlarını izleyin. 
+
+Sorun 2: Kullanıcıya Financial Reporting kullanmak için gerekli izinler atanmadı. 
+
+* Kullanıcının izni olup olmadığını doğrulamak için, şu hata iletisi altında **Evet**'i seçin: "Financial Reporting sunucusuna bağlanılamıyor. Devam etmek ve farklı bir sunucu adresi belirtmek istiyorsanız Evet'i seçin." Ardından **Bağlantı Sınama** sekmesini seçin. İzniniz yoksa şu iletiyi alırsınız: "Bağlantı girişimi başarısız oldu. Kullanıcı sunucuya bağlanmak için uygun izinlere sahip değil. Sistem yöneticinize başvurun."
+* Gerekli izinler, [Financial Reporting'e güvenlik erişimi verme](#granting-security-access-to-financial-reporting) üzerinde listelenmiştir. Financial Reporting'de güvenlik bu ayrıcalıkları temel alır. Bu ayrıcalıklar (veya bu ayrıcalıkları içeren başka bir güvenlik rolü) size atanmadıkça erişiminiz olmayacaktır. 
+* **Şirket Kullanıcıları Sağlayıcısı'dan Şirkete** tümleştirme görevi (kullanıcı tümleştirmesinden sorumludur ve kullanıcı tümleştirmesi olarak da bilinir) 5 dakikalık bir aralıkta çalışır. Tüm izin değişikliklerinin Financial Reporting'de geçerli olması 10 dakika kadar sürebilir. 
+  Başka bir kullanıcı Rapor Tasarımcısını açabiliyorsa, **Araçlar**'ı ve ardından **Tümleştirme Durumu**'nu seçin. Financial Reporting kullanma izni atadığınız için "Şirket Kullanıcıları Sağlayıcısından Şirkete" tümleştirme eşlemesinin başarılı şekilde çalışıp çalışmadığını doğrulayın. 
+* Başka bir hata **Dynamics kullanıcısı ile Financial Reporting kullanıcısı tümleştirmesinin** tamamlanmasını engellemiş olabilir. Ya da, bir veri reyonu sıfırlama işlemi başlatılmış ve henüz tamamlanmamış veya başka bir sistem hatası oluşmuş olabilir. İşlemi daha sonra yeniden çalıştırmayı deneyin. Sorun devam ederse, sistem yöneticinize başvurun.
+
+Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam edebilirsiniz ancak Rapor Tasarımcısında oturum açma işlemini tamamlayamazsınız. 
+
+* Oturum açma kimlik bilgilerinizi girdiğinizde yerel bilgisayarınızda ayarlanan saat ile Financial Reporting sunucusundaki saat arasında en fazla beş dakikalık bir fark olmalıdır. Beş dakikadan uzun bir fark varsa, sistem oturum açma işlemine izin vermez. 
+* Bu durumda, bilgisayarınızın saatini otomatik olarak ayarlamak için Windows seçeneğinin etkinleştirilmesi önerilir. 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-- [Mali raporları görüntüleme](view-financial-reports.md)
-
-
-
+- [Mali raporları görüntüle](view-financial-reports.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386119"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555183"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 
@@ -110,3 +110,10 @@ Bu sürüm İnsan Kaynakları parametrelerini İzin ve devamsızlık parametrele
 ## <a name="carry-forward-rules"></a>Devretme kuralları
 
 Örneğin, devretme ayarlamalarının transfer edildiği devir bakiyeleri için bir devretme izin türü belirtebilirsiniz. Örneğin, bir çalışan 10 günü ileri taşıyorsa, bu 10 gün için farklı bir izin türü seçebilirsiniz. Daha fazla bilgi için bkz. [İzin ve devamsızlık türleri yapılandırma](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
+[Özellikleri yönetme](hr-admin-manage-features.md)

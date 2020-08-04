@@ -3,7 +3,7 @@ title: Talep tahminine genel bakış
 description: Talep tahmini, satış siparişlerinden bağımsız talebi ve müşteri siparişlerine ilişkin herhangi bir dekuplaj noktasındaki bağımlı talebi tahmin etmede kullanılır. Geliştirilmiş talep tahmin azaltma kuralları, kitlesel özelleştirme için ideal bir çözüm sunar.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213895"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550052"
 ---
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
@@ -48,7 +48,7 @@ Talep tahmininin ana özelliklerden bazıları aşağıda verilmiştir:
 Talep tahmininde üç önemli konu gerçekleştirilir:
 
 -   **Modülarite** – Talep tahmini modülerdir ve kolay yapılandırılır. İşlevselliği **Ticaret** &gt; **Stok tahmini** &gt; **Talep tahmini** içindeki yapılandırma anahtarını değiştirerek açıp kapayabilirsiniz.
--   **Microsoft yığının yeniden kullanılması** – Microsoft, Şubat 2015'te makine öğrenme platformu başlattı. Şimdi Microsoft Cortana Analytics Suite'in bir parçası haline gelen Makine Öğrenimi, talep tahmin deneyleri gibi tahmine dayalı analiz deneylerini R veya Python gibi programlama dilleri algoritmaları kullanarak ve basit bir sürükle bırak arabirimi ile hızlı ve kolay oluşturmanızı sağlar.
+-   **Microsoft yığınını yeniden kullanma** – Microsoft Cortana Analytics Suite'in bir parçası haline gelen Makine Öğrenimi, talep tahmin deneyleri gibi tahmine dayalı analiz deneylerini R veya Python gibi programlama dilleri algoritmaları kullanarak ve basit bir sürükle bırak arabirimi ile hızlı ve kolay oluşturmanızı sağlar.
     -   Talep tahmini deneylerini indirebilir, iş gereksinimlerinizi karşılayacak şekilde değiştirebilir, Azure üzerinde web hizmeti olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz. Kuruluş düzeyinde kullanıcı olarak bir üretim planlayıcı için Supply Chain Management aboneliği aldıysanız, deneyler indirilmeye hazırdır.
     -   Şu anda mevcut olan talep tahmin deneylerinden birini [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirebilirsiniz. Talep tahmini deneyleri, Supply Chain Management ile otomatik olarak bütünleşirken, müşteriler ve ortaklar [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirdikleri deneylerin entegrasyonunu kendileri yapmalıdır. Bu yüzden, [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/)'den indirilen deneylerin kullanımı, Finance and Operations Talep tahmini deneyleri kadar basit değildir. Deneylerin kodunu, Finance and Operations uygulama programlama arabiriminin (API) kullanılabilmesi için modifiye etmeniz gerekir.
     -   Microsoft Azure Machine Learning Studio'da (klasik) kendi deneylerinizi oluşturabilir, bunları Azure üzerinde hizmetler olarak yayınlayabilir ve talep tahminleri oluşturmak için kullanabilirsiniz.
@@ -70,6 +70,16 @@ Başlangıç tahminlerini görselleştirmek ve değiştirmek için Supply Chain 
 
 ## <a name="limitations"></a>Sınırlamalar
 Talep tahmini, üretim sektöründeki müşterilere tahmin süreçleri oluşturmada yardımcı olan bir araçtır. Bir talep tahmini çözümünün temel işlevini sunar ve kolayca genişletilebilmek üzere tasarlanmıştır. Talep tahmini, ticaret, toptan satış, ambarlama, nakliye ve diğer profesyonel hizmetler gibi sektörlerde bulunan müşteriler için en iyi tercih olmayabilir.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Talep tahmini varyant dönüştürme sınırlaması
+
+Stok ölçü birimi talep tahmini ölçü biriminden farklıysa talep tahmini oluşturulurken varyant dönüştürme için ölçü birimi (UOM) tam olarak desteklenmez.
+
+Tahmin oluşturma (**Stok ölçü birimi > Talep tahmini ölçü birimi**) ürün ölçü birimi dönüştürmeyi kullanır. Talep tahmini oluşturma için geçmiş verileri yüklenirken, varyant düzeyinde tanımlanmış dönüştürmeler olsa bile, stok ölçü biriminden talep tahmini ölçü birimine dönüştürme yapılırken her zaman ürün düzeyinde ölçü birimi dönüştürme kullanılacaktır.
+
+Tahmini yetkilendirmenin ilk bölümü (**Talep tahmini ölçü birimi > Stok ölçü birimi**) ürün ölçü birimi dönüşümünü kullanır. Tahmini yetkilendirme işleminin ikinci kısmı (**Stok ölçü birimi > Satış ölçü birimi**), varyant ölçü birimi dönüşümünü kullanır. Oluşturulan talep tahmini yetkilendirildiğinde, talep tahmini ölçü biriminden stok ölçü birimine dönüştürme işlemi, ürün düzeyinde ölçü birimi dönüştürme kullanılarak yapılır. Aynı zamanda, stok birimi ile satış ölçü birimi arasındaki dönüştürme, varyant düzeyinde tanımlanan dönüştürmelere göre yapılır.
+
+Talep tahmini ölçü biriminin belirli anlamı olması gerekmediğini unutmayın. "Talep tahmin birimi" olarak tanımlanabilir. Ürünlerin her biri için, stok ölçü birimiyle dönüşümü 1:1 olacak şekilde tanımlayabilirsiniz.
 
 <a name="additional-resources"></a>Ek kaynaklar
 --------

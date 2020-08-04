@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma
-description: Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+title: Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
+description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057752"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599832"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özellikleri yapılandırma
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Commerce önizleme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
+Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özelliklerin nasıl yapılandırılacağını açıklamaktadır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
 İşlem e-posta özelliklerini değerlendirmek istiyorsanız, aşağıdaki önkoşulların karşılanması gerekir:
 
-- Kullanılabilir bir e-posta sunucunuz var (Basit Posta Transfer Protokolü \[SMTP\] sunucusu); Bunlar, önizleme ortamını temin ettiğiniz Microsoft Azure aboneliğinden kullanılabilir.
+- Kullanılabilir bir e-posta sunucunuz var (Basit Posta Transfer Protokolü \[SMTP\] sunucusu); Bunlar, değerlendirme ortamını temin ettiğiniz Microsoft Azure aboneliğinden kullanılabilir.
 - Sunucunun tam etki alanı adına (FQDN)/IP adresi, SMTP bağlantı noktası numaranız ve kullanılabilir kimlik doğrulama detayları vardır.
-
-Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özelliklerini değerlendirmek istiyorsanız, içerik yönetimi sistemi (CMS) kiracısının adının kullanılabilir olması gerekir. Bu adı bulma yönergeleri daha sonra bu konunun içinde sağlanmıştır. >>>(S: talimatlar nerede?)
 
 ## <a name="configure-the-image-back-end"></a>Görüntüyü arka arkaya konfigüre etme
 
@@ -47,9 +44,9 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 > [!NOTE]
 > Bu yordamı tamamlayabilmek için, [sitenizi Commerce'ta ayarlama](cpe-post-provisioning.md#set-up-your-site-in-commerce) adımlarını tamamlamanız gerekir.
 
-1. Sağlama sırasında e-ticareti başlattığınızda oluşan bir not oluşturduğunuz URL'yi kullanarak Commerce site yönetimi aracında oturum açın (bkz. [e-Ticareti başlat](provisioning-guide.md#initialize-e-commerce)).
+1. Sağlama sırasında e-Ticareti başlattığınız zamanı not ettiğiniz URL'yi kullanarak Commerce site oluşturucu aracında oturum açın (bkz. [e-Ticareti başlatma](provisioning-guide.md#initialize-e-commerce)).
 1. **Fabrikam** sitesini açın.
-1. Soldaki menüden **Varlıkları** seçin.
+1. Soldaki menüden **Medya Kitaplığı**'nı seçin.
 1. Herhangi bir tek resim varlığı seçin.
 1. Sağdaki Özellik denetçisinde, **genel URL** özelliğini bulun. Değer bir URL. Aşağıda bir örnek verilmiştir:
 
@@ -63,22 +60,22 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 
 ### <a name="update-the-media-base-url"></a>Ortam temel URL'si güncelleştirin
 
-1. Dynamics 365 Commerce'da oturum açın
+1. Commerce Headquarters'da oturum açın.
 1. Soldaki menüyü kullanarak, **Modüller \> Perakende ve ticaret \>> Kanal ayarı \> Kanal profilleri** gidin.
 1. **Düzenle** öğesini seçin.
 1. **Profil özelliklerinden**, **ortam sunucusu temel URL**'sinin özellik değerini daha önce oluşturduğunuz ortam taban URL'siyle değiştirin.
-1. Soldaki listeden, **varsayılan** kanal altında diğer kanalı seçin.
+1. **scXXXXXXXXX** adlı kanalı seçin.
 1. **Profil özellikleri** altında, **Ekle**'yi seçin.
 1. Eklenen özellik için, özellik anahtarı olarak **ortam sunucusu temel URL**'yi seçin. Özellik değeri olarak, önceden oluşturduğunuz ortam taban URL'sini girin.
 1. **Kaydet**'i seçin.
 
-## <a name="configure-the-email-server"></a>E-posta sunucusunu yapılandır
+## <a name="configure-and-test-the-email-server"></a>E-posta sunucusunu yapılandırma ve test etme
 
 > [!NOTE]
 > Burada girdiğiniz SMTP sunucusu ya da e-posta hizmetinin, ortam için kullandığınız Azure aboneliği içinden erişilebilir olması gerekir.
 
-1. Commerce'de oturum açın.
-1. Soldaki menüyü kullanarak, **Modüller \> Sistem yönetimi \> Kurulum \> E-posta \> E-posta parametreleri**'ne gidin.
+1. Commerce Headquarters'da oturum açın.
+1. Soldaki menüyü kullanarak, **Modüller \> Retail ve Commerce \> Headquarters kurulumu \> Parametreler \> E-posta parametreleri**'ne gidin.
 1. **SMTP** ayarları sekmesinde, **giden posta sunucusu** alanına SMTP sunucunuzun veya e-posta hizmetinizin FQDN'sini veya IP adresini girin.
 1. **SMTP port numarası** alanına port numarasını girin. (Güvenli Yuvalar katmanı \[SSL\]'yi kullanmıyorsanız, varsayılan bağlantı noktası numarası **25**'tir.)
 1. Kimlik doğrulama gerekliyse, değerleri **Kullanıcı adı** ve **parola** alanlarına girin.
@@ -92,8 +89,8 @@ Yeni çok yönlü kanal görüntülerini alarak dijital varlık yönetimi özell
 
 E-postalarını göndermek istediğiniz her işlemsel olay için e-posta şablonunun geçerli bir gönderen e-posta adresiyle güncelleştirilmesi gerekir.
 
-1. Commerce'de oturum açın.
-1. Soldaki menüyü kullanarak, **Modüller \> Kuruluş yönetimi \> Kurulum \>> Kuruluş e-posta şablonları** gidin.
+1. Commerce Headquarters'da oturum açın.
+1. Soldaki menüyü kullanarak, **Modüller \> Retail ve Commerce \> Headquarters kurulumu \> Parametreler \> Kuruluş e-posta şablonları**'na gidin.
 1. **Listeyi göster**'i seçin.
 1. Listedeki her şablon için şu adımları izleyin:
 
@@ -104,9 +101,9 @@ E-postalarını göndermek istediğiniz her işlemsel olay için e-posta şablon
 
 ## <a name="customize-email-templates"></a>E-posta şablonlarını özelleştirme
 
-E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirmek isteyebilirsiniz. Veya şablonların bağlantılarını, önizleme ortamınıza gitmeleri için güncelleştirmek isteyebilirsiniz. Bu prosedür, varsayılan şablonların nasıl karşıdan yükleneceğini açıklar, bunları özelleştirin ve sistemdeki şablonları güncelleştirir.
+E-posta şablonlarını farklı görüntüler kullanacak şekilde özelleştirmek isteyebilirsiniz. Veya şablonların bağlantılarını, değerlendirme ortamınıza gitmeleri için güncelleştirmek isteyebilirsiniz. Bu prosedür, varsayılan şablonların nasıl karşıdan yükleneceğini açıklar, bunları özelleştirin ve sistemdeki şablonları güncelleştirir.
 
-1. Tarayıcı kullanarak, [Microsoft Dynamics 365 Commerce Preview varsayılan e-posta şablonları. zip dosyasını](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) karşıdan yükleyin. Bu dosya aşağıdaki HTML belgelerini içerir:
+1. Tarayıcı kullanarak, [Microsoft Dynamics 365 Commerce Değerlendirme varsayılan e-posta şablonları zip dosyasını](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) indirin. Bu dosya aşağıdaki HTML belgelerini içerir:
 
     - Sipariş onayı şablonu
     - Hediye kartı şablonu
@@ -173,13 +170,15 @@ Aşağıdaki belirteçler siparişteki her ürün için değerlerle değiştiril
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Dynamics 365 Commerce önizleme ortamına genel bakış](cpe-overview.md)
+[Dynamics 365 Commerce değerlendirme ortamına genel bakış](cpe-overview.md)
 
-[Dynamics 365 Commerce önizleme ortamını hazırlama](provisioning-guide.md)
+[Dynamics 365 Commerce değerlendirme ortamı sağlama](provisioning-guide.md)
 
-[Dynamics 365 Commerce önizleme ortamını yapılandırma](cpe-post-provisioning.md)
+[Dynamics 365 Commerce değerlendirme ortamı yapılandırma](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce önizleme ortamıyla ilgili SSS](cpe-faq.md)
+[Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](cpe-bopis.md)
+
+[Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

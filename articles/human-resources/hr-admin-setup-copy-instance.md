@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431257"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554337"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
@@ -68,11 +68,11 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra PowerApps o
 
 4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı değerinin **tamamlandı** olarak güncelleştirilmesini bekleyin.
 
-   ![[Üzerine yazılacak örneği seçin](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Üzerine yazılacak örneği Seç](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. **Power Platform**'u seçin ve Microsoft Power Platform Yönetim Merkezi'nde oturum açın.
 
-   ![[Power Platform'u seçin](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platform öğesini seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Kopyalanacak PowerApps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
@@ -108,6 +108,6 @@ Ayrıca, bir örneği kopyaladığınızda aşağıdaki durumlar da değişecekt
 
 ## <a name="environment-admin"></a>Ortam yöneticisi
 
-Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir örneği kopyalamadan önce, hedef ortamda bir yönetici olduğunuzdan emin olun. Değilseniz, kopyalama işlemi tamamlandıktan sonra hedef sanal alanı ortamında oturum açamazsınız.
+Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir kurulumu kopyalamadan önce, kaynak ortamda bir yönetici olduğunuzdan emin olun. Değilseniz, kopyalama işlemi tamamlandıktan sonra hedef sanal alanı ortamında oturum açamazsınız.
 
 Hedef korumalı alan ortamındaki yönetici olmayan tüm kullanıcılar, korumalı alan ortamında istenmeyen oturum açma yapılmasını engelleyecek şekilde devre dışı bırakılmıştır. Yöneticiler gerektiğinde kullanıcıları yeniden değiştirebilir.

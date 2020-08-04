@@ -3,7 +3,7 @@ title: POS'ta gelen stok işlemi
 description: Bu konu satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123911"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551613"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -57,6 +57,9 @@ Zaman uyumsuz bir belge çerçevesini konfigüre etmek için aşağıdaki yordam
 5. **Genel** hızlı sekmesinde, **kurulum** bölümünde performans sorunu olmadığından emin olmak için **devamlı** seçeneğini **Hayır** olarak ayarlayın.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Belge işleme ve izleme görevleri için iki toplu iş oluşturun ve zamanlayın
+
+> [!NOTE]
+> Commerce sürüm 10.0.13 ve sonrasında, bu toplu işleri toplu iş çerçevesi aracılığıyla yapılandırmak zorunda değilsiniz. Toplu işler **Retail ve Commerce > Retail ve Commerce BT** menüsünden yapılandırılabilir. Toplu işleri yapılandırmak için **Perakende belge işlemi izleyicisi** ve **Perakende belge işlemi işleme** menü seçeneklerini kullanın.
 
 Oluşturduğunuz toplu işler, başarısız olan veya zaman aşımına uğrayabilen belgeleri işlemek için kullanılır. Bunlar ayrıca, POS'tan işlenmekte olan etkin stok belgelerinin sayısı sistem tarafından yapılandırılmış bir değeri aştığında da kullanılır.
 
