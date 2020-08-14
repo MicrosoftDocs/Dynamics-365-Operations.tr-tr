@@ -66,10 +66,12 @@
               items:
                 - name: Finance and Operations uygulamalarındaki yenilikler veya değişiklikler
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                - name: Finance'taki yenilikler veya değişiklikler
+                - name: Finance'teki yenilikler veya değişiklikler
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (Ekim 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (Temmuz 2020)
@@ -107,23 +109,23 @@
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: İş karar mekanizmaları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: İş kullanıcıları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Uygulama projesi yöneticileri
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Yöneticiler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Geliştiriciler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: İş ortağı satış ve pazarlama
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: İşlevsel danışmanlar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Çözüm mimarları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kullanıcı arabirimini keşfetme
               items:
                 - name: Kullanıcı arabirimi öğeleri
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Tahsisatları işleme
                   href: general-ledger/process-allocations.md
+                - name: Tahsisat koşulları
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Mali boyutlar
                   href: general-ledger/financial-dimensions.md
                 - name: Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Kamu sektöründe gelişmiş genel muhasebe girişi oluşturma
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: İşlem ayrıntısı raporlu mizan
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Nakit kontrol limitleri kullanma
                   href: public-sector/cash-control.md
                 - name: Kamu sektöründe yıl sonu işleme
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Kamu sektöründe bir satıcıya sertifika türü ekleme
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Kanada Uyumlaştırılmış Satış Vergisi hesaplaması
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Mali raporlama
           items:
             - name: Mali raporlamaya genel bakış
@@ -1846,7 +1854,9 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: 10.0.11'deki yenilikler veya değişiklikler
                           href: localizations/apac-ind-news-letter-10-0-11.md
-                    - name: Hindistan GST referans grupları
+                        - name: 10.0.12'deki yenilikler veya değişiklikler
+                          href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Hindistan GST'si referans grupları
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Yazar kasalara ilişkin GST tümleştirmesi
                       href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
@@ -2016,7 +2026,7 @@
                   href: localizations/italy.md
                 - name: KDV beyanı ayrıntıları
                   href: localizations/emea-ita-vat-statements-details.md
-                - name: Kara liste raporu
+                - name: Bloke liste raporu
                   href: localizations/emea-ita-black-list-report.md
                 - name: Yetki tarihi
                   href: localizations/emea-ita-competence-date.md
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Rapor 340
                   href: localizations/emea-esp-report-340.md
-                - name: Satış ve satınalma döngüleri
+                - name: Beyanname 347 raporu
+                  href: localizations/emea-esp-declaration-347-report.md
+                - name: Satış ve satın alma döngüleri
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Özel girişler ve açılış tabloları
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: KDV Hakkında Hemen Bilgi Sağlama
+                  href: localizations/emea-esp-sii.md
             - name: İsveç
               items:
                 - name: İsveç'e genel bakış

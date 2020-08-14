@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.13 için platform güncelleştirmeleri (Ekim 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: 10.0.12 için platform güncelleştirmeleri (Ağustos 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: 10.0.11 için platform güncelleştirmeleri (Temmuz 2020)
@@ -82,7 +84,9 @@
           items:
             - name: Bir veri tümleştirme (içe/dışa aktarma) stratejisi seçme
               href: data-entities/integration-overview.md
-            - name: Veri tümleştirme API'ları
+            - name: Öncelik tabanlı azaltma
+              hreF: data-entities/priority-based-throttling.md
+            - name: Veri tümleştirme API'leri
               items:
                 - name: Veri yönetimi paketi REST API'si
                   href: data-entities/data-management-api.md
@@ -152,6 +156,8 @@
                           items:
                             - name: Varlık ve alan eşlemelerini özelleştirme
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Hata yönetimi ve uyarı bildirimleri
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Uygulama yaşam döngüsü yönetimi
