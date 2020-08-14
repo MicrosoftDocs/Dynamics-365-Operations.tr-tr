@@ -90,6 +90,8 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (Ekim 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (Temmuz 2020)
@@ -127,23 +129,23 @@
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: İş karar mekanizmaları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: İş kullanıcıları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Uygulama projesi yöneticileri
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Yöneticiler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Geliştiriciler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: İş ortağı satış ve pazarlama
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: İşlevsel danışmanlar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Çözüm mimarları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kullanıcı arabirimini keşfetme
               items:
                 - name: Kullanıcı arabirimi öğeleri
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Vergi muafiyeti hesaplaması
+                          href: tax-exempt-price-inclusive.md
                     - name: E-posta bildirimi profili ayarlama
                       href: email-notification-profiles.md
                     - name: Numara serileri
@@ -386,9 +390,11 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: POS çevre birimleri ve hizmetleri için durum denetimi
                           href: pos-healthcheck.md
+                        - name: Ağ çevre birimleri desteği
+                          href: dev-itpro/network-peripherals.md
                     - name: Ekran düzenleri
                       items:
-                        - name: MPOS/CPOS'taki tanıtım verileri ekranı düzenleri
+                        - name: MPOS/CPOS'taki demo veri ekranı düzenleri
                           href: demo-data.md
                         - name: POS kullanıcı arabirimi görsel yapılandırmaları
                           href: pos-screen-layouts.md
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Sekme modülü
                       href: add-tab.md
+                    - name: iFrame modülü
+                      href: iframe-module.md
                 - name: Pazarlama modülleri
                   items:
                     - name: Promosyon başlığı modülü
@@ -966,11 +974,13 @@
                       href: author-footer-module.md
                 - name: Ürün ayrıntısı sayfası modülleri
                   items:
-                    - name: Satınalma kutusu modülü
+                    - name: Satın alma kutusu modülü
                       href: add-buy-box.md
+                    - name: Ortam galerisi modülü
+                      href: media-gallery-module.md
                     - name: Derecelendirme ve inceleme modülleri
                       href: ratings-reviews-modules.md
-                - name: Satınalma modülleri
+                - name: Satın alma modülleri
                   items:
                     - name: Sepet modülü
                       href: add-cart-module.md
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Sipariş ayrıntıları modülü
                       href: order-confirmation-module.md
-                    - name: Mağaza seçicisi modülü
-                      href: store-selector.md
                     - name: Hediye kartı modülü
                       href: add-giftcard.md
+                - name: Mağaza bulucu modülleri
+                  items:
+                    - name: Harita modülü
+                      href: map-module.md
+                    - name: Mağaza seçicisi modülü
+                      href: store-selector.md
                 - name: Hesap yönetimi modülleri
                   items:
                     - name: Hesap yönetimi sayfaları ve modülleri
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Modülleri önizleme ve hatalarını ayıklama
                       href: e-commerce-extensibility/test-module.md
-                    - name: Sahteleri kullanarak modülleri test etme
+                    - name: Sahte modüllü test modülleri
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Sahte sayfalar kullanarak modülleri test etme
                       href: e-commerce-extensibility/test-page-mock.md

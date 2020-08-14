@@ -70,12 +70,12 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (Ekim 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (Temmuz 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (Mayıs 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
@@ -109,23 +109,23 @@
             - name: Öğrenme kataloğu
               items:
                 - name: Öğrenme kataloğu giriş sayfası
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: İş karar mekanizmaları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: İş kullanıcıları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Uygulama projesi yöneticileri
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Yöneticiler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Geliştiriciler
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: İş ortağı satış ve pazarlama
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: İşlevsel danışmanlar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Çözüm mimarları
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Kullanıcı arabirimini keşfetme
               items:
                 - name: Kullanıcı arabirimi öğeleri
@@ -1257,7 +1257,9 @@
               items:
                 - name: Stok günlükleri
                   href: inventory/inventory-journals.md
-                - name: Stok yerleşimleri
+                - name: Stok günlüğü onay iş akışları
+                  href: inventory/inventory-journal-workflow.md
+                - name: Stok konumları
                   href: inventory/inventory-locations.md
                 - name: Stok durumları
                   href: inventory/inventory-statuses.md
@@ -1267,9 +1269,11 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Stok uygunluğu denetleme
                   href: inventory/tasks/check-availability-stock.md
+                - name: Eldeki stok listesi
+                  href: inventory/inventory-on-hand-list.md
                 - name: Ambardaki stok düzeylerini başlatma
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
-                - name: Ambar içindeki fiziksel stoğu transfer etme
+                - name: Ambar içindeki fiziksel stoku transfer etme
                   href: inventory/tasks/transfer-physical-inventory-within-warehouse.md
                 - name: Ambardaki stok düzeylerini ayarlama (temel ambarlama)
                   href: inventory/tasks/adjust-stock-levels-warehouse-basic-warehousing.md
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Rotalar ve işlemler
                       href: production-control/routes-operations.md
-                    - name: Ambar iş ilkeleri
+                    - name: İş ilkeleri
                       href: warehousing/warehouse-work-policies.md
                     - name: Çalışma zamanı planlama özelliklerini oluşturma
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2585,10 +2589,12 @@
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Satınalma siparişleri için iş şablonu ayarlama
+                - name: Satın alma siparişleri için iş şablonu ayarlama
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Yerleşim ürün boyutu karıştırması
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Kalite denetimi
+                  href: warehousing/quality-check.md
             - name: Giden ambar işlemleri
               items:
                 - name: Ambar yönetiminde rezervasyonlar
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Bölge eşiği stok yenilemesi
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Yerleşim kapasitesine göre stok yenileme
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Yük oluşturma ve sevkiyatlar
                   items:
                     - name: Onaylama ve transfer etme
                       href: warehousing/confirm-and-transfer.md
+                    - name: Toplu işlerden giden sevkiyatları onaylama
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Dalga sırasında gelişmiş yük oluşturma
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Ambara serbest bırakma kuralı
@@ -2679,11 +2689,9 @@
               items:
                 - name: Ambar iş ilkeleri
                   items:
-                    - name: Ambar iş ilkelerine genel bakış
+                    - name: İş ilkeleri
                       href: warehousing/warehouse-work-policies.md
-                    - name: Ambar iş ilkelerini ayarlama
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                    - name: Ambar yönetiminde stoğu ilişkili işle birlikte taşıma
+                    - name: Ambar yönetiminde stoku ilişkili işle birlikte taşıma
                       href: warehousing/move-inventory-associated-work.md
                     - name: İş sınıfı oluşturma
                       href: warehousing/tasks/create-work-class.md
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Ambar yönetimi eldeki stok girişlerini temizleme işi
                       href: warehousing/onhand-cleanup.md
-                    - name: Stok günlüğü
+                    - name: Stok günlükleri
                       href: inventory/inventory-journals.md
                     - name: Stok yerleşimi
                       href: inventory/inventory-locations.md
