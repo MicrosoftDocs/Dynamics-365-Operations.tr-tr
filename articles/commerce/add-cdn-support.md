@@ -3,7 +3,7 @@ title: İçerik teslim ağı (CDN) için destek ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce ortamınıza bir içerik teslim ağının (CDN) nasıl ekleneceği açıklanmaktadır.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533356"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646051"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>İçerik teslim ağı (CDN) için destek ekleme
 
@@ -35,7 +35,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce ortamınıza bir içerik teslim ağı
 
 Dynamics 365 Commerce uygulamasında bir e-ticaret ortamı kurduğunuzda, bunu CDN hizmetiyle çalışacak şekilde konfigüre edebilirsiniz. 
 
-Özel etki alanınız e-ticaret ortamınız için sağlama işlemi sırasında etkinleştirilebilir. Alternatif olarak, bir servis talebini, sağlama işlemi tamamlandıktan sonra ayarlamak için kullanabilirsiniz. E-ticaret ortamı için sağlama işlemi, ortamla ilişkilendirilmiş bir ana bilgisayar adı oluşturur. Bu ana bilgisayar adının aşağıdaki biçimi vardır; burada *e-ticaret-kiracı-adı* ortamınızın adıdır:
+Özel etki alanınız e-ticaret ortamınız için sağlama işlemi sırasında etkinleştirilebilir. Alternatif olarak, bir servis talebini, sağlama işlemi tamamlandıktan sonra ayarlamak için kullanabilirsiniz. E-ticaret ortamı için sağlama işlemi, ortamla ilişkilendirilmiş bir ana bilgisayar adı oluşturur. Bu ana bilgisayar adının aşağıdaki biçimi vardır; burada \<*e-commerce-tenant-name*\> ortamınızın adıdır:
 
 &lt;e-ticaret-kiracı-adı&gt;.commerce.dynamics.com
 
@@ -74,18 +74,20 @@ Tüm CDN hizmetleri kullanılabilir, ancak bu konudaki örnek için Azure ön ka
 
 Azure ön kapı hizmeti'ni kurma hakkında bilgi için bkz. [Hızlı başlangıç: yüksek oranda kullanılabilir bir Global Web uygulaması için ön kapı oluşturun.](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door)
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Azure ön kapı hizmeti'nde bir arka uç havuzu konfigüre et
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Azure Front Door Service'te bir arka uç havuzu yapılandırın
 
-Azure ön kapı hizmeti'nde bir arka uç havuzu konfigüre etmek için aşağıdaki adımları izleyin.
+Azure Front Door Service'te bir arka uç havuzu yapılandırmak için aşağıdaki adımları izleyin.
 
-1. Arka uç havuzuna boş arka uç ana bilgisayar üstbilgisi olan özel bir ana bilgisayar olarak **&lt;ecom-kiracı-adı&gt;.commerce.dynamics.com** ekleyin.
-1. **Sistem durumu araştırmaları** altında, **yol** alanında **/KeepAlive** girin.
-1. **Aralıklar (saniye)** alanına, **255** girin.
+1. Arka uç havuzuna boş arka uç ana bilgisayar üst bilgisi olan özel bir ana bilgisayar olarak **&lt;ecom-kiraci-adi&gt;.commerce.dynamics.com** ekleyin.
 1. **Yük dengelemesi** altında, varsayılan değerleri bırakın.
 
-Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **bir arka uç Havuzu Ekle** iletişim kutusu gösterilmektedir.
+Aşağıdaki resimde, Azure Front Door Service'te arka uç ana bilgisayar adı girilmiş halde **Bir arka uç ekle** iletişim kutusu gösterilmektedir.
 
 ![Arka uç havuzu iletişim kutusu Ekle](./media/CDN_BackendPool.png)
+
+Aşağıdaki resimde, Azure Front Door Service'te varsayılan yük dengeleme değerleriyle birlikte **Bir arka uç havuzu ekle** iletişim kutusu gösterilmektedir.
+
+![Arka uç havuzu iletişim kutusu ekle devamı](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Azure ön kapı hizmeti'nde kuralları ayarla
 
@@ -121,20 +123,22 @@ Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **bir kural Ekle** iletişim
 
 ![Kural Ekle iletişim kutusu](./media/CDN_CachingRule.png)
 
-Bu başlangıç konfigürasyonu dağıtıldıktan sonra, özel etki alanınızı Azure ön kapı hizmeti yapılandırmasına eklemeniz gerekir. Özel etki alanı eklemek için (örneğin `www.fabrikam.com`), etki alanı için kurallı bir ad (CNAME) yapılandırmalısınız.
+> [!WARNING]
+> Kullanacağınız etki alanı zaten etkin ve yayında ise, sonraki adımlarınız için yardım almak üzere, [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/)'teki **Destek** kutucuğunda bir destek bileti oluşturun. Daha fazla bilgi için bkz. [Finance and Operations uygulamaları veya Lifecycle Services (LCS) için destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Etki alanınız yeniyse ve önceden varolan yayındaki bir etki alanı değilse, özel etki alanınızı Azure Front Door Service yapılandırmasına ekleyebilirsiniz. Bu, Azure Front Door örneği aracılığıyla web trafiğini sitenize yönlendirmeyi sağlar. Özel etki alanı eklemek için (örneğin `www.fabrikam.com`), etki alanı için kurallı bir ad (CNAME) yapılandırmalısınız.
 
 Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **CNAME yapılandırması** iletişim kutusu gösterilmektedir.
 
 ![CNAME Konfigürasyon iletişim kutusu](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Kullanacağınız etki alanı zaten etkin ve canlı ise, test ayarlamak için bu etki alanını Azure ön kapı hizmeti ile etkinleştirme desteği ile iletişime geçin.
 
 Sertifikayı yönetmek için Azure ön kapı hizmetini kullanabilir veya özel etki alanı için kendi sertifikanızı kullanabilirsiniz.
 
 Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **Özel alan HTTPS** iletişim kutusu gösterilmektedir.
 
 ![Özel etki alanı HTTPS iletişim kutusu](./media/Custom_Domain_HTTPS.png)
+
+Azure Front Door'unuza özel etki alanı eklemeyle ilgili ayrıntılı yönergeler için bkz. [Front Door'a özel etki alanı ekleme](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 CDN'niz şimdi Commerce sitenizde kullanılabilecek şekilde doğru konfigüre edilmelidir.
 

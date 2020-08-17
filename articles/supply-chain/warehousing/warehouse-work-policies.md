@@ -1,252 +1,302 @@
 ---
-title: Ambar iş ilkelerine genel bakış
-description: Ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
-author: johanhoffmann
+title: İş ilkeleri
+description: Bu konuda, iş ilkelerinin nasıl ayarlanacağını açıklanmaktadır.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204574"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652017"
 ---
-# <a name="warehouse-work-policies-overview"></a>Ambar iş ilkelerine genel bakış
+# <a name="work-policies"></a>İş ilkeleri
 
 [!include [banner](../includes/banner.md)]
 
-Ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
+Bu konu, sistemin ve ambar uygulamasının iş ilkelerini destekleyecek şekilde nasıl ayarlanacağını açıklar. Bu işlevi, satın alma veya transfer emirleri aldığınızda ya da üretim sürecini tamamladığınızda, yerine koyma işi oluşturmadan stoku hızlı bir şekilde kaydetmek için kullanabilirsiniz. Bu konu genel bilgileri sağlar. Plaka alma ile ilgili ayrıntılı bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler. **İş emri türleri**, bir **stok konumu** ve bir **ürün** birleşimini kullanarak iş ilkesini ayarlayabilirsiniz. Örneğin, L0101 numaralı ürün 001 numaralı çıktı konumuna tamamlandı olarak bildirilir. Bunun üzerine, tamamlanan mal 001 numaralı çıktı konumundaki başka bir üretim emrinde tüketilir. Bu durumda, L0101 numaralı ürünü 001 numaralı çıktı konumuna tamamlandı olarak bildirdiğiniz zaman mamul mallara yönelik işin oluşturulmasını önlemek için bir iş ilkesi ayarlayabilirsiniz. İş ilkesi, aşağıdaki bilgilerle açıklanabilen ayrı bir varlıktır:
+İş ilkesi, üretilen bir kalem tamamlandı olarak bildirildiğinde veya ambar uygulaması kullanılarak mal alındığında ambar işi oluşturulup oluşturulmayacağını denetler. Her iş ilkesini, uygulandığı koşulları tanımlayarak ayarlayabilirsiniz: iş emri türleri ve süreçleri, stok konumu ve (isteğe bağlı olarak) ürünler. Örneğin, A*0001* ürününün satın alma siparişi ambar *24*'te *RECV* konumuna alınmalıdır. Daha sonra, ürün, *RECV* konumunda başka bir işlemde kullanılır. Bu durumda, bir çalışan *A0001* ürününün *RECV* konumuna alındığını bildirdiğinde yerine koyma işi oluşturmayı önleyecek bir iş ilkesi ayarlayabilirsiniz.
 
--   **İş ilkesi adı**(iş ilkesinin benzersiz tanımlayıcısı)
--   **İş emri türleri** ve **İş oluşturma yöntemi**
--   **Stok konumları**
--   **Ürünler**
+> [!NOTE]
+> - Bir iş ilkesinin etkin olması için **İş ilkeleri** sayfasının **Stok konumları** hızlı sekmesinde en az bir konum tanımlamanız gerekir. 
+> - Birden fazla iş ilkesi için aynı konumu belirtemezsiniz.
+> - Mobil cihaz menüsü öğelerinin **yazdırma etiketi** seçeneği, iş oluşturulmadıysa plaka etiketi yazdırmayacaktır.
 
-## <a name="work-order-types"></a>İş emri türleri
-Aşağıdaki iş emri türlerini seçebilirsiniz:
+## <a name="activate-the-features-in-your-system"></a>Sisteminizde özellikleri etkinleştirme
 
--   Yerine konan mamul mallar
--   Yerine konan ortak ürün ve yan ürün
--   Hammadde çekme
+Bu konuda açıklanan tüm işlevleri sisteminizde kullanılabilir hale getirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde aşağıdaki iki özelliği etkinleştirin:
 
-**İş oluşturma yöntemi** alanı **Asla** değerine sahiptir. Bu değer iş ilkesinin seçili iş emri türü için ambar işinin oluşturulmasını önleyeceğini belirtir.
+- Plaka teslim alma geliştirmeleri
+- Gelen iş için iş ilkesi geliştirmeleri
 
-## <a name="inventory-locations"></a>Stok konumları
-İş ilkesinin geçerli olduğu bir konum seçebilirsiniz. İş ilkesi ile ilişkilendirilmiş bir konum yoksa iş ilkesi herhangi bir işleme uygulanmaz. **Konumlar** sayfasında, belirli bir konum için iş ilkesi seçimini yapabilir veya iptal edebilirsiniz.
+## <a name="the-work-policies-page"></a>İş ilkeleri sayfası
 
-## <a name="products"></a>Ürünler
-İş ilkesinin geçerli olduğu bir ürün seçebilirsiniz. İş ilkesini tüm ürünlere veya seçili ürünlere uygulayabilirsiniz.
+İş ilkelerini ayarlamak için **Ambar Yönetimi \> Kurulum \> İş \> Çalışma ilkeleri**'ne gidin. Sonra, her hızlı sekmede, alanları aşağıdaki alt kısımlarda açıklandığı gibi ayarlayın.
 
-## <a name="example"></a>Örnek
-Aşağıdaki örnekte, PRD-001 ve PRD-00*2* olmak üzere iki üretim emri bulunmaktadır. Üretim emri PRD-001, SC1 ürününün O1 konumuna tamamlandı olarak bildirildiği **Derleme** adlı bir işleme sahiptir. Üretim emri PRD-002 **Boyama** adlı bir işleme sahiptir ve O1 konumundan SC1 ürününü kullanır. Üretim emri PRD-002 ayrıca O1 konumundan RM1 hammaddesini de kullanır. RM1, BULK-001 ambar konumunda depolanır ve hammadde çekme işlemi için ambar işi tarafından O1 konumuna çekilir. Malzeme çekme işi PRD-002 üretimi serbest bırakıldığında oluşturulur. 
+### <a name="the-work-order-types-fasttab"></a>İş emri türleri hızlı sekmesi
 
-[![Ambar iş ilkeleri](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+**İş emri türleri**hızlı sekmesinde, tüm iş emri türlerini ve çalışma ilkesinin geçerli olduğu ilgili iş süreçlerini ekleyin. İş ilkeleri için aşağıdaki iş emri türleri ve ilgili iş süreçleri desteklenir.
 
-Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdaki bilgileri göz önünde bulundurmalısınız:
+| İş siparişi türü | İş süreci |
+|---|---|
+| Hammadde çekme| İlgili tüm süreçler |
+| Yerine konan ortak ürün ve yan ürün | İlgili tüm süreçler |
+| Memul mal yerine koyma | İlgili tüm süreçler |
+| Transfer alış irsaliyesi | Plaka alma (ve yerine koyma) |
+| Satın alma siparişleri | <ul><li>Plaka alma (ve yerine koyma)</li><li>Yük kalemi teslim alma (ve yerine koyma)</li><li>Satın alma siparişi satırı teslim alma (ve yerine koyma)</li><li>Satın alma siparişi kalemini teslim alma (ve yerine koyma)</li></ul> |
 
--   Yerine konan mamul mallar için ambar işi, SC1 ürününü PRD-001 üretim emrinden O1 konumuna tamamlandı olarak bildirdiğinizde gerekli değildir. Bunun nedeni PRD-002 üretim emrinin **Boyama** işleminin SC1 ürününü aynı konumda kullanmasıdır.
--   Hammadde çekme için ambar işi RM1 hammaddesini BULK-001 ambar konumundan O1 konumuna taşımak için gereklidir.
+Bir iş ilkesini aynı iş emri türündeki birkaç iş sürecinde geçerli olacak şekilde ayarlamak için kılavuza her çalışma işlemine yönelik ayrı bir satır ekleyin.
 
-Bu noktalara göre, ayarlayabileceğiniz iş ilkesine bir örneği aşağıda bulabilirsiniz.
+Kılavuzdaki her satır için **İş oluşturma yöntemi** alanını aşağıdaki değerlerden birine ayarlayın:
 
+- **Hiçbir zaman**: İş ilkesi seçili iş emri türü için ambar işinin ve ilgili iş sürecinin oluşturulmasını önler.
+- **Çapraz sevk**: İş ilkesi, **Çapraz sevk ilkesi adı** alanında seçtiğiniz ilkeyi kullanarak çapraz sevk işi oluşturur.
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <strong>İş ilkesi adı</strong><br> | <strong>İş emri türleri</strong><br> |
-|         Yerine koyma yok - 01     `          |     - Mamul ürünü yerine koy<br>      |
-|                                       |    <strong>Yerleşimler</strong><br>     |
-|                                       |                 - O1                  |
-|                                       |    <strong>Ürünler</strong> <br>     |
-|                                       |                 - SC1                 |
+### <a name="the-inventory-locations-fasttab"></a>Stok konumları hızlı sekmesi
 
-Aşağıdaki yordamlar bu senaryo için ambar iş ilkesini ayarlama konusunda adım adım yönergeler sağlar. Bir üretim emrinin plaka denetimli olmayan bir konuma tamamlandı olarak nasıl bildirileceğini gösteren örnek bir kurulum da açıklanmıştır.
+**Stok konumları** hızlı sekmesinde, bu iş ilkesinin uygulanacağı tüm konumları ekleyin. İş ilkesi ile ilişkilendirilmiş bir konum yoksa iş ilkesi herhangi bir sürece uygulanmaz.
 
-## <a name="set-up-a-warehouse-work-policy"></a>Ambar iş ilkesi ayarlama
-Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz. Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır. 
+Birden fazla iş ilkesi için aynı konumu belirtemezsiniz.
 
-ADIMLAR (21)
+**Plaka izlemeyi kullan** seçeneği kapalı olduğunda bir konum profiline atanmış ambar konumu kullanılabilir. Bu durumda, çalışanlar eldeki stoku doğrudan kaydeder.
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| 1.  | Ambar Yönetimi &gt; Kurulum &gt; İş &gt; İş ilkeleri'ne gidin.        |
-| 2.  | Yeni'ye tıklayın.                                                                 |
-| 3.  | Çalışma ilkesi ad alanına 'Hiçbir yerine koyma çalışma' yazın.                    |
-| 4.  | Kaydet'e tıklayın.                                                                |
-| 5.  | Ekle öğesine tıklayın.                                                                 |
-| 6.  | Listede, seçili satırı işaretleyin.                                        |
-| 7.  | İş siparişi türü alanına, 'Mamul mallar yerine koyma' seçeneğini işaretleyin.            |
-| 8.  | Ekle öğesine tıklayın.                                                                 |
-| 9.  | Listede, seçili satırı işaretleyin.                                        |
-| 10. | İş emri türü alanında, "Ortak ürün ve yan ürün yerine koyma" seçeneğini işaretleyin. |
-| 11. | Stok konumları bölümünü genişletin.                                    |
-| 12. | Ekle öğesine tıklayın.                                                                 |
-| 13. | Listede, seçili satırı işaretleyin.                                        |
-| 14. | Ambar listesinde '51' girin.                                         |
-| 15. | Konum alanına bir '001' girin veya seçin.                              |
-| 16. | Ürünler bölümünü genişletin.                                               |
-| 17. | Ürün seçimi alanında, 'Seçili'yi işaretleyin.                         |
-| 18. | Ekle öğesine tıklayın.                                                                 |
-| 19. | Listede, seçili satırı işaretleyin.                                        |
-| 20. | Madde numarası alanında 'L0101' girin veya seçin.                         |
-| 21. | Kaydet'e tıklayın.                                                                |
+### <a name="the-products-fasttab"></a>Ürünler hızlı sekmesi
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Üretim emrini plaka denetimli olmayan bir konuma tamamlandı olarak bildirme
-Bu yordamda, plaka kontrollü olmayan bir konumuna tamamlandı olarak raporlama yapılmasına ilişkin bir örnek gösterilmiştir. Geçerli bir iş politikasının olması bu görev için bir ön koşuldur. Önceki yordamda iş ilkesinin kurulumu gösterilmiştir. 
+**Ürünler** sekmesinde, ilkenin hangi ürünlere uygulanacağını denetlemek için **Ürün seçimi** alanını ayarlayın:
 
-ADIMLAR (25)
+- **Tümü**: İlke tüm ürünler için geçerli olur.
+- **Seçili**: İlke yalnızca kılavuzda listelenen ürünler için geçerli olur. Kılavuza ürün eklemek veya kılavuzdan ürün kaldırmak için **Ürünler** hızlı sekmesindeki araç çubuğunu kullanın.
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><strong>Alt görev: Bir çıkış konumu ayarlayın.</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td>Organizasyon yönetimi &gt; Kaynaklar &gt; Kaynak grupları'na gidin.</td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td>Listede, kaynak grubu &#39;5102&#39; seçin.</td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td>Düzenle öğesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td>Çıkış ambar alanında, &#39;51&#39; girin.</td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td>Çıkış konumu alanında &#39;001&#39; girin.</td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td>Konum 001, plaka kontrollü bir konum değildir. Konum için geçerli bir çalışma politikası bulunuyorsa sadece, plaka dışı bir çıkış konumu ayarlayabilirsiniz.</td>
-</tr>
-<tr>
-<td colspan="3"><strong>Alt görev: Bir üretim emri oluşturun ve bunu tamamlandı olarak rapor edin.</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td>Sayfayı kapatın.</td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td>Üretim denetimi &gt; Üretim emirleri &gt; Tüm üretim emirleri'ne gidin.</td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td>Yeni üretim emri'ne tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td>Madde numarası alanında &#39;L0101&#39; girin.</td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td>Oluştur'a tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td>Eylem Bölmesinde, Üretim emri öğesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td>Tahmin seçeneğine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td>Tamam'ı tıklatın.</td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td>Başlat'a tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td>Genel sekmesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td>Otomatik malzeme listesi tüketimi alanında, &#39;Hiçbir zaman&#39; seçin.</td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td>Tamam'a tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td>Tamamlandı olarak bildir öğesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td>Genel sekmesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td>Kabul hatası alanında Evet'i seçin.</td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td>Tamam'ı tıklatın.</td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td>Eylem Bölmesinde, Ambar öğesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td>İş ayrıntıları öğesine tıklayın.</td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td>Üretim emri, tamamlandı olarak rapor edilmişse, hiçbir iş üretilmez. Bu durum, Ürün L0101, konum 001'e bitirildi olarak rapor edildiğinde işin oluşturulmasının engellenmesi için tanımlanan bir iş politikası bulunmasından kaynaklanır.</td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a>Varsayılan ve özel "hedef" konumlar
 
+> [!NOTE]
+> Bu bölümde açıklanan işlevselliğin sisteminizde kullanılabilmesini sağlamak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ndeki gelen *Plaka alma geliştirmeleri* ve *Gelen iş için iş ilkesi geliştirmeleri*'ni açmanız gerekir.
 
+Daha önce sistem, yalnızca her ambar için tanımlanan varsayılan konumda almayı destekler. Ancak, aşağıdaki iş oluşturma süreçlerini kullanan mobil cihaz menü öğeleri artık **Varsayılan verileri kullan** seçeneğini sağlar. Bu seçenek, bir veya daha fazla menü öğesine özel bir "hedef" konum atamanıza olanak tanır. (Bu seçenek bazı menü öğesi türleri için zaten kullanılabilir.)
 
+- Plaka alma (ve yerine koyma)
+- Yük kalemi teslim alma (ve yerine koyma)
+- Satın alma siparişi satırı teslim alma (ve yerine koyma)
+- Satın alma siparişi kalemini teslim alma (ve yerine koyma)
+
+Bir menü öğesinin **Hedef konum** ayarı, o menü öğesi kullanılarak işlenen tüm siparişler için ambarın varsayılan alma konumunu geçersiz kılar.
+
+Bir mobil cihaz menü öğesini özel bir konumda almayı destekleyecek şekilde ayarlamak için aşağıdaki adımları izleyin.
+
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Bu bölümün önceki kısımlarında listelenen iş oluşturma süreçlerinden birini kullanan bir menü öğesi seçin veya oluşturun.
+1. **Genel** hızlı sekmesinde, **Varsayılan verileri kullan** seçeneğini **Evet** olarak ayarlayın.
+1. Eylem Bölmesinde **Varsayılan veriler**'i seçin.
+1. **Varsayılan veriler** sayfasında, aşağıdaki değerleri ayarlayın:
+
+    - **Varsayılan veri alanı:** Bu alanı *Hedef konum* olarak ayarlayın.
+    - **Ambar:** Bu menü öğesiyle kullanılacak hedef ambarı seçin.
+    - **Konum:** Bu alan, seçili ambar için kullanılabilir olan tüm konum kimliklerini listeler. Ancak, bu alanın ayarı aslında herhangi bir etkiye sahip değildir. Bu nedenle boş bırakabilirsiniz. Bununla birlikte, **Sabit kodlu değer** alanına girmeniz gereken kimliği onaylamak için listeyi kullanabilirsiniz.
+    - **Sabit kodlu değer:** Bu menü öğesi için geçerli olan giriş konumunun konum kimliğini girin.
+
+> [!TIP]
+> Bir iş ilkesi, yalnızca tüm alma konumları ilgili iş ilkesi kurulumunda listeleniyorsa uygulanabilir. Bu gereksinim, varsayılan ambar teslim alma konumu veya özel "hedef" konum olup olmadığına bakılmaksızın uygulanır.
+
+## <a name="example-scenario-warehouse-receiving"></a>Örnek senaryo: Ambar teslim alma
+
+*Satınalma sipariş kalemi teslim alma (ve yerine koyma)* süreci tarafından alınan tüm ürünler, *FL-001* konumunda kayıtlı olmalıdır ve bunlar ambar *24*' te kullanılabilir olmalıdır. Ancak, iş oluşturulmamalıdır. Başka bir süreç (diğer mobil cihaz menü öğelerini kullanan) tarafından teslim alınan ürünler varsayılan ambar teslim alma konumuna (*RECV*) kaydedilmelidir ve her zamanki gibi iş oluşturulması gerekir. (Bu senaryo varsayılan teslim alma kurulumunu göstermez.)
+
+Bu senaryo için aşağıdaki öğeler gereklidir:
+
+- Tüm ürünler için *FL-001* konumuna *Satın alma sipariş kalemi teslim alma (ve yerine koyma)* süreci iş ilkesi
+- Varsayılan verileri olan ve **Hedef konum** alanı *FL-001* olarak ayarlanmış bir mobil cihaz menü öğesi
+
+### <a name="prerequisites"></a>Önkoşullar
+
+Bu senaryoda açıklanan işlevselliğin sisteminizde kullanılabilmesini sağlamak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ndeki gelen *Plaka alma geliştirmeleri* ve *Gelen iş için iş ilkesi geliştirmeleri*'ni açmanız gerekir.
+
+Bu senaryo stamdart demo verilerini kullanır. Bu nedenle, burada sunulan değerleri kullanarak bu senaryoyla çalışmak istiyorsanız demo verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz.
+
+### <a name="set-up-a-work-policy"></a>İş ilkesi ayarlama
+
+1. **Ambar yönetimi \> Kurulum \> İş \> İş ilkeleri**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **İş ilkesi adı**alanında, *Satın alma kalemi yerine koyma işi yok* girin.
+1. **Kaydet**'i seçin.
+1. **İş emri türleri** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **İş emri türü:** *Satın alma siparişleri*
+    - **İş süreci:** *Satın alma sipariş kalemi teslim alma (ve yerine koyma)*
+    - **İş oluşturma yöntemi:** *Hiçbir zaman*
+    - **Çapraz sevk ilkesi adı:** Bu alanı boş bırakın.
+
+1. **Stok konumları** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **Ambar:** *24*
+    - **Konum:** *FL-001*
+
+1. **Ürünler** hızlı sekmesinde, **Ürün seçimi** alanını *Tümü* olarak ayarlayın.
+1. **Kaydet**'i seçin.
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Teslim alma konumunu değiştirmek için bir mobil cihaz menü öğesi ayarlama
+
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Sol bölmede, varolan **Satın alma teslimi**menü öğesini seçin.
+1. **Genel** hızlı sekmesinde, **Varsayılan verileri kullan** seçeneğini *Evet* olarak ayarlayın.
+1. **Kaydet**'i seçin.
+1. Eylem Bölmesinde **Varsayılan veriler**'i seçin.
+1. **Varsayılan veriler** sayfasında, Eylem Bölmesinde kılavuza satır eklemek için **Yeni**'yi seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **Varsayılan veri alanı:** *Hedef konum*
+    - **Ambar:** *24*
+    - **Konum:** Bu alanı boş bırakın.
+    - **Sabit kodlu değer:** *FL-001*
+
+1. **Kaydet**'i seçin.
+
+### <a name="receive-a-purchase-order-without-creating-work"></a>İş oluşturmadan bir satın alma siparişi teslim alma
+
+Bu bölümdeki örnekte, bir satın alma siparişi kaleminin ambar için ayarlanan varsayılan teslim alma konumundan farklı bir konumda iş oluşturulmadan nasıl teslim alınacağı gösterilmiştir. Bu örnekte, bu senaryoda daha önce oluşturduğunuz iş ilkesi ve mobil cihaz öğesi kullanılmaktadır.
+
+#### <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
+
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **Satın alma siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
+
+    - **Satıcı hesabı:** *US-101*
+    - **Tesis:** *2*
+    - **Ambar:** *24*
+
+1. İletişim kutusunu kapatmak ve yeni satın alma siparişini açmak için **Tamam**'ı seçin.
+1. **Satın alma siparişi satırları** hızlı sekmesinde, boş satır için aşağıdaki değerleri ayarlayın:
+
+    - **Madde numarası:** *A0001*
+    - **Miktar:** *1*
+
+1. **Kaydet**'i seçin.
+1. Satın alma siparişi numarasını not edin.
+
+#### <a name="receive-a-purchase-order"></a>Satın alma siparişi teslim alma
+
+1. Mobil cihazda, kullanıcı kimliği olarak *24* ve parola olarak *1* girerek ambar *24*'te oturum açın.
+1. **Gelen**'i seçin.
+1. **Satın alma teslim alma** öğesini seçin. **Konum**alanı *FL-001* olarak ayarlanmalıdır.
+1. Önceki yordamda oluşturduğunuz satın alma siparişinin satın alma siparişi numarasını girin.
+1. **Kalem numarası** alanına *A0001* girin.
+1. **Tamam**'ı seçin.
+1. **Miktar** alanına *1* yazın.
+1. **Tamam**'ı seçin.
+
+Satın alma siparişi artık teslim alındı, ancak ilişkilendirilmiş iş yok. Eldeki stok güncelleştirildi ve *FL-001* konumunda *A0001* kaleminden *1* adet bulunuyor.
+
+## <a name="example-scenario-manufacturing"></a>Örnek senaryo: Üretim
+
+Aşağıdaki örnekte, *PRD-001* ve *PRD-002* olmak üzere iki üretim emri bulunmaktadır. Üretim emri *PRD-001*, *SC1* ürününün *001* konumuna tamamlandı olarak bildirildiği *Derleme* adlı bir işleme sahiptir. Üretim emri *PRD-002*, *Boyama* adlı bir işleme sahiptir ve *001* konumundan *SC*1 ürününü kullanır. Üretim emri *PRD-002* de *001* konumundan *RM*1 hammaddesini kullanır. *RM1* hammaddesi, *BULK-001* ambar konumunda depolanır ve hammadde çekmeye yönelik ambar işi tarafından *001* konumuna çekilir. Malzeme çekme işi *PRD-002* üretimi serbest bırakıldığında oluşturulur.
+
+[![Ambar iş ilkeleri](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+
+Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdaki hususları göz önünde bulundurmalısınız:
+
+- Yerine konan mamul mallar için ambar işi, *SC1* ürününü *PRD-001* üretim emrinden *001* konumuna tamamlandı olarak bildirdiğinizde gerekli değildir. Bunun nedeni *PRD-002* üretim emrinin *Boyama* işleminin *SC*1 ürününün aynı konumda kullanmasıdır.
+- Hammadde çekme için ambar işi *RM*1 hammaddesini *BULK-001* ambar konumundan *001* konumuna taşımak için gereklidir.
+
+Bu noktalara göre, ayarlayabileceğiniz iş ilkesine bir örneği aşağıda bulabilirsiniz:
+
+- **İş ilkesi adı:** *Yerine koyma işi yok*
+- **İş emri türleri:** *Mamul mal yerine koyma* ve *Ortak ürün ve yan ürün yerine koyma*
+- **Stok konumları:** Ambar *51* ve konum *001*
+- **Ürünler:** *SC1*
+
+Aşağıdaki örnek senaryo bu senaryo için ambar iş ilkesini ayarlama konusunda adım adım yönergeler sağlar.
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Örnek senaryo: Plaka denetimli olmayan bir konuma tamamlandı olarak bildirme
+
+Bu senaryo, bir üretim emrinin plaka denetimli olmayan bir konuma tamamlandı olarak bildirildiği bir örneği göstermektedir.
+
+Bu senaryo stamdart demo verilerini kullanır. Bu nedenle, burada sunulan değerleri kullanarak bu senaryoyla çalışmak istiyorsanız demo verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz.
+
+### <a name="set-up-a-warehouse-work-policy"></a>Ambar iş ilkesi ayarlama
+
+Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz.
+
+1. **Ambar yönetimi \> Kurulum \> İş \> İş ilkeleri**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **İş ilkesi adı**alanında, *Yerine koyma işi yok* girin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. **İş emri türleri** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **İş emri türü:** *Mamul malları yerine koyma*
+    - **İş süreci:** *Tüm ilgili iş süreçleri*
+    - **İş oluşturma yöntemi:** *Hiçbir zaman*
+    - **Çapraz sevk ilkesi adı:** Bu alanı boş bırakın.
+
+1. Kılavuza ikinci bir satır eklemek için **Ekle**'yi tekrar seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **İş emri türü:** *Ortak ürün ve yan ürün yerine koyma*
+    - **İş süreci:** *Tüm ilgili iş süreçleri*
+    - **İş oluşturma yöntemi:** *Hiçbir zaman*
+    - **Çapraz sevk ilkesi adı:** Bu alanı boş bırakın.
+
+1. **Stok konumları** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin ve sonra yeni satır için aşağıdaki değerleri ayarlayın:
+
+    - **Ambar:** *51*
+    - **Konum:** *001*
+
+1. **Ürünler** hızlı sekmesinde, **Ürün seçimi** alanını *Seçili* olarak ayarlayın.
+1. **Ürünler** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin.
+1. Yeni satırda, **Kalem numarası** alanını *L0101* olarak ayarlayın.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+
+### <a name="set-up-an-output-location"></a>Bir çıkış konumu ayarlama
+
+1. **Kuruluş yönetimi \> Kaynaklar \> Kaynak grupları**'na gidin.
+1. Sol bölmeden **5102** kaynak grubunu seçin.
+1. **Genel** hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
+
+    - **Çıkış ambarı:** *51*
+    - **Çıkış konumu:** *001*
+
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+
+> [!NOTE]
+> *001* konumu, plaka denetimli bir konum değildir. Konum için geçerli bir çalışma ilkesi bulunuyorsa sadece, plaka denetimli olmayan bir çıkış konumu ayarlayabilirsiniz.
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a>Bir üretim emri oluşturun ve bunu tamamlandı olarak rapor edin
+
+1. **Üretim denetimi \> Üretim emirleri \> Tüm üretim emirleri**'ne gidin.
+1. Eylem Bölmesinde **Yeni üretim emri**'ni seçin.
+1. **Üretim emri oluştur** iletişim kutusunda, **Kalem numarası** alanını *L0101* olarak ayarlayın.
+1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Oluştur**'u seçin.
+
+    **Tüm üretim emirleri** sayfasındaki kılavuza yeni bir üretim emri eklenir.
+
+    Yeni üretim emrini seçili durumda tutun.
+
+1. Eylem Bölmesinde, **Üretim emri** sekmesinde **İşlem** grubunda **Tahmin**'i seçin.
+1. **Tahmin** iletişim kutusunda tahmini okuyun ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Eylem Bölmesinde, **Üretim emri** sekmesinde **İşlem** grubunda **Başlat**'ı seçin.
+1. **Başlat** iletişim kutusunda, **Genel** sekmesinde, **Otomatik BOM kullanımı** alanını *Hiçbir zaman* olarak ayarlayın.
+1. Ayarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Eylem Bölmesinde, **Üretim emri** sekmesinde **İşlem** grubunda **Tamamlandı olarak bildir**'i seçin.
+1. **Tamamlandı olarak bildir**iletişim kutusunda, **Genel** sekmesinde **Hatayı kabul et** seçeneğini *Evet* olarak ayarlayın.
+1. Ayarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Eylem Bölmesinde **Ambar** sekmesindeki **Genel** grubunda **İş ayrıntıları**'nı seçin.
+
+Üretim emri, tamamlandı olarak bildirildiğinde, yerine koyma için hiçbir iş üretilmez. Bu davramış, Ürün *L0101*, konum *001*'e tamamlandı olarak bildirildiğinde işin oluşturulmasının engellenmesi için tanımlanan bir iş ilkesi bulunmasından kaynaklanır.
+
+## <a name="more-information"></a>Daha fazla bilgi
+
+Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
+
+Plaka alma ve iş ilkeleri ile ilgili ayrıntılı bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
+
+Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)

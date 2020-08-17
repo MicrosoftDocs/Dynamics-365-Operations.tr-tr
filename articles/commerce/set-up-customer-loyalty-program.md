@@ -3,7 +3,7 @@ title: Bağlılık programına genel bakış
 description: Bu konu, Dynamics 365 Commerce'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024365"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613215"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 
@@ -55,7 +55,7 @@ Aşağıdaki tabloda her bir bileşen ve bağlılık programı ayarlarında nere
 | İskontoları ayarlama (önkoşul)                  | Bağlılık programı müşterilerinize sunduğunuz iskontoları ayarlayın. Örneğin, tüm giyim ürünlerinde yüzde 5 indirim sunabilirsiniz. | İskontolar, fiyat grupları bir bağlılık programına dahil edilmeden önce eklenmelidir. Fiyat grupları, bağlılık programlarına ve bağlılık programı katmanlarına atanır. |
 | Fiyat gruplarını ayarlama (önkoşul)               | Fiyat grupları, ürünler için fiyatları ve iskontoları oluşturmak ve yönetmek için kullanılır. Bağlılık programlarınıza uygulanan iskontoları içeren fiyat gruplarını ayarlayın. | Fiyat grupları, bağlılık programlarına ve bağlılık programı katmanlarına atanır. |
 | Kanalları ayarlama (önkoşul)                   | Commerce kanalları, bir adreste hizmet veren mağaza, çevrimiçi mağaza veya çağrı merkezi gibi bağlılık programlarınıza katılan mağazalardır. Bunlara bağlılık programları atamadan önce kanallarınızı ayarlamanız gerekir. | Kanalı bağlılık programına katılıyorsa ilgili kanalını bağlılık programına atarsanız. |
-| Bağlılık programı ödeme yöntemi ayarlama (önkoşul) | Bir bağlılık programı kartının bir kayıtta kullanılabilmesi için bir ödeme yöntemi ayarlamanız gerekir, bağlılık programı puanları bir bağlılık programı kapsamında kullanılabilir. Müşterilerin bağlılık programı puanlarını ürünlerde kullanabilmesi için kanalına bağlılık programı ödeme yöntemi de eklemeniz gerekir. | Bir bağlılık programı türü ödeme yöntemi ayarlayın, sonra bağlılık programı ödeme yöntemini bağlılık programına katılan kanallarına atayın. |
+| Bağlılık programı ödeme yöntemi ayarlama (önkoşul) | Bağlılık programı puanlarının, fiziksel mağazalar, çevrimiçi mağazalar veya çağrı merkezleri gibi herhangi bir kanalda kullanılabilir olmasını sağlamak için **Kart numaraları** sayfasında bağlılık programı kartları için aralık ayarlamanız gerekir. | Bir bağlılık programı türü ödeme yöntemi ayarlayın, sonra bağlılık programı ödeme yöntemini bağlılık programına katılan kanallarına atayın. |
 | Tarih aralıklarını ayarlama                            | Tarih aralıkları, bağlılık programı katmanları için geçerli zaman aralığını ayarlamanın esnek bir yolunu sağlar. Bir müşterinin bir katmanında ne kadar kalacağını veya bir katman için uygun hale gelmesi için bir etkinliği ne kadar sürede tamamlaması gerektiğini belirlemek için tarih aralıklarını kullanın. | Tarih aralıkları yalnızca bağlılık programlarınızda katmanlar kullanıyorsanız geçerlidir. Program katmanlarında geçerli tarih aralığını ve program katmanı kuralları için geçerli tarih aralıklarını seçin. |
 | Ödül puanlarını ayarlama                             | Ödül puanları, müşterilerinize sunduğunuz ödül türleridir. Ödül puanları, kullanılabilir veya kullanılamaz özelliktedir. Kullanılabilir ödül puanları ürünlerle takas edilebilir. Kullanılamaz ödül puanları, izleme amaçlarıyla veya bağlılık programındaki bir müşteriyi sonraki katmana ilerletmek için kullanılır. | Ödül puanları, katman kurallarında gösterilir ve bir müşterinin belirli bir katman için uygunluğunu belirlemek üzere kullanılır. Ödül puanları, bağlılık programı planlarında kazanç ve kullanım kurallarında da gösterilir. Kazanç kurallarında, müşterinin belirli bir etkinlik neticesinde kazanabileceği ödülleri belirtirsiniz. Kullanım kurallarında, müşterinin kullanabileceği ödülü belirtirsiniz. |
 | Bağlılık programları ayarlama                          | Bağlılık programları, sunduğunuz temel bağlılık öğeleridir. Her bir bağlılık programına atanmış bağlılık programı katmanları vardır. İskontolar ve fiyat grupları, program düzeyinde ya da katman düzeyinde bağlılık programlarına atanır. | Bağlılık programlarınız için bağlılık programı planları oluşturursunuz. Bağlılık programı kartlarını bağlılık programlarınıza atarsınız ve sonra bu kartlar müşterilere atanabilir. Kanalları, bağlılık programı planlarına atanmış olan bağlılık programları katılır. Bağlılık programı kartına sahip tüm müşteriler ilgili karta atanmış bağlılık programlarına katılabilir. |

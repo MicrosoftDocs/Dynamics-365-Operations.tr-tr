@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431372"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651702"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -128,20 +128,47 @@ Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eş
 
 Sonraki tüm kullanıcı oturumları yeni ızgara denetimi etkin olarak başlayacaktır.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
+Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için formun `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
+
+        this.forceLegacyGrid();
+
+Bu API, yeni kılavuz denetiminin zorunlu hale geleceği Ekim 2021'e kadar kabul edilecek. Lütfen bu API'nin kullanılmasını gerektiren tüm sorunları Microsoft'a bildirin. 
+
 ## <a name="known-issues"></a>Bilinen sorunlar
 Bu bölüm, özellik bir önizleme durumundayken yeni kılavuz denetimiyle ilgili bilinen sorunların listesini içerir.  
 
 ### <a name="open-issues"></a>Açık sorunlar
+-  **Yeni kılavuz denetimi** özelliğini etkinleştirdikten sonra, bazı sayfalar varolan kılavuz denetimini kullanmaya devam eder. Bu, aşağıdaki durumlarda ortaya çıkar:  
+    -  Çoklu sütunlarda işlenen sayfada bir kart listesi vardır.
+    -  Sayfada gruplanmış bir kart listesi vardır.
+    -  Tepki olmayan genişletilebilir bir denetimi olan kılavuz sütunu.
 
-- Birden çok sütun olarak işlenen kart listeleri şimdi tek bir sütun olarak işleniyor.
-- Gruplanmış listeler grup olarak veya ayrı sütunlarda işlenmiyor.
+    Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.     
 
 ### <a name="fixed-as-part-of-10013"></a>10.0.13'nin parçası olarak düzeltildi
 
-> [!NOTE]
-> Aşağıdaki bilgiler sağlanmıştır, buna göre plan yapabilirsiniz. sürüm 10.0.13 için hedeflenen sürüm zamanlaması hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Araç ipuçları resimler için gösterilmiyor.
+-  [Hata 470173] Etkin olmayan satırlardaki onay kutuları hücredeki boşluk tıklandığında geçiş yapıyor
+-  [Hata 474848] Kılavuzlarla geliştirilmiş önizlemeler görüntülenmiyor
+-  [Hata 474851] Referans grup denetimlerindeki köprüler çalışmıyor 
+-  [Hata 471777] Bir mobil uygulama düzenlemek veya oluşturmak için kılavuzdaki alanlar seçilemiyor
+-  [KB 4569441] Çok sütunlu kart listeleri, görüntülerdeki araç ipuçları ve bazı alanlardaki görüntüleme seçenekleri ile ilgili sorunlar
+-  [KB 4575279] Genel Günlükte işaretlenen satırların tümü silinmiyor
+-  [KB 4575233] Görüntü seçenekleri başka bir satıra taşındıktan sonra geri yüklenemiyor
+-  [KB 4571095] yanlışlıkla Enter tuşuna basıldığında ürün girişi deftere nakli yapılıyor (bir sayfanın varsayılan eyleminin doğru işlenmesi)
+-  [KB 4575437] Düzenlenebilir denetimlerle yapılan aramalar beklenmedik şekilde kapanıyor
+-  [KB 4569418] Teslimat çizelgesi formunda tekrarlanan satır oluşturuluyor
+-  [KB 4575435] Gelişmiş önizleme bazen fare işaretçisi alanın yakınında olmadığında bile kalıyor
+-  [KB 4575434] Alan değiştirildiğinde arama filtrelenmiyor
+-  [KB 4575430] Parola alanlarındaki değerler kılavuzda maskelenmiyor
+-  [KB 4569438] Tedarikçi hareketleri kapatılırken satırlar işaretlendikten sonra "Bir doğrulama sorunu nedeniyle işlem durduruldu" görüntüleniyor
+-  [KB 4569434] Tüzel kişileri yenileme, daha az kayda neden oluyor
+-  [KB 4575297] Odak, bir kılavuz üzerinden düzenleme ve sekme geçişi sırasında görev kaydedici bölmesine geçiyor
+-  [KB 4566773] Düzeltme hareketleri fiş hareketleri sorgulamasında negatif olarak gösterilmiyor 
+-  [KB 4575288] Basit bir listedeki satırlar arasındaki kenarlığı seçerken odak etkin satıra sıfırlanıyor
+-  [KB 4575287] Günlüklerde yeni bir satır oluşturmak için aşağı ok kullanılırken odak ilk sütuna dönmüyor
+-  [KB 4564819] Serbest metin faturasındaki satırlar silinemiyor (veri kaynağı ChangeGroupMode=ImplicitInnerOuter olduğu için)
+-  [KB 4563317] Araç ipuçları/gelişmiş önizlemeler resimler için gösterilmiyor
 
 ### <a name="fixed-as-part-of-10012"></a>10.0.12'nin parçası olarak düzeltildi
 
@@ -158,6 +185,7 @@ Bu bölüm, özellik bir önizleme durumundayken yeni kılavuz denetimiyle ilgil
 - [KB 4562647] Güvenlik rolleri ızgarasına yeni bir satır eklendikten sonra, odak **Yayımla** iletişim kutusundaki ilk denetime sıfırlanır.
 - [KB 4563310] Gelişmiş önizleme bir satır değiştirildikten sonra kapatılmadı.
 - [KB 4563313] Aramada bir değer seçildiğinde Internet Explorer'da "beklenmeyen istemci hatası" durumu ortaya çıkar .
+- [KB 4564557] Aramalar ve açılan menüler Internet Explorer'da açılmıyor
 - [KB 4563324] **Personel yönetimi** çalışma alanı açıldıktan sonra gezinme çalışmaz.
 
 ### <a name="fixed-as-part-of-10011"></a>10.0.11'nin parçası olarak düzeltildi

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606834"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651678"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -38,8 +38,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
 
 > [!NOTE]
-> 10.0.13 sürümü henüz yayımlanmadı. Bu bilgi yalnızca planlama amaçlıdır. 10.0.13 sürümü için içerik ve işlevde değişiklik yapılabilir. Sürümler hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](../../fin-ops/get-started/public-preview-releases.md).
-
+> Sürüm 10.0.13 bir önizleme sürümüdür. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Üç jQuery bileşen kitaplığını yükseltme 
 
@@ -50,6 +49,27 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Etkilenen ürün alanları**         | Genişletilebilir denetimler, özellikle özel JavaScript kod kullanımı kullanım dışı bırakıldı veya API'lar kaldırıldı |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Sürüm 10.0.13/Platform güncelleştirmesi 37 ile, müşteriler isteğe bağlı olarak "üç jQuery bileşen kitaplığını yükselt" özelliğini etkinleştirerek en son kitaplıklara geçiş yapabilir. Etkilenen API'ların taşınması için zaman vermek amacıyla, yeni kitaplıklara geçiş Nisan 2021 sürümü ile zorunlu olacaktır.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Varolan kılavuz denetimi/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Varolan kılavuz denetimi yeni kılavuz denetimiyle değiştiriliyor. |
+| **Başka bir özellikle mi değiştirildi?**   | [Yeni kılavuz denetimi](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Sürüm 10.0.13'te, yeni kılavuz denetimi genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Yeni kılavuz denetimi Ekim 2021 sürümünde zorunlu olacaktır. Yeni kılavuz denetimi zorunlu hale geldiğinde **forceLegacyGrid()** API kabul edilmeyecek. |
+
+### <a name="personalization-without-saved-views"></a>Kaydedilmiş görünümler olmadan kişiselleştirme 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kişiselleştirme alt sistemi, çok daha iyi performansa sahip olması ve ek özellikler sunması için kaydedilmiş görünümler özelliğiyle yenilendi. |
+| **Başka bir özellikle mi değiştirildi?**   | Kayıtlı görünümler |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Sürüm 10.0.13/Platform güncelleştirmesi 37'de, kaydedilmiş görünümler özelliği genellikle kullanılabilirdir ve müşteriler isteğe bağlı olarak bu özelliği açabilir. Kaydedilmiş görünüm özelliği Ekim 2021 sürümünde zorunlu olacaktır. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.12 sürümü için platform güncelleştirmeleri
 

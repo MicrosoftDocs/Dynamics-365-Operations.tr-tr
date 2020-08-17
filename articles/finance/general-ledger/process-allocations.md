@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770632"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612674"
 ---
 # <a name="process-allocations"></a>Tahsisatları işleme
 
@@ -34,8 +34,8 @@ Bu makalede tahsisatlar, tahsisatları işleme seçenekleri ve bütçe planlamas
 Aşağıdaki özellikler bu işlemi destekler:
 
 -   Muhasebe dağılımlarında Böl eylemini kullanarak veya bir belgeye mali boyut varsayılan şablonları uygulayarak hareket tutarlarını el ile atayabilirsiniz. Daha fazla bilgi için bkz. [Muhasebe dağılımları](../accounts-payable/accounting-distributions.md).
--   Her bir ana hesapta tanımlanan atama şartlarına dayalı olarak hareket tutarlarını otomatik olarak atayın. Tahsisat hesabı girişleri, bir muhasebe girişinin kaynak defter hesabı olarak tanımlanan kriterleri karşılaması durumunda her bir günlük için yüzdeye ve hedef defter hesabına dayalı olarak üretilecektir.
--   Defter bakiyelerini veya sabit tutarları defter tahsisat kurallarına dayalı olarak otomatik olarak atayın. Defter tahsisat kuralları, atama günlükleri kullanılarak düzenli olarak işlenir. 
+-   Her bir ana hesapta tanımlanan atama şartlarına dayalı olarak hareket tutarlarını otomatik olarak atayın. Tahsisat hesabı girişleri, bir muhasebe girişinin kaynak defter hesabı olarak tanımlanan kriterleri karşılaması durumunda her bir günlük için yüzdeye ve hedef defter hesabına dayalı olarak üretilecektir. Daha fazla bilgi için bkz. [Ana hesap tahsisat koşulları](../general-ledger/main-account-allocation-terms.md)
+-   Defter bakiyelerini veya sabit tutarları defter tahsisat kurallarına dayalı olarak otomatik olarak atayın. Defter tahsisat kuralları, atama günlükleri kullanılarak düzenli olarak işlenir. Daha fazla bilgi için bkz. [Tahsisat kuralları](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Bütçe planlamasında tahsisatlar
 
@@ -43,8 +43,4 @@ Defter tahsisat kuralları, bütçe planları için kullanılabilir. Defter tahs
 
 > [!NOTE]
 > Bütçe planlama için şirketler arası defter tahsisat kurallarını kullanamazsınız.
-
-
-
-
 

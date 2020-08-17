@@ -3,7 +3,7 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500424"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645401"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -58,21 +58,21 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Windows,  [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi  SHA1'i kullanımın dışı bırakıyor.  |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Windows, [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi SHA1'i kullanımın dışı bırakıyor.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 1 Nisan 2020 itibarıyla geliştiricilerin yeni API'yı kullanmaları gerekiyor. |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2020 tarihine kadar geliştiricilerin, **HasFunction** sınıfı içinde bulunan platform API'lerini kullanmaları gerekir. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(dize iletisi)
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Windows,  [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi  SHA1'i kullanımın dışı bırakıyor.  |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Windows, [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi SHA1'i kullanımın dışı bırakıyor.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Platform |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 1 Nisan 2020 itibarıyla geliştiricilerin yeni API'yı kullanmaları gerekiyor. |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2020 tarihine kadar geliştiricilerin, **HasFunction** sınıfı içinde bulunan platform API'lerini kullanmaları gerekir. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
@@ -85,7 +85,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **setUtcString()** yöntemini desteklememeyi planlıyoruz. Geliştiriciler bunun yerine **setUtcDateTime()** yöntemini kullanmalıdır. |
 
-### <a name="blacklist-report-it--feature-reference-it-00001"></a>Kara liste raporu (IT) – Özellik referansı IT-00001
+### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bloke liste raporu (IT) – Özellik referansı IT-00001
 
 |   |  |
 |------------|--------------------|
@@ -93,7 +93,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | İtalyanca yerelleştirme |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **Kara liste raporu (IT) – Özellik referansı IT-00001** özelliğini desteklememeyi planlıyoruz. |
+| **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **Bloke liste raporu (IT) – Özellik referansı IT-00001** özelliğini desteklememeyi planlıyoruz. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Yurtiçi vergi raporu – Özellik referansı IT-00003
 
@@ -803,7 +803,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülündeki Ambar Yönetimi II çözümü (WMS II) Dynamics AX 2012 R3'de yayımlanmış olan **Ambar yönetimi** modülündeki  işlevleri tekrarlar.                                                                         |
+| **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülündeki Ambar Yönetimi II çözümü (WMS II) Dynamics AX 2012 R3'de yayımlanmış olan **Ambar yönetimi** modülündeki işlevleri tekrarlar.                                                                         |
 | **Başka bir özellikle mi değiştirildi?**   | AX 2012 R3, Dynamics AX 2012 R3 CU8 ve Dynamics AX 2012 R3 CU9'da yayınlanmış olan **Ambar yönetimi** modülü, Ambar yönetimi II özelliklerinin yerini almıştır. Yeni modül Ambar yönetimi II'dekinden daha gelişmiş özelliklere ve daha esnek ambar yönetim süreçlerine sahiptir. |
 | **Etkilenen ürün alanları**         | Stok Yönetimi, satış ve pazarlama, tedarik ve kaynak atama   |
 | **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |

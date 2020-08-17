@@ -3,7 +3,7 @@ title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,54 +18,113 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 460d05ca29d5b8da70a971a649d9edd786f7260d
-ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
+ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3378220"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646147"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
 ## <a name="overview"></a>Özet
 
-"Çevrimiçi satın al, mağazadan al" "(BOPIS) müşteri senaryosu için bir depolama Seçicisi modülü kullanılır. Bir ürünün malzeme çekme için uygun olduğu mağazaların listesini ve her mağazanın depolama saatlerini ve ürün envanterini gösterir.
+Müşteriler, çevrimiçi bir satın alma işleminden sonra seçili bir mağazadan bir ürünü almak için mağaza seçici modülünü kullanabilirler. Commerce sürüm 10.0.13'te mağaza seçici modülü yakındaki mağazaları gösteren bir **Mağaza Bulun** sayfası gösterebilecek ek özellikler de içerir.
 
-Mağaza Seçicisi modülü, mağazaları bulmak için bir ürün bağlamı ve bir arama konumu gerektirir. Arama konumu olmadığında, müşteri izin vermek koşuluyla müşterinin tarayıcı yerleşimi varsayılan olur. Modül, müşterinin yakındaki mağazaları bulmak için bir konum (posta kodu veya şehir ve il) girmesine olanak sağlayan bir giriş kutusu içerir.
+Mağaza seçici modülü, arama yarıçapı içindeki mağazaları aramak için kullanıcıların bir konum (şehir, eyalet, adres vb.) girmesini sağlar. Modül ilk açıldığında, mağazaları bulmak için müşterinin tarayıcı konumunu kullanır (izin sağlanırsa).
 
-Mağaza seçici modülü Bing Haritalar Coğrafi kodlama uygulama programlama arayüzü (API) ile tümleştirilmiştir ve bu sayede konumu bir enlem ve boylama dönüştürür. Bir Bing Haritalar API anahtarı gereklidir ve Dynamics 365 Commerce içinde Commerce paylaşılan parametreler sayfasına eklenmelidir.
+## <a name="store-selector-module-usage-in-e-commerce"></a>e-Ticarette mağaza seçici modül kullanımı
 
-Ürün Ayrıntıları sayfasındaki (PDP) bir ürünün malzeme çekme için uygun olduğu mağazaları görüntülemek için, bir satın alma kutusu modülüne Mağaza Seçici modülü eklenebilir. Bir sepet modülüne da eklenebilir. Bir sepet modülüne eklendiğinde, mağaza seçici modülü her bir sepet çizgisi öğesi için toplama seçeneklerini görüntüler. Ek olarak, özel kodlamaya sahip bu modül Uzantılar ve özelleştirmeler aracılığıyla diğer sayfalara veya modüllere eklenebilir.
+- Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için ürün ayrıntıları sayfasında (PDP) kullanılabilir.
+- Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için sepet sayfasında kullanılabilir.
+- Mağaza seçici modülü, kullanılabilir tüm mağazaları gösteren bağımsız bir sayfada kullanılabilir.
 
-BOPIS senaryosunun çalışması için, ürünlerin "müşteri malzeme çekme" teslim moduyla konfigüre edilmesi gerekir. Aksi durumda, modül ilgili sayfalarda gösterilmez. Teslimat modunun konfigüre edilmesine ilişkin ayrıntılar için bkz. [Teslimat modları ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+## <a name="bing-maps-integration"></a>Bing Haritalar tümleştirmesi
+
+Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](https://docs.microsoft.com/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
+
+Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki URL'lere izin verildiğinden ("izin verilenler" olarak da bilinir) emin olmanız gerekir. Bu kurulum, site için çeşitli CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
+
+- **connect-src** yönergesine **&#42;.bing.com** ekleyin.
+- **img-src** yönergesine **&#42;.virtualearth.net** ekleyin.
+- **script-src** yönergesine, **&#42;.bing.com, &#42;.virtualearth.net** ekleyin.
+- **script style-src** yönergesine **&#42;.bing.com** ekleyin.
+ 
+## <a name="pickup-in-store-mode"></a>Mağazadan teslim alma modu
+
+Mağaza seçici modülü,bir ürünün teslim alınabileceği mağazaların listesini gösteren bir **Mağazadan teslim alma** modunu destekler. Ayrıca, listedeki her mağaza için mağaza çalışma saatlerini ve ürün stokunu gösterir. Mağaza seçici modülü, ürün kullanılabilirliğini işlemek ve ürünün seçili mağazadaki teslimat modu **mağazadan teslim** olarak ayarlandığında kullanıcının ürünü sepete eklemesini sağlamak için ürünün bağlamını gerektirir. Daha fazla bilgi için bkz. [Stok ayarları](inventory-settings.md). 
+
+Bir ürünün teslim alma için uygun olduğu mağazaları görüntüleyen bir PDF'de bir satın alma kutusu modülüne mağaza seçici modülü eklenebilir. Bir sepet modülüne da eklenebilir. Bu durumda, depo seçici modülü alışveriş sepetindeki her kalem için teslim alma seçeneklerini gösterir. Mağaza seçici modülü uzantılar ve özelleştirmeler aracılığıyla diğer sayfalara veya modüllere de eklenebilir.
+
+Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılacak şekilde yapılandırılması gerekir. Aksi durumda, modül ürün sayfalarında gösterilmez. Teslimat modunun yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat modlarını ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
 ![Mağaza seçici modülü örneği](./media/BOPIS.PNG)
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>e-Ticarette mağaza seçici modül kullanımı
+## <a name="find-stores-mode"></a>Mağaza bulma modu
 
-- Ürün Ayrıntıları sayfasındaki (PDP) bir ürünün malzeme çekme için uygun olduğu mağazaları görüntülemek için, bir satın alma kutusu modülüne Mağaza Seçici modülü eklenebilir.
-- Sepet sayfasındaki (PDP) bir ürünün malzeme çekme için uygun olduğu mağazaları görüntülemek için, bir satın alma kutusu modülüne Mağaza Seçici modülü eklenebilir.
+Mağaza seçici modülü **Mağazaları bul** modunu da destekler. Bu mod, kullanılabilir mağazaları ve bunların bilgilerini gösteren bir mağaza konumları sayfası oluşturmak için kullanılabilir. Bu modda, mağaza seçici modülü, ürün bağlamı olmadan çalışır ve herhangi bir site sayfasında bağımsız modül olarak kullanılabilir. Ayrıca, modül için ilgili ayarlar açıksa, kullanıcılar bir mağazayı tercih edilen mağaza olarak seçebilir. Bir mağaza kullanıcının tercih edilen mağazası olarak seçildiğinde, mağaza kimliği tarayıcı tanımlama bilgisinde tutulur. Bu nedenle, kullanıcı, tanımlama bilgisi onay iletisini kabul etmelidir.
+
+Aşağıdaki çizimde, bir mağaza konumları sayfasındaki harita modülüyle birlikte kullanılan bir mağaza seçici modülü örneği gösterilmektedir.
+
+![Mağaza seçici modülü örneği](./media/ecommerce-Storelocator.PNG)
+
+## <a name="render-a-map"></a>Harita oluşturma
+
+Bir haritada mağaza konumlarını göstermek için mağaza seçici modülü harita modülüyle birlikte kullanılabilir. Harita modülüyle ilgili daha fazla bilgi için bkz. [Harita modülü](map-module.md)
 
 ## <a name="store-selector-module-properties"></a>Mağaza seçicisi modülü özellikleri
 
-| Özellik adı             | Değer                 | Tanım |
-|---------------------------|-----------------------|-------------|
-| Arama yarıçapı | Sayı | Mağazalar için, mil cinsinden, arama yarıçapını tanımlar. Herhangi bir değer belirtilmezse, varsayılan arama yarıçapı olan 50 mil değeri kullanılır.|
-|Hizmet Koşulları | URL    |  Bing Haritalar hizmeti için bir hizmet koşulları URL'si gereklidir. |
+| Özellik adı | Değer | Tanım |
+|---------------|-------|-------------|
+| Başlık | Metin | Modülün başlığı. |
+| Mod | **Mağaza bulma** veya **Mağazadan teslim alma** | **Mağaza bulma** modu, mevcut mağazaları gösterir. **Mağazadan teslim alma** modu, kullanıcıların teslim alma için bir mağaza seçmelerini sağlar. |
+| Stil | **İletişim kutusu** veya **Satır içi** | Modül, satır içi olarak veya bir iletişim kutusunda oluşturulabilir. |
+| Tercih edilen mağaza olarak ayarla | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlandığında, kullanıcılar tercih edilen bir mağaza ayarlayabilir. Bu özellik, kullanıcıların bir tanımlama bilgisi izni iletisini kabul etmesini gerektirir. |
+| Tüm mağazaları göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlandığında, kullanıcılar **Arama çapı** özelliğini atlayabilir ve tüm mağazaları görüntüleyebilir. |
+| Otomatik öneri seçenekleri: Maksimum sonuç sayısı | Sayı | Bu özellik, Bing Autosuggest API ile gösterilebilecek otomatik öneri sonuçları sayısının üst sınırını tanımlar. |
+| Arama yarıçapı | Sayı | Bu özellik mil cinsinden arama yarıçapını tanımlar. Herhangi bir değer belirtilmezse, varsayılan arama yarıçapı olan 50 mil değeri kullanılır. |
+| Hizmet koşulları | URL |  Bu özellik, Bing Haritalar hizmetini kullanmak için gerekli olan hizmet koşulları URL'sini belirtir. |
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Bir sayfaya mağaza seçici modülü ekleme
 
-Bir mağaza seçici modülü bir ürünün bağlamını gerektiriyor, bu nedenle yalnızca satın alma kutusu ve sepet modülleri içinde kullanılabilir. Mağaza seçici modülleri bu modüllerin dışında çalışmıyor.
+**Mağazadam teslim alma** modunda modül yalnızca PDP'ler ve speet sayfalarında kullanılabilir. Modülün özellik bölmesinde modu **Mağazadan teslim alma** olarak ayarlayın.
 
 - Satın alma kutusu modülüne bir mağaza Seçicisi modülü ekleme hakkında bilgi için bkz. [Satın alma kutusu modülü](add-buy-box.md). 
 - Sepet kutusu modülüne bir mağaza Seçicisi modülü ekleme hakkında bilgi için bkz. [Sepet modülü](add-cart-module.md).
 
+Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğu gibi mağaza konumları sayfasında mevcut mağazaları gösterecek şekilde yapılandırmak için aşağıdaki adımları izleyin.
+
+1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Pazarlama şablonu**'nu girin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
+1. **Şablon seçin** iletişim kutusunda **Pazarlama şablonu** şablonunu seçin. **Sayfa adı** altında **Mağaza konumları** girin ve **Tamam**'ı seçin.
+1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **2 sütunlu kapsayıcı** modülünü seçin ve **Tamam**'ı seçin.
+1. Modülün özellikler bölmesinde, **Genişlik** değerini **Dolgu Kapsayıcısı** olarak ayarlayın.
+1. **X küçük görünüm bağlantı noktası sütunu yapılandırması**değerini **%100** olarak ayarlayın.
+1. **Küçük görünüm bağlantı noktası sütunu yapılandırması**değerini **%100** olarak ayarlayın.
+1. **Orta görünüm bağlantı noktası sütunu yapılandırması**değerini **%33 %67** olarak ayarlayın.
+1. **Büyük görünüm bağlantı noktası sütunu yapılandırması**değerini **%33 %67** olarak ayarlayın.
+1. **2 sütunlu kapsayıcı** yuvasında, üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam**'ı seçin.
+1. Modülün özellikler bölmesinde, **Mod** değerini **Mağaza bul** olarak ayarlayın.
+1. Mil cinsinden **Arama yarıçapı** değerini ayarlayın.
+1. İhtiyaçlarınıza göre **Tercih edilen mağaza olarak ayarla**, **Tüm mağazaları göster** ve **Otomatik öneriyi etkinleştir** gibi diğer özellikleri ayarlayın.
+1. **2 sütunlu kapsayıcı** yuvasında, üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Harita** modülünü seçin ve **Tamam**'ı seçin.
+1. Modülün özellikler bölmesinde istediğiniz ek özellikleri ayarlayın.
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+ 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Başlangıç paketine genel bakış](starter-kit-overview.md)
@@ -81,3 +140,7 @@ Bir mağaza seçici modülü bir ürünün bağlamını gerektiriyor, bu nedenle
 [Teslimat şekillerini ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Kuruluşunuz için Bing Haritalar'ı yönetme](dev-itpro/manage-bing-maps.md)
+
+[Bing Maps REST API'leri](https://docs.microsoft.com/bingmaps/rest-services/)
+
+[Harita modülü](map-module.md)

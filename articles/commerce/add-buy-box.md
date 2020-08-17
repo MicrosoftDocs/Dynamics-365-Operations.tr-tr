@@ -3,7 +3,7 @@ title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411354"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645351"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -61,7 +61,7 @@ Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldır
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Satınalma kutusu modülünde kullanılabilen modüller
 
-- **Ortam Galerisi** – bu modül, ürün ayrıntıları sayfasındaki bir ürünün görüntülerini sergilemesinde kullanılır. Bir ile birçok görüntüyü destekleyebilir. Küçük resimleri de destekler. Küçük resimler yatay (görüntünün altında bir satır olarak) veya dikey olarak (görüntünün yanında bir sütun olarak) düzenlenebilir. Ortam Galerisi modülü, satın alma kutusu modülündeki **ortam** yuvasına eklenebilir. Şu anda yalnızca resimleri desteklemektedir. 
+- **Ortam Galerisi** – bu modül, ürün ayrıntıları sayfasındaki bir ürünün görüntülerini sergilemesinde kullanılır. Bu modülle ilgili daha fazla bilgi için bkz. [Ortam galerisi modülü](mediagallery-module.md).
 - **Mağaza seçici** - Bu modül bir maddenin almak için kullanılabilir olduğu yakındaki mağazaların listesini gösterir. Kullanıcıların yakındaki mağazaları bulabilmesi için bir konum girmesini sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Mağaza seçici modülü](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Satın alma kutusu modülü ayarları
@@ -112,7 +112,9 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 [Mağaza seçicisi modülü](store-selector.md)
 
-[Konteyner modülü](add-container-module.md)
+[Ortam galerisi modülü](media-gallery-module.md)
+
+[Kapsayıcı modülü](add-container-module.md)
 
 [Sepet modülü](add-cart-module.md)
 

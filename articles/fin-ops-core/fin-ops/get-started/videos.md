@@ -1,9 +1,9 @@
 ---
 title: Videolar
 description: Bu sayfa Finance and Operations uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
-author: josaw1
+author: sericks007
 manager: AnnBe
-ms.date: 06/16/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: josaw
+ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456961"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645377"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -124,7 +124,8 @@ ms.locfileid: "3456961"
 - [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
 
 ### <a name="customer-portal"></a>Müşteri portalı
-- [Dynamics 365 Supply Chain Management'taki Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8)
+- [Müşteri portalı şablonuna genel bakış](https://youtu.be/nPrqoLuHfV8)
+- [Müşterilerinizi kaydolmaya ve müşteri portalınızı kullanmaya davet etme](https://youtu.be/drGUYHX9QIQ)
 
 ### <a name="help-system"></a>Yardım sistemi
 

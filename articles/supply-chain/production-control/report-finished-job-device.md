@@ -3,7 +3,7 @@ title: İş kartı cihazından tamamlandı olarak bildirme
 description: Bu konuda, bir iş kartı kullanıcıları bir üretim emrinden stoka bitmiş ürünleri raporlenebilecek şekilde sistemi konfigüre etme yöntemi açıklanmıştır.
 author: johanhoffmann
 manager: tfehr
-ms.date: 05/18/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,19 +15,24 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f5d34893ddc8adc3785ec50dbd72438cf8f68c5d
-ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 6ba5d8bc0c22f97e6d2ce61c636090e04fae5abd
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3403274"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651628"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
 [!include [banner](../includes/banner.md)]
 
-Çalışanlar, bir üretim işi için tamamlanan miktarları bildirmek üzere, iş kartı aygıtındaki **rapor ilerleme** sayfasını kullanır.
+Çalışanlar, bir üretim işi için tamamlanan miktarları bildirmek üzere, iş kartı aygıtındaki **rapor ilerleme** sayfasını kullanır. Bu konuda, çalışanların bu sayfayı kullanarak tamamlandı olarak nasıl bildirme ile ilgili çeşitli seçeneklerin nasıl ayarlanacağı ve sonraki işlemler açıklanmaktadır. Seçenekler arasında bulunanlar:
+
+- Tamamlandı olarak bildirilen miktarların stoka eklenip eklenmeyeceğini ve nasıl ekleneceğini denetleme.
+- Tamamlandı bildirimi yapılırken, toplu iş numaralarının oluşturulup oluşturulmayacağını ve nasıl uygulanacağını denetleme.
+- Tamamlandı bildirimi yapılırken, seri numaralarının oluşturulup oluşturulmayacağını ve nasıl uygulanacağını denetleme.
+- Bir plakaya tamamlandı bildirimi yapılıp yapılmayacağını ve nasıl yapılacağını denetleme.
 
 ## <a name="control-whether-quantities-that-are-reported-as-finished-are-added-to-inventory"></a>Tamamlandı olarak rapor edilen miktarların stoğa eklenip eklenmeyeceğini denetleme
 
@@ -54,7 +59,17 @@ Son operasyonda tamamlandı olarak rapor edilen miktarların stoğa eklenmesi ge
 - **Önceden tanımlı toplu iş numaraları:** Çalışanlar, üretim emri iş kartı aygıtında serbest bırakılmadan önce sistemin otomatik olarak oluşturduğu toplu iş numaraları listesinde bir toplu iş numarası seçer.
 - **Sabit toplu iş numaraları:** Çalışanlar toplu iş numarası girmez veya seçmez. Bunun yerine, sistem üretim emrine serbest bırakılmadan önce bir toplu iş numarası atar.
 
-Her Senaryoyu etkinleştirmek için şu adımları izleyin.
+
+### <a name="enable-the-feature-on-your-system"></a>Sisteminizde özelliği etkinleştirme
+
+İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir toplu iş numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
+
+1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
+1. İş Kartı Cihazında (Önizleme) bitmiş olarak raporlarken toplu iş ve seri numaralarını girmek için etkinleştirin
+
+### <a name="configure-products-that-require-batch-number-reporting"></a>Toplu numara bildirimi gerektiren ürünleri yapılandırma
+
+Bir ürünün, kullanılabilir olan toplu iş denetimli senaryolarından herhangi birini desteklemesini sağlamak için şu adımları izleyin:
 
 1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
 1. Yapılandırmak istediğiniz ürünü seçin.
@@ -63,14 +78,7 @@ Her Senaryoyu etkinleştirmek için şu adımları izleyin.
 > [!NOTE]
 > Varsayılan olarak, toplu denetlenen bir ürüne toplu iş numarası grubu atanmamışsa, iş kartı aygıtı tamamlandı bildirimi sırasında toplu iş numarası için el ile giriş sağlar.
 
-Aşağıdaki alt kısımlar, toplu iş öğelerinde raporlama için üç senaryonun her birini desteklemek üzere izleme numarası gruplarının nasıl ayarlanacağını açıklar.
-
-### <a name="enable-batch-number-reporting-on-the-job-card-device"></a>İş kartı aygıtında toplu iş numarası raporlamayı etkinleştir
-
-İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir toplu iş numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
-
-1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
-1. İş Kartı Cihazında (Önizleme) bitmiş olarak raporlarken toplu iş ve seri numaralarını girmek için etkinleştirin
+Aşağıdaki bölümler, toplu iş öğelerinde raporlama için üç senaryonun her birini desteklemek üzere izleme numarası gruplarının nasıl ayarlanacağını açıklar.
 
 ### <a name="set-up-a-tracking-number-group-that-lets-workers-manually-assign-a-batch-number"></a>Çalışanlarınızın el ile bir toplu iş numarası atayabilmesine olanak veren bir izleme numarası grubu ayarla
 
@@ -80,7 +88,7 @@ El ile atanan toplu iş numaralarına izin vermek için, bir izleme numarası gr
 1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
 1. **Genel** hızlı sekmesinde, **Manuel** seçeneğini **Evet** olarak ayarlayın.
 
-    ![Numara gruplarını izleme sayfası](media/tracking-number-group-manual.png "Numara gruplarını izleme sayfası")
+    ![El ile toplu iş numaraları için izleme numarası grubu](media/tracking-number-group-manual.png "El ile toplu iş numaraları için izleme numarası grubu")
 
 1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan Ürünler için toplu iş numarası grubu olarak bu izleme numara grubunu seçin.
 
@@ -95,9 +103,9 @@ Bu senaryoyu kullandığınızda, iş kartı aygıtında **durumu raporla** sayf
 1. **Stok Yönetimi \> Kurulum > Boyut \> İzleme numara gruplarına** gidin.
 1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
 1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Evet** olarak ayarlayın.
-1. Miktar bazında toplu iş numaralarını, girdiğiniz değere göre, **her miktarda** ayırmak için kullanın. Örneğin, on parça için bir üretim emri, **Her miktar** alanı *2* olarak ayarlanmış. Bu durumda üretim emrine oluşturulurken beş toplu iş numarası atanacaktır.
+1. Miktar bazında toplu iş numaralarını, girdiğiniz değere göre, **Her miktarda** ayırmak için kullanın. Örneğin, on parça için bir üretim emri, **Her miktar** alanı *2* olarak ayarlanmıştır. Bu durumda üretim emrine oluşturulurken beş toplu iş numarası atanacaktır.
 
-    ![Numara gruplarını izleme sayfası](media/tracking-number-group-predefined.png "Numara gruplarını izleme sayfası")
+    ![Ön tanımlı toplu iş numaraları için izleme numarası grubu](media/tracking-number-group-predefined.png "Ön tanımlı toplu iş numaraları için izleme numarası grubu")
 
 1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan Ürünler için toplu iş numarası grubu olarak bu izleme numara grubunu seçin.
 
@@ -114,13 +122,96 @@ Toplu iş numaralarının çalışan girişi olmadan otomatik olarak atanması g
 1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Hayır** olarak ayarlayın.
 1. **Manuel**seçeneğini **Hayır** olarak ayarlayın.
 
-    ![Numara gruplarını izleme sayfası](media/tracking-number-group-fixed.png "Numara gruplarını izleme sayfası")
+    ![Sabit toplu iş numaraları için izleme numarası grubu](media/tracking-number-group-fixed.png "Sabit toplu iş numaraları için izleme numarası grubu")
 
 1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan Ürünler için toplu iş numarası grubu olarak bu izleme numara grubunu seçin.
 
 Bu senaryoyu kullandığınızda, iş kartı aygıtında **durumu raporla** sayfasının sağladığı **toplu iş numarası** alanı bir değer gösterir ancak çalışanlar düzenleymez.
 
 ![Sabit toplu iş numarası ile ilerleme durumu sayfasını raporla](media/job-card-device-batch-fixed.png "Sabit toplu iş numarası ile ilerleme durumu sayfasını raporla")
+
+## <a name="report-serial-controlled-items-as-finished"></a>Seri denetimli kalemleri tamamlandı olarak bildirme
+
+İş kartı cihazı seri denetimli kalemleri bildirmek için üç senaryoyu destekler. Bu senaryolar, hem Gelişmiş ambar süreçleri için etkinleştirilen maddelere hem de Gelişmiş ambar işlemleri için etkinleştirilmemiş maddelere uygulanır.
+
+- **El ile atanan seri numaralar:** Çalışanlar özel bir seri numarası girin. Bu seri numarası, sistemde bilinmeyen bir harici kaynaktan gelebilir.
+- **Önceden tanımlı seri numaraları:** Çalışanlar, üretim emri iş kartı cihazında serbest bırakılmadan önce sistemin otomatik olarak oluşturduğu seri numaraları listesinde bir seri numarası seçer.
+- **Sabit seri numaraları:** Çalışanlar seri numarası girmez veya seçmez. Bunun yerine, sistem üretim emrine serbest bırakılmadan önce bir seri numarası atar.
+
+### <a name="enable-the-feature-on-your-system"></a>Sisteminizde özelliği etkinleştirme
+
+İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir seri numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
+
+1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
+1. İş Kartı Cihazında (Önizleme) bitmiş olarak raporlarken toplu iş ve seri numaralarını girmek için etkinleştirin
+
+### <a name="configure-products-that-require-serial-number-reporting"></a>Seri numarası bildirimi gerektiren ürünleri yapılandırma
+
+Bir ürünün, kullanılabilir olan seri denetimli senaryolarından herhangi birini desteklemesini sağlamak için şu adımları izleyin:
+
+Her Senaryoyu etkinleştirmek için şu adımları izleyin.
+
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Yapılandırmak istediğiniz ürünü seçin.
+1. **Stoku Yönet** hızlı sekmesinde, **Seri numarası grubu** alanında, senaryonuzu destekleyecek izleme numara grubunu seçin.
+
+> [!NOTE]
+> Varsayılan olarak, seri denetimli bir ürüne seri numarası grubu atanmamışsa, iş kartı cihazı tamamlandı bildirimi sırasında seri numarası için el ile giriş sağlar.
+
+Aşağıdaki bölümler, seri denetimli öğelerde bildirim için üç senaryonun her birini desteklemek üzere izleme numarası gruplarının nasıl ayarlanacağını açıklar.
+
+### <a name="set-up-a-tracking-number-group-that-lets-workers-manually-assign-a-serial-number"></a>Çalışanlarınızın el ile bir seri numarası atayabilmesine olanak veren bir izleme numarası grubu ayarlama
+
+El ile atanan seri numaralarına izin vermek için, bir izleme numarası grubu ayarlamak üzere aşağıdaki adımları izleyin.
+
+1. **Stok Yönetimi \> Kurulum \> Boyut \> zleme numara gruplarına** gidin.
+1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
+1. **Genel** hızlı sekmesinde, **Manuel** seçeneğini **Evet** olarak ayarlayın.
+
+    ![Numara gruplarını izleme sayfası, seri numaraları](media/tracking-number-group-manual-serial.png "Numara gruplarını izleme sayfası, seri numaraları")
+
+1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan ürünler için seri numarası grubu olarak bu izleme numara grubunu seçin.
+
+Bu senaryoyu kullandığınızda, iş kartı cihazında **İlerlemeyi bildir** sayfasının sağladığı **Seri numarası** alanı çalışanların seri numarası için herhangi bir değer girebildiği bir metin kutusudur. Değer girerken, seri numarası listesine eklenir. Bu listede, çalışanlar aşağıdakileri yapabilir:
+
+- Bir seri numarasını ıskartaya ayrılmış olarak işaretlemek için uygun satır için **Iskartaya ayır** düğmesini seçin. Çalışanın **Hata nedeni** sağlaması istenir.
+- Bir seri numarasını silmek için uygun satır için **Sil** düğmesini seçin.
+
+![El ile seri numarası için alan bulunan ilerleme durumunu bildirme sayfası](media/job-card-device-serial-manual.png "El ile seri numarası için alan bulunan ilerleme durumunu bildirme sayfası")
+
+### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Önceden tanımlanmış seri numaralarının listesini sağlayan bir izleme numarası grubu ayarlama
+
+Önceden tanımlanmış seri numaraları listesi sağlamak için bir izleme numarası grubu ayarlamak üzere aşağıdaki adımları izleyin.
+
+1. **Stok Yönetimi \> Kurulum \> Boyut \> zleme numara gruplarına** gidin.
+1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
+1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Evet** olarak ayarlayın.
+1. Miktar başına seri numaralarını ayırmak için **Miktar başına** alanını kullanın.
+
+    ![Ön tanımlı seri numaraları için izleme numarası grubu](media/tracking-number-group-predefined-sn.png "Ön tanımlı seri numaraları için izleme numarası grubu")
+
+1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan ürünler için seri numarası grubu olarak bu izleme numara grubunu seçin.
+
+Bu senaryoyu kullandığınızda, iş kartı cihazında **Durumu bildir** sayfasının sağladığı **Seri numarası** alanı çalışanların önceden tanımlanan değer girebildiği bir açılır listedir.
+
+![Önceden tanımlanan seri numaraları listesi için alan bulunan ilerleme durumunu bildirme sayfası](media/job-card-device-serial-predefined.png "Önceden tanımlanan seri numaraları listesi için alan bulunan ilerleme durumunu bildirme sayfası")
+
+### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Otomatik olarak seri numarası atayabilmesine olanak veren bir izleme numarası grubu ayarlama
+
+Seri numarasının çalışan girişi olmadan otomatik olarak atanması gerekiyorsa, bir izleme numarası grubu ayarlamak için aşağıdaki adımları izleyin.
+
+1. **Stok Yönetimi \> Kurulum \> Boyut \> zleme numara gruplarına** gidin.
+1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
+1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Hayır** olarak ayarlayın.
+1. **Manuel**seçeneğini **Hayır** olarak ayarlayın.
+
+    ![Sabit seri numaraları için izleme numarası grubu](media/tracking-number-group-fixed-sn.png "Sabit seri numaraları için izleme numarası grubu")
+
+1. İstediğiniz şekilde diğer değerleri ayarlayın, sonra da bu senaryoyu kullanmak istediğiniz serbest bırakılan ürünler için seri numarası grubu olarak bu izleme numara grubunu seçin.
+
+Bu senaryoyu kullandığınızda, iş kartı cihazında **Durumu bildir** sayfasının sağladığı **Seri numarası** alanı bir değer gösterir ancak çalışanlar düzenleyemez. Bu senaryo yalnızca seri numarası denetimli bir kalemin bir parçasının miktarı için üretim emri oluşturulduğunda geçerlidir.
+
+![Sabit seri numarası ile ilerleme durumunu bildirme sayfası](media/job-card-device-serial-fixed.png "Sabit seri numaraları ile ilerleme durumunu bildirme sayfası")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Lisans plakasına tamamlandı olarak raporlama
 

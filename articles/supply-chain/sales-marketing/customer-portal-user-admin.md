@@ -3,7 +3,7 @@ title: Müşteri portalı kullanıcıları oluşturma ve yönetme
 description: Bu konu, müşteri portalı Kullanıcı hesaplarının nasıl oluşturulacağını ve bunların izinlerinin nasıl ayarlanacağını açıklar.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414019"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645325"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Müşteri portalı kullanıcıları oluşturma ve yönetme
 
@@ -30,11 +30,16 @@ Bir kullanıcının bir Web sitesini kullanabilmesi için, o Kullanıcı için b
 
 Kullanıcılar kendi kendine kayıt yaptırtığı zaman, ilgili kişi kayıtları otomatik olarak oluşturulur. Bu nedenle, kullanıcının doğru müşteri hesabını ve yasal varlığı seçmesi için emin değilseniz. Diğer taraftan, davet işlemi bir yöneticinin davet gönderilmeden önce ilgili kişi kaydına doğru müşteri hesabını ve yasal varlığı atamasına olanak tanır. Çözümü kullanıcıların kendi kendine kaydolabilmesini sağlayacak şekilde özelleştirme konusunda düşünmeniz varsa, olası sonuçları göz önünde bulundurdığınızdan emin olun.
 
+## <a name="video"></a>Görüntü
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+[Müşterileri müşteri portalınıza kaydolup kullanmaya davet etme](https://youtu.be/drGUYHX9QIQ) videosu (yukarıda gösterilen) YouTube'daki [Finance and Operations oynatma listesine](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) eklenmiştir.
+
 ## <a name="prerequisite-setup"></a>Ön koşul kurulumu
 
 Power Apps Portallarda bulunan ilgili kişiler , Common Data Service'deki **ilgili kişiler** varlığında kayıtlar olarak depolanır . Çift yaz daha sonra bu kayıtları gerektiği gibi Microsoft Dynamics 365 Supply Chain Management'a eşitler .
 
-![![Müşteri Portalı ilgili kişilerinin sistem diyagramı](media/customer-portal-contacts.png "Müşteri Portalı ilgili kişilerinin sistem diyagramı")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Müşteri Portalı ilgili kişilerinin sistem diyagramı](media/customer-portal-contacts.png "Müşteri Portalı ilgili kişilerinin sistem diyagramı")
 
 Yeni müşterileri davet etmeye başlamadan önce, **ilgili kişi** varlığı eşlemesini çift-yazılabilir olarak etkinleştirdiğinizden emin olun.
 

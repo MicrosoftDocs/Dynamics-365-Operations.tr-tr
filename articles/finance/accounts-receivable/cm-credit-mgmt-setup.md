@@ -3,7 +3,7 @@ title: Kredi yönetimi parametreleri kurulumu
 description: Bu konuda, işletmenizin Kredi yönetimini işletmenizin gereksinimlerini karşılayacak şekilde yapılandırmak için kullanabileceğiniz seçenekler açıklanmaktadır.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154540"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651917"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -34,7 +34,7 @@ Kredi yönetimini denetleyen parametreleri değiştirebileceğiniz **Kredi** bö
 
 ### <a name="credit-holds"></a>Alacak tutmalar
 
-- Satış siparişi bekletme listesinden serbest bırakıldıktan sonra satış siparişi değeri değiştiği zaman deftere nakil kurallarının yeniden denetlenmesini zorunlu kılmak için **Bekletilen sipariş serbest bırakıldıktan sonra satış siparişi değerinin düzenlemesine izin ver** seçeneğini **Evet** olarak ayarlayın. .
+- Satış siparişi bekletme listesinden serbest bırakıldıktan sonra satış siparişi değeri (genişletilmiş fiyat) arttığı zaman deftere nakil kurallarının yeniden denetlenmesini zorunlu kılmak için **Bekletilen sipariş serbest bırakıldıktan sonra satış siparişi değerinin düzenlemesine izin ver** seçeneğini **Hayır** olarak ayarlayın. .
 - **İptal edilen siparişlerin nedenleri** alanında, bir satış siparişinin kredi yönetimi bekletme işlemi iptal edildiğinde varsayılan olarak kullanılacak serbest bırakma nedenini seçin.
 - Bir satış siparişindeki müşteri bir müşteri kredi grubuna dahil olduğu zaman müşteri kredi grubunun kredi limitini denetlemek için **Müşteri kredi grubunun kredi limitini denetle** seçeneğini **Evet** olarak ayarlayın. Grubun kredi limiti kontrol edilir ve yeterliyse, müşterinin kredi limiti kontrol edilir.
 - Satış siparişindeki yeni ödeme koşullarının müşterinin varsayılan ödeme koşullarından farklı olup olmadığını belirlemek amacıyla ödeme koşulları derecelerini kontrol etmek için **Ödeme koşulları yükseldiği zaman kredi limitini denetle**'yi **Evet** olarak ayarlayın. Yeni ödeme koşullarının derecesi orijinal ödeme koşullarınınkinden daha yüksekse, sipariş, kredi yönetimi bekletme işlemine alınır.

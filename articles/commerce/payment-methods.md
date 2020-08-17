@@ -1,7 +1,7 @@
 ---
 title: Ödeme yöntemleri
 description: Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
-author: sericks007
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/17/2020
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
-ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
+ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3463172"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641021"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 

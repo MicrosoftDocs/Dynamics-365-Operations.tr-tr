@@ -1,9 +1,9 @@
 ---
 title: Proje faturalama
-description: Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
-author: ShylaThompson
+description: Bu konuda, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
+author: TaylorVH
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
-ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
+ms.search.validFrom: 2020-07-06
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: eab7523296996709dfe7407c582e61e28b7d4f23
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331384"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651604"
 ---
 # <a name="project-invoicing"></a>Proje faturalama
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
+Bu konuda, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
 
 Proje tipi, hangi faturalama prosedürünün uygulanacağını belirler. Sadece iki harici proje türü, Zaman ve malzeme ve Sabit fiyatlı, faturalandırılabilir. Zaman ve malzeme projeleri ile sabit fiyatlı projeler her zaman bir proje sözleşmesine iliştirilir.
 
@@ -47,7 +47,7 @@ Bir proje için bir müşteri faturası oluşturmadan önce, ön fatura ya da fa
 
 ### <a name="creating-invoice-proposals"></a>Fatura teklifleri oluşturma
 
-Fatura tekliflerini belirtilen proje için bir hareket listesinden el ile seçerek oluşturabilirsiniz. Ayrıca, ne zaman otomatik olarak bir fatura teklifi oluşturulacağını belirten faturalama kuralları da ayarlayabilirsiniz. Örneğin, Faturalama projesi üzerinde çalışmanın yüzde 25, yüzde 50, yüzde 75'i ve yüzde 100'ü tamamlanmış olduğunda bir fatura teklifi oluşturmak için kural oluşturabilirsiniz. 
+Fatura tekliflerini belirtilen proje için bir kullanılabilir hareket listesinden el ile seçerek oluşturabilirsiniz. Ayrıca, ne zaman otomatik olarak bir fatura teklifi oluşturulacağını belirten faturalama kuralları da ayarlayabilirsiniz. Örneğin, Faturalama projesi üzerinde çalışmanın yüzde 25, yüzde 50, yüzde 75'i ve yüzde 100'ü tamamlanmış olduğunda bir fatura teklifi oluşturmak için kural oluşturabilirsiniz. 
 
 Aşağıdaki hareketler için fatura teklifleri oluşturabilirsiniz:
 
@@ -57,11 +57,11 @@ Aşağıdaki hareketler için fatura teklifleri oluşturabilirsiniz:
 -   Proje başlamadan önce bir müşteri tarafından size yapılan ödeme tutarları
 
 > [!NOTE]
-> **Proje fatura teklifi oluşturma sırasında kaynağa göre sıralamayı etkinleştir** özelliği proje muhasebecinin, yeni bir proje faturası teklifi oluştururken kaynak tarafından faturalamada kullanılabilen proje hareketlerini sıralamasına olanak tanır. Kullanılabilir proje hareketlerinin görüntülendiği ızgara, Kaynak Kodu ve Kaynak için ayrı bir alana sahiptir ve kullanıcının kaynak adı üzerinde filtre uygulamasına ve sıralama yapmasına olanak sağlar. Bu özellik varsayılan olarak devre dışıdır ve **Çalışma alanları > Özellik yönetimi**'nde etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
+> **Proje fatura teklifi oluşturma sırasında kaynağa göre sıralamayı etkinleştir** özelliği proje muhasebecinin, yeni bir proje faturası teklifi oluştururken kaynak tarafından faturalamada kullanılabilen proje hareketlerini sıralamasına olanak tanır. Kullanılabilir proje hareketlerinin görüntülendiği kılavuzda **Kaynak kimliği** ve **Kaynak** için ayrı alanlar olur. Bu alanlar kaynak adına filtre ve sıralama uygulamanızı sağlar. Bu özellik, varsayılan olarak kapalıdır. **Özellik yönetimi** sayfası (**Çalışma alanları > Özellik yönetimi**) kullanılarak etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
 
 Bir fatura teklifinde ücret hareketleri oluşturabilirsiniz. Ayrıca saat, gider, madde ve ücret hareketlerinin satış fiyatı üzerinde değişiklik yapabilirsiniz. Bir fatura teklifini deftere naklettiğinizde, güncel fiyatlar ve hareketler proje raporları ve hareket geçmişine eklenir. 
 
-Bir proje için birden fazla müşteri faturası oluşturmak için, her fatura için bir fatura teklifi oluşturmanız gerekir. Örneğin, hareket türüne göre fatura oluşturabilirsiniz. Saatleri bir müşteri faturasında ve maddeleri bir diğerinde belirtmek için, saat hareketleri ve ücret hareketleri için ayrı fatura teklifleri oluşturmanız gerekir. 
+Bir proje için birden fazla müşteri faturası oluşturmak için, her fatura için bir fatura teklifi oluşturmanız gerekir. Örneğin, hareket türüne göre fatura oluşturabilirsiniz. Saatleri bir müşteri faturasında ve kalemleri bir diğer faturada belirtmek için, saat hareketleri ve ücret hareketleri için ayrı fatura teklifleri oluşturmanız gerekir. 
 
 Bir projenin birden fazla finansman kaynağı varsa, her finansman kaynağı için ayrı bir fatura teklifi oluşturabilirsiniz. **Finansman kuralları** sayfasında, hareketin her bir finansman kaynağına tahsis edilecek yüzdesini tanımlayabilir ve yuvarlama farklarınının nakledileceği kaynağı da belirtebilirsiniz.
 
@@ -71,20 +71,23 @@ Bir fatura teklifini oluşturduktan ve naklettikten sonra, fatura teklifine dahi
 
 Bir fatura teklifini deftere nakletmeden önce bunun üzerine hareketleri ekleyebilir veya silebilirsiniz. Örneğin, bir proje için deftere nakledilen fakat müşteriye borçlandırılabilir olmayan masraf hareketlerini kaldırabilirsiniz. 
 
-Kuruluşunuz, nakledilmeden önce fatura tekliflerinin gözden geçirilmesini gerektiriyorsa, fatura teklifi deftere nakledilmeden önce "Proje Fatura tekliflerini gözden geçirme" iş akışının onayından geçmesi gerekebilir.
+Kuruluşunuz, nakledilmeden önce fatura tekliflerinin incelenmesi gerektiriyorsa, fatura teklifini deftere nakletmeden önce "Proje Fatura tekliflerini inceleme" iş akışının onayından geçmesi gerekebilir.
+
+### <a name="view-grant-information-on-project-invoice-list-pages"></a>Proje fatura listesi sayfalarında izin bilgilerini görüntüleme
+
+Kamu sektörü kullanıcıları **Proje faturası teklifleri** ve **Proje faturaları** listesi sayfalarına **İzin kodu** ve **İzin adı** ekleyebilir. Bu sütunlar, **Proje fatura listesi sayfalarına izin bilgisi ekle** özelliği kullanılarak etkinleştirilir. Bu özellik varsayılan olarak kapalıdır ve  **Çalışma alanları > Özellik yönetimi**'nde etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
 
 ## <a name="on-account-invoicing"></a>Açık hesap faturalama
 Bir proje için açık hesap faturasına girdiğiniz tutar zamanlamaya, tamamlanma yüzdesine ve ilgili proje sözleşmesinde belirtilmiş olan diğer faturalama koşullarına dayalıdır Tutar, projeye nakledilen saatler, maddeler, giderler veya ücretlere dayanarak hesaplanmamıştır. 
 
-Bu açık hesap hareketini proje faturasına ekleyebilmeden önce, zaman ve malzeme projesi veya sabit fiyatlı bir proje için bir açık hesap hareketi oluşturmalısınız. Açık hesap hareketi üzerinde, müşteriye faturalanacak tutarı girin. Tutar için bir proje faturası oluşturmak için, ön fatura (fatura teklifi) oluşturun. Fatura teklifinde, açık hesap hareketini seçin. Bunun için bir proje faturası oluşturmadan önce açık hesap bilgisini fatura teklifinde gözden geçirebilirsiniz.
+Bu açık hesap hareketini proje faturasına ekleyebilmeden önce, zaman ve malzeme projesi veya sabit fiyatlı bir proje için bir açık hesap hareketi oluşturmalısınız. Açık hesap hareketi üzerinde, müşteriye faturalanacak tutarı girin. Tutar için bir proje faturası oluşturmak için, ön fatura (fatura teklifi) oluşturun. Fatura teklifinde, açık hesap hareketini seçin. Bunun için bir proje faturası oluşturmadan önce açık hesap bilgisini fatura teklifinde gözden geçirebilirsiniz. 
 
 ### <a name="fixed-price-projects"></a>Sabit fiyatlı projeler
-
 Sabit fiyatlı projeler için açık hesap hareketleri proje sözleşmesinde üzerinde anlaşılmış olan kilometre taşı, teslimat birimi veya hak ediş bazında faturalamayı temel alır. Proje müşteriden alınması gereken her bir ödeme için bir satır oluşturulur. Kesintilere gerek yoktur.
 
 ### <a name="time-and-material-projects"></a>Zaman ve malzeme projeleri.
 
-Zaman ve malzeme projeleri için müşteri veya diğer fon kaynağı için peşinat tutarını bir açık hesap fatura teklifini kullanarak fatura edebilirsiniz. Açık hesap hareketlerini bir satır olarak gir. İsteğe bağlı olarak, müşterinin yapmış olduğu ödemeleri kesinti olarak mahsup etmek için ek satırlar girebilirsiniz. Kesinti satırları oluşturmak için tutarın önüne eksi işareti koyun.
+Zaman ve malzeme projeleri için müşteri veya diğer fon kaynağı için peşinat tutarını bir açık hesap fatura teklifini kullanarak fatura edebilirsiniz. Açık hesap hareketlerini bir satır olarak gir. İsteğe bağlı olarak, müşterinin yapmış olduğu ödemeleri kesinti olarak mahsup etmek için ek satırlar girebilirsiniz. Kesinti satırları oluşturmak için tutarın önüne eksi işareti girin.
 
 ## <a name="invoice-control"></a>Fatura kontrol
 Fatura kontrolünü faturalandırılmış ve faturalandırılmamış hareketleri izlemek ve bu hareketleri projelerinizin, tekliften tamamlamaya, uçtan uca görünümü için tekliflere karşı çözümleyebilirsiniz. Hangi hareketlerin belirli bir projeye ücretlendirildiklerini ve hangi satırların faturalandırıldığını görebilirsiniz. Ayrıca, tek tek hareketleri görebilir ve böylece deftere nakledildikten sonra bu hareketleri düzeltebilirsiniz.
@@ -108,10 +111,10 @@ Sabit fiyatlı projeleri faturalama zamanlamasında faturalayabilirsiniz. Fatura
 Kilometre taşı ödemeleri faturalandırmaya hazır olduğunda, yordamı açık hesap tutarları faturalandırmak için yordamı kullanın.
 
 ## <a name="vendor-invoicing"></a>Satıcı faturalandırması
-Bir maddeyi bir satıcıdan sipariş edip bir projeye atadığınızda, bu madde için satınalma siparişi satırında seçtiğiniz satır özelliği, satın alınan maddenin müşteriye fatura edilip edilmeyeceğini belirler. Varsayılan satır özelliklerini ayarlarsanız, bunlar satınalma siparişi satırındaki madde için görüntülenir (Satır ayrıntıları &gt; Proje &gt; Satır özelliği). Satır özelliğini değiştirmenin iki yolu vardır:
+Bir maddeyi bir satıcıdan sipariş edip bir projeye atadığınızda, bu madde için satınalma siparişi satırında seçtiğiniz satır özelliği, satın alınan maddenin müşteriye fatura edilip edilmeyeceğini belirler. Varsayılan satır özelliklerini ayarlarsanız bunlar satın alma siparişi satırındaki kalem için görüntülenir (**Satır ayrıntıları > Proje > Satır özelliği tutarları**). Satır özelliğini değiştirmenin iki yolu vardır:
 
--   Maddeyi projenin müşterisine fatura edin: Madde için satır özelliği, satınalma siparişine ücrete tabi değerine ayarlayın ve sonra doğru proje faturalama yöntemini kullanarak müşteriye fatura edin.
--   Madde için projenin müşterisine fatura vermeyin: **Borçlandırılabilir** satır maddesini, madde için satınalma siparişi satırındaki özelliğinde seçmeyin. Sonra satınalma siparişini faturalayabilirsiniz ve başka bir eyleme gerek yoktur.
+-   Proje müşterisine kalem için fatura kesin. Bunun için kalem satır özelliğini satın alma siparişine ücrete tabi değerine ayarlayın ve sonra doğru proje faturalama yöntemini kullanarak müşteriye fatura edin.
+-   Proje müşterisine kalem için fatura kesmeyin. Bunu yapmak için kalemin satın alma siparişi satırında **Borçlandırılabilir** satır özelliğini seçmeyin. Sonra satınalma siparişini faturalayabilirsiniz ve başka bir eyleme gerek yoktur.
 
 > [!NOTE] 
 > Serbest bırakma tutma satırları varsayılan olarak masraflandırılamaz. Bu, serbest bırakılan tutma için fatura teklifi oluşturma özelliğinin etkinleştirilmediği anlamına gelir.
@@ -119,7 +122,7 @@ Bir maddeyi bir satıcıdan sipariş edip bir projeye atadığınızda, bu madde
 ## <a name="credit-notes"></a>Alacak dekontları
 Bir müşteri faturası üzerindeki tutarın negatif değeri olması durumunda, fatura bir alacak dekontu olarak sınıflandırılır. Belge yazdırıldığında, başlığı "Kredi notu" olur. 
 
-Önceden faturalanmış bir tutarı alacaklandırmak üzere bir alacak dekontu oluşturduğunuzda, öncelikle alacaklandırmak üzere faturalandırılan tutarı seçmeniz gerekir. Ardından, bir alacak dekontunu bir sıradan müşteri faturasını oluşturmak için kullanacağınız aynı prosedürü izleyerek oluşturursunuz. Başka bir deyişle, daha önce bir müşteri faturasında nakledilmiş hareketleri seçip, ardından bir alacak dekontu teklifini oluşturur ve deftere nakledersiniz. 
+Önceden faturalanmış bir tutarı alacaklandırmak üzere bir alacak dekontu oluşturduğunuzda, öncelikle alacaklandırmak üzere faturalandırılan tutarı seçmeniz gerekir. Ardından, bir alacak dekontunu bir sıradan müşteri faturasını oluşturmak için kullanılan aynı prosedürü izleyerek oluşturursunuz. Daha önce bir müşteri faturasında nakledilmiş hareketleri seçip, ardından bir alacak dekontu teklifini oluşturur ve deftere nakledersiniz. 
 
 Aynı belge alacaklandırma için seçilenleri, alacak hareketlerini ve deftere nakledilmiş hareketleri içerebilir. Bu belgenin sınıflandırması, toplam tutarın pozitif veya negatif olup olmamasına bağlı olarak, bir fatura veya bir alacak dekontu olacaktır. 
 

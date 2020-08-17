@@ -3,7 +3,7 @@ title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (08 Tem
 description: Bu konuda, Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/08/2020
+ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8fe7bc33407bd5781d565f854c0f096766da5fc9
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: c4382aa7473e2b67201ac00753ac9abe11b3c646
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555400"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614374"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (8 Temmuz 2020)
 
