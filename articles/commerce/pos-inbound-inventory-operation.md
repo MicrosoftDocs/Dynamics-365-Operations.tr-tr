@@ -3,7 +3,7 @@ title: POS'ta gelen stok işlemi
 description: Bu konu satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551613"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627550"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551613"
 Microsoft Dynamics 365 Commerce sürüm 10.0.10 ve sonraki sürümlerinde satış noktasındaki gelen ve giden operasyonlar (POS) malzeme çekme ve teslim alma operasyonunu değiştirir.
 
 > [!NOTE]
-> Sürüm 10.0.10 ve sonraki sürümlerde, satın alma siparişlerine ve transfer emirlerine karşı mağaza stoku alma ile ilgili olan POS uygulamasındaki tüm yeni özellikler **gelen operasyonlar** POS operasyonuna eklenir. Şu anda POS'ta malzeme çekme ve teslim alma operasyonunu kullanıyorsanız, bu operasyondan yeni gelen ve giden operasyonlarına geçmek için bir strateji geliştirmeniz önerilir. Malzeme çekme ve alma işlemi üründen kaldırılmayabilse de bir işlevsel veya performans açısından 10.0.9 sürümünden sonra başka yatırımlar olmayacak.
+> Commerce 10.0.10 ve sonraki sürümlerinde, satın alma siparişlerine ve transfer emirlerine karşı mağaza stoku alma ile ilgili olan POS uygulamasındaki tüm yeni özellikler **gelen operasyonlar** POS operasyonuna eklenir. Şu anda POS'ta malzeme çekme ve teslim alma operasyonunu kullanıyorsanız, bu operasyondan yeni gelen ve giden operasyonlarına geçmek için bir strateji geliştirmeniz önerilir. Malzeme çekme ve alma işlemi üründen kaldırılmayabilse de bir işlevsel veya performans açısından 10.0.9 sürümünden sonra başka yatırımlar olmayacak.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Ön koşul: Zaman uyumsuz belge çerçevesini konfigüre edin
 
@@ -153,6 +153,20 @@ Yalnızca belgenin dışına geri dönmek istiyorsanız ve değişiklikleri kayd
 Envanter alındıktan sonra, alma işlemine mola vermek istiyorsanız **Almayı duraklat** işlevini kullanabilirsiniz. Örneğin, POS'tan bir müşteri satışı veya makbuzun deftere naklini ertele ilgili başka bir operasyon gerçekleştirmek isteyebilirsiniz.
 
 **Almayı Duraklat**'ı seçtiğinizde, belgenin durumu **duraklatıldı** olarak değiştirilir. Bu nedenle Kullanıcılar belgede veri girildiğini, ancak belgenin henüz kaydedilmemiş olmadığını bilir. Alma işlemini sürdürmeye hazır olduğunuzda, duraklatılan belgeyi seçin ve **sipariş ayrıntıları**'nı seçin. Daha önce kaydedilen **Şimdi alınıyor** miktarları korunur ve **tam sipariş listesi** görünümünden görüntülenebilir.
+
+### <a name="review"></a>Gözden geçir
+
+Commerce Headquarters'a (HQ) girişin nihai uygulanmasından önce, gelen belgeyi doğrulamak için inceleme işlevini kullanabilirsiniz. İnceleme işlemi, işlem hatasına neden olabilecek eksik veya yanlış veriler için sizi uyarır ve giriş isteğini göndermeden önce size sorunları çözme fırsatı sağlar. Uygulama çubuğunda **İnceleme** işlevini etkinleştirmek için Commerce Headquarters'daki (HQ) **Özellik yönetimi** çalışma alanı aracılığıyla **POS gelen ve giden stok operasyonları özelliğinde doğrulamayı etkinleştir** özelliğini etkinleştirin.
+
+**İnceleme** işlevi bir gelen belgedeki aşağıdaki sorunları doğrular:
+
+- **Fazla alma** - Şimdi alma miktarı sipariş edilen miktardan fazla. Bu sorunun önem derecesi, Commerce Headquarters'daki (HQ) fazla teslimat yapılandırması tarafından belirlenir.
+- **Eksik alma** - Şimdi alma miktarı sipariş edilen miktardan az. Bu sorunun önem derecesi, Commerce Headquarters'daki (HQ) eksik teslimat yapılandırması tarafından belirlenir.
+- **Seri numarası** – Seri numarasının stoka kaydedilmesini gerektiren serileştirilmiş bir kalem için seri numarası sağlanmamış veya doğrulanmamıştır.
+- **Konum ayarlanmadı** – Konum denetimli bir kalem için boş konuma izin verilmediği durumda konum belirtilmemiştir.
+- **Silinen satırlar** – Siparişte, POS uygulaması tarafından bilinmeyen bir Commerce Headquarters (HQ) kullanıcısı tarafından silinen satırlar vardır.
+
+**Almayı bitir** seçildiğinde doğrulamanın otomatik olarak gerçekleştirilmesi için **Commerce parametreleri** > **Stok** > **Mağaza stoku** bölümünde **Otomatik doğrulamayı etkinleştir** parametresini **Evet** olarak ayarlayın.
 
 ### <a name="finish-receiving"></a>Teslim almayı bitir
 

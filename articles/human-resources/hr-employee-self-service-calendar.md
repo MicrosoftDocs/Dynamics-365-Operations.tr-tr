@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429670"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628441"
 ---
 # <a name="view-team-and-company-calendars"></a>Ekip ve şirket takvimlerini görüntüleme
 
@@ -33,15 +33,13 @@ Dynamics 365 Human Resources'ta ekip ve şirket takvimlerini görüntüleyebilir
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Personel olarak takım takviminizi görüntüleme
 
-1. **Personel self servisi** çalışma alanını **Ekibim**'i seçin.
-
-2. **İzin ve devamsızlık**'ı seçin ve sonra **ekip takvimini görüntüle**'yi seçin.
+1. **Çalışan self servisi** çalışma alanında, **Özet** altında **Takım devamsızlık takvimi**'ni seçin.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Yönetici olarak takım takviminizi görüntüleme
 
 1. **Personel self servisi** çalışma alanını **Ekibim**'i seçin.
 
-2. **İzin ve devamsızlık**'ı seçin ve sonra **ekip takvimini görüntüle**'yi seçin.
+2. **İzin ve devamsızlık**'ı seçin ve sonra **Yönetici devamsızlığını görüntüle**'yi seçin.
 
 Yöneticiler takım takvimine **Takımımdaki bekleyen izin istekleri**, **Onaylanan izin** ve **İzin istekleri** alanından da erişebilirler. 
 

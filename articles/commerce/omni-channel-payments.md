@@ -3,7 +3,7 @@ title: Çoklu kanal ödemeleri genel bakışı
 description: Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024389"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613189"
 ---
 # <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
 
@@ -68,11 +68,13 @@ Aşağıdaki bileşenler ve kurulum adımları gereklidir:
 
 - **eCommerce entegrasyonu:** bir siparişin çevrimiçi mağazada bulunduğu senaryoları desteklemek için bir Commerce ile bütünleşme gereklidir. Perakende e-ticaret SDK hakkında daha fazla bilgi için, bkz [e-ticaret platformu yazılım geliştirme kiti (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Bir demo ortamında, başvuru mağazası, Omni-Channel ödeme senaryolarını desteklemektedir. 
 - **Çevrimiçi ödemeler yapılandırması:** çevrimiçi kanalın kurulumu, Omni-Channel ödemelerini desteklemek için güncelleştirilmiş bir ödeme bağlayıcısı içermelidir. Alternatif olarak, kutu dışı ödeme bağlayıcısı kullanılabilir. Adyen ödeme bağlayıcısını çevrimiçi mağazalar için konfigüre etme hakkında bilgi için, bkz: [Adyen ödeme konnektörü.](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) Bu konuda açıklanan eCommerce Kurulum adımlarının yanı sıra, Adyen Bağlayıcısı ayarlarında **e-ticaret parametresinde ödeme bilgilerinin kaydedilmesine izin ver** parametresi **doğru** olarak ayarlanmalıdır. 
-- **Omni-Channel ödemeler konfigürasyonu:** arka ofiste, **Retail ve Commerce \> Merkez kurulumu \> Parametreler \> Commerce paylaşımı parametreleri**. **Omni kanal ödemeleri** sekmesinde, **Omin-channel ödemeleri kullan** seçeneğini **Evet** olarak ayarlayın.
+- **Omni-Channel ödemeler konfigürasyonu:** arka ofiste, **Retail ve Commerce \> Merkez kurulumu \> Parametreler \> Commerce paylaşımı parametreleri**. **Omni kanal ödemeleri** sekmesinde, **Omin-channel ödemeleri kullan** seçeneğini **Evet** olarak ayarlayın. Commerce 10.0.12 ve sonraki sürümlerde bu ayar **Özellik Yönetimi** çalışma alanında yer alınır. **Çok yönlü kanal ödemeleri** özelliğini seçin ve **Şimdi etkinleştir**'e tıklayın. 
 - **Ödeme hizmetleri:** Çağrı merkezi ödemeleri işlemek için **Ödeme hizmetleri** sayfasındaki varsayılan ödeme bağlayıcısını kullanır. "Arama merkezinde satın al, mağazada teslim al" gibi senaryoları desteklemek için, bu varsayılan ödeme bağlayıcının, bir Adyen ödeme Bağlayıcısı veya Omni-Channel ödemeleri için olan uygulama gereksinimlerini karşılayan bir ödeme bağlayıcısı olması gerekir.
 - **EFT servisi:** donanım profilinin **EFT servis** hızlı sekmesinde bir ödeme terminali ile yapılan ödemeler ayarlanmalıdır. Adyen konektörü, kullanıma hazır, Omni-Channel ödemeler senaryolarını destekler. **iNamedRequestHandler** arabirimini destekleyen diğer ödeme bağlayıcıları , Omni-kanal ödemelerini destekliyorsa da kullanılabilir.
 - **Ödeme bağlayıcısı kullanılabilirliği:** bir sipariş geri alınırken, sipariş ile birlikte geri çekilmiş ödeme satırları o siparişle ilişkilendirilmiş yetkilendirmeleri oluşturmak için kullanılan ödeme bağlayıcısının adını içerir. Sipariş yerine getirilirse, ödemeler SDK'sı, özgün yetkilendirmeyi oluşturmak için kullanılan aynı bağlayıcıyı kullanmaya çalışır. Bu nedenle, aynı ticari özelliklere sahip bir ödeme bağlayıcının yakalama için kullanılabilir olması gerekir. 
 - **Kart tipleri:** Omni-channel senaryolarının doğru çalışması için, her kanalın Omni-Channel için kullanılabilecek ödeme tipleri için aynı kuruluma sahip olması gerekir. Bu kurulum ödeme yöntemi kodları ve kart türü kodları içeriyor. Örneğin, **Kart** ödeme tipi çevrimiçi mağaza kurulumunda **2** koduna sahipse, perakende mağaza kurulumunda aynı kimliğe sahip olmalıdır. Aynı gereksinim kart türü kodları için geçerlidir. Kart numarası **12**, çevrimiçi mağazada **VISA** olarak ayarlanmışsa, perakende mağaza için aynı kod ayarlanmalıdır. 
+- Windows veya Android için yerleşik donanım istasyonlu Retail Modern POS -veya-
+- iOS veya Cloud POS için bağlı paylaşılan donanım istasyonlu Modern POS. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Omni-channel ödemelerini destekleyen temel prensibi
 
@@ -100,8 +102,10 @@ Aşağıdaki bölümler, her senaryoya ilişkin adımları açıklar ve demo ver
 Başlamadan önce, aşağıdaki önkoşulların karşılandığından emin olmanız gerekir:
 
 - Adyen bağlayıcının konfigüre edildiği bir mağaza referansınız var.
-- **Commerce paylaşılan parametreleri** üzerindeki **Omni-channel ödemeleri** seçeneği **Doğru** olarak ayarlanmıştır.
+- **Commerce paylaşılan parametreleri** üzerindeki **Omni-channel ödemeleri** seçeneği **Doğru** olarak ayarlanmıştır. Sonraki sürümlerde, bu ayar **Çoklu kanal ödemeleri** özelliğini seçebileceğiniz ve **Şimdi etkinleştir**'e tıklayabileceğiniz **Özellik Yönetimi** çalışma alanına taşınmıştır. 
 - Adyen ödeme konektörü Houston POS kaydı için konfigüre edilir.
+- Windows veya Android için yerleşik donanım istasyonlu Retail Modern POS -veya-
+- iOS veya Cloud POS için bağlı paylaşılan donanım istasyonlu Modern POS. 
 
 Senaryoyu çalıştırmak için şu adımları izleyin.
 
@@ -138,7 +142,7 @@ Senaryoyu çalıştırmak için şu adımları izleyin.
     > [!NOTE]
     > Girdiğiniz kart numarası, ödeme başlatıldığı sırada seçilmiş olan markalardan farklıysa, ödeme devam eder. Ancak, 10. adımda seçtiğiniz kart markasının eşlendiği hesaplara nakledilir.
 
-12. Sipariş **ödemeleri tamamla iletişim kutusunu** kapatmak için yeniden **Tamam**'ı seçin . 
+12. Sipariş **ödemeleri tamamla iletişim kutusunu** kapatmak için yeniden **Tamam**'ı seçin.
 13. **Satış siparişi özeti** sayfasında, **Gönder**'i seçin.
 14. POS'ta, mağaza için malzeme çekme ile ilgili siparişleri görmek **Teslim alınacak siparişler** sayfasında, malzeme çekme işlemi yapılacak siparişleri seçin. 
 15. Referans mağazasında oluşturulan siparişten bir veya daha fazla satırı seçin ve sonra **Teslim al**'ı seçin.
@@ -228,4 +232,6 @@ Birden çok ilgili ve birden çok satırı bulunan bir sipariş çekildiğinde, 
 ## <a name="related-topics"></a>İlgili konular
 
 - [Ödemeler ile ilgili SSS](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Adyen İçin Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

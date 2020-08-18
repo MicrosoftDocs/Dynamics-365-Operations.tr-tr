@@ -3,7 +3,7 @@ title: Common Data Service tümleştirmesini yapılandırma
 description: Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431326"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621316"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service tümleştirmesini yapılandırma
 
@@ -66,6 +66,9 @@ Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 - Tümleştirmeyi kapatmak için, seçeneği **Hayır** olarak ayarlayın.
 
 [![Common Data Service tümleştirmesini açma veya kapatma](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Veri taşıma görevleri gerçekleştirirken Common Data Service tümleştirmesini kapatmanız önerilir. Büyük veri yüklemeleri, performansı önemli ölçüde etkileyebilir. Örneğin, 2000 çalışan karşıya yüklemek, tümleştirme etkinleştirildiğinde birkaç saat sürebilir ve devre dışı bırakıldığında bir saatten az olabilir. Bu örnekte verilen sayılar yalnızca gösterim amaçlıdır. Kayıtları içe aktarmak için gereken tam süre birçok etkene göre büyük ölçüde değişebilir.
 
 ## <a name="view-data-integration-details"></a>Veri tümleştirme ayrıntılarını görüntüleme
 

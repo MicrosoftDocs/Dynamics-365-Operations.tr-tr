@@ -3,7 +3,7 @@ title: Örneği kaldırma
 description: Bu konuda, Microsoft Dynamics 365 Human Resources için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431211"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621392"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
@@ -67,8 +67,21 @@ Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde "yer aldı
 1. Kaldırma isteğini başlatmak için Destek birime başvurun.
 2. Destek ekibi İnsan Kaynakları DevOps ekibiyle kaldırma isteğini başlatacaktır. 
 3. Ortamın kaldırıldığı hakkında bilgi aldıktan sonra devam edin.
-4.  İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak LCS'de oturum açın. 
+4. İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak LCS'de oturum açın. 
 5. Ortamı içeren İnsan Kaynakları Projesini seçin. 
 6. LCS projenizde **İnsan Kaynakları Uygulama Yöneticisi** kutucuğunu seçin. 
 7. Kaldırmak istediğiniz örneği seçin. Bu örneğin Dağıtım durumu **Başarısız** olarak işaretlenmiş olmalıdır.
 8. **Örneği kaldır**'ı seçin ve ardından kararınızı onaylayın. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Geçici olarak silinen bir ortamı kurtarma
+
+Human Resources ortamınızın bağlı olduğu Power Apps ortamını yazılımla silerseniz, Lifecycle Services'te İnsan Kaynakları ortamının durumu **Geçici olarak silindi** olur. Bu durumda, kullanıcılar Human Resources'a bağlanamaz.
+
+Ortamı geri yüklemek için:
+
+1. [Power Apps ortamını kurtarma](/power-platform/admin/recover-environment.md) bölümündeki yönergeleri uygulayın.
+
+2. Human Resources ortamını geri yüklemek için Destek birimine başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
+
+> [!Warning]
+> Power Apps ortamları silme işleminden sonra yalnızca yedi gün süreyle kaydedilir. Ortamı yedi gün içinde kurtarmanız gerekir.

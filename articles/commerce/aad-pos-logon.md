@@ -3,7 +3,7 @@ title: POS oturum açma için Azure Active Directory kimlik doğrulamasını etk
 description: Bu konu, Microsoft Dynamics 365 Commerce satış noktası (POS) için oturum açma deneyiminin Azure Active Directory kimlik doğrulaması kullanacak şekilde nasıl ayarlanacağını açıklar.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410047"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641045"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Azure AD hesabını bir çalışanla ilişkilendirmek için, aşağıdaki adıml
 1. Döndürülen Azure AD hesabını seçin ve ardından **Tamam**'ı seçin.
 
 Çalışanın ayrıntılar sayfasındaki **Commerce** sekmesinde bulunan **Diğer ad**, **UPN** ve **Harici alt kimlik tanımlayıcı** alanları doldurulacaktır.
+
+> [!NOTE]
+> Bir çalışan kaydı güncelleştirildikten sonra, örneğin yeni bir Azure AD hesabı ilişkilendirilmişse, parola değiştirilirse veya bir çalışan adres defteri güncelleştirilirse, en son personel bilgilerini kanalla eşitlemek için **1060** (**Personel**) dağıtım zamanlamasını çalıştırmanız önerilir. Bu şekilde, POS uygulaması kullanıcı kimlik doğrulaması ve yetkilendirme denetimi için doğru verileri alabilir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

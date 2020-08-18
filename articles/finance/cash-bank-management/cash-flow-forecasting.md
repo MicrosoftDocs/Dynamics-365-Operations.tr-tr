@@ -3,7 +3,7 @@ title: Nakit akışı tahmini
 description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188430"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653788"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -102,7 +102,14 @@ Nakit akışı tahmin analizlerini görüntülemek için önce nakit akışı he
 - Tüm nakit akışı tahminlerini silmek ve yeniden hesaplamak için **Nakit akışı tahmin hesaplama yöntemi** alanını **Toplam** olarak ayarlayın. Uzun süredir nakit akışı tahminlerini güncelleştirmediyseniz bu yaklaşımı kullanmanızı öneririz. 
 - Mevuct nakit akışı bilgisini yalnızca yeni hareketler için güncelleştirmek isterseniz, **Nakit akışı tahmini hesaplama yöntemi** alanını **Yeni** olarak ayarlayın. Bu sayfa, nakit akışı hesaplamanızın en son çalıştırıldığı tarihi gösterecektir.
 
-Nakit akışı tahmininiz için toplu iş işleme de kullanabilirsiniz. Tahmin analizlerinizin düzenli olarak güncelleştirilmesini garanti etmeye yardımcı olmak için nakit akışı tahmin hesaplaması için bir yinelenen toplu iş işlemi ayarlayın.
+Nakit akışı tahmininiz için toplu iş işleme de kullanabilirsiniz. Tahmin analizlerinizin düzenli olarak güncelleştirilmesini sağlamaya yardımcı olmak için nakit akışı tahmin hesaplaması için bir yinelenen toplu iş işlemi ayarlayın.
+
+Sürüm 10.0.13'te nakit akışı hesaplama işini zamanlamak için işlem otomasyonu çerçevesini kullanan bir hesaplama işlemi geliştirme yayımlandı. Bu, **Özellik Yönetimi** çalışma alanındaki **Nakit akışı tahmin otomasyonu** özelliği kullanılarak etkinleştirilir. Etkinleştirildikten sonra, nakit akışı hesaplama işlemini zamanlayabileceğiniz yeni otomasyon sayfasını görüntülemek için **Nakit akışı tahmin otomasyonu** bağlantısını seçin. Yeni bir nakit akışı tahmin zamanlaması oluşturmak için **Yeni işlem otomasyonu oluştur**'u seçin ve ardından **Zamanlama türü** açılır menüsünde **Nakit akışı tahmin otomasyonu**'nu seçin. Nakit akışı tahmin verilerini güncelleştirdiğiniz her şirket için bir zamanlama ayarlamanız gerekir.  Bu sayfa ayrıca, bekleyen nakit akışı tahmin otomasyonu işlerinin ve son işin ne zaman tamamlandığını gösterir.  
+
+> [!NOTE] 
+> Varolan toplu işler, nakit akışı tahminleri için zaten zamanlanmışsa, bir hata iletisi alırsınız ve bu özelliği etkinleştiremezsiniz. Bu özelliği etkinleştirmeden önce varolan toplu işlerin temizlenmesi gerekir. 
+
+Daha fazla bilgi için bkz. [İşlem otomasyonu](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 ### <a name="reporting"></a>Raporlama
 
@@ -128,7 +135,7 @@ Geçerli şirketin çalışma alanına erişim **Geçerli şirketin nakit akış
 
 **Nakit genel bakış – geçerli şirket** çalışma alanı, nakit akışı tahmin analizlerini şirketin tanımlanmış muhasebe para birimi cinsinden gösterir. Analizler için kullanılan muhasebe para birimi, **Genel muhasebe** sayfasında tanımlanır. Bu çalışma alanı, geçerli şirket için nakit akışı tahmini ve banka hesabı bakiyelerine bir genel bakışı gösterir. Nakit girişleri ve çıkışlarının bir grafiği, gelecekteki nakit hareketleri ve bakiyeleri muhasebe para birimi cinsinden, tahmin edilen hareketler hakkında ayrıntılı bilgiyle birlikte gösterir. Tahmin edilen para birimi bakiyelerini de görebilirsiniz.
 
-Nakit akışı tahmin analizleri hakkında daha fazla bilgi için, Nakit genel bakışı Power BI içeriği konusuna göz atın.
+Nakit akışı tahmin analizleri hakkında daha fazla bilgi için [Nakit genel bakışı Power BI içeriği](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) konusuna göz atın.
 
 Ek olarak, belirli hesaplar, siparişler ve maddeler hakkındaki nakit akışı tahmin verisini aşağıdaki sayfalarda görebilirsiniz:
 

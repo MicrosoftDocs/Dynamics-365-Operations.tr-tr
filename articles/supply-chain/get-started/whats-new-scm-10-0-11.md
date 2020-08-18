@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530294"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652095"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Dynamics 365 Supply Chain Management 10.0.11'deki yenilikler veya değişiklikler (Temmuz 2020)
 
@@ -39,11 +39,11 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere veya videolara götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 - [Eldeki stok rapor depolama alanı](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Ambar uygulaması için plaka teslim alma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Daha fazla bilgi için bkz. [Ambar uygulaması aracılığıyla plaka teslim alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Toplu iş numarası rezervasyon formu için satır rezervasyonu geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Daha fazla bilgi için bkz. [Satış siparişi için aynı toplu işi rezerve etme](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Ambar uygulaması için plaka teslim alma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Toplu iş numarası rezervasyon formu için satır rezervasyon geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Daha fazla bilgi için bkz. [Satış siparişi için aynı toplu işi rezerve etme](../sales-marketing/reserve-same-batch-sales-order.md).
 - [Üretim alanı için yeni veri varlıkları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Yük miktarlarını fazladan teslim alma](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi](../warehousing/inbound-load-handling.md).
-- [İş kartı aygıtından toplu iş numaralarında tamamlandı olarak bildir](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) -daha fazla bilgi için, [iş kartı aygıtından tamamlandı bildirimine bakın](../production-control/report-finished-job-device.md)
+- [Yük miktarlarını aşırı alma](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Daha fazla bilgi için bkz. [Satın alma siparişleri için gelen yüklerin ambarda işlenmesi](../warehousing/inbound-load-handling.md).
+- [İş kartı cihazından toplu iş numaralarında tamamlandı olarak bildirme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Daha fazla bilgi için bkz. [İş kartı cihazından tamamlandı olarak bildirme](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

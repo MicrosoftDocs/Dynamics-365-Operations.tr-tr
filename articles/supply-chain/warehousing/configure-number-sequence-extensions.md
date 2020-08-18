@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546470"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640411"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Ambar akışları için numara serilerini yapılandırma
 
@@ -36,7 +36,7 @@ Bu özellik aşağıdaki işlevleri ekler:
 - Konşimento (BOL) kodları önceden oluşturulabilir.
 - Seri sevkiyat konteyner kodu (SSCC) numaraları için benzersiz bir numara serisi oluşturulabilir.
 - BOL ve SSCC numaraları için GS1 uyumlu numara serileri oluşturulabilir. Özellik plaka kodları, konteyner kodları, dalga etiketi kodları ve BOL kodları için kullanıma hazır destek ekler.
-- Plaka kodu numaralarının yapılandırması esnektir. Örneğin, baştaki sıfırlar (00) gibi, yapay zeka (AI) dahil edebilir veya hariç tutabilirsiniz.
+- Plaka kodu numaralarının yapılandırması esnektir. Örneğin, baştaki sıfırlar (00) gibi, uygulama tanımlayıcıları (AI) dahil edebilir veya hariç tutabilirsiniz.
 
 Bu işlev, kolilerin etiketlenmesini desteklemeyi ve sistem tarafından oluşturulan yeni numaraları düzenlemeyi daha etkili bir hale getirir.
 

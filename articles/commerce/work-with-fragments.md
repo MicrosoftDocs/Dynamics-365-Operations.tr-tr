@@ -3,7 +3,7 @@ title: Parçalarla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124371"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646003"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 
@@ -62,9 +62,10 @@ Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça 
 Önceden yapılandırılmış bir modülü yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
 
 1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
-1. Soldaki anahat bölmesinde üç nokta düğmesini (**...**) ve modül adının yanında. 
-1. **Parça olarak Paylaş**'ı seçin. 
-1. İletişim kutusu görüntülenir. Parça için bir ad ve meta veri girin.
+1. Sol taraftaki ana hat bölmesinde veya doğrudan ana tuvalden, önceden yapılandırılmış modülü seçin.
+1. Ana hat bölmesinde veya tuval içinde seçili modülün araç çubuğunda modül adının yanındaki üç noktayı (**...**) seçin. 
+1. **Sayfa Parçası Olarak Paylaş**'ı seçin. 
+1. **Sayfa Parçası Olarak Kaydet** iletişim kutusunda, parça için bir ad girin.
 1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
 
 Aşağıdaki resimde bir modül yapılandırmasının bir parça olarak nasıl kaydedileceği gösterilmektedir.
@@ -94,15 +95,16 @@ Aşağıdaki yordamlarda parçaların nasıl ekleneceği, kaldırılacağı ve d
 
 Bir sayfaya parça eklemek için bu adımları izleyin.
 
-1. Soldaki anahat bölmesinde, alt modüllerin eklenebileceği bir konteyner veya yuva seçin.
-1. Konteyner veya yuvanın adının yanındaki üç nokta düğmesini seçin ve **parça Ekle**'yi seçin. İletişim kutusu görüntülenir.
+1. Soldaki ana hat bölmesinde veya doğrudan ana tuvalde, alt modüllerin eklenebileceği bir kapsayıcı veya yuva seçin.
+1. Çevrimiçi bölmesinde kapsayıcının veya yuvanın adının yanındaki üç noktayı (**...**) seçin.  Alternatif olarak, ana tuvali kullanıyorsanız artı simgesini (**+**) seçin.  
+1. **Parça Ekle**'yi seçin.
 
     ![Bir yuvaya veya kapsayıcıya varolan bir parçanın nasıl ekleneceği ile ilgili bir ekran yakalama](./media/add-fragment.png)
  
     > [!NOTE]
     > Bir konteyner veya yuva yeni alt modülleri desteklemiyorsa, **Parça Ekle** seçeneği kullanılamaz.
     
-1. İletişim kutusunda, eklenecek bir parça arayıp seçin. Listelenmiş parça listelenmezse, önce seçilen konteyner veya yuvanın desteklediği bir modül türünden bir parça oluşturmanız gerekebilir.
+1. **Parça Ekle** iletişim kutusunda, eklenecek bir parça arayıp seçin. Listelenmiş parça listelenmezse, önce seçilen konteyner veya yuvanın desteklediği bir modül türünden bir parça oluşturmanız gerekebilir.
 1. Seçili parça sayfanızdaki seçili konteynere veya yuvaya eklemek için istediğiniz parçayı seçin.
 
     ![Parça seçicinin kalıcı penceresindeki Ekran yakalaması](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Bir sayfaya parça eklemek için bu adımları izleyin.
 
 Sayfada yuva veya konteynerden parça kaldırmak için bu adımları izleyin.
 
-1. Soldaki anahat bölmesinde, kaldırılacak parçanın adının yanında üç nokta düğmesini seçin ve çöp tenekesi düğmesini seçin.
+1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta (**...**) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı tuval içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
 1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam**'ı seçin.
 
 > [!NOTE]

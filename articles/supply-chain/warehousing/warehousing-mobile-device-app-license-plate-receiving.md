@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530202"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651726"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Ambar uygulaması aracılığıyla plaka teslim alma
+
+[!include [banner](../includes/banner.md)]
 
 Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
 

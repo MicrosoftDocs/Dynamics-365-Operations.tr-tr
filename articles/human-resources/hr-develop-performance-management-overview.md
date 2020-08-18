@@ -3,7 +3,7 @@ title: Performans yönetimi
 description: Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609784"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628465"
 ---
 # <a name="performance-management"></a>Performans yönetimi
 
@@ -37,6 +37,7 @@ Aşağıdaki çizimde gösterildiği gibi, işlemi yönetmenize yardımcı olaca
 Aşağıdaki diyagramda, performans yönetimi ana bileşenlerinin birbiriyle nasıl ilişkili olduğu gösterilir. [![Performans işlemine genel bakış](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Performans günlüğü
+
 Personel olarak, gözden geçirmenizi tamamlamadan önce, genellikle gözden geçirme dönemi boyunca bir personel olarak başarınıza katkıda bulunan faaliyetler veya olaylar hakkında bilgi toplarsınız. Performans günlüğü, bu faaliyetleri ve olayları belgeleyebileceğiniz yerdir. Buna ek olarak bir hedefi gerçekleştirmenize, bir gelişme planının gereksinimlerini karşılamanıza veya bir performans taahhüdünü yerine getirmenize yardımcı olmak için tamamlamanız gereken gelecekteki faaliyetleri oluşturabilirsiniz. Hedefler veya performans gözden geçirmeleri oluşturmak için performans günlüklerine gerek yoktur. 
 
 Performans günlüğünün iki sürümü vardır: **Personel self servisi** çalışma alanı (**ESS**) üzerinden erişilebilen personel sürümü ve **Yöneticisi self servis** çalışma alanı (**MSS**) üzerinden erişilebilen yönetici sürümü. Personel kendileri için günlükler oluşturabilir ve bunları yöneticileriyle paylaşmayı seçebilir. Yöneticiler, ekipleri için günlükler oluşturabilir ve bunları personeliyle paylaşmayı seçebilir. 
@@ -58,6 +59,7 @@ Ayrıca harici bir web sitesinin URL'sini depolayarak performans günlüğünü 
 Performans günlüğü, Geribildirim adı verilen ek bir özellik içerir. **Geribildirim gönder**'e tıkladığınızda bir personel seçebilir ve bu personele e-posta ile geri bildirim sağlayabilirsiniz. İleti, geribildirimi alan personele, bu personelin yöneticisine, geribildirimi gönderen personele ve bu personelin yöneticisine gönderilir. Geribildirim iletisini alan her kişi için bir performans günlüğü girişi oluşturulur.
 
 ## <a name="goals"></a>Hedefler
+
 **Performans hedefleri** sayfası sizin oluşturduğunuz ve yöneticinizin sizin için oluşturduğu hedefleri izlemenize yardımcı olur. İstediğiniz sayıda hedef oluşturabilirsiniz ve bu hedefler farklı dönemleri ve performans gözden geçirmelerini kapsayabilir. Ayrıca hedef hakkında girmek istediğiniz bilgilere bağlı olarak basit veya karmaşık hedefler oluşturabilirsiniz. Performans gözden geçirmeleri için hedefler gerekmez. 
 
 Basit bir hedef şu bilgileri içermelidir:
@@ -80,6 +82,7 @@ Hedefe bitirme sertifikası gibi bir belge eklemek isterseniz bunu **performans 
 Hedeften bir şablon oluşturabilir ve ardından şablona dayalı yeni hedefler oluşturmak için bu şablonu kullanabilirsiniz. Hedeften bir şablon oluşturduğunuzda açıklama, konular ve hedef ölçümleri kaydedilir. Ancak tüm fiili ölçümler, tamamlanma tarihleri ve konu yorumları kaldırılır.
 
 ## <a name="performance-reviews"></a>Performans gözden geçirmeleri
+
 Performans gözden geçirmeleri daha resmi haliyle tartışmalar olarak bilinir. Sürekli geri bildirimi, gelişme planlarını ve daha resmi gözden geçirmeleri destekleyecek kadar esnek hale getirilmişlerdir. Bire bir toplantı gibi iki kişilik küçük toplantılar oluşturabilir veya şirketinizin gözden geçirme işlemiyle eşleşen daha karmaşık bir gözden geçirme oluşturabilirsiniz. 
 
 Bire bir toplantılar basit birer gözden geçirmedir ve kısa bir ad, toplantı içeriğinin daha uzun bir açıklaması ve toplantı tarihinin belirtilmesi gerekir. Basit bir gözden geçirme, aynı bilgilere ek olarak tartışmanın yapıldığı gözden geçirme dönemini içerir. Gözden geçirmenin oluşturulduğu kişinin adını yöneticiler de görür. 
@@ -92,7 +95,11 @@ Oluşturduğunuz şablonlara göre yeni gözden geçirmeler oluşturabilirsiniz.
 
 İncelemeleri yazdırmak için, **gözden geçirmeyi Yazdır** düğmesini seçin. **İnceleme** sayfasında düğmeyi görmüyorsanız, **özellik Yönetimi** çalışma alanında özelliği etkinleştirmiş olduğunuzdan emin olun. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
+> [!NOTE]
+> Performans incelemelerinin yazdırma özelliği yalnızca Human Resources'ta vardır. Dynamics 365 Finance'te kullanılamaz.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Performans gözden geçirmelerine ekleyebileceğiniz bileşenler
+
 Performans gözden geçirmelerine birkaç tür bilgi ekleyebilirsiniz. Gözden geçirme ayrıntısı, ölçümler, faaliyetler, derecelendirmeler, oturum kapatma işlemleri ve ekleri bunlara dahildir.
 
 ### <a name="review-detail"></a>Gözden geçirme ayrıntıları
@@ -119,24 +126,30 @@ Personel ve/veya yönetici ayarladığınız gözden geçirme parametrelerine g�
 
 **Gözden geçirmeler** sayfasının **Ekler** bölümünde bir belgeyi bir gözden geçirmeye ekleyebilirsiniz. Ekli belgelerin içeriğini hızlı bir şekilde görüntüleyebilmeniz için bir belge görüntüleyici sağlanır.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Performans yönetimi için iş akışı
+
 Gözden geçirme onayını denetlemek için Çalışanı Gözden Geçir iş akışını kullanabilirsiniz. Ayrıca otomatik iş akışını atlamayı ve gözden geçirme durumunu el ile değiştirmeyi seçebilirsiniz. Bu, iş akışı işlemini kullanmanıza gerek kalmadan bire bir gibi daha basit belgeler oluşturmanızı sağlar. Gözden geçirmeye erişim, gözden geçirme durumu ile denetlenir.
 
 1.  Gözden geçirme oluşturulduğunda, **Başlatılmadı** durumuna ayarlanır. Gözden geçirme herkes tarafından düzenlenebilir.
+
 2.  Çalışan **Gözden geçirmeye başla** düğmesine bastığında gözden geçirme,**İşlemde** durumuna ayarlanır. Ardından, personel içerik eklemeye başlar. Bu noktada, yönetici artık gözden geçirme belgesini görüntüleyemez.
+
 3.  Personel, durumu **Gözden geçirme için hazır** olarak değiştirir.
+
 4.  Yönetici, yorum ve derecelendirme ekleyebilir. Bu noktada, yalnızca yönetici gözden geçirmeyi görebilir.
+
 5.  Yönetici durumu **Son gözden geçirme** olarak değiştirir, böylece yönetici ve personel gözden geçirmeyi görebilir ve tartışabilir. Bu noktada, gözden geçirmenin düzenlenip düzenlenmeyeceğini parametrelerde belirtebilirsiniz. Yönetici gözden geçirmeyi personelle paylaşmak ve bitirdiklerinde **Tamamlandı** olarak işaretlemek istiyorsa bu adım da isteğe bağlıdır.
+
 6.  Oturum kapatma işlemleri tamamlandıktan sonra durum **Tamamlandı** olarak değiştirilir. Bu noktada gözden geçirme değiştirilemez.
 
 Çalışanı Gözden Geçir iş akışında iki öğe vardır:
 
 1.  Gözden geçirmeyi onayla. **İşlemde** yerine **Gözden geçirme için hazır** olarak değişen durumu kontrol etmek için bu öğeyi ekleyin. Atamayı, personel.bölüm müdürü düzeyinin 1 olduğu yönetim hiyerarşisi kullanılacak şekilde değiştirin.
+
 2.  Son gözden geçirme. **Gözden geçirme için hazır** durumunun **Son gözden geçirme** olarak değiştirilmesi durumunu denetlemek için bu öğeyi ekleyin. Yöneticinin son gözden geçirmeyi onaylamasını istiyorsanız, Personel.bölüm yönetici düzeyi = 1 olan yönetim hiyerarşisini kullanmak için atamayı değiştirin. Personelin onaylamasını istiyorsanız atamayı, İş akışı kullanıcısı olarak değiştirin. Hem yöneticinin hem de personelin onaylamasını istiyorsanız iş akışına iki adım ekleyin ve onayların takip etmesini istediğiniz sırada, her adım için uygun atamayı yapın.
 
 ## <a name="setup"></a>Kurulum
+
 Performans işlemini tamamlamak için gereken bilgileri ayarlamanıza yardımcı olacak üç sayfa vardır: **Ölçümler** sayfası, **performans günlüğü kaynak türleri** sayfası ve **gözden geçirme türleri** sayfası.
 
 ### <a name="measurements"></a>Ölçümler
@@ -150,6 +163,3 @@ Performans günlüğü kaynak türleri, performans günlüğünün nereden geldi
 ### <a name="review-types"></a>Gözden geçirme türleri
 
 Performans gözden geçirme türleri, bir gözden geçirmenin davranışını denetlemenize yardımcı olur. Gözden geçirme için iş akışını etkinleştirebilir veya devre dışı bırakabilirsiniz. Gözden geçirme iş akışı kullanmıyorsa gözden geçirme oluşturulduğunda kullanılacak varsayılan durumu tanımlayabilirsiniz. Ayrıca personel, yönetici veya her ikisinin birden gözden geçirmede oturumu kapatıp kapatmaması gerektiğine de karar verebilirsiniz.
-
-
-

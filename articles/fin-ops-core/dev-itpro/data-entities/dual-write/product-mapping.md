@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173212"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621342"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -86,7 +86,7 @@ Bu modelde, ürün Common Data Service'taki iki varlığın birleşimiyle göste
 Ürün bir SKU olarak temsil edildiği için farklı ürünler, ana ürünler ve ürün çeşitleri kavramları Common Data Service'ta aşağıdaki şekilde yakalanabilir:
 
 - **Alt tür ürününe sahip ürünler**, kendileri tarafından tanımlanan ürünlerdir. Boyut tanımlanması gerekmez. Belirli bir defter örnek olarak verilebilir. Bu ürünler için **Ürün** varlığında bir kayıt ve **msdyn\_sharedproductdetails** varlığında bir kayıt oluşturulur. Ürün ailesi kaydı oluşturulmaz.
-- **Ana ürünler**, iş süreçlerindeki davranışı belirleyen tanımı ve kuralları içeren genel ürünler olarak kullanılır. Bu tanımlara dayalı olarak, ürün çeşitleri olarak bilinen farklı ürünler oluşturulabilir. Örneğin, Tişört ana üründür ve Renk ve Beden boyutlarına sahip olabilir. Bu boyutların farklı birleşimlerine sahip çeşitler serbest bırakılabilir: small beden mavi tişört veya medium beden yeşil tişört gibi. Tümleştirmede, ürün tablosunda her çeşit için bir kayıt oluşturulur. Bu kayıt farklı boyutlar gibi ürün çeşidine özgü bilgileri içerir. Ürünle ilgili genel bilgiler **msdyn\_sharedproductdetails** varlığında depolanır. (Bu genel bilgi ana üründe tutulur.) Ek olarak, her ana ürün için bir ürün ailesi kaydı oluşturulur. Ana ürün bilgileri, serbest bırakılan ana ürün oluşturulduğunda Common Data Service'la eşitlenir (çeşitler serbest bırakılmadan önce).
+- **Ana ürünler**, iş süreçlerindeki davranışı belirleyen tanımı ve kuralları içeren genel ürünler olarak kullanılır. Bu tanımlara dayalı olarak, ürün çeşitleri olarak bilinen farklı ürünler oluşturulabilir. Örneğin, Tişört ana üründür ve Renk ve Beden boyutlarına sahip olabilir. Bu boyutların farklı birleşimlerine sahip çeşitler serbest bırakılabilir: small beden mavi tişört veya medium beden yeşil tişört gibi. Tümleştirmede, ürün tablosunda her çeşit için bir kayıt oluşturulur. Bu kayıt farklı boyutlar gibi ürün çeşidine özgü bilgileri içerir. Ürünle ilgili genel bilgiler **msdyn\_sharedproductdetails** varlığında depolanır. (Bu genel bilgi ana üründe tutulur.) Ana ürün bilgileri, serbest bırakılan ana ürün oluşturulduğunda Common Data Service ile eşitlenir (çeşitler yayımlanmadan önce).
 - **Ayrı ürünler** tüm ürün alt tür ürünleri ve tüm ürün çeşitlerini ifade eder. 
 
 ![Ürünler için veri modeli](media/dual-write-product.png)

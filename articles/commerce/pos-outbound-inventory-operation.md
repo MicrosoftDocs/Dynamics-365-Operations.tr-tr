@@ -3,7 +3,7 @@ title: POS'ta giden stok işlemi
 description: Bu konu satış noktası (POS) giden stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551637"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646171"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -38,9 +38,9 @@ Microsoft Dynamics 365 Commerce sürüm 10.0.10 ve sonraki sürümlerinde satı�
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Ön koşul: Zaman uyumsuz belge çerçevesini konfigüre edin
 
-Çıkış operasyonu, birçok mağaza veya şirket boyunca yüksek hacimde deftere nakil işlemi yapan kullanıcıların ve büyük stok belgelerinin bu belgeleri zaman aşımı veya hata yaşamdan Commerce Headquarters'a aktarmalarını sağlamak için performans iyileştirmeleri içerir. Bu geliştirmeler zaman uyumsuz bir belge çerçevesinin kullanımını gerektirir.
+Çıkış operasyonu, birçok mağaza veya şirket boyunca yüksek hacimde deftere nakil işlemi yapan kullanıcıların ve büyük stok belgelerinin bu belgeleri zaman aşımı veya hata yaşamdan Commerce Headquarters'a (HQ) aktarmalarını sağlamak için performans iyileştirmeleri içerir. Bu geliştirmeler zaman uyumsuz bir belge çerçevesinin kullanımını gerektirir.
 
-Zaman uyumsuz bir belge çerçevesi kullanıldığında, POS'tan Commerce Headquarters'a giden belge değişikliklerini uygulayabilir ve daha sonra Commerce Headquarters'a işlem arka planda gerçekleşirken diğer görevlere taşıyabilirsiniz. Deftere Nakletme işleminin başarılı olduğundan emin olmak için, POS'daki **giden operasyon** belge listesi sayfasından belgenin durumunu denetleyebilirsiniz. POS uygulamasında, Commerce Headquarters'a nakledilebilecek tüm belgeleri görmek için giden operasyon etkin belge listesini de kullanabilirsiniz. Belge başarısız olursa POS kullanıcıları bu belgede düzeltmeler yapabilir ve bunu Commerce Headquarters'da işlemeyi yeniden deneyebilir.
+Zaman uyumsuz bir belge çerçevesi kullanıldığında, POS'tan Commerce Headquarters'a (HQ) giden belge değişikliklerini uygulayabilir ve daha sonra Commerce Headquarters'a (HQ) işlem arka planda gerçekleşirken diğer görevlere taşıyabilirsiniz. Deftere Nakletme işleminin başarılı olduğundan emin olmak için, POS'daki **giden operasyon** belge listesi sayfasından belgenin durumunu denetleyebilirsiniz. POS uygulamasında, Commerce Headquarters'a (HQ) nakledilebilecek tüm belgeleri görmek için giden operasyon etkin belge listesini de kullanabilirsiniz. Belge başarısız olursa POS kullanıcıları bu belgede düzeltmeler yapabilir ve bunu Commerce Headquarters'da (HQ) işlemeyi yeniden deneyebilir.
 
 > [!IMPORTANT]
 > Bir şirket POS'ta giden operasyonu kullanmaya çalışmadan önce zaman uyumsuz belge çerçevesi konfigüre edilmelidir.
@@ -88,22 +88,22 @@ POS uygulamasından giden operasyon başladığında, bir liste sayfası görün
 
 Giden stok belgesi listesinde üç sekme vardır.
 
-- **Etkin** – Bu sekme , **talep edilen** veya **kısmen sevk** edilen durumundaki transfer emirlerini gösterir. Siparişler, kullanıcının geçerli deposu tarafından sevk edilmek zorunda olan satırlardaki satırları veya miktarları içerir. Bu sekmede Ayrıca **HQ'da işlem** durumu olan siparişler gösterilir (yani, Commerce Headquarters 'dan başarılı bir şekilde deftere nakil işlemini bekliyor) veya **işlem başarısız oldu** (diğer bir deyişle, Commerce Headquarters 'a nakil işlemi başarısız olur ve kullanıcının siparişi teslim etmek için yeniden denemeniz gerekir).
-- **Taslak** – Bu sekmede kullanıcının mağazanın oluşturulduğu yeni giden transfer emri talepleri gösterilir. Ancak, belgeler yalnızca yerel olarak kaydedildi. Bunlar henüz işlenmek üzere Commerce Headquarters'a gönderilmemiş.
+- **Etkin** – Bu sekme , **talep edilen** veya **kısmen sevk** edilen durumundaki transfer emirlerini gösterir. Siparişler, kullanıcının geçerli deposu tarafından sevk edilmek zorunda olan satırlardaki satırları veya miktarları içerir. Bu sekmede Ayrıca **HQ'da işlem** durumu olan siparişler gösterilir (yani, Commerce Headquarters'dan [HQ] başarılı bir şekilde deftere nakil işlemini bekliyor) veya **işlem başarısız oldu** (diğer bir deyişle, Commerce Headquarters'a (HQ) nakil işlemi başarısız olur ve kullanıcının siparişi teslim etmek için yeniden denemeniz gerekir).
+- **Taslak** – Bu sekmede kullanıcının mağazanın oluşturulduğu yeni giden transfer emri talepleri gösterilir. Ancak, belgeler yalnızca yerel olarak kaydedildi. Bunlar henüz işlenmek üzere Commerce Headquarters'a (HQ) gönderilmemiş.
 - **Tamam** – Bu sekmede, mağazanın son yedi gün içinde tam olarak sevk ettiği transfer emri belgelerinin listesi gösterilir. Bu sekme yalnızca bilgi amaçlıdır. Belgelerle ilgili tüm bilgiler, mağazanın salt okunur verileri olduğunu öğrenin.
 
 Sekmelerin herhangi birinde belge görüntülediğinizde, **durum** alanı belgenin bulunduğu aşamayı anlamanıza yardımcı olabilir.
 
-- **Taslak** – Transfer emri belgesi yalnızca mağazanın kanal veritabanına kaydedildi. Transfer emri talebiyle ilgili hiçbir bilgi henüz Commerce Headquarters'a gönderilmedi.
-- **Talep edilen** – satın alma siparişi veya transfer emri Commerce Headquarters'da oluşturulmuş ve tamamen açık. Kullanıcının geçerli deposu, belge bazında herhangi bir sevkiyatı henüz işlemiştir.
+- **Taslak** – Transfer emri belgesi yalnızca mağazanın kanal veritabanına kaydedildi. Transfer emri talebiyle ilgili hiçbir bilgi henüz Commerce Headquarters'a (HQ) gönderilmedi.
+- **Talep edildi** – Satın alma siparişi veya transfer emri Commerce Headquarters'da (HQ) oluşturulmuş ve tamamen açık. Kullanıcının geçerli deposu, belge bazında herhangi bir sevkiyatı henüz işlemiştir.
 - **Kısmen sevk edildi** – Transfer emri belgesi, çıkış ambarı tarafından sevk edilmiş olarak deftere nakledilen bir veya daha fazla satır veya kısmi satır miktarları içerebilir. Sevk edilen bu satırlar gelen operasyonunu içe aktarmak için kullanılabilir.
 - **Tam sevk edildi** - Transfer emrinin, çıkış ambarı tarafından sevk edilmiş olarak deftere nakledilen tüm satırları ve tam satır miktarları vardı.
 - **Devam edenler** – Bu durum, aygıt kullanıcılarına belgenin başka bir kullanıcı tarafından etkin olarak çalıştığını bildirmek için kullanılır.
 - **Duraklatıldı** – Alma işlemini geçici olarak durdurmak için **duraklatma alma** işlemi seçildikten sonra bu durum gösterilir.
-- **HQ'da işleme** – Belge POS uygulamasından Commerce Headquarters'a gönderilmiştir, ancak henüz Commerce Headquarters 'a nakledilmemiştir. Belge, zaman uyumsuz belge deftere nakil işlemine geçiyor. Belge, Commerce Headquarters 'a başarıyla nakledildikten sonra, durumu **tam olarak alındı** veya **kısmen alındı** olarak güncelleştirilmelidir.
-- **İşlem başarısız oldu** – Belge, Commerce Headquarters'a nakledildi ve reddedildi. **Ayrıntılar** bölmesi deftere nakil hatasının nedenini gösterir. Veri sorunlarını düzeltmek için belgenin düzenlenmesi ve daha sonra işlenmek üzere Commerce Headquarters'a yeniden gönderilmesi gerekir.
+- **HQ'da işleniyor** – Belge POS uygulamasından Commerce Headquarters'a (HQ) gönderilmiştir, ancak henüz Commerce Headquarters'a (HQ) nakledilmemiştir. Belge, zaman uyumsuz belge deftere nakil işlemine geçiyor. Belge, Commerce Headquarters'a (HQ) başarıyla nakledildikten sonra, durumu **tam olarak alındı** veya **kısmen alındı** olarak güncelleştirilmelidir.
+- **İşlem başarısız oldu** – Belge, Commerce Headquarters'a (HQ) nakledildi ve reddedildi. **Ayrıntılar** bölmesi deftere nakil hatasının nedenini gösterir. Veri sorunlarını düzeltmek için belgenin düzenlenmesi ve daha sonra işlenmek üzere Commerce Headquarters'a (HQ) yeniden gönderilmesi gerekir.
 
-Listeden bir belge satırı seçtiğinizde **Ayrıntılar** bölmesi görüntülenir. Bu bölme, belge hakkında Sevkiyat ve tarih bilgileri gibi ek bilgiler gösterir. İlerleme çubuğu, kaç maddenin hala işlenmesi gerektiğini gösterir. Belge, Commerce Headquarters 'da başarılı şekilde işlenmediyse, **Ayrıntılar** bölmesi hatayla ilgili hata iletilerini de gösterir.
+Listeden bir belge satırı seçtiğinizde **Ayrıntılar** bölmesi görüntülenir. Bu bölme, belge hakkında Sevkiyat ve tarih bilgileri gibi ek bilgiler gösterir. İlerleme çubuğu, kaç maddenin hala işlenmesi gerektiğini gösterir. Belge, Commerce Headquarters'da (HQ) başarılı şekilde işlenmediyse, **Ayrıntılar** bölmesi hatayla ilgili hata iletilerini de gösterir.
 
 Belge listesi sayfası görünümünde, belge ayrıntılarını görüntülemek için uygulama çubuğunda **sipariş detayları**'nı seçebilirsiniz. Ayrıca, uygun belge satırlarında giriş işlemeyi etkinleştirebilirsiniz.
 
@@ -125,13 +125,13 @@ Belge satırları alma işlemi sırasında geçerlilikler meydana gelir. Bunlar 
 
 Commerce 10.0.12 sürümünde, giden ambar istenen tam miktarı sevk edemeyeceğini belirlerse, POS kullanıcılarının giden sipariş sevkiyatı sırasında kalan miktarları kapatmasına veya iptal etmesine olanak veren işlevler eklenmiştir. Miktarlar da daha sonra kapatılabilir veya iptal edilebilir. Bu yeteneği kullanmak için şirketin transfer emirlerinin eksik teslimatına izin verecek şekilde yapılandırılmış olması gerekir. Ek olarak, transfer emri satırı için eksik teslimat yüzdesi tanımlanmalıdır.
 
-Şirketi transfer emirlerinin eksik teslimatına izin verecek şekilde yapılandırmak için Commerce Headquarters'da **Stok yönetimi \> Kurulum \> Stok ve ambar yönetim parametreleri** öğesine gidin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Transfer emirleri** sekmesinde, **Eksik teslimatı kabul et** parametresini açın. Daha sonra, parametre değişikliklerini depolama kanalınızla eşitlemek için **1070** dağıtım zamanlayıcısı işini çalıştırın.
+Şirketi transfer emirlerinin eksik teslimatına izin verecek şekilde yapılandırmak için Commerce Headquarters'da (HQ) **Stok yönetimi \> Kurulum \> Stok ve ambar yönetim parametreleri** öğesine gidin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Transfer emirleri** sekmesinde, **Eksik teslimatı kabul et** parametresini açın. Daha sonra, parametre değişikliklerini depolama kanalınızla eşitlemek için **1070** dağıtım zamanlayıcısı işini çalıştırın.
 
-Transfer emri satırı için eksik teslimat yüzdeleri, Commerce Headquarters'da ürün yapılandırmasının bir parçası olarak ürünlerde önceden tanımlanabilir. Alternatif olarak, Commerce Headquarters aracılığıyla belirli bir transfer emri satırında bunlar ayarlanabilir veya bunların üzerine yazılabilir.
+Transfer emri satırı için eksik teslimat yüzdeleri, Commerce Headquarters'da ürün yapılandırmasının bir parçası olarak ürünlerde önceden tanımlanabilir. Alternatif olarak, Commerce Headquarters (HQ) aracılığıyla belirli bir transfer emri satırında bunlar ayarlanabilir veya bunların üzerine yazılabilir.
 
-Bir kuruluş transfer emrinin eksik teslimatını yapılandırmayı bitirdikten sonra, kullanıcılar POS'deki **Giden işlem** işlemi aracılığıyla bir giden transfer emri satırını seçtiklerinde, **Ayrıntılar** bölmesinde yeni bir **Kalan miktarı kapat** seçeneği görür. Kullanıcılar, **Karşılamayı bitir** işlemini kullanarak sevkiyatı tamamladıklarında, kalan sevk edilmemiş miktarı iptal etmek Için Commerce Headquarters'a bir talep gönderebilirler. Bir kullanıcı kalan miktarı kapatmayı seçerse Commerce, iptal edilen miktarın transfer emri satırında tanımlanan eksik teslimat yüzdesi toleransı dahilinde olduğunu bir doğrulama işlemiyle doğrular. Eksik teslimat toleransı aşılırsa kullanıcı bir hata iletisi alır ve önceden sevk edilen ve "şimdi sevk et" miktarı eşleşinceye veya eksik teslimat toleransını aşıncaya kadar kalan miktarı kapatamaz.
+Bir kuruluş transfer emrinin eksik teslimatını yapılandırmayı tamamladıktan sonra, POS kullanıcıları **Giden işlem** işlevi aracılığıyla bir giden transfer emri satırını seçtiklerinde, **Ayrıntılar** bölmesinde yeni bir **Kalan miktarı kapat** seçeneği görür. Kullanıcı, **Karşılamayı bitir** işlemini kullanarak sevkiyatı tamamladığında, kalan sevk edilmemiş miktarı iptal etmek Için Commerce Headquarters'a (HQ) bir talep gönderebilirler. Kullanıcı kalan miktarı kapatırsa Commerce, iptal edilen miktarın transfer emri satırında tanımlanan eksik teslimat yüzdesi toleransı dahilinde olduğunu bir doğrulama işlemiyle doğrular. Eksik teslimat toleransı aşılırsa bir hata iletisi gösterilir ve kullanıcı önceden sevk edilen ve "şimdi sevk et" miktarı eşleşinceye veya eksik teslimat toleransını aşıncaya kadar kalan miktarı kapatamaz.
 
-Sevkiyat Commerce Headquarters ile eşitlendikten sonra, POS'taki transfer emri satırının **Şimdi sevk et** alanında tanımlanan miktarlar Commerce Headquarters'da sevk edildi durumuna güncelleştirilir. Önceden "kalan sevk" miktarları (daha sonra sevk edilecek miktarlar) olarak kabul edilen sevk edilmemiş miktarlar, bunun yerine iptal edilen miktarlar olarak kabul edilir. Transfer emri satırının "kalan sevk" miktarı **0** (sıfır) olarak, satır ise tamamen sevk edildi olarak ayarlanır.
+Sevkiyat Commerce Headquarters (HQ) ile eşitlendikten sonra, POS'taki transfer emri satırının **Şimdi sevk et** alanında tanımlanan miktarlar Commerce Headquarters'da (HQ) sevk edildi durumuna güncelleştirilir. Önceden "kalan sevk" miktarları (daha sonra sevk edilecek miktarlar) olarak kabul edilen sevk edilmemiş miktarlar, bunun yerine iptal edilen miktarlar olarak kabul edilir. Transfer emri satırının "kalan sevk" miktarı **0** (sıfır) olarak, satır ise tamamen sevk edildi olarak ayarlanır.
 
 ### <a name="shipping-location-controlled-items"></a>Yerleşim denetimli maddeleri gönderme
 
@@ -145,13 +145,26 @@ Tüm belge satırları için **Hemen gönderme** miktarını bu satırlar için 
 
 ### <a name="cancel-fulfillment"></a>Karşılamayı iptal et
 
-Yalnızca belgenin dışına geri dönmek istiyorsanız ve değişiklikleri kaydetmek istemiyorsanız, uygulama çubuğundaki **karşılama iptali** işlevini kullanmalısınız. Örneğin, başlangıçta yanlış belgeyi seçtiniz ve önceki sevkiyat verilerinin kaydedilmesini istemezsiniz.
+Belgenin dışına geri dönmek istiyorsanız ve değişiklikleri kaydetmek istemiyorsanız, uygulama çubuğundaki **Karşılamayı iptal et** işlevini kullanın. Örneğin, başlangıçta yanlış belgeyi seçtiniz ve önceki sevkiyat verilerinin kaydedilmesini istemezsiniz.
 
 ### <a name="pause-fulfillment"></a>Karşılamayı duraklat
 
-Transfer emrini yerine getirdikten sonra, işlemden mola almak istiyorsanız **karşılamayı duraklat** işlevini kullanabilirsiniz. Örneğin, POS'tan bir müşteri satışı veya sevkiyatın deftere naklini ertele ilgili başka bir operasyon gerçekleştirmek isteyebilirsiniz.
+Transfer emrini yerine getirdikten sonra, işlemden mola almak istiyorsanız **karşılamayı duraklat** işlevini kullanabilirsiniz. Örneğin, POS'tan bir müşteri satışı veya sevkiyatın Commerce Headquarters'a (HQ) naklini erteleme ile ilgili başka bir işlem gerçekleştirmek isteyebilirsiniz.
 
 **Karşılamayı Duraklat**'ı seçtiğinizde, belgenin durumu **duraklatıldı** olarak değiştirilir. Bu nedenle Kullanıcı belgede veri girildiğini, ancak belgenin henüz kaydedilmemiş olmadığını bilir. Karşılama işlemini sürdürmeye hazır olduğunuzda, duraklatılan belgeyi seçin ve **sipariş ayrıntıları**'nı seçin. Daha önce kaydedilen **Şimdi sevk** miktarları korunur ve **tam sipariş listesi** görünümünden görüntülenebilir.
+
+### <a name="review"></a>Gözden geçir
+
+Karşılamanın Commerce Headquarters'a (HQ) nihai uygulanmasından önce, giden belgeyi doğrulamak için **İnceleme** işlevini kullanabilirsiniz. Bu işlev, işlem hatasına neden olabilecek potansiyel eksik veya yanlış veriler için sizi uyarır ve karşılama isteğini göndermeden önce size sorunları çözme fırsatı sağlar. Uygulama çubuğunda **İnceleme** işlevini etkinleştirmek için Commerce Headquarters'daki (HQ) Özellik yönetimi özelliği aracılığıyla **POS gelen ve giden stok operasyonları özelliğinde doğrulamayı etkinleştir** özelliğini etkinleştirin.
+
+**İnceleme** işlevi bir giden belgedeki aşağıdaki sorunları doğrular:
+- **Fazla gönderme** - Şimdi gönderme miktarı sipariş edilen miktardan fazla. Bu sorunun önem derecesi, Commerce Headquarters'daki (HQ) fazla teslimat yapılandırması tarafından belirlenir.
+- **Eksik gönderme** - Şimdi gönderme miktarı sipariş edilen miktardan az. Bu sorunun önem derecesi, Commerce Headquarters'daki (HQ) eksik teslimat yapılandırması tarafından belirlenir.
+- **Seri numarası** – Seri numarasının stoka kaydedilmesini gerektiren serileştirilmiş bir kalem için seri numarası sağlanmamış veya mevcut değil.
+- **Konum ayarlanmadı** – Konum denetimli bir kalem için konumun boş olmasına izin verilmediği durumda konum belirtilmemiştir.
+- **Silinen satırlar** – Siparişte, POS uygulaması tarafından bilinmeyen bir Commerce Headquarters (HQ) kullanıcısı tarafından silinen satırlar vardır.
+
+**Commerce parametreleri** > **Stok** > **Mağaza stoku** bölümünde **Otomatik doğrulamayı etkinleştir** parametresini **Evet** olarak ayarlarsanız **Almayı bitir** işlevini seçtiğinizde doğrulama otomatik olarak gerçekleştirilir.
 
 ### <a name="finish-fulfillment"></a>Karşılama işlemini bitir
 
@@ -163,15 +176,15 @@ Zaman uyumsuz belge işleme kullanıldığında, makbuz zaman uyumsuz bir belge 
 
 Kullanıcılar POS'tan yeni transfer emri belgeleri oluşturabilirler. İşlemi başlatmak için, ana **giden operasyon** belge listesi içindeyken uygulama çubuğunda **yeni**'yi seçin. Daha sonra geçerli deponuzun stok gönderecek ambar veya mağazaya **transfer** seçmeniz istenir. Değerler, mağaza yerine getirme grubunun konfigürasyonuyla tanımlanan seçimle sınırlıdır. Giden bir transfer isteğinde, geçerli deponuzdan transfer emri için her zaman ambardan **transfer** olacak. O değer değiştirilemez.
 
-**Sevk tarihi**, **teslim alma tarihi** ve **teslim alanı** kipinde, gereksinim duyduğunuz şekilde değer girebilirsiniz. Ayrıca, Transfer emri başlığıyla birlikte depolanan bir notu Commerce Headquarters'da belgeye ek olarak da ekleyebilirsiniz.
+**Sevk tarihi**, **teslim alma tarihi** ve **teslim alanı** kipinde, gereksinim duyduğunuz şekilde değer girebilirsiniz. Ayrıca, Transfer emri başlığıyla birlikte depolanan bir notu Commerce Headquarters'da (HQ) belgeye ek olarak da ekleyebilirsiniz.
 
 Başlık bilgileri oluşturulduktan sonra, ürünleri transfer emrine ekleyebilirsiniz. Madde ve istenen miktar ekleme sürecini başlatmak için barkod tarama veya **Ürün Ekle**'yi seçin.
 
-Giden transfer emrine satırlar girildikten sonra, belge değişikliklerini yerel olarak kaydetmek için **Kaydet**'i seçmeniz veya daha fazla işlem yapmak için sipariş ayrıntılarını Commerce Headquarters'a göndermek amacıyla **talebi göndermek** için öğesini seçmelisiniz. **Kaydet**'i seçerseniz, taslak belge kanal veritabanında depolanır ve giden ambar belgeyi, **İstek gönder** aracılığıyla başarılı şekilde işlenene kadar çalıştıramaz. Yalnızca, isteği Commerce Headquarters 'a işlenmek üzere kaydetmeye hazır değilseniz **kaydet** 'i seçmelisiniz.
+Giden transfer emrine satırlar girildikten sonra, belge değişikliklerini yerel olarak kaydetmek için **Kaydet**'i seçmeniz veya daha fazla işlem yapmak için sipariş ayrıntılarını Commerce Headquarters'a (HQ) göndermek amacıyla **talebi göndermek** için öğesini seçmelisiniz. **Kaydet**'i seçerseniz, taslak belge kanal veritabanında depolanır ve giden ambar belgeyi, **İstek gönder** aracılığıyla başarılı şekilde işlenene kadar çalıştıramaz. Yalnızca, isteği Commerce Headquarters'a (HQ) işlenmek üzere kaydetmeye hazır değilseniz **kaydet** 'i seçmelisiniz.
 
 Belge yerel olarak kaydedilirse, **gelen operasyon** belgesi listesinin **Taslaklar** sekmesinde bulunabilir. Belge **taslak** durumundayken, **Düzenle** öğesini seçerek düzenleyebilirsiniz. Satırları gereksinim duyduğunuz şekilde güncelleştirebilir, ekleyebilir veya silebilirsiniz. Tüm belgeyi, **taslak** durumundayken, **Taslaklar** sekmesindeki **Sil**'i seçerek de silebilirsiniz.
 
-Taslak belge başarıyla Commerce Headquarters'a gönderildikten sonra **etkin** sekmede görünür ve durumu **istenen** olur. Bu aşamada, yalnızca giden ambardaki kullanıcılar belgeyi, POS uygulamasındaki **giden operasyonunu** seçerek düzenleyebilir. Gelen ambardaki kullanıcılar transfer emrini **gelen operasyon** belge listesinin **etkin** sekmesinde görüntüleyebilir, ancak düzenleyemez veya silemez. Düzenleme kilidi, gelen bir istek sahibinin, siparişi etkin olarak çekme ve sevk etme işlemlerinde transfer emrini aynı anda değiştirdiği için çakışma olmamasını sağlar. Transfer emri gönderildikten sonra gelen mağaza veya ambarda değişiklik gerekiyorsa çıkış sevkiyatıyla iletişim kurulması ve değişiklikleri girmeleri istenir.
+Taslak belge başarıyla Commerce Headquarters'a (HQ) gönderildikten sonra **etkin** sekmede görünür ve durumu **istenen** olur. Bu aşamada, yalnızca giden ambardaki kullanıcılar belgeyi, POS uygulamasındaki **giden operasyonunu** seçerek düzenleyebilir. Gelen ambardaki kullanıcılar transfer emrini **gelen operasyon** belge listesinin **etkin** sekmesinde görüntüleyebilir, ancak düzenleyemez veya silemez. Düzenleme kilidi, gelen bir istek sahibinin, siparişi etkin olarak çekme ve sevk etme işlemlerinde transfer emrini aynı anda değiştirdiği için çakışma olmamasını sağlar. Transfer emri gönderildikten sonra gelen mağaza veya ambarda değişiklik gerekiyorsa çıkış sevkiyatıyla iletişim kurulması ve değişiklikleri girmeleri istenir.
 
 Belge **istenen** duruma girdikten sonra, çıkış ambarı tarafından işlem için yerine getirilmesi hazırdır. Sevkiyat giden operasyonu kullanılarak işlenirken, Transfer emri belgelerinin durumu **talep edilen** **tamamıyla sevk edilen** veya **kısmen sevk edilen** durumuna göre güncelleştirilir. Belgeler **tam olarak sevk edilen** veya **kısmen sevk edildi** durumunda ise, gelen mağaza veya ambar gelen operasyon alma sürecini kullanarak kendilerine giriş yapabilir.
 

@@ -3,7 +3,7 @@ title: Satış noktasında (POS) ürün arama ve müşteri arama
 description: Bu konu Dynamics 365 Commerce içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024273"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628921"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -95,6 +95,9 @@ Bir uzak müşteri aramasında, diğer tüzel varlıklardaki müşteriler için 
 
 Telefon numarasını temel alan aramalar basitleştirilmiştir. Bu aramalar artık müşteri oluşturulurken eklenmiş olabilecek parantez, tire, boşluk gibi özel karakterleri yok sayar. Bu nedenle, kasiyelerin arama yaparken telefon numarası biçimi hakkında endişelenmesi gerekmez. Ayrıca müşteriler için kısmi bir telefon numarası yazarak da arama yapabilirler. Bir telefon numarası özel karakterler içeriyorsa, özel karakterlerden sonra görünen numaralar için arama yaparak da bulunabilir. Örneğin, bir müşterinin telefon numarası **123-456-7890** olarak girilmişse, bir kasiyer müşteriyi **123**, **456**, **7890** veya **1234567890** arayarak veya telefon numarasının ilk birkaç rakamını girerek arayabilir.
 
+> [!NOTE]
+> Bir müşterinin birden fazla telefon numarası ve birden çok e-postası olabilir. Müşteri arama algoritması bu ikincil e-postaları ve telefon numaralarını da arar ancak müşteri arama sonuçları sayfası yalnızca birincil e-posta ve telefon numarasını görüntüler. Bu durum, döndürülen müşteri sonuçları aranan e-posta veya telefon numarasını göstermediğinde, bazı karışıklıklara neden olabilir. Gelecekteki bir sürümde, müşteri arama sonuçları ekranını bu bilgileri gösterecek şekilde geliştirmeye yönelik bir plan yapılmıştır.
+
 Geleneksel müşteri arama birden çok alanda arama yaptığından zaman alabilir. Bunun yerine, kasiyerler artık adı, e-posta adresi veya telefon numarası gibi tek bir müşteri özelliği için arama yapabilir. Müşteri arama algoritmasının kullandığı özellikler topluca *müşteri arama ölçütü* olarak bilinir. Sistem Yöneticisi bir veya daha fazla ölçütü POS'ta görüntülenecek kısayol olarak kolayca yapılandırabilir. Arama tek bir ölçütle sınırlı olduğundan, yalnızca ilgili arama sonuçları gösterilir ve standart müşteri arama performansına göre çok daha iyi performans elde edilir. Aşağıda POS'taki müşteri arama kısayolları gösterilmektedir.
 
 ![Müşteri araması kısayolları](./media/SearchShortcutsPOS.png "Müşteri araması kısayolları")
@@ -114,3 +117,4 @@ Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Commerce'da *
 Yaklaşan bir Commerce sürümünde perakendeciler, **Tüm mağazalarda arama** yapmak için POS'ta varsayılan müşteri arama modunu ayarlayabilecektir. Bu yapılandırma, POS dışında oluşturulan müşterilerin hemen aranması (örneğin, dağıtım işi çalıştırılmadan önce) için doğrudan arama yapılması gereken senaryolarda yardımcı olabilir. POS işlevsellik profilinde yeni bir **Varsayılan müşteri arama modu** seçeneği mevcut olacaktır. Tüm depolarda arama yapmak için **varsayılan arama modu**'nu ayarlamak üzere **açık** olarak ayarlayın. Her müşteri arama denemesinde, yönetim merkezine gerçek zamanlı bir çağrı yapılır.
 
 Beklenmedik performans sorunlarının engellenmesine yardımcı olmak için, bu yapılandırma **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** adında bir deneme bayrağı arkasında gizlenir. Bu nedenle, kullanıcı arayüzünü (UI) ayarlayarak **Varsayılan müşteri arama modu**'nu göstermek için, satıcı kullanıcı kabul testi (UAT) ve üretim ortamları için bir destek bileti oluşturmalıdır. Bilet alındıktan sonra, mühendislik ekibi, perakendecinin, performansı değerlendirmek ve gereken tüm değerlendirmeleri uygulamak için üretim dışı ortamlarında test yapmasını sağlamak üzere perakendeciyle birlikte çalışacaktır.
+
