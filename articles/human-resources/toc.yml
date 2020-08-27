@@ -5,6 +5,8 @@
       items:
         - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 6 Ağustos 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23 Temmuz 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8 Temmuz 2020
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 Nisan 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24 Mart 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 Mart 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 Mart 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 Mart 2020
-          href: hr-whats-new-2020-03-03.md
         - name: Yeniliklere ilişkin arşivler 2020
           items:
+            - name: 24 Mart 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 Mart 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 Mart 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 Mart 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25 Şubat 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18 Şubat 2020
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: Human Resources paylaşılan parametrelerini yapılandırma
               href: hr-setup-shared-parameters.md
-            - name: İnsan kaynakları iş akışlarını ayarlama
-              href: hr-setup-workflows.md
             - name: Tarih ve Saat alanlarını anlama
               href: hr-setup-date-time-fields.md
         - name: Kuruluş ayarlarını yapılandırma
@@ -383,6 +383,8 @@
               href: hr-personnel-actions-faq.md
             - name: Personel bilgilerini yönetmek için iş akışları kullanma
               href: hr-workflow-manage-employee-information.md
+            - name: Adres değişikliklerini görüntüleme ve yönetme
+              href: hr-personnel-view-address-changes.md
             - name: Pozisyonun raporlama ilişkilerini değiştirme
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Çalışan bilgilerini girme
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: Yedekleme planı geliştirme
               href: hr-personnel-develop-succession-plan.md
-            - name: Proje zaman çizelgelerini girme
-              href: hr-personnel-enter-project-timesheets.md
             - name: Toplu işe alma projeleri
               href: hr-personnel-mass-hire-projects.md
             - name: Toplu işe alma projesi oluşturma
