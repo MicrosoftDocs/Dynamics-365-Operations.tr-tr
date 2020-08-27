@@ -156,6 +156,8 @@
                           items:
                             - name: Varlık ve alan eşlemelerini özelleştirme
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Çoklu varlık eşlemelerini işleme
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Hata yönetimi ve uyarı bildirimleri
