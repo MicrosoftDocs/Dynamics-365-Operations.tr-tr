@@ -3,7 +3,7 @@ title: Perakende kanalları için stok kullanılabilirliğini hesaplama
 description: Bu konu, mağaza ve çevrimiçi kanallarla ilgili eldeki stoğu göstermek için kullanılabilen seçenekleri açıklar.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379248"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694934"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -50,7 +50,7 @@ Müşterileriniz bir e-Ticaret sitesinde alışveriş yaparken bir ürünün sto
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>E-Ticaret ile hesaplanan stok kullanılabilirliği ile başlama
 
-Daha önce belirtilen iki API'yi kullanmadan önce, Commerce Headquarters'daki **Özellik yönetimi** çalışma alanı ile **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmelisiniz.
+Daha önce belirtilen iki API'yı kullanmadan önce, Commerce Headquarters'daki **Özellik yönetimi** çalışma alanı ile **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmelisiniz.
 
 API'ların bir maddenin stok kullanılabilirliğine ilişkin en iyi tahmini hesaplayabilmesi için, Commerce Headquarters'dan alınan stok kullanılabilirliğinin periyodik anlık görüntüsünün işlenmesi ve e-Ticaret Commerce Scale Unit'in kullandığı kanal veritabanına gönderilmesi gereklidir. Anlık görüntü, Commerce Headquarters'ın bir ürün veya ürün çeşidi ile bir ambarın belirli bir birleşimine ait stok kullanılabilirliği hakkında sahip olduğu bilgileri temsil eder. Bu stok girişlerinden veya sevkiyatlardan ya da Commerce Headquarters'da gerçekleştirilen ve e-Ticaret kanalının yalnızca işlemin eşitlenmesi nedeniyle bilgi sahibi olduğu diğer işlemlerden kaynaklanan stok ayarlarını veya hareketlerini içerebilir.
 
@@ -66,7 +66,7 @@ Commerce Headquarters'da stok anlık görüntüsünü almak için aşağıdaki a
 1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
 1. **1130** (**Ürün kullanılabilirliği**) işini çalıştırarak **Ürün kullanılabilirliği** işinin Commerce Headquarters'da oluşturduğu anlık görüntü verilerini kanal veritabanlarınızla eşitleyin.
 
-**Getestimatevailability** veya **ProductWarehouseInventoryAvailabilities** API'sından stok kullanılabilirliği istendiğinde, ürün için olası en iyi tahmini tahmin elde etmek amacıyla bir hesaplama çalıştırılır. Hesaplama, kanal veritabanında bulunan ancak 1130 işinin sağladığı anlık görüntü verilerinde yer almayan tüm e-Ticaret müşteri siparişlerine başvurur. Bu mantık, son işlenen stok hareketi Commerce Headquarters'da izlenerek ve bu, kanal veritabanındaki hareketlerle karşılaştırarak gerçekleştirilir. Bu, kanal tarafı hesaplama mantığının temelini oluşturur, böylece e-Ticaret kanalı veritabanındaki müşteri siparişi satış hareketleri için oluşan ek stok hareketleri, API'nın sağladığı tahmin edilen tahmini stok değerinde dikkate alınabilir.
+**GetEstimatedAvailability** veya **GetEstimatedProductWarehouseAvailability** API'sından stok kullanılabilirliği istendiğinde, ürün için olası en iyi tahmini tahmin elde etmek amacıyla bir hesaplama çalıştırılır. Hesaplama, kanal veritabanında bulunan ancak 1130 işinin sağladığı anlık görüntü verilerinde yer almayan tüm e-Ticaret müşteri siparişlerine başvurur. Bu mantık, son işlenen stok hareketi Commerce Headquarters'da izlenerek ve bu, kanal veritabanındaki hareketlerle karşılaştırarak gerçekleştirilir. Bu, kanal tarafı hesaplama mantığının temelini oluşturur, böylece e-Ticaret kanalı veritabanındaki müşteri siparişi satış hareketleri için oluşan ek stok hareketleri, API'nın sağladığı tahmin edilen tahmini stok değerinde dikkate alınabilir.
 
 Kanal tarafı hesaplama mantığı, istenen ürün ve ambar için tahmini fiziksel kullanılabilir değeri ve toplam kullanılabilir değeri verir. Değerler, isterseniz e-Ticaret sitenizde gösterilebilir ya da e-Ticaret sitenizde diğer iş mantığını tetiklemek için kullanılabilir. Örneğin, API'nın gönderdiği eldeki gerçek miktar yerine "stokta yok" iletisi gösterebilirsiniz.
 
@@ -107,6 +107,8 @@ Stoğun mümkün olan en iyi tahminini elde etmek için, aşağıdaki Commerce t
 - **Toplu işteki hareket ekstrelerini deftere naklet**: Bu iş, akışı deftere nakletme işlemi için de gereklidir. **Toplu işteki hareket ekstrelerini hesapla**işinden sonra gelir. Bu iş, hesaplanmış ekstreleri sistematik olarak deftere nakleder, böylece nakit satış siparişleri Commerce Headquarters'da oluşturulur ve Commerce Headquarters mağaza stoğunuzu daha doğru şekilde yansıtır.
 - **Ürün kullanılabilirliği**: Bu iş, Commerce Headquarters'daki stoğun anlık görüntüsünü oluşturur.
 - **1130 (Ürün kullanılabilirliği)**: Bu iş **Dağıtım zamanlamaları** sayfasında bulunur ve **Ürün kullanılabilirliği** işinden hemen sonra çalıştırılmalıdır. Bu iş, stok anlık görüntü verilerini Commerce Headquarters'dan kanal veritabanlarına aktarır.
+
+Bu toplu işleri çok sık (birkaç dakika arayla) çalıştırmamanız önerilir. Sık yapılan çalıştırmalar Commerce Headquarters (HQ) üzerinde aşırı yük oluşturur ve performansı etkileyebilir. Genel olarak, ürün kullanılabilirliği ve 1130 işlerini saatlik olarak çalıştırmak ve P-işi, sipariş eşitleme ve akışla kademeli deftere nakil ile ilgili işleri aynı veya daha yüksek sıklıkla ayarlamak iyi bir yaklaşımdır.
 
 > [!NOTE]
 > Performans nedeniyle, kanal tarafı stok kullanılabilirliği hesaplamaları e-Ticaret API'sını veya yeni POS kanal tarafı stok mantığını kullanarak stok kullanılabilirliği isteği oluşturmak için kullanıldığında, hesaplamada, hesaplama mantığını yeniden çalıştırmayı gerekçelendirmek için yeterince zaman geçip geçmediğini belirlemek amacıyla bir önbellek kullanılır. Varsayılan önbellek 60 saniyeye ayarlanır. Örneğin, mağazanız için kanal tarafındaki hesaplamayı açtınız ve **Stok arama** sayfasında bulunan bir ürünle ilgili eldeki stoğu görüntülediniz. Daha sonra ürünün bir birimi satılıyorsa **Stok arama** sayfası, önbellek temizlenene kadar azalan stoğu göstermez. Kullanıcılar POS'taki hareketleri deftere naklettikten sonra, eldeki stoğun azaldığını doğrulamadan önce 60 saniye beklemelidir.

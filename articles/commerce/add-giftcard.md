@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411124"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661254"
 ---
 # <a name="gift-card-module"></a>Hediye kartı modülü
 
@@ -63,8 +63,18 @@ Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayar
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Sepet modülü](add-cart-module.md)
+
+[Sepet simgesi modülü](cart-icon-module.md)
 
 [Ödeme modülü](add-checkout-module.md)
+
+[Ödeme modülü](payment-module.md)
+
+[Sevkiyat adresi modülü](ship-address-module.md)
+
+[Teslimat seçenekleri modülü](delivery-options-module.md)
+
+[Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Harici hediye kartları için destek](./dev-itpro/gift-card.md)

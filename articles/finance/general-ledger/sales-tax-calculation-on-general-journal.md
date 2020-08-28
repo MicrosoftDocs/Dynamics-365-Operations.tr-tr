@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570206"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665854"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 
 Bir fişte hesap türü **Satıcı** olan bir günlük satırı varsa, fişteki tüm günlük satırları aynı vergi yönünü uygular. Aşağıdaki noktalar, satıcı hesapları için olası vergi yönlerini gösterir. 
 
-•   Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satınalma'dır.
-
-•   Satış vergisi kodu intracom KDV'siyse, satış vergisi yönü Satış Vergisi Alacağı'dır.
-
-•   Satış vergisi kodu ters gider ise, satış vergisi yönü Satış Vergisi Alacağı'dır.
-
-
-Aksi takdirde, satış vergisi yönü Satış Vergisi Borcu olur.
-
-Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
-
-![Satıcı hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Hesap türü Müşteri'dir
-
-Bir fişte hesap türü **Müşteri** olan bir günlük satırı varsa, fişteki tüm günlük satırları aynı vergi yönünü uygular. Aşağıdaki noktalar, müşteri hesapları için olası vergi yönlerini gösterir.
-
 •   Satış vergisi kodu kullanım vergisi ise, satış vergisi yönü Kullanım Vergisi'dir.
 
 •   Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satınalma'dır.
@@ -90,6 +73,22 @@ Bir fişte hesap türü **Müşteri** olan bir günlük satırı varsa, fişteki
 •   Satış vergisi kodu ters gider ise, satış vergisi yönü Satış Vergisi Borcu'dur.
 
 Aksi takdirde, satış vergisi yönü Satış Vergisi Alacağı olur.
+
+Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
+
+![Satıcı hesapları için vergi yönü olasılıkları](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Hesap türü Müşteri'dir
+
+Bir fişte hesap türü **Müşteri** olan bir günlük satırı varsa, fişteki tüm günlük satırları aynı vergi yönünü uygular. Aşağıdaki noktalar, müşteri hesapları için olası vergi yönlerini gösterir.
+
+•   Satış vergisi kodu vergiden muaf ise, satış vergisi yönü Vergiden Muaf Satınalma'dır.
+
+•   Satış vergisi kodu intracom KDV'siyse, satış vergisi yönü Satış Vergisi Alacağı'dır.
+
+•   Satış vergisi kodu ters gider ise, satış vergisi yönü Satış Vergisi Alacağı'dır.
+
+Aksi takdirde, satış vergisi yönü Satış Vergisi Borcu olur.
 
 Aşağıdaki diyagramda kural grafik olarak gösterilmektedir.
 

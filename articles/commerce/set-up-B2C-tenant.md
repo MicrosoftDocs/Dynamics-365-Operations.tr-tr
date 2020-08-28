@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497180"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677916"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -77,7 +77,7 @@ B2C kiracısı oluşturulduktan sonra, Commerce eylemleriyle etkileşimde bulunm
 
 B2C uygulaması oluşturmak için şu adımları izleyin.
 
-1. Azure portalında **Uygulamalar**'ı seçin ve sonra **Ekle**'yi seçin.
+1. Azure portalında **Uygulamalar (Eski)** öğesini ve sonra **Ekle**'yi seçin.
 1. **Ad** altında, istenen AAD B2C uygulamasının adını girin.
 1. **Web App/Web API** altında, **Web uygulaması / web API'sı ekle** için **Evet**'i seçin.
 1. **Örtülü akışa izin ver** için **Evet**'i (varsayılan değer) seçin.

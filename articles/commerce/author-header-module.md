@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411262"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686634"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
@@ -62,8 +62,8 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 
 Bir üst bilgi modülü oluşturmak için şu adımları izleyin.
 
-1. **Sayfa Parçaları**'na gidin ve yeni parçası oluşturmak için **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda **Konteyner** modülünü seçin, sayfa parçası için bir ad girin ve sonra **Tamam**'ı seçin.
+1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Yeni sayfa parçası** iletişim kutusunda **Kapsayıcı** modülünü seçin, sayfa parçası için bir ad girin ve sonra **Tamam**'ı seçin.
 1. **Varsayılan kapsayıcı** yuvasını seçin ve sağ tarafta bulunan Özellikler bölmesinde, **genişlik** özelliğini **Konteyneri doldur** olarak ayarlayın.
 1. **Varsayılan Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **Promosyon başlığı** ve **Çerez izni** modüller'i seçin, ve **Tamam**'ı seçin.

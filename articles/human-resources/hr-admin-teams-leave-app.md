@@ -3,7 +3,7 @@ title: Teams'de Human Resources uygulaması
 description: Bu konu sizi Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulamasıyla tanıştırır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431142"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666372"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
@@ -45,10 +45,10 @@ Teams'de uygulama izinlerini yönetme hakkında bilgi için bkz. [Microsoft Team
 
 | Çıkış | Durum |
 | --- | --- |
+| Yatay kaydırma, Android telefonlarda çalışmaz | Yatay kaydırma iOS veya masaüstü cihazlarda sorun yaratmaz. Android için bir düzeltme üzerinde çalışıyoruz. |
 | Hata: Bağlanılacak ortam bulunurken bir sorun oluştu. | Kullanıcının bir veya daha fazla İnsan Kaynakları ortamına erişebileceğini doğrulasanız bile bu hatayı alabilirsiniz. Ayrıca, beklediğiniz tüm ortamları görmeyebilirsiniz. Bu sorunu düzeltdik, sorunu gidermek için kullanıcıyı silin ve yeniden içe aktarın. |
 | İleriki bir tarih için izin işlenirken bakiye yanlıştır. | Tahmin, henüz mevcut değil. Bakiye, geçerli tarih için görüntülenir. |
 | Var olan bir istekteki alınan izin saatlerini düşerken **Kalan bakiye** artacağına azalır. | Gelecekte, bu bilinen sorunu ele alacağız. Görüntü yanlış, ancak gönderildikten sonra doğru miktarlara ayarlanır. |
-| Aynı tarihler için iki **Yaklaşan izin** kartı görüntülenir. | Kartlar, ayrı gönderimleri temsil eder. Geri bildirim almaya ve ayarlamalar yapmaya devam edeceğiz. |
 | **İncelemede** isteği iptal edilemiyor. | Bu işlev şu anda desteklenmemektedir ve gelecekteki bir sürümde eklenecektir. |
 | Bakiye bilgileri, bugün itibarıyla hesaplanmaktadır. | Sistem şu anda İzin ve devamsızlık parametrelerinde yapılandırılmış olsa bile tahakkuk dönemi itibariyle bakiyeleri göstermemektedir. |
 

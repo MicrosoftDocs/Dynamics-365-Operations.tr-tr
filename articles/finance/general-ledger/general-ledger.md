@@ -3,7 +3,7 @@ title: Genel muhasebe ve Mali raporlamaya genel bakış
 description: Tüzel kişinin mali kayıtlarını tanımlamak ve yönetmek için genel muhasebeyi kullanın.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771811"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696676"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>Genel muhasebe ve Mali raporlamaya genel bakış
+# <a name="general-ledger-home-page"></a>Genel muhasebe ana sayfası
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,7 +55,10 @@ Ayrıca, vergi dairesi gereksinimleri değiştirdiğinde kuralların düzenli ol
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) gidin. 
+Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
+
+#### <a name="financial-reporting"></a>Mali raporlama
+Mali raporlar hakkındaki bilgiler için [Financial Reporting'e genel bakış](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) konusuna gidin.
 
 #### <a name="blogs"></a>Bloglar
 

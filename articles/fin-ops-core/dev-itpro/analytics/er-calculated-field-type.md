@@ -3,7 +3,7 @@ title: Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş
 description: Bu konu, ER veri kaynakları için Hesaplanan alan türünün nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771341"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665622"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme
 
@@ -45,14 +45,14 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
     - Elektronik raporlama işlev danışmanı
     - Sistem yöneticisi
 
-[Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684)'dan, zipli (sıkıştırılmış) dosyayı **esaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme** indirin. Ayıklanması ve yerel olarak depolanması gereken aşağıdaki ER yapılandırmalarını içerir.
+Ayrıca, aşağıdaki dosyaları da indirip yerel olarak depolamalısınız.
 
 | **İçerik**                           | **Dosya adı**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Örnek ER verisi modeli yapılandırması    | Parametreleştirilmiş calls.version.1.xml öğrenme modeli     |
-| Örnek ER meta verisi yapılandırması      | Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri  |
-| Örnek ER model eşleme yapılandırması | Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme |
-| Örnek ER biçimi yapılandırması        | Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme  |
+| Örnek ER verisi modeli yapılandırması    | [Parametreleştirilmiş calls.version.1.xml öğrenme modeli](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Örnek ER meta verisi yapılandırması      | [Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Örnek ER model eşleme yapılandırması | [Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Örnek ER biçimi yapılandırması        | [Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>RCS kurulumunuzda oturum açın
 Bu örnekte, Litware, Inc. adlı örnek şirket için bir yapılandırma oluşturacaksınız. Öncelikle, RCS'de [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedüründeki adımları tamamlamanız gerekir:

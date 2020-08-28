@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154098"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686826"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme
 
@@ -32,7 +32,7 @@ Bu konuda, istemci tarafı telemetri topluluğunu desteklemek üzere site sayfal
 
 ## <a name="overview"></a>Genel Bakış
 
-Müşterilerinizin sitem ile nasıl etkileştiğini anlamak ve maksimum dönüştürme deneyimini en iyi duruma getirmeye yardımcı olacak kararlar vermek istediğinizde, Web analizi önemli bir araçtır. Birçok web analizi paketi, Google Analytics, Click, Moz Analytics ve KISSMetrics gibi bu hedeflere ulaşmanıza yardımcı olacak şekilde kullanılabilir. Çoğu Web analizi paketi, sitenizin tüm sayfaları için HTML'nin **\<baş\>** öğesine istemci tarafı kodu eklemenizi gerektirir.
+Müşterilerinizin sitem ile nasıl etkileştiğini anlamak ve maksimum dönüştürme deneyimini en iyi duruma getirmeye yardımcı olacak kararlar vermek istediğinizde, Web analizi önemli bir araçtır. Birçok web analizi paketi, Google Analytics, Click, Moz Analytics ve KISSMetrics gibi bu hedeflere ulaşmanıza yardımcı olacak şekilde kullanılabilir. Çoğu web analizi paketi, sitenizin tüm sayfaları için HTML'nin **\<head\>** öğesine istemci tarafı kodu eklemenizi gerektirir.
 
 > [!NOTE]
 > Bu konudaki yönergeler, Microsoft Dynamics 365 Commerce'un doğal olarak sunmadığı diğer özel istemci tarafı işlevleri için de geçerlidir.
@@ -45,9 +45,9 @@ Sayfa parçası, kendi kullandıkları şablondan bağımsız olarak, sitenizdek
 
 Site oluşturucuda satır içi betik kodunuz için yeniden kullanılabilir bir sayfa parçası oluşturmak üzere aşağıdaki adımları izleyin.
 
-1. **Sayfa Parçalarına** gidin ve **yeni**'nı seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, **satır içi betik** 'u seçin.
-1. **Sayfa parçası adı** altında, parça için bir ad girin ve **Tamam** 'ı seçin.
+1. **Parçalar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni sayfa parçası** iletişim kutusunda, **Satır içi betik**'i seçin.
+1. **Sayfa parçası adı** altında, parça için bir ad girin ve **Tamam**'ı seçin.
 1. Oluşturduğunuz sayfa parçasının altında, **varsayılan satır içi kod** modülünü seçin.
 1. Özellik bölmesinde, **satır içi komut dosyası** altında, istemci tarafı komut dosyanızı girin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
 1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
@@ -57,9 +57,9 @@ Site oluşturucuda satır içi betik kodunuz için yeniden kullanılabilir bir s
 
 Site oluşturucuda sharici betik kodunuz için yeniden kullanılabilir bir sayfa parçası oluşturmak üzere aşağıdaki adımları izleyin.
 
-1. **Sayfa Parçalarına** gidin ve **yeni**'nı seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, **Harici betik** 'u seçin.
-1. **Sayfa parçası adı** altında, parça için bir ad girin ve **Tamam** 'ı seçin.
+1. **Parçalar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni sayfa parçası** iletişim kutusunda, **Harici betik**'i seçin.
+1. **Sayfa parçası adı** altında, parça için bir ad girin ve **Tamam**'ı seçin.
 1. Oluşturduğunuz sayfa parçasının altında, **varsayılan harici kod** modülünü seçin.
 1. Sağdaki Özellik bölmesinde, **komut dosyası kaynağı** altında, harici komut dosyası kaynağı için HARICI veya göreli bir URL ekleyin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
 1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.

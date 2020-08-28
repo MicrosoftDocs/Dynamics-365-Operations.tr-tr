@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295092"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686802"
 ---
 # <a name="add-a-favicon"></a>Favicon ekleme
 
@@ -62,8 +62,8 @@ Tercih edilen simgenin HTML'ini oluşturmak için aşağıdaki HTML dizesini kul
 
 Site simgesi için meta etiketi içeren bir sayfa parçası oluşturmak için aşağıdaki adımları seçin.
 
-1. **Sayfa parçaları**'na gidin ve **Yeni**'yi seçin.
-1. **Yeni Sayfa Parçası** iletişim kutusunda, sayfa parçasının temel aldığı modül olarak **Meta etiketleri**'ni seçin.
+1. **Parçalar**'a gidin ve **Yeni**'yi seçin.
+1. **Yeni sayfa parçası** iletişim kutusunda, sayfa parçasının temel aldığı modül olarak **Meta etiketleri**'ni seçin.
 1. Sayfa parçası için bir ad girin ve **Tamam**'ı seçin.
 1. Parça hiyerarşisi ağacında, **Varsayılan meta etiketleri** alt öğesini seçin.
 1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
@@ -75,7 +75,7 @@ Meta etiket sayfası parçasını, sayfalarınızın HTML **başlık** bölümü
 
 1. **Şablonlar**a gidin, site simgenizi eklemek istediğiniz sayfaların şablonunu açın ve **Düzenle**'yi seçin.
 1. Şablon hiyerarşisi ağacında, **HTML başlığı** kapsayıcısının sağında bulunan üç nokta düğmesini (**...**) seçin ve sonra **Sayfa parçası ekle**'yi seçin.
-1. **Sayfa Parçası Seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
+1. **Sayfa parçası seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
 1. **Düzenlemeyi bitir**'i seçin, ardından şablonu yayımlamak için **Yayımla**'yı seçin.
 
 > [!NOTE]

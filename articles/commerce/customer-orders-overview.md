@@ -3,7 +3,7 @@ title: Modern POS'taki (MPOS) müşteri siparişleri
 description: Bu konu, Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024286"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699381"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Modern POS'taki (MPOS) müşteri siparişleri
 
@@ -53,6 +53,8 @@ Müşteri siparişlerinin nasıl karşılandıklarını tanımlamak için **Comm
 
     - Masraflar, satış siparişi üstbilgisi seviyesinde uygulanır ve ürün satırının bir miktarı iade edildiğinde, ürünler için izin verilen sevkiyat masrafının maksimum iadesi ve miktar, tüm müşteriler için geçerli olacak bir şekilde belirlenemez.
     - Sevkiyat giderleri her sevkiyat örneği için alınır. Bir müşteri, ürünleri birden fazla defa iade ederse ve perakendecinin ilkesi, iade sevkiyatı masraflarının karşılanacağını belirtiyorsa, iade sevkiyatı masrafları, gerçek sevkiyat masraflarından fazla olacaktır.
+    
+- **Vergi hesaplama davranışı** - **Yeniden hesapla** sipariş arka ofise aktarıldığında verginin nasıl yeniden hesaplandığı ile ilgili varsayılan ve geleneksel ayardır. **Yeniden hesaplama** seçeneği, yeniden hesaplama işlemi tetiklendiğinde, sipariş arka ofiste düzenleninceye kadar tekrar hesaplamayı devre dışı bırakır. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Müşteri siparişleri için hareket akışı
 

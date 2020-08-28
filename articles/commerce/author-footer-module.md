@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411237"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686730"
 ---
 # <a name="footer-module"></a>Alt bilgi modülü  
 
@@ -50,8 +50,8 @@ Aşağıdaki resimde site sayfasında kullanılan bir altbilgi modülü örneği
 
 ## <a name="create-a-footer-module"></a>Alt bilgi modülü oluşturma
 
-1. **Sayfa Parçaları**'na gidin ve yeni parçası oluşturmak için **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda **Konteyner** modülünü seçin, sayfa parçası için bir ad girin ve sonra **Tamam**'ı seçin.
+1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Yeni sayfa parçası** iletişim kutusunda **Kapsayıcı** modülünü seçin, sayfa parçası için bir ad girin ve sonra **Tamam**'ı seçin.
 1. **Varsayılan Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **alt bilgi kategorisi** modülünü seçin ve **Tamam**'ı seçin.
 1. **Altbilgi kategorisi** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
