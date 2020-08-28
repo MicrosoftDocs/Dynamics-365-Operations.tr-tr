@@ -17,54 +17,64 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411124"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661254"
 ---
-# <a name="gift-card-module"></a><span data-ttu-id="51dbb-103">Hediye kartı modülü</span><span class="sxs-lookup"><span data-stu-id="51dbb-103">Gift card module</span></span>
+# <a name="gift-card-module"></a><span data-ttu-id="195a8-103">Hediye kartı modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-103">Gift card module</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="51dbb-104">Bu konu hediye kartı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ın site sayfalarına nasıl ekleneceğini açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="51dbb-104">This topic covers gift card modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="195a8-104">Bu konu hediye kartı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ın site sayfalarına nasıl ekleneceğini açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="195a8-104">This topic covers gift card modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="51dbb-105">Özet</span><span class="sxs-lookup"><span data-stu-id="51dbb-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="195a8-105">Özet</span><span class="sxs-lookup"><span data-stu-id="195a8-105">Overview</span></span>
 
-<span data-ttu-id="51dbb-106">Hediye kartları, genel bir ödeme biçimidir ve hediye kartı kabul etmek üzere ödeme modülünde bir hediye kartı modülü kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-106">Gift cards are a common form of payment, and the gift card module can be used in a checkout module to accept gift cards.</span></span> <span data-ttu-id="51dbb-107">Hediye kartı modülü Dynamics 365, SVS ve Givex hediye kartlarını destekler.</span><span class="sxs-lookup"><span data-stu-id="51dbb-107">The gift card module supports Dynamics 365, SVS, and Givex gift cards.</span></span> <span data-ttu-id="51dbb-108">SVS ve Givex hediye kartları, Adyen ödeme sağlayıcısı aracılığıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="51dbb-108">SVS and Givex gift cards are redeemed via the Adyen payment provider.</span></span>
+<span data-ttu-id="195a8-106">Hediye kartları, genel bir ödeme biçimidir ve hediye kartı kabul etmek üzere ödeme modülünde bir hediye kartı modülü kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="195a8-106">Gift cards are a common form of payment, and the gift card module can be used in a checkout module to accept gift cards.</span></span> <span data-ttu-id="195a8-107">Hediye kartı modülü Dynamics 365, SVS ve Givex hediye kartlarını destekler.</span><span class="sxs-lookup"><span data-stu-id="195a8-107">The gift card module supports Dynamics 365, SVS, and Givex gift cards.</span></span> <span data-ttu-id="195a8-108">SVS ve Givex hediye kartları, Adyen ödeme sağlayıcısı aracılığıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="195a8-108">SVS and Givex gift cards are redeemed via the Adyen payment provider.</span></span>
 
-<span data-ttu-id="51dbb-109">SVS ve Givex gibi harici hediye kartları desteği hakkında daha fazla bilgi için bkz. [Harici hediye kartları için destek](./dev-itpro/gift-card.md)</span><span class="sxs-lookup"><span data-stu-id="51dbb-109">For more information on support for external gift cards such as SVS and Givex, see [Support for external gift cards](./dev-itpro/gift-card.md)</span></span>
+<span data-ttu-id="195a8-109">SVS ve Givex gibi harici hediye kartları desteği hakkında daha fazla bilgi için bkz. [Harici hediye kartları için destek](./dev-itpro/gift-card.md)</span><span class="sxs-lookup"><span data-stu-id="195a8-109">For more information on support for external gift cards such as SVS and Givex, see [Support for external gift cards](./dev-itpro/gift-card.md)</span></span>
 
-<span data-ttu-id="51dbb-110">Aşağıdaki resimde ödeme sayfasında kullanılan bir hediye kartı modülü örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-110">The following image shows an example of a gift card module on a checkout page.</span></span>
+<span data-ttu-id="195a8-110">Aşağıdaki resimde ödeme sayfasında kullanılan bir hediye kartı modülü örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="195a8-110">The following image shows an example of a gift card module on a checkout page.</span></span>
 
 ![Hediye kartı modülü örneği](./media/ecommerce-giftcard.PNG)
 
-## <a name="module-properties"></a><span data-ttu-id="51dbb-112">Modül özellikleri</span><span class="sxs-lookup"><span data-stu-id="51dbb-112">Module properties</span></span>
+## <a name="module-properties"></a><span data-ttu-id="195a8-112">Modül özellikleri</span><span class="sxs-lookup"><span data-stu-id="195a8-112">Module properties</span></span>
 
-- <span data-ttu-id="51dbb-113">**Ek alanları göster** - Bu özellik, her zaman varsayılan olarak görüntülenen hediye kartı numarasına ek olarak, hediye kartları için hangi alanların görüntüleneceğini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="51dbb-113">**Show additional fields** - This property defines what fields should be displayed for gift cards in addition to the gift card number, which is always displayed by default.</span></span> <span data-ttu-id="51dbb-114">Örneğin, bazı hediye kartları bir kişisel kimlik numarası (PIN) görüntülemeyi ve başka hediye kartları PIN ve son kullanma tarihini görüntülemeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="51dbb-114">For example, some gift cards support displaying a personal identification number (PIN), and others support displaying a PIN and expiration date.</span></span> <span data-ttu-id="51dbb-115">Alternatif olarak, bu özellik yalnızca hediye kartı numarasını görüntüleyebilen ve ek alanlar içermeyen "Hiçbiri" seçeneğine ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-115">Alternatively, this property could be set to "None", which would only display the gift card number and no additional fields.</span></span>
+- <span data-ttu-id="195a8-113">**Ek alanları göster** - Bu özellik, her zaman varsayılan olarak görüntülenen hediye kartı numarasına ek olarak, hediye kartları için hangi alanların görüntüleneceğini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="195a8-113">**Show additional fields** - This property defines what fields should be displayed for gift cards in addition to the gift card number, which is always displayed by default.</span></span> <span data-ttu-id="195a8-114">Örneğin, bazı hediye kartları bir kişisel kimlik numarası (PIN) görüntülemeyi ve başka hediye kartları PIN ve son kullanma tarihini görüntülemeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="195a8-114">For example, some gift cards support displaying a personal identification number (PIN), and others support displaying a PIN and expiration date.</span></span> <span data-ttu-id="195a8-115">Alternatif olarak, bu özellik yalnızca hediye kartı numarasını görüntüleyebilen ve ek alanlar içermeyen "Hiçbiri" seçeneğine ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="195a8-115">Alternatively, this property could be set to "None", which would only display the gift card number and no additional fields.</span></span>
 
-<span data-ttu-id="51dbb-116">Desteklenen değerler:</span><span class="sxs-lookup"><span data-stu-id="51dbb-116">Supported values:</span></span>
--   <span data-ttu-id="51dbb-117">PIN</span><span class="sxs-lookup"><span data-stu-id="51dbb-117">PIN</span></span>
--   <span data-ttu-id="51dbb-118">Son kullanma tarihi</span><span class="sxs-lookup"><span data-stu-id="51dbb-118">Expiration date</span></span>
--   <span data-ttu-id="51dbb-119">PIN ve son kullanma tarihi</span><span class="sxs-lookup"><span data-stu-id="51dbb-119">PIN and expiration date</span></span> 
--   <span data-ttu-id="51dbb-120">Hiçbiri</span><span class="sxs-lookup"><span data-stu-id="51dbb-120">None</span></span>
+<span data-ttu-id="195a8-116">Desteklenen değerler:</span><span class="sxs-lookup"><span data-stu-id="195a8-116">Supported values:</span></span>
+-   <span data-ttu-id="195a8-117">PIN</span><span class="sxs-lookup"><span data-stu-id="195a8-117">PIN</span></span>
+-   <span data-ttu-id="195a8-118">Son kullanma tarihi</span><span class="sxs-lookup"><span data-stu-id="195a8-118">Expiration date</span></span>
+-   <span data-ttu-id="195a8-119">PIN ve son kullanma tarihi</span><span class="sxs-lookup"><span data-stu-id="195a8-119">PIN and expiration date</span></span> 
+-   <span data-ttu-id="195a8-120">Hiçbiri</span><span class="sxs-lookup"><span data-stu-id="195a8-120">None</span></span>
 
-## <a name="site-settings-for-gift-card-modules"></a><span data-ttu-id="51dbb-121">Hediye kartı modülleri için site ayarları</span><span class="sxs-lookup"><span data-stu-id="51dbb-121">Site settings for gift card modules</span></span>
+## <a name="site-settings-for-gift-card-modules"></a><span data-ttu-id="195a8-121">Hediye kartı modülleri için site ayarları</span><span class="sxs-lookup"><span data-stu-id="195a8-121">Site settings for gift card modules</span></span>
 
-<span data-ttu-id="51dbb-122">Commerce site oluşturucuda **Site Ayarları \> Uzantılar**altında, **Desteklenen hediye kartı türü** adında bir hediye kartı modülü ayarı vardır.</span><span class="sxs-lookup"><span data-stu-id="51dbb-122">In Commerce site builder under **Site Settings \> Extensions**, there is a gift card module setting called **Supported gift card type**.</span></span> <span data-ttu-id="51dbb-123">Bu ayar üç değeri destekler:</span><span class="sxs-lookup"><span data-stu-id="51dbb-123">This setting supports three values:</span></span>
-- <span data-ttu-id="51dbb-124">**Dynamics 365 hediye kartı** - Bu ayar uygulandığında, hediye kartı modülü yalnızca Dynamics 365 hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-124">**Dynamics 365 gift card** - When this setting is applied, the gift card module only allows the redemption of Dynamics 365 gift cards.</span></span> <span data-ttu-id="51dbb-125">Bu ayar yalnızca e-Ticaret sitesindeki oturum açmış kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-125">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
-- <span data-ttu-id="51dbb-126">**SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü yalnızca Givex ve SVS hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-126">**SVS and Givex gift cards** - When this setting is applied, the gift card module only allows the redemption of Givex and SVS gift cards.</span></span> <span data-ttu-id="51dbb-127">Bu ayar e-Ticaret sitesindeki oturum açmış ve anonim kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-127">This setting is supported for signed-in and anonymous users on the e-Commerce site.</span></span>
-- <span data-ttu-id="51dbb-128">**Dynamics 365, SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü Dynamics 365, Givex ve SVS hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-128">**Dynamics 365, SVS, and Givex gift cards** - When this setting is applied, the gift card module allows the redemption of Dynamics 365, Givex, and SVS gift cards.</span></span> <span data-ttu-id="51dbb-129">Bu ayar yalnızca e-Ticaret sitesindeki oturum açmış kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="51dbb-129">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
+<span data-ttu-id="195a8-122">Commerce site oluşturucuda **Site Ayarları \> Uzantılar**altında, **Desteklenen hediye kartı türü** adında bir hediye kartı modülü ayarı vardır.</span><span class="sxs-lookup"><span data-stu-id="195a8-122">In Commerce site builder under **Site Settings \> Extensions**, there is a gift card module setting called **Supported gift card type**.</span></span> <span data-ttu-id="195a8-123">Bu ayar üç değeri destekler:</span><span class="sxs-lookup"><span data-stu-id="195a8-123">This setting supports three values:</span></span>
+- <span data-ttu-id="195a8-124">**Dynamics 365 hediye kartı** - Bu ayar uygulandığında, hediye kartı modülü yalnızca Dynamics 365 hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="195a8-124">**Dynamics 365 gift card** - When this setting is applied, the gift card module only allows the redemption of Dynamics 365 gift cards.</span></span> <span data-ttu-id="195a8-125">Bu ayar yalnızca e-Ticaret sitesindeki oturum açmış kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="195a8-125">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
+- <span data-ttu-id="195a8-126">**SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü yalnızca Givex ve SVS hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="195a8-126">**SVS and Givex gift cards** - When this setting is applied, the gift card module only allows the redemption of Givex and SVS gift cards.</span></span> <span data-ttu-id="195a8-127">Bu ayar e-Ticaret sitesindeki oturum açmış ve anonim kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="195a8-127">This setting is supported for signed-in and anonymous users on the e-Commerce site.</span></span>
+- <span data-ttu-id="195a8-128">**Dynamics 365, SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü Dynamics 365, Givex ve SVS hediye kartlarının kullanılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="195a8-128">**Dynamics 365, SVS, and Givex gift cards** - When this setting is applied, the gift card module allows the redemption of Dynamics 365, Givex, and SVS gift cards.</span></span> <span data-ttu-id="195a8-129">Bu ayar yalnızca e-Ticaret sitesindeki oturum açmış kullanıcılar için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="195a8-129">This setting is only supported for signed-in users on the e-Commerce site.</span></span>
 
-## <a name="add-a-gift-card-module-to-a-page"></a><span data-ttu-id="51dbb-130">Sayfaya hediye kartı modülü ekleme</span><span class="sxs-lookup"><span data-stu-id="51dbb-130">Add a gift card module to a page</span></span>
+## <a name="add-a-gift-card-module-to-a-page"></a><span data-ttu-id="195a8-130">Sayfaya hediye kartı modülü ekleme</span><span class="sxs-lookup"><span data-stu-id="195a8-130">Add a gift card module to a page</span></span>
 
-<span data-ttu-id="51dbb-131">Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayarlama yönergeleri için bkz. [Ödeme modülü](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="51dbb-131">For instructions on how to add a gift card module to a checkout page and set the required properties, see [Checkout module](add-checkout-module.md).</span></span>
+<span data-ttu-id="195a8-131">Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayarlama yönergeleri için bkz. [Ödeme modülü](add-checkout-module.md).</span><span class="sxs-lookup"><span data-stu-id="195a8-131">For instructions on how to add a gift card module to a checkout page and set the required properties, see [Checkout module](add-checkout-module.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="51dbb-132">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="51dbb-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="195a8-132">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="195a8-132">Additional resources</span></span>
 
-[<span data-ttu-id="51dbb-133">Başlangıç paketine genel bakış</span><span class="sxs-lookup"><span data-stu-id="51dbb-133">Starter kit overview</span></span>](starter-kit-overview.md)
+[<span data-ttu-id="195a8-133">Sepet modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-133">Cart module</span></span>](add-cart-module.md)
 
-[<span data-ttu-id="51dbb-134">Ödeme modülü</span><span class="sxs-lookup"><span data-stu-id="51dbb-134">Checkout module</span></span>](add-checkout-module.md)
+[<span data-ttu-id="195a8-134">Sepet simgesi modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-134">Cart icon module</span></span>](cart-icon-module.md)
 
-[<span data-ttu-id="51dbb-135">Harici hediye kartları için destek</span><span class="sxs-lookup"><span data-stu-id="51dbb-135">Support for external gift cards</span></span>](./dev-itpro/gift-card.md)
+[<span data-ttu-id="195a8-135">Ödeme modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-135">Checkout module</span></span>](add-checkout-module.md)
+
+[<span data-ttu-id="195a8-136">Ödeme modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-136">Payment module</span></span>](payment-module.md)
+
+[<span data-ttu-id="195a8-137">Sevkiyat adresi modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-137">Shipping address module</span></span>](ship-address-module.md)
+
+[<span data-ttu-id="195a8-138">Teslimat seçenekleri modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-138">Delivery options module</span></span>](delivery-options-module.md)
+
+[<span data-ttu-id="195a8-139">Sipariş ayrıntıları modülü</span><span class="sxs-lookup"><span data-stu-id="195a8-139">Order details module</span></span>](order-confirmation-module.md)
+
+[<span data-ttu-id="195a8-140">Harici hediye kartları için destek</span><span class="sxs-lookup"><span data-stu-id="195a8-140">Support for external gift cards</span></span>](./dev-itpro/gift-card.md)
