@@ -1,9 +1,9 @@
 ---
 title: Mali raporlamaya genel bakış
-description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir.
+description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618050"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696700"
 ---
-# <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
+# <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının bi
 Rapor oluşturan kullanıcılar kendi raporlarını silebilir. **Finansal Raporlama Güvenlik** vergisi olan kullanıcıların diğer raporlarını silebilir. 
 
 Sürüm 10.0.8'de, bitiş tarihleri kavramı kullanıma sunulmuştur. Özellik yönetimi çalışma alanı içindeki **Tümü** sayfasında yeni bir gerekli özellik etkinleştirilmiştir. **Finansal rapor tutma ilkeleri** özelliği aşağıdaki değişiklikleri içerir:
-* Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek
+* Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek.
 * Özelliğin yüklenmesi öncesinde varolan tüm raporlara, 90 günlük bir geçerlilik süresi verilir. Mali Raporlama Servisi tamamlanana kadar tarih kısa bir süre için boş olarak gösterilebilir, bir rapor oluşturulur ve servis güncelleştirmeyi boş bitiş tarihi olan mevcut raporlar için yapar. 
 * **Finansal Raporlama güvenliğini koru** ayrıcalığına sahip kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir: 
   * 90 günlük bitiş tarihi.
@@ -134,6 +134,12 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, varsayılan ana
 ## <a name="creating-and-modifying-financial-reports"></a>Mali raporları oluşturma ve değiştirme
 Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni**'yi seçerek yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Dynamics 365 Finance'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
 
+## <a name="reporting-tree-definitions"></a>Raporlama ağacı tanımları 
+Mali raporlar oluşturmak için kullanılan bileşenlerden biri raporlama ağacı tanımıdır. Raporlama ağacı tanımı kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olur. Mali verilerinizde boyutlu ilişkilere dayanan çapraz boyutlu hiyerarşik bir yapıdır. Ağaçtaki tüm birimler için raporlama birimi düzeyinde ve özet düzeyinde bilgi sağlar.
+
+Kuruluşunuzun verilerini farklı yollarla görüntülemek için sınırsız sayıda raporlama ağacı oluşturabilirsiniz. Her raporlama ağacı bölümlerin ve özet birimlerinin herhangi bir bileşimini içerebilir, ancak bir rapor tanımı bir seferde yalnızca bir raporlama ağacına bağlanabilir. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Rapor Tasarımcısı açma sorunlarını giderme
 Rapor Tasarımcısı'nı açtığınızda sorunlara neden olabilen bazı genel sorunlar bulunmaktadır. Bu sorunlar ve bunları gidermek için gereken adımlar aşağıdaki gibidir.
 
@@ -162,3 +168,4 @@ Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Mali raporları görüntüle](view-financial-reports.md)
+- [Mali raporlarda raporlama ağacı tanımları](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

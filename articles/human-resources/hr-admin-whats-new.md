@@ -3,7 +3,7 @@ title: Human Resources'taki yenilikler veya değişiklikler
 description: Her hafta, Microsoft Dynamics 365 Human Resources için yeni bir sürüm sağlıyoruz. Burada listelenen makalelerde her hafta yapılan değişiklikler ayrıntılı şekilde açıklanır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/22/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0fc9d521d40f47821d6134ebef4dc041df3059f
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: 3bab048a58da7aa981cb807ccb0757ecb237c1ee
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614324"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666346"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources'taki yenilikler veya değişiklikler
 
@@ -41,6 +41,7 @@ Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştir
 
 Human Resources'ın her iki haftalık sürümünde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konulara bakın:
 
+[6 Ağustos 2020](hr-whats-new-2020-08-06.md)</br>
 [23 Temmuz 2020](hr-whats-new-2020-07-23.md)</br>
 [8 Temmuz 2020](hr-whats-new-2020-07-08.md)</br>
 [23 Haziran 2020](hr-whats-new-2020-06-23.md)</br>

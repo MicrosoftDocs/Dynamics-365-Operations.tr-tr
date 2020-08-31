@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201055"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687970"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Liste kategorisindeki ER işlevlerinin listesi
 
@@ -46,6 +46,7 @@ ms.locfileid: "3201055"
 | [Index](er-functions-list-index.md)                       | Bu işlev, belirtilen listede belirtilen sayısal dizin kullanılarak seçilen bir *konteyner (kayıt)* değeri döndürür. Dizin listedeki kayıtların aralığı dışında ise bu işlev, bir özel durum oluşur. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Belirtilen listede kayıt yoksa bu işlevi bir **DOĞRU** *Boole* değeri döndürür. Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür. |
 | [Liste](er-functions-list-list.md)                         | Bu işlevi, belirtilen bağımsız değişkenlerden oluşturulmuş yeni listeden oluşan yeni bir *kayıt listesi* değeri döndürür.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | Bu işlev, belirtilen listedeki tüm kayıtlar için belirtilen ifadeyi seçici olarak hesaplar. Her benzersiz seçici değeri için tek bir kayıt içeren yeni bir *Kayıt listesi* değeri döndürür.|
 | [ListJoin](er-functions-list-listjoin.md)                 | Bu işlev, belirtilen bağımsız değişkenlerden oluşturulmuş yeni birleştirilmiş listesini temsil eden yeni bir *Kayıt listesi* değeri döndürür.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Bu işlev,*numaralandırmanın* veya *konteyner (kayıt)* türünün belirtilen bağımsız değişkeninin yapısına göre oluşturulan bir *kayıt listesi* değeri döndürür. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Bu işlevi, belirtilen listenin yalnızca ilk kayıttan oluşan bir *kayıt listesi* değeri döndürür.|

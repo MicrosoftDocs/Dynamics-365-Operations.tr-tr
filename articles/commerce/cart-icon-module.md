@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411101"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661159"
 ---
 # <a name="cart-icon-module"></a>Sepet simgesi modülü
 
@@ -42,22 +42,22 @@ Aşağıdaki resimde, Fabrikam üstbilgisinde mini sepet görüntüleyen bir al�
 
 - **Mini sepeti göster** – Doğru olduğunda, bu özellik sepet simgesi üzerine gelindiğinde sepet özetinin (mini sepet) görüntülenmesini sağlar. Bu işlev yalnızca masaüstü görünüm bağlantı noktaları için desteklenir.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Sayfaya sepet simgesi modülü ekleme
 
 Bir sepet simgesi modülü eklemek için, bkz. [Başlık modülü](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Ek kaynaklar
-
-[Satınalma kutusu modülü](add-buy-box.md)
 
 [Sepet modülü](add-cart-module.md)
 
 [Ödeme modülü](add-checkout-module.md)
 
-[Sipariş onayı modülü](order-confirmation-module.md)
+[Ödeme modülü](payment-module.md)
 
-[Üst bilgi modülü](author-header-module.md)
+[Sevkiyat adresi modülü](ship-address-module.md)
 
-[Alt bilgi modülü](author-footer-module.md)
+[Teslimat seçenekleri modülü](delivery-options-module.md)
+
+[Sipariş ayrıntıları modülü](order-confirmation-module.md)
+
+[Hediye kartı modülü](add-giftcard.md)

@@ -1,7 +1,7 @@
 ---
 title: İş akışlarına genel bakış
 description: Bu konu bir iş akışının nasıl oluşturulacağını açıklar.
-author: sericks007
+author: ChrisGarty
 manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
-ms.author: donaldc
+ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: bcd548bf8e03e0e6df4d413afe8c9ae01c570899
+ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811326"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3698030"
 ---
 # <a name="create-workflows-overview"></a>İş akışlarına genel bakış
 

@@ -3,7 +3,7 @@ title: Örneği kaldırma
 description: Bu konuda, Microsoft Dynamics 365 Human Resources için bir test sürüşü kaldırma yeni bir üretim ortam işlemi adım adım anlatılmaktadır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621392"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668337"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
@@ -70,7 +70,7 @@ Tek bir İnsan Kaynakları ortamı tek bir Power Apps ortamı içinde "yer aldı
 4. İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak LCS'de oturum açın. 
 5. Ortamı içeren İnsan Kaynakları Projesini seçin. 
 6. LCS projenizde **İnsan Kaynakları Uygulama Yöneticisi** kutucuğunu seçin. 
-7. Kaldırmak istediğiniz örneği seçin. Bu örneğin Dağıtım durumu **Başarısız** olarak işaretlenmiş olmalıdır.
+7. Kaldırmak istediğiniz örneği seçin. Bu örneğin Dağıtım durumu **Silindi** olarak işaretlenmiş olmalıdır.
 8. **Örneği kaldır**'ı seçin ve ardından kararınızı onaylayın. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Geçici olarak silinen bir ortamı kurtarma

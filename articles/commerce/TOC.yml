@@ -406,14 +406,8 @@
                           href: pos-application-user-language-settings.md
                         - name: MPOS için resimleri ayarlama ve yönetme
                           href: set-up-manage-images-retail-mpos.md
-                        - name: POS'taki istemci resimleri
+                        - name: POS'taki müşteri resimleri
                           href: pos-image.md
-                    - name: Müşteri siparişleri
-                      items:
-                        - name: MPOS'taki müşteri siparişleri
-                          href: customer-orders-overview.md
-                        - name: Karma müşteri siparişleri
-                          href: hybrid-customer-orders.md
                     - name: Satış yetkilileri
                       items:
                         - name: Satış gruplarını kullanarak POS'taki komisyonları izleme
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Kişiselleştirilmiş önerilerden vazgeçme
                       href: personalization-gdpr.md
+                - name: '"Benzer görünümdeki mağaza" önerilerini etkinleştirme'
+                  href: shop-similar-looks.md
                 - name: POS deneyimleri
                   items:
                     - name: POS'ta ürün önerileri ekleme
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Siparişlerinizi yönetme
           items:
+            - name: Müşteri siparişleri
+              items:
+                - name: MPOS'taki müşteri siparişleri
+                  href: customer-orders-overview.md
+                - name: Karma müşteri siparişleri
+                  href: hybrid-customer-orders.md
             - name: Satış siparişleri
               items:
                 - name: Çağrı merkezi siparişi oluşturma
@@ -980,14 +982,20 @@
                       href: media-gallery-module.md
                     - name: Derecelendirme ve inceleme modülleri
                       href: ratings-reviews-modules.md
-                - name: Satın alma modülleri
+                - name: Satınalma modülleri
                   items:
                     - name: Sepet modülü
                       href: add-cart-module.md
                     - name: Sepet simgesi modülü
                       href: cart-icon-module.md
-                    - name: Ödeme modülü
+                    - name: Ödeme yapma modülü
                       href: add-checkout-module.md
+                    - name: Ödeme modülü
+                      href: payment-module.md
+                    - name: Sevkiyat adresi modülü
+                      href: ship-address-module.md
+                    - name: Teslimat seçenekleri modülü
+                      href: delivery-options-module.md
                     - name: Sipariş ayrıntıları modülü
                       href: order-confirmation-module.md
                     - name: Hediye kartı modülü
@@ -1290,7 +1298,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
                         - name: SessionToday
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
-                    - name: Liste
+                    - name: List
                       items:
                         - name: Liste işlevleri
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
@@ -1302,19 +1310,19 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
                         - name: EmptyList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
-                        - name: Numaralandırma
+                        - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Filtre
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
-                        - name: Birinci
+                        - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
                         - name: FirstOrNull
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
-                        - name: Dizin
+                        - name: Index
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
-                        - name: Liste
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
@@ -1324,9 +1332,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
-                        - name: Tersine çevir
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
-                        - name: Böl
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Tanımlama bilgisi API'sine genel bakış
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Etkileşimli bileşenlere genel bakış
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: CultureInfoFormatter sınıfını kullanarak modülleri globalleştirme
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Veri eylemleri geliştirme
@@ -2026,9 +2036,13 @@
                   items:
                     - name: Komut dosyası enjektörleri
                       href: e-commerce-extensibility/script-injector.md
+                - name: Bağlayıcılar
+                  items:
+                    - name: Bağlayıcıları yapılandırma ve etkinleştirme
+                      href: e-commerce-extensibility/connectors.md
                 - name: Telemetri ve analiz
                   items:
-                    - name: Telemetri günlükçüsü
+                    - name: Telemetri kaydedici
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: Dağıtım ve bakım
                   items:
@@ -2040,11 +2054,13 @@
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Yakında Retail SDK'da yapılacak değişiklikler
+                - name: Yakında Retail SDK'de yapılacak değişiklikler
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar önemli geliştirme ve ALM değişiklikleri
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Commerce ve Finance and Operations için derleme sistemlerini birleştirme
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: Retail SDK'yı Visual Studio 2015'ten Visual Studio 2017'ye taşıma
+                - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye taşıma
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK genişletilebilirlik örnekleri
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Retail Server genişletilebilirliği
               items:
-                - name: Commerce Scale Unit OData denetleyicisini genişletme
-                  href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: Commerce Scale Unit müşteri ve tüketici API'ları
+                - name: Commerce Scale Unit müşteri ve tüketici API'leri
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Varsayılan Commerce Scale Unit meta veri denetleyicisini genişletme
-                  href: dev-itpro/extend-metadata.md
-                - name: Çevrimdışı modda CRT hizmetini çağırma
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Yeni Retail Server uzantısı oluşturma
+                - name: Yeni Retail Server uzantı API'si oluşturma (Retail SDK sürüm 10.0.11 ve sonrası)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Yeni Retail Server uzantı API'si oluşturma (Retail SDK sürüm 10.0.11 ve öncesi)
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ve C# proxy'leri
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT ve Retail Server genişletilebilirliği
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Kanal veritabanlarına müşteri tercihi verilerini ekleme
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Perakende kanalları için parolaları yönetme
                   href: dev-itpro/manage-secrets.md
                 - name: CRT genişletilebilirliği ve tetikleyiciler
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Tetikleyicileri kullanarak hareketleri engelleme
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Tetikleyicileri kullanarak bir iade ilkesi uygulama
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Bağlılık programı uzantısı
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Sevk irsaliyeleri için uzantı noktaları

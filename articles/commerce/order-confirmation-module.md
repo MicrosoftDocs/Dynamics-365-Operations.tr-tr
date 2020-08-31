@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464942"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661184"
 ---
 # <a name="order-details-module"></a>Sipariş ayrıntıları modülü
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Bir yeni sayfaya sipariş ayrıntıları modülü eklemek ve gerekli özellikler
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
-
-[Kapsayıcı modülü](add-container-module.md)
-
-[Satınalma kutusu modülü](add-buy-box.md)
-
 [Sepet modülü](add-cart-module.md)
+
+[Sepet simgesi modülü](cart-icon-module.md)
 
 [Ödeme modülü](add-checkout-module.md)
 
-[Üst bilgi modülü](author-header-module.md)
+[Ödeme modülü](payment-module.md)
 
-[Alt bilgi modülü](author-footer-module.md)
+[Sevkiyat adresi modülü](ship-address-module.md)
+
+[Teslimat seçenekleri modülü](delivery-options-module.md)
+
+[Hediye kartı modülü](add-giftcard.md)

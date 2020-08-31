@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404360"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664894"
 ---
 # <a name="product-recommendations-overview"></a>Ürün önerilerine genel bakış
 
@@ -74,6 +74,8 @@ Aşağıdaki tabloda, perakendecilerin Dynamics 365 Commerce çözümlerinde [ü
 [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
 
 [Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
+
+["Benzer görünümleri araştır" önerilerini etkinleştirme](shop-similar-looks.md)
 
 [POS'ta ürün önerileri ekleme](product.md)
 

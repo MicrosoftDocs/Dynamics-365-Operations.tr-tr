@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025737"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686658"
 ---
 # <a name="add-a-logo"></a>Logo ekleme
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Sitenizin tüm sayfalarına logo ekleyebilmeniz için önce bu görevleri tamaml
 
 Sitenizin üstbilgi parçasına logo eklemek için aşağıdaki adımları izleyin.
 
-1. Soldaki gezinti bölmesinde **Sayfa Parçaları**'nı seçin.
+1. Soldaki gezinti bölmesinde **Parçalar** seçin.
 1. Oluşturduğunuz başlığı seçin ve sonra **Düzenle**'yi seçin.
 1. Üstbilgi modülünü genişletin.
 1. Üstbilgi modülünün Özellik bölmesinde logo için bir resim ve bağlantı sağlayın. 

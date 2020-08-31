@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404221"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665038"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -95,6 +95,8 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 [Dynamics 365 Commerce ortamında Azure Data Lake Storage'yi etkinleştirme](enable-adls-environment.md)
 
 [Kişiselleştirilmiş önerileri etkinleştirme](personalized-recommendations.md)
+
+["Benzer görünümleri araştır" önerilerini etkinleştirme](shop-similar-looks.md)
 
 [Kişiselleştirilmiş önerilerden vazgeçme](personalization-gdpr.md)
 
