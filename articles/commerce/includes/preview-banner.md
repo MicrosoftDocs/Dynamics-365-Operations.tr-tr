@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Bu konuda belirtilen işlev önizleme sürümünün bir parçası olarak kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Bir sürüm hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version).
+> Bu konuda belirtilen işlevlerin bazıları veya tümü, önizleme sürümünün bir parçası olarak kullanılabilir. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Bir sürüm hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version).
