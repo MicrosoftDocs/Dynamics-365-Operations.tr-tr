@@ -64,10 +64,12 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Şirket içi dağıtımlar için sistem gereksinimleri
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+                - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance + Operations (on-premises) satın alma
+                - name: Finance + Operations (şirket içi) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Data Exchange uygulama kılavuzu
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Fransa'daki Finance and Operations uygulamaları
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerApps uygulamalarını katıştırma
+                - name: Microsoft Power Apps'i katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Mağaza içi topoloji seçme
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange ve ticari kanal iletişimleri
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Commerce Data Exchange en iyi uygulamaları
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange ve ticari kanal iletişimleri
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Commerce Data Exchange ile ilgili sorunları giderme
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: Modern POS mimarisi
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Çevrimiçi mağaza yayımlama mimarisi
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: Çok yönlü kanal ödemelerine genel bakış
                       href: omni-channel-payments.md
+                    - name: Çok yönlü kanal Commerce siparişi ödemeleri
+                      href: dev-itpro/commerce-payments.md
                     - name: Ödemeler ile ilgili SSS
                       href: dev-itpro/payments-retail.md
                 - name: Kuruluşunuz için Bing Haritalar'ı yönetme
@@ -536,7 +546,7 @@
                       href: create-product-hierarchy.md
                     - name: Ürün kategorilerini ve ürünleri yönetme
                       href: category-management-product-creation.md
-                    - name: Ticari varlıkların sıralama düzenini değiştirme
+                    - name: Alım satım varlıkların sıralama düzenini değiştirme
                       href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: Ürün boyutları
                   items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Perakende mağaza hareketlerini düzenleme ve denetleme
               href: edit-audit-retail-transactions.md
-            - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
               href: trickle-feed.md
             - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
@@ -1128,15 +1136,15 @@
           items:
             - name: Power BI ile raporlama ve analiz
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
-            - name: Bilgiye erişim ve raporlama
+            - name: Bilgiye erişme ve raporlama
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: PowerBI.com ile kişiselleştirme seçenekleri
+            - name: Power BI ile kişiselleştirme seçenekleri
               items:
-                - name: PowerBI.com tümleştirmesiyle kullanılabilen özellikler
+                - name: Power BI tümleştirmesiyle kullanılabilen özellikler
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerBI.com içeriğini sabitleme
+                - name: Power BI içeriğini sabitleme
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerBI.com'dan analiz çalışma alanlarını seçme
+                - name: Power BI'dan analiz çalışma alanlarını seçme
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Power BI içeriği
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Varlık deposu bakımından sonra sorunları çözme
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: PowerBI.com tümleştirmesini yapılandırma
+                - name: Power BI tümleştirmesini yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Kendi veritabanınızı getirme
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1200,9 +1208,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
                 - name: Toplu verileri modelleme
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Toplam ölçümlere mali boyut ekleme
+                - name: Ölçümleri toplamak için mali boyut ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Power BI Desktop kullanarak analiz raporları oluşturma
+                - name: Power BI Desktop kullanarak analiz raporu oluşturma
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Power BI Embedded kullanarak çalışma alanlarına analiz ekleme
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -2048,13 +2056,13 @@
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK ve temel kitaplık güncelleştirmeleri
+                    - name: SDK ve mağaza başlangıç seti güncelleştirmeleri
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Yakında Retail SDK'de yapılacak değişiklikler
+                - name: Retail SDK'da yakında yapılacak değişiklikler
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar önemli geliştirme ve ALM değişiklikleri
                   href: dev-itpro/dev-changes-10-13.md
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Ödeme bağlayıcıları dağıtma
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Arka ofis faturalaması için artımlı yakalama
+                  href: dev-itpro/incremental-capture.md
                 - name: Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Ödeme bağlayıcıları için Windows yükleyicileri oluşturma

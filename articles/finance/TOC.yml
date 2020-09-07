@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: Şirket içi dağıtımlar için sistem gereksinimleri
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Finance + Operations (on-premises) satın alma
+                - name: Finance + Operations (şirket içi) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: PowerApps uygulamalarını katıştırma
+                - name: Microsoft Power Apps'i katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -2076,6 +2076,8 @@
                   href: localizations/emea-ita-exil-protest-boe.md
                 - name: Vergi üst sınırı
                   href: localizations/emea-ita-exil-tax-plafond.md
+                - name: Elektronik müşteri faturaları
+                  href: localizations/emea-ita-e-invoices.md
             - name: Japonya
               items:
                 - name: Japonya'ya genel bakış
@@ -2888,15 +2890,15 @@
           items:
             - name: Power BI ile raporlama ve analiz
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
-            - name: Bilgiye erişim ve raporlama
+            - name: Bilgiye erişme ve raporlama
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: PowerBI.com ile kişiselleştirme seçenekleri
+            - name: Power BI ile kişiselleştirme seçenekleri
               items:
-                - name: PowerBI.com tümleştirmesiyle kullanılabilen özellikler
+                - name: Power BI tümleştirmesiyle kullanılabilen özellikler
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
-                - name: PowerBI.com içeriğini sabitleme
+                - name: Power BI içeriğini sabitleme
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
-                - name: PowerBI.com'dan analiz çalışma alanlarını seçme
+                - name: Power BI'dan analiz çalışma alanlarını seçme
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/finance/toc.json
             - name: Power BI içeriği
               items:
@@ -2992,7 +2994,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/finance/toc.json
                 - name: Varlık deposu bakımından sonra sorunları çözme
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: PowerBI.com tümleştirmesini yapılandırma
+                - name: Power BI tümleştirmesini yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/finance/toc.json
                 - name: Kendi veritabanınızı getirme
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/finance/toc.json
@@ -3170,6 +3172,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
+                        - name: ValueInLarge
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valueinlarge.md?toc=/dynamics365/finance/toc.json
                     - name: Matematiksel
                       items:
                         - name: Matematiksel işlevler

@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için sistem gereksinimleri
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance + Operations (on-premises) satın alma
+                - name: Finance + Operations (şirket içi) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerApps uygulamalarını katıştırma
+                - name: Microsoft Power Apps'i katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -631,15 +631,15 @@
           items:
             - name: Power BI ile raporlama ve analiz
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Bilgiye erişim ve raporlama
+            - name: Bilgiye erişme ve raporlama
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: PowerBI.com ile kişiselleştirme seçenekleri
+            - name: Power BI ile kişiselleştirme seçenekleri
               items:
-                - name: PowerBI.com tümleştirmesiyle kullanılabilen özellikler
+                - name: Power BI tümleştirmesiyle kullanılabilen özellikler
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI.com içeriğini sabitleme
+                - name: Power BI içeriğini sabitleme
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI.com'dan analiz çalışma alanlarını seçme
+                - name: Power BI'dan analiz çalışma alanlarını seçme
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI içeriği
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Ürünleri master planlama dışında tutma
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Çift kullanımlı mallar
-                  href: pim/dual-use.md
-                - name: Menşei ülke
-                  href: pim/country-of-origin.md
                 - name: Ürün için barkod oluşturma
                   href: pim/tasks/create-bar-code-product.md
                 - name: Ürünün GTIN kodunu girme
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Ürüne resim ekleme
                   href: pim/tasks/add-image-product.md
+                - name: Menşe ülke
+                  href: pim/country-of-origin.md
+                - name: Çift kullanımlı mallar
+                  href: pim/dual-use.md
+                - name: Tehlikeli maddeler
+                  items:
+                    - name: Tehlikeli maddelere genel bakış
+                      href: pim/hazmat-overview.md
+                    - name: Tehlikeli maddeleri ayarlama
+                      href: pim/hazmat-setup.md
+                    - name: 'Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler'
+                      href: pim/hazmat-items.md
+                    - name: Tehlikeli malzeme sorguları ve raporları
+                      href: pim/hazmat-reports.md
                 - name: Ürün bilgileriyle ilgili SSS'nin çevirisi
                   href: pim/translations-product-related-information.md
                 - name: Sipariş girişi sırasında ürün arama
