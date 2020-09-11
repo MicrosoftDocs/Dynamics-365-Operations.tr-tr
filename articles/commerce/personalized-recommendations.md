@@ -3,7 +3,7 @@ title: Kişiselleştirilmiş ürün önerileri etkinleştirme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'un müşterileri için kişiselleştirilmiş ürün önerilerinin nasıl yapılacağı açıklanmaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664870"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700878"
 ---
 # <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 
@@ -49,11 +49,13 @@ Müşteriler için kişiselleştirilmiş ürün önerileri yapmadan önce, ürü
 
 Kişiselleştirmeyi açmak için aşağıdaki adımları izleyin.
 
-1. **Perakende ve Ticaret \> ürün önerileri \> öneri parametrelerine** gidin.
-1. Perakende paylaşılan parametreleri listesinde, **öneri listelerini** seçin.
-1. **Kişiselleştirmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+1. Commerce Headquarters'ta **Özellik Yönetimi**'ni arayın.
+1. Kullanılabilir özelliklerin listesini görmek için **Tümü**'nü seçin. 
+1. Arama kutusuna **Öneriler** yazın.
+1. **Kişiselleştirilmiş ürün önerileri** özelliğini seçin.
+1. **Kişiselleştirilmiş ürün önerileri** özellikler bölmesinde **Şimdi etkinleştir**'i seçin.
 
-![Kişiselleştirmeyi açma](./media/enablepersonalization.png)
+![Kişiselleştirmeyi açma](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Kişiselleştirmeyi etkinleştirdiğinizde, kişiselleştirilmiş ürün önerisi listeleri oluşturma işlemi başlatılır. Bu listelerin kullanılabilmesi ve çevrimiçi olarak ve POS'ta görülebilmesi için bir güne kadar gerekli olabilir.

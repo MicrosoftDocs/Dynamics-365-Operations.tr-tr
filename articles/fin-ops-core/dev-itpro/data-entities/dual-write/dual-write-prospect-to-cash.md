@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443907"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719276"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -79,7 +79,7 @@ Field Service çözümünü de kullanıyorsanız, **Teklif Satırı Hızlı Olu�
 
 Satış siparişleri Sales veya Supply Chain Management'ta oluşturulabilir. Sales'de bir satış siparişi oluşturursanız, bu gerçek zamanlı olarak Supply Chain Management ile eşitlenir. Aynı şekilde Supply Chain Management'ta bir satış siparişi oluşturursanız, bu gerçek zamanlı olarak Sales ile eşitlenir. Aaşağıdaki noktaları unutmayın:
 
-+ Siparişteki tüm ürünler Finance and Operations uygulamalarından geliyorsa, siparişleri yalnızca Sales'den etkinleştirebilir ve eşitleyebilirsiniz. Bu nedenle, serbest olmayan ürünler olabilir.
++ Dynamics 365 Sales'deki serbest ürün eklemeler, Dynamics 365 Supply Chain Management'ta ürün kategorileri olarak görünür.
 + İskonto hesaplama ve yuvarlama:
 
     - Sales'taki iskonto hesaplama modeli Supply Chain Management'taki iskonto hesaplama modelinden farklıdır. Supply Chain Management'ta, satış satırındaki nihai iskonto tutarı iskonto tutarları ile iskonto yüzdeleri kombinasyonun sonucu olabilir. Nihai iskonto tutarı satırdaki miktara bölünürse, yuvarlama oluşabilir. Bununla birlikte, bu yuvarlama yuvarlanan bir birim başına iskonto tutarı Sales'a eşitlenirse dikkate alınmaz. Supply Chain Management'taki bir satış satırından gelen tam iskonto tutarının Sales'e doğru şekilde eşitlenmesini sağlamak için, tam tutarın satır miktarına bölünmeden eşitlenmesi gerekir. Bu nedenle, Sales'ta iskonto hesaplama yöntemini **Satır maddesi** olarak tanımlamanız gerekir.

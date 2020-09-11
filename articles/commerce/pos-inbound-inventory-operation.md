@@ -3,7 +3,7 @@ title: POS'ta gelen stok işlemi
 description: Bu konu satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627550"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710321"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -143,6 +143,20 @@ Operasyon, **yerleşim** depolama boyutunda **izin verilen boş giriş**'e karş
 ### <a name="receive-all"></a>Tümünü al
 
 Tüm belge satırları için **Şimdi alınıyor** miktarını bu satırlar için alınabilecek maksimum değere hızlı bir şekilde güncelleştirmek için, gerekirse uygulama çubuğunda **Tümünü Al** 'i seçebilirsiniz.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Satınalma siparişlerindeki plansız maddeler girişi
+
+Commerce 10.0.14 sürümü ve sonraki sürümler, kullanıcılar başlangıçta satınalma siparişinde olmayan bir ürünü alabilir. Bu işlevi etkinleştirmek için **Satış Noktasında teslim alma sırasında Satınalma Siparişine satır ekleyin** seçeneğini açın.  
+
+Bu özellik, yalnızca satınalma siparişi teslim alma için geçerlidir. Maddeler daha önce sipariş edilmemiş ve giden ambardan sevk edilmemişse transfer emirlerinden farklı maddeler teslim alınması mümkün değildir.
+
+Satınalma siparişi [değişiklik yönetimi iş akışı](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) Commerce Headquarters'ta (HQ) etkinse kullanıcılar POS sırasında satın alma siparişine yeni ürün ekleyemez. Değişiklik yönetimini etkinleştirmek için satınalma siparişindeki tüm değişikliklerin teslim almadan önce onaylanması gerekir seçeneğine izin verilmelidir. Bu işlem bir alıcının satınalma siparişine yeni satırlar eklemesine izin verdiğinden değişiklik yönetimi iş akışı etkinleştirilmişse teslim alma işlemi başarısız olur. Tüm satınalma siparişleri veya POS'ta etkin olarak teslim alınan satın alma siparişiyle ilişkili satıcı için değişiklik yönetimi etkinse kullanıcı, POS'ta teslim alma sırasında satın alam siparişine yeni ürün ekleyemez.
+
+Satınalma siparişinde mevcut olan ürünlerin miktarını artırmaya yönelik geçici bir çözüm olarak satır eklemeye izin veren işlev kullanılamaz. Fazla alma, satınalma siparişindeki ürün satırı için standart [fazla alma](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) ayarları üzerinden yönetilir.
+
+**Satış Noktasında teslim alma sırasında Satınalma Siparişine satır ekleyin** etkinse ve kullanıcı POS'ta **Gelen işlem** ile teslim alıyorsa, kullanıcı mevcut satın alma siparişinde madde olarak tanınmasa da geçerli bir madde olarak tanınan ürün kodunu veya ürün numarasını taratıyor veya giriyorsa; kullanıcı, maddeyi satınalma siparişine ekleme hakkında bir ileti alır. Kullanıcı maddeyi satınalma siparişine eklerse **Şimdi alınıyor**'a girilen miktar satınalma siparişi satırı için sipariş edilen miktar kabul edilir.
+
+Satınalma siparişi girişi tamamlanıp işlenmek üzere HQ'ya gönderildiğinde eklenen satırlar satınalma siparişi ana belgesinde oluşturulur. HQ'daki satınalma siparişi satırında, satınalma siparişi satırının **Genel** sekmesinde **POS tarafından eklendi** bayrağı olur. **POS tarafından eklendi** bayrağı, satınalma siparişi satırının POS alma işlemi tarafından eklendiğini ve alımdan önce satınalma siparişinde bulunmayan bir satır olduğunu gösterir.
 
 ### <a name="cancel-receiving"></a>Teslim almayı iptal et
 

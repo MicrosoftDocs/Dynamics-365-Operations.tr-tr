@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429071"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712188"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planlarını tahakkuk et
 
@@ -37,7 +37,9 @@ ms.locfileid: "3429071"
 
 3. **İzin ve devamsızlık planları tahakkuk ettirme** iletişim kutusu görüntülenir. **Tahakkuk tarihi** alanında **Bugünün tarihi**'ni seçin veya **Özel tarih**'i seçin ve özel bir tarih girin.
 
-4. Tahakkuk İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:
+4. Tüm şirketler için tahakkukları çalıştırmak istiyorsanız **Tüm şirketler**'i seçin. Tek bir izin planıyla ilgili tahakkukları işlemek istiyorsanız **Tüm planlar** için **Hayır**'ı seçip **İzin planı**'nı seçin. Tüm şirketleri seçerseniz tek bir izin planını seçemezsiniz. 
+
+5. Tahakkuk İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:
 
    1. Tahakkuk İşlem bilgilerini girin.
 
@@ -55,7 +57,9 @@ ms.locfileid: "3429071"
 
 3. **İzin ve devamsızlık planları tahakkuk ettirme** iletişim kutusu görüntülenir. **Tahakkuk tarihi** alanında **Bugünün tarihi**'ni seçin veya **Özel tarih**'i seçin ve özel bir tarih girin.
 
-4. Tahakkuk İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:
+4. Tüm şirketler için tahakkukları çalıştırmak istiyorsanız **Tüm şirketler**'i seçin. Tek bir izin planıyla ilgili tahakkukları işlemek istiyorsanız **Tüm planlar** için **Hayır**'ı seçip **İzin planı**'nı seçin. Tüm şirketleri seçerseniz tek bir izin planını seçemezsiniz. 
+
+5. Tahakkuk İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:
 
    1. Tahakkuk İşlem bilgilerini girin.
 
@@ -102,18 +106,6 @@ Belirli bir plan ve tarih aralığı için tahakkuk kayıtlarını silin. Tahakk
 1. **İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesini seçin.
 
 2. **İzni yönet** altında, **İzin tahakkuk denetimini sil**'i seçin.
-
-## <a name="configure-preview-features"></a>Önizleme özelliklerine yapılandırma
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-İzin ve devamsızlık için Önizleme özelliklerini etkinleştirdiyseniz, bu ayarları sizin için de konfigüre etmeniz gerekir.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Şirket başına veya izin başına düşen tahakkuk planı
-
-İzin ve devamsızlık planlarını tahakkuk ettiğinizde, tüm şirketler için tahakkuk etmeyi seçebilirsiniz. Tüm şirketleri seçerseniz, her bir bırakma planını seçemezsiniz. Tüm şirketler için tahakkuk etmeyi seçerseniz, belirli bir izin bırakma planı için tahakkuk edebilirsiniz. 
-
-Bu seçenekler tüm çalışanlar veya bireysel çalışanlar için tahakkuk edildiğinde kullanılabilir. 
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

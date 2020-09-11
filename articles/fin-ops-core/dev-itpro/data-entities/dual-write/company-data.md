@@ -3,7 +3,7 @@ title: Common Data Service'da şirket kavramı
 description: Bu konu, Finance and Operations ve Common Data Service arasındaki şirket verileri tümleştirmesini açıklar.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172912"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728425"
 ---
 # <a name="company-concept-in-common-data-service"></a>Common Data Service'da şirket kavramı
 
@@ -72,3 +72,32 @@ Common Data Service tümleştirmesi verileri bölümlemek için şirket tanımla
 + Kayıtlar için, bir şirket eklendikten ve kaydedildikten sonra, değer salt okunur olur. Bu nedenle, kullanıcılar doğru şirketi seçtiğinden emin olmalıdır.
 + Yalnızca şirket verilerine sahip kayıtlar uygulama ile Common Data Service arasında çift yazma için uygundur.
 + Var olan Common Data Service verileri için, yönetici tarafından yürütülen bir yeniden örnekleme deneyimi yakında kullanıma sunulacaktır.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurma
+
+Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurmanın birkaç yolu vardır.
+
++ Sistem yöneticisiyseniz **Gelişmiş Ayarlar > Sistem > Güvenlik > Kullanıcılar** seçeneğine giderek varsayılan şirketi ayarlayabilirsiniz. **Kullanıcı** formunu açın ve **Kuruluş Bilgileri** bölümünde **Formlarda varsayılan olarak kullanılacak şirket** değerini ayarlayın.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Kuruluş bilgileri bölümünde varsayılan şirketi ayarlayın.":::
+
++ **İş Birimi** düzeyi için **SystemUser** varlığına **Yazma** erişiminiz varsa **Şirket** açılır menüsünden bir şirket seçerek tüm formlardaki varsayılan şirketi değiştirebilirsiniz.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Yeni bir hesaptaki şirket adını değiştirme.":::
+
++ Birden fazla şirketteki verilere **Yazma** erişiminiz varsa farklı bir şirkete ait kaydı varsayılan şirketi değiştirebilirsiniz.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Kayıt seçmek, varsayılan şirketi değiştirir.":::
+
++ Sistem yapılandırıcısı veya yöneticisiyseniz ve özel bir formda şirket verilerini otomatik olarak doldurmak istiyorsanız [form olaylarını](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) kullanabilirsiniz. **msdyn_/DefaultCompany.js** öğesine JavaScript başvurusu ekleyip aşağıdaki olayları kullanın. İstediğiniz kullanıma hazır formu (ör. **Hesap** formu) kullanabilirsiniz.
+
+    + Form için **OnLoad** olayı: **defaultCompany** alanını ayarlayın.
+    + **Şirket** alanı için **OnChange** olayı: **updateDefaultCompany** alanını ayarlayın.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Şirket bağlamına göre filtre uygulama
+
+Özel formlarınızda veya standart formlara eklenmiş özel arama alanlarınızda şirket bağlamına göre filtre uygulamak için formu açın ve **İlgili Kayıtlara Filtre Uygulama** bölümünü kullanarak şirket filtresi uygulayın. Belirli bir kayıttaki temel şirkete dayalı olarak filtre gerektiren her arama alanı için bunu ayarlamalısınız. Aşağıdaki resimde bu ayar **Hesap** için gösterilmiştir.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Şirket bağlamını uygulama":::
+

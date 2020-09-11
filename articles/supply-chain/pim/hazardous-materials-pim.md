@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208484"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699548"
 ---
 # <a name="hazardous-materials"></a>Tehlikeli maddeler
 
@@ -35,7 +35,7 @@ Tehlikeli maddeler hakkındaki bilgiler Ürün bilgileri yönetimi'nde ayarlanı
 Tehlikeli mal olarak sınıflandırılmış malzemeler sevk ediyorsanız, sevkiyata ek resmi belgeler de dahil edilmesi gerekir. Tehlikeli maddeler işlevselliği, müşterilerin sınıflandırma bilgilerini depolamasına ve serbest bırakma kalemleriyle ilişkilendirmesine olanak sağlar. Bu bilgiler daha sonra sevkiyat belgelerinin hazırlanmasına yardımcı olarak kullanılabilir.
 
 > [!IMPORTANT]
-> Microsoft Dynamics 365 Supply Chain Management, tehlikeli madde sevkiyatının yönetimine yardımcı olmak amacıyla, ürünlerle ilgili ek referans bilgileri ayarlamanıza olanak sağlar. Ayrıca, ek sevkiyat belgeleri de ayarlayabilirsiniz. Ancak, sistem ülkenizin veya bölgenizin düzenlemeleriyle otomatik olarak uyumlu hale gelmez. Bunun yerine, genel programınıza yardımcı olabilecek bir araçtır.
+> Microsoft Dynamics 365 Supply Chain Management'taki tehlikeli malzeme özellikleri, tehlikeli ürünlerinizle ilgili bilgileri kaydetmenize ve bu bilgilere başvurmanıza yardımcı olabilecek kullanışlı ürün bilgisi alanları ve ilgili işlevler koleksiyonu sağlar. Bu özellikler, sevk ettiğiniz tehlikeli malzemeler hakkındaki bilgilerin aynısını içeren sevkiyat belgelerini tasarlamanıza ve yazdırmanıza yardımcı olur. Ancak, sistem ülkenizdeki veya bölgenizdeki geçerli tüm yönetmeliklerle otomatik olarak uyumlu hale gelmez. Bu araçlar ortak yönetmeliklere uymanıza yardımcı olacak şekilde tasarlanmış olsa da kendi başlarına yeterli değillerdir ve bununla ilgili bir garanti sunulmaz. Geçerli tüm yönetmelikleri bilmek ve bunlara uymak için gerekli tüm adımları atmaktan kuruluşunuz sorumludur.
 
 Bu işlevi kullanabilmeniz için aşağıdaki kurulum gereklidir:
 

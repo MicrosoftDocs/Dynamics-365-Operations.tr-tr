@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699381"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710271"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Modern POS'taki (MPOS) müşteri siparişleri
 
@@ -54,7 +54,10 @@ Müşteri siparişlerinin nasıl karşılandıklarını tanımlamak için **Comm
     - Masraflar, satış siparişi üstbilgisi seviyesinde uygulanır ve ürün satırının bir miktarı iade edildiğinde, ürünler için izin verilen sevkiyat masrafının maksimum iadesi ve miktar, tüm müşteriler için geçerli olacak bir şekilde belirlenemez.
     - Sevkiyat giderleri her sevkiyat örneği için alınır. Bir müşteri, ürünleri birden fazla defa iade ederse ve perakendecinin ilkesi, iade sevkiyatı masraflarının karşılanacağını belirtiyorsa, iade sevkiyatı masrafları, gerçek sevkiyat masraflarından fazla olacaktır.
     
-- **Vergi hesaplama davranışı** - **Yeniden hesapla** sipariş arka ofise aktarıldığında verginin nasıl yeniden hesaplandığı ile ilgili varsayılan ve geleneksel ayardır. **Yeniden hesaplama** seçeneği, yeniden hesaplama işlemi tetiklendiğinde, sipariş arka ofiste düzenleninceye kadar tekrar hesaplamayı devre dışı bırakır. 
+
+## <a name="disable-option-to-pay-later"></a>Daha sonra ödeme seçeneğini devre dışı bırakma
+
+Commerce sürüm 10.0.12 ve daha sonraki sürümlerde satıcılar, POS'ta müşteri siparişi oluşturulduğunda daha sonra ödeme seçeneğini kaldırabilir. Seçeneği devre dışı bırakmak için daha sonra ödemeye izin verilmeyen kanalın **İşlevsellik profili**'ni açıp **Düzenle**'yi seçin. **Genel** sekmesinde, **Tamamlama için ödemeyi zorunlu tut** açılır menüsü seçin. POS'ta sonra ödemeye izin verilmemesi gerekiyorsa **Kart gerekli**'yi belirleyip **Kaydet**'i seçin. Bu değişikliği kanalla eşitlemek için **1070** dağıtım planını çalıştırın. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Müşteri siparişleri için hareket akışı
 

@@ -3,7 +3,7 @@ title: Örnek kopyala
 description: Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamına kopyalamak için Microsoft Dynamics Lifecycle Services'i (LCS) kullanabilirsiniz.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554337"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706240"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
 Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamına kopyalamak için Microsoft Dynamics Lifecycle Services'i (LCS) kullanabilirsiniz. Başka bir korumalı alan ortamınız varsa veritabanını bu ortamdan hedeflenen korumalı alan ortamına da kopyalayabilirsiniz.
 
-Bir örneği kopyalamak için, aşağıdakileri yapmanız gerekir:
+Örneği kopyalamak için aşağıdaki ipuçlarını göz önünde bulundurun:
 
 - Üzerine yazmak istediğiniz İnsan Kaynakları örneği bir korumalı alan ortamı olmalıdır.
 
@@ -37,7 +37,9 @@ Bir örneği kopyalamak için, aşağıdakileri yapmanız gerekir:
 
 - Örneği kopyaladıktan sonra oturum açmak için hedef ortamda bir yönetici olmanız gerekir.
 
-- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft PowerApps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir PowerApps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](https://docs.microsoft.com/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz PowerApps ortamı bir korumalı alan ortamı olmalıdır. PowerApps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. PowerApps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](https://docs.microsoft.com/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+
+- Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Common Data Service ile birleştirmek isterseniz Common Data Service varlıklarına özel alanları yeniden uygulamanız gerekir. [Özel alanları Common Data Service'e uygulama](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service) konusuna bakın.
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>İnsan Kaynakları veritabanını kopyalama etkileri
 
@@ -47,15 +49,15 @@ Bir İnsan Kaynakları veritabanını kopyaladığınızda aşağıdaki olaylar 
 
 - Kopyalama işlemi tamamlanana kadar hedef ortam kullanılamayacak.
 
-- Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bu nedenle, ekli tüm belge ve şablonlar kopyalanmayacak ve kaynak ortamda kalır.
+- Microsoft Azure Blob depolama birimindeki belgeler bir ortamdan diğerine kopyalanmaz. Bunun sonucunda, ekli tüm belge ve şablonlar kopyalanmaz ve kaynak ortamda kalır.
 
-- Yönetici kullanıcı dışındaki tüm kullanıcı hesapları ve iç hizmet kullanıcıları devre dışı bırakılacak. Bu nedenle, Yönetici kullanıcısı, diğer kullanıcıların sisteme geri dönebilmesi için verileri silebilir veya karartırabilir.
+- Yönetici kullanıcı dışındaki tüm kullanıcı hesapları ve iç hizmet kullanıcıları devre dışı bırakılacak. Yönetici kullanıcı, diğer kullanıcılar sisteme geri dönmeden önce verileri silebilir veya karartırabilir.
 
 - Yönetici kullanıcının, belirli hizmetlere veya URL'lere tümleştirme son noktalarına yeniden bağlanması gibi gerekli yapılandırma değişikliklerini yapması gerekir.
 
 ## <a name="copy-the-human-resources-database"></a>İnsan Kaynakları veritabanını Kopyala
 
-Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra PowerApps ortamınızı kopyalamak için Microsoft Power Platform Yönetim Merkezi'ne oturum açın.
+Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps ortamınızı kopyalamak için Microsoft Power Platform Yönetim Merkezi'ne oturum açın.
 
 > [!WARNING]
 > Bir örneği kopyaladığınızda, hedef örnekte veritabanı silinir. Hedef örneği bu işlem sırasında kullanılamaz.
@@ -74,7 +76,7 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra PowerApps o
 
    ![[Power Platform öğesini seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Kopyalanacak PowerApps ortamını seçin ve sonra **Kopyala**'yı seçin.
+6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
 7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Common Data Service tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Common Data Service entegrasyonunu yapılandırma](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
@@ -98,9 +100,15 @@ Bir İnsan Kaynakları örneğini kopyaladığınızda aşağıdaki veri öğele
 
 - **PersonnelIntegrationConfiguration** tablosundaki bağlantı dizesi
 
-Ortama özel oldukları için bu öğelerden bazıları kopyalanmıyor. **BatchServerConfig** ve **SysCorpNetPrinters** kayıtlarını örnekler içerir. Destek biletlerinin hacmi nedeniyle diğer öğeler kopyalanmıyor. Örneğin, SMTP kullanıcı kabul testi (korumalı alan) ortamında hala etkin olduğu için, yinelenen e-postalar gönderilebilir, toplu işler hala etkin olduğundan geçersiz tümleştirme iletileri gönderilebilir ve yöneticilerin yenileme sonrası temizleme eylemleri gerçekleştirebilmesi için kullanıcılar etkinleştirilebilir.
+Ortama özel oldukları için bu öğelerden bazıları kopyalanmaz. **BatchServerConfig** ve **SysCorpNetPrinters** kayıtlarını örnekler içerir. Destek biletlerinin hacmi nedeniyle diğer öğeler kopyalanmıyor. Örneğin:
 
-Ayrıca, bir örneği kopyaladığınızda aşağıdaki durumlar da değişecektir:
+- SMTP, kullanıcı kabul test (korumalı alan) ortamında hala etkin olduğundan yinelenen e-postalar gönderilebilir.
+
+- Toplu işler hala etkin olduğundan geçersiz tümleştirme iletileri gönderilebilir.
+
+- Yöneticiler yenileme sonrası temizleme eylemlerini gerçekleştiremeden kullanıcılar etkinleştirilebilir.
+
+Bir örneği kopyaladığınızda aşağıdaki durumlar da değişir:
 
 - Yönetici dışındaki tüm kullanıcılar **devre dışı** olarak ayarlandı.
 
@@ -108,6 +116,35 @@ Ayrıca, bir örneği kopyaladığınızda aşağıdaki durumlar da değişecekt
 
 ## <a name="environment-admin"></a>Ortam yöneticisi
 
-Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir kurulumu kopyalamadan önce, kaynak ortamda bir yönetici olduğunuzdan emin olun. Değilseniz, kopyalama işlemi tamamlandıktan sonra hedef sanal alanı ortamında oturum açamazsınız.
+Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıcılar yerine kaynak ortam kullanıcıları tarafından değiştirilir. Bir kurulumu kopyalamadan önce, kaynak ortamda bir yönetici olduğunuzdan emin olun. Değilseniz kopyalama işlemi tamamlandıktan sonra hedef korumalı alan ortamında oturum açamazsınız.
 
 Hedef korumalı alan ortamındaki yönetici olmayan tüm kullanıcılar, korumalı alan ortamında istenmeyen oturum açma yapılmasını engelleyecek şekilde devre dışı bırakılmıştır. Yöneticiler gerektiğinde kullanıcıları yeniden değiştirebilir.
+
+## <a name="apply-custom-fields-to-common-data-service"></a>Özel alanları Common Data Service'e uygulama
+
+Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Common Data Service ile birleştirmek isterseniz Common Data Service varlıklarına özel alanları yeniden uygulamanız gerekir.
+
+Common Data Service varlıklarına gösterilen her özel alan için aşağıdaki adımları uygulayın:
+
+1. Özel alana gidip **Düzenle**'yi seçin.
+
+2. Özel alanın etkin olduğu her cdm_* varlığı için **Etkin** alanının seçimini kaldırın.
+
+3. **Değişiklikleri Uygula**'yı seçin.
+
+4. Yeniden **Düzenle**'yi seçin.
+
+5. Özel alanın etkin olduğu her cdm_* varlığı için **Etkin** alanını seçin.
+
+6. Yeniden **Değişiklikleri Uygula**'yı seçin.
+
+Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri yeniden uygulama, şemanın Common Data Service'i güncelleştirerek özel alanları eklemesini sağlar.
+
+Özel alanlar hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[Human Resources'ı hazırlama](hr-admin-setup-provision.md)</br>
+[Örneği kaldırma](hr-admin-setup-remove-instance.md)</br>
+[Güncelleştirme işlemi](hr-admin-setup-update-process.md)
+
