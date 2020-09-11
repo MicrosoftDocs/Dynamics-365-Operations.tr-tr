@@ -3,7 +3,7 @@ title: Takvimler ve master planlama
 description: Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213504"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710345"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.  Master planlama motorunda kullanılan farklı takvimler açıklanır, planlanan siparişlerdeki sevkiyat ve alım tarihlerini nasıl etkiledikleri dahil. Son olarak takvimlerin atanması, kullanımı ve güncelleştirilmesine ilişkin öneriler verilir.
+Bu konu tedarik zinciri takvimleri ve master planlamayı nasıl etkiledikleri hakkında genel görünüm sağlar.  Ana planlama altyapısında kullanılan farklı takvimler ve bunların planlanan siparişlerin sevkiyat ve teslim alma tarihleri üzerindeki etkisi açıklanır. Son olarak takvimlerin atanması, kullanımı ve güncelleştirilmesine ilişkin öneriler verilir.
 
 ## <a name="definition-of-a-calendar"></a>Bir takvimin tanımı
 
@@ -105,28 +105,28 @@ Bir planlanan satınalma siparişi içindeki sipariş tarihi, siparişin verildi
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Planlanan bir satınalma siparişinin teslimat tarihi
 Bir satın almanın giriş tarihi, ürünleri alacağınız tarihi belirtir. Takvimde bir açık tarih olacaktır. Satınalma siparişlerinin alınabileceği günler aşağıdaki takvimde, en yüksek öncelikten başlayarak en düşüğe doğru dikkate alınır: 
-    1. Satıcının takvimi
-    2. Teslimat grubu takvimi
-    3. Giriş yapılan ambar için ambar takvimi
+1. Satıcının takvimi
+1. Teslimat grubu takvimi
+1. Giriş yapılan ambar için ambar takvimi
 
 Kapsama grubu takvimi, farklı sayfalarda ayarlanabilir ve aşağıdaki sıralamayı öncelik olarak alacaktır:
-    1. **Serbest bırakılan ürün ayrıntıları** sayfasındaki öğe kapsama grubu
-    2. **Madde karşılama** sayfasındaki madde karşılama grubu
-    3. **Master planlama parametreleri** içindeki varsayılan madde kapsama grubu
+1. **Madde karşılama** sayfasındaki madde karşılama grubu
+1. **Serbest bırakılan ürün ayrıntıları** sayfasındaki öğe kapsama grubu
+1. **Master planlama parametreleri** içindeki varsayılan madde kapsama grubu
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Planlanan transfer siparişlerinin sevk tarihi
 İki ambar arasında bir transfer siparişi oluştururken, sevkiyat tarihi ve giriş tarihi transfer siparişi başlığında, "Kaynak" ambar ve "Hedef" ambar ile birlikte dahil edilir. Bu iki tarih arasındaki fark, ambarlar arasındaki beklenen taşıma süresidir (gün cinsinden).
 
 Planlanan bir transfer siparişinin sevk tarihi, ürünlerin "Kaynak" ambardan sevk edildikleri tarihi gösterir. Takvimlerik, kullanılabilir sevkiyat tarihlerini belirtmek için önceliğe göre listelenir: 
-    1. "Kaynak" ambardan ambar takvimi
-    2. Kapsama grubu takvimi (bu takvim için yukarıdaki geri dönüş sırasına bkz.) Bir ambar takvim kümesi varsa, sevkiyat tarihi takvimdeki açık bir gün olacaktır. Takvim kümesinde bir ambar yoksa, kapsama grubu takvimini alacaktır. 
+1. "Kaynak" ambardan ambar takvimi
+1. Kapsama grubu takvimi (bu takvim için yukarıdaki geri dönüş sırasına bkz.) Bir ambar takvim kümesi varsa, sevkiyat tarihi takvimdeki açık bir gün olacaktır. Takvim kümesinde bir ambar yoksa, kapsama grubu takvimini alacaktır. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Planlanan transfer siparişlerinin giriş tarihi
 Bir transfer siparişi için giriş tarihi, ürünlerin "Hedef" ambarda alındığı tarihi belirtir.
 
 Giriş tarihlerini belirtmek için kullanılan takvimler, önceliğe göre listelenir: 
-    1. Teslimat grubu takvimi 
-    2. Bir kapsama takvimi kümesi varsa, "Hedef" ambarın ambar takvimi, giriş tarihi takvimdeki açık bir gün olacaktır. Bir kapsama grubu takvim kümesi yoksa, ambar takvimini alacaktır. 
+1. Teslimat grubu takvimi 
+1. Bir kapsama takvimi kümesi varsa, "Hedef" ambarın ambar takvimi, giriş tarihi takvimdeki açık bir gün olacaktır. Bir kapsama grubu takvim kümesi yoksa, ambar takvimini alacaktır. 
 
 Planlanan transfer için sevkiyat ve alım tarihlerini bulurken, kullanıcı tarafından sevkiyat ve alım için belirlenen marjlar da dikkate alınır. 
 

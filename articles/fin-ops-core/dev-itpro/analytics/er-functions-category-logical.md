@@ -3,7 +3,7 @@ title: Mantıksal kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen mantıksal işlevleri hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916649"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705107"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Mantıksal kategorisindeki ER işlevlerinin listesi
 
@@ -41,6 +41,8 @@ Elektronik raporlama (ER) mantıksal işlevleri tek bir ifadede birden fazla kar
 | [Not](er-functions-logical-not.md)                       | Bu işlev, belirtilen koşulun ters çevrilmiş mantıksal değerini bir *Boole* değeri olarak döndürür. |
 | [Veya](er-functions-logical-or.md)                         | Belirtilen koşulların tümü yanlış ise, bu işlev **yanlış** *Boole* değerini döndürür. Belirtilen koşullardan biri doğruysa bu işlev **DOĞRU** *Boole* değerini döndürür. |
 | [ValueIn](er-functions-logical-valuein.md)               | Bu işlev, belirtilen girişin, belirtilen listede belirli bir öğe değerinin eşleşip eşleşmediğini belirler. Belirtilen girdi, belirtilen listenin en az bir kaydı için belirtilen ifadenin çalıştırıldığı sonuçla eşleşirse **DOĞRU** *Boole* değerini döndürür. Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Bu işlev, *Int64* veya *Tamsayı* türündeki belirtilen girişin, belirtilen listede belirli bir öğe değeriyle eşleşip eşleşmediğini belirler. Belirtilen girdi, belirtilen listenin en az bir kaydı için belirtilen ifadenin çalıştırıldığı sonuçla eşleşirse **DOĞRU** *Boole* değerini döndürür. Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür. |
+
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

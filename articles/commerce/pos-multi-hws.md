@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658370"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719226"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 
@@ -78,8 +78,8 @@ Kasaya atanan donanım profilini ayarlamak için aşağıdaki adımları izleyin
 
     | Aygıt | Türü | Aygıt adı | Ek ayrıntılar |
     |---|---|---|---|
-    | Yazıcı | Geri dönüş | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, Kanal düzeyinde donanım istasyonuna atanan donanım profilinde kurulmuş olan ağ yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
-    | Kasa çekmecesi | Geri dönüş | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
+    | Yazıcı | Geri dönüş | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, Kanal düzeyinde donanım istasyonuna atanan donanım profilinde kurulmuş olan ağ yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
+    | Kasa çekmecesi | Geri dönüş | *Herhangi* | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
     | EFT hizmeti | Adyen | Geçerli değil | Kullanıma hazır Adyen ödeme bağlayıcısını kurma hakkında bilgi için, bkz: [Adyen için Dynamics 365 ödeme konnektörü](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Diğer ödeme bağlayıcıları, ödemeler için [Commerce Software Development Kit (SDK) ile desteklenebilir](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN pad | Ağ | **MicrosoftAdyenDeviceV001** | Hiçbiri. |
 
@@ -103,7 +103,7 @@ Ağ girişi yazıcısını ve nakit çekmecesini gruplamak için kullanılan don
     | Aygıt | Türü | Tanım | Ek ayrıntılar |
     |---|---|---|---|
     | Yazıcı | Ağ | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Makbuz profılı kodu,**, kayda atanan donanım profilinde kurulmuş olan yazıcısıyla eşlenen **makbuz profili kimliğiyle** aynı olmalıdır. |
-    | Kasa çekmecesi | Geri dönüş | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
+    | Kasa çekmecesi | Ağ | **Epson** veya **Star** | Aygıt adı büyük/küçük harf duyarlıdır. **Paylaşılan mesaiyi kullan** seçeneğinde **Evet**'i işaretleyin. |
 
 5. **Kaydet**'i seçin.
 

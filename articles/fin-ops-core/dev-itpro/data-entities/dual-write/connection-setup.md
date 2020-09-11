@@ -3,7 +3,7 @@ title: Çift yazma kurulumu için desteklenen senaryolar
 description: Bu konu, çift yazma kurulumu için desteklenen senaryoları açıklamaktadır.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172866"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706264"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Çift yazma kurulumu için desteklenen senaryolar
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172866"
 
 Finance and Operations ortamı ve Common Data Service ortamı arasında çift yazma bağlantısı ayarlayabilirsiniz.
 
-+ **Finance and Operations ortamı** **Finance and Operations uygulamaları** için temel alınan platformu sağlar (örneğin, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Retail ve Dynamics 365 Human Resources).
++ **Finance and Operations ortamı**, **Finance and Operations uygulamalarının** (ör. Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management ve Dynamics 365 Retail) temelindeki platformu sağlar.
 + **Common Data Service ortamı** **Dynamics 365'teki model yönetimli uygulamalar** için temel alınan platformu sağlar (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing ve Dynamics 365 Project Service Automation).
+
+>[!IMPORTANT]
+>Finance and Operations'taki Human Resources, çift yazma bağlantılarını desteklerken Dynamics 365 Human Resources uygulaması desteklemez.
 
 Kurulum mekanizması aboneliğinize ve ortamınıza göre değişir.
 

@@ -3,7 +3,7 @@ title: Bırakma ve devamsızlık parametrelerini konfigüre et
 description: Dynamics 365 Human Resources'ta izin ve devamsızlık için insan kaynakları parametrelerini tanımlayın.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e4d3b3e4b373631bed5e2d7e3c3a4e14f0c5c98
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428956"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712388"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Bırakma ve devamsızlık parametrelerini konfigüre et
 
@@ -46,8 +46,6 @@ Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan
 
 5. **Çalışan self servis** sekmesinde, yöneticilerin çalışanlar adına bırakma ve devamsızlık talepleri girip giremeyeceğini belirtin.
 
-6. **izin ve devamsızlık** sekmesinde, ayarlarını doğrulayın ve gerektiği şekilde değiştirin.
-
 7. **Kaydet**'i seçin.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>İzin ve devamsızlık parametrelerini görüntüleme ve değiştirme
@@ -62,7 +60,11 @@ Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan
 
     - Tahakkuk oranlarının hizmet ayları kullanılarak izin planları için geçerli olacağı zamanı ayarlamak için **Hizmet ayları geçerlilik tarihi**'ni seçin.
 
-    - Bugün itibarıyla veya tahakkuk dönemi itibarıyla bakiye görünümünü görüntülemek için **Bakiye hesaplaması**'nı seçin. **Bugün itibarıyla bakiye**'yi seçerseniz, bakiye bugün itibarıyla tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. **Tahakkuk dönemi itibarıyla bakiye**'yi seçerseniz bakiye, izin planındaki sıklık tarafından tanımlanan tahakkuk dönemi itibarıyla tüm tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. 
+    - Bugün veya tahakkuk dönemi itibarıyla bakiyeyi görüntülemek için **Bakiye hesaplaması**'nı seçin. **Bugün itibarıyla bakiye**'yi seçerseniz, bakiye bugün itibarıyla tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. **Tahakkuk dönemi itibarıyla bakiye**'yi seçerseniz bakiye, izin planındaki sıklık tarafından tanımlanan tahakkuk dönemi itibarıyla tüm tahakkukların, ayarlamaların ve isteklerin toplamını görüntüler. 
+
+    - Sona erme tarihini ilerletme toplu işi için başlangıç zamanını belirleyin.  
+    
+    - **Personelin izin satın almasına izin ver** ve **Personelin izin satmasına izin ver** için **Evet**'i seçin. Bu seçenekler için **Evet**'i seçerseniz izin satın alma ve satma ilkeleri oluşturabilir ve personelin izin satın alma ve satma istekleri göndermesine olanak tanıyabilirsiniz.
 
 ## <a name="configure-calendar-parameters"></a>Takvim parametrelerini yapılandırma
 

@@ -3,7 +3,7 @@ title: Personel ve Yönetici self servisine genel bakış
 description: Bu makale, çalışan ve yönetici self servis çalışma alanına genel bir bakış sağlar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429808"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712244"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Personel ve Yönetici self servisine genel bakış
 
@@ -32,6 +32,25 @@ Bu makale, çalışan ve yönetici self servis çalışma alanına genel bir bak
 ## <a name="edit-personal-details"></a>Kişisel ayrıntıları düzenle
 
 Herhangi bir kişisel bilgi eklemeniz veya değiştirmeniz gerekiyorsa, [Kişisel bilgileri düzenleyin](hr-employee-manager-self-service-edit-personal-information.md) inceleyin.
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Kullanıcın çalışan kaydına atanmaması
+
+Kullanıcınızı **Kullanıcılar** sayfasındaki bir **Çalışan** kaydına bağlamadıysanız aşağıdaki ileti görüntülenir:
+
+**Kullanıcı kimliğiniz sistemde personel kaydınızla ilişkili değil. İlişkilendirilene kadar bilgilerinizi görüntüleyemez veya güncelleştiremezsiniz. Yardım için yöneticinizle veya destek ekibiyle iletişime geçin.**
+
+Kullanıcıyı **Çalışan** kaydıyla ilişkilendirmek için **Kullanıcılar**'a gidip kullanıcıyı seçin. **Düzenle**'yi seçin, formdaki **Kişi** alanına ilgili çalışanı ekleyin ve **Kaydet**'i seçin. Artık Personel self servisi'ne erişebiliyor olmanız gerekir.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Personel ve Yönetici self servisi ile ilgili güvenlik gereksinimleri
+
+Personel ve Yönetici self servisi, iki güvenlik rolü gerektirir:
+
+- Personeller için Personel rolü gereklidir.
+- Yöneticiler için hem Personel hem Yönetici rolleri gereklidir.
+
+>[!NOTE]
+>Personel ve Yönetici self servisine erişmek için, Personel ve Yönetici çalışma alanlarına erişim izni verildiği sürece özel roller de kullanabilirsiniz.<br>
+>Personel bilgilerine yönetici erişimi, Human Resources'ta tanımlanan satır hiyerarşisindeki mevcut konuma bağlıdır.
 
 ## <a name="employee-self-service"></a>Personel self servisi
 

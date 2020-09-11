@@ -3,7 +3,7 @@ title: Garanti sözleşmeleri
 description: Bu konuda Varlık Yönetimi'ndeki satış sözleşmelerini açıklanmaktadır.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215390"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719250"
 ---
 # <a name="warranty-agreements"></a>Garanti sözleşmeleri
 
@@ -42,12 +42,12 @@ Garanti sözleşmesi, çalışma saatleri, giderler ve maddeler için garantiyi 
 
 1. **Kıymet yönetimi** \> **Kurulum** \> **Kıymetler** \> **Garanti**'yi seçin.
 2. Bir ürün oluşturmak için **Yeni**'yi seçin.
-3. **Garanti** alanına bir garanti kodu girin.
+3. **Garanti** alanına bir garanti kodu girin. 
 4. **Ad** alanında, bir açıklama girin.
 
     **Ayrıntılar** hızlı sekmesinde, **Kıymetler** alanında garanti sözleşmesini kullanan etkin kıymetlerin sayısı gösterilir.
 
-5. **Saat garantisi** ve **Madde garantisi** hızlı sekmelerinde, saatler veya maddelerle ilgili garanti sözleşmesine eklenmesi gereken satırları eklemek için aşağıdaki adımları izleyin:
+5. **Garanti satırları** hızlı sekmesinde, garanti sözleşmesine dahil edilmesi gereken satırları eklemek için aşağıdaki adımları uygulayın:
 
     1. Garantiye yeni bir koşul eklemek için **Satır ekle**'yi seçin. Sıralı satır numarası **Satır** alanına otomatik olarak girilir.
     2. **Dönem** alanında, garanti döneminin türünü seçin.

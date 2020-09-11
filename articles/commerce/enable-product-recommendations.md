@@ -3,7 +3,7 @@ title: Ürün önerilerini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce müşterileri için yapay bilgi destek sistemi öğrenme (AI-ML) tabanlı ürün önerilerinin nasıl yapılacağını açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665038"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700854"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -65,11 +65,13 @@ Sayfayı kaydet ve kapatın
 
 Ürün önerilerini açmak için aşağıdaki adımları izleyin.
 
-1. **Retail and Commerce &gt; Ürün önerileri &gt; Öneri parametreleri**'ne gidin.
-1. Paylaşılan parametreler listesinde, **Öneri Listeleri**'ni seçin.
-1. **Önerileri etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+1. Commerce Headquarters'ta **Özellik Yönetimi**'ni arayın.
+1. Kullanılabilir özelliklerin listesini görmek için **Tümü**'nü seçin. 
+1. Arama kutusuna **Öneriler** yazın.
+1. **Ürün önerileri** özelliğini seçin.
+1. **Ürün önerileri** özellikler bölmesinde **Şimdi etkinleştir**'i seçin.
 
-![Önerileri açma](./media/enablepersonalization.png)
+![Önerileri açma](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Bu yordam, ürün öneri listeleri oluşturma işlemini başlatır. Dynamics 365 Commerce'ta veya satış noktasında (POS) listelerin kullanılabilmesi ve görüntülenmesi için birkaç saat gerekli olabilir.

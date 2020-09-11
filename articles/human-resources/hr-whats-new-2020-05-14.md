@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
-description: Bu konuda, Microsoft Dynamics 365 Human Resources'daki yeni veya değişen özellikler açıklanmaktadır.
+description: Bu konuda, 14 Mayıs 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/14/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: d68647508c70a20b7ecba3358c7e3ebccd8d71ef
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555183"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712050"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 

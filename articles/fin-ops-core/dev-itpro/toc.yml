@@ -130,6 +130,8 @@
                       items:
                         - name: Çift yazma giriş sayfası
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Çift yazmadaki yenilikler veya değişiklikler
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Çift yazmaya genel bakış
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Çift yazma kurulumu
@@ -488,7 +490,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: Şirket içi ortamları ayarlama ve dağıtma
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Şirket içi ortama Perakende kanalı bileşenleri yükleme adımları
+                    - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                       href: deployment/deploy-retail-onprem.md
                     - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
                       href: deployment/develop-deploy-custom-models-on-premises.md
@@ -1472,11 +1474,13 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Güvenlik ilkesi oluşturma
                   href: sysadmin/create-simple-security-policy.md
+            - name: Kullanıcı lisansı gereksinimleriyle uyumluluğu koruma
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: İşlem otomasyonu
               href: sysadmin/process-automation.md
-            - name: Toplu iş işleme
+            - name: Toplu işleme
               items:
-                - name: Toplu iş işlemeye genel bakış
+                - name: Toplu işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
                 - name: Toplu iş işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md

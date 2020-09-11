@@ -3,7 +3,7 @@ title: VALUEIN ER işlevi
 description: Bu konu, VALUEIN Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041711"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705131"
 ---
-# <a name="VALUEIN">VALUEIN ER işlevi</a>
+# <a name=""></a><a name="VALUEIN">VALUEIN ER işlevi</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Sonuç *Boole* değeri.
 
 ## <a name="usage-notes"></a>Kullanım notları
 
-Genel olarak, `VALUEIN` işlevi bir dizi **OR** koşuluna çevrilir.
+Genel olarak, `VALUEIN` işlevi bir dizi **OR** koşuluna çevrilir. **OR** koşulları listesi büyükse ve SQL deyiminin maksimum toplam uzunluğu aşılacaksa [`VALUEINLARGE`](er-functions-logical-valueinlarge.md) işlevini kullanabilirsiniz.
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ Bir veri kaynağı çağrıldığında, `VALUEIN ("B", List, LEFT(List.Value, 0)
 
 Böyle bir koşul metninde karakter sayısı üst sınırının 32.768 karakter olduğuna dikkat edin. Bu nedenle, çalışma zamanında bu sınırı aşan veri kaynakları oluşturmamanız gerekir. Sınır aşılırsa uygulama çalışmayı durdurur ve bir özel durum gönderilir. Örneğin, veri kaynağı `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` olarak yapılandırılmışsa ve **List1** ve **List2** listeleri büyük miktarda kayıt içeriyorsa bu durum ortaya çıkabilir.
 
-Bazı durumlarda, `VALUEIN` işlevi `EXISTS JOIN` işleci kullanarak bir veritabanı ifadesi çevrilir. Bu davranış, [FİLTRE](er-functions-list-filter.md) işlevi kullanıldığında ve aşağıdaki koşullar sağlandığında olur:
+Bazı durumlarda, `VALUEIN` işlevi `EXISTS JOIN` işleci kullanarak bir veritabanı ifadesi çevrilir. Bu davranış, [`FILTER`](er-functions-list-filter.md) işlevi kullanıldığında ve aşağıdaki koşullar sağlandığında gerçekleşir:
 
 - **SORGU İSTE** seçeneği kayıtlar listesi anlamına gelen `VALUEIN` işlevinin veri kaynağı için kapatılır. Hiçbir ek koşul, çalışma zamanında bu veri kaynağına uygulanmaz.
 - Kayıtlar listesi anlamına gelen `VALUEIN` işlevinin veri kaynağı için hiçbir iç içe ifade yapılandırılmaz.
 - `VALUEIN` işlevinin bir liste öğesi belirtilen veri kaynağının bir alanını belirtilir (bir ifade veya bir yöntem değil).
 
-Bu örnekte daha önce açıklandığı gibi [WHERE](er-functions-list-where.md) işlevi yerine bu seçeneği kullanmayı düşünün.
+Bu örnekte daha önce açıklanan [`WHERE`](er-functions-list-where.md) işlevi yerine bu seçeneği kullanabilirsiniz.
 
 ## <a name="example-2"></a>Örnek 2
 
@@ -118,3 +118,5 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mantıksal işlevler](er-functions-category-logical.md)
+
+[VALUEINLARGE işlevleri](er-functions-logical-valueinlarge.md)

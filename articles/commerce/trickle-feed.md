@@ -3,7 +3,7 @@ title: Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'taki mağaza hareketleri için akış tabanlı sipariş oluşturma işlemi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 06/08/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057194"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710295"
 ---
-# <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma (Genel önizleme)
+# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Perakende mağaza hareketleri için akış tabanlı sipariş oluşturma
 
 [!include [banner](includes/banner.md)]
 
 Dynamics 365 Retail 10.0.4 ve önceki sürümlerinde, ekstre deftere nakli gün sonunda gerçekleştirilen bir işlemdir ve tüm hareketler günün sonunda defterlere nakledilir. Büyük hareketler sınırlı bir zaman aralığında işlenmek zorunda olduğundan zaman zaman yük ve kilitlenmelere ve ekstre deftere nakil hatalarına yol açar. Ayrıca perakendeciler, gün içinde kendi defterlerinde gelir ve ödemeleri göremez.
 
-Retail sürüm 10.0.5'te genel önizlemesi sunulan akış tabanlı sipariş oluşturma özelliğiyle hareketler gün içinde işlenir. Yalnızca ödemelerle ilgili mali mutabakat ve diğer nakit yönetimi hareketleri günün sonunda işlenir. Bu işlev satış siparişleri, faturalar ve ödemeler oluşturma yükünü gün içine dağıtarak daha iyi performans sağlar ve gelir ve ödemeleri defterlerde neredeyse gerçek zamanlı olarak görme olanağı tanır. 
+Retail sürüm 10.0.5'te sunulan akış tabanlı sipariş oluşturma özelliğiyle hareketler gün içinde işlenir. Yalnızca ödemelerle ilgili mali mutabakat ve diğer nakit yönetimi hareketleri günün sonunda işlenir. Bu işlev satış siparişleri, faturalar ve ödemeler oluşturma yükünü gün içine dağıtarak daha iyi performans sağlar ve gelir ve ödemeleri defterlerde neredeyse gerçek zamanlı olarak görme olanağı tanır. 
 
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Akış tabanlı deftere nakil özelliğini kullanma
