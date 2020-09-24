@@ -14,12 +14,12 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.14 için platform güncelleştirmeleri (Kasım 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: 10.0.13 için platform güncelleştirmeleri (Ekim 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: 10.0.12 için platform güncelleştirmeleri (Ağustos 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: 10.0.11 için platform güncelleştirmeleri (Temmuz 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -238,9 +238,9 @@
                           items:
                             - name: Aday müşteriden nakde
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                            - name: Sales'daki hesapları doğrudan Finance and Operations'daki müşterilerle eşitleme
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                            - name: Finance and Operations'daki ürünleri doğrudan Sales'teki ürünlerle eşitleme
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                             - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -248,27 +248,27 @@
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Finance and Operations'taki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                            - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: Field Service ile tümleştirmeyi yapılandırma
                           items:
                             - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
                               href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Finance and Operations'taki ürünleri Field Service'teki ürünlerle eşitleme
+                            - name: Finance and Operations'daki ürünleri Field Service'teki ürünlerle eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Field Service'teki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                            - name: Field Service'teki iş emirlerini Finance and Operations'daki satış siparişleriyle eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Field Service'teki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                            - name: Field Service'teki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
                             - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
                             - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Stok birimli ürünleri Finance and Operations'tan Field Service'e eşitleme
+                            - name: Stok birimli ürünleri Finance and Operations'dan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Proje listesini Finance and Operations'tan Field Service'e eşitleme
+                            - name: Proje listesini Finance and Operations'dan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Ambarları Finance and Operations'tan Field Service'e eşitleme
+                            - name: Ambarları Finance and Operations'dan Field Service'e eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
                             - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
@@ -602,10 +602,18 @@
                   href: dev-tools/hosted-build-automation.md
                 - name: Azure Pipelines'da dağıtılabilir pakete lisans dosyaları ekleme
                   href: dev-tools/pipeline-add-license-package.md
-                - name: Azure Pipelines'ta dağıtılabilir paketler oluşturma
+                - name: Azure Pipelines'da dağıtılabilir paketler oluşturma
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Azure Pipelines'ta X++ model sürümü oluşturma
                   href: dev-tools/pipeline-model-version.md
+                - name: Kıymetleri Azure Pipelines kullanarak indirme
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Kıymetleri Azure Pipelines kullanarak yükleme
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Kıymetleri Azure Pipelines kullanarak dağıtma
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Azure Pipelines'da Lifecycle Services (LCS) bağlantısı oluşturma
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Filo Yönetimi örnek uygulaması
               items:
                 - name: Filo Yönetimi örnek uygulaması için uçtan uca senaryo

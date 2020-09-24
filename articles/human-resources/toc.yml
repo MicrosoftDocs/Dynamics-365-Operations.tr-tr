@@ -3,8 +3,10 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'taki yenilikler veya değişiklikler
+        - name: Human Resources'daki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 3 Eylül 2020
+          href: hr-whats-new-2020-09-03.md
         - name: 20 Ağustos 2020
           href: hr-whats-new-2020-08-20.md
         - name: 6 Ağustos 2020
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 1 Mayıs 2020
           href: hr-whats-new-2020-05-01.md
-        - name: 13 Nisan 2020
-          href: hr-whats-new-2020-04-13.md
-        - name: 3 Nisan 2020
-          href: hr-whats-new-2020-04-03.md
-        - name: Yeniliklere ilişkin arşivler 2020
+        - name: 2020 Yenilik Arşivleri
           items:
+            - name: 13 Nisan 2020
+              href: hr-whats-new-2020-04-13.md
+            - name: 3 Nisan 2020
+              href: hr-whats-new-2020-04-03.md
             - name: 24 Mart 2020
               href: hr-whats-new-2020-03-24.md
             - name: 19 Mart 2020
