@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209226"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813846"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -55,7 +55,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
 -   [Satıcı iş birliğini ayarlama ve koruma](set-up-maintain-vendor-collaboration.md)
--   [Microsoft Dynamics 365 for Finance and Operations için gelen konsinye stok demo komut dosyası](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(tanıtım yazısı)
+-   [Microsoft Dynamics 365 for Finance and Operations için gelen konsinye stok demo komut dosyası](https://www.microsoft.com/download/details.aspx?id=101945)(tanıtım yazısı)
 -   [Satıcı iş birliğini kullanarak konsinye stoğu izleme](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md) (Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
 -   [Satıcı portalı kullanıcı güvenliği](configure-security-vendor-portal-users.md) (Finance and Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
@@ -98,7 +98,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Tedarik ve kaynak atama iş akışları](procurement-sourcing-workflows.md)
 -   [Satınalma siparişindeki malların girişini kaydetme](tasks/record-receipt-goods-purchase-order.md)
 -   [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
--   [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (teknik inceleme)
+-   [Satınalma talepleri için iş süreci iş akışları tanımlama](https://www.microsoft.com/download/details.aspx?id=101821) (teknik inceleme)
 -   [Satınalma ilkelerine genel bakış](purchase-policies.md)
 -   [Satınalma ilkeleri oluşturma](tasks/create-purchasing-policies.md)
 

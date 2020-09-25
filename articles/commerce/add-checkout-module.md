@@ -3,7 +3,7 @@ title: Ödeme modülü
 description: Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686754"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761117"
 ---
 # <a name="checkout-module"></a>Ödeme modülü
 
@@ -97,8 +97,8 @@ Sevkiyat adresi ve sevkiyat yöntemi gibi, ödeme bilgilerinin çoğu sepette de
 Bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, **Ödeme** modülünü seçin.
-1. **Sayfa parçası adı** altında, **Ödeme parçası** için bir ad girin ve **Tamam**'ı seçin.
+1. **Yeni parça** iletişim kutusunda, **Ödeme** modülünü seçin.
+1. **Parça adı** altında, **Ödeme parçası** için bir ad girin ve **Tamam**'ı seçin.
 1. **Ödeme modülü** yuvasını seçin.
 1. Sağdaki Özellikler bölmesinde, Kurşun Kalem sembolünü seçin, alana başlık metnini girin ve onay işareti simgesini seçin.
 1. **Ödeme bilgileri** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.

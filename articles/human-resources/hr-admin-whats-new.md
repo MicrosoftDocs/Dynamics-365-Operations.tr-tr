@@ -1,9 +1,9 @@
 ---
 title: Human Resources'taki yenilikler veya değişiklikler
-description: Her hafta, Microsoft Dynamics 365 Human Resources için yeni bir sürüm sağlıyoruz. Burada listelenen makalelerde her hafta yapılan değişiklikler ayrıntılı şekilde açıklanır.
+description: Her hafta, Microsoft Dynamics 365 Human Resources için yeni bir sürüm sağlıyoruz. Burada listelenen konularda her hafta yapılan değişiklikler ayrıntılı şekilde açıklanır.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712193"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760313"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources'taki yenilikler veya değişiklikler
 
-Her iki haftada bir, Microsoft Dynamics 365 Human Resources için yeni bir sürüm sağlıyoruz. Bu bölümdeki makalelerde her sürümle yapılan değişiklikler ayrıntılandırır.
+Her iki haftada bir, Microsoft Dynamics 365 Human Resources için yeni bir sürüm sağlıyoruz. Burada listelenen konularda her sürümde yapılan değişiklikler ayrıntılı şekilde açıklanır.
 
-Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştirme işlemi hakkında daha fazla bilgi için, aşağıdakilere bakın:
+>[!NOTE]
+>Tatilleri hesaba eklemek için, Kasım ve Aralık 2020 için sürüm planı aşağıdaki gibidir:
+>
+>- Kasım sürümü: 2 Kasım - 13 Kasım
+>- Aralık sürümü: 30 Kasım - 11 Aralık
+> 
+>İki haftalık sürüm temposu 11 Ocak 2021'de her zamanki gibi devam ettirilecektir.
+
+Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştirme işlemi hakkında daha fazla bilgi için, aşağıdakilere bakın: 
 
 - [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -39,8 +47,9 @@ Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştir
 
 ## <a name="human-resources-weekly-releases"></a>Haftalık İnsan Kaynakları sürümleri
 
-Human Resources'ın her iki haftalık sürümünde nelerin yeni veya değiştirilmiş olduğunu görmek için aşağıdaki konulara bakın:
+Human Resources'ın her iki haftalık sürümünde nelerin yeni veya değiştirilmiş olduğunu öğrenmek için aşağıdaki konulara bakın:
 
+[3 Eylül 2020](hr-whats-new-2020-09-03.md)</br>
 [20 Ağustos 2020](hr-whats-new-2020-08-20.md)</br>
 [6 Ağustos 2020](hr-whats-new-2020-08-06.md)</br>
 [23 Temmuz 2020](hr-whats-new-2020-07-23.md)</br>

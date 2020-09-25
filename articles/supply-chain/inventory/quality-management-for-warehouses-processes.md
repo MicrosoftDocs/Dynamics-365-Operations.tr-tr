@@ -14,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530133"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763491"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 

@@ -3,7 +3,7 @@ title: Kısmi konum döngü sayımı
 description: Döngü sayımı planları, gerçek sayım işlemlerine yol gösterir. Bir konumdaki tüm eldeki stokun sayılması yerine yalnızca belirli ürünlerin ve ürün çeşitlerinin sayılmasını talep edebilirsiniz.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215689"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760019"
 ---
 # <a name="partial-location-cycle-counting"></a>Kısmi konum döngü sayımı
 
@@ -45,7 +45,7 @@ Döngü sayım planlarını, iş şablonları ile **İş satır sonu** seçeneğ
 
 Kısmi döngü sayım işi işleme alınmadan önce, döngü sayım kurulumunun parçası olarak mobil cihaz menü öğesi için en azından **Madde numarasını görüntüle** seçeneğini işaretlemelisiniz. Ambar operatörü, yalnızca sayım satırları (madde numaraları ve ürün boyutları) ile ilgili sayım bilgisini kaydetmek üzere yönlendirilecektir. Eldeki diğer tüm stoklar bu sayım işlemi için yok sayılacaktır. 
 
-Kısmi döngü sayım işlemi için **Son döngü sayımı** tarihi/saati, konum için güncelleştirilmeyecektir.
+Kısmi döngü sayımı işlemi için, belirli bir konumdaki eldeki tüm maddeler sayılsa dahi, **Son döngü sayımı** tarihi/saati, yerleşim için güncelleştirilmez. Kısmi döngü sayımı, **Döngü sayımı planları** sayfasındaki **Döngü sayımı arasındaki günler** parametresini dikkate almaz. Kısmi döngü sayımı aynı konumda birden fazla öğenin eşzamanlı olarak sayılmasını desteklemez. Kısmi döngü sayımı işlevi **Döngü sayım planını işle** öğesi çalıştırıldığında aynı konumun bir madde için birden çok kez sayılmasına neden olabilir. Bu senaryoyu önlemek için **Konumları seç** alanında filtreler belirtin.
 
 ## <a name="example"></a>Örnek
 Bu örnekte, ambar 61'de yalnızca ürün numarası A0001 sayılacaktır.

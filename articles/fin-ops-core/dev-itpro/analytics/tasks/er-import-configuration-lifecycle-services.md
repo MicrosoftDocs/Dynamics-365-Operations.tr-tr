@@ -1,14 +1,14 @@
 ---
-title: ER Lifecycle Services'tan bir yapılandırmayı içe aktarma
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) sürümü oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'den içe aktarabilir.
+title: Lifecycle Services'tan bir yapılandırmayı içe aktarma
+description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırmasına ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'den içe aktarması açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142398"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810655"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a>ER Lifecycle Services'tan bir yapılandırmayı içe aktarma
+# <a name="import-a-configuration-from-lifecycle-services"></a>Lifecycle Services'tan bir yapılandırmayı içe aktarma
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) sürümü oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'den içe aktarabilir.
+Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının [Elektronik Raporlama (ER) yapılandırmasına](../general-electronic-reporting.md#Configuration) ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'ndan](../../lifecycle-services/asset-library.md) içe aktarması açıklanmaktadır.
 
-Bu örnekte Litware, Inc. örnek şirketi için bir istenilen ER yapılandırmasını seçecek ve bunu LCS'ye içe aktaracaksınız. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette gerçekleştirilebilir. Bu adımları tamamlamak için, öncelikle "Bir ER yapılandırmasını Lifecycle Services'a içeri almak" yordamındaki adımları tamamlamanız gerekir. Bu adımları tamamlamak için LCS erişimi de gereklidir.
+Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litware, Inc. adlı örnek şirket için içe aktaracaksınız. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşıldığından herhangi bir şirkette tamamlanabilir. Bu adımları tamamlamak için, öncelikle [Bir yapılandırmayı Lifecycle Services'e içeri almak](er-upload-configuration-into-lifecycle-services.md) bölümündeki adımları tamamlamanız gerekir. LCS'ye erişim de gereklidir.
 
-1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-2. Yapılandırmalar'a tıklayın.
+1. Aşağıdaki rollerden birini kullanarak uygulamada oturum açın:
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>Veri modeli yapılandırmasının paylaşılan bir sürümünü silin
-1. Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.
-    * Örnek veri modeli yapılandırmasının ilk sürümü oluşturuldu ve LCS'ye "ER yapılandırmasını Lifecycle Services'a karşıya yüklemek" yordamında yayımlandı. Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz. Bir örnek veri modeli yapılandırmasının bu modeli daha sonra LCS'den içe aktarılacaktır.  
+    - Elektronik raporlama geliştirici
+    - Sistem yöneticisi
+
+2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+3. **Yapılandırmalar**'ı seçin.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için [erişmek](../../lifecycle-services/asset-library.md#asset-library-support) istediği Varlık kitaplığı'nı içeren LCS projesine üye olduğundan emin olun.
+>
+> Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz. Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır. ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a>Veri modeli yapılandırmasının paylaşılan bir sürümünü silme
+
+1. **Yapılandırmalar** sayfasında, yapılandırmalar ağacında, **Örnek model yapılandırması** seçeneğini belirleyin.
+
+    Örnek veri modeli yapılandırmasının ilk sürümünü oluşturdunuz ve [Bir yapılandırmayı Lifecycle Services'e yüklemek](er-upload-configuration-into-lifecycle-services.md) yordamındaki adımlar tamamlandığında yayımladınız. Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz. Bu konuda daha sonra LCS'den bu sürümü içe aktaracaksınız.
+
 2. Listede, istenen kaydı bulun ve seçin.
-    * Bu yapılandırmanın 'Paylaşımlı' durumda olan sürümünü seçin. Bu durum, yapılandırmanın LCS için yayımlandığını gösterir.  
-3. Durumu değiştir öğesine tıklayın.
-4. Devam ettirme'ye tıklatın.
-    * Seçili sürümün durumunu, silinebilir duruma gelmesi için 'Paylaşılan'dan 'Devam ettirilmeyen' olarak değiştirin.  
-5. Tamam'a tıklayın.
+
+    BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin. Bu durum, yapılandırmanın LCS için yayımlandığını gösterir.
+
+3. **Durumu değiştir**'i seçin.
+4. **Durdur**'u seçin.
+
+    Seçili sürümün durumunu **Paylaşılan**'dan **Durduruldu** olarak değiştirerek, silinebilir duruma getirin.
+
+5. **Tamam**'ı seçin.
 6. Listede, istenen kaydı bulun ve seçin.
-    * Bu yapılandırmanın 'Devam ettirilmeyen' durumda olan sürümünü seçin.  
-7. Sil'i tıklatın.
-8. Evet'i tıklatın.
-    * Yalnızca seçili veri modeli yapılandırması için taslak sürümü 2'nin kullanılabilir olduğunu unutmayın.  
+
+    Bu örnek için yapılandırmanın **Durduruldu** durumda olan sürümünü seçin.
+
+7. **Sil**'i seçin.
+8. **Evet**'i seçin.
+
+    Yalnızca seçili veri modeli yapılandırması için taslak sürümü 2'nin artık kullanılabilir olduğunu unutmayın.
+
 9. Sayfayı kapatın.
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Veri modeli yapılandırmasının paylaşılan bir sürümünü LCS'den içeri alın
-1. Listede, seçili satırı işaretleyin.
-    * 'Litware, Inc.' yapılandırma sağlayıcısı için havuzların listesini açın. yapılandırma sağlayıcısı.  
-2. Depolar'a tıklayın.
-3. Aç'a tıklayın.
-    * LCS deposunu seçin ve açın.  
-4. Listede, seçili satırı işaretleyin.
-    * 'Örnek yapılandırma modeli'nin ilk sürümü sürümlerin listesinde seçin.  
-5. İçe aktar'ı tıklatın.
-6. Evet'i tıklatın.
-    * Seçili sürümün LCS'den aktarıldığını onaylayın.  
-    * Bilgi iletisinin (formun üstünde bulunan) seçili sürümün alma işleminin başarılı tamamlama onayladığını dikkate alın.  
-7. Sayfayı kapatın.
-8. Sayfayı kapatın.
-9. Yapılandırmalar'a tıklayın.
-10. Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.
-11. Listede, istenen kaydı bulun ve seçin.
-    * Bu yapılandırmanın 'Paylaşılan' durumda olan sürümünü seçin.  
-    * Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.  
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a>Veri modeli yapılandırmasının paylaşılan bir sürümünü LCS'den içeri alma
 
+1. **Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.
+
+2. **Yapılandırma sağlayıcıları** bölümünde, **Liteware, Inc.** kutucuğunu seçin.
+
+3. **Liteware, Inc.** kutucuğunda, **Depolar**'a tıklayın.
+
+    Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.
+
+4. **Aç**'ı seçin.
+
+    Bu örnekte, **LCS** deposunu seçin ve açın. LCS projesine ve seçili ER deposu tarafından erişilen Varlık kitaplığı'na [erişiminizin](#accessconditions) olması gerekir.
+
+5. Listede, seçili satırı işaretleyin.
+
+    Bu örnek için sürüm listesinden **Örnek model yapılandırması**'nın ilk sürümünü seçin.
+
+6. **İçe aktar**'ı seçin.
+7. Seçili sürümün LCS'den içe aktarıldığını onaylamak için **Evet** öğesini seçin.
+
+    Bilgi iletisi, seçili sürümün başarıyla içe aktarıldığını onaylar.
+
+8. Sayfayı kapatın.
+9. Sayfayı kapatın.
+10. **Yapılandırmalar**'ı seçin.
+11. Ağaçtan **Örnek model yapılandırması** seçeneğini belirleyin.
+12. Listede, istenen kaydı bulun ve seçin.
+
+    BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin.
+
+    Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.

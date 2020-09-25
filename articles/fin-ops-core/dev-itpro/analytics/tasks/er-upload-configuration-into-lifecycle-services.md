@@ -1,9 +1,9 @@
 ---
-title: ER Lifecycle Services'a bir yapılandırma yükleme
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'ye yükleyebilir.
+title: Lifecycle Services'e bir yapılandırma yükleme
+description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırması oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'ye yükleyebilirsiniz.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143304"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810703"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Lifecycle Services'a bir yapılandırma yükleme
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Lifecycle Services'e bir yapılandırma yükleme
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'ye yükleyebilir.
+Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının yeni bir [Elektronik Raporlama (ER) yapılandırması](../general-electronic-reporting.md#Configuration) oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'na](../../lifecycle-services/asset-library.md) yüklemesi açıklanmaktadır.
 
-Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak ve bunu LCS'ye yükleyeceksiniz. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette gerçekleştirilebilir. Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Bu adımları tamamlamak için LCS erişimi de gereklidir.
+Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak ve bunu LCS'ye yükleyeceksiniz. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette tamamlanabilir. Bu adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) adımlarını tamamlamanız gerekir. LCS'ye erişim de gereklidir.
 
-1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-2. 'Litware, Inc.'ı seçin. ve etkin olarak ayarlayın.
-3. Yapılandırmalar'a tıklayın.
+1. Aşağıdaki rollerden birini kullanarak uygulamada oturum açın:
+
+    - Elektronik raporlama geliştirici
+    - Sistem yöneticisi
+
+2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+3. **Litware, Inc.** öğesini seçin ve **Etkin** olarak ayarlayın.
+4. **Yapılandırmalar**'ı seçin.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için kullanılacak [Varlık kitaplığı'nı](../../lifecycle-services/asset-library.md#asset-library-support) içeren LCS projesine üye olduğundan emin olun.
+>
+> Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz. Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır. ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.
 
 ## <a name="create-a-new-data-model-configuration"></a>Yeni bir veri modeli yapılandırması oluşturun
-1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-    * Elektronik belgeler için bir örnek veri modeli içeren bir yapılandırma oluşturacaksınız. Bu veri modeli yapılandırması daha sonra LCS'ye yüklenecektir.  
-2. İsim alanında 'Örnek model yapılandırması' yazın.
-    * Örnek model yapılandırması  
-3. Açıklama alanına, 'Örnek model yapılandırması' yazın.
-    * Örnek model yapılandırması  
-4. Konfigürasyon oluştur'u tıklatın.
-5. Model tasarımcısı'na tıklayın.
-6. Yeni'ye tıklayın.
-7. İsim alanına 'Giriş noktası' yazın.
-    * Giriş noktası  
-8. Ekle öğesini tıklatın.
-9. Kaydet'e tıklayın.
-10. Sayfayı kapatın.
-11. Durumu değiştir öğesine tıklayın.
-12. Tamamla öğesine tıklayın.
-13. Tamam'a tıklayın.
 
-## <a name="register-a-new--repository"></a>Yeni bir havuz kaydedin
-1. Sayfayı kapatın.
-2. Depolar'a tıklayın.
-    * Bu, Litware, Inc. için havuzların listesini açmanızı sağlayacaktır. yapılandırma sağlayıcısı.  
-3. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
-    * Bu, yeni bir havuz eklemenize olanak sağlar.  
-4. Yapılandırma havuz türü alanında LCS'yi seçin.
-5. Havuz oluştur'a tıklayın.
-6. Proje alanında bir değer girin veya seçin.
-    * İstenilen LCS projesini seçin. Projeye erişiminiz olmalıdır.  
-7. Tamam'a tıklayın.
-    * Yeni bir havuz girişini tamamlayın.  
-8. Listede, seçili satırı işaretleyin.
-    * LCS havuz kaydını seçin.  
-    * Mevcut sağlayıcı tarafından işaretlenen kayıtlı bir havuzun, yani sadece bu sağlayıcının sahip olduğu yapılandırmaların bu havuzda kullanılabileceğini ve bunun doğrultusunda, seçili LCS projesine karşıya yüklenebileceğini unutmayın.  
-9. Aç'a tıklayın.
-    * ER yapılandırmalarının listesini görüntülemek için havuzu açın. Bu proje ER yapılandırmaları paylaşımı için henüz kullanılmamışsa, bu boş olacaktır.  
-10. Sayfayı kapatın.
+1. **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.
+2. Açılır iletişim kutusunu açmak için **Yapılandırmalar** sayfasında **Yapılandırma oluştur**'u seçin.
+
+    Bu örnekte elektronik belgeler için örnek bir veri modeli içeren bir yapılandırma oluşturacaksınız. Bu veri modeli yapılandırması daha sonra LCS'ye yüklenecektir.
+
+3. **Ad** alanına **Örnek model yapılandırması** değerini girin.
+4. **Açıklama** alanına **Örnek model yapılandırması** değerini girin.
+5. **Yapılandırma oluştur**'u seçin.
+6. **Model Tasarımcısı**'nı seçin.
+7. **Yeni**'yi seçin.
+8. **Ad** alanına **Giriş noktası** değerini girin.
+9. **Ekle**'yi seçin.
+10. **Kaydet**'i seçin.
 11. Sayfayı kapatın.
+12. **Durumu değiştir**'i seçin.
+13. **Tamamlandı**'yı seçin.
+14. **Tamam**'ı seçin.
+15. Sayfayı kapatın.
 
-## <a name="upload-configuration-into-lcs"></a>Yapılandırmayı LCS'ye karşıya yükleyin
-1. Yapılandırmalar'a tıklayın.
-2. Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.
-    * Tamamlanmış olan oluşturulan bir yapılandırmayı seçin.  
+## <a name="register-a-new-repository"></a>Yeni bir depo kaydetme
+
+1. **Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.
+
+2. **Yapılandırma sağlayıcıları** bölümünde, **Liteware, Inc.** kutucuğunu seçin.
+
+3. **Liteware, Inc.** kutucuğunda, **Depolar**'a tıklayın.
+
+    Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.
+
+4. Açılır iletişim kutusunu açmak için **Ekle**'yi seçin.
+
+    Şimdi yeni bir depo ekleyebilirsiniz.
+
+5. **Yapılandırma deposu giriş** alanında **LCS**'yi seçin.
+6. **Depo oluştur**'u seçin.
+7. **Proje** alanına bir değer girin veya seçin.
+
+    Bu örnekte, istenilen LCS projesini seçin. Projeye [erişiminiz](#accessconditions) olmalıdır.
+
+8. **Tamam**'ı seçin.
+
+    Yeni bir havuz girişini tamamlayın.
+
+9. Listede, seçili satırı işaretleyin.
+
+    Bu örnekte, **LCS** depo kaydını seçin.
+
+    Kayıtlı bir deponun geçerli sağlayıcı tarafından işaretlendiğini unutmayın. Başka bir deyişle, yalnızca bu sağlayıcıya ait olan yapılandırmalar bu depoda yer alabilir ve bu nedenle seçili LCS projesine yüklenebilir.
+
+10. **Aç**'ı seçin.
+
+    ER yapılandırmalarının listesini görüntülemek için havuzu açarsınız. Seçili proje ER yapılandırmaları paylaşımı için henüz kullanılmamışsa, liste boş olur.
+
+11. Sayfayı kapatın.
+12. Sayfayı kapatın.
+
+## <a name="upload-a-configuration-into-lcs"></a>Bir yapılandırmayı LCS'ye yükleme
+
+1. **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.
+2. **Yapılandırmalar** sayfasında, yapılandırmalar ağacında, **Örnek model yapılandırması** seçeneğini belirleyin.
+
+    Tamamlanmış olan oluşturulmuş bir yapılandırmayı seçmeniz gerekir.
+
 3. Listede, istenen kaydı bulun ve seçin.
-    * 'Tamamlandı' durumuna sahip seçili konfigürasyona sahip sürümü seçin.  
-4. Durumu değiştir öğesine tıklayın.
-5. Paylaş'ı tıklatın.
-    * LCS'de yayımlandığında yapılandırma durumu 'Tamamlandı' seçeneğinden 'Paylaşıldı' seçeneğine değişecektir.  
-6. Tamam'a tıklayın.
-7. Listede, istenen kaydı bulun ve seçin.
-    * 'Paylaşıldı' durumuna sahip yapılandırma sürümünü seçin.  
-    * Seçili sürümün durumunun 'Paylaşılan'dan 'Tamamlandı'ya değiştiğini unutmayın.  
-8. Sayfayı kapatın.
-9. Depolar'a tıklayın.
-    * Bu, Litware, Inc. için havuzların listesini açmanızı sağlayacaktır. yapılandırma sağlayıcısı.  
-10. Aç'a tıklayın.
-    * LCS deposunu seçin ve açın.  
-    * Not: Seçili yapılandırma, LCS projesinin seçili bir varlığı olarak gösterilir.  
-    * https://lcs.dynamics.com kullanarak LCS'yi açın. Daha önce havuz kaydı için kullanılan bir proje açın, bu projenin 'Varlık kütüphanesini' açın ve 'Kural Yöneticisi yapılandırma' kıymet türünün içeriğini genişletin – karşıya yüklenen ER yapılandırma kullanılabilir olacaktır. Not: Bu LCS projesine erişim sağlayıcısının erişimi varsa, karşıya yüklenen LCS yapılandırması başka bir örneğe aktarılabilir.  
 
+    Bu örnek için seçili yapılandırmanın **Tamamlandı** durumda olan sürümünü seçin.
+
+4. **Durumu değiştir**'i seçin.
+5. **Paylaş**'ı seçin.
+
+    Yapılandırma LCS 'de yayımlandığında yapılandırmanın durumu, **Tamamlandı**'dan **Paylaşıldı**'ya geçer.
+
+6. **Tamam**'ı seçin.
+7. Listede, istenen kaydı bulun ve seçin.
+
+    Bu örnek için yapılandırmanın **Paylaşıldı** durumda olan sürümünü seçin.
+
+    Seçili sürümün durumunun **Tamamlandı**'dan **Paylaşıldı**'ya geçtiğini unutmayın.
+
+8. Sayfayı kapatın.
+9. **Depolar**'ı seçin.
+
+    Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.
+
+10. **Aç**'ı seçin.
+
+    Bu örnekte, **LCS** deposunu seçin ve açın.
+
+    Seçili yapılandırmanın seçili LCS projesinin bir varlığı olarak gösterildiğini unutmayın.
+
+11. <https://lcs.dynamics.com> adresine giderek LCS'yi açın.
+12. Depo kaydı için daha önce kullanılan bir projeyi açın.
+13. Projenin Varlık kitaplığı'nı açın.
+14. **GER yapılandırması** varlık türünü seçin.
+
+    Karşıya yüklediğiniz ER yapılandırması listelenmelidir.
+
+    Bu LCS projesine sağlayıcıların erişimi varsa, karşıya yüklenen LCS yapılandırmasının başka bir örneğe aktarılabildiğini unutmayın.
