@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0ba19e762574dde4f9038b87ce352d13f714f4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e51e181de53cd185679110e99b9f89695bacdf92
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041067"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744275"
 ---
-# <span data-ttu-id="bb34f-103"><a name="LEN">LEN ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="bb34f-103"><a name="LEN">LEN ER function</a></span></span>
+# <a name="len-er-function"></a><span data-ttu-id="5158b-103">LEN ER işlevi</span><span class="sxs-lookup"><span data-stu-id="5158b-103">LEN ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bb34f-104">Bu `LEN` işlev, belirtilen dizedeki karakter sayısını bir *tamsayı* değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="bb34f-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
+<span data-ttu-id="5158b-104">Bu `LEN` işlev, belirtilen dizedeki karakter sayısını bir *tamsayı* değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="5158b-104">The `LEN` function returns the number of characters in the specified string as an *Integer* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bb34f-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="bb34f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5158b-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="5158b-105">Syntax</span></span>
 
 ```vb
 LEN (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="bb34f-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="bb34f-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5158b-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="5158b-106">Arguments</span></span>
 
-<span data-ttu-id="bb34f-107">`text`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="bb34f-107">`text`: *String*</span></span>
+<span data-ttu-id="5158b-107">`text`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="5158b-107">`text`: *String*</span></span>
 
-<span data-ttu-id="bb34f-108">Metni temsil eden bir *dize* değeri.</span><span class="sxs-lookup"><span data-stu-id="bb34f-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="5158b-108">Metni temsil eden bir *dize* değeri.</span><span class="sxs-lookup"><span data-stu-id="5158b-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="bb34f-109">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="bb34f-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5158b-109">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="5158b-109">Return values</span></span>
 
-<span data-ttu-id="bb34f-110">*Tamsayı*</span><span class="sxs-lookup"><span data-stu-id="bb34f-110">*Integer*</span></span>
+<span data-ttu-id="5158b-110">*Tamsayı*</span><span class="sxs-lookup"><span data-stu-id="5158b-110">*Integer*</span></span>
 
-<span data-ttu-id="bb34f-111">Sonuç sayısal değeri.</span><span class="sxs-lookup"><span data-stu-id="bb34f-111">The resulting numeric value.</span></span>
+<span data-ttu-id="5158b-111">Sonuç sayısal değeri.</span><span class="sxs-lookup"><span data-stu-id="5158b-111">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bb34f-112">Örnek</span><span class="sxs-lookup"><span data-stu-id="bb34f-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5158b-112">Örnek</span><span class="sxs-lookup"><span data-stu-id="5158b-112">Example</span></span>
 
-<span data-ttu-id="bb34f-113">`LEN ("Sample")`, **6** döndürür.</span><span class="sxs-lookup"><span data-stu-id="bb34f-113">`LEN ("Sample")` returns **6**.</span></span>
+<span data-ttu-id="5158b-113">`LEN ("Sample")`, **6** döndürür.</span><span class="sxs-lookup"><span data-stu-id="5158b-113">`LEN ("Sample")` returns **6**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="bb34f-114">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="bb34f-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5158b-114">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="5158b-114">Additional resources</span></span>
 
-[<span data-ttu-id="bb34f-115">Metin işlevleri</span><span class="sxs-lookup"><span data-stu-id="bb34f-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="5158b-115">Metin işlevleri</span><span class="sxs-lookup"><span data-stu-id="5158b-115">Text functions</span></span>](er-functions-category-text.md)

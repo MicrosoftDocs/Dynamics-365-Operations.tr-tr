@@ -18,113 +18,113 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d51b59c437bd216c6d229546136bb604239fa92
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: c288050fa1f9f1be9c38696e844e782794795471
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042010"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745093"
 ---
-# <span data-ttu-id="aa4b7-103"><a name="LISTOFFIELDS">LISTOFFIELDS ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="aa4b7-103"><a name="LISTOFFIELDS">LISTOFFIELDS ER function</a></span></span>
+# <a name="listoffields-er-function"></a><span data-ttu-id="45428-103">LISTOFFIELDS ER işlevi</span><span class="sxs-lookup"><span data-stu-id="45428-103">LISTOFFIELDS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="aa4b7-104">`LISTOFFIELDS` işlev, *numaralandırmanın* veya *konteyner (kayıt)* türünün belirtilen bağımsız değişkeninin yapısına göre oluşturulan bir *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-104">The `LISTOFFIELDS` function returns a *Record list* value that is created based on the structure of the specified argument of the *Enumeration* or *Container (record)* type.</span></span>
+<span data-ttu-id="45428-104">`LISTOFFIELDS` işlev, *numaralandırmanın* veya *konteyner (kayıt)* türünün belirtilen bağımsız değişkeninin yapısına göre oluşturulan bir *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="45428-104">The `LISTOFFIELDS` function returns a *Record list* value that is created based on the structure of the specified argument of the *Enumeration* or *Container (record)* type.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="aa4b7-105">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="aa4b7-105">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="45428-105">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="45428-105">Syntax 1</span></span>
 
 ```vb
 LISTOFFIELDS (path)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="aa4b7-106">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="aa4b7-106">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="45428-106">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="45428-106">Syntax 2</span></span>
 
 ```vb
 LISTOFFIELDS (path, language)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="aa4b7-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="aa4b7-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="45428-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="45428-107">Arguments</span></span>
 
-<span data-ttu-id="aa4b7-108">`path`: Veri kaynağı referansı</span><span class="sxs-lookup"><span data-stu-id="aa4b7-108">`path`: Data source reference</span></span>
+<span data-ttu-id="45428-108">`path`: Veri kaynağı referansı</span><span class="sxs-lookup"><span data-stu-id="45428-108">`path`: Data source reference</span></span>
 
-<span data-ttu-id="aa4b7-109">Aşağıdaki veri tiplerinden birinin veri kaynağının geçerli referans yolu:</span><span class="sxs-lookup"><span data-stu-id="aa4b7-109">The valid reference path of a data source of one of the following data types:</span></span>
+<span data-ttu-id="45428-109">Aşağıdaki veri tiplerinden birinin veri kaynağının geçerli referans yolu:</span><span class="sxs-lookup"><span data-stu-id="45428-109">The valid reference path of a data source of one of the following data types:</span></span>
 
-- <span data-ttu-id="aa4b7-110">Model numaralandırma</span><span class="sxs-lookup"><span data-stu-id="aa4b7-110">Model enumeration</span></span>
-- <span data-ttu-id="aa4b7-111">Biçim numaralandırma</span><span class="sxs-lookup"><span data-stu-id="aa4b7-111">Format enumeration</span></span>
-- <span data-ttu-id="aa4b7-112">Uygulama numaralandırma</span><span class="sxs-lookup"><span data-stu-id="aa4b7-112">Application enumeration</span></span>
-- <span data-ttu-id="aa4b7-113">Konteyner (kayıt)</span><span class="sxs-lookup"><span data-stu-id="aa4b7-113">Container (record)</span></span>
+- <span data-ttu-id="45428-110">Model numaralandırma</span><span class="sxs-lookup"><span data-stu-id="45428-110">Model enumeration</span></span>
+- <span data-ttu-id="45428-111">Biçim numaralandırma</span><span class="sxs-lookup"><span data-stu-id="45428-111">Format enumeration</span></span>
+- <span data-ttu-id="45428-112">Uygulama numaralandırma</span><span class="sxs-lookup"><span data-stu-id="45428-112">Application enumeration</span></span>
+- <span data-ttu-id="45428-113">Konteyner (kayıt)</span><span class="sxs-lookup"><span data-stu-id="45428-113">Container (record)</span></span>
 
-<span data-ttu-id="aa4b7-114">`language`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="aa4b7-114">`language`: *String*</span></span>
+<span data-ttu-id="45428-114">`language`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="45428-114">`language`: *String*</span></span>
 
-<span data-ttu-id="aa4b7-115">Bir dil kodunu temsil eden metin.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-115">Text that represents a language code.</span></span>
+<span data-ttu-id="45428-115">Bir dil kodunu temsil eden metin.</span><span class="sxs-lookup"><span data-stu-id="45428-115">Text that represents a language code.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="aa4b7-116">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="aa4b7-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="45428-116">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="45428-116">Return values</span></span>
 
-<span data-ttu-id="aa4b7-117">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="aa4b7-117">*Record list*</span></span>
+<span data-ttu-id="45428-117">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="45428-117">*Record list*</span></span>
 
-<span data-ttu-id="aa4b7-118">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-118">The resulting list of records.</span></span>
+<span data-ttu-id="45428-118">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="45428-118">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="aa4b7-119">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="aa4b7-119">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="45428-119">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="45428-119">Usage notes</span></span>
 
-<span data-ttu-id="aa4b7-120">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</span><span class="sxs-lookup"><span data-stu-id="aa4b7-120">The list that is created consists of records that have the following fields:</span></span>
+<span data-ttu-id="45428-120">Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</span><span class="sxs-lookup"><span data-stu-id="45428-120">The list that is created consists of records that have the following fields:</span></span>
 
-- <span data-ttu-id="aa4b7-121">**Ad** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="aa4b7-121">**Name** (*String* data type)</span></span>
-- <span data-ttu-id="aa4b7-122">**Etiket** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="aa4b7-122">**Label** (*String* data type)</span></span>
-- <span data-ttu-id="aa4b7-123">**Açıklama** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="aa4b7-123">**Description** (*String* data type)</span></span>
-- <span data-ttu-id="aa4b7-124">**Çevrildi** (*Boole* veri türü)</span><span class="sxs-lookup"><span data-stu-id="aa4b7-124">**IsTranslated** (*Boolean* data type)</span></span>
+- <span data-ttu-id="45428-121">**Ad** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="45428-121">**Name** (*String* data type)</span></span>
+- <span data-ttu-id="45428-122">**Etiket** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="45428-122">**Label** (*String* data type)</span></span>
+- <span data-ttu-id="45428-123">**Açıklama** (*Dize* veri türü)</span><span class="sxs-lookup"><span data-stu-id="45428-123">**Description** (*String* data type)</span></span>
+- <span data-ttu-id="45428-124">**Çevrildi** (*Boole* veri türü)</span><span class="sxs-lookup"><span data-stu-id="45428-124">**IsTranslated** (*Boolean* data type)</span></span>
 
-<span data-ttu-id="aa4b7-125">`path` bağımsız değişken *konteyner (kayıt)* türünün bir veri kaynağına başvuruyorsa, başvurulan konteyner kaydının her alanı için, oluşturulan listeye yeni bir kayıt eklenir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-125">If the `path` argument refers to a data source of the *Container (Record)* type, for every field of the referenced container record, a new record is added to the list that is created.</span></span> <span data-ttu-id="aa4b7-126">Oluşturulan her kayıt için, **Ad** alanı, geçerli kaydın oluşturulduğu Başvurulmuş konteyner kaydı alanının adını döndürür.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-126">For every record that is created, the **Name** field returns the name of the field of the referenced container record that the current record was created for.</span></span>
+<span data-ttu-id="45428-125">`path` bağımsız değişken *konteyner (kayıt)* türünün bir veri kaynağına başvuruyorsa, başvurulan konteyner kaydının her alanı için, oluşturulan listeye yeni bir kayıt eklenir.</span><span class="sxs-lookup"><span data-stu-id="45428-125">If the `path` argument refers to a data source of the *Container (Record)* type, for every field of the referenced container record, a new record is added to the list that is created.</span></span> <span data-ttu-id="45428-126">Oluşturulan her kayıt için, **Ad** alanı, geçerli kaydın oluşturulduğu Başvurulmuş konteyner kaydı alanının adını döndürür.</span><span class="sxs-lookup"><span data-stu-id="45428-126">For every record that is created, the **Name** field returns the name of the field of the referenced container record that the current record was created for.</span></span>
 
-<span data-ttu-id="aa4b7-127">`path` bağımsız değişken *Numaralandırma* türlerinden birinin bir veri kaynağına başvuruyorsa, başvurulan numaralandırmanın her numaralandırma değeri için, oluşturulan listeye yeni bir kayıt eklenir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-127">If the `path` argument refers to a data source of one of the *Enumeration* types, for every enumeration value of the referenced enumeration, a new record is added to the list that is created.</span></span> <span data-ttu-id="aa4b7-128">Oluşturulan her kayıt için, **ad** alanı geçerli kaydın oluşturulduğu Başvurulmuş numaralandırmanın değerini döndürür, **Açıklama** alanı ilgili numaralandırmanın açıklamasını döndürür ve **Etiket** alanı o numaralandırmanın etiketini döndürür.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-128">For every record that is created, the **Name** field returns the value of the referenced enumeration that the current record was created for, the **Description** field returns the description of that enumeration, and the **Label** field returns the label of that enumeration.</span></span>
+<span data-ttu-id="45428-127">`path` bağımsız değişken *Numaralandırma* türlerinden birinin bir veri kaynağına başvuruyorsa, başvurulan numaralandırmanın her numaralandırma değeri için, oluşturulan listeye yeni bir kayıt eklenir.</span><span class="sxs-lookup"><span data-stu-id="45428-127">If the `path` argument refers to a data source of one of the *Enumeration* types, for every enumeration value of the referenced enumeration, a new record is added to the list that is created.</span></span> <span data-ttu-id="45428-128">Oluşturulan her kayıt için, **ad** alanı geçerli kaydın oluşturulduğu Başvurulmuş numaralandırmanın değerini döndürür, **Açıklama** alanı ilgili numaralandırmanın açıklamasını döndürür ve **Etiket** alanı o numaralandırmanın etiketini döndürür.</span><span class="sxs-lookup"><span data-stu-id="45428-128">For every record that is created, the **Name** field returns the value of the referenced enumeration that the current record was created for, the **Description** field returns the description of that enumeration, and the **Label** field returns the label of that enumeration.</span></span>
 
-<span data-ttu-id="aa4b7-129">Çalışma zamanında, sözdizimi 1 kullanıldığında, **Etiket** ve **Açıklama** alanları, çalışmakta olan elektronik raporlama (ER) biçiminin dil ayarlarını temel alan değerler döndürmelidir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-129">At runtime, when syntax 1 is used, the **Label** and **Description** fields must return values that are based on the language settings of the Electronic reporting (ER) format that is running:</span></span>
+<span data-ttu-id="45428-129">Çalışma zamanında, sözdizimi 1 kullanıldığında, **Etiket** ve **Açıklama** alanları, çalışmakta olan elektronik raporlama (ER) biçiminin dil ayarlarını temel alan değerler döndürmelidir.</span><span class="sxs-lookup"><span data-stu-id="45428-129">At runtime, when syntax 1 is used, the **Label** and **Description** fields must return values that are based on the language settings of the Electronic reporting (ER) format that is running:</span></span>
 
-- <span data-ttu-id="aa4b7-130">İstenen dile ait Etiketler ve açıklamalar varsa, **etiket** ve **Açıklama** alanları o dile dayalı olarak değerleri verir ve **Çevrilmiş** alan **doğru** döner.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-130">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
-- <span data-ttu-id="aa4b7-131">İstenen dile ait Etiketler ve açıklamalar yoksa, **etiket** ve **Açıklama** alanları varsayılan **TR-TR** diline dayalı olarak değerleri verir ve **Çevrilmiş** alan **Yanlış** döner.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-131">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the default **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
+- <span data-ttu-id="45428-130">İstenen dile ait Etiketler ve açıklamalar varsa, **etiket** ve **Açıklama** alanları o dile dayalı olarak değerleri verir ve **Çevrilmiş** alan **doğru** döner.</span><span class="sxs-lookup"><span data-stu-id="45428-130">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
+- <span data-ttu-id="45428-131">İstenen dile ait Etiketler ve açıklamalar yoksa, **etiket** ve **Açıklama** alanları varsayılan **TR-TR** diline dayalı olarak değerleri verir ve **Çevrilmiş** alan **Yanlış** döner.</span><span class="sxs-lookup"><span data-stu-id="45428-131">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the default **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
 
-<span data-ttu-id="aa4b7-132">Çalışma zamanında, sözdizimi 2 kullanıldığında, **Etiket** ve **Açıklama** alanları, sözde işlevin ikinci bağımsız değişkeni olarak tanımlanan dil ayarlarını temel alan değerler döndürmelidir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-132">At runtime, when syntax 2 is used, the **Label** and **Description** fields must return values that are based on the language that is defined as the second argument of the called function:</span></span>
+<span data-ttu-id="45428-132">Çalışma zamanında, sözdizimi 2 kullanıldığında, **Etiket** ve **Açıklama** alanları, sözde işlevin ikinci bağımsız değişkeni olarak tanımlanan dil ayarlarını temel alan değerler döndürmelidir.</span><span class="sxs-lookup"><span data-stu-id="45428-132">At runtime, when syntax 2 is used, the **Label** and **Description** fields must return values that are based on the language that is defined as the second argument of the called function:</span></span>
 
-- <span data-ttu-id="aa4b7-133">İstenen dile ait Etiketler ve açıklamalar varsa, **etiket** ve **Açıklama** alanları o dile dayalı olarak değerleri verir ve **Çevrilmiş** alan **doğru** döner.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-133">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
-- <span data-ttu-id="aa4b7-134">İstenen dile ait Etiketler ve açıklamalar yoksa, **etiket** ve **Açıklama** alanları **TR-TR** diline dayalı olarak değerleri verir ve **Çevrilmiş** alan **Yanlış** döner.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-134">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
+- <span data-ttu-id="45428-133">İstenen dile ait Etiketler ve açıklamalar varsa, **etiket** ve **Açıklama** alanları o dile dayalı olarak değerleri verir ve **Çevrilmiş** alan **doğru** döner.</span><span class="sxs-lookup"><span data-stu-id="45428-133">If the labels and descriptions for the requested language are available, the **Label** and **Description** fields return values that are based on that language, and the **IsTranslated** field returns **True**.</span></span>
+- <span data-ttu-id="45428-134">İstenen dile ait Etiketler ve açıklamalar yoksa, **etiket** ve **Açıklama** alanları **TR-TR** diline dayalı olarak değerleri verir ve **Çevrilmiş** alan **Yanlış** döner.</span><span class="sxs-lookup"><span data-stu-id="45428-134">If the labels and descriptions for the requested language aren't available, the **Label** and **Description** fields return values that are based on the **EN-US** language, and the **IsTranslated** field returns **False**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="aa4b7-135">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="aa4b7-135">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="45428-135">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="45428-135">Example 1</span></span>
 
-<span data-ttu-id="aa4b7-136">Aşağıdaki örnekte, bir ER veri modelinde oluşturulan numaralandırma gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-136">In the following illustration, an enumeration is introduced in an ER data model.</span></span>
+<span data-ttu-id="45428-136">Aşağıdaki örnekte, bir ER veri modelinde oluşturulan numaralandırma gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="45428-136">In the following illustration, an enumeration is introduced in an ER data model.</span></span>
 
 <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
 
-<span data-ttu-id="aa4b7-137">Aşağıdaki örnek ayrıntıları göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="aa4b7-137">The following illustration shows these details:</span></span>
+<span data-ttu-id="45428-137">Aşağıdaki örnek ayrıntıları göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="45428-137">The following illustration shows these details:</span></span>
 
-- <span data-ttu-id="aa4b7-138">Veri kaynağı olarak bir rapora eklenen model numaralandırma.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-138">The model enumeration is inserted into a report as a data source.</span></span>
-- <span data-ttu-id="aa4b7-139">Bir ER ifadesi `LISTOFFIELDS` işlevi parametresi olarak bir model numaralandırma kullanır.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-139">An ER expression uses the model enumeration as a parameter of the `LISTOFFIELDS` function.</span></span>
-- <span data-ttu-id="aa4b7-140">Oluşturulan ER ifadesini kullanarak bir rapora eklenen *kayıt listesi* türünün veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-140">A data source of the *Record list* type is inserted into a report by using the ER expression that is created.</span></span>
+- <span data-ttu-id="45428-138">Veri kaynağı olarak bir rapora eklenen model numaralandırma.</span><span class="sxs-lookup"><span data-stu-id="45428-138">The model enumeration is inserted into a report as a data source.</span></span>
+- <span data-ttu-id="45428-139">Bir ER ifadesi `LISTOFFIELDS` işlevi parametresi olarak bir model numaralandırma kullanır.</span><span class="sxs-lookup"><span data-stu-id="45428-139">An ER expression uses the model enumeration as a parameter of the `LISTOFFIELDS` function.</span></span>
+- <span data-ttu-id="45428-140">Oluşturulan ER ifadesini kullanarak bir rapora eklenen *kayıt listesi* türünün veri kaynağı.</span><span class="sxs-lookup"><span data-stu-id="45428-140">A data source of the *Record list* type is inserted into a report by using the ER expression that is created.</span></span>
 
 <a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a>
 
-<span data-ttu-id="aa4b7-141">Aşağıdaki örnek `LISTOFFIELDS` işlevi kullanılarak oluşturulan ve *kayıt listesi* türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-141">The following example shows the ER format elements that are bound to the data source of the *Record list* type that was created by using the `LISTOFFIELDS` function.</span></span>
+<span data-ttu-id="45428-141">Aşağıdaki örnek `LISTOFFIELDS` işlevi kullanılarak oluşturulan ve *kayıt listesi* türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="45428-141">The following example shows the ER format elements that are bound to the data source of the *Record list* type that was created by using the `LISTOFFIELDS` function.</span></span>
 
 <a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
 
-<span data-ttu-id="aa4b7-142">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-142">The following illustration shows the result when the designed format is run.</span></span>
+<span data-ttu-id="45428-142">Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</span><span class="sxs-lookup"><span data-stu-id="45428-142">The following illustration shows the result when the designed format is run.</span></span>
 
 <a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a>
 
 > [!NOTE] 
-> <span data-ttu-id="aa4b7-143">Ana **DOSYA** ve **KLASÖR** biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-143">Based on the language settings of the parent **FILE** and **FOLDER** format elements, translated text for labels and descriptions is entered in the output of the ER format.</span></span>
+> <span data-ttu-id="45428-143">Ana **DOSYA** ve **KLASÖR** biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</span><span class="sxs-lookup"><span data-stu-id="45428-143">Based on the language settings of the parent **FILE** and **FOLDER** format elements, translated text for labels and descriptions is entered in the output of the ER format.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="aa4b7-144">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="aa4b7-144">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="45428-144">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="45428-144">Example 2</span></span>
 
-<span data-ttu-id="aa4b7-145">Örneğin, **enumType** veri modeli numaralandırması için **enumType\_de** ve **enumType\_deCH** veri kaynaklarını yapılandırmak üzere *Hesaplanan alan* veri kaynağı türünü kullanırsınız:</span><span class="sxs-lookup"><span data-stu-id="aa4b7-145">You use the *Calculated field* data source type to configure **enumType\_de** and **enumType\_deCH** data sources for the **enumType** data model enumeration:</span></span>
+<span data-ttu-id="45428-145">Örneğin, **enumType** veri modeli numaralandırması için **enumType\_de** ve **enumType\_deCH** veri kaynaklarını yapılandırmak üzere *Hesaplanan alan* veri kaynağı türünü kullanırsınız:</span><span class="sxs-lookup"><span data-stu-id="45428-145">You use the *Calculated field* data source type to configure **enumType\_de** and **enumType\_deCH** data sources for the **enumType** data model enumeration:</span></span>
 
-- <span data-ttu-id="aa4b7-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span><span class="sxs-lookup"><span data-stu-id="aa4b7-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span></span>
-- <span data-ttu-id="aa4b7-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span><span class="sxs-lookup"><span data-stu-id="aa4b7-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span></span>
+- <span data-ttu-id="45428-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span><span class="sxs-lookup"><span data-stu-id="45428-146">**enumType\_de** = `LISTOFFIELDS (enumType, "de")`</span></span>
+- <span data-ttu-id="45428-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span><span class="sxs-lookup"><span data-stu-id="45428-147">**enumType\_deCH** = `LISTOFFIELDS (enumType, "de-CH")`</span></span>
 
-<span data-ttu-id="aa4b7-148">Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-148">In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if that translation is available.</span></span> <span data-ttu-id="aa4b7-149">İsviçre Almanca çeviri kullanılamıyorsa, Almanca etiketi olur.</span><span class="sxs-lookup"><span data-stu-id="aa4b7-149">If the Swiss German translation isn't available, the label is in German.</span></span>
+<span data-ttu-id="45428-148">Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="45428-148">In this case, you can use the following expression to get the label of the enumeration value in Swiss German, if that translation is available.</span></span> <span data-ttu-id="45428-149">İsviçre Almanca çeviri kullanılamıyorsa, Almanca etiketi olur.</span><span class="sxs-lookup"><span data-stu-id="45428-149">If the Swiss German translation isn't available, the label is in German.</span></span>
 
 ```vb
 IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 ```
 
-## <a name="additional-resources"></a><span data-ttu-id="aa4b7-150">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="aa4b7-150">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="45428-150">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="45428-150">Additional resources</span></span>
 
-[<span data-ttu-id="aa4b7-151">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="aa4b7-151">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="45428-151">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="45428-151">List functions</span></span>](er-functions-category-list.md)

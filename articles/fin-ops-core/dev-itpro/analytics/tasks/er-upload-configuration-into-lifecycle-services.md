@@ -1,9 +1,9 @@
 ---
-title: ER Lifecycle Services'a bir yapılandırma yükleme
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'ye yükleyebilir.
+title: Lifecycle Services'e bir yapılandırma yükleme
+description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırması oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'ye yükleyebilirsiniz.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143304"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810703"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="7a2a4-103">ER Lifecycle Services'a bir yapılandırma yükleme</span><span class="sxs-lookup"><span data-stu-id="7a2a4-103">ER Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="dbc30-103">Lifecycle Services'e bir yapılandırma yükleme</span><span class="sxs-lookup"><span data-stu-id="dbc30-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7a2a4-104">Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'ye yükleyebilir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration and upload it into Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="dbc30-104">Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının yeni bir [Elektronik Raporlama (ER) yapılandırması](../general-electronic-reporting.md#Configuration) oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'na](../../lifecycle-services/asset-library.md) yüklemesi açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="dbc30-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="7a2a4-105">Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak ve bunu LCS'ye yükleyeceksiniz. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-105">In this example, you will create a configuration and upload it to LCS for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="7a2a4-106">Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-106">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span> <span data-ttu-id="7a2a4-107">Bu adımları tamamlamak için LCS erişimi de gereklidir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="dbc30-105">Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak ve bunu LCS'ye yükleyeceksiniz. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette tamamlanabilir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="dbc30-106">Bu adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) adımlarını tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="dbc30-107">LCS'ye erişim de gereklidir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="7a2a4-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="7a2a4-109">'Litware, Inc.'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-109">Select 'Litware, Inc.'</span></span> <span data-ttu-id="7a2a4-110">ve etkin olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-110">and set it as active.</span></span>
-3. <span data-ttu-id="7a2a4-111">Yapılandırmalar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-111">Click Configurations.</span></span>
+1. <span data-ttu-id="dbc30-108">Aşağıdaki rollerden birini kullanarak uygulamada oturum açın:</span><span class="sxs-lookup"><span data-stu-id="dbc30-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="7a2a4-112">Yeni bir veri modeli yapılandırması oluşturun</span><span class="sxs-lookup"><span data-stu-id="7a2a4-112">Create a new data model configuration</span></span>
-1. <span data-ttu-id="7a2a4-113">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-113">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="7a2a4-114">Elektronik belgeler için bir örnek veri modeli içeren bir yapılandırma oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-114">You will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="7a2a4-115">Bu veri modeli yapılandırması daha sonra LCS'ye yüklenecektir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-115">This data model configuration will be uploaded into LCS later.</span></span>  
-2. <span data-ttu-id="7a2a4-116">İsim alanında 'Örnek model yapılandırması' yazın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-116">In the Name field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="7a2a4-117">Örnek model yapılandırması</span><span class="sxs-lookup"><span data-stu-id="7a2a4-117">Sample model configuration</span></span>  
-3. <span data-ttu-id="7a2a4-118">Açıklama alanına, 'Örnek model yapılandırması' yazın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-118">In the Description field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="7a2a4-119">Örnek model yapılandırması</span><span class="sxs-lookup"><span data-stu-id="7a2a4-119">Sample model configuration</span></span>  
-4. <span data-ttu-id="7a2a4-120">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-120">Click Create configuration.</span></span>
-5. <span data-ttu-id="7a2a4-121">Model tasarımcısı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-121">Click Model designer.</span></span>
-6. <span data-ttu-id="7a2a4-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-122">Click New.</span></span>
-7. <span data-ttu-id="7a2a4-123">İsim alanına 'Giriş noktası' yazın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-123">In the Name field, type 'Entry point'.</span></span>
-    * <span data-ttu-id="7a2a4-124">Giriş noktası</span><span class="sxs-lookup"><span data-stu-id="7a2a4-124">Entry point</span></span>  
-8. <span data-ttu-id="7a2a4-125">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-125">Click Add.</span></span>
-9. <span data-ttu-id="7a2a4-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-126">Click Save.</span></span>
-10. <span data-ttu-id="7a2a4-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-127">Close the page.</span></span>
-11. <span data-ttu-id="7a2a4-128">Durumu değiştir öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-128">Click Change status.</span></span>
-12. <span data-ttu-id="7a2a4-129">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-129">Click Complete.</span></span>
-13. <span data-ttu-id="7a2a4-130">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-130">Click OK.</span></span>
+    - <span data-ttu-id="dbc30-109">Elektronik raporlama geliştirici</span><span class="sxs-lookup"><span data-stu-id="dbc30-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="dbc30-110">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="dbc30-110">System administrator</span></span>
 
-## <a name="register-a-new--repository"></a><span data-ttu-id="7a2a4-131">Yeni bir havuz kaydedin</span><span class="sxs-lookup"><span data-stu-id="7a2a4-131">Register a new  repository</span></span>
-1. <span data-ttu-id="7a2a4-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-132">Close the page.</span></span>
-2. <span data-ttu-id="7a2a4-133">Depolar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-133">Click Repositories.</span></span>
-    * <span data-ttu-id="7a2a4-134">Bu, Litware, Inc. için havuzların listesini açmanızı sağlayacaktır. yapılandırma sağlayıcısı.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-134">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-3. <span data-ttu-id="7a2a4-135">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-135">Click Add to open the drop dialog.</span></span>
-    * <span data-ttu-id="7a2a4-136">Bu, yeni bir havuz eklemenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-136">This allows you to add a new repository.</span></span>  
-4. <span data-ttu-id="7a2a4-137">Yapılandırma havuz türü alanında LCS'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-137">In the Configuration repository type field, select LCS.</span></span>
-5. <span data-ttu-id="7a2a4-138">Havuz oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-138">Click Create repository.</span></span>
-6. <span data-ttu-id="7a2a4-139">Proje alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-139">In the Project field, enter or select a value.</span></span>
-    * <span data-ttu-id="7a2a4-140">İstenilen LCS projesini seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-140">Select the desired LCS project.</span></span> <span data-ttu-id="7a2a4-141">Projeye erişiminiz olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-141">You must have access to the project.</span></span>  
-7. <span data-ttu-id="7a2a4-142">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-142">Click OK.</span></span>
-    * <span data-ttu-id="7a2a4-143">Yeni bir havuz girişini tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-143">Complete a new repository entry.</span></span>  
-8. <span data-ttu-id="7a2a4-144">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-144">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="7a2a4-145">LCS havuz kaydını seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-145">Select the LCS repository record.</span></span>  
-    * <span data-ttu-id="7a2a4-146">Mevcut sağlayıcı tarafından işaretlenen kayıtlı bir havuzun, yani sadece bu sağlayıcının sahip olduğu yapılandırmaların bu havuzda kullanılabileceğini ve bunun doğrultusunda, seçili LCS projesine karşıya yüklenebileceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-146">Note that a registered repository is marked by the current provider meaning that the only configurations owned by that provider can be placed to this repository and, consequently, uploaded into the selected LCS project.</span></span>  
-9. <span data-ttu-id="7a2a4-147">Aç'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-147">Click Open.</span></span>
-    * <span data-ttu-id="7a2a4-148">ER yapılandırmalarının listesini görüntülemek için havuzu açın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-148">Open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="7a2a4-149">Bu proje ER yapılandırmaları paylaşımı için henüz kullanılmamışsa, bu boş olacaktır.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-149">It will be empty if this project has not yet been used for ER configurations sharing.</span></span>  
-10. <span data-ttu-id="7a2a4-150">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-150">Close the page.</span></span>
-11. <span data-ttu-id="7a2a4-151">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-151">Close the page.</span></span>
+2. <span data-ttu-id="dbc30-111">**Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="dbc30-112">**Litware, Inc.** öğesini seçin ve **Etkin** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="dbc30-113">**Yapılandırmalar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-113">Select **Configurations**.</span></span>
 
-## <a name="upload-configuration-into-lcs"></a><span data-ttu-id="7a2a4-152">Yapılandırmayı LCS'ye karşıya yükleyin</span><span class="sxs-lookup"><span data-stu-id="7a2a4-152">Upload configuration into LCS</span></span>
-1. <span data-ttu-id="7a2a4-153">Yapılandırmalar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-153">Click Configurations.</span></span>
-2. <span data-ttu-id="7a2a4-154">Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-154">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="7a2a4-155">Tamamlanmış olan oluşturulan bir yapılandırmayı seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-155">Select a created configuration that has been already completed.</span></span>  
-3. <span data-ttu-id="7a2a4-156">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-156">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7a2a4-157">'Tamamlandı' durumuna sahip seçili konfigürasyona sahip sürümü seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-157">Select the version of the selected configuration with the status of 'Completed'.</span></span>  
-4. <span data-ttu-id="7a2a4-158">Durumu değiştir öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-158">Click Change status.</span></span>
-5. <span data-ttu-id="7a2a4-159">Paylaş'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-159">Click Share.</span></span>
-    * <span data-ttu-id="7a2a4-160">LCS'de yayımlandığında yapılandırma durumu 'Tamamlandı' seçeneğinden 'Paylaşıldı' seçeneğine değişecektir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-160">The configuration status will change from 'Completed' to 'Shared' when it is published in LCS.</span></span>  
-6. <span data-ttu-id="7a2a4-161">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-161">Click OK.</span></span>
-7. <span data-ttu-id="7a2a4-162">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-162">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="7a2a4-163">'Paylaşıldı' durumuna sahip yapılandırma sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-163">Select the configuration version with the status of 'Shared'.</span></span>  
-    * <span data-ttu-id="7a2a4-164">Seçili sürümün durumunun 'Paylaşılan'dan 'Tamamlandı'ya değiştiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-164">Note that the status of the selected version has changed from 'Completed' to 'Shared'.</span></span>  
-8. <span data-ttu-id="7a2a4-165">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-165">Close the page.</span></span>
-9. <span data-ttu-id="7a2a4-166">Depolar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-166">Click Repositories.</span></span>
-    * <span data-ttu-id="7a2a4-167">Bu, Litware, Inc. için havuzların listesini açmanızı sağlayacaktır. yapılandırma sağlayıcısı.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-167">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-10. <span data-ttu-id="7a2a4-168">Aç'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-168">Click Open.</span></span>
-    * <span data-ttu-id="7a2a4-169">LCS deposunu seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-169">Select the LCS repository and open it.</span></span>  
-    * <span data-ttu-id="7a2a4-170">Not: Seçili yapılandırma, LCS projesinin seçili bir varlığı olarak gösterilir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-170">Note that the selected configuration is shown as an asset of the selected LCS project.</span></span>  
-    * <span data-ttu-id="7a2a4-171">https://lcs.dynamics.com kullanarak LCS'yi açın.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-171">Open LCS using https://lcs.dynamics.com.</span></span> <span data-ttu-id="7a2a4-172">Daha önce havuz kaydı için kullanılan bir proje açın, bu projenin 'Varlık kütüphanesini' açın ve 'Kural Yöneticisi yapılandırma' kıymet türünün içeriğini genişletin – karşıya yüklenen ER yapılandırma kullanılabilir olacaktır.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-172">Open a project that was used earlier for repository registration, open the 'Asset library' of this project, and expand the content of the 'GER configuration' asset type – the uploaded ER configuration will be available.</span></span> <span data-ttu-id="7a2a4-173">Not: Bu LCS projesine erişim sağlayıcısının erişimi varsa, karşıya yüklenen LCS yapılandırması başka bir örneğe aktarılabilir.</span><span class="sxs-lookup"><span data-stu-id="7a2a4-173">Note that the uploaded LCS configuration can be imported to another instance if providers have access to this LCS project.</span></span>  
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="dbc30-114">Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için kullanılacak [Varlık kitaplığı'nı](../../lifecycle-services/asset-library.md#asset-library-support) içeren LCS projesine üye olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="dbc30-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+>
+> <span data-ttu-id="dbc30-115">Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="dbc30-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="dbc30-116">Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır.</span><span class="sxs-lookup"><span data-stu-id="dbc30-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="dbc30-117">ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="dbc30-118">Yeni bir veri modeli yapılandırması oluşturun</span><span class="sxs-lookup"><span data-stu-id="dbc30-118">Create a new data model configuration</span></span>
+
+1. <span data-ttu-id="dbc30-119">**Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="dbc30-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="dbc30-120">Açılır iletişim kutusunu açmak için **Yapılandırmalar** sayfasında **Yapılandırma oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="dbc30-121">Bu örnekte elektronik belgeler için örnek bir veri modeli içeren bir yapılandırma oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="dbc30-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="dbc30-122">Bu veri modeli yapılandırması daha sonra LCS'ye yüklenecektir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-122">This data model configuration will be uploaded into LCS later.</span></span>
+
+3. <span data-ttu-id="dbc30-123">**Ad** alanına **Örnek model yapılandırması** değerini girin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="dbc30-124">**Açıklama** alanına **Örnek model yapılandırması** değerini girin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="dbc30-125">**Yapılandırma oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="dbc30-126">**Model Tasarımcısı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="dbc30-127">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-127">Select **New**.</span></span>
+8. <span data-ttu-id="dbc30-128">**Ad** alanına **Giriş noktası** değerini girin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="dbc30-129">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-129">Select **Add**.</span></span>
+10. <span data-ttu-id="dbc30-130">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-130">Select **Save**.</span></span>
+11. <span data-ttu-id="dbc30-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-131">Close the page.</span></span>
+12. <span data-ttu-id="dbc30-132">**Durumu değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="dbc30-133">**Tamamlandı**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="dbc30-134">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-134">Select **OK**.</span></span>
+15. <span data-ttu-id="dbc30-135">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-135">Close the page.</span></span>
+
+## <a name="register-a-new-repository"></a><span data-ttu-id="dbc30-136">Yeni bir depo kaydetme</span><span class="sxs-lookup"><span data-stu-id="dbc30-136">Register a new repository</span></span>
+
+1. <span data-ttu-id="dbc30-137">**Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="dbc30-138">**Yapılandırma sağlayıcıları** bölümünde, **Liteware, Inc.** kutucuğunu seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="dbc30-139">**Liteware, Inc.** kutucuğunda, **Depolar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="dbc30-140">Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dbc30-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="dbc30-141">Açılır iletişim kutusunu açmak için **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-141">Select **Add** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="dbc30-142">Şimdi yeni bir depo ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dbc30-142">You can now add a new repository.</span></span>
+
+5. <span data-ttu-id="dbc30-143">**Yapılandırma deposu giriş** alanında **LCS**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="dbc30-144">**Depo oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="dbc30-145">**Proje** alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-145">In the **Project** field, enter or select a value.</span></span>
+
+    <span data-ttu-id="dbc30-146">Bu örnekte, istenilen LCS projesini seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="dbc30-147">Projeye [erişiminiz](#accessconditions) olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="dbc30-147">You must have [access](#accessconditions) to the project.</span></span>
+
+8. <span data-ttu-id="dbc30-148">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-148">Select **OK**.</span></span>
+
+    <span data-ttu-id="dbc30-149">Yeni bir havuz girişini tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-149">Complete a new repository entry.</span></span>
+
+9. <span data-ttu-id="dbc30-150">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-150">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="dbc30-151">Bu örnekte, **LCS** depo kaydını seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-151">For this example, select the **LCS** repository record.</span></span>
+
+    <span data-ttu-id="dbc30-152">Kayıtlı bir deponun geçerli sağlayıcı tarafından işaretlendiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="dbc30-153">Başka bir deyişle, yalnızca bu sağlayıcıya ait olan yapılandırmalar bu depoda yer alabilir ve bu nedenle seçili LCS projesine yüklenebilir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+
+10. <span data-ttu-id="dbc30-154">**Aç**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-154">Select **Open**.</span></span>
+
+    <span data-ttu-id="dbc30-155">ER yapılandırmalarının listesini görüntülemek için havuzu açarsınız.</span><span class="sxs-lookup"><span data-stu-id="dbc30-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="dbc30-156">Seçili proje ER yapılandırmaları paylaşımı için henüz kullanılmamışsa, liste boş olur.</span><span class="sxs-lookup"><span data-stu-id="dbc30-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+
+11. <span data-ttu-id="dbc30-157">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-157">Close the page.</span></span>
+12. <span data-ttu-id="dbc30-158">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-158">Close the page.</span></span>
+
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="dbc30-159">Bir yapılandırmayı LCS'ye yükleme</span><span class="sxs-lookup"><span data-stu-id="dbc30-159">Upload a configuration into LCS</span></span>
+
+1. <span data-ttu-id="dbc30-160">**Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="dbc30-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="dbc30-161">**Yapılandırmalar** sayfasında, yapılandırmalar ağacında, **Örnek model yapılandırması** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="dbc30-162">Tamamlanmış olan oluşturulmuş bir yapılandırmayı seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-162">You must select a created configuration that has been already completed.</span></span>
+
+3. <span data-ttu-id="dbc30-163">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-163">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="dbc30-164">Bu örnek için seçili yapılandırmanın **Tamamlandı** durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+
+4. <span data-ttu-id="dbc30-165">**Durumu değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="dbc30-166">**Paylaş**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-166">Select **Share**.</span></span>
+
+    <span data-ttu-id="dbc30-167">Yapılandırma LCS 'de yayımlandığında yapılandırmanın durumu, **Tamamlandı**'dan **Paylaşıldı**'ya geçer.</span><span class="sxs-lookup"><span data-stu-id="dbc30-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+
+6. <span data-ttu-id="dbc30-168">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-168">Select **OK**.</span></span>
+7. <span data-ttu-id="dbc30-169">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-169">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="dbc30-170">Bu örnek için yapılandırmanın **Paylaşıldı** durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="dbc30-171">Seçili sürümün durumunun **Tamamlandı**'dan **Paylaşıldı**'ya geçtiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+
+8. <span data-ttu-id="dbc30-172">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-172">Close the page.</span></span>
+9. <span data-ttu-id="dbc30-173">**Depolar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-173">Select **Repositories**.</span></span>
+
+    <span data-ttu-id="dbc30-174">Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dbc30-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+10. <span data-ttu-id="dbc30-175">**Aç**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-175">Select **Open**.</span></span>
+
+    <span data-ttu-id="dbc30-176">Bu örnekte, **LCS** deposunu seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-176">For this example, select the **LCS** repository, and open it.</span></span>
+
+    <span data-ttu-id="dbc30-177">Seçili yapılandırmanın seçili LCS projesinin bir varlığı olarak gösterildiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+
+11. <span data-ttu-id="dbc30-178"><https://lcs.dynamics.com> adresine giderek LCS'yi açın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="dbc30-179">Depo kaydı için daha önce kullanılan bir projeyi açın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="dbc30-180">Projenin Varlık kitaplığı'nı açın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="dbc30-181">**GER yapılandırması** varlık türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc30-181">Select the **GER configuration** asset type.</span></span>
+
+    <span data-ttu-id="dbc30-182">Karşıya yüklediğiniz ER yapılandırması listelenmelidir.</span><span class="sxs-lookup"><span data-stu-id="dbc30-182">The ER configuration that you uploaded should be listed.</span></span>
+
+    <span data-ttu-id="dbc30-183">Bu LCS projesine sağlayıcıların erişimi varsa, karşıya yüklenen LCS yapılandırmasının başka bir örneğe aktarılabildiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dbc30-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>

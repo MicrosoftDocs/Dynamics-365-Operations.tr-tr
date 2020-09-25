@@ -18,69 +18,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e550b0c7634c7aac3f8c597a1c1eac3f8125e3b
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 65b988e6c58aed35577288e01157b8c1f76e6efd
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070725"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744875"
 ---
-# <span data-ttu-id="54651-103"><a name="DATETIMEFORMAT">DATETIMEFORMAT ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="54651-103"><a name="DATETIMEFORMAT">DATETIMEFORMAT ER function</a></span></span>
+# <a name="datetimeformat-er-function"></a><span data-ttu-id="4e6d6-103">DATETIMEFORMAT ER işlevi</span><span class="sxs-lookup"><span data-stu-id="4e6d6-103">DATETIMEFORMAT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="54651-104">`DATETIMEFORMAT` işlev, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen [kültür](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) içinde metin olarak gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="54651-104">The `DATETIMEFORMAT` function returns a *String* value that presents a given date/time value as text in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="54651-105">Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="54651-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="4e6d6-104">`DATETIMEFORMAT` işlev, belirli bir tarih/saat değerini belirtilen biçimde ve isteğe bağlı olarak belirtilen [kültür](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) içinde metin olarak gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-104">The `DATETIMEFORMAT` function returns a *String* value that presents a given date/time value as text in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).</span></span> <span data-ttu-id="4e6d6-105">Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="4e6d6-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="54651-106">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="54651-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="4e6d6-106">Sözdizimi 1</span><span class="sxs-lookup"><span data-stu-id="4e6d6-106">Syntax 1</span></span>
 
 ```vb
 DATETIMEFORMAT (datetime, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="54651-107">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="54651-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="4e6d6-107">Sözdizimi 2</span><span class="sxs-lookup"><span data-stu-id="4e6d6-107">Syntax 2</span></span>
 
 ```vb
 DATETIMEFORMAT (datetime, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="54651-108">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="54651-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4e6d6-108">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="4e6d6-108">Arguments</span></span>
 
-<span data-ttu-id="54651-109">`datetime`: *TarihSaat*</span><span class="sxs-lookup"><span data-stu-id="54651-109">`datetime`: *DateTime*</span></span>
+<span data-ttu-id="4e6d6-109">`datetime`: *TarihSaat*</span><span class="sxs-lookup"><span data-stu-id="4e6d6-109">`datetime`: *DateTime*</span></span>
 
-<span data-ttu-id="54651-110">Biçimlendirilecek tarihi ve saati gösteren tarih/saat değeri.</span><span class="sxs-lookup"><span data-stu-id="54651-110">A date/time value that represents the date and time to format.</span></span>
+<span data-ttu-id="4e6d6-110">Biçimlendirilecek tarihi ve saati gösteren tarih/saat değeri.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-110">A date/time value that represents the date and time to format.</span></span>
 
-<span data-ttu-id="54651-111">`format`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="54651-111">`format`: *String*</span></span>
+<span data-ttu-id="4e6d6-111">`format`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="4e6d6-111">`format`: *String*</span></span>
 
-<span data-ttu-id="54651-112">Çıkış dizesinin biçimi.</span><span class="sxs-lookup"><span data-stu-id="54651-112">The format of the output string.</span></span>
+<span data-ttu-id="4e6d6-112">Çıkış dizesinin biçimi.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-112">The format of the output string.</span></span>
 
-<span data-ttu-id="54651-113">`culture`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="54651-113">`culture`: *String*</span></span>
+<span data-ttu-id="4e6d6-113">`culture`: *Dize*</span><span class="sxs-lookup"><span data-stu-id="4e6d6-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="54651-114">Biçimlendirme için kullanılacak kültür.</span><span class="sxs-lookup"><span data-stu-id="54651-114">The culture to use for formatting.</span></span>
+<span data-ttu-id="4e6d6-114">Biçimlendirme için kullanılacak kültür.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-114">The culture to use for formatting.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="54651-115">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="54651-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4e6d6-115">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="4e6d6-115">Return values</span></span>
 
-<span data-ttu-id="54651-116">*Dize*</span><span class="sxs-lookup"><span data-stu-id="54651-116">*String*</span></span>
+<span data-ttu-id="4e6d6-116">*Dize*</span><span class="sxs-lookup"><span data-stu-id="4e6d6-116">*String*</span></span>
 
-<span data-ttu-id="54651-117">Sonuç dize değeri.</span><span class="sxs-lookup"><span data-stu-id="54651-117">The resulting string value.</span></span>
+<span data-ttu-id="4e6d6-117">Sonuç dize değeri.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-117">The resulting string value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="54651-118">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="54651-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="4e6d6-118">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="4e6d6-118">Usage notes</span></span>
 
-<span data-ttu-id="54651-119">Kültür çağrılan işlevin bağımsız değişkeni olarak tanımlandığında, `culture` değeri çağıran bağlam tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="54651-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="54651-120">Örneğin, `DATETIMEFORMAT` işlev, Almanca kültür kullanacak şekilde konfigüre edilen bir **DOSYA** öğesi için elektronik raporlama (er) biçiminde bir sözdizimi 1 kullanılarak çağrılırsa, dönüştürme işlemi Almanca kültür kullanılarak yapılır.</span><span class="sxs-lookup"><span data-stu-id="54651-120">For example, if the `DATETIMEFORMAT` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="54651-121">Varsayılan `culture` değeri **EN-US**'dir.</span><span class="sxs-lookup"><span data-stu-id="54651-121">The default `culture` value is **EN-US**.</span></span>
+<span data-ttu-id="4e6d6-119">Kültür çağrılan işlevin bağımsız değişkeni olarak tanımlandığında, `culture` değeri çağıran bağlam tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="4e6d6-120">Örneğin, `DATETIMEFORMAT` işlev, Almanca kültür kullanacak şekilde konfigüre edilen bir **DOSYA** öğesi için elektronik raporlama (er) biçiminde bir sözdizimi 1 kullanılarak çağrılırsa, dönüştürme işlemi Almanca kültür kullanılarak yapılır.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-120">For example, if the `DATETIMEFORMAT` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="4e6d6-121">Varsayılan `culture` değeri **EN-US**'dir.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-121">The default `culture` value is **EN-US**.</span></span>
 
-<span data-ttu-id="54651-122">`DATETIMEFORMAT` işlev verilen bir tarih/saat değerini dönüştürdüğünde, işlevin bağlamında çağrıldığı ER biçimini çalıştıran uygulama kullanıcısının saat dilimi ayarını dikkate alır.</span><span class="sxs-lookup"><span data-stu-id="54651-122">When the `DATETIMEFORMAT` function converts a given date/time value, it considers the time zone setting of the application user who is running the ER format that the function is called in the context of.</span></span>
+<span data-ttu-id="4e6d6-122">`DATETIMEFORMAT` işlev verilen bir tarih/saat değerini dönüştürdüğünde, işlevin bağlamında çağrıldığı ER biçimini çalıştıran uygulama kullanıcısının saat dilimi ayarını dikkate alır.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-122">When the `DATETIMEFORMAT` function converts a given date/time value, it considers the time zone setting of the application user who is running the ER format that the function is called in the context of.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="54651-123">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="54651-123">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="4e6d6-123">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="4e6d6-123">Example 1</span></span>
 
-<span data-ttu-id="54651-124">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` Aralık 24, 2015 olan uygulama sunucusu tarih/saat değerini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="54651-124">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` returns the current application server date/time value, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span>
+<span data-ttu-id="4e6d6-124">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` Aralık 24, 2015 olan uygulama sunucusu tarih/saat değerini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-124">`DATETIMEFORMAT (NOW(), "dd-MM-yyyy")` returns the current application server date/time value, December 24, 2015, as **"24-12-2015"**, based on the specified custom format.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="54651-125">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="54651-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="4e6d6-125">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="4e6d6-125">Example 2</span></span>
 
-<span data-ttu-id="54651-126">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")`, seçilen Almanca kültür ve belirtilen biçime dayalı olarak, **"24-12-2015"** dizesi olarak geçerli uygulama oturum tarih/saat değerini (24 Aralık 2015) döndürür.</span><span class="sxs-lookup"><span data-stu-id="54651-126">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` returns the current application session date/time value, December 24, 2015, as **"24.12.2015"**, based on the selected German culture and the specified format.</span></span>
+<span data-ttu-id="4e6d6-126">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")`, seçilen Almanca kültür ve belirtilen biçime dayalı olarak, **"24-12-2015"** dizesi olarak geçerli uygulama oturum tarih/saat değerini (24 Aralık 2015) döndürür.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-126">`DATETIMEFORMAT (SESSIONNOW(), "d", "DE")` returns the current application session date/time value, December 24, 2015, as **"24.12.2015"**, based on the selected German culture and the specified format.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="54651-127">Örnek 3</span><span class="sxs-lookup"><span data-stu-id="54651-127">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="4e6d6-127">Örnek 3</span><span class="sxs-lookup"><span data-stu-id="4e6d6-127">Example 3</span></span>
 
-<span data-ttu-id="54651-128">`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")`, Saat dilimi değerine sahip bir uygulama kullanıcısı tarafından başlatılan bir işlem sırasında çağrıldığında **2019-11-12T08:00:00.0000000-08:00** dize değerini döndürür, **dil ve ülke/bölge tercihleri** bölümünde **Eşgüdümlü Evrensel Saat (GMT-08:00) Pasifik Saat (ABD ve Kanada)**.</span><span class="sxs-lookup"><span data-stu-id="54651-128">`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")` returns the string value **2019-11-12T08:00:00.0000000-08:00** when it's called during a process that was initiated by an application user who has the time zone value **(GMT-08:00) Pacific Time (US & Canada)** in the **Language and country/region preferences** section.</span></span>
+<span data-ttu-id="4e6d6-128">`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")`, Saat dilimi değerine sahip bir uygulama kullanıcısı tarafından başlatılan bir işlem sırasında çağrıldığında **2019-11-12T08:00:00.0000000-08:00** dize değerini döndürür, **dil ve ülke/bölge tercihleri** bölümünde **Eşgüdümlü Evrensel Saat (GMT-08:00) Pasifik Saat (ABD ve Kanada)**.</span><span class="sxs-lookup"><span data-stu-id="4e6d6-128">`DATETIMEFORMAT (DATETIMEVALUE( "2019-11-12T09:00:00.0000000-07:00", "O"), "O")` returns the string value **2019-11-12T08:00:00.0000000-08:00** when it's called during a process that was initiated by an application user who has the time zone value **(GMT-08:00) Pacific Time (US & Canada)** in the **Language and country/region preferences** section.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="54651-129">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="54651-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4e6d6-129">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="4e6d6-129">Additional resources</span></span>
 
-[<span data-ttu-id="54651-130">Tarih ve saat işlevleri</span><span class="sxs-lookup"><span data-stu-id="54651-130">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="4e6d6-130">Tarih ve saat işlevleri</span><span class="sxs-lookup"><span data-stu-id="4e6d6-130">Date and time functions</span></span>](er-functions-category-datetime.md)

@@ -1,14 +1,14 @@
 ---
-title: ER Lifecycle Services'tan bir yapılandırmayı içe aktarma
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) sürümü oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'den içe aktarabilir.
+title: Lifecycle Services'tan bir yapılandırmayı içe aktarma
+description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırmasına ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'den içe aktarması açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142398"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810655"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="6f012-103">ER Lifecycle Services'tan bir yapılandırmayı içe aktarma</span><span class="sxs-lookup"><span data-stu-id="6f012-103">ER Import a configuration from Lifecycle Services</span></span>
+# <a name="import-a-configuration-from-lifecycle-services"></a><span data-ttu-id="7b4fc-103">Lifecycle Services'tan bir yapılandırmayı içe aktarma</span><span class="sxs-lookup"><span data-stu-id="7b4fc-103">Import a configuration from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6f012-104">Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcı, yeni bir Elektronik Raporlama (ER) sürümü oluşturabilir. ve bunu Microsoft Lifecycle Services (LCS)'den içe aktarabilir.</span><span class="sxs-lookup"><span data-stu-id="6f012-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can import a new version of an Electronic reporting (ER) configuration from Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="7b4fc-104">Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının [Elektronik Raporlama (ER) yapılandırmasına](../general-electronic-reporting.md#Configuration) ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'de [proje düzeyi Varlık kitaplığı'ndan](../../lifecycle-services/asset-library.md) içe aktarması açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-104">This topic explains how a user in the System administrator or Electronic reporting developer role can import a new version of an [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) from the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="6f012-105">Bu örnekte Litware, Inc. örnek şirketi için bir istenilen ER yapılandırmasını seçecek ve bunu LCS'ye içe aktaracaksınız. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşımlı olduğundan herhangi bir şirkette gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6f012-105">In this example, you will select the desired version of the ER configuration and import it for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="6f012-106">Bu adımları tamamlamak için, öncelikle "Bir ER yapılandırmasını Lifecycle Services'a içeri almak" yordamındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6f012-106">To complete these steps, you must first complete the steps in the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="6f012-107">Bu adımları tamamlamak için LCS erişimi de gereklidir.</span><span class="sxs-lookup"><span data-stu-id="6f012-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="7b4fc-105">Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litware, Inc. adlı örnek şirket için içe aktaracaksınız. Bu adımlar, ER yapılandırmaları şirketler arasında paylaşıldığından herhangi bir şirkette tamamlanabilir.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-105">In this example, you will select the desired version of the ER configuration and import it for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="7b4fc-106">Bu adımları tamamlamak için, öncelikle [Bir yapılandırmayı Lifecycle Services'e içeri almak](er-upload-configuration-into-lifecycle-services.md) bölümündeki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-106">To complete these steps, you must first complete the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="7b4fc-107">LCS'ye erişim de gereklidir.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="6f012-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="6f012-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="6f012-109">Yapılandırmalar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-109">Click Configurations.</span></span>
+1. <span data-ttu-id="7b4fc-108">Aşağıdaki rollerden birini kullanarak uygulamada oturum açın:</span><span class="sxs-lookup"><span data-stu-id="7b4fc-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a><span data-ttu-id="6f012-110">Veri modeli yapılandırmasının paylaşılan bir sürümünü silin</span><span class="sxs-lookup"><span data-stu-id="6f012-110">Delete a shared version of data model configuration</span></span>
-1. <span data-ttu-id="6f012-111">Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6f012-111">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="6f012-112">Örnek veri modeli yapılandırmasının ilk sürümü oluşturuldu ve LCS'ye "ER yapılandırmasını Lifecycle Services'a karşıya yüklemek" yordamında yayımlandı.</span><span class="sxs-lookup"><span data-stu-id="6f012-112">The first version of a sample data model configuration has been created and published to LCS during the "Upload an ER configuration into Lifecycle Services" procedure.</span></span> <span data-ttu-id="6f012-113">Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz.</span><span class="sxs-lookup"><span data-stu-id="6f012-113">In this procedure, you will delete this version of the ER configuration.</span></span> <span data-ttu-id="6f012-114">Bir örnek veri modeli yapılandırmasının bu modeli daha sonra LCS'den içe aktarılacaktır.</span><span class="sxs-lookup"><span data-stu-id="6f012-114">This version of a sample data model configuration will be imported later from LCS.</span></span>  
-2. <span data-ttu-id="6f012-115">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-115">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="6f012-116">Bu yapılandırmanın 'Paylaşımlı' durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-116">Select the version of this configuration that is in the 'Shared' status.</span></span> <span data-ttu-id="6f012-117">Bu durum, yapılandırmanın LCS için yayımlandığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="6f012-117">This status indicates that the configuration has been published to LCS.</span></span>  
-3. <span data-ttu-id="6f012-118">Durumu değiştir öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-118">Click Change status.</span></span>
-4. <span data-ttu-id="6f012-119">Devam ettirme'ye tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-119">Click Discontinue.</span></span>
-    * <span data-ttu-id="6f012-120">Seçili sürümün durumunu, silinebilir duruma gelmesi için 'Paylaşılan'dan 'Devam ettirilmeyen' olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="6f012-120">Change the status of the selected version from 'Shared' to 'Discontinued' to make it available for deletion.</span></span>  
-5. <span data-ttu-id="6f012-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-121">Click OK.</span></span>
-6. <span data-ttu-id="6f012-122">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-122">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="6f012-123">Bu yapılandırmanın 'Devam ettirilmeyen' durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-123">Select the version of this configuration that has a status of 'Discontinued'.</span></span>  
-7. <span data-ttu-id="6f012-124">Sil'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-124">Click Delete.</span></span>
-8. <span data-ttu-id="6f012-125">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-125">Click Yes.</span></span>
-    * <span data-ttu-id="6f012-126">Yalnızca seçili veri modeli yapılandırması için taslak sürümü 2'nin kullanılabilir olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-126">Note that the only draft version 2 of the selected data model configuration is available.</span></span>  
-9. <span data-ttu-id="6f012-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-127">Close the page.</span></span>
+    - <span data-ttu-id="7b4fc-109">Elektronik raporlama geliştirici</span><span class="sxs-lookup"><span data-stu-id="7b4fc-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="7b4fc-110">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="7b4fc-110">System administrator</span></span>
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a><span data-ttu-id="6f012-128">Veri modeli yapılandırmasının paylaşılan bir sürümünü LCS'den içeri alın</span><span class="sxs-lookup"><span data-stu-id="6f012-128">Import a shared version of data model configuration from LCS</span></span>
-1. <span data-ttu-id="6f012-129">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6f012-129">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="6f012-130">'Litware, Inc.' yapılandırma sağlayıcısı için havuzların listesini açın.</span><span class="sxs-lookup"><span data-stu-id="6f012-130">Open the list of repositories for the 'Litware, Inc.'</span></span> <span data-ttu-id="6f012-131">yapılandırma sağlayıcısı.</span><span class="sxs-lookup"><span data-stu-id="6f012-131">configuration provider.</span></span>  
-2. <span data-ttu-id="6f012-132">Depolar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-132">Click Repositories.</span></span>
-3. <span data-ttu-id="6f012-133">Aç'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-133">Click Open.</span></span>
-    * <span data-ttu-id="6f012-134">LCS deposunu seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="6f012-134">Select the LCS repository and open it.</span></span>  
-4. <span data-ttu-id="6f012-135">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6f012-135">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="6f012-136">'Örnek yapılandırma modeli'nin ilk sürümü sürümlerin listesinde seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-136">Select the first version of the 'Sample model configuration' in the versions list.</span></span>  
-5. <span data-ttu-id="6f012-137">İçe aktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-137">Click Import.</span></span>
-6. <span data-ttu-id="6f012-138">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-138">Click Yes.</span></span>
-    * <span data-ttu-id="6f012-139">Seçili sürümün LCS'den aktarıldığını onaylayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-139">Confirm the import of the selected version from LCS .</span></span>  
-    * <span data-ttu-id="6f012-140">Bilgi iletisinin (formun üstünde bulunan) seçili sürümün alma işleminin başarılı tamamlama onayladığını dikkate alın.</span><span class="sxs-lookup"><span data-stu-id="6f012-140">Note that the information message (above the form) confirms the successful completion of the import of the selected version.</span></span>  
-7. <span data-ttu-id="6f012-141">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-141">Close the page.</span></span>
-8. <span data-ttu-id="6f012-142">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6f012-142">Close the page.</span></span>
-9. <span data-ttu-id="6f012-143">Yapılandırmalar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-143">Click Configurations.</span></span>
-10. <span data-ttu-id="6f012-144">Ağaçta seçin 'Örnek model yapılandırması' seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6f012-144">In the tree, select 'Sample model configuration'.</span></span>
-11. <span data-ttu-id="6f012-145">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="6f012-146">Bu yapılandırmanın 'Paylaşılan' durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="6f012-146">Select the version of this configuration that has a status of 'Shared'.</span></span>  
-    * <span data-ttu-id="6f012-147">Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="6f012-147">Note that the shared version 1 of the selected data model configuration is available now as well.</span></span>  
+2. <span data-ttu-id="7b4fc-111">**Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="7b4fc-112">**Yapılandırmalar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-112">Select **Configurations**.</span></span>
 
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="7b4fc-113">Geçerli Dynamics 365 Finance kullanıcısının, ER konfigürasyonlarını içe aktarmak için [erişmek](../../lifecycle-services/asset-library.md#asset-library-support) istediği Varlık kitaplığı'nı içeren LCS projesine üye olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-113">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the Asset library that the user wants to [access](../../lifecycle-services/asset-library.md#asset-library-support) to import ER configurations.</span></span>
+>
+> <span data-ttu-id="7b4fc-114">Bir LCS projesine Finance içinde kullanılan etki alanından farklı bir etki alanını temsil eden bir ER havuzundan erişemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-114">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="7b4fc-115">Denediğinizde, boş bir LCS proje listesi görüntülenir ve bu yapılandırmaları LCS'de proje düzeyi Varlık kitaplığı'ndan içe aktarmanız mümkün olmayacaktır.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-115">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="7b4fc-116">ER yapılandırmalarını içe aktarmak için kullanılan bir ER havuzundan proje düzeyi Varlık kitaplıkları'na erişmek için, geçerli Finance örneğinin sağlandığı kiracıya (etki alanı) ait bir kullanıcının kimlik bilgilerini kullanarak Finance uygulamasında oturum açın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-116">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a><span data-ttu-id="7b4fc-117">Veri modeli yapılandırmasının paylaşılan bir sürümünü silme</span><span class="sxs-lookup"><span data-stu-id="7b4fc-117">Delete a shared version of a data model configuration</span></span>
+
+1. <span data-ttu-id="7b4fc-118">**Yapılandırmalar** sayfasında, yapılandırmalar ağacında, **Örnek model yapılandırması** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-118">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="7b4fc-119">Örnek veri modeli yapılandırmasının ilk sürümünü oluşturdunuz ve [Bir yapılandırmayı Lifecycle Services'e yüklemek](er-upload-configuration-into-lifecycle-services.md) yordamındaki adımlar tamamlandığında yayımladınız.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-119">You created the first version of a sample data model configuration and published it to LCS when you completed the steps in [Upload a configuration into Lifecycle Services](er-upload-configuration-into-lifecycle-services.md).</span></span> <span data-ttu-id="7b4fc-120">Bu yordamda, ER yapılandırmasının bu sürümünü sileceksiniz.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-120">In this procedure, you will delete that version of the ER configuration.</span></span> <span data-ttu-id="7b4fc-121">Bu konuda daha sonra LCS'den bu sürümü içe aktaracaksınız.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-121">You will then import that version from LCS later in this topic.</span></span>
+
+2. <span data-ttu-id="7b4fc-122">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-122">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="7b4fc-123">BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-123">For this example, select the version of the configuration that has a status of **Shared**.</span></span> <span data-ttu-id="7b4fc-124">Bu durum, yapılandırmanın LCS için yayımlandığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-124">This status indicates that the configuration has been published to LCS.</span></span>
+
+3. <span data-ttu-id="7b4fc-125">**Durumu değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-125">Select **Change status**.</span></span>
+4. <span data-ttu-id="7b4fc-126">**Durdur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-126">Select **Discontinue**.</span></span>
+
+    <span data-ttu-id="7b4fc-127">Seçili sürümün durumunu **Paylaşılan**'dan **Durduruldu** olarak değiştirerek, silinebilir duruma getirin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-127">By changing the status of the selected version from **Shared** to **Discontinued**, you make the version available for deletion.</span></span>
+
+5. <span data-ttu-id="7b4fc-128">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-128">Select **OK**.</span></span>
+6. <span data-ttu-id="7b4fc-129">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-129">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="7b4fc-130">Bu örnek için yapılandırmanın **Durduruldu** durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-130">For this example, select the version of the configuration that has a status of **Discontinued**.</span></span>
+
+7. <span data-ttu-id="7b4fc-131">**Sil**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-131">Select **Delete**.</span></span>
+8. <span data-ttu-id="7b4fc-132">**Evet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-132">Select **Yes**.</span></span>
+
+    <span data-ttu-id="7b4fc-133">Yalnızca seçili veri modeli yapılandırması için taslak sürümü 2'nin artık kullanılabilir olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-133">Notice that the only draft version 2 of the selected data model configuration is now available.</span></span>
+
+9. <span data-ttu-id="7b4fc-134">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-134">Close the page.</span></span>
+
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a><span data-ttu-id="7b4fc-135">Veri modeli yapılandırmasının paylaşılan bir sürümünü LCS'den içeri alma</span><span class="sxs-lookup"><span data-stu-id="7b4fc-135">Import a shared version of a data model configuration from LCS</span></span>
+
+1. <span data-ttu-id="7b4fc-136">**Organizasyon yönetimi \> Çalışma alanları \> Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-136">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="7b4fc-137">**Yapılandırma sağlayıcıları** bölümünde, **Liteware, Inc.** kutucuğunu seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-137">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="7b4fc-138">**Liteware, Inc.** kutucuğunda, **Depolar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-138">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="7b4fc-139">Artık Litware, Inc. yapılandırma sağlayıcısı için depoların listesini açabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-139">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="7b4fc-140">**Aç**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-140">Select **Open**.</span></span>
+
+    <span data-ttu-id="7b4fc-141">Bu örnekte, **LCS** deposunu seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-141">For this example, select the **LCS** repository, and open it.</span></span> <span data-ttu-id="7b4fc-142">LCS projesine ve seçili ER deposu tarafından erişilen Varlık kitaplığı'na [erişiminizin](#accessconditions) olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-142">You must have [access](#accessconditions) to the LCS project and to the Asset library that is accessed by the selected ER repository.</span></span>
+
+5. <span data-ttu-id="7b4fc-143">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-143">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="7b4fc-144">Bu örnek için sürüm listesinden **Örnek model yapılandırması**'nın ilk sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-144">For this example, select the first version of **Sample model configuration** in the version list.</span></span>
+
+6. <span data-ttu-id="7b4fc-145">**İçe aktar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-145">Select **Import**.</span></span>
+7. <span data-ttu-id="7b4fc-146">Seçili sürümün LCS'den içe aktarıldığını onaylamak için **Evet** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-146">Select **Yes** to confirm the import of the selected version from LCS.</span></span>
+
+    <span data-ttu-id="7b4fc-147">Bilgi iletisi, seçili sürümün başarıyla içe aktarıldığını onaylar.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-147">An informational message confirms that the selected version was successfully imported.</span></span>
+
+8. <span data-ttu-id="7b4fc-148">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-148">Close the page.</span></span>
+9. <span data-ttu-id="7b4fc-149">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-149">Close the page.</span></span>
+10. <span data-ttu-id="7b4fc-150">**Yapılandırmalar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-150">Select **Configurations**.</span></span>
+11. <span data-ttu-id="7b4fc-151">Ağaçtan **Örnek model yapılandırması** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-151">In the tree, select **Sample model configuration**.</span></span>
+12. <span data-ttu-id="7b4fc-152">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-152">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="7b4fc-153">BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-153">For this example, select the version of the configuration that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="7b4fc-154">Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="7b4fc-154">Notice that shared version 1 of the selected data model configuration is also available now.</span></span>
