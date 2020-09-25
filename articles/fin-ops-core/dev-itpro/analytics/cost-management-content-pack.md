@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771529"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759268"
 ---
 # <a name="cost-management-power-bi-content"></a>Maliyet yönetimi Power BI içeriği
 
@@ -37,7 +37,7 @@ ms.locfileid: "2771529"
 > [!NOTE]
 > Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği, Dynamics 365 Finance and Operations 8.0 için geçerlidir.
 > 
-> AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Kullanımdan kaldırılma hakkında daha fazla bilgi için bkz. [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Amortisman hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamasında kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Bu Power BI içeriği stokların performansını izlemenize ve maliyetin bunlar üzerinde nasıl akış sağladığını görselleştirmenize yardımcı olan kategorilere ayrılmış bir biçim sağlar. Ciro oranı, stoğun elde olduğu gün sayısı, doğruluk, tercih ettiğiniz toplama düzeyinde "ABC sınıflandırması" (şirket, madde, madde grubu veya tesis) gibi yönetimsel öngörüler de elde edebilirsiniz. Kullanıma sunulan bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 
@@ -193,10 +193,10 @@ Aşağıdaki tabloda Power BI içeriğinde hesaplanan temel ölçümler gösteri
 | Bitiş bakiyesi miktarı                | Bitiş bakiyesi miktarı = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Net değişiklik                         | Net değişiklik = SUM(\[AMOUNT\]) |
 | Net değişiklik miktarı                    | Net değişiklik miktarı = SUM(\[QTY\]) |
-| Tutara göre stok ciro oranı | Tutara göre stok ciro oranı = if(OR(\[Stok ortalama bakiyesi\] \<= 0, \[Stok satılan veya tüketilen çıkışlar\] \>= 0), 0, ABS(\[Stok satılan veya tüketilen çıkışlar\])/\[Stok ortalama bakiyesi\]) |
+| Tutara göre stok ciro oranı | Tutara göre stok ciro oranı = if(OR(\[Stok ortalama bakiyesi\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Stok satılan veya tüketilen çıkışlar\])/\[Stok ortalama bakiyesi\]) |
 | Stok ortalama bakiye          | Stok ortalama bakiyesi = ((\[Bitiş bakiyesi\] + \[Başlangıç bakiyesi\]) / 2) |
 | Eldeki stok günleri             | Eldeki stok günleri = 365 / CostObjectStatementEntries\[Tutara göre stok ciro oranı\] |
-| Stok doğruluğu                 | Tutara göre stok doğruluğu = IF(\[Bitiş bakiyesi\] \<= 0, IF(OR(\[Stok sayılan tutarı\] \<\> 0, \[Bitiş bakiyesi\] \< 0), 0, 1), MAX(0, (\[Bitiş bakiyesi\] - ABS(\[Stok sayılan tutarı\]))/\[Bitiş bakiyesi\])) |
+| Stok doğruluğu                 | Tutara göre stok doğruluğu = IF (\[Bitiş bakiyesi\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Bitiş bakiyesi\] \< 0), 0, 1), MAX(0, (\[Bitiş bakiyesi\] - ABS(\[Stok sayılan tutar\]))/\[Bitiş bakiyesi\])) |
 
 Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 

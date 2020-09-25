@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699669"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802761"
 ---
 # <a name="hazardous-materials-overview"></a>Tehlikeli malzemelere genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Sevkiyat ve taşıma yönetmeliklerine uyumluluğu korumak için tehlikeli mal olarak sınıflandırılmış malzemeler sevk eden kuruluşların, sevkiyatlarına ek belgeler eklemeleri gerekir. Tehlikeli malzemeler özelliği, müşterilerin serbest bırakılmış maddelerle ilgili bilgileri depolamasına olanak tanır. Bu bilgiler daha sonra sevkiyat belgelerinin hazırlanmasına yardımcı olarak kullanılabilir. Tehlikeli mal sevk eden bir kuruluşun, sevkiyat sürecini yönetmeye yönelik kendi süreçleri ve yordamları olmalıdır. Microsoft Dynamics 365 Supply Chain Management, yalnızca gerekli belgelerin oluşturulmasına yardımcı olabilecek bir araçtır.
 

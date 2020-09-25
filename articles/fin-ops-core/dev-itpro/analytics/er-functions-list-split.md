@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52a89f744cd37c543294522cc706ae7f47660e75
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: c171509353fed92b14ca0d7473742e4a9a54bad1
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070633"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745285"
 ---
-# <a name="SPLIT">SPLIT ER işlevi</a>
+# <a name="split-er-function"></a>SPLIT ER işlevi
 
 [!include [banner](../includes/banner.md)]
 

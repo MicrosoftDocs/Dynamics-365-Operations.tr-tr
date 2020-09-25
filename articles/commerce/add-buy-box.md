@@ -3,7 +3,7 @@ title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686682"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761309"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
@@ -59,10 +59,13 @@ Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldır
 
 - **Başlık etiketi** – bu özellik, ürün başlığının başlık etiketini tanımlar. Satın al kutusu sayfanın en üstünde ise, erişilebilirlik standartlarını karşılamak için bu özelliğin **H1** olarak ayarlanması gerekir. 
 
+- **"Benzer görünümleri araştır" önerilerini etkinleştir**: Bu özellik, satın alma kutusunun şu anda görüntülenmekte olan öğeye benzeyen ürünlerin bağlantılarını göstermesini sağlar. Bu özellik Commerce 10.0.13 sürümü ve sonrasında bulunur.
+
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Satınalma kutusu modülünde kullanılabilen modüller
 
 - **Ortam Galerisi** – bu modül, ürün ayrıntıları sayfasındaki bir ürünün görüntülerini sergilemesinde kullanılır. Bu modülle ilgili daha fazla bilgi için bkz. [Ortam galerisi modülü](media-gallery-module.md).
 - **Mağaza seçici** - Bu modül bir maddenin almak için kullanılabilir olduğu yakındaki mağazaların listesini gösterir. Kullanıcıların yakındaki mağazaları bulabilmesi için bir konum girmesini sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Mağaza seçici modülü](store-selector.md).
+- **Sosyal içerik paylaşım**: Bu modül, sosyal medya platformlarında ürün bilgilerini kullanıcıların paylaşmasına olanak sağlamak için satın alma kutusuna eklenebilir. Daha fazla bilgi için bkz. [Sosyal içerik paylaşım modülü](social-share-module.md).
 
 ## <a name="buy-box-module-settings"></a>Satın alma kutusu modülü ayarları
 
@@ -85,8 +88,8 @@ Satın alma kutusu modülü, ürün bilgilerini Commerce Scale Unit uygulama pro
 Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, **Satın alma kutusu** modülünü seçin.
-1. **Sayfa parçası adı** altında, **Satın alma kutusu** için bir ad girin ve **Tamam**'ı seçin.
+1. **Yeni parça** iletişim kutusunda, **Satın alma kutusu** modülünü seçin.
+1. **Parça adı** altında, **Satın alma kutusu parçası** için bir ad girin ve **Tamam**'ı seçin.
 1. **Ortam Galerisi** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **Ortam galerisi** modülünü seçin ve **Tamam**'ı seçin.
 1. **Mağaza seçici** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
@@ -96,13 +99,13 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **PDP şablonu**'nu girin ve **Tamam**'ı seçin.
 1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
-1. Varsayılan sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Sayfa parçası ekle**'yi seçin.
-1. **Sayfa parçası seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** parçasını ve sonra **Tamam**'ı seçin.
+1. Varsayılan sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
+1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
 1. **Şablon seç** iletişim kutusunda **PDP şablon** şablonunu seçin. Bir **sayfa adı** ve sayfa **PDP sayfası** girin ve **Tamam**'ı seçin.
-1. Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Sayfa parçası ekle**'yi seçin.
-1. **Sayfa parçası seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** parçasını ve sonra **Tamam**'ı seçin.
+1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
+1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam**'ı seçin.
 1. Sayfayı kaydet ve önizleyin. **?productid=&lt;Product ID&gt;** sorgu dizesi parametresini önizleme sayfasının URL 'sine ekleyin. Bu şekilde, ürün bağlamı Önizleme sayfasını yüklemek ve oluşturmak için kullanılır.
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. Ürün Ayrıntıları sayfasında bir satınalma kutusu görünmelidir.
 
@@ -118,14 +121,14 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 [Sepet modülü](add-cart-module.md)
 
-[Sepet simgesi modülü](cart-icon-module.md)
-
-[Ödeme modülü](add-checkout-module.md)
+[Ödeme yapma modülü](add-checkout-module.md)
 
 [Sipariş onayı modülü](order-confirmation-module.md)
 
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+[Sosyal içerik paylaşım modülü](social-share-module.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
