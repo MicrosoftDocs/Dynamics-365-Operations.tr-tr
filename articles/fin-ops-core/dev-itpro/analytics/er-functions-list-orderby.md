@@ -18,53 +18,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a6b5cddc325625dc5b3d677ffcc1da1f8b829cd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 6ff280d66fd2c418984f2d7fd31a32609932e89c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041964"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745021"
 ---
-# <span data-ttu-id="80268-103"><a name="ORDERBY">ORDERBY ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="80268-103"><a name="ORDERBY">ORDERBY ER function</a></span></span>
+# <a name="orderby-er-function"></a><span data-ttu-id="c7842-103">ORDERBY ER işlevi</span><span class="sxs-lookup"><span data-stu-id="c7842-103">ORDERBY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="80268-104">`ORDERBY` işlev belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi *kayıt listesi* değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="80268-104">The `ORDERBY` function returns the specified list as a *Record list* value after it has been sorted according to the specified arguments.</span></span> <span data-ttu-id="80268-105">Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="80268-105">These arguments can be defined as expressions.</span></span>
+<span data-ttu-id="c7842-104">`ORDERBY` işlev belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi *kayıt listesi* değeri olarak döndürür.</span><span class="sxs-lookup"><span data-stu-id="c7842-104">The `ORDERBY` function returns the specified list as a *Record list* value after it has been sorted according to the specified arguments.</span></span> <span data-ttu-id="c7842-105">Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c7842-105">These arguments can be defined as expressions.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="80268-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="80268-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c7842-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="c7842-106">Syntax</span></span>
 
 ```vb
 ORDERBY (list , expression 1[, expression 2, …, expression N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="80268-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="80268-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="c7842-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="c7842-107">Arguments</span></span>
 
-<span data-ttu-id="80268-108">`list`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="80268-108">`list`: *Record list*</span></span>
+<span data-ttu-id="c7842-108">`list`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="c7842-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="80268-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="80268-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="c7842-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="c7842-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="80268-110">`expression 1`: *Alan*</span><span class="sxs-lookup"><span data-stu-id="80268-110">`expression 1`: *Field*</span></span>
+<span data-ttu-id="c7842-110">`expression 1`: *Alan*</span><span class="sxs-lookup"><span data-stu-id="c7842-110">`expression 1`: *Field*</span></span>
 
-<span data-ttu-id="80268-111">Çağrılan işlevin `list` bağımsız değişkeni tarafından başvurulan bir veri kaynağı alanının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="80268-111">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="80268-112">Referans gösterilen alan, ilkel veri türünde bir alan olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="80268-112">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="80268-113">Bu bağımsız değişken gereklidir.</span><span class="sxs-lookup"><span data-stu-id="80268-113">This argument is required.</span></span>
+<span data-ttu-id="c7842-111">Çağrılan işlevin `list` bağımsız değişkeni tarafından başvurulan bir veri kaynağı alanının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="c7842-111">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="c7842-112">Referans gösterilen alan, ilkel veri türünde bir alan olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c7842-112">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="c7842-113">Bu bağımsız değişken gereklidir.</span><span class="sxs-lookup"><span data-stu-id="c7842-113">This argument is required.</span></span>
 
-<span data-ttu-id="80268-114">`expression N`: *Alan*</span><span class="sxs-lookup"><span data-stu-id="80268-114">`expression N`: *Field*</span></span>
+<span data-ttu-id="c7842-114">`expression N`: *Alan*</span><span class="sxs-lookup"><span data-stu-id="c7842-114">`expression N`: *Field*</span></span>
 
-<span data-ttu-id="80268-115">Çağrılan işlevin `list` bağımsız değişkeni tarafından başvurulan bir veri kaynağı alanının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="80268-115">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="80268-116">Referans gösterilen alan, ilkel veri türünde bir alan olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="80268-116">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="80268-117">Bu ek bağımsız değişkenler isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="80268-117">These additional arguments are optional.</span></span>
+<span data-ttu-id="c7842-115">Çağrılan işlevin `list` bağımsız değişkeni tarafından başvurulan bir veri kaynağı alanının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="c7842-115">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="c7842-116">Referans gösterilen alan, ilkel veri türünde bir alan olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c7842-116">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="c7842-117">Bu ek bağımsız değişkenler isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c7842-117">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="80268-118">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="80268-118">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c7842-118">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="c7842-118">Return values</span></span>
 
-<span data-ttu-id="80268-119">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="80268-119">*Record list*</span></span>
+<span data-ttu-id="c7842-119">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="c7842-119">*Record list*</span></span>
 
-<span data-ttu-id="80268-120">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="80268-120">The resulting list of records.</span></span>
+<span data-ttu-id="c7842-120">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="c7842-120">The resulting list of records.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="80268-121">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="80268-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="c7842-121">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="c7842-121">Example 1</span></span>
 
-<span data-ttu-id="80268-122">*Hesaplanmış alan* türüne ait veri kaynağı **DS**'si girerseniz ve `SPLIT ("C|B|A", "|")` deyim içeriyorsa, `FIRST( ORDERBY( DS, DS. Value)).Value` ifadesi **A** metin değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="80268-122">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( ORDERBY( DS, DS. Value)).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="c7842-122">*Hesaplanmış alan* türüne ait veri kaynağı **DS**'si girerseniz ve `SPLIT ("C|B|A", "|")` deyim içeriyorsa, `FIRST( ORDERBY( DS, DS. Value)).Value` ifadesi **A** metin değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="c7842-122">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( ORDERBY( DS, DS. Value)).Value` returns the text value **"A"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="80268-123">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="80268-123">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="c7842-123">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="c7842-123">Example 2</span></span>
 
-<span data-ttu-id="80268-124">**Satıcı**, VendTable tablosuna başvuran elektronik raporlama (ER) kaynağı olarak yapılandırılırsa, `ORDERBY (Vendors, Vendors.'name()')` ifadesi, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</span><span class="sxs-lookup"><span data-stu-id="80268-124">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `ORDERBY (Vendors, Vendors.'name()')` returns a list of vendors that is sorted by name in ascending order.</span></span>
+<span data-ttu-id="c7842-124">**Satıcı**, VendTable tablosuna başvuran elektronik raporlama (ER) kaynağı olarak yapılandırılırsa, `ORDERBY (Vendors, Vendors.'name()')` ifadesi, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</span><span class="sxs-lookup"><span data-stu-id="c7842-124">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `ORDERBY (Vendors, Vendors.'name()')` returns a list of vendors that is sorted by name in ascending order.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="80268-125">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="80268-125">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="c7842-125">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="c7842-125">Additional resources</span></span>
 
-[<span data-ttu-id="80268-126">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="80268-126">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="c7842-126">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="c7842-126">List functions</span></span>](er-functions-category-list.md)

@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee51b6da008d1c0fcfb303e9659f507629237333
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a31288885abda69873ae23b28a36e2a54852f593
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042033"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745165"
 ---
-# <span data-ttu-id="e839f-103"><a name="LIST">LIST ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="e839f-103"><a name="LIST">LIST ER function</a></span></span>
+# <a name="list-er-function"></a><span data-ttu-id="5b8c4-103">LIST ER işlevi</span><span class="sxs-lookup"><span data-stu-id="5b8c4-103">LIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e839f-104">`LIST` işlevi, belirtilen bağımsız değişkenlerden oluşturulmuş yeni listeden oluşan yeni bir *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="e839f-104">The `LIST` function returns a *Record list* value that consists of a new list of records that is created from the specified arguments.</span></span>
+<span data-ttu-id="5b8c4-104">`LIST` işlevi, belirtilen bağımsız değişkenlerden oluşturulmuş yeni listeden oluşan yeni bir *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-104">The `LIST` function returns a *Record list* value that consists of a new list of records that is created from the specified arguments.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e839f-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="e839f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5b8c4-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="5b8c4-105">Syntax</span></span>
 
 ```vb
 LIST (record 1 [, record 2, …, record N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e839f-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="e839f-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5b8c4-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="5b8c4-106">Arguments</span></span>
 
-<span data-ttu-id="e839f-107">`record 1`: *Konteyner (kayıt)*</span><span class="sxs-lookup"><span data-stu-id="e839f-107">`record 1`: *Container (record)*</span></span>
+<span data-ttu-id="5b8c4-107">`record 1`: *Konteyner (kayıt)*</span><span class="sxs-lookup"><span data-stu-id="5b8c4-107">`record 1`: *Container (record)*</span></span>
 
-<span data-ttu-id="e839f-108">*Kayıt* veri türünün veri kaynağına yönelik referans.</span><span class="sxs-lookup"><span data-stu-id="e839f-108">A reference to a data source of the *Record* data type.</span></span> <span data-ttu-id="e839f-109">Bu bağımsız değişken gereklidir.</span><span class="sxs-lookup"><span data-stu-id="e839f-109">This argument is required.</span></span>
+<span data-ttu-id="5b8c4-108">*Kayıt* veri türünün veri kaynağına yönelik referans.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-108">A reference to a data source of the *Record* data type.</span></span> <span data-ttu-id="5b8c4-109">Bu bağımsız değişken gereklidir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-109">This argument is required.</span></span>
 
-<span data-ttu-id="e839f-110">`record N`: *Konteyner (kayıt)*</span><span class="sxs-lookup"><span data-stu-id="e839f-110">`record N`: *Container (record)*</span></span>
+<span data-ttu-id="5b8c4-110">`record N`: *Konteyner (kayıt)*</span><span class="sxs-lookup"><span data-stu-id="5b8c4-110">`record N`: *Container (record)*</span></span>
 
-<span data-ttu-id="e839f-111">*Kayıt* veri türünün veri kaynağına yönelik referans.</span><span class="sxs-lookup"><span data-stu-id="e839f-111">A reference to a data source of the *Record* data type.</span></span> <span data-ttu-id="e839f-112">Bu ek bağımsız değişkenler isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="e839f-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="5b8c4-111">*Kayıt* veri türünün veri kaynağına yönelik referans.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-111">A reference to a data source of the *Record* data type.</span></span> <span data-ttu-id="5b8c4-112">Bu ek bağımsız değişkenler isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e839f-113">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="e839f-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5b8c4-113">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="5b8c4-113">Return values</span></span>
 
-<span data-ttu-id="e839f-114">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="e839f-114">*Record list*</span></span>
+<span data-ttu-id="5b8c4-114">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="5b8c4-114">*Record list*</span></span>
 
-<span data-ttu-id="e839f-115">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="e839f-115">The resulting list of records.</span></span>
+<span data-ttu-id="5b8c4-115">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-115">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="e839f-116">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="e839f-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="5b8c4-116">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="5b8c4-116">Usage notes</span></span>
 
-<span data-ttu-id="e839f-117">Oluşturulan listenin yapısı, yalnızca bağımsız değişkenlerde belirtilen her kaydın yapısında sunulan alanları içerir.</span><span class="sxs-lookup"><span data-stu-id="e839f-117">The structure of the list that is created contains only the fields that are presented in the structure of every record that is mentioned in the arguments.</span></span>
+<span data-ttu-id="5b8c4-117">Oluşturulan listenin yapısı, yalnızca bağımsız değişkenlerde belirtilen her kaydın yapısında sunulan alanları içerir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-117">The structure of the list that is created contains only the fields that are presented in the structure of every record that is mentioned in the arguments.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e839f-118">Örnek</span><span class="sxs-lookup"><span data-stu-id="e839f-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5b8c4-118">Örnek</span><span class="sxs-lookup"><span data-stu-id="5b8c4-118">Example</span></span>
 
-<span data-ttu-id="e839f-119">**Konteyner** türünün veri kaynağı *kayıt 1*'i girersiniz.</span><span class="sxs-lookup"><span data-stu-id="e839f-119">You enter data source **Record 1** of the *Container* type.</span></span> <span data-ttu-id="e839f-120">Bu veri kaynağı, *hesaplanan alan* türünün Aşağıdaki iç içe alanlarını içerir:</span><span class="sxs-lookup"><span data-stu-id="e839f-120">This data source contains the following nested fields of the *Calculated field* type:</span></span>
+<span data-ttu-id="5b8c4-119">**Konteyner** türünün veri kaynağı *kayıt 1*'i girersiniz.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-119">You enter data source **Record 1** of the *Container* type.</span></span> <span data-ttu-id="5b8c4-120">Bu veri kaynağı, *hesaplanan alan* türünün Aşağıdaki iç içe alanlarını içerir:</span><span class="sxs-lookup"><span data-stu-id="5b8c4-120">This data source contains the following nested fields of the *Calculated field* type:</span></span>
 
-- <span data-ttu-id="e839f-121">**Kod:** Bu alan, *dize* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="e839f-121">**Code:** This field contains an expression that returns a value of the *String* type.</span></span>
-- <span data-ttu-id="e839f-122">**Tutar:** Bu alan, *Gerçek* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="e839f-122">**Amount:** This field contains an expression that returns a value of the *Real* type.</span></span>
+- <span data-ttu-id="5b8c4-121">**Kod:** Bu alan, *dize* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-121">**Code:** This field contains an expression that returns a value of the *String* type.</span></span>
+- <span data-ttu-id="5b8c4-122">**Tutar:** Bu alan, *Gerçek* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-122">**Amount:** This field contains an expression that returns a value of the *Real* type.</span></span>
 
-<span data-ttu-id="e839f-123">**Konteyner** türünün veri kaynağı *kayıt 2*'i girersiniz.</span><span class="sxs-lookup"><span data-stu-id="e839f-123">You then enter data source **Record 2** of the *Container* type.</span></span> <span data-ttu-id="e839f-124">Bu veri kaynağı, *hesaplanan alan* türünün Aşağıdaki iç içe alanlarını içerir:</span><span class="sxs-lookup"><span data-stu-id="e839f-124">This data source contains the following nested fields of the *Calculated field* type:</span></span>
+<span data-ttu-id="5b8c4-123">**Konteyner** türünün veri kaynağı *kayıt 2*'i girersiniz.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-123">You then enter data source **Record 2** of the *Container* type.</span></span> <span data-ttu-id="5b8c4-124">Bu veri kaynağı, *hesaplanan alan* türünün Aşağıdaki iç içe alanlarını içerir:</span><span class="sxs-lookup"><span data-stu-id="5b8c4-124">This data source contains the following nested fields of the *Calculated field* type:</span></span>
 
-- <span data-ttu-id="e839f-125">**Tutar:** Bu alan, *Gerçek* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="e839f-125">**Amount:** This field contains an expression that returns a value of the *Real* type.</span></span>
-- <span data-ttu-id="e839f-126">**IsValid:** Bu alan, *Boole* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="e839f-126">**IsValid:** This field contains an expression that returns a value of the *Boolean* type.</span></span>
+- <span data-ttu-id="5b8c4-125">**Tutar:** Bu alan, *Gerçek* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-125">**Amount:** This field contains an expression that returns a value of the *Real* type.</span></span>
+- <span data-ttu-id="5b8c4-126">**IsValid:** Bu alan, *Boole* türünde bir değer döndüren bir ifade içerir.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-126">**IsValid:** This field contains an expression that returns a value of the *Boolean* type.</span></span>
 
-<span data-ttu-id="e839f-127">Bu durumda, `LIST('Record 1', 'Record 2')` ifade iki kayıt içeren yeni bir liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="e839f-127">In this case, the expression `LIST('Record 1', 'Record 2')` returns a new list that contains two records.</span></span> <span data-ttu-id="e839f-128">Bu listenin yapısı, bu alan, çağrılan işlevin her bir bağımsız değişkeninde sunulan tek alan olduğundan, *gerçek* türün tek bir **tutar** alanından oluşur.</span><span class="sxs-lookup"><span data-stu-id="e839f-128">The structure of this list consists of a single **Amount** field of the *Real* type, because this field is the only field that is presented in every argument of the called function.</span></span>
+<span data-ttu-id="5b8c4-127">Bu durumda, `LIST('Record 1', 'Record 2')` ifade iki kayıt içeren yeni bir liste döndürür.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-127">In this case, the expression `LIST('Record 1', 'Record 2')` returns a new list that contains two records.</span></span> <span data-ttu-id="5b8c4-128">Bu listenin yapısı, bu alan, çağrılan işlevin her bir bağımsız değişkeninde sunulan tek alan olduğundan, *gerçek* türün tek bir **tutar** alanından oluşur.</span><span class="sxs-lookup"><span data-stu-id="5b8c4-128">The structure of this list consists of a single **Amount** field of the *Real* type, because this field is the only field that is presented in every argument of the called function.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e839f-129">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="e839f-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5b8c4-129">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="5b8c4-129">Additional resources</span></span>
 
-[<span data-ttu-id="e839f-130">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="e839f-130">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="5b8c4-130">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="5b8c4-130">List functions</span></span>](er-functions-category-list.md)

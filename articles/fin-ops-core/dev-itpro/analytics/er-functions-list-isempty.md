@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6adca3c95c10e7d4b3287561925a9d9fe8a74121
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 5b6fde7cbadec7aae052742ef598e1af4dbae793
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042056"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745141"
 ---
-# <span data-ttu-id="8d6b3-103"><a name="ISEMPTY">ISEMPTY ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="8d6b3-103"><a name="ISEMPTY">ISEMPTY ER function</a></span></span>
+# <a name="isempty-er-function"></a><span data-ttu-id="d3545-103">ISEMPTY ER işlevi</span><span class="sxs-lookup"><span data-stu-id="d3545-103">ISEMPTY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8d6b3-104">Belirtilen listede kayıt yoksa `ISEMPTY` işlevi bir **DOĞRU** *Boolean* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-104">The `ISEMPTY` function returns a *Boolean* value of **TRUE** if the specified list contains no records.</span></span> <span data-ttu-id="8d6b3-105">Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="d3545-104">Belirtilen listede kayıt yoksa `ISEMPTY` işlevi bir **DOĞRU** *Boolean* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="d3545-104">The `ISEMPTY` function returns a *Boolean* value of **TRUE** if the specified list contains no records.</span></span> <span data-ttu-id="d3545-105">Aksi takdirde, **YANLIŞ** *Boole* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="d3545-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8d6b3-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="8d6b3-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d3545-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="d3545-106">Syntax</span></span>
 
 ```vb
 ISEMPTY (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8d6b3-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="8d6b3-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d3545-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="d3545-107">Arguments</span></span>
 
-<span data-ttu-id="8d6b3-108">`list`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="8d6b3-108">`list`: *Record list*</span></span>
+<span data-ttu-id="d3545-108">`list`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="d3545-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="8d6b3-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="d3545-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="d3545-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8d6b3-110">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="8d6b3-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d3545-110">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="d3545-110">Return values</span></span>
 
-<span data-ttu-id="8d6b3-111">*Boole*</span><span class="sxs-lookup"><span data-stu-id="8d6b3-111">*Boolean*</span></span>
+<span data-ttu-id="d3545-111">*Boole*</span><span class="sxs-lookup"><span data-stu-id="d3545-111">*Boolean*</span></span>
 
-<span data-ttu-id="8d6b3-112">Sonuç *Boole* değeri.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-112">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="d3545-112">Sonuç *Boole* değeri.</span><span class="sxs-lookup"><span data-stu-id="d3545-112">The resulting *Boolean* value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="8d6b3-113">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="8d6b3-113">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="d3545-113">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="d3545-113">Example 1</span></span>
 
-<span data-ttu-id="8d6b3-114">*Hesaplanmış alan* türüne ait veri kaynağı **DS**'si girerseniz ve `SPLIT ("A|B|C", "|")` deyim içeriyorsa, `ISEMPTY(DS)` ifadesi **yanlış** döndürür.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-114">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `ISEMPTY(DS)` returns **FALSE**.</span></span>
+<span data-ttu-id="d3545-114">*Hesaplanmış alan* türüne ait veri kaynağı **DS**'si girerseniz ve `SPLIT ("A|B|C", "|")` deyim içeriyorsa, `ISEMPTY(DS)` ifadesi **yanlış** döndürür.</span><span class="sxs-lookup"><span data-stu-id="d3545-114">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `ISEMPTY(DS)` returns **FALSE**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="8d6b3-115">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="8d6b3-115">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="d3545-115">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="d3545-115">Example 2</span></span>
 
-<span data-ttu-id="8d6b3-116">`ISEMPTY (SPLIT ("",1))` ifadesi **DOĞRU** değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="8d6b3-116">The expression `ISEMPTY (SPLIT ("",1))` returns **TRUE**.</span></span>
+<span data-ttu-id="d3545-116">`ISEMPTY (SPLIT ("",1))` ifadesi **DOĞRU** değerini döndürür.</span><span class="sxs-lookup"><span data-stu-id="d3545-116">The expression `ISEMPTY (SPLIT ("",1))` returns **TRUE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8d6b3-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="8d6b3-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d3545-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="d3545-117">Additional resources</span></span>
 
-[<span data-ttu-id="8d6b3-118">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="8d6b3-118">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="d3545-118">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="d3545-118">List functions</span></span>](er-functions-category-list.md)

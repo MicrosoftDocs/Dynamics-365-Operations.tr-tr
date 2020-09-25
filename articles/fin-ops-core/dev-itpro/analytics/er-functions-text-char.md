@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7813b0c6002e47aef6a8c119c72728a49584401b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 63df7b1ac847e12cf429467dd444450552a59162
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041251"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744973"
 ---
-# <span data-ttu-id="2316c-103"><a name="CHAR">CHAR ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="2316c-103"><a name="CHAR">CHAR ER function</a></span></span>
+# <a name="char-er-function"></a><span data-ttu-id="ad098-103">CHAR ER işlevi</span><span class="sxs-lookup"><span data-stu-id="ad098-103">CHAR ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2316c-104">Bu `CHAR` işlev, belirtilen Unicode sayısı tarafından başvurulan tek bir karakteri gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="2316c-104">The `CHAR` function returns a *String* value that presents a single character that is referenced by the specified Unicode number.</span></span>
+<span data-ttu-id="ad098-104">Bu `CHAR` işlev, belirtilen Unicode sayısı tarafından başvurulan tek bir karakteri gösteren bir *dize* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="ad098-104">The `CHAR` function returns a *String* value that presents a single character that is referenced by the specified Unicode number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2316c-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="2316c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ad098-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="ad098-105">Syntax</span></span>
 
 ```vb
 CHAR (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="2316c-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="2316c-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="ad098-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="ad098-106">Arguments</span></span>
 
-<span data-ttu-id="2316c-107">`number`: *Tamsayı*</span><span class="sxs-lookup"><span data-stu-id="2316c-107">`number`: *Integer*</span></span>
+<span data-ttu-id="ad098-107">`number`: *Tamsayı*</span><span class="sxs-lookup"><span data-stu-id="ad098-107">`number`: *Integer*</span></span>
 
-<span data-ttu-id="2316c-108">Beklenen tek bir karaktere karşılık gelen sayı.</span><span class="sxs-lookup"><span data-stu-id="2316c-108">A number that corresponds to an expected single character.</span></span>
+<span data-ttu-id="ad098-108">Beklenen tek bir karaktere karşılık gelen sayı.</span><span class="sxs-lookup"><span data-stu-id="ad098-108">A number that corresponds to an expected single character.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="2316c-109">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="2316c-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ad098-109">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="ad098-109">Return values</span></span>
 
-<span data-ttu-id="2316c-110">*Dize*</span><span class="sxs-lookup"><span data-stu-id="2316c-110">*String*</span></span>
+<span data-ttu-id="ad098-110">*Dize*</span><span class="sxs-lookup"><span data-stu-id="ad098-110">*String*</span></span>
 
-<span data-ttu-id="2316c-111">Sonuç metin değeri.</span><span class="sxs-lookup"><span data-stu-id="2316c-111">The resulting text value.</span></span>
+<span data-ttu-id="ad098-111">Sonuç metin değeri.</span><span class="sxs-lookup"><span data-stu-id="ad098-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="2316c-112">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="2316c-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="ad098-112">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="ad098-112">Usage notes</span></span>
 
-<span data-ttu-id="2316c-113">Bu işlevin döndürdüğü dize **DOSYA** biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="2316c-113">The string that this function returns depends on the encoding that is selected in the parent **FILE** format element.</span></span> <span data-ttu-id="2316c-114">Desteklenen kodlamalar listesi için bkz. [Kodlama sınıfı](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="2316c-114">For a list of the supported encodings, see [Encoding class](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span></span>
+<span data-ttu-id="ad098-113">Bu işlevin döndürdüğü dize **DOSYA** biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="ad098-113">The string that this function returns depends on the encoding that is selected in the parent **FILE** format element.</span></span> <span data-ttu-id="ad098-114">Desteklenen kodlamalar listesi için bkz. [Kodlama sınıfı](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="ad098-114">For a list of the supported encodings, see [Encoding class](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span></span>
 
-## <a name="example"></a><span data-ttu-id="2316c-115">Örnek</span><span class="sxs-lookup"><span data-stu-id="2316c-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ad098-115">Örnek</span><span class="sxs-lookup"><span data-stu-id="ad098-115">Example</span></span>
 
-<span data-ttu-id="2316c-116">`CHAR (255)`, **"ÿ"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="2316c-116">`CHAR (255)` returns **"ÿ"**.</span></span>
+<span data-ttu-id="ad098-116">`CHAR (255)`, **"ÿ"** döndürür.</span><span class="sxs-lookup"><span data-stu-id="ad098-116">`CHAR (255)` returns **"ÿ"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2316c-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="2316c-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="ad098-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="ad098-117">Additional resources</span></span>
 
-[<span data-ttu-id="2316c-118">Metin işlevleri</span><span class="sxs-lookup"><span data-stu-id="2316c-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="ad098-118">Metin işlevleri</span><span class="sxs-lookup"><span data-stu-id="ad098-118">Text functions</span></span>](er-functions-category-text.md)

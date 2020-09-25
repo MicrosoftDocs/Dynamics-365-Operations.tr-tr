@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c57222d7fcc133faa679bab43431272c984c9d8b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 080b2f9b1ada55209c9470386aceab2d3ef456af
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041642"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744587"
 ---
-# <span data-ttu-id="c95b7-103"><a name="POWER">POWER ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="c95b7-103"><a name="POWER">POWER ER function</a></span></span>
+# <a name="power-er-function"></a><span data-ttu-id="f3f17-103">POWER ER işlevi</span><span class="sxs-lookup"><span data-stu-id="f3f17-103">POWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c95b7-104">`POWER` işlev, belirtilen pozitif sayıyı belirtilen güce yükseltme sonucunu gösteren *gerçek* bir değer döndürür.</span><span class="sxs-lookup"><span data-stu-id="c95b7-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
+<span data-ttu-id="f3f17-104">`POWER` işlev, belirtilen pozitif sayıyı belirtilen güce yükseltme sonucunu gösteren *gerçek* bir değer döndürür.</span><span class="sxs-lookup"><span data-stu-id="f3f17-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c95b7-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="c95b7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f3f17-105">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="f3f17-105">Syntax</span></span>
 
 ```vb
 POWER (number, power)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="c95b7-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="c95b7-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="f3f17-106">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="f3f17-106">Arguments</span></span>
 
-<span data-ttu-id="c95b7-107">`number`: *Gerçek* veya *tamsayı*</span><span class="sxs-lookup"><span data-stu-id="c95b7-107">`number`: *Real* or *Integer*</span></span>
+<span data-ttu-id="f3f17-107">`number`: *Gerçek* veya *tamsayı*</span><span class="sxs-lookup"><span data-stu-id="f3f17-107">`number`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="c95b7-108">Belirtilen üsse yükseltilmiş sayısal değer.</span><span class="sxs-lookup"><span data-stu-id="c95b7-108">A numeric value that must be raised to the specified power.</span></span>
+<span data-ttu-id="f3f17-108">Belirtilen üsse yükseltilmiş sayısal değer.</span><span class="sxs-lookup"><span data-stu-id="f3f17-108">A numeric value that must be raised to the specified power.</span></span>
 
-<span data-ttu-id="c95b7-109">`power`: *Gerçek* veya *tamsayı*</span><span class="sxs-lookup"><span data-stu-id="c95b7-109">`power`: *Real* or *Integer*</span></span>
+<span data-ttu-id="f3f17-109">`power`: *Gerçek* veya *tamsayı*</span><span class="sxs-lookup"><span data-stu-id="f3f17-109">`power`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="c95b7-110">Belirli bir gücü temsil eden sayısal değer.</span><span class="sxs-lookup"><span data-stu-id="c95b7-110">A numeric value that represents the specific power.</span></span>
+<span data-ttu-id="f3f17-110">Belirli bir gücü temsil eden sayısal değer.</span><span class="sxs-lookup"><span data-stu-id="f3f17-110">A numeric value that represents the specific power.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c95b7-111">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="c95b7-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f3f17-111">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="f3f17-111">Return values</span></span>
 
-<span data-ttu-id="c95b7-112">*Gerçek*</span><span class="sxs-lookup"><span data-stu-id="c95b7-112">*Real*</span></span>
+<span data-ttu-id="f3f17-112">*Gerçek*</span><span class="sxs-lookup"><span data-stu-id="f3f17-112">*Real*</span></span>
 
-<span data-ttu-id="c95b7-113">Sonuç sayısal değeri.</span><span class="sxs-lookup"><span data-stu-id="c95b7-113">The resulting numeric value.</span></span>
+<span data-ttu-id="f3f17-113">Sonuç sayısal değeri.</span><span class="sxs-lookup"><span data-stu-id="f3f17-113">The resulting numeric value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="c95b7-114">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="c95b7-114">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="f3f17-114">Örnek 1</span><span class="sxs-lookup"><span data-stu-id="f3f17-114">Example 1</span></span>
 
-<span data-ttu-id="c95b7-115">`POWER (10, 2)`, **100** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c95b7-115">`POWER (10, 2)` returns **100**.</span></span>
+<span data-ttu-id="f3f17-115">`POWER (10, 2)`, **100** döndürür.</span><span class="sxs-lookup"><span data-stu-id="f3f17-115">`POWER (10, 2)` returns **100**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="c95b7-116">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="c95b7-116">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="f3f17-116">Örnek 2</span><span class="sxs-lookup"><span data-stu-id="f3f17-116">Example 2</span></span>
 
-<span data-ttu-id="c95b7-117">`POWER (4, 0.5)`, **2** döndürür.</span><span class="sxs-lookup"><span data-stu-id="c95b7-117">`POWER (4, 0.5)` returns **2**.</span></span>
+<span data-ttu-id="f3f17-117">`POWER (4, 0.5)`, **2** döndürür.</span><span class="sxs-lookup"><span data-stu-id="f3f17-117">`POWER (4, 0.5)` returns **2**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="c95b7-118">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="c95b7-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f3f17-118">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="f3f17-118">Additional resources</span></span>
 
-[<span data-ttu-id="c95b7-119">Matematik işlevi</span><span class="sxs-lookup"><span data-stu-id="c95b7-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="f3f17-119">Matematik işlevi</span><span class="sxs-lookup"><span data-stu-id="f3f17-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)

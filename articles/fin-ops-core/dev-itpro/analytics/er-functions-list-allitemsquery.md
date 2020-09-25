@@ -18,58 +18,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99f2aa9863e36a2f2eb1db5d0569d2a82402969a
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 37546fccf804a4522638147d39206997e8c0c24c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070656"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745381"
 ---
-# <span data-ttu-id="f0b30-103"><a name="ALLITEMSQUERY">ALLITEMSQUERY ER işlevi</a></span><span class="sxs-lookup"><span data-stu-id="f0b30-103"><a name="ALLITEMSQUERY">ALLITEMSQUERY ER function</a></span></span>
+# <a name="allitemsquery-er-function"></a><span data-ttu-id="92a0e-103">ALLITEMSQUERY ER işlevi</span><span class="sxs-lookup"><span data-stu-id="92a0e-103">ALLITEMSQUERY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f0b30-104">Bu `ALLITEMSQUERY` işlev birleşik bir SQL sorgusu olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="f0b30-104">The `ALLITEMSQUERY` function runs as a joined SQL query.</span></span> <span data-ttu-id="f0b30-105">Belirtilen yolla eşleşen tüm öğeleri temsil eden bir kayıt listesinden oluşan, yeni bir düzleştirilmiş *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="f0b30-105">It returns a new flattened *Record list* value that consists of a list of records that represent all items that match the specified path.</span></span>
+<span data-ttu-id="92a0e-104">Bu `ALLITEMSQUERY` işlev birleşik bir SQL sorgusu olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="92a0e-104">The `ALLITEMSQUERY` function runs as a joined SQL query.</span></span> <span data-ttu-id="92a0e-105">Belirtilen yolla eşleşen tüm öğeleri temsil eden bir kayıt listesinden oluşan, yeni bir düzleştirilmiş *kayıt listesi* değeri döndürür.</span><span class="sxs-lookup"><span data-stu-id="92a0e-105">It returns a new flattened *Record list* value that consists of a list of records that represent all items that match the specified path.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0b30-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="f0b30-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="92a0e-106">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="92a0e-106">Syntax</span></span>
 
 ```vb
 ALLITEMSQUERY (path)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="f0b30-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="f0b30-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="92a0e-107">Bağımsız değişkenler</span><span class="sxs-lookup"><span data-stu-id="92a0e-107">Arguments</span></span>
 
-<span data-ttu-id="f0b30-108">`path`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="f0b30-108">`path`: *Record list*</span></span>
+<span data-ttu-id="92a0e-108">`path`: *Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="92a0e-108">`path`: *Record list*</span></span>
 
-<span data-ttu-id="f0b30-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="f0b30-109">The valid path of a data source of the *Record list* data type.</span></span> <span data-ttu-id="f0b30-110">En az bir ilişki içermesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0b30-110">It must contain at least one relation.</span></span>
+<span data-ttu-id="92a0e-109">*Kayıt listesi* veri türünde bir veri kaynağının geçerli yolu.</span><span class="sxs-lookup"><span data-stu-id="92a0e-109">The valid path of a data source of the *Record list* data type.</span></span> <span data-ttu-id="92a0e-110">En az bir ilişki içermesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="92a0e-110">It must contain at least one relation.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f0b30-111">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="f0b30-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="92a0e-111">Dönüş değerleri</span><span class="sxs-lookup"><span data-stu-id="92a0e-111">Return values</span></span>
 
-<span data-ttu-id="f0b30-112">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="f0b30-112">*Record list*</span></span>
+<span data-ttu-id="92a0e-112">*Kayıt listesi*</span><span class="sxs-lookup"><span data-stu-id="92a0e-112">*Record list*</span></span>
 
-<span data-ttu-id="f0b30-113">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="f0b30-113">The resulting list of records.</span></span>
+<span data-ttu-id="92a0e-113">Oluşturulan kayıt listesi.</span><span class="sxs-lookup"><span data-stu-id="92a0e-113">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="f0b30-114">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="f0b30-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="92a0e-114">Kullanım notları</span><span class="sxs-lookup"><span data-stu-id="92a0e-114">Usage notes</span></span>
 
-<span data-ttu-id="f0b30-115">Yol, *kayıt listesi* veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="f0b30-115">The specified path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="f0b30-116">En az bir ilişki içermesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0b30-116">It must also contain at least one relation.</span></span> <span data-ttu-id="f0b30-117">*Dize* yolu ve *tarih* gibi veri öğeleri, elektronik raporlama (ER) ifade oluşturucuda tasarım zamanında hata vermelidir.</span><span class="sxs-lookup"><span data-stu-id="f0b30-117">Data elements such as the path *String* and *Date* should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
+<span data-ttu-id="92a0e-115">Yol, *kayıt listesi* veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="92a0e-115">The specified path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="92a0e-116">En az bir ilişki içermesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="92a0e-116">It must also contain at least one relation.</span></span> <span data-ttu-id="92a0e-117">*Dize* yolu ve *tarih* gibi veri öğeleri, elektronik raporlama (ER) ifade oluşturucuda tasarım zamanında hata vermelidir.</span><span class="sxs-lookup"><span data-stu-id="92a0e-117">Data elements such as the path *String* and *Date* should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
 
-<span data-ttu-id="f0b30-118">Bu işlev SQL kullanılarak doğrudan çağrılabilecek bir uygulama nesnesine başvuran *kayıt listesi* veri türünün veri kaynaklarına (örneğin bir tablo, varlık veya sorgu) uygulandığında, birleştirilmiş bir SQL sorgusu olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="f0b30-118">When this function is applied to data sources of the *Record list* data type that refer to an application object that can be directly called by using SQL (for example, an table, entity, or query), it runs as a joined SQL query.</span></span> <span data-ttu-id="f0b30-119">Aksi durumda, bellekte [ALLITEMS](er-functions-list-allitems.md) işlevi olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="f0b30-119">Otherwise, it runs in memory as the [ALLITEMS](er-functions-list-allitems.md) function.</span></span>
+<span data-ttu-id="92a0e-118">Bu işlev SQL kullanılarak doğrudan çağrılabilecek bir uygulama nesnesine başvuran *kayıt listesi* veri türünün veri kaynaklarına (örneğin bir tablo, varlık veya sorgu) uygulandığında, birleştirilmiş bir SQL sorgusu olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="92a0e-118">When this function is applied to data sources of the *Record list* data type that refer to an application object that can be directly called by using SQL (for example, an table, entity, or query), it runs as a joined SQL query.</span></span> <span data-ttu-id="92a0e-119">Aksi durumda, bellekte [ALLITEMS](er-functions-list-allitems.md) işlevi olarak çalışır.</span><span class="sxs-lookup"><span data-stu-id="92a0e-119">Otherwise, it runs in memory as the [ALLITEMS](er-functions-list-allitems.md) function.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f0b30-120">Örnek</span><span class="sxs-lookup"><span data-stu-id="f0b30-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="92a0e-120">Örnek</span><span class="sxs-lookup"><span data-stu-id="92a0e-120">Example</span></span>
 
-<span data-ttu-id="f0b30-121">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="f0b30-121">You define the following data sources in your model mapping:</span></span>
+<span data-ttu-id="92a0e-121">Model eşlemenizde aşağıdaki veri kaynaklarını tanımlayın:</span><span class="sxs-lookup"><span data-stu-id="92a0e-121">You define the following data sources in your model mapping:</span></span>
 
-- <span data-ttu-id="f0b30-122">CustInvoiceTable tablosuna başvuran *Tablo kayıtları* türünün **CustInv** veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="f0b30-122">A **CustInv** data source of the *Table records* type that refers to the CustInvoiceTable table</span></span>
-- <span data-ttu-id="f0b30-123">`FILTER (CustInv, CustInv.InvoiceAccount = "US-001")` ifadeyi içeren *hesaplanmış alan* türünün **FilteredInv** bir veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="f0b30-123">A **FilteredInv** data source of the *Calculated field* type that contains the expression `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")`</span></span>
-- <span data-ttu-id="f0b30-124">`ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)` ifadeyi içeren *hesaplanmış alan* türünün **JourLines** bir veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="f0b30-124">A **JourLines** of the *Calculated field* type that contains the expression `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)`</span></span>
+- <span data-ttu-id="92a0e-122">CustInvoiceTable tablosuna başvuran *Tablo kayıtları* türünün **CustInv** veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="92a0e-122">A **CustInv** data source of the *Table records* type that refers to the CustInvoiceTable table</span></span>
+- <span data-ttu-id="92a0e-123">`FILTER (CustInv, CustInv.InvoiceAccount = "US-001")` ifadeyi içeren *hesaplanmış alan* türünün **FilteredInv** bir veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="92a0e-123">A **FilteredInv** data source of the *Calculated field* type that contains the expression `FILTER (CustInv, CustInv.InvoiceAccount = "US-001")`</span></span>
+- <span data-ttu-id="92a0e-124">`ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)` ifadeyi içeren *hesaplanmış alan* türünün **JourLines** bir veri kaynağı</span><span class="sxs-lookup"><span data-stu-id="92a0e-124">A **JourLines** of the *Calculated field* type that contains the expression `ALLITEMSQUERY ( FilteredInv.'<Relations'.CustInvoiceJour.'<Relations'.CustInvoiceTrans)`</span></span>
 
-<span data-ttu-id="f0b30-125">**JourLines** veri kaynağını çağırmak için model eşlemenizi çalıştırırken aşağıdaki SQL deyimi çalıştırılır:</span><span class="sxs-lookup"><span data-stu-id="f0b30-125">When you run the model mapping to call the **JourLines** data source, the following SQL statement is run:</span></span>
+<span data-ttu-id="92a0e-125">**JourLines** veri kaynağını çağırmak için model eşlemenizi çalıştırırken aşağıdaki SQL deyimi çalıştırılır:</span><span class="sxs-lookup"><span data-stu-id="92a0e-125">When you run the model mapping to call the **JourLines** data source, the following SQL statement is run:</span></span>
 
 ```sql
 SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN
 CUSTINVOICETRANS T3 WHERE...
 ```
 
-## <a name="additional-resources"></a><span data-ttu-id="f0b30-126">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="f0b30-126">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="92a0e-126">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="92a0e-126">Additional resources</span></span>
 
-[<span data-ttu-id="f0b30-127">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="f0b30-127">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="92a0e-127">Liste işlevleri</span><span class="sxs-lookup"><span data-stu-id="92a0e-127">List functions</span></span>](er-functions-category-list.md)
