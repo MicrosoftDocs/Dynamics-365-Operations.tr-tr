@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597518"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775186"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -76,6 +76,9 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
     Bu seçenekler, yerleşimdeki başvuru alanlarının etkin olup olmadığını denetler.
 
 1. **PCK-06** profili için 3. ve 4. adımları yineleyin.
+
+> [!NOTE]
+> Konum profilindeki parametreler (**Konumda maddeyi etkinleştir**, **Konum etkinliğini etkinleştir**, **Konum durumunu etkinleştir**) *Evet* olarak ayarlandığında, sistem hemen ilgili konumları, *Ambar yerleşimi durumu tutarlılık denetimi* işi yürüterek hemen güncelleştirir.
 
 ### <a name="scenario"></a>Senaryo
 

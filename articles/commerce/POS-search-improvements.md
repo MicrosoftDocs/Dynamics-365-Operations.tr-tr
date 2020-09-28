@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628921"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759947"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -93,7 +93,7 @@ Bir uzak müşteri aramasında, diğer tüzel varlıklardaki müşteriler için 
 
 ### <a name="enhancements-to-local-customer-search"></a>Yerel müşteri aramasındaki geliştirmeler
 
-Telefon numarasını temel alan aramalar basitleştirilmiştir. Bu aramalar artık müşteri oluşturulurken eklenmiş olabilecek parantez, tire, boşluk gibi özel karakterleri yok sayar. Bu nedenle, kasiyelerin arama yaparken telefon numarası biçimi hakkında endişelenmesi gerekmez. Ayrıca müşteriler için kısmi bir telefon numarası yazarak da arama yapabilirler. Bir telefon numarası özel karakterler içeriyorsa, özel karakterlerden sonra görünen numaralar için arama yaparak da bulunabilir. Örneğin, bir müşterinin telefon numarası **123-456-7890** olarak girilmişse, bir kasiyer müşteriyi **123**, **456**, **7890** veya **1234567890** arayarak veya telefon numarasının ilk birkaç rakamını girerek arayabilir.
+Telefon numarasını temel alan aramalar basitleştirilmiştir. Bu aramalar artık müşteri oluşturulurken eklenmiş olabilecek parantez, tire, boşluk gibi özel karakterleri yok sayar. Bu nedenle, kasiyelerin arama yaparken telefon numarası biçimi hakkında endişelenmesi gerekmez. Örneğin, bir müşterinin telefon numarası **123-456-7890** olarak girilmişse, bir kasiyer müşteriyi **1234567890** veya telefon numarasının ilk birkaç rakamını girerek arayabilir.
 
 > [!NOTE]
 > Bir müşterinin birden fazla telefon numarası ve birden çok e-postası olabilir. Müşteri arama algoritması bu ikincil e-postaları ve telefon numaralarını da arar ancak müşteri arama sonuçları sayfası yalnızca birincil e-posta ve telefon numarasını görüntüler. Bu durum, döndürülen müşteri sonuçları aranan e-posta veya telefon numarasını göstermediğinde, bazı karışıklıklara neden olabilir. Gelecekteki bir sürümde, müşteri arama sonuçları ekranını bu bilgileri gösterecek şekilde geliştirmeye yönelik bir plan yapılmıştır.

@@ -3,7 +3,7 @@ title: Elektronik raporlamada çok dilli raporlar tasarlama
 description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444633"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810679"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444633"
 
 Bir iş kullanıcısı olarak, [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesini, çeşitli ülkelerin veya bölgelerin yasal gereksinimlerine uygun şekilde oluşturulması gereken giden belgeler için biçimler yapılandırmak amacıyla kullanabilirsiniz. Bu gereksinimler, giden belgelerin farklı ülkeler veya bölgeler için farklı dillerde oluşturulmasını gerektirdiğinde, dile bağlı kaynaklar içeren tek bir ER [biçimi](general-electronic-reporting.md#FormatComponentOutbound) yapılandırabilirsiniz. Bu şekilde, çeşitli ülkeler veya bölgeler için giden belgeler oluşturmak üzere biçimi yeniden kullanabilirsiniz. Ayrıca, bir giden belgeyi ilgili müşteriler, satıcılar, alt kuruluşlar veya diğer taraflar için farklı dillerde oluşturmak üzere tek bir ER biçimi kullanmak isteyebilirsiniz.
 
-ER veri modellerini ve model eşlemelerini, oluşturulan belgelere hangi uygulama verilerinin konulacağını belirleyen veri akışını tanımlamak için yapılandırılmış ER biçimlerinin veri kaynakları olarak yapılandırabilirsiniz. Bir ER yapılandırma [sağlayıcısı](general-electronic-reporting.md#Provider) olarak, belirli giden belgeleri oluşturmak üzere ER çözümünün bileşenleri olarak yapılandırılmış [veri modelleri](general-electronic-reporting.md#data-model-and-model-mapping-components), [model eşlemeleri](general-electronic-reporting.md#data-model-and-model-mapping-components) ve [biçimler](general-electronic-reporting.md#FormatComponentOutbound) [yayımlayabilirsiniz](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs). Müşterilerin, kullanılabilmesi ve özelleştirilebilmesi için yayımlanmış ER çözümü [yüklemesine](general-electronic-reporting-manage-configuration-lifecycle.md) olanak tanıyabilirsiniz. Müşterilerin başka dillerde konuşabildiğini düşünüyorsanız, ER bileşenlerini dile bağlı kaynaklar içerecek şekilde yapılandırabilirsiniz. Bu şekilde, düzenlenebilir bir ER bileşeninin içeriği, tasarım zamanında müşterinin kullanıcı tarafından tercih edilen dilinde sunulabilir.
+ER veri modellerini ve model eşlemelerini, oluşturulan belgelere hangi uygulama verilerinin konulacağını belirleyen veri akışını tanımlamak için yapılandırılmış ER biçimlerinin veri kaynakları olarak yapılandırabilirsiniz. Bir ER yapılandırma [sağlayıcısı](general-electronic-reporting.md#Provider) olarak, belirli giden belgeleri oluşturmak üzere ER çözümünün bileşenleri olarak yapılandırılmış [veri modelleri](general-electronic-reporting.md#data-model-and-model-mapping-components), [model eşlemeleri](general-electronic-reporting.md#data-model-and-model-mapping-components) ve [biçimler](general-electronic-reporting.md#FormatComponentOutbound) [yayımlayabilirsiniz](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs). Müşterilerin, kullanılabilmesi ve özelleştirilebilmesi için yayımlanmış ER çözümü [yüklemesine](general-electronic-reporting-manage-configuration-lifecycle.md) olanak tanıyabilirsiniz. Müşterilerin başka dillerde konuşabildiğini düşünüyorsanız, ER bileşenlerini dile bağlı kaynaklar içerecek şekilde yapılandırabilirsiniz. Bu şekilde, düzenlenebilir bir ER bileşeninin içeriği, tasarım zamanında müşterinin kullanıcı tarafından tercih edilen dilinde sunulabilir.
 
 Dile bağlı kaynakları ER etiketleri olarak yapılandırabilirsiniz. Böylece, ER bileşenlerini aşağıdaki amaçlarla yapılandırmak için bu etiketleri kullanabilirsiniz:
 

@@ -3,7 +3,7 @@ title: Favicon ekleme
 description: Bu konu, sitenize bir tercih simgesi ekleneceğini açıklamaktadır.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686802"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761165"
 ---
 # <a name="add-a-favicon"></a>Favicon ekleme
 
@@ -58,30 +58,30 @@ Tercih edilen simgenin HTML'ini oluşturmak için aşağıdaki HTML dizesini kul
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Site simgesi için meta etiketi içeren bir sayfa parçası oluşturma
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Site simgesi için meta etiketi içeren bir parça oluşturma
 
-Site simgesi için meta etiketi içeren bir sayfa parçası oluşturmak için aşağıdaki adımları seçin.
+Site simgesi için meta etiketi içeren bir parça oluşturmak için aşağıdaki adımları seçin.
 
 1. **Parçalar**'a gidin ve **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, sayfa parçasının temel aldığı modül olarak **Meta etiketleri**'ni seçin.
-1. Sayfa parçası için bir ad girin ve **Tamam**'ı seçin.
+1. **Yeni parça** iletişim kutusunda, parçanın temel aldığı modül olarak **Meta etiketleri**'ni seçin.
+1. Parça için bir ad girin ve **Tamam**'ı seçin.
 1. Parça hiyerarşisi ağacında, **Varsayılan meta etiketleri** alt öğesini seçin.
 1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
-1. **Düzenlemeyi bitir**'i seçin, ardından sayfa parçasını yayımlamak için **Yayımla**'yı seçin.
+1. **Düzenlemeyi bitir**'i seçin, ardından parçayı yayımlamak için **Yayımla**'yı seçin.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Meta etiket sayfası parçasını, sayfalarınızın HTML başlık bölümüne ekleyin
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Meta etiket parçasını, sayfalarınızın HTML başlık bölümüne ekleme
 
-Meta etiket sayfası parçasını, sayfalarınızın HTML **başlık** bölümüne eklemek için şu adımları izleyin.
+Meta etiket parçasını, sayfalarınızın HTML **başlık** bölümüne eklemek için şu adımları izleyin.
 
 1. **Şablonlar**a gidin, site simgenizi eklemek istediğiniz sayfaların şablonunu açın ve **Düzenle**'yi seçin.
-1. Şablon hiyerarşisi ağacında, **HTML başlığı** kapsayıcısının sağında bulunan üç nokta düğmesini (**...**) seçin ve sonra **Sayfa parçası ekle**'yi seçin.
-1. **Sayfa parçası seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
+1. Şablon hiyerarşisi ağacında, **HTML başlığı** kapsayıcısının sağında bulunan üç nokta düğmesini (**...**) seçin ve sonra **Parça ekle**'yi seçin.
+1. **Parçayı seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
 1. **Düzenlemeyi bitir**'i seçin, ardından şablonu yayımlamak için **Yayımla**'yı seçin.
 
 > [!NOTE]
-> Sitenizde birden fazla şablon kullanılıyorsa, tüm bunlara meta etiketleri sayfa parçasını eklemeniz gerekir.
+> Sitenizde birden fazla şablon kullanılıyorsa, tüm bunlara meta etiketleri parçası eklemeniz gerekir.
 
-Meta etiketleri sayfa parçasını eklediğiniz şablonu temel alan sayfaları önizlerken, tarayıcı sekmesinde site simgesini görmeniz gerekir.
+Meta etiketleri parçasını eklediğiniz şablonu temel alan sayfaları önizlerken, tarayıcı sekmesinde site simgesini görmeniz gerekir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 214fb2808f024487795f27de45de1d4de8cead2d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: b53535d1a000b72577be5c6284cc4676c43d591b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041665"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744611"
 ---
-# <a name="ABS">ABS ER işlevi</a>
+# <a name="abs-er-function"></a>ABS ER işlevi
 
 [!include [banner](../includes/banner.md)]
 

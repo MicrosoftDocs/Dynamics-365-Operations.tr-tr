@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
-ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
+ms.openlocfilehash: 7a9dceb3f9e71163dcaf8b8763317110ef019844
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3281521"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813900"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -113,7 +113,7 @@ Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kul
 
 [Tüketim talebi oluşturma](tasks/create-requisition-consumption.md)
 
-[Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[Satınalma talepleri için iş süreci iş akışları tanımlama](https://www.microsoft.com/download/details.aspx?id=101821)
 
 [Tedarik ve kaynak atama iş akışları](procurement-sourcing-workflows.md)
 

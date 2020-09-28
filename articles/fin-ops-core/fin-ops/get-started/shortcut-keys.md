@@ -1,6 +1,6 @@
 ---
 title: Klavye kısayolları
-description: Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde girmenize yardımcı olabilir.
+description: Bu konu, Finance and Operations uygulamasıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811567"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761633"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
 [!include [banner](../includes/banner.md)]
 
-Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde girmenize yardımcı olabilir.
+Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde Finance and Operations uygulamasında girmenize yardımcı olabilir.
 
 > [!NOTE]
 > Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
@@ -236,6 +236,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Aramada bir satır yukarı/aşağı gitme                                                                                        | Yukarı ok / Aşağı ok            |
 | Aramada bir sayfa yukarı/aşağı gitme                                                                                       | Sayfa yukarı / Sayfa aşağı              |
 | Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Eksik hesap analiz için klavye kısayolları](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

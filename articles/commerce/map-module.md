@@ -18,17 +18,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a0f5d902289c5867095e34a135c50d342f3c4f13
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
+ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3647070"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3811196"
 ---
 # <a name="map-module"></a>Harita modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Bu konu harita modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 

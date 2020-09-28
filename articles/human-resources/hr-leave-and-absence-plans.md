@@ -3,7 +3,7 @@ title: İzin ve devamsızlık planı oluşturma
 description: Dynamics 365 Human Resources'ta farklı izin tipleri için izin planlarını içinde oluşturun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428721"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796509"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>İzin ve devamsızlık planı oluşturma
 
@@ -43,7 +43,15 @@ Ayrıca, yalnızca Yöneticiler için olan kazanç saatleri gibi, pozisyonlara d
 
 2. **Ayrıntılar** altında, planınız için **adı**, **başlangıç tarihini**, **açıklamasını** ve **ayrılma türünü** girin.
 
-**Tek bir izin ve devamsızlık planı için birden fazla izin türü yapılandır** özelliği etkinse, izin türleri **Ayrıntılar** yerine **Tahakkuk planı** altında yapılandırılır. Tahakkuk çizelgesi tablosundaki her kayıt için, bir izin türü tanımlayabilirsiniz.
+**Tek bir izin ve devamsızlık planı için birden fazla izin türü yapılandır** özelliği etkinse, izin türleri **Ayrıntılar** yerine **Tahakkuk planı** altında yapılandırılır. Tahakkuk çizelgesi tablosundaki her kayıt için, bir izin türü tanımlayabilirsiniz. Ayrıca, bu özellik etkinleştirildiğinde, tümleştirmeler veya varlıklar kullanmanız gereken başka senaryolar için yeni veri varlıkları kullanmanız gerekir. 
+
+Yeni varlıklar şunlardır:
+
+- İzin ve devamsızlık banka hareketi V2
+- İzin ve devamsızlık kaydı V2
+- İzin ve devamsızlık planı katmanı V2
+- İzin ve devamsızlık planı V2
+- İzin süresi isteği V2
 
  > [!IMPORTANT]
    > Bu özelliği etkinleştirdikten sonra kapatabilirsiniz.

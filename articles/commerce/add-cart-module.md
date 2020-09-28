@@ -3,7 +3,7 @@ title: Sepet modülü
 description: Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686778"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761141"
 ---
 # <a name="cart-module"></a>Sepet modülü
 
@@ -77,8 +77,8 @@ Sepet modülü, ürün bilgilerini Commerce Scale Unit API'leri kullanarak alır
 Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
 1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
-1. **Yeni sayfa parçası** iletişim kutusunda, **Sepet** modülünü seçin.
-1. **Sayfa parçası adı** altında, **Sepet parçası** için bir ad girin ve **Tamam**'ı seçin.
+1. **Yeni parça** iletişim kutusunda, **Sepet** modülünü seçin.
+1. **Parça adı** altında, **Sepet parçası** için bir ad girin ve **Tamam**'ı seçin.
 1. **Sepet** yuvasını seçin.
 1. Sağdaki Özellikler bölmesinde, Kurşun Kalem sembolünü seçin, alana başlık metnini girin ve onay işareti simgesini seçin.
 1. **Sepet** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
@@ -86,8 +86,8 @@ Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için 
 1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
 1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, şablon için bir ad girin.
-1. Anahat ağacında **Gövde** yuvasını seçin, üç nokta (**...**) ve sonra **Sayfa Parçası Ekle**'yi seçin.
-1. **Sayfa parçası seç** iletişim kutusunda **Sepet parçası** parçasını ve sonra **Tamam**'ı seçin.
+1. Anahat ağacında **Gövde** yuvasını seçin, üç nokta (**...**) ve sonra **Parça ekle**'yi seçin.
+1. **Parça seç** iletişim kutusunda **Sepet parçası** öğesini ve sonra **Tamam**'ı seçin.
 1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
 1. **Şablon Seç** iletişim kutusunda oluşturduğunuz şablonu seçin, sayfa adı girin ve sonra **Tamam**'ı seçin.

@@ -70,6 +70,8 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finans 10.0.14 (Kasım 2020)
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (Ekim 2020)
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (Ağustos 2020)
@@ -412,7 +414,9 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Tahsilat bilgilerini gözden geçirme
                   href: accounts-receivable/tasks/review-collections-information.md
-                - name: Alacak yönetimi kurulumu
+                - name: Tahsilat işlemi otomasyonu
+                  href: accounts-receivable/collections-process-automate.md
+                - name: Alacak yönetimi ayarı
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Alacak yönetimi kurulum bilgileri
                   href: accounts-receivable/cm-setup-information.md
@@ -756,11 +760,13 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: Yüzde 200 azalan bakiyeli amortisman
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: Yarı yıl amortisman yöntemi metodolojisi
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: Ek amortisman
                   href: fixed-assets/bonus-depreciation.md
-                - name: Ek amortisman ayarlama
+                - name: Ek amortismanı ayarlama
                   href: fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: Tüketim esasına göre amortisman
+                - name: Tüketime göre amortisman
                   href: fixed-assets/consumption-depreciation.md
                 - name: Ters işlemli amortismanın etkileri
                   href: fixed-assets/depreciation-effects-reversals.md
@@ -1013,8 +1019,28 @@
             - name: Teklifi bir projeye transfer etme
               href: project-management/transfer-quote-new-existing-project.md
             - name: Proje kaynak ataması
-              href: project-management/project-resourcing.md
-            - name: Satınalma siparişinde madde gereksiniminden maddeleri alma
+              items:
+                - name: Proje kaynak atamasına genel bakış
+                  href: project-management/project-resourcing.md
+                - name: Proje kaynaklarını ayarlama
+                  href: project-management/set-up-project-resources.md
+                - name: Kaynak uzmanlıklarını yönetme
+                  href: project-management/manage-resource-competencies.md
+                - name: Yeni proje oluşturma
+                  href: project-management/create-new-project.md
+                - name: Rol tabanlı fiyatlandırmayı ayarlama
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Proje ekibi oluşturma
+                  href: project-management/create-project-team.md
+                - name: Kaynak kapasitesini eşitleme
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Proje kaynak zamanlaması performansı
+                  href: project-management/project-scheduling-performance.md
+                - name: İş kırılım yapısı şablonlarındaki rolleri ayarlama
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Planlı kaynaklar için kaynak karşılama
+                  href: project-management/resource-fulfillment-planned-resources.md
+            - name: Madde gereksiniminden satın alma siparişindeki maddeleri alma
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: İş kırılım yapıları
               items:
@@ -1218,12 +1244,22 @@
               items:
                 - name: Avusturya'ya genel bakış
                   href: localizations/austria.md
-                - name: Ek alımlarda yarım yıl amortismanı
+                - name: Ek alımlarda yarı yıl amortismanı
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Ambalaj malzemesi ücretleri
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: KDV beyanı
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: Bahreyn
+              items:
+                - name: Bahreyn'e genel bakış
+                  href: localizations/bahrain.md
+                - name: Bahreyn için fatura düzenini yapılandırma
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: Bahreyn için KDV beyannamesi
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: Fatura düzenleme son tarihi
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: Belçika
               items:
                 - name: Belçika'ya genel bakış
@@ -1496,6 +1532,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: KDV beyanı
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: KDV beyannamesi (Çek Cumhuriyeti)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Yıl sonu kapanışı
                   href: localizations/emea-cze-hun-year-end.md
             - name: Danimarka
@@ -1780,6 +1818,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Çevrimiçi faturalama sistemi
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Ertelenen satış vergisi hesaplamaları
+                  href: localizations/emea-hun-deferred-vat.md
             - name: İzlanda
               items:
                 - name: İzlanda'ya genel bakış
@@ -2238,6 +2278,10 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: Sabit kıymetler için ayrıştırma listesi kullanma
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: Kuveyt
+              items:
+                - name: Kuveyt'e genel bakış
+                  href: localizations/kuwait.md
             - name: Letonya
               items:
                 - name: Letonya'ya genel bakış
@@ -2282,12 +2326,14 @@
                   href: localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
                 - name: GST müşteri faturalarını rölyef yan tümcesiyle yazdırma
                   href: localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: GST vergi faturalarını yazdırma
+                - name: GST vergisi içeren faturaları yazdırma
                   href: localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: Oto-faturalama
+                - name: Otomatik faturalama
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: GST serbest bırakma koşulları ayarlama
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: Malezya için SST-02 beyannamesi
+                  href: localizations/apac-mys-sst-declaration.md
             - name: Meksika
               items:
                 - name: Meksika'ya genel bakış
@@ -2328,6 +2374,10 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Satıcı kayıt kodları
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Umman
+              items:
+                - name: Umman'a genel bakış
+                  href: localizations/oman.md
             - name: Hollanda
               items:
                 - name: Hollanda'ya genel bakış
@@ -2386,6 +2436,10 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: BH/AH döviz kuru farkını bölme
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: Katar
+              items:
+                - name: Katar'a genel bakış
+                  href: localizations/qatar.md
             - name: Rusya
               items:
                 - name: Rusya'ya genel bakış
@@ -2724,9 +2778,11 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Kamu sektörüne yönelik Form 1099
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: İnsan kaynakları
+                - name: 1099 raporlaması için tedarikçi ayarlama
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
           items:
-            - name: İnsan kaynaklarına genel bakış
+            - name: Human Resources'a genel bakış
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
             - name: Human Resources'ı ayarlama
               items:
@@ -2968,8 +3024,10 @@
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Şirket içi dağıtımlar için SSRS'yi yapılandırma
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: IaaS ortamlarında varsayılan raporlama deneyimleri
+                - name: IaaS ortamlarındaki varsayılan raporlama deneyimleri
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: Belge raporlama önizleme seçenekleri
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Yazdırma
                   items:
                     - name: Belge yazdırmaya genel bakış
@@ -3437,7 +3495,11 @@
                     - name: İçerik eklemek için HAM XML kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
                     - name: HESAPLANAN ALAN veri kaynaklarının parametreli çağrılarını destekleme
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                      items:
+                        - name: Kullanıcı deneyimini iyileştirme ve kullanılabilirliği sürdürme
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: Veri erişimi performansını artırma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
                     - name: Şirketler arası ER veri kaynakları
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: MALİ BOYUT AYRINTILARI veri kaynaklarını kullanma
@@ -3500,9 +3562,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Veri bağlamalarındaki göreli yol
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
+            - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma
               items:
-                - name: Çerçeveyi yapılandırma
+                - name: Altyapıyı yapılandırma
                   items:
                     - name: Elektronik raporlama çerçevesini yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json

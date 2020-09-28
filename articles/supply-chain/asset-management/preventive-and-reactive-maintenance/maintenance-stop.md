@@ -1,6 +1,6 @@
 ---
-title: Bakım kesinti süresi
-description: Bu konuda Varlık Yönetimi'ndeki bakım kesinti süresi açıklanmaktadır.
+title: Bakım kesinti süresi faaliyetleri
+description: Bu konuda bakım kesinti süresinin, belirli bir dönem boyunca belirli varlıklarda bakım işleri gerçekleştirmek için gerekli kapasitenin genel görünümünü edinmek üzere nasıl kullanılacağı anlatılır.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383539"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802833"
 ---
-# <a name="maintenance-downtime"></a>Bakım kesinti süresi
+# <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Bakım kesinti süresi, belirli bir dönem boyunca belirli varlıklarda bakım işleri gerçekleştirmek için gerekli kapasitenin genel görünümünü edinmek üzere kullanılır. Örneğin, üretim tesisi 02'de Üretim Salonu 29 A'da Üretim satırı 10 için bakım kesinti süresi kaydı oluşturabilirsiniz. Bakım kesinti süresi kaydı, bakım molasıyla ilgili varlıkların üretim için kullanılabilir olmadığı dönemi belirten başlangıç ve bitiş saatine sahiptir.
 
@@ -79,7 +77,7 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 
 ![Şekil 3](media/21-preventive-maintenance.png)
 
-11. Kapasite yükünün özetini edinmenizin ardından iş emri bakım işleri veya bakım zamanlaması satırlarında ayarlama yapmak isterseniz **Bakım kesinti süresi faaliyetleri** ayrıntıları özetine dönün ve **Oluşturulan iş emri bakım işleri** ve **Bakım zamanlaması satırları** hızlı sekmelerinde ayarlamak istediğiniz satırları seçin.
+11. Kapasite yükünün özetini edinmenizin ardından iş emri bakım işleri veya bakım zamanlaması satırlarında ayarlama yapmak isterseniz **Bakım kesinti süresi etkinlikleri** ayrıntıları özetine dönün ve **Oluşturulan iş emri bakım işleri** ve **Bakım zamanlaması satırları** hızlı sekmelerinde ayarlamak istediğiniz satırları seçin.
 
 12. **Ayarla** düğmesine tıklayın ve seçilen iş emri bakım işleri veya bakım zamanlaması satırları için beklenen başlangıç/bitiş tarihleri, servis düzeyi veya sorumlu bakım görevlilerini güncelleştirin.
 

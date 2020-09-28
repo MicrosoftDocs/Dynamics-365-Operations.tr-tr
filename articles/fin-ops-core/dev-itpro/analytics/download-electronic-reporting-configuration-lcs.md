@@ -3,7 +3,7 @@ title: Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karş�
 description: Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services'dan (LCS) indirmeyi açıklar.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 8a18427114bddb7c72024a8d96d33f3fbf8dbe17
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934666"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810631"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services'dan (LCS) indirmeyi açıklar.
-
-Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürümlerinin, Microsoft Dynamics Lifecycle Services'dan (LCS) indirme sürecini öğretir.
+Bu konu, en yeni [Elektronik raporlama (ER) yapılandırmaları sürümünün](general-electronic-reporting.md#Configuration) Microsoft Dynamics Lifecycle Services'deki (LCS) [Paylaşılan varlık kitaplığı'ndan](../lifecycle-services/asset-library.md) nasıl indirileceğini açıklamaktadır.
 
 1. Aşağıdaki rollerden birini kullanarak uygulamada oturum açın:
 
@@ -43,34 +41,39 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
 3. **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** kutucuğunu seçin.
 4. **Microsoft** kutucuğunda, **Depolar**'a tıklayın.
 
-    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Yerelleştirme yapılandırmaları sayfasında Microsoft kutucuğu](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. **Yapılandırma depoları** sayfasında, kılavuz içerisinde, mevcut **LCS** türünün deposunu seçin. Bu depo kılavuzda görünmüyorsa, aşağıdaki adımları izleyin:
 
-    1. Yeni bir depo eklemek için **Ekle**'ye tıklayın.
+    1. Yeni bir depo eklemek için **Ekle**'yi seçin.
     2. Havuz türü olarak **LCS**'yi seçin.
-    3. **Depo oluştur**'a tıklayın.
-    4. İstenirse, yetkilendirme yönergelerini izleyin.
+    3. **Depo oluştur**'u seçin.
+    4. Yetkilendirme konusunda bir bildirim geldiğinde, ekrandaki yönergeleri izleyin.
     5. Depo için bir ad ve açıklama girin.
-    6. Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
+    6. Yeni depo girişini onaylamak için **Tamam**'ı seçin.
     7. Kılavuzda **LCS** türündeki yeni depoyu seçin.
 
 6. Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın.
 
-    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Yapılandırma havuzu sayfası](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-7. Sol bölmedeki yapılandırmalar ağacında, gereksinim duyduğunuz ER yapılandırmalarını seçin.
+    > [!TIP]
+    > LCS 'de Paylaşılan varlık kitaplığı'ndan yapılandırmaları indirmek için LCS deposuna erişmede sorun yaşıyorsanız, yapılandırmaları [Global havuzdan](er-download-configurations-global-repo.md) indirebilirsiniz.
+
+7. Sol bölmedeki yapılandırmalar ağacında, gerekli ER yapılandırmalarını seçin.
 8. **Sürümler** FastTab üzerinde, seçili ER yapılandırmasının gerekli sürümünü seçin.
-9. Seçili sürümü LCS'den mevcut örneğe indirmek için **İçe Aktar**'a tıklayın.
+9. Seçili sürümü LCS'den mevcut örneğe indirmek için **İçe Aktar**'ı seçin.
 
     > [!NOTE]
     > Mevcut örnekte bulunan ER yapılandırma sürümleri için **İçe Aktar** düğmesi kullanılamaz.
 
-    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Yapılandırma havuzu sayfası](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili makaleleri listesine göz atın.
+> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili konu listesine göz atın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
+
+[Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)

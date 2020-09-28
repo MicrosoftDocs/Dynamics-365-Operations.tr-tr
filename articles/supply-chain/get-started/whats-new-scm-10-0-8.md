@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651969"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801470"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Dynamics 365 Supply Chain Management 10.0.8'deki yenilikler veya değişiklikler (Şubat 2020)
 
@@ -41,10 +41,10 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 - [Ek yerleşim bölgesi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [Varlık Yönetimi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Daha fazla bilgi için bkz. [Varlık yönetimine genel bakış](../asset-management/index.md).
 - [İşi iptal et](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Daha fazla bilgi için bkz. [Özel durum işleme için ambar işini iptal etme](../warehousing/cancel-warehouse-work.md).
-- [İşteki iş havuzunu değiştir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [Küme konumu dolu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [Onayla ve aktar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [Yerleşim yönergesi stoktan çekme yaşlandırma](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [İşteki iş havuzunu değiştir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Daha fazla bilgi için bkz. [İşteki iş havuzunu değiştir](../warehousing/change-work-pool-on-work.md).
+- [Küme konumu dolu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) - Daha fazla bilgi için, bkz. [Küme konumu dolu](../warehousing/cluster-position-full.md).
+- [Onayla ve aktar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Daha fazla bilgi için bkz. [Onaylama ve transfer etme](../warehousing/confirm-and-transfer.md).
+- [Yerleşim yönergesi stoktan çekme yaşlandırma](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Daha fazla bilgi için bkz. [Yerleşim yönergesi stoktan çekme yaşlandırma](../warehousing/location-directive-inventory-picking-aging.md).
 - [Yerleşim durumu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Malzeme çekme satırı gruplandırması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Daha fazla bilgi için bkz. [Malzeme çekme satırı gruplaması](../warehousing/pick-line-grouping.md).
 - [Sevkiyat otomatik güncelleştirmesi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Daha fazla bilgi için bkz. [Sevkiyat otomatik güncelleştirmeleri](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 - [RSAT ile ambar uygulama görevi doğrulaması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Ambara serbest bırakma kuralı](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Dalga durumu görselleştirme](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Dalga şablonu gruplandırması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [İş satırı ayrıntıları](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Daha fazla bilgi için bkz. [İş satırı ayrıntıları](https://www.microsoft.com/videoplayer/embed/RE4fcYN) videosu.
-- [Bölge eşiği stok yenilemesi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [Dalga şablonu gruplandırması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Daha fazla bilgi için bkz. [Dalga şablonu gruplandırması](../warehousing/wave-template-grouping.md).
+- [İş satırı ayrıntıları](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Daha fazla bilgi için bkz. [İş satırı ayrıntıları](../warehousing/work-line-details.md) ve [İş satırı ayrıntıları](https://www.microsoft.com/videoplayer/embed/RE4fcYN) videosu.
+- [Bölge eşiği stok yenilemesi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Daha fazla bilgi için bkz. [Bölge eşiği stok yenilemesi](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

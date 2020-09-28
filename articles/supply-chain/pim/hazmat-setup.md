@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: aaf66b98717c72b4260e0a482400bdb29bbd9ecb
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699671"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803225"
 ---
 # <a name="set-up-hazardous-materials"></a>Tehlikeli malzemeleri ayarlama
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Tehlikeli malzeme işlevlerini kullanmak için önce maddeleri tehlikeli malzeme olarak sınıflandırmak için gerekli verileri ayarlamanız gerekir. Ardından, tehlikeli malzeme olarak sınıflandırılmış bir madde içeren bir satış siparişi oluşturduğunuzda sistem, satış siparişi sevk edilirken bu sipariş için tehlikeli malzeme belgeleri hazırlar.
 

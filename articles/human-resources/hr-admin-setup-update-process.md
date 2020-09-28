@@ -3,7 +3,7 @@ title: Güncelleştirme işlemi
 description: Microsoft Dynamics 365 Human Resources uygulama ve platform değişiklikleri için sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS).
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431188"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759971"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources, sürekli, temassız servis güncelleşti
 
 Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için yapılır. İnsan Kaynakları, ürün destek kullanılabilirliği hakkında düzenli ve öngörülebilir kılavuzlar sunan [Microsoft Lifecycle ilkesi](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy) ile uygun olarak desteklenir.
 
-## <a name="release-cadence"></a>Sürüm temposu
+## <a name="release-cadence"></a>Sürüm temposu 
 
 İnsan Kaynakları güncelleştirmeler otomatik olarak tüm ortamlara uygulanır. İnsan Kaynakları iki tür sürüm sağlar:
 
@@ -56,14 +56,12 @@ Sürümler bir iç ortam üzerinde gözden geçirilip test edildiğini ve doğru
 
 ## <a name="release-cadence-exceptions-in-2020"></a>2020 içinde sürüm temposu özel durumları
 
-Aşağıdaki tarihler, normal serbest bırakma zamanlamasının özel durumlardır:
+Tatilleri hesaba eklemek için, Kasım ve Aralık 2020 için sürüm planı aşağıdaki gibidir:
 
-| Date | Tanım |
-| --- | --- |
-| 23 Kasım haftası | Güncelleştirme yok |
-| 14 Aralık haftası | Yalnızca küçük güncelleştirmeleri |
-| 21 Aralık haftası | Güncelleştirme yok |
-| 28 Aralık haftası | Güncelleştirme yok |
+- Kasım sürümü: 2 Kasım - 13 Kasım
+- Aralık sürümü: 30 Kasım - 11 Aralık
+ 
+İki haftalık sürüm temposu 11 Ocak 2021'de her zamanki gibi devam ettirilecektir.
 
 ## <a name="communications"></a>İletişim
 

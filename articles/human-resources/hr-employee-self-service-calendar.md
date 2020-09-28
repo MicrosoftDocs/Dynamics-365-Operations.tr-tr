@@ -3,7 +3,7 @@ title: Takım takvimi oluşturma
 description: Dynamics 365 Human Resources'De ekip takvimleri görüntüle ve oluştur.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712220"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796481"
 ---
 # <a name="view-team-and-company-calendars"></a>Ekip ve şirket takvimlerini görüntüleme
 
@@ -43,13 +43,29 @@ Yöneticiler takım takvimine **Takımımdaki bekleyen izin istekleri**, **Onayl
 
 ## <a name="view-a-company-calendar"></a>Şirket takvimini görüntüle
 
-İnsan kaynakları rollerine sahip kişiler Şirket takvimlerini görüntüleyebilir. Şirket takvimleri tüm çalışanları görüntüler. Varsayılan olarak, takvim bugünün tarihini artı 28 gün görüntüler, ancak tarih aralığını değiştirebilirsiniz. Takvimi **ada**, **personel numarasına** ve **izin türüne** göre de süzebilirsiniz.
+İnsan kaynakları rollerine sahip kişiler şirket takvimlerini görüntüleyebilir. Şirket takvimleri tüm çalışanları görüntüler. Varsayılan olarak, takvim bugünün tarihini artı 28 gün görüntüler, ancak tarih aralığını değiştirebilirsiniz. Takvimi **ada**, **personel numarasına** ve **izin türüne** göre de süzebilirsiniz.
 
 1. **İzin ve devamsızlık** çalışma alanında, **bağlantılar**'ı seçin.
 
 2. **İzin ve devamsızlık takvimi** seçin.
 
 İnsan kaynakları rolleri şirket takvimine **İzin ve devamsızlık istekleri**, **Onaylanan izin** ve **İzin istekleri**'nden de erişebilir. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Takvimler artık ek filtreler ve seçenekler içerir. Tüm takvimler için görünüm seçenekleri şunlardan oluşur:
+
+- Onaylanan talepler
+- Bekleyen istekler
+- İzin talepleri olan çalışanlar
+- İzin talepleri olmayan çalışanlar
+- Çalışan doğum günleri
+- İzin süresi istekleri 
+- Devamsızlık izni istekleri
+
+İzin ve devamsızlık parametrelerinde takvim yapılandırması kullanılabilir görünüm seçeneklerini belirler.
+
+Ayrıca, yöneticiye veya departmana göre takvimlere filtre uygulayabilirsiniz. Birincil pozisyon ataması, bu filtreler ayarlandığında görüntülenen çalışanları belirler. 
 
 Takvim ayarları hakkında bilgi için bkz. [Takvim parametrelerini yapılandırma](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

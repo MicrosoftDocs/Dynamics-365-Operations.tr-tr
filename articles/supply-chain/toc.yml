@@ -70,12 +70,12 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (Kasım 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (Ekim 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (Temmuz 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Bakım denetim listeleri
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Bakım kesinti süresi
+                - name: İş siparişlerine yönelik bakım kapalı kalma süresi
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: İş emrine hata ekle
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -365,9 +365,9 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
                 - name: Bakım zamanlaması maliyeti
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
-                - name: İş emirleri oluşturma
+                - name: İş emri oluşturma
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Bakım kesinti süresi
+                - name: Bakım kesinti süresi faaliyetleri
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Kapasite planlaması
               items:
@@ -1155,9 +1155,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
                     - name: XML öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Finance and Operations'ta Elektronik raporlama çözümlerini kullanma
+            - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma
               items:
-                - name: Çerçeveyi yapılandırma
+                - name: Altyapıyı yapılandırma
                   items:
                     - name: Elektronik raporlama çerçevesini yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,31 +1345,35 @@
               items:
                 - name: Planlamayı En İyi Duruma Getirmeye genel bakış
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Eksi eldeki stok miktarlarıyla planlama
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planlamayı En İyi Duruma Getirme uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Plana filtreler uygulama
+                - name: Bir plana filtre uygulama
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Satınalma ticari sözleşmeleri ile master planlama
+                - name: Satın alma ticari sözleşmeleri ile master planlama
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Plan geçmişini ve planlama günlüklerini görüntüleme
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Güvenlik marjları
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Planlı siparişleri onaylama
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Planlamayı En İyi Duruma Getirme ile otomatik kesinleştirme
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Eldeki eksi stok miktarlarıyla planlama
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Plan geçmişini ve planlama günlüklerini görüntüleme
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planlama işini iptal etme
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Planlamayı En İyi Duruma Getirme genişletilebilirliği
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Planlamayı En İyi Duruma Getirme sorunlarını giderme
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Planlamayı En İyi Duruma Getirme genişletilebilirliği
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Master planlar
               items:
                 - name: Master planlara genel bakış
                   href: master-planning/master-plans.md
-                - name: Master planlar ayarlama
+                - name: Master planları ayarlama
                   href: master-planning/master-planning-setup.md
                 - name: Master planlama kurulum sihirbazı
                   href: master-planning/master-planning-setup-wizard.md
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Küme malzeme çekme ayarlama
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Küme konumu dolu
+                      href: warehousing/cluster-position-full.md
                     - name: Sistem tarafından yönlendirilen küme malzeme çekme
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Konteyner kullanımını ayarlama

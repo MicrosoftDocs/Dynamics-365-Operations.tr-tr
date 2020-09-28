@@ -1,6 +1,6 @@
 ---
-title: Bakım kesinti süresi
-description: Bu konuda Varlık Yönetimi'ndeki bakım kesinti süresini açıklar.
+title: Bir iş emri için bakım kesinti süresi
+description: Bu konuda bir iş emrinde seçilen kıymet üzerinde bakım kesinti süresi kayıtlarının nasıl oluşturulacağı açıklanır.
 author: josaw1
 manager: tfehr
 ms.date: 10/15/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b4960aea95d63486207699f3bbd7f4b4f3cf0488
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 263a044a0a378e95ea271ac1c6f468f9e3287f26
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206887"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802737"
 ---
-# <a name="maintenance-downtime"></a>Bakım kesinti süresi
+# <a name="maintenance-downtime-for-work-orders"></a>Bir iş emri için bakım kesinti süresi
 
 [!include [banner](../../includes/banner.md)]
 

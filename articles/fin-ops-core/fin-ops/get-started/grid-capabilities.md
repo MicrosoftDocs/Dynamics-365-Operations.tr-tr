@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,26 +16,25 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651702"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760411"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Yeni kılavuz denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha ilginç görünümlerini elde etmek ve verilerinize anlamlı bilgiler yüklemek için kullanılabilecek bir dizi yararlı ve güçlü yetenek sağlar. Bu makalede aşağıdaki yetenekler ele alınıyor: 
 
--  Toplamlar hesaplanıyor
--  Verileri gruplandırma
+-  Toplamların hesaplanması
 -  Sistemi önceden hazırlama
 -  Matematik ifadelerini değerlendirme 
+-  Sekmeli verileri gruplandırma (**Kılavuzlar halinde gruplandırma (Önizleme)** özelliği kullanarak ayrıca etkinleştirilmiştir)
 
-## <a name="calculating-totals"></a>Toplamlar hesaplanıyor
+## <a name="calculating-totals"></a>Toplamların hesaplanması
 Finance and Operations uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Bu toplamlar, kılavuzun alt kısmındaki bir alt bilgi bölümünde gösterilir. 
 
 ### <a name="showing-the-grid-footer"></a>Kılavuz alt bilgisini gösterme
@@ -71,21 +70,6 @@ Hesaplama çok uzun sürerse, **İptal** düğmesini seçerek işlemi iptal edeb
 
 Siz veri kümesinde güncelleştirme, silme veya satır oluşturma işlemleri yaptıkça toplamlar otomatik olarak güncelleştirilir.  
 
-## <a name="grouping-data"></a>Verileri gruplandırma
-İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, sekmeli kılavuzlardaki **Gruplandırma** yeteneği sayesinde kullanıcılar verilerini Finance and Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
-
-Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir Tabloya göre gruplandır özelliği ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
--  Grubun veri değeri 
--  Sütun etiketi (Bu bilgiler özellikle birden çok gruplandırma düzeyi desteklendikten sonra yararlı olacaktır.)
--  Bu gruptaki veri satırlarının sayısı
--  Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
-
-[Kayıtlı görünümler](saved-views.md) etkinleştirildiğinde, sayfayı bir sonraki ziyaretinizde hızlı erişim için bir görünümün parçası olarak bu gruplandırma kişiselleştirerek gruplandırılabilir.  
-
-Başka bir sütunda **Bu sütuna göre gruplandır**'ı seçerseniz, 10.0.9/Platform güncelleştirmesi 33'te yalnızca gruplandırma düzeyi desteklendiği için, özgün gruplandırma değiştirilecektir.
-
-Bir kılavuzda gruplandırmayı geri almak için, gruplandırma sütununa sağ tıklayın ve **Grubu çöz**'ü seçin.  
-
 ## <a name="typing-ahead-of-the-system"></a>Sistemi önceden hazırlama
 Birçok iş senaryosunda, sisteme verileri hızlı şekilde girebilme çok önemlidir. Yeni kılavuz denetimi tanıtılmadan önce, kullanıcılar yalnızca geçerli satırdaki verileri değiştirebiliyordu. Yeni bir satır oluşturmadan veya farklı bir satıra geçiş yapmadan önce, sistemin herhangi bir değişikliği başarıyla doğrulamasını beklemek zorundaydılar. Kullanıcıların bu doğrulamaların tamamlanmasını beklediği süreyi azaltmak ve kullanıcı üretkenliğini artırmak için, yeni kılavuz bu doğrulamaları zaman uyumsuz olacak şekilde ayarlıyor. Bu nedenle, kullanıcı önceki satır doğrulamaları beklenirken değişiklik yapmak için diğer satırlara geçebiliyor. 
 
@@ -109,6 +93,32 @@ Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere mat
 
 Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Sekmeli verileri gruplandırma
+[!include [preview banner](../includes/preview-banner.md)]
+
+İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma (Önizleme)** özelliği sayesinde kullanıcılar sekmeli verilerini Finance and Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
+
+Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Sütuna göre gruplandır** özelliği ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
+-  Grubun veri değeri 
+-  Sütun adı (Bu bilgiler özellikle birden çok gruplandırma düzeyi desteklendikten sonra yararlı olacaktır.)  
+-  Bu gruptaki veri satırlarının sayısı
+-  Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
+
+[Kayıtlı görünümler](saved-views.md) etkinleştirildiğinde, sayfayı bir sonraki ziyaretinizde hızlı erişim için bir görünümün parçası olarak bu gruplandırma kişiselleştirerek gruplandırılabilir.  
+
+Başka bir sütunda **Bu sütuna göre gruplandır**'ı seçerseniz, 10.0.9/Platform güncelleştirmesi 33'ten sonra yalnızca gruplandırma düzeyi desteklendiği için, özgün gruplandırma değiştirilecektir.
+
+Bir kılavuzda gruplandırmayı geri almak için, gruplandırma sütununa sağ tıklayın ve **Grubu çöz**'ü seçin.  
+
+### <a name="expanding-and-collapsing-groups"></a>Grupları genişletme ve daraltma
+Verilerin ilk gruplandırmasında tüm gruplar genişletilmiş olacaktır. Tek grupları daraltarak verilerin özetlenmiş görünümlerini oluşturabilir veya verilerde gezinmeye yardımcı olması için grup genişletme ve daraltma özelliklerini kullanabilirsiniz. Bir grubu genişletmek veya daraltmak için, ilgili grup üst bilgisi satırında çift ayraç (>) düğmesini seçin. Bireysel grupların genişletme/daraltma durumunun kişiselleştirme bölümünde **kaydedilmeyeceğini** unutmayın.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Grup düzeyinde satır seçme ve seçimi kaldırma
+Kılavuzdaki ilk sütunun en üstündeki onay kutusunu seçerek kılavuzdaki tüm satırları seçmeniz (veya seçimini kaldırmanız) için, ilgili grup üst bilgi satırındaki onay kutusunu seçerek bir gruptaki tüm satırları hızlıca seçebilir (veya seçimini kaldırırsınız). Grup üst bilgi satırındaki onay kutusu, tüm satırlar seçili, hiçbir satır seçilmemiş veya yalnızca bir miktar seçili olsa bile, bu gruptaki satırların geçerli seçim durumunu her zaman yansıtır.
+
+### <a name="hiding-column-names"></a>Sütun adlarını gizleme
+Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. 10.0.14/platform güncelleştirmesi 38 sürümünden başlayarak, **Kılavuz seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üstbilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
+
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 
 
@@ -131,7 +141,7 @@ Sonraki tüm kullanıcı oturumları yeni ızgara denetimi etkin olarak başlaya
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
 Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için formun `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Bu API, yeni kılavuz denetiminin zorunlu hale geleceği Ekim 2021'e kadar kabul edilecek. Lütfen bu API'nin kullanılmasını gerektiren tüm sorunları Microsoft'a bildirin. 
 

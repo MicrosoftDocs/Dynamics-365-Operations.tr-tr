@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208029"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803175"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir. 
 
@@ -42,8 +41,13 @@ Satın alma sözleşmenizin kullanılmasını ve onaylanmasını önlemek için,
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Satınalma anlaşmalarında sorumlu çalışanlar
 
-Satınalma Sözleşmesi sınıflandırmasındaki birincil sorumlu çalışanını ve ikincil sorumlu çalışanını tanımlayabilirsiniz. Bu değerler, sonuçta elde edilen satın alma sözleşmesi tarafından devralınır. Sorumlu çalışanları satınalma anlaşmasına eklemeniz gerekmez ve satınalma sözleşmesinin kendisi için bir servis talebi bazında doğrudan değiştirilebilir. Birincil sorumlu çalışanı olmadan, ikincil sorumlu çalışanına sahip olmanız gerekmese de, bir sorumlu çalışanını belirtemezsiniz. Hem birincil, hem de ikincil sorumlu çalışanından aynı çalışanı belirtemezsiniz. 
+Satınalma Sözleşmesi sınıflandırmasındaki birincil sorumlu çalışanını ve ikincil sorumlu çalışanını tanımlayabilirsiniz. Bu değerler, sonuçta elde edilen satın alma sözleşmesi tarafından devralınır. Sorumlu çalışanları satınalma anlaşmasına eklemeniz gerekmez ve satınalma sözleşmesinin kendisi için bir servis talebi bazında doğrudan değiştirilebilir. Birincil sorumlu çalışanı olmadan, ikincil sorumlu çalışanına sahip olmanız gerekmese de, bir sorumlu çalışanını belirtemezsiniz. Hem birincil, hem de ikincil sorumlu çalışanından aynı çalışanı belirtemezsiniz.
 
+> [!IMPORTANT]
+> Sorumlu taraf özelliğini kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+> 
+> - **Modül:** *Satınalma ve kaynaklandırma*
+> - **Özellik adı:** *Satınalma sözleşmesi sorumlu taraf*
 
 ## <a name="commitment-types"></a>Taahhüt türleri
 Satınalma sözleşmesindeki her satır bir şeyi satın almak için bir taahhüttür. Birden fazla satınalma siparişinden satırları taahhüdü yerine getirmek için kullanabilirsiniz. Dört tür taahhüt mevcuttur:
