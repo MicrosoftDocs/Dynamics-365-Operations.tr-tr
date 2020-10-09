@@ -3,8 +3,10 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'daki yenilikler veya değişiklikler
+        - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 16 Eylül 2020
+          href: hr-whats-new-2020-09-16.md
         - name: 3 Eylül 2020
           href: hr-whats-new-2020-09-03.md
         - name: 20 Ağustos 2020
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Özel alanlar oluşturma ve bunlarla çalışma
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: PowerApps uygulamalarını katıştırma
+            - name: Power Apps'taki tuval uygulamalarını katıştırma
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Aramaları kullanarak bilgi bulma
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
