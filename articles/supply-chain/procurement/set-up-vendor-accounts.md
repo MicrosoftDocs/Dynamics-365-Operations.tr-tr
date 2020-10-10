@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216109"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893173"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
@@ -66,7 +66,7 @@ Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, h
 
 Bir ilgili kişiye bir belgede başvuruluyorsa, bu ilgili kişi kaydını silemezsiniz. Bunun yerine, ilgili kişiyi devre dışı bırakabilirsiniz.  
 
-Microsoft Office 365'teki kişisel irtibatlarınıza satıcı ilgili kişileri ekleyebilirsiniz. Ancak, önce Supply Chain Management ve Office 365 arasında eşitlemeyi, hem Microsoft Exchange Server eşitlemesinde hem de Microsoft Outlook kurulum sihirbazında ayarlamanız gerekir.
+Microsoft 365'teki kişisel irtibatlarınıza satıcı ilgili kişileri ekleyebilirsiniz. Ancak, önce Supply Chain Management ve Microsoft 365 arasında eşitlemeyi, hem Microsoft Exchange Server eşitlemesinde hem de Microsoft Outlook kurulum sihirbazında ayarlamanız gerekir.
 
 ## <a name="vendors-in-different-legal-entities"></a>Farklı tüzel kişiliklerdeki satıcılar
 Eğer bir satıcı, kuruluşunuz içindeki yalnızca bir tüzel kişilik için kayıtlıysa ve diğer tüm tüzel kişiliklerin de aynı satıcıyı kaydetmesi gerekiyorsa, **Satıcıyı başka bir tüzel varlığa ekle** sayfasını kullanarak, satıcıyı başka tüzel varlıklarla iş yapmak üzere yapılandırabilirsiniz. Seçilmiş tüzel varlık içerisindeki satıcı için satıcı grubu, para birimi ve tutma durumunu seçmelisiniz.  

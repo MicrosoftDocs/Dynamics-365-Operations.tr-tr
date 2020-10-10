@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141534"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899361"
 ---
 # <a name="base-price-and-trade-agreements"></a>Taban fiyat ve ticari sözleşmeler
 
@@ -58,7 +58,7 @@ Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma süre
 26. **Ad** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 27. Listede, **Commerce**'i seçin. Tanıtım verilerinde **Commerce** günlük adının varsayılan ilişkisi **Fiyat (satış)**'tır. Bu, yeni oluşturulan tüm satırların varsayılan olarak satış fiyatı ticari anlaşmalarına ayarlanır.  
 28. **Eylem Bölmesi**'nde, **Satırlar** öğesine tıklayın.
-29. **Hesap kodu** alanında 'Grup'u seçin.
+29. **Taraf kodu türü** alanında "Grup"u seçin.
 30. **Hesap seçimi** alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 31. Listede, istenen kaydı bulun ve seçin. Kanaldan Fiyat grubuna, Fiyat grubundan Ticari anlaşmalara bağlantıyı tamamlar.  
 32. **Madde ilişkisi** alanına bir değer yazın.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772570"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893291"
 ---
 # <a name="document-printing-overview"></a>Belge yazdırmaya genel bakış
 
@@ -52,7 +52,7 @@ Aşağıdaki tabloda üç birincil yazdırma senaryosu açıklanmaktadır.
 Çözümler farklılık gösterdiğinden, senaryoya bağlı olarak uygulamalar, kullanıcıların hedeflerine ulaşmasına yardımcı olan yerleşik hizmet ve araçlar sunar:
 
 - **Senaryo 1** tarayıcının HTML5 istemcisi işleme işlemi tarafından desteklenir.
-- **Senaryo 2** istemci uygulamalarını ve Microsoft Office 365 hizmetlerini kullanır.
+- **Senaryo 2** istemci uygulamalarını ve Microsoft 365 hizmetlerini kullanır.
 - **Senaryo 3** istemci uygulamalarının ve Microsoft Azure içinde barındırılan hizmetlerin desteğini gerektirir.
 
 Azure aboneliğine dağıtılan platformun yanı sıra, Finance and Operations uygulamaları müşterilere etki alanında barındırılan hizmetleri belgeleri yazdırmak üzere daha kolay kullanma konusunda yardımcı olan tümleşik, birinci taraf bir Azure uygulaması sunar.

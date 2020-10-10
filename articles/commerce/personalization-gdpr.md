@@ -3,7 +3,7 @@ title: Kişiselleştirilmiş önerilerden vazgeçme
 description: Bu konu, müşterilerin Microsoft Dynamics 365 Commerce'ta kişiselleştirilmiş öneriler almamasına nasıl izin verileceğini açıklamaktadır.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664942"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817535"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Kişiselleştirilmiş önerilerden vazgeçme
 
@@ -74,7 +74,7 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 1. Perakende, Kullanıcı adına kişisel öneri verileri çekmek için özel bir uzantı oluşturur. Modül oluşturma, varolan modülleri kopyalama, Retail Server API'leri arama ve veri eylemleri arama hakkında bilgi için, bkz [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md).
 2. Özel uzantı **Tavsiyeler al** çekirdek verileri eylemine bir çağrı yapar ve listenin gereksinimlerine göre gerekli bilgileri geçirir. **Sizin için seçilen** liste için yapılan çekmeler durumunda, uzantı doğru liste adını ve müşteri kodunu veri eylemine iletmelidir.
 
-    Özel uzantıyı oluşturmanın bir yolu, öneri sonuçlarını döndürmek için kullanılan varolan ürün koleksiyonu modülünü klonlamaktır. Bu varolan modülü klonlayarak, bir satıcı varolan kodu değiştirebilir ve öneri sonuçlarını bir CSV dosyasına dışa aktarır yeni bir düğme ekleyebilir. Daha fazla bilgi için, bkz [Başlangıç kiti modülü kopyala](e-commerce-extensibility/clone-starter-module.md) ve [Ürün koleksiyon modülü](product-collection-module-overview.md).
+    Özel uzantıyı oluşturmanın bir yolu, öneri sonuçlarını döndürmek için kullanılan varolan ürün koleksiyonu modülünü klonlamaktır. Bu varolan modülü klonlayarak, bir satıcı varolan kodu değiştirebilir ve öneri sonuçlarını bir CSV dosyasına dışa aktarır yeni bir düğme ekleyebilir. Daha fazla bilgi için, bkz. [Modül kitaplığı modülünü kopyalama](e-commerce-extensibility/clone-starter-module.md) ve [Ürün koleksiyon modülü](product-collection-module-overview.md).
 
     Retail Server API kitaplığının tam görünümü için, [Retail Server müşteri ve tüketici API'leri](dev-itpro/retail-server-customer-consumer-api.md) konularına bakın.
 

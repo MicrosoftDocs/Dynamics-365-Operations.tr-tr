@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771857"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823467"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -103,6 +103,7 @@ Konsolidasyon sonuçlarını görüntülemek için birden fazla seçeneğiniz va
     ![Konsolidasyonlar sayfasındaki konsolidasyon hareketleri](./media/managing-consolidation-transactions.png "Konsolidasyonlar sayfasındaki konsolidasyon hareketleri")
 
 Konsolidasyonu tekrar çalıştırmak için konsolidasyonu işlemeniz yeterlidir. Alternatif olarak, önce **Konsolidasyonlar** sayfasındaki **Hareketleri kaldır**'ı seçebilirsiniz.
+Konsolide hesabınızdaki bakiyeler doğru değilse, bu bakiyeler **Kapanış dönemi ayarlamaları** sayfası kullanılarak düzeltilebilir.
 
 ## <a name="consolidate-with-import"></a>İçe aktarmayla konsolide et
 İçe aktarmayla konsolide et işlevi, Çevrimiçi olarak konsolide et işlevi gibi çalışır. Tüzel kişilikleri seçerken, verileri içeren kaynak dosya dışına göz atarsınız.
@@ -156,6 +157,7 @@ Bir konsolidasyon şirketinde para birimi yeniden değerleme işlemi hakkında d
 - Eleme günlükleri sadece geçerli katman için deftere nakledilebilir.
 - Sadece işletim bakiyeleri konsolide edilir. Bu nedenle açılış bakiyelerini görmek için konsolidasyon şirketinde hala bir yıl sonu kapanışı çalıştırmanız gerekir.
 - Günlüğü bir konsolidasyon şirketinde değil, eliminasyon şirketinde deftere nakledebilirsiniz.
+- Bir konsolidasyon şirketinde bakiyelerin ayarlamaları yalnızca **Kapanış dönemi ayarlamaları** sayfası kullanılarak yapılabilir. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Mali konsolidasyonlar ve para birimi çevirme için Mali raporlamayı kullanma veya konsolide raporlama için Çevrimiçi olarak konsolide etmeyi tamamlamayı avantajları
 Mali konsolidasyonlar ve para birimi çevirme için Mali raporlamayı veya konsolide raporlama için Çevrimiçi olarak konsolide etmeyi tamamlamayı kullanan müşteriler çeşitli kazançlar sağlar:

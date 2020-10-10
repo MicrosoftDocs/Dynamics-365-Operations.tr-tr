@@ -3,7 +3,7 @@ title: Site teması seçme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarlayabileceğiniz veya değiştirileceği açıklanmaktadır.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002763"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817718"
 ---
 # <a name="select-a-site-theme"></a>Site teması seçme
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarla
 
 Sitenin yerleşimi ve stili (örneğin, yazı tipleri, boyutlar ve renkler) seçtiğiniz ve siteye uyguladığınız Tema tarafından tanımlanır. Bir tema, şirketinizdeki bir geliştirici tarafından oluşturulur ve dağıtılır. Temalara genel bakış için, bkz [Temalara genel bakış](http://). Kural oluşturmayla ve temaları dağıtmayla ilgili daha fazla bilgi için bkz. [Yeni tema oluşturma](http://).
 
-Varsayılan olarak, bir siteyi ilk oluşturduğunuzda **Fabrikam** adlı bir tema kullanılır. Bu varsayılan tema, başlangıç kitinin bir parçası olarak sağlanmıştır. Siteniz için ek temalar dağıttıktan sonra, siteyi, bunun yerine bunlardan birini kullanacak şekilde konfigüre edebilirsiniz.
+Varsayılan olarak, bir siteyi ilk oluşturduğunuzda **Fabrikam** adlı bir tema kullanılır. Bu varsayılan tema, Commerce modül kitaplığının bir parçası olarak sağlanmıştır. Siteniz için ek temalar dağıttıktan sonra, siteyi, bunun yerine bunlardan birini kullanacak şekilde konfigüre edebilirsiniz.
 
 ## <a name="select-the-site-theme"></a>Site teması seçme
 

@@ -1,6 +1,6 @@
 ---
 title: Yöneticiler için Dynamics 365 Commerce öğrenme kataloğu
-description: Dynamics 365 Commerce için Tüm eğitim seçeneklerini bulun.
+description: Dynamics 365 Commerce uygulamasında yönetici rolü için tüm eğitim seçeneklerini bulun.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793405"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821216"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Dynamics 365 Commerce Yöneticileri için öğrenme kataloğu
 
@@ -39,7 +39,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 | İçerik  | Tanım  | Biçim  | Uzunluk    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Dynamics 365 Commerce dağıtımı](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | Bu öğrenme yolu her perakendecinin iş gereksinimleri açısından doğru topolojiyi kullanan başarılı Commerce uygulamaları için Dynamics 365 Commerce ortamlarının nasıl dağıtılacağını ve sağlama sonrası adımların nasıl gerçekleştirileceğini açıklar.                               | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat   |
+| [Dynamics 365 Commerce Uygulamasını Dağıtma ve Genişletme](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Bu öğrenme yolu her perakendecinin iş gereksinimleri açısından doğru topolojiyi kullanan başarılı Commerce uygulamaları için Dynamics 365 Commerce ortamlarının nasıl dağıtılacağını ve sağlama sonrası adımların nasıl gerçekleştirileceğini açıklar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat   |
 | [Dynamics 365 Commerce'te satış noktasını (POS) yapılandırma ve kullanma](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Hareket verileri Satış noktasında (POS) oluşturulur ve sonra Dynamics 365 Commerce Headquarters'a işlenmek üzere yüklenir. Bu öğrenme yolu, POS'un nasıl yükleneceği, nasıl etkinleştirileceği ve günlük hareketlerin nasıl oluşturulacağını açıklar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4.5 saat |
 | [Dynamics 365 Commerce'te çağrı merkezlerini yapılandırma ve bunlarla çalışma](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce, bir çağrı merkezine belirli sipariş işleme ayarlarını ve çağrı merkezi kullanıcıları tarafından oluşturulan satış siparişlerine veri varsayılanlarını varsayılan yapma olanağı sağlayan bir çok yönlü kanal çözümüdür.                                  | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2 saat   |
 

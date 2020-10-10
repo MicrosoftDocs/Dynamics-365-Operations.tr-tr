@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383102"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837275"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -368,7 +368,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 <td>Çalışanın konumdaki en eski toplu işi ilk çekip çekmemesi gerektiğini belirtin. Aşağıdaki seçenekler bulunur:
 <ul>
 <li><strong>Yok</strong> – Çalışan konumdaki herhangi bir toplu işi çekebilir. Çalışan ileti almaz.</li>
-<li><strong>Uyar</strong> – Çalışan konumdaki herhangi bir toplu işi çekebilir fakat toplu iş en eski toplu iş değilse bir uyarı iletisi alır.</li>
+<li><strong>Uyarı</strong> – Çalışan konumdaki herhangi bir toplu işi çekebilir fakat toplu iş en eski toplu iş değilse bir uyarı iletisi alır.</li>
 <li><strong>Zorla</strong> – Çalışan konumdaki en eski toplu işi çekmelidir. Çalışan toplu iş en eski toplu iş değilse bir hata iletisi alır. <strong>Not:</strong> Bu seçenek yalnızca <strong>Toplu iş numarası</strong> maddeye atanan rezervasyon hiyerarşisindeki <strong>Konum</strong>'dan daha düşükse geçerlidir.</li>
 </ul></td>
 </tr>
@@ -399,6 +399,9 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 <tr class="odd">
 <td>İş şablonu kodu</td>
 <td>Bir işlem için işi oluşturacak iş şablonunu seçin. Örneğin, bir satınalma siparişi için bir ürün alırsanız, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonu seçmezseniz, Supply Chain Management sorgu kriterine dayanarak bir şablon atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
+<tr class="even">
+<td>İş satırı listesini göster</td>
+<td>Çalışanların şu anda seçili malzeme çekme çalışmasının satırlarını nasıl görüntüleyebileceğini ve etkileşimde bulunabileceğini seçmek için bir seçenek belirleyin. Bu seçenek hakkında daha fazla bilgi edinmek için, bkz. <a href="pick-line-overview.md">Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şekilde ayarlama</a>.</td>
 </tr>
 </tbody>
 </table>

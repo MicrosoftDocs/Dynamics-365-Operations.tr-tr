@@ -3,7 +3,7 @@ title: Derecelendirmelere ve inceleme modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'un ürün ayrıntıları sayfalarında kullanılan derecelendirmeleri ve İnceleme modüllerini kapsamaktadır.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 02/17/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: ee2a2a781537b592fb5f80ce424a7331c4e21d41
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071902"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817742"
 ---
 # <a name="ratings-and-reviews-modules"></a>Derecelendirmelere ve inceleme modülleri
 
@@ -87,13 +87,13 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken ürün 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Konteyner modülü](add-container-module.md)
+[Kapsayıcı modülü](add-container-module.md)
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
-[Ödeme modülü](add-checkout-module.md)
+[Ödeme yapma modülü](add-checkout-module.md)
 
 [Sipariş onayı modülü](order-confirmation-module.md)
 

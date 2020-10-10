@@ -3,7 +3,7 @@ title: Sepet ve ödeme sayfalarına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta sepet ve ödeme sayfalarına genel bakış sağlar.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527592"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817790"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Sepet ve ödeme sayfalarına genel bakış
 
@@ -40,7 +40,7 @@ Bir e-ticaret Web sitesinin kullanıma alma sayfası, müşterinin sipariş verm
 
 Sepet sayfası, alışveriş çantası olarak hizmet görür ve sepete eklenen tüm maddeleri içerir.
 
-Aşağıdaki çizimde, başlangıç kiti ve "Fabrikam" teması kullanılarak oluşturulmuş bir sepet sayfası örneği gösterilmektedir.
+Aşağıdaki çizimde, modül kitaplığı ve "Fabrikam" teması kullanılarak oluşturulmuş bir sepet sayfası örneği gösterilmektedir.
 
 ![Sepet sayfası örneği](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Bir sepet sayfasının nasıl yazılacağıyla ilgili bilgi için, bkz. [Sayfaya
 
 Kullanıma alma sayfası, müşterinin bir siparişi yerleştirmek için gereken bilgileri girebildiği yerdir.
 
-Aşağıdaki çizimde, çevrimiçi başlangıç kiti kullanılarak oluşturulmuş bir ödeme sayfası örneği gösterilmektedir.
+Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir ödeme sayfası örneği gösterilmektedir.
 
 ![Ödeme sayfası örneği](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Kullanıma alma sayfasının ana gövdesi tüm sipariş bilgilerinin toplandığ
 
 Maddelerin sevk edilmesi gerekiyorsa sevkiyat adresi gereklidir. Her bir yerel ayarın sevkiyat adreslerinin biçimi Dynamics 365 Commerce'de yapılandırılabilir. Örneğin, maddeler Amerika Birleşik Devletleri sevk edilecekse, sevkiyat adresi bir sokak adresi, il ve Posta Kodu içermelidir. Bazı temel giriş doğrulamaları, alfasayısal karakterler, maksimum uzunluk ve sayıların doğrulaması gibi adres alanlarının sevkiyatı için yapılır. Adresin geçerliliği doğrulanmasa da, bu doğrulama özelleştirilmiş üçüncü taraf hizmetler kullanılarak yapılabilir.
 
-Sevkiyat adresi, "sevk et" seçeneğinin işaretli olduğu sepetteki tüm maddelere uygulanır. Çevrimiçi başlatıcı seti içinde sağlanan kullanıma alma akışını kullanırsanız, bireysel alışveriş maddeleri farklı adreslere sevk edilebilir. Bu yeteneğe gereksinim duyarsanız, kullanıma alma modülleri özelleştirilmesiyle gerçekleştirilebilir.
+Sevkiyat adresi, "sevk et" seçeneğinin işaretli olduğu sepetteki tüm maddelere uygulanır. Çevrimiçi modül kitaplığı içinde sağlanan kullanıma alma akışını kullanırsanız, bireysel alışveriş maddeleri farklı adreslere sevk edilebilir. Bu yeteneğe gereksinim duyarsanız, kullanıma alma modülleri özelleştirilmesiyle gerçekleştirilebilir.
 
 Sevkiyat Adresi sağlandığında, Dynamics 365 Commerce çevrimiçi mağazadan kullanılabilen Sevkiyat Yöntemleri gösterilir. Sevkiyat Yöntemleri ve destekledikleri adresler Commerce'de konfigüre edilebilir.
 
@@ -80,7 +80,7 @@ Sağlama akışı sırasında, bir bağlılık programına üye olan ve tahakkuk
 
 #### <a name="gift-cards"></a>Hediye kartları
 
-Çevrimiçi başlatıcı seti, bir sipariş için dahili hediye kartlarından daha fazla kullanılabilir olmasını sağlar. Dahili bir hediye kartı uygulamak için, müşterinin oturum açmış olması gerekir. Ek güvenlik için, dahili hediye kartları için bir kişisel kimlik numarası (PIN) kullanarak akışı özelleştirmenizi öneririz.
+Çevrimiçi modül kitaplığı, bir sipariş için dahili hediye kartlarından daha fazla kullanılabilir olmasını sağlar. Dahili bir hediye kartı uygulamak için, müşterinin oturum açmış olması gerekir. Ek güvenlik için, dahili hediye kartları için bir kişisel kimlik numarası (PIN) kullanarak akışı özelleştirmenizi öneririz.
 
 ### <a name="signed-in-and-guest-users"></a>Oturum açmış ve konuk kullanıcılar
 

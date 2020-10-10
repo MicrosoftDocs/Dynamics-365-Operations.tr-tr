@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761141"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818287"
 ---
 # <a name="cart-module"></a>Sepet modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -41,11 +40,11 @@ Sepet modülü, tüm sitede kullanılabilen bir tarayıcı tanımlama bilgisi ol
 
 Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilmektedir.
 
-![Sepet modülü örneği](./media/cart2.PNG)
+![Fabrikam sitesindeki bir sepet modülü örneği](./media/cart2.PNG)
 
 Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilmektedir. Bu örnekte, bir satır maddesi için işleme masrafı vardır.
 
-![Sepet modülü örneği](./media/ecommerce-handling-fee.png)
+![Satır ögesi için işleme ücreti bulunan bir sepet modülü örneği](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Sepet modülü özelliklerini ve yuvaları
 

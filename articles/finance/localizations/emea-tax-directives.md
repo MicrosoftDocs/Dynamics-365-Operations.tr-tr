@@ -3,7 +3,7 @@ title: Avrupa için vergi yönergeleri
 description: Satış faturalarına ve proje faturalarına satış vergisi kodu açıklaması eklemeyi seçebilirsiniz. Satış faturalarına, serbest metin faturalarına ve proje faturalarına referans numaraları yazdırabilirsiniz.
 author: epodkolz
 manager: AnnBe
-ms.date: 06/03/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: 2f0da36e2be20d5ae8c838ed73c6e8aa1c19b621
+ms.sourcegitcommit: 814476906187480262b390ca49e487eb91738deb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3423001"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819113"
 ---
 # <a name="tax-directives-for-europe"></a>Avrupa için vergi yönergeleri
 
@@ -32,4 +32,4 @@ AB Yönergesi, fatura kuralları ve fatura oluşturulurken dahil edilmesi gereke
 - Kredi notları için, orijinal faturanın numarası ve tarihi, düzeltme sebebiyle birlikte yazdırılır.
 
 > [!NOTE]
-> **Satış vergisi özelliği** alanının **kayıt para birimine** veya **kayıt ve Şirket para birimine** ayarlandığını **Form ayarı** sayfasından (**Alacaklar** > **Ayar** > **Formlar** > **Form ayarı** seçeneklerini **Genel sekmesinden** açarak) doğrulayın.
+> **Satış vergisi özelliği** alanının **Kayıt para birimi** değerine veya **Kayıt ve Şirket para birimi** değerine ayarlandığını **Form ayarı** sayfasından **Genel** sekmesinden (**Alacak hesaplar > Ayar >Formlar >Form ayarı** veya **Proje yönetimi ve muhasebe > Ayar > Formlar > Form ayarlar**) doğrulayın.
