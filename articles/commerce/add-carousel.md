@@ -3,7 +3,7 @@ title: Döngü modülü
 description: Bu konu döngü kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10ff0cd566a1a8d89ccadce9571dafc5a592520b
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3620998"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816998"
 ---
 # <a name="carousel-module"></a>Döngü modülü
 
@@ -77,12 +77,12 @@ Bir yeni sayfaya döngü modülü eklemek ve gerekli özellikleri ayarlamak içi
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Promosyon başlığı modülü](add-alert.md)
 
-[Metin bloku modülü](add-content-rich-block.md)
+[Metin bloğu modülü](add-content-rich-block.md)
 
-[İçerik blok modülü](add-hero-module.md)
+[İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)

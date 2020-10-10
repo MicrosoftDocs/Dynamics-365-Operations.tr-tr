@@ -1,9 +1,9 @@
 ---
 title: Alt bilgi modülü
 description: Bu konu altbilgi modüllerini ve bunların nasıl Dynamics 365 Commerce içine yazılacağını kapsamaktadır.
-author: anupamar
+author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761214"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816973"
 ---
 # <a name="footer-module"></a>Alt bilgi modülü  
 
@@ -72,15 +72,15 @@ Parçayı sayfa şablonlarına ekleyerek, altbilginin her sayfada oluşturulmas�
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Konteyner modülü](add-container-module.md)
+[Kapsayıcı modülü](add-container-module.md)
 
 [Satın alma kutusu modülü](add-buy-box.md)
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
-[Ödeme modülü](add-checkout-module.md)
+[Ödeme yapma modülü](add-checkout-module.md)
 
 [Sipariş onayı modülü](order-confirmation-module.md)
 

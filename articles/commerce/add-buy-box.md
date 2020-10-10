@@ -3,7 +3,7 @@ title: Satın alma kutusu modülü
 description: Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761309"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817097"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
@@ -75,9 +75,12 @@ Aşağıdaki satın alma kutusu modülü ayarları **Site Ayarları \> Uzantıla
 - **Stok** - Stok ayarlarının nasıl uygulanacağı hakkında bilgi için bkz. [Envanter ayarları uygula](inventory-settings.md).
 - **Sepete Ekle** - Bu özellik, bir öğe alışveriş sepetine eklendikten sonra davranışı belirtmek için kullanılır. Olası değerler **alışveriş sepetine gidin**, **sepete gitmeyin** ve **bildirimleri göster**. Değer **sepete gitmek** üzere ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilir. Değer **sepete gitme** olarak ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilmez. Değer **bildirimleri gösterecek** şekilde ayarlandığında kullanıcılara bir onay bildirimi gösterilir ve ürün ayrıntıları sayfasına gözatmaya devam edebilir. 
 
-    Aşağıdaki resimde fabrikam sitesindeki "Sepete eklenen" onay bildirimine bir örnek gösterilmektedir.
+> [!IMPORTANT]
+> **Sepete ekle** site ayarları Dynamics 365 Commerce 10.0.11 sürümünde bulunabilir. Dynamics 365 Commerce'nin eski sürümlerinden birini güncelleştiriyorsanız, appSettings. json dosyasını el ile güncelleştirmeniz gerekir. AppSettings.json dosyasını güncelleştirme yönergeleri için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Bildirim modülü örneği](./media/ecommerce-addtocart-notifications.PNG)
+Aşağıdaki resimde fabrikam sitesindeki "Sepete eklenen" onay bildirimine bir örnek gösterilmektedir.
+
+![Bildirim modülü örneği](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 
@@ -111,7 +114,7 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Mağaza seçicisi modülü](store-selector.md)
 
@@ -129,6 +132,8 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 
 [Alt bilgi modülü](author-footer-module.md)
 
-[Sosyal içerik paylaşım modülü](social-share-module.md)
+[Sosyal paylaşım modülü](social-share-module.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
+
+[SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)

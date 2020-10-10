@@ -3,7 +3,7 @@ title: Çoklu kanal ödemeleri genel bakışı
 description: Bu konu, Dynamics 365 Commerce Omni-Channel ödemelerinin genel görünümünü sağlar.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613189"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819825"
 ---
 # <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
 
@@ -92,6 +92,9 @@ Aşağıdaki Omni-Channel ödeme senaryoları desteklenir:
 - Çağrı merkezinde satın al ve mağazadan teslim al
 - Mağaza A'dan satın al ve mağazadan B teslim al
 - Mağaza A'da satın al, sevkiyat müşterisi
+
+    > [!NOTE]
+    > Çağrı merkezinde yapılmış, "Normal" ödeme işleviyle eşlenen ödemeler, POS 'ta sipariş geri çağırıldığında kalan tutara yansıtılacak **Ön ödeme** = **Evet** olarak işaretlenmelidir. "Normal" tipindeki ön ödeme olmayan ödemeler, sipariş POS'ta geri çağırıldığı sırada tanınmaz. 
 
 Bu senaryoların varyasyonları da desteklenmektedir. Örneğin, bir çevrimiçi siparişte hem müşteriye sevk edilecek satırlar, hem de bir mağazada çekilecek satırlar bulunabilir. Tüm sipariş karşılama seçenekleri, Omni-kanal ödemeleri ile desteklenir. 
 
@@ -190,8 +193,8 @@ Senaryoyu çalıştırmak için şu adımları izleyin.
 2. **Hareket** sayfasında, **2001** girmek için sayı panelini kullanarak hareketi harekete bir şekilde ekleyin.
 3. Harekete bir veya birden fazla satır ekle.
 4. Sipariş seçeneklerini görmek için **Siparişler**'i seçin.
-5. **Tümünü çek**'i seçin ve istendiğinde **müşteri siparişi**'ni seçin.
-6. Aramaya **Seattle**girin ve malzeme çekme için **Seattle** deposunu seçin. 
+5. **Tümünü sevk et**'i seçin ve istendiğinde **Müşteri siparişi**'ni seçin.
+6. Sevkiyat yöntemi sayfasında, **Standart ertesi gün** ögesini seçin ve sevkiyat tarihi olarak bugünün tarihini kabul etmek için **Tamam**'ı seçin. 
 7. Malzeme çekme tarihi olarak geçerli tarihi kabul etmek için **Tamam**'ı seçin.
 8. Ödemeyi başlatmak için **Ödeme kartı**'nı seçin.
 9. Kart ödemesini, ödem için gerekli olan tutar için yapın. 
@@ -233,5 +236,5 @@ Birden çok ilgili ve birden çok satırı bulunan bir sipariş çekildiğinde, 
 
 - [Ödemeler ile ilgili SSS](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

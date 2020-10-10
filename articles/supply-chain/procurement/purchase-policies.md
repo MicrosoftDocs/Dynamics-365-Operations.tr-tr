@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207914"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830761"
 ---
 # <a name="purchasing-policies-overview"></a>Satınalma ilkelerine genel bakış
 
@@ -60,11 +60,11 @@ Tüzel kişilik 2222 personeli bir satınalma talebi oluşturduğunda, ilke kura
 
 Contoso, talep oluşturma sürecini kontrol etmek için kapsamlı satın alma kuralları oluşturması gereken, büyük bir şirkettir. Contoso biri Departman ve diğeri Küresel satın alma kontrolü olmak üzere iki farklı organizasyon hiyerarşisi için kurallar tanımlamıştır.  
 
-Politika 123, İngiltere Satışları – Satış Departmanı için Departman organizasyon hiyerarşisi için tanımlanmıştır. 123 politikasında satın alma talebi kontrol kuralı, minimum sipariş miktarları için mutlaka uygulanması gereken kısıtlamaları belirler. Bu kuralda **Minimum sipariş miktarı kısıtlamalarını uygula** seçimi yapılmıştır.  
+Politika 123, Birleşik Krallık Satışları – Satış Departmanı için Departman organizasyon hiyerarşisi için tanımlanmıştır. 123 politikasında satın alma talebi kontrol kuralı, minimum sipariş miktarları için mutlaka uygulanması gereken kısıtlamaları belirler. Bu kuralda **Minimum sipariş miktarı kısıtlamalarını uygula** seçimi yapılmıştır.  
 
 Politika 456, Satış ve Pazarlama departmanı için Küresel satın alma kontrolü organizasyon hiyerarşisi için tanımlanmıştır. 456 politikasında satın alma talebi kontrol kuralı, minimum sipariş miktarları için mutlaka uygulanması gereken kısıtlamaları belirlemez. Bu kuralda **Minimum sipariş miktarı kısıtlamalarını uygula** seçimi kaldırılmıştır.  
 
-Sam, Contoso’nun Birleşik Krallık ofisinde, İngiltere Satışları – Satış departmanında çalışmaktadır. Hem Departman hem Küresel satın alma kontrolü organizasyon hiyerarşileri için politikalar bu departman için geçerli olacaktır. SAM bir satın alma talebi oluşturduğunda sistemin mutlaka hangi politikayı uygulayacağını belirlemesi gerekir. Sistem yöneticisi, satın alma politikalarının aşağıdaki öncelik sırasına göre uygulanmasını sağlamak için satın alma politikası parametrelerini ayarlar:
+Sam, Contoso’nun Birleşik Krallık ofisinde, Birleşik Krallık Satışları – Satış departmanında çalışmaktadır. Hem Departman hem Küresel satın alma kontrolü organizasyon hiyerarşileri için politikalar bu departman için geçerli olacaktır. SAM bir satın alma talebi oluşturduğunda sistemin mutlaka hangi politikayı uygulayacağını belirlemesi gerekir. Sistem yöneticisi, satın alma politikalarının aşağıdaki öncelik sırasına göre uygulanmasını sağlamak için satın alma politikası parametrelerini ayarlar:
 
 1.  Küresel satın alma kontrolü
 2.  Departman
@@ -102,9 +102,9 @@ Satın alma talebi RFQ kuralı bir satın alma talebi satırı için teklif tale
 
 ### <a name="purchase-requisition-control-rule"></a>Satınalma talebi denetim kuralı
 
-Satın alma talebi kontrol kuralı isteğe bağlı bir kuraldır. Bu türde kurallar oluşturduğunuzda çeşitli sekmelerdeki seçenekleri yapılandırabilirsiniz:
+**Tüketim** türündeki taleplerin satınalma talebi kontrol kuralı isteğe bağlı bir kuraldır. Bu türde kurallar oluşturduğunuzda çeşitli sekmelerdeki seçenekleri yapılandırabilirsiniz:
 
--   **İş akışı gönderme** sekmesinde, talep amacı **Tüketim** olduğunda talebin onay için gönderilebilmesi için talep satırında mutlaka doldurulması gereken alanları yapılandırabilirsiniz.
+-   **İş akışı gönderme** sekmesinde talebin onaya gönderilebilmesi için talep satırında mutlaka doldurulması gereken alanları yapılandırabilirsiniz.
 -   **Sipariş miktarları** sekmesinde, belirli koşullar altında satın alma talebinde mutlaka bulunması gereken alanları yapılandırabilirsiniz. Sipariş miktarlarını da zorlayabilirsiniz.
 -   **Tarihler** sekmesinde, hesaplama tarihinin talep edilen tarihle aynı olup olmayacağını yapılandırabilirsiniz.
 -   **Adres** sekmesinde, kullanıcının satın alma talebine uygulanmak üzere sistemde yeni adres oluşturmasına izin verilip verilmeyeceğini tanımlayabilirsiniz.

@@ -3,7 +3,7 @@ title: İş akışı SSS
 description: Bu konu, iş akışı sistemi hakkında sık sorulan soruları yanıtlamaktadır.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076098"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826202"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 
@@ -58,3 +58,5 @@ Yükseltilmiş bir ortamda Active Directory Federasyon Hizmetleri (AD FS) altın
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>İş akışı işlemede niçin SQL kilitlenmeleri alıyorum? 
 **İş akışı parametreleri** sayfasındaki **toplu iş başına madde sayısı** için varsayılan alan değeri 0'dır. 0 değeri, varsayılan değerin toplu iş başına 20 öğe değiştirmesine neden olur. Toplu iş (> 40) başına yüksek sayıda madde SQL kilitlenmesine neden olabileceği için, bu değeri ayarlarken dikkatli olun.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>İyileştirilmiş İş Akışı Hatası özelliği nedir?
+10.0.13 sürümündeki Gelişmiş İş Akışı Hatası özelliği, farklı iş akışı hatalarının sınıflarını ayırt edebilmek için hata kodları ekler. Bildirilen hata iletileri, daha anlaşılır hale getirmek için küçük farklılıklar içerse de çoğunlukla benzer olacaktır.

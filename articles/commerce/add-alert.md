@@ -3,7 +3,7 @@ title: Promosyon başlık modülü
 description: Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411377"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817266"
 ---
 # <a name="promo-banner-module"></a>Promosyon başlık modülü
 
@@ -87,12 +87,12 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Döngü modülü](add-carousel.md)
 
-[Metin bloku modülü](add-content-rich-block.md)
+[Metin bloğu modülü](add-content-rich-block.md)
 
-[İçerik blok modülü](add-hero-module.md)
+[İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)

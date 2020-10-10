@@ -3,7 +3,7 @@ title: Harita modülü
 description: Bu konu harita modüllerini ve bunların Microsoft Dynamics 365 Commerce'te nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811196"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817218"
 ---
 # <a name="map-module"></a>Harita modülü
 
@@ -38,7 +38,8 @@ Harita modülü, [Bing Haritalar V8 Web Denetimi](https://docs.microsoft.com/bin
 
 Bir harita modülü, bir haritada işlenmesi gereken mağazaların coğrafi konumlarını belirlemek için mağaza seçici modülüyle birlikte çalışır. Bir kullanıcı site sayfasında bu modüllerden birinde bir mağaza seçtiğinde mağaza seçici ve harita modülleri etkileşime girer. Harita modülleri, mağaza seçici modülleriyle etkileşimi dışında diğer senaryolar için genişletilebilir. Ancak, modül özelleştirmesi gereklidir.
 
-Harita modülü Commerce 10.0.13 sürümünde kullanıma sunulmuştur.
+> [!NOTE]
+> Harita modülü Dynamics 365 Commerce 10.0.13 sürümünde bulunur.
 
 Aşağıdaki resimde mağaza konumları sayfasında kullanılan bir harita modülü örneği gösterilmektedir.
 
@@ -70,11 +71,11 @@ Bir sayfada harita modülünü yapılandırma hakkında ayrıntılı bilgi için
  
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Satınalma kutusu modülü](add-buy-box.md)
+[Satın alma kutusu modülü](add-buy-box.md)
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
 [Mağaza seçicisi modülü](store-selector.md)
 

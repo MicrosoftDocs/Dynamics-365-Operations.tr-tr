@@ -3,7 +3,7 @@ title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646147"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818262"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -65,7 +64,7 @@ Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılac
 
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
-![Mağaza seçici modülü örneği](./media/BOPIS.PNG)
+![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Mağaza bulma modu
 
@@ -73,7 +72,7 @@ Mağaza seçici modülü **Mağazaları bul** modunu da destekler. Bu mod, kulla
 
 Aşağıdaki çizimde, bir mağaza konumları sayfasındaki harita modülüyle birlikte kullanılan bir mağaza seçici modülü örneği gösterilmektedir.
 
-![Mağaza seçici modülü örneği](./media/ecommerce-Storelocator.PNG)
+![Mağaza konumları sayfasında mağaza seçici modülü ile harita modülü örneği](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Harita oluşturma
 
@@ -127,11 +126,11 @@ Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğ
  
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Satınalma kutusu modülü](add-buy-box.md)
+[Satın alma kutusu modülü](add-buy-box.md)
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
 [PDP'ye hızlı gezinti](quick-tour-pdp.md)
 
