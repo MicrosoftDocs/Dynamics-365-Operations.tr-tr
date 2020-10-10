@@ -1,12 +1,12 @@
 ---
 title: Finance and Operations Uygulamalar veya Lifecycle Services (LCS) için destek alın
 description: Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) ile yardım almayı açıklar.
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,79 +17,55 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005528"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817910"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="90051-103">Finance and Operations Uygulamalar veya Lifecycle Services (LCS) için destek alın</span><span class="sxs-lookup"><span data-stu-id="90051-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a><span data-ttu-id="80dd1-103">Finance and Operations Uygulamalar veya Lifecycle Services (LCS) için destek alın</span><span class="sxs-lookup"><span data-stu-id="80dd1-103">Get support for Finance and Operations apps or Lifecycle Services (LCS)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="90051-104">Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) ile yardım almayı açıklar.</span><span class="sxs-lookup"><span data-stu-id="90051-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
-
-## <a name="contact-support"></a><span data-ttu-id="90051-105">Destek ekibiyle bağlantı kurun</span><span class="sxs-lookup"><span data-stu-id="90051-105">Contact support</span></span>
-
-<span data-ttu-id="90051-106">Teknik sorularınız varsa veya Microsoft Dynamics Lifecycle Services (LCS) erişimi konusunda yardıma ihtiyacınız varsa Microsoft ile iletişime geçmek için bu makaledeki bilgileri kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-106">Use the information in this article to contact Microsoft if you have technical questions, or if you need help accessing Microsoft Dynamics Lifecycle Services (LCS).</span></span>
-
-### <a name="finance-and-operations-apps-support"></a><span data-ttu-id="90051-107">Finance and Operations uygulama desteği</span><span class="sxs-lookup"><span data-stu-id="90051-107">Finance and Operations apps support</span></span>
-
-<span data-ttu-id="90051-108">Destek almak için aşağıdaki tabloda bulunan kaynakları kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-108">To obtain support, use the resources in the following table.</span></span> <span data-ttu-id="90051-109">Bu kaynaklar, sorun giderme sırasında kullanmanızı önerdiğimiz sırada listelenmiştir.</span><span class="sxs-lookup"><span data-stu-id="90051-109">These resources are listed in the order that we recommend that you follow when you're troubleshooting.</span></span>
+<span data-ttu-id="80dd1-104">Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle Services (LCS) ile yardım almayı açıklar.</span><span class="sxs-lookup"><span data-stu-id="80dd1-104">This topic explains how to get help with Finance and Operations apps or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
-<th><span data-ttu-id="90051-110">Görev</span><span class="sxs-lookup"><span data-stu-id="90051-110">Task</span></span></th>
-<th><span data-ttu-id="90051-111">Daha fazla bilgi</span><span class="sxs-lookup"><span data-stu-id="90051-111">More information</span></span></th>
+<tr>
+<th><span data-ttu-id="80dd1-105">Görev</span><span class="sxs-lookup"><span data-stu-id="80dd1-105">Task</span></span></th>
+<th><span data-ttu-id="80dd1-106">Daha fazla bilgi</span><span class="sxs-lookup"><span data-stu-id="80dd1-106">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><span data-ttu-id="90051-112">Topluluğa sorun.</span><span class="sxs-lookup"><span data-stu-id="90051-112">Ask the community.</span></span></td>
-<td><span data-ttu-id="90051-113">Sorularınıza Dynamics topluluğundan yanıt almak için <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Topluluk sayfasına</span></a> gidin.</span><span class="sxs-lookup"><span data-stu-id="90051-113">Go to the <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Community page</span></a> to find help with your questions from the Dynamics community.</span></span></td>
+<tr>
+<td><span data-ttu-id="80dd1-107">Topluluğa sorun.</span><span class="sxs-lookup"><span data-stu-id="80dd1-107">Ask the community.</span></span></td>
+<td><span data-ttu-id="80dd1-108">Microsoft Dynamics topluluğu sayfasına giderek sorularınıza <a href="https://community.dynamics.com/">Dynamics 365</a> topluluğundan yanıt bulun.</span><span class="sxs-lookup"><span data-stu-id="80dd1-108">Go to the <a href="https://community.dynamics.com/">Dynamics 365 Community</a> page to get help with your questions from the Microsoft Dynamics community.</span></span></td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="90051-114">Konu arama aracını kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-114">Use the Issue search tool.</span></span></td>
-<td><span data-ttu-id="90051-115"><a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>'de, Microsoft Bilgi Bankası (KB) makalelerini, düzeltmeleri ve bildirilen sorunlara yönelik geçici çözümleri hızlıca aramak için Konu arama'yı kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-115">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, use Issue search to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="90051-116">Raporlanan hangi sorunlar düzeltilme aşamasında olduğunu veya belirli bir işlev alanı için halihazırda düzeltilmiş olduğunu görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="90051-116">You can see which reported issues are in the process of being fixed or have already been fixed for a specific functional area .</span></span> <span data-ttu-id="90051-117">Daha fazla bilgi için bkz. <a href="issue-search-lcs.md"><span style="color: #0066cc;">Konu arama (Lifecycle Services, LCS)</span></a>.</span><span class="sxs-lookup"><span data-stu-id="90051-117">For more information, see <a href="issue-search-lcs.md"><span style="color: #0066cc;">Issue search (Lifecycle Services, LCS)</span></a>.</span></span></td>
+<tr>
+<td><span data-ttu-id="80dd1-109">Lisanslama ile ilgili sorularınız için yardım alın.</span><span class="sxs-lookup"><span data-stu-id="80dd1-109">Get help with questions about licensing.</span></span></td>
+<td><span data-ttu-id="80dd1-110">Partnerinizle veya Microsoft satış temsilcinizle iletişime geçin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-110">Contact your partner or a Microsoft sales representative.</span></span></td>
 </tr>
-<tr class="odd">
-<td><span data-ttu-id="90051-118">Buluttan sağlanan destek aracını kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-118">Use the Cloud-powered support tool.</span></span></td>
-<td><span data-ttu-id="90051-119"><a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> içerisinde, <strong>Destek</strong> kutucuğu, destek olaylarını yönetmenize yardımcı olan bir araçtır.</span><span class="sxs-lookup"><span data-stu-id="90051-119">In <a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a>, the <strong>Support</strong> tile is a tool that helps you manage support incidents.</span></span> <span data-ttu-id="90051-120">Sorunları doğrudan Microsoft'a göndermek için LCS projenizdeki <strong>Destek</strong> kutucuğuna gidin.</span><span class="sxs-lookup"><span data-stu-id="90051-120">To submit issues directly to Microsoft, go to the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="90051-121">Buradan sorunları iki şekilde gönderebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="90051-121">From there, you can submit issues in two ways:</span></span>
+<tr>
+<td><span data-ttu-id="80dd1-111"><strong>Konu arama</strong> aracını kullanın.</span><span class="sxs-lookup"><span data-stu-id="80dd1-111">Use the <strong>Issue search</strong> tool.</span></span></td>
+<td><span data-ttu-id="80dd1-112"><a href="https://lcs.dynamics.com/">LCS'de</a>, Microsoft Bilgi Bankası (KB) makalelerini, düzeltmeleri ve bildirilen sorunlara yönelik geçici çözümleri hızlıca aramak için <strong>Konu arama'yı</strong> kullanın.</span><span class="sxs-lookup"><span data-stu-id="80dd1-112">In <a href="https://lcs.dynamics.com/">LCS</a>, use the <strong>Issue search</strong> tool to quickly search for Microsoft Knowledge Base (KB) articles, hotfixes, and workarounds for reported issues.</span></span> <span data-ttu-id="80dd1-113">Raporlanan belirli bir işlev alanı için hangi sorunlar düzeltilme aşamasında olduğunu veya halihazırda düzeltilmiş olduğunu görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="80dd1-113">You can see which reported issues are in the process of being fixed for a specific functional area, and which issues have already been fixed.</span></span> <span data-ttu-id="80dd1-114">Daha fazla bilgi için bkz. <a href="issue-search-lcs.md">Konu arama (Lifecycle Services, LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="80dd1-114">For more information, see <a href="issue-search-lcs.md">Issue search (Lifecycle Services, LCS)</a>.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="80dd1-115">Uygulama içi destek alın.</span><span class="sxs-lookup"><span data-stu-id="80dd1-115">Get in-app support.</span></span></td>
+<td><span data-ttu-id="80dd1-116">Uygulamanın sağ üst köşesindeki <strong>Yardım</strong> (<strong>?</strong>) düğmesini seçin ve sonra <strong>Destek</strong>'i seçin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-116">Select the <strong>Help</strong> button (<strong>?</strong>) in the upper-right corner of the app, and then select <strong>Support</strong>.</span></span> <span data-ttu-id="80dd1-117">Sorunlar, LCS içindeki <strong>Etkin sorunlar</strong> sekmesinde raporlanır.</span><span class="sxs-lookup"><span data-stu-id="80dd1-117">Issues are reported on the <strong>Active issues</strong> tab in LCS.</span></span> <span data-ttu-id="80dd1-118">Yöneticiler orada, şirket içinde destek sağlayıp sağlamadıklarını belirleyebilir veya sorunları Microsoft 'a gönderebilir.</span><span class="sxs-lookup"><span data-stu-id="80dd1-118">There, admins can determine whether they should provide in-house support or submit the issues to Microsoft.</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="80dd1-119">Microsoft Destek ekibi için bir destek bileti oluşturun.</span><span class="sxs-lookup"><span data-stu-id="80dd1-119">Open a support ticket with the Microsoft Support team.</span></span></td>
+<td><span data-ttu-id="80dd1-120"><a href="https://lcs.dynamics.com/">LCS</a> içerisinde, <strong>Destek</strong> kutucuğu, destek olaylarını yönetmenize yardımcı olan bir araç açar.</span><span class="sxs-lookup"><span data-stu-id="80dd1-120">In <a href="https://lcs.dynamics.com/">LCS</a>, the <strong>Support</strong> tile opens a tool that helps you manage support incidents.</span></span> <span data-ttu-id="80dd1-121">Sorunları doğrudan Microsoft'a göndermek için LCS projenizdeki <strong>Destek</strong> kutucuğunu seçin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-121">To submit issues directly to Microsoft, select the <strong>Support</strong> tile in your LCS project.</span></span> <span data-ttu-id="80dd1-122">Sorunları iki şekilde gönderebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="80dd1-122">You can then submit issues in two ways:</span></span>
 <ul>
-<li><span data-ttu-id="90051-122"><strong>Etkin sorun</strong> sekmesinde sorununuzu seçin ve sonra <strong>Microsoft'a Gönder</strong> üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="90051-122">On the <strong>Active issue</strong> tab, select your issue, and then click <strong>Submit to Microsoft</strong>.</span></span></li>
-<li><span data-ttu-id="90051-123"><strong>Microsoft'a Gönderildi</strong> sekmesi üzerinde, sorunu göndermek için <strong>Yeni bir olay gönder</strong> üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="90051-123">On the <strong>Submitted to Microsoft</strong> tab, click <strong>Submit a new Incident</strong> to submit the issue.</span></span></li>
+<li><span data-ttu-id="80dd1-123"><strong>Etkin sorun</strong> sekmesinde sorununuzu seçin ve sonra <strong>Microsoft'a Gönder</strong> ögesini seçin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-123">On the <strong>Active issue</strong> tab, select your issue, and then select <strong>Submit to Microsoft</strong>.</span></span></li>
+<li><span data-ttu-id="80dd1-124"><strong>Microsoft 'a gönderildi</strong> sekmesinde, <strong>Olay gönder</strong>'i seçin ve sonra olayı göndermek için ekrandaki yönergeleri izleyin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-124">On the <strong>Submitted to Microsoft</strong> tab, select <strong>Submit an incident</strong>, and then follow the on-screen instructions to submit the incident.</span></span> <span data-ttu-id="80dd1-125">Bir olay gönderdikten sonra, servis talebine atanan olayınıza atanan Microsoft Destek mühendisinden bir e-posta iletisi alırsınız.</span><span class="sxs-lookup"><span data-stu-id="80dd1-125">After you submit an incident, you will receive an email message from the Microsoft Support engineer who is assigned to your case.</span></span></li>
 </ul>
-<span data-ttu-id="90051-124">Not: Microsoft Premier Müşteriler ve Ortakları da yukarıdaki adımları kullanarak premier destek bileti gönderebilirler.</span><span class="sxs-lookup"><span data-stu-id="90051-124">Note: Microsoft Premier Customers and Partners can also submit premier support tickets using the steps above.</span></span></td>
+</td>
 </tr>
-<tr class="even">
-<td><span data-ttu-id="90051-125">Destek ekibiyle bir destek bileti oluşturun.</span><span class="sxs-lookup"><span data-stu-id="90051-125">Open a support ticket with the support team.</span></span></td>
-<td><span data-ttu-id="90051-126">Bileti Microsoft'a LCS içerisindeki <strong>Destek</strong> kutucuğu ile göndermekte sorun yaşarsanız, bir Microsoft Dynamics Regional Operations Center ile iletişime geçmek için bkz. <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Microsoft Business Solutions Desteği</span>'ne başvurun</a>.</span><span class="sxs-lookup"><span data-stu-id="90051-126">If you have issues when you try to submit a ticket to Microsoft from the <strong>Support</strong> tile in LCS, see <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Contact Microsoft Business Solutions Support</span></a> for information about to contact a Microsoft Dynamics Regional Operations Center.</span></span> <span data-ttu-id="90051-127">Destek ekibi aşağıdaki türde teknik sorunları çözümlemenize yardımcı olabilir:</span><span class="sxs-lookup"><span data-stu-id="90051-127">The support team can help you resolve the following types of technical issues:</span></span>
-<ul>
-<li><span data-ttu-id="90051-128">LCS kullandığınızda oluşan hatalar veya LCS'ye erişmeye çalışırken oluşan hatalar.</span><span class="sxs-lookup"><span data-stu-id="90051-128">Errors that occur when you use LCS or issues that occur when you try to access LCS.</span></span></li>
-<li><span data-ttu-id="90051-129">Finance and Operations uygulamaları kullandığınızda oluşan hatalar.</span><span class="sxs-lookup"><span data-stu-id="90051-129">Errors that occur when you use Finance and Operations apps.</span></span></li>
-</ul>
-<span data-ttu-id="90051-130">CustomerSource, e-öğrenme, Arama, Bilgi Bankası, dosya indirme ve sayfa veya sistem hataları oturumu açmak ve erişim sağlamak ile <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">ilişkili teknik sorular için <span style="color: #0066cc;">Website Desteği</span>'ne gidin</a>.</span><span class="sxs-lookup"><span data-stu-id="90051-130">For technical questions that are related to signing in to and accessing CustomerSource, e-learning, Search, Knowledge Base, file download, and page or system errors, go to <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Website Support</span></a>.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="90051-131">Finance and Operations uygulamaları lisanslama ile ilgili sorularınıza yanıt alın.</span><span class="sxs-lookup"><span data-stu-id="90051-131">Get help with questions about Finance and Operations apps licensing.</span></span></td>
-<td><span data-ttu-id="90051-132">Ortağınızla, büyük müşteri bayinizle (LAR) veya Microsoft satış temsilcinizle iletişime geçin.</span><span class="sxs-lookup"><span data-stu-id="90051-132">Contact your partner, large account reseller (LAR), or Microsoft sales representative.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="90051-133">LCS Olay izleme panosunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="90051-133">Use the LCS Event monitoring dashboard.</span></span></td>
-<td><span data-ttu-id="90051-134">Platform ve hizmetlerin geçerli durumunu görmek için LCS projenizin <strong>Ortamlar</strong> bölümüne gidin.</span><span class="sxs-lookup"><span data-stu-id="90051-134">To see the current health status of the platform and services, go to the <strong>Environments</strong> section of your LCS project.</span></span></td>
+<tr>
+<td><span data-ttu-id="80dd1-126">Yeni özellikler ve işlevler talep edin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-126">Request new features and functionality.</span></span></td>
+<td><span data-ttu-id="80dd1-127">Ayrıca, var olan fikirleri görüntülemek, aramak veya oylamak ya da yeni fikirler eklemek için <a href="https://experience.dynamics.com/ideas/">Dynamics 365 Uygulama Fikirleri</a>'ni de ziyaret edin.</span><span class="sxs-lookup"><span data-stu-id="80dd1-127">Visit <a href="https://experience.dynamics.com/ideas/">Dynamics 365 Application Ideas</a> to view, search, or vote for existing ideas, or to add new ideas.</span></span></td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a><span data-ttu-id="90051-135">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="90051-135">Additional resources</span></span>
-- [<span data-ttu-id="90051-136">Dynamics 365 Retail için destek alma</span><span class="sxs-lookup"><span data-stu-id="90051-136">Get support for Dynamics 365 Retail</span></span>](../../../retail/retail-support.md)
-- [<span data-ttu-id="90051-137">Microsoft Dynamics 365 Human Resources için destek alma</span><span class="sxs-lookup"><span data-stu-id="90051-137">Get support for Microsoft Dynamics 365 Human Resources</span></span>](../../../human-resources/hr-admin-troubleshooting-support.md)
-- <span data-ttu-id="90051-138">Microsoft Dynamics destek teklifleri hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamaları için destek deneyimlerini yönetme](cloud-powered-support-lcs.md).</span><span class="sxs-lookup"><span data-stu-id="90051-138">For more information about Microsoft Dynamics support offerings, see [Manage the support experiences for Finance and Operations apps](cloud-powered-support-lcs.md).</span></span>
-
