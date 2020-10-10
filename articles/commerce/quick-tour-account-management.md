@@ -3,7 +3,7 @@ title: Hesap yönetimi sayfalarına genel bakış
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527620"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817814"
 ---
 # <a name="account-management-pages-overview"></a>Hesap yönetimi sayfalarına genel bakış
 
@@ -46,7 +46,7 @@ Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği göst
 
 **Profilim** sayfası, müşterinin adı ve telefon numarası gibi müşteri hesap bilgilerini gösterir. Müşteri bu sayfadaki kendi profil bilgilerini güncelleştirebilir. Bu sayfa, pazarlama e-postasını tercih etme seçeneği gibi ek müşteri hesabı tercihleri içerecek şekilde özelleştirilebilir.
 
-Aşağıdaki çizimde, başlangıç kiti kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.
+Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.
 
 ![Profil sayfası örneği](./media/Account-Management-MyProfile.PNG)
 

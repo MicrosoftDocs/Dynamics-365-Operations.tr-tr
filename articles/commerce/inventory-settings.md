@@ -3,7 +3,7 @@ title: Stok ayarlarını uygula
 description: Bu konu, stok ayarlarını kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621233"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817621"
 ---
 # <a name="apply-inventory-settings"></a>Stok ayarlarını uygula
 
@@ -38,6 +38,9 @@ Stok ayarları alışveriş için ürün sepetine eklenmeden önce stokun denetl
 Dynamics 365 Commerce ürünler için eldeki kullanılabilir kullanılabilirlik tahminleri sağlar. Tahmini eldeki stok kullanılabilirliğinin nasıl hesaplandığı hakkında bilgi için bkz [perakende kanalları için envanter kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md).
 
 Commerce Site Builder 'da stok eşikleri ve aralıkları bir ürün ya da kategori için tanımlanabilir. Stokta, düşük stokta veya stok dışı olduğu gibi sınıflandırılabileceği belirlenir. Ayrıntılar için bkz [Envanter tamponları ve envanter düzeylerini yapılandırma](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Stok eşikleri ve aralıkları için destek Dynamics 365 Commerce 10.0.12 sürümünde bulunabilir.
 
 ## <a name="inventory-settings"></a>Envanter ayarları
 
@@ -55,6 +58,9 @@ Commerce'da stok ayarları, site oluşturucuda **Site Ayarlar \> Uzantılar \> E
     - **Stokta bulunmayan** seçildiğinde , yalnızca "stok dışı" iletisi gösterilir.
 
 - **Stok dışı eşiği** – Bu eski sayısal ayar , yalnızca **stok düzeyi ayar temel alınarak** ayarı **stok dışı eşik** değeri seçildiğinde etkili olur.
+
+> [!IMPORTANT] 
+> Bu ayarlar Dynamics 365 Commerce 10.0.12 sürümünde bulunmaktadır. Dynamics 365 Commerce'nin eski sürümlerinden birini güncelleştiriyorsanız, appSettings. json dosyasını el ile güncelleştirmeniz gerekir. AppSettings.json dosyasını güncelleştirme yönergeleri için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Stok ayarlarını kullanan modüller
 
@@ -74,9 +80,9 @@ Aşağıdaki resimde, stokta ("kullanılabilir") iletiyi gösteren sepet örneğ
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Stok arabelleklerini ve stok düzeylerini konfigüre et](inventory-buffers-levels.md)
+[Stok arabellekleri ve stok düzeyleri yapılandırma](inventory-buffers-levels.md)
 
 [Sepet modülü](add-cart-module.md)
 
@@ -85,3 +91,5 @@ Aşağıdaki resimde, stokta ("kullanılabilir") iletiyi gösteren sepet örneğ
 [Hesap yönetimi sayfaları ve modülleri](account-management.md)
 
 [Mağaza seçicisi modülü](store-selector.md)
+
+[SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)

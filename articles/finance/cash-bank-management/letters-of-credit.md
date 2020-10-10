@@ -1,7 +1,7 @@
 ---
 title: Kredi mektupları
 description: Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
-ms.author: leguo
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 184a6bf9ad43280de135a326688dedd4a5f03a6f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5a9be6ad2ff90dffdf8548d7594f922a7cf9b404
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772617"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899433"
 ---
 # <a name="letters-of-credit"></a>Kredi mektupları
 

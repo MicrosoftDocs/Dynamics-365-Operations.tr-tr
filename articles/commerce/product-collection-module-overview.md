@@ -3,7 +3,7 @@ title: Ürün topluluğu modülleri
 description: Bu konu Microsoft Dynamics 365 Commerce'ta ürün koleksiyonu modülleriyle ilgili genel bir bakış sağlar.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464965"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817585"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 
@@ -94,17 +94,17 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 | Algoritmik                | <ul><li>**Yeni** – kanallara ve kataloglara önceden sıralanmış en yeni ürünlerin listesi.</li><li>**En çok satan** – en yüksek sayıda satış ile derecelendirilen ürünlerin listesi.</li><li>**Trend** – belirli bir döneme ait en yüksek performanslı ürünlerin listesi.</li></ul> | Giriş sayfası, zenginleştirme kategorisi sayfası, kullanıma alma ve sepet sayfaları | Sayfa içeriğindeki kategori (örneğin, kategori sayfası) | Site yazarı tarafından belirlenen kategori | Destekleniyor |
 | Sıklıkla birlikte satın alınan | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle birlikte satın alınan ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler yalnızca sepet sayfası için geçerlidir. | Alışveriş sepeti | Uygulanamaz | Destekleniyor |
 | Diğer sevilen ürünler           | Bir liste, tüketici satın alma düzenlerini analiz etmek ve belirli bir ürünle ilgili öğeleri önermek için makine öğrenmeyi kullanır. | Bu tip listeler, PDP'ler üzerinde diğer müşterilerin satın aldığı ürünleri göstermek için kullanılır. | Sayfadan ürün bağlamı | Site yazarı tarafından sağlanan ürün | Destekleniyor |
-| Size özel çekmeler              | Müşteri tercihlerini belirlemek için makine öğrenmeyi kullanan liste. | Bu tür listeler herhangi bir sayfada kullanılabilir. | Uygulanamaz| Uygulanamaz | Destekleniyor | 
+| Size özel çekmeler              | Müşteri tercihlerini belirlemek için makine öğrenmeyi kullanan liste. | Bu tür listeler herhangi bir sayfada kullanılabilir. | Geçerli değil| Geçerli değil | Destekleniyor | 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Döngü modülü](add-carousel.md)
 
 [İçerik zengin blok modülü](add-content-rich-block.md)
 
-[Konteyner modülü](add-container-module.md)
+[Kapsayıcı modülü](add-container-module.md)
 
 [Satınalma kutusu modülü](add-buy-box.md)
 
