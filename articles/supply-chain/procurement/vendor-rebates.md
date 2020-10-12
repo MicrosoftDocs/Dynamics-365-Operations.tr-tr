@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203469"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834272"
 ---
 # <a name="vendor-rebates"></a>Satıcı indirimleri
+
 [!include [banner](../includes/banner.md)]
 
 Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
@@ -50,6 +51,7 @@ Bu konumlardaki kişiler, çeşitli hedeflere ulaşmak için yollar arıyor. Bur
 - Satıcılar ile indirimler hakkında sürmekte olan ve gelecekteki pazarlıklar hakkında temele sahip olun.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Bir satıcı indirim sözleşmesinin ayrıntıları
+
 Bir satıcı indirim sözleşmesi, bir satıcı ile şirketin önceden belirli bazı satınalma hedeflerine ulaşılması sonucunda şirketin parasal ödüle hak kazandığı şart ve koşulları belirleyen bir sözleşmedir. Satıcı indirim sözleşmeleri, **İndirim sözleşmeleri** sayfasında kaydedilir.
 
 **Satıcı indirim sözleşmeleri** sayfasını açmak için **Satınalma ve kaynak** &gt; **Satıcı indirimleri** &gt; **İndirim sözleşmeleri**'ni seçin.
@@ -60,7 +62,9 @@ Bir satıcı indirim sözleşmesi, bir satıcı ile şirketin önceden belirli b
 
 Sözleşmenin başlığı, bir şirketin indirime hak kazandığı genel koşulları belirtir. Başka bir deyişle, başlık bilgisi, belirli bir ürün, belirli bir miktarda alındığında satıcının bir indirime hak kazandığını belirtir. Başlıkta, ölçü birimi indirim seçeneğini ve hesaplama veri türünü belirtebilirsiniz.
 
-- **Genel** sekmesinde, **İndirim ölçü birimi seçeneği** alanında, bir ölçü biriminin satınalma siparişi satırı için, bir indirim talep etme konusunda koşul olup olmadığını belirtebilirsiniz. 
+- **Özet** sekmesinde, malzemeyi belirtmek için **Malzeme kodu**'nu *tablo* olarak ayarlanmış satırlar varsa, sözleşme belirli bir malzeme içindir. Malzemeleri belirtmek üzere **Malzeme kodu** *Grup* veya *Tümü* olarak ayarlanmış satırlar varsa, satıcı indirim sözleşmesi malzeme kodu için uygun olan malzeme koduna göre tek başına işlenir.
+
+- **Genel** sekmesinde, **İndirim ölçü birimi seçeneği** alanında, bir ölçü biriminin satınalma siparişi satırı için, bir indirim talep etme konusunda koşul olup olmadığını belirtebilirsiniz.
 
     - **Dönüştürme** – Bir satınalma siparişi satırı için bir satıcı indirim indirim anlaşması başına niteler. Satırda uygulanan ölçü biriminden bağımsız olarak bir indirim alacaksınız.
     - **Tam eşleşme** – bir indirime hak kazanmak için bir satınalma satırının anlaşmada belirtilen ölçü birimi aynı olmalıdır.
@@ -97,6 +101,7 @@ Sözleşme satırlarında, satıcı indirim sözleşmesini daha ayrıntılı bel
 Satınalma siparişleri, şirketin bir indirim sözleşmesine sahip olduğu bir satıcı ile gerçekleştiğinde, program gelecekteki tüm kredi ödemelerini tanımlar. Satınalma siparişleri bir indirime hak kazanıyorsa, bir indirim talebi, satınalma siparişi faturasının nakledilir nakledilmez her bir sipariş satırı için oluşturulur. Bu işlem otomatiktir. Daha sonra, beklenen indirimleri gözden geçirebilir ve bu indirimlerin etkisini ürün maliyet ve kar marjı üzerinde görebilirsiniz.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Satıcı indirim anlaşması başına bir satınalma siparişi satırına uygulanan indirimlerin ayrıntısını görüntüleme
+
 1. **Satınalma siparişi** sayfasında bir sipariş satırını seçin ve sonra **Satınalma siparişi satırı** &gt; **Görüntüle** &gt; **Fiyat ayrıntıları**'nı seçin.
 2. **Fiyat ayrıntıları** sayfasında, **İndirimler** hızlı sekmesini seçin.
 
@@ -106,15 +111,18 @@ Satınalma siparişleri, şirketin bir indirim sözleşmesine sahip olduğu bir 
 > **Satınalma ve kaynak parametreleri** sayfasında, **Fiyatlar** sekmesinde, **Fiyat ayrıntılarını etkinleştir** seçeneğinin **Evet** olduğunu doğrulayın. Seçenek **Hayır** olarak ayarlanırsa, indirimleri göremeyebilirsiniz.
 
 ## <a name="review-and-approve-claims"></a>Talepleri gözden geçir ve onayla
+
 Oluşturulan indirim talepleri, satıcıdan beklenen gelecekteki ödemeleri temsil eder. Satıcı için alacak dekontu verilmeden önce, sözleşme sahibi genellikle talepleri gözden geçirmek ve onaylamak ister. Ancak, bir talebin durumunun, talebin onay işlemine gitmeye hazır olup olmadığını belirlediğini unutmayın.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Taleplerin durumu ve onay işlemine etkileri.
+
 Bir talep oluşturulduğunda, talep toplam temelli olarak verildiyse durumu **Hesaplanacak**, fatura temelli verildiyse **Hesaplandı** olarak ayarlanır. Bir talebin durumu **Hesaplanacak** ise, talebin Toplam işlevi tarafından yönetilen bir hesaplama işleminden geçmesi gerekir. Yalnızca **Hesaplandı** durumuna sahip olan talepler onaylama işlemine dahil edilebilir.
 
 > [!NOTE]
 > Bir satıcı indirim sözleşmesindeki **Onay gerekli** seçeneği **Hayır** olarak ayarlanmışsa, oluşturulan tüm talepler **Onaylandı** duruma sahip olacaktır. Onay, toplama dayanarak verilecek tüm talepler için zorunludur.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Talepleri onaylayın ve nakilleri ve fatura ayrıntıları görüntüleyin
+
 Talepler onaylandığında, Borç hesapları (A/P) tarafından işlenebilirler. İndirim talebi tutarı için bir iade faturasını (satıcı faturası) otomatik olarak oluşturulur. Alacak daha sonra satıcının bakiyesine eklenebilir ve A/P ekibi, normal kapatma işlemine bunu dahil edebilir.
 
 1. **Satınalma ve kaynak** &gt; **Satıcı İndirimleri** &gt; **İndirim talepleri**'ni bir indirim talebini açmak için seçin.
@@ -153,6 +161,7 @@ Talepler onaylandığında, Borç hesapları (A/P) tarafından işlenebilirler. 
 9. **Tüm satıcılar** sayfasında, indirimi alacağınız satıcıyı seçin ve sonra Eylem Panosunda, **Hareketler**'i seçin. Fatura için satırı bulun. İndirim tutarı şimdi satıcı bakiyesine eklendi.
 
 ## <a name="summary"></a>Özet
+
 Satıcı indirimlerini ele alma işlemi genellikle çok sayıda el ile izleme görevi içerir ve zahmetlidir. Bu görevleri otomatikleştirerek satıcı indirim yönetimi özelliği aşağıdaki işlemleri takip etmenizi kolaylaştırabilir:
 
 - Doğru indirim talepleri oluşturma

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719276"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829224"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -99,29 +99,7 @@ Supply Chain Management'tan Sales'e eşitleme yaparsanız, aşağıdaki sonucu a
 
 ## <a name="dual-write-solution-for-sales"></a>Sales için çift yazma çözümü
 
-**Sipariş** varlığına yeni alanlar eklenmiştir ve bunlar sayfada görüntülenir: Bu alanların çoğu Sales'deki **Tümleştirme** sekmesinde görünür. Birkaç özel alan vardır:
-
-+ **İşleme durumu** alanı siparişin Supply Chain Management'taki işleme durumunu gösterir. Bu alan kilitlidir ve yalnızca Supply Chain Management'taki siparişin durumunu gösterir. Aşağıdaki değerler kullanılabilir:
-
-    + **Etkin** – Sipariş Sales'taki **Etkinleştir** düğmesi kullanılarak etkinleştirildikten sonraki durum.
-    + **Onaylandı**
-    + **Teslim edildi**
-    + **Faturalanan**
-    + **Kısmen Teslim Edildi**
-    + **Kısmen Faturalandı**
-    + **Malzeme çekildi**
-    + **İptal Edildi**
-
-    Aşağıdaki tablo, işleme durumunun **CRM durum kodu** değeri ile nasıl eşlendiğini gösterir.
-
-    | İşlem durumu           | CRM durum kodu    |
-    |-----------------------------|--------------------|
-    | Active                      | Yeni/Bekliyor/Beklemede |
-    | Onaylandı/Çekildi            | Devam ediyor        |
-    | Kısmen Teslim Edildi         | Kısmi            |
-    | Teslim edildi                   | Tamamla           |
-    | Faturalandı/Kısmen Faturalandı | Faturalanan           |
-    | İptal Edildi                    | Para yok           |
+**Sipariş** varlığına yeni alanlar eklenmiştir ve bunlar sayfada görüntülenir: Bu alanların çoğu Sales'deki **Tümleştirme** sekmesinde görünür. Durum alanlarının nasıl eşleştirilecekleri hakkında daha fazla bilgi edinmek için, [Satış siparişi durum alanlarıyla ilgili eşlemeyi ayarlamak](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map) üzere belge konusuna başvurun
 
 + Sales'de **Satış siparişi** sayfasındaki **Fatura Oluştur** ve **Siparişi İptal Et** düğmeleri gizlidir.
 + **Satış siparişi durumu** değeri, Supply Chain Management'tan gelen değişikliklerin Sales'de satış siparişine aktığından emin olunması için **Etkin** kalacaktır. Bu davranışı kontrol etmek için, varsayılan **Statecode\[Status\]** değerini **Etkin** olarak ayarlayın.

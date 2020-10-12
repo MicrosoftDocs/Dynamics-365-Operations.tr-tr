@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760411"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835098"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -33,6 +33,7 @@ Yeni kılavuz denetimi, kullanıcı üretkenliğini artırmak, verilerinizin dah
 -  Sistemi önceden hazırlama
 -  Matematik ifadelerini değerlendirme 
 -  Sekmeli verileri gruplandırma (**Kılavuzlar halinde gruplandırma (Önizleme)** özelliği kullanarak ayrıca etkinleştirilmiştir)
+-  Sabitlenen sistem sütunları
 
 ## <a name="calculating-totals"></a>Toplamların hesaplanması
 Finance and Operations uygulamalarında kullanıcılar toplamları ızgaralardaki sayısal sütunların alt kısmında görebilme yeteneğine sahiptir. Bu toplamlar, kılavuzun alt kısmındaki bir alt bilgi bölümünde gösterilir. 
@@ -119,12 +120,19 @@ Kılavuzdaki ilk sütunun en üstündeki onay kutusunu seçerek kılavuzdaki tü
 ### <a name="hiding-column-names"></a>Sütun adlarını gizleme
 Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlık satırında göstermektir. 10.0.14/platform güncelleştirmesi 38 sürümünden başlayarak, **Kılavuz seçenekleri** > **Grup sütun adını gizle** seçeneğini belirleyerek grup üstbilgisi satırlarında sütun adını gizlemeyi seçebilirsiniz.
 
+## <a name="pinned-system-columns"></a>Sabitlenen sistem sütunları
+Yeni kılavuzdaki satır seçim sütunu ve satır durumu sütunu kılavuzun en solundaki bölümde sabitlenir veya dondurulur. Bu nedenle, bu sütunlar bir kılavuza dahil edildiğinde, kılavuzdaki yatay kaydırma konumundan bağımsız olarak her zaman kullanıcı tarafından görülecektir.   
+
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Yeni kılavuz denetimini ortamımda nasıl etkinleştirebilirim? 
 
-**10.0.9 / Platform güncelleştirmesi 33 ve sonrası** **Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.  
+**10.0.9 / Platform güncelleştirmesi 33 ve sonrası**
 
-**10.0.8/Platform güncelleştirmesi 32 ve 10.0.7 / Platform güncelleştirmesi 31** **Yeni kılavuz denetimi** özelliği, aşağıdaki adımları izleyerek ek test ve tasarım değişiklikleri sağlamak amacıyla Katman 1 (geliştirme/test) ve Katman 2 (korumalı alan) ortamlarında etkinleştirilebilir.
+**Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.  
+
+**10.0.8 / Platform güncelleştirmesi 32 ve 10.0.7 / Platform güncelleştirmesi 31**
+
+**Yeni kılavuz denetimi** özelliği, aşağıdaki adımları izleyerek ek test ve tasarım değişiklikleri sağlamak amacıyla katman 1 (geliştirme/test) ve katman 2 (korumalı alan) ortamlarında etkinleştirilebilir.
 
 1.  **Uçuşu etkinleştirin**: Aşağıdaki SQL beyanını yürütün: 
 
@@ -139,11 +147,14 @@ Veriler gruplandırılırken, varsayılan davranış sütun adını grup başlı
 Sonraki tüm kullanıcı oturumları yeni ızgara denetimi etkin olarak başlayacaktır.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Geliştirici] Ayrı sayfalar için yeni ızgarayı kullanmayı devre dışı bırakma 
-Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için formun `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
+Kuruluşunuz yeni kılavuzla ilgili bazı sorunlar içeren bir sayfayı saptadığı zaman, tek bir formun, sistemin geri kalanında yeni kılavuz denetimiyle yararlanmaya devam ederken, eski kılavuz denetimini kullanmasına izin veren bir API sürüm 10.0.13/Platform güncelleştirmesi 37'den itibaren kullanılabilir. Ayrı bir sayfayı yeni kılavuzdan geri çevirmek için forma ait `run()` yöntemine aşağıdaki `super()` çağrı gönderisini ekleyin.
 
  ```this.forceLegacyGrid();```
 
-Bu API, yeni kılavuz denetiminin zorunlu hale geleceği Ekim 2021'e kadar kabul edilecek. Lütfen bu API'nin kullanılmasını gerektiren tüm sorunları Microsoft'a bildirin. 
+Bu API, yeni kılavuz denetiminin zorunlu hale geleceği Ekim 2021'e kadar kabul edilecek. Herhangi bir sorun bu API'nin kullanılmasını gerektiriyorsa, bunları Microsoft'a bildirin.
+
+## <a name="developer-size-to-available-width-columns"></a>[Geliştirici] Boyutlandırılabilir sütunlar
+Bir geliştirici yeni kılavuzun içindeki sütunlar için **WidthMode** özelliğini **SizeToAvailable** olarak ayarladığında, bu sütunlar, özelliğin **SizeToContent** olarak ayarlanmış olması durumunda, ilk başta sahip olacakları aynı genişliğe sahip olurlar. Ancak, kılavuzun içinde kullanılabilen ek bir genişliği kullanmak için genişler. Özellik birden çok sütun için **SizeToAvailable** olarak ayarlandıysa, tüm bu sütunlar kılavuzun içinde kullanılabilir olan ek bir genişliği paylaşır. Ancak, bir kullanıcı bu sütunlardan birini el ile yeniden boyutlandırırsa, sütun statik hale gelir. Bu genişlikte kalacak ve artık fazladan kullanılabilir kılavuz genişliği kaplamayacak şekilde genişlemeyecek.  
 
 ## <a name="known-issues"></a>Bilinen sorunlar
 Bu bölüm, özellik bir önizleme durumundayken yeni kılavuz denetimiyle ilgili bilinen sorunların listesini içerir.  

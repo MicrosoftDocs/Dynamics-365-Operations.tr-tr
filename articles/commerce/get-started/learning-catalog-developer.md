@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 565ff2ca0475ec8a41f1d9606f7bd81403bb678c
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 398bc231870a8573103ee7c7c63e96322b0b62a1
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793333"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821167"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Dynamics 365 Commerce geliştiricileri için öğrenme kataloğu
 
@@ -41,4 +41,4 @@ Diğer Finance and Operations uygulamalarıyla paylaşılan özellikler hakkınd
 
 | İçerik  | Tanım  | Biçim  | Uzunluk    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Dynamics 365 Commerce dağıtımı](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Bu öğrenme yolu her perakendecinin iş gereksinimleri açısından doğru topolojiyi kullanan başarılı Commerce uygulamaları için Dynamics 365 Commerce ortamlarının nasıl dağıtılacağını ve sağlama sonrası adımların nasıl gerçekleştirileceğini açıklar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat |
+| [Dynamics 365 Commerce Uygulamasını Dağıtma ve Genişletme](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Bu öğrenme yolu her perakendecinin iş gereksinimleri açısından doğru topolojiyi kullanan başarılı Commerce uygulamaları için Dynamics 365 Commerce ortamlarının nasıl dağıtılacağını ve sağlama sonrası adımların nasıl gerçekleştirileceğini açıklar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat |

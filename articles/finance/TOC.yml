@@ -76,11 +76,9 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (Temmuz 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
-                - name: Dynamics 365 Finance'taki kaldırılan veya kullanım dışı bırakılan özellikler
+                - name: Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Microsoft Power Apps'i katıştırma
+                - name: Power Apps'taki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1040,7 +1038,7 @@
                   href: project-management/set-up-roles-wbs-template.md
                 - name: Planlı kaynaklar için kaynak karşılama
                   href: project-management/resource-fulfillment-planned-resources.md
-            - name: Madde gereksiniminden satın alma siparişindeki maddeleri alma
+            - name: Madde gereksiniminden satınalma siparişindeki maddeleri alma
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: İş kırılım yapıları
               items:
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
+            - name: Elektronik faturalama eklentisi
+              items:
+                - name: Elektronik faturalama eklentisine genel bakış
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Azure depolama hesabı ve Key Vault oluşturma
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Elektronik faturalama eklentisini kullanmaya başlama
+                  href: localizations/e-invoicing-get-started.md
+                - name: Brezilya için Elektronik faturalama eklentisini kullanmaya başlama
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: İtalya için Elektronik faturalama eklentisini kullanmaya başlama
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Meksika için Elektronik faturalama eklentisini kullanmaya başlama
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Elektronik faturalama eklentisini ayarlama
+                  href: localizations/e-invoicing-setup.md
             - name: Avustralya
               items:
                 - name: Avustralya'ya genel bakış
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Hareket oluşturma ve BLWI'ya transfer etme
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Genel muhasebe hareketlerini dışarı aktarma
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: INTERVAT vergi beyannamesi
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Mutabakat raporları
@@ -2036,13 +2052,15 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Vergi iadeleri için GSTR rapor verileri oluşturma
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: GSTR raporları için çoklu toplu işlemleri etkinleştirme
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Vergi sorgulama
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Vergi altyapısı
                   items:
                     - name: Vergi altyapısına genel bakış
                       href: general-ledger/tax-engine.md
-                    - name: Yapılandırmayı içe aktarma
+                    - name: Yapılandırmayı içeri aktarma
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Gelişmiş formül tasarımcısı
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Çok dilli raporlar tasarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Büyük giden belgeleri sıkıştırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Veri bağlamalarındaki göreli yol
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma

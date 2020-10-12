@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210169"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887252"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>İş planlaması için Gantt şeması
 
@@ -38,7 +38,7 @@ Gantt grafiği belirli bir zaman aralığındaki planlanmış faaliyetlerin gör
 -   Planlı üretim emirlerinden gelen işler.
 -   Saat tahmini türündeki iş planlama projesi faaliyetleri.
 
-Gantt grafiği iki farklı görünümde açılabilir: **Sipariş görünümü** ve **Kaynak görünümü**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). **Sipariş görünümünde**, faaliyetler üretim emirleri altında gruplandırılır. Örneğin, aynı siparişlere ait işlerin genel görünümünü korumak istiyorsanız bu faydalı olabilir. **Kaynak görünümünde** tüm işler ayrı kaynakların altında gruplanır. Bu görünüm, planı kaynak düzeyinde (örneğin bir makine veya makine grubu) optimize ederken faydalı olabilir. Aşağıdaki örnekte verilen Gantt grafikleri şu temel öğelerle birlikte **Sipariş görünümü** ve **Kaynak görünümünü** gösterir:
+Gantt grafiği iki farklı görünümde açılabilir: **Sipariş görünümü** ve **Kaynak görünümü**. **Sipariş görünümünde**, faaliyetler üretim emirleri altında gruplandırılır. Örneğin, aynı siparişlere ait işlerin genel görünümünü korumak istiyorsanız bu faydalı olabilir. **Kaynak görünümünde** tüm işler ayrı kaynakların altında gruplanır. Bu görünüm, planı kaynak düzeyinde (örneğin bir makine veya makine grubu) optimize ederken faydalı olabilir. Aşağıdaki örnekte verilen Gantt grafikleri şu temel öğelerle birlikte **Sipariş görünümü** ve **Kaynak görünümünü** gösterir:
 
 1.  Gantt grafiği faaliyeti
 2.  Malzeme eksikliği simgesi

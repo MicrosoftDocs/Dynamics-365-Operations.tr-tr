@@ -1,9 +1,9 @@
 ---
-title: Başlangıç paketine genel bakış
-description: Bu konu Microsoft Dynamics 365 Commerce başlangıç kiti hakkında bilgi sağlar.
+title: Modül kitaplığına genel bakış
+description: Bu konu Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025914"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817838"
 ---
-# <a name="starter-kit-overview"></a>Başlangıç paketine genel bakış
-
+# <a name="module-library-overview"></a>Modül kitaplığına genel bakış
 
 [!include [banner](includes/banner.md)]
 
-Bu konu Microsoft Dynamics 365 Commerce başlangıç kiti hakkında bilgi sağlar.
+Bu konu Microsoft Dynamics 365 Commerce modül kitaplığı hakkında bilgi sağlar.
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Genel bakış
 
-Dynamics 365 Commerce başlangıç kiti, bir e-ticaret Web sitesi oluşturmak için kullanılabilen modüller topluluğudur. Modüllerin hem Kullanıcı arabirimi (UI) yönleri, hem de işlevsel davranış yönleri vardır.
+Dynamics 365 Commerce modül kitaplığı, bir e-ticaret Web sitesi oluşturmak için kullanılabilen modüller topluluğudur. Modüllerin hem Kullanıcı arabirimi (UI) yönleri, hem de işlevsel davranış yönleri vardır.
 
-Görünüm ve hissini değiştirmek için, Temalar, başlangıç setlerindeki modüllere uygulanabilir. Temalar geçişli stil sayfaları (CSS) kullanır. "Fabrikam" adlı hayali bir e-ticaret sitesi için Tema, başlangıç kitinin bir parçası olarak sağlanmıştır ve bir referans olarak kullanılabilir.
+Görünüm ve deneyimi değiştirmek için, Temalar, modül kitaplığındaki modüllere uygulanabilir. Temalar geçişli stil sayfaları (CSS) kullanır. "Fabrikam" adlı hayali bir e-ticaret sitesi için Tema, modül kitaplığının bir parçası olarak sağlanmıştır ve bir referans olarak kullanılabilir.
 
-## <a name="starter-kit-modules"></a>Başlangıç kiti modülleri
+## <a name="module-library-modules"></a>Modül kitaplığı modülleri
 
-Aşağıdaki modül türleri, başlangıç kitinde sağlanmıştır:
+Aşağıdaki modül türleri, modül kitaplığında sağlanmıştır:
 
 - **Konteyner modülü** – Bir konteyner modülü, diğer modüller için ana bilgisayar görevi gören basit bir modüldür. İçinde olan modüllerin yerleşimini denetler.
 - **Pazarlama modülleri** – Pazarlama modüllerinde engel, metin engeli, video oynatıcı ve döngü modüller bulunur. İçeriğin gösterimi için tüm bu modüller kullanılabilir. İçerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.

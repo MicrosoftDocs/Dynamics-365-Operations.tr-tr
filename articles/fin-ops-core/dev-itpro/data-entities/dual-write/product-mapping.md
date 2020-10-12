@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621342"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835866"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -91,7 +91,7 @@ Bu modelde, ürün Common Data Service'taki iki varlığın birleşimiyle göste
 
 ![Ürünler için veri modeli](media/dual-write-product.png)
 
-Çift yazma işlevi etkin olduğunda, Finance and Operations'taki uygulamalar **Taslak** durumunda diğer Dynamics 365 uygulamalarında eşitlenir. Aynı para birimiyle ilk fiyat listesine eklenir. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. 
+Çift yazma işlevi etkin olduğunda, Finance and Operations'taki ürünler **Taslak** durumunda diğer Dynamics 365 ürünlerinde eşitlenir. Aynı para birimiyle ilk fiyat listesine eklenir. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. 
 
 Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak** durumundaki diğer Dynamics 365 uygulamalarıyla eşitlenir. Örneğin, satış siparişi tekliflerinde doğrudan kullanmak amacıyla **Etkin** durumdaki ürünü eşitlemek için şu ayarın seçilmesi gerekir: **Sistem > Yönetim > Sistem yönetimi > Sistem ayarları > Satış** sekmesi ve **Ürünleri etkin durumda oluştur = evet** seçeneğini belirleyin. 
 

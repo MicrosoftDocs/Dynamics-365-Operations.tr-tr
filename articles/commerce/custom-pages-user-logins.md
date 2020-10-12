@@ -3,7 +3,7 @@ title: Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta Azure Active Directory (Azure AD) işletme-müşteri (B2C) kiracılar kullanıcıları için özelleştirilmiş kaydolmayı işleyen özel sayfaların nasıl oluşturulacağı açıklanmaktadır.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533471"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817318"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -181,13 +181,13 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etiketler ve açıklamalar için varsayılan metin dizelerini Özelleştir
 
-Başlangıç kitinde, oturum açma modülleri, Etiketler ve açıklamalar için varsayılan metin dizeleriyle önceden doldurulur. Yazılım geliştirme setinde (SDK) Bu dizeleri, günlük modülünde bulunan Global.JSON dosyasındaki değerleri güncelleştirerek özelleştirebilirsiniz.
+Modül kitaplığında, oturum açma modülleri, Etiketler ve açıklamalar için varsayılan metin dizeleriyle önceden doldurulur. Yazılım geliştirme setinde (SDK) Bu dizeleri, günlük modülünde bulunan Global.JSON dosyasındaki değerleri güncelleştirerek özelleştirebilirsiniz.
 
 Örneğin, Unutulan parola bağlantısı için varsayılan metin **parola unutuldu mu?**'dur. Aşağıda bu varsayılan metin oturum açma sayfasında gösterilir.
 
 ![Oturum açma sayfasında Unutulan parola bağlantısı için varsayılan metin](./media/B2C_SignUp_ModuleFace.png)
 
-Ancak, başlangıç seti oturum açma modülü için Global.json dosyasında **Parolayı unuttunuz mu?** metnini düzenleyebilirsiniz, aşağıdaki şekilde gösterildiği gibi.
+Ancak, modül kitaplığı oturum açma modülü için Global.json dosyasında **Parolayı unuttunuz mu?** metnini düzenleyebilirsiniz, aşağıdaki şekilde gösterildiği gibi.
 
 ![Oturum açma modülünün Global.json dosyasında bağlantı metni güncelleştirildi](./media/B2C_CustomizingStringsForModule.png)
 

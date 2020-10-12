@@ -3,7 +3,7 @@ title: Hesap yönetimi sayfaları ve modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025739"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817170"
 ---
 # <a name="account-management-pages-and-modules"></a>Hesap yönetimi sayfaları ve modülleri
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,15 +74,15 @@ Bağlılık programı programına katılmak için, bağlılık programı kayıt 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
-[Konteyner modülü](add-container-module.md)
+[Kapsayıcı modülü](add-container-module.md)
 
 [Satın alma kutusu modülü](add-buy-box.md)
 
-[Sepet modülü](add-cart-module.md)
+[Alışveriş sepeti modülü](add-cart-module.md)
 
-[Ödeme modülü](add-checkout-module.md)
+[Ödeme yapma modülü](add-checkout-module.md)
 
 [Sipariş onayı modülü](order-confirmation-module.md)
 

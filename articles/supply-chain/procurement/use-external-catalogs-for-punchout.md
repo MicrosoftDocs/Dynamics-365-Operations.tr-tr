@@ -1,5 +1,5 @@
 ---
-title: PunchOut eProcurement için harici katalogları kullanma
+title: PunchOut e-procurement için harici katalogları kullanma
 description: Bu konu, istekler oluşturmak ve göndermek için harici katalogları nasıl kullanacağınızı açıklar.
 author: mkirknel
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f7a784e6a66c0c2df9043468e9878de161c3be0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: adeffa101aa5a17543ca531aacde2130a07086e9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207428"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826816"
 ---
-# <a name="use-external-catalogs-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalogları kullanma
+# <a name="use-external-catalogs-for-punchout-e-procurement"></a>PunchOut e-procurement için harici katalogları kullanma
 
 [!include [banner](../includes/banner.md)]
 
@@ -50,3 +50,8 @@ Tedarik kategorileri için birden fazla seçenek varsa, talebe satırları eklem
 Talebe satırlar eklendikten sonra harici katalogları kullanmadan daha fazla satır ekleyebilirsiniz. Alternatif olarak, satır eklemek için harici katalogları kullanmaya devam edebilirsiniz.
 
 Talep hazır olduğunda, onay için göndermek üzere **İş akışı** > **Gönder** eylemini kullanın.
+
+### <a name="additional-resources"></a>Ek kaynaklar
+
+- [PunchOut e-procurement için harici katalog ayarlama](set-up-external-catalog-for-punchout.md)
+- [CXML geliştirmeleri satın alma](purchasing-cxml-enhancements.md)

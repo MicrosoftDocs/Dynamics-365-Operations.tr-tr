@@ -1,6 +1,6 @@
 ---
-title: PunchOut eProcurement için harici katalog ayarlama
-description: Bu konu, bir satıcıdan teklif bilgileri toplamak ve bunu talebe eklemek için harici katalog veya punchout (çıkış) kataloğu kullanımını açıklar.
+title: PunchOut e-procurement için harici katalog ayarlama
+description: Bu konu, bir satıcıdan teklif bilgileri toplamak ve bunu talebe eklemek için harici katalog veya PunchOut (çıkış) kataloğu kullanımını açıklar.
 author: mkirknel
 manager: tfehr
 ms.date: 11/02/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c9152996b7efc84b4259bd7323411df0b62258
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207819"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826840"
 ---
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalog ayarlama
+# <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>PunchOut e-procurement için harici katalog ayarlama
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +45,7 @@ Harici katalog satınalma talebini giren çalışanın ürünleri seçmek için 
 2. Satıcıyı Supply Chain Management'a kaydedin. Harici satıcı kataloğuna erişmek için yapılandırmalarını ayarlamadan önce Microsoft Dynamics 365'te satıcıyı ve satıcı ilgili kişisini ayarlamanız gerekir. Harici kataloğun satıcısı seçilen tedarik kategorisine de eklenmelidir. Satıcıları kaydetme hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md). Satıcıları bir tedarik kategorisine atama konusunda bilgi için bkz. [Belirli tedarik kategorileri için satıcıları onaylama](tasks/approve-vendors-specific-procurement-categories.md).
 3. Satıcının kullandığı para birimi ve ölçü birimlerinin ayarlandığından emin olun. Bir ölçü birimi oluşturma hakkında bilgi için bkz. [Ölçü birimi yönetme](../pim/tasks/manage-unit-measure.md).
 4. Harici satıcı kataloğunu satıcınızın harici katalog sitesi gereksinimlerini kullanarak yapılandırın. Bu görev hakkında daha fazla bilgi için bkz. [Harici satıcı kataloğu yapılandırma](#configure-the-external-vendor-catalog).
-5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Madde veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
+5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Malzeme veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
 6. Harici kataloğu **Harici kataloglar** sayfasındaki **Kataloğu etkinleştir** düğmesini kullanarak etkinleştirin. Çalışanların kullanabilmesi için harici kataloğun etkinleştirilmesi gerekir. Herhangi bir zamanda harici kataloğu devre dışı bırakabilirsiniz.
 
 
@@ -81,12 +81,13 @@ Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
 |< Header >< Sender >< Credential >< Identity >< /Identity> | Satın alıcı şirketinin kimliği.|
 |< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Alıcının şirketi için paylaşılan gizli kod.|
 |< Request deploymentMode=”” >|Test veya üretim dağıtımı.|
-|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Satıcının çıkış uç noktası URL'si.|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Satıcının PunchOut uç noktası URL'si.|
 
 ### <a name="extrinsic-elements"></a>İkincil öğeler
 
-İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, çıkış yapma gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
-Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir. İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
+İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, PunchOut işlemi gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
+Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir.
+İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
 CXML protokolü hakkında daha fazla bilgi için bkz: [cXML.org websitesi](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Geri gönderme iletisi
@@ -109,3 +110,7 @@ Harici bir kataloğu sayfadaki Silme eylemiyle silin.
 
 Harici satıcı kataloğundaki bir ürünün istenmiş olması durumunda, harici satıcı kataloğu silinemez. Bunun yerine, harici satıcı kataloğu durumu etkin değil olarak ayarlanır. Harici satıcı kataloğu sitesine erişimi kaldırmak istiyor ancak harici kataloğu silmek istemiyorsanız, harici katalog durumunu etkin değil olarak değiştirin.
 
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [CXML geliştirmeleri satın alma](purchasing-cxml-enhancements.md)
+- [PunchOut e-procurement için harici katalogları kullanma](use-external-catalogs-for-punchout.md)

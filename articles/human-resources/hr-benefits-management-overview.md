@@ -3,7 +3,7 @@ title: Kazanç yönetimine genel bakış
 description: Dynamics 365 Human Resources'taki Kazanç yönetimi özelliğine genel bakış. Çalışanlarınızı kullanımı kolay bir çevrimiçi deneyim sayesinde çalışanlarınızın genişletilmiş sosyal haklar seçeneklerini sunun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599392"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819777"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
@@ -41,15 +41,9 @@ Rekabet edebilir durumda kalmak için, en iyi çalışanlarınızı ele almak ve
 
 Demo verilerine erişmek istiyorsanız korumalı alan ortamınızı yeniden dağıtmanız gerekir.
 
-## <a name="benefits-management-known-issues"></a>Kazanç yönetimiyle ilgili bilinen sorunlar
-
-### <a name="flex-credit-programs"></a>Esnek kredi programları
-
-Esnek alacak programı için tanımlanan toplam alacak değeri **Çalışan kazanç planları** formunda görüntülenmez. Ayrıca, **Hiçbiri** eşit dağıtma kuralına sahip bir esnek alacak programı ayarlarsanız, planları seçip onayladığınızda **Çalışan kazanç planı** formunda bir hata alırsınız.
-
 ## <a name="enable-benefits-management"></a>Kazanç Yönetimni etkinleştirme
 
-Bu makalede Human Resources'taki özelliklerin nasıl etkinleştirileceği açıklanır. Ayrıca, Kazanç yönetimini etkinleştirdiğinizde, Kazanç yönetiminin Human Resources'taki hangi mevcut özelliklerin yerini aldığını veya devre dışı bırakıldığını da bildirir.
+Bu konuda Human Resources'taki özelliklerin nasıl etkinleştirileceği açıklanır. Ayrıca, Kazanç yönetimini etkinleştirdiğinizde, Kazanç yönetiminin Human Resources'taki hangi mevcut özelliklerin yerini aldığını veya devre dışı bırakıldığını da bildirir.
 
 > [!IMPORTANT]
 > **Üretim** ortamında Kazanç yönetimini etkinleştirdikten sonra devre dışı bırakamazsınız. **Üretim** ortamında etkinleştirmeden önce Kazanç yönetimini **Korumalı alan** ortamında etkinleştirmenizi ve test etmenizi öneririz. Eski Kazanç işlevi ile ek kurulum gerektiren yeni Kazanç yönetimi işlevi arasında önemli farklar vardır ve üretim ortamına alınmadan önce test edilmesi gerekir.

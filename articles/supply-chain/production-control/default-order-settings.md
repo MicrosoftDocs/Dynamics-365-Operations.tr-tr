@@ -3,12 +3,12 @@ title: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 description: Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657352"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895608"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 
@@ -51,8 +51,11 @@ Satınalma, satış ve stok için üç tür sipariş ayarı bulunur. Satınalmal
 - Satınalma sözleşmesi satırları
 - Teklif talebi satırları
 - Satınalma talebi satırları
-- Konsinye stok yenileme satırları
+- Konsinye stok yenileme satırları (kısmen desteklenir, nota bakın)
 - Planlı satınalma siparişleri
+
+> [!NOTE]
+> Konsinye stok yenileme sipariş satırları için uygun olan **Varsayılan sipariş ayarları** sayfasındaki **Satınalma siparişi** hızlı sekmesinden gelen ayarlar yalnızca **Varsayılan tesis** alanı, **Varsayılan ambar** alanı ve **Durdurulmuş** onay kutusudur.
 
 Satışlar için varsayılan sipariş ayarları şunları oluştururken kullanılır:
 

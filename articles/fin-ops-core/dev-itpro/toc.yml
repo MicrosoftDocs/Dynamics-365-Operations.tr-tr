@@ -82,10 +82,12 @@
               href: dev-tools/version-models-build.md
         - name: Veri tümleştirme
           items:
-            - name: Bir veri tümleştirme (içe/dışa aktarma) stratejisi seçme
+            - name: Veri tümleştirme (içeri/dışarı aktarma) stratejisi seçme
               href: data-entities/integration-overview.md
             - name: Öncelik tabanlı azaltma
               hreF: data-entities/priority-based-throttling.md
+            - name: Öncelik tabanlı azaltma ile ilgili SSS
+              href: data-entities/throttling-faq.md
             - name: Veri tümleştirme API'leri
               items:
                 - name: Veri yönetimi paketi REST API'si
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Çift yazma için para birimi veri türü geçişi
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Satış siparişi durumu alanları için eşlemeyi ayarlama
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Çift yazmayı yönetme
                           items:
                             - name: Varlık ve alan eşlemelerini özelleştirme
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Yerel aracı
                   items:
-                    - name: AD FS Office 365 uyumluluğu
+                    - name: AD FS Microsoft 365 uyumluluğu
                       href: deployment/onprem-adfscompatibility.md
                     - name: Yerel aracı dağıtım öncesi ve dağıtım sonrası kodları
                       href: lifecycle-services/pre-post-scripts.md
@@ -626,10 +630,8 @@
                   href: dev-tools/development-tools-overview.md
                 - name: Geliştirme araçları eğitimi
                   href: dev-tools/introduction-visual-studio.md
-                - name: Uygulama Denetleyicisi
-                  items:
-                    - name: Uygulama Denetleyicisi için BaseX yükleme
-                      href: dev-tools/install-basex.md
+                - name: Uygulama denetleyicisi
+                  href: dev-tools/application-checker.md
                 - name: Uygulama Gezgini
                   href: dev-tools/application-explorer.md
                 - name: Projeler oluşturma ve hatalarını ayıklama
@@ -1360,14 +1362,32 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
                     - name: PartMetadata türü
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
-                    - name: Satır türü
+                    - name: Row türü
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
-                    - name: Değer türü
+                    - name: Value türü
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
                     - name: ValueDesign türü
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata türü
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: İşlem otomasyonu çerçevesi
+          items:
+            - name: İşlem otomasyonu çerçevesi geliştirme
+              href: process-automation/process-automation-framework.md
+            - name: Tür kaydı
+              href: process-automation/type-registration.md
+            - name: Seri kaydı
+              href: process-automation/series-registration.md
+            - name: İşlem parametreleri
+              href: process-automation/process-parameters.md
+            - name: Kullanıcı tarafından yapılandırılabilen sorgular
+              href: process-automation/user-queries.md
+            - name: İşlemi çalıştırma
+              href: process-automation/run-process.md
+            - name: Sonuçları ve iletileri günlüğe kaydetme
+              href: process-automation/log-results.md
+            - name: Kullanıcı arabirimini özelleştirme
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Regression Suite Automation Tool'a genel bakış
@@ -1395,7 +1415,7 @@
             - name: Geliştirme ve yayımlama
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Hazırlama ve yayınlama
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Metodolojiler ekleme
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: İş süreci modelleyici kitaplıkları ayarlama

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770770"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888096"
 ---
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
@@ -47,7 +47,7 @@ Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm pla
 
 [Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Financials blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) fikir, haber ve diğer bilgilere ulaşabilirsiniz.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'taki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.

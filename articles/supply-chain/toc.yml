@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft Power Apps'i katıştırma
+                - name: Power Apps'taki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Tedarik ve kaynak atama iş akışı
               href: procurement/procurement-sourcing-workflows.md
+            - name: Tedarik ve kaynak atama iş akışı ile ilgili sorunları giderme
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Tedarik katalogları
               items:
                 - name: Tedarik kataloglarına genel bakış
@@ -1685,7 +1687,7 @@
                   href: procurement/rfq-question.md
                 - name: RFQ tekliflerini girip karşılaştırma ve işi verme
                   href: procurement/tasks/enter-compare-rfq-bids-award-contracts.md
-            - name: Satın alma siparişleri
+            - name: Satınalma siparişleri
               items:
                 - name: Satınalma siparişine genel bakış
                   href: procurement/purchase-order-overview.md
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Satınalma siparişindeki malların girişini kaydetme
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Satınalma siparişleri ile ilgili sorunları giderme
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Satınalma siparişi oluşturma
               items:
                 - name: Satınalma siparişlerini el ile oluşturma
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Satıcı indirimleri
                   href: procurement/vendor-rebates.md
+                - name: 'Fiyatlar, iskontolar, sözleşmeler ve indirimler ile ilgili sorunları giderme'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Satınalma ilkeleri
               items:
                 - name: Satınalma ilkelerine genel bakış
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Satıcı faturalarına genel bakış
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Ürün girişleri ve faturalama ile ilgili sorunları giderme
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Satıcı yönetimi ve işbirliği
               items:
                 - name: Satıcı işbirliğini ayarlama ve koruma
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Satıcı kataloglarını içe aktarma
                   href: procurement/vendor-catalogs-import.md
-                - name: PunchOut eProcurement için harici katalog ayarlama
+                - name: PunchOut e-tedariği için harici katalog ayarlama
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: PunchOut eProcurement için harici katalogları kullanma
+                - name: cXML geliştirmeleri satın alma
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: PunchOut e-tedariği için harici katalogları kullanma
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Satıcı işbirliği mobil çalışma alanı
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Satış siparişlerini onaylama
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Satış siparişleri ile ilgili sorunları giderme
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Satış sözleşmeleri
               items:
                 - name: Satış sözleşmelerine genel bakış
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Satış teklifleri oluşturma ve düzenleme
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Satış teklifleri ile ilgili sorunları giderme
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: İadeler
               items:
                 - name: Satış iadeleri
@@ -2603,7 +2617,7 @@
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Satın alma siparişleri için iş şablonu ayarlama
+                - name: Satınalma siparişleri için iş şablonu ayarlama
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Yerleşim ürün boyutu karıştırması
                   href: warehousing/location-product-dimension-mixing.md
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Ambar uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Ambar uygulamasında kamera kullanarak barkodları tarama
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Ambar uygulamasında alan adlarını yapılandırma
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Ambar işi için mobil cihazları ayarlama
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Ambar uygulamasında kamera kullanarak barkodları tarama
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Ambar uygulamasıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Malzeme çekme satırına genel bakış sağlamak için mobil cihaz menü öğesi ayarlama
+                      href: warehousing/pick-line-overview.md
                     - name: Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Mobil cihazda karma plakayı alma

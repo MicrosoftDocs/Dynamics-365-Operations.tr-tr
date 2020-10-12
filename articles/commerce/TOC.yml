@@ -98,11 +98,9 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (Ağustos 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (Temmuz 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Finance and Operations'daki kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Finance and Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Dynamics 365 Commerce'taki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-commerce.md
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft Power Apps'i katıştırma
+                - name: Power Apps'taki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -698,7 +696,7 @@
                       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
                     - name: Satınalma siparişi onayı mobil çalışma alanı
                       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
-                    - name: Satın alma siparişleri için ürün paketleri oluşturma
+                    - name: Satınalma siparişleri için ürün paketleri oluşturma
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Siparişlerinizi yönetme
           items:
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme
                   href: replace-IDs-tracked-changes.md
-            - name: Başlangıç paketi
+            - name: Modül kitaplığı
               items:
-                - name: Başlangıç paketine genel bakış
+                - name: Modül kitaplığına genel bakış
                   href: starter-kit-overview.md
                 - name: Kapsayıcı modülleri
                   items:
@@ -1976,11 +1974,11 @@
                   items:
                     - name: Yeni modül oluşturma
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Başlangıç paketi modülü kopyalama
+                    - name: Modül kitaplığı modülünü kopyalama
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Modül yapılandırma alanları ekleme
                       href: e-commerce-extensibility/add-module-config-fields.md
-                    - name: Modülleri önizleme ve hatalarını ayıklama
+                    - name: Modülleri önizleme ve modülde hata ayıklama
                       href: e-commerce-extensibility/test-module.md
                     - name: Sahte modüllü test modülleri
                       href: e-commerce-extensibility/test-module-mock.md
@@ -2070,13 +2068,13 @@
                   items:
                     - name: Yapılandırmaları paketleme ve çevrimiçi bir ortama dağıtma
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK ve mağaza başlangıç seti güncelleştirmeleri
+                    - name: SDK ve modül kitaplığı güncelleştirmeleri
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Retail SDK'da yakında yapılacak değişiklikler
+                - name: Retail SDK'de yakında yapılacak değişiklikler
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar önemli geliştirme ve ALM değişiklikleri
                   href: dev-itpro/dev-changes-10-13.md
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: POS Sepet görüntüleme olayları ve işleyicileri
                   href: dev-itpro/cart-view-handlers.md
+                - name: POS başlık çubuğuna özel düğmeler ekleme
+                  href: dev-itpro/pos-header-bar.md
             - name: Hardware Station genişletilebilirliği
               items:
                 - name: Hardware Station ve genişletilebilirlik

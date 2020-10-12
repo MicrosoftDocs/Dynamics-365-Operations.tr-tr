@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 380d268ec0ba64367f090c31408eac1c54d0ff17
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 7233b23020e6c82f39981d530095642902461807
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661453"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818410"
 ---
 # <a name="shipping-address-module"></a>Sevkiyat adresi modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu sevkiyat adresi modülünü ele almaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
 

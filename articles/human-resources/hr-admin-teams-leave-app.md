@@ -18,22 +18,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
-ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
+ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3776320"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828926"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
 [!include [banner](includes/preview-feature.md)]
 
-Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, çalışanların hızlı bir şekilde izin istemelerine ve izin bakiyesi bilgilerini Microsoft Teams platformunda görüntülemelerine olanak tanır. Çalışanlar, bilgi istemek için bir botla etkileşime geçebilir. **İzin** sekmesi, daha ayrıntılı bilgi sağlar.
+Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, çalışanların hızlı bir şekilde izin istemelerine ve izin bakiyesi bilgilerini Microsoft Teams platformunda görüntülemelerine olanak tanır. Çalışanlar, bilgi istemek için bir botla etkileşime geçebilir. **İzin** sekmesi daha ayrıntılı bilgi sağlar. Ayrıca kişilere ekiplerindeki yaklaşan izinler hakkında bilgi, Human Resources uygulaması dışında sohbetler gönderebilir.
 
 ![Human Resources Teams izinler uygulaması botu](./media/hr-admin-teams-leave-app-bot.png)
 
 ![Human Resources Teams izin uygulaması İzin sekmesi](./media/hr-teams-leave-app-timeoff-tab.png)
+
+![Human Resources izin istek kartı](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Yükleme ve ayarlama
 
@@ -85,7 +87,6 @@ Human Resources Teams uygulaması için bildirimleri etkinleştirdikten sonra, b
 | Çıkış | Durum |
 | --- | --- |
 | Yatay kaydırma, Android telefonlarda çalışmaz | Yatay kaydırma iOS veya masaüstü cihazlarda sorun yaratmaz. Android için bir düzeltme üzerinde çalışıyoruz. |
-| Hata: Bağlanılacak ortam bulunurken bir sorun oluştu. | Kullanıcının bir veya daha fazla İnsan Kaynakları ortamına erişebileceğini doğrulasanız bile bu hatayı alabilirsiniz. Ayrıca, beklediğiniz tüm ortamları görmeyebilirsiniz. Bu sorunu düzeltdik, sorunu gidermek için kullanıcıyı silin ve yeniden içe aktarın. |
 | İleriki bir tarih için izin işlenirken bakiye yanlıştır. | Tahmin, henüz mevcut değil. Bakiye, geçerli tarih için görüntülenir. |
 | **İncelemede** isteği iptal edilemiyor. | Bu işlev şu anda desteklenmemektedir ve gelecekteki bir sürümde eklenecektir. |
 | Bakiye bilgileri, bugün itibarıyla hesaplanmaktadır. | Sistem şu anda İzin ve devamsızlık parametrelerinde yapılandırılmış olsa bile tahakkuk dönemi itibariyle bakiyeleri göstermemektedir. |
@@ -102,9 +103,15 @@ Kullanıcıya ait sorguların ve iletilerin içeriği LUIS sisteminde en fazla 3
 
 Microsoft Teams platformundaki uygulamaların yönetici ayarlarını yönetmek için [Microsoft Teams yönetici merkezi](https://admin.teams.microsoft.com/)'ne gidin.
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid ve Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid ve Azure Cosmos DB
 
-Teams'de Dynamics 365 Human Resources uygulaması için bildirimler özelliği kullanılırken, belirli müşteri verileri kiracının Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışına akacaktır. Dynamics 365 Human Resources çalışanın izin talebini ve iş akışı görev ayrıntılarını Microsoft Azure Event Grid ve Microsoft Teams uygulamalarına iletir. Bu veriler 24 saate kadar saklanabilir ve Amerika Birleşik Devletlerinde işlenir, iletim ve bekleyen veri şifrelenir ve eğitim veya hizmet iyileştirmeleri için Microsoft veya onun alt işlemcileri tarafından kullanılmaz.
+Microsoft Teams'de Dynamics 365 Human Resources uygulamasını kullanılırken, belirli müşteri verileri kiracının Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışına akabilir.
+
+Dynamics 365 Human Resources çalışanın izin talebini ve iş akışı görev ayrıntılarını Microsoft Azure Event Grid ve Microsoft Teams uygulamalarına iletir. Bu veriler 24 saate kadar Microsoft Azure Event Grid uygulamasında saklanabilir ve Amerika Birleşik Devletlerinde işlenir, iletim ve bekleyen veri şifrelenir ve eğitim veya hizmet iyileştirmeleri için Microsoft veya onun alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Human Resources uygulamasında sohbet botu ile konuşurken, görüşme içeriği Azure Cosmos DB uygulamasında depolanabilir ve Microsoft Teams uygulamasına iletilebilir. Bu veriler, Azure Cosmos DB uygulamasında 24 saate kadar depolanabilir ve kiracınızın Human Resources hizmetinin dağıtıldığı coğrafi bölgenin dışında işlenerek, aktarım ve geri kalanında şifrelenir ve Microsoft 'un veya hizmet geliştirmeleri için bunların alt işlemcileri tarafından kullanılmaz. Verilerinizin Teams içinde nerede depolandığını anlamak için bkz. [Microsoft Teams içinde verilerin konumu](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams içinde Human Resources uygulamasına erişimi kısıtlamak için, bkz. [Microsoft Teams'deki uygulama izin ilkelerini yönetme](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Ayrıca bkz. 
 

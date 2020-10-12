@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d210e234e9004422913ac76bf4c9b720806cbece
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 00af26a9f41a6908fd0010ec9eac37e41ad9c2b6
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176128"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888120"
 ---
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
@@ -102,7 +102,7 @@ Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritasın
 
 [Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ve [Microsoft Dynamics 365 Finance and Operations - Financials blogunda](https://community.dynamics.com/365/financeandoperations/b/financials) Alacak hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
 
-[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na MBS Operations'taki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunulmaktadır.
+[Microsoft Dynamics Operations İş Ortağı Topluluk Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog)'nda Microsoft Dynamics İş Ortakları'na Dynamics 365'teki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunmaktadır.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma uygulama içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.

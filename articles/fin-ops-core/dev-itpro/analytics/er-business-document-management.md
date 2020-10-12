@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258569"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893147"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258569"
 
 [Elektronik raporlama (ER)](general-electronic-reporting.md) çerçevesi kullanan iş kullanıcıları toplam belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. Kullanıcılar, oluşturulan belgelere hangi uygulama verilerinin yerleştirileceğini belirtmek için veri akışını da tanımlayabilir. ER çerçevesi, önceden tanımlanmış şablonları kullanarak Microsoft Office (Excel çalışma kitapları veya Word belgeleri) giden belgeleri biçimler. Şablon, gerekli belgelerin oluşturulması sırasında veri akışına uygun olarak, gerekli verilerle doldurulur. Konfigüre edilen her biçim, belirli giden belgeler oluşturmak üzere bir ER çözümünün parçası olarak yayımlanabilir. Bu, farklı giden belgeler oluşturmak için kullanabileceğiniz şablonlar içerebilen bir ER biçim yapılandırması ile temsil edilir. İş kullanıcıları gerekli iş belgelerini yönetmek için bu çerçeveyi kullanabilir.
 
-**İş belgesi Yönetimi** ER çerçevesinin üzerine kurulmuştur ve iş kullanıcılarının servis veya uygun Microsoft Office 365 Microsoft Office masaüstü uygulamasını kullanarak iş belgesi şablonlarını düzenlemesini sağlar. Belgelerde yapılan düzenlemeler, iş belge tasarımlarının değiştirilmesini ve kaynak kodu değişiklikleri ve Yeni dağıtımlar olmaksızın ek veriler için yer tutucular eklemeyi içerir. İş belgelerinin şablonlarını güncelleştirmek için ER çerçevesi gerekli bilgisine sahip değildir.
+**İş belgesi yönetimi** ER çerçevesinin üzerine kurulmuştur ve iş kullanıcılarının Microsoft 365 servisini veya uygun Microsoft Office masaüstü uygulamasını kullanarak iş belgesi şablonlarını düzenlemesini sağlar. Belgelerde yapılan düzenlemeler, iş belge tasarımlarının değiştirilmesini ve kaynak kodu değişiklikleri ve Yeni dağıtımlar olmaksızın ek veriler için yer tutucular eklemeyi içerir. İş belgelerinin şablonlarını güncelleştirmek için ER çerçevesi gerekli bilgisine sahip değildir.
 
 > [!NOTE]
 > Iş belgesi yönetiminin sipariş, fatura vb. gibi iş belgelerini üretmek için kullanılan şablonları değiştirmenize olanak verdiğini unutmayın. Bir şablon değiştirildiğinde ve yeni bir sürümü yayımlanmışsa, bu sürüm gerekli iş belgelerini oluşturmak için kullanılır. İş belgesi yönetimi, zaten oluşturulmuş iş belgelerini değiştirmek için kullanılamaz.
@@ -170,7 +170,7 @@ Tüm tüzel kişilikler için temel parametreleri ayarlamak üzere aşağıdaki 
 Seçili belge türü şirkete özgüdür ve seçilen belge türü konfigüre edilen şirketteki İş Belge yönetiminde kullanıcının çalıştığı zaman kullanılır. Kullanıcı, başka bir şirkette İş belgesi yönetimi ile çalışırken, bu şirket için yapılandırılmadıysa, seçilen aynı belge türü kullanılacaktır. Bir belge türü konfigüre edildiğinde, **SharePoint belge türü** alanında seçilen yerine kullanılacak.
 
 > [!NOTE]
-> **SharePoint belge türü** parametresi, Microsoft Excel veya Word kullanarak düzenlenebilen şablonlar için geçici depolama yeri olarak bir SharePoint klasörü tanımlar. Bu Office masaüstü uygulamalarını şablon düzenleme amacıyla kullanmayı planlıyorsanız bu parametreyi ayarlamanız gerekir. Daha fazla bilgi için bkz. [Office masaüstü uygulamasında şablon düzenleme](#EditInOfficeDesktopApp). Şablonu yalnızca Office 365'teki işlevleri kullanarak değiştirmeyi planlıyorsanız bu parametreyi boş bırakabilirsiniz. Daha fazla bilgi için bkz. [Office 365'te şablon düzenleme](#EditInOffice365).
+> **SharePoint belge türü** parametresi, Microsoft Excel veya Word kullanarak düzenlenebilen şablonlar için geçici depolama yeri olarak bir SharePoint klasörü tanımlar. Bu Office masaüstü uygulamalarını şablon düzenleme amacıyla kullanmayı planlıyorsanız bu parametreyi ayarlamanız gerekir. Daha fazla bilgi için bkz. [Office masaüstü uygulamasında şablon düzenleme](#EditInOfficeDesktopApp). Şablonu yalnızca Microsoft 365'teki işlevleri kullanarak değiştirmeyi planlıyorsanız bu parametreyi boş bırakabilirsiniz. Daha fazla bilgi için bkz. [Microsoft 365'te şablon düzenleme](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Erişim izinlerini yapılandır
 
@@ -295,13 +295,13 @@ Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir.
 
 5. Düzenleme işleminin başlangıcını onaylamak için **Tamam**'ı seçin.
 
-**BDM şablon düzenleyici** sayfası açılır. Seçili şablon, kullanılarak Office 365 çevrimiçi düzenleme için kullanılabilir olacak.
+**BDM şablon düzenleyici** sayfası açılır. Seçili şablon, Microsoft 365 kullanılarak çevrimiçi düzenleme için uygun olacak.
 
 ![İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Office 365'te şablon düzenleme</a>
+### <a name=""></a><a name="EditInOffice365">Microsoft 365'te şablon düzenleme</a>
 
-Office 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Office Online'da, alanın yazı tipini, şablon başlığında **Normal**'den **Kalın**'a değiştirin. Bu değişiklikler, birincil şablonun depolama alanında (varsayılan olarak, Azure Blob depolaması) depolanan düzenlenebilir şablonda otomatik olarak depolanır. Bu, ER çerçevesi için yapılandırılmıştır.
+Microsoft 365 kullanarak şablonda değişiklik yapabilirsiniz. Örneğin, Office Online'da, alanın yazı tipini, şablon başlığında **Normal**'den **Kalın**'a değiştirin. Bu değişiklikler, birincil şablonun depolama alanında (varsayılan olarak, Azure Blob depolaması) depolanan düzenlenebilir şablonda otomatik olarak depolanır. Bu, ER çerçevesi için yapılandırılmıştır.
 
 ![İş belge yönetimi şablon düzenleme sayfası](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluş
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>**Belgeyi düzenle**'yi seçtim ancak Finance and Operations'taki **BDM şablon düzenleyicisi** sayfasını açmak yerine Office 365 web sayfasına gönderildim.
-Bu, Office 365 yeniden yönlendirmede olduğu bilinen bir sorundur. İlk kez Office 365'te oturum açtığınızda bu durum gerçekleşir. Bu soruna geçici bir çözüm bulmak için, tarayıcınızın **Geri** düğmesini seçerek geri dönün.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>**Belgeyi düzenle**'yi seçtim ancak Finance and Operations'daki **BDM şablon düzenleyicisi** sayfasını açmak yerine Microsoft 365 web sayfasına yönlendirildim.
+Bu, Microsoft 365'in yeniden yönlendirmeyle ilgili bilinen bir sorunudur. İlk kez Microsoft 365'te oturum açtığınızda bu durum yaşanır. Bu soruna geçici bir çözüm bulmak için, tarayıcınızın **Geri** düğmesini seçerek geri dönün.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>İlk uygulama oturumunda, bir şablonun Office 365 kullanarak nasıl düzenleneceğini ve değişikliklerin oluşturulan iş belgesini nasıl etkilediğini görmek için şablonu ayarlama ikinci uygulama oturumunda şablonu nasıl kullanacağınızı anladım. Bunu Office masaüstü uygulamasını kullanarak yapabilir miyim?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>İlk uygulama oturumunda, bir şablonun Microsoft 365 kullanarak nasıl düzenleneceğini ve değişikliklerin oluşturulan iş belgesini nasıl etkilediğini görmek için şablonu ayarlama ikinci uygulama oturumunda şablonu nasıl kullanacağınızı anladım. Bunu Office masaüstü uygulamasını kullanarak yapabilir miyim?
 Evet, yapabilirsiniz. İlk uygulama oturumunda, **Masaüstü uygulamasında aç**'ı seçin. Şablonunuz geçici dosya deposunda depolanır ve Office masaüstü uygulaması'nda açılır. Ardından, şablon değişikliklerinizi oluşturulan iş belgesinde önizlemek için aşağıdaki adımları tamamlayın:
 
 1. Office masaüstü uygulamasını kullanarak şablonda değişiklik yapın.

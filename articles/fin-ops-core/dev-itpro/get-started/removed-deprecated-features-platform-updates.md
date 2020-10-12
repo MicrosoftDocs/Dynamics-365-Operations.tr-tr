@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803151"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819901"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -34,6 +34,22 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri
+
+> [!NOTE]
+> Sürüm 10.0.14 bir önizleme sürümüdür. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Hizmet güncelleştirmesi kullanılabilirliği](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Çevrimiçi kullanıcılar sayfası 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu, önceki istemci/sunucu mimarisi için oluşturulmuş eski bir sayfadır. Bu sayfadaki bilgiler her zaman doğru değildir ve karıştırıcı ve yanıltıcı olabilir. |
+| **Başka bir özellikle mi değiştirildi?**   | Gelecekteki bir güncelleştirmede yeni bir sayfa sağlayacağız.|
+| **Etkilenen ürün alanları**         | Sistem Yönetimi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | 2021 Ekim'de bu form kaldırılacaktır.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
 

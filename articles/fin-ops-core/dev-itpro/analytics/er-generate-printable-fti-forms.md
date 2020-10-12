@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771295"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893375"
 ---
 # <a name="generate-printable-fti-forms"></a>Yazdırılabilir FTI formları oluşturma
 
@@ -111,7 +111,7 @@ FTI formlarını bu şekilde yazdırmak için ER biçimlerini kullandığınızd
 ER altyapısı şu anda oluşturulan belgeler için aşağıdaki hedefleri destekler:
 
 - **İndirilen dosya**: Oluşturulan formlar, tarayıcıyı kullanarak kaydedebileceğiniz indirmeler şeklinde sunulur.
-- **Ekran** - Microsoft Office 365 Excel, Excel biçiminde oluşturulan FTI formlarını önizlemek için kullanılır.
+- **Ekran**: Microsoft 365 Excel, Excel biçiminde oluşturulan FTI formlarını önizlemek için kullanılır.
 - **SharePoint klasörü** - Oluşturulan formlar, Belge yönetimi altyapısının ayarlarına göre depolanır.
 - **Uygulama arşivi** - Oluşturulan formlar Microsoft Azure Depolama'da yürütme günlüğü kayıtlarının ekleri olarak depolanır.
 - **E-posta**: Oluşturulan formlar e-posta ekleri şeklinde gönderilir.

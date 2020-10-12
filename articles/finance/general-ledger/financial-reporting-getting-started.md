@@ -3,7 +3,7 @@ title: Mali raporlamaya genel bakış
 description: Bu konu, Microsoft Dynamics 365 Finance içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696700"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835122"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -148,9 +148,7 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i ve sonra **Siteler**'i seçin. **Bu web sitesini bölgeye ekle** alanında "\*\.dynamics.com" (tırnak işaretleri olmadan) girin ve **Ekle**'yi seçin. 
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
 * Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
-* Visual Studio .NET 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir.
-
-Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
+* Microsoft .NET Framework 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
 * Chrome tarayıcı kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Chrome ile oturum açamazsanız, Internet Explorer ve Edge kullanarak Sorun 1'de açıklanan kurulum adımlarını izleyin. 
 
 Sorun 2: Kullanıcıya Financial Reporting kullanmak için gerekli izinler atanmadı. 

@@ -1,7 +1,7 @@
 ---
 title: Parçalarla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
-author: v-chgri
+author: phinneyridge
 manager: annbe
 ms.date: 07/31/2020
 ms.topic: article
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646003"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818362"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 

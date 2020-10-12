@@ -1,9 +1,9 @@
 ---
 title: Modüllerle çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646027"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818434"
 ---
 # <a name="work-with-modules"></a>Modüllerle çalışma
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kullanılacağını açıklamaktadır.
 
@@ -35,7 +34,7 @@ Bu konu, Microsoft Dynamics 365 Commerce'ta modüllerin nasıl ve ne zaman kulla
 
 Modüller, sayfa yapınızı oluşturan mantıksal yapı taşlarıdır ve çeşitli amaçlara ve kapsamlarına sahiptirler. Bazı modüller yüksek düzey konteynerlerdir ve bunların tek amacı diğer modülleri (alt modüller) tutmak ve düzenlemek içindir. Basit bir resim yerleşimi modülü gibi diğer modüller ise çok özel bir amaca sahiptir. Döngü modülü gibi diğer modüller ise bu iki kategori arasında bir yere denk düşen bir yer.
 
-Varsayılan olarak Dynamics 365 Commerce siteniz, temel e-ticaret senaryolarını elde etmenizi sağlayan bir başlangıç kiti modül kitaplığı içerir. Bu modülleri kullanarak bir uçtan uca e-ticaret sitesi oluşturmak zorunda olmalısınız. Ancak, bu modülleri özelleştirmek veya belirli gereksinimler için yeni, özel modüller oluşturmak isteyebilirsiniz. Özel modüller oluşturmak istiyorsanız özel bir modül kitaplığı oluşturmanıza yardımcı olacak bir modül tasarımı yazılım geliştirme seti (SDK) vardır.
+Varsayılan olarak Dynamics 365 Commerce siteniz, temel e-ticaret senaryolarını elde etmenizi sağlayan bir modül kitaplığı içerir. Bu modülleri kullanarak bir uçtan uca e-ticaret sitesi oluşturmak zorunda olmalısınız. Ancak, bu modülleri özelleştirmek veya belirli gereksinimler için yeni, özel modüller oluşturmak isteyebilirsiniz. Özel modüller oluşturmak istiyorsanız özel bir modül kitaplığı oluşturmanıza yardımcı olacak bir modül tasarımı yazılım geliştirme seti (SDK) vardır.
 
 ## <a name="container-modules-and-slots"></a>Konteyner modüller ve yuvalar
 

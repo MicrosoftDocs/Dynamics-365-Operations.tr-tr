@@ -3,7 +3,7 @@ title: Hediye kartı modülü
 description: Bu konu hediye kartı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ın site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cc947b9d6f3cfa51bce2155170c49e9529d0f7d
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: fc47d590789c79c08af7555222aa7cc9409da23c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761093"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817438"
 ---
 # <a name="gift-card-module"></a>Hediye kartı modülü
 
@@ -35,10 +35,16 @@ Bu konu hediye kartı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Comm
 
 E-ticaret hareketlerinde kullanılan genel bir ödeme biçimi olarak hediye kartı kabul etmek üzere ödeme modülünde bir hediye kartı modülü kullanılabilir. Hediye kartı modülü Dynamics 365, SVS ve Givex hediye kartlarını destekler. SVS ve Givex hediye kartları, Adyen ödeme sağlayıcısı aracılığıyla kullanılır. SVS ve Givex gibi harici hediye kartları desteği hakkında daha fazla bilgi için bkz. [Harici hediye kartları için destek](./dev-itpro/gift-card.md).
 
+> [!NOTE]
+> Dynamics 365 Commerce 10.0.11 sürümünde ödeme akışı sırasında SVS ve Givex hediye kartlarının kullanım desteği bulunur. 
+
 İki hediye kartı modülü mevcuttur:
 
 - **Hediye kartı**: Bu modül, geçerli bir ödeme şekli olarak bir hediye kartından yararlanmak için ödeme sayfasında kullanılabilir. 
 - **Hediye kartı bakiyesi denetimi**: Bu modül herhangi bir sayfada, bir hediye kartındaki bakiyeyi denetlemek için kullanılabilir. Bu modül Commerce 10.0.14 sürümü ve sonrasında bulunur.
+
+> [!NOTE]
+> Hediye kartı bakiyesi denetleme modülü desteği Dynamics 365 Commerce 10.0.14 sürümünde mevcuttur.
 
 Aşağıdaki resimde ödeme sayfasında kullanılan bir hediye kartı modülü örneği gösterilmektedir.
 
@@ -61,6 +67,9 @@ Commerce site oluşturucuda **Site Ayarları \> Uzantılar**altında, **Destekle
 - **SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü yalnızca Givex ve SVS hediye kartlarının kullanılmasına izin verir. Bu ayar e-Ticaret sitesindeki oturum açmış ve anonim kullanıcılar için desteklenir.
 - **Dynamics 365, SVS ve Givex hediye kartları** - Bu ayar uygulandığında, hediye kartı modülü Dynamics 365, Givex ve SVS hediye kartlarının kullanılmasına izin verir. Bu ayar yalnızca e-Ticaret sitesindeki oturum açmış kullanıcılar için desteklenir.
 
+> [!IMPORTANT]
+> Bu ayarlar Dynamics 365 Commerce 10.0.11 sürümünde bulunur ve yalnızca SVS veya Givex hediye kartları için desteğe gereksinim duyarsanız gereklidir. Dynamics 365 Commerce'nin eski sürümlerinden birini güncelleştiriyorsanız, appSettings. json dosyasını el ile güncelleştirmeniz gerekir. AppSettings.json dosyasını güncelleştirme yönergeleri için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+
 ## <a name="add-a-gift-card-module-to-a-page"></a>Sayfaya hediye kartı modülü ekleme
 
 Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayarlama yönergeleri için bkz. [Ödeme modülü](add-checkout-module.md).
@@ -82,3 +91,5 @@ Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayar
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Harici hediye kartları için destek](./dev-itpro/gift-card.md)
+
+[SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)

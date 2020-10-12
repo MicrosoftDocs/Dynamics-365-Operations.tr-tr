@@ -3,7 +3,7 @@ title: iFrame modülü
 description: Bu konu iFrame modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3647071"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818210"
 ---
 # <a name="iframe-module"></a>iFrame modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu iFrame modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -37,6 +36,9 @@ Bu konu iFrame modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün
 iFrame modülü, bir sitedeki harici içeriği barındıran bir iFrame (satır içi çerçeve) sağlar. Örneğin, herhangi bir site sayfasında bir YouTube videosu veya PDF dosyası görüntüleyiciyi barındırmak için kullanılabilir. 
 
 iFrame modülü için hedef URL gereklidir. Sonra, hedef sayfanın içeriğini bir HTML **iFrame** öğesinin içinde barındırır. Harici URL'lerin sitenin içerik güvenlik ilkesi (CSP) yönergeleri gereğince izin verilenler listesinde ("izinli liste" olarak da bilinir) olmaları gerekir. iFrame içeriği için URL'lere **frame-ancestor** yönergesi kullanılarak izin verilmesi gerekir. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini (CSP) yönetme](manage-csp.md).
+
+> [!NOTE]
+> iFrame modülü Dynamics 365 Commerce 10.0.13 sürümünde bulunur.
 
 Aşağıdaki resimde, site sayfalarındaki harici videoları gösteren iFrame modülleri örnekleri gösterilmektedir.
 
@@ -72,6 +74,6 @@ Bir sayfaya harici bir video göstermek üzere bir iFrame modülü eklemek için
  
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Başlangıç paketine genel bakış](starter-kit-overview.md)
+[Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
