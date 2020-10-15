@@ -1,6 +1,6 @@
 ---
 title: Globalleştirme kaynakları
-description: Bu konu, ülkeye/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
+description: Bu konu, ülke/bölgeye özgü işlevler ve teklifler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/02/2019
@@ -14,15 +14,15 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
-ms.author: shylaw
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 0d81471036d88e4faaf2cae4f3cc25d1eeaaa821
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598193"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979316"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
@@ -44,7 +44,7 @@ Bu konu aşağıdakileri yapmanıza yardımcı olabilecek kaynakların listesini
 - Ülkeye/bölgeye özel işlevi kullanmayı öğrenme.
 
 ### <a name="developing-localized-solutions"></a>Yerelleştirilmiş çözümler geliştirme
-Aşağıdaki kaynaklar, ülkeye/bölgeye özel özelleştirmeler veya Microsoft'un desteklemediği bir ülke için çözüm oluşturan geliştiricilere ve ISV'lere yardımcı olabilecek rehberlik ve bilgiler sunar.
+Aşağıdaki kaynaklar, ülkeye/bölgeye özel özelleştirmeler veya Microsoft'un desteklemediği bir ülke/bölge için çözüm oluşturan geliştiricilere ve ISV'lere yardımcı olabilecek rehberlik ve bilgiler sunar.
 -   [Yerelleştirme modellerinin ayrılması](separate-localization-models.md)
 -   [Ülke/bölge bağlamı uygulama](apply-country-context.md)
 -   [Özellik başlıklarındaki düzenleyici sertifika bilgileri](regulatory-certifications.md)

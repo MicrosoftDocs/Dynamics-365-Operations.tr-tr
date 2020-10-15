@@ -70,7 +70,9 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Finans 10.0.14 (Kasım 2020)
+                    - name: Finance 10.0.15 (Ocak 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
+                    - name: Finance 10.0.14 (Kasım 2020)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (Ekim 2020)
                       href: get-started/whats-new-changed-10-0-13.md
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: LCS uygulama projelerini farklı Azure AD kiracılarına taşıma
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: LCS uygulama projelerini şirket içinden buluta taşıma
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Borç hesapları
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Borç hesapları için fatura eşleştirme doğrulaması ayarlama
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Satıcı faturası otomasyonu
+              items:
+                - name: Otomatik satıcı faturalama işlemlerine genel bakış
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Satıcı faturası otomasyonu için kurulum seçenekleri
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Satıcı faturası otomasyonu sonuçlarını görüntüleme
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: Satıcı faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Fatura eşleştirme ve şirketlerarası satınalma siparişleri
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Satıcı işbirliği faturalama çalışma alanı
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Satıcı faturası otomasyonu
+            - name: Taranan belgeler için fatura otomasyonu
               href: accounts-payable/vendor-invoice-automation.md
             - name: Aracı sözleşmesi yönetimi
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Müşteri yaşlandırma raporu
+              href: accounts-receivable/customer-aging.md
             - name: Müşteri için silme günlüğü oluşturma
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gelişmiş notlar yönetimi
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Sabit servis ömrü amortismanı
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Kıymet kiralama
+          items:
+            - name: Varlık kiralamaya başlama
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Genel muhasebe
           items:
             - name: Genel muhasebeye genel bakış
@@ -1880,11 +1900,11 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Sermaye maddelerini sabit kıymete transfer etme
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Hindistan GST
+                - name: Hindistan GST'si
                   items:
-                    - name: Hindistan GST'ye genel bakış
+                    - name: Hindistan GST'sine genel bakış
                       href: localizations/apac-ind-gst.md
-                    - name: APAC Hindistan GST yerelleştirmesindeki yenilikler veya değişiklikler
+                    - name: Hindistan GST'si yerelleştirmesindeki yenilikler veya değişiklikler
                       items:
                         - name: 10.0.0'daki yenilikler veya değişiklikler
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: 10.0.12'deki yenilikler veya değişiklikler
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: 10.0.13'teki yenilikler veya değişiklikler
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Hindistan GST'si referans grupları
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Yazar kasalara ilişkin GST tümleştirmesi
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Stok hareketi
                       items:
+                        - name: Stok transferi emirleri
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: Transfer fiyatı vergi içeren stok transfer emirleri
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Müşteri ödeme hareketi
@@ -2076,13 +2100,11 @@
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Vergi eşikleriyle ilgili SSS
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Stok transferleri
-                  href: localizations/apac-ind-stock-transfer.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
                   href: localizations/italy.md
-                - name: KDV beyanı ayrıntıları
+                - name: KDV beyanları ayrıntıları
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Bloke liste raporu
                   href: localizations/emea-ita-black-list-report.md

@@ -3,7 +3,7 @@ title: Perakende hareketi tutarlılık denetleyicisi
 description: Bu konuda, Dynamics 365 Commerce'te bulunan hareket tutarlılık denetleyicisi açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265630"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968784"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Perakende hareketi tutarlılık denetleyicisi
 
@@ -47,12 +47,12 @@ Aşağıdaki çizelgede, işlem tutarlılık denetleyicisi ile gerçekleştirile
 
 - **Müşteri hesabı**: Hareket tablolarındaki müşteri hesabının Genel Merkez müşteri yöneticisinde de bulunduğunu doğrular.
 - **Satır sayısı**: Hareket başlığı tablosundan alındığı şekilde satır sayısının satış hareket tablolarındaki satır sayısıyla eşleştiğini doğrular.
-- **Fiyata vergi dahil**: **Fiyata vergi dahil** parametresinin hareket satırları arasında tutarlı olduğunu doğrular.
-- **Ödeme tutarı**: Ödeme kayıtlarının başlıktaki ödeme tutarıyla eşleştiğini doğrular.
-- **Brüt tutar**: Başlıktaki brüt tutarın, satırlardaki net tutarlar ile vergi tutarının toplamı olduğunu doğrular.
-- **Net tutar**: Başlıktaki net tutarın, satırlardaki net tutarların toplamı olduğunu doğrular.
-- **Eksik/Fazla ödeme**: Başlıktaki brüt tutar ile ödeme tutarı arasındaki farkın maksimum eksik ödeme/fazla ödeme yapılandırmasını aşmadığını doğrular.
-- **İskonto tutarı**: İskonto tablolarındaki iskonto tutarı ile hareket satırı tablolarındaki iskonto tutarının tutarlı olduğunu ve başlıktaki iskonto tutarının satırlardaki iskonto tutarlarının toplamı olduğunu doğrular.
+- **Fiyata vergi dahildir**: **Fiyata vergi dahildir** parametresinin hareket satırları arasında tutarlı olduğunu ve satış satırındaki fiyatın vergi dahil fiyat ve vergi muafiyeti yapılandırmasına uygun olduğunu doğrular.
+- **Ödeme tutarı**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak ödeme kayıtlarının üst bilgideki ödeme tutarıyla eşleştiğini doğrular.
+- **Brüt tutar**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki brüt tutarın, satırdaki net tutarların toplamına vergi tutarının eklenmesiyle elde edilen toplam olduğunu doğrular.
+- **Net tutar**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki net tutarın, satırdaki net tutarların toplamına vergi tutarının eklenmesiyle elde edilen toplam olduğunu doğrular.
+- **Eksik/Fazla ödeme**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak üst bilgideki brüt tutar ile ödeme tutarı arasındaki farkın maksimum eksik ödeme/fazla ödeme yapılandırmasını aşmadığını doğrular.
+- **İskonto tutarı**: Genel Muhasebedeki kuruş yuvarlama yapılandırmasını da dikkate alarak iskonto tablolarındaki iskonto tutarının ve hareket satırı tablolarındaki iskonto tutarının tutarlı olduğunu ve başlıktaki iskonto tutarının satırlardaki iskonto tutarlarının toplamı olduğunu doğrular.
 - **Satır iskontosu**: Hareket satırındaki satır iskontosunun, iskonto tablosunda hareket satırına karşılık gelen tüm satırların toplamı olduğunu doğrular.
 - **Hediye kartı maddesi**: Commerce, hediye kartı maddelerinin iadesini desteklemez. Ancak bir hediye kartının bakiyesi nakde çevrilebilir. Nakde çevirme satırı yerine iade satırı olarak işlenen bir hediye kartı maddesi için ekstre deftere nakil işlemi başarısız olur. Hediye kartı maddeleri için doğrulama işlemi, hareket tablolarındaki yalnızca hediye kartı satır maddelerinin hediye kartı nakde çevirme satırları olmasını sağlamaya yardımcı olur.
 - **Negatif fiyat**: Negatif fiyat hareketi satırı olmadığını doğrular.
@@ -61,6 +61,7 @@ Aşağıdaki çizelgede, işlem tutarlılık denetleyicisi ile gerçekleştirile
 - **Seri numarası**: Seri numarasıyla kontrol edilen maddelere ait hareket satırlarında seri numarasının bulunduğunu doğrular.
 - **İşaret**: Miktar ve net tutardaki işaretin tüm hareket satırlarında aynı olduğunu doğrular.
 - **İş tarihi**: Hareketlere ilişkin tüm iş tarihleri için mali dönemlerin açık olduğunu doğrular.
+- **Masraflar**: Üst bilgi ve satır masrafı tutarının vergi ve vergi muafiyeti yapılandırması dahil olacak şekilde fiyata uygun olduğunu doğrular.
 
 ## <a name="set-up-the-consistency-checker"></a>Tutarlılık denetleyicisini ayarlama
 
