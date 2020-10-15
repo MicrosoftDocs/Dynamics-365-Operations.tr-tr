@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Fransa'daki Finance and Operations uygulamaları
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: Dynamics 365 Commerce için destek alma
-              href: retail-support.md
+            - name: Destek alma
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Yükseltme ve N-1 desteği
               items:
                 - name: Commerce için yükseltme ve N-1 desteği
@@ -92,6 +92,8 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.15 (Ocak 2021)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: Commerce 10.0.14 (Kasım 2020)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (Ekim 2020)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: LCS uygulama projelerini farklı Azure AD kiracılarına taşıma
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS uygulama projelerini şirket içinden buluta taşıma
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations Commerce projelerini uygulama
@@ -706,11 +710,13 @@
                   href: customer-orders-overview.md
                 - name: Karma müşteri siparişleri
                   href: hybrid-customer-orders.md
+                - name: Satış noktasında sipariş işlemini geri çekme
+                  href: enhancedorderrecall.md
             - name: Satış siparişleri
               items:
                 - name: Çağrı merkezi siparişi oluşturma
                   href: tasks/create-call-center-orders.md
-                - name: POS'ta teslimat şeklini değiştirme
+                - name: Satış noktasında teslimat şeklini değiştirme
                   href: POS-change-delivery-mode.md
             - name: Dağıtılmış sipariş yönetimi
               items:
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Toplu işle izlenen maddeler için geliştirilmiş işleme
               href: batch.md
-            - name: Ekstreleri etkileyen Commerce parametrelerini yapılandırma
-              href: tasks/parameter-configurations-retail-statements.md
             - name: Perakende ekstrelerini etkileyen ödeme yöntemi ayarlarını yapılandırma
               href: tasks/payment-configurations-retail-statements.md
             - name: Ekstreleri hesaplamak için işi yapılandırma ve çalıştırma
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Yayımlama gruplarıyla çalışma
                   href: publish-groups.md
+                - name: Kanallar arası paylaşımı etkinleştirme ve kullanma
+                  href: cross-channel-sharing.md
                 - name: Sitenizi markalaştırma ve mağaza ayrıntıları ekleme
                   items:
                     - name: Logo ekleme
@@ -1048,6 +1054,24 @@
               items:
                 - name: Çevrimiçi kanal raporları oluşturma
                   href: generate-reports.md
+            - name: Deney
+              items:
+                - name: Dynamics 365 Commerce'te deneme
+                  href: experimentation-overview.md
+                - name: Varsayım tanımlama ve deneme için ölçümleri belirleme
+                  href: experimentation-identify.md
+                - name: Deneme ayarlama
+                  href: experimentation-setup.md
+                - name: Deneme bağlama ve düzenleme
+                  href: experimentation-connect-edit.md
+                - name: Deneme önizleme ve yayımlama
+                  href: experimentation-preview-publish.md
+                - name: Deneme çalıştırma ve izleme
+                  href: experimentation-run-monitor.md
+                - name: Çeşit yükseltme ve deneme tamamlama
+                  href: experimentation-review-complete.md
+                - name: Deneme durumunu inceleme
+                  href: experimentation-status.md
             - name: Hata işleme
               items:
                 - name: 4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
@@ -1076,10 +1100,16 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Commerce kanalı için mali tümleştirmeyi ayarlama
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Avusturya
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brezilya
+              items:
+                - name: Brezilya için Commerce yerelleştirmesi
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Doğu Avrupa
               items:
                 - name: Ortak
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Temayı temel temadan genişletme
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Özelleştirme koduna özel kaynaklar ekleme
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Komut dosyası ekleme
                   items:
                     - name: Komut dosyası enjektörleri
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: Retail Typescript ve C# proxy'leri
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: Harici uygulamalarda Retail Server API'larını kullanma
+                  href: dev-itpro/consume-retail-server-api
             - name: Commerce Runtime (CRT) genişletilebilirliği
               items:
                 - name: CRT mimarisi ve yapılandırması
