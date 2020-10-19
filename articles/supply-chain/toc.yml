@@ -2045,7 +2045,7 @@
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
                       href: production-control/report-finished-job-device.md
-                    - name: Üretimdeki çalışanlar için karma gerçeklik Guides'ı sağlama
+                    - name: Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
                       href: production-control/instruction-guides-in-production-overview.md
                     - name: Üretim emri durumunu tersine çevirme
                       href: production-control/reverse-production-order-status.md
