@@ -13,29 +13,29 @@ ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a965906bfbf6411986594ddd5c67beb426268367
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: dc0eb4c0a6397164d068b5dd44a0807dfdf65814
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217115"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979611"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="b2dd9-103">İş sınıfı oluşturma</span><span class="sxs-lookup"><span data-stu-id="b2dd9-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="7c926-103">İş sınıfı oluşturma</span><span class="sxs-lookup"><span data-stu-id="7c926-103">Create a work class</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b2dd9-104">Bu yordam, iş sınıfı kurmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="b2dd9-105">İş sınıfları, ambar çalışanı tarafından bir mobil aygıtta işlenebilecek iş emri satırlarının türünü yönetmek ve/veya sınırlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="b2dd9-106">Çalışanın işleyebileceği satırlar, çalışanın erişimi olan mobil cihaz menü öğeleri üzerindeki iş sınıfları ve iş satırı üzerinde belirlenen iş sınıfı tarafından belirlenir.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="b2dd9-107">İş sınıfları, iş emri satırı için yerine koyma konumunu doğrulamak için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="b2dd9-108">Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="b2dd9-109">Bu yordam ambar yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="7c926-104">Bu yordam, iş sınıfı kurmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="7c926-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="7c926-105">İş sınıfları, ambar çalışanı tarafından bir mobil aygıtta işlenebilecek iş emri satırlarının türünü yönetmek ve/veya sınırlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="7c926-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="7c926-106">Çalışanın işleyebileceği satırlar, çalışanın erişimi olan mobil cihaz menü öğeleri üzerindeki iş sınıfları ve iş satırı üzerinde belirlenen iş sınıfı tarafından belirlenir.</span><span class="sxs-lookup"><span data-stu-id="7c926-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that's specified on the work lines.</span></span> <span data-ttu-id="7c926-107">İş sınıfları, iş emri satırı için yerine koyma konumunu doğrulamak için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="7c926-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="7c926-108">Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7c926-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="7c926-109">Bu yordam ambar yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="7c926-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="b2dd9-110">Ambar yönetimi > Kurulum > İş > İş sınıfları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="b2dd9-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-111">Click New.</span></span>
-3. <span data-ttu-id="b2dd9-112">İş sınıfı kodu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="b2dd9-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="b2dd9-114">İş siparişi türü alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="b2dd9-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-115">Click New.</span></span>
-7. <span data-ttu-id="b2dd9-116">Konum türü alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="b2dd9-117">Konum türü seçerseniz, maddelerin çekildikten sonra nereye konulabileceklerine kısıtlama getirir.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="b2dd9-118">Bu ayar, konum yönergesi konumu çözümlemeye çalışırken ya da bir ambar çalışanı el ile mobil aygıt menü öğesi için bir konum sağlarken kullanılır.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="b2dd9-119">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b2dd9-119">Close the page.</span></span>
+1. <span data-ttu-id="7c926-110">Ambar yönetimi > Kurulum > İş > İş sınıfları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="7c926-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="7c926-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c926-111">Click New.</span></span>
+3. <span data-ttu-id="7c926-112">İş sınıfı kodu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7c926-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="7c926-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7c926-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7c926-114">İş siparişi türü alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="7c926-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="7c926-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c926-115">Click New.</span></span>
+7. <span data-ttu-id="7c926-116">Konum türü alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7c926-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="7c926-117">Konum türü seçerseniz, maddelerin çekildikten sonra nereye konulabileceklerine kısıtlama getirir.</span><span class="sxs-lookup"><span data-stu-id="7c926-117">If you select a location type, this sets a restriction on where items can be put after they've been picked.</span></span> <span data-ttu-id="7c926-118">Bu ayar, konum yönergesi konumu çözümlemeye çalışırken ya da bir ambar çalışanı el ile mobil aygıt menü öğesi için bir konum sağlarken kullanılır.</span><span class="sxs-lookup"><span data-stu-id="7c926-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="7c926-119">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7c926-119">Close the page.</span></span>
 
