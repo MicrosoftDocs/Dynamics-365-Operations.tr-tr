@@ -3,7 +3,7 @@ title: Özellik yönetimine genel bakış
 description: Bu konu Özellik Yönetimi özelliğini ve nasıl kullanabileceğinizi açıklar.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499631"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967346"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -179,3 +179,24 @@ Evet, özelliklerin işlevsel etkisi yoksa, bunlar varsayılan olarak etkinleşt
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Daha önceden müşterinin haberi olmadan özelliklerin sınırlı dağıtımı kapatıldı mı? 
 Evet, bir özellik işlevsel bir etkisi olmadan bir ortamın işleyişini etkiliyorsa, varsayılan olarak etkinleştirilebilir.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Özellik etkinleştirme kod içinde nasıl denetlenebilir?
+Özellik sınıfının bir örneğini geçirerek, **FeatureStateProvider** sınıfında  **isFeatureEnabled** yöntemini kullanın. Örnek: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Özellik etkinleştirme meta veri içinde nasıl denetlenebilir?
+**FeatureClass** özelliği, bazı meta verilerin bir özellikle ilişkili olduğunu belirtmek için kullanılabilir. **BatchContentionPreventionFeature** gibi özellik için kullanılan sınıf adı kullanılmalıdır. Bu meta veriler yalnızca bu özellikte görünür. **FeatureClass** özelliği menülerde, menü öğelerinde, enum değerlerinde ve tablo/görünüm alanlarında kullanılabilir.
+
+### <a name="what-is-a-feature-class"></a>Özellik sınıfı nedir?
+Özellik Yönetimindeki özellikler *özellik sınıfları* olarak tanımlanır. Özellik sınıfı **IFeatureMetadata uygular** ve Özellik Yönetimi çalışma alanına kendisini tanımlamak için özellik sınıfı özniteliğini kullanır. Kodda **FeatureStateProvider** API'sı ve meta verilerde **FeatureClass** sınıf özelliği kullanılarak etkinleştirme için kontrol edilebilecek çok sayıda özellik sınıfı örneği vardır. Örnek: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Bazı özellik sınıfları tarafından uygulanan IFeatureLifecycle nedir?
+IFeatureLifecycle, özellik yaşam döngüsü aşamasını gösteren bir Microsoft iç mekanizmasıdır. Özellikler şu olabilir:
+- PrivatePreview - Sınırlı dağıtımın görünür olmasını gerektirir.
+- PublicPreview - Varsayılan olarak gösterilir ancak özelliğin önizlemede olduğunu belirten bir uyarı görüntülenir.
+- Serbest bırakıldı - Tamamen serbest bırakıldı.
+

@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hhainesms
+ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
-ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
+ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3694934"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976004"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 

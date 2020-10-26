@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002826"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961598"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Siteniz için arama motoru optimizasyonu (SEO) konuları
 
@@ -47,7 +47,7 @@ Arama motoru dizinini oluşturma işlemini en iyi duruma getirmek için, işleme
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Dahili önizleme, sınırlı hedef kitleler ve tüm izleyiciler için sayfa SEO ayarları
 
-Dynamics 365 Commerce, "gördüğünüz şey aldığınız şeydir" (WYSIWYG) kimlik doğrulamalı Önizleme desteği sağladığından, yazarlar bilgilerin site ziyaretçileri tarafından görülebileceğini düşünmenize gerek kalmadan sayfa içeriğini hazırlayabilir. Bir sayfanın yayımlanması gerekiyorsa, ancak etkilenme sayısının sınırlı olması gerekiyorsa, bu bir **NOINDEX** meta etiketine sahip olmalıdır ve bu nedenle arama motorları tarafından dizin oluşturulmayacak. Daha sonra, sayfa tüm izleyiciler için hazır olduğunda, arama motoru dizininin verimliliğini en üst düzeye çıkarmak için tüm temel SEO meta verileri bulunmalıdır. Ek olarak, **NOLIMIT** meta etiketi kaldırılmalıdır.
+Dynamics 365 Commerce, görsel sayfa oluşturucuda "gördüğünüz şey aldığınız şeydir" (WYSIWYG) kimlik doğrulamalı önizleme desteği sağladığından, yazarlar bilgilerin site ziyaretçileri tarafından görülebileceğini düşünmenize gerek kalmadan sayfa içeriğini hazırlayabilir. Bir sayfanın yayımlanması gerekiyorsa, ancak etkilenme sayısının sınırlı olması gerekiyorsa, bu bir **NOINDEX** meta etiketine sahip olmalıdır ve bu nedenle arama motorları tarafından dizin oluşturulmayacak. Daha sonra, sayfa tüm izleyiciler için hazır olduğunda, arama motoru dizininin verimliliğini en üst düzeye çıkarmak için tüm temel SEO meta verileri bulunmalıdır. Ek olarak, **NOLIMIT** meta etiketi kaldırılmalıdır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

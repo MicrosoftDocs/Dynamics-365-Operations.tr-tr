@@ -3,7 +3,7 @@ title: Elektronik faturalama eklentisini kullanmaya başlangıç
 description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836053"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971484"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisini kullanmaya başlangıç
 
@@ -62,7 +62,7 @@ Elektronik faturalama eklentisini geçerli lisansınızla kullanabilirsiniz. Hiz
 Bu konudaki adımları tamamlayabilmek için önce aşağıdaki ön koşullara sahip olmanız gerekir:
 
 - LCS hesabınıza erişim.
-- Finance veya Supply Chain Management sürüm 10.0.12 veya sonrasını içeren bir LCS dağıtım projesi.
+- Finance veya Supply Chain Management sürüm 10.0.13 veya sonrasını içeren bir LCS dağıtım projesi.
 - RCS hesabınıza erişim.
 - **Özellik yönetimi** modülü aracılığıyla RCS hesabınızın Genelleştirme özelliğini açın. Daha fazla bilgi için, bkz. [Regulatory Configuration Services (RCS) - Genelleştirme özellikleri](rcs-globalization-feature.md)
 - Azure'da bir anahtar kasası kaynağı ve bir depolama hesabı oluşturun. Daha fazla bilgi için bkz. [Azure Depolama Hesabı ve Anahtar Kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ Aşağıdaki şekil bu konuda tamamlayacağınız beş ana adımı göstermekted
 ## <a name="lcs-setup"></a>LCS kurulumu
 
 1. LCS hesabınızda oturum açın.
-2. LCS dağıtım projesini seçin. Projeyi seçmeden önce, çalışır durumda olmalıdır.
-3. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
-4. **İş Belgesi Gönderme**'yi seçin.
-5. **Kurulum eklentisi** iletişim kutusunda, **AAD uygulama kimliği** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** değerini girin. Bu değer sabit bir değerdir.
-6. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kimliğini girin.
+2. **Önizleme özelliği yönetimi** kutucuğunu seçin ve **Genel Önizleme özellikleri** alanı grubunda, **BusinessDocumentSubmission**'ı seçin.
+3. **Önizleme özelliği etkin** alanını işaretleyin.
+4. LCS dağıtım projesini seçin. Projeyi seçmeden önce, çalışır durumda olmalıdır.
+5. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
+6. **İş Belgesi Gönderme**'yi seçin.
+7. **Kurulum eklentisi** iletişim kutusunda, **AAD uygulama kimliği** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** değerini girin. Bu değer sabit bir değerdir.
+8. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kimliğini girin.
 
     ![LCS 'de eklenti iletişim kutusunu ayarlama](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Hüküm ve koşulları kabul etmek için onay kutusunu seçin.
-8. **Yükle**'yi seçin.
+9. Hüküm ve koşulları kabul etmek için onay kutusunu seçin.
+10. **Yükle**'yi seçin.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -124,7 +126,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
     ![Anahtar Kasası URI alanı](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. **Sertifikalar** hızlı sekmesinde, **Ekle**'yi seçin ve dijital sertifika adlarını ve anahtar kasası gizli anahtarlarını girin. Her iki değer kümesi de Azure'daki anahtar kasası kaynağı üzerinde yapılandırılır.
+7. Tüm dijital sertifika adlarını ve güvenilir bağlantılarını kurmak için gereken anahtar kasası gizli anahtarlarını girmek için **Sertifikalar** hızlı sekmesinde **Ekle**'yi seçin. **Tür** sütununda, bunun bir Sertifika mı yoksa Gizli anahtar mı olduğunu belirtebilirsiniz. Her iki değer kümesi de Azure'daki anahtar kasası kaynağı üzerinde yapılandırılır.
 
     ![Sertifikaları ekleme](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Elektronik faturalama eklentisi sunucusu ile RCS bütünleştirmesini kurma
 
-1. **Genelleştirme özellikleri** çalışma alanında, **İlgili bağlantılar** bölümünde, **Elektronik raporlama parametreleri** bağlantısını seçin.
+1. **Genelleştirme özellikleri** çalışma alanında, **İlgili ayarlar** bölümünde, **Elektronik raporlama parametreleri** bağlantısını seçin.
 2. **Lifecycle Service hizmetine bağlanmak için burayı tıklayın** seçeneğini belirleyin. LCS'ye bağlanmak istemiyorsanız **İptal**'i seçin.
-3. **Elektronik faturalama eklentisi** sekmesinde, **Servis uç noktası URI'si** alanına `https://businessdocumentsubmission.us.operations365.dynamics.com/` değerini girin.
+3. **E-faturalama Hizmetleri** sekmesinde, **Hizmet uç nokta URI'si** alanına, kullanılabilir coğrafi bölgelere uygun değeri girin: `https://businessdocumentsubmission.us.operations365.dynamics.com/` veya `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. **Uygulama kimliği** alanında, **0cdb527f-a8d1-4bf8-9436-b352c68682b2** kimliğinin gösterildiğini doğrulayın. Bu değer sabit bir değerdir.
 5. **LCS Ortam Kimliği** alanına, LCS abonelik hesabınızın kimliğini girin.
 

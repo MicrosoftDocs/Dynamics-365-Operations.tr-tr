@@ -3,7 +3,7 @@ title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828956"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930005"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -171,6 +171,22 @@ Astları bulunan bir yönetici iseniz, takımınızın onaylanmış ve bekleyen 
 Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
 
 ![Human Resources Teams uygulamasında izin takvimi](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>Sorun Giderme
+
+Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşıyorsanız, bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
+
+Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığınız hesap Dynamics 365 Human Resources'taki bir personel kaydıyla ilişkilendirilmemiş olabilir. Çalışan kaydınızın doğru bir şekilde ilişkilendirildiğinden emin olmak için sistem yöneticinize başvurun.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Teams'deki Human Resources uygulamasındaki izin isteklerini onaylarken hata oluştu
+
+Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsanız, aşağıdaki sorun giderme adımlarını gerçekleştirin:
+
+1. Microsoft Teams'te Oturum açmak için kullandığınız hesabın Dynamics 365 Human Resources'a erişmek için kullandığınız hesapla aynı olduğunu doğrulayın.
+
+2. İzin onayı için iş akışı ayarlarını denetleyerek istek için geçerli bir onaylayan olduğunuzu doğrulayın. İzin isteği iş akışları hakkında daha fazla bilgi için bkz. [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
 

@@ -3,7 +3,7 @@ title: POS'ta gelen stok işlemi
 description: Bu konu satış noktası (POS) gelen stok operasyonunun yeteneklerini açıklar.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710321"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971509"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -133,6 +133,18 @@ Alternatif olarak, madde miktarının büyük olduğu bir senaryoda, Kullanıcı
 Belge satırları alma işlemi sırasında geçerlilikler meydana gelir. Bunlar fazla teslimat için doğrulama içerirler. Bir Kullanıcı bir satın alma siparişinde sipariş edilen sayıdan daha fazla stok almayı denerse ancak fazla teslimat Konfigüre edilmezse veya teslim alınan miktar, satın alma siparişi satırı için konfigüre edilen fazla teslimat toleransını aşarsa, Kullanıcı hata alır fazlalık miktarı almasına izin verilmez.
 
 Fazla alma, Transfer emri belgeleri için izin verilmez. Kullanıcılar transfer emri satırı için sevk edilmiş olandan fazlasını almayı denerse her zaman hata alır.
+
+### <a name="close-purchase-order-lines"></a>Satınalma siparişi satırlarını kapatma
+
+Teslim alma işlemi sırasında gelen bir satınalma siparişindeki kalan miktarı, göndericinin tam miktarı sevkedemeyeceğini onaylaması durumunda kapatabilirsiniz. Bunu yapmak için şirketin satınalma siparişlerinin eksik teslimatına izin verecek şekilde yapılandırılmış olması gerekir. Ek olarak, satınalma siparişi satırı için eksik teslimat tolerans yüzdesi tanımlanmalıdır.
+
+Şirketi satın alma emirlerinin eksik teslimatlara izin verecek şekilde konfigüre etmek için Commerce headquarters'ta **Tedarik ve kaynak kullanımı** > **Kurulum** > **Tedarik ve kaynak atama parametreleri**'ne gidin. **Teslimat** sekmesinde, **Eksik teslimat kabul et** parametresini açın. Ardından ayarları kanallara eşitlemek için **1070** (**Kanal yapılandırması**) dağıtım zamanlaması işini çalıştırın.
+
+Satınalma siparişi satırı için eksik teslimat tolerans yüzdeleri, Commerce Headquarters'da ürün yapılandırmalarının bir parçası olarak ürünlerde önceden tanımlanabilir. Alternatif olarak, Commerce Headquarters aracılığıyla belirli bir satınalma siparişi satırında bunlar ayarlanabilir veya bunların üzerine yazılabilir.
+
+Bir kuruluş satınalma siparişinin eksik teslimatını yapılandırmayı tamamladıktan sonra, POS kullanıcıları **Giden işlem** operasyonunda seçilen giden satınalma siparişi satırını seçtiklerinde, **Ayrıntılar** bölmesinde yeni bir **Kalan miktarı kapat** seçeneği görür. Kullanıcı kalan miktarı kapatırsa POS kapatılan miktarın satınalma siparişi satırında tanımlanan eksik teslimat yüzdesi toleransı dahilinde olduğunu bir doğrulama işlemiyle doğrular. Eksik teslimat toleransı aşılırsa, bir hata iletisi görüntülenir ve teslim alınan miktar artı **Şİmdi alınıyor** miktarı, eksik teslimat tolerans yüzdesine göre alınması gereken minimum miktarı karşılayana veya geçene kadar kullanıcı kalan miktarı kapatamaz. 
+
+Bir satınalma siparişi satırı için **kalan miktarı Kapat** seçeneği açık olduğunda, Kullanıcı **Teslim almayı sonlandır** eylemini kullanarak girişi tamamladığında, Commerce Headquarters'a bir kapatma isteği gönderilir ve bu sipariş satırının alınmamış miktarı iptal edilir. Bu noktada satır tam olarak alındı olarak kabul edilir. 
 
 ### <a name="receiving-location-controlled-items"></a>Yerleşim denetimli maddeleri alma
 
