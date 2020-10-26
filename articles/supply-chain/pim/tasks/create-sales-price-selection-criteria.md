@@ -13,44 +13,44 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d1385a83da5b6448a9c753d7469979796043b60
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4ae444008e550d808a02d55dad02cc1b52874f0d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203791"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985473"
 ---
-# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="4fb03-103">Satış fiyatı seçim ölçütü oluşturma</span><span class="sxs-lookup"><span data-stu-id="4fb03-103">Create sales price selection criteria</span></span>
+# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="93f32-103">Satış fiyatı seçim ölçütü oluşturma</span><span class="sxs-lookup"><span data-stu-id="93f32-103">Create sales price selection criteria</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4fb03-104">Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı seçim ölçütlerinin nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="4fb03-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="4fb03-105">Bu yordam için kullanılabilir en az bir satış fiyatı modeli olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="4fb03-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="4fb03-106">Bu örnek için, USMF demo veri şirketinde Hoparlör çözümü satış fiyatı modeli için fiyat modeli kullanılır.</span><span class="sxs-lookup"><span data-stu-id="4fb03-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="4fb03-107">Genel olarak bu yordamı bir ürün yöneticisi kullanır.</span><span class="sxs-lookup"><span data-stu-id="4fb03-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="93f32-104">Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı seçim ölçütlerinin nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="93f32-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="93f32-105">Bu yordam için kullanılabilir en az bir satış fiyatı modeli olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="93f32-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="93f32-106">Bu örnek için, USMF demo veri şirketinde Hoparlör çözümü satış fiyatı modeli için fiyat modeli kullanılır.</span><span class="sxs-lookup"><span data-stu-id="93f32-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="93f32-107">Genel olarak bu yordamı bir ürün yöneticisi kullanır.</span><span class="sxs-lookup"><span data-stu-id="93f32-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="4fb03-108">Mevcut satış fiyatı modeli için yeni bir ölçüt ekleme</span><span class="sxs-lookup"><span data-stu-id="4fb03-108">Add a new criterion for an existing sales price model</span></span>
-1. <span data-ttu-id="4fb03-109">Ürün varyantı model tanımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="4fb03-110">Ürün yapılandırma modelleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-110">Click Product configuration models.</span></span>
-3. <span data-ttu-id="4fb03-111">Listede, Hoparlör çözümü ürün modeli için satır seçin ancak model adı bağlantısına tıklamayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-111">In the list, select the row for the Speaker solution product model, but don't click the link for the model name.</span></span>
-4. <span data-ttu-id="4fb03-112">Eylem Bölmesinde,Model öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-112">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="4fb03-113">Fiyat modeli ölçütlerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-113">Click Price model criteria.</span></span>
-6. <span data-ttu-id="4fb03-114">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-114">Click New.</span></span>
-7. <span data-ttu-id="4fb03-115">Ad alanına "Müşteri grubu 10" yazın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-115">In the Name field, type 'Customer group 10'.</span></span>
-    * <span data-ttu-id="4fb03-116">Fiyat modeli ölçütünün adı, temel alınan seçim ölçütlerinin tanımlanmasına yardımcı olmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="4fb03-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
-8. <span data-ttu-id="4fb03-117">Fiyat modeli alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-117">In the Price model field, enter or select a value.</span></span>
-9. <span data-ttu-id="4fb03-118">Sipariş türü alanında Satış siparişi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-118">In the Order type field, select Sales order.</span></span>
-    * <span data-ttu-id="4fb03-119">Sipariş türü seçim sorgusu için kullanılacak veri tabanı alanlarını belirler.</span><span class="sxs-lookup"><span data-stu-id="4fb03-119">The order type determines the database fields that will be available for the selection query.</span></span>  
-10. <span data-ttu-id="4fb03-120">Geçerlilik başlangıcı alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-120">In the Valid from field, enter a date.</span></span>
-11. <span data-ttu-id="4fb03-121">Geçerlilik sonu alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-121">In the Expire by field, enter a date.</span></span>
-12. <span data-ttu-id="4fb03-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-122">Click Save.</span></span>
+## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="93f32-108">Mevcut satış fiyatı modeli için yeni bir ölçüt ekleme</span><span class="sxs-lookup"><span data-stu-id="93f32-108">Add a new criterion for an existing sales price model</span></span>
+1. <span data-ttu-id="93f32-109">Ürün varyantı model tanımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="93f32-110">Ürün yapılandırma modelleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-110">Click Product configuration models.</span></span>
+3. <span data-ttu-id="93f32-111">Listede, Hoparlör çözümü ürün modeli için satır seçin ancak model adı bağlantısına tıklamayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-111">In the list, select the row for the Speaker solution product model, but don't click the link for the model name.</span></span>
+4. <span data-ttu-id="93f32-112">Eylem Bölmesinde,Model öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-112">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="93f32-113">Fiyat modeli ölçütlerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-113">Click Price model criteria.</span></span>
+6. <span data-ttu-id="93f32-114">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93f32-114">Click New.</span></span>
+7. <span data-ttu-id="93f32-115">Ad alanına "Müşteri grubu 10" yazın.</span><span class="sxs-lookup"><span data-stu-id="93f32-115">In the Name field, type 'Customer group 10'.</span></span>
+    * <span data-ttu-id="93f32-116">Fiyat modeli ölçütünün adı, temel alınan seçim ölçütlerinin tanımlanmasına yardımcı olmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="93f32-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
+8. <span data-ttu-id="93f32-117">Fiyat modeli alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="93f32-117">In the Price model field, enter or select a value.</span></span>
+9. <span data-ttu-id="93f32-118">Sipariş türü alanında Satış siparişi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="93f32-118">In the Order type field, select Sales order.</span></span>
+    * <span data-ttu-id="93f32-119">Sipariş türü seçim sorgusu için kullanılacak veri tabanı alanlarını belirler.</span><span class="sxs-lookup"><span data-stu-id="93f32-119">The order type determines the database fields that will be available for the selection query.</span></span>  
+10. <span data-ttu-id="93f32-120">Geçerlilik başlangıcı alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="93f32-120">In the Valid from field, enter a date.</span></span>
+11. <span data-ttu-id="93f32-121">Geçerlilik sonu alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="93f32-121">In the Expire by field, enter a date.</span></span>
+12. <span data-ttu-id="93f32-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-122">Click Save.</span></span>
 
-## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="4fb03-123">Seçim ölçütleri için sorgu oluşturma</span><span class="sxs-lookup"><span data-stu-id="4fb03-123">Create the query for the selection criteria</span></span>
-1. <span data-ttu-id="4fb03-124">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-124">Click Edit.</span></span>
-2. <span data-ttu-id="4fb03-125">Tablo alanında, Müşteriler'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-125">In the Table field, select Customers.</span></span> 
-3. <span data-ttu-id="4fb03-126">Alan alanında Müşteri grubu'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-126">In the Field field, select Customer group.</span></span>
-    * <span data-ttu-id="4fb03-127">Bu örnekte, seçim ölçütü için belirli bir müşteri grubu kullanacağız.</span><span class="sxs-lookup"><span data-stu-id="4fb03-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
-4. <span data-ttu-id="4fb03-128">Ölçütler alanında Müşteri grubu 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="4fb03-128">In the Criteria field, select Customer group 10.</span></span> 
-5. <span data-ttu-id="4fb03-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fb03-129">Click OK.</span></span>
+## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="93f32-123">Seçim ölçütleri için sorgu oluşturma</span><span class="sxs-lookup"><span data-stu-id="93f32-123">Create the query for the selection criteria</span></span>
+1. <span data-ttu-id="93f32-124">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-124">Click Edit.</span></span>
+2. <span data-ttu-id="93f32-125">Tablo alanında, Müşteriler'i seçin.</span><span class="sxs-lookup"><span data-stu-id="93f32-125">In the Table field, select Customers.</span></span> 
+3. <span data-ttu-id="93f32-126">Alan alanında Müşteri grubu'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="93f32-126">In the Field field, select Customer group.</span></span>
+    * <span data-ttu-id="93f32-127">Bu örnekte, seçim ölçütü için belirli bir müşteri grubu kullanacağız.</span><span class="sxs-lookup"><span data-stu-id="93f32-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
+4. <span data-ttu-id="93f32-128">Ölçütler alanında Müşteri grubu 10'u seçin.</span><span class="sxs-lookup"><span data-stu-id="93f32-128">In the Criteria field, select Customer group 10.</span></span> 
+5. <span data-ttu-id="93f32-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93f32-129">Click OK.</span></span>
 
