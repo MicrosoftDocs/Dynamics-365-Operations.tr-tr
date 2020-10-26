@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1fdc4a44ff55586f6879d9fb7df44b4f88c568
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 14bc48a0dc118121b75c47f6082a3b4d58fcbadc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772857"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977108"
 ---
 # <a name="europe-overview"></a>Avrupa'ya genel bakış
 
@@ -50,10 +50,10 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
   - [ISO20022 hesaptan ödeme yapılandırmasını içe aktarma](tasks/import-iso20022-direct-debit-configuration.md)
   - [ISO20022 alacak transferi yapılandırmasını içe aktarma](tasks/import-iso20022-credit-transfer-configuration.md)
   - [ISO20022 alacak transferleri için şirket banka hesapları ayarlama](tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
-  - [ISO20022 hesaptan ödemeleri için şirket banka hesapları ayarlama](tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
+  - [ISO20022 talimatlı ödemeleri için şirket banka hesapları ayarlama](tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
   - [ISO20022 alacak transferi için ödeme yöntemini ayarlama](tasks/set-up-method-payment-iso20022-credit-transfer.md)
   - [ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama](tasks/setup-method-payment-iso20022-direct-debit.md)
-  - [ISO20022 hesaptan ödemeleri için müşterileri ve müşteri banka hesaplarını ayarlama](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
+  - [ISO20022 talimatlı ödemeleri için müşterileri ve müşteri banka hesaplarını ayarlama](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
   - [ISO20022 alacak transferleri için satıcıları ve satıcı banka hesaplarını ayarlama](tasks/set-up-vendor-iso20022-credit-transfers.md)
   - [ISO20022 ödeme biçimini kullanarak satıcı ödemeleri oluşturma ve dışa aktarma](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [İntrastat'a genel bakış](emea-intrastat.md)

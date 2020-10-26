@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895389"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989253"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -37,10 +37,10 @@ Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya �
 
 Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Supply Chain Management'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 
--   **Rota** – üretim sürecinin yapısını tanımlar. Diğer bir deyişle, operasyonların sırasını tanımlar.
--   **Operasyon** – rotadaki adlandırılmış bir adımı tanımlar (örneğin **Montaj**). Aynı operasyon birden çok rotada yapılabilir ve bunların farklı operasyon numaraları olabilir.
--   **Operasyon ilişkisi** – bir operasyonun hazırlık süresi ve çalışma süresi, maliyet kategorileri, tüketim parametreleri ve kaynak gereksinimleri gibi operasyonel özelliklerini tanımlar. Operasyon ilişkisi, bir operasyonun operasyonel özelliklerinin, içinde o operasyonun kullanıldığı veya ürünlerin üretilmekte olduğu rotaya göre değişmesini sağlar.
--   **Rota sürümü** – bir ürünü veya ürün çeşidini üretmek için kullanılan rotayı tanımlar. Rota sürümleri rotaların farklı ürünlerde yeniden kullanılabilmesini veya zamanla değişebilmesini sağlar. Sürümler aynı ürünü üretmek için farklı rotaların kullanılabilmesini de sağlar. Bu durumda, kullanılan rota, lokasyon veya üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir.
+- **Rota** – üretim sürecinin yapısını tanımlar. Diğer bir deyişle, operasyonların sırasını tanımlar.
+- **Operasyon** – rotadaki adlandırılmış bir adımı tanımlar (örneğin **Montaj**). Aynı operasyon birden çok rotada yapılabilir ve bunların farklı operasyon numaraları olabilir.
+- **Operasyon ilişkisi** – bir operasyonun hazırlık süresi ve çalışma süresi, maliyet kategorileri, tüketim parametreleri ve kaynak gereksinimleri gibi operasyonel özelliklerini tanımlar. Operasyon ilişkisi, bir operasyonun operasyonel özelliklerinin, içinde o operasyonun kullanıldığı veya ürünlerin üretilmekte olduğu rotaya göre değişmesini sağlar.
+- **Rota sürümü** – bir ürünü veya ürün çeşidini üretmek için kullanılan rotayı tanımlar. Rota sürümleri rotaların farklı ürünlerde yeniden kullanılabilmesini veya zamanla değişebilmesini sağlar. Sürümler aynı ürünü üretmek için farklı rotaların kullanılabilmesini de sağlar. Bu durumda, kullanılan rota, lokasyon veya üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir.
 
 ## <a name="routes"></a>Rotalar
 Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Supply Chain Management'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
@@ -60,9 +60,9 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 [![Rota zinciri](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
-> -   Birden fazla operasyonun paralel olarak çalışacak aynı ardıl operasyonu olacağının garanti etmez (örneğin önceki şekilde görülen 30 ve 40 operasyonları). Kaynakların kullanılabilirliği ve kapasitesi nedeniyle operasyonların zamanlanma yöntemine kısıtlamalar getirilebilir.
-> -   Operasyon numarası olarak 0 (sıfır) kullanamazsınız. Bu numara rezervedir ve rotadaki son operasyonun ardıl operasyonu olmadığını belirtmek için kullanılır.
+> - Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
+> - Birden fazla operasyonun paralel olarak çalışacak aynı ardıl operasyonu olacağının garanti etmez (örneğin önceki şekilde görülen 30 ve 40 operasyonları). Kaynakların kullanılabilirliği ve kapasitesi nedeniyle operasyonların zamanlanma yöntemine kısıtlamalar getirilebilir.
+> - Operasyon numarası olarak 0 (sıfır) kullanamazsınız. Bu numara rezervedir ve rotadaki son operasyonun ardıl operasyonu olmadığını belirtmek için kullanılır.
 
 ### <a name="parallel-operations"></a>Paralel operasyonlar
 
@@ -99,12 +99,12 @@ Operasyonun hazırlık süresi ve çalışma süresi, kaynak gereksinimleri, mal
 ## <a name="operation-relations"></a>Operasyon ilişkileri
 Operasyon ilişkisinde bir operasyonun şu operasyonel özellikleri tutulur:
 
--   Maliyet kategorileri
--   Tüketim parametreleri
--   İşlem süreleri
--   İşlem miktarları
--   Kaynak gereksinimleri
--   Notlar ve yönergeler
+- Maliyet kategorileri
+- Tüketim parametreleri
+- İşlem süreleri
+- İşlem miktarları
+- Kaynak gereksinimleri
+- Notlar ve yönergeler
 
 Aynı operasyon için birden fazla operasyon ilişkisi tanımlayabilirsiniz. Ancak, her operasyon ilişkisi belirli bir operasyona özgüdür ve belirli bir madde grubuyla ilgili bir rotaya, serbest bırakılan bir ürüne veya bir serbest bırakılan ürünler grubuna özgü özellikleri saklar. Bu nedenle, farklı operasyonel özellikleri olan birden fazla rotada aynı operasyon kullanılabilir. Ayrıca, kullanılan rotadan ve üretilen üründen bağımsız olarak, aynı operasyonel özellikleri taşıyan standart operasyonlar kullanırsanız ana verilerinizi daha kolay yönetebilirsiniz. Operasyon ilişkisinin kapsamı, aşağıdaki tabloda gösterildiği gibi, **Madde kodu**, **Madde ilişkisi**, **Rota kodu** ve **Rota ilişkisi** özellikleriyle tanımlanır.
 
@@ -166,12 +166,13 @@ Supply Chain Management serbest bırakılan bir ürün için en uygun operasyon 
 Bu nedenle, bir operasyon her rota için yalnızca bir kez kullanılmalıdır. Operasyon aynı rotada birden çok kez gerçekleşirse, o operasyonun tüm tekrarları aynı operasyon ilişkisini taşıyamaz ve her tekrar için farklı özelliklere (örneğin çalışma süreleri) sahip olamazsınız.
 
 ## <a name="route-versions"></a>Rota sürümleri
+
 Rota sürümleri ürünlerin üretimindeki varyasyonları karşılamak veya üretim süreci üzerinde daha fazla kontrol sağlamak için kullanılır. Bu sürümler belirli bir serbest bırakılan ürün veya serbest bırakılan ürün çeşidi üretilirken kullanılması gereken rotayı tanımlar. Serbest bırakılan bir üründe hangi rotanın kullanılacağını tanımlamak için aşağıdaki kısıtlamaları kullanabilirsiniz:
 
--   Ürün boyutları (boyut, renk, stil veya yapılandırma)
--   Üretim miktarı
--   Üretim tesisi
--   Üretim tarihi
+- Ürün boyutları (boyut, renk, stil veya yapılandırma)
+- Üretim miktarı
+- Üretim tesisi
+- Üretim tarihi
 
 Ürünü belirli bir tesiste, miktarda veya bir süre içinde üretirken, varsayılan rota sürümü olarak belirli bir rota sürümü belirleyebilirsiniz. Bununla birlikte, belirli bir serbest bırakılan ürün ve belirli bir kısıtlama grubu için yalnızca bir adet etkin rotaya izin verildiğini unutmayın.  
 
@@ -194,6 +195,7 @@ Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildi
 Yeni veya değiştirilmiş rotaları ve rota sürümlerini onaylamak ve etkinleştirmek için yapılan ürün değişikliği servis talebi, rota sürümü kısıtlamalarını genel bir açıdan görmenin kolay bir yoludur. Ayrıca, tek bir işlemde belirli bir değişiklikle ilgili tüm rotaları onaylayıp etkinleştirebilir ve sonuçları ürün değişikliği servis talebinde belgeleyebilirsiniz.
 
 ## <a name="maintaining-routes"></a>Rotaları yönetme
+
 İş gereksinimlerinize bağlı olarak, işlem tanımlarınızı korumak için gereken iş yükünü azaltabilirsiniz.
 
 ### <a name="making-routes-independent-of-resources"></a>Kaynaklardan bağımsız rota yapma
@@ -224,10 +226,10 @@ Bu yaklaşımı kullandığınız zaman, **Operasyon ilişkileri** sayfası, ça
 
 Bir operasyonun kaynak gereksinimlerinin bir parçası olarak bir operasyon kaynağı veya kaynak grubu belirtmezseniz, geçerli kaynaklar farklı hızlarda çalışabilir. Bu nedenle, bir operasyonu yürütmek için gereken süre değişebilir. Bu sorunu gidermek amacıyla, işlem süresinin nasıl hesaplanacağını belirtmek için, operasyon ilişkisindeki **Formül** alanını kullanabilirsiniz. Aşağıdaki seçenekler bulunur:
 
--   **Standart** – (Varsayılan seçenek) Hesaplama, yalnızca operasyon ilişkisindeki alanları kullanır ve belirtilen çalışma süresini sipariş miktarıyla çarpar.
--   **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır.
--   **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
--   **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
+- **Standart** – (Varsayılan seçenek) Hesaplama, yalnızca operasyon ilişkisindeki alanları kullanır ve belirtilen çalışma süresini sipariş miktarıyla çarpar.
+- **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. **İşlem süresi** **Sipariş miktarı** bölü **Kapasite** olarak hesaplanır.
+- **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
+- **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
 
 ### <a name="set-up-route-groups"></a>Rota gruplarını ayarla
 

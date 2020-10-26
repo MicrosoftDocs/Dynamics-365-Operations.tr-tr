@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7c2c34474cada787b7a7ba720ba177aa8dc125f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214373"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985925"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Tek düzeyli yapı kullanarak ürün reçetesi hesaplama (Şubat 2016)
 
@@ -41,6 +41,6 @@ Bu yordam, Maliyetlendirme tablosunu temel alan, tek düzeyli açılım kullanar
     * Bu tanıtım için, 10'u seçin. Bu, bileşenlere maliyet fiyatını eklemek için kullanılan aynı maliyetlendirme sürümüdür.  
 7. Tamam'a tıklayın.
 8. Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.
-    * Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.    Maliyetin bileşimi buradadır:  •    10 ITEM_A'dan, 10 ITEM_B'den ve 10 BOM_2'den türetilir. Bu durumda, BOM_2 için ayrıntı bulunmamaktadır çünkü 10'un standart maliyeti olarak girilmiş ve hesaplama sonunda yapılmamıştır.  *  Hazırlık süresinden, sabit bir maliyet olan 7 ve çalışma zamanı işleminden (İşlem) ek olarak 7 türetilmiştir.  *   Dolaylı maliyetlere karşılık gelen başka tutarlar da vardır.  
+    * Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.    Maliyetin bileşimi buradadır:  *    10 ITEM_A'dan, 10 ITEM_B'den ve 10 BOM_2'den türetilir. Bu durumda, BOM_2 için ayrıntı bulunmamaktadır çünkü 10'un standart maliyeti olarak girilmiş ve hesaplama sonunda yapılmamıştır.  *  Hazırlık süresinden, sabit bir maliyet olan 7 ve çalışma zamanı işleminden (İşlem) ek olarak 7 türetilmiştir.  *   Dolaylı maliyetlere karşılık gelen başka tutarlar da vardır.  
 9. @SysTaskRecorder:_RequestClose
 
