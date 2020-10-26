@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2e9af7167e4a4209b708d00493b8866f6d5f7e0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 981068d26d232b10efd8d7288daaf7358aee3728
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209939"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980706"
 ---
 # <a name="process-rebates-for-payment"></a>Ödeme için indirimleri işleme
 

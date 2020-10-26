@@ -16,15 +16,15 @@ ms.custom: 72621
 ms.assetid: 88a964af-14eb-4c5c-945b-388e5908362c
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44be713a1049e90618392d028c81e974841b348
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 9dec963ed5abd6f77e82029a3ea5ba1a69d44e36
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3886835"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981414"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Bir talep tahmin hesaplarken, geçmiş işlem verilerinden aykırı değerleri kaldırın.
 
