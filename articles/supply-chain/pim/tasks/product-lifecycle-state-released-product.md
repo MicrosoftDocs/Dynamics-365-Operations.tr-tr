@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58b87d0ed0f4d23db0ed29e5120df7d7f4450812
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5e7df272a946506dfa4e8d7a04181dd0cb40972c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213136"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981220"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama
 

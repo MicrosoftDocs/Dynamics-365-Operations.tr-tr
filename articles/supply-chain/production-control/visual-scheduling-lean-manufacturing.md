@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826418"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958753"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
@@ -61,7 +61,7 @@ Yalnızca **İşlem** türündeki işleri planlayabilirsiniz. Kanban işi ve faa
 
 ### <a name="view-the-time-scale"></a>Zaman çizelgesini görüntüleme
 
-Pano, her biri düğüm olarak temsil edilen (4) dönemlere bölünmüştür. Dönem düğümleri dikey eksende listelenir ve yatay erişim dönem uzunluğunu gösteren bir zaman çizelgesini (7) temsil eder. Bir dönemin uzunluğu bir gün veya bir haftadır. Dönem uzunluğu Kanban planlama panosu (2) için seçilen iş hücresinin yapılandırmasıyla belirlenir. Her dönem düğümü için Kanban planlama panosu planlanan kanban işlerinin dönemi ne kadar doldurduğunu belirtir. Ayrıca dönem için maksimum üretim değeri göstergesi de vardır. Planlanan üretim değeri maksimum üretim değerini aşarsa, dönem aşırı yüklü olarak kabul edilir ve kırmızı bir uyarı simgesi görüntülenir. Planlanan kanban işi planlanmış başlangıç ve bitiş tarihleri (5) olan bir dönemde görüntülenir. İşin uzunluğu faaliyet süresine eşittir. Kanban işleri, faaliyet zamanları iş hücresindeki takt süresini aşarsa dönem içinde çakışıyor olarak görünür.
+Pano, her biri düğüm olarak temsil edilen (4) dönemlere bölünmüştür. Dönem düğümleri dikey eksende listelenir ve yatay eksen dönem uzunluğunu gösteren bir zaman çizelgesini (7) temsil eder. Bir dönemin uzunluğu bir gün veya bir haftadır. Dönem uzunluğu Kanban planlama panosu (2) için seçilen iş hücresinin yapılandırmasıyla belirlenir. Her dönem düğümü için Kanban planlama panosu planlanan kanban işlerinin dönemi ne kadar doldurduğunu belirtir. Ayrıca dönem için maksimum üretim değeri göstergesi de vardır. Planlanan üretim değeri maksimum üretim değerini aşarsa, dönem aşırı yüklü olarak kabul edilir ve kırmızı bir uyarı simgesi görüntülenir. Planlanan kanban işi planlanmış başlangıç ve bitiş tarihleri (5) olan bir dönemde görüntülenir. İşin uzunluğu faaliyet süresine eşittir. Kanban işleri, faaliyet zamanları iş hücresindeki görev süresini aşarsa dönem içinde çakışıyor olarak görünür.
 
 ### <a name="view-job-status"></a>İş durumunu görüntüleme
 

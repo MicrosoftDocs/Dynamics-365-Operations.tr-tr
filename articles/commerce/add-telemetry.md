@@ -3,7 +3,7 @@ title: Telemetriyi desteklemek için site sayfalarına komut dosyası kodu eklem
 description: Bu konuda, istemci tarafı telemetri topluluğunu desteklemek üzere site sayfalarınıza istemci tarafında komut dosyası kodu ekleme yöntemi açıklanmıştır.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761261"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901508"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme
 
@@ -64,6 +64,9 @@ Site oluşturucuda harici betik kodunuz için yeniden kullanılabilir bir parça
 1. Sağdaki Özellik bölmesinde, **komut dosyası kaynağı** altında, harici komut dosyası kaynağı için HARICI veya göreli bir URL ekleyin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
 1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
+
+> [!NOTE]
+> Siteniz için içerik güvenliği ilkesi (CSP) etkinse, tüm harici URL'lerin Commerce site oluşturucudaki **script-src** CSP yönergesine eklendiğinden emin olun. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini (CSP) yönetme](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Bir şablona komut kodu içeren bir parça ekleme
 

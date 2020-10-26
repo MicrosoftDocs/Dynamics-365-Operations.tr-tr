@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835122"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967270"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -149,7 +149,12 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
 * Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
 * Microsoft .NET Framework 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
-* Chrome tarayıcı kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Chrome ile oturum açamazsanız, Internet Explorer ve Edge kullanarak Sorun 1'de açıklanan kurulum adımlarını izleyin. 
+* Chrome tarayıcıyla birlikte Microsoft Edge kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. 
+     1. Microsoft Edge'de yeni bir tarayıcı açın.
+     2. **edge://flags** girin ve **Enter** seçeneğini belirleyin.
+     3. **ClickOnce Destek** seçeneğini arayın veya bu doğrudan bağlantıyı kullanın: **edge://flags/#edge-click-once**.
+     4. Açılır menü seçeneğini **Etkin** olarak ayarlayın.
+     5. **Tarayıcıyı Yeniden Başlat**'ı seçin.
 
 Sorun 2: Kullanıcıya Financial Reporting kullanmak için gerekli izinler atanmadı. 
 

@@ -3,7 +3,7 @@ title: Klavye kısayolları
 description: Bu konu, Finance and Operations uygulamasıyla çalışırken kullanabileceğiniz kısayol tuş bileşimlerinin genel görünümünü sağlar.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761633"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962532"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -32,6 +32,8 @@ Aşağıdaki klavye kısayolları, verileri hızlı ve etkili şekilde Finance a
 
 > [!NOTE]
 > Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
+
+Bu sayfadaki bazı kısayollar *ana akorlardır* yani eylemi tetiklemek için bağımsız olarak basılması gereken iki ardışık tuş birleşimi kümesini (virgülle ayrılmış) gerektirirler. Örneğin, "Alt+M,A" kısayolu kullanıcının önce "Alt+M" tuşuna basmasını, tuşları serbest bırakmasını ve sonra "A" tuşuna basmasını gerektirir. 
 
 ## <a name="finding-a-shortcut"></a>Bir kısayolu bulma
 
@@ -193,7 +195,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Ana sayfa içeriğine taşı (başka bir panoda odak ile)                    | Alt+M,M                    |
 | FactBox bölmesine taşı (açmayı içerebilir)                       | Alt+M,B veya Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Kişiselleştirme kısayolları
+## <a name="personalization-shortcuts"></a>[Kişiselleştirme](personalize-user-experience.md) kısayolları 
 
 | Bunu yapmak için                                                                                                             | Basın                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Aramada bir sayfa yukarı/aşağı gitme                                                                                       | Sayfa yukarı / Sayfa aşağı              |
 | Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
 
+## <a name="task-recordershortcuts"></a>[Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md)kısayolları 
+
+| Bunu yapmak için                                                                    | Şuna basın:                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Kaydı durdur (kayıt sırasında)                                          | Alt+R,S                    |
+| Görev kaydedici bölmesinin görünürlüğünü değiştir (kayıt sırasında)             | Alt+R,T                    |
+| Parmaklıklar modunu değiştir (görev kılavuzu yürütülürken)                                | Alt+R,L                    |
+| Önceki adıma git (görev kılavuzu yürütülürken)                          | Alt+R,P                    |
+| Sonraki adıma git (görev kılavuzu yürütülürken)                              | Alt+R,N                    |
+| Odağı sayfa ve animasyonlu açılır pencere istemi arasında değiştir (görev kılavuzu yürütülürken) | Alt+R,F               |
+| Animasyonlu açılır pencere istemini genişlet/daralt (görev kılavuzu yürütülürken)              | Alt+R,C                    |
+| Animasyonlu açılır istemde daha fazla/daha az bilgi göster (görev kılavuzu yürütülürken) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Eksik hesap analiz için klavye kısayolları](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Eksik hesap analiz için klavye kısayolları](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

@@ -14,15 +14,15 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb8068012453fd4a8b06dea8cc8e5067d6968fe3
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 3cb096eb25fa449b521c370bcb1677e38e399658
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826611"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983410"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>Yalın imalat için işlem faaliyetleri oluşturma
 

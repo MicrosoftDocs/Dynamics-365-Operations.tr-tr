@@ -3,7 +3,7 @@ title: Videolar
 description: Bu sayfa Finance and Operations uygulamaları için Microsoft tarafından oluşturulan ve YouTube ve diğer sitelerde yayınlanan "nasıl yapılır" ve Teknik konuşmalar videolarını listeler.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
+ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645377"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3991464"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -82,6 +82,7 @@ ms.locfileid: "3645377"
 - [Regression Suite Automation Tool (RSAT) için bir test olayı oluşturmak üzere görev kaydediciyi kullanma](https://youtu.be/bBr4BXAxTNI)
 - [Regression Suite Automation Tool (RSAT) ile kullanmak üzere Azure DevOps'ta test olayı oluşturma](https://youtu.be/3jIuBleAnQk) 
 - [Regression Suite Automation Tool'u (RSAT) kullanma](https://youtu.be/uhN9JItzGAk)
+- [Regression Suite Automation Tool (RSAT) 2.0'da gelişmiş Excel deneyimi](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Dynamics 365 Finance için videolar

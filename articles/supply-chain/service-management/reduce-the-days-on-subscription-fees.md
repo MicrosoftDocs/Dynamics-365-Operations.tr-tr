@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd76e30b14d0fd21617e0ab7d892ba5ea3e89f2f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 141975e0a3218b18b67d22e04f6f6e8da332ed3d
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217322"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975692"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Abonelik ücretlerindeki günleri azaltma 
 
