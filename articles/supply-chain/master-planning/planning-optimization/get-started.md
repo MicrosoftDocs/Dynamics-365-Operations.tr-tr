@@ -3,7 +3,7 @@ title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887276"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973488"
 ---
-# <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeye başlayın
+# <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
 
 [!include [banner](../../includes/banner.md)]
 
-Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Dynamics 365 Supply Chain Management'ta yerleşik olan planlama altyapısında kullanılabilen tüm özellikleri desteklememektedir. Bu nedenle, Planlamayı En İyi Duruma Getirme hizmetinde şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir. Varsayılan olarak, Planlamayı En İyi Duruma Getirme işlevi Dynamics Lifecycle Services'ta (LCS) açılmaz. Bu nedenle, açılmadan önce değerlendirme yapma fırsatınız vardır.
+[Daha önce duyurulduğu](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) gibi, Planlamayı En İyi Duruma Getirme varolan yerleşik master planlama altyapısının yerini almak üzere planlanmıştır.
 
-Sonuç olarak, Planlamayı En İyi Duruma Getirme hizmeti var olan yerleşik Supply Chain Management planlama altyapısının yerini alacaktır.
+Yerleşik Master planlama altyapısını kullanıyorsanız, şimdi Planlamayı En İyi Duruma Getirme için geçişinizi planlamaya başlamanız gerekir. Yükseltme işlemi zorlandığında işlemleriniz etkilenebileceğinden, geçiş işlemini hemen başlatmak önemlidir. Kullanımdan kaldırma zorunlu olduğunda yaşanacak son dakika sorunlarını önlemek için geçişi 1 Aralık 2020'den önce tamamlamanızı öneririz. 
+
+Planlamayı En İyi Duruma Getirme işlevi şu anda Microsoft Supply Chain Management'ta yerleşik olan planlama altyapısında kullanılabilen tüm özellikleri desteklememektedir. Bu nedenle, Planlamayı En İyi Duruma Getirme hizmetinde şu anda mevcut olan özellik kümesinin gereksinimlerinizi karşılayıp karşılamadığını değerlendirmeniz önemlidir. Planlamayı En İyi Duruma Getirme işlevi şu anda Dynamics Lifecycle Services (LCS)'de varsayılan olarak etkin değil; bu nedenle özellik açılmadan önce değerlendirme yapma fırsatına sahipsiniz.
+
+> [!NOTE]
+> Master planlama işleminiz üretim (Master planlamayla oluşturulmuş planlanmış üretim emirleri) içermiyorsa ve yerleşik Master planlama altyapısının 10.0.15 üstü sürümü olmasını istiyorsanız, Planlamayı En İyi Duruma Getirme işlevine geçiş için bir özel durum istemeniz gerekir. Sürüm 10.0.16 itibarıyla, planlı üretim emirleri olmadan yerleşik master planlama çalıştırıldığında ortamlarda bir hata gösterilecektir. Master planlama sırasında planlı üretim emirleri oluşturmayan tüm yeni dağıtımlar için Planlamayı En İyi Duruma Getirme işlevi kullanılmalıdır. Planlı üretim emirleri olmadan Yerleşik Master planlama altyapısını çalıştıran mevcut ortamların sahipleri, özel durum işlemiyle ilgili ayrıntıların bulunduğu bir posta alacaktır. Planlamayı En İyi Duruma Getirme için geçişi değerlendirmek ve planlamak üzere bir iş ortağı ile çalışmanız önerilir.
 
 Planlamayı En İyi Duruma Getirme hizmetini açmadan önce Planlamayı En İyi Duruma Getirme uygunluk analizinin sonuçlarını değerlendirmenizi öneririz. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md).
 

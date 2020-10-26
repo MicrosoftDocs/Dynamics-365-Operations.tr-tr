@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
-ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
+ms.openlocfilehash: 2512fc9b530530a9f82995a9eefcd59bbd518d96
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3640411"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975404"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Ambar akışları için numara serilerini yapılandırma
 

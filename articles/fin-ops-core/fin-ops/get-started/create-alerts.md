@@ -3,7 +3,7 @@ title: Uyarı kuralları oluşturma
 description: Bu konu, uyarılar hakkında bilgi sağlar ve bir uyarı kuralının nasıl oluşturulacağını açıklar. Böylece, bir tarih geldiğinde veya meydana gelen belirli bir değişiklik gibi olaylar hakkında bilgilendirilirsiniz.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075936"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970691"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 
@@ -92,3 +92,14 @@ Uyarılar, iş etkinlikleri çerçevesi kullanılarak harici olarak gönderilebi
 7. **Bana gönderilecek uyarı biçimi** hızlı sekmesinde **Konu** alanında, e-posta iletisi için varsayılan konu başlığını kabul edin veya yeni bir konu girin. Metin, bir uyarı tetiklendiğinde aldığınız e-posta iletisinin konu başlığı olarak kullanılır. Uyarıyı bir iş olayı olarak göndermek istiyorsanız, **harici gönder**'i **Evet** olarak ayarlayın.
 8. **İleti** alanına, isteğe bağlı bir ileti girin. Metin, bir uyarı tetiklendiğinde aldığınız ileti olarak kullanılır.
 9. Ayarları kaydetmek ve uyarı kuralı oluşturmak için **Tamam**'a tıklayın.
+
+## <a name="limitations-and-workarounds"></a>Sınırlamalar ve geçici çözümler
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Bir formun ikincil veri kaynakları için uyarı oluşturmaya yönelik geçici çözüm
+Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturulamaz. Örneğin, müşteri veya satıcı deftere nakil profilleri formunda uyarı oluştururken, boyut hesapları değil, yalnızca başlıktaki alanlar (CustLedger veya VendLedger) kullanılabilir. Bu sınırlamanın geçici çözümü, bu tabloyu birincil veri kaynağı olarak açmak üzere **SysTableBrowser** kullanmaktır. 
+1. Tabloyu **SysTableBrowser** formunda açın.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. SysTableBrowser formundan bir uyarı oluşturun.
+

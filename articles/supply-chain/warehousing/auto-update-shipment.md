@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677350"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900998"
 ---
 # <a name="shipment-auto-updates"></a>Sevkiyat otomatik güncelleştirmeleri
 
@@ -39,7 +39,7 @@ Sevkiyatı otomatik güncelleştirme işlevi hem satış siparişi satırları, 
 
 Sevkiyatı otomatik güncelleştirme işlevi öncelikle sevkiyat durumuna bağlıdır ve bir satış siparişi satırında veya transfer emri satırında değişiklik yapıldığında bir yükleme satırındaki miktarın değiştirilip değiştirilemeyeceğini belirler. Ayrıca, var olan bir yükleme satırına otomatik olarak yeni bir yükleme satırı eklenmesi gerekip gerekmediğini belirlemek için sevkiyat durumunu temel alır. Sevkiyat durumu **Dalga oluşturuldu** veya daha yüksek bir durum olduğunda, otomatik güncelleştirme gerçekleşmez.
 
-Dalga durumu da otomatik güncelleştirmeler için dikkate alınır. Yükleme satırıyla ilişkili olan dalga durumu **Tutuldu**, **Yürütülüyor**, **Serbest bırakıldı**, **Çekildi** veya **Sevkedildi** olarak ayarlandığında (satış siparişi satırında veya transfer emri satırında miktar azalmasına göre), bir kullanıcı yükleme satırındaki miktarı azaltmaya çalışırsa, aşağıdaki hata iletisi görüntülenir: "Rezervasyonlar, rezervasyonlara dayanan oluşturulmuş bir iş bulunduğundan kaldırılamadı." Ek olarak, dalga daha önce sözü edilen dalga durumlarının birine sahip olduğunda, bir kullanıcı satış siparişi satırı veya transfer emri satırındaki miktarı azaltarak yükleme satırı miktarını dolaylı olarak artırmayı denerse, yükleme satırındaki miktar otomatik olarak artırılmaz. Bu durumda, yük satırının el ile güncelleştirilmesi gerekir.
+Dalga durumu da otomatik güncelleştirmeler için dikkate alınır. Yükleme satırıyla ilişkili olan dalga durumu **Tutuldu**, **Yürütülüyor**, **Serbest bırakıldı**, **Çekildi** veya **Sevkedildi** olarak ayarlandığında (satış siparişi satırında veya transfer emri satırında miktar azalmasına göre), bir kullanıcı yükleme satırındaki miktarı azaltmaya çalışırsa, aşağıdaki hata iletisi görüntülenir: "Rezervasyonlar, rezervasyonlara dayanan oluşturulmuş bir iş bulunduğundan kaldırılamadı." Ek olarak, dalga daha önce sözü edilen dalga durumlarının birine sahip olduğunda, bir kullanıcı satış siparişi satırı veya transfer emri satırındaki miktarı artırarak yükleme satırı miktarını dolaylı olarak artırmayı denerse, yükleme satırındaki miktar otomatik olarak artırılmaz. Bu durumda, yük satırının el ile güncelleştirilmesi gerekir.
 
 ## <a name="scenarios"></a>Senaryolar
 

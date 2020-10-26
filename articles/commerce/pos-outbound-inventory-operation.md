@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646171"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971557"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -164,7 +164,7 @@ Karşılamanın Commerce Headquarters'a (HQ) nihai uygulanmasından önce, giden
 - **Konum ayarlanmadı** – Konum denetimli bir kalem için konumun boş olmasına izin verilmediği durumda konum belirtilmemiştir.
 - **Silinen satırlar** – Siparişte, POS uygulaması tarafından bilinmeyen bir Commerce Headquarters (HQ) kullanıcısı tarafından silinen satırlar vardır.
 
-**Commerce parametreleri** > **Stok** > **Mağaza stoku** bölümünde **Otomatik doğrulamayı etkinleştir** parametresini **Evet** olarak ayarlarsanız **Almayı bitir** işlevini seçtiğinizde doğrulama otomatik olarak gerçekleştirilir.
+**Commerce parametreleri** > **Stok** > **Mağaza stoğu operasyonları** bölümünde **Otomatik doğrulamayı etkinleştir** parametresini **Evet** olarak ayarlarsanız **Almayı bitir** işlevini seçtiğinizde doğrulama otomatik olarak gerçekleştirilir.
 
 ### <a name="finish-fulfillment"></a>Karşılama işlemini bitir
 
