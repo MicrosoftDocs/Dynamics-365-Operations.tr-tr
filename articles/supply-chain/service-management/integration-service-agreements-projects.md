@@ -15,69 +15,69 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a19a138cceb7db08216e1151eb92442691bc58d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 578e4b9fe5ef487e999fd0de28d7566bad21fd89
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202342"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985595"
 ---
-# <a name="integration-for-service-agreements-and-projects"></a><span data-ttu-id="574fc-103">Projeler ve servis sözleşmeleri için tümleştirme</span><span class="sxs-lookup"><span data-stu-id="574fc-103">Integration for service agreements and projects</span></span> 
+# <a name="integration-for-service-agreements-and-projects"></a><span data-ttu-id="ad600-103">Projeler ve servis sözleşmeleri için tümleştirme</span><span class="sxs-lookup"><span data-stu-id="ad600-103">Integration for service agreements and projects</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="574fc-104">Servis anlaşmalarıyla ve servis anlaşması satırlarıyla çalıştığınızda, **Proje yönetimi ve muhasebe** bölümünün aşağıdaki alanlarında belirlenmiş verileri kullanırsınız.</span><span class="sxs-lookup"><span data-stu-id="574fc-104">When you work with service agreements and service agreement lines, you use data that is set up in the following areas in **Project management and accounting**.</span></span>
+<span data-ttu-id="ad600-104">Servis anlaşmalarıyla ve servis anlaşması satırlarıyla çalıştığınızda, **Proje yönetimi ve muhasebe** bölümünün aşağıdaki alanlarında belirlenmiş verileri kullanırsınız.</span><span class="sxs-lookup"><span data-stu-id="ad600-104">When you work with service agreements and service agreement lines, you use data that is set up in the following areas in **Project management and accounting**.</span></span>
 
-## <a name="project-prices"></a><span data-ttu-id="574fc-105">Proje fiyatları</span><span class="sxs-lookup"><span data-stu-id="574fc-105">Project prices</span></span>
+## <a name="project-prices"></a><span data-ttu-id="ad600-105">Proje fiyatları</span><span class="sxs-lookup"><span data-stu-id="ad600-105">Project prices</span></span>
 
-<span data-ttu-id="574fc-106">Bir servis anlaşması hareketi için satış fiyatı ve maliyeti, servis anlaşmasına eklenen projeye uygulanan maliyet fiyatı kurulumundan türetilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-106">The cost and the sales price for a service agreement transaction are derived from the cost price setup that applies to the project that is attached to the service agreement.</span></span> <span data-ttu-id="574fc-107">Maliyet ve satış fiyatları proje, çalışan ve kategoriye göre ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-107">Cost and sales prices can be set up by project, employee, and category.</span></span> 
+<span data-ttu-id="ad600-106">Bir servis anlaşması hareketi için satış fiyatı ve maliyeti, servis anlaşmasına eklenen projeye uygulanan maliyet fiyatı kurulumundan türetilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-106">The cost and the sales price for a service agreement transaction are derived from the cost price setup that applies to the project that is attached to the service agreement.</span></span> <span data-ttu-id="ad600-107">Maliyet ve satış fiyatları proje, çalışan ve kategoriye göre ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-107">Cost and sales prices can be set up by project, employee, and category.</span></span> 
 
-## <a name="project-validation"></a><span data-ttu-id="574fc-108">Proje doğrulama</span><span class="sxs-lookup"><span data-stu-id="574fc-108">Project validation</span></span>
+## <a name="project-validation"></a><span data-ttu-id="ad600-108">Proje doğrulama</span><span class="sxs-lookup"><span data-stu-id="ad600-108">Project validation</span></span>
 
-<span data-ttu-id="574fc-109">Servis anlaşması satırındaki seçilebilecek projeler, çalışanlar ve kategoriler **Proje yönetimi ve muhasebe**'deki doğrulamaya ayarıyla sınırlandırılabilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-109">The projects, employees, and categories that are available for selection on a service agreement line can be limited by the validation setup in **Project management and accounting**.</span></span> <span data-ttu-id="574fc-110">Doğrulama ayarını kullanarak çalışanları, projeleri ve kategorileri erişim denetimi için bir araya getirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="574fc-110">By using the validation setup, you can combine employees, projects, and categories for control access.</span></span> 
+<span data-ttu-id="ad600-109">Servis anlaşması satırındaki seçilebilecek projeler, çalışanlar ve kategoriler **Proje yönetimi ve muhasebe**'deki doğrulamaya ayarıyla sınırlandırılabilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-109">The projects, employees, and categories that are available for selection on a service agreement line can be limited by the validation setup in **Project management and accounting**.</span></span> <span data-ttu-id="ad600-110">Doğrulama ayarını kullanarak çalışanları, projeleri ve kategorileri erişim denetimi için bir araya getirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ad600-110">By using the validation setup, you can combine employees, projects, and categories for control access.</span></span> 
 
-## <a name="project-line-properties"></a><span data-ttu-id="574fc-111">Proje satırı özellikleri</span><span class="sxs-lookup"><span data-stu-id="574fc-111">Project line properties</span></span>
+## <a name="project-line-properties"></a><span data-ttu-id="ad600-111">Proje satırı özellikleri</span><span class="sxs-lookup"><span data-stu-id="ad600-111">Project line properties</span></span>
 
-<span data-ttu-id="574fc-112">Bir satır özelliği, bir servis anlaşması satırı için otomatik olarak girilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-112">A line property is entered automatically for a service agreement line.</span></span>
+<span data-ttu-id="ad600-112">Bir satır özelliği, bir servis anlaşması satırı için otomatik olarak girilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-112">A line property is entered automatically for a service agreement line.</span></span>
 
-<span data-ttu-id="574fc-113">Satır özellikleri **Proje yönetimi ve muhasebe**'deki **Satır özellikleri** formunda oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="574fc-113">Line properties are created in the **Line properties** form in **Project management and accounting**.</span></span> <span data-ttu-id="574fc-114">Bir servis anlaşmasına girilen satır özelliği servis anlaşması için seçilen projeye iliştirilir ve daha sonra servis anlaşması satırı tarafından devralınır.</span><span class="sxs-lookup"><span data-stu-id="574fc-114">The line property that is entered on a service agreement is attached to the project that is selected for the service agreement and inherited subsequently by the service agreement line.</span></span> 
+<span data-ttu-id="ad600-113">Satır özellikleri **Proje yönetimi ve muhasebe**'deki **Satır özellikleri** formunda oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="ad600-113">Line properties are created in the **Line properties** form in **Project management and accounting**.</span></span> <span data-ttu-id="ad600-114">Bir servis anlaşmasına girilen satır özelliği servis anlaşması için seçilen projeye iliştirilir ve daha sonra servis anlaşması satırı tarafından devralınır.</span><span class="sxs-lookup"><span data-stu-id="ad600-114">The line property that is entered on a service agreement is attached to the project that is selected for the service agreement and inherited subsequently by the service agreement line.</span></span> 
 
-## <a name="default-offset-accounts"></a><span data-ttu-id="574fc-115">Varsayılan mahsup hesaplar</span><span class="sxs-lookup"><span data-stu-id="574fc-115">Default offset accounts</span></span>
+## <a name="default-offset-accounts"></a><span data-ttu-id="ad600-115">Varsayılan mahsup hesaplar</span><span class="sxs-lookup"><span data-stu-id="ad600-115">Default offset accounts</span></span>
 
-<span data-ttu-id="574fc-116">Gider hareketi girerseniz, varsayılan gider mahsup hesabı hareket için otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-116">If you enter an expense transaction, a default expense offset account is selected automatically for the transaction.</span></span> <span data-ttu-id="574fc-117">Varsayılan gider hesabı geçerli servis anlaşmasına eklenen proje için ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="574fc-117">The default expense account is set up for the project that is attached to the current service agreement.</span></span>
+<span data-ttu-id="ad600-116">Gider hareketi girerseniz, varsayılan gider mahsup hesabı hareket için otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-116">If you enter an expense transaction, a default expense offset account is selected automatically for the transaction.</span></span> <span data-ttu-id="ad600-117">Varsayılan gider hesabı geçerli servis anlaşmasına eklenen proje için ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="ad600-117">The default expense account is set up for the project that is attached to the current service agreement.</span></span>
 
-## <a name="project-categories"></a><span data-ttu-id="574fc-118">Proje kategorileri</span><span class="sxs-lookup"><span data-stu-id="574fc-118">Project categories</span></span>
+## <a name="project-categories"></a><span data-ttu-id="ad600-118">Proje kategorileri</span><span class="sxs-lookup"><span data-stu-id="ad600-118">Project categories</span></span>
 
-<span data-ttu-id="574fc-119">Servis anlaşması satırları için kullanılabilecek kategoriler **Proje yönetimi ve muhasebe** bölümündeki **Proje kategorileri** formunda belirlenir.</span><span class="sxs-lookup"><span data-stu-id="574fc-119">The categories that are available for service agreement lines are set up in the **Project categories** form in **Project management and accounting**.</span></span> 
-
-> [!NOTE]
-> <P><span data-ttu-id="574fc-120"><STRONG>Proje kategorileri</STRONG> formundaki <STRONG>Proje</STRONG> sekmesinde <STRONG>Günlüklerde etkin</STRONG> onay kutusu seçili olan kategoriler seçilebilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-120">Categories that have the <STRONG>Active in journals</STRONG> check box selected on the <STRONG>Project</STRONG> tab in the <STRONG>Project categories</STRONG> form are available for selection.</span></span> <span data-ttu-id="574fc-121">Ancak, <STRONG>Proje yönetimi ve muhasebe parametreleri</STRONG> formundaki <STRONG>Günlükler</STRONG> sekmesinde <STRONG>Etkin olmayan kategoriler</STRONG> onay kutusu seçiliyse tüm kategoriler seçilebilir.</span><span class="sxs-lookup"><span data-stu-id="574fc-121">However, if the <STRONG>Inactive categories</STRONG> check box is selected on the <STRONG>Journals</STRONG> tab in the <STRONG>Project management and accounting parameters</STRONG> form, all categories are available for selection.</span></span></P>
-
-## <a name="project-parameters"></a><span data-ttu-id="574fc-122">Proje parametreleri</span><span class="sxs-lookup"><span data-stu-id="574fc-122">Project parameters</span></span>
-
-<span data-ttu-id="574fc-123">**Proje yönetimi ve muhasebe parametreleri** formundaki **Günlükler** sekmesinde **İşine son verilen çalışanlar** alanı seçiliyse, **Servis sözleşmeleri** ve **Servis siparişleri** formlarında etkin olmayan ve etkin olan çalışanları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="574fc-123">If the **Terminated workers** field on the **Journals** tab in the **Project management and accounting parameters** form is selected, you can select inactive employees and active employees in the **Service agreements** and **Service orders** forms.</span></span>
-
-<span data-ttu-id="574fc-124">Ayrıca, servis siparişi satırlarına başlangıç ve bitiş saatleri girmek için **Servis siparişleri** formundaki **Proje** sekmesinde bulunan **Başlangıç zamanı** ve **Bitiş zamanı** alanlarını etkinleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="574fc-124">Also, you can enable the **Start time** and **End time** fields on the **Project** tab in the **Service orders** form to enter starting and ending times on service order lines.</span></span>
-
-## <a name="enable-the-starting-and-ending-time-feature-for-service-orders"></a><span data-ttu-id="574fc-125">Servis siparişleri için başlangıç ve bitiş zamanı özelliğini etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="574fc-125">Enable the starting and ending time feature for service orders</span></span>
-
-1.  <span data-ttu-id="574fc-126">**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Proje yönetimi ve muhasebe parametreleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="574fc-126">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
-
-2.  <span data-ttu-id="574fc-127">**Günlükler** sekmesine tıklayın ve sonra **Başlangıç/bitiş zamanlarını göster** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="574fc-127">Click the **Journals** tab, and then select the **Show start/end times** check box.</span></span>
-
-3.  <span data-ttu-id="574fc-128">**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Günlükler** \> **Günlük adları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="574fc-128">Click **Project management and accounting** \> **Setup** \> **Journals** \> **Journal names**.</span></span>
-
-4.  <span data-ttu-id="574fc-129">Servis siparişine iliştirilen günlük adını seçin.</span><span class="sxs-lookup"><span data-stu-id="574fc-129">Select the journal name that is attached to the service order.</span></span>
-
-5.  <span data-ttu-id="574fc-130">**Genel** sekmesine tıklayın ve sonra **Başlangıç/bitiş zamanlarını göster** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="574fc-130">Click the **General** tab, and then select the **Show start/end times** check box.</span></span>
-
+<span data-ttu-id="ad600-119">Servis anlaşması satırları için kullanılabilecek kategoriler **Proje yönetimi ve muhasebe** bölümündeki **Proje kategorileri** formunda belirlenir.</span><span class="sxs-lookup"><span data-stu-id="ad600-119">The categories that are available for service agreement lines are set up in the **Project categories** form in **Project management and accounting**.</span></span> 
 
 > [!NOTE]
-> <P><span data-ttu-id="574fc-131"><STRONG>Servis yönetimi parametreleri</STRONG> formundaki <STRONG>Günlükler</STRONG> sekmesinde yer alan <STRONG>Saat</STRONG> alanında servis siparişi için günlük adını seçin.</span><span class="sxs-lookup"><span data-stu-id="574fc-131">Select the journal name for the service order in the <STRONG>Hour</STRONG> field on the <STRONG>Journals</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="ad600-120"><STRONG>Proje kategorileri</STRONG> formundaki <STRONG>Proje</STRONG> sekmesinde <STRONG>Günlüklerde etkin</STRONG> onay kutusu seçili olan kategoriler seçilebilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-120">Categories that have the <STRONG>Active in journals</STRONG> check box selected on the <STRONG>Project</STRONG> tab in the <STRONG>Project categories</STRONG> form are available for selection.</span></span> <span data-ttu-id="ad600-121">Ancak, <STRONG>Proje yönetimi ve muhasebe parametreleri</STRONG> formundaki <STRONG>Günlükler</STRONG> sekmesinde <STRONG>Etkin olmayan kategoriler</STRONG> onay kutusu seçiliyse tüm kategoriler seçilebilir.</span><span class="sxs-lookup"><span data-stu-id="ad600-121">However, if the <STRONG>Inactive categories</STRONG> check box is selected on the <STRONG>Journals</STRONG> tab in the <STRONG>Project management and accounting parameters</STRONG> form, all categories are available for selection.</span></span></P>
+
+## <a name="project-parameters"></a><span data-ttu-id="ad600-122">Proje parametreleri</span><span class="sxs-lookup"><span data-stu-id="ad600-122">Project parameters</span></span>
+
+<span data-ttu-id="ad600-123">**Proje yönetimi ve muhasebe parametreleri** formundaki **Günlükler** sekmesinde **İşine son verilen çalışanlar** alanı seçiliyse, **Servis sözleşmeleri** ve **Servis siparişleri** formlarında etkin olmayan ve etkin olan çalışanları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ad600-123">If the **Terminated workers** field on the **Journals** tab in the **Project management and accounting parameters** form is selected, you can select inactive employees and active employees in the **Service agreements** and **Service orders** forms.</span></span>
+
+<span data-ttu-id="ad600-124">Ayrıca, servis siparişi satırlarına başlangıç ve bitiş saatleri girmek için **Servis siparişleri** formundaki **Proje** sekmesinde bulunan **Başlangıç zamanı** ve **Bitiş zamanı** alanlarını etkinleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ad600-124">Also, you can enable the **Start time** and **End time** fields on the **Project** tab in the **Service orders** form to enter starting and ending times on service order lines.</span></span>
+
+## <a name="enable-the-starting-and-ending-time-feature-for-service-orders"></a><span data-ttu-id="ad600-125">Servis siparişleri için başlangıç ve bitiş zamanı özelliğini etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="ad600-125">Enable the starting and ending time feature for service orders</span></span>
+
+1.  <span data-ttu-id="ad600-126">**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Proje yönetimi ve muhasebe parametreleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ad600-126">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
+
+2.  <span data-ttu-id="ad600-127">**Günlükler** sekmesine tıklayın ve sonra **Başlangıç/bitiş zamanlarını göster** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="ad600-127">Click the **Journals** tab, and then select the **Show start/end times** check box.</span></span>
+
+3.  <span data-ttu-id="ad600-128">**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Günlükler** \> **Günlük adları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ad600-128">Click **Project management and accounting** \> **Setup** \> **Journals** \> **Journal names**.</span></span>
+
+4.  <span data-ttu-id="ad600-129">Servis siparişine iliştirilen günlük adını seçin.</span><span class="sxs-lookup"><span data-stu-id="ad600-129">Select the journal name that is attached to the service order.</span></span>
+
+5.  <span data-ttu-id="ad600-130">**Genel** sekmesine tıklayın ve sonra **Başlangıç/bitiş zamanlarını göster** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="ad600-130">Click the **General** tab, and then select the **Show start/end times** check box.</span></span>
+
+
+> [!NOTE]
+> <P><span data-ttu-id="ad600-131"><STRONG>Servis yönetimi parametreleri</STRONG> formundaki <STRONG>Günlükler</STRONG> sekmesinde yer alan <STRONG>Saat</STRONG> alanında servis siparişi için günlük adını seçin.</span><span class="sxs-lookup"><span data-stu-id="ad600-131">Select the journal name for the service order in the <STRONG>Hour</STRONG> field on the <STRONG>Journals</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 

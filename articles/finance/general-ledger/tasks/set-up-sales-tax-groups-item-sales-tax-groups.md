@@ -13,40 +13,40 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 126e1de2d59d33fd7a5df1e011aa8c1aff63dfc6
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: 24210129f7595c6544234c20915f4003bf0e1eb8
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454684"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984709"
 ---
-# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="50379-103">Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="50379-103">Set up sales tax groups and item sales tax groups</span></span>
+# <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="33221-103">Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="33221-103">Set up sales tax groups and item sales tax groups</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="50379-104">Bu görev kaydı, Satış vergisi ve Madde satış vergisi gruplarının kurulumunda size yol gösterir.</span><span class="sxs-lookup"><span data-stu-id="50379-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="50379-105">Satış vergisi grupları, müşterilere ve satıcılara iliştirilmiş satış vergisi kodu gruplarıdır.</span><span class="sxs-lookup"><span data-stu-id="50379-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="50379-106">Bu gruplar, belirli bir satıcıya veya müşteriye nakledilmemiş hareketlere ait genel muhasebe hesaplarına da eklenir.</span><span class="sxs-lookup"><span data-stu-id="50379-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="50379-107">Madde satış vergisi grupları, ürün gibi kaynaklara iliştirilmiş satış vergisi kodu gruplarıdır.</span><span class="sxs-lookup"><span data-stu-id="50379-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="50379-108">Belirli bir harekete uygulanan satış vergileri, hareketin hem satış vergisi grubuna hem de madde satış vergisi grubuna dahil edilen satış vergisi kodlarıyla belirlenir.</span><span class="sxs-lookup"><span data-stu-id="50379-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="50379-109">Satış vergisi, yalnızca, satış vergisi hesaplanması veya kaydedilmesi gereken her bir hareket için birer satış vergisi grubu ve madde satış vergisi grubu seçildiği zaman hesaplanabilir.</span><span class="sxs-lookup"><span data-stu-id="50379-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
+<span data-ttu-id="33221-104">Bu görev kaydı, Satış vergisi ve Madde satış vergisi gruplarının kurulumunda size yol gösterir.</span><span class="sxs-lookup"><span data-stu-id="33221-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="33221-105">Satış vergisi grupları, müşterilere ve satıcılara iliştirilmiş satış vergisi kodu gruplarıdır.</span><span class="sxs-lookup"><span data-stu-id="33221-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="33221-106">Bu gruplar, belirli bir satıcıya veya müşteriye nakledilmemiş hareketlere ait genel muhasebe hesaplarına da eklenir.</span><span class="sxs-lookup"><span data-stu-id="33221-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="33221-107">Madde satış vergisi grupları, ürün gibi kaynaklara iliştirilmiş satış vergisi kodu gruplarıdır.</span><span class="sxs-lookup"><span data-stu-id="33221-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="33221-108">Belirli bir harekete uygulanan satış vergileri, hareketin hem satış vergisi grubuna hem de madde satış vergisi grubuna dahil edilen satış vergisi kodlarıyla belirlenir.</span><span class="sxs-lookup"><span data-stu-id="33221-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="33221-109">Satış vergisi, yalnızca, satış vergisi hesaplanması veya kaydedilmesi gereken her bir hareket için birer satış vergisi grubu ve madde satış vergisi grubu seçildiği zaman hesaplanabilir.</span><span class="sxs-lookup"><span data-stu-id="33221-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
 
-1. <span data-ttu-id="50379-110">**Gezinme bölmesi > Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi grupları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="50379-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
-2. <span data-ttu-id="50379-111">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-111">Click **New**.</span></span>
-3. <span data-ttu-id="50379-112">**Satış vergisi grubu** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="50379-112">In the **Sales tax group** field, type a value.</span></span>
-4. <span data-ttu-id="50379-113">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="50379-113">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="50379-114">**Kurulum** bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="50379-114">Toggle the expansion of the **Setup** section.</span></span>
-6. <span data-ttu-id="50379-115">**Ekle** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-115">Click **Add**.</span></span>
-7. <span data-ttu-id="50379-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="50379-116">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="50379-117">**Satış vergisi kodu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="50379-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="50379-118">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-118">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="50379-119">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-119">Click **Save**.</span></span>
-11. <span data-ttu-id="50379-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="50379-120">Close the page.</span></span>
-12. <span data-ttu-id="50379-121">**Vergi > Dolaylı vergiler > Satış vergisi > Madde satış vergisi grupları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="50379-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
-13. <span data-ttu-id="50379-122">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-122">Click **New**.</span></span>
-14. <span data-ttu-id="50379-123">**Madde satış vergisi grubu** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="50379-123">In the **Item sales tax group** field, type a value.</span></span>
-15. <span data-ttu-id="50379-124">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="50379-124">In the **Description** field, type a value.</span></span>
-16. <span data-ttu-id="50379-125">**Ekle** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-125">Click **Add**.</span></span>
-17. <span data-ttu-id="50379-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="50379-126">In the list, mark the selected row.</span></span>
-18. <span data-ttu-id="50379-127">**Satış vergisi kodu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="50379-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="50379-128">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-128">In the list, click the link in the selected row.</span></span>
-20. <span data-ttu-id="50379-129">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="50379-129">Click **Save**.</span></span>
+1. <span data-ttu-id="33221-110">**Gezinme bölmesi > Modüller > Vergi > Dolaylı vergiler > Satış vergisi > Satış vergisi grupları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="33221-110">Go to **Navigation pane > Modules > Tax > Indirect taxes > Sales tax > Sales tax groups**.</span></span>
+2. <span data-ttu-id="33221-111">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-111">Click **New**.</span></span>
+3. <span data-ttu-id="33221-112">**Satış vergisi grubu** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33221-112">In the **Sales tax group** field, type a value.</span></span>
+4. <span data-ttu-id="33221-113">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33221-113">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="33221-114">**Kurulum** bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="33221-114">Toggle the expansion of the **Setup** section.</span></span>
+6. <span data-ttu-id="33221-115">**Ekle** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-115">Click **Add**.</span></span>
+7. <span data-ttu-id="33221-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33221-116">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="33221-117">**Satış vergisi kodu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="33221-117">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="33221-118">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-118">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="33221-119">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-119">Click **Save**.</span></span>
+11. <span data-ttu-id="33221-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="33221-120">Close the page.</span></span>
+12. <span data-ttu-id="33221-121">**Vergi > Dolaylı vergiler > Satış vergisi > Madde satış vergisi grupları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="33221-121">Go to **Tax > Indirect taxes > Sales tax > Item sales tax groups**.</span></span>
+13. <span data-ttu-id="33221-122">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-122">Click **New**.</span></span>
+14. <span data-ttu-id="33221-123">**Madde satış vergisi grubu** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33221-123">In the **Item sales tax group** field, type a value.</span></span>
+15. <span data-ttu-id="33221-124">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33221-124">In the **Description** field, type a value.</span></span>
+16. <span data-ttu-id="33221-125">**Ekle** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-125">Click **Add**.</span></span>
+17. <span data-ttu-id="33221-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33221-126">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="33221-127">**Satış vergisi kodu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="33221-127">In the **Sales tax code** field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="33221-128">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-128">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="33221-129">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33221-129">Click **Save**.</span></span>
 

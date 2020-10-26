@@ -15,32 +15,32 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d050a1195d67918a725a90d81cfac7af9552b92d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1bd5485727761ac5ab13d44ab0598c5768324e6e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206416"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985054"
 ---
-# <a name="view-stage-reason-codes"></a><span data-ttu-id="30766-103">Aşama neden kodlarını görüntüle</span><span class="sxs-lookup"><span data-stu-id="30766-103">View stage reason codes</span></span> 
+# <a name="view-stage-reason-codes"></a><span data-ttu-id="a84e8-103">Aşama neden kodlarını görüntüle</span><span class="sxs-lookup"><span data-stu-id="a84e8-103">View stage reason codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="30766-104">Servis siparişi için aşama kodları listesini görüntüleyin ve değiştirin.</span><span class="sxs-lookup"><span data-stu-id="30766-104">View and modify the list of stage reasons for a service order.</span></span> <span data-ttu-id="30766-105">Bir servis siparişinin durumuna ilişkin nedeni belirtmek için aşama nedenlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="30766-105">Use stage reasons to indicate the reason for the status of a service order.</span></span> <span data-ttu-id="30766-106">Örneğin, **Müşteri tarafından iptal edildi** neden kodunun atanacağı bir **İptal edildi** aşaması oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30766-106">For example, you can create a **Canceled** stage that is assigned a reason code of **Canceled by the customer**.</span></span>
+<span data-ttu-id="a84e8-104">Servis siparişi için aşama kodları listesini görüntüleyin ve değiştirin.</span><span class="sxs-lookup"><span data-stu-id="a84e8-104">View and modify the list of stage reasons for a service order.</span></span> <span data-ttu-id="a84e8-105">Bir servis siparişinin durumuna ilişkin nedeni belirtmek için aşama nedenlerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a84e8-105">Use stage reasons to indicate the reason for the status of a service order.</span></span> <span data-ttu-id="a84e8-106">Örneğin, **Müşteri tarafından iptal edildi** neden kodunun atanacağı bir **İptal edildi** aşaması oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a84e8-106">For example, you can create a **Canceled** stage that is assigned a reason code of **Canceled by the customer**.</span></span>
 
-  - <span data-ttu-id="30766-107">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30766-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="30766-108">Bir servis siparişini açın.</span><span class="sxs-lookup"><span data-stu-id="30766-108">Open a service order.</span></span>
+  - <span data-ttu-id="a84e8-107">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a84e8-107">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="a84e8-108">Bir servis siparişini açın.</span><span class="sxs-lookup"><span data-stu-id="a84e8-108">Open a service order.</span></span>
 
-  - <span data-ttu-id="30766-109">**Servis siparişleri** formunda, **Eylem Bölmesi** üzerindeki **Gönder** sekmesinde **Aşama nedenleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30766-109">In the **Service orders** form, on the **Action Pane**, on the **Dispatch** tab, click **Stage reasons**.</span></span>
+  - <span data-ttu-id="a84e8-109">**Servis siparişleri** formunda, **Eylem Bölmesi** üzerindeki **Gönder** sekmesinde **Aşama nedenleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a84e8-109">In the **Service orders** form, on the **Action Pane**, on the **Dispatch** tab, click **Stage reasons**.</span></span>
 
-  - <span data-ttu-id="30766-110">**Aşama nedenleri** formunda, **Yeni**'ye tıklayarak yeni bir aşama neden kodu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="30766-110">On the **Stage reasons** form, click **New** to create a new stage reason code.</span></span>
+  - <span data-ttu-id="a84e8-110">**Aşama nedenleri** formunda, **Yeni**'ye tıklayarak yeni bir aşama neden kodu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a84e8-110">On the **Stage reasons** form, click **New** to create a new stage reason code.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="30766-111">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="30766-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a84e8-111">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="a84e8-111">See also</span></span>
 
-<span data-ttu-id="30766-112">[Aşama nedenleri (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="30766-112">[Stage reasons (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span></span>
+<span data-ttu-id="a84e8-112">[Aşama nedenleri (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="a84e8-112">[Stage reasons (form)](https://technet.microsoft.com/library/aa582897\(v=ax.60\))</span></span>
 
   
 
