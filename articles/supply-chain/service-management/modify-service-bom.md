@@ -15,59 +15,59 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11017cf239c55bde5f90a0d48783740a1b3e0591
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 962203726cc47e1c9642c53d671d4b63094f2b2c
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202273"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3979391"
 ---
-# <a name="modify-a-service-bom"></a><span data-ttu-id="eafe9-103">Servis Ürün Reçetesini Değiştirme</span><span class="sxs-lookup"><span data-stu-id="eafe9-103">Modify a Service BOM</span></span> 
+# <a name="modify-a-service-bom"></a><span data-ttu-id="ee00e-103">Servis Ürün Reçetesini Değiştirme</span><span class="sxs-lookup"><span data-stu-id="ee00e-103">Modify a Service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="eafe9-104">Servis ürün reçetesine bir öğenin geçmişini kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="eafe9-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="eafe9-105">Bir ürün reçetesi satırını her güncelleştirdiğinizde, **Geçmiş** bölmesinde bir geçmiş satırı oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="eafe9-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="eafe9-106">Geçmiş satır ürün reçetesi satırının geçerli durumunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="eafe9-106">The history line shows the current state of the BOM line.</span></span>
+<span data-ttu-id="ee00e-104">Servis ürün reçetesine bir öğenin geçmişini kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ee00e-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="ee00e-105">Bir ürün reçetesi satırını her güncelleştirdiğinizde, **Geçmiş** bölmesinde bir geçmiş satırı oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="ee00e-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="ee00e-106">Geçmiş satır ürün reçetesi satırının geçerli durumunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="ee00e-106">The history line shows the current state of the BOM line.</span></span>
 
-## <a name="update-a-service-bom-element"></a><span data-ttu-id="eafe9-107">Servis ürün reçetesi öğesini güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="eafe9-107">Update a service BOM element</span></span>
+## <a name="update-a-service-bom-element"></a><span data-ttu-id="ee00e-107">Servis ürün reçetesi öğesini güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="ee00e-107">Update a service BOM element</span></span>
 
-1.  <span data-ttu-id="eafe9-108">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="ee00e-108">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="eafe9-109">**Servis sözleşmeleri** ayrıntılı formunu açmak için **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-109">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="ee00e-109">**Servis sözleşmeleri** ayrıntılı formunu açmak için **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-109">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="eafe9-110">**Eylem Bölmesi** üzerinde **Servis nesneleri**'ne tıklayarak **Servis nesneleri** formunu açın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="ee00e-110">**Eylem Bölmesi** üzerinde **Servis nesneleri**'ne tıklayarak **Servis nesneleri** formunu açın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="eafe9-111">Bir ürün reçetesi satırının güncelleştirileceği nesneyi seçin ve ardından **Tasarımcı**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="ee00e-111">Bir ürün reçetesi satırının güncelleştirileceği nesneyi seçin ve ardından **Tasarımcı**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="eafe9-112">**Tasarımcı** formunda, güncelleştirmek istediğiniz ürün reçetesi satırını seçin ve ardından **Ürün reçetesi satırını düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
+5.  <span data-ttu-id="ee00e-112">**Tasarımcı** formunda, güncelleştirmek istediğiniz ürün reçetesi satırını seçin ve ardından **Ürün reçetesi satırını düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="eafe9-113"><STRONG>Kurulum</STRONG> sekmesinde, <STRONG>Ürün reçetesi satırı</STRONG> formunun bir satırı servis ürün reçetesine sürüklediğinizde açılmasını isterseniz <STRONG>Ekleme sırasında düzenle</STRONG> onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="eafe9-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
+    > <P><span data-ttu-id="ee00e-113"><STRONG>Kurulum</STRONG> sekmesinde, <STRONG>Ürün reçetesi satırı</STRONG> formunun bir satırı servis ürün reçetesine sürüklediğinizde açılmasını isterseniz <STRONG>Ekleme sırasında düzenle</STRONG> onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="ee00e-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
 
-6.  <span data-ttu-id="eafe9-114">**Miktar** alanına miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="eafe9-114">In the **Quantity** field, enter the quantity.</span></span>
+6.  <span data-ttu-id="ee00e-114">**Miktar** alanına miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="ee00e-114">In the **Quantity** field, enter the quantity.</span></span>
 
-7.  <span data-ttu-id="eafe9-115">Yerine koyma maddesi için daha sonra faturalanabilecek bir servis siparişi satırı oluşturmak istiyorsanız **Servis siparişi satırı oluştur** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="eafe9-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
+7.  <span data-ttu-id="ee00e-115">Yerine koyma maddesi için daha sonra faturalanabilecek bir servis siparişi satırı oluşturmak istiyorsanız **Servis siparişi satırı oluştur** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="ee00e-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
 
-8.  <span data-ttu-id="eafe9-116">Formu kapatmak için **Tamam**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-116">Click **OK** to close the form.</span></span>
+8.  <span data-ttu-id="ee00e-116">Formu kapatmak için **Tamam**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-116">Click **OK** to close the form.</span></span>
 
-## <a name="delete-a-service-bom-line"></a><span data-ttu-id="eafe9-117">Servis ürün reçetesi satırını silme</span><span class="sxs-lookup"><span data-stu-id="eafe9-117">Delete a service BOM line</span></span>
+## <a name="delete-a-service-bom-line"></a><span data-ttu-id="ee00e-117">Servis ürün reçetesi satırını silme</span><span class="sxs-lookup"><span data-stu-id="ee00e-117">Delete a service BOM line</span></span>
 
-1.  <span data-ttu-id="eafe9-118">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="ee00e-118">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="eafe9-119">**Servis sözleşmeleri** ayrıntılı formunu açmak için **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-119">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="ee00e-119">**Servis sözleşmeleri** ayrıntılı formunu açmak için **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-119">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="eafe9-120">**Eylem Bölmesi** üzerinde **Servis nesneleri**'ne tıklayarak **Servis nesneleri** formunu açın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="ee00e-120">**Eylem Bölmesi** üzerinde **Servis nesneleri**'ne tıklayarak **Servis nesneleri** formunu açın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="eafe9-121">Bir servis ürün reçetesi satırının silineceği nesneyi seçin ve ardından **Tasarımcı**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="ee00e-121">Bir servis ürün reçetesi satırının silineceği nesneyi seçin ve ardından **Tasarımcı**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="eafe9-122">**Tasarımcı** formunda, silmek istediğiniz ürün reçetesi satırını seçin ve **Ürün reçetesi satırını sil**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="eafe9-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
+5.  <span data-ttu-id="ee00e-122">**Tasarımcı** formunda, silmek istediğiniz ürün reçetesi satırını seçin ve **Ürün reçetesi satırını sil**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ee00e-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="eafe9-123">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="eafe9-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee00e-123">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="ee00e-123">See also</span></span>
 
-[<span data-ttu-id="eafe9-124">Şablon ürün reçeteleri</span><span class="sxs-lookup"><span data-stu-id="eafe9-124">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="ee00e-124">Şablon ürün reçeteleri</span><span class="sxs-lookup"><span data-stu-id="ee00e-124">Template BOMs</span></span>](template-boms.md)
 
   
 

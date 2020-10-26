@@ -15,38 +15,38 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42e835545d7c3efc8293d163cf4db4ebfd6896b7
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.openlocfilehash: 3c4ac28d35bcd6ed0c1fc8d0700c52008d2f4f6a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830197"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984094"
 ---
-# <a name="customer-returns-overview"></a><span data-ttu-id="d6467-103">Müşteri iadelerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="d6467-103">Customer returns overview</span></span>
+# <a name="customer-returns-overview"></a><span data-ttu-id="958f9-103">Müşteri iadelerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="958f9-103">Customer returns overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d6467-104">İade edilen ürünler için süreci desteklemek amacıyla iade nedeni kodları ve elden çıkarma kodları oluşturun ve kullanın.</span><span class="sxs-lookup"><span data-stu-id="d6467-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
+<span data-ttu-id="958f9-104">İade edilen ürünler için süreci desteklemek amacıyla iade nedeni kodları ve elden çıkarma kodları oluşturun ve kullanın.</span><span class="sxs-lookup"><span data-stu-id="958f9-104">Create and use return reason codes and disposition codes to support the process for returning products.</span></span>
 
-<span data-ttu-id="d6467-105">İade nedeni kodunu müşterinin bir maddeyi iade etme nedenini açıklamak için kullanın.</span><span class="sxs-lookup"><span data-stu-id="d6467-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="d6467-106">Neden kodunu **İade siparişleri oluştur** formunda atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d6467-106">You can assign a reason code in the **Create return orders** form.</span></span>
+<span data-ttu-id="958f9-105">İade nedeni kodunu müşterinin bir maddeyi iade etme nedenini açıklamak için kullanın.</span><span class="sxs-lookup"><span data-stu-id="958f9-105">Use a return reason code to describe the reason that the customer wants to return an item.</span></span> <span data-ttu-id="958f9-106">Neden kodunu **İade siparişleri oluştur** formunda atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="958f9-106">You can assign a reason code in the **Create return orders** form.</span></span>
 
-<span data-ttu-id="d6467-107">Elden çıkarma kodunu, madde teslim alındığında veya iade edilen maddenin fiziksel incelemesi sırasında atayın.</span><span class="sxs-lookup"><span data-stu-id="d6467-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="d6467-108">Elden çıkarma kodlarını maddenin durumunu tanımlamak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d6467-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="d6467-109">Elden çıkarma kodlarını hareket için başka bir işlem gerekli olup olmadığını belirtmek için de kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d6467-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="d6467-110">Örneğin, aşağıdaki eylemler için elden çıkarma kodları oluşturun:</span><span class="sxs-lookup"><span data-stu-id="d6467-110">For example, create disposition codes for the following actions:</span></span>
+<span data-ttu-id="958f9-107">Elden çıkarma kodunu, madde teslim alındığında veya iade edilen maddenin fiziksel incelemesi sırasında atayın.</span><span class="sxs-lookup"><span data-stu-id="958f9-107">Assign a disposition code when an item is received or during the physical inspection of a returned item.</span></span> <span data-ttu-id="958f9-108">Elden çıkarma kodlarını maddenin durumunu tanımlamak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="958f9-108">You can use disposition codes to describe the condition of the item.</span></span> <span data-ttu-id="958f9-109">Elden çıkarma kodlarını hareket için başka bir işlem gerekli olup olmadığını belirtmek için de kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="958f9-109">You can also use disposition codes to indicate whether additional action is required for the transaction.</span></span> <span data-ttu-id="958f9-110">Örneğin, aşağıdaki eylemler için elden çıkarma kodları oluşturun:</span><span class="sxs-lookup"><span data-stu-id="958f9-110">For example, create disposition codes for the following actions:</span></span>
 
-  - <span data-ttu-id="d6467-111">İade edilen maddeyi hurdaya çıkarmak ve müşteriye bunun yerine başka bir madde göndermek.</span><span class="sxs-lookup"><span data-stu-id="d6467-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
+  - <span data-ttu-id="958f9-111">İade edilen maddeyi hurdaya çıkarmak ve müşteriye bunun yerine başka bir madde göndermek.</span><span class="sxs-lookup"><span data-stu-id="958f9-111">Scrap the returned item and provide a replacement item to the customer.</span></span>
 
-  - <span data-ttu-id="d6467-112">Maddeyi stoğa iade etmek ve madde maliyeti için müşteriyi alacaklandırmak.</span><span class="sxs-lookup"><span data-stu-id="d6467-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
+  - <span data-ttu-id="958f9-112">Maddeyi stoğa iade etmek ve madde maliyeti için müşteriyi alacaklandırmak.</span><span class="sxs-lookup"><span data-stu-id="958f9-112">Return the item to inventory and credit the customer for the cost of the item.</span></span>
 
-  - <span data-ttu-id="d6467-113">Maddeyi onarmak ve müşteriye geri göndermek.</span><span class="sxs-lookup"><span data-stu-id="d6467-113">Repair the item and return it to the customer.</span></span>
+  - <span data-ttu-id="958f9-113">Maddeyi onarmak ve müşteriye geri göndermek.</span><span class="sxs-lookup"><span data-stu-id="958f9-113">Repair the item and return it to the customer.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d6467-114">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="d6467-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="958f9-114">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="958f9-114">See also</span></span>
 
-[<span data-ttu-id="d6467-115">İade neden kodlarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="d6467-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
+[<span data-ttu-id="958f9-115">İade neden kodlarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="958f9-115">Set up return reason codes</span></span>](set-up-return-reason-code.md)
 
-[<span data-ttu-id="d6467-116">Elden çıkarma kodlarını ayarla</span><span class="sxs-lookup"><span data-stu-id="d6467-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
+[<span data-ttu-id="958f9-116">Elden çıkarma kodlarını ayarla</span><span class="sxs-lookup"><span data-stu-id="958f9-116">Set up disposition codes</span></span>](set-up-disposition-codes.md)
 
 
 

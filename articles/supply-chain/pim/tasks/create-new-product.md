@@ -13,33 +13,33 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bf15359e085b541407bb49c266f7d9505893e25
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203722"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986180"
 ---
-# <a name="create-a-new-product"></a><span data-ttu-id="91c84-103">Yeni ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="91c84-103">Create a new product</span></span>
+# <a name="create-a-new-product"></a><span data-ttu-id="89cb3-103">Yeni ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="89cb3-103">Create a new product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="91c84-104">Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="91c84-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="91c84-105">Bu işlem genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="91c84-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="91c84-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="91c84-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="89cb3-104">Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="89cb3-104">This topic describes how to create a new shared product.</span></span> <span data-ttu-id="89cb3-105">Bu işlem genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="89cb3-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="89cb3-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="89cb3-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-product"></a><span data-ttu-id="91c84-107">Ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="91c84-107">Create a product</span></span>
-1. <span data-ttu-id="91c84-108">Gezinti bölmesinde **Modüller >Ürün bilgileri yönetimi > Ürünler > Ürünler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="91c84-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
-2. <span data-ttu-id="91c84-109">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-109">Select **New**.</span></span>
-3. <span data-ttu-id="91c84-110">**Ürün numarası** alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="91c84-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="91c84-111">Ürün numarası için bir numara serisi ayarlanmış ise ürün numaraları mutlaka el ile girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="91c84-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
-4. <span data-ttu-id="91c84-112">**Ürün adı** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="91c84-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="91c84-113">Ürün adı varsayılan olarak arama adı olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="91c84-113">The product name defaults to the search name.</span></span> <span data-ttu-id="91c84-114">Gerekirse bunu değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="91c84-114">You can change this if needed.</span></span>  
-5. <span data-ttu-id="91c84-115">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-115">Select **OK**.</span></span>
+## <a name="create-a-product"></a><span data-ttu-id="89cb3-107">Ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="89cb3-107">Create a product</span></span>
+1. <span data-ttu-id="89cb3-108">Gezinti bölmesinde **Modüller >Ürün bilgileri yönetimi > Ürünler > Ürünler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-108">In the Navigation pane, go to **Modules > Product information management > Products > Products**.</span></span>
+2. <span data-ttu-id="89cb3-109">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-109">Select **New**.</span></span>
+3. <span data-ttu-id="89cb3-110">**Ürün numarası** alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-110">In the **Product number** field, type a value.</span></span> <span data-ttu-id="89cb3-111">Ürün numarası için bir numara serisi ayarlanmış ise ürün numaraları mutlaka el ile girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="89cb3-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
+4. <span data-ttu-id="89cb3-112">**Ürün adı** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="89cb3-112">In the **Product name** field, type a value.</span></span> <span data-ttu-id="89cb3-113">Ürün adı varsayılan olarak arama adı olarak atanır.</span><span class="sxs-lookup"><span data-stu-id="89cb3-113">The product name defaults to the search name.</span></span> <span data-ttu-id="89cb3-114">Gerekirse bunu değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="89cb3-114">You can change this if needed.</span></span>  
+5. <span data-ttu-id="89cb3-115">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-115">Select **OK**.</span></span>
 
-## <a name="set-up-dimension-groups"></a><span data-ttu-id="91c84-116">Boyut gruplarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="91c84-116">Set up dimension groups</span></span>
-1. <span data-ttu-id="91c84-117">İletişim kutusunu açmak için **Boyut grupları**'ını seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-117">Select **Dimension groups** to open the drop dialog.</span></span>
-2. <span data-ttu-id="91c84-118">**Stok boyutu grubu alanı**'na bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="91c84-119">Saklama boyutu grubu, saklama boyutlarının ürün için her bir harekete nasıl girilmesi gerektiğini ve bunun stokta nasıl takip edileceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="91c84-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
-3. <span data-ttu-id="91c84-120">**İzleme boyutu grubu** alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="91c84-121">Takip boyutu grubu, her bir ürün hareketi için mutlaka girmeniz gereken takip boyutlarını ve bunların stokta nasıl işleneceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="91c84-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
-4. <span data-ttu-id="91c84-122">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="91c84-122">Select **OK**.</span></span>
+## <a name="set-up-dimension-groups"></a><span data-ttu-id="89cb3-116">Boyut gruplarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="89cb3-116">Set up dimension groups</span></span>
+1. <span data-ttu-id="89cb3-117">İletişim kutusunu açmak için **Boyut grupları**'ını seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-117">Select **Dimension groups** to open the drop dialog.</span></span>
+2. <span data-ttu-id="89cb3-118">**Stok boyutu grubu alanı**'na bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-118">In the **Storage dimension group** field, enter or select a value.</span></span> <span data-ttu-id="89cb3-119">Saklama boyutu grubu, saklama boyutlarının ürün için her bir harekete nasıl girilmesi gerektiğini ve bunun stokta nasıl takip edileceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="89cb3-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
+3. <span data-ttu-id="89cb3-120">**İzleme boyutu grubu** alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-120">In the **Tracking dimension group** field, enter or select a value.</span></span> <span data-ttu-id="89cb3-121">Takip boyutu grubu, her bir ürün hareketi için mutlaka girmeniz gereken takip boyutlarını ve bunların stokta nasıl işleneceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="89cb3-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
+4. <span data-ttu-id="89cb3-122">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="89cb3-122">Select **OK**.</span></span>
 

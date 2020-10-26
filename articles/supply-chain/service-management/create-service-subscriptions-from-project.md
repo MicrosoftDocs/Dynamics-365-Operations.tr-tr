@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ab02faeed49a43fa30a2db771bc3e1fe7717589
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 3903f1fe5b5f7d2755ec895eded73de6d165e68e
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202687"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978713"
 ---
-# <a name="create-service-subscriptions-from-a-project"></a><span data-ttu-id="2f4f4-103">Projeden servis abonelikleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="2f4f4-103">Create service subscriptions from a project</span></span>    
+# <a name="create-service-subscriptions-from-a-project"></a><span data-ttu-id="00027-103">Projeden servis abonelikleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="00027-103">Create service subscriptions from a project</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2f4f4-104">**Proje yönetimi ve muhasebe** içindeki bir projeden bir servis aboneliği oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-104">You can create a service subscription from a project in **Project management and accounting**.</span></span>
+<span data-ttu-id="00027-104">**Proje yönetimi ve muhasebe** içindeki bir projeden bir servis aboneliği oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="00027-104">You can create a service subscription from a project in **Project management and accounting**.</span></span>
 
-1.  <span data-ttu-id="2f4f4-105">**Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-105">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span> <span data-ttu-id="2f4f4-106">Bir abonelik oluşturmak istediğiniz projeyi açın.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-106">Open the project that you want to create a subscription for.</span></span>
+1.  <span data-ttu-id="00027-105">**Proje yönetimi ve muhasebe** \> **Genel** \> **Projeler** \> **Tüm projeler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="00027-105">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span> <span data-ttu-id="00027-106">Bir abonelik oluşturmak istediğiniz projeyi açın.</span><span class="sxs-lookup"><span data-stu-id="00027-106">Open the project that you want to create a subscription for.</span></span>
 
-2.  <span data-ttu-id="2f4f4-107">**Projeler** formunda, **Eylem bölmesinde** **Yönet** sekmesindek **Servis** \> **Servis aboneliği**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-107">On the **Projects** form, on the **Action Pane**, on the **Manage** tab, click **Service** \> **Service subscription**.</span></span>
+2.  <span data-ttu-id="00027-107">**Projeler** formunda, **Eylem bölmesinde** **Yönet** sekmesindek **Servis** \> **Servis aboneliği**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="00027-107">On the **Projects** form, on the **Action Pane**, on the **Manage** tab, click **Service** \> **Service subscription**.</span></span>
 
-3.  <span data-ttu-id="2f4f4-108">**Abonelik** formunda, **Servis aboneliği** alanına benzersiz bir kimlik numarası girin.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-108">On the **Subscription** form, in the **Service subscription** field, enter a unique identification number.</span></span> <span data-ttu-id="2f4f4-109">Proje numarası seçtiğiniz proje için aboneliğe otomatik olarak girilir.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-109">The project number is entered automatically into the subscription for the selected project.</span></span>
+3.  <span data-ttu-id="00027-108">**Abonelik** formunda, **Servis aboneliği** alanına benzersiz bir kimlik numarası girin.</span><span class="sxs-lookup"><span data-stu-id="00027-108">On the **Subscription** form, in the **Service subscription** field, enter a unique identification number.</span></span> <span data-ttu-id="00027-109">Proje numarası seçtiğiniz proje için aboneliğe otomatik olarak girilir.</span><span class="sxs-lookup"><span data-stu-id="00027-109">The project number is entered automatically into the subscription for the selected project.</span></span>
 
-4.  <span data-ttu-id="2f4f4-110">Kalan bilgileri forma girin.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-110">Enter the remaining information in the form.</span></span>
+4.  <span data-ttu-id="00027-110">Kalan bilgileri forma girin.</span><span class="sxs-lookup"><span data-stu-id="00027-110">Enter the remaining information in the form.</span></span>
 
-<span data-ttu-id="2f4f4-111">Artık abonelik için abonelik hareketlerini oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-111">You can now create subscription transactions for the subscription.</span></span>
+<span data-ttu-id="00027-111">Artık abonelik için abonelik hareketlerini oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="00027-111">You can now create subscription transactions for the subscription.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="2f4f4-112">Abonelik grubu için numara serisi ayarladıysanız, abonelik grubunu belirttiğinizde abonelik için otomatik olarak bir abonelik tanımlaması oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-112">If you have set up a number sequence for the subscription group, a subscription ID is generated automatically for the subscription when you specify the subscription group.</span></span></P>
+> <P><span data-ttu-id="00027-112">Abonelik grubu için numara serisi ayarladıysanız, abonelik grubunu belirttiğinizde abonelik için otomatik olarak bir abonelik tanımlaması oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="00027-112">If you have set up a number sequence for the subscription group, a subscription ID is generated automatically for the subscription when you specify the subscription group.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="2f4f4-113">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="2f4f4-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="00027-113">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="00027-113">See also</span></span>
 
-[<span data-ttu-id="2f4f4-114">Abonelik satış fiyatı</span><span class="sxs-lookup"><span data-stu-id="2f4f4-114">Subscription sales prices</span></span>](subscription-sales-prices.md)
+[<span data-ttu-id="00027-114">Abonelik satış fiyatı</span><span class="sxs-lookup"><span data-stu-id="00027-114">Subscription sales prices</span></span>](subscription-sales-prices.md)
 
   
 
