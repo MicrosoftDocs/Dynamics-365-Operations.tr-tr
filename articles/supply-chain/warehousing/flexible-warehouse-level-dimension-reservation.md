@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: d75e6a8b48447a33156e03d50e990b8514bacda9
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652191"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970715"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
 
@@ -233,6 +233,9 @@ Ambar iş maddesi tam palete eşit ve plaka taahhütlü miktarlara sahip satırl
 ![Plakaya göre işle seçeneğinin Evet olarak ayarlandığı mobil cihaz menü öğesi](media/Handle-by-LP-menu-item.png)
 
 **Plakaya göre işle** işlevi, çoklu paletleri kapsayan işleri desteklemediğinden, farklı plakalar için ayrı bir iş maddesi olması daha iyidir. Bu yaklaşımı kullanmak için **Sipariş taahhüttlü plaka kimliği** alanını **İş şablonu** sayfasında ,iş üst bilgisi sonu olarak ekleyin.
+
+> [!NOTE]
+> Siparişle taahhüt edilen iş oluşturma işlemi için, malzeme çekme işi satırlarına bir "siparişle taahhüt edilen stok boyutu" değeri atanacaktır ve plaka değerini doğrudan görüntülemek mümkün olmayacaktır. Mobil cihaz menü öğesi ayarlanırken yalnızca *Kullanıcı tarafından yönlendirilen* işlem desteklenir.
 
 ## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Örnek senaryo: Sipariş taahhütlü plaka rezervasyonunu ayarlama ve işleme
 

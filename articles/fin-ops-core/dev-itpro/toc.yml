@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.15 için platform güncelleştirmeleri (Ocak 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: 10.0.14 için platform güncelleştirmeleri (Kasım 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: 10.0.13 için platform güncelleştirmeleri (Ekim 2020)
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Genel sorun giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Çift yazmayla ilgili sık sorulan sorular
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Power Platform ile tümleştirme
                       items:
                         - name: Aday müşteriden nakde senaryosu yapılandırma
@@ -386,13 +390,15 @@
           items:
             - name: Genel bakış
               href: database/dbmovement-operations.md
+            - name: Veritabanı taşıma araç seti
+              href: database/database-movement-toolkit.md
             - name: Hızlı başlangıç kılavuzları
               items:
                 - name: Veritabanını yenileme
                   href: database/database-refresh.md
-                - name: Veritabanını dışa aktarma
+                - name: Veritabanını dışarı aktarma
                   href: database/export-database.md
-                - name: Veritabanını içe aktarma
+                - name: Veritabanını içeri aktarma
                   href: database/import-database.md
                 - name: Veritabanını belirli noktaya geri yükleme
                   href: database/database-point-in-time-restore.md
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 yükseltmesi - Veri yükseltme için yükseltme öncesi denetim listesi
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012 yükseltmesi - dacpac işlemini kullanarak korumalı alan ortamlarında veri yükseltme
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012 yükseltmesi - Korumalı alan ortamlarında veri yükseltme
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 yükseltmesi - Şirket için ortamlar

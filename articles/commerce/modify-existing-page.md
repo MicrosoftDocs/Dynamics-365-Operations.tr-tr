@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270016"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961646"
 ---
 # <a name="modify-an-existing-site-page"></a>Var olan site sayfasını değiştirme
 
@@ -47,7 +47,7 @@ Sonraki adım, gerçek değişikliklerinizi yapmak içindir. Genellikle, sol tar
 Ancak, yaptığınız değişiklikler bazen model veya parçacık eklemeyi veya kaldırmayı içerebilir. Parça veya modül eklemek için, modül veya parçayı eklemek istediğiniz yuvayı bulmak amacıyla sayfa anahattı ağacını ve sonra o yuva için üç nokta düğmesini (**...**) kullanın. Modül veya parça eklemek için kullanılan komutları içeren bir menü görüntülenir. Bir modül veya parçayı kaldırmak için sayfa anahat ağacında bunu bulun ve seçin, üç nokta düğmesini seçin ve sonra modülü veya parçayı silmek için komutu seçin.
 
 > [!TIP]
-> Ayrıca, doğrudan seçerek "aldığınız şey gördüğünüz şeydir" (WYSIWYG) önizlemesi görünür olan herhangi bir modülün özelliklerini görüntüleyebilir ve düzenleyebilirsiniz.
+> Ayrıca, doğrudan seçerek görsel sayfa oluşturucu önizlemesinde görünür olan herhangi bir modülün özelliklerini görüntüleyebilir ve düzenleyebilirsiniz.
 
 Değişikliklerinizi yapmayı bitirdikten ve etkilerini önizledikten sonra, komut çubuğunda **Düzenlemeyi bitir**'i seçerek sayfayı iade etmelisiniz. 
 

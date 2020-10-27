@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269993"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961622"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Sayfa kaydetme, önizleme ve yayımlama
 
@@ -38,9 +38,9 @@ Bir sayfayı kaydettiğinizde, değişiklikler yalnızca size görünebilir. Kay
 
 ## <a name="preview-a-page"></a>Sayfayı önizleme
 
-Geliştirme aracı, iki tür önizleme özelliği sunar: Sayfa düzenleyicisinde "gördüğünüz şey aldığınız şeydir" (WYSIWYG) Önizleme bölmesi ve ayrı bir önizleme penceresi sağlar.
+Geliştirme aracı, iki tür önizleme özelliği sunar: Sayfa düzenleyicisinde "gördüğünüz şey aldığınız şeydir" (WYSIWYG) Önizleme bölmesi olan görsel sayfa oluşturucu ve ayrı bir önizleme penceresi.
 
-Sayfa düzenleyicisini kullanırken, Orta bölmede "aldığınız şey görüntülenir" (WYSIWYG) önizlemesi görüntülenir. Bu önizleme, sayfayı her kaydedişinizde otomatik olarak güncelleştirilir. Bunu, komut çubuğunda **Yenile** seçerek el ile de güncelleştirebilirsiniz. WYSIWYG önizlemesi, sayfayı sitenin kullanıcıları görer gibi işler, ancak geliştirme yardımcıları üzerinde işlenir.
+Sayfa düzenleyicisini kullanırken, Orta bölmede "aldığınız şey görüntülenir" (WYSIWYG) önizlemesi görüntülenir. Bu önizleme, sayfayı her kaydedişinizde otomatik olarak güncelleştirilir. Bunu, komut çubuğunda **Yenile** seçerek el ile de güncelleştirebilirsiniz. Önizleme, sayfayı sitenin kullanıcıları göreceği gibi işler, ancak yazma yardımcıları bunun üzerinde işlenir.
 
 Sayfayı değiştirmeyi bitirdiğinizde, hangi müşterilerin görebileceğini görmek için önizlemek isteyebilirsiniz. Bir sayfayı önizlemek için, komut çubuğunda **önizleme**'yi seçin. Önizleme, ayrı bir tarayıcı penceresinde görüntülenir. Önizleme penceresindeki sayfa, sitenin kullanıcısı tarafından göreceğiniz şekilde oluşturulur. Yanıt veren modüllerin tüm görünüm bağlantı noktalarında doğru şekilde işlendiğine emin olmak için pencereyi yeniden boyutlandırabilirsiniz.
 

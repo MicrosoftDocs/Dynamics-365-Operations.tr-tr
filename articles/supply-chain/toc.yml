@@ -70,15 +70,15 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (Aralık 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (Kasım 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (Ekim 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (Ağustos 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: LCS uygulama projelerini farklı Azure AD kiracılarına taşıma
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: LCS uygulama projelerini şirket içinden buluta taşıma
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tek bir Azure AD kiracısında birden fazla LCS projesi ve üretim ortamı
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalleştirme
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Hindistan
+              items:
+                - name: Stok transferi emirleri
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rusya
               items:
                 - name: Rusya'ya genel bakış
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Master planlama performansını iyileştirme
                   href: master-planning/master-planning-performance.md
+                - name: Zamanlama altyapısı performansını iyileştirme
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Master planlar ve çoklu tesis işlevi
                   items:
                     - name: Master planlama ve birden çok tesis işlevine genel bakış
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Ürün modeli için rotayı koruma
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
+                      href: pim/attribute-based-product-configurator.md
                     - name: Ürün yapılandırma modelini onaylama
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Ürün modelleri için verileri aktarma
@@ -2035,6 +2045,8 @@
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
                       href: production-control/report-finished-job-device.md
+                    - name: Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Üretim emri durumunu tersine çevirme
                       href: production-control/reverse-production-order-status.md
                     - name: Malzeme özel durumlarının görünürlüğü
@@ -2649,7 +2661,11 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Plaka etiketi yazdırmayı etkinleştirme
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Parça çekme onayı
+                    - name: Ambar uygulamasından transfer emirleri oluşturma
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Ambar uygulaması olayı işleme
+                      href: warehousing/warehouse-app-events.md
+                    - name: Malzeme çekme onayı
                       href: warehousing/piece-picking-confirmation.md
                     - name: Ambalaj malzemeleri ve ücretleri
                       href: warehousing/pack-materials-packing-material-fees.md
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Kılavuz çerçevesini işleme
                       href: warehousing/process-guide-framework.md
+                    - name: Ambar uygulaması bağlantı sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Yükseltme ve geçiş
                   items:
                     - name: Ambar yönetimi süreçlerini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme

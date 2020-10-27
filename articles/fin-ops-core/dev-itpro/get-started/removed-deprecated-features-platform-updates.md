@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819901"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971457"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -34,6 +34,22 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri
+
+> [!NOTE]
+> Sürüm 10.0.15 bir önizleme sürümüdür. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [Bir sürüm hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Meta veri düzeltmelerini uygulamak için Visual Studio eklentisi
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Meti veri düzeltmeleri artık Temmuz 2018'de 8.1 sürümüyle sunulan [One Version](../../fin-ops/get-started/one-version.md) hizmet güncelleştirmeleriyle desteklenmemektedir. |
+| **Başka bir özellikle mi değiştirildi?**   | Desteklenen sürümler için bağımsız meta veri düzeltmeleri yoktur. Bunun yerine toplu kalite güncelleştirmeleri uygulanır. |
+| **Etkilenen ürün alanları**         | Visual Studio eklentileri |
+| **Dağıtım seçeneği**              | Geliştirme sanal makineleri |
+| **Durum**                         | Sürüm 10.0.15 ile eklenti artık Visual Studio araçlarına dahil değildir. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.14 sürümü için platform güncelleştirmeleri
 
@@ -50,6 +66,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Etkilenen ürün alanları**         | Sistem Yönetimi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | 2021 Ekim'de bu form kaldırılacaktır.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri
 

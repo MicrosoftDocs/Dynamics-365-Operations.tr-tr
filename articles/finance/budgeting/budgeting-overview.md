@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106043
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b56f56f5307c292ced30ec94d178244268c5e68
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935454"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975280"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
@@ -40,7 +40,7 @@ Bir şirketin kaynak planlama döngüsü genellikle planlama, bütçeleme ve tah
 
 Hem uzun vadeli stratejik planlama hem de yıllık bütçe planlama işlemleri bir bütçe planı belgesiyle desteklenir. Bütçe planı belgeleri, Microsoft Excel ile sıkı şekilde tümleşiktir. Kullanıcılar sınırsız parasal ve nicel senaryoları yapılandırabilir. Ayrıca hem yukarıdan aşağıya hem de aşağıdan yukarıya bütçeleme yöntemlerini desteklemek üzere bir bütçeleme kuruluş hiyerarşisi tanımlayabilir. Uygulamada bir bütçe oluşturulup onaylandıktan sonra bütçe planını bir bütçe kayıt girişine dönüştürürsünüz. Bütçe kayıt girişleri, bütçeyi korumak ve bütçe kodlarıyla tutarları izlenebilir tutmak için araçlar sağlar. Bütçe kayıt girişleri, orijinal bütçeleri gözden geçirmenize, transferler yapmanıza, önceki yıldan bütçe tutarlarını nakletmenize olanak sağlar. Bir şirket, oluşturulan bütçeye bağlı olarak bütçe kontrolünü etkinleştirebilir. Kontrol düzeyi, kuruluşun kültürüne ve gelişim düzeyine bağlıdır. Daha düşük bir gelişim düzeyindeki kuruluşlar bütçeyi "olduğu gibi" bırakabilir ve bütçe beklentilerini karşılamıyorsa proaktiften çok, reaktif olabilirler. Diğer kuruluşlar bütçe fonları olmadığı zaman kullanıcıların satın almalarını önleyen bütçe kontrolü ilkeleri kullanabilir.
 
-Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirket bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahmin, eğilimleri belirlemek için de kullanılır. Finance and Operations'ta aktarmalı tahminler, ilk planlama etkinlikleri olarak bir bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
+Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eğitim gördükleri ve bu hedefleri "Seyahat yerine çevrimiçi toplantı tercih et" gibi ilkeler sayesinde izledikleri bir kuruluş kültürüne sahip olabilir. Uygulama, şirketin yönetiminin sıkı denetim (bütçeyi aşacak deftere nakilleri önleyen) veya gevşek denetim (kullanıcıların mevcut bütçe fonlarını aştıklarında uyarıldıkları ancak nasıl devam edeceklerini kendileri seçtikleri) arasından seçim yapmasına olanak sağlayan bir bütçe kontrolü çerçevesi içerir. Son olarak, aktarmalı tahminler kullanabilirsiniz. Aktarmalı tahmin, bütçenin fiili değerlerle düzenli olarak karşılaştırılmasıdır ve şirketin bütçeye göre ne kadar iyi faaliyet gösterdiğini tanımlamak için kullanılır. Aktarmalı tahminler, trendleri belirlemek için de kullanılır. Finance and Operations'da aktarmalı tahminler, başlangıç planlaması etkinlikleri olarak bütçe planı belgesi üzerinden desteklenir. Aktarmalı tahminler, gelecek bütçe döngüsü için planlamayla paralel olarak yürütülebilir.
 
 -   [Bütçelemeye genel bakış](basic-budgeting-overview-configuration.md)
 -   [Bütçe denetimine genel bakış](budget-control-overview-configuration.md)

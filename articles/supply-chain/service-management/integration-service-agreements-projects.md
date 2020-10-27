@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a19a138cceb7db08216e1151eb92442691bc58d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 578e4b9fe5ef487e999fd0de28d7566bad21fd89
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202342"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985595"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Projeler ve servis sözleşmeleri için tümleştirme 
 

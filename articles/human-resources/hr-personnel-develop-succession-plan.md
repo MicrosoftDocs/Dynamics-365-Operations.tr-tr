@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428651"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958855"
 ---
 # <a name="develop-succession-plan"></a>Ardışık plan geliştir
 
@@ -37,7 +37,7 @@ Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde
 6. Profili al'a tıklayın.
 7. Kişi'ye tıklayın.
 8. Kişi alanına bir ad yazın veya açılan menüden seçin.  Örnek: Cassie Hicks.
-9. Tamam'ı tıklatın.
+9. Tamam'a tıklayın.
 10. Yetenek eşlemeye dahil edilen sertifikaları görüntülemek veya düzenlemek için sertifikalar hızlı sekmesini genişletin.
 11. Dahil edilecek yetenekleri görmek veya düzenlemek için Yetenekler hızlı sekmesini genişletin.
 12. Listede ilk satırı işaretleyin.  Örnek: Muhasebe

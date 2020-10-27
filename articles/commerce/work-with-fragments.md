@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818362"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961670"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
@@ -61,8 +61,8 @@ Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça 
 Önceden yapılandırılmış bir modülü yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
 
 1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
-1. Sol taraftaki ana hat bölmesinde veya doğrudan ana tuvalden, önceden yapılandırılmış modülü seçin.
-1. Ana hat bölmesinde veya tuval içinde seçili modülün araç çubuğunda modül adının yanındaki üç noktayı (**...**) seçin. 
+1. Sol taraftaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, önceden yapılandırılmış modülü seçin.
+1. Ana hat bölmesinde veya görsel sayfa oluşturucuda seçili modülün araç çubuğunda modül adının yanındaki üç noktayı (**...**) seçin. 
 1. **Sayfa Parçası Olarak Paylaş**'ı seçin. 
 1. **Sayfa Parçası Olarak Kaydet** iletişim kutusunda, parça için bir ad girin.
 1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
@@ -94,8 +94,8 @@ Aşağıdaki yordamlarda parçaların nasıl ekleneceği, kaldırılacağı ve d
 
 Bir sayfaya parça eklemek için bu adımları izleyin.
 
-1. Soldaki ana hat bölmesinde veya doğrudan ana tuvalde, alt modüllerin eklenebileceği bir kapsayıcı veya yuva seçin.
-1. Çevrimiçi bölmesinde kapsayıcının veya yuvanın adının yanındaki üç noktayı (**...**) seçin.  Alternatif olarak, ana tuvali kullanıyorsanız artı simgesini (**+**) seçin.  
+1. Soldaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, alt modüllerin eklenebileceği bir kapsayıcı veya yuva seçin.
+1. Çevrimiçi bölmesinde kapsayıcının veya yuvanın adının yanındaki üç noktayı (**...**) seçin.  Alternatif olarak, görsel sayfa oluşturucuyu kullanıyorsanız artı simgesini (**+**) seçin.  
 1. **Parça Ekle**'yi seçin.
 
     ![Bir yuvaya veya kapsayıcıya varolan bir parçanın nasıl ekleneceği ile ilgili bir ekran yakalama](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Bir sayfaya parça eklemek için bu adımları izleyin.
 
 Sayfada yuva veya konteynerden parça kaldırmak için bu adımları izleyin.
 
-1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta (**...**) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı tuval içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
+1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta (**...**) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı görsel sayfa oluşturucu içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
 1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam**'ı seçin.
 
 > [!NOTE]

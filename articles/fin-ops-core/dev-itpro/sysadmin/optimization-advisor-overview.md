@@ -1,6 +1,6 @@
 ---
 title: En iyi duruma getirme danışmanına genel bakış
-description: Bu konuda Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak Optimizasyon danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
+description: Bu konuda Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak En İyi Duruma Getirme danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 07/23/2019
@@ -16,21 +16,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25ca62466c00b038e0d7e1758fd4f13f776cb2f0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811982"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982564"
 ---
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak Optimizasyon danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
+Bu konuda Finance and Operations'ın optimum yapılandırmasını sağlamaya yardımcı olacak En İyi Duruma Getirme danışmanını nasıl kullanabileceğiniz açıklanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 

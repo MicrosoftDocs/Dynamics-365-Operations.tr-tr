@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9fba99eeea605f35abfe00068fe9a4cda4db0b6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5ebd65655db56ee1169f24dbc79fbfb5130f06a5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203124"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978833"
 ---
 # <a name="accruing-subscriptions"></a>Tahakkuk eden abonelikler 
 

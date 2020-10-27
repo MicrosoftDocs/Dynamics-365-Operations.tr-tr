@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bdc4b5c31d9a478a5226ae6b5e8c776de3b661dd
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 11e006e41f467a594521dfc601f46b4d1b492ce5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144847"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982970"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Belgelerde satış vergisi hareketleri oluşturma
 

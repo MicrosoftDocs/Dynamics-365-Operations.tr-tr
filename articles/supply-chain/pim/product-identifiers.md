@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: conradv
+ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 44e5496904c10c644b33f5cf5d9e51c39bcd4a9e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 259c9f07fb69b07f73baeb5ce94e0a7bc29bb2d6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209548"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984819"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
@@ -130,7 +130,7 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 | Serbest bırakılan ürün çeşitleri | Madde numarası, ürün boyutları, ürün numarası | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması, ürün boyutları | **Ürün çeşitleri** varlığı gibi, bu varlık da ürün terminolojisi şablonunu izleyen veya ürün çeşidi için kendi ürün numaralarını kullanan yeni ürünler oluşturmak için kullanılabilir. |
 | Müşteriler için harici madde açıklaması | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Bir grup müşteri (örneğin, alıcı ilişkilendirmesi) **Harici madde açıklaması müşteri grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
 | Satıcılar için harici madde açıklaması | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Bir grup satıcı (örneğin, satış ilişkilendirmesi ve sektör organizasyonu) **Harici madde açıklaması satıcı grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
-| Madde Barkod | Barkod | Barkod | İçe aktarma sırasında, hedef sistemde tanımlanan bir barkod kurulumuna başvurmanız gerektiğini unutmayın. İçe aktarılan barkod referansları, barkod kurulumuna karşı doğrulanır ve barkodlar baroda kurulumunda tanımlanan gereksinimlerle eşleşmiyorsa reddedilir. |
+| Madde Barkod | Barkod | Barkod | İçe aktarma sırasında, hedef sistemde tanımlanan bir barkod kurulumuna başvurmanız gerektiğini unutmayın. İçe aktarılan barkod referansları, barkod kurulumuna karşı doğrulanır ve barkodlar barkod kurulumunda tanımlanan gereksinimlerle eşleşmiyorsa reddedilir. |
 | Serbest bırakılan ürünler için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, madde numarası | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. |
 | Serbest bırakılan ürün çeşitleri için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, madde numarası, ürün boyutları | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. Bu varlık madde numarası ve ürün boyutlarına göre ürün çeşitlerine başvurur. |
 | Ürün numarası tanımlayıcısına göre serbest bırakılan ürün çeşitleri için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, ürün numarası | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. Bu varlık ürün çeşidinin ürün numarasına göre ürün çeşitlerine başvurur. (Sonraki ana sürümden itibaren) |
