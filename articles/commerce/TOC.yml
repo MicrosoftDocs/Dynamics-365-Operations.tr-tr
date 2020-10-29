@@ -98,11 +98,9 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (Ekim 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: Commerce 10.0.12 (Ağustos 2020)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Finance and Operations'ta kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Finance and Operations'daki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Dynamics 365 Commerce'taki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-commerce.md
@@ -1040,6 +1038,8 @@
                       href: add-breadcrumb.md
                     - name: Gezinti menüsü modülü
                       href: nav-menu-module.md
+                    - name: Site seçicisi modülü
+                      href: site-selector.md
                 - name: Uyumluluk modülleri
                   items:
                     - name: Tanımlama bilgisi onay modülü
@@ -1682,7 +1682,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
                     - name: Yapılandırmaları RCS'den içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-            - name: Eğitimler
+            - name: Öğreticiler
               items:
                 - name: Birden çok uygulama tablosundan veri almak için BİRLEŞTİR veri kaynaklarını kullanma
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
@@ -1802,7 +1802,7 @@
           items:
             - name: Office tümleştirmesine genel bakış
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/commerce/toc.json
-            - name: Office tümleştirmesi eğitimi
+            - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
@@ -1986,6 +1986,8 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Bir modülün anatomisi
                   items:
+                    - name: Modüllere genel bakış
+                      href: e-commerce-extensibility/modules-overview.md
                     - name: Modül tanımı dosyası
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Modül Tepki bileşeni dosyası
@@ -2034,12 +2036,18 @@
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Etkileşimli bileşenlere genel bakış
                       href: e-commerce-extensibility/interactive-components.md
+                    - name: Yerel geliştirme sırasında oturum açmış durumunun sahtesini oluşturma
+                      href: e-commerce-extensibility/mock-sign-in.md
                     - name: CultureInfoFormatter sınıfını kullanarak modülleri globalleştirme
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: Güvenli anahtar yönetimi için Azure Key Vault'u ayarlama
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Veri eylemleri geliştirme
                   items:
                     - name: Veri eylemlerine genel bakış
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Veri eylemi önbellek seçenekleri
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: Veri eylemlerini sahteleriyle test etme
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Sayfa yükleme veri eylemleri
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Modül uzantıları eklemek için temayı genişletme
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Temada bir modül kitaplığı bileşenini geçersiz kılma
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Temayı temel temadan genişletme
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Özelleştirme koduna özel kaynaklar ekleme
@@ -2102,11 +2112,15 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK ve modül kitaplığı güncelleştirmeleri
                       href: e-commerce-extensibility/sdk-updates.md
-            - name: Retail SDK
+                - name: En iyi uygulamalar
+                  items:
+                    - name: Dynamics 365 Commerce geliştirme için en iyi uygulamalar
+                      href: e-commerce-extensibility/best-practices-dev.md
+            - name: Retail SDK'si
               items:
                 - name: Retail SDK mimarisi
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
-                - name: Retail SDK'de yakında yapılacak değişiklikler
+                - name: Retail SDK'sinde yakında yapılacak değişiklikler
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar önemli geliştirme ve ALM değişiklikleri
                   href: dev-itpro/dev-changes-10-13.md
@@ -2197,7 +2211,7 @@
                 - name: Retail Typescript ve C# proxy'leri
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Harici uygulamalarda Retail Server API'larını kullanma
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: Commerce Runtime (CRT) genişletilebilirliği
               items:
                 - name: CRT mimarisi ve yapılandırması

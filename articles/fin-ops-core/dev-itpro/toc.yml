@@ -52,7 +52,7 @@
               href: business-events/troubleshooting.md
             - name: İş olayları için kullanım örnekleri
               href: business-events/potential-use-cases.md
-            - name: Eğitimler
+            - name: Öğreticiler
               items:
                 - name: İş olayları ve Microsoft Flow
                   href: business-events/how-to/how-to-flow.md
@@ -142,8 +142,10 @@
                           items:
                             - name: Çift yazma için sistem gereksinimleri
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Çift yazma kurulumu için desteklenen senaryolar
+                            - name: Çift yazmayı ayarlama kılavuzu
                               href: data-entities/dual-write/connection-setup.md
+                            - name: İlk eşitleme için dikkat edilecek hususlar
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Lifecycle Services'dan çift yazma kurulumu
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
@@ -404,7 +406,9 @@
                   href: database/database-point-in-time-restore.md
                 - name: Üretim veritabanını korumalı alan ortamında belirli bir noktaya geri yükleme
                   href: database/database-pitr-prod-sandbox.md
-            - name: Eğitimler
+                - name: Tam zamanında veritabanı erişimini etkinleştirme
+                  href: database/database-just-in-time-jit-access.md
+            - name: Öğreticiler
               items:
                 - name: Eğitim amacıyla yenileme
                   href: database/dbmovement-scenario-general-refresh.md
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: Commerce Scale Unit'i (bulut) başlatma
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Kanalları farklı bir Commerce Scale Unit'e geçirme
+                  href: deployment/Reassign-CSU.md
                 - name: Retail veri yerleşimi
                   href: deployment/retail-data-residency.md
             - name: Şirket içi dağıtım
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
               href: lifecycle-services/21vianet-support.md
-            - name: Finance and Operations için teknik destek ayarlama
+            - name: Finance and Operations uygulamaları için teknik destek ayarlama
               href: lifecycle-services/support-experience.md
-            - name: Finance and Operations destek deneyimlerini yönetme
+            - name: Finance and Operations uygulamaları için destek deneyimlerini yönetme
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistem yönetimi
           items:
@@ -1682,7 +1688,7 @@
           items:
             - name: Kullanıcı arabirimi geliştirme giriş sayfası
               href: user-interface/user-interface-development-home-page.md
-            - name: Eğitimler
+            - name: Öğreticiler
               items:
                 - name: Kira Masraf Türü formu oluşturma
                   href: user-interface/build-rental-charge-type-form.md
