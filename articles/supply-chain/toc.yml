@@ -1145,7 +1145,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Yapılandırmaları RCS'den içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Eğitimler
+            - name: Öğreticiler
               items:
                 - name: Birden çok uygulama tablosundan veri almak için BİRLEŞTİR veri kaynaklarını kullanma
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
@@ -1503,7 +1503,7 @@
           items:
             - name: Office tümleştirmesine genel bakış
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Office tümleştirmesi eğitimi
+            - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
@@ -1731,10 +1731,12 @@
                   href: procurement/tasks/create-requisition-consumption.md
             - name: 'Fiyatlar, iskontolar ve indirimler'
               items:
-                - name: Satınalma sözleşmeleri
+                - name: Satın alma sözleşmeleri
                   href: procurement/purchase-agreements.md
-                - name: Satınalma sözleşmesi oluşturma
+                - name: Satın alma sözleşmesi oluşturma
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Otomatik gider tahsisatı
+                  href: procurement/automatic-charges-allocation.md
                 - name: Satıcı indirimleri
                   href: procurement/vendor-rebates.md
                 - name: 'Fiyatlar, iskontolar, sözleşmeler ve indirimler ile ilgili sorunları giderme'
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: Üretim emirlerini tamamlandı olarak bildirme
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Üretim katı yürütme arabirimini ayarlama ve kullanma
+                      items:
+                        - name: Üretim katı yürütme arabirimini yapılandırma
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
+                          href: production-control/production-floor-execution-use.md
                     - name: Cihazlar için iş kartını yapılandırma
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
@@ -2275,7 +2285,9 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Satış siparişlerini ambarlama olmadan sevk etme
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
-                - name: Satış siparişinden satınalma siparişi oluşturma
+                - name: Otomatik gider tahsisatı
+                  href: procurement/automatic-charges-allocation.md
+                - name: Satış siparişinden satın alma siparişi oluşturma
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Satış siparişleri oluşturma
                   href: sales-marketing/tasks/create-sales-orders.md
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Ambar uygulamasından transfer emirleri oluşturma
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Ambar uygulaması olayı işleme
-                      href: warehousing/warehouse-app-events.md
                     - name: Malzeme çekme onayı
                       href: warehousing/piece-picking-confirmation.md
                     - name: Ambalaj malzemeleri ve ücretleri
@@ -2843,9 +2853,11 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Ambar işi için mobil cihazları ayarlama
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Ambar uygulaması olayı işleme
+                      href: warehousing/warehouse-app-events.md
                     - name: Ambar uygulamasıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
+                    - name: Satın alma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md

@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Satıcı faturası otomasyonu sonuçlarını görüntüleme
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Satıcı fatura girişi çalışma alanı
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: Satıcı faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Fatura eşleştirme ve şirketlerarası satınalma siparişleri
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Günlük girişlerini ve hareketlerini görüntüleme
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: İşlem ayrıntısı raporlu mizan
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Deftere nakledilen günlük girişlerini günlüğe aktarma
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Konsolidasyon şirketinde para birimi yeniden değerleme
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Kamu sektöründe gelişmiş genel muhasebe girişi oluşturma
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: İşlem ayrıntısı raporlu mizan
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Nakit kontrol limitleri kullanma
                   href: public-sector/cash-control.md
                 - name: Kamu sektöründe yıl sonu işleme
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e sertifikaları
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: NF-e özel sertifika doğrulaması
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e XML belgelerini ve DANFE dosyalarını ayarlama, içe aktarma ve doğrulama'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: NF-e federal parametrelerini ayarlama
@@ -2080,6 +2084,8 @@
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Vergi sorgulama
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: TaxDocumentJSON tablosunu temizleme
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Vergi altyapısı
                   items:
                     - name: Vergi altyapısına genel bakış
@@ -2651,7 +2657,7 @@
                         - name: Stok profiline genel bakış
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Stok profili ayarlama
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Belgeler ve sorgularda stok profili kullanma
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Raporlama
@@ -3526,7 +3532,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
                 - name: Özel rapor yazdırmak için yeni ER çözümü tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
-            - name: Eğitimler
+            - name: Öğreticiler
               items:
                 - name: Veri kaynaklarını kullanmayı öğrenme
                   items:
@@ -3714,7 +3720,7 @@
           items:
             - name: Office tümleştirmesine genel bakış
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration.md?toc=/dynamics365/finance/toc.json
-            - name: Office tümleştirmesi eğitimi
+            - name: Office tümleştirmesi öğreticisi
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Varlık verilerini Excel'de açma ve Excel Eklentisi'ni kullanarak güncelleştirme
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
