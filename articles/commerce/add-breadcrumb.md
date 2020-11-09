@@ -3,7 +3,7 @@ title: İçerik haritası modülü
 description: Bu konu içerik haritası modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817122"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055416"
 ---
 # <a name="breadcrumb-module"></a>İçerik haritası modülü
 
@@ -66,23 +66,27 @@ Aşağıdaki resimde, bir PDP üzerinde kategori hiyerarşisini gösteren bir i�
 
 Bir PDP'ye içerik haritası modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Site ayarları /> uzantılarına** gidin ve **PDP ayarında içerik haritası görüntüleme türü** için **Kategori hiyerarşisini göster**'i seçin.
+1. **Site ayarları /> uzantılarına** gidin ve **PDP ayarında içerik haritası görüntüleme türü** için **Kategori hiyerarşisini göster** 'i seçin.
 1. **Şablonlara** gidin ve PDP şablonunu seçin.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin, şablonu iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
 1. **Sayfalara** gidin ve PDP şablonunu kullanan bir PDP açın. Bir PDP henüz oluşturulmamışsa, bir tane oluşturun.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam** 'ı seçin.
 1. **İçerik haritası** yuvasının Özellikler bölmesinde , **kök** altında **bağlantı metni** 'ni seçin.
-1. **Bağlantı metni** iletişim kutusunda **giriş**'ı girin ve sonra **bağlantı hedefi** altında **bağlantı Ekle** 'yi seçin.
-1. **Bağlantı ekle** iletişim kutusunda içerik haritası kökü bağlantısını seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
-1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
+1. **Bağlantı metni** iletişim kutusunda **giriş** 'ı girin ve sonra **bağlantı hedefi** altında **bağlantı Ekle** 'yi seçin.
+1. **Bağlantı ekle** iletişim kutusunda içerik haritası kökü bağlantısını seçin ve **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin.
+1. Şablonu iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
+
+[Gezinti menüsü modülü](nav-menu-module.md)
+
+[Site seçicisi modülü](site-selector.md)
 
 [Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış](category-search-page-overview.md)
 

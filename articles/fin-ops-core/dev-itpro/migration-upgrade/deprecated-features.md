@@ -3,7 +3,7 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konu, kaldırılmış olan veya  Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sürümlerinden kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645401"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040134"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -43,7 +43,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
 
 ### <a name="chinese-voucher-types-without-account-groups-selection"></a>Hesap grupları seçimi içermeyen Çince fiş türleri
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Hesap grupları seçimine sahip özellik olarak değiştirildi. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -56,7 +56,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Windows, [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi SHA1'i kullanımın dışı bırakıyor.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -66,7 +66,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(dize iletisi)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Windows, [SHA1 Sertifikaları için Windows Uygulaması](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx)'nda belgelendiği gibi SHA1'i kullanımın dışı bırakıyor.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -77,7 +77,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yerine daha iyi bir yöntem bulunduğundan **setUtcString()** yöntemini kullanımdan çekiyoruz. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -87,7 +87,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="blacklist-report-it--feature-reference-it-00001"></a>Bloke liste raporu (IT) – Özellik referansı IT-00001
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yasal olarak gerekli değildir. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
@@ -97,7 +97,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Yurtiçi vergi raporu – Özellik referansı IT-00003
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yasal olarak gerekli değildir. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
@@ -110,17 +110,20 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="us-payroll-tax-updates"></a>ABD bordro vergisi güncelleştirmeleri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım ve artık stratejik entegrasyonlar aracılığıyla sunulan gelişmiş işlevsellik nedeniyle ABD Bordro işlevselliği için vergi güncellemelerini hizmetten çıkarıyoruz.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Bordro |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanımdan kaldırıldı: 1 Ekim 2021 itibarıyla artık ABD Bordro müşterilerine vergi güncelleştirmeleri sağlamayacağız. İşlevsellik ürün içinde kalacaktır, ancak geliştirmeler artık işlevselliği güncel tutamaz ve herhangi bir ürün kusuru bir durum tarafından değerlendirilecektir. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 for Finance and Operations'ta ABD Bordro özelliği vergi güncelleştirmeleri hizmetten çıkarılıyor](https://aka.ms/financepayrollfaq). |
+| **Durum**                         | Kullanımdan kaldırıldı: 31 Temmuz 2024 itibarıyla artık ABD Bordro müşterilerine vergi güncelleştirmeleri sağlamayacağız. İşlevsellik ürün içinde kalacaktır, ancak geliştirmeler artık işlevselliği güncel tutamaz ve herhangi bir ürün kusuru duruma göre değerlendirilecektir. |
+
+>[!NOTE]
+> Bu, 1 Ekim 2021 orijinal kullanımdan kaldırma tarihinde yapılan değişikliği temsil eder. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 for Finance and Operations'ta ABD Bordro özelliği vergi güncelleştirmeleri hizmetten çıkarılıyor](https://aka.ms/financepayrollfaq).
 
 
 ### <a name="data-management-staging-clean-up"></a>Veri yönetimi hazırlama temizleme
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Periyodik temizleme zamanlaması için gerekli olan çekirdek gereksinimlerini karşılamadı. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, senaryoları bütünsel olarak karşılamak için İş geçmişi temizleme özelliği ekleniyor. |
@@ -132,9 +135,9 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Fransa: XML'de FEC Muhasebe veri dışa aktarma
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | TXT biçimi tarafından yeri alındı **Fransa FEC denetim dosyası**, **Genel muhasebe** \> **Periyodik görevler** \> **Veri dışa aktarma** aracılığıyla kullanılabilir.
+| **Kullanımı sonlandırma/kaldırma nedeni** | TXT biçimi tarafından yeri alındı **Fransa FEC denetim dosyası** , **Genel muhasebe** \> **Periyodik görevler** \> **Veri dışa aktarma** aracılığıyla kullanılabilir.
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Genel muhasebe |
 | **Dağıtım seçeneği**              | Tümü |
@@ -143,7 +146,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="legacy-navigation-bar"></a>Eski gezinti çubuğu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Diğer Dynamics ve Office ürünleriyle başlık hizalaması. Daha fazla ayrıntı için, [Office başlığı ile hizalanan güncelleştirilmiş gezinti çubuğu](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Başka bir özellikle mi değiştirildi?**   | 24 platform güncelleştirmesinde başlayarak, arama özelliklerinin bulunduğu yeniden tasarlanmış bir gezinti çubuğu sunulmuştur. |
@@ -157,7 +160,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="legacy-default-action-behavior"></a>Eski varsayılan eylem davranışı
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuzlar içindeki varsayılan eylemler için eski davranış, beklenmeyen bir sütunun kılavuz sütunları kişiselleştirmeyle yeniden düzenlenmesinden sonra varsayılan eylem bağlantısına sahip olmasına neden olur. Yeni yapışkan varsayılan eylem özelliği bunu düzeltir. Daha fazla bilgi için [kılavuzları Yapışkan varsayılan eylemi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 21 itibariyle "yapışkan varsayılan eylemler" için bir özellik kullanıma sunulmuştur. Bu özellik, **İstemci performans seçenekleri** sayfasında etkinleştirilebilir. |
@@ -167,7 +170,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 ### <a name="legacy-is-one-of-filtering-experience"></a>Eski, "biri" filtreleme deneyimini en iyi duruma getirir
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Bunlardan biri" filtreleme deneyimi, Platform güncelleştirmesi 22'de yeniden tasarlandı ve bunun tek "bunlardan biri" filtreleme deneyimi olması planlandı. |
 | **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 22 ile başlayarak, geliştirilmiş bir "bunlardan biri" filtreleme deneyimi **İstemci performans seçenekleri** sayfasında kullanılabilir hale gelmiştir. Daha fazla bilgi için bkz. [En iyi duruma getirilen filtreleme deneyiminden biri](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
@@ -178,17 +181,17 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Satış siparişlerini birden fazla proje sözleşme finansman kaynağı ile etkinleştirme parametreleri
 Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman kaynağına sahip olduğunda, **Proje yönetimi parametreleri** ayarında, **Birden fazla finansman kaynağı projeler için satış siparişlerine izin ver** ile etkindir. Varsayılan olarak, bu parametre etkin değil. 
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev, parametre kaldırıldıktan sonra her zaman etkin olacaktır. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. Proje tabanlı satış siparişlerini birden fazla finansman kaynağı ile destekleme işlevi her zaman etkin olacaktır.   |
-| **Etkilenen ürün alanları**         |**Birden fazla finansman kaynağı olan projeler için satış siparişlerine izin ver** parametresi kaldırılacaktır. Aşağıdaki yöntemler, parametre kaldırıldığında değiştirilir: **ctrlSalesOrderTable** yöntemi, **ProjStatusType** sınıfında, **doğrula** yöntemi **ProjId** alanında ve **çalıştır** yöntemi **SalescreateOrder** formunda. Aşağıdaki yöntemler parametre kaldırıldığında kullanımdan kaldırılır: **IsSalesOrderAllowedForMultipleFundingSources**, **ProjTable** tablo dosyası içinde; **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** yöntemi, **ProjTable** tablo dosyası içinde; **AllowSalesOrdersForMultipleFundingSources** veri alanı, **ProjParameters** formunda ve **ProjParameterEntity** dosyaları, **IsAssociatedToMultipleFundingSourcesContract** özel yöntemi, **ProjTable** tablo dosyasında. |
+| **Etkilenen ürün alanları**         |**Birden fazla finansman kaynağı olan projeler için satış siparişlerine izin ver** parametresi kaldırılacaktır. Aşağıdaki yöntemler, parametre kaldırıldığında değiştirilir: **ctrlSalesOrderTable** yöntemi, **ProjStatusType** sınıfında, **doğrula** yöntemi **ProjId** alanında ve **çalıştır** yöntemi **SalescreateOrder** formunda. Aşağıdaki yöntemler parametre kaldırıldığında kullanımdan kaldırılır: **IsSalesOrderAllowedForMultipleFundingSources** , **ProjTable** tablo dosyası içinde; **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** yöntemi, **ProjTable** tablo dosyası içinde; **AllowSalesOrdersForMultipleFundingSources** veri alanı, **ProjParameters** formunda ve **ProjParameterEntity** dosyaları, **IsAssociatedToMultipleFundingSourcesContract** özel yöntemi, **ProjTable** tablo dosyasında. |
 | **Dağıtım seçeneği**              | Tümü  |
 | **Durum**                         | Kullanımdan kaldırma Nisan 2020 sürüm dalgası için planlanmıştır. |
 
 ### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>İzleme ve kurulum durumu için eski iş akışı raporları
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İzleme ve kurulum durumu için eski iş akışı raporları, gezintiden daha fazla referans gösterilmedikleri için kullanımdan kaldırılmıştır. Rapor adları WorkflowWorkflowInstanceByStatusReport ve WorkflowWorkflowTrackingReport'tur. |
 | **Başka bir özellikle mi değiştirildi?**   | İş akışı geçmişi formu bunun yerine kullanılabilir. |
@@ -203,7 +206,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Dahili sınıftan türetme kalkmıştır
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten önce, bu tablo bir iç sınıf/başka bir paket/modülünde tanımlanmış tablosu türetilen bir sınıf veya oluşturulabilir. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
 | **Başka bir özellikle mi değiştirildi?**   | Derleyici uyarısı, Platform güncelleştirmesi 26'da değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler.|
@@ -213,7 +216,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Dahili yöntemleri geçersiz kılma kalkmıştır
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Platform güncelleştirmesi 25'ten öncesinde, başka bir paket/modülde tanımlanan türetilen bir sınıftaki dahili bir yöntemi geçersiz kılmak mümkündü. Bu güvenli bir kodlama yöntemi değildir. Platform güncelleştirmesi 25 ile, derleyici bir uyarı görüntüler. |
 | **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, Platform güncelleştirmesi 26'da bir derleme hatasıyla değiştirilecektir. Bu değişiklik çalışma zamanında geriye yönelik uyumludur, bu da Platform güncelleştirmesi 25 veya üzerini kullanıyorsanız, bunun herhangi bir korumalı alanda veya üretim ortamında özel kodu değiştirmeye gerek olmadan kullanılabileceği anlamına gelir. Bu değişiklik yalnızca geliştirme ve derleme zamanını etkiler. |
@@ -224,7 +227,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 ## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0, Platform güncelleştirmesi 24 ile
 
 ### <a name="renaming-released-products"></a>Sunulan ürünleri yeniden adlandırma 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Serbest bırakılan bir ürünün birincil anahtarı yeniden adlandırmak için **Birincil anahtarı yeniden adlandır** işlevini kullandığınızda, yalnızca doğrudan yabancı anahtar başvuruları güncelleştirilir. Üretim emirlerinden dolayı, serbest bırakılan ürüne ilişkin diğer tüm başvurular eski madde kodunu korur. Sonuç olarak, sonuçta iş süreçlerini engelleyen tutarsız veriler olabilir. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. |
@@ -238,7 +241,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer Denetimi
 Müşteriler katıştırılmış SQL Server Reporting Services (SSRS) ReportViewer denetimi tarafından sağlanan **Dışa aktar** eylemini, Finance and Operations uygulamaları tarafından üretilen belgeleri indirme için kullanabilirler. Raporun HTML tabanlı sunumu, belgenin sayfalandırılmamış önizlemesini kullanıcılara sunar.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | HTML tabanlı önizleme deneyiminin sayfalandırılmamış doğası, Finance and Operations tarafından nihai olarak üretilen fiziksel belgelerin doğruluğunu **sunmaz**. PDF'i iş belgeleri için standart format olarak tümüyle benimseyerek, kullanıcılar, uygulama raporları oluştururken geliştirilmiş performansa sahip modern görüntüleme denetiminden faydalanabilmektedir. |
 | **Başka bir özellikle mi değiştirildi?**   | Gelecekte, PDF belgeleri Finance and Operations tarafından oluşturulan raporlar için varsayılan biçim olacaktır.   |
@@ -249,7 +252,7 @@ Müşteriler katıştırılmış SQL Server Reporting Services (SSRS) ReportView
 ### <a name="client-kpi-controls"></a>İstemci KPI denetimleri
 Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici tarafından Visual Studio içinde modellenebilir ve son kullanıcı tarafından daha da özelleştirilebilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | KPI'ları tanımlamak için kullanılan yerel istemci denetimleri, düşük müşteri katılımına sahiptir ve geliştiricinin izlenebilir metrikler eklemesine bağlıdır. |
 | **Başka bir özellikle mi değiştirildi?**   | PowerBI.com servisi, KPI'ları dış kaynak verilerine dayanarak tanımlama ve yönetme için üst düzey araçlar sağlar.  Gelen bir sürümde, uygulama çalışma alanlarında PowerBI.com barındırılan çözümleri katıştırmanız planlanmaktadır.   |
@@ -261,7 +264,7 @@ Katıştırılmış kilit performans göstergeleri (KPI'ları), bir geliştirici
 
 #### <a name="field-groups-containing-invalid-field-references"></a>Geçersiz alan referansı içeren alan denetimleri
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tablo metaveri tanımlarının geçersiz alan referansları içeren alan gruplarına sahip olması mümkündür. Dağıtıldığında, bu, Finansal Raporlama ve SQL Server Reporting Services (SSRS) içinde çalışma zamanı hatalarına neden olabilir. Bu sorun şu anda bir *hata* yerine *derleyici uyarısı* olarak kategorize edilmiştir, bu da dağıtılabilir paket oluşturma ve geliştirmenin bu sorun giderilmeden devam edebileceği anlamına gelir. Bu sorunu gidermek için:<br><br>1. Geçersiz alan başvurusunu tablo alanı grubunu tanımından kaldırın.<br><br>2. Yeniden derleyin.<br><br>3. Uyarılar veya hataların ele alındığından emin olun. |
 | **Başka bir özellikle mi değiştirildi?**   | Bu uyarı, gelecekte bir derleme hatası ile değiştirilecektir. |
@@ -277,7 +280,7 @@ Kullanımdan kaldırılan API'lerin tam listesine erişmek için bkz. [Yöntemle
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Muavin defteri günlüğü hesap girişleri için toplu transfer kuralları
 Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  Bu mod, halihazırda transfer için seçenek olarak mevcut olan Asenkron ve zamanlanan toplu iş ile değiştiriliyor. Ek bilgi için bkz [Genel muhasebe parametreleri – transfer toplu işi kuralları](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) Web günlüğü.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Sistem performansı üzerindeki etkisi nedeniyle zaman uyumlu seçeneği kaldırıyoruz. |
 | **Başka bir özellikle mi değiştirildi?**   | Asenkron ve zamanlanan toplu iş seçenekleri, zaman uyumlu yerine kullanılacak seçeneklerdir.   |
@@ -288,7 +291,7 @@ Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  B
 ### <a name="electronic-reporting-for-russia"></a>Rusya için Elektronik raporlama
 .txt ve .xml dosya biçimlerini bildirimler için yapılandırma özelliği. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Elektronik raporlama ile değiştirildi. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet. |
@@ -299,7 +302,7 @@ Zaman uyumlu aktarım modunu genel muhasebe parametrelerinde kaldırılıyor.  B
 ### <a name="financial-reports-generator-for-russia"></a>Rusya için finansal raporlar oluşturucusu
 Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlarına dışa veri aktarmak için bir araç. İşlevsel parçalar: XLS ve DOC rapor şablonlarına, sorgularına ve sabit gereksinimlerine veri dışa aktarma kaldırıldı. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Kaldırılan bölümler Elektronik Raporlama ile değiştiriliyor. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet. Finansal raporlar kullanıcı ayarı arabirimi, GL hesapları veya vergi kayıtları için veri toplama kuralları ayarlamak için kullanılmalıdır. Muhtelif veri türlerine, sabit gereksinimlere ve sorgu benzeri veri toplama kurallarına veri dışa aktarma, Elektronik raporlamada yapılandırılmalıdır. |
@@ -310,7 +313,7 @@ Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlar�
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Rusya için iletişim kanalları üzerinden elektronik raporlama göndermek için dış sağlayıcılar ile tümleştirme
 Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha ayrıntılı olarak elektronik raporlama durumuna geri alma resmi sağlayıcı göndermek için oluşturulur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Elektronik iletiler yapılandırılabilir özelliği ile değiştirildi. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet.  |
@@ -322,7 +325,7 @@ Dışa aktarma özelliğini klasörüne bildirimlerinin elektronik dosyalar daha
 ### <a name="profit-tax-register-wizard"></a>Kar vergi kayıt sihirbazı
 Yeni kar vergi kayıtları için şablonlar oluşturma özelliği. Bu özellik, yeni kayıtlar için X++ nesnelerini oluşturur, bunlar daha sonra şablonlar olarak uygun hesaplama mantığı eklenmiş biçimde oluşturulur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Finance and Operations genişletilebilirlik modeli ile uyumlu değil. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
@@ -339,7 +342,7 @@ Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakıl
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
 15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Ürün önerilerine genel bakış](../../../commerce/product-recommendations.md).  
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz.  |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
@@ -350,7 +353,7 @@ Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakıl
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronik raporlama (ER) işlev listesi genişletmesi
 ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığı (daha fazla bilgi için bkz. [Elektronik raporlama (ER) işlev listesini genişletme](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) artık desteklenmemektedir. ER API'lerindeki değişiklikler nedeniyle, ER ifade oluşturucudan yerleşik işlevleri çağırmak için kullanılan API dahili hale gelmiştir ve artık genişletilemez.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Kod kapama girişimi  |
 | **Başka bir özellik ile değiştirildi?**   | Hiçbiri. Yeni bir yerleşik işlev gerektiğinde, yeni genişletme talebinin ER altyapısı ekibine bildirilmesi gerekir.<br><br>İstenen işlev ER ekibi tarafından geliştirilirken geçici bir çalışma olarak, talep edilen mantık özel uygulama sınıfı yöntemi olarak programlanabilir. Bu yönteme, eklenen ve özel uygulama sınıfına başvuruda bulunan **Application\Class** türündeki ER veri kaynağının bir özelliği olarak ER ifadesinden erişilebilir.  |
@@ -362,7 +365,7 @@ ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığ�
 
 Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine, **Stok yaşlandırma** raporu kullanıcı deneyimini geliştirmek için kullanılabilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |--------------|-----------------------|
 | **Kaldırılma nedeni**       | Tekrar eden işlevsellik  |
 | **Başka bir özellik ile değiştirildi?** | Evet. İki rapor **Stok yaşlandırma** raporuyla değiştirilmiştir.     |
@@ -371,12 +374,12 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI içerik paketleri AppSource'de kullanılabilir
-[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi** , **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
-| **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet** , **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 2. çeyreğidir.    |
@@ -385,7 +388,7 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 
 Veri yönetimindeki standart kullanıcı arabirimi, veri yönetimi çalışma alanını ziyaret ettiklerinde kullanıcılara sunulan varsayılan kullanıcı arabirimi olan eski kullanıcı arabirimidir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeni kullanıcı arabiriminde yeni kullanıcı deneyimleri sunmak için çalışıyoruz.             |
 | **Başka bir özellik ile değiştirildi?**   | *Gelişmiş görünümler* adlı yeni kullanıcı arabirimi eski kullanıcı arabiriminin yerini aldı.            |
@@ -397,7 +400,7 @@ Veri yönetimindeki standart kullanıcı arabirimi, veri yönetimi çalışma al
 
 Bu vergiler Hindistan GST içine eklendi.
 
-|                                             |                                                                         |
+|  &nbsp;                                           |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Kullanımı sonlandırma veya kaldırma nedeni**       | Bu vergiler Hindistan GST içine eklendi.                          |
 | **Başka bir özellik ile değiştirildi?**            | Hindistan GST                                                              |
@@ -407,7 +410,7 @@ Bu vergiler Hindistan GST içine eklendi.
 
 ### <a name="file-validation-utility-fvu-for-india"></a>Hindistan için Dosya Doğrulama Yardımcı Programı (FVU)
 
-|                                             |                                                                         |
+|              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Kullanımı sonlandırma veya kaldırma nedeni**       | Müşteri kullanım eksikliği                                                  |
 | **Başka bir özellik ile değiştirildi?**            | Hayır                                                                      |
@@ -419,7 +422,7 @@ Bu vergiler Hindistan GST içine eklendi.
 
 Kullanıcılar bu formu resmi devlet portalından indirebilir.
 
-|                                             |                                                                         |
+|             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Kullanımı sonlandırma veya kaldırma nedeni**       | Müşteri kullanım eksikliği                                                  |
 | **Başka bir özellik ile değiştirildi?**            | Hayır                                                                      |
@@ -430,7 +433,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 ### <a name="exportimport-exim-incentive-scheme-for-india"></a>Hindistan için ihracat/ithalat (EXIM) girişimi şeması
 
 
-|                                             |                                                                         |
+|              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Kullanımı sonlandırma veya kaldırma nedeni**       | Müşteri kullanım eksikliği                                                  |
 | **Başka bir özellik ile değiştirildi?**            | Hayır                                                                      |
@@ -444,7 +447,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 ### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
 15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Ürün önerilerine genel bakış](../../../commerce/product-recommendations.md).  
 
-|   |  |
+|  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz.  |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
@@ -459,7 +462,7 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 
 Muhasebe ve raporlama para birimleri için para birimi dönüştürme, avro çıktığı zaman kullanıma sunulmuştur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tüzel kişilik kopyalama işlevselliğinin bir değişiklik olarak sınırlı kullanımı ve eklenmesi.      |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır, ancak Tüzel kişilik kopyalama ve Yapılandırmalar özellikleri, temel gereksinimlerini değiştiren bir şirkete taşımayı kolaylaştırmak için eklendi. |
@@ -471,7 +474,7 @@ Muhasebe ve raporlama para birimleri için para birimi dönüştürme, avro çı
 
 Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir. Bu bileşen artık Finance and Operations'da desteklenmiyor. Kullanıcı deneyimini iyileştiren bir yerel uygulama, WMDP'nin işlevinin yerini almıştır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik.       |
 | **Başka bir özellikle mi değiştirildi?**   | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşullar hakkında daha fazla bilgi için bkz. [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
@@ -483,7 +486,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 
 Bir mutabakat kuralı, belgeler el ile mutabakat çalışma sayfasında eşleştirildiğinde bir banka belgesini seçmek ve işaretlemek için kullanılmıştır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Sınırlı kullanım.                                                                         |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Sütun filtreleme yetenekleri, mutabakat için belgeleri bulmakta kullanılmalıdır. |
@@ -497,7 +500,7 @@ Bir mutabakat kuralı, belgeler el ile mutabakat çalışma sayfasında eşleşt
 
 Consejo Superior Bancario ödeme biçimleri, müşteri ödemeleri ve satıcı ödemeleri için havale dosyalarını bankaya göndermek amacıyla kullanılıyordu. Bu biçimlerin içeriği Asociación Española de Banca tarafından belirlenmiştir. Cuaderno 19, 32, 58, 34'ü kapsar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                                  |
 | **Başka bir özellik ile değiştirildi?**   | Evet, İspanya için ISO20022 Alacak transferi ve Otomatik ödeme biçimleri |
@@ -508,7 +511,7 @@ Consejo Superior Bancario ödeme biçimleri, müşteri ödemeleri ve satıcı ö
 
 Litvanya için banka ödeme transferleri, Ödeme transferi (LT) dışa aktarma biçimi kullanarak oluşturuluyor ve yazdırılıyordu. Litvanya pazarı 2005'te birleştirilmiş elektronik bankacılık sistemi olan LİTAS'ı kullanmaya başladı.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Litvanya için ISO20022 Alacak transferi ödeme biçimi     |
@@ -519,7 +522,7 @@ Litvanya için banka ödeme transferleri, Ödeme transferi (LT) dışa aktarma b
 
 BBS Direkte Remittering ödeme biçimleri, müşteri ödeme tahsilatını dışa aktarmayı (otomatik ödeme) ve geri dönen iletiyi içe aktarmayı içerir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.  |
 | **Başka bir özellik ile değiştirildi?**   | Norveç için AvtaleGiro müşteri ödeme biçimi otomatik ödeme iletileri oluşturmak için kullanılabilir. Geri dönen iletiyi içe aktarma gelecek sürümlerde uygulanacaktır. |
@@ -530,7 +533,7 @@ BBS Direkte Remittering ödeme biçimleri, müşteri ödeme tahsilatını dışa
 
 Bu araç, İspanya'da bir hesap planında büyük değişiklikler yapılması gerektiğinde kullanılır. Kullanıcılar Microsoft Excel'de veya metin biçiminde yeni bir hesap planını ve ayrıca mali tabloları içe aktarabilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Sınırlı kullanım                                                  |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                             |
@@ -541,7 +544,7 @@ Bu araç, İspanya'da bir hesap planında büyük değişiklikler yapılması ge
 
 Ödeme tahsilatı (otomatik ödeme) için eski Belçika ödeme biçimi.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                          |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Belçika için ISO 20022 Otomatik ödeme biçimi         |
@@ -552,7 +555,7 @@ Bu araç, İspanya'da bir hesap planında büyük değişiklikler yapılması ge
 
 DTA/EZAG biçimleri, referans numarası ile ilişkili oldukları için ESR sistemine tümleştirilmiştir. Referans numarası zorunlu olmadığından bu biçimler her türlü satıcı ödemesini işlemek için kullanılabilir. Bu biçimler “Postfinance” dışında bir konumda banka hesabı bulunan şirketler tarafından kullanılır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, İsviçre için ISO20022 Alacak transferi ödeme biçimi   |
@@ -563,7 +566,7 @@ DTA/EZAG biçimleri, referans numarası ile ilişkili oldukları için ESR siste
 
 Ödeme tahsilatı (otomatik ödeme) için EDIFACT-DIRDEB ödeme biçimi.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                          |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Avusturya için ISO 20022 Otomatik ödeme biçimi         |
@@ -574,7 +577,7 @@ DTA/EZAG biçimleri, referans numarası ile ilişkili oldukları için ESR siste
 
 EDIVAT güvenli posta yoluyla elektronik beyanname için geçersiz bir Belçika standardıdır. Dynamics AX 2012 geçmiş verilerine erişim sağlamak için salt okunur çözüm içerir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İşlev artık kullanılmamaktadır.                           |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                             |
@@ -585,7 +588,7 @@ EDIVAT güvenli posta yoluyla elektronik beyanname için geçersiz bir Belçika 
 
 eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan uluslararası UN EDIFACT CREMUL (Birden Fazla Alacak Dekontu İletisi) standardını temel alır. Dynamics AX içinde eGiro bir müşterinin ödemesi içe aktarma biçimi olarak kullanılır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 bildirimi içe aktarması. |
@@ -596,7 +599,7 @@ eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan ulus
 
 Satınalma olmadan satış için bir satıcıdan alınan malların kanıtı. Dış stokta işlenen mallar standart stoğu etkilemez, satılabilir ve ardından otomatik olarak satın alınabilir. Bu işlem gerçek stok hareketleri oluşturur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Başka bir özellik ile değiştirildi                                    |
 | **Başka bir özellik ile değiştirildi?**   | Evet, çekirdek Gelen konsinye işlevselliği                |
@@ -607,7 +610,7 @@ Satınalma olmadan satış için bir satıcıdan alınan malların kanıtı. Dı
 
 Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlarına veri dışa aktarmak için bir araç kullanılır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Sınırlı kullanım                                                                            |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Araç gelecekteki sürümlerde Elektronik raporlama yapılandırmaları ile değiştirilecektir. |
@@ -618,7 +621,7 @@ Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlar�
 
 Finlandiya ödemelerinde müşteri ödeme hareketlerini banka tarafından sağlanan harici bir dosyadan içe aktarmak için bir içe aktarma biçimi seçebilirsiniz.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 bildirimi içe aktarması. |
@@ -629,7 +632,7 @@ Finlandiya ödemelerinde müşteri ödeme hareketlerini banka tarafından sağla
 
 Muhasebe hareketlerini genel muhasebeye içe aktarmak için Finlandiya'ya özgü bir biçim kullanılır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                                                     |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.053 banka ekstresi gelişmiş banka mutabakatını kullanarak içe aktarma. |
@@ -640,7 +643,7 @@ Muhasebe hareketlerini genel muhasebeye içe aktarmak için Finlandiya'ya özgü
 
 Isabel, elektronik bankacılık için Avrupa'daki çerçevedir ve Belçika'da fiili bir standarttır.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Isabel istemcisi ile tümleştirme kaldırıldı.   |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Belçika için artık kullanılmayan ödeme biçimleri, ISO20022 Alacak transferi ödeme biçimi ile değiştirildi. |
@@ -651,7 +654,7 @@ Isabel, elektronik bankacılık için Avrupa'daki çerçevedir ve Belçika'da fi
 
 Bu özellik, İspanya için hesap planında ve muhasebe kurallarındaki değişiklikler için kullanılır. Eski hesap planını yeni hesap planına dönüştürmeye yardımcı olmak için hesapları eşler ve farklı hesap numaralarına nakledilseler bile önceki mali yıl ile yeni mali yılı karşılaştırır.
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Sınırlı kullanım                                                  |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                             |
@@ -662,7 +665,7 @@ Bu özellik, İspanya için hesap planında ve muhasebe kurallarındaki değişi
 
 Alacak transferleri için eski İtalyan ödeme biçimi.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimi artık kullanılmamaktadır.                          |
 | **Başka bir özellik ile değiştirildi?**   | Evet, İtalya için ISO20022 Alacak transferi ödeme biçimi         |
@@ -673,7 +676,7 @@ Alacak transferleri için eski İtalyan ödeme biçimi.
 
 Telehansa ve Teleservice biçimleri banka ödemesi dışa aktarımı için kullanılır.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Estonya için ISO20022 Alacak transferi ödeme biçimi       |
@@ -684,7 +687,7 @@ Telehansa ve Teleservice biçimleri banka ödemesi dışa aktarımı için kulla
 
 Ödeme dosyaları oluşturulduğunda dosya arşivi, dosyalar önceden yazılmış veya okunmuş olsalar bile oluşturulan tüm dosyaları otomatik olarak arşivler.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Başka bir özellik ile değiştirildi                                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Arşivlenen elektronik raporlama işleri                            |
@@ -695,7 +698,7 @@ Telehansa ve Teleservice biçimleri banka ödemesi dışa aktarımı için kulla
 
 Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanılır.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                                                    |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, ISO20022 CAMT.054 banka bildirimi içe aktarması. |
@@ -706,10 +709,10 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 
 İnsan Kaynakları bordro bilgileri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlevin yerini temel Bordro ve İnsan Kaynakları sayfaları almıştır.  |
-| **Başka bir özellik ile değiştirildi?**   | **Avantajlar**, **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** \> **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
+| **Başka bir özellik ile değiştirildi?**   | **Avantajlar** , **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** \> **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
 | **Etkilenen ürün alanları**         | İnsan kaynaklarını, Bordro   |
 | **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
 
@@ -717,7 +720,7 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 
 Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile tümleştirmeyi içerir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi yeniden tasarlanmıştır ve hedef sayfalarının sayısı işlemi basitleştirecek şekilde azaltılmıştır.                 |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Hedefler yöneticiler tarafından Yönetici Self Servis portalından görülebilir, değiştirilebilir ve görüntülenebilir. |
@@ -728,7 +731,7 @@ Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile t
 
 İsveç için Postgirot ve Postgirot Utland ödeme biçimleri.
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, İsveç için ISO20022 Alacak transferi ödeme biçimi        |
@@ -739,7 +742,7 @@ Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile t
 
 Radyo Frekans Kimlik Belirleme (RFID), kimlik bilgilerini saklamak için elektronik etiket kullanan ve okuyucunun kimlik saptama verisini yakalaması için doğrudan yöneltmeye gerek duymayan bir veri toplama teknolojisidir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük müşteri kullanımı ve sınırlı özellik kümesi.   |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                              |
@@ -750,7 +753,7 @@ Radyo Frekans Kimlik Belirleme (RFID), kimlik bilgilerini saklamak için elektro
 
 Letonya mevzuatı satış faturalarının numaralandırılması hakkında belirli kurallar sağlar. İşlev, kullanıcı veya kullanıcı grubuna göre satış faturalarına belirli numaralar atamanızı sağlar. Ardından bir rapor veya bir XML dosyası oluşturabilirsiniz. Ayrıca, kullanılan fatura numaraları hakkında bir rapor yazdırabilirsiniz.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Artık fatura numarasının belirtilmesinin saklanması gerekmez. Kullanılan fatura numaraları hakkında rapor artık gerekli değildir. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır       |
@@ -761,7 +764,7 @@ Letonya mevzuatı satış faturalarının numaralandırılması hakkında belirl
 
 Yönetici adları ve şirketin genel muhasebesi şirket bilgilerinde belirtilebilir ve farklı yerel rapor çıktılarında kullanılabilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Başka bir özellik ile değiştirildi                                     |
 | **Başka bir özellik ile değiştirildi?**   | Evet, yetkililer kurulumu aynı amaç için kullanılabilir.   |
@@ -770,7 +773,7 @@ Yönetici adları ve şirketin genel muhasebesi şirket bilgilerinde belirtilebi
 
 ### <a name="shipping-carrier-interface"></a>Sevkiyat taşıyıcısı arabirimi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik   |
 | **Başka bir özellik ile değiştirildi?**   | Kısmen Taşıma yönetimiyle değiştirildi |
@@ -781,7 +784,7 @@ Yönetici adları ve şirketin genel muhasebesi şirket bilgilerinde belirtilebi
 
 Telepay ödeme biçimleri, satıcı ödemesi dışa aktarımını (alacak transferi) ve müşteri ödeme tahsilatını (otomatik ödeme) içerir.
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                                                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, ISO20022 kredi transfer ödeme biçimi ve Norveç için AvtaleGiro müşteri ödeme biçiminin yanı sıra pain.002 ve camt.054 banka bildirimi geri alma dosyalarını içe aktarma. |
@@ -792,7 +795,7 @@ Telepay ödeme biçimleri, satıcı ödemesi dışa aktarımını (alacak transf
 
 Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Yurtiçi ödemeleri için kullanılan LM02 (FI) ve yurtdışı ödemeleri için kullanılan LUM2 (FI).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ödeme biçimleri artık kullanılmamaktadır.                        |
 | **Başka bir özellik ile değiştirildi?**   | Evet, Finlandiya için ISO20022 Alacak transferi ödeme biçimi       |
@@ -801,7 +804,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 ### <a name="warehouse-management-ii"></a>Ambar yönetimi II
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | **Stok yönetimi** modülündeki Ambar Yönetimi II çözümü (WMS II) Dynamics AX 2012 R3'de yayımlanmış olan **Ambar yönetimi** modülündeki işlevleri tekrarlar.                                                                         |
 | **Başka bir özellikle mi değiştirildi?**   | AX 2012 R3, Dynamics AX 2012 R3 CU8 ve Dynamics AX 2012 R3 CU9'da yayınlanmış olan **Ambar yönetimi** modülü, Ambar yönetimi II özelliklerinin yerini almıştır. Yeni modül Ambar yönetimi II'dekinden daha gelişmiş özelliklere ve daha esnek ambar yönetim süreçlerine sahiptir. |
@@ -812,7 +815,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 İnsan Kaynakları bordro bilgileri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım                                                           |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                                  |
@@ -823,7 +826,7 @@ Finlandiya için ödemeleri dışa aktarmak üzere iki biçim kullanılabilir. Y
 
 Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim işleminin düzenlenmesine yardımcı olan birkaç iş akışından biridir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi Finance and Operations içerisinde tümüyle baştan tasarlanmıştır.     |
 | **Başka bir özellikle mi değiştirildi?**   | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
@@ -835,7 +838,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Satıcı faturasında yapılan değişiklikleri iptal yeteneği
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Performans geliştirmesi        |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                             |
@@ -846,7 +849,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak gösterilen iş mantığı üzerinden dış sistemlerle değiştirilebilir. Dynamics AX, .NET Business Connector (AxBC) ve belgelere dayanan hizmetleri içerir. Bir belge, XML kullanılarak oluşturulur. XML, bir *ileti* oluşturmak için eklenen ve Dynamics AX içine veya dışına transfer edilebilen üstbilgi bilgilerini içerir. Belgelerin örnekleri satınalma siparişleri ve satış siparişlerini içerir. Ancak, bir müşteri gibi hemen hemen her varlık, bir belge tarafından temsil edilebilir. Belgelere dayanan hizmetler **Axd \<Document\>** sınıflarını kullanır.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | AIF ve AxDs mimarileri bir bulut hizmetine ölçeklenmiş değildirler. Toplu alma etrafında performans sorunları vardı.                                        |
 | **Başka bir özellik ile değiştirildi?**   | Bu özelliğin yerini tekrar eden toplu içe aktarma/dışa aktarma işlemlerini destekleyen, Veri İçe Aktarma/Dışa Aktarma çerçevesi almıştır. AxBC için gerçek tabloları kullanmanızı öneririz. |
@@ -857,7 +860,7 @@ Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak g
 
 Faturalama kodları, faturalama kodları için faturalama oranlarını hesaplamakta kullanılır. Bu kodlar, C Sharp veya Visual Basic programlama dillerinde özel geliştirme gerektirmekte. Dynamics AX'in güncel sürümünde, **faturalama kodu oran komut dosyaları** desteklenmemektedir.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Özel C Sharp veya Visual Basic komut satırları için destek, Dynamics AX 7.0'a eklenmemişti. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır                                                                                      |
@@ -868,7 +871,7 @@ Faturalama kodları, faturalama kodları için faturalama oranlarını hesaplama
 
 **BOM sürümleri** yapılandırma anahtarı devre dışı bırakıldığında, ürün reçetesi (BOM) sürümleri tüm formlarda gizleniyordu ve sistem serbest bırakılan ürünler ve ürün reçeteleri arasında bir 1:1 ilişkisini zorluyordu. **BOM sürümleri** yapılandırma anahtarı, Dynamics AX'in geçerli sürümünde devre dışı bırakılamaz.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ürün reçetesi sürümlerini denetlemek için konfigürasyon anahtarı kullanmak bir bulut ortamında ölçeklendirilemez. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                                                      |
@@ -879,7 +882,7 @@ Faturalama kodları, faturalama kodları için faturalama oranlarını hesaplama
 
 Brezilya şirketleri için belirli ödeme yöntemi
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Brazilian Bordero ödeme yöntemi için destek Brezilya yerelleştirmesinden kaldırılmıştır |
 | **Başka bir özellik ile değiştirildi?**   | Hayır   |
@@ -890,7 +893,7 @@ Brezilya şirketleri için belirli ödeme yöntemi
 
 ICMS vergisi için federal vergi ekstresi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu ekstre bazı Brezilya eyaletlerinde artık kullanılmamaktadır. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Kullanıcılar Genel Elektronik raporlama aracını belirli durumlarda gerektiğinde ekstreyi yapılandırmak için kullanabilir. |
@@ -901,7 +904,7 @@ ICMS vergisi için federal vergi ekstresi
 
 (SCAN) yedeği ortamı, Secretaria da Fazenda (SEFAZ) ortamı kullanılabilir olmadığında bir Nota Fiscal eletrônica (NF-e) durumunu oluşturmak, dışa aktarmak ve içe aktarmak için kullanılır.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu yedek yöntem, Brezilya eyaletlerinin tamamında artık geçersizdir |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                                                          |
@@ -912,7 +915,7 @@ ICMS vergisi için federal vergi ekstresi
 
 Bu mobil uygulama kullanıcıların anahtar iş ölçümlerini gözden geçirmelerini sağlar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir.   |
 | **Başka bir özellik ile değiştirildi?**   | Microsoft Power BI için Finansal performans içeriği izleme paketi, daha önce Business Analyzer'da bulunan önemli mali ölçümleri içerecektir. |
@@ -923,7 +926,7 @@ Bu mobil uygulama kullanıcıların anahtar iş ölçümlerini gözden geçirmel
 
 Kuruluşun performansını analiz etmenize yardımcı olabilecek iş istatistiği sorgularının kurulumu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İş zekasına (BI) eski yaklaşım, düşük müşteri kullanımı ve sınırlı özellik kümesine |
 | **Başka bir özellikle mi değiştirildi?**   | Dynamics AX'in geçerli sürümü için yeni BI çözümleri                                      |
@@ -932,7 +935,7 @@ Kuruluşun performansını analiz etmenize yardımcı olabilecek iş istatistiğ
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Fatura onay günlüğündeki belge tarihi değiştirme işlevi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım                                                               |
 | **Başka bir özellik ile değiştirildi?**   | Evet. Deftere nakledilen satıcı hareketi üzerindeki belge tarihi değiştirilebilir. |
@@ -941,7 +944,7 @@ Kuruluşun performansını analiz etmenize yardımcı olabilecek iş istatistiğ
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>Hollanda için ClieOp03 ödeme biçimi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Biçim, artık tek Euro ödemeleri alan (SEPA) işlevi tarafından değiştirildiğinden, Hollanda'da artık geçerli değildir. |
 | **Başka bir özellik ile değiştirildi?**   | SEPA ödemeleri dışa aktarımı  |
@@ -952,7 +955,7 @@ Kuruluşun performansını analiz etmenize yardımcı olabilecek iş istatistiğ
 
 Uyumluluk Merkezi, Sarbanes-Oxley Yasası ilgili uyumluluk girişimleriyle belgelerine gereksinimlerini yönetmek kullanılan bir Kurumsal Portal sitesiydi.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Müşteri kullanım eksikliği. Microsoft SharePoint Uyumluluk Merkezi'nde sunulmuş olanlarla aynı özellikleri içerir. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır   |
@@ -963,7 +966,7 @@ Uyumluluk Merkezi, Sarbanes-Oxley Yasası ilgili uyumluluk girişimleriyle belge
 
 Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamalarına tümleştirmek için kullanıldı.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir. |
 | **Başka bir özellikle mi değiştirildi?**   | Common Data Service                                      |
@@ -972,7 +975,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Eldeki konteyner birimi ve çoklu boyut
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik |
 | **Başka bir özellikle mi değiştirildi?**   | Evet. AX 2012'den itibaren bu işlevin yerini konsolide toplu iş siparişleri özellik kümesi almıştır. Bu özellik kümesi konsolide eldeki görünümünü içerir. |
@@ -981,7 +984,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 
 ### <a name="cue-group-metadata"></a>İşaret Grup meta verileri
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İşaret grupları, bilgi alanında bir veya daha fazla ipucu görüntülemek için kullanılıyordu. Sınırlı kullanım vardı ve ayrıca performans kaygıları da mevcuttu çünkü bir üst formdaki değişiklik, her İşaret grubundaki her bir İşarette bir sorguya sebep oluyordu. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır      |
@@ -990,7 +993,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 
 ### <a name="cue-metadata"></a>İşaret meta verileri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İşaret meta veriler, sayma ve toplama bilgileri ile sınırlıydı.    |
 | **Başka bir özellik ile değiştirildi?**   | Döşeme meta veri modelleme için daha fazla esneklik sağlamak amacıyla kullanılmaya başlandı. Örneğin, geçerli sayma, gezinti ve anahtar performans göstergeleri (APG) modelleyebilirsiniz. Sayım döşeme meta verileri, işaret meta verilerinin doğrudan yerini almıştır. |
@@ -999,7 +1002,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 
 ### <a name="danish-check-format"></a>Danimarka çek biçimi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Danimarka çek biçimi düzeni için destek kaldırılmıştır ve rapor DK yerelleştirmeden silinmiştir. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır    |
@@ -1010,7 +1013,7 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Dynamics ERP uygulamaları
 
 Veri bölümleri, Dynamics AX veritabanındaki verinin mantıksal bir ayrımını sağlar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Veri bölümleri, veri yalıtımı sağlamak için Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Finance and Operations kurulumu ile daha iyi işlenebileceğine inanırız. |
 | **Başka bir özellikle mi değiştirildi?**   | Veritabanı düzeyinde ayırma önemli bir sorunsa, veri bölümleri kullanan müşterilerin birden çok Finance and Operations kurulumu kullanması gerekir.    |
@@ -1022,7 +1025,7 @@ Veri bölümleri, Dynamics AX veritabanındaki verinin mantıksal bir ayrımın�
 
 Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depolanmasına izin vermekteydi. Bu seçeneklerin her ikisi de artık desteklenmiyor.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dosya paylaşım depolaması, bulutta barındırılan ortamlar yerel dosya paylaşımlarıyla iletişim kuramadığı için artık desteklenmiyor. Veritabanı depolama, Azure Blob depolama kullanıldığından kullanım dışı bırakıldı. Azure Blob depolama, veritabanında depolamaya eşdeğerdir çünkü belgeler yalnızca Finance and Operations istemci formları üzerinden erişilebilir. Bu, veritabanı performansını olumsuz etkilemeyen depolama sağlama faydasını sunar. Blob depolama, Belge Yönetimi için varsayılan mekanizmadır ve hemen çalışır. |
 | **Başka bir özellik ile değiştirildi?**   | Veritabanı depolama, Azure Blob depolama kullanıldığından kullanım dışı bırakıldı.   |
@@ -1031,7 +1034,7 @@ Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depolanmasına
 
 ### <a name="delimitation"></a>Sınırlandırma
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İşlev için kullanım bulunamadı. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                     |
@@ -1040,7 +1043,7 @@ Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depolanmasına
 
 ### <a name="desktop-client"></a>Masaüstü istemcisi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics AX İstemci deneyimi, platformlar ve aygıtlar üzerinde kullanılabilirliğini artırmak için tasarlanmıştır.                      |
 | **Başka bir özellik ile değiştirildi?**   | Yeni web istemci masaüstü formu meta verileri ve zengin web platformu sunmak için değiştirilmiş programlama modeline dayanır. |
@@ -1051,7 +1054,7 @@ Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depolanmasına
 
 Dynamics AX 2012 R3 içerisinde, Retail Modern POS , Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Retail Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Doğrudan veritabanı bağlantısı, daha düşük güvenlik protokolleri gerektirdi ve öncelikli olarak en yüksek seviye performansı elde etmek için kullanıldı. Finance and Operations içerisinde gerçekleşen performans ve güvenlik geliştirmeleri yüzünden, bu işlev artık çözdüğünden daha fazla soruna neden olmaktadır. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Artık yalnızca standart Perakende Sunucu iletişimi desteklenmektedir.  |
@@ -1060,7 +1063,7 @@ Dynamics AX 2012 R3 içerisinde, Retail Modern POS , Kanal Veritabanına, Kurulu
 
 ### <a name="dutch-swift-mt940"></a>Felemenkçe SWIFT MT940
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yerelleştirilmiş işlevsellik yerine artık genel işlevler kullanılır.                    |
 | **Başka bir özellik ile değiştirildi?**   | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. |
@@ -1071,7 +1074,7 @@ Dynamics AX 2012 R3 içerisinde, Retail Modern POS , Kanal Veritabanına, Kurulu
 
 Bu işlev Alman eBilanz taksonomisi için özel olarak tasarlanmış olan Genişletilebilir İş Raporlama Dili (XBRL) çıkışı sağlamaktaydı.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Müşteri kullanım eksikliği  |
 | **Başka bir özellik ile değiştirildi?**   | Bu özelliğin yerini bir başkası almadı ancak Almanya pazarı için zengin XBRL işlevselliği sağlayan birden çok özelleşmiş XBRL paketi sunulmuştur. |
@@ -1080,7 +1083,7 @@ Bu işlev Alman eBilanz taksonomisi için özel olarak tasarlanmış olan Geniş
 
 ### <a name="enterprise-portal-client"></a>Kurumsal Portal istemcisi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bir tek istemci platformu sağlandı.  |
 | **Başka bir özellik ile değiştirildi?**   | Yeni web istemci masaüstü formu meta verileri ve zengin web platformu sunmak için değiştirilmiş programlama modeline dayanır. |
@@ -1089,7 +1092,7 @@ Bu işlev Alman eBilanz taksonomisi için özel olarak tasarlanmış olan Geniş
 
 ### <a name="environmental-sustainability"></a>Ortam sürdürülebilirliği
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük müşteri kullanımı ve sınırlı özellik kümesi  |
 | **Başka bir özellik ile değiştirildi?**   | Hayır              |
@@ -1098,7 +1101,7 @@ Bu işlev Alman eBilanz taksonomisi için özel olarak tasarlanmış olan Geniş
 
 ### <a name="form-activex-and-managed-host-controls"></a>Form ActiveX ve yönetilen konak denetimleri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | ActiveX ve yönetilebilir konak denetimleri artık kullanılmayan masaüstü istemciyi temel alır. |
 | **Başka bir özellik ile değiştirildi?**   | Genişletilebilir denetim çerçevesi HTML, CSS ve JavaScript'e dayanan yeni denetimleri oluşturmayı destekler ve Microsoft Visual Studio Tooling ortamındaki birinci sınıf bir denetimdir. |
@@ -1109,7 +1112,7 @@ Bu işlev Alman eBilanz taksonomisi için özel olarak tasarlanmış olan Geniş
 
 Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir kullanıcı tarafından yapılabilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Toplu iş kullanılarak oluşturulduğunda, ortaya çıkan açık provizyon dosyasını ısrar edip görüntülemek için form bulunmamaktadır. |
 | **Başka bir özellik ile değiştirildi?**   | Açık provizyonlar hala oluşturulabilir ve kullanıcı dosyanın kaydedildiği yeri denetleyebilir.   |
@@ -1118,7 +1121,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Almanca DTAUS ödeme dışa aktarma ve hesap ekstresi içeri alma (toplamları ve hareketler)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Biçim, artık tek Euro ödemeleri alan (SEPA) işlevi tarafından değiştirildiğinden, Almanya'da artık geçerli değildir.                    |
 | **Başka bir özellik ile değiştirildi?**   | Evet, bu özelliğin yerini SEPA ödeme dışa aktarma ve hesap ekstrelerini içeri aktarma için gelişmiş banka mutabakatı işlevi aldı. |
@@ -1127,7 +1130,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Yurtiçi para biriminde Alman DTAZV ödeme biçimi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Biçim, artık tek Euro ödemeleri alan (SEPA) işlevi tarafından değiştirildiğinden, Almanya'da artık geçerli değildir. |
 | **Başka bir özellikle mi değiştirildi?**   | SEPA ödemeleri dışa aktarımı    |
@@ -1136,7 +1139,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="german-mt940-import"></a>Almanca MT940 içe aktarımı
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yerelleştirilmiş işlevsellik yerine artık genel işlevler kullanılır.                    |
 | **Başka bir özellik ile değiştirildi?**   | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. |
@@ -1145,7 +1148,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="german-xml-eu-sales-list"></a>Alman XML AB Satışlar listesi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Almanca AB Satış Listesi raporlaması için XML biçimi artık desteklenmiyor. Alman Vergi Dairesi'ne AB Satış Listesi raporunu göndermek için yalnızca ELMA5 metin dosyası biçimi kullanılabilir. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır         |
@@ -1154,9 +1157,9 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS raporları
 
-Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan**, **ayrıntılı mizan**, **hesap planı**, **denetim izi**, **bakiyeler**, ve **bakiye listesi**.
+Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan** , **ayrıntılı mizan** , **hesap planı** , **denetim izi** , **bakiyeler** , ve **bakiye listesi**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Mali Microsoft SQL Server Reporting Services (SSRS) raporlarının yeri, Management Reporter yetenekleri ve varsayılan raporlar tarafından alınmıştır. |
 | **Başka bir özellik ile değiştirildi?**   | Management Reporter (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli)    |
@@ -1165,7 +1168,7 @@ Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan**, 
 
 ### <a name="infopart-and-formpart-metadata"></a>InfoPart ve FormPart meta verileri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | InfoPart ve FormPart meta verileri, iki farklı istemci için bilgi kutularının oluşturulması sağlardı. |
 | **Başka bir özellik ile değiştirildi?**   | Basitleştirilmiş form tanımı olan InfoPart meta verileri, forma yükseltme araç kullanımı tarafından dönüştürülür. Bir forma referans gösteren FormPart meta verileri, yükseltme araçları tarafından daha doğrudan bir referans ile değiştirildi. |
@@ -1176,10 +1179,10 @@ Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan**, 
 
 Tüzel kişilik ve ilgili bakiye bilgilerini hesapların listesi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bakiye bilgisi **Mizan** liste sayfasında hesap ve boyut olarak bulunabilir.  |
-| **Başka bir özellik ile değiştirildi?**   | **Ana hesaplar**,**Ana hesap** sayfasında yer alan hesapların listesinin aynısını içerir. **Ana hesaplar**'daki ızgara görünümü daha da küçük ızgaraya benzer bir görünümü gösterir. |
+| **Başka bir özellik ile değiştirildi?**   | **Ana hesaplar** , **Ana hesap** sayfasında yer alan hesapların listesinin aynısını içerir. **Ana hesaplar** 'daki ızgara görünümü daha da küçük ızgaraya benzer bir görünümü gösterir. |
 | **Etkilenen ürün alanları**         | Genel muhasebe      |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.    |
 
@@ -1187,7 +1190,7 @@ Tüzel kişilik ve ilgili bakiye bilgilerini hesapların listesi
 
 Seçili banka hesapları için belirli bir tarih aralığındaki hareketlerin nakit giriş ve çıkış ayrıntılarını gösteren bir nakit akış raporu kullanıcı tarafından yazdırılabilir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Aynı bilgileri sorgulama banka hareketinden de elde edilebilir. |
 | **Başka bir özellik ile değiştirildi?**   | Sorgulama banka hareketi                                            |
@@ -1198,7 +1201,7 @@ Seçili banka hesapları için belirli bir tarih aralığındaki hareketlerin na
 
 Bu özellik, şirketin faturayı hükümetten ilgili izni isteyerek imzaladığı Comprobante Fiscal Digital (CFD) yöntemini kullanarak Meksika elektronik fatura oluşturmayı etkinleştirir. Bu özellik ayrıca bir dönemde çıkarılan tüm elektronik faturaları içeren aylık bir rapor sunar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yöntemi artık geçerli değil. CFG yöntemini kullanarak elektronik faturaların oluşturulması vergi otoriteleri tarafından kaldırılıp yerine imzalamanın üçüncü taraf bir sağlayıcıya (PAC) devredildiği Comprobante Fiscal Digital a través de Internet (CFDI) metodu getirilmiştir. Aylık rapor kaldırıldı ve kullanıcıların geçmiş hareketler hakkında bilgi alması için sorgu seçeneği geliştirildi. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır    |
@@ -1209,7 +1212,7 @@ Bu özellik, şirketin faturayı hükümetten ilgili izni isteyerek imzaladığ�
 
 Dynamics AX 2012, gerçekleşmemiş katma değer vergisini (KDV) Meksika'ya özgü gerçekleşmemiş vergi işlevini kullanarak yönetiyordu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Tekrar eden işlevsellik  |
 | **Başka bir özellik ile değiştirildi?**   | Evet, bu işlevin yerini Çekirdek tarafından sağlanan standart koşullu satış vergisi işlevleri aldı. |
@@ -1219,7 +1222,7 @@ Dynamics AX 2012, gerçekleşmemiş katma değer vergisini (KDV) Meksika'ya özg
 ### <a name="microsoft-outlook-integration"></a>Microsoft Outlook tümleştirmesi
 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev Microsoft Exchange Server tümleştirmesi ile değiştirilmiştir. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet                                                                            |
@@ -1230,7 +1233,7 @@ Dynamics AX 2012, gerçekleşmemiş katma değer vergisini (KDV) Meksika'ya özg
 
 Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak işaretleme özelliğini artık desteklememektedir. Yalnızca kullanıcı grupları için özel olarak günlükleri engelleme ve düzenleme sırasında engelleme işlemi desteklenir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | İşlev için kullanım bulunamadı. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                     |
@@ -1241,7 +1244,7 @@ Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak 
 
 Ürün Oluşturucu, bir satış siparişi, satınalma siparişi, üretim emri, satış teklifi, proje teklifi veya madde gereksinimi öğelerinden dinamik olarak ürün yapılandırmak için kullanılıyordu. Model oluşturma değişkenleri olan bir ürün modeline bağlı olarak, kullanıcı, müşteri gereksinimlerini karşılamak için bir ürün reçetesi ve rotası olan benzersiz bir ürün çeşidi sağlamak için değerler seçebiliyordu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Ürün Oluşturucu X ++ kodunu son kullanıcılara yansıtıyordu ve Dynamics AX'ın geçerli sürümünde desteklenmiyor. Büyük ve kesişen kod tabanlarında sürdürme çabalarının ikiye katlanmaması için kaldırıldı.  |
 | **Başka bir özellik ile değiştirildi?**   | Evet. Kısıtlama tabanlı yapılandırma Dynamics AX 2012'de sunuldu ve Ürün oluşturucunun gelecekteki sürümlerde kullanımdan kaldırılacağı zaten açıklandı. Kısıtlama tabanlı yapılandırma teknolojisi yapılandırmayı etkinleştirmek ana ürünlerde seçilir. Daha fazla bilgi için bkz. [Ürün yapılandırmaya genel bakış](../../../supply-chain/pim/build-product-configuration-model.md). |
@@ -1251,7 +1254,7 @@ Stok ve Ambar günlükleri, günlüğün seçili kullanıcı için özel olarak 
 ### <a name="production-floor-app"></a>Üretim Katı uygulaması
 Bu uygulama, Windows 8.1 RT ve Windows 8.1 Pro çalıştıran tablet cihazlar için uygundur.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bir web tabanlı istemciye geçiş ile, yerel Dynamics AX 7.0 istemcisi aracılığıyla benzer işlevselliği sunmak mümkündür. İş Kartı Cihazı, dokunma ve tablet form faktörleri için bir üretim katı kullanıcı arabirimi sağlar. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet. İş Kartı Cihazı, Dynamics AX 7.0'ın yerel bir parçasıdır.                                                                           |
@@ -1263,7 +1266,7 @@ Bu uygulama, Windows 8.1 RT ve Windows 8.1 Pro çalıştıran tablet cihazlar i�
 
 Bu özellik, üç standart ürün boyutundan (boyut, renk veya stil) birinin adını işletme gereksinimlerinize daha iyi uygun bir adla değiştirmenize olanak sağlar. Yeniden adlandırma, ürün boyut adının kullanıldığı tüm etiketlere dahildir.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics AX geçerli sürümününde, çalıştırma sırasında etiket değişikliklerini desteklemez. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır                                                                            |
@@ -1274,7 +1277,7 @@ Bu özellik, üç standart ürün boyutundan (boyut, renk veya stil) birinin ad�
 
 Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olmayan) kullanarak işlev sağlayamıyordu. Bu, HTTPS kullanan standart iletişime ek olarak oluştu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeni güvenlik gereksinimleri nedeniyle, yalnızca TLS 1.2 (veya kullanılabilir olduğu takdirde üstü) artık desteklenmektedir. Self servis yükleyici, bilgisayarı bu iletişim için otomatik yapılandıracaktır. |
 | **Başka bir özellik ile değiştirildi?**   | Hayır. Artık yalnızca standart HTTPS iletişimi desteklenmektedir. |
@@ -1283,7 +1286,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olm
 
 ### <a name="role-center-pages"></a>Rol Merkezi sayfaları
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Rol Merkezi sayfaları, kaldırılan Enterprise Portal platformu üzerine kurulmuştu ve Dynamics AX'ın geçerli sürümünde yeni web istemci platformu tarafından yenilendi. |
 | **Başka bir özellikle mi değiştirildi?**   | Yeni çalışma alanı form düzeni kullanıcılara işlem merkezli tasarıma sahip, sık kullanılan işlemlere kolay erişim sağlayan bir işlem merkezli tasarımı sağlar.                       |
@@ -1292,7 +1295,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olm
 
 ### <a name="sales-tax-jurisdictions"></a>Satış vergi daireleri
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük müşteri kullanımı ve sınırlı özellik kümesi |
 | **Başka bir özellik ile değiştirildi?**   | Hayır                                           |
@@ -1303,7 +1306,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olm
 
 Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten web siteleri kurmanıza olanak sağlar.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics AX tarafından kullanılan Microsoft Azure altyapısı, alternatif olarak kullanılabilecek yeni özelliklere sahiptir (örneğin, Azure siteleri). |
 | **Başka bir özellik ile değiştirildi?**   | Hayır   |
@@ -1312,7 +1315,7 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 
 ### <a name="ssas-demand-forecasting-strategy"></a>SSASS talep tahmin stratejisi
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Özelliğin tasarımı yeni bulut mimarisinde desteklenemez. |
 | **Başka bir özellik ile değiştirildi?**   | Azure Makine Öğrenimi talep tahmini stratejisi                           |
@@ -1321,7 +1324,7 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Deftere nakledilen ayrıntılar hariç satıcı faturası havuzu
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım. Bu özelliğin yerini iş akışı işlevine sahip Fatura günlüğü almıştır. |
 | **Başka bir özellik ile değiştirildi?**   | Fatura günlüğünün iş akışı özellikleri.     |
@@ -1333,7 +1336,7 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 
 Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. Sanal şirketler özelliği, kullanıcılara bir dizi şirket tarafından paylaşılabilecek tablolar ayarlama olanağı sağlar. Özelliğin açıklaması için bkz. [Şirket hesapları ve Sanal şirket hesapları](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Bu özellik, tabloları, var olan "gerçek" şirketlerin grupları olan sanal şirketlere atanan koleksiyonlara gruplayarak çalışmaktadır. Sanal şirketteki tüm şirketlerin ilişkilendirilen tablo koleksiyonlarının tabloları içindeki verilere erişebileceği şekilde sorgular oluşturulur.
 
-|   |  | 
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | - Tablolarda verilerin depolanmasından önce sanal şirketlerin ayarlanmış olması gerekir. Sanal şirketleri mevcut bir uygulamaya uyarlamak oldukça güçtür.<br><br>- Dynamics AX'in geçerli sürümünde çok fazla veri normalleştirmesi olduğundan, tablo koleksiyonlarına nelerin eklenmesi gerektiğini bilmek çok zor hale geldi. Örneğin, hangi tabloların paylaşılacağını bilmek zor. Bir sanal şirketteki tablolardan referans alınan tüm tabloların da ayrıca eklenmesi gerekir. Tablo normalleştirmesi nedeniyle, çok sayıda tabloya yayılan basit master verilerin bile sanal şirketin parçası haline gelmesi gerekiyor. Burada yapılan herhangi bir hata, işlevsel sorunlara neden olur.<br><br>- Bir tablo bir sanal şirketin parçası olduğunda, veri kaynağı hakkındaki bilgiyi kaybeder ve sadece sanal şirket kaydedilir.   |
 | **Başka bir özellik ile değiştirildi?** | Tabloları tüm şirketlerden erişebilir hale getirmek için global tablolar kullanılabilir. Şu anda bir değişiklik yoktur. |   
@@ -1344,7 +1347,7 @@ Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. S
 
 Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Finance and Operations tabletler ile uyumludur. Tablet uygulaması artık gerekli değildir.    |
 | **Başka bir özellik ile değiştirildi?**   | Hayır.          |
@@ -1353,7 +1356,7 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 
 ### <a name="workplanner"></a>İş planlayıcısı
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Düşük kullanım |
 | **Başka bir özellik ile değiştirildi?**   | Hayır, ama **Profil grupları** sayfasından açılan **Profil ilişkisi** sayfası, kaldırılan **İş planlayıcısı** sayfası ile aynı iş senaryosunu destekler. |
@@ -1362,7 +1365,7 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 
 ### <a name="x-financial-statements"></a>X++ mali tablolar
 
-|                                                 |                                                                                                          |
+| &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Kullanımı sonlandırma/kaldırma nedeni</strong> |                         Bu işlev başka bir özellik ile değiştirilmiştir.                         |
 |  <strong>Başka bir özellik ile değiştirildi?</strong>  | Management Reporter (Dynamics AX'ın geçerli sürümünde <strong>finansal raporlama</strong> etiketli) |

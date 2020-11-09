@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
+ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018664"
 ---
 # <a name="onboard-vendors"></a>Satıcıları işe alma
+
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -102,7 +103,7 @@ Satıcı talebi yapılandırma hakkında daha fazla bilgi için bkz. [Satıcı i
 | Satıcı bilgileri         | Bu sayfa, orijinal aday satıcı kayıt talebinden otomatik olarak girilen satıcı adını içerir. Ayrıca kuruluş numarası, satıcının telefon numarası, faks numarası, e-posta adresi ve satıcının çeşitli amaçlarla kullanılan adreslerini içerir. |
 | İlgili kişi bilgileri | Bu sayfa, orijinal aday satıcı kayıt talebinden otomatik olarak girilen ilgili kişi adını içerir. Ayrıca ilgili kişisinin telefon numarasını, e-posta adresini ve ilgili kişinin çeşitli amaçlarla kullanılan adreslerini içerir. |
 | İş bilgileri       | Bu sayfa vergi tescil numaralarını (çeşitli ülkeler veya bölgeler için) ve çalışanların sayısını içerir. Ayrıca işletmenin azınlıklara ait olup olmadığını da belirtir. |
-| Tedarik kategorileri     | Bu sayfa satıcının onay için talep ettiği tedarik kategorilerini içerir. Kullanıcı tedarik kategorisi hiyerarşisinden kategorileri seçebilir. Hiyerarşide gösterilen düzey sayısını **Tedarik ve kaynak atama** &gt; **Kurulum** altındaki **Tedarik ve kaynak atama parametleri** &gt; **Satıcı işbirliği**'nden yapılandırabilirsiniz. |
+| Tedarik kategorileri     | Bu sayfa satıcının onay için talep ettiği tedarik kategorilerini içerir. Kullanıcı tedarik kategorisi hiyerarşisinden kategorileri seçebilir. Hiyerarşide gösterilen düzey sayısını **Tedarik ve kaynak atama** &gt; **Kurulum** altındaki **Tedarik ve kaynak atama parametleri** &gt; **Satıcı işbirliği** 'nden yapılandırabilirsiniz. |
 | Soru formları             | Sihirbaz satıcı için bir soru formu kümesi içerebilir. Sihirbazda görünen soru formları satıcı talebinde veya tedarik kategorisine göre yapılandırılır. Soru formları tedarik kategorisine göre yapılandırılırsa, satıcının onay için istediği tedarik kategorileri soru formunun sihirbazda görüntülenip görüntülenmeyeceğini belirler. **Tedarik kategorileri** sayfasında, ilgili kategori altından bir soru formu ekleyebilir ve faaliyet türünü **Satıcı işe alma** olarak ayarlayabilirsiniz. |
 
 Aday satıcı kullanıcısı satıcı kaydı sihirbazını tamamladığında, satıcı talebi oluşturulur.
@@ -111,7 +112,7 @@ Aday satıcı kullanıcısı satıcı kaydı sihirbazını tamamladığında, sa
 
 Bir satıcı talebi taslak olarak oluşturulabilir ve el ile bir iş akışına gönderilebilir. Alternatif olarak, satıcı talebi satıcı kaydı sihirbazı tamamlandığında bir iş akışına otomatik olarak gönderilebilir. Örneğin bir tedarik uzmanının talebin iş akışına gönderilmeden önce bir onay sürecine yönlendirilmesinin gerekli olup olmadığını değerlendirmek istemesi durumunda bir talep el ile gönderilebilir.
 
-- **Tedarik ve kaynak atama parametreleri** &gt; **Satıcı işbirliği**'ni ve ardından **Aday satıcı kaydını iş akışına otomatik gönder**'i seçerek, satıcı talebini satıcı kaydı sihirbazı tamamlandığında iş akışına otomatik olarak gönderilmek üzere yapılandırabilirsiniz.
+- **Tedarik ve kaynak atama parametreleri** &gt; **Satıcı işbirliği** 'ni ve ardından **Aday satıcı kaydını iş akışına otomatik gönder** 'i seçerek, satıcı talebini satıcı kaydı sihirbazı tamamlandığında iş akışına otomatik olarak gönderilmek üzere yapılandırabilirsiniz.
 
 ## <a name="vendor-requests"></a>Satıcı talepleri
 
@@ -129,7 +130,7 @@ Aşağıdaki tabloda satıcı taleplerinin sahip olabileceği durumlar gösteril
 |----------------------------|-------------|
 | Taslak                      | Satıcı talebi henüz gönderilmedi. |
 | Talep gönderildi          | Satıcı talebi gönderildi ve iş akışındaki ilk adım işleniyor. |
-| Bekleyen inceleme             | Bir iş akışı görevinde birden çok gözden geçiren varsa, bir gözden geçiren satıcı talebini gözden geçirme görevini kabul edip gözden geçirmeyi tamamlayabilir. Yalnızca bir gözden geçiren varsa, bu katılımcı gözden geçirmeyi iş akışı eyleminde **Tamamlandı**'yı seçerek tamamlayabilir. İş maddesini önceden kabul etmesi gerekmez. |
+| Bekleyen inceleme             | Bir iş akışı görevinde birden çok gözden geçiren varsa, bir gözden geçiren satıcı talebini gözden geçirme görevini kabul edip gözden geçirmeyi tamamlayabilir. Yalnızca bir gözden geçiren varsa, bu katılımcı gözden geçirmeyi iş akışı eyleminde **Tamamlandı** 'yı seçerek tamamlayabilir. İş maddesini önceden kabul etmesi gerekmez. |
 | Talep onay bekliyor   | Satıcı talebi onay için katılımcılara yönlendirilmiştir ve ek bilgi talep etme seçeneği bulunur. Ek bilgi talebi iş maddesinin yeniden gönderene yönlendirilmesine neden olur. Satıcı talebi bu durumdayken de onaylanabilir veya reddedilebilir. |
 | Başvuru değişikliği talebi | Ek bilgiler onaylayan tarafından talep edilir ve satıcı talebi satıcı talebini gönderen kişiye yönlendirilir. Gönderen gerekli bilgileri ekleyip satıcı talebini yeniden gönderebilir. Satıcı talebi yeniden gönderilirse, durum tekrar **Talep onay bekliyor** durumuna döner. |
 | Talep onaylandı           | Bu durum son durumdur. |
@@ -139,11 +140,11 @@ Aşağıdaki tabloda satıcı taleplerinin sahip olabileceği durumlar gösteril
 
 Bir satıcı talebi onaylandığında bir satıcı hesabı oluşturulur ve durum hem başlangıçtaki aday satıcı kayıt talebinde hem de satıcı talebinde **Onaylandı** olarak görüntülenir.
 
-Satıcı talebini onaylamadan önce **Yeni satıcı** sayfasında **Genel** hızlı sekmesinde, bir satıcı grubu seçmek için **Satıcı grubu**'nu seçin.
+Satıcı talebini onaylamadan önce **Yeni satıcı** sayfasında **Genel** hızlı sekmesinde, bir satıcı grubu seçmek için **Satıcı grubu** 'nu seçin.
 
 Aday satıcı kullanıcısının Supply Chain Management'a satıcıyı temsil eden satıcı işbirliği kullanıcısı olarak erişmesi gerekirse satıcı işbirliği erişimi iznini **Evet** olarak ayarlayın. Aday satıcının kayıt olmak için kullandığı kullanıcı hesabını devre dışı bırakmak için bu izni **Hayır** olarak ayarlayın.
 
-Satıcı işbirliğine erişim izni **Evet** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcının rollerini kullanıcı **Dış roller**'de **Satıcı** türü için tanımlanan rollere sahip olacak şekilde değiştirmek için bir talep gönderilir. Bu izin **Hayır** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcıyı devre dışı bırakmak için bir talep gönderilir. Bu durumda, kullanıcı talebini devre dışı bırakmak üzere bir iş akışı ayarlanması gerekir.
+Satıcı işbirliğine erişim izni **Evet** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcının rollerini kullanıcı **Dış roller** 'de **Satıcı** türü için tanımlanan rollere sahip olacak şekilde değiştirmek için bir talep gönderilir. Bu izin **Hayır** olarak ayarlanırsa, satıcı talebi onaylandığında, kullanıcıyı devre dışı bırakmak için bir talep gönderilir. Bu durumda, kullanıcı talebini devre dışı bırakmak üzere bir iş akışı ayarlanması gerekir.
 
 Satıcı talebi onaylandığında bir satıcı hesabı oluşturulması için, satıcı taleplerinden satıcılar oluşturma numara serisinin **Otomatik** olarak ayarlanması gerekir.
 

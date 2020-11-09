@@ -3,7 +3,7 @@ title: Parçalarla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta parçaları neden, ne zaman ve ne zaman kullanılacağını açıklamaktadır.
 author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961670"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019576"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
@@ -58,31 +58,27 @@ Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça 
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Varolan bir modül konfigürasyonunu parça olarak kaydet
 
-Önceden yapılandırılmış bir modülü yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
+Önceden yapılandırılmış bir modülü Commerce site oluşturucuda yeniden kullanılabilir parçaya dönüştürmek için aşağıdaki adımları izleyin.
 
 1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
 1. Sol taraftaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, önceden yapılandırılmış modülü seçin.
-1. Ana hat bölmesinde veya görsel sayfa oluşturucuda seçili modülün araç çubuğunda modül adının yanındaki üç noktayı (**...**) seçin. 
-1. **Sayfa Parçası Olarak Paylaş**'ı seçin. 
-1. **Sayfa Parçası Olarak Kaydet** iletişim kutusunda, parça için bir ad girin.
-1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
+1. Ana hat bölmesinde veya görsel sayfa oluşturucuda seçili modülün araç çubuğunda modül adının yanındaki üç noktayı ( **...** ) seçin. 
+1. **Parça olarak Paylaş** 'ı seçin. 
+1. **Parça Olarak Kaydet** iletişim kutusunda, parça için bir ad girin.
+1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam** 'ı seçin.
+<!-- The following image shows how to save a module configuration as a fragment.-->
+<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
-Aşağıdaki resimde bir modül yapılandırmasının bir parça olarak nasıl kaydedileceği gösterilmektedir.
+### <a name="create-a-new-fragment"></a>Yeni parça oluştur
 
-![Bir modül yapılandırmasının parça olarak nasıl kaydedileceği ile ilgili bir ekran yakalama](./media/save-as-fragment.png)
-
-### <a name="create-a-new-fragment"></a>Yeni bir parça oluşturun.
-
-Bir yeni parça oluşturmak için şu adımları izleyin.
+Commerce site oluşturucuda yeni parça oluşturmak için aşağıdaki adımları izleyin.
 
 1. Soldaki gezinti bölmesinde **Parçalar** seçin.
-1. **Yeni Sayfa Parçası**'nı seçin. Kullanılabilen tüm modül türlerini gösteren bir iletişim kutusu görüntülenir. Daha önce belirtildiği gibi, parçalar herhangi bir modül türünden oluşturulabilir.
+1. **Yeni** 'yi seçin. Kullanılabilen tüm modül türlerini gösteren bir **yeni parça** iletişim kutusu görüntülenir. Daha önce belirtildiği gibi, parçalar herhangi bir modül türünden oluşturulabilir.
 1. Parçanız için bir modül türü seçin.
 
-Aşağıdaki resimde, yeni bir parçanın oluşturulacağı yer gösterilmiştir.
-
-![Yeni parçanın oluşturulacağı yerin Ekran yakalaması](./media/fragment-nav-menu.png)
-
+<!-- The following image shows where to create a new fragment.-->
+<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Genel bir konteyner modülü türü seçerek parçanız daha sonra güncelleştirmeniz ve yapılandırmanız gerektiğinde en iyi esnekliği elde edebilirsiniz.
 
@@ -92,31 +88,29 @@ Aşağıdaki yordamlarda parçaların nasıl ekleneceği, kaldırılacağı ve d
 
 ### <a name="add-a-fragment"></a>Parça ekle
 
-Bir sayfaya parça eklemek için bu adımları izleyin.
+Commerce site oluşturucuda bir sayfaya parça eklemek için aşağıdaki adımları izleyin.
 
 1. Soldaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, alt modüllerin eklenebileceği bir kapsayıcı veya yuva seçin.
-1. Çevrimiçi bölmesinde kapsayıcının veya yuvanın adının yanındaki üç noktayı (**...**) seçin.  Alternatif olarak, görsel sayfa oluşturucuyu kullanıyorsanız artı simgesini (**+**) seçin.  
-1. **Parça Ekle**'yi seçin.
-
-    ![Bir yuvaya veya kapsayıcıya varolan bir parçanın nasıl ekleneceği ile ilgili bir ekran yakalama](./media/add-fragment.png)
+1. Kapsayıcının veya yuvanın adının yanındaki üç noktayı ( **...** ) seçin.  Alternatif olarak, görsel sayfa oluşturucuyu kullanıyorsanız artı simgesini ( **+** ) seçin.  
+1. **Parça Ekle** 'yi seçin.
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Bir konteyner veya yuva yeni alt modülleri desteklemiyorsa, **Parça Ekle** seçeneği kullanılamaz.
     
-1. **Parça Ekle** iletişim kutusunda, eklenecek bir parça arayıp seçin. Listelenmiş parça listelenmezse, önce seçilen konteyner veya yuvanın desteklediği bir modül türünden bir parça oluşturmanız gerekebilir.
+1. **Parça Seç** iletişim kutusunda, eklenecek bir parça arayıp seçin. Listelenmiş parça listelenmezse, önce seçilen konteyner veya yuvanın desteklediği bir modül türünden bir parça oluşturmanız gerekebilir.
 1. Seçili parça sayfanızdaki seçili konteynere veya yuvaya eklemek için istediğiniz parçayı seçin.
-
-    ![Parça seçicinin kalıcı penceresindeki Ekran yakalaması](./media/fragment-picker.png)
+<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Bir konteynerde veya bir yuvada izin verilen modüller, sayfa şablonu veya modüllerin kendi tanımları tarafından tanımlanır.
 
 ### <a name="remove-a-fragment"></a>Parça kaldırma
 
-Sayfada yuva veya konteynerden parça kaldırmak için bu adımları izleyin.
+Commerce site oluşturucuda bir sayfadaki bir yuva veya kapsayıcıdan parça kaldırmak için aşağıdaki adımları izleyin.
 
-1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta (**...**) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı görsel sayfa oluşturucu içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
-1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam**'ı seçin.
+1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta ( **...** ) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı görsel sayfa oluşturucu içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
+1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam** 'ı seçin.
 
 > [!NOTE]
 > Sayfadan bir parçayı kaldırdığınızda, yalnızca bu sayfadan gelen başvuruyu kaldırırsınız. Sitenizden parçayı **silmeyin**. Sitenizdeki parçaları silmek için, parça denetçisi Kullanıcı arabirimini (UI) kullanmanız gerekir. Bir sitedeki parçaları yalnızca herhangi bir sayfa, şablon veya başka parçalar tarafından başvurulmuyorsa silebilirsiniz.
@@ -125,7 +119,7 @@ Sayfada yuva veya konteynerden parça kaldırmak için bu adımları izleyin.
 
 Parçaları düzenlemek için, parça düzenleyici kullanıcı arabimirni kullanmalısınız. Bu kısıtlama tasarımdan kaynaklanır. Yazarların belirli bir sayfa için modülleri düzenleme işlemini, birçok sayfada paylaşılabilecek parça düzenleme işlemi ile karıştıradığından emin olmanıza yardımcı olur.
 
-Bir parça düzenlemek için şu adımları izleyin.
+Commerce site oluşturucuda bir parçayı düzenlemek için aşağıdaki adımları izleyin.
 
 1. Soldaki gezinti bölmesinde **Parçalar** seçin.
 1. **Parçalar** altında düzenlenecek parçayı seçin.

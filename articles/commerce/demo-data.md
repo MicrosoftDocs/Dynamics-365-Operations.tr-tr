@@ -1,7 +1,7 @@
 ---
 title: Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
 description: Bu konu, Dynamics 365 Commerce'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
-author: zlinster
+author: josaw1
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: zlinster
+ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 7956eece1a77951795a3f5f66067a2ecfacf3450
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014898"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
 
@@ -40,7 +40,7 @@ Commerce tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Bir ekran düzeni kodunun anatomisi
 
-Ekran düzenlerini bulmak için **Retail and Commerce** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne gidin.
+Ekran düzenlerini bulmak için **Retail and Commerce** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri** 'ne gidin.
 
 ![Ekran düzenleri sayfası](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Aşağıdaki tablo normal ekran çözünürlükleri için sağlanan düzen boyut
 \* Bu ek düzenler yalnızca Adventure Works ve Fabrikam düzenlerinde kullanılabilir.
 
 > [!TIP]
-> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne giderek bulabilirsiniz.
+> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri** 'ne giderek bulabilirsiniz.
 
 ![Commerce ve POS'taki ekran düzenleri ve düzen çözünürlükleri/boyutları](../commerce/media/demo-screen-layouts-fig-3-1.png)
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275453"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997362"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -63,7 +62,7 @@ Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
 
     <https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent>
 
-2. Kiracınıza **33976c19-1db5-4c02-810e-c243db79efde** kimliği olan uygulamayı yükleme izniniz olduğunu belirtmek için **kabul et**'i seçin.
+2. Kiracınıza **33976c19-1db5-4c02-810e-c243db79efde** kimliği olan uygulamayı yükleme izniniz olduğunu belirtmek için **kabul et** 'i seçin.
 
     > [!TIP]
     > Bu uygulama Common Data Service ve Finance and Operations uygulamalarını bağlamak için gerekli. Bu adımla ilgili sorununuz varsa, tarayıcınızı Google Chrome ya da Microsoft Edge'de gizli modunda açın.
@@ -73,7 +72,7 @@ Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
 Çift-yazmanın doğru çalışmasını sağlamak için, konfigürasyon sırasında seçtiğiniz şirketler Common Data Service ortamda oluşturulur. Varsayılan olarak, bu şirketler salt okunurdur **IsDualWriteEnable** özelliği **doğru** olarak ayarlanır. Ek olarak, varsayılan sorumlu departman sahibi ve ekibi oluşturulur ve şirket adını içerir. Eşlemeleri etkinleştirmeden önce varsayılan takım sahibinin belirtildiğinden emin olun. **Şirketler (CDM\_şirketi)** varlığını bulmak için aşağıdaki adımları izleyin.
 
 1. Dynamics 365'deki model kullanımlı uygulamada, sağ üst köşedeki filtreyi seçin.
-2.  açılır listede, **Şirket**'ı seçin.
+2.  açılır listede, **Şirket** 'ı seçin.
 3. Sonuçları görmek için **Çalıştır** 'ı seçin.
 4. Çift-yazmayı konfigüre ettiğinizde bağlanan şirketi seçin.
 5. **Varsayılan sahip olan takım** alanının bir değere sahip olduğunu doğrulayın. Aşağıdaki çizimde, **varsayılan sahibi olan takım** alanı **usmf ikili yazma** olarak ayarlanır.

@@ -2,8 +2,8 @@
 title: Personel ve Yönetici self servisine genel bakış
 description: Bu makale, çalışan ve yönetici self servis çalışma alanına genel bir bakış sağlar.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/17/2020
+manager: tfehr
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712244"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057064"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Personel ve Yönetici self servisine genel bakış
 
@@ -39,7 +39,7 @@ Kullanıcınızı **Kullanıcılar** sayfasındaki bir **Çalışan** kaydına b
 
 **Kullanıcı kimliğiniz sistemde personel kaydınızla ilişkili değil. İlişkilendirilene kadar bilgilerinizi görüntüleyemez veya güncelleştiremezsiniz. Yardım için yöneticinizle veya destek ekibiyle iletişime geçin.**
 
-Kullanıcıyı **Çalışan** kaydıyla ilişkilendirmek için **Kullanıcılar**'a gidip kullanıcıyı seçin. **Düzenle**'yi seçin, formdaki **Kişi** alanına ilgili çalışanı ekleyin ve **Kaydet**'i seçin. Artık Personel self servisi'ne erişebiliyor olmanız gerekir.
+Kullanıcıyı **Çalışan** kaydıyla ilişkilendirmek için **Kullanıcılar** 'a gidip kullanıcıyı seçin. **Düzenle** 'yi seçin, formdaki **Kişi** alanına ilgili çalışanı ekleyin ve **Kaydet** 'i seçin. Artık Personel self servisi'ne erişebiliyor olmanız gerekir.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Personel ve Yönetici self servisi ile ilgili güvenlik gereksinimleri
 
@@ -80,11 +80,11 @@ Bir **sonraki kayıtlı kurs** kartında, kayıt yaptığınız bir sonraki kurs
 
 Bir **sonraki zamanlanmış İnceleme** kartında sonraki performans incelemeniz görüntülenir. Bu karttan yeni bir gözden geçirme başlatabilirsiniz. Yöneticiniz veya İK temsilciniz Ayrıca İnceleme de başlatabilir. Kuruluşunuzun ayarlarına bağlı olarak, bu karttaki çıkış incelemelerini görüntüleyebilir, güncelleştirebilir ve gönderebilirsiniz.
 
-Hedeflerinizi, **performans hedefleri** kartıyla yönetebilirsiniz. Bu kart, her durumunda sahip olduğunuz hedeflerin sayısını(**başlatılmadı**, **izlemede** ve **gereksinim duyduğu gelişme**) görüntüler. Atanan rol tabanlı güvenliğine bağlı olarak, amaçları oluşturabilir, güncelleştirebilir ve kaldırabilirsiniz. İsterseniz, gruplardan veya şablonlardan yeni hedefler ekleyebilirsiniz. Yöneticiler ve İK ayrıca çalışanlar adına hedefler oluşturabilir ve her hedefin ayrıntılı olarak nasıl yapılacağını belirleyebilir. Yöneticiler ve çalışanlar hedefler üzerinde işbirliği yapabilir ve aktiviteleri, ölçümleri ve durumları güncelleştirebilir. Ayrıca, ekleri dahil edebilirsiniz.
+Hedeflerinizi, **performans hedefleri** kartıyla yönetebilirsiniz. Bu kart, her durumunda sahip olduğunuz hedeflerin sayısını( **başlatılmadı** , **izlemede** ve **gereksinim duyduğu gelişme** ) görüntüler. Atanan rol tabanlı güvenliğine bağlı olarak, amaçları oluşturabilir, güncelleştirebilir ve kaldırabilirsiniz. İsterseniz, gruplardan veya şablonlardan yeni hedefler ekleyebilirsiniz. Yöneticiler ve İK ayrıca çalışanlar adına hedefler oluşturabilir ve her hedefin ayrıntılı olarak nasıl yapılacağını belirleyebilir. Yöneticiler ve çalışanlar hedefler üzerinde işbirliği yapabilir ve aktiviteleri, ölçümleri ve durumları güncelleştirebilir. Ayrıca, ekleri dahil edebilirsiniz.
 
 Mevcut becerilerinizi **yetenekler** kartında görüntüleyebilirsiniz. Yetenekleri güncelleştirebilir, yenilerini ekleyebilirsiniz veya artık ilgili olmayan olanları kaldırabilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, becerilerinizdeki değişiklikler bir onay işleminden geçebilir.
 
-Geçerli maaşınızı **ücret** kartı üzerinden görüntüleyebilirsiniz. Yıllık ödeme ve son artış tutarını görüntülemek için **göster**'i seçin. Birden fazla şirket içinde çalışıyorsanız, her yıllık tutar kart üzerinde görüntülenir. Ayrıntılı maaş geçmişinizi görüntülemek için **sabit ve değişken maaş geçmişi** formunu açmak üzere yıllık maaş tutarını seçin. Gelecekteki ücret bu formda görüntülenmiyor. Birden fazla işiniz varsa her bir şirkette oturum açmadan maaş geçmişinizi görüntülemek için bu form içindeki şirketler arasında geçiş yapabilirsiniz.
+Geçerli maaşınızı **ücret** kartı üzerinden görüntüleyebilirsiniz. Yıllık ödeme ve son artış tutarını görüntülemek için **göster** 'i seçin. Birden fazla şirket içinde çalışıyorsanız, her yıllık tutar kart üzerinde görüntülenir. Ayrıntılı maaş geçmişinizi görüntülemek için **sabit ve değişken maaş geçmişi** formunu açmak üzere yıllık maaş tutarını seçin. Gelecekteki ücret bu formda görüntülenmiyor. Birden fazla işiniz varsa her bir şirkette oturum açmadan maaş geçmişinizi görüntülemek için bu form içindeki şirketler arasında geçiş yapabilirsiniz.
 
 **Ekleri** kartla belgeleri görüntüleyin ve yönetin. Tüm **dış** ekleri yönetebilirsiniz. Hem İK hem de Çalışanlar Çalışan Self servis ile veya **çalışan** formu üzerinden ek ekleyebilirler. Ekler varsayılan değer olarak **harici** olarak ayarlanır.
 
@@ -94,9 +94,9 @@ Bu bölüm, **kariyer bilgileri** bölümüne benzer şekilde, diğer çalışan
 
 **Sosyal haklar** bağlantısı üzerinden daha fazla yararlanmak için kaydolun. Sosyal haklar yönetimi hakkında daha fazla bilgi için [Sosyal Haklara genel bakış](hr-benefits-management-overview.md)'a bakın.
 
-**Performans** altında, performans hedefleri ve gözden geçirmeleri üzerinde kullanılacak performans günlüğü girişleri oluşturmak için **performans günlükleri**'ni seçebilirsiniz. Kuruluşunuzdaki diğer çalışanlarla ilgili geribildirim sağlamak için **geri bildirim gönder**'i seçebilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, e-postalar alıcıya, gönderene ve yöneticilere gönderilebilir. Organizasyon içindeki tüm çalışanlara geri bildirim gönderebilirsiniz. Geri bildirim gönderme şirket tarafından kısıtlanmıyor.
+**Performans** altında, performans hedefleri ve gözden geçirmeleri üzerinde kullanılacak performans günlüğü girişleri oluşturmak için **performans günlükleri** 'ni seçebilirsiniz. Kuruluşunuzdaki diğer çalışanlarla ilgili geribildirim sağlamak için **geri bildirim gönder** 'i seçebilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, e-postalar alıcıya, gönderene ve yöneticilere gönderilebilir. Organizasyon içindeki tüm çalışanlara geri bildirim gönderebilirsiniz. Geri bildirim gönderme şirket tarafından kısıtlanmıyor.
 
-**Yetki** altında **kurslar**, **eğitim**, **güven** gerektiren pozisyonlar ve **mesleki deneyimlerin** üzerinde değişiklikler yapabilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, sertifika güncellemeleri bir onay işleminden geçebilir.
+**Yetki** altında **kurslar** , **eğitim** , **güven** gerektiren pozisyonlar ve **mesleki deneyimlerin** üzerinde değişiklikler yapabilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, sertifika güncellemeleri bir onay işleminden geçebilir.
 
 İş ayrıntılarını **organizasyon** altında görüntüleyebilirsiniz. İş ayrıntıları, birincil konumunuz için yetenekler, sertifikalar ve sorumluluk alanları içerir. Ayrıca, kullanımınıza aldığınız herhangi bir ödünç verilen donanımı de görebilirsiniz. Kuruluşunuzun ayarlarına bağlı olarak, yüklenen ekipmandaki değişiklikler bir onay işleminden geçebilir.
 
@@ -159,11 +159,11 @@ Yöneticilerin, doğrudan raporları adına değişiklikler yapmak veya istekler
 
 ### <a name="my-team-information"></a>Takımımın bilgileri
 
-Ekibim bilgileri, yöneticilerin doğrudan ve genişletilmiş raporları görüntülemesine ve güncelleştirmesine olanak tanır. Genişletilmiş raporlara erişmek için, yönlendirir raporunu alan çalışanı seçin ve sonra kart üzerinde **Ekibi görüntüle**'yi seçin. Aynı seçeneklerin tümü, genişletilmiş raporlar için doğrudan rapor olarak uygulanır. 
+Ekibim bilgileri, yöneticilerin doğrudan ve genişletilmiş raporları görüntülemesine ve güncelleştirmesine olanak tanır. Genişletilmiş raporlara erişmek için, yönlendirir raporunu alan çalışanı seçin ve sonra kart üzerinde **Ekibi görüntüle** 'yi seçin. Aynı seçeneklerin tümü, genişletilmiş raporlar için doğrudan rapor olarak uygulanır. 
 
 #### <a name="summary-tab"></a>Özet sekmesi
 
-**Özet** sekmesi, doğrudan raporlarınızın hızlı görünümünü sağlar. Bir doğrudan raporda çalışan da kendilerine rapor edilen çalışanlar varsa, kart, **ekip göster** düğmesiyle birlikte üst bölümdeki doğrudan rapor sayısını görüntüler. Her kartın üzerindeki seçenekler seçili çalışana uygulanır. Örneğin, bir çalışan adına bir bırakma talebi girmek istiyorsanız, çalışanı seçer ve sonra da kartların üstünde **İzin isye**'yi seçersiniz. 
+**Özet** sekmesi, doğrudan raporlarınızın hızlı görünümünü sağlar. Bir doğrudan raporda çalışan da kendilerine rapor edilen çalışanlar varsa, kart, **ekip göster** düğmesiyle birlikte üst bölümdeki doğrudan rapor sayısını görüntüler. Her kartın üzerindeki seçenekler seçili çalışana uygulanır. Örneğin, bir çalışan adına bir bırakma talebi girmek istiyorsanız, çalışanı seçer ve sonra da kartların üstünde **İzin isye** 'yi seçersiniz. 
 
 Bir çalışan seçtikten sonra **Ayrıntılar** düğmesini seçerseniz, aşağıdaki seçenekler görüntülenecektir:
 
@@ -193,15 +193,15 @@ Hem doğrudan hem de genişletilmiş raporların konum verilerini görüntüleye
 
 #### <a name="compensation-tab"></a>Ücret sekmesi
 
-**Ücret** sekmesi çalışanın yıllık maaşını görüntüler. Bir şirket tanımlayıcısı maaş tutarının altında görüntülenir. Bir çalışan birden fazla işe sahip ise ve çoklu tüzel kişilikler elde ediyorsanız, çalışanın birden çok maaş kartı olacaktır. Son artış tutarı ve yüzdesi, çalışma şirketi temel alınarak görüntülenir.
+**Ücret** sekmesi çalışanın yıllık maaşını görüntüler. Bir şirket tanımlayıcısı maaş tutarının altında görüntülenir. Bir çalışan birden fazla işe sahip ise ve çoklu tüzel kişiliklerden ödeme alıyorsa çalışanın birden çok ücret planı olacaktır. Şirketler arasında geçiş yapmadan tüzel kişiliklerdeki tüm maaş planlarını görmek için, **İnsan Kaynakları > Paylaşılan parametreler > Gelişmiş erişim > Şirketler arası ücretlendirmeyi etkinleştir** 'in altında çapraz ücretlendirmeyi etkinleştirmeniz gerekir.
 
-Maaş geçmişini görüntülemek için, **Ayrıntılar** formunun açılacağı maaş tutarını seçin. **Ücret** formunda yalnızca geçerli ve geçmişe ait sabit ve değişken maaş kayıtları görüntülenebilir. Bir çalışan birden fazla işe sahip ise, her şirkette maaş geçmişini görmek için şirketler arasında geçiş yapabilirsiniz.
+Maaş geçmişini görüntülemek için, **Ayrıntılar** formunun açılacağı maaş tutarını seçin. **Ücret** formunda yalnızca geçerli ve geçmişe ait sabit ve değişken maaş kayıtları görüntülenebilir. Bir çalışan birden fazla işe sahip ise, şirketler arasında geçiş yaparak her bir şirketteki maaş geçmişini görüntüleyebilir veya İnsan Kaynakları Paylaşılan parametrelerde şirketler arası ücreti etkinleştirerek tüm ücret planlarını görüntüleyebilirsiniz.
 
 Hem doğrudan hem de genişletilmiş raporların ücreti görüntüleyebilirsiniz.
 
 #### <a name="leave-and-absence-tab"></a>İzin ve devamsızlık sekmesi
 
-**İzin ve devamsızlık** sekmesi, faaliyeti olan çalışanların en üst bakiyelerini görüntüler. Eylem yapmak veya tam faaliyet listesini görmek için, **Ayrıntılar** 'ı seçin ve sonra **İzin**'ı seçin. **İzin** formundan, çalışanların zamandan daha iyi yönetilmesini sağlamak için bakiyeleri, istekleri, onaylanan zamanı ve tahmin bakiyelerini görüntüleyebilirsiniz. Organizasyonunuzun ayarlarına bağlı olarak, iş, sizin veya genişletilmiş raporlarınız için zaman kapalı da isteyebilirsiniz.
+**İzin ve devamsızlık** sekmesi, faaliyeti olan çalışanların en üst bakiyelerini görüntüler. Eylem yapmak veya tam faaliyet listesini görmek için, **Ayrıntılar** 'ı seçin ve sonra **İzin** 'ı seçin. **İzin** formundan, çalışanların zamandan daha iyi yönetilmesini sağlamak için bakiyeleri, istekleri, onaylanan zamanı ve tahmin bakiyelerini görüntüleyebilirsiniz. Organizasyonunuzun ayarlarına bağlı olarak, iş, sizin veya genişletilmiş raporlarınız için zaman kapalı da isteyebilirsiniz.
 
 #### <a name="performance-goals-tab"></a>Performans hedefleri sekmesi
 
@@ -211,6 +211,6 @@ Yöneticiler , **ekibimin** **Özet** bölümünde **ekip performans hedefleri**
 
 #### <a name="reviews-tab"></a>İncelemeler sekmesi
 
-**İncelemeler** sekmesi, çalışanın her durumunda sahip olduğu İncelemeleri özetler: **Devam ediyor**, **gözdengeçirilmek üzere hazır** ve **Son İnceleme**. Bir çalışanın incelemesine erişmek için, **Ayrıntılar** düğmesini seçin ve üzerinde işbirliği yapılacak İncelemeleri seçin. Gözden geçirme işleminin iş akışı sürecinde olduğu yere göre, incelemenin güncelleştirme için kullanılabilir olup olmadığını görebilirsiniz. 
+**İncelemeler** sekmesi, çalışanın her durumunda sahip olduğu İncelemeleri özetler: **Devam ediyor** , **gözdengeçirilmek üzere hazır** ve **Son İnceleme**. Bir çalışanın incelemesine erişmek için, **Ayrıntılar** düğmesini seçin ve üzerinde işbirliği yapılacak İncelemeleri seçin. Gözden geçirme işleminin iş akışı sürecinde olduğu yere göre, incelemenin güncelleştirme için kullanılabilir olup olmadığını görebilirsiniz. 
 
 Yöneticiler , **ekibimin** **Özet** bölümünde **ekip performans incelemeleri** döşemesi aracılığıyla takımlarına ait tüm incelemeleri görebilir.

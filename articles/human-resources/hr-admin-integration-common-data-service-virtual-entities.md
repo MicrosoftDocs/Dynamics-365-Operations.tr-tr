@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959587"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058166"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Common Data Service sanal varlıklarını yapılandırma
 
@@ -58,7 +58,7 @@ Ortamınızdaki sanal varlıkları etkinleştirmek için bu kurulum adımların�
 
 1. [Microsoft Azure portalını](https://portal.azure.com) açın.
 
-2. Azure hizmetleri listesinde **Uygulama kayıtları**'nı seçin.
+2. Azure hizmetleri listesinde **Uygulama kayıtları** 'nı seçin.
 
 3. **Yeni kayıt** öğesini seçin.
 
@@ -66,15 +66,15 @@ Ortamınızdaki sanal varlıkları etkinleştirmek için bu kurulum adımların�
 
 5. **Yeniden yönlendirme URI'si** alanında Human Resources kurulumunuzun ad alanı URL'sini girin.
 
-6. **Kayıt**'ı seç.
+6. **Kayıt** 'ı seç.
 
 7. Kayıt tamamlandığında, Azure portalı uygulama kaydı **Uygulama (istemci) kimliğini** de içeren **Genel bakış** bölmesini görüntüler. Şu anda **Uygulama (istemci) kimliğini** not edin. [Sanal varlık veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source) bu bilgileri gireceksiniz.
 
-8. Sol gezinti bölmesinde, **Sertifikalar ve gizli anahtarlar**'ı seçin.
+8. Sol gezinti bölmesinde, **Sertifikalar ve gizli anahtarlar** 'ı seçin.
 
-9. Sayfanın **İstemci gizli anahtarı** bölümünde **Yeni istemci gizli anahtarı**'nı seçin.
+9. Sayfanın **İstemci gizli anahtarı** bölümünde **Yeni istemci gizli anahtarı** 'nı seçin.
 
-10. Bir açıklama sağlayın, bir süre seçin ve **Ekle**'yi seçin.
+10. Bir açıklama sağlayın, bir süre seçin ve **Ekle** 'yi seçin.
 
 11. Gizli anahtar değerini kaydedin. [Sanal varlık veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source) bu bilgileri gireceksiniz.
 
@@ -89,15 +89,15 @@ Sanal varlık çözüm paketini Common Data Service'a dağıtmak için Dynamics 
 
 2. **Ortamlar** listesinde, Human Resources kurulumunuzla ilişkilendirilen Power Apps ortamını seçin.
 
-3. Sayfanın **Kaynaklar** bölümünde **Dynamics 365 uygulamaları**'nı seçin.
+3. Sayfanın **Kaynaklar** bölümünde **Dynamics 365 uygulamaları** 'nı seçin.
 
 4. **Uygulamayı yükle** eylemini seçin.
 
-5. **Dynamics 365 HR Sanal Varlık** öğesini ve **İleri**'yi seçin.
+5. **Dynamics 365 HR Sanal Varlık** öğesini ve **İleri** 'yi seçin.
 
 6. Hizmet koşullarını gözden geçirin ve kabul etmek için işaretleyin.
 
-7. **Yükle**'yi seçin.
+7. **Yükle** 'yi seçin.
 
 Yükleme birkaç dakika sürer. Bu işlem tamamlandığında sonraki adımlara devam edin.
 
@@ -111,24 +111,24 @@ Sonraki adım, sanal varlık veri kaynağını Power Apps ortamında yapılandı
 
 2. **Ortamlar** listesinde, Human Resources kurulumunuzla ilişkilendirilen Power Apps ortamını seçin.
 
-3. Sayfanın **Ayrıntılar** bölümünde **Ortam URL**'sini seçin.
+3. Sayfanın **Ayrıntılar** bölümünde **Ortam URL** 'sini seçin.
 
-4. **Çözüm Durumu Merkezi**'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
+4. **Çözüm Durumu Merkezi** 'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
 
-5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
+5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları** 'nı seçin.
 
-6. **Sonuçlar**'ı seçin.
+6. **Sonuçlar** 'ı seçin.
 
 7. **Microsoft HR Veri Kaynağı** kaydını seçin.
 
 8. Veri kaynağı yapılandırması için gerekli bilgileri girin.
 
-   - **Hedef URL**: Human Resources ad alanınızın URL'si.
-   - **Kiracı Kimliği**: Azure Active Directory (Azure AD) kiracı kimliği.
-   - **AAD Uygulama Kodu**: Microsoft Azure portalında kayıtlı olan uygulama için oluşturulan uygulama (istemci) kimliği. Bu bilgiyi daha önce [Uygulamayı Microsoft Azure'da kaydetme](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure) bölümünde almıştınız.
-   - **AAD Uygulama Gizli Anahtarı**: Microsoft Azure portalında kayıtlı olan uygulama için oluşturulan istemci gizli anahtarı. Bu bilgiyi daha önce [Uygulamayı Microsoft Azure'da kaydetme](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure) bölümünde almıştınız.
+   - **Hedef URL** : Human Resources ad alanınızın URL'si.
+   - **Kiracı Kimliği** : Azure Active Directory (Azure AD) kiracı kimliği.
+   - **AAD Uygulama Kodu** : Microsoft Azure portalında kayıtlı olan uygulama için oluşturulan uygulama (istemci) kimliği. Bu bilgiyi daha önce [Uygulamayı Microsoft Azure'da kaydetme](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure) bölümünde almıştınız.
+   - **AAD Uygulama Gizli Anahtarı** : Microsoft Azure portalında kayıtlı olan uygulama için oluşturulan istemci gizli anahtarı. Bu bilgiyi daha önce [Uygulamayı Microsoft Azure'da kaydetme](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure) bölümünde almıştınız.
 
-9. **Kaydet ve Kapat**'ı seçin.
+9. **Kaydet ve Kapat** 'ı seçin.
 
    ![Microsoft HR Veri Kaynağı](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
@@ -141,47 +141,48 @@ Human Resources'ta iki Azure AD uygulaması için izin verin:
 
 1. Human Resources'ta **Azure Active Directory uygulamaları** sayfasını açın.
 
-2. Yeni uygulama kaydı oluşturmak için **Yeni**'yi seçin.
+2. Yeni uygulama kaydı oluşturmak için **Yeni** 'yi seçin.
 
     - **İstemci kodu** alanına, Microsoft Azure portalına kaydettiğiniz uygulama istemci kodunu girin.
     - **Ad** alanına, Microsoft Azure portalına kaydettiğiniz uygulama adını girin.
     - **Kullanıcı kimliği** alanında, Human Resources ve Power Apps ortamında yönetici izinlerine sahip olan kullanıcının kullanıcı kimliğini seçin.
 
-3. İkinci uygulama kaydını oluşturmak için **Yeni**'yi seçin.
+3. İkinci uygulama kaydını oluşturmak için **Yeni** 'yi seçin.
 
-    - **İstemci Kimliği**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Ad**: Dynamics 365 HR Sanal Varlığı
+    - **İstemci Kimliği** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Ad** : Dynamics 365 HR Sanal Varlığı
     - **Kullanıcı kimliği** alanında, Human Resources ve Power Apps ortamında yönetici izinlerine sahip olan kullanıcının kullanıcı kimliğini seçin.
 
 ## <a name="generate-virtual-entities"></a>Sanal varlıklar oluşturma
 
 Kurulum tamamlandığında, Common Data Service örneğiniz içinde oluşturmak ve etkinleştirmek istediğiniz sanal varlıkları seçebilirsiniz.
 
-1. [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ni açın.
+1. Human Resources'ta **Common Data Service (CDS) tümleştirmesi** sayfasını açın.
 
-2. **Ortamlar** listesinde, Human Resources kurulumunuzla ilişkilendirilen Power Apps ortamını seçin.
-
-3. Sayfanın **Ayrıntılar** bölümünde **Ortam URL**'sini seçin.
-
-4. **Çözüm Durumu Merkezi**'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
-
-5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Kullanılabilir HR Varlıkları**'nı seçin.
-
-6. Etkinleştirmek istediğiniz varlığı veya varlıkları bulmak için filtre seçeneklerini kullanın.
-
-7. Listeden bir varlık seçin.
-
-8. Varlık sayfasında, **Oluşturuldu** özelliğini varlık için **Evet** olarak değiştirin.
-
-9. Varlık sayfasını kaydedin ve kapatın.
+2. **Sanal varlıklar** sekmesini seçin.
 
 > [!NOTE]
-> **Birden Çok Kaydı Değiştir** sayfasını kullanarak, birden çok sanal varlık oluşturabilirsiniz. Sayfada birden fazla kayıt seçin ve şeritte **Düzenle**'yi seçin. Daha sonra tüm kayıtlar için **Oluşturuldu** özelliğini değiştirebilirsiniz.
+> **Sanal varlığı etkinleştir** geçiş düğmesi, gerekli tüm kurulum tamamlandığında otomatik olarak **Evet** olarak ayarlanır. Geçiş düğmesi **Hayır** olarak ayarlanmışsa, tüm önkoşul kurulumun tamamlandığından emin olmak için bu belgenin önceki bölümlerindeki adımları gözden geçirin.
 
-![Kullanılabilir HR Varlıkları](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Common Data Service'te oluşturmak istediğiniz varlığı veya varlıkları seçin.
 
-> [!NOTE]
-> Gelecekteki sürümlerde sanal varlıklar oluşturma sürecini kolaylaştırmak için, işlem Human Resources'taki bir sayfada gerçekleşir.
+4. **Oluştur/Yenile** 'yi seçin.
+
+![Common Data Service Tümleştirmesi](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Varlık oluşturma durumunu denetle
+
+Sanal varlıklar Common Data Service içinde zaman uyumsuz bir arka plan işleminde oluşturulur. İşlemin üzerindeki güncelleştirmeler işlem merkezinde görüntülenebilir. Hata günlükleri de dahil olmak üzere işlemle ilgili ayrıntılar, **işlem otomasyonları** sayfasında görüntülenir.
+
+1. Human Resources'da, **İşlem otomasyonları** sayfasını açın.
+
+2. **Arka plan işlemleri** sekmesini seçin.
+
+3. **Sanal varlık yoklama asenkron operasyonu arka plan işlemi** 'ni seçin.
+
+4. **En son sonuçları görüntüle** 'yi seçin.
+
+Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntüler. Common Data Service'ten gelen tüm hatalar da dahil olmak üzere, işlem günlüğünü görüntüleyebilirsiniz.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

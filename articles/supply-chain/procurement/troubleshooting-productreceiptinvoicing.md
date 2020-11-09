@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: d86fa3df1de13cc0e0fb94449207a326069da25b
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834442"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018641"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Ürün girişleri ve faturalama ile ilgili sorunları giderme
 
@@ -86,11 +86,11 @@ Bu sorun bir satınalma siparişi faturalandığında, **Borç hesapları parame
 
 Aşağıdaki yordamda, bu sorunu yeniden oluşturmanın bir yolu gösterilmektedir.
 
-1. **Borç hesapları \> Kurulum \> Borç hesapları parametreleri**'ne gidin.
+1. **Borç hesapları \> Kurulum \> Borç hesapları parametreleri** 'ne gidin.
 1. **Fatura** sekmesinde, **Genel muhasebedeki gider hesabına naklet** seçeneğini *Evet* olarak ayarlayın.
 1. **Stok Yönetimi \> Kurulum \> Deftere nakil \> Deftere nakil** sayfasına gidin.
 1. **Satınalma siparişi** sekmesinde, ürünle ilgili satın alma harcamaları içindeki tüm satırları sildiğinizden emin olun.
-1. **Borç hesapları \> Satın alma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. **Borç hesapları \> Satın alma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
 1. Bir satınalma siparişi oluşturmak. **Satıcı hesabı** alanında, *1001 Acme Office Supplies* ögesini seçin.
 1. Aşağıdaki ayarlara sahip satınalma siparişi satırı oluşturun:
 
@@ -99,10 +99,10 @@ Aşağıdaki yordamda, bu sorunu yeniden oluşturmanın bir yolu gösterilmekted
     - **Ambar:** *11*
     - **Miktar:** *4*
 
-1. Eylem Bölmesi'nde, **Satın al** sekmesindeki **Eylem** grubunda **Onayla**'yı seçin.
-1. Eylem Bölmesi'nde, **Teslim al** sekmesindeki **Oluştur** grubunda **Ürün girişi**'ni seçin.
-1. **Ürün girişi naklediliyor** iletişim kutusunda, **Ürün girişi** alanında rastgele bir numara girin ve **Tamam**'ı seçin.
-1. Eylem Bölmesi'nde, **Fatura** sekmesindeki **Oluştur** grubunda **Fatura**'yı seçin.
+1. Eylem Bölmesi'nde, **Satın al** sekmesindeki **Eylem** grubunda **Onayla** 'yı seçin.
+1. Eylem Bölmesi'nde, **Teslim al** sekmesindeki **Oluştur** grubunda **Ürün girişi** 'ni seçin.
+1. **Ürün girişi naklediliyor** iletişim kutusunda, **Ürün girişi** alanında rastgele bir numara girin ve **Tamam** 'ı seçin.
+1. Eylem Bölmesi'nde, **Fatura** sekmesindeki **Oluştur** grubunda **Fatura** 'yı seçin.
 1. **Numara** alanına, fatura numarası olarak rasgele bir numara girin.
 1. Eşleştirme durumunu güncelleştirin ve deftere nakledin.
 1. Bir satınalma siparişinden fatura oluştururken şimdi aşağıdaki hatayı alacağınızı unutmayın: "Ürün için satınalma harcamaları hareket türü için hesap numarası yok."

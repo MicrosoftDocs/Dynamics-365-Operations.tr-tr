@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa3ef51a7b6fa553e5919befdab6818755deea52
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 67e1e99b479752a027c60a878c57bd35d4219981
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978423"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017565"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)
 

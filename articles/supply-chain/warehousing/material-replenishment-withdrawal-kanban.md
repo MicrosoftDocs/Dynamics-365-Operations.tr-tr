@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
+ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d712cc3ebdc959d1fee4a2a79e3283b84f0b901a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017103"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -54,7 +54,7 @@ Bu senaryoda, bir üretim işlemi (4), üretim ambarında (8) malzemeyi bir üre
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Çekme kanbanı için çekme kanbanı ambar işi yapılandır
 
-Çekme kanbanı için hammadde çekmeyi etkinleştirmek için, dalga şablonlarını, iş şablonlarını ve konum yönergelerini **Kanban çekme** iş emri türü için yapılandırın. Bu iş emri türü, çekme kanbanı için malzeme çekme işlemini desteklemekle kalmaz. Aynı zamanda, üretim kanbanı için çekme işlemini de destekler. Ancak, dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırarak her bir kanban türü için ayrı bir çekme işlemi yapılandırabilirsiniz. Dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırmak için, etkinlik türü (**İşlem** veya **Transfer**) üzerinde, bu varlıkların sorgularında kriter ayarlayın.
+Çekme kanbanı için hammadde çekmeyi etkinleştirmek için, dalga şablonlarını, iş şablonlarını ve konum yönergelerini **Kanban çekme** iş emri türü için yapılandırın. Bu iş emri türü, çekme kanbanı için malzeme çekme işlemini desteklemekle kalmaz. Aynı zamanda, üretim kanbanı için çekme işlemini de destekler. Ancak, dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırarak her bir kanban türü için ayrı bir çekme işlemi yapılandırabilirsiniz. Dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırmak için, etkinlik türü ( **İşlem** veya **Transfer** ) üzerinde, bu varlıkların sorgularında kriter ayarlayın.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Çekme kanbanını yapılandır
 

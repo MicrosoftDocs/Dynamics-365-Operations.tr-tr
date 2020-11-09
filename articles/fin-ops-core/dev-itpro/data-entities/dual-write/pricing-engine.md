@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270348"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997158"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
 
@@ -37,7 +36,7 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
 ## <a name="use-the-pricing-engine-from-supply-chain-management-in-sales"></a>Sales'da Supply Chain Management fiyatlandırma altyapısını kullan
 
 1. Sales'da **satışlar \>siparişlere** gidin.
-2. Yeni sipariş oluşturmak için **Yeni**'yi seçin veya **Siparişlerim** listesinde mevcut siparişi seçin.
+2. Yeni sipariş oluşturmak için **Yeni** 'yi seçin veya **Siparişlerim** listesinde mevcut siparişi seçin.
 3. Yeni siparişi satırı ekleyin.
 4. Yeni bir sipariş oluşturuyorsanız, eylem bölmesinde **fiyat siparişi** seçeneğini belirleyin. Mevcut bir siparişi güncelliyorsanız eylem bölmesinde **Yeniden hesapla** seçeneğini belirleyin.
 
@@ -53,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
     
 5. Sistemin fiyatı hesaplamak amacıyla ticaret ve satış anlaşmalarını dikkate aldığından emin olmak için:
     1. Supply Chain Management ortamınıza gidin.
-    2. **Alacak hesapları \> Kurulum \> Alacak hesapları parametreleri**'ne gidin.
+    2. **Alacak hesapları \> Kurulum \> Alacak hesapları parametreleri** 'ne gidin.
     3. Yan gezinti çubuğunda **Fiyatlar** sekmesini seçin.
     4. **Ticaret anlaşması değerlendirme** hızlı sekmesi altında, **El ile giriş** seçeneğindeki işareti kaldırın.
 

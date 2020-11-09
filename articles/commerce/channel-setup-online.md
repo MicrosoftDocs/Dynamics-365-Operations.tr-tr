@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 07225d97af76ea665fa28362cc205c6e8dc4fdf4
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533333"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107242"
 ---
 # <a name="set-up-an-online-channel"></a>Çevrimiçi kanal ayarlama
 
@@ -43,8 +43,8 @@ Yeni bir site oluşturabilmeniz için, Commerce'te en az bir çevrimiçi mağaza
 
 Yeni bir çevrimiçi kanal oluşturmak ve yapılandırmak için bu adımları izleyin.
 
-1. Gezinti bölmesinde **Modüller \> Kanallar \> Çevrimiçi Mağazalar**'a gidin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Gezinti bölmesinde **Modüller \> Kanallar \> Çevrimiçi Mağazalar** 'a gidin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. **Ad** alanına yeni kanal için bir ad girin.
 1. **Tüzel kişilik** açılır listesinde, uygun tüzel kişiliği girin.
 1. **Ambar** açılır listesinde, ilgili ambarı girin.
@@ -54,7 +54,7 @@ Yeni bir çevrimiçi kanal oluşturmak ve yapılandırmak için bu adımları iz
 1. **Müşteri adres defteri** alanında, geçerli bir adres defteri girin.
 1. **İşlevsellik profili** alanında, varsa bir işlevsellik profili seçin.
 1. **E-posta bildirimi profili** alanında, geçerli bir e-posta bildirimi profili girin.
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
 
 Aşağıdaki resimde yeni bir çevrimiçi kanalın oluşturulması gösteriliyor.
 
@@ -72,11 +72,11 @@ E-ticaret siteniz birden çok dili destekleyecekse **Diller** bölümünü geni�
 
 **Ödeme hesabı** bölümünün içinden, üçüncü taraf ödeme sağlayıcı ekleyebilirsiniz. Adyen ödeme bağlayıcısı ayarlama hakkında bilgi için bkz. [Adyen için Dynamics 365 Ödeme Bağlayıcı](../retail/dev-itpro/adyen-connector.md).
 
-## <a name="additional-channel-set-up"></a>Ek kanal ayarları
+## <a name="additional-channel-setup"></a>Ek kanal ayarları
 
 Çevrimiçi kanal kurulumu için gereken ek görevler ödeme yöntemleri, teslimat şekilleri ve karşılama grubu ataması ayarlamayı içerir.
 
-Aşağıdaki resimde, **Ayarla** sekmesindeki **Teslimat şekilleri**, **Ödeme yöntemleri** ve **Karşılama grubu ataması** ayarlama seçenekleri gösteriliyor.
+Aşağıdaki resimde, **Ayarla** sekmesindeki **Teslimat şekilleri** , **Ödeme yöntemleri** ve **Karşılama grubu ataması** ayarlama seçenekleri gösteriliyor.
 
 ![Ek çevrimiçi kanal kurulumu eylemleri](media/channel-setup-online-3.png)
 
@@ -84,12 +84,12 @@ Aşağıdaki resimde, **Ayarla** sekmesindeki **Teslimat şekilleri**, **Ödeme 
 
 Ödeme yöntemlerini ayarlamak için, bu kanalda desteklenen her ödeme türü için bu adımları izleyin.
 
-1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Ödeme yöntemleri**'ni seçin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Ödeme yöntemleri** 'ni seçin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. Gezinti bölmesinde, istediğiniz bir ödeme yöntemini seçin.
 1. **Genel** bölümünde bir **İşlem adı** belirtin ve istediğiniz diğer ayarları yapılandırın.
 1. Ödeme türü için gereken ek ayarları yapılandırın.
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
 
 Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
@@ -97,13 +97,13 @@ Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
-Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekmesinden **Teslimat şekilleri**'ni seçerek görebilirsiniz.  
+Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekmesinden **Teslimat şekilleri** 'ni seçerek görebilirsiniz.  
 
 Bir teslimat şekli eklemek veya değiştirmek için bu adımları izleyin.
 
-1. Gezinti bölmesinde **Modüller \> Stok yönetimi \> Teslimat şekilleri**'ne gidin.
-1. Eylem bölmesinde, yeni bir teslimat şekli oluşturmak için **Yeni**'yi seçin veya varolan bir şekli seçin.
-1. **Perakende kanalları** bölümünde, kanalı eklemek için **Satır ekle**'yi seçin. Kanalları tek tek eklemek yerine kuruluş düğümleri kullanarak eklemek, kanal eklemeyi kolaylaştırabilir.
+1. Gezinti bölmesinde **Modüller \> Stok yönetimi \> Teslimat şekilleri** 'ne gidin.
+1. Eylem bölmesinde, yeni bir teslimat şekli oluşturmak için **Yeni** 'yi seçin veya varolan bir şekli seçin.
+1. **Perakende kanalları** bölümünde, kanalı eklemek için **Satır ekle** 'yi seçin. Kanalları tek tek eklemek yerine kuruluş düğümleri kullanarak eklemek, kanal eklemeyi kolaylaştırabilir.
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
@@ -113,11 +113,11 @@ Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
 Bir karşılama grubu ataması ayarlamak için bu adımları izleyin.
 
-1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Karşılama grubu ataması**'nı seçin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Karşılama grubu ataması** 'nı seçin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. **Karşılama grubu** açılır listesinde bir karşılama grubu seçin.
 1. **Açıklama** açılır listesinde bir açıklama girin.
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
 
 Aşağıdaki resimde, bir karşılama grubu ataması kurulum örneği gösterilmektedir.
 

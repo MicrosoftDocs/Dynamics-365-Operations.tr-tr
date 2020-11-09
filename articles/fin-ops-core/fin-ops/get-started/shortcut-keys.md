@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
-ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
+ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
+ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3962532"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013192"
 ---
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
@@ -37,7 +37,7 @@ Bu sayfadaki bazı kısayollar *ana akorlardır* yani eylemi tetiklemek için ba
 
 ## <a name="finding-a-shortcut"></a>Bir kısayolu bulma
 
-Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar.
+Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle** 'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar.
 
 ## <a name="action-shortcuts"></a>Eylem kısayolları
 
@@ -239,7 +239,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Aramada bir sayfa yukarı/aşağı gitme                                                                                       | Sayfa yukarı / Sayfa aşağı              |
 | Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
 
-## <a name="task-recordershortcuts"></a>[Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md)kısayolları 
+## <a name="task-recorder-shortcuts"></a>[Görev kaydedici](../../dev-itpro/user-interface/task-recorder.md) kısayolları 
 
 | Bunu yapmak için                                                                    | Şuna basın:                       |
 |-------------------------------------------------------------------------------|----------------------------|

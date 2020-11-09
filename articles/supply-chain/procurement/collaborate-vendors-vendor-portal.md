@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018457"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Satıcı portalını kullanarak satıcılarla iş birliği yapma
 
@@ -68,9 +68,9 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 | Satıcı portalına PO'nun yeni sürümünü gönderirsiniz. | Satıcı portalında yeni sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satıcı PO'nun yeni sürümünü onaylar.           | Durum **Onaylandı** olarak değişir.                                                                |
 
-Satıcıya gönderilen PO sürümlerini ve yanıtları görmek için satın alma siparişinden **Günlükler** &gt; **Onay istekleri**'ne tıklayın.  
+Satıcıya gönderilen PO sürümlerini ve yanıtları görmek için satın alma siparişinden **Günlükler** &gt; **Onay istekleri** 'ne tıklayın.  
 
-Bir yanıt için satıcıya gönderilen ve durumu **Dış İncelemede** olan siparişler **Satıcı portalına gönderilen, yanıt bekleyen satınalma siparişleri** veya **Satıcı portalına gönderilen, eylem gerektiren satınalma siparişleri** listesinde görünür. Satıcıya gönderilmiş olan bir siparişte değişiklik yaptığınızda, durum **Onaylandı** olarak değişir ve sipariş artık bu listelerde görüntülenmez. Sipariş için daha önce satıcıdan gelen bir yanıt olup olmadığını görüntülemek için **Günlükler** &gt; **Onay istekleri**'ne tıklayın.  
+Bir yanıt için satıcıya gönderilen ve durumu **Dış İncelemede** olan siparişler **Satıcı portalına gönderilen, yanıt bekleyen satınalma siparişleri** veya **Satıcı portalına gönderilen, eylem gerektiren satınalma siparişleri** listesinde görünür. Satıcıya gönderilmiş olan bir siparişte değişiklik yaptığınızda, durum **Onaylandı** olarak değişir ve sipariş artık bu listelerde görüntülenmez. Sipariş için daha önce satıcıdan gelen bir yanıt olup olmadığını görüntülemek için **Günlükler** &gt; **Onay istekleri** 'ne tıklayın.  
 
 Satıcılar, PO'yu Satıcı portalından onaylamak zorunda değildir. E-posta iletisi gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Dynamics AX'de siparişi el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO Satıcı portalındaki onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Ayrıca, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.  
 

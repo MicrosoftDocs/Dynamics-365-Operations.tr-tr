@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b3445157efce6349b3febafb6c860260052f7d6c
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836049"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039758"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Elektronik faturalama eklentisine genel bakış
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için Elektronik faturalama eklentisi elektronik fatura belgelerinin yapılandırılabilir şekilde işlenmesini ve yapılandırılabilir belge alış verişi sağlayan aşırı ölçeklenebilir bir çoklu kiracı hizmetidir. İşlem ve tümleştirme kuralları tümüyle yapılandırılabilir ve bu mantık Finance ve Supply Chain Management dışında çalıştırılır. Servis esas olarak şirketten kamuya senaryolarındaki e-fatura işlemlerinde hedeflenmiştir, ancak başka amaçlar için özel olarak yapılandırılabilir.
 

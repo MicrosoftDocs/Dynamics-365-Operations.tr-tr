@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b7ac243a04309a41ab0e06c1b2d4843ae8ac0e22
-ms.sourcegitcommit: 7c32e4739c07d825a8562564ea9e78922db2ce38
+ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3406393"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016045"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistem tarafından yönlendirilen küme malzeme çekme
 
@@ -35,10 +35,10 @@ Sistem tarafından yönlendirilen küme çekme işlemi ayarlandığında, sistem
 
 Sisteme yönlendirilmiş küme çekme işlemi, küme oluşturmak için küme profilinin kullanıldığı el ile küme oluşturmaya yönelik bir seçenek sunar. Küme profilinde kullanılmadan önce, bazı kurulumla ilgili satırların tanımlanması gerekir:
 
-- **Pozisyon sayısı**, kümeye yerleştirilecek sipariş sayısına karşılık gelir. Bu nedenle, sepet sayısına karşılık gelir.
-- **Kümeyi ayır**, kümenin ne zaman bölüneceği belirler.
-- **Küme kimliği oluştur**, kullanıcı tarafından oluşturulup oluşturulmayacağını veya Kullanıcı tarafından girilip girilmediğini denetler.
-- **Doğrulama türünü sınıflandır**, pozisyon doğrulamanın gerekli olup olmadığını belirtir.
+- **Pozisyon sayısı** , kümeye yerleştirilecek sipariş sayısına karşılık gelir. Bu nedenle, sepet sayısına karşılık gelir.
+- **Kümeyi ayır** , kümenin ne zaman bölüneceği belirler.
+- **Küme kimliği oluştur** , kullanıcı tarafından oluşturulup oluşturulmayacağını veya Kullanıcı tarafından girilip girilmediğini denetler.
+- **Doğrulama türünü sınıflandır** , pozisyon doğrulamanın gerekli olup olmadığını belirtir.
 
 Yeni bir mobil cihaz menü öğesi, sistem tarafından yönlendirilmiş küme çekme işlemi için kullanılır. Seçilen **yönlendirilmiş** seçeneği için **küme profili kimliği** belirtilmelidir. Ek olarak, sistem tarafından yönlendirilen iş sırası sorguları, şirkete özel ölçütlere göre siparişleri gruplandırabilir. Bu nedenle, sistem yönlendirilmiş iş sıralama sorgularu özelleştirilmiş Sıralama ölçütleri belirleyerek, iş siparişlerinin atanmasını daha da iyi duruma getirebilirsiniz.
 
@@ -62,31 +62,31 @@ Bu özellik, bağımlı bir özelliği etkinleştirmeyi de gerektirir. Bağıml�
 
 Küme profilleri, sistemin her kümeyi nasıl oluşturduğunu denetler. Farklı kümeler gerekiyorsa, her mobil cihaz menü öğesi için farklı bir küme profili oluşturulmalıdır.
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Küme profilleri**'ne tıklayın.
-2. **Yeni**'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Küme profilleri** 'ne tıklayın.
+2. **Yeni** 'yi seçin.
 3. **Küme profil kodu** alanına **2 pozisyon** girin.
 4. **Ad** alanına, **Pozisyon 2** yazın.
 5. **Genel** hızlı sekmesinde, aşağıdaki bilgileri girin:
 
     - **Küme kimliği oluştur** - **Evet** seçin. Bu seçenek, küme kimliğinin sistem tarafından otomatik olarak oluşturulup oluşturulmayacağını veya kullanıcının çekme başlangıcında bunu oluşturup oluşturmayacağını belirler. 
-    - **Pozisyonları Etkinleştir** - **Evet**'i seçin. Bu seçenek pozisyon adlarının ayar adına göre otomatik olarak oluşturulup oluşturulmayacağını belirler. Bu seçenek **Hayır** olarak ayarlıysa değilse konum için plaka kimliği kullanılır.
-    - **Pozisyon sayısı:** **2**'yi seçin. Bu alan, kümede olabilecek maksimum pozisyon sayısını (yani kutu, sepetler vs. sayısı) belirler.
-    - **Konum adı:** sayısalların sürekli numaralar kullanılarak adlandırılmaları için **sayısal**'i seçin. **Alfabetik**'ı seçerseniz, pozisyonlar alfabetik düzende adlandırılır.
+    - **Pozisyonları Etkinleştir** - **Evet** 'i seçin. Bu seçenek pozisyon adlarının ayar adına göre otomatik olarak oluşturulup oluşturulmayacağını belirler. Bu seçenek **Hayır** olarak ayarlıysa değilse konum için plaka kimliği kullanılır.
+    - **Pozisyon sayısı:** **2** 'yi seçin. Bu alan, kümede olabilecek maksimum pozisyon sayısını (yani kutu, sepetler vs. sayısı) belirler.
+    - **Konum adı:** sayısalların sürekli numaralar kullanılarak adlandırılmaları için **sayısal** 'i seçin. **Alfabetik** 'ı seçerseniz, pozisyonlar alfabetik düzende adlandırılır.
     - **Kümeyi kesme zamanı:** **Yerine koy** seçeneğini belirleyin. Bu alan kümenin ne zaman kesildiğini belirler. 
     - **Sıralama doğrulama türü:** **konum taramayı** seç. Bu alan, yerine koyma adımının doğrulanıp doğrulanmayacağını belirler.
         
 6. **Küme sıralama** hızlı sekmesinde, yeni bir satır oluşturup aşağıdaki bilgileri ayarlayarak sıralama ölçütü tanımlayabilirsiniz:
 
-    - **Sıralama numarası** - **1**'i seçin. Bu alan, sistemin sıralama yaptığı sırayı belirler. Otomatik olarak bir değer girilir, ancak bunu gereksinim duyduğunuz gibi değiştirebilirsiniz.
-    - **Alan adı:** **WMSLocationId**'i girin. Bu alan, satırla ilgili sıralama ölçütü için kullanılan alanı belirler.
-    - **Sıralama:** **artan**'ı seçin. Bu alan, sıralamanın artan veya azalan sırada yapılıp yapılmadığını tanımlar.
+    - **Sıralama numarası** - **1** 'i seçin. Bu alan, sistemin sıralama yaptığı sırayı belirler. Otomatik olarak bir değer girilir, ancak bunu gereksinim duyduğunuz gibi değiştirebilirsiniz.
+    - **Alan adı:** **WMSLocationId** 'i girin. Bu alan, satırla ilgili sıralama ölçütü için kullanılan alanı belirler.
+    - **Sıralama:** **artan** 'ı seçin. Bu alan, sıralamanın artan veya azalan sırada yapılıp yapılmadığını tanımlar.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma
 
 Sisteme yönlendirilmiş kümenin çekilmesi için yeni bir mobil cihaz menü öğesi oluşturmak ve küme profil kimliğini mobil cihaz menü öğesine bağlamak için aşağıdaki adımları izleyin.
 
 1. **Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü öğeleri** seçeneğine gidin.
-1. **Yeni**'yi seçin.
+1. **Yeni** 'yi seçin.
 1. Üstbilgi bölümüne aşağıdaki bilgileri girin:
     - **Menü öğesi adı** - SD kümesi
     - **Başlık** - SD küme
@@ -103,18 +103,18 @@ Sisteme yönlendirilmiş kümenin çekilmesi için yeni bir mobil cihaz menü ö
     - **İş emri türü** - Satış siparişleri
 
 1. **Mobil aygıt menü öğeleri** Eylem bölmesinde, **sistem yönlendirilmiş iş sırası sorgularını** seçin ve yeni sistemle yönlendirilen bir çalışma sırası sorgusu belirtmek için şu adımları izleyin:
-    - Eylem bölmesinde, **Yeni**'yi seçin.
+    - Eylem bölmesinde, **Yeni** 'yi seçin.
     - **Sıra numarası** - 1
     - **Açıklama** - çalışma önceliği – Iş kodu
 
-1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
 1. **Sıralama** sekmesini seçin.
-1. Yeni satır eklemek için **Ekle**'yi seçin ve sonra aşağıdakileri girin:
+1. Yeni satır eklemek için **Ekle** 'yi seçin ve sonra aşağıdakileri girin:
     - **Tablo** - İş
     - **Türetilen tablo** - İş
     - **Alan** - iş önceliği
     - **Arama yönü** - Azalan
-1. İkinci satır eklemek için **Ekle**'yi seçin ve sonra aşağıdakileri girin:
+1. İkinci satır eklemek için **Ekle** 'yi seçin ve sonra aşağıdakileri girin:
     - **Tablo** - İş
     - **Türetilen tablo** - İş
     - **Alan** - iş kimliği
@@ -127,11 +127,11 @@ Sisteme yönlendirilmiş kümenin çekilmesi için yeni bir mobil cihaz menü ö
 1. **Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü** öğesine gidin.
 1. Mobil cihaz menüsüne oluşturmuş olduğunuz **SD Kümesi** menü öğesi ekleyin.
 1. **Giden** menüsünü seçin.
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
 1. **SD kümesini** buluncaya kadar ilerleyin.
-1. **SD küme**'yi seçtiğinizde, **menü yapısı** listesine işaret eden ok etkinleştirilir.
+1. **SD küme** 'yi seçtiğinizde, **menü yapısı** listesine işaret eden ok etkinleştirilir.
 1. **SD küme** menü öğesini **giden** menü yapısına taşımak için **ok** düğmesini seçin.
-1. **Menü yapısı** listesinden **SD küme**'yi seçin ve sonra menü öğesini mobil aygıt menüsünde istediğiniz konuma taşımak için **yukarı** veya **aşağı** okları seçin.
+1. **Menü yapısı** listesinden **SD küme** 'yi seçin ve sonra menü öğesini mobil aygıt menüsünde istediğiniz konuma taşımak için **yukarı** veya **aşağı** okları seçin.
 
 ## <a name="scenario"></a>Senaryo
 
@@ -143,35 +143,35 @@ Sistemin yönettiği küme çekmeyi ayarlamadan önce, uygun bazı giden işler 
 1. İlk satış siparişini oluşturmak Için eylem bölmesinde **yeni** 'yi seçin.
     - **Satış siparişi oluştur** menüsü açılırsa, aşağıdaki bilgileri girin:
         - **Müşteri** hızlı sekmesinde, **müşteri hesabı** - **ABD-004** girin.
-        - **Genel** hızlı sekmesinde, **ambar** - **62**'yi girin.
-        - Menüyü kapatmak için **Tamam**'ı seçin ve satış siparişini oluşturun.
-    - **Satış siparişi satırları** hızlı sekmesinde, Yeni bir satır otomatik olarak eklenmemişse **satır ekle**'yi seçin ve aşağıdakileri girin:
+        - **Genel** hızlı sekmesinde, **ambar** - **62** 'yi girin.
+        - Menüyü kapatmak için **Tamam** 'ı seçin ve satış siparişini oluşturun.
+    - **Satış siparişi satırları** hızlı sekmesinde, Yeni bir satır otomatik olarak eklenmemişse **satır ekle** 'yi seçin ve aşağıdakileri girin:
         - **Madde numarası** - A0001
         - **Miktar** - 1
-        - İkinci bir satır eklemek için **satır ekle**'yi seçin.
+        - İkinci bir satır eklemek için **satır ekle** 'yi seçin.
         - **Madde numarası** - A0002
         - **Miktar** - 3
     - Az önce oluşturduğunuz satırların her ikisi için stok rezerve edin.
-        - **Satır 1**'i seçin.
-        - **Satış siparişi satırları** Eylem Bölmesi'nde **Envanter**'i seçin ve ardından listeden **Rezervasyonu** seçin.
-        - **Rezervasyon** formunda envanteri rezerve etmek için **lotu rezerve et**'i seçin.
+        - **Satır 1** 'i seçin.
+        - **Satış siparişi satırları** Eylem Bölmesi'nde **Envanter** 'i seçin ve ardından listeden **Rezervasyonu** seçin.
+        - **Rezervasyon** formunda envanteri rezerve etmek için **lotu rezerve et** 'i seçin.
         - **Rezervasyon** tamamlandığında rezervasyon formunu kapatın.
         - **Satır 2** için stok rezerve etmek için bu adımları yineleyin.
 1. İkinci satış siparişini oluşturmak Için eylem bölmesinde **yeni** 'yi seçin.
     - **Satış siparişi oluştur** menüsü açılırsa, aşağıdaki bilgileri girin:
         - **Müşteri** hızlı sekmesinde, **müşteri hesabı** - **ABD-005** girin.
-        - **Genel** hızlı sekmesinde, **ambar** - **62**'yi girin.
-        - Menüyü kapatmak için **Tamam**'ı seçin ve satış siparişini oluşturun
-    - **Satış siparişi satırları** hızlı sekmesinde, Yeni bir satır otomatik olarak eklenmemişse **satır ekle**'yi seçin ve aşağıdakileri girin:
+        - **Genel** hızlı sekmesinde, **ambar** - **62** 'yi girin.
+        - Menüyü kapatmak için **Tamam** 'ı seçin ve satış siparişini oluşturun
+    - **Satış siparişi satırları** hızlı sekmesinde, Yeni bir satır otomatik olarak eklenmemişse **satır ekle** 'yi seçin ve aşağıdakileri girin:
         - **Madde numarası** - A0001
         - **Miktar** - 4
-        - İkinci bir satır eklemek için **satır ekle**'yi seçin.
+        - İkinci bir satır eklemek için **satır ekle** 'yi seçin.
         - **Madde numarası** - A0002
         - **Miktar** - 2
     - Az önce oluşturduğunuz satırların her ikisi için stok rezerve edin.
-        - **Satır 1**'i seçin.
-        - **Satış siparişi satırları** Eylem Bölmesi'nde **Envanter**'i seçin ve ardından listeden **Rezervasyonu** seçin.
-        - **Rezervasyon** formunda envanteri rezerve etmek için **lotu rezerve et**'i seçin.
+        - **Satır 1** 'i seçin.
+        - **Satış siparişi satırları** Eylem Bölmesi'nde **Envanter** 'i seçin ve ardından listeden **Rezervasyonu** seçin.
+        - **Rezervasyon** formunda envanteri rezerve etmek için **lotu rezerve et** 'i seçin.
         - **Rezervasyon** tamamlandığında rezervasyon formunu kapatın.
         - **Satır 2** için stok rezerve etmek için bu adımları yineleyin.
     - Satış siparişini kapatın ve **Tüm satış siparişleri** liste sayfasına geri dönün.
@@ -181,17 +181,17 @@ Sistemin yönettiği küme çekmeyi ayarlamadan önce, uygun bazı giden işler 
 1. Ambar bırakma işlemi tamamlandığında, bir bilgi iletisi görüntülenir.
     - Her satış siparişi için sevkiyatlar oluşturulur.
     - Bir dalga oluşturulur ve her iki sevkiyat da dalgaya atanır. **Dalga kodunu** not edin.
-1. **Ambar yönetimi > Giden dalgalar > Sevkiyat dalgaları > Tüm dalgalar**'a gidin.
+1. **Ambar yönetimi > Giden dalgalar > Sevkiyat dalgaları > Tüm dalgalar** 'a gidin.
     - **Tüm dalgalar** listesinde , önceki adımda oluşturduğunuz **dalga kimliğini** bulun ve seçin.
     - Eylem panosunda **Dalga** sekmesini seçin.
-    - **Dalga** grubunda, dalgayı işlemek ve **iş** oluşturmak için **işle**'yi seçin.
+    - **Dalga** grubunda, dalgayı işlemek ve **iş** oluşturmak için **işle** 'yi seçin.
     - İşlem tamamlandığında, işin oluşturulduğunu ve dalgasının deftere nakledildiğini gösteren bilgi iletileri oluşturulur.
-1. **İsteğe bağlı**: oluşturulan işi görüntülemek için **Ambar yönetimi > iş > iş ayrıntıları**'na gidin. İki farklı iş kimliği oluşturulur. Her iş kodunun iki çekme satırı vardır.
+1. **İsteğe bağlı** : oluşturulan işi görüntülemek için **Ambar yönetimi > iş > iş ayrıntıları** 'na gidin. İki farklı iş kimliği oluşturulur. Her iş kodunun iki çekme satırı vardır.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobil cihaz akışı çalıştır
 
-1. Ambar **62**'deki bir kullanıcının mobil aygıtında oturum açın.
-1. **Ana menüde** **gidiş**'i seçin.
+1. Ambar **62** 'deki bir kullanıcının mobil aygıtında oturum açın.
+1. **Ana menüde** **gidiş** 'i seçin.
 1. **Gidiş** menüsünde çekmeyi başlatmak için **SD kümesini** seçin.
     - Bir küme oluşturulur ve daha önce oluşturduğunuz iki iş kodu buna bağlıdır. İkiden fazla iş kodu oluşturduysanız, kümeye yalnızca ilk ikisi eklenir. İş kimliklerinin, sorgu kurulumunda belirtildiği gibi, artan sırada kümeye eklendiğini unutmayın.
 
@@ -200,10 +200,10 @@ Sistemin yönettiği küme çekmeyi ayarlamadan önce, uygun bazı giden işler 
 
     - Menüyü seçtikten sonra, ilk seçim ekranı görüntülenir. Sistem, tüm eşleşen çekme satırlarını iki iş kimliğiyle toplar ve tek bir çekme kullanarak her iki siparişi karşılayabilmek için bir kez çekme konumunu ziyaret etmeniz için size yönlendirir. Bu işlem, Kullanıcı tarafından yönlendirilen küme çekme işlemiyle aynı şekilde gerçekleştirilir.
 
-1. **Tamam**'ı seçerek, ilk malzeme çekme yerleşimini ve maddesini onaylayın.
+1. **Tamam** 'ı seçerek, ilk malzeme çekme yerleşimini ve maddesini onaylayın.
     - Çekme miktarı, kümedeki satış siparişlerinde görüntülenen maddenin toplamı olacaktır.
 1. Pozisyon için çekilen madde miktarının doğru pozisyona koyulacağını onaylamak için pozisyon adını (sayısal veya alfabetik) girin.
 1. Tüm madde miktarları çekilene ve doğru pozisyona koyuluncaya kadar bu süreci tekrarlayın.
-1. Mobil cihazdaki son adım, kümeyi son konuma **koymada** kullanılır. **Tamam**'ı seçin
+1. Mobil cihazdaki son adım, kümeyi son konuma **koymada** kullanılır. **Tamam** 'ı seçin
     - Bu Yerine koyma işlemi teyit edildiğinde, küme profilindeki **küme sonu** alanında ayarladığınız değere göre küme kapanır ve kesilir. İş kimlikleri de kapatılmıştır.
 1. Mobil cihazda "küme tamamlandı" iletisi gösterilir.

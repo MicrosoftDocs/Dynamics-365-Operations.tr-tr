@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015192"
 ---
 # <a name="order-details-module"></a>Sipariş ayrıntıları modülü
 
@@ -38,7 +38,7 @@ Bir sipariş yerleştirildikten sonra, onay ayrıntılarını göstermek için s
 
 | Özellik adı  | Değerler | Tanım |
 |----------------|--------|-------------|
-| Başlık        | Başlık metni ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | Sipariş ayrıntıları modülünün başlığı olabilir. Varsayılan olarak, başlık için **H2** başlık etiketi kullanılır. Ancak, bu etiket erişilebilirlik gereksinimlerini karşılayacak şekilde değiştirilebilir. |
+| Başlık        | Başlık metni ve başlık etiketi ( **H1** , **H2** , **H3** , **H4** , **H5** veya **H6** ) | Sipariş ayrıntıları modülünün başlığı olabilir. Varsayılan olarak, başlık için **H2** başlık etiketi kullanılır. Ancak, bu etiket erişilebilirlik gereksinimlerini karşılayacak şekilde değiştirilebilir. |
 | İlgili kişi numarası | Text | Siparişle ilgili sorular için bir ilgili kişi numarası sağlanabilir. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Sipariş ayrıntıları sayfası modülünde kullanılabilen modüller
@@ -52,22 +52,22 @@ Sipariş Ayrıntıları sayfası oluşturduğunuzda, diğer ilgili modülleri de
 
 Bir yeni sayfaya sipariş ayrıntıları modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
-1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Sipariş ayrıntıları şablonu** adını girin ve ve **Tamam**'ı seçin.
-1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Sipariş ayrıntıları** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin ve ardından şablonu önizlemek için **Önizleme**'yi seçin. Sipariş ayrıntıları numarasının bağlamını gerektirdiğinden, sipariş teyidi modülü işlenmemelidir.
-1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
-1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seç** iletişim kutusunda **Sipariş ayrıntıları şablonu**'nu seçin. **Sayfa adı** altından **Sipariş ayrıntıları sayfası** girin ve **Tamam**'ı seçin.
-1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Sipariş ayrıntıları** modülünü seçin ve **Tamam**'ı seçin.
-1. Sipariş ayrıntılatı modülünün özellikler bölmesinde, kurşun kalem simgesinin yanındaki **Başlık**'ı seçin.
-1. **Başlık** iletişim kutusunun **Başlık Metni** alanında, **Sipairş ayrıntıları** başlık metnini girin ve ardından **Tamam**'ı seçin.
-1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
-1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
+1. Bir yeni şablonu oluşturmak için **Şablonlar** 'a gidin ve **Yeni** 'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Sipariş ayrıntıları şablonu** adını girin ve ve **Tamam** 'ı seçin.
+1. **Gövde** yuvası için üç nokta ( **...** ) düğmesini seçin ve **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini ( **...** ) ve sonra **Modül ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Sipariş ayrıntıları** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin ve ardından şablonu önizlemek için **Önizleme** 'yi seçin. Sipariş ayrıntıları numarasının bağlamını gerektirdiğinden, sipariş teyidi modülü işlenmemelidir.
+1. Şablonu iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Sayfalar** 'a gidin ve yeni sayfa oluşturmak için **Yeni** 'yi seçin.
+1. **Şablon seç** iletişim kutusunda **Sipariş ayrıntıları şablonu** 'nu seçin. **Sayfa adı** altından **Sipariş ayrıntıları sayfası** girin ve **Tamam** 'ı seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini ( **...** ) ve sonra **Modül ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Sipariş ayrıntıları** modülünü seçin ve **Tamam** 'ı seçin.
+1. Sipariş ayrıntılatı modülünün özellikler bölmesinde, kurşun kalem simgesinin yanındaki **Başlık** 'ı seçin.
+1. **Başlık** iletişim kutusunun **Başlık Metni** alanında, **Sipairş ayrıntıları** başlık metnini girin ve ardından **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

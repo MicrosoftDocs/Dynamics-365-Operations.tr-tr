@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016620"
 ---
 # <a name="replenishment-over-location-capacity"></a>Yerleşim kapasitesine göre stok yenileme
 
@@ -49,9 +50,9 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak [örnek senaryo](#
 
 Konum profilinde kapasiteye göre stok yenileme işlevini etkinleştirin.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri**'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri** 'ne gidin.
 1. Sol bölmede **PICK-06** seçin.
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
 1. **Stok yenileme** hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
 
     - **Konum Kapasitesini Aş:** *Evet*
@@ -62,7 +63,7 @@ Konum profilinde kapasiteye göre stok yenileme işlevini etkinleştirin.
 
         Bu alan, ne kadar işin serbest bırakılacağını belirlemek için kullanılan yöntemi tanımlar. Miktar ya da yüzdeye göre serbest bırakabilirsiniz:
 
-        - *Yüzde* - Stok sınırları veya hacimlere göre kapasite yüzdesi kullanmak için bu seçeneği işaretleyin. Bu seçeneğin belirlenmesi **Taşma yüzdesi** alanını etkinleştirir ve ilgili iki miktar alanı olan **Taşma miktarı** ve **Taşma birimi**'ni devre dışı bırakır.
+        - *Yüzde* - Stok sınırları veya hacimlere göre kapasite yüzdesi kullanmak için bu seçeneği işaretleyin. Bu seçeneğin belirlenmesi **Taşma yüzdesi** alanını etkinleştirir ve ilgili iki miktar alanı olan **Taşma miktarı** ve **Taşma birimi** 'ni devre dışı bırakır.
 
             Malzeme çekme konumları hacim kullanıyorsa bu seçeneği kullanabilirsiniz.
 
@@ -104,35 +105,35 @@ Konum profilinde kapasiteye göre stok yenileme işlevini etkinleştirin.
 > [!NOTE]
 > Burada açıklandığı gibi bir dalga adımı kodu ayarlamak için öncelikle *Kuruluş genelinde dalga adımı kodu* adlı özelliği açmak üzere [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanmanız gerekebilir.
 
-1. **Ambar Yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları**'na gidin.
-1. **Yeni**'yi seçin ve ardından aşağıdaki değerleri ayarlayın:
+1. **Ambar Yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları** 'na gidin.
+1. **Yeni** 'yi seçin ve ardından aşağıdaki değerleri ayarlayın:
 
     - **Dalga adımı kodu:** *Stok yenileme*
     - **Dalga adımı açıklaması:** *Stok yenileme*
     - **Dalga adımı türü:** *Stok yenileme*
 
-1. **Kaydet**'i seçin.
+1. **Kaydet** 'i seçin.
 
 ### <a name="replenishment-template"></a>Stok yenileme şablonu
 
 Stok yenileme şablonları, bir konumda stokun ne zaman ve nasıl yenileneceğini denetleyen kural kümesidir.
 
-1. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin.
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları** 'na gidin.
+1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
 1. **Genel Bakış** bölümünde, **Stok yenileme şablonu** alanının *Talep stok yenilemesi* olarak ayarlandığı satırı seçin.
 1. Aşağıdaki değerleri ayarlayın:
 
     - **Dalga adımı kodu:** *Stok yenileme*
     - **Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver:** *Evet*
 
-1. **Kaydet**'i seçin.
+1. **Kaydet** 'i seçin.
 
 ### <a name="wave-template"></a>Dalga şablonu
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin.
 1. Sol bölmede, **Dalga şablonu türü** alanını *Sevkiyat* olarak ayarlayın.
 1. Listeden **61 Sevkiyat** şablonunu seçin.
-1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
 1. **Genel** hızlı sekmesinde **Stok yenileme işi serbest bırakmayı otomatik hale getir** seçeneğini *Evet* olarak ayarlayın.
 
     Talep tabanlı stok yenileme işi oluşturmak ve bunu otomatik olarak serbest bırakmak için bu seçeneği *Evet* olarak ayarlayın. Stok yenileme dalga yöntemini dalga şablonuna eklemeniz **Dalga talebi** türünde stok yenileme şablonu oluşturmanız gerekir. **Stok yenileme şablonları** sayfasında bir stok yenileme şablonu ayarlayın. Stok yenileme şablonu ayarlamak için bu stok yenileme yöntemini dalga şablonuna eklemeniz gerekir.
@@ -143,7 +144,7 @@ Stok yenileme şablonları, bir konumda stokun ne zaman ve nasıl yenileneceğin
     - **Ad:** *Stok yenileme*
 
 1. Bu satır için **Dalga adımı kodu** alanını *Stok yenileme* olarak ayarlayın.
-1. **Kaydet**'i seçin.
+1. **Kaydet** 'i seçin.
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -153,23 +154,23 @@ Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip a
 
 #### <a name="create-sales-order-1"></a>Satış siparişi oluşturma 1
 
-1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
-1. Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni**'yi seçin.
+1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
+1. Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni** 'yi seçin.
 1. İletişim kutusunda aşağıdaki değerleri ayarlayın.
 
     - **Müşteri hesabı:** *US-007*
     - **Ambar:** *61*
 
-1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 1. Yeni satış siparişi açılır. **Satış siparişi satırları** hızlı sekmesinde yeni, boş bir satır bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *T0100*
     - **Miktar:** *40*
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon**'u seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon** 'u seçin.
 1. **Rezervasyon** sayfasında, **Lot rezerve et** 'i seçin.
 1. Sayfayı kapatın.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
 
     Ouşturulan dalga kimliğini ve sevkiyat kimliğini gösteren bilgi iletileri alırsınız. Ayrıca bir stok yenileme dalgası da oluşturulur.
 
@@ -177,22 +178,22 @@ Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip a
 
 #### <a name="create-sales-order-2"></a>Satış siparişi oluşturma 2
 
-1. **Tüm satış siparişleri** sayfasında, Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni**'yi seçin.
+1. **Tüm satış siparişleri** sayfasında, Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni** 'yi seçin.
 1. İletişim kutusunda aşağıdaki değeri ayarlayın.
 
     - **Müşteri hesabı:** *US-001*
     - **Ambar:** *61*
 
-1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 1. Yeni satış siparişi açılır. **Satış siparişi satırları** hızlı sekmesinde yeni, boş bir satır bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *T0100*
     - **Miktar:** *60*
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon**'u seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon** 'u seçin.
 1. **Rezervasyon** sayfasında, **Lot rezerve et** 'i seçin.
 1. Sayfayı kapatın.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
 
     Ouşturulan dalga kimliğini ve sevkiyat kimliğini gösteren bilgi iletileri alırsınız. Ayrıca bir stok yenileme dalgası da oluşturulur.
 
@@ -200,22 +201,22 @@ Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip a
 
 #### <a name="create-sales-order-3"></a>Satış siparişi oluşturma 3
 
-1. **Tüm satış siparişleri** sayfasında, Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni**'yi seçin.
+1. **Tüm satış siparişleri** sayfasında, Eylem Bölmesinde, yeni satış siparişi oluşturma iletişim kutusunu açmak için **Yeni** 'yi seçin.
 1. İletişim kutusunda aşağıdaki değerleri ayarlayın.
 
     - **Müşteri hesabı:** *US-004*
     - **Ambar:** *61*
 
-1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 1. Yeni satış siparişi açılır. **Satış siparişi satırları** hızlı sekmesinde yeni, boş bir satır bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *T0100*
     - **Miktar:** *30*
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon**'u seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Stok \> Rezervasyon** 'u seçin.
 1. **Rezervasyon** sayfasında, **Lot rezerve et** 'i seçin.
 1. Sayfayı kapatın.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
 
     Ouşturulan dalga kimliğini ve sevkiyat kimliğini gösteren bilgi iletileri alırsınız. Ayrıca bir stok yenileme dalgası da oluşturulur.
 
@@ -223,7 +224,7 @@ Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip a
 
 #### <a name="view-work-details"></a>İş ayrıntılarını görüntüleme
 
-1. **Ambar yönetimi \> İş \> İş ayrıntıları**'na gidin.
+1. **Ambar yönetimi \> İş \> İş ayrıntıları** 'na gidin.
 1. **Genel Bakış** bölümünde, ambar *61* için **Ambar** sütununa filtre uygulayın.
 1. Üç talepli satış siparişi için yedi iş kodu oluşturulduğunu görürsünüz.
 
@@ -252,11 +253,11 @@ Daha sonra gereksinim duyacağınız plaka kodlarını bulmak için aşağıdaki
     - **Madde numarası:** *T0100*
     - **Ambar:** *61*
 
-1. **Uygula**'yı seçin.
+1. **Uygula** 'yı seçin.
 1. Eylem Bölmesinde **Boyutlar** öğesini seçin.
 1. **Boyutlar görünümü** iletişim kutusunda **Depolama Boyutları** bölümünde, tüm değerleri seçin.
-1. **Hareketler** bölümünde, **Kalem numarası** ve **Miktar \<\> 0**'ı seçin.
-1. Bitirdiğinizde iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. **Hareketler** bölümünde, **Kalem numarası** ve **Miktar \<\> 0** 'ı seçin.
+1. Bitirdiğinizde iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 1. **Eldeki stok** kılavuzu her bir konumdaki *T0100* kalemi için plaka numaralarını gösterir. Daha sonra bu bilgilere gereksinim duyacağınız için her konumdaki plakayı not edin.
 1. Sayfayı kapatın.
 
@@ -266,8 +267,8 @@ Daha sonra gereksinim duyacağınız plaka kodlarını bulmak için aşağıdaki
 
 #### <a name="replenishment"></a>Stok yenileme
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
-1. **Stok \> Stok yenileme**'ye gidin.
+1. Ambar uygulamasında ambar *61* 'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61* , parola olarak *1* girin.)
+1. **Stok \> Stok yenileme** 'ye gidin.
 
     İlk stok yenileme işlemini tamamlamanız istenir. Kalem numarası, miktar ve malzeme çekme konumu gösterilir.
 
@@ -276,11 +277,11 @@ Daha sonra gereksinim duyacağınız plaka kodlarını bulmak için aşağıdaki
 
     Sistem, çekilen kalemin yeni plakaso için bir hedef plaka numarası oluşturur.
 
-1. Değeri onaylamak için **Tamam**'ı seçin.
+1. Değeri onaylamak için **Tamam** 'ı seçin.
 
     Kullanıcıya hedef plakayı stok yenileme konumuna koymasını bildiren yerine koyma işi gösterilir. *Yerine koyma* konumu **06A01R2S1B** olmalıdır.
 
-1. Yerine koyma ayrıntılarını onaylayın ve **Tamam**'ı seçin.
+1. Yerine koyma ayrıntılarını onaylayın ve **Tamam** 'ı seçin.
 
     "İş Tamamlandı" iletisi alırsınız ve sonraki stok yenileme malzeme çekme görevinin ayrıntıları gösterilir: kalem numarası, miktar ve malzeme çekilecek konum. Malzeme çekme konumu ilk stok yenileme konumuyla aynı olacaktır. Bu nedenle, plaka ilk stok yenileme işi görevi için kullanılan plakayla aynı koda sahip olacaktır.
 
@@ -296,13 +297,13 @@ Konumdan yeterince stok çekilene kadar mobil cihaz menü öğesindeki iş serbe
 
 Kalan stok yenileme görevinin tamamlanabilmesi için önce, malzeme çekme konumunda stokun kalan stok yenileme işini engellemeyecek bir düzeyde olması gerekir. Başka bir deyişle,konumdaki eldeki stok miktarının ve stok yenileme miktarının toplamı, **Taşma miktarı** değerini aşamaz. Bu toplam, taşma miktarından az olduğunda, kalan stok yenileme işinin engeli kaldırılır.
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61*, parola olarak *1* girin.)
-1. **Giden \> Satış çekme**'ye gidin.
+1. Ambar uygulamasında ambar *61* 'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *61* , parola olarak *1* girin.)
+1. **Giden \> Satış çekme** 'ye gidin.
 1. Satış siparişi 1'in ilk iş kodunu girin.
 
     Daha önce **İş ayrıntıları** sayfasında not ettiğiniz satış siparişleri iş kodlarına bakın. Buraya gireceğiniz iş kodu, iki ayrı konumdan 10 beher miktarında malzeme çekme işi oluşturur.
 
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     **Satış siparişleri: Malzeme çekme** görevi sayfası, ilk konum için kalem numarası, miktar ve malzeme çekilecek konumu gösterir.
 
@@ -316,7 +317,7 @@ Kalan stok yenileme görevinin tamamlanabilmesi için önce, malzeme çekme konu
 
     **Satış siparişleri: Yerine koyma** sayfasında, tamamlanan her iki işi giden hazırlama konumuna yerine koymanız istenir.
 
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
@@ -324,7 +325,7 @@ Kalan stok yenileme görevinin tamamlanabilmesi için önce, malzeme çekme konu
 
     Bu iş kodu için yalnızca bir malzeme çekme görevi vardır.
 
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     **Satış siparişleri: Malzeme çekme** görevi sayfası, kalem numarası, miktar ve malzeme çekilecek konumu gösterir.
 
@@ -334,7 +335,7 @@ Kalan stok yenileme görevinin tamamlanabilmesi için önce, malzeme çekme konu
 
 1. **Tamam** düğmesini (onay işareti sembolü) seçin.
 1. Giden hazırlama konumunda yerine koyma görevi yönergelerini onaylayın.
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
@@ -344,7 +345,7 @@ Bağlantılı olduğu stok yenileme görevi tamamlanmadığı için satış sipa
 
     Bu iş kodu için yalnızca bir malzeme çekme görevi vardır.
 
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     **Satış siparişleri: Malzeme çekme** görevi sayfası, kalem numarası, miktar ve malzeme çekilecek konumu gösterir.
 
@@ -354,7 +355,7 @@ Bağlantılı olduğu stok yenileme görevi tamamlanmadığı için satış sipa
 
 1. **Tamam** düğmesini (onay işareti sembolü) seçin.
 1. Giden hazırlama konumunda yerine koyma görevi yönergelerini onaylayın.
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
@@ -364,7 +365,7 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 
 Şimdi mobil cihaz üzerinden bu stok yenileme işini işleyebilirsiniz.
 
-1. **Stok \> Stok yenileme**'ye gidin.
+1. **Stok \> Stok yenileme** 'ye gidin.
 
     Kalan stok yenileme işlemini tamamlamanız istenir. Kalem numarası, miktar ve malzeme çekme konumu gösterilir.
 
@@ -373,11 +374,11 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 
     Sistem, çekilen kalemin yeni plakaso için bir hedef plaka numarası oluşturur.
 
-1. Değeri onaylamak için **Tamam**'ı seçin.
+1. Değeri onaylamak için **Tamam** 'ı seçin.
 
     Kullanıcıya hedef plakayı stok yenileme konumuna koymasını bildiren yerine koyma işi gösterilir. *Yerine koyma* konumu **06A01R2S1B** olmalıdır.
 
-1. Yerine koyma ayrıntılarını onaylayın ve **Tamam**'ı seçin.
+1. Yerine koyma ayrıntılarını onaylayın ve **Tamam** 'ı seçin.
 
     "İş Tamamlandı" ve "Kullanılabilir İş Yok" iletilerini alırsınız.
 
@@ -387,7 +388,7 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 
     Bu iş kodu için yalnızca bir malzeme çekme görevi vardır.
 
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     **Satış siparişleri: Malzeme çekme** görevi sayfası, kalem numarası, miktar ve malzeme çekilecek konumu gösterir.
 
@@ -397,7 +398,7 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 
 1. **Tamam** düğmesini (onay işareti sembolü) seçin.
 1. Giden hazırlama konumunda yerine koyma görevi yönergelerini onaylayın.
-1. **Tamam**'ı seçin.
+1. **Tamam** 'ı seçin.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 

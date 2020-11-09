@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212630"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016597"
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
@@ -34,7 +34,7 @@ ms.locfileid: "3212630"
 - Dikkat gerektiren işlem görmemiş dalgalar
 - Dikkat gerektiren açık ambar işi
 
-Her üç kutucuk için ürün reçetesi (BOM) satırları ve formül satırlarının ham madde tarihi çalışma alanı tarihiyle ve **Çalışma alanımı yapılandır** menüsünde ayarlanmış olan **Üretim birimi**, **Kaynak grubu** ve **Kaynak** alanları filtreleriyle karşılaştırılır. Varsayılan olarak, çalışma alanı tarihi geçerli tarihe ayarlanır ancak bu tarihi düzeltebilirsiniz.
+Her üç kutucuk için ürün reçetesi (BOM) satırları ve formül satırlarının ham madde tarihi çalışma alanı tarihiyle ve **Çalışma alanımı yapılandır** menüsünde ayarlanmış olan **Üretim birimi** , **Kaynak grubu** ve **Kaynak** alanları filtreleriyle karşılaştırılır. Varsayılan olarak, çalışma alanı tarihi geçerli tarihe ayarlanır ancak bu tarihi düzeltebilirsiniz.
 
 Yayımlanmamış bir ürün reçetesi satırının veya formül satırının, satır hammadde tarihinin çalışma alanı tarihiyle aynı veya bu tarihten önce olduğu ve çalışma alanındaki filtreler tarafından tanımlanan ölçütü karşılayıp karşılamadığı açısından dikkatli şekilde incelenmesi gerekir.
 

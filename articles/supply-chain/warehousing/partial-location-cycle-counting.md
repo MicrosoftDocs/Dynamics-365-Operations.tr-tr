@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
+ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760019"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017610"
 ---
 # <a name="partial-location-cycle-counting"></a>Kısmi konum döngü sayımı
 
@@ -37,7 +37,7 @@ Döngü sayımı planlarını sayım işi oluşturmak için kullanarak, gerçek 
 ## <a name="how-to-configure-partial-location-cycle-counting"></a>Kısmi konum döngü sayımının yapılandırılması
 Sayım işlemleri için ambar iş işlemini kullanıyorsanız, her bir konum için bir iş başlığı oluşturulur. Döngü sayım planı tanımlarsanız, **Konumları seç** sorgusunu, oluşturulan döngü sayımı işini sınırlamak için kullanabilirsiniz. Döngü sayım planı için ürünler seçtiğinizde, nelerin sayıldığını belirlemek için hem ürün hem de ürün çeşidi sorgularını seçebilirsiniz. 
 
-Bir **iş şablonunu**, döngü sayım planının nasıl oluşturulacağını tanımlamak için bir döngü sayım planı ile ilişkilendirebilirsiniz. Sayım işlemleri için iş şablonu, doğrudan döngü sayım planından referans alınır. 
+Bir **iş şablonunu** , döngü sayım planının nasıl oluşturulacağını tanımlamak için bir döngü sayım planı ile ilişkilendirebilirsiniz. Sayım işlemleri için iş şablonu, doğrudan döngü sayım planından referans alınır. 
 
 İş şablonu ayrıntılarını tanımladığınızda, **İş satırı bölmeleri** seçeneğini, sayım iş satırlarının madde numarası mı yoksa ürün çeşidi numarasına mı göre gruplanacağını belirtmek için kullanabilirsiniz. Bu ayar, bir konumdaki yalnızca belirli ürünler için eldeki stoku saymak istiyorsanız gereklidir. Oluşturulan döngü sayımı iş satırları, burada tanımladığınız bilgi düzeyine sahip olacaktır ve yönlendirmeli sayım işlemi, bu düzeye bağlı olacak ele alınacaktır. 
 
@@ -51,7 +51,7 @@ Kısmi döngü sayımı işlemi için, belirli bir konumdaki eldeki tüm maddele
 Bu örnekte, ambar 61'de yalnızca ürün numarası A0001 sayılacaktır.
 
 1.  Döngü sayımı için yeni bir iş şablonu oluşturulur. **Döngü satır sonları** seçeneği, sayım iş satırlarını madde numarasına göre gruplamak için kullanılır. Bu nedenle, oluşturulan döngü sayım işi, madde numarasına göre satırlara sahip olacaktır. Satırları ayrıca ürün çeşit numarasına göre de gruplayabilirsiniz.
-2.  Yeni oluşturulan iş şablonuna referans gösteren bir döngü sayım planı oluşturulur. Döngü sayım planı, ambar 61'deki (**Konum seç** sorgusu) madde numarası A0001 bulunduran tüm konumları kapsar. Belirli ürünlerin seçimi **Döngü sayımı ürün seçimi** bölümünde tanımlanır.
+2.  Yeni oluşturulan iş şablonuna referans gösteren bir döngü sayım planı oluşturulur. Döngü sayım planı, ambar 61'deki ( **Konum seç** sorgusu) madde numarası A0001 bulunduran tüm konumları kapsar. Belirli ürünlerin seçimi **Döngü sayımı ürün seçimi** bölümünde tanımlanır.
 3.  **Boş yerleşimler** alanını **Boşu hariç tut** olarak ayarlayarak döngü sayımı planları için ürünler seçebilirsiniz. Döngü sayımı planı işlendiğinde, A0001 madde numarası için kısmi döngü sayımı işi oluşturulur. Gerçek sayım işlemi, yönlendirmeli döngü sayımı için bir taşınabilir aygıt menü öğesi kullanılarak gerçekleştirilebilir.
 
 

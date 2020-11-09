@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkException, WHSWorker
+ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527431"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015976"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Eksik çekilen madde yeniden tahsisini ayarlama
 
@@ -43,13 +43,13 @@ Ambar çalışanının işledikleri sevkiyatın ihtiyaçlarına göre bir seçim
 
 Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
 
-1. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > İş > İş istisnaları**'na gidin.
-2. **Yeni**'ye tıklayın 
+1. **Gezinti panosu** 'nda, **Ambar yönetimi > Kurulum > İş > İş istisnaları** 'na gidin.
+2. **Yeni** 'ye tıklayın 
 3. **İş özel durumu kodu** alanına bir değer yazın. Bu, bu özel durumun başlığı olacaktır. Örneğin, Kısa malzeme çekme kılavuzu.
 4. **Tanım** alanına bir değer girin. Bu, bu özel durumun kullanımıyla ilgili kısa bir açıklama olacaktır. Örneğin, Kısa malzeme çekme - madde mevcut değil.
-5. **Özel durum** türü alanında, **Kısa çekme**'yi seçin.
+5. **Özel durum** türü alanında, **Kısa çekme** 'yi seçin.
 6. **Stoğu ayarla** onay kutusunu işaretleyin. Seçilirse, stok kısa malzeme çekme yerleşiminde 0'a otomatik olarak ayarlanır.
-7. **Varsayılan ayarlama türü kodu** alanına bir değer girin veya bir değer seçin. Örneğin, USMF'de **Kaynak Kaldırma Ayarlama Devre Dışı**'nı seçebilirsiniz. Her ayarlama türü kodu dört temel özellik içerir: ad, açıklama, stok günlüğü adı ve **Rezervasyonları kaldır**. **Rezervasyonları kaldır** etkinse, kısa çekilen sipariş satırının rezervasyonları kaldırılır.  
+7. **Varsayılan ayarlama türü kodu** alanına bir değer girin veya bir değer seçin. Örneğin, USMF'de **Kaynak Kaldırma Ayarlama Devre Dışı** 'nı seçebilirsiniz. Her ayarlama türü kodu dört temel özellik içerir: ad, açıklama, stok günlüğü adı ve **Rezervasyonları kaldır**. **Rezervasyonları kaldır** etkinse, kısa çekilen sipariş satırının rezervasyonları kaldırılır.  
 8. **Madde yeniden tahsisi** alanında bir değer seçin (örneğin El ile). El ile veya Otomatik ve El ile seçeneklerini belirlerseniz, ambar çalışanının el ile yeniden tahsisi kullanmak için etkinleştirilmesi gerekir.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Çalışanı el ile madde yeniden tahsisini kullanmak üzere ayarlama
@@ -57,10 +57,10 @@ Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
 Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
 
 1. Sayfayı kapatın.
-2. **Gezinti panosu**'nda, **Ambar yönetimi > Kurulum > Çalışan**'a gidin.
-3. **Düzenle**'yi tıklatın.
+2. **Gezinti panosu** 'nda, **Ambar yönetimi > Kurulum > Çalışan** 'a gidin.
+3. **Düzenle** 'yi tıklatın.
 4. Listede çalışan seçin. Örneğin Julia Finanderburk.
 5. **Kullanıcılar** hızlı sekmesini genişletin.
 6. Listede bir **Kullanıcı kodu** seçin. Örneğin, 24.
 7. **İş** hızlı sekmesini genişletin.
-8. **El ile madde yeniden tahsisine izin ver** alanında **Evet**'i seçin.
+8. **El ile madde yeniden tahsisine izin ver** alanında **Evet** 'i seçin.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212906"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018388"
 ---
 # <a name="set-up-consignment"></a>Konsinye ayarlama
 
@@ -53,7 +53,7 @@ Bu örnek senaryoda, USMF şirketinin ABD-104 satıcısıyla hammadde M9211CI ü
 USMF ilave periyodik işlemleri gerçekleştirir:
 
 -   Satıcıya ait stoğun farklı ambarlar arasındaki fiziksel hareketi, transfer günlüğü kullanılarak işlenir.
--   Eldeki fiziksel stok,**Madde sayımı** günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
+-   Eldeki fiziksel stok, **Madde sayımı** günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
 
 Satıcı, ABD-104 **Eldeki konsinye stok** sayfasını kullanarak güncelleştirmeleri izleyebilir.
 
@@ -78,11 +78,11 @@ Sipariş oluşturulduktan sonra konsinye satınalma sipariş satırları miktar�
 Gelen konsinye işlemlerle alakalı satıcı iş birliği arabiriminin üç sayfası vardır:
 
 -   **Konsinye stoğu tüketen** **satınalma siparişleri** - Konsinye işleminden kaynaklanan sahiplik değişikliğiyle ilişkili satınalma siparişi bilgilerini detaylı olarak gösterir.
--   **Konsinye stoktan alınan ürünler**: Sahiplik değişikliği işlemi sırasında güncelleştirilen ürün girişleri bulunan maddeler ve miktarlar hakkında bilgileri gösterir.
--   **Eldeki konsinye stok**: Teslim edilmesi beklenen konsinye maddeler ve müşterinin işyerinde halihazırda fiziksel olarak bulunan maddeler hakkında bilgileri gösterir.
+-   **Konsinye stoktan alınan ürünler** : Sahiplik değişikliği işlemi sırasında güncelleştirilen ürün girişleri bulunan maddeler ve miktarlar hakkında bilgileri gösterir.
+-   **Eldeki konsinye stok** : Teslim edilmesi beklenen konsinye maddeler ve müşterinin işyerinde halihazırda fiziksel olarak bulunan maddeler hakkında bilgileri gösterir.
 
 ## <a name="inventory-owners"></a>Stok sahipleri
-Fiziksel gelen konsinye stoğu kaydetmek için bir satıcı sahibi tanımlamanız gerekir. Bu **Stok sahibi** sayfasında yapılır. **Satıcı hesabı**'nı seçtiğinizde bu **Ad** ve **Sahip** alanları için varsayılan değerleri oluşturur. **Sahip** alanındaki değer satıcıya görünür olacaktır, bu nedenle satıcı hesabı adlarınız şirket dışı insanların tanımaları için kolay değilse değiştirmek isteyebilirsiniz. **Sahip** alanını yalnızca **Stok sahibi** kaydını kaydettiğiniz zamana kadar düzenlemek mümkündür. **Ad** alanı satıcı hesabının ilişkilendirildiği tarafın adıyla doldurulur ve değiştirilemez.
+Fiziksel gelen konsinye stoğu kaydetmek için bir satıcı sahibi tanımlamanız gerekir. Bu **Stok sahibi** sayfasında yapılır. **Satıcı hesabı** 'nı seçtiğinizde bu **Ad** ve **Sahip** alanları için varsayılan değerleri oluşturur. **Sahip** alanındaki değer satıcıya görünür olacaktır, bu nedenle satıcı hesabı adlarınız şirket dışı insanların tanımaları için kolay değilse değiştirmek isteyebilirsiniz. **Sahip** alanını yalnızca **Stok sahibi** kaydını kaydettiğiniz zamana kadar düzenlemek mümkündür. **Ad** alanı satıcı hesabının ilişkilendirildiği tarafın adıyla doldurulur ve değiştirilemez.
 
 [![stok-sahipleri](./media/inventory-owners.png)](./media/inventory-owners.png)
 
@@ -92,7 +92,7 @@ Konsinye işlemlerinde kullanılacak maddeler **Sahip** boyutunun **Etkin** olar
 [![izleme-boyut-grubu](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Stok sahipliği değişiklik günlüğü
-Konsinye stoğun sahipliğinin satıcıdan konsinye stoğu tüketecek tüzel kişiliğe transferini kaydetmek için **Stok sahipliği değişiklik** günlüğü kullanılır. Diğer stok günlükleri gibi bir stok günlüğü adı ile tanımlanmalıdır. Bu adlar **Stok günlüklerinin adları** sayfasında oluşturulur ve **Günlük türü**, **Sahiplik değişikliği** olarak ayarlanmalıdır.
+Konsinye stoğun sahipliğinin satıcıdan konsinye stoğu tüketecek tüzel kişiliğe transferini kaydetmek için **Stok sahipliği değişiklik** günlüğü kullanılır. Diğer stok günlükleri gibi bir stok günlüğü adı ile tanımlanmalıdır. Bu adlar **Stok günlüklerinin adları** sayfasında oluşturulur ve **Günlük türü** , **Sahiplik değişikliği** olarak ayarlanmalıdır.
 
 [![stok-sahiplik-değiştirme-günlüğü](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

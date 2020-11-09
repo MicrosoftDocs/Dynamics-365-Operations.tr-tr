@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188982"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015019"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma
 
@@ -42,7 +42,7 @@ Müşteri 4035'in tutarı 1.000,00 olan bir faturası ve 100,00 tutarında bir a
 | CCRN-10050 | Alacak dekontu      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | ABD Doları      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Bir alacak dekontunu fatura ile kapatma
-Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın açar. Faturayı ve alacak dekontunu kapatman için **Hareketleri kapat** sayfasını kullanabilir. Kapatma işleminin bir parçası olarak, nakit iskontosu tarihlerini ve tutarlarını görüntüler. İki belgeyi işaretler ve sonra hareketleri kapatmak için **Deftere naklet**'i tıklatır. Fabrikam, iskontoları alacak dekontlarında sağladığından alacak notunda -1.00 iskonto vardır.
+Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın açar. Faturayı ve alacak dekontunu kapatman için **Hareketleri kapat** sayfasını kullanabilir. Kapatma işleminin bir parçası olarak, nakit iskontosu tarihlerini ve tutarlarını görüntüler. İki belgeyi işaretler ve sonra hareketleri kapatmak için **Deftere naklet** 'i tıklatır. Fabrikam, iskontoları alacak dekontlarında sağladığından alacak notunda -1.00 iskonto vardır.
 
 | İşaret     | Nakit iskontosu kullan | Fiş    | Hesap | Tarih      | Vade tarihi  | Fatura  | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
@@ -51,13 +51,11 @@ Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın aç
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
 
-|                              |           |
-|------------------------------|-----------|
-| Nakit iskontosu tarihi           | 12/7/2015 |
-| Nakit iskontosu tutarı         | -1,00     |
-| Nakit iskontosu kullan            | Normal    |
-| Alınan nakit iskontosu          | 0,00      |
-| Alınacak nakit iskontosu tutarı | -1,00     |
+- **Nakit iskonto tarihi** : 12/7/2015 
+- **Nakit iskontosu tutarı** : -1,00     
+- **Nakit iskontosu kullan** : Normal    
+- **Alınan nakit iskontosu** : 0,00      
+- **Alınacak nakit iskontosu tutarı** : -1,00     
 
 Kapatma 100,00 tutarında olur ve 99,00 tutarında bir ödeme ve 1,00 tutarında iskonto içerir.
 

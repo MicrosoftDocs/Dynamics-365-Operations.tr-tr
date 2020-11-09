@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 647c62c489e65596be87a658a3d53e74e53455d7
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652119"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012379"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Dynamics 365 Supply Chain Management'daki yenilikler veya değişiklikler 10.0.10 (Mayıs 2020)
 
@@ -39,10 +39,15 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.10'deki yeni veya
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere veya videolara götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 - [Ambar yönetimiyle varolan fiili ağırlık etiketlerinin kullanımı için geliştirme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+
 - [Ambar yönetimi için gelen yük yönetimi geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Daha fazla bilgi için bkz. [Satın alma siparişleri için gelen yüklerin ambarda işlenmesi](../warehousing/inbound-load-handling.md).
+
 - [Ambar yönetimi için etiket yazdırma geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daha fazla bilgi için bkz. [Plaka etiketleri için belge yönlendirme düzeni](../warehousing/document-routing-layout-for-license-plates.md).
+
 - [Ön işleme filtreleri etkinleştirildiğinde, Master planlama, eldeki stoku olan maddeleri içerir](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+
 - [Üretim alanı için yeni veri varlıkları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Ambar işlemleri için kalite yönetimi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Daha fazla bilgi için bkz. [Ambar işlemleri için kalite yönetimi](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar

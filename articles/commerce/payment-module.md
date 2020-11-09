@@ -3,7 +3,7 @@ title: Ödeme modülü
 description: Bu konu ödeme modülünü kapsamaktadır ve bu modülün Microsoft Dynamics 365 Commerce'ta nasıl yapılandırılacağını açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4267391edaf70ec645933b2c5c08a72735f52894
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 894ac35973927c193d6e9c54e326daefb8a3f4a5
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818338"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055393"
 ---
 # <a name="payment-module"></a>Ödeme modülü
 
@@ -41,6 +41,9 @@ Ayrıca ödeme modülü de oturum açmış müşterilerin ödeme bilgilerini kay
 Ödeme modülü, bağlılık programı puanları veya hediye kartı tarafından henüz kapsanmayan sipariş giderlerini kapsar. Bir siparişin toplamı bağlılık programı veya hediye kartı kredileri tarafından karşılanacaksa, ödeme modülü gizlenir ve müşteri siparişi bu modül olmadan verebilir.
 
 Adyen ödeme bağlayıcısı güçlü müşteri kimlik doğrulamasını (SCA) da destekler. Avrupa Birliği (AB) Ödeme Hizmetleri Yönergesi 2.0 (PSD2.0), çevrimiçi alışverişçilerin elektronik ödeme yöntemi kullandıklarında çevrimiçi alışveriş deneyimlerinin dışında kimlik doğrulamasının yapılmasını gerektirir. Ödeme akışı sırasında, müşteriler kendi bankacılık sitesine yönlendirilir. Ardından, kimlik doğrulamasından sonra yeniden Commerce ödeme akışına yönlendirilir. Bu yeniden yönlendirme sırasında, bir müşterinin ödeme akışına girdiği bilgiler (örneğin, sevkiyat adresi, teslimat seçenekleri, hediye kartı bilgileri ve bağlılık programı bilgileri) kalır. Bu özelliği etkinleştirmeden önce, SCA için ödeme bağlayıcısının Commerce Headquarters'da yapılandırılması gerekir. Daha fazla bilgi için bkz. [Adyen kullanarak Güçlü Müşteri Kimlik Doğrulaması](adyen_redirect.md).
+
+> [!NOTE]
+> Adyen ödeme Bağlayıcısı için, ödeme modülündeki iFrame modülü ancak, adyen URL'sini sitenizin izin verilenler listesine eklediğinizde oluşturulabilir. Bu adımı tamamlamak için, **\*.adyen.com** öğesini sitenizin içerik güvenlik ilkesinin **child-src** , **connect-src** , **img-src** , **script-src** ve **Style-src** yönergelerine ekleyin. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini yönetme](manage-csp.md). 
 
 Aşağıdaki resimde, ödeme sayfasındaki hediye kartı, bağlılık ve ödeme modülleri gösterilmektedir.
 

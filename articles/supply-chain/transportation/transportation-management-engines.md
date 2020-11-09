@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
+ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d4478f170e222a1e56596fbad7245832e300cdb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201399"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016413"
 ---
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
@@ -49,7 +49,7 @@ Aşağıdaki tabloda, kullanılabilecek taşıma yönetimi altyapıları göster
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
 ---------------------------------------------------
 
-Bir sevkıyatı belirli bir taşıyıcı kullanarak değerlendirmek için, birden fazla taşıma yönetimi altyapısı yapılandırmanız gerekir. **Değerlendirme altyapısı** gereklidir, ancak **Değerlendirme altyapısı**'nı desteklemek için diğer taşıma yönetimi altyapıları gerekebilir. Örneğin, **Değerlendirme altyapısı**, değerlendirmeyi kaynak ile hedef arasındaki mesafeye dayalı olarak hesaplamak için **Mesafe altyapısı**'ndan veri almak için kullanılabilir.
+Bir sevkıyatı belirli bir taşıyıcı kullanarak değerlendirmek için, birden fazla taşıma yönetimi altyapısı yapılandırmanız gerekir. **Değerlendirme altyapısı** gereklidir, ancak **Değerlendirme altyapısı** 'nı desteklemek için diğer taşıma yönetimi altyapıları gerekebilir. Örneğin, **Değerlendirme altyapısı** , değerlendirmeyi kaynak ile hedef arasındaki mesafeye dayalı olarak hesaplamak için **Mesafe altyapısı** 'ndan veri almak için kullanılabilir.
 
 ## <a name="whats-required-to-initialize-a-transportation-management-engine"></a>Bir taşıma yönetimi altyapısını başlatmak için ne gerekir?
 Taşıma yönetimi altyapısı, belirli bir şekilde işlemesi için başlangıç verileri ayarlamanızı gerektirir. Kurulum aşağıdaki veri türlerini içerebilir:
@@ -90,7 +90,7 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | **Transit zamanı altyapısı** ve **Mesafe altyapısı** | Meta verileri doğrudan mesafe altyapısının yapılandırma kurulum formundan alır.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
--   Bu bilgileri **Oran bazlı tür** sayfasında **Taşıma yönetimi** &gt; **Kurulum**'da tanımlayın.
+-   Bu bilgileri **Oran bazlı tür** sayfasında **Taşıma yönetimi** &gt; **Kurulum** 'da tanımlayın.
 
 | Seri | Dosya Adı                          | Alan türü | Veri tipi | Arama türü    | Zorunlu |
 |----------|-------------------------------|------------|-----------|----------------|-----------|

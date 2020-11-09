@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: a210af5e37e12d883054d46719602604870213b4
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652071"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012425"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.12 (Ağustos 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.12'daki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.507 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.12'deki yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, 10.0.507 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Önizleme sürümü:** 2020 Mayıs
 - **Genel kullanılabilirlik (kendi kendini güncelleştirme):** 2020 Temmuz
@@ -39,13 +39,21 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesindeki ek bilgilere bağlantı sağlar. Ek bağlantılar, söz konusu özellik için kullanılabilir olan ek belgelere veya videolara götürür. Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 - [Temizleme için iş kartı dokunmatik ekranı kilitlemeye izin verme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Daha fazla bilgi için bkz. [Cihazlar iş kartını yapılandırma](../production-control/config-job-card-device.md).
+
 - [Yük kalemi alınırken ambar uygulamasında ürün çeşitlerini ve izleme boyutlarını yakalama](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Daha fazla bilgi için bkz. [Mobil cihazları ambar işi için kurma](../warehousing/configure-mobile-devices-warehouse.md).
+
 - Maliyet hesaplama düzeyi (yeni BOM düzeyi)<br> - Daha fazla bilgi için bkz. [Maliyet hesaplama düzeyi](../cost-management/cost-calculation-level.md).
+
 - [Dynamics 365 Supply Chain Management için müşteri portalı](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Daha fazla bilgi için bkz. [Dynamics 365 Supply Chain Management için müşteri portalına genel bakış](../sales-marketing/customer-portal-overview.md).
+
 - [IoT zekası temel içgörüleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Daha fazla bilgi için bkz. [IoT Zekası ana sayfası](../iot/iot-intelligence-home-page.md).
+
 - [Ambar uygulaması için plaka teslim alma geliştirmeleri (devamı)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+
 - [Warehouse Mobile App için toplu dağıtım](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulamasını yükleme ve yapılandırmaya genel bakış](../warehousing/install-configure-warehousing-app.md).
+
 - [Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Daha fazla bilgi için bkz. [Ambar yönetimi eldeki stok girişlerini temizleme işi](../warehousing/onhand-cleanup.md).
+
 - [Satın alma ticari anlaşmaları için optimizasyon desteğini planlama](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Daha fazla bilgi için bkz. [Satın alma ticari anlaşmaları ile master planlama](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar

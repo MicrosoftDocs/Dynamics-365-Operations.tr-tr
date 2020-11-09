@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829224"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997412"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -44,7 +43,7 @@ Satış tekliflerini eşitleyebilmeniz için önce aşağıdaki ayarları günce
 
 ### <a name="setup-in-sales"></a>Sales içinde kurulum
 
-Sales'de **Ayarlar \> Yönetim \> Sistem ayarları \> Sales**'e gidin ve aşağıdaki ayarların kullanıldığından emin olun:
+Sales'de **Ayarlar \> Yönetim \> Sistem ayarları \> Sales** 'e gidin ve aşağıdaki ayarların kullanıldığından emin olun:
 
 - **Sistem fiyatlama hesaplamasını kullan** sistem seçeneğini **Evet** olarak ayarlayın.
 - **İndirim hesaplama yöntemi** alanı **Satır maddesi** olarak ayarlanmalıdır.
@@ -63,14 +62,14 @@ Supply Chain Management ve Sales için numara serileri teklifler ve siparişler 
 
 Satış teklifleri Sales veya Supply Chain Management'ta oluşturulabilir. Sales'de bir teklif oluşturursanız, bu gerçek zamanlı olarak Supply Chain Management ile eşitlenir. Aynı şekilde Supply Chain Management'ta bir teklif oluşturursanız, bu gerçek zamanlı olarak Sales ile eşitlenir. Aaşağıdaki noktaları unutmayın:
 
-+ Teklifte ürüne iskonto ekleyebilirsiniz. Bu durumda, iskonto Supply Chain Management ile eşitlenecektir. Başlıktaki **İskonto**, **Masraflar** ve **Vergi** alanları Supply Chain Management'taki bir ayar tarafından denetlenir. Bu kurulum hiçbir tümleştirme eşlemesini desteklemez. Bunun yerine **Fiyat**, **İskonto**, **Masraf** ve **Vergi** alanları Supply Chain Management'ta korunur ve işlenir.
-+ Satış teklifi başlığındaki **İskonto %**, **İskonto** ve **Navlun Tutarı** alanları salt okunur alanlardır.
-+ **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşlemek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
++ Teklifte ürüne iskonto ekleyebilirsiniz. Bu durumda, iskonto Supply Chain Management ile eşitlenecektir. Başlıktaki **İskonto** , **Masraflar** ve **Vergi** alanları Supply Chain Management'taki bir ayar tarafından denetlenir. Bu kurulum hiçbir tümleştirme eşlemesini desteklemez. Bunun yerine **Fiyat** , **İskonto** , **Masraf** ve **Vergi** alanları Supply Chain Management'ta korunur ve işlenir.
++ Satış teklifi başlığındaki **İskonto %** , **İskonto** ve **Navlun Tutarı** alanları salt okunur alanlardır.
++ **Navlun koşulları** , **Teslimat koşulları** , **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşlemek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
 
 Field Service çözümünü de kullanıyorsanız, **Teklif Satırı Hızlı Oluştur** parametresini yeniden etkinleştirdiğinizden emin olun. Parametrenin yeniden etkinleştirilmesi, hızlı oluştur işlevini kullanarak teklif satırları oluşturmaya devam etmenize olanak tanır.
 1. Dynamics 365 Sales uygulamanıza gidin.
 2. Üst gezinti çubuğunda ayarlar simgesini seçin.
-3. **Gelişmiş Ayarlar**'ı seçin.
+3. **Gelişmiş Ayarlar** 'ı seçin.
 4. **Sistemi Özelleştir** seçeneğini belirleyin.
 5. **Teklif Satırı** menü öğesini seçin.
 6. **Veri Hizmetleri** bölümüne gidin ve **Hızlı oluşturmaya izin ver** onay kutusunu seçin.
@@ -111,7 +110,7 @@ Satış faturaları Supply Chain Management'ta oluşturulur ve Sales'e eşitleni
 + Bir **Fatura numarası** alanı **Fatura** varlığına eklenmiştir ve sayfada görüntülenir.
 + **Satış siparişi** sayfasındaki **Fatura oluştur** düğmesi gizlidir çünkü faturalar Supply Chain Management'ta oluşturulacak ve Sales'e eşitlenecektir. **Fatura** sayfası düzenlenemez çünkü faturalar Supply Chain Management'tan eşitlenecektir.
 + **Satış siparişi durumu** değeri ilgili fatura Supply Chain Management'tan Sales'e eşitlendiğinde otomatik olarak **Faturalandı** olarak değişir. Ayrıca, faturanın oluşturulduğu satış siparişinin sahibi, faturanın sahibi olarak atanır. Bu nedenle, satış siparişinin sahibi faturayı görebilir.
-+ **Navlun koşulları**, **Teslimat koşulları** ve **Teslimat şekli** alanları varsayılan eşlemelere dahil değildir. Bu alanları eşlemek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
++ **Navlun koşulları** , **Teslimat koşulları** ve **Teslimat şekli** alanları varsayılan eşlemelere dahil değildir. Bu alanları eşlemek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
 
 ## <a name="templates"></a>Şablonlar
 

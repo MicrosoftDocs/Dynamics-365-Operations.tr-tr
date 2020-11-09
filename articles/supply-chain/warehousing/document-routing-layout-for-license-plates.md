@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSLicensePlateLabel
+ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 9af077022ab0759534d2c1da5f39997712e6a354
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017725"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Plaka etiketleri için belge yönlendirme düzeni
 
@@ -49,7 +49,7 @@ Yazdırma cihazının gönderilen metni yorumlayabilmesi koşuluyla, çok karma�
 
 Etiket yazdırma işleminin bir parçası olarak bu örnekteki `$LicensePlateId$` metni bir veri değeriyle değiştirilecektir.
 
-Yazdırılacak değerleri görmek için **Ambar yönetimi \> Sorgular ve raporlar \>Plaka etiketleri**'ne gidin.
+Yazdırılacak değerleri görmek için **Ambar yönetimi \> Sorgular ve raporlar \>Plaka etiketleri** 'ne gidin.
 
 Birçok yaygın kullanılan etiket oluşturma aracı, etiket düzenine ilişkin metni biçimlendirmenize yardımcı olabilir. Bu araçların çoğu `$FieldName$` biçimini destekler. Ek olarak, Microsoft Dynamics 365 Supply Chain Management, belge yönlendirme düzenine için alan eşlemesinin bir parçası olarak özel biçimlendirme mantığı kullanır.
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Bu biçim için bir açıklama aşağıda verilmiştir:
 
-- `FieldName` veri alanının adıdır (örneğin, **Miktar**).
+- `FieldName` veri alanının adıdır (örneğin, **Miktar** ).
 - `FormatString` verilerin nasıl yazdırılması gerektiğini tanımlar.
 
-Aşağıdaki örneklerde iş miktarı (**Miktar**) alanının nasıl özelleştirilebileceği gösterilmektedir:
+Aşağıdaki örneklerde iş miktarı ( **Miktar** ) alanının nasıl özelleştirilebileceği gösterilmektedir:
 
 - Her zaman dört basamağı göstermek için (sıfırları yer tutucular olarak kullanarak), `$Qty:0000$` kullanın. Örneğin, miktar 10 ise, etiket "0010" olarak görünür.
 - Her zaman iki ondalık basamak göstermek için `$Qty:0.00$` kullanın. Örneğin, miktar 10 ise, etiket "10,00" olarak görünür.
