@@ -2,7 +2,7 @@
 title: Kazanç yönetimi parametrelerini ayarlama
 description: Microsoft Dynamics 365 Human Resources'Ta sosyal haklar yönetimiyle ilgili parametreleri yapılandırın.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599368"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057040"
 ---
 # <a name="set-benefits-management-parameters"></a>Kazanç yönetimi parametrelerini ayarlama
 
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, ka
 
 ## <a name="configure-general-parameters"></a>Genel parametrelerini yapılandırma
 
-1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Paylaşılan Parametreleri**'ni seçin.
+1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Paylaşılan Parametreleri** 'ni seçin.
 
 2. **Genel** sekmesinde, aşağıdaki alanların değerleri belirtin:
 
@@ -45,22 +45,22 @@ Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, ka
    | **Oran değişikliği neden kodu** | Güncelleştirme oranı değişimi sürecinde bir çalışan avantajı planının iptal edilmesi ve yeniden açma işlemi sırasında kullanılacak neden kodu. Güncelleştirme oranı değişimi işlemi oran ile hangi kayıtların değiştiğini gösterir. |
    | **Kazanç yıllık maaş** | Bir personel için **Kazanç yıllık maaş** tutarını ayarlamanıza olanak tanır. Human Resources, karşılama tutarlarını belirlerken yıllık sabit ücret tutarı yerine **Kazançlar yıllık maaş** alanını kullanacaktır. |
    | **Yeni işe alınan kişi uygun** | Yeni işe alımların uygun olduğunu belirtir. |
-   | **Yeni işe alma kaydı dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi.</br></br>**Not**: Bu ayar, plan uygunluğu kuralında ayarladığınız tüm yeni işe alma dönemini geçersiz kılar. |
+   | **Yeni işe alma kaydı dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi.</br></br>**Not** : Bu ayar, plan uygunluğu kuralında ayarladığınız tüm yeni işe alma dönemini geçersiz kılar. |
    | **Varsayılan ödeme sıklığı** | Yeni çalışanlar eklendiğinde kullanılacak varsayılan ödeme sıklığı. |
    | **Yaşam olayları etkin** | Yaşam olaylarını etkinleştirir. |
    | **Eski kazanç formlarını gizle** | Eski kazanç formlarını gizlemenizi sağlar. |
 
-3. **Kaydet**'i seçin.
+3. **Kaydet** 'i seçin.
 
 ## <a name="configure-employee-self-service-parameters"></a>Personel self servisi parametrelerini yapılandırma
 
-1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Parametreleri**'ni seçin.
+1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Parametreleri** 'ni seçin.
 
-2. **Personel self servisi** sekmesinde, aşağıdaki alanların değerleri belirtin:
+2. **Kazanç yönetimi** sekmesinde, aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
    | **Kazanç doğrulaması** | Kendi kendine faydaların kullanıma alma sırasında kullanılacak doğrulama metni. |
    | **Görevlileri otomatik olarak seç** | Plan seçeneklerine uygunluğuna göre otomatik olarak bağımlılar ve lehdarlar oluşturulup oluşturulmayacağını belirtir. |
 
-3. **Kaydet**'i seçin.
+3. **Kaydet** 'i seçin.

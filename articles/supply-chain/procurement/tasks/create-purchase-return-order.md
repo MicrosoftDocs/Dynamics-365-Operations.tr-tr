@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018202"
 ---
 # <a name="create-a-purchase-return-order"></a>Satınalma iade siparişi oluşturma
 
@@ -31,11 +31,11 @@ Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma sipar
 
 ## <a name="create-a-new-purchase-return-order"></a>Yeni bir satın alma iade siparişi oluşturun
 1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Satınalma siparişleri > Tüm satınalma siparişleri** öğesine gidin. İlk adım satınalma iade siparişi olarak kullanılacak yeni bir satınalma siparişi oluşturmaktır.  
-2. **Yeni**'ye tıklayın.
+2. **Yeni** 'ye tıklayın.
 3. **Satıcı hesabı** alanına "US-102" girin.
-4. **Tamam**'a tıklayın.
-5. **Eylem Bölmesi**'nde, **Satınalma** öğesine tıklayın.
-6. **Alacak dekontu**'na tıklayın. Bu sayfadan mevcut satıcı faturasını iade siparişinize kopyalayabilirsiniz. Bu, diğer kopyalama eylemleri için kullanılanla aynı sayfadır. Ancak Alacak dekontu eyleminden açıldığından sayfa, satıcı faturalarını mahsuplaştıran bir iade siparişinin oluşturulmasını desteklemek üzere yapılandırılır.  
+4. **Tamam** 'a tıklayın.
+5. **Eylem Bölmesi** 'nde, **Satınalma** öğesine tıklayın.
+6. **Alacak dekontu** 'na tıklayın. Bu sayfadan mevcut satıcı faturasını iade siparişinize kopyalayabilirsiniz. Bu, diğer kopyalama eylemleri için kullanılanla aynı sayfadır. Ancak Alacak dekontu eyleminden açıldığından sayfa, satıcı faturalarını mahsuplaştıran bir iade siparişinin oluşturulmasını desteklemek üzere yapılandırılır.  
 7. **Parametreler** bölümünü genişletin.
     - **İşareti tersine çevir** seçeneği otomatik olarak seçilir ve değiştirilemez. Bu, işaretin miktarlar için değiştirilmesini ve eklenen sipariş satırlarının satıcı faturasını mahsuplaştırmasını sağlar.  
     - **Masrafları kopyala** seçeneği otomatik olarak seçilir ve değiştirilemez. Başka bir deyişle satıcı faturasındaki masraflar orijinal masrafı mahsuplaştırmak için satınalma iade siparişine eklenir. Sipariş başlığı ve satırları üzerindeki değişiklikleri daha sonra değiştirmek mümkündür.  
@@ -53,18 +53,18 @@ Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma sipar
 16. **Faturalar** bölümünü daraltın.
 17. **Seçilen satırlar veya kopyalanacak başlık** bölümünü genişletin. Bu görünüm, siparişinize kopyalanması için seçtiğiniz tüm belgelerin ve satırların bir özetini gösterir.  
 18. **Seçilen satırlar veya kopyalanacak başlık bölümünü** daraltın.
-19. **Tamam**'a tıklayın. Seçmiş olduğunuz satır şimdi satın alma iade siparişinize kopyalandı. **Miktar** alanı -10 gösterir.   
+19. **Tamam** 'a tıklayın. Seçmiş olduğunuz satır şimdi satın alma iade siparişinize kopyalandı. **Miktar** alanı -10 gösterir.   
 20. **Satınalma siparişi satırı** bölümünde, **Stok** öğesine tıklayın.
-21. **İşaretleme**'ye tıklayın. Oluşturulan sipariş satırı satıcı faturasındaki stok işlemine göre işaretlenmiştir. Bu, satıcıya iade edilen stok ile daha önce alınmış olan stokun aynı olduğunu garantiye alır. Örneğin, stokun Tüketildi olarak işaretlenmiş olduğu veya ürünün işaretleme kullanmayan bir ürün olması gibi işaretlemenin olmadığı bazı durumlar vardır.  
+21. **İşaretleme** 'ye tıklayın. Oluşturulan sipariş satırı satıcı faturasındaki stok işlemine göre işaretlenmiştir. Bu, satıcıya iade edilen stok ile daha önce alınmış olan stokun aynı olduğunu garantiye alır. Örneğin, stokun Tüketildi olarak işaretlenmiş olduğu veya ürünün işaretleme kullanmayan bir ürün olması gibi işaretlemenin olmadığı bazı durumlar vardır.  
 
-22. **Tamam**'a tıklayın.
+22. **Tamam** 'a tıklayın.
 
 ## <a name="confirm-and-record-the-shipment-of-goods"></a>Malların sevkiyatını onaylayın ve kaydedin
-1. **Eylemler > Onayla**'yı tıklayın.
-2. **Eylem Bölmesinde**, **Teslim al** öğesine tıklayın.
+1. **Eylemler > Onayla** 'yı tıklayın.
+2. **Eylem Bölmesinde** , **Teslim al** öğesine tıklayın.
 3. **Ürün girişi** öğesine tıklayın.
     - Bu sayfa satınalma siparişleri için ürün girişlerini kaydetmek ve ayrıca malların satıcıya iadesini işlemek için kullanılır. Eksi değerli miktarı olan sipariş satırları malların satıcıya iade edildiği anlamına gelir ve bu sayfadan oluşturulabilen belge bu amaçla sevk irsaliyesi olarak kullanılabilir.   
     - Bu örnek için **Miktar** alanında Sipariş edilen miktarı seçin. Bu işlem, sipariş satırlarının oluşturulduğu tam sipariş miktarı için sevkiyatın işleneceğini garantiye alır.   
 4. **Ürün girişi** alanına bir değer girin. Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
-5. **Tamam**'a tıklayın. Mallar şimdi satın alma iade siparişinde sevk edildi olarak kaydedilmiştir ve bir ürün giriş yevmiye defteri oluşturulmuştur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını veya iade edildiğini görmek için Ürün girişi etkinliğini kullanabilirsiniz.  
+5. **Tamam** 'a tıklayın. Mallar şimdi satın alma iade siparişinde sevk edildi olarak kaydedilmiştir ve bir ürün giriş yevmiye defteri oluşturulmuştur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını veya iade edildiğini görmek için Ürün girişi etkinliğini kullanabilirsiniz.  
 

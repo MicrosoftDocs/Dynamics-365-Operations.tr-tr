@@ -3,7 +3,7 @@ title: Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullan
 description: Bu konu Barkod veri kaynaklarının barkod görüntülerini oluşturmak için nasıl kullanılacağını açıklamaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: fdb70c7e72647de4c6cd977b286c19c906559438
-ms.sourcegitcommit: a56b22729fbbb941471e927e2f932acaf624cf5e
+ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
+ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435477"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088209"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Barkod görüntüleri oluşturmak için Barkod veri kaynaklarını kullanma
 
@@ -54,25 +54,26 @@ Aşağıdaki yer tutucular rapor şablonlarında barkod görüntüleri girmek i�
     - EAN-8
     - EAN-13
     - ITF-14
+    - Akıllı Posta
+    - MSI
+    - Plessey
     - PDF417
     - UPC-A
     - UPC-E
-    - MSI
-    - Plessey
 
 - İki boyutlu barkodlar:
 
     - Aztec
-    - DataMatrix
+    - Veri Matrisi
     - QR Kodu
 
 **Barkod** veri kaynağı yapılandırdığınızda, görüntü oluşturmak için kullanılan belirli işleme parametrelerini tanımlayabilirsiniz:
 
-- **Genişlik**: Barkod genişliğini piksel olarak belirtin. **0** (sıfır) değeri, varsayılan genişliğin kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
-- **Yükseklik**: Barkod yüksekliğini piksel olarak belirtin. **0** (sıfır) değeri, varsayılan yüksekliğin kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
-- **Kenar boşluğu**: Barkod kenar boşluğunun boyutunu piksel cinsinden belirtir. Kenar boşluğu, bir barkodun her iki tarafında, boş (sessiz bölge) olarak tutulması gereken alandır. **0** (sıfır) değeri, varsayılan kenar boşluğunun kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
-- **Çıktı içeriği**: Kodlanmış bilgilerin metin olarak bulunduğu bir bar kod görüntüsü oluşturmak için, değeri **Evet** olarak ayarlayın. Varsayılan değer **Hayır** değeridir.
-- **Kodlama**: Oluşturulan barkod görüntüsünde kodlanan karakter türünü belirtir. Varsayılan olarak, **UTF-8** kodlaması kullanılır.
+- **Genişlik** : Barkod genişliğini piksel olarak belirtin. **0** (sıfır) değeri, varsayılan genişliğin kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
+- **Yükseklik** : Barkod yüksekliğini piksel olarak belirtin. **0** (sıfır) değeri, varsayılan yüksekliğin kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
+- **Kenar boşluğu** : Barkod kenar boşluğunun boyutunu piksel cinsinden belirtir. Kenar boşluğu, bir barkodun her iki tarafında, boş (sessiz bölge) olarak tutulması gereken alandır. **0** (sıfır) değeri, varsayılan kenar boşluğunun kullanıldığını belirtir. Anlamı farklı biçimler için farklılık gösterebilir.
+- **Çıktı içeriği** : Kodlanmış bilgilerin metin olarak bulunduğu bir bar kod görüntüsü oluşturmak için, değeri **Evet** olarak ayarlayın. Varsayılan değer **Hayır** değeridir.
+- **Kodlama** : Oluşturulan barkod görüntüsünde kodlanan karakter türünü belirtir. Varsayılan olarak, **UTF-8** kodlaması kullanılır.
 
 > [!IMPORTANT]
 > Yeni bir **Barkod** veri kaynağı eklediğinizde, bunu bir iç içe öğe olarak başka bir öğenin (kapsayıcı) altına yerleştirmeniz gerekir.
@@ -129,38 +130,38 @@ Ek olarak, sağlanan ER çözümü için değiştirilmiş şablonu içeren aşa�
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Bir yapılandırma sağlayıcısını etkinleştirme
 
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** 'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasındaki **Yapılandırma sağlayıcıları** bölümünde, **Litware, Inc.** örnek şirketine ait [yapılandırma sağlayıcısının](general-electronic-reporting.md#Provider) listelendiğinden ve etkin olarak işaretlendiğinden emin olun. Listede yoksa veya etkin olarak işaretli değilse [Bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları izleyin.
 
 ![Yerelleştirme yapılandırmaları sayfasında örnek şirketi etkin olarak ayarlama](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Sağlanan ER çözümünü içe aktarma
 
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** 'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
 3. **Yapılandırmalar** sayfasında, yapılandırma ağacında **Çek modeli** yapılandırması yoksa, ER veri modeli yapılandırmasını içe aktarmak için aşağıdaki adımları izleyin:
 
-    1. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
-    2. İletişim kutusunda, **Gözat**'ı seçin, **Model for cheques.xml** dosyasını bulup seçin ve **Tamam**'ı seçin.
+    1. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle** 'yi seçin.
+    2. İletişim kutusunda, **Gözat** 'ı seçin, **Model for cheques.xml** dosyasını bulup seçin ve **Tamam** 'ı seçin.
 
 4. Yapılandırma ağacında **Çek yazdırma biçimi** yapılandırması yoksa, ER biçimi yapılandırmasını içe aktarmak için aşağıdaki adımları izleyin:
 
-    1. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
-    2. İletişim kutusunda, **Gözat**'ı seçin, **Cheques printing format.xml** dosyasını bulup seçin ve **Tamam**'ı seçin.
+    1. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle** 'yi seçin.
+    2. İletişim kutusunda, **Gözat** 'ı seçin, **Cheques printing format.xml** dosyasını bulup seçin ve **Tamam** 'ı seçin.
 
-5. Yapılandırma ağacında, **Çek modeli**'ni genişletin.
+5. Yapılandırma ağacında, **Çek modeli** 'ni genişletin.
 6. Yapılandırma ağacındaki içe aktarılan ER yapılandırmaları listesini inceleyin.
 
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Ödeme çeki oluşturma
 
 1. **Nakit ve banka yönetimi** \> **Banka hesapları** \> **Banka hesapları** öğesine gidin.
 2. **Banka hesapları** sayfasında, **USMF OPER** hesabını seçin.
-3. Banka hesabı ayrıntıları sayfasındaki Eylem Bölmesinde, **Kurulum** sekmesinin **Düzen** grubunda **Çek**'i seçin.
-4. **Çek düzeni** sayfasında **Düzenle**'yi seçin.
+3. Banka hesabı ayrıntıları sayfasındaki Eylem Bölmesinde, **Kurulum** sekmesinin **Düzen** grubunda **Çek** 'i seçin.
+4. **Çek düzeni** sayfasında **Düzenle** 'yi seçin.
 5. **Genel** hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
 6. **Dışa aktarma biçimi yapılandırması** alanında, daha önce içe aktardığınız **Çek yazdırma biçimi** ER biçimini seçin.
-7. Eylem Bölmesinde, **Yazdırma testi**'ni seçin.
-8. İletişim kutusunda, **Ciro edilebilir çek biçimi** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
+7. Eylem Bölmesinde, **Yazdırma testi** 'ni seçin.
+8. İletişim kutusunda, **Ciro edilebilir çek biçimi** seçeneğini **Evet** olarak ayarlayıp **Tamam** 'ı seçin.
 
     ![Çek düzeni - yazdırma testi iletişim kutusu](./media/er-barcode-data-source-check-layout.png)
 
@@ -181,20 +182,20 @@ Daha önce içe aktardığınız **Cheque template Excel.xlsx** dosyasını açm
 
 Şimdi ER çözümünü değiştirmeniz ve değiştirilen şablonu [yeniden uygulamanız](modify-electronic-reporting-format-reapply-excel-template.md) gerekir.
 
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları**'nı seçin.
-3. **Yapılandırmalar** sayfasında, yapılandırma ağacında, **Çek modeli**'ni genişletin ve **Çek yazdırma biçimi**'ni seçin.
-4. Eylem Bölmesinde, **Tasarımcı**'yı seçin.
-5. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt**'ı seçin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** 'ya gidin.
+2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** 'nı seçin.
+3. **Yapılandırmalar** sayfasında, yapılandırma ağacında, **Çek modeli** 'ni genişletin ve **Çek yazdırma biçimi** 'ni seçin.
+4. Eylem Bölmesinde, **Tasarımcı** 'yı seçin.
+5. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt** 'ı seçin.
 6. Tüm hücre biçimi öğelerinin uygun veri kaynaklarına bağlı olduğuna dikkat edin.
 
     ![ER İşlemleri tasarımcısında hücre biçimi öğelerinin veri kaynaklarına bağlanması](./media/er-barcode-data-source-cells-bound.png)
 
 7. Sayfanın sağ tarafındaki **Biçim** sekmesini seçin.
-8. Eylem Bölmesinde üç noktayı ( **...**) seçin ve ardından **İçe aktar**'ı seçin.
-9. **İçe aktarma** grubunda, **Excel'den güncelleştir**'i seçin ve **Şablonu güncelleştir**'i seçin.
-10. İletişim kutusunda, bilgisayarınıza kaydedilen **Cheque template Excel.xlsx** dosyasına gözatın, dosyayı seçin ve seçilen şablonun uygulanmasını onaylamak için **Tamam**'ı seçin.
-11. Sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt**'ı seçin.
+8. Eylem Bölmesinde üç noktayı ( **...** ) seçin ve ardından **İçe aktar** 'ı seçin.
+9. **İçe aktarma** grubunda, **Excel'den güncelleştir** 'i seçin ve **Şablonu güncelleştir** 'i seçin.
+10. İletişim kutusunda, bilgisayarınıza kaydedilen **Cheque template Excel.xlsx** dosyasına gözatın, dosyayı seçin ve seçilen şablonun uygulanmasını onaylamak için **Tamam** 'ı seçin.
+11. Sayfanın sağ tarafındaki **Eşleme** sekmesini seçin ve sonra soldaki biçim ağacı bölmesinde **Genişlet/Daralt** 'ı seçin.
 12. **AmountBarcode** hücre öğesinin biçime eklendiğini unutmayın. Bu öğe, Excel şablonuna barkod görüntüsü için yer tutucu olarak eklenmiş olan **AmountBarcode** öğesiyle ilişkilendirilir.
 
     ![ER İşlemleri tasarımcısındaki biçime eklenen AmountBarcode hücre öğesi](./media/er-barcode-data-source-cell-added.png)
@@ -204,14 +205,14 @@ Daha önce içe aktardığınız **Cheque template Excel.xlsx** dosyasını açm
 Sonra, **Barkod** türünün yeni bir veri kaynağını eklemeniz gerekir.
 
 1. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesinde, **yazdırma** veri kaynağını seçin.
-2. **Ekle**'yi seçin ve sonra **İşlevler**grubunda **Barkod** veri kaynağı türünü seçin.
+2. **Ekle** 'yi seçin ve sonra **İşlevler** grubunda **Barkod** veri kaynağı türünü seçin.
 
     ![Barkod veri kaynağı türünü seçme](./media/er-barcode-data-source-add.png)
 
 3. İletişim kutusunda, **Ad** alanına **barkod** girin.
-4. **Barkod biçimi**'nde, **Code 128**'i seçin.
+4. **Barkod biçimi** 'nde, **Code 128** 'i seçin.
 5. **Genişlik** alanına **500** yazın.
-6. **Tamam**'ı seçin.
+6. **Tamam** 'ı seçin.
 
     ![Veri kaynağı özellikleri iletişim kutusu](./media/er-barcode-data-source-add2.png)
 
@@ -220,23 +221,23 @@ Sonra, **Barkod** türünün yeni bir veri kaynağını eklemeniz gerekir.
 Sonra, yeni biçim öğesini eklediğiniz veri kaynağına bağlamanız gerekir.
 
 1. ER İşlemleri tasarımcısında, sayfanın sağ tarafındaki **Eşleme** sekmesinde, **print\\barcode** veri kaynağını seçin.
-2. Soldaki biçim ağacı bölmesinde, **AmountBarcode** hücre öğesini seçin ve sonra **Bağla**'yı seçin.
-3. Eylem Bölmesinde, **Ayrıntıları göster**'i seçin.
+2. Soldaki biçim ağacı bölmesinde, **AmountBarcode** hücre öğesini seçin ve sonra **Bağla** 'yı seçin.
+3. Eylem Bölmesinde, **Ayrıntıları göster** 'i seçin.
 4. **Barkod** veri kaynağı bağlamada tek bir parametre içeren bir işlev olarak temsil edildiğinden, bağlı biçim öğesi adının otomatik olarak bu parametrenin bağımsız değişkeni olarak alındığını unutmayın.
 
     ![ER İşlemleri tasarımcısındaki Barkod veri kaynağının ayrıntıları](./media/er-barcode-data-source-bind1.png)
 
-5. Bağlamayı ayarlamak için **Biçimi düzenle**'yi seçin.
+5. Bağlamayı ayarlamak için **Biçimi düzenle** 'yi seçin.
 
     Hücre öğesinin adının geri döndürülmesini istemezsiniz. Bu nedenle, geçerli çekin ödenecek tutarını içeren metni döndüren bir ifade yapılandırmanız gerekir. Üst **ChequeLines** **model.cheques** veri kaynağına bağlı olduğundan, geçerli çekin ödenecek tutarı **Gerçek** veri türünün **model.cheques.attributes.amount** alanında bulunur.
 
 6. **Formül** alanına, **print.barcode(NUMBERFORMAT(@.attributes.amount, "F2"))** yazın.
-7. **Kaydet**'i seçin ve [ER Formül tasarımcısını](general-electronic-reporting-formula-designer.md) kapatın.
+7. **Kaydet** 'i seçin ve [ER Formül tasarımcısını](general-electronic-reporting-formula-designer.md) kapatın.
 8. Bağlamanın ayarlanmış olduğuna dikkat edin.
 
     ![ER İşlemleri tasarımcısında ayarlanan bağlama](./media/er-barcode-data-source-bind2.png)
 
-9. **Kaydet**'i seçin ve ardından ER İşlemleri tasarımcısını kapatın.
+9. **Kaydet** 'i seçin ve ardından ER İşlemleri tasarımcısını kapatın.
 
 #### <a name="make-the-modified-version-available-for-test-runs"></a><a name="ExampleModifyFormatMakeVersionAvailable"></a>Değiştirilmiş sürümü test çalıştırmaları için kullanılabilir yapma
 
@@ -248,24 +249,24 @@ Geçerli taslak sürümüyle çalışmaya devam etmek istiyorsanız, ancak bu s�
 
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Değiştirilmiş biçim sürümünü tamamlama
 
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları**'nı seçin.
-3. **Yapılandırmalar** sayfasında, yapılandırma ağacında, **Çek modeli**'ni genişletin ve **Çek yazdırma biçimi**'ni seçin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** 'ya gidin.
+2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** 'nı seçin.
+3. **Yapılandırmalar** sayfasında, yapılandırma ağacında, **Çek modeli** 'ni genişletin ve **Çek yazdırma biçimi** 'ni seçin.
 4. **Sürümler** hızlı sekmesinde durumu **Taslak** olan kaydı seçin.
-5. **Durumu değiştir**'i ve ardından **Tamam**'ı seçin.
-6. İletişim kutusunda **Tamam**'ı seçin.
+5. **Durumu değiştir** 'i ve ardından **Tamam** 'ı seçin.
+6. İletişim kutusunda **Tamam** 'ı seçin.
 
 Geçerli sürümün durumu **Taslak** yerine **Tamamlandı** olarak değiştirilir ve **Taslak** durumundaki yeni bir sürüm oluşturulur. Ek değişiklikler uygulamak için bu yeni taslak sürümünü kullanabilirsiniz.
 
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Taslak sürümü kullanılabilir hale getirme
 
-1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları**'nı seçin.
-3. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
-4. İletişim kutusunda, **Çalıştırma ayarı** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
-5. Yapılandırma ağacında, **Çek modeli**'ni genişletin ve **Çek yazdırma biçimi**'ni seçin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama** 'ya gidin.
+2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** 'nı seçin.
+3. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri** 'ni seçin.
+4. İletişim kutusunda, **Çalıştırma ayarı** seçeneğini **Evet** olarak ayarlayıp **Tamam** 'ı seçin.
+5. Yapılandırma ağacında, **Çek modeli** 'ni genişletin ve **Çek yazdırma biçimi** 'ni seçin.
 6. **Taslak çalıştır** seçeneğini **Evet** olarak ayarlayın.
-7. **Kaydet**'i seçin.
+7. **Kaydet** 'i seçin.
 
 Seçilen biçimin taslak sürümü, seçilen biçim çalıştırıldığında kullanılmak üzere kullanılabilir olarak işaretlenir.
 
@@ -273,10 +274,10 @@ Seçilen biçimin taslak sürümü, seçilen biçim çalıştırıldığında ku
 
 1. **Nakit ve banka yönetimi** \> **Banka hesapları** \> **Banka hesapları** öğesine gidin.
 2. **Banka hesapları** sayfasında, **USMF OPER** hesabını seçin.
-3. Banka hesabı ayrıntıları sayfasındaki Eylem Bölmesinde, **Kurulum** sekmesinin **Düzen** grubunda **Çek**'i seçin.
-4. **Çek düzeni** sayfasında, Eylem Bölmesinde, **Yazdırma testi**'ni seçin.
+3. Banka hesabı ayrıntıları sayfasındaki Eylem Bölmesinde, **Kurulum** sekmesinin **Düzen** grubunda **Çek** 'i seçin.
+4. **Çek düzeni** sayfasında, Eylem Bölmesinde, **Yazdırma testi** 'ni seçin.
 5. İletişim kutusunda, **Ciro edilebilir çek biçimi** seçeneğini **Evet** olarak ayarlayın.
-6. **Tamam**'ı seçin.
+6. **Tamam** 'ı seçin.
 7. Oluşturulan çeki gözden geçirin. Çekin ödenecek tutarını kodlamak için bir barkod oluşturulduğuna dikkat edin.
 
     ![Excel'de barkod ile oluşturulan ödeme çeki](./media/er-barcode-data-source-cheque3.png)

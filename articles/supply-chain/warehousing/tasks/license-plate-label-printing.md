@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable
+ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43dc913e84fa53179855d7ab8dbbf4d179e2cc63
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9e548e5e5528733412d47478dd740b87217cdac2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383056"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016114"
 ---
 # <a name="enable-license-plate-label-printing"></a>Plaka etiketi yazdırmayı etkinleştirme
 
@@ -32,72 +32,72 @@ Bu konu, satış malzeme çekme işinde stoktan son madde çekildikten sonra Ser
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>GS1 şirket önekini ayarlayın
-1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Yönetim parametreleri**'ne gidin.
+1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Yönetim parametreleri** 'ne gidin.
 2. **GS1 şirket öneki** alanına, GS1 şirket numaranız için 7 sayı girin.
-3. **Kaydet**'i seçin.
+3. **Kaydet** 'i seçin.
 4. Sayfayı kapatın.
 
 ## <a name="setup-the-sscc-license-plate-number-sequence"></a>SSCC lisans plaka numarası serisini ayarlayın
-1. **Gezinti bölmesi > Modüller > Kuruluş yönetimi > Numara serileri > Numara serileri**'ne gidin.
+1. **Gezinti bölmesi > Modüller > Kuruluş yönetimi > Numara serileri > Numara serileri** 'ne gidin.
 2. **Alan** alanında bir seçenek seçin.
 3. **Referans** alanında bir seçenek seçin.
 4. **Şirket** alanına bir değer yazın.
 5. **Segmentler** bölümünü genişletin.
 6. **Düzenle** öğesini seçin.
 7. **Segment** tablosunda ilk satırı seçin.
-8. **Kaldır**'ı seçin.
-9. **Kaldır**'ı seçin.
-10. **Kaydet**'i seçin.
+8. **Kaldır** 'ı seçin.
+9. **Kaldır** 'ı seçin.
+10. **Kaydet** 'i seçin.
 11. Sayfayı kapatın.
 
 ## <a name="create-the-document-route-layout"></a>Belge yönlendirme düzenini oluşturun
 1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Belge rotası > Belge rotası düzenleri** öğesine gidin. SSCC düzenini etkinleştirin.  
-2. **Yeni**'yi seçin.
+2. **Yeni** 'yi seçin.
 3. **Düzen kodu** alanına bir değer girin.
 4. **Tanım** alanına bir değer girin.
-5. **Metnin sonuna ekle**'yi seçin.
-6. **Kaydet**'i seçin.
+5. **Metnin sonuna ekle** 'yi seçin.
+6. **Kaydet** 'i seçin.
 7. Sayfayı kapatın.
 
 ## <a name="set-up-the-document-routing"></a>Belge yönlendirmeyi ayarlayın
 1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Belge rotası > Belge rotası** öğesine gidin.
 2. **İş emri türü** alanında bir seçenek seçin.
-3. **Yeni**'yi seçin.
+3. **Yeni** 'yi seçin.
 4. **Ambar** alanına bir değer yazın.
 5. **Ad** alanına bir değer yazın.
-6. **Yeni**'yi seçin.
+6. **Yeni** 'yi seçin.
 7. **Düzen kodu** alanına bir değer girin veya buradan bir değer seçin.
 8. **Ad** alanında kullanmak istediğiniz yazıcı adını girin.
-9. **Kaydet**'i seçin.
+9. **Kaydet** 'i seçin.
 10. Sayfayı kapatın.
 
 ## <a name="create-mobile-device-menu"></a>Mobil cihaz menüsü oluşturun
-1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri**'ne gidin.
-2. **Yeni**'yi seçin.
+1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri** 'ne gidin.
+2. **Yeni** 'yi seçin.
 3. **Menü öğesi adı** alanına bir değer girin.
 4. **Başlık** alanına bir değer yazın.
 5. **Mod** alanında bir seçenek seçin.
-6. **Mevcut işi kullan** alanında **Evet**'i seçin.
-7. **Lisans plakası oluştur** alanında **Evet**'i seçin.
+6. **Mevcut işi kullan** alanında **Evet** 'i seçin.
+7. **Lisans plakası oluştur** alanında **Evet** 'i seçin.
 8. **İş sınıfları** bölümünü genişletin.
-9. **Yeni**'yi seçin.
+9. **Yeni** 'yi seçin.
 10. **İş sınıfı kodu** alanında bir değer girin.
-11. **Kaydet**'i seçin.
+11. **Kaydet** 'i seçin.
 12. Sayfayı kapatın.
-13. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü**'ye gidin.
+13. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü** 'ye gidin.
 14. Ağaçta, daha önce oluşturduğunuz menü öğesini seçin.
 15. **Düzenle** öğesini seçin.
 16. Menüye menü öğesi eklemek için oku seçin.
-17. **Kaydet**'i seçin.
+17. **Kaydet** 'i seçin.
 18. Sayfayı kapatın.
 
 ## <a name="update-a-work-template"></a>İş şablonu güncelleştirme
-1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > İş > İş şablonları**'na gidin.
+1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > İş > İş şablonları** 'na gidin.
 2. **Düzenle** öğesini seçin.
-3. **Yeni**'yi seçin.
-4. **İş türü** alanında **Yazdır**'ı seçin.
+3. **Yeni** 'yi seçin.
+4. **İş türü** alanında **Yazdır** 'ı seçin.
 5. **İş sınıfı kodu** alanına bir değer girin veya buradan bir değer seçin.
-6. **Yukarı taşı**'yı seçin.
-7. **Kaydet**'i seçin.
+6. **Yukarı taşı** 'yı seçin.
+7. **Kaydet** 'i seçin.
 8. Sayfayı kapatın.
 

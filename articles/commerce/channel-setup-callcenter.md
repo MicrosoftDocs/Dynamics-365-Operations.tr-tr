@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410425"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107196"
 ---
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
@@ -42,8 +42,8 @@ Yeni bir çağrı merkezi kanalı oluşturmadan önce [Kanal kurulumu önkoşull
 
 Yeni bir çağrı merkez kanalı oluşturmak ve yapılandırmak için bu adımları izleyin.
 
-1. Gezinti bölmesinde, **Retail ve Commerce \> Kanallar \> Çağrı merkezleri \> Tüm çağrı merkezleri**'ne gidin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Gezinti bölmesinde, **Retail ve Commerce \> Kanallar \> Çağrı merkezleri \> Tüm çağrı merkezleri** 'ne gidin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. **Ad** alanına yeni kanal için bir ad girin.
 1. Açılır listeden uygun **Tüzel kişiliği** seçin.
 1. Açılır listeden uygun **Ambar** yerleşimini seçin. Müşteri veya madde düzeyinde başka varsayılanlar tanımlanmadıkça, bu yerleşim bu çağrı merkezi kanalı için oluşturulan satış siparişlerinde varsayılan olarak kullanılacaktır.
@@ -53,7 +53,7 @@ Yeni bir çağrı merkez kanalı oluşturmak ve yapılandırmak için bu adımla
 1. Bir **Tutma kodu** bilgi kodu belirtin. Bunun için önce bir bilgi kodu oluşturmanız gerekebilir. Bu bilgi kodu, beklemede bir sipariş düzenlerken kullanıcıdan aralarından seçim yapması istenecek isteğe bağlı neden kodları kümesi sağlar.
 1. Bir **Kredi** bilgi kodu belirtin. Bunun için önce bir bilgi kodu oluşturmanız gerekebilir. Bu bilgi kodu, kullanıcının müşteri hizmetleri nedenleriyle müşteriye sair para iadeleri sağlamak amacıyla çağrı merkezinin sipariş alacak işlevini kullanırken aralarından seçim yapılabileceği neden kodları kümesi sağlar.
 1. İsteğe bağlı: **Mali boyutlar** hızlı sekmesinde mali boyutları ayarlayın. Buraya girilen boyutlar, bu çağrı merkezi kanalında oluşturulan herhangi bir satış siparişinde varsayılan olarak yer alır.
-1. **Kaydet**'e tıklayın.
+1. **Kaydet** 'e tıklayın.
 
 Aşağıdaki resimde yeni bir çağrı merkezi kanalının oluşturulması gösteriliyor.
 
@@ -75,8 +75,8 @@ Aşağıdaki resimde, **Kurulum** sekmesindeki **Teslimat şekilleri** ve **Öde
 
 Ödeme yöntemleri ayarlamak için, bu kanalda desteklenen her ödeme türü için bu adımları izleyin. Kullanıcıların çağrı merkezi kanalına bağlanması için önceden tanımlanmış ödeme yöntemleri arasından seçim yapması istenir. Çağrı merkezi ödeme yöntemlerinizi ayarlamadan önce **Retail ve Commerce \> Kanal kurulumu \> Ödeme yöntemleri \> Ödeme yöntemleri** altında ana ödeme yöntemlerinizi ayarlayın.
 
-1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Ödeme yöntemleri**'ni seçin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Eylem bölmesinde, **Ayarla** sekmesini ve ardından **Ödeme yöntemleri** 'ni seçin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. Gezinti bölmesinde, kullanılabilir önceden tanımlanmış ödemelerden bir ödeme yöntemi seçin.
 1. Ödeme türü için gereken ek ayarları yapılandırın. Kredi kartları, hediye kartları veya bağlılık programı kartları için **Kart kurulumu** işlevi seçilerek ek kurulum yapılması gerekir. 
 1. Ödeme türü için uygun deftere nakil hesaplarını **Deftere nakil** bölümünde yapılandırın.
@@ -88,15 +88,15 @@ Aşağıdaki resimde bir nakit ödeme yöntemi örneği gösteriliyor.
 
 ### <a name="set-up-modes-of-delivery"></a>Teslimat şekillerini ayarla
 
-Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekmesinden **Teslimat şekilleri**'ni seçerek görebilirsiniz.  
+Yapılandırılan teslimat şekillerini, **Eylem bölmesindeki** **Ayarla** sekmesinden **Teslimat şekilleri** 'ni seçerek görebilirsiniz.  
 
 Çağrı merkezi kanalıyla ilişkilendirilecek bir teslimat modu eklemek veya değiştirmek için aşağıdaki adımları izleyin.
 
-1. Çağrı merkezi teslimat şekilleri formunda, **Teslimat şekillerini yönet**'i seçin
-1. Eylem bölmesinde, yeni bir teslimat şekli oluşturmak için **Yeni**'yi seçin veya varolan bir şekli seçin.
-1. **Perakende kanalları** bölümünde, çağrı merkezi kanalı eklemek için **Satır ekle**'ye tıklayın. Kanalları tek tek eklemek yerine kuruluş düğümleri kullanarak eklemek, kanal eklemeyi kolaylaştırabilir.
+1. Çağrı merkezi teslimat şekilleri formunda, **Teslimat şekillerini yönet** 'i seçin
+1. Eylem bölmesinde, yeni bir teslimat şekli oluşturmak için **Yeni** 'yi seçin veya varolan bir şekli seçin.
+1. **Perakende kanalları** bölümünde, çağrı merkezi kanalı eklemek için **Satır ekle** 'ye tıklayın. Kanalları tek tek eklemek yerine kuruluş düğümleri kullanarak eklemek, kanal eklemeyi kolaylaştırabilir.
 1. Teslimat şeklinin **Ürünler** hızlı sekmesi ve **Adresler** hızlı sekmesindeki verilerle yapılandırıldığından emin olun. Teslimat şekli için herhangi bir ürün veya teslimat adresi geçerli değilse, sipariş girişi sırasında bunu seçmek hatalara neden olur.
-1. Çağrı merkezi teslimat şekli yapılandırmalarında herhangi bir değişiklik yapıldıktan sonra, değişiklik matrisini açmak için **Teslimat şekillerini işle** işi çalıştırılmalıdır. Bu işi **Retail ve Commerce \> Retail ve Commerce BT \>Teslimar şekillerini işle**'ye giderek bulabilirsiniz.
+1. Çağrı merkezi teslimat şekli yapılandırmalarında herhangi bir değişiklik yapıldıktan sonra, değişiklik matrisini açmak için **Teslimat şekillerini işle** işi çalıştırılmalıdır. Bu işi **Retail ve Commerce \> Retail ve Commerce BT \>Teslimar şekillerini işle** 'ye giderek bulabilirsiniz.
 
 Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
@@ -106,8 +106,8 @@ Aşağıdaki resimde bir teslimat şekli örneği gösteriliyor.
 
 Commerce Headquarters'dan çağrı merkezi kanalına bağlanan bir satış siparişi oluşturmak için satış siparişini oluşturan kullanıcının çağrı merkezi kanalına bağlanması gerekir. Kullanıcı, Commerce Headquarters'da oluşturulan bir satış siparişini çağrı merkezi kanalına el ile bağlayamaz. Bağlantı sistematik bir şekilde yapılır ve kullanıcıyı ve kullanıcının çağrı merkezi kanalıyla olan ilişkisini temel alır. Bir kullanıcı yalnızca bir çağrı merkezi kanalına bağlanabilir.
 
-1. Eylem bölmesinde, **Kanal** sekmesini ve ardından **Kanal kullanıcıları**'nı seçin.
-1. Eylem bölmesinde **Yeni**'yi seçin.
+1. Eylem bölmesinde, **Kanal** sekmesini ve ardından **Kanal kullanıcıları** 'nı seçin.
+1. Eylem bölmesinde **Yeni** 'yi seçin.
 1. Bu kullanıcıyı çağrı merkezi kanalına bağlamak için açılır seçim listesinden mevcut bir **kullanıcı kimliği** seçin
 
 Kanal kullanıcısı ayarı yapıldıktan ve kullanıcı Commerce Headquarters'da yeni bir satış siparişi oluşturduktan sonra, satış siparişi oluşturan kullanıcının ilişkili çağrı merkezi kanalına bağlanır. Bu kanalla ilgili tüm yapılandırmalar sistematik olarak satış siparişine uygulanacaktır. Bir kullanıcı satış siparişi başlığındaki kanal adı referansını görüntüleyerek satış siparişinin hangi çağrı merkezi kanalına bağlandığını onaylayabilir.
@@ -119,8 +119,8 @@ Fiyat grupları isteğe bağlıdır, ancak kullanılması durumunda, çağrı me
 
 Fiyat grubu ayarlamak için aşağıdakileri yapın.
 
-1. Eylem bölmesinde, **Kanal** sekmesine ve ardından **Fiyat grupları**'na tıklayın.
-1. Eylem bölmesinde **Yeni**'ye tıklayın.
+1. Eylem bölmesinde, **Kanal** sekmesine ve ardından **Fiyat grupları** 'na tıklayın.
+1. Eylem bölmesinde **Yeni** 'ye tıklayın.
 1. Açılır seçim listesinden bir **Perakende fiyat grubu** seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

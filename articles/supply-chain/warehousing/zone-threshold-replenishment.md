@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7e9fdf0a546bf449f249eacdded1f4b4d1b4d1af
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530616"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017343"
 ---
 # <a name="zone-threshold-replenishment"></a>Bölge eşiği stok yenilemesi
 
@@ -55,21 +56,21 @@ Bölgeye dayalı stok yenilemeyi ayarlamak için sistemin çeşitli kısımları
 
 #### <a name="view-and-edit-directive-codes"></a>Yönerge kodlarını görüntüleme ve düzenleme
 
-Yönerge kodlarınızı görüntülemek veya düzenlemek için, **Ambar yönetimi \> Kurulum \> Yönerge kodları**'na gidin.
+Yönerge kodlarınızı görüntülemek veya düzenlemek için, **Ambar yönetimi \> Kurulum \> Yönerge kodları** 'na gidin.
 
 #### <a name="prepare-demo-data-directive-codes"></a>Tanıtım verileri yönerge kodlarını hazırlama
 
 Bu örnek, bir yönerge kodunun nasıl hazırlanacağını göstermektedir. Bu konunun sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
 
 1. Tanıtım verileriyle çalışmak için **USMF** tüzel kişiliğini seçin.
-1. **Ambar yönetimi \> Kurulum \> Yönerge kodları**'na gidin.
-1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni**'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Yönerge kodları** 'na gidin.
+1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Yönerge kodu:** _Bölge stok yenileme_
     - **Yönerge açıklaması:** _Bölge stok yenileme_
 
-1. Yeni kodu kaydetmek için **Kaydet**'i seçin.
+1. Yeni kodu kaydetmek için **Kaydet** 'i seçin.
 
 ### <a name="set-up-replenishment-templates"></a>Stok yenileme şablonlarını ayarla
 
@@ -77,44 +78,44 @@ Bu örnek, bir yönerge kodunun nasıl hazırlanacağını göstermektedir. Bu k
 
 #### <a name="view-and-edit-replenishment-templates"></a>Stok yenileme şablonlarını görüntüleme ve düzenleme
 
-Stok yenileme şablonu, bir yerleşimde stokun ne zaman ve nasıl yenileneceğini denetleyen kural kümesidir. Stok yenilemenin ne zaman ve nasıl yapılacağını denetlemek için bir şablon seçersiniz. Stok yenileme şablonlarınızı görüntülemek veya düzenlemek için **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin.
+Stok yenileme şablonu, bir yerleşimde stokun ne zaman ve nasıl yenileneceğini denetleyen kural kümesidir. Stok yenilemenin ne zaman ve nasıl yapılacağını denetlemek için bir şablon seçersiniz. Stok yenileme şablonlarınızı görüntülemek veya düzenlemek için **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları** 'na gidin.
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Tanıtım verileri stok yenileme şablonu hazırlama
 
 Bu örnek, bir stok yenileme şablonunun nasıl hazırlanacağını göstermektedir. Bu konunun sonundaki senaryo üzerinden çalışmayı planlıyorsanız, burada sağlanan tanıtım veri değerlerini kullanın. Aksi durumda, kendi değerlerinizi kullanın.
 
 1. Tanıtım verileriyle çalışmak için **USMF** tüzel kişiliğini seçin.
-1. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin.
-1. Sayfayı düzenleme moduna sokmak için **Düzenle**'yi seçin.
-1. Eylem bölmesinde, **Genel bakış** kılavuzuna satır eklemek için **Yeni**'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları** 'na gidin.
+1. Sayfayı düzenleme moduna sokmak için **Düzenle** 'yi seçin.
+1. Eylem bölmesinde, **Genel bakış** kılavuzuna satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın. Tüm diğer alanlar için varsayılan değerleri kabul edin.
 
     - **Stok yenileme şablonu:** _Bölge min/maks stok yenileme_
     - **Açıklama:** _Bölge min/maks stok yenileme_
     - **Stok yenileme türü:** _Minimum veya maksimum_
 
-1. **Kaydet**'i seçin.
-1. **Genel bakış** kılavuzunda yeni satır seçiliyken , yeni oluşturduğunuz *Bölge min/maks stok yenileme* stok yenileme şablonuyla ilişkili bir satır eklemek için **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Yeni**'yi seçin.
+1. **Kaydet** 'i seçin.
+1. **Genel bakış** kılavuzunda yeni satır seçiliyken , yeni oluşturduğunuz *Bölge min/maks stok yenileme* stok yenileme şablonuyla ilişkili bir satır eklemek için **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** _1_ girin.
     - **Açıklama:** _Malzeme çekme bölge stok yenileme_ girin.
-    - **Stok yenileme birimi:** _beher_'i seçin.
+    - **Stok yenileme birimi:** _beher_ 'i seçin.
     - **İstek türü:** Bu alanı boş bırakın.
-    - **Yönerge kodu:** Bu alan, stok yenileme şablonunu bir yerleşim yönergesiyle bağlantılandırır. Daha önce oluşturduğunuz tanıtım verileri yönerge kodunu seçin (_Bölge stok yenileme_).
+    - **Yönerge kodu:** Bu alan, stok yenileme şablonunu bir yerleşim yönergesiyle bağlantılandırır. Daha önce oluşturduğunuz tanıtım verileri yönerge kodunu seçin ( _Bölge stok yenileme_ ).
     - **İş şablonu:** Bu alanı boş bırakın.
     - **Minimum miktar:** Bu alan, stok yenilemenin tetikleneceği miktarı ayarlar. _50_ girin.
     - **Maksimum miktar:** Bu alan, bir maddenin bir bölgede bulunabilecek maksimum miktarını ayarlar. Oluşturulan stok yenileme işi stoku bu miktara artıracaktır. _150_ girin.
-    - **Birim:** Bu alan, minimum ve maksimum değerlerin birimini ayarlar. _Beher_'i seçin.
-    - **Talep artışı:** _Yuvarla_'yı seçin.
+    - **Birim:** Bu alan, minimum ve maksimum değerlerin birimini ayarlar. _Beher_ 'i seçin.
+    - **Talep artışı:** _Yuvarla_ 'yı seçin.
     - **Boş sabit yerleşimleri yenile:** Bu onay kutusunu işaretleyin.
     - **Yalnızca sabit yerleşimeri yenile:** Bu onay kutusunu işaretleyin.
-    - **Ürün sorgu modu:** _Ürün sorgusu_'nu seçin.
-    - **Stok yenileme eşik kapsamı:** Bu alan, şablonun bölgeye göre mi yoksa belirli bir yerleşime göre mi değerlendirileceğini tanımlar. _Bölge_'yi seçin.
-    - **Ambar:** _61_'i seçin.
+    - **Ürün sorgu modu:** _Ürün sorgusu_ 'nu seçin.
+    - **Stok yenileme eşik kapsamı:** Bu alan, şablonun bölgeye göre mi yoksa belirli bir yerleşime göre mi değerlendirileceğini tanımlar. _Bölge_ 'yi seçin.
+    - **Ambar:** _61_ 'i seçin.
 
-1. **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Ürünleri seç**'i seçin.
-1. **Ürün sorgusu** iletişim kutusundaki **Aralık** sekmesinde **Ekle**'yi seçerek kılavuza bir satır ekleyin:
+1. **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Ürünleri seç** 'i seçin.
+1. **Ürün sorgusu** iletişim kutusundaki **Aralık** sekmesinde **Ekle** 'yi seçerek kılavuza bir satır ekleyin:
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** _Maddeler_
@@ -122,8 +123,8 @@ Bu örnek, bir stok yenileme şablonunun nasıl hazırlanacağını göstermekte
     - **Alan:** _Madde numarası_
     - **Ölçüt:** _A0001_
 
-1. Sorgunuzu kaydetmek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
-1. **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Stok yenilenecek bölgeleri seç**'i seçin.
+1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin ve iletişim kutusunu kapatın.
+1. **Stok Yenileme Şablonu Ayrıntıları** kılavuzunun yukarısındaki **Stok yenilenecek bölgeleri seç** 'i seçin.
 1. **Bölge sorgusu** iletişim kutusundaki **Aralık** sekmesinde kılavuza bir satır ekleyin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
@@ -132,7 +133,7 @@ Bu örnek, bir stok yenileme şablonunun nasıl hazırlanacağını göstermekte
     - **Alan:** _Bölge Kodu_
     - **Ölçütler:** _KAT_
 
-1. Sorgunuzu kaydetmek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
+1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin ve iletişim kutusunu kapatın.
 
 ### <a name="set-up-location-directives"></a>Yerleşim yönergelerini kur
 
@@ -140,7 +141,7 @@ Yerleşim temelli min/maks stok yenileme işleminden farklı olarak, sistem gide
 
 #### <a name="view-and-edit-location-directives"></a>Yerleşim yönergelerini görüntüleme ve düzenleme
 
-Yerleşim yönergelerinizi görüntülemek veya düzenlemek için **Ambar yönetimi \> Kurulum \> Yerleşim yönergeleri**'ne gidin.
+Yerleşim yönergelerinizi görüntülemek veya düzenlemek için **Ambar yönetimi \> Kurulum \> Yerleşim yönergeleri** 'ne gidin.
 
 Gerekli çekme yerleşimi yönergelerini ve koyma yerleşim yönergelerini oluşturmada ayarların nasıl kullanılacağını gösteren örnekler için sonraki bölüme bakın.
 
@@ -153,45 +154,45 @@ Tanıtım verilerini bu konunun sonundaki senaryoda kullanılabilecek şekilde h
 1. Tanıtım verileriyle çalışmak için **USMF** tüzel kişiliğini seçin.
 1. **Ambar Yönetimi \> Kurulum \> Konum yönergeleri** seçeneğine gidin.
 1. Sol bölmede, **İş emri türü** alanını _Stok yenileme_ olarak ayarlayın.
-1. Eylem bölmesinde **Yeni**'yi seçerek yeni bir yönerge oluşturun.
+1. Eylem bölmesinde **Yeni** 'yi seçerek yeni bir yönerge oluşturun.
 1. Aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** Varsayılan değeri kabul edin.
     - **Ad:** _Bölge çekme_ girin.
-    - **İş türü:** _Çekme_'yi seçin.
-    - **Tesis:** _6_'yı seçin.
-    - **Ambar:** _61_'i seçin.
+    - **İş türü:** _Çekme_ 'yi seçin.
+    - **Tesis:** _6_ 'yı seçin.
+    - **Ambar:** _61_ 'i seçin.
     - **Yönerge kodu:** Boş bırakın.
     - **Çoklu SKU:** Bu seçeneği _Hayır_ olarak ayarlayın.
 
-1. Şimdiye kadar yapılandırdığınız ayarları taşıyan bir yönerge oluşturmak için **Kaydet**'i seçin.
-1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
+1. Şimdiye kadar yapılandırdığınız ayarları taşıyan bir yönerge oluşturmak için **Kaydet** 'i seçin.
+1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** _1_ girin.
     - **Başlangıç miktarı:** _0_ girin.
     - **Son miktar:** _10000000_ girin.
     - **Birim:** Bu alanı boş bırakın.
-    - **Miktarı bul:** _Yok_'u seçin.
+    - **Miktarı bul:** _Yok_ 'u seçin.
     - **Birime göre kısıtla:** Bu onay kutusunun işaretini kaldırın.
     - **Birime yuvarla:** Bu onay kutusunun işaretini kaldırın.
     - **Ambalaj miktarını bul:** Bu onay kutusunun işaretini kaldırın.
     - **Bölmeye izin ver:** Bu onay kutusunu işaretleyin.
 
-1. Yeni satırı kaydetmek için **Kaydet**'i seçin.
-1. Yeni satırınız **Satırlar** kılavuzunda hala seçiliyken, kılavuza satır eklemek için **Yerleşim Yönergesi Eylemleri** hızlı sekmesinde **Yeni**'yi seçin.
+1. Yeni satırı kaydetmek için **Kaydet** 'i seçin.
+1. Yeni satırınız **Satırlar** kılavuzunda hala seçiliyken, kılavuza satır eklemek için **Yerleşim Yönergesi Eylemleri** hızlı sekmesinde **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** _1_ girin.
     - **Ad:** _Toplu işten çek_ girin.
-    - **Sabit yerleşim kullanımı:** _Sabit ve sabit olmayan yerleşimler_'i seçin.
+    - **Sabit yerleşim kullanımı:** _Sabit ve sabit olmayan yerleşimler_ 'i seçin.
     - **Negatif stoka izin ver:** Bu onay kutusunun işaretini kaldırın.
     - **Toplu iş etkin:** Bu onay kutusunun işaretini kaldırın.
-    - **Strateji:** _Yok_'u seçin.
+    - **Strateji:** _Yok_ 'u seçin.
 
-1. Yeni eylemi kaydetmek için **Kaydet**'i seçin.
-1. Yeni eyleminiz hala seçiliyken, **Yerleşim Yönergesi Eylemleri** kılavuzunun yukarısındaki **Sorgu düzenle**'yi seçin.
-1. Stok yenileme kaynak yerleşimlerini seçebileceğiniz bir sorgu iletişim kutusu görüntülenir. **Aralık** sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin.
+1. Yeni eylemi kaydetmek için **Kaydet** 'i seçin.
+1. Yeni eyleminiz hala seçiliyken, **Yerleşim Yönergesi Eylemleri** kılavuzunun yukarısındaki **Sorgu düzenle** 'yi seçin.
+1. Stok yenileme kaynak yerleşimlerini seçebileceğiniz bir sorgu iletişim kutusu görüntülenir. **Aralık** sekmesinde, kılavuza satır eklemek için **Ekle** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** _Yerleşimler_
@@ -199,51 +200,51 @@ Tanıtım verilerini bu konunun sonundaki senaryoda kullanılabilecek şekilde h
     - **Alan:** _Bölge Kodu_
     - **Ölçüt:** _BULK_
 
-1. Sorgunuzu kaydetmek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
-1. Yerleşim yönergenizi kaydetmek için **Kaydet**'i seçin.
+1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin ve iletişim kutusunu kapatın.
+1. Yerleşim yönergenizi kaydetmek için **Kaydet** 'i seçin.
 
 ##### <a name="create-a-replenishment-put-directive"></a>Bir stok yenileme koyma yönergesi oluşturma
 
 1. **Yerleşim yönergeleri** sayfasındaki sol bölmede, **İş emri türü** alanının hala _Stok yenileme_ olarak ayarlandığından emin olun.
-1. Eylem bölmesinde **Yeni**'yi seçerek yeni bir yönerge daha oluşturun.
+1. Eylem bölmesinde **Yeni** 'yi seçerek yeni bir yönerge daha oluşturun.
 1. Aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** Varsayılan değeri kabul edin.
     - **Ad:** _Bölge koyma_ girin.
-    - **İş emri türü:** _Koyma_'yı seçin.
-    - **Tesis:** _6_'yı seçin.
-    - **Ambar:** _61_'i seçin.
-    - **Yönerge kodu:** Bu konum yönergesini, daha önce oluşturduğunuz kodu kullanarak daha önce oluşturduğunuz stok yenileme şablonuyla bağlantılandırmak için _Bölge stok yenileme_'yi seçin.
+    - **İş emri türü:** _Koyma_ 'yı seçin.
+    - **Tesis:** _6_ 'yı seçin.
+    - **Ambar:** _61_ 'i seçin.
+    - **Yönerge kodu:** Bu konum yönergesini, daha önce oluşturduğunuz kodu kullanarak daha önce oluşturduğunuz stok yenileme şablonuyla bağlantılandırmak için _Bölge stok yenileme_ 'yi seçin.
     - **Çoklu SKU:** Bu seçeneği _Hayır_ olarak ayarlayın.
 
-1. Şimdiye kadar yapılandırdığınız ayarları taşıyan bir yönerge oluşturmak için **Kaydet**'i seçin.
-1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
+1. Şimdiye kadar yapılandırdığınız ayarları taşıyan bir yönerge oluşturmak için **Kaydet** 'i seçin.
+1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** _1_ girin.
     - **Başlangıç miktarı:** _0_ girin.
     - **Son miktar:** _10000000_ girin.
     - **Birim:** Bu alanı boş bırakın.
-    - **Miktarı bul:** _Yok_'u seçin.
+    - **Miktarı bul:** _Yok_ 'u seçin.
     - **Birime göre kısıtla:** Bu onay kutusunun işaretini kaldırın.
     - **Birime yuvarla:** Bu onay kutusunun işaretini kaldırın.
     - **Ambalaj miktarını bul:** Bu onay kutusunun işaretini kaldırın.
     - **Bölmeye izin ver:** Bu onay kutusunu işaretleyin.
 
-1. Yeni satırı kaydetmek için **Kaydet**'i seçin.
-1. Yeni satırınız **Satırlar** kılavuzunda hala seçiliyken, kılavuza satır eklemek için **Yerleşim Yönergesi Eylemleri** hızlı sekmesinde **Yeni**'yi seçin.
+1. Yeni satırı kaydetmek için **Kaydet** 'i seçin.
+1. Yeni satırınız **Satırlar** kılavuzunda hala seçiliyken, kılavuza satır eklemek için **Yerleşim Yönergesi Eylemleri** hızlı sekmesinde **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** _1_ girin.
     - **Ad:** _Bölge koyma_ girin.
-    - **Sabit yerleşim kullanımı:** _Sabit ve sabit olmayan yerleşimler_'i seçin.
+    - **Sabit yerleşim kullanımı:** _Sabit ve sabit olmayan yerleşimler_ 'i seçin.
     - **Negatif stoka izin ver:** Bu onay kutusunun işaretini kaldırın.
     - **Toplu iş etkin:** Bu onay kutusunun işaretini kaldırın.
-    - **Strateji:** _Konsolide et_'i seçin.
+    - **Strateji:** _Konsolide et_ 'i seçin.
 
-1. Yeni eylemi kaydetmek için **Kaydet**'i seçin.
-1. Yeni eyleminiz hala seçiliyken, **Yerleşim Yönergesi Eylemleri** kılavuzunun yukarısındaki **Sorgu düzenle**'yi seçin.
-1. Stok yenilenecek bölgeyi seçebileceğiniz bir sorgu iletişim kutusu görüntülenir. Bu bölge, stok yenileme şablonunda belirtilen bölgeyle aynı olmalıdır. **Aralık** sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin.
+1. Yeni eylemi kaydetmek için **Kaydet** 'i seçin.
+1. Yeni eyleminiz hala seçiliyken, **Yerleşim Yönergesi Eylemleri** kılavuzunun yukarısındaki **Sorgu düzenle** 'yi seçin.
+1. Stok yenilenecek bölgeyi seçebileceğiniz bir sorgu iletişim kutusu görüntülenir. Bu bölge, stok yenileme şablonunda belirtilen bölgeyle aynı olmalıdır. **Aralık** sekmesinde, kılavuza satır eklemek için **Ekle** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** _Yerleşimler_
@@ -251,8 +252,8 @@ Tanıtım verilerini bu konunun sonundaki senaryoda kullanılabilecek şekilde h
     - **Alan:** _Bölge Kodu_
     - **Ölçütler:** _KAT_
 
-1. Sorgunuzu kaydetmek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
-1. Yerleşim yönergenizi kaydetmek için **Kaydet**'i seçin.
+1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin ve iletişim kutusunu kapatın.
+1. Yerleşim yönergenizi kaydetmek için **Kaydet** 'i seçin.
 
 ## <a name="scenario"></a>Senaryo
 
@@ -274,15 +275,15 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak senaryo üzerinden
 
 Sisteminizde örnek senaryoyu destekleyecek yeterli sayıda stok bulunduğundan emin olmak için bu adımları izleyin.
 
-1. Stok yenileme şablonunda belirtilen çekme bölgesindeki (*KAT*) iki farklı konumda *A0001* kodlu madde için eldeki stok bulunduğundan emin olun. Ancak, toplam stok, stok yenileme şablonunda belirtilen gerekli minimum miktardan (*50*) az olmalıdır. Böylece, tek bir yerleşim yerine, tüm bölge için hesaplamanın nasıl gerçekleşeceğinin benzetimini yapabilirsiniz. **Stoku gerektiği gibi ayarlamak için ambar işlemlerini kullanın.**
-1. Stok yenileme işinin maddeleri *TOPLU* kodlu bölgeden çekeceği bölge çekme konumu yönergesinde belirtilen bir toplu yerleşimde madde *A0001* için yeterli stok bulunduğundan emin olun. Toplam stok, stok yenileme şablonunda belirtilen gerekli maksimum miktardan (*150*) fazla olmalıdır.
+1. Stok yenileme şablonunda belirtilen çekme bölgesindeki ( *KAT* ) iki farklı konumda *A0001* kodlu madde için eldeki stok bulunduğundan emin olun. Ancak, toplam stok, stok yenileme şablonunda belirtilen gerekli minimum miktardan ( *50* ) az olmalıdır. Böylece, tek bir yerleşim yerine, tüm bölge için hesaplamanın nasıl gerçekleşeceğinin benzetimini yapabilirsiniz. **Stoku gerektiği gibi ayarlamak için ambar işlemlerini kullanın.**
+1. Stok yenileme işinin maddeleri *TOPLU* kodlu bölgeden çekeceği bölge çekme konumu yönergesinde belirtilen bir toplu yerleşimde madde *A0001* için yeterli stok bulunduğundan emin olun. Toplam stok, stok yenileme şablonunda belirtilen gerekli maksimum miktardan ( *150* ) fazla olmalıdır.
 1. İsteğe bağlı olmakla birlikte önerilir: Stok ayarlama günlüğü oluşturmak için şu adımları izleyin:
 
-    1. **Stok yönetimi \> Günlük girişleri \> Maddeler \> Stok ayarlama**'ya gidin.
-    1. **Yeni**'yi seçin.
-    1. **Stok günlüğü oluştur** iletişim kutusundaki **Ambar** alanında *61*'i seçin.
-    1. **Tamam**'ı seçin.
-    1. **Günlük satırları** hızlı sekmesinde **Yeni** düğmesini kullanarak kılavuza üç satır ekleyin ve aşağıdaki değerleri ayarlayın. Her satırı ayarlamayı bitirdikten sonra **Kaydet**'i seçin.
+    1. **Stok yönetimi \> Günlük girişleri \> Maddeler \> Stok ayarlama** 'ya gidin.
+    1. **Yeni** 'yi seçin.
+    1. **Stok günlüğü oluştur** iletişim kutusundaki **Ambar** alanında *61* 'i seçin.
+    1. **Tamam** 'ı seçin.
+    1. **Günlük satırları** hızlı sekmesinde **Yeni** düğmesini kullanarak kılavuza üç satır ekleyin ve aşağıdaki değerleri ayarlayın. Her satırı ayarlamayı bitirdikten sonra **Kaydet** 'i seçin.
 
         - **Satır 1:**
 
@@ -311,24 +312,24 @@ Sisteminizde örnek senaryoyu destekleyecek yeterli sayıda stok bulunduğundan 
             - **Plaka:** Listeden varolan bir plakayı seçin veya yeni bir plaka oluşturun.
             - **Miktar:** *10*
 
-    1. Eylem bölmesinde **Doğrula**'yı seçin. Bir sonraki adıma geçmeden önce bulunan tüm hataları çözün.
-    1. Eylem bölmesinde, stoku ambara nakletmek için **Deftere naklet**'i seçin.
+    1. Eylem bölmesinde **Doğrula** 'yı seçin. Bir sonraki adıma geçmeden önce bulunan tüm hataları çözün.
+    1. Eylem bölmesinde, stoku ambara nakletmek için **Deftere naklet** 'i seçin.
 
 ### <a name="sample-scenario-run-zone-based-minmax-replenishment"></a>Örnek senaryo: Bölge tabanlı min/maks stok yenilemeyi çalıştırma
 
 Tüm önkoşul örnek verileri oluşturulduktan sonra, bu adımları izleyerek stok yenilemeyi tetikleyebilirsiniz.
 
-1. **Ambar yönetimi \> Stok yenileme \> Stok yenilemeleri**'ne gidin.
-1. **Stok yenileme** iletişim kutusundaki **Eklenecek kayıtlar** hızlı sekmesinde **Filtre**'yi seçin.
+1. **Ambar yönetimi \> Stok yenileme \> Stok yenilemeleri** 'ne gidin.
+1. **Stok yenileme** iletişim kutusundaki **Eklenecek kayıtlar** hızlı sekmesinde **Filtre** 'yi seçin.
 1. **Sorgulama** iletişim kutusundaki **Aralık** sekmesinde, varsayılan tablo satırını aşağıdaki şekilde düzenleyin:
 
-    - **Tablo:** _Stok yenileme şablonları_'nı seçin.
-    - **Türetilmiş tablo:** _Stok yenileme şablonları_'nı seçin.
-    - **Alan:** _Stok yenileme şablonu_'nu seçin.
-    - **Ölçütler:** _Bölge min/maks stok yenileme_'yi seçin. Bu stok yenileme şablonu, bu senaryo için tanıtım verilerini hazırlarken oluşturduğunuz stok yenileme şablonudur.
+    - **Tablo:** _Stok yenileme şablonları_ 'nı seçin.
+    - **Türetilmiş tablo:** _Stok yenileme şablonları_ 'nı seçin.
+    - **Alan:** _Stok yenileme şablonu_ 'nu seçin.
+    - **Ölçütler:** _Bölge min/maks stok yenileme_ 'yi seçin. Bu stok yenileme şablonu, bu senaryo için tanıtım verilerini hazırlarken oluşturduğunuz stok yenileme şablonudur.
 
-1. Sorguyu kaydetmek için **Tamam**'ı seçin ve **Stok yenileme** iletişim kutusuna dönün.
-1. Stok yenileme şablonunu çalıştırmak için **Tamam**'ı seçin.
+1. Sorguyu kaydetmek için **Tamam** 'ı seçin ve **Stok yenileme** iletişim kutusuna dönün.
+1. Stok yenileme şablonunu çalıştırmak için **Tamam** 'ı seçin.
 
 *TOPLU İŞ* bölgesinden stok çekmek ve bunu *KAT* bölgesinde stok yenilemek için artık stok yenileme işi oluşturulmuştur.
 

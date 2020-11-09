@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 889337560f073708fb16b2dc173f9872593dd570
-ms.sourcegitcommit: be4fcf8f19c55e852a729b215a16e24e971ff5b7
+ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456826"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997490"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
@@ -81,13 +80,13 @@ Bazı kısıtlamalar bulunur:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Sistem Ayarları: Fiyatlandırma için para birimi duyarlığı
 
-Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanındaki değeri aşağıda gösterildiği şekilde değiştirin.
+Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim** 'e gidin ve **Sistem Ayarları** 'nı seçin. Daha sonra, **Genel** sekmesinde, **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanındaki değeri aşağıda gösterildiği şekilde değiştirin.
 
 ![Para birimi sistem ayarları](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>İş Yönetimi: Para Birimleri
 
-Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** alanını istediğiniz ondalık basamak sayısına ayarlayın.
+Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi** 'ne gidin **Para birimleri** 'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** alanını istediğiniz ondalık basamak sayısına ayarlayın.
 
 ![Belirli bir yerel ayarın para birimi ayarları](media/specific-currency.png)
 

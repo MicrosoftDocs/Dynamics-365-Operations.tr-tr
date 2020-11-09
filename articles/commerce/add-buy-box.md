@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817097"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022041"
 ---
 # <a name="buy-box-module"></a>Satın alma kutusu modülü
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu satın alma kutusu modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -59,13 +58,13 @@ Temalar, satın alma kutusu ürün özelliklerini ve eylem denetimlerini kaldır
 
 - **Başlık etiketi** – bu özellik, ürün başlığının başlık etiketini tanımlar. Satın al kutusu sayfanın en üstünde ise, erişilebilirlik standartlarını karşılamak için bu özelliğin **H1** olarak ayarlanması gerekir. 
 
-- **"Benzer görünümleri araştır" önerilerini etkinleştir**: Bu özellik, satın alma kutusunun şu anda görüntülenmekte olan öğeye benzeyen ürünlerin bağlantılarını göstermesini sağlar. Bu özellik Commerce 10.0.13 sürümü ve sonrasında bulunur.
+- **"Benzer görünümleri araştır" önerilerini etkinleştir** : Bu özellik, satın alma kutusunun şu anda görüntülenmekte olan öğeye benzeyen ürünlerin bağlantılarını göstermesini sağlar. Bu özellik Commerce 10.0.13 sürümü ve sonrasında bulunur.
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Satınalma kutusu modülünde kullanılabilen modüller
 
 - **Ortam Galerisi** – bu modül, ürün ayrıntıları sayfasındaki bir ürünün görüntülerini sergilemesinde kullanılır. Bu modülle ilgili daha fazla bilgi için bkz. [Ortam galerisi modülü](media-gallery-module.md).
 - **Mağaza seçici** - Bu modül bir maddenin almak için kullanılabilir olduğu yakındaki mağazaların listesini gösterir. Kullanıcıların yakındaki mağazaları bulabilmesi için bir konum girmesini sağlar. Bu modülle ilgili daha fazla bilgi için bkz. [Mağaza seçici modülü](store-selector.md).
-- **Sosyal içerik paylaşım**: Bu modül, sosyal medya platformlarında ürün bilgilerini kullanıcıların paylaşmasına olanak sağlamak için satın alma kutusuna eklenebilir. Daha fazla bilgi için bkz. [Sosyal içerik paylaşım modülü](social-share-module.md).
+- **Sosyal içerik paylaşım** : Bu modül, sosyal medya platformlarında ürün bilgilerini kullanıcıların paylaşmasına olanak sağlamak için satın alma kutusuna eklenebilir. Daha fazla bilgi için bkz. [Sosyal içerik paylaşım modülü](social-share-module.md).
 
 ## <a name="buy-box-module-settings"></a>Satın alma kutusu modülü ayarları
 
@@ -73,7 +72,7 @@ Aşağıdaki satın alma kutusu modülü ayarları **Site Ayarları \> Uzantıla
 
 - **Sepet miktar sınırı** - Bu özellik, alışveriş sepetine eklenebilecek maksimum madde sayısını belirtmekte kullanılır. Örneğin, bir perakende satılan her ürünün yalnızca 10 tanesi tek bir harekette satılabilir olduğuna karar verebilir.
 - **Stok** - Stok ayarlarının nasıl uygulanacağı hakkında bilgi için bkz. [Envanter ayarları uygula](inventory-settings.md).
-- **Sepete Ekle** - Bu özellik, bir öğe alışveriş sepetine eklendikten sonra davranışı belirtmek için kullanılır. Olası değerler **alışveriş sepetine gidin**, **sepete gitmeyin** ve **bildirimleri göster**. Değer **sepete gitmek** üzere ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilir. Değer **sepete gitme** olarak ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilmez. Değer **bildirimleri gösterecek** şekilde ayarlandığında kullanıcılara bir onay bildirimi gösterilir ve ürün ayrıntıları sayfasına gözatmaya devam edebilir. 
+- **Sepete Ekle** - Bu özellik, bir öğe alışveriş sepetine eklendikten sonra davranışı belirtmek için kullanılır. Olası değerler **alışveriş sepetine gidin** , **sepete gitmeyin** ve **bildirimleri göster**. Değer **sepete gitmek** üzere ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilir. Değer **sepete gitme** olarak ayarlandığında , kullanıcılar bir öğe ekledikten sonra sepet sayfasına gönderilmez. Değer **bildirimleri gösterecek** şekilde ayarlandığında kullanıcılara bir onay bildirimi gösterilir ve ürün ayrıntıları sayfasına gözatmaya devam edebilir. 
 
 > [!IMPORTANT]
 > **Sepete ekle** site ayarları Dynamics 365 Commerce 10.0.11 sürümünde bulunabilir. Dynamics 365 Commerce'nin eski sürümlerinden birini güncelleştiriyorsanız, appSettings. json dosyasını el ile güncelleştirmeniz gerekir. AppSettings.json dosyasını güncelleştirme yönergeleri için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
@@ -90,27 +89,27 @@ Satın alma kutusu modülü, ürün bilgilerini Commerce Scale Unit uygulama pro
 
 Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Parçalar** 'a gidin ve yeni parça oluşturmak için **Yeni** 'yi seçin.
 1. **Yeni parça** iletişim kutusunda, **Satın alma kutusu** modülünü seçin.
-1. **Parça adı** altında, **Satın alma kutusu parçası** için bir ad girin ve **Tamam**'ı seçin.
-1. **Ortam Galerisi** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ortam galerisi** modülünü seçin ve **Tamam**'ı seçin.
-1. **Mağaza seçici** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
-1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **PDP şablonu**'nu girin ve **Tamam**'ı seçin.
-1. **Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.
-1. Varsayılan sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
-1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon seç** iletişim kutusunda **PDP şablon** şablonunu seçin. Bir **sayfa adı** ve sayfa **PDP sayfası** girin ve **Tamam**'ı seçin.
-1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
-1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam**'ı seçin.
+1. **Parça adı** altında, **Satın alma kutusu parçası** için bir ad girin ve **Tamam** 'ı seçin.
+1. **Ortam Galerisi** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Ortam galerisi** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Mağaza seçici** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin, parçayı iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. Bir yeni şablonu oluşturmak için **Şablonlar** 'a gidin ve **Yeni** 'yi seçin.
+1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **PDP şablonu** 'nu girin ve **Tamam** 'ı seçin.
+1. **Gövde** yuvası için üç nokta ( **...** ) düğmesini seçin ve **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam** 'ı seçin.
+1. Varsayılan sayfanın **Ana** yuvasında, üç nokta düğmesini ( **...** ) ve sonra **Parça ekle** 'yi seçin.
+1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin, şablonu iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Sayfalar** 'a gidin ve yeni sayfa oluşturmak için **Yeni** 'yi seçin.
+1. **Şablon seç** iletişim kutusunda **PDP şablon** şablonunu seçin. Bir **sayfa adı** ve sayfa **PDP sayfası** girin ve **Tamam** 'ı seçin.
+1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini ( **...** ) ve sonra **Parça ekle** 'yi seçin.
+1. **Parça seç** iletişim kutusunda daha önce oluşturduğunuz **Satın alma kutusu parçası** öğesini ve sonra **Tamam** 'ı seçin.
 1. Sayfayı kaydet ve önizleyin. **?productid=&lt;Product ID&gt;** sorgu dizesi parametresini önizleme sayfasının URL 'sine ekleyin. Bu şekilde, ürün bağlamı Önizleme sayfasını yüklemek ve oluşturmak için kullanılır.
-1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin. Ürün Ayrıntıları sayfasında bir satınalma kutusu görünmelidir.
+1. **Kaydet** 'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin. Ürün Ayrıntıları sayfasında bir satınalma kutusu görünmelidir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

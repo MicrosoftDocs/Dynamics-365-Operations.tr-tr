@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b4b3120001ecd5340c063f80ad7471050b437fd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203462"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018756"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
@@ -44,7 +44,7 @@ Satıcılar onlara gönderdiğiniz bir PO'yu yanıtladıklarında PO'yu kabul et
 
 PO yanıtında görüntülenen metni tanımlamak için aşağıdaki adımları izleyin:
 
-1. **PO'lara yanıt veren satıcılar için bilgiler** sayfasında yanıt türünü ve ardından **Düzenle**'yi seçin.
+1. **PO'lara yanıt veren satıcılar için bilgiler** sayfasında yanıt türünü ve ardından **Düzenle** 'yi seçin.
 2. **Bilgi iletisi** kutusuna, ileti kutusunda satıcılara gösterilmesi gereken bilgileri girin.
 
 İletileri birden fazla dilde eklemeniz gerekirse ayrı iletiler oluşturun ve her biri için uygun dil kodunu belirtin. İleti satıcının kullandığı dilde gösterilir.
@@ -61,7 +61,7 @@ Bir yönetici Supply Chain Management'ta satıcı iş birliği için, iş birli�
 Harici bir satıcı için kullanıcı hesaplarının oluşturulabilmesi amacıyla, satıcı hesabını bu satıcının satıcı iş birliğini kullanmasına izin verecek şekilde yapılandırmanız gerekir. **Satıcılar** sayfasındaki **Genel** sekmesinde **İş birliğini etkinleştirme** alanını seçin. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
 - **Etkin (PO otomatik olarak onaylanır)** - PO'lar satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır.
-- **Etkin (PO otomatik olarak onaylanmaz)**- PO'ların satıcı kabul ettikten sonra kuruluşunuz tarafından el ile onaylanması gerekir.
+- **Etkin (PO otomatik olarak onaylanmaz)** - PO'ların satıcı kabul ettikten sonra kuruluşunuz tarafından el ile onaylanması gerekir.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Satıcının fiyat bilgilerini görmesine gerek olup olmadığını belirtme
 
@@ -71,7 +71,7 @@ PPO'lar için fiyat bilgilerini satıcı iş birliği arabirimi aracılığıyla
 
 ### <a name="sending-a-po-to-a-vendor"></a>Satıcıya PO gönderme
 
-Satınalma siparişleri Supply Chain Management'ta hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder**'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı iş birliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
+Satınalma siparişleri Supply Chain Management'ta hazırlanır. Bir PO'nun durumu **Onaylandı** olduğunda, **Satınalma siparişi** sayfasında **Onay için gönder** 'i seçerek PO'yu satıcıya gönderirsiniz. PO durumu **Dış İncelemede** olarak değişir. Satın alma siparişi gönderildikten sonra satıcı bunu satıcı iş birliği arabiriminin **İncelenecek satınalma siparişleri** sayfasında görebilir. Daha sonra satıcı PO'yu kabul edebilir, reddedebilir veya değişiklikler önerebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için Yazdırma yönetimi sistemini de kullanabilirsiniz.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>PO'nun satıcı tarafından onaylanması ve kabul edilmesi
 
@@ -185,7 +185,7 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 | Satıcı bir **Değişikliklerle kabul edildi** yanıtı gönderir. | Durum hala **Dış incelemede** olarak görünür. |
 | Satıcı tarafından istenen bazı değişiklikleri yaparsınız. | Durum tekrar **Onaylandı** olarak değiştirilir. |
 | Satıcıya PO'nun yeni sürümünü gönderirsiniz. | Satıcı iş birliği arabiriminde yeni bir sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
-| Satıcı PO'nun yeni sürümünü kabul eder. | Satıcı hesabı satıcı PO'yu kabul ettiğinde durumu **Onaylandı**'ya otomatik olarak değiştirmek üzere yapılandırılmadıysa, durum hala **Dış İncelemede** olarak kalır. |
+| Satıcı PO'nun yeni sürümünü kabul eder. | Satıcı hesabı satıcı PO'yu kabul ettiğinde durumu **Onaylandı** 'ya otomatik olarak değiştirmek üzere yapılandırılmadıysa, durum hala **Dış İncelemede** olarak kalır. |
 
 Satıcılar PO'yu satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Siparişi daha sonra el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Bu noktada, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.
 
@@ -200,7 +200,7 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 
 | Eylem | Durum ve sürüm |
 |--------|--------------------|
-| Satınalma siparişinin başlangıç sürümü Supply Chain Management'ta oluşturulur. | Durum **Taslak**'tır. |
+| Satınalma siparişinin başlangıç sürümü Supply Chain Management'ta oluşturulur. | Durum **Taslak** 'tır. |
 | PO onay işlemine yeniden gönderilir. (Onaylama işlemi, satıcının içinde bulunmadığı dahili bir işlemdir.) | PO onay işlemi sırasında reddedilmediyse, durum **Taslak** yerine **İncelemede** ve **Onay** olarak değiştirilir. Onaylanan PO bir sürüm olarak kaydedilir. | 
 | PO satıcıya gönderilir. | Sürüm satıcı iş birliği arabiriminde kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satınalma siparişini güncelleştirmek için satıcı tarafından talep edilen bazı değişiklikleri el ile veya yanıttaki **PO güncelleştirmesini işle** eylemini kullanarak yaparsınız. | Durum tekrar **Taslak** olarak değiştirilir. |
@@ -225,7 +225,7 @@ Bu bölüm RFQ işlemi sırasında müşteri ve satıcı arasındaki etkileşiml
 - **Alternatifler** – Bir RFQ servis talebinin başlığında, katalog dışı madde satırları için alternatiflere izin verildiğini belirtebilirsiniz. Alternatifler etkinleştirildiğinde, satıcılar talep edilen her satır için bir alternatif satırı ekleyebilir.
 - **Ekler** – Ekler bir RFQ servis talebine hem başlık düzeyinde hem de satır düzeyinde eklenebilir. Ekleri dahili veya harici olarak sınıflandırılabilir. Dahili ekler yalnızda müşteri tarafında görüntülenebilirken satıcılar gönderildikten sonra harici ekleri görebilir.
 
-    Satıcılar, teklif yanıtına ekler de ekleyebilir. Bu ekler satıcı teklif yanıtını gönderdikten sonra satıcı tarafında görüntülenebilir. Satıcıların eklediği ekler daima harici olarak sınıflandırılır. Bir satıcının teklifle birlikte gönderdiği bir eke ulaşmak için **Teklif ekleri**'ni veya **Teklif satırı ekleri**'ni seçin.
+    Satıcılar, teklif yanıtına ekler de ekleyebilir. Bu ekler satıcı teklif yanıtını gönderdikten sonra satıcı tarafında görüntülenebilir. Satıcıların eklediği ekler daima harici olarak sınıflandırılır. Bir satıcının teklifle birlikte gönderdiği bir eke ulaşmak için **Teklif ekleri** 'ni veya **Teklif satırı ekleri** 'ni seçin.
     
     RFQ servis talebiyle birlikte gönderilen ekleri açmak için yanıttaki belge işleme ataç simgesini kullanın.
 
@@ -243,7 +243,7 @@ Kamu sektörü için genişletilmiş işlev RFQ servis talebinin satıcılara g�
 - Yayımlanan teklif talepleri satırı
 - Yayımlanan teklif talepleri başlık ekleri
 
-Bu varlıklar Supply Chain Management'ta provizyon sağlanan kullanıcılar olmayan ancak harici siteye anonim erişimleri olan kişilerin mevcut ve kapatılmış işleri görmesine olanak tanır. Ayrıca, **Gönder ve yayımla**'daki genişletilmiş işlev RFQ işlemi için parametreleri ayarlayan kullanıcının bir e-posta şablonu tanımlamasına da olanak tanır. Daha sonra, tedarik uzmanının RFQ servis talebini oluştururken, gerekli bilgileri RFQ servis talebindeki satıcılara gönderirken e-posta şablonunu seçmesi gerekir. 
+Bu varlıklar Supply Chain Management'ta provizyon sağlanan kullanıcılar olmayan ancak harici siteye anonim erişimleri olan kişilerin mevcut ve kapatılmış işleri görmesine olanak tanır. Ayrıca, **Gönder ve yayımla** 'daki genişletilmiş işlev RFQ işlemi için parametreleri ayarlayan kullanıcının bir e-posta şablonu tanımlamasına da olanak tanır. Daha sonra, tedarik uzmanının RFQ servis talebini oluştururken, gerekli bilgileri RFQ servis talebindeki satıcılara gönderirken e-posta şablonunu seçmesi gerekir. 
 
 RFQ işlemi için parametreleri ayarlayan kullanıcı birden fazla e-posta şablonu oluşturabilir. Bu e-posta şablonları hem statik metin hem de aşağıdaki değiştirme belirteçlerini içerebilir. Bu belirteçler e-posta oluşturulduğunda bağlamsal değerlerle değiştirilir.
 

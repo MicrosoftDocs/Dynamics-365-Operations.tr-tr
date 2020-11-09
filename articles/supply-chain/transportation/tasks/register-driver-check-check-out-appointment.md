@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee3ea1c95378ab38f462b8aafb4ac87c2109f5e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 34074a6ad2c929085dc6fd43efa8da620ce18584
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987353"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016943"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Randevu için sürücü girişini ve çıkışını kaydetme
 

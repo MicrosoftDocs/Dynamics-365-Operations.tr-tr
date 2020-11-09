@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Supply Chain Management
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
-ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "3775186"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016022"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -64,8 +64,8 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
 
 Örnek senaryo için iki yerleşim profili hazırlamanız gerekir.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri**'ne gidin.
-1. Sayfayı düzenleme moduna sokmak için **Düzenle**'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri** 'ne gidin.
+1. Sayfayı düzenleme moduna sokmak için **Düzenle** 'yi seçin.
 1. **TOPLU-06** profilini seçin.
 1. **Genel** hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
 
@@ -78,76 +78,76 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
 1. **PCK-06** profili için 3. ve 4. adımları yineleyin.
 
 > [!NOTE]
-> Konum profilindeki parametreler (**Konumda maddeyi etkinleştir**, **Konum etkinliğini etkinleştir**, **Konum durumunu etkinleştir**) *Evet* olarak ayarlandığında, sistem hemen ilgili konumları, *Ambar yerleşimi durumu tutarlılık denetimi* işi yürüterek hemen güncelleştirir.
+> Konum profilindeki parametreler ( **Konumda maddeyi etkinleştir** , **Konum etkinliğini etkinleştir** , **Konum durumunu etkinleştir** ) *Evet* olarak ayarlandığında, sistem hemen ilgili konumları, *Ambar yerleşimi durumu tutarlılık denetimi* işi yürüterek hemen güncelleştirir.
 
 ### <a name="scenario"></a>Senaryo
 
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
-1. **Yeni**'yi seçin.
-1. **Satınalma siparişi oluştur** iletişim kutusunda, **Satıcı** hızlı sekmesinde, **Satıcı hesabı** alanında *104*'ü seçin.
-1. **Genel** hızlı sekmesinde, **ambar** alanında, *61*'i seçin.
-1. **Tamam**'ı seçin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
+1. **Yeni** 'yi seçin.
+1. **Satınalma siparişi oluştur** iletişim kutusunda, **Satıcı** hızlı sekmesinde, **Satıcı hesabı** alanında *104* 'ü seçin.
+1. **Genel** hızlı sekmesinde, **ambar** alanında, *61* 'i seçin.
+1. **Tamam** 'ı seçin.
 1. Yeni satınalma siparişiniz (PO) açılır. **Satınalma siparişi satırları** kılavuzunda boş bir satırı bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** _A0002_
     - **Miktar:** _5_
 
-1. Eylem bölmesinde, **Satınalma** sekmesinde, **Eylemler** grubunda, satınalma siparişini onaylamak için **Onayla**'yı seçin.
-1. Mobil cihazda **Gelen \> Satınalma Teslim Alma**'ya gidin.
+1. Eylem bölmesinde, **Satınalma** sekmesinde, **Eylemler** grubunda, satınalma siparişini onaylamak için **Onayla** 'yı seçin.
+1. Mobil cihazda **Gelen \> Satınalma Teslim Alma** 'ya gidin.
 1. **PONUM** alanını seçin ve satınalma siparişi numarasını girip onaylayın.
 1. **ÖĞE** alanını seçin, madde numarası olarak *A0002* girin ve onaylayın.
 1. **MKT** sayfasında miktarı *5* olarak girin ve onaylayın.
 
     Miktarı aşağıdaki yöntemlerden biriyle girebilirsiniz:
 
-    - Sayısal değer eklemek veya çıkarmak için artı işareti (**+**) veya eksi işareti (**–**) düğmesini seçin.
-    - Sayısal tuş takımını açmak için artı işareti (**+**) ve eksi işareti (**–**) düğmeleri arasındaki boş alanı seçin.
+    - Sayısal değer eklemek veya çıkarmak için artı işareti ( **+** ) veya eksi işareti ( **–** ) düğmesini seçin.
+    - Sayısal tuş takımını açmak için artı işareti ( **+** ) ve eksi işareti ( **–** ) düğmeleri arasındaki boş alanı seçin.
 
 1. Madde numarası olarak *A0002* ve miktar olarak *5* seçiminizi onaylayın. Sayfanın alt kısmında bir "İş Tamamlandı" iletisi görüntülenir.
-1. Sağ üst köşedeki menü düğmesini (bazen hamburger veya hamburger düğmesi olarak da adlandırılır) seçin ve ardından **Satınalma Teslim Alma**'dan çıkmak ve **Gelen** menüsüne dönmek için **İptal**'i seçin.
-1. Satınalma siparişi sayfasında, **Satınalma siparişi satırları** kılavuzunun üzerindeki **İş ayrıntıları**'nı seçin.
+1. Sağ üst köşedeki menü düğmesini (bazen hamburger veya hamburger düğmesi olarak da adlandırılır) seçin ve ardından **Satınalma Teslim Alma** 'dan çıkmak ve **Gelen** menüsüne dönmek için **İptal** 'i seçin.
+1. Satınalma siparişi sayfasında, **Satınalma siparişi satırları** kılavuzunun üzerindeki **İş ayrıntıları** 'nı seçin.
 1. **Genel** sekmesinde, oluşturulan **İş kodu** ve **Hedef plaka kodu** değerlerine dikkat edin.
 1. **Satırlar** bölümünde, *Çekme* ve *Koyma* iş türleri için **Yerleşim** değerlerine dikkat edin.
-1. Mobil cihazda **Gelen \> Satınalma Yerine Koyma**'ya gidin.
+1. Mobil cihazda **Gelen \> Satınalma Yerine Koyma** 'ya gidin.
 1. **ID** alanını seçin ve iş kodunu girip onaylayın.
 1. *Çekme* girişini tamamlamak için bir kez daha onaylayın.
-1. Sağ üst köşedeki Menü düğmesini ve ardından **Bitti**'yi seçerek *Çekme* işini tamamlayın.
+1. Sağ üst köşedeki Menü düğmesini ve ardından **Bitti** 'yi seçerek *Çekme* işini tamamlayın.
 1. Yerine koyma yerleşimini not edin ve onaylayın. Sayfanın alt kısmında bir "İş Tamamlandı" iletisi görüntülenir.
-1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal**'i seçerek **Satınalma Yerine Koyma**'dan çıkıp **Gelen** menüsüne dönün.
-1. Ana menüye dönmek için **Geri**'yi seçin.
-1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler**'e gidin.
-1. **Yerleşim**'e filtre uygulayın ve satınalma siparişi işinden aldığınız yerine koyma yerleşimini girin. Aşağıdaki sonuçları görmeniz gerekir:
+1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal** 'i seçerek **Satınalma Yerine Koyma** 'dan çıkıp **Gelen** menüsüne dönün.
+1. Ana menüye dönmek için **Geri** 'yi seçin.
+1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler** 'e gidin.
+1. **Yerleşim** 'e filtre uygulayın ve satınalma siparişi işinden aldığınız yerine koyma yerleşimini girin. Aşağıdaki sonuçları görmeniz gerekir:
 
     - **Yerleşim durumu** sütunu bir *Depolama* değeri gösterir çünkü bu yerleşime karşılık gelen son hareket bir koyma işlemidir.
     - **Madde numarası** sütunu *A0002* değerini gösterir çünkü bu madde teslim alınıp yerleşime koyulmuştur.
     - **Son faaliyet tarih ve saati** sütunu, işin yerleşimde tamamlandığı tarih ve saatin zaman damgasını gösterir.
 
-1. Mobil cihazda **Kalite \> Hareket**'e gidin.
+1. Mobil cihazda **Kalite \> Hareket** 'e gidin.
 1. **LOC/LP** alanını seçin ve önceki adımlarda not ettiğiniz yerleşimi girin.
 1. Gösterilen bilgileri onaylayın. Oluşturulan plaka numarasını not edin.
 1. **Hedef Bilgileri** ekranında, **LOC/LP** alanını seçin ve maddenin taşınacağı yerleşim olarak *06A07R2S1B* girin.
 1. **Hedef Bilgileri** ekranında, otomatik olarak oluşturulan **LP** değerini (hedef plaka kodu) onaylayın. Sayfanın alt kısmında bir "İş Tamamlandı" iletisi görüntülenir.
-1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal**'i seçerek **Hareket**'ten çıkıp **Kalite Yönetimi** menüsüne dönün.
-1. Ana menüye dönmek için **Geri**'yi seçin.
-1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler**'e gidin.
+1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal** 'i seçerek **Hareket** 'ten çıkıp **Kalite Yönetimi** menüsüne dönün.
+1. Ana menüye dönmek için **Geri** 'yi seçin.
+1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler** 'e gidin.
 1. **Yerleşimler** sayfasını yenileyin ve ilk yerine koyma yerleşimini yeniden görüntüleyin. **Yerleşim durumu** alanının şimdi *Boş* olarak ayarlandığına ve **Madde numarası** sütununun boş olduğuna dikkat edin.
 1. *06A07R2S1B* kodlu yerleşimin kaydını görüntüleyin ve **Durum** değerinin *Depolama* olarak değiştiğine ve **Madde numarası** ile **Son faaliyet tarih ve saati** alanlarının güncelleştirildiğine dikkat edin.
-1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
-1. **Yeni**'yi seçin.
-1. **Satış siparişi oluştur** iletişim kutusundaki **Müşteri hesabı** alanında *ABD-002*'yi seçin.
-1. **Ambar** alanında *61*'i seçin.
-1. **Tamam**'ı seçin.
+1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
+1. **Yeni** 'yi seçin.
+1. **Satış siparişi oluştur** iletişim kutusundaki **Müşteri hesabı** alanında *ABD-002* 'yi seçin.
+1. **Ambar** alanında *61* 'i seçin.
+1. **Tamam** 'ı seçin.
 1. Yeni satış siparişiniz açılır. **Satış siparişi satırları** kılavuzunda boş bir satırı bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** _A0002_
     - **Miktar:** _1_
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Stok** menüsünde **Rezervasyon**'u seçin.
-1. **Rezervasyon** sayfasında sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin. Bunun ardından sağ üst köşedeki **Kapat** düğmesini (**X**) seçerek sayfayı kapatın.
-1. Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda, **Ambara serbest bırak**'ı seçin.
-1. **Satış siparişi satırları** bölümünde **Ambar** menüsünde **İş ayrıntıları**'nı seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Stok** menüsünde **Rezervasyon** 'u seçin.
+1. **Rezervasyon** sayfasında sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin. Bunun ardından sağ üst köşedeki **Kapat** düğmesini ( **X** ) seçerek sayfayı kapatın.
+1. Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda, **Ambara serbest bırak** 'ı seçin.
+1. **Satış siparişi satırları** bölümünde **Ambar** menüsünde **İş ayrıntıları** 'nı seçin.
 1. Oluşturulan **İş kodu** değerini kopyalayın.
-1. Mobil cihazda **Giden \> Satış için malzeme çekme**'ye gidin.
+1. Mobil cihazda **Giden \> Satış için malzeme çekme** 'ye gidin.
 1. **ID** alanını seçin ve daha önce kopyaladığınız iş kodunu girip onaylayın.
 1. **Satış siparişleri: Malzeme çekme** sayfasında, **LOC** alanı daha önce oluşturulan yerine koyma yerleşimi olarak malzeme çekme yerleşimini önerir. Yerleşimi not edin.
 1. **LOC** alanını seçin ve yerleşimi girip onaylayın.
@@ -157,14 +157,14 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
 
     Miktarı aşağıdaki yöntemlerden biriyle girebilirsiniz:
 
-    - Sayısal değer eklemek veya çıkarmak için artı işareti (**+**) veya eksi işareti (**–**) düğmesini seçin.
-    - Sayısal tuş takımını açmak için artı işareti (**+**) ve eksi işareti (**–**) düğmeleri arasındaki boş alanı seçin.
+    - Sayısal değer eklemek veya çıkarmak için artı işareti ( **+** ) veya eksi işareti ( **–** ) düğmesini seçin.
+    - Sayısal tuş takımını açmak için artı işareti ( **+** ) ve eksi işareti ( **–** ) düğmeleri arasındaki boş alanı seçin.
 
 1. **HEDEF LP** alanını seçin, kullanıcı tanımlı bir hedef plaka kodu girin ve onaylayın.
 1. Malzeme çekme işini tamamlamak için bir kez daha onaylayın. Sayfanın alt kısmında bir "İş Tamamlandı" iletisi görüntülenir.
-1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal**'i seçerek malzeme çekme faaliyetini tamamlayıp **Giden** menüsüne dönün.
-1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler**'e gidin.
-1. **Yerleşim**'e filtre uygulayın ve satış siparişi işinden aldığınız malzeme çekme yerleşimini girin.
+1. Sağ üst köşedeki Menü düğmesini seçin ve ardından **İptal** 'i seçerek malzeme çekme faaliyetini tamamlayıp **Giden** menüsüne dönün.
+1. Dynamics 365 Supply Chain Management'ta **Ambar yönetimi \> Kurulum \> Ambar \> Yerleşimler** 'e gidin.
+1. **Yerleşim** 'e filtre uygulayın ve satış siparişi işinden aldığınız malzeme çekme yerleşimini girin.
 1. Satış siparişinin çekildiği yerleşim için **Yerleşim durumu** alanının şimdi *Malzeme çekme* olarak ayarlandığına ve **Son faaliyet tarih ve saati** alanının güncelleştirildiğine dikkat edin.
 
 > [!NOTE]

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: VendProspectiveVendorRegistrationRequests
+ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 608d2b57bb4d5ab80d75b22ed5c8a4df5263e5f3
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: 7ed2c50b28fdbd1baf4caa0a8a7f2f05d6a53fd6
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338320"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018595"
 ---
 # <a name="import-vendor-catalogs"></a>Satıcı kataloglarını içe aktarma
 
@@ -41,15 +41,15 @@ Bir satıcının, bir katalog bakım isteği (CMR) biçiminde size gönderdiği 
 
 Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlamanız gerekir:
 
-1. Veri eşleme kurallarını tanımladığınız Veri yönetimi çalışma alanında bir proje ayarlayın. **Veri yönetimi**'ni ve arından **Veri projeleri için rolleri ayarlama**'yı seçin.
+1. Veri eşleme kurallarını tanımladığınız Veri yönetimi çalışma alanında bir proje ayarlayın. **Veri yönetimi** 'ni ve arından **Veri projeleri için rolleri ayarlama** 'yı seçin.
 
 2. Tedarik kategori hiyerarşisi ayarlayın ve satıcılarınızı tedarik kategorilerine atayın. Emtia kodları kullanıyorsanız, emtia kodlarını tedarik kategorilerine ekleyin. Tedarik kategori hiyerarşisi ayarlama hakkında bilgi için bkz. [Tedarik kategori hiyerarşisi ayarlama](../procurement/tasks/set-up-procurement-category-hierarchy.md).
 
-3. Katalog içe aktarma için satıcıyı yapılandır. Bir satıcı seçin ve ardından **Tedarik** > **Kurulum** > **Katalog içe aktarma için satıcıyı yapılandır**'ı seçin.
+3. Katalog içe aktarma için satıcıyı yapılandır. Bir satıcı seçin ve ardından **Tedarik** > **Kurulum** > **Katalog içe aktarma için satıcıyı yapılandır** 'ı seçin.
 
 4. Katalog içe aktarma için iş akışını yapılandırın. CMR dosyası şablonu oluşturun ve bunu satıcınızla paylaşın.
 
-5. Bir satıcı kataloğu oluşturmak için **Tedarik ve kaynak atama** \> **Ortak** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin. Satıcınızdan aldığınız katalog bakımı isteği (CMR) dosyaları bu katalogda gruplandırılır. 
+5. Bir satıcı kataloğu oluşturmak için **Tedarik ve kaynak atama** \> **Ortak** \> **Kataloglar** \> **Satıcı katalogları** 'nı seçin. Satıcınızdan aldığınız katalog bakımı isteği (CMR) dosyaları bu katalogda gruplandırılır. 
 
 6. CMR dosyasını yükleyin.
 
@@ -61,9 +61,9 @@ Onaylana ürünler ana ürüne eklenir ve seçilen tüzel kişiliklere serbest b
 
 Katalog içe aktarma dosyası şablonu, satıcı ürünleri için CMR dosyası oluşturmak üzere kullandığınız bir XSD dosyasıdır. CMR dosyasını yeni katalog oluşturmak, mevcut bir kataloğu değiştirmek veya mevcut katalogda değişiklik yapmak için kullanabilirsiniz.
 
-1. **Tedarik ve kaynak atama** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin ve üzerinde çalışmak istediğiniz kataloğa çift tıklayın.
+1. **Tedarik ve kaynak atama** \> **Kataloglar** \> **Satıcı katalogları** 'nı seçin ve üzerinde çalışmak istediğiniz kataloğa çift tıklayın.
 
-2. Geçerli katalog içe aktarma şablonunu (XSD dosyası) indirin. **Katalog güncelleştir** sayfasında **Eylem Bölmesinde** bulunan **Kataloglar** sekmesindeki **İlgili bilgiler** grubunda **Katalog şablonu oluştur**'a tıklayın ve **Tedarik kategorisi**'ni seçin.
+2. Geçerli katalog içe aktarma şablonunu (XSD dosyası) indirin. **Katalog güncelleştir** sayfasında **Eylem Bölmesinde** bulunan **Kataloglar** sekmesindeki **İlgili bilgiler** grubunda **Katalog şablonu oluştur** 'a tıklayın ve **Tedarik kategorisi** 'ni seçin.
 
     - **Tedarik kategori** seçeneğiyle, satıcının ürünler sağlamak için yetkilendirildiği tedarik kataloglarını içeren bir katalog şablonu oluşturabilirsiniz.
 
