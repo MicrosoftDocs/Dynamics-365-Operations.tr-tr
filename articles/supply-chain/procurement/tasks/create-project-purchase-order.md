@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, InventItemIdLookupPurchase
+ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, PurchTablePart, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,34 +17,34 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88fa6298d91398e86e2d83e3163707ff36d9e8d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 85079a843de02a8c8d5ae0ec291fa77464dd2dff
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207773"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018133"
 ---
-# <a name="create-project-purchase-order"></a><span data-ttu-id="06206-103">Proje satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="06206-103">Create project purchase order</span></span>
+# <a name="create-project-purchase-order"></a><span data-ttu-id="d25f9-103">Proje satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="d25f9-103">Create project purchase order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="06206-104">Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="06206-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="06206-105">Bu görev, USSI veri kümesini kullanır.</span><span class="sxs-lookup"><span data-stu-id="06206-105">This task uses the USSI data set.</span></span>
+<span data-ttu-id="d25f9-104">Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="d25f9-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="d25f9-105">Bu görev, USSI veri kümesini kullanır.</span><span class="sxs-lookup"><span data-stu-id="d25f9-105">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="06206-106">Proje yönetimi ve muhasebe > Projeler > Tüm projeler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="06206-106">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="06206-107">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="06206-107">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="06206-108">Eylem Bölmesinde, Yönet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="06206-108">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="06206-109">Madde Görevi'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="06206-109">Click Item task.</span></span>
-5. <span data-ttu-id="06206-110">Satın alma siparişini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="06206-110">Click Purchase order.</span></span>
-6. <span data-ttu-id="06206-111">Satıcı hesabı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="06206-111">In the Vendor account field, enter or select a value.</span></span>
-7. <span data-ttu-id="06206-112">Tesis alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="06206-112">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="06206-113">Bu adımlar gerekli değildir ancak satınalma siparişi satırları için varsayılan bir tesis ve ambar ayarlayarak, satınalma siparişini basitleştirirler.</span><span class="sxs-lookup"><span data-stu-id="06206-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
-8. <span data-ttu-id="06206-114">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="06206-114">In the Warehouse field, enter or select a value.</span></span>
-9. <span data-ttu-id="06206-115">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="06206-115">Click OK.</span></span>
-10. <span data-ttu-id="06206-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="06206-116">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="06206-117">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="06206-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="06206-118">Bu, madde numarası veya tedarik kategorisi olabilir.</span><span class="sxs-lookup"><span data-stu-id="06206-118">This can be the item number or a procurement category.</span></span>  
-12. <span data-ttu-id="06206-119">Satır ayrıntıları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="06206-119">Expand the Line details section.</span></span>
-13. <span data-ttu-id="06206-120">Proje sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="06206-120">Click the Project tab.</span></span>
-    * <span data-ttu-id="06206-121">Satışların ve maliyet fiyatlarının kullanılabilir olduğunu doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="06206-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="06206-122">Kullanılabilir olmayıp gerekli oldukları durumda, bilgileri girin.</span><span class="sxs-lookup"><span data-stu-id="06206-122">If they are not available but needed, enter the information.</span></span>  
-14. <span data-ttu-id="06206-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="06206-123">Click Save.</span></span>
+1. <span data-ttu-id="d25f9-106">Proje yönetimi ve muhasebe > Projeler > Tüm projeler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="d25f9-107">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="d25f9-108">Eylem Bölmesinde, Yönet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="d25f9-109">Madde Görevi'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-109">Click Item task.</span></span>
+5. <span data-ttu-id="d25f9-110">Satın alma siparişini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="d25f9-111">Satıcı hesabı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="d25f9-112">Tesis alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="d25f9-113">Bu adımlar gerekli değildir ancak satınalma siparişi satırları için varsayılan bir tesis ve ambar ayarlayarak, satınalma siparişini basitleştirirler.</span><span class="sxs-lookup"><span data-stu-id="d25f9-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="d25f9-114">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="d25f9-115">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-115">Click OK.</span></span>
+10. <span data-ttu-id="d25f9-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="d25f9-117">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="d25f9-118">Bu, madde numarası veya tedarik kategorisi olabilir.</span><span class="sxs-lookup"><span data-stu-id="d25f9-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="d25f9-119">Satır ayrıntıları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="d25f9-120">Proje sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="d25f9-121">Satışların ve maliyet fiyatlarının kullanılabilir olduğunu doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="d25f9-122">Kullanılabilir olmayıp gerekli oldukları durumda, bilgileri girin.</span><span class="sxs-lookup"><span data-stu-id="d25f9-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="d25f9-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d25f9-123">Click Save.</span></span>
 
