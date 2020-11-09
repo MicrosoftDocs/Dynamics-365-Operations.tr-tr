@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,34 +18,34 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 68461f375c6d5b04f224331dc192c921cf3c4d04
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979341"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997612"
 ---
-# <a name="integrated-tax"></a><span data-ttu-id="e9802-103">Tümleşik vergi</span><span class="sxs-lookup"><span data-stu-id="e9802-103">Integrated tax</span></span>
+# <a name="integrated-tax"></a><span data-ttu-id="18391-103">Tümleşik vergi</span><span class="sxs-lookup"><span data-stu-id="18391-103">Integrated tax</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-<span data-ttu-id="e9802-104">Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de stopaj vergisinin ayarını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="e9802-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="e9802-105">Vergi hesaplama kuralını, vergi oranını, vergi muhasebesini, kapatma işlemini ve diğer kavramları açıklar.</span><span class="sxs-lookup"><span data-stu-id="e9802-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
+<span data-ttu-id="18391-104">Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de stopaj vergisinin ayarını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="18391-104">Tax setup data defines the setup for both indirect taxes (VAT, GST, Sales tax) and withholding tax.</span></span> <span data-ttu-id="18391-105">Vergi hesaplama kuralını, vergi oranını, vergi muhasebesini, kapatma işlemini ve diğer kavramları açıklar.</span><span class="sxs-lookup"><span data-stu-id="18391-105">It describes the tax calculation rule, tax rate, tax accounting, settlement, and other concepts.</span></span>
 
-## <a name="templates"></a><span data-ttu-id="e9802-106">Şablonlar</span><span class="sxs-lookup"><span data-stu-id="e9802-106">Templates</span></span>
+## <a name="templates"></a><span data-ttu-id="18391-106">Şablonlar</span><span class="sxs-lookup"><span data-stu-id="18391-106">Templates</span></span>
 
-<span data-ttu-id="e9802-107">Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir varlık eşlemeleri topluluğudur.</span><span class="sxs-lookup"><span data-stu-id="e9802-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
+<span data-ttu-id="18391-107">Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir varlık eşlemeleri topluluğudur.</span><span class="sxs-lookup"><span data-stu-id="18391-107">Tax data includes a collection of entity maps that work together during data interaction, as shown in the following table.</span></span>
 
-<span data-ttu-id="e9802-108">Finance and Operations uygulamaları</span><span class="sxs-lookup"><span data-stu-id="e9802-108">Finance and Operations apps</span></span> | <span data-ttu-id="e9802-109">Dynamics 365'teki model yönetimli uygulamalar</span><span class="sxs-lookup"><span data-stu-id="e9802-109">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="e9802-110">Tanım</span><span class="sxs-lookup"><span data-stu-id="e9802-110">Description</span></span> |
+<span data-ttu-id="18391-108">Finance and Operations uygulamaları</span><span class="sxs-lookup"><span data-stu-id="18391-108">Finance and Operations apps</span></span> | <span data-ttu-id="18391-109">Dynamics 365'teki model yönetimli uygulamalar</span><span class="sxs-lookup"><span data-stu-id="18391-109">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="18391-110">Tanım</span><span class="sxs-lookup"><span data-stu-id="18391-110">Description</span></span> |
 -------------------------|---------------------------------|----|
-<span data-ttu-id="e9802-111">Madde satış vergisi grubu</span><span class="sxs-lookup"><span data-stu-id="e9802-111">Item sales tax group</span></span> | <span data-ttu-id="e9802-112">msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="e9802-112">msdyn_taxitemgroups</span></span> |
-<span data-ttu-id="e9802-113">Satış vergisi makamları</span><span class="sxs-lookup"><span data-stu-id="e9802-113">Sales tax authorities</span></span> | <span data-ttu-id="e9802-114">msdyn_taxauthorities</span><span class="sxs-lookup"><span data-stu-id="e9802-114">msdyn_taxauthorities</span></span> |
-<span data-ttu-id="e9802-115">Satış vergisi muafiyet kodu varlığı CDS</span><span class="sxs-lookup"><span data-stu-id="e9802-115">Sales tax exempt code entity CDS</span></span> | <span data-ttu-id="e9802-116">msdyn_taxexemptcodes</span><span class="sxs-lookup"><span data-stu-id="e9802-116">msdyn_taxexemptcodes</span></span> |
-<span data-ttu-id="e9802-117">Satış vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="e9802-117">Sales tax groups</span></span> | <span data-ttu-id="e9802-118">msdyn_taxgroups</span><span class="sxs-lookup"><span data-stu-id="e9802-118">msdyn_taxgroups</span></span> |
-<span data-ttu-id="e9802-119">Satış vergisi genel muhasebe deftere nakil grupları V2</span><span class="sxs-lookup"><span data-stu-id="e9802-119">Sales tax ledger posting groups V2</span></span> | <span data-ttu-id="e9802-120">msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="e9802-120">msdyn_taxpostinggroups</span></span> |
-<span data-ttu-id="e9802-121">Stopaj vergisi kodları</span><span class="sxs-lookup"><span data-stu-id="e9802-121">Withholding tax codes</span></span> | <span data-ttu-id="e9802-122">msdyn_withholdingtaxcodes</span><span class="sxs-lookup"><span data-stu-id="e9802-122">msdyn_withholdingtaxcodes</span></span> |
-<span data-ttu-id="e9802-123">Stopaj vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="e9802-123">Withholding tax groups</span></span> | <span data-ttu-id="e9802-124">msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="e9802-124">msdyn_withholdingtaxgroups</span></span> | 
+<span data-ttu-id="18391-111">Madde satış vergisi grubu</span><span class="sxs-lookup"><span data-stu-id="18391-111">Item sales tax group</span></span> | <span data-ttu-id="18391-112">msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="18391-112">msdyn_taxitemgroups</span></span> |
+<span data-ttu-id="18391-113">Satış vergisi makamları</span><span class="sxs-lookup"><span data-stu-id="18391-113">Sales tax authorities</span></span> | <span data-ttu-id="18391-114">msdyn_taxauthorities</span><span class="sxs-lookup"><span data-stu-id="18391-114">msdyn_taxauthorities</span></span> |
+<span data-ttu-id="18391-115">Satış vergisi muafiyet kodu varlığı CDS</span><span class="sxs-lookup"><span data-stu-id="18391-115">Sales tax exempt code entity CDS</span></span> | <span data-ttu-id="18391-116">msdyn_taxexemptcodes</span><span class="sxs-lookup"><span data-stu-id="18391-116">msdyn_taxexemptcodes</span></span> |
+<span data-ttu-id="18391-117">Satış vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="18391-117">Sales tax groups</span></span> | <span data-ttu-id="18391-118">msdyn_taxgroups</span><span class="sxs-lookup"><span data-stu-id="18391-118">msdyn_taxgroups</span></span> |
+<span data-ttu-id="18391-119">Satış vergisi genel muhasebe deftere nakil grupları V2</span><span class="sxs-lookup"><span data-stu-id="18391-119">Sales tax ledger posting groups V2</span></span> | <span data-ttu-id="18391-120">msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="18391-120">msdyn_taxpostinggroups</span></span> |
+<span data-ttu-id="18391-121">Stopaj vergisi kodları</span><span class="sxs-lookup"><span data-stu-id="18391-121">Withholding tax codes</span></span> | <span data-ttu-id="18391-122">msdyn_withholdingtaxcodes</span><span class="sxs-lookup"><span data-stu-id="18391-122">msdyn_withholdingtaxcodes</span></span> |
+<span data-ttu-id="18391-123">Stopaj vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="18391-123">Withholding tax groups</span></span> | <span data-ttu-id="18391-124">msdyn_withholdingtaxgroups</span><span class="sxs-lookup"><span data-stu-id="18391-124">msdyn_withholdingtaxgroups</span></span> | 
 
 
 [!include [banner](../../includes/dual-write-symbols.md)]
