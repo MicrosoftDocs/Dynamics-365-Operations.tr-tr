@@ -19,15 +19,14 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 08e6a521818c919b364033e22643b9ee4ce0ec65
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 211bcf3f4938b438e417f92cd385aaa04278a404
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024672"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107173"
 ---
 # <a name="commerce-home-page"></a>Commerce giriş sayfası
-
 
 [!include [banner](includes/banner.md)]
 
@@ -50,9 +49,9 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Commerce önizleme ortamı yapılandırma](provisioning-guide.md)
 - [Ticari mimari](retail-components.md)
 - [Kanallarınızı ayarlama](channels-overview.md)
-- [Ürünler ve hizmetlerinizi alın ve satın](set-up-retail-products.md)
-- [Siparişlerinizi yönetin](Order-fulfillment-overview.md)
-- [Müşterilerinizi yönetin](set-up-customer-loyalty-program.md)
+- [Ürün ve hizmetlerinizin ticari satışı](set-up-retail-products.md)
+- [Siparişlerinizi yönetme](Order-fulfillment-overview.md)
+- [Müşterilerinizi yönetme](set-up-customer-loyalty-program.md)
 - [Mali öğelerinizi yönetme](retail-statements.md)
 - [E-ticaret sitenizi yönetin](online-store-overview.md)
 - [Sahtekarlık koruması](dev-itpro/DFP.md)

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1eb5e4ea8d086baeee686ccb3d044b3ef9d2a4fa
-ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
+ms.openlocfilehash: 961e6a167d4fe48c96bffcff1e54acde0ad5d805
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3818584"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997436"
 ---
 # <a name="dual-write-overview"></a>Çift yazmaya genel bakış
 

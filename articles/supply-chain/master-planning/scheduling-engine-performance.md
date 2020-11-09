@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015079"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -180,7 +180,7 @@ Kısıtlama çözücü, planlama algoritmasının özelliklerini bilmez. İşlem
 
 Altyapıdaki (dahili) kısıtlamaların büyük bir bölümü bir kaynağın çalışma süresini ve kapasitesini denetler. Esas olarak görev, bir kaynak için çalışma zamanı aralıklarını belirli bir noktadan belirli bir yöne geçirmek ve iş için gerekli olan kapasitenin (saat) uygun olacağı yeterince uzun bir zaman aralığı bulmaktır.
 
-Bunu yapmak için, altyapının bir kaynağın çalışma saatlerini bilmesi gerekir. Ana model verilerinin tersine çalışma süreleri *yavaş yüklenir*, diğer deyişle altyapıya gerektiğinde yüklenir. Bu yaklaşımın nedeni, genellikle Supply Chain Management'ta çok uzun süreli bir takvim çalışma sürelerinin olması ve genellikle birçok takvimin bulunması ve buna bağlı olarak verilerin önceden yükleme için oldukça fazla olmasıdır.
+Bunu yapmak için, altyapının bir kaynağın çalışma saatlerini bilmesi gerekir. Ana model verilerinin tersine çalışma süreleri *yavaş yüklenir* , diğer deyişle altyapıya gerektiğinde yüklenir. Bu yaklaşımın nedeni, genellikle Supply Chain Management'ta çok uzun süreli bir takvim çalışma sürelerinin olması ve genellikle birçok takvimin bulunması ve buna bağlı olarak verilerin önceden yükleme için oldukça fazla olmasıdır.
 
 Takvim bilgileri, altyapı tarafından X++ sınıfı yöntemi `WrkCtrSchedulingInteropDataProvider.getWorkingTimes` çağrılarak öbekler halinde istenir. İstek, belirli bir zaman aralığındaki belirli bir takvim kodu için yapılır. Supply Chain Management'daki sunucu önbelleğinin durumuna bağlı olarak, bu isteklerin her biri uzun süren (saf bilgi işlem zamanına göre) birkaç veritabanı çağrısıyla sonlanabilir. Ayrıca, takvimde gün başına birçok çalışma zamanı aralığı içeren çok ayrıntılı çalışma zamanı tanımları varsa bu, yükleme süresine eklenir.
 
@@ -238,11 +238,7 @@ Operasyon planlamasında, kaynak grubunun takvimi her operasyonun başlangıç v
 
 Belirli bir gündeki kaynak grubuna dahil edilen tüm kaynaklardaki iş planlamadan alınan yük, aynı gün içindeki kaynak grubunun kullanılabilir kapasitesi hesaplanırken dikkate alınır. Her tarih için hesaplama şu şekilde yapılır:
 
-> Kullanılabilir kaynak grubu kapasitesi =  
-> (takvimine dayalı olarak gruptaki kaynaklar için kapasite) -  
-> (gruptaki kaynaklar üzerinde planlanan iş yükü) -  
-> (gruptaki kaynaklar üzerinde planlanan operasyon yükü) -  
-> (kaynak grubundaki planlanan operasyon yükü) -
+*Kullanılabilir kaynak grubu kapasitesi = Gruptaki kaynakların takvimlerine göre kapasitesi &ndash; Gruptaki kaynaklar üzerinde planlanan iş yükü &ndash; gruptaki kaynaklar üzerinde planlanan operasyon yükü &ndash; kaynak grubu üzerinde planlanan operasyon yükü*
 
 Rota operasyonunun **Kaynak gereksinimleri** sekmesinde, kaynak gereksinimleri belirli bir kaynak kullanılarak (bu durumda operasyon söz konusu kaynak kullanılarak planlanır), bir kaynak grubu, bir kaynak türü veya bir ya da daha fazla yetenek, beceri, kurs veya sertifika ile ilgili olarak belirtilebilir. Bu seçeneklerin tümünün kullanılması, rota tasarımında büyük bir esneklik sağlar, ayrıca kapasite "özellik" başına (yetenek, beceri, vb. için altyapıda kullanılan soyut ad) dikkate alınacağından planlamayı karmaşıklaştırır.
 
@@ -252,11 +248,7 @@ Operasyon planlamasında, bir kaynak grubuna ilişkin belirli bir yetenek için 
 
 Her tarih için gerekli hesaplama şu şekilde yapılır:
 
-> Bir yetenek için kullanılabilir kapasite =  
-> (yetenek kapasitesi) -  
-> (kaynak grubuna dahil edilen belirli bir yeteneğe sahip kaynaklar üzerinde planlanan iş yükü) -  
-> (kaynak grubuna dahil edilen belirli bir yeteneğe sahip kaynaklar üzerinde planlanan operasyon yükü) -  
-> (kendisi belirli bir yetenek gerekitren kaynaklar üzerinde planlanan operasyon yükü) -
+*Bir yetenek için kullanılabilir kapasite = Yetenek için kapasite &ndash; Kaynak grubu dahil edilen belirli bir yeteneğe sahip kaynaklar üzerinde planlanan iş yükü &ndash; Kaynak grubuna dahil edilen belirli bir yeteneğe sahip kaynaklar üzerinde planlanan operasyon yükü &ndash; Belirli bir yeteneği gerektiren kaynak grubunun kendisi üzerinde planlanan operasyon yükü*
 
 Bu, belirli bir kaynakta yük varsa, yükün yetenek için kaynak grubundaki kullanılabilir kapasite hesaplamasında dikkate alınacağı anlamına gelir çünkü belirli bir kaynaktaki yük kaynağın kaynak grubu kapasitesine katkısını (belirli kaynaktaki yükün bu belirli yetenek için olup olmadığına bakılmaksızın) azaltır. Kaynak grubu düzeyinde yük varsa, yalnızca yükün belirli bir yeteneği gerektiren bir operasyonla ilgili olması durumunda, kaynak grubunun yetenek başına kullanılabilir kapasitesini hesaplamada dikkate alınır.
 
@@ -264,9 +256,9 @@ Yukarıdaki mantık her "özellik" türü için aynı olduğundan karmaşıktır
 
 ## <a name="viewing-scheduling-engine-input-and-output"></a>Planlama alt yapısı giriş ve çıkışını görüntüleme
 
-Planlama sürecinin giriş ve çıkışıyla ilgili özel ayrıntılar almak için, **Kuruluş Yönetimi \> Kurulum \> Planlama \> Planlama izleme kokpiti**'ni kullanarak günlük kaydını etkinleştirin.
+Planlama sürecinin giriş ve çıkışıyla ilgili özel ayrıntılar almak için, **Kuruluş Yönetimi \> Kurulum \> Planlama \> Planlama izleme kokpiti** 'ni kullanarak günlük kaydını etkinleştirin.
 
-Bu sayfada, önce Eylem bölmesinde **Günlük kaydını etkinleştir**'i seçin. Ardından, üretim emri için planlamayı çalıştırın. Tamamlandığında, **Planlama izleme kokpiti** sayfasına geri dönün ve Eylem bölmesinde **Günlük kaydını devre dışı bırak**'ı seçin. Sayfayı yenileyin; ızgarada yeni bir satır görüntülenir. Yeni satırı ve ardından Eylem Bölmesinde **İndir**'i seçin. Bu size, aşağıdaki dosyaları içeren .zip ile sıkıştırılmış bir klasör verecektir:
+Bu sayfada, önce Eylem bölmesinde **Günlük kaydını etkinleştir** 'i seçin. Ardından, üretim emri için planlamayı çalıştırın. Tamamlandığında, **Planlama izleme kokpiti** sayfasına geri dönün ve Eylem bölmesinde **Günlük kaydını devre dışı bırak** 'ı seçin. Sayfayı yenileyin; ızgarada yeni bir satır görüntülenir. Yeni satırı ve ardından Eylem Bölmesinde **İndir** 'i seçin. Bu size, aşağıdaki dosyaları içeren .zip ile sıkıştırılmış bir klasör verecektir:
 
 - **Log.txt** - Bu, altyapının geçtiği adımları açıklayan günlük dosyasıdır. Çok ayrıntılı ve bunaltıcı olabilir, ancak performans sorunlarını çözmede izlenecek yolun bir parçası olarak kullanıldığında, ilk bakılacak olan ilk ve son satır arasındaki farktır çünkü bu değer planlayıcının harcadığı toplam süreyi belirtir.
 - **XmlModel.xml** - X++ içinde oluşturulan ve altyapının üzerinde işlem yaptığı modeli içerir. Dosyada kullanılan `JobId` işleri içeren kaynak tablodan alınan `RecId` ile ilişkilidir (`ReqRouteJob` veya `ProdRouteJob`). Bu dosyada aranacak tipik şey, `ConstraintJobStartsAt` ve `ConstraintJobEndsAt` içindeki tarihlerin beklendiği gibi olup olmadığı, `JobGoal` özelliğin doğru şekilde ayarlandığı ve işlerin `JobLink` kısıtlamaları üzerinden birbirleriyle ilişkili olduğudur.

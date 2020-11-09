@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
+ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967270"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3999561"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -90,7 +90,7 @@ Rapor oluşturan kullanıcılar kendi raporlarını silebilir. **Finansal Raporl
 Sürüm 10.0.8'de, bitiş tarihleri kavramı kullanıma sunulmuştur. Özellik yönetimi çalışma alanı içindeki **Tümü** sayfasında yeni bir gerekli özellik etkinleştirilmiştir. **Finansal rapor tutma ilkeleri** özelliği aşağıdaki değişiklikleri içerir:
 * Yeni oluşturulan raporlar, oluşturulduklarında süresi sona 90 gün geçerlilik tarihine sahip olacak şekilde otomatik olarak işaretlenecek.
 * Özelliğin yüklenmesi öncesinde varolan tüm raporlara, 90 günlük bir geçerlilik süresi verilir. Mali Raporlama Servisi tamamlanana kadar tarih kısa bir süre için boş olarak gösterilebilir, bir rapor oluşturulur ve servis güncelleştirmeyi boş bitiş tarihi olan mevcut raporlar için yapar. 
-* **Finansal Raporlama güvenliğini koru** ayrıcalığına sahip kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru**'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir: 
+* **Finansal Raporlama güvenliğini koru** ayrıcalığına sahip kullanıcıların bu işlevlere erişimi vardır. **Finansal rapor kullanım süresi sonu** hakkı verilen **Finansal raporu koru** 'daki her kullanıcının, kullanım süresi sonu süresini değiştirme olanağı da vardır. Şu anda iki tutma seçeneği kullanılabilir: 
   * 90 günlük bitiş tarihi.
   * Raporu asla sona erme olarak ayarlamak için bir seçenek.
   
@@ -132,7 +132,7 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, varsayılan ana
 **Finansal raporlama** menüsünü seçtiğinizde şirketin varsayılan finansal raporlarının listesi gösterilir. Sonra bir raporu açabilir veya değiştirebilirsiniz. Varsayılan raporlardan birini açmak için, rapor adını seçin. Bir rapor ilk defa açıldığında, otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2019'de açarsanız, rapor 31 Temmuz 2019 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Mali raporları oluşturma ve değiştirme
-Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni**'yi seçerek yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Dynamics 365 Finance'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
+Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** 'yi seçerek yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Dynamics 365 Finance'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. 
 
 ## <a name="reporting-tree-definitions"></a>Raporlama ağacı tanımları 
 Mali raporlar oluşturmak için kullanılan bileşenlerden biri raporlama ağacı tanımıdır. Raporlama ağacı tanımı kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olur. Mali verilerinizde boyutlu ilişkilere dayanan çapraz boyutlu hiyerarşik bir yapıdır. Ağaçtaki tüm birimler için raporlama birimi düzeyinde ve özet düzeyinde bilgi sağlar.
@@ -143,10 +143,10 @@ Kuruluşunuzun verilerini farklı yollarla görüntülemek için sınırsız say
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Rapor Tasarımcısı açma sorunlarını giderme
 Rapor Tasarımcısı'nı açtığınızda sorunlara neden olabilen bazı genel sorunlar bulunmaktadır. Bu sorunlar ve bunları gidermek için gereken adımlar aşağıdaki gibidir.
 
-Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başlamıyor.
+Sorun 1: **Yeni** veya **Düzenle** 'yi seçtiğinizde Rapor Tasarımcısı başlamıyor.
 
-* Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i ve sonra **Siteler**'i seçin. **Bu web sitesini bölgeye ekle** alanında "\*\.dynamics.com" (tırnak işaretleri olmadan) girin ve **Ekle**'yi seçin. 
-* Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
+* Internet Explorer'da **Ayarlar** 'ı ve ardından **İnternet Seçenekleri** 'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i ve sonra **Siteler** 'i seçin. **Bu web sitesini bölgeye ekle** alanında "\*\.dynamics.com" (tırnak işaretleri olmadan) girin ve **Ekle** 'yi seçin. 
+* Internet Explorer'da **Ayarlar** 'ı ve ardından **İnternet Seçenekleri** 'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
 * Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
 * Microsoft .NET Framework 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
 * Chrome tarayıcıyla birlikte Microsoft Edge kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. 
@@ -154,14 +154,14 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
      2. **edge://flags** girin ve **Enter** seçeneğini belirleyin.
      3. **ClickOnce Destek** seçeneğini arayın veya bu doğrudan bağlantıyı kullanın: **edge://flags/#edge-click-once**.
      4. Açılır menü seçeneğini **Etkin** olarak ayarlayın.
-     5. **Tarayıcıyı Yeniden Başlat**'ı seçin.
+     5. **Tarayıcıyı Yeniden Başlat** 'ı seçin.
 
 Sorun 2: Kullanıcıya Financial Reporting kullanmak için gerekli izinler atanmadı. 
 
-* Kullanıcının izni olup olmadığını doğrulamak için, şu hata iletisi altında **Evet**'i seçin: "Financial Reporting sunucusuna bağlanılamıyor. Devam etmek ve farklı bir sunucu adresi belirtmek istiyorsanız Evet'i seçin." Ardından **Bağlantı Sınama** sekmesini seçin. İzniniz yoksa şu iletiyi alırsınız: "Bağlantı girişimi başarısız oldu. Kullanıcı sunucuya bağlanmak için uygun izinlere sahip değil. Sistem yöneticinize başvurun."
+* Kullanıcının izni olup olmadığını doğrulamak için, şu hata iletisi altında **Evet** 'i seçin: "Financial Reporting sunucusuna bağlanılamıyor. Devam etmek ve farklı bir sunucu adresi belirtmek istiyorsanız Evet'i seçin." Ardından **Bağlantı Sınama** sekmesini seçin. İzniniz yoksa şu iletiyi alırsınız: "Bağlantı girişimi başarısız oldu. Kullanıcı sunucuya bağlanmak için uygun izinlere sahip değil. Sistem yöneticinize başvurun."
 * Gerekli izinler, [Financial Reporting'e güvenlik erişimi verme](#granting-security-access-to-financial-reporting) üzerinde listelenmiştir. Financial Reporting'de güvenlik bu ayrıcalıkları temel alır. Bu ayrıcalıklar (veya bu ayrıcalıkları içeren başka bir güvenlik rolü) size atanmadıkça erişiminiz olmayacaktır. 
 * **Şirket Kullanıcıları Sağlayıcısı'dan Şirkete** tümleştirme görevi (kullanıcı tümleştirmesinden sorumludur ve kullanıcı tümleştirmesi olarak da bilinir) 5 dakikalık bir aralıkta çalışır. Tüm izin değişikliklerinin Financial Reporting'de geçerli olması 10 dakika kadar sürebilir. 
-  Başka bir kullanıcı Rapor Tasarımcısını açabiliyorsa, **Araçlar**'ı ve ardından **Tümleştirme Durumu**'nu seçin. Financial Reporting kullanma izni atadığınız için "Şirket Kullanıcıları Sağlayıcısından Şirkete" tümleştirme eşlemesinin başarılı şekilde çalışıp çalışmadığını doğrulayın. 
+  Başka bir kullanıcı Rapor Tasarımcısını açabiliyorsa, **Araçlar** 'ı ve ardından **Tümleştirme Durumu** 'nu seçin. Financial Reporting kullanma izni atadığınız için "Şirket Kullanıcıları Sağlayıcısından Şirkete" tümleştirme eşlemesinin başarılı şekilde çalışıp çalışmadığını doğrulayın. 
 * Başka bir hata **Dynamics kullanıcısı ile Financial Reporting kullanıcısı tümleştirmesinin** tamamlanmasını engellemiş olabilir. Ya da, bir veri reyonu sıfırlama işlemi başlatılmış ve henüz tamamlanmamış veya başka bir sistem hatası oluşmuş olabilir. İşlemi daha sonra yeniden çalıştırmayı deneyin. Sorun devam ederse, sistem yöneticinize başvurun.
 
 Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam edebilirsiniz ancak Rapor Tasarımcısında oturum açma işlemini tamamlayamazsınız. 

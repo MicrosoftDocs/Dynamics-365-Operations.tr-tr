@@ -3,7 +3,7 @@ title: Sepet modülü
 description: Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
+ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818287"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4055439"
 ---
 # <a name="cart-module"></a>Sepet modülü
 
@@ -50,7 +50,7 @@ Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilm
 
 | Özellik | Değerler | Tanım |
 |----------------|--------|-------------|
-| Başlık | Başlık metmi ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | "Alışveriş çantası" veya "Sepetinizdeki maddeler" gibi bir sepet başlığı. |
+| Başlık | Başlık metmi ve başlık etiketi ( **H1** , **H2** , **H3** , **H4** , **H5** veya **H6** ) | "Alışveriş çantası" veya "Sepetinizdeki maddeler" gibi bir sepet başlığı. |
 | Stokta yok hatalarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, alışveriş sepeti sayfası stokla ilgili hataları gösterir. Sitede stok denetimleri uygulanıyorsa bu özelliği **Doğru** olarak ayarlamanız önerilir. |
 | Kalemler için sevkiyat masraflarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, bu bilginin var olması durumunda sepet satırı maddeleri sevkiyat giderlerini gösterir. Kullanıcılar ödeme akışında yalnızca sevkiyatı seçtiğindan bu özellik Fabrikam temasında desteklenmez. Ancak, varsa bu özellik diğer iş akışlarında etkinleştirilebilir. |
 
@@ -67,6 +67,9 @@ Aşağıdaki sepet modülü ayarları **Site Ayarları \> Uzantılar** üzerinde
 - **Stok** - Stok ayarlarının nasıl uygulanacağı hakkında bilgi için bkz. [Envanter ayarları uygula](inventory-settings.md).
 - **Alışverişe dön** – Bu özellik, **alışverişe geri dön** bağlantısına ait rotayı belirtmek için kullanılır. Rota, Tesis düzeyinde konfigüre edilebilir ve perakendeciler müşteriyi giriş sayfasına veya sitedeki herhangi bir sayfaya geri geçirmesine olanak sağlar.
 
+> [!IMPORTANT]
+> Dynamics 365 Commerce 10.0.14 sürümü ve sonrasında, sepetteki maddeler, Commerce Headquarters'daki çevrimiçi mağazanın çevrimiçi işlevsellik profilinde tanımlanan ayarlara göre toplanır. Bir çevrimiçi işlevsellik profili oluşturma ve toplama için gerekli özellikleri ayarlama hakkında daha fazla bilgi için, bkz. [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md).
+
 ## <a name="commerce-scale-unit-interaction"></a>Ticari ölçek birim etkileşimi
 
 Sepet modülü, ürün bilgilerini Commerce Scale Unit API'leri kullanarak alır. Commerce Scale Unit'deki tüm ürün bilgilerini almak için, tarayıcı tanımlama bilgisinden alışveriş sepetinin kodu kullanılır.
@@ -75,23 +78,23 @@ Sepet modülü, ürün bilgilerini Commerce Scale Unit API'leri kullanarak alır
 
 Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Parçalar** 'a gidin ve yeni parça oluşturmak için **Yeni** 'yi seçin.
 1. **Yeni parça** iletişim kutusunda, **Sepet** modülünü seçin.
-1. **Parça adı** altında, **Sepet parçası** için bir ad girin ve **Tamam**'ı seçin.
+1. **Parça adı** altında, **Sepet parçası** için bir ad girin ve **Tamam** 'ı seçin.
 1. **Sepet** yuvasını seçin.
 1. Sağdaki Özellikler bölmesinde, Kurşun Kalem sembolünü seçin, alana başlık metnini girin ve onay işareti simgesini seçin.
-1. **Sepet** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.
+1. **Sepet** yuvası için üç nokta ( **...** ) düğmesini seçin ve **Modül Ekle** 'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin, parçayı iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. Bir yeni şablonu oluşturmak için **Şablonlar** 'a gidin ve **Yeni** 'yi seçin.
 1. **Yeni Şablon** iletişim kutusunda **Şablon adı** altında, şablon için bir ad girin.
-1. Anahat ağacında **Gövde** yuvasını seçin, üç nokta (**...**) ve sonra **Parça ekle**'yi seçin.
-1. **Parça seç** iletişim kutusunda **Sepet parçası** öğesini ve sonra **Tamam**'ı seçin.
-1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
-1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
-1. **Şablon Seç** iletişim kutusunda oluşturduğunuz şablonu seçin, sayfa adı girin ve sonra **Tamam**'ı seçin.
-1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
-1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
+1. Anahat ağacında **Gövde** yuvasını seçin, üç nokta ( **...** ) ve sonra **Parça ekle** 'yi seçin.
+1. **Parça seç** iletişim kutusunda **Sepet parçası** öğesini ve sonra **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin, şablonu iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Sayfalar** 'a gidin ve yeni sayfa oluşturmak için **Yeni** 'yi seçin.
+1. **Şablon Seç** iletişim kutusunda oluşturduğunuz şablonu seçin, sayfa adı girin ve sonra **Tamam** 'ı seçin.
+1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -110,3 +113,5 @@ Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için 
 [Hediye kartı modülü](add-giftcard.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
+
+[Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md)

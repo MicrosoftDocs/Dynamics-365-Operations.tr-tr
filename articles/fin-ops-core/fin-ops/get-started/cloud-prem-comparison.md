@@ -3,7 +3,7 @@ title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 50ab5827f864b53137acb77e75055e995ea6f439
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100294"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040111"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -58,10 +58,10 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | ER: LCS ile tümleştirme                                                                  | Evet       | Hayır              |
 |                                      | ER: SharePoint ile tümleştirme                                                           | Evet       | Hayır              |
 |                                      | ER: Düzenleyici Yapılandırma Hizmeti (RCS) ile tümleştirme                              | Evet       | Hayır              |
-|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
-|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | Hayır              |
-|                                      | PowerBI Desktop'le Tümleştirme                                                          | Hayır        | Evet             |
-|                                      | Analitik çalışma alanları                                                                     | Evet       | Hayır              |
+|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | No        | Evet             |
+|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | No              |
+|                                      | PowerBI Desktop ile tümleştirme                                                          | No        | Evet             |
+|                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
 |                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Hayır              |
@@ -87,6 +87,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 | **Alan**                | **Özellik**             | **Bulut** | **Şirket içi** |
 |-------------------------|-------------------|-----------|-----------------|
+| Kıymet yönetimi                     |                                                                                           | Evet       | No |
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
 | Maliyet muhasebesi                      |                                                                                           | Evet       | Evet             |
@@ -106,10 +107,10 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 |                                      | ER: LCS ile tümleştirme                                                                  | Evet       | Hayır              |
 |                                      | ER: SharePoint ile tümleştirme                                                           | Evet       | Hayır              |
 |                                      | ER: Düzenleyici Yapılandırma Hizmeti (RCS) ile tümleştirme                              | Evet       | Hayır              |
-|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | Hayır        | Evet             |
-|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | Hayır              |
-|                                      | PowerBI Desktop'le Tümleştirme                                                          | Hayır        | Evet             |
-|                                      | Analitik çalışma alanları                                                                     | Evet       | Hayır              |
+|                                      | ER: Yerel dosya sitemini ER yapılandırmalarının depolaması olarak ER havuzları aracılığıyla kullanır | No        | Evet             |
+|                                      | PowerBI.com ile tümleştirme                                                              | Evet       | No              |
+|                                      | PowerBI Desktop ile tümleştirme                                                          | No        | Evet             |
+|                                      | Analiz çalışma alanları                                                                     | Evet       | No              |
 |                                      | Akıllı iş süreci: Öneriler                                             | Evet       | Hayır              |
 |                                      | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma    | Evet       | Hayır              |
 |                                      | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler                                 | Evet       | Hayır              |

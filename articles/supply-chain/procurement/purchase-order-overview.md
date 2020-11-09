@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018779"
 ---
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
@@ -58,25 +58,25 @@ Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bak�
 ## <a name="purchase-order-statuses"></a>Satınalma siparişi durumları
 PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tüm bu alanlar, siparişin **Başlık** görünümünde görüntülenir ve ayrıca bunlardan bazıları tüm siparişlerin kılavuz genel görünümünde de görüntülenir. **Durum** alanı siparişteki miktarların durumunu gösterir. Aşağıdaki değerler kullanılabilir:
 
--   **Açık sipariş**: Siparişler oluşturuldu ve miktarlar sipariştedir.
--   **Alınan**: Miktarın bir kısmı alındı ancak henüz faturalanmadı.
--   **Faturalandı**: Siparişteki tüm miktar faturalandı. **Not:** Bir sipariş *kısmen* faturalandıysa ya **Alınan** durumu ya da **Faturalandı** durumu uygundur. Bu nedenle, sipariş durumu hala **Açık sipariş** olacaktır.
--   **İptal edildi**: Sipariş önce onaylandı ancak sonra iptal edildi. Bu nedenle, bu durum artık siparişte açık miktar olmadığını gösterir.
+-   **Açık sipariş** : Siparişler oluşturuldu ve miktarlar sipariştedir.
+-   **Alınan** : Miktarın bir kısmı alındı ancak henüz faturalanmadı.
+-   **Faturalandı** : Siparişteki tüm miktar faturalandı. **Not:** Bir sipariş *kısmen* faturalandıysa ya **Alınan** durumu ya da **Faturalandı** durumu uygundur. Bu nedenle, sipariş durumu hala **Açık sipariş** olacaktır.
+-   **İptal edildi** : Sipariş önce onaylandı ancak sonra iptal edildi. Bu nedenle, bu durum artık siparişte açık miktar olmadığını gösterir.
 
 **Belge durumu** alanı işlenmiş belgeler açısından siparişin ilerlemesini hızlıca gözden geçirmenize yardımcı olur. Sipariş için tamamlanan en son belgenin durumunu gösterir. Aşağıdaki değerler kullanılabilir:
 
--   **Yok**: Sipariş için henüz hiç belge işlenmedi.
--   **Satınalma sorgusu**: Bir satınalma sorgusu oluşturuldu ve sipariş satıcıdan geri bildirim bekliyor.
--   **Satınalma siparişi**: Onay, sipariş üzerinde işlendi.
--   **Ürün girişi**: Ürün girişi sipariş üzerinde işlendi.
--   **Fatura**: Bir faturanın siparişte maliyet muhasebesi yapıldı.
+-   **Yok** : Sipariş için henüz hiç belge işlenmedi.
+-   **Satınalma sorgusu** : Bir satınalma sorgusu oluşturuldu ve sipariş satıcıdan geri bildirim bekliyor.
+-   **Satınalma siparişi** : Onay, sipariş üzerinde işlendi.
+-   **Ürün girişi** : Ürün girişi sipariş üzerinde işlendi.
+-   **Fatura** : Bir faturanın siparişte maliyet muhasebesi yapıldı.
 
 **Onay durumu** alanı, PO bir gözden geçirme süreci veya iş akışından geçerse kullanılır. Aşağıdaki değerler kullanılabilir:
 
--   **Taslak**, **İncelemede** ve **Reddedildi**: Bu durumlar, yalnızca PO için bir onay iş akışı olduğunda kullanılır.
--   **Onaylandı**: Bu durum, iş akışı onayını tamamlayan siparişlere atanır. Onay iş akışı kullanılmadan oluşturulan siparişler hemen **Onaylandı** durumuna geçer.
--   **Harici incelemede**: Bu durum satıcının PO'nun koşullarını onaylayabilmesi için satıcıya satınalma talebi gönderildiği senaryolarda kullanılır. Bu durum ayrıca **Onay talebi** eylemiyle başlatılan işlemde de kullanılır. Bu işlem için, satıcının sisteminize bağlanması ve siparişi onayladığını veya reddettiğini kaydederek PO koşullarını onaylaması istenir.
--   **Onaylandı**: Bu durum, sipariş onaylandıktan sonra atanır. Normalde, bu durum bir siparişe atanan en son onay durumudur.
+-   **Taslak** , **İncelemede** ve **Reddedildi** : Bu durumlar, yalnızca PO için bir onay iş akışı olduğunda kullanılır.
+-   **Onaylandı** : Bu durum, iş akışı onayını tamamlayan siparişlere atanır. Onay iş akışı kullanılmadan oluşturulan siparişler hemen **Onaylandı** durumuna geçer.
+-   **Harici incelemede** : Bu durum satıcının PO'nun koşullarını onaylayabilmesi için satıcıya satınalma talebi gönderildiği senaryolarda kullanılır. Bu durum ayrıca **Onay talebi** eylemiyle başlatılan işlemde de kullanılır. Bu işlem için, satıcının sisteminize bağlanması ve siparişi onayladığını veya reddettiğini kaydederek PO koşullarını onaylaması istenir.
+-   **Onaylandı** : Bu durum, sipariş onaylandıktan sonra atanır. Normalde, bu durum bir siparişe atanan en son onay durumudur.
 
 
 <a name="additional-resources"></a>Ek kaynaklar

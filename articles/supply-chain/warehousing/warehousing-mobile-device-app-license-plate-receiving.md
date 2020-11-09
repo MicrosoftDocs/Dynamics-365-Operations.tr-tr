@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 60e69fd62d6d15a1fcb17644ef4710b8764ce924
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651726"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016574"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Ambar uygulaması aracılığıyla plaka teslim alma
 
@@ -91,7 +92,7 @@ Bu işlevi sisteminizde kullanılabilir hale getirmek için, [özellik yönetimi
 
 Bu özellik kullanılabilir olduğunda işlevselliği yönetmek için, aşağıdaki adımları izleyin.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri** 'ne gidin.
 1. **Genel** sekmesinde **Plakalar** hızlı sekmesinde, **Transit ambarı plaka ilkesi** alanını aşağıdaki değerlerden birine ayarlayın:
 
     - **İzlenemeyen plakanın yeniden kullanılmasına izin ver** – Sistem, *Transfer emriyle sevkedilen plakaların hedef ambar dışındaki ambarlarda kullanılmasını engelleme* özelliğinin kullanılabilir olmadığı durumlardaki gibi çalışır. Bu değer, özelliği ilk etkinleştirdiğinizde varsayılan ayardır.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMTable
+ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 555c76651609718aeed11230b4de4fec3bb39ce9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016897"
 ---
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
@@ -54,7 +54,7 @@ Bir temel özniteliği ürünle ilişkilendirmek için aşağıdaki kurulumun ya
 
 **Stok toplu iş öznitelikleri** sayfasında bir toplu iş için etkin bileşenin gerçek değerine bakabilir ve düzenleyebilirsiniz. 
 
--  **Stok yönetimi** \> **Sorgular ve raporlar** \> **İzleme boyutları** \> **Toplu işler** \> **Stok toplu iş öznitelikleri**'ni seçin.
+-  **Stok yönetimi** \> **Sorgular ve raporlar** \> **İzleme boyutları** \> **Toplu işler** \> **Stok toplu iş öznitelikleri** 'ni seçin.
 
 <a name="ingredient-types-and-how-they-interact-in-the-batch-balancing-process"></a>Toplu iş dengeleme işleminde bileşen türleri ve etkileşimleri
 ---------------------------------------------------------------------
@@ -115,7 +115,7 @@ Etkin bileşen ve tamamlayıcı bileşen arasındaki ilişki **Telafi ilkesi** s
 
 Bileşenler arasındaki ilişkileri ayarlamak için aşağıdaki adımları izleyin:
 
-1.  **Ürün bilgileri yönetimi** \> **Reçeteler ve malzemeler ve formüller** \> **Formüller**'i seçin, bir formül satırını açın ve ardından **Bileşenler**'i seçerek **Telafi ilkesi** sayfasını açın.
+1.  **Ürün bilgileri yönetimi** \> **Reçeteler ve malzemeler ve formüller** \> **Formüller** 'i seçin, bir formül satırını açın ve ardından **Bileşenler** 'i seçerek **Telafi ilkesi** sayfasını açın.
 
 2.  Bir telafi ilkesini temsil eden satırı seçin ve ardından telafi edilecek etkin bileşeni seçin.
 
@@ -143,7 +143,7 @@ B bileşeni temel özniteliği X ve hedef düzeyi 30 olan bir etkin bileşendir.
 
 ### <a name="filler"></a>Dolgu
 
-*Dolgu bileşeni*, bitmiş ürünün istenen çıktı miktarına erişmek için kullanılan nötr bir bileşendir. Dolgu miktarlarındaki ayarlamalar, standart miktara kıyasla etkin bileşendeki ve telafi bileşenindeki değişiklikler temel alınarak hesaplanır.
+*Dolgu bileşeni* , bitmiş ürünün istenen çıktı miktarına erişmek için kullanılan nötr bir bileşendir. Dolgu miktarlarındaki ayarlamalar, standart miktara kıyasla etkin bileşendeki ve telafi bileşenindeki değişiklikler temel alınarak hesaplanır.
 
 **Örnek**
 
@@ -156,7 +156,7 @@ Dolgu bileşeninin dengelenmiş miktarı, 100 litrelik toplu iş boyutu ile A,B 
 ---------------------------
 
 Toplu iş dengeleme işlemi **Toplu iş dengelemesi** sayfasından gerçekleştirilir.
-**Maliyet yönetimi** \> **Toplu iş emirleri** ve ardından **İşlem** sekmesinden **Toplu iş dengelemesi**'ni seçin. Toplu iş dengelemesi **Başlatıldı** durumundaki toplu iş emirleri için kullanılabilir.
+**Maliyet yönetimi** \> **Toplu iş emirleri** ve ardından **İşlem** sekmesinden **Toplu iş dengelemesi** 'ni seçin. Toplu iş dengelemesi **Başlatıldı** durumundaki toplu iş emirleri için kullanılabilir.
 
 Genel olarak, formülde bileşen türünün **Etkin** olduğu en az bir formül satırı varsa toplu iş dengelemesi toplu iş emirlerine uygulanabilir. (Bu kuralın özel durumu için, bu konunun ilerleyen bölümlerindeki "Toplu iş dengelemesi kullanılmayan toplu iş emirleri" bölümüne bakın.)
 

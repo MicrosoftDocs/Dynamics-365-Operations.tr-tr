@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d274eae4ad3ba60eadb18ca8de22d4b2d10fe727
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016713"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Ambar işinin ertelenmiş işlemesi
 
@@ -44,8 +44,8 @@ Ertelenmiş işlemeyi kullanmak için, bir iş işleme ilkesini yapılandırmal�
 | İş işleme ilkesi adı     | İş işleme ilkelerinin adı. |
 | İş siparişi türü                 | İlkenin uygulandığı iş emri türü. |
 | Operasyon                       | İlke kullanılarak işlenen işlem. |
-| İş işleme yöntemi          | İş satırını işlemek için kullanılan yöntem. Yöntem **Anlık**olarak ayarlanmışsa biçim, hiçbir iş işleme ilkesi satırı işlemek için kullanılmadığında biçime benzer. Yöntem **Ertelenmiş**olarak ayarlanırsa toplu iş çerçevesi kullanan ertelenmiş işlem kullanılır. |
-| Ertelenen işleme eşiği   | **0** (sıfır) değeri hiçbir eşik olmadığını gösterir. Bu durumda, ertelenmiş işlem kullanılabiliyorsa kullanılır. Belirli bir eşik hesaplaması eşiğin altındaysa, Anlık yöntem kullanılır. Aksi takdirde, Ertelenmiş yöntem kullanılabiliyorsa kullanılır. Satış ve transfer ile ilgili işler için eşik, iş için işlenen ilişkili kaynak yük hattı sayısı olarak hesaplanır. Stok yenileme çalışması için, eşik iş tarafından yenilenmekte olan iş satırlarının sayısı olarak hesaplanır. Örneğin, **5** eşiğini ayarlayarak, beşten az başlangıç kaynağı yükleme hattına sahip daha küçük işler ertelenmiş işlemeyi kullanmaz, ancak daha büyük işler onu kullanır. Yalnızca iş işleme yöntemi **Ertelenmiş**olarak ayarlanmışsa eşiğin etkisi vardır. |
+| İş işleme yöntemi          | İş satırını işlemek için kullanılan yöntem. Yöntem **Anlık** olarak ayarlanmışsa biçim, hiçbir iş işleme ilkesi satırı işlemek için kullanılmadığında biçime benzer. Yöntem **Ertelenmiş** olarak ayarlanırsa toplu iş çerçevesi kullanan ertelenmiş işlem kullanılır. |
+| Ertelenen işleme eşiği   | **0** (sıfır) değeri hiçbir eşik olmadığını gösterir. Bu durumda, ertelenmiş işlem kullanılabiliyorsa kullanılır. Belirli bir eşik hesaplaması eşiğin altındaysa, Anlık yöntem kullanılır. Aksi takdirde, Ertelenmiş yöntem kullanılabiliyorsa kullanılır. Satış ve transfer ile ilgili işler için eşik, iş için işlenen ilişkili kaynak yük hattı sayısı olarak hesaplanır. Stok yenileme çalışması için, eşik iş tarafından yenilenmekte olan iş satırlarının sayısı olarak hesaplanır. Örneğin, **5** eşiğini ayarlayarak, beşten az başlangıç kaynağı yükleme hattına sahip daha küçük işler ertelenmiş işlemeyi kullanmaz, ancak daha büyük işler onu kullanır. Yalnızca iş işleme yöntemi **Ertelenmiş** olarak ayarlanmışsa eşiğin etkisi vardır. |
 | Ertelenen işleme toplu iş grubu |İşleme için kullanılan toplu iş grubu. |
 
 Ertelenmiş yerine koyma işleme için şu iş emri türleri desteklenir: satış siparişi, transfer emri çıkışı ve stok yenileme.
@@ -77,7 +77,7 @@ Ertelenmiş yerine koyma işleme kullanıldığında, kapalı çalışma tarihi 
 
 ## <a name="reprocessing-a-failed-task"></a>Başarısız olan bir görevi yeniden işleme
 
-Başarısız olan bir görevi sayfada seçerek ve sonra **Ertelenmiş yerine koymayı işleme**seçeneğini belirleyerek yeniden işleyebilirsiniz. Yeniden işleme, hemen işlenmek üzere ayarlanmış gibi, kullanıcının mobil cihazdan yerine koyma işlemini tamamladığı bir duruma karşılık gelir.
+Başarısız olan bir görevi sayfada seçerek ve sonra **Ertelenmiş yerine koymayı işleme** seçeneğini belirleyerek yeniden işleyebilirsiniz. Yeniden işleme, hemen işlenmek üzere ayarlanmış gibi, kullanıcının mobil cihazdan yerine koyma işlemini tamamladığı bir duruma karşılık gelir.
 
 ## <a name="canceling-failed-tasks"></a>Başarısız görevleri iptal etme
 

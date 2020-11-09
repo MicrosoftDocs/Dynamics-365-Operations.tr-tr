@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976391"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006178"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -76,7 +76,7 @@ Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi aşağ
 
 **Boyut hiyerarşisi**
 
-|              | Boyut üyesi aralıkları |                     |
+|    &nbsp;    | Boyut üyesi aralıkları | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Düğümler**        | **Kaynak boyut üyesi**   | **Hedef boyut üyesi** |
 | Organizasyon |                         |                     |
@@ -97,7 +97,7 @@ Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi aşağ
 
 **Boyut hiyerarşisi**
 
-|                         | Boyut üyesi aralıkları |                     |
+|      &nbsp;             | Boyut üyesi aralıkları |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Düğümler                   | Kaynak boyut üyesi   | Hedef boyut üyesi |
 | Kar ve zarar raporu |                         |                     |
@@ -105,7 +105,7 @@ Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi aşağ
 
 Genel muhasebe girişleri işlendikten sonra, maliyet nesnesine dayalı maliyet girdi dengesi aşağıdaki gibi görünür.
 
-|                      | **Maliyet nesnesi** |           |           |           | **Toplam**     |
+|      &nbsp;          | **Maliyet nesnesi** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Toplam**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Maliyet öğesi**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Elektrik** | 100,00          | 200.000    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Maliyetin, kuruluş içerisindeki maliyet merkezlerinde nasıl aktığını öğ
 
 Maliyet öğesi boyut üyeleri aşağıdaki gibi ayarlanabilir.
 
-| Maliyet öğeleri | Türü          |               |
+| Maliyet öğeleri | Türü          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elektrik   | Birincil       |
 | 1002          | Maaşlar      | Birincil       |
@@ -169,7 +169,7 @@ Maliyet öğesi boyut üyeleri aşağıdaki gibi ayarlanabilir.
 | **SC-CC003**  | **Montaj**  | **İkincil** |
 | **SC-CC004**  | **Paketleme** | **İkincil** |
 
-Boyut hiyerarşisi **Kar ve Zarar raporu**'nun, boyut hiyerarşisinin raporlamaları ve ilkeleri tanımlamakta kullanılacak doğru verileri içermesi için yeni boyut üyeleri ile güncelleştirilmesi gerekiyor.
+Boyut hiyerarşisi **Kar ve Zarar raporu** 'nun, boyut hiyerarşisinin raporlamaları ve ilkeleri tanımlamakta kullanılacak doğru verileri içermesi için yeni boyut üyeleri ile güncelleştirilmesi gerekiyor.
 
 **Boyut hiyerarşisi ayrıntıları**
 
@@ -179,7 +179,7 @@ Boyut hiyerarşisi **Kar ve Zarar raporu**'nun, boyut hiyerarşisinin raporlamal
 
 **Boyut hiyerarşisi**
 
-|                         | Boyut üyesi aralıkları |                     |
+|      &nbsp;             | Boyut üyesi aralıkları |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Düğümler                   | Kaynak boyut üyesi   | Hedef boyut üyesi |
 | Kar ve zarar raporu |                         |                     |
@@ -211,7 +211,7 @@ Her maliyet merkezinin, karşılık gelen bir **İkincil** maliyet öğesine eş
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Maliyet tahsisatı günlüğü | Mali                 | 2017    | Dönem 1 | Genel gider hesaplama / 01-02-2017 23:51:00 / Genel muhasebe /2017 / Dönem 1 |
 
-Sistem şimdi **Maliyet yuvarlama ilkesi**'ni, **Maliyet nesnesi bakiye günlüğü girdileri**'ni oluşturduğunda uygulayacaktır.
+Sistem şimdi **Maliyet yuvarlama ilkesi** 'ni, **Maliyet nesnesi bakiye günlüğü girdileri** 'ni oluşturduğunda uygulayacaktır.
 
 **Maliyet nesnesi bakiyesi günlük girişleri**
 
@@ -258,7 +258,7 @@ Boyut hiyerarşileri, veriyi farklı toplama düzeylerinde görmenize olanak sa�
 
 Excel içerisinde Power Pivot raporlama örneği.
 
-| **Kar ve zarar raporu** | **Maliyet nesnesi** |                |               |               |  **Toplam**    |
+| **Kar ve zarar raporu** | **Maliyet nesnesi** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Toplam**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Birincil maliyet**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -272,11 +272,11 @@ Excel içerisinde Power Pivot raporlama örneği.
 |&nbsp;&nbsp;&nbsp;&nbsp;SC-CC004                             | 0.00            | 0.00           | 0.00          | 0.00          | 0.00          |
 | **Toplam**                   | **0,00**        | **0,00**       | **31.082,75** | **15.717,25** | **46.800,00** |
 
-**Maliyet yuvarlama ilkesi** ve **İkincil türdeki maliyet öğeleri**, dahili raporlama için maliyet nesnesi başına birincil maliyeti, **Genel gider hesaplaması**'ndan sonra kalan birincil maliyet olarak bırakmanıza olanak sağlar.
+**Maliyet yuvarlama ilkesi** ve **İkincil türdeki maliyet öğeleri** , dahili raporlama için maliyet nesnesi başına birincil maliyeti, **Genel gider hesaplaması** 'ndan sonra kalan birincil maliyet olarak bırakmanıza olanak sağlar.
 
 Aynı örnek **Maliyet yuvalarma ilkesi** oluşturmadan gerçekleştirilirse, raporlama sonucu aşağıda gösterilen gibi olur. Maliyet doğru şekilde akar ancak maliyetin maliyet merkezleri arasında nasıl aktığının izlenebilirliği ve bilgileri kaybolur.
 
-| **Kar ve zarar raporu** | **Maliyet nesnesi** |           |               |               |          **Toplam**  |
+| **Kar ve zarar raporu** | **Maliyet nesnesi** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Toplam**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Birincil maliyet**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

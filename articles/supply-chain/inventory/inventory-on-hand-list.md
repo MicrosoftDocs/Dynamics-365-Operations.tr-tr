@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829861"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017403"
 ---
 # <a name="inventory-on-hand-list"></a>Eldeki stok listesi
 
@@ -31,7 +31,7 @@ Bu konu, eldeki stok ayrıntılarını incelemek için **Eldeki stok listesi** s
 
 ## <a name="query-your-on-hand-inventory"></a>Eldeki stokunuza sorgu gönderme
 
-Stok bulunabilirliğini denetlemek için **Stok Yönetimi \> Sorguları ve raporlar \> Eldeki liste**'ye gidin.
+Stok bulunabilirliğini denetlemek için **Stok Yönetimi \> Sorguları ve raporlar \> Eldeki liste** 'ye gidin.
 
 Stokta hareketler yapıldığında **Eldeki liste** sayfası otomatik olarak güncelleştirilir. Bu hareketler tahmin edilen, fiziksel veya mali hareketler olabilir.
 
@@ -39,7 +39,7 @@ Aradığınız ürünleri bulmak için aşağıdaki araçları kullanın:
 
 - Eylem bölmesinde, **Eldeki** kılavuzunda gösterilen sütunları ekleyebileceğiniz veya kaldırabileceğiniz bir iletişim kutusu açmak için [**Boyutlar**](#dimensions)'ı seçin.
 - [**Filtreler** bölmesine](#filters-pane), yalnızca bu değerlere uyan kayıtları göstermek için belirli alanların değerlerini girin. Burada tanımladığınız filtrelerin, göstermeyi seçtiğiniz boyutlara göre daha sonra toplanabilir kaynak tablolar için geçerli olduğunu unutmayın. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
-- **Filtreler** bölmesinde, **Eldeki stok** kılavuzunda eşleştirilen eldeki stok listesini oluşturmak için **Uygula**'yı seçin.
+- **Filtreler** bölmesinde, **Eldeki stok** kılavuzunda eşleştirilen eldeki stok listesini oluşturmak için **Uygula** 'yı seçin.
 - **Eldeki** kılavuzunda, ilgili sütundaki değerlere göre sıralama veya filtreleme için herhangi bir sütun başlığı seçin. Kılavuzun üst kısmındaki hızlı filtre ek filtre uygulama seçenekleri sağlar. Bu filtreler kaynak tablolar değil, sonuçlar için geçerlidir. Bu davranışın sonuçlarınızı nasıl etkileyeceği hakkında bilgi için bu konunun devamındaki [örnekler](#examples) bölümüne bakın.
 
 Her eşleşen kalem için **Eldeki** kılavuzu aşağıdaki stok bilgileri sütunlarını sağlar.
@@ -48,20 +48,20 @@ Her eşleşen kalem için **Eldeki** kılavuzu aşağıdaki stok bilgileri sütu
 |---|---|
 | Fiziksel stok | Stokta bulunan kullanılabilecek fiili miktar. |
 | Fiziksel rezerve miktar | Fiziksel olarak rezerve edilen toplam miktar. |
-| Kullanılabilir fiziksel miktar | Fiziksel stokta bulunan mevcut (rezerve edilmemiş) miktar.<p>**Kullanılabilir fiziksel**, hesaplanan bir alandır. Değer **Fiziksel stok** değeri eksi **Fiziksel rezerve edilen** değer şeklinde hesaplanır.</p> |
+| Kullanılabilir fiziksel miktar | Fiziksel stokta bulunan mevcut (rezerve edilmemiş) miktar.<p>**Kullanılabilir fiziksel** , hesaplanan bir alandır. Değer **Fiziksel stok** değeri eksi **Fiziksel rezerve edilen** değer şeklinde hesaplanır.</p> |
 | Ek boyutlarda kullanılabilir fiziksel miktar | Kılavuzda gösterilen tüm boyutlar için kullanılabilir fiziksel miktar. |
 | Toplam sipariş edilen | Gelen siparişlere dahil edilen veya çeşitli stok günlüklerinde pozitif miktarı olan toplam miktar. |
 | Siparişte | Giden siparişlere dahil edilen veya çeşitli stok günlüklerinde negatif miktarı olan toplam miktar. |
 | Siparişli rezerve miktar | Sipariş edilen girişlerde rezerve edilen toplam miktar. Bu alandaki değer, _Siparişli rezerve_ durumuna sahip giden hareketlerdeki toplam kalem miktarını gösterir. Sipariş edilen olarak rezerve edilen kalemler stokta fiziksel olarak yoktur. Bu nedenle, bunlar doğrudan çekilemez ve teslim edilemez. |
 | Rezerve edilebilir | Eldeki stokun rezerve edilebilecek toplam miktarı.<p>**Not:** **Stok ve ambar yönetimi parametreleri** sayfasında **Sipariş edilen kalemleri rezerve et** onay kutusu işaretlenmişse, bu alandaki değer beklenen girişleri içerir. Onay kutusu işaretli değilse değer beklenen girişleri hariç tutar.</p> |
-| Toplam kullanılabilir miktar | Toplam kullanılabilir miktar.<p>**Kullanılabilir toplam**, hesaplanan bir alandır. Değer, **Kullanılabilir fiziksel** değeri artı **Sipariş edilen toplam** değeri eksi **Siparişte** değerine eşittir.</p> |
+| Toplam kullanılabilir miktar | Toplam kullanılabilir miktar.<p>**Kullanılabilir toplam** , hesaplanan bir alandır. Değer, **Kullanılabilir fiziksel** değeri artı **Sipariş edilen toplam** değeri eksi **Siparişte** değerine eşittir.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Aradığınız kayıtları bulmak için filtre uygulama
 
 Eldeki stok listesini yalnızca alan değerlerinin filtre ölçütüne uyan kayıtları içerecek şekilde filtrelemek için **Filtreler** bölmesini kullanın. Filtre tanımlamak için şu adımları izleyin.
 
 1. **Filtreler** bölmesinde, filtrelemek istediğiniz alanı bulun.
-2. Hedef alanın adının altındaki alanda bir mantıksal işleç (örneğin, *şununla başlar*, *eşittir* veya *büyüktür*) seçin.
+2. Hedef alanın adının altındaki alanda bir mantıksal işleç (örneğin, *şununla başlar* , *eşittir* veya *büyüktür* ) seçin.
 3. Arayacağınız değeri girin veya seçin.
 
 > [!IMPORTANT]
@@ -73,8 +73,8 @@ Eldeki stok listesini yalnızca alan değerlerinin filtre ölçütüne uyan kay�
 
 **Filtreler** bölmesinde bulunan filtre kümesini aşağıdaki adımları izleyerek değiştirebilirsiniz.
 
-- Bir filtreyi bölmeden kaldırmak için **Kapat** düğmesini (**X**) seçin.
-- Filtre eklemek için **Filtreler** bölmesinin en üstündeki **Ekle**'yi seçin. Beliren **Filtre ekleme alanları** iletişim kutusunda kullanılabilir alanların listesi gösterilir. Ayrıca, her bir alan için veri türü ve tablo ile ilgili bilgileri gösterir. Listeyi gerektiği gibi filtrelemek ve sıralamak için sütun başlıklarını kullanın ve sonra **Filtre** bölmesine eklemek istediğiniz her alanın onay kutusunu seçin. İşlemi bitirdiğinizde değişikliklerinizi uygulamak için **Ekle**'yi seçin.
+- Bir filtreyi bölmeden kaldırmak için **Kapat** düğmesini ( **X** ) seçin.
+- Filtre eklemek için **Filtreler** bölmesinin en üstündeki **Ekle** 'yi seçin. Beliren **Filtre ekleme alanları** iletişim kutusunda kullanılabilir alanların listesi gösterilir. Ayrıca, her bir alan için veri türü ve tablo ile ilgili bilgileri gösterir. Listeyi gerektiği gibi filtrelemek ve sıralamak için sütun başlıklarını kullanın ve sonra **Filtre** bölmesine eklemek istediğiniz her alanın onay kutusunu seçin. İşlemi bitirdiğinizde değişikliklerinizi uygulamak için **Ekle** 'yi seçin.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Gösterilecek boyutları seçme
 
@@ -88,7 +88,7 @@ Gösterilen stok boyutlarının seçimini özelleştirmek için aşağıdaki ad�
 
 2. Kılavuza dahil etmek istediğiniz her boyut için onay kutusunu işaretleyin.
 3. **Eldeki liste** sayfasını bir sonraki açışınızda seçiminizin varsayılan olarak kullanılmasını istiyorsanız, **Kurulumu kaydet** seçeneğini **Evet** olarak ayarlayın. Bu seçeneği **Hayır** olarak ayarlarsanız, seçiminiz yalnızca geçerli oturum sırasında kullanılacaktır. Bu nedenle, sayfayı bir sonraki açışınızda, geçerli varsayılan seçim kullanılacaktır.
-4. Değişikliklerinizi uygulayıp iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+4. Değişikliklerinizi uygulayıp iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Eldeki stok listesi çıktısına filtre uygulama
 

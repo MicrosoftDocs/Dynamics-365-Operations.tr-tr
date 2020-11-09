@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978905"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006271"
 ---
 # <a name="price-simulation"></a>Fiyat benzetimi
 
@@ -74,7 +74,7 @@ Aşağıdaki satırları içeren bir teklif oluşturursunuz:
 
 Aşağıdaki tablo teklif satırlarını göstermektedir.
 
-|                            | Hesaplama                          | Sonuç   |
+|    &nbsp;                  | Hesaplama                          | Sonuç   |
 |----------------------------|--------------------------------------|----------|
 | Satış miktarı             | 10 birim + 12 birim                  | 22 birim |
 | ABD doları cinsinden satış değeri         | (10 x 15,32) + (12 x 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ Aşağıdaki tablo teklif satırlarını göstermektedir.
 
 Bir fiyat benzetimi çalıştırırsınız ve tüm teklif veya teklif başlığı için yüzde 15'lik bir toplam iskonto uygularsınız. Aşağıdaki tablo, fiyat benzetimi çalıştıktan sonra teklifin yeni toplamlarını gösterir.
 
-|                                                      | Hesaplama                               | Sonuç   |
+|     &nbsp;                                           | Hesaplama                               | Sonuç   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Satış miktarı                                       | 10 birim + 12 birim                       | 22 birim |
 | ABD doları cinsinden eski satış değeri                               | (10 x 15,32) + (12 x 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Aşağıdaki satırları içeren bir teklif oluşturursunuz:
 
 Aşağıdaki tablo teklif satırlarını göstermektedir.
 
-|                                      | Hesaplama                          | Sonuç   |
+|      &nbsp;                          | Hesaplama                          | Sonuç   |
 |--------------------------------------|--------------------------------------|----------|
 | Satış miktarı                       | 10 birim + 12 birim                  | 22 birim |
 | BR-12 için ABD doları cinsinden satış değeri         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ Aşağıdaki tablo teklif satırlarını göstermektedir.
 
 Bir fiyat benzetimi çalıştırırsınız ve BR-12 birimlerine %10 toplam iskonto uygularsınız. Aşağıdaki tablo, fiyat benzetimi tek satırlık madde için çalıştıktan sonra teklifin yeni toplamlarını gösterir.
 
-|                                                   | Hesaplama                             | Sonuç   |
+|    &nbsp;                                         | Hesaplama                             | Sonuç   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Satış miktarı                                    | 10 birim + 12 birim                     | 22 birim |
 | BR-12 için ABD doları cinsinden eski satış değeri                  | 10 × 15,32                              | 153,20   |

@@ -1,7 +1,7 @@
 ---
 title: Sayfa içeriği erişilebilirliğini doğrulama
 description: Bu konuda, Microsoft Dynamics 365 Commerce sayfa içeriğinin erişilebilirliğini nasıl doğrulanacaklarını açıklanmaktadır.
-author: arotkin
+author: josaw1
 manager: annbe
 ms.date: 01/08/2020
 ms.topic: article
@@ -14,15 +14,15 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: arotkin
+ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8e35b0f71ff41bade266fb177e4500c7d124ed1f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015115"
 ---
 # <a name="verify-page-content-accessibility"></a>Sayfa içeriği erişilebilirliğini doğrulama
 
@@ -53,7 +53,7 @@ Kiracınızda bulunan tüm Commerce siteleri için [Microsoft Accessibility Insi
 
 Kiracınızda bulunan tek bir Commerce sitesi için [Microsoft Accessibility Insights](https://accessibilityinsights.io/) tümleştirmesini açmak üzere aşağıdaki adımları izleyin.
 
-1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
+1. **Siteler** altında, **Fabrikam** 'ı seçin (veya sitenizin adını).
 1. Sol gezinti bölmesinde, genişletmek için **Site Ayarları** seçin.
 1. **Site ayarları** altında **Özellikler** dosyasını seçin.
 1. **Erişilebilirlik denetimi** seçeneğini **açık** olarak ayarlayın.
@@ -62,13 +62,13 @@ Kiracınızda bulunan tek bir Commerce sitesi için [Microsoft Accessibility Ins
 
 Ticari olarak giriş sayfanızın içeriğini taramak ve doğrulamak amacıyla tümleşik [Microsoft Accessibility Insights](https://accessibilityinsights.io/) hizmetini kullanmak için aşağıdaki adımları izleyin.
 
-1. **Siteler** altında, **Fabrikam**'ı seçin (veya sitenizin adını).
+1. **Siteler** altında, **Fabrikam** 'ı seçin (veya sitenizin adını).
 1. Soldaki gezinti bölmesinde **Sayfalar** seçin.
 1. Sayfa düzenleyicisinde açmak için giriş sayfasını bulun ve seçin.
 1. Komut çubuğunda, **Erişilebilirliği kontrol et** öğesini seçin. **Erişilebilirlik denetle** sayfası görüntülenir.
 1. Tarama tamamlandıktan sonra, raporun içeriğini gözden geçirin.
 1. Herhangi bir kontrol başarısız olursa, daha fazla ayrıntı görüntüleyebilmek için, bunları genişletmek amacıyla her başarısız denetim öğesini seçin.
-1. İncelemeyi tamamladıktan sonra raporu kapatmak için **erişilebilirliği kontrol et** sayfasının en altına gidip **Tamam**'ı seçin.
+1. İncelemeyi tamamladıktan sonra raporu kapatmak için **erişilebilirliği kontrol et** sayfasının en altına gidip **Tamam** 'ı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

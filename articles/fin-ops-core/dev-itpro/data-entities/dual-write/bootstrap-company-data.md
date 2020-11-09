@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172935"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997588"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Şirket verileriyle önyükleme ile ilgili SSS
  
@@ -37,7 +36,7 @@ ms.locfileid: "3172935"
 ## <a name="when-should-i-use-bootstrapping"></a>Önyüklemeyi ne zaman kullanmalıyım? 
 Çift yazma varlık eşlemelerini etkinleştirmeden önce önyüklemeyi kullanmanız gerekir (5. adımda).  
 1. Finance and Operations uygulamanız ve Common Data Service veya diğer Dynamics 365 uygulamanızın kurulumları arasında çift yazma bağlantısını ayarlamak için Finance and Operations uygulamasında yönetici olarak oturum açın. 
-2. **Veri Yönetimi** modülüne gidin ve **Çift Yazma** düğmesine tıklayın. Bu, **Veri Tümleştirici**'yi başlatır. 
+2. **Veri Yönetimi** modülüne gidin ve **Çift Yazma** düğmesine tıklayın. Bu, **Veri Tümleştirici** 'yi başlatır. 
 3. Bir veya daha fazla şirket için çift yazma bağlantısı oluşturun.  
     > [!div class="mx-imgBorder"]
     > ![Çift yazma bağlantısı oluşturma](media/dual-write-boot-1.png)

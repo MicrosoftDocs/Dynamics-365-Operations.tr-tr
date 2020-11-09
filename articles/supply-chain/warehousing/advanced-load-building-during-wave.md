@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate
+ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Retail, Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3bc82c3af2b99303a650f672f2b2ccd48c9889a9
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fb47498cfb3756b0e180fe9e5500255c7312a92
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016344"
 ---
 # <a name="advanced-load-building-during-wave"></a>Dalga sırasında gelişmiş yük oluşturma
 
@@ -59,7 +59,7 @@ Bu gösteriyi, üretim sisteminde çalışırken bu özelliği kullanmaya yönel
 
 ### <a name="make-sure-that-the-scenario-setup-includes-enough-available-inventory"></a>Senaryo kurulumunun yeterli kullanılabilir stok içerdiğinden emin olun
 
-**USMF** demo verileriyle çalışıyorsanız, ilk olarak, ilgili her konumda yeterli stok olmasını sağlamak için sisteminizin ayarlandığından emin olmanız gerekir. Bu gösteri için, aşağıdaki stoğun ambar *62*'da mevcut olması beklendir:
+**USMF** demo verileriyle çalışıyorsanız, ilk olarak, ilgili her konumda yeterli stok olmasını sağlamak için sisteminizin ayarlandığından emin olmanız gerekir. Bu gösteri için, aşağıdaki stoğun ambar *62* 'da mevcut olması beklendir:
 
 - **Madde A0001:** 10 parça
 - **Madde A0002:** 10 parça
@@ -70,17 +70,17 @@ Bu gösteriyi, üretim sisteminde çalışırken bu özelliği kullanmaya yönel
 #### <a name="create-a-new-license-plate-id"></a>Yeni lisans levhası kimliği oluştur
 
 1. **Ambar yönetimi** \> **Kurulum** \> **Ambar** \> **Lisans plakaları** öğesine gidin.
-1. Eylem Bölmesinde, **Yeni**'yi seçin.
+1. Eylem Bölmesinde, **Yeni** 'yi seçin.
 1. Yeni satırda, **Lisans levhası** alanına *LP6203* girin.
-1. **Kaydet**'i seçin.
+1. **Kaydet** 'i seçin.
 
 #### <a name="create-a-standard-cost-for-item-m9200-in-site-6"></a>Site 6'da madde M9200 için standart maliyet oluştur
 
-1. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin.
+1. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler** 'e gidin.
 1. **M9200** üzerinde arama yapın.
-1. Maddenin satırını seçin ve sonra eylem bölmesinde **maliyetleri Yönet** sekmesinde, **ayarlama** grubunda **Madde fiyatı**'nı seçin.
+1. Maddenin satırını seçin ve sonra eylem bölmesinde **maliyetleri Yönet** sekmesinde, **ayarlama** grubunda **Madde fiyatı** 'nı seçin.
 1. **Madde fiyatı** sayfasında, **bekleyen fiyatlar** sekmesini seçin.
-1. Eylem Bölmesinde, **Yeni**'yi seçin.
+1. Eylem Bölmesinde, **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Maliyetlendirme tipi:** *Planlanan maliyet*
@@ -89,43 +89,43 @@ Bu gösteriyi, üretim sisteminde çalışırken bu özelliği kullanmaya yönel
     - **Tesis:** *6*
     - **Fiyat:** *1,60*
 
-1. Eylem bölmesinde, **Kaydet**'i seçin.
-1. Eylem bölmesinde, **bekleyen fiyatları etkinleştir**'i seçin.
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **bekleyen fiyatları etkinleştir** 'i seçin.
 1. Tesis *6* için yeni maliyet fiyatının eklendiğini doğrulamak için **etkin fiyatlar** sekmesini seçin.
 
 #### <a name="create-inventory-in-warehouse-62"></a>62. Ambarda stok oluştur
 
-1. **Stok yönetimi** \> **Günlük girişleri** \> **Maddeler** \> **Stok ayarlama**'ya gidin.
-1. Eylem Bölmesinde, **Yeni**'yi seçin.
+1. **Stok yönetimi** \> **Günlük girişleri** \> **Maddeler** \> **Stok ayarlama** 'ya gidin.
+1. Eylem Bölmesinde, **Yeni** 'yi seçin.
 1. **Stok günlüğü oluştur** iletişim kutusunda, **ambar** alanındaki **özet** hızlı sekmesinde, *62* girin. Tüm diğer alanlar için varsayılan değerleri kabul edin.
-1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
-1. **Stok Ayarlama** sayfası açılır. **Günlük Satırları** hızlı sekmesinde, satır eklemek için **Yeni**'yi seçin.
+1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+1. **Stok Ayarlama** sayfası açılır. **Günlük Satırları** hızlı sekmesinde, satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın. Tüm diğer alanlar için varsayılan değerleri kabul edin.
 
     - **Madde numarası:** *M9200*
     - **Konum:** *bulk-003*
     - **Miktar:** değeri *10* olarak değiştirin.
 
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
 1. Eylem bölmesinde, hataları denetlemek için **Doğrula** 'yı seçin.
 1. **Günlüğü denetle** iletişim kutusunda, çeki başlatmak için **Tamam** 'ı seçin. Çek tamamlandığında bir ileti alırsınız.
-1. Eylem bölmesinde, stok ayarı yapmak için **Deftere naklet**'i seçin.
+1. Eylem bölmesinde, stok ayarı yapmak için **Deftere naklet** 'i seçin.
 1. **Günlüğü deftere naklet** iletişim kutusunda, nakletmeyi başlatmak için **Tamam** 'ı seçin. Nakletme tamamlandığında bir ileti alırsınız.
 
 ## <a name="set-up-advanced-wave-load-building"></a>Gelişmiş dalga yük oluşturmayı ayarla
 
 ### <a name="regenerate-wave-process-methods"></a>Dalga işlemi yöntemlerini yeniden oluştur
 
-Yükleme oluşturma yöntemini (**buildLoads**) kullanılabilir hale getirmek için dalga işlemi yöntemlerini yeniden oluşturmanız gerekebilir.
+Yükleme oluşturma yöntemini ( **buildLoads** ) kullanılabilir hale getirmek için dalga işlemi yöntemlerini yeniden oluşturmanız gerekebilir.
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Dalgalar** \> **Dalga işleme yöntemleri**'na gidin.
-2. **buildLoads**'un listede olduğunu doğrulayın. Yoksa, eklemek Için eylem bölmesindeki **yöntemleri yeniden üret**'i seçin.
+1. **Ambar yönetimi** \> **Kurulum** \> **Dalgalar** \> **Dalga işleme yöntemleri** 'na gidin.
+2. **buildLoads** 'un listede olduğunu doğrulayın. Yoksa, eklemek Için eylem bölmesindeki **yöntemleri yeniden üret** 'i seçin.
 
 ### <a name="set-up-wave-templates"></a>Dalga şablonu ayarlama
 
 Gelişmiş dalga yükü binanın avantajlarından yararlanmak için, her ilgili [dalga şablonuna](tasks/configure-wave-processing.md) **buildLoads** yöntemini eklemeniz gerekir.
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Dalgalar** \> **Dalga şablonları**'na gidin.
+1. **Ambar yönetimi** \> **Kurulum** \> **Dalgalar** \> **Dalga şablonları** 'na gidin.
 1. Dalga şablonu seçin.
 
     **USMF** demo verileriyle çalışıyorsanız, **62 sevkiyat varsayılan** şablonunu seçin.
@@ -139,11 +139,11 @@ Gelişmiş dalga yükü binanın avantajlarından yararlanmak için, her ilgili 
     1. **Dalga adımı kodları** sayfasında, eylem bölmesinde, **yeni** 'yi seçin.
     1. **Dalga adım kodu** alanına, *WSC2112* girin.
     1. **Dalga adım açıklaması** alanına, *WSC2112* girin.
-    1. **Dalga adımı türü** alanında *yapı yükle*'yi seçin.
+    1. **Dalga adımı türü** alanında *yapı yükle* 'yi seçin.
 
-1. **Kaydet**'i seçip sayfayı kapatın.
-1. **buildLoads** yönteminin satırında, **dalga adımı kodu** alanında, az önce oluşturduğunuz kodu seçin (**WSC2112**).
-1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. **Kaydet** 'i seçip sayfayı kapatın.
+1. **buildLoads** yönteminin satırında, **dalga adımı kodu** alanında, az önce oluşturduğunuz kodu seçin ( **WSC2112** ).
+1. Eylem bölmesinde, **Kaydet** 'i seçin.
 
 > [!NOTE]
 > Dalga adımı kodları, kullanıcıların, dalga yöntemlerinin belirli örneklerini ilgili bir şablona bağlamak için ayarlayıp kullanabileceği kodlardır. Şablonlar, stok yenileme, konteyner kullanımı, etiket yazdırma, yük oluşturma ve sıralama şablonlarını içerir.
@@ -156,8 +156,8 @@ Gelişmiş dalga yükü binanın avantajlarından yararlanmak için, her ilgili 
 
 Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe türleri için kurallar oluşturur. İhtiyaç duyduğunuz kadar yük karışım grupları ayarlayabilirsiniz. Ancak, gelişmiş dalga yükleme oluşturmayı kullanmak için, en az bir tane olmalıdır. Yük karışım grubu oluşturmak için bu adımları izleyin.
 
-1. **Ambar Yönetimi** \> **Kurulum** \> **YÜk** \> **Yük karışım grupları**'na gidin.
-1. Eylem bölmesinde, bir yük grubu oluşturmak için **Yeni**'yi seçin.
+1. **Ambar Yönetimi** \> **Kurulum** \> **YÜk** \> **Yük karışım grupları** 'na gidin.
+1. Eylem bölmesinde, bir yük grubu oluşturmak için **Yeni** 'yi seçin.
 1. **Yük karışım grubu kimliği** alanına, yeni grubu için açıklayıcı bir ad girin.
 
     **USMF** demo verileriyle çalışıyorsanız, aşağıdaki değerleri ayarlayın:
@@ -188,8 +188,8 @@ Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe tü
 
 İhtiyaç duyduğunuz kadar yük olşuturma şablonları ayarlayabilirsiniz. Ancak, gelişmiş dalga yükleme oluşturmayı kullanmak için, en az bir tane olmalıdır. Yük oluşturma şablonu oluşturmak için şu adımları izleyin.
 
-1. **Ambar Yönetimi** \> **Kurulum** \> **Yük** \> **Dalga yük oluşturma şablonları**'na gidin.
-1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni**'yi seçin.
+1. **Ambar Yönetimi** \> **Kurulum** \> **Yük** \> **Dalga yük oluşturma şablonları** 'na gidin.
+1. Eylem bölmesinde, kılavuzuna satır eklemek için **Yeni** 'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın.
 
     | Alan | Tanım | USMF demo verilerinde değer |
@@ -201,13 +201,13 @@ Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe tü
     | Equipment | Mevcut yükler atanırken eşleştirme yapmak ve oluşturulan yeni yüklerin doldurulması için kullanılan ekipman. | Bu alanı boş bırakın. |
     | Yük karıştırma grubu kodu | Yükte maddeye izin verilmesi durumunda kullanılana yük karıştırma grubunu seçin. Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe türleri için kurallar oluşturur. Bu kurulumda daha önce oluşturduğunuz karışım gruplarından birini seçmelisiniz. | *TV* |
     | Açık yükleri kullan | Mevcut açık yüklerin eklenip eklenmemesi gerektiğini seçin. Aşağıdaki seçenekler bulunur:<ul><li>**Yok** – Açık yükleri varolan yüklerin hiçbirine eklemeyin.</li><li>**Herhangi biri** - Herhangi biri seçilirse satır için geçerli olan mevcut yüklere ekler.</li><li>**Atandı** – Açık yükleri dalgaya atanan yüklemeye ekler.</li></ul> | *Herhangi* |
-    | Yük oluştur | Herhangi bir yük ölçütle eşleşmezse yeni yüklemeler oluşturulup oluşturulmayacağını belirtir. | Seçili (= *Evet*) |
-    | Sevkiyat satırı bölünmeye izin ver | Yük şablonunun maksimum kapasitesini aşması durumunda yük satırının birden çok yüke bölünmesine izin verilip verilmeyeceğini belirtin. | Temizlendi (= *Hayır*) |
-    | Hacimleri doğrula | Etkin olduğunda yük oluşturma, yük şablonun maksimum değerlerine uyulmasını sağlamak için her yük satırı eklendiğinde ağırlığı ve hacmi kontrol eder. | Temizlendi (= *Hayır*) |
+    | Yük oluştur | Herhangi bir yük ölçütle eşleşmezse yeni yüklemeler oluşturulup oluşturulmayacağını belirtir. | Seçili (= *Evet* ) |
+    | Sevkiyat satırı bölünmeye izin ver | Yük şablonunun maksimum kapasitesini aşması durumunda yük satırının birden çok yüke bölünmesine izin verilip verilmeyeceğini belirtin. | Temizlendi (= *Hayır* ) |
+    | Hacimleri doğrula | Etkin olduğunda yük oluşturma, yük şablonun maksimum değerlerine uyulmasını sağlamak için her yük satırı eklendiğinde ağırlığı ve hacmi kontrol eder. | Temizlendi (= *Hayır* ) |
 
 1. Eylem bölmesinde, **Düzenle sorgusu** seçeneğini kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. Eylem Bölmesinde, Sorguyu düzenleme iletişim kutusunu açmak için **Sorguyu düzenle**'yi seçin.
-1. İletişim kutusundaki **Sıralama** sekmesinde **Ekle**'yi seçerek kılavuza bir satır ekleyin:
+1. Eylem Bölmesinde, Sorguyu düzenleme iletişim kutusunu açmak için **Sorguyu düzenle** 'yi seçin.
+1. İletişim kutusundaki **Sıralama** sekmesinde **Ekle** 'yi seçerek kılavuza bir satır ekleyin:
 1. Yeni satırda, kullanmak istediğiniz sıralama kurallarını tanımlayın. Örneğin, arama sonuçlarını sıra numarasına göre artan sırada sıralamak için aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *ayrıntıları yükle*
@@ -215,8 +215,8 @@ Karışım gruplarını yükle tek bir yüklemede birleştirilebilecek öğe tü
     - **Alan:** *Sipariş numarası*
     - **Arama yönü:** *Azalan*
 
-1. Değişikliklerinizi kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
-1. **Kesme ölçütü** hızlı sekmesinde, yüklerinizin nasıl bölüneceğini kontrol eden kurallar ayarlayın. Genellikle, **Rota**, **Tur** veya **Çalıştır** gibi yükleme satırına genişletilmiş özel alanları kesebilirsiniz. Örneğin, her sipariş numarası için bir yükleme oluşturmak üzere, aşağıdaki değerlere sahip bir satır için **Kesme ölçütü** onay kutusunu işaretleyin:
+1. Değişikliklerinizi kaydedip iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+1. **Kesme ölçütü** hızlı sekmesinde, yüklerinizin nasıl bölüneceğini kontrol eden kurallar ayarlayın. Genellikle, **Rota** , **Tur** veya **Çalıştır** gibi yükleme satırına genişletilmiş özel alanları kesebilirsiniz. Örneğin, her sipariş numarası için bir yükleme oluşturmak üzere, aşağıdaki değerlere sahip bir satır için **Kesme ölçütü** onay kutusunu işaretleyin:
 
     - **Referans tablosu adı:** *Yükleme ayrıntıları*
     - **Referans alan adı:** *Sipariş numarası*
@@ -227,26 +227,26 @@ Bu senaryo, bir satış siparişi işlendiği sırada bu konuda daha önce açı
 
 ### <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 
-1. **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne gidin.
-1. Eylem Bölmesinde, **Satış siparişleri oluştur** iletişim kutusunu açmak için **Yeni**'i seçin.
+1. **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri** 'ne gidin.
+1. Eylem Bölmesinde, **Satış siparişleri oluştur** iletişim kutusunu açmak için **Yeni** 'i seçin.
 1. İletişim kutusunda aşağıdaki değerleri ayarlayın.
 
     - **Müşteri** hızlı sekmesinde, **Müşteri hesabı** alanını *ABD-007* olarak ayarlayın.
     - **Genel** hızlı sekmesinde, **Ambar** alanının ayarını *62* yapın.
 
-1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
 1. Yeni satış siparişiniz açılır. **Satış siparişi satırları** hızlı sekmesi 'ndeki kılavuza yeni, boş bir satır dahil etmelidir. Bu yeni satırda, **Madde numarası** alanını *A0001* olarak ve **miktar** alanını *1* olarak ayarlayın.
-1. Kılavuzun üzerindeki **stok** menüsünde **rezervasyon**'yı seçin.
+1. Kılavuzun üzerindeki **stok** menüsünde **rezervasyon** 'yı seçin.
 1. **Rezervasyon** sayfasında, eylem bölmesinde, **Lot ayır** 'yi seçin.
-1. Satış siparişine dönmek için sayfanın sağ üst köşesindeki **Kapat** düğmesini (**X**) seçin.
-1. Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda, **Ambara serbest bırak**'ı seçin. Mevcut yüklemede bu sipariş numarasına sahip yükleme satırları bulunduğundan, sistem bir sevkiyat ve bunu yeni bir yük ile ekler.
+1. Satış siparişine dönmek için sayfanın sağ üst köşesindeki **Kapat** düğmesini ( **X** ) seçin.
+1. Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda, **Ambara serbest bırak** 'ı seçin. Mevcut yüklemede bu sipariş numarasına sahip yükleme satırları bulunduğundan, sistem bir sevkiyat ve bunu yeni bir yük ile ekler.
 
     Satış siparişi için oluşturulan iş, dalga ve sevkiyat kimliklerini gösteren bilgi iletileri alırsınız.
 
-1. Satış satırında yükleme, Sevkiyat ve iş ayrıntılarını onaylamak için, satırı seçin ve ardından kılavuzun üzerindeki **ambar** menüsünde **Yük detayları**, **Sevkiyat detayları** veya **iş ayrıntıları**'nı seçin.
-1. Oluşturduğunuz satış siparişinde, **Satış siparişi satırları** hızlı sekmesinde, başka bir satır eklemek için **Satır ekle**'yi seçin.
+1. Satış satırında yükleme, Sevkiyat ve iş ayrıntılarını onaylamak için, satırı seçin ve ardından kılavuzun üzerindeki **ambar** menüsünde **Yük detayları** , **Sevkiyat detayları** veya **iş ayrıntıları** 'nı seçin.
+1. Oluşturduğunuz satış siparişinde, **Satış siparişi satırları** hızlı sekmesinde, başka bir satır eklemek için **Satır ekle** 'yi seçin.
 1. Bu yeni satırda, **Madde numarası** alanını *A0002* olarak ve **miktar** alanını *1* olarak ayarlayın.
 1. Satırı rezerve etmek ve ambara serbest bırakmak için 6-9 arası satırları yineleyin. Sistem, eklediğiniz satır için **yeni** bir sevkiyat oluşturur. Ancak, gelişmiş dalga yükleme oluşturmayı kullandığınızdan, sistem o Sevkiyat ve yükleme hattını varolan dalgaya ekler. Gelişmiş dalga yükü oluşturmayı kullanmıyorsanız, sistem sevkiyat için yeni bir yük oluşturur.
-1. Oluşturduğunuz satış siparişinde, **Satış siparişi satırları** hızlı sekmesinde, başka bir satır eklemek için **Satır ekle**'yi seçin.
+1. Oluşturduğunuz satış siparişinde, **Satış siparişi satırları** hızlı sekmesinde, başka bir satır eklemek için **Satır ekle** 'yi seçin.
 1. Bu yeni satırda, **Madde numarası** alanını *M9200* olarak ve **miktar** alanını *1* olarak ayarlayın.
 1. Satırı rezerve etmek ve ambara serbest bırakmak için 6-9 arası satırları yineleyin. Önceden olduğu gibi sistem, eklediğiniz satır için **yeni** bir sevkiyat oluşturur. Ancak, madde **CarAudio** madde grubundan olduğundan, **Yük karıştırma grubu için ayarladığınız sınırlamaları geçemezse**. Bu nedenle, **Yeni bir yüklemeye eklenir**. Yükleme oluştur şablonunda bir yük karışımı grubu belirtilmezse, bu sevkiyat ilk yüklemeye eklenmiş olmalıdır.

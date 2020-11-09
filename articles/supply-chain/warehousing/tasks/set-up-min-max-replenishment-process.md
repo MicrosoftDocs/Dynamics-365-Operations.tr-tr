@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence
+ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016736"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Minimum-maksimum stok yenileme işlemini ayarlama
 
@@ -32,8 +32,8 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 
 
 ## <a name="create-a-fixed-picking-location"></a>Sabit bir çekme konumu oluşturun
-1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Sabit yerleşimler**'e gidin. Bu, min-maks stok yenileme için tercihe bağlı bir görevdir fakat sabit bir çekme konumu kullanıyorsanız, bu stoğun minimum seviyenin altın düşmesi durumunda bile yenilenmesini sağlar, çünkü sistem hangi maddelerin yenilenmesinin gerektiğini belirleyebilir, hiç kalmamış olsalar bile.
-2. **Yeni**'ye tıklayın.
+1. **Gezinti bölmesi > Modüller > Ambar yönetimi > Kurulum > Ambar > Sabit yerleşimler** 'e gidin. Bu, min-maks stok yenileme için tercihe bağlı bir görevdir fakat sabit bir çekme konumu kullanıyorsanız, bu stoğun minimum seviyenin altın düşmesi durumunda bile yenilenmesini sağlar, çünkü sistem hangi maddelerin yenilenmesinin gerektiğini belirleyebilir, hiç kalmamış olsalar bile.
+2. **Yeni** 'ye tıklayın.
 3. **Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin. USMF kullanıyorsanız, A0001 öğesini seçebilirsiniz.  
 4. **Tesis** alanına bir değer girin veya buradan bir değer seçin. USMF kullanıyorsanız, site 2'yi seçebilirsiniz.  
 5. **Ambar** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.  
@@ -41,50 +41,50 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 7. Sayfayı kapatın.
 
 ## <a name="create-a-replenishment-location-directive"></a>Bir stok yenileme konum yönergesi oluşturun
-1. **Ambar yönetimi > Kurulum > Konum yönergeleri**'ne gidin. Konum yönergeleri stok yenileme işleminde maddelerin çekileceğini yeri belirlemek için kullanılır.
+1. **Ambar yönetimi > Kurulum > Konum yönergeleri** 'ne gidin. Konum yönergeleri stok yenileme işleminde maddelerin çekileceğini yeri belirlemek için kullanılır.
 2. **İş emri türü** alanında "Stok yenileme"yi seçin.
-3. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
+3. **Eylem Bölmesi** 'nde **Yeni** öğesine tıklayın.
 4. **Ad** alanına bir değer yazın.
 5. **İş türü** alanında "Malzeme çek"i seçin.
 6. **Tesis** alanına bir değer girin veya buradan bir değer seçin. USMF kullanıyorsanız, site 2'yi seçebilirsiniz.  
 7. **Ambar** alanında bir değer girin veya bir değer seçin. USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.  
-8. **Kaydet**'e tıklayın.
-9. **Satırlar** bölümünde **Yeni**'ye tıklayın.
+8. **Kaydet** 'e tıklayın.
+9. **Satırlar** bölümünde **Yeni** 'ye tıklayın.
 10. Listede, seçili satırı işaretleyin.
 11. **Alıcı miktarı** alanına bir sayı girin. Örneğin 9999 olarak ayarlayın.  
 12. **Bölmeye izin ver** onay kutusunu işaretleyin. Bu seçeneği belirlerseniz, iş oluşturma süreci iş satırları miktarlarının birden fazla konuma bölünmesine izin verecektir.  
-13. **Kaydet**'e tıklayın.
-14. **Konum Yönergesi Eylemleri** bölümünde **Yeni**'ye tıklayın.
+13. **Kaydet** 'e tıklayın.
+14. **Konum Yönergesi Eylemleri** bölümünde **Yeni** 'ye tıklayın.
 15. Listede, seçili satırı işaretleyin.
 16. **Ad** alanına bir değer yazın.
-17. **Kaydet**'e tıklayın.
-18. **Eylem Bölmesi**'nde, **Sorguyu düzenle**'ye tıklayın. Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz. Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.
-19. **Tamam**'a tıklayın.
+17. **Kaydet** 'e tıklayın.
+18. **Eylem Bölmesi** 'nde, **Sorguyu düzenle** 'ye tıklayın. Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz. Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.
+19. **Tamam** 'a tıklayın.
 20. Sayfayı kapatın.
 
 ## <a name="create-a-replenishment-work-template"></a>Bir Stok yenileme iş şablonu oluşturun
-1. **Ambar yönetimi > Kurulum > İş > İş şablonları**'na gidin. İş şablonu, sistemi min/maks stok yenileme işinin nasıl oluşturulacağına dair yönlendirmek için kullanılır. En düşük gereksinim olarak,çekme ve yerine koyma için bir iş şablonu satırı olmalıdır. İş şablonu, tüm gerekli bilgiler doldurulmuş olana kadar geçersiz olduğunu söyleyecektir. 
+1. **Ambar yönetimi > Kurulum > İş > İş şablonları** 'na gidin. İş şablonu, sistemi min/maks stok yenileme işinin nasıl oluşturulacağına dair yönlendirmek için kullanılır. En düşük gereksinim olarak,çekme ve yerine koyma için bir iş şablonu satırı olmalıdır. İş şablonu, tüm gerekli bilgiler doldurulmuş olana kadar geçersiz olduğunu söyleyecektir. 
 2. **İş emri türü** alanında "Stok yenileme"yi seçin.
-3. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
+3. **Eylem Bölmesi** 'nde **Yeni** öğesine tıklayın.
 4. **İş şablonu** alanında bir değer girin.
-5. **Kaydet**'e tıklayın.
-6. **İş şablonu ayrıntıları**'nda **Yeni**'ye tıklayın.
+5. **Kaydet** 'e tıklayın.
+6. **İş şablonu ayrıntıları** 'nda **Yeni** 'ye tıklayın.
 7. **İş türü** alanında "Malzeme çek"i seçin.
 8. **İş sınıfı kodu** alanına bir değer girin veya buradan bir değer seçin. Bunun stok yenileme ile ilgili bir iş sınıf olması gerekir. USMF kullanıyorsanız, Stok Yenileme'yi seçin.  
-9. **İş şablonu ayrıntıları**'nda **Yeni**'ye tıklayın.
+9. **İş şablonu ayrıntıları** 'nda **Yeni** 'ye tıklayın.
 10. Listede, seçili satırı işaretleyin.
 11. **İş türü** alanında, 'Yerine koyma'yı seçin.
 12. **İş sınıfı kodu** alanına bir değer girin veya buradan bir değer seçin.
-13. **Kaydet**'e tıklayın.
+13. **Kaydet** 'e tıklayın.
 14. Sayfayı kapatın.
 
 ## <a name="create-a-new-replenishment-template"></a>Yeni bir stok yenileme şablonu oluşturun
-1. **Ambar yönetimi > Kurulum > Stok yenileme > Stok yenileme şablonları**'na gidin. Stok yenileme şablonu, maddeleri ve miktarları ve yenilenecek konumu tanımlamak için kullanılır.
-2. **Eylem Bölmesi**'nde **Yeni** öğesine tıklayın.
+1. **Ambar yönetimi > Kurulum > Stok yenileme > Stok yenileme şablonları** 'na gidin. Stok yenileme şablonu, maddeleri ve miktarları ve yenilenecek konumu tanımlamak için kullanılır.
+2. **Eylem Bölmesi** 'nde **Yeni** öğesine tıklayın.
 3. **Stok yenileme şablonu** alanına bir değer girin. Şablonun min/maks stok yenileme için olduğunu belirtecek bir ad verin.  
 4. **Tanım** alanına bir değer girin.
 5. **Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver** onay kutusunu işaretleyin. Bu seçeneği belirlerseniz, dalga talep stok yenilemesinin, min/maks stok yenileme ile ilgili miktarları tüketmesini talep eder. Örneğin bu, min/maks stok yenileme işi derhal işlenmeyecekse, gereksiz stok yenileme işinin talep edilmesinin oluşturulmasının önüne geçmek için kullanışlı olabilir.
-6. **Stok yenileme şablonu ayrıntıları**'nda **Yeni**'ye tıklayın.
+6. **Stok yenileme şablonu ayrıntıları** 'nda **Yeni** 'ye tıklayın.
 7. **Sıra numarası** alanına bir numara girin.
 8. **Tanım** alanına bir değer girin.
 9. Listede, seçili satırı işaretleyin.
@@ -95,7 +95,7 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 14. **Birim** alanına bir değer girin veya buradan bir değer seçin. Minimum ve maksimum miktarlar için birimi atayın. Örneğin bunu, adet olarak ayarlayın.  
 15. **Boş sabit yerleşimleri yenile** onay kutusunu işaretleyin. Bu onay kutusunu sabit konumları boş olduklarında yenilemek için işaretleyin. Aksi takdirde, yalnızca elde bir miktar bulunan konumlar yenilenecektir.
 16. **Yalnızca sabit yerleşimleri yenile** onay kutusunu işaretleyin.
-17. **Ürünleri seç**'e tıklayın. Bu, hangi ürünlerin yenilenebileceğini tanımlayabileceğiniz bir yerdir. Eğer Sabit çekme konumları seçeneği belirlendiyse, bu sorguda ayrıca konumları tanımlamanız gerekmektedir. Değişken özgü sorgular ve ayrıca ürüne özgü sorgular da kullanılabilir.
+17. **Ürünleri seç** 'e tıklayın. Bu, hangi ürünlerin yenilenebileceğini tanımlayabileceğiniz bir yerdir. Eğer Sabit çekme konumları seçeneği belirlendiyse, bu sorguda ayrıca konumları tanımlamanız gerekmektedir. Değişken özgü sorgular ve ayrıca ürüne özgü sorgular da kullanılabilir.
 18. **Maddeler** satırını seçin.
 19. **Ölçütler** alanına bir değer yazın. Sabit konumlarda yenilenmesi gereken öğeleri seçin. Örneğin, A ile başlayan tüm madde numaralarını seçmek için A* girin.
 20. **Ekle** öğesine tıklayın. Stok yenileme işini, ambarın belirli bir bölgesindeki sabit çekme konumlarına kısıtlamak için, konum varlığını ekleyin (eğer halihazırda mevcut değilse).
@@ -103,20 +103,20 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 22. **Tablo** alanını "Yerleşimler" olarak ayarlayın.
 23. **Alan** alanında "Yerleşim profili kodu"nu seçin.
 24. **Ölçütler** alanında bir değer girin veya seçin.
-25. **Tamam**'a tıklayın.
+25. **Tamam** 'a tıklayın.
 26. Sayfayı kapatın.
 
 ## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Stok yenileme işlemini toplu iş olarak çalışmak için ayarlayın
-1. **Ambar yönetimi > Stok yenileme > Stok yenilemeler**'e gidin. Stok yenilemeleri sayfası, yenilemeyi bir toplu iş olarak çalıştırmak veya el ile başlatılmasını gerektirecek şekilde ayarlayabilmeniz için olanak sağlar.
+1. **Ambar yönetimi > Stok yenileme > Stok yenilemeler** 'e gidin. Stok yenilemeleri sayfası, yenilemeyi bir toplu iş olarak çalıştırmak veya el ile başlatılmasını gerektirecek şekilde ayarlayabilmeniz için olanak sağlar.
 2. **Filtrele** öğesine tıklayın.
 3. Listede, seçili satırı işaretleyin.
 4. **Ölçütler** alanında bir değer girin veya seçin.
-5. **Tamam**'a tıklayın.
+5. **Tamam** 'a tıklayın.
 6. **Arka planda çalıştır** bölümünü genişletin.
 7. **Toplu işleme** seçeneğini "Evet" olarak ayarlayın.
-8. **Yineleme**'ye tıklayın.
+8. **Yineleme** 'ye tıklayın.
 9. **Bitiş tarihi yok** seçeneğini belirleyin.
 10. **Tekrar etme modelini** ayarlayın. Örneğin, Günler seçin.  
-11. **Tamam**'a tıklayın.
-12. **Tamam**'a tıklayın.
+11. **Tamam** 'a tıklayın.
+12. **Tamam** 'a tıklayın.
 

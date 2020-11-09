@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipConsolidationSetShipment, WHSShipmentConsolidation, WHSFilterGenerallyAvail, WHSReleaseToWarehouse
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 406ff268eede4a9d448b3b9c1729a00fcec8f21e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986756"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016805"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Sevkiyat konsolidasyon ilkesi, Ambara serbest bırakma sayfasından geçersiz kılındığında sevkiyatları konsolide etme
 
@@ -47,10 +47,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
+1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
 
 ## <a name="release-the-sales-orders-from-the-release-to-warehouse-page"></a>Satış siparişlerini Ambara serbest bırakma sayfasından serbest bırakma
 
@@ -58,14 +58,14 @@ Ambara serbest bırakma sırasında sevkiyat konsolidasyon ilkesini geçersiz k�
 
 1. **Ambar yönetimi \> Ambara serbest bırak \> Ambara serbest bırak** öğesine gidin.
 1. Üst bölmede, bu senaryo için oluşturduğunuz ilk satış siparişini seçin.
-1. Satırı, ambara serbest bırakmaya eklemek için **Ekle**'yi seçin. *Varsayılan* sevkiyat konsolidasyon ilkesinin alt bölmede uygulandığına dikkat edin.
+1. Satırı, ambara serbest bırakmaya eklemek için **Ekle** 'yi seçin. *Varsayılan* sevkiyat konsolidasyon ilkesinin alt bölmede uygulandığına dikkat edin.
 1. Alt bölmede, **Yeni sevkiyat konsolidasyon ilkesini seç** seçeneğini belirleyin.
 1. Aynı ilkenin diğer açık sevkiyatlarıyla konsolidasyona olanak veren bir ilke seçin. Örneğin, *CustomerOrderNo* ilkesini seçin.
-1. **Ambara serbest bırak**'ı seçin.
+1. **Ambara serbest bırak** 'ı seçin.
 1. Bu senaryo için oluşturduğunuz ikinci ve üçüncü satış siparişlerini seçin.
-1. Satırları, ambara serbest bırakmaya eklemek için **Ekle**'yi seçin. *Varsayılan* ilkesinin alt bölmede uygulandığına dikkat edin.
+1. Satırları, ambara serbest bırakmaya eklemek için **Ekle** 'yi seçin. *Varsayılan* ilkesinin alt bölmede uygulandığına dikkat edin.
 1. İkinci satırı seçin ve sonra, **Yeni sevkiyat konsolidasyon ilkesi seç** alanında, *CustomerOrderNo* ilkesini seçin.
-1. Her iki satır için **Ambara serbest bırak**'ı seçin.
+1. Her iki satır için **Ambara serbest bırak** 'ı seçin.
 
 ## <a name="verify-the-shipments"></a>Sevkiyatları doğrulama
 
@@ -76,7 +76,7 @@ Ambara serbest bırakma sırasında sevkiyat konsolidasyon ilkesini geçersiz k�
 
 Oluşturulan sevkiyatları gözden geçirmek için bu adımları izleyin.
 
-1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar**'a gidin.
+1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar** 'a gidin.
 1. Gerekli sevkiyatı bulun ve seçin.
 1. **Sevkiyat konsolidasyon ilkesi** alanında, sevkiyat oluşturulduğunda kullanılan konsolidasyon ilkesini gözden geçirin.
 

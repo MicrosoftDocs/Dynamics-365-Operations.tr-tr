@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b478e4cd5cf1eb88517bb923c377c6121d92fd0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018041"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Tekrar eden satınalma siparişi oluşturma
 
@@ -32,11 +32,11 @@ Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya s
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Yeni bir tekrar eden satınalma siparişi oluşturun
 1. Gezinti bölmesinde **Modüller > Tedarik ve kaynak atama > Satınalma siparişleri > Tüm satın alma siparişleri** öpesine gidin. İlk olarak bilgileri yeni siparişe kopyalama seçeneğini deneyeceğiz.  
-2. **Yeni**'yi seçin.
+2. **Yeni** 'yi seçin.
 3. **Satıcı hesabı** alanına `US-101` girin.
-4. **Tamam**'ı seçin.
-5. Eylem Bölmesi'nde, **Satın alma siparişi**'ni seçin.
-6. **Tümünden**'i seçin. Bu sayfadan mevcut siparişleri kendi siparişinize kopyalayabilirsiniz. Satırların nasıl kopyalandığına ilişkin farklı seçenekler ve kopyalama yapabileceğiniz farklı belge türleri vardır. İlk olarak satırların nasıl kopyalanacağını inceleyeceğiz. 
+4. **Tamam** 'ı seçin.
+5. Eylem Bölmesi'nde, **Satın alma siparişi** 'ni seçin.
+6. **Tümünden** 'i seçin. Bu sayfadan mevcut siparişleri kendi siparişinize kopyalayabilirsiniz. Satırların nasıl kopyalandığına ilişkin farklı seçenekler ve kopyalama yapabileceğiniz farklı belge türleri vardır. İlk olarak satırların nasıl kopyalanacağını inceleyeceğiz. 
 7. **Parametreler** bölümünü genişletin.
 
     - **Miktar faktörü** alanı, kopyalama yaptığınız sırada açık olandan farklı bir miktar kullanmanız gerekiyorsa yararlıdır. Örneğin; kopyaladığınız satırlardaki miktarı iki kez sipariş etmek isterseniz bu alana '2' yazarsınız ve sonra sistem orijinal miktarın ikiye katlandığı yere satır ekler.  
@@ -53,14 +53,14 @@ Bu konu önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya s
 10. **Ürün girişleri** bölümünü genişletin. Kopyalama kaynağı olarak kullanmak için ürün girişi günlüklerini buradan seçebilirsiniz. Ürün girişi günlükleri ürün giriş fişi veya satınalma siparişi kimliği ile tanımlanır.   
 11. **Faturalar** bölümünü genişletin. Kopyalama kaynağı olarak kullanmak için satıcı faturalarını buradan seçebilirsiniz. Faturalar, fatura fişi veya satınalma siparişi kimliğiyle tanımlanır.   
 12. **Seçilen satırlar veya kopyalanacak başlık** bölümünü genişletin. Bu görünüm siparişinize kopyalamak için seçilmiş tüm belgeler ve satırların özetini gösterir.   
-13. **Tamam**'ı seçin. Seçtiğiniz satır yeni satınalma siparişinize kopyalandı.   
+13. **Tamam** 'ı seçin. Seçtiğiniz satır yeni satınalma siparişinize kopyalandı.   
 
 ## <a name="copy-lines-to-an-existing-purchase-order"></a>Satırları mevcut satınalma siparişine kopyalayın  
 
 Siparişin tamamını kopyalamak yerine yeni bir PO oluşturmak, PO başlığındaki bilgileri tamamlamak ve sonra mevcut siparişlerden tek tek satırları kopyalamak daha yaygın bir uygulamadır.  
 
 1. **Satın alma siparişi** satırını seçin.
-2. **Tümünden**'i seçin. Sayfa önceden görüntülenenin aynısını açar ancak sipariş satırlarını görünümünden açıldığında farklı seçenekler seçilir. Parametreleri gözden geçirelim.   
+2. **Tümünden** 'i seçin. Sayfa önceden görüntülenenin aynısını açar ancak sipariş satırlarını görünümünden açıldığında farklı seçenekler seçilir. Parametreleri gözden geçirelim.   
 3. **Parametreler** bölümünü genişletin.
 
     - **Satınalma satırlarını sil** seçeneği seçilmez. Bu, mevcut satırları kaldırmadan siparişinize yeni satırlar kopyalayabileceğiniz anlamına gelir.   
@@ -68,5 +68,5 @@ Siparişin tamamını kopyalamak yerine yeni bir PO oluşturmak, PO başlığın
     - Bu örnekte, mevcut satınalma siparişinden satırları kopyalayacağız.   
 
 4. İstenen satınalma emri için satırı seçin. Bu PO üzerinde tek sipariş satırının da seçildiğine dikkat edin.  
-5. **Tamam**'ı seçin. Ek sipariş satırı satınalma siparişinize eklendi.  
+5. **Tamam** 'ı seçin. Ek sipariş satırı satınalma siparişinize eklendi.  
 

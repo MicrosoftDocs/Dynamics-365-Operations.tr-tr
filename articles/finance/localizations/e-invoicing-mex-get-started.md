@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836051"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039834"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Meksika için elektronik faturalama eklentisi, şu anda Comprobante Fiscal Digital por Internet (CFDI) belgesindeki kullanılabilir ve Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management üzerinde oluşturulan ilgili tümleştirmelerde tüm işlevleri desteklemeyebilir.
@@ -55,10 +54,10 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 1. RCS hesabınızda oturum açın.
 2. **Genelleştirme özellikleri** çalışma alanında **Özellikler** bölmesinde **E-faturalama** kutucuğunu seçin.
-3. **E-faturalama özellikleri** sayfasında, Genel depodan **CFDI faturaları (MX)** özelliğini içe aktarmak için **İçe aktar**'ı seçin.
+3. **E-faturalama özellikleri** sayfasında, Genel depodan **CFDI faturaları (MX)** özelliğini içe aktarmak için **İçe aktar** 'ı seçin.
 
     > [!NOTE]
-    > Listede özelliği göremiyorsanız, **Eşitle**'yi seçin ve 3. adımı tekrarlayın.
+    > Listede özelliği göremiyorsanız, **Eşitle** 'yi seçin ve 3. adımı tekrarlayın.
 
 ![CFDI faturaları (MX) özelliğini içe aktarma](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
@@ -74,7 +73,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 ### <a name="update-the-configuration-version"></a>Yapılandırma sürümünü güncelleştirme
 
-1. **E-faturalama özellikleri** sayfasında, **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini (ER dosya biçimi yapılandırmaları) yönetmek için **Ekle** veya **Sil**'i seçin.
+1. **E-faturalama özellikleri** sayfasında, **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini (ER dosya biçimi yapılandırmaları) yönetmek için **Ekle** veya **Sil** 'i seçin.
 
     ![E-faturalama özellik yapılandırmalarını yönetme](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
@@ -86,7 +85,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
     - CFDI iptal isteği (MX) (BusinessDocumentService)
     - CFDI faturası (BusinessDocumentService)
 
-2. Listede bir yapılandırma sürümü seçin ve sonra da yapılandırmayı düzenleyebileceğiniz veya görüntüleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle**'yi seçin.
+2. Listede bir yapılandırma sürümü seçin ve sonra da yapılandırmayı düzenleyebileceğiniz veya görüntüleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle** 'yi seçin.
 
     ![Biçim tasarımcısı sayfasını açma](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
@@ -96,7 +95,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>E-faturalama özellik kurulumlarını yönetme
 
-- **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, E-faturalama özellik kurulumlarını yönetmek için **Ekle**, **Sil** veya **Düzenle** ögesini seçin.
+- **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, E-faturalama özellik kurulumlarını yönetmek için **Ekle** , **Sil** veya **Düzenle** ögesini seçin.
 
 ![E-faturalama özellik kurulumlarını yönetme](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -106,7 +105,7 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Satış faturası özellik kurulumunu yapılandırma
 
-1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **Satış faturası**'nı seçin.
+1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **Satış faturası** 'nı seçin.
 2. Eylemleri, uygulanabilirlik kurallarını ve değişkenleri yapılandırmak için **Düzenle** ögesini seçin.
 
     ![E-faturalama özellik kurulumunu düzenleme](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
@@ -135,14 +134,14 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 1. **E-faturalama özellikleri** sayfasında, **Ortamlar** sekmesinde, **Etkinleştir** ögesini seçin.
 2. **Ortamlar** alanında, ortamı seçin.
 3. **Geçerlilik başlangıcı** alanında, yeni ortamın geçerli olacağı tarihi seçin.
-3. **Etkinleştir**'i seçin.
+3. **Etkinleştir** 'i seçin.
 
 ![E-faturalama ortamını etkinleştirme](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>Sürüm durumunu Tamamlandı olarak değiştirme
 
 1. **E-faturalama Özellikleri** sayfasındaki **Sürümler** sekmesinde, **Taslak** durumundaki e-faturalama özelliğinin sürümünü seçin.
-2. **Durumu değiştir \> Tamamla**'yı seçin.
+2. **Durumu değiştir \> Tamamla** 'yı seçin.
 
 ## <a name="change-the-version-status-to-published"></a>Sürüm durumunu Yayımlandı olarak değiştirme
 
@@ -151,7 +150,7 @@ CFDI fatura iptali göndermek için **İptal etme** ve **İptal etme** özelliğ
 ## <a name="publish-the-e-invoicing-feature"></a>E-faturalama özelliğini yayımlama
 
 1. **E-faturalama özellikleri** sayfasında, **CFDI faturaları (MX)** özelliğinin durumunu yönetmek için **Sürümler** sekmesini seçin.
-2. Özelliğin durumunu değiştirmek için **Durumu değiştir**'i seçin.
+2. Özelliğin durumunu değiştirmek için **Durumu değiştir** 'i seçin.
 
 ![E-faturalama özelliğinin durumunu değiştirme](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
@@ -166,9 +165,9 @@ Finance içindeki Elektronik faturalama eklentisini ayarlamak için şu görevle
 
 1. Finance'de oturum açın.
 2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
-3. **Depolar**'ı seçin.
-4. **Genel kaynak \> Aç**'ı seçin.
-5. **Fatura modeli**, **Fatura modeli eşlemesi**, **CFDI fatura biçimi (MX)**, **CFDI fatura iptal isteği biçimi (MX)** ve **CFDI fatura iptali biçimi (MX)** ögelerini ni içe aktarın.
+3. **Depolar** 'ı seçin.
+4. **Genel kaynak \> Aç** 'ı seçin.
+5. **Fatura modeli** , **Fatura modeli eşlemesi** , **CFDI fatura biçimi (MX)** , **CFDI fatura iptal isteği biçimi (MX)** ve **CFDI fatura iptali biçimi (MX)** ögelerini ni içe aktarın.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>CFDI faturalarını işlemek için özelliği açma
 
@@ -182,29 +181,29 @@ Finance içindeki Elektronik faturalama eklentisini ayarlamak için şu görevle
 #### <a name="import-er-configurations"></a>ER yapılandırmaları içe aktarın
 
 1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin.
-3. **Depolar**'ı seçin.
-4. **Genel kaynak \> Aç**'ı seçin.
-5. **Yanıt iletisi modeli**, **CFDI hata günlüğü alma (MX)**, **CFDI hata günlüğü alma (MX)** ve **CFDI yanıt iletisi içe aktarma (MX)** ögelerini içe aktarın.
+3. **Depolar** 'ı seçin.
+4. **Genel kaynak \> Aç** 'ı seçin.
+5. **Yanıt iletisi modeli** , **CFDI hata günlüğü alma (MX)** , **CFDI hata günlüğü alma (MX)** ve **CFDI yanıt iletisi içe aktarma (MX)** ögelerini içe aktarın.
 
 #### <a name="set-up-the-response-types"></a>Yanıt türlerini ayarlama
 
 1. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
-2. **Elektronik belge** sekmesinde **Ekle**'yi seçin.
+2. **Elektronik belge** sekmesinde **Ekle** 'yi seçin.
 3. Müşteri fatura günlüğünü girin ve sonra **Tablo adı** alanında proje faturasını seçin.
 4. Her tablo için, ilgili belge bağlamını tanımlayın:
 
-    - **Müşteri fatura günlüğü** için **Müşteri fatura bağlamı**'nı girin.
-    - **Proje faturası** için **Proje fatura bağlamı**'nı girin.
+    - **Müşteri fatura günlüğü** için **Müşteri fatura bağlamı** 'nı girin.
+    - **Proje faturası** için **Proje fatura bağlamı** 'nı girin.
 
-4. Elektronik faturalama eklentisinden döndürülecek ve bir müşteri fatura günlüğünde veya proje faturasına dahil edilen yanıt türlerini yapılandırmak için **Yanıt türleri**'ni seçin.
-5. **Yeni**'yi seçin ve sonra **Yanıt türü** alanında, **Yanıt**'ı seçin.
-6. **Gönderim durumu** alanında, **Bekliyor**'u seçin.
+4. Elektronik faturalama eklentisinden döndürülecek ve bir müşteri fatura günlüğünde veya proje faturasına dahil edilen yanıt türlerini yapılandırmak için **Yanıt türleri** 'ni seçin.
+5. **Yeni** 'yi seçin ve sonra **Yanıt türü** alanında, **Yanıt** 'ı seçin.
+6. **Gönderim durumu** alanında, **Bekliyor** 'u seçin.
 7. **Model eşleme** alanında, **Yanıt iletisi içe aktarma biçimi - Yanıt iletisinden model eşlemesi** ögesini seçin.
-8. **Kaydet**'i seçin.
-9. **Yeni**'yi seçin ve sonra **Yanıt türü** alanında, **ResponseData** ögesini seçin.
-10. **Gönderim durumu** alanında, **Bekliyor**'u seçin.
+8. **Kaydet** 'i seçin.
+9. **Yeni** 'yi seçin ve sonra **Yanıt türü** alanında, **ResponseData** ögesini seçin.
+10. **Gönderim durumu** alanında, **Bekliyor** 'u seçin.
 11. **Model eşleme** alanında, **CFDI yanıtı veri içe aktarma biçimi (ayrıntılar) – Yanıt verilerini içe aktarma** ögesini seçin.
-12. **Kaydet**'i seçin.
+12. **Kaydet** 'i seçin.
 
 ## <a name="process-electronic-invoices-in-finance"></a>Finance içindeki elektronik faturaları işleme 
 
@@ -216,14 +215,14 @@ Elektronik faturalama eklentisi ile Finance içindeki CFDI faturalarının işle
 
 ### <a name="submit-cfdi-invoices"></a>CFDI faturalarını gönderme
 
-**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi (**Alacak hesapları \> Fatura \> E-faturalar**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
+**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi ( **Alacak hesapları \> Fatura \> E-faturalar** ) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 > [!NOTE]
 > Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini her zaman **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
-3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre**'yi seçin.
+3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre** 'yi seçin.
 
 ![Bir CFDI belgesi gönderme](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
@@ -243,15 +242,15 @@ Gönderme günlüklerini gönderilen tüm belgelerin veya yalnızca gönderilen 
 
     ![Gönderme günlüklerinin görüntülemek üzere bir belge türü seçme](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
-3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
+3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları** 'nı seçin.
 
     ![Gönderme günlüğü ayrıntılarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 Gönderme günlüklerindeki bilgiler üç hızlı sekme arasında bölünür:
 
-- **İşleme eylemleri**: Bu hızlı sekmede, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlükleri gösterilmektedir. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
-- **Eylem dosyaları**: Bu hızlı sekme, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları gösterir. Dosyayı indirmek ve görüntülemek için **Görünüm** öğesini seçebilirsiniz.
-- **İşleme eylem günlüğü**: Bu hızlı sekmede, elektronik faturalama eklentisi ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen sonuçları da gösterir. **Hata kodu** sütunu, yetkilendirme Web hizmeti tarafından döndürülen dönüş kodunu gösterir.
+- **İşleme eylemleri** : Bu hızlı sekmede, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlükleri gösterilmektedir. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
+- **Eylem dosyaları** : Bu hızlı sekme, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları gösterir. Dosyayı indirmek ve görüntülemek için **Görünüm** öğesini seçebilirsiniz.
+- **İşleme eylem günlüğü** : Bu hızlı sekmede, elektronik faturalama eklentisi ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen sonuçları da gösterir. **Hata kodu** sütunu, yetkilendirme Web hizmeti tarafından döndürülen dönüş kodunu gösterir.
 
 Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak güncelleştirilir.
 
@@ -261,7 +260,7 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
 
 1. **Alacak hesapları \> Sorgulamalar ve raporlar \> CFDI (elektronik faturalar)** seçeneğine gidin.
 2. **Yapılandırılabilir Elektronik faturalama eklentisi tümleştirme** özelliği etkinleştirildikten sonra gönderilen bir CFDI faturası seçin.
-3. Eylem Bölmesi'ndeki **Geçmiş** sekmesinde, **Elektronik belge günlüğü**'nü seçin.
+3. Eylem Bölmesi'ndeki **Geçmiş** sekmesinde, **Elektronik belge günlüğü** 'nü seçin.
 
 ![CFDI faturalarından gönderme günlüklerini görüntüleme](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
@@ -275,20 +274,20 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
 1. **Alacak hesapları \> Sorgulamalar ve raporlar \> CFDI (elektronik faturalar)** seçeneğine gidin.
 2. CFDI faturası **Onaylandı** durumundaysa, **İşlevler \> CFDI'yi iptal et** ögesini seçin.
 3. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
-4. CFDI faturasını seçin ve sonra **İşlevler \> İlgili gönderimleri gönder**'i seçin.
-5. İlgili gönderim için bir açıklama girin ve **Tamam**'ı seçin.
+4. CFDI faturasını seçin ve sonra **İşlevler \> İlgili gönderimleri gönder** 'i seçin.
+5. İlgili gönderim için bir açıklama girin ve **Tamam** 'ı seçin.
 
 #### <a name="view-cancellation-submission-logs"></a>İptal gönderim günlüklerini görüntüleme
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
 2. **Belge türü** alanında, yalnızca müşteri faturası günlüğü ile ilgili olarak filtre uygulamak için **Müşteri fatura günlüğü** seçeneğini belirleyin.
-3. CFDI faturasını seçin ve sonra Eylem Bölmesi'nde, **Sorgulamalar \> İlgili gönderim**'i seçin.
+3. CFDI faturasını seçin ve sonra Eylem Bölmesi'nde, **Sorgulamalar \> İlgili gönderim** 'i seçin.
 
     **İlgili gönderimler** sayfası, belirli bir CFDI faturası için tüm ilgili gönderimleri ve bunların gönderim durumlarını gösterir. Aşağıdaki çizimde, ilk satır, CFDI faturasının onayını talep eden gönderimi temsil eder. İkinci satır, bu CFDI faturasını iptal eden gönderimi temsil eder.
 
     ![İptal gönderim günlüklerini görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
-4. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
+4. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları** 'nı seçin.
 
     ![İptal gönderim günlüğü detaylarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 

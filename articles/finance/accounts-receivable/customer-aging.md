@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974873"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013065"
 ---
 # <a name="customer-aging-report"></a>Müşteri yaşlandırma raporu 
 
@@ -115,8 +115,9 @@ Raporu oluşturduğunuz zaman aşağıdaki varsayılan parametreler görüntüle
 <tr class="even">
 <td><p><strong>Yazdırma yönü</strong></p></td>
 <td><p>Bakiyelerin hesapnaıp hesaplamayacağını ve geçmiş veya gelecekteki dönemler için yaşlandırma raporunu yazdırmayı seçin. Tarihler, <strong>Bakiyesi açık</strong> alanında seçilen tarihe göre değerlendirilir. Geçmiş dönemlerin bilgilerini göstermek için <strong>Geriye dönük</strong> seçeneğini belirleyin. Gelecek dönemlerin bilgilerini göstermek için <strong>İleriye dönük</strong> seçeneğini belirleyin.</p>
-
-**Not:** Bu alana girdiğiniz bilgiler yalnızca bir yaşlandırma dönemi tanımı seçmemişseniz kullanılabilir.</P>
+<div class="alert">
+  
+<STRONG>Not:</STRONG> Bu alana girdiğiniz bilgiler yalnızca bir yaşlandırma dönemi tanımı seçmemişseniz kullanılabilir.</P>
 
 
 </div></td>

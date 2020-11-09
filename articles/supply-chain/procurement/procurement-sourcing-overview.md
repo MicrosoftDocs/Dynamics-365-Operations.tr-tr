@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
+ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46bbaca86f9113a3e4705e4f2c0f76590e62ec1
-ms.sourcegitcommit: 86052c58e3c365c443bd6f37ad1054bea395e21b
+ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3338345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018894"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Tedarik ve kaynak atama genel özeti
 
@@ -66,7 +66,7 @@ Fiyatlar ve iskontolar; fiyatlar, iskontolar ve sundukları indirim koşulları 
 
 ### <a name="delivery-options"></a>Teslimat seçenekleri
 
-Bir satınalma siparişiyle ilişkili teslimat işlemi için farklı seçenekler vardır. Sipariş edilen ürünler *teslimat* planlarına bölünebilir, burada sipariş edilen miktarın parçaları farklı tarihlerde teslim edilecek şekilde planlanabilir. Teslimat, ürün girişinin satınalma siparişine kaydedildiği anda satış siparişinde otomatik olarak sevk irsaliyesi oluşturan bir satış siparişinden başlatılan *doğrudan teslimat*ı da içerebilir. Satınalma siparişleri, şirketlerarası satınalma siparişleri olarak da belirtilen, ürünlerin eşleşen bir şirketlerarası satış siparişinden sipariş edildiği *şirketlerarası sipariş* zincirinin de bir parçası olabilir.. Bu durumda, bazı adımlar iki ilgili şirketlerarası sipariş arasında otomatik olarak gerçekleşir.
+Bir satınalma siparişiyle ilişkili teslimat işlemi için farklı seçenekler vardır. Sipariş edilen ürünler *teslimat* planlarına bölünebilir, burada sipariş edilen miktarın parçaları farklı tarihlerde teslim edilecek şekilde planlanabilir. Teslimat, ürün girişinin satınalma siparişine kaydedildiği anda satış siparişinde otomatik olarak sevk irsaliyesi oluşturan bir satış siparişinden başlatılan *doğrudan teslimat* ı da içerebilir. Satınalma siparişleri, şirketlerarası satınalma siparişleri olarak da belirtilen, ürünlerin eşleşen bir şirketlerarası satış siparişinden sipariş edildiği *şirketlerarası sipariş* zincirinin de bir parçası olabilir.. Bu durumda, bazı adımlar iki ilgili şirketlerarası sipariş arasında otomatik olarak gerçekleşir.
 
 ### <a name="supplementary-items"></a>Tamamlayıcı maddeler
 
@@ -84,7 +84,7 @@ Bazı satınalma siparişleri, bir ambara alınmasına gerek olmayan hizmet şek
 
 Ürünlerin girişi belirli bir amaç doğrultusunda otomatik tüketime yol açabilir. Bunun içinde doğrudan teslimatla örtülü tüketim, bir projeye yönelik tüketim veya ürünü bir sabit kıymet olarak hesaba katma bulunur.  
 
-Satıcıdan *satıcı faturaları* geldiğinde, bunlar satınalma siparişinden bağımsız olarak öncelikle *fatura kaydı*nda kaydedilir ve sonra satınalma siparişine karşı bir kayıt olarak onaylanır. Satınalma siparişi ile satıcı faturasını kaydetme, fatura doğrultusunda ürün girişini eşleştirmeyi içerir.  
+Satıcıdan *satıcı faturaları* geldiğinde, bunlar satınalma siparişinden bağımsız olarak öncelikle *fatura kaydı* nda kaydedilir ve sonra satınalma siparişine karşı bir kayıt olarak onaylanır. Satınalma siparişi ile satıcı faturasını kaydetme, fatura doğrultusunda ürün girişini eşleştirmeyi içerir.  
 
 *Muhasebe dağıtımları* muhasebenin genel muhasebe içinde nasıl yapılması gerektiğini tarif edecek şekilde satınalma siparişinde belirtilebilir ve ayrıca yapılandırmanıza dahil edildiğinde bütçe fon tahsisatının nasıl elde edildiğini de tanımlayabilir.  
 
