@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975280"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528557"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
@@ -64,7 +64,7 @@ Bütçe planlarına başka modüllerden planlama verilerinin nasıl getirileceğ
 ## <a name="user-interface-and-reporting-capabilities"></a>Kullanıcı arabirimi ve raporlama yetenekleri
 Kullanıcılar bütçe planlarını doğrudan istemcide (yapılandırılabilir bir bütçe planı belgesi sayfasını kullanarak) veya Excel aracılığıyla oluşturabilir. Excel birkaç ek yetenek sağlar. Örneğin, bir bütçe planı için kaynak olarak dış verileri kullanabilir, özel hesaplamalar yapabilir, Microsoft PivotTable ve grafikler kullanabilirsiniz. Bütçe planlama sürecindeki değişkenlerin çoğu yapılandırılabilir. 
 
-Örneğin, bütçelemeyi kimlerin yapacağını, neyin bütçeleneceğini ve sürecin nasıl olacağını tanımlayabilirsiniz. Bütçe planlama için Excel kullanabildiğiniz halde uygulama tek doğru kaynak olarak tutulur ve bütçe denetimi sorunlarını önlemeye yardımcı olur. Bütçe planına bütçeleme başlangıç verilerini getirmek için periyodik işlemler kullanılabilir. Uygulama, bütçeleme verilerini görüntüleyip analiz etmenize olanak sağlayan bir dizi standart sorgulama sayfası sunar. Bütçe planı verilerine Yönetim Raporlayıcısı üzerinden erişilebilir ve Yönetim Raporlayıcısı raporunda bütçe planı senaryoları ayrı ayrı sütunlar halinde görüntülenebilir.
+Örneğin, bütçelemeyi kimlerin yapacağını, neyin bütçeleneceğini ve sürecin nasıl olacağını tanımlayabilirsiniz. Bütçe planlama için Excel kullanabildiğiniz halde uygulama tek doğru kaynak olarak tutulur ve bütçe denetimi sorunlarını önlemeye yardımcı olur. Bütçe planına bütçeleme başlangıç verilerini getirmek için periyodik işlemler kullanılabilir. Uygulama, bütçeleme verilerini görüntüleyip analiz etmenize olanak sağlayan bir dizi standart sorgulama sayfası sunar. Bütçe planı verilerine [Mali raporlama](../general-ledger/financial-reporting-getting-started.md) aracılığıyla erişilebilir ve Mali raporda bütçe planı senaryoları ayrı ayrı sütunlar halinde görüntülenebilir.
 
 
 

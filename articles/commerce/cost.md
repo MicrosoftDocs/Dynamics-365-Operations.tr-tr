@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 7644cb9800a418fd123b32a0257b787277fcb19f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004240"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460078"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM) için maliyet yapılandırması
 

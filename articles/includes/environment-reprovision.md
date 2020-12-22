@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460096"
+---
 Bir veritabanını ortamlar arasında kopyalarken, tüm Commerce bileşenlerinin güncel olmasını sağlamak için kopyalanan veritabanının tamamen işlevsel olması amacıyla ortam yeniden sağlama aracını çalıştırmanız gerekir.
 
 > [!IMPORTANT]

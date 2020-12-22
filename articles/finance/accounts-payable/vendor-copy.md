@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 33338c331a53586b325def398267ab10db23f78a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460104"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 
@@ -39,7 +39,7 @@ Ayrıca, el ile satıcı kodları kullanıyorsanız satıcıları tüzel kişili
 
 ## <a name="copy-a-vendor"></a>Satıcı kopyalama
 
-Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar**liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, eski sürümlerdeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
+Bir satıcıyı kopyalamak için **Tüm satıcılar, yeni kayıt** sayfasını açmak üzere **Tüm satıcılar** liste sayfasında **Yeni**'yi seçin. Yeni satıcı kodunun hemen atanmayacağını unutmayın. Bu davranış, eski sürümlerdeki davranıştan farklıdır. Satıcı grubunu henüz seçmediğiniz için sistem kullanılacak doğru numara sırasını belirleyemez. Ayrıca, yeni bir satıcı oluşturmak mı yoksa bir satıcıyı kopyalamak mı istediğinizi de belirleyemez. Bu nedenle, satıcı kodu sayfanın alt kısmındaki **Kaydet** düğmesi seçilene kadar atanmaz.
 
 Yeni bir satıcı oluşturuyorsanız, tüm alanları her zaman olduğu gibi doldurmaya devam edebilirsiniz. Tamamlayıp **Kaydet**'i seçtiğinizde, satıcı kodunun otomatik olarak atandığını görürsünüz. Alternatif olarak, el ile numara sıraları için el ile satıcı kodunuzun kullanıldığını görürsünüz.
 

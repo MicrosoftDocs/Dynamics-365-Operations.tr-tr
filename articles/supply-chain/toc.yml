@@ -16,7 +16,9 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: One Version hizmet güncelleştirmeleriyle ilgili SSS
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Yazılım yaşam döngüsü ilkesi - Bulut
+                - name: Dynamics 365 Commerce dahil olmak üzere güncelleştirmeleri ve özel kod yaşam döngüsünü yönetme
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Yazılım yaşam döngüsü ilkesi: Bulut'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Yazılım yaşam döngüsü ilkesi: Şirket içi'
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -54,7 +56,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için sistem gereksinimleri
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance + Operations (şirket içi) satın alma
+                - name: Finance + Operations (on-premises) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Şirket içi dağıtımlar için Ambarlamayı yapılandırma
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -70,22 +72,20 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.15 (Aralık 2020)
+                    - name: Supply Chain Management 10.0.16 (Şubat 2021)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: Supply Chain Management 10.0.15 (Ocak 2021)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (Kasım 2020)
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: Supply Chain Management 10.0.13 (Ekim 2020)
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Dynamics 365 Supply Chain Management'ta kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ertelenen AX 2012 özellikleri
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Şirket içi dağıtımlarda uygulanmayan özellikler
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Belge kaynakları
@@ -216,6 +216,14 @@
                   items:
                     - name: Satıcıdan alınan transitteki mallar
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Bulut ve uç
+          items:
+            - name: Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Varlık yönetimi
           items:
             - name: Varlık yönetimine genel bakış
@@ -230,9 +238,9 @@
                 - name: İşlem yapılacak yerleşimin yaşam döngüsü durumları
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Bakım öznitelik türleri
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: İşlem yapılacak yerleşim türleri
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: İşlem yapılacak yerleşim türleri
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: İşlem yapılacak yerleşimler
               items:
                 - name: İşlem yapılacak yerleşimlere giriş
@@ -633,11 +641,13 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Maliyet yönetimi Power BI içerik paketi
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Maliyet yönetimi sorunlarını giderme
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Raporlama ve Power BI tümleştirmeleri
           items:
             - name: Power BI ile raporlama ve analiz
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Bilgiye erişme ve raporlama
+            - name: Bilgiye erişim ve raporlama
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI ile kişiselleştirme seçenekleri
               items:
@@ -1161,7 +1171,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
                     - name: XML öğesinin yürütülmesini erteleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Finance and Operations'da Elektronik raporlama çözümlerini kullanma
+            - name: Finance and Operations'da Elektronik raporlama çözümleri kullanma
               items:
                 - name: Altyapıyı yapılandırma
                   items:
@@ -1217,7 +1227,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
-            - name: ER çerçevesi API'sı
+            - name: ER çerçevesi API'si
               items:
                 - name: Elektronik raporlama işlev listesini genişletme
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
@@ -1323,10 +1333,12 @@
                   href: cost-management/inventory-close.md
                 - name: Yürütülen ortalama maliyet fiyatı
                   href: cost-management/running-average-cost-price.md
-                - name: Eldeki stoğun maliyet değerini ayarlama
+                - name: Eldeki stokun maliyet değerlerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Stok boyutu başına cari ortalama maliyeti izleme
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Stok Görünürlüğü Eklentisi
+              href: inventory/inventory-visibility.md
         - name: IoT Zekası
           items:
             - name: IoT Zekası giriş sayfası
@@ -1347,23 +1359,33 @@
           items:
             - name: Master planlama giriş sayfası
               href: master-planning/master-planning-home-page.md
-            - name: Planlamayı En İyi Duruma Getirme
+            - name: Master planlama için Planlama Optimizasyonuna geçiş
+              href: master-planning/new-master-planning-engine.md
+            - name: Planlama Optimizasyonu
               items:
-                - name: Planlamayı En İyi Duruma Getirmeye genel bakış
+                - name: Planlama Optimizasyonuna genel bakış
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
+                - name: Planlama Optimizasyonunu kullanmaya başlama
                   href: master-planning/planning-optimization/get-started.md
-                - name: Planlamayı En İyi Duruma Getirme uygunluk analizi
+                - name: Planlama Optimizasyonu uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Bir plana filtre uygulama
+                - name: Plana filtre uygulama
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Talep tahmini ile master planlama
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Satın alma ticari sözleşmeleri ile master planlama
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Güvenlik marjları
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Planlama Optimizasyonu ile stok işaretleme
+                  href: master-planning/planning-optimization/marking.md
+                - name: Şirketlerarası planlama
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Belirli ürün yaşam döngüsü durumları olan ürünleri hariç tutma
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Planlı siparişleri onaylama
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Planlamayı En İyi Duruma Getirme ile otomatik kesinleştirme
+                - name: Planlama Optimizasyonu ile otomatik kesinleştirme
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Eldeki eksi stok miktarlarıyla planlama
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -1371,9 +1393,9 @@
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planlama işini iptal etme
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Planlamayı En İyi Duruma Getirme sorunlarını giderme
+                - name: Planlama Optimizasyonu sorunlarını giderme
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Planlamayı En İyi Duruma Getirme genişletilebilirliği
+                - name: Planlama Optimizasyonu genişletilebilirliği
                   href: master-planning/planning-optimization/extensibility.md
             - name: Master planlar
               items:
@@ -1463,6 +1485,8 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Talep tahminini el ile değiştirme
                   href: master-planning/tasks/modify-demand-forecast-manually.md
+            - name: Master planlama sorunlarını giderme
+              href: master-planning/troubleshoot-masterplanning.md
         - name: Mobil uygulama
           items:
             - name: Mobil uygulama giriş sayfası
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: Ürün reçetesi hesaplamaları
                   href: cost-management/bom-calculations.md
+                - name: Ürün bilgileriyle ilgili sorunları giderme
+                  href: pim/troubleshooting-productinformation.md
             - name: Ürün yapılandırması
               items:
                 - name: Ürün yapılandırmasına genel bakış
@@ -1955,11 +1981,39 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Ürün modelleri için verileri aktarma
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Ürün yapılandırıcısı sorunlarını giderme
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Mühendislik değişim yönetimi
+          items:
+            - name: Mühendislik değişim yönetimine genel bakış
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Mühendislik değişim yönetimi özelliğini gözden geçirme
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Mühendislik değişim yönetimi parametreleri
+              href: engineering-change-management/engineering-parameters.md
+            - name: Mühendislik değişim yönetimi için ortak değerler oluşturma
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Mühendislik kuruluşları ve veri sahipliği kuralları
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Ürün sahibi
+              href: engineering-change-management/product-owner.md
+            - name: Mühendislik öznitelikleri ve mühendislik öznitelik araması
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Mühendislik sürümleri ve mühendislik ürün kategorileri
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Ürün yaşam döngüsü durumu ve hareketler
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Mühendislik ürünlerindeki değişiklikleri yönetme
+              href: engineering-change-management/engineering-change-management.md
+            - name: Ürün hazırlığı
+              href: engineering-change-management/product-readiness.md
+            - name: Ürün serbest bırakma yapısı
+              href: engineering-change-management/release-product-structure.md
         - name: Üretim denetimi
           items:
             - name: Üretim sürecine genel bakış
               href: production-control/production-process-overview.md
-            - name: 'Karma modda planlama: Ayrık, yalın kaynaklar ile işlem kaynaklarını birleştirme'
+            - name: 'Karma modda planlama: Ayrık kaynaklar, işlem kaynakları ve yalın kaynakları birleştirme'
               href: production-control/mixed-mode-plan.md
             - name: Üretimde alt sözleşme işini yönetme
               href: production-control/manage-subcontract-work-production.md
@@ -1997,7 +2051,7 @@
                       href: production-control/tasks/create-working-time-scheduling-properties.md
                     - name: Çalışma zamanı şablonları oluşturma
                       href: production-control/tasks/create-working-time-templates.md
-                    - name: Kesikli üretim kaynak grubunu tanımlama
+                    - name: Parçalı üretim kaynak grubunu tanımlama
                       href: production-control/tasks/define-discrete-manufacturing-resource-group.md
                     - name: Üretim akışı sürümüne mevcut bir faaliyeti ekleme
                       href: production-control/tasks/add-existing-activity-production-flow-version.md
@@ -2047,6 +2101,8 @@
                       items:
                         - name: Üretim katı yürütme arabirimini yapılandırma
                           href: production-control/production-floor-execution-configure.md
+                        - name: Üretim katı yürütme arabirimini tasarlama
+                          href: production-control/production-floor-execution-tabs.md
                         - name: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
                           href: production-control/production-floor-execution-setup.md
                         - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
@@ -2105,6 +2161,8 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Esnek gruplar
                       href: production-control/time-attendance-flex-groups.md
+                - name: Parçalı üretim sorunlarını giderme
+                  href: production-control/troubleshoot-discretemanufacturing.md
             - name: Yalın imalat
               items:
                 - name: Yalın imalata genel bakış
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Üretimin deftere nakli
                       href: cost-management/production-posting.md
+                - name: Süreç üretimi sorunlarını giderme
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Satış ve pazarlama
           items:
             - name: Satış ve pazarlamaya genel bakış
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Taşıyıcılı bir yakıt dizinini ilave masraf olarak ilişkilendirme
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: Kaynağın USMCA belgesi
+              href: transportation/usmca-certification-of-origin.md
             - name: Konşimento oluşturma
               href: transportation/create-bill-of-lading.md
             - name: Navlun taşıma rotalarını planlama
@@ -2607,6 +2669,26 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Randevu için sürücü girişini ve çıkışını kaydetme
               href: transportation/tasks/register-driver-check-check-out-appointment.md
+            - name: İskontolar
+              href: transportation/transportation-management-discount.md
+            - name: Sair masraflar
+              href: transportation/transportation-management-misc-charge.md
+            - name: Şekiller ve yöntemler
+              href: transportation/transportation-management-modes-methods.md
+            - name: Numara serileri
+              href: transportation/transportation-management-number-sequence.md
+            - name: Durum
+              href: transportation/transportation-management-status.md
+            - name: Ana bölge
+              href: transportation/transportation-management-zone-master.md
+            - name: Taşıyıcı grupları
+              href: transportation/tasks/carrier-groups.md
+            - name: Yük oluşturma çalışma ekranı
+              href: transportation/tasks/load-building-workbench.md
+            - name: Yük şablonları
+              href: transportation/tasks/load-template.md
+            - name: Değerlendirme profilleri
+              href: transportation/tasks/setup-a-rating-profile.md
             - name: Taşıyıcı yakıt dizinini ayarlama
               href: transportation/tasks/set-up-carrier-fuel-index.md
             - name: Taşıma ödemesini ayarlama
@@ -2645,23 +2727,31 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Yerleşim ürün boyutu karıştırması
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Yerine koyma kümeleri
+                  href: warehousing/putaway-clusters.md
                 - name: Kalite denetimi
                   href: warehousing/quality-check.md
+                - name: Gelen ambar işlemleri ile ilgili sorunları giderme
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Giden ambar işlemleri
               items:
                 - name: Ambar yönetiminde rezervasyonlar
                   items:
-                    - name: Esnek ambar düzeyi boyut rezervasyon ilkesi
+                    - name: Esnek ambar düzeyi boyut rezervasyonu ilkesi
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: Ambar yönetiminde rezervasyonlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Kısmi serbest bırakma ve kısmi sevkiyat
                   items:
                     - name: Taşıma yükü kısmi sevkiyatı
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Kısmi serbest bırakmalar ve kısmi sevkiyatlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Malzeme çekme ve paketleme
                   items:
-                    - name: Küme malzeme çekme ayarlama
+                    - name: Küme malzeme çekmeyi ayarlama
                       href: warehousing/set-up-cluster-picking.md
                     - name: Küme konumu dolu
                       href: warehousing/cluster-position-full.md
@@ -2695,8 +2785,12 @@
                       href: warehousing/location-directive-inventory-picking-aging.md
                     - name: Giden sıralama
                       href: warehousing/outbound-sorting.md
-                    - name: Duvara yerleştirme - Mağazaya yerleştirme
+                    - name: Duvara yerleştirme - mağazaya yerleştirme
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Giden iş yükü görselleştirmesi
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Malzeme çekme ve paketleme sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Stok yenileme
                   items:
                     - name: Stok yenilemeye genel bakış
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Bölge eşiği stok yenilemesi
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Stok yenileme stratejileri
+                      href: warehousing/replenishment-strategies.md
                     - name: Yerleşim kapasitesine göre stok yenileme
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Ambar stok yenileme sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Yük oluşturma ve sevkiyatlar
                   items:
                     - name: Onaylama ve transfer etme
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Yük oluşturma ve sevkiyatlar ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Sevkiyat konsolidasyonu ilkeleri
                   items:
                     - name: Sevkiyat konsolidasyonu ilkeleri
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 'Senaryo 5: Sevkiyatları konsolide etme sayfasını kullanarak sevkiyatları el ile konsolide etme'
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Giden ambar işlemleri sorunlarını giderme
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Ambar işlemleri boyunca
               items:
                 - name: Ambar iş ilkeleri
@@ -2793,10 +2895,14 @@
                       href: warehousing/work-line-details.md
                     - name: Yerleşim plaka konumlandırması
                       href: warehousing/location-license-plate-positioning.md
-                    - name: İşteki iş havuzunu değiştir
+                    - name: İşteki iş havuzunu değiştirme
                       href: warehousing/change-work-pool-on-work.md
-                    - name: Madde konsolidasyon - yerleşim kullanımı
+                    - name: Madde konsolidasyonu - yerleşim kullanımı
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Ambar işi ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: İş bölme
+                      href: warehousing/work-split.md
             - name: Ambar kurulumu
               items:
                 - name: Ambar yapılandırması
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: İş şablonları ve yerleşim yönergelerini kullanarak iş denetimi
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Yerleşim yönergeleri oluşturma
+                    - name: Yerleşim yönergeleriyle çalışma
                       href: warehousing/create-location-directive.md
+                    - name: Konum stoklama sınırları
+                      href: warehousing/location-stocking-limits.md
                     - name: Dalga adım kodları
                       href: warehousing/wave-step-codes.md
                     - name: Dalga işlemeyi yapılandırma
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Transfer emirleri için ambar ayarlama
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Ambar yapılandırması ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Ambar uygulamasını yükleme ve yapılandırma
                   items:
                     - name: Ambar uygulamasını yükleme ve bağlama
@@ -2879,6 +2989,10 @@
                   items:
                     - name: Ambar yönetimi süreçlerini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Ambar kurulumu sorunlarını giderme
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: Supply Chain Management geliştirme
           items:
             - name: Gantt denetimi geliştirme kılavuzu

@@ -14,14 +14,12 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.16 için platform güncelleştirmeleri (Şubat 2021)
+                  href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: 10.0.15 için platform güncelleştirmeleri (Ocak 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: 10.0.14 için platform güncelleştirmeleri (Kasım 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
-                - name: 10.0.13 için platform güncelleştirmeleri (Ekim 2020)
-                  href: get-started/whats-new-platform-updates-10-0-13.md
-                - name: 10.0.12 için platform güncelleştirmeleri (Ağustos 2020)
-                  href: get-started/whats-new-platform-update-10-0-12.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -30,8 +28,6 @@
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Ertelenen AX 2012 özellikleri
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Şirket içi dağıtımlarda uygulanmayan özellikler
-              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Microsoft Dynamics AX 2009 ve 2012 için temel destek sonu
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: İş olayları
@@ -162,6 +158,8 @@
                               href: data-entities/dual-write/currrency-decimal-places.md
                             - name: Satış siparişi durumu alanları için eşlemeyi ayarlama
                               href: data-entities/dual-write/sales-status-map.md
+                            - name: Siparişler ile Sipariş Satırlarını eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
+                              href: data-entities/dual-write/filtering-intercompany-orders.md
                         - name: Çift yazmayı yönetme
                           items:
                             - name: Varlık ve alan eşlemelerini özelleştirme
@@ -202,16 +200,18 @@
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Finans ve vergi verileri
                               items:
-                                - name: Finans ve vergi referans verilerine erişim
+                                - name: Finans ve vergi referans verilerine erişme
                                   href: data-entities/dual-write/finance-tax-reference.md
                                 - name: Tümleşik genel muhasebe
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Tümleşik vergi aslı
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Çift yazmada aday müşteriden nakde
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+                              href: data-entities/dual-write/pricing-engine.md
+                            - name: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
+                              href: data-entities/dual-write/commerce-pricing.md
                             - name: Servis gerçekleştirilecek şirket içi varlıklar
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Tümleşik çalışan, iş ve pozisyon'
@@ -500,6 +500,8 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Donanım boyutlandırma gereksinimleri
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+                    - name: Dynamics 365 Finance + Operations (on-premises) uygulamasında kimlik doğrulaması
+                      href: deployment/authentication-onprem.md
                 - name: Şirket içi ortamları ayarlama ve dağıtma
                   items:
                     - name: LCS'de şirket içi projeleri ayarlama
@@ -628,8 +630,10 @@
                   href: dev-tools/pipeline-asset-upload.md
                 - name: Kıymetleri Azure Pipelines kullanarak dağıtma
                   href: dev-tools/pipeline-deploy-asset.md
-                - name: Azure Pipelines'da Lifecycle Services (LCS) bağlantısı oluşturma
+                - name: Azure Pipelines'ta Lifecycle Services (LCS) bağlantısı oluşturma
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Azure Pipelines'ta eski bir işlem hattını güncelleştirme
+                  href: dev-tools/pipeline-msbuild-update.md
             - name: Filo Yönetimi örnek uygulaması
               items:
                 - name: Filo Yönetimi örnek uygulaması için uçtan uca senaryo
@@ -764,8 +768,10 @@
                           href: dev-ref/xpp-data/xpp-transaction.md
                         - name: İşlemleri küme tabanlı yerine kayıt başına olacak şekilde dönüştürme
                           href: dev-ref/xpp-data/xpp-data-perf.md
-                        - name: SysDa API'sını kullanarak verilere erişim
+                        - name: SysDa API'sini kullanarak verilere erişim
                           href: dev-ref/sysda.md
+                        - name: SQL ekleme saldırısının etkilerini azaltma
+                          href: dev-ref/query-with-parameters.md
                     - name: X++ makroları
                       href: dev-ref/xpp-macros.md
                     - name: X++ öznitelik sınıfları
@@ -1492,13 +1498,15 @@
                   href: sysadmin/security-architecture.md
                 - name: Finance and Operations uygulamalarında şifreleme
                   href: sysadmin/encryption.md
-                - name: Oturumun boşta kalma zaman aşımını ayarlama
+                - name: Oturumun boş durma zaman aşımını ayarlama
                   href: sysadmin/session-idle-timeout.md
                 - name: Kullanıma hazır güvenlik raporları
                   href: sysadmin/security-reports.md
                 - name: Yeni kullanıcılar oluşturma
                   href: sysadmin/tasks/create-new-users.md
-                - name: Kullanıcıları topluca içe aktarma
+                - name: Kullanıcı oturumu yönetimi
+                  href: sysadmin/user-session-management.md
+                - name: Kullanıcıları toplu olarak içe aktarma
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Görev ayrımını ayarlama
                   href: sysadmin/tasks/set-up-segregation-duties.md
@@ -1556,8 +1564,10 @@
               href: sysadmin/configure-manage-database-log.md
             - name: AOS başladığında OData meta veri önbelleği oluşturma
               href: sysadmin/odata-warmup.md
-            - name: Azure Key Vault istemcisi ayarlama
+            - name: Azure Key Vault istemcisini ayarlama
               href: ../../finance/localizations/setting-up-azure-key-vault-client.md
+            - name: Temizleme yordamları
+              href: sysadmin/cleanuproutines.md
         - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
           items:
             - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmelerle ilgili kaynaklar'
@@ -1690,13 +1700,13 @@
               href: user-interface/user-interface-development-home-page.md
             - name: Öğreticiler
               items:
-                - name: Kira Masraf Türü formu oluşturma
+                - name: Kiralama Masraf Türü formu oluşturma
                   href: user-interface/build-rental-charge-type-form.md
                 - name: Müşteri formu oluşturma
                   href: user-interface/build-customer-form.md
                 - name: Gezinti oluşturma
                   href: user-interface/build-navigation.md
-                - name: Çalışma alanları oluşturma
+                - name: Çalışma alanını değiştirme
                   href: user-interface/build-workspace.md
             - name: Formlar
               items:

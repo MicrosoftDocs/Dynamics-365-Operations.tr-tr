@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005552"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694398"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Finance and Operations uygulama belgeleri
 
@@ -51,8 +50,8 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 <p><a href="imp-lifecycle/onboard.md">Bir projeyi ekleme</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Servise almak için hazırlama</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Bir Sürüm hizmet güncelleştirmeleri</a></h3>
-<p><a href="get-started/one-version.md">Bir Sürüm hizmet güncelleştirmeleriyle ilgili SSS</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version hizmet güncelleştirmeleri</a></h3>
+<p><a href="get-started/one-version.md">One Version hizmet güncelleştirmeleriyle ilgili SSS</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Yazılım yaşam döngüsü ilkesi: Bulut</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Yazılım yaşam döngüsü ilkesi: Şirket içi</a></p>
 <p><a href="get-started/public-preview-releases.md">Standart ve İlk sürüm hizmet güncelleştirmeleri</a></p>
