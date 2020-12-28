@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150804"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679618"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Yazıcı hedefi
 

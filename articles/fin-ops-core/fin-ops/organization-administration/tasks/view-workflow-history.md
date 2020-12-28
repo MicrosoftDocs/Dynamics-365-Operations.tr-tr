@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd5b8d9f3fd2edab50b52a8345f254ebc6b31d0a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 3d7118e85ff56f8c935c24a91dc84c6cc09641e0
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140410"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694323"
 ---
 # <a name="view-workflow-history"></a>İş akışı geçmişini görüntüleme
 

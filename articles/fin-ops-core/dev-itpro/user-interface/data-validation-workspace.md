@@ -11,16 +11,15 @@ ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: ab3d470150a5fbcfebcff685350deaaafa67ec88
-ms.sourcegitcommit: 17fe0218e8e3f2f4c57c73c0c438a6ebf1ef32a6
+ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "3329923"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687587"
 ---
 # <a name="data-validation-checklist-workspace"></a>Veri doğrulama denetim listesi çalışma alanı
 

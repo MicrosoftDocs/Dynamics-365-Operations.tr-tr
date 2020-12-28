@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142467"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684559"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
 
@@ -80,8 +79,8 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 38. Tamam'a tıklayın.
 39. Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi seçin.
 40. Madde Ekle üzerine tıklayın.
-41. İsim alanına 'Emtia rec id' yazın.
-    * Emtia rec id  
+41. Ad alanına "Commodity rec ID" adını girin.
+    * Commodity rec ID  
 42. Veri türü alanında 'Int64' seçin.
 43. Tamam'a tıklayın.
 44. Eşleme sekmesini tıklatın.
@@ -89,22 +88,23 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 46. Bağla'ya tıklayın.
 47. Ağaçta, 'model'i genişletin.
 48. Ağaçta 'model\Hareketler'i seçin.
-49. Ağaçta 'Dosya\Bildirim\Veri\Madde = model.TransactionsEmtia rec id'i seçin.
-50. Ağaçta 'model\Hareketler\Emtia rec id'i seçin.
-51. Bağla'ya tıklayın.
-52. Kaydet'e tıklayın.
+49. Ağaçta "File\Declaration\Data\Item = model.Transactions\Commodity rec ID" öğesini seçin.
+50. Ağaçta "model\Transactions\Commodity rec ID" öğesini seçin.
+51. Bağla'yı tıklatın.
+52. Kaydet'i tıklatın.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Raporlama ayrıntılarını belleğe almak için biçimi değiştirin
+
 1. Biçimi modelle eşle'ye tıklayın.
 2. Yeni'yi tıklatın.
 3. Tanım alanında, 'Uygulama veri güncelleştirmesi' kök maddesini girin veya seçin.
-    * Uygulama için veri güncelleştirmesi  
+    * Uygulama veri güncelleştirmesi için.
 4. Ad alanına 'Veri güncelleştirmek için eşleme' yazın.
     * Veriyi güncelleştirmek için eşleme  
 5. Kaydet'e tıklayın.
-    * Bu eşleme, Intrastat raporunun ayrıntılarının veri modelinde nasıl toplandığını, seçilen kök öğesi 'Uygulama veri güncelleştirmesi için' belirtilen yapının hangisi olduğunu tanımlar. Bu ayrıntılar, aynı kök öğesi 'Uygulama veri güncelleştirmesi için' model eşleme ve yön 'Hedefe' uygulama veri güncelleştirmesi için kullanılır. Uygulama veri güncelleştirmesi, giden Intrastat raporu oluşturulduktan hemen sonra başlar. Uygulama veri güncelleştirilmesinin çalıştırma zamanında atlanabileceğini, ancak veri modelinin boş olması (boş kayıt listesi içermesi) gerektiğini unutmayın.   
-6. Tasarımcı'yı tıklatın.
-    * Giden Intrastat rapor biçimi, bu model eşleme için bir veri kaynağı olarak varsayılan şekilde eklenir.  
+    * Bu eşleme, Intrastat raporunun ayrıntılarının veri modelinde nasıl toplandığını, seçilen kök öğesi 'Uygulama veri güncelleştirmesi için' belirtilen yapının hangisi olduğunu tanımlar. Bu ayrıntılar, aynı kök öğesi 'Uygulama veri güncelleştirmesi için' model eşleme ve yön 'Hedefe' uygulama veri güncelleştirmesi için kullanılır. Uygulama veri güncelleştirmesi, giden Intrastat raporu oluşturulduktan hemen sonra başlar. Uygulama veri güncelleştirilmesi çalıştırma zamanında atlanabilir ancak veri modelinin boş olması (boş kayıt listesi içermesi) gerekir.
+6. Tasarımcı'ya tıklayın.
+    * Giden intrastat rapor biçimi, bu model eşleme için bir veri kaynağı olarak varsayılan şekilde eklenir.  
     * Tasarlanan raporun öğelerini (veri kaynağında sunulan), seçilmiş modelin kök öğesine dayanarak filtrelenen veri modelinin öğelerine bağlama.  
 7. Ağaçta, 'Arşiv başlığı' metnini genişletin.
 8. Ağaçta 'Arşiv başlığı\Arşiv satırları'nı genişletin.
@@ -120,8 +120,8 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 18. Fonksiyon ekle'ye tıklayın.
 19. Ağaçta, 'biçim' metnini genişletin.
 20. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)'i seçin.
-21. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi genişletin.
-22. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.
+21. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)` öğesini genişletin.
+22. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)` öğesini seçin.
 23. Veri kaynağı ekle'ye tıklayın.
 24. Formül alanında 'COUNT(format.Declaration.Data.Item)' girin.
     * COUNT(format.Declaration.Data.Item)  
@@ -129,24 +129,23 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 26. Sayfayı kapatın.
 27. Ağaçta 'Arşiv başlığı\Dosya adı'nı seçin.
 28. Ağaçta 'biçim\Bildirim: XML Element(Bildirim)\Veri: XML Öğe 1..* (Veri)\Dosya adı: Madde Dizesi (Dosya adı)'nı seçin.
-29. Bağla'ya tıklayın.
-30. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim4: XML Öğe 1..1 (Öğe)sayı: Dize(sayı)'yı seçin.
+29. Bağla'yı tıklatın.
+30. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)` öğesini seçin.
 31. Ağaçta 'Arşiv başlığı\Arşiv satırları\Öğe numarası'nı seçin.
-32. Bağla'ya tıklayın.
-33. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim3: XML Öğe 1..1 (Tutar)değre: Sayısal Gerçek(değer)'i seçin.
+32. Bağla'yı tıklatın.
+33. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)` öğesini seçin.
 34. Ağaçta 'Arşiv başlığı\Arşiv satırları\Tutar'ı seçin.
-35. Bağla'ya tıklayın.
-36. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Madde: XML Öğe 0..*(Madde)\Emtia rec id: Madde Int64(Emtia rec id)'i seçin.
-37. Ağaçta 'Arşiv başlığı\Arşiv satırları\Emtia rec id'i seçin.
-38. Bağla'ya tıklayın.
+35. Bağla'yı tıklatın.
+36. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)` öğesini seçin.
+37. Ağaçta "Archive header\Archive lines\Commodity rec ID" öğesini seçin.
+38. Bağla'yı tıklatın.
 39. Ağaçta 'Arşiv başlığı\Arşiv satırları'nı seçin.
-40. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.
-41. Bağla'ya tıklayın.
+40. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)` öğesini seçin.
+41. Bağla'yı tıklatın.
 42. Ağaçta, 'Arşiv başlığı' metnini seçin.
-43. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi seçin.
-44. Bağla'ya tıklayın.
-45. Kaydet'e tıklayın.
+43. Ağaçta, `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)` öğesini seçin.
+44. Bağla'yı tıklatın.
+45. Kaydet'i tıklatın.
 46. Sayfayı kapatın.
 47. Sayfayı kapatın.
 48. Sayfayı kapatın.
-

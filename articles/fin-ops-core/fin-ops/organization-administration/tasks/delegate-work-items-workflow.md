@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
-ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
+ms.openlocfilehash: b4b9abff57386fda61e3a83b0b8f18e533c8758c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "3541097"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694653"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 

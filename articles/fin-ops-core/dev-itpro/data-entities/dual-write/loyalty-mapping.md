@@ -1,6 +1,6 @@
 ---
 title: Müşteri bağlılık programı kartları ve ödül puanları
-description: Bu konu, müşteri bağlılık programı kartları ve Finance and Operations uygulamaları ile Common Data Service arasındaki ödül puanlarıyla ilgili verilerin tümleştirilmesini açıklar.
+description: Bu konuda, müşteri bağlılık programı kartları ve çift yazmadaki ödül puanlarıyla ilgili verilerin tümleştirilmesi açıklanmaktadır.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/10/2019
@@ -18,20 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 24ce08bb6cba9c74075151bafe0b07509fbdf73d
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998026"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683510"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Müşteri bağlılık programı kartları ve ödül puanları
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-İşletmeler, müşteri alışverişi ve harcama alışkanlıkları temel alınarak müşterileri sınıflandırmakta ve karmaşık servisler sağlıyor. Microsoft Dynamics 365 uygulama paketinde, Dynamics 365 Commerce müşteri bağlılık programı kartlarını, ödüllendirmeyi, bağlılık programı tabanlı fiyatlandırmayı ve ödül tabanlı alışveriş deneyimlerini kolaylaştırmak ve işlemek için gerekli altyapıyı ve işlevleri vardır. Commerce'teki müşteri bağlılık programı kartları ve ödül puanları Common Data Service'e eşitlendiğinde Dynamics 365'teki modele dayalı uygulamalar bu verileri kullanabilir. Örneğin, Dynamics 365 Customer Service kullanıcıları, verileri yardım masasıyla aynı Gelişmiş hizmetleri sağlamak için kullanabilir.
+İşletmeler, müşteri alışverişi ve harcama alışkanlıkları temel alınarak müşterileri sınıflandırmakta ve karmaşık servisler sağlıyor. Örneğin Dynamics 365 Commerce, müşteri bağlılık programı kartlarını, ödüllendirme puanlarını, bağlılık programı tabanlı fiyatlandırmayı ve ödül tabanlı alışveriş deneyimlerini kolaylaştırmak ve işlemek için gerekli altyapıya ve işlevlere sahiptir. Commerce'teki müşteri bağlılık programı kartları ve ödül puanları Dataverse'e eşitlendiğinde, müşteri etkileşimi uygulamaları bu verileri kullanabilir. Örneğin, Dynamics 365 Customer Service kullanıcıları, verileri yardım masasıyla aynı Gelişmiş hizmetleri sağlamak için kullanabilir.
 
 ## <a name="templates"></a>Şablonlar
 

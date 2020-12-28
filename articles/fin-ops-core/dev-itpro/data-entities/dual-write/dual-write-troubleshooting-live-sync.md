@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 82bdcc71196c22689cc65601f98187aaa9e5e9d6
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997314"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685576"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Canlı eşitleme sorunlarını giderme
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
+
+Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
-## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında kayıt oluşturduğunuzda, canlı eşitleme 403 Yasak bir hata oluşturur
+## <a name="live-synchronization-throws-a-403-forbidden-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında satır oluşturduğunuzda, canlı eşitleme 403 Yasak hatası oluşturur
 
-Finance and Operations uygulamasında bir kayıt oluşturduğunuzda aşağıdaki hata iletisini alabilirsiniz:
+Finance and Operations uygulamasında bir satır oluşturduğunuzda aşağıdaki hata iletisini alabilirsiniz:
 
 *\[{\\"hata\\":{\\"kod\\":\\"0x80072560\\",\\"mesaj\\":\\"Kullanıcı kurumun bir üyesi değil.\\"}}\], Uzak sunucu hata gönderdi: (403) Yasak."}}".*
 
-Bu sorunu gidermek için, [sistem gereksinimleri ve önkoşulları](requirements-and-prerequisites.md) adımlarını izleyin. Bu adımları tamamlamak için, Common Data Service'de oluşturulan ikili yazma uygulaması kullanıcılarının sistem yöneticisi rolüne sahip olması gerekir. Varsayılan sahip olan takımın sistem yöneticisi rolü de olmalıdır.
+Bu sorunu gidermek için, [sistem gereksinimleri ve önkoşulları](requirements-and-prerequisites.md) adımlarını izleyin. Bu adımları tamamlamak için, Dataverse'de oluşturulan ikili yazma uygulaması kullanıcılarının sistem yöneticisi rolüne sahip olması gerekir. Varsayılan sahip olan takımın sistem yöneticisi rolü de olmalıdır.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-record-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında kayıt oluşturduğunuzda, her varlık için canlı eşitleme benzer bir hata gönderir
+## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında satır oluşturduğunuzda, her varlık için canlı eşitleme benzer bir hata oluşturur
 
 **Sorunu düzeltmek için gerekli rol:** Sistem Yöneticisi
 
@@ -52,12 +54,12 @@ Bir Finance and Operations uygulamadaki varlık verilerini her kaydetmeye çalı
 
 *Değişiklikler veritabanına kaydedilemiyor. İş birimi, hareketi kaydedemiyor. Veriler varlık uyglarına yazılamıyor. UnitOfMeasureEntity yazma işlemi hata iletisiyle başarısız oldu varlık uoms ile eşitlenemiyor.*
 
-Bu sorunu gidermek için, önkoşul başvuru verilerinin her iki Finance and Operations uygulamada ve Common Data Service'te bulunduğundan emin olmanız gerekir. Örneğin, Finance and Operations uygulamanızda olduğunuz müşteri belirli bir müşteri grubuna aitse, müşteri grubunun Common Data Service'te bulunduğundan emin olun .
+Bu sorunu gidermek için, önkoşul başvuru verilerinin her iki Finance and Operations uygulamada ve Dataverse'te bulunduğundan emin olmanız gerekir. Örneğin, Finance and Operations uygulamanızda olduğunuz müşteri belirli bir müşteri grubuna aitse, müşteri grubunun Dataverse'te bulunduğundan emin olun .
 
 Her iki tarafta da veri varsa ve sorunun veriyle ilgili olmadığını doğrulamamışsanız, aşağıdaki adımları izleyin.
 
 1. İlgili varlığı durdurun.
-2. Finance and Operations uygulamada oturum açın ve başarısız olan varlığın kayıtlarının DualWriteProjectConfiguration ve DualWriteProjectFieldConfiguration tablolarında var olduğundan emin olun. Örneğin, **müşteriler** varlığı başarısız olduğunda sorgu şöyle görünür.
+2. Finance and Operations uygulamasında oturum açın ve başarısız olan varlığa ait satırların DualWriteProjectConfiguration ve DualWriteProjectFieldConfiguration tablolarında mevcut olduğundan emin olun. Örneğin, **müşteriler** varlığı başarısız olduğunda sorgu şöyle görünür.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -66,8 +68,8 @@ Her iki tarafta da veri varsa ve sorunun veriyle ilgili olmadığını doğrulam
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Varlık eşlemesini durdurduktan sonra bile başarısız olan varlık için kayıt varsa, başarısız olan varlıkla ilişkili kayıtları silin. DualWriteProjectConfiguration tablosundaki **ProjeAdı** sütununu not edin ve kaydı silmek için proje adını kullanarak kaydı DualWriteProjectFieldConfiguration tablosunda getirin.
-4. Varlık eşlemesini Başlat. Verilerin herhangi bir sorun olmadan eşitlenip eşitlenmediğini doğrulayın.
+3. Tablo eşlemesini durdurduktan sonra bile başarısız olan varlıkla ilgili satırlar varsa başarısız olan varlıkla ilişkili satırları silin. DualWriteProjectConfiguration tablosundaki **projectname** sütununu not edin ve satırı silmek için proje adını kullanarak DualWriteProjectFieldConfiguration tablosundaki kaydı getirin.
+4. Tablo eşlemesini başlatın. Verilerin herhangi bir sorun olmadan eşitlenip eşitlenmediğini doğrulayın.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamada veri oluşturduğunuzda okuma veya yazma ayrıcalık hatalarını işleme
 
@@ -85,29 +87,29 @@ Sorunu gidermek için, eksik ayrıcalığını etkinleştirmek amacıyla eşlene
 
     ![Eşlenen departmanın ekibi](media/setting_security_page.png)
 
-3. Düzenleme için takıma ait sayfayı açın ve sonra **takım rollerini Yönet** iletişim kutusunu açmak için **rolleri Yönet** 'i seçin.
+3. Düzenleme için takıma ait sayfayı açın ve sonra **takım rollerini Yönet** iletişim kutusunu açmak için **rolleri Yönet**'i seçin.
 
     ![Rolleri Yönet düğmesi](media/manage_team_roles.png)
 
-4. İlgili varlıklar için okuma/yazma ayrıcalığına sahip rolü atayın ve **Tamam** 'ı seçin.
+4. İlgili tablolar için okuma/yazma ayrıcalığına sahip rolü atayın ve **Tamam**'ı seçin.
 
-## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-common-data-service-environment"></a>En son değiştirilen Common Data Service ortamı olan ortamlarda eşitleme sorunlarını giderme
+## <a name="fix-synchronization-issues-in-an-environment-that-has-a-recently-changed-dataverse-environment"></a>En son değiştirilen Dataverse ortamı olan ortamlarda eşitleme sorunlarını giderme
 
 **Sorunu düzeltmek için gerekli rol:** Sistem Yöneticisi
 
 Finance and Operations uygulamasında bir veri oluşturduğunuzda aşağıdaki hata iletisini alabilirsiniz:
 
-*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":" **CustCustomerV3Entity varlığı için yük oluşturulamıyor** ","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Geçersiz URI hatasıyla yük oluşturma başarısız oldu: URI boş."}\],"isErrorCountUpdated":true}*
+*{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**CustCustomerV3Entity varlığı için yük oluşturulamıyor**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Geçersiz URI hatasıyla yük oluşturma başarısız oldu: URI boş."}\],"isErrorCountUpdated":true}*
 
 Burada, Dynamics 365'deki model kullanımlı uygulamasında hatanın nasıl göründüğü açıklanmaktadır:
 
 *ISV kodundan beklenmeyen bir hata oluştu. (ErrorType = ClientError) Eklentiden beklenmeyen özel durum (Yürüt):  Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: varlık hesabı işlenemedi - (Bağlanılan taraf bir süre içinde doğru şekilde yanıt vermediğinden bir bağlantı girişimi başarısız oldu veya bağlanılan ana bilgisayar yanıt vermediğinden bağlantı kurulamadı*
 
-Bu hata, Finance and Operations uygulamada veri oluşturmaya çalıştığınız sırada Common Data Service ortam yanlış sıfırlandığında oluşur.
+Bu hata, Finance and Operations uygulamada veri oluşturmaya çalıştığınız sırada Dataverse ortam yanlış sıfırlandığında oluşur.
 
 Sorunu düzeltmek için şu adımları izleyin.
 
-1. Finance and Operations sanal makinede (VM) oturum açın, SQL Server Management Studio'yu açın ( SSMS) ve DUALWRITEPROJECTCONFIGURATIONENTITY tablosundaki **internalentityname** , **Müşteriler V3** ve **externalentityname** **hesaplara** eşit olup olmadığına bakın. Sorgu şöyle görünür.
+1. Finance and Operations sanal makinesinde (VM) oturum açın, SQL Server Management Studio'yu (SSMS) açın ve DUALWRITEPROJECTCONFIGURATIONENTITY tablosunda, **internalentityname** öğesinin **Customers V3**'e, **externalentityname** öğesinin **accounts** öğesine eşit olduğu satırları arayın. Sorgu şöyle görünür.
 
     ```sql
     select projectname, externalenvironmentURL ,\* 
@@ -123,5 +125,5 @@ Sorunu düzeltmek için şu adımları izleyin.
     where projectname = <project name from previous query>
     ```
 
-3. **Externalenvironmenturl** sütununda doğru Common Data Service veya uygulama URL 'sinin bulunduğundan emin olun. Yanlış Common Data Service URL 'yi işaret eden tüm yinelenen kayıtları silin. Karşılık gelen DUALWRITEPROJECTFIELDCONFIGURATION ve DUALWRITEPROJECTCONFIGURATION tablolarını silin.
-4. Varlık eşlemesini durdurun ve yeniden başlatın
+3. **Externalenvironmenturl** sütununda doğru Dataverse veya uygulama URL 'sinin bulunduğundan emin olun. Yanlış Dataverse URL'sini işaret eden tüm yinelenen satırları silin. DUALWRITEPROJECTFIELDCONFIGURATION ve DUALWRITEPROJECTCONFIGURATION tablolarındaki ilgili satırları silin.
+4. Tablo eşlemesini durdurun ve yeniden başlatın

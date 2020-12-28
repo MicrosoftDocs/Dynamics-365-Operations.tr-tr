@@ -1,9 +1,9 @@
 ---
 title: E-posta ER hedef türü
-description: Bu konu, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için bir e-posta hedefinin nasıl yapılandırılacağı hakkında bilgi sağlamaktadır.
+description: Bu konuda, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için bir e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,64 +11,134 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72f67ad915ba2acc90ecb52bdb97e42504450a03
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745573"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690138"
 ---
-# <a name="email-destination"></a>E-posta hedefi
+# <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
 [!include [banner](../includes/banner.md)]
 
-Giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için bir e-posta hedefi yapılandırabilirsiniz. Hedef ayarına bağlı olarak, oluşturulan bir belge elektronik posta eki olarak teslim edilir.
+Elektronik raporlama (ER) biçimi çalıştırıldığında, bir veya daha fazla giden belge oluşturulabilir. **Klasör** veya **Dosya** biçimi bileşenleri, giden belgelerin yapısını belirtmek amacıyla ER biçimlerinde kullanılır. Giden belgeleri e-posta eki olarak göndermek üzere bu bileşen türleri için bir e-posta hedefi yapılandırabilirsiniz.
 
-E-posta ile bir çıkış dosyası göndermek için **Etkin** değerini **Evet** olarak ayarlayın. Bu seçenek etkinleştirildikten sonra e-posta konusunu ve metnini düzenleyebilir ve e-posta alıcılarını belirtebilirsiniz. E-posta metni ve konusu için sabit metinler ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak dinamik e-posta metinleri oluşturabilirsiniz. 
+Bir ER biçiminin her **Klasör** veya **Dosya** bileşeni için bir e-posta hedefi yapılandırabilirsiniz. Bu durumda, **her giden belge ayrı bir e-postayla gönderilir**. Bu hedef ayarına bağlı olarak, oluşturulan bir belge e-posta eki olarak teslim edilir. 
 
-E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, aynen Yazdırma yönetimi özelliğinin tamamladığı şekilde tamamlanabilir veya bir formülle bir e-posta yapılandırmasına doğrudan başvuru kullanarak bir e-posta adresini çözümleyebilirsiniz.
+> [!NOTE]
+> İlgili **Dosya** bileşeni için **Etkin** ifadesi **False** Boole değeri döndürecek şekilde yapılandırıldığından belge üretilmezse, bileşen için e-posta hedefi yapılandırılmış ve etkinleştirilmiş olsa bile, e-posta gönderilmez.
 
-[![E-posta hedefini etkinleştirme](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+Ayrıca, birden fazla **Klasör** veya **Dosya** bileşenini bir arada [gruplandırabilir](#grouping) ve ardından gruptaki tüm bileşenler için bir e-posta hedefi yapılandırabilirsiniz. Bu durumda, gruba ait bileşenler tarafından oluşturulan tüm giden belgeler **tek bir e-postanın birden çok eki olarak gönderilir**. Bu hedef ayarına bağlı olarak, oluşturulan her bir belge tek bir e-postanın eki olarak teslim edilir.
+
+> [!NOTE]
+> Bileşen grubundaki bir **Dosya** bileşeni tarafından en az bir belge oluşturulursa bir e-posta gönderilir. Her bir ilgili **Dosya** bileşeni için **Etkin** ifadesi **False** Boole değeri döndürecek şekilde yapılandırıldığından gruplandırılmış bileşenler belge üretmezse, bileşen grubu için e-posta hedefi yapılandırılmış ve etkinleştirilmiş olsa bile, e-posta gönderilmez.
+>
+> **E-posta**, bir bileşen grubu için yapılandırılabilecek tek hedeftir. Bir grubun e-posta hedefi ayarına bağlı olarak e-postayla gönderilmiş bir belgeyi teslim etmek için, bir hedef kaydı daha ekleyin, istediğiniz bileşeni seçin ve ardından bu kayıt için başka bir hedef yapılandırın.
+
+Tek bir ER biçimi yapılandırması için birden çok bileşen grubu yapılandırılabilir. Bu şekilde, her bileşen grubu için bir e-posta hedefi ve tüm bileşenler için bir e-posta hedefi yapılandırabilirsiniz.
+
+## <a name="configure-an-email-destination"></a>E-posta hedefi yapılandırma
+
+Bir veya birden fazla çıkış dosyasını e-postayla göndermek için **Elektronik raporlama hedefi** sayfasındaki **Dosya hedefi** hızlı sekmesinde ızgaradan bir bileşen veya bileşen grubu seçin ve ardından **Ayarlar**'ı seçin. Gösterilen **Hedef ayarları** iletişim kutusundaki **E-posta** sekmesinde **Etkin** seçeneğini **Evet** olarak ayarlayın. Ardından e-posta alıcılarını belirtebilir ve e-posta iletisinin konusunu ve metnini düzenleyebilirsiniz. E-posta metni ve konusu için sabit bir metin ayarlayabilir veya ER [formüllerini](er-formula-language.md) kullanarak dinamik e-posta metinleri oluşturabilirsiniz.
+
+E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, aynen Yazdırma Yönetimi özelliğinin tamamladığı şekilde tamamlanabilir veya bir formülle bir e-posta yapılandırmasına doğrudan başvuru kullanarak bir e-posta adresini çözümleyebilirsiniz.
+
+[![E-posta hedefi için Etkin seçeneğini Evet olarak ayarlama](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>E-posta adresi türleri
 
-**Giden** veya **Bilgi** alanlarında **Düzenle**'yi seçtiğiniz zaman **E-posta at** iletişim kutusu görüntülenir. Daha sonra kullanılacak e-posta adresi türünü seçebilirsiniz. Şu anda **Yapılandırma e-postası** ve **Yazdırma Yönetimi** e-posta türleri destekleniyor.
+**Hedef ayarları** iletişim kutusundaki **Kime** veya **Bilgi** alanının yanındaki **Düzenle**'yi seçerseniz **E-posta gönderilecek adres** iletişim kutusu gösterilir. **Ekle**'yi seçin ve ardından kullanılacak e-posta adresinin türünü seçin. Şu anda **Yazdırma Yönetimi e-postası** ve **Yapılandırma e-postası** olmak üzere iki tür e-posta desteklenmektedir.
 
-[![E-posta türü seçme](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![E-posta adresinin türünü seçme](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
-### <a name="print-management"></a>Yazdırma yönetimi
+### <a name="print-management-email"></a>Yazdırma Yönetimi e-postası
 
-**Yazdırma Yönetimi** e-posta türünü seçerseniz, **Giden** alanına sabit bir e-posta adresi girebilirsiniz. 
+E-posta adresi türü olarak **Yazdırma Yönetimi e-postası**'nı seçerseniz aşağıdaki alanları ayarlayarak **E-posta gönderilecek kişi** iletişim kutusuna sabit e-posta adresleri girebilirsiniz:
 
-[![Sabit e-posta adreslerini yapılandırma](./media/ER_Destinations-EmailFixedAddress.png)](./media/ER_Destinations-EmailFixedAddress.png)
+- **E-posta kaynağı** alanında **Hiçbiri** seçeneğini belirleyin.
+- **";" ile ayrılan ek e-posta adresleri** alanına sabit e-posta adreslerini girin.
 
-Sabit olmayan e-posta adreslerini kullanmak amacıyla bir dosya hedefi için e-posta kaynak türünü seçmelisiniz. Aşağıdaki değerler desteklenir: **Müşteri**, **Satıcı**, **Müşteri Adayı**, **İlgili kişi**, **Rakip**, **Çalışan**, **Başvuran**, **Satıcı adayı** ve **Onaylanmamış satıcı**. Bir e-posta kaynak türü seçtikten sonra **Formül tasarımcısı** formunu açmak için **E-posta kaynak hesabı** alanının yanındaki düğmeyi kullanın. Bu formu çalışma zamanında dönen bir formülü, seçilen kaynak türünün **taraf hesabını** işlenmiş belgeden e-posta hedefine iliştirmek için kullanabilirsiniz.
+![Sabit e-posta adresini yapılandırma](./media/er_destinations-emailfixedaddress.png)
 
-[![E-posta kaynağı hesabını yapılandırma](./media/ER_Destinations-EmailDefineAddressSource.png)](./media/ER_Destinations-EmailDefineAddressSource.png)
+Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntılarının içinden de e-posta adresleri edinebilirsiniz. Sabit olmayan e-posta adreslerini kullanmak için **E-posta kaynağı** alanında dosya hedefi için tarafın [rolünü](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) seçin. Aşağıdaki roller desteklenir:
 
-Formüller ER yapılandırmasına özgüdür. **Formül** alanında bir müşteri veya satıcı tarafı türü için belgeye özgü bir referans girin. Yazmak yerine, müşteri veya satıcı hesabını temsil eden bir veri kaynağı düğümünü bulabilir ve sonra formülü güncelleştirmek için **Veri kaynağı ekle**'yi seçebilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız bir satıcı hesabını temsil eden düğüm `'\$PaymentsForCoveringLetter'.Creditor.Identification.SourceID` olur.
+- Müşteri
+- Satıcı
+- Aday müşteri
+- Başvur
+- Rakip
+- Çalışan
+- Başvuran
+- Olası satıcı
+- Onaylanmamış satıcı
 
-`"DE-001"` gibi bir dize değeri girer ve bir formül kaydederseniz, satıcının ilgili kişisine ( **DE-001**) bir e-posta gönderilir.
+Örneğin, satıcı ödemelerini işlemek amacıyla kullanılan bir ER biçimi için e-posta hedefi yapılandırırken **Satıcı** rolünü seçin.
 
+İstenen rolü seçtikten sonra, [Formül tasarımcısı](general-electronic-reporting-formula-designer.md) sayfasını açmak için **E-posta kaynak hesabı** alanının yanındaki **Bağla** düğmesini (zincir simgesi) seçin. Ardından, işlenen belgeden e-posta hedefine yapılandırılan role atanan tarafın hesap numarasını çalışma zamanında döndüren formülü yapılandırmak için bu sayfayı kullanabilirsiniz.
 
-[![ER formül tasarımcısı sayfası](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)](./media/ER_Destinations-EmailDefineAddressSourceFormula.png)
+> [!NOTE]
+> Formüller ER yapılandırmasına özgüdür.
 
-[![E-posta kaynağı öznitelik hesabını yapılandırma](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)](./media/ER_Destinations-EmailDefineAddressSourceAttributes.png)
+**Formül tasarımcısı** sayfasında, **Formül** alanına, desteklenen bir role belgeye özel bir referans girin. Referansı yazmak yerine, **Veri kaynağı** bölmesinde, yapılandırılan rolün hesabını temsil eden veri kaynağı düğümünü seçin ve ardından formülü güncelleştirmek için **Veri kaynağı ekle**'yi seçin. Örneğin, satıcı ödemelerini işlemek için kullanılan **ISO 20022 Borç Transferi** yapılandırması ile ilgili e-posta hedefini yapılandırıyorsanız satıcı hesabını temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID` öğesidir.
 
+![Bir e-posta kaynağı hesabını yapılandırma](./media/er_destinations-emaildefineaddresssource.gif)
 
+Yapılandırılan rolün hesap numaraları Microsoft Dynamics 365 Finance'in tüm kurulumu için benzersiz ise **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanı boş kalabilir.
+
+![Boş E-posta kaynağının şirketi alanı](./media/er_destinations-emaildefineaddresssourceformula.png)
+
+Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/overview-global-address-book.md)'ndeki farklı tarafların yapılandırılan rolü doldurmak için hepsinin aynı hesap numarasını kullanacağı şekilde farklı şirketlerde ([tüzel kişilikler](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) kaydedildiği bir durumla karşılaşabilirsiniz. Bu durumda, yapılandırılan rolün hesap numaraları tüm Finance kurulumu için benzersiz değildir. Bu nedenle, bir tarafı açıkça seçmek için yalnızca hesap numarası belirtmeniz yeterli değildir. Ayrıca yapılandırılan rolü doldurmak için tarafın kaydedilği şirketi de belirtmeniz gerekir. [Formül tasarımcısı](general-electronic-reporting-formula-designer.md) sayfasını açmak için **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanının yanındaki **Bağla** düğmesini (zincir simgesi) seçin. Ardından, kapsamında istenen kaynağın bulunması gereken şirket kodunu çalışma zamanında döndüren formülü yapılandırmak için bu sayfayı kullanabilirsiniz.
+
+> [!TIP]
+> Bir ER biçimini çalıştırmak için şirket kodunu kullanmanız gerekiyorsa ancak ER biçimi şirket kodunun elde edilebileceği herhangi bir veri kaynağı sağlamıyorsa, yerleşik [GETCURRENTCOMPANY](er-functions-other-getcurrentcompany.md) ER işlevini kullanarak `GetCurrentCompany()` formülünü yapılandırın.
+
+> [!NOTE]
+> Formüller ER yapılandırmasına özgüdür.
+
+Çalışma zamanında kullanılması gereken e-posta adreslerinin türünü belirtmek için **E-posta gönderilecek adres** iletişim kutusunda **Kime** alanının yanındaki **Düzenle**'yi seçerek **E-posta adresi atayın** açılan iletişim kutusunu açın. Ardından aşağıdaki alanları ayarlayın:
+
+- **Amaç** alanında istediğiniz amaçları seçin. Yalnızca bulunan tarafa ait ilgili kişilerin seçili amaçlarının e-posta adresleri kullanılır.
+- Bulunan taraf için yapılandırılan e-posta adresini birincil e-posta adresi olarak kullanmak için **Birincil ilgili kişi** seçeneğini **Evet** olarak ayarlayın.
+
+> [!NOTE]
+> **Amaç** alanında amaçlar seçildiyse ve aynı zamanda **Birincil ilgili kişi** seçeneği **Evet** olarak ayarlandıysa, yapılandırılan ölçütlerden en az birini karşılayan her e-posta çalışma zamanında kullanılır.
+
+![E-posta kaynağı öznitelikleri hesabını yapılandırma](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Konfigürasyon e-postası
 
-Kullandığınız yapılandırma, veri kaynaklarında bir **e-posta adresini** döndüren bir düğüme sahipse bu e-posta türünü kullanın. Formül tasarımcısında veri kaynaklarını ve fonksiyonları, doğru şekilde biçimlendirilmiş bir e-posta adresi elde etmek için kullanabilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız bir satıcının ilgili kişi e-posta adresini temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` olur.
+Kullandığınız yapılandırmanın veri kaynaklarında tek bir e-posta adresi veya noktalı virgüllerle (;) ayrılan birden fazla e-posta adresi döndüren bir düğüm varsa e-posta adresi türü olarak **Yapılandırma e-postası**'nı seçin. Doğru biçimlendirilmiş bir e-posta adresi veya noktalı virgüllerle ayrılan doğru biçimlendirilmiş e-posta adresleri almak için formül tasarımcısında [veri kaynaklarını](general-electronic-reporting.md#FormatComponentOutbound) ve [işlevleri](er-formula-language.md#functions) kullanabilirsiniz. Örneğin, **ISO 20022 Borç Transferi** yapılandırmasını kullanıyorsanız, kapak yazısının gönderilmesi gereken satıcı ilgili kişisi ayrıntılarından alınan satıcı birincil e-posta adresini temsil eden düğüm `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` düğümüdür.
 
-[![E-posta adresi kaynağını yapılandırma](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Bir e-posta adresi kaynağını yapılandırma](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+
+## <a name="group-format-components"></a><a id="grouping"></a>Biçim bileşenlerini gruplandırma
+
+Biçim bileşenlerini gruplandırmak için **Elektronik raporlama hedefi** sayfasında **Dosya hedefi** hızlı sekmesinde ızgaradaki bileşenleri seçin ve ardından **Gruplandır**'ı seçin.
+
+**E-posta**, seçili bileşenler için hala kullanılabilir olan önceden yapılandırılmış tek hedeftir. Önceden yapılandırılmış hedefler bileşen grubu için desteklenmediğinden önceden yapılandırılmış başka bir hedef kullanılamaz. Uygun durumlarda, bu değişiklikler size bildirilir.
+
+Daha önce eklediğiniz kayıt, oluşturulan grubun üst bilgisi olarak kabul edilir. Bu üst bilgi kaydında grubun e-posta hedefi ayarları bulunur. Diğer kayıtlar, grubun üst bilgi kaydındaki e-posta hedefi ayarlarını kullanacak olan grup üyeleridir.
+
+Biçim bileşenleri grubunu çözmek için **Dosya hedefi** hızlı sekmesinde gruba ait bir kaydı seçin ve ardından **Grubu Çöz**'ü seçin.
+
+- Bir üst bilgi kaydı seçerseniz grubun tamamı çözülür.
+- Bir üye kaydı seçerseniz ve bu kayıt gruptaki son üye kaydıysa grubun tamamı çözülmez.
+- Bir gruptaki en son üye kaydı olmayan bir üye kaydını seçerseniz söz konusu kayıt geçerli gruptan dışlanır.
+
+Aşağıdaki çizimde, PDF biçiminde tahsilat mektubunu ve uygun müşteri faturalarını içeren sıkıştırılmış bir giden dosya üretmek üzere yapılandırılmış bir ER biçiminin yapısı gösterilmektedir.
+
+[![Giden belgeler oluşturan bir ER biçiminin yapısı](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+
+Aşağıdaki çizimde, bu konu başlığında anlatılan şekilde ayrı bileşenleri gruplandırma ve yeni grup için **E-posta** hedefinin etkinleştirilmesi gösterilmektedir. Böylece uygun müşteri faturaları ile birlikte tahsilat mektubunun e-posta ekleri olarak gönderilir.
+
+[![Ayrı bileşenleri gruplandırma ve E-posta hedefini etkinleştirme](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

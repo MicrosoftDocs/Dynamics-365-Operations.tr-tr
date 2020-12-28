@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 5f74397bcdd59a1fe24f5b6046081cbd2bed461b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112348"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693557"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Özel alanlar oluşturma ve bunlarla çalışma
 
@@ -120,7 +119,7 @@ Bir veri varlığında özel alanın görünür olmasını sağlamak için aşa�
 Aşağıdaki adımlar özel alanlaron diğer dillere çevrilmesi işlemini açıklar:
 
 1. **Özel alanlar** sayfasında özel alanı seçin.
-2. Eylem Bölmesinde **Çeviriler**düğmesini seçin. Bu alan için mevcut çevirileri içeren bir açılır menü açılır.
+2. Eylem Bölmesinde **Çeviriler** düğmesini seçin. Bu alan için mevcut çevirileri içeren bir açılır menü açılır.
 3. **Dil** açılır menüsü çevirisi zaten sağlanmış olan dilleri gösterir.
 
     Mevcut bir çeviriyi düzenlemek isterseniz, menüden istediğiniz dili seçip etiket ve yardım metni değerlerini değiştirin.
