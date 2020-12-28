@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 445a2872dcd0e4d3aca9a50c7539fdabb0ed7818
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005598"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683444"
 ---
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
@@ -52,7 +51,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Bir Finance and Operations uygulaması</li>
+<ul><li>Bir Finance and Operations uygulamayı</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>

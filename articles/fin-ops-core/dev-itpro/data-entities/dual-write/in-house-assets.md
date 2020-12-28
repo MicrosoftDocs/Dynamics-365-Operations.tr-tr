@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 0e87a3d645c19fab3bb0560ba5114d193e2d0be7
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997182"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684017"
 ---
 # <a name="in-house-assets-for-servicing"></a>Servis sağlanacak şirket içi varlıklar
 
@@ -37,7 +37,7 @@ Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Managem
 
 ## <a name="templates"></a>Şablonlar
 
-Şirket içi varlıklar, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir temel varlık eşlemeleri topluluğu içerir.
+Şirket içi kıymetler, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir temel tablo eşlemeleri koleksiyonunu içerir.
 
 | Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
 |-----------------------------|-----------------------------------|-------------|

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771456"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681460"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Elektronik raporlama ile testi otomatikleştirme
 
@@ -60,7 +59,7 @@ Bir yapılandırma sağlayıcısından aldığınız biçime göre bir biçimin 
 Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları tamamlamanız gerekir:
 
 - Test otomasyonunu destekleyen bir topoloji dağıtın. **Sistem Yöneticisi** rolü Için bu topolojinin örneğine erişiminizin olması gerekir. Bu topoloji, bu örnekte kullanılacak demo verilerini içermelidir. Daha fazla bilgi için bkz. [Sürekli oluşturma ve test otomasyonunu destekleyen bir ortam dağıtma ve kullanma](../perf-test/continuous-build-test-automation.md).
-- Kullanıcı kabul ve tümleştirme testlerini otomatik olarak çalıştırmak için RSAT'ı kullandığınız topolojiye yüklemeli ve uygun şekilde yapılandırmalısınız. RSAT'yi nasıl yükleyip yapılandırcağınız ve Finance and Operations uygulamaları ve Azure DevOps ile çalıştırmak için nasıl yapılandıracağınız hakkında daha fazla bilgi için bkz. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Aracı kullanma ile ilgili ön koşullara dikkat edin. Aşağıdaki çizim, RSAT ayarları örneğini gösterir. Mavi dikdörtgen, Azure DevOps'a erişimi belirleyen parametreleri barındırır. Yeşil dikdörtgen, örneğe erişimi belirten parametreleri barındırır.
+- Kullanıcı kabul ve tümleştirme testlerini otomatik olarak çalıştırmak için RSAT'ı kullandığınız topolojiye yüklemeli ve uygun şekilde yapılandırmalısınız. RSAT'ı yükleme ve Finance and Operations uygulamaları ve Azure DevOps ile birlikte çalışacak şekilde yapılandırma hakkında daha fazla bilgi için bkz. [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Aracı kullanma ile ilgili ön koşullara dikkat edin. Aşağıdaki çizim, RSAT ayarları örneğini gösterir. Mavi dikdörtgen, Azure DevOps'a erişimi belirleyen parametreleri barındırır. Yeşil dikdörtgen, örneğe erişimi belirten parametreleri barındırır.
 
     ![RSAT ayarları](media/GER-Configure.png "RSAT Ayarları iletişim kutusunun ekran görüntüsü")
 
@@ -83,7 +82,7 @@ Bu konudaki görevleri tamamlayabilmek için önce aşağıdaki ön koşulları 
 
     ![Elektronik raporlama yapılandırmaları](media/GER-Configurations.png "Elektronik raporlamada Yapılandırmalar sayfasının ekran görüntüsü")
 
-3. **GBSI** İngiltere'de ülke/bölge bağlamı bulunan demo veri şirketini seçin.
+3. **GBSI** Büyük Britanya'da ülke/bölge bağlamı bulunan demo veri şirketini seçin.
 4. Borç hesapları parametrelerini yapılandırın:
 
     1. **Borç hesapları \> Ödeme kurulumu \> Ödeme yöntemleri**'ne gidin.

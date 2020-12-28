@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc28e9a2170929c6cd8daafd7eae54713cec36ff
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d1d4c8c1d81faa60193d2339fd6541e752c2e2f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143212"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684151"
 ---
 # <a name="rcs-import-files-in-xml-format-with-optional-attributes"></a>(RCS) Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
 
@@ -102,7 +101,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
  
 ## <a name="run-format-mapping"></a>Biçim eşlemeyi çalıştırın
 1. **Çalıştır**'a tıklayın.
-2. **Gözat**düğmesine tıklayın ve **ıncomingdocumenttolearnhowtohandleoptionalattributes. xml**'i seçin.
+2. **Gözat** düğmesine tıklayın ve **ıncomingdocumenttolearnhowtohandleoptionalattributes. xml**'i seçin.
 3. **Tamam**'a tıklayın.
 
 > [!NOTE]

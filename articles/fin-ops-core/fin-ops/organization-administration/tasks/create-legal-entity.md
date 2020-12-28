@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cab889d89b239c746c98108a22746774203e4169
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140617"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694849"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 

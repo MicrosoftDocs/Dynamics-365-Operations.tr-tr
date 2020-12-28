@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138935"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680722"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>ER biçimindeki XML öğelerinin yürütülmesini erteleme
 
@@ -196,16 +195,16 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
     ![SUMIF ifadesi](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. **Formül tasarımcısı** sayfasını kapatın.
-11. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+11. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 12. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredXml-Run1.png)
 
-    Son kayıt düğümü, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Özet düğümü, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy**yerine çıktı tabanlı toplama kullanılabilir. İlk kayıt düğümü ve özet düğümü yürütme sürelerini karşılaştırarak, tüm kayıt düğümlerini oluşturma ve toplama işlemlerinin 11 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin kayıt düğümlerinin ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
+    Son kayıt düğümü, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Özet düğümü, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy** yerine çıktı tabanlı toplama kullanılabilir. İlk kayıt düğümü ve özet düğümü yürütme sürelerini karşılaştırarak, tüm kayıt düğümlerini oluşturma ve toplama işlemlerinin 11 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin kayıt düğümlerinin ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
 
 13. **Rapor\\İleti\\Özet\\TotalTaxAmount** özniteliğini ve ardından **Formülü düzenle**'yi seçin.
 14. Varolan ifadenin yerine `SUMIF(SummingAmountKey, WsColumn, WsRow)` ifadesini girin.
-15. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+15. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 16. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredXml-Run2.png)
@@ -218,7 +217,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 
 1. **Biçim tasarımcısı** sayfasındaki **Biçim** sekmesinde **Rapor\\İleti\\Özet** XML öğesini seçin.
 2. **Yukarı taşı**'yı seçin.
-3. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredXml-Run3.png)
@@ -232,7 +231,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 
     ![Biçim tasarımcısı sayfasındaki Özet XML öğesinin ertelenmiş yürütme seçeneği](./media/ER-DeferredXml-Format5.png)
 
-3. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredXml-Run4.png)

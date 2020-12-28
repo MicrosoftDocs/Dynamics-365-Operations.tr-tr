@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3a92970f2e3639090f51cf9e59ffcb148e210494
-ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
+ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4011645"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687242"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -37,26 +36,26 @@ Bir sütun tanımı iki ila 255 sütun içerebilir.
 
 ### <a name="create-a-column-definition"></a>Sütun tanımı oluşturma
 
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları** 'na tıklayın.
-2. **Dosya** menüsünde, **Yeni** 'ye ve ardından **Sütun Tanımı** 'na tıklayın.
+1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları**'na tıklayın.
+2. **Dosya** menüsünde, **Yeni**'ye ve ardından **Sütun Tanımı**'na tıklayın.
 3. Sütun tanımının içeriklerini ekleyin.
 
 ### <a name="open-a-column-definition"></a>Bir sütun tanımını açma
 
-1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları** 'na tıklayın.
+1. Rapor Tasarımcısı'ndaki gezinti bölmesinde **Sütun Tanımları**'na tıklayın.
 2. Açmak için bir sütun tanımına çift tıklayın.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Bir sütun tanımına sütun ekleme
 
-1. Rapor Tasarımcısı'nda, **Sütun Tanımları** 'na tıklayın ve ardından değiştirilecek sütun tanımını açın.
+1. Rapor Tasarımcısı'nda, **Sütun Tanımları**'na tıklayın ve ardından değiştirilecek sütun tanımını açın.
 2. Yeni sütun eklenmesi gereken sütunu seçin.
-3. **Düzenle** menüsünde, **Sütun Ekle** 'ye tıklayın. Yeni sütun, seçtiğiniz sütunun solunda görünür.
+3. **Düzenle** menüsünde, **Sütun Ekle**'ye tıklayın. Yeni sütun, seçtiğiniz sütunun solunda görünür.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Bir sütun tanımından sütun silme
 
-1. Rapor Tasarımcısı'nda, **Sütun Tanımları** 'na tıklayın ve ardından değiştirilecek sütun tanımını açın.
+1. Rapor Tasarımcısı'nda, **Sütun Tanımları**'na tıklayın ve ardından değiştirilecek sütun tanımını açın.
 2. Silinecek sütunu seçin.
-3. **Düzenle** menüsünde, **Sütunu Sil** 'e tıklayın.
+3. **Düzenle** menüsünde, **Sütunu Sil**'e tıklayın.
 
 ## <a name="contents-of-a-column-definition"></a>Bir sütun tanımının içerikleri
 Bir sütun tanımı aşağıdaki bilgileri içerir:
@@ -104,7 +103,7 @@ Bir sütun tanımının verileri nasıl kullandığını veya bilgileri nasıl h
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. Kısıtlamak için sütunun **Sütun Kısıtlamaları** hücresine çift tıklayın.
-3. **Sütun Kısıtlamaları** iletişim kutusundaki listeden bir veya daha fazla kod seçin ve ardından **Tamam** 'a tıklayın.
+3. **Sütun Kısıtlamaları** iletişim kutusundaki listeden bir veya daha fazla kod seçin ve ardından **Tamam**'a tıklayın.
 
 ### <a name="column-restriction-codes"></a>Sütun kısıtlaması kodları
 
@@ -112,7 +111,7 @@ Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.
 
 | Sütun kısıtlaması kodu | Açıklama |
 |-------------------------|-------------|
-| SU                      | Satır tanımında bir alt çizgi komutunun ( **---** ) veya bir çift alt çizgi komutun ( **===** ) girildiği bir sütun için alt çizgiyi baskılayın. Örneğin, bir yüzde hesaplaması tarafından üretilen tutarları alt çizgili görüntülemek istemeyebilirsiniz. |
+| SU                      | Satır tanımında bir alt çizgi komutunun (**---**) veya bir çift alt çizgi komutun (**===**) girildiği bir sütun için alt çizgiyi baskılayın. Örneğin, bir yüzde hesaplaması tarafından üretilen tutarları alt çizgili görüntülemek istemeyebilirsiniz. |
 | ST                      | Sütunda (örneğin bir istatistik sütunu) yalnızca ayrıntıların gösterilmesi için toplamları gizleyin. |
 | SD                      | Sütunda yalnızca **TOT** ve **CAL** satırlarının (satır tanımından) gösterilmesi için ayrıntıları gizleyin. |
 | DR                      | Bir **FD** sütunundaki tutarları borç tutarlarıyla kısıtlayın. |
@@ -127,7 +126,7 @@ Aşağıdaki tabloda sütun kısıtlaması kodları açıklanmaktadır.
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. Kısıtlamak için sütunun **Raporlama Birimi** hücresine çift tıklayın.
 3. **Raporlama Birimi Seçimi** iletişim kutusundaki **Raporlama ağacı** listesinden bir ağaç seçin.
-4. Birim listesini genişletin veya daraltın, bir raporlama birimi seçin ve ardından **Tamam** 'a tıklayın.
+4. Birim listesini genişletin veya daraltın, bir raporlama birimi seçin ve ardından **Tamam**'a tıklayın.
 
 ## <a name="format-column-headers"></a>Biçim sütunu başlıkları
 Bir rapordaki sütunların üst kısmında görünen başlıkları ekleyebilir, değiştirebilir ve silebilirsiniz. Ayrıca sütun tanımlarındaki **Dönem** alanın ve rapor tanımlarındaki **Esas Dönem** alanına göre koşullu yayılan sütun başlıkları da yapılandırabilirsiniz. Esas dönem özelliği toplanan tahmin raporları oluşturduğunuzda zaman kazanmanıza yardımcı olur.
@@ -138,7 +137,7 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 | Alan                 | Açıklama |
 |-----------------------|-------------|
-| Sütun başlığı metni    | Bu metin sütun başlığında görünür. Doğrudan bu alanın içine yazabilir ya da rapor her oluşturulduğunda sütun başlığını güncelleştiren bir seçenek seçmek için **Otomatik Metin Ekle** 'ye tıklayabilirsiniz. Birden fazla otomatik metin kodu eklemek için **Otomatik Metin Ekle** 'ye yeniden tıklayın ve ardından listedeki başka bir koda tıklayın. |
+| Sütun başlığı metni    | Bu metin sütun başlığında görünür. Doğrudan bu alanın içine yazabilir ya da rapor her oluşturulduğunda sütun başlığını güncelleştiren bir seçenek seçmek için **Otomatik Metin Ekle**'ye tıklayabilirsiniz. Birden fazla otomatik metin kodu eklemek için **Otomatik Metin Ekle**'ye yeniden tıklayın ve ardından listedeki başka bir koda tıklayın. |
 | Biçim seçenekleri        | Bir sütun başlığına kutu veya alt çizgi gibi biçimlendirme uygulayın. |
 | Yayılma başlangıcı Yayılma bitişi | Başlık metninin uygulandığı sütunu veya sütunları tanımlayın. |
 | Yaslama         | **Yayılma başlangıcı** ve **Yayılma bitişi** alanlarında belirtilen sütun veya sütun aralığı için sütun başlığı metninin nasıl hizalanması gerektiğini belirtin. |
@@ -147,17 +146,17 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. Bir başlık hücresine çift tıklayın.
-3. **Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin. Alternatif olarak **Otomatik Metin Ekle** 'ye tıklayın ve bir seçenek seçin.
+3. **Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin. Alternatif olarak **Otomatik Metin Ekle**'ye tıklayın ve bir seçenek seçin.
 4. **Biçim seçenekleri** alanında, başlık için bir biçim seçin.
 5. **Yayılma başlangıcı** alanına, sütun başlığının başlaması gereken sütunun harfini girin. **Yayılma bitişi** alanına ise sütun başlığının bitmesi gereken sütunun harfini girin.
-6. **Yaslama** 'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.
+6. **Yaslama**'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.
 7. **Tamam** düğmesini tıklatın.
 
 ### <a name="add-a-column-header-row"></a>Sütun başlığı satırı ekleme
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. Başlık satırında bir hücre seçin.
-3. **Düzenle** menüsünde, **Satır Ekle** 'ye tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir.
+3. **Düzenle** menüsünde, **Satır Ekle**'ye tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir.
 
 > [!NOTE]
 > Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir. Rapordaki tüm başlıkları görüntülemek için, rapor tanımındaki üst boşluğu artırın.
@@ -170,7 +169,7 @@ Bir rapordaki sütunların üst kısmında görünen başlıkları eklemek, değ
 
 ### <a name="create-an-automatically-generated-header"></a>Otomatik üretilen bir üstbilgi oluşturma
 
-Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **\@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ** ) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **\@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem \@FiscalPeriod-\@FiscalYear \@StartDate ila \@EndDate**. Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
+Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik metin kodları her rapor oluşturulduğunda güncelleştirilen değişkenlerdir. Her sütun başlığı tarihler ve dönem numaraları gibi değişebilen rapor bilgilerini belirtmek için bu kodları içerebilir. Bu nedenle, birden fazla rapor tanımı, süre ve raporlama ağacı için bir sütun tanımı kullanabilirsiniz. Otomatik metin kodları sütun tanımının ayrıntı satırlarındaki takvim bilgilerine dayandığından yalnızca **CALC** ve **FD** sütunları için desteklenir. Bir otomatik metin kodunun sütun başlığı hücresinde görünme şekli söz konusu bilgilerin raporda nasıl göründüğünü etkiler. **Sütun Başlığı** iletişim kutusunda, otomatik metin kodları büyük-küçük harf karışık olarak görünür. Bu nedenle, metin raporda da büyük-küçük harf karışık olarak görünür. Örneğin, standart bir takvim yılında, **\@CalMonthLong** ayı **7** ila **Temmuz** olarak çözümler. Adı büyük harfle olması gereken ayın (örneğin **TEMMUZ**) adında, otomatik metin kodunu **Sütun başlığı metni** alanına büyük harflerle girin. Örneğin, **\@CALMONTHLONG** girin. Kodları ve metni karıştırabilirsiniz. Örneğin, şu başlık metnini girebilirsiniz: **Dönem \@FiscalPeriod-\@FiscalYear \@StartDate ila \@EndDate**. Oluşturulan rapor başlığı şu metne benzer: **Dönem 1-02 01/01/02 ila 01/31/02**.
 
 > [!NOTE]
 > Uzun tarih vb. gibi bazı metin biçimleri sunucudaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun başlıkları için kullanılabilen otomatik metin seçenekleri gösterilmektedir.
@@ -195,24 +194,24 @@ Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun baş
 
 Koşullu kapsayıcı üst bilgiler belirli dönem verilerini esas alan birden fazla sütuna yayılabilir. Örneğin, mali yıl için bir bütçe raporunuz varsa ve gelecek ayların öngörülen bütçeleriyle birlikte geçmiş ayların gerçek bütçelerini görüntülemek istiyorsanız rapor başlığını otomatik olarak güncelleştirmek için bir koşullu kapsayıcı üst bilgi kullanabilirsiniz. Koşullu kapsayıcı üst bilgi oluşturduğunuzda aşağıdaki durumlara dikkat edin:
 
-- Bir başlangıç koşulundan ( **Yayılma başlangıcı** alanı) önce eşleşen herhangi bir koşul ( **Yayılma bitişi** alanı) yok sayılır. Örneğin, B sütunu BASE+1 ila BASE olarak tanımlanan yayılma koşuluna sahiptir, BASE C sütununda, BASE+1 ise D sütunundadır. Bu durumda, C sütunundaki durma koşulu yok sayılır ve başlığın yazdırılması D sütununda başlatılır.
+- Bir başlangıç koşulundan (**Yayılma başlangıcı** alanı) önce eşleşen herhangi bir koşul (**Yayılma bitişi** alanı) yok sayılır. Örneğin, B sütunu BASE+1 ila BASE olarak tanımlanan yayılma koşuluna sahiptir, BASE C sütununda, BASE+1 ise D sütunundadır. Bu durumda, C sütunundaki durma koşulu yok sayılır ve başlığın yazdırılması D sütununda başlatılır.
 - Çakışan sütun başlıkları belirtirseniz bu başlıklar raporda yazdırıldıklarında çakışır. Rapor oluşturulur ancak **Rapor Kuyruğu Durumu** alanında aşağıdaki uyarı görüntülenir: "Esas kullanılan sütun başlıkları diğer sütun başlıklarıyla kesişiyor ve çakışan metinlere neden olabilir." Örneğin, sütun B üzerindeki başlık tanımı B eşittir B'den TEMEL +1'edir ve sütun D üzerindeki başlık tanımı TEMEL+1'den F'yedir. Bu durumda, başlıklar birbirlerinin üstüne yazılır ve okunamaz durumda olurlar. BASE **Yayılma başlangıcı/Yayılma bitişi** tanımında her kullanıldığında, başlıkların çakışıp çakışmadığını görmek için mutlaka oluşturulan raporu görüntüleyin.
-- Yayılma tanımındaki BASE'i bir Yazdırma ( **NP** ) sütununda belirtirseniz sütun tanımında belirtilenlerden bağımsız olarak yok sayılır. Temel olarak, bu senaryo bir sütun üstbilgi tanımının oluşturulmamasıyla aynıdır.
-- Koşullu yazdırma sütunları ( **P&lt;B,** **P&gt;=B** ) için koşullu genişleyen üstbilgiler herhangi bir normal sütun üstbilgi tanımı gibi davranır. Örneğin, koşul yanlışsa yayılma koşulu için eşleşen sonraki herhangi bir sütun başlığın yazdırılmasını başlatır.
+- Yayılma tanımındaki BASE'i bir Yazdırma (**NP**) sütununda belirtirseniz sütun tanımında belirtilenlerden bağımsız olarak yok sayılır. Temel olarak, bu senaryo bir sütun üstbilgi tanımının oluşturulmamasıyla aynıdır.
+- Koşullu yazdırma sütunları (**P&lt;B,** **P&gt;=B**) için koşullu genişleyen üstbilgiler herhangi bir normal sütun üstbilgi tanımı gibi davranır. Örneğin, koşul yanlışsa yayılma koşulu için eşleşen sonraki herhangi bir sütun başlığın yazdırılmasını başlatır.
 
 #### <a name="create-a-conditional-spanning-header"></a>Koşullu kapsayıcı üst bilgi oluşturma
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
 2. Bir başlık hücresine çift tıklayın.
-3. **Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin. Alternatif olarak **Otomatik Metin Ekle** 'ye tıklayın ve bir seçenek seçin.
+3. **Sütun Başlığı** iletişim kutusunda, sütun başlığı metnini girin. Alternatif olarak **Otomatik Metin Ekle**'ye tıklayın ve bir seçenek seçin.
 4. **Biçim seçenekleri** alanında, başlık için bir biçimlendirme stili seçin.
-5. Rapor oluşturulurken belirtilen esas dönemle ilgili bir dönem belirtin. **Yayılma başlangıcı** ve **Yayılma bitişi** alanlarına şu değerlerden birini girin: **BASE** , **BASE-X** veya **BASE+X**. Burada X esas dönemden itibaren dönem sayısıdır. Örneğin, **Yayılma başlangıcı** alanına **BASE** ifadesini girerseniz koşullu kapsayıcı sütun üst bilgisi metni rapor tanımının **Esas dönem** değeri sütun tanımının **Dönem** değerine eşit olduğunda sütun başlığında başlar. **Yayılma bitişi** alanında belirtilen sütunda biter. Bu nedenle yayılma BASE ila M ise rapor tanımının **Esas dönem** değeri **4** 'tür, başlık dönemin **4** olarak ayarlandığı durumlarda sütunda başlar ve M sütununda biter. Başlıklar yalnızca yazdırma sütunlarında durur ve başlar.
-6. **Yaslama** 'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.
-7. **Tamam** düğmesini tıklatın.
+5. Rapor oluşturulurken belirtilen esas dönemle ilgili bir dönem belirtin. **Yayılma başlangıcı** ve **Yayılma bitişi** alanlarına şu değerlerden birini girin: **BASE**, **BASE-X** veya **BASE+X**. Burada X esas dönemden itibaren dönem sayısıdır. Örneğin, **Yayılma başlangıcı** alanına **BASE** ifadesini girerseniz koşullu kapsayıcı sütun üst bilgisi metni rapor tanımının **Esas dönem** değeri sütun tanımının **Dönem** değerine eşit olduğunda sütun başlığında başlar. **Yayılma bitişi** alanında belirtilen sütunda biter. Bu nedenle yayılma BASE ila M ise rapor tanımının **Esas dönem** değeri **4**'tür, başlık dönemin **4** olarak ayarlandığı durumlarda sütunda başlar ve M sütununda biter. Başlıklar yalnızca yazdırma sütunlarında durur ve başlar.
+6. **Yaslama**'nın altında, sütun başlığının sola mı, ortaya mı yoksa sağa mı yaslanmış olması gerektiğini belirtin.
+7. **Tamam**'a tıklayın.
 
 #### <a name="example-of-a-conditional-spanning-header"></a>Koşullu kapsayıcı üst bilgi örneği
 
-Pelin dinamik bir altı aylık tahmin için bir rapor oluşturuyor. Gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesinin, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesinin yazdırılmasını istiyor. Raporun çalıştırıldığı her ay, bir fazla gerçek durum sütunu ve bir az bütçe sütunu vardır. Pelin başlıkları ayarlamak için sütun tanımını rapor her oluşturulduğunda el ile değiştirebilse de, zamandan ve çabadan tasarruf etmek için rapor her çalıştırıldığında ilgili sütunların üzerinde otomatik olarak başlık oluşturacak koşullu kapsayıcı üst bilgiler oluşturmaya karar veriyor. Pelin Rapor Tasarımcısı'nı açıyor, gezinme bölmesindeki **Sütun Tanımı** 'na tıklıyor ve raporun sütun tanımını açıyor. Ardından aşağıdaki bilgileri giriyor. Rapor tanımındaki esas dönem 4'tür.
+Bir kullanıcı, dinamik bir altı aylık tahmin için bir rapor oluşturuyor. Kullanıcı gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesinin, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesinin yazdırılmasını istiyor. Raporun çalıştırıldığı her ay, bir fazla gerçek durum sütunu ve bir az bütçe sütunu vardır. Kullanıcı başlıkları ayarlamak için sütun tanımını rapor her oluşturulduğunda el ile değiştirebilse de, daha az zaman ve çaba harcamak için rapor her çalıştırıldığında ilgili sütunların üzerinde otomatik olarak başlık oluşturacak koşullu kapsayıcı üst bilgiler oluşturmaya karar veriyor. Kullanıcı, Rapor Tasarımcısı'nı açıyor, gezinme bölmesindeki **Sütun Tanımı**'na tıklıyor ve raporun sütun tanımını açıyor. Ardından aşağıdaki bilgileri giriyor. Rapor tanımındaki esas dönem 4'tür.
 
 |      Biçim         |  A   | B:             | A             | B             | E:             | C             | G             | H             | I             | J             | K             | L             | P             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
@@ -227,7 +226,7 @@ Pelin dinamik bir altı aylık tahmin için bir rapor oluşturuyor. Gerçek veri
 | Sütun Genişliği        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Yazdırma Kontrolü       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Phyllis, **Sütun Üstbilgisi** iletişim kutusunu açmak üzere bir sütun üstbilgi hücresini çift tıklıyor ve buraya aşağıdaki bilgileri giriyor.
+Kullanıcı, **Sütun Üst Bilgisi** iletişim kutusunu açmak üzere bir sütun üst bilgi hücresini çift tıklıyor ve buraya aşağıdaki bilgileri giriyor.
 
 | Alan              | Değer                 |
 |--------------------|-----------------------|
@@ -235,11 +234,11 @@ Phyllis, **Sütun Üstbilgisi** iletişim kutusunu açmak üzere bir sütun üst
 | Otomatik Metin Ekle    | Seçim yapılmadı. |
 | Biçim seçenekleri     | Kutu                   |
 | Yaslama      | Seçim yapılmadı. |
-| Yayılma başlangıcı        | B                     |
-| Yayılma bitişi          | BASE                  |
+| Yayılma başlangıcı        | B:                     |
+| Yayılma bitişi          | TEMEL                  |
 | Bütçe başlığı      | BASE+1 ila bitiş sütunu  |
 
-Pelin bilgileri girmeyi tamamladıktan sonra **Tamam** 'a tıklıyor. Ardından aşağıdaki bilgileri girdiği **Sütun Başlığı** iletişim kutusunu açmak için C sütunundaki sütun başlığı hücresine çift tıklıyor.
+Kullanıcı, bilgileri girdikten sonra **Tamam**'ı tıklıyor. Ardından kullanıcı, **Sütun Üst Bilgisi** iletişim kutusunu açmak için C sütunundaki sütun üst bilgisi hücresine çift tıklıyor ve aşağıdaki bilgileri giriyor.
 
 | Alan              | Değer                 |
 |--------------------|-----------------------|
@@ -259,10 +258,10 @@ Bir rapordaki açıklama sütununa yaslama biçimlendirmesi uygulamak için **Ya
 2. **Yaslama** hücresine çift tıklayın.
 3. Listeden aşağıdaki değerlerden birini seçin:
 
-    - **Yok** : Yaslama uygulanmaz.
-    - **Sol** : Sütun açıklamalarını sola hizalayın.
-    - **Orta** : Sütun açıklamalarını ortaya hizalayın.
-    - **Sağ** : Sütun açıklamalarını sağa hizalayın.
+    - **Yok**: Yaslama uygulanmaz.
+    - **Sol**: Sütun açıklamalarını sola hizalayın.
+    - **Orta**: Sütun açıklamalarını ortaya hizalayın.
+    - **Sağ**: Sütun açıklamalarını sağa hizalayın.
 
 ## <a name="add-special-formatting-options"></a>Özel biçimlendirme seçenekleri ekleme
 Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütunlara özel biçimlendirme uygular. Bazı **Yazdırma Denetimi** seçenekleri ve **Sütun Kısıtlamaları** seçenekleri **FD** sütunlarına özel olsa da seçeneklerin çoğu tüm sütun türleri için geçerlidir. Sütun tanımında belirtilen biçimlendirme rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar. Ancak, satır tanımında belirtilen biçimlendirme sütun tanımında belirtilen biçimlendirmeyi geçersiz kılar. Aşağıdaki satırlar biçimlendirme satırları olarak değerlendirilir:
@@ -274,7 +273,7 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütun
 
 ### <a name="changing-the-column-width"></a>Sütun genişliğini değiştirme
 
-**Sütun Genişliği** hücresi yazdırılan raporda bu sütunun genişliği için kullanılacak karakter sayısını belirtir. Sütun genişliği tutar ( **CALC** , **WKS** veya **FD** türü sütunlar), açıklama ( **DESC** türü sütunlar) veya dolgu ( **FILL** türü sütunlar) içeren sütunlar için önemlidir. Varsayılan olarak **Otomatik Sığdır** seçeneği seçilidir, böylece her sütunun genişliği otomatik olarak içeriklere uyacak şekilde ayarlanır.
+**Sütun Genişliği** hücresi yazdırılan raporda bu sütunun genişliği için kullanılacak karakter sayısını belirtir. Sütun genişliği tutar (**CALC**, **WKS** veya **FD** türü sütunlar), açıklama (**DESC** türü sütunlar) veya dolgu (**FILL** türü sütunlar) içeren sütunlar için önemlidir. Varsayılan olarak **Otomatik Sığdır** seçeneği seçilidir, böylece her sütunun genişliği otomatik olarak içeriklere uyacak şekilde ayarlanır.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Bir rapordaki bir sütunun genişliğini belirtme
 
@@ -339,7 +338,7 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları seçilen sütun
 > Ayrıca, yazdırma kontrol kodlarını doğrudan **Yazdırma Kontrol** hücresine de girebilirsiniz. Birden fazla yazdırma denetimi kodunu virgülle ayırın.
 
 ## <a name="column-types"></a>Sütun türleri
-Bir rapordaki her sütunun içerdiği bilgi türü, sütun tanımındaki **Sütun Türü** satırındaki değerle belirtilir. Her sütun tanımı en az bir açıklama ( **DESC** ) sütunu ve bir tutar ( **FD** , **WKS** veya **CALC** ) sütunu içermelidir.
+Bir rapordaki her sütunun içerdiği bilgi türü, sütun tanımındaki **Sütun Türü** satırındaki değerle belirtilir. Her sütun tanımı en az bir açıklama (**DESC**) sütunu ve bir tutar (**FD**, **WKS** veya **CALC**) sütunu içermelidir.
 
 > [!NOTE]
 > Sütun türü kodları tüm muhasebe sistemlerinde geçerli değildir. Muhasebe sisteminiz için geçerli olmayan bir tür seçerseniz söz konusu sütun raporda boş olur.
@@ -462,7 +461,7 @@ Dönem özelliklerinin herhangi birinde mali yıl sınırlarının ötesine geç
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Bir sütun tanımındaki öznitelik filtresi
 
-Öznitelikler bir hesabı veya hareketi ayrıntılı olarak tanımlayan mali veri değerleridir. Hesap öznitelikleri **Varlık** , **Borç** , **Gelir** ve **Gider** 'dir. Hareket öznitelikleri ise **Hareket Açıklaması** ve **Hareket Uygulama Tarihi** 'dir. Öznitelik desteği Microsoft Dynamics ERP sistemleri arasında farklılık gösterebilir. **Öznitelik Filtresi** hücresi **FD** sütunlarındaki verileri belirli değerlerle veya öznitelik kategorisi aralıklarıyla sınırlar. Bu özellik bir **ATTR** sütunuyla birlikte kullanılabildiği halde, **ATTR** sütunu gerekli değildir. Bir **FD** sütununda raporun öznitelik filtresinden içereceği hesaplar veya hareketlerde bir sınır vardır.
+Öznitelikler bir hesabı veya hareketi ayrıntılı olarak tanımlayan mali veri değerleridir. Hesap öznitelikleri **Varlık**, **Borç**, **Gelir** ve **Gider**'dir. Hareket öznitelikleri ise **Hareket Açıklaması** ve **Hareket Uygulama Tarihi**'dir. Öznitelik desteği Microsoft Dynamics ERP sistemleri arasında farklılık gösterebilir. **Öznitelik Filtresi** hücresi **FD** sütunlarındaki verileri belirli değerlerle veya öznitelik kategorisi aralıklarıyla sınırlar. Bu özellik bir **ATTR** sütunuyla birlikte kullanılabildiği halde, **ATTR** sütunu gerekli değildir. Bir **FD** sütununda raporun öznitelik filtresinden içereceği hesaplar veya hareketlerde bir sınır vardır.
 
 > [!NOTE]
 > ERP sisteminizin hangi öznitelikleri desteklediğini görmek için sisteminize ait tümleştirme kılavuzuna bakın.
@@ -498,7 +497,7 @@ Bir boyut filtresi, **FD** sütununu belirli boyut değerleriyle sınırlandırm
 - +Hesap=\[1100\],Departman
 - +Hesap=\[1100\]
 
-Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz. Örneğin, **Konum = \[10*\*\]** , 10 ile başlayan tüm konum boyutu değerlerini içerir.
+Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinasyonunu kullanabilir ve kısmi boyutlar tanımlayabilirsiniz. Örneğin, **Konum = \[10*\*\]**, 10 ile başlayan tüm konum boyutu değerlerini içerir.
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Bir rapordaki bir sütun için boyut filtresi uygulama
 
@@ -511,47 +510,47 @@ Ayrıca, tam eşleştirme için alfasayısal karakterlerin herhangi bir kombinas
 
 Bir çoklu para birimi raporu, tutarları genel muhasebenin muhasebe para biriminde, başlatan hareket para biriminde veya çevrilmiş raporlama para biriminde görüntüleyebilir. Bir şirketin muhasebe para birimi, Genel Muhasebe kurulumunda tanımlıdır. Bu ayarı, raporlarda kullanılan varsayılan para birimi simgelerini yapılandırabileceğiniz, işletim sisteminin bölgesel seçenekler ayarıyla karıştırmayın. Sütun tanımında aşağıdaki para birimiyle ilgili hücreler bulunur:
 
-- **Para Birimi Görüntüleme** : Hareketlerin gösterileceği para birimi türünü belirtin (muhasebe, raporlama, hareket veya çevrilmiş raporlama). Bir raporlama işlevselliğine çevrilmiş, bazen para birimi çevirisi olarak adlandırılır. Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel veya raporlama para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
-- **Para Birimi Filtresi** : Bir para birimi filtresi belirtin. Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.
+- **Para Birimi Görüntüleme**: Hareketlerin gösterileceği para birimi türünü belirtin (muhasebe, raporlama, hareket veya çevrilmiş raporlama). Bir raporlama işlevselliğine çevrilmiş, bazen para birimi çevirisi olarak adlandırılır. Para birimi dönüştürme, genel muhasebe tutarlarını şirketin işlevsel veya raporlama para birimi ya da hareketin girildiği para birimi olmayabilecek bir para biriminde raporlama yeteneğidir.
+- **Para Birimi Filtresi**: Bir para birimi filtresi belirtin. Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.
 
 > 
 Bir şirketin muhasebe para birimini belirlemek için şu adımları izleyin.
 
-1. Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Şirketler** 'e tıklayın.
-2. **Şirketler** iletişim kutusunda, bir şirket seçin ve ardından **Görüntüle** 'ye tıklayın.
-3. **Şirketi Görüntüle** iletişim kutusunda, **Bölgesel seçenekler** 'in altında seçilen şirket için tanımlanan para birimini görüntüleyebilirsiniz.
+1. Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Şirketler**'e tıklayın.
+2. **Şirketler** iletişim kutusunda, bir şirket seçin ve ardından **Görüntüle**'ye tıklayın.
+3. **Şirketi Görüntüle** iletişim kutusunda, **Bölgesel seçenekler**'in altında seçilen şirket için tanımlanan para birimini görüntüleyebilirsiniz.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Birden fazla para birimi içeren bir raporda para birimini belirtme
 
 1. Rapor Tasarımcısı'nda, değiştirilecek sütun tanımını açın.
-2. İlgili **FD** sütunundaki **Görüntülenen Para Birimi** öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: **Genel muhasebe para birimi** , **Genel muhasebe raporlama** , işlem para birimi veya farklı bir raporlama para birimine dönüştürmek için seç.
+2. İlgili **FD** sütunundaki **Görüntülenen Para Birimi** öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: **Genel muhasebe para birimi**, **Genel muhasebe raporlama**, işlem para birimi veya farklı bir raporlama para birimine dönüştürmek için seç.
 3. İlgili **FD** sütunundaki **Para Birimi Filtresi** hücresine çift tıklayın ve ardından listeden uygun para birimi kodunu seçin. Raporda sadece bu para biriminde girilen hareketler görüntülenir.
 
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Para Birimi Ekranı ve Para Birimi Filtresi hücreleri için örnek
 
-Pelin, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:
+Kullanıcı, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:
 
 - **Para Birimi Filtresi:** Yen
 - **Para Birimi Görüntüleme:** Muhasebe para birimi Genel Muhasebeden (A.B.D doları)
 
-Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir. Seçtiği para birimi ekranı nedeniyle, rapor muhasebe para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.
+Seçilen para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen işlemleri içerir. Seçilen para birimi ekranı nedeniyle, rapor muhasebe para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Para Birimi Filtresi ve Para Birimi Ekranı birleşimleri
 
-Aşağıdaki tabloda, Pelin'in yaptığı seçimler nedeniyle **Para Birimi Ekranı** ve **Para Birimi Filtresi** hücrelerindeki çeşitli seçenek birleşimleri için oluşabilecek rapor sonuçlarını göstermektedir. İşlevsel para birimi USD'dir.
+Aşağıdaki tabloda, yapılan seçimler nedeniyle **Para Birimi Ekranı** ve **Para Birimi Filtresi** hücrelerindeki çeşitli seçenek birleşimleri için oluşabilecek rapor sonuçları gösterilmektedir. İşlevsel para birimi USD'dir.
 
 
 | Para Birimi Ekranı hücresi                        | Para Birimi Filtresi hücresi | Rapor sonucu |
 |----------------------------------------------|----------------------|---------------|
-| Hareket para birimi                 | **YEN**              | **6.000 Y** : Sonuç yalnızca JPY olarak girilen hareketleri gösterir. |
-| Genel Muhasebe için muhasebe para birimi | **YEN**              |**60 $** : Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<p><strong>Not:</strong> Döviz kuru 1 Amerikan Doları için yaklaşık 100 JPY'dir.</p> |
+| Hareket para birimi                 | **YEN**              | **6.000 Y**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir. |
+| Genel Muhasebe için muhasebe para birimi | **YEN**              |**60 $**: Sonuç yalnızca JPY olarak girilen hareketleri gösterir ve ABD doları cinsinden olan hareketleri görüntüler.<p><strong>Not:</strong> Döviz kuru 1 Amerikan Doları için yaklaşık 100 JPY'dir.</p> |
 | Genel Muhasebe için muhasebe para birimi | Boş                | **2.310 $** – Sonuç, tüm veriyi Genel Muhasebe defteri içinde belirtilen muhasebe para biriminde gösterir.<p><strong>Not:</strong> Bu tutar, muhasebe para birimindeki tüm işlemlerin toplamıdır.</p> |
-| Hareket para birimi                 | Boş                | **2.250 $** : Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir. Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir. |
+| Hareket para birimi                 | Boş                | **2.250 $**: Sonuç, hareketin gerçekleştirildiği para birimindeki tüm tutarları gösterir. Bu, toplamın farklı para birimlerinden tutarlar ekleyerek oluştuğu anlamına gelir. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Bir sütun tanımındaki hesaplama sütunu
 
-Bir sütun tanımındaki bir **CALC** sütun türü, **Formül** hücresinde karmaşık hesaplamaları destekler ve **+** , **-** , **\*** , ve **/** operatörlerini ve ayrıca **IF/THEN/ELSE** deyimlerini içerebilir. Bir hesaplama sütunu, daha sonraki sütunları da dahil, herhangi diğer bir sütuna başvurabilir. Ayrıca, bir hesaplama sütunu sütunun başlıklarını desteklemek için mali yılı ve dönemi de içerebilir. Hesaplama formülü en fazla 1.024 karakter uzunluğunda olabilir. Hesaplama sonucunu yüzde olarak ifade etmek için özel bir biçim geçersiz kılma işlemi kullanın.
+Bir sütun tanımındaki bir **CALC** sütun türü, **Formül** hücresinde karmaşık hesaplamaları destekler ve **+**, **-**, **\**_ ve _*/** işleçlerini ve ayrıca **IF/THEN/ELSE** deyimlerini içerebilir. Bir hesaplama sütunu, daha sonraki sütunları da dahil, herhangi diğer bir sütuna başvurabilir. Ayrıca, bir hesaplama sütunu sütunun başlıklarını desteklemek için mali yılı ve dönemi de içerebilir. Hesaplama formülü en fazla 1.024 karakter uzunluğunda olabilir. Hesaplama sonucunu yüzde olarak ifade etmek için özel bir biçim geçersiz kılma işlemi kullanın.
 
 > [!NOTE]
 > Hesaplama formüllerinin sonuçları yazdırılmayan sütun aralıklarındaki değerleri içermez. Örneğin, **A:D** **0** (sıfır) yazdırırken, yazdırılmayan değerler için **A+B+C** değeri hesaplar.

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015055"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692978"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -45,7 +44,7 @@ Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını aça
 
 Bir özellik seçtiğinizde, ayrıntılar bölmesinde özellik listesinin sağında ek bilgiler görüntülenir. Bölmenin en üstünde özellik adı, özelliğin eklendiği tarih, özelliğin etkilediği modül ve **Daha fazla bilgi edinin** bağlantısını görürsünüz. Özelliğin belgelerini görüntülemek için bu bağlantıyı seçin. Belge yoksa, geçici bir sayfaya yönlendirilirsiniz. Ayrıntılar bölmesi ayrıca özellik hakkında kendi açıklamalarınızı ekleyebileceğiniz bir **Açıklama** alanı da içerir.
 
-**Özellik yönetimi** , her biri çalışma alanı aynı zamanda içindeki özelliklerin listesi bulunan çeşitli sekmeler içerir.
+**Özellik yönetimi**, her biri çalışma alanı aynı zamanda içindeki özelliklerin listesi bulunan çeşitli sekmeler içerir.
 
 - **Yeni** - Bu sekme, son aylık güncelleştirmeden sonra eklenen tüm özellikleri gösterir. Aylık güncelleştirmeleri atladıysanız, sekme, son güncelleştirmeden bu yana eklenen tüm yeni özellikleri gösterir. En yeni özellikler listenin en üstünde yer alır. Ayrıca, yeni özelliklerin toplam sayısı sayfanın üst kısmındaki bir kutucukta gösterilir.
 - **Etkin değil** – bu sekmede etkinleştirilmemiş olan tüm özellikler gösterilir. En yeni özellikler listenin en üstünde yer alır. Ayrıca, açılmamış olan yeni özelliklerin toplam sayısı sayfanın üst kısmındaki bir kutucukta gösterilir.
@@ -56,9 +55,9 @@ Bir özellik seçtiğinizde, ayrıntılar bölmesinde özellik listesinin sağı
 
 Bir özellik etkinleştirilmemişse, ayrıntılar bölmesinde **Şimdi Etkinleştir** düğmesi görüntülenir. Bu özelliği açmak için bu düğmeyi kullanabilirsiniz.
 
-- Açmak istediğiniz özelliği seçin, daha sonra ayrıntılar bölmesinde **Şimdi Etkinleştir** 'i seçin. Özellik açık.
+- Açmak istediğiniz özelliği seçin, daha sonra ayrıntılar bölmesinde **Şimdi Etkinleştir**'i seçin. Özellik açık.
 
-Açtıktan sonra bazı özellikler kapatılamaz. Açmaya çalıştığınız bir özellik kapatılamıyorsa, bir uyarı alırsınız. Bu aşamada, işlemi iptal etmek ve özelliği kapatmak için **İptal** 'i seçebilirsiniz. Ancak, **Etkinleştir** 'i seçip özelliği açarsanız daha sonra kapatamazsınız.
+Açtıktan sonra bazı özellikler kapatılamaz. Açmaya çalıştığınız bir özellik kapatılamıyorsa, bir uyarı alırsınız. Bu aşamada, işlemi iptal etmek ve özelliği kapatmak için **İptal**'i seçebilirsiniz. Ancak, **Etkinleştir**'i seçip özelliği açarsanız daha sonra kapatamazsınız.
 
 Bazı özellikler, açmadan önce ek bilgi sağlayan bir ileti görüntüler. Bu özellikler sarı bir uyarı sembolüyle belirtilir. Özellik etkinleştirildiğinde neler olacağını daha iyi anlamak için ek bilgileri dikkatle okumanızı gerekir. Ancak, yine de özelliği açmak için **Etkinleştir** seçeneğini seçebilirsiniz.
 
@@ -72,15 +71,15 @@ Gelecekte açık olarak zamanlanan özellikler **Zamanlanmış** sekmesinde gör
 
 Bir özellik gelecekte açılmak üzer zamanlanmışsa, bir **Zamanla** düğmesi ayrıntılar bölmesinde görüntülenir. **Etkinleştirme tarihini** değeri, başka bir tarihe değiştirmek için bu düğmeyi kullanabilirsiniz.
 
-1. Yeniden zamanlamak için zamanlanmış özelliği seçin ve sonra ayrıntılar bölmesinde **Zamanla** 'yı seçin.
+1. Yeniden zamanlamak için zamanlanmış özelliği seçin ve sonra ayrıntılar bölmesinde **Zamanla**'yı seçin.
 2. Görüntülenen iletişim kutusunda, **Etkinleştirme tarihi** alanında, özelliğin açılması gereken yeni tarihi belirtin.
-3. Özelliği yeniden zamanlamak için **Etkinleştir** 'i veya zamanlamayı iptal etmek için **Devre dışı bırak** 'ı seçin.
+3. Özelliği yeniden zamanlamak için **Etkinleştir**'i veya zamanlamayı iptal etmek için **Devre dışı bırak**'ı seçin.
 
 ## <a name="turn-off-a-feature"></a>Bir özelliği kapatmak
 
 Bir özellik açıksa, ayrıntılar bölmesinde **Devre dışı bırak** düğmesi görüntülenir. Bu özelliği kapatmak için bu düğmeyi kullanabilirsiniz. Özellik etkinleştirildikten sonra kapatılamıyorsa, **Devre dışı bırak** düğmesi kullanılamaz.
 
-- Kapatmak için özelliği seçin ve sonra ayrıntılar bölmesinde **Devre dışı bırak** 'ı seçin. Bu özellik kapanır ve **Etkinleştirme tarihi** alanı temizlenir.
+- Kapatmak için özelliği seçin ve sonra ayrıntılar bölmesinde **Devre dışı bırak**'ı seçin. Bu özellik kapanır ve **Etkinleştirme tarihi** alanı temizlenir.
 
 Özellik kapandıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin henüz açılmadığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir. Açılmamış özellikler **Etkinleştirilmemiş** sekmesinde görünür.
 
@@ -92,8 +91,8 @@ Bazen, güncelleştirme yaptığınızda otomatik olarak açılması gereken kri
 
 Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler kapalıdır. **Tümünü Etkinleştir** düğmesini seçerek tüm özellikleri etkinleştirebilirsiniz. 
 
-**Tümünü etkinleştir** 'i seçtiğinizde, aşağıdaki bilgileri sağlamanız gereken yerde bir seçenek görünecektir:
-- Etkinleştirilmeden önce onay gerektiren tüm özelliklerin listesi. Listedeki özellikleri etkinleştirmek istiyorsanız **Onay gerektiren özellikleri etkinleştir** düğmesi için **Evet** 'i seçin.
+**Tümünü etkinleştir**'i seçtiğinizde, aşağıdaki bilgileri sağlamanız gereken yerde bir seçenek görünecektir:
+- Etkinleştirilmeden önce onay gerektiren tüm özelliklerin listesi. Listedeki özellikleri etkinleştirmek istiyorsanız **Onay gerektiren özellikleri etkinleştir** düğmesi için **Evet**'i seçin.
 - Etkinleştirilemeyen özellilkerin listesi gösterilecektir. Bu özellikler etkinleştirilmez.
 
 Etkinleştirilebilir tüm özellikler etkinleştirilecektir. Bir özellik gelecekte etkinleştirilmek üzere planlandıysa plan değişmeyecektir. 
@@ -102,8 +101,8 @@ Etkinleştirilebilir tüm özellikler etkinleştirilecektir. Bir özellik gelece
 
 Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler zorunlu özellikler olmadıkça kapalıdır. Ancak, tüm yeni özellikleri otomatik olarak etkinleştirmek istiyorsanız, yeni özellikler eklendiğinde neler olacağını değiştirmek için çalışma alanı başlığının altındaki açılan listeyi kullanabilirsiniz.
 
-- **Yeni özellikleri otomatik olarak etkinleştir** 'i seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
-- **Yeni özellikleri otomatik olarak etkinleştirme** 'yi seçerek ortamınıza eklenen tüm yeni özelliklerin varsayılan olarak kapalı olmasını sağlayın.
+- **Yeni özellikleri otomatik olarak etkinleştir**'i seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
+- **Yeni özellikleri otomatik olarak etkinleştirme**'yi seçerek ortamınıza eklenen tüm yeni özelliklerin varsayılan olarak kapalı olmasını sağlayın.
 
 
 Tüm özelliği otomatik olarak etkinleştirdiğinizde, **Tümünü Etkinleştir** düğmesini tıkladığınızda etkinleştirilecek tüm özellikleri etkinleştirir. Bu, onay gerektiren özellikleri veya bir eylem alınıncaya kadar etkinleştirilemez özellikleri etkinleştirmez.

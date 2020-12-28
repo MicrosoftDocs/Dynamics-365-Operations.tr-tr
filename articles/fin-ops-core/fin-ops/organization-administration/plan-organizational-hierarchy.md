@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180429"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694701"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
@@ -170,11 +169,11 @@ Tüzel kişilik, tüzel kişiliğin kayıtlı olduğu ülkenin/bölgenin vergi d
 Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabileceği hakkında daha fazla bilgi edinmek için [Microsoft Dynamics Yerelleştirme Portalı](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)'na bakın. (Bir CustomerSource girişi zorunludur.)
 
 > [!NOTE]
-> Genel muhasebedeki deftere nakil katmanı, alt şirketten farklı bir muhasebe standardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak tanır. Örneğin, genel olarak İngiltere'deki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.
+> Genel muhasebedeki deftere nakil katmanı, alt şirketten farklı bir muhasebe standardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak tanır. Örneğin, genel olarak Birleşik Krallık'taki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Organizasyon bir işletme birimi olarak modellenmişse
 
-Yasal raporlar başka bir uygulama kullanılarak oluşturulmalıdır. Genel merkez gereksinimlerinden farklılık gösteren her işletme biriminin gereksinimlerini destelemek amacıyla bu verilerin Finance and Operations uygulamaları tarafından alındığından emin olmanız gerekir.
+Yasal raporlar başka bir uygulama kullanılarak oluşturulmalıdır. Genel merkez gereksinimlerinden farklılık gösteren her işletme biriminin gereksinimlerini desteklemek amacıyla bu verilerin Finance and Operations uygulamaları tarafından alındığından emin olmanız gerekir.
 
 ### <a name="currency"></a>Para Birimi
 

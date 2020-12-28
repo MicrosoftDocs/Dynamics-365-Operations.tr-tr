@@ -3,7 +3,7 @@ title: Kılavuz yetenekleri
 description: Bu konu, kılavuz denetiminin çeşitli güçlü özelliklerini açıklamaktadır. Bu yeteneklere erişim sahibi olmak için yeni kılavuz özelliğinin etkinleştirilmesi gerekir.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835098"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693786"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Yeni kılavuz denetimi, kullanıcı üretkenliğini artırmak, verilerinizin daha ilginç görünümlerini elde etmek ve verilerinize anlamlı bilgiler yüklemek için kullanılabilecek bir dizi yararlı ve güçlü yetenek sağlar. Bu makalede aşağıdaki yetenekler ele alınıyor: 
 
@@ -95,21 +95,23 @@ Verimlilik rampa olarak, kullanıcılar bir kılavuzdaki sayısal hücrelere mat
 Sistemin bir değeri ifade olarak tanımasını sağlamak için, değeri bir eşittir işaretiyle (**=**) başlatın. Desteklenen işleçler ve söz dizimi hakkında daha fazla bilgi edinmek için bkz. [Desteklenen matematik simgeleri](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Sekmeli verileri gruplandırma
-[!include [preview banner](../includes/preview-banner.md)]
+İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan ve sürüm 10.0.16/Platform update 40 ile genel kullanıma sunulan **Kılavuzlarda gruplandırma** özelliği sayesinde kullanıcılar sekmeli verilerini Finance and Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
 
-İş kullanıcılarının sıklıkla anlık olarak veri analizi yapmaları gerekir. Bu işlem Microsoft Excel'e veri aktararak ve özet tablolar kullanarak yapılırken, yeni kılavuz denetim özelliğine bağlı olan **Kılavuzlarda gruplandırma (Önizleme)** özelliği sayesinde kullanıcılar sekmeli verilerini Finance and Operations uygulamalarında ilginç yollarla organize edebilirler. Bu özellik **Toplamlar** özelliğini genişlettiği için, **Gruplandırma** da grup düzeyinde alt toplamlar sunarak verilere anlamlı bilgiler yüklemenize olanak sağlar.
-
-Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Sütuna göre gruplandır** özelliği ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
+Bu özelliği kullanmak için, gruplandırmada kullanmak istediğiniz sütuna sağ tıklayın ve **Bu sütuna göre gruplandır**'ı seçin. Bu eylem, verileri, seçilen sütuna göre sıralar, kılavuzun başına yeni bir **Gruplandırma ölçütü** sütunu ve her grubun başına "üst bilgi satırları" ekler. Bu üst bilgi satırları her grup hakkında aşağıdaki bilgileri sağlar: 
 -  Grubun veri değeri 
--  Sütun adı (Bu bilgiler özellikle birden çok gruplandırma düzeyi desteklendikten sonra yararlı olacaktır.)  
+-  Sütun adı (bu bilgi özellikle birden çok gruplandırma düzeyine sahip olduğunuzda yararlıdır)  
 -  Bu gruptaki veri satırlarının sayısı
 -  Toplamları gösterecek şekilde yapılandırılan sütunların alt toplamları
 
 [Kayıtlı görünümler](saved-views.md) etkinleştirildiğinde, sayfayı bir sonraki ziyaretinizde hızlı erişim için bir görünümün parçası olarak bu gruplandırma kişiselleştirerek gruplandırılabilir.  
 
-Başka bir sütunda **Bu sütuna göre gruplandır**'ı seçerseniz, 10.0.9/Platform güncelleştirmesi 33'ten sonra yalnızca gruplandırma düzeyi desteklendiği için, özgün gruplandırma değiştirilecektir.
+### <a name="multiple-levels-of-grouping"></a>Birden çok gruplandırma düzeyi
+Verileri tek bir sütuna göre gruplandırdıktan sonra, istediğiniz sütunda **Bu sütuna göre gruplandır**'ı seçerek verileri farklı bir sütuna göre gruplandırabilirsiniz. Bu işlem, iç içe geçmiş 5 gruplandırma düzeyine sahip oluncaya kadar tekrarlanabilir. Bu, desteklenen derinlik üst sınırıdır. Bu aşamada, ek sütunlara göre gruplandırma yapamazsınız.  
 
-Bir kılavuzda gruplandırmayı geri almak için, gruplandırma sütununa sağ tıklayın ve **Grubu çöz**'ü seçin.  
+Dilediğiniz zaman, bir sütuna sağ tıklayıp **Grubu Çöz**'ü seçerek söz konusu sütundaki gruplandırmayı kaldırabilirsiniz. Ayrıca, **Izgara seçenekleri**'ni ve ardından **Tümünün grubunu çöz**'ü seçerek tüm sütunlardaki gruplandırmayı kaldırabilirsiniz.   
+
+Sürüm 10.0.16/Platform update 40 öncesinde yalnızca tek bir gruplandırma düzeyi destekleniyordu. Bu sürümlerde, veriler gruplandırılmışsa ve farklı bir sütun için **Bu sütuna göre gruplandır**'ı seçerseniz asıl gruplandırma değiştirilir.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Grupları genişletme ve daraltma
 Verilerin ilk gruplandırmasında tüm gruplar genişletilmiş olacaktır. Tek grupları daraltarak verilerin özetlenmiş görünümlerini oluşturabilir veya verilerde gezinmeye yardımcı olması için grup genişletme ve daraltma özelliklerini kullanabilirsiniz. Bir grubu genişletmek veya daraltmak için, ilgili grup üst bilgisi satırında çift ayraç (>) düğmesini seçin. Bireysel grupların genişletme/daraltma durumunun kişiselleştirme bölümünde **kaydedilmeyeceğini** unutmayın.
@@ -165,26 +167,43 @@ Bu bölüm, özellik bir önizleme durumundayken yeni kılavuz denetimiyle ilgil
     -  Sayfada gruplanmış bir kart listesi vardır.
     -  Tepki olmayan genişletilebilir bir denetimi olan kılavuz sütunu.
 
-    Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.     
+    Bir kullanıcı bu durumlardan biriyle karşılaştığında, sayfayı yenileme hakkında bir ileti görüntülenecektir. Bu ileti görüntülendikten sonra, bir sonraki ürün sürümü güncelleştirilinceye kadar, sayfa tüm kullanıcılar için varolan kılavuzla çalışmaya devam eder. Yeni kılavuzun kullanılabilmesi amacıyla gelecekteki bir güncelleştirme için bu senaryoların daha iyi işlenmesi dikkate alınacaktır.    
+    
+-  [KB 4582758] Yakınlaştırmayı 100'den başka bir yüzdeye değiştirdiğinizde kayıtlar bulanıklaşır
+    
+### <a name="fixed-as-part-of-10015"></a>10.0.15'nin parçası olarak düzeltildi    
+
+-  [KB 4582723] Form yaşam döngüsünde daha sonra yapıldığında görüntüleme seçenekleri gösterilmiyor
+
+### <a name="fixed-as-part-of-10014"></a>10.0.14'nin parçası olarak düzeltildi
+
+-  (Kalite güncelleştirmesi) [KB 4584752] Proje faturası teklifleri sayfasında beklenmeyen istemci hatası
 
 ### <a name="fixed-as-part-of-10013"></a>10.0.13'nin parçası olarak düzeltildi
 
+-  (Kalite güncelleştirmesi) [KB 4583880] Regression Suite Automation Tool (RSAT) testi, "Tanımsız RowIndex özelliği okunamıyor" hatasıyla OpenLookup eyleminde başarısız oldu
+-  (Kalite güncelleştirmesi) [KB 4583847] Aramalarda gezinirken beklenmedik istemci hatası 
+-  (Kalite güncelleştirmesi) [Hata 471777] Bir mobil uygulama düzenlemek veya oluşturmak için ızgaradaki alanlar seçilemiyor
+-  [Hata 474851] Referans grup denetimlerindeki köprüler çalışmıyor 
+-  [Hata 474848] Izgaralarla geliştirilmiş önizlemeler görüntülenmiyor
+-  [KB 4582726] RotateSign özelliği dikkate alınmıyor  
 -  [Hata 470173] Etkin olmayan satırlardaki onay kutuları hücredeki boşluk tıklandığında geçiş yapıyor
--  [Hata 474848] Kılavuzlarla geliştirilmiş önizlemeler görüntülenmiyor
+-  [Hata 474848] Izgaralarla geliştirilmiş önizlemeler görüntülenmiyor
 -  [Hata 474851] Referans grup denetimlerindeki köprüler çalışmıyor 
 -  [Hata 471777] Bir mobil uygulama düzenlemek veya oluşturmak için kılavuzdaki alanlar seçilemiyor
--  [KB 4569441] Çok sütunlu kart listeleri, görüntülerdeki araç ipuçları ve bazı alanlardaki görüntüleme seçenekleri ile ilgili sorunlar
--  [KB 4575279] Genel Günlükte işaretlenen satırların tümü silinmiyor
--  [KB 4575233] Görüntü seçenekleri başka bir satıra taşındıktan sonra geri yüklenemiyor
--  [KB 4571095] yanlışlıkla Enter tuşuna basıldığında ürün girişi deftere nakli yapılıyor (bir sayfanın varsayılan eyleminin doğru işlenmesi)
+-  [KB 4569441] Çok sütunlu kart listelerini işleme, görüntülerdeki araç ipuçları ve bazı alanlardaki görüntüleme seçenekleri ile ilgili sorunlar
+-  [KB 4575279] Genel Günlük'te işaretlenen satırların tümü silinmiyor
+-  [KB 4575233] Görüntüleme seçenekleri başka bir satıra geçtikten sonra geri yüklenemiyor
+-  [Hata 477884] Yeni bir ızgara denetimi etkinleştirildiği aramalar yanlış değer/kayıt döndürüyor
+-  [KB 4571095] Yanlışlıkla Enter tuşuna basıldığında ürün girişi deftere nakil işlemi yapılıyor (bir sayfanın varsayılan eyleminin doğru işlenmesi)
 -  [KB 4575437] Düzenlenebilir denetimlerle yapılan aramalar beklenmedik şekilde kapanıyor
--  [KB 4569418] Teslimat çizelgesi formunda tekrarlanan satır oluşturuluyor
+-  [KB 4569418] Teslimat çizelgesi formunda yinelenen satır oluşturuluyor
 -  [KB 4575435] Gelişmiş önizleme bazen fare işaretçisi alanın yakınında olmadığında bile kalıyor
 -  [KB 4575434] Alan değiştirildiğinde arama filtrelenmiyor
--  [KB 4575430] Parola alanlarındaki değerler kılavuzda maskelenmiyor
--  [KB 4569438] Tedarikçi hareketleri kapatılırken satırlar işaretlendikten sonra "Bir doğrulama sorunu nedeniyle işlem durduruldu" görüntüleniyor
--  [KB 4569434] Tüzel kişileri yenileme, daha az kayda neden oluyor
--  [KB 4575297] Odak, bir kılavuz üzerinden düzenleme ve sekme geçişi sırasında görev kaydedici bölmesine geçiyor
+-  [KB 4575430] Parola alanlarındaki değerler ızgarada maskelenmiyor
+-  [KB 4569438] Tedarikçi hareketleri kapatılırken satırlar işaretlendikten sonra "Bir doğrulama sorunu nedeniyle işlem durduruldu" iletisi görüntüleniyor
+-  [KB 4569434] Tüzel kişiler formunu yenileme, daha az kayda neden oluyor
+-  [KB 4575297] Odak, bir ızgara üzerinden düzenleme ve sekme geçişi sırasında görev kaydedici bölmesine geçiyor
 -  [KB 4566773] Düzeltme hareketleri fiş hareketleri sorgulamasında negatif olarak gösterilmiyor 
 -  [KB 4575288] Basit bir listedeki satırlar arasındaki kenarlığı seçerken odak etkin satıra sıfırlanıyor
 -  [KB 4575287] Günlüklerde yeni bir satır oluşturmak için aşağı ok kullanılırken odak ilk sütuna dönmüyor
@@ -195,50 +214,50 @@ Bu bölüm, özellik bir önizleme durumundayken yeni kılavuz denetimiyle ilgil
 
 - [KB 4558545] Tablo denetimleri, görüntülenen öğelerin içeriğini güncelleştirmiyor.
 - [KB 4558570] Kayıt silindikten sonra öğeler hala sayfada gösteriliyor.
-- [KB 4558572] Liste Paneli **ExtendedStyle** ile ilişkilendirilmiş uygulanmıyor.
-- [KB 4558573] Gerekli değişiklik kılavuzun dışında olduğunda doğrulama hataları düzeltilemiyor.
-- [KB 4558584] Eksi sayılar doğru işlenmiyor.
-- [KB 4560726] Liste görünümü denetimi kullanılarak listeler arasında takas işlemi yapıldıktan sonra "beklenmeyen istemci hatası" oluşur.
-- [KB 4562141] Yeni bir kayıt eklendikten sonra kılavuz indisleri kapalıdır.
-- [KB 4562151] **Doğrula** ve **Kopyala** görev Kaydedicisi seçenekleri tarih/sayı denetimleri için kullanılamıyor. 
-- [KB 4562153] Liste/kart kılavuzlarda çoklu seçim onay kutuları görünmez.
-- [KB 4562646] Kılavuzdaki satırları çoklu olarak seçtikten sonra kılavuzun dışına tıklayamıyorsunuz.
-- [KB 4562647] Güvenlik rolleri ızgarasına yeni bir satır eklendikten sonra, odak **Yayımla** iletişim kutusundaki ilk denetime sıfırlanır.
-- [KB 4563310] Gelişmiş önizleme bir satır değiştirildikten sonra kapatılmadı.
-- [KB 4563313] Aramada bir değer seçildiğinde Internet Explorer'da "beklenmeyen istemci hatası" durumu ortaya çıkar .
+- [KB 4558572] **ExtendedStyle** Liste Paneli ile ilişkilendirilmiş stil uygulanmıyor.
+- [KB 4558573] Gerekli değişiklik ızgaranın dışında olduğunda doğrulama hataları düzeltilemiyor.
+- [KB 4558584] Negatif sayılar doğru işlenmiyor.
+- [KB 4560726] Liste Görünümü denetimi kullanılarak listeler arasında değiştirme işlemi yapıldıktan sonra "beklenmeyen istemci hatası" oluşuyor.
+- [KB 4562141] Yeni bir kayıt eklendikten sonra ızgara indisleri kapalıdır.
+- [KB 4562151] **Doğrula** ve **Kopyala** görev kaydedicisi seçenekleri tarih/sayı denetimleri için kullanılamıyor. 
+- [KB 4562153] Liste/kart ızgaralarında çoklu seçim onay kutuları görünmüyor.
+- [KB 4562646] Izgaradaki satırları çoklu olarak seçtikten sonra bazen ızgaranın dışına tıklanmıyor.
+- [KB 4562647] Güvenlik rolleri ızgarasına yeni bir satır eklendikten sonra, odak **Yayımla** iletişim kutusundaki ilk denetime sıfırlanıyor.
+- [KB 4563310] Gelişmiş önizleme bir satır değiştirildikten sonra kapatılmıyor.
+- [KB 4563313] Aramada bir değer seçildiğinde Internet Explorer'da "beklenmeyen istemci hatası" durumu ortaya çıkıyor.
 - [KB 4564557] Aramalar ve açılan menüler Internet Explorer'da açılmıyor
-- [KB 4563324] **Personel yönetimi** çalışma alanı açıldıktan sonra gezinme çalışmaz.
+- [KB 4563324] **Personel yönetimi** çalışma alanı açıldıktan sonra gezinme çalışmıyor.
 
 ### <a name="fixed-as-part-of-10011"></a>10.0.11'nin parçası olarak düzeltildi
 
 - [Sorun 432458] Boş veya yinelenen satırlar bazı alt koleksiyonların başlangıcında gösteriliyor.
-- [KB 4549711] Yeni kılavuz denetimi etkinleştirildikten sonra ödeme teklifindeki satırlar doğru şekilde kaldırılamıyor.
+- [KB 4549711] Yeni ızgara denetimi etkinleştirildikten sonra ödeme teklifindeki satırlar doğru şekilde kaldırılamıyor.
 - [KB 4558374] Çok biçimli seçici iletişim kutusu gerektiren kayıtlar oluşturulamıyor.
-- [KB 4558375] Yardım metni yeni kılavuzdaki sütunlarda gösterilmiyor.
+- [KB 4558375] Yardım metni yeni ızgaradaki sütunlarda gösterilmiyor.
 - [KB 4558376] Liste Paneli ızgaraları, Internet Explorer'da doğru yükseklikte işlenmiyor.
 - [KB 4558377] **SizeToAvailable** genişliği olan birleşik açılan kutu sütunları bazı sayfalarda işlenmiyor.
 - [KB 4558378] Detaya gitme bazen yanlış kaydı açıyor.
 - [KB 4558379] **ReplaceOnLookup**=**Hayır** olduğunda aramalar açıldığında hata oluşuyor.
-- [KB 4558380] Kılavuzdaki kullanılabilir alan, sayfanın bir bölümü daraltıldıktan hemen sonra doldurulmuyor.
-- [KB 4558381] Eksi sayılar doğru işlenmiyor / Kullanıcılar bazen doğrulama sorunlarıyla karşılaştıktan sonra takılıyor.
+- [KB 4558380] Izgaradaki kullanılabilir alan, sayfanın bir bölümü daraltıldıktan hemen sonra doldurulmuyor.
+- [KB 4558381] Negatif sayılar doğru işlenmiyor / Kullanıcılar bazen doğrulama sorunlarıyla karşılaştıktan sonra takılıyor.
 - [KB 4558382] Beklenmeyen istemci hataları oluşuyor.
-- [KB 4558383] Son kayıt silindikten sonra kılavuzun dışındaki denetimler güncelleştirilemiyor.
+- [KB 4558383] Son kayıt silindikten sonra ızgara dışındaki denetimler güncelleştirilemiyor.
 - [KB 4558587] Değiştirme alanları için birleşik kutular içeren referans grupları değerleri göstermiyor.
-- [KB 4562143] Alanlar satır değişikliğinden sonra güncelleştirilimiyor / Kılavuz işleme satır silme işleminden takılıyor.
-- [KB 4562645] Uzak sunucu yönetim araçları (RSAT) sınamaları çalışırken bir arama açıldığında özel durum oluşur.
+- [KB 4562143] Alanlar satır değişikliğinden sonra güncelleştirilimiyor / Izgara işleme satır silme işleminden sonra takılıyor.
+- [KB 4562645] Regression Suite Automation Tool (RSAT) testleri çalışırken bir arama açıldığında özel durum oluşur.
 
 ### <a name="fixed-as-part-of-10010"></a>10.0.10'un parçası olarak düzeltildi
 
-- [Sorun 414301] Yeni satırlar oluşturulduğunda, önceki satırlardaki veriler kayboluyor.
-- [Hata 417044] Liste stili kılavuzlar için boş kılavuz iletisi yok.
-- [KB 4539058] Bazı kılavuzlar (genellikle hızlı sekmelerde) bazen işlenmiyor (ancak, uzaklaştırdığınızda işleniyorlar).
-- [KB 4549734] İşaretleme sütunu gizli ise, etkin satırlar işaretlenmiş olarak kabul edilmiyor.
-- [KB 4549796] Bir kılavuzda görünüm modundayken değerler düzenlenemiyor.
-- [KB 4558367] Satırlar değiştiğinde metin seçimi tutarsız.
+- [Sorun 414301] Yeni satırlar oluşturulduğunda, önceki satırlardaki bazı veriler kayboluyor.
+- [Hata 417044] Liste stili ızgaralar için boş ızgara iletisi yok.
+- [KB 4539058] Bazı ızgaralar (genellikle hızlı sekmelerde) bazen işlenmiyor (ancak uzaklaştırdığınızda işleniyorlar).
+- [KB 4549734] İşaretleme sütunu gizliyse etkin satırlar işaretlenmiş olarak kabul edilmiyor.
+- [KB 4549796] Izgarada görünüm modundayken değerler düzenlenemiyor.
+- [KB 4558367] Satırlar değiştiğinde metin seçimi tutarsız oluyor.
 - [KB 4558368] Tek seçimli senaryolarda klavyeyle çoklu seçim yapılmasına izin veriliyor.
-- [KB 4558369] Durum görüntüleri hiyerarşik kılavuzda kayboluyor.
+- [KB 4558369] Durum görüntüleri hiyerarşik ızgarada kayboluyor.
 - [KB 4558370] Yeni bir satır görünüme kaydırılmıyor.
-- [KB 4558372] Yapıştırıldığı içerikteki sütun sayısı kılavuzdaki kalan sütunların sayısını aşarsa, yeni kılavuz işleme modunda takılıyor.
+- [KB 4558372] Yapıştırıldığı içerikteki sütun sayısı ızgaradaki kalan sütunların sayısını aşarsa, yeni kılavuz işleme modunda takılıyor.
 - [KB 4562631] Zaman değerleri doğru şekilde biçimlendirilmiyor.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>10.0.9/Platform güncelleştirmesi 33 için kalite güncelleştirmesi

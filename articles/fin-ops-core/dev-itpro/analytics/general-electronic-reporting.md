@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
-ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
+ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "3421667"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682611"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -280,7 +279,7 @@ ER, LCS'den aktarıla bir bileşenin güncel sürümünden (temel) yeni bir bile
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Temel biçimin yeni sürümünü seçerek bir biçim yükseltme (rebase)
 
-ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen her değişiklik bir çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
+ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme* olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen her değişiklik bir çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>Finance çözümüne teslim edilen ER konfigürasyonları listesi
 
@@ -291,7 +290,7 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 | BAS-modeli                                        | Vergi raporlama         |                                                   |                                                                    |
 |                                                  |                       | BAS (AU)                                          | Avustralya için BAS biçimi                                           |
 | İnşaat sektörü plan modeli               | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | CIS aylık iade (İNG.)                           | İngiltere için CIS aylık iade biçimi                   |
+|                                                  |                       | CIS aylık iade (İNG.)                           | Birleşik Krallık için CIS aylık iade biçimi                   |
 | Tahsilat mektubu modeli                          | Elektronik faturalama  |                                                   |                                                                    |
 |                                                  |                       | OIOUBL Tahsilat Mektubu (DK)                     | Danimarka için OIOUBL tahsilat mektup biçimi                        |
 | Elektronik genel muhasebe modeli (MX)          | Vergi raporlama         |                                                   |                                                                    |
@@ -306,8 +305,8 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 |                                                  |                       | AB Satış listesi (DK)                                | Danimarka için AB Satış listesi TXT biçimi                               |
 |                                                  |                       | AB Satış listesi (FR)                                | Fransa için AB Satış listesi XML biçimi                                |
 |                                                  |                       | AB Satış listesi (NL)                                | Hollanda için AB Satış listesi biçimi                           |
-|                                                  |                       | AB Satış listesi TXT (UK)                            | İngiltere için AB Satış listesi TXT biçimi                    |
-|                                                  |                       | AB Satış listesi XML (UK)                            | İngiltere için AB Satış listesi XML biçimi                    |
+|                                                  |                       | AB Satış listesi TXT (UK)                            | Birleşik Krallık için AB Satış listesi TXT biçimi                    |
+|                                                  |                       | AB Satış listesi XML (UK)                            | Birleşik Krallık için AB Satış listesi XML biçimi                    |
 |                                                  |                       | Rapor sütunlu AB Satış listesi                   | Rapor sütunlu AB Satış listesi                                    |
 |                                                  |                       | Satır raporlu AB Satış listesi                      | Satır raporlu AB Satış listesi                                       |
 | FEC hesap modeli (FR)                        | Vergi raporlama         |                                                   |                                                                    |
@@ -320,7 +319,7 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 |                                                  |                       | Intrastat INTRACOM (FR)                           | Fransa için İntrastat INTRACOM biçimi                               |
 |                                                  |                       | Intrastat SAISUNIC (FR)                           | Fransa için Intrastat SAISUNIC biçimi                               |
 |                                                  |                       | Intrastat (NL)                                    | Hollanda için Intrastat biçimi                               |
-|                                                  |                       | Intrastat (UK)                                    | İngiltere için Intrastat biçimi                            |
+|                                                  |                       | Intrastat (UK)                                    | Birleşik Krallık için Intrastat biçimi                            |
 |                                                  |                       | Intrastat raporu                                  | Intrastat Excel kontrol raporu                                     |
 | Müşteri faturası modeli                           | Elektronik faturalama  |                                                   |                                                                    |
 |                                                  |                       | OIOUBL Proje kredi notu (DK)                   | Danimarka için OIOUBL Proje kredi notu biçimi                      |
@@ -351,7 +350,7 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 |                                                  |                       | ISO20022 Otomatik ödeme (FR)                        | Fransa için SEPA otomatik ödeme biçimi                                |
 |                                                  |                       | ISO20022 Otomatik ödeme (DE)                        | Almanya için SEPA otomatik ödeme biçimi                               |
 |                                                  |                       | ISO20022 Otomatik ödeme (NL)                        | Hollanda için SEPA Otomatik ödeme biçimi                       |
-|                                                  |                       | BACS (İNG.)                                         | İngiltere için BACS satıcı ödeme biçimi                  |
+|                                                  |                       | BACS (İNG.)                                         | Birleşik Krallık için BACS satıcı ödeme biçimi                  |
 | Ters gider                                   | Vergi raporlama         |                                                   |                                                                    |
 |                                                  |                       | Ters gider satış listesi                         | Ters gider satış listesi biçimi                                   |
 | Hollanda XBRL tümleştirme modeli                     | XBRL raporlama        |                                                   |                                                                    |

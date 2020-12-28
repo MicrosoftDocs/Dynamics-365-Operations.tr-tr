@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143111"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684392"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
 
@@ -40,14 +39,14 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
     * Test amacıyla biçimi çalıştırın.  
 6. Ciro edilebilir çek biçimi alanında Evet'i işaretleyin.
 7. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Şirket logosunun hem raporda hem de kişinin imzasında görüleceğini unutmayın. İmza resmi seçilen banka hesabıyla ilişkilendirilmiş 'Konteyner' veri türünün çek düzeni alanından alınır.  
+    * Oluşturulan sonucu inceleyin. Raporda hem şirket logosu hem de yetkili kişinin imzası görünür. İmza resmi seçilen banka hesabıyla ilişkilendirilmiş çek düzeni kaydının "Kapsayıcı" veri türü alanından alınır.  
 8. Kopyalar bölümünü genişletin.
 9. Düzenle öğesine tıklayın.
 10. Filigran alanında 'Filigranı Geçersiz olarak yazdır' girin.
     * Bir Excel şekli öğesinde belge oluştururken filigranı göstermek için filigran biçim ayarını değiştirin.  
 11. Testi yazdır'a tıklayın.
 12. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Filigranın oluşturulan raporda seçin seçeneğine uygun olarak gösterileceğini unutmayın.  
+    * Oluşturulan sonucu inceleyin. Filigran, oluşturulan raporda seçim seçeneğine uygun olarak gösterilir.  
 13. Sayfayı kapatın.
 14. Eylem Bölmesinde, Ödemeleri yönet'e tıklayın.
 15. Çekler'i tıklatın.
@@ -56,7 +55,7 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 18. Listede, tüm satırları işaretleyin.
 19. Çek kopyasını yazdır'ı tıklatın.
     * Seçilen çekleri yeniden yazdırmak için biçimi çalıştırın.  
-    * Oluşturulan sonucu inceleyin. Seçilen çeklerin yeniden yazdırıldığını unutmayın. Şirket logosu ve etiketleri yazdırılmaz çünkü önceden yazdırılmış formda mevcutturlar.  
+    * Oluşturulan sonucu inceleyin. Seçili çekler yeniden yazdırılır. Şirket logosu ve etiketleri yazdırılmaz çünkü önceden yazdırılmış formda mevcutturlar.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>İçe aktarılan veri modelinin eşlemesini değiştirin
 1. Sayfayı kapatın.
@@ -66,7 +65,7 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 5. Tasarımcı'yı tıklatın.
 6. Modeli veri kaynağına eşle'yi tıklayın.
 7. Tasarımcı'ya tıklayın.
-    * Seçilen banka hesabıyla ilişkilendirilmiş çek biçim kaydına eklenmiş olan dosyadan imza resmi almak için veri modelinin imza öğesini değiştireceğiz.  
+    * Seçilen banka hesabıyla ilişkilendirilmiş çek düzeni kaydına eklenmiş olan dosyadan imza resmi almak için veri modelinin imza öğesi bağlamasını değiştireceğiz.  
 8. Ayrıntıları göster'i kapatın.
 9. Ağaçta, 'düzen' metnini genişletin.
 10. Ağaçta, 'düzen\imza' öğesini genişletin.
@@ -91,7 +90,7 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 4. Denetle'yi tıklatın.
 5. Testi yazdır'a tıklayın.
 6. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Belge yönetim ekinin, yetkili bir kişinin imzası olarak gösterileceğini unutmayın.  
+    * Oluşturulan sonucu inceleyin. Belge Yönetimi ekinden alınan resim, yetkili kişinin imzası olarak gösterilir.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>MS Word belgesini içe aktarılan biçimde bir şablon olarak kullanın
 1. Sayfayı kapatın.
@@ -118,5 +117,5 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 21. Denetle'yi tıklatın.
 22. Testi yazdır'a tıklayın.
 23. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Çıktının şirket logosunu, yetkili kişinin imzasını ve filigranın seçilen metnini gösteren bir MS Word belgesi olarak oluşturulduğunu unutmayın.  
+    * Oluşturulan sonucu inceleyin. Çıktı; şirket logosunu, yetkili kişinin imzasını ve seçili filigran metinini gösteren ekli resimler içeren bir Word belgesi olarak oluştulur.  
 

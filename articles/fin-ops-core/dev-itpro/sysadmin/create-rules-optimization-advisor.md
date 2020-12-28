@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985231"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687623"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 
@@ -195,7 +194,7 @@ class ScanNewRulesJob
 
 Kural **Sistem yönetimi** > **Periyodik görevler** > **Tanı doğrulama kuralını koru** altında bulunan **Tanılama doğrulama kuralı** formunda görüntülenir. Değerlendirilmesini sağlamak için, **Sistem yönetimi** > **Periyodik görevler** > **Tanılama doğrulama kuralı planla**'ya gidin ve kural sıklığını (**Günlük** gibi) seçin. **Tamam** seçeneğini tıklatın. Yeni fırsatı görüntülemek için **Sistem yönetimi** > **En iyi duruma getirme danışmanı**'na gidin. 
 
-Aşağıdaki örnek gerekli tüm yöntemleri ve öznitelikleri içeren bir kuralın iskeletine sahip bir kod parçasıdır. Yeni kurallar yazmaya başlamanıza yardımcı olur. Örnekte kullanılan etiketler ve eylem menüsü öğeleri yalnızca tanıtım amacıyla kullanılır.
+Aşağıdaki örnek gerekli tüm yöntemleri ve öznitelikleri içeren bir kuralın iskeletine sahip bir kod parçasıdır. Yeni kurallar yazmaya başlamanıza yardımcı olur. Örnekte kullanılan etiketler ve eylem menüsü öğeleri yalnızca tanıtım amacıyla kullanılmıştır.
 
 ```xpp
 [DiagnosticsRuleAttribute]

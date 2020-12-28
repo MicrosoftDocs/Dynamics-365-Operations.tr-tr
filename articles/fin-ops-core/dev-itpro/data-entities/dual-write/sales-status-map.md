@@ -19,11 +19,11 @@ ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997686"
+ms.locfileid: "4458213"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Satış siparişi durumu alanları için eşlemeyi ayarlama
 

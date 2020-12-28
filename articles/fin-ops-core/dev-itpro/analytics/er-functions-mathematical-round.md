@@ -3,7 +3,7 @@ title: ROUND ER işlevi
 description: Bu konu, ROUND Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12af71a024a76fca98fc2e876da9b59e5762cf07
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 83fb5c04938e0aba1277f2d6017d4b66208a8858
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3744563"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683268"
 ---
 # <a name="round-er-function"></a>ROUND ER işlevi
 
@@ -57,7 +56,7 @@ Sonuç sayısal değeri.
 
 Ondalık parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı birçok `decimals` basamağa yuvarlanır.
 
-`decimals` bağımsız değişkeni değeri **0** (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.
+`decimals` bağımsız değişkeni değeri **0** (sıfır) ise, belirtilen sayı en yakın çift tamsayıya yuvarlanır.
 
 `decimals` bağımsız değişkeni değeri 0'dan (sıfır) küçükse, belirtilen sayı ondalık basamağın soluna yuvarlanır.
 
@@ -69,6 +68,10 @@ Ondalık parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı bir�
 
 `ROUND (1200.767, -3)`, 1.000'in en yakın katına yuvarlar ve **1000** döndürür.
 
+## <a name="example-3"></a>Örnek 3
+
+`ROUND (1200.5, 0)`, en yakın çift tamsayıya yuvarlanır ve **1200** değerini döndürür, `ROUND (1201.5, 0)` de aynısını yapar ve **1202** değerini döndürür.
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Matematik işlevi](er-functions-category-mathematical.md)
+[Matematiksel işlevler](er-functions-category-mathematical.md)

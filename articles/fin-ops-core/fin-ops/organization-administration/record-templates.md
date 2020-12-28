@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 16101
 ms.assetid: 61ada2d8-84c3-44bc-b4c5-516b1aeac3d1
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a8f924a5c2dad45d2006240230b85592d56e676
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0b55046e6c523398b4a30e674dc9f77bb6fedf3
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180428"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693220"
 ---
 # <a name="record-templates-overview"></a>Kayıt şablonlarına genel bakış
 

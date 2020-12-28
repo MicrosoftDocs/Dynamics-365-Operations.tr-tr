@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e56a4e50f7bd325890fbec44828c7a110a5cc1
-ms.sourcegitcommit: 7a855deed9f95ca2589f38db214890464b2b9061
+ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "2951175"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693916"
 ---
 # <a name="address-books-faq"></a>Adres defterleriyle ilgili SSS
 

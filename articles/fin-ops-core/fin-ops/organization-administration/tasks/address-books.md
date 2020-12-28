@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 587f1b28a2745bd7f1a63bcc7f24c9a3ad876db1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 17e36511f4e8c320338032d0df733309005d4021
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144007"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694897"
 ---
 # <a name="configure-address-books"></a>Adres defterlerini yapılandır
 

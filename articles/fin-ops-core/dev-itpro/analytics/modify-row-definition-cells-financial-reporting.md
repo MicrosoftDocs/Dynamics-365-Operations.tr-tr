@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183003"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685871"
 ---
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
@@ -107,8 +106,8 @@ Açıklama hücresi raporun satırındaki "Gelir" veya "Net Gelir" gibi mali ver
     |-------------------------------|-----------------------------------|--------|
     | (Yok)                        |                                   | **Biçim Kodu** hücresini temizler. |
     | TOT                           | Toplam                             | **İlgili Formüller/Satır/Birim** sütununda matematiksel işleçler kullanan bir satırı belirtir. Toplamlar **+** veya **-** gibi basit işleçler içerir. |
-    | CAL                           | Hesaplama                       | **İlgili Formüller/Satır/Birim** sütununda matematiksel işleçler kullanan bir satırı belirtir. Hesaplamalar **+**, **-**, **\***, **/** ve **IF/THEN/ELSE** ifadeleri gibi karmaşık işleçler içerir. |
-    | DES                           | Açıklama                       | Bir rapordaki başlık satırını veya boş bir satırı tanımlar. |
+    | CAL                           | Hesaplama                       | **İlgili Formüller/Satır/Birim** sütununda matematiksel işleçler kullanan bir satırı belirtir. Hesaplamalar **+**, **-**, **\**_, _*/** gibi işleçleri ve **IF/THEN/ELSE** deyimlerini içerir. |
+    | DES                           | Tanım                       | Bir rapordaki başlık satırını veya boş bir satırı tanımlar. |
     | LFT RGT CEN                   | Sol Sağ Orta                 | Metnin sütun tanımındaki yerinden bağımsız olarak rapor sayfasındaki satır açıklaması metnini hizalar. |
     | CBR                           | Temel Satırı Değiştir                   | Sütun hesaplamaları için temel satırı ayarlayan bir satır tanımlar. |
     | COLUMN                        | Sütun sonu                      | Raporda yeni bir sütun başlatır. |
@@ -175,7 +174,7 @@ Bir satır tanımındaki **Biçim Kodu** sütununda **DES**, **LFT**, **RGT**, *
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Satırların yazdırılmasını engellemeye ilişkin örnek
 
-Aşağıdaki örnekte Phyllis raporun başlığının ve **Toplam Nakit** satırındaki alt çizgilerin yazdırılmasını engellemek istiyor, çünkü nakit tutarlarının hiçbirinde faaliyet bulunmuyor. Bu nedenle, 220 satırında (**---** biçim kodunun da belirttiği gibi bir biçimlendirme satırıdır), **İlgili Formüller/Satırlar/Birimler** hücresinde, baskılamak istediği tutar satırının satır kodu olan **250** değerini giriyor.
+Aşağıdaki örnekte nakit tutarlarının hiçbiriyle ilgili bir etkinlik gerçekleşmediğinden bir kullanıcı, raporun **Toplam Nakit** satırındaki başlığın ve alt çizgilerin yazdırılmasını engellemek istiyor. Bu nedenle, 220 satırında (**---** biçim kodunun da belirttiği gibi bir biçimlendirme satırıdır), **İlgili Formüller/Satırlar/Birimler** hücresinde, baskılamak istediği tutar satırının satır kodu olan **250** değerini giriyor.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -330,7 +329,7 @@ Tür pozitif değeri ve ardından negatif değeri temsil etmelidir. Genellikle p
 | %0,00;(%0,00)                  | %123456,00 | (123456.00%) | 0.00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Normal Bakiye hücresi belirtme
-Bir satır tanımındaki **Normal Bakiye** hücresi bir satırdaki tutarların işaretini kontrol edin. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirlerden çıkarırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki**XCR** yazdırma denetimi, **Normal Bakiye** sütununda bir **C** içeren her türlü satırın işaretini ters çevirir. Bu biçimlendirme özellikle tüm olumsuz varyansları negatif tutarlar olarak göstermek istediğinizde önemlidir. Toplanan veya hesaplanan sayı yanlış işarete sahipse işareti ters çevirmek için satırın **Normal Bakiye** hücresine bir **C** girin.
+Bir satır tanımındaki **Normal Bakiye** hücresi bir satırdaki tutarların işaretini kontrol edin. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirlerden çıkarırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki **XCR** yazdırma denetimi, **Normal Bakiye** sütununda bir **C** içeren her türlü satırın işaretini ters çevirir. Bu biçimlendirme özellikle tüm olumsuz varyansları negatif tutarlar olarak göstermek istediğinizde önemlidir. Toplanan veya hesaplanan sayı yanlış işarete sahipse işareti ters çevirmek için satırın **Normal Bakiye** hücresine bir **C** girin.
 
 ## <a name="specify-a-row-modifier-cell"></a>Satır Değiştirici hücresi belirtme
 Bir satır tanımındaki **Satır Değiştirici** hücresinin içeriği söz konusu satıra ait sütun tanımında belirtilen mali yıllar, dönemler ve diğer bilgileri geçersiz kılar. Seçilen değiştirici satırdaki her hesaba uygulanır. Aşağıdaki değiştirici türlerinden birini veya daha fazlasını kullanarak her satırı değiştirebilirsiniz:
@@ -416,14 +415,14 @@ Varsayılan olarak, rapor tasarımcısı mali verilerinde karşılık gelen bir 
 3. Yaptığınız değişiklikleri kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Bir satır tanımında joker karakterleri ve aralıkları kullanma
-**Boyutlar** iletişim kutusuna bir doğal segment değeri girdiğinizde, bir segmentin herhangi bir konumuna bir joker karakter (? veya \*) girebilirsiniz. Rapor tasarımcısı, joker karakterleri dikkate almadan tanımlanan konumlar için tüm değerleri ayıklar. Örneğin, satır tanımı yalnızca doğal segment değerlerini içeriyor ve doğal segmentler dört karaktere sahip. Bir satıra **6???** girerek rapor tasarımcısına 6 ile başlayan bir doğal segment değerine sahip tüm hesapları dahil etmesini söylersiniz. **6\*** girerseniz aynı sonuçları döndürülür, ancak sonuçlar **60** ve **600000** gibi değişken genişlikli değerleri de içerir. Rapor tasarımcısı her bir joker karakterini (?) harfler ve özel karakterler içeren tam bir olası değer aralığıyla değiştirir. Örneğin,**12?0** ile **12?4** arasındaki aralıkta, **12?0** altındaki joker karakteri, karakter setindeki en düşük değerle değiştirilir ve **12?4** altındaki joker karakteri, karakter setindeki en yüksek değerle değiştirilir.
+**Boyutlar** iletişim kutusuna bir doğal segment değeri girdiğinizde, bir segmentin herhangi bir konumuna bir joker karakter (? veya \*) girebilirsiniz. Rapor tasarımcısı, joker karakterleri dikkate almadan tanımlanan konumlar için tüm değerleri ayıklar. Örneğin, satır tanımı yalnızca doğal segment değerlerini içeriyor ve doğal segmentler dört karaktere sahip. Bir satıra **6???** girerek rapor tasarımcısına 6 ile başlayan bir doğal segment değerine sahip tüm hesapları dahil etmesini söylersiniz. **6\**_ girerseniz aynı sonuçlar döndürülür ancak sonuçlar _* 60** ve **600000** gibi değişken genişliği değerleri de içerir. Rapor tasarımcısı her bir joker karakterini (?) harfler ve özel karakterler içeren tam bir olası değer aralığıyla değiştirir. Örneğin,**12?0** ile **12?4** arasındaki aralıkta, **12?0** altındaki joker karakteri, karakter setindeki en düşük değerle değiştirilir ve **12?4** altındaki joker karakteri, karakter setindeki en yüksek değerle değiştirilir.
 
 > [!NOTE]
 > Aralığın başlangıç ve bitiş hesapları için joker karakterler kullanmaktan kaçınmalısınız. Başlangıç hesabında veya bitiş hesabında joker karakterleri kullanırsanız beklenmedik sonuçlarla karşılaşabilirsiniz.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Tek segmentli veya tek boyutlu aralıklar
 
-Bir segment değerleri veya boyut değerleri aralığı belirtebilirsiniz. Bir aralık belirlemenin avantajı, mali verilere yeni bir segment değeri veya boyut değeri eklendiğinde her defasında satır tanımını güncelleştirmenize gerek kalmamasıdır. Örneğin, **+Hesap=\[[6100:6900\]** aralığı, 6100 ile 6900 arasındaki hesaplardan değerleri satır tutarına çeker. Bir aralık bir joker karakter (?) içeriyorsa, rapor tasarımcısı aralığı karakterlere dayalı bir şekilde değerlendirmez. Bunun yerine, aralığın düşük ve yüksek noktaları belirlenir ve ardından bitiş değerleri ve bunlar arasında kalan tüm değerler dahil edilir.
+Bir segment değerleri veya boyut değerleri aralığı belirtebilirsiniz. Bir aralık belirlemenin avantajı, mali verilere yeni bir segment değeri veya boyut değeri eklendiğinde her defasında satır tanımını güncelleştirmenize gerek kalmamasıdır. Örneğin, **+Hesap=\[6100:6900\]** aralığı, 6100 ile 6900 arasındaki hesaplardan değerleri satır tutarına çeker. Bir aralık bir joker karakter (?) içeriyorsa, rapor tasarımcısı aralığı karakterlere dayalı bir şekilde değerlendirmez. Bunun yerine, aralığın düşük ve yüksek noktaları belirlenir ve ardından bitiş değerleri ve bunlar arasında kalan tüm değerler dahil edilir.
 
 > [!NOTE]
 > Rapor Tasarımcısı Microsoft Dynamics ERP sisteminden şu ayrılmış karakterlerden herhangi birini içeren hesaplar, boyutlar veya alanları seçemez: &, \*, \[, \], {, veya }. **Boyutlardan Satır Ekle** iletişim kutusunu kullanarak yalnızca otomatik olarak satır tanımları oluştururken ampersand (&) ekleyebilirsiniz.

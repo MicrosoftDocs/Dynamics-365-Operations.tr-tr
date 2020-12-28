@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 27621
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321678"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681412"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER şablonlarının yedekleme depolaması
 

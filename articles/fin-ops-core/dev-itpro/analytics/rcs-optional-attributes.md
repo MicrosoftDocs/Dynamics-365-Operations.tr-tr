@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 14b14dd609805a7cf9331427012b991791698cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117437"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686673"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Dosyaları isteğe bağlı özniteliklerle XML biçiminde içe aktarma
 

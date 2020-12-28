@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
-ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
+ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970691"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694507"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 

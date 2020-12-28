@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: 4b50a170bb9e584501fe780239228dc871ca7750
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893147"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681316"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -255,7 +254,7 @@ Aşağıdaki grafik, **Alacak hesapları memuru** rolüne atanan kullanıcılar 
 
 ![İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-EditingTemplate1.png)
 
-**Şablon** sekmesi seçili şablonun içeriğini gösterir. Seçili şablonun ayrıntılarını ve bu şablonun içinde bulunduğu er biçim yapılandırmasının ayrıntılarını gözden geçirmek için **Ayrıntılar** sekmesini seçin. Tüm şablonların **Yayımlanmış**durumu olduğuna ve **Düzeltme** sütununda hiçbir ayrıntı içermediğini unutmayın. Bu, bu şablonların şu anda düzenlenmediği anlamına gelir.
+**Şablon** sekmesi seçili şablonun içeriğini gösterir. Seçili şablonun ayrıntılarını ve bu şablonun içinde bulunduğu er biçim yapılandırmasının ayrıntılarını gözden geçirmek için **Ayrıntılar** sekmesini seçin. Tüm şablonların **Yayımlanmış** durumu olduğuna ve **Düzeltme** sütununda hiçbir ayrıntı içermediğini unutmayın. Bu, bu şablonların şu anda düzenlenmediği anlamına gelir.
 
 **İş belgeleri yönetimi için Office benzeri kullanıcı arabirimi deneyimi** özelliği **Özellik yönetimi** çalışma alanında etkin olduğunda, **İş belgesi yönetimi** çalışmal alanındaki ana kılavuz ER yapılandırması sağlayıcınızın sahibi olduğu şablonları gösterir (**Elektronik raporlama** çalışma alanında etkin olarak işaretlenmiş olan geçerli sağlayıcı). Bu şablonlardan birini seçtikten sonra, başlatmak veya düzenlemeye devam etmek için **Şablonu düzenle**'yi seçebilirsiniz.
 
@@ -389,7 +388,7 @@ Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluş
 ![İş belgesi yönetimi çalışma alanı sayfası](./media/BDM-Overview-RevokeChanges.png)
 
 1. **BDM Şablon Düzenleyicisi** sayfasında **Şablon** sekmesini seçin.
-2. **Geri Al**seçeneğini belirleyin.
+2. **Geri Al** seçeneğini belirleyin.
 3. Şablon için tanıtılan değişiklikleri iptal etmek için **Tamam**'ı seçerseniz, değiştirilen şablon orijinal şablonla değiştirilir ve tüm değişiklikler kaldırılır. Şablonda yapılan değişiklikleri iptal ettiğinizde, şablonu silebilirsiniz. Diğer seçenekleri keşfetmek için **İptal**'i seçin.
 
 ### <a name="publish-a-modified-template"></a>Değiştirilmiş şablonu yayınlama

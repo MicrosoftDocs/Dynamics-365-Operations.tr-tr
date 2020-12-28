@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248725"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695127"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi ayarlama ve yükleme
 Bu konu, RSAT ve RSAT kullanmayla ilgili araçları almanıza ve bu kurulumu başlatmanıza yardımcı olan bir eğitimdir. 
@@ -80,7 +79,7 @@ Aksi takdirde, bu öğreticide yeni bir Azure DevOps proje oluşturmanız öneri
 3. Aşağıdaki alanları doldurun ve **Oluştur**'u seçin:
 
     - **Proje adı**
-    - **Sürüm kontrolü** –  **Team Foundation Sürüm Kontrolü**nü seçin. **Git** varsayılan seçeneğinin desteklenmediğini unutmayın.
+    - **Sürüm kontrolü** –  **Team Foundation Sürüm Kontrolü** nü seçin. **Git** varsayılan seçeneğinin desteklenmediğini unutmayın.
     - **İş maddesi süreci**
 
     ![Yeni proje iletişim kutusu oluştur](./media/setup_rsa_tool_04.png)
@@ -218,7 +217,7 @@ Bu adım, LCS ile ilgili olarak görev kayıtlarının istemci aracılığıyla 
 
 1. İstemciyi açın.
 2. **Sistem Yönetimi \> Kurulum \> Sistem parametreleri**'ne gidin.
-3. **Yardım** sekmesinde **Lifecycle Services yardım yapılandırması** alanında ilgili LCS projesini (bu eğiticide**RSAT**) seçin.
+3. **Yardım** sekmesinde **Lifecycle Services yardım yapılandırması** alanında ilgili LCS projesini (bu eğiticide **RSAT**) seçin.
 
     ![Yardım sekmesindeki Lifecycle Services Yardımı yapılandırma sekmesi](./media/setup_rsa_tool_25.png)
 
@@ -302,7 +301,7 @@ Bir görev kaydı iş sürecine iliştirildiğinde, (sırasıyla) LCS'deki VSTS 
 
     ![Üç nokta menüsünde VSTS eşitleme komutu](./media/setup_rsa_tool_39.png)
 
-    VSTS eşitleme işlemi tamamlandıktan sonra sol tarafta**Gereksinimler** sekmesi görünür ve bu, ilgili Azure DevOps iş öğesini içerir.
+    VSTS eşitleme işlemi tamamlandıktan sonra sol tarafta **Gereksinimler** sekmesi görünür ve bu, ilgili Azure DevOps iş öğesini içerir.
 
     > [!NOTE]
     > Azure DevOps'ta oluşturulan iş öğesi başlığı ön eki olarak BPM kitaplığının adına sahip olacaktır.
@@ -387,7 +386,7 @@ Kimlik doğrulamayı etkinleştirmek için, RSAT'ın çalıştığı bilgisayara
 
     ![Siteler listesinde AOSService](./media/setup_rsa_tool_49.png)
 
-3. **\<Sürücü\>: \\AosService\\WebRoot** dosyasını açmak için **Keşfet**'e sağ tıklayın. **wif.config** dosyasını bulun.
+3. **\<Drive\>: \\AosService\\WebRoot** klasörünü açmak için **Keşfet**'e sağ tıklayın. **wif.config** dosyasını bulun.
 
     ![WebRoot klasöründe wif.config dosyası](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ Kimlik doğrulamayı etkinleştirmek için, RSAT'ın çalıştığı bilgisayara
     ```
 
     > [!NOTE]
-    > Birden fazla kullanıcı aynı uygulamayı kullanıyorsa her kullanıcı ayrı parmak izleri oluşturmalı ve bu parmak izlerinin her biri **\<anahtarlar\>** bölümüne eklenmelidir.
+    > Birden fazla kullanıcı aynı uygulamayı kullanıyorsa her kullanıcı ayrı parmak izleri oluşturmalı ve bu parmak izlerinin her biri **\<keys\>** bölümüne eklenmelidir.
 
 5. Birden fazla AOS bilgisayarı varsa her ek bilgisayar için 3. ile 4. adımları yineleyin.
 
@@ -501,7 +500,7 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
     - **Erişim Belirteci** – Aracın Azure DevOps'a bağlanmasını sağlayan erişim belirtecini girin. Bu öğreticide daha önce oluşturduğunuz kişisel erişim belirtecini kullanın. Daha fazla bilgi için bkz. [Kişisel erişim belirteçleriyle erişimi doğrulama](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **Proje Adı** – Azure DevOps projenizin adını seçin.
     - **Test planı** - Test olaylarınızı içeren Azure DevOps test planını seçin. Daha fazla bilgi için bkz. [Test planları ve test paketleri oluşturma](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Test planı seçtikten sonra Azure DevOps bağlantınızı test etmek için **test bağlantısı**'nı seçin.
-    - **Ana bilgisayar adı** – Test ortamının ana bilgisayar adını **\<myaos\>.cloudax.dynamics.com** örneğindeki gibi girin. **https://** ya da **http://** öneki eklemeyin.
+    - **Ana bilgisayar adı**: Test ortamının ana bilgisayar adını (ör. **\<myaos\>.cloudax.dynamics.com**) girin. **https://** ya da **http://** öneki eklemeyin.
     - **SOAP Ana bilgisayar Adı** – Test ortamının SOAP ana bilgisayar adını girin. Genellikle, SOAP ana bilgisayar adı ana bilgisayar adıyla aynıdır, ancak **soap** soneki vardır. Örnek: **\<myaos\>soap.cloudax.dynamics.com**. **https://** ya da **http://** öneki eklemeyin.
 
         > [!NOTE]
@@ -563,7 +562,7 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
 
     ![Masaüstü çözünürlüğü %100 olarak ayarlandı](./media/setup_rsa_tool_68.png)
 
-6. Tarayıcı sürücüleri sistemde yüklü değilse "Bu işlem \<tarayıcı adı\> sürücüsü gerektirir. Şimdi otomatik olarak karşıdan yükleyip kurmak istiyor musunuz?" uyarısı alacaksınız. **Evet**'i seçin.
+6. Tarayıcı sürücüleri sistemde yüklü değilse "Bu işlem \<browser name\> sürücüsü gerektirir. Şimdi otomatik olarak karşıdan yükleyip kurmak istiyor musunuz?" uyarısı alacaksınız. **Evet**'i seçin.
 
     ![Internet Explorer için uyarı iletisi](./media/setup_rsa_tool_69.png)
 
@@ -772,7 +771,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 
 #### <a name="load-test-cases-into-rsat"></a>RSAT'a test olaylarını yükleme
 
-1. RSAT'ı açın ve **Yükle**yi seçin.
+1. RSAT'ı açın ve **Yükle** yi seçin.
 2. Test olayları yüklenir ve "Bu eylem Excel test veri dosyalarının üzerine yazacak, yerel değişikliklerin kaybolmasına neden olacak. Devam etmek istiyor musunuz?" yazan bir uyarı alacaksınız Excel parametresi dosyalarını yerel sistemde güncelleştirmek ama Azure DevOps'a yüklenen Excel parametre dosyalarını güncelleştirmemek için **Evet**'i seçin.
 
     ![Uyarı iletisi](./media/setup_rsa_tool_102.png)

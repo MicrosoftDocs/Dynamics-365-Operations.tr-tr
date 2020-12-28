@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 490a4f6d1bd9f3bdb0af09bd4e6f7f8fb2c92a1b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b5ad461c86f44d880f57c940f6e3a5cb325f7e08
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984286"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688247"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Satış ve karlılık performansı Power BI içeriği
 
@@ -51,7 +50,7 @@ Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
 **Satış ve karlılık performansı** Power BI içeriği, **Satış ve karlılık performansı** sayfasında gösterilir (**Satış ve pazarlama** \> **Sorgular ve raporlar** \> **Satış performansı analizi** \> **Satış ve karlılık performansı**).
 
-## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan ölçümler
 **Satış ve karlılık performansı** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerikteki görselleştirmelere genel bakış sunulmaktadır.
 
 | Rapor sayfası            | Grafikler                                     | Kutucuklar                                                   |

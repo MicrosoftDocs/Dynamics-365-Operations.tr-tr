@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181853"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688329"
 ---
 # <a name="generate-financial-reports"></a>Mali raporlar oluştur
 
@@ -98,7 +97,7 @@ Bir rapor planını silmek için, rapor planının sahibi olmanız ya da yöneti
 
 Raporlarda yer alan tüm şirketler için gerekli olan kimlik bilgilerini girmezseniz rapor planını kaydettiğinizde şu iletiyi alırsınız: "Bu rapor planında bulunan şirketlere ait kimlik bilgilerinizi girmeniz gerekir. Kimlik bilgilerinizi girmek için İzinler düğmesini seçin."
 
-Örneğin, Pelin kullanıcı adını ve parolasını kullanarak A Şirketinde oturum açıyor. Birden fazla şirketten veri toplamak için bir raporlama ağacı tanımı kullanılan bir rapor için plan oluşturuyor. Bu rapor planı kaydedildiğinde, Pelin'den raporlama ağacı tanımında belirtilen diğer şirketlere ait kimlik bilgilerini girmesi isteniyor. Kimlik bilgilerinizin süresi dolduğunda, rapor planındaki etkilenen raporlar kimlik bilgileri güncelleştirilene kadar oluşturulmaz. Rapor kuyruğunda izinlerin güncelleştirilmesi gerektiğini belirtmek için bir ileti görüntülenir. Aşağıdaki senaryoların biri meydana gelirse rapor planı gerçekleştirilemez (bu senaryolar kimlik bilgileri gerektirdiğinden):
+Örneğin bir kullanıcı, kullanıcı adını ve parolasını kullanarak A Şirketinde oturum açıyor. Kullanıcı, birden fazla şirketten veri toplamak için bir raporlama ağacı tanımı kullanılan bir rapor için plan oluşturuyor. Bu rapor planı kaydedildiğinde, kullanıcıdan raporlama ağacı tanımında belirtilen diğer şirketlere ait kimlik bilgilerini girmesi isteniyor. Kimlik bilgilerinizin süresi dolduğunda, rapor planındaki etkilenen raporlar kimlik bilgileri güncelleştirilene kadar oluşturulmaz. Rapor kuyruğunda izinlerin güncelleştirilmesi gerektiğini belirtmek için bir ileti görüntülenir. Aşağıdaki senaryoların biri meydana gelirse rapor planı gerçekleştirilemez (bu senaryolar kimlik bilgileri gerektirdiğinden):
 
 - Yeni bir şirket tek bir rapor için bir rapor ağacı eklemiştir.
 - Bir rapor grubundaki bir rapor değiştirilmiştir.

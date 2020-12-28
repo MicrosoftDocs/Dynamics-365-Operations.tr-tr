@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f94799b892f09ed978a63ab7e7bd8a6b332ac22b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005860"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687277"
 ---
 # <a name="benefits-power-bi-content"></a>Kazançlar Power BI içeriği
 

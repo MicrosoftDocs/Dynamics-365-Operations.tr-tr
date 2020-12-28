@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005768"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687363"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>İş gücü ölçümleri Power BI içeriği
 

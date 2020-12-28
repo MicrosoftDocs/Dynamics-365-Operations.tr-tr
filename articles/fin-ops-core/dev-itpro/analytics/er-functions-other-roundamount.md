@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 31a28279037ee6bfecd69b9d1e816afbd0de7894
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 15a84b086b324ec390d88e8b2617022ad4773977
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743987"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683075"
 ---
 # <a name="roundamount-er-function"></a>ROUNDAMOUNT ER işlevi
 
@@ -65,7 +64,7 @@ Sonuçta elde edilen sayısal değer `decimals` parametrenin belirttiği değeri
 
 `number` parametre sıfır olduğunda bu işlev her zaman sıfır döndürür.
 
-`decimals` parametre sıfır olduğunda, bu işlev varsayılan yuvarlama değerine yuvarlanır. `round rule` parametre, **RoundOffType.Ordinary**olarak ayarlandığında, varsayılan yuvarlama değeri **0,01**'dir. Aksi durumda, varsayılan yuvarlama değeri **1,0**'dir.
+`decimals` parametre sıfır olduğunda, bu işlev varsayılan yuvarlama değerine yuvarlanır. `round rule` parametre, **RoundOffType.Ordinary** olarak ayarlandığında, varsayılan yuvarlama değeri **0,01**'dir. Aksi durumda, varsayılan yuvarlama değeri **1,0**'dir.
 
 `round rule` parametre, **RoundOffType.Ordinary** olarak ayarlandığında bu işlev normal olarak en yakın yuvarlama miktarına yuvarlanır.
 

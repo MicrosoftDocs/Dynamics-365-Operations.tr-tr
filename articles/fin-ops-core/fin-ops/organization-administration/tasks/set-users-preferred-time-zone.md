@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ffe5101c0848c8c7e76325c1a808581af041f32
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bb34f90e13de765e8b35d9294b847c802fdaf31b
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140456"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694605"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Kullanıcının tercih edilen saat dilimini ayarlama
 

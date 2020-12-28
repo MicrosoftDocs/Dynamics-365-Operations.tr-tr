@@ -1,6 +1,6 @@
 ---
 title: Tümleşik siteler ve ambarlar
-description: Bu konu Finance and Operations ile Common Data Service arasında site ve depo verileri tümleştirmesini açıklar.
+description: Bu konu Finance and Operations ile Dataverse arasında site ve depo verileri tümleştirmesini açıklar.
 author: t-benebo
 manager: AnnBe
 ms.date: 10/09/2019
@@ -18,24 +18,26 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d5c2030160f6025c9de63b2c29215364f5f87e6f
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997637"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679332"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Tümleşik siteler ve ambarlar
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Bu konu Finance and Operations ile Common Data Service arasında site ve depo verileri tümleştirmesini açıklar. Operasyonel tesisler ve ambarlar, Supply Chain Management uygulamasındaki ortak kavramlardır. Bunlar şirketinizin tedarik zincirini modellemek için kullanılırlar.
+
+Bu konu Finance and Operations ile Dataverse arasında site ve depo verileri tümleştirmesini açıklar. Operasyonel tesisler ve ambarlar, Supply Chain Management uygulamasındaki ortak kavramlardır. Bunlar şirketinizin tedarik zincirini modellemek için kullanılırlar.
 
 ## <a name="templates"></a>Şablonlar
 
-Common Data Service ile tümleştirme sayesinde, bu kavramlar ve ilgili tüm bilgiler aşağıdaki tabloda yer alarak siteler ve Common Data Service ambarlar veri varlıkları kullanılarak kullanılabilir.
+Dataverse ile tümleştirme sayesinde, bu kavramlar ve ilgili tüm bilgiler aşağıdaki tabloda yer alan siteler ve ambar veri tabloları kullanılarak Dataverse'te bulunabilir.
 
 Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları | Tanım
 --------------------------|---------------------------|---

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002532"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682661"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -51,7 +50,7 @@ ER formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağı
 - İşlem denetimi doğrulamaları için koşulları tanımlayın.
 - İşlem denetimi doğrulamaları için ileti metnini tanımlayın.
 
-## <a name="Binding"></a>Veri ilişkilendirme
+## <a name="data-binding"></a><a name="Binding"></a>Veri ilişkilendirme
 
 ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri veri tüketicisinde çalışma zamanında aşağıdaki şekillerde girilebilecek şekilde dönüştürecek bir ifade tanımlamak için kullanılabilir:
 
@@ -69,7 +68,7 @@ Aşağıdaki çizim bu tür bir ifadenin nasıl kullanılabileceğini gösterir.
 
 Çalışma zamanında, tasarlanan formül olan `ROUND (Intrastat.AmountMST, 2)` **AmountMST** alanındaki değeri Intrastat tablosundaki her kayıt için iki ondalık basamağa yuvarlar. Daha sonra yuvarlanan değeri **Vergi raporlama** veri modelinin **Transaction.InvoicedAmount** bileşenine girer.
 
-## <a name="Transformation"></a>Veri biçimlendirme
+## <a name="data-formatting"></a><a name="Transformation"></a>Veri biçimlendirme
 
 ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri, elektronik belgenin oluşturulmasında kullanılabilecek şekilde biçimlendirecek bir ifade tanımlamak için kullanılabilir. Bir biçim için yeniden kullanılması gereken tipik bir kural olarak uygulanması gereken bir biçimlendirmeniz olabilir. Bu durumda, bu biçimlendirmeyi biçim yapılandırmasına, biçimlendirme ifadesine sahip adlandırılmış bir dönüştürme olarak bir kez girebilirsiniz. Daha sonra, bu adlandırılmış dönüşüm, oluşturduğunuz biçimlendirme ifadesine çıktının biçimlendirilmesi gereken birçok biçim bileşenine bağlanabilir.
 
@@ -87,7 +86,7 @@ Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirme
 
 [![Ayrı bir bileşene biçimlendirme uygulama](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>İşlem akış denetimi
+## <a name="process-flow-control"></a><a name="Validation"></a>İşlem akış denetimi
 
 ER formül tasarımcısı, elektronik belge oluşturma işlem akışını denetleyen ifadeleri tanımlamak için kullanılabilir. Aşağıdaki görevlerini yerine getirebilirsiniz:
 
@@ -112,7 +111,7 @@ ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturm
 
 [![İşlem akış denetimi](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>Belge içeriği denetimi
+## <a name="document-content-control"></a><a name="Enabled"></a>Belge içeriği denetimi
 
 ER formül tasarımcısı, çalışma zamanında oluşturulan elektronik belgelere hangi verilerin yerleştirileceğini denetleyen ifadeleri konfigüre etmek için kullanılabilir. İfadeler veri işlemeye ve konfigürasyon mantığına bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir. Bu deyimler, **Operasyonlar tasarımcısı** sayfasındaki **Eşleştirme** sekmesinde bulunan **Etkin** alanına tek bir biçim öğesi için girilebilir. İfadeleri *Boole* değeri döndüren bir mantık koşulu olarak girebilirsiniz:
 
@@ -139,7 +138,7 @@ Aşağıdaki çizim bu türde bir ifadeyi gösterir. (Microsoft tarafından sağ
 > 
 > Bu ayara dayalı olarak, her bir borçlu ödeme, **Ustrd** XML öğesi için oluşturulan ileti, her bir ödeme notu metnini içerecektir veya bu metin boş olduğunda, bu ödemeyi kapatmak için kullanılan virgüllü fatura numaralarıyla ayrılmış metin içerir.
 
-## <a name="TestFormula"></a>Yapılandırılan formüllerin doğrulanması
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Yapılandırılan formüllerin doğrulanması
 
 Konfigüre edilen formülün nasıl çalıştığını doğrulamak için **formül Tasarımcısı** sayfasında **test**'i seçin.
 

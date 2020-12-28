@@ -11,31 +11,30 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138872"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679498"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 
 [!include [banner](../includes/banner.md)]
 
-giden belgelerin [biçimlerini](general-electronic-reporting.md#FormatComponentOutbound) çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmak için [Elektronik raporlama](general-electronic-reporting.md) (ER) çerçevesini kullanabilirsiniz. Ayrıca, giden belgelerin ayrıştırılması için [biçimleri](general-electronic-reporting.md#FormatComponentInbound) yapılandırmak ve uygulama verilerini eklemek ya da güncelleştirmek için bu belgelerdeki bilgileri kullanmak için de ER çerçevesini kullanabilirsiniz. Bu biçimlerin her biri, Dynamics 365 Finance kurulumunuzda, belirli bir iş sürecinin parçası olarak gelen veya giden iş belgelerini işlemek için kullanılabilir. 
+giden belgelerin [biçimlerini](general-electronic-reporting.md#FormatComponentOutbound) çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmak için [Elektronik raporlama](general-electronic-reporting.md) (ER) çerçevesini kullanabilirsiniz. Ayrıca, giden belgelerin ayrıştırılması için [biçimleri](general-electronic-reporting.md#FormatComponentInbound) yapılandırmak ve uygulama verilerini eklemek ya da güncelleştirmek için bu belgelerdeki bilgileri kullanmak için de ER çerçevesini kullanabilirsiniz. Bu biçimlerin her biri, Dynamics 365 Finance kurulumunuzda, belirli bir iş sürecinin parçası olarak gelen veya giden iş belgelerini işlemek için kullanılabilir.
 
 Genellikle, belirli bir iş sürecinde hangi ER biçiminin kullanılması gerektiğini belirtmeniz gerekir. Bunu yapmak için, iş sürecine özgü parametrelerin bir parçası olarak yapılandırılan bir arama alanında tek bir ER biçimi seçin. Bu arama alanları genellikle ER çerçevesinin uygun API'sını kullanarak uygulanır. Daha fazla bilgi için bkz. [ER çerçevesi API'sı - bir biçim eşleme aramasını görüntülemek için kod](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
 Örneğin, [dış ticaret parametreleri](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters) yapılandırdığınızda, Intrastat beyannamesini ve Intrastat beyanname denetim raporunu oluşturmak için kullanılacak bireysel ER biçimlerine başvuruları ayarlamanız gerekir. Aşağıdaki ekran görüntüleri, **Dış ticaret parametreleri** sayfasında ER biçimleri arama alanının nasıl göründüğünü gösteriyor.
 
-Geçerli Finance kurulumunda Intrastat iş süreciyle ilgili ER biçimleri yoksa bu arama alanı boş olacaktır.
+Geçerli Finance kurulumunda intrastat iş süreciyle ilgili ER biçimleri yoksa bu arama alanı boş olacaktır.
 
 [![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
@@ -45,7 +44,7 @@ Geçerli Finance kurulumunda Intrastat iş süreciyle ilgili ER biçimleri varsa
 
 Bu arama, yalnızca geçerli Finance kurulumunda zaten içe aktarılmış olan ER biçimlerini sunar. ER çözümlerini geçerli Finance kurulumunda [içe aktarmak için](./tasks/er-import-configuration-lifecycle-services.md), ER biçimlerini içeren ER çözümlerinin [yaşam döngüsünü](general-electronic-reporting-manage-configuration-lifecycle.md) destekleyen ilgili ER çerçevesi işlevini çalıştırmak için izinleriniz olmalıdır.
 
-Finance 10.0.9 sürümünden (Nisan 2020 sürümü) başlayarak, ER çerçevesi API'sı kullanarak uygulanan ER biçim aramasının kullanıcı arabirimi genişletilmiştir. **Biçim yapılandırmasını seç** hızlı sekmesindeki varolan ER biçimlerini yine de seçebilirsiniz. Buna ek olarak, genişletilmiş arama, belirli ER biçimlerini bulmak için Global havuzda (GR) arama yapmak için yeni seçeneği sunuyor. GR'nin tüm ER biçimleri **Global havuzdan içe aktar** hızlı sekmesinde sunulur.
+Finance 10.0.9 sürümünden (Nisan 2020 sürümü) başlayarak, ER çerçevesi API'sı kullanarak uygulanan ER biçim aramasının kullanıcı arabirimi genişletilmiştir. **Biçim yapılandırmasını seç** hızlı sekmesindeki varolan ER biçimlerini yine de seçebilirsiniz. Ayrıca, genişletilmiş arama, belirli ER biçimlerini bulmak için Genel depoda (GR) arama yapmak için yeni bir seçenek sunar. GR'nin tüm ER biçimleri **Global havuzdan içe aktar** hızlı sekmesinde sunulur.
 
 [![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
@@ -55,13 +54,13 @@ Finance 10.0.9 sürümünden (Nisan 2020 sürümü) başlayarak, ER çerçevesi 
 
 [![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Bunun ardından içe aktarma işlemi başarıyla tamamlandıysa, içe aktarılan ER biçimine başvuru bu arama alanında depolanır. GR'ye ilk kez eriştiğinizde, GR depolamaya erişimi yönetmek için kullanılan [Regulatory Configuration Service](https://aka.ms/rcs)'e (RCS) kaydolmak için verilen bağlantıyı izlemeniz gerektiğini unutmayın.
+Bunun ardından içe aktarma işlemi başarıyla tamamlandıysa, içe aktarılan ER biçimine başvuru bu arama alanında depolanır. GR'ye ilk kez eriştiğinizde, GR depolama alanına erişimi yönetmek için kullanılan [Regulatory Configuration Service](https://aka.ms/rcs)'e (RCS) kaydolmak için verilen bağlantıyı izlemeniz gerekir.
 
 [![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Varsayılan olarak, **Global havuzdan içe aktar** hızlı sekmesi, performans iyileştirmeleri için GR içeriğine göre otomatik olarak oluşturulan geçici depolamadan gelen ER biçimlerinin listesini sunar. Bu durum, **Genel havuzdan içe aktar** hızlı sekmesi ilk kez açıldığında olur ve birkaç saniye alabilir.
 
-**Global havuzdan içe aktar** hızlı sekmesinde gerekli ER biçimini görmüyorsanız ancak bu ER biçiminin GR'de depolandığından eminseniz **Eşitle** seçeneğini belirleyin. Bu, geçici depolamayı güncelleştirir ve GR'nin geçerli içeriğiyle eşitler.
+**Global havuzdan içe aktar** hızlı sekmesinde gerekli ER biçimini görmüyorsanız ancak bu ER biçiminin GR'de depolandığından eminseniz **Eşitle** seçeneğini belirleyin. Bu seçenek, geçici depolama alanını güncelleştirir ve GR'nin geçerli içeriğiyle eşitler.
 
 ## <a name="feature-activation"></a>Özellik etkinleştirme
 

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140571"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694801"
 ---
 # <a name="create-an-organization-hierarchy"></a>Bir kuruluş hiyerarşisi oluşturma
 

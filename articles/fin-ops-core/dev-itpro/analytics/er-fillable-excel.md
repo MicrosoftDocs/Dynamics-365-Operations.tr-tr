@@ -3,7 +3,7 @@ title: Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi verilmektedir.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/14/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e889b08f10c5d0c95fed7c9e422340706bdd154a
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375825"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686550"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -165,6 +164,17 @@ Düzenlenebilir bir ER biçimini doğruladığınızda Excel adının şu anda k
 
 ![Doğrulama hatası iletisi](./media/er-excel-format-validate.png)
 
+## <a name="control-the-calculation-of-excel-formulas"></a>Excel formüllerinin hesaplamasını denetleme
+
+Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda, söz konusu belgenin bazı hücrelerinde Excel formülleri olabilir. **Elektronik raporlama çerçevesinde EPPlus kitaplığı kullanımını etkinleştir** özelliği etkinleştirildiğinde, kullanılan Excel şablonundaki **Hesaplama Seçenekleri** [parametresinin](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) değerini değiştirerek formüllerin ne zaman hesaplanacağını kontrol edebilirsiniz.
+
+- Oluşturulan belgeye yeni aralıklar, hücreler vb. her eklendiğinde tüm bağımlı formülleri yeniden hesaplamak için **Otomatik**'i seçin.
+    >[!NOTE]
+    > Bu, birden çok ilişkili formül içeren Excel şablonları için performans sorununa neden olabilir.
+- Belge oluşturulduğunda formüllerin yeniden hesaplanmasını önlemek için **El ile** seçeneğini belirleyin.
+    >[!NOTE]
+    > Formülün yeniden hesaplanması, oluşturulan belge Excel kullanılarak önizleme için açıldığında el ile gerçekleştirilir.
+    > Oluşturulan belgede, formül içeren hücrelerde değer bulunmayabilir. Bu nedenle, Excel'de önizleme olmadan oluşturulan belge kullanımını varsayan bir ER hedefi (PDF dönüşümü, posta gönderme) yapılandırırken bu seçeneği kullanmayın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

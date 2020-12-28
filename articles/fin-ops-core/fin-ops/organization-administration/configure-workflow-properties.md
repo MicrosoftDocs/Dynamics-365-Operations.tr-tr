@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d01a784b0f0cbfce30f1197278f015b236ef0b8
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698156"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693294"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
@@ -114,7 +113,7 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
     2. **Yer tutucu ekle**'yi tıklatın.
     3. Beliren listede, eklenecek yer tutucuyu seçin.
     4. **Ekle**'yi tıklatın.
-    5. Eklenecek ortak **Bildirim metni** yer tutucusu önceki adımdaki yorumları görüntüleyen "Son Notlar: %Workflow.Last note%" öğesidir.
+    5. Eklenecek ortak **Bildirim metni** yer tutucusu önceki adımdaki yorumları görüntüleyen "Son Notlar: %Workflow.Last note%" öğesidir.
 
 6. Metnin çevirilerini eklemek için şu adımları izleyin:
 

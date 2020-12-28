@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367350"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695151"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -49,7 +48,7 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 Herhangi bir arama motorunu kullanarak docs.microsoft.com adresinde içerik bulabilirsiniz. En iyi sonuçları almanız için **site:docs.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
 
 docs.microsoft.com sitesindeki içeriğe ilişkin bir tüm güncelleştirmelerin Çok Basit Besleme (RSS) akışına abone olmak için aşağıdaki bağlantıyı kullanın:
 
@@ -68,7 +67,7 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 > [!NOTE]
 > Belge geribildirimi göndermek istiyorsanız bir GitHub hesabı kullanarak oturum açmanız gerekir. Daha fazla bilgi için bkz. [GitHub profilinizi ayarlama ve yönetme](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Belgelere katkıda bulunma
+## <a name="contribute-to-the-documentation"></a>Belgelere katkıda bulunma
 
 Belgelere katkıda bulunabilir ve düzenlemeler yapabilirsiniz. Başlamak için bir konudaki **Düzenle** düğmesini (kalem simgesi) seçin. Aşağıdaki video, belgelerimize nasıl katkıda bulunabileceğinizi gösterir.
 

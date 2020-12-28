@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 090badd48785dfacf5942426d0fe53629f3c0cda
-ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
+ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3321814"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686380"
 ---
 # <a name="er-migration-cleanup"></a>ER geçişi temizleme 
 

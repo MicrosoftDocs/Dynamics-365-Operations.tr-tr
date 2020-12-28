@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040134"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679968"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Bu konu artık güncelleştirilmeyecektir. Finance and Operations uygulamalardan kaldırılmış veya kullanımı sonlandırılmış özelliklerin geçerli listesini görmek için, kullanmakta olduğunuz uygulamayla ilgili **"Kaldırılan veya Kullanımı sonlandırılan özellikler"** içeriğini arayın.
@@ -137,7 +138,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | TXT biçimi tarafından yeri alındı **Fransa FEC denetim dosyası** , **Genel muhasebe** \> **Periyodik görevler** \> **Veri dışa aktarma** aracılığıyla kullanılabilir.
+| **Kullanımı sonlandırma/kaldırma nedeni** | TXT biçimi tarafından yeri alındı **Fransa FEC denetim dosyası**, **Genel muhasebe** \> **Periyodik görevler** \> **Veri dışa aktarma** aracılığıyla kullanılabilir.
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
 | **Etkilenen ürün alanları**         | Genel muhasebe |
 | **Dağıtım seçeneği**              | Tümü |
@@ -185,7 +186,7 @@ Proje tabanlı satış siparişlerini, proje sözleşmesi birden fazla finansman
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev, parametre kaldırıldıktan sonra her zaman etkin olacaktır. |
 | **Başka bir özellikle mi değiştirildi?**   | Hayır. Proje tabanlı satış siparişlerini birden fazla finansman kaynağı ile destekleme işlevi her zaman etkin olacaktır.   |
-| **Etkilenen ürün alanları**         |**Birden fazla finansman kaynağı olan projeler için satış siparişlerine izin ver** parametresi kaldırılacaktır. Aşağıdaki yöntemler, parametre kaldırıldığında değiştirilir: **ctrlSalesOrderTable** yöntemi, **ProjStatusType** sınıfında, **doğrula** yöntemi **ProjId** alanında ve **çalıştır** yöntemi **SalescreateOrder** formunda. Aşağıdaki yöntemler parametre kaldırıldığında kullanımdan kaldırılır: **IsSalesOrderAllowedForMultipleFundingSources** , **ProjTable** tablo dosyası içinde; **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** yöntemi, **ProjTable** tablo dosyası içinde; **AllowSalesOrdersForMultipleFundingSources** veri alanı, **ProjParameters** formunda ve **ProjParameterEntity** dosyaları, **IsAssociatedToMultipleFundingSourcesContract** özel yöntemi, **ProjTable** tablo dosyasında. |
+| **Etkilenen ürün alanları**         |**Birden fazla finansman kaynağı olan projeler için satış siparişlerine izin ver** parametresi kaldırılacaktır. Aşağıdaki yöntemler, parametre kaldırıldığında değiştirilir: **ctrlSalesOrderTable** yöntemi, **ProjStatusType** sınıfında, **doğrula** yöntemi **ProjId** alanında ve **çalıştır** yöntemi **SalescreateOrder** formunda. Aşağıdaki yöntemler parametre kaldırıldığında kullanımdan kaldırılır: **IsSalesOrderAllowedForMultipleFundingSources**, **ProjTable** tablo dosyası içinde; **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** yöntemi, **ProjTable** tablo dosyası içinde; **AllowSalesOrdersForMultipleFundingSources** veri alanı, **ProjParameters** formunda ve **ProjParameterEntity** dosyaları, **IsAssociatedToMultipleFundingSourcesContract** özel yöntemi, **ProjTable** tablo dosyasında. |
 | **Dağıtım seçeneği**              | Tümü  |
 | **Durum**                         | Kullanımdan kaldırma Nisan 2020 sürüm dalgası için planlanmıştır. |
 
@@ -374,12 +375,12 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI içerik paketleri AppSource'de kullanılabilir
-[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi** , **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
-| **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet** , **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 2. çeyreğidir.    |
@@ -712,7 +713,7 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlevin yerini temel Bordro ve İnsan Kaynakları sayfaları almıştır.  |
-| **Başka bir özellik ile değiştirildi?**   | **Avantajlar** , **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** \> **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
+| **Başka bir özellik ile değiştirildi?**   | **Avantajlar**, **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** \> **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
 | **Etkilenen ürün alanları**         | İnsan kaynaklarını, Bordro   |
 | **Durum**                         | Dynamics 365 for Operations sürüm 1611 itibarıyla kaldırıldı.    |
 
@@ -1157,7 +1158,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS raporları
 
-Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan** , **ayrıntılı mizan** , **hesap planı** , **denetim izi** , **bakiyeler** , ve **bakiye listesi**.
+Aşağıdaki menü öğelerini içeren raporlar kaldırıldı: **Özet mizan**, **ayrıntılı mizan**, **hesap planı**, **denetim izi**, **bakiyeler**, ve **bakiye listesi**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1182,7 +1183,7 @@ Tüzel kişilik ve ilgili bakiye bilgilerini hesapların listesi
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bakiye bilgisi **Mizan** liste sayfasında hesap ve boyut olarak bulunabilir.  |
-| **Başka bir özellik ile değiştirildi?**   | **Ana hesaplar** , **Ana hesap** sayfasında yer alan hesapların listesinin aynısını içerir. **Ana hesaplar** 'daki ızgara görünümü daha da küçük ızgaraya benzer bir görünümü gösterir. |
+| **Başka bir özellik ile değiştirildi?**   | **Ana hesaplar**,**Ana hesap** sayfasında yer alan hesapların listesinin aynısını içerir. **Ana hesaplar**'daki ızgara görünümü daha da küçük ızgaraya benzer bir görünümü gösterir. |
 | **Etkilenen ürün alanları**         | Genel muhasebe      |
 | **Durum**                         | Dynamics AX 7.0 itibarıyla kaldırıldı.    |
 

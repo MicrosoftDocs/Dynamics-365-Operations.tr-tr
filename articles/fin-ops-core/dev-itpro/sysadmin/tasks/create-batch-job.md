@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4903724adc9deaa40b6cd04c215273dd4b0522d4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982538"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679900"
 ---
 # <a name="create-a-batch-job"></a>Toplu iş oluşturma
 

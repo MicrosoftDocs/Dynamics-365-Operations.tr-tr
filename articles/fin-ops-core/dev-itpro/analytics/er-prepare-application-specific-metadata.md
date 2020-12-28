@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771272"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680206"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>RCS ve ER için uygulamaya özel meta verileri hazırlama
 
@@ -166,7 +165,7 @@ Bu prosedürü tamamlamadan önce aşağıdaki prosedürleri tamamlamanız gerek
     10. Sayfayı kapatın.
     11. **Tasarımcı**’yı seçin.
     12. **Tasarımcı**’yı seçin.
-    13. Ağaçta**Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
+    13. Ağaçta **Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
     14. **Kök ekle**'yi seçin.
     15. **Ad** alanına, **İntrastat** girin.
     16. **Intrastat** tablosu kayıtlarını seçin.
@@ -220,8 +219,8 @@ Bu prosedürdeki adımları tamamlamak için öncelikle RCS'deki [Yapılandırma
 ### <a name="register-the-connection-with-the-application"></a>Uygulamayla bağlantıyı kaydetme
 
 1. **Tüm çalışma alanları \> Elektronik raporlama**'ya gidin.
-2. **Bağlı uygulamalar**ı seçin.
-3. Yapılandırılan uygulamanın Microsoft Azure'e bağlı olduğundan ve genel RCS kullanıcıları tarafından erişilebilir olduğundan emin olun. Ayrıca geçerli RCS kullanıcısının seçilen yapılandırılmış uygulamaya erişimi olması ve uygulamanın meta verilerine erişim ayrıcalıkları veren bu uygulamanın bir kullanıcı olarak kayıtlı olması da gerekir.
+2. **Bağlı uygulamalar** ı seçin.
+3. Yapılandırılan uygulamanın Microsoft Azure'e bağlı olduğundan ve genel RCS kullanıcıları tarafından erişilebilir olduğundan emin olun. Ayrıca geçerli RCS kullanıcısının seçilen yapılandırılmış uygulamaya erişimi olması ve uygulamanın meta verilerine erişim ayrıcalıkları sunan bir rolde uygulama kullanıcısı olarak kayıtlı olması gerekir.
 4. **Yeni**'yi seçin.
 5. **Ad** alanına, bağlı uygulamanın adı olarak **MyConnectedApp** girin.
 6. **Uygulama** alanında, uygulamanın URL'sini belirtin.
@@ -245,7 +244,7 @@ Bu prosedürü ve bağlantı doğrulaması başarılıyla tamamladığınızda g
 
 4. **Tasarımcı**’yı seçin.
 5. **Tasarımcı**’yı seçin.
-6. Ağaçta**Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
+6. Ağaçta **Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
 7. **Kök ekle**'yi seçin.
 8. **Tablo** alanında bir değer girin veya bir değer seçin.
 
@@ -264,7 +263,7 @@ Bu prosedürü ve bağlantı doğrulaması başarılıyla tamamladığınızda g
 
 3. **Tasarımcı**’yı seçin.
 4. **Tasarımcı**’yı seçin.
-5. Ağaçta**Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
+5. Ağaçta **Dynamics 365 for Operations \> Tablo kayıtları**'nı seçin.
 6. **Kök ekle**'yi seçin.
 7. **Tablo** alanında bir değer girin veya bir değer seçin.
 

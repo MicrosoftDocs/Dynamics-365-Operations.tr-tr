@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67763b29744c4262249ef1ec04e7df490b31fe5b
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.openlocfilehash: 20e7a32ac5f6ab21f89ed3c11c64458286864c9d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3498121"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680182"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Özel elektronik belge oluşturmak için ER biçimini ayarlama
 
@@ -141,7 +140,7 @@ Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırma
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve Microsoft sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.
 3. **Yapılandırma depoları** sayfasında, **Global** türünün deposunu seçin ve sonra **Aç**'ı seçin. Regulatory Configuration Service bağlanmak için yetkilendirme istenirse, yetkilendirme yönergelerini uygulayın.
-4. **Konfigürasyon depoları** sayfasında, sol bölmedeki yapılandırma ağacında, **BACS (İngiltere)** biçim yapılandırmasını seçin.
+4. **Konfigürasyon depoları** sayfasında, sol bölmedeki yapılandırma ağacında, **BACS (UK)** biçim yapılandırmasını seçin.
 5. **Sürümler** FastTab üzerinde, seçili ER biçim yapılandırmasının gerekli **1.1** sürümünü seçin.
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
@@ -155,11 +154,11 @@ Microsoft Dynamics 365 Finance'un geçerli örneğine standart ER yapılandırma
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
 3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin.
-4. Seçili **BACS (İngiltere)** ER biçimine ek olarak, gerekli diğer acil yapılandırmalar konfigürasyonlarının da içe aktarıldığına dikkat edin. Aşağıdaki ER yapılandırmaların konfigürasyon ağacında kullanılabilir durumda olduğundan emin olun:
+4. Seçili **BACS (UK)** ER biçimine ek olarak, gerekli diğer acil yapılandırmalar konfigürasyonlarının da içe aktarıldığına dikkat edin. Aşağıdaki ER yapılandırmaların konfigürasyon ağacında kullanılabilir durumda olduğundan emin olun:
 
     - **Ödeme modeli** – Bu konfigürasyon, ödeme iş etki alanının veri yapısını temsil eden [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni bileşenini içerir.
     - **Ödeme modeli eşleştirmesi 1611** – Bu konfigürasyon, veri modelinin çalışma zamanında uygulama verileriyle nasıl doldurulduğunu açıklayan [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içerir.
-    - **BACS (İngiltere)** – Bu konfigürasyon [Biçim](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma süresinde bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
+    - **BACS (UK)** – Bu konfigürasyon [Biçim](general-electronic-reporting.md#FormatComponentOutbound) ve biçim eşleme bileşenlerini içerir. Format bileşeni rapor düzenini belirtir. Biçim eşleme bileşeni model veri kaynağını içerir ve çalışma süresinde bu veri kaynağı kullanılarak rapor düzeninin nasıl doldurulacağını belirtir.
 
 ![Yapılandırma sayfası](./media/er-quick-start2-imported-solution1.png)
 
@@ -221,7 +220,7 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 2. **Ödeme yöntemleri - satıcılar** sayfasında, sol bölmedeki **elektronik** ödeme yöntemini seçin.
 3. **Düzenle** öğesini seçin.
 4. **Dosya formatları** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
-5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (İngiltere)** biçim yapılandırması seçin.
+5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK)** biçim yapılandırması seçin.
 
     ![Ödeme yöntemleri - satıcılar sayfası](./media/er-quick-start2-method-of-payment1.png)
 
@@ -258,15 +257,15 @@ Elektronik ödeme yöntemini içe aktarılan ER biçim konfigürasyonu kullanaca
 
 Bu bölümde gösterilen örnek için, BACS formatında satıcı ödeme dosyaları oluşturmak üzere Microsoft tarafından sağlanan ER konfigürasyonlarını kullanmak istiyorsunuz, ancak belirli bir bankanın gereksinimlerini destekleyecek bir özelleştirme eklemeniz gerekir. Ayrıca, ER konfigürasyonlarının yeni sürümleri kullanılabilir olduğunda da özel biçiminizi yükseltebilmeniz gerekir. Ancak, yükseltme yapabilmek için en düşük maliyette olmasını isteyebilirsiniz.
 
-Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (İngiltere)** Microsoft tarafından temel olarak sağlanan bir yapılandırmayı tkullanarak yeni bir ER biçim konfigürasyonu oluşturmanız (türetmeniz) gerekir.
+Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (UK)** Microsoft tarafından temel olarak sağlanan bir yapılandırmayı tkullanarak yeni bir ER biçim konfigürasyonu oluşturmanız (türetmeniz) gerekir.
 
 ### <a name="create-a-custom-format"></a><a id="DeriveProvidedFormat"></a>Özel biçim oluşturma
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
-2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (İngiltere)** seçin. Litwin, Inc. özel sürümün temeli olarak bu ER biçim yapılandırmasının sürüm 1,1 ' sini kullanacaktır.
+2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (UK)** seçin. Litwin, Inc. özel sürümün temeli olarak bu ER biçim yapılandırmasının sürüm 1,1 ' sini kullanacaktır.
 3. Açılır iletişim kutusunu açmak için **Yapılandırma oluştur**'u seçin. Bu iletişim kutusunu, özel ödeme biçimi için yeni bir konfigürasyon oluşturmanıza olanak sağlar.
-4. **Yeni** alan grubunda, **Addan türetilen: BACS (İngiltere), Microsoft** seçeneği.
-5. **Ad** alanına, **BACS (İngiltere özel)** girin.
+4. **Yeni** alan grubunda, **Addan türetilen: BACS (UK), Microsoft** seçeneği.
+5. **Ad** alanına, **BACS (UK özel)** girin.
 
     ![Yapılandırma oluşturma açılan iletişim kutusu](./media/er-quick-start2-add-derived-format.png)
 
@@ -281,7 +280,7 @@ Bu durumda, Litware, Inc. temsilcisi olarak, **BACS (İngiltere)** Microsoft tar
 Özel biçiminizi, bankaya özel gereksinimleri karşılayacak şekilde konfigüre etmelisiniz. Örneğin bir banka, oluşturulan ödeme dosyalarının, bir bankanın işlenmiş olan satıcı ödemesine atanan, tüm dünyada Interbank Financial telekomünikasyon (SWIFT) kodu için Society içermesini gerektirebilir. SWIFT kodları, tüm dünyada belirli bankaların tanımlanmasında kullanılan uluslararası banka kodlarıdır. Bunlar banka tanımlayıcı kodları (BIC'ler) olarak da bilinir. SWIFT kodu 11 karakter uzunluğunda olmalıdır ve oluşturulan bir ödeme dosyasındaki her bir ödeme satırının başına girilmelidir.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
-2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (İngiltere özel)** seçin.
+2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (UK özel)** seçin.
 3. **Sürümler** FastTab üzerinde, seçili yapılandırmasının gerekli **1.1.1** sürümünü seçin.
 4. **Tasarımcı**’yı seçin.
 5. **Biçim tasarımcısı** sayfasında Format öğeleriyle ilgili daha fazla bilgi görüntülemek için **ayrıntıları göster** 'i seçin.
@@ -333,7 +332,7 @@ ER biçiminin taslak sürümünü kullanmak için, ER biçimini açık olarak i�
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Kullanıcı parametreleri** iletişim kutusunda, **Çalıştırma ayarları** seçeneğini **Evet** olarak ayarlayıp **Tamam**'ı seçin.
 4. Geçerli sayfayı düzenlemeye hazır hale getirmek için gerektiğinde **Düzenle**'yi seçin.
-5. Sol bölmedeki konfigürasyon ağacında, **BACS (İngiltere özel)** öğesini seçin.
+5. Sol bölmedeki konfigürasyon ağacında, **BACS (UK özel)** öğesini seçin.
 6. **Taslak Çalıştır** seçeneğini **Evet** olarak ayarlayın.
 
     ![Yapılandırmalar sayfasında Taslak seçeneğini Çalıştır](./media/er-quick-start2-derived-format-configuration2.png)
@@ -348,7 +347,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 2. **Ödeme yöntemleri - satıcılar** sayfasında, sol bölmedeki **elektronik** ödeme yöntemini seçin.
 3. **Düzenle** öğesini seçin.
 4. **Dosya formatı** Hızlı sekmesinde **Genel elektronik Dışa aktarma biçimi** seçeneğini **Evet** olarak ayarlayın.
-5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (İngiltere özel)** biçim yapılandırması seçin.
+5. **Dışa aktarma biçimi yapılandırması** alanında, **BACS (UK özel)** biçim yapılandırması seçin.
 
     ![Ödeme yöntemleri - satıcılar sayfası](./media/er-quick-start2-method-of-payment2.png)
 
@@ -383,7 +382,7 @@ Satıcı ödemelerini işlemek için özel ER formatının kullanılabilmesi iç
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Standart ER biçimi yapılandırmalarının yeni sürümlerini içe aktarın
 
-Bu bölümde gösterilen örnek için, Bilgi Bankası makalesi [KB3763330](https://fix.lcs.dynamics.com/Issue/Details?kb=3182046) hakkında bir bildirim alırsınız. Bu bildirim, Microsoft tarafından yayımlanmış olan **BACS (İngiltere)** ER biçiminin yeni sürümü hakkında sizi bilgilendirir. Kontrol raporuna ek olarak, bu yeni sürüm, bir satıcı ödemesi işlenirken kullanıcıların ödeme önerisi raporunu ve ilişkili Not raporunu oluşturmasını sağlar. Bu işlevi kullanmaya başlamak istediğinizde.
+Bu bölümde gösterilen örnek için, Bilgi Bankası makalesi [KB3763330](https://fix.lcs.dynamics.com/Issue/Details?kb=3182046) hakkında bir bildirim alırsınız. Bu bildirim, Microsoft tarafından yayımlanmış olan **BACS (UK)** ER biçiminin yeni sürümü hakkında sizi bilgilendirir. Kontrol raporuna ek olarak, bu yeni sürüm, bir satıcı ödemesi işlenirken kullanıcıların ödeme önerisi raporunu ve ilişkili Not raporunu oluşturmasını sağlar. Bu işlevi kullanmaya başlamak istediğinizde.
 
 ### <a name="import-new-versions-of-the-standard-er-configurations"></a><a id="ImportERFormat2"></a>Standart ER yapılandırmalarının yeni sürümlerini içe aktarın
 
@@ -392,7 +391,7 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında, **Yapılandırma Sağlayıcıları** bölümünde **Microsoft** kutucuğunu seçin ve Microsoft sağlayıcısı için depolar listesini görüntülemek için **Depolar**'ı seçin.
 3. **Yapılandırma depoları** sayfasında, **Global** türünün deposunu seçin ve sonra **Aç**'ı seçin. Regulatory Configuration Service bağlanmak için yetkilendirme istenirse, yetkilendirme yönergelerini uygulayın.
-4. **Konfigürasyon depoları** sayfasında, sol bölmedeki yapılandırma ağacında, **BACS (İngiltere)** biçim yapılandırmasını seçin.
+4. **Konfigürasyon depoları** sayfasında, sol bölmedeki yapılandırma ağacında, **BACS (UK)** biçim yapılandırmasını seçin.
 5. **Sürümler** FastTab üzerinde, seçili ER biçim yapılandırmasının gerekli **3.3** sürümünü seçin.
 6. Seçili sürümü Global depo'dan mevcut Finance örneğine indirmek için **İçe Aktarma**'ya tıklayın.
 
@@ -405,7 +404,7 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
-3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (İngiltere)** seçin.
+3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (UK)** seçin.
 4. **Sürümler** hızlı sekmesinde, sürüm **3.3**' i seçin.
 5. **Tasarımcı**’yı seçin.
 6. **Biçim tasarımcısı** sayfasında **BACSReportsFolder** biçim öğesini genişletin.
@@ -423,17 +422,17 @@ Geçerli Finans örneğine standart ER yapılandırmalarının yeni sürümlerin
 
 1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Yerelleştirme yapılandırmaları** sayfasında **Yapılandırmalar** bölümünde **Raporlama yapılandırmaları** kutucuğunu seçin.
-3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (İngiltere)** seçin ve **BACS (İngiltere özel)**'i seçin.
+3. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (UK)** seçin ve **BACS (UK özel)**'i seçin.
 4. **Sürümler** hızlı sekmesinde, **durumu değiştir** \> **tamamlandı** olarak seçin ve **Tamam** 'ı seçin.
 
 Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm salt okunur olur. Yeni bir düzenlenebilir sürüm olan 1.1.2 eklendi ve **taslak** durumuna sahip. Bu sürümü, özel ER biçiminiz üzerinde başka değişiklikler yapmak için kullanabilirsiniz.
 
 ### <a name="rebase-a-custom-format-to-a-new-base-version"></a><a id="RebaseDerivedFormat"></a>Özel biçimi yeni bir temel sürüme yeniden temellendir
 
-Özelleştirmenizin 3,3 **BACS (Birleşik Krallık)** biçiminin yeni işlevlerini kullanmaya başlamak için , özel konfigürasyon, **BACS (Birleşik Krallık özel)** için temel konfigürasyon sürümünü değiştirmeniz gerekir. Bu işlem [yeniden temelleme](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase)olarak bilinmektedir. **BACS (İngiltere)** 1.1 sürümü yerine yeni sürüm 3.3 kullanın.
+Özelleştirmenizin 3,3 **BACS (Birleşik Krallık)** biçiminin yeni işlevlerini kullanmaya başlamak için , özel konfigürasyon, **BACS (Birleşik Krallık özel)** için temel konfigürasyon sürümünü değiştirmeniz gerekir. Bu işlem [yeniden temelleme](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase)olarak bilinmektedir. **BACS (UK)** 1.1 sürümü yerine yeni sürüm 3.3 kullanın.
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
-2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (İngiltere özel)** seçin.
+2. **Yapılandırmalar** sayfasında soldaki yapılandırma ağacında, **Ödeme modeli**'ni genişletin ve **BACS (UK özel)** seçin.
 3. **Sürümler** hızlı sekmesinde, sürüm **1.1.2** seçin ve yeniden **temellendir** 'i seçin.
 4. **Yeniden temellendirme** iletişim kutusunda, **hedef sürüm** alanında, bunu yeni temel olarak uygulamak ve konfigürasyonu güncelleştirmek için kullanmak üzere temel yapılandırmanın **3,3** sürümünü seçin.
 

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143065"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684439"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
 
@@ -31,7 +30,7 @@ Aşağıdaki adımlar Sistem yöneticisi veya elektronik raporlama geliştiricis
 ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu görev kılavuzunu istediğiniz şirketin veri kümesini kullanarak tamamlayabilirsiniz. Bu görev kılavuzunu işlevleri, aşağıdaki düzeltmelerden birini yüklediyseniz kullanılabilir: Dynamics AX 7.0 sürümü için https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 veya Dynamics 365 for Operations sürümü için https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871.
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-    * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme görev kılavuzundaki adımları tamamlamanız gerekir.   
+    * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle görev kılavuzundaki adımları tamamlamanız, yapılandırma sağlayıcısı oluşturmanız ve sağlayıcı etkin olarak işaretlemeniz gerekir.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Yeni bir ER model yapılandırması ekleme
 1. Raporlama konfigürasyonları'na tıklayın.
@@ -59,17 +58,17 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 18. Tamamla öğesine tıklayın.
 19. Tamam'a tıklayın.
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Yeni bir ER modeli eşleme yapılandırması ekleme
+## <a name="add-a-new-er-model-mapping-configuration"></a>Yeni bir ER model eşleme yapılandırması ekleme
 1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
 2. Yeni alanına, 'Örnek veri modeli veri modelini temel alan Model Eşleme' yazın.
 3. İsim alanına 'Örnek eşleme' yazın.
     * Örnek eşleme  
 4. Konfigürasyon oluştur'u tıklatın.
 5. Önkoşullar bölümünü genişletin.
-    * Uygulama önkoşulları grubunun otomatik olarak eklenmiş olduğunu unutmayın. Grup, ana veri modeli yapılandırmasına referans gösteren önkoşul bileşenini içerir ve Uygulama olarak işaretlenmiştir. Bu, Örnek eşleme modeli eşleme yapılandırmasının, veri modeli, Örnek veri modelinin uygulaması olarak kabul edildiği anlamına gelir. Bu nedenle, bu bileşen ER'nin model yapılandırması, Örnek veri modeli indirildiğinde model eşleme yapılandırmasını, bir ER havuzundan indirmesini zorlayacaktır.   
-6. Tasarımcı'yı tıklatın.
-    * Oluşturulan model eşleme yapılandırmasının, oluşturulan yapılandırma ile aynı ada sahip bir boş eşlemeye sahip olduğunu unutmayın. Seçilen bir ana model yapılandırması, model eşlemeleri içeriyorsa, bunların yeni bir model eşleme yapılandırmasına kopyalanacağını göz önünde bulundurun.   
-7. Tasarımcı'yı tıklatın.
+    * Uygulama ön koşulları grubu, otomatik olarak eklenir. Grup, ana veri modeli yapılandırmasına referans gösteren önkoşul bileşenini içerir ve Uygulama olarak işaretlenmiştir. Bu drurum, Örnek eşleme model eşleme yapılandırmasının Örnek veri modelinin uygulaması kabul edildiği anlamına gelir. Bu nedenle, Örnek veri modeli model yapılandırılması indirildiğinde bu bileşen, ER'nin ER deposundan Örnek eşleme model eşleme yapılandırmasını indirmesini sağlayacaktır.   
+6. Tasarımcı'ya tıklayın.
+    * Oluşturulan model eşleme yapılandırması, oluşturulan yapılandırma ile aynı ada sahip bir boş eşleme içerir. Seçilen bir üst model yapılandırması, model eşlemeleri içeriyorsa bunlar yeni bir model eşleme yapılandırmasına kopyalanır.   
+7. Tasarımcı'ya tıklayın.
 8. Ağaçta, 'Dynamics 365 for Operations\Tablo' öğesini seçin.
 9. Kök ekle'ye tıklayın.
 10. İsim alanına 'Şirket' yazın.
@@ -112,9 +111,9 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 16. Çalıştır öğesine tıklayın.
     * Sürümler hızlı sekmesinde, Çalıştır'ı tıklatın.  
 17. Tamam'a tıklayın.
-    * Bu biçim yapılandırmasını çalıştıran kullanıcının oturum açmış olduğu şirketin adını içeren çıktıyı gözden geçirin. Oluşturulan modelleme yapılandırmasının bu biçim yapılandırıcısı tarafından, gerekli model eşlemelerini içeren tek bir yapılandırma mevcut olduğu için kullanıldığını unutmayın.   
+    * Bu biçim yapılandırmasını çalıştıran kullanıcının oturum açmış olduğu şirketin adını içeren çıktıyı gözden geçirin. Gerekli model eşlemelerini içeren tek bir yapılandırma mevcut olduğundan, oluşturulan model eşleme yapılandırması bu biçim yapılandırması tarafından kullanılır.   
 
-## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatif bir ER modeli eşleme yapılandırması ekleme
+## <a name="add-alternative-er-model-mapping-configuration"></a>Alternatif bir ER model eşleme yapılandırması ekleme
 1. Ağaçta 'Örnek veri modeli' seçeneğini belirleyin.
 2. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
 3. Yeni alanına, 'Örnek veri modeli veri modelini temel alan Model Eşleme' yazın.
@@ -150,15 +149,15 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 28. Sayfayı kapatın.
 29. Taslak Çalıştır alanında Evet'e tıklayın.
 
-## <a name="use-an-existing-er-model-mapping-configuration"></a>Mevcut bir ER model eşleme yapılandırmasının kullanın
+## <a name="use-an-existing-er-model-mapping-configuration"></a>Mevcut bir ER model eşleme yapılandırmasının kullanma
 1. Ağaçta, 'Örnek veri modeli\Örnek biçim' seçeneğini belirleyin.
-2. Çalıştır öğesine tıklayın.
-    * ER biçim yapılandırmasının, çalışan ER biçiminin veri kaynağı olarak seçilen belirtilmemiş veri modelinin birden fazla model eşlemesine sahip olduğu için ER biçim yapılandırmasının taslak sürümünün çalıştırılamayacağını unutmayın.   
-    * Daha sonra, alternatif model eşleme yapılandırmasını, çalışan ER biçimi için veri kaynakları olarak kullanılacak model eşlemelerinin tanımlayacaksınız.   
+2. Çalıştır'a tıklayın.
+    * Çalıştırılan ER biçiminin veri kaynağı olarak seçilen tanımsız veri modeli için birden fazla model eşleme yapılandırması mevcut olduğundan, ER biçimi yapılandırmasının seçili taslak sürümü yürütülemez.   
+    * Daha sonra, alternatif model eşleme yapılandırmasını, çalışan ER biçimi için veri kaynakları olarak kullanılacak model eşlemelerinden biri olarak tanımlayacaksınız.   
 3. Ağaçta, 'Örnek veri modeli\Örnek eşleme (alternatif)' seçeneğini belirleyin.
-4. Model eşleme varsayılanı alanında, Evet'i seçin.
+4. Model eşleme için varsayılan alanında Evet'i seçin.
 5. Ağaçta, 'Örnek veri modeli\Örnek biçim' seçeneğini belirleyin.
-6. Çalıştır öğesine tıklayın.
+6. Çalıştır'a tıklayın.
 7. Tamam'a tıklayın.
-    * Varsayılan model yapılandırasının, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanıldığını unutmayın (oluşturulan çıktı şirket kodunu içerir).  
+    * Varsayılan model eşleme yapılandırması, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanılır (oluşturulan çıktı şirket kodunu içerir).  
 

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142281"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681985"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER yapılandırmalarının diğer bileşenlere bağımlılığını tanımlama
 
@@ -47,8 +46,8 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 5. Yeni'ye tıklayın.
 6. Ürün önkoşul bileşenini seçin.
 7. Microsoft Dynamics 365 for Operations (1611) seçin.
-8. Sürüm alanına '[7.1.1541.3036,8)' yazın.
-    * (7.1.1541.3036,8)  
+8. Sürüm alanına '[7.1.1541.3036,8)'.
+    * [7.1.1541.3036,8) yazın.  
     * Girdiğiniz bağımlılıklar bu yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, Finance and Operations 7.1.1541.3036 veya ileri (ancak sürüm 8'i geçmeyen) bir sürümünde tamamlanması gerekir.   
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
@@ -60,8 +59,8 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
 16. Yeni'ye tıklayın.
 17. Ürün önkoşul bileşenini seçin.
 18. Microsoft Dynamics AX 7.0 RTW seçin.
-19. Sürüm alanına '[7.0.1265.3015,7.1)' yazın.
-    * (7.0.1265.3015,7.1)  
+19. Sürüm alanına '[7.0.1265.3015,7.1)'.
+    * [7.0.1265.3015,7.1) yazın.  
     * Bağımlılıklar bir yapılandırma herhangi bir ER havuzundan indirildiğinde değerlendirilecektir. Bu yapılandırma sürümü ER havuzundan, 'Örnek veri modeli' yapılandırmasının 1. sürümü halihazırda yerinde olduğunda veya önceden indirildiğinde indirilecektir. Önceden indirilirse, sürümünün 7.0.1265.3015 veya sonrası olan ancak küçük sürüm 1'i geçmeyen Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition içerisinde tamamlanması gerekir.   
 20. Kaydet'e tıklayın.
 21. Sayfayı kapatın.

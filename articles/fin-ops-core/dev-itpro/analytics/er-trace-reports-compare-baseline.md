@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771249"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682835"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
 
@@ -91,7 +90,7 @@ Bu konudaki adımları tamamlamak için öncelikle [Yapılandırma sağlayıcıl
 6. **Tamam**'ı seçin ve sonra **Kaydet**'i seçin.
 7. **Model tasarımcısı** sayfasını kapatın.
 8. **Durumu değiştir**'i seçin.
-9. **Tamamla**y'ı seçin ve sonra **Tamam**'i seçin.
+9. **Tamamla** y'ı seçin ve sonra **Tamam**'i seçin.
 
 ![Yapılandırma sayfası](media/GER-BaselineSample-ModelComplete.PNG "Yapılandırmalar sayfasının ekran görüntüsü")
 

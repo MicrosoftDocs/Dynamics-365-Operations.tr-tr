@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: ca8174444d5a84f7efb402d6efc787e693801e82
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140523"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694751"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Sihirbaz kullanarak numara serilerini ayarlama
 
@@ -30,7 +29,7 @@ ms.locfileid: "3140523"
 Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Bu konu, bir sihirbaz kullanarak aynı anda tüm gerekli numara sıralarının nasıl ayarlanacağını açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
 1. **Gezinti > Modüller > Kuruluş yönetimi > Numara serileri > Numara serileri**'ne gidin.
-2. **Oluştur**seçeneğini belirleyin.
+2. **Oluştur** seçeneğini belirleyin.
 3. **Sonraki**'yi seçin.
 
    - Bu sayfada, kimlik kodu, en küçük değer ve en yüksek değeri değiştirebilirsiniz. Ayrıca, numara serisinin sürekli olması gerekip gerekmediğini belirtebilirsiniz.   

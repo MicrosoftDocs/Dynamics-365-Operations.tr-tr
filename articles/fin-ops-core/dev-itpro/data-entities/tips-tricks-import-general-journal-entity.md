@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
-ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
+ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3281498"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687655"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Genel günlük varlığını kullanarak fişleri içeri aktarmaya yönelik en iyi uygulamalar
 

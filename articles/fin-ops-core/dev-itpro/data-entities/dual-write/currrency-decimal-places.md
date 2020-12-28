@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997490"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683756"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Para birimi değerleri için desteklenen ondalık basamak sayısını en fazla 10'a artırabilirsiniz. Varsayılan sınır dört ondalık haneye sahiptir. Ondalık basamakların sayısını artırarak, verileri eşitlemek için çift yazma kullandığınızda veri kaybını engelleyebilirsiniz. Ondalık basamak sayısında artış kabul edilerek yapılan bir değişikliktir. Bunu uygulamak için, Microsoft'tan yardım istemeniz gerekir.
 
 Ondalık basamak sayısının değiştirilmesi işleminde iki adım vardır:
 
 1. Microsoft'tan geçiş talep edin.
-2. Common Data Service'ta ondalık basamak sayısını değiştirin.
+2. Dataverse'ta ondalık basamak sayısını değiştirin.
 
-Finance and Operations uygulaması ve Common Data Service'ın para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
+Finance and Operations uygulaması ve Dataverse'ın para birimi değerlerinde aynı sayıda ondalık basamak desteklemesi gerekir. Aksi takdirde, bu bilgiler uygulamalar arasında eşitlendiğinde veri kaybı ortaya çıkabilir. Geçiş işlemi para birimi ve döviz kuru değerlerinin depolanma biçimini yeniden yapılandırır, ancak hiçbir veriyi değiştirmez. Geçiş tamamlandıktan sonra, para birimi kodları ve fiyatlandırma için ondalık basamak sayısı artırılabilir ve kullanıcıların girdiği ve görüntülediği verilerde daha fazla ondalık duyarlığı olabilir.
 
 Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sağlayabilecekseniz, geçiş yapmayı düşünmeniz önerilir. Dörtten fazla ondalık basamak içeren değerlerin gerekli olmadığı kuruluşların geçiş yapması gerekmez.
 
 ## <a name="requesting-migration-from-microsoft"></a>Microsoft'tan geçiş talep etme
 
-Common Data Service'teki mevcut para birimi alanları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni iç alanlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi alanları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Common Data Service kesinti olmadan kullanılabilir.
+Dataverse'teki mevcut para birimi alanları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni iç alanlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi alanları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Dataverse kesinti olmadan kullanılabilir.
 
-Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finance and Operations hem de Common Data Service'te aynı olmasını sağlamak için gereklidir.
+Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finance and Operations hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
 
 Geçiş hiçbir veriyi değiştirmez. Para birimi ve döviz kuru alanları dönüştürüldükten sonra, yöneticiler hem hareket para birimi hem de fiyatlandırma için ondalık basamak sayısını belirterek sistemi, para birimi alanları için en çok 10 ondalık basamak kullanacak şekilde yapılandırabilir.
 
@@ -61,12 +63,12 @@ Bir geçiş istediğinizde, aşağıdaki ayrıntılara sahip olmanız ve bunlar�
 
 + Verileri geçirmek için gereken süre sistemdeki veri miktarına bağlıdır. Büyük veritabanlarının geçiş işlemi birkaç gün sürebilir.
 + Veritabanı boyutu, geçiş işlemi çalışırken geçici olarak artar, çünkü dizinler için ek alan gereklidir. Geçiş tamamlandığında, ek alanın büyük bir çoğunluğu serbest kalır.
-+ Geçiş işlemi sırasında, geçişin tamamlanmasını engelleyen hatalar oluşursa, sistem Microsoft Desteği'ne uyarıları gönderir ve Destek personeli müdahale edebilir. Ancak, geçiş sırasında hatalar oluşsa bile, Common Data Service olağan kullanım için tamamen kullanılabilir durumda kalır.
++ Geçiş işlemi sırasında, geçişin tamamlanmasını engelleyen hatalar oluşursa, sistem Microsoft Desteği'ne uyarıları gönderir ve Destek personeli müdahale edebilir. Ancak, geçiş sırasında hatalar oluşsa bile, Dataverse olağan kullanım için tamamen kullanılabilir durumda kalır.
 + Geçiş işlemi geri alınamaz.
 
 ## <a name="changing-the-number-of-decimal-places"></a>Ondalık basamak sayısının değiştirilmesi
 
-Geçiş tamamlandıktan sonra, Common Data Service daha fazla ondalık basamak içeren sayıları depolayabilir. Yöneticiler, belirli para birimi kodları ve fiyatlandırma için kaç ondalık basamak kullanılacağını seçebilirler. Microsoft Power Apps, Power BI, ve Power Automate kullanıcıları daha sonra daha fazla ondalık basamak içeren sayıları görüntüleyebilir ve kullanabilir.
+Geçiş tamamlandıktan sonra, Dataverse daha fazla ondalık basamak içeren sayıları depolayabilir. Yöneticiler, belirli para birimi kodları ve fiyatlandırma için kaç ondalık basamak kullanılacağını seçebilirler. Microsoft Power Apps, Power BI, ve Power Automate kullanıcıları daha sonra daha fazla ondalık basamak içeren sayıları görüntüleyebilir ve kullanabilir.
 
 Bu değişikliği yapmak için Power Apps'te aşağıdaki ayarları güncelleştirmeniz gerekir:
 
@@ -80,16 +82,16 @@ Bazı kısıtlamalar bulunur:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Sistem Ayarları: Fiyatlandırma için para birimi duyarlığı
 
-Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim** 'e gidin ve **Sistem Ayarları** 'nı seçin. Daha sonra, **Genel** sekmesinde, **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanındaki değeri aşağıda gösterildiği şekilde değiştirin.
+Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanındaki değeri aşağıda gösterildiği şekilde değiştirin.
 
 ![Para birimi sistem ayarları](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>İş Yönetimi: Para Birimleri
 
-Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi** 'ne gidin **Para birimleri** 'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** alanını istediğiniz ondalık basamak sayısına ayarlayın.
+Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** alanını istediğiniz ondalık basamak sayısına ayarlayın.
 
 ![Belirli bir yerel ayarın para birimi ayarları](media/specific-currency.png)
 
-### <a name="entities-currency-field"></a>Varlıklar: Para birimi alanı
+### <a name="tables-currency-field"></a>tablolar: Para birimi alanı
 
 Belirli para birimi alanları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ebe68f926848c86843be04977f58d89e7a54509b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143905"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694677"
 ---
 # <a name="configure-the-global-address-book"></a>Genel adres defterini yapılandır
 

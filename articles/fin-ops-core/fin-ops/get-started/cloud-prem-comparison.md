@@ -3,26 +3,25 @@ title: Bulut ve şirket içi özelliklerin karşılaştırması
 description: Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040111"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694579"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -166,10 +165,13 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 | İzleme ve telemetri   |                                           | Evet       | Evet             |
 | Platform uyumluluğu     |                                           | Evet       | Evet             |
 | Bakım                  |                                           | Evet       | Evet             |
-|                            | Servis ortamları                    | Evet       | Hayır              |
-| İzleme Ayrıştırıcı ve PerfTimer |                                           | Evet       | Hayır              |
+|                            | Servis ortamları                    | Evet       | No              |
+| İzleme Ayrıştırıcı               |                                           | Evet       | Evet             |
+| PerfTimer                  |                                           | Evet       | Evet\*           |
 | Yükselt                    |                                           | Evet       | Evet             |
-|                            | Yükselt                                   | Evet       | Hayır              |
-|                            | Önceki sürümler için yükseltme ve destek | Evet       | Hayır              |
+|                            | Yükselt                                   | Evet       | No              |
+|                            | Önceki sürümler için yükseltme ve destek | Evet       | No              |
 | Visual Studio geliştirme  |                                           | Evet       | Evet             |
+
+\* Şirket içi ortamlarda, PerfTimer yalnızca istemci için sonuçları gösterir.
 

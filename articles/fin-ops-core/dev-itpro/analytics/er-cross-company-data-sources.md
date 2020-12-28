@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: dd4680a698aec8f6c650519855c5cce1b9cafd0a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1a5c05b65c9022220056947471e95b703d923dc5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026195"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680842"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) şirketler arası veri kaynakları
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 791038981e88d0f52026bfb17d2d1fa381f28c46
-ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
+ms.openlocfilehash: 2333cfc21a16a5905acadd590982020fdf878330
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3688019"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682279"
 ---
 # <a name="listdistinct-er-function"></a>LISTDISTINCT ER İşlevi
 

@@ -18,25 +18,27 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997338"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683584"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Başlangıç eşitlemesi sırasında sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu, ilk eşitlemede olabilecek sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında sorun giderme bilgileri sağlar. Bu konu, ilk eşitlemede olabilecek sorunları çözmenize yardımcı olabilecek bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Finance and Operations uygulamadaki ilk eşitleme hatalarını denetle
 
-Eşleme şablonları etkinleştirildikten sonra, haritaların durumu **çalışıyor** olmalıdır. Durum **çalışmıyorsa** , ilk eşitleme sırasında hata meydana geldi. Hataları görüntülemek için **çift-yazma** sayfasında **ilk eşitleme ayrıntıları** sekmesini seçin.
+Eşleme şablonları etkinleştirildikten sonra, haritaların durumu **çalışıyor** olmalıdır. Durum **çalışmıyorsa**, ilk eşitleme sırasında hata meydana geldi. Hataları görüntülemek için **çift-yazma** sayfasında **ilk eşitleme ayrıntıları** sekmesini seçin.
 
 ![İlk eşitleme ayrıntıları sekmesinde hata](media/initial_sync_status.png)
 
@@ -91,12 +93,12 @@ Sorunu düzeltmek için şu adımları izleyin.
 
 Eşlemelerinizin kendi kendine veya çevresel referansları varsa, aşağıdaki örneğe benzer bir hata iletisi alabilirsiniz: Hatalar aşağıdaki kategorilere ayrılır:
 
-- [Satıcılar V2–to–msdyn_vendors varlık eşlemesinde hatalar](#error-vendor-map)
-- [Müşteriler V3–to–Accounts varlık eşlemesinde hatalar](#error-customer-map)
+- [Vendors V2–to–msdyn_vendors tablo eşlemesinde hatalar](#error-vendor-map)
+- [Customers V3–to–Accounts tablo eşlemesinde hatalar](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Satıcılar V2–to–msdyn_vendors varlık eşlemesinde hataları çözümleme
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Vendors V2–to–msdyn_vendors tablo eşlemesinde hataları çözümleme
 
-Varlıkların, **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanlarında değerleri bulunan mevcut kayıtları varsa **Satıcılar V2** ile **msdyn\_vendors** eşlemesinde ilk eşitleme hatalarıyla karşılaşabilirsiniz. Bu hatalar **InvoiceVendorAccountNumber** kendi kendine başvuran bir alan olduğundan ve **PrimaryContactPersonId** satıcı eşlemede döngüsel bir başvuru olduğundan gerçekleşir.
+Tabloların, **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanlarında değerleri bulunan mevcut satırları varsa **Satıcılar V2** ile **msdyn\_vendors** eşlemesinde ilk eşitleme hatalarıyla karşılaşabilirsiniz. Bu hatalar **InvoiceVendorAccountNumber** kendi kendine başvuran bir alan olduğundan ve **PrimaryContactPersonId** satıcı eşlemede döngüsel bir başvuru olduğundan gerçekleşir.
 
 Aldığınız hata iletileri aşağıdaki şekilde olacaktır.
 
@@ -107,13 +109,13 @@ Burada bazı örnekler verilmiştir:
 - *Alan için GUID çözümlenemedi: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. Arama bulunamadı: 000056. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Alan için GUID çözümlenemedi: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. Arama bulunamadı: V24-1. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Satıcı varlığında **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanında değerleri bulunan kayıtlarınız varsa, ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin.
+Satıcı varlığında **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanında değerleri bulunan satırlarınız varsa ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin.
 
 1. Finance and Operations uygulamada, eşlemeden önce **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanlarını silin ve ardından eşlemeyi kaydedin.
 
-    1. **Satıcılar v2 (msdyn\_vendors)** için ikili yazma eşleme sayfasında, **Varlık eşlemeleri** sekmesinde, sol filtrede **Finance and Operations apps.Vendors V2** 'yi seçin. Sağ filtrede, **Sales.Vendor** 'u seçin.
-    2. **primarycontactperson** 'ı arayıp **PrimaryContactPersonId** kaynak alanını bulur .
-    3. **Eylemler** 'i ve sonra **Sil** 'i seçin.
+    1. **Satıcılar V2 (msdyn\_vendors)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, sol filtrede **Finance and Operations apps.Vendors V2**'yi seçin. Sağ filtrede, **Sales.Vendor**'u seçin.
+    2. **primarycontactperson**'ı arayıp **PrimaryContactPersonId** kaynak alanını bulur .
+    3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
         ![PrimaryContactPersonId alanını silme](media/vend_selfref3.png)
 
@@ -125,25 +127,25 @@ Satıcı varlığında **PrimaryContactPersonId** ve **InvoiceVendorAccountNumbe
 
 2. **Satıcılar V2** varlığı için değişiklik izlemeyi kapatın.
 
-    1. **Veri yönetimi** çalışma alanında **Veri varlıkları** kutucuğunu seçin.
+    1. **Veri yönetimi** çalışma alanında **Veri tabloları** kutucuğunu seçin.
     2. **Satıcılar V2** tüzel kişiliğini seçin.
-    3. Eylem Bölmesinde, **Seçenekler** 'i ve sonra **Değişiklik izleme** 'yi seçin.
+    3. Eylem Bölmesinde, **Seçenekler**'i ve sonra **Değişiklik izleme**'yi seçin.
 
         ![Değişiklik izleme seçeneğini belirleme](media/selfref_options.png)
 
-    4. **Değişiklik izlemeyi devre dışı bırak** 'ı seçin.
+    4. **Değişiklik izlemeyi devre dışı bırak**'ı seçin.
 
         ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme](media/selfref_tracking.png)
 
 3. **Satıcı v2 (msdyn\_vendors)** eşlemesinin ilk eşitlemesini çalıştırın. İlk eşitleme hatasız olarak çalışmalıdır.
-4. **CDS İlgili Kişileri V2 (ilgili kişiler)** eşlemesi için başlangıç eşitlemesini çalıştırın. İlk eşitlemenin ilgili kişi kayıtları için de yapılması gerektiğinden, satıcı varlığındaki birincil ilgili kişi alanını eşitlemek istiyorsanız bu eşlemeyi eşitlemeniz gerekir.
+4. **CDS İlgili Kişileri V2 (ilgili kişiler)** eşlemesi için başlangıç eşitlemesini çalıştırın. İlk eşitlemenin ilgili kişi satırları için de yapılması gerektiğinden, satıcı varlığındaki birincil ilgili kişi alanını eşitlemek istiyorsanız bu eşlemeyi eşitlemeniz gerekir.
 5. **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber** alanlarını **Satıcılar v2 (msdyn\_vendors)** eşlemesine geri ekleyin ve eşlemeyi kaydedin.
-6. **Satıcı v2 (msdyn\_vendors)** eşlemesinin ilk eşitlemesini yeniden çalıştırın. Değişiklik izleme devre dışı bırakıldığından tüm kayıtlar eşitlenecek.
+6. **Satıcı v2 (msdyn\_vendors)** eşlemesinin ilk eşitlemesini yeniden çalıştırın. Değişiklik izleme devre dışı bırakıldığından tüm satırlar eşitlenecek.
 7. **Satıcılar V2** varlığı için değişiklik izlemeyi yeniden açın.
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Müşteriler V3 ile Hesaplar varlık eşlemesinde hataları giderme
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Customers V3–to–Accounts tablo eşlemesinde hataları çözümleme
 
-Varlıkların, **ContactPersonID** ve **InvoiceAccount** alanlarında değerleri bulunan mevcut kayıtları varsa **Müşteriler V3** ile **Hesaplar** eşlemesinde ilk eşitleme hatalarıyla karşılaşabilirsiniz. Bu hataların oluşma nedeni, **InvoiceAccount** alanının kendine başvuruda bulunan bir alan olması ve **ContactPersonID** 'nin satıcı eşlemesindeki döngüsel bir başvuru olmasıdır.
+Tabloların, **ContactPersonID** ve **InvoiceAccount** alanlarında değerleri bulunan mevcut satırları varsa **Müşteriler V3** ile **Hesaplar** eşlemesinde ilk eşitleme hatalarıyla karşılaşabilirsiniz. Bu hataların oluşma nedeni, **InvoiceAccount** alanının kendine başvuruda bulunan bir alan olması ve **ContactPersonID**'nin satıcı eşlemesindeki döngüsel bir başvuru olmasıdır.
 
 Aldığınız hata iletileri aşağıdaki şekilde olacaktır.
 
@@ -154,13 +156,13 @@ Burada bazı örnekler verilmiştir:
 - *Alan için GUID çözümlenemedi: primarycontactid.msdyn\_contactpersonid. Arama bulunamadı: 000056. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Alan için GUID çözümlenemedi: msdyn\_billingaccount.accountnumber. Arama bulunamadı: 1206-1. Başvuru verilerinin var olup olmadığını denetlemek için bu URL'yi deneyin: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Müşteri varlığında **ContactPersonID** ve **InvoiceAccount** alanında değerleri bulunan kayıtlarınız varsa, ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin. Bu yaklaşımı, **Hesaplar** ve **İlgili kişiler** gibi, kutudan çıkan herhangi bir varlık için kullanabilirsiniz.
+Müşteri varlığında **ContactPersonID** ve **InvoiceAccount** alanlarında değerler bulunan satırlar varsa ilk eşitlemeyi tamamlamak için aşağıdaki adımları takip edin. Bu yaklaşımı, **Hesaplar** ve **İlgili kişiler** gibi kullanıma hazır tüm tablolar için kullanabilirsiniz.
 
 1. Finance and Operations uygulamada, **Müşteriler V3 (firmalar)** eşlemesinden önce **ContactPersonID** ve **InvoiceAccount** alanlarını silin ve değişiklikleri kaydedin.
 
-    1. **Müşteriler V3 (firmalar)** için ikili yazma eşleme sayfasında, **Varlık eşlemeleri** sekmesinde, sol filtrede, **Finance and Operations app.Customers V3** öğesini seçin. Sağ filtrede, **Common Data Service.Firma** 'yı seçin.
-    2. **contactperson** 'ı arayıp **ContactPersonID** kaynak alanını bulur .
-    3. **Eylemler** 'i ve sonra **Sil** 'i seçin.
+    1. **Müşteriler V3 (firmalar)** için çift yazma eşleme sayfasında, **Tablo eşlemeleri** sekmesinde, sol filtrede, **Finance and Operations app.Customers V3** öğesini seçin. Sağ filtrede, **Dataverse.Firma**'yı seçin.
+    2. **contactperson**'ı arayıp **ContactPersonID** kaynak alanını bulur .
+    3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
         ![ContactPersonID alanını silme](media/cust_selfref3.png)
 
@@ -172,13 +174,13 @@ Müşteri varlığında **ContactPersonID** ve **InvoiceAccount** alanında değ
 
 2. **Müşteriler V3** varlığı için değişiklik izlemeyi kapatın.
 
-    1. **Veri yönetimi** çalışma alanında **Veri varlıkları** kutucuğunu seçin.
+    1. **Veri yönetimi** çalışma alanında **Veri tabloları** kutucuğunu seçin.
     2. **Müşteriler V3** tüzel kişiliğini seçin.
-    3. Eylem Bölmesinde, **Seçenekler** 'i ve sonra **Değişiklik izleme** 'yi seçin.
+    3. Eylem Bölmesinde, **Seçenekler**'i ve sonra **Değişiklik izleme**'yi seçin.
 
         ![Değişiklik izleme seçeneğini belirleme](media/selfref_options.png)
 
-    4. **Değişiklik izlemeyi devre dışı bırak** 'ı seçin.
+    4. **Değişiklik izlemeyi devre dışı bırak**'ı seçin.
 
         ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme](media/selfref_tracking.png)
 
@@ -189,23 +191,23 @@ Müşteri varlığında **ContactPersonID** ve **InvoiceAccount** alanında değ
     > Aynı ada sahip iki eşleme var. **Ayrıntılar** sekmesinde şu açıklama bulunan eşlemeyi seçtiğinizden emin olun: **FO.CDS Satıcı İlgili Kişileri V2 ile CDS.İlgili Kişileri arasında eşitleme için çift yazma şablonu. \[Dynamics365SupplyChainExtended\] yeni paketini gerektirir.**
 
 5. **Müşteriler V3 (Hesaplar)** eşlemesinden önce **ContactPersonId** ve **InvoiceAccount** alanlarını silin ve değişiklikleri kaydedin. Şimdi, hem **InvoiceAccount** alanı hem de **ContactPersonId** alanı yeniden canlı eşitleme modunun parçası olarak kullanılır. Sonraki adımda, bu alanlar için başlangıç eşitlemesini tamamlayacaksınız.
-6. **Müşteriler V3 (Hesaplar)** eşlemesi için başlangıç eşitlemesini yeniden çalıştırın. Değişiklik izleme devre dışı bırakıldığından, **InvoiceAccount** ve **ContactPersonId** için veriler Finance and Operations uygulamasından Common Data Service'e eşitlenecektir.
-7. **InvoiceAccount** ve **ContactPersonId** için verileri Common Data Service'dan Finance and Operations uygulamasına eşitlemek için bir veri tümleştirme projesi kullanmanız gerekir.
+6. **Müşteriler V3 (Hesaplar)** eşlemesi için başlangıç eşitlemesini yeniden çalıştırın. Değişiklik izleme devre dışı bırakıldığından, **InvoiceAccount** ve **ContactPersonId** için veriler Finance and Operations uygulamasından Dataverse'e eşitlenecektir.
+7. **InvoiceAccount** ve **ContactPersonId** için verileri Dataverse'dan Finance and Operations uygulamasına eşitlemek için bir veri tümleştirme projesi kullanmanız gerekir.
 
-    1. Power Apps içinde , **Satış. firma** ve **Finance and Operations apps.Customers V3** varlıkları arasında veri entegrasyonu projesi oluşturunuygulamalar arasında bir veri tümleştirme projesi oluşturun. Veri yönü, Common Data Service'ten Finance and Operations uygulamasına olmalıdır. **InvoiceAccount** çift yazmada yeni bir öznitelik olduğundan, bunun için ilk eşitlemeyi atlamak isteyebilirsiniz. Daha fazla bilgi için bkz. [Common Data Service'e veri entegre edin](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. Power Apps içinde, **Sales.Account** ve **Finance and Operations apps.Customers V3** tabloları arasında veri tümleştirme projesi oluşturun. Veri yönü, Dataverse'ten Finance and Operations uygulamasına olmalıdır. **InvoiceAccount** çift yazmada yeni bir öznitelik olduğundan, bunun için ilk eşitlemeyi atlamak isteyebilirsiniz. Daha fazla bilgi için bkz. [Dataverse'e veri entegre edin](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
-        Aşağıdaki resimde **CustomerAccount** ve **ContactPersonId** 'yi güncelleştiren bir proje gösterilmektedir .
+        Aşağıdaki resimde **CustomerAccount** ve **ContactPersonId**'yi güncelleştiren bir proje gösterilmektedir .
 
         ![CustomerAccount ve ContactPersonId alanını güncelleştirmek için veri tümleştirme projesi](media/cust_selfref6.png)
 
-    2. Finance and Operations uygulamasında, filtre ölçütleriyle eşleşen kayıtlar güncelleştirilecek şekilde şirket ölçütlerini Common Data Service  tarafına ekleyin. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz. 
+    2. Finance and Operations uygulamasında yalnızca filtre ölçütleriyle eşleşen satırların güncelleştirilmesi için şirket ölçütlerini Dataverse tarafında filtreye ekleyin. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz. 
 
-        > [NOT] Filtre düğmesi yoksa, veri tümleştirme ekibinin kiracınızda filtre yeteneğini etkinleştirmesini istemek için bir destek bileti oluşturun.
+        > [NOT] Filtre düğmesi yoksa veri tümleştirme ekibinin kiracınızda filtre özelleğini etkinleştirmesini istemek için bir destek bileti oluşturun.
 
-        **\_msdyn\_company\_value** için bir filtre sorgusu girmezseniz , tüm kayıtlar eşitlenir.
+        **\_msdyn\_company\_value** için bir filtre sorgusu girmezseniz tüm satırlar eşitlenir.
 
         ![Filtre sorgusu ekleme](media/cust_selfref7.png)
 
-    Kayıtların ilk eşitlenme işlemi şimdi tamamlandı.
+    Satırların ilk eşitlenme işlemi şimdi tamamlandı.
 
 8. Finance and Operations uygulamasında, **Müşteriler V3** varlığı için değişiklik izlemeyi yeniden açın.

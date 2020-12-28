@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.openlocfilehash: 9a5f943a507483bb4c1bd7fe87c0d65353194a6e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760043"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687439"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -120,7 +119,7 @@ Veri modeli ve model eşleme yapılandırmalarının ilgili sürümleri, içe ak
 
 1. **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
-3. **Kullanıcı parametreleri**iletişim kutusunda, **Yürütme izleme** bölümünde şu adımları izleyin:
+3. **Kullanıcı parametreleri** iletişim kutusunda, **Yürütme izleme** bölümünde şu adımları izleyin:
 
     1. **Yürütme izleme biçimi** alanında, ER biçimi yürütme ayrıntılarını toplamaya başlamak için **İzleme biçimi sorun giderme**'yi seçin. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
 
@@ -357,7 +356,7 @@ ER çerçevesinde yapılan geliştirmeler sayesinde, PerfView formatında oluşt
 
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**'a gidin.
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
-3. **Kullanıcı parametreleri**iletişim kutusunda, **Yürütme izleme** bölümünde aşağıdaki parametreleri ayarlayın:
+3. **Kullanıcı parametreleri** iletişim kutusunda, **Yürütme izleme** bölümünde aşağıdaki parametreleri ayarlayın:
 
     - **Yürütme izleme biçimi** alanında, **PerfView XML** öğesini seçin.
     - **Sorgu istatistiklerini** topla seçeneğini **Evet** olarak ayarlayın.

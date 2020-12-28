@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141891"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684583"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için modelleri ve eşlemeleri değiştirme
 

@@ -1,6 +1,6 @@
 ---
 title: Tümleşik vergi
-description: Bu konu Finance and Operations ile Common Data Service arasında vergi verileri tümleştirmesini açıklar.
+description: Bu konu Finance and Operations ile Dataverse arasında vergi verileri tümleştirmesini açıklar.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 26818ceace7d2b7e7c3ed4d0bb0bd9ab2e884aba
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 14c22dd6602b5fbf866c8dc6b057f6c8acb1f48f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997612"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679308"
 ---
 # <a name="integrated-tax"></a>Tümleşik vergi
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ Vergi ayarı verileri hem dolaylı vergilerin (KDV, GST, Satış vergisi) hem de
 
 ## <a name="templates"></a>Şablonlar
 
-Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir varlık eşlemeleri topluluğudur.
+Vergi verileri, aşağıdaki tabloda gösterildiği gibi veri etkileşimi sırasında birlikte çalışan bir tablo eşlemeleri koleksiyonudur.
 
 Finance and Operations uygulamaları | Dynamics 365'teki model yönetimli uygulamalar | Tanım |
 -------------------------|---------------------------------|----|

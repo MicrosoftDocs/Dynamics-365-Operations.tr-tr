@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181738"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682733"
 ---
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
@@ -58,7 +57,7 @@ Rapor Tasarımcısı'nda yapı taşlarınızı düzenlemek için klasörleri kul
 3. Yeni klasör göründüğünde, yeni klasörün adını girin ve ardından Enter'a basın.
 
 ## <a name="lock-a-building-block"></a>Bir yapı taşını kilitleme
-Kilitlemek için parola oluşturarak yapı taşını korumaya yardımcı olabilirsiniz. Bu şekilde tüm sistemi güvenlik altına almadan bir rapor bileşenine bir güvenlik düzeyi ekleyebilirsiniz. Parola ay sonu raporlama işleminiz açısından önemli olan yapı taşı bilgilerini korumaya yardımcı olabilir. Bir yapı taşını tüm rollerdeki kullanıcılar kilitleyebilir. Ancak diğer kullanıcıların kilitli bir bileşen için her zaman salt okunur erişimi olmalıdır. Kullanıcılar kilitli bileşeni açabilir, değiştirebilir ve yeni bir adla kaydedebilir. Yönetici rolüne sahip bir kullanıcı her zaman kilitli bir yapı taşına erişebilir ve yapı taşını değiştirebilir.
+Kilitlemek için parola oluşturarak yapı taşını korumaya yardımcı olabilirsiniz. Bu şekilde tüm sistemi güvenlik altına almadan bir rapor bileşenine bir güvenlik düzeyi ekleyebilirsiniz. Parola ay sonu raporlama işleminiz açısından önemli olan yapı taşı bilgilerini korumaya yardımcı olabilir. Bir yapı taşını tüm rollerdeki kullanıcılar kilitleyebilir. Ancak diğer kullanıcıların kilitli bileşene her zaman salt okunur erişimi olur. Kullanıcılar kilitli bileşeni açabilir, değiştirebilir ve yeni bir adla kaydedebilir. Yönetici rolüne sahip bir kullanıcı her zaman kilitli bir yapı taşına erişebilir ve yapı taşını değiştirebilir.
 
 1. Rapor Tasarımcısı'nda, satır tanımı, sütun tanımı, rapor tanımı veya raporlama ağacı tanımı gibi kilitlenecek rapor bileşenini açın.
 2. **Araçlar** menüsünde, **Koru/Korumayı Kaldır**'a tıklayın. Ayrıca araç çubuğundaki **Koru/Korumayı Kaldır**'a (kilit simgesi) da tıklayabilirsiniz.
@@ -81,7 +80,7 @@ Bir yapı taşı grubuna atanan tüm yapı taşlarını görüntüleyebilirsiniz
 
 ### <a name="export-a-building-block-group"></a>Bir yapı taşı grubunu dışa aktarma
 
-Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi kurulumlar arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
+Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi kurulumlar arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
 
 1. Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
 2. **Yapı Taşı Grupları** iletişim kutusunda, dışa aktarılacak yapı taşı grubunu seçin ve ardından **Dışa Aktar**'a tıklayın.
@@ -114,7 +113,7 @@ Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe
 
 ### <a name="undo-a-checkout-of-a-building-block"></a>Bir yapı taşını kullanıma almayı geri alma
 
-Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı taşına salt okunur olarak erişebilir. Bazen, kullanıcılar bir yapı taşını kapatmayı unutur veya yapı taşını kapatmadan sistemlerini kapatır. Bu nedenle, yapı taşı etkin kalır ve diğer kullanıcılar bu yapı taşını açamaz. Bu gibi durumlarda, bir finansal raporlama yöneticisi **Etkin Maddeler** iletişim kutusunu kullanarak kullanıcıların etkin bıraktığı yapı taşlarını kullanıma açabilir.
+Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı taşına salt okunur olarak erişebilir. Bazen, kullanıcılar bir yapı taşını kapatmayı unutur veya yapı taşını kapatmadan sistemlerini kapatır. Bu nedenle, yapı taşı etkin kalır ve diğer kullanıcılar bu yapı taşını açamaz. Bu gibi durumlarda, bir finansal raporlama yöneticisi **Kullanıma Alınan Maddeler** iletişim kutusunu kullanarak kullanıcıların kullanıma aldığı yapı taşlarını kullanıma açabilir.
 
 > [!NOTE]
 > **Kullanıma Alınan Öğeler** iletişim kutusunu kullanarak yapı taşlarını kullanımdan çıkarmak için yönetici rolüne sahip olmanız gerekir.

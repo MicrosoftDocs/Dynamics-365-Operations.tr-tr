@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea2bfd2514be666d05165410ca27041a86464715
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143235"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684199"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Yapılandırmaları RCS'den içe aktarma
 
@@ -31,28 +30,28 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 
 1. **Organizasyon yönetimi** > **Çalışma alanları** > **Elektronik raporlama**'ya gidin. 
 2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve **Etkin** olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) konusundaki adımları tamamlayın. 
-3. Şirketiniz için sağlanmış bir RCS ortamınız yoksa **Regulatory services - Yapılandırma** dış bağlantısını tıklatın ve RCS ortamını sağlamak için yönergeleri izleyin. 
-4. **Elektronik raporlama parametreleri**'ne tıklayın. 
-5. **RCS** sekmesine tıklayın. 
+3. Şirketiniz için sağlanmış bir RCS ortamınız yoksa **Regulatory services - Yapılandırma** dış bağlantısını seçin ve RCS ortamını sağlamak için yönergeleri izleyin. 
+4. **Elektronik raporlama parametreleri**'ni seçin. 
+5. **RCS** sekmesini seçin. 
 6. Şirketiniz için RCS ortamı zaten sağlanmış ise ona erişmek için sayfa URL'lerinde sunulanları kullanın. 
 7. Sayfayı kapatın. 
 
 ## <a name="register-a-new-er-repository"></a>Yeni bir ER havuzu kaydedin. 
 1. Listede, seçili satırı işaretleyin. 
 2. Litware, Inc. sağlayıcısı seçin. 
-3. Depolar'a tıklayın. 
-4. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın. 
+3. Depolar'ı seçin. 
+4. Açılır iletişim kutusunu açmak için Ekle öğesini seçin. 
 5. Yapılandırma havuz türü alanında RCS'yi girin. 
-6. Havuz oluştur'a tıklayın. 
+6. Depo oluştur'u seçin. 
 7. RCS ortamı görüntüleme adı alanına bir değer girin veya seçin. 
-8. İstenilen RCS örneğini seçin. Bunlardan birkaç tane olabilir. 
-9. Tamam'a tıklayın. 
+8. İstenilen RCS örneğini seçin. Bunlardan birkaç tanesine sahip olabilirsiniz. 
+9. Tamam'ı seçin. 
 
-## <a name="import-er-configurations-from-rcs-based-repository"></a>RCS tabanlı depodan ER yapılandırmalarını içe aktarın
-1. **Filtreleri göster**'e tıklayın. 
+## <a name="import-er-configurations-from-rcs-based-repository"></a>RCS tabanlı depodan ER yapılandırmalarını içeri aktarma
+1. **Filtreleri göster**'i seçin. 
 2. **Name** alanındaki "RCS" değeri filtresine **ile başlar** filtre işlecini kullanarak bir filtre girin. 
-3. Seçili havuzu açtığınızda, **Regulatory Configuration Services'a bağlan** sayfasında,**Regulatory Configuration Services'e bağlanmak için buraya tıklayın** bağlantısına tıklayın. 
-4. **Aç**'a tıklayın. 
-5. **Kapat**'a tıklayın. 
-6. İstenen ER yapılandırması sürümünü seçin ve bunu geçerli örneğine getirmek için **İçe aktar**'a tıklayın.
+3. Seçili depoyu açtığınızda, **Regulatory Configuration Services'a bağlan** sayfasında,**Regulatory Configuration Services'a bağlanmak için burayı seçin** bağlantısını seçin. 
+4. **Aç**'ı seçin. 
+5. **Kapat**'ı seçin. 
+6. İstenen ER yapılandırması sürümünü seçin ve bunu geçerli kuruluma getirmek için **İçeri aktar**'ı seçin.
 

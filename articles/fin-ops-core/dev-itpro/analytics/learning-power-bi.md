@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8f97d4f59765840e215710e666079df3d4ecb878
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005791"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685261"
 ---
 # <a name="learning-power-bi-content"></a>Öğrenme Power BI içeriği
 
@@ -35,7 +34,7 @@ Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar.
 | Rapor                | İçindekiler |
 |-----------------------|----------|
 | Öğrenme Genel Bakışı     | Diğer raporların özeti |
-| Kurs Analizi       | Konuma göre kayıt, duruma göre katılımcı, şirket başına türe göre kurslar, işe göre kurs katılımı |
+| Kurs Analizi       | Konuma göre kayıt, duruma göre katılımcı, şirket başına türe göre kurslar, işe göre kurs katılımı |
 | Kayıt Analizi | Kayıt listesi |
 | Kurs Türleri          | Yeteneğe göre kurs türleri |
 | Eğitmen Analizi   | Eğitmenlere kurs oranı, eğitmen sayısı, eğitmene göre kurslar, eğitmen başına kurslar ve eğitmene göre kurs ajandası |

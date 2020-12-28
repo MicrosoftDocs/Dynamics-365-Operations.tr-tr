@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b5534c9ed0ad6cab0bc827ff626bf65a34f9df08
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138958"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680746"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 
@@ -202,16 +201,16 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
     ![SUMIF ifadesi](./media/ER-DeferredSequence-FormulaDesigner.png)
 
 11. **Formül tasarımcısı** sayfasını kapatın.
-12. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+12. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 13. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredSequence-Run1.png)
 
-    Satır 21, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Satır 22, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy**yerine çıktı tabanlı toplama kullanılabilir. Satır 2 ve satır 21'nin yürütme sürelerini karşılaştırarak, tüm işlem satırlarının oluşturulmasının ve toplama işleminin 9 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin ayrıntılı satırlarının ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
+    Satır 21, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Satır 22, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy** yerine çıktı tabanlı toplama kullanılabilir. Satır 2 ve satır 21'nin yürütme sürelerini karşılaştırarak, tüm işlem satırlarının oluşturulmasının ve toplama işleminin 9 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin ayrıntılı satırlarının ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
 
 14. **Rapor\\Satırlar\\Özet\\TotalTaxAmount** sayısal öğesini ve ardından **Formülü düzenle**'yi seçin.
 15. Varolan ifadenin yerine `SUMIF(SummingAmountKey, WsColumn, WsRow)` ifadesini girin.
-16. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+16. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 17. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredSequence-Run2.png)
@@ -224,7 +223,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 
 1. **Biçim tasarımcısı** sayfasındaki **Biçim** sekmesinde **Rapor\\Satırlar\\Özet** sıra öğesini seçin.
 2. **Yukarı taşı**'yı seçin.
-3. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredSequence-Run3.png)
@@ -238,7 +237,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 
     ![Biçim tasarımcısı sayfasındaki Özet sıra öğesinin ertelenmiş yürütme seçeneği](./media/ER-DeferredSequence-Format5.png)
 
-3. **Kaydet**i ve ardından **Çalıştır**'ı seçin.
+3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
     ![İndirilen dosya](./media/ER-DeferredSequence-Run4.png)

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc7de1473ed6ec9b93bd880b47b0c25ec5a7262
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185210"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688295"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
 
@@ -161,7 +160,7 @@ Satır tanımında belirtilen biçimlendirme sütun tanımında ve rapor tanım�
 
 1. Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
 2. Biçimlendirilecek satırları seçin. Birden fazla hücre seçmek için, hücreyi seçerken Ctrl tuşunu basılı tutun.
-3. Uygulanacak biçimin araç çubuğu düğmesine tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır](media/indent.gif "Girintiyi Artır") düğmesine tıklayın.
+3. Uygulanacak biçimin araç çubuğu düğmesine tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve ardından araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır](media/indent.gif "Girintiyi Artır") düğmesine tıklayın.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Rapor tasarlarken sütunları ayarlama
 

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771318"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688137"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -145,7 +144,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
 
 11. **Grup alanları** seçeneğini **Evet** olarak ayarlayın. Seçili PDF belgesi herhangi bir alan grubu içeriyorsa, bunlar oluşturulan ER biçimi öğelerini gruplamak için kullanılırlar. Bu amaçla bir **Alan grubu** biçim öğesi oluşturulacaktır.
 
-    Bu seçenek **Hayır**olarak ayarlanırsa, gerekli ER biçimi ögeleri oluşturulan **PDF Dosyası** biçimi öğesinin altında iç içe geçmiş düz bir öğe listesi olarak oluşturulur.
+    Bu seçenek **Hayır** olarak ayarlanırsa, gerekli ER biçimi ögeleri oluşturulan **PDF Dosyası** biçimi öğesinin altında iç içe geçmiş düz bir öğe listesi olarak oluşturulur.
 
 12. **Tamam**'ı seçin.
 
@@ -276,7 +275,7 @@ Sonra, **Intrastat (Excel 'den içe aktar)** örnek ER biçimini yüklersiniz. B
     > [!NOTE]
     > **Intrastat modeli** yapılandırması için  veya **Intrastat modeli** yapılandırması altında iç içe yerleşmiş olan başka bir yapılandırma için **Model eşleme için varsayılan** seçeneğini **Evet** olarak ayarladıysanız bu seçeneği **Hayır** olarak ayarlayın. 
 
-    **Model eşleme için varsayılan** seçeneği **Evet**olarak ayarlandığında, içe aktarılan **Intrastat (Excel'den içe aktar)** ER biçimi, **Intrastat raporu (PDF)** biçimi yapılandırması için varsayılan veri kaynağı olarak atanır. Daha sonra, **Intrastat raporu (PDF)** biçimi yapılandırması çalıştırıldığında, **Intrastat (Excel'den içe aktar)** ER biçimi tarafından ayrıştırılan Excel çalışma kitabının içeriği bildirilmesi gereken dış ticaret hareketlerinin benzetimini yapar. Aşağıdaki şekilde bir Excel çalışma kitabı örneği gösterilmiştir.
+    **Model eşleme için varsayılan** seçeneği **Evet** olarak ayarlandığında, içe aktarılan **Intrastat (Excel'den içe aktar)** ER biçimi, **Intrastat raporu (PDF)** biçimi yapılandırması için varsayılan veri kaynağı olarak atanır. Daha sonra, **Intrastat raporu (PDF)** biçimi yapılandırması çalıştırıldığında, **Intrastat (Excel'den içe aktar)** ER biçimi tarafından ayrıştırılan Excel çalışma kitabının içeriği bildirilmesi gereken dış ticaret hareketlerinin benzetimini yapar. Aşağıdaki şekilde bir Excel çalışma kitabı örneği gösterilmiştir.
 
     ![Örnek verileri olan Excel çalışma kitabı](media/rcs-ger-filloutpdf-excelworkbook.png)
 

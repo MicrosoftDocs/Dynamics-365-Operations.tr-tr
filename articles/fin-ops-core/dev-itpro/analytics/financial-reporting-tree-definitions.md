@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564179"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682688"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
@@ -98,7 +97,7 @@ Raporlama ağacı tanımı oluşturmak için aşağıdaki adımları izleyin.
 
 ### <a name="roll-up-data-in-a-reporting-tree"></a>Raporlama ağacında veri topla
 
-Raporlama ağacı kullandığınızda, alt raporlama birimlerinden gelen tutarları ana raporlama birimi düzeyinde toplayabilirsiniz. Bu toplama verilerin toplanması denir. Raporlama ağacında üst birimlere tutarları toplamak için aşağıdaki kurallar kullanılır:
+Raporlama ağacı kullandığınızda, alt raporlama birimlerinden gelen tutarları üst raporlama birimi düzeyinde toplayabilirsiniz. Bu toplama verilerin toplanması denir. Raporlama ağacında üst birimlere tutarları toplamak için aşağıdaki kurallar kullanılır:
 
 - Raporlama ağacı tek düzeyli ağaç olmadığı sürece bir raporlama ağacındaki alt birimler boyutları içermelidir. Üst birimler raporlama ağacındaki boyutları genellikle içermez.
 
@@ -106,7 +105,7 @@ Raporlama ağacı kullandığınızda, alt raporlama birimlerinden gelen tutarla
     > Alt birimler ve ana birimler için boyutları belirtirseniz raporda verilerin yinelenmesine neden olabilirsiniz.
 
 - Raporlama ağacında boyutları içeren raporlama birimleri, satır ve sütun tanımlarında kullanılan boyutlara karşılık gelir. Boyutların birleşimi, o birim için iade edilen tutarları belirler. Örneğin, bu makalenin sonraki bölümünde verilen örnek 2'de satır 6 ve 7 sırasıyla sadece departman 00 ve 01 için değerleri döndürür.
-- Raporlama ağacında boyutları içermeyen üst raporlama birimleri için tutarlar alt birim raporundan belirlenir ve tutarı belirtilen üst birime toplar. Örneğin, üst birimin (bkz. veri toplama örneklerindeki örnek 2'de Contoso ABD) iki alt birimi (022 ve 023) varsa ve boyutları içermiyorsa her alt ve üst öğe için bir rapor oluşturulur. İki alt tutarın toplamı üst toplamıdır.
+- Raporlama ağacında boyutları içermeyen üst raporlama birimleri için tutarlar alt birim raporundan belirlenir ve tutarı belirtilen üst birime toplar. Örneğin, üst birimin (bkz. veri toplama örneklerindeki örnek 2'de Contoso ABD) iki alt birimi (022 ve 023) varsa ve boyutlar içermiyorsa her alt ve üst öğe için bir rapor oluşturulur. İki alt tutarın toplamı üst toplamıdır.
 
 ### <a name="manage-reporting-units"></a>Raporlama birimlerini yönetin
 
@@ -165,9 +164,9 @@ Belirli kullanıcıların ve grupların bir raporlama birimine erişimini engell
 3. **Birim Güvenliği** iletişim kutusunda bir ad seçin ve sonra **Kaldır**'a tıklayın.
 4. **Tamam** düğmesini tıklatın.
 
-### <a name="link-toreports"></a>Raporlara bağlantı
+### <a name="link-to-reports"></a>Raporlara bağlantı
 
-Satır tanımında bir **rapor** sütunu oluşturduktan ve rapora dahil edilecek raporu belirttikten sonra, raporlama ağacını bağlı sütun ve rapor bilgileriyle güncelleştirmeniz gerekir. Bir rapor, raporlama ağacındaki herhangi bir birime aktarılabilir.
+Satır tanımında bir **rapor** sütunu oluşturduktan ve rapora dahil edilecek raporu belirttikten sonra, raporlama ağacını bağlı sütun ve rapor bilgileriyle güncelleştirmeniz gerekir. Bir rapor, raporlama ağacındaki herhangi bir birime aktarılabilir.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Raporlama ağacında raporu tanımlama
 
@@ -202,7 +201,7 @@ Aşağıdaki resim, **Boyutlardan Raporlama Birimleri Ekle** iletişim kutusunun
 
 [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
-Sonuç olarak ortaya çıkan raporlama ağacı tanımı iş birimine, ardından maliyet merkezine ve sonra departmana göre sıralanır. Beşinci raporlama biriminin boyutu **İş Birimi = \[001\], Maliyet Merkezi =\[\], Departman = \[[022\]** şeklindedir ve iş birimi 001 ve departman 022'ye özel hesaplar için bir raporlama birimini tanımlar.
+Sonuç olarak ortaya çıkan raporlama ağacı tanımı iş birimine, ardından maliyet merkezine ve sonra departmana göre sıralanır. Beşinci raporlama biriminin boyutu **İş Birimi = \[001\], Maliyet Merkezi =\[\], Departman = \[022\]** şeklindedir ve iş birimi 001 ve departman 022'ye özel hesaplar için bir raporlama birimini tanımlar.
 
 [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781157"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680889"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Ülke bağlamına bağımlı ER model eşlemelerini yapılandırma
 
@@ -202,7 +201,7 @@ Tabloda artı işareti (+), ER biçimini (Finance veya RCS) çalıştırmak içi
 
 Yürütülen ER biçimi için ER hata ayıklama günlüğüne yeni bir kayıt eklendiğini unutmayın. Bu kaydın **Düzey** alanı **Bilgi** olarak ayarlandığından kayıt bilgi amaçlıdır. Biçim bileşeni alanı **Eşleme yapılandırması** olarak ayarlandığından kayıt, (**Yapılandırma adı** alanında seçilen) **Eşlemeleri öğrenme biçimi** ER biçiminin yürütülmesi sırasında kullanılan model eşleme hakkında sizi bilgilendirir. **Oluşturulan metin** alanının içeriği, **Eşleme (FR)** yapılandırmasında yer alan **Eşleme (FR)** eşleme bileşeninin bu raporu çalıştırmak için kullanıldığı konusunda sizi bilgilendirir.
 
-## <a name="appendix1"></a> Ek 1
+## <a name="appendix-1"></a><a name="appendix1"></a> Ek 1
 
 ### <a name="configure-a-sample-data-model"></a>Örnek veri modeli yapılandırma
 
@@ -343,7 +342,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 4.  **Kaydet**'i seçin.
 5.  Sayfayı kapatın.
 
-## <a name="appendix2"></a> Ek 2
+## <a name="appendix-2"></a><a name="appendix2"></a> Ek 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Genel özelleştirme için örnek model eşlemesi yapılandırma
 
@@ -403,7 +402,7 @@ Bu ER yapılandırmasının taslak sürümü 1'in düzenlemeye hazır olduğunu 
 
 Oluşturulan yapılandırmanın tamamlanmış sürüm 1 olarak kaydedildiğini unutmayın.
 
-## <a name="appendix3"></a> Ek 3
+## <a name="appendix-3"></a><a name="appendix3"></a> Ek 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Ülkeye/bölgeye özgü özelleştirme için örnek model eşlemesi yapılandırma
 

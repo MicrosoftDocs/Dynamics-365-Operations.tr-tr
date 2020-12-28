@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c0bb153949bc123ebd7558d9d5f0afb4b2d5f02
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 61c286391d83d70036dbed7eae6755cdefce5f2e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143662"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693679"
 ---
 # <a name="change-the-banner-or-logo"></a>Başlığı veya logoyu değiştirme
 

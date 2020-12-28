@@ -3,24 +3,23 @@ title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278910"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684073"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -130,7 +129,7 @@ Bir iş aynı anda roller, kullanıcılar ve tüzel varlıklarla güvenlik altı
 Bir işi tanımladıktan sonra **İçe aktar** veya **Dışa aktar** seçerek bir defa çalıştırabilirsiniz. Yinelenen bir iş ayarlamak için **Yinelenen veri işi oluştur** seçebilirsiniz.
 
 > [!NOTE]
-> Bir içe aktarma veya dışa aktarma işi zaman uyumsuz olarak **İçe aktar** veya **Dışa aktar** düğmesini seçerek çalıştırılabilir. Zaman uyumsuz olarak çalıştırmak, zaman uyumsuz çerçeveyi kullanır, bu da toplu iş çerçevesinden farklıdır. Ancak, toplu iş çerçevesi gibi, zaman uyumsuz çerçeve de azaltma uygulayabilir ve sonuç olarak, iş derhal yürütülmeyebilir. İşler, **Şimdi içe aktar** veya **Şimdi dışa aktar** seçerek eşzamanlı olarak da çalıştırılabilir. Bu, işi derhal başlatır ve zaman uyumsuz veya bir toplu iş, azaltma nedeniyle başlatılmazsa faydalıdır. İşler, **Toplu iş içinde çalıştır** seçeneği seçilerek toplu iş içinde de çalıştırılabilir. Toplu iş kaynakları, azaltılabilir, bu nedenle toplu iş derhal başlatılmayabilir. Zaman uyumsuz seçeneği, kullanıcılar doğrudan kullanıcı arabirimi ile etkileşime girdiklerinde ve toplu iş zamanlamayı anlamayan ileri düzey kullanıcı olmadıklarında yararlıdır. Büyük miktarların dışa veya içe aktarılması gerektiğinde toplu bir toplu işi alternatif bir seçenek olarak kullanmak. Toplu işler, belirli bir toplu iş grubunda yürütülmek üzere zamanlanabilir, bu da bir yük dengeleme perspektifinden bakınca daha fazla denetime izin verir. Zaman uyumsuz ve toplu iş, sistemdeki yüksek kaynak kullanımı nedeniyle azaltılıyorsa, anında etki edecek bir geçici çözüm olarak, içe/dışa aktarmanın eşzamanlı sürümü kullanılabilir. Eşzamanlı seçenek, anında başlatılır ve kullanıcı arabirimini engelleyecektir çünkü eşzamanlı olarak yürütülür. Tarayıcı penceresinin eşzamanlı işlem devam ederken açık tutulması gerekir.
+> İçeri aktarma veya dışarı aktarma işi **İçe aktarma** veya **Dışa aktarma** düğmesini seçerek çalıştırılabilir. Bu işlem, bir toplu işi yalnızca bir kez çalışacak şekilde zamanlar. Toplu iş hizmeti, toplu iş hizmetindeki yük nedeniyle kısıtlanıyorsa iş hemen yürütülemeyebilir. İşler, **Şimdi içe aktar** veya **Şimdi dışa aktar** seçerek eşzamanlı olarak da çalıştırılabilir. Bu işlemin ardından iş derhal başlatılır. Toplu iş, kısıtlama nedeniyle başlatılamıyorsa bu işlem faydalı olacaktır. Ayrıca işler, daha sonra yürütülecek şekilde zamanlanabilir. Bunun için **Toplu iş içinde çalıştır** seçeneği belirlenebilir. Toplu iş kaynakları, azaltılabilir, bu nedenle toplu iş derhal başlatılmayabilir. Toplu iş kullanmak, içeri veya dışarı aktarılması gereken büyük miktarda veriyle ilgili de fayda sağlayacağından önerilen seçenektir. Toplu işler, belirli bir toplu iş grubunda yürütülmek üzere zamanlanabilir, bu da bir yük dengeleme perspektifinden bakınca daha fazla denetime izin verir.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>İşin beklendiği çalıştığını doğrulayın.
 İş geçmişi hem içe hem de dışa aktarma işlerinde sorun giderme ve sorgulama için kullanılabilir. Tarihi iş yürütmeleri zaman aralıkları ile düzenlenir.
@@ -195,7 +194,7 @@ Veri yönetimindeki iş geçmişi temizleme işlevselliği, yürütme geçmişin
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-İşlevler, özellik yönetiminde etkinleştirildikten sonra işlevlere **Veri yönetimi \> İş geçmişi temizleme**'den erişilebilir.
+**Yürütme geçmişini temizleme** özelliği, özellik yönetiminde etkinleştirilmelidir. Bu işlemin ardından özelliğe **Veri yönetimi \> İş geçmişi temizleme**'den erişilebilir.
 
 ### <a name="scheduling-parameters"></a>Parametreleri zamanlama
 
@@ -211,3 +210,36 @@ Temizleme işlemini zamanlarken, temizleme ölçütlerini tanımlamak için aşa
 
 > [!NOTE]
 > Hazırlama tablolarındaki kayıtlar tamamen temizlenmemekte ise, temizleme işinin tekrarda çalışacak şekilde zamanlandığından emin olun. Yukarıda açıklandığı gibi, tüm Temizleme yürütmelerindeki iş, yalnızca sağlanan maksimum saat içinde bulunabilecek kadar fazla yürütme kodunun temizlenmesine neden olacak. Kalan hazırlama kayıtlarının temizlenme işlemine devam edebilmek için, işin belirli aralıklarla çalışacak şekilde zamanlanması gerekir.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>İş geçmişi temizleme ve arşivleme (Platform update 39 veya sürüm 10.0.15'te önizleme olarak sunulur)
+İş geçmişi temizleme ve arşivleme işlevi, temizleme işlevinin önceki sürümlerinin yerine geçer. Bu bölümde bu yeni özellikler açıklanmaktadır.
+
+Temizleme işlevinde yapılan ana değişikliklerden biri, geçmişi temizlemek için sistem toplu işinin kullanılmasıdır. Sistem toplu işi kullanıldığında, Finance and Operations uygulamaları temizleme toplu işini otomatik olarak zamanlar ve sistem hazır olduğunda çalıştırır. Toplu işlemin el ile zamanlanmasına gerek kalmaz. Bu varsayılan yürütme modunda toplu iş, gece yarısı 12'den başlayarak her saat yürütülür ve son 7 günün yürütme geçmişi saklanır. Temizlenen geçmiş, ileride alınabilecek şekilde arşivlenir.
+
+> [!NOTE]
+> Bu işlev önizleme sürümünde olduğundan sistem toplu işi, DMFEnableExecutionHistoryCleanupSystemJob sınırlı dağıtımı üzerinden etkinleştirilene kadar hiçbir yürütme geçmişini silmez. Özellik sonraki sürümlerde herkesin kullanımına sunulduğunda bu sınırlı dağıtıma gerek kalmayacak ve sistem toplu işi yukarıda açıklandığı gibi, tanımlanan zamanlamaya göre sistem hazır olduğunda temizleme ve arşivleme işlemini başlatacaktır. 
+
+> [!NOTE]
+> Sonraki bir sürümde, temizleme işlevinin önceki sürümleri Finance and Operations uygulamalarından kaldırılacaktır.
+
+Temizleme işlemindeki ikinci değişiklik, temizlenen yürütme geçmişinin arşivlenmesidir. Temizleme işi, silinen kayıtları DIXF tarafından düzenli tümleştirmeler için kullanılan blob depolamaya arşivler. Arşivlenen dosya, DIXF paketi biçiminde olur ve 7 gün boyunca blob'da kullanılabilir olur. Dosya bu süre içinde indirilebilir. Arşivlenen dosya için varsayılan 7 günlük süre, parametrelerde en fazla 90 güne kadar değiştirilebilir.
+
+### <a name="changing-the-default-settings"></a>Varsayılan ayarları değiştirme
+Bu işlev şu anda önizleme sürümündedir ve DMFEnableExecutionHistoryCleanupSystemJob sınırlı dağıtımını etkinleştirerek özellikle açılması gerekir. Hazırlama temizleme özelliği de özellik yönetiminde açılmalıdır.
+
+Arşivlenen dosyanın saklanmasıyla ilgili varsayılan ayarı değiştirmek için veri yönetimi çalışma alanına gidip **İş geçmişi temizleme**'yi seçin. **Paketin blob'da saklanacağı gün sayısı** ayarını 7 ile 90 gün (dahil) arasında bir değere ayarlayın. Bu ayar, değişiklik yapıldıktan sonra oluşturulan arşivler üzerinde etkili olur.
+
+### <a name="downloading-the-archived-package"></a>Arşivlenen paketi indirme
+Bu işlev şu anda önizleme sürümündedir ve DMFEnableExecutionHistoryCleanupSystemJob sınırlı dağıtımını etkinleştirerek özellikle açılması gerekir. Hazırlama temizleme özelliği de özellik yönetiminde açılmalıdır.
+
+Arşivlenmiş yürütme geçmişini indirmek için veri yönetimi çalışma alanına gidin ve **İş geçmişi temizleme**'yi seçin. Geçmiş formunu açmak için **Paket yedekleme geçmişi**'ni seçin. Bu formda, arşivlenen tüm paketlerin listesi gösterilir. Arşiv, **Paketi İndir** seçeneğini belirleyerek seçilip indirilebilir. İndirilen paket, DIXF paketi biçiminde olur ve aşağıdaki dosyaları içerir:
+
+-   Varlık hazırlama tablosu dosyası
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

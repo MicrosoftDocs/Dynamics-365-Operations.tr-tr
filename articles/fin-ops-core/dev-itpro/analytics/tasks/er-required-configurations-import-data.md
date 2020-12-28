@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143327"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684295"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 
@@ -98,11 +97,11 @@ Bu alt görevdeki adımlar, harici dosyalardan veri içeri aktarmayı yönetmek 
 
     Tasarlanan biçimin, burada bir veri kaynağı bileşeni olarak sunulduğuna dikkat edin.  
 
-6. Ağaçta, "biçim: Kayıt\*kapatma: XML Öğesi 1..1 (kapatma): Kayıt" öğesini genişletin.
-7. Ağaçta, "biçim: Kayıt\*kapatma: XML Öğesi 1..1 (kapatma): Kayıt\hareket: XML Öğesi 0..* (hareket): Kayıt listesi" öğesini genişletin.
-8. Ağaçta, "biçim: Kayıt\*kapatma: XML Öğesi 1..1 (kapatma): Kayıt\hareket: XML Öğesi 0..* (hareket): Kayıt listesi\*satıcı: XML Öğesi 1..1 (satıcı): Kayıt" öğesini genişletin.
-9. Ağaçta, "biçim: Kayıt\*kapatma: XML Öğesi 1..1 (kapatma): Kayıt\hareket: XML Öğesi 0..* (hareket): Kayıt listesi\ülke: XML Öğesi 0..1 (ülke): Kayıt" öğesini genişletin.
-10. Ağaçta, "biçim: Kayıt\*kapatma: XML Öğesi 1..1 (kapatma): Kayıt\hareket: XML Öğesi 0..* (hareket): Kayıt listesi\*satıcı: XML Öğesi 1..1 (satıcı): Kayıt" öğesini seçin.
+6. Ağaçta, `format: Record\*settlement: XML Element 1..1 (settlement): Record` öğesini genişletin.
+7. Ağaçta, `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list` öğesini genişletin.
+8. Ağaçta, `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record` öğesini genişletin.
+9. Ağaçta, `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record` öğesini genişletin.
+10. Ağaçta, `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record` öğesini seçin.
 
     Zorunlu ve isteğe bağlı biçim öğelerinin gösteriminin, önceden tanımlanmış "biçim" veri kaynağı bileşeninde farklı olduğuna dikkat edin.  
 11. Ağaçta, "Hareketler: Kayıt listesi= format.settlement.'$enumerated' " öğesini genişletin.
@@ -237,15 +236,15 @@ Test amacıyla bu biçim eşlemesini yürütün. Daha önce indirdiğiniz 1099en
 19. Sayfayı kapatın.
 20. Düzenle'ye tıklayın.
 
-    "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 Finance sürümlerinde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz, (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) girilen biçim yapılandırması için, bir sonraki adımı ("Model eşleme varsayılanı" bayrağını açma) yürütün. Aksi durumda, bir sonraki adımı atlayın.  
+    "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı Dynamics 365 Finance sürümlerinde dağıtmak için farklı ön koşulları belirleyebilme" düzeltmesini ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871))yüklediyseniz girilen biçim yapılandırması için bir sonraki adım olan "'Model eşleme için varsayılan' bayrağını açma" adımını yürütün. Aksi durumda, bir sonraki adımı atlayın.  
 
-21. Model eşleme varsayılanı alanında, Evet'i seçin.
+21. Model eşleme için varsayılan alanında Evet'i seçin.
 22. Ağaçta, "1099 Ödemeleri modeli" öğesini seçin.
-23. Tasarımcı'yı tıklatın.
+23. Tasarımcı'ya tıklayın.
 24. Modeli veri kaynağına eşle'yi tıklayın.
 25. Çalıştır öğesine tıklayın.
 
-    "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı sürümlerde dağıtmak için farklı önkoşulları belirleyebilme" düzeltmesini yüklediyseniz, (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) arama alanında tercih edilen model eşlemesini seçin. Düzeltmeyi henüz yüklemediyseniz, eşleme varsayılan biçim yapılandırmasının tanımı tarafından zaten seçildiğinden bir sonraki adımı atlayın.  
+    "KB 4012871 Ayrı yapılandırmalarda GER model eşlemeleri desteği ve bunları farklı sürümlerde dağıtmak için farklı önkoşulları belirleyebilme" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)) düzeltmesini yüklediyseniz arama alanında tercih edilen model eşlemesini seçin. Düzeltmeyi henüz yüklemediyseniz, eşleme varsayılan biçim yapılandırmasının tanımı tarafından zaten seçildiğinden bir sonraki adımı atlayın.  
     
     KB 4012871 düzeltmesini yüklemediyseniz iletişim kutusunun içeri aktarmakta olduğunuz dosyayı ayrıştırmak için kullanılan ek bir model eşleme sorusu içerdiğine dikkat edin. Ardından veriler, iletişim kutusundan veri modeline taşınır. Şu anda, içe aktarmayı planladığınız dosya türüne bağlı olarak hangi biçim eşlemesinin kullanılması gerektiğini seçebilirsiniz.  
     

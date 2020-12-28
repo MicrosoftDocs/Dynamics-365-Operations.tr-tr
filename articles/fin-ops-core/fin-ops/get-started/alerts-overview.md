@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 755181e956a3d93d87e9e5d57622283ff7bf4944
-ms.sourcegitcommit: f62c2151be477acfaeace73878471abb9b1b832d
+ms.openlocfilehash: 191f8a5d788f57964e7870167109e98cbde65c43
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3602541"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694176"
 ---
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 

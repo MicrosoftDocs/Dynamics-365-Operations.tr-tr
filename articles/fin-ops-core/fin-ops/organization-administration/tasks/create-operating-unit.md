@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38db4a5f93f4b755cfd6fee43eaef27672551077
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143854"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694825"
 ---
 # <a name="create-an-operating-unit"></a>Bir çalışma birimi oluşturun
 

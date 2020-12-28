@@ -1,6 +1,6 @@
 ---
 title: Genel sorun giderme
-description: Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
+description: Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c3352afd93dfc7c37a8af9dabaf85b7a1debad30
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997266"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688271"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Bu konu, Finance and Operations uygulamaları ve Common Data Service arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
+
+Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
 
 > [!IMPORTANT]
 > Bu konu adresiyle ilgili bazı sorunların sistem yöneticisi rolü veya Microsoft Azure Active Directory (Azure AD) kiracı yöneticisi kimlik bilgileri gerekebilir. Her konunun bölümünde belirli bir rol veya kimlik bilgilerinin gerekli olup olmadığı açıklanmaktadır.
@@ -42,7 +44,7 @@ Paket Dağıtıcı aracının bazı sürümleri çift yazma çözüm paketiyle u
 
 Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek çözüm paketini yükleyin.
 
-1. Yammer.Com ' dan en son çözüm paketi dosyasını karşıdan yükle. Paket ZIP dosyası karşıdan yüklendikten sonra sağ tıklatın ve **Özellikler** 'i seçin. **Engeli kaldır** onay kutusunu seçin ve **Uygula** 'yı seçin. **Engellemeyi kaldır** onay kutusunu görmüyorsanız, zip dosyasının engeli zaten kaldırılır ve bu adımı atlayabilirsiniz.
+1. Yammer.Com ' dan en son çözüm paketi dosyasını karşıdan yükle. Paket ZIP dosyası karşıdan yüklendikten sonra sağ tıklatın ve **Özellikler** 'i seçin. **Engeli kaldır** onay kutusunu seçin ve **Uygula**'yı seçin. **Engellemeyi kaldır** onay kutusunu görmüyorsanız, zip dosyasının engeli zaten kaldırılır ve bu adımı atlayabilirsiniz.
 
     ![Özellikler iletişim kutusu](media/unblock_option.png)
 
@@ -51,30 +53,30 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
     ![Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438 klasörü içeirği](media/extract_package.png)
 
 3. Kopyalanan tüm dosyaları, Paket Dağıtıcı aracı'nın **Araçlar** klasörüne yapıştırın. 
-4. Common Data Service Ortamı seçmek ve çözümleri yüklemek için **PackageDeployer. exe** dosyasını çalıştırın.
+4. Dataverse Ortamı seçmek ve çözümleri yüklemek için **PackageDeployer. exe** dosyasını çalıştırın.
 
     ![Araçlar klasörünün içeriği](media/paste_copied_files.png)
 
-## <a name="enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details"></a>Eklenti izlemeyi etkinleştir ve görüntüle hata ayrıntılarını görüntülemek için Common Data Service'te oturum açın
+## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Hata ayrıntılarını görmek için Dataverse'te eklenti izleme günlüğünü etkinleştirme ve görüntüleme
 
 **İzleme günlüğünü açmak ve hataları görüntülemek için gerekli rol:** Sistem Yöneticisi
 
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Sistem** altında **Yönetim** 'i seçin.
-2. **Yönetim** sayfasında **Sistem Ayarları** 'nı seçin.
-3. **Özelleştirme** sekmesinde, eklenti ve **özel iş akışı faaliyet izleme** alanında, eklenti izleme günlüğünü etkinleştirmek için **tümü** 'nü seçin. Yalnızca özel durumlar gerçekleştiğinde izleme günlüklerini günlüğe kaydetmek istiyorsanız, bunun yerine **özel durum** seçebilirsiniz.
+1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Sistem** altında **Yönetim**'i seçin.
+2. **Yönetim** sayfasında **Sistem Ayarları**'nı seçin.
+3. **Özelleştirme** sekmesinde, eklenti ve **özel iş akışı faaliyet izleme** alanında, eklenti izleme günlüğünü etkinleştirmek için **tümü**'nü seçin. Yalnızca özel durumlar gerçekleştiğinde izleme günlüklerini günlüğe kaydetmek istiyorsanız, bunun yerine **özel durum** seçebilirsiniz.
 
 
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
-1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Özelleştirme** altında **Eklenti İzleme Günlüğü** 'nü seçin.
+1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Özelleştirme** altında **Eklenti İzleme Günlüğü**'nü seçin.
 2. **Tür Adı** alanının **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
 3. Tam günlüğü görüntülemek için bir öğeyi çift tıklatın ve sonra **yürütme** hızlı sekmesinde **ileti öbeği** metnini gözden geçirin.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finance and Operations Uygulamalardaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştir
 
-**Hataları görüntülemek için gerekli olan rol:** Common Data Service uygulamasında yer alan sistem yöneticisi Çift yazma hataları Finance and Operations uygulamasında görünebilir. Bazı durumlarda, ileti çok uzun veya kişisel tanımlayıcı bilgiler (PII) içerdiğinden hata iletisinin tam metni kullanılamıyor. Hata için ayrıntılı günlüğü, aşağıdaki adımları izleyerek açabilirsiniz.
+**Hataları görüntülemek için gerekli olan rol:** Dataverse uygulamasında yer alan sistem yöneticisi Çift yazma hataları Finance and Operations uygulamasında görünebilir. Bazı durumlarda, ileti çok uzun veya kişisel tanımlayıcı bilgiler (PII) içerdiğinden hata iletisinin tam metni kullanılamıyor. Hata için ayrıntılı günlüğü, aşağıdaki adımları izleyerek açabilirsiniz.
 
 1. Finance and Operations Uygulamalardaki tüm proje yapılandırmalarında **dualwriteprojectconfiguration** varlığında bir **ısdebugmode** özelliği vardır. **DualWriteProjectConfiguration** varlığını Excel eklentisini kullanarak açın.
 
@@ -83,9 +85,9 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 
 2. **Isdebugmode** özelliğini proje için **Evet** olarak ayarlayın.
 3. Hata oluşturan senaryoyu çalıştırın.
-4. Ayrıntılı Günlükler DualWriteErrorLog tablosunda bulunur. Verileri tablo tarayıcısında aramak için aşağıdaki URL 'yi kullanın ( **xxx** 'yi uygun şekilde değiştirin):
+4. Ayrıntılı Günlükler DualWriteErrorLog tablosunda bulunur. Verileri tablo tarayıcısında aramak için aşağıdaki URL 'yi kullanın (**xxx**'yi uygun şekilde değiştirin):
 
-    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=>DualWriteErrorLog`
+    `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Finance and Operations Uygulamaya ilişkin sanal makinedeki eşitleme hatalarını denetle
 
@@ -96,27 +98,27 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 3. **Bulutta barındırılan ortamlar** kutucuğunu seçin.
 4. Finance and Operations Uygulamanın sanal makinesine (VM) oturum açmak Için uzak masaüstü 'nü kullanın. LCS içinde gösterilen yerel hesabı kullanın.
 5. Olay Görüntüleyiciyi açın.
-6. **Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim** 'e gidin.
+6. **Uygulamalar ve Hizmetler günlükleri \> Microsoft \> Dynamics \> AX-DualWriteSync \> İşletim**'e gidin.
 7. En son hataların listesini gözden geçirin.
 
-## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamadan başka bir Common Data Service ortam bağlantısını kaldır ve bağlantıyı kes
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamadan başka bir Dataverse ortam bağlantısını kaldır ve bağlantıyı kes
 
-**Ortamın bağlantısını kaldırmak için gerekli rol:** Finance and Operations veya Common Data Service uygulaması için sistem yöneticisi.
+**Ortamın bağlantısını kaldırmak için gerekli rol:** Finance and Operations veya Dataverse uygulaması için sistem yöneticisi.
 
 1. Finance and Operations Uygulamaya oturum açın.
-2. **Çalışma alanları \> veri yönetimi** 'ne gidin ve **ikili yazma** kutucuğunu seçin.
-3. Çalışan tüm eşlemeleri seçin ve **Durdur** 'u tıklatın.
-4. **Ortam bağlantısını kaldırma** 'yı seçin.
-5. Operasyonu onaylamak için **Evet** 'i seçin.
+2. **Çalışma alanları \> veri yönetimi**'ne gidin ve **ikili yazma** kutucuğunu seçin.
+3. Çalışan tüm eşlemeleri seçin ve **Durdur**'u tıklatın.
+4. **Ortam bağlantısını kaldırma**'yı seçin.
+5. Operasyonu onaylamak için **Evet**'i seçin.
 
 Şimdi yeni bir ortam bağlayabilirsiniz.
 
 ## <a name="unable-to-view-the-sales-order-line-information-form"></a>Satış siparişi satırı Bilgi formu görüntülenemiyor 
 
-Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün ekle** 'ye tıklamak, sizi Dynamics 365 Project Operations sipariş satırı formuna yönlendirebilir. Satış siparişi satırı **Bilgi** formunu görüntülemek için bu formdan bir yol yoktur. **Bilgi** seçeneği, **Yeni Sipariş Satırı** altındaki açılan listede görüntülenmez. Bunun nedeni, Project Operations'ın ortamınıza yüklenmiş olmasıdır.
+Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün ekle**'ye tıklamak, sizi Dynamics 365 Project Operations sipariş satırı formuna yönlendirebilir. Satış siparişi satırı **Bilgi** formunu görüntülemek için bu formdan bir yol yoktur. **Bilgi** seçeneği, **Yeni Sipariş Satırı** altındaki açılan listede görüntülenmez. Bunun nedeni, Project Operations'ın ortamınıza yüklenmiş olmasıdır.
 
 **Bilgi** formu seçeneğini yeniden etkinleştirmek için şu adımları izleyin:
 1. **Sipariş satırı** varlığına gidin.
 2. Formlar düğümünün altından **Bilgi** formunu bulun. 
-3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir** 'e tıklayın. 
+3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın. 
 4. Güvenlik ayarını **Herkese göster** olarak değiştirin.

@@ -1,6 +1,6 @@
 ---
 title: Tümleşik satıcı aslı
-description: Bu konu Finance and Operations uygulamaları ile Common Data Service arasında satıcı verileri tümleştirmesini açıklar.
+description: Bu konu Finance and Operations uygulamaları ile Dataverse arasında satıcı verileri tümleştirmesini açıklar.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997660"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685497"
 ---
 # <a name="integrated-vendor-master"></a>Tümleşik satıcı aslı
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,7 +39,7 @@ Her iki yaklaşımdan satıcı verileri, Dynamics 365 Supply Chain Management, D
 
 ## <a name="vendor-data-flow"></a>Satıcı veri akışı
 
-Common Data Service'deki **Firma/ilgili kişi** varlığında satıcı verilerini saklamak istemiyorsanız yeni satıcı tasarımını kullanabilirsiniz.
+Dataverse'deki **Firma/ilgili kişi** varlığında satıcı verilerini saklamak istemiyorsanız yeni satıcı tasarımını kullanabilirsiniz.
 
 ![Satıcı veri akışı](media/dual-write-vendor-data-flow.png)
 
@@ -50,12 +52,12 @@ Common Data Service'deki **Firma/ilgili kişi** varlığında satıcı verilerin
 
 ## <a name="templates"></a>Şablonlar
 
-Satıcı verileri, satıcıyla ilgili satıcı grubu, adresler, iletişim bilgileri, ödeme profili ve fatura profili gibi tüm bilgileri içerir. Varlık eşlemeleri topluluğu, aşağıdaki tabloda gösterildiği gibi satıcı veri etkileşimi sırasında birlikte çalışır.
+Satıcı verileri, satıcıyla ilgili satıcı grubu, adresler, iletişim bilgileri, ödeme profili ve fatura profili gibi tüm bilgileri içerir. Tablo eşlemeleri koleksiyonu, aşağıdaki tabloda gösterildiği gibi satıcı veri etkileşimi sırasında birlikte çalışır.
 
 Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları     | Tanım
 ----------------------------|-----------------------------|------------
 Satıcı V2                   | Hesap                     | Satıcı bilgilerini depolamak için Hesap varlığını kullanan işletmeler, aynı şekilde kullanmaya devam edebilir. Ayrıca, Finance and Operations uygulamaları tümleştirmesi nedeniyle gelen açık satıcı işlevlerinden de yararlanabilir.
-Satıcı V2                   | Msdyn\_vendors              | Satıcılar için özel bir çözüm kullanan işletmeler, Finance and Operations uygulamaları tümleştirmesi nedeniyle Common Data Service'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir. 
+Satıcı V2                   | Msdyn\_vendors              | Satıcılar için özel bir çözüm kullanan işletmeler, Finance and Operations uygulamaları tümleştirmesi nedeniyle Dataverse'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir. 
 Satıcı grupları               | msdyn\_vendorgroups         | Bu şablon satıcı grubu bilgilerini eşitler.
 Satıcı ödeme yöntemi       | msdyn\_vendorpaymentmethods | Bu şablon, satıcı ödeme yöntemi bilgilerini eşitler.
 CDS İlgili Kişileri V2             | ilgili kişiler                    | [İlgili kişiler](customer-mapping.md#cds-contacts-v2-to-contacts) şablonu, müşterilerin ve satıcıların tüm birincil, ikincil ve üçüncül ilgili kişi bilgilerini eşitler.

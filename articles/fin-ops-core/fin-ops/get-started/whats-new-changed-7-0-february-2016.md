@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811494"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693270"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -481,7 +480,7 @@ Yeni özellik eklenmemiştir.
 </tr>
 <tr>
 <td>(AB) Ters gider uygulanabilirlik kurallarını yapılandırın.</td>
-<td>Ters gider uygulanabilirlik kuralları yurtiçi ters gideri senaryosu için sabit kodlanmıştır. Uygulanabilirlik eşiği madde grubu bazında ayarlanabilir. İşlevsellik yalnızca İngiltere için kullanılabilir.</td>
+<td>Ters gider uygulanabilirlik kuralları yurtiçi ters gideri senaryosu için sabit kodlanmıştır. Uygulanabilirlik eşiği madde grubu bazında ayarlanabilir. İşlevsellik yalnızca Büyük Britanya için kullanılabilir.</td>
 <td>Ters gider uygulanabilirlik kurallarını belge türü bazında (satınalma/satış siparişleri, satıcı faturası, serbest metin faturası vb.) ve maddeler, madde grupları ve satınalma/satış kategorilerini birleştiren ters gider grubu bazında yapılandırabilirsiniz. Uygulanabilirlik kuralları tarih etkilidir. Satış vergi gruplarında ters gidere uygulanabilecek şekilde tek tek satış vergi kodlarını işaretleyebilirsiniz. Satış faturası raporu uygulanan ters giderin ayrıntılarını göstermek üzere ayarlanır. İşlevsellik tüm Avrupa ülkeleri/bölgelerinde kullanılabilir.</td>
 <td>Bu değişiklik ters gider uygulanabilirlik kuralları yapılandırmasını birleştirir ve yurtiçi ters gider düzenlemelerinin Avrupa ülkeleri/bölgeleri tarafından benimsenmesini destekler.</td>
 </tr>
@@ -735,7 +734,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 </tr>
 <tr>
 <td>Microsoft Dynamics AX arka ofis ve kanallar arasında Commerce Data Exchange kullanarak veri taşıyın.</td>
-<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz.: <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Microsoft Dynamics AX 2012 CU8 ile fonksiyonel eşlilik vardır. Ancak, aşağıdaki ayrıntıları unutmayın:
 <ul>
 <li>Commerce Data Exchange bulut için yeniden yaratıldı.</li>
@@ -839,7 +838,7 @@ Perakende, sürükleyici mobil deneyimleri her yerde, her zaman ve herhangi bir 
 <ul>
 <li>AAD kullanılarak cihaz etkinleştirme</li>
 <li>Esnek düzen tasarımı</li>
-<li>Edge, Internet Explorer ve Chrome tarayıcılar için destek.</li>
+<li>Microsoft Edge, Internet Explorer ve Chrome tarayıcılar için destek.</li>
 </ul></td>
 <td>MPOS ile uyumlu işleve sahip bir web uygulama POS'u sağlar ve dağıtım masrafı olmadan platformlar ve tarayıcılar arasında kullanılabilir.</td>
 </tr>

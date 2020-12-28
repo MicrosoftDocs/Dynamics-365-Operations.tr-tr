@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 961e6a167d4fe48c96bffcff1e54acde0ad5d805
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997436"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685625"
 ---
 # <a name="dual-write-overview"></a>Çift yazmaya genel bakış
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997436"
 
 Çift yazma, müşteri etkileşimi uygulamaları ile Finance and Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan hazır bir altyapıdır. Müşteriler, ürünler, kişiler ve işlemlerle ilgili veriler, uygulama sınırlarının ötesinde akar, bir kuruluştaki tüm bölümler korunur.
 
-Çift-yazma, Finance and Operations uygulamalar ve Common Data Service arasında sıkı şekilde bağlanmış, çift yönlü tümleştirme sağlar. Finance and Operations uygulamalardaki tüm veri değişiklikleri Common Data Service'e yazmaya neden olur ve Common Data Service'deki tüm veri değişiklikleri Finance and Operations uygulamalara yazmaya neden olur. Bu otomatik veri akışı, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar.
+Çift-yazma, Finance and Operations uygulamalar ve Dataverse arasında sıkı şekilde bağlanmış, çift yönlü tümleştirme sağlar. Finance and Operations uygulamalardaki tüm veri değişiklikleri Dataverse'e yazmaya neden olur ve Dataverse'deki tüm veri değişiklikleri Finance and Operations uygulamalara yazmaya neden olur. Bu otomatik veri akışı, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar.
 
 ![Uygulamalar arasında veri ilişkisi](media/dual-write-overview.jpg)
 
@@ -52,7 +54,7 @@ ms.locfileid: "3997436"
 + Özel uyarıları ve eşikleri konfigüre etme ve bildirimlere abone olma yeteneği
 + Filtreleme ve dönüşümler için sezgisel kullanıcı arabirimi (UI)
 + Varlık bağımlılıklarını ve ilişkilerini ayarlama ve görüntüleme yeteneği
-+ Standart ve özel varlıklar ve haritalar için genişletilebilirlik
++ Standart ve özel tablolar ve haritalar için genişletilebilirlik
 + Güvenilir uygulama yaşam döngüsü yönetimi
 + Yeni müşteriler için kutulu kurulum deneyimi
 
@@ -85,23 +87,23 @@ ms.locfileid: "3997436"
 Çift-yazılır, Microsoft Dynamics 365 uygulama arasında veri tümleştirmesi sağlar. Bu güçlü çerçeve, ortamları birbirine bağlar ve farklı iş uygulamalarının birlikte çalışmasını sağlar. Çift-yazmayı kullanmanız gereken başlıca nedenler şunlardır:
 
 + Çift-yazılır, Dynamics 365'deki modele dayalı uygulamalar ve Finance and Operations uygulamaları arasında sıkı şekilde bağlanmış, yakın zamanda ve çift yönlü bütünleştirme sağlar. Bu bütünleşme, Microsoft Dynamics 365 tüm iş çözümleri için tek durduran mağaza yapar. Müşteri İlişkileri Yönetimi (CRM) için Microsoft dışı çözümler kullanan ancak Dynamics 365 Finance ve Dynamics 365 Supply Chain Management kullanan müşteriler çift yaz desteği için Dynamics 365'e doğru hareket ettirillerdir.
-+ Müşteriler, ürünler, operasyonlar, projeler ve bunların Internet bilgileri (IoT), otomatik olarak çift-yazılabilir olarak Common Data Service'e akar. Bu bağlantı, Power Platform uzantıları ile ilgilenen işletmeler için yararlıdır.
++ Müşteriler, ürünler, operasyonlar, projeler ve bunların Internet bilgileri (IoT), otomatik olarak çift-yazılabilir olarak Dataverse'e akar. Bu bağlantı, Power Platform uzantıları ile ilgilenen işletmeler için yararlıdır.
 + Çift-yazılır altyapı, No-Code/Low-Code ilkesini izler. Standart tablo-tablo eşlemelerini genişletmek ve özel eşlemeler eklemek için minimal mühendislik çaba gereklidir.
 + Çift yazım, hem çevrimiçi modu, hem de çevrimdışı modu destekler. Microsoft, çevrimiçi ve çevrimdışı modlar için destek sunan tek şirkettir.
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları için çift yazma ortalaması nedir?
 
-Çift-yazma Finance and Operations uygulamaları ve müşteri etkileşimi uygulamaları arasında veri akışını otomatikleştirir. Çift yazma, Common Data Service üzerine yüklenen iki AppSource çözümünden oluşur. Çözümler, ERP boyutuna ölçeklendirilebilecek şekilde, Common Data Service üzerindeki varlık şemasını, eklentileri ve iş akışlarını genişletir. Başarılı bir uygulama için, müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları bu değişiklikleri anlayıp Finance and Operations uygulamalarındaki meslektaşlarıyla birlikte çalışmalıdır.
+Çift-yazma Finance and Operations uygulamaları ve müşteri etkileşimi uygulamaları arasında veri akışını otomatikleştirir. Çift yazma, Dataverse üzerine yüklenen iki AppSource çözümünden oluşur. Çözümler, ERP boyutuna ölçeklendirilebilecek şekilde, Dataverse üzerindeki varlık şemasını, eklentileri ve iş akışlarını genişletir. Başarılı bir uygulama için, müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları bu değişiklikleri anlayıp Finance and Operations uygulamalarındaki meslektaşlarıyla birlikte çalışmalıdır.
 
-Finance and Operations uygulamalarla eşitlik oluşturmak için çift yazma, Common Data Service şemasında bazı önemli değişiklikler yapar. Planı anladığınızda, gelecekte tasarım ve geliştirme üzerinde yeniden çalışma yapmaktan kaçınabilirsiniz.
+Finance and Operations uygulamalarla eşitlik oluşturmak için çift yazma, Dataverse şemasında bazı önemli değişiklikler yapar. Planı anladığınızda, gelecekte tasarım ve geliştirme üzerinde yeniden çalışma yapmaktan kaçınabilirsiniz.
 
-+ Çift yazma AppSource paketi yüklendiğinde, Common Data Service uygulamasında şirket ve taraf gibi yeni kavramlar bulunacaktır. Bu kavramlar, Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service ve Dynamics 365 Field Service uygulamalarının dahil olduğu Common Data Service üzerine inşa edilen uygulamaların sorunsuz bir şekilde Finance and Operations uygulamaları ile etkileşimde bulunmasına yardımcı olur.
++ Çift yazma AppSource paketi yüklendiğinde, Dataverse uygulamasında şirket ve taraf gibi yeni kavramlar bulunacaktır. Bu kavramlar, Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service ve Dynamics 365 Field Service uygulamalarının dahil olduğu Dataverse üzerine inşa edilen uygulamaların sorunsuz bir şekilde Finance and Operations uygulamaları ile etkileşimde bulunmasına yardımcı olur.
 
 + Aktiviteler ve notlar, C1S (sistemin kullanıcılarını) ve C2s (sistemin müşterileri) desteklenmesi için birleştirilmiş ve genişletilmiştir.
 
-+ Finance and Operations uygulamaları ile Common Data Service arasında yapılan para birimi iletimi sırasında veri kaybını önlemek için, müşteri etkileşimi uygulamalarının para birimi veri türünde ondalık basamak sayısını genişletebilirsiniz. Özellik, var olan kayıtları meta veri katmanındaki yeni genişletilmiş duruma otomatik olarak çevirir. Bu işlem sırasında para birimi değeri para verileri yerine ondalık verilere çevrilir ve para birimi değeri 10 basamaklı ondalık değeri destekler. Bu özellik tercihe bağlıdır ve 4 basamaktan fazla ondalık değere ihtiyaç duymayan kuruluşların tercih etmesine gerek yoktur. Daha fazla bilgi için, bkz. [Çift yazma için para birimi veri türü taşıma](currrency-decimal-places.md).
++ Finance and Operations uygulamaları ile Dataverse arasında yapılan para birimi iletimi sırasında veri kaybını önlemek için, müşteri etkileşimi uygulamalarının para birimi veri türünde ondalık basamak sayısını genişletebilirsiniz. Özellik, var olan satırları meta veri katmanındaki yeni genişletilmiş duruma otomatik olarak çevirir. Bu işlem sırasında para birimi değeri para verileri yerine ondalık verilere çevrilir ve para birimi değeri 10 basamaklı ondalık değeri destekler. Bu özellik tercihe bağlıdır ve 4 basamaktan fazla ondalık değere ihtiyaç duymayan kuruluşların tercih etmesine gerek yoktur. Daha fazla bilgi için, bkz. [Çift yazma için para birimi veri türü taşıma](currrency-decimal-places.md).
 
-+ [Tarih etkililiği](../../dev-tools/date-effectivity.md) Common Data Service uygulamasına eklenecektir. Aynı varlık üzerinde geçmiş, şimdiki ve gelecekteki verileri destekleyecektir.
++ [Tarih etkililiği](../../dev-tools/date-effectivity.md) Dataverse uygulamasına eklenecektir. Aynı varlık üzerinde geçmiş, şimdiki ve gelecekteki verileri destekleyecektir.
 
 + Ürün [birimi dönüştürmeleri](../../../../supply-chain/pim/tasks/manage-unit-measure.md) ürünler, teklifler, siparişler ve faturalar için desteklenir.
 

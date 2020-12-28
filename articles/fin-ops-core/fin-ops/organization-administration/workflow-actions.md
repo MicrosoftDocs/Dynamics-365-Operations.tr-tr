@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 56411
 ms.assetid: 65fb711c-6474-42d1-81ed-ca657c29bf1f
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0796574c19fa417a8f63187b5d952b853d90e93f
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698005"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694299"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>İş akışı onay işlemlerindeki eylemler
 

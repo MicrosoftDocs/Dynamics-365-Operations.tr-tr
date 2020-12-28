@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142189"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682129"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme
 
@@ -78,14 +77,14 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 17. Ağaçta, 'Transactions\Voucher' seçin.
 18. Veri kaynağı ekle'ye tıklayın.
 19. Formül alanına "CONCATENATE(Transactions.Voucher, "-", " yazın.
-    * Förmülün sonuna, [ , “-“, ] yazın.  
+    * Formülün sonuna, [ , "-", ] yazın.  
 20. Ağaçta 'String\TEXT' seçin.
 21. Fonksiyon ekle'ye tıklayın.
 22. Ağaçta, 'Transactions\Record-ID(RecId)' seçin.
 23. Veri kaynağı ekle'ye tıklayın.
 24. Formül alanına "CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))" yazın.
     * Formülün sonuna, [))] yazın.  
-25. Kaydet'e tıklayın.
+25. Kaydet'i tıklatın.
     * Oluşturulan formülde herhangi bir hata tespit edilmediğinden emin olun. Formül düzenleyici denetimin altındaki HATALAR sekmesine bakın.  
 26. Sayfayı kapatın.
 27. Tamam'a tıklayın.
@@ -99,7 +98,7 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 32. Ağaçta, 'Transactions\Debit(AmountCurDebit)' seçin.
 33. Veri kaynağı ekle'ye tıklayın.
 34. Formül alanına "Transactions.AmountCurDebit - " yazın.
-    * Formün sonuna [ - ] yazın.  
+    * Formülün sonuna [ - ] yazın.  
 35. Ağaçta, 'Transactions\Credit(AmountCurCredit)' seçin.
 36. Veri kaynağı ekle'ye tıklayın.
 37. Kaydet'e tıklayın.

@@ -10,31 +10,30 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771131"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682757"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Mali performans PowerBI.com çözümü
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu PowerBI.com çözümü [Finance and Operations için kaldırılan veya kullanımına son verilen özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
+> Bu PowerBI.com çözümü [Finance and Operations için kaldırılan veya kullanım dışı bırakılan özellikler](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere kullanım dışı bırakılmıştır.
 
 Bu konu, **Mali performans** PowerBI.com çözümünü açıklamaktadır. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve çözümü oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="main-account-setup"></a>Ana hesap kurulumu
-Kuruluşlar borçlar ve gelirlerin raporlarda pozitif tutarlarda görünmesini istedikleri için ana hesapların kurulumu önemlidir. Bu ana hesapların pozitif tutarlarda görünmesi için, ana hesap türü **Pasif** veya **Gelir** olarak ayarlanmalıdır. Bu hesap türleri kullanıldığında, Power BI aracılığıyla gerçekleştirilen raporlama işaretleri ters çevirir ve tutarları pozitif gösterir.
+Kuruluşlar borçlar ve gelirlerin raporlarda pozitif tutarlarda görünmesini istedikleri için ana hesapların kurulumu önemlidir. Bu ana hesapların pozitif tutarlarda görünmesi için, ana hesap türü **Pasif** veya **Gelir** olarak ayarlanmalıdır. Bu hesap türleri kullanıldığında, Power BI aracılığıyla gerçekleştirilen raporlama işaretleri ters çevirir ve tutarları pozitif gösterir.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>PowerBI.com çözümüne dahil olan pano ve raporlar
 Pano, altta yatan raporlara dayanan özetlenmiş veri kutucukları içerir. Her bir kutucuk, bir kuruluştaki tüm şirketlerdeki mevcut yılın özetlenmiş bilgilerini içerir. Kutucuklara bir kaç örnek:

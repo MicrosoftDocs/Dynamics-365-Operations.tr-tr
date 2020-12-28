@@ -1,7 +1,7 @@
 ---
 title: Yeni kullanıcılar oluşturma
 description: Kullanıcılar, işlerini yapmak için sistem erişimine sahip olmaları gereken, kendi kuruluşunuzun dahili personelleri veya harici müşteriler veya satıcılardır.
-author: maertenm
+author: peakerbl
 manager: AnnBe
 ms.date: 06/08/2020
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e84130ff2b1cf83b7d2b95eefc72175dc57743c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 6f861b7493d039b332358be7df7d0198cbadcb7a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982514"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679852"
 ---
 # <a name="create-new-users"></a>Yeni kullanıcılar oluşturma
 

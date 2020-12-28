@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142213"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682153"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Bağlı uygulamalar kullanarak uygulama meta verilerine erişme
 
@@ -53,8 +52,8 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 1. Sayfayı kapatın. 
 2. Sayfayı kapatın. 
 3. **Tüm çalışma alanları** > **Elektronik raporlama**'ya gidin. 
-4. **Bağlı uygulamalar**a tıklayın. 
-5. Yapılandırılmış uygulamanın Azure tabanlı olduğundan ve geçerli RCS kullanıcısı için erişilebilir olduğundan emin olun. Ayrıca geçerli RCS kullanıcısının seçilen uygulamaya erişimi olması ve uygulamanın meta verilerine erişim ayrıcalıkları veren bu uygulamanın bir kullanıcı olarak kayıtlı olması da gerekir. 
+4. **Bağlı uygulamalar** a tıklayın. 
+5. Yapılandırılmış uygulamanın Azure tabanlı olduğundan ve geçerli RCS kullanıcısı için erişilebilir olduğundan emin olun. Ayrıca geçerli RCS kullanıcısının, seçilen uygulamaya erişimi olması ve uygulamanın meta verilerine erişim ayrıcalıkları veren bu uygulamanın kayıtlı bir kullanıcısı olması gerekir. 
 6. **Yeni**'ye tıklayın. 
 7. **Ad** alanına "MyConnectedApp" yazın. 
 8. **Uygulama** alanına, "https:// mycompany.operations.dynamics.com" yazın. 

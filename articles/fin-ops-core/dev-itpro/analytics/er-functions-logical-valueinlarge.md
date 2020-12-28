@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 4630ec20e7cbca97c5e43093e6a888a5e09f41a3
-ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
+ms.openlocfilehash: 26a7148a4caa80a191688145bac625bdf0bf83b2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3705155"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686918"
 ---
 # <a name="valueinlarge-er-function"></a>VALUEINLARGE ER işlevi
 

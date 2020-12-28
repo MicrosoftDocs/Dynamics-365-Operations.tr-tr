@@ -1,6 +1,6 @@
 ---
 title: Kurumsal eğitim Power BI içeriği
-description: Bu konu Finance and Operations - Kurumsal eğitim Power BI içeriğini açıklar.
+description: Bu konuda, Finance and Operations - Kurumsal eğitim Power BI içeriği açıklanmaktadır.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -10,25 +10,24 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c9025baccf34195c753fc50ad38cd3016c65b53
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182980"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685847"
 ---
 # <a name="organizational-training-power-bi-content"></a>Kurumsal eğitim Power BI içeriği
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu Finance and Operations - Kurumsal eğitim Power BI içeriğini açıklar.
+Bu konuda, Finance and Operations - Kurumsal eğitim Power BI içeriği açıklanmaktadır.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
 İçerik paketini verilerinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız daha fazla bilgiyi [Power BI için Destekli Öğrenme sayfasından](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData) edinebilirsiniz. İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.

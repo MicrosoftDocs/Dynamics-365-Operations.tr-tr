@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 9d4959b511022e1aa98544d23da6afcda1f6adf2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142098"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681937"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama
 

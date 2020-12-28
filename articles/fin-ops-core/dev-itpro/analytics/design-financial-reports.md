@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReportingSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 079439d95597056919d5a8c73b829d79a3b02211
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 97895081293d9ee5a82a718e0644bebdaa0f2777
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002555"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686257"
 ---
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
@@ -164,7 +163,7 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 14. **Konsolide Bilanço ve Gelir Beyanı Yan Yana** öğesini kapatın.
 15. **Rapor Tasarımcısını** kapatın.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Alıştırma 5: Yan yana bir departman raporu oluşturma
+## <a name="exercise-5-create-a-side-by-side-departmental-report"></a>Alıştırma 5: Yan yana bir departman raporu oluşturma
 Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir departman gelir beyanıdır. Mevcut bir sıra tanımını kullanın, ancak farklı olarak, boyut filtrelerini kullanan yeni bir rapor tanımı ve yeni bir sütun tanımı oluşturun. Mali raporlar listesinden başlayacağız.
 
 1. Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
@@ -195,6 +194,6 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Mali raporlama](../../../finance/general-ledger/financial-reporting-getting-started.md)
 
-[Mali raporları görüntüleme](../../../finance/general-ledger/view-financial-reports.md)
+[Mali raporları görüntüle](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics Mali Raporlama Blogu](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 365 Finance Blogu](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)

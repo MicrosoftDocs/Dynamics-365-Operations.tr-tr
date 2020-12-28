@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678260"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680254"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 
@@ -142,10 +141,10 @@ Elektronik Raporlama Geliştiricisi rolüne sahip bir kullanıcı olarak, yeni E
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>ER parametrelerini yapılandırma
 
-1.  **Kuruluş yönetimi** \>  **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
-2.  **Elektronik raporlama** çalışma alanında, **Elektronik raporlama parametreleri**'ni seçin.
-3.  **Elektronik raporlama parametreleri** sayfasında, **Genel** sekmesinde, **Tasarım modunu etkinleştir** seçeneğini **Evet** olarak ayarlayın.
-4.  **Ekler** sekmesinde, aşağıdaki parametreleri ayarlayın:
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+2. **Elektronik raporlama** çalışma alanında, **Elektronik raporlama parametreleri** bağlantısını seçin.
+3. **Elektronik raporlama parametreler** sayfasında, **Genel** sekmesinde, **Tasarım modunu etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+4. **Ekler** sekmesinde, aşağıdaki parametreleri ayarlayın:
 
     - **Yapılandırmalar** alanını, **USMF** şirketi için **Dosya** olarak ayarlayın.
     - **İş arşivi**, **Geçici**, **Temel** ve **Diğer** alanlarını **Dosya** olarak ayarlayın.
@@ -161,28 +160,28 @@ Her ER yapılandırması bir ER yapılandırma sağlayıcısı tarafından sahip
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>ER yapılandırma sağlayıcıları listesini gözden geçirin
 
-1.  **Kuruluş yönetimi** \>  **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Elektronik raporlama** çalışma alanında, **İlgili bağlantılar**  bölümünde, **Yapılandırma sağlayıcıları**'nı seçin.
 3. **Yapılandırma sağlayıcıları** sayfasında, her yapılandırma sağlayıcı kaydının benzersiz bir adı ve URL'si vardır. Bu sayfanın içeriğini gözden geçirin. **Litware, Inc.** (`https://www.litware.com`) için zaten bir kayıt varsa, sonraki yordamı atlayıp [Yeni bir ER yapılandırma sağlayıcısı ekleyin](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Yeni bir ER yapılandırması sağlayıcısı ekleme
 
 1. **Yapılandırma sağlayıcıları** sayfasında, **Yeni**'yi seçin.
-2. **Ad** alanına  **Litware, Inc.** yazın.
-3. **İnternet adresi** alanına  `https://www.litware.com` girin.
-4.  **Kaydet**'i seçin.
+2. **Ad** alanına **Litware, Inc.** yazın.
+3. **İnternet adresi** alanına `https://www.litware.com` girin.
+4. **Kaydet**'i seçin.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>ER yapılandırma sağlayıcısı etkinleştirin.
 
-1.  **Kuruluş yönetimi** \>  **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
+1. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 2. **Elektronik raporlama** çalışma alanında, **Litware, Inc.** yapılandırma sağlayıcısını seçin.
-3.  **Etkin olarak ayarla**'yı seçin.
+3. **Etkin olarak ayarla**'ya tıklayın.
 
 ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Etki alanına özel veri modeli tasarlama
 
-**Soru formu** iş etki alanı için [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu veri modeli daha sonra **Soru formu** raporu oluşturmak üzere bir ER biçimi tasarlarken veri kaynağı olarak kullanılacaktır.
+**Soru formu** iş etki alanı için [veri modeli](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni içeren yeni bir ER yapılandırması oluşturmanız gerekir. Bu veri modeli daha sonra **Soru formu** raporu oluşturmak üzere bir ER biçimi tasarlarken veri kaynağı olarak kullanılacaktır.
 
 [Yeni veri modeli yapılandırmasını içe aktarma](#ImportDataModel) bölümündeki adımları izleyerek gerekli veri modelini sağlanan XML dosyasından içe aktarabilirsiniz. Alternatif olarak, bu veri modelini sıfırdan tasarlamak için [Yeni veri modeli yapılandırması oluştur](#DesignDataModel) bölümündeki adımları tamamlayabilirsiniz.
 
@@ -650,7 +649,7 @@ Oluşturulan bir raporun başlığını doldurmak için kullanılan bir biçim �
 
     1. **Etiket Kodu** alanına, **ReportTitle** yazın.
     2. **Varsayılan dilde metin** alanına **Soru formları raporu** yazın.
-    3. **Çevir**i seçin ve sonra **Kaydet**'i seçin.
+    3. **Çevir** i seçin ve sonra **Kaydet**'i seçin.
     4. **Metin çevirisi** iletişim kutusunu kapatmak için **Çevir**'i seçin.
 
 5. Formül düzenleyiciyi kapatın.
@@ -734,7 +733,7 @@ Aşağıdaki şekil, **Biçim tasarımcısı** sayfasındaki yapılandırılmı�
 2. **Yapılandırma** sayfasında yapılandırma ağacında, **Soru formu modeli**'ni genişletin ve **Soru formu raporu**'nu seçin.
 3. **Taslak** durumundaki biçim sürümü için **Tasarımcı**'yı seçin.
 4. **Biçim tasarımcısı** sayfasında, **Çalıştır**'ı seçin.
-5. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar**hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
+5. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar** hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
 6. Filtreleme seçeneğini onaylamak için **Tamam**'ı seçin.
 7. Raporu çalıştırmak için **Tamam**'ı seçin.
 8. Oluşturulan raporu inceleyin.
@@ -767,7 +766,7 @@ Sorular oluşturulmuş bir raporda doğru olarak sıralanmaz. Biçimi değiştir
     ![ER İşlem tasarımcısındaki Aralık türündeki soru biçimi öğesi](./media/er-quick-start1-bindings3.png)
 
 3. **Eşleme** sekmesinde **model.Questionnaire** öğesini seçin.
-4. **Ekle** \> **İşlevler\\Hesaplanan alan**'ı seçin ve ardından**Ad** alanına **OrderedQuestions** girin.
+4. **Ekle** \> **İşlevler\\Hesaplanan alan**'ı seçin ve ardından **Ad** alanına **OrderedQuestions** girin.
 5. **Formül düzenle**’yi seçin.
 6. Formül düzenleyicisinde, **Formül** alanında, geçerli soru formunun soru listesini seri sıra numarasına göre sıralamak için **ORDERBY (model.Questionnaire.Question, model.Questionnaire.Question.SequenceNumber)** girin.
 7. **Kaydet**'i seçip formül düzenleyicisini kapatın.
@@ -784,7 +783,7 @@ Sorular oluşturulmuş bir raporda doğru olarak sıralanmaz. Biçimi değiştir
 Artık, ER çerçevesinden test amacıyla değiştirilmiş bir biçim çalıştırabilirsiniz.
 
 1. **Biçim tasarımcısı** sayfasında, **Çalıştır**'ı seçin.
-2. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar**hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
+2. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar** hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
 3. Filtreleme seçeneğini onaylamak için **Tamam**'ı seçin.
 4. Raporu çalıştırmak için **Tamam**'ı seçin.
 5. Oluşturulan raporu inceleyin.
@@ -811,13 +810,13 @@ Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olara
 
 Sistem Yöneticisi rolündeki bir kullanıcı olarak, yapılandırılan ER biçiminin özel raporunuzu oluşturmak üzere uygulama kullanıcı arabiriminden (UI) çağrılabilmesi için yeni bir mantık geliştirmeniz gerekir. Şu anda, ER bu tür mantık yapılandırmak için herhangi bir yetenek sunmaz. Bu nedenle, bazı mühendislik çalışmaları gereklidir. 
 
-Yeni mantığı geliştirmek için sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. Daha fazla bilgi için bkz. [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](../perf-test/continuous-build-test-automation.md). Bu topoloji için geliştirme ortamına da erişiminiz olması gerekir. Kullanılabilir ER API'sı hakkında daha fazla bilgi için, bkz. [ER çerçevesi API'sı](er-apis-app73.md).
+Yeni mantığı geliştirmek için sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](../perf-test/continuous-build-test-automation.md). Bu topoloji için geliştirme ortamına da erişiminiz olması gerekir. Kullanılabilir ER API'sı hakkında daha fazla bilgi için, bkz. [ER çerçevesi API'sı](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Kaynak kodu değiştir
 
 #### <a name="add-a-data-contract-class"></a><a name="DataContractClass"></a>Veri sözleşmesi sınıfı ekleme
 
-Yeni **QuestionnairesErReportContract**sınıfını Microsoft Visual Studio projenize ekleyin ve yapılandırılan ER biçimini çalıştırmak için kullanılması gereken veri sözleşmesini belirten kodu yazın.
+Yeni **QuestionnairesErReportContract** sınıfını Microsoft Visual Studio projenize ekleyin ve yapılandırılan ER biçimini çalıştırmak için kullanılması gereken veri sözleşmesini belirten kodu yazın.
 
 ```xpp
 /// <summary>
@@ -911,7 +910,7 @@ class QuestionnairesErReportUIBuilder extends SysOperationAutomaticUIBuilder
 
 #### <a name="add-a-data-provider-class"></a><a name="DataProviderClass"></a>Veri sağlayıcı sınıfı ekleme
 
-Yeni **QuestionnairesErReportDP**sınıfını Microsoft Visual Studio projenize ekleyin ve yapılandırılan ER biçimini çalıştırmak için kullanılması gereken veri sağlayıcısını belirten kodu yazın. Sağlanan kod yalnızca bu veri sağlayıcısına ait veri sözleşmesini içerir.
+Yeni **QuestionnairesErReportDP** sınıfını Microsoft Visual Studio projenize ekleyin ve yapılandırılan ER biçimini çalıştırmak için kullanılması gereken veri sağlayıcısını belirten kodu yazın. Sağlanan kod yalnızca bu veri sağlayıcısına ait veri sözleşmesini içerir.
 
 ```xpp
 /// <summary>
@@ -1155,7 +1154,7 @@ Yapılandırılmış ER biçimini adı, ER biçimi çalıştırıldığında olu
 3. **Kaydet**'i seçip formül düzenleyicisini kapatın.
 4. **Kaydet**'i seçin.
 
-Yapılandırılmış biçim şimdi, adı **Altbilgi\\Dize**öğesi kullanılarak oluşturulan bir raporun altbilgisine girilecek şekilde değiştirildi.
+Yapılandırılmış biçim şimdi, adı **Altbilgi\\Dize** öğesi kullanılarak oluşturulan bir raporun altbilgisine girilecek şekilde değiştirildi.
 
 ![ER İşlem tasarımcısında, yapılandırılmış biçime Alt bilgi biçim öğesi ekleme](./media/er-quick-start1-template-format-structure3.png)
 
@@ -1172,7 +1171,7 @@ Bu yapılandırmanın sürüm 1.2 durumu **Taslak** yerine **Tamamlandı** olara
 1. **Soru formu** \> **Tasarım** \> **Soru formu raporu (ER tarafından desteklenir)** öğesine gidin.
 2. İletişim kutusunda, **Biçim eşleme** alanında, **Soru formları raporu**'nu seçin.
 3. **Tamam**'ı seçin.
-4. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar**hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
+4. **ER parametreleri** iletişim kutusunda **Dahil edilecek kayıtlar** hızlı sekmesinde filtre uygulama seçeneğini yalnızca **SBCCrsExam** soru formu dahil edilecek şekilde yapılandırın.
 5. Filtreleme seçeneğini onaylamak için **Tamam**'ı seçin.
 6. Raporu çalıştırmak için **Tamam**'ı seçin.
 7. Excel biçiminde oluşturulan raporu gözden geçirin.
@@ -1215,7 +1214,7 @@ Oluşturulan raporun altbilgisi, oluşturulduğu sırada çalıştırılan ER bi
     ![Yapılandırılan hedefi değiştirebileceğiniz ER raporu çalışma zamanı iletişim kutusu](./media/er-quick-start1-run-settings.png)
 
 6. Raporu çalıştırmak için **Tamam**'ı seçin.
-7. PDF biçiminde oluşturulan raporu gözden geçirin.
+7. PDF biçiminde oluşturulan raporu inceleyin.
 
     ![PDF biçiminde oluşturulan raporunun ekran önizlemesi](./media/er-quick-start1-preview-PDF.png)
 

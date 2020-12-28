@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812448"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694951"
 ---
 # <a name="human-resources-overview"></a>İnsan kaynaklarına genel bakış
 
@@ -46,7 +45,7 @@ ms.locfileid: "2812448"
 İnsan kaynakları ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak kuruluşunuzun yapısını belirlersiniz. Bunlar, İnsan kaynaklarında yapılandıracağınız temel unsurlar arasındadır. Personel tek tek, işlerle ilişkilendirilmiş pozisyonlara atanır.
 
 - [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](../../../talent/departments-jobs-positions.md)
-- [Şirkete özgü İnsan kaynakları (İK) parametrelerini ayarlama](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Şirkete özgü İnsan kaynakları (İK) parametreleri ayarlama](../../../talent/set-up-company-specific-hr-parameters.md)
 - [Tüzel kişilikler arasında İnsan kaynakları (İK) parametrelerini ayarlama](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Personeli işe alma, dönemsel işe alma ve motive etme
@@ -72,7 +71,7 @@ Personelinizin kariyer hedeflerine yardımcı olmak için, işle ilgili önemli 
 
 ## <a name="create-and-maintain-benefits"></a>Kazanç oluşturma ve koruma
 
-Personelinize ücret, maaş ve ikramiye ödemeleri yapmanın yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca bilgisayarlar veya telefonlar gibi, şirketinizin personeline verdiği öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
+Personelinize ücret, maaş ve ikramiye ödemeleri yapmanın yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca şirketinizin personeline verdiği bilgisayarlar veya telefonlar gibi öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
 
 - [Kazanç programı tanımlama ve yönetme](../../../talent/manage-benefit-program.md)
 - [Kazanca uygunluk ilkeleri](../../../talent/benefit-eligibility-policies.md)

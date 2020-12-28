@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
-ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
+ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2872454"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693858"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 

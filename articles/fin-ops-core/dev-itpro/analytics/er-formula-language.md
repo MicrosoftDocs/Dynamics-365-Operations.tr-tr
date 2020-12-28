@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb1f026b6a83aa8c1de0dc5088940d7377867a8b
-ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
+ms.openlocfilehash: b3f11e91d06f20d1c384c3c2c5cf9326214331ee
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331359"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686281"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronik raporlamada formül dili
 

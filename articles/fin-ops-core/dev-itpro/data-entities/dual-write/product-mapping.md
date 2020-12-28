@@ -1,6 +1,6 @@
 ---
 title: Birleştirilmiş ürün deneyimi
-description: Bu konu Finance and Operations uygulamaları ile Common Data Service arasında ürün verileri tümleştirmesini açıklar.
+description: Bu konu Finance and Operations uygulamaları ile Dataverse arasında ürün verileri tümleştirmesini açıklar.
 author: t-benebo
 manager: AnnBe
 ms.date: 12/12/2019
@@ -18,18 +18,20 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.openlocfilehash: 46f2f846f1259d433630a69f17f7b8db9514e6fa
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000776"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680060"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
 [!include [banner](../../includes/banner.md)]
 
-Bir işletmenin ekosistemi Finance, Supply Chain Management ve Sales gibi Dynamics 365 uygulamalarından oluştuğunda, işletmeler sıklıkla ürün verilerini kaynak olarak kullanmak için bu uygulamaları kullanır. Bunun nedeni, bu uygulamaların sofistike fiyatlandırma kavramları ve doğru eldeki stok verileriyle kapsamlı bir ürün altyapısı sağlamasıdır. Ürün verilerinin kaynağı için harici bir Ürün Yaşam Döngüsü Yönetimi (PLM) sistemi kullanan işletmeler, Finance and Operations uygulamalarındaki ürünleri diğer Dynamics 365 uygulamalarına yöneltebilirler. Birleştirilmiş ürün deneyimi, Common Data Service'e tümleşik ürün veri modelini getirir ve böylece Power Platform kullanıcıları dahil tüm uygulama kullanıcıları, Finance and Operations uygulamalarından gelen zengin ürün verilerinden yararlanabilir.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Bir işletmenin ekosistemi Finance, Supply Chain Management ve Sales gibi Dynamics 365 uygulamalarından oluştuğunda, işletmeler sıklıkla ürün verilerini kaynak olarak kullanmak için bu uygulamaları kullanır. Bunun nedeni, bu uygulamaların sofistike fiyatlandırma kavramları ve doğru eldeki stok verileriyle kapsamlı bir ürün altyapısı sağlamasıdır. Ürün verilerinin kaynağı için harici bir Ürün Yaşam Döngüsü Yönetimi (PLM) sistemi kullanan işletmeler, Finance and Operations uygulamalarındaki ürünleri diğer Dynamics 365 uygulamalarına yöneltebilirler. Birleştirilmiş ürün deneyimi, Dataverse'e tümleşik ürün veri modelini getirir ve böylece Power Platform kullanıcıları dahil tüm uygulama kullanıcıları, Finance and Operations uygulamalarından gelen zengin ürün verilerinden yararlanabilir.
 
 Sales'den genel ürün veri modeli.
 
@@ -39,20 +41,20 @@ Finance and Operations uygulamalarından genel ürün veri modeli.
 
 ![Finance and Operations'de ürünler için veri modeli](media/dual-write-products-5.jpg)
 
-Bu iki ürün veri modeli aşağıda gösterildiği gibi Common Data Service'te tümleştirilmiştir.
+Bu iki ürün veri modeli aşağıda gösterildiği gibi Dataverse'te tümleştirilmiştir.
 
 ![Dynamics 365 uygulamalarındaki ürünler için veri modeli](media/dual-write-products-6.jpg)
 
-Ürünler için varlık çift yazma eşlemeleri, Finance and Operations uygulamalarından Common Data Service'e gerçek zamanlıya yakın olarak verilerin yalnızca tek yönlü akışını sağlamak için tasarlanmıştır. Ancak, ürün altyapısı gerektiğinde çift yönlü hale getirilebilecek şekilde açık yapıldı. Microsoft bu yaklaşımı önermemesine karşın kendi sorumluluğunuzda olacak şekilde bunu özelleştirebilirsiniz.
+Ürünler için çift yazma tablo eşlemeleri, Finance and Operations uygulamalarından Dataverse'e gerçek zamanlıya yakın olarak verilerin yalnızca tek yönlü akışını sağlamak için tasarlanmıştır. Ancak, ürün altyapısı gerektiğinde çift yönlü hale getirilebilecek şekilde açık yapıldı. Microsoft bu yaklaşımı önermemesine karşın kendi sorumluluğunuzda olacak şekilde bunu özelleştirebilirsiniz.
 
 ## <a name="templates"></a>Şablonlar
 
-Ürün bilgileri, ürün boyutları veya izleme ve depolama boyutları gibi ürünle ve ürün tanımıyla ilgili tüm bilgileri içerir. Aşağıdaki tabloda gösterildiği gibi, ürün ve ilgili bilgileri eşitlemek için varlık haritaları koleksiyonu oluşturulur.
+Ürün bilgileri, ürün boyutları veya izleme ve depolama boyutları gibi ürünle ve ürün tanımıyla ilgili tüm bilgileri içerir. Aşağıdaki tabloda gösterildiği gibi, ürün ve ilgili bilgileri eşitlemek için tablo haritaları koleksiyonu oluşturulur.
 
 Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları | Tanım
 -----------------------|--------------------------------|---
 Serbest bırakılan ürünler V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** varlığı, Finance and Operations uygulamalarından ürünü tanımlayan ve ürünün finansal ve yönetim bilgilerini içeren alanlar içerir. 
-Common Data Service serbest bırakılan farklı ürünler | Ürün | **Ürün** varlığı, ürünü tanımlayan alanları içerir. Bağımsız ürünleri (alt tür ürünü olan ürünler) ve ürün çeşitlerini içerir. Aşağıdaki tablo eşlemeleri göstermektedir.
+Dataverse serbest bırakılan farklı ürünler | Ürün | **Ürün** varlığı, ürünü tanımlayan alanları içerir. Bağımsız ürünleri (alt tür ürünü olan ürünler) ve ürün çeşitlerini içerir. Aşağıdaki tablo eşlemeleri göstermektedir.
 Ürün numarası tanımlanan barkod | msdyn\_productbarcodes | Ürün barkodları, ürünleri benzersiz olarak tanımlamak için kullanılır.
 Varsayılan sipariş ayarları | msdyn\_productdefaultordersettings
 Ürüne özel varsayılan sipariş ayarları | msdyn_productdefaultordersettings
@@ -63,27 +65,27 @@ Renkler | msdyn\_productcolors
 Boyutlar | msdyn\_productsizes
 Stiller | msdyn\_productsytles
 Yapılandırmalar | msdyn\_productconfigurations
-Ana ürün renkleri | msdyn_sharedproductcolors | **Paylaşılan ürün rengi** varlığı, belirli bir ana ürünün sahip olabileceği renkleri gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Common Data Service'a taşınır.
-Ana ürün boyutları | msdyn_sharedproductsizes | **Paylaşılan ürün boyutu** varlığı, belirli bir ana ürünün sahip olabileceği boyutları gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Common Data Service'a taşınır.
-Ana ürün stilleri | msdyn_sharedproductstyles | **Paylaşılan ürün stili** varlığı, belirli bir ana ürünün sahip olabileceği stilleri gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Common Data Service'a taşınır.
-Ana ürün yapılandırmaları | msdyn_sharedproductconfigurations | **Paylaşılan ürün yapılandırması** varlığı, belirli bir ana ürünün sahip olabileceği yapılandırmaları gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Common Data Service'a taşınır.
+Ana ürün renkleri | msdyn_sharedproductcolors | **Paylaşılan ürün rengi** varlığı, belirli bir ana ürünün sahip olabileceği renkleri gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Dataverse'a taşınır.
+Ana ürün boyutları | msdyn_sharedproductsizes | **Paylaşılan ürün boyutu** varlığı, belirli bir ana ürünün sahip olabileceği boyutları gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Dataverse'a taşınır.
+Ana ürün stilleri | msdyn_sharedproductstyles | **Paylaşılan ürün stili** varlığı, belirli bir ana ürünün sahip olabileceği stilleri gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Dataverse'a taşınır.
+Ana ürün yapılandırmaları | msdyn_sharedproductconfigurations | **Paylaşılan ürün yapılandırması** varlığı, belirli bir ana ürünün sahip olabileceği yapılandırmaları gösterir. Bu kavram, verileri tutarlı tutmak amacıyla Dataverse'a taşınır.
 Tüm ürünler | msdyn_globalproducts | Tüm ürünler varlığı, hem yayınlanmış ürünler hem de serbest bırakılmamış ürünler olmak üzere Finance and Operations uygulamalarındaki tüm ürünleri içerir.
 Birim | uoms
 Birim dönüştürmeleri | msdyn_ unitofmeasureconversions
 Ürüne özel ölçü birimi dönüşümü | msdyn_productspecificunitofmeasureconversion
 Ürün kategorileri | msdyn_productcategories | Her bir ürün kategorisi ve bunların yapısı ve özellikleri hakkında bilgiler ürün kategorisi varlığında bulunur. 
-Ürün kategori hiyerarşileri | msdyn_productcategoryhierarhies | Ürünleri kategorize etmek veya gruplamak için ürün hiyerarşilerini kullanabilirsiniz. Kategori hiyerarşileri, ürün kategorisi hiyerarşisi varlığı kullanılarak Common Data Service'te kullanılabilir. 
+Ürün kategori hiyerarşileri | msdyn_productcategoryhierarhies | Ürünleri kategorize etmek veya gruplamak için ürün hiyerarşilerini kullanabilirsiniz. Kategori hiyerarşileri, ürün kategorisi hiyerarşisi varlığı kullanılarak Dataverse'te kullanılabilir. 
 Ürün kategori hiyerarşisi rolleri | msdyn_productcategoryhierarchies | Ürün hiyerarşileri D365 Finance and Operations'taki farklı roller için kullanılabilir. Her rolde hangi kategorinin kullanıldığını belirtmek için ürün kategorisi rol varlığı kullanılır. 
 Ürün kategorisi atamaları | msdyn_productcategoryassignments | Ürünü bir kategoriye atamak için ürün kategorisi atamaları varlığı kullanılabilir.
 
 ## <a name="integration-of-products"></a>Ürünlerin tümleştirilmesi
 
-Bu modelde, ürün Common Data Service'taki iki varlığın birleşimiyle gösterilir: **Ürün** ve **msdyn\_sharedproductdetails**. İlk varlık bir ürünün tanımını (ürünün benzersiz tanımlayıcısı, ürün adı ve açıklaması) içerirken, ikinci varlık ürün düzeyinde depolanan alanları içerir. Bu iki varlığın birleşimi, ürünü stok tutma birimi (SKU) kavramına göre tanımlamak için kullanılır. Serbest bırakılan her ürünün bilgileri belirtilen varlıklarda (Ürün ve Paylaşılan Ürün Ayrıntıları) olacaktır. Tüm ürünleri izlemek için (serbest bırakılmış ve serbest bırakılmamış) **Genel ürünler** varlığı kullanılır. 
+Bu modelde, ürün Dataverse'teki iki tablonun birleşimiyle gösterilir: **Ürün** ve **msdyn\_sharedproductdetails**. İlk varlık bir ürünün tanımını (ürünün benzersiz tanımlayıcısı, ürün adı ve açıklaması) içerirken, ikinci varlık ürün düzeyinde depolanan alanları içerir. Bu iki tablonun birleşimi, ürünü stok tutma birimi (SKU) kavramına göre tanımlamak için kullanılır. Kullanıma sunulan her ürünün bilgileri belirtilen tablolarda (Ürün ve Paylaşılan Ürün Ayrıntıları) olacaktır. Tüm ürünleri izlemek için (serbest bırakılmış ve serbest bırakılmamış) **Genel ürünler** varlığı kullanılır. 
 
-Ürün bir SKU olarak temsil edildiği için farklı ürünler, ana ürünler ve ürün çeşitleri kavramları Common Data Service'ta aşağıdaki şekilde yakalanabilir:
+Ürün bir SKU olarak temsil edildiği için farklı ürünler, ana ürünler ve ürün çeşitleri kavramları Dataverse'ta aşağıdaki şekilde yakalanabilir:
 
-- **Alt tür ürününe sahip ürünler** , kendileri tarafından tanımlanan ürünlerdir. Boyut tanımlanması gerekmez. Belirli bir defter örnek olarak verilebilir. Bu ürünler için **Ürün** varlığında bir kayıt ve **msdyn\_sharedproductdetails** varlığında bir kayıt oluşturulur. Ürün ailesi kaydı oluşturulmaz.
-- **Ana ürünler** , iş süreçlerindeki davranışı belirleyen tanımı ve kuralları içeren genel ürünler olarak kullanılır. Bu tanımlara dayalı olarak, ürün çeşitleri olarak bilinen farklı ürünler oluşturulabilir. Örneğin, Tişört ana üründür ve Renk ve Beden boyutlarına sahip olabilir. Bu boyutların farklı birleşimlerine sahip çeşitler serbest bırakılabilir: small beden mavi tişört veya medium beden yeşil tişört gibi. Tümleştirmede, ürün tablosunda her çeşit için bir kayıt oluşturulur. Bu kayıt farklı boyutlar gibi ürün çeşidine özgü bilgileri içerir. Ürünle ilgili genel bilgiler **msdyn\_sharedproductdetails** varlığında depolanır. (Bu genel bilgi ana üründe tutulur.) Ana ürün bilgileri, serbest bırakılan ana ürün oluşturulduğunda Common Data Service ile eşitlenir (çeşitler yayımlanmadan önce).
+- **Alt tür ürününe sahip ürünler**, kendileri tarafından tanımlanan ürünlerdir. Boyut tanımlanması gerekmez. Belirli bir defter örnek olarak verilebilir. Bu ürünler için **Ürün** varlığında bir kayıt ve **msdyn\_sharedproductdetails** varlığında bir kayıt oluşturulur. Ürün ailesi kaydı oluşturulmaz.
+- **Ana ürünler**, iş süreçlerindeki davranışı belirleyen tanımı ve kuralları içeren genel ürünler olarak kullanılır. Bu tanımlara dayalı olarak, ürün çeşitleri olarak bilinen farklı ürünler oluşturulabilir. Örneğin, Tişört ana üründür ve Renk ve Beden boyutlarına sahip olabilir. Bu boyutların farklı birleşimlerine sahip çeşitler serbest bırakılabilir: small beden mavi tişört veya medium beden yeşil tişört gibi. Tümleştirmede, ürün tablosunda her çeşit için bir kayıt oluşturulur. Bu kayıt farklı boyutlar gibi ürün çeşidine özgü bilgileri içerir. Ürünle ilgili genel bilgiler **msdyn\_sharedproductdetails** varlığında depolanır. (Bu genel bilgi ana üründe tutulur.) Ana ürün bilgileri, serbest bırakılan ana ürün oluşturulduğunda Dataverse ile eşitlenir (çeşitler yayımlanmadan önce).
 - **Ayrı ürünler** tüm ürün alt tür ürünleri ve tüm ürün çeşitlerini ifade eder. 
 
 ![Ürünler için veri modeli](media/dual-write-product.png)
@@ -92,7 +94,7 @@ Bu modelde, ürün Common Data Service'taki iki varlığın birleşimiyle göste
 
 Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak** durumundaki diğer Dynamics 365 uygulamalarıyla eşitlenir. Örneğin, satış siparişi tekliflerinde doğrudan kullanmak amacıyla **Etkin** durumdaki ürünü eşitlemek için şu ayarın seçilmesi gerekir: **Sistem > Yönetim > Sistem yönetimi > Sistem ayarları > Satış** sekmesi ve **Ürünleri etkin durumda oluştur = evet** seçeneğini belirleyin. 
 
-Ürün eşitleme işleminin Finance and Operations uygulamaları ile Common Data Service arasında yapıldığını unutmayın. Bu, ürün varlık alanlarının değerlerinin Common Data Service'te değiştirilebileceği anlamına gelir ancak eşitleme tetiklendiğinde (Finance and Operations uygulamasında bir ürün alanı değiştirildiğinde) bu işlem, Common Data Service'teki değerlerin üzerine yazar. 
+Ürün eşitleme işleminin Finance and Operations uygulamaları ile Dataverse arasında yapıldığını unutmayın. Bu, ürün varlık alanlarının değerlerinin Dataverse'te değiştirilebileceği anlamına gelir ancak eşitleme tetiklendiğinde (Finance and Operations uygulamasında bir ürün alanı değiştirildiğinde) bu işlem, Dataverse'teki değerlerin üzerine yazar. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -104,7 +106,7 @@ Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak
 
 ## <a name="product-dimensions"></a>Ürün boyutları 
 
-Ürün boyutları, ürün çeşidini tanımlamaya hizmet eden özelliklerdir. Dört ürün boyutu (Renk, Boyut, Stil ve Yapılandırma) ürün çeşitlerini tanımlamak amacıyla Common Data Service'a eşlenir. Aşağıdaki resimde Renk ürün boyutu için veri modeli gösterilmektedir. Aynı model Boyutlara, Stillere ve Yapılandırmalara da uygulanır. 
+Ürün boyutları, ürün çeşidini tanımlamaya hizmet eden özelliklerdir. Dört ürün boyutu (Renk, Boyut, Stil ve Yapılandırma) ürün çeşitlerini tanımlamak amacıyla Dataverse'a eşlenir. Aşağıdaki resimde Renk ürün boyutu için veri modeli gösterilmektedir. Aynı model Boyutlara, Stillere ve Yapılandırmalara da uygulanır. 
 
 ![Ürün boyutları için veri modeli](media/dual-write-product-two.png)
 
@@ -118,7 +120,7 @@ Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak
 
 Ürünün farklı ürün boyutları (örneğin, ürün boyutu olarak Boyut ve Renk boyutu bulunan bir ana ürün) olduğunda, her ayrı ürün (her bir ürün çeşidi) bu ürün boyutlarının bir birleşimi olarak tanımlanır. Örneğin, ürün numarası B0001 extra small beden siyah tişört ve ürün numarası B0002 small beden siyah tişörttür. Bu durumda, ürün boyutlarının var olan birleşimleri tanımlanmıştır. Örneğin, önceki örnekteki Tişört extra small ve siyah, small ve siyah, medium ve siyah veya large ve siyah olabilir, ancak extra large ve siyah olamaz. Başka bir deyişle, bir ana ürünün alabileceği ürün boyutları belirtilir ve ürün çeşitleri bu değerlere dayalı olarak serbest bırakılabilir.
 
-Bir ana ürünün alabileceği ürün boyutlarını izlemek için, aşağıdaki varlıklar oluşturulur ve her ürün boyutu için Common Data Service'ta eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıdaki tablolar oluşturulur ve her ürün boyutu için Dataverse'te eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -132,7 +134,7 @@ Bir ana ürünün alabileceği ürün boyutlarını izlemek için, aşağıdaki 
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Varsayılan sipariş ayarları ve ürüne özgü varsayılan sipariş ayarları
 
-Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Common Data Service'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları konusu](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings)'ndan ulaşabilirsiniz.
+Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Dataverse'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları konusu](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings)'ndan ulaşabilirsiniz.
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 
@@ -140,7 +142,7 @@ Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi 
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Ölçü birimi ve ölçü birimi dönüşümleri
 
-Ölçü birimleri ve ilgili dönüştürmeleri, şemada gösterilen veri modeline uygun olarak Common Data Service'te kullanılabilir.
+Ölçü birimleri ve ilgili dönüştürmeleri, şemada gösterilen veri modeline uygun olarak Dataverse'te kullanılabilir.
 
 ![Ölçü birimi için veri modeli](media/dual-write-product-three.png)
 
@@ -152,15 +154,15 @@ Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi 
 
 [!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
-## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Finance and Operations ile Common Data Service arasında eşleşen birim verilerinin başlangıç eşitlemesi
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>Finance and Operations ile Dataverse arasında eşleşen birim verilerinin başlangıç eşitlemesi
 
 ### <a name="initial-synchronization-of-units"></a>Birimlerin başlangıç eşitlemesi
 
-Çift yazma etkinleştirildiğinde Finance and Operations uygulamalarından birimler diğer Dynamics 365 uygulamalarına eşitlenir. Finance and Operations uygulamaları ile Common Data Service arasında eşitlenen birim gruplarında "Harici olarak korunduklarını" belirten bir bayrak bulunur.
+Çift yazma etkinleştirildiğinde Finance and Operations uygulamalarından birimler diğer Dynamics 365 uygulamalarına eşitlenir. Finance and Operations uygulamaları ile Dataverse arasında eşitlenen birim gruplarında "Harici olarak korunduklarını" belirten bir bayrak bulunur.
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Finance and Operations ve diğer Dynamics 365 uygulamalarındaki birimleri ve birim sınıflarını/gruplarını eşleştirme
 
-Öncelikle, birimin tümleştirme anahtarının msdyn_symbol olduğunu dikkate almak önemlidir. Bu nedenle, bu değer Common Data Service'te veya diğer Dynamics 365 uygulamalarında benzersiz olmalıdır. Diğer Dynamics 365 uygulamalarında "Birim grubu kodu" ve "Ad" çifti bir birimin benzersizliğini tanımladığından Finance and Operations uygulamaları ile Common Data Service arasında birim verilerini eşleştirirken farklı senaryoları dikkate almanız gerekir.
+Öncelikle, birimin tümleştirme anahtarının msdyn_symbol olduğunu dikkate almak önemlidir. Bu nedenle, bu değer Dataverse'te veya diğer Dynamics 365 uygulamalarında benzersiz olmalıdır. Diğer Dynamics 365 uygulamalarında "Birim grubu kodu" ve "Ad" çifti bir birimin benzersizliğini tanımladığından Finance and Operations uygulamaları ile Dataverse arasında birim verilerini eşleştirirken farklı senaryoları dikkate almanız gerekir.
 
 Finance and Operations uygulamaları ve diğer Dynamics 365 uygulamalarında eşleşen/çakışan birimler için:
 
@@ -169,7 +171,7 @@ Finance and Operations uygulamaları ve diğer Dynamics 365 uygulamalarında eş
 
 Diğer Dynamics 365 uygulamalarında bulunmayan Finance and Operations'taki birimler ve birim sınıfları için:
 
-Çift yazmanın parçası olarak Finance and Operations uygulamalarındaki birim grupları ve bunların karşılık gelen birimleri diğer Dynamics 365 uygulamalarında ve Common Data Service'te oluşturulup eşitlenir ve birim grubu “Harici olarak korunan” olarak ayarlanır. Ek önyükleme çalışmasına gerek yoktur.
+Çift yazmanın parçası olarak Finance and Operations uygulamalarındaki birim grupları ve bunların karşılık gelen birimleri diğer Dynamics 365 uygulamalarında ve Dataverse'te oluşturulup eşitlenir ve birim grubu “Harici olarak korunan” olarak ayarlanır. Ek önyükleme çalışmasına gerek yoktur.
 
 Finance and Operations uygulamalarında bulunmayan diğer Dynamics 365 uygulamalarındaki birimler için:
 
@@ -198,24 +200,24 @@ msdyn_symbol alanı tüm birimler için doldurulmalıdır. Birimler, her zaman k
 
 ## <a name="integration-key-for-products"></a>Ürünler için tümleştirme anahtarı 
 
-Dynamics 365 for Finance and Operations ile Common Data Service arasında ürünleri benzersiz şekilde tanımlamak için tümleştirme anahtarları kullanılır. Ürünler için, **(productnumber)** Common Data Service'te bir ürünü tanımlayan benzersiz anahtardır. Bu, bir birleşimden oluşur: **(şirket, msdyn_productnumber)**. **Şirket** Finance and Operations'ta tüzel kişiliği ve **msdyn_productnumber** Finance and Operations'ta belirli bir ürünün ürün numarasını belirtir. 
+Dynamics 365 for Finance and Operations ile Dataverse arasında ürünleri benzersiz şekilde tanımlamak için tümleştirme anahtarları kullanılır. Ürünler için, **(productnumber)** Dataverse'te bir ürünü tanımlayan benzersiz anahtardır. Bu, bir birleşimden oluşur: **(şirket, msdyn_productnumber)**. **Şirket** Finance and Operations'ta tüzel kişiliği ve **msdyn_productnumber** Finance and Operations'ta belirli bir ürünün ürün numarasını belirtir. 
 
 Başka bir Dynamics 365 uygulamaları kullanıcısı için ürün, kullanıcı arabiriminde **msdyn_productnumber** ile tanımlanır (alan etiketinin **Ürün numarası** olduğunu unutmayın). Ürün formunda, hem şirket hem de msydn_productnumber gösterilir. Ancak bir ürünün benzersiz anahtarı olan (productnumber) alanı gösterilmez. 
 
-Common Data Service üzerinde uygulama oluşturuyorsanız, tümleştirme anahtarı olarak **ProductNumber** (benzersiz ürün kodu) öğesini kullanarak ilgiyi ödemelisiniz. Benzersiz olmadığından **msdyn_productnumber** kullanmayın. 
+Dataverse üzerinde uygulama oluşturuyorsanız, tümleştirme anahtarı olarak **ProductNumber** (benzersiz ürün kodu) öğesini kullanarak ilgiyi ödemelisiniz. Benzersiz olmadığından **msdyn_productnumber** kullanmayın. 
 
-## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Ürünlerin başlangıç eşitlemesi ve verilerin Common Data Service'ten Finance and Operations'a taşınması
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-dataverse-to-finance-and-operations"></a>Ürünlerin başlangıç eşitlemesi ve verilerin Dataverse'ten Finance and Operations'a taşınması
 
 ### <a name="initial-synchronization-of-products"></a>Ürünlerin başlangıç eşitlemesi 
 
-Çift yazma etkinleştirildiğinde Finance and Operations'taki ürünler Common Data Service ve diğer Dynamics 365'teki model temelli uygulamalarına eşitlenir. Common Data Service ve diğer Dynamics 365 uygulamalarında çift yazma yayınlanmadan önce oluşturulan ürünlerin, Finance and Operations uygulamalarındaki ürün verileriyle güncelleştirilmediğini veya eşleşmediğini unutmayın.
+Çift yazma etkinleştirildiğinde Finance and Operations'taki ürünler Dataverse ve diğer Dynamics 365'teki model temelli uygulamalarına eşitlenir. Dataverse ve diğer Dynamics 365 uygulamalarında çift yazma yayınlanmadan önce oluşturulan ürünlerin, Finance and Operations uygulamalarındaki ürün verileriyle güncelleştirilmediğini veya eşleşmediğini unutmayın.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Finance and Operations ve diğer Dynamics 365 uygulamalarındaki ürün verilerini eşleştirme
 
-Finance and Operations'ta, Common Data Service'te ve diğer Dynamics 365 uygulamalarında aynı ürünler tutuluyorsa (çakışan/eşlenen) çift yazma etkinleştirildiğinde Finance and Operations'taki ürünlerin eşitlenmesi gerçekleşir ve Common Data Service'te aynı ürün için tekrarlanan kayıtlar görünür.
-Diğer Dynamics 365 uygulamalarında Finance and Operations ile çakışan/eşlenen ürünler varsa önceki durumdan kaçınmak için çift yazmayı etkinleştiren yönetici, ürünlerin eşitlenmesi gerçekleşmeden önce **Şirket** (örnek: "USMF") ve **msdyn_productnumber** (örnek: "1234:Black:S") alanlarını önyüklemelidir. Başka bir deyişle, Common Data Service'te ürünlerdeki bu iki alanın Finance and Operations'ta ürünün ve ürün numarasının eşleşmesi gerektiği ilgili şirketle doldurulması gerekir. 
+Finance and Operations'ta, Dataverse'te ve diğer Dynamics 365 uygulamalarında aynı ürünler tutuluyorsa (çakışan/eşlenen) çift yazma etkinleştirildiğinde Finance and Operations'taki ürünlerin eşitlenmesi gerçekleşir ve Dataverse'te aynı ürün için tekrarlanan kayıtlar görünür.
+Diğer Dynamics 365 uygulamalarında Finance and Operations ile çakışan/eşlenen ürünler varsa önceki durumdan kaçınmak için çift yazmayı etkinleştiren yönetici, ürünlerin eşitlenmesi gerçekleşmeden önce **Şirket** (örnek: "USMF") ve **msdyn_productnumber** (örnek: "1234:Black:S") alanlarını önyüklemelidir. Başka bir deyişle, Dataverse'te ürünlerdeki bu iki alanın Finance and Operations'ta ürünün ve ürün numarasının eşleşmesi gerektiği ilgili şirketle doldurulması gerekir. 
 
-Böylece, eşitleme etkinleştirildiğinde ve gerçekleştiğinde Finance and Operations'taki ürünler, Common Data Service ve diğer Dynamics 365 uygulamalarındaki eşleşen ürünlerle eşitlenir. Bu hem farklı ürünler hem de ürün çeşitleri için geçerlidir. 
+Böylece, eşitleme etkinleştirildiğinde ve gerçekleştiğinde Finance and Operations'taki ürünler, Dataverse ve diğer Dynamics 365 uygulamalarındaki eşleşen ürünlerle eşitlenir. Bu hem farklı ürünler hem de ürün çeşitleri için geçerlidir. 
 
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Ürün verilerinin diğer Dynamics 365 uygulamalarından Finance and Operations'a taşınması
