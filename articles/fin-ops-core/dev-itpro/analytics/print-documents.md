@@ -1,0 +1,76 @@
+---
+title: Belge yazdırmaya genel bakış
+description: Belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz. Bu makale belgelerin nasıl yazdırılacağına genel bir bakış sağlar.
+author: TJVass
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+audience: IT Pro, Application User
+ms.reviewer: kfend
+ms.custom: 69161
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1d64a2efeade5e9ba24f4dfe61c861f5a4cbad4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680108"
+---
+# <a name="document-printing-overview"></a><span data-ttu-id="efa44-104">Belge yazdırmaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="efa44-104">Document printing overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="efa44-105">Belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efa44-105">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="efa44-106">Bu makale belgelerin nasıl yazdırılacağına genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="efa44-106">This article provides an overview of how documents are printed.</span></span>
+
+## <a name="printing-overview"></a><span data-ttu-id="efa44-107">Yazdırmaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="efa44-107">Printing overview</span></span>
+
+<span data-ttu-id="efa44-108">Uygulama, iş faaliyetini destekleyen belgeleri oluşturmayı, depolamayı ve dağıtmayı kolaylaştıran tümleşik hizmetleri ve istemci uygulamalarını sağlar.</span><span class="sxs-lookup"><span data-stu-id="efa44-108">The application provides integrated services and client applications that make it easy to generate, store, and distribute documents that support business activity.</span></span> <span data-ttu-id="efa44-109">Belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efa44-109">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="efa44-110">Ayrıca, sayfa ve raporları doğrudan istemciden PDF dosyası veya Microsoft Office belgeleri olarak dışarı aktarabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efa44-110">In addition, you can export pages and reports directly from the client, as PDF files or Microsoft Office documents.</span></span> <span data-ttu-id="efa44-111">Son olarak, dağıtılmış iş yükü, ağ kaynaklarını kullanarak doğrudan bir mobil cihazdan işle ilgili belgeleri yazdırmaya olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="efa44-111">Finally, the distributed workload lets you print business documents directly from a mobile device by using network resources.</span></span> <span data-ttu-id="efa44-112">Yazdırma gereksinimleri farklılık gösterse bile tüm sektörler, genellikle uygulamayı kullanarak iş belgelerinin basılı kopyalarını oluşturmalıdır.</span><span class="sxs-lookup"><span data-stu-id="efa44-112">Although printing requirements might vary, all industries typically must create hard copies of business documents by using the application.</span></span> <span data-ttu-id="efa44-113">Barındırılan uygulamalardan ağ cihazlarında belgeleri yazdırmak benzersiz bir sorun kümesi sunar.</span><span class="sxs-lookup"><span data-stu-id="efa44-113">Printing documents on network devices from hosted applications presents a unique set of challenges.</span></span> <span data-ttu-id="efa44-114">Burada bazı örnekler verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="efa44-114">Here are some examples:</span></span>
+
+- <span data-ttu-id="efa44-115">Yazıcı sürücüleri kullanıcının cihazında kullanılabilir olmayabilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-115">Print drivers might not be available on the user's device.</span></span>
+- <span data-ttu-id="efa44-116">Kullanıcının cihazı şirket ağına bağlı olmayabilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-116">The user's device might not be connected to the corporate network.</span></span>
+
+<span data-ttu-id="efa44-117">Özel bir ana makine kullanarak ve bazı kolay adımları izleyerek yöneticiler dağıtımları kullanıcıların ağ cihazlarında iş uygulamalarından doğrudan çıktı alabileceği şekilde yapılandırabilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-117">By using a dedicated host and following a few easy steps, system administrators can configure deployments so that users can print directly from business applications on network devices.</span></span>
+
+### <a name="application-printing-scenarios"></a><span data-ttu-id="efa44-118">Uygulama yazdırma senaryoları</span><span class="sxs-lookup"><span data-stu-id="efa44-118">Application printing scenarios</span></span> 
+
+<span data-ttu-id="efa44-119">Aşağıdaki tabloda üç birincil yazdırma senaryosu açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="efa44-119">The following table describes the three primary printing scenarios.</span></span>
+
+| <span data-ttu-id="efa44-120">Senaryo</span><span class="sxs-lookup"><span data-stu-id="efa44-120">Scenario</span></span>                        | <span data-ttu-id="efa44-121">Hedef</span><span class="sxs-lookup"><span data-stu-id="efa44-121">Goal</span></span>                                                      | <span data-ttu-id="efa44-122">Çözüm</span><span class="sxs-lookup"><span data-stu-id="efa44-122">Solution</span></span> |
+|---------------------------------|-----------------------------------------------------------|----------|
+| <span data-ttu-id="efa44-123">1. Gördüğünüzü yazdırma</span><span class="sxs-lookup"><span data-stu-id="efa44-123">1. Printing what you see</span></span>        | <span data-ttu-id="efa44-124">Tarayıcıda gösterilmekte olanı yazdırın.</span><span class="sxs-lookup"><span data-stu-id="efa44-124">Print what is currently shown in the browser.</span></span>             | <span data-ttu-id="efa44-125">Tarayıcı için web sayfasının "yazdırmaya uygun" sürümü oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="efa44-125">A "print-friendly" version of the webpage is generated for the browser.</span></span> |
+| <span data-ttu-id="efa44-126">2. Etkileşimli yazdırma</span><span class="sxs-lookup"><span data-stu-id="efa44-126">2. Interactive printing</span></span>         | <span data-ttu-id="efa44-127">Hassas bir belgeyi yerel olarak bağlanan cihazdan yazdırın.</span><span class="sxs-lookup"><span data-stu-id="efa44-127">Print a precision document on a locally connected device.</span></span> | <span data-ttu-id="efa44-128">Raporun PDF sürümünü dışa aktarabilir ve tarayıcıya indirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efa44-128">You can export a PDF version of the report and download it to the browser.</span></span> |
+| <span data-ttu-id="efa44-129">3. Bir ağ aygıtı üzerinden yazdırma</span><span class="sxs-lookup"><span data-stu-id="efa44-129">3. Printing on a network device</span></span> | <span data-ttu-id="efa44-130">Hassas bir belgeyi bir etki alanı yazıcı cihazına gönderin.</span><span class="sxs-lookup"><span data-stu-id="efa44-130">Send a precision document to a domain printer device.</span></span>     | <span data-ttu-id="efa44-131">Hassas bir belge, müşterinin etki alanında barındırılan sunucu üzerinde çalışan bir istemci uygulamasına gönderilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-131">A precision document is sent to a client application that runs on a server that is hosted in the customer's domain.</span></span> |
+
+<span data-ttu-id="efa44-132">Çözümler farklılık gösterdiğinden, senaryoya bağlı olarak uygulamalar, kullanıcıların hedeflerine ulaşmasına yardımcı olan yerleşik hizmet ve araçlar sunar:</span><span class="sxs-lookup"><span data-stu-id="efa44-132">Because the solution varies, depending on the scenario, applications provide built-in services and tooling to help users accomplish their goals:</span></span>
+
+- <span data-ttu-id="efa44-133">**Senaryo 1** tarayıcının HTML5 istemcisi işleme işlemi tarafından desteklenir.</span><span class="sxs-lookup"><span data-stu-id="efa44-133">**Scenario 1** is supported by the browser's rendering of the HTML5 client.</span></span>
+- <span data-ttu-id="efa44-134">**Senaryo 2** istemci uygulamalarını ve Microsoft 365 hizmetlerini kullanır.</span><span class="sxs-lookup"><span data-stu-id="efa44-134">**Scenario 2** uses client applications and Microsoft 365 services.</span></span>
+- <span data-ttu-id="efa44-135">**Senaryo 3** istemci uygulamalarının ve Microsoft Azure içinde barındırılan hizmetlerin desteğini gerektirir.</span><span class="sxs-lookup"><span data-stu-id="efa44-135">**Scenario 3** requires support from client applications and from services that are hosted in Microsoft Azure.</span></span>
+
+<span data-ttu-id="efa44-136">Azure aboneliğine dağıtılan platformun yanı sıra, Finance and Operations uygulamaları müşterilere etki alanında barındırılan hizmetleri belgeleri yazdırmak üzere daha kolay kullanma konusunda yardımcı olan tümleşik, birinci taraf bir Azure uygulaması sunar.</span><span class="sxs-lookup"><span data-stu-id="efa44-136">In addition to the platform that is deployed to the Azure subscription, Finance and Operations applications provide customers with an integrated, first-party Azure application that helps them more easily use domain-hosted devices to print documents.</span></span>
+
+## <a name="service-overview"></a><span data-ttu-id="efa44-137">Hizmete genel bakış</span><span class="sxs-lookup"><span data-stu-id="efa44-137">Service overview</span></span>
+<span data-ttu-id="efa44-138">Barındırılan uygulamalar tarafından üretilen belgeler ağa bağlı cihazda yazdırılmayı beklerken, Azure blob depolamada depolanırlar.</span><span class="sxs-lookup"><span data-stu-id="efa44-138">While documents that are produced by the hosted applications are waiting to be printed on a network-connected device, they are stored in Azure blob storage.</span></span> <span data-ttu-id="efa44-139">[Ağdan yazdırmayı etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme](install-document-routing-agent.md) Azure hizmetleri için güvenli bir kanal oluşturmak üzere Azure kimlik doğrulaması kullanılır.</span><span class="sxs-lookup"><span data-stu-id="efa44-139">The [Install the Document Routing Agent to enable network printing](install-document-routing-agent.md) uses Azure authentication to establish a secure channel to the Azure services.</span></span>
+
+<span data-ttu-id="efa44-140">**Yürütme sırası**</span><span class="sxs-lookup"><span data-stu-id="efa44-140">**Execution sequence**</span></span>
+
+1. <span data-ttu-id="efa44-141">Rapor Microsoft SQL Server Reporting Services (SSRS) tarafından oluşturulur ve Azure blob depolamada saklanır.</span><span class="sxs-lookup"><span data-stu-id="efa44-141">The report is generated by Microsoft SQL Server Reporting Services (SSRS) and stored in Azure blob storage.</span></span> <span data-ttu-id="efa44-142">Ekli yazıcı ayarları belgeyle birlikte saklanır.</span><span class="sxs-lookup"><span data-stu-id="efa44-142">Attached printer settings are stored together with the document.</span></span>
+2. <span data-ttu-id="efa44-143">Belge Yönlendirme Aracısı etkin işler için Azure Service Bus kuyruğunu sorgular.</span><span class="sxs-lookup"><span data-stu-id="efa44-143">The Document Routing Agent queries the Azure Service Bus queue for active jobs.</span></span>
+3. <span data-ttu-id="efa44-144">Belge, Belge Yönlendirme Aracısı tarafından indirilir ve ağ yazıcısında biriktirilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-144">The document is downloaded by the Document Routing Agent and spooled to the network printer.</span></span>
+
+<span data-ttu-id="efa44-145">İstemci tabanlı çözüm, müşterilerin yazdırma gereksinimlerinin ölçeğini yönetmesine olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="efa44-145">The client-based solution lets customers manage the scale of their printing needs.</span></span> <span data-ttu-id="efa44-146">Yüksek hacimli yazdırma iş yükleri olan müşteriler eşzamanlı yazdırma işlemlerinin sayısını artırmak için birçok Belge Yönlendirme Aracısı yükleyebilir.</span><span class="sxs-lookup"><span data-stu-id="efa44-146">Customers who have heavy-volume printing workloads can install many Document Routing Agents to increase the number of concurrent printing operations.</span></span> <span data-ttu-id="efa44-147">Alternatif olarak, bazı müşteriler beklenen yazdırma gereksinimleri için çok az Belge Yönlendirme Aracısı yüklemesine gereksinim duyar.</span><span class="sxs-lookup"><span data-stu-id="efa44-147">Alternatively, some customers require very few installations of the Document Routing Agent to handle their anticipated printing needs.</span></span>
+
+### <a name="service-components-for-network-printing"></a><span data-ttu-id="efa44-148">Ağdan yazdırma için hizmet bileşenleri</span><span class="sxs-lookup"><span data-stu-id="efa44-148">Service components for network printing</span></span>
+
+<span data-ttu-id="efa44-149">Aşağıdaki şema ağ yazdırma işlemlerini desteklemeye yardımcı olan temel bileşenleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="efa44-149">The following diagram shows the basic components that help support network printing operations.</span></span>
+
+<span data-ttu-id="efa44-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span><span class="sxs-lookup"><span data-stu-id="efa44-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span></span>
+
+<span data-ttu-id="efa44-151">Tek bir yazıcının birden fazla Belge Yönlendirme Aracısına kaydedilebileceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="efa44-151">Note that a single printer can be registered with multiple Document Routing Agents.</span></span> <span data-ttu-id="efa44-152">Yazıcı tercihlerini çözmek için, barındırılan hizmet her ağ yazıcısını benzersiz şekilde tanımlayan ağ yolunu kullanır.</span><span class="sxs-lookup"><span data-stu-id="efa44-152">To resolve the printer preferences, the hosted service uses the network path that uniquely identifies every network printer.</span></span> <span data-ttu-id="efa44-153">Sonuç olarak, yazıcı birden çok istemci tarafından kaydedildiğinde bile uygulamalarda kullanılabilen yazıcılar listesinde tek bir seçim olarak görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="efa44-153">As a result, even when a printer is registered by multiple clients, it appears as a single selection in the list of printers available in applications.</span></span>
