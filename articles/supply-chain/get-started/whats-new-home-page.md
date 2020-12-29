@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 20570d1586f15ed64cc17edc84e506847e56a57d
-ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
+ms.openlocfilehash: 77649e310be218fdea8578e974885101c5587722
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4038144"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700993"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -34,14 +34,15 @@ Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya de�
 
 | Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi edinin |
 |---|---|---|---|
-| 10.0.14 | 10.0.605 | 2020 Ekim | [Dynamics 365 Supply Chain Management sürüm 10.0.14'deki yenilikler ve değişiklikler](whats-new-scm-10-0-14.md) |
-| 10.0.13 | 10.0.569 | 2020 Eylül | [Dynamics 365 Supply Chain Management sürüm 10.0.13'deki yenilikler ve değişiklikler](whats-new-scm-10-0-13.md) |
-| 10.0.12 | 10.0.507 | Ağustos 2020 | [Dynamics 365 Supply Chain Management sürüm 10.0.12'deki yenilikler ve değişiklikler](whats-new-scm-10-0-12.md) |
-| 10.0.11 | 10.0.464 | Temmuz 2020 | [Dynamics 365 Supply Chain Management sürüm 10.0.11'deki yenilikler ve değişiklikler](whats-new-scm-10-0-11.md) |
-| 10.0.10 | 10.0.420 | Mayıs 2020 | [Dynamics 365 Supply Chain Management sürüm 10.0.10'deki yenilikler ve değişiklikler](whats-new-scm-10-0-10.md) |
-| 10.0.9  | 10.0.383 | Nisan 2020 | [Dynamics 365 Supply Chain Management sürüm 10.0.9'daki yenilikler ve değişiklikler](whats-new-scm-10-0-9.md) |
-| 10.0.8  | 10.0.319 | Şubat 2020 | [Dynamics 365 Supply Chain Management sürüm 10.0.8'deki yenilikler ve değişiklikler](whats-new-scm-10-0-8.md) |
-| 10.0.7  | 10.0.283 | 2020 Ocak | [Dynamics 365 Supply Chain Management sürüm 10.0.7'deki yenilikler ve değişiklikler](whats-new-scm-10-0-7.md) |
+| 10.0.15 | 10.0.644 | 2021 Ocak | [Dynamics 365 Supply Chain Management'ın 10.0.15 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-15.md) |
+| 10.0.14 | 10.0.605 | Kasım 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.14 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-14.md) |
+| 10.0.13 | 10.0.569 | 2020 Ekim | [Dynamics 365 Supply Chain Management'ın 10.0.13 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-13.md) |
+| 10.0.12 | 10.0.507 | Ağustos 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.12 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-12.md) |
+| 10.0.11 | 10.0.464 | Temmuz 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.11 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-11.md) |
+| 10.0.10 | 10.0.420 | Mayıs 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.10 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-10.md) |
+| 10.0.9  | 10.0.383 | Nisan 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.9 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-9.md) |
+| 10.0.8  | 10.0.319 | Şubat 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.8 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-8.md) |
+| 10.0.7  | 10.0.283 | 2020 Ocak | [Dynamics 365 Supply Chain Management'ın 10.0.7 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-7.md) |
 | 10.0.6  | 10.0.234 | Kasım 2019  | [Dynamics 365 Supply Chain Management 10.0.6'daki yenilikler veya değişiklikler](whats-new-scm-10-0-6.md) |
 
 ## <a name="releases-before-november-2019"></a>Kasım 2019 öncesi sürümler

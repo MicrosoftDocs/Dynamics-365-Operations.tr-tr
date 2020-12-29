@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.15 önizlemesi (Ocak 2021)
+title: Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yenilikler veya değişiklikler (Ocak 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.15'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012287"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700969"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 önizlemesi (Ocak 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yenilikler veya değişiklikler (Ocak 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.15'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.644 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.644 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürüm önizlemesi:** Ekim 2020
 - **Sürüm genel kullanılabilirliği (kendi kendini güncelleştirme):** Kasım 2020
@@ -39,19 +38,23 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-- Üretim ve ambar yürütme iş yükleri ile bulut ve edge ölçek birimi yönetimi<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- Üretim ve ambar yürütme iş yükleri ile bulut ve edge ölçek birimi yönetimi<br> - Daha fazla bilgi için bkz. [Üretim ve ambar yönetimi iş yükleri için bulut ve edge ölçek birimleri](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Transfer emirlerini ambar uygulamasından oluştur ve işle](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulamasından transfer emri oluşturma](../warehousing/create-transfer-order-from-warehouse-app.md).
 
 - [Satıcı teklifi için varsayılan RFQ yanıtı alanları](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Daha fazla bilgi için bkz. [Teklif talebine (RFQ) genel bakış](../procurement/request-quotations.md).
 
-- [Dynamics 365 Supply Chain Management için Mühendislik Değişiklik Yönetimi Eklentisi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [Dynamics 365 Supply Chain Management için Mühendislik Değişiklik Yönetimi Eklentisi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Daha fazla bilgi için bkz. [Mühendislik değişikliğine genel bakış](../engineering-change-management/product-engineering-overview.md).
 
 - [Üretim için karma gerçeklik kılavuzları](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Daha fazla bilgi için bkz. [Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama](../production-control/instruction-guides-in-production-overview.md).
 
 - [Üretim katı yürütmesi için yeni kullanıcı deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).
 
 - [Ambar uygulaması olaylarını işle](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması olayı işleme](../warehousing/warehouse-app-events.md).
+
+- [Bırakılan ürünler için kaydedilmiş görünümler sayfası](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Daha fazla bilgi için, bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+
+- USMCA kaynak sertifikasyonu belgesi<br> - Daha fazla bilgi için bkz. [USMCA menşe sertifikası](../transportation/usmca-certification-of-origin.md).
 
 Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 

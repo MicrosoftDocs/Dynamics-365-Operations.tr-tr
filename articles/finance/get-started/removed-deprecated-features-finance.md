@@ -3,7 +3,7 @@ title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikl
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175120"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689506"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -35,6 +35,40 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Genel muhasebe defteri hareketi dışarı aktarma biçimi (BE)" Belçika için elektronik raporlama biçimi ve ilgili "Genel muhasebe defteri hareketi dışarı aktarma (BE)" modeli
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | "Standart Denetim Dosyası (SAF-T)" modeli altındaki yeni ER biçimi ile değiştirildi.  |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Aralık 2021'e kadar "Genel muhasebe defteri hareketi dışarı aktarma biçimi (BE)" Elektronik raporlama biçimi ve ilgili "Genel muhasebe defteri hareketi dışarı aktarma (BE)" modeli için sunduğumuz desteği kaldırmayı planlıyoruz. "Standart Denetim Dosyası (SAF-T)" modeli kapsamında, bunun yerine "Genel muhasebe veri modeli eşleme" ile birlikte yeni bir "Genel muhasebe veri dışarı aktarma (BE) biçimi" sunulmuştur. |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Birleşik Krallık için SSRS biçiminde "KDV 100" raporu
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | "Vergi beyannamesi modeli" kapsamında yeni ER biçimi - "KDV Beyannamesi Excel (UK)" biçimi ile değiştirilmiştir.  |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Aralık 2021'e kadar, SSRS biçimindeki "KDV 100 raporu" için sunduğumuz desteği kaldırmayı planlıyoruz. [MTD KDV özelliğinde](../localizations/emea-gbr-mtd-vat-integration.md) "Vergi beyanı modeli" kapsamında yeni bir "KDV Beyannamesi Excel (UK)" biçimi kullanıma sunulmuştur. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Finance 10.0.15 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 için Internet Explorer 11 desteği kullanım dışı bırakılmıştır
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
+| **Etkilenen ürün alanları**         | Tüm Dynamics 365 ürünleri |
+| **Dağıtım seçeneği**              | Tümü|
+| **Durum**                         | Kaldırıldı. Internet Explorer 11 Ağustos 2021'den sonra desteklenmeyecektir.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Finance 10.0.12 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

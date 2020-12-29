@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249130"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701688"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
@@ -112,15 +112,18 @@ Bir satıcı faturası kullanımdayken başka bir kullanıcı tarafından düzen
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Satıcı faturalarının iş akışı durumu düzeltilemez durumundan taslakta sıfırlanıyor
 
-Kurtarılamayan bir hata nedeniyle durdurulan bir iş akışı örneği, iş akışı durumu **Düzeltilemez**olacaktır. Satıcı faturası iş akışının durumu **Kurtarılamaz** ise **Geri çağır**'ı seçerek bunu **Taslak** olarak sıfırlayabilirsiniz. Daha sonra satıcı faturasını düzenleyebilirsiniz. Bu özellik, **Özellik yönetimi** sayfasında parametre açıksa, **Satıcı fatura iş akışı için taslak durumunu sıfırla** parametresinde bulunur.
+Kurtarılamayan bir hata nedeniyle durdurulan bir iş akışı örneği, iş akışı durumu **Düzeltilemez** olacaktır. Satıcı faturası iş akışının durumu **Kurtarılamaz** ise **Geri çağır**'ı seçerek bunu **Taslak** olarak sıfırlayabilirsiniz. Daha sonra satıcı faturasını düzenleyebilirsiniz. **Özellik yönetimi** sayfasında **Satıcı faturalarının iş akışı durumunu Düzeltilemez durumundan Taslak durumuna sıfırlama** parametresi açıksa bu özellik kullanılabilir.
 
 **İş akışı geçmişi** sayfasını kullanarak iş akışı durumunu **Taslak** olarak sıfırlayabilirsiniz. Bu sayfayı **Satıcı faturasından** veya **Ortak > Sorgular > İş akışı** gezintisini açabilirsiniz. İş akışı durumunu **Taslak** olarak sıfırlamak için **Geri çağır**'ı seçin. Ayrıca,**Satıcı faturası** veya **Bekleyen satıcı faturaları** sayfasında **Geri çağır** eylemini seçerek iş akışı durumunu Taslak'a sıfırlayabilirsiniz. İş akışı durumu **Taslak** olarak sıfırlandıktan sonra, **Satıcı faturası** sayfasında düzenlenmeye açık hale gelir.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Bekleyen satıcı faturaları sayfasında fatura toplamını görüntüleme
+**Borç hesapları parametreleri** sayfasındaki **Bekleyen satıcı faturaları listesinde fatura toplamını göster** parametresini etkinleştirerek, **Bekleyen satıcı faturaları** sayfasındaki fatura toplamını görüntüleyebilirsiniz. 
 
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Satıcı fatura ilkelerini ayarlama](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Satıcı fatura ilkelerini ayarla](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Satıcı faturası kullanarak fatura verilerini AP sistemine gir](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Fatura havuzu kullanarak fatura verilerini AP sistemine girme](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
