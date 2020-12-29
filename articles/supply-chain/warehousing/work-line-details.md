@@ -1,0 +1,130 @@
+---
+title: İş satırı ayrıntıları
+description: Bu konu, sisteminizdeki bireysel çalışma satırlarının kapsamlı, sıralanabilir ve filtrelenebilir listesini gösteren İş satırı ayrıntıları sayfası hakkında bilgi vermektedir.
+author: mirzaab
+manager: tfehr
+ms.date: 07/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.author: mirzaab
+ms.search.validFrom: 2020-07-01
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4439676"
+---
+# <a name="work-line-details"></a><span data-ttu-id="1ff8c-103">İş satırı ayrıntıları</span><span class="sxs-lookup"><span data-stu-id="1ff8c-103">Work line details</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="1ff8c-104">**İş satırı ayrıntıları sayfası**, sisteminizdeki bireysel çalışma satırlarının kapsamlı, sıralanabilir ve filtrelenebilir listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-104">The **Work line details** page shows a comprehensive, sortable, and filterable list of the individual work lines in your system.</span></span> <span data-ttu-id="1ff8c-105">Bu, planlanan ve ambarda yürütülen işlerin tam bir özetini sağlar.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-105">It provides a complete overview of work that is being planned and executed in the warehouse.</span></span> <span data-ttu-id="1ff8c-106">Tüm iş satırlarını görüntüleme ve yalnızca açık iş satırlarını görüntüleme arasında kolayca geçiş yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-106">You can easily switch between viewing all work lines and viewing only open work lines.</span></span> <span data-ttu-id="1ff8c-107">Her bir satır için verilen ayrıntılar iş durumunu, madde kodunu, yerleşimi, iş miktarını, yükleme kodunu ve sevkiyat kodunu içerir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-107">Details that are provided for each line include the work status, item number, location, work quantity, load ID, and shipment ID.</span></span>
+
+## <a name="turn-on-the-work-line-details-feature"></a><span data-ttu-id="1ff8c-108">İş satırı ayrıntıları özelliğini açma</span><span class="sxs-lookup"><span data-stu-id="1ff8c-108">Turn on the work line details feature</span></span>
+
+<span data-ttu-id="1ff8c-109">Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-109">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="1ff8c-110">Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-110">Admins can use the [feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on if it's required.</span></span> <span data-ttu-id="1ff8c-111">**Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-111">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+
+- <span data-ttu-id="1ff8c-112">**Modül:** *Ambar yönetimi*</span><span class="sxs-lookup"><span data-stu-id="1ff8c-112">**Module:** *Warehouse management*</span></span>
+- <span data-ttu-id="1ff8c-113">**Özellik adı:** *İş satırı ayrıntıları*</span><span class="sxs-lookup"><span data-stu-id="1ff8c-113">**Feature name:** *Work line details*</span></span>
+
+## <a name="open-and-use-the-work-line-details-page"></a><span data-ttu-id="1ff8c-114">İş satırı ayrıntıları sayfasını açma ve kullanma</span><span class="sxs-lookup"><span data-stu-id="1ff8c-114">Open and use the Work line details page</span></span>
+
+<span data-ttu-id="1ff8c-115">İş satırı ayrıntılarının listesini görüntülemek için **Ambar Yönetimi \> İş \> İş satırı ayrıntıları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-115">To view the list of work line details, go to **Warehouse management \> Work \> Work line details**.</span></span> <span data-ttu-id="1ff8c-116">Buradan, aşağıdaki eylemleri gerçekleştirebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-116">From here, you can perform the following actions:</span></span>
+
+- <span data-ttu-id="1ff8c-117">Kullanılabilir herhangi bir parametre için belirli bir değeri olan satırları aramak için **Filtre** alanını kullanın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-117">Use the **Filter** field to search for lines that have a specific value for any available parameter.</span></span> <span data-ttu-id="1ff8c-118">(Kullanılabilir parametreler kılavuzda sütun olarak gösterilmeyen birçok parametre içerir.)</span><span class="sxs-lookup"><span data-stu-id="1ff8c-118">(Available parameters include many parameters that aren't shown as columns in the grid.)</span></span>
+- <span data-ttu-id="1ff8c-119">Kapalı satırları göstermek veya gizlemek için **Kapalı olanı göster** onay kutusunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-119">Use the **Show closed** check box to show or hide closed lines.</span></span>
+- <span data-ttu-id="1ff8c-120">Kılavuzda çeşitli boyut sütunlarını göstermeyi veya gizlemeyi seçebileceğiniz **Boyutların görünümü** iletişim kutusunu açmak için **Boyutları görüntüle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-120">Select **Display dimensions** to open the **Dimensions display** dialog box, where you can choose to show or hide various dimension columns in the grid.</span></span>
+- <span data-ttu-id="1ff8c-121">Listeyi bir sütundaki değerlere göre sıralamayı veya filtreyi seçebileceğiniz bir menü açmak için o sütunun başlığını seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-121">Select any column heading to open a menu where you can choose to sort or filter the list by values in that column.</span></span>
+- <span data-ttu-id="1ff8c-122">Bir iş satırı seçin ve ardından o iş satırına ilişkin yerleşimi değiştirebileceğiniz bir iletişim kutusu açmak için **Yerleşimi değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-122">Select a work line, and then select **Change location** to open a dialog box where you can change the location for that work line.</span></span> <span data-ttu-id="1ff8c-123">Belirttiğiniz yerleşim, yerleşim yönergesinin kurulumunu geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-123">The location that you specify will override the setup of the location directive.</span></span>
+- <span data-ttu-id="1ff8c-124">Bir iş satırı seçin ve ardından o iş satırının miktarını kısmen veya tamamen azaltabileceğiniz bir iletişim kutusu açmak için **İş satırını iptal et**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-124">Select a work line, and then select **Cancel work line** to open a dialog box where you can partially or fully reduce the quantity of that work line.</span></span>
+- <span data-ttu-id="1ff8c-125">Miktarları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-125">Adjust quantities.</span></span>
+- <span data-ttu-id="1ff8c-126">Herhangi bir iş satırının arkasındaki hareketleri görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-126">View the transactions behind any work line.</span></span>
+
+## <a name="try-out-the-feature"></a><span data-ttu-id="1ff8c-127">Özelliği deneyin</span><span class="sxs-lookup"><span data-stu-id="1ff8c-127">Try out the feature</span></span>
+
+<span data-ttu-id="1ff8c-128">Bu bölüm, iş satırı ayrıntılarıyla nasıl çalışılacağını gösteren üç bölümlü bir tanıtım sunmaktadır.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-128">This section provides a three-part demo that shows how to work with work line details.</span></span>
+
+### <a name="make-sample-data-available"></a><span data-ttu-id="1ff8c-129">Örnek verilerini kullanılabilir hale getirme</span><span class="sxs-lookup"><span data-stu-id="1ff8c-129">Make sample data available</span></span>
+
+<span data-ttu-id="1ff8c-130">Burada belirtilen örnek kayıtları ve değerleri kullanarak bu tanıtım üzerinden çalışmak için, standart [tanıtım verilerinin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) yüklenmiş olduğu bir sistemde olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-130">To work through this demo by using the sample records and values that are specified here, you must be on a system where the standard [demo data](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed.</span></span> <span data-ttu-id="1ff8c-131">Ek olarak, başlamadan önce **USMF** tüzel kişiliğini seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-131">Additionally, you must select the **USMF** legal entity before you begin.</span></span>
+
+<span data-ttu-id="1ff8c-132">Bir üretim sisteminde çalışırken bu tanıtımdan kılavuz olarak da yararlanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-132">You can also use this demo as guidance when you work on a production system.</span></span> <span data-ttu-id="1ff8c-133">Ancak, kendi değerlerinizi değiştirmeniz gerekir ve standart tanıtım verilerinin sağladığı bazı gerekli kayıt türleri kaybolabilir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-133">However, you must substitute your own values, and you might be missing some types of required records that the standard demo data provides.</span></span>
+
+### <a name="verify-that-the-scenario-setup-includes-enough-available-inventory"></a><span data-ttu-id="1ff8c-134">Senaryo kurulumunun yeterli kullanılabilir stok içerdiğini doğrulayın</span><span class="sxs-lookup"><span data-stu-id="1ff8c-134">Verify that the scenario setup includes enough available inventory</span></span>
+
+<span data-ttu-id="1ff8c-135">**USMF** tanıtım verileriyle çalışıyorsanız, ilgili her malzeme çekme yerleşiminde yeterli stok olmasını sağlamak için sisteminizin ayarlandığından emin olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-135">If you're working with the **USMF** demo data, you should first make sure that your system is set up so that enough inventory is available at each relevant pick location.</span></span> <span data-ttu-id="1ff8c-136">Bu tanıtım için, aşağıdaki stoka sahip olmanız beklenir:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-136">For this demo, the expectation is that you have the following inventory available:</span></span>
+
+- <span data-ttu-id="1ff8c-137">**Madde M9200:** 45 beher.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-137">**Item M9200:** 45 ea.</span></span> <span data-ttu-id="1ff8c-138">(veya üzeri)</span><span class="sxs-lookup"><span data-stu-id="1ff8c-138">(or more)</span></span>
+- <span data-ttu-id="1ff8c-139">**Madde M9202:** 10 beher.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-139">**Item M9202:** 10 ea.</span></span> <span data-ttu-id="1ff8c-140">(veya üzeri)</span><span class="sxs-lookup"><span data-stu-id="1ff8c-140">(or more)</span></span>
+
+<span data-ttu-id="1ff8c-141">Yeterli stok olduğunu doğrulamak ve gerekli ayarlamaları yapmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-141">Follow these steps to verify that enough inventory is available and to make any adjustments that are required.</span></span>
+
+1. <span data-ttu-id="1ff8c-142">**Ambar yönetimi \> Kurulum \> Konum yönergeleri**'ne gidin ve 51 kodlu ambarda satış siparişi çekme için hangi malzeme çekme yerleşimlerinin kullanıldığını belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-142">Go to **Warehouse management \> Setup \> Location directives**, and determine which picking locations are used for sales order picking at warehouse 51.</span></span> <span data-ttu-id="1ff8c-143">(Daha fazla bilgi için bkz. [İş şablonları ve yerleşim yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md).)</span><span class="sxs-lookup"><span data-stu-id="1ff8c-143">(For more information, see [Control warehouse work by using work templates and location directives](control-warehouse-location-directives.md).)</span></span>
+1. <span data-ttu-id="1ff8c-144">İlgili yerleşimlerdeki stok düzeylerini denetleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-144">Check the inventory levels at the relevant locations.</span></span>
+1. <span data-ttu-id="1ff8c-145">Stoku gerektiği gibi düzeltin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-145">Adjust inventory as required.</span></span> <span data-ttu-id="1ff8c-146">El ile hareketler oluşturabilir, stok yenilemeyi kullanarak veya başka bir akışı uygulayarak stokta düzeltme yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-146">You can create manual movements, use replenishment, or apply any other flow to adjust the inventory.</span></span>
+
+### <a name="part-1-create-picking-work"></a><span data-ttu-id="1ff8c-147">Bölüm 1: Malzeme çekme işi oluşturun</span><span class="sxs-lookup"><span data-stu-id="1ff8c-147">Part 1: Create picking work</span></span>
+
+<span data-ttu-id="1ff8c-148">İş oluşturmaya başlamadan önce, ambarınızın iş isteklerine beklendiği gibi yanıt verecek şekilde ayarlandığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-148">Before you start to create work, make sure that your warehouse is set up to respond to work requests in the expected manner.</span></span>
+
+<span data-ttu-id="1ff8c-149">Birkaç malzeme çekme işi oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-149">Follow these steps to create some picking work.</span></span>
+
+1. <span data-ttu-id="1ff8c-150">**Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-150">Go to **Sales and marketing \> Sales orders \> All sales orders**.</span></span>
+1. <span data-ttu-id="1ff8c-151">**Satış siparişi oluştur** iletişim kutusunu açmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-151">Select **New** to open the **Create sales order** dialog box.</span></span>
+1. <span data-ttu-id="1ff8c-152">**Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-152">In the **Create sales order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="1ff8c-153">**Müşteri** hızlı sekmesinde, **Müşteri hesabı** alanını _ABD-001_ olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-153">On the **Customer** FastTab, set the **Customer account** field to _US-001_.</span></span>
+    - <span data-ttu-id="1ff8c-154">**Genel** hızlı sekmesinde, **Ambar** alanının ayarını _51_ yapın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-154">On the **General** FastTab, set the **Warehouse** field to _51_.</span></span>
+
+1. <span data-ttu-id="1ff8c-155">Satış siparişi oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-155">Select **OK** to create the sales order and close the dialog box.</span></span>
+1. <span data-ttu-id="1ff8c-156">Yeni satış siparişiniz açılır.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-156">Your new sales order is opened.</span></span> <span data-ttu-id="1ff8c-157">**Satış siparişi satırları** kılavuzunda yeni ve boş bir satırı olur.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-157">It includes a new, empty row in the **Sales order lines** grid.</span></span> <span data-ttu-id="1ff8c-158">Bu sipariş satırında aşağıdaki değerleri ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-158">On this order line, set the following values:</span></span>
+
+    - <span data-ttu-id="1ff8c-159">**Madde numarası:** _M9200_</span><span class="sxs-lookup"><span data-stu-id="1ff8c-159">**Item number:** _M9200_</span></span>
+    - <span data-ttu-id="1ff8c-160">**Miktar:** _20_</span><span class="sxs-lookup"><span data-stu-id="1ff8c-160">**Quantity:** _20_</span></span>
+    - <span data-ttu-id="1ff8c-161">**Birim:** _ea_</span><span class="sxs-lookup"><span data-stu-id="1ff8c-161">**Unit:** _ea_</span></span>
+
+1. <span data-ttu-id="1ff8c-162">Yeni sipariş satırını seçin ve ardından **Stok** menüsünde **Rezervasyon**'u seçerek **Rezervasyon** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-162">Select the new order line, and then, on the **Inventory** menu, select **Reservation** to open the **Reservation** page.</span></span>
+1. <span data-ttu-id="1ff8c-163">**Rezervasyon** sayfasında, ambardaki seçili satırın tüm miktarını rezerve etmek için **Lot ayır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-163">On the **Reservation** page, select **Reserve lot** to reserve the selected line's full quantity in the warehouse.</span></span>
+1. <span data-ttu-id="1ff8c-164">Satış siparişine dönmek için **Rezervasyon** sayfasını kapatın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-164">Close the **Reservation** page to return to the sales order.</span></span>
+1. <span data-ttu-id="1ff8c-165">Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-165">On the Action Pane, on the **Warehouse** tab, select **Release to warehouse**.</span></span> <span data-ttu-id="1ff8c-166">Sistem bir sevkiyat oluşturur, bunu yeni bir yüklemeye ekler ve gerekli işi oluşturur.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-166">The system creates a shipment, adds it to a new load, and creates the required work.</span></span>
+1. <span data-ttu-id="1ff8c-167">İlk sipariş için kullandığınız aynı müşteri hesabı ve ambar için ikinci bir satış siparişi oluşturun.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-167">Create a second sales order for the same customer account and warehouse that you used for the first order.</span></span> <span data-ttu-id="1ff8c-168">Aşağıdaki iki sipariş satırını bu siparişe ekleyin:</span><span class="sxs-lookup"><span data-stu-id="1ff8c-168">Add the following two order lines to this order:</span></span>
+
+    - <span data-ttu-id="1ff8c-169">**Satır 1:** **Madde numarası** alanını _M9200_ olarak, **Miktar** alanını _25_ olarak ve **Birim** alanını _beher_ olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-169">**Line 1:** Set the **Item number** field to _M9200_, the **Quantity** field to _25_, and the **Unit** field to _ea_.</span></span>
+    - <span data-ttu-id="1ff8c-170">**Satır 2:** **Madde numarası** alanını _M9202_ olarak, **Miktar** alanını _10_ olarak ve **Birim** alanını _beher_ olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-170">**Line 2:** Set the **Item number** field to _M9202_, the **Quantity** field to _10_, and the **Unit** field to _ea_.</span></span>
+
+1. <span data-ttu-id="1ff8c-171">Her sipariş satırı için (bir seferde bir kez) stok rezerve etmek üzere 6'dan 8'e kadar olan adımları yineleyin ve siparişi ambara serbest bırakmak için 9. adımı yineleyin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-171">Repeat steps 6 through 8 to reserve the inventory for each order line (one at a time), and then repeat step 9 to release the order to the warehouse.</span></span>
+
+### <a name="part-2-change-the-location-for-a-work-line"></a><span data-ttu-id="1ff8c-172">Bölüm 2: Bir iş satırı için yerleşimi değiştirin</span><span class="sxs-lookup"><span data-stu-id="1ff8c-172">Part 2: Change the location for a work line</span></span>
+
+1. <span data-ttu-id="1ff8c-173">**Ambar yönetimi \> İş \> İş satırı ayrıntıları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-173">Go to **Warehouse management \> Work \> Work line details**.</span></span>
+1. <span data-ttu-id="1ff8c-174">Bu tanıtım için oluşturduğunuz iş satırlarından birini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-174">Find and select one of the work lines that you created for this demo.</span></span>
+1. <span data-ttu-id="1ff8c-175">**Yeni yerleşim seç** iletişim kutusunu açmak için **Yerleşimi değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-175">Select **Change location** to open the **Select new location** dialog box.</span></span>
+1. <span data-ttu-id="1ff8c-176">**Yeni yerleşim seç** iletişim kutusunda, **Yerleşim** alanında, iş satırı için yeni bir yerleşim seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-176">In the **Select new location** dialog box, in the **Location** field, select a new location for the work line.</span></span>
+1. <span data-ttu-id="1ff8c-177">Değişikliğinizi uygulayıp iletişim kutusunu kapatmak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-177">Select **OK** to apply your change and close the dialog box.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="1ff8c-178">Yerleşim değişikliklerini, yalnızca yeni yerleşimde yeterli stok varsa (malzeme çekme için) veya yerleşim türü doğrulama (koyma için) geçerse gönderebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-178">You can submit location changes only if the new location has enough inventory available (for a pick), or if it passes location-type validation (for a put).</span></span>
+
+### <a name="part-3-change-the-quantity-of-a-work-line-or-cancel-a-work-line"></a><span data-ttu-id="1ff8c-179">Bölüm 3: Bir iş satırının miktarını değiştirin veya bir iş satırını iptal edin</span><span class="sxs-lookup"><span data-stu-id="1ff8c-179">Part 3: Change the quantity of a work line or cancel a work line</span></span>
+
+1. <span data-ttu-id="1ff8c-180">**Ambar yönetimi \> İş \> İş satırı ayrıntıları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-180">Go to **Warehouse management \> Work \> Work line details**.</span></span>
+1. <span data-ttu-id="1ff8c-181">Bu tanıtım için oluşturduğunuz iş satırlarından birini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-181">Find and select one of the work lines that you created for this demo.</span></span> <span data-ttu-id="1ff8c-182">Yalnızca iş türünün _çekme_ olduğu iş satırlarının miktarlarını iptal edebileceğinize veya değiştirebileceğinize dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-182">Note that you can cancel or change quantities only for work lines where the work type is _pick_.</span></span>
+1. <span data-ttu-id="1ff8c-183">**İptal edilecek miktar** iletişim kutusunu açmak için **İş satırını iptal et**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-183">Select **Cancel work line** to open the **Quantity to cancel** dialog box.</span></span>
+1. <span data-ttu-id="1ff8c-184">**İptal edilecek miktar** iletişim kutusunda, satır için o sırada belirtilmiş olan miktardan *düşülen* miktarı belirtmek için **Miktar** alanındaki değeri değiştirin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-184">In the **Quantity to cancel** dialog box, change the value in the **Quantity** field to specify the quantity that should be *subtracted from* the quantity that is currently specified for the line.</span></span> <span data-ttu-id="1ff8c-185">Varsayılan olarak, **Miktar** alanı tüm miktarı gösterir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-185">By default, the **Quantity** field shows the full quantity.</span></span>
+
+    - <span data-ttu-id="1ff8c-186">Tüm miktarı iptal ederseniz, **İş durumu** değeri _İptal edildi_ olarak değiştirilecek ancak **İş miktarı** alanı orijinal değeri göstermeye devam edecektir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-186">If you cancel the full quantity, the **Work status** value will be changed to _Canceled_, but the **Work quantity** field will still show the original value.</span></span>
+    - <span data-ttu-id="1ff8c-187">Miktarın yalnızca bir kısmını iptal ederseniz, **İş miktarı** alanı yeni değeri gösterecek şekilde güncelleştirilir ama **İş durumu** değeri değişmez.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-187">If you cancel just part of the quantity, the **Work quantity** field will be updated to show the new value, but the **Work status** value won't change.</span></span>
+
+1. <span data-ttu-id="1ff8c-188">Değişikliğinizi uygulayıp iletişim kutusunu kapatmak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-188">Select **OK** to apply your change and close the dialog box.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="1ff8c-189">Bir iş satırı için yalnızca miktarın bir kısmını iptal ederseniz, yük satırından kullanılmayan miktarı da silmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-189">If you cancel just part of the quantity for a work line, you must also remove the obsolete quantity from the load line.</span></span> <span data-ttu-id="1ff8c-190">Aksi durumda, eksik teslimat doğru şekilde ayarlanmadıkça, yükleme satırının sevk onayı verilemez.</span><span class="sxs-lookup"><span data-stu-id="1ff8c-190">Otherwise, unless under-delivery is set up correctly, the load line can't be ship-confirmed.</span></span>
