@@ -1,0 +1,75 @@
+---
+title: " Satınalma siparişleri için ürün paketleri oluşturma"
+description: Bu yordam, bir ürün paketi oluşturma ve bunu bir satınalma siparişinde kullanmayla ilgili süreci açıklamaktadır.
+author: josaw1
+manager: AnnBe
+ms.date: 11/14/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Operations, Retail
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: josaw
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b0084c6b4acbf14e3afec552575d5be26114237
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416474"
+---
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="d2181-103"> Satınalma siparişleri için ürün paketleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="d2181-103">Create product packages for purchase orders</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="d2181-104">Bu yordam, bir ürün paketi oluşturma ve bunu bir satınalma siparişinde kullanmayla ilgili süreci açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="d2181-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="d2181-105">Satınalma siparişi, önceden tanımlanmış bir ürün kümesi için sipariş oluşturmak amacıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="d2181-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="d2181-106">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="d2181-106">This procedure uses the USRT demo data company.</span></span>
+
+
+## <a name="create-a-product-package"></a><span data-ttu-id="d2181-107">Ürün paketi oluşturma</span><span class="sxs-lookup"><span data-stu-id="d2181-107">Create a product package</span></span>
+1. <span data-ttu-id="d2181-108">Retail and Commerce > Stok yönetimi > Stok yenileme > Ürün paketleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d2181-108">Go to Retail and Commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="d2181-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-109">Click New.</span></span>
+3. <span data-ttu-id="d2181-110">Paket numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="d2181-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d2181-112">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d2181-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="d2181-113">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="d2181-114">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d2181-114">Click Add.</span></span>
+8. <span data-ttu-id="d2181-115">Madde numarası alanına '0160' yazın.</span><span class="sxs-lookup"><span data-stu-id="d2181-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="d2181-116">Boyut alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="d2181-117">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="d2181-118">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="d2181-119">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d2181-119">Click Add.</span></span>
+13. <span data-ttu-id="d2181-120">Madde numarası alanına '0160' yazın.</span><span class="sxs-lookup"><span data-stu-id="d2181-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="d2181-121">Varyant numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="d2181-122">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="d2181-123">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="d2181-124">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d2181-124">Click Add.</span></span>
+18. <span data-ttu-id="d2181-125">Madde numarası alanına '0175' yazın.</span><span class="sxs-lookup"><span data-stu-id="d2181-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="d2181-126">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="d2181-127">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-127">Click Save.</span></span>
+21. <span data-ttu-id="d2181-128">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d2181-128">Close the page.</span></span>
+
+## <a name="add-package-to-purchase-order"></a><span data-ttu-id="d2181-129">Paketi satınalma siparişine ekleme</span><span class="sxs-lookup"><span data-stu-id="d2181-129">Add package to purchase order</span></span>
+1. <span data-ttu-id="d2181-130">Accounts payable > Purchase orders > All purchase orders (Borç hesapları > Satınalma siparişleri > Tüm satınalma siparişleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="d2181-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="d2181-131">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-131">Click New.</span></span>
+3. <span data-ttu-id="d2181-132">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d2181-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="d2181-133">Ürün paketi oluşturulurken bir satıcı seçildiyse, listeden aynı satıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="d2181-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="d2181-134">Genel bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="d2181-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="d2181-135">Tesis alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="d2181-136">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="d2181-137">Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d2181-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="d2181-138">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="d2181-139">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d2181-139">Click OK.</span></span>
+11. <span data-ttu-id="d2181-140">Satır ayrıntıları bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="d2181-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="d2181-141">Ürün paketleri sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="d2181-142">Satınalma siparişi satırına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="d2181-143">Paketten satırlar oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="d2181-144">Listede, önceki adımda oluşturduğunuz ürün paketi bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d2181-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="d2181-145">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d2181-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="d2181-146">Oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-146">Click Create.</span></span>
+18. <span data-ttu-id="d2181-147">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d2181-147">Click Save.</span></span>
+

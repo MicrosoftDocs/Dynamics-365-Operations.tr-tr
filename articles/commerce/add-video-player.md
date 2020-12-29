@@ -1,0 +1,108 @@
+---
+title: Video oynatıcı modülü
+description: Bu konu vide oynatıcı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
+author: anupamar-ms
+manager: annbe
+ms.date: 09/15/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+audience: Application user
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416381"
+---
+# <a name="video-player-module"></a><span data-ttu-id="3df03-103">Video oynatıcı modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-103">Video player module</span></span>
+
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="3df03-104">Bu konu vide oynatıcı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="3df03-104">This topic covers video player modules and describes how to add them to site pages in Microsoft Dynamics 365 Commerce.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="3df03-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="3df03-105">Overview</span></span>
+
+<span data-ttu-id="3df03-106">Video oynatımını desteklemek için video oynatma modülü kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3df03-106">The video player module is used to support video playback.</span></span> <span data-ttu-id="3df03-107">Video içeriğinin içerik yönetim sistemi ne (CMS) yüklenmesi ve kullanılabilir olması koşuluyla, herhangi bir sayfaya eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-107">It can be added to any page, provided that video content is uploaded to and available in the content management system (CMS).</span></span> <span data-ttu-id="3df03-108">Video oynatıcı modülü .mp4 ortam türünü destekler.</span><span class="sxs-lookup"><span data-stu-id="3df03-108">The video player module supports the .mp4 media type.</span></span>
+
+## <a name="video-player-module"></a><span data-ttu-id="3df03-109">Video oynatıcı modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-109">Video player module</span></span>
+
+<span data-ttu-id="3df03-110">Video oynatıcı modülü bir e-ticaret sitesinde videoları sergileyebilecek şekilde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-110">The video player module can be used to showcase videos on an e-Commerce site.</span></span> <span data-ttu-id="3df03-111">Yürüt, Duraklat, tam boyut modu, ses açıklamaları ve kapalı açıklamalı alt yazılar gibi tüm kayıttan yürütme yeteneklerini destekler.</span><span class="sxs-lookup"><span data-stu-id="3df03-111">It supports all playback capabilities, such as play, pause, full-size mode, audio descriptions, and closed captions.</span></span> <span data-ttu-id="3df03-112">Video oynatıcı modülü, Microsoft erişilebilirlik standartlarını karşılamak için kapalı açıklamalı alt yazıların özelleştirmesini de destekler.</span><span class="sxs-lookup"><span data-stu-id="3df03-112">The video player module also supports customization of closed captions to meet Microsoft accessibility standards.</span></span> <span data-ttu-id="3df03-113">Örneğin, yazı tipi boyutunu ve arka plan rengini özelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3df03-113">For example, you can customize the font size and background color.</span></span>
+
+<span data-ttu-id="3df03-114">Video oynatıcı modülü ikincil ses parçalarını da destekler.</span><span class="sxs-lookup"><span data-stu-id="3df03-114">The video player module also supports secondary audio tracks.</span></span> <span data-ttu-id="3df03-115">Bir video CMS'ye karşıya yüklendiğinde, ikincil bir ses parçası da karşıya yüklenebilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-115">When a video is uploaded to the CMS, a secondary audio track can also be uploaded.</span></span> <span data-ttu-id="3df03-116">Böylece, bir kullanıcı seçerse, video oynatıcı modülü ikincil ses kanalını yürütebilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-116">The video player module can then play the secondary audio track if a user selects it.</span></span>
+
+### <a name="examples-of-video-player-modules-in-e-commerce"></a><span data-ttu-id="3df03-117">E-ticaret'da video oynatıcı modülleri örnekleri</span><span class="sxs-lookup"><span data-stu-id="3df03-117">Examples of video player modules in e-Commerce</span></span>
+
+- <span data-ttu-id="3df03-118">Ürün Ayrıntıları sayfalarındaki veya pazarlama sayfalarındaki yönerge videoları</span><span class="sxs-lookup"><span data-stu-id="3df03-118">Instructional videos on product details pages or marketing pages</span></span>
+- <span data-ttu-id="3df03-119">Tüm pazarlama sayfaları üzerindeki ilkelerle ilgili videolar veya promosyon videoları</span><span class="sxs-lookup"><span data-stu-id="3df03-119">Promotional videos or videos about policies on any marketing page</span></span>
+- <span data-ttu-id="3df03-120">Ürün Ayrıntıları sayfalarındaki veya pazarlama sayfalarındaki ürün özelliklerini vurgulayan pazarlama videoları</span><span class="sxs-lookup"><span data-stu-id="3df03-120">Marketing videos that highlight product features on product details pages or marketing pages</span></span>
+
+<span data-ttu-id="3df03-121">Aşağıdaki resimde giriş sayfasında kullanılan bir video oynatıcı modülü örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="3df03-121">The following image shows an example of a video player module on a home page.</span></span>
+
+![Video oynatıcı modülü örneği](./media/ecommerce-videoplayer.PNG)
+
+### <a name="video-player-module-properties"></a><span data-ttu-id="3df03-123">Video oynatıcı modülü özellikleri</span><span class="sxs-lookup"><span data-stu-id="3df03-123">Video player module properties</span></span>
+
+| <span data-ttu-id="3df03-124">Özellik adı</span><span class="sxs-lookup"><span data-stu-id="3df03-124">Property name</span></span>         | <span data-ttu-id="3df03-125">Değer</span><span class="sxs-lookup"><span data-stu-id="3df03-125">Value</span></span>                               | <span data-ttu-id="3df03-126">Tanım</span><span class="sxs-lookup"><span data-stu-id="3df03-126">Description</span></span> |
+|-----------------------|-------------------------------------|-------------|
+| <span data-ttu-id="3df03-127">Otomatik Yürütme</span><span class="sxs-lookup"><span data-stu-id="3df03-127">Auto play</span></span>             | <span data-ttu-id="3df03-128">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-128">**True** or **False**</span></span>               | <span data-ttu-id="3df03-129">Değer **doğru** olarak ayarlandığında, video otomatik olarak yürütülür.</span><span class="sxs-lookup"><span data-stu-id="3df03-129">When the value is set to **True**, the video is automatically played.</span></span> |
+| <span data-ttu-id="3df03-130">Sesi Kapat</span><span class="sxs-lookup"><span data-stu-id="3df03-130">Mute</span></span>                  | <span data-ttu-id="3df03-131">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-131">**True** or **False**</span></span>               | <span data-ttu-id="3df03-132">Değer **doğru** olarak ayarlandığında, ses kapatılır.</span><span class="sxs-lookup"><span data-stu-id="3df03-132">When the value is set to **True**, the audio is muted.</span></span> <span data-ttu-id="3df03-133">Bu oynatıcı için varsayılan değer **yanlış**'tır.</span><span class="sxs-lookup"><span data-stu-id="3df03-133">For this player, the default value is **False**.</span></span> <span data-ttu-id="3df03-134">Chrome tarayıcıda, Otomatik yürütme videoları varsayılan olarak kapalı ve ses ancak videoyu el ile oynadığında yürütülür.</span><span class="sxs-lookup"><span data-stu-id="3df03-134">In the Chrome browser, autoplay videos are muted by default, and the audio is played only if the user manually plays the video.</span></span> |
+| <span data-ttu-id="3df03-135">Döngü</span><span class="sxs-lookup"><span data-stu-id="3df03-135">Loop</span></span>                  | <span data-ttu-id="3df03-136">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-136">**True** or **False**</span></span>               | <span data-ttu-id="3df03-137">Değer **doğru** olarak ayarlandığında, video döngü olarak tekrarlanır.</span><span class="sxs-lookup"><span data-stu-id="3df03-137">When the value is set to **True**, the video is repeated in a loop.</span></span> |
+| <span data-ttu-id="3df03-138">Ortam</span><span class="sxs-lookup"><span data-stu-id="3df03-138">Media</span></span>                 | <span data-ttu-id="3df03-139">Video dosya yolu ve adı.</span><span class="sxs-lookup"><span data-stu-id="3df03-139">Video file path and name</span></span> | <span data-ttu-id="3df03-140">Video oynatıcı tarafından oynanan video dosyası.</span><span class="sxs-lookup"><span data-stu-id="3df03-140">The video file that is played in the video player.</span></span> |
+| <span data-ttu-id="3df03-141">Tam ekran oynat</span><span class="sxs-lookup"><span data-stu-id="3df03-141">Play fullscreen</span></span>       | <span data-ttu-id="3df03-142">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-142">**True** or **False**</span></span>               | <span data-ttu-id="3df03-143">Değer **doğru** olarak ayarlandığında, video tam ekran modunda yürütülür.</span><span class="sxs-lookup"><span data-stu-id="3df03-143">When the value is set to **True**, the video is played in full-screen mode.</span></span> |
+| <span data-ttu-id="3df03-144">Oynat/duraklat tetikleyicisi</span><span class="sxs-lookup"><span data-stu-id="3df03-144">Play pause trigger</span></span>    | <span data-ttu-id="3df03-145">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-145">**True** or **False**</span></span>               | <span data-ttu-id="3df03-146">Değer **doğru** olarak ayarlandığında, videoda bir Oynat/Duraklat düğmesi görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="3df03-146">When the value is set to **True**, a play/pause button is shown on the video.</span></span> |
+| <span data-ttu-id="3df03-147">Video oynatıcı denetimleri</span><span class="sxs-lookup"><span data-stu-id="3df03-147">Video player controls</span></span> | <span data-ttu-id="3df03-148">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-148">**True** or **False**</span></span>               | <span data-ttu-id="3df03-149">Değer **Doğru** olarak ayarlandığında, tüm video oynatıcı denetimler gösterilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-149">When the value is set to **True**, all video player controls are shown.</span></span> <span data-ttu-id="3df03-150">Bu denetimler, oynat ve Duraklat düğmelerini, ilerleme göstergesini ve açıklamalı alt yazıları seçeneklerini içerir.</span><span class="sxs-lookup"><span data-stu-id="3df03-150">These controls include play and pause buttons, a progress indicator, and closed caption options.</span></span> |
+| <span data-ttu-id="3df03-151">Poster görüntüsünü gizle</span><span class="sxs-lookup"><span data-stu-id="3df03-151">Hide poster image</span></span>     | <span data-ttu-id="3df03-152">**Doğru** veya **yanlış**</span><span class="sxs-lookup"><span data-stu-id="3df03-152">**True** or **False**</span></span>               | <span data-ttu-id="3df03-153">Videoda poster karesi olabilir.</span><span class="sxs-lookup"><span data-stu-id="3df03-153">A video can have a poster frame.</span></span> <span data-ttu-id="3df03-154">Bu özelliğin değeri **doğru** olarak ayarlandığında, poster çerçevesi gizlenir.</span><span class="sxs-lookup"><span data-stu-id="3df03-154">When the value of this property is set to **True**, the poster frame is hidden.</span></span> |
+| <span data-ttu-id="3df03-155">Maske düzeyi</span><span class="sxs-lookup"><span data-stu-id="3df03-155">Mask level</span></span>            | <span data-ttu-id="3df03-156">**0** ile **100** arasında bir sayı</span><span class="sxs-lookup"><span data-stu-id="3df03-156">A number from **0** through **100**</span></span> | <span data-ttu-id="3df03-157">Stil oluşturma için videoya uygulanan maske.</span><span class="sxs-lookup"><span data-stu-id="3df03-157">The mask that is applied to the video for styling.</span></span> |
+
+## <a name="add-a-video-player-module-to-a-page"></a><span data-ttu-id="3df03-158">Sayfaya video oynatıcı modülü ekleme</span><span class="sxs-lookup"><span data-stu-id="3df03-158">Add a video player module to a page</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="3df03-159">Video oynatıcı modülü oluşturmadan önce, ortam kitaplığı 'na bir video yüklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="3df03-159">Before you create a video player module, you must first upload a video to the Media Library.</span></span>
+
+<span data-ttu-id="3df03-160">Bir yeni sayfaya video oynatma modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="3df03-160">To add a video player module to a new page and set the required properties, follow these steps.</span></span>
+
+1. <span data-ttu-id="3df03-161">Bir yeni şablonu oluşturmak için **Şablonlar**'a gidin ve **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-161">Go to **Templates**, and select **New** to create a new template.</span></span>
+1. <span data-ttu-id="3df03-162">**Yeni Şablon** iletişim kutusunda **Şablon adı** altında, **Video oynatıcı şablonu**'nu girin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-162">In the **New Template** dialog box, under **Template name**, enter **Video player template**, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-163">**Gövde** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-163">In the **Body** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="3df03-164">**Modül Ekle** iletişim kutusunda **Varsayılan sayfa** modülünü seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-164">In the **Add Module** dialog box, select the **Default Page** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-165">**Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-165">In the **Main** slot of the **Default Page** module, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="3df03-166">**Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-166">In the **Add Module** dialog box, select the **Container** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-167">**Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-167">In the **Container** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="3df03-168">**Modül Ekle** iletişim kutusunda **video oynatıcı** modülünü seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-168">In the **Add Module** dialog box, select the **Video player** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-169">**Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-169">Select **Save**, select **Finish editing** to check in the template, and then select **Publish** to publish it.</span></span> 
+1. <span data-ttu-id="3df03-170">**Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-170">Go to **Pages**, and select **New** to create a new page.</span></span>
+1. <span data-ttu-id="3df03-171">**Şablon seç** iletişim kutusunda, oluşturduğunuz video oynatıcı şablonunu seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-171">In the **Choose a template** dialog box, select the video player template that you created.</span></span> <span data-ttu-id="3df03-172">Bir **sayfa adı** ve sayfa **Video oynatcı sayfası** girin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-172">Under **Page name**, enter **Video player page**, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-173">Yeni sayfada **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-173">In the **Main** slot of the new page, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="3df03-174">**Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-174">In the **Add Module** dialog box, select the **Container** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-175">**Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-175">In the **Container** slot, select the ellipsis (**...**), and then select **Add Module**.</span></span>
+1. <span data-ttu-id="3df03-176">**Modül Ekle** iletişim kutusunda **video oynatıcı** modülünü seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-176">In the **Add Module** dialog box, select the **Video player** module, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-177">Video oynatıcı modülüyle ilgili Özellik bölmesinde **video Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-177">In the property pane of the video player module, select **Add a video**.</span></span>
+1. <span data-ttu-id="3df03-178">**Ortam Seçicisi** iletişim kutusunda bir video seçin ve sonra **yeni ortam öğesiniyükle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-178">In the **Media Picker** dialog box, select a video, and then select **Upload new media item**.</span></span>
+1. <span data-ttu-id="3df03-179">Dosya Gezgini'nde, bir video dosyası seçin ve sonra **Aç**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-179">In File Explorer, select a video file, and then select **Open**.</span></span>
+1. <span data-ttu-id="3df03-180">**Ortam öğesini karşıya yükle** iletişim kutusunda, gereken bir başlığı ve diğer bilgileri girin ve **Tamam** 'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-180">In the **Upload Media Item** dialog box, enter a title and other information as needed, and then select **OK**.</span></span>
+1. <span data-ttu-id="3df03-181">**Ortam Seçicisi** iletişim kutusunda **Kapat**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-181">In the **Media Picker** dialog box, select **Close**.</span></span>
+1. <span data-ttu-id="3df03-182">**Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-182">Select **Save**, and then select **Preview** to preview the page.</span></span> <span data-ttu-id="3df03-183">Sayfada video modülünü görmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="3df03-183">You should see the video module on the page.</span></span> <span data-ttu-id="3df03-184">Modülün davranışını özelleştirmek için ek ayarları değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3df03-184">You can change additional settings to customize the behavior of the module.</span></span>
+1. <span data-ttu-id="3df03-185">Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="3df03-185">Select **Finish editing** to check in the page, and then select **Publish** to publish it.</span></span> 
+
+## <a name="additional-resources"></a><span data-ttu-id="3df03-186">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="3df03-186">Additional resources</span></span>
+
+[<span data-ttu-id="3df03-187">Modül kitaplığına genel bakış</span><span class="sxs-lookup"><span data-stu-id="3df03-187">Module library overview</span></span>](starter-kit-overview.md)
+
+[<span data-ttu-id="3df03-188">Promosyon başlığı modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-188">Promo banner module</span></span>](add-alert.md)
+
+[<span data-ttu-id="3df03-189">Döngü modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-189">Carousel module</span></span>](add-carousel.md)
+
+[<span data-ttu-id="3df03-190">Metin bloğu modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-190">Text block module</span></span>](add-content-rich-block.md)
+
+[<span data-ttu-id="3df03-191">İçerik blok modülü</span><span class="sxs-lookup"><span data-stu-id="3df03-191">Content block module</span></span>](add-hero-module.md)
