@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018271"
+ms.locfileid: "4439675"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>PunchOut e-procurement için harici katalog ayarlama
 
@@ -86,7 +86,7 @@ Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
 ### <a name="extrinsic-elements"></a>İkincil öğeler
 
 İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, PunchOut işlemi gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
-Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda,  **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir.
+Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir.
 İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
 CXML protokolü hakkında daha fazla bilgi için bkz: [cXML.org websitesi](http://cxml.org/).
 

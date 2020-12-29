@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: d4ce0343ac766b30d532be0866a381dc520fd462
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977155"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448916"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Günlüklerde ertelenen vergi hesaplamasını etkinleştirme
 [!include [banner](../includes/banner.md)]

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018572"
+ms.locfileid: "4439721"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Satınalma siparişleri ile ilgili sorun giderme
 
@@ -118,7 +118,7 @@ Bu davranış tasarımdan kaynaklanır. Satınalma siparişlerinde, ürün her z
 
 ### <a name="issue-description"></a>Sorun açıklaması
 
-Bir üründe, örneğin, geçerlilik tarihi 11 Ocak 2018 ( *11.01.2018* ) ve sona erme tarihi *Hiçbir zaman* olan onaylanmış bir satıcı vardır. Geçerlilik tarihini 10 Ocak 2018 ( *10.01.2018* ) veya 12 Ocak 2018 ( *12.01.2018* ) olarak değiştirmeye çalışırsanız aşağıdaki hatayı alırsınız:
+Bir üründe, örneğin, geçerlilik tarihi 11 Ocak 2018 (*11.01.2018*) ve sona erme tarihi *Hiçbir zaman* olan onaylanmış bir satıcı vardır. Geçerlilik tarihini 10 Ocak 2018 (*10.01.2018*) veya 12 Ocak 2018 (*12.01.2018*) olarak değiştirmeye çalışırsanız aşağıdaki hatayı alırsınız:
 
 > Onaylanan tedarikçi listesinde (PdsApproveVendorList) bir kayıt oluşturulamıyor. "Geçerlilik süresi" değeri "Geçerli" değerinden büyük veya eşit olmalıdır.
 

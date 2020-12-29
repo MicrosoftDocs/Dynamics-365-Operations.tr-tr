@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3dbf08679c165258a4a4027bf1cf73484d9efd3
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899606"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448861"
 ---
 # <a name="letters-of-guarantee"></a>Teminat mektupları
 

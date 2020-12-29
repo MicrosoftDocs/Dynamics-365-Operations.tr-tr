@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154619"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448886"
 ---
 # <a name="set-up-depreciation-books"></a>Amortisman defterleri ayarlama 
 

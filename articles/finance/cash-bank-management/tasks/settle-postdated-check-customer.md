@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0bc6f90e7adb3facdfa1facb50fecb0de4ccb04d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448878"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Müşterinin ileri tarih atılmış çekini kapatma
 
@@ -29,7 +29,7 @@ ms.locfileid: "3141592"
 
 Çek, banka tarafından tahsil edildikten sonra vadeli çek kapatılabilir. Bu mali işlem ayrıca vadeli çek için köprü hesabı hareketini de kapatmaktadır. 
 
-Buna başlamadan önce aşağıdaki görevlerin tamamlanması gerekmektedir: 1) Vadeli çekleri hazırlayın 2) Bir müşteriye vadeli bir çeki kaydedin ve kayda alın.
+Buna başlamadan önce aşağıdaki görevlerin tamamlanması gerekmektedir.
 
 1) İleri tarih atılmış çekleri ayarlama
 

@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017057"
+ms.locfileid: "4439687"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemin yönlendirdiği iş sıralaması
 
@@ -47,7 +47,7 @@ Sistemin yönlendirdiği iş sıralamasını kullanabilmeniz için özelliğin s
 
 ### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, standart tanıtım verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz. Senaryo, tanıtım verilerinden ambar *51* 'i kullanır.
+Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, standart tanıtım verilerinin yüklenmiş olduğu bir sistemde çalışmanız gerekir. Ayrıca, **USMF** hukuk varlığını seçmelisiniz. Senaryo, tanıtım verilerinden ambar *51*'i kullanır.
 
 > [!IMPORTANT]
 > Siparişleri ambara serbest bırakmadan önce, çekme yerleşimlerinin siparişlerdeki tüm maddeler için yeterli stok içerdiğinden emin olun.
@@ -56,8 +56,8 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
 
 ### <a name="set-up-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi ayarlama
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri** 'ne gidin.
-1. Mobil cihaz menü öğeleri listesinde **Satış Malzeme Çekme – Sistem** 'i seçin. Gerekli menü öğesi zaten mevcut olmalıdır. 
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Mobil cihaz menü öğeleri listesinde **Satış Malzeme Çekme – Sistem**'i seçin. Gerekli menü öğesi zaten mevcut olmalıdır. 
 1. Şu ayarları onaylayın:
 
     - **Genel** hızlı sekmesinde **Yöneten** alanı *Sistem yönlendirmesinde* olarak ayarlanmalıdır.
@@ -68,20 +68,20 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
         | Satışlar | Satış siparişleri |
         | Satış Siparişi Çekme | Satış siparişleri |
 
-1. Eylem bölmesinde **Sistemin yönlendirdiği iş sıralaması sorguları** 'nı seçin.
+1. Eylem bölmesinde **Sistemin yönlendirdiği iş sıralaması sorguları**'nı seçin.
 1. **Düzenle** öğesini seçin.
-1. Mevcut satırı silin ve sonra **Evet** 'i seçerek eylemi onaylayın.
-1. Eylem bölmesinde, bir satır oluşturmak için **Yeni** 'yi seçin.
+1. Mevcut satırı silin ve sonra **Evet**'i seçerek eylemi onaylayın.
+1. Eylem bölmesinde, bir satır oluşturmak için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** *1*
     - **Açıklama alanı:** *20'den az iş miktarı ve Azalan*
 
-1. **Kaydet** 'i seçin.
-1. Eylem bölmesinde **Sorgu düzenle** 'yi seçin.
+1. **Kaydet**'i seçin.
+1. Eylem bölmesinde **Sorgu düzenle**'yi seçin.
 1. **Birleşimler** sekmesinde, **İş satırları** tablosunu göstermek için birleştirme hiyerarşisini genişletin.
 1. **İş satırları** tablo birleşimini seçin.
-1. **Tablo birleşimi ekle** 'yi seçin.
+1. **Tablo birleşimi ekle**'yi seçin.
 1. Görüntülenen listede, aşağıdaki ayarlara sahip satırı bulun ve seçin:
 
     - **Birleştirme modu:** *n:1*
@@ -91,12 +91,12 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
 
     Yerleşimler tablo birleşimine eklenir.
 
-1. **Sıralama** sekmesinde, satır eklemek için **Ekle** 'yi seçin.
+1. **Sıralama** sekmesinde, satır eklemek için **Ekle**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *İş satırları*
     - **Türetilen tablo:** *İş satırları*
-    - **Alan:** *İş miktarı* (Görünen ileti kutusunda, bu alana göre sıralama eklemek için **Evet** 'i seçin.)
+    - **Alan:** *İş miktarı* (Görünen ileti kutusunda, bu alana göre sıralama eklemek için **Evet**'i seçin.)
     - **Arama yönü:** *Azalan*
 
 1. **Aralık** sekmesini seçin.
@@ -105,7 +105,7 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
 
     Bazı satırların zaten dahil edildiğini unutmayın. Bu satırların kaldırılmaması gerekir.
 
-1. Bir satır eklemek için **Ekle** 'yi seçin.
+1. Bir satır eklemek için **Ekle**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *İş satırları*
@@ -113,7 +113,7 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
     - **Alan:** *Stok iş miktarı*
     - **Ölçüt:** *\<20* (20'den az)
 
-1. Bir satır daha eklemek için **Ekle** 'yi seçin.
+1. Bir satır daha eklemek için **Ekle**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *İş satırları*
@@ -121,7 +121,7 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
     - **Alan:** *İş türü*
     - **Ölçüt:** *Malzeme çekme*
 
-1. Bir satır daha eklemek için **Ekle** 'yi seçin.
+1. Bir satır daha eklemek için **Ekle**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *Yerleşimler*
@@ -130,10 +130,10 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
     - **Ölçüt:** *!STAGE*
 
         > [!IMPORTANT]
-        > *STAGE* 'in önüne ünlem işareti ( *!* ) eklemeyi unutmayın.
+        > *STAGE*'in önüne ünlem işareti (*!*) eklemeyi unutmayın.
 
-1. Sorguyu kaydedip kapatmak için **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin.
+1. Sorguyu kaydedip kapatmak için **Tamam**'ı seçin.
+1. **Kaydet**'i seçin.
 1. **Mobil cihaz menü öğeleri** sayfasına dönmek için sayfayı kapatın.
 
 > [!NOTE]
@@ -146,10 +146,10 @@ Bu konu altında sunulan değerleri kullanarak bu senaryoyla çalışmak için, 
 Varsayılan Contoso verilerini kullanıyorsanız, yerleşim yönergesi eyleminin sorgusu için değişiklik yapılması gerekmez. Ancak, özelliği Contoso dışı bir ortama uyguladığınızda yerleşim yönergelerinin satış siparişlerindeki maddeleri yakalayacağından emin olmak için yeni bir yerleşim yönergesi oluşturun. Tanıtım ortamındaki ayarları doğrulamak için aşağıdaki adımları izleyin.
 
 1. **Ambar Yönetimi** \> **Kurulum** \> **Konum yönergeleri** seçeneğine gidin.
-1. **İş siparişi türü** alanında *Satış siparişi* 'ni seçin.
+1. **İş siparişi türü** alanında *Satış siparişi*'ni seçin.
 1. *51 malzeme çekme* adlı yerleşim yönergesini seçin.
 1. **Yerleşim Yönergesi Eylemleri** hızlı sekmesinde, **Çek** eyleminin satırını seçin.
-1. Kılavuzun yukarısında **Sorguyu düzenle** 'yi seçin.
+1. Kılavuzun yukarısında **Sorguyu düzenle**'yi seçin.
 1. **Aralık** sorgusunu inceleyin.
 
     1. **Alan** alanının *Yerleşim* olarak ayarlandığı satırı bulun.
@@ -167,41 +167,41 @@ Bunun ardından, giden işi oluşturmak için her bir satış siparişini ambara
 
 #### <a name="sales-order-1"></a>Satış siparişi 1
 
-1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
-1. Eylem bölmesinde, satış siparişi 1'i oluşturmak için **Yeni** 'yi seçin.
+1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
+1. Eylem bölmesinde, satış siparişi 1'i oluşturmak için **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri** bölümünde, **Müşteri hesabı** alanını *ABD-004* olarak ayarlayın.
     - **Genel** bölümünde, **Ambar** alanını *51* yapın.
 
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin. Satış siparişi numarasını not edin.
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin. Satış siparişi numarasını not edin.
 1. Yeni satış siparişine bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9200*
     - **Miktar:** *20*
 
-1. Kılavuzun üzerindeki **stok** menüsünde **rezervasyon** 'yı seçin.
-1. **Rezervasyon** sayfasında stoku rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. Kılavuzun üzerindeki **stok** menüsünde **rezervasyon**'yı seçin.
+1. **Rezervasyon** sayfasında stoku rezerve etmek için **Lotu rezerve et**'i seçin.
 1. **Rezervasyon** sayfasını kapatın.
-1. Eylem bölmesindeki **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçerek ambar için iş oluşturun.
+1. Eylem bölmesindeki **Ambar** sekmesinde **Ambara serbest bırak**'ı seçerek ambar için iş oluşturun.
 
     Satış siparişi için oluşturulan dalga kimliğini ve sevkiyat kimliklerini gösteren bilgi iletileri alırsınız.
 
 #### <a name="sales-order-2"></a>Satış siparişi 2
 
-1. Eylem bölmesinde, satış siparişi 2'yi oluşturmak için **Yeni** 'yi seçin.
+1. Eylem bölmesinde, satış siparişi 2'yi oluşturmak için **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri hesabı:** *US-007*
     - **Ambar:** *51*
 
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin. Satış siparişi numarasını not edin.
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin. Satış siparişi numarasını not edin.
 1. Yeni satış siparişine bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9200*
     - **Miktar:** *5*
 
-1. **Satır ekle** 'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
+1. **Satır ekle**'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9201*
     - **Miktar:** *1*
@@ -211,19 +211,19 @@ Bunun ardından, giden işi oluşturmak için her bir satış siparişini ambara
 
 #### <a name="sales-order-3"></a>Satış siparişi 3
 
-1. Eylem bölmesinde, satış siparişi 3'ü oluşturmak için **Yeni** 'yi seçin.
+1. Eylem bölmesinde, satış siparişi 3'ü oluşturmak için **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri hesabı:** *US-009*
     - **Ambar:** *51*
 
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin. Satış siparişi numarasını not edin.
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin. Satış siparişi numarasını not edin.
 1. Yeni satış siparişine bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9200*
     - **Miktar:** *7*
 
-1. **Satır ekle** 'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
+1. **Satır ekle**'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9202*
     - **Miktar:** *8*
@@ -233,19 +233,19 @@ Bunun ardından, giden işi oluşturmak için her bir satış siparişini ambara
 
 #### <a name="sales-order-4"></a>Satış siparişi 4
 
-1. Eylem bölmesinde, satış siparişi 4'ü oluşturmak için **Yeni** 'yi seçin.
+1. Eylem bölmesinde, satış siparişi 4'ü oluşturmak için **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri hesabı:** *US-010*
     - **Ambar:** *51*
 
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin. Satış siparişi numarasını not edin.
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin. Satış siparişi numarasını not edin.
 1. Yeni satış siparişine bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9200*
     - **Miktar:** *25*
 
-1. **Satır ekle** 'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
+1. **Satır ekle**'yi seçerek ikinci bir satır ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9202*
     - **Miktar:** *10*
@@ -255,8 +255,8 @@ Bunun ardından, giden işi oluşturmak için her bir satış siparişini ambara
 
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Oluşturulan iş için iş kodlarını alma
 
-1. **Ambar yönetimi \> İş \> İş ayrıntıları** 'na gidin.
-1. Yalnızca ambar *51* 'in gösterilmesi için **Ambar** alanına filtre uygulayın.
+1. **Ambar yönetimi \> İş \> İş ayrıntıları**'na gidin.
+1. Yalnızca ambar *51*'in gösterilmesi için **Ambar** alanına filtre uygulayın.
 1. Dört iş kodu oluşturulması gerekir. Her satış siparişinin iş kodunu not edin.
 
     | Satış siparişi kodu | İş Kodu | İş miktarı |
@@ -268,7 +268,7 @@ Bunun ardından, giden işi oluşturmak için her bir satış siparişini ambara
 
 Akışı mobil cihazda çalıştırmadan önce, yalnızca yeni oluşturduğunuz işin ambar *51* için *Açık* durumda ve iş emri türünün *Satış siparişi* olduğundan emin olun. Aksi takdirde, sistem-doğrudan malzeme çekme işlemi tüm uygun işleri içereceği için, testin sonuçları farklılık gösterebilir.
 
-1. **Ambar yönetimi \> İş \> Giden \> Açık satış işi** 'ne gidin.
+1. **Ambar yönetimi \> İş \> Giden \> Açık satış işi**'ne gidin.
 1. **Açık satış işi** kılavuzunda, yalnızca ambar *51* için işin gösterilmesi için **Ambar** alanına filtre uygulayın.
 1. Yalnızca daha önce oluşturduğunuz dört iş kodunun gösterildiğini onaylayın.
 1. **İş** sayfasını kapatın.
@@ -281,8 +281,8 @@ Bu kurulumun, miktarın 20 beher'den az olduğu en az bir satır bulunan tüm i�
 
 #### <a name="mobile-app"></a>Mobil uygulama
 
-1. Ambar uygulamasında ambar *51* 'deki bir kullanıcı olarak oturum açın.
-1. **Giden \> Satış Malzeme Çekme - Sistem** 'e gidin.
+1. Ambar uygulamasında ambar *51*'deki bir kullanıcı olarak oturum açın.
+1. **Giden \> Satış Malzeme Çekme - Sistem**'e gidin.
 
     İş kodu *4* için malzeme çekme adımı sunulur. Sistemin yönlendirdiği sorgu siparişinin kurulumunda işin azalan iş satırı miktarına göre sıralanacağını belirttiğiniz için ilk olarak bu iş kodu sunulur.
 
@@ -300,7 +300,7 @@ Bu kurulumun, miktarın 20 beher'den az olduğu en az bir satır bulunan tüm i�
 
 ## <a name="tips"></a>İpuçları
 
-Sistemin yönlendirdiği iş sırası sorguları *dahildir*. Bu olguyu bazı kurulumlar için hatırlamanız önemlidir. Örneğin, belirli bir menü öğesinin yalnızca iş biriminin *beher* olduğu işleri işlemesini istiyor ve sorgunun **Aralık** sekmesinde bu kısıtlamayı belirtiyorsunuz. Bu durumda, en az bir iş satırının iş birimi *beher* olarak ayarlandığı tüm işler çalışana sunulur. Bu nedenle, bu iş, iş birimi *beher* 'den farklı ( *kutu* veya *palet* vb.) iş satırları olan işler de içerebilir. Sorgu yalnızca iş birimi *beher* olan iş satırı bulunmayan işleri hariç tutacaktır.
+Sistemin yönlendirdiği iş sırası sorguları *dahildir*. Bu olguyu bazı kurulumlar için hatırlamanız önemlidir. Örneğin, belirli bir menü öğesinin yalnızca iş biriminin *beher* olduğu işleri işlemesini istiyor ve sorgunun **Aralık** sekmesinde bu kısıtlamayı belirtiyorsunuz. Bu durumda, en az bir iş satırının iş birimi *beher* olarak ayarlandığı tüm işler çalışana sunulur. Bu nedenle, bu iş, iş birimi *beher*'den farklı (*kutu* veya *palet* vb.) iş satırları olan işler de içerebilir. Sorgu yalnızca iş birimi *beher* olan iş satırı bulunmayan işleri hariç tutacaktır.
 
 Bu nedenle, bu senaryodaki örnekte iş kodu *4* de sorgu tarafından yakalanmıştır. Oluşturulduğu zaman iki satır eklenmiştir: biri 25 beher, diğeri 10 beher için. En az bir iş satırı 20 beher'den az miktarda olduğu için, iş yine de kullanıcıya sunulmuştur.
 

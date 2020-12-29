@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976655"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448783"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Müşteriler için kredi yönetimi bilgileri ekleme
 
@@ -81,7 +81,7 @@ Her müşteri için bir veya daha fazla sigorta poliçesi ve garanti oluşturabi
 7. **Bitiş tarihi** alanına, sigorta poliçesinin veya garantinin bitiş tarihini  girin.
 8. **Değer** alanına, sigorta poliçesinin veya garantinin değerini girin. Bu değer, poliçenin tam değeridir.
 9. **Para birimi** alanında, poliçe değerinin para birimini seçin. 
-10. **Kredi limitini güncelleştir** alanında, **0** ile **100**arasında bir yüzde değeri belirtin. Bu yüzde değeri poliçe değerine uygulanır ve elde edilen sonuç, kredi limiti hesaplamalarında kullanılan kredi limitini artırmak için kullanılır. Hesaplanan değer, **Müşteriler** sayfasının **Alacak ve tahsilatlar** hızlı sekmesindeki **Toplam kredi limiti, Sigorta ve Garantiler** altında gösterilir.
+10. **Kredi limitini güncelleştir** alanında, **0** ile **100** arasında bir yüzde değeri belirtin. Bu yüzde değeri poliçe değerine uygulanır ve elde edilen sonuç, kredi limiti hesaplamalarında kullanılan kredi limitini artırmak için kullanılır. Hesaplanan değer, **Müşteriler** sayfasının **Alacak ve tahsilatlar** hızlı sekmesindeki **Toplam kredi limiti, Sigorta ve Garantiler** altında gösterilir.
 
     Aşağıda bir örnek verilmiştir:
 

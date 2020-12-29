@@ -4,7 +4,7 @@ description: Bu konu plaka kodları, dalga etiketi kodları, konteyner kodları 
 author: GarmMSFT
 manager: tfehr
 ms.date: 06/10/2020
-ms.topic: configure-number-sequence-extensions
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016137"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4439740"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Ambar akışları için numara serilerini yapılandırma
 
@@ -51,19 +51,19 @@ Bu işlev, kolilerin etiketlenmesini desteklemeyi ve sistem tarafından oluştur
 
 Sisteminizde numara serisi uzantıları ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri** 'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
 1. **Genel** sekmesinde, **GS1 şirket öneki** alanına şirketinizin GS1 önekini girin. Bu değer, GS1 önekinin bir segment olarak dahil edildiği tüm numara serilerini etkileyecektir.
 1. Dalga etiketleri için BOL numaraları oluşturmak istiyorsanız **Raporlar** sekmesinde **Dalga etiketleri yazdırılırken BOL numarası oluştur** onay kutusunu seçin.
 
     > [!NOTE]
     > Bu onay kutusu yalnızca [dalga etiketi yazdırma işlevi ](configure-wave-label-printing.md) etkinse kullanılabilir.
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Numarası serisi uzantıları** 'na gidin
-1. Eylem Bölmesinde **Varsayılan ayar oluştur** 'u seçin. GS1 uyumlu bir BOL numarası serisi ve üç tür SSCC numara serisi oluşturulur. Tüm bu numara serileri şirketinizin GS1 önekinin uzunluğu dikkate alır.
+1. **Ambar yönetimi** \> **Kurulum** \> **Numarası serisi uzantıları**'na gidin
+1. Eylem Bölmesinde **Varsayılan ayar oluştur**'u seçin. GS1 uyumlu bir BOL numarası serisi ve üç tür SSCC numara serisi oluşturulur. Tüm bu numara serileri şirketinizin GS1 önekinin uzunluğu dikkate alır.
 
     Bu varsayılan numara serilerini özelleştirme ve/veya yeni seriler ekleme hakkında daha fazla bilgi için, sonraki bölüme bakın. Ayrıca, ihtiyacınız yoksa bu dizilerinden herhangi birini kaldırabilirsiniz.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri** 'ne geri dönün.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne geri dönün.
 1. **Numara serileri** sekmesinde, plaka kodlarınız, dalga etiketi kodlarınız, konteyner kodlarınız (bu durumda, uygun **SSCC-18 numara** serisini seçin) ve/veya BOL kodlarınız (bu durumda, **BOL** serisini seçin) için numaralar oluşturmak üzere ilgili numara serisi uzantısını seçin. Varsayılan olarak, numara serisi uzantıları yalnızca bu dört kimlik türü için desteklenir.
 
 Bu numara serilerinden biri için daha sonra yeni bir numara oluşturulduğunda, yeni mantık kullanılacaktır.
@@ -77,18 +77,18 @@ Bu numara serilerinden biri için daha sonra yeni bir numara oluşturulduğunda,
 
 Numara serileri oluşturmak ve düzenlemek için aşağıdaki adımları izleyin.
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Numarası serisi uzantıları** 'na gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Ambar yönetimi** \> **Kurulum** \> **Numarası serisi uzantıları**'na gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Numara serisi uzantısı** alanında, yeni seri için bir ad girin. **Açıklama** alanına bir açıklama girin.
 1. **Segmentler** hızlı sekmesinde segment ekleyerek, silerek ve düzenleyerek numaralandırma biçiminizi birleştirmek için araç çubuğundaki düğmeleri kullanın. Her satırın **Segment** alanında, o segmentin amacını ve içeriğini tanımlamak için bir segment türü atayın. Aşağıdaki tabloda, kullanılabilecek segment türleri açıklanmıştır.
 
     | Segment türü | Tanım |
     |---|---|
     | Sabit | Bu segment türü, serideki her oluşturulan numara için aynı sabit metni ekler. **Değer** alanında, gerekli metni girin. **Uzunluk** alanı otomatik olarak **Değer** alanına girdiğiniz metnin uzunluğuna güncelleştirilir. |
-    | Numara serisi | **Değer** alanına, oluşturulan seride gösterilmesi gereken her karakter için bir sayı işareti ( *\#* ) girin. Numara serisinin kendisi daha uzun numaralar oluşturabilir ancak yalnızca en sağdaki karakterler gösterilecektir. **Uzunluk** alanı otomatik olarak **Değer** alanına girdiğiniz sayı işareti sayısına güncelleştirilir.<p>SSCC-18 numaraları için GS1 gereksinimlere uymak amacıyla bu segmentin uzunluğunun GS1 öneki uzunluğundan 16 eksik olduğundan emin olun.</p> |
+    | Numara serisi | **Değer** alanına, oluşturulan seride gösterilmesi gereken her karakter için bir sayı işareti (*\#*) girin. Numara serisinin kendisi daha uzun numaralar oluşturabilir ancak yalnızca en sağdaki karakterler gösterilecektir. **Uzunluk** alanı otomatik olarak **Değer** alanına girdiğiniz sayı işareti sayısına güncelleştirilir.<p>SSCC-18 numaraları için GS1 gereksinimlere uymak amacıyla bu segmentin uzunluğunun GS1 öneki uzunluğundan 16 eksik olduğundan emin olun.</p> |
     | GS1 öneki | Bu segment türü **Ambar yönetimi parametreleri** sayfasının **GS1 şirket öneki** alanında ayarlanan değeri ekler. **Değer** alanı, **Ambar yönetimi parametreleri sayfasında** ayarlanan değeri gösterir ve **Uzunluk** alanında değerin kaç karakter olduğu gösterilir. Hem **Değer** hem de **Uzunluk** alanı salt okunurdur. |
     | Uygulama tanımlayıcısı | **Değer** alanına, bu numara serisi türü içim ilgili GS1 ilkesinde belirtildiği şekilde bir uygulama tanımlayıcısı girin. Örneğin, SSCC için *00* veya BOL için *420* girin. **Uzunluk** alanı otomatik olarak **Değer** alanına girdiğiniz tanımlayıcının uzunluğuna güncelleştirilir. |
-    | Sevk türü | Açıkça tanımlanlabilecek maddeler için bu segment türü, ilgili birim seri grubundan ( **Birim seri grupları** sayfasından) bir alan değeri ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Çoklu stok tutma birimleri (STB) içeren plakalar için bu segment türü varsayılan olarak *0* (sıfır) değerini ekler. Bu segment türü için, **Değer** alanı her zaman *P* olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır.|
-    | Denetleme basamağı | Bu segment türü, modül 10 hesaplaması olan bir denetleme basamağı ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Bu segment türü için **Değer** alanı her zaman bir şapka işareti ( *^* ) olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır. |
+    | Sevk türü | Açıkça tanımlanlabilecek maddeler için bu segment türü, ilgili birim seri grubundan (**Birim seri grupları** sayfasından) bir alan değeri ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Çoklu stok tutma birimleri (STB) içeren plakalar için bu segment türü varsayılan olarak *0* (sıfır) değerini ekler. Bu segment türü için, **Değer** alanı her zaman *P* olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır.|
+    | Denetleme basamağı | Bu segment türü, modül 10 hesaplaması olan bir denetleme basamağı ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Bu segment türü için **Değer** alanı her zaman bir şapka işareti (*^*) olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır. |
 
 1. Nihai numara biçiminizin bir örneğini görüntülemek için, **Segmentler** hızlı sekmesinin alt kısmındaki **Biçim** alanını inceleyin.

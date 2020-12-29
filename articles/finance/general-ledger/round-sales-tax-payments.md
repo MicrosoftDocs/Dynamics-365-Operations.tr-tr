@@ -19,11 +19,11 @@ ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014971"
+ms.locfileid: "4448983"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
 
@@ -46,7 +46,7 @@ Tüzel kişilik bakiyeyi en yakın 1,00 değerine yuvarlayan bir yuvarlama yönt
 1. **Vergi** >  **Dolaylı vergiler** > **Satış vergisi** > **Satış vergisi dairesi** öğelerine tıklayın.
 2. **Genel** hızlı sekmesinde, **Yuvarlama formu** alanından **Normal** seçeneğini seçin.
 3. **Yuvarlama** alanına 1,00 girin.
-4. Satış vergisini vergi dairesine ödeme zamanı geldiğinde, **Veri** > **Beyannameler** > **Satış vergisi** > **Satış vergisini kapat ve deftere naklet** 'e gidin. Satış vergisi kapatma hesabındaki **98.765,43** tutarındaki vergi borcunun **98.765** 'e yuvarlandığını görebilirsiniz.
+4. Satış vergisini vergi dairesine ödeme zamanı geldiğinde, **Veri** > **Beyannameler** > **Satış vergisi** > **Satış vergisini kapat ve deftere naklet**'e gidin. Satış vergisi kapatma hesabındaki **98.765,43** tutarındaki vergi borcunun **98.765**'e yuvarlandığını görebilirsiniz.
 
 Aşağıdaki tabloda, 98.765,43 tutarının **Satış vergisi dairesi** sayfasındaki **Yuvarlama formu** alanında bulunan her yuvarlama yöntemi kullanılarak nasıl yuvarlandığı gösterilmektedir.
 
@@ -54,7 +54,7 @@ Aşağıdaki tabloda, 98.765,43 tutarının **Satış vergisi dairesi** sayfası
 > Yuvarlama değeri 0,00 olarak ayarlanmışsa,:
 >
 > - Normal yuvarlama için, yuvarlama davranışı **Yuvarla = 0,01** ile aynıdır.
-> - **Yuvarlama formu seçenekleri** **Aşağı doğru** , **Yukarı yuvarlama** ve **Kendi avantajı** için, davranış **Yuvarla = 1,00** ile aynıdır.
+> - **Yuvarlama formu seçenekleri** **Aşağı doğru**, **Yukarı yuvarlama** ve **Kendi avantajı** için, davranış **Yuvarla = 1,00** ile aynıdır.
 
 | Yuvarlama formu seçeneği                | Yuvarlama değeri = 0,01 | Yuvarlama değeri = 0,10 | Yuvarlama değeri = 1,00 | Yuvarlama değeri = 100,00 | Yuvarlama değeri = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017449"
+ms.locfileid: "4439654"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
 
@@ -34,11 +34,11 @@ Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam ambar yöneticis
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma
-1. Gezinti bölmesinde, **Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri** 'ne gidin.
-2. **Yeni** 'yi seçin.
+1. Gezinti bölmesinde, **Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri**'ne gidin.
+2. **Yeni**'yi seçin.
 3. **Menü öğesi adı** alanına bir değer girin. Bu, mobil cihaz menü öğesinin benzersiz tanımlayıcısıdır. Örneğin, `My PO registration` yazabilirsiniz.  
 4. **Başlık** alanına bir değer yazın. Bu, mobil cihazdaki kullanıcıda görüntülenen başlıktır. Örneğin, `PO registration` yazabilirsiniz.  
-5. **Mod** alanında, **İş** 'i seçin. Bir satınalma siparişi satırı için alınan eldeki miktarın kaydı ürünlerin alandan alınıp stoğa taşınması için iş oluşturur. Ürünler kaydedilene kadar iş oluşturulmaz. Bu nedenle, **Mevcut işi kullan** seçeneğini **Hayır** olarak bırakın.
+5. **Mod** alanında, **İş**'i seçin. Bir satınalma siparişi satırı için alınan eldeki miktarın kaydı ürünlerin alandan alınıp stoğa taşınması için iş oluşturur. Ürünler kaydedilene kadar iş oluşturulmaz. Bu nedenle, **Mevcut işi kullan** seçeneğini **Hayır** olarak bırakın.
 6. **Genel** bölümünün **İş oluşturma işlemi** alanında, **Satınalma siparişi ürün teslim alma** öğesini seçin.
     - Bir satınalma siparişi satırı, eldeki stok ambarda kaydedilmeden önce benzersiz bir şekilde tanımlanmalıdır. Bu senaryoda, mobil cihaz satın alma sipariş numarasını ve ürün numarası kaydeder ve böylece sistemin SAS satırını tanımlaması sağlanır. Yerine koyma işi oluşturulur ve malzeme başka bir çalışan tarafından çekilebilir. Seçtiğiniz iş oluşturma yöntemi, **Genel** hızlı sekmesinde hangi alanların kullanılabilir olacağını belirler.  
     - **Varsayılan verileri kullan** seçeneğini belirlerseniz, **Varsayılan veri** düğmesi etkinleştirilir. Burada, bir çalışanın bu değerlerin mobil cihazlarında görünmesi için günlük işlerinde ihtiyaç duydukları verileri görüntüleyeceği alanları seçebilirsiniz.  
@@ -48,15 +48,15 @@ Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam ambar yöneticis
     - Mobil cihazda değerlendirme kodu görüntülenirse, çalışanlar ürünlerin durumunu veya kalitesini değerlendirebilir ve uygun kodu seçebilir. Değerlendirme kodundaki kurallar ürünlerin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler. Kurallar oluşturulan iş için kullanılacak yerleşim yönergesini de belirler.   
     - **Toplu iş değerlendirme kodları** seçeneğini belirlerseniz, çalışanlar bir toplu işin durumunu veya kalitesini değerlendirebilir ve uygun değerlendirme kodunu seçebilir. Toplu iş değerlendirme kodunda belirlenen kurallar toplu işin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler.  
     - **Etiketleri yazdır** seçeneğini belirlerseniz, ürünler alındığında bir plaka etiketi otomatik olarak yazdırılır.  
-7. **Kaydet** 'i seçin.
+7. **Kaydet**'i seçin.
 8. Sayfayı kapatın.
 
 ## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Mobil cihaz menüsüne menü öğesi ekleme
-1. Gezinti bölmesinde, **Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri** 'ne gidin.
-2. **Ad** alanına bir `inbound` değeriyle filtre uygulamak için **Hızlı Filtre** 'yi kullanın.
+1. Gezinti bölmesinde, **Modüller > Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menü öğeleri**'ne gidin.
+2. **Ad** alanına bir `inbound` değeriyle filtre uygulamak için **Hızlı Filtre**'yi kullanın.
 3. **Düzenle** öğesini seçin.
 4. Kullanılabilir menüler ve öğeler ağacında önceden oluşturduğunuz bir menü öğesini seçin.
 5. Sağ tarafı gösteren oku seçin.
-6. **Kaydet** 'i seçin.
+6. **Kaydet**'i seçin.
 7. Sayfayı kapatın.
 

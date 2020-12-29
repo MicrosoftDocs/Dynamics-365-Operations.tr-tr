@@ -19,11 +19,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ea661441c6c810d144d423b054c1bef058cdd9d6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188246"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448802"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Merkezi ödemeler için kapatmaya genel bakış
 

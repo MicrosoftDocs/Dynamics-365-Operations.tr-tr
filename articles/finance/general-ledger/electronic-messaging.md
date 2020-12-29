@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977203"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448918"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 
@@ -322,7 +322,7 @@ Mesaj düzeyinde çalışıyorsanız, **Elektronik mesajlar** sayfası (**Vergi*
 - **Yeni** - Bu düğme, **Mesaj oluştur** türünün eylemleri ile ilişkilendirilmiştir.
 - **Sil** - Bu düğme, **Silmeye izin ver** onay kutusu seçili mesajın geçerli durumu için seçiliyse kullanılabilir olur.
 - **Veri topla** - Bu düğme, **Kayıtları doldur** türü eylemleriyle ilişkilendirilmiştir.
-- **Rapor oluştur** - Bu düğme, **Elektronik raporlama dışa aktarma mesajı**nın eylemleri ile ilişkilendirilmiştir.
+- **Rapor oluştur** - Bu düğme, **Elektronik raporlama dışa aktarma mesajı** nın eylemleri ile ilişkilendirilmiştir.
 - **Rapor gönder** - Bu düğme, **Web hizmeti** türünün eylemleri ile ilişkilendirilmiştir.
 - **Yanıt içe aktar** - Bu düğme, **Elektronik raporlama içe aktarma** türünün eylemleriyle ilişkilendirilmiştir.
 - **Güncelleştirme durumu** - Bu düğme, **Mesaj düzeyi kullanıcı işleme** türünün eylemleri ile ilişkilendirilmiştir.

@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016206"
+ms.locfileid: "4439663"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -55,7 +55,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 | Plaka sorgusu | Bir plakadaki madde miktarını ve plakanın konumunu görüntüleyin. |
 | Üretim emrini başlat | Bir üretim emri başlatın. |
 | Üretim ıskartası | Her üretim reçetesi satırı için üretimi sırasında oluşturulan hurda miktarını girin. |
-| Üretimdeki son palet | Son madde paletinin, bir üretim emrine yönelik olarak üretildiğini ve üretim emrinin durumunun **Tamamlandığı bildirildi** olarak güncellenmesi gerektiğini belirtin. Üretim sırasında tüketilmemiş olan hammaddelerin durumu **Malzeme çekildi** 'den tekrar **Siparişte** olarak değişir ve maddeler stoka geri iade edilebilir. |
+| Üretimdeki son palet | Son madde paletinin, bir üretim emrine yönelik olarak üretildiğini ve üretim emrinin durumunun **Tamamlandığı bildirildi** olarak güncellenmesi gerektiğini belirtin. Üretim sırasında tüketilmemiş olan hammaddelerin durumu **Malzeme çekildi**'den tekrar **Siparişte** olarak değişir ve maddeler stoka geri iade edilebilir. |
 | Madde sorgusu | Ambarda nerede olduğunu belirlemek için bir maddeyi taratın. Sorgu taranan maddeye yönelik tüm konum ve miktarları döndürür. |
 | Etiketi yeniden yazdır | Plaka etiketini yeniden yazdırın. |
 | Plaka yapısı | Aynı konumdaki birden fazla plakayı birleştirerek bir ana plaka oluşturun. Bu seçenek, birden fazla plakayı aynı anda taşırsanız kullanışlıdır. Üst plaka taşındıktan sonra, her bir plakadan maddeler almadan önce bir plaka bölme gerçekleştirmeniz gerekir. <p></p>**İpucu:** Bir üst plakayı taşımak için, hareketlere yönelik çalıştırma oluşturmak için yapılandırılmış bir mobil cihaz kullanmanız gerekir. |
@@ -65,7 +65,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 | Numara serisi önbelleğini temizle | Numara serisi numaralarını numara serisi önbelleğinden silin. Bu etkinlik genellikle mobil cihazlar kullanıldığında önbelleğe alma sorunları çözmek için bir sistem yöneticisi tarafından gerçekleştirilir. |
 | Toplu iş değerlendirmesini değiştir | Bir çalışanın bir madde veya toplu iş için bir toplu iş değerlendirme kodu belirlemesine izin verin. Bu seçim, toplu iş için belirtilen değerlendirme kodunu günceller. |
 | Açık iş listesini görüntüle | Belirli bir kullanıcı için kullanılabilir iş listesini gösterir. Kullanıcı bunun ardından gerçekleştirilecek işi seçebilir ve ona yönlendirilir. Bu liste, 7 inç veya daha geniş ekran boyutuna sahip tablet cihazlarda görüntülenmek üzere hazırlanmıştır. Bu seçeneği belirlediğinizde, **Sorguyu düzenle** ve **Alan listesi** menü öğeleri kullanılabilir olur. **Sorguyu düzenle** sayfası, listede görünen iş için ölçütleri ayarlamanıza imkan verir. **Alan listesi** sayfası, iş listesinde görüntülenecek alanları seçmenize olanak sağlar. Örneğin, görüntülenen alanların sayısını, kullanıcının en uygun iş öğesini daha hızlı seçebileceği şekilde azaltabilirsiniz. **Genel** FastTab'inde, **Sayfa başına kayıt** alanında, sayfa başına kaç iş kaydı gösterileceğini de seçebilirsiniz. **Kullanıcıların işi hareket türüne göre filtrelemesine izin ver** seçeneği belirlendiğinde, iş listesi, kullanıcının hareket türüne göre filtre kullanabileceği bir **İşi filtrele** denetimi içerecektir. İş listesinde, kullanıcılar yalnızca erişim iznine sahip oldukları işi görür. Kullanıcıların, erişebilmeleri gereken belirli iş sınıfı türlerini destekleyen kullanıcı yönlendirmeli bir veya daha fazla menü öğesi için izni olduğundan emin olmanız gerekir. İzinler, kullanıcı listeden iş yapmaya çalıştığında doğrulanır.|
-| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan ambar uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla** 'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
+| Plakadan transfer emri oluştur | Ambar çalışanlarının doğrudan ambar uygulamasından transfer emirleri oluşturmasına ve işlemesine olanak tanır. Ambar çalışanları, hedef ambarı seçerek başlar ve uygulamayı kullanarak bir veya daha fazla plaka tarayabilir. Ambar çalışanı **Siparişi tamamla**'yı seçtiğinde, bir toplu iş bu plakalar için kaydedilen eldeki stoğu temel alan gerekli transfer emri ve sipariş satırlarını oluşturur. Daha fazla bilgi için, bkz. [Ambar uygulamasından transfer emri oluşturma](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Başka bir iş veya sürece yönelik iş oluşturmak için menü öğelerini yapılandırma

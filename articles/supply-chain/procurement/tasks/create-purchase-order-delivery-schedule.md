@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018248"
+ms.locfileid: "4439695"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Teslimat planı olan satınalma siparişi oluşturma
 
@@ -31,24 +31,24 @@ Bu konu, satınalma siparişi için teslimat oluşturmayı göstermektedir. Tesl
 
 ## <a name="create-a-delivery-schedule"></a>Teslimat planı oluşturma
 1. Gezinti bölmesinde **Modüller > Tedarik ve kaynak atama > Satınalma siparişleri > Tüm satın alma siparişleri** öpesine gidin.
-2. Eylem Bölmesinde, **Yeni** 'yi seçin.
+2. Eylem Bölmesinde, **Yeni**'yi seçin.
 3. **Satıcı hesabı** alanına `US-101` girin.
-4. **Tamam** 'ı seçin.
+4. **Tamam**'ı seçin.
 5. **Madde numarası** alanına `M0001` girin.
 6. **Miktar** alanına `10` girin.
-7. **Satın alma siparişi satırı** 'nı seçin.
-8. **Satış teslimat planı** 'nı seçin.
+7. **Satın alma siparişi satırı**'nı seçin.
+8. **Satış teslimat planı**'nı seçin.
 - **Teslimat planı** sayfası, sipariş satırı toplam miktarının satıcıdan teslim edileceği sevkiyat sayısını belirtmenize olanak tanır.  
 - Varsayılan olarak, sistem orijinal satınalma satırının toplam miktarını ve diğer teslimat ayrıntılarını ilk teslimat planı satırına kopyalar. Bu örnekte iki sevkiyat planı oluşturacağız ve ikinci sevkiyatın tarihi, ilk sevkiyattan bir hafta sonra olacak.  
 9. **Miktar** alanında, miktarı `4` olarak değiştirin.
-10. **Yeni** 'yi seçin.
+10. **Yeni**'yi seçin.
 11. **Miktar** alanına, kalan miktar olarak `6` girin.
 - Teslimat tarihi alanında ilk teslimat satırındaki tarihten bir hafta sonraki tarihi seçin.  
 - **Toplam** ve **Kalan** alanlarına bakarak, teslimat planı satırlarına tahsis edilen toplam miktarı izleyebilirsiniz. Kalan miktar sıfır olduğunda, orijinal satırdan alınan tüm miktar plana tahsis edilmiştir.  
 12. **Gider dönüştürme** bölümünü genişletin.
-- Burada seçenekler, teslimat planı satırları üzerinden masrafları nasıl dağıtmak istediğinizi kontrol etmenize olanak tanır. **Brüt tutarları kopyala** 'yı seçerseniz her teslimat satırına orijinal sipariş satırındaki masraf tutarı kopyalanır. **Teslimat satırlarına tahsis et** seçeneği orijinal satırdaki masrafı her bir teslimat satırındaki miktara göre böler.  
+- Burada seçenekler, teslimat planı satırları üzerinden masrafları nasıl dağıtmak istediğinizi kontrol etmenize olanak tanır. **Brüt tutarları kopyala**'yı seçerseniz her teslimat satırına orijinal sipariş satırındaki masraf tutarı kopyalanır. **Teslimat satırlarına tahsis et** seçeneği orijinal satırdaki masrafı her bir teslimat satırındaki miktara göre böler.  
 13. **Gider dönüştürme** bölümünü daraltın.
-14. **Tamam** 'ı seçin.
+14. **Tamam**'ı seçin.
 - Teslimat planı siparişe artık uygulanmıştır.  
 - Ticari satırı olarak anılan orijinal sipariş satırı, birden fazla teslimatlı bir Siparişe dönüştürülmüştür. Farklı bir simgeyle işaretlenir ve teslimat satırları için başlık olarak işlev görür.  
 15. İki teslimat satırının ilki olan ikinci sipariş satırını seçin.
@@ -63,14 +63,14 @@ Teslimat satırlarında miktarı değiştirebilirsiniz. Bunu yaparsanız, ticari
 ## <a name="process-product-receipt-using-delivery-schedules"></a>Teslimat planlarını kullanarak ürün girişini işleyin
 Satınalma siparişi ürün girişi işlenmeden önce onaylanmalıdır. Bu örnekte giriş doğrudan satınalma siparişi üzerinden kaydedilir. Mallar ambara ulaştığında da giriş kaydedilmiş olur.  
 1. Eylem Bölmesinde, **Satınalma** öğesine tıklayın.
-2. **Onayla** 'yı seçin.
-3. Eylem Bölmesinde, **Teslim alma** 'yı seçin.
-4. **Ürün girişi** 'ni seçin. **Ürün girişi** alanına herhangi bir değer yazın.
+2. **Onayla**'yı seçin.
+3. Eylem Bölmesinde, **Teslim alma**'yı seçin.
+4. **Ürün girişi**'ni seçin. **Ürün girişi** alanına herhangi bir değer yazın.
 - Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
-- **Miktar** alanında, **Sipariş edilen miktar** 'ı seçin. Bu seçenek, sipariş satırlarının birlikte oluşturulduğu miktar için girişin işleneceği anlamına gelir.  
+- **Miktar** alanında, **Sipariş edilen miktar**'ı seçin. Bu seçenek, sipariş satırlarının birlikte oluşturulduğu miktar için girişin işleneceği anlamına gelir.  
 - **Ürün girişi yazdır** alanının **Hayır** olarak ayarlandığından emin olun. Bu örnekte, yazdırma gerekli değildir.  
 5. **Satırlar** bölümünü genişletin.
 - Ürün girişinin orijinal sipariş satırı değil iki teslimat satırı için oluşturulduğuna dikkat edin. Giriş ambarda kaydedilmişse teslimat planı satırlarında da kaydedilmiş olur.  
 6. **Satırlar** bölümünü daraltın.
-7. Girişi nakletmek için **Tamam** 'ı seçin.
+7. Girişi nakletmek için **Tamam**'ı seçin.
 

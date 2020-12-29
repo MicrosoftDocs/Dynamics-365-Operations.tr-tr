@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bd8ca2cbd24f326c4eaf9cd39e32de0eca81149d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018618"
+ms.locfileid: "4439726"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Satınalma siparişindeki malların girişini kaydetme
 
@@ -32,20 +32,20 @@ Bu konu, doğrudan bir satınalma siparişi üzerinde malların girişinin nası
 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>Malların girişi için yeni bir satınalma siparişi hazırlayın
 1. **Gezinti bölmesi > Modüller > Tedarik ve kaynak atama > Satınalma siparişleri > Tüm satınalma siparişleri** öğesine gidin.
-2. **Yeni** 'yi seçin.
+2. **Yeni**'yi seçin.
 3. **Satıcı hesabı** alanına `US-101` girin.
-4. **Tamam** 'ı seçin.
+4. **Tamam**'ı seçin.
 5. **Madde numarası** alanına `M0001` girin.
 6. **Miktar** alanına `5` girin.
 7. Eylem Bölmesinde, **Satınalma** öğesine tıklayın.
-8. **Onayla** 'yı seçin.
+8. **Onayla**'yı seçin.
 
 ## <a name="record-receipt-of-goods"></a>Mal girişini kaydetme
-1. Eylem Bölmesinde, **Teslim alma** 'yı seçin.
-2. **Ürün girişi** 'ni seçin. **Miktar** alanı almak istediğiniz miktar için farklı seçenekler seçmenize olanak sağlar. Örneğin, bir miktar daha önceden ambarda kaydedildiyse **Kayıtlı miktar** 'ı seçebilirsiniz. Bu örnek için **Sipariş edilen miktar** değerini kullanın.
+1. Eylem Bölmesinde, **Teslim alma**'yı seçin.
+2. **Ürün girişi**'ni seçin. **Miktar** alanı almak istediğiniz miktar için farklı seçenekler seçmenize olanak sağlar. Örneğin, bir miktar daha önceden ambarda kaydedildiyse **Kayıtlı miktar**'ı seçebilirsiniz. Bu örnek için **Sipariş edilen miktar** değerini kullanın.
 3. **Genel bakış** bölümünü genişletin.
 4. **Ürün girişi** alanına herhangi bir değer yazın. Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
 5. **Satırlar** bölümünü genişletin.
-6. **Miktar** 'ı '4' olarak ayarlayın. Burada, sipariş üzerindeki her bir satır için alınan miktarı el ile belirleyebilme imkanınız bulunur.  
-7. **Tamam** 'ı seçin. Mallar şimdi satınalma siparişinde alındı olarak kaydedilir ve bunu yansıtan belge olarak bir ürün giriş yevmiye defteri oluşturulur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını görmek için Ürün giriş etkinliğini kullanabilirsiniz.  
+6. **Miktar**'ı '4' olarak ayarlayın. Burada, sipariş üzerindeki her bir satır için alınan miktarı el ile belirleyebilme imkanınız bulunur.  
+7. **Tamam**'ı seçin. Mallar şimdi satınalma siparişinde alındı olarak kaydedilir ve bunu yansıtan belge olarak bir ürün giriş yevmiye defteri oluşturulur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını görmek için Ürün giriş etkinliğini kullanabilirsiniz.  
 

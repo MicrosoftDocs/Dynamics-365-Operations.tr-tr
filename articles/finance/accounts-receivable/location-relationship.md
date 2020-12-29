@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770908"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448843"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Konum ve taraf ilişkisi türlerini ekleme 
 

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000281"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4448974"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Sabit kıymet amortisman yöntemleri
 
@@ -31,7 +31,7 @@ ms.locfileid: "4000281"
 
 Bu konuda sabit kıymetlerin amortisman yöntemleri anlatılmıştır. Amortisman yöntemleri amortismanın, hem sabit kıymetin alındığı hem de sabit kıymetin elden çıkarıldığı yıl için ne zaman ve nasıl hesaplanacağını belirlemek için kullanılır.
 
-Amortisman yöntemleri sabit kıymet grup defteri kurulumuna atanabilir. Amortisman yöntemini görüntülemek veya atamak için, sabit kıymetlerin kurulum alanında **Sabit kıymet** gruplarını seçin. **Defterler** düğmesini seçin. Bu durumda, atanan amortisman yöntemleri sabit kıymet defterleri oluşturulurken varsayılan değer olarak kullanılır. Amortisman yöntemleri ayrı sabit kıymet defteri üzerinde de ayarlanabilir. Bunu gerçekleştirmek için sabit kıymetlerin kurulum alanında **Defterler** 'i seçin ve sonra **Sabit kıymet grupları** 'nı seçin.
+Amortisman yöntemleri sabit kıymet grup defteri kurulumuna atanabilir. Amortisman yöntemini görüntülemek veya atamak için, sabit kıymetlerin kurulum alanında **Sabit kıymet** gruplarını seçin. **Defterler** düğmesini seçin. Bu durumda, atanan amortisman yöntemleri sabit kıymet defterleri oluşturulurken varsayılan değer olarak kullanılır. Amortisman yöntemleri ayrı sabit kıymet defteri üzerinde de ayarlanabilir. Bunu gerçekleştirmek için sabit kıymetlerin kurulum alanında **Defterler**'i seçin ve sonra **Sabit kıymet grupları**'nı seçin.
 
 | Amortisman yöntemi   | Tanım |
 |---------------------------|-------------|

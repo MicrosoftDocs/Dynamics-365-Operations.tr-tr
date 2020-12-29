@@ -3,12 +3,12 @@ title: Ana oranları ayarlama
 description: Bu yordam, bir ana oran kurmayı göstermektedir.
 author: ShylaThompson
 manager: tfehr
-ms.date: 11/11/2016
+ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSRouteWorkbench, TMSRateMaster, TMSRateBaseType
+ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d71aa15f8cec532980f412ff1cb48e142c4cb1
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016482"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439760"
 ---
 # <a name="set-up-rate-masters"></a>Ana oranları ayarlama
 
@@ -30,58 +30,70 @@ ms.locfileid: "4016482"
 
 Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticisi, taşıyıcılar ile imzalanmış olan sözleşmelere bağlı olarak ana oranları ayarlar. Bu senaryoda bir hava taşıyıcısı için ana oran ayarlayacaksınız. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 
+## <a name="set-up-break-master"></a>Ana kırılımı ayarlama
+
+1. **Taşıma yönetimi > Kurulum > Derecelendirme > Ana kırılım** öğesine gidin. Kesme kalıpları, fiyatlandırma yapısını ve onun kırılma noktalarını tanımlamak için kullanılır. Fiyatlandırma yapısı, fiziksel boyutlara dayanan katmanlı fiyatlandırmalar kullanır.  
+1. **Yeni**'yi seçin.
+1. **Ana kırılım** alanına bir değer girin.
+1. **Ad** alanına bir değer girin.
+1. **Veri türü** alanında bir veri türü seçin.
+1. **Karşılaştırma** alanına, istenen karşılaştırma türünü (işleçler kullanarak) girin.
+1. **Kırılım birimi** alanında, kırılım birimini girin.
+1. **Ayrıntılar** bölümünde, fiyatlandırma yapısı için gerektiği kadar kırılım oluşturun.
+1. **Kaydet**'i seçin.
 
 ## <a name="set-up-rate-master"></a>Ana oranı ayarlayın
-1. Taşıma yönetimi > Kurulum > Derecelendirme > Ana oran öğesine gidin.
-2. Yeni'ye tıklayın.
-3. Ana oran alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Oran meta veri kimliği alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Bu oran asıl kullanarak TMS altyapısı tarafından beklenen meta verileri tanımlar gibi kuru master için gerekli veri derecelendirme meta veriler kimliği belirleyecektir.  
-6. Bu örnekte, P2P seçeneğini seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Kaydet'e tıklayın.
+
+1. **Taşıma yönetimi > Kurulum > Derecelendirme > Ana oran** öğesine gidin.
+1. **Yeni**'yi seçin.
+1. **Ana oran** alanına bir değer yazın.
+1. **Ad** alanına bir değer yazın.
+1. **Değerlendirme meta veri kimliği** alanında, aramayı açmak için açılır menü düğmesini seçin. Bu oran asıl kullanarak taşıma yönetimi altyapısı tarafından beklenen meta verileri tanımlar gibi kuru master için gerekli veri derecelendirme meta veriler kimliği belirleyecektir.  
+1. Bu örnekte, P2P seçeneğini seçin. Bu, demo verilerinde zaten tanımlanmıştır.
+1. Listeden, seçilen satırdaki bağlantıyı seçin.
+1. **Kaydet**'i seçin.
 
 ## <a name="set-up-rate-base"></a>Oran tabanını ayarla
-1. Taban türü oranı'na tıklayın.
+
+1. **Oran tabanı**'nı seçin.
     * Taban oranı, taşıyıcının oranını belirler ve gümrük tarifesi yapısı oluşturmada, kesme kalıplarında belirtilen kesme noktalarındaki oranları yapılandırdığı için kullanılabilir.  
-2. Yeni'ye tıklayın.
-3. Taban türü oranı alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Ana mola alanında, aramayı açmak için açılır menü düğmesine tıklayın.
+2. **Yeni**'yi seçin.
+3. **Oran tabanı** alanına bir değer yazın.
+4. **Ad** alanına bir değer yazın.
+5. **Ana kırılım** alanında, aramayı açmak için açılır menü düğmesini seçin.
     * Kesme kalıpları, fiyatlandırma yapısını ve onun kırılma noktalarını tanımlamak için kullanılır. Fiyatlandırma yapısı, fiziksel boyutlara dayanan katmanlı fiyatlandırmalar kullanır.  
-6. Bu örnek için ağırlık kullanın.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Ayrıntılar bölümünün genişletilmiş görünümüne geçin.
-9. Yeni'yi tıklatın.
-10. Teslim posta kodu kaynağı alanında, '30301' yazın.
-11. Giden posta kodu bırakma alanında, '30318' yazın.
-12. Teslimat ülkesi bölgesi alanına 'ABD' yazın.
-13. <1,00 Lbs alanında '100' yazın.
+6. Bu örnek için ağırlık değerini kullanın. Bu, demo verilerinde zaten tanımlanmıştır.
+7. Listeden, vurgulanan satırdaki bağlantıyı seçin.
+8. **Ayrıntılar** bölümünü genişletin.
+9. **Yeni**'yi seçin.
+10. **Teslimat Posta Kodu Kaynağı** alanına, "30301" yazın.
+11. **Teslimat Posta Kodu Hedefi** alanına, "30318" yazın.
+12. **Teslimat ülkesi bölgesi** alanına "ABD" yazın.
+13. **<1,00 Lbs** alanına "100" yazın.
     * Yükün toplam ağırlığı 1 libreden az ise lbs başına ücret girin.  
-14. < 5,00 Lbs alanında, '300' yazın.
+14. **<5,00 Lbs** alanına "300" yazın.
     * Yükün toplam ağırlığı 5 libreden az ise lbs başına ücret girin.  
-15. < 20,00 Lbs alanında, '500' yazın.
+15. **<20,00 Lbs** alanına "500" yazın.
     * Yükün toplam ağırlığı 20 libreden az ise lbs başına ücret girin.  
-16. < 100,00 Lbs alanında, '1000' yazın.
+16. **<100,00 Lbs** alanına "1000" yazın.
     * Yükün toplam ağırlığı 100 libreden az ise lbs başına ücret girin.  
-17. < 1.000,00 Lbs alanında, '3000' yazın.
+17. **<1.000,00 Lbs** alanına "3000" yazın.
     * Yükün toplam ağırlığı 1000 libreden az ise lbs başına ücret girin.  
-18. Kaydet'e tıklayın.
+18. **Kaydet**'i seçin.
 19. Sayfayı kapatın.
 
 ## <a name="assign-rate-base"></a>Oran tabanı atama
-1. Taban oranı atamaları bölümünün genişletilmiş görünümüne geçin.
-2. Yeni'ye tıklayın.
-    * Her ana oran için birden fazla oran tabanı atamanız olabilir. Bu hedeflere, hizmetlere veya farklı taba oranlarına bağlı olarak her taşıyıcı için birkaç farklı fiyat noktaları oluşturmaya olanak sağlar. Bu yordamda sadece bir oranı tabanı ataması oluşturacaksınız.  
-3. İsim alanına bir değer yazın.
-4. Taban oranı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Hizmet alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-7. Listede, istenen kaydı bulun ve seçin.
-8. Listede, seçili satırdaki bağlantıya tıklayın.
-9. Çekme posta kodu alanına '98052' yazın.
-    * Bu oran tabanı atamasının hangi posta kodundan itibaren geçerli olacağını belirtin.    
-10. Çekme Ülke Bölge alanında 'USA' yazın.
-11. Kaydet'e tıklayın.
 
+1. **Oran tabanı atamaları** bölümünü genişletin.
+2. **Yeni**'yi seçin.
+    * Her ana oran için birden fazla oran tabanı atamanız olabilir. Bu hedeflere, hizmetlere veya farklı taba oranlarına bağlı olarak her taşıyıcı için birkaç farklı fiyat noktaları oluşturmaya olanak sağlar. Bu yordamda sadece bir oranı tabanı ataması oluşturacaksınız.  
+3. **Ad** alanına bir değer yazın.
+4. **Oran tabanı** alanında, aramayı açmak için açılır menü düğmesini seçin.
+5. Listeden, vurgulanan satırdaki bağlantıyı seçin.
+6. **Servis** alanında, aramayı açmak için açılır menü düğmesini seçin.
+7. Listede, istenen kaydı bulun ve seçin.
+8. Listeden, vurgulanan satırdaki bağlantıyı seçin.
+9. **Çekme Posta Kodu** alanına "98052" yazın.
+    * Bu oran tabanı atamasının hangi posta kodundan itibaren geçerli olacağını belirtin.
+10. **Çekme Ülke Bölgesi** alanında "ABD" yazın.
+11. **Kaydet**'i seçin.

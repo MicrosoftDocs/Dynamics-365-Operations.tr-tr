@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975352"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449033"
 ---
 # <a name="customer-transactions-list-page"></a>Müşteri hareketleri listesi sayfası
 
@@ -39,7 +39,7 @@ Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine
 
 4. İletişim kutusunda çeşitli görevleri gerçekleştirebilirsiniz. Bir veya daha fazla fiş seçin ve aşağıdaki düğmelerden birini seçin:
 
-    - **İlgilileri göster** - Tüm ödeme günlüğü hareketleri ve genel günlük hareketlerini, müşteri için liste içinde oluşturuldukları günlüklerde müşteriler için göster. Örneğin, bir ödeme gösterilirse, ödeme günlüğündeki oluşturulmuş ödemelerin tamamı gösterilecektir. Bir fatura veya ödeme gösterilirse ve genel günlükte oluşturulmuşsa, oluşturulan genel günlükteki tüm belgeler gösterilecektir. Belge listeleriyle ilişkili tüm kapatmalar da görüntülenir. Siz ilgili ödemeleri görüntülerken, bu düğmenin etiketi **Kapatmaları görüntüle** olarak değişir. **Kapatmaları görüntüle**'yi, **Kapatmaları Görüntüle** iletişim kutusunu yalnızca ilk açtığınızda gösterilen hareketleri göstermek için seçin.
+    - **İlgilileri göster**: Listede gösterilen belgelerin oluşturulduğu günlüklerde oluşturulan tüm ödeme günlüğü hareketlerini ve genel günlük hareketlerini müşteri için göster. Örneğin, bir ödeme gösterilirse, ödeme günlüğündeki oluşturulmuş ödemelerin tamamı gösterilecektir. Bir fatura veya ödeme gösterilirse ve genel günlükte oluşturulmuşsa, oluşturulan genel günlükteki tüm belgeler gösterilecektir. Belge listeleriyle ilişkili tüm kapatmalar da görüntülenir. Siz ilgili ödemeleri görüntülerken, bu düğmenin etiketi **Kapatmaları görüntüle** olarak değişir. **Kapatmaları görüntüle**'yi, **Kapatmaları Görüntüle** iletişim kutusunu yalnızca ilk açtığınızda gösterilen hareketleri göstermek için seçin.
     - **Geçmişi görüntüle** - Tüm fişler için kapatma geçmişini göster. İletişim kutusunu kapatmak için **Kapat**'ı seçin.
     - **Muhasebeyi görüntüle**: Seçili belgelerle ilgili tüm fişlerin tamamı gösterilir. İletişim kutusunu kapatmak için **Kapat**'ı seçin.
     - **Dışa aktar** - Seçili fişleri Microsoft Excel'e aktarın.
@@ -48,7 +48,7 @@ Eylem Bölmesindeki **Kapatmaları görüntüle** düğmesi, kapatma geçmişine
 
 ## <a name="global-transactions"></a>Genel hareketler
 
-**Genel hareketler** düğmesi **Müşteri hareketleri** liste sayfasında da görünür. Bu düğme, bir müşteri için tüm tüzel kişiliklerdeki tüm işlemleri görmenizi sağlar. **Müşteri hareketleri** listesi sayfası, yalnızca kullanıcının erişimi olan tüzel varlıklardaki işlemleri, onun güvenlik ayarlarına dayalı olarak gösterir.
+**Genel hareketler** düğmesi **Müşteri hareketleri** liste sayfasında da görünür. Bu düğme, bir müşteri için tüm tüzel kişiliklerdeki tüm işlemleri görmenizi sağlar. **Müşteri hareketleri** listesi sayfası, yalnızca kullanıcının erişimi olan tüzel kişiliklerdeki işlemleri, onların güvenlik ayarlarına dayalı olarak gösterir.
 
 Liste sayfası, başlatmış olduğunuz kullanıcıyla aynı taraf kimliğine sahip kullanıcılar için tüm hareketleri gösterir. Örneğin, bir tüzel varlıktaki müşteri US-001, başka bir tüzel varlıktaki müşteri DE-001 ile aynı taraf kimliğine sahipse, her iki müşteri kimliği için olan hareketler de gösterilir.
 

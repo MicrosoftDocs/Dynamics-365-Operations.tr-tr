@@ -4,7 +4,7 @@ description: Bu konu, dalga etiketi yazdırma özelliğini ve bunu nasıl ayarla
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016988"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4439739"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Dalga etiketi yazdırmayı ayarlama ve kullanma
 
@@ -75,14 +75,14 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 Dalga etiketi yazdırma yöntemini kullanılabilir hale getirmek için dalga işlemi yöntemlerini yeniden oluşturmanız gerekebilir.
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri** 'ne gidin.
-1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret** 'i seçin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
+1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret**'i seçin.
 
 ### <a name="configure-a-wave-template"></a>Dalga şablonu yapılandırma
 
 Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şablonuna bağlayabilmenizi sağlar.
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 1. **62 Sevkiyat Varsayılanı** gibi bir şablon seçin.
 1. **Yöntemler** hızlı sekmesinde, **Dalga etiketi yazdırma** yöntemini **Seçili yöntemler** sütununa taşıyın.
 1. **Seçili Yöntemler** sütununda, **Dalga etiketi yazdırma** yöntemini seçin ve **Dalga adımı kodu** alanını *PrintLabel* olarak ayarlayın. Dalga adım kodları hakkında daha fazla bilgi için bkz. [Dalga adımı kodları](wave-step-codes.md).
@@ -97,8 +97,8 @@ Etiket düzeni, etiket üzerine hangi bilgilerin basıldığını ve bunun nası
     - **Etiket düzeni kodu:** *Koli*
     - **Açıklama:** *Koli (SSCC)*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi satır ayarları** 'nı seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi satır ayarları**'nı seçin.
 
     **Dalga etiketi satır ayarları** sayfası görüntülenir. Burada, etiketin dinamik parçasını yapılandırabilirsiniz.
 
@@ -122,7 +122,7 @@ Etiket düzeni, etiket üzerine hangi bilgilerin basıldığını ve bunun nası
         > Bu kurulum, dalga etiketleri tablosundaki her kayıt için ayrı bir ZPL etiketinin yazdırılmasına neden olur.
 
 1. Sayfayı kapatın.
-1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -134,7 +134,7 @@ Etiket düzeni, etiket üzerine hangi bilgilerin basıldığını ve bunun nası
 
 1. Konşimento kodunu yazdırabilmek istiyorsanız, **Birleşimler** sekmesinde **İş satırları** tablosunu seçin ve **Sevkiyatlar** tablosunu bu tabloya birleştirin.
 1. Sorgu düzenleyicisi iletişim kutusunu kapatın.
-1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü** , **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
+1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü**, **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -218,7 +218,7 @@ Dalga etiketi türleri, dalga etiketi şablonlarını birim dizi grubu satırlar
 
 Sonra, dalga etiketi türü için birim sırası grubunu ayarlayın.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri\> Birim sırası grubu** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri\> Birim sırası grubu**'na gidin.
 1. **Ea Kutu PL** grubunu seçin.
 1. **Kutu** satırı için **Dalga düzeyi türü** alanını *Koli* olarak ayarlayın.
 
@@ -241,17 +241,17 @@ Sonra, dalga etiketi türü için dalga etiketi şablonunu oluşturun.
     - **Yazıcı adı:** Uygun bir ZPL yazıcı seçin.
     - **Sorguyu çalıştır:** *Evet* (Bu ayar isteğe bağlıdır, ancak en iyi performans için önerilir.)
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle** 'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle**'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *Sevkiyatlar*
     - **Türetilmiş tablo:** *Sevkiyatlar*
     - **Alan:** *Hesap numarası*
     - **Ölçüt:** İlgili müşteri hesap numarasını girin.
 
-    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle** 'yi seçin.
+1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Tasnif** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -259,10 +259,10 @@ Sonra, dalga etiketi türü için dalga etiketi şablonunu oluşturun.
     - **Alan:** *Referans yükleme satırı kodu (Kayıt kodu)*
     - **Arama yönü:** *Artan*
 
-1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi şablon grubu** 'nu seçin.
-1. **Dalga etiketi şablon grubu** iletişim kutusunda, **Referans alan adı** alanının *Referans yük satırı kodu* 'na ayarlandığı satırı seçin ve sonra bu satır için **Etiket derleme kodu** onay kutusunu seçin.
+1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi şablon grubu**'nu seçin.
+1. **Dalga etiketi şablon grubu** iletişim kutusunda, **Referans alan adı** alanının *Referans yük satırı kodu*'na ayarlandığı satırı seçin ve sonra bu satır için **Etiket derleme kodu** onay kutusunu seçin.
 
     > [!NOTE]
     > Bu kurulum, iş gruplandırma kurulumu ne olursa olsun, dalga boyunca her yükleme satırı için bir etiket sırası ("Koli 1/X") oluşturacaktır. Bu etiket sırası etiket düzeninde yazdırılabilir.
@@ -273,7 +273,7 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Satış siparişi oluşturma ve ambara serbest bırakma
 
-1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri** 'ne gidin.
+1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri**'ne gidin.
 1. Aşağıdaki ayarlara sahip bir satış siparişi oluşturun:
 
     - **Müşteri hesabı:** *US-001*
@@ -294,12 +294,12 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
         - **Birim:** *ea* (9016 ea = 322 Kutu = 46 PL)
 
     > [!NOTE]
-    > Burada sunulan maddeler ve miktarlar yalnızca örnektir. Bunlar için daha önce tanımladığınız birim sırası grubunu kullanmaları, bunlar için *ea* 'dan *kutu* 'ya *PL* 'ye uygun birim dönüşümlerinin tanımlanması ambar *62* 'de stokta bulunmaları gerekir. Daha fazla bilgi için, bkz. [Ölçü birimi ve stoklama ilkeleri](unit-measure-stocking-policies.md).
+    > Burada sunulan maddeler ve miktarlar yalnızca örnektir. Bunlar için daha önce tanımladığınız birim sırası grubunu kullanmaları, bunlar için *ea*'dan *kutu*'ya *PL*'ye uygun birim dönüşümlerinin tanımlanması ambar *62*'de stokta bulunmaları gerekir. Daha fazla bilgi için, bkz. [Ölçü birimi ve stoklama ilkeleri](unit-measure-stocking-policies.md).
 
-1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar** 'ı seçin.
-1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et** 'i seçin ve ardından sayfayı kapatın.
+1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar**'ı seçin.
+1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et**'i seçin ve ardından sayfayı kapatın.
 1. Satış siparişi satırı 2 için 4 ve 5 numaralı adımları yineleyin.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
 
     Aşağıdaki olaylar gerçekleşir:
 
@@ -307,7 +307,7 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
     - Dalga etiketleri oluşturulur ve yazdırılır. Etiket sayısı koli sayısına eşit olacaktır (bu örnekte, satır 1 için 376 Kutu etiketi ve satır 2 için 322 kutu etiketi).
     - Sevk irsaliyeleri için yeni bir konşimento kodu oluşturulur. Numara serisi uzantılarını yapılandırdıysanız, dalga etiketi kodları **SSCC-18** numara biçimini izler. 
 
-Dalga etiketlerini aşağıdaki sayfalardan görüntüleyebilir ve yeniden yazdırabilirsiniz. Her sayfanın Eylem Bölmesinde **Sevkiyatlar** sekmesindeki **İlgili bilgiler** grubunda **Dalga etiketleri** 'ni seçin.
+Dalga etiketlerini aşağıdaki sayfalardan görüntüleyebilir ve yeniden yazdırabilirsiniz. Her sayfanın Eylem Bölmesinde **Sevkiyatlar** sekmesindeki **İlgili bilgiler** grubunda **Dalga etiketleri**'ni seçin.
 
 - Tüm sevkiyatlar \> Sevkiyat ayrıntıları
 - Tüm yükler \> Yük ayrıntıları
@@ -336,14 +336,14 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 Dalga etiketi yazdırma yöntemini kullanılabilir hale getirmek için dalga işlemi yöntemlerini yeniden oluşturmanız gerekebilir.
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri** 'ne gidin.
-1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret** 'i seçin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
+1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret**'i seçin.
 
 ### <a name="set-up-a-wave-template"></a>Dalga şablonu ayarlama
 
 Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şablonuna bağlayabilmenizi sağlar.
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 1. **63 Konteyner Kullanımı** gibi bir şablon seçin.
 1. **Yöntemler** hızlı sekmesinde, **Dalga etiketi yazdırma** yöntemini **Seçili yöntemler** sütununa taşıyın.
 1. **Seçili Yöntemler** sütununda, **Dalga etiketi yazdırma** yöntemini seçin ve **Dalga adımı kodu** alanını *PrintLabel* olarak ayarlayın. Dalga adım kodları hakkında daha fazla bilgi için bkz. [Dalga adımı kodları](wave-step-codes.md).
@@ -356,8 +356,8 @@ Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şa
     - **Etiket düzeni kodu:** *Koli*
     - **Açıklama:** *Koli (SSCC)*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi satır ayarları** 'nı seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi satır ayarları**'nı seçin.
 
     **Dalga etiketi satır ayarları** sayfası görüntülenir. Burada, etiketin dinamik parçasını yapılandırabilirsiniz.
 
@@ -381,7 +381,7 @@ Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şa
         > Bu ayar her iş için her bir sayfada en fazla beş iş satırı bulunan birkaç ZPL etiketi yazdırır. Örneğin, 12 satırı bulunan bir konteyner için etiket yazdırılıyorsa, üç etiket yazdırılacaktır. Her bir çekme satırı için ayrı bir etiket yazdırmak istiyorsanız, bu değeri *1* olarak ayarlayın.
 
 1. Sayfayı kapatın.
-1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -391,7 +391,7 @@ Dalga şablonları, belirli dalga yöntemi örneklerini ilgili dalga etiketi şa
 
 1. Konşimento kodunu yazdırabilmek istiyorsanız, **Birleşimler** sekmesinde **İş satırları** tablosunu seçin ve **Sevkiyatlar** tablosunu bu tabloya birleştirin.
 1. Sorgu düzenleyicisi iletişim kutusunu kapatın.
-1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü** , **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
+1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü**, **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -443,15 +443,15 @@ Etiketiniz şimdi kullanıma hazır.
     - **Yazıcı adı:** Uygun bir ZPL yazıcı seçin.
     - **Sorguyu çalıştır:** *Evet* (Bu ayar isteğe bağlıdır, ancak en iyi performans için önerilir.)
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle** 'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle**'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *Sevkiyatlar*
     - **Türetilmiş tablo:** *Sevkiyatlar*
     - **Alan:** *Hesap numarası*
     - **Ölçüt:** İlgili müşteri hesap numarasını girin.
 
-    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
 ### <a name="configure-number-sequence-extensions"></a>Numara serisi uzantıları yapılandırma
 
@@ -459,7 +459,7 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Satış siparişi oluşturma ve ambara serbest bırakma
 
-1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri** 'ne gidin.
+1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri**'ne gidin.
 1. Aşağıdaki ayarlara sahip bir satış siparişi oluşturun:
 
     - **Müşteri hesabı:** *US-001*
@@ -495,17 +495,17 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
     > [!NOTE]
     > Burada sunulan maddeler ve miktarlar yalnızca örnektir. Bunlar belirtilen ambarda stokta bulunmalıdır.
 
-1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar** 'ı seçin.
-1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et** 'i seçin ve ardından sayfayı kapatın.
+1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar**'ı seçin.
+1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et**'i seçin ve ardından sayfayı kapatın.
 1. Eklenen her satış siparişi satırı için 4 ve 5 numaralı adımları yineleyin.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
 
     Aşağıdaki olaylar gerçekleşir:
 
     - Sistem, oluşturulan sevkiyatı etiket yazdırma adımını içeren şablonu kullanarak işler. Etiket düzeni, etiketin biçimini tanımlamak için kullanılır ve sonuç etiket şablonunda seçilen yazıcıda yazdırılan ve beş satırı bulunan bir etiket olacaktır.
     - Sevk irsaliyeleri için yeni bir konşimento kodu oluşturulur. Numara serisi uzantılarını yapılandırdıysanız, dalga etiketi kodları **SSCC-18** numara biçimini izler. 
 
-**Ambar Yönetimi \> Sorgular ve raporlar \> Dalga etiketi geçmişi** 'ne giderek bu dalga etiketlerini yeniden yazdırabilirsiniz.
+**Ambar Yönetimi \> Sorgular ve raporlar \> Dalga etiketi geçmişi**'ne giderek bu dalga etiketlerini yeniden yazdırabilirsiniz.
 
 ## <a name="scenario-3-wave-label-printing-for-multi-tiered-labels"></a>Senaryo 3: Çok katmanlı etiketler için dalga etiketi yazdırma
 
@@ -525,13 +525,13 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 ### <a name="set-up-a-wave-process-method"></a>Dalga işlemi yöntemi ayarlama
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri** 'ne gidin.
-1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret** 'i seçin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga işleme yöntemleri**'ne gidin.
+1. **waveLabelPrinting** öğesinin listede olduğunu onaylayın. Seçili değilse, eklemek Için eylem bölmesindeki **Yöntemleri yeniden üret**'i seçin.
 1. **waveLabelPrinting** yöntemi için **Yöntemi yinelenebilir yap** onay kutusunu seçin.
 
 ### <a name="set-up-a-wave-template"></a>Dalga şablonu ayarlama
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 2. **62 Sevkiyat Varsayılanı** gibi bir şablon seçin.
 3. **Yöntemler** hızlı sekmesinde, **Dalga etiketi yazdırma** yöntemini **Seçili yöntemler** sütununa taşıyın.
 4. **Seçili yöntemler** sütununda, **Dalga etiketi yazdırma** yöntemine *Koli* gibi bir **Dalga adımı kodu** değeri atayın. Dalga adım kodları hakkında daha fazla bilgi için bkz. [Dalga adımı kodları](wave-step-codes.md).
@@ -546,8 +546,8 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Etiket düzeni kodu:** *Koli*
     - **Açıklama:** *Koli (SSCC)*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi satır ayarları** 'nı seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi satır ayarları**'nı seçin.
 
     **Dalga etiketi satır ayarları** sayfası görüntülenir. Burada, etiketin dinamik parçasını yapılandırabilirsiniz.
 
@@ -571,7 +571,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
         > Bu kurulum, dalga etiketleri tablosundaki her kayıt için ayrı bir ZPL etiketinin yazdırılmasına neden olur.
 
 1. Sayfayı kapatın.
-1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -583,7 +583,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 1. Konşimento kodunu yazdırabilmek istiyorsanız, **Birleşimler** sekmesinde **İş satırları** tablosunu seçin ve **Sevkiyatlar** tablosunu bu tabloya birleştirin. 
 1. Sorgu düzenleyicisi iletişim kutusunu kapatın.
-1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü** , **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
+1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü**, **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
 
 
     ```plaintext
@@ -658,8 +658,8 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Etiket düzeni kodu:** *Palet*
     - **Açıklama:** *Palet*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi satır ayarları** 'nı seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi satır ayarları**'nı seçin.
 
     **Dalga etiketi satır ayarları** sayfası görüntülenir. Burada, etiketin dinamik parçasını yapılandırabilirsiniz.
 
@@ -683,7 +683,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
         > Bu kurulum, dalga etiketleri tablosundaki her kayıt için ayrı bir ZPL etiketinin yazdırılmasına neden olur.
 
 1. Sayfayı kapatın.
-1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -695,7 +695,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 1. Konşimento kodunu yazdırabilmek istiyorsanız, **Birleşimler** sekmesinde **İş satırları** tablosunu seçin ve **Sevkiyatlar** tablosunu bu tabloya birleştirin.
 1. Sorgu düzenleyicisi iletişim kutusunu kapatın.
-1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü** , **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
+1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü**, **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait kodu girin. Örneğin, Zebra yazıcılar kullanıyorsanız, aşağıdaki kodu kullanabilirsiniz.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -732,8 +732,8 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Etiket düzeni kodu:** *Kesme*
     - **Açıklama:** *Kesme etiketi*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü** , **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait ZPL kodunu girin. Aşağıda bir örnek verilmiştir.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. **Yazıcı metin düzeni** hızlı sekmesinde, yazıcı kodunu yazabileceğiniz üç bölüm vardır: **Üstbilgi bölümü**, **Gövde bölümü** ve **Altbilgi bölümü**. **Üstbilgi bölümü** bölümünde, **Etiket başlığı** alanına gereken başlığa ait ZPL kodunu girin. Aşağıda bir örnek verilmiştir.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -768,7 +768,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
 
 ### <a name="set-up-unit-sequence-groups"></a>Birim sıra gruplarını ayarla
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri\> Birim sırası grubu** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri\> Birim sırası grubu**'na gidin.
 1. **Ea Kutu PL** grubu seçin veya oluşturun.
 1. **Kutu** satırı için **Dalga düzeyi türü** alanını *Koli* olarak ayarlayın.
 1. **PL** satırı için **Dalga düzeyi türü** alanını *Palet* olarak ayarlayın.
@@ -790,17 +790,17 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Yazıcı adı:** Uygun bir ZPL yazıcı seçin.
     - **Sorguyu çalıştır:** *Evet* (Bu ayar isteğe bağlıdır, ancak en iyi performans için önerilir.)
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle** 'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle**'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *Sevkiyatlar*
     - **Türetilmiş tablo:** *Sevkiyatlar*
     - **Alan:** *Hesap numarası*
     - **Ölçüt:** İlgili müşteri hesap numarasını girin.
 
-    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle** 'yi seçin.
+1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Tasnif** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -815,9 +815,9 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Alan:** *Sevkiyat kodu*
     - **Arama yönü:** *Artan*
 
-1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi şablon grubu** 'nu seçin.
+1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi şablon grubu**'nu seçin.
 1. **Dalga etiketi şablon grubu** iletişim kutusunda, **Referans alan adı** alanının *Sevkiyat kodu* olarak ayarlandığı satır için aşağıdaki değerleri ayarlayın:
 
     - **Kesme etiketi yazdır:** Bu onay kutusunu seçin.
@@ -829,7 +829,7 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     > [!NOTE]
     > Bu kurulum, iş gruplandırma kurulumu ne olursa olsun, dalga boyunca her yükleme satırı için bir etiket sırası ("Koli 1/X") oluşturacaktır. Bu etiket sırası etiket düzeninde yazdırılabilir. Ek olarak, farklı sevkiyatların etiketleri seçili kesme etiketiyle ayrılacaktır.
 
-1. **Dlga etiketi şablon grubu** iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+1. **Dlga etiketi şablon grubu** iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 1. Aşağıdaki ayarlara sahip ikinci bir etiket şablonu oluşturun:
 
     - **Etiket şablonu adı:** *Palet etiketleri*
@@ -844,17 +844,17 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Yazıcı adı:** Uygun bir ZPL yazıcı seçin.
     - **Sorguyu çalıştır:** *Evet* (Bu ayar isteğe bağlıdır, ancak en iyi performans için önerilir.)
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
-1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle** 'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
+1. Eylem bölmesinde, **Kaydet**'i seçin.
+1. İsteğe bağlı: Müşteriye özel etiket tasarımını ayarlıyorsanız, müşterinin hesabını bulmak için bir sorgu oluşturmanız gerekir. **Dalga etiketi şablonu ayrıntıları** hızlı sekmesinde, **Sorguyu düzenle**'yi seçin. Ardından, sorgu düzenleyicisi iletişim kutusunda **Aralık** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *Sevkiyatlar*
     - **Türetilmiş tablo:** *Sevkiyatlar*
     - **Alan:** *Hesap numarası*
     - **Ölçüt:** İlgili müşteri hesap numarasını girin.
 
-    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin. 
+    Bitirdiğinizde sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin. 
 
-1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle** 'yi seçin.
+1. Eylem Bölmesinde, tam etiket şablonu için sorgu düzenleyicisi iletişim kutusunu açmak için **Sorguyu düzenle**'yi seçin.
 1. Sorgu düzenleyicisi iletişim kutusunda **Tasnif** sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Tablo:** *İş satırları*
@@ -869,9 +869,9 @@ Bu senaryoyu izlemek için, demo verilerinin yüklenmiş olması ve **USMF** tü
     - **Alan:** *Sevkiyat kodu*
     - **Arama yönü:** *Artan*
 
-1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve** 'i seçin.
-1. Eylem bölmesinde, **Dalga etiketi şablon grubu** 'nu seçin.
+1. Sorgu düzenleyicisi iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Bir ileti kutusu, gruplandırma sıfırlama işlemini onaylamanızı ister. Devam etmek için **Eve**'i seçin.
+1. Eylem bölmesinde, **Dalga etiketi şablon grubu**'nu seçin.
 1. **Dalga etiketi şablon grubu** iletişim kutusunda, **Referans alan adı** alanının *Sevkiyat kodu* olarak ayarlandığı satır için aşağıdaki değerleri ayarlayın:
 
     - **Kesme etiketi yazdır:** Bu onay kutusunu seçin.
@@ -889,7 +889,7 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Satış siparişi oluşturma ve ambara serbest bırakma
 
-1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri** 'ne gidin.
+1. **Satış ve pazarlama \> Satış siparişi \> Tüm satış siparişleri**'ne gidin.
 1. Aşağıdaki ayarlara sahip bir satış siparişi oluşturun:
 
     - **Müşteri hesabı:** *US-001*
@@ -910,12 +910,12 @@ Numara serisi uzantıları, belirli numara serilerinin GS1 uyumluluğunu denetle
         - **Birim:** *ea* (9016 ea = 322 Kutu = 46 PL)
 
     > [!NOTE]
-    > Burada sunulan maddeler ve miktarlar yalnızca örnektir. Bunlar için daha önce tanımladığınız birim sırası grubunu kullanmaları, bunlar için *ea* 'dan *kutu* 'ya *PL* 'ye uygun birim dönüşümlerinin tanımlanması ambar *62* 'de stokta bulunmaları gerekir. Daha fazla bilgi için, bkz. [Ölçü birimi ve stoklama ilkeleri](unit-measure-stocking-policies.md).
+    > Burada sunulan maddeler ve miktarlar yalnızca örnektir. Bunlar için daha önce tanımladığınız birim sırası grubunu kullanmaları, bunlar için *ea*'dan *kutu*'ya *PL*'ye uygun birim dönüşümlerinin tanımlanması ambar *62*'de stokta bulunmaları gerekir. Daha fazla bilgi için, bkz. [Ölçü birimi ve stoklama ilkeleri](unit-measure-stocking-policies.md).
 
-1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar** 'ı seçin.
-1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et** 'i seçin ve ardından sayfayı kapatın.
+1. Satış siparişi satırı 1'i seçin. Ardından, **Satış siparişi satırı** bölümünde **Stok** menüsünde **Rezervasyonlar**'ı seçin.
+1. **Rezervasyon** sayfasında, Eylem Bölmesi'nde **Lotu rezerve et**'i seçin ve ardından sayfayı kapatın.
 1. Satış siparişi satırı 2 için 4 ve 5 numaralı adımları yineleyin.
-1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin.
+1. Eylem bölmesinde, **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin.
 
     Aşağıdaki olaylar gerçekleşir: 
 
@@ -931,4 +931,4 @@ Dalga etiketlerini aşağıdaki sayfalardan görüntüleyebilir ve yeniden yazd�
 - Dalga etiketleri
 - Dalga etiketi geçmişi
 
-Bu sayfaların çoğu için, Eylem bölmesindeki **Sevkiyatlar** sekmesinde yer alan **İlgili bilgi** grubunda **Dalga etiketleri** 'ni seçerek ilgili işlevi bulabilirsiniz.
+Bu sayfaların çoğu için, Eylem bölmesindeki **Sevkiyatlar** sekmesinde yer alan **İlgili bilgi** grubunda **Dalga etiketleri**'ni seçerek ilgili işlevi bulabilirsiniz.

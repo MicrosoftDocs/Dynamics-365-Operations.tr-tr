@@ -18,11 +18,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016320"
+ms.locfileid: "4439661"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 
@@ -47,7 +47,7 @@ Transfer emirleri ve satış siparişleri için yerine getirme ilkeleri şirket 
 
 -   Transfer emirleri ve satış siparişleri için yerine getirme ilkeleri oluşturmak için **Ambar yönetim** \> **Kurulum** \> **Ambara serbest bırakma** \> **Yerine getire ilkesi** üzerine tıklayın ve bir ad ve açıklama girerek bir yerine getirme ilkesi oluşturun.
 
--   Yerine getirme oranını, bir değer türünü ve yerine getirme ilkesi ihlal edilirse gösterilecek mesajı belirtmek için **Ambar yönetimi** \> **Kurulum** \> **Ambara serbest bırak** \> **Yerine getirme ilkesi** üzerine tıklayın ve sonra **Yerine getirme oranı** , **Değer türü** ve **Yerine getirme ihlal mesajı** alanlarını ayarlayın.
+-   Yerine getirme oranını, bir değer türünü ve yerine getirme ilkesi ihlal edilirse gösterilecek mesajı belirtmek için **Ambar yönetimi** \> **Kurulum** \> **Ambara serbest bırak** \> **Yerine getirme ilkesi** üzerine tıklayın ve sonra **Yerine getirme oranı**, **Değer türü** ve **Yerine getirme ihlal mesajı** alanlarını ayarlayın.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Transfer emirleri ve satış siparişleri için yerine getirilme ilkelerini ayarlayın
 

@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018710"
+ms.locfileid: "4439697"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Satış siparişinden satınalma siparişi oluşturma
 
@@ -31,20 +31,20 @@ Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturula
 
 
 ## <a name="create-a-purchase-order-from-a-sales-order"></a>Satış siparişinden satınalma siparişi oluşturma
-1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Satış siperişler > Tüm satış siparişleri** 'ne gidin.
-2. **Yeni** 'ye tıklayın.
+1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Satış siperişler > Tüm satış siparişleri**'ne gidin.
+2. **Yeni**'ye tıklayın.
 3. **Müşteri hesabı** alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.
 4. Listede, istenen kaydı bulun ve seçin.
-5. **Tamam** 'a tıklayın.
+5. **Tamam**'a tıklayın.
 6. **Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 7. Listede, istenen kaydı bulun ve seçin. USMF kullanıyorsanız, D0001 öğesini seçebilirsiniz.  
 8. **Miktar** alanına bir sayı girin.
-9. **Satır ekle** 'ye tıklayın.
+9. **Satır ekle**'ye tıklayın.
 10. **Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 11. Listede, istenen kaydı bulun ve seçin. USMF kullanıyorsanız, T0020 öğesini seçebilirsiniz.  
 12. Listede, seçili satırdaki bağlantıya tıklayın.
 13. **Miktar** alanına bir sayı girin.
-14. **Kaydet** 'e tıklayın.
+14. **Kaydet**'e tıklayın.
 15. **Eylem Bölmesinde** **Satış siparişi** öğesine tıklayın.
 16. **Satınalma siparişi** öğesine tıklayın. **Satınalma siparişi oluştur** sayfası, satış siparişinden kopyalanmış tüm açık satış siparişi satırlarını listeler. Sipariş ayrıntılarını gözden geçirebilir ve gerekiyorsa satınalma oluşturmadan önce satınalma miktarı ve fiyatlandırma koşulları gibi seçilen ayrıntıları değiştirebilirsiniz. 
 17. **Tümünü dahil et** seçeneğini seçin.
@@ -57,15 +57,15 @@ Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturula
 22. **Satıcı hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.
 23. Listede, istenen kaydı bulun ve seçin.
 24. Listede, seçili satırdaki bağlantıya tıklayın.
-25. **Doğrula** 'ya tıklayın.
-26. **Tamam** 'a tıklayın. İleti, bir veya daha fazla satınalma siparişinin oluşturulduğunu bildirir. Sistem, satış siparişi satırları için belirlenmiş her satıcıya ait ayrı bir satınalma siparişi oluşturur. Başka bir deyişle, aynı satıcı tarafından birden fazla satış siparişi satırı sağlanırsa, birden fazla satıra sahip tek bir satınalma siparişi oluşturulur.  
+25. **Doğrula**'ya tıklayın.
+26. **Tamam**'a tıklayın. İleti, bir veya daha fazla satınalma siparişinin oluşturulduğunu bildirir. Sistem, satış siparişi satırları için belirlenmiş her satıcıya ait ayrı bir satınalma siparişi oluşturur. Başka bir deyişle, aynı satıcı tarafından birden fazla satış siparişi satırı sağlanırsa, birden fazla satıra sahip tek bir satınalma siparişi oluşturulur.  
 
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Satış siparişlerinden oluşturulan satınalma siparişlerini gözden geçirin.
-1. **Eylem Bölmesi** 'nde, **Genel** öğesine tıklayın.
+1. **Eylem Bölmesi**'nde, **Genel** öğesine tıklayın.
 2. **İlgili siparişler** öğesine tıklayın. **İlgili siparişler** sayfası, satış siparişinden oluşturulan tüm siparişleri listeler. Bu örnekte, sırasıyla iki farklı satıcı için oluşturulan iki satınalma siparişi vardır. 
-3. **Satınalma siparişi** alanındaki bağlantıyı izlemek için tıklayın. Her satınalma siparişi satırı, satın almaya yol açan satış siparişi satırıyla ilişkilendirilmiştir. Satış siparişinin ilişkisi **Satır ayrıntıları** Hızlı Sekmesindeki **Ürün** sekmesinde **Referans türü** , **Referans numarası** ve **Referans lotu** alanlarında belirtilir.  
+3. **Satınalma siparişi** alanındaki bağlantıyı izlemek için tıklayın. Her satınalma siparişi satırı, satın almaya yol açan satış siparişi satırıyla ilişkilendirilmiştir. Satış siparişinin ilişkisi **Satır ayrıntıları** Hızlı Sekmesindeki **Ürün** sekmesinde **Referans türü**, **Referans numarası** ve **Referans lotu** alanlarında belirtilir.  
 4. **Satır ayrıntıları** bölümünü genişletin veya daraltın.
 5. **Ürün** sekmesine tıklayın.
-    - **Referans lotu** , geçerli satınalmadan kaynaklanan maliyetlerin eklenmiş satış siparişine uygulanacağını garanti eder.  
+    - **Referans lotu**, geçerli satınalmadan kaynaklanan maliyetlerin eklenmiş satış siparişine uygulanacağını garanti eder.  
     - **Referans numarası** alanındaki bağlantıyı açarak kaynak satış siparişine gidebilirsiniz.  
 

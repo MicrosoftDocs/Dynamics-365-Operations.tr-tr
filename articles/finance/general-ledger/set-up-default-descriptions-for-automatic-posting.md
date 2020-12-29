@@ -18,11 +18,11 @@ ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117373"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448645"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Otomatik deftere nakil için varsayılan açıklamalar ayarlama
 

@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
-ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "3106871"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448749"
 ---
 # <a name="process-collection-letters"></a>Tahsilat mektuplarını işleme
 
@@ -53,7 +53,7 @@ Bu konu, tahsilat mektuplarının nasıl oluşturulacağını, yazdırılacağı
 
 ## <a name="print-collection-letters"></a>Tahsilat mektuplarını yazdırma
 1. **Gezinti bölmesi > Modüller > Alacak ve tahsilatlar> Tahsilat mektubu > Tahsilat mektuplarını gözden geçir ve işle**'ye gidin.
-2. **Durum** alanında, **Oluşturuldu**yu seçin.
+2. **Durum** alanında, **Oluşturuldu** yu seçin.
 3. **Yazdırıldı** alanında, **Yazdırılmadı**'yı seçin.
 4. **Yazdır**'ı seçin.
 5. **Tahsilat mektubu dekontu**'nu seçin.

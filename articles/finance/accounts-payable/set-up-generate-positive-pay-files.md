@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
-ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295258"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448762"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları ayarlama ve oluşturma
 

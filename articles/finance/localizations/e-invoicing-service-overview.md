@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039758"
+ms.locfileid: "4448990"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Elektronik faturalama eklentisine genel bakış
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448682"
 ---
 # <a name="correct-a-free-text-invoice"></a>Bir serbest metin faturasını düzeltmek
 
@@ -44,7 +44,7 @@ Düzeltilmiş Fatura'yı deftere naklettikten sonra üç faturanız olacaktır:
 İptal etme ve düzeltme faturalarını iki şekilde tanımlayabilirsiniz:
 
 -   **Tüm serbest metin faturaları** sayfası bir **Düzeltme** sütunu içerir, burada hangi faturaların iptal faturası ve düzeltme faturası olduğunu görebilirsiniz.
--   Dekont/Serbest metin faturası başlığı **İptal Faturası '\[fatura numarası]\]'** veya **Düzeltilmiş Fatura '\[fatura numarası\]'** durumunu gösterir.
+-   Dekont/Serbest metin faturası başlığı **İptal Faturası '\[fatura numarası\]'** veya **Düzeltilmiş Fatura '\[fatura numarası\]'** durumunu gösterir.
 
 > [!NOTE]
 > Bu özellik sadece **Serbest metin fatura düzeltmesi** konfigürasyon anahtarı seçiliyse kullanılabilir. Yapılandırma anahtarlarının nasıl etkinleştirileceği hakkında daha fazla bilgi için [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) konusundaki YApılandırma anahtarlarını Etkinleştir (veya Devre Dışı Bırak) bölümüne bakın. 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189005"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448713"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Bir vade farkı kodu için vade farkı oranları ayarlama
 
@@ -55,7 +55,7 @@ Belirli bir yüzdeyi hesaplayan vade farkı oranlarını ayarlayabilirsiniz
 Belirli bir para birimine göre tutarı hesaplayan vade farkı oranlarını ayarlayabilirsiniz
 - Vade farkı kodu içindeki her para birimi için vade farkı tutarı belirtilir.
 - İsteğe bağlı vade farkı tutar limitleri girilebilir.
-- **Vade farkı kodlarını ayarla** sayfasındaki **Vade farklarının dayanağı**alanındaki **Tutar**seçilidir.
+- **Vade farkı kodlarını ayarla** sayfasındaki **Vade farklarının dayanağı** alanındaki **Tutar** seçilidir.
 
 Örneğin, fatura ödemesinin hareket vade tarihini geçtiği her 20 gün için yüzde 25,00 vade farkı koyan vade farkı kodunu ayarlamak için **Her biri için faiz hesapla** alanında 20 girer ve **Gün**'ü seçersiniz.
 

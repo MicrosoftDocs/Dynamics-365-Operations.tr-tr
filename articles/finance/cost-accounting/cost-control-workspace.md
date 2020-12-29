@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38dc261a74eea9e45036961fdfecea1465b238de
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977707"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449037"
 ---
 # <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı 
 
@@ -83,7 +83,7 @@ Sütunlarda seçilen değerler **Mali dönem başına sütun** hızlı sekmesi �
 | Geçerli dönem       | Geçerli mali dönemin bakiyesi gösterilir.<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer daha sonra geçerli dönemi temsil eder.</blockquote> |
 | Önceki dönem      | Önceki mali dönemin bakiyesi gösterilir. Aşağıdaki formül kullanılır:<br>Geçerli mali dönem – 1<blockquote>[!NOTE]<br>Varsayılan olarak önceki dönem, oturum tarihinden türetilir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem geçerli dönem olarak seçilebilir. **Önceki dönem** daha sonra uygun şekilde yeniden hesaplanır.</blockquote> |
 | Bir yıllık         | Yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>YearToDate (Geçerli mali dönem)<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer geçerli dönemi temsil eder ve **Yılbaşından bugüne** değeri uygun şekilde güncelleştirilir.</blockquote> |
-| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem]);<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
+| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem])<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Maliyetler için görüntülenecek sütunlar
 
@@ -145,7 +145,7 @@ Kullanıcılar, ihtiyaç duydukları zaman giriş ayrıntılarına inmek için *
 
 ![Maliyet girişleri](./media/cost-entries.png)
 
-Örneğin, kira, maliyet merkezlerine dağıtılmış bir harcamadır. Kendisine ait maliyet merkezinin taşımak zorunda olduğu kira maliyetini anlamak isteyen bir kullanıcı, kiranın nasıl hesaplandığını görmek için ayrıntıya inebilirler.
+Örneğin, kira, maliyet merkezlerine dağıtılmış bir harcamadır. Kendisine ait maliyet merkezinin taşımak zorunda olduğu kira maliyetini anlamak isteyen bir kullanıcı, kiranın nasıl hesaplandığını görmek için ayrıntılara gidebilir.
 
 Kullanılar **Maliyet girişleri** sayfası üzerindeki **Tahsisat tabanı** üzerine tıklarlarsa, bir iletişim kutusu görüntülenir. Kullanıcılar daha sonra tahsisat tabanını kurala atayabilir ve dönem için kaydedilmiş olan karşılık gelen istatistiksel ölçümleri görüntüleyebilirler.
 

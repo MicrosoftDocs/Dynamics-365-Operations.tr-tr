@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 650b0ef0123cf9acf42c2e7460693b555897744f
-ms.sourcegitcommit: efde328c40201b1cb60d34891900b62a7e2b6645
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "3329484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448801"
 ---
 # <a name="settlement-overview"></a>Kapatmaya genel bakış
 

@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039858"
+ms.locfileid: "4448996"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisini kullanmaya başlangıç
 
@@ -84,18 +84,18 @@ Aşağıdaki şekil bu konuda tamamlayacağınız beş ana adımı göstermekted
 ## <a name="lcs-setup"></a>LCS kurulumu
 
 1. LCS hesabınızda oturum açın.
-2. **Önizleme özelliği yönetimi** kutucuğunu seçin ve **Genel Önizleme özellikleri** alanı grubunda, **BusinessDocumentSubmission** 'ı seçin.
+2. **Önizleme özelliği yönetimi** kutucuğunu seçin ve **Genel Önizleme özellikleri** alanı grubunda, **BusinessDocumentSubmission**'ı seçin.
 3. **Önizleme özelliği etkin** alanını işaretleyin.
 4. LCS dağıtım projesini seçin. Projeyi seçmeden önce, çalışır durumda olmalıdır.
-5. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle** 'yi seçin.
-6. **İş Belgesi Gönderme** 'yi seçin.
+5. **Ortam eklentileri** hızlı sekmesinde, **Yeni eklenti yükle**'yi seçin.
+6. **İş Belgesi Gönderme**'yi seçin.
 7. **Kurulum eklentisi** iletişim kutusunda, **AAD uygulama kimliği** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** değerini girin. Bu değer sabit bir değerdir.
 8. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kimliğini girin.
 
     ![LCS 'de eklenti iletişim kutusunu ayarlama](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
 9. Hüküm ve koşulları kabul etmek için onay kutusunu seçin.
-10. **Yükle** 'yi seçin.
+10. **Yükle**'yi seçin.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -109,32 +109,32 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 1. RCS hesabınızda oturum açın.
 2. **Genelleştirme özellikleri** çalışma alanında **Ortamlar** bölmesinde **E-faturalama** kutucuğunu seçin.
-3. **Servis ortamları** 'nı seçin.
+3. **Servis ortamları**'nı seçin.
 
     ![Servis ortamlarını seçme](media/e-invoicing-services-get-started-select-service-environments.png)
 
 > [!NOTE]
 > **Bağlı uygulamalar** seçeneği, RCS aracılığıyla Finance veya Supply Management uygulamalarında Elektronik faturalama eklentisinin otomatik yapılandırılmasına erişim izni verir. Ancak şimdilik bu özellik hala geliştirilme aşamasındadır.
 
-4. Eylem Bölmesi'nde, **Anahtar Kasası parametreleri** 'ni seçin.
+4. Eylem Bölmesi'nde, **Anahtar Kasası parametreleri**'ni seçin.
 
     ![Anahtar Kasası parametresini seçme](media/e-invoicing-services-get-started-select-key-vault-parameters.png)
 
-5. Eylem Bölmesi'nde, bir anahtar kasası oluşturmak için **Yeni** 'yi seçin.
+5. Eylem Bölmesi'nde, bir anahtar kasası oluşturmak için **Yeni**'yi seçin.
 6. **Anahtar Kasası URI'si** alanında, Azure 'da yapılandırdığınız anahtar kasa kaynağının **DNS adı** öznitelik değerini girin. **DNS adı** değerinin nerede bulunacağı hakkında bilgi için, bkz. [Azure Depolama Hesabı ve Anahtar Kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
 
     ![Anahtar Kasası URI alanı](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. Tüm dijital sertifika adlarını ve güvenilir bağlantılarını kurmak için gereken anahtar kasası gizli anahtarlarını girmek için **Sertifikalar** hızlı sekmesinde **Ekle** 'yi seçin. **Tür** sütununda, bunun bir Sertifika mı yoksa Gizli anahtar mı olduğunu belirtebilirsiniz. Her iki değer kümesi de Azure'daki anahtar kasası kaynağı üzerinde yapılandırılır.
+7. Tüm dijital sertifika adlarını ve güvenilir bağlantılarını kurmak için gereken anahtar kasası gizli anahtarlarını girmek için **Sertifikalar** hızlı sekmesinde **Ekle**'yi seçin. **Tür** sütununda, bunun bir Sertifika mı yoksa Gizli anahtar mı olduğunu belirtebilirsiniz. Her iki değer kümesi de Azure'daki anahtar kasası kaynağı üzerinde yapılandırılır.
 
     ![Sertifikaları ekleme](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
-8. Ülkeye/bölgeye özel faturanızda dijital imza uygulamak için bir sertifika zinciri gerekiyorsa, Eylem Bölmesi'nde **Sertifika zinciri** 'ni seçin ve sonra da zinciri oluşturan sertifikaların veya anahtar kasa gizli anahtarlarının sırasını girin.
+8. Ülkeye/bölgeye özel faturanızda dijital imza uygulamak için bir sertifika zinciri gerekiyorsa, Eylem Bölmesi'nde **Sertifika zinciri**'ni seçin ve sonra da zinciri oluşturan sertifikaların veya anahtar kasa gizli anahtarlarının sırasını girin.
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>Elektronik faturalama eklentisi sunucusu ile RCS bütünleştirmesini kurma
 
 1. **Genelleştirme özellikleri** çalışma alanında, **İlgili ayarlar** bölümünde, **Elektronik raporlama parametreleri** bağlantısını seçin.
-2. **Lifecycle Service hizmetine bağlanmak için burayı tıklayın** seçeneğini belirleyin. LCS'ye bağlanmak istemiyorsanız **İptal** 'i seçin.
+2. **Lifecycle Service hizmetine bağlanmak için burayı tıklayın** seçeneğini belirleyin. LCS'ye bağlanmak istemiyorsanız **İptal**'i seçin.
 3. **E-faturalama Hizmetleri** sekmesinde, **Hizmet uç nokta URI'si** alanına, kullanılabilir coğrafi bölgelere uygun değeri girin: `https://businessdocumentsubmission.us.operations365.dynamics.com/` veya `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. **Uygulama kimliği** alanında, **0cdb527f-a8d1-4bf8-9436-b352c68682b2** kimliğinin gösterildiğini doğrulayın. Bu değer sabit bir değerdir.
 5. **LCS Ortam Kimliği** alanına, LCS abonelik hesabınızın kimliğini girin.
@@ -146,16 +146,16 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 Elektronik faturalama eklentisi için Geliştirici, Test veya Üretim ortamları gibi farklı ortamlar oluşturabilirsiniz.
 
 1. **Genelleştirme özellikleri** çalışma alanında **Ortamlar** bölmesinde **E-faturalama** kutucuğunu seçin.
-2. Bir ortam oluşturmak için **Yeni** 'yi seçin.
+2. Bir ortam oluşturmak için **Yeni**'yi seçin.
 3. **Depolama SAS belirteç hesabı** alanında, RCS'de anahtar kasasında yapılandırdığınız anahtar kasa gizli anahtarının adını girin.
 
     ![Depolama SAS belirteç hesabı alanı](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
 
-4. **Kullanıcılar** hızlı sekmesinde, ortamdaki kullanıcılara erişim vermek için **Yeni** 'yi seçin.
+4. **Kullanıcılar** hızlı sekmesinde, ortamdaki kullanıcılara erişim vermek için **Yeni**'yi seçin.
 
     ![Servis kullanıcılarını ekleme](media/e-invoicing-services-get-started-enter-service-users.png)
 
-5. Eylem Bölmesi'nde, ortamı elektronik faturalama eklentisi sunucusunda yayınlamak için **Yayınla** 'yı seçin.
+5. Eylem Bölmesi'nde, ortamı elektronik faturalama eklentisi sunucusunda yayınlamak için **Yayınla**'yı seçin.
 
     ![Yayınla düğmesi](media/e-invoicing-services-get-started-publish-service-environment.png)
 
@@ -190,7 +190,7 @@ Elektronik fatura tümleştirme özelliği deneme yoluyla etkinleştirildi. Dene
 ### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Elektronik faturalama eklenti tümleştirme özelliğini açma
 
 1. Finance veya Supply Chain Management'ta oturun açın.
-2. **Özellik yönetimi** çalışma alanında, yeni bir özellik olan **Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** 'ni arayın. Özellik yönetim sayfasında hala böyle bir özellikle gösterilmezse, **Güncelleştirmeleri denetle** işlevini çalıştırın
+2. **Özellik yönetimi** çalışma alanında, yeni bir özellik olan **Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi**'ni arayın. Özellik yönetim sayfasında hala böyle bir özellikle gösterilmezse, **Güncelleştirmeleri denetle** işlevini çalıştırın
 3. Özelliği seçin ve **Şimdi etkinleştir** düğmesini seçin.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Servis uç noktası URL'sini ayarlama
@@ -205,12 +205,12 @@ Elektronik fatura tümleştirme özelliği deneme yoluyla etkinleştirildi. Dene
 
 İş verilerinin toplanmasına ve Elektronik faturalama eklentisine gönderilmesine olanak tanımak için, kullanmak istediğiniz ülkeye/bölgeye özgü E-faturalama özelliğiyle ilgili olan ER veri modelini ve ER veri modeli yapılandırmasını içe aktarmanız gerekir.
 
-1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** 'u seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
-3. **Depolar** 'ı seçin.
-4. **Genel kaynak** 'ı seçin ve **Aç** 'ı seçin.
+1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft**'u seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+3. **Depolar**'ı seçin.
+4. **Genel kaynak**'ı seçin ve **Aç**'ı seçin.
 5. **Lifecycle Services'a Bağlan** iletişim kutusunda **Lifecycle hizmetine bağlanmak için burayı tıklayın** öğesini seçin.
 6. E-faturalama özelliğini kullanmak istediğiniz ülkeye veya bölgeye bağlı olarak, ilgili veri modelini, veri modeli eşlemesini ve biçimleri içe aktarmanız gerekir. Almanız gereken ER yapılandırmalarla ilgili bilgi için ülkeye/bölgeye özel "Elektronik faturalama eklentisini kullanmaya başlangıç" konusuna bakın.
-7. **Müşteri faturası bağlam modeli** 'ni içe aktarın. Bu model, diğer şeylerin yanı sıra, iş verilerinin gönderilmesi sırasında Elektronik faturalama eklentisi için kullanılan Finance'deki ortamı açıklayan ek parametreler içerir.
+7. **Müşteri faturası bağlam modeli**'ni içe aktarın. Bu model, diğer şeylerin yanı sıra, iş verilerinin gönderilmesi sırasında Elektronik faturalama eklentisi için kullanılan Finance'deki ortamı açıklayan ek parametreler içerir.
 
 ### <a name="turn-on-countryregion-specific-e-invoicing-features"></a><a name="region-specific"></a>Ülkeye/bölgeye özel E-faturalama özelliklerini açma
 
@@ -228,12 +228,12 @@ Elektronik faturalama eklentisi ile çalışacak şekilde ülkeye/bölgeye özel
 
 Gönderilen fatura belgesi, resmi yetkilendirme hizmetlerine gönderim yanıtı sonrasında bir güncelleştirme gerektiriyorsa, fatura belgesinin veya güncelleştirilecek başka bir alanın durumunu etkinleştirmek üzere özel bir ER veri modeli ve yapılandırma içe aktarmanız gerekir.
 
-1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** 'u seçin.
-2. **Depolar** 'ı seçin.
-3. **Genel kaynak** 'ı seçin ve **Aç** 'ı seçin.
-4. **Yanıt iletisi modeli** , **Yanıt iletisi alma biçimi** , **Yanıt iletisi modeli hedefe eşleştirme** ve **Dosya içeriği içe aktarma biçimi** alanlarını içe aktarın.
+1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft**'u seçin.
+2. **Depolar**'ı seçin.
+3. **Genel kaynak**'ı seçin ve **Aç**'ı seçin.
+4. **Yanıt iletisi modeli**, **Yanıt iletisi alma biçimi**, **Yanıt iletisi modeli hedefe eşleştirme** ve **Dosya içeriği içe aktarma biçimi** alanlarını içe aktarın.
 5. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
-6. **Elektronik belge** sekmesinde, ülkeye/bölgeye özgü fatura belgenize ilişkin tablonun adını girmek için **Ekle** 'yi seçin. Seçmeniz gereken özellikle ilgili bilgi için ülkeye/bölgeye özel "Elektronik faturalama eklentisini kullanmaya başlangıç" konusuna bakın.
+6. **Elektronik belge** sekmesinde, ülkeye/bölgeye özgü fatura belgenize ilişkin tablonun adını girmek için **Ekle**'yi seçin. Seçmeniz gereken özellikle ilgili bilgi için ülkeye/bölgeye özel "Elektronik faturalama eklentisini kullanmaya başlangıç" konusuna bakın.
 7. **Yanıt türlerini** yapılandırmak için yanıt türlerini seçin. Seçmeniz gereken özellikle ilgili bilgi için ülkeye/bölgeye özel "Elektronik faturalama eklentisini kullanmaya başlangıç" konusuna bakın.
 
 ![Yanıt türlerini ayarlama](media/e-invoicing-services-get-started-set-up-response-types.png)
@@ -277,19 +277,19 @@ Normal gönderme işlemi sırasında, istemci ve Elektronik faturalama eklentisi
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini her zaman **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
-3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre** 'yi seçin.
+3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre**'yi seçin.
 
 ![Elektronik belgeleri gönder iletişim kutusu](media/e-invoicing-services-get-started-submission-form.png)
 
 ### <a name="filter-query"></a>Filtre sorgusu
 
-1. **Sorgulama** iletişim kutusunda, **Aralık** sekmesinde, **Tablo** , **Türetilmiş tablo** , **Alan** ve **Ölçüt** alanlarını kullanarak filtre ölçütü girin.
-2. İş belgelerini seçmeniz için gereken sayıda ek ölçüt eklemek için **Ekle** 'yi seçin.
+1. **Sorgulama** iletişim kutusunda, **Aralık** sekmesinde, **Tablo**, **Türetilmiş tablo**, **Alan** ve **Ölçüt** alanlarını kullanarak filtre ölçütü girin.
+2. İş belgelerini seçmeniz için gereken sayıda ek ölçüt eklemek için **Ekle**'yi seçin.
 
     ![Gönderme filtresi ölçütlerini ayarlama](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
 
-3. **Sorgulama** iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-4. Seçili iş belgelerini Elektronik faturalama eklentisine göndermek için **Tamam** 'ı seçin.
+3. **Sorgulama** iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+4. Seçili iş belgelerini Elektronik faturalama eklentisine göndermek için **Tamam**'ı seçin.
 
     > [!NOTE]
     > Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama eklentisi ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
@@ -326,16 +326,16 @@ Belgeleri el ile göndermek yerine, toplu iş yürütme sıklığının yapılan
     > [!IMPORTANT]
     > **Gönderim durumu** sütununda gösterilen değer, gönderme işleminin kendisinin tamamlanmasıyla ilgili durumu temsil eder. Elektronik belgenin onaylanmış veya reddedilmiş olmasından bağımsız olarak, RCS'de yapılandırılan eylemlerin akışının sona erene kadar çalıştırılmış olup olmadığını gösterir. **Gönderim durumu** sütunundaki değer, gönderilen belgenin durumunu temsil etmez. Gönderme günlüğü ayrıntılarında **İşlem eylem günlüğü** hızlı sekmesinde, sonraki konularda açıklandığı gibi gönderilen belgenin durumunu yani onaylanmış ya da reddedilmiş olup olmadığını görüntüleyebilirsiniz.
 
-3. Eylem Bölmesi'nde, **Sorgular \> Gönderme** 'yi seçin.
+3. Eylem Bölmesi'nde, **Sorgular \> Gönderme**'yi seçin.
 4. Gönderme günlüğü ayrıntılarını görüntüleyin.
 
     ![Gönderme günlüğü ayrıntıları](media/e-invoicing-services-get-started-view-submission-log-form.png)
 
 Gönderme günlüğünde gösterilen sonuçlar E-faturalama özelliğinin RCS'de nasıl ayarlandığına bağlıdır. Ancak, kurulum ne olursa olsun, gönderme günlüğünde her zaman üç hızlı sekme bulunur:
 
-- **İşleme eylemleri** : Bu hızlı sekmede, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlükleri gösterilmektedir. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
-- **Eylem dosyaları** : Bu hızlı sekme, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları gösterir. Dosyayı indirmek ve içeriğini görüntülemek için **Görünüm** öğesini seçebilirsiniz.
-- **İşleme eylem günlüğü** : Bu hızlı sekmede, elektronik faturalama eklentisi ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen işlemi de gösterir.
+- **İşleme eylemleri**: Bu hızlı sekmede, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlükleri gösterilmektedir. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
+- **Eylem dosyaları**: Bu hızlı sekme, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları gösterir. Dosyayı indirmek ve içeriğini görüntülemek için **Görünüm** öğesini seçebilirsiniz.
+- **İşleme eylem günlüğü**: Bu hızlı sekmede, elektronik faturalama eklentisi ve hedef Web servisi arasındaki iletişimin sonuçları gösterilir. Ayrıca Web servis işlemi tarafından döndürülen işlemi de gösterir.
 
 ## <a name="related-topics"></a>İlgili konular
 

@@ -19,11 +19,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7103cb93ad0d9ea0f1b92e317bee7454eb08d1f2
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899558"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448954"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Gelişmiş banka mutabakatı kurulumu işlemi
 

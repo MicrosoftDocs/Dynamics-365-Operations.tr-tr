@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3744fd823576b597b4550008338e3cc96cb585d
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133932"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448939"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlamaya genel bakış
 

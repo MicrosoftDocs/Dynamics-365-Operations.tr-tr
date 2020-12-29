@@ -19,11 +19,11 @@ ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138097"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448896"
 ---
 # <a name="import-currency-exchange-rates"></a>Para birimi döviz kurlarını içe aktarma
 

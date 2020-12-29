@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039781"
+ms.locfileid: "4448991"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure depolama hesabı ve bir anahtar kasası oluşturma
 
@@ -57,29 +57,29 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 
 1. Elektronik faturalama eklentisi ile kullanmayı planladığınız depolama hesabını açın.
 2. **Blob hizmeti** \> **Kapsayıcılar** öğesine gidin ve yeni bir kapsayıcı oluşturun.
-3. Kapsayıcı için bir ad girin ve **Ortak erişim düzeyi** alanını **Özel (anonim erişim yok** ) olarak ayarlayın.
-4. Kapsayıcıyı açın ve **Ayarlar \> Erişim ilkesi** 'ne gidin.
-5. Depolanan erişim ilkesi eklemek için **İlke ekle** 'yi seçin.
+3. Kapsayıcı için bir ad girin ve **Ortak erişim düzeyi** alanını **Özel (anonim erişim yok**) olarak ayarlayın.
+4. Kapsayıcıyı açın ve **Ayarlar \> Erişim ilkesi**'ne gidin.
+5. Depolanan erişim ilkesi eklemek için **İlke ekle**'yi seçin.
 6. **Tanımlayıcı** ve **İzinler** alanlarını uygun şekilde ayarlayın. **İzinler** alanında, tüm izinleri seçmelisiniz.
 
     ![Blob depolama izni verme](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Başlangıç ve bitiş tarihlerini girin. Bitiş tarihi gelecekte olmalıdır.
-8. İlkeyi kaydetmek için **Tamam** 'ı seçin ve sonra değişikliklerinizi kapsayıcıya kaydedin.
+8. İlkeyi kaydetmek için **Tamam**'ı seçin ve sonra değişikliklerinizi kapsayıcıya kaydedin.
 9. Depolama hesabına dönün ve **Depolama Gezgini (Önizleme)** ögesini açın.
-10. Kapsayıcıyı sağ tıklayın ve sonra da **Paylaşılan Erişim İmzasını Al** 'ı seçin.
-11. **Paylaşılan Erişim İmzası** iletişim kutusunda, değeri **URI** alanına kopyalayın ve saklayın. Bu değer sonraki yordamda kullanılacak ve *paylaşılan erişim imza URI* 'si olarak anılacaktır.
+10. Kapsayıcıyı sağ tıklayın ve sonra da **Paylaşılan Erişim İmzasını Al**'ı seçin.
+11. **Paylaşılan Erişim İmzası** iletişim kutusunda, değeri **URI** alanına kopyalayın ve saklayın. Bu değer sonraki yordamda kullanılacak ve *paylaşılan erişim imza URI*'si olarak anılacaktır.
 
     ![URI değerini seçme ve kopyalama](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Depolama hesabı URI'sini depolamak için anahtar kasasını ayarlama
 
 1. Elektronik faturalama eklentisi ile kullanmayı planladığınız anahtar kasasını açın.
-2. **Ayarlar** \> **Gizli anahtarlar** ögesine gidin ve yeni bir gizli anahtar oluşturmak için **Oluştur/içe aktar** 'ı seçin.
+2. **Ayarlar** \> **Gizli anahtarlar** ögesine gidin ve yeni bir gizli anahtar oluşturmak için **Oluştur/içe aktar**'ı seçin.
 3. **Gizli anahtar oluştur** sayfasında **Karşıya yükleme seçenekleri** alanında, **El ile** seçeneğini belirleyin.
 4. Gizli anahtarın adını girin. Bu ad, Regulatory Configuration Service (RCS) içindeki servisin kurulumu sırasında kullanılacaktır ve *anahtar kasası gizli anahtar adı* olarak anılacak.
-5. **Değer** alanında, **Paylaşılan Erişim İmza URI'si** ögesini seçin ve **Oluştur** 'u seçin.
-6. Elektronik faturalama eklentisini, oluşturduğunuz gizli anahtara doğru güvenli erişim düzeyine vermek için erişim ilkesini ayarlayın. **Ayarlar \> Erişim ilkesi** ögesine gidin ve **Erişim ilkesi ekle** 'yi seçin.
+5. **Değer** alanında, **Paylaşılan Erişim İmza URI'si** ögesini seçin ve **Oluştur**'u seçin.
+6. Elektronik faturalama eklentisini, oluşturduğunuz gizli anahtara doğru güvenli erişim düzeyine vermek için erişim ilkesini ayarlayın. **Ayarlar \> Erişim ilkesi** ögesine gidin ve **Erişim ilkesi ekle**'yi seçin.
 7. **Get** ve **List** işlemleri için gizli anahtar izinlerini ayarlayın.
 
     ![Servis erişimi verme](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
@@ -89,5 +89,5 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
     ![Sertifika izni verme](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. **Sorumlu** iletişim kutusunda, **Elektronik faturalama eklentisi** ekleyerek sorumluyu seçin.
-10. **Ekle** 'yi seçin ve **Anahtar Kasa değişikliklerini kaydet** 'i seçin.
-11. **Genel Bakış** sayfasında, anahtar kasası için **DNS adı** değerini kopyalayın. Bu değer, servisin kurulumu sırasında, RCS'de kullanılır ve *anahtar kasa URI* 'si olarak anılacaktır.
+10. **Ekle**'yi seçin ve **Anahtar Kasa değişikliklerini kaydet**'i seçin.
+11. **Genel Bakış** sayfasında, anahtar kasası için **DNS adı** değerini kopyalayın. Bu değer, servisin kurulumu sırasında, RCS'de kullanılır ve *anahtar kasa URI*'si olarak anılacaktır.

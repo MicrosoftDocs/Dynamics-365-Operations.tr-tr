@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015953"
+ms.locfileid: "4439683"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
 
@@ -37,7 +37,7 @@ Negatif fiziksel stoka izin veriliyorsa, temizleme işi ilgili tüm girişleri s
 
 ## <a name="schedule-and-configure-the-cleanup-job"></a>Temizleme işini zamanla ve Yapılandır
 
-Eldeki girişler temizleme işi **Stok yönetimi \> periyodik görevler \> Temizleme\> Ambar yönetimi eldeki girişlerini temizleme** 'de kullanılabilir. Kapsamı denetlemek ve işi çalıştırmak için zamanlamak üzere standart iş ayarlarını kullanın. Buna ek olarak aşağıdaki ayarlar sağlanır:
+Eldeki girişler temizleme işi **Stok yönetimi \> periyodik görevler \> Temizleme\> Ambar yönetimi eldeki girişlerini temizleme**'de kullanılabilir. Kapsamı denetlemek ve işi çalıştırmak için zamanlamak üzere standart iş ayarlarını kullanın. Buna ek olarak aşağıdaki ayarlar sağlanır:
 
 - **Bu kadar gün için güncelleştirilmemişse, Sil** – Sıfır miktara bırakılan eldeki bir girişi silmeden önce işin en az kaç gün bekleyeceğini girin. Halen kullanılmakta olan eldeki girişleri silme riskini azaltmaya yardımcı olması için bu ayarı kullanın. Temizleme işleminin olabildiğince çabuk gerçekleşmesini istiyorsanız, *0* (sıfır) girin veya alanı boş bırakın.
 - **Maksimum yürütme süresi (saat)** – temizleme işinin maksimum yürütme süresini saat olarak girin. İş bu süre geçmeden önce tamamlanmadıysa, şimdiye kadar tamamladığı işi kaydeder ve sonra da kendisini kapatır. Bu yetenek özellikle yüksek stok kullanımı olan uygulamalarla ilgilidir. Bu durumlarda, işi sistem yükünün olabildiğince açık olduğu zamanlarda çalışacak şekilde planlamalısınız. Toplu işlemin tamamlanana kadar çalışmaya devam etmesini istiyorsanız, *0* (sıfır) girin ya da alanı boş bırakın. Bu ayar yalnızca, ilgili özellik [sisteminizde açılmışsa](#max-execution-time) kullanılabilir.

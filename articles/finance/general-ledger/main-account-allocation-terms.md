@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
-ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3613163"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448727"
 ---
 # <a name="allocation-terms"></a>Tahsisat koşulları
 

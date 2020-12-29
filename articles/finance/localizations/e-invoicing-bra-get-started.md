@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039881"
+ms.locfileid: "4448995"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Brezilya için Elektronik faturalama eklentisini kullanmaya başlangıç 
 
@@ -58,11 +58,11 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 1. RCS hesabınızda oturum açma
 2. **Genelleştirme özellikleri** çalışma alanında **Özellikler** bölmesinde **E-faturalama** kutucuğunu seçin.
-3. **E-faturalama Özellikleri** sayfasında, Genel depodan NF-e mali belge E-faturalama özelliğini içe aktarmak için **İçe aktar** 'ı seçin.
+3. **E-faturalama Özellikleri** sayfasında, Genel depodan NF-e mali belge E-faturalama özelliğini içe aktarmak için **İçe aktar**'ı seçin.
 
     ![İçe aktarma düğmesi](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
 
-4. NF-e mali belge özelliğini seçin ve **İçe aktar** 'ı seçin.
+4. NF-e mali belge özelliğini seçin ve **İçe aktar**'ı seçin.
 
     ![NF-e özelliğini içe aktarma](media/e-Invoicing-services-get-started-BRA-Select-Import-NF-e-feature.png)
 
@@ -74,7 +74,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 ### <a name="update-the-configuration-version"></a>Yapılandırma sürümünü güncelleştirme
 
-1. **E-faturalama özellikleri** sayfasında, **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini (ER dosya biçimi yapılandırmaları) yönetmek için **Ekle** veya **Sil** 'i seçin.
+1. **E-faturalama özellikleri** sayfasında, **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini (ER dosya biçimi yapılandırmaları) yönetmek için **Ekle** veya **Sil**'i seçin.
 
     ![E-faturalama özellik yapılandırmalarını yönetme](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -89,7 +89,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
         - NFe iptal dışa aktarma biçimi
 
-2. Listede bir yapılandırma sürümü seçin ve sonra da yapılandırmayı düzenleyebileceğiniz veya görüntüleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle** 'yi seçin.
+2. Listede bir yapılandırma sürümü seçin ve sonra da yapılandırmayı düzenleyebileceğiniz veya görüntüleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle**'yi seçin.
 
     ![Biçim tasarımcısı sayfasını açma](media/e-Invoicing-services-get-started-BRA-Configuration-ER-fomat-designer.png)
 
@@ -111,7 +111,7 @@ NF-e iptali göndermek için **İptal** özelliği kurulumu gereklidir.
 
 #### <a name="configure-the-submit-feature-setup"></a>Gönderme özelliği kurulumunu yapılandırma
 
-1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **Gönder** 'i seçin.
+1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **Gönder**'i seçin.
 2. **Düzenle** öğesini seçin.
 
     ![E-faturalama özellik kurulumunu düzenleme](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
@@ -135,14 +135,14 @@ NF-e iptali göndermek için **İptal** özelliği kurulumu gereklidir.
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ Web Hizmetleri için URL'yi ayarlama 
 
-1. **Özellik sürümü kurulumu** sayfasında, **Eylemler** sekmesindeki **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** seçeneğini belirleyin (eylem kimliği **3** ).
+1. **Özellik sürümü kurulumu** sayfasında, **Eylemler** sekmesindeki **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** seçeneğini belirleyin (eylem kimliği **3**).
 2. **Parametreler** hızlı sekmesinde, **URL adresi parametresi** alanına, NF-e gönderimi için SEFAZ Web hizmetinin URL'sini girin.
-3. **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** (eylem kimliği **7** ) öğesini seçin.
+3. **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** (eylem kimliği **7**) öğesini seçin.
 4. **Parametreler** hızlı sekmesinde, **URL adresi parametresi** alanına, NF-e gönderimi için SEFAZ Web hizmetinin URL'sini girin.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>İptal özelliği kurulumunu yapılandırma
 
-1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **İptal** 'i seçin.
+1. **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, **Özellik kurulumu** sütununda **İptal**'i seçin.
 2. **Düzenle** öğesini seçin.
 3. **Özellik sürümü kurulumu** sayfasında, eylemler listesini yönetmek için **Eylemler** sekmesini seçin.
 4. Onaylı bir NF-e iptalini istemek için gereken eylemleri gözden geçirin.
@@ -156,7 +156,7 @@ NF-e iptali göndermek için **İptal** özelliği kurulumu gereklidir.
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>SEFAZ Web Hizmetleri için URL'yi ayarlama
 
-1. **Özellik sürümü kurulumu** sayfasında, **Eylemler** sekmesindeki **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** seçeneğini belirleyin (eylem kimliği **3** ).
+1. **Özellik sürümü kurulumu** sayfasında, **Eylemler** sekmesindeki **Eylemler** hızlı sekmesinde, **Brezilya SEFAZ servisini çağır** seçeneğini belirleyin (eylem kimliği **3**).
 2. **Parametreler** hızlı sekmesinde, **URL adresi parametresi** alanına, onaylı NF-e iptali için SEFAZ Web hizmetinin URL'sini girin.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>E-faturalama ortamını kullanılabilir hale getirme ve Taslak sürümü atama
@@ -164,19 +164,19 @@ NF-e iptali göndermek için **İptal** özelliği kurulumu gereklidir.
 1. **E-faturalama özellikleri** sayfasında, **Ortamlar** sekmesinde, **Etkinleştir** ögesini seçin.
 2. **Ortamlar** alanında, ortamı seçin.
 3. **Geçerlilik başlangıcı** alanında, yeni ortamın geçerli olacağı tarihi seçin.
-4. **Etkinleştir** 'i seçin.
+4. **Etkinleştir**'i seçin.
 
 ![E-faturalama ortamını etkinleştirme](media/e-Invoicing-services-get-started-BRA-Enable-e-Invoicing-environment.png)
 
 ### <a name="change-the-status-to-completed"></a>Durumu Tamamlandı olarak değiştirme
 
 1. **E-faturalama Özellikleri** sayfasındaki **Sürümler** sekmesinde, **Taslak** durumundaki e-faturalama özelliğinin sürümünü seçin.
-2. **Durumu değiştir \> Tamamla** 'yı seçin.
+2. **Durumu değiştir \> Tamamla**'yı seçin.
 
 ### <a name="change-the-status-to-publish"></a>Durumu Yayımla olarak değiştirme
 
 1. **E-faturalama Özellikleri** sayfasındaki **Sürümler** sekmesinde, **Tamamlandı** durumundaki e-faturalama özelliğinin sürümünü seçin.
-2. **Durumu değiştir \> Yayımla** 'yı seçin.
+2. **Durumu değiştir \> Yayımla**'yı seçin.
 
 ![E-faturalama özelliğini yayımlama](media/e-Invoicing-services-get-started-BRA-Publish-e-Invoicing-feature.png)
 
@@ -196,30 +196,30 @@ Kurulum sırasında şu görevleri tamamlayacaksınız:
 ### <a name="import-the-er-data-model-mapping-required-for-nf-e-fiscal-documents"></a>NF-e mali belgeleri için gerekli ER veri modeli eşleştirmesini içe aktarma
 
 1. Finance'de oturum açın.
-2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** 'u seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
-3. **Depolar** 'ı seçin.
-4. **Genel kaynak \> Aç** 'ı seçin.
+2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft**'u seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+3. **Depolar**'ı seçin.
+4. **Genel kaynak \> Aç**'ı seçin.
 5. **Mali belge eşleme** yapılandırmalarını içe aktarın.
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-fiscal-documents"></a>ER yapılandırmalarını içe aktarma ve mali belgeler için yanıt tiplerini ayarlama
 
-1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** 'u seçin.
-2. **Depolar** 'ı seçin.
-3. **Genel kaynak \> Aç** 'ı seçin.
-4. **NF-e hata günlük alma (BR)** , **NF-e yanıt veri alma biçimi (BR)** ve **NF-e yanıt iletisi alma (BR)** ögelerini içe aktarın.
+1. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft**'u seçin.
+2. **Depolar**'ı seçin.
+3. **Genel kaynak \> Aç**'ı seçin.
+4. **NF-e hata günlük alma (BR)**, **NF-e yanıt veri alma biçimi (BR)** ve **NF-e yanıt iletisi alma (BR)** ögelerini içe aktarın.
 5. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
-6. **Elektronik belge** sekmesinde **Ekle** 'yi seçin.
+6. **Elektronik belge** sekmesinde **Ekle**'yi seçin.
 6. **Tablo adı** alanında, **Mali belge başlığı** değerini girin.
-7. **Belge bağlamı** alanında, **Müşteri faturası bağlam modeli – Mali belge bağlamı** 'nı seçin.
-8. **Yanıt türleri** 'ni seçin.
-9. **Yeni** 'yi seçin ve sonra **Yanıt türü** alanında, **Yanıt** 'ı seçin.
-10. **Gönderim durumu** alanında, **Bekliyor** 'u seçin.
+7. **Belge bağlamı** alanında, **Müşteri faturası bağlam modeli – Mali belge bağlamı**'nı seçin.
+8. **Yanıt türleri**'ni seçin.
+9. **Yeni**'yi seçin ve sonra **Yanıt türü** alanında, **Yanıt**'ı seçin.
+10. **Gönderim durumu** alanında, **Bekliyor**'u seçin.
 11. **Model eşleme** alanında, **Yanıt iletisi içe aktarma biçimi - Yanıt iletisinden model eşlemesi** ögesini seçin.
-12. **Kaydet** 'i seçin.
-13. **Yeni** 'yi seçin ve sonra **Yanıt türü** alanında, **ResponseData** ögesini girin.
-14. **Gönderim durumu** alanında, **Bekliyor** 'u seçin.
+12. **Kaydet**'i seçin.
+13. **Yeni**'yi seçin ve sonra **Yanıt türü** alanında, **ResponseData** ögesini girin.
+14. **Gönderim durumu** alanında, **Bekliyor**'u seçin.
 15. **Model eşleme** alanında, **NFe yanıtı veri içe aktarma biçimi – Yanıt verilerini içe aktarma** ögesini seçin.
-16. **Kaydet** 'i seçin.
+16. **Kaydet**'i seçin.
 
 ## <a name="electronic-invoice-processing"></a>Elektronik fatura işleme
 
@@ -231,21 +231,21 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>SEFAZ yetkilendirmesi için NF-e mali belgeleri gönderme 
 
-**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, onaya NF-e mali belgelerini göndermek için kullanılan eski işlem ( **NF-e işlemini dışa/içe aktarma** ) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
+**Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, onaya NF-e mali belgelerini göndermek için kullanılan eski işlem (**NF-e işlemini dışa/içe aktarma**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 > [!NOTE]
 > Devam etmeden önce, müşterinin mali kurulumu tarafından verilen bir veya daha fazla müşteri mali belge modeli 55 olduğundan emin olun. Bu mali belgelerin yönü **Giden** olarak ayarlanmalıdır ve durumu **Oluşturuldu** olmalıdır. Daha fazla bilgi için bkz. [Müşteri mali belgelerini düzenleme (Brezilya)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini her zaman **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
-3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre** 'yi seçin.
-4. **Aralık** sekmesinde **Ekle** 'yi seçin.
+3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre**'yi seçin.
+4. **Aralık** sekmesinde **Ekle**'yi seçin.
 5. **Tablo** alanında, **Mali belge başlığı** değerini seçin.
 6. **Türetilmiş tablo** alanında, **Mali belge başlığı** değerini seçin.
 6. **Alan** alanında, **Numara** değerini seçin.
 7. **Ölçüt** alanına, gönderilmesi gereken mali belgenin numarasını girin.
-8. **Sorgulama** iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-8. Seçili belgeleri göndermek için **Tamam** 'ı seçin.
+8. **Sorgulama** iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+8. Seçili belgeleri göndermek için **Tamam**'ı seçin.
 
 > [!NOTE]
 > Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama eklentisi ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
@@ -255,8 +255,8 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 **Yapılandırılabilir Elektronik faturalama eklenti tümleştirmesi** özelliğini açtıktan sonra, belge gönderme işlemini takip etmenizi sağlayan yeni bir sayfa kullanılabilir. Gönderilen tüm belgelerin gönderme günlüklerini görüntülemek için bu sayfayı kullanabilirsiniz.
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
-2. **Belge türü** alanında, yalnızca mali belgelerle ilgili filtre uygulamak için **Mali belge başlığı** 'nı seçin.
-3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları** 'nı seçin.
+2. **Belge türü** alanında, yalnızca mali belgelerle ilgili filtre uygulamak için **Mali belge başlığı**'nı seçin.
+3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
 
 ![Gönderme günlüğü ayrıntılarını görüntüleme](media/e-Invoicing-services-get-started-BRA-View-Submission-log-details.png)
 
@@ -269,7 +269,7 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 
 1. **Genel muhasebe \> Sorgulamalar ve raporlar \> Mali belgeler \> Tüm mali belgeler** sayfasına gidin.
 2. Daha önce Elektronik faturalama eklentisi aracılığıyla gönderilen bir mali belge seçin.
-3. Eylem Bölmesi'ndeki **NF-e federal** sekmesinde, **Elektronik belge günlüğü** 'nü seçin.
+3. Eylem Bölmesi'ndeki **NF-e federal** sekmesinde, **Elektronik belge günlüğü**'nü seçin.
 
 ![Mali belge sayfası yoluyla gönderme günlüklerini görüntüleme](media/e-Invoicing-services-get-started-BRA-View-Submission-log-from-Fiscal-document-viewer.png)
 
@@ -281,14 +281,14 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 > Onaylanmış bir NF-e mali belge için müşteri mali belgesini iptal etme işlemini çalıştırdığınızdan emin olun. Daha fazla bilgi için bkz. [Müşteri mali belgelerini iptal etme (Brezilya)](https://docs.microsoft.com/dynamics365/finance/localizations/latam-bra-cancel-customer-fiscal-documents).
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
-2. Mali belgeyi seçin ve sonra **İşlevler \> İlgili gönderimleri gönder** 'i seçin.
-3. İlgili gönderim için bir açıklama girin ve **Tamam** 'ı seçin.
+2. Mali belgeyi seçin ve sonra **İşlevler \> İlgili gönderimleri gönder**'i seçin.
+3. İlgili gönderim için bir açıklama girin ve **Tamam**'ı seçin.
 
 ### <a name="view-cancellation-submission-logs"></a>İptal gönderim günlüklerini görüntüleme
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
-2. **Belge türü** alanında, yalnızca mali belgelerle ilgili filtre uygulamak için **Mali belge başlığı** 'nı seçin.
-3. Mali belgeyi seçin ve sonra Eylem Bölmesi'nde, **Sorgulamalar \> İlgili gönderim** 'i seçin.
+2. **Belge türü** alanında, yalnızca mali belgelerle ilgili filtre uygulamak için **Mali belge başlığı**'nı seçin.
+3. Mali belgeyi seçin ve sonra Eylem Bölmesi'nde, **Sorgulamalar \> İlgili gönderim**'i seçin.
 
     İlgili gönderimler, ilk olarak yapılan ana gönderimle ilgili gönderimlerdir. Örneğin, belirli bir NFe'ye yetki veren gönderim ana gönderimdir. SEFAZ içinde aynı NF-e'nin iptal işlemini isteyen gönderim ilgili bir gönderimdir. Yalnızca, başka bir gönderimden yapılan işin iptal edilmesini talep ettiğinden var olur.
 
@@ -296,7 +296,7 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 
     ![İptal gönderim günlüklerini görüntüleme](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log.png)
 
-4. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları** 'nı seçin.
+4. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
 
     ![İptal gönderim günlüğü detaylarını görüntüleme](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
 

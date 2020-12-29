@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016643"
+ms.locfileid: "4439696"
 ---
 # <a name="quality-check"></a>Kalite denetimi
 
@@ -38,7 +38,7 @@ Bu özelliği kullandığınızda, varış ve kalite denetimi aşağıdaki şeki
 1. Aşağıdaki eylemlerden biri gerçekleşir:
 
     - Plaka kalite denetiminden geçerse kabul edilir ve her zamanki gibi bir teslim alma konumuna yönlendirilir.
-    - Kalite denetimi başarısız olursa, plaka reddedilir ve bu plaka için varolan yerine koyma işi, daha fazla inceleme için alternatif bir konuma yönlendirilir. Yeni bir kalite emri oluşturulur. Başarısız olan kalite denetiminden oluşturulan kalite emrini görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri** 'ne gidin.
+    - Kalite denetimi başarısız olursa, plaka reddedilir ve bu plaka için varolan yerine koyma işi, daha fazla inceleme için alternatif bir konuma yönlendirilir. Yeni bir kalite emri oluşturulur. Başarısız olan kalite denetiminden oluşturulan kalite emrini görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin.
 
 Bu işlem, taranan tüm plakaların hemen kalite denetimi konumuna yönlendirilmesi için de ayarlanabilir.
 
@@ -61,8 +61,8 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak [örnek senaryo](#
 
 Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele denetim kurallarını tanımlar.
 
-1. **Ambar yönetimi \> Kurulum \> İş \> Kalite denetimi şablonu** 'na gidin.
-1. Kılavuza şablon eklemek için **Yeni** 'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> İş \> Kalite denetimi şablonu**'na gidin.
+1. Kılavuza şablon eklemek için **Yeni**'yi seçin.
 1. Yeni şabonu tanımlamak için aşağıdaki değerleri ayarlayın:
 
     - **Kalite denetim şablonu adı:** *Giriş noktası denetimi*
@@ -91,7 +91,7 @@ Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele 
 İş sınıfları, ambar çalışanları tarafından bir mobil cihazda işlenebilecek iş emri satırlarının türünü yönetmek ve/veya sınırlamak için kullanılır.
 
 1. **Ambar yönetimi \> Kurulum \> İş \> İş sınıfları** seçeneğine gidin.
-1. Yeni iş sınıfı oluşturmak için **Yeni** 'yi seçin.
+1. Yeni iş sınıfı oluşturmak için **Yeni**'yi seçin.
 1. Üst bilgide aşağıdaki değerleri ayarlayın:
 
     - **İş sınıfı kodu:** *QC Check*
@@ -104,7 +104,7 @@ Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele 
 
     - **İş emri türü:** *Kalite denetiminde kalite*
 
-        İş sınıfı tarafından oluşturulan iş emri türünü seçin. Kalite denetimi işi ayarladığınızda, her zaman *Kalite denetiminde kalite* 'yi seçin.
+        İş sınıfı tarafından oluşturulan iş emri türünü seçin. Kalite denetimi işi ayarladığınızda, her zaman *Kalite denetiminde kalite*'yi seçin.
 
 1. **Geçerli yerine koyma konumu türleri** hızlı sekmesinde, **Konum türü** alanını boş bırakın.
 
@@ -118,12 +118,12 @@ Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele 
 
 #### <a name="purchase-orders"></a>Satın alma siparişleri
 
-1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları**'na gidin.
 1. Başlıkta, **İş emri türü** alanını *Satın alma siparişi* olarak ayarlayın.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. Kalite denetimi adımı içerecek bir iş şablonu seçin. **Genel bakış** bölümünde, **İş şablonu** alanında, *51 SAS Girişi* öğesini seçin.
 1. **İş şablonu ayrıntıları** bölümünde, kılavuzun mevcut iki satırı olduğuna dikkat edin: *Malzeme çekme* için bir ve *Yerine koyma* için bir adet.
-1. **İş şablonu ayrıntıları** bölümünde, kılavuza kalite denetimi satırı eklemek için **Yeni** 'yi seçin. Yeni satır için **Satır numarası** alanının *3* olarak ayarlandığına dikkat edin.
+1. **İş şablonu ayrıntıları** bölümünde, kılavuza kalite denetimi satırı eklemek için **Yeni**'yi seçin. Yeni satır için **Satır numarası** alanının *3* olarak ayarlandığına dikkat edin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın. Kalan alanlar için varsayılan değerleri kabul edin.
 
     - **İş türü:** *Kalite denetimi*
@@ -132,7 +132,7 @@ Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele 
 
         İş sınıfı için benzersiz kimlik seçin. Mobil cihazdaki menü öğelerini ve bu menü öğelerinin işleyebildiği iş türlerini konfigüre etmek için bu değeri kullanın.
 
-1. Eylem Bölmesinde, şimdiye kadarki çalışmanızı kaydetmek için **Kaydet** 'i seçin.
+1. Eylem Bölmesinde, şimdiye kadarki çalışmanızı kaydetmek için **Kaydet**'i seçin.
 
     "Geçersiz - Kalite denetiminin malzeme çekme işleminden hemen sonra gelmesi gerekir" şeklinde bir bilgi iletisi alırsınız. Bu nedenle, az önce eklediğiniz satırın **Satır numarası** değerini değiştirmeniz gerekir.
 
@@ -141,14 +141,14 @@ Kalite denetimi şablonu, teslim alma sırasında kalite için hızlı rastgele 
     1. **İş şablonu ayrıntıları** bölümünde, **İş türü** alanının *Kalite denetimi* olarak ayarlandığı satırı seçin.
     2. *Kalite denetimi* satırını *Malzeme çekme* satırından sonra olacak şekilde taşımak için **Yukarı taşı** veya **Aşağı taşı** düğmesini seçin.
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 #### <a name="quality-in-quality-check"></a>Kalite denetiminde kalite
 
 Daha sonra, kalite denetimi için bir iş şablonu oluşturun.
 
 1. **İş şablonları** sayfasının başlığında, **İş emri türü** alanının değerini *Kalite denetiminde kalite* olarak değiştirin.
-1. Eylem Bölmesinde, **Genel bakış** bölümünde kılavuzuna satır eklemek için **Yeni** 'yi seçin.
+1. Eylem Bölmesinde, **Genel bakış** bölümünde kılavuzuna satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş şablonu:** *51 Kalite Denetimi*
@@ -157,8 +157,8 @@ Daha sonra, kalite denetimi için bir iş şablonu oluşturun.
 
     - **İş şablonu açıklaması:** *51 Kalite Denetimi*
 
-1. Eylem Bölmesinde, **İş şablonu ayrıntıları** bölümünü kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. Yeni şablon **Genel bakış** bölümünde hala seçiliyken, kılavuza bir satır eklemek için **İş şablonu ayrıntıları** bölümünde **Yeni** 'yi seçin.
+1. Eylem Bölmesinde, **İş şablonu ayrıntıları** bölümünü kullanılabilir hale getirmek için **Kaydet**'i seçin.
+1. Yeni şablon **Genel bakış** bölümünde hala seçiliyken, kılavuza bir satır eklemek için **İş şablonu ayrıntıları** bölümünde **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş türü:** *Çekme*
@@ -166,7 +166,7 @@ Daha sonra, kalite denetimi için bir iş şablonu oluşturun.
 
         Kalite denetimi işi için daha önce oluşturduğunuz [iş sınıfının](#work-class) adını seçin.
 
-1. **İş şablonu ayrıntıları** bölümünde, başka bir satır eklemek için **Yeni** 'yi seçin.
+1. **İş şablonu ayrıntıları** bölümünde, başka bir satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş türü:** *Yerine koyma*
@@ -174,7 +174,7 @@ Daha sonra, kalite denetimi için bir iş şablonu oluşturun.
 
         Kalite denetimi işi için daha önce oluşturduğunuz [iş sınıfının](#work-class) adını seçin.
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 İş şablonları hakkında daha fazla bilgi için bkz. [İş şablonları ve konum yönergelerini kullanarak ambar işini denetleme](control-warehouse-location-directives.md)
 
@@ -184,7 +184,7 @@ Konum yönergeleri stok hareketi için çekme ve indirme konumlarını belirleme
 
 1. **Ambar Yönetimi \> Kurulum \> Konum yönergeleri** seçeneğine gidin.
 1. Sol bölmede, **İş emri türü** alanını, ilgili türdeki konum yönergeleriyle çalışacak şekilde *Satın alma siparişleri* olarak ayarlayın.
-1. Eylem Bölmesinde, kalite denetimleri için konum yönergesi oluşturmak üzere **Yeni** 'yi seçin.
+1. Eylem Bölmesinde, kalite denetimleri için konum yönergesi oluşturmak üzere **Yeni**'yi seçin.
 1. Üst bilgide aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** Varsayılan değeri kabul edin.
@@ -196,19 +196,19 @@ Konum yönergeleri stok hareketi için çekme ve indirme konumlarını belirleme
     - **Tesis:** *5*
     - **Ambar:** *51*
 
-1. Eylem Bölmesinde, **Kaydet** 'i seçerek yönergenizi kaydedin ve **Satırlar** hızlı sekmesini kullanılabilir hale getirin.
-1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
+1. Eylem Bölmesinde, **Kaydet**'i seçerek yönergenizi kaydedin ve **Satırlar** hızlı sekmesini kullanılabilir hale getirin.
+1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın. Kalan alanlar için varsayılan değerleri kabul edin.
 
     - **Başlangıç miktarı:** *1*
     - **Son miktar:** *1000000*
 
-1. Eylem Bölmesinde, **Kaydet** 'i seçerek yeni satırı kaydedin ve **Konum yönergesi eylemleri** hızlı sekmesini kullanılabilir hale getirin.
-1. Yeni satır **Satırlar** hızlı sekmesinde seçili durumdayken, kılavuza bir satır eklemek için **Konum yönergesi eylemleri** hızlı sekmesinde **Yeni** 'yi seçin; böylece satır için bir eylem ayarlayabilirsiniz.
+1. Eylem Bölmesinde, **Kaydet**'i seçerek yeni satırı kaydedin ve **Konum yönergesi eylemleri** hızlı sekmesini kullanılabilir hale getirin.
+1. Yeni satır **Satırlar** hızlı sekmesinde seçili durumdayken, kılavuza bir satır eklemek için **Konum yönergesi eylemleri** hızlı sekmesinde **Yeni**'yi seçin; böylece satır için bir eylem ayarlayabilirsiniz.
 1. Yeni satırda, **Ad** alanını *Kalite* olarak ayarlayın. Kalan alanlar için varsayılan değerleri kabul edin.
-1. **Konum yönergesi eylemleri** hızlı sekmesinde **Sorguyu düzenle** düğmesini kullanılabilir hale getirmek için Eylem Bölmesindeki **Kaydet** 'i seçin.
-1. Yeni eklediğiniz satır **Konum yönergesi eylemleri** hızlı sekmesinde seçiliyken, eylem sorgusunu düzenleyebileceğiniz bir iletişim kutusu açmak için **Sorguyu düzenle** 'yi seçin.
-1. **Aralık** sekmesinde, sorguya satır eklemek için **Ekle** 'yi seçin.
+1. **Konum yönergesi eylemleri** hızlı sekmesinde **Sorguyu düzenle** düğmesini kullanılabilir hale getirmek için Eylem Bölmesindeki **Kaydet**'i seçin.
+1. Yeni eklediğiniz satır **Konum yönergesi eylemleri** hızlı sekmesinde seçiliyken, eylem sorgusunu düzenleyebileceğiniz bir iletişim kutusu açmak için **Sorguyu düzenle**'yi seçin.
+1. **Aralık** sekmesinde, sorguya satır eklemek için **Ekle**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Tablo:** *Yerleşimler*
@@ -218,8 +218,8 @@ Konum yönergeleri stok hareketi için çekme ve indirme konumlarını belirleme
 
     *QMS* konumu, kalite için bir ambar konumudur.
 
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin.
-1. Ambar *51* için satın alma siparişi konum yönergelerinin sırasını değiştirmeniz gerekir. Kalite konumu yönergesine yeni *51 Kalite* konumu kaydedin, sayfayı yenileyin ve listeden konum yönergesini seçin. Sonra, ambar *51* için konum yönergesini aşağıdaki sıraya koymak için Eylem Bölmesindeki **Yukarı taşı** ve **Aşağı taşı** düğmelerini kullanın. ( **Yukarı taşı** veya **Aşağı taşı** düğmelerini seçmeden önce listeden bir konum yönergesi seçmelisiniz.)
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
+1. Ambar *51* için satın alma siparişi konum yönergelerinin sırasını değiştirmeniz gerekir. Kalite konumu yönergesine yeni *51 Kalite* konumu kaydedin, sayfayı yenileyin ve listeden konum yönergesini seçin. Sonra, ambar *51* için konum yönergesini aşağıdaki sıraya koymak için Eylem Bölmesindeki **Yukarı taşı** ve **Aşağı taşı** düğmelerini kullanın. (**Yukarı taşı** veya **Aşağı taşı** düğmelerini seçmeden önce listeden bir konum yönergesi seçmelisiniz.)
 
     1. 51 Kalite
     2. 51 SAS Doğrudan
@@ -231,10 +231,10 @@ Mobil cihazların **Kalite Denetimi** işlevini gerçekleştirebilmesi için bir
 
 #### <a name="purchase-putaway"></a>Satın alma yerine koyma
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri** 'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
 1. Listeden, **Satın alma yerine koyma** menü öğesini seçin.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
-1. **İş sınıfları** bölümünde, kılavuza satır eklemek için **Yeni** 'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. **İş sınıfları** bölümünde, kılavuza satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş sınıfı kodu:** *QC Check*
@@ -243,12 +243,12 @@ Mobil cihazların **Kalite Denetimi** işlevini gerçekleştirebilmesi için bir
 
     - **İş emri türü:** *Kalite denetiminde kalite*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 #### <a name="purchase-order-line-receiving"></a>Satınalma siparişi satırı teslim alma
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri** 'ne gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. Üst bilgide aşağıdaki değerleri ayarlayın:
 
     - **Menü madde adı:** *Satınalma siparişi satın alma*
@@ -262,17 +262,17 @@ Mobil cihazların **Kalite Denetimi** işlevini gerçekleştirebilmesi için bir
     - **Plaka oluştur:** *Evet*
     - **İş şablonu:** *51 SAS Girişi*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 #### <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Mobil cihaz menüsüne menü öğesi ekleme
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü** 'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü**'ne gidin.
 1. Sol bölmede, **Gelen** menüsünü seçin.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Mevcut menüler ve menü öğeleri** sütununda, yeni **SAS satırı alma** menüsü öğesini bulup seçin.
-1. **SAS satırı alma** 'yı **Menü yapısı** sütununa taşımak için sağ ok düğmesini seçin.
-1. **Menü yapısı** sütununda, **SAS satırı alma** 'yı seçin ve ardından menü öğesini mobil cihaz menüsünde istediğiniz konuma taşımak için yukarı ok veya aşağı ok düğmesini seçin.
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. **SAS satırı alma**'yı **Menü yapısı** sütununa taşımak için sağ ok düğmesini seçin.
+1. **Menü yapısı** sütununda, **SAS satırı alma**'yı seçin ve ardından menü öğesini mobil cihaz menüsünde istediğiniz konuma taşımak için yukarı ok veya aşağı ok düğmesini seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Örnek senaryo
 
@@ -280,21 +280,21 @@ Daha önce açıklanan örnek verilerin tümünü kullanılabilir hale getirip a
 
 ### <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
 
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Satın alma siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Satıcı hesabı:** *104*
     - **Ambar:** *51*
 
-1. İletişim kutusunu kapatmak ve yeni satın alma siparişini açmak için **Tamam** 'ı seçin.
+1. İletişim kutusunu kapatmak ve yeni satın alma siparişini açmak için **Tamam**'ı seçin.
 1. **Satın alma siparişi satırları** hızlı sekmesine, kılavuzda yeni, boş bir satır bulunur. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *M9203*
     - **Miktar:** *3*
     - **Birim:** *PL*
 
-1. Eylem bölmesinde, **Kaydet** 'i seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 ### <a name="process-quality-check-receiving"></a>İşlem kalite denetimi alma
 
@@ -302,16 +302,16 @@ Satın alma siparişi oluşturulduktan sonra, **SAS satırı teslim alma** menü
 
 #### <a name="receive-pallet-1"></a>Palet 1'i alma
 
-1. Ambar uygulamasında ambar *51* 'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *51* , parola olarak *1* girin.)
+1. Ambar uygulamasında ambar *51*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *51*, parola olarak *1* girin.)
 1. **Gelen \> SAS satırı teslim alma** bölümüne gidin.
 1. **PONUM** alanına satın alma siparişi numaranızı girin.
 1. Satın alma siparişi numarasını doğrulayın.
 1. **LINENUM** alanına, alınmakta olan satın alma siparişinin numarasını girin. Bu senaryoda siparişin yalnızca bir satırı bulunduğundan, her teslim alma alma adımı için **LINENUM** alanına *1* girin.
 1. Satır numarasını onaylayın.
-1. **Miktar** alanına teslim alınacak miktarı girin. Bu senaryoda satın alma siparişi üç palet ( *PL* ) için olduğundan ve üç teslim alma adımı olduğundan her teslim alma adımı için **Miktar** alanına *1* girin.
+1. **Miktar** alanına teslim alınacak miktarı girin. Bu senaryoda satın alma siparişi üç palet (*PL*) için olduğundan ve üç teslim alma adımı olduğundan her teslim alma adımı için **Miktar** alanına *1* girin.
 1. Onaylanan miktar.
 
-    Açılan **Kalite denetimi** sayfasında hiç giriş alanı yok. Yalnızca en altta bulunan onay (onay işareti) düğmesi ve en üstteki Menü düğmesi ( **≡** ) var. (Menü düğmesine bazen hamburger veya hamburger düğmesi denir.) Kalite denetimi işlemini hızlandırmak için palet kalite denetimini geçtiğinde kullanıcının yalnızca **Kalite denetimi** sayfasını onaylaması yeterlidir.
+    Açılan **Kalite denetimi** sayfasında hiç giriş alanı yok. Yalnızca en altta bulunan onay (onay işareti) düğmesi ve en üstteki Menü düğmesi (**≡**) var. (Menü düğmesine bazen hamburger veya hamburger düğmesi denir.) Kalite denetimi işlemini hızlandırmak için palet kalite denetimini geçtiğinde kullanıcının yalnızca **Kalite denetimi** sayfasını onaylaması yeterlidir.
 
     ![Kalite denetimi sayfası](media/quality-check.png "Kalite denetimi sayfası")
 
@@ -342,7 +342,7 @@ Bu senaryo için palet 2 reddedilecektir.
 
     **Kalite denetimi** sayfası görüntülenir. Bu giriş için palet, kalite açısından reddedilecek ve *QMS* kalite konumuna yerleştirilecek.
 
-1. Sayfanın üst kısmındaki Menü düğmesini ( **≡** ) seçin ve ardından menüden **Reddet** 'i seçin.
+1. Sayfanın üst kısmındaki Menü düğmesini (**≡**) seçin ve ardından menüden **Reddet**'i seçin.
 1. Görüntülenen **Görev** sayfasında, paletin daha fazla inceleme için gönderileceği *Yerine koyma* konumu konumu olarak **QMS** girin.
 
     Açılan **Kalite denetiminde kalite: Yerine koyma** sayfası, yerine koyma işinin ayrıntılarını gösterir:
@@ -361,7 +361,7 @@ Bu senaryo için palet 2 reddedilecektir.
 
     Satın alma siparişi satırı teslim alma **Görev** sayfasında, "İş Tamamlanadı" iletisi alırsınız. Bir sonraki paleti almaya başlamak için **LINENUM** alanı kullanılabilir.
 
-Kalite denetimini tamamladınız ve reddedilmiş palet için bir kalite emri oluşturdunuz. Oluşturulan emri görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri** 'ne gidin.
+Kalite denetimini tamamladınız ve reddedilmiş palet için bir kalite emri oluşturdunuz. Oluşturulan emri görüntülemek için **Stok Yönetimi \> Periyodik görevler \> Kalite yönetimi \> Kalite emirleri**'ne gidin.
 
 Kalite emri testleri artık işlenebilir. Kalite testi bu konuda ele alınmamaktadır.
 
@@ -394,6 +394,6 @@ Bu senaryo için palet 3 kabul edilecektir.
 
     Satın alma siparişi satırı teslim alma **Görev** sayfasında, "İş Tamamlanadı" iletisi alırsınız. Bir sonraki paleti almaya başlamak için **LINENUM** alanı kullanılabilir.
 
-1. Sayfanın üst kısmındaki Menü düğmesini ( **≡** ) seçin ve ardından menüden **İptal** 'i seçerek menüye dönün.
+1. Sayfanın üst kısmındaki Menü düğmesini (**≡**) seçin ve ardından menüden **İptal**'i seçerek menüye dönün.
 
 Artık mobil uygulamayı kapatabilirsiniz.

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187372"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448699"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Ters işlemli amortismanın etkileri
 

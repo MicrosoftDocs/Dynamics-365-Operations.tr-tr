@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628897"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448669"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Sabit kıymet alımları teklif etme
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759460"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449036"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobil çalışma alanının maliyet denetimi
 
@@ -36,7 +36,7 @@ Bu mobil çalışma alanı, Finance and Operations mobil uygulaması ile kullan�
 ## <a name="overview"></a>Genel bakış
 **Maliyet denetleme** mobil çalışma alanı, maliyet merkezlerinin mevcut performansı hakkında anında bilgiyi, ffili maliyetleri, bütçelendirilmiş maliyete kıyaslayarak sağlar. Tekil maliyet öğelerinin durumunun detayına inebilirsiniz.
 
-Örneğin, bir personel uluslararası bir konferansa davetiye almıştır ancak kuruluşun tüm seyahat masraflarını üstlenmesi gerekir. Personel, yöneticisi kendi konferansa katılıp katılamayacağını sorar. Yönetici, personelin konferansa katılması için bütçeye sahip olup olmadığını görmek için mobil cihazında **Maliyet denetimi** mobil çalışma alanını açar.
+Örneğin, bir personel uluslararası bir konferansa davetiye almıştır ancak kuruluşun tüm seyahat masraflarını üstlenmesi gerekir. Personel, yöneticisine konferansa katılıp katılamayacağını sorar. Yönetici, personelin konferansa katılması için bütçenin olup olmadığını görmek için mobil cihazında **Maliyet denetimi** mobil çalışma alanını açar.
 
 ### <a name="data-security"></a>Veri güvenliği
 **Maliyet denetimi** mobil çalışma alanındaki veriler, kullanıcı kimlik bilgileriyle güvenlik altına alınır. Maliyet merkezi yöneticilerinin yalnızca kendi maliyet merkezleri için verileri görmelerine izin verilir. Erişim düzeyi güvenliği **Maliyet muhasebesi** modülünde yönetilir.
@@ -63,7 +63,7 @@ Maliyet muhasebecileri, **Maliyet muhasebesi** modülünde **Maliyet denetimi** 
     -   Fiili - bütçe (günümüze kadar yıl) karşılaştırması
     -   Fiili - revize edilmiş bütçe (günümüze kadar yıl) karşılaştırması
 
-    Aşağıda tutarlar tüm kartlar üzerinde gösterilir: Fiili, Bütçe, Fark ve Fark %'si.
+    Şu tutarlar tüm kartlarda gösterilir: Fiili, Bütçe, Fark ve Fark Yüzdesi.
 
 -   **Bağlantılar:**
 
@@ -71,7 +71,7 @@ Maliyet muhasebecileri, **Maliyet muhasebesi** modülünde **Maliyet denetimi** 
     -   Önceki dönem için ayrıntılar
     -   Yıl başından bu güne için ayrıntılar
 
-    Bir bağlantıyı seçtiğinizde, her bir maliyet öğesi için bir kart gösterilir. Her kart için aşağıdaki tutarlar gösterilir: Fiili, Bütçe, Bütçe farkı, Bütçe farkı %'si, Revize edilmiş bütçe, Revize edilmiş farkı ve Revize edilmiş farkı %'si.
+    Bir bağlantıyı seçtiğinizde, her bir maliyet öğesi için bir kart gösterilir. Her kart için aşağıdaki tutarlar gösterilir: Fiili, Bütçe, Bütçe farkı, Bütçe farkı yüzdesi, Revize edilmiş bütçe, Revize edilmiş bütçe farkı ve Revize edilmiş bütçe farkı yüzdesi.
     
     [![Bir maliyet öğesi için kart ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 

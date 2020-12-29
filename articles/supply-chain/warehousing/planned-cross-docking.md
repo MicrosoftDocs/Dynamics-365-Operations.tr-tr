@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017771"
+ms.locfileid: "4439698"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -51,8 +51,8 @@ Her gelen sipariş alındığında, çapraz sevk kurulumu çapraz sevk gereksini
 
 Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır. Özelliği açtıktan sonra, yöntemleri yeniden oluşturmanız gerekir.
 
-1. **Ambar yönetimi \> Kurulum \> Yükleme deftere nakil yöntemleri** 'ne gidin.
-1. Eylem bölmesinde, **Yöntemleri yeniden oluştur** 'u seçin.
+1. **Ambar yönetimi \> Kurulum \> Yükleme deftere nakil yöntemleri**'ne gidin.
+1. Eylem bölmesinde, **Yöntemleri yeniden oluştur**'u seçin.
 
     Yeniden oluşturma işlemi tamamlanınca **Yöntem adı** değeri *planCcrossDocking* olan bir yöntem göreceksiniz.
 
@@ -60,8 +60,8 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
 ### <a name="create-a-cross-docking-template"></a>Bir çapraz sevk şablonu oluşturma
 
-1. **Ambar yönetimi \> Kurulum \> İş \> Çapraz sevk şablonları** 'na gidin.
-1. Eylem bölmesinde, bir şablon oluşturmak için **Yeni** 'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> İş \> Çapraz sevk şablonları**'na gidin.
+1. Eylem bölmesinde, bir şablon oluşturmak için **Yeni**'yi seçin.
 1. Üst bilgide aşağıdaki değerleri ayarlayın:
 
     - **Sıra:** *1*
@@ -77,7 +77,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
     - **Talep gereksinimleri:** *Yok*
 
-        Bu alan talep stoku gereksinimlerini tanımlar. Talebin serbest bırakmadan önce tedarikle bağlantılı olması gerekiyorsa *İşaretleme* 'yi seçin. Talebin serbest bırakmadan önce tedarike göre sipariş rezervasyonunun yapılması gerekiyorsa *Sipariş rezervasyonu* 'nu seçin.
+        Bu alan talep stoku gereksinimlerini tanımlar. Talebin serbest bırakmadan önce tedarikle bağlantılı olması gerekiyorsa *İşaretleme*'yi seçin. Talebin serbest bırakmadan önce tedarike göre sipariş rezervasyonunun yapılması gerekiyorsa *Sipariş rezervasyonu*'nu seçin.
 
     - **Bulma türü:** *Sevkiyat yerleşimleri*
 
@@ -109,7 +109,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
         *İlk sona eren ilk çıkar (FEFO) ölçütleri:* Bu alan, ambardaki mevcut ilk sona eren toplu işlemin bitiş tarihi ve alınmakta olan toplu işlem arasındaki maksimum gün sayısını tanımlar.
 
-1. **Tedarik kaynakları** hızlı sekmesinde, bu şablon için geçerli olan tedarik tiplerini belirtirsiniz. **Yeni** 'yi seçin ve aşağıdaki değerleri ayarlayın:
+1. **Tedarik kaynakları** hızlı sekmesinde, bu şablon için geçerli olan tedarik tiplerini belirtirsiniz. **Yeni**'yi seçin ve aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** *1*
     - **Tedarik kaynağı:** *Satınalma siparişi*
@@ -117,7 +117,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 ### <a name="create-a-work-class"></a>İş sınıfı oluşturma
 
 1. **Ambar yönetimi \> Kurulum \> İş \> İş sınıfları** seçeneğine gidin.
-1. Eylem bölmesinde, bir iş sınıfı oluşturmak için **Yeni** 'yi seçin.
+1. Eylem bölmesinde, bir iş sınıfı oluşturmak için **Yeni**'yi seçin.
 1. Aşağıdaki değerleri ayarlayın:
 
     - **İş sınıfı kodu:** *CrossDock*
@@ -126,28 +126,28 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
 ### <a name="create-a-work-template"></a>İş şablonu oluşturma
 
-1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları**'na gidin.
 1. **İş emri türü** alanını *Çapraz sevk* olarak ayarlayın.
-1. Eylem bölmesinde, **Genel bakış** sekmesine satır eklemek için **Yeni** 'yi seçin.
+1. Eylem bölmesinde, **Genel bakış** sekmesine satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** *1*
     - **İş şablonu:** *51 Çapraz Sevk*
     - **İş şablonu açıklaması:** *51 Çapraz Sevk*
 
-1. **İş Şablonu Ayrıntıları** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. **İş Şablonu Ayrıntıları** hızlı sekmesinde, kılavuza satır için **Yeni** 'yi seçin.
+1. **İş Şablonu Ayrıntıları** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet**'i seçin.
+1. **İş Şablonu Ayrıntıları** hızlı sekmesinde, kılavuza satır için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş türü:** *Çekme*
     - **İş sınıfı kodu:** *CrossDock*
 
-1. **Yeni** 'yi seçerek bir satır daha ekleyin ve üzerinde aşağıdaki değerleri ayarlayın:
+1. **Yeni**'yi seçerek bir satır daha ekleyin ve üzerinde aşağıdaki değerleri ayarlayın:
 
     - **İş türü:** *Yerine koyma*
     - **İş sınıfı kodu:** *CrossDock*
 
-1. **Kaydet** 'i seçin ve *51 Çapraz Sevk* şablonu için **Geçerli** onay kutusunun işaretlendiğini onaylayın.
+1. **Kaydet**'i seçin ve *51 Çapraz Sevk* şablonu için **Geçerli** onay kutusunun işaretlendiğini onaylayın.
 
 > [!NOTE]
 > *Çekme* ve *Koyma* iş türleri için iş sınıfı kodları aynı olmalıdır.
@@ -156,7 +156,7 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
 1. **Ambar Yönetimi \> Kurulum \> Konum yönergeleri** seçeneğine gidin.
 1. Sol bölmede, **İş emri türü** alanını *Çapraz sevk* olarak ayarlayın.
-1. Eylem bölmesinde **Yeni** 'yi seçin ve aşağıdaki değerleri ayarlayın:
+1. Eylem bölmesinde **Yeni**'yi seçin ve aşağıdaki değerleri ayarlayın:
 
     - **Sıra numarası:** *1*
     - **Ad:** *51 Çapraz Sevk Koyma*
@@ -164,22 +164,22 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **Tesis:** *5*
     - **Ambar:** *51*
 
-1. **Satırlar** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
+1. **Satırlar** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet**'i seçin.
+1. **Satırlar** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Başlangıç miktarı:** *1*
     - **Son miktar:** *1000000*
 
-1. **Yerleşim Yönergesi Eylemleri** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. **Konum Yönerge Eylemleri** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
+1. **Yerleşim Yönergesi Eylemleri** hızlı sekmesini kullanılabilir hale getirmek için **Kaydet**'i seçin.
+1. **Konum Yönerge Eylemleri** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **Ad:** *Baydoor*
     - **Sabit yerleşim kullanımı:** *Sabit ve sabit olmayan yerleşimler*
 
-1. **Yerleşim Yönergesi Eylemleri** araç çubuğunda **Sorguyu düzenle** düğmesini kullanılabilir hale getirmek için **Kaydet** 'i seçin.
-1. Sorgu düzenleyicisini açmak için **Sorguyu düzenle** 'yi seçin.
+1. **Yerleşim Yönergesi Eylemleri** araç çubuğunda **Sorguyu düzenle** düğmesini kullanılabilir hale getirmek için **Kaydet**'i seçin.
+1. Sorgu düzenleyicisini açmak için **Sorguyu düzenle**'yi seçin.
 1. **Aralık** sekmesinde, aşağıdaki iki satırın yapılandırıldığından emin olun:
 
     - Satır 1:
@@ -196,20 +196,20 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
         - **Alan:** *Yerleşim*
         - **Ölçüt:** *Baydoor*
 
-1. Sorgu düzenleyicisini kapatmak için **Tamam** 'ı seçin.
+1. Sorgu düzenleyicisini kapatmak için **Tamam**'ı seçin.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri** 'ne gidin.
-1. Sol bölmedeki menü öğeleri listesinde, **Satınalma yerine koyma** 'yı seçin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Sol bölmedeki menü öğeleri listesinde, **Satınalma yerine koyma**'yı seçin.
 1. **Düzenle** öğesini seçin.
-1. **İş sınıfları** hızlı sekmesinde, kılavuza satır eklemek için **Yeni** 'yi seçin.
+1. **İş sınıfları** hızlı sekmesinde, kılavuza satır eklemek için **Yeni**'yi seçin.
 1. Yeni satırda aşağıdaki değerleri ayarlayın:
 
     - **İş sınıfı kodu:** *CrossDock*
     - **İş emri türü:** *Çapraz sevk*
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
 ## <a name="scenario"></a>Senaryo
 
@@ -217,14 +217,14 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
 Tedarik kaynağı olarak bir satınalma siparişi oluşturmak için bu adımları izleyin.
 
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Satın alma siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Satıcı hesabı:** *104*
     - **Ambar:** *51*
 
-1. **Tamam** 'ı seçin ve sipariş numarasını not alın.
+1. **Tamam**'ı seçin ve sipariş numarasını not alın.
 1. **Satınalma siparişi satırları** hızlı sekmesine yeni bir satır eklenir. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *A0001*
@@ -234,14 +234,14 @@ Tedarik kaynağı olarak bir satınalma siparişi oluşturmak için bu adımlar�
 
 Talep kaynağı olarak bir satış siparişi oluşturmak için bu adımları izleyin.
 
-1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri hesabı:** *US-002*
     - **Ambar:** *51*
 
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. **Satış siparişi satırları** hızlı sekmesine yeni bir satır eklenir. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** *A0001*
@@ -251,18 +251,18 @@ Talep kaynağı olarak bir satış siparişi oluşturmak için bu adımları izl
 
 Planlanmış çapraz sevki satış siparişinden oluşturmak için bu adımları izleyin.
 
-1. Az önce oluşturduğunuz satış siparişinin **Satış siparişi ayrıntıları** sayfasında, eylem bölmesindeki **Ambar** sekmesinde, **Eylemler** grubunda **Ambara serbest bırak** 'ı seçin.
+1. Az önce oluşturduğunuz satış siparişinin **Satış siparişi ayrıntıları** sayfasında, eylem bölmesindeki **Ambar** sekmesinde, **Eylemler** grubunda **Ambara serbest bırak**'ı seçin.
 
     Ambara serbest bırakma eylemi, satış siparişi satırı için bir sevkiyat ve yükleme satırı oluşturur ve stok tahsis etmeye çalışır.
     
     Bir bilgi iletisi alırsınız. Ayrıca şu uyarı iletisini alırsınız: "Dalga XXXX için iş oluşturulmadı. Ayrıntılar için iş oluşturma geçmişi günlüğüne bakın." Ambarda stok bulunmadığı için bu davranış olağandır.
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Ambar** menüsünde **Sevkiyat ayrıntıları** 'nı seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Ambar** menüsünde **Sevkiyat ayrıntıları**'nı seçin.
 
     **Sevkiyat ayrıntıları** sayfası görüntülenir ve satış siparişi için oluşturulan sevkiyatı gösterir.
 
 1. **Yük satırları** hızlı sekmesinde, **Planlanmış çapraz sevk miktarı** alanının *3* olarak ayarlandığına dikkat edin. Ambarda stok mevcut olmadığı halde çapraz sevk şablonunda tanımlanan zaman aralığında geçerli tedarik kaynağı geleceği için, çapraz sevk miktarı oluşturulmuştur.
-1. **Yük satırları** hızlı sekmesinde, oluşturulan çapraz sevkin ayrıntılarını görüntülemek için **Planlanmış çapraz sevk** 'i seçin.
+1. **Yük satırları** hızlı sekmesinde, oluşturulan çapraz sevkin ayrıntılarını görüntülemek için **Planlanmış çapraz sevk**'i seçin.
 
 ## <a name="process-the-cross-docking"></a>Çapraz sevki işleme
 
@@ -270,48 +270,48 @@ Planlanmış çapraz sevki satış siparişinden oluşturmak için bu adımları
 
 Sistem, satınalma siparişindeki 5 miktarını teslim alma yerleşimine alır ve iki iş parçası oluşturur.
 
-Oluşturulan ilk iş kodunun **İş emri türü** değeri *Çapraz sevk* 'tir ve satış siparişine bağlıdır. Miktar değeri 3'tür ve hemen sevk edilebilmesi için son sevkiyat yerleşimine yönlendirilir.
+Oluşturulan ilk iş kodunun **İş emri türü** değeri *Çapraz sevk*'tir ve satış siparişine bağlıdır. Miktar değeri 3'tür ve hemen sevk edilebilmesi için son sevkiyat yerleşimine yönlendirilir.
 
-Oluşturulan ikinci iş kodunun **İş emri türü** değeri *Satınalma siparişleri* 'dir ve satınalma siparişine bağlıdır. Kalan miktarı 2 olan bu parça çapraz sevk edilmemiştir ve depoda yerine koymaya yönlendirilir.
+Oluşturulan ikinci iş kodunun **İş emri türü** değeri *Satınalma siparişleri*'dir ve satınalma siparişine bağlıdır. Kalan miktarı 2 olan bu parça çapraz sevk edilmemiştir ve depoda yerine koymaya yönlendirilir.
 
 1. Mobil cihazda *51* kodlu ambarda bir kullanıcı olarak oturum açın.
-1. **Gelen \> Satınalma Teslim Alma** 'ya gidin.
+1. **Gelen \> Satınalma Teslim Alma**'ya gidin.
 1. **PONum** alanına satınalma sipariş numaranızı girin.
 1. **Miktar** alanına *5* girin.
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. Sonraki sayfada, **Madde** alanını *A0001* olarak ayarlayın.
-1. **Tamam** 'ı seçin.
-1. Sonraki sayfada, **Tamam** 'ı seçerek **PONum** , **Madde** ve **Miktar** değerlerini onaylayın.
+1. **Tamam**'ı seçin.
+1. Sonraki sayfada, **Tamam**'ı seçerek **PONum**, **Madde** ve **Miktar** değerlerini onaylayın.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
-1. Çıkmak için **İptal** 'i seçin.
+1. Çıkmak için **İptal**'i seçin.
 
 ### <a name="put-away-to-cross-docking-and-bulk"></a>Çapraz sevk ve toplu işlem için yerine koyma
 
-Şu anda her iki iş kodunun da hedef plakası aynıdır. Sonraki adımları tamamlamak için iş kodunu ve hedef plaka kodunu almanız gerekir. Bu bilgileri satınalma siparişi satırı ve satış siparişi satırı ile ilgili iş ayrıntılardan edinebilirsiniz. Alternatif olarak, **Ambar yönetimi \> İş \> İş ayrıntıları** 'na gidip **Ambar** değerinin *51* olduğu işi filtreleyebilirsiniz.
+Şu anda her iki iş kodunun da hedef plakası aynıdır. Sonraki adımları tamamlamak için iş kodunu ve hedef plaka kodunu almanız gerekir. Bu bilgileri satınalma siparişi satırı ve satış siparişi satırı ile ilgili iş ayrıntılardan edinebilirsiniz. Alternatif olarak, **Ambar yönetimi \> İş \> İş ayrıntıları**'na gidip **Ambar** değerinin *51* olduğu işi filtreleyebilirsiniz.
 
-1. Mobil cihazda **Gelen \> Satın alma yerine koyma** 'ya gidin ve işin hedef plakasını girin.
+1. Mobil cihazda **Gelen \> Satın alma yerine koyma**'ya gidin ve işin hedef plakasını girin.
 1. **Kod** alanına, iş ayrıntılarından alınan hedef plaka kodunu girin.
 
-    Çapraz sevk çekme sayfası, malzeme çekme yerleşimini ( *RECV* ), hedef plakayı ( *plaka* ), maddeyi ( *A0001* ) ve miktarı ( *3* ) gösterir.
+    Çapraz sevk çekme sayfası, malzeme çekme yerleşimini (*RECV*), hedef plakayı ( *plaka*), maddeyi (*A0001*) ve miktarı ( *3*) gösterir.
 
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. **Hedef Plaka** alanına, sevkiyat yerleşimine yerleştirilmesi (çapraz sevk edilmesi) gereken plaka kodu için bir hedef plaka girin. İstediğiniz herhangi bir plaka kodunu seçebilirsiniz.
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. Sonraki sayfada, **Kod** alanına, hedef plaka kodunu girin.
-1. **Tamam** 'ı seçin.
-1. Kalan 2 miktarını çekmek için işi onaylayın ve **Tamam** 'ı seçin.
-1. Sonraki sayfada, malzeme çekme işlemini bitirmek ve yerine koyma işlemine başlamak için **Bitti** 'yi seçin.
+1. **Tamam**'ı seçin.
+1. Kalan 2 miktarını çekmek için işi onaylayın ve **Tamam**'ı seçin.
+1. Sonraki sayfada, malzeme çekme işlemini bitirmek ve yerine koyma işlemine başlamak için **Bitti**'yi seçin.
 
     Mobil uygulama, size, maddenin yerleştirileceği yerleşimi ve plakayı verir.
 
-1. **Tamam** 'ı seçerek toplu depolama **Koyma** işlemini onaylayın.
-1. Sonraki sayfada, **Tamam** 'ı seçerek çapraz sevk **Koyma** işlemini onaylayın.
+1. **Tamam**'ı seçerek toplu depolama **Koyma** işlemini onaylayın.
+1. Sonraki sayfada, **Tamam**'ı seçerek çapraz sevk **Koyma** işlemini onaylayın.
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
-1. Çıkmak için **İptal** 'i seçin.
+1. Çıkmak için **İptal**'i seçin.
 
 Aşağıdaki şekil, tamamlanmış çapraz sevk işinin Microsoft Dynamics 365 Supply Chain Management'ta nasıl görünebileceğini gösteriyor.
 

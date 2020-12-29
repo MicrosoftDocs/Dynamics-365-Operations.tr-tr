@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976559"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448779"
 ---
 # <a name="credit-management-parameters-setup"></a>Kredi yönetimi parametreleri kurulumu
 
@@ -74,7 +74,7 @@ Bazı deftere nakil denetim noktaları için mehil gün sayısı belirtebilirken
 ### <a name="credit-limits"></a>Alacak limitleri
 
 - Kredi yönetiminde, müşteri kredi limiti müşterinin para birimiyle gösterilir. Müşterinin para biriminde kredi limiti için döviz kuru türünü tanımlamanız gerekir. **Kredi limiti döviz kuru türü** alanında, birincil kredi limitini müşterinin kredi limitine dönüştürmek için kullanılması gereken döviz kuru türünü seçin.
-- Kullanıcıların kredi limitlerini**Müşteri** sayfasında düzenlemelerini engellemek için **Kredi limitlerinin el ile düzenlenmesine izin ver** seçeneğini **Hayır** yapın. Bu seçenek **Hayır** olarak ayarlanırsa, müşterinin kredi limitindeki değişiklikler yalnızca kredi limiti düzeltme hareketleriyle yapılabilir.
+- Kullanıcıların kredi limitlerini **Müşteri** sayfasında düzenlemelerini engellemek için **Kredi limitlerinin el ile düzenlenmesine izin ver** seçeneğini **Hayır** yapın. Bu seçenek **Hayır** olarak ayarlanırsa, müşterinin kredi limitindeki değişiklikler yalnızca kredi limiti düzeltme hareketleriyle yapılabilir.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numara serileri ve paylaşılan numara serisi parametreleri
 

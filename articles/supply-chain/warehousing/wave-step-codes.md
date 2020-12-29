@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017817"
+ms.locfileid: "4439707"
 ---
 # <a name="wave-step-codes"></a>Dalga adım kodları
 
@@ -46,7 +46,7 @@ Bu demo için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şirke
 
 Dalga adımı kodları özelliğini açmak için bu adımları izleyin.
 
-1. **Özellik yönetimi** 'ne gidin.
+1. **Özellik yönetimi**'ne gidin.
 2. **Organizasyon çapında dalga adım kodu** adı verilen özelliği etkinleştirmek için seçin.
 
 Tüm yasal varlıklarda varolan tüm dalga adımı serbest metinleri yeni yapıya yükseltilir. Tüm yasal varlıklar için bu yükseltme tamamlandıktan sonra, özellik etkinleştirilir. Özellik bir veya daha fazla tüzel kişilikler için etkinleştirilemez, geçerli varlıklar için özellik etkinleştirilmez.
@@ -59,7 +59,7 @@ Etkinleştirme sırasında, veri yükseltme sırasında doğrulama yapılır. Y�
 
 Doğrulamalar sırasında tanımlanan çakışmaları çözümledikten sonra özelliği etkinleştirmeyi yeniden deneyebilirsiniz.
 
-Özellik etkinleştirilirse **Dalga adımı kodları** sayfası ( **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları** ) kullanılabilir duruma gelir. Kurum Genelinde Dalga Adımı Kodu özelliği etkinse, bu sayfada, yükseltilmiş dalga adımı kodları listelenir.
+Özellik etkinleştirilirse **Dalga adımı kodları** sayfası (**Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları**) kullanılabilir duruma gelir. Kurum Genelinde Dalga Adımı Kodu özelliği etkinse, bu sayfada, yükseltilmiş dalga adımı kodları listelenir.
 
 ### <a name="create-new-wave-step-codes"></a>Yeni dalga adımı kodları oluşturma
 
@@ -85,10 +85,10 @@ Bu listedeki şablonlar, bir dalga şablonunda seçilen bir dalga işlemi yönte
 
 Aşağıdaki yordam, oluşturduğunuz stok yenileme şablonunun dalga şablonu için uygulanmasını garantilemeye yardımcı olur.
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları** 'na gidin ve **Stok yenileme** türü için bir dalga adımı kodu oluşturun.
-2. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları** 'na gidin ve bir stok yenileme şablonu oluşturun.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga adımı kodları**'na gidin ve **Stok yenileme** türü için bir dalga adımı kodu oluşturun.
+2. **Ambar yönetimi \> Kurulum \> Stok yenileme \> Stok yenileme şablonları**'na gidin ve bir stok yenileme şablonu oluşturun.
 3. Stok yenileme şablonunda, **Stok yenileme** türü için oluşturduğunuz dalga adımı kodunu seçin.
-4. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin ve kullanmayı düşündüğünüz dalga şablonunu seçin.
+4. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin ve kullanmayı düşündüğünüz dalga şablonunu seçin.
 5. Şablonda, **Yöntemler** hızlı sekmesinde **Stok yenileme** yöntemini seçin.
 6. **Dalga adımı kodu** alanında, stok yenileme şablonunda seçtiğiniz dalga adımı kodunu seçin.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
-ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618423"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449035"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Satıcı ödeme tekliflerini otomatikleştirme
 
@@ -66,7 +66,7 @@ Sihirbazdaki sonraki sayfa **satıcı ödeme teklifi** sayfasıdır. Bu, ödenme
 
 Son Tarih veya nakit iskontosu tarihine dayalı faturaları seçmek üzere "başlangıç" tarihi ve "bitiş" tarihi tanımlamak yerine, "bitiş" tarihini tanımlamak için **tarihe göre ölçüt tanımla** seçeneğini ve **bugüne kadarki ayarlama günleri sayısı** alanını kullanmanız gerekir. Ödeme teklifi için bir "başlangıç" tarihi kavramı yok.
 
-Varsayılan olarak, **Tarih ölçütünü tanımla**seçeneği **Hayır** olarak ayarlanır. Bu varsayılan değeri kullanırsanız, "bitiş" tarihi tanımlanmadığından, işlem çalıştırıldığında tüm faturalar ödeme için seçilecek.
+Varsayılan olarak, **Tarih ölçütünü tanımla** seçeneği **Hayır** olarak ayarlanır. Bu varsayılan değeri kullanırsanız, "bitiş" tarihi tanımlanmadığından, işlem çalıştırıldığında tüm faturalar ödeme için seçilecek.
 
 **Tarihe göre değer ölçütünü tanımla** seçeneğini **Evet** olarak ayarlarsanız faturanın çalıştığı tarihten önce veya sonra faturaların seçildiği tarihi tanımlamak için, **bugüne kadarki ayarlama günleri sayısı** alanını kullanın. Sayı pozitif, negatif veya 0 (sıfır) olabilir. Daha sonra sistem, vade sonu veya nakit iskontosu tarihleri, sürecin çalıştırıldığı tarihten önce veya sonra gelen gün sayısı olan faturalar ödemesine neden olacak. Örneğin, süresi Cuma günü Itibariyle veya bu tarihten önce olan tüm faturalarda, ödeme serisi, Çarşamba 'yı denetleyerek Tüm satıcılara ödeme oluşturur. Bu durumda, bitiş **bugüne kadarki ayarlama günleri sayısı** alanını **2** ' ye ayarlayın. Ödeme teklifinin oluşumu 25 Mart Çarşamba günü çalıştırıldığında, vade tarihi veya nakit iskontosu tarihi 27 Mart 'ta veya daha önce olan tüm faturalar ödeme için seçilir.
 
@@ -102,7 +102,7 @@ Satıcı ödeme teklifi Otomasyon serisi oluşturulduktan sonra, her bir ödemen
 
 [![Satıcı ödemeleri çalışma alanında işlem otomasyonu haftalık görünümü](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
-**Satıcı ödemeleri** çalışma alanında, işlem otomasyonu haftalık görünümü yalnızca satıcı ödeme teklifi tahminleri gösterir. Bu, geçerli hafta için tüm ödemelerin oluşumlarını, oturum açan kullanıcının güvenlik izinleri olan tüm yasal varlıklar için gösterir. Örneğin, USBMF ve USSI şirketlerinde bulunan ödemelerden BH ödeme memuru sorumlu ise, bu iki şirket için satıcı ödeme teklifi otomasyonunun tekrarlamalarını görür, ancak diğer şirketler için değil demektir.
+**Satıcı ödemeleri** çalışma alanında, işlem otomasyonu haftalık görünümü yalnızca satıcı ödeme teklifi tahminleri gösterir. Bu, geçerli hafta için tüm ödemelerin oluşumlarını, oturum açan kullanıcının güvenlik izinleri olan tüm yasal varlıklar için gösterir. Örneğin, USBMF ve USSI şirketlerinde bulunan ödemelerden BH ödeme memuru sorumlu ise, bu iki şirket için satıcı ödeme teklifi otomasyonunun tekrarlamalarını görür, ancak diğer şirketler için görmez.
 
 [![USMF ve USSI şirketleri için işlem otomasyonu haftalık görünümü](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
@@ -128,7 +128,7 @@ Ayrıca, her oluşumun durumu gösterilir. Aşağıdaki durumlar kullanılır:
 
 ## <a name="edit-a-vendor-payment-proposal-automation"></a>Satıcı ödemesi teklif otomasyonu düzenle
 
-İşlem Otomasyonu Çerçevesi ödemeyi, serileri ve ödeme teklifi için oluşturulan tekrarlamaları düzenlemenize olanak tanır. Seri, **İşlem otomasyonu** sayfasından veya işlem otomasyonu haftalık görünümünden düzenlenebilir. Örneğin, AP Yöneticisi yurtiçi satıcılar için tüm çekleri Pazartesi yerine Çarşamba günü oluşturmaya karar verirse, haftalık görünümde bir oluşumu bulabilir ve **Görünüm/Düzenle-seriler** 'i seçin. Bir seriyi düzenlerseniz, sistem değişikliğin tüm varolan oluşumlara mı yoksa yalnızca yeni oluşumlara mı getirilmeyeceğini belirtmenizi ister. **Tamamlandı** durumundaki veya **hata** durumunda sona ermiş olan geçmiş oluşumları değiştirilmez.
+İşlem Otomasyonu Çerçevesi ödemeyi, serileri ve ödeme teklifi için oluşturulan tekrarlamaları düzenlemenize olanak tanır. Seri, **İşlem otomasyonu** sayfasından veya işlem otomasyonu haftalık görünümünden düzenlenebilir. Örneğin, AP Yöneticisi yurtiçi satıcılar için tüm çekleri Pazartesi yerine Çarşamba günü oluşturmaya karar verirse, haftalık görünümde bir oluşum bulabilir ve **Görünüm/Düzenle-Seriler**'i seçebilir. Bir seriyi düzenlerseniz, sistem değişikliğin tüm varolan oluşumlara mı yoksa yalnızca yeni oluşumlara mı getirilmeyeceğini belirtmenizi ister. **Tamamlandı** durumundaki veya **hata** durumunda sona ermiş olan geçmiş oluşumları değiştirilmez.
 
 Ayrıca, yeni bir olay ekleyebilir veya varolan bir oluşumu değiştirebilirsiniz. Örneğin, sonraki ödeme teklifi oluşumu 1 Ocak, ancak bu tarih bir tatil olan Çarşamba çalışması için zamanlanır. Oluşumu **İşlem otomasyonu** sayfasından veya işlem otomasyonu haftalık görünümünden değiştriebilirsiniz. Zamanlama ayrıntılarını ve ödeme teklifi ölçütlerini gösteren bir sayfa açılır. Burada, planlanan saati ve tarihi düzenleyebilirsiniz. Ayrıca, değişiklik gerekiyorsa, ödeme teklif ölçütlerini düzenleyebilirsiniz. Örneğin, ödeme oluşumunun planlanan tarihini 1 Ocak ile 2 Ocak arasında değiştirirseniz, "bitiş" tarihi için de göreli tarihleri değiştirmek isteyebilirsiniz.
 

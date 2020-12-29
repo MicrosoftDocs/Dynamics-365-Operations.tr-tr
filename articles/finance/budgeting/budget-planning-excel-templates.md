@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772111"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448940"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel için bütçe planlama şablonları
 
@@ -67,7 +67,7 @@ Başlık bilgisi eklemek için, Excel dosyasındaki üst satırı seçin ve boş
 
 İmleci Excel dosyası üzerinde istenilen konuma getirin. Seçilen konuma alan etiketi eklemek için **Etiket ekle** üzerine tıklayın. Seçilen yere değer alanı eklemek için **Değer Ekle** seçeneğini işaretleyin. Tasarımcıyı kapatmak için **Kapat** üzerine tıklayın.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Değer Ekle'yi seçme](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Değer Ekle'yi seçme](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Bütçe planı belge şablonu tablosuna bir hesaplanmış sütun ekleyin
 --------------------------------------------------------------
@@ -120,7 +120,7 @@ Kullanıcıların onu kapatmasını engellemek için şablonu kilitlemeyi öneri
 
 Ek bir menü için oku tıklatın. **Kilidi** seçin.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Kilidi seçme](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Kilidi seçme](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Bütçe planı şablonlarımla hücre biçimlendirme, koşullu biçimlendirme ve grafikler gibi diğer Excel özelliklerini kullanabilir miyim?
 

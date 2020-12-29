@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 8f8e066b1df3eb3a26d488e1c014f4ae3f31395a
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3013175"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449034"
 ---
 # <a name="set-up-collections"></a>Koleksiyonları ayarla
 
@@ -96,7 +96,7 @@ NSF ödemeleri **Tahsilatlar** sayfasında tanımlandığında doğru günlüğe
 ### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Tahsilat müşteri ilgili kişileri için e-posta ve adres ayarları ayarlama
 Bu kişilere **Tahsilatlar** sayfasından e-posta iletileri göndermek istiyorsanız, müşteri ilgili kişi için e-posta adreslerini ayarlayın. Tahsilatlar ilgili kişisi, **Tahsilatlar** sayfasında varsayılan ilgili kişisi olarak kullanılır. Eğer bir müşteri için ekstrelerde birincil adresinden farklı bir adres kullanılacaksa, bunun için bir ekstre adresi ayarlayabilirsiniz. 
 
-Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kişisi** alanında, müşteri kuruluşta sizin tahsilat temsilcinizle işbirliği yapan kişiyi seçin. Bu kişi **Tahsilatlar** sayfasında varsayılan kişi olarak kullanılır ve e-posta iletileri ona gönderilir. 
+Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kişisi** alanında, müşteri kuruluşta sizin tahsilat temsilcinizle işbirliği yapan kişiyi seçin. Bu kişi **Tahsilatlar** sayfasında varsayılan kişi olarak kullanılır ve e-posta iletileri bu kişiye gönderilir. 
 
 > [!NOTE] 
 > Müşteri için, tahsilatlarla ilgili bir kişi belirtilmezse, müşteri için birincil ilgili kişi kullanılır. Eğer birincil bir ilgili kişi belirtilmemişse, e-posta iletileri **Kişiler** sayfasında ilk sırada listelenen kişiye gönderilir.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018087"
+ms.locfileid: "4439674"
 ---
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
@@ -42,7 +42,7 @@ Bir satıcı hesabı oluşturduğunuzda, satıcıyla ilgili bilgileri girersiniz
 -   Satıcı için vergi, teslimat, fatura ve ödeme bilgilerini girin. Bu ayarlar satıcı için oluşturduğunuz yeni belgelere varsayılan olarak kopyalanır.
 -   Mali hesaplara satıcı ile otomatik olarak hareketleri deftere aktarmak için kullanılan mali boyutları ayarlayın.
 
-Satıcı hesabı oluşturma işlemini hızlandırmak için şablonlar oluşturabilirsiniz. Bir şablon oluşturmak için **Satıcı** sayfasındaki Eylem Bölmesinde, **Seçenekler** &gt; **Kayıt bilgileri** 'ne tıklayın. Sonrasında **Şirket hesapları şablonu** 'na tıklayın. Şirket hesabı şablonları başka kullanıcılarla paylaşılabilir.  
+Satıcı hesabı oluşturma işlemini hızlandırmak için şablonlar oluşturabilirsiniz. Bir şablon oluşturmak için **Satıcı** sayfasındaki Eylem Bölmesinde, **Seçenekler** &gt; **Kayıt bilgileri**'ne tıklayın. Sonrasında **Şirket hesapları şablonu**'na tıklayın. Şirket hesabı şablonları başka kullanıcılarla paylaşılabilir.  
 
 Ayrıca, kendi kullanımınız için de bir kullanıcı şablonu oluşturabilirsiniz. Örneğin kişiler veya ürünler gibi başka kayıtlarla ilişkilendirilmiş bir satıcıyı silemezsiniz.
 
@@ -58,7 +58,7 @@ Her bir satıcı için, her biri farklı amaçlar için kullanılacak birden faz
 ## <a name="vendor-contacts"></a>Satıcı ilgili kişileri
 Bir satıcı için ilgili kişileri kaydedebilirsiniz. Bu kişiler, daha sonra teklifler (RFQs), satınalma siparişleri veya istekleri gibi belgelerde kullanılabilir.  
 
-Bir satıcıyla ilgili kişiler eklemek için **Tüm satıcılar** sayfasında **Satıcı** sekmesindeki **Ayarlama** grubunda, **İlgili Kişiler** &gt; **Kişi ekle** 'ye tıklayın.  
+Bir satıcıyla ilgili kişiler eklemek için **Tüm satıcılar** sayfasında **Satıcı** sekmesindeki **Ayarlama** grubunda, **İlgili Kişiler** &gt; **Kişi ekle**'ye tıklayın.  
 
 Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, halihazırda Supply Chain Management'ta kayıtlı bulunan bir başka kişiden ayrıntıları kopyalayabilir ve bilgileri ihtiyaç duyduğunuz şekilde düzenleyebilirsiniz.  
 
@@ -76,7 +76,7 @@ Kuruluşunuzdaki birden çok tüzel varlık aynı satıcıyla çalışıyorsa ve
 Parti kimliklerini birleştirmek için aşağıdaki adımları izleyin.
 
 1.  **Genel adres defteri** sayfasında, satıcıyı eşlemeye dahil edecek her bir tüzel varlıkta temsil edecek adres defteri kaydını seçin.
-2.  Eylem Bölmesinde, **Kayıtları Birleştir** 'e tıklayın.
+2.  Eylem Bölmesinde, **Kayıtları Birleştir**'e tıklayın.
 
 ## <a name="agreements"></a>Sözleşmeler
 Bir satıcı hesabı ayarladığınızda, bu satıcı ile sahip olduğunuz anlaşmaları da kaydetmek isteyebilirsiniz. Fiyat ve iskonto anlaşmalarını, satıcı kaydı üzerinde eylemler kullanarak ayarlayabilirsiniz. Ayrıca, **Satınalma anlaşması** sayfası üzerinde bir satınalma anlaşması da ayarlayabilirsiniz.
@@ -93,7 +93,7 @@ Bir satıcı hesabı ayarladığınızda, bu satıcı ile sahip olduğunuz anla�
 
 Bir satıcıyı beklemeye aldığınızda, bir sebep, tarih ve beklemeye alma durumunun biteceği bir tarih de belirleyebilirsiniz. Bir bitiş tarihi girmezseniz, satıcının beklemede olma durumu sonsuza kadar sürer.
 
-**Satıcı etkinliğini kaldırma** sayfasındaki kritere dayanarak satıcılar için durdurulma durumunu toplu olarak **Tümü** 'ne güncelleştirebilir ve bir satıcının durdurulma sebebini girebilirsiniz.
+**Satıcı etkinliğini kaldırma** sayfasındaki kritere dayanarak satıcılar için durdurulma durumunu toplu olarak **Tümü**'ne güncelleştirebilir ve bir satıcının durdurulma sebebini girebilirsiniz.
 
 Aşağıdaki ölçütler, bir süre için etkin olmayan satıcıları dahil etmek, personel olan satıcıları dahil etmek veya dışarıda bırakmak ve bir sonraki durdurulma zamanlarından önce yetkisiz bekleme süresinde olan satıcıları dışarıda bırakmak için kullanılır.
 

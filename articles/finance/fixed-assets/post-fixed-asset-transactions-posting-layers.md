@@ -1,7 +1,7 @@
 ---
 title: Sabit kıymet hareketlerini deftere nakil katmanlarında deftere nakletme
 description: Bu makalede sabit kıymet hareketleri için katman işlevlerinin deftere nakline genel bir bakış sunulmuştur.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770724"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493684"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Sabit kıymet hareketlerini deftere nakil katmanlarında deftere nakletme
 
@@ -39,8 +39,11 @@ Sabit kıymet günlükleri Genel muhasebe > Günlük ayarı > Günlük adları k
 
 Sabit kıymet hareketleri için Sabit kıymet nakil profilleri sayfasında genel muhasebe hesapları atayabilirsiniz. Her deftere nakil profili için ilgili hareket tipini ve defteri seçmeli ve ardından genel muhasebe kayıtlarını belirlemelisiniz. Her defter için genel muhasebeye nakleden bir deftere nakil profili kaydı ayarlayın.
 
+Sabit varlık yalnızca **Geçerli** deftere nakit katmanını destekleyen belgelere girilir (ör. **Satın alma siparişi**, **Bekleyen satıcı faturası**, **Satış siparişi** veya **Serbest metinli fatura**). Bu belgelerden herhangi birinde sabit varlık kimliğini seçerken varlık defteri **Geçerli** deftere nakil katmanına sahip defterle filtrelenir ve sistem, sabit varlık deftere nakil katmanının **Geçerli** olduğunu doğruladığında bu kimlik deftere nakil sırasında otomatik olarak doldurulur. Bu doğrulama tamamlanamazsa deftere nakil işlemi durdurulur. 
+
 > [!NOTE] 
-> Türetilmiş defterleri kullanarak hareketleri aynı anda farklı nakil katmanlarında deftere nakledebilirsiniz. Birincil defterin hareketlerini bir günlükte oluşturabilirsiniz. Burada nakil katmanı deftere nakil katmanına karşılık gelir. Deftere nakil sırasında türetilmiş defter hareketleri ilgili deftere nakil katmanlarına nakledilir.
+> Türetilmiş defterleri kullanarak hareketleri aynı anda farklı nakil katmanlarında deftere nakledebilirsiniz. Birincil defterin hareketleri bir günlükte veya nakil katmanı deftere nakil katmanına karşılık gelen bir kaynak belgede oluşturulur. Deftere nakil sırasında türetilmiş defter hareketleri uygun deftere nakil katmanlarına nakledilecektir. 
+
 
 Daha fazla bilgi için bkz. [Türetilmiş defterler](derived-books.md) ve [Türetilen defterlerle deftere nakletme](post-derived-value-models.md).
 

@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016271"
+ms.locfileid: "4439660"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Özel durum işleme için ambar işini iptal etme
 
@@ -29,7 +29,7 @@ ms.locfileid: "4016271"
 
 Microsoft Dynamics 365 Supply Chain Management'taki İşi iptal et işlevi, yönetici kullanıcının devam etmekte olan ancak sistem tarafından durdurulan veya olağanüstü durumlar nedeniyle tamamlanamayan belirli ambar işlerini iptal etmesine olanak tanır. Bu işlevsel, tutarsız verileri düzelten SQL düzeltme komut dosyaları için ilgi çekici ve güvenli bir alternatiftir. Ancak, bu komut dosyaları genellikle BT profesyonellerinden istense de, İşi iptal et işlevi şirkette yönetici haklarına sahip kullanıcılar tarafından kullanılabilir.
 
-İş iptal et işlevine **Ambar yönetimi** \> **Periyodik görevler** \> **Temizle \> İşi iptal et** 'ten erişebilirsiniz. **İşi iptal et** iletişim kutusunda iptal edilecek için iş kodunu belirtine ve **Tamam** 'ı seçin.
+İş iptal et işlevine **Ambar yönetimi** \> **Periyodik görevler** \> **Temizle \> İşi iptal et**'ten erişebilirsiniz. **İşi iptal et** iletişim kutusunda iptal edilecek için iş kodunu belirtine ve **Tamam**'ı seçin.
 
 ## <a name="warehouse-work-that-can-be-canceled"></a>İptal edilebilecek ambar işi
 
@@ -40,7 +40,7 @@ Ambar çekme işlemleri sırasında, bir çalışan bir depolama konumundan kend
 > [!NOTE]
 > Operasyonel nedenlerle iptal edilmesi gereken iş için ambar kullanıcıları iş sayfasındaki olağan İptal işlevini kullanmaya devam etmelidir.
 
-İşi iptal et işlevi kullanılarak yalnızca **Satış** , **Transfer çıkışı** , **Ham madde çekme** veya **Stok yenileme** türündeki iş iptal edilebilir. İptal mantığı dondurulan ham madde çekme işi veya normal İptal işlevi kullanılarak iptal edilebilecek iş için çalışmaz (önceki nota bakın).
+İşi iptal et işlevi kullanılarak yalnızca **Satış**, **Transfer çıkışı**, **Ham madde çekme** veya **Stok yenileme** türündeki iş iptal edilebilir. İptal mantığı dondurulan ham madde çekme işi veya normal İptal işlevi kullanılarak iptal edilebilecek iş için çalışmaz (önceki nota bakın).
 
 İşin engelini kaldırmak için sistem kalan tüm iş satırlarını iptal eder ve kullanıcının belirttiği iş koduyla ilişkilendirilmiş ambar verilerini düzeltir. Etkilenen madde miktarıyla ilgili normal ambar işleme operasyonları daha sonra devam edebilir.
 

@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: 7033999f7258e9ddd1d01620f9ad416e94ef3111
-ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "3407487"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448824"
 ---
 # <a name="print-the-sales-tax-payment-by-code-report"></a>Koda göre satış vergisi ödemesi raporunu yazdırma 
 

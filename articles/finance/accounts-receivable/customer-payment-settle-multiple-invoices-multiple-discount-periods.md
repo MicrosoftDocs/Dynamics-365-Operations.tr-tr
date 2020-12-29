@@ -1,6 +1,6 @@
 ---
 title: Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma
-description: Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
+description: Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit iskontolarının ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c592034ca9c777bbc600c040c61937ad71b4e36d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180395"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449038"
 ---
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
+Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit iskontolarının ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 
 Fabrikam, 4032 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde ödenirse yüzde 1'lik nakit iskontosu sunar. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 

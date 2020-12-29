@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 826a65af563207fbfbc7391b176aa0e65b3363f9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448889"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
 

@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 6cf81939989b8faffcda51bbbd5bc6b27aec7eea
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016321"
+ms.locfileid: "4439664"
 ---
 # <a name="additional-location-zones"></a>Ek yerleşim bölgeleri
 
@@ -42,19 +42,19 @@ Bölge alanlarını kullanmak için ek bir kurulum gerekmez.
 
 ## <a name="use-location-zones"></a>Yerleşim bölgelerini kullan
 
-1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum kurulum sihirbazı** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum kurulum sihirbazı**'na gidin.
 2. Aşağıdaki değerleri ayarlayın:
 
-    - **Ambar** alanında _62_ 'i seçin.
-    - **Bölge kodu** alanında _ZEMİN_ 'i seçin.
-    - **İlave Bölge 1** alanında _PICKZONE1_ 'i seçin.
-    - **İlave Bölge 2** alanında _WEBSHOP1_ 'i seçin.
-    - **Konum profil kimliği** alanında _ZEMİN_ 'i seçin.
+    - **Ambar** alanında _62_'i seçin.
+    - **Bölge kodu** alanında _ZEMİN_'i seçin.
+    - **İlave Bölge 1** alanında _PICKZONE1_'i seçin.
+    - **İlave Bölge 2** alanında _WEBSHOP1_'i seçin.
+    - **Konum profil kimliği** alanında _ZEMİN_'i seçin.
 
 3. **Zemin** satırını seçin.
 4. **Gönderen numarası** alanına _1_ girin. **Kime numarası** alanına _3_ girin.
 5. **Koridor** satırını seçin.
 6. **Gönderen numarası** alanına _1_ girin. **Kime numarası** alanına _5_ girin.
-7. **Oluştur** 'u seçin.
+7. **Oluştur**'u seçin.
 8. Yeni konumların eklendiğini bildiren iletiler alırsınız. İletileri görüntülemek için **iletileri göster** düğmesini seçin.
 9. **Ambar yönetimi \> Kurulum \> Ambar \> Konumlar** öğesine gidin. Yeni konumlar listede görünür ve tüm bölge alanları (yani, varolan bölge alanı ve yeni ek bölge alanları) kullanılabilir.

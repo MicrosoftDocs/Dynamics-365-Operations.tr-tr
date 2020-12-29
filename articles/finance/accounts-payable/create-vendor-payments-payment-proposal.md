@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180416"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448791"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
@@ -119,7 +119,7 @@ Boyut kontrolü, oluşturulan satırları ödeme tekliflerine göre gruplamayı 
 
 #### <a name="bank-account-selection"></a>Banka hesabı seçimi
 
-Ülke bağlamından bağımsız olarak her ödeme yöntemi için standart bir borçlandırma ödeme hesabı tanımlayabilirsiniz. Bu, bir teklif tarafından oluşturulan ödeme satırlarında ayarlanır. Banka hesabı özelliğiyle boyut ve para birimi veya her bir birleşime bağlı olarak farklı borçlandırma banka hesabı kullanmak için bunların bir birleşimi tarafından yönetilen birden çok borçlandırma banka hesabı tanımlayabilirsiniz. Bu bileşenleri **Deftere nakil hesabı türü** = **Banka** olan her ödeme yöntemi için kullanılabilir **Banka hesapları**'nı kullanarak **Ödeme yöntemleri**'nde ayarlayabilirsiniz.
+Ülke bağlamından bağımsız olarak her ödeme yöntemi için standart bir borçlandırma ödeme hesabı tanımlayabilirsiniz. Bu, bir teklif tarafından oluşturulan ödeme satırlarında ayarlanır. Banka hesabı özelliğiyle boyut ve para birimi veya her bir birleşime bağlı olarak farklı borçlandırma banka hesabı kullanmak için bunların bir birleşimi tarafından yönetilen birden çok borçlandırma banka hesabı tanımlayabilirsiniz. Bu bileşenleri **Deftere nakil hesabı türü** = **Banka** olan her ödeme yöntemi için kullanılabilir  **Banka hesapları**'nı kullanarak **Ödeme yöntemleri**'nde ayarlayabilirsiniz.
 
 
 

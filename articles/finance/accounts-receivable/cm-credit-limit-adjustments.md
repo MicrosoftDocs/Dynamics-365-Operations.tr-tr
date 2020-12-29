@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976583"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448781"
 ---
 # <a name="credit-limit-adjustments"></a>Alacak limiti ayarlamaları 
 
@@ -86,7 +86,7 @@ Varolan müşterilerden günlük satırları oluşturabilirsiniz. **Oluştur \> 
 1. Kredi limitinde bir tutar eklemek veya çıkarmak için bir ayarlama değeri girin. Geçerli kredi limitini azaltmak için negatif bir değer, artırmak için pozitif bir değer girin.
 2. **Değer türü** alanında, adım 1'de girdiğiniz değerin yeni kredi limitini hesaplamak için nasıl kullanılacağını seçin:
 
-    - Kredi limitini bir tutarla değiştirmek için **Sabit değer**i seçin.
+    - Kredi limitini bir tutarla değiştirmek için **Sabit değer** i seçin.
     - Kredi limitini bir yüzdeyle değiştirmek için **Yüzde**'yi seçin.
 
 3. Hesaplanan kredi limitini yuvarlamak için kullanılacak bir değer girin. Örneğin, kredi limitini en yakın 10,00 para birimine yuvarlamak için **10,00** girin.

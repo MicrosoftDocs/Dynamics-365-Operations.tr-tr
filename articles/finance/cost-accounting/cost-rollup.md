@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006178"
+ms.locfileid: "4448978"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -169,7 +169,7 @@ Maliyet öğesi boyut üyeleri aşağıdaki gibi ayarlanabilir.
 | **SC-CC003**  | **Montaj**  | **İkincil** |
 | **SC-CC004**  | **Paketleme** | **İkincil** |
 
-Boyut hiyerarşisi **Kar ve Zarar raporu** 'nun, boyut hiyerarşisinin raporlamaları ve ilkeleri tanımlamakta kullanılacak doğru verileri içermesi için yeni boyut üyeleri ile güncelleştirilmesi gerekiyor.
+Boyut hiyerarşisi **Kar ve Zarar raporu**'nun, boyut hiyerarşisinin raporlamaları ve ilkeleri tanımlamakta kullanılacak doğru verileri içermesi için yeni boyut üyeleri ile güncelleştirilmesi gerekiyor.
 
 **Boyut hiyerarşisi ayrıntıları**
 
@@ -211,7 +211,7 @@ Her maliyet merkezinin, karşılık gelen bir **İkincil** maliyet öğesine eş
 |---------|-------------------------|------------------------|------|--------|---------------|
 | 00002   | Maliyet tahsisatı günlüğü | Mali                 | 2017    | Dönem 1 | Genel gider hesaplama / 01-02-2017 23:51:00 / Genel muhasebe /2017 / Dönem 1 |
 
-Sistem şimdi **Maliyet yuvarlama ilkesi** 'ni, **Maliyet nesnesi bakiye günlüğü girdileri** 'ni oluşturduğunda uygulayacaktır.
+Sistem şimdi **Maliyet yuvarlama ilkesi**'ni, **Maliyet nesnesi bakiye günlüğü girdileri**'ni oluşturduğunda uygulayacaktır.
 
 **Maliyet nesnesi bakiyesi günlük girişleri**
 
@@ -272,7 +272,7 @@ Excel içerisinde Power Pivot raporlama örneği.
 |&nbsp;&nbsp;&nbsp;&nbsp;SC-CC004                             | 0.00            | 0.00           | 0.00          | 0.00          | 0.00          |
 | **Toplam**                   | **0,00**        | **0,00**       | **31.082,75** | **15.717,25** | **46.800,00** |
 
-**Maliyet yuvarlama ilkesi** ve **İkincil türdeki maliyet öğeleri** , dahili raporlama için maliyet nesnesi başına birincil maliyeti, **Genel gider hesaplaması** 'ndan sonra kalan birincil maliyet olarak bırakmanıza olanak sağlar.
+**Maliyet yuvarlama ilkesi** ve **İkincil türdeki maliyet öğeleri**, dahili raporlama için maliyet nesnesi başına birincil maliyeti, **Genel gider hesaplaması**'ndan sonra kalan birincil maliyet olarak bırakmanıza olanak sağlar.
 
 Aynı örnek **Maliyet yuvalarma ilkesi** oluşturmadan gerçekleştirilirse, raporlama sonucu aşağıda gösterilen gibi olur. Maliyet doğru şekilde akar ancak maliyetin maliyet merkezleri arasında nasıl aktığının izlenebilirliği ve bilgileri kaybolur.
 

@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143938"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448651"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Satıcı faturası kullanarak fatura verilerini AP'ye gir
 

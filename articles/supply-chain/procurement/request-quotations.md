@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd0ee376da52dc3b36ec32859283a410e5b71854
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018411"
+ms.locfileid: "4439712"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 
@@ -44,7 +44,7 @@ Aşağıdaki örnekte teklif talebi sürecine genel bakış verilmektedir.
 
 Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişten bir RFQ servis talebi oluşturabilirsiniz. RFQ servis talebi, her satıcıya bir RFQ vermek için kullandığınız temel belgedir.
 
-RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder** 'i (Kamu sektörü için **Gönder ve yayımla** ) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
+RFQ servis talebini hazırlayıp satıcıları ekledikten sonra RFQ servis talebinde **Gönder**'i (Kamu sektörü için **Gönder ve yayımla**) seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma seçeneklerini her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
 Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmamışsa, satıcılar tekliflerini doğrudan Supply Chain Management'ta girebilir. Daha fazla bilgi için bkz. [Harici müşterilerle satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ve [Harici satıcılarla satıcı işbirliği](vendor-collaboration-work-external-vendors.md).
 
@@ -52,7 +52,7 @@ Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi
 
 Teklifleri e-posta ile aldığınızda, bunları **Teklif talepleri** sayfasından işleyebilirsiniz.
 
-Bir satıcıdan gelen yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi** sayfasında **İade et** 'e tıklayın. İade eylemi yeni bir günlük oluşturur ve Yazdırma ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.
+Bir satıcıdan gelen yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve Yazdırma ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.
 
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ'da puanlama girebileceğiniz bir puanlama paneli bulunur. **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda toplam puanlar RFQ'da görüntülenir. **Yanıtları karşılaştır** sayfasında satır fiyatı, toplam fiyat ve teslimat tarihi gibi diğer yanıt verilerini de karşılaştırabilirsiniz.
 
@@ -73,9 +73,9 @@ Bir RFQ servis talebi oluşturmadan önce **Tedarik ve kaynak atama parametreler
 
 Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz.
 
-Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce RFQ servis talebindeki **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğini belirlemesi gerekir. Arından, RFQ servis talebi düzeltme ile güncelleştirildikten sonra, satın alma uzmanı, işlemi **Sonlandır** 'ı seçerek tamamlamalıdır. Sonlandır eylemi, satıcıları düzeltilen RFQ hakkında bilgilendiren bir e-posta oluşturur.
+Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce RFQ servis talebindeki **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğini belirlemesi gerekir. Arından, RFQ servis talebi düzeltme ile güncelleştirildikten sonra, satın alma uzmanı, işlemi **Sonlandır**'ı seçerek tamamlamalıdır. Sonlandır eylemi, satıcıları düzeltilen RFQ hakkında bilgilendiren bir e-posta oluşturur.
 
-**Tedarik ve kaynak atama parametreleri** sayfasından satıcılara gönderilecek e-posta bildirimi için kullanılacak şablonu seçebilirsiniz. **E-posta şablonları** 'nda bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
+**Tedarik ve kaynak atama parametreleri** sayfasından satıcılara gönderilecek e-posta bildirimi için kullanılacak şablonu seçebilirsiniz. **E-posta şablonları**'nda bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
 
 - %RFQ servis talebi%
 - %Teklifi iade nedeni%
@@ -105,7 +105,7 @@ Tedarik ve kaynak atamadaki **Form ayarı** sayfasında yazdırılan veya depola
 
 > [!NOTE]
 > Kamu sektörü yapılandırması için, gönderilen bir RFQ'da değişiklik yapmak için düzeltme işlemini kullanmanız gerekir. Bir RFQ gönderildiğinde alanlar kilitlenir.
-Bu nedenle, RFQ'da değişiklik yapmak için daha önce açıklandığı şekilde düzeltme işlemini başlatmak üzere **Oluştur** 'u seçmeniz gerekir. Kilitleme davranışı **Tedarik ve kaynak atama parametreleri** sayfasındaki **RFQ'yi gönderildiğinde kilitle** seçeneğiyle kontrol edilir. Varsayılan olarak bu parametre **Evet** olarak ayarlanır ve kamu sektörü yapılandırmasında varsayılan ayar değiştirilemez. Bu nedenle, kamu sektörü dışındaki yapılandırmada düzeltme işlemi el ile gerçekleştirilebilmesine karşın, kamu sektörü yapılandırması için kullanılmak zorundadır.
+Bu nedenle, RFQ'da değişiklik yapmak için daha önce açıklandığı şekilde düzeltme işlemini başlatmak üzere **Oluştur**'u seçmeniz gerekir. Kilitleme davranışı **Tedarik ve kaynak atama parametreleri** sayfasındaki **RFQ'yi gönderildiğinde kilitle** seçeneğiyle kontrol edilir. Varsayılan olarak bu parametre **Evet** olarak ayarlanır ve kamu sektörü yapılandırmasında varsayılan ayar değiştirilemez. Bu nedenle, kamu sektörü dışındaki yapılandırmada düzeltme işlemi el ile gerçekleştirilebilmesine karşın, kamu sektörü yapılandırması için kullanılmak zorundadır.
 
 Bir satınalma sipariş için RFQ servis talebi oluşturduğunuzda ve RFQ'ya bir stok maddesi eklediğinizde, giriş durumu **Teklif girişi** olan bir stok hareketi oluşturulur. Malzemeleri hesaplamak için bir master plan kullandığınızda yalnızca bu duruma sahip RFQ servis talebi satırları göz önünde bulundurulur. Master planın RFQ servis talebi satırlarını beklenen giriş olarak eklemesini istiyorsanız, master plan ayarlama aşamasında bu davranışı yapılandırmanız gerekir.
 
@@ -116,7 +116,7 @@ Bir satınalma yöneticisi veya temsilcisi, kuruluşun tedarik gereksinimlerine 
 Bir teklif talebini (RFQ) yanıtlarken (teklif verirken) satıcılardan almak istediğiniz belirli türde bilgileri belirtebilirsiniz. Varsayılan olarak işaretlediğiniz alanlar, satıcı işbirliği için sağlanan çevrimiçi forma dahil edilir. Bu ayarları yapmak için:
 
 1. Henüz yapmadıysanız, *Satıcı RFQ yanıt formlarına dahil eldilecek RFQ alanlarını seç* özelliğini etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) sayfasını kullanın.
-1. **Tedarik ve kaynak atama > Kurulum > Tedarik ve kaynak atama parametreleri** 'ne gidin.
+1. **Tedarik ve kaynak atama > Kurulum > Tedarik ve kaynak atama parametreleri**'ne gidin.
 1. **Teklif talebi** sekmesini açın.
 1. **Teklif talepleri için varsayılan değerleri ayarla** başığı altında **Varsayılan teklif talepleri** yanıt alanlarını seçin.
 1. **Varsayılan teklif talebi yanıt alanları** iletişim kutusu açılır.
@@ -148,7 +148,7 @@ Bir RFQ servis talebi oluşturduğunuzda, bir talep türü seçebilirsiniz. Tale
 
 Bir RFQ servis talebine soru formu ekleyebilirsiniz. Bu soru formu RFQ gönderildikten sonra tüm RFQ yanıtlarında görüntülenir. Teklifin gönderilebilmesi için anketin tamamlanması zorunlu bir görevdir.
 
-Varsayılanlar sağlansa da, her bir RFQ servis talebi için **Satıcı RFQ yanıt formlarına eklenen RFQ alanları** ayarlarını gereken şekilde değiştirebilirsiniz. Bunu yapmak için bir RFQ servis talebi oluşturun veya açın. Sonra, Eylem Bölmesinde **Teklif** sekmesini açın ve **Yanıtlar** bölümünde **RFQ yanıtı varsayılanlarını ayarla** 'yı seçin. **Varsayılan teklif talebi yanıt alanları** iletişim kutusu açılır; bu iletişim kutusu satıcı RFQ yanıt formları için varsayılan değerler ayarlanırken olduğu gibi çalışır. Buradaki değişiklikleriniz yalnıza geçerli RFQ servis talebini etkileyecektir. Bu işlevi etkinleştirme ve nasıl çalıştığı hakkında ayrıntılı bilgi için bkz. [Satıcı RFQ yanıt formlarına dahil edilecek varsayılan alanları seçme](#default-reply-fields).
+Varsayılanlar sağlansa da, her bir RFQ servis talebi için **Satıcı RFQ yanıt formlarına eklenen RFQ alanları** ayarlarını gereken şekilde değiştirebilirsiniz. Bunu yapmak için bir RFQ servis talebi oluşturun veya açın. Sonra, Eylem Bölmesinde **Teklif** sekmesini açın ve **Yanıtlar** bölümünde **RFQ yanıtı varsayılanlarını ayarla**'yı seçin. **Varsayılan teklif talebi yanıt alanları** iletişim kutusu açılır; bu iletişim kutusu satıcı RFQ yanıt formları için varsayılan değerler ayarlanırken olduğu gibi çalışır. Buradaki değişiklikleriniz yalnıza geçerli RFQ servis talebini etkileyecektir. Bu işlevi etkinleştirme ve nasıl çalıştığı hakkında ayrıntılı bilgi için bkz. [Satıcı RFQ yanıt formlarına dahil edilecek varsayılan alanları seçme](#default-reply-fields).
 
 RFQ servis talebine eklenecek satıcılar üç yolla seçilebilir:
 
@@ -156,7 +156,7 @@ RFQ servis talebine eklenecek satıcılar üç yolla seçilebilir:
 - Belirli ölçütü karşılayan tüm satıcıları arama.
 - RFQ servis talebi satırlarında kullanılan tedarik kategorileri için onaylanmış olan tüm satıcıları otomatik olarak ekleme.
 
-RFQ servis talebi hazır olduğunda **Gönder** 'i seçin. Gönder eylemi, Yazdırma ayarlarınıza göre yazdırılacak, arşivlenecek ve gönderilecek günlükler ve raporlar oluşturur.
+RFQ servis talebi hazır olduğunda **Gönder**'i seçin. Gönder eylemi, Yazdırma ayarlarınıza göre yazdırılacak, arşivlenecek ve gönderilecek günlükler ve raporlar oluşturur.
 
 **Teklif talebi gönderme** sayfasında **Fiyatları yeniden hesaplamak için satıcı kullan** ve **Satıcıya özgü madde bilgilerini kullan** seçeneklerini **Evet** olarak ayarladığınızda talebi satıcılara gönderirken satıcıya özgü bazı bilgiler bu satıcı için RFQ'ya otomatik olarak girilir.
 
@@ -164,9 +164,9 @@ RFQ servis talebi hazır olduğunda **Gönder** 'i seçin. Gönder eylemi, Yazd�
 
 Bazen, gönderdikten sonra RFQ servis talebinde düzeltme yapmanız gerekir. Örneğin teslimat tarihlerinin değişmesi veya ek ürünler ya da farklı ürün miktarları girmek istemeniz durumunda bir RFQ servis talebini değiştirmeniz gerekebilir. Düzeltme işlemini, daha kısıtlayıcı veya daha az kısıtlayıcı olacak şekilde yapılandırabilirsiniz.
 
-Düzeltme işlemini daha kısıtlayıcı olacak şekilde yapılandırırsanız, zaten gönderilmiş olan bir RFQ servis talebindeki alanları değiştirebilmeniz için düzeltme işlemini başlatmak üzere RFQ'da **Oluştur** 'u seçmeniz gerekir. Değişiklikleri tamamladıktan sonra **Sonlandır** 'ı seçmeniz gerekir. Ardından, satıcıları düzeltme hakkında bilgilendirmek için gönderilecek e-postaya nasıl bilgi ekleneceği gösterilecektir. Bir düzeltme notu içeren güncelleştirilmiş RFQ raporu e-postaya otomatik olarak eklenir.
+Düzeltme işlemini daha kısıtlayıcı olacak şekilde yapılandırırsanız, zaten gönderilmiş olan bir RFQ servis talebindeki alanları değiştirebilmeniz için düzeltme işlemini başlatmak üzere RFQ'da **Oluştur**'u seçmeniz gerekir. Değişiklikleri tamamladıktan sonra **Sonlandır**'ı seçmeniz gerekir. Ardından, satıcıları düzeltme hakkında bilgilendirmek için gönderilecek e-postaya nasıl bilgi ekleneceği gösterilecektir. Bir düzeltme notu içeren güncelleştirilmiş RFQ raporu e-postaya otomatik olarak eklenir.
 
-Düzeltme işlemini daha az kısıtlayıcı olacak şekilde yapılandırırsanız, zaten gönderilmiş olan bir RFQ'daki alanları değiştirebilmek için **Oluştur** 'u seçmeniz gerekmez. Ancak, RFQ'ya el ile bir düzeltme notu eklemeniz ve servis talebini yeniden göndermeniz gerekir. Bu yöntemin yalnızca yanıtlardan (tekliflerden) hiçbirinin düzeltilmemiş olması durumunda kullanılabileceğini unutmayın. Bir yanıt girerseniz ve durumu **Alındı** olursa, **Gönder** düğmesi kullanılamaz. Böyle bir durumda, daha kısıtlayıcı bir işlem gerçekleştirmek zorunda olduğunuzdan **Oluştur** 'u ve ardından **Sonlandır** 'ı seçmeniz gerekir. Bundan sonra yanıt RFQ servis talebindeki değişiklikleri yansıtacak şekilde sıfırlanır.
+Düzeltme işlemini daha az kısıtlayıcı olacak şekilde yapılandırırsanız, zaten gönderilmiş olan bir RFQ'daki alanları değiştirebilmek için **Oluştur**'u seçmeniz gerekmez. Ancak, RFQ'ya el ile bir düzeltme notu eklemeniz ve servis talebini yeniden göndermeniz gerekir. Bu yöntemin yalnızca yanıtlardan (tekliflerden) hiçbirinin düzeltilmemiş olması durumunda kullanılabileceğini unutmayın. Bir yanıt girerseniz ve durumu **Alındı** olursa, **Gönder** düğmesi kullanılamaz. Böyle bir durumda, daha kısıtlayıcı bir işlem gerçekleştirmek zorunda olduğunuzdan **Oluştur**'u ve ardından **Sonlandır**'ı seçmeniz gerekir. Bundan sonra yanıt RFQ servis talebindeki değişiklikleri yansıtacak şekilde sıfırlanır.
 
 Satıcılar teklifleri girmek için satıcı işbirliği arabirimini kullanırsa, satıcıları RFQ servis talebinde yapılan değişiklikler hakkında bilgilendirmek için her zaman düzeltme işlemini kullanmanız gerekir. Bu işlem, satıcıların teklifleri devam ederken eski bir RFQ servis talebine teklif vermeleri durumunu engellemeye yardımcı olur. Satıcı işbirliği işlevi hakkında daha fazla bilgi için bkz. [Harici satıcılarla için satıcı işbirliği](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
@@ -174,24 +174,24 @@ Teklif vermek üzere ek satıcılar davet etmek isterseniz ve RFQ servis talebin
 
 ## <a name="receiving-and-registering-rfq-replies"></a>RFQ yanıtlarını alma ve kaydetme
 
-Bir RFQ gönderdiğinizde, yanıt sayfası otomatik olarak oluşturulur. Bir RFQ için teklifleri aldığınızda, teklifleri **Teklif talebi** sayfasından **RFQ yanıtını düzenle** eylemini tıklayarak girmeniz gerekir. Bu, özel teklif formuna teklif bilgilerini girmenize olanak tanır. Başlangıçta, **Yanıt ilerlemesi** **Başlatılmadı** olacaktır. **RFQ yanıtını düzenle** 'ye tıkladığınızda ilerleme durumu teklif gönderilene kadar **Satınalmacı güncelleştiriliyor** olur. Teklif bilgilerini girdiğinizde **Gönder** 'e tıklayın. Yanıt İlerleme durumu **Satın alan kişi tarafından gönderildi** olarak değişir. Benzer şekilde, satıcı işbirliği etkinleştirildiğinde, **Yanıt ilerlemesi** satıcı teklifi ile etkileşim kurduğunda güncelleştirilir. Durum **Satıcı güncelleştiriyor** yerine **Satıcı tarafından gönderildi** olarak değişir. Teklif gönderildiğinde **Alındı** olarak bir günlük oluşturulur. Yanıt (teklif) alındı olarak kaydedilmesi için gönderilmelidir ve yalnızca bu aşamadan sonra kabul edildi veya reddedildi olarak işlenebilir.
+Bir RFQ gönderdiğinizde, yanıt sayfası otomatik olarak oluşturulur. Bir RFQ için teklifleri aldığınızda, teklifleri **Teklif talebi** sayfasından **RFQ yanıtını düzenle** eylemini tıklayarak girmeniz gerekir. Bu, özel teklif formuna teklif bilgilerini girmenize olanak tanır. Başlangıçta, **Yanıt ilerlemesi** **Başlatılmadı** olacaktır. **RFQ yanıtını düzenle**'ye tıkladığınızda ilerleme durumu teklif gönderilene kadar **Satınalmacı güncelleştiriliyor** olur. Teklif bilgilerini girdiğinizde **Gönder**'e tıklayın. Yanıt İlerleme durumu **Satın alan kişi tarafından gönderildi** olarak değişir. Benzer şekilde, satıcı işbirliği etkinleştirildiğinde, **Yanıt ilerlemesi** satıcı teklifi ile etkileşim kurduğunda güncelleştirilir. Durum **Satıcı güncelleştiriyor** yerine **Satıcı tarafından gönderildi** olarak değişir. Teklif gönderildiğinde **Alındı** olarak bir günlük oluşturulur. Yanıt (teklif) alındı olarak kaydedilmesi için gönderilmelidir ve yalnızca bu aşamadan sonra kabul edildi veya reddedildi olarak işlenebilir.
 
 Teklifi güncelleştirmeniz gerekiyorsa, yukarıdaki aynı işlemi tekrarlayın ve yeniden gönderin.
 
-**Teklif talebi** formunu düzenlemeye yalnızca teklifin işlenmesiyle ilgili bilgiler için (teklifin girilmesiyle ilgili bilgiler değil) izin verilir. Teklifi girmek veya değiştirmek için **RFQ yanıtını düzenle** 'ye tıklayın.
+**Teklif talebi** formunu düzenlemeye yalnızca teklifin işlenmesiyle ilgili bilgiler için (teklifin girilmesiyle ilgili bilgiler değil) izin verilir. Teklifi girmek veya değiştirmek için **RFQ yanıtını düzenle**'ye tıklayın.
 
-Teklif bilgilerini girdiğinizde ve RFQ servis talebi alternatif satırlara olanak tanıyorsa, yalnızca bir tedarik kategorisi olan ve katalog maddesi belirtilmemiş satırlar için alternatif satırlar ekleyebilirsiniz. Alternatif satırlar eklemek için **Alternatif ekle** 'ye tıklayın.
+Teklif bilgilerini girdiğinizde ve RFQ servis talebi alternatif satırlara olanak tanıyorsa, yalnızca bir tedarik kategorisi olan ve katalog maddesi belirtilmemiş satırlar için alternatif satırlar ekleyebilirsiniz. Alternatif satırlar eklemek için **Alternatif ekle**'ye tıklayın.
 
 Yanıtı girdiyseniz ancak satıcıdan yeni bir teklif istiyorsanız, RFQ'yu iade edebilirsiniz. Satıcıya gönderilebilecek yeni bir günlük ve rapor oluşturulur.
 
-Tüm RFQ'ların genel görünümünü ve durumlarını ( **Gönderildi, Alındı, Kabul edildi, Reddedildi, İptal edildi, Geri çevrildi** ) **Teklif talebi izleme** sayfasından görebilirsiniz.
+Tüm RFQ'ların genel görünümünü ve durumlarını (**Gönderildi, Alındı, Kabul edildi, Reddedildi, İptal edildi, Geri çevrildi**) **Teklif talebi izleme** sayfasından görebilirsiniz.
 
 ### <a name="accepting-and-rejecting-bids-and-transferring-accepted-bids-to-downstream-documents"></a>Teklifleri kabul etme ve reddetme ve kabul edilen teklifleri aşağı doğru belgelere aktarma
 
 Örneğin en iyi toplam fiyatı sunan teklif gibi en iyi teklifi tanımladıktan sonra teklifi kabul edin. Bir teklifteki bazı satırları kabul edip diğerlerini reddedebilirsiniz.
-Ayrıca, farklı satıcılardan gelen satırları da kabul edebilirsiniz. Bazı satırları kabul ettiğinizde, kalan diğer tüm satırları reddetmeniz istenebileceğini unutmayın. Bu nedenle, diğer satırları da kabul etmek isterseniz, istemi aldığınızda **İptal** 'e tıklamanız gerekir. Teklifleri veya satırları kabul ettiğiniz her satıcı için RFQ yanıtı durumu **Kabul edildi** olarak güncelleştirilir.
+Ayrıca, farklı satıcılardan gelen satırları da kabul edebilirsiniz. Bazı satırları kabul ettiğinizde, kalan diğer tüm satırları reddetmeniz istenebileceğini unutmayın. Bu nedenle, diğer satırları da kabul etmek isterseniz, istemi aldığınızda **İptal**'e tıklamanız gerekir. Teklifleri veya satırları kabul ettiğiniz her satıcı için RFQ yanıtı durumu **Kabul edildi** olarak güncelleştirilir.
 
-Bir satınalma siparişi veya satınalma sözleşmesi hazırlarken RFQ'ya ek bir satır eklemeniz gerekirse, bunu **Teklif talebi** sayfası satır ızgarasındaki **Satır ekle** 'ye tıklayarak yapabilirsiniz. Bu satırı yalnızca **Teklif talebi** sayfasından görebilir ve düzenleyebilirsiniz. Kabul edilmesi durumunda, fiyat teklifi sayfasında görünür.
+Bir satınalma siparişi veya satınalma sözleşmesi hazırlarken RFQ'ya ek bir satır eklemeniz gerekirse, bunu **Teklif talebi** sayfası satır ızgarasındaki **Satır ekle**'ye tıklayarak yapabilirsiniz. Bu satırı yalnızca **Teklif talebi** sayfasından görebilir ve düzenleyebilirsiniz. Kabul edilmesi durumunda, fiyat teklifi sayfasında görünür.
 
 Bir teklifi veya teklifteki bir veya daha fazla satırı kabul ettiğinizde, otomatik olarak bir satınalma siparişi veya satınalma anlaşması oluşturulur. Daha sonra diğer tüm satıcıların tekliflerini reddedebilirsiniz.
 

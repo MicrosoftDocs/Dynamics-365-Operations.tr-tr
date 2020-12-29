@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 26ffed1f49d9087ca767aab1b8cac41b099f73cb
-ms.sourcegitcommit: 3c88c4adafb78b807842b0b41c69b19cf2b7aa23
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973104"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448748"
 ---
 # <a name="nf-e-custom-certificate-validation"></a>NF-e özel sertifika doğrulaması
 

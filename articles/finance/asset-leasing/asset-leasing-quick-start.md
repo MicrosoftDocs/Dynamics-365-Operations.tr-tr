@@ -19,11 +19,11 @@ ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022579"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4448988"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 
@@ -208,8 +208,8 @@ Bu, kullanım hakkı varlığının devredilen bakiye düşüşünü temsil eder
 ## <a name="create-an-asset-lease"></a>Varlık kiralama oluşturma
 Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın. 
 
-1. **Varlık kiralama** 'yı kullanmak için **Özellik yönetimi** çalışma alanında etkinleştirmeniz gerekir. **Özellik yönetimi** çalışma alanından **Tümü** 'nü seçtiğinizde, tüm özellikler sayfada listelenir. **Varlık kiralama** 'yı seçin ve ardından **Şimdi etkinleştir** 'i seçin.
-2. **Varlık kiralama > Ortak > Kiralama özeti** 'ne gidin. **Genel** hızlı sekmesinde gerekli alanları girin. 
+1. **Varlık kiralama**'yı kullanmak için **Özellik yönetimi** çalışma alanında etkinleştirmeniz gerekir. **Özellik yönetimi** çalışma alanından **Tümü**'nü seçtiğinizde, tüm özellikler sayfada listelenir. **Varlık kiralama**'yı seçin ve ardından **Şimdi etkinleştir**'i seçin.
+2. **Varlık kiralama > Ortak > Kiralama özeti**'ne gidin. **Genel** hızlı sekmesinde gerekli alanları girin. 
    - **Kiralama ayrıntıları**
    - **Kıymet faydalı ömrü (Ay)**
    - **Kiralama grubu**
@@ -219,9 +219,9 @@ Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın.
    - **Para Birimi**
    - **Başlangıç tarihi**
 
-3. **Ödeme planı satırları** hızlı sekmesine gidin ve bir ödeme satırı girip **Planlama oluştur** 'u seçin.
+3. **Ödeme planı satırları** hızlı sekmesine gidin ve bir ödeme satırı girip **Planlama oluştur**'u seçin.
 
-4. **Defterler** 'i seçin. 
+4. **Defterler**'i seçin. 
 
 5. **Genel** Hızlı sekmesine geçin. **Başlangıçtaki kullanım hakkı varlığı** ve **kiralama yükümlülüğ** hesaplanır. 
 
@@ -229,21 +229,21 @@ Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın.
 
    Otomatik **Kiralama türü** **Defterler** sayfasında tanımlanan ölçütlere göre sınıflandırılır.
 
-7.  **İşlev** bölümünün altında **Ödeme planı** 'na gidin.  
+7.  **İşlev** bölümünün altında **Ödeme planı**'na gidin.  
 
-   **Ödeme planı** sayfası bir kiralama kodu için gelecekteki ödeme planlamalarını listeler. **İlk kabul** hareketlerini deftere nakledebilmek için **Planlamayı onayla** 'yı seçin. 
+   **Ödeme planı** sayfası bir kiralama kodu için gelecekteki ödeme planlamalarını listeler. **İlk kabul** hareketlerini deftere nakledebilmek için **Planlamayı onayla**'yı seçin. 
 
 [![İlk kabul işlevi](./media/overview-13.png)](./media/overview-13.png)
 
-8. İlk kabul günlüğünü oluşturmak için **İlk kabul** 'ü seçin. 
+8. İlk kabul günlüğünü oluşturmak için **İlk kabul**'ü seçin. 
 
-9. İlk kabul hareketini deftere nakletmek için **Varlık kiralama günlükleri** 'ni seçin. 
+9. İlk kabul hareketini deftere nakletmek için **Varlık kiralama günlükleri**'ni seçin. 
 
    Ödeme planında, kullanım hakkı varlığı hareketlerini listeleyen ayrıntılı sayfayı açabilirsiniz. 
  
-   **Kira yükümlülüğü amortisman planlaması** , her dönem için hesaplanan faiz tutarını gösterir.
+   **Kira yükümlülüğü amortisman planlaması**, her dönem için hesaplanan faiz tutarını gösterir.
    
-10. Günlüğü oluşturun ve ardından **Varlık kiralama günlükleri** 'ne gidin. **Kira yükümlülüğü amortisman planlaması** faiz hareketlerinde de gösterilir.
+10. Günlüğü oluşturun ve ardından **Varlık kiralama günlükleri**'ne gidin. **Kira yükümlülüğü amortisman planlaması** faiz hareketlerinde de gösterilir.
 
    **Varlık amortisman planlaması** sayfası, seçilen kira koduyla ilgili amortisman hareketlerini gösterir. 
 

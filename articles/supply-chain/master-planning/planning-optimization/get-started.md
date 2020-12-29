@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973488"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4439744"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
 
@@ -65,7 +65,9 @@ Planlamayı En İyi Duruma Getirme hizmetini kullanmak üzere Dynamics 365 Suppl
 1. Yükleme kılavuzunu izleyin ve hüküm ve koşulları kabul edin.
 1. **Yükle**'yi seçin.
 1. **Ortam eklentileri** hızlı sekmesinde, Planlamayı En İyi Duruma Getirme'nin yüklendiğin görmeniz gerekir.
-1. Birkaç dakika sonra **Yükleme** durumunun değişip **Yüklendi**olarak değişecektir (sayfayı yenilemeniz gerekebilir). Yüklendiğinde, Planlamayı En İyi Duruma Getirme'yi Dynamics 365 Supply Chain Management'ta etkinleştirmeye hazırsınız demektir.
+1. Birkaç dakika sonra **Yükleme** durumunun değişip **Yüklendi** olarak değişecektir (sayfayı yenilemeniz gerekebilir). Yüklendiğinde, Planlamayı En İyi Duruma Getirme'yi Dynamics 365 Supply Chain Management'ta etkinleştirmeye hazırsınız demektir.
+
+Planlama İyileştirmesi eklentisini yüklemenin temel amacı, hizmet ile ortamı bağlamaktır. Bu nedenle, ortamlar arasına taşınacak kod ne olursa olsun, eklentiyi, Planlama İyileştirmesi'ni kullanacağınız her ortama ayrı ayrı yüklemelisiniz.
 
 ### <a name="planning-optimization-integration"></a>Planlamayı En İyi Duruma Getirme tümleştirmesi
 
@@ -95,7 +97,7 @@ Bağlantı durumu, Supply Chain Management ile Planlamayı En İyi Duruma Getirm
 
 ### <a name="integration-with-the-setup"></a>Ayarla tümleştirme
 
-Planlamayı En İyi Duruma Getirme önizlemesi açıksa master planlama, Planlamayı En İyi Duruma Getirme Eklentisi'ni kullanarak yapılır. Bu durumda, master planlama sonuçları ve özellikleri etkilenir.
+Planlama İyileştirmesi açıksa master planlama, Planlama İyileştirmesi Eklentisi'ni kullanarak yapılır. Bu durumda, master planlama sonuçları ve özellikleri etkilenir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 89e025977a0dcd40e35f17448a7b0ebde08cb6c8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180402"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448648"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Bir kısmi tutar için satıcı ödemeleri
 
@@ -45,7 +45,7 @@ Bir kısmi ödeme yaptığınızda faturayı tamamen kapatmak için ek bir kısm
 > Bir kısmi ödeme girer ve **Kapatılacak tutar** alanındaki tam fatura tutarını değiştirmeden bırakırsanız, hareketleri naklettiğinizde **Alınacak nakit iskontosu tutarı** alanı otomatik olarak yeniden hesaplanır.
 
 ## <a name="credit-notes-with-cash-discounts"></a>İskonto indirimleri içeren credit note'lar
-Bir faturadaki ürünlerden bazılarını iade edebilir ve bir credit note hazırlayabilirsiniz. Orijinal faturadan bir nakit iskontosu almışsanız iskonto değerini çıkarabilir ve doğru tutar için bir iade alabilirsiniz. **Credit note'lar için nakit iskontolarını hesapla**seçeneğini **Borç hesapları parametreleri** sayasından **Evet** konumuna getirirseniz credit note üzerinden iskonto otomatik olarak hesaplanır. 
+Bir faturadaki ürünlerden bazılarını iade edebilir ve bir credit note hazırlayabilirsiniz. Orijinal faturadan bir nakit iskontosu almışsanız iskonto değerini çıkarabilir ve doğru tutar için bir iade alabilirsiniz. **Credit note'lar için nakit iskontolarını hesapla** seçeneğini **Borç hesapları parametreleri** sayasından **Evet** konumuna getirirseniz credit note üzerinden iskonto otomatik olarak hesaplanır. 
 
 Örneğin, faturanın hazırlandıktan sonra 10 gün içinde ödenmesi durumunda yüzde 2'lik bir nakit iskontosu alıyorsunuz. 100.00 tutarında bir fatura nakledilir. Mal iade edip ve alacak dekontu alırsanız, alacak dekontunda da tanımlanmış olan yüzde 2'lik nakit iskontosuyla birlikte 100,00 orijinal fatura toplam tutarı için alacak dekontu girebilirsiniz.  Alacak dekontunu **Hareketleri kapat** sayfasında görüntülediğinizde **Kapatılacak tutar** alanında **98,00** tutar ve **Nakit iskontosu tutarı** alanında **-2,00** tutar görüntülenir. İskonto tutarı, bir nakit iskontosu hesabına nakledilir.
 

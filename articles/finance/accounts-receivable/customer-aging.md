@@ -19,11 +19,11 @@ ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
-ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013065"
+ms.locfileid: "4448981"
 ---
 # <a name="customer-aging-report"></a>Müşteri yaşlandırma raporu 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250340"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4449039"
 ---
 # <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
@@ -68,7 +68,7 @@ Geçerli ve önceki dönem kapanış görevlerini **Tüm mali dönem kapanış g
 
 **Kaynaklar** sekmesinde, kapanış işlemleriyle ilgili kişileri belirlersiniz. Bir kapanış görevinde sorumlu olacak herhangi bir personelin, öncelikle burada atanmış olması gerekir. Personelin çalışma alanı görünümünü de belirtmeniz gerekir. Aşağıdaki seçenekler bulunur:
 
--   **Sadece atanan görevler** – Kullanıcı sadece kendisine atanmış olan görevleri görebilir.
+-   **Sadece atanan görevler**: Kullanıcı sadece kendisine atanmış olan görevleri görebilir.
 -   **Tüm görevler ve durum** – Kullanıcı tüm kapanış görevlerini ve genel sürecin durumunu görebilir.
 
 Sadece kendilerine atanan görevleri görüntüleme iznine sahip kullanıcılar görev listesine görev ekleyemez, görevleri düzenleyemez veya görev listesindeki görevleri kaldıramazlar.

@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 321da6643b421070ddd9f32bddd3e8d72f0adb86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188568"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448937"
 ---
 # <a name="budget-planning-justification-documents"></a>Bütçe planlama gerekçe belgeleri
 

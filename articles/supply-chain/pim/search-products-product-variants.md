@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018342"
+ms.locfileid: "4439703"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama
 
@@ -32,7 +32,7 @@ ms.locfileid: "4018342"
 
 Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için **Madde numarası** alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar.
 
-Bazen belirli bir üründen çok fazla adede sahip olmak bulunulan en iyi durum değildir ve bu özellikle benzer ürünler sattığınızda ve bir satış siparişine yerleştirmek amacıyla doğru ürünü aramak için madde numaraları veya ürün arama adlarını hatırlamaya çalıştığınızda geçerlidir. Bir satış siparişi satırında veya satınalma siparişi satırında arama alanı olarak **Madde numarası**  alanını kullanabilirsiniz. Ürün adı, numarası veya boyutunun herhangi bir bölümünü girebilir ve arama kelimesi ile eşleşen tüm maddeleri görüntüleyen bir arama yapabilirsiniz.
+Bazen belirli bir üründen çok fazla adede sahip olmak bulunulan en iyi durum değildir ve bu özellikle benzer ürünler sattığınızda ve bir satış siparişine yerleştirmek amacıyla doğru ürünü aramak için madde numaraları veya ürün arama adlarını hatırlamaya çalıştığınızda geçerlidir. Bir satış siparişi satırında veya satınalma siparişi satırında arama alanı olarak **Madde numarası** alanını kullanabilirsiniz. Ürün adı, numarası veya boyutunun herhangi bir bölümünü girebilir ve arama kelimesi ile eşleşen tüm maddeleri görüntüleyen bir arama yapabilirsiniz.
 
 ## <a name="how-searchworks"></a>Arama nasıl yapılır
 Ürünleri veya ürün çeşitlerini ararken, arama özelliğinin girdiğiniz metinle eşleşen ürünleri nasıl bulduğunu anlamak önemlidir. Arama sonuçlarının sunulmasında anahtar arama kuralları şunlardır:
@@ -44,7 +44,7 @@ Bazen belirli bir üründen çok fazla adede sahip olmak bulunulan en iyi durum 
 
 ### <a name="examples"></a>Örnekler
 
-Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senaryolarda arama işleminin nasıl yapıldığını gösterir. **Önkoşul** : **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri &gt; Arama türü** altında  **Tam eşleşme** seçeneğini belirleyin.
+Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senaryolarda arama işleminin nasıl yapıldığını gösterir. **Önkoşul**: **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri &gt; Arama türü** altında  **Tam eşleşme** seçeneğini belirleyin.
 
 | Ürün türü     | Ürün adı    | Görüntülenen ürün numarası | Madde kodu | Yapılandırma |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -54,7 +54,7 @@ Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senar
 
 **Madde numarası** alanına "hopar" yazarsanız arama sonucu olarak yukarıdaki tüm ürünleri alırsınız. **Madde numarası** alanına "siyah" yazarsanız sonuç olarak ikinci ürünü alırsınız, çünkü görüntülenen ürün numarasında 'siyah' metni bulunur. Bu iki örnek aramanın yalnızca alanın başında değil arama metni eşleşme kaydındaki metin dizesinin ortasında bulunsa bile bir eşleşmenin olacağını gösterir.  
 
-"05" yazarsanız sonuç olarak yalnızca ikinci ürün çeşidini alırsınız çünkü yapılandırmada "05" bulunur. Bu, aramanın  **Arama ölçütleri** sayfasında etkinleştirilmiş tüm alanlar arasında olduğunu gösterir.  
+"05" yazarsanız sonuç olarak yalnızca ikinci ürün çeşidini alırsınız çünkü yapılandırmada "05" bulunur. Bu, aramanın **Arama ölçütleri** sayfasında etkinleştirilmiş tüm alanlar arasında olduğunu gösterir.  
 
 "hopar 05" yazarsanız sonuç alamazsınız. Bunun nedeni aramanın, girilen metnin tamamı için arama yapmasıdır. Arama "hopar" metnini bulmaya çalışmaz ve ardından sonuçları "05" içerenlere daraltır.  
 
@@ -65,15 +65,15 @@ Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senar
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Adım 1: Tüm ilgili ürün ve ürün çeşidi kimlik tanımlayıcılarını ve boyutlarını arama ölçütlerine dahil edin
 
- **Ürün adı, Madde numarası** , **Görüntülenen ürün numarası, Yapılandırma, Renk, Boyut, Stil, Arama adını vb.** arama yapmak için kullanabileceğiniz ürün ve ürün çeşidi kimlik tanımlayıcılarına ve boyutlarına örneklerdir.  
+ **Ürün adı, Madde numarası**, **Görüntülenen ürün numarası, Yapılandırma, Renk, Boyut, Stil, Arama adını vb.** arama yapmak için kullanabileceğiniz ürün ve ürün çeşidi kimlik tanımlayıcılarına ve boyutlarına örneklerdir.  
 
-**Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama ölçütleri** sayfasına gidin. **Arama ölçütleri** sayfası, müşteri, aday müşteri ve ürün araması için ölçütleri tanımlamanıza izin verir. Ürün arama ölçütlerini kullanarak sayfayı filtrelediğinizden emin olun. Bunu, sayfa menüsünde **Ürün** 'e değiştirerek yapabilirsiniz.  
+**Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama ölçütleri** sayfasına gidin. **Arama ölçütleri** sayfası, müşteri, aday müşteri ve ürün araması için ölçütleri tanımlamanıza izin verir. Ürün arama ölçütlerini kullanarak sayfayı filtrelediğinizden emin olun. Bunu, sayfa menüsünde **Ürün**'e değiştirerek yapabilirsiniz.  
 
-Arama ölçütlerine görüntülenecek ürün sayısını eklemek için sayfa menüsündeki **Yeni** öğesine tıklayın. Bu işlem **Arama ölçütleri** kılavuzuna yeni bir kayıt ekler. **Alan adı** arama sütununu açın ve **DisplayProductNumber** 'ı seçin. Arama ölçütlerine ürünün yapılandırmasını eklemek için **Arama ölçütleri** kılavuzunda yeni bir kayıt oluşturun ve **Alan adı** sütununda **configId** 'yi seçin. Aynı şekilde renk boyutu için **Alan adı** **InventColorId** , ebat boyutu için **InventSizeId** ve stil boyutu için **InventStyleId** olan bir kayıt oluşturun.
+Arama ölçütlerine görüntülenecek ürün sayısını eklemek için sayfa menüsündeki **Yeni** öğesine tıklayın. Bu işlem **Arama ölçütleri** kılavuzuna yeni bir kayıt ekler. **Alan adı** arama sütununu açın ve **DisplayProductNumber**'ı seçin. Arama ölçütlerine ürünün yapılandırmasını eklemek için **Arama ölçütleri** kılavuzunda yeni bir kayıt oluşturun ve **Alan adı** sütununda **configId**'yi seçin. Aynı şekilde renk boyutu için **Alan adı** **InventColorId**, ebat boyutu için **InventSizeId** ve stil boyutu için **InventStyleId** olan bir kayıt oluşturun.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Adım 2: Ürün araması için kullanılan veritabanı tablosunu doldurun
 
-**Arama ölçütleri** sayfasında **Arama verilerini güncelleştir** düğmesine tıklayın. **Arama verilerini güncelleştir** iletişim kutusunda  **Kaynak** 'ın **Ürün** olarak ayarlandığından emin olun ve ardından **Tamam** 'a tıklayın. Sistem 1. adımda belirtilen tüm seçili arama ölçütlerini bir tabloda birleştirir. Çok sayıda ürün ve ürün çeşidiniz varsa, bu işlem oldukça uzun olabilir ve bir uyarı alabilirsiniz. Arama tablosu doldurma işlemini, toplu iş sunucusunda, sunucunun çok yoğun olmadığı bir zamana planlamanızı öneririz.  
+**Arama ölçütleri** sayfasında **Arama verilerini güncelleştir** düğmesine tıklayın. **Arama verilerini güncelleştir** iletişim kutusunda  **Kaynak**'ın **Ürün** olarak ayarlandığından emin olun ve ardından **Tamam**'a tıklayın. Sistem 1. adımda belirtilen tüm seçili arama ölçütlerini bir tabloda birleştirir. Çok sayıda ürün ve ürün çeşidiniz varsa, bu işlem oldukça uzun olabilir ve bir uyarı alabilirsiniz. Arama tablosu doldurma işlemini, toplu iş sunucusunda, sunucunun çok yoğun olmadığı bir zamana planlamanızı öneririz.  
 
 Tablo doldurulana kadar ürün arama doğru sonuç vermez. Arama sonucu alamıyorsanız bu tablonun doldurulduğundan emin olun.  
 
@@ -81,9 +81,9 @@ Tablo yalnızca arama ölçütleri değiştirildiğinde doldurulmak zorundadır.
 
 ### <a name="step-3-enable-the-lookup-for-product-search-on-sales-and-purchase-order-lines"></a>Adım 3: Satış ve satınalma siparişi satırlarında ürün arama için aramayı etkinleştirin
 
-Bu işlevi **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri** 'ne gidip **Genel** sekmesindeki **Ürün aramayı etkinleştir**  ayarını **Evet** yaparak etkinleştirebilirsiniz.  
+Bu işlevi **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri**'ne gidip **Genel** sekmesindeki **Ürün aramayı etkinleştir** ayarını **Evet** yaparak etkinleştirebilirsiniz.  
 
-Satış siparişi satırı girişi için  **Madde numarası** alanına yazmaya başladığınızda ve ardından **Sekme** tuşuna bastığınızda varsayılan davranış, **Ürün arama** sayfasını açmaktır. **Ürün arama** sayfası sipariş satırı oluşturma sırasında bağlamı değiştirir ve gereksiz bir eklenti olarak düşünülebilir. Arama sonuçlarını bir aramada almayı ve sipariş satırı girişi sırasında bağlamı kaybetmemeyi tercih ederseniz bunun yerine aramayı kullanabilirsiniz. Bir ürün veya ürün çeşidi için arama yapıyorsanız ancak aramada herhangi bir şey seçmediyseniz ve **Sekme** tuşuna basarsanız  **Ürün arama** sayfası görüntülenir.
+Satış siparişi satırı girişi için **Madde numarası** alanına yazmaya başladığınızda ve ardından **Sekme** tuşuna bastığınızda varsayılan davranış, **Ürün arama** sayfasını açmaktır. **Ürün arama** sayfası sipariş satırı oluşturma sırasında bağlamı değiştirir ve gereksiz bir eklenti olarak düşünülebilir. Arama sonuçlarını bir aramada almayı ve sipariş satırı girişi sırasında bağlamı kaybetmemeyi tercih ederseniz bunun yerine aramayı kullanabilirsiniz. Bir ürün veya ürün çeşidi için arama yapıyorsanız ancak aramada herhangi bir şey seçmediyseniz ve **Sekme** tuşuna basarsanız **Ürün arama** sayfası görüntülenir.
 
 
 

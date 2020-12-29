@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000807"
+ms.locfileid: "4448973"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Satıcı fatura girişi çalışma alanı
 
@@ -40,16 +40,16 @@ Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanaca�
 **Satıcı fatura girişi** çalışma alanındaki Power BI görsel öğelerde verilerin gösterilebilmesi için önce bu kurulumu tamamlamanız gerekir.
 
 1. **Özellik Yönetimi** çalışma alanında, **satıcı faturası Otomasyonu** özelliğini bulmak için listeyi filtreleyin.
-3. **Şimdi etkinleştir** 'i seçin.
-4. Faturaların el ile müdahale gerektirmeden baştan sona işlendiğinden emin olmak için bir satıcı faturası iş akışı ayarlayın. İş akışı ayarlamak için **Borç hesapları \> Kurulum \> Borç hesapları iş akışları** 'na gidin.
+3. **Şimdi etkinleştir**'i seçin.
+4. Faturaların el ile müdahale gerektirmeden baştan sona işlendiğinden emin olmak için bir satıcı faturası iş akışı ayarlayın. İş akışı ayarlamak için **Borç hesapları \> Kurulum \> Borç hesapları iş akışları**'na gidin.
 5. **Borç hesapları \> Kurulum \> Borç hesapları parametreleri** bölümüne gidin ve **satıcı fatura Otomasyonu** sekmesini seçin. Daha fazla bilgi için bkz [Satıcı faturası otomasyonu için seçenekler ayarlama](vnd-invoice-set-up-options.md).
 6. **İçe aktarılan faturaları otomatik olarak iş akışına gönder** seçeneğini **Evet** olarak ayarlayın.
 7. Ürün fişleri otomatik olarak eşleştirilmeli ise, **ürün fişlerini fatura satırlarıyla otomatik olarak eşle** seçeneğini **Evet** olarak ayarlayın.
 8. Kalan, isteğe bağlı ayarları inceleyin ve kuruluşunuzun gereksinimlerine göre konfigüre edin.
-9. **Sistem para birimi** ve **Sistem döviz kuru** alanlarını ayarlamak için **Sistem yönetimi \> Kurulum \> Sistem Paramatreleri** 'ne gidin.
-10. **Genel Muhasebe \> Ayarlar \> Muhasebe** 'ye gidin ve **Muhasebe Para Birimi** ve **Döviz Kuru Türü** 'nü ayarlayın.
-11. **Genel muhasebe \> Para birimi \> Döviz kurları** 'na gidin ve işlem para birimi ile hesap para birimi arasındaki ve hesap para birimi ile sistem para birimi arasındaki döviz kurlarını girin.
-12. **Sistem Yönetimi \> Kurulum \> Varlık deposuna** gidin ve **satıcı faturası Otomasyon ölçümünü** arayın. **Yenile** 'yi seçin.
+9. **Sistem para birimi** ve **Sistem döviz kuru** alanlarını ayarlamak için **Sistem yönetimi \> Kurulum \> Sistem Paramatreleri**'ne gidin.
+10. **Genel Muhasebe \> Ayarlar \> Muhasebe**'ye gidin ve **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlayın.
+11. **Genel muhasebe \> Para birimi \> Döviz kurları**'na gidin ve işlem para birimi ile hesap para birimi arasındaki ve hesap para birimi ile sistem para birimi arasındaki döviz kurlarını girin.
+12. **Sistem Yönetimi \> Kurulum \> Varlık deposuna** gidin ve **satıcı faturası Otomasyon ölçümünü** arayın. **Yenile**'yi seçin.
 
 Çalışma alanında görüntülenen bilgileri görüntülemek için borç hesapları yöneticisi veya borç hesapları memuru güvenlik rolüne sahip olmanız gerekir.
 
@@ -72,13 +72,13 @@ Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanaca�
 
 **Satıcı faturalarını kurtar** kutucuğunu kullanmak için, bu özelliğin borç hesapları parametrelerinde açık olması gerekir. **Borç hesapları \> borç hesapları parametrelerine** gidin ve **Fatura** sekmesinde, **satıcı faturası kurtarmaya izin ver** seçeneğini **Evet** olarak ayarlayın.
 
-Özellik açık olduğunda, **günlük** adlı bir bölümde ayrıca çalışma alanında gruplandırılmış üç kutucuk görürsünüz. Kutucuklar, **Günlükler** , **Günlükler - Bana atananlar** ve **Fatura havuzu** olarak adlandırılmıştır. 
+Özellik açık olduğunda, **günlük** adlı bir bölümde ayrıca çalışma alanında gruplandırılmış üç kutucuk görürsünüz. Kutucuklar, **Günlükler**, **Günlükler - Bana atananlar** ve **Fatura havuzu** olarak adlandırılmıştır. 
 
 **Bekleyen faturalar Özeti** bölümündeki bilgiler, oturum açma işlemi için varsayılan şirket olarak ayarlanan şirket içindir.
 
 ### <a name="creating-new-records"></a>Yeni kayıtlar oluşturma
 
-Yeni bir fatura kaydı oluşturmak için, **Yeni** 'yi seçin ve sonra listede aşağıdaki kayıt türlerinden birini seçin:
+Yeni bir fatura kaydı oluşturmak için, **Yeni**'yi seçin ve sonra listede aşağıdaki kayıt türlerinden birini seçin:
 
 - Satıcı faturası
 - Fatura günlüğü
@@ -86,7 +86,7 @@ Yeni bir fatura kaydı oluşturmak için, **Yeni** 'yi seçin ve sonra listede a
 - Fatura defteri
 - Fatura onayı
 
-Oluşturduğunuz kaydın, oturum açmış olduğunuz şirketi değil şirket filtresini temel aldığına dikkat edin. Örneğin, **UMSF** şirketinde oturum açtınız, ancak şirket filtresi **GBSI** olarak ayarlıdır. Bu durumda, **yeni** 'yi seçip sonra listede bir kayıt türü seçtiğinizde, kayıt GBSI şirketinde oluşturulur.
+Oluşturduğunuz kaydın, oturum açmış olduğunuz şirketi değil şirket filtresini temel aldığına dikkat edin. Örneğin, **UMSF** şirketinde oturum açtınız, ancak şirket filtresi **GBSI** olarak ayarlıdır. Bu durumda, **yeni**'yi seçip sonra listede bir kayıt türü seçtiğinizde, kayıt GBSI şirketinde oluşturulur.
 
 ### <a name="documents-not-invoiced-grids"></a>Faturalanmamış belgeler ızgaraları
 
@@ -102,7 +102,7 @@ Oluşturduğunuz kaydın, oturum açmış olduğunuz şirketi değil şirket fil
 
 ### <a name="related-information"></a>İlgili bilgiler
 
-Çalışma alanının sağ tarafındaki bağlantıları kullanarak deftere nakledilen faturalar hakkındaki bilgileri görüntüleyebilirsiniz. Bu bağlantılar **Açık satıcı faturalarını** , **Fatura günlüğünü** , **fatura geçmişini ve eşleme ayrıntılarını** içerir. **Satıcılar** bölümünde, beklemede olan tüm satıcıları gösteren bir filtre uygulanmış listeye erişebilir veya **tüm satıcılar** bağlantısını kullanabilirsiniz. **Tüm satınalma siparişleri** ve **açık ön ödemeler** bağlantıları da kullanılabilir.
+Çalışma alanının sağ tarafındaki bağlantıları kullanarak deftere nakledilen faturalar hakkındaki bilgileri görüntüleyebilirsiniz. Bu bağlantılar **Açık satıcı faturalarını**, **Fatura günlüğünü**, **fatura geçmişini ve eşleme ayrıntılarını** içerir. **Satıcılar** bölümünde, beklemede olan tüm satıcıları gösteren bir filtre uygulanmış listeye erişebilir veya **tüm satıcılar** bağlantısını kullanabilirsiniz. **Tüm satınalma siparişleri** ve **açık ön ödemeler** bağlantıları da kullanılabilir.
 
 ### <a name="analytics--all-companies-page"></a>Analizler – Tüm şirketler sayfası
 

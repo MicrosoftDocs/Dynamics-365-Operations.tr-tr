@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006153"
+ms.locfileid: "4448976"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödemeyi tam olarak kapatın
 
@@ -105,7 +105,7 @@ April, **Kapatma hareketleri** sayfasını kapatıyor. Günlükte 495,00 tutarı
 | DISC-10010 | Nakit iskontosu    | 1/7/2015  |         | 5,00                                 |                                       | 0,00    | ABD Doları      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>Kalan tutar 8 Temmuz tarihinde ödeniyor
-April, satıcı 3064 için faturanın geri kalanını nakit iskontosu vadesi olan 8 Temmuz tarihinde ödüyor. April, 8 Temmuz tarihinde ödeme günlüğü oluşturuyor ve hareketi kapatmak üzere işaretliyor. Mutlaka kapatılması gereken tutarın 495.00 olduğunu görüyor. **Tahmini nakit iskontosu** alanındaki değer **-5.00** 'dir, çünkü daha önce alınan iskonto 5.00'dır.
+April, satıcı 3064 için faturanın geri kalanını nakit iskontosu vadesi olan 8 Temmuz tarihinde ödüyor. April, 8 Temmuz tarihinde ödeme günlüğü oluşturuyor ve hareketi kapatmak üzere işaretliyor. Mutlaka kapatılması gereken tutarın 495.00 olduğunu görüyor. **Tahmini nakit iskontosu** alanındaki değer **-5.00**'dir, çünkü daha önce alınan iskonto 5.00'dır.
 
 |  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|

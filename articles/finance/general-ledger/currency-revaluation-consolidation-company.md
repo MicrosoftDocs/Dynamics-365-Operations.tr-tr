@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014995"
+ms.locfileid: "4448982"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 
@@ -36,8 +36,8 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 -   **Konsolide şirket (CON)** – muhasebe ve raporlama para birimi Euro (EUR) kullanılır.
     -   **Gerçekleşmiş Kazanç** – genel muhasebe hesabı 801500
     -   **Gerçekleşmiş kayıp** – genel muhasebe hesabı 801600
-    -   **Gerçekleşmemiş Kazanç** – genel muhasebe hesabı 801600
-    -   **Gerçekleşmemiş kayıp** – genel muhasebe hesabı 801400
+    -   **Gerçekleşmemiş Kazanç**– genel muhasebe hesabı 801600
+    -   **Gerçekleşmemiş kayıp**– genel muhasebe hesabı 801400
 
 ## <a name="original-transactions"></a>Özgün hareketler
 ### <a name="cash-receipt-transactions-in-usmf"></a>USMF'de Nakit Tahsilat hareketleri

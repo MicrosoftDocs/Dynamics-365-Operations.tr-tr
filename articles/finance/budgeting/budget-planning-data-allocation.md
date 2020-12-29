@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
-ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "3106894"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448941"
 ---
 # <a name="budget-planning-data-allocation"></a>Bütçe planlama veri tahsisatı
 

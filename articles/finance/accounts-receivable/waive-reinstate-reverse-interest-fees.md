@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1b5c92d6f3bb0bdc3fbadc9708350b5107e6cf37
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188683"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448831"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya tersine çevirme
 

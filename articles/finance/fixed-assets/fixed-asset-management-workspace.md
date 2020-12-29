@@ -18,11 +18,11 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: ea6f04b1dad162749edc1ad7662f7d9cf077221d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187188"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448793"
 ---
 # <a name="fixed-asset-management-workspace"></a>Sabit kıymet yönetim çalışma alanı
 

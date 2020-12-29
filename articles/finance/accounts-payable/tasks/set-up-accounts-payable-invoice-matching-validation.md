@@ -17,11 +17,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143800"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4448755"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Borç hesapları fatura eşleştirme doğrulaması ayarlama
 
@@ -52,7 +52,7 @@ Dört farklı eşleşen doğrulama türü vardır.
 8. **Satır eşleştirme ilkesi** alanında birlikte çalıştığınız tüzel kişilik için varsayılan ilke olarak kullanılacak değeri seçin. **Gerekli değil**, tekil fatura satırı fiyatlarının satınalma siparişi fiyatıyla veya fatura miktarlarının sevk irsaliyesi miktarlarıyla eşleştirilmesinde doğrulama yapmak gerekmediği anlamına gelir. **İki Yönlü Eşleştirme** fatura satırlarının doğrulanması gerekmediği, ancak satınalma siparişi ve tedarikçi fatura belgelerinin doğrulamaya dahil edileceği anlamına gelir. Ürün girişi, eşleştirme doğrulamalarında dikkate alınmaz. **Üç Yönlü Eşleştirme** fatura net birim fiyatının satınalma siparişi net birim fiyatıyla karşılaştırılacağı ve eşleşen ürün girişi miktarının fatura miktarıyla karşılaştırılacağı anlamına gelir.
 9. Bir madde, satıcı, satıcı ve madde birleşimi veya satınalma siparişi satırı için uygulanacak eşleştirmede farklı bir düzeye izin vermek için alanında **Eşleştirme ilkesini geçersiz kılmaya izin ver** alanında bir değer seçin. **Eşleştirme ilkesi** sayfasında belirli bir satıcı, madde veya satıcı ve madde birleşimi için tüzel kişilik satır Eşleştirme ilkesinin üzerine yazılabilir.
     * Satır eşleştirme ilkesi olarak İki yönlü eşleştirme veya Üç yönlü eşleştirme kullanıyorsanız, **Madde fiyat toleransı** sayfasında tüzel kişiliğiniz, maddeler ve satıcılar için fiyat toleransı yüzdeleri ayarlayabilirsiniz. Yasal varlık varsayılan fiyat toleransı, iki yönlü ve üç yönlü eşleştirme için sıfır olarak ayarlanır. Satıcı faturaları, satınalma siparişlerindeki bilgilerle karşılaştırılırken, ilgili fiyat toleransı yüzdesi aranır.   
-10. Faturalardaki satır maddelerinin fiyat toplamlarını eşleştirmek için, **Fiyat toplamlarını eşleştir** alanında bir değer seçin. Satıcı aynı satınalma siparişi satırı için birden fazla fatura gönderdiği zaman bu eşleştirme türü yararlı olur. Faturadaki her bir satırın net tutarıyla ilgili fiyat bilgilerini ve tüm bekleyen ve önceden nakledilmiş fatura satırlarını, karşılık gelen satınalma siparişi satırının net tutarıyla karşılaştırabilirsiniz.  Seçenekler arasında **Hiçbiri**, **Yüzde**, **Tutar**veya **Yüzde ve tutar** bulunur.
+10. Faturalardaki satır maddelerinin fiyat toplamlarını eşleştirmek için, **Fiyat toplamlarını eşleştir** alanında bir değer seçin. Satıcı aynı satınalma siparişi satırı için birden fazla fatura gönderdiği zaman bu eşleştirme türü yararlı olur. Faturadaki her bir satırın net tutarıyla ilgili fiyat bilgilerini ve tüm bekleyen ve önceden nakledilmiş fatura satırlarını, karşılık gelen satınalma siparişi satırının net tutarıyla karşılaştırabilirsiniz.  Seçenekler arasında **Hiçbiri**, **Yüzde**, **Tutar** veya **Yüzde ve tutar** bulunur.
 11. **Satınalma fiyatı toplam tolerans yüzdesi** alanına, kabul ettiğiniz farkın yüzdesini girin. Bu alan yalnızca  **Fiyat toplamlarını eşleştir** alanında **Yüzde** veya **Yüzde ve tutar** değeri seçildiğinde kullanılabilir
 12. **Satınalma fiyatı toplam toleransı** alanına, hesap para birimi cinsinden bir tutar girin. Bu alan yalnızca  **Fiyat toplamlarını eşleştir** alanında **Tutar** veya **Yüzde ve tutar** değeri seçildiğinde kullanılabilir.
 13. **Fiyat görüntüleme toplam eşleşmesi simgesi** alanında, fatura eşleştirmesi için bir tutarsızlık toleransı aşarsa bir simge görüntüleme öğesini seçin. Toleransı aşan uyuşmazlık pozitif olduğunda veya pozitif ya da negatif olduğunda simge görüntülenebilir.
@@ -74,13 +74,13 @@ Dört farklı eşleşen doğrulama türü vardır.
 
 Varsayılan tüzel kişilik fiyat toleransı yüzde 0'dır ve bu fiyat toleransı tüm maddelere ve tüm hesaplara uygulanır (Tümü, Tümü). Varsayılan tüzel kişilik fiyat toleransı kaydını silemezsiniz.
 
-Varsayılan olarak, negatif fiyat uyuşmazlıklarına izin verilir. Ancak, negatif fiyat toleransı yüzdesi giremezsiniz. Negatif fiyat tolerans yüzdelerini izlemek için, **Borç hesabı parametreleri** sayfasındaki **Gider eşleme simgesini göster** alanında **Toleranstan büyükse veya küçükse** seçeneğini belirleyin. Daha sonra **fiyat toleransı**sayfasına fiyat tolerans yüzdeleri girin.
+Varsayılan olarak, negatif fiyat uyuşmazlıklarına izin verilir. Ancak, negatif fiyat toleransı yüzdesi giremezsiniz. Negatif fiyat tolerans yüzdelerini izlemek için, **Borç hesabı parametreleri** sayfasındaki **Gider eşleme simgesini göster** alanında **Toleranstan büyükse veya küçükse** seçeneğini belirleyin. Daha sonra **fiyat toleransı** sayfasına fiyat tolerans yüzdeleri girin.
 
 ## <a name="set-up-matching-policy-override"></a>Eşleştirme ilkesini geçersiz kılmayı ayarla
 
 Satın alma siparişi formundaki satırları için eşleştirme ilkesi alanı için varsayılan girişi tanımlamak üzere **Borç hesapları > Kurulum > Fatura eşleştirme kurulumu > Eşleşme ilkesi**'ne gidin. Bu isteğe bağlı bir kurulumdur. Maddeler, satıcılar veya madde ve satıcı birleşimleri için çift-Yön veya üç yönlü eşleştirme ayarlamak üzere bu formu kullanın. Bu girişler, **Borç hesapları parametreleri** sayfasında tanımladığınız yasal varlık eşleştirme ilkesiyle daha fazla parçalı eşleştirme ilkesi tanımlamanızı sağlar. Varsayılan yasal varlık satırı eşleştirme ilkesi, bu sayfada farklı satır eşleştirme ilkesi belirtilmiş olanlar dışındaki tüm madde ve satıcılara uygulanır.
 
-Bu sayfada, **Eşleşen ilke düzeyi**ni seçin. Eşleşen politika sıralamasını belirlemek için eşleşen politika hiyerarşisindeki seviyeyi seçin.
+Bu sayfada, **Eşleşen ilke düzeyi** ni seçin. Eşleşen politika sıralamasını belirlemek için eşleşen politika hiyerarşisindeki seviyeyi seçin.
 
 - **Madde ve satıcı** – Belirli satıcılardan satın alınan belirli maddeler için eşleştirme ilkesini belirtin.
 - **Madde** – Madde ve satıcı düzeyinde belirtilenler dışında herhangi bir satıcıdan satın alınan belirli maddeler için eşleştirme ilkesini belirtir.
