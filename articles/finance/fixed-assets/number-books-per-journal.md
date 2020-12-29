@@ -1,0 +1,49 @@
+---
+title: Günlük başına defter sayısı
+description: Bu konu, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişkiyi açıklar. Her bir alım ve amortisman için dahil edilen maksimum defter sayısını tanımlayabilirsiniz.
+author: moaamer
+manager: Ann Beebe
+ms.date: 11/19/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
+ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
+ms.search.region: Global
+ms.author: moaamer
+ms.search.validFrom: 2020-11-19
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
+ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.translationtype: HT
+ms.contentlocale: tr-TR
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4650688"
+---
+# <a name="number-of-books-per-journal"></a><span data-ttu-id="76a0d-104">Günlük başına defter sayısı</span><span class="sxs-lookup"><span data-stu-id="76a0d-104">Number of books per journal</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="76a0d-105">Bu konu, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişkiyi açıklar.</span><span class="sxs-lookup"><span data-stu-id="76a0d-105">This topic describes the relationship between journals and asset books when you create a fixed asset acquisition or depreciation proposal through a batch job.</span></span> <span data-ttu-id="76a0d-106">Her bir alım ve amortisman için dahil edilen maksimum kitap sayısını **Sabit varlıklar parametreleri** sayfasındaki (**Sabit varlıklar \> Kurulum \> Sabit varlıklar parametreleri**) **Genel** sekmesinde yer alan **Günlük başına defter sayısı**'ndaki alanları kullanaraktanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="76a0d-106">You can define the maximum number of books that are included for each acquisition and for depreciation by using the fields in the **Number of books per journal** section on the **General** tab of the **Fixed assets parameters** page (**Fixed assets \> Setup \> Fixed assets parameters**).</span></span> <span data-ttu-id="76a0d-107">Bu alanlar, her bir alım günlüğü ve amortisman günlüğü başına varlık defteri sayısını dağıtmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="76a0d-107">These fields let you distribute the number of asset books per acquisition journal and depreciation journal.</span></span>
+
+<span data-ttu-id="76a0d-108">Bir alım teklifi için varsayılan değer en az 10.000 defterdir.</span><span class="sxs-lookup"><span data-stu-id="76a0d-108">For an acquisition proposal, the default value is at least 10,000 books.</span></span> <span data-ttu-id="76a0d-109">Bir amortisman teklifi için varsayılan değer en az 2.000 defterdir.</span><span class="sxs-lookup"><span data-stu-id="76a0d-109">For a depreciation proposal, the default value is at least 2,000 books.</span></span>
+
+<span data-ttu-id="76a0d-110">Örneğin, 4.000 sabit varlık varsa ve her bir varlık ile iki defter ilişkilendirilmişse, geçerli katmana bir defter nakledilir ve diğer defter vergi katmanına nakledilir.</span><span class="sxs-lookup"><span data-stu-id="76a0d-110">For example, if there are 4,000 fixed assets, and two books are associated with each asset, one book will be posted to the current layer, and the other book will be posted to the tax layer.</span></span> <span data-ttu-id="76a0d-111">Toplu iş yoluyla 4.000 sabit varlık alımı yapıyorsanız tek bir sabit varlık alım günlüğü oluşturan toplu iş 4.000 varlık defteri içerecektir.</span><span class="sxs-lookup"><span data-stu-id="76a0d-111">If you acquire 4,000 fixed assets through batch processing, the batch job that creates one fixed asset acquisition journal will contain 4,000 asset books.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="76a0d-112">Oluşturulan günlük, toplu iş tamamlanana kadar kullanılmaya devam eder.</span><span class="sxs-lookup"><span data-stu-id="76a0d-112">The journal that is created will continue to be used until the batch job is completed.</span></span>
+>
+> <span data-ttu-id="76a0d-113">Türetilmiş defterler günlük başına maksimum defter sayısına dahil edilmez.</span><span class="sxs-lookup"><span data-stu-id="76a0d-113">The derived books aren't included in the maximum number of books per journal.</span></span>
+
+<span data-ttu-id="76a0d-114">Toplu işi, aynı alınan varlık kümesiyle ilgili amortismanı çalıştırmak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="76a0d-114">You can use  batch processing to run depreciation for the same set of acquired assets.</span></span> <span data-ttu-id="76a0d-115">Örneğin, bir toplu iş, her biri 2.000 varlık defterinden oluşan iki amortisman günlüğü oluşturuyor.</span><span class="sxs-lookup"><span data-stu-id="76a0d-115">For example, a batch job creates two depreciation journals, each of which consists of 2,000 asset books.</span></span> <span data-ttu-id="76a0d-116">İlk günlükte 1 ile 2.000 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-116">The first journal will contain books that are associated with the fixed assets that are numbered 1 through 2,000.</span></span> <span data-ttu-id="76a0d-117">İkinci günlükte 2.001 ile 4.000 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-117">The second journal will then contain books that are associated with the fixed assets that are numbered 2,001 through 4,000.</span></span>
+
+<span data-ttu-id="76a0d-118">Toplu işi kapalı defterleri dışarıda tutar.</span><span class="sxs-lookup"><span data-stu-id="76a0d-118">The batch processing job excludes closed books.</span></span> <span data-ttu-id="76a0d-119">Örneğin, amortisman için bir toplu işte, ilk 2.000 defterin 10'unun kapalı olduğunu düşünelim.</span><span class="sxs-lookup"><span data-stu-id="76a0d-119">For example, in a batch job for depreciation, 10 of the first 2,000 books are closed.</span></span> <span data-ttu-id="76a0d-120">Bu durumda, ilk günlükte 1 ile 2.011 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-120">In this case, the first journal will contain books that are associated with the fixed assets that are numbered 1 through 2,011.</span></span> <span data-ttu-id="76a0d-121">İkinci günlükte 2.012 ile 4.000 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-121">The second journal will then contain books that are associated with the fixed assets that are numbered 2,012 through 4,000.</span></span>
+
+<span data-ttu-id="76a0d-122">Aynı günlükte yinelenen öğe kimlikleri yoksa defter sayısı sınırı uygulanır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-122">The limit on the number of books is applied if duplicate asset IDs don't exist in the same journal.</span></span> <span data-ttu-id="76a0d-123">Ancak, varlık kodu defter koduyla aynıysa, varlık kimliğini aynı günlükte tutmak için günlük başına defter sayısı aşılabilir.</span><span class="sxs-lookup"><span data-stu-id="76a0d-123">However, if the asset ID is the same as the book ID, the number of books per journal can be exceeded to keep the asset ID in the same journal.</span></span>
+
+<span data-ttu-id="76a0d-124">Örneğin 5.001 sabit varlık var, her bir sabit varlık kimliğiyle üç defter ilişkilendirilmiş ve her varlık defteri aynı deftere nakil katmanına nakledilmiş.</span><span class="sxs-lookup"><span data-stu-id="76a0d-124">For example, there are 5,001 fixed asset IDs, three books are associated with each fixed asset ID, and each asset book is posted to the same posting layer.</span></span> <span data-ttu-id="76a0d-125">Özetleme yapmadan art arda üç ay boyunca amortisman uyguluyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="76a0d-125">You run depreciation for three consecutive months, without summarization.</span></span> <span data-ttu-id="76a0d-126">Amortisman günlüğü toplu iş aracılığıyla oluşturulur ve sistem, 667 sabit varlık kimliği bulunan yedi günlük ve her bir sabit varlık kimliği için üç defter oluşturur.</span><span class="sxs-lookup"><span data-stu-id="76a0d-126">The depreciation journal will be created through a batch job, and the system will create seven journals that have 667 fixed asset IDs and three books for each fixed asset ID.</span></span> <span data-ttu-id="76a0d-127">Sonuç, 2.001 defter olacaktır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-127">The result will be 2,001 books.</span></span> <span data-ttu-id="76a0d-128">Bu nedenle, aynı varlık kimliğini aynı günlükte tutmak için üç ay içinde 6.003 günlük satırı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-128">Therefore, in three months, there will be 6,003 journal lines to maintain the same asset IDs in the same journal.</span></span> <span data-ttu-id="76a0d-129">Ayrıca sistem, 332 sabit varlık kimliği bulunan bir günlük ve her sabit varlık kimliği için üç defter oluşturacaktır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-129">The system will also create one journal that has 332 fixed asset IDs and three books for each fixed asset ID.</span></span> <span data-ttu-id="76a0d-130">Üç ayda, 2.988 satır olacaktır.</span><span class="sxs-lookup"><span data-stu-id="76a0d-130">In three months, there will be 2,988 lines.</span></span>
