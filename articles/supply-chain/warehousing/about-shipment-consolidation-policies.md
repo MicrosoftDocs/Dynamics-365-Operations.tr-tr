@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016367"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654232"
 ---
 # <a name="shipment-consolidation-policies"></a>Sevkiyat konsolidasyonu ilkeleri
 
@@ -121,7 +121,7 @@ Aşağıdaki tablo, sevkiyat konsolidasyonu ilkelerini kullanmadığınız sıra
 
 | Sevkiyat konsolidasyon ilkeleri olmadan | Sevkiyat konsolidasyon ilkeleri ile |
 |---|----|
-| Geçerli değil | Konsolidasyon için seçilen satış veya transfer sevkiyatları, oluşturulan sevkiyatla aynı konsolidasyon ilkesine sahip olmalı veya açık bir sevkiyata ( **Mevcut sevkiyatlarla konsolide et** seçeneği açık olduğunda) atanmalıdır. |
+| Geçerli değil | Konsolidasyon için seçilen satış veya transfer sevkiyatları, oluşturulan sevkiyatla aynı konsolidasyon ilkesine sahip olmalı veya açık bir sevkiyata (**Mevcut sevkiyatlarla konsolide et** seçeneği açık olduğunda) atanmalıdır. |
 | *Ambara serbest bırakma* yordamı, konsolidasyon için bir sevkiyat bulmak amacıyla var olan sevkiyatlar arasında arama yapmaz. Yalnızca *Ambara serbest bırakma* yordamının geçerli bir örneği tarafından oluşturulan sevkiyatlar, konsolidasyon için bir sevkiyat bulmak amacıyla kullanılır. | **Mevcut sevkiyatlarla konsolide et** seçeneği kullanılmakta olan bir konsolidasyon ilkesi için açılırsa *Ambara serbest bırakma* yordamı, konsolidasyon için bir sevkiyat bulmak üzere aynı konsolidasyon ilkesine göre oluşturulmuş mevcut sevkiyatlar arasında arama yapar. Bu nedenle, iki ilkeniz varsa ilke 2'ye göre oluşturulan bir sevkiyat, ilke 1'e göre oluşturulan bir sevkiyatla hiçbir zaman konsolide edilmez. |
 | Geçerli değil | Konsolidasyon ilkesi alanları listesi boşsa veya bir ilke bulunamazsa her satış siparişi veya transfer emri satırı için yeni bir sevkiyat oluşturulur. |
 | Aşağıdaki konsolidasyon alanı, bir *transfer satırına* ait sevkiyatları konsolide etmek için kullanılan benzersiz değer birleşimini tanımlar. (Diğer tüm alanlar yok sayılır.)<ul><li>Sipariş numarası (OrderNum)</li></ul> | Aşağıdaki konsolidasyon alanları, bir *transfer satırına* ait sevkiyatları konsolide etmek için kullanılan benzersiz değer birleşimini tanımlar. (Diğer tüm alanlar yok sayılır.)<ul><li>Sipariş numarası (OrderNum)</li><li>Teslimat alıcısı (DeliveryName)</li><li>Posta adresi (DeliveryPostalAddress)</li><li>ISO ülke kodu (CountryRegionISOCode)</li><li>Adres (Address)</li><li>Tesis (InventSiteId)</li><li>Ambar (InventLocationId)</li><li>Sevkiyat taşıyıcısı (CarrierCode)</li><li>Taşıyıcı hizmeti (CarrierServiceCode)</li><li>Teslimat şekli (ModeCode)</li><li>Taşıyıcı grubu (CarrierGroupCode)</li><li>Teslimat koşulları (DlvTermId)</li></ul>Bu alanlar, yeni bir sevkiyat oluşturulduğunda mevcut ve başlatılmış olan tek alanlardır. |

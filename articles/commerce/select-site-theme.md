@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817718"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556441"
 ---
 # <a name="select-a-site-theme"></a>Site teması seçme
 
@@ -32,7 +32,7 @@ Bu konuda, Microsoft Dynamics 365 Commerce'ta sitenizin temasını nasıl ayarla
 
 ## <a name="overview"></a>Genel Bakış
 
-Sitenin yerleşimi ve stili (örneğin, yazı tipleri, boyutlar ve renkler) seçtiğiniz ve siteye uyguladığınız Tema tarafından tanımlanır. Bir tema, şirketinizdeki bir geliştirici tarafından oluşturulur ve dağıtılır. Temalara genel bakış için, bkz [Temalara genel bakış](http://). Kural oluşturmayla ve temaları dağıtmayla ilgili daha fazla bilgi için bkz. [Yeni tema oluşturma](http://).
+Sitenin yerleşimi ve stili (örneğin, yazı tipleri, boyutlar ve renkler) seçtiğiniz ve siteye uyguladığınız Tema tarafından tanımlanır. Bir tema, şirketinizdeki bir geliştirici tarafından oluşturulur ve dağıtılır. Temalara genel bakış için, bkz [Temalara genel bakış](e-commerce-extensibility/theming.md). Kural oluşturmayla ve temaları dağıtmayla ilgili daha fazla bilgi için bkz. [Yeni tema oluşturma](e-commerce-extensibility/create-theme.md).
 
 Varsayılan olarak, bir siteyi ilk oluşturduğunuzda **Fabrikam** adlı bir tema kullanılır. Bu varsayılan tema, Commerce modül kitaplığının bir parçası olarak sağlanmıştır. Siteniz için ek temalar dağıttıktan sonra, siteyi, bunun yerine bunlardan birini kullanacak şekilde konfigüre edebilirsiniz.
 
@@ -63,3 +63,8 @@ Sitenize uygulanacak temayı seçmek için aşağıdaki adımları izleyin.
 [Sitenize dil ekleme](add-languages-to-site.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
+
+[Tema oluşturmaya genel bakış](e-commerce-extensibility/theming.md)
+
+[Yeni tema oluşturma](e-commerce-extensibility/create-theme.md)
+

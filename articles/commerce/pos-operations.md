@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081351"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594125"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -196,7 +196,9 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 102 | Ürünü hükümsüz kıl | Harekette seçili satır maddesini geçersiz kılın. | Evet | Evet | Hayır | Evet | Hayır |
 | 500 | Hareketi hükümsüz kıl | Geçerli hareketi geçersiz kılın. | Evet | Evet | Hayır | Evet | Hayır |
 | 916 | Windows workflow foundation | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
-| 924 | Banka kartları için X raporu | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Evet |
+| 924 | Banka kartları için X raporu | Bu işlem desteklenmez. | Geçerli değil | Geçerli değil | Geçerli değil | Geçerli değil | Evet |
+| 311 | Sistem iskontolarını hareketlerin içinden kaldır | Hareketin, kupon tabanlı iskontolar dahil olmak üzere tüm sistem tarafından uygulanan iskontolarını hareketten kaldırın. Bu, el ile iskontoları kaldırmaz. | Evet | Evet | Evet | Evet | No |
+| 312 | Sistem iskontolarını yeniden uygula | **Hareket üzerindeki sistem iskontolarını kaldır** operasyonunu kullanarak kaldırıldıklarında, harekete sistem iskontolarını yeniden uygulayın . | Evet | Evet | Evet | Evet | No |
 
 \* İşlem yalnızca bir müşteri siparişi veya satış teklifi etkinleştirildiğinde çevrimdışı modda ve yalnızca POS işlevleri profilinde müşteri siparişleri ve satış teklifleri için çevrimdışı oluşturma yapılandırılmışsa kullanılabilir. İşlem, siparişler Gerçek Zamanlı Hizmet kullanılarak oluşturulduğunda veya siparişler geri çağrıldığında veya düzenlendiğinde gerçekleştirilemez.
 

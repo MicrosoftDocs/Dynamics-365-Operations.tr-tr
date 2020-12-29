@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975109"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594149"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>POS'ta teslimat şeklini değiştirme
 
@@ -40,4 +40,10 @@ Bu özellik POS'ta yapılandırıldıktan sonra,**Teslimat şeklini değiştir**
 
 Değiştirmek istediğiniz satırları seçtikten sonra, teslimat şekli seçeneklerini belirlemek için **Teslimat şeklini değiştir**'e tıklayın. Değiştirilecek birden fazla satır seçtiyseniz, POS yalnızca tüm seçili ürünler için izin verilebilir olarak yapılandırılmış teslimat şekillerini görüntüler. Teslimat şekilleri belirli ürünleri ve teslimat adreslerini destekleyecek şekilde yapılandırılabilir. Bir ürün ve adres birleşimi için kabul edilebilir ancak başka bir seçilen ürün ve adres birleşimi için kabul edilebilir olmayan bir teslimat şekli varsa, teslimat şekli kullanılamaz. Bir ürün tarafından desteklenmeyen bir teslimat şeklini başka bir ürünün teslimat şekli olarak seçmek istiyorsanız, satırları tek tek seçmeniz ve teslimat şeklini her bir satır için ayrı olarak değiştirmeniz gerekebilir.  
 
-Yeni teslimat şeklini seçtikten sonra hareket sayfası görüntülenir. Yeni teslimat şekli seçimlerinizi gözden geçirmek için hareket listesinde **Teslimat** sekmesini seçin.   
+Yeni teslimat şeklini seçtikten sonra hareket sayfası görüntülenir. Yeni teslimat şekli seçimlerinizi gözden geçirmek için hareket listesinde **Teslimat** sekmesini seçin.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Çağrı merkezi siparişleri oluşturma](tasks/create-call-center-orders.md)
+
+[Teslimat şekline göre işlem tabanlı e-postaları özelleştirme](customize-email-delivery-mode.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533402"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517318"
 ---
 # <a name="enable-location-based-store-detection"></a>Konum tabanlı mağaza algılamayı etkinleştirme
 
@@ -52,11 +52,11 @@ Ticari olarak konum tabanlı mağaza algılamasını etkinleştirmek için aşa�
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 

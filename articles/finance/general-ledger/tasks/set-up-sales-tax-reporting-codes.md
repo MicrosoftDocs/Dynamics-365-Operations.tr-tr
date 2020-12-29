@@ -1,6 +1,6 @@
 ---
 title: Satış vergisi raporlama kodlarını ayarla
-description: Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir.
+description: Satış vergisi raporlama kodları, satış vergisi raporunda listelenen bir alan numarasına karşılık gelir.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/08/2019
@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6c18f4fb0db31a959647bb10d2b99d940646676e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 362d30e56fe35b85d50bfa2df57364733b366fef
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976805"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646193"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Satış vergisi raporlama kodlarını ayarla
 
 [!include [banner](../../includes/banner.md)]
 
-Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir. Bunlar, raporlama kodu başına özeti çıkarılan kapatma döneminin satış vergisi tutarlarının yazdırılacağı kod raporu tarafından, ülkeye özel rapor düzenlerinde ve Satış vergisi ödemesinde kullanılır. Satış vergisi raporlama kodlarını oluşturduktan sonra, Satış vergisi kodu sayfasındaki Rapor kurulumu hızlı sekmelerinde bu kodlara gönderme yapabilirsiniz. 
+Satış vergisi raporlama kodları, satış vergisi raporunda listelenen bir alan numarasına karşılık gelir. Bunlar ülkeye özgü rapor düzenlerinde kullanılır. Bunlar kod raporuna göre Satış vergisi ödemesinde de kullanılır. Bu raporda, her bir raporlama kodu için özetlenen bir kapanış dönemine ait satış vergisi tutarları gösterilir. Satış vergisi raporlama kodlarını oluşturduktan sonra, **Satış vergisi kodu** sayfasından erişebileceğiniz Rapor kurulumu hızlı sekmelerinde bu kodlara başvurabilirsiniz. 
 
 Bu kayıtta DEMF demo şirketi kullanılmaktadır.
 
 1. **Gezinti bölmesinde** **Vergi > Kurulum > Satış vergisi > Satış vergisi raporlama kodları**'na gidin.
 2. **Yeni**'ye tıklayın.
-3. Raporlama kodunun ait olduğu rapor düzenini seçin. Bu düzen, bir Satış vergisi kodu için kullanılabilecek raporlama kodlarını filtrelemede kullanılır. Her Satış vergisi kodu, bir Rapor düzeni kullanan, bir Satış vergisi dairesine ait bir kapatma dönemine aittir.  
+3. Raporlama kodunun ait olduğu rapor düzenini seçin. Bu düzen, bir satış vergisi kodu için kullanılabilecek raporlama kodlarını filtrelemede kullanılır. Her satış vergisi kodu, bir rapor düzeni kullanan, bir Satış vergisi dairesine ait bir kapatma dönemine aittir.  
 4. **Raporlama kodu** alanına bir sayı girin.
 5. **Rapor metni** alanında, raporlarda görüntülenecek bir açıklama girin.
 6. **Kısa açıklama** alanında, dahili amaçlı bir açıklama girin.

@@ -1,6 +1,6 @@
 ---
 title: Müşteri ödeme öngörüleri (Önizleme)
-description: Bu konu, bireysel müşterilerin tipik ödeme yöntemlerinin anlaşılmasını iyileştirmeye yardımcı olan ve başka türlü yaptığınızda tahsilat işlemlerini erken başlatmayı haklı kılan koşulları tanımlayan ödeme öngörüleri özelliğini açıklar.
+description: Bu konuda, müşterilerin tipik ödeme uygulamalarını daha iyi anlamaya yardımcı olan ödeme içgörüleri özelliği açıklanmıştır. Bu özellik, tahsilat işlemlerini normalde yaptığınızdan daha erken başlatmanıza gerekçe olabilecek durumları belirlemenize yardımcı olabilir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774066"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644645"
 ---
 # <a name="customer-payment-insights-preview"></a>Müşteri ödeme öngörüleri (Önizleme)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Bu konu, bireysel müşterilerin tipik ödeme yöntemlerinin anlaşılmasını iyileştirmeye yardımcı olan ve başka türlü yaptığınızda tahsilat işlemlerini erken başlatmanızı haklı kılan koşulları tanımlayan ödeme öngörüleri özelliğini açıklar. 
+Bu konuda, müşterilerin tipik ödeme uygulamalarını daha iyi anlamaya yardımcı olan ödeme içgörüleri özelliği açıklanmıştır. Bu özellik, tahsilat işlemlerini normalde yaptığınızdan daha erken başlatmanıza gerekçe olabilecek durumları belirlemenize yardımcı olabilir. 
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Genel bakış
 
-Kuruluşlar genellikle müşterilerinin faturalarını ne zaman ödeyeceklerini öngörmede zorluk yaşar. Bu bilgi eksikliği, daha az doğru nakit akışı tahminlerine, çok geç gerçekleşen tahsilat işlemlerine ve ödemelerinde temerrüde düşebilecek müşterilere gönderilen siparişlere yol açar. Müşteri ödeme öngörüleri (Önizleme), kuruluşların bir müşteri faturasının ne zaman ödeneceğini tahmin etmesine ve kuruluşun zamanında ödeme olasılığını artıran tahsilat stratejileri oluşturmasına yardımcı olur. 
+Müşterilerinin faturalarını ne zaman ödeyeceklerini tahmin etmek zor olabilir. Bu bilgi eksikliği, daha az doğru nakit akışı tahminlerine, çok geç gerçekleşen tahsilat işlemlerine ve ödemelerinde temerrüde düşebilecek müşterilere gönderilen siparişlere yol açar. Müşteri ödeme içgörüleri (Önizleme), müşteri faturasının ne zaman ödeneceğini tahmin etme konusunda kuruluşlara yardımcı olur. Bu bilgiler kuruluşların, zamanında ödeme olasılığını artıran tahsilat stratejileri oluşturmalarına yardımcı olabilir. 
 
 ## <a name="predictions"></a>Öngörüler
 
@@ -42,13 +42,13 @@ Kuruluşlar genellikle müşterilerinin faturalarını ne zaman ödeyeceklerini 
 
 Geçmiş faturalardan, ödemelerden ve müşteri verilerinden yararlanan bir makine öğrenimi modeli kullanan Müşteri ödeme öngörüleri (Önizleme), bir müşterinin ödeme bekleyen bir faturayı ne zaman ödeyeceğini daha doğru tahmin eder.
 
-Her açık fatura için Müşteri ödeme bilgileri (Önizleme) üç ödeme olasılığı öngörür:
+Her açık fatura için Müşteri ödeme içgörüleri (Önizleme) üç ödeme olasılığı tahmin edebilir:
 
 -   Ödemenin zamanında yapılma olasılığı 
 -   Ödemenin geç yapılma olasılığı
 -   Ödemenin çok geç yapılma olasılığı
 
-Kuruluşların bir müşteriden bekleyebilecekleri toplam ödeme tutarını üç olasılıktan birinde (Zamanında, Geç ve Çok geç) olacağını anlamalarına yardımcı olmak için Müşteri ödeme öngörüleri (Önizleme) beklenen ödemelerin toplu görünümünü de sağlar.
+Müşteri ödeme içgörüleri (Önizleme), beklenen ödemelerin toplu görünümünü de sunar. Bu da kuruluşların üç olasılıktan birinde (Zamanında, Geç ve Çok geç) müşteriden bekleyebilecekleri toplam ödeme tutarını anlamalarına yardımcı olabilir.
 
 [![Ödeme tahminlerinin toplu görünümü](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -62,11 +62,11 @@ Müşteri ödeme öngörüleri (Önizleme) ile kuruluşlar tahsilatlarda daha pr
 
 ## <a name="methodology"></a>Metodoloji
 
-Bir yapay zeka çözümü geliştirmek ve dağıtmak zordur. Kullanılabilir bir yapay zeka çözümünü formüle etmek, geliştirmek, dağıtmak ve korumak için uzun zamandır çalışmakta olan veri bilimcileri, konu uzmanları ve mühendislerden oluşan bir takım gerekir. Yapay zeka çözümlerinin Finance'ta dağıtımını ve kullanılmasını kolaylaştırıyoruz. Finance'ta Microsoft AI Builder üzerine inşa edilen yapay zeka çözümleri hazırlıyoruz. Tek tıkla bir son kullanıcı, yapay zeka çözümünü dağıtabilir ve akıllı tahminlerin avantajlarından yararlanmaya başlayabilir. Kuruluş, tahminlerin doğruluğundan memnun kalmazsa bir uzman kullanıcı yine tek tıkla AI builder uzantısı deneyimine girebilir ve ardından tahminler oluşturmak için kullanılan alanları seçebilir veya alanların seçimini kaldırabilir. Hazır olduklarında, değişiklikler konusunda eğitim verip değişiklikleri yayımlayabilirler ve eğitimi verilmiş model, Finance'taki tahminler için otomatik olarak seçilir.
+Bir yapay zeka çözümü geliştirmek ve dağıtmak zordur. Kullanılabilir bir yapay zeka çözümünü formüle etmek, geliştirmek, dağıtmak ve korumak için uzun zamandır çalışmakta olan veri bilimcileri, konu uzmanları ve mühendislerden oluşan bir takım gereklidir. Yapay zeka çözümlerinin Finance'ta dağıtımını ve kullanılmasını kolaylaştırıyoruz. Finance'ta Microsoft AI Builder üzerine inşa edilen yapay zeka çözümleri hazırlıyoruz. Tek tıkla bir son kullanıcı, yapay zeka çözümünü dağıtabilir ve akıllı tahminlerin avantajlarından yararlanmaya başlayabilir. Kuruluş, tahminlerin doğruluğundan memnun kalmazsa bir uzman kullanıcı yine tek tıkla AI builder uzantısı deneyimine girebilir ve ardından tahminler oluşturmak için kullanılan alanları seçebilir veya alanların seçimini kaldırabilir. Hazır olduklarında, değişiklikler konusunda eğitim verip değişiklikleri yayımlayabilirler ve eğitimi verilmiş model, Finance'taki tahminler için otomatik olarak seçilir.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Müşteri ödeme öngörüleri (Önizleme) edinme
 
-Müşteri ödeme öngörüleri (Önizleme) uygulamasını denemek istiyorsanız lütfen [Müşteri ödeme öngörüleri (Önizleme)](mailto:fiap@microsoft.com) adresine e-posta gönderin.
+Müşteri ödeme içgörüleri (Önizleme) uygulamasını denemek istiyorsanız lütfen [Müşteri ödeme içgörüleri (Önizleme)](mailto:fiap@microsoft.com) adresine e-posta gönderin.
 
 ## <a name="privacy-notice"></a>Gizlilik Bildirimi
 

@@ -3,7 +3,7 @@ title: Otomatik satıcı faturalama işlemlerine genel bakış
 description: Bu konu, otomatik bir işlem kullanmanın yararlarını ve satıcı fatura işlemeyi otomatikleştirme yeteneğini açıklamaktadır.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022508"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665334"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Otomatik satıcı faturalama işlemlerine genel bakış
 
@@ -39,8 +39,9 @@ Otomasyon süreçleri, bu görevleri gerçekleştirmek için kullanılabilir:
 - İçe aktarılan faturaları otomatik olarak iş akışı sistemine gönderme.
 - Ürün girişlerini bekleyen satıcı faturası satırlarıyla eşleştirme.
 - Satıcı faturası deftere nakledilmeden önce deftere nakil benzetimi yapma.
-- İş akışı geçmişini hızlı ve etkili şekilde görüntüleme.
+- İş akışı ve otomasyon geçmişini hızlı ve etkili şekilde görüntüleme.
 - Satıcı faturası işlemeyi otomatikleştirme sonuçlarını görüntüleme ve inceleme.
+- Birden fazla fatura için otomatik işlemeyi sürdürme.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Satıcı faturası otomasyonu – İçe aktarılan satıcı faturalarını iş akışı sistemine gönderme
 
@@ -58,10 +59,13 @@ Sistem, deftere nakledilen ürün girişlerini, üç yönlü eşleştirme ilkesi
 
 Deftere nakil benzetimi, satıcı faturalarının deftere nakil işlemi sırasında yapılan doğrulama adımlarını tamamlar, ancak hiçbir hesap güncelleştirilmez. Bu işlemi çalıştırmak için, **Bekleyen satıcı faturaları** sayfasında tek bir fatura veya birden fazla fatura seçebilirsiniz.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Satıcı faturası otomasyonu – Satıcı faturaları için iş akışı geçmiş bilgilerini görüntüleme için geliştirilmiş deneyim
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Satıcı faturası otomasyonu – Satıcı faturaları için iş akışı ve otomasyon geçmiş bilgilerini görüntüleme için geliştirilmiş deneyim
 
-Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görünüm sağlanmıştır. Satıcı faturası iş akışı geçmişine doğrudan satıcı faturasından erişilebilir. Bu nedenle, bu bilgileri bulmak için daha az tıklama gerekir.
+Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görünüm sağlanmıştır. Satıcı faturası iş akışı geçmişine doğrudan satıcı faturasından erişilebilir. Bu nedenle, bu bilgileri bulmak için daha az tıklama gerekir. Kuruluşunuz içeri aktarılan satıcı faturalarını iş akışına otomatik olarak gönderme özelliğini etkinleştirmişse içeri aktarılan faturalar için otomasyon geçmişi sunulur. Otomasyon geçmişi, geçerli işlem adımının yanı sıra zaten tamamlanmış olan adımları belirlemenize yardımcı olur. Bir adım başarısız olduğunda, sistem hatanın nedenini anlamanıza yardımcı olacak ayrıntılı bilgiler sağlar.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Satıcı faturası otomasyonu – Analizler ve ölçümler
 
 **Satıcı fatura girişi** çalışma alanı, otomatik işlem aracılığıyla bunu yapmamış olan satıcı faturalarına odaklanmanızı sağlar. Çalışma alanı üzerindeki kutucuklar iş akışı sistemine başarıyla gönderilmemiş, içe aktarılan veya ürün girişleriyle eşleştirilemeyen satıcı faturaları hakkındaki bilgileri listeler. Microsoft Power BI ölçümleri ayrıca, satıcı fatura otomasyonunun verimlilkleri için Borç hesapları yöneticilerine içgörü sunmak amacıyla da sağlanır.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Satıcı fatura otomasyonu - Birden fazla fatura için otomatik işlemeyi sürdürme
+İçeri aktarılan bir fatura otomatik işlem aracılığıyla iş akışına başarılı bir şekilde gönderilmezse sistem bu faturayı diğer otomatik işlemlerden kaldırır. Borç hesapları memuru, otomatik işlem faturayı iş akışına yeniden göndermeden önce faturayı inceleyip düzenleyebilir. Bir hata nedeni birden çok fatura için aynı düzeltme ile çözülebiliyorsa otomatik işlemi **Otomatik fatura işlemeyi sürdür** sayfasından otomatik işlemi yeniden başlatabilirsiniz. 

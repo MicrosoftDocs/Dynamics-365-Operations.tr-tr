@@ -1,6 +1,6 @@
 ---
-title: Yeni bir e-Ticaret kiracısını dağıtma
-description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir e-ticaret kiracısı dağıtımının nasıl dağıtılacağını açıklamaktadır.
+title: Yeni bir e-ticaret kiracısını dağıtma
+description: Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533287"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517294"
 ---
-# <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-Ticaret kiracısını dağıtma
+# <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-ticaret kiracısını dağıtma
 
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
+Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamics 365 Commerce e-ticaret sitesi dağıtımının nasıl dağıtılacağını açıklamaktadır.
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Genel bakış
 
 Microsoft Dynamics Lifecycle Services (LCS), iş ortaklarının ve müşterilerin projelerini ve ortamlarını yönetmek, Microsoft Dynamics ürünlerle ve özelliklerle ilgili en son bilgileri görüntülemek ve destek olayları oluşturmak, izlemek ve bunlara gözatmak için kullanılabilecek bulut tabanlı bir ortak çalışma alanıdır. E-ticaret yönetim özellikleri LCS ile tümleşiktir.
 
@@ -74,7 +74,7 @@ Gerekli bilgileri topladıktan sonra, e-ticaret başlatmak için aşağıdaki ad
 1. [LCS](https://lcs.dynamics.com)'de oturum açın
 1. E-ticaret başlatmak istediğiniz ortamı içeren projeyi açın.
 1. **Ortamlar** bölümünde, ortamı seçin.
-1. **Ortam özellikleri**altında, **perakende Yönet** bağlantısını seçin.
+1. **Ortam özellikleri** altında, **perakende Yönet** bağlantısını seçin.
 1. **E-ticaret** sekmesinde, **kurulum**'u seçin. Sağlama için gerekli bilgileri girmeniz gereken bir iletişim kutusu görüntülenir.
 1. Gerekli bilgileri doldurun ve sonraki sayfaya gidin.
 1. Sonraki sayfada, gerekli bilgileri doldurun ve formu gönderin. Başlatmanın başlatıldığını görmek istediğiniz **e-ticaret** sekmesine iade ediyorsunuz.
@@ -82,9 +82,9 @@ Gerekli bilgileri topladıktan sonra, e-ticaret başlatmak için aşağıdaki ad
     
 E-ticaret LCS'den başlatıldığında, sistem e-ticaret için gerekli olan birçok bileşeni sağlar ve bunları ortamla ilişkilendirir. Sağlama tamamlandıktan sonra, **Perakende yönetim** sayfasındaki **e-ticaret** sekmesi sağlama işlemini yansıtacak şekilde güncelleştirilir. Sayfa en son özelleştirme dağıtımlarını ve devam eden diğer tüm dağıtımları gösterir. Ayrıca e-ticaret sitesi ve e-ticaret sitesi oluşturucu (sitelerin içeriğinin yazıldığı araç) bağlantıları da içerir.
 
-## <a name="access-site-builder"></a>Site oluşturucuya erişim
+## <a name="access-commerce-site-builder"></a>Commerce Site oluşturucuya erişim
 
-Site oluşturucuya erişmek için, LCS'de **Retail Management** sayfasındaki **e-ticaret** sekmesine gidin ve **E-ticaret sitesi yönetim aracı** bağlantısını seçin. Site oluşturucunun giriş sayfası, kiracı düzeyinde bir ekran görüntüler. Bu sayfadan şunları yapabilirsiniz:
+Commerce site oluşturucuya erişmek için, LCS'de **Retail Management** sayfasındaki **e-ticaret** sekmesine gidin ve **E-ticaret sitesi yönetim aracı** bağlantısını seçin. Site oluşturucunun giriş sayfası, kiracı düzeyinde bir ekran görüntüler. Bu sayfadan şunları yapabilirsiniz:
 
 - Kiracı düzeyinde ayarları değiştirin.
 - Oluşturduğunuz ve görüntüleme iznine sahip olduğunuz bir siteye gidin. 
@@ -95,9 +95,9 @@ Site oluşturucuya erişmek için, LCS'de **Retail Management** sayfasındaki **
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 

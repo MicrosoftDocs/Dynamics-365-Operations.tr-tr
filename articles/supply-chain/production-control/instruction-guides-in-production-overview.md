@@ -3,7 +3,7 @@ title: Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
 description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'taki üretim yönetimi modülünün Dynamics 365 Guides ile nasıl tümleştirileceğini açıklamaktadır.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000990"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645156"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Üretim süreçlerinde çalışan çalışanlar, çalışmaları bağlamında doğru zamanda sağlanan ilgili yönergelerden faydalanır. *Yönergeler* aşağıdakiler dahil olmak üzere birçok iş alanında uygulanır: derleme servis, operasyonlar, sertifika ve güvenlik. Devam eden eğitim yönergeleri bu temel iş işlevlerinin tümünde, çalışanların daha fazlasını elde etmesine ve daha iyi çalışmasına yardımcı olabilir.
 
@@ -124,10 +126,9 @@ Guides'ın atölyede nasıl görüneceğini konfigüre etmek için **Karma Gerç
 
 Aşağıdaki alanları ayarlayın:
 
-- **Common Data Service alt etki alanı** - Bu alan zaten bir değer göstermelidir. Bu alan, Kılavuzlarınızı oluşturduğunuz Common Data Service ortamının alt etki alanını içerir. Alt etki alanı, URL'nin ilk bölümüdür ve genellikle kuruluşunuzun adıyla adlandırılır. Örneğin, Common Data Service URL'niz "contoso.crm4.dynamics.com" ise, buraya *contoso* girmeniz gerekir. Bu değer kılavuzlarınız için adres oluşturmak amacıyla kullanılır ve QR kodlarına kodlanır.
+- **Microsoft Dataverse URL'si** - Guides oluşturduğunuz Microsoft Dataverse ortamının URL'sini belirtin. Bu biçim, URL'nin ilk bölümünün genellikle kuruluşunuzun adı (örneğin "contoso.") olduğu durumda "contoso.crm4.dynamics.com" şeklindedir, ikinci bölüm ise ortamınızın veri bölgesine özgüdür ("crm4" gibi) ve son bölüm etki alanıdır ("dynamics.com" gibi). Doğru URL'yi bulmanın yollarından biri [home.dynamics.com](https://home.dynamics.com/) adresine gitmek ve sonra Guides uygulamanızı açmaktır. Guides açıldığında, tarayıcınızın adres çubuğunda URL'yi görürsünüz (yalnızca önceki örneğe benzeyen temel URL'yi alın). Bu değer, kılavuzlarınız için adres oluşturmak amacıyla kullanılır ve QR kodlarına kodlanır.
 - **QR kodu boyutu** - İşlenen QR kodu boyutunu ayarlayın. Ekranınızın büyük bir boyutunu dolduracak, ancak daha fazlasını doldurmayacak bir boyut seçmeniz önerilir. Genellikle, *15* iyi bir değerdir.
 - **QR kodu hata düzeltme düzeyi** - QR kodunun öğe boyutunu ayarlayın. Yüksek öğe boyutu, kodun güvenilirliğini artırmaya yardımcı olabilir ancak **QR kodu boyutunuz** seçtiğiniz düzeltme düzeyinin gerektirdiği ayrıntı düzeyini destekleyecek büyüklükte olmalıdır.
-
 
 > [!TIP]
 > - Ekranınız için çok büyük olan QR kodu boyutlarının işlenmesi biraz daha uzun sürer ve ekrana sığacak şekilde ölçeklenir. Bunlar bir avantaj sağlamaz.
@@ -136,7 +137,7 @@ Aşağıdaki alanları ayarlayın:
 
 ## <a name="get-an-overview-of-all-guide-assignments"></a>Tüm Kılavuz atamalarının genel görünümünü alma
 
-Kuruluşunuzdaki tüm kullanılabilir Kılavuzların listesini ve üretim süreçlerinize ve kaynaklarınıza yapılan tüm atamaları görmek için **Tüm Kılavuzlar** sayfasını kullanın. Açmak için, **Karma gerçeklik \> Kılavuzlar \> Tüm Kılavuzlar** 'a gidin. Üstteki listede bulunan tüm Kılavuzlar gösterilir ve bu alanı, listeye filtre uygulamak için kullanabilirsiniz. Alttaki listede tüm Kılavuz atamaları gösterilir ve bunları yönetmek için bir araç çubuğu sağlanır.
+Kuruluşunuzdaki tüm kullanılabilir Kılavuzların listesini ve üretim süreçlerinize ve kaynaklarınıza yapılan tüm atamaları görmek için **Tüm Kılavuzlar** sayfasını kullanın. Açmak için, **Karma gerçeklik \> Kılavuzlar \> Tüm Kılavuzlar**'a gidin. Üstteki listede bulunan tüm Kılavuzlar gösterilir ve bu alanı, listeye filtre uygulamak için kullanabilirsiniz. Alttaki listede tüm Kılavuz atamaları gösterilir ve bunları yönetmek için bir araç çubuğu sağlanır.
 
 ![Kılavuzları Yönetme](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
 
@@ -154,10 +155,10 @@ Kılavuzu ilgili üretim işleri bağlamında sunmak için bir [kaynağa](operat
 
 Kaynağa Kılavuz eklemek için:
 
-1. **Üretim denetimi \> Kurulum \> Kaynaklar \> Kaynaklar** 'a gidin.
+1. **Üretim denetimi \> Kurulum \> Kaynaklar \> Kaynaklar**'a gidin.
 1. Liste bölmesinden Kılavuz atamak istediğiniz kaynağı seçin.
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
-1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle** 'yi seçin. Kılavuza yeni bir satır eklenir.
+1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Çok sayıda Kılavuzunuz varsa, aradığınız bir kılavuzu bulmak için listeye filtre uygulayabilirsiniz.
     ![Kılavuzları Yönetme](media/instruction-guides-allguides.png "Kılavuzları Yönetme")
 
@@ -175,10 +176,10 @@ Makine gruplarını, üretim hatlarını veya çalışma hücrelerini yönetmek 
 
 Kaynak grubuna Kılavuz eklemek için:
 
-1. **Üretim denetimi \> Kurulum \> Kaynaklar \> Kaynaklar grupları** 'na gidin.
+1. **Üretim denetimi \> Kurulum \> Kaynaklar \> Kaynaklar grupları**'na gidin.
 1. Liste bölmesinden Kılavuz atamak istediğiniz kaynak grubunu seçin.
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
-1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle** 'yi seçin. Kılavuza yeni bir satır eklenir.
+1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Çok sayıda Kılavuzunuz varsa, aradığınız bir kılavuzu bulmak için listeye filtre uygulayabilirsiniz.
     ![Kaynak grubuna Kılavuz ekleme](media/instruction-guides-resourcegroup.png "Kaynak grubuna Kılavuz ekleme")
 
@@ -194,11 +195,11 @@ Herhangi bir [serbest bırakılan ürüne](../pim/tasks/create-released-product-
 
 Serbest bırakılan ürüne Kılavuz eklemek için:
 
-1. **Üretim bilgi yönetimi \> Ürünler \> Serbest bırakılan ürünler** 'e gidin.
+1. **Üretim bilgi yönetimi \> Ürünler \> Serbest bırakılan ürünler**'e gidin.
 1. Kılavuz atamak istediğiniz ürünü açın.
-1. Eylem Bölmesinde, **Mühendis** sekmesini açın ve **Görünüm** grubundan **İlişkili Kılavuzlar** 'ı seçin.
+1. Eylem Bölmesinde, **Mühendis** sekmesini açın ve **Görünüm** grubundan **İlişkili Kılavuzlar**'ı seçin.
 1. Seçili ürününüz için **İlişkili Kılavuzlar** sayfası açılır.
-1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle** 'yi seçin. 
+1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin. 
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![Serbest bırakılan ürüne Kılavuz ekleme](media/instruction-guides-ReleasedProduct-AddGuides.png "Serbest bırakılan ürüne Kılavuz ekleme")
 
@@ -223,7 +224,7 @@ Formüle Kılavuz eklemek için:
 1. Kılavuz atamak istediğiniz formülü açın.
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
-1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle** 'yi seçin. Kılavuza yeni bir satır eklenir.
+1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![Formüle Kılavuz ekleme](media/instruction-guides-Formula.png "Formüle Kılavuz ekleme")
 
@@ -249,10 +250,10 @@ Formül sürümüne Kılavuz eklemek için:
 1. Kılavuza atamak istediğiniz sürümü içeren formülü açın.
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **Formül sürümleri** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
-1. **Formül sürümleri** araç çubuğunda **İlişkili Kılavuzlar** 'ı seçin.
+1. **Formül sürümleri** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
     ![Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-FormulaVersion.png "Seçili formül sürümüyle ilişkilendirilen Kılavuzları açma")
 1. Formül sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
-1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle** 'yi seçin. 
+1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin. 
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![Formül sürümüne Kılavuz ekleme](media/instruction-guides-FormulaVersionAddGuide.png "Formül sürümüne Kılavuz ekleme")
 
@@ -271,11 +272,11 @@ Herhangi bir [ürün reçetesine](bill-of-material-bom.md) (BOM) bir kılavuz ek
 
 Ürün reçeteine Kılavuz eklemek için:
 
-1. **Ürün bilgi yönetimi \> Ürün reçeteleri ve formüller \> Ürün reçetesi** 'ne gidin.
+1. **Ürün bilgi yönetimi \> Ürün reçeteleri ve formüller \> Ürün reçetesi**'ne gidin.
 1. Kılavuz atamak istediğiniz ürün reçetesini açın.
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
-1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle** 'yi seçin. Kılavuza yeni bir satır eklenir.
+1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![BOM'a Kılavuz ekleme](media/instruction-guides-BOM.png "BOM'a Kılavuz ekleme")
 
@@ -294,14 +295,14 @@ Tek bir ürün reçetesi sürümüne iliştirilmiş kılavuzlar, atölye çalı�
 
 Ürün reçetesi sürümüne Kılavuz eklemek için:
 
-1. **Ürün bilgi yönetimi \> Ürün reçeteleri ve formüller \> Ürün reçetesi** 'ne gidin.
+1. **Ürün bilgi yönetimi \> Ürün reçeteleri ve formüller \> Ürün reçetesi**'ne gidin.
 1. Kılavuza atamak istediğiniz sürümü içeren BOM'u açın.
 1. Üst hızlı sekmenin yukarısındaki **Başlık** sekmesini açın.
 1. **BOM sürümleri** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
-1. **BOM sürümleri** araç çubuğunda **İlişkili Kılavuzlar** 'ı seçin.
+1. **BOM sürümleri** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
     ![Seçili BOM sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-BOMVersion.png "Seçili BOM sürümüyle ilişkilendirilen Kılavuzları açma")
 1. BOM sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
-1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle** 'yi seçin.
+1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![BOM sürümüne Kılavuz ekleme](media/instruction-guides-BOMVersionAddGuide.png "BOM sürümüne Kılavuz ekleme")
 
@@ -319,10 +320,10 @@ Rotalar genellikle, belirli bir serbest bırakılan ürünün bir ürün reçete
 
 Rotaya Kılavuz eklemek için:
 
-1. **Üretim denetimi \> Tüm rotalar** 'a gidin.
+1. **Üretim denetimi \> Tüm rotalar**'a gidin.
 1. Kılavuz atamak istediğiniz rotayı açın.
 1. **İlişkili Kılavuzlar** hızlı sekmesini genişletin.
-1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle** 'yi seçin. Kılavuza yeni bir satır eklenir.
+1. **İlişkili Kılavuzlar** araç çubuğundan **Ekle**'yi seçin. Kılavuza yeni bir satır eklenir.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![Rotaya Kılavuz ekleme](media/instruction-guides-Route.png "Rotaya Kılavuz ekleme")
 
@@ -338,13 +339,13 @@ Rota sürümleri genellikle, varolan bir rotaya dayalı olarak üretim süreçle
 
 Rota sürümüne Kılavuz eklemek için:
 
-1. **Üretim denetimi \> Tüm rotalar** 'a gidin.
+1. **Üretim denetimi \> Tüm rotalar**'a gidin.
 1. Kılavuz atamak istediğiniz rotayı açın.
 1. **Sürümler** hızlı sekmesinde, Kılavuz atamak istediğiniz sürümü seçin.
-1. **Sürümler** araç çubuğunda **İlişkili Kılavuzlar** 'ı seçin.
+1. **Sürümler** araç çubuğunda **İlişkili Kılavuzlar**'ı seçin.
     ![Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma](media/instruction-guides-RouteVersion.png "Seçili rota sürümüyle ilişkilendirilen Kılavuzları açma")
 1. BOM sürümünüz için **İlişkili Kılavuzlar** sayfası açılır.
-1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle** 'yi seçin.
+1. Eylem bölmesinde, kılavuza yeni satır eklemek için **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin.
     ![Rota sürümüne Kılavuz ekleme](media/instruction-guides-RouteVersionAddGuide.png "Rota sürümüne Kılavuz ekleme")
 
@@ -363,15 +364,15 @@ Operasyon ilişkileri, bir ürün işlemine ve ilgili operasyonlarına rehberlik
 
 Kılavuzu rota operasyonu ilişkisine eklemek için:
 
-1. **Üretim denetimi \> Tüm rotalar** 'a gidin.
+1. **Üretim denetimi \> Tüm rotalar**'a gidin.
 1. Kılavuz atamak istediğiniz rotayı açın.
-1. Eylem Bölmesinde, **Rota** sekmesini açın ve **Yönet** grubundan **Rota ayrıntıları** 'nı seçin.
+1. Eylem Bölmesinde, **Rota** sekmesini açın ve **Yönet** grubundan **Rota ayrıntıları**'nı seçin.
 1. **Rota ayrıntıları** sayfası, seçtiğiniz rota için açılır.
 1. Üst kılavuzda, kılavuzluk sağlamak istediğiniz işlemi seçin.
 1. Alt kılavuzda, belirli bir ilişki (veya genel **Tümü** ilişkisini) seçin.
     ![Bir operasyon ve ardından bir ilişki seçin](media/instruction-guides-RouteOperationRelation.png "Bir operasyon ve ardından bir ilişki seçin")
 1. Alt kılavuzun üzerinde, **İlişkili kılavuzlar** sekmesini açın. ![İlişkili Kılavuzlar sekmesi](media/instruction-guides-RouteOperationRelation-AddGuide.png "İlişkili Kılavuzlar sekmesi")
-1. Kılavuza yeni bir satır eklemek için, alt kılavuzun üstündeki araç çubuğundan **Ekle** 'yi seçin.
+1. Kılavuza yeni bir satır eklemek için, alt kılavuzun üstündeki araç çubuğundan **Ekle**'yi seçin.
 1. Yeni satır için, **Ad** sütunundaki açılan listeyi kullanarak atamak istediğiniz Kılavuzu seçin. Satırın geri kalanında, seçili Kılavuzun kullanılabilir olması gereken her bağlamın onay kutusunu seçin.
 
 > [!NOTE]

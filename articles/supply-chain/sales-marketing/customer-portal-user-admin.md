@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645325"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528305"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Müşteri portalı kullanıcıları oluşturma ve yönetme
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Sistemde bulunmayan uygulamada, kullanıcıların müşteri portalı kullanılarak oluşturulan Web siteleri için kendi kendine kayıt yaptırmalarına olanak yoktur. Oturum açmak ve bir Web sitesini kullanmak için, kullanıcıların yönetici tarafından davet edilmeleri gerekir. Microsoft, kullanıcıların kendi kendine kayıt yapma becerisini kasıtlı olarak engellemiştir.
 

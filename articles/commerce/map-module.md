@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817218"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665432"
 ---
 # <a name="map-module"></a>Harita modülü
 
@@ -58,7 +58,7 @@ Aşağıdaki resimde mağaza konumları sayfasında kullanılan bir harita modü
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>İzin verilen eşleme URL'lerini sitenin içerik güvenlik ilkesi yönergelerinden ekleme
 
-Haritalar modülünün Bing Haritalar ile etkileşime girmesini istiyorsanız, sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki eşleme URL'lerine izin verildiğinden ("izin verilenler" olarak da bilinir) emin olmanız gerekir. Bu kurulum, çeşitli site CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
+Haritalar modülünün Bing Haritalar ile etkileşime girmesini istiyorsanız, sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki eşleme URL'lerine izin verildiğinden emin olmanız gerekir. Bu kurulum, çeşitli site CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
 
 - **connect-src** yönergesine **&#42;.bing.com** ekleyin.
 - **img-src** yönergesine **&#42;.virtualearth.net** ekleyin.

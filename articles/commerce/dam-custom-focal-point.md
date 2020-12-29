@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269533"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594344"
 ---
 # <a name="customize-image-focal-points"></a>Görüntünün odak noktalarını özelleştirme
 
@@ -57,4 +57,6 @@ Bir görüntü için özel bir odak noktası tanımlamak üzere aşağıdaki ad�
 
 [Dosyaları karşıya yükleme](dam-upload-files.md)
 
-[Görüntüleri kırpma](dam-crop-images.md)
+[Resimleri kırpma](dam-crop-images.md)
+
+[Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)

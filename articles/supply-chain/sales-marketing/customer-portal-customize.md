@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414020"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527375"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Müşteri portalını özelleştirme ve kullanma
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, kutudan bulunmayan farklı sayfalar müşteri portalında açıklanmıştır. Sayfaların ne yaptığını ve bunları nasıl özelleştirebileceğinizi açıklar.
 
 Müşteri Portalı birkaç Web sayfası ve kutudan birinin dışında bir eylem sunar. Aşağıdaki site haritası bu Web sayfalarının ve eylemlerin genel görünümünü ve eylemleri gerçekleştirebilecek rolleri sağlar.
 
-![![Müşteri Portalı site haritası](media/customer-portal-site-map.png "Müşteri Portalı site haritası")](media/customer-portal-site-map.png "Customer portal site map")
+![Müşteri Portalı site haritası](media/customer-portal-site-map.png "Müşteri Portalı site haritası")
 
 ## <a name="typical-customizations"></a>Normal özelleştirmeler
 
@@ -62,12 +64,12 @@ Müşteri portalından sipariş gönderme standart adımları aşağıda verilme
     - **Talep numarası** – Siparişin talep numarasını girin. Bu alanın doldurulması zorunlu değildir.
     - **Sevkiyat ülkesi/bölgesi** – Maddelerin teslim edileceği ülkeyi veya bölgeyi girin. Bu alan yönetici olmayan kullanıcılar için otomatik olarak ayarlanır.
 
-    ![![Sipariş Bilgileri sayfası](media/customer-portal-order-information.png "Sipariş Bilgileri sayfası")](media/customer-portal-order-information.png "Order Information page")
+    ![Sipariş Bilgileri sayfası](media/customer-portal-order-information.png "Sipariş Bilgileri sayfası")
 
 1. **Sonraki**'yi seçin.
 1. **Öğeler** sayfasında **Öğe Ekle**'yi seçin.
 
-    ![![Öğeler sayfası](media/customer-portal-items.png "Öğeler sayfası")](media/customer-portal-items.png "Items page")
+    ![Öğeler sayfası](media/customer-portal-items.png "Öğeler sayfası")
 
 1. **Öğe bilgileri** iletişim kutusunda aşağıdaki alanları ayarlayın:
 
@@ -76,14 +78,14 @@ Müşteri portalından sipariş gönderme standart adımları aşağıda verilme
     - **Birim** – ölçü birimini belirtin (örneğin, **EA.**, **kgs** veya **kutu**).
     - **Tahmini Net tutar** – değer, maddenin tahmini fiyatı olarak seçilen birimin miktarını × olarak hesaplanır.
 
-    ![![Öğe Bilgileri iletişim kutusu](media/customer-portal-item-information.png "Öğe Bilgileri iletişim kutusu")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Öğe Bilgileri iletişim kutusu](media/customer-portal-item-information.png "Öğe Bilgileri iletişim kutusu")
 
 1. Siparişineöğe eklemek için **Gönder**'i seçin.
 1. Sipariş vermek istediğiniz tüm öğeleri ekleyinceye kadar 4 ile 6 arasındaki adımları yineleyin.
 1. Öğeleri eklemeyi bitirdiğinizde, **öğeler** sayfasında **ileri** 'yi seçin.
 1. **Sipariş bilgileri** sayfası siparişin özetini sağlar. Sipariş içeriğini ve teslimat ayrıntılarını gözden geçirin. Her şey doğru görünüyorsa, siparişi göndermek için **Gönder** 'i seçin.
 
-    ![![Sipariş Bilgileri sayfası](media/customer-portal-order-submit.png "Sipariş Bilgileri sayfası")](media/customer-portal-order-submit.png "Order Information page")
+    ![Sipariş Bilgileri sayfası](media/customer-portal-order-submit.png "Sipariş Bilgileri sayfası")
 
 ### <a name="standard-data-setup"></a>Standart veri ayarlama
 
@@ -148,19 +150,19 @@ Müşteri Power Apps portalındaki tüm kontroller yerleşik Portal denetimlerid
 
 Ana sayfada kutucukları oluşturmak için müşteri portalı şablonunda bulunan tek özel kontrol kullanılır.
 
-![![Giriş sayfasındaki kutucuklar](media/customer-portal-home-page-tiles.png "Giriş sayfasındaki kutucuklar")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Giriş sayfasındaki kutucuklar](media/customer-portal-home-page-tiles.png "Giriş sayfasındaki kutucuklar")
 
 Kutucukları değiştirmek için aşağıdaki adımları izleyin.
 
 1. [Portal Yönetimi uygulamasını](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal) açın.
 1. Soldaki gezinti bölmesinde **Sayfa Şablonları**'nı seçin.
 
-    ![![Portal Yönetimi gezinti bölmesi](media/customer-portal-nav.png "Portal Yönetimi gezinti bölmesi")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Portal Yönetimi gezinti bölmesi](media/customer-portal-nav.png "Portal Yönetimi gezinti bölmesi")
 
 1. **Giriş** adlı bir sayfa şablonu seçin.
 1. **Web şablonu** alanında, ilgili sayfanın kaynak kodunu açmak için **giriş** bağlantısını seçin.
 
-    ![![Web şablonu alanı](media/customer-portal-web-template.png "Web şablonu alanı")](media/customer-portal-web-template.png "Web Template field")
+    ![Web şablonu alanı](media/customer-portal-web-template.png "Web şablonu alanı")
 
 1. Artık giriş sayfasının tüm kaynak kodunu görmelisiniz ve bunu gereksinim duyduğunuz gibi değiştirebilirsiniz.
 

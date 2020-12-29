@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817318"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517244"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -197,11 +197,11 @@ Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan so
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 

@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a896acb984f64860df54b61350c0e6d12e0dd678
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209157"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528935"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu iş emirlerini Dynamics 365 Field Service üzerinden Dynamics 365 Supply Chain Management satış siparişine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
@@ -170,7 +172,7 @@ Supply Chain Management'da doğru satış kaynağı kurulumunu oluşturma ayrın
 
 ### <a name="status"></a>Durum
 
-Satış siparişinin kaynağı bir iş emri olduğunda, **Harici iş emri durumu**alanı satış siparişi başlığının **Kurulum** sekmesinde görüntülenir. Bu alan Field Service'daki iş emrinden gelen sistem durumunu göstererek Supply Chain Management'daki satış siparişlerinin eşitlenen iş emri durumunun izlenmesine yardımcı olur. Bu alan kullanıcının satış siparişinin ne zaman sevk edilmesi veya faturalanması gerektiğini belirlemesine yardımcı olur.
+Satış siparişinin kaynağı bir iş emri olduğunda, **Harici iş emri durumu** alanı satış siparişi başlığının **Kurulum** sekmesinde görüntülenir. Bu alan Field Service'daki iş emrinden gelen sistem durumunu göstererek Supply Chain Management'daki satış siparişlerinin eşitlenen iş emri durumunun izlenmesine yardımcı olur. Bu alan kullanıcının satış siparişinin ne zaman sevk edilmesi veya faturalanması gerektiğini belirlemesine yardımcı olur.
 
 **Harici iş emri durumu** alanı aşağıdaki değerleri içerebilir:
 

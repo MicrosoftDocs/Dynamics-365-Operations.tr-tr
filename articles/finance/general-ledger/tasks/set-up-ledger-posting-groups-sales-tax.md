@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1481b714d089994c1f00189cdaba3ca328f00577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983119"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644909"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Satış vergisi için Genel muhasebe deftere nakil grupları ayarlayın
 
@@ -35,9 +35,9 @@ Satış vergisi hesaplanır ve Genel muhasebe deftere nakil gruplarında belirti
 4. **Tanım** alanına bir değer girin.
 5. **Satış vergisi borcu** alanında, vergi dairesine borç yazılacak giden satış vergileri için ana hesabı seçin. Vergiye tabi mal ve hizmetler satıyorsanız, satış vergileri, vergi makamı adına tahsil edilir.  
 6. **Satış vergisi alacağı** alanında, vergi dairesinden alınacak gelen vergiler için ana hesabı seçin. Vergiye tabi mal ve hizmetler satın alıyorsanız, vergileri, vergi makamı adına satıcılar tahsil eder. **Genel muhasebe parametreleri** sayfasında Satış vergisi vergilendirme kurallarını uygula seçeneği belirtildiyse bu alan kullanılmaz. Bunun yerine, satıcılara ödenen satış vergileri, satın almada kullanılan hesaba borç kaydedilir.   
-7. **Kullanım vergisi gideri** alanında, AB ters gider GST/HST'sinin bir parçası olarak satıcıların vergi dairesinden talep etmediği veya vergi dairesine bildirmediği, vergiden düşülebilir Kullanım vergileri için ana hesabı seçin. Harekette kullanılan **Satış vergisi grubunda** **Satış vergisi kodu** için **Kullanım vergisi** seçeneğinin belirtilmesi gerekir. **Genel muhasebe parametreleri** sayfasında **Satış vergisi vergilendirme kurallarını uygula** seçeneği belirtildiyse bu alan kullanılmaz.   
-8. **Kullanım vergisi borcu** alanında, vergi dairelerine borç yazılacak giden Kullanım vergilerini nakletmek için ana hesabı seçin. **Kullanım vergisini** nakletmek için, **Satış vergisi grubunda** **Satış vergisi kodu** için **Kullanım vergisi** seçeneğinin belirtilmesi gerekir. **Genel muhasebe parametrelerinde** **Satış vergisi vergilendirme kurallarını uygula** seçeneği belirtilirse, mahsubun hareket gider hesabına nakledilmesi gerekir.   
-9. **Kapatma hesabı** alanında, **Kullanım vergisi borcu** ve **Satış vergisi alacağı** alanlarında belirtilen genel muhasebe hesaplarının net bakiyesinin nakledileceği ana hesabı seçin. Satış vergisini kapat ve deftere naklet işi çalıştırılınca bakiye oluşturulur.  Kapatma döneminin vergi dairesi bir satıcı hesabıyla ilişkilendirilmişse, bakiye, satıcı hesabına nakledilir.
+7. **Kullanım vergisi gideri** alanında, AB ters gider GST/HST'sinin bir parçası olarak satıcıların vergi dairesinden talep etmediği veya vergi dairesine bildirmediği, vergiden düşülebilir Kullanım vergileri için ana hesabı seçin. Harekette kullanılan **Satış vergisi grubunda** **Satış vergisi kodu** için **Kullanım vergisi** seçeneğinin belirtilmelidir. **Genel muhasebe parametreleri** sayfasında **Satış vergisi vergilendirme kurallarını uygula** seçeneği belirtildiyse bu alan kullanılamaz.   
+8. **Kullanım vergisi borcu** alanında, vergi dairelerine borç yazılacak giden Kullanım vergilerini nakletmek için ana hesabı seçin. **Kullanım vergisini** nakletmek için, **Satış vergisi grubunda** **Satış vergisi kodu** için **Kullanım vergisi** seçeneğini belirtilmelidir. **Genel muhasebe parametrelerinde** **Satış vergisi vergilendirme kurallarını uygula** seçeneği belirtilirse, mahsubun hareket gider hesabına nakledilmesi gerekir.   
+9. **Kapatma hesabı** alanında, **Kullanım vergisi borcu** ve **Satış vergisi alacağı** alanlarında belirtilen genel muhasebe hesaplarının net bakiyesinin nakledileceği ana hesabı seçin. Satış verigileri kapatılınca ve deftere naklet işi çalıştırılınca bakiye oluşturulur.  Kapatma döneminin vergi dairesi bir satıcı hesabıyla ilişkilendirilmişse, bakiye, satıcı hesabına nakledilecektir.
 10. **Satıcı nakit iskontosu** alanında, bu Genel muhasebe deftere nakil grubuyla ilişkili Satış vergisi kodları için nakit iskontosunun nakledileceği ana hesabı seçin. Bu, isteğe bağlıdır ve hiç hesap girilmezse, **Nakit iskontosu kodlarındaki** ana hesap kullanılır. Satış vergisi gruplarında Nakit iskontosundaki ters satış vergisi seçeneği kullanılıyorsa, **Genel muhasebe deftere nakil grubu** başına farklı hesaplar kullanırken yararlı olabilir.  
 11. **Müşteri servis talebi iskontosu** alanında, bu **Genel muhasebe deftere nakil grubuyla** ilişkili **Satış vergisi kodları** için nakit iskontosunun nakledileceği ana hesabı seçin. Bu, isteğe bağlıdır ve hiç hesap girilmezse, **Nakit iskontosu kodlarındaki** ana hesap kullanılır. **Satış vergisi gruplarında** Nakit iskontosundaki ters satış vergisi seçeneği kullanılıyorsa, **Genel muhasebe deftere nakil grubu** başına farklı hesaplar kullanırken yararlı olabilir.  
 12. **Kaydet**'e tıklayın.

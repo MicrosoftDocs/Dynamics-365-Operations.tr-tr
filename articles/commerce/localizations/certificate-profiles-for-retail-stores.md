@@ -17,17 +17,17 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8bf49a8eb78d0557ef105b40dd4cb5f0d24ce4
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.openlocfilehash: 75edc1b683c4ea6c2bac8e509e6f6da8c56c5e6a
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973945"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665261"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 ## <a name="overview"></a>Genel bakış
 

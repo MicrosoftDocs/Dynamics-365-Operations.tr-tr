@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653788"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645781"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -92,6 +92,11 @@ Bütçe modellerinden oluşturulan bütçeler, nakit akışı tahminlerine dahil
 ### <a name="inventory-management"></a>Stok Yönetimi
 
 Stok tedarik ve talep tahminleri nakit akışı tahminlerine dahil edilebilir. **Nakit akışı tahmin kurulumu** sayfasındaki **Stok yönetimi** sekmesinde, nakit akışı tahminine dahil edilecek tahmin modelini seçin. Nakit akışı tahminine dahil edilme, tekil tedarik ve talep tahmin satırlarında geçersiz kılınabilir.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Nakit akışı tahmini için Boyutları ayarlama
+**Nakit akışı tahmin kurulumu** sayfasındaki yeni bir sekme, **Nakit akışı tahmini** çalışma alanında filtre uygulamak için hangi mali boyutları kullanacağınızı kontrol etmenizi sağlar. Bu sekme yalnızca Nakit akışı tahminleri özelliği etkinleştirildiğinde görüntülenir. 
+
+**Boyutlar** sekmesinde, filtre için kullanılacak boyut listesinden seçim yapın ve bunları sağ sütuna taşımak için ok tuşlarını kullanın. Nakit akışı tahmin verilerinin filtrelenmesi için yalnızca iki boyut seçilebilir. 
 
 ### <a name="calculation"></a>Hesaplama
 

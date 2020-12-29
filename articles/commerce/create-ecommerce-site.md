@@ -1,5 +1,5 @@
 ---
-title: e-Ticaret sitesi oluşturma
+title: E-ticaret sitesi oluşturma
 description: Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 author: bicyclingfool
 manager: AnnBe
@@ -19,20 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533448"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517196"
 ---
-# <a name="create-an-e-commerce-site"></a>e-Ticaret sitesi oluşturma
+# <a name="create-an-e-commerce-site"></a>E-ticaret sitesi oluşturma
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Dynamics 365 Commerce site oluşturucusunda yeni bir e-ticaret sitesi oluşturmak için gereken adımları ve bilgileri açıklamaktadır.
 
-E-ticaret yeteneklerine lisans verirken, site oluşturucu, kendi siteniz için temel olarak kullanabileceğiniz bir başlatıcı siteyle hazırlanacak. Ancak, baştan başlatmak veya ikinci bir site oluşturmak istiyorsanız, site geliştirme ortamında yeni bir site oluşturmanız gerekir. 
+Dynamics 365 Commerce yeteneklerine lisans verirken, site oluşturucu, kendi siteniz için temel olarak kullanabileceğiniz bir başlatıcı siteyle hazırlanacak. Ancak, baştan başlatmak veya ikinci bir site oluşturmak istiyorsanız, site geliştirme ortamında yeni bir site oluşturmanız gerekir. 
 
 ## <a name="set-up-your-site"></a>Sitenizi ayarlama
 
@@ -58,9 +58,9 @@ Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi dep
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 

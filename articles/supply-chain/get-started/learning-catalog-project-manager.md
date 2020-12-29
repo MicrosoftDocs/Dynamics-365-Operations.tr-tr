@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 80d52fa59f2f0e31595aefd7e18956f14e2c29a8
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793141"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516681"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 

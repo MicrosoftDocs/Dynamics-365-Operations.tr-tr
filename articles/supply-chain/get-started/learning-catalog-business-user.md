@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 741c8af7eaabe23c03546daddd0a9a422146f575
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: c3fc8cf49b62515f41712e594076c31ae5d7654b
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793575"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668993"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management kullanıcıları için öğrenme kataloğu
 
@@ -50,6 +50,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Dynamics 365 Supply Chain Management'ta ürünleri ve envanteri yapılandırma ve yönetme](https://docs.microsoft.com/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Ürün bilgileri, tedarik zincirinin ve tüm sektörler arasındaki perakende uygulamalarının bel kemiğini oluşturur. Bir iş çözümünün çeşitli modüllerinde ürüne özgü bilgilerin ve yapılandırmanın ürünler, ürün serileri, ürün reçeteleri ve ürün kategorileri ile ilgili iş süreçlerini yönetmesi gerekir. Stok raporlarında pek çok farklı şekilde ne kadar stoğa sahip olduğunuz gösterilir ve stok yatırımlarınızda nasıl daha etkili olabileceğiniz açıklanır. Master planlama hangi malzemelerin satın alınması, devredilmesi veya imal edilmesi gerektiğini verimli bir şekilde planlamak için önceden belirlenen etkenlere bağlı olarak planlamanızı kolaylaştırır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 14 saat |
 | [Dynamics 365 Supply Chain Management'ta satın almayı ve satıcıları yapılandırma ve yönetme](https://docs.microsoft.com/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Satıcı bulma ve satıcılarla çalışma, ürün satın alma ile ürün ve hizmetlerin kaliteli olmasını sağlama süreçlerinin tümü, bir şirketin itibarını ve başarısını etkileyen önemli etkenlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 14 saat |
 | [Dynamics 365 Supply Chain Management'ta satışları ve müşterileri yapılandırma ve yönetme](https://docs.microsoft.com/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | Müşterilerle çalışma, satış sürecinin yaşam döngüsünü anlama ve satış sözleşmelerinin ayarlanması süreci, şirketin başarısını etkileyen önemli etkenlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
+| [Dynamics 365 Supply Chain Management'ta master planlama](https://docs.microsoft.com/learn/paths/master-planning-supply-chain-management/) | Master planlama, şirketlerin gelecekteki hedeflerini karşılamak için hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır. Master planlama, şu anda hangi hammaddeler ve kapasitelerin bulunduğunu ve üretimi tamamlamak için hangi hammaddeler ve kapasitelerin gerekli olduğunu değerlendirir. Örneğin, üretimi tamamlayabilmek için imal edilmesi, satın alınması, transfer edilmesi veya emniyet stoğu olarak ayrılması gerekenleri belirler. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5 saat |
 | [Dynamics 365 for Finance and Operations'ta ambar yönetimini yapılandırma ve çalışma](https://docs.microsoft.com/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Ambar süreçlerini bireysel ihtiyaçlarınıza göre optimize edip kolaylaştırmaya yardımcı olan Dynamics 365 Supply Chain Management'taki ambar yönetimi özelliği, stoğunuz için içgörü sağlarken müşteri memnuniyetini artırmaya ve maliyetleri azaltmaya yardımcı olacak araçları sunar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 8.5 saat |
 | [Dynamics 365 Supply Chain Management'ta taşıma yönetimini yapılandırma ve çalışma](https://docs.microsoft.com/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Dynamics 365 Supply Chain Management'taki Taşımacılık yönetimi modülü müşterilerinize mal teslimatı yapmanın en etkili yolunu bulmanıza yardımcı olur. Taşıma yönetimi, mal teslim almanın en ucuz ve en hızlı yolunu hesaplar ve gelen ve giden siparişler için satıcı ve rota çözümlerini tanımlamanıza olanak sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 3 saat |
 | [Dynamics 365 Supply Chain Management için Varlık Yönetimi ile çalışma](https://docs.microsoft.com/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Varlık Yönetimi, şirketinizin günlük operasyonlarında kullanılan varlıkları yönetmek için kullanılan bir Dynamics 365 Supply Chain Management eklentisidir. Bu varlık türlerine bazı örnekler makine, üretim ekipmanı ve forkliftlerdir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 12.5 saat |

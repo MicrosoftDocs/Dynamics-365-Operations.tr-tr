@@ -3,7 +3,7 @@ title: Tedarik ve kaynak atama iş akışları
 description: Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
 author: mkirknel
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c757779d60147748e305d85fbc2b0bf6b0eedaf3
-ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
+ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3813924"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654160"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 
@@ -32,47 +32,51 @@ ms.locfileid: "3813924"
 Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
 
 İş akışı, bir iş sürecini temsil eder. Bir belgenin sistem üzerinde nasıl aktığını tanımlar ve bir görevi kimin tamamlaması veya bir belgeyi kimin onaylaması gerektiğini tanımlar. İş akışı sistemini kuruluşunuzda kullanmanın bazı getirileri vardır:
--   **Tutarlı süreçler** — Satınalma talepleri ve gider raporları gibi belirli belgelerin onay sürecini tanımlayabilirsiniz. İş akışı sistemini kullanmak, belgelerin tutarlı ve verimli şekilde işlenmesine ve onaylanmasına yardımcı olur.
--   **Süreç görünürlüğü** — Belirli bir iş akışı örneğinin durumunu, geçmişini ve performans ölçülerini takip edebilirsiniz. Bu da iş akışının verimliliği yükseltmesi için değişiklikler yapılması gerekli olup olmadığını belirlemenize yardımcı olur.
--   **Merkezi iş listesi**— Kullanıcılar, iş akışı görevlerini ve katıldıkları tüm iş akışları boyunca kendilerine atanmış onayları görüntülemek için merkezi bir iş listesini görüntüleyebilirler. Bu iş öğelerini sayfasında mevcuttur.
 
-## <a name="the-types-of-workflows-that-you-can-create"></a> Oluşturabileceğiniz iş akışı türleri
+- **Tutarlı süreçler** — Satınalma talepleri ve gider raporları gibi belirli belgelerin onay sürecini tanımlayabilirsiniz. İş akışı sistemini kullanmak, belgelerin tutarlı ve verimli şekilde işlenmesine ve onaylanmasına yardımcı olur.
+- **Süreç görünürlüğü** — Belirli bir iş akışı örneğinin durumunu, geçmişini ve performans ölçülerini takip edebilirsiniz. Bu da iş akışının verimliliği yükseltmesi için değişiklikler yapılması gerekli olup olmadığını belirlemenize yardımcı olur.
+- **Merkezi iş listesi**— Kullanıcılar, iş akışı görevlerini ve katıldıkları tüm iş akışları boyunca kendilerine atanmış onayları görüntülemek için merkezi bir iş listesini görüntüleyebilirler. Bu iş öğelerini sayfasında mevcuttur.
+
+## <a name="the-types-of-workflows-that-you-can-create"></a>Oluşturabileceğiniz iş akışı türleri
+
 Aşağıdaki iş akışı türleri, Tedarik ve kaynak atama için kullanılabilir.
 
-|                                  |                                                               |
-|----------------------------------|---------------------------------------------------------------|
-| **Tip**                         | **Bu türü aşağıdakileri gerçekleştirmek için kullanın:**                                          |
-| Satınalma talebi incelemesi      | Satınalma talepleri için gözden geçirme ve onay iş akışları oluşturun.            |
-| Satınalma talep satırı gözden geçir | Satınalma talebi satırları için gözden geçirme ve onay iş akışları oluşturun.       |
-| Satınalma siparişi iş akışı          | Satınalma siparişleri için gözden geçirme ve onay iş akışları oluşturun.     |
-| Satınalma sipariş satırı iş akışı     | Satınalma siparişi satırları için gözden geçirme ve onaylama iş akışları oluşturun. |
-| Satıcı uygulama ekleme iş akışı  | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
+| Türü | Bu türü aşağıdakileri gerçekleştirmek için kullanın: |
+|---|---|
+| Satınalma talebi incelemesi | Satınalma talepleri için gözden geçirme ve onay iş akışları oluşturun. |
+| Satınalma talep satırı gözden geçir | Satınalma talebi satırları için gözden geçirme ve onay iş akışları oluşturun. |
+| Satınalma siparişi iş akışı | Satınalma siparişleri için gözden geçirme ve onay iş akışları oluşturun. |
+| Satınalma sipariş satırı iş akışı | Satınalma siparişi satırları için gözden geçirme ve onaylama iş akışları oluşturun. |
+| Satıcı uygulama ekleme iş akışı | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
+
+> [!IMPORTANT]
+> Yeni bir iş akışı eklerken, **İş akışı oluştur** iletişim kutusunda listelenmiş olan aşağıdaki geçersiz iş akışlarını da görebilirsiniz. Bunlar, [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows)'de bulunan fakat artık kullanımdan kaldırılan *giriş onayı* işleviyle ilgilidir. Bu iş akışları şu anda desteklenmemektedir.
+> 
+> - Teslimat tarihi bildirimi iş akışı
+> - Fatura alındı bildirimi iş akışı
+> - İş akışı bildirim ürün bilgisi başarısız oldu
+> - Onaylanmayan ürün giriş ret bildirimi iş akışı
 
 ## <a name="creating-a-workflow"></a>İş akışı oluşturma
 
-Bir iş akışı oluşturmak için, Tedarik ve kaynak atama &gt; Kurulum &gt; Tedarik ve kaynak atama iş akışları menüsüne gidin ve oluşturmak istediğiniz iş akışı türünü seçerek yeni bir iş akışı oluşturun.  
+Bir iş akışı oluşturmak için, Tedarik ve kaynak atama &gt; Kurulum &gt; Tedarik ve kaynak atama iş akışları menüsüne gidin ve oluşturmak istediğiniz iş akışı türünü seçerek yeni bir iş akışı oluşturun. 
 
 İş akışı tuvallerinde, iş akışı öğelerini tasarımcıya sürükleyebilir ve öğeleri bir akışa bağlayabilirsiniz. İş akışı öğeleri yapılandırılmalıdır. Onay ve görev iş akışı öğeleri için hangi katılımcının eylemi gerçekleştirmesi gerektiğini yapılandırabilirsiniz.
 
-## <a name="types-of-participants"></a> Katılımcı türleri
+## <a name="types-of-participants"></a>Katılımcı türleri
 
 Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 
-| Kullanıcı grubu    | Açıklama                                                               |
-|---------------|---------------------------------------------------------------------------|
-| Katılımcı   | Bir grubun veya rolün üyelerine onay adımı atayın.                   |
-| Hiyerarşi     | Belirli bir organizasyonel hiyerarşideki kullanıcılara onay adımı atayın. |
-| İş akışı kullanıcısı | Bu iş akışının kullanıcılarına onay adımı atayın.                       |
-| Kuyruk         | Onay adımını bir çalışma öğesi kuyruğa atayın.                            |
-| Kullanıcı          | Onay adımını belirli kullanıcılara atayın.                               |
-
-
+| Kullanıcı grubu | Açıklama |
+|---|---|
+| Katılımcı | Bir grubun veya rolün üyelerine onay adımı atayın. |
+| Hiyerarşi | Belirli bir organizasyonel hiyerarşideki kullanıcılara onay adımı atayın. |
+| İş akışı kullanıcısı | Bu iş akışının kullanıcılarına onay adımı atayın. |
+| Kuyruk | Onay adımını bir çalışma öğesi kuyruğa atayın. |
+| Kullanıcı | Onay adımını belirli kullanıcılara atayın. |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Satınalma talepleri için iş süreci iş akışları tanımlama](https://www.microsoft.com/download/details.aspx?id=101821)
-
 - [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
-
 - [Satıcıları işe alma](vendor-onboarding.md)
-

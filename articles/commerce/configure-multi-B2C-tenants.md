@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976028"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517147"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Commerce ortamında birden fazla B2C kiracısı yapılandırma
 
@@ -97,7 +97,7 @@ Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki 
 1. **Kaydet**'i ve sonra değişikliklerinizi etkinleştirmek için **Yayımla**'yı seçin.
 
 > [!WARNING]
-> Bir B2C kiracısı canlı/yayımlanmış bir site için yapılandırıldığında, kullanıcılar kiracıda bulunan hesapları kullanarak oturum açabilirler. **Kiracı Ayarları \> B2C Kiracısı**menüsünde yapılandırılmış bir kiracıyı silerseniz, bu B2C kiracısının ilişkisini, kiracının kanallarıyla ilişkilendirilmiş olan sitelerden kaldırırsınız. Bu durumda, kullanıcılarınız hesaplarında artık oturum açamayabilirler. Bu nedenle, yapılandırılmış bir kiracıyı silerken çok dikkatli olun.
+> Bir B2C kiracısı canlı/yayımlanmış bir site için yapılandırıldığında, kullanıcılar kiracıda bulunan hesapları kullanarak oturum açabilirler. **Kiracı Ayarları \> B2C Kiracısı** menüsünde yapılandırılmış bir kiracıyı silerseniz, bu B2C kiracısının ilişkisini, kiracının kanallarıyla ilişkilendirilmiş olan sitelerden kaldırırsınız. Bu durumda, kullanıcılarınız hesaplarında artık oturum açamayabilirler. Bu nedenle, yapılandırılmış bir kiracıyı silerken çok dikkatli olun.
 >
 > Yapılandırılmış bir kiracı silindiğinde, B2C kiracısı ve kayıtları korunmaya devam eder, ancak bu kiracının Commerce sistem yapılandırması değiştirilir veya kaldırılır. Siteye kaydolmaya veya sitede oturum açmaya çalışan kullanıcılar, varsayılan veya sitenin kanalı için yapılandırılan yeni ilişkili B2C kiracısında yeni bir firma kaydı oluşturacaktır.
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Kanalınızı bir B2C kiracısı ile yapılandırma
@@ -114,11 +114,11 @@ Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki 
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 

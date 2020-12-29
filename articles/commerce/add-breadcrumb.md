@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055416"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517173"
 ---
 # <a name="breadcrumb-module"></a>İçerik haritası modülü
 
@@ -66,19 +66,19 @@ Aşağıdaki resimde, bir PDP üzerinde kategori hiyerarşisini gösteren bir i�
 
 Bir PDP'ye içerik haritası modülü eklemek ve gerekli özellikleri ayarlamak için aşağıdaki adımları izleyin.
 
-1. **Site ayarları /> uzantılarına** gidin ve **PDP ayarında içerik haritası görüntüleme türü** için **Kategori hiyerarşisini göster** 'i seçin.
+1. **Site ayarları \> uzantılarına** gidin ve **PDP ayarında içerik haritası** görüntüleme türü için **Kategori hiyerarşisini göster**'i seçin.
 1. **Şablonlara** gidin ve PDP şablonunu seçin.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin, şablonu iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. **Sayfalara** gidin ve PDP şablonunu kullanan bir PDP açın. Bir PDP henüz oluşturulmamışsa, bir tane oluşturun.
-1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Konteyner** modülünü içeren kapsayıcı yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **İçerik haritası** modülünü seçin ve **Tamam**'ı seçin.
 1. **İçerik haritası** yuvasının Özellikler bölmesinde , **kök** altında **bağlantı metni** 'ni seçin.
-1. **Bağlantı metni** iletişim kutusunda **giriş** 'ı girin ve sonra **bağlantı hedefi** altında **bağlantı Ekle** 'yi seçin.
-1. **Bağlantı ekle** iletişim kutusunda içerik haritası kökü bağlantısını seçin ve **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin.
-1. Şablonu iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Bağlantı metni** iletişim kutusunda **giriş**'ı girin ve sonra **bağlantı hedefi** altında **bağlantı Ekle** 'yi seçin.
+1. **Bağlantı ekle** iletişim kutusunda içerik haritası kökü bağlantısını seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin.
+1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

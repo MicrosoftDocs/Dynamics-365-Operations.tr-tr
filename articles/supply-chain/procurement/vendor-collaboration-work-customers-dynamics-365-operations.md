@@ -1,33 +1,34 @@
 ---
 title: Müşterilerle satıcı işbirliği
 description: Bu konu, PO'lar ile çalışmak ve konsinye stoku görüntülemek için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır.
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018179"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654352"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalışmak için satıcı işbirliğini nasıl kullanabileceğinizi açıklamaktadır. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 
@@ -40,26 +41,26 @@ Satıcılar konsinye stok bilgilerini de izleyebilir.
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>Satınalma siparişi onayı çalışma alanında PO'larla çalışma
 
-**Satınalma siparişi onayı** çalışma alanı gözden geçirme için tarafınıza gönderilen PO'ları yanıtlamanıza olanak tanır. Ayrıca, müşteriden eylem bekleyen PO'lar ve onaylandıkları halde hala açık olan PO'lar hakkında bilgileri görüntülemenizi sağlar.
+**Satınalma siparişi onayı** çalışma alanı gözden geçirme için tarafınıza gönderilen satın alma siparişlerini (PO'lar) yanıtlamanıza olanak tanır. Ayrıca, müşteriden eylem bekleyen PO'lar ve onaylandıkları halde hala açık olan PO'lar hakkında bilgileri görüntülemenizi sağlar.
 
 **Satınalma siparişi onayı** çalışma alanında üç liste bulunur:
 
-- **İncelenecek satınalma siparişleri** : Bu liste size gönderilmiş ve sizden bir yanıt bekleyen satınalma siparişlerini gösterir. Siz yanıtladıktan sonra satınalma siparişi listeden kaybolur. Siz önceki sürümüne yanıt vermeden önce müşteri PO'nun yeni bir sürümünü gönderirse yalnızca en son sürüm gösterilir.
-- **Müşteri eylemi bekleniyor** : Bu liste, yanıtladığınız ancak müşteri tarafından henüz onaylanmamış PO'ları görmenize olanak tanır. PO'yu kabul ederseniz durumu **Onaylandı** olarak değişene kadar PO'yu bu listede izleyebilirsiniz. PO'yu reddederseniz veya değişikliklerle kabul ederseniz müşteri yeni bir sürümünü gönderene kadar PO'yu burada izleyebilirsiniz.
-- **Açık onaylanan satınalma siparişleri** : Bu liste, hesabınız için durumu **Onaylandı** olan tüm PO'ları gösterir. PO'da bulunan ürünlerin veya hizmetlerin tamamı alındığında PO listeden kaybolur.
+- **İncelenecek satınalma siparişleri**: Bu liste size gönderilmiş ve sizden bir yanıt bekleyen satınalma siparişlerini gösterir. Siz yanıtladıktan sonra satınalma siparişi listeden kaybolur. Siz önceki sürümüne yanıt vermeden önce müşteri PO'nun yeni bir sürümünü gönderirse yalnızca en son sürüm gösterilir.
+- **Müşteri eylemi bekleniyor**: Bu liste, yanıtladığınız ancak müşteri tarafından henüz onaylanmamış PO'ları görmenize olanak tanır. PO'yu kabul ederseniz durumu **Onaylandı** olarak değişene kadar PO'yu bu listede izleyebilirsiniz. PO'yu reddederseniz veya değişikliklerle kabul ederseniz müşteri yeni bir sürümünü gönderene kadar PO'yu burada izleyebilirsiniz.
+- **Açık onaylanan satınalma siparişleri**: Bu liste, hesabınız için durumu **Onaylandı** olan tüm PO'ları gösterir. PO'da bulunan ürünlerin veya hizmetlerin tamamı alındığında PO listeden kaybolur.
 
 PO'larla çalışmak için aşağıdaki sayfaları kullanabilirsiniz:
 
 - **İncelenecek satınalma siparişleri** – Bu sayfa çalışma alanındaki **İncelenecek satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu konunun önceki bölümlerindeki açıklamaya bakın.
 - **Satınalma siparişi satıcı onay geçmişi** – Bu sayfa satıcıya gönderilen tüm PO'ları ve PO sürümlerini içerir. Ayrıca satıcıdan gelen tüm yanıtları da içerir.
 - **Açık onaylanan satınalma siparişleri** – Bu sayfa çalışma alanındaki **Açık onaylanan satınalma siparişleri** listesiyle aynı bilgileri içerir. Bu konunun önceki bölümlerindeki açıklamaya bakın.
-- **Tüm onaylanan satınalma siparişleri** – Bu sayfa, onaylanan tüm PO'ları içerir. Bu sayfadaki PO'lar ürünlerin veya hizmetlerin alınmış olduğu PO'ları içerir. Hangi PO'lar için fatura gönderebileceğinizi izlemek için bu listeyi kullanabilirsiniz.
+- **Tüm onaylanan satınalma siparişleri** – Bu sayfa, onaylanan tüm PO'ları içerir. Bu sayfada gösterilen PO'lar ürünlerin veya hizmetlerin alınmış olduğu PO'ları içerir. Hangi PO'lar için fatura gönderebileceğinizi izlemek için bu listeyi kullanabilirsiniz.
 
 ### <a name="responding-to-pos"></a>PO'ları yanıtlama
 
 Müşterinin inceleme için gönderdiği satınalma siparişleri **Satınalma siparişi onayı** çalışma alanında ve **İncelenecek satınalma siparişleri** sayfasında görünür. Bir satınalma siparişini açtıktan sonra bunu kabul edebilir, reddedebilir veya değişikliklerle kabul edebilirsiniz. PO başlığında veya tek tek satırlarda ekler olabilir. Ayrıca, PO başlığında veya tek tek satırlarda yanıt için bilgiler eklemeniz de mümkündür. Örneğin, satırlardan biri için alternatif bir madde önerebilirsiniz.
 
-**Önizleme/Yazdır** seçeneğini kullanarak PO'yu önizleyebilir ve PDF dosyası olarak yazdırabilirsiniz. **Boyutları görüntüle** eylemini kullanarak aşağıdaki boyut sütunlarını gizleyebilir veya gösterebilirsiniz: **Tesis** , **Ambar** , **Renk** , **Ebat** , **Stil** ve **Yapılandırma**. 
+**Önizleme/Yazdır** seçeneğini kullanarak PO'yu önizleyebilir ve PDF dosyası olarak yazdırabilirsiniz. **Boyutları görüntüle** eylemini kullanarak aşağıdaki boyut sütunlarını gizleyebilir veya gösterebilirsiniz: **Tesis**, **Ambar**, **Renk**, **Ebat**, **Stil** ve **Yapılandırma**. 
 
 **Değişikliklerle kabul et** seçeneğini kullanırsanız, tek tek satırları kabul edebilir veya reddedebilirsiniz. Satırlarda aşağıdaki değişiklikleri de yapabilirsiniz:
 
@@ -76,24 +77,24 @@ Müşteri size PO'nun yeni bir sürümünü gönderirse Yeni PO'da önceden gön
 Konsinye stok kullanıyorsanız aşağıdaki sayfalarda bilgileri görüntülemek için satıcı iş birliği arabirimi kullanabilirsiniz:
 
 - **Konsinye stoğu tüketen satınalma siparişleri** - Konsinye stok için yapılan satınalma siparişleri, müşteri stoğun sahipliğini üstlenince üretilir. Bu konsinye stok PO'ları yalnızca bu sayfada görüntülenir. **Tüm onaylanan satınalma siparişleri** sayfasında bulunmazlar.
-- **Konsinye stoktan alınan ürünler** : Bu sayfa ürünlerin sahipliğinin, stoğu tüketen şirkete aktarıldığı tüm hareketleri listeler. Bu bilgiyi müşteriye faturalamak için kullanabilirsiniz.
-- **Eldeki konsinye stok** : Bu sayfa müşterinin ambarında bulunan şirketinize ait eldeki konsinye stoğu gösterir.
+- **Konsinye stoktan alınan ürünler**: Bu sayfa ürünlerin sahipliğinin, stoğu tüketen şirkete aktarıldığı tüm hareketleri listeler. Bu bilgiyi müşteriye faturalamak için kullanabilirsiniz.
+- **Eldeki konsinye stok**: Bu sayfa müşterinin ambarında bulunan şirketinize ait eldeki konsinye stoğu gösterir.
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Satıcı teklifi çalışma alanında RFQ'larla çalışma
 
-**Satıcı teklifi** çalışma alanı, kuruluşunuzun yanıt vermek üzere davet edildiği RFQ'ları görmenizi sağlar. RFQ'lara yanıt da verebilirsiniz. 
+**Satıcı teklifi** çalışma alanı, kuruluşunuzun yanıt vermek üzere davet edildiği teklif taleplerini (RFQ'lar) görmenizi sağlar. RFQ'lara yanıt da verebilirsiniz. 
 
-Çalışma alanı ayrıca kazanmış veya kaybetmiş olduğunuz tüm RFQ'ları gösterir. Ayrıca, sistem Kamu sektörü için yapılandırılmışsa, çalışma alanı genel kullanıma açık olan RFQ'ları gösterir.
+Çalışma alanı ayrıca kazanmış veya kaybetmiş olduğunuz tüm RFQ'ları gösterir. Ayrıca, sistem kamu sektörü için yapılandırılmışsa, çalışma alanı genel kullanıma açık olan RFQ'ları gösterir.
 
 ### <a name="viewing-rfqs"></a>RFQ'ları görüntüleme
 
 **Satıcı teklifi** çalışma alanını açarak aşağıdaki bilgilere erişin:
 
 - Şirketinizin yanıt vermek üzere davet edildiği RFQ'ları görmek için **Yeni teklif davetlerini** seçin. Bu konumdan bir RFQ görüntüleyebilir ve teklif işlemi başlatabilirsiniz. Ayrıca, yeni bir teklif gönderilmesi gereken düzeltilmiş RFQ'ları da görebilirsiniz.
-- Müşterinin size iade ettiği teklifleri görmek için **İade edilen teklifler** 'i seçebilir ve daha fazla bilgi verebilir veya teklifi güncelleştirebilirsiniz.
-- Sizin veya şirketinizi temsil eden kişinin üzerinde çalıştığı ancak henüz göndermediği RFQ'ları görmek için **Devam eden teklifler** 'i seçin.
-- Müşterinin teklifinizdeki en az bir satır maddesini kabul ettiğini görmek için **Sunulan teklifler** 'i seçin.
-- Tüm satırların reddedildiği teklifleri görmek için **Kaybedilen teklifler** 'i seçin.
+- Müşterinin size iade ettiği teklifleri görmek için **İade edilen teklifler**'i seçebilir ve daha fazla bilgi verebilir veya teklifi güncelleştirebilirsiniz.
+- Sizin veya şirketinizi temsil eden kişinin üzerinde çalıştığı ancak henüz göndermediği RFQ'ları görmek için **Devam eden teklifler**'i seçin.
+- Müşterinin teklifinizdeki en az bir satır maddesini kabul ettiğini görmek için **Sunulan teklifler**'i seçin.
+- Tüm satırların reddedildiği teklifleri görmek için **Kaybedilen teklifler**'i seçin.
 - Satıcının tüm RFQ davetlerinin listesini ve gönderilen teklifleri görmek için **Teklif talebi** bağlantısını seçin. **Teklif talebi** sayfası, bir satıcının dahil olduğu tüm RFQ'ları gösterir. Duruma göre arayabilirsiniz.
 - Bir satıcının ilgili kişisinin teklifi reddettiği tüm RFQ'ların listesini görmek için **Reddedilen teklifler** bağlantısını seçin.
 
@@ -105,15 +106,18 @@ Kamu sektöründe çalışan bir kişi, genele açık olarak sunulan açık ve s
 
     Teklif vermek üzere davet edildiyseniz, aynı RFQ'yu **Yeni teklif davetleri** sayfasında da görebilirsiniz. Bazı durumlarda, açık olan ancak teklif vermek üzere davet edilmediğiniz bir RFQ için teklif vermek isteyebilirsiniz. Bu durumda, müşterinin RFQ servis talebi için kendi kendine daveti etkinleştirilmiş olması durumunda kendi kendinizi davet edebilirsiniz.
 
+    **"Yayımlanmış teklif isteklerini aç" bağlantısını bir döşeme özelliği olarak görüntüle** özelliğini açarak **Yayımlanmış teklif isteklerini aç** bağlantısının erişilebilirliğini geliştirin. Bu özellik, bağlantıyı döşemeye dönüştürür ve kolayca bulunması için belirgin bir konuma taşır.
+
 - Genele sunulan kapalı RFQ'ların listesini görmek için **Kapalı yayımlanan teklif talepleri** bağlantısını seçin. Kapalı bir RFQ süresi dolmuş bir RFQ'dur. Bitiş tarihini ve saatini RFQ başlığında görebilirsiniz.
 
     Kapalı bir RFQ satır düzeyinde tüm satıcı tekliflerini gösterir. Teklifler kabul ve reddedildiğinden, bu bilgi kapalı RFQ'da gösterilir. Teklife dahil edilen tüm ekler de kullanılabilir.
 
-**Not:** Bu işlev yalnızca Kamu Sektörü yapılandırma etkinleştirilmişse kullanılabilir.
+> [!NOTE]
+> Bu işlev yalnızca Kamu Sektörü yapılandırması etkinse kullanılabilir.
 
 ### <a name="bidding"></a>Teklif verme
 
-- Bir RFQ için teklif vermeye başlamak üzere **Teklif ver** 'e tıklayın.
+- Bir RFQ için teklif vermeye başlamak üzere **Teklif ver**' seçin.
 
     Bir RFQ'nun başlık ve satırlarındaki teklif alanları için düzenleme etkinleştirildiğinde, teklifinizi doğrudan satır ızgarasına girebilirsiniz. Ayrıca, satır ayrıntılarına eklenmesi gereken ek bilgileri de göz önünde bulundurmanız gerekir.
 
@@ -121,16 +125,16 @@ Kamu sektöründe çalışan bir kişi, genele açık olarak sunulan açık ve s
 
     Sona erme tarihinden önce herhangi bir anda teklifi kaydedebilirsiniz. Daha sonra geri dönerek teklifi tamamlayabilir ve gönderebilirsiniz. Bir teklifi gönderdikten sonra, bitiş tarihine kadar teklifi geri çağırabilir ve güncelleştirebilirsiniz.
 
-- Bir teklif için girdiğiniz verileri sıfırlamak ve başlangıçtaki RFQ'ya dönmek için **RFQ'dan sıfırla** 'yı seçin. Başlığı veya satırı sıfırlayabilirsiniz.
-- Alternatiflerle çalışmak için satır ızgarasında **Alternatif ekle** veya **Alternatifi kaldır** 'ı seçin.
+- Bir teklif için girdiğiniz verileri sıfırlamak ve başlangıçtaki RFQ'ya dönmek için **RFQ'dan sıfırla**'yı seçin. Başlığı veya satırı sıfırlayabilirsiniz.
+- Alternatiflerle çalışmak için satır ızgarasında **Alternatif ekle** veya **Alternatifi kaldır**'ı seçin.
 
     Bazı RFQ'lar alternatif tekliflerine izin verir. Alternatif teklifleri yalnızca **Kategori** türündeki satırlar için belirtebilirsiniz çünkü belirli maddeler alternatif olarak eklenemez. 
 
-- Müşterinin bir RFQ'ya eklediği ekleri açmak için **RFQ eki** veya **RFQ satırları eki** 'ni seçin. Teklifle beraber ekler yüklemek için **Teklif ekleri** 'ni veya **Teklif satırı ekleri** 'ni seçin.
+- Müşterinin bir RFQ'ya eklediği ekleri açmak için **RFQ eki** veya **RFQ satırları eki**'ni seçin. Teklifle beraber ekler yüklemek için **Teklif ekleri**'ni veya **Teklif satırı ekleri**'ni seçin.
 
     Bir teklif gönderebilmeniz için soru formlarını yanıtlamanız gerekebilir.
 
-- Teklif vermek istemiyorsanız **Reddet** 'i seçin. **Reddet** 'i seçtikten sonra eylemi geri çağırıp teklif giremezsiniz.
+- Teklif vermek istemiyorsanız **Reddet**'i seçin. **Reddet**'i seçtikten sonra eylemi geri çağırıp teklif giremezsiniz.
 
 Bir RFQ düzeltilirse, yeni bir teklif girmeniz gerekir. Düzeltme hakkındaki bilgileri RFQ sayfasındaki **Düzeltmeler** sekmesinde bulabilirsiniz. Düzeltilen RFQ'lar **Yeni teklif davetleri** sayfasında gösterilir.
 

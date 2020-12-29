@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983635"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517464"
 ---
 # <a name="manage-robotstxt-files"></a>robots.txt dosyalarını yönetme
 
@@ -90,11 +90,11 @@ Bir robots.txt dosyasını ticari olarak silmek için aşağıdaki adımları iz
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [URL yeniden yönlendirmelerini toplu olarak yükleme](upload-bulk-redirects.md)
 

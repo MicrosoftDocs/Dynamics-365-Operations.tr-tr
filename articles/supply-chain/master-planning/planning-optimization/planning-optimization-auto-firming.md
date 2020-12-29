@@ -1,5 +1,5 @@
 ---
-title: Planlamayı En İyi Duruma Getirme işlevi ile otomatik kesinleştirme
+title: Planlamayı En İyi Duruma Getirme ile otomatik kesinleştirme
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevi ile otomatik kesinleştirmenin nasıl kullanılacağı açıklanmaktadır.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383700"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594538"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirme işlevi ile otomatik kesinleştirme
+# <a name="autofirming-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirme ile otomatik kesinleştirme
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parças
 > [!NOTE]
 > Planlanan bir satınalma siparişinin otomatik kesinleştirilmesi için bir maddenin bir satıcı ile ilişkilendirilmesi gerekir.
 
-## <a name="turn-on-auto-firming"></a>Otomatik kesinleştirmeyi açma
+## <a name="turn-on-autofirming"></a>Otomatik kesinleştirmeyi açma
 
 Otomatik kesinleştirmeyi açmak için aşağıdaki adımları izleyin.
 
@@ -48,15 +48,15 @@ Kesinleştirme zaman dilimi master planlama çalıştırma tarihinden ileriye do
 
 - Bir kapsam grubu için varsayılan kesinleştirme zaman dilimini tanımlamak üzere **Master planlama** \> **Ayar** \> **Karşılama** \> **Karşılama grupları**'na gidin ve bir karşılama grubu seçin. Ardından **Diğer** hızlı sekmesinde, **Otomatik kesinleştirme zaman dilimi (gün sayısı)** alanına gün sayısını girin.
 - Belirli bir maddenin karşılama grubu için tanımlanan kesinleştirme zaman dilimini geçersiz kılmak için **Ürün bilgileri yönetimi** \> **Serbest bırakılan ürünler**'e gidin ve ardından Eylem Bölmesi'nden **Plan**'ı ve **Madde karşılama**'yı seçin. Ardından **Genel** sekmesinde, **Zaman dilimini geçersiz kıl**'ı seçin ve **Otomatik kesinleştirme zaman dilimi (gün)** alanına gün sayısını girin.
-- Belirli bir master planın kapsam grubu ve madde kapsamı için tanımlanan kesinleştirme zaman dilimi üzerine yazmak için **Master planlama** \> **Ayar** \> **Master planlar**'a gidin ve bir Master plan seçin. Ardından **Gün cinsinden zaman dilimi** hızlı sekmesinde, **Dondur** seçeneğini **Evet** olarak ayarlayın ve gün sayısını girin.
+- Belirli bir master planın kapsam grubu ve madde kapsamı için tanımlanan kesinleştirme zaman dilimi üzerine yazmak için **Master planlama** \> **Ayar** \> **Master planlar**'a gidin ve bir Master plan seçin. Ardından **Gün cinsinden zaman dilimi** hızlı sekmesinde, **Kesinleştir** seçeneğini **Evet** olarak ayarlayın ve gün sayısını girin.
 
-Planlamayı En İyi Duruma Getirme işlevini kullanan otomatik kesinleştirme özelliği bir master planlama çalışması için açılırsa otomatik kesinleştirme işlemi, otomatik kesinleştirme ayarına göre gerçekleştirilir. Otomatik kesinleştirme açılmazsa veya planlama **Net gereksinimler** sayfasından başlatılırsa otomatik kesinleştirme işlemi atlanır.
+Planlama İyileştirmesi işlevini kullanan otomatik kesinleştirme özelliği bir master planlama çalışması için açılırsa otomatik kesinleştirme işlemi, otomatik kesinleştirme ayarına göre gerçekleştirilir. Otomatik kesinleştirme açılmazsa veya planlama **Net gereksinimler** sayfasından başlatılırsa otomatik kesinleştirme işlemi atlanır.
 
 ## <a name="planning-optimization-vs-the-built-in-supply-chain-management-planning-engine"></a>Planlamayı En İyi Duruma Getirme işleviyle yerleşik Supply Chain Management planlama altyapısının karşılaştırılması
 
 Planlamayı En İyi Duruma Getirme ve Microsoft Dynamics 365 Supply Chain Management'ta yerleşik olan planlama altyapısı işlevlerinin ikisi de planlı siparişleri kesinleştirmek için kullanılabilir. Ancak, bazı önemli farklar vardır. Örneğin, Planlamayı En İyi Duruma Getirme işlevi hangi planlı siparişlerin kesinleştirileceğini belirlemek için sipariş tarihini (başka bir deyişle, başlangıç tarihi) kullanırken yerleşik Supply Chain Management planlama altyapısı gereksinim tarihini (başka bir deyişle, bitiş tarihi) kullanır. Aşağıda, farkların bir özeti verilmiştir.
 
-**Planlama İyileştirmesi**
+**Planlamayı En İyi Duruma Getirme**
 
 - Otomatik kesinleştirme, sipariş tarihini (başlangıç tarihi) temel alır.
 - Sipariş tarihi (başlangıç tarihi) kesinleştirmeyi tetiklediğinden sağlama süresini kesinleştirme zaman diliminin bir parçası olarak düşünmeniz gerekmez.

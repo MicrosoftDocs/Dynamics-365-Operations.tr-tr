@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5277081d9f7adcc43c30d30208d13c7e39d76118
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140387"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645293"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Fatura günlüğüne satıcı faturası kaydetme
 
@@ -43,7 +43,9 @@ Bu görev kılavuzu satınalma siparişleriyle ilişkili olmayan satıcı fatura
     * **Satış vergisi grubu**'nun varsayılan değeri satıcı hesabından alınır.  
     * **Madde satış vergisi grubu**, **Mahsup hesap** alanında belirtilen ana hesaptan alınır.  
     * **Vade tarihi**, Ödeme koşullarına göre hesaplanır.  
-    * **Nakit iskontosu**'nun varsayılan değeri Satıcı hesabından alınır.  
+    * **Nakit iskontosu**'nun varsayılan değeri Satıcı hesabından alınır.
+12. Satıcı faturası günlüğü iş akışını etkinleştirdiyseniz **İş Akışı > Gönder**'i tıklayın.
+    * Gönderiminiz onaylandığında, hareket deftere nakil tarihi genel muhasebe defterine nakil için Beklemede veya Kapalı olan bir döneme denk geliyorsa tarih bir sonraki açık dönemin ilk gününe ertelenir.
 12. **Naklet**'e tıklayın.
 13. Sayfayı kapatın.
 

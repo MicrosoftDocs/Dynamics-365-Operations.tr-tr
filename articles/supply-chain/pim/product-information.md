@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015141"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527398"
 ---
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır. 
 
@@ -89,8 +91,8 @@ Belirli bir tüzel kişilik için serbest bırakılan ürünler *serbest bırak�
 
 **Serbest bırakılan ürün bakımı** çalışma alanını **Çalışma alanımı yapılandır** menü öğesinden yapılandırabilirsiniz. Çalışma alanını filtrelemek için kullanılacak bir kategori hiyerarşisi ve kategori seçin. Çalışma alanında ilgili ürün verilerini ayarlamak üzere **Yakın zamanda serbest bırakılan ürünler** ve **Durdurulan serbest bırakılmış ürünler** için zaman dilimlerini gün cinsinden de tanımlayabilirsiniz.
 
-Çalışma alanı kutucukları özetinden ve iki listeden oluşur. **Açık servis talepleri** listesi, seçilen ürün kategorisi hiyerarşisinde tamamlanmamış ve kapatılmamış ürünleri bulunan ürün değişikliği durumlarını gösterir. **Yakın zamanda serbest bırakılan** listesi çalışma alanı yapılandırmasında ayarlanan zaman dilimi içinde serbest bırakılmış olan ürünleri gösterir. Listedeki her madde için doğrulama çalıştırılır ve doğrulama durumu gösterilir. Bu durum tüzel kişilik için gerekli yapılandırmaların tamamlanmamış olduğunu gösterebilir. Ürünün gerekli yapılandırmasını tamamlamak için listeden **Serbest bırakılan ürün ayrıntıları** , **Ürün özniteliği bakımı** , **Ürün kategorisi bakımı** , **Varsayılan sipariş ayarları** ve **Metin çevirileri** sayfalarına doğrudan erişebilirsiniz.
+Çalışma alanı kutucukları özetinden ve iki listeden oluşur. **Açık servis talepleri** listesi, seçilen ürün kategorisi hiyerarşisinde tamamlanmamış ve kapatılmamış ürünleri bulunan ürün değişikliği durumlarını gösterir. **Yakın zamanda serbest bırakılan** listesi çalışma alanı yapılandırmasında ayarlanan zaman dilimi içinde serbest bırakılmış olan ürünleri gösterir. Listedeki her madde için doğrulama çalıştırılır ve doğrulama durumu gösterilir. Bu durum tüzel kişilik için gerekli yapılandırmaların tamamlanmamış olduğunu gösterebilir. Ürünün gerekli yapılandırmasını tamamlamak için listeden **Serbest bırakılan ürün ayrıntıları**, **Ürün özniteliği bakımı**, **Ürün kategorisi bakımı**, **Varsayılan sipariş ayarları** ve **Metin çevirileri** sayfalarına doğrudan erişebilirsiniz.
 
 ### <a name="manually-creating-a-new-released-product"></a>Yeni serbest bırakılan ürünü el ile oluşturma
 
-Kuruluşun iş süreçlerine ve bu işlevin kullanılıp kullanılmayacağıyla ilgili kurallara bağlı olarak tek bir çalıştırmada el ile serbest bırakılan ürün oluşturabilirsiniz. Bu işlev yeni bir ürün oluşturur ve bunu otomatik olarak geçerli tüzel kişiliğe serbest bırakır. Yeni ürün oluşturmak için **Serbest bırakılan ürün bakımı** çalışma alanında veya **Serbest bırakılan ürün** liste sayfasında **Serbest bırakılan ürünler** 'e tıklayın.
+Kuruluşun iş süreçlerine ve bu işlevin kullanılıp kullanılmayacağıyla ilgili kurallara bağlı olarak tek bir çalıştırmada el ile serbest bırakılan ürün oluşturabilirsiniz. Bu işlev yeni bir ürün oluşturur ve bunu otomatik olarak geçerli tüzel kişiliğe serbest bırakır. Yeni ürün oluşturmak için **Serbest bırakılan ürün bakımı** çalışma alanında veya **Serbest bırakılan ürün** liste sayfasında **Serbest bırakılan ürünler**'e tıklayın.

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818262"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665284"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
@@ -47,7 +47,7 @@ Mağaza seçici modülü, arama yarıçapı içindeki mağazaları aramak için 
 
 Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](https://docs.microsoft.com/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
 
-Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki URL'lere izin verildiğinden ("izin verilenler" olarak da bilinir) emin olmanız gerekir. Bu kurulum, site için çeşitli CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
+Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki URL'lere izin verildiğinden emin olmanız gerekir. Bu kurulum, site için çeşitli CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
 
 - **connect-src** yönergesine **&#42;.bing.com** ekleyin.
 - **img-src** yönergesine **&#42;.virtualearth.net** ekleyin.
@@ -65,6 +65,9 @@ Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılac
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
 ![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Mağaza bulma modu
 
@@ -110,10 +113,10 @@ Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğ
 1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **2 sütunlu kapsayıcı** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Genişlik** değerini **Dolgu Kapsayıcısı** olarak ayarlayın.
-1. **X küçük görünüm bağlantı noktası sütunu yapılandırması**değerini **%100** olarak ayarlayın.
-1. **Küçük görünüm bağlantı noktası sütunu yapılandırması**değerini **%100** olarak ayarlayın.
-1. **Orta görünüm bağlantı noktası sütunu yapılandırması**değerini **%33 %67** olarak ayarlayın.
-1. **Büyük görünüm bağlantı noktası sütunu yapılandırması**değerini **%33 %67** olarak ayarlayın.
+1. **X küçük görünüm bağlantı noktası sütunu yapılandırması** değerini **%100** olarak ayarlayın.
+1. **Küçük görünüm bağlantı noktası sütunu yapılandırması** değerini **%100** olarak ayarlayın.
+1. **Orta görünüm bağlantı noktası sütunu yapılandırması** değerini **%33 %67** olarak ayarlayın.
+1. **Büyük görünüm bağlantı noktası sütunu yapılandırması** değerini **%33 %67** olarak ayarlayın.
 1. **2 sütunlu kapsayıcı** yuvasında, üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül Ekle** iletişim kutusunda **Mağaza seçici** modülünü seçin ve **Tamam**'ı seçin.
 1. Modülün özellikler bölmesinde, **Mod** değerini **Mağaza bul** olarak ayarlayın.

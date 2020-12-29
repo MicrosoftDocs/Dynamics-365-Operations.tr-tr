@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980976"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517392"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -46,7 +46,7 @@ Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışl
 
     - **Yeni Azure AD B2C kiracısı oluştur**: Yeni bir AAD B2C kiracısı oluşturmak için bu seçeneği kullanın.
         1. **Yeni bir Azure AD B2C Kiracısı oluştur**'u seçin.
-        1. **Kuruluş adı**altında, kuruluş adını girin.
+        1. **Kuruluş adı** altında, kuruluş adını girin.
         1. **İlk etki alanı adı** altında, ilk etki alanı adını girin.
         1. **Ülke veya bölge** için ülkeyi veya bölgeyi seçin.
         1. Kiracı oluşturmak için **Oluştur**'u seçin.
@@ -115,7 +115,7 @@ Kullanıcı akışı ilkesinde kaydolma ve oturum açma oluşturmak için aşağ
 1. **Azure AD B2C - Kullanıcı akışları (ilkeler)** sayfasında, **Yeni Kullanıcı Akışı**'nı seçin.
 1. **Önerilen** sekmesinde, **Kaydet ve oturum aç**'ı seçin.
 1. **Ad** altında bir ilke adı girin. Bu ad, daha sonra portalın atadığı bir önekle (örneğin, "B2C_1_") birlikte görüntülenecektir.
-1. **Kimlik sağlayıcıları**altında, uygun onay kutusunu seçin.
+1. **Kimlik sağlayıcıları** altında, uygun onay kutusunu seçin.
 1. **Çok faktörlü Kimlik Doğrulaması** altında şirketiniz için uygun seçeneği belirleyin. 
 1. **Kullanıcı öznitelikleri ve talepler** altında, öznitelikleri  veya iade taleplerini toplamak için ilgili seçenekleri seçin. Commerce aşağıdaki varsayılan seçenekleri gerekli kılar:
 
@@ -146,7 +146,7 @@ Profil düzenleme kullanıcı akışı ilkesi oluşturmak için aşağıdaki ad�
 1. **Önerilen** sekmesinde **Profil düzenleme**'yi seçin.
 1. **Ad** altında, profil düzenleme kullanıcı akışını girin. Bu ad, daha sonra portalın atadığı bir önekle (örneğin, "B2C_1_") birlikte görüntülenecektir.
 1. **Kimlik sağlayıcılar** altında **Yerel Hesap Oturum Açma** seçeneğini belirleyin.
-1. **Kullanıcı öznitelikleri**altında, aşağıdaki onay kutularını seçin:
+1. **Kullanıcı öznitelikleri** altında, aşağıdaki onay kutularını seçin:
     - **E-posta Adresleri** (yalnızca **İade talebi**)
     - **Verilen Ad** (**Öznitelik topla** ve **İade talebi**)
     - **Kimlik Sağlayıcı** (yalnızca **İade talebi**)
@@ -168,7 +168,7 @@ Parola sıfırlama kullanıcı akışı ilkesi oluşturmak için aşağıdaki ad
 1. **Ad** altında, parola sıfırlama kullanıcı akışı için bir ad girin.
 1. **Kimlik sağlayıcılar** atında **E-posta adresini kullanarak parolayı sıfırla**'yı seçin.
 1. **Oluştur**'u seçin.
-1. **Uygulama talepleri**altında, aşağıdaki onay kutularını seçin:
+1. **Uygulama talepleri** altında, aşağıdaki onay kutularını seçin:
     - **E-posta adresleri**
     - **Verilen Ad**
     - **Soyadı**
@@ -237,7 +237,7 @@ Yukarıdaki Azure AD B2C sağlama adımları tamamlandıktan sonra, Azure AD B2C
 Genel merkezi Azure AD B2C bilgileriyle güncelleştirmek için aşağıdaki adımları izleyin.
 
 1. Commerce'ta **Commerce Paylaşılan Parametreleri**'ne gidin ve sol menüde **Kimlik Sağlayıcılar**'ı seçin.
-1. **Kimlik Sağlayıcılar**altında aşağıdakileri yapın:
+1. **Kimlik Sağlayıcılar** altında aşağıdakileri yapın:
     1. **Veren** kutusuna, kimlik sağlayıcı verenin URL'sini girin. Veren URL'nizi bulmak için, aşağıdaki [Verenin URL'sini al](#obtain-issuer-url) bölümüne bakın.
     1. **Ad** kutusuna, veren kaydınız için bir ad girin.
     1. **Tür** kutusuna, **Azure AD B2C (id_token)** girin.
@@ -345,15 +345,15 @@ B2C kiracınızın **Kullanıcılar** bölümünde isteğe bağlı, ikincil bir 
 
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
-[Yeni e-Ticaret sitesini dağıtma](deploy-ecommerce-site.md)
+[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
 
-[e-Ticaret sitesi oluşturma](create-ecommerce-site.md)
+[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
 
-[Çevrimiçi siteyi bir kanalla ilişkilendirme](associate-site-online-store.md)
+[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 
-[URL yeniden yönlendirmelerini toplu olarak yükleme](upload-bulk-redirects.md)
+[URL yeniden yönlendirmelerini toplu olarak yükle](upload-bulk-redirects.md)Dynamics 365 Commerce siteyi çevrimiçi kanalla ilişkilendir
 
 [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
 

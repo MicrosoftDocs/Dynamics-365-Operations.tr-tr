@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979439"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666782"
 ---
 # <a name="order-promising"></a>Sipariş taahhüdü
 
@@ -37,6 +37,12 @@ Sipariş taahhüdü erken sevk ve giriş tarihlerini hesaplar ve teslim tarihi k
 -   **KM (kullanılabilir taahhüt)** – KM mevcut bulunan ve müşteriye belirli bir tarihte taahhüt edilebilecek bir madde miktarıdır. KM hesaplaması kaydedilmemiş stok, sağlama süreleri, planlanan girişler ve sorunları içerir.
 -   **KM + Çıkış marjı** sevkiyat tarihi karşılanabilir miktar KM tarihi ile maddenin çıkış marjının toplamına eşittir. Çıkış marjı, maddelerin sevkiyata hazırlanması için gereken süredir.
 -   **CTP (Teslim edilebilir miktar)**– Kullanılabilirlik açılım ile hesaplanır.
+
+> [!NOTE]
+> Bir satış siparişi güncelleştirildiğinde sipariş taahhüdü bilgileri yalnızca, var olan sipariş taahhüdü tarihi yerine getirilmezse, aşağıdaki örneklerde görüldüğü gibi güncelleştirilir:
+> 
+> - **Örnek 1**: Geçerli sipariş taahhüdü tarihi 20 Temmuz'dur ancak artan miktar nedeniyle 25 Temmuz'dan önce teslim edilemiyor. Geçerli tarihe artık uyulmadığı için sipariş taahhüdü tetiklenir.
+> -  **Örnek 2**: Geçerli sipariş taahhüdü tarihi 20 Temmuz'dur ancak azalan miktar nedeniyle 15 Temmuz'da teslim edilebilmektedir. Ancak, geçerli tarihin yerine getirilmesi gerektiğinden, sipariş taahhüdü tetiklenmez ve 20 Temmuz, sipariş taahhüdü tarihi olarak kalır.
 
 ## <a name="atp-calculations"></a>ATP hesaplamaları
 Karşılanabilir miktar (ATP) “ileriye dönük toplam ATP” yöntemini kullanarak hesaplanır. Bu ATP hesaplama yönteminin temel avantajı, girişler arasındaki çıkışların toplamı son girişten fazla olduğunda, /(örneğin bir gereksinimi karşılamak için önceki bir girişten bir miktar kullanılması zorunlu olduğunda) örnekleri yönetebilmesidir. "İleriyi görebilmeli kümülatif ATP" hesaplama yöntemi, alınacak kümülatif miktar, verilecek kümülatif miktarı aşana kadarki tüm sorunları içerir. Bu nedenle, KM hesaplama yöntemi, bir önceki dönemden bazı miktarların sonraki dönemde kullanılıp kullanılamayacağını değerlendirir.  

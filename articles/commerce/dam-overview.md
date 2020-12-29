@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd2ec16ec441174485a9cc70f41a83337264f53b
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 69cbaafb9cc28d4e363d0ef028460235cded54dc
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097098"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594368"
 ---
 # <a name="digital-asset-management-overview"></a>Dijital varlık yönetimine genel bakış
 
@@ -55,6 +55,8 @@ Dijital varlıklar ve yönetim özellikleri site oluşturucusunda, site içindek
 
 [Dosyaları karşıya yükleme](dam-upload-files.md)
 
-[Görüntüleri kırpma](dam-crop-images.md)
+[Resimleri kırpma](dam-crop-images.md)
 
-[Görüntünün odak noktalarını özelleştirme](dam-custom-focal-point.md)
+[Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
+
+[Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
