@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 25ba4aa92d968f4dfb0dc23b1ac459cda2d52b61
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207267"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439572"
 ---
 # <a name="quarantine-orders"></a>Karantina emirleri
 

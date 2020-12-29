@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981438"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439170"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -158,7 +158,7 @@ Bu durumda, aşağıdaki planlı siparişleri oluşturulur.
 
 #### <a name="example-2-transactions--dynamic-period"></a>Örnek 2: Hareketler - dinamik dönem
 
-Çoğu durumda, hareketlerin haftalık, aylık ve benzeri tahmin dönemlerinde talep tahminini azaltabilmesi için sistemler ayarlanır. Bu dönemler azaltma anahtarında tanımlanır. Ancak, iki tahmin satırı arasındaki süre bir dönemi*gösterebilir*.
+Çoğu durumda, hareketlerin haftalık, aylık ve benzeri tahmin dönemlerinde talep tahminini azaltabilmesi için sistemler ayarlanır. Bu dönemler azaltma anahtarında tanımlanır. Ancak, iki tahmin satırı arasındaki süre bir dönemi *gösterebilir*.
 
 Bu örnekte, aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturursunuz.
 

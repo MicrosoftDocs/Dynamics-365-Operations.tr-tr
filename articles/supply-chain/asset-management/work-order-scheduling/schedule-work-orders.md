@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888917"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439401"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -39,7 +39,7 @@ Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş em
 
 1. **Varlık yönetimi** > **Ortak** > **İş emirleri** > **Tüm iş emirleri**'ne tıklayın.
 
-2. Listede planlamak istediğiniz iş emirlerini seçin. Örneğin, listeyi **Geçerli yaşam döngüsü durumuna**göre sıralayabilirsiniz.
+2. Listede planlamak istediğiniz iş emirlerini seçin. Örneğin, listeyi **Geçerli yaşam döngüsü durumuna** göre sıralayabilirsiniz.
 
 3. **Genel** sekmesinde, **Planla** seçeneğine tıklayın.
 
@@ -65,7 +65,7 @@ Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş em
 
 Varlık Yönetiminde planlama işlemi, planlama hesaplamasında çeşitli etmenler içerir:
 
-- Hem iş emirleri hem de bakım çalışanları için puanları hesaplama. İş emirlerinin ve bakım görevlilerinin puanları **Varlık yönetimi parametrelerinde**ayarlanır. 
+- Hem iş emirleri hem de bakım çalışanları için puanları hesaplama. İş emirlerinin ve bakım görevlilerinin puanları **Varlık yönetimi parametrelerinde** ayarlanır. 
 - İşin gerçekleştirilmesi için eşleşen yeteneklerin yani beceriler ve sertifikaların kontrol edilmesi. Beceriler ve sertifikalar bakım görevlileri için **İnsan kaynakları** modülünde ayarlanır (**İnsan kaynakları** > **Çalışanlar** > **Çalışanlar** > listeden çalışan seçin > **Çalışan** sekmesi > **Yeterlilikler** bölümü > **Beceriler** ve **Sertifikalar** düğmeleri). Ayrıca, beceriler ve sertifikalar bakım iş türlerine ve bakım işi görevlerine eklenebilir. Yeterlilikler ve bakım işi türleriyle ilgili daha fazla bilgi için [Bakım işi türü kategorileri ve bakım iş türleri, bakım iş türü çeşitleri, bakım işi işlemleri ve bakım denetim listeleri](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)'ne bakın.  
 
 ## <a name="scores-used-in-work-order-scheduling"></a>İş emri planlamada kullanılan puanlar
@@ -88,7 +88,7 @@ Aşağıdaki örneklerde, kritiklik puanı "2" ve hizmet düzeyi puanı "5" ve "
 | WO-00010817   | Şu andan itibaren iki gün   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Şu andan itibaren iki gün   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-İş emirleri şu sırada planlanır: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+İş emirleri şu sırada planlanır: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Örnek 2:**
 
@@ -98,7 +98,7 @@ Aşağıdaki örneklerde, kritiklik puanı "2" ve hizmet düzeyi puanı "5" ve "
 | WO-00010817   | Şu andan itibaren iki gün   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Şu andan itibaren iki gün   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Hizmet düzeyi puanı '5' yerine '100'e artırılırsa, planlama sırası şöyle olur: WO-000108**18**, WO-000108**16**, WO-000108**17**
+Hizmet düzeyi puanı '5' yerine '100'e artırılırsa, planlama sırası şöyle olur: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**
 
 İş emirlerinde hangi bakım çalışanlarının çalışması gerektiğini hesaplamayla ilgili derecelendirme puanları, iş emri planlama sırasında her bakım çalışanı hesaplamasına eklenen sayılar olarak ayarlanır. En yüksek puana sahip bakım çalışanı iş emrinde seçilir. Aşağıda, bakım çalışan puanlarının kısa bir açıklaması yer alır:
 

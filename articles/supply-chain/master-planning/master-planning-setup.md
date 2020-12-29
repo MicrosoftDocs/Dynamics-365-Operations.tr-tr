@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3958805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439112"
 ---
 # <a name="set-up-master-planning"></a>Master planlamayı ayarlama
 
@@ -182,7 +182,7 @@ Master planlama talebini, talep amacı için planlı siparişler oluşturmak üz
 
 Sıralama, planlanan siparişlerin bitmiş ürünle ilişkilendirilmiş sıralama özniteliklerine dayalı olarak düzenlenmesini sağlar. Genellikle üretim emirlerini paketleme için hazırlamak amacıyla kullanılır. Örneğin, renk ve boyut temelinde belirli bir sırada kutular paketlenebilecek şekilde kullanılabilir.
 
-**Sıralama** seçeneğini **Evet**olarak ayarlayarak işlemlerin veya işlerin ne kadar ileride sıralı alınacağını belirtebilirsiniz. Zaman dilimi ne kadar büyük olursa o kadar uzun bir süre için master planlama yapılacağını unutmayın.
+**Sıralama** seçeneğini **Evet** olarak ayarlayarak işlemlerin veya işlerin ne kadar ileride sıralı alınacağını belirtebilirsiniz. Zaman dilimi ne kadar büyük olursa o kadar uzun bir süre için master planlama yapılacağını unutmayın.
 
 ### <a name="calculated-delays"></a>Hesaplanan gecikmeler
 
@@ -202,7 +202,7 @@ Pozitif ve negatif günler, master planlamanın planlı siparişler ve eylemler 
 
 ### <a name="positive-days"></a>Artı günler
 
-Pozitif günler gelecekteki master planlamanın gelecekteki bir talebi yerine getirmek için geçerli stoğun veya girişlerin ne kadar dikkate alınacağını gösterir. Örneğin, artı günler **100**olarak ayarlanmışsa sonraki 100 günde talebi karşılamak için geçerli stok kullanılabilir. Geçerli tarihten itibaren bir siparişin 150 gün varsa madde için eldeki stok, siparişi karşılayabilse bile master planlama bu talebi karşılamak için bir planlı sipariş oluşturur. Kısa teslim süresi olan hızlı hareket eden maddeler için, gelecekte stoktaki bir sipariş için eldeki stoğu kullanmak istemeyebilirsiniz. Bu hızlı taşıma olayında, eldeki geçerli stok hızlı şekilde biter ve daha fazla sipariş gelecekte, gelecek bir talebi zamanında karşılamak için yerleştirilir, böylece maddeyi kısa süre içinde teslim etmek mümkün olur.
+Pozitif günler gelecekteki master planlamanın gelecekteki bir talebi yerine getirmek için geçerli stoğun veya girişlerin ne kadar dikkate alınacağını gösterir. Örneğin, artı günler **100** olarak ayarlanmışsa sonraki 100 günde talebi karşılamak için geçerli stok kullanılabilir. Geçerli tarihten itibaren bir siparişin 150 gün varsa madde için eldeki stok, siparişi karşılayabilse bile master planlama bu talebi karşılamak için bir planlı sipariş oluşturur. Kısa teslim süresi olan hızlı hareket eden maddeler için, gelecekte stoktaki bir sipariş için eldeki stoğu kullanmak istemeyebilirsiniz. Bu hızlı taşıma olayında, eldeki geçerli stok hızlı şekilde biter ve daha fazla sipariş gelecekte, gelecek bir talebi zamanında karşılamak için yerleştirilir, böylece maddeyi kısa süre içinde teslim etmek mümkün olur.
 
 Pozitif günler eylem iletilerini de etkiler. Örneğin, sistem, planlı bir satınalma siparişini daha sonra pozitif günlerin sayısı içinde bulunan bir talep içerecek şekilde artırmanızı önerebilir. Pozitif günler **100** olarak ayarlanmışsa ve geçerli tarihten itibaren 30 gün içinde bir madde için talep varsa sistem bu talebi karşılamak için planlı sipariş oluşturur. Geçerli tarihten itibaren 90 gün içinde aynı madde için talep varsa sistem sipariş miktarını geçerli tarihten 30 gün içinde artırmanız için siparişin aynı zamanda 90 gün içinde talebi kapsadığı şekilde kullanmanızı önerir. Ancak, geçerli tarihten itibaren 150 gün içinde madde için talep varsa sistem zaten planlanan sipariş miktarını artırmanızı önermez. Bunun yerine, yeni bir planlı sipariş oluşturulur.
 

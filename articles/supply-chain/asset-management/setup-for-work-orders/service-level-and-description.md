@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 647358fcdd53ba95b571185ae269bc8d6b869c18
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889397"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439349"
 ---
 # <a name="service-level-and-description"></a>Servis düzeyi ve açıklaması
 
@@ -43,9 +43,9 @@ Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna 
     **İş emirleri** hızlı sekmesinde, beklenen başlangıç ve bitiş tarihleri ile saatlerini tanımlayabilirsiniz. Bu hızlı sekmedeki alanlar, iş emirlerinin başlaması gereken ve sona erdirildiği dönemi tanımlar. El ile oluşturulan ve bakım taleplerinde oluşturulan iş emirlerinin bulunduğu iş emirleri için kullanılırlar. 
 
 5. **Başlangıç günü** alanına, iş emrinin başlaması gereken dönemi tanımlamak için bir gün sayısı girin. Gün sayısı, iş emrinin yaratılış tarihinden itibaren hesaplanır. Örneğin, iş emri oluşturulurken başlaması gerekiyorsa **0** girin. İş emri oluşturulduktan sonraki bir hafta içinde başlaması gerekirse, **7** girin.
-6. Başlangıç tarihine ek olarak, iş emri başlangıç saatini ayarlamak için **Başlangıç saatini ayarla** seçeneğini **Evet**olarak ayarlayın. Sonra **Başlangıç saati** alanına başlangıç saatini girin. Seçeneği **Hayır**olarak ayarlarsanız günün geçerli saati kullanılır.
-7. **Bitiş günü** alanına, iş emrinin bitmesi gereken dönemi tanımlamak için bir gün sayısı girin. Gün sayısı, iş emrinin başlangıç tarihinden itibaren hesaplanır. Örneğin, iş emrinin başlangıç tarihinin bir hafta içinde bitmesi gerekiyorsa, **7**girin.
-8. Bitiş tarihine ek olarak, iş emri bitiş saatini ayarlamak için **Bitiş saatini ayarla** seçeneğini **Evet**olarak ayarlayın. Sonra **Bitiş saati** alanına bitiş saatini girin. Seçeneği **Hayır**olarak ayarlarsanız günün geçerli saati kullanılır.
+6. Başlangıç tarihine ek olarak, iş emri başlangıç saatini ayarlamak için **Başlangıç saatini ayarla** seçeneğini **Evet** olarak ayarlayın. Sonra **Başlangıç saati** alanına başlangıç saatini girin. Seçeneği **Hayır** olarak ayarlarsanız günün geçerli saati kullanılır.
+7. **Bitiş günü** alanına, iş emrinin bitmesi gereken dönemi tanımlamak için bir gün sayısı girin. Gün sayısı, iş emrinin başlangıç tarihinden itibaren hesaplanır. Örneğin, iş emrinin başlangıç tarihinin bir hafta içinde bitmesi gerekiyorsa, **7** girin.
+8. Bitiş tarihine ek olarak, iş emri bitiş saatini ayarlamak için **Bitiş saatini ayarla** seçeneğini **Evet** olarak ayarlayın. Sonra **Bitiş saati** alanına bitiş saatini girin. Seçeneği **Hayır** olarak ayarlarsanız günün geçerli saati kullanılır.
 9. **Kaydet**'i seçin.
 
 ![İş emri hizmet düzeyi sayfası](media/19-setup-for-work-orders.png)

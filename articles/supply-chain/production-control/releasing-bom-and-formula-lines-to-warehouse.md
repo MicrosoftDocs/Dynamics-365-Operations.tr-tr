@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017242"
+ms.locfileid: "4439643"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
@@ -40,13 +40,13 @@ Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hamm
 Ürün reçetesi ve formül satırlarını serbest bırakmak için kullanılan yöntem **Üretim satırı serbest bırakma** parametresi tarafından denetlenir. Bu parametreyi **Üretim denetimi** \> **Kurulum** \> **Üretim parametreleri** altında bulabilirsiniz.
 
 - **Ürün reçetesi ve formül satırlarını üretim emrini veya toplu siparişi serbest bırakmanın bir parçası olarak serbest bırakma** – Bu yöntemde, bir üretim veya toplu iş emri için ürün reçetesi ve formül satırları siparişi serbest bırakma işleminin bir parçası olarak serbest bırakılır. Genellikle, bir üretim veya toplu iş emrinin serbest bırakılması sırasında, üretim işleri atölye çalışanlarına serbest bırakılır ve üretim belgeleri yazdırılır. Bu işlem sırasında siparişin durumu da **Serbest bırakıldı** olarak değişir.
-- **Ürün reçetesi veya formül satırlarını bir toplu iş aracılığıyla veya el ile etkileşim olarak serbest bırakma** – Bu yöntemde, ürün reçetesi ve formül satırları yalnızca **Ürün reçetesi ve formül satırlarını otomatik serbest bırakma** toplu işi aracılığıyla veya el ile etkileşim olarak serbest bırakılabilir. Ürün reçetesi ve formül satırlarını el ile serbest bırakmak için, Eylem Bölmesindeki üretim emri liste sayfasında veya üretim emri ayrıntıları sayfasında **Ambar için serbest bırak** 'ı seçin.
+- **Ürün reçetesi veya formül satırlarını bir toplu iş aracılığıyla veya el ile etkileşim olarak serbest bırakma** – Bu yöntemde, ürün reçetesi ve formül satırları yalnızca **Ürün reçetesi ve formül satırlarını otomatik serbest bırakma** toplu işi aracılığıyla veya el ile etkileşim olarak serbest bırakılabilir. Ürün reçetesi ve formül satırlarını el ile serbest bırakmak için, Eylem Bölmesindeki üretim emri liste sayfasında veya üretim emri ayrıntıları sayfasında **Ambar için serbest bırak**'ı seçin.
 
 Ürün reçetesi ve formül satırlarının toplu iş kullanılarak üretime serbest bırakılması hakkında hızlı bir tanıtım için YouTube'daki şu kısa videoyu izleyin: [Üretim malzeme çekmeyi toplu işte ambara serbest bırakma](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Ürün reçetesi veya formül satırlarını bir toplu iş kullanarak serbest bırakma
 
-**Ürün reçetesi ve formül satırlarını otomatik serbest bırak** toplu işi, serbest bırakılacak kalan miktarı bulunan seçili ürün reçetesi ve formül satırları ile ilerler. İş yalnızca **Serbest bırakıldı** , **Başladı** veya **Bitti olarak rapor edildi** durumundaki siparişleri dikkate alır. Bir ürün reçetesi veya formül satırında serbest bırakılmak üzere kalan bir miktar varsa, iş yalnızca daha önce fiziksel olarak rezerve edilmiş olan miktar ve fiziksel olarak kullanılabilir olan miktar tarafından karşılanabilecek olan kadar miktarı serbest bırakır.
+**Ürün reçetesi ve formül satırlarını otomatik serbest bırak** toplu işi, serbest bırakılacak kalan miktarı bulunan seçili ürün reçetesi ve formül satırları ile ilerler. İş yalnızca **Serbest bırakıldı**, **Başladı** veya **Bitti olarak rapor edildi** durumundaki siparişleri dikkate alır. Bir ürün reçetesi veya formül satırında serbest bırakılmak üzere kalan bir miktar varsa, iş yalnızca daha önce fiziksel olarak rezerve edilmiş olan miktar ve fiziksel olarak kullanılabilir olan miktar tarafından karşılanabilecek olan kadar miktarı serbest bırakır.
 
 ### <a name="example-of-a-batch-job-release"></a>Toplu iş serbest bırakma örneği
 
@@ -77,7 +77,7 @@ Malzemeleri **Üretim emri serbest bırakmada** parametresi ayarını kullanarak
 
 Malzemenin serbest bırakılması gereken işlemleri denetlemek için **Ambara serbest bırak** sayfasını kullanın.
 
-- **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri** 'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin. Ardından **İlk İşlem No.** ve **Son İşlem No.** alanlarını kullanarak işlem numaraları aralığını belirtin.
+- **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri**'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin. Ardından **İlk İşlem No.** ve **Son İşlem No.** alanlarını kullanarak işlem numaraları aralığını belirtin.
 
 Aşağıdaki örnekte 10 ve 20 şeklinde iki işlemi bulunan bir üretim emri gösterilmektedir. Bu örnekte, serbest bırakmayı 10 işlemiyle sınırlarsanız yalnızca M9203 malzemesi serbest bırakılacaktır.
 
@@ -89,11 +89,11 @@ Malzemenin, mamul mal miktarına orantılı olarak nasıl serbest bırakılacağ
 
 Hammaddeyi kısmi bir mamul ürün miktarı için veya belirli bir birimde serbest bırakabilirsiniz.
 
-- Mamul ürünlerin kısmi bir miktarı için hammaddeyi serbest bırakmak üzere **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri** 'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin. Ardından **Miktar** alanına bir miktar girin.
+- Mamul ürünlerin kısmi bir miktarı için hammaddeyi serbest bırakmak üzere **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri**'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin. Ardından **Miktar** alanına bir miktar girin.
 
     Örneğin, 1000 parça (parça) için bir üretim emri oluşturulur ve planlanır. Atölye yöneticisi bir sonraki vardiya için 100 parçalık üretim planlar ve yalnızca bu vardiya için malzemeleri serbest bırakmak ister. Bu durumda, yönetici **Miktar** alanını kullanarak malzemeyi bir sonraki vardiya için planlanan 100 parça için serbest bırakmak bırakabilir.
 
-- Hammaddeyi belirli bir birimde serbest bırakmak üzere **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri** 'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak** 'ı seçin. Daha sonra **Birim** alanını kullanarak malzemenin serbest bırakılacağı mamul ürün birimini seçin.
+- Hammaddeyi belirli bir birimde serbest bırakmak üzere **Üretim denetimi** \> **Üretim emirleri** \> **Tüm üretim emirleri**'ni seçin, bir üretim emri seçin ve ardından **Ambar** sekmesinde **Ambara serbest bırak**'ı seçin. Daha sonra **Birim** alanını kullanarak malzemenin serbest bırakılacağı mamul ürün birimini seçin.
 
     Kullanılabilir birimler mamul ürününün birim sırası grubu kodunda tanımlanır.
 

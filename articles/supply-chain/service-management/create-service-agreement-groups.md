@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0f76051d4d85d84362d171ba25330c7c260d88bb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978471"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439489"
 ---
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 

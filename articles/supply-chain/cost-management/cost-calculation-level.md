@@ -16,11 +16,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 52b77e794ee38add556ac01d62c973b38c48a548
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439209"
 ---
 # <a name="cost-calculation-level"></a>Maliyet hesaplama düzeyi
 

@@ -18,11 +18,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2c933caefb4aa8cbb2bb93a97056f5bcc29050d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208352"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439308"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Kategori hiyerarşilerini kullanarak bir ürünü sınıflandırma
 

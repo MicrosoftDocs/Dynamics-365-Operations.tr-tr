@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5d7e9b081d3b6453595e2f40af17c012da33ce02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976052"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439454"
 ---
 # <a name="work-with-customer-service-overview"></a>Müşteri hizmetleriyle çalışmaya genel bakış
 

@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268828"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439370"
 ---
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
@@ -433,7 +433,7 @@ Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanın
 </table>
 
 > [!NOTE]
-> *Ambar işlemleri için kalite yönetimi* özelliği, **Olay Türü** *Tamamlandı olarak bildir*, **Yürütme** *Sonra* olarak ayarlanmış olan üretim ve **Olay türü** *Kayıt*olarak ayarlanmış satınalmalar için kalite emri işleme yetenekleri ekler. Ayrıntılar için bkz. [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md).
+> *Ambar işlemleri için kalite yönetimi* özelliği, **Olay Türü** *Tamamlandı olarak bildir*, **Yürütme** *Sonra* olarak ayarlanmış olan üretim ve **Olay türü** *Kayıt* olarak ayarlanmış satınalmalar için kalite emri işleme yetenekleri ekler. Ayrıntılar için bkz. [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md).
 
 ## <a name="quality-management-pages"></a>Kalite yönetim sayfaları
 <table>

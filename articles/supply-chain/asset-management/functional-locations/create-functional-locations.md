@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439191"
 ---
 # <a name="create-functional-locations"></a>İşlem yapılacak yerleşimler oluşturma
 
@@ -80,7 +80,7 @@ Varlık yükleme hakkında daha fazla bilgi için bkz. [Varlıkları işlem yap�
 
 ## <a name="asset-attribute-requirements"></a>Varlık öznitelik gereksinimleri
 
-Bu hızlı sekmede, işlem yapılacak yerleşime yüklediğiniz varlıklar için belirli öznitelik gereksinimleri ekleyebilirsiniz. Bu gereksinimler yalnızca bilgi amaçlıdır. Başka öznitelik gereksinimleri bulunan varlıkları yüklemenizi engellemez. **Satır ekle**'yi ve öznitelik türünü seçin. Sonra ilgili **Değeri**ekleyin, **Eşik ölçütü** alanında bir eşik seçin ve kaydı kaydedin.
+Bu hızlı sekmede, işlem yapılacak yerleşime yüklediğiniz varlıklar için belirli öznitelik gereksinimleri ekleyebilirsiniz. Bu gereksinimler yalnızca bilgi amaçlıdır. Başka öznitelik gereksinimleri bulunan varlıkları yüklemenizi engellemez. **Satır ekle**'yi ve öznitelik türünü seçin. Sonra ilgili **Değeri** ekleyin, **Eşik ölçütü** alanında bir eşik seçin ve kaydı kaydedin.
 
 ## <a name="maintenance-plans-and-maintenance-rounds"></a>Bakım planları ve Bakım sıraları
 
@@ -107,7 +107,7 @@ Bu hızlı sekmede, işlem yapılacak yerleşim öznitelikleri için değerler a
 
 İşlem yapılacak yerleşim için mali boyutları seçebilirsiniz. [İşlem yapılacak yerleşim türleri](../setup-for-functional-locations/functional-location-types.md), mali boyutların işlem yapılacak yerleşimden otomatik güncelleştirilmesine izin verecek şekilde ayarlanabilir. Bu, bir mali boyuta yüklenen varlıkların otomatik olarak işlem yapılacak yerleşime ilişkin mali boyutları alacağı gelir. Bu, konumlara bağlı olarak farklı maliyet merkezleri istiyorsanız yararlıdır.
 
-**Tesis**, **Ambar**, **Adres**ve **Mali boyutlar** ile ilgili veriler bir üst işlem yapılacak yerleşimde güncelleştirildiğinde, güncelleştirme sırasında seçim yaparsanız ilgili alt işlem yapılacak yerleşimler buna göre güncelleştirilebilir. Güncelleştirme seçeneklerini sunan bir iletişim kutusu açılır.
+**Tesis**, **Ambar**, **Adres** ve **Mali boyutlar** ile ilgili veriler bir üst işlem yapılacak yerleşimde güncelleştirildiğinde, güncelleştirme sırasında seçim yaparsanız ilgili alt işlem yapılacak yerleşimler buna göre güncelleştirilebilir. Güncelleştirme seçeneklerini sunan bir iletişim kutusu açılır.
 
 ## <a name="copy-a-functional-location-structure"></a>İşlem yapılacak yerleşim yapısını kopyalama
 

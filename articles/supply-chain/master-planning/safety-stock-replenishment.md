@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987401"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439075"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 

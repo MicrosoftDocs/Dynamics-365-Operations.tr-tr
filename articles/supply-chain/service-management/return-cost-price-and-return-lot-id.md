@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0d5ac48dd390e2f57a7312e3c54af53dd49fd4f7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975596"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439390"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>İade maliyet fiyatı ve iade lot kodu        
 

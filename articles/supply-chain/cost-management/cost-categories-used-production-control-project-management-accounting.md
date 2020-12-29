@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 26f4ce073528bf102a951d6fa002aeb0da9e380c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201928"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439185"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri
 

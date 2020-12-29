@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d113181b5c78c0f35292b5f14cedd12bacdc7364
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207543"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439237"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Tedarik kategorisi hiyerarşileri için ilkeler ayarlama
 
@@ -36,7 +36,7 @@ Bir kategorideki ürünleri sipariş etmek amacıyla kuralları ayarlamak için 
 
 ## <a name="create-a-category-access-rule"></a>Kategori erişimi kuralı oluşturun
 1. **İlke kuralları** hızlı sekmesini genişletin.
-2. **İlke kuralı türü** listesinde, **Kategori erişim ilkesi kuralını**seçin. **İlke kuralı oluştur** düğmesi soluk görünüyorsa bunun nedeni Kategori erişimi için zaten etkin bir ilke kuralının olmasıdır. Hangisi olduğunu belirlemek için **Yürürlük** ve **Bitiş** tarihi alanlarını işaretleyin, sonra seçin ve **İlke kuralını kullanımdan kaldır**'a tıklayın. **İlke kuralı oluştur** düğmesi kullanılabilir durumdaysa başka bir işlem yapmanız gerekmez.  
+2. **İlke kuralı türü** listesinde, **Kategori erişim ilkesi kuralını** seçin. **İlke kuralı oluştur** düğmesi soluk görünüyorsa bunun nedeni Kategori erişimi için zaten etkin bir ilke kuralının olmasıdır. Hangisi olduğunu belirlemek için **Yürürlük** ve **Bitiş** tarihi alanlarını işaretleyin, sonra seçin ve **İlke kuralını kullanımdan kaldır**'a tıklayın. **İlke kuralı oluştur** düğmesi kullanılabilir durumdaysa başka bir işlem yapmanız gerekmez.  
 3. **İlke kuralı oluştur** öğesine tıklayın.
 4. **Yürürlük tarihi** alanına bir tarih ve saat girin. Süre zaten etkin olan başka bir kuralla çakışmamalıdır.  
 5. Kuralın uygulanacağı bir kategori seçin. Bunun hangi kategori olduğunu not edin, daha sonra ihtiyacınız olacak. Bir kategori seçtiğinizde, üst kategorisi veya kategorileri de Seçili kategoriler listesine eklenecektir. Kuralı seçili kategorinin tüm alt kategorilerine uygulamak istiyorsanız **Alt kategorileri dahil et** onay kutusunu seçin.
@@ -44,7 +44,7 @@ Bir kategorideki ürünleri sipariş etmek amacıyla kuralları ayarlamak için 
 4. **Tamam**'a tıklayın. **Üst kuralı dahil et** seçeneğini Evet olarak ayarlarsanız üst kategori için tanımladığınız ilke kuralı, alt kategoriler için ilke kuralı tanımlanmamışsa alt kategorilerine de atanır.
 
 ## <a name="create-a-category-policy-rule"></a>Kategori ilkesi kuralı oluşturun
-1. **İlke kuralı türü** listesinde, **Kategori ilkesi kuralını**seçin. **İlke kuralı oluştur** düğmesi soluksa etkin ilke kuralını seçin ve **İlke kuralını kullanımdan kaldır**'a tıklayın.  
+1. **İlke kuralı türü** listesinde, **Kategori ilkesi kuralını** seçin. **İlke kuralı oluştur** düğmesi soluksa etkin ilke kuralını seçin ve **İlke kuralını kullanımdan kaldır**'a tıklayın.  
 2. **İlke kuralı oluştur** öğesine tıklayın.
 3. **Yürürlük tarihi** alanına bir tarih ve saat girin.
 4. **Ekle** öğesine tıklayın.

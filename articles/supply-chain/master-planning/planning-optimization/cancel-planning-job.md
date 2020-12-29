@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 4b65d344cd764740cc1485969c2fc4c2052e55e2
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323474"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439270"
 ---
 # <a name="cancel-a-planning-job"></a>Planlama işini iptal etme
 

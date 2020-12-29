@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1091af424f84265ffa7983fca8ddc3f66138a5cd
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889877"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439118"
 ---
 # <a name="maintenance-checklists"></a>Bakım denetim listeleri
 

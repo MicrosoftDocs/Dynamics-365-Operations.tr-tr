@@ -16,11 +16,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
-ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372748"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439199"
 ---
 # <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Maliyet muhasebesi hizmetini (özel önizleme) kullanmaya başlama
 

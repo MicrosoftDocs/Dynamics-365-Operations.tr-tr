@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262685"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439052"
 ---
 # <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisat yöntemi
 

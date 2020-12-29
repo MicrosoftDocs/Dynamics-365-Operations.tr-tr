@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986515"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439313"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>Ürün yapılandırma modeline hesaplama ekleme
 
@@ -34,7 +34,7 @@ Bu yordam, bir ürün yapılandırma modeli için nasıl yeni bir hesaplama ekle
 
 ## <a name="create-calculation-expression"></a>Hesaplama ifadesi oluşturma
 1. İfadeyi düzenle'yi tıklatın.
-2. ConstraintBody alanında, 'If[CabinetFinish=="White", 10, 15]' değerini girin.
+2. ConstraintBody alanına, 'If[CabinetFinish=="White", 10, 15]' değerini girin.
 3. Doğrula'ya tıklayın.
 4. Kapat’a tıklayın.
 5. Tamam'a tıklayın.

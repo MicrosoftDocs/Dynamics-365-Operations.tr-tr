@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 15021281b9ec33cd0552bca16e3054d0d3cdd589
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803077"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439549"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT Zekası'nı izleme ve yönetme
 

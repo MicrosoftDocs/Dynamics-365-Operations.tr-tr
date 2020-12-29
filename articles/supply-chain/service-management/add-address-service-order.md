@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 41497eacae8bcc0e57df8062f7f318a39c2b4909
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978785"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439481"
 ---
 # <a name="add-an-address-to-a-service-order"></a>Servis siparişine adres ekleme    
 
@@ -67,7 +67,7 @@ Servis siparişine alternatif bir adres eklemek için bu adımları izleyin:
 
 4.  **Adres** hızlı sekmesinde **Diğer adresler**'e tıklayın.
 
-5.  **Adres seçimi** formunda**Kayıt türü** alanında **Servis siparişleri**'ni seçin.
+5.  **Adres seçimi** formunda **Kayıt türü** alanında **Servis siparişleri**'ni seçin.
 
 6.  Bir adres seçin ve servis siparişine kopyalamak için **Tamam**'a tıklayın.
 

@@ -16,11 +16,11 @@ ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 9ca63cbc6bc6d6baed9d45bce30d0b32e156301c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988334"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438963"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Sabit tabanlı ürün yapılandırması için öznitelik tabanlı satış fiyatları
 

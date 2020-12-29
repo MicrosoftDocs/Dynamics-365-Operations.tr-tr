@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979840"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439496"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
 
@@ -159,7 +159,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 <td><strong>İşleç:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Zaman</td>
+<td>Zamanlar</td>
 <td>Bu, koşullarının ürününü alır. Koşulların sayısı 0 (sıfır) ise, <strong>1</strong> değeri çıkar.</td>
 <td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
@@ -169,7 +169,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </tr>
 <tr class="even">
 <td>Güç</td>
-<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong>, <strong>Power[, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
+<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong>, <strong>Power[a, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Power[x, 2] == y</li>
@@ -177,13 +177,13 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Maks</td>
+<td>Maks.</td>
 <td>Bu, en büyük koşulu oluşturur. Koşulların sayısı 0 (sıfır) ise, <strong>Sonsuzluk</strong> üretir.</td>
 <td>Max[args]</td>
 <td><strong>İşleç:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Minimum</td>
+<td>Min.</td>
 <td>Bu, en küçük koşulu oluşturur. Koşulların sayısı 0 (sıfır) ise, <strong>Sonsuzluk</strong> üretir.</td>
 <td>Min[args]</td>
 <td><strong>İşleç:</strong> Min[x, y, 2] == z</td>

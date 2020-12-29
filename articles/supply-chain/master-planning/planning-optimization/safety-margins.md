@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
-ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "3814912"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439171"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 

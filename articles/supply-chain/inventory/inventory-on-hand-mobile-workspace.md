@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439055"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
@@ -46,7 +46,7 @@ Mobil çalışma alanı, eldeki durumun tesisler arasında anında görülmesine
     -   Siteye göre eldeki stok
     -   Ambara başına eldeki stok
     -   Konum başına eldeki stok
-    -   Toplu iş başına eldeki stok (toplu iş denetimli ürünler için=
+    -   Toplu iş başına eldeki stok (toplu iş denetimli ürünler için)
     -   Stok durumuna göre eldeki stok
     
 -   Ürün eldeki stok aşağıdaki şekillerde gösterilir:
@@ -123,7 +123,7 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
     -   Siteye göre eldekini görüntüle
     -   Ambara göre eldekini görüntüle
     -   Konuma göre eldekini görüntüle
-    -   Toplu iş başına eldekini görüntüle (toplu iş denetimli ürünler için=
+    -   Toplu iş başına eldekini görüntüle (toplu iş denetimli ürünler için)
     -   Stok durumuna göre eldekini görüntüle
 
     Ürün eldeki stok aşağıdaki şekillerde gösterilir:

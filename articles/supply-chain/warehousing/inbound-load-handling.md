@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017633"
+ms.locfileid: "4439624"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -87,7 +87,7 @@ Mobil cihaz, yük miktarı kaydı için akış aracılığıyla ambar teslim alm
 2. Teslim alınan madde için madde numarasını girin.
 3. Teslim alınan bu madde numarasının miktarını girin.
 4. Sistem bu numarayı otomatik olarak oluşturmak üzere ayarlanmamışsa, maddenin ilk yerleşimi için plaka numarasını girin.
-5. **Tamam** 'a dokunun.
+5. **Tamam**'a dokunun.
 
 Çalışan bu adımları tamamladıktan sonra sistem, satınalma siparişi satır miktarının bir yükte geldiği ve tüm yük miktarlarının kayıtlı olması koşuluyla, uygun varlıklarda aşağıdaki güncelleştirmeleri yapar:
 
@@ -122,8 +122,8 @@ Bir ambar çalışanı fazla teslimat kaydı yapmayı denediğinde ne olacağın
 
 - Yük maddesi teslim alma
 - Yük maddesi teslim alma ve yerine koyma
-- Karışık plaka teslim alma ( **Kaynak belge satırı tanımlama yöntemi** alanı _Yük maddesi teslim alma_ olarak ayarlandığında)
-- Karışık plaka teslim alma ve yerine koyma ( **Kaynak belge satırı tanımlama yöntemi** alanı _Yük maddesi teslim alma_ olarak ayarlandığında)
+- Karışık plaka teslim alma (**Kaynak belge satırı tanımlama yöntemi** alanı _Yük maddesi teslim alma_ olarak ayarlandığında)
+- Karışık plaka teslim alma ve yerine koyma (**Kaynak belge satırı tanımlama yöntemi** alanı _Yük maddesi teslim alma_ olarak ayarlandığında)
 
 Aşağıdaki tablo, **Yük fazla teslim alındı** alanı için kullanabileceğiniz seçenekleri açıklar.
 
@@ -134,7 +134,7 @@ Aşağıdaki tablo, **Yük fazla teslim alındı** alanı için kullanabileceği
 | Yalnızca kapalı yükler için engelle | Çalışanlar açık yükler için fazla yük satırı miktarları alabilir, ancak _Alındı_ durumunda olan yüklemeler için bunu yapamaz. |
 
 > [!NOTE]
-> **Yük fazla teslim alındı** alanının varsayılan değeri _İzin ver_ 'dir. Bu değer kullanıldığında, davranış 10.0.11 sürümünde sunulan _Yük miktarlarının fazladan teslim alınması_ özelliğinden önceki standart davranışla eşleşir.
+> **Yük fazla teslim alındı** alanının varsayılan değeri _İzin ver_'dir. Bu değer kullanıldığında, davranış 10.0.11 sürümünde sunulan _Yük miktarlarının fazladan teslim alınması_ özelliğinden önceki standart davranışla eşleşir.
 
 ### <a name="put-away-the-registered-quantities"></a>Kayıtlı miktarları yerine koyma
 
@@ -155,11 +155,11 @@ Gelen ürün miktarları sistemde kaydedildikten sonra, satışlarla ve diğer g
 Ürün girişini deftere nakledebilecekleri bir sayfa açmak için, operasyon takımının üyeleri aşağıdaki adımlardan herhangi _birini_ izleyebilir:
 
 - İlgili yük kaydını açın ve **Ürün girişi** eylemini seçin.
-- **Ambar yönetimi \> Periyodik görevler \> Ürün girişlerini güncelleştir** 'e gidin ve ardından **Yük kodu** alanında deftere nakledilecek yüklemeyi belirtin.
+- **Ambar yönetimi \> Periyodik görevler \> Ürün girişlerini güncelleştir**'e gidin ve ardından **Yük kodu** alanında deftere nakledilecek yüklemeyi belirtin.
 - İlgili satınalma siparişini açın ve **Ürün girişi** eylemini seçin.
-- **Tedarik ve kaynak atama \> Satınalma siparişleri \> Ürünleri teslim alma \> Ürün girişi işini deftere nakletme** 'ye gidin.
+- **Tedarik ve kaynak atama \> Satınalma siparişleri \> Ürünleri teslim alma \> Ürün girişi işini deftere nakletme**'ye gidin.
 
-**Yük** sayfasında bulunan (ve güncelleştirme işi için eşdeğer sayfa olan **Ürün girişlerini güncelleştir** sayfasında) bulunan **Ürün girişi** eylemi, ürün giriş miktarlarını yalnızca _Kayıtlı_ durumundaki satınalma siparişi miktarlarında güncelleştirebilir. Ancak, **Satınalma siparişi** sayfasında bulunan **ürün girişi** eylemi her iki işleme durumundaki ( _Sipariş edildi_ ve _Kaydedildi_ ) miktarları içerebilir. Ayrıca _Şimdi teslim alma miktarı_ ve _Kayıtlı miktar ve hizmetler_ gibi ek parametreler aracılığıyla ürün girişi deftere nakil kapsamını da denetleyebilir.
+**Yük** sayfasında bulunan (ve güncelleştirme işi için eşdeğer sayfa olan **Ürün girişlerini güncelleştir** sayfasında) bulunan **Ürün girişi** eylemi, ürün giriş miktarlarını yalnızca _Kayıtlı_ durumundaki satınalma siparişi miktarlarında güncelleştirebilir. Ancak,**Satınalma siparişi** sayfasında bulunan **ürün girişi** eylemi her iki işleme durumundaki (_Sipariş edildi_ ve _Kaydedildi_) miktarları içerebilir. Ayrıca _Şimdi teslim alma miktarı_ ve _Kayıtlı miktar ve hizmetler_ gibi ek parametreler aracılığıyla ürün girişi deftere nakil kapsamını da denetleyebilir.
 
 Yalnızca _Onaylandı_ durumda olan siparişler ürün girişiyle deftere nakledilebilir. Onaylanmamış satınalma siparişlerinde, **Ürün girişi** eylemi kullanılamaz olarak görünür.
 
@@ -188,7 +188,7 @@ Seçili bir yük ile ilişkili varış kayıtlarını ürün girişiyle deftere 
 > | 10.0.10 sürümünden önceki sürümler ve  _Yük başına birden fazla ürün girişine izin ver_ seçeneğinin açık olmadığı daha yeni sürümler | Satır miktarı, kaydın birden çok yükleme üzerinden mi, yükten bağımsız olarak mı, bir mobil cihaz veya istemciden mi gerçekleştirildiğinden bağımsız olarak _söz konusu satınalma sipariş satırı için_ kaydedilen tüm miktarların toplamıdır. |
 > | _Yük başına birden fazla ürün girişine izin ver_ seçeneğinin açık olduğu 10.0.10 sürümü ve sonrası | Satır miktarı, **Ürün girişi deftere nakil** eyleminin başlatıldığı _yük kaydı_ için tüm kayıtlı miktarların toplamıdır. |
 
-Kullanıcı, ürün girişini deftere nakil işlemini onaylamak için **Tamam** 'ı seçtiğinde, sistem uygun varlıklarda aşağıdaki anahtar güncelleştirmeleri yapar.
+Kullanıcı, ürün girişini deftere nakil işlemini onaylamak için **Tamam**'ı seçtiğinde, sistem uygun varlıklarda aşağıdaki anahtar güncelleştirmeleri yapar.
 
 | Varlık | Güncelleştirmeler |
 |---|---|
@@ -207,8 +207,8 @@ Aşağıdaki tabloda, **Yük başına birden fazla ürün girişine izin ver** a
 |---|---|---|---|
 | Bu alan kullanılamıyorsa (10.0.10 öncesi sürümler) | <p>Yük miktarı, kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Yük miktarının 0 (sıfır) olarak güncelleştirilmesi, kayıt yapılmadığı anlamına gelir, yük satırı silinir.</p><p>Yükte herhangi bir yük satırı yoksa, yük silinir.</p> | _Alınan_ | Sipariş satırının kayıtlı miktarı için birden çok yük varsa, yalnızca girişin deftere nakledildiği yükün durumu _Teslim alındı_ olarak güncelleştirilir. |
 | No | <p>Yük miktarı, yük koduyla ilişkilendirilmiş kayıtlı miktara eşit olacak şekilde ayarlanır.</p><p>Stok hareketi için bir yük kodu kaydedilmezse, davranış 10.0.10 önceki sürümlerdeki davranışla eşleşir.</p> | _Alınan_ | |
-| Evet | Güncelleştirme yok | _Teslim alındı_ , toplam kayıtlı yük miktarı yük miktarına eşit veya daha fazlaysa | |
-| Evet | Güncelleştirme yok | _Sevk edildi_ veya _İşlemde_ , toplam kayıtlı yük miktarı yük miktarından azsa | |
+| Evet | Güncelleştirme yok | _Teslim alındı_, toplam kayıtlı yük miktarı yük miktarına eşit veya daha fazlaysa | |
+| Evet | Güncelleştirme yok | _Sevk edildi_ veya _İşlemde_, toplam kayıtlı yük miktarı yük miktarından azsa | |
 
 **Yük durumu** alanı _Teslim alındı_ olarak ayarlandıktan sonra, bu yük için daha fazla ürün girişi deftere nakli yapılamaz. Ancak, çalışan kalan sipariş miktarını aşağıdaki koşullarda alınan yüklemeye karşı kaydedebilir. (Daha fazla bilgi için bu konunun önceki bölümündeki [Fazla yük teslim alma](#load-over-receiving) konusuna bakın.)
 
@@ -227,7 +227,7 @@ Kayıtlı miktarları **Satınalma siparişi** sayfasından ürün girişiyle de
 > [!NOTE]
 > Deftere nakil kapsamına eklenecek satır miktarı, kaydın birden çok yükleme üzerinden mi, yükten bağımsız olarak mı, bir mobil cihaz veya istemciden mi gerçekleştirildiğinden bağımsız olarak söz konusu sipariş satırı için kaydedilen tüm miktarların toplamıdır. Aynı kural, **Yük başına birden fazla ürün girişine izin ver** alanı kullanılabilir veya etkin olmadığında gerçekleştirilmiş olması durumunda, ürün girişi deftere nakil işlemi yükten çalıştırıldığında da geçerlidir.
 
-Kullanıcı, ürün girişini deftere nakil işlemini onaylamak için **Tamam** 'ı seçtiğinde, sistem uygun varlıklarda aşağıdaki anahtar güncelleştirmeleri yapar.
+Kullanıcı, ürün girişini deftere nakil işlemini onaylamak için **Tamam**'ı seçtiğinde, sistem uygun varlıklarda aşağıdaki anahtar güncelleştirmeleri yapar.
 
 | Varlık | Güncelleştirmeler |
 |---|---|
@@ -238,7 +238,7 @@ Aşağıdaki tabloda, **Yük başına birden fazla ürün girişine izin ver** a
 
 | Yük başına birden fazla ürün girişine izin ver | Yük miktarı | Yük durumu | Not |
 |---|---|---|---|
-| Bu alan devre dışı bırakıldığında veya kullanılamıyorsa (10.0.10 önceki sürümlerde) | Güncelleştirme yok | Hiçbir güncelleştirme yapılmaz. (Durum _Açık_ , _Sevk edildi_ veya  _İşlemde_ olarak kalır.) | Ürün girişi deftere nakil işlemi bir satınalma siparişinden başlatıldığından, güncelleştirme mantığı, kapsamı içindeki kayıtlı miktarlar ile kaydın kaydedildiği yük arasındaki ilişki hakkında bilgi sahibi değildir. Bu nedenle, durum güncelleştirmesi için yükü seçemez. |
+| Bu alan devre dışı bırakıldığında veya kullanılamıyorsa (10.0.10 önceki sürümlerde) | Güncelleştirme yok | Hiçbir güncelleştirme yapılmaz. (Durum _Açık_, _Sevk edildi_ veya  _İşlemde_ olarak kalır.) | Ürün girişi deftere nakil işlemi bir satınalma siparişinden başlatıldığından, güncelleştirme mantığı, kapsamı içindeki kayıtlı miktarlar ile kaydın kaydedildiği yük arasındaki ilişki hakkında bilgi sahibi değildir. Bu nedenle, durum güncelleştirmesi için yükü seçemez. |
 | Etkinleştirildi | Güncelleştirme yok | <p>Aşağıdaki eylemlerden biri gerçekleşir:</p><ul><li>Satınalma siparişi stok hareketlerinin toplam teslim alınan ve satın alınan miktarları ilişkili oldukları yükün miktarıyla eşit veya bu miktardan fazlaysa durum <i>Teslim alındı</i> olarak değişir.</li><li>Yüklerdeki tüm satırlar için önceki koşul karşılanmazsa durum <i>Açık</i>, <i>Sevk edildi</i> veya <i>İşlemde</i>  olarak kalır.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Lojistik işlemleriniz için uygun ürün girişi deftere nakil seçeneğini seçin
@@ -288,7 +288,7 @@ Ambar teslim alma görevlilerinin bir yük ile bağlantılı gelen stoğu kaydet
 
 Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar uygulaması içindeki menü öğesini seçebilir.
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri** 'ne gidin ve mobil cihaz menünüzde aşağıdaki ayarlara sahip bir menü öğesi bulunduğundan emin olun:
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri**'ne gidin ve mobil cihaz menünüzde aşağıdaki ayarlara sahip bir menü öğesi bulunduğundan emin olun:
 
     - **Mod:**_İş_
     - **İş oluşturma işlemi:**_Yük maddesi teslim alma_
@@ -300,7 +300,7 @@ Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir men
 
     Mobil cihaz menü öğeleri ayarlama hakkında daha fazla bilgi için bkz. [Ambar işi için mobil cihazları ayarlama](configure-mobile-devices-warehouse.md).
 
-2. Menü öğesini ayarlamayı bitirdikten sonra **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri** 'ne gidin ve mobil cihazınızın menü yapısına ekleyin.
+2. Menü öğesini ayarlamayı bitirdikten sonra **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri**'ne gidin ve mobil cihazınızın menü yapısına ekleyin.
 
 ### <a name="example-scenario-1-register-a-load-where-some-items-are-missing"></a>Örnek senaryo 1: Bazı maddelerin eksik olduğu bir yükü kaydedin
 
@@ -310,22 +310,22 @@ Bu senaryo, tüm beklenen miktarların mevcut olmadığı bir giriş yükü içi
 
 Bu yordamda, el ile bir satınalma siparişi ve ilişkili bir yük oluşturacaksınız. Sonra, satıcıdan sevk edildiği (yük durumunu güncelleştirir) benzetimi yapmak için yükü güncelleştireceksiniz. Böylece, ambar planlayıcıları, beklenen gelen yükleri bulmak için yükleri **Yük durumu** ile filtreleyebilir.
 
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
-1. **Yeni** 'yi seçin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. **Yeni**'yi seçin.
 1. **Satınalma siparişi oluştur** iletişim kutusunda, **Satıcı hesabı** alanını  _1001_ olarak ayarlayın.
-1. İletişim kutusunu kapatmak için **Tamam** 'ı seçin ve satınalma siparişini oluşturun.
+1. İletişim kutusunu kapatmak için **Tamam**'ı seçin ve satınalma siparişini oluşturun.
 1. Yeni satınalma siparişi zaten **Satınalma siparişi satırları** altında bir satır içerir. Bu satır için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** _A0001_
     - **Ambar:** _24_
     - **Miktar:** _10_
 
-1. Eylem Bölmesinde, **Satınalma** sekmesinde, **Eylemler \> Onayla** 'yı seçin. Sipariş durumu artık _Onaylandı_ olur.
-1. Eylem Bölmesinde, **Ambar** sekmesinde, **Eylemler \> Yük planlama workbench** 'ini seçin.
-1. **Yük planlama workbench'i** sayfasında, Eylem Bölmesinde **Tedarik ve talep** sekmesinde, **Ekle \> Yeni yüke** 'yi seçin.
+1. Eylem Bölmesinde, **Satınalma** sekmesinde, **Eylemler \> Onayla**'yı seçin. Sipariş durumu artık _Onaylandı_ olur.
+1. Eylem Bölmesinde, **Ambar** sekmesinde, **Eylemler \> Yük planlama workbench**'ini seçin.
+1. **Yük planlama workbench'i** sayfasında, Eylem Bölmesinde **Tedarik ve talep** sekmesinde, **Ekle \> Yeni yüke**'yi seçin.
 1. **Yük şablonu ataması** iletişim kutusunda **Yük şablonu kodunu** _20' Konteyner_ olarak ayarlayın.
-1. İletişim kutusunu kapatıp workbench'e dönmek için **Tamam** 'ı seçin.
-1. **Yükler** bölümünde, yeni oluşturulan yükü açmak için **Yük kodu** 'nu seçin.
+1. İletişim kutusunu kapatıp workbench'e dönmek için **Tamam**'ı seçin.
+1. **Yükler** bölümünde, yeni oluşturulan yükü açmak için **Yük kodu**'nu seçin.
 1. Yük başlığını ve satır ayrıntılarını gözden geçirin ve aşağıdaki noktalara dikkat edin:
 
     - **Yük** hızlı sekmesinde, **Yük durumu** alanı _Açık_ olarak ayarlanır.
@@ -333,14 +333,14 @@ Bu yordamda, el ile bir satınalma siparişi ve ilişkili bir yük oluşturacaks
 
     ![Yük ayrıntıları](media/inbound-load-details.png "Yük ayrıntıları")
 
-1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat** 'ı seçin. **Yük durumunun** _Sevk edildi_ olarak değiştiğini unutmayın.
+1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat**'ı seçin. **Yük durumunun** _Sevk edildi_ olarak değiştiğini unutmayın.
 1. Bir sonraki yordamda kullanabilmeniz için **Yük kodu** değerini not edin.
 
 #### <a name="register-receipt-of-the-quantities-that-arrived-on-the-load"></a>Yük üzerinde gelen miktarların girişini kaydetme
 
 Yük ambar teslim alma limanına ulaştığında, bir teslim alma memuru yük miktarlarını bir mobil cihaza kaydeder.
 
-1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_ 'i kullanarak oturum açın.)
+1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_'i kullanarak oturum açın.)
 1. Bu senaryo için oluşturduğunuz _Yük maddesi teslim alma_ menü öğesini seçin.
 1. Aşağıdaki değerleri girmek için ekrandaki veri girişi yönergelerini izleyin. (Sipariş, kullanmakta olduğunuz mobil cihaza veya emülatöre göre değişebilir.)
 
@@ -352,32 +352,32 @@ Yük ambar teslim alma limanına ulaştığında, bir teslim alma memuru yük mi
 
 Yük teslim alma görevi tamamlanır ve teslim alma görevlisi bir sonraki görevine hareket edebilir. Bununla birlikte, ambar teslim alma personeli sonuç olarak yükleme kaydını gözden geçirecek ve alınan miktarın beklenen miktardan az olduğunu görebilecektir. Daha sonra, web istemcisini kullanarak aşağıdaki yordamı tamamlayacaktır.
 
-1. **Ambar yönetimi \> Yükler \> Tüm yükler** 'e gidin.
+1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
 1. Listede, yeni teslim aldığınız yüklemeyi bulun. ( **Sevk edildi** yük durumuna sahip gelen yükleri dahil etmek için _Kapalı olanı göster_ onay kutusunu seçmeniz gerekebilir.) Sonra yükü açmak için **Yük kodu** sütunundaki bağlantıyı seçin.
 1. Yük kaydında, **Yük durumu** değerinin _Sevk edildi_ olarak kaldığını ancak yük satırındaki **İş oluşturulan miktar** değerinin _9_ olarak değiştiğini dikkate alın.
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
 1. Listede, yeni teslim aldığınız satınalmayı bulun ve siparişi açmak için **Satınalma siparişi** sütunundan bağlantıyı seçin.
 \
-1. **Satınalma siparişi satırları** hızlı sekmesinde, **Stok \> Görünüm \> Hareketler** 'i seçin.
+1. **Satınalma siparişi satırları** hızlı sekmesinde, **Stok \> Görünüm \> Hareketler**'i seçin.
 1. İki satınalma siparişi hareketinin ayrıntılarını gözden geçirin. ( **Yük kodu** alanını kılavuza görebilmek için **Stok hareketleri** sayfasını kişiselleştirmek zorunda kalabilirsiniz.) İki hareket görmelisiniz:
 
-    - _Kayıt edildi_ durumunda girişi olan hareket, mobil cihaz kullanılarak belirli bir yük için çalıştırılan _9_ kayıt miktarını gösterir. **Yük kodu** , söz konusu hareketle ilişkilidir.
-    - _Sipariş edildi_ durumunda girişi olan hareket, kalan kayıtlı olmayan sipariş satırı miktarı olan _1_ 'i gösterir.
+    - _Kayıt edildi_ durumunda girişi olan hareket, mobil cihaz kullanılarak belirli bir yük için çalıştırılan _9_ kayıt miktarını gösterir. **Yük kodu**, söz konusu hareketle ilişkilidir.
+    - _Sipariş edildi_ durumunda girişi olan hareket, kalan kayıtlı olmayan sipariş satırı miktarı olan _1_'i gösterir.
 
 #### <a name="product-receiptpost-the-registered-load-quantities-against-purchase-orders"></a>Kayıtlı ürün miktarlarını satınalma siparişlerine göre ürün girişiyle deftere nakletme
 
 Bu yordamda, bir yük için kaydettiğiniz stoğu ürün girişiyle deftere nakledersiniz. Sonuç olarak, teslim alınan stok ve ilgili maliyetleri şirketin genel muhasebesine eklenecektir.
 
-1. **Ambar yönetimi \> Yükler \> Tüm yükler** 'e gidin.
+1. **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
 1. Listede, teslim aldığınız yüklemeyi bulun. ( **Sevk edildi** yük durumuna sahip gelen yükleri dahil etmek için _Kapalı olanı göster_ onay kutusunu seçmeniz gerekebilir.) Sonra yükü açmak için **Yük kodu** sütunundaki bağlantıyı seçin.
-1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Teslim al\> Ürün girişi** 'ni seçin. Eylemi onaylamanız istendiğinde, **Evet** 'i seçin.
+1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Teslim al\> Ürün girişi**'ni seçin. Eylemi onaylamanız istendiğinde, **Evet**'i seçin.
 1. **Ürün girişinin deftere nakli** iletişim kutusunda, **Satırlar** hızlı sekmesinde, kılavuzu denetleyin. Seçili yüke göre miktarın kaydedildiği satınalma siparişi satırını görmelisiniz.
 
     > [!NOTE]
     > _Yük başına birden fazla ürün girişine izin ver_ özelliğinin kullanılamadığı veya etkinleştirilmediği sürümlerde, **Yük satırları** kılavuzunda gösterilen varsayılan miktar satınalma siparişi satırıyla ilişkili tüm yüklerde kaydedilen toplam miktar olacaktır.
 
 1. **Genel bakış** hızlı sekmesinde kılavuzdaki **Ürün girişi** alanını denetleyin. Seçili yükün kimliğini içeren bir sayıya ayarlandığına dikkat edin.
-1. Ürün girişini deftere nakletmek için **Tamam** 'ı seçin ve **Ürün girişini deftere nakletme** iletişim kutusunu kapatın.
+1. Ürün girişini deftere nakletmek için **Tamam**'ı seçin ve **Ürün girişini deftere nakletme** iletişim kutusunu kapatın.
 1. Yükleme ayrıntılarına geri dönersiniz. Aşağıdaki noktalara dikkat edin:
 
     - **Yük durumu** alanı şimdi  _Teslim alındı_ olarak ayarlandı.
@@ -403,7 +403,7 @@ Bu senaryo aynı yük için birden çok ürün giriş deftere nakil işleminin n
 
 Bu yordamda, aynı yükten birden çok ürün girişi deftere nakil işlemini etkinleştireceksiniz.
 
-1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri** 'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Ambar yönetim parametreleri**'ne gidin.
 1. **Yükler** sekmesinde, **Yük başına birden fazla ürün girişine izin ver** alanını _Evet_ olarak ayarlayın.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Bir satınalma siparişinin girişini planlamak için iki yük oluşturma
@@ -412,9 +412,9 @@ Bu yordamda, bir satınalma siparişi ve iki yük oluşturacaksınız. Sonra, sa
 
 Ayrıca, satır için belirtilen miktardan yüzde 20 oranında fazla bir miktar teslim alabileceğiniz satınalma siparişi satırını nasıl ayarlayacağınızı öğreneceksiniz.
 
-1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri** 'ne gidin.
-1. **Yeni** 'yi seçin.
-1. **Satıcı** hızlı sekmesinde **Satıcı hesabı** alanını _1001_ olarak ayarlayın ve **Tamam** 'ı seçin.
+1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **Satıcı** hızlı sekmesinde **Satıcı hesabı** alanını _1001_ olarak ayarlayın ve **Tamam**'ı seçin.
 1. Yeni satınalma siparişiniz açılır ve **Satınalma siparişi satırları** kılavuzuna boş bir satır dahil edilir. Bu sipariş satırı için aşağıdaki değerleri ayarlayın:
 
     - **Madde numarası:** _A0001_
@@ -422,17 +422,17 @@ Ayrıca, satır için belirtilen miktardan yüzde 20 oranında fazla bir miktar 
     - **Miktar:** _10_
 
 1. **Satır ayrıntıları** hızlı sekmesinde **Teslimat** sekmesinde, **Fazla teslimat** alanını _20_ olarak ayarlayın.
-1. Eylem Bölmesinde, **Satınalma** sekmesinde, **Eylemler \> Onayla** 'yı seçin. Sipariş durumu artık _Onaylandı_ olur.
-1. Eylem Bölmesinde, **Ambar** sekmesinde, **Eylemler \> Yük planlama workbench** 'ini seçin.
-1. **Yük planlama workbench'i** sayfasında, Eylem Bölmesinde **Tedarik ve talep** sekmesinde, **Ekle \> Yeni yüke** 'yi seçin.
+1. Eylem Bölmesinde, **Satınalma** sekmesinde, **Eylemler \> Onayla**'yı seçin. Sipariş durumu artık _Onaylandı_ olur.
+1. Eylem Bölmesinde, **Ambar** sekmesinde, **Eylemler \> Yük planlama workbench**'ini seçin.
+1. **Yük planlama workbench'i** sayfasında, Eylem Bölmesinde **Tedarik ve talep** sekmesinde, **Ekle \> Yeni yüke**'yi seçin.
 1. **Yük şablonu ataması** iletişim kutusunda **Yük şablonu kodunu** _20' Konteyner_ olarak ayarlayın. **Ayrıntılar** sekmesinde, satınalma siparişi satırı miktarını kısmi olarak eklemek için **Miktar** değerini _10_ yerine _5_ olarak ayarlayın.
-1. Ayarlarınızı uygulayıp iletişi kutusunu kapatmak için **Tamam** 'ı seçin.
+1. Ayarlarınızı uygulayıp iletişi kutusunu kapatmak için **Tamam**'ı seçin.
 1. İkinci bir yük oluşturmak için 8 ile 10 arasındaki adımları yineleyin. Bu kez, **Miktar** alanı zaten _5_ ayarlanmış olmalıdır.
 1. **Yükleme planlama workbenchi** sayfasında, **Yükler** kılavuzunda, oluşturduğunuz ilk yükün **Yük kodu** değerini seçin. **Yük ayrıntıları** sayfası görüntülenir ve seçili yükü gösterir. Aşağıdaki adımları izleyin:
 
-    1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat** 'ı seçin.
+    1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Onayla\> Gelen sevkiyat**'ı seçin.
     1. **Yük durumu** değerinin _Sevk edildi_ olarak değiştiğini unutmayın.
-    1. **Yük planlama workbenchi** 'ne dönmek için Kapat düğmesini seçin.
+    1. **Yük planlama workbenchi**'ne dönmek için Kapat düğmesini seçin.
 
 1. Oluşturduğunuz ikinci yük için önceki adımı yineleyin.
 1. **Yük** kılavuzunda görünen iki **Yük kodu** değerini not edin.
@@ -443,7 +443,7 @@ Yükler ambar teslim alma limanına ulaştığında, bir teslim alma memuru yük
 
 Bu yordamda, bir teslim alma memurunun bir mobil cihaza yük miktarlarını nasıl kaydedeceği gösterilir.
 
-1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_ 'i kullanarak oturum açın.)
+1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_'i kullanarak oturum açın.)
 1. Bu senaryo için oluşturduğunuz _Yük maddesi teslim alma_ menü öğesini seçin.
 1. Aşağıdaki değerleri girmek için ekrandaki veri girişi yönergelerini izleyin. (Sipariş, kullanmakta olduğunuz mobil cihaza veya emülatöre göre değişebilir.)
 
@@ -452,10 +452,10 @@ Bu yordamda, bir teslim alma memurunun bir mobil cihaza yük miktarlarını nas�
     - **Miktar** – _3_ girin. Bu miktarın beklenen miktardan az olduğunu unutmayın. Bu senaryoda, alıcı memuru olarak, bu yükle ilgili tüm miktarları kaydetmek için zamanınız olmadığını düşünün. Bu yordamın ilerleyen kısımlarında, bu adımı tekrarlayarak ve **Miktar** alanını _2_ olarak ayarlayarak kalan parçaları kaydedeceksiniz.
 
 1. Cihazınız işin tamamlandığını bildirene kadar, diğer tüm alanları boş bırakarak veya varsayılan değerlerine ayarlayarak iş akışı üzerinden gitmeye devam edin.
-1. Web istemcisinde **Ambar yönetimi \> Yükler \> Tüm yükler** 'e gidin.
+1. Web istemcisinde **Ambar yönetimi \> Yükler \> Tüm yükler**'e gidin.
 1. Listede, yeni teslim aldığınız yükü bulun ve yükü açmak için **Yük kodu** değerini seçin. **Yük durumu** değerinin _Sevk edildi_ olarak kaldığını ancak yük satırındaki **İş oluşturulan miktar** değerinin _3_ olarak değiştiğini dikkate alın.
-1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Teslim al\> Ürün girişi** 'ni seçin. Eylemi onaylamanız istendiğinde, **Evet** 'i seçin.
-1. **Ürün girişini deftere nakletme** iletişim kutusunda gösterilen değerleri gözden geçirin ancak değiştirmeyin ve **Tamam** 'ı seçin.
+1. Eylem Bölmesinde **Sevk ve teslim alma** sekmesinde **Teslim al\> Ürün girişi**'ni seçin. Eylemi onaylamanız istendiğinde, **Evet**'i seçin.
+1. **Ürün girişini deftere nakletme** iletişim kutusunda gösterilen değerleri gözden geçirin ancak değiştirmeyin ve **Tamam**'ı seçin.
 1. Seçili yükünüz için **Yük ayrıntıları** sayfasına geri dönersiniz. Aşağıdaki noktalara dikkat edin:
 
     - **Yük durumu** alanı  _Teslim alındı_ değerine ayarlanmış olarak kalır.
@@ -469,7 +469,7 @@ Bu yordamda, bir teslim alma memurunun bir mobil cihaza yük miktarlarını nas�
 
 Bu senaryoda, teslim alma memuru, yükte var olan miktarı aşan miktarı gelen olarak kaydedecektir. Sistem fazla teslimata izin verecek şekilde ayarlandığından, fazla teslim almaya izin verilir.
 
-1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_ 'i kullanarak oturum açın.)
+1. Ambar 24'te oturum açmak için mobil cihazınızı kullanın. (Standart demo verilerinde, kullanıcı kimliği _24_ ve parola olarak _1_'i kullanarak oturum açın.)
 1. Bu senaryo için oluşturduğunuz _Yük maddesi teslim alma_ menü öğesini seçin.
 1. Aşağıdaki değerleri girmek için ekrandaki veri girişi yönergelerini izleyin. (Sipariş, kullanmakta olduğunuz mobil cihaza veya emülatöre göre değişebilir.)
 

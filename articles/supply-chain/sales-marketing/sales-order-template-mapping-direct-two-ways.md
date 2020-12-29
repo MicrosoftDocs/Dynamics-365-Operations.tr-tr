@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212975"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439492"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 
@@ -159,7 +159,7 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Satış Siparişlerinde Ayarlama (Sales'den Supply Chain Management'a) - Doğrudan Veri tümleştirme projesi
 
-- **Shipto\_country** ile **DeliveryAddressCountryRegionISOCode** arasında gerekli eşleştirmenin mevcut olduğundan emin olun. Ulusal siparişler için ülke girmemek için değer eşlemesinde varsayılan değeri boş olarak ayarlayabilirsiniz. Sol tarafı 'Boş' bırakın ve sağ tarafı istenen ülkeye veya bölgeye ayarlayın.
+- **Shipto\_country** ile **DeliveryAddressCountryRegionISOCode** arasında gerekli eşleştirmenin mevcut olduğundan emin olun. Ulusal siparişler için ülke/bölge girmemek için değer eşlemesinde varsayılan değeri boş olarak ayarlayabilirsiniz. Sol tarafı 'Boş' bırakın ve sağ tarafı istenen ülkeye veya bölgeye ayarlayın.
 
     Şablon değeri, birçok ülkenin veya bölgenin eşleştirildiği bir değer eşlemesidir; burada 'Boş' = ABD.
 

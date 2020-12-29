@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5849e3a8c3c619916c718032579d4fe6444fa49b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889133"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439594"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumları
 
@@ -32,7 +32,7 @@ ms.locfileid: "3889133"
  
 
 
-Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamaları tanımlar. Örneğin, **Oluşturulan**, **Etkin**ve **Sona ermiş** örnekler de içerir. Bir bakım isteği iş emrine dönüştürüldüğünde, bakım talebinin artık etkin olmadığını göstermek üzere sürdürme isteği yaşam döngüsü durumu **sonlandırıldı** veya **Kapalı** olarak güncelleştirilmelidir. **Tüm bakım talepleri** listesi sayfasında, yaşam döngüsü durumlarından bağımsız olarak tüm bakım taleplerini görebilirsiniz.
+Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamaları tanımlar. Örneğin, **Oluşturulan**, **Etkin** ve **Sona ermiş** örnekler de içerir. Bir bakım isteği iş emrine dönüştürüldüğünde, bakım talebinin artık etkin olmadığını göstermek üzere sürdürme isteği yaşam döngüsü durumu **sonlandırıldı** veya **Kapalı** olarak güncelleştirilmelidir. **Tüm bakım talepleri** listesi sayfasında, yaşam döngüsü durumlarından bağımsız olarak tüm bakım taleplerini görebilirsiniz.
 
 ## <a name="set-up-maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumlarını ayarla
 

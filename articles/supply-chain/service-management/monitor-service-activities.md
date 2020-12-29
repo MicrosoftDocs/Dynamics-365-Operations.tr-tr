@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b364c1f19888b711626312b77335b06ef3959886
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980628"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439212"
 ---
 # <a name="monitor-service-activities"></a>Servis faaliyetlerini izleme 
 

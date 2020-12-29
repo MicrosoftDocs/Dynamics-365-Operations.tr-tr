@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215712"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439182"
 ---
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretleri
 
@@ -51,7 +51,7 @@ Ambalaj malzemesi ağırlıklarını, ambalaj malzemesi masraflarını veya her 
     > Ambalaj gruplarınızı oluşturduktan sonra, her ürüne gereksinim duyduğunuz gibi bir grup atayabilirsiniz. **Ürün bilgileri yönetimi \> ürünler \> Yayınlanan Ürünler**'e gidin, bir ürün seçin ve sonra **stok yönet** hızlı sekmesinde, **Ambalaj grubu** alanında uygun ambalaj grubunu seçin.
 
 1. **Stok Yönetimi \> kurulum \>ambalaj malzemesi \> ambalaj malzemesi kodları** kullandığınız her ambalaj malzemesi tipini tanımlayın ve sevkiyatları hazırlarken ambalaj malzemesinin tüketilen birimi belirtin.
-1. **Stok Yönetimi \> kurulum \>ambalaj malzemesi \> ambalaj malzemesi ücretlerine**gidin ve yeni tanımladığınız her ambalaj malzemesi türü için ücret ayarlayın. Ücretler, tüketilen birim başına düşen fiyata göre hesaplanır.
+1. **Stok Yönetimi \> kurulum \>ambalaj malzemesi \> ambalaj malzemesi ücretlerine** gidin ve yeni tanımladığınız her ambalaj malzemesi türü için ücret ayarlayın. Ücretler, tüketilen birim başına düşen fiyata göre hesaplanır.
 1. Maddelere ambalaj malzemesi tahsis etmek için **Stok yönetimi \> kurulum \> ambalaj malzemesi \> ambalaj malzemesi tahsisatı**'na gidin ve Tahsisatlar oluşturun. İhtiyaç duyduğunuz sayıda tahsisat oluşturabilirsiniz. Tahsisatlarınızın ne kadar ayrıntılı olmasını istediğinize bağlı olarak, belirli maddeler, madde grupları (Ambalaj grupları) veya tüm maddeler için ambalaj malzemeleri tahsis edebilirsiniz.
 
     Oluşturduğunuz her tahsisat için aşağıdaki adımları izleyin.
@@ -68,7 +68,7 @@ Ambalaj malzemesi ağırlıklarını, ambalaj malzemesi masraflarını veya her 
             > Genellikle tüm ayırmaların aynıdüzeyde (**tablo**, **grup** veya **tümü**) olması gerekir. Birden fazla düzey kullanırsanız her madde için en belirgin eşleşen tahsisat kullanılır. (**Tablo** düzeyi **grup** düzeyinden önceliklidir ve bu düzeylerin her ikisi de **tüm** düzeyden önceliklidir.)
 
         - **Madde ilişkisi** – Tek bir madde için tahsisat yapıyorsanız, maddeyi seçin. Bir madde grubu için tahsisat yapıyorsanız, ambalaj grubunu seçin. Tüm maddeler için tahsisat yapıyorsanız bu alanı boş bırakın.
-        - **Konfigürasyon**, **Boyut**, **Renk**ve **Stil** – Tahsis ettiğiniz maddeyi daha ayrıntılı bir şekilde tanımlamak için bu boyutların gereksinim duyduğunuz değerleri girin.
+        - **Konfigürasyon**, **Boyut**, **Renk** ve **Stil** – Tahsis ettiğiniz maddeyi daha ayrıntılı bir şekilde tanımlamak için bu boyutların gereksinim duyduğunuz değerleri girin.
         - **Ambalaj birimi** - Ambalaj malzemesi kullanıldığında maddenin paketlendiği birimi seçin. Bu birim, maddenin satın alındığı ve depolandığı birime göre farklılık gösterebilir.
         - **Ambalaj birimi faktörü** – Stok biriminden ambalaj birimine dönüştürmek için kullanılan dönüştürme faktörünü girin. (Dönüştürme *ambalaj birimleri* = *madde birimleri* × *ambalaj birimi faktörü* formülünü kullanır.)
 
@@ -104,7 +104,7 @@ Belirli bir müşterinin satış siparişleri her sipariş için kullanılan amb
 
 Ambalaj malzemesi masraflarını ödemeyecek müşteriler için aynı adımları uygulayın, ancak **Ambalaj harcı lisans numarası** ve **lisans numarası** alanlarındaki Lisans numaralarını silin. Ambalaj malzemesi ücretlerini ödemeyecek müşterilerin faturaları ambalaj malzemelerinin ağırlıklarını gösterir, ancak bunlar ücretleri göstermez.
 
-Şirketinizin belirli bir dönem için borçlu olduğu tüm ambalaj malzemesi masraflarını gösteren bir rapor oluşturmak için **stok yönetimi \> sorguları ve raporlar \> ambalaj malzemesi raporları \> ambalaj malzemesi ücreti hesaplamasına**gidin, bir tarih aralığı belirtin ve **Tamam**'ı seçin.
+Şirketinizin belirli bir dönem için borçlu olduğu tüm ambalaj malzemesi masraflarını gösteren bir rapor oluşturmak için **stok yönetimi \> sorguları ve raporlar \> ambalaj malzemesi raporları \> ambalaj malzemesi ücreti hesaplamasına** gidin, bir tarih aralığı belirtin ve **Tamam**'ı seçin.
 
 ## <a name="print-packing-material-weights-on-invoices"></a>Ambalaj malzemesi ağırlıklarını faturalarda yazdırma
 

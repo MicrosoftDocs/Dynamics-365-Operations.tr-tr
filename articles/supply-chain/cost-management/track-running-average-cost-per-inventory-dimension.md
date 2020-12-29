@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6c380b7749a55cd151655def372cf91585c263b2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214160"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439373"
 ---
 # <a name="track-running-average-cost-per-inventory-dimension"></a>Stok boyutu başına cari ortalama maliyeti izleme
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889326"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439123"
 ---
 # <a name="work-order-project-setup"></a>İş emri proje kurulumu
 
@@ -63,7 +63,7 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 
 1. **Kıymet yönetimi** \> **Kurulum** \> **İş emirleri** \> **Proje kurulumu**'nu seçin.
 2. **Ana Proje** sekmesinde **Ekle**'yi seçin.
-3. **Çalışma emri türü**, **İşlem yapılacak yerleşim**, **Kıymet türü**ve **Kıymet** alanlarında, gereksinim duyduğunuz şekilde değerleri seçin. Eklediğiniz her satır için yalnızca bir veya birden çok alan ayarlayabilirsiniz. Ayarladığınız alan sayısı, kıymet yönetiminde bir proje kodu seçildiğinde kullanılacak birleşimi belirler. 
+3. **Çalışma emri türü**, **İşlem yapılacak yerleşim**, **Kıymet türü** ve **Kıymet** alanlarında, gereksinim duyduğunuz şekilde değerleri seçin. Eklediğiniz her satır için yalnızca bir veya birden çok alan ayarlayabilirsiniz. Ayarladığınız alan sayısı, kıymet yönetiminde bir proje kodu seçildiğinde kullanılacak birleşimi belirler. 
 
     İşlem yapılacak yerleşim seçerseniz, ilgili alt yerleşimler otomatik olarak eklenir. Bir kıymet seçerseniz, aynı kıymet için daha fazla iş siparişi proje kurulum satırı oluşturabilirsiniz, ancak bu kıymet için farklı projeler seçebilirsiniz.
 

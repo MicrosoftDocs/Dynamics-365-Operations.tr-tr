@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6e4f53401d604ce3c8308ed475a0b6147805cb78
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983585"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439504"
 ---
 # <a name="bom-calculations-groups"></a>Ürün reçetesi hesaplamaları grupları
 

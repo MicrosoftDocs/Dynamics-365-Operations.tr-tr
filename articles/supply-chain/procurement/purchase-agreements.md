@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018848"
+ms.locfileid: "4439616"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
@@ -35,7 +35,7 @@ Satınalma sözleşmesi bir belirli bir miktardaki ürüne, belirli bir para bir
 
 **Satınalma sözleşmeleri** sayfası üzerinde kuruluşunuz ve satıcılarınız arasında satınalma sözleşmeleri oluşturabilir, uygulayabilir veya takibini yapabilirsiniz. Örneğin, bir satınalma sözleşmesi oluşturduktan sonra doğrudan bunu kullanarak sipariş verebilirsiniz. Her satınalma sözleşmesinin, bu satınalma sözleşmesini oluşturan kişi tarafından belirlenen bir geçerlilik süresi vardır. Satınalma sözleşmesinin teslimat tarihi, geçerlilik dönemine dahil etkili tarihlerde olmalıdır.  
 
-Bir satın alma sözleşmesi oluşturduktan sonra etkili hale gelmeden önce etkinleştirmeniz gerekir. Bir satın alma sözleşmesini etkinleştirmek için set **Sözleşmeyi etkin olarak işaretle** seçeneğinde **Evet** 'i seçin. 
+Bir satın alma sözleşmesi oluşturduktan sonra etkili hale gelmeden önce etkinleştirmeniz gerekir. Bir satın alma sözleşmesini etkinleştirmek için set **Sözleşmeyi etkin olarak işaretle** seçeneğinde **Evet**'i seçin. 
 
 Satın alma sözleşmenizin kullanılmasını ve onaylanmasını önlemek için, anlaşma durumunu **kapalı** olarak işaretleyin. Bu değişikliği yaptıktan sonra, durumu istediğiniz zaman **geçerli** olacak şekilde güncelleştirebilirsiniz.
 
@@ -93,7 +93,7 @@ Bir satınalma sözleşmesini sadece bir satınalma siparişi oluştururken seç
 Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Supply Chain Management'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Satınalma sözleşmeleriyle ilgili eşleştirme ilkesi
-Satınalma sözleşmesinin başlığında bir satır eşleştirme ilkesi tanımlayabilirsiniz. Bu satır eşleştirme ilkesi, **Borç hesapları parametreleri** sayfasında ( **Fiyat ve miktar eşleştirme** hızlı sekmesindeki) **Eşleştirme ilkesini geçersiz kılmaya izin ver** alanı **Şirket ilkesinden daha fazla** olarak ayarlandığında borç hesapları parametrelerini satır eşleştirme ilkesiyle ilişkilendirir. Satınalma sözleşmesine başvuran belgeler; ilgili madde, madde ve satıcı veya kategori satınalma ilkesinde farklı şekilde tanımlanmadıkça satınalma sözleşmesi başlığında tanımlanan satır eşleştirme ilkesini kullanır.
+Satınalma sözleşmesinin başlığında bir satır eşleştirme ilkesi tanımlayabilirsiniz. Bu satır eşleştirme ilkesi, **Borç hesapları parametreleri** sayfasında (**Fiyat ve miktar eşleştirme** hızlı sekmesindeki) **Eşleştirme ilkesini geçersiz kılmaya izin ver** alanı **Şirket ilkesinden daha fazla** olarak ayarlandığında borç hesapları parametrelerini satır eşleştirme ilkesiyle ilişkilendirir. Satınalma sözleşmesine başvuran belgeler; ilgili madde, madde ve satıcı veya kategori satınalma ilkesinde farklı şekilde tanımlanmadıkça satınalma sözleşmesi başlığında tanımlanan satır eşleştirme ilkesini kullanır.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Satınalma sözleşmeleri ve şirketlererası ticaret
 Şirketlerarası ticaret ilişkileri, farklı tüzel kişilikler arasında olan satıcı hesapları ve müşteri hesapları arasında oluşturulabilir. Taraflardan biri için bir satış siparişi ya da satınalma siparişi oluşturulduğunda, bir şirketlerarası sipariş zinciri oluşturulur. Sipariş zinciri içinde satış siparişi ve satınalma siparişleri uygun tüzel kişilikler içinde oluşturulur.  

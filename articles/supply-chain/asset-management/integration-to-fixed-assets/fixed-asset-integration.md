@@ -16,11 +16,11 @@ ms.author: dabourq
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: cdda44d361011706fe0ba170309908533aa0c2f7
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276973"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439189"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Varlık yönetimini sabit kıymetlerle tümleştirme
 

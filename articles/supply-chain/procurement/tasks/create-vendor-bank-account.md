@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383148"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439164"
 ---
 # <a name="create-a-vendor-bank-account"></a>Satıcı banka hesabı oluşturma
 

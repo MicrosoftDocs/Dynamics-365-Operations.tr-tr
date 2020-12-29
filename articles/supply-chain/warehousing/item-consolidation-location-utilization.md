@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017196"
+ms.locfileid: "4439623"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
@@ -58,27 +58,27 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
 
 ### <a name="released-product"></a>Serbest bırakılan ürün
 
-1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler** 'e gidin.
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
 1. **Madde numarası** alanında, *M9201* seçeneğini belirleyin ve ayrıntılar sayfasını açın.
-1. Eylem Bölmesinde, **Stoğu yönet** sekmesindeki **Ambar** grubunda, **Fiziksel boyutlar** 'ı seçin.
-1. **Fiziksel boyut** sayfasında, eylem bölmesinde, **Yeni** 'yi seçin.
+1. Eylem Bölmesinde, **Stoğu yönet** sekmesindeki **Ambar** grubunda, **Fiziksel boyutlar**'ı seçin.
+1. **Fiziksel boyut** sayfasında, eylem bölmesinde, **Yeni**'yi seçin.
 
     Kılavuza yeni bir satır eklenir. **Madde numarası** alanı önceden ayarlanmıştır.
 
-1. **Birim** alanında *ea* 'yı seçin. Satırdaki kalan alanlar otomatik olarak ayarlanır.
-1. **Kaydet** 'i seçip sayfayı kapatın.
+1. **Birim** alanında *ea*'yı seçin. Satırdaki kalan alanlar otomatik olarak ayarlanır.
+1. **Kaydet**'i seçip sayfayı kapatın.
 
 ### <a name="location-profile"></a>Yerleşim profili
 
-1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri** 'ne gidin.
-1. Yerleşim profilleri listesinde **FLOOR-05** 'i seçin.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Ambar \> Konum profilleri**'ne gidin.
+1. Yerleşim profilleri listesinde **FLOOR-05**'i seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Genel** hızlı sekmesinde, aşağıdaki seçeneklerin her ikisinin de *Evet* olarak ayarlandığından emin olun:
 
     - Maddeyi yerleşimde etkinleştir
     - Yerleşim durumunu etkinleştir
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
     > [!IMPORTANT]
     > **Yerleşimde madde etkinleştir** ve **Yerleşim durumunu etkinleştir** seçenekleri zaten *Evet* olarak ayarlandıysa , 10. adımda **Boyutlar** hızlı sekmesini ayarlama yönergelerine atlayın. Seçenekler önceden *Evet* olarak ayarlanmamışsa , bunları el ile ayarladıktan sonra **Ambar yönetimi** modülü için bir tutarlılık denetimi çalıştırmanız gerekir. Bu durumda, sonraki adımla devam edin.
@@ -91,14 +91,14 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
     - **Başlangıç tarihi:** Bu alanı boş bırakın.
     - **Ambar yerleşim durumu tutarlılık denetimi:** Bu onay kutusunu seçin.
 
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 
     > [!TIP]
-    > Tutarlılık denetimi tamamlandığında bir bildirim alırsınız. İletiyi görüntülemek için [İşlem Merkezi](../../fin-ops-core/fin-ops/get-started/user-interface-elements.md#notifications)'ni açın. Ayrıntıları görüntülemek için **İleti ayrıntıları** 'nı seçin.
+    > Tutarlılık denetimi tamamlandığında bir bildirim alırsınız. İletiyi görüntülemek için [İşlem Merkezi](../../fin-ops-core/fin-ops/get-started/user-interface-elements.md#notifications)'ni açın. Ayrıntıları görüntülemek için **İleti ayrıntıları**'nı seçin.
     >
     > Tutarlılık denetimi iletisinde "Ambar XX'deki XXXX yerleşimi için yanlış yerleşim durumu bilgileri bulundu" ifadesi varsa tutarlılık denetimini tekrar çalıştırmalısınız. Bu kez, **Denetle/Onar** alanını *Hatayı düzelt* olarak ayarlayın. Herhangi bir hata bulunmadığından emin olmak için iletileri görüntüleyin.
 
-1. Şimdi yerleşim profili kurulumunu tamamlamanız gerekir. **Ambar Yönetimi \> Kurulum \> Ambar \> Yerleşim profilleri** 'ne dönün, yerleşim profili **FLOOR-05** 'i seçin ve eylem bölmesinde **Düzenle** 'yi seçin.
+1. Şimdi yerleşim profili kurulumunu tamamlamanız gerekir. **Ambar Yönetimi \> Kurulum \> Ambar \> Yerleşim profilleri**'ne dönün, yerleşim profili **FLOOR-05**'i seçin ve eylem bölmesinde **Düzenle**'yi seçin.
 1. **Boyutlar** hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
 
     - **Hacim kullanım yüzdesi:** *100*
@@ -108,12 +108,12 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
     - **Gerçek yerleşim derinliği:** *10*
     - **Maksimum ağırlık:** *100*
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
 ### <a name="mobile-device-menu-items"></a>Mobil cihaz menü öğeleri
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri** 'ne gidin.
-1. Eylem bölmesinde, sıralama amacıyla kullanılacak menü öğesini oluşturmak için **Yeni** 'yi seçin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü öğeleri**'ne gidin.
+1. Eylem bölmesinde, sıralama amacıyla kullanılacak menü öğesini oluşturmak için **Yeni**'yi seçin.
 1. Üst bilgide aşağıdaki değerleri ayarlayın:
 
     - **Menü öğesi adı:** *Ayarla*
@@ -126,27 +126,27 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
     - **İş oluşturma işlemi:** *Ayarlama*
     - **Stok ayarlama türleri:** *Ayarlama*
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
 ### <a name="mobile-device-menu"></a>Mobil cihaz menüsü
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü** 'ne gidin.
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü**'ne gidin.
 1. Menüler listesinde **Stok** öğesini seçin.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Mevcut menüler ve menü öğeleri** listesinde, **Ayarla** menüsü öğesini bulun ve seçin.
-1. **Ayarla** 'yı **Menü Yapısı** listesine taşımak için sağ ok düğmesini seçin. Böylece, yeni menü öğesini seçili menüye eklersiniz.
-1. **Kaydet** 'i seçin.
+1. **Ayarla**'yı **Menü Yapısı** listesine taşımak için sağ ok düğmesini seçin. Böylece, yeni menü öğesini seçili menüye eklersiniz.
+1. **Kaydet**'i seçin.
 
 ### <a name="movement-types"></a>Hareket türleri
 
 1. **Ambar yönetimi \> Kurulum \> Stok \> Hareket türleri** öğesine gidin.
-1. Eylem bölmesinde **Yeni** 'yi seçin ve ardından aşağıdaki değerleri ayarlayın:
+1. Eylem bölmesinde **Yeni**'yi seçin ve ardından aşağıdaki değerleri ayarlayın:
 
     - **Hareket türü kodu:** *KONSOLİDE ETME*
     - **Açıklama:** *Yerleşimleri konsolide et*
     - **İş sınıfı kodu:** *InvMov*
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -155,11 +155,11 @@ Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mo
 ### <a name="add-inventory-to-locations"></a>Yerleşimlere stok ekleme
 
 1. Ambar *51* için ayarlanmış olan bir kullanıcı olarak mobil cihazda oturum açın.
-1. **Stok \> Ayarla** 'ya gidin.
+1. **Stok \> Ayarla**'ya gidin.
 
     Şimdi ilk yerleşim ayarlamasını gireceksiniz.
 
-1. **Ayarlama** görevinde stok ayarlamasının yapılacağı yerleşimi seçin. **YERLEŞİM** alanında, *Lp-001* 'i seçin.
+1. **Ayarlama** görevinde stok ayarlamasının yapılacağı yerleşimi seçin. **YERLEŞİM** alanında, *Lp-001*'i seçin.
 1. Yerleşimi onaylayın.
 1. Yerleşime eklenecek madde için bir plaka kodu oluşturun. **LP** alanına *LP00101* girin.
 1. Plakayı onaylayın.
@@ -170,7 +170,7 @@ Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mo
 
     Bir "İş Tamamlandı" iletisi alırsınız. Şimdi ikinci yerleşim ayarlamasını gireceksiniz.
 
-1. **Ayarlama** görevinde stok ayarlamasının yapılacağı yerleşimi seçin. **YERLEŞİM** alanında, *Lp-002* 'yi seçin.
+1. **Ayarlama** görevinde stok ayarlamasının yapılacağı yerleşimi seçin. **YERLEŞİM** alanında, *Lp-002*'yi seçin.
 1. Yerleşimi onaylayın.
 1. Yerleşime eklenecek madde için bir plaka kodu oluşturun. **LP** alanına *LP00201* girin.
 1. Plakayı onaylayın.
@@ -181,27 +181,27 @@ Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mo
 
     Bir "İş Tamamlandı" iletisi alırsınız.
 
-1. Menü düğmesini seçin (bazen hamburger veya hamburger düğmesi olarak da adlandırılır) ve **Ayarlama** görevinden çıkmak için **İptal** 'i seçin.
+1. Menü düğmesini seçin (bazen hamburger veya hamburger düğmesi olarak da adlandırılır) ve **Ayarlama** görevinden çıkmak için **İptal**'i seçin.
 
 ### <a name="consolidate-locations"></a>Yerleşimleri konsolide etme
 
-1. **Ambar Yönetimi \> Periyodik görevler \> Madde konsolidasyonu** 'na gidin.
+1. **Ambar Yönetimi \> Periyodik görevler \> Madde konsolidasyonu**'na gidin.
 1. Başlıkta, konsolidasyon yapılacak bir ambar seçin. **Ambar** alanına *51* girin.
 
-    Madde *M9201* 'in ayarlandığı her yerleşim için bir kayıt gösterilir. **Kullanım yüzdesi** sütunu her yerleşimin hacimsel kullanımını gösterir.
+    Madde *M9201*'in ayarlandığı her yerleşim için bir kayıt gösterilir. **Kullanım yüzdesi** sütunu her yerleşimin hacimsel kullanımını gösterir.
 
-1. Stok konsolide etmek için, konsolide edilmesi gereken tüm yerleşimleri seçin ve sonra Eylem Bölmesinde **Stoğu konsolide et** 'i seçin.
+1. Stok konsolide etmek için, konsolide edilmesi gereken tüm yerleşimleri seçin ve sonra Eylem Bölmesinde **Stoğu konsolide et**'i seçin.
 1. **Stoğu konsolide et** iletişim kutusunda, stok hareketi için iş oluşturmak üzere kullanılması gereken konumu ve hareket türünü belirtin. Aşağıdaki değerleri ayarlayın:
 
     - **Yerleşim:** *LP-001*
     - **Hareket türü kodu:** *KONSOLİDE ETME*
 
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. Ouşturulan hareket işini gösteren bir bilgi iletisi alırsınız. Hareket işi kodunu not edin.
 
 ### <a name="view-movement-work"></a>Hareket işini görüntüleme
 
-1. **Ambar yönetimi \> İş \> İş ayrıntıları** 'na gidin.
+1. **Ambar yönetimi \> İş \> İş ayrıntıları**'na gidin.
 1. Oluşturulan işi görüntüleyin. İş kılavuzuna filtre uygulamak veya arama yapmak için stok konsolidasyonundan hareket işi kodunu kullanın.
 
     Bu senaryoda, stok konsolidasyon yerleşimi olarak stok içeren mevcut bir yerleşim kullanılmıştır. Bu nedenle, yalnızca bir iş kodu oluşturuldu.

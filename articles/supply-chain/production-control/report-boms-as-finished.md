@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c68ff6fdb77cb8de23b6b803b0300c6daa0fd106
-ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677817"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439590"
 ---
 # <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak raporlama
 

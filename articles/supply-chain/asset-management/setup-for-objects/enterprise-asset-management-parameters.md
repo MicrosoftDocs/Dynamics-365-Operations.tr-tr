@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889853"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439405"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -74,7 +74,7 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 - **Master plan** **Kuruluş yönetimi** modülündeki kaynaklarla ilgilidir. Bu alanda bir master plan seçerseniz iş emirleriyle ilgili kapasite rezervasyonlarını **Kapasite rezervasyonları** içinde görebilirsiniz (**Kuruluş yönetimi** > **Kaynaklar** > **Kaynaklar** > kaynak seç > **Kaynak** sekmesi > **Kapasite rezervasyonları** düğmesi). Bu alanı boş bırakırsanız iş emirleriyle ilgili kapasite yükünü **Kapasite yükü** içinde görebilirsiniz (**Kuruluş yönetimi** \> **Kaynaklar** \> **Kaynaklar** \> kaynak seç \> **Kaynak** sekmesi \> **Kapasite yükü** düğmesi).  
 
 >[!NOTE]
->**Varlık yönetimi** modülünde bir master plan kullanılıp kullanılmayacağına ilişkin seçim ve kapasite rezervasyonlarına veya kapasite yüküne genel bakış almak için kullanılan ilgili form standart  ayardır. **Master plan** alanındaki ayarınıza bağlı olarak kapasite bilgilerine **Kuruluş yönetimi** modülündeki **Kapasite rezervasyonları** veya **Kapasite yükü** öğesinden ulaşabilirsiniz. Kapasite rezervasyonlarının iki görünümde de gösterildiği bir ayar oluşturmak mümkün değildir.  
+>**Varlık yönetimi** modülünde bir master plan kullanılıp kullanılmayacağına ilişkin seçim ve kapasite rezervasyonlarına veya kapasite yüküne genel bakış almak için kullanılan ilgili form standart ayardır. **Master plan** alanındaki ayarınıza bağlı olarak kapasite bilgilerine **Kuruluş yönetimi** modülündeki **Kapasite rezervasyonları** veya **Kapasite yükü** öğesinden ulaşabilirsiniz. Kapasite rezervasyonlarının iki görünümde de gösterildiği bir ayar oluşturmak mümkün değildir.  
 
 Aşağıdaki listesinde açıklanan alanların tümü iş emri planlaması sırasında iş emri önceliğini hesaplamak için kullanılan, hesaplanan derecelendirme puanlarıyla ilgilidir.
 

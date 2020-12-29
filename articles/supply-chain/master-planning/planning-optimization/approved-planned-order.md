@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759700"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439271"
 ---
 # <a name="approve-planned-orders"></a>Planlı siparişleri onayla
 

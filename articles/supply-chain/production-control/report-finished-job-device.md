@@ -17,11 +17,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 6ba5d8bc0c22f97e6d2ce61c636090e04fae5abd
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651628"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439230"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -120,7 +120,7 @@ Toplu iş numaralarının çalışan girişi olmadan otomatik olarak atanması g
 1. **Stok Yönetimi \> Kurulum \> Boyut \> zleme numara gruplarına** gidin.
 1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
 1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Hayır** olarak ayarlayın.
-1. **Manuel**seçeneğini **Hayır** olarak ayarlayın.
+1. **Manuel** seçeneğini **Hayır** olarak ayarlayın.
 
     ![Sabit toplu iş numaraları için izleme numarası grubu](media/tracking-number-group-fixed.png "Sabit toplu iş numaraları için izleme numarası grubu")
 
@@ -203,7 +203,7 @@ Seri numarasının çalışan girişi olmadan otomatik olarak atanması gerekiyo
 1. **Stok Yönetimi \> Kurulum \> Boyut \> zleme numara gruplarına** gidin.
 1. Ayarlanacak izleme grubu grubunu oluşturun veya seçin.
 1. **Genel** hızlı sekmesinde, **Yalnızca envanter işlemleri için** seçeneğini **Hayır** olarak ayarlayın.
-1. **Manuel**seçeneğini **Hayır** olarak ayarlayın.
+1. **Manuel** seçeneğini **Hayır** olarak ayarlayın.
 
     ![Sabit seri numaraları için izleme numarası grubu](media/tracking-number-group-fixed-sn.png "Sabit seri numaraları için izleme numarası grubu")
 

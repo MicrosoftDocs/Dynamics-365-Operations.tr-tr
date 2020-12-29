@@ -20,11 +20,11 @@ ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759556"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439279"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Stok yaşlandırma raporu örnekleri ve mantığı
 

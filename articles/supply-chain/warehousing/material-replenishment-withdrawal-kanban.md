@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017103"
+ms.locfileid: "4439614"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -54,7 +54,7 @@ Bu senaryoda, bir üretim işlemi (4), üretim ambarında (8) malzemeyi bir üre
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Çekme kanbanı için çekme kanbanı ambar işi yapılandır
 
-Çekme kanbanı için hammadde çekmeyi etkinleştirmek için, dalga şablonlarını, iş şablonlarını ve konum yönergelerini **Kanban çekme** iş emri türü için yapılandırın. Bu iş emri türü, çekme kanbanı için malzeme çekme işlemini desteklemekle kalmaz. Aynı zamanda, üretim kanbanı için çekme işlemini de destekler. Ancak, dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırarak her bir kanban türü için ayrı bir çekme işlemi yapılandırabilirsiniz. Dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırmak için, etkinlik türü ( **İşlem** veya **Transfer** ) üzerinde, bu varlıkların sorgularında kriter ayarlayın.
+Çekme kanbanı için hammadde çekmeyi etkinleştirmek için, dalga şablonlarını, iş şablonlarını ve konum yönergelerini **Kanban çekme** iş emri türü için yapılandırın. Bu iş emri türü, çekme kanbanı için malzeme çekme işlemini desteklemekle kalmaz. Aynı zamanda, üretim kanbanı için çekme işlemini de destekler. Ancak, dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırarak her bir kanban türü için ayrı bir çekme işlemi yapılandırabilirsiniz. Dalga şablonlarını, iş şablonlarını ve konum yönergelerini ayırmak için, etkinlik türü (**İşlem** veya **Transfer**) üzerinde, bu varlıkların sorgularında kriter ayarlayın.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Çekme kanbanını yapılandır
 

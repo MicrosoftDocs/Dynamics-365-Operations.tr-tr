@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 045bb59642d766ac23939dee0900ea6911fe50fe
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3890045"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439077"
 ---
 # <a name="create-an-asset"></a>Varlık oluşturma
 
@@ -53,7 +53,7 @@ Bu konuda Varlık Yönetimi'nde varlık oluşturma işlemi açıklanmaktadır.
 
 Varlığın ilişkili olduğu işlem yapılacak yerleşim **İşlem yapılacak yerleşim** alanında gösterilir. Varlık bir üst varlıksa, varlıkla ilgili alt varlıkların sayısı **Alt** alanında gösterilir. Varlık mevcut bir varlığın alt varlığıysa, üst varlığın kodu **Üst** alanında gösterilir.
 
-Varlıktaki yedek parçaları, alternatif yedek parçaları ve iş türü varsayılanlarını yönetmek için kullanılan **Varlık üreticisi** ve **Varlık modeli** bilgilerini düzenleyebilirsiniz. Daha fazla bilgi için bkz. [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md). Gerekirse**Model yılı** ve **Seri numarasıyla** ilgili bilgi de ekleyebilirsiniz.
+Varlıktaki yedek parçaları, alternatif yedek parçaları ve iş türü varsayılanlarını yönetmek için kullanılan **Varlık üreticisi** ve **Varlık modeli** bilgilerini düzenleyebilirsiniz. Daha fazla bilgi için bkz. [Varlık üreticileri ve modelleri](../setup-for-objects/product-and-model.md). Gerekirse **Model yılı** ve **Seri numarasıyla** ilgili bilgi de ekleyebilirsiniz.
 
 **Geçerli yaşam döngüsü durumu** varlığın etkin mi yoksa devre dışı mı olduğunu tanımlamak için kullanılır. Bir varlık oluştururken, aşama her zaman varlık aşama grubundaki ilk aşamaya ayarlanır. Bir varlığı etkinleştirmeye hazır olduğunuzda **Varlık durumunu güncelleştir**'e tıklayın ve "varlık etkin" olarak tanımladığınız yaşam döngüsü durumunu seçip **Tamam**'a tıklayın.
 

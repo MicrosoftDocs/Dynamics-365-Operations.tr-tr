@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b6e96f2f6b324ffe44e8684d9bd2a42fb52d0aed
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889277"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439353"
 ---
 # <a name="work-order-lifecycle-states"></a>İş emri yaşam döngüsü durumları
 
@@ -72,7 +72,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 
     **Ayrıntılar** hızlı sekmesinde, **Yaşam döngüsü modelleri** alanı bu yaşam döngüsü durumunu kullanan iş emri yaşam döngüsü modellerinin sayısını gösterir.
 
-8. **Genel** hızlı sekmesinde, **İş emri** bölümünde, ilgili seçenekleri **Evet**olarak ayarlayarak bu yaşam döngüsü durumu için kullanılabilir olması gereken işlevleri seçin. Seçeneklerin açıklamaları için, bu konunun önceki kısımlarında yer alan tabloya bakın.
+8. **Genel** hızlı sekmesinde, **İş emri** bölümünde, ilgili seçenekleri **Evet** olarak ayarlayarak bu yaşam döngüsü durumu için kullanılabilir olması gereken işlevleri seçin. Seçeneklerin açıklamaları için, bu konunun önceki kısımlarında yer alan tabloya bakın.
 9. **Proje** bölümünde, **Aşama** alanında, bu yaşam döngüsü durumuyla ilişkili olması gereken proje aşamasını seçin.
 10. İş emri bu yaşam döngüsü durumunda olduğunda , her iş emri işiyle ilgili proje faaliyetleri otomatik olarak kapatılacağından, **Proje** bölümünde, **Tüm faaliyetleri kapat** seçeneğini **Evet** olarak ayarlayın.
 
@@ -88,11 +88,11 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 13. **Bakım istekleri** bölümünde, **Yaşam döngüsü durumu** alanında, ilgili bakım taleplerinin güncelleştirilmesi gereken bakım talebi yaşam döngüsü durumunu seçin. Bu güncelleştirme otomatik olarak gerçekleştirilir. Yalnızca bakım talebi için kullanılan bakım talebi yaşam döngüsü modelinde bakım talebi yaşam döngüsü durumu seçildiğinde yapılabilir.
 14. İş emri güncelleştirildiğinde, bir iş emrinde kullanılan tüm maddelerin **Varlık ürün reçetesi** sayfasında otomatik olarak güncelleştirilmesi gerekiyorsa, **Varlık** bölümünde, **Varlık ürün reçetesini güncelleştir** seçeneğini **Evet** olarak ayarlayın. Bu ayar, örneğin, iş emri yaşam döngüsü durumu iş emrini tamamlandı veya bitmiş olarak tanımlarsa uygun olabilir.
 15. **İş emri havuzu** bölümünde, bu yaşam döngüsü durumunda olan iş emirleri iş siparişi havuzlarından otomatik olarak silmek gerekliyse, **havuz başvurusunu sil** seçeneğini **Evet** olarak ayarlayın.
-16. **Doğrula** hızlı sekmesinde, ilgili seçenekleri **Evet**olarak ayarlayarak bu yaşam döngüsü durumunda etkinleştirilmesi gereken doğrulama tiplerini seçin. Sonra, **Tür** alanında seçtiğiniz her doğrulama türü için, doğrulama türüyle ilişkili zorunlu alanlar doğrulanmadıysanız görüntülenecek olan ileti türünü seçin. **Hata**seçeneğini belirlerseniz, iş emri yaşam döngüsü durumu güncelleştirmesi, ilgili zorunlu alanlar iş emrinde güncelleştirilene kadar iptal edilir.
+16. **Doğrula** hızlı sekmesinde, ilgili seçenekleri **Evet** olarak ayarlayarak bu yaşam döngüsü durumunda etkinleştirilmesi gereken doğrulama tiplerini seçin. Sonra, **Tür** alanında seçtiğiniz her doğrulama türü için, doğrulama türüyle ilişkili zorunlu alanlar doğrulanmadıysanız görüntülenecek olan ileti türünü seçin. **Hata** seçeneğini belirlerseniz, iş emri yaşam döngüsü durumu güncelleştirmesi, ilgili zorunlu alanlar iş emrinde güncelleştirilene kadar iptal edilir.
 
     - **Bakım kesinti süresi**, **Bakım denetim listesi**, **Hata belirtileri**, **Hata sebepleri**, ve **Hata giderme** seçenekleri **İş emri türleri** sayfasındaki **Zorunlu** bölümüne bağlıdır (**Kıymet yönetimi** \> **Kurulum** \> **İş emirleri** \> **İş emri türleri**). Bu doğrulamaları etkinleştirmek için, ilgili seçeneklerin iş emri için kullanılan iş emri türünde de **Evet** olarak ayarlanması gerekir.
     - **Bakım denetim listesi** seçeneği bir iş emrinin güncelleştirildiği yaşam döngüsü durumu için **Evet** olarak ayarlanmışsa, doğrulama işlemi **Zorunlu** olarak işaretlenen bakım denetim listesi satırlarına **İşaretli** ya da **Uygun değil** olarak kaydettirilir. Bu kayıtlardan hiçbiri zorunlu satırlarda yapılmadıysa, iş emri bu yaşam döngüsü durumuna güncelleştirildiğinde bir bilgi, hata veya uyarı iletisi görüntülenir.
-    - Bir çalışma emrinin güncelleştirildiği yaşam döngüsü durumu için **Taahhüt edilen maliyet** seçeneği **Evet** olarak ayarlanmışsa, toplam taahhüt edilen maliyet tutarı (yasal varlığın ödemeyi taahhüt edilen toplam gider tutarı) her iş emri için hesaplanır. Taahhüt edilen maliyet tutarı 0'dan (sıfır) fazla ise bir ileti gösterilir. Proje yönetimi ve hesap parametreleri sayfasındaki **Proje yönetimi ve muhasebe parametreleri** sayfasının **Maliyet kontrolü** sekmesindeki **Maliyet taahhütleri**hızlı sekmesindeki türleri seçin (**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Proje yönetimi ve muhasebe parametreleri**).
+    - Bir çalışma emrinin güncelleştirildiği yaşam döngüsü durumu için **Taahhüt edilen maliyet** seçeneği **Evet** olarak ayarlanmışsa, toplam taahhüt edilen maliyet tutarı (yasal varlığın ödemeyi taahhüt edilen toplam gider tutarı) her iş emri için hesaplanır. Taahhüt edilen maliyet tutarı 0'dan (sıfır) fazla ise bir ileti gösterilir. Proje yönetimi ve hesap parametreleri sayfasındaki **Proje yönetimi ve muhasebe parametreleri** sayfasının **Maliyet kontrolü** sekmesindeki **Maliyet taahhütleri** hızlı sekmesindeki türleri seçin (**Proje yönetimi ve muhasebe** \> **Kurulum** \> **Proje yönetimi ve muhasebe parametreleri**).
     - **Bakım kesinti süresi** seçeneği bir çalışma emrinin güncelleştirildiği yaşam döngüsü durumu için **Evet** olarak ayarlanmışsa, bakım kesinti süresi doğrulaması iş emriyle ilişkili olan kıymet üzerinde gerçekleştirilir. Bakım kesinti süresi kaydı yapılırsa ancak **Sona erdirilmiş** bir kayıt yoksa, iş emri bu yaşam döngüsü durumuna güncelleştirildiğinde bir ileti gösterilir.
     - Standart proje kurulumu, kıymet yönetimi kurulumunuz için gerekli tüm aşamaları içermiyorsa, **Proje yönetimi ve muhasebe parametreleri** sayfasının **Proje aşaması** sekmesinde Kullanıcı tanımlı proje aşamalarını ayarlayabilirsiniz. Aşağıdaki şekil **Proje yönetimi ve muhasebe parametreleri** sayfasındaki **Proje aşaması** sekmesini gösterir.
 
@@ -101,7 +101,7 @@ Aşağıdaki tablo **İş emri yaşam döngüsü durumları** sayfasının **Gen
 > [!NOTE]
 > Bir iş emrini güncelleştediğiniz yaşam döngüsü durumu devre dışı ise, iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak silinir. Bu davranış, kullanılmayan verilerin otomatik olarak temizlenmesine yardımcı olur. (**Etkin** seçeneği **İş emri yaşam döngüsü** sayfasının **Genel** hızlı sekmesinde **Hayır** olarak ayarlanmışsa yaşam döngüsü durumu devre dışı bırakılır.)
 >
-> Bir iş emrini güncelleştediğiniz yaşam döngüsü durumını el ile devre dışı bıraktıysanız iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak **silinmez**. (Bir iş emrini el ile devre dışı bırakmak için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri** ya da **Etkin iş emirleri**'ni seçin. İş emrini açın ve **Başlık** görünümüne geçin. **Genel** hızlı sekmesinde, **Düzenle**'yi seçin ve sonra **Etkin** seçeneğini **Hayır**olarak ayarlayın.)
+> Bir iş emrini güncelleştediğiniz yaşam döngüsü durumını el ile devre dışı bıraktıysanız iş emriyle ilişkili, ancak henüz deftere nakledilmemiş Günlükler otomatik olarak **silinmez**. (Bir iş emrini el ile devre dışı bırakmak için **Kıymet yönetimi** \> **Ortak** \> **İş emirleri** \> **Tüm iş emirleri** ya da **Etkin iş emirleri**'ni seçin. İş emrini açın ve **Başlık** görünümüne geçin. **Genel** hızlı sekmesinde, **Düzenle**'yi seçin ve sonra **Etkin** seçeneğini **Hayır** olarak ayarlayın.)
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>İş emri yaşam döngüsü modelleri, iş emri türleri ve iş emri yaşam döngüsü durumları arasındaki ilişkiler
 

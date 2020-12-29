@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979124"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438985"
 ---
 # <a name="service-objects-overview"></a>Servis nesnelerine genel bakış
 

@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 72367927a11879adffe68d7242d88f5cfab73e22
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439269"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
 

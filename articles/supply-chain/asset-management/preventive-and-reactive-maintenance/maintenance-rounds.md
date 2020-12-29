@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 63cb2614b2037fac1129c7d2f82a26dac41a3490
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889973"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439332"
 ---
 # <a name="maintenance-rounds"></a>Bakım sıraları
 
@@ -79,7 +79,7 @@ ms.locfileid: "3889973"
 20. Ayarınızı kaydedin.
 
 >[!NOTE]
->**Başlık** hızlı sekmesindeki **Ayrıntılar** grubunda bulunan **Varlıklar** ve**Satırlar** alanları, seçilen bakım sırasıyla ilgili varlıkların ve satırların toplam sayısını gösterir.
+>**Başlık** hızlı sekmesindeki **Ayrıntılar** grubunda bulunan **Varlıklar** ve **Satırlar** alanları, seçilen bakım sırasıyla ilgili varlıkların ve satırların toplam sayısını gösterir.
 
 Aşağıdaki çizimde üç varlığı içeren bir bakım sırası örneği gösterilmektedir.
 

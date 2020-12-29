@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 1025dd00db2e8b87e3c76e3047a7cf470a2d6641
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829813"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439093"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Stok sayımı neden kodları
 

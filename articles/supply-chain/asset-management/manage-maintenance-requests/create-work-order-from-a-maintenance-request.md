@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205219"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439359"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Bakım taleplerinden iş istekleri oluşturma
 

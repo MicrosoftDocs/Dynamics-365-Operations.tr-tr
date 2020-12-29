@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367013"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439078"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyle İlgili Sorunları Giderme 
 

@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 540c0079a9fca8158ed507ce2bc50839bd585fc1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986708"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439248"
 ---
 # <a name="view-undispatched-service-orders"></a>Gönderilmemiş servis siparişlerini görüntüleme 
 

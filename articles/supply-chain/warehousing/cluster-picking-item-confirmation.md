@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367304"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439337"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Küme çekme için ürün onayı
 

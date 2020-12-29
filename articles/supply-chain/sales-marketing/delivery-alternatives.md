@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 48cc8974cc8a8769b3d05f47f82166164e877ae5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210100"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439341"
 ---
 # <a name="delivery-alternatives"></a>Teslimat alternatifleri
 

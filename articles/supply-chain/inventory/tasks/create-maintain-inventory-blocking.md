@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383470"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439564"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stok durdurma oluştur ve sürdür
 

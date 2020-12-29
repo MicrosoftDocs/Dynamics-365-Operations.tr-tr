@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: f7a434aac758c6f36a50b68f08a9df4c02cd613f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986780"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439061"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkeleri kullanılarak sevkiyatları konsolide etme
 

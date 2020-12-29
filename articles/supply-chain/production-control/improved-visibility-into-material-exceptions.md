@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016597"
+ms.locfileid: "4439645"
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
@@ -34,7 +34,7 @@ ms.locfileid: "4016597"
 - Dikkat gerektiren işlem görmemiş dalgalar
 - Dikkat gerektiren açık ambar işi
 
-Her üç kutucuk için ürün reçetesi (BOM) satırları ve formül satırlarının ham madde tarihi çalışma alanı tarihiyle ve **Çalışma alanımı yapılandır** menüsünde ayarlanmış olan **Üretim birimi** , **Kaynak grubu** ve **Kaynak** alanları filtreleriyle karşılaştırılır. Varsayılan olarak, çalışma alanı tarihi geçerli tarihe ayarlanır ancak bu tarihi düzeltebilirsiniz.
+Her üç kutucuk için ürün reçetesi (BOM) satırları ve formül satırlarının ham madde tarihi çalışma alanı tarihiyle ve **Çalışma alanımı yapılandır** menüsünde ayarlanmış olan **Üretim birimi**, **Kaynak grubu** ve **Kaynak** alanları filtreleriyle karşılaştırılır. Varsayılan olarak, çalışma alanı tarihi geçerli tarihe ayarlanır ancak bu tarihi düzeltebilirsiniz.
 
 Yayımlanmamış bir ürün reçetesi satırının veya formül satırının, satır hammadde tarihinin çalışma alanı tarihiyle aynı veya bu tarihten önce olduğu ve çalışma alanındaki filtreler tarafından tanımlanan ölçütü karşılayıp karşılamadığı açısından dikkatli şekilde incelenmesi gerekir.
 

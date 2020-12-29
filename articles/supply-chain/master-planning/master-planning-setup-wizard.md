@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213596"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439428"
 ---
 # <a name="master-planning-setup-wizard"></a>Master planlama kurulum sihirbazı
 
@@ -52,7 +52,7 @@ Daha fazla bilgi için bkz: [İş parçacığı sayısı](https://docs.microsoft
 
 ### <a name="bundle-size"></a>Paket boyutu
 
-Ürün demeti boyutu **1**olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
+Ürün demeti boyutu **1** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
 Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayısı](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
@@ -65,7 +65,7 @@ Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayı
 
 ### <a name="cache-size"></a>Önbellek boyutu
 
-Önbellek boyutu **Maksimum**olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
+Önbellek boyutu **Maksimum** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
 Daha fazla bilgi için bkz: [İş ürün demetindeki işlere zaman tahsis etme](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 

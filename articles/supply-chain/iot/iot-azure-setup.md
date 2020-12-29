@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014924"
+ms.locfileid: "4439612"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>IoT Zekası için Azure kaynaklarını ayarlama
 
@@ -40,10 +40,10 @@ Microsoft Dynamics ERP Mikro Hizmetleri birinci taraf uygulama kimliğinin kirac
 
 1. Azure portalında <https://portal.azure.com> adresinden oturum açın.
 2. **Azure Active Directory** gidin.
-3. **Kurumsal uygulamalar** 'a gidin.
-4. **Uygulama türü** alanında, **Microsoft uygulamaları** 'nı seçin.
-5. Arama alanına, **Microsoft Dynamics ERP Mikro Hizmetleri** 'ni girin.
-6. **Microsoft Dynamics ERP Mikro Hizmetleri** 'nin listede olduğunu doğrulayın. Diğer uygulamaların benzer adları vardır. Bu nedenle, doğru uygulamayı bulmaya özen gösterin. Uygulama kimliği şudur: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
+3. **Kurumsal uygulamalar**'a gidin.
+4. **Uygulama türü** alanında, **Microsoft uygulamaları**'nı seçin.
+5. Arama alanına, **Microsoft Dynamics ERP Mikro Hizmetleri**'ni girin.
+6. **Microsoft Dynamics ERP Mikro Hizmetleri**'nin listede olduğunu doğrulayın. Diğer uygulamaların benzer adları vardır. Bu nedenle, doğru uygulamayı bulmaya özen gösterin. Uygulama kimliği şudur: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
     Uygulama listede değilse kiracınıza eklemeniz gerekir:
 
@@ -60,11 +60,11 @@ Microsoft Dynamics ERP Mikro Hizmetleri birinci taraf uygulama kimliğinin kirac
 Anahtar kasası kaynağı oluşturmak için aşağıdaki adımları izleyin.
 
 1. Azure portalında, bir kaynak grubu oluşturun veya bir kaynak grubuna gidin.
-2. **Ekle** 'yi seçin.
-3. **Yeni** sayfasındaki arama alanına **Anahtar kasası** yazın. Ardından **Oluştur** 'u seçin.
+2. **Ekle**'yi seçin.
+3. **Yeni** sayfasındaki arama alanına **Anahtar kasası** yazın. Ardından **Oluştur**'u seçin.
 4. **Anahtar kasası oluştur** sayfasında, **Anahtar kasası adı** alanına bir ad girin.
-5. Varsayılan değerleri gözden geçirin ve sonra **Gözden geçir + oluştur** 'u seçin.
-6. **Oluştur** 'u seçin.
+5. Varsayılan değerleri gözden geçirin ve sonra **Gözden geçir + oluştur**'u seçin.
+6. **Oluştur**'u seçin.
 
 Anahtar kasası arka planda oluşturulur.
 
@@ -73,11 +73,11 @@ Anahtar kasası arka planda oluşturulur.
 Bir IoT hub kaynağı oluşturmak için aşağıdaki adımları izleyin.
 
 1. Kaynak grubu oluşturun veya bir kaynak grubuna gidin.
-2. **Ekle** 'yi seçin.
-3. **Yeni** sayfasındaki arama alanına **IoT Hub** yazın. Ardından **Oluştur** 'u seçin.
+2. **Ekle**'yi seçin.
+3. **Yeni** sayfasındaki arama alanına **IoT Hub** yazın. Ardından **Oluştur**'u seçin.
 4. **IoT hub adı** alanında, bir ad girin.
-5. Varsayılan değerleri gözden geçirin ve sonra **Gözden geçir + oluştur** 'u seçin.
-6. **Oluştur** 'u seçin.
+5. Varsayılan değerleri gözden geçirin ve sonra **Gözden geçir + oluştur**'u seçin.
+6. **Oluştur**'u seçin.
 
 IoT hub arka planda oluşturulur.
 
@@ -89,10 +89,10 @@ IoT hub arka planda oluşturulur.
 Bir Redis önbelleği kaynağı oluşturmak için aşağıdaki adımları izleyin.
 
 1. Kaynak grubu oluşturun veya bir kaynak grubuna gidin.
-2. **Ekle** 'yi seçin.
-3. **Yeni** sayfasındaki arama alanına **Redis için Azure Önbelleği** yazın. Ardından **Oluştur** 'u seçin.
+2. **Ekle**'yi seçin.
+3. **Yeni** sayfasındaki arama alanına **Redis için Azure Önbelleği** yazın. Ardından **Oluştur**'u seçin.
 4. **DNS adı** alanına, bir ad girin.
-5. Varsayılan değerleri gözden geçirin ve sonra **Oluştur** 'u seçin.
+5. Varsayılan değerleri gözden geçirin ve sonra **Oluştur**'u seçin.
 
 Redis önbelleği arka planda oluşturulur.
 
@@ -108,7 +108,7 @@ Tüm kaynaklar artık oluşturulmuştur.
 IoT hub'ı yapılandırmak için şu adımları izleyin.
 
 1. Kaynaklarınızda IoT hub kaynağını seçin.
-2. Sol gezinti bölmesinde, **Yerleşik uç noktalar** 'ı seçin.
+2. Sol gezinti bölmesinde, **Yerleşik uç noktalar**'ı seçin.
 3. **Tüketici grupları** altında, aşağıdaki tüketici gruplarını yapıştırın. Bu tüketici grupları, hazır senaryolara karşılık gelir.
 
     + microsoft.dynamics.iotintelligence-1
@@ -120,13 +120,13 @@ IoT hub'ı yapılandırmak için şu adımları izleyin.
 Anahtar kasasını yapılandırmak için şu adımları izleyin.
 
 1. Kaynaklarınızda anahtar kasası kaynağını seçin.
-2. Sol gezinti bölmesinde **Erişim ilkeleri** 'ni seçin.
-3. **Erişim ilkesi ekle** 'yi seçin.
-4. **Erişim ilkesi ekle** sayfasındaki **Gizli izinler** alanında, **Alma** ve **Liste** 'yi seçin.
-5. **Birincil olan seç** 'i tıklayın.
-6. **Birincil** iletişim kutusunda, **Microsoft Dynamics ERP Mikro Hizmetleri** 'ni arayın ve seçin. Sonra, **Seç** öğesini seçin.
-7. **Ekle** 'yi seçin.
-8. **Kaydet** 'i seçin.
+2. Sol gezinti bölmesinde **Erişim ilkeleri**'ni seçin.
+3. **Erişim ilkesi ekle**'yi seçin.
+4. **Erişim ilkesi ekle** sayfasındaki **Gizli izinler** alanında, **Alma** ve **Liste**'yi seçin.
+5. **Birincil olan seç**'i tıklayın.
+6. **Birincil** iletişim kutusunda, **Microsoft Dynamics ERP Mikro Hizmetleri**'ni arayın ve seçin. Sonra, **Seç** öğesini seçin.
+7. **Ekle**'yi seçin.
+8. **Kaydet**'i seçin.
 
 Uygulama şimdi anahtar kasasındaki gizli dizilere erişebilir.
 
@@ -135,28 +135,28 @@ Uygulama şimdi anahtar kasasındaki gizli dizilere erişebilir.
 IoT hub bağlantı dizesinin gizli dizisini kaydetmek için aşağıdaki adımları izleyin.
 
 1. Kaynaklarınızda IoT hub kaynağını seçin.
-2. Sol gezinti bölmesinde, **Yerleşik uç noktalar** 'ı seçin.
+2. Sol gezinti bölmesinde, **Yerleşik uç noktalar**'ı seçin.
 3. **Olay Hub'ı ile uyumlu uç nokta** alanındaki değeri kopyalayın.
 4. Anahtar kasası kaynağına gidin.
-5. Sol gezinti bölmesinde **Gizli diziler** 'i seçin.
+5. Sol gezinti bölmesinde **Gizli diziler**'i seçin.
 6. **Oluştur/İçe aktar** seçeneğini belirleyin.
 7. **Ad** alanına, bir ad girin.
 8. **Değer** alanında, önceden kopyaladığınız uç nokta değerini yapıştırın.
-9. **Oluştur** 'u seçin.
+9. **Oluştur**'u seçin.
 
 ### <a name="save-the-redis-cache-connection-string-secret"></a>Redis önbelleği bağlantı dizesi gizli dizisini kaydetme
 
 Redis önbelleği bağlantı dizesinin gizli dizisini kaydetmek için aşağıdaki adımları izleyin.
 
 1. Kaynaklarınızda Redis önbelleği kaynağını seçin.
-2. **Erişim anahtarları** 'nı seçin.
+2. **Erişim anahtarları**'nı seçin.
 3. **Birincil bağlantı dizesi** alanındaki değeri kopyalayın.
 4. Anahtar kasası kaynağına gidin.
-5. Sol gezinti bölmesinde **Gizli diziler** 'i seçin.
+5. Sol gezinti bölmesinde **Gizli diziler**'i seçin.
 6. **Oluştur/İçe aktar** seçeneğini belirleyin.
 7. **Ad** alanına, bir ad girin.
 8. **Değer** alanında, önceden kopyaladığınız bağlantı dizesini yapıştırın.
-9. **Oluştur** 'u seçin.
+9. **Oluştur**'u seçin.
 
 > [!NOTE]
 > Bağlantı dizelerinden birini her güncelleştirdiğinizde gizli dizi değerlerini de güncelleştirmeniz gerekir.

@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012515"
+ms.locfileid: "4439608"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -41,22 +41,22 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 ## <a name="all-jobs-tab"></a>Tüm işler sekmesi
 
-**Tüm işler** sekmesi, durumu *başlatılmadı* , *durduruldu* veya *Başlatıldı* olan tüm üretim işlerini gösteren bir iş listesi sağlar.
+**Tüm işler** sekmesi, durumu *başlatılmadı*, *durduruldu* veya *Başlatıldı* olan tüm üretim işlerini gösteren bir iş listesi sağlar.
 
 ![Tüm işler sekmesi](media/pfei-all-jobs-tab.png "Tüm işler sekmesi")
 
 İş listesinde aşağıdaki sütunlar vardır. (Sayılar, önceki görseldeki sayılara karşılık gelir.)
 
-1. **Seçim sütunu** : En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
-1. **İş durumu sütunu** : Bu sütun, her projenin durumunu belirtmek için semboller kullanır. Bu sütunda simge içermeyen işler *başlatılmadı* durumundadır. Yeşil üçgen, durumu *başlatıldı* olan işleri belirtir. İki sarı dikey çizgi, durumu *durdurulmuş* olan işleri gösterir.
-1. **Yüksek öncelik sütunu** : Bu sütun, yüksek önceliğe sahip işleri göstermek için ünlem işaretleri kullanır.
-1. **Sipariş** : Bu sütun bir projeyle ilgili üretim emri numarasını gösterir.
-1. **Açıklama** : Bu sütunda bir projenin ait olduğu operasyonun açıklaması gösterilir.
-1. **Gerekli** : Bu sütunda bir işin üretilmesi için planlanan miktar gösterilir.
-1. **Başlatıldı** : Bu sütunda, bir proje için zaten başlatılmış olan miktar gösterilir.
-1. **Tamamlandı** : Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
-1. **Hurdaya çıkarıldı** : Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
-1. **Geri kalan** : Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
+1. **Seçim sütunu**: En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
+1. **İş durumu sütunu**: Bu sütun, her projenin durumunu belirtmek için semboller kullanır. Bu sütunda simge içermeyen işler *başlatılmadı* durumundadır. Yeşil üçgen, durumu *başlatıldı* olan işleri belirtir. İki sarı dikey çizgi, durumu *durdurulmuş* olan işleri gösterir.
+1. **Yüksek öncelik sütunu**: Bu sütun, yüksek önceliğe sahip işleri göstermek için ünlem işaretleri kullanır.
+1. **Sipariş**: Bu sütun bir projeyle ilgili üretim emri numarasını gösterir.
+1. **Açıklama**: Bu sütunda bir projenin ait olduğu operasyonun açıklaması gösterilir.
+1. **Gerekli**: Bu sütunda bir işin üretilmesi için planlanan miktar gösterilir.
+1. **Başlatıldı**: Bu sütunda, bir proje için zaten başlatılmış olan miktar gösterilir.
+1. **Tamamlandı**: Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
+1. **Hurdaya çıkarıldı**: Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
+1. **Geri kalan**: Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
 
 ## <a name="active-jobs-tab"></a>Etkin işler sekmesi
 
@@ -64,42 +64,42 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 **Etkin işler** sekmesindeki iş listesinde aşağıdaki sütunlar vardır:
 
-- **Seçim sütunu** : En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
-- **Sipariş** : Bu sütun bir projeyle ilgili üretim emri numarasını gösterir.
-- **Açıklama** : Bu sütunda bir projenin ait olduğu operasyonun açıklaması gösterilir.
-- **Gerekli** : Bu sütunda bir işin üretilmesi için planlanan miktar gösterilir.
-- **Başlatıldı** : Bu sütunda, bir proje için zaten başlatılmış olan miktar gösterilir.
-- **Tamamlandı** : Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
-- **Hurdaya çıkarıldı** : Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
-- **Geri kalan** : Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
+- **Seçim sütunu**: En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
+- **Sipariş**: Bu sütun bir projeyle ilgili üretim emri numarasını gösterir.
+- **Açıklama**: Bu sütunda bir projenin ait olduğu operasyonun açıklaması gösterilir.
+- **Gerekli**: Bu sütunda bir işin üretilmesi için planlanan miktar gösterilir.
+- **Başlatıldı**: Bu sütunda, bir proje için zaten başlatılmış olan miktar gösterilir.
+- **Tamamlandı**: Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
+- **Hurdaya çıkarıldı**: Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
+- **Geri kalan**: Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
 
 ## <a name="starting-and-completing-production-jobs"></a>Üretim işlerini başlatma ve tamamlama
 
-Çalışanlar, **tüm işler** sekmesinde iş seçip **işi Başlat** iletişim kutusunu açmak için **işi Başlat** 'ı seçerek bir üretim işi başlatır.
+Çalışanlar, **tüm işler** sekmesinde iş seçip **işi Başlat** iletişim kutusunu açmak için **işi Başlat**'ı seçerek bir üretim işi başlatır.
 
 ![İş başlatma iletişim kutusu](media/pfei-start-job-dialog.png "İş başlatma iletişim kutusu")
 
-Çalışanlar üretim miktarını doğrulamak ve işi başlatmak için **İşi Başlat** iletişim kutusunu kullanırlar. Çalışanlar **miktar** alanını seçip beliren sayısal klavyeyi kullanarak miktarı ayarlayabilir. Ardından çalışanlar, iş üzerinde çalışmaya başlamak için **Başlat** 'ı seçer. **İşi Başlat** iletişim kutusu kapatılır ve iş **etkin işler** sekmesine eklenir.
+Çalışanlar üretim miktarını doğrulamak ve işi başlatmak için **İşi Başlat** iletişim kutusunu kullanırlar. Çalışanlar **miktar** alanını seçip beliren sayısal klavyeyi kullanarak miktarı ayarlayabilir. Ardından çalışanlar, iş üzerinde çalışmaya başlamak için **Başlat**'ı seçer. **İşi Başlat** iletişim kutusu kapatılır ve iş **etkin işler** sekmesine eklenir.
 
 Çalışanlar herhangi bir durumda olan bir işi başlatabilir. Bir çalışan, durumu *başlatılmadı* olan bir işi başlattığında, **işi Başlat** iletişim kutusundaki **miktar** alanı, ilk olarak tüm miktarı gösterir. Bir çalışan, durumu *Başlatıldı* veya *Durduruldu* olan bir işi başlattığında, **Miktar** alanı, ilk olarak kalan miktarı gösterir.
 
 ## <a name="reporting-good-quantities"></a>Sağlam miktarlar raporlaması
 
-Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **İlerlemeyi Raporla** 'yı seçerek üretilen sağlam miktarları rapor edebilir. Sonra, **İlerlemeyi Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak sağlam miktarı girer. Varsayılan olarak miktar boştur. Bir miktar girildikten sonra, çalışan, işin durumunu *devam ediyor* , *Durduruldu* veya *tamamlandı* olarak güncelleştirebilir.
+Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **İlerlemeyi Raporla**'yı seçerek üretilen sağlam miktarları rapor edebilir. Sonra, **İlerlemeyi Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak sağlam miktarı girer. Varsayılan olarak miktar boştur. Bir miktar girildikten sonra, çalışan, işin durumunu *devam ediyor*, *Durduruldu* veya *tamamlandı* olarak güncelleştirebilir.
 
 ![İlerlemeyi raporla iletişim kutusu](media/pfei-report-progress-dialog.png "İlerlemeyi raporla iletişim kutusu")
 
 ## <a name="reporting-scrap"></a>Hurda raporlaması
 
-Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **Hurdayı Raporla** 'yı seçerek hurdayı rapor edebilir. Sonra, **Hurdayı Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak hurda miktarını girer. Çalışan ayrıca bir neden ( *yok* , *makine* , *işleç* veya *malzeme* ) seçer.
+Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **Hurdayı Raporla**'yı seçerek hurdayı rapor edebilir. Sonra, **Hurdayı Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak hurda miktarını girer. Çalışan ayrıca bir neden (*yok*, *makine*, *işleç* veya *malzeme*) seçer.
 
 ![Hurda raporla iletişim kutusu](media/pfei-report-scrap-dialog.png "Hurda raporla iletişim kutusu")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Bir iş tamamlama ve yeni bir proje başlatma
 
-Çalışanlar **etkin işler** sekmesinde bir veya daha fazla geçerli işi seçerek ve ardından **İlerlemeyi raporla** 'yı seçerek iş tamamlar. Daha sonra, üretilen miktarı (sağlam miktar) girip durumu *tamamlandı* olarak ayarlar. Birden fazla iş seçilmişse, bir çalışan bunlar arasında hareket etmek için **Önce** ve **Sonra** düğmelerini kullanır. Yeni bir iş başlatmak için, çalışan, **tüm işler** sekmesinde bunu seçer ve sonra **İşi başlat** 'ı seçer.
+Çalışanlar **etkin işler** sekmesinde bir veya daha fazla geçerli işi seçerek ve ardından **İlerlemeyi raporla**'yı seçerek iş tamamlar. Daha sonra, üretilen miktarı (sağlam miktar) girip durumu *tamamlandı* olarak ayarlar. Birden fazla iş seçilmişse, bir çalışan bunlar arasında hareket etmek için **Önce** ve **Sonra** düğmelerini kullanır. Yeni bir iş başlatmak için, çalışan, **tüm işler** sekmesinde bunu seçer ve sonra **İşi başlat**'ı seçer.
 
-Bir çalışan, önceki işler açıkken yeni bir iş de başlatabilir. Yine çalışan, **tüm işler** sekmesinde yeni işi seçer ve sonra **İşi başlat** 'ı seçer. Ancak, bu durumda, **işi Başlat** iletişim kutusu, çalışana bir işte çalıştıkları ve dolayısıyla yeni işi başlatmadan önce o işi durdurması veya tamamlaması gerektiğini bildirir.
+Bir çalışan, önceki işler açıkken yeni bir iş de başlatabilir. Yine çalışan, **tüm işler** sekmesinde yeni işi seçer ve sonra **İşi başlat**'ı seçer. Ancak, bu durumda, **işi Başlat** iletişim kutusu, çalışana bir işte çalıştıkları ve dolayısıyla yeni işi başlatmadan önce o işi durdurması veya tamamlaması gerektiğini bildirir.
 
 ## <a name="working-on-multiple-jobs-in-parallel"></a>Paralel olarak çoklu işler üzerinde çalışma
 
@@ -107,11 +107,11 @@ Bir çalışan aynı anda çoklu işler üzerinde çalışabilir (paralel olarak
 
 ### <a name="scenario-1-a-worker-who-has-no-active-jobs-wants-to-start-two-jobs-and-work-on-them-in-parallel"></a>Senaryo 1: Etkin işi olmayan bir çalışan, iki iş başlatmak ve bunlarda paralel olarak çalışmak istiyor
 
-Çalışan, **tüm işler** sekmesinde iki işi seçer ve sonra **İşi başlat** 'ı seçer. **İşi Başlat** iletişim kutusu her iki seçili işi de gösterir ve çalışan her bir işte başlaması için miktarı ayarlayabilir. Çalışan daha sonra iletişim kutusunu onaylar ve her iki işi de başlatabilir.
+Çalışan, **tüm işler** sekmesinde iki işi seçer ve sonra **İşi başlat**'ı seçer. **İşi Başlat** iletişim kutusu her iki seçili işi de gösterir ve çalışan her bir işte başlaması için miktarı ayarlayabilir. Çalışan daha sonra iletişim kutusunu onaylar ve her iki işi de başlatabilir.
 
 ### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>Senaryo 2: Sürmekte olan iki etkin işi olan bir çalışan, üçüncü bir iş başlatmak ve diğeri iki iş ile paralel çalışmak istiyor
 
-Çalışan, **tüm işler** sekmesinde üçüncü işi seçer ve sonra **Grupla** 'yı seçer. **Grupla** iletişim kutusunda, çalışan, başlangıç miktarını ayarlayabilir. Çalışan bu iletişim kutusunu, **Grupla** seçeneğini belirleyerek onaylar.
+Çalışan, **tüm işler** sekmesinde üçüncü işi seçer ve sonra **Grupla**'yı seçer. **Grupla** iletişim kutusunda, çalışan, başlangıç miktarını ayarlayabilir. Çalışan bu iletişim kutusunu, **Grupla** seçeneğini belirleyerek onaylar.
 
 ## <a name="working-on-indirect-activities"></a>Dolaylı faaliyetlerde çalışma
 
@@ -119,8 +119,8 @@ Dolaylı faaliyetler, doğrudan bir üretim emriyle ilişkili olmayan faaliyetle
 
 Örneğin Contoso'da bir kat çalışanı olan Shannon, şirket toplantısına katılmak istiyor ve toplantılar dolaylı bir faaliyet olarak kabul edilir. Aşağıdaki iki senaryodan biri geçerlidir:
 
-- **Shannon bir veya daha fazla etkin iş üzerinde çalışıyor.** Shannon **Etkinlik** 'i seçer, etkinliği (toplantıyı) tanımlar ve seçimini onaylar. Sürmekte olan işleri olduğunu bildiren bir ileti görüntülenir. İletide, Shannon, toplantıya geçmeden önce üzerinde çalıştığı işleri tamamlamayı veya durdurmayı seçebilir.
-- **Shannon'ın hiçbir etkin işi yok.** Shannon **Etkinlik** 'i seçer, etkinliği (toplantıyı) tanımlar ve seçimini onaylar. Şimdi toplantıda olduğu kaydedildi.
+- **Shannon bir veya daha fazla etkin iş üzerinde çalışıyor.** Shannon **Etkinlik**'i seçer, etkinliği (toplantıyı) tanımlar ve seçimini onaylar. Sürmekte olan işleri olduğunu bildiren bir ileti görüntülenir. İletide, Shannon, toplantıya geçmeden önce üzerinde çalıştığı işleri tamamlamayı veya durdurmayı seçebilir.
+- **Shannon'ın hiçbir etkin işi yok.** Shannon **Etkinlik**'i seçer, etkinliği (toplantıyı) tanımlar ve seçimini onaylar. Şimdi toplantıda olduğu kaydedildi.
 
 Her iki durumda da Shannon seçimini onayladıktan sonra, oturum açma sayfasına veya dolaylı faaliyetinden dönmüş olduğunu onaylamasını bekleyen bir sayfaya gider. Beliren sayfa, üretim tabanı yürütme arabiriminin konfigürasyonuna bağlıdır. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).)
 
@@ -128,7 +128,7 @@ Her iki durumda da Shannon seçimini onayladıktan sonra, oturum açma sayfasın
 
 Çalışanlar mola kaydedebilir. Molalar, [Kayıt temel alınarak ödeme](pay-based-on-registrations.md) konusunda açıklandığı gibi esnek şekilde tanımlanabilir.
 
-Bir çalışan **Mola** 'yı seçip ardından mola türünü temsil eden kartı (öğle yemeği gibi) seçerek bir molayı kaydeder. Çalışan seçimi onayladıktan sonra, cihazda oturum açma sayfası veya çalışanın moladan döndüğünü onaylayacağı bir sayfa gösterilir. Beliren sayfa, üretim tabanı yürütme arabiriminin konfigürasyonuna bağlıdır. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).)
+Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (öğle yemeği gibi) seçerek bir molayı kaydeder. Çalışan seçimi onayladıktan sonra, cihazda oturum açma sayfası veya çalışanın moladan döndüğünü onaylayacağı bir sayfa gösterilir. Beliren sayfa, üretim tabanı yürütme arabiriminin konfigürasyonuna bağlıdır. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).)
 
 ## <a name="opening-instructions"></a>Açılış yönergeleri
 

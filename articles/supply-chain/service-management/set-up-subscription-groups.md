@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7a98d096c0eec6b1d585856b63113fd6dd60c0a4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984907"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438971"
 ---
 # <a name="set-up-subscription-groups"></a>Abonelik gruplarını ayarla 
 

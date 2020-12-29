@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439334"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Tehlikeli malzeme sorguları ve raporları
 

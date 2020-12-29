@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: d28acbccc35b3f59f9cca7236dd721a1d9bdead8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216448"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439414"
 ---
 # <a name="create-consumption-reports"></a>Tüketim raporları oluşturma
 

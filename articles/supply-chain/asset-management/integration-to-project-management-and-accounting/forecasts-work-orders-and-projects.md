@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9e6d20d1538ea68570d6dcc49da001ad76b8042b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888894"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439186"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Tahminler, iş emirleri ve projeler
 

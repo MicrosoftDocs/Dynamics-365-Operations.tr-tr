@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 14683554c45db72061ecbbf4a528656df3132692
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207471"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439111"
 ---
 # <a name="submit-and-approve-project-budget"></a>Proje bütçesi gönderme ve onaylama
 

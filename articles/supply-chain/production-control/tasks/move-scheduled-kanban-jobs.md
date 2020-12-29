@@ -17,11 +17,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bb95bab2173cb45300560f59c394cd2d558fe69f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206991"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439266"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Planlanmış kanban işlerini taşıma
 

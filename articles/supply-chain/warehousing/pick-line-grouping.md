@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017748"
+ms.locfileid: "4439632"
 ---
 # <a name="pick-line-grouping"></a>Malzeme çekme satırı gruplandırması
 
@@ -35,42 +35,42 @@ ms.locfileid: "4017748"
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma
 
-1. **Ambar Yönetimi \> kurulum \> mobil cihaz \> mobil cihaz menüsü öğeleri** 'ne gidin ve **Satış grubu satırı malzeme çekme – Kullanıcı yönlendirilen** adlı yeni bir menü öğesi oluşturun.
+1. **Ambar Yönetimi \> kurulum \> mobil cihaz \> mobil cihaz menüsü öğeleri**'ne gidin ve **Satış grubu satırı malzeme çekme – Kullanıcı yönlendirilen** adlı yeni bir menü öğesi oluşturun.
 2. **Mobil cihaz için menü öğeleri** altında, aşağıdaki değerleri ayarla:
 
-    - **Menü madde adı** alanında, **satış çekme- grup satırı** 'nı girin.
-    - **Başlık** alanında, **satış çekme- grup satırı** 'nı girin.
-    - **Mod** alanında, **İş** 'i seçin.
-    - **Mevcut işi kullan** seçeneğinde **Evet** 'i işaretleyin.
+    - **Menü madde adı** alanında, **satış çekme- grup satırı**'nı girin.
+    - **Başlık** alanında, **satış çekme- grup satırı**'nı girin.
+    - **Mod** alanında, **İş**'i seçin.
+    - **Mevcut işi kullan** seçeneğinde **Evet**'i işaretleyin.
 
 3. **Genel** Hızlı sekmesinde, aşağıdaki değerleri ayarlayın:
 
-    - **Yöneten** alanında **Kullanıcı tarafından yönetilen** 'i seçin.
+    - **Yöneten** alanında **Kullanıcı tarafından yönetilen**'i seçin.
     - **Lisans kalıbı oluştur** seçeneğini **Evet** olarak ayarlayın.
     - **Grup çekme** seçeneğini **Evet** olarak ayarlayın.
 
 4. **İş sınıfları** hızlı sekmesinde, mobil aygıt menü öğesi için geçerli iş sınıflarını konfigüre etmek üzere aşağıdaki adımları izleyin:
 
-    1. **Yeni** 'yi seçin.
-    2. **İş sınıfı kimliği** alanında, kullanacağınız ambara göre **satış** 'ı veya **satış siparişi çekme** 'yi seçin.
-    3. **İş siparişi türü** alanında **Satış siparişi** 'ni seçin.
+    1. **Yeni**'yi seçin.
+    2. **İş sınıfı kimliği** alanında, kullanacağınız ambara göre **satış**'ı veya **satış siparişi çekme**'yi seçin.
+    3. **İş siparişi türü** alanında **Satış siparişi**'ni seçin.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Mobil cihaz menüsü ayarlama
 
-1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü** 'ne gidin. 
+1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menüsü**'ne gidin. 
 1. Yeni oluşturduğunuz menü öğesini istenen menüye ekleyin.
 
 ### <a name="set-up-a-work-template"></a>İş şablonu ayarla
 
-1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları**'na gidin.
 1. Bu işlevle kullanılması gereken çalışma şablonunu bulun. Bu örnek için, standart **51 malzeme çekme** Contoso iş şablonu ' nu seçin.
 1. Menüde, **Düzenle sorgu** seçeneğini belirleyin.
-1. **Sıralama** sekmesinde **Ekle** 'yi seçin ve sonra aşağıdaki değerleri ayarlayın:
+1. **Sıralama** sekmesinde **Ekle**'yi seçin ve sonra aşağıdaki değerleri ayarlayın:
 
-    - **Tablo** alanında **Geçici iş hareketleri** 'ni seçin.
-    - **Türetilmiş tablo** alanında **Geçici iş hareketleri** 'ni seçin.
+    - **Tablo** alanında **Geçici iş hareketleri**'ni seçin.
+    - **Türetilmiş tablo** alanında **Geçici iş hareketleri**'ni seçin.
     - **Alan** alanında, **Öğe numarasını** seçin.
-    - **Arama yönü** alanında, **artan** 'ı seçin.
+    - **Arama yönü** alanında, **artan**'ı seçin.
 
 > [!NOTE]
 > Satır gruplama çekme işlevinin çalışması için, iş satırlarının madde koduna göre sıralanması gerekir. Aynı maddeleri içeren satırlar başka bir satırdan sonra sıralanmamışsa, gruplandırılmaz.
@@ -81,18 +81,18 @@ ms.locfileid: "4017748"
 
 Çekme satırı gruplandırmasını ayarlamadan önce, uygun bazı giden işler oluşturmanız gerekir.
 
-1. **Satış ve Pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
-2. Satış siparişi oluşturmak için **Yeni** 'yi seçin. 
+1. **Satış ve Pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
+2. Satış siparişi oluşturmak için **Yeni**'yi seçin. 
 3. **Müşteri hesabı** alanından bir AB müşterisini seçin. 
-4. **Genel** hızlı sekmesinde, **ambar** alanında, **51** 'i seçin. Daha sonra **Tamam** 'ı seçin.
+4. **Genel** hızlı sekmesinde, **ambar** alanında, **51**'i seçin. Daha sonra **Tamam**'ı seçin.
 5. **Satış siparişi satırları** altında, aşağıdaki altı satırı ekleyin:
 
-    - **Satır 1:** **Öğe numarası** alanında, **M9200** 'ü seçin. **Miktar** alanına **3** yazın.
-    - **Satır 2:** **Öğe numarası** alanında, **M9201** 'ü seçin. **Miktar** alanına **3** yazın. 
-    - **Satır 3:** **Öğe numarası** alanında, **M9202** 'ü seçin. **Miktar** alanına **2** yazın. 
-    - **Satır 4:** **Öğe numarası** alanında, **M9200** 'ü seçin. **Miktar** alanına **1** yazın. 
-    - **Satır 5:** **Öğe numarası** alanında, **M9200** 'ü seçin. **Miktar** alanına **3** yazın.
-    - **Satır 6:** **Öğe numarası** alanında, **M9202** 'ü seçin. **Miktar** alanına **7** yazın. 
+    - **Satır 1:** **Öğe numarası** alanında, **M9200**'ü seçin. **Miktar** alanına **3** yazın.
+    - **Satır 2:** **Öğe numarası** alanında, **M9201**'ü seçin. **Miktar** alanına **3** yazın. 
+    - **Satır 3:** **Öğe numarası** alanında, **M9202**'ü seçin. **Miktar** alanına **2** yazın. 
+    - **Satır 4:** **Öğe numarası** alanında, **M9200**'ü seçin. **Miktar** alanına **1** yazın. 
+    - **Satır 5:** **Öğe numarası** alanında, **M9200**'ü seçin. **Miktar** alanına **3** yazın.
+    - **Satır 6:** **Öğe numarası** alanında, **M9202**'ü seçin. **Miktar** alanına **7** yazın. 
 
     İşte her madde için toplam miktarların Özeti:
 

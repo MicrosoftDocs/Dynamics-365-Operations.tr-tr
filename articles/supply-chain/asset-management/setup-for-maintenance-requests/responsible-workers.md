@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 113ee2b45c569c7dae3609f1027e31c4e5e5c54a
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3890093"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439408"
 ---
 # <a name="responsible-maintenance-workers"></a>Sorumlu bakım görevlileri
 

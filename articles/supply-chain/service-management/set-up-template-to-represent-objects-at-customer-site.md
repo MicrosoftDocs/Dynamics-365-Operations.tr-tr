@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4438970"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama 
 
@@ -34,7 +34,7 @@ Bir müşteri sitesindeki nesneleri temsil eden bir şablon ayarlamak için bu y
 
 1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
 
-2.  Yeni bir servis sözleşmesi oluşturmak için servis sözleşmesine çift tıklayın veya **Servis sözleşmesi**ne tıklayın.
+2.  Yeni bir servis sözleşmesi oluşturmak için servis sözleşmesine çift tıklayın veya **Servis sözleşmesi** ne tıklayın.
 
 3.  **Kurulum** sekmesini tıklatın.
 

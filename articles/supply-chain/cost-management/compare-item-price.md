@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759652"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439498"
 ---
 # <a name="compare-item-prices-storage-report"></a>Madde fiyatları depolama raporunu karşılaştırma
 

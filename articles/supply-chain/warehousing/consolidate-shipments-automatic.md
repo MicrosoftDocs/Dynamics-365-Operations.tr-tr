@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016874"
+ms.locfileid: "4439641"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Satış siparişlerinin otomatik serbest bırakılması kullanılarak ambara serbest bırakıldıklarında sevkiyatları konsolide etme
 
@@ -56,7 +56,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-order-1-2"></a>Satış siparişi 1-2
@@ -68,7 +68,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-order-1-3"></a>Satış siparişi 1-3
@@ -80,12 +80,12 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 1. Aşağıdaki ayarlara sahip ikinci bir satış siparişi satırı oluşturun:
 
-    - **Madde numarası:** *A0002* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0002* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
     - **Teslimat şekli:** *Airwa-Air*
 
@@ -99,12 +99,12 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *M9200* ( **Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9200* (**Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
 
 1. Aşağıdaki ayarlara sahip ikinci bir satış siparişi satırı oluşturun:
 
-    - **Madde numarası:** *M9201* ( **Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9201* (**Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
     - **Teslimat şekli:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *M9200* ( **Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9200* (**Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
 
 1. Aşağıdaki ayarlara sahip ikinci bir satış siparişi satırı oluşturun:
 
-    - **Madde numarası:** *M9201* ( **Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9201* (**Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
     - **Teslimat şekli:** *Airwa-Air*
 
@@ -141,7 +141,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 ### <a name="create-order-set-5"></a>Sipariş kümesi 5'yi oluşturma
@@ -155,7 +155,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-order-5-3"></a>Satış siparişi 5-3
@@ -167,7 +167,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 ### <a name="create-order-set-6"></a>Sipariş kümesi 6'yi oluşturma
@@ -181,7 +181,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-orders-6-3-and-6-4"></a>Satış siparişleri 6-3 ve 6-4
@@ -193,7 +193,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-orders-6-5-and-6-6"></a>Satış siparişleri 6-5 ve 6-6
@@ -207,7 +207,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 #### <a name="sales-orders-6-7-and-6-8"></a>Satış siparişleri 6-7 ve 6-8
@@ -221,7 +221,7 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
 ## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a>Satış siparişlerini ambara otomatik olarak serbest bırakma
@@ -234,30 +234,30 @@ Daha önce oluşturduğunuz her satış siparişi kümesi için aşağıdaki alt
 
 #### <a name="update-the-wave-template-that-will-be-used-during-release"></a>Serbest bırakma sırasında kullanılacak dalga şablonunu güncelleştirme
 
-1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları** 'na gidin.
+1. **Ambar yönetimi \> Kurulum \> Dalgalar \> Dalga şablonları**'na gidin.
 1. **Dalga şablonu türü** alanını *Sevkiyat* olarak ayarlayın.
-1. Bu senaryo için oluşturduğunuz sipariş kümelerinde kullandığınız ambarla ilişkilendirilmiş dalga şablonunu bulun ve seçin. Örneğin, ambar *24* 'ü kullandıysanız **24 Sevkiyat Varsayılan** dalga şablonunu seçin. Ambar *61* 'i kullandıysanız **61 Sevkiyat** dalga şablonunu seçin.
-1. Eylem Bölmesi'nde, **Düzenle** 'yi seçin.
+1. Bu senaryo için oluşturduğunuz sipariş kümelerinde kullandığınız ambarla ilişkilendirilmiş dalga şablonunu bulun ve seçin. Örneğin, ambar *24*'ü kullandıysanız **24 Sevkiyat Varsayılan** dalga şablonunu seçin. Ambar *61*'i kullandıysanız **61 Sevkiyat** dalga şablonunu seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Dalgayı ambara serbest bırakma sırasında işle** seçeneğini *Hayır* olarak ayarlayın.
 
 #### <a name="release-to-the-warehouse"></a>Ambara serbest bırakma
 
 1. **Ambar yönetimi \> Ambara serbest bırakma \> Satış siparişlerini otomatik serbest bırakma** seçeneğine gidin.
 1. **Serbest bırakılacak miktar** alanını *Tümü* olarak ayarlayın.
-1. **Eklenecek kayıtlar** hızlı sekmesinde, sorgu iletişim kutusunu açmak için **Filtre** 'yi seçin.
-1. Kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle** 'yi seçin:
+1. **Eklenecek kayıtlar** hızlı sekmesinde, sorgu iletişim kutusunu açmak için **Filtre**'yi seçin.
+1. Kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle**'yi seçin:
 
     - **Tablo:** *Satış siparişi*
     - **Türetilmiş tablo:** *Satış siparişi*
     - **Alan:** *Satış siparişi*
     - **Ölçütler:** İstenen sipariş kümesinden satış siparişi numaralarının virgülle ayrılmış listesini girin.
 
-1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin.
-1. *Otomatik ambara serbest bırakma* yordamını başlatmak için **Tamam** 'ı seçin.
+1. Sorgunuzu kaydetmek için **Tamam**'ı seçin.
+1. *Otomatik ambara serbest bırakma* yordamını başlatmak için **Tamam**'ı seçin.
 
 #### <a name="review-the-shipment-that-is-created-or-updated"></a>Oluşturulan veya güncelleştirilen sevkiyatı gözden geçirme
 
-1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar** 'a gidin.
+1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar**'a gidin.
 1. Gerekli sevkiyatı bulun ve seçin.
 1. Sevkiyat oluşturulduğunda veya güncelleştirildiğinde bir konsolidasyon ilkesi kullanılmışsa bunu **Sevkiyat konsolidasyon ilkesi** alanında görmeniz gerekir.
 
@@ -292,7 +292,7 @@ Bitirdiğinizde, aşağıdaki eylemlerin gerçekleştiğini görmelisiniz:
 
 Sipariş kümesi 4'teki satış siparişlerini serbest bırakmak için [temel ambara serbest bırakma yordamını](#release-procedure) izleyin.
 
-Bitirdiğinizde, var olan bir sevkiyatın ( **Müşteri talebi** alanının *1* olarak ayarlandığı) güncelleştirilmiş olduğunu görmelisiniz. Buna yeni bir satır eklenmiştir.
+Bitirdiğinizde, var olan bir sevkiyatın (**Müşteri talebi** alanının *1* olarak ayarlandığı) güncelleştirilmiş olduğunu görmelisiniz. Buna yeni bir satır eklenmiştir.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Sipariş kümesi 5'teki satış siparişlerini serbest bırakma
 
@@ -300,7 +300,7 @@ Sipariş kümesi 5'teki satış siparişlerini serbest bırakmak için [temel am
 
 Bitirdiğinizde, aşağıdaki eylemlerin gerçekleştiğini görmelisiniz:
 
-- Var olan bir sevkiyat ( **Müşteri talebi** alanı *1* olarak ayarlandığı) güncelleştirilmiştir. Satış siparişi 5-3'ten bir satır ( **Müşteri talebi** alanının *1* olarak ayarlandığı) buna eklenmiştir.
+- Var olan bir sevkiyat (**Müşteri talebi** alanı *1* olarak ayarlandığı) güncelleştirilmiştir. Satış siparişi 5-3'ten bir satır (**Müşteri talebi** alanının *1* olarak ayarlandığı) buna eklenmiştir.
 - Satış siparişi 5-1 ve 5-2'den satırların tek bir sevkiyat olarak gruplandırıldığı, yeni bir sevkiyat oluşturulmuştur.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Sipariş kümesi 6'daki satış siparişlerini serbest bırakma

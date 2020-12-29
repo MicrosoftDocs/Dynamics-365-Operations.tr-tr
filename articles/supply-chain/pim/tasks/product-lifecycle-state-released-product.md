@@ -16,11 +16,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5e7df272a946506dfa4e8d7a04181dd0cb40972c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981220"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439150"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama
 

@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017656"
+ms.locfileid: "4439626"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
 
@@ -68,11 +68,11 @@ Hiyerarşide **Toplu iş numarası** düzeyi seçildiği zaman, o düzeyin üzer
 > [!NOTE]
 > **Talep emrinde rezervasyona izin ver** onay kutusu yalnızca ambar yerleşim boyutunun altındaki rezervasyon hiyerarşisi düzeylerine uygulanır.
 >
-> **Toplu iş numarası** ve **Plaka** , hiyerarşide esnek rezervasyon ilkesi için açık olan tek düzeydir. Başka bir deyişle, **Konum** veya **Seri numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu seçemezsiniz.
+> **Toplu iş numarası** ve **Plaka**, hiyerarşide esnek rezervasyon ilkesi için açık olan tek düzeydir. Başka bir deyişle, **Konum** veya **Seri numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu seçemezsiniz.
 >
 > Rezervasyon hiyerarşiniz her zaman **Toplu iş numarası** düzeyinin altında olması gereken seri numarası boyutunu içeriyorsa ve toplu iş numarası için toplu işe özel rezervasyonu etkinleştirdiyseniz, "Seri-\[yerleşim\] altı" rezervasyon ilkesi için geçerli olan kurallara dayalı olarak, sistem seri numarası rezervasyonu ve malzeme çekme operasyonlarını işlemeye devam eder.
 
-Herhangi bir noktada, dağıtımınızda varolan bir "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi için toplu işe özel rezervasyona izin verebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları ve açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için **Siparişli rezerve miktar** , **Fiziksel rezerve miktar** veya **Sipariş edilen** çıkış türünde stok hareketleri mevcutsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
+Herhangi bir noktada, dağıtımınızda varolan bir "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisi için toplu işe özel rezervasyona izin verebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları ve açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için **Siparişli rezerve miktar**, **Fiziksel rezerve miktar** veya **Sipariş edilen** çıkış türünde stok hareketleri mevcutsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
 
 > [!NOTE]
 > Bir kalemin varolan rezervasyon hiyerarşisi siparişte toplu iş belirtimine izin vermiyorsa, hiyerarşi düzeyi yapısının her iki hiyerarşide de aynı olması koşuluyla, o kalemi toplu iş belirtimine izin veren bir rezervasyon hiyerarşisine yeniden atayabilirsiniz. Yeniden atamak için **Maddeler için rezervasyon hiyerarşisini değiştir** işlevini kullanın. Bu değişiklik, esnek toplu iş rezervasyonunu toplu iş izlemeli kalemlerin bir alt kümesi için önlemek ama ürün portföyünün geri kalanı için izin vermek istediğinizde uygun olabilir.
@@ -100,22 +100,22 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 
 ### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Toplu işe özel rezervasyona izin vermek için bir stok rezervasyonu hiyerarşisi ayarlama
 
-1. **Ambar yönetimi** \> **Kurulum** \> **Stok \> Rezervasyon hiyerarşisi** 'ne gidin.
-2. **Yeni** 'yi seçin.
-3. **Ad** alanına bir ad girin (örneğin **BatchFlex** ).
-4. **Açıklama** alanına bir açıklama girin (örneğin **Toplu iş alt esnek** ).
-5. **Seçili** alanda, **Seri numarası** ve **Sahip** 'i seçin ve ardından sol ok düğmesini seçerek bunları **Kullanılabilir** alanına taşıyın.
-6. **Tamam** 'ı seçin.
+1. **Ambar yönetimi** \> **Kurulum** \> **Stok \> Rezervasyon hiyerarşisi**'ne gidin.
+2. **Yeni**'yi seçin.
+3. **Ad** alanına bir ad girin (örneğin **BatchFlex**).
+4. **Açıklama** alanına bir açıklama girin (örneğin **Toplu iş alt esnek**).
+5. **Seçili** alanda, **Seri numarası** ve **Sahip**'i seçin ve ardından sol ok düğmesini seçerek bunları **Kullanılabilir** alanına taşıyın.
+6. **Tamam**'ı seçin.
 7. **Toplu iş numarası** boyut düzeyinin satırında, **Talep emrinde rezervasyona izin ver** onay kutusunu seçin. **Plaka** ve **Yerleşim** düzeyleri otomatik olarak seçilir ve bunların onay kutularını temizleyemezsiniz.
-8. **Kaydet** 'i seçin.
+8. **Kaydet**'i seçin.
 
 ### <a name="create-a-new-released-product"></a>Yeni bir serbest bırakılan ürün oluşturma
 
 1. Bu değerleri kullanarak ürünün üç ana veri parametresini ayarlayın:
 
-    - **Depolama boyutu grubu** alanında **Ambar** 'ı seçin.
-    - **İzleme boyutu grubu** alanında **Batch-Phy** 'yi seçin.
-    - **Rezervasyon hiyerarşisi** alanında **BatchFlex** 'i seçin.
+    - **Depolama boyutu grubu** alanında **Ambar**'ı seçin.
+    - **İzleme boyutu grubu** alanında **Batch-Phy**'yi seçin.
+    - **Rezervasyon hiyerarşisi** alanında **BatchFlex**'i seçin.
 
 2. **B11** ve **B22** gibi iki toplu iş numarası oluşturun.
 3. Aşağıdaki değerleri kullanarak eldeki stoka kalem miktarları ekleyin.
@@ -128,11 +128,11 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 
 ### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Satış siparişi ayrıntılarını girin
 
-1. **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri** 'ne gidin.
-2. **Yeni** 'yi seçin.
+1. **Satış ve pazarlama** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne gidin.
+2. **Yeni**'yi seçin.
 3. Satış siparişi başlığındaki **Müşteri hesabı** alanına **US-003** girin.
-4. Yeni kalem için bir satır ekleyin ve miktar olarak **10** girin. **Ambar** alanının **24** 'e ayarlandığından emin olun.
-5. **Satış siparişi satırları** hızlı sekmesinde, **Stok** 'u ve ardından **Bakım** grubunu seçin ve **Toplu iş rezervasyonu** 'nu seçin. **Toplu iş rezervasyonu** sayfası, sipariş satırı rezervasyonu için kullanılabilecek toplu işlerin listesini gösterir. Bu örnekte, **B11** numaralı toplu iş için miktarı **20** ve **B22** numaralı toplu iş için miktarı **10** gösterir. Bir satırdaki kalem "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisiyle ilişkiliyse, toplu işe özel rezervasyona izin vermek üzere ayarlanmadığı sürece, **Toplu iş rezervasyonu** sayfasına o satırdan erişilemeyeceğine dikkat edin.
+4. Yeni kalem için bir satır ekleyin ve miktar olarak **10** girin. **Ambar** alanının **24**'e ayarlandığından emin olun.
+5. **Satış siparişi satırları** hızlı sekmesinde, **Stok**'u ve ardından **Bakım** grubunu seçin ve **Toplu iş rezervasyonu**'nu seçin. **Toplu iş rezervasyonu** sayfası, sipariş satırı rezervasyonu için kullanılabilecek toplu işlerin listesini gösterir. Bu örnekte, **B11** numaralı toplu iş için miktarı **20** ve **B22** numaralı toplu iş için miktarı **10** gösterir. Bir satırdaki kalem "Toplu iş-\[yerleşim\] altı" rezervasyon hiyerarşisiyle ilişkiliyse, toplu işe özel rezervasyona izin vermek üzere ayarlanmadığı sürece, **Toplu iş rezervasyonu** sayfasına o satırdan erişilemeyeceğine dikkat edin.
 
     > [!NOTE]
     > Bir satış siparişi için belirli bir toplu iş rezerve etmek isterseniz **Toplu iş rezervasyonu** sayfasını kullanmanız gerekir.
@@ -146,7 +146,7 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
     - **Kaynak satıra taahhütlü toplu iş numaraları** hızlı sekmesi, sipariş satırı için rezerve edilen toplu iş numaralarını gösterir. Kılavuzdaki toplu iş değerleri, ambar işleme aşamaları da dahil olmak üzere, sipariş satırının karşılanma döngüsü boyunca gösterilir. Bunun aksine, **Genel bakış** hızlı sekmesinde, normal sipariş satırı rezervasyonu (yani **Yerleşim** düzeyinin üzerindeki boyutlar için yapılan rezervasyon), ambar işinin oluşturulduğu noktaya kadar kılavuzda gösterilir. Bunun üzerine, iş varlığı satır rezervasyonunu üstlenir ve satır rezervasyonu artık sayfada görünmez. **Kaynak satıra taahhütlü toplu iş numaraları** hızlı sekmesi, satış siparişi işlemcisinin, faturalamaya kadar yaşam döngüsünün her noktasında, müşterinin siparişine taahhüt edilmiş toplu iş numaralarını görüntüleyebilmesine yardımcı olur.
     - Belirli bir toplu işi rezerve etmeye ek olarak, bir kullanıcı sistemin otomatik olarak seçmesine izin vermek yerine toplu işin özel yerleşimini ve plakasını kendisi seçebilir. Bu yetenek, sipariş taahhütlü toplu iş rezervasyon mekanizmasının tasarımıyla ilgilidir. Daha önce belirtildiği gibi, bir toplu iş numarası "Toplu iş-\[yerleşim\] altı" rezervasyon ilkesi altındaki bir kalem için rezerve edildiği zaman, sistem yerleşime kadar olan tüm boyutları rezerve etmelidir. Bu nedenle, ambar işi, siparişlerle çalışan kullanıcılar tarafından rezerve edilmiş olan aynı depolama boyutlarını taşır ve malzeme çekme operasyonları için uygun ve hatta olası olan kalem depolama yerleşimini temsil edemeyebilir. Sipariş işlemciler ambar kısıtlamalarını biliyorsa, toplu iş rezerve ederken belirli yerleşimleri ve plakaları kendileri seçmek isteyebilirler. Bu durumda , kullanıcının sayfa üst bilgisindeki **Boyutları görüntüle** işlevini kullanması, **Genel bakış** hızlı sekmesindeki kılavuza yerleşimi ve plakayı eklemesi gerekir.
 
-6. **Toplu iş rezervasyonu** sayfasında toplu iş **B11** numaralı toplu işe ait satırı ve ardından **Satırı rezerve et** 'i seçin. Otomatik rezervasyon sırasında yerleşimleri ve plakaları atamak için belirlenmiş bir mantık yoktur. Miktarı **Rezervasyon** alanına el ile girebilirsiniz. **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde, **B11** numaralı toplu işin **Taahhüt edilen** olarak gösterildiğine dikkat edin.
+6. **Toplu iş rezervasyonu** sayfasında toplu iş **B11** numaralı toplu işe ait satırı ve ardından **Satırı rezerve et**'i seçin. Otomatik rezervasyon sırasında yerleşimleri ve plakaları atamak için belirlenmiş bir mantık yoktur. Miktarı **Rezervasyon** alanına el ile girebilirsiniz. **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde, **B11** numaralı toplu işin **Taahhüt edilen** olarak gösterildiğine dikkat edin.
 
     ![Toplu iş rezervasyonu sayfasındaki bir satış siparişi satırı için belirli bir toplu iş numarasını taahhüt etme](media/Batch-reservation-form-with-order-committed-reservation.png)
 
@@ -155,20 +155,20 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
     >
     > Bir satış siparişi satırındaki miktar için belirli bir toplu işin rezervasyonu kısmi de olabilir. Örneğin, 100 birimlik toplam miktar, belirli bir toplu işe 20 birim taahhüt edilirken, uygun herhangi bir toplu işe tesis ve ambar düzeylerinde 80 birim rezerve edilecek şekilde rezerve edilebilir. Bu durumda, WMS malzeme çekme işlemlerini iki ayrı iş satırı kullanarak işler.
 
-7. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler** 'e gidin. Kaleminizi ve ardından **Stok yönetimi** \> **Görüntüle** \> **Hareketler** 'i seçin.
+7. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin. Kaleminizi ve ardından **Stok yönetimi** \> **Görüntüle** \> **Hareketler**'i seçin.
 
     ![Bir stok hareketi türü olarak sipariş taahhütlü rezervasyon](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Kalemin, satış siparişi satırı rezervasyonuna ilişkin stok hareketlerini inceleyin.
 
     - **Referans** alanının **Satış siparişi** olarak ve **Çıkış** alanının **Fiziksel rezerve miktar** olarak ayarlandığı bir hareket, **Yerleşim** düzeyinin üzerindeki stok boyutları için sipariş satırı rezervasyonunu temsil eder. Kalemin stok rezervasyonu hiyerarşisine göre bu boyutlar tesis, ambar ve stok durumudur.
-    - **Referans** alanının **Sipariş taahhütlü rezervasyon** olarak ve **Çıkış** alanının **Fiziksel rezerve miktar** olarak ayarlandığı bir hareket, belirli toplu iş ve onun üzerindeki tüm stok boyutları için sipariş satırı rezervasyonunu temsil eder. Kalemin stok rezervasyonu hiyerarşisine göre bu boyutlar toplu iş numarası ve yerleşimidir. Bu örnekte yerleşim **Bulk-001** 'dir.
+    - **Referans** alanının **Sipariş taahhütlü rezervasyon** olarak ve **Çıkış** alanının **Fiziksel rezerve miktar** olarak ayarlandığı bir hareket, belirli toplu iş ve onun üzerindeki tüm stok boyutları için sipariş satırı rezervasyonunu temsil eder. Kalemin stok rezervasyonu hiyerarşisine göre bu boyutlar toplu iş numarası ve yerleşimidir. Bu örnekte yerleşim **Bulk-001**'dir.
 
-9. Satış siparişi üst bilgisinde **Ambar** \> **Eylemler** \> **Ambara serbest bırak** 'ı seçin. Sipariş satırı artık dalgalıdır ve bir yük ve iş oluşturulur.
+9. Satış siparişi üst bilgisinde **Ambar** \> **Eylemler** \> **Ambara serbest bırak**'ı seçin. Sipariş satırı artık dalgalıdır ve bir yük ve iş oluşturulur.
 
 ### <a name="review-and-process-warehouse-work-that-has-order-committed-batch-numbers"></a>Sipariş taahhütlü toplu iş numaraları olan ambar işini inceleyin ve işleyin
 
-1. **Satış siparişi satırları** hızlı sekmesinde **Ambar** \> **İş ayrıntıları** 'nı seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde **Ambar** \> **İş ayrıntıları**'nı seçin.
 
     Satış siparişi satırına taahhüt edilen toplu iş miktarları için malzeme çekme işlemini işleyen iş aşağıdaki özelliklere sahiptir:
 
@@ -212,11 +212,11 @@ Bir siparişte plaka rezervasyonunu etkinleştirmek için ilgili öğeyle ilişk
 
 ![Esnek plaka rezervasyon hiyerarşisi için stok rezervasyonu hiyerarşileri sayfası](media/Flexible-LP-reservation-hierarchy.png)
 
-Plaka rezervasyonunu dağıtımınızdaki herhangi bir noktada, sipariş üzerinde etkinleştirebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları veya açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için *Siparişte* , *Siparişli rezerve miktar* veya *Fiziksel rezerve miktar* sorun durumuna sahip giden açık stok hareketleri varsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
+Plaka rezervasyonunu dağıtımınızdaki herhangi bir noktada, sipariş üzerinde etkinleştirebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları veya açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için *Siparişte*, *Siparişli rezerve miktar* veya *Fiziksel rezerve miktar* sorun durumuna sahip giden açık stok hareketleri varsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
 
 **Plaka** düzeyinde **Talep emrinde rezervasyon izni ver** onay kutusu seçili olsa bile siparişte belirli bir plakanın rezerve edilmesi mümkün *değildir*. Bu durumda, rezervasyon hiyerarşisi için geçerli olan varsayılan ambar operasyonları mantığı geçerlidir.
 
-Belirli bir plakayı rezerve etmek için bir [Açık Veri Protokolü (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) işlemi kullanmanız gerekir. Uygulamada bu rezervasyonu doğrudan bir satış siparişinden, **Excel'de aç** komutunun **Lisans levhası başına sipariş taahhütlü rezervasyon sayısı** seçeneğini kullanarak yapabilirsiniz. Excel eklentilerinde açılan varlık verilerinde, aşağıdaki rezervasyon ile ilgili verileri girmeniz ve sonra verileri Supply Chain Management'a geri göndermek için **Yayımla** 'yı seçmeniz gerekir:
+Belirli bir plakayı rezerve etmek için bir [Açık Veri Protokolü (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) işlemi kullanmanız gerekir. Uygulamada bu rezervasyonu doğrudan bir satış siparişinden, **Excel'de aç** komutunun **Lisans levhası başına sipariş taahhütlü rezervasyon sayısı** seçeneğini kullanarak yapabilirsiniz. Excel eklentilerinde açılan varlık verilerinde, aşağıdaki rezervasyon ile ilgili verileri girmeniz ve sonra verileri Supply Chain Management'a geri göndermek için **Yayımla**'yı seçmeniz gerekir:
 
 - Referans (Yalnızca *Satış siparişi* değeri desteklenir.)
 - Sipariş numarası (Değer lotun içinden türetilebilir.)
@@ -247,20 +247,20 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
 
 ### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Plaka rezervasyonuna izin veren bir stok rezervasyonu hiyerarşisi oluşturma
 
-1. **Ambar yönetimi \> Kurulum \> Stok \> Rezervasyon hiyerarşisi** 'ne gidin.
-1. **Yeni** 'yi seçin.
-1. **Ad** alanına bir değer girin (örneğin *FlexibleLP* ).
-1. **Açıklama** alanına bir değer girin (örneğin *Esnek LP rezervasyonu* ).
-1. **Seçili** listede **Toplu iş numarası** , **Seri numarası** ve **Sahip** seçin.
+1. **Ambar yönetimi \> Kurulum \> Stok \> Rezervasyon hiyerarşisi**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **Ad** alanına bir değer girin (örneğin *FlexibleLP*).
+1. **Açıklama** alanına bir değer girin (örneğin *Esnek LP rezervasyonu*).
+1. **Seçili** listede **Toplu iş numarası**, **Seri numarası** ve **Sahip** seçin.
 1. Seçili kayıtları **Kullanılabilir** listesine taşımak için **Kaldır** düğmesini ![geri ok](media/backward-button.png) seçin.
-1. **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
 1. **Plaka** boyut düzeyinin satırında, **Talep emrinde rezervasyona izin ver** onay kutusunu seçin. **Konum** düzeyi otomatik olarak seçilir ve onay kutusunun işaretini kaldıramazsınız.
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 
 ### <a name="create-two-released-products"></a>Yayımlanan iki ürün oluşturma
 
-1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler** 'e gidin.
-1. Eylem Bölmesinde, **Yeni** 'yi seçin.
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
 1. **Yeni yayımlanan ürün** iletişim kutusunda aşağıdaki değerleri ayarlayın:
 
     - **Ürün numarası:** *Kalem1*
@@ -271,10 +271,10 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
     - **İzleme boyutu grubu:** *Yok*
     - **Rezervasyon hiyerarşisi:** *FlexibleLP*
 
-1. Ürün oluşturmak ve iletişim kutusunu kapatmak için **Tamam** 'ı seçin.
+1. Ürün oluşturmak ve iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 1. Yeni ürün açılır. **Ambar** hızlı sekmesinde, **Birim sıra grubu kodu** alanını *beher* olarak ayarlayın.
 1. Aynı ayarlara sahip ikinci bir ürün oluşturmak için önceki adımları yineleyin ancak **ürün numarası** ve **kalem numarası** alanlarını *Kalem2* olarak ayarlayın.
-1. Eylem Bölmesinde, **Stoku yönet** sekmesindeki **Görünüm** grubunda, **Eldeki stoku** 'u seçin. Ardından **Miktar düzeltmesi** 'ni seçin.
+1. Eylem Bölmesinde, **Stoku yönet** sekmesindeki **Görünüm** grubunda, **Eldeki stoku**'u seçin. Ardından **Miktar düzeltmesi**'ni seçin.
 1. Yeni kalemlerin eldeki stokunu aşağıdaki tabloda belirtildiği gibi ayarlayın.
 
     | Madde  | Ambar | Yer | Plaka | Miktar |
@@ -289,14 +289,14 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
 
 ### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Satış siparişi oluşturma ve belirli bir plakayı rezerve etme
 
-1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri** 'ne gidin.
-1. **Yeni** 'yi seçin.
+1. **Satış ve pazarlama \> Satış siparişleri \> Tüm satış siparişleri**'ne gidin.
+1. **Yeni**'yi seçin.
 1. **Satış siparişi oluştur** iletişim kutusunda, aşağıdaki değerleri ayarlayın:
 
     - **Müşteri hesabı:** *US-001*
     - **Ambar:** *24*
 
-1. **Satış siparişi oluştur** iletişim kutusunu kapatmak ve yeni satış siparişini açmak için **Tamam** 'ı seçin.
+1. **Satış siparişi oluştur** iletişim kutusunu kapatmak ve yeni satış siparişini açmak için **Tamam**'ı seçin.
 1. **Satış siparişi satırları** hızlı sekmesinde, aşağıdaki ayarlara sahip bir satır ekleyin:
 
     - **Kalem numarası:** *Kalem1*
@@ -307,7 +307,7 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
     - **Kalem numarası:** *Kalem2*
     - **Miktar:** *5*
 
-1. **Kaydet** 'i seçin.
+1. **Kaydet**'i seçin.
 1. **Satır ayrıntıları** hızlı sekmesinde, **Kurulum** sekmesinde her satırın **Lot kodu** değerini not edin. Bu değerler, belirli plakaların rezervasyonu sırasında gereklidir.
 
     > [!NOTE]
@@ -315,39 +315,39 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
     >
     > Plakayı doğrudan satış siparişi satırına girip sistemde onayladıysanız, ambar yönetimi işlemi satır için kullanılmaz.
 
-1. **Microsoft Office'te Aç** 'ı ve ardından **Plaka başına sipariş taahhütlü rezervasyon sayısı** 'nı seçip dosyayı indirin.
-1. İndirilen dosyayı Excel'de açın ve **Düzenlemeyi etkinleştir** 'i seçerek Excel eklentisini etkinleştirin.
-1. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven** 'i seçin.
-1. Oturum açmanız istendiğinde **Oturum aç** 'ı seçin ve ardından Supply Chain Management'ta oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın.
-1. Belirli bir plakada bir kalemi rezerve etmek için Excel eklentisinde **Yeni** 'yi seçerek rezervasyon satırı ekleyin ve sonra aşağıdaki değerleri ayarlayın:
+1. **Microsoft Office'te Aç**'ı ve ardından **Plaka başına sipariş taahhütlü rezervasyon sayısı**'nı seçip dosyayı indirin.
+1. İndirilen dosyayı Excel'de açın ve **Düzenlemeyi etkinleştir**'i seçerek Excel eklentisini etkinleştirin.
+1. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'i seçin.
+1. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Supply Chain Management'ta oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın.
+1. Belirli bir plakada bir kalemi rezerve etmek için Excel eklentisinde **Yeni**'yi seçerek rezervasyon satırı ekleyin ve sonra aşağıdaki değerleri ayarlayın:
 
     - **Lot Kodu:** *Kalem1* için satış siparişi satırına yönelik bulduğunuz **Lot Kodu** değerini girin.
     - **Plaka:** *LP02*
     - **ReservedInventoryQuantity:** *10*
 
-1. **Yeni** 'yi seçerek başka bir rezervasyon satırı daha ekleyin ve aşağıdaki değerleri ayarlayın:
+1. **Yeni**'yi seçerek başka bir rezervasyon satırı daha ekleyin ve aşağıdaki değerleri ayarlayın:
 
     - **Lot Kodu:** *Kalem2* için satış siparişi satırına yönelik bulduğunuz **Lot Kodu** değerini girin.
     - **Plaka:** *LP02*
     - **ReservedInventoryQuantity:** *5*
 
-1. Verileri Supply Chain Management'a geri göndermek için Excel eklentisinde **Yayımla** 'yı seçin.
+1. Verileri Supply Chain Management'a geri göndermek için Excel eklentisinde **Yayımla**'yı seçin.
 
     > [!NOTE]
     > Rezervasyon satırı yalnızca, yayımlanma hatasız olarak tamamlanırsa sistemde görüntülenir.
 
 1. Supply Chain Management'a geri dönün. 
-1. Kalemin rezervasyonunu gözden geçirmek için **Satış siparişi satırları** hızlı sekmesinde, **Stok** menüsünde **Koru \> Rezervasyon** 'u seçin. *Kalem1* satış siparişi satırı için *10* stok rezerve edildiğine ve *Kalem2* satış siparişi satırı için ise *5* stok rezerve edildiğine dikkat edin.
-1. Satış siparişi satırı rezervasyonuna ilişkin stok hareketlerini gözden geçirmek için **Satış siparişi satırları** hızlı sekmesinde, **Stok** menüsünde **Görüntüle \> Hareketler** 'i seçin. Rezervasyonla ilgili iki hareket olduğuna dikkat edin: **Referans** alanının *Satış Siparişi* olarak ayarlandığı yer ve **Referans** alanının *Sipariş taahhütlü rezervasyon* olarak ayarlandığı yer.
+1. Kalemin rezervasyonunu gözden geçirmek için **Satış siparişi satırları** hızlı sekmesinde, **Stok** menüsünde **Koru \> Rezervasyon**'u seçin. *Kalem1* satış siparişi satırı için *10* stok rezerve edildiğine ve *Kalem2* satış siparişi satırı için ise *5* stok rezerve edildiğine dikkat edin.
+1. Satış siparişi satırı rezervasyonuna ilişkin stok hareketlerini gözden geçirmek için **Satış siparişi satırları** hızlı sekmesinde, **Stok** menüsünde **Görüntüle \> Hareketler**'i seçin. Rezervasyonla ilgili iki hareket olduğuna dikkat edin: **Referans** alanının *Satış Siparişi* olarak ayarlandığı yer ve **Referans** alanının *Sipariş taahhütlü rezervasyon* olarak ayarlandığı yer.
 
     > [!NOTE]
     > **Referans** alanının *Satış siparişi* olarak ayarlandığı bir hareket, **Konum** düzeyinin üzerindeki stok boyutları (tesis, ambar ve stok durumu) için sipariş satırı rezervasyonunu temsil eder. **Referans** alanının *Sipariş taahhütlü rezervasyon* olarak ayarlandığı bir hareket, belirli bir plaka ve konum için sipariş satırı rezervasyonunu temsil eder.
 
-1. Satış siparişini serbest bırakmak için Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda **Ambara serbest bırak** 'ı seçin.
+1. Satış siparişini serbest bırakmak için Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda **Ambara serbest bırak**'ı seçin.
 
 ### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Sipariş taahhütlü plaka atanmış ambar işini gözden geçirme ve işleme
 
-1. **Satış siparişi satırları** hızlı sekmesinde, **Ambar** menüsünde **İş ayrıntıları** 'nı seçin.
+1. **Satış siparişi satırları** hızlı sekmesinde, **Ambar** menüsünde **İş ayrıntıları**'nı seçin.
 
     Belirli bir toplu iş için rezervasyon yapıldığında, sistem, plaka rezervasyonunu kullanan satış siparişi için işi oluşturduğunda konum yönergelerini kullanmaz. Sipariş taahhütlü rezervasyon, konum da dahil olmak üzere tüm stok boyutlarını belirttiğinden, bu stok boyutları işe girilmiş olduğu için konum yönergelerinin kullanılması gerekmez. Bunlar **İş stok hareketleri** sayfasındaki **Stok boyutlarından** bölümünde gösterilir.
 
@@ -373,19 +373,19 @@ Tüm bu özel durum işleme eylemlerine şu temel kural uygulanır: Müşteri i�
 
 Bu senaryoya bir örnek, önceden tamamlanan işin seçiminin **Çekilen miktarı düş** işleviyle iptal edildiği durumdur. Bu örnekte, [Örnek senaryo: Toplu iş numarası tahsisatı](#Example-batch-allocation) konusunda açıklanan adımları zaten tamamladığınız varsayılmaktadır. Bu örnekten devam edilir.
 
-1. **Ambar yönetimi** \> **Yükler** \> **Etkin yükler** 'e gidin.
+1. **Ambar yönetimi** \> **Yükler** \> **Etkin yükler**'e gidin.
 2. Satış siparişinin sevkiyatı ile bağlantılı olarak oluşturulan yükü seçin.
-3. **Yük emri satırları** hızlı sekmesinden, **Çekilen miktarı düş** 'ü seçin.
-4. **Çekilen miktarı düş** sayfasındaki **Yerleşime taşı** alanında **FL-001** 'i seçin.
-5. **Plakaya taşı** alanında **LP33** 'ü seçin.
+3. **Yük emri satırları** hızlı sekmesinden, **Çekilen miktarı düş**'ü seçin.
+4. **Çekilen miktarı düş** sayfasındaki **Yerleşime taşı** alanında **FL-001**'i seçin.
+5. **Plakaya taşı** alanında **LP33**'ü seçin.
 6. Kılavuzdaki **Çekme işlemi geri alınacak stok miktarı** alanına **10** girin.
-7. **Tamam** 'ı seçin.
+7. **Tamam**'ı seçin.
 
 Çekme işlemini geri alma eyleminin sonuçları:
 
 - Daha önce kapatılan işin durumu **İptal edildi** olarak ayarlanır.
 - **B11** numaralı toplu işte çekme işlemi iptal edilen **10** miktarı için **Stok hareketi** türünde yeni iş oluşturulur. Bu iş, **Baydoor** yerleşiminden **FL-001** yerleşimindeki **LP33** numaralı plakaya hareketi temsil eder. Durum ayarı **Kapalı** yapılır.
-- Sistem, başlangıçta sipariş edilen toplu iş numarasını yeniden rezerve edip yerleşim ve plaka kodlarının atamasını yapar. (Bu işlem, belirli bir toplu iş numarasına yönelik olarak sipariş satırı için **Satırı rezerve et** işlevini çalıştırmaya eşdeğerdir.) Sonuç olarak **B11** numaralı toplu iş, **Toplu iş rezervasyonu** sayfasının **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde Taahhüt edildi olarak gösterilir ve **Rezervasyon** alanında **B11** numaralı toplu iş için **10** miktarı yer alır. Ek olarak, **Yerleşim** alanı ayarı **FL-001** , **Plaka** alanı ayarı **LP11** olur. (Bu alanlar görünmüyorsa, kılavuza ekleyebilirsiniz.)
+- Sistem, başlangıçta sipariş edilen toplu iş numarasını yeniden rezerve edip yerleşim ve plaka kodlarının atamasını yapar. (Bu işlem, belirli bir toplu iş numarasına yönelik olarak sipariş satırı için **Satırı rezerve et** işlevini çalıştırmaya eşdeğerdir.) Sonuç olarak **B11** numaralı toplu iş, **Toplu iş rezervasyonu** sayfasının **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde Taahhüt edildi olarak gösterilir ve **Rezervasyon** alanında **B11** numaralı toplu iş için **10** miktarı yer alır. Ek olarak, **Yerleşim** alanı ayarı **FL-001**, **Plaka** alanı ayarı **LP11** olur. (Bu alanlar görünmüyorsa, kılavuza ekleyebilirsiniz.)
 
 Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhütlü toplu iş rezervasyonunu nasıl işleyeceğine ilişkin genel bilgiler verilmektedir. Tablolardaki içeriği yorumlamak için, her ambar eyleminin, sipariş taahhütlü bir toplu iş rezervasyonundan kaynaklanan mevcut ambar işi bağlamında çalıştırıldığını veya her ambar eyleminin bu türdeki işi etkilediğini varsayın.
 

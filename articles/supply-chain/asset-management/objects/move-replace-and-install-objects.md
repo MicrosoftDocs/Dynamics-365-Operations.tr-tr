@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889565"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439355"
 ---
 # <a name="move-replace-and-install-assets"></a>Varlıkları taşıma, değiştirme ve yükleme
 
@@ -71,7 +71,7 @@ Onarımlar, yenileme veya aşınmış bir varlığın yeni bir varlıkla kalıc�
 
     **Üst varlık** bölümünde, **Etkin** alanı üst varlığın ve ilgili alt varlıkların geçerli işlem yapılacak yerleşime yüklendiği veya taşındığı son tarih ve saati gösterir.
 
-5. **Yeni varlık** bölümünde, **Varlık** alanında, seçili varlık için geçici veya kalıcı değişiklik olarak eklenecek varlığı seçin. Bu varlık halihazırda **Depolama**gibi başka bir işlem yapılacak yerleşimde bulunuyor olabilir.
+5. **Yeni varlık** bölümünde, **Varlık** alanında, seçili varlık için geçici veya kalıcı değişiklik olarak eklenecek varlığı seçin. Bu varlık halihazırda **Depolama** gibi başka bir işlem yapılacak yerleşimde bulunuyor olabilir.
 7. **Yürürlük başlangıcı** bölümünde, **Etkin** alanı varsayılan olarak geçerli tarihe ve saate ayarlanır. Ancak, varlık değiştirme geçerlilik başlangıcı olarak farklı bir tarih ve saat seçebilirsiniz.
 8. **Tamam**'ı seçin.
 

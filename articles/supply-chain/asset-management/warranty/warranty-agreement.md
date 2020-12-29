@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719250"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439438"
 ---
 # <a name="warranty-agreements"></a>Garanti sözleşmeleri
 

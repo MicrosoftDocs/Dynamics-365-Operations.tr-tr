@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597348"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439092"
 ---
 # <a name="release-to-warehouse-rule"></a>Ambara serbest bırakma kuralı
 
@@ -127,7 +127,7 @@ Bu senaryo, özelliğin **Kısmi serbest bırakmaya izin ver** şeklinde ayarlan
 1. Sevkiyat, yükleme ve iş bilgilerini görüntülemek için kılavuzun yukarısındaki **Ambar** menüsünün seçeneklerini kullanın:
 
     - **Satır 1:** Üç seçenek mevcuttur: **Sevkiyat ayrıntıları**, **Yükleme ayrıntıları** ve **İş ayrıntıları**. Sipariş ambara serbest bırakıldığında oluşturulan sevkiyat, yükleme ve iş ayrıntılarını görüntülemek için her bir seçeneği belirleyin.
-    - **Satır 2:** Yalnızca **İş ayrıntıları**seçeneği kullanılabilir. Bunu seçin ve stok rezerve edilmediği için iş oluşturulmadığına dikkat edin. Bu nedenle, sevkiyat veya yük oluşturulmamıştır.
+    - **Satır 2:** Yalnızca **İş ayrıntıları** seçeneği kullanılabilir. Bunu seçin ve stok rezerve edilmediği için iş oluşturulmadığına dikkat edin. Bu nedenle, sevkiyat veya yük oluşturulmamıştır.
 
 > [!NOTE]
 > İkinci satır kısmen rezerve edildiğinde aynı sonuç beklenir. Bu durumda, rezerve edilmiş satır miktarı için iş oluşturulur ancak rezerve edilmemiş miktar için oluşturulmaz.

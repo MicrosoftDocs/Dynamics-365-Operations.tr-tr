@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 51f7d6b0402ebbed417554978fc8d927f6b9c606
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207221"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439571"
 ---
 # <a name="set-up-consignment"></a>Konsinyeyi ayarlama
 

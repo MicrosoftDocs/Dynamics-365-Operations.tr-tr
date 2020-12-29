@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016828"
+ms.locfileid: "4439640"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sevkiyat konsolidasyonu çalışma ekranı kullanılarak sevkiyatları konsolide etme
 
@@ -63,10 +63,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 #### <a name="sales-order-1-3"></a>Satış siparişi 1-3
 
@@ -77,17 +77,17 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 1. Aşağıdaki ayarlara sahip ikinci bir satış siparişi satırı oluşturun:
 
-    - **Madde numarası:** *A0002* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0002* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
     - **Teslimat şekli:** *Airwa-Air*
 
-1. **Stok \> Rezervasyon** 'u ve sonra Eylem Bölmesi'nde, ikinci sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra Eylem Bölmesi'nde, ikinci sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 ### <a name="create-order-set-2"></a>Sipariş kümesi 2'yi oluşturma
 
@@ -100,17 +100,17 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *M9200* ( **Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9200* (**Kod 4** filtresinin *Yanıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 1. Aşağıdaki ayarlara sahip ikinci bir satış siparişi satırı oluşturun:
 
-    - **Madde numarası:** *M9201* ( **Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
+    - **Madde numarası:** *M9201* (**Kod 4** filtresinin *Patlayıcı* değerine ayarlandığı bir madde)
     - **Miktar:** *1.00*
     - **Teslimat şekli:** *Airwa-Air*
 
-1. **Stok \> Rezervasyon** 'u ve sonra Eylem Bölmesi'nde, ikinci sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra Eylem Bölmesi'nde, ikinci sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 ### <a name="create-order-set-3"></a>Sipariş kümesi 3'ü oluşturma
 
@@ -123,10 +123,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 #### <a name="sales-orders-3-3-and-3-4"></a>Satış siparişleri 3-3 ve 3-4
 
@@ -137,10 +137,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 ### <a name="create-order-set-4"></a>Sipariş kümesi 4'ü oluşturma
 
@@ -152,10 +152,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 #### <a name="sales-orders-4-3-and-4-4"></a>Satış siparişleri 4-3 ve 4-4
 
@@ -165,10 +165,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 #### <a name="sales-orders-4-5-and-4-6"></a>Satış siparişleri 4-5 ve 4-6
 
@@ -181,10 +181,10 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 #### <a name="sales-orders-4-7-and-4-8"></a>Satış siparişleri 4-7 ve 4-8
 
@@ -197,39 +197,39 @@ Burada açıklanan senaryo, özelliği önceden açtığınız, [Sevkiyat konsol
 
 1. Aşağıdaki ayarlara sahip bir satış siparişi satırı ekleyin:
 
-    - **Madde numarası:** *A0001* ( **Kod 4** filtresi atanmamış bir madde)
+    - **Madde numarası:** *A0001* (**Kod 4** filtresi atanmamış bir madde)
     - **Miktar:** *1.00*
 
-1. **Stok \> Rezervasyon** 'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et** 'i seçin.
+1. **Stok \> Rezervasyon**'u ve sonra, Eylem Bölmesi'nde sipariş satırını rezerve etmek için **Lotu rezerve et**'i seçin.
 
 ## <a name="release-the-orders-to-the-warehouse"></a>Siparişleri ambara serbest bırakma
 
 Bu senaryo için oluşturduğunuz her satış siparişini ambara serbest bırakmak için aşağıdaki adımları izleyin.
 
-1. **Alacak hesapları \> Siparişler \> Tüm satış siparişleri** 'ne gidin.
+1. **Alacak hesapları \> Siparişler \> Tüm satış siparişleri**'ne gidin.
 1. Serbest bırakılacak satış siparişini bulun ve seçin.
-1. Eylem Bölmesi'ndeki **Ambar** sekmesinde, seçili satış siparişini serbest bırakmak için **Eylemler \> Ambara serbest bırak** 'ı seçin.
+1. Eylem Bölmesi'ndeki **Ambar** sekmesinde, seçili satış siparişini serbest bırakmak için **Eylemler \> Ambara serbest bırak**'ı seçin.
 1. Bu yordamı, bu senaryo için oluşturduğunuz diğer satış siparişlerinin her biri için yineleyin.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Sevkiyat konsolidasyonu çalışma ekranı kullanılarak sevkiyatları konsolide etme
 
-1. **Ambar yönetimi \> Ambara serbest bırakma \> Sevkiyat konsolidasyonu çalışma ekranı** 'na gidin.
-1. Eylem Bölmesi'nde, **Sorgu düzenle** 'yi seçin.
-1. Sorgu düzenleyici iletişim kutusunda, kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle** 'yi seçin:
+1. **Ambar yönetimi \> Ambara serbest bırakma \> Sevkiyat konsolidasyonu çalışma ekranı**'na gidin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
+1. Sorgu düzenleyici iletişim kutusunda, kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle**'yi seçin:
 
     - **Tablo:** *Satış siparişleri*
     - **Alan:** *Satış siparişi*
     - **Ölçütler:** Bu senaryo için oluşturduğunuz her sipariş kümesi için virgülle ayrılmış satış siparişi numaralarının listesini girin.
 
-1. Sorgunuzu kaydetmek için **Tamam** 'ı seçin ve iletişim kutusunu kapatın.
-1. Eylem Bölmesi'nde, **Sevkiyatları konsolide et** 'i seçin.
-1. Tüm sevkiyatları seçin ve ardından Eylem Bölmesi'nde, **Konsolide et** 'i belirleyin.
+1. Sorgunuzu kaydetmek için **Tamam**'ı seçin ve iletişim kutusunu kapatın.
+1. Eylem Bölmesi'nde, **Sevkiyatları konsolide et**'i seçin.
+1. Tüm sevkiyatları seçin ve ardından Eylem Bölmesi'nde, **Konsolide et**'i belirleyin.
 
 ## <a name="verify-the-shipments"></a>Sevkiyatları doğrulama
 
 Aşağıdaki yordam, sevkiyat konsolidasyonu nedeniyle oluşturulan veya güncelleştirilen sevkiyatları doğrulamanıza olanak verir. Bu senaryo için oluşturduğunuz her bir sipariş kümesini gözden geçirmek için bunu kullanın ve sonra, beklenen sonuçları elde ettiğinize emin olmak için izleyen alt bölümleri gözden geçirin.
 
-1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar** 'a gidin.
+1. **Ambar yönetimi \> Sevkiyatlar \> Tüm sevkiyatlar**'a gidin.
 1. Gerekli sevkiyatı bulun ve seçin.
 1. Sevkiyat oluşturulduğunda veya güncelleştirildiğinde bir konsolidasyon ilkesi kullanılmışsa bunu **Sevkiyat konsolidasyon ilkesi** alanında görmeniz gerekir.
 

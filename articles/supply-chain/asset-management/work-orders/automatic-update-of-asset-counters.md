@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: fcc46fad8d57b7d4d57edfa4f2ae06de923d1c14
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209194"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439120"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Kıymet sayaçlarını otomatik olarak güncelleştirme
 

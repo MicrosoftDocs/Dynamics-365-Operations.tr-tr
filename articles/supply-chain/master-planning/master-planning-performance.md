@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323658"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439516"
 ---
 # <a name="improve-master-planning-performance"></a>Master planlama performansını iyileştirme
 
@@ -42,7 +42,7 @@ Bu konu, sorun giderme yeteneğine sahip olan sistem yöneticileri veya BT kulla
 
 **İş parçacığı sayısı** parametresi, belirli veri kümesinde daha iyi çalışmasına yardımcı olacak master planlama sürecini ayarlamanıza olanak sağlar. Bu parametre, master planlamayı çalıştırmak için kullanılacak iş parçacıklarının toplam sayısını belirtir. Master planlama çalıştırmasının paralelleşmesine neden olur ve bu, çalışma süresinin azalmasına yardımcı olur. 
 
-**Master planlamayı çalıştır** iletişim kutusunda**İş parçacığı sayısı çalıştır** parametresini ayarlayabilirsiniz. Bu iletişim kutusunu açmak için **Master planlama \> Master planlama \> Çalıştır \> Master planlama**'ya gidin ya da **Master planlama** çalışma alanında **Çalıştır**'ı seçin. Bu parametrenin en iyi değerini belirlemek için bir deneme ve hata işlemine güvenmelidir. Ancak bir başlangıç değeri hesaplamak için aşağıdaki formülleri kullanabilirsiniz:
+**Master planlamayı çalıştır** iletişim kutusunda **İş parçacığı sayısı çalıştır** parametresini ayarlayabilirsiniz. Bu iletişim kutusunu açmak için **Master planlama \> Master planlama \> Çalıştır \> Master planlama**'ya gidin ya da **Master planlama** çalışma alanında **Çalıştır**'ı seçin. Bu parametrenin en iyi değerini belirlemek için bir deneme ve hata işlemine güvenmelidir. Ancak bir başlangıç değeri hesaplamak için aşağıdaki formülleri kullanabilirsiniz:
 
 - **Sektörünüz imalatsa** (İş parçacığı sayısı) = (Planlanan sipariş sayısı ÷ 1.000)
 - **Aksi takdirde:** (İş parçacığı sayısı) = (Madde sayısı ÷ 1.000)
@@ -56,7 +56,7 @@ Master planlama sırasında kullanılan yardımcıların sayısı, toplu iş sun
 
 **Ürün demetindeki görevlerin sayısı** ayarlarını değiştirerek (ürün demeti) çalışma süresini azaltabilirsiniz. Bu ayar tek bir yardımcıyla birlikte planlanan madde sayısını kontrol eder.
 
-**Master planı parametreleri** sayfasının  **Genel** sekmesindeki **Performans** bölümündeki **Ürün demetindeki görevlerin sayısı**'nı ayarlayabilirsiniz (**Master planlama \> Kurulum \> Master planlama parametreleri**). Bu parametre için en iyi değer verilerinize bağlıdır. Bu nedenle, **1**değeriyle başlamanız ve sonra kurulumun en iyi değerini belirlemek için bir deneme-hata süreci kullanmanızı öneririz.
+**Master planı parametreleri** sayfasının  **Genel** sekmesindeki **Performans** bölümündeki **Ürün demetindeki görevlerin sayısı**'nı ayarlayabilirsiniz (**Master planlama \> Kurulum \> Master planlama parametreleri**). Bu parametre için en iyi değer verilerinize bağlıdır. Bu nedenle, **1** değeriyle başlamanız ve sonra kurulumun en iyi değerini belirlemek için bir deneme-hata süreci kullanmanızı öneririz.
 
 Genel olarak, öğe sayısı çok büyükse (yüzbinlerce) görev sayısını artırmanız önerilir. Aksi durumda, görev sayısını azaltmanız gerekir. Aşağıdaki belirli sektörler için şu önerileri göz önünde bulundurun:
 
@@ -64,7 +64,7 @@ Genel olarak, öğe sayısı çok büyükse (yüzbinlerce) görev sayısını ar
 - Birçok ürün reçetesi (BOM) ve paylaşılan alt bileşenlerin bulunduğu üretim sektöründe, maddeler arasındaki bağımlılıklar bekleme sürelerine neden olabileceğinden, daha az sayıda yardımcı kullanın.
 
 > [!TIP]
-> Performans sorunlarınız varsa **Görev ürün demeti yardımcı sayısı**ayarındaki yardımcıların sayısını **1**'e azaltmanız önerilir. Daha sonra kurulumunuz için en iyi değeri bulmak üzere deneme ve hata sürecini başlatabilirsiniz. Genel olarak, performans sorunları, bir öğenin kalan öğelerden daha uzun sürdüğü zaman ortaya çıkar. Bu durumda, master planlama çalışmasında **Karşılama** durumunda olan iki sonraki görevin çalışması önemli ölçüde farklı olacaktır. Olağanüstü durumlarda, bu fark 30 dakika kadar olabilir. Görevlerin çalışmaya tamamlanması için gereken süreyi, her bir görevin süresine bakarak belirtebilirsiniz.
+> Performans sorunlarınız varsa **Görev ürün demeti yardımcı sayısı** ayarındaki yardımcıların sayısını **1**'e azaltmanız önerilir. Daha sonra kurulumunuz için en iyi değeri bulmak üzere deneme ve hata sürecini başlatabilirsiniz. Genel olarak, performans sorunları, bir öğenin kalan öğelerden daha uzun sürdüğü zaman ortaya çıkar. Bu durumda, master planlama çalışmasında **Karşılama** durumunda olan iki sonraki görevin çalışması önemli ölçüde farklı olacaktır. Olağanüstü durumlarda, bu fark 30 dakika kadar olabilir. Görevlerin çalışmaya tamamlanması için gereken süreyi, her bir görevin süresine bakarak belirtebilirsiniz.
 
 ### <a name="use-of-cache"></a>Önbellek kullanımı
 
@@ -84,7 +84,7 @@ Hangi seçeneğin daha iyi olacağını tahmin etmek zordur, çünkü her durum 
 
 **Kesinleşen ürün demetindeki siparişlerin sayısı** parametresindeki sayı veya siparişler her bir iş parçacığı/toplu iş tarafından bir seferde işlenecek siparişlerin toplam sayısını belirtir. Otomatik kesinleştirme sürecinin paralelleşmesine neden olur.
 
-**Master planı parametreleri** sayfasının  **Genel** sekmesindeki **Performans** bölümündeki **Kesinleşen ürün demetindeki siparişlerin sayısı**'nı ayarlayabilirsiniz (**Master planlama \> Ayarlama \> Master planlama parametreleri**). Otomatik kesinleştirme sürecinin paralelleştirmesi, birlikte işlenmesi gereken siparişlere dayanır. Örneğin, bu parametre **50**olarak ayarlanırsa her iş parçacığı veya toplu görev, her seferinde 50 sipariş alır ve bunları birlikte işler. En iyi değeri bulmak için bir deneme ve hata işlemi kullanmanızı öneririz. Ancak bir başlangıç değeri hesaplamak için aşağıdaki formülü kullanabilirsiniz:
+**Master planı parametreleri** sayfasının  **Genel** sekmesindeki **Performans** bölümündeki **Kesinleşen ürün demetindeki siparişlerin sayısı**'nı ayarlayabilirsiniz (**Master planlama \> Ayarlama \> Master planlama parametreleri**). Otomatik kesinleştirme sürecinin paralelleştirmesi, birlikte işlenmesi gereken siparişlere dayanır. Örneğin, bu parametre **50** olarak ayarlanırsa her iş parçacığı veya toplu görev, her seferinde 50 sipariş alır ve bunları birlikte işler. En iyi değeri bulmak için bir deneme ve hata işlemi kullanmanızı öneririz. Ancak bir başlangıç değeri hesaplamak için aşağıdaki formülü kullanabilirsiniz:
 
 (Paket başına sipariş sayısı) = (Talep öğelerinin sayısı ÷ İş parçacığı sayısı)
 

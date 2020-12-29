@@ -16,11 +16,11 @@ ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763491"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439574"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 
@@ -50,7 +50,7 @@ _Ambar işlemleri için kalite yönetimi_ özelliği açık olduğunda, temel am
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Etkinleştiriciler: Kalite madde örnekleme ve Kalite emri iş emri türleri
 
-_Ambar işlemleri için kalite yönetimi_özelliği, iş oluşturma işlemini etkinleştiren iki iş emri türü sunar:
+_Ambar işlemleri için kalite yönetimi_ özelliği, iş oluşturma işlemini etkinleştiren iki iş emri türü sunar:
 
 - **Kalite maddesi örnekleme** – Bu iş emri türü, kayıtlı stoğu kalite kontrolüne taşıyan bir iş oluşturmak için kullanılır.
 - **Kalite emri** – Bu iş emri, yerleşim yönergesi kurulumunu temel alarak, stoğu kalite kontrolünden yeni bir yerleşime taşıyan bir iş oluşturmak için kullanılır.
@@ -80,7 +80,7 @@ Belirli bir ambar için _Ambar işlemleri için kalite yönetimi özelliği_ uyg
 1. Kalite yönetimi için etkinleştirilecek ambarı seçin.
 1. **Ambar** hızlı sekmesinde **Ambar işlemleri için kalite emrini etkinleştir** seçeneğini _Evet_ olarak ayarlayın. (Bu seçenek yalnızca ambar yönetimi işlemlerini kullanan ambarlar için _Evet_ olarak ayarlanabilir.)
 
-**Ambar işlemleri için kalite emrini etkinleştir** seçeneği _Evet_olarak ayarlandığında, kalite ilişkisi kurulumu _Ambar işlemleri için kalite yönetimi_ özelliğinin seçili ambar için geçerli olup olmadığını kontrol eder. Seçeneğin ayarını istediğiniz zaman _Hayır_ olarak değiştirebilirsiniz. Bu durumda, kalite ilişkisi kurulumuna bakılmaksızın özellik artık ambar için geçerli olmayacaktır.
+**Ambar işlemleri için kalite emrini etkinleştir** seçeneği _Evet_ olarak ayarlandığında, kalite ilişkisi kurulumu _Ambar işlemleri için kalite yönetimi_ özelliğinin seçili ambar için geçerli olup olmadığını kontrol eder. Seçeneğin ayarını istediğiniz zaman _Hayır_ olarak değiştirebilirsiniz. Bu durumda, kalite ilişkisi kurulumuna bakılmaksızın özellik artık ambar için geçerli olmayacaktır.
 
 ## <a name="quality-control"></a>Kalite kontrol
 
@@ -379,7 +379,7 @@ Ardından, ambar 51 için varolan satınalma siparişi konum yönergelerinin sı
 
 #### <a name="item-sampling"></a>Madde örnekleme
 
-_Ambar işlemleri için kalite yönetimi_ özelliği bazı yeni madde örnekleme yetenekleri ekler. **Örnekleme kapsamı** değeri artık _Sipariş_, _Sevkiyat_ veya _Yük_olabilir ve **Örnekleme miktarı** değeri artık _Tam plaka_ olabilir.
+_Ambar işlemleri için kalite yönetimi_ özelliği bazı yeni madde örnekleme yetenekleri ekler. **Örnekleme kapsamı** değeri artık _Sipariş_, _Sevkiyat_ veya _Yük_ olabilir ve **Örnekleme miktarı** değeri artık _Tam plaka_ olabilir.
 
 1. **Stok yönetimi \> Kurulum \> Kalite kontrol \> Madde örnekleme**'ye gidin.
 1. Bir madde örnekleme kaydı oluşturun ve aşağıdaki değerleri ayarlayın:

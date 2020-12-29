@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015079"
+ms.locfileid: "4439611"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -180,7 +180,7 @@ Kısıtlama çözücü, planlama algoritmasının özelliklerini bilmez. İşlem
 
 Altyapıdaki (dahili) kısıtlamaların büyük bir bölümü bir kaynağın çalışma süresini ve kapasitesini denetler. Esas olarak görev, bir kaynak için çalışma zamanı aralıklarını belirli bir noktadan belirli bir yöne geçirmek ve iş için gerekli olan kapasitenin (saat) uygun olacağı yeterince uzun bir zaman aralığı bulmaktır.
 
-Bunu yapmak için, altyapının bir kaynağın çalışma saatlerini bilmesi gerekir. Ana model verilerinin tersine çalışma süreleri *yavaş yüklenir* , diğer deyişle altyapıya gerektiğinde yüklenir. Bu yaklaşımın nedeni, genellikle Supply Chain Management'ta çok uzun süreli bir takvim çalışma sürelerinin olması ve genellikle birçok takvimin bulunması ve buna bağlı olarak verilerin önceden yükleme için oldukça fazla olmasıdır.
+Bunu yapmak için, altyapının bir kaynağın çalışma saatlerini bilmesi gerekir. Ana model verilerinin tersine çalışma süreleri *yavaş yüklenir*, diğer deyişle altyapıya gerektiğinde yüklenir. Bu yaklaşımın nedeni, genellikle Supply Chain Management'ta çok uzun süreli bir takvim çalışma sürelerinin olması ve genellikle birçok takvimin bulunması ve buna bağlı olarak verilerin önceden yükleme için oldukça fazla olmasıdır.
 
 Takvim bilgileri, altyapı tarafından X++ sınıfı yöntemi `WrkCtrSchedulingInteropDataProvider.getWorkingTimes` çağrılarak öbekler halinde istenir. İstek, belirli bir zaman aralığındaki belirli bir takvim kodu için yapılır. Supply Chain Management'daki sunucu önbelleğinin durumuna bağlı olarak, bu isteklerin her biri uzun süren (saf bilgi işlem zamanına göre) birkaç veritabanı çağrısıyla sonlanabilir. Ayrıca, takvimde gün başına birçok çalışma zamanı aralığı içeren çok ayrıntılı çalışma zamanı tanımları varsa bu, yükleme süresine eklenir.
 
@@ -256,9 +256,9 @@ Yukarıdaki mantık her "özellik" türü için aynı olduğundan karmaşıktır
 
 ## <a name="viewing-scheduling-engine-input-and-output"></a>Planlama alt yapısı giriş ve çıkışını görüntüleme
 
-Planlama sürecinin giriş ve çıkışıyla ilgili özel ayrıntılar almak için, **Kuruluş Yönetimi \> Kurulum \> Planlama \> Planlama izleme kokpiti** 'ni kullanarak günlük kaydını etkinleştirin.
+Planlama sürecinin giriş ve çıkışıyla ilgili özel ayrıntılar almak için, **Kuruluş Yönetimi \> Kurulum \> Planlama \> Planlama izleme kokpiti**'ni kullanarak günlük kaydını etkinleştirin.
 
-Bu sayfada, önce Eylem bölmesinde **Günlük kaydını etkinleştir** 'i seçin. Ardından, üretim emri için planlamayı çalıştırın. Tamamlandığında, **Planlama izleme kokpiti** sayfasına geri dönün ve Eylem bölmesinde **Günlük kaydını devre dışı bırak** 'ı seçin. Sayfayı yenileyin; ızgarada yeni bir satır görüntülenir. Yeni satırı ve ardından Eylem Bölmesinde **İndir** 'i seçin. Bu size, aşağıdaki dosyaları içeren .zip ile sıkıştırılmış bir klasör verecektir:
+Bu sayfada, önce Eylem bölmesinde **Günlük kaydını etkinleştir**'i seçin. Ardından, üretim emri için planlamayı çalıştırın. Tamamlandığında, **Planlama izleme kokpiti** sayfasına geri dönün ve Eylem bölmesinde **Günlük kaydını devre dışı bırak**'ı seçin. Sayfayı yenileyin; ızgarada yeni bir satır görüntülenir. Yeni satırı ve ardından Eylem Bölmesinde **İndir**'i seçin. Bu size, aşağıdaki dosyaları içeren .zip ile sıkıştırılmış bir klasör verecektir:
 
 - **Log.txt** - Bu, altyapının geçtiği adımları açıklayan günlük dosyasıdır. Çok ayrıntılı ve bunaltıcı olabilir, ancak performans sorunlarını çözmede izlenecek yolun bir parçası olarak kullanıldığında, ilk bakılacak olan ilk ve son satır arasındaki farktır çünkü bu değer planlayıcının harcadığı toplam süreyi belirtir.
 - **XmlModel.xml** - X++ içinde oluşturulan ve altyapının üzerinde işlem yaptığı modeli içerir. Dosyada kullanılan `JobId` işleri içeren kaynak tablodan alınan `RecId` ile ilişkilidir (`ReqRouteJob` veya `ProdRouteJob`). Bu dosyada aranacak tipik şey, `ConstraintJobStartsAt` ve `ConstraintJobEndsAt` içindeki tarihlerin beklendiği gibi olup olmadığı, `JobGoal` özelliğin doğru şekilde ayarlandığı ve işlerin `JobLink` kısıtlamaları üzerinden birbirleriyle ilişkili olduğudur.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b91e88292acf8e67de924a746b02858664ae9ec6
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3890021"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439432"
 ---
 # <a name="asset-attribute-overview"></a>Kıymet özniteliğine genel bakış
 

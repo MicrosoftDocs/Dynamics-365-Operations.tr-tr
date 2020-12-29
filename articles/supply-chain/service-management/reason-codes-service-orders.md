@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec8a318561663f4a1b2cfd7735b5c1a5d18e8c0f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975788"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439048"
 ---
 # <a name="reason-codes-for-service-orders"></a>Servis siparişleri için neden kodları   
 

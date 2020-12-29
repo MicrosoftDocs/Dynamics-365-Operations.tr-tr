@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439091"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Ambar uygulamasında kamera kullanarak barkod okutma
 

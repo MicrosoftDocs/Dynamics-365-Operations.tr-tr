@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: e92a15cf4e2694eba1804184a02a7fd13159799e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215666"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439180"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Taşıma yükü kısmi sevkiyatı
 

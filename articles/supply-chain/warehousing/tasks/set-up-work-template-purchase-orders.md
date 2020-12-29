@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980598"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439509"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Satın alma siparişleri için iş şablonunu ayarlama
 

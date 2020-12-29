@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc25ff113291b2a8a0a7ba15637e4d094feb9aae
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978954"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4439461"
 ---
 # <a name="delivery-schedules"></a>Teslimat zaman çizelgeleri
 
