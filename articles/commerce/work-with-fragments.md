@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019576"
+ms.locfileid: "4416554"
 ---
 # <a name="work-with-fragments"></a>Parçalarla çalışma 
 
@@ -62,10 +62,10 @@ Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça 
 
 1. Bir parçaya dönüştürmek istediğiniz modülü içeren sayfayı veya şablonu açın.
 1. Sol taraftaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, önceden yapılandırılmış modülü seçin.
-1. Ana hat bölmesinde veya görsel sayfa oluşturucuda seçili modülün araç çubuğunda modül adının yanındaki üç noktayı ( **...** ) seçin. 
-1. **Parça olarak Paylaş** 'ı seçin. 
+1. Ana hat bölmesinde veya görsel sayfa oluşturucuda seçili modülün araç çubuğunda modül adının yanındaki üç noktayı (**...**) seçin. 
+1. **Parça olarak Paylaş**'ı seçin. 
 1. **Parça Olarak Kaydet** iletişim kutusunda, parça için bir ad girin.
-1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam** 'ı seçin.
+1. Modül konfigürasyonunu diğer sayfalara eklenebilecek bir parça olarak kaydetmek için **Tamam**'ı seçin.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
@@ -74,7 +74,7 @@ Yeni bir parça oluşturabilir veya varolan bir modül konfigürasyonunu parça 
 Commerce site oluşturucuda yeni parça oluşturmak için aşağıdaki adımları izleyin.
 
 1. Soldaki gezinti bölmesinde **Parçalar** seçin.
-1. **Yeni** 'yi seçin. Kullanılabilen tüm modül türlerini gösteren bir **yeni parça** iletişim kutusu görüntülenir. Daha önce belirtildiği gibi, parçalar herhangi bir modül türünden oluşturulabilir.
+1. **Yeni**'yi seçin. Kullanılabilen tüm modül türlerini gösteren bir **yeni parça** iletişim kutusu görüntülenir. Daha önce belirtildiği gibi, parçalar herhangi bir modül türünden oluşturulabilir.
 1. Parçanız için bir modül türü seçin.
 
 <!-- The following image shows where to create a new fragment.-->
@@ -91,8 +91,8 @@ Aşağıdaki yordamlarda parçaların nasıl ekleneceği, kaldırılacağı ve d
 Commerce site oluşturucuda bir sayfaya parça eklemek için aşağıdaki adımları izleyin.
 
 1. Soldaki ana hat bölmesinde veya doğrudan görsel sayfa oluşturucuda, alt modüllerin eklenebileceği bir kapsayıcı veya yuva seçin.
-1. Kapsayıcının veya yuvanın adının yanındaki üç noktayı ( **...** ) seçin.  Alternatif olarak, görsel sayfa oluşturucuyu kullanıyorsanız artı simgesini ( **+** ) seçin.  
-1. **Parça Ekle** 'yi seçin.
+1. Kapsayıcının veya yuvanın adının yanındaki üç noktayı (**...**) seçin.  Alternatif olarak, görsel sayfa oluşturucuyu kullanıyorsanız artı simgesini (**+**) seçin.  
+1. **Parça Ekle**'yi seçin.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
@@ -109,8 +109,8 @@ Commerce site oluşturucuda bir sayfaya parça eklemek için aşağıdaki adıml
 
 Commerce site oluşturucuda bir sayfadaki bir yuva veya kapsayıcıdan parça kaldırmak için aşağıdaki adımları izleyin.
 
-1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta ( **...** ) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı görsel sayfa oluşturucu içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
-1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam** 'ı seçin.
+1. Soldaki ana hat bölmesinde, kaldırılacak parçanın adının yanında üç nokta (**...**) düğmesini seçin ve çöp kutusu sembolünü seçin.  Alternatif olarak, parçayı görsel sayfa oluşturucu içinde seçebilir ve parçanın araç çubuğunda çöp kutusu sembolünü seçebilirsiniz.
+1. Parçayı kaldırma isteğinizi onaylamanız istendiğinde, **tamam**'ı seçin.
 
 > [!NOTE]
 > Sayfadan bir parçayı kaldırdığınızda, yalnızca bu sayfadan gelen başvuruyu kaldırırsınız. Sitenizden parçayı **silmeyin**. Sitenizdeki parçaları silmek için, parça denetçisi Kullanıcı arabirimini (UI) kullanmanız gerekir. Bir sitedeki parçaları yalnızca herhangi bir sayfa, şablon veya başka parçalar tarafından başvurulmuyorsa silebilirsiniz.

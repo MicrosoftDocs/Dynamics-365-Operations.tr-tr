@@ -19,11 +19,11 @@ ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 1c2105aa99e0489d7643d076e84123eec628679e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024397"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416512"
 ---
 # <a name="hybrid-customer-orders"></a>Karma müşteri siparişleri
 

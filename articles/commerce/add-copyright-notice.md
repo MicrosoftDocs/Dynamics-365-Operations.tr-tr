@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019553"
+ms.locfileid: "4416553"
 ---
 # <a name="add-a-copyright-notice"></a>Telif hakkı bildirimi ekleme
 
@@ -41,21 +41,21 @@ Sitenize telif hakkı bildirimi ekleyebilmeniz için, aşağıdaki öğelere sah
 
 Belirli bir şablonu kullanan her sayfanın altına telif hakkı bildirimi eklemek için aşağıdaki adımları izleyin.
 
-1. **Parçalar** 'a gidin ve **Yeni** 'yi seçin.
+1. **Parçalar**'a gidin ve **Yeni**'yi seçin.
 1. **Yeni parça** iletişim kutusunda, **Alt bilgi** modülünü seçin ve parçayı adlandırın. Örneğin, **alt bilgi telif hakkı** girin.
-1. **Tamam** 'ı seçin.
-1. Gezinti bölmesinde, **Altbilgi** yanındaki üç nokta düğmesini ( **...** ) ve sonra da **Modül ekle** seçeneğini seçin.
-1. İletişim kutusunda **altbilgi kategorisi** 'ni seçin ve **Tamam** 'ı seçin.
+1. **Tamam**'ı seçin.
+1. Gezinti bölmesinde, **Altbilgi** yanındaki üç nokta düğmesini (**...**) ve sonra da **Modül ekle** seçeneğini seçin.
+1. İletişim kutusunda **altbilgi kategorisi**'ni seçin ve **Tamam**'ı seçin.
 1. Gezinti bölmesinde, **Altbilgi kategorisi** yanındaki üç nokta düğmesini ve sonra da **Modül ekle** seçeneğini seçin.
-1. İletişim kutusunda **Metin bloku** 'nu seçin ve **Tamam** 'ı seçin.
+1. İletişim kutusunda **Metin bloku**'nu seçin ve **Tamam**'ı seçin.
 1. Gezinti bölmesinde **Metin bloku** seçeneğini belirleyin.
 1. Sağdaki Özellikler bölmesinde, **paragraf** alanına, telif hakkı iletinizi ekleyin. Örneğin **(C) Fabrikam 2019** girin.
-1. **Kaydet** 'i seçin, **Düzenlemeyi bitir** 'i seçin ve sonra **Yayımla** 'yı seçin.
-1. **Şablonlar** 'a gidin, şablonu seçin ve sonra **Düzenle** 'yi seçin.
-1. **Sayfa anahattı** altında, **gövde** 'yi ve sonra **varsayılan sayfa** 'ı genişletin.
-1. **Altbilgi yuvası** 'nın yanındaki üç nokta düğmesini seçin ve **parçaEkle** 'yi seçin.
-1. Daha önce oluşturduğunuz parçayı seçin ve sonra **Seç** 'i seçin.
-1. Şablonu iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Kaydet**'i seçin, **Düzenlemeyi bitir**'i seçin ve sonra **Yayımla**'yı seçin.
+1. **Şablonlar**'a gidin, şablonu seçin ve sonra **Düzenle**'yi seçin.
+1. **Sayfa anahattı** altında, **gövde**'yi ve sonra **varsayılan sayfa**'ı genişletin.
+1. **Altbilgi yuvası**'nın yanındaki üç nokta düğmesini seçin ve **parçaEkle**'yi seçin.
+1. Daha önce oluşturduğunuz parçayı seçin ve sonra **Seç**'i seçin.
+1. Şablonu iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 Telif hakkı bildirimini içeren altbilgi, seçili şablonu kullanan tüm sayfaların altında otomatik olarak görüntülenir.
 

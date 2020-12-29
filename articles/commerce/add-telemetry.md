@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
-ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "3901508"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416369"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme
 
@@ -50,7 +50,7 @@ Site oluşturucuda satır içi betik kodunuz için yeniden kullanılabilir bir p
 1. **Parça adı** altında, parça için bir ad girin ve **Tamam**'ı seçin.
 1. Oluşturduğunuz parçanın altında, **varsayılan satır içi kod** modülünü seçin.
 1. Özellik bölmesinde, **satır içi komut dosyası** altında, istemci tarafı komut dosyanızı girin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
 
 ### <a name="create-a-reusable-fragment-for-your-external-script-code"></a>Harici Komut dosyası kodunuz için yeniden kullanılabilir parça oluşturma
@@ -62,7 +62,7 @@ Site oluşturucuda harici betik kodunuz için yeniden kullanılabilir bir parça
 1. **Parça adı** altında, parça için bir ad girin ve **Tamam**'ı seçin.
 1. Oluşturduğunuz parçanın altında, **Varsayılan harici kod** modülünü seçin.
 1. Sağdaki Özellik bölmesinde, **komut dosyası kaynağı** altında, harici komut dosyası kaynağı için HARICI veya göreli bir URL ekleyin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
 
 > [!NOTE]
@@ -76,7 +76,7 @@ Site oluşturucuda şablona komut kodu dahil eden bir parça eklemek üzere aşa
 1. Sol bölmede, **HTML Baş** yuvasını göstermek için şablon hiyerarşisini genişletin.
 1. **HTML Baş** yuvası için üç nokta (**...**) düğmesini seçin ve **Parçası ekle**'yi seçin.
 1. Kodunuz için oluşturduğunuz parçayı seçin.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
 
 ## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Bir şablona doğrudan harici bir komut dosyası veya satıriçi komut dosyası ekleme
@@ -92,7 +92,7 @@ Site oluşturucuda bir şablona doğrudan satır içi komut dosyası eklemek iç
 1. **HTML Baş** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül ekle** iletişim kutusunda, **satır içi betik** 'u seçin.
 1. Özellik bölmesinde, **satır içi komut dosyası** altında, istemci tarafı komut dosyanızı girin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
 
 ### <a name="add-an-external-script-directly-to-a-template"></a>Bir şablona doğrudan harici komut dosyası ekleme
@@ -104,7 +104,7 @@ Site oluşturucuda bir şablona doğrudan harici komut dosyası eklemek için a�
 1. **HTML Baş** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
 1. **Modül ekle** iletişim kutusunda, **Harici betik** 'u seçin.
 1. Sağdaki Özellik bölmesinde, **komut dosyası kaynağı** altında, harici komut dosyası kaynağı için HARICI veya göreli bir URL ekleyin. Daha sonra, istediğiniz şekilde diğer seçenekleri yapılandırın.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yayımla**'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

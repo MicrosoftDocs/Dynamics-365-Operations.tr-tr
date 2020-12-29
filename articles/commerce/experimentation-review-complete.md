@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097105"
+ms.locfileid: "4416569"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Varyasyon yükseltme ve deneme tamamlama
 
@@ -38,26 +38,26 @@ Hangi varyasyonun en iyi sonuçları ürettiğine karar vermek için, üçüncü
 
 Kazanan varyasyonu yükseltmek için, aşağıdaki adımları izleyin. 
 
-1. Commerce site oluşturucuda, sol gezinti bölmesinde **Denemeler** 'i seçin ve ardından denemeyi seçin.
-1. Komut çubuğunda **Denemeyi tamamla** 'yı seçin.
-1. **Denemeyi tamamla** iletişim kutusunda **Deneme verilerini gözden geçir** 'i seçin. Ölçümleri doğrulayabileceğiniz ve hangi varyasyonun en iyi performansı gösterdiğini belirleyebileceğiniz üçüncü taraf hizmeti açılır.
-1. **Denemeyi tamamla** iletişim kutusunda kazanan varyasyonu ve ardından **İleri** 'yi seçin.
+1. Commerce site oluşturucuda, sol gezinti bölmesinde **Denemeler**'i seçin ve ardından denemeyi seçin.
+1. Komut çubuğunda **Denemeyi tamamla**'yı seçin.
+1. **Denemeyi tamamla** iletişim kutusunda **Deneme verilerini gözden geçir**'i seçin. Ölçümleri doğrulayabileceğiniz ve hangi varyasyonun en iyi performansı gösterdiğini belirleyebileceğiniz üçüncü taraf hizmeti açılır.
+1. **Denemeyi tamamla** iletişim kutusunda kazanan varyasyonu ve ardından **İleri**'yi seçin.
 1. Üçüncü taraf hizmetini açın ve denemeyi durdurun.
-1. Site oluşturucuda, orijinal canlı sayfanın üzerine yazmak ve web sitenizin tüm kullanıcılarına sunulması için kazanan varyasyonu yayımlamak üzere **Tamamla** 'yı seçin. 
+1. Site oluşturucuda, orijinal canlı sayfanın üzerine yazmak ve web sitenizin tüm kullanıcılarına sunulması için kazanan varyasyonu yayımlamak üzere **Tamamla**'yı seçin. 
 
 > [!NOTE]
-> Geçerli canlı sayfayı saklamayı ve bir varyasyon yayımlamamayı tercih ederseniz, **Özgün sayfayı yeniden yayımla** 'yı seçin.
+> Geçerli canlı sayfayı saklamayı ve bir varyasyon yayımlamamayı tercih ederseniz, **Özgün sayfayı yeniden yayımla**'yı seçin.
 
 ## <a name="delete-your-experiment"></a>Denemenizi silme
 Commerce'ta tamamlanmış bir denemeyi silmeniz gerekli olmasa da alan kazanmak veya çalışma alanınızı temizlemek için denemeyi silmeyi tercih edebilirsiniz. 
 
 Commerce site oluşturucuda deneme silmek için aşağıdaki adımları izleyin.
 
-1. Sol gezinti bölmesinde **Denemeler** 'i seçin ve ardından denemeyi seçin. 
+1. Sol gezinti bölmesinde **Denemeler**'i seçin ve ardından denemeyi seçin. 
     > [!NOTE]
     > Deneme hala etkinse, devam etmeden önce üçüncü taraf hizmetinde denemeyi durdurun.
-1. Varyasyon içeriğini canlı siteden kaldırmak için komut çubuğunda **Yayımdan Kaldır** 'ı seçin.
-1. Denemeyi silmek için **Sil** 'i seçin.
+1. Varyasyon içeriğini canlı siteden kaldırmak için komut çubuğunda **Yayımdan Kaldır**'ı seçin.
+1. Denemeyi silmek için **Sil**'i seçin.
 
 ## <a name="previous-step"></a>Önceki adım
 [Deneme çalıştırma ve izleme](experimentation-run-monitor.md)

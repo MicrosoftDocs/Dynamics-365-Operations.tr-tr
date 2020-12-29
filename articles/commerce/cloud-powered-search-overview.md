@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416303"
 ---
 # <a name="cloud-powered-search-overview"></a>Bulut destekli aramaya genel bakış
 

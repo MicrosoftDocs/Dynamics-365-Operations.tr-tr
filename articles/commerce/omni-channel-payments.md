@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
 ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819825"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416547"
 ---
 # <a name="omni-channel-payments-overview"></a>Çoklu kanal ödemeleri genel bakışı
 
@@ -167,7 +167,7 @@ Senaryoyu çalıştırmak için şu adımları izleyin.
 3. Harekete bir veya birden fazla satır ekle.
 4. Sipariş seçeneklerini görmek için **Siparişler**'i seçin.
 5. **Tümünü çek**'i seçin ve istendiğinde **müşteri siparişi**'ni seçin.
-6. Aramaya **Seattle**girin ve malzeme çekme için **Seattle** deposunu seçin. 
+6. Aramaya **Seattle** girin ve malzeme çekme için **Seattle** deposunu seçin. 
 7. Malzeme çekme tarihi olarak geçerli tarihi kabul etmek için **Tamam**'ı seçin.
 9. Ödemeyi başlatmak için **Ödeme kartı**'nı seçin.
 10. Kart ödemesini, ödem için gerekli olan tutar için yapın. 

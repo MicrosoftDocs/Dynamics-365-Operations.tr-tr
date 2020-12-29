@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3700878"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416397"
 ---
 # <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 

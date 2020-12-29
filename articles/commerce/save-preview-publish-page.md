@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961622"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416518"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Sayfa kaydetme, önizleme ve yayımlama
 
@@ -71,7 +71,7 @@ Bir giriş sayfasını kaydetmek, önizlemek ve yayınlamak için aşağıdaki a
 1. Sayfa düzenleyicisinde açmak için giriş sayfasını bulun ve seçin.
 1. **Düzenle** öğesini seçin.
 1. Sayfayı gerektiği gibi değiştirin.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanına yaptığınız değişikliklerle ilgili bir not girin ve **Tamam**'ı seçin.
 1. Sayfanızın önizlemesini görüntülemek için **Önizleme**'yi seçin. Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

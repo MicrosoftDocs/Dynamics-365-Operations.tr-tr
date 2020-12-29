@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: ae7b73c7a51ffa606876072d607fc219f5f6a2ba
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057602"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416451"
 ---
 # <a name="generate-online-channel-reports"></a>Çevrimiçi kanal raporları oluşturma
 

@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621205"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416317"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Genişletilmiş garantiler oluşturma ve yapılandırma
 

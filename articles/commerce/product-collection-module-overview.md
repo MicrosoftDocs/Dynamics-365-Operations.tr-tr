@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817585"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416297"
 ---
 # <a name="product-collection-modules"></a>Ürün topluluğu modülleri
 

@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024355"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416545"
 ---
 # <a name="retail-statements"></a>Perakende ekstreleri
 

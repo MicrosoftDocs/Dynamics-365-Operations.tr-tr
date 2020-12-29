@@ -20,11 +20,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416314"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>e-Ticaret kullanıcıları ve rolleri yönetme
 
@@ -57,7 +57,7 @@ Commerce'ta yeni bir site oluşturduğunuzda, **yönetici** rolü için bir güv
 
 ## <a name="add-or-update-security-groups"></a>Güvenlik grupları Ekle veya güncelleştir
 
-Siteniz oluşturulduktan sonra, yalnızca **Sistem Yöneticisi** ve **Yönetici** rolleriyle ilişkilendirilmiş güvenlik gruplarında olan kullanıcılar o sitenin geliştirme ortamına erişebilir. **Web Üreticisi**, **RNR moderatör**ve **Okuyucu** rollerine Kullanıcı atamak için, bu rollere güvenlik grupları atamanız gerekir. Bir role güvenlik grubu eklemek veya bir role atanmış olan bir güvenlik grubunu güncelleştirmek için, aşağıdaki adımları izleyin.
+Siteniz oluşturulduktan sonra, yalnızca **Sistem Yöneticisi** ve **Yönetici** rolleriyle ilişkilendirilmiş güvenlik gruplarında olan kullanıcılar o sitenin geliştirme ortamına erişebilir. **Web Üreticisi**, **RNR moderatör** ve **Okuyucu** rollerine Kullanıcı atamak için, bu rollere güvenlik grupları atamanız gerekir. Bir role güvenlik grubu eklemek veya bir role atanmış olan bir güvenlik grubunu güncelleştirmek için, aşağıdaki adımları izleyin.
 
 1. Güncelleştirmek istediğiniz siteye gidin.
 1. **Site Yönetimi**'nde, **güvenlik** sayfasını açın.

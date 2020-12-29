@@ -19,11 +19,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416448"
 ---
 # <a name="manage-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yönetme
 
@@ -98,7 +98,7 @@ Commerce site oluşturucu moderatörlerin, eğilimleri çözümleyebilmeleri iç
 Commerce site oluşturucuda dereceledirmeler ve incelemeler verilerini indirmek için aşağıdaki adımları izleyin.
 
 1. **Ev \> Gözden geçirmeler \> Raporlama**'ya gidin.
-1. Derecelendirmeleri ve inceleme verilerini virgülle ayrılmış değerler (CSV) biçiminde toplu olarak indirmek için **İnceleme verileri indir**i seçin.
+1. Derecelendirmeleri ve inceleme verilerini virgülle ayrılmış değerler (CSV) biçiminde toplu olarak indirmek için **İnceleme verileri indir** i seçin.
 
 ## <a name="view-ratings-and-reviews-trends"></a>Derecelendirmelere ve incelemeler trendine bak
 

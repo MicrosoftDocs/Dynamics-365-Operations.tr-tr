@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 738841407b63ef604da092b7c8f4d0f2064d3886
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024345"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416304"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>Çağrı merkezleri için süreklilik programları kurma
 

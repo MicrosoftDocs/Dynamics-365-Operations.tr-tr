@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019530"
+ms.locfileid: "4416555"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanallar arası paylaşımı etkinleştirme ve kullanma
 
@@ -50,7 +50,7 @@ Kanallar arası paylaşım site düzeyinde etkinleştirilir. Bu işlem tek yönl
 
 Commerce site oluşturucuda kanallar arası paylaşımı etkinleştirmek için aşağıdaki adımları izleyin.
 
-1. **Site ayarları \> Özellikler** 'e gidin.
+1. **Site ayarları \> Özellikler**'e gidin.
 1. **Çapraz Kanal** özelliğini **Açık** olarak ayarlayın.
 
     ![Commerce Site Builder'da Çapraz Kanal seçeneği açık olarak ayarlandı](./media/enabling-cross-channel-sharing.png)
@@ -71,11 +71,11 @@ Ek olarak, kanallar arası paylaşımı etkinleştirdikten sonra, Commerce site 
 
 Commerce site oluşturucuda çapraz kanal parçası oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Parçalar** 'a gidin ve yeni parça oluşturmak için **Yeni** 'yi seçin.
-1. **Yeni parça** iletişim kutusunda, **Promosyon başlığı** modülünü seçin ve sonra **Parça adı** altında bir ad girin (örneğin, **Çapraz kanal başlığı** ). Daha sonra **Tamam** 'ı seçin.
-1. **Promosyon başlığı** modülünün özellik bölmesinde, **İleti ekle** 'yi seçin ve sonra **İleti** 'yi seçin.
-1. **İleti** iletişim kutusunda, **Metin** alanına **Çapraz kanal** girin ve **Tamam** 'ı seçin. 
-1. **Kaydet** 'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Yeni parça** iletişim kutusunda, **Promosyon başlığı** modülünü seçin ve sonra **Parça adı** altında bir ad girin (örneğin, **Çapraz kanal başlığı**). Daha sonra **Tamam**'ı seçin.
+1. **Promosyon başlığı** modülünün özellik bölmesinde, **İleti ekle**'yi seçin ve sonra **İleti**'yi seçin.
+1. **İleti** iletişim kutusunda, **Metin** alanına **Çapraz kanal** girin ve **Tamam**'ı seçin. 
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 Bu çapraz kanal parçası, herhangi bir site kanalında oluşturulan çapraz kanal veya kanala özel sayfalarda kullanılabilir.
 
@@ -85,14 +85,14 @@ Bu çapraz kanal parçası, herhangi bir site kanalında oluşturulan çapraz ka
 
 Commerce site oluşturucuda çapraz kanal içeriğini kullanan bir çapraz kanal sayfası oluşturmak için aşağıdaki adımları izleyin.
 
-1. **Sayfalar** 'a gidin ve yeni sayfa oluşturmak için **Yeni** 'yi seçin.
+1. **Sayfalar**'a gidin ve yeni sayfa oluşturmak için **Yeni**'yi seçin.
 1. **Şablon seçin** iletişim kutusunda **Pazarlama** gibi bir şablon seçin.
-1. **Sayfa Adı** alanına sayfa için ad girin (örneğin, **Çapraz kanal sayfası** ).
-1. **Sayfa URL** 'si alanına bir sayfa URL'si girin (örneğin, **examplepage** ) ve sonra **Tamam** 'ı seçin.
-1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini ( **...** ) ve sonra **Parça ekle** 'yi seçin.
-1. **Parça Ekle** iletişim kutusunda, promosyon başlığı bulunan daha önce oluşturduğunuz çapraz kanal parçasını ve **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin. "Çapraz-kanal" yazan promosyon başlığını görmelisiniz.
-1. Sayfayı iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Sayfa Adı** alanına sayfa için ad girin (örneğin, **Çapraz kanal sayfası**).
+1. **Sayfa URL**'si alanına bir sayfa URL'si girin (örneğin, **examplepage**) ve sonra **Tamam**'ı seçin.
+1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
+1. **Parça Ekle** iletişim kutusunda, promosyon başlığı bulunan daha önce oluşturduğunuz çapraz kanal parçasını ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. "Çapraz-kanal" yazan promosyon başlığını görmelisiniz.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ### <a name="create-a-channel-specific-page-that-uses-cross-channel-content"></a>Çapraz kanal içeriğini kullanan bir kanala özel sayfa oluşturma
 
@@ -100,14 +100,14 @@ Kanala özel sayfalarda çapraz kanal içeriği kullanarak paylaşılan içerik 
 
 Commerce site oluşturucuda çapraz kanal içeriğini kullanan kanala özel sayfa oluşturmak için aşağıdaki adımları izleyin.
 
-1. Belirli bir kanaldan (örneğin, **Fabrikam genişletilmiş çevrimiçi mağaza** gibi), **Sayfalar** 'a gidin ve ardından yeni sayfa oluşturmak için **Yeni** 'yi seçin.
+1. Belirli bir kanaldan (örneğin, **Fabrikam genişletilmiş çevrimiçi mağaza** gibi), **Sayfalar**'a gidin ve ardından yeni sayfa oluşturmak için **Yeni**'yi seçin.
 1. **Şablon seçin** iletişim kutusunda **Pazarlama** gibi bir şablon seçin.
-1. **Sayfa adı** alanına sayfa için ad girin (örneğin, **Kanala özel sayfa** ).
-1. **Sayfa URL** 'si alanına bir sayfa URL'si girin (örneğin, **channelspecificpage** ) ve sonra **Tamam** 'ı seçin.
-1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini ( **...** ) ve sonra **Parça ekle** 'yi seçin.
-1. **Parça Ekle** iletişim kutusunda **Kanal** altında, **Çapraz Kanal Çevrimiçi Mağaza** 'yı seçin. Daha önce oluşturduğunuz çapraz kanal parçası listede görünmelidir. Bunu seçin ve ardından **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin. "Çapraz-kanal" yazan promosyon başlığını görmelisiniz.
-1. Sayfayı iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Sayfa adı** alanına sayfa için ad girin (örneğin, **Kanala özel sayfa**).
+1. **Sayfa URL**'si alanına bir sayfa URL'si girin (örneğin, **channelspecificpage**) ve sonra **Tamam**'ı seçin.
+1. Yeni sayfanın **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Parça ekle**'yi seçin.
+1. **Parça Ekle** iletişim kutusunda **Kanal** altında, **Çapraz Kanal Çevrimiçi Mağaza**'yı seçin. Daha önce oluşturduğunuz çapraz kanal parçası listede görünmelidir. Bunu seçin ve ardından **Tamam**'ı seçin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. "Çapraz-kanal" yazan promosyon başlığını görmelisiniz.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 ### <a name="create-a-channel-specific-version-of-a-cross-channel-page"></a>Çapraz kanal sayfasının kanala özel sürümünü oluşturma
 
@@ -115,16 +115,16 @@ Kanallar arası paylaşım, çapraz kanal içeriğinin geçersiz kılınmasını
 
 Commerce site oluşturucuda çapraz kanal içeriğinin kanala özel sürümünü oluşturmak için aşağıdaki adımları izleyin.
 
-1. Sağ üst köşedeki **Kanal** alanında, **Çapraz Kanal Çevrimiçi Mağaza** 'yı seçin.
+1. Sağ üst köşedeki **Kanal** alanında, **Çapraz Kanal Çevrimiçi Mağaza**'yı seçin.
 1. Daha önce oluşturduğunuz çapraz kanal sayfasını açın.
 1. Sağ üst köşedeki **Kanal** alanında belirli içeriğe sahip olması gereken kanalı seçin. Sayfa düzenleyicisi yeni bir sayfa varyantı oluşturmanızı isteyen bir ileti gösterir.
 1. **Sayfa varyantı oluştur** seçeneğini belirleyin.
-1. Sayfa varyantının **Ana** yuvasında, üç nokta düğmesini ( **...** ) ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Promosyon başlığı** modülünü seçin ve **Tamam** 'ı seçin.
-1. **Promosyon başlığı** modülünün özellik bölmesinde, **İleti ekle** 'yi seçin ve sonra **İleti** 'yi seçin.
-1. **İleti** iletişim kutusunda, **Metin** alanına **Kanala özel** girin ve **Tamam** 'ı seçin.
-1. **Kaydet** 'i seçin ve ardından sayfayı önizlemek için **Önizleme** 'yi seçin. "Kanala-özel" yazan promosyon başlığını görmelisiniz.
-1. Sayfayı iade etmek için **Düzenlemeyi bitir** 'i seçin, ardından yayımlamak için **Yayımla** 'yı seçin.
+1. Sayfa varyantının **Ana** yuvasında, üç nokta düğmesini (**...**) ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Promosyon başlığı** modülünü seçin ve **Tamam**'ı seçin.
+1. **Promosyon başlığı** modülünün özellik bölmesinde, **İleti ekle**'yi seçin ve sonra **İleti**'yi seçin.
+1. **İleti** iletişim kutusunda, **Metin** alanına **Kanala özel** girin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin ve ardından sayfayı önizlemek için **Önizleme**'yi seçin. "Kanala-özel" yazan promosyon başlığını görmelisiniz.
+1. Sayfayı iade etmek için **Düzenlemeyi bitir**'i seçin, ardından yayımlamak için **Yayımla**'yı seçin.
 
 Şimdi, kanalın temel URL'sini kullanır ve bu sitedeki çapraz kanal sayfasının URL'sine giderseniz, çapraz kanal içeriği yerine kanala özel içeriği görürsünüz.
 

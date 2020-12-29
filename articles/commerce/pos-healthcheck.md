@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013216"
+ms.locfileid: "4416550"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>POS çevre birimleri ve hizmetler için sistem durumu denetimi
 
@@ -66,7 +66,7 @@ Varsayılan olarak, sistem durumu denetimi yalnızca, bir kayıt için etkin dur
 
 ### <a name="using-the-health-check-operation-in-the-pos"></a>POS'ta sistem durumu denetimi işlemi kullanma
 
-POS'ta sistem durumu denetimi işlemi başlatıldığında, sağdaki bir bölme yapılandırılmış cihazları listeler ve her cihazın durumunu gösterir. Tek bir cihaz için sistem durumu denetimi yapmak üzere cihazı ve ardından **Seçili olanı sına** 'yı seçin. Tüm cihazlar için sistem durumu denetimi yapmak üzere **Tümünü sına** 'yı seçin. **Tümünü sına** işlevi tüm cihazları tek tek test eder ve her cihazın **Durum** sütunundaki durumunu güncelleştirir.
+POS'ta sistem durumu denetimi işlemi başlatıldığında, sağdaki bir bölme yapılandırılmış cihazları listeler ve her cihazın durumunu gösterir. Tek bir cihaz için sistem durumu denetimi yapmak üzere cihazı ve ardından **Seçili olanı sına**'yı seçin. Tüm cihazlar için sistem durumu denetimi yapmak üzere **Tümünü sına**'yı seçin. **Tümünü sına** işlevi tüm cihazları tek tek test eder ve her cihazın **Durum** sütunundaki durumunu güncelleştirir.
 
 **Son denetim** sütunu, her cihaz için sistem durumu denetiminin en son ne zaman yapıldığını gösterir.
 

@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269878"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416439"
 ---
 # <a name="work-with-templates"></a>Şablonlarla çalışma
 
@@ -64,7 +64,7 @@ Soldaki anahat ağacı görünümünde alt düzenler ve sayfalar için kullanıl
 
 | Özellik adı | Tanım |
 |---|---|
-| Minimum Gerçekleşme | Bu özellik, seçili modül için minimum oluşum sayısını tanımlar. Örneğin değer **1**olarak ayarlanırsa, bir değer **0** (sıfır) olarak ayarlandığında modül isteğe bağlı olduğu halde, akış yönündeki yazarlar için gereklidir. |
+| Minimum Gerçekleşme | Bu özellik, seçili modül için minimum oluşum sayısını tanımlar. Örneğin değer **1** olarak ayarlanırsa, bir değer **0** (sıfır) olarak ayarlandığında modül isteğe bağlı olduğu halde, akış yönündeki yazarlar için gereklidir. |
 | Maksimum Gerçekleşme | Bu özellik, seçili modül için maksimum oluşum sayısını tanımlar. Örneğin, değer **1** olarak ayarlanırsa modül yalnızca bir kez eklenebilir. |
 | Min. Modüller (Konteynerler) | Başka modüller içeren modüller (*konteyner modülleri* için), bu özellik alt öğe olarak eklenmesi gereken en az toplam modül sayısını tanımlar. Örneğin, bir döngü modülü için, değer 1'den büyük bir sayıya ayarlanmış olabilir. |
 | Maks. Modüller (Konteynerler) | Konteyner modüller için, bu özellik alt öğe olarak eklenmesi gereken en fazla toplam modül sayısını tanımlar. Örneğin, bir döngü modülü için, değer 10'dan küçük bir sayıya ayarlanmış olabilir. |

@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665092"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416310"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Hareket ekranına öneriler ekleme
 

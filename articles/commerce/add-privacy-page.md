@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761285"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416371"
 ---
 # <a name="add-a-privacy-policy-page"></a>Gizlilik ilkesi sayfası ekle
 

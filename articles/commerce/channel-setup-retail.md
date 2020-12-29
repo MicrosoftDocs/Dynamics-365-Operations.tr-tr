@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113840"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416388"
 ---
 # <a name="set-up-a-retail-channel"></a>Perakende kanalı ayarlama
 

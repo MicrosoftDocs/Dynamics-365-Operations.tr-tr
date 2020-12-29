@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818434"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416443"
 ---
 # <a name="work-with-modules"></a>Modüllerle çalışma
 
@@ -156,7 +156,7 @@ Sayfada bir konteyner modülünü konfigüre etmek için aşağıdaki adımları
 
 1. Sayfanızda bir konteyner modülü seçin (örneğin, bir döngü veya sıvı konteyner modülü).
 1. Sağdaki Özellikler bölmesinde, üst bilgileri seçerek iç içe geçmiş denetimleri genişletin ve gerekli tüm denetim değerlerini ayarlayın.
-1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle**yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu konunun önceki [Modüllerle çalış](#add-a-module) bölümüne bakın.
+1. Soldaki anahat bölmesinde, konteyner veya konteyner içindeki yuvalardan birinin adının yanında üç nokta düğmesini seçin ve **Modül ekle** yi seçin. Daha sonra seçili konteynere alt modüller ekleyin. Daha fazla bilgi için bu konunun önceki [Modüllerle çalış](#add-a-module) bölümüne bakın.
 1. Bir üst kapsayıcıda eş öğe olarak birden fazla alt modül varsa, bunların görüntüleme sıralarını üst konteynerde değiştirebilirsiniz. Modül için üç nokta düğmesini seçin ve sonra yukarı ok ve aşağı ok düğmelerini kullanın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar

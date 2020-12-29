@@ -20,11 +20,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024383"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416538"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Satış noktası (POS) uygulaması ve kullanıcı dili ayarları
 

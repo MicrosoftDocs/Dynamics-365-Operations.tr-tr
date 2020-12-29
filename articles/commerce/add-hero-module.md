@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817366"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416364"
 ---
 # <a name="content-block-module"></a>İçerik blok modülü
 
@@ -89,7 +89,7 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 1. Sağdaki özellikler bölmesinde, **Resim Ekle**'yi seçin. Sonra da varolan bir görüntüyü seçin veya yeni bir görüntü yükleyin.
 1. **Başlık** öğesini seçin.
 1. **Başlık** iletişim kutusunda başlık metnini ekleyin, başlık düzeyini seçin ve **Tamam**'ı seçin.
-1. **Zengin metin**altında, istediğiniz metni ekleyin.
+1. **Zengin metin** altında, istediğiniz metni ekleyin.
 1. **Bağlantı Ekle**'yi seç.
 1. **Bağlantı** iletişim kutusunda bağlantı metni, bağlantı URL 'si ve bağlantı için bir Aria etiketi ekleyin ve **Tamam**'ı seçin.
 1. **Hero** düzenini seçin.

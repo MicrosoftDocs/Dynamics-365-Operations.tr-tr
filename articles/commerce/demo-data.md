@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014898"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4416582"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ve Bulut POS'taki tanıtım verileri ekran düzenleri
 
@@ -40,7 +40,7 @@ Commerce tanıtım verileriyle birlikte gelen örnek ekran düzenleri çeşitli 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Bir ekran düzeni kodunun anatomisi
 
-Ekran düzenlerini bulmak için **Retail and Commerce** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri** 'ne gidin.
+Ekran düzenlerini bulmak için **Retail and Commerce** \> **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne gidin.
 
 ![Ekran düzenleri sayfası](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
@@ -64,6 +64,7 @@ Ekran düzeni kodları en çok 10 karaktere sahip olabilir. Kod, üç bilgi par�
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Çeşitli cihazlar ve en-boy oranları için birden fazla ekran boyutunu destekleyen temel sürüm |
 | 3.1            | **Önerilen ürünler** paneli için ek destek sağlayan temel sürüm        |
+| 4              | Genişletilmiş fabrikam'ın genişletilmiş sürümü güncelleştirilmiş yerleşim                                  |
 
 ### <a name="persona"></a>Kişi
 
@@ -75,9 +76,9 @@ Ekran düzeni kodları en çok 10 karaktere sahip olabilir. Kod, üç bilgi par�
 
 ### <a name="example-layout"></a>Örnek düzen
 
-Burada Fabrikam şirketi, düzen sürümü 3 ve Mağaza Yöneticisi kişisi için bir ekran düzeni kodu örneği verilmektedir:
+Burada Fabrikam şirketi, düzen sürümü 4 ve Mağaza Yöneticisi kişisi için bir ekran düzeni kodu örneği verilmektedir:
 
-F3MGR
+F4MGR
 
 Aşağıdaki şekilde Fabrikam mağaza yöneticisinin Karşılama ekranının örneği gösterilmektedir.
 
@@ -103,11 +104,12 @@ Aşağıdaki tablo normal ekran çözünürlükleri için sağlanan düzen boyut
 | Dolu\*      | 1280 × 720 | 16:9         | Tabletler                 |
 | Dolu        | 1366 × 768 | 16:9         | Tabletler, daha geniş ekran |
 | Dolu        | 1440 × 960 | 3:2          | Tabletler, daha geniş ekran |
+| Dolu\*      | 1536x864 | 16:9         | Tabletler, daha geniş ekran |
 
 \* Bu ek düzenler yalnızca Adventure Works ve Fabrikam düzenlerinde kullanılabilir.
 
 > [!TIP]
-> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri** 'ne giderek bulabilirsiniz.
+> POS, geçerli uygulama penceresinin ekran çözünürlüğü için kullanılabilir olan en yakın boyutu temel alarak düzen boyutlarını otomatik olarak seçer. Kullanılmakta olan ekran düzeni kodunu ve düzen çözünürlüğünü bulmak için, Modern POS (MPOS) veya Retail Cloud POS (CPOS)'ta **Ayarlar** sayfasını açın ve **Oturum bilgileri** bölümüne bakın. Geçerli uygulamanızın veya tarayıcı pencerenizin gerçek çözünürlüğünü de görebilirsiniz. Bu bilgileri aldıktan sonra, düzen içeriğinin kaynağını **Kanal kurulumu** \> **POS kurulumu** \> **POS** \> **Ekran düzenleri**'ne giderek bulabilirsiniz.
 
 ![Commerce ve POS'taki ekran düzenleri ve düzen çözünürlükleri/boyutları](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
@@ -120,7 +122,7 @@ Her hayali şirket farklı bir perakende segmenti için hedeflenmiştir ve şirk
 | Şirket         | Yer | Segment        | Vurgu | Tema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Spor Eşyaları | Mavi   | Koyu  |
-| Fabrikam        | Houston  | Moda        | Yeşil  | Açık |
+| Fabrikam        | San Francisco  | Fashion        | Yeşil  | Açık |
 | Contoso         | Boston   | Elektronik    | Kırmızı    | Koyu  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Kullanıcılara çeşitli ekran düzenleri sağlanmıştır. Aşağıdaki tabloy
 | Adventure Works | A3MGR            | Mağaza Yöneticisi | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Kasiyer       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Stok Memuru   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Mağaza Yöneticisi | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Mağaza Yöneticisi | 000160, 000713         |
 | Fabrikam        | F3CSH            | Kasiyer       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Stok Memuru   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Mağaza Yöneticisi | 000100, 000111         |

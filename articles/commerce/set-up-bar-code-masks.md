@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 89b63843daaa714d9141fc362c3d6fcb6ca9a91e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416524"
 ---
 # <a name="set-up-bar-code-masks"></a>Barkod maskesi ayarlama
 

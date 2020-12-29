@@ -19,11 +19,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 5d9279e1076796bb455429e5ff004c89ec5829e7
-ms.sourcegitcommit: 3cc289399e8879b499e31a9559e1031d6ca8570a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3885957"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416424"
 ---
 # <a name="create-a-variant-group"></a>Çeşit grubu oluşturma
 

@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817766"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416533"
 ---
 # <a name="home-page-overview"></a>Giriş sayfasına genel bakış
 

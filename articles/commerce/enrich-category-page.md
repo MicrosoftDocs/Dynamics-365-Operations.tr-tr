@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416426"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategori açılış sayfasını zenginleştirme
 

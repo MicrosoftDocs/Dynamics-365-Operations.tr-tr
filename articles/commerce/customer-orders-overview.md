@@ -20,11 +20,11 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 30e4dc0a45f7de5f0a7178b1e88f7c3d61a7395e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763713"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416412"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 

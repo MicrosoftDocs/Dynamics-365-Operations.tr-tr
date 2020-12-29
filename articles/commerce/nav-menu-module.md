@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055749"
+ms.locfileid: "4416562"
 ---
 # <a name="navigation-menu-module"></a>Gezinti menüsü modülleri
 
@@ -44,12 +44,12 @@ Aşağıdaki çizimde, iki düzey kategori hiyerarşisi ve bazı statik menü ö
 
 | Özellik adı             | Değer                 | Tanım |
 |---------------------------|-----------------------|-------------|
-| Kaynak                  | **Perakende** , **El ile yazma** , **Perakende ve el ile yazma** | **Perakende** değeri, Commerce yönetim merkezinde kanal gezinme hiyerarşisinin gezinti menüsünde görüntülenmesini sağlar. **El ile yazma** değeri statik menü öğelerinin oluşturulmasına izin verir. **Perakende ve el ile yazma** değeri, her ikisinin karışımına izin verir. |
+| Kaynak                  | **Perakende**, **El ile yazma**, **Perakende ve el ile yazma** | **Perakende** değeri, Commerce yönetim merkezinde kanal gezinme hiyerarşisinin gezinti menüsünde görüntülenmesini sağlar. **El ile yazma** değeri statik menü öğelerinin oluşturulmasına izin verir. **Perakende ve el ile yazma** değeri, her ikisinin karışımına izin verir. |
 | Kategori resimlerini göster | **Doğru** veya **yanlış**    | Etkinleştirildiğinde, bu özellik gezinti menüsündeki kategori resimlerini her kategori için Commerce yönetim merkezinde tanımlandığı şekilde görüntüler. Commerce sürüm 10.0.14'e eklendi. |
 | Çok düzeyli gezinti menüsünü etkinleştir | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü gezinti hiyerarşisinin birden çok düzeyini gösterebilir. Bu özellik Dynamics 365 Commerce sürüm 10.0.15'de kullanılabilir. |
 | Düzey sayısı | tamsayı | Bu özellik, **çok düzeyli gezinti menüsünü etkinleştir** özelliği **true** olarak ayarlandığında gösterilmesi gereken düzey sayısını tanımlar. |
 | Statik menü öğesi| Değerler dizisi| Bir menü öğesi adını statik site sayfasının bağlantısıyla ilişkilendiren statik menü öğeleri. Menü öğelerini diğer menü öğelerinin altında oluşturabilirsiniz. Varsayılan olarak, statik menüler kök düzeyinde görünür ve varsa kanal gezinme hiyerarşisine eklenir. |
-| Kök menüyü göster | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü özel bir kök altında tanımlanabilir (örneğin, **Şimdi alışveriş yap** ). Bu özellik Dynamics 365 Commerce sürüm 10.0.15'de kullanılabilir. |
+| Kök menüyü göster | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü özel bir kök altında tanımlanabilir (örneğin, **Şimdi alışveriş yap**). Bu özellik Dynamics 365 Commerce sürüm 10.0.15'de kullanılabilir. |
 | Kök menü | dize | Bu özellik, **kök menüyü göster** özelliği **true** olarak ayarlandığında özel bir köke ait metni tanımlamak için kullanılabilir. |
 
 Aşağıdaki çizimde, Fabrikam sitesinin gezinti menüsünde görüntülenen kategori resmi örneği gösterilmektedir.

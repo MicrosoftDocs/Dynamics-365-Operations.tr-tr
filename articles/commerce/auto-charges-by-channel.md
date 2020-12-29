@@ -16,11 +16,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175435"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416404"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kanala göre otomatik masrafları etkinleştirme ve yapılandırma
 
@@ -61,7 +61,7 @@ Commerce'ta bir kuruluş hiyerarşisi amacına varsayılan bir hiyerarşi atamak
         
 1. **Kuruluş yönetimi \> Kuruluşlar \> Kuruluş hiyerarşisi amaçları**'na gidin.
 1. Sol bölmede, **Perakende otomatik masraf**'ı seçin.
-1. **Atanan hiyerarşiler**altında **Ekle**'yi seçin.
+1. **Atanan hiyerarşiler** altında **Ekle**'yi seçin.
 1. **Kuruluş hiyerarşileri** iletişim kutusunda bir kuruluş hiyerarşisi seçin (örneğin, **Bölgeye göre Perakende Mağazalar**) ve sonra **Tamam**'ı seçin.
 1. **Atanan hiyerarşiler** altında **Varsayılan olarak ayarla**'yı seçin.
 1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin.
@@ -79,7 +79,7 @@ Otomatik masrafları Commerce'ta kanala göre tanımlamak için aşağıdaki ad�
 
 1. Sırasıyla  **Alacak hesapları \> Masraflar kurulumu \> Otomatik masraflar** seçimlerini yapın.
 1. Sol bölmede, iş gereksinimlerinize bağlı olarak **Düzey** alanında **Başlık** ya da **Satır** seçeneğini belirleyin.
-1. **Perakende kanal kodu** alanında, uygun kanal kodunu seçin (örneğin, **Tablo** veya **Grup**). Varsayılan ayar olan **Tümü**kullanılırsa, masraf kuralları tüm kanallara uygulanır.
+1. **Perakende kanal kodu** alanında, uygun kanal kodunu seçin (örneğin, **Tablo** veya **Grup**). Varsayılan ayar olan **Tümü** kullanılırsa, masraf kuralları tüm kanallara uygulanır.
 
     - **Grup** öğesini seçerseniz, **Retail ve Commerce \> Kanal kurulumu \> Masraflar \> Perakende kanal masraf grupları**'nda bir perakende kanal masraf grubunun oluşturulduğundan emin olun.
     - **Tablo** seçeneğini belirlersniz **Perakende kanal ilişkisi** alanında özel bir kanal (örneğin **San Francisco**) seçebilirsiniz.
@@ -95,7 +95,7 @@ Otomatik masrafları Commerce'ta kanala göre tanımlamak için aşağıdaki ad�
 
 Aşağıdaki örnekte, bir ürünü, ürün San Franscisco'daki bir fiziksel mağaza kanalı aracılığıyla satıldığında geri dönüşüm masrafları ücretlendirilecek şekilde, yapılandırmak için gerekli olan adımlar gösterilmektedir. Bu örnek ayrıca otomatik masrafların Commerce satış noktası (POS) uygulamasında nasıl göründüğünü de gösterir.
 
-Kuruluş, aşağıdaki çizimde gösterildiği gibi, **GERİ DÖNÜŞÜM**olarak adlandırılan bir masraf kodu tanımlar.
+Kuruluş, aşağıdaki çizimde gösterildiği gibi, **GERİ DÖNÜŞÜM** olarak adlandırılan bir masraf kodu tanımlar.
 
 ![GERİ DÖNÜŞÜM masraf kodu](media/Auto-charges-charge-code.png)
 

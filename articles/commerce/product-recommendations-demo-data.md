@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: cca6913375eec2565852676f3c1da5a67f71e14f
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416298"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Demo verileriyle öneriler oluşturma
 

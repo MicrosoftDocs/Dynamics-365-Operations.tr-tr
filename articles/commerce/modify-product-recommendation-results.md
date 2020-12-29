@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664966"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416511"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>AI-ML tabanlı ürün önerisi sonuçlarını ayarlama
 

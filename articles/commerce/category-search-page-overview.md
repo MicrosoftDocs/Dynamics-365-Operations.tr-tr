@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416392"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış
 

@@ -18,11 +18,11 @@ ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001167"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416405"
 ---
 # <a name="authoring-page-overview"></a>Yazma sayfasına genel bakış
 

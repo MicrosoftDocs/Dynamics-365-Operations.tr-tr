@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 8d95bb0927de5a1906efe180cb9e725c380a724f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024337"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416496"
 ---
 # <a name="analyze-store-performance"></a>Mağaza performansını analiz etme
 

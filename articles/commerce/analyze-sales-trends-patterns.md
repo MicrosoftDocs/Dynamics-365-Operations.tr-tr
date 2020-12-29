@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 6b5ff889a2fbc33add20559be988c6fcdf36d596
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024278"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416396"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Satış eğilimlerini ve modellerini analiz etme
 

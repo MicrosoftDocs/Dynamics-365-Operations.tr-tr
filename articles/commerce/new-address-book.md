@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 4fe97e3e2f8265c1dc67a4052f45125b693c7218
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416305"
 ---
 # <a name="create-new-address-book"></a>Yeni adres defteri oluşturun
 

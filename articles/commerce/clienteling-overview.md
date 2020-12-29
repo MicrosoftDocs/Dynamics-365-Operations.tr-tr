@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
 ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416421"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 

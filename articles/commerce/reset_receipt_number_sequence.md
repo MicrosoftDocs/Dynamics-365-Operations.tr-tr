@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
 ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967298"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416358"
 ---
 # <a name="reset-receipt-numbers"></a>Makbuz numaralarını sıfırlama 
 

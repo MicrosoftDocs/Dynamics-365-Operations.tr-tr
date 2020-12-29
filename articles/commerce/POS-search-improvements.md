@@ -19,11 +19,11 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
-ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759947"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416349"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 

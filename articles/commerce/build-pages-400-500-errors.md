@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269556"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416395"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>4xx/5xx durum kodu hataları için özel yanıt sayfaları oluşturma
 
@@ -69,7 +69,7 @@ Durum kodu hata yanıtı sayfası oluşturmak için aşağıdaki adımları izle
 
 Durum kodu hata yanıtı sayfasına yeniden yönlendirme ayarlamak için aşağıdaki adımları izleyin.
 
-1. **URL'ler \> Yeni \> Yeni Diğer Ad**a gidin ve daha önce oluşturduğunuz durum kodu hata yanıtı sayfasını seçin.
+1. **URL'ler \> Yeni \> Yeni Diğer Ad** a gidin ve daha önce oluşturduğunuz durum kodu hata yanıtı sayfasını seçin.
 1. **Diğer ad** alanına, yeniden yönlendirme ayarlamakta olduğunuz durum kodu hata yanıtı sayfasına bağlı olarak **varsayılan-4xx** veya **varsayılan-5xx** değerini girin. Bu diğer adlar yayımlanmalıdır. Aksi durumda yeniden yönlendirme çalışmaz.
 1. Bağlantıyı onaylamak için **Tamam**'ı seçin.
 

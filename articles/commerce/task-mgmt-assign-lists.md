@@ -17,11 +17,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036821"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416492"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Mağazalara veya personele görev listeleri atama
 
@@ -62,7 +62,7 @@ Perakende, bazen "Perşembe kapatma denetim listesi" veya "ay denetim listesinin
 1. **İşlem Başlat** iletişim kutusundaki **genel** sekmesinde, **işlem adı** alanına bir ad girin.
 1. **Yineleme** seçeneğini **Evet** olarak ayarlayın.
 1. **Gün cinsinden tekrarlama hedefi Tarih farkı** alanında, gün sayısını girin. Örneğin, **4** girerseniz, hedef tarih tekrarlama tarihi artı dört gün olarak hesaplanır.
-1. **Arka planda çalıştır** sekmesinde **Tekrar**ı seçin.
+1. **Arka planda çalıştır** sekmesinde **Tekrar** ı seçin.
 1. **Tekrarı tanımla** iletişim kutusunda sıklık ölçütünü girin ve **Tamam** 'ı seçin.
 
 Aşağıdaki çizimde, **yinelenme tanımla** iletişim kutusunda sıklık ölçütünün nasıl girmenin bir örneği gösterilmektedir.

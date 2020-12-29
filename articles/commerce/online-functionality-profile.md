@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 5ecbfcf3fa78ad2909a7cc9988ab1edaf2b98376
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416548"
 ---
 # <a name="create-an-online-functionality-profile"></a>Çevrimiçi işlevsellik profili oluştur
 

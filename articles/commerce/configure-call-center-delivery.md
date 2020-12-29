@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057822"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416331"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 

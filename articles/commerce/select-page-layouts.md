@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269924"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416549"
 ---
 # <a name="select-page-layouts"></a>Sayfa düzeni seçme
 

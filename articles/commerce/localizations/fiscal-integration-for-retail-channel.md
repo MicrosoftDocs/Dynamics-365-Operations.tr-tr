@@ -18,11 +18,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
-ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3403227"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416520"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 

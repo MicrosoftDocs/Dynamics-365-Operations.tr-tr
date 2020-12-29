@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 29c21ceb4c259f463f4a039942e51141201a9809
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097059"
+ms.locfileid: "4416568"
 ---
 # <a name="set-up-an-experiment"></a>Deneme ayarlama
 
@@ -44,7 +44,7 @@ Başarı ölçümlerinizi ayarlamak için aşağıdaki adımları takip edin.
 
 1. Commerce site oluşturucuda sol gezinti bölmesinde **Sayfalar** sekmesini seçin ve sonra ölçümleri toplamak istediğiniz sayfayı seçin. 
 1. İzlemek istediğiniz sayfanın veya modülün sağ özellik bölmesindeki **İzlenecek olay kimlikleri** bölümüne gidin.
-1. **Görüntüle** 'yi seçin. Tüm olay kimliklerinin listesi görüntülenir. İzlemek istediğiniz olayı kopyalayın ve olay anahtarını üçüncü taraf hizmetinde belirtilen konuma yapıştırın. Birden fazla olaya gereksinim duyarsanız, anahtarları tek tek kopyalayın. 
+1. **Görüntüle**'yi seçin. Tüm olay kimliklerinin listesi görüntülenir. İzlemek istediğiniz olayı kopyalayın ve olay anahtarını üçüncü taraf hizmetinde belirtilen konuma yapıştırın. Birden fazla olaya gereksinim duyarsanız, anahtarları tek tek kopyalayın. 
     - Sayfa görünümleri ve gelir izleme dahil tüm kullanılabilir olay ve özniteliklerin nasıl görüntüleneceğini öğrenmek için bkz. [Tanılama ve sorun giderme için Commerce bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
 1. Üçüncü taraf hizmetinde, ölçümleri izlemek için diğer adımları uygulayın.
 

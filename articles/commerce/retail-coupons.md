@@ -19,11 +19,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416355"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 

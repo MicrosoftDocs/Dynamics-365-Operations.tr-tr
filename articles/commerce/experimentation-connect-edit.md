@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096979"
+ms.locfileid: "4416566"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Deneme bağlama ve varyasyonları düzenleme
 
@@ -60,7 +60,7 @@ Denemenizi bağlamak için **Deneme bağlama** sihirbazını başlatın. Sihirba
 
 Commerce site oluşturucuda denemenizi bağlamaya başlamak için aşağıdaki adımları izleyin.
 
-1. **Denemeyi bağlama** sihirbazını başlatmak için, sol gezinti bölmesinde **Denemeler** 'i seçin ve sonra **Bağlan** 'ı seçin. Alternatif olarak, sihirbaza bir sayfa veya parça düzenleyicisinden de erişebilirsiniz. Bunun için sihirbazı düzenleyin ve komut çubuğunda **Denemeyi bağla** 'yı seçin.
+1. **Denemeyi bağlama** sihirbazını başlatmak için, sol gezinti bölmesinde **Denemeler**'i seçin ve sonra **Bağlan**'ı seçin. Alternatif olarak, sihirbaza bir sayfa veya parça düzenleyicisinden de erişebilirsiniz. Bunun için sihirbazı düzenleyin ve komut çubuğunda **Denemeyi bağla**'yı seçin.
 
     > [!NOTE]
     > Bir sayfa, bir seferde yalnızca bir denemeye bağlanabilir. Bir sayfayı farklı bir denemeye bağlamak için, önce sayfanın bağlı olduğu denemeyi silin.
@@ -70,7 +70,7 @@ Commerce site oluşturucuda denemenizi bağlamaya başlamak için aşağıdaki a
     > [!NOTE]
     > Tam sayfa veya parça üzerinde denemeler yapmak istiyorsanız, **Sayfalar veya parçalar üzerinde deneme** özelliği bayrağının etkinleştirilmesi gerekir. Daha fazla bilgi için [Dynamics 365 Commerce'ta deneme](experimentation-overview.md) konusuna bakın.
     
-1. Sihirbazın son adımında, **Varyasyonlar oluştur ve sihirbazdan çık** 'ı seçin. Denemeler için varyasyonlar oluşturulur. 
+1. Sihirbazın son adımında, **Varyasyonlar oluştur ve sihirbazdan çık**'ı seçin. Denemeler için varyasyonlar oluşturulur. 
 
 ## <a name="edit-your-variations"></a>Varyasyonlarınızı düzenleme
 Sihirbazdan çıktığınızda, varyasyonlar sizin için oluşturulur. 
@@ -81,7 +81,7 @@ Daha sonra, varyasyonları deneme varsayımında doğrulamanız gereken seçimle
 **Denemeyi bağla** sihirbazında denemenizin kapsamını **kısmi** olarak tanımladıysanızşu adımları izleyin.
 
 1. Düzenleyici görünümünde, her varyasyonu özgün varsayıma göre düzenlemek için komut çubuğunun altındaki varyasyonlar açılan menüsünü kullanın. Varyasyonlardan birini değiştirilmemiş şekilde bırakarak bir denetim veya temel varyasyon da oluşturmak isteyebilirsiniz.
-1. Denemede kullanılacak modülü seçin, üç noktayı (...) seçin ve sonra **Denemeye ekle** 'yi seçin.
+1. Denemede kullanılacak modülü seçin, üç noktayı (...) seçin ve sonra **Denemeye ekle**'yi seçin.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Tam kapsamlı denemeler için varyasyonları düzenleme
 Deneme kapsamını **Denemeyi bağla** sihirbazında **tam** olarak tanımladıysanız, düzenleyici görünümündeyken, özgün varsayımınıza göre her bir varyasyonu düzenlemek için, komut çubuğunun altındaki varyasyonlar açılan menüsünü kullanın. 

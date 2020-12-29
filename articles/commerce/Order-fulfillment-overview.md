@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107219"
+ms.locfileid: "4416575"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
@@ -58,7 +58,7 @@ Satırlar Eylem Bölmesindeki **Seç** işlevi kullanılarak seçilebilir. **Se�
 
 ## <a name="line-details"></a>Satır ayrıntıları
 
-Satır ayrıntıları satır ayrıntıları açılır menüsü kullanılarak görüntülenebilir. Bu menü kullanıldığında, seçili satır için ek bilgileri görüntülemek üzere üç sekme sağlanır. İlk sekme olan **Satır ayrıntıları** , sipariş edilen ve kalan miktar gibi satırın kendisiyle ilgili ayrıntıları gösterir. Çekilen, paketlenen ve faturalanan miktar ve teslimat şekli ve adresi gibi ek bilgiler sağlanır. **Sipariş ayrıntıları** sekmesi müşteri, müşteri kodu, sipariş numarası, toplam tutar ve bakiye dahil olmak üzere sipariş başlığı bilgilerini gösterir. **Stok** sekmesi, kullanılabilir stok, ayrılmış stok ve sipariş edilen stok cinsinden seçilen satıra ilişkin bilgileri gösterir.
+Satır ayrıntıları satır ayrıntıları açılır menüsü kullanılarak görüntülenebilir. Bu menü kullanıldığında, seçili satır için ek bilgileri görüntülemek üzere üç sekme sağlanır. İlk sekme olan **Satır ayrıntıları**, sipariş edilen ve kalan miktar gibi satırın kendisiyle ilgili ayrıntıları gösterir. Çekilen, paketlenen ve faturalanan miktar ve teslimat şekli ve adresi gibi ek bilgiler sağlanır. **Sipariş ayrıntıları** sekmesi müşteri, müşteri kodu, sipariş numarası, toplam tutar ve bakiye dahil olmak üzere sipariş başlığı bilgilerini gösterir. **Stok** sekmesi, kullanılabilir stok, ayrılmış stok ve sipariş edilen stok cinsinden seçilen satıra ilişkin bilgileri gösterir.
 
 Birden çok satır seçiliyse, sipariş satırı ayrıntıları açılır menüsü yalnızca birden çok satırın seçili olduğunu belirtir. Tek bir satırın ayrıntıları göstermek için, yalnızca tek bir satır kalana kadar satırları temizleyin.
 
@@ -180,7 +180,7 @@ Satırlar veya kısmi satırlar reddedilebilir. Bu, satırların arka ofisten ba
 - **Neden olduğu durum:** Reddedildi
 - **Neden olduğu arka ofis durumu:** Değişiklik yok
 
-Reddedilen sipariş satırları **Satış siparişi işleme ve sorgulama** çalışma alanından görüntülenebilir. Mağazalardaki reddedilen tüm sipariş satırlarını görüntülemek için çalışma alanında kişi filtresini temizleyin. **Siparişler ve sık kullanılanlar** bölümü altındaki **Reddedilen sipariş satırları** sipariş satırı ayrıntılarını görüntüler. Ayrıca, **Özet** bölümü altındaki **Reddedilen sipariş satırları** düğmesine tıklayarak bir satış siparişi görünümüne gidebilirler. Bu görünüm, bir veya daha fazla reddedilmiş satırı bulunan tüm siparişleri gösterir. Dağıtılan Sipariş Yönetimi (DOM) etkinleştirilirse, reddedilen bu siparişler otomatik olarak karşılama için uygun olan mağazalara atanır ancak bu sipariş satırları el ile de yeniden atanabilir. Bunu yapmak için **Karşılama durumu** **Reddedildi** olarak görünen satırı seçin ve tesisi/ambarı gerektiği gibi değiştirin. **Satırı güncelleştir** açılır menüsünü ve **Karşılama durumunu sıfırla** 'yı tıklayarak karşılama durumunu sipariş karşılama ayarına bağlı olarak **Reddedildi** yerine **Kabul edildi** veya **Beklemede** olarak değiştirin. Karşılama durumu sıfırlandıktan sonra, mağaza çalışanları POS'ta sipariş satırlarını görebilir.
+Reddedilen sipariş satırları **Satış siparişi işleme ve sorgulama** çalışma alanından görüntülenebilir. Mağazalardaki reddedilen tüm sipariş satırlarını görüntülemek için çalışma alanında kişi filtresini temizleyin. **Siparişler ve sık kullanılanlar** bölümü altındaki **Reddedilen sipariş satırları** sipariş satırı ayrıntılarını görüntüler. Ayrıca, **Özet** bölümü altındaki **Reddedilen sipariş satırları** düğmesine tıklayarak bir satış siparişi görünümüne gidebilirler. Bu görünüm, bir veya daha fazla reddedilmiş satırı bulunan tüm siparişleri gösterir. Dağıtılan Sipariş Yönetimi (DOM) etkinleştirilirse, reddedilen bu siparişler otomatik olarak karşılama için uygun olan mağazalara atanır ancak bu sipariş satırları el ile de yeniden atanabilir. Bunu yapmak için **Karşılama durumu** **Reddedildi** olarak görünen satırı seçin ve tesisi/ambarı gerektiği gibi değiştirin. **Satırı güncelleştir** açılır menüsünü ve **Karşılama durumunu sıfırla**'yı tıklayarak karşılama durumunu sipariş karşılama ayarına bağlı olarak **Reddedildi** yerine **Kabul edildi** veya **Beklemede** olarak değiştirin. Karşılama durumu sıfırlandıktan sonra, mağaza çalışanları POS'ta sipariş satırlarını görebilir.
 
 ## <a name="line-quantity-tracking"></a>Satır miktarını izleme
 
@@ -192,7 +192,7 @@ Yukarıdaki örnek üzerinden devam edersek, 200 levhanın paketlendi olarak iş
 
 ## <a name="line-statuses"></a>Satır durumları
 
-Satış noktasındaki sipariş satırlarının, sipariş satırının durumunu yansıtan çeşitli durumları bulunur. Satış noktasındaki durumlar ile arka ofis her zaman eşleşmez. Sipariş satırı durumu, sipariş karşılama işlemleri kullanılarak satış noktasından görüntülenebilir. Arka ofiste, sipariş satırları sipariş ayrıntılarından görüntülenir. Sipariş ayrıntılarına **Perakende ve Ticaret** \> **Müşteriler** \> **Tüm müşteri siparişleri** 'nden erişilebilir. Sipariş ayrıntılarını görmek için **Sipariş kodu** 'nu seçin. Sipariş ayrıntılarından **Satış siparişi** sekmesini seçin ve ardından **Görünüm** alt başlığı altından **Ayrıntılı durum** 'u seçin.
+Satış noktasındaki sipariş satırlarının, sipariş satırının durumunu yansıtan çeşitli durumları bulunur. Satış noktasındaki durumlar ile arka ofis her zaman eşleşmez. Sipariş satırı durumu, sipariş karşılama işlemleri kullanılarak satış noktasından görüntülenebilir. Arka ofiste, sipariş satırları sipariş ayrıntılarından görüntülenir. Sipariş ayrıntılarına **Perakende ve Ticaret** \> **Müşteriler** \> **Tüm müşteri siparişleri**'nden erişilebilir. Sipariş ayrıntılarını görmek için **Sipariş kodu**'nu seçin. Sipariş ayrıntılarından **Satış siparişi** sekmesini seçin ve ardından **Görünüm** alt başlığı altından **Ayrıntılı durum**'u seçin.
 
 - **Beklemede** – Bir mağazaya atanan ancak henüz kabul edilmemiş olan sipariş satırlarının durumu satış noktasından görüntülendiğinde **Beklemede** olur. Satış noktasında kabul edilmeyi bekleyen satırların durumu arka ofiste **Sipariş işleniyor** olacaktır.
 - **Kabul edildi** – El ile veya otomatik olarak kabul edilen sipariş satırlarının durumu satış noktasından görüntülendiğinde **Kabul edildi** olur. **Kabul edildi** durumunda olan satırlar arka ofiste **Sipariş işleniyor** olarak görüntülenir.

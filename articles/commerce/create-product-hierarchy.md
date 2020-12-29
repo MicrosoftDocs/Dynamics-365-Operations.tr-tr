@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070433"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416351"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Yeni bir ürün hiyerarşisi oluşturma
 

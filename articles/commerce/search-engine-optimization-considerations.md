@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961598"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416509"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Siteniz için arama motoru optimizasyonu (SEO) konuları
 

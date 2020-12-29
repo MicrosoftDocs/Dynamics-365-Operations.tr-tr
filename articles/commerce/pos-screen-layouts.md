@@ -20,11 +20,11 @@ ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022483"
+ms.locfileid: "4416558"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS kullanıcı arabirimi görsel yapılandırmaları
 
@@ -50,11 +50,11 @@ Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında p
 - **Tema** – **Açık** veya **Koyu** uygulama temaları arasından seçim yapabilirsiniz. Tema, uygulamanın tümünde yazı tipini ve arka plan renklerini etkiler.
 - **Vurgu rengi** – Vurgu rengi tüm POS genelinde kutucuk, komut düğmesi ve köprü gibi belirli görsel öğeleri ayırt etmek veya vurgulamak için kullanılır. Bunlar genellikle işlem yapılabilecek öğelerdir.
 - **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz.
-- **Yazı tipi düzeni** – **Standart** ve **Büyük** yazı tipi düzenleri arasından seçim yapabilirsiniz. Yazı tipi düzeni tüm uygulama boyunca yazı tipi boyutunu etkiler. Varsayılan seçim **Standart** 'tır.
+- **Yazı tipi düzeni** – **Standart** ve **Büyük** yazı tipi düzenleri arasından seçim yapabilirsiniz. Yazı tipi düzeni tüm uygulama boyunca yazı tipi boyutunu etkiler. Varsayılan seçim **Standart**'tır.
 - **Uygulama çubuğu etiketlerini her zaman göster** – Bu seçenek etkinken, etiket metni her zaman uygulama çubuğu düğmelerinin altında görünür.
-- **Düzen** – **Ortalanmış** ve **Sağ** düzenleri arasında seçim yapabilirsiniz. Düzen, oturum açma ekranındaki oturum açma kutusunun hizalamasını etkiler. Varsayılan seçim **Ortalanmış** 'tır.
+- **Düzen** – **Ortalanmış** ve **Sağ** düzenleri arasında seçim yapabilirsiniz. Düzen, oturum açma ekranındaki oturum açma kutusunun hizalamasını etkiler. Varsayılan seçim **Ortalanmış**'tır.
 - **Tarihi/saati göster** - Bu seçenek etkinleştirildiğinde, POS başlığında ve oturum açma ekranında geçerli tarih ve saat gösterilir.
-- **Klavye** – Oturum açma ekranında giriş için kullanılan varsayılan klavyeyi belirtmek için **Varsayılan olarak işletim sistemi klavyesi** ve **Sayı takımını göster** 'i seçebilirsiniz. Sayı takımı, özellikle dokunmatik tabanlı aygıtlarda kullanılan sanal bir klavyedir. Varsayılan seçim **Varsayılan olarak İşletim Sistemi klavyesi** 'dir.
+- **Klavye** – Oturum açma ekranında giriş için kullanılan varsayılan klavyeyi belirtmek için **Varsayılan olarak işletim sistemi klavyesi** ve **Sayı takımını göster**'i seçebilirsiniz. Sayı takımı, özellikle dokunmatik tabanlı aygıtlarda kullanılan sanal bir klavyedir. Varsayılan seçim **Varsayılan olarak İşletim Sistemi klavyesi**'dir.
 - **Logo resmi** – Oturum açma ekranında gösterilen bir logo resmi belirtebilirsiniz. Arka planı saydam olan bir görüntü kullanmanızı öneririz. Büyük dosyaların depolanması ve yüklenmesi, uygulama davranışını ve performansını olumsuz etkileyebileceği için, dosya boyutu olabildiğince küçük tutulmalıdır.
 - **Oturum açma arka planı** – Oturum açma ekranı için bir arka plan resmi belirtebilirsiniz. Arka plan görüntülerinin dosya boyutu mümkün olduğunca küçük tutulmalıdır.
 - **Arka plan** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma ekranına ait arka plan görüntülerinde olduğu gibi, dosya boyutu olabildiğince küçük tutulmalıdır.
@@ -62,7 +62,7 @@ Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında p
 > [!NOTE]
 > **Sağ** düzeni ve tarih/saat görünümü, oturum açma ekranına sıkıştırılmış görünümde uygulanmaz.
 
-En son görsel profil yapılandırmalarını kanal veritabanıyla eşitlemek için **1090** ( **Kayıtlar** ) dağıtım zamanlama işini çalıştırmanız gerekir.
+En son görsel profil yapılandırmalarını kanal veritabanıyla eşitlemek için **1090** (**Kayıtlar**) dağıtım zamanlama işini çalıştırmanız gerekir.
 
 ## <a name="screen-layouts"></a>Ekran düzenleri
 
@@ -84,7 +84,7 @@ Ekran düzeni yapılandırmaları POS **Hoş geldiniz** ekranındaki ve **Hareke
 
 Ekran düzenleri mağaza, kasa veya kullanıcı düzeyinde atanabilir. Kullanıcı ataması kasa ve mağaza atamalarını geçersiz kılar; kasa ataması ise mağaza atamasını geçersiz kılar. Tüm kullanıcıların, kasa veya rol ne olursa olsun, aynı düzeni kullandığı basit bir senaryoda ekran düzeni yalnızca mağaza düzeyinde ayarlanabilir. Belirli kasalar veya kullanıcılar için özelleştirilmiş düzenlerin gerektiği senaryolarda, bu düzenler atanabilir.
 
-Ekran düzenlerinin atandığı düzeye bağlı olarak, en son ekran düzeni yapılandırmalarını kanal veritabanıyla eşitlemek için **1070** ( **Kanal yapılandırması** ), **1090** ( **Kayıtlar** ) ve/veya **1060** ( **Personel** ) dağıtım planlama çizelgesi işleri çalıştırmanız gerekir.
+Ekran düzenlerinin atandığı düzeye bağlı olarak, en son ekran düzeni yapılandırmalarını kanal veritabanıyla eşitlemek için **1070** (**Kanal yapılandırması**), **1090** (**Kayıtlar**) ve/veya **1060** (**Personel**) dağıtım planlama çizelgesi işleri çalıştırmanız gerekir.
 
 ### <a name="layout-sizes"></a>Düzen boyutları
 
@@ -103,7 +103,7 @@ POS uygulaması, başlangıçta, cihaz için yapılandırılmış en yakın düz
 - **Genişlik/Yükseklik** – Bu değerler, düzen için beklenen geçerli ekran boyutunu piksel cinsinden gösterir. Bazı işletim sistemlerinin yüksek çözünürlüklü ekranlar için ölçekleme kullandığını unutmayın.
 
 > [!TIP]
-> Uygulamada çözünürlüğü görüntüleyerek, POS ekranı için gereken düzen boyutunu öğrenebilirsiniz. POS'u başlatın ve **Ayarlar \> Oturum bilgileri** 'ne gidin. POS, o anda yüklü olan ekran düzenini, düzen boyutunu ve uygulama penceresinin çözünürlüğünü gösterir.
+> Uygulamada çözünürlüğü görüntüleyerek, POS ekranı için gereken düzen boyutunu öğrenebilirsiniz. POS'u başlatın ve **Ayarlar \> Oturum bilgileri**'ne gidin. POS, o anda yüklü olan ekran düzenini, düzen boyutunu ve uygulama penceresinin çözünürlüğünü gösterir.
 
 ![O anda yüklü olan ekran düzenini, düzen boyutunu ve uygulama penceresinin çözünürlüğünü gösteren POS oturum bilgileri sayfası.](../commerce/media/POS-Session-Information.png)
 
@@ -198,7 +198,7 @@ Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekran�
         > [!NOTE]
         > Modern POS ve Cloud POS yalnızca **Arka plan rengi** ve **Yazı tipi rengi** değerlerini kullanır.
 
-    - **Düğme görüntüsünü** – Düğmeler görüntü veya simgeler içerebilir. **Perakende ve Ticaret \> Kanal kurulumu \> POS kurulumu \> POS \> Resimler** 'de belirtilen kullanılabilir görüntülerden seçim yapın.
+    - **Düğme görüntüsünü** – Düğmeler görüntü veya simgeler içerebilir. **Perakende ve Ticaret \> Kanal kurulumu \> POS kurulumu \> POS \> Resimler**'de belirtilen kullanılabilir görüntülerden seçim yapın.
 
 ![POS'ta düğme grubu örneği](../commerce/media/Example-Button-Grid-In-POS.png)
 

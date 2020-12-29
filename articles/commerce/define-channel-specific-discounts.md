@@ -20,11 +20,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 539a6f2df46450c5e0fd18ba69501432d6f3fbdd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024285"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416436"
 ---
 # <a name="define-channel-specific-discounts"></a>Kanala özel iskontolar tanımlama
 
@@ -53,7 +53,7 @@ Yukarıdaki diyagram, bir hareket üzerinde bulunabilen varlıklar (kanal, katal
 
 Aşağıdaki örnek bir kanal iskonto ayarının kurulmasıyla ilgili görevleri gösterir.
 
-1. Bu örnekte **Houston** adlı bir kanal mevcuttur ve **Okula dönüş**adlı yeni bir indirim oluşturacaksınız.
+1. Bu örnekte **Houston** adlı bir kanal mevcuttur ve **Okula dönüş** adlı yeni bir indirim oluşturacaksınız.
 2. Fiyat ve iskonto stratejisi kanal indirimleri ihtimalini içerdiği için, bir kanal oluşturduğunuzda her zaman kanala özel bir fiyat grubu oluşturursunuz.
 3. Fiyat grubu **Houston-PG** mevcuttur ve bu, **Houston** kanalına atanmıştır.
 4. **Okula dönüş** yeni iskontosunu oluşturduktan sonra, **İndirim** sayfasının tepesindeki **Fiyat grupları** tıklamanız lazım. **İndirim fiyat grupları** sayfası açılacaktır. Bundan sonra **Yeni**'ye tıklayın ve **Houston-PG** fiyat grubunu seçin.

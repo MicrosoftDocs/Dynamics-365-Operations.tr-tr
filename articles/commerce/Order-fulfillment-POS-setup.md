@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 118517fe0d7208113bd361a0295ff00cacd14f3d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416332"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Mağazalar için sipariş karşılamayı ayarlama
 

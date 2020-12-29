@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057221"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416505"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 
@@ -64,7 +64,7 @@ Sistem, bir siparişin sahte veri incelemesi amacıyla beklemeye alınması gere
 
 Çağrı merkezi kullanıcıları bir satış siparişi gönderirken sipariş sahtekarlık ölçütleriyle veya kurallarıyla eşleşirse ve puan minimum değeri aşarsa, kullanıcılar, siparişin beklemeye alındığını bildiren bir uyarı iletisi alır. Kullanıcılar, yalnızca bilgi amaçlı olduğundan, bu iletiyi kapatabilir. Kullanıcılar isteğe bağlı olarak bu bilgileri müşteriye iletebilir. İşletme, bu durumda kullanıcıların izleyeceği protokolü belirlemelidir.
 
-Sipariş kaydedilir ancak üzerine **İşleme** bayrağı koyulur. Bu bayrak, siparişin ambara serbest bırakılmamasını garantilemeye yardımcı olur. Kullanıcılar istedikleri zaman bir satış siparişinin **İşleme** bayrağı ayarını **Ayrntılı durum** sayfasında görüntüleyebilirler. Bu sayfa**Tüm satış siparişi** ve **Müşteri hizmeti** sayfalarından açılabilir. Sistem, ayrıca, siparişin **Ayrıntılı durum** alanının değerini **Sahte tutma**'ya güncelleştirebilir.
+Sipariş kaydedilir ancak üzerine **İşleme** bayrağı koyulur. Bu bayrak, siparişin ambara serbest bırakılmamasını garantilemeye yardımcı olur. Kullanıcılar istedikleri zaman bir satış siparişinin **İşleme** bayrağı ayarını **Ayrntılı durum** sayfasında görüntüleyebilirler. Bu sayfa **Tüm satış siparişi** ve **Müşteri hizmeti** sayfalarından açılabilir. Sistem, ayrıca, siparişin **Ayrıntılı durum** alanının değerini **Sahte tutma**'ya güncelleştirebilir.
 
 Sahte veri incelemesi için beklemeye alınmış siparişleri görüntülemek ve yönetmek için **Retail ve Commerce** \> **Müşteriler** \> **Sipariş tutmalar**'a gidin. Tutma nedeni hakkında bilgiler içeren daha ayrıntılı bir görünümü görmek için **Sipariş tutmalar** sayfasında, listeden bir giriş seçin ve ardından **Sipariş tutma**'ya tıklayın. **Sahtekarlık ayrıntıları** hızlı sekmesinde, sipariş için bir eşleşme olduğu saptanan sistematik sahtekarlık ölçütlerini ve uygulanan puanları görüntüleyebilirsiniz. Sipariş el ile tutulursa, siparişi beklemeye alan kullanıcının girdiği yorumları, **Notlar** hızlı sekmesindeki **Sahtecilik notları** bölümüne bakarak inceleyebilirsiniz.
 

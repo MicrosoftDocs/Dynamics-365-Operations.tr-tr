@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895365"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416407"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik gruplarını yönetme
 

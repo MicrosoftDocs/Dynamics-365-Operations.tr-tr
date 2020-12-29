@@ -19,11 +19,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f513e2d857908f2b95d27bf48ff1e826724d7cbf
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024379"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416510"
 ---
 # <a name="suspend-and-resume-a-transaction-in-the-point-of-sale-pos"></a>Satış noktasında (POS) bir hareketi askıya alıp devam ettirmek
 

@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416300"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 

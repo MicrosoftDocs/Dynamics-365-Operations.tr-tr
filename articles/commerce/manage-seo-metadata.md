@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270062"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416408"
 ---
 # <a name="manage-seo-metadata"></a>SEO meta verilerini yönetme
 
@@ -75,7 +75,7 @@ Sayfa meta verilerini değiştirmek için aşağıdaki adımları izleyin.
 1. Komut çubuğunda, **Düzenle** öğesini seçin.
 1. Sağdaki özellikler bölmesinde, **Varsayılan meta verileri** genişletin.
 1. Yeni bir metaetiketi eklemek için, **Ekle**'yi seçin ve alana etiketi girin. Varolan bir meta etiketi kaldırmak için, sağ tarafta bulunan çöp tenekesi sembolünü seçin.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanında **Güncellenen meta etiketler** seçeneğini girin ve **Tamam**'ı seçin.
 1. Sayfanızın önizlemesini görüntülemek için **Önizleme**'yi seçin. Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

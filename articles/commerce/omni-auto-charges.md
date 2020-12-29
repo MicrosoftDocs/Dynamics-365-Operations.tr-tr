@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107387"
+ms.locfileid: "4416576"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
@@ -44,7 +44,7 @@ Gelişmiş otomatik masraflar özelliğiyle, POS kullanıcıları tanımlanan he
 
 ## <a name="enabling-advanced-auto-charges"></a>Gelişmiş otomatik masrafları etkinleştirmek
 
-**Perakende ve Ticaret \> Genel merkez kurulumu \> Parametreler \> Ticaret parametreleri** sayfasında, **Müşteri siparişleri** sekmesine gidin. **Masraflar** hızlı sekmesinde, **Gelişmiş otomatik masrafları kullan** 'ı **Evet** olarak ayarlayın.
+**Perakende ve Ticaret \> Genel merkez kurulumu \> Parametreler \> Ticaret parametreleri** sayfasında, **Müşteri siparişleri** sekmesine gidin. **Masraflar** hızlı sekmesinde, **Gelişmiş otomatik masrafları kullan**'ı **Evet** olarak ayarlayın.
 
 ![Gelişmiş otomatik masraflar parametresi](media/advancedchargesparameter.png)
 
@@ -137,11 +137,11 @@ Bir perakendeci, mağazadan ürün sipariş eden bir müşteriye özel eve tesli
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
-Senaryo için uygun masraf konunu tanımlamak için bu senaryoda kullanılacak masraf kodunun, **Alacak Hesapları \> masraflar kurulumu \> masraflar** 'e giderek doğru şekilde yapılandırıldığından emin olun.
+Senaryo için uygun masraf konunu tanımlamak için bu senaryoda kullanılacak masraf kodunun, **Alacak Hesapları \> masraflar kurulumu \> masraflar**'e giderek doğru şekilde yapılandırıldığından emin olun.
 
 ![masraflar örneği](media/chargesexample.png)
 
-masraf, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili masraf olarak dikkate alınacaksa, **Nakliye masrafı** 'ni masraflar kodu üzerinde **Evet** olarak ayarlayın Masrafın sistematik olarak iade işlemi sırasında POS uygulamasında sistematik olarak iade edilmesine olanak sağlanıyorsa, **İade edilebilir** 'i **Evet** olarak ayarlayın. **İade edilebilir** bayrağı yalnızca **Gelişmiş otomatik masraflar** parametresi **Evet** olarak ayarlanmışsa uygulanabilir.
+masraf, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili masraf olarak dikkate alınacaksa, **Nakliye masrafı**'ni masraflar kodu üzerinde **Evet** olarak ayarlayın Masrafın sistematik olarak iade işlemi sırasında POS uygulamasında sistematik olarak iade edilmesine olanak sağlanıyorsa, **İade edilebilir**'i **Evet** olarak ayarlayın. **İade edilebilir** bayrağı yalnızca **Gelişmiş otomatik masraflar** parametresi **Evet** olarak ayarlanmışsa uygulanabilir.
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
@@ -161,9 +161,9 @@ Bir müşteri, satış siparişindeki beş ögeden ikisinin hediye paketi yapıl
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
-Senaryo için uygun masraf konunu tanımlamak için bu senaryoda kullanılacak masraf kodunun, **Alacak Hesapları \> masraflar kurulumu \> masraflar** 'e giderek doğru şekilde yapılandırıldığından emin olun.
+Senaryo için uygun masraf konunu tanımlamak için bu senaryoda kullanılacak masraf kodunun, **Alacak Hesapları \> masraflar kurulumu \> masraflar**'e giderek doğru şekilde yapılandırıldığından emin olun.
 
-Gider, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili gider olarak dikkate alınacaksa, **Nakliye gideri** 'ni giderler kodu üzerinde **Evet** olarak ayarlayın Masrafın sistematik olarak iade işlemi sırasında POS uygulamasında sistematik olarak iade edilmesine olanak sağlanıyorsa, **İade edilebilir** 'i **Evet** olarak ayarlayın. **İade edilebilir** bayrağı yalnızca **Gelişmiş otomatik masraflar** parametresi **Evet** olarak ayarlanmışsa uygulanabilir.
+Gider, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili gider olarak dikkate alınacaksa, **Nakliye gideri**'ni giderler kodu üzerinde **Evet** olarak ayarlayın Masrafın sistematik olarak iade işlemi sırasında POS uygulamasında sistematik olarak iade edilmesine olanak sağlanıyorsa, **İade edilebilir**'i **Evet** olarak ayarlayın. **İade edilebilir** bayrağı yalnızca **Gelişmiş otomatik masraflar** parametresi **Evet** olarak ayarlanmışsa uygulanabilir.
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
@@ -183,7 +183,7 @@ Aynı işlem, çağrı merkezinde, **Satış siparişi** sayfasındaki **Satış
 
 POS'taki **Masrafları yönet** sayfasında, kullanıcı hem başlık hem de satır düzeyi ayrıntıları görüntüleyebilir. Kullanıcılar bu sayfada bulunan **Düzenle** işlevini, belirli bir gider satırına uygulanan tutarda değişiklikler yapmak için kullanabilirler. Bir masraf satırı el ile değiştirildikten sonra, kullanıcı **Yeniden hesapla** işlemini başlatmadığı sürece sistematik olarak yeniden hesaplanmayacaktır.
 
-**Masraf geçersiz kılma neden kodu** , kurulum sayfasında **Ticaret parametreleri** içinde yapılandırılmışsa, kullanıcı masraflar POS uygulamasında değiştirilirse bir neden kodu girmek üzere uyarılır.
+**Masraf geçersiz kılma neden kodu**, kurulum sayfasında **Ticaret parametreleri** içinde yapılandırılmışsa, kullanıcı masraflar POS uygulamasında değiştirilirse bir neden kodu girmek üzere uyarılır.
 
 Neden kodları üzeri yazılan masraflar için yakalanmamışsa, yeni bir rapor da bu geçersiz kılmaları gözden geçirmek ve değerlendirmek için mevcut olacaktır. Bu rapor **Perakende ve Ticaret \> Sorgular ve raporlar \> Geçersiz kılma geçmişi** içinde bulunabilir.
 

@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761165"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416360"
 ---
 # <a name="add-a-favicon"></a>Favicon ekleme
 
@@ -73,7 +73,7 @@ Site simgesi için meta etiketi içeren bir parça oluşturmak için aşağıdak
 
 Meta etiket parçasını, sayfalarınızın HTML **başlık** bölümüne eklemek için şu adımları izleyin.
 
-1. **Şablonlar**a gidin, site simgenizi eklemek istediğiniz sayfaların şablonunu açın ve **Düzenle**'yi seçin.
+1. **Şablonlar** a gidin, site simgenizi eklemek istediğiniz sayfaların şablonunu açın ve **Düzenle**'yi seçin.
 1. Şablon hiyerarşisi ağacında, **HTML başlığı** kapsayıcısının sağında bulunan üç nokta düğmesini (**...**) seçin ve sonra **Parça ekle**'yi seçin.
 1. **Parçayı seç** iletişim kutusunda daha önce oluşturduğunuz meta etiketi sayfa parçasını ve sonra **Tamam**'ı seçin.
 1. **Düzenlemeyi bitir**'i seçin, ardından şablonu yayımlamak için **Yayımla**'yı seçin.

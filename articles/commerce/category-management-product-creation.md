@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 9d47a866703b830e84e3f2e37a02d9d58f73987b
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895437"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416393"
 ---
 # <a name="manage-product-categories-and-products"></a>Ürün kategorilerini ve ürünlerini yönetme
 

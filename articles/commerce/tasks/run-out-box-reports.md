@@ -18,11 +18,11 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140777"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416457"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Hazır raporlar oluştur ve çalıştır
 

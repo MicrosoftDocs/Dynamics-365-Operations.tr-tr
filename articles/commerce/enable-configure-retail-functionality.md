@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 24d4d49c51738203bb89a9844d57f644b8afd4b7
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284391"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416336"
 ---
 # <a name="initialize-seed-data-in-new-commerce-environments"></a>Yeni Commerce ortamlarında çekirdek verileri başlatma
 

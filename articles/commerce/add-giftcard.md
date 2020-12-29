@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022017"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4416590"
 ---
 # <a name="gift-card-module"></a>Hediye kartı modülü
 
@@ -39,8 +39,8 @@ E-ticaret hareketlerinde kullanılan genel bir ödeme biçimi olarak hediye kart
 
 İki hediye kartı modülü mevcuttur:
 
-- **Hediye kartı** : Bu modül, geçerli bir ödeme şekli olarak bir hediye kartından yararlanmak için ödeme sayfasında kullanılabilir. 
-- **Hediye kartı bakiyesi denetimi** : Bu modül herhangi bir sayfada, bir hediye kartındaki bakiyeyi denetlemek için kullanılabilir. Bu modül Commerce 10.0.14 sürümü ve sonrasında bulunur.
+- **Hediye kartı**: Bu modül, geçerli bir ödeme şekli olarak bir hediye kartından yararlanmak için ödeme sayfasında kullanılabilir. 
+- **Hediye kartı bakiyesi denetimi**: Bu modül herhangi bir sayfada, bir hediye kartındaki bakiyeyi denetlemek için kullanılabilir. Bu modül Commerce 10.0.14 sürümü ve sonrasında bulunur.
 
 > [!NOTE]
 > Hediye kartı bakiyesi denetleme modülü desteği Dynamics 365 Commerce 10.0.14 sürümünde mevcuttur.
@@ -86,6 +86,8 @@ Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayar
 [Sevkiyat adresi modülü](ship-address-module.md)
 
 [Teslimat seçenekleri modülü](delivery-options-module.md)
+
+[Malzeme çekme bilgileri modülü](pickup-info-module.md)
 
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 

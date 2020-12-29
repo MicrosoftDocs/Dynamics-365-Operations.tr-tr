@@ -20,11 +20,11 @@ ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
 ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3638194"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416430"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 
@@ -44,7 +44,7 @@ Commerce, "Tüm iskontoları görüntüle" adlı bir işlem içerir. Bu işlem, 
 - İskontonun fiyat grubu bir ilişki veya bağlılık programıyla eşlenir.
 - İskontonun fiyat grubu, mağaza ile ilişkilendirilmiş bir katalogla eşlenir.
 
-**Tüm iskontolar** sayfası yalnızca bazı kupon tabanlı iskontoları gösterir, çünkü perakendeciler benzersiz müşteriler için genellikle binlerce kupon ve bunlara karşılık gelen iskontolar oluşturur ve bu sayfa müşteriye özel iskontoları göstermeye yönelik değildir. Kupon tabanlı iskontolar yalnızca her kupon başlığında **Kupon kodu olmadan uygula**seçeneği açık olduğunda görüntülenir. Bu durumda, kasiyerler herhangi bir kupon kodu veya bar kod girmek veya taramak zorunda kalmadan kuponu uygulayabilir.
+**Tüm iskontolar** sayfası yalnızca bazı kupon tabanlı iskontoları gösterir, çünkü perakendeciler benzersiz müşteriler için genellikle binlerce kupon ve bunlara karşılık gelen iskontolar oluşturur ve bu sayfa müşteriye özel iskontoları göstermeye yönelik değildir. Kupon tabanlı iskontolar yalnızca her kupon başlığında **Kupon kodu olmadan uygula** seçeneği açık olduğunda görüntülenir. Bu durumda, kasiyerler herhangi bir kupon kodu veya bar kod girmek veya taramak zorunda kalmadan kuponu uygulayabilir.
 
 **Kupon kodu olmadan uygula** seçeneği açık olduğunda çeşitli senaryolar kullanılabilir hale gelir. Örneğin, kasiyerler müşteriyi yatıştırma veya ürün arızaları nedeniyle müşterilere ek indirimler verebilir. Yazdırılan kupon kodları veya barkodların kasiyerlere dağıtılması gerekmez. Bunun yerine, kasiyerler **Kupon uygula** düğmesini seçebilir. Kupon harekete otomatik olarak uygulanır. Kupon başlığı için birden çok kupon varsa, sistem otomatik olarak hareketteki ilk etkin kuponu seçer.
 

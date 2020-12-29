@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: a83affb5b383b50317ddf53de4d3bf565f0d9439
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416535"
 ---
 # <a name="work-with-publish-groups"></a>Yayımlama gruplarıyla çalışma
 

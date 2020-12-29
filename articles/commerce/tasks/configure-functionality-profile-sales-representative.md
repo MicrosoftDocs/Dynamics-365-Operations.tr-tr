@@ -18,11 +18,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1818ae569d1d29bf4d02ab8cbc481180531449b9
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107150"
+ms.locfileid: "4416571"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>Satış temsilcisi için işlevsellik profilini yapılandırma
 

@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 588cbedb077fab0663d3d62fc4a8b8ed915635b3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001933"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416383"
 ---
 # <a name="create-a-page-url"></a>URL sayfası oluşturma
 

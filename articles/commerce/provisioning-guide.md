@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce değerlendirme ortamı sağlama
 description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl sağlanacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599862"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4416581"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı sağlama
 
@@ -48,6 +48,7 @@ Commerce değerlendirme ortamını yapılandırma hakkında bilgi için bkz. [Co
 
 Commerce değerlendirme ortamınızı hazırlayabilmeniz için aşağıdaki önkoşulların yerinde olması gerekir:
 
+- Değerlendirme programına katıldınız ve bir değerlendirme ortamı için kapasite verildi.
 - Microsoft Dynamics Lifecycle Services (LCS) portalına erişim hakkınız var
 - Varolan Microsoft Dynamics 365 ortağı veya müşterisiyseniz ve Dynamics 365 Commerce proje oluşturabilirsiniz.
 - Microsoft Azure aboneliğinize yönetici erişiminiz var veya gerektiğinde size yardımcı olabilecek bir abonelik Yöneticisi ile temas kuruyorsunuz.
@@ -91,7 +92,7 @@ Ortamı dağıtmak için şu adımları izleyin.
 
 1. Üst menüden **bulut ile barındırılan ortamları** seçin.
 1. Ortam eklemek için **Ekle**'yi tıklatın.
-1. **Uygulama sürümü** alanında, en güncel sürümü seçin. En güncel sürümden farklı bir uygulama sürümünü seçmeniz için özel bir gereksinim duyuyorsanız, **10.0.8** önceki bir sürümü seçmeyin.
+1. **Uygulama sürümü** alanında, en güncel sürümü seçin. En güncel sürümden farklı bir uygulama sürümünü seçmeniz için özel bir gereksinim duyuyorsanız, **10.0.14** önceki bir sürümü seçmeyin.
 1. **Platform sürümü** alanında, seçtiğiniz uygulama sürümü için otomatik olarak seçilen platform sürümünü kullanın. 
 
     ![Uygulamayı ve platform sürümünü seçme](./media/project1.png)

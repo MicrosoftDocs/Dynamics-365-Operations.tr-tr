@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
 ms.openlocfilehash: 4be0c9a6f0a32016e07b8e31d0aaff44b4a29623
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454679"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416540"
 ---
 # <a name="tender-based-discounts"></a>Ödeme tabanlı iskontolar
 

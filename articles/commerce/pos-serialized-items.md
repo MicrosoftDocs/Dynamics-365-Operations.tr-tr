@@ -16,11 +16,11 @@ ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978375"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416539"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>POS'ta seri hale getirilmiş maddelerle çalışma
 

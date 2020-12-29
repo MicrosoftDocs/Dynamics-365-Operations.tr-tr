@@ -18,11 +18,11 @@ ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976004"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416413"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -104,7 +104,7 @@ Stoğun mümkün olan en iyi tahminini elde etmek için, aşağıdaki Commerce t
 - **P işi**: P işi **Dağıtım zamanlamaları** sayfasında bulunur ve sıkça çalıştırılmalıdır. Bu iş, e-Ticaret siparişleri, POS'un oluşturduğu zaman uyumsuz müşteri siparişleri ve POS'un kanal veritabanlarından oluşturduğu peşin siparişleri daha fazla işlenebilmeleri için Commerce Headquarters'a götürür. Kanaldaki bu veriler Commerce Headquarters ile eşitleninceye kadar, Commerce Headquarters'ın bu hareketlerden ortaya çıkan ambarlardaki ürünlerle ilgili stok düzeltmeleri hakkında hiçbir bilgisi yoktur.
 - **Siparişleri eşitle**: Bu iş Commerce Headquarters'daki P işinin sunduğu ham hareket verilerini işler ve Commerce Headquarters'da e-Ticaret ve zaman uyumsuz müşteri sipariş hareketlerini satış siparişlerine dönüştürür. Bu iş işlene alınana ve satış siparişleri oluşturuluncaya kadar, hiçbir stok hareketi oluşturulmaz. Bu nedenle, Commerce Headquarters'daki eldeki stok, hareketleri dikkate almaz.
 - **Toplu işteki hareket ekstrelerini hesapla**: Mağazada oluşturulan peşin hareketler için, akış deftere nakil işlemi, satışlarla ilgili stoğun verimli şekilde güncelleştirilmesini sağlar. Peşin siparişler için stok hareketlerinin en etkili şekilde işlenmesini sağlamak üzere sisteminizi, [akış deftere nakil işlemini](https://docs.microsoft.com/dynamics365/commerce/trickle-feed)kullanacak şekilde yapılandırdığınızdan emin olun.
-- **Toplu işteki hareket ekstrelerini deftere naklet**: Bu iş, akışı deftere nakletme işlemi için de gereklidir. **Toplu işteki hareket ekstrelerini hesapla**işinden sonra gelir. Bu iş, hesaplanmış ekstreleri sistematik olarak deftere nakleder, böylece nakit satış siparişleri Commerce Headquarters'da oluşturulur ve Commerce Headquarters mağaza stoğunuzu daha doğru şekilde yansıtır.
+- **Toplu işteki hareket ekstrelerini deftere naklet**: Bu iş, akışı deftere nakletme işlemi için de gereklidir. **Toplu işteki hareket ekstrelerini hesapla** işinden sonra gelir. Bu iş, hesaplanmış ekstreleri sistematik olarak deftere nakleder, böylece nakit satış siparişleri Commerce Headquarters'da oluşturulur ve Commerce Headquarters mağaza stoğunuzu daha doğru şekilde yansıtır.
 - **Ürün kullanılabilirliği**: Bu iş, Commerce Headquarters'daki stoğun anlık görüntüsünü oluşturur.
 - **1130 (Ürün kullanılabilirliği)**: Bu iş **Dağıtım zamanlamaları** sayfasında bulunur ve **Ürün kullanılabilirliği** işinden hemen sonra çalıştırılmalıdır. Bu iş, stok anlık görüntü verilerini Commerce Headquarters'dan kanal veritabanlarına aktarır.
 

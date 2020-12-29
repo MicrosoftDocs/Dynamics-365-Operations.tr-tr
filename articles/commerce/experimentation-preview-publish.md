@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097128"
+ms.locfileid: "4416564"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Deneme önizleme ve yayımlama
 
@@ -38,16 +38,16 @@ Commerce site oluşturucuda deneme varyasyonlarınızı önizlemek için aşağ�
 
 1. Önizlemek istediğiniz içeriği seçmek için komut çubuğunun altındaki varyasyonlar açılır menüsünü kullanın. 
 1. Komut çubuğunda, **Önizleme** öğesini seçin. Yayımlandığında içeriğin nasıl görüneceğine ilişkin önizleme görüntülenir.
-1. Farklı bir varyasyonun önizlemesini görmek için varyasyon açılır menüsünde bunu seçin ve tekrar **Önizleme** 'yi seçin.
+1. Farklı bir varyasyonun önizlemesini görmek için varyasyon açılır menüsünde bunu seçin ve tekrar **Önizleme**'yi seçin.
 
 ## <a name="publish-your-experiment"></a>Denemenizi yayımlama
-Denemenizin ne zaman canlı olarak yayımlanacağını planlamak için yayımlama grubu kullanmıyorsanız ve hemen yayımlamak istiyorsanız, komut çubuğunda **Yayımla** 'yı seçin. Denemeye ait tüm varyasyonlar yayımlanacaktır.
+Denemenizin ne zaman canlı olarak yayımlanacağını planlamak için yayımlama grubu kullanmıyorsanız ve hemen yayımlamak istiyorsanız, komut çubuğunda **Yayımla**'yı seçin. Denemeye ait tüm varyasyonlar yayımlanacaktır.
     
 > [!IMPORTANT]
 > Sayfada yayımdan kaldırılmış bir URL varsa, ilk olarak URL'yi yayımlamanız gerekir aksi durumda web sitesi kullanıcılarınıza gösterilmez. Ayrıntılar için bkz. [Sayfa kaydetme, önizleme ve yayımlama](save-preview-publish-page.md).
     
 ### <a name="use-publish-groups-to-schedule-when-your-experiment-goes-live"></a>Denemenizin ne zaman canlı yayımlanacağını planlamak için yayımlama grupları kullanma
-Site oluşturucuda oluşturulan varyasyonlar, bir yayımlama grubu kullanılarak yayımlanmak üzere zamanlanabilir. Bir yayınlama grubunda, soldaki gezinti bölmesinde **Denemeler** 'i seçerek bir sayfa veya parçayı denemenize bağlayabilirsiniz. Bunu, **sayfalar** veya **parçaları** seçerek ve [bir denemeyi bağlama ve varyasyonları düzenleme](experimentation-connect-edit.md) bölümündeki yönergeleri izleyerek de yapabilirsiniz. Yayımlama grupları hakkında daha fazla bilgi için bkz. [Yayımlama gruplarıyla çalışma](publish-groups.md).
+Site oluşturucuda oluşturulan varyasyonlar, bir yayımlama grubu kullanılarak yayımlanmak üzere zamanlanabilir. Bir yayınlama grubunda, soldaki gezinti bölmesinde **Denemeler**'i seçerek bir sayfa veya parçayı denemenize bağlayabilirsiniz. Bunu, **sayfalar** veya **parçaları** seçerek ve [bir denemeyi bağlama ve varyasyonları düzenleme](experimentation-connect-edit.md) bölümündeki yönergeleri izleyerek de yapabilirsiniz. Yayımlama grupları hakkında daha fazla bilgi için bkz. [Yayımlama gruplarıyla çalışma](publish-groups.md).
 
 Yayımlama gruplarını denemeler ile kullanırken, bilinmesi gereken bazı önemli noktalar vardır.
 - Bir yayımlama grubuna, üzerinde çalışan deneme bulunan bir sayfa veya parça eklediğinizde, deneme yayınlama grubundaki sayfadan veya parçadan kaldırılır.

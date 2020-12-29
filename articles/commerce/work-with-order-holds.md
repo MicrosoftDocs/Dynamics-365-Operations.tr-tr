@@ -20,11 +20,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416442"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
 

@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002694"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416541"
 ---
 # <a name="templates-and-layouts-overview"></a>Şablonlar ve düzenlere genel bakış
 

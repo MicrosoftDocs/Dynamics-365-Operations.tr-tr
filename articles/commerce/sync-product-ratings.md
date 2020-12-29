@@ -19,11 +19,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793599"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416493"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 
@@ -108,7 +108,7 @@ POS'ta ürün derecelendirmelerini açmak için aşağıdaki adımları izleyin.
 
 1. **Retail ve Commerce \> Commerce ayarı \> Parametreler \> Commerce parametreleri**'ne gidin. Alternatif olarak, "Commerce parametreleri"ni arayın.
 1. **Konfigürasyon** parametreleri sekmesinde, **yeni**'yi seçin.
-1. **RatingsAndReviews.EnableProductRatingsForRetailStores**gibi bir ad girin ve değeri **doğru** olarak ayarlayın.
+1. **RatingsAndReviews.EnableProductRatingsForRetailStores** gibi bir ad girin ve değeri **doğru** olarak ayarlayın.
 1. **Kaydet**'i seçin.
 1. **Retail and Commerce \> Retail and Commerce IT \> Dağıtım planı**'na gidin. Alternatif olarak, "dağıtım zamanlaması" için arama yapın.
 1. İş listesinde, **1110** (**Global konfigürasyon**) öğesini seçin ve **şimdi Çalıştır**'ı seçin.

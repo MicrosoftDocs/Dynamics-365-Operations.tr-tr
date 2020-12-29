@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 52069af5ca2211473d4a096ad850b5be1290bba1
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055462"
+ms.locfileid: "4416561"
 ---
 # <a name="header-module"></a>Üst bilgi modülü
 
@@ -42,7 +42,7 @@ Aşağıdaki resimde giriş sayfasında kullanılan bir üstbilgi modülü örne
 
 ## <a name="properties-of-a-header-module"></a>Üst bilgi modülünün özellikleri
 
-Üst bilgi modülü **Logo resmi** , **Logo bağlantısı** ve **Hesabım bağlantıları** özelliklerini destekler. 
+Üst bilgi modülü **Logo resmi**, **Logo bağlantısı** ve **Hesabım bağlantıları** özelliklerini destekler. 
 
 **Logo resmi** ve **Logo bağlantısı** özellikleri sayfada bir logo tanımlamak için kullanılır. Daha fazla bilgi için bkz. [Logo ekleme](add-logo.md). 
 
@@ -54,7 +54,7 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 
 - **Gezinti menüsü** – Gezinti menüsü, kanal gezinti hiyerarşisini ve diğer statik gezinti bağlantılarını temsil eder. Daha fazla bilgi için bkz. [Gezinti menüsü modülleri](nav-menu-module.md).
 
-- **Arama** – Arama modülü, kullanıcıların ürün aramak için arama terimleri girmesine izin verir. **Site Ayarları \>Uzantılar** 'da, varsayılan arama sayfasının URL'si ve arama sorgusu parametreleri girilmelidir. Arama modülünde, arama düğmesini veya etiketi gereksinim duyduğunuz şekilde gizlemenize olanak sağlayan özellikler vardır. Arama modülü ürün, anahtar sözcük ve kategori arama sonuçları gibi otomatik öneri seçeneklerini de destekler.
+- **Arama** – Arama modülü, kullanıcıların ürün aramak için arama terimleri girmesine izin verir. **Site Ayarları \>Uzantılar**'da, varsayılan arama sayfasının URL'si ve arama sorgusu parametreleri girilmelidir. Arama modülünde, arama düğmesini veya etiketi gereksinim duyduğunuz şekilde gizlemenize olanak sağlayan özellikler vardır. Arama modülü ürün, anahtar sözcük ve kategori arama sonuçları gibi otomatik öneri seçeneklerini de destekler.
 
 - **Sepet simgesi** - Sepet simgesi modülü, belirli bir zamanda sepetteki öğelerin sayısını gösteren sepet simgesini temsil eder. Daha fazla bilgi için bkz. [Sepet simgesi modülü](cart-icon-module.md).
 
@@ -71,34 +71,34 @@ Aşağıdaki modüller bir üstbilgi modülünde kullanılabilir:
 
 Bir üst bilgi parçası oluşturmak için şu adımları izleyin.
 
-1. **Parçalar** 'a gidin ve yeni parça oluşturmak için **Yeni** 'yi seçin.
-1. **Yeni parça** iletişim kutusunda **Kapsayıcı** modülünü seçin, parça için bir ad girin ve sonra **Tamam** 'ı seçin.
+1. **Parçalar**'a gidin ve yeni parça oluşturmak için **Yeni**'yi seçin.
+1. **Yeni parça** iletişim kutusunda **Kapsayıcı** modülünü seçin, parça için bir ad girin ve sonra **Tamam**'ı seçin.
 1. **Varsayılan kapsayıcı** yuvasını seçin ve sağ tarafta bulunan Özellikler bölmesinde, **genişlik** özelliğini **Ekranı doldur** olarak ayarlayın.
-1. **Varsayılan Konteyner** yuvası için üç nokta ( **...** ) düğmesini seçin ve **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Tanımlama bilgisi izni** , **Üst bilgi** ve **Promosyon başlığı** modüllerini seçin ve **Tamam** 'ı seçin.
-1. **Promosyon başlığı** modülünün özellikler bölmesinde, **İleti ekle** 'yi seçin ve sonra **İleti** 'yi seçin.
-1. **İleti** iletişim kutusunda promosyon içeriği için metin ve bağlantı ekleyin ve **Tamam** 'ı seçin.
+1. **Varsayılan Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Tanımlama bilgisi izni**, **Üst bilgi** ve **Promosyon başlığı** modüllerini seçin ve **Tamam**'ı seçin.
+1. **Promosyon başlığı** modülünün özellikler bölmesinde, **İleti ekle**'yi seçin ve sonra **İleti**'yi seçin.
+1. **İleti** iletişim kutusunda promosyon içeriği için metin ve bağlantı ekleyin ve **Tamam**'ı seçin.
 1. **Tanımlama bilgisi izni** modülünün özellikler bölmesinde, bir metin ve site gizlilik sayfasına bağlantı ekleyin ve yapılandırın.
-1. Başlık modülünü içeren **Gezinti menüsü** yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Gezinti meüsü** modülünü seçin ve **Tamam** 'ı seçin.
+1. Başlık modülünü içeren **Gezinti menüsü** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Gezinti meüsü** modülünü seçin ve **Tamam**'ı seçin.
 1. Gezinti menü modülünün özellik bölmesinde, **Gezinme menüsü kaynağı** altında, **Retail Server** öğesini seçin.
-1. Gezinti menüsü modülünün özellik bölmesinde, **Statik menü öğeleri** altında, **Menü öğesi ekle** 'yi seçin ve sonra **Menü öğesini** seçin. 
+1. Gezinti menüsü modülünün özellik bölmesinde, **Statik menü öğeleri** altında, **Menü öğesi ekle**'yi seçin ve sonra **Menü öğesini** seçin. 
 1. **Menü öğesi** iletişim kutusunda **Menü Öğesi Metni** altında "İletişim"i girin.
-1. **Menü öğesi** iletişim kutusunda **Menü Öğesi Bağlantı hedefi** altından **Bağlantı ekle** 'yi seçin.
-1. **Bağlantı ekle** iletişim kutusunda sitenin "İletişim" sayfası için URL seçin ve **Tamam** 'ı seçin.  
-1. **Menü öğesi** iletişim kutusunda **Tamam** 'ı seçin.
-1. Başlık modülünü içeren **Ara** yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Ara** modülünü seçin ve **Tamam** 'ı seçin.
+1. **Menü öğesi** iletişim kutusunda **Menü Öğesi Bağlantı hedefi** altından **Bağlantı ekle**'yi seçin.
+1. **Bağlantı ekle** iletişim kutusunda sitenin "İletişim" sayfası için URL seçin ve **Tamam**'ı seçin.  
+1. **Menü öğesi** iletişim kutusunda **Tamam**'ı seçin.
+1. Başlık modülünü içeren **Ara** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Ara** modülünü seçin ve **Tamam**'ı seçin.
 1. Arama modülünün özellik bölmesinde, özelliklerini yapılandırın.
-1. Başlık modülünü içeren **Sepet simgesi** yuvasında üç noktayı ( **...** ) seçin ve sonra **Modül Ekle** 'yi seçin.
-1. **Modül Ekle** iletişim kutusunda **Sepet simgesi** modülünü seçin ve **Tamam** 'ı seçin.
-1. Sepet simgesi modülünün özellik bölmesinde, özelliklerini yapılandırın. Kullanıcılar üzerinde gezinirken, sepet simgesinin bir sepet Özeti (mini sepet olarak da bilinir) göstermesini istiyorsanız, **mini sepeti göster** 'i seçin.
-1. **Kaydet** 'i seçin, parçayı iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. Başlık modülünü içeren **Sepet simgesi** yuvasında üç noktayı (**...**) seçin ve sonra **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Sepet simgesi** modülünü seçin ve **Tamam**'ı seçin.
+1. Sepet simgesi modülünün özellik bölmesinde, özelliklerini yapılandırın. Kullanıcılar üzerinde gezinirken, sepet simgesinin bir sepet Özeti (mini sepet olarak da bilinir) göstermesini istiyorsanız, **mini sepeti göster**'i seçin.
+1. **Kaydet**'i seçin, parçayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 Üstbilginin her sayfada göründüğünden emin olmak için, site için oluşturulan her sayfa şablonunda aşağıdaki adımları izleyin.
 
 1. **Varsayılan sayfanın** **üstbilgi** yuvasında, altbilgi modülünde, oluşturduğunuz altbilgi parçasını ekleyin.
-1. **Kaydet** 'i seçin, şablonu iade etmek için **Düzenlemeyi bitir** 'i ve ardından yayımlamak için **Yayımla** 'yı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

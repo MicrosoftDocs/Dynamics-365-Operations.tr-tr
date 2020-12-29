@@ -20,11 +20,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024387"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416438"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 

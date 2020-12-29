@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599736"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416319"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı yapılandırma
 

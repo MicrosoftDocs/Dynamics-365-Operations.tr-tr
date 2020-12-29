@@ -20,11 +20,11 @@ ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3641021"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416437"
 ---
 # <a name="payment-methods"></a>Ödeme yöntemleri
 

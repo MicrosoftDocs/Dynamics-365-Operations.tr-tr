@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
-ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961646"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416506"
 ---
 # <a name="modify-an-existing-site-page"></a>Var olan site sayfasını değiştirme
 
@@ -67,7 +67,7 @@ Aşağıdaki örnek, video oynatıcı modülünde görünen videoyu değiştirer
 1. Sağdaki özellikler bölmesinde, **video** özelliğini seçin. Varlık seçici görüntülenir.
 1. Varlık seçicisinde, uygun bir video varlığı seçin veya yeni bir video varlığı yüklemek için **yeni varlığı yükle**'yi seçin.
 1. **Tamam**'ı seçin.
-1. **Kaydet**i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
+1. **Kaydet** i seçin ve sonra **Düzenlemeyi bitir**'i seçin.
 1. **Yorumlar** alanında **Videoyu değiştir** seçeneğini girin ve **Tamam**'ı seçin.
 1. Güncellenen sayfasını önizlemek için **Önizleme** 'yi seçin . Bitirdiğinizde, geliştirme aracına dönmek için Önizleme sekmesini kapatın.
 1. **Yayımla**'yı seçin.

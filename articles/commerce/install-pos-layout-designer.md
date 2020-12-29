@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024394"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416415"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS Düzeni tasarımcısını yükleme
 
@@ -58,7 +58,7 @@ MPOS veya Bulut POS için grafik tasarım arabirimi kasa düzeni tarafından kon
 
     **Çözüm:** Internet Explorer'da Commerce URL'sini güvenilir sitelerinize ekleyin. **Ayarlar** &gt; **Seçenekler** &gt; **Güvenlik** &gt; **Güvenilen siteler** &gt; **Siteler** &gt; **Ekle**'yi tıklatın.
 
-**Bilinen sorun:** Tasarımcı Google Chrome ve Mozilla Firefox tarayıcılarında düzgün çalışmıyor. Bu sorunu düzeltmek için çalışıyoruz.
+**Bilinen sorun**: Tasarımcı Google Chrome ve Mozilla Firefox tarayıcılarında düzgün çalışmıyor. Bu sorunu düzeltmek için çalışıyoruz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

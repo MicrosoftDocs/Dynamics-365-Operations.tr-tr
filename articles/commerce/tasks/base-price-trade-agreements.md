@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899361"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4416486"
 ---
 # <a name="base-price-and-trade-agreements"></a>Taban fiyat ve ticari sözleşmeler
 
