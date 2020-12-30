@@ -1,9 +1,9 @@
 ---
 title: Personel iznini yönetme
-description: Dynamics 365 Human Resources'ta izin ve devamsızlık için insan kaynakları parametrelerini tanımlayın.
+description: Dynamics 365 Human Resources'ta personel iznini yönetme
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712145"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4421026"
 ---
 # <a name="manage-employee-leave"></a>Personel iznini yönetme
 
@@ -44,6 +44,13 @@ Bir çalışanın iznini izin türü ile yönetebilirsiniz. Buna, izin kaydı s�
 6. İsteğe bağlı olarak, bir **Tarih** seçebilirsiniz. 
 
 Bir çalışanın izin bakiyesini ayarlarken bir neden kodu ve açıklama ekleyebilirsiniz. 
+
+>[!IMPORTANT]
+>Bakiyelerdeki bakiye ile ilgili ek bilgileri görüntülemek önizlemede görüntülenir. Bunu **korumalı alan** ortamınızda etkinleştirmeniz gerekir . Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br>
+>Herhangi bir bırakma bakiyesinin üzerine getirildiğinde şu şekilde görüntülenir:<br>
+>- **Kullanılabilir**: Bu yılki toplam-bu yılı al
+>- **Bu yılın toplamı**: Tüm tahakkukları, ayarlamalar ve bu yıl için ileriye doğru Yürüt
+>- **Bu yıl uygulanan**: tüm onaylanan zaman kapalı
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

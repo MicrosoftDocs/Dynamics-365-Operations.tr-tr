@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
-ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3668337"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420973"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 

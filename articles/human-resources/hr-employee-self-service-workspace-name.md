@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 2ce008c44ba84c919f4538be4d8e4ff95be018e7
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554365"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421009"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Çalışan self servis çalışma alanı adını değiştirme
 

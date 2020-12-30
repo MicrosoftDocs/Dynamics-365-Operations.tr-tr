@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: d1534e37e83e22dd9860de54165c062935db3798
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430659"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420988"
 ---
 # <a name="configure-employee-self-service"></a>Personel self servisini yapılandırma
 

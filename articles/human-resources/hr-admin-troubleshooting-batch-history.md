@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010823"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420884"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otomatik temizleme görevleriyle performansı en iyi duruma getirme
 
@@ -48,7 +48,7 @@ Toplu iş geçmişinizi temizlemek için bir otomatik görev zamanlayın. Görev
 
    ![Geçmiş sınırı ayarını 30 yapın](media/talent-batch-history-cleanup-history-limit.png)
 
-4. **Arka planda çalıştır**'ı ve sonra **Tekrar**ı seçin.
+4. **Arka planda çalıştır**'ı ve sonra **Tekrar** ı seçin.
 
    ![Yinelemeyi ayarlayın](media/talent-batch-history-cleanup-recurrence.png)
 

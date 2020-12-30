@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
-ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3958855"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420873"
 ---
 # <a name="develop-succession-plan"></a>Ardışık plan geliştir
 

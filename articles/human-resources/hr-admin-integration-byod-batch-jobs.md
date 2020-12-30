@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
 ms.openlocfilehash: d08762ff40b4da8264bd5bc4a1c16fd2afc4d610
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712635"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420919"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD zamanlanmış toplu işlerini iyileştirme
 

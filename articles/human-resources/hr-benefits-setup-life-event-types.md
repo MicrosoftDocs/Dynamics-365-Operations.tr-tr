@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420924"
 ---
 # <a name="configure-life-event-types"></a>Yaşam olayı türlerini yapılandırma
 

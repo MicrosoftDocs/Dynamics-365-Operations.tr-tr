@@ -19,11 +19,11 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 69759c0488563a904f6e80afacb1802611ab1930
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430268"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420927"
 ---
 # <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
 

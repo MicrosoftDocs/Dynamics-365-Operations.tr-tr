@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: fd4def17bf60ae2812927221c45547c5ac379f2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430843"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420858"
 ---
 # <a name="benefit-eligibility-policies"></a>Kazanca uygunluk ilkeleri
 

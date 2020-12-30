@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428909"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420871"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
 

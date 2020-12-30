@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 39d1e94347809a1756fc4f66e5edc345c70eaf39
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741448"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420888"
 ---
 # <a name="process-life-event-changes"></a>Ömür olayı değişikliklerini işle
 

@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010934"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420945"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Görev kılavuzlarını LCS'ye kaydetme ve yeniden oynatma
 

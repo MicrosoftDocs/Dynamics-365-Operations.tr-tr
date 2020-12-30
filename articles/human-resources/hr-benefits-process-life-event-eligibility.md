@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741399"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420886"
 ---
 # <a name="process-life-event-eligibility"></a>Ömür olayı uygunluğunu işle
 
