@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f67b4b4c20345297f186c792fe2766c686e2ddbf
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 452a87cf5ba6c1ac73636584d75b2ec2ac555e02
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500517"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527777"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Toplu işleri, saatler sonra çizelgelemek için performansı en iyi duruma getirme
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 ## <a name="issue"></a>Çıkış
 
@@ -48,7 +50,7 @@ Aşağıdaki toplu işler gece veya saat tarihinden sonra çalışmalıdır. Bu 
 
 2. **Arama** çubuğunda, yukarıdaki toplu işlerden birini arayın.
 
-3. **Arka planda çalıştır**'ı ve sonra **Tekrar**ı seçin.
+3. **Arka planda çalıştır**'ı ve sonra **Tekrar** ı seçin.
 
    ![Yinelemeyi ayarlayın](media/talent-batch-history-cleanup-recurrence.png)
 

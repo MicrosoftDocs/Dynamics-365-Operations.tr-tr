@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897684"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529150"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (27 Şubat 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -102,15 +104,15 @@ Varolan bir şablonu güncelleştirmek için şu adımları izleyin.
 
         [![İş Pozisyonlarından Temel Pozisyona eşleme](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Pozisyon Ayrıntılarına İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Ayrıntıları** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 8. pozisyona taşıyın.
+    - **Pozisyona İş Pozisyonları Ayrıntıları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Ayrıntıları** Finance and Operations varlığına yeni bir eşleşme eklemek. Serideki 8. pozisyona taşıyın.
 
         [![İş Pozisyonlarından Pozisyon Ayrıntıları eşleme](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Pozisyon Süreleri İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Süreleri** Finance and Operations varlığına yeni bir eşleşme eklemek.
+    - **Pozisyona İş Pozisyonları Süreleri:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Süreleri** Finance and Operations varlığına yeni bir eşleşme eklemek.
 
         [![İş Pozisyonlarından Pozisyon Süreleri eşleme](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Pozisyon Hiyerarşileri İş Pozisyonları:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Hiyerarşileri** Finance and Operations varlığına yeni bir eşleşme eklemek. **Gelişmiş Sorgu**'yu seçerek gelişmiş sorguları projenizde kullanılabilir yapın.
+    - **Pozisyona İş Pozisyonları Hiyerarşileri:** **İş Pozisyonları** Common Data Service varlığından **Pozisyon Hiyerarşileri** Finance and Operations varlığına yeni bir eşleşme eklemek. **Gelişmiş Sorgu**'yu seçerek gelişmiş sorguları projenizde kullanılabilir yapın.
 
        [![Gelişmiş Sorgu düğmesi](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Varolan bir şablonu güncelleştirmek için şu adımları izleyin.
         [![Koşullu sütun ekle komutu](./media/Add-column.png)](./media/Add-column.png)
 
     6. **Koşullu sütun ekle** iletişim kutusunda, **HIERARCHYTYPENAME**'i yeni sütunun adı olarak girin.
-    7. Koşulun **Eğer** kısmında, herhangi bir alanı seçin, ilişki olarak **eşittir** seçin ve bir değer girin. Koşulun ***Sonra** ve **Aksi** kısımlarında, varsayılan değerin ne olacağını belirtin. Bu durumda, her iki bölüme de **Satır** girin.
+    7. Koşulun **Eğer** kısmında, herhangi bir alanı seçin, ilişki olarak **eşittir** seçin ve bir değer girin. Koşulun **_Sonra_* ve **Aksi** kısımlarında, varsayılan değerin ne olacağını belirtin. Bu durumda, her iki bölüme de **Satır** girin.
 
         [![Koşullu sütun iletişim kutusu ekle](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

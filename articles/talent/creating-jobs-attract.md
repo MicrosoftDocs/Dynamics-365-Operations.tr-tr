@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 95bc75596f6f014b58160022f41ae86a825c5afc
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124762"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527278"
 ---
 # <a name="create-a-job-in-attract"></a>Attract'te iş oluşturma
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu Microsoft Dynamics 365 Talent: Attract'teki iş öğelerini açıklar. Bu aynı zamanda bir iş oluşturmayı açıklar.
 
@@ -59,7 +61,7 @@ Attract'te varsayılan **Şirket sektörü** kümesi bulunur. Yeni şirket sekt�
 
 ## <a name="hiring-team"></a>İşe alım takımı
 
-**İşe alım ekibi** sekmesi, işe dahil edilecek kişilerin listesini içerir. Kullanıcılar işe alma ekibine eklendiğinde, işe alma ekibinde role atanmalıdır. Rol, kullanıcıların aldıkları bildirimleri ve erişimi olduğu verileri belirler. Seçilebilecek roller **İş veren**, **İşe Alma Yöneticisi**, **Temsilci**, ve **Görüşmeyi Yapan**dır. Rol izinleri hakkında daha fazla bilgi için "Rol yönetimi" belgesine bakın. İşe alanlar ve işe alma müdürleri kendi adlarına çalışması için bir veya birden çok temsilci atayabilir. Temsilciler hakkında daha fazla bilgi için bkz: [Attract'te güvenlik ve rol yönetimi](./security-attract.md).
+**İşe alım ekibi** sekmesi, işe dahil edilecek kişilerin listesini içerir. Kullanıcılar işe alma ekibine eklendiğinde, işe alma ekibinde role atanmalıdır. Rol, kullanıcıların aldıkları bildirimleri ve erişimi olduğu verileri belirler. Seçilebilecek roller **İş veren**, **İşe Alma Yöneticisi**, **Temsilci**, ve **Görüşmeyi Yapan** dır. Rol izinleri hakkında daha fazla bilgi için "Rol yönetimi" belgesine bakın. İşe alanlar ve işe alma müdürleri kendi adlarına çalışması için bir veya birden çok temsilci atayabilir. Temsilciler hakkında daha fazla bilgi için bkz: [Attract'te güvenlik ve rol yönetimi](./security-attract.md).
 
 İşe alma ekibi, iş etkinleştirildikten sonra güncelleştirilebilir.
 
@@ -121,10 +123,10 @@ Onaylayanlar olarak listelenen kişiler, Attract ve bir epostayla onaylamak içi
 
 Bir iş oluşturmak için şu adımları izleyin.
 
-1. **İşler**e gidin.
+1. **İşler** e gidin.
 2. **Yeni**'yi seçin.
 3. **İş unvanı** alanına iş unvanı girin. **Rol** alanına rolünüzü girin.
-4. **Şablon** alanında bir şablon seçin. Alternatif olarak **Atla**yı seçebilirsiniz. **Atla** öğesini seçerseniz varsayılan şablon olarak işaretlenen şablon kullanılır.
+4. **Şablon** alanında bir şablon seçin. Alternatif olarak **Atla** yı seçebilirsiniz. **Atla** öğesini seçerseniz varsayılan şablon olarak işaretlenen şablon kullanılır.
 
     Belge onay işlemine gitmesi gerekiyorsa **Onay işlemi** alanının **Varsayılan** olarak ayarlandığı bir şablon seçin.
 
@@ -134,7 +136,7 @@ Bir iş oluşturmak için şu adımları izleyin.
 8. **Kaydet**'i seçin.
 9. **Süreç** sekmesinde, gereken aşamaları ekleyin veya kaldırın:
 
-    - Aşama eklemek için **+ Yeni aşama**yı seçin.
+    - Aşama eklemek için **+ Yeni aşama** yı seçin.
     - Aşama kaldırmak için kaldırılacak aşama üzerine imleci getirin ve görünen çöp kutusu düğmesini seçin.
 
         > [!NOTE]

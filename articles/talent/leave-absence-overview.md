@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898306"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462855"
 ---
 # <a name="leave-and-absence-management"></a>İzin ve devamsızlık yönetimi
 

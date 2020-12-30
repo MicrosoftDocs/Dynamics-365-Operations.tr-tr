@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cbafea9063844dd3f19e5828ab37632e04591f18
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 53faf972759c8f770017fcd3a87920410988e626
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897914"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527205"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Dynamics 365 Talent'deki yenilikler veya değişiklikler (23 Nisan 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Talent'daki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -77,4 +79,4 @@ Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve
 ## <a name="known-issues"></a>Bilinen sorunlar
 
 ### <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Finance and Operations için Platform güncelleştirmesi 26 ile, kullanıcılar, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations Platform güncelleştirmesi 26 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.

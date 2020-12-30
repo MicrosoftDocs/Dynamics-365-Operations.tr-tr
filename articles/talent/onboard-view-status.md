@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814732"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462874"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>İşe alınan çalışanların durumunu ve görevlerinizi görüntüleme
 
@@ -33,12 +33,12 @@ Microsoft Dynamics 365 Talent: Onboard, yeni işe aldığınız çalışanların
 
 1. Sol menüde **Kılavuzlar**'ı seçin. Gönderdiğiniz tüm işe alım kılavuzları için ilerlemenin genel görünümünü görürsünüz.
 
-    ![[İşe alım kılavuzlarının durumunu görüntüleme](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[Eklenen kılavuzların durumunu görüntüleme](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
 2. Ayrıntıya inmek için görüntülemek istediğiniz kılavuzu seçin.
 3. Yeni işe almanızın hangi etkinlikleri tamamladığını görmek için **Etkinlikler** sekmesini seçin.
 
-    ![[Yeni işe almanın tamamladığı etkinlikleri görüntüleme](./medya/dahili durum-activities.png)](./media/onboard-status-activities.png)
+    ![[Yeni işe almanın tamamladığı faaliyetleri görüntüleme](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Size atanmış olan işe alım görevlerini görüntüleyin
 

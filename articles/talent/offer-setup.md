@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
-ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "2890567"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462818"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Attract'te teklif yönetimini ayarlama
 

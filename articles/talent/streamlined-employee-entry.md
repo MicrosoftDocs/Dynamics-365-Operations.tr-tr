@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b73b420c2eb75077814fbfeb6cd17404c7efc11e
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915213"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4462889"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Kolaylaştırılmış çalışan girişi ve gezintisi
 
@@ -66,16 +66,16 @@ Bekleyen çalışanların başlığı aşağıdaki alanları görüntüler:
 
 Çalışan sayfasının eylem bölmesi daha az seçenek içerecek şekilde yeniden düzenlenmiştir. Bilgiler şimdi aşağıdaki kategorilerde düzenlenmiştir: 
 
-- İş
+- Work
 - Kişi
-- Bırak
-- Ücret
+- İzin
+- Maaş
 - Kazançlar
 - Uyumluluk
 
 Ek olarak, ana çalışan sayfasındaki yeni **bağlantılar** sekmesi kullanıcılara bir çalışanın ilgili tüm bilgilerine erişmek için merkezi bir konum sağlar.
 
-Bu değişiklikler nedeniyle, bilgiler kullandığınızdan farklı bir konumda görünebilir. Örneğin, daha önce çalışan formunda görüntülenen bordro bilgileri artık **Ücret > Bordro**nun altındaki eylem bölmesinde görünür ve **kişisel bilgiler sekmesinde** **Daha fazla** düğmesi sık erişilmeyen alanları gizlemek için kullanılır.
+Bu değişiklikler nedeniyle, bilgiler kullandığınızdan farklı bir konumda görünebilir. Örneğin, daha önce çalışan formunda görüntülenen bordro bilgileri artık **Ücret > Bordro** nun altındaki eylem bölmesinde görünür ve **kişisel bilgiler sekmesinde** **Daha fazla** düğmesi sık erişilmeyen alanları gizlemek için kullanılır.
 
 [![Başlık](./media/Banner.png)](./media/Banner.png)
 

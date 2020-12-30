@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 5c322a0dd9a3c61a2d333fdc716acde88a2165f0
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898237"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462839"
 ---
 # <a name="create-an-onboarding-template"></a>İşe alım süreci şablonu oluşturma
 

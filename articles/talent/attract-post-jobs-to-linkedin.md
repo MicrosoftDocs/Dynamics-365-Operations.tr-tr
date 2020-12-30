@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833021"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462796"
 ---
 # <a name="post-jobs-to-linkedin-from-attract"></a>Attract'ten LinkedIn'e iş yayınlama
 
@@ -63,7 +63,7 @@ LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş
 
 LinkedIn ilan vermeyi başarıyla tamamladıktan sonra, Attract içindeki **İlanlar** bölümü, LinkedIn durumunu **İlan verildi** olarak gösterir. İşinizin LinkedIn'de görünmesi 48 saate kadar sürebilir.
 
-İlgilendiğiniz adaylar listelerinizin **Görüntüle**yi seçin ve nasıl uygulanacağı hakkındaki bilgilerle birlikte tam iş ayrıntılarını görürler.
+İlgilendiğiniz adaylar listelerinizin **Görüntüle** yi seçin ve nasıl uygulanacağı hakkındaki bilgilerle birlikte tam iş ayrıntılarını görürler.
 
 Attract'te yapılan tüm proje deftere nakilleri sınırlı listelerdir. LinkedIn'deki sınırlı listeler hakkında daha fazla bilgi için bkz. [İş Kaydırma İçin Sınırlı Listeler ve Premium İş Yuvaları](https://www.linkedin.com/help/recruiter/answer/79049).
 

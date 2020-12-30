@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c885602f99995d536d8ff3be43e67578abcda3fc
-ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
+ms.openlocfilehash: 865ddbc6749d3ea29a258f4c772044307c41bf35
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "3081830"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529126"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-14-2020"></a>Dynamics 365 Talent'daki yenilikler veya değişiklikler (14 Ocak 2020)
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu makalede Dynamics 365 Talent'te yeni veya değişen özellikler açıklanmaktadır.
 
@@ -45,7 +47,7 @@ Bu bölümde açıklanan değişiklikler sürüm numarası 8.1.2709 için geçer
 
 ### <a name="system-unable-to-generate-calendar-days-when-importing-through-data-management-framework-381195"></a>Sistem, Data Management Framework üzerinden içe aktarırken takvim günleri oluşturamadı (381195)
 
-Bu değişiklik, takvim günlerini içe aktarma sırasında hata **geçersiz tarih biçimi**oluşturan bir sorunu giderir. Bu hata, çalışma takvimi Tarih satırlarının oluşturulmasını engeller.
+Bu değişiklik, takvim günlerini içe aktarma sırasında hata **geçersiz tarih biçimi** oluşturan bir sorunu giderir. Bu hata, çalışma takvimi Tarih satırlarının oluşturulmasını engeller.
 
 ## <a name="coming-soon"></a>Çok yakında
 

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078055"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527705"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Attract'te yetenek havuzlarıyla aday kaynağı bulma
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 İş verenler ve işe alma müdürleri, Attract'te beceri havuzları işlevini kullanarak, adaylarını düzenleyebilir. Beceri havuzları, kurumunuzda işlere başvuran tüm adayları izlemek ve onlarla etkileşim kurmanıza yardımcı olur.
 
@@ -113,7 +115,7 @@ Tüm kullanıcılarda, aday profillerinin aynı görünümü vardır. **Profil**
 
 - **Belgeler** sekmesi, adayın kendi profilinden ya da iş başvuruları sırasında eklediği tüm belgeleri gösterir. Bu sekmeyi adayın özgeçmiş, kapak mektupların, portföy çalışması vb. yönetmek için kullanabilirsiniz. Belge eklemek için bu sekmeyi de kullanabilirsiniz.
 
-    Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft Office 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
+    Bir belgeyi görüntülemek için belgeler listesinde belge adını seçin. Microsoft Word belgelerini uygulama içinde Microsoft 365 kullanarak görüntüleyebilirsiniz. Yerel bilgisayarınıza belgeleri yükleyebilirsiniz; her belge için **İndir** seçeneğini kullanın.
 
 - **LinkedIn** sekmesi adayın LinkedIn bilgileri gösterir. Bu sekmeyi kullanmak için kullanıcı ayarlarından LinkedIn hesabınıza bağlanın ve kendi ortamınızda LinkedIn Recruiter bağlantısını kurun. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Talent - Attract'te LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md).
 
@@ -126,7 +128,7 @@ Arama sonuçları veya beceri havuzundan işe alım yaptığınız aktif iş iç
 
 1. Arama seçeneğini kullanarak aday bulun ve profilini açın. Alternatif olarak, **Beceri havuzlarım** sekmesinden beceri havuzunu açın, beceri havuzunda adayı arayın ve profilini açın.
 
-1. Adayın profil sayfasında, sağ üstteki **İşe ekle**yi seçin. 
+1. Adayın profil sayfasında, sağ üstteki **İşe ekle** yi seçin. 
      
      Bir işveren veya işe alma müdürü olarak ait olduğunuz işe alım ekibinin işler listesi gösterilir.
 
@@ -144,6 +146,6 @@ Genellikle, bir iş için birkaç iyi aday seçilmez ancak bunları kaybetmeyi i
 
 1. Adayı seçin ve başvurusunu açın.
 
-1. Başvuru sayfasında **Beceri havuzuna ekle**yi seçin. Erişiminiz olan beceri havuzları listesi gösterilir.
+1. Başvuru sayfasında **Beceri havuzuna ekle** yi seçin. Erişiminiz olan beceri havuzları listesi gösterilir.
 
-1. Beceri havuzunu seçin veya arayın, daha sonra o havuza adayı eklemek için **Ekle**yi seçin.
+1. Beceri havuzunu seçin veya arayın, daha sonra o havuza adayı eklemek için **Ekle** yi seçin.

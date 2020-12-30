@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
 ms.openlocfilehash: 3705b5b1c6beab9e602ac7d16bf53da51602d61a
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833150"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462849"
 ---
 # <a name="close-a-job-in-attract"></a>Attract'te işi kapatma
 
@@ -40,7 +40,7 @@ Attract'te işi istediğiniz zaman iptal edebilirsiniz.
 
    ![Attract'te işi kapat](./media/attract-close-job.png)
 
-3. **Bu işi Kapat** iletişim kutusunda, **iş iptal edildi**yi seçin, yorumlar ekleyin ve **işi kapat**'ı seçin.
+3. **Bu işi Kapat** iletişim kutusunda, **iş iptal edildi** yi seçin, yorumlar ekleyin ve **işi kapat**'ı seçin.
 
    ![Pozisyon doldurulmuş olarak işi kapat](./media/attract-close-job-as-cancelled.png)
 

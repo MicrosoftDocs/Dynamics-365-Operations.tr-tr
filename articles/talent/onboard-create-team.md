@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897201"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462840"
 ---
 # <a name="create-a-hiring-team"></a>İşe alım takımı oluşturma
 
@@ -33,11 +33,11 @@ Microsoft Dynamics 365 Talent: Onboard'ta işe alım ekipleri oluşturabilirsini
 
 1. Sol menüde **Takımlar**'ı seçin.
 2. **Takımlar** altında **Ekle** (artı \[**+**\] işareti) döşemesini seçin.
-3. **Yeni bir takım oluştur** iletişim kutusunda, **Takım adı**altında, işe alma ekibine bir ad girin.
+3. **Yeni bir takım oluştur** iletişim kutusunda, **Takım adı** altında, işe alma ekibine bir ad girin.
 
     ![[Yerleşik olarak yeni takım oluşturma](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
-4. **Takım üyelerini seç**in altında, her ekip üyesinin adını veya e-posta adresini girin.
+4. **Takım üyelerini seç** in altında, her ekip üyesinin adını veya e-posta adresini girin.
 
     Ekip üyelerini kaldırmak için, kutunun altında adlarının yanında görünen **X**'i seçin.
 

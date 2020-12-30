@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898260"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462805"
 ---
 # <a name="create-and-send-an-onboarding-guide"></a>İşe alım süreci kılavuzu oluşturma ve gönderme
 
@@ -44,8 +44,8 @@ Bir ekleme kılavuzu oluşturduktan sonra, bunu yeni bir işe alıma gönderebil
 
     ![[Ekleme kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-6. **Ne zaman başlar**ın altında, bir başlangıç tarihi seçin.
-7. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla**seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
+6. **Ne zaman başlar** ın altında, bir başlangıç tarihi seçin.
+7. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla** seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
 8. **Tamam**'ı seçin.
 9. İşe alım kılavuzunu düzenlemeyi bitirdiğinizde, sağ üst köşedeki **gönder**'i seçin. Ardından şu adımlardan birini izleyin:
 
@@ -61,11 +61,11 @@ Onboard, birden çok yeni işe alınana aynı anda işe alım kılavuzu gönderm
 2. Yeni işe alma için ekleme kılavuzu olarak ayarlamak istediğiniz şablonu **Şablonlarım** altında seçin.
 3. Şablonu istediğiniz gibi düzenleyin. Ayrılırken çalışmanızı düzenli olarak kaydedin.
 4. Şablonu düzenlemeyi bitirdiğinizde **Kılavuz oluştur**'u seçin.
-5. **Kılavuz Oluştur** penceresinde, **aynı anda birden fazla kişinin işe alımı gerekli**yi seçin.
+5. **Kılavuz Oluştur** penceresinde, **aynı anda birden fazla kişinin işe alımı gerekli** yi seçin.
 
     [![Birden çok yeni işe alım için işe alma kılavuzu oluşturuluyor](./media/onboard-send-guide-multiple-people.png)](./media/onboard-send-guide-multiple-people.png)
 
-6. **Yeni işe alma şablonu**seçin.
+6. **Yeni işe alma şablonu** seçin.
 7. .Xlsx dosyası indirildikten sonra, **aç**'ı seçin, çalışanların bilgilerini Excel çalışma kitabına girin ve çalışma kitabını kaydedin.
 
     [![Birden çok yeni alım için işe alma kılavuzu göndermek için Excel şablonu indiriliyor](./media/onboard-send-guide-download-spreadsheet.png)](./media/onboard-send-guide-download-spreadsheet.png)
@@ -94,8 +94,8 @@ Bir şablondan her zaman bir kılavuz oluşturmak zorunda değilsiniz. İstersen
 
     ![[Ekleme kılavuzu ile ilgili bilgileri girme](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
-3. **Ne zaman başlar**ın altında, bir başlangıç tarihi seçin.
-4. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla**seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
+3. **Ne zaman başlar** ın altında, bir başlangıç tarihi seçin.
+4. Ekleme kılavuzunun belirli bir tarihteki yeni işe alma için otomatik olarak gönderilmesi gerekiyorsa, **otomatik gönderme tarihi planla** seçeneğinin açık olduğundan emin olun ve sonra otomatik gönderme tarihini seçin. Kılavuzu hemen göndermek için, **otomatik gönderme tarihi planla** seçeneğini kapatın.
 5. **Tamam**'ı seçin.
 
 ## <a name="save-a-guide-as-a-template"></a>Kılavuzu şablon olarak kaydet

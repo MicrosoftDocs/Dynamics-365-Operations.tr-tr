@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812707"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462817"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (20 Mart 2019)
 
@@ -80,7 +80,7 @@ Bu güncelleştirmede, yinelenen kayıtlarla ilgili bir sorun giderilmiştir. Bu
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar yöneticiler veya bölgesel çalışanlar için olabilir. Bu değişiklik ile IK, yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel grupları için korur. Planlar ve planlarla ilişkili personel verilerine, örneğin maaş veya ikramiye kayıtlarına erişimi belirleyen sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Yalnıza erişime sahip olan roller, bu çalışanlar için ücreti işleyebilirler.
 
 ###  <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Finance and Operations için Platform güncelleştirmesi 24 ile kullanıcılar bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations Platform güncelleştirmesi 24 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Yinelenen personel denetimi: Arabirim değişikliği
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin sayısını görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Yinelenenler formu, veri girişini kesintiye uğratmayı önlemek için otomatik olarak açılmaz.

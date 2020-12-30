@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833196"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462851"
 ---
 # <a name="set-up-linkedin-integration-with-attract"></a>Attract ile LinkedIn tümleştirmesini ayarlama
 
@@ -74,19 +74,19 @@ LinkedIn'e verilen iş ilanları LinkedIn sitesinde yayınlanır. LinkedIn'e iş
 
 3. Kurulumu başlatmak için **Bağlan**'ı seçin. LinkedIn oturum açma işlemi boyunca size kılavuzluk edilecek.
 4. Birde çok LinkedIn sözleşmelerinde lisansınız varsa, Attract sistemine bağlanmak istediğiniz sözleşmeyi seçin. LinkedIn sözleşmesinde tek bir lisans varsa, bu adım gerekli değildir.
-5. **Recruiter System Connect (RSC)** altında **Talep**e tıklayın.
+5. **Recruiter System Connect (RSC)** altında **Talep** e tıklayın.
 
     [![LinkedIn Recruiter tümleştirme talebi başlatmak için Attract yönetici görünümü](./media/RequestLinkedInRSC.png)](./media/RequestLinkedInRSC.png)
 
-6. **Recruiter System Connect (RSC)** ayarı şimdi **Ortağa hazır** olarak görünmelidir. Bu sayfada **Ortağa bildir** görürseniz birkaç saniye bekleyin, **Ortağa bildir**i seçin ve sayfayı yenileyin. Ayar  **Ortağa hazır**olarak görünmelidir.
+6. **Recruiter System Connect (RSC)** ayarı şimdi **Ortağa hazır** olarak görünmelidir. Bu sayfada **Ortağa bildir** görürseniz birkaç saniye bekleyin, **Ortağa bildir** i seçin ve sayfayı yenileyin. Ayar  **Ortağa hazır** olarak görünmelidir.
 
     [![İsteklerin Attract tarafının tamamlandığını belirten Attract Yönetici görünümü](./media/PartnerReadyRSC.png)](./media/PartnerReadyRSC.png)
 
 7. Sonraki adımı tamamlamak için LinkedIn Recruiter Sözleşmenizde bir yönetici ayrıcalığı olması gerekir.
 
     1. Yönetim hesabınızı kullanarak LinkedIn'de oturum açın ve sağ üst tarafta **LinkedIn Recruiter** seçin. 
-    2. Sayfanın üstündeki **Daha fazla** menüsünde **Yönetici ayarları**ve ardından **ATS** sekmesini seçin.
-    3. Tek tıklamayla tek bir sözleşme için dışa aktarmayı etkinleştirmek üzere **sözleşme düzeyi erişimi**ni etkinleştirin (Bu sözleşmedeki her bilgisayar için). Tüm şirket için bunu etkinleştirmek amacıyla **şirket düzeyinde erişimi etkinleştirin (şirketinizdekiher sözleşme için)**.
+    2. Sayfanın üstündeki **Daha fazla** menüsünde **Yönetici ayarları** ve ardından **ATS** sekmesini seçin.
+    3. Tek tıklamayla tek bir sözleşme için dışa aktarmayı etkinleştirmek üzere **sözleşme düzeyi erişimi** ni etkinleştirin (Bu sözleşmedeki her bilgisayar için). Tüm şirket için bunu etkinleştirmek amacıyla **şirket düzeyinde erişimi etkinleştirin (şirketinizdekiher sözleşme için)**.
 
     [![LinkedIn Recruiter Yönetici görünümünden Attract tümleştirmeyi aç](./media/EnableRSC.png)](./media/EnableRSC.png)
 

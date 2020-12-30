@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551968"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462875"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Dynamics 365 Talent - Onboard'da işe alım ve alıştırma kılavuzlarını güncelleştirme
+# <a name="update-onboarding-guides"></a>İşe alım ve alıştırma kılavuzlarını güncelleştirme
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Talent: Onboard'daki işe alım ve alıştırma kılavuzl
 2. Düzenlemek istediğiniz kılavuzu seçin.
 3. İstenilen tüm değişiklikleri yapın ve ardından **Kaydet** düğmesini (disk simgesi) seçin.
 
-    ![[İşe alım kılavuzunda değişiklik kaydetme](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Ekleme kılavuzunda yapılan değişiklikleri kaydetme](./media/onboard-save.png)](./media/onboard-save.png)
 
 Onboard otomatik olarak değişikliklerin ne olduğunu gösteren bir e-posta yeni işe gönderir. Kolay tanımlama için, her değişikliğin yanında kırmızı bir **Yeni** etiket görünür.
 

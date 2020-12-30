@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833266"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462885"
 ---
 # <a name="configure-company-information-in-attract"></a>Attract'te şirket bilgilerini yapılandırma
 

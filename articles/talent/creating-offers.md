@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832919"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462790"
 ---
 # <a name="create-approve-and-sign-offers-in-attract"></a>Attract'te teklifler oluşturma, onaylama ve imzalama
 

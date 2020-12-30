@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897155"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462876"
 ---
 # <a name="share-content-with-other-contributors"></a>İçeriği diğer katkıda bulunanlarla paylaşın
 
@@ -41,13 +41,13 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
     ![[Ekleme kılavuzu için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
-5. **ErişimiYönet** sekmesinde, alıcıların kılavuzla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
+5. **ErişimiYönet** sekmesinde, alıcıların kılavuzla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak **Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
 6. Alıcı eklemeyi veya değiştirmeyi bitirdikten sonra **Güncelleştir**'i seçin.
 
 ## <a name="share-an-onboarding-template-with-other-contributors"></a>İşe alım şablonunu diğer katkıda bulunanlarla paylaşın
 
 1. Sol menüde **Şablonlar**'ı seçin.
-2. **Şablonlarımın**altında, **Daha Fazla** düğmesini seçin (üç nokta \[**...**\]) paylaşmak istediğiniz şablonun sağ üst köşesinde ve ardından **Paylaş'ı** seçin.
+2. **Şablonlarımın** altında, **Daha Fazla** düğmesini seçin (üç nokta \[**...**\]) paylaşmak istediğiniz şablonun sağ üst köşesinde ve ardından **Paylaş'ı** seçin.
 
     [![İşe alım şablonunu diğer katkıda bulunanlarla paylaşma](./media/onboard-share-template.png)](./media/onboard-share-template.png)
 
@@ -56,7 +56,7 @@ Microsoft Dynamics 365 Talent: Onboard - Onboard, belgeleri gözden geçirebilme
     [![Şablon için erişim ve e-posta tercihlerini ayarlama](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Bir ad veya e-posta adresi girin ve açılan listede istenen alıcıyı seçin.
-5. **Erişimi Yönet** sekmesinde, alıcıların şablonla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak**Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
+5. **Erişimi Yönet** sekmesinde, alıcıların şablonla yapabileceklerini gözden geçirebilir veya değiştirebilirsiniz. Alıcının erişimini değiştirmek için, alıcının adının yanındaki açılır listede, uygun olarak **Görüntüleyebilir**, **Düzenleyebilir** veya **Kaldır**'ı seçin.
 6. Alıcı eklemeyi veya değiştirmeyi bitirdikten sonra **Güncelleştir**'i seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar

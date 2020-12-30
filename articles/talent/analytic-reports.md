@@ -20,11 +20,11 @@ ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
 ms.openlocfilehash: 081988e8b8cfe1e2ddb533247b678ba38a07f5f1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092235"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462858"
 ---
 # <a name="use-analytic-reports-in-attract"></a>Attract'te analitik raporları kullanma
 

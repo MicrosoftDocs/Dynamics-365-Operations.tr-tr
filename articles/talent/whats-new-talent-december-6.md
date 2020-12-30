@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897707"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529174"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (6 Aralık 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Derleme 8.1.2071**
 
 Bu konuda, Core HR'deki yeni veya değişen özellikler açıklanmaktadır.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operations için platform güncelleştirmesi 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 22
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Excel'e 1 milyon satıra kadar aktarın
 
@@ -40,7 +42,7 @@ Excel'e aktar özelliği artık kullanıcıların 1 milyona kadar satırı Talen
 
 ### <a name="restyled-personalization-toolbar"></a>Yeniden şekillendirilmiş kişiselleştirme araç çubuğu
 
-Kişiselleştirme araç çubuğu, Finance and Operations için Platform Güncelleştirmesi 22'de kullanıcıların Talent'ta kendi deneyimlerini daha kolay özelleştirmelerine yardımcı olmak için yeniden şekillendirilmiştir. Şu değişiklikler yapılmıştır: 
+Kişiselleştirme araç çubuğu, Finance and Operations için Platform Güncelleştirmesi 22 ile kullanıcıların kendi deneyimlerini beceri ayarlayın daha kolay yardımcı olmak için yeniden şekillendirilmiştir. Şu değişiklikler yapılmıştır: 
 
 -  Kullanıcıların kullanmakla ilgilendikleri aracı daha hızlı tanımaları için her kişiselleştirme aracı artık bir simgeyle gösterilmektedir.
 -  Geçerli aracın nasıl kullanılacağının açıklaması da artık gösterilir, bu da kullanıcıların ihtiyaç duyulan kişiselleştirmeyi nasıl yapacaklarını anlamalarını sağlar.  
@@ -48,13 +50,13 @@ Kişiselleştirme araç çubuğu, Finance and Operations için Platform Güncell
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>İyileştirilmiş, "biri" filtreleme deneyimini en iyi duruma getirir
 
-"Biri" filtreleme operatörü, Filtre Panosu ve kılavuz başlık açılır listesi kullanırken çoğu alan için kullanılabilirdir. Bu işleç, kullanıcının birden fazla değerlerini temel alan bir alana filtrelemesine izin verir. Bu, Finance and Operations için Platform güncelleştirmesi 22'de, "biri" işleci için yeni ve geliştirilmiş bir deneyim kullanıma sunulmuştur. Daha fazla bilgi için bkz. [En iyi duruma getirilen "biri" filtreleme deneyimi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+"Biri" filtreleme operatörü, Filtre Panosu ve kılavuz başlık açılır listesi kullanırken çoğu alan için kullanılabilirdir. Bu işleç, kullanıcının birden fazla değerlerini temel alan bir alana filtrelemesine izin verir. Bu, Finance and Operations için Platform güncelleştirmesi 22 ile kullanılabilir olan "biri" operatörünün yeni ve geliştirilmiş bir deneyimidir. Daha fazla bilgi için bkz. [En iyi duruma getirilen "biri" filtreleme deneyimi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>"Biri" operatörü ile listeleri Excel'den filtre alanlarına yapıştırın
 
 Bazı görevler için kullanıcıların Talent içinde veri filtrelemek için kullanmak isteyecekleri bir değerler listesi olabilir. Örneğin, bir İnsan Kaynakları kullanıcısı, çalışanlar sistemde ek araştırma gerektiren bir rapordaki bir dizi tanımlanmış ve doğrudan Excel'den beceri Filtresi alanına listeyi kopyalamak bu kullanıcı için en uygun.
 
-Finance and Operations için Platform güncelleştirmesi 22 ile başlayarak, Filtre Bölmesindeki "biri" işleci ve kılavuz sütun filtreleme artık Excel'den kopyalanan listeleri tanıyor ve böylece doğrudan bir filtre alanına yapıştırılabiliyor. Bu, Excel'deki farklı satır ve sütunlardan kopyalanan bir dizi değeri içerir. Bu özellik hakkında daha fazla bilgi için bkz: ["Biri" operatörü ile filtre alanlarına Excel'den liste yapıştırın](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Finance and Operations için Platform Güncelleştirmesi 22 ile başlayarak, Filtre Panosundaki "biri" operatörü ve kılavuz sütun filtreleme artık Excel'den kopyalanan listeleri tanır ve böylece doğrudan bir filtre alanına yapıştırılabilirler. Bu, Excel'deki farklı satır ve sütunlardan kopyalanan bir dizi değeri içerir. Bu özellik hakkında daha fazla bilgi için bkz: ["Biri" operatörü ile filtre alanlarına Excel'den liste yapıştırın](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Ön izlemede
 
@@ -133,7 +135,7 @@ Güncelleştirilmiş eşlemeler şu şekilde görünmelidir.
 
 Cinsiyet alanı dönüştürmenin de güncelleştirilmesi gerekir. **fn** (fonksiyon) eşleşme türünü Cinsiyet için seçin ve aşağıdaki değer eşleştirmelerini güncelleştirin.
 
-| Common Data Service Değeri   | Finance and Operations değeri | | ------------|------------------ -----------| | 75440000    | Erkek                         | | 75440001    | Kadın                       | | 75440002    | Yok                         | | 75440003    | NonSpecific                  |
+| Common Data Service Değer   | Finance and Operations Değer | | ------------|------------------ -----------| | 75440000    | Erkek                         | | 75440001    | Kadın                       | | 75440002    | Yok                         | | 75440003    | Belirtilmemiş                  |
 
 Güncelleştirilmiş eşlemeler şu şekilde görünmelidir.
 

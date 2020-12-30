@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896785"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527132"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Dynamics 365 Talent'daki yenilikler veya değişiklikler (5 Kasım 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Talent'daki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -69,7 +71,7 @@ Bu sürümde, adım tabanlı planlar için personel self servis bölümü aracı
 
 Bu değişiklikle, 30 karakterden uzun neden kodları Common Data Service'te güncelleştirilir. Common Data Service'te yapılan değişiklikler Talent'e de yansıtılır.
 
-### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Talent ile Finance and Operations arasında adres tümleştirmesi (351961)
+### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Talent'tan Finance and Operations'a adres tümleştirmesi (351961)
 
 Bu sürümde Talent'te güncelleştirilen adreslerin Finance and Operations'ta güncelleştirilmemesi sorunu düzeltilmiştir. Adres bloklarında yapılan değişiklikler artık güncelleştirilmiştir.
 

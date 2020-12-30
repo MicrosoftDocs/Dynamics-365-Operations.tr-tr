@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443430"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527873"
 ---
 # <a name="overview"></a>Genel Bakış
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
 
@@ -44,7 +46,7 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
   - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
   - Office ile tümleştirme
-    - [Office tümleştirmesi eğitimi](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office tümleştirmesi öğreticisi](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excel'de varlık verilerini güncelleştirme](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Excel'de Aç deneyimleri oluşturma](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Office tümleştirmesi ile ilgili sorunları giderme](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)

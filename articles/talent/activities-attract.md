@@ -19,11 +19,11 @@ ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: ce8c0bd74a41b9857538b37d0875583d06e8c11d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124785"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462859"
 ---
 # <a name="add-activities-to-a-hiring-process"></a>İşe alım süreçlerine faaliyet ekleme
 

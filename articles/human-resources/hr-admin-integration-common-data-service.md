@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d9ee4715526e18b33ae4b7e90b081ed5868bb19c
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621316"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527944"
 ---
 # <a name="configure-common-data-service-integration"></a>Common Data Service tümleştirmesini yapılandırma
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Common Data Service ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Ayrıca, eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarının giderilmesine yardımcı olarak bir varlığı yeniden eşitleyebilirsiniz.
 
@@ -84,7 +86,7 @@ Aşağıdaki durumlarda tümleştirmeyi kapatmak isteyebilirsiniz:
 Kılavuz aşağıdaki alanları içerir:
 
 - **CDS varlığının adı** – Common Data Service'teki varlığın adı.
-- **CD varlığı başvurusu** – Common Data Service'in bir kaydı belirlemek için kullandığı tanımlayıcı. Bu değer Human Resources'taki bir**Kayıt kodu** değerinin eşdeğeridir. Common Data Service varlığını Microsoft Excel'de açtığınız zaman tanımlayıcıyı bulabilirsiniz.
+- **CD varlığı başvurusu** – Common Data Service'in bir kaydı belirlemek için kullandığı tanımlayıcı. Bu değer Human Resources'taki bir **Kayıt kodu** değerinin eşdeğeridir. Common Data Service varlığını Microsoft Excel'de açtığınız zaman tanımlayıcıyı bulabilirsiniz.
 - **Human Resources varlığının adı** – Verileri Common Data Service'e en son eşitlenen varlık. Varlık ya Common Data Service öneki veya başka bir önek taşımalıdır.
 - **Human Resources başvurusu** – Human Resources'taki kayıtla ilişkili **Kayıt kodu** değeri.
 - **CDS'den silindi** – Kaydın Common Data Service'ten silinip silinmediğini gösteren bir değer.

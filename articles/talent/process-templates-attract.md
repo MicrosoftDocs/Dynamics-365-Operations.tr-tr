@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
 ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832570"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462871"
 ---
 # <a name="create-a-hiring-process-template-in-attract"></a>Attract'te işe alım süreci şablonu oluşturma
 
@@ -59,7 +59,7 @@ Faaliyetler hakkında daha fazla bilgi için bkz. [İşe alım süreçlerindeki 
 5. Aday müşterileri etkinleştirme veya devre dışı bırakmak için seçin.
 6. İsteğe bağlı: Aşama ekleyin veya kaldırın.
 
-    - Aşama eklemek için **+ Yeni aşama**yı seçin.
+    - Aşama eklemek için **+ Yeni aşama** yı seçin.
     - Aşama kaldırmak için aşama üzerine imleci getirin ve görünen çöp kutusu düğmesini seçin.
 
         > [!NOTE]

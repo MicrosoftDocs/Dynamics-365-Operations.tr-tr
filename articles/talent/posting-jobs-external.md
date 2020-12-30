@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832684"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462872"
 ---
 # <a name="post-jobs-to-broadbean-from-attract"></a>Attract'ten Broadbean'e iş yayınlama
 

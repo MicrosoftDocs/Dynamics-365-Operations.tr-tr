@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898931"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527302"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (5 Mart 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -77,4 +79,4 @@ Common Data Service'e yükseltme için son tarihler hızla yaklaşmaktadır. Pow
 Pek çok kuruluşta, ücret ve kazanç yöneticileri yalnızca belirli ücret kayıtlarına erişebilirler; örneğin yöneticiler için kayıtlar veya yerel tabanlı personeller gibi. Bu değişiklik ile yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel popülasyonları için korur. Sabit ve değişken planlar, güvenlik rollerine atanabilir, bunlar planlara ve planlarla ilişkili personel verisine erişimi belirler, örneğin maaş veya ikramiye kayıtları gibi. Yalnızca belirli erişime sahip roller bu çalışanlar için ücreti işleyebilirler.
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
-Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'teki yenilikler veya değişiklikler (Mart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti.](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)

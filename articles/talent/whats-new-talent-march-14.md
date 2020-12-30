@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897615"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528633"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (14 Mart 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Talent'taki yeni veya değişen özellikler açıklanmaktadır.
 
@@ -45,7 +47,7 @@ Bu sürümde yapılan değişiklikler performans yönetimi senaryolarını, kull
 Bu değişiklik ile artık birden fazla personel seçebilir ve bir veya birden fazla denetim listesini bu çalışanlara toplu olarak atayabilirsiniz. 
 
 ### <a name="platform-update-24-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 24
-Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'teki yenilikler veya değişiklikler (Mart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Platform 24 içindeki önemli değişikliklere şunlar dahildir: 
+Finance and Operations için Platform güncelleştirmesi 24 hakkında daha fazla bilgi için bkz. [Finance and Operations platform güncelleştirmesi 24'te (Mart 2019) neler yeni veya değişti.](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Platform 24 içindeki önemli değişikliklere şunlar dahildir: 
 
 - Talent içinde etkin uyarılar.
 - Güncelleştirilen gezinti çubuğu şimdi Office başlığıyla hizalanır.
@@ -65,7 +67,7 @@ Common Data Service varlıkları şimdi güncelleştirilmiş Common Data Service
 Pek çok kuruluşta, ücret ve kazanç yöneticilerinin yalnızca belirli ücret kayıtlarına erişimi olabilir. Bunlar yöneticiler veya bölgesel çalışanlar için olabilir. Bu değişiklik ile IK, yönetimini değiştirebilir ve ücret planlarını kuruluş içindeki farklı personel grupları için korur. Planlar ve planlarla ilişkili personel verilerine, örneğin maaş veya ikramiye kayıtlarına erişimi belirleyen sabit ve değişken planlara güvenlik rolleri atayabilirsiniz. Yalnıza erişime sahip olan roller, bu çalışanlar için ücreti işleyebilirler.
 
 ###  <a name="email-support-for-alerts"></a>Uyarılar için e-posta desteği
-Finance and Operations için Platform güncelleştirmesi 24 ile kullanıcılar bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere otomatik olarak gönderen uyarı kuralları oluşturabilirler.
+Finance and Operations Platform güncelleştirmesi 24 ile kullanıcılar otomatik olarak, bir etkinlik tarafından tetiklendiğinde e-posta bildirimlerini ilgili kişilere gönderen uyarı kuralları oluşturabilirler.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Yinelenen personel denetimi: Arabirim değişikliği
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin kaç adet olduğunu görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Yinelenenler formu, veri girişini kesintiye uğratmayı önlemek için otomatik olarak açılmaz.

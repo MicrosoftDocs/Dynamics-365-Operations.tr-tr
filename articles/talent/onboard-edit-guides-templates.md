@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897136"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462845"
 ---
 # <a name="edit-onboarding-guides-and-templates"></a>İşe alım kılavuzları ve şablonları düzenleme
 

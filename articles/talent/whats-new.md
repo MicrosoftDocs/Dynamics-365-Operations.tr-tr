@@ -19,11 +19,11 @@ ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: de05d685aecb117f51239884d67969591b0d78f0
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117278"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462852"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent"></a>Dynamics 365 Talent içindeki Yenilikler veya değişiklikler 
 

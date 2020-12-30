@@ -3,7 +3,7 @@ title: Attract'te LinkedIn Recruiter ile aday kaynağı bulma
 description: Microsoft Dynamics 365 Talent - Attract tarafından sağlanan LinkedIn tümleştirmesi ile LinkedIn Recruiter ile iş adayları bulun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833058"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528281"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Attract'te LinkedIn Recruiter ile aday kaynağı bulma
 
@@ -34,6 +34,9 @@ LinkedIn, dünyanın en iyi yeteneğine erişmenizi sağlayan dünya çapındaki
 
 Bu yeteneğe sahip değilseniz yöneticinize başvurun. Attract'te LinkedIn Recruiter'den yararlanabilmeniz için, yöneticinizin [LinkedIn ile tümleşmeyi ayarlaması gerekir](./attract-admin-linkedin.md). Böylece, bağlantınızı LinkedIn Recruiter ile ayarlayıp adaylarınız bulmaya başlayabilir.
 
+>[!IMPORTANT]
+>1 Temmuz 2020 itibariyle, LinkedIn artık Internet Explorer 11 ' i desteklemiyor. Kullanıcılar LinkedIn'e Internet Explorer 11 ile erişebilir ancak yükseltilmesi veya farklı bir tarayıcı kullanması istenecektir. Daha fazla bilgi için, bkz. [LinkedIn için desteklenen internet tarayıcıları](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>LinkedIn Recruiter ile olan bağlantınızı kurun
 
 Attract'te LinkedIn Recruiter aracılığıyla çalışmaya başlamak için önce LinkedIn Recruiter ile bağlantınızı kurmanız gerekir. Bu adım için LinkedIn Recruiter kimlik bilgileriniz gereklidir.
@@ -42,19 +45,35 @@ Attract'te LinkedIn Recruiter aracılığıyla çalışmaya başlamak için önc
 2. **Kullanıcı ayarlarını** seçin.
 3. **Bağlantılar** sekmesinde, **LinkedIn**'in yanında **Bağlan** seçeneğini belirleyin. LinkedIn tarafından sağlanan yönergeleri izleyin.
 
-    ![[Attract'ten bağlantıyı LinkedIn Recruiter'a kur](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Attract'tan LinkedIn Recruiter bağlantısı kurma](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Attract'te LinkedIn adaylarını görüntüleyin
 
 LinkedIn Recruiter'a bağlandıktan sonra, Attract'te aday LinkedIn profillerini görüntüleyebilirsiniz.
 
+>[!NOTE]
+>Size atanmış bir işe ait oturma grubuna sahipseniz, adayların tam bilgilerini görebilirsiniz.<br><br>
+>Size bir İşe alma müdürü bilgisayar lisansı veya hiçbir bilgisayar lisansı atanmış değilse, Attract'ta bir adayın olup olmadığını öğrenmek Için LinkedIn sekmesine gitmeden önce LinkedIn veya LinkedIn Recruiter oturumunu kapattığınızdan emin olun. Adayın, adı ve soyadı gibi temel ortak profil verilerini görebileceksiniz.
+
 1. Attract'te soldaki **işleri** veya **Yetenek havuzlarını** seçip bir başvuran seçin.
 
     ![[Attract'te LinkedIn adaylarını görüntüleyin](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. Aday'ın profilinde **LinkedIn** sekmesini seçin. Aday profilini, InMail geçmişi ve LinkedIn notlar geçmişiyle birlikte görüntüleyebilirsiniz.
+2. Aday'ın profilinde **LinkedIn** sekmesini seçin. Aday profilini ve InMail geçmişi birlikte görüntüleyebilirsiniz.
 
-Buradan, adayı bir LinkedIn Recruiter projeye kaydedebilir, inMail gönderebilir veya LinkedIn Recruiter'de uyarı ayarlamak için Beni Güncelleştir'i kullanabilirsiniz.
+   ![Adayın LinkedIn bilgilerini görüntüle](./media/attract-candidate-linkedin-tab.png)
+
+Buradan, aşağıdaki eylemleri gerçekleştirebilirsiniz:
+
+- Görüntülemek için **işe alma etkinlikleri** sekmesini seçin:
+   
+   - Recruiter notlar (hem genel hem de özel). Varsayılan olarak, notlar özeldir ve yalnızca notların sahibine görünür.
+   - InMail faaliyet (ancak InMail içeriği değil). InMail Değişimini müşteri adayı ile görüntülemek ve kuruluşunuzdaki müşteri adayı ile etkileşimde bulunan diğer kullanıcıları görüntülemek için sayfanın en altına gidin.
+   - Aday ret faaliyeti
+
+- Attract'tan çıkmak zorunda kalmadan InMail göndermek için **InMail Gönder** 'i seçin.
+
+- Çekmeden işten tasarruf kazanmak için **işe kaydet** 'i seçin.
 
 > [!NOTE]
 > Adayın Attract bilgileri LinkedIn ile ilgili bilgileriyle eşleştiğinde adayın LinkedIn profili Attract'te görüntülenir. Kullanılan eşleştirme kuralları şunlardır:
@@ -71,7 +90,7 @@ Ayrıca işin aday müşteri aşamasına sahip olduğundan da emin olmalısını
 
 1. Attract'te iş oluşturun, uygun roller atayın ve işi etkinleştirin.
 2. LinkedIn Recruiter'da iş için iyi bir aday bulun ve adayın profiline gidin.
-3. Kişi kartında iş arama kutusunu kullanıp iş başlığı veya Attract'te etkinleştirilmiş İş Kodu kullanarak işi bulun. İş bulamazsanız, **ATS değişikliği**ni seçerek doğru Attract örneği bulun.
+3. Kişi kartında iş arama kutusunu kullanıp iş başlığı veya Attract'te etkinleştirilmiş İş Kodu kullanarak işi bulun. İş bulamazsanız, **ATS değişikliği** ni seçerek doğru Attract örneği bulun.
 4. İşi seçin ve **Dışa aktar**'ı seçin.
 5. Attract'te işi açın. Dışa aktarılan aday işin **Aday** sekmesinde görüntülenir.
 
@@ -87,7 +106,7 @@ LinkedIn Recruiter'da, adayın kuruluşunuzdaki diğer işlere başvurup başvur
     - **Görüşme geribildirimi** - Görüşmecilerin Attract'e gönderdiği geri bildirimleri görün.
     - **Notlar** – Attract'te bu aday için girilmiş notlara bakın.
 
-    ![[LinkedIn Recruiter'dan Attract bilgileri görüntüle ](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[LinkedIn Recruiter'da Attract bilgilerini görüntüle](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Aday, Ön aday aşamasını geçemediyse aday ve başvuru verisi, LinkedIn Recruiter ile eşitlenmez.

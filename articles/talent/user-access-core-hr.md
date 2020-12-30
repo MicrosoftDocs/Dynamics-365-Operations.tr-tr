@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006322"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4462811"
 ---
 # <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>Kullanıcı Human Resources'a erişebiliyor ancak Onboard veya Attract'a erişemiyor
 

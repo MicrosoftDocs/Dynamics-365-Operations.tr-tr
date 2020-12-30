@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d27104a08cdc899f12942d80e693f3495d90a6ec
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040088"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527422"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
@@ -39,7 +41,7 @@ Bu sürüm aşağıdaki yeni özellikleri ve hata düzeltmelerini içerir. Deği
 
 Aşağıdaki özellik genellikle bu sürümde mevcuttur:
 
-- **Platform güncelleştirmesi 10.0.13 şimdi kullanılabilir durumda** : Güncelleştirme hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Platform güncelleştirmesi 10.0.13 şimdi kullanılabilir durumda**: Güncelleştirme hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

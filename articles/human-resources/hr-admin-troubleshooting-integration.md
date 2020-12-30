@@ -17,16 +17,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a3389d6ce5f1985f7515e777a2bafae4eae5f0c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431119"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589075"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Bu konu, hangi verilerin Dynamics 365 Human Resources, Dynamics 365 Finance ile tümleştirildiğinde eşitleneceğine dair sıkça sorulan soruları yanıtlar.
+
+## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Power Apps uygulamasında Dynamics 365 Talent uygulama kullanıcısını düzenleyebilir miyim?
+
+Hayır. Eğer Talent uygulama kullanıcısını düzenlerseniz, İnsan Kaynakları ve Common Data Service arasındaki bütünleşme başarısız olabilir. Aşağıdaki tabloda, Talent uygulama kullanıcısı için varsayılan ayarlar gösterilmektedir.
+
+| Tam Ad | Başvuru kodu | Azure AD Nesne kodu | Başvuru kodu URI |
+| --- | --- | --- | --- |
+| Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
+
+![Talent uygulama kullanıcısı için varsayılan ayarlar](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Tüm veriler mi eşitlenir yoksa yalnızca bazı veri varlıkları mı?
 

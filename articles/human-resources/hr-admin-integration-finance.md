@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431280"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527939"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](https://docs.microsoft.com/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
@@ -141,7 +143,7 @@ Aşağıdaki şablon eşleme tablolarında, görevin adı her bir uygulamada kul
 | Common Data Service varlığı (kaynak)              | Fİnans varlığı (hedef)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber   (İş Pozisyonu Numarası)                            | POSITIONID (POSITIONID)                             |
-| cdm_jobid.cdm_name   (İş Adı))                                        | JOBID (JOBID)                                    |
+| cdm_jobid.cdm_name   (İş Adı)                                        | JOBID (JOBID)                                    |
 | cdm_description   (cdm_description)                                        | DESCRIPTION   (DESCRIPTION)                       |
 | cdm_departmentid.cdm_departmentnumber   (Departman (Departman Numarası)) | DEPARTMENTNUMBER   (DEPARTMENTNUMBER)             |
 | cdm_positiontypeid.cdm_name   (Pozisyon Türü (Ad))                     | POSITIONTYPEID   (POSITIONTYPEID)                 |
