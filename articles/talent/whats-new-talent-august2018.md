@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (Ağustos 2018)
 description: Bu konuda, Microsoft Dynamics 365 Talent - Core HR'daki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897776"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Dynamics 365 Talent - Core HR'daki yenilikler veya değişiklikler (Ağustos 2018)
 
@@ -33,7 +33,7 @@ Bu konuda, Dynamics 365 Talent: Core HR'daki yeni veya değişen özellikler aç
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Yönetici self servis içindeki süresi dolmak üzere olan kayıtları görüntüleme
 
-Artık, Yönetici self servis içindeki süresi dolmak üzere olan kayıtları görüntüleyebilirsiniz. Yeni seçenekler, yöneticilerin görüntüleyebileceği bilgileri yapılandırmanıza izin verir. Bunların arasında aşağıdakiler bulunur:
+Artık, Yönetici self servis içindeki süresi dolmak üzere olan kayıtları görüntüleyebilirsiniz. Yeni seçenekler, yöneticilerin görüntüleyebileceği bilgileri yapılandırmanıza izin verir. Seçenekler arasında bulunanlar: 
 
 -   Sertifikalar
 
@@ -51,7 +51,7 @@ Ayrıca bu özellik, süresi dolmak üzere olan kayıtların aranacağı gün ar
 
 Transfer isteğinin girişi sırasında kullanılabilecek seçenekleri role göre yapılandırabilirsiniz. Bu özellik, kuruluştaki roller arasında daha fazla esneklik sağlar.
 
-Örneğin, çalışan transferi isteğinde bulunan yöneticiler ücret tutarı önermek veya girmek ya da transfer isteğiyle ilişkilendirilecek görev listelerini seçmek için erişime sahip olmayabilirler. Bu durumda, yöneticiler transfer istekleri oluşturup gönderebilirler ancak yöneticilerin ücret veya görev listesi atamaları girmelerine izin verilmez. Yine bu yapılandırmada İK yeni ücret değerlerini, transferin tamamlanması sonucu tamamlanacak tüm ek onay listeleri atayabilir.
+Örneğin, çalışan transferi isteğinde bulunan yöneticiler ücret tutarı önermek veya girmek ya da transfer isteğiyle ilişkilendirilecek görev listelerini seçmek için erişime sahip olmayabilirler. Yöneticiler transfer istekleri oluşturup gönderebilirler ancak yöneticilerin ücret veya görev listesi atamaları girmelerine izin verilmez. Yine bu yapılandırmada İK yeni ücret değerlerini, transferin tamamlanması sonucu tamamlanacak tüm ek onay listeleri atayabilir.
 
 Varsayılan olarak yeni yapılandırma seçenekleri bu güncelleştirmeden önceki yetenekleri değiştirmemeye ayarlıdır.
 
@@ -59,7 +59,7 @@ Varsayılan olarak yeni yapılandırma seçenekleri bu güncelleştirmeden önce
 
 Artık İzin ve Devamsızlık bölümünde ek Tarih alanları bulunmaktadır.
 
-Bu özellikle plan düzeyindeki tahakkuk dönemi temelini belirli çalışan tarihlerini kullanacak şekilde ayarlayabilirsiniz. Bu da izin tahakkuk işlemi sırasında plan başlangıç tarihinden farklı tarihlerin kullanılabilmesini sağlar. Çalışana özel tarih seçenekleri aşağıdaki değerleri içerir:
+Bu özellikle plan düzeyindeki tahakkuk dönemi temelini belirli çalışan tarihlerini kullanacak şekilde ayarlayabilirsiniz. İzin tahakkuk işlemi sırasında plan başlangıç tarihinden farklı tarihlerin kullanılabilmesini sağlar. Çalışana özel tarih seçenekleri aşağıdaki değerleri içerir:
 
 -   Özel (bu güncelleştirmeden önce kullanılabilir)
 

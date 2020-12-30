@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011444"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668957"
 ---
 # <a name="go-live-faq"></a>Servise almayla ilgili SSS 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu, bir Dynamics 365 Human Resources uygulama projesiyle uygulamaya geçme ile ilgili sık sorulan soruları listeler. 
 
@@ -76,7 +78,7 @@ Veritabanları otomatik yedeklemeler tarafından aşağıdaki sıklıklarda koru
 | Farklı veritabanı yedekleme | Her 12-24 saatte bir |
 | İşlem günlüğü yedeklemesi | Her 5-10 dakikada bir |
 
-Microsoft, son yedi gün içinde belirli bir noktaya geri yüklemeye (PITR) izin vermek için yeterli yedeği saklar. 
+Microsoft, son 14 gün içinde belirli bir noktaya geri yüklemeye (PITR) izin vermek için yeterli yedeği saklar. 
 
 Daha fazla bilgi için bkz.  [Otomatik SQL Veritabanı yedeklemeleri hakkında daha fazla bilgi alın](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

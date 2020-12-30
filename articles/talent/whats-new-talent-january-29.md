@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Talent'taki yenilikler veya değişiklikler (31 Ocak 2019)
 description: Bu konuda, Microsoft Dynamics 365 Talent'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/31/2019
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2019-01-29
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fbbecd4e0f205c2f09ec30548756ff1a43872644
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8e8c11e460a4678efea81f8d3d1eec96b673d329
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899117"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690064"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-31-2019"></a>Dynamics 365 Talent'taki yenilikler veya değişiklikler (31 Ocak 2019)
 

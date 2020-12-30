@@ -1,9 +1,9 @@
 ---
-title: Kazanç yönetimi parametrelerini ayarlama
-description: Microsoft Dynamics 365 Human Resources'Ta sosyal haklar yönetimiyle ilgili parametreleri yapılandırın.
+title: Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
+description: Microsoft Dynamics 365 Human Resources'ta Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırma.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057040"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692709"
 ---
-# <a name="set-benefits-management-parameters"></a>Kazanç yönetimi parametrelerini ayarlama
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
 
-Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, kazançlar yönetimi parametrelerini yapılandırmanız gerekir. Bu parametreler varsayılan değerleri, neden kodları ve diğer seçenekleri ayarlar.
+Microsoft Dynamics 365 Human Resources'ta kazanç planları kurmadan önce, kazançlar yönetimi parametrelerini yapılandırmanız gerekir. Bu parametreler varsayılan değerleri, neden kodları ve diğer seçenekleri ayarlar. 
 
 ## <a name="configure-general-parameters"></a>Genel parametrelerini yapılandırma
 
-1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Paylaşılan Parametreleri** 'ni seçin.
+1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Paylaşılan Parametreleri**'ni seçin.
 
-2. **Genel** sekmesinde, aşağıdaki alanların değerleri belirtin:
+2. **Kazanç yönetimi** sekmesinde, aşağıdaki alanların değerleri belirtin:
 
    | Alan | Tanım |
    | --- | --- |
@@ -43,18 +43,20 @@ Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, ka
    | **Neden kodunu yeniden aç** | Bir çalışan avantajı planı yeniden açıldığında kullanılacak neden kodu. İptal işlemi sırasında bir iletişim kutusunda görüntülenir. Gerekirse, kullanıcılar bunu **Yeniden açma neden kodu** ile değiştirebilir. | 
    | **Yaşam olayı neden kodu** | Ömür olayı oluştuğunda kullanılacak neden kodu. |
    | **Oran değişikliği neden kodu** | Güncelleştirme oranı değişimi sürecinde bir çalışan avantajı planının iptal edilmesi ve yeniden açma işlemi sırasında kullanılacak neden kodu. Güncelleştirme oranı değişimi işlemi oran ile hangi kayıtların değiştiğini gösterir. |
-   | **Kazanç yıllık maaş** | Bir personel için **Kazanç yıllık maaş** tutarını ayarlamanıza olanak tanır. Human Resources, karşılama tutarlarını belirlerken yıllık sabit ücret tutarı yerine **Kazançlar yıllık maaş** alanını kullanacaktır. |
+   | **Kazanç yıllık maaş** | Bir personel için **Kazanç yıllık maaş** tutarını ayarlamanıza olanak tanır. İnsan Kaynakları, karşılama tutarlarını belirlerken yıllık sabit ücret tutarı yerine **Kazançlar yıllık maaş** alanını kullanacaktır. |
    | **Yeni işe alınan kişi uygun** | Yeni işe alımların uygun olduğunu belirtir. |
-   | **Yeni işe alma kaydı dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi.</br></br>**Not** : Bu ayar, plan uygunluğu kuralında ayarladığınız tüm yeni işe alma dönemini geçersiz kılar. |
+   | **Yeni işe alma kaydı dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi.</br></br>**Not**: Bu ayar, plan uygunluğu kuralında ayarladığınız tüm yeni işe alma dönemini geçersiz kılar. |
    | **Varsayılan ödeme sıklığı** | Yeni çalışanlar eklendiğinde kullanılacak varsayılan ödeme sıklığı. |
    | **Yaşam olayları etkin** | Yaşam olaylarını etkinleştirir. |
    | **Eski kazanç formlarını gizle** | Eski kazanç formlarını gizlemenizi sağlar. |
+   | **Kazanç doğrulaması** | Kendi kendine faydaların kullanıma alma sırasında kullanılacak doğrulama metni. |
+   | **Görevlileri otomatik olarak seç** | Plan seçeneklerine uygunluğuna göre otomatik olarak bağımlılar ve lehdarlar oluşturulup oluşturulmayacağını belirtir. |
 
-3. **Kaydet** 'i seçin.
+3. **Kaydet**'i seçin.
 
 ## <a name="configure-employee-self-service-parameters"></a>Personel self servisi parametrelerini yapılandırma
 
-1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Parametreleri** 'ni seçin.
+1. **Kazanç yönetimi** çalışma alanında, **Kurulum** altında **İnsan Kaynakları Parametreleri**'ni seçin.
 
 2. **Kazanç yönetimi** sekmesinde, aşağıdaki alanların değerleri belirtin:
 
@@ -63,4 +65,6 @@ Microsoft Dynamics 365 Human Resources'ta çıkış planları kurmadan önce, ka
    | **Kazanç doğrulaması** | Kendi kendine faydaların kullanıma alma sırasında kullanılacak doğrulama metni. |
    | **Görevlileri otomatik olarak seç** | Plan seçeneklerine uygunluğuna göre otomatik olarak bağımlılar ve lehdarlar oluşturulup oluşturulmayacağını belirtir. |
 
-3. **Kaydet** 'i seçin.
+3. **Kaydet**'i seçin.
+
+
