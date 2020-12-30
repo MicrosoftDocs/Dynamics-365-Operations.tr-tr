@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430406"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420997"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Soru formlarının sonuçlarını görüntüleme ve değerlendirme
 

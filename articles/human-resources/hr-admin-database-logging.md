@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443603"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420936"
 ---
 # <a name="configure-and-manage-database-logging"></a>Veritabanı günlüğü yapılandırma ve yönetme
 

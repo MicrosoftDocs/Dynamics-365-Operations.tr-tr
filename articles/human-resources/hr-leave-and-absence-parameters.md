@@ -2,8 +2,8 @@
 title: Bırakma ve devamsızlık parametrelerini konfigüre et
 description: Dynamics 365 Human Resources'ta izin ve devamsızlık için insan kaynakları parametrelerini tanımlayın.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712388"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4421027"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Bırakma ve devamsızlık parametrelerini konfigüre et
 
@@ -47,6 +47,19 @@ Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan
 5. **Çalışan self servis** sekmesinde, yöneticilerin çalışanlar adına bırakma ve devamsızlık talepleri girip giremeyeceğini belirtin.
 
 7. **Kaydet**'i seçin.
+
+>[!IMPORTANT]
+>Şirketler arasında ayrılma ve devamsızlıkların görüntülenmesi Şu anda önizleme modunda. Bırak ve devamsızlık seçeneğini görüntülemek için bunu **korumalı alan** ortamınızda etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>İnsan kaynakları paylaşılan parametrelerini görüntüle ve değiştir
+
+1. **Personel yönetimi** sayfasında, **Bağlantılar** sekmesini seçin.
+
+2. **Kurulum**'un altında, **İnsan kaynakları paylaşılan parametrelerini** seçin.
+
+3. **Gelişmiş erişim** sekmesinde, Şirket genelinde görüntülenenler görünümüne izin vermek için **şirketler arası bırak görünümünü etkinleştir** için **Evet**'i seçin.
+
+4. **Kaydet**'i seçin.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>İzin ve devamsızlık parametrelerini görüntüleme ve değiştirme
 

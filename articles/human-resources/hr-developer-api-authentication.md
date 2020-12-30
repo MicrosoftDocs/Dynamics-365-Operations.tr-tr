@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092118"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420870"
 ---
 # <a name="authentication"></a>Kimlik Doğrulama
 
@@ -74,7 +74,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         | Desteklenen hesap türleri | Tanım |
         |-------------------------|-------------|
         | Yalnızca bu kuruluş dizinindeki hesaplar | İş kolu uygulaması oluşturuyorsanız, bu seçeneği seçin. Uygulamayı bir dizine kaydetmediğiniz sürece bu seçenek kullanılamaz.<p>Bu seçenek yalnızca tek kiracılı **Azure AD** olarak eşlendi.</p><p>Uygulamayı bir dizinin dışına kaydetmediğiniz sürece bu seçenek varsayılan seçenektir. Bu durumda, varsayılan seçenek **Azure AD çok kiracılı ve kişisel Microsoft hesaplarıdır.**</p> |
-        | Herhangi bir kuruluş dizinindeki hesaplar | Tüm iş ve Eğitim müşterilerini hedeflemek için bu seçeneği belirleyin.<p>Bu seçenek yalnızca çok kiracılı **Azure AD** olarak eşlendi.</p><p>Uygulamayı **tek Azure AD kiracılı**olarak kaydettirdiğiniz takdirde, **kimlik doğrulama** dikey penceresini **Azure AD yalnızca çok kiracılı** olarak güncelleştirmek ve **Azure AD yalnızca tek kiracı**'ya geri yüklemek için kullanabilirsiniz.</p> |
+        | Herhangi bir kuruluş dizinindeki hesaplar | Tüm iş ve Eğitim müşterilerini hedeflemek için bu seçeneği belirleyin.<p>Bu seçenek yalnızca çok kiracılı **Azure AD** olarak eşlendi.</p><p>Uygulamayı **tek Azure AD kiracılı** olarak kaydettirdiğiniz takdirde, **kimlik doğrulama** dikey penceresini **Azure AD yalnızca çok kiracılı** olarak güncelleştirmek ve **Azure AD yalnızca tek kiracı**'ya geri yüklemek için kullanabilirsiniz.</p> |
         | Herhangi bir kuruluş dizinindeki hesaplar ve kişisel Microsoft hesapları | En geniş müşteri kümesini hedeflemek için bu seçeneği seçin.<p>Bu seçenek **Azure AD çok kiracılı ve kişisel Microsoft hesapları** ile eşleşir.</p><p>Uygulamayı **Azure AD çok kiracılı ve kişisel Microsoft hesaplarıyla** kaydettirdiğiniz takdirde, bu ayarı Kullanıcı arabiriminde (UI) değiştiremezsiniz. Bunun yerine, desteklenen hesap türlerini değiştirmek için uygulama bildirimi Düzenleyicisini kullanmalısınız.</p> |
 
     - **Yeniden yönlendirme URI'si** (isteğe bağlı) – Oluşturmakta olduğunuz uygulamanın türünü seçin : **Web** veya **ortak istemci (mobil ve masaüstü)**. Sonra uygulamanın yeniden yönlendirme URI'sini (veya yanıt URL'si) girin.
@@ -84,7 +84,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
         Web uygulamaları veya yerel uygulamalar için belirli örnekleri görmek üzere, [Microsoft Identity platform (önceden geliştiriciler için Azure Active Directory idi)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts) üzerinde hızlı başlangıçlara bakın.
 
-5. **API izinleri**altında, **izin Ekle** 'yi seçin. Sonra, **Kuruluşumun kullandığı API'ler** sekmesinde **Dynamics 365 Human Resources** arayın ve uygulamanıza **Kullanıcı\_kimliğe bürünme** izni ekleyin. İnsan Kaynakları için Uygulama Kodu: f9be0c49-aa22-4ec6-911a-c5da515226ff. Doğru uygulamayı seçtiğinizden emin olmak için bu kodu kullanın.
+5. **API izinleri** altında, **izin Ekle** 'yi seçin. Sonra, **Kuruluşumun kullandığı API'ler** sekmesinde **Dynamics 365 Human Resources** arayın ve uygulamanıza **Kullanıcı\_kimliğe bürünme** izni ekleyin. İnsan Kaynakları için Uygulama Kodu: f9be0c49-aa22-4ec6-911a-c5da515226ff. Doğru uygulamayı seçtiğinizden emin olmak için bu kodu kullanın.
 
 6. **Kayıt**'ı seç.
 

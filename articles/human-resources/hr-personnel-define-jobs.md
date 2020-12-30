@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428674"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420957"
 ---
 # <a name="define-new-jobs"></a>Yeni işler tanımlama
 
@@ -57,7 +57,7 @@ Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablond
 21. Listede, istenen kaydı bulun ve seçin.
 22. Listede, seçili satırdaki bağlantıya tıklayın.
 23. Yetenekler bölümünün genişletilmiş görünümüne geçin.
-    * Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.   
+    * Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin. Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.   
 24. Kaydet'e tıklayın.
 25. Kopyalama kaynağı'na tıklayın.
 26. Şablondan kopyala'ya tıklayın.

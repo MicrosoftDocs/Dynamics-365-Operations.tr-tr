@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
-ms.sourcegitcommit: 288df4fe766536e51ca9b5306c5bb948b7772ac5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "3688284"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420985"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Personel bilgilerini yönetmek için iş akışları kullanma
 

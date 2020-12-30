@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010820"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4420978"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Yinelenen veri dışarı aktarma uygulaması oluşturma
 
@@ -104,7 +104,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
     3. **ExportToPackage** DMF REST API'sını çağırmak için bir HTTP **POST** isteği ayarlayın.
 
         - **Yöntem:** POST
-        - **İsteğin URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
+        - **Talep Url'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
         - **İsteğin gövdesi:**
 
             ```JSON
@@ -126,7 +126,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
 
     ![Değişken başlatma eylemi](media/integration-logic-app-initialize-variable-step.png)
 
-6. Veri dışa aktarmanın yürütme durumu **Başarılı**olana kadar bekleyin.
+6. Veri dışa aktarmanın yürütme durumu **Başarılı** olana kadar bekleyin.
 
     1. **ExecutionStatus** değişkeninin değeri **Başarılı** olana kadar yinelenen bir [Until döngüsü](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ekleyin.
     2. Dışa aktarmanın geçerli yürütme durumu için yoklamadan önce beş saniye bekleyen bir **Gecikme** eylemi ekleyin.
@@ -141,7 +141,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         > Bu örnek hata denetimi yapmaz. **GetExecutionSummaryStatus** API, başarılı olmayan nihai durumları (yani **Başarılı** dışındaki durumları) döndürebilir. Daha fazla bilgi için [API belgelerine](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) bakın.
 
         - **Yöntem:** POST
-        - **İsteğin URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
+        - **Talep url'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
         - **İsteğin gövdesi:** body('Invoke\_an\_HTTP\_request')?['value']
 
             > [!NOTE]
@@ -159,7 +159,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
     - [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API'yı çağırmak için bir **HTTP isteği çağır** eylemi ekleyin.
 
         - **Yöntem:** POST
-        - **İsteğin URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
+        - **Talep URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **İsteğin gövdesi:** {"executionId": body('GetExportedPackageURL')?['value']}
 
         ![GetExportedPackageURL eylemi](media/integration-logic-app-get-exported-package-step.png)

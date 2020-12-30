@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011443"
+ms.locfileid: "4421013"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Human Resouces ile servise alma için hazırlanma
 
@@ -57,7 +57,7 @@ Her uygulama projesindeki önemli aşamalardan biri üretim ortamının kesin bi
 
 Üretim ortamının canlı operasyonlar için kullanılmasını sağlamaya yardımcı olmak amacıyla, Microsoft, LCS yöntemlerindeki gerekli faaliyetler tamamlandıktan sonra, yalnızca uygulama **çalışma** aşamasına yaklaştığında üretim örneğini sağlar. Aboneliğinizdeki ortamlar hakkında daha fazla bilgi için,  [Dynamics 365 Lisans Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544)'na bakın. 
 
-Üretim ortamını istemek için kullanılan  **Yapılandır** düğmesinin kullanılabilmesi için, müşteriler LCS metodolojisinde **analiz** , **tasarım ve geliştirme** ve **test** aşamalarını tamamlamalıdır. LCS'de bir aşamayı tamamlamak için, öncelikle bu aşamada gereken her adımı tamamlamalısınız. Bir aşamadaki tüm adımlar tamamlandığında, tüm aşamayı tamamlayabilirsiniz. Daha sonra değişiklik yapmanız gerekiyorsa, bir aşamayı istediğiniz zaman yeniden açabilirsiniz. Daha fazla bilgi için bkz.  [Finance and Operations uygulamaları müşterileri için Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
+Üretim ortamını istemek için kullanılan  **Yapılandır** düğmesinin kullanılabilmesi için, müşteriler LCS metodolojisinde **analiz**, **tasarım ve geliştirme** ve **test** aşamalarını tamamlamalıdır. LCS'de bir aşamayı tamamlamak için, öncelikle bu aşamada gereken her adımı tamamlamalısınız. Bir aşamadaki tüm adımlar tamamlandığında, tüm aşamayı tamamlayabilirsiniz. Daha sonra değişiklik yapmanız gerekiyorsa, bir aşamayı istediğiniz zaman yeniden açabilirsiniz. Daha fazla bilgi için bkz.  [Finance and Operations uygulamaları müşterileri için Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 
 Bir adımı tamamlama sürecinde iki bölüm vardır: 
 
