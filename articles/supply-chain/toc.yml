@@ -72,15 +72,15 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (Nisan 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (Şubat 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (Ocak 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (Kasım 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Dynamics 365 Supply Chain Management'ta kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -154,11 +154,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kayıtlı görünümler
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Supply Chain Management için standart kayıtlı görünümler
+                  href: get-started/saved-views-scm.md
                 - name: Kılavuz yetenekleri
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Power Apps'taki tuval uygulamalarını katıştırma
+                - name: Power Apps'teki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finance and Operations uygulamaları mimarisi
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Uygulama projesini ekleme
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ortam planlama
@@ -224,9 +226,11 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Bulut ve uç ölçek birimleri için ambar emirleri
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Varlık yönetimi
           items:
-            - name: Varlık yönetimine genel bakış
+            - name: Kıymet yönetimine genel bakış
               href: asset-management/index.md
               items:
                 - name: İşlem yapılacak yerleşimler ve varlıklar
@@ -363,7 +367,9 @@
               items:
                 - name: 'Tahminler, iş emirleri ve projeler'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
-            - name: Varlık yönetimini sabit kıymetlerle tümleştirme
+                - name: Müşteriye ait kıymetler için bakım faturası
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
+            - name: Kıymet yönetimini sabit kıymetlerle tümleştirme
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Önleyici ve reaktif bakım
               items:
@@ -431,18 +437,22 @@
                   href: asset-management/controlling-and-reporting/work-hour-control.md
                 - name: Varlık hata maliyeti denetimi
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Varlık hata analizi
+                - name: Kıymet hata analizi
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
-                - name: Varlık KPI'ları
+                - name: Kıymet KPI'ları
                   href: asset-management/controlling-and-reporting/asset-kpis.md
                 - name: Kullanıldığı madde
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Bakım durumu
                   href: asset-management/controlling-and-reporting/maintenance-status.md
-            - name: Varlık yönetimini Dynamics 365 Guides ile tümleştirme
+            - name: Mobil uygulamadan kıymet yönetimi
+              items:
+                - name: Kıymet yönetimi mobil çalışma alanını ayarlama
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: Kıymet yönetimi mobil çalışma alanını kullanma
+                  href: asset-management/asset-management-mobile-workspace.md
+            - name: Kıymet yönetimini Dynamics 365 Guides ile tümleştirme
               href: asset-management/asset-management-guides-integration.md
-            - name: Varlık yönetimi mobil çalışma alanı
-              href: asset-management/asset-management-mobile-workspace.md
         - name: Veri yönetimi
           items:
             - name: Hedef varlıklar
@@ -1319,6 +1329,8 @@
                   href: sales-marketing/register-serial-numbers-sales-process.md
                 - name: Eldeki stok mobil çalışma alanı
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Stok işlemleriyle ilgili sorunları giderme
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Giden işlem
               items:
                 - name: Giden işleme genel bakış
@@ -1377,15 +1389,21 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Güvenlik marjları
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Planlama Optimizasyonu ile stok işaretleme
+                - name: Satın alma talepleri
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: Üretim planlaması
+                  href: master-planning/planning-optimization/production-planning.md
+                - name: Planlama İyileştirmesi ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Belirli ürün yaşam döngüsü durumları olan ürünleri hariç tutma
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Kapsam zaman dilimleri
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Planlı siparişleri onaylama
                   href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Planlama Optimizasyonu ile otomatik kesinleştirme
+                - name: Planlama İyileştirme ile otomatik kesinleştirme
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Eldeki eksi stok miktarlarıyla planlama
                   href: master-planning/planning-optimization/negative-on-hand.md
@@ -1909,7 +1927,9 @@
                   href: production-control/bom-designer-functionality.md
                 - name: Formül tasarımcısını kullanma
                   href: production-control/formula-designer.md
-                - name: Ürün çeşidi ağırlıklarını kullanarak satınalma siparişlerine çeşitli ürünler ekleme
+                - name: Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
+                  href: production-control/override-default-reservation-principle.md
+                - name: Ürün çeşidi ağırlıklarını kullanarak satın alma siparişlerine çeşitli ürünler ekleme
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Yapılandırılabilir ürün için satış siparişi oluşturma
                   href: pim/tasks/create-sales-order-configurable-product.md
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Ürün reçetesi tasarımcısı işlevi
                       href: production-control/bom-designer-functionality.md
+                    - name: Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
+                      href: production-control/override-default-reservation-principle.md
                     - name: Hayali maddeler
                       href: production-control/phantom-items.md
                     - name: Ürün reçetesi hesaplamaları
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Sistem tarafından yönlendirilen küme malzeme çekme
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Paketleme ve depolama için farklı boyutlar ayarlama
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: Konteyner kullanımını ayarlama
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Toplu iş ve plaka onayı
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Küçük paket sevkiyatı
+                      href: warehousing/small-parcel-shipping.md
                     - name: Yük oluşturma ve sevkiyatlar ile ilgili sorunları giderme
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Sevkiyat konsolidasyonu ilkeleri
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Yerleşim yönergeleriyle çalışma
                       href: warehousing/create-location-directive.md
+                    - name: Ambar hareketleri için ürün filtrelerini yapılandırma
+                      href: warehousing/filters-and-filter-codes.md
                     - name: Konum stoklama sınırları
                       href: warehousing/location-stocking-limits.md
                     - name: Dalga adım kodları
                       href: warehousing/wave-step-codes.md
                     - name: Dalga işlemeyi yapılandırma
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Dalga sırasında iş oluşturmayı zamanlama
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: Dalga etiketi yazdırmayı ayarlama ve kullanma
                       href: warehousing/configure-wave-label-printing.md
                     - name: Sevkiyatları otomatik güncelleştirme
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Ambar uygulamasını yükleme ve yapılandırma
                   items:
+                    - name: Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: Ambar uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Ambar uygulamasında kamera kullanarak barkodları tarama
