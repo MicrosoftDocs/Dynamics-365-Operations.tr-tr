@@ -193,3 +193,6 @@ Tam olarak sevk edilen transfer emirleri, **giden operasyon** belgesi listesinin
 ## <a name="related-topics"></a>İlgili konular
 
 [POS'ta gelen stok işlemi](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

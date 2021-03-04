@@ -123,3 +123,6 @@ Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.  Kıl
 88. **Ana hesap** alanında istediğiniz değerleri belirtin.
 89. **Mahsup hesap** alanında istediğiniz değerleri belirtin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Sözleşme değişiklikleri, gelir planı ayrıntıları üzerinde aşağıdaki 
 - Ürün için gelir kabul edilirse kabulün yanlış gelir planına göre yapılmasından dolayı bazı gelirler yanlış şekilde kabul edilir. Bu satırlar, tersine çevrilmeli ve yeni plana göre yeniden kabul edilmelidir. Bu senaryoda yeni gelir planı satırları, orijinal kabul etme tarihinde negatif tutarları olacak şekilde oluşturulur. Ardından tutarlar yeni gelir planına göre kabul edilecek şekilde yeni satırlar oluşturulur. Örneğin, 8 Ağustos 2019 tarihinde 10,53 Amerikan doları geliri kabul ettiniz. 8 Eylül 2019 tarihinde de 13,16 Amerikan doları geliri kabul ettiniz. Bu nedenle, aynı tarihlerde iki yeni satır oluşturulur. Bir satır -10,53 Amerikan doları ve diğer satır -13,16 Amerikan doları olur. Ardından yirmi dört yeni satır oluşturulur ve 160,61 Amerikan doları toplam ertelenen gelir bunlar arasında tahsis edilir. **Günlük oluştur** işlemini çalıştırarak ters işlem satırlarını deftere nakledebilirsiniz.
 
 [![Gelir kabulü planı](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

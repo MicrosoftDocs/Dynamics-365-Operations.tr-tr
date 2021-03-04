@@ -139,3 +139,6 @@ Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür. Ödeme ve faturanın k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

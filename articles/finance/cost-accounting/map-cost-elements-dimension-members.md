@@ -53,3 +53,6 @@ Maliyet öğesi boyutunun eşleme tanımlarını istediğiniz zaman güncelleşt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Aşağıdaki tablolarda, belirtilen hızlı sekmelerin erişilebileceği sayfala
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat mektuplarını otomatik olarak gönder           |     Tahsilat mektubu eylem türleri, otomasyon sırasında mektubu gönderir.                                      |
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Otomasyon için etkinlikleri oluşturma                |     Bir hesapta alınan tüm otomatik adımları görüntülemek için etkinlik dışı eylem türlerine ait etkinlikler oluşturun ve kapatın.        |
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat işlemi otomasyon geçmişinin tutulacağı gün sayısı     |     Tahsilat geçmişinin saklanacağı gün sayısını tanımlar.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

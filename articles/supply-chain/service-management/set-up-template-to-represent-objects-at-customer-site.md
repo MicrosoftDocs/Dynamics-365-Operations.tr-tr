@@ -55,3 +55,6 @@ Bir müşteri sitesindeki nesneleri temsil eden bir şablon ayarlamak için bu y
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

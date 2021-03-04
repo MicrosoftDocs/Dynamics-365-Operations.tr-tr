@@ -78,3 +78,6 @@ Ertesi gün yöneticiniz bilgisayarlarınızın yüzde 10 yerine yüzde 8 oranı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

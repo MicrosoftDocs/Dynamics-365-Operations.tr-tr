@@ -39,3 +39,6 @@ Bu yordam, bir maliyet nesnesi için maliyet girişlerinin nasıl görüntülene
 7. 'p000031' değerine sahip Numara alanlarında filtre uygulamak için Hızlı Filtre'yi kullanın.
     * Maliyeti girişleri boş ise, Başlangıç tarihini 31 Ocak 2012 ve bitiş tarihini 31 Aralık 2012 olarak işaretleyin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Altı aylık amortisman kuralını kullandığınızda, sistem kıymetin satın 
    [![Yarım yıl amortisman kuralı için amortisman planı](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Yarım yıl kuralı ile eklenen uzatılmış amortisman dönemleri, amortismanın daha doğru tahsisatını sağlar. Altı aylık kural, amortisman giderlerini daha eşit şekilde temsil eder ve kar ve zarar raporunun bildirilmesinde yararlı olur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

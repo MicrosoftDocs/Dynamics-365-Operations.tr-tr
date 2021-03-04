@@ -98,3 +98,6 @@ Uyarı iletilerindeki değişim gereksinimlerinize bağlı olarak birden fazla �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

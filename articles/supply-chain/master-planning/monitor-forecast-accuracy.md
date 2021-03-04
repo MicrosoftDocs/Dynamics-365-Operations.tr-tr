@@ -50,3 +50,6 @@ Supply Chain Management, aşağıdaki tahmin doğruluğu türlerini hesaplar:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

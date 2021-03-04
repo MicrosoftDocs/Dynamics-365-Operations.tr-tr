@@ -91,3 +91,5 @@ Denetim listesini gönderdikten sonra, FastTrack çözüm mimarı projeyi incele
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Servise almayla ilgili SSS](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

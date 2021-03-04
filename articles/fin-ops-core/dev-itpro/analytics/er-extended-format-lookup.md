@@ -91,3 +91,6 @@ ER biçim aramasında GR'ye erişim şu anda yalnızca giden belgeler oluşturma
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) çerçevesi API'sı](er-apis-app73.md)
 - [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

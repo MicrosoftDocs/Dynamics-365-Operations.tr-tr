@@ -74,3 +74,6 @@ Satınalma siparişi ürün girişi işlenmeden önce onaylanmalıdır. Bu örne
 6. **Satırlar** bölümünü daraltın.
 7. Girişi nakletmek için **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

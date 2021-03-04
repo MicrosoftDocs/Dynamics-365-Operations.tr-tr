@@ -44,3 +44,6 @@ Farklılığı belirledikten sonra, faturadaki bilgilerin yanlış olduğunu dü
 Daha fazla bilgi için bkz. [Özel durumları Araştırma/Çözme](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

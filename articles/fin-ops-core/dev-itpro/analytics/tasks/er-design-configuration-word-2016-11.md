@@ -99,3 +99,6 @@ Bu belgeyi Word'de açın ve aşağıdakileri yapın:
 16. **Tamam**'a tıklayın.
 17. **Tamam**'a tıklayın. Oluşturulan çıktıyı analiz edin. Oluşturulan çıktının Word biçiminde sunulduğuna ve işlenen ödemelerin ayrıntılarını içerdiğine dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

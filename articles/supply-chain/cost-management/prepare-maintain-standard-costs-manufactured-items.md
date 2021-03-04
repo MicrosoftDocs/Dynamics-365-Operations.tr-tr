@@ -73,3 +73,6 @@ Rota bilgilerini maliyetlendirme amaçlı kullanmak istemeniz durumunda ek hazı
 
 [Üretilen ya da temin edilen ürünleri ayarlama](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

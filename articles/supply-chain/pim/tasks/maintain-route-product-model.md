@@ -67,3 +67,6 @@ Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunma
 15. Gerkesinim alanında bir değer girin veya bir değer seçin.
 16. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

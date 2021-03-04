@@ -227,3 +227,6 @@ Rapor tasarımcısı araç çubuğu, rapor tasarımcısı içinde gezinmek için
 [Mali raporlama](financial-reporting-intro.md)
 
 [Mali raporlar oluşturma](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

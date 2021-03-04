@@ -54,3 +54,6 @@ Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir 
     * Amortisman dönemlerinin, Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.  
     * Amortisman yöntemini, vergi amaçları için gerektiği şekilde ayarlama olanağınız vardır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

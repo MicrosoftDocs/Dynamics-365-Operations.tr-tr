@@ -136,3 +136,6 @@ Fiyat grubu ayarlamak için aşağıdakileri yapın.
 [Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma](set-up-fraud-alerts.md)
 
 [Çağrı merkezleri için süreklilik programları ayarlama](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

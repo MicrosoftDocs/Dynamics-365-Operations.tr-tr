@@ -84,3 +84,6 @@ Aşağıdaki resimde, kanal güncelleştirmelerinin nasıl yayımlanacağı gös
 [Kanal gezinme hiyerarşisi oluşturma](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Finans ve vergi verileri aşağıdaki eşlemeler kullanılarak tümleştirilir:
 
 + [Tümleşik genel muhasebe](ledger-mapping.md)
 + [Tümleşik vergi aslı](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

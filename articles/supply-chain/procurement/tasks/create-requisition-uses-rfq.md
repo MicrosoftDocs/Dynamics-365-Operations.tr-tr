@@ -99,3 +99,6 @@ Sonraki görev satıcılardan ürün için teklifleri almak için bir RFQ oluşt
 8. Sayfayı seçin.
 9. Tamamlandı'yı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

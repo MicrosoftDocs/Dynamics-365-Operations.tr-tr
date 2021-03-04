@@ -131,3 +131,6 @@ Bu senaryo, özelliğin **Kısmi serbest bırakmaya izin ver** şeklinde ayarlan
 
 > [!NOTE]
 > İkinci satır kısmen rezerve edildiğinde aynı sonuç beklenir. Bu durumda, rezerve edilmiş satır miktarı için iş oluşturulur ancak rezerve edilmemiş miktar için oluşturulmaz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

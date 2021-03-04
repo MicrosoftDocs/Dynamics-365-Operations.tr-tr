@@ -193,3 +193,6 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

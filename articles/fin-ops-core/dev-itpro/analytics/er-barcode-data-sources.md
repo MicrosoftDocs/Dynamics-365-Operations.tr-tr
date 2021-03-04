@@ -303,3 +303,6 @@ Ancak **Barkod** veri kaynağını, barkodları oluşturmak için kullandığın
 - [Elektronik Raporlama hedefleri](electronic-reporting-destinations.md)
 - [Elektronik raporlamada formül dili](er-formula-language.md)
 - [NUMBERFORMAT işlevi](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

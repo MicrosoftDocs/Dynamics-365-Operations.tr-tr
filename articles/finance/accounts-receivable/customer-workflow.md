@@ -60,3 +60,6 @@ En az bir önerilen değişikliğiniz olduğunda, Eylem Bölmesinde iki ek menü
     Sayfadaki durum **Değişiklikler onay bekliyor** olarak değişir.
 
 İş akışı, uygulamadaki standart iş akışı sürecini izler. Onaylayan, **Önerilen değişiklikler** sayfasındaki değişiklikleri inceleyebileceği ve **İş akışı \> Onayla**'yı seçerek iş akışını onaylayabileceği **Müşteri** sayfasına yönlendirilir. Tüm onaylar tamamlandığında, alanlar önerdiğiniz değerlerle güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

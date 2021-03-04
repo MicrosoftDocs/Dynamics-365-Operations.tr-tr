@@ -39,3 +39,6 @@ Bu yordam Commerce ürün hiyerarşisinde nasıl yeni ürün oluşturulacağın�
 8. Ürün numarası alanında bir değer girin.
 9. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

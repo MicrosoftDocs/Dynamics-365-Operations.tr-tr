@@ -46,3 +46,6 @@ Bu prosedür, bir planlanan işlem kanban işini, durumu Planlanmadı'ya döndü
 4. Tamam'a tıklayın.
     * Bu, geçerli işin "Planlandı" olan durumunu "Planlanmadı"ya döndürür ve işlem panosundan kaldırır.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

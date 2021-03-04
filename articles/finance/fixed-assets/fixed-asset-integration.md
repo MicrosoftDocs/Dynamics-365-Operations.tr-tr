@@ -95,3 +95,6 @@ Daha fazla bilgi için bkz: [Satınalma aracılığıyla kıymet alma](acquire-a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

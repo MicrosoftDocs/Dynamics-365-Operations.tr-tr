@@ -128,3 +128,6 @@ Hazır ayarın stil değerleri herkese açık Web sitenizde etkin hale getirilir
 [Sitenize dil ekleme](add-languages-to-site.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

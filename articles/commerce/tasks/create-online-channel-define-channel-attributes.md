@@ -67,3 +67,6 @@ Bu yordam yeni bir çevrimiçi kanal oluşturma ve kuruluş hiyerarşisine eklem
 3. Değişiklikleri kanal veritabanıyla eşitlemek için 1070 dağıtım planını yürütün. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

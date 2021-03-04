@@ -62,3 +62,6 @@ Aşağıdaki veriler **Öğrenme** Power BI içeriğindeki raporları doldurmak 
 | Bölme         | Pozisyon, unvan ve tam zamanlı eşdeğeri (FTE)                  | Kurs Ajandası, Kurs Katılımcıları |
 | Personel Adı    | Adı, ikinci ad ve tam adı                             | Kurs Katılımcıları |
 | Personel Unvanı   | Başlık ve kıdem tarihi                                         | Kurs Katılımcıları |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

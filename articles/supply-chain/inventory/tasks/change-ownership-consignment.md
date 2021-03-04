@@ -55,3 +55,6 @@ Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini s
 2. Tamam'a tıklayın.
 3. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

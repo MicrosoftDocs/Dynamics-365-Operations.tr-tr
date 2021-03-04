@@ -131,3 +131,6 @@ ms.locfileid: "4439632"
 >    - Bitmemiş stok yenileme çalışması olan iş satırları.
 >    - Fazla malzeme çekme.
 >    - Yeniden tahsisatla eksik malzeme çekme
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

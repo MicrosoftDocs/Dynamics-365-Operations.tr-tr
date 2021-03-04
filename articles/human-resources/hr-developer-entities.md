@@ -180,3 +180,6 @@ Aşağıdaki İnsan Kaynakları varlıkları Common Data Service'de kullanılabi
 
 [Veri tümleştirme teknolojisi seçme](hr-admin-integration-choose-technology.md)</br>
 [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

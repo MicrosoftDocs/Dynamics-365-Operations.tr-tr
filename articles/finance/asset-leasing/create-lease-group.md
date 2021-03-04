@@ -50,3 +50,6 @@ Kiralama grupları oluşturduktan sonra her gruba defter atayabilirsiniz. Kirala
 1. **Varlık kiralama \> Kurulum \> Kiralama grubu**'na gidin.
 2. Bir kiralama grubunu seçin ve ardından **Defter**'i seçin.
 3. **Yeni**'yi seçin ve ardından **Defter türü** alanında kiralama grubuna atanacak defteri seçin. Bir kiralamanın farklı yöntemlerle hesaplanması gerekiyorsa bir kiralama grubuna birden fazla defter atayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

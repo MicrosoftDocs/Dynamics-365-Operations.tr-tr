@@ -79,3 +79,6 @@ ms.locfileid: "4439005"
 3. Pazar bölümünü genişletin.
 4. Malzeme çekme için Kapatıldı alanında Evet seçeneğini belirleyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

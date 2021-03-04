@@ -105,3 +105,6 @@ Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi i�
 *Tamamlandı bildirimi* üretim senaryosu hakkında daha fazla bilgi için [Ambar iş ilkelerine genel bakış](warehouse-work-policies.md)'a bakın.
 
 Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

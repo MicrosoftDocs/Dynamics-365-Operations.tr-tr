@@ -296,3 +296,6 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 ## <a name="notes-and-tips"></a>Notlar ve ipuçları
 
 Küme kimliğinin iç içe geçmiş palet için üst plaka olduğu durumlarda, küme kimliği tarandığında yerine koyma konumu otomatik olarak verilir. Plaka üretimi el ile olarak ayarlansa bile başka bir plaka taranmamalıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

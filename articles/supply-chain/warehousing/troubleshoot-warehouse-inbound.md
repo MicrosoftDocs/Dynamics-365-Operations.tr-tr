@@ -65,3 +65,6 @@ Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu te
 1. Yük miktarlarının fazlasını alma
 
 Daha fazla bilgi için bkz. [Kayıtlı ürün miktarlarını satınalma siparişlerine göre deftere nakletme](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

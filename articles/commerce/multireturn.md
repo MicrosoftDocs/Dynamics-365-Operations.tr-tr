@@ -54,3 +54,6 @@ Siparişler seçildiğinde siparişler için tüm faturalar arasında tüm iade 
 
 Sipariş tam olarak iade edilirse müşteriye iade edilen vergilerin tutarı başlangıçta uygulanan vergi tutarına eşit olur.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

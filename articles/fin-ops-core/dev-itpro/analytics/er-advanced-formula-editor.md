@@ -171,3 +171,6 @@ Düzenleyici şu anda aşağıdaki web tarayıcılarında desteklenmektedir:
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 - [Monaco editor](https://microsoft.github.io/monaco-editor)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

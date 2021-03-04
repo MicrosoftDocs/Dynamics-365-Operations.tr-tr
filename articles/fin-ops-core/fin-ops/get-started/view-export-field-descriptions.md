@@ -107,3 +107,6 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Alan açıklamalarını özelleştirme](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

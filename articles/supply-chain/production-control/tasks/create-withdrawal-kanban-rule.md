@@ -64,3 +64,6 @@ Bu prosedürde, yalın bir ortamda malzeme aktarılması için bir çekme kanban
     * Bu da iki kanban oluşturur.  
     * Bu çekme kanbanı kuralı için her 5 başına 2 kanban oluşturulduğunu unutmayın.  Bu yordamın son aşamasıdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

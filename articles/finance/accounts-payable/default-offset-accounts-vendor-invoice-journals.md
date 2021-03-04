@@ -98,3 +98,6 @@ Fatura günlükleri için varsayılan hesaplar atamanız gerekip gerekmediğine 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Aşağıdaki tabloda listelenen konular, Commerce bileşenlerini ve istemcideki 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

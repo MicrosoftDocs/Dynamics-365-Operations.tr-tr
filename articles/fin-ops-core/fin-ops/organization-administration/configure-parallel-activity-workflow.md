@@ -53,3 +53,6 @@ Bu paralel faaliyete dal eklemek ve paralel faaliyetin dallarını yapılandırm
     > Paralel faaliyetin tüm dalları aynı anda çalıştığından dalların sırası önemli değildir.
 
 3. Her bir dalı yapılandırmak için bkz. [İş akışında paralel dalları yapılandırma](configure-parallel-branch-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

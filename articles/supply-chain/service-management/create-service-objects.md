@@ -43,3 +43,6 @@ Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

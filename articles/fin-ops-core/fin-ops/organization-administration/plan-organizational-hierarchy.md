@@ -241,3 +241,6 @@ Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikka
 - Temel yeniden yapılandırma senaryoları modellemeden önce bir etki analiz ve bir doğrulama testi gerçekleştirmek için hiyerarşinin geçerlilik tarihlerini kullanın.
 - Bir üretim ortamında yeni bir sürümü yayımlamadan önce hiyerarşi değiştirmek için taslak modunu kullanın.
 - Bir üretim ortamındaki bir hiyerarşiye organizasyon etkilemeye veya bu hiyerarşiden organizasyon çıkarmaya yetkili kişi sayısını sınırlandırın. Bu sayının sınırlandırılması, maliyetli hataların yapılması ihtimalini ve düzeltme ihtiyacını azaltacaktır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken ürün 
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

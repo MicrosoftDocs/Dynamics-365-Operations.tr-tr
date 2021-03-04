@@ -53,3 +53,6 @@ Bir doğrudan sevkiyat oluşturduğunuzda, hiçbir zaman fiziksel olarak satmad�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar**
 Daha fazla bilgi için bkz. [Konsolidasyon şirketinde para birimi yeniden değerleme](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

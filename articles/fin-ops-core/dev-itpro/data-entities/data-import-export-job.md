@@ -243,3 +243,6 @@ Arşivlenmiş yürütme geçmişini indirmek için veri yönetimi çalışma ala
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

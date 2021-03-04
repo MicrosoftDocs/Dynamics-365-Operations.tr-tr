@@ -96,3 +96,6 @@ Aşağıdaki tabloda, her bir Web rolündeki kullanıcıların sistemde hangi sa
 
 > [!NOTE]
 > Hem Sam, hem Jane, müşteri X için çalışan ilgili kişiler olmakla birlikte, yalnızca kendilerinin yerleştirdikleri siparişleri görebilir, başka birşey görmez. May'in sistemde bir siparişi olsa da, yetkisi olmayan bir kullanıcı olduğu için müşteri portalında o siparişi göremeyebilir. (Ek olarak, siparişi müşteri portalı dışında bir kanala yerleştirmiş olmalıdır.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

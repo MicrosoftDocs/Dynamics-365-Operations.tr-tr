@@ -65,3 +65,6 @@ Bir kategori sayfasını zenginleştirmek için, aşağıdakileri yapın.
 [Ürün sayfasını zenginleştirme](enrich-product-page.md)
 
 [Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

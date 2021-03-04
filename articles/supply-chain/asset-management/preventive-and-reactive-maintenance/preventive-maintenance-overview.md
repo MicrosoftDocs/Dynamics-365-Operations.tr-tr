@@ -39,3 +39,6 @@ Aşağıdaki çizimde, bakım planları ve bakım sıralarını temel alarak bak
 
 ![Şekil 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

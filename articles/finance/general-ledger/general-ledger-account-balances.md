@@ -51,3 +51,6 @@ Daha fazla bilgi için bkz. [Finansal raporlara göz at](view-financial-reports.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

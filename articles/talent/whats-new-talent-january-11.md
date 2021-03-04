@@ -67,3 +67,6 @@ Bir çalışanı işe aldığınızda ve bir sonraki personel numarası kullanı
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>İşten çıkarma kodu, pozisyon atama kaydını güncelleştirir
 Sonlandırma neden kodu şimdi pozisyon atamasını, bir çalışanı işten çıkarırken ve pozisyonu sonlandırırken güncelleştirilir. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

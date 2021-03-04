@@ -96,3 +96,6 @@ Döngü sayımı eldeki stok maddelerini denetlemek için kullanabileceğiniz bi
 21. **Tamam**'a tıklayın.
 22. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

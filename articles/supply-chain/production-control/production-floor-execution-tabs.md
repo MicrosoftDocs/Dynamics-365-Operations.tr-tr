@@ -79,3 +79,6 @@ Gereksinim duyduğunuz tüm sekmeleri tasarladıktan sonra, bunları bir yapıla
 1. Gerektikçe ek sekmeler eklemeye devam edin.
 
 1. Sekmeleri gerektiği gibi düzenlemek için araç çubuğundaki **Yukarı taşı** ve **Aşağı taşı** düğmelerini kullanın. Sekmeler, yukarıdaki ekran görüntüsünde gösterilen sırada soldan sağa doğru görüntülenecektir (üstteki sekme solda gösterilir).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

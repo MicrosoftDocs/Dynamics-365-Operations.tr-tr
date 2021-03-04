@@ -65,3 +65,6 @@ Bu yordam, varolan bir formülün, ancak küçük farklılıklar ile aynı madde
 5. Seç'e tıklayın.
 6. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

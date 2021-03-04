@@ -52,3 +52,6 @@ Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gös
 4. Listede, seçili satırdaki bağlantıya tıklayın.
     * Tamamlandı bildirimi günlüğü deftere nakledilir. Günlükte ayarlamalar yapmak istiyorsanız, üzerinde değişiklik yapabileceğiniz yeni bir günlüğü el ile oluşturabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

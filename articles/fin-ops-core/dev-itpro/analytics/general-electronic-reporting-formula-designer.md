@@ -164,3 +164,6 @@ Bazı formüller tasarım zamanında sınanamaz. Örneğin, bir formül **test s
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlamada formül dili](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

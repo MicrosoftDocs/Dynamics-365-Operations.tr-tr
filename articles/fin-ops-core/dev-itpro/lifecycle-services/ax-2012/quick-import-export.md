@@ -40,3 +40,6 @@ Kullanıcıların hızla yürütmek istediği basit işleri içe veya dışa akt
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -194,3 +194,6 @@ Aşağıdaki çizimde **Tüm varlıklar** sayfasında bulunan bir varlıktaki ba
 
 ![Şekil 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Kılavuzu bakım denetim listesi şablonuyla ilişkilendirmek için aşağıdaki
 
 - [Çift yazmaya genel bakış](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Varlık yönetimine genel bakış](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ BOM tasarımcısının ağaç görünümünde gösterilen bilgileri özelleştir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

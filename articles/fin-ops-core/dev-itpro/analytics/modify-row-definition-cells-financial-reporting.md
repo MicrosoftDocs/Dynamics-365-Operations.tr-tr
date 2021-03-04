@@ -529,3 +529,6 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

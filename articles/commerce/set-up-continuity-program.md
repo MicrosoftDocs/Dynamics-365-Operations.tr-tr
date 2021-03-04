@@ -50,3 +50,6 @@ Yukarıda açıklandığı gibi bir süreklilik programı ayarladıktan sonra m�
 - **Süreklilik satırlarını genişlet** (gerekiyorsa) – Bir süreklilik olayının tekrarlanabileceği sayıyı girin. Sevkiyatların tekrarlanması çağrı merkezi parametrelerindeki **Süreklilik tekrar eşiği** alanında ayarlanan sınırın ötesinde de genişletilebilir.
 - **Bir süreklilik güncelleştirmesi gerçekleştir** (gerekiyorsa) – Süreklilik programı ile süreklilik üst satış siparişleri arasındaki değişiklikleri eşitleyin.
 - **Süreklilik üst satırlarını ve siparişlerini kapat** – Süreklilik siparişlerini kapatın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

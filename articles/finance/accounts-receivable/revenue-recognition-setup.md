@@ -193,3 +193,6 @@ Gelir kabulü ayrıca Zaman ve malzeme projesi üzerinden oluşturulan satış s
 
 - **Ertelenen fatura geliri** (**Gelir hesapları** altında): Ertelenen gelire (gelir yerine) nakledilen gelir fiyatı için ana hesabı girin. Satış siparişi satırında bir gelir planı varsa gelir fiyatı ertelenir.
 - **Ertelenen maliyet** (**Maliyet hesapları** altında): Gelir de ertelenirse satılan malların ertelenen maliyetine nakledilen satılan malların maliyet tutarı için ana hesabı girin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

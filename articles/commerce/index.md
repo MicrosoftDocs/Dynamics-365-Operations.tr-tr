@@ -56,3 +56,6 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [E-ticaret sitenizi yönetin](online-store-overview.md)
 - [Sahtekarlık koruması](dev-itpro/DFP.md)
 - [Ticari geliştirme ve genişletilebilirlik](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

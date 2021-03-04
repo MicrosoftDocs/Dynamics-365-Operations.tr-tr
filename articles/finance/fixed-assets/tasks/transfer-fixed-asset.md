@@ -48,3 +48,6 @@ Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine 
     * Sabit kıymet defterlerini transfer etmeden önce sonuçları gözden geçirin.  
 10. **Transfer et** seçeneğini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

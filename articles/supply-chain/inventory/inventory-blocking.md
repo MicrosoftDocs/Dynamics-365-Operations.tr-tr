@@ -70,3 +70,6 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Malların kalitesini denetle](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

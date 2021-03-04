@@ -65,3 +65,6 @@ Aşağıdaki bölümlerde bu ayarların etkileri açıklanmaktadır. Ayrıca, si
 - **Fiş numarası** alanı **Otomatik oluşturulan** olarak ayarlanırsa içe aktarma başarılı olmayacaktır. **Fiş numarası** alanı için **Otomatik oluşturulan** ayarı desteklenmez.
 
 Varsayılan olarak, Yevmiye defteri varlığı ayarlama tabanlı işlemi kullanır. Kuruluşunuz için iş gereksinimlerini değerlendirdikten sonra **Ayarlama tabanlı işlem** ayarını **Veri yönetimi** çalışma alanındaki **Veri varlıkları** 'na tıklayarak değiştirebilirsiniz. Ayarlama tabanlı işlem içe aktarma işlemini hızlandırmak için kullanılır. Ayarlama tabanlı işlemi kullanmıyorsanız Yevmiye defteri varlığının içe aktarımı daha yavaş olacaktır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

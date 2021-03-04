@@ -43,3 +43,6 @@ Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrel
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis sözleşmesine genel bakış](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

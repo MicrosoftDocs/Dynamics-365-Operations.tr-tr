@@ -60,3 +60,6 @@ Belgelerdeki satış vergisi, belge satırlarında birer Satış vergisi grubu v
 29. Satış vergisi'ne tıklayın.
 30. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

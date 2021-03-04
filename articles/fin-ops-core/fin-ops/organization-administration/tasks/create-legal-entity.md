@@ -45,3 +45,6 @@ Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kurul
 15. **Vergi kaydı** bölümünü genişletin. **Vergi kaydı** bölümünde, vergi kurumlarına bildirilirken kullanılacak kayıt numaralarını girin.
 16. **Vergi 1099** bölümünü genişletin. **Vergi 1099** bölümüne tüzel kişilik için 1099 bilgilerini girin.  
 17. **Kaydet**'e tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

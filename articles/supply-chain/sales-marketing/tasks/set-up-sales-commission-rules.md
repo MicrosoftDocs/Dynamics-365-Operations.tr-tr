@@ -96,3 +96,6 @@ Bu yordam, satış komisyonu hesaplamanın ve izlemenin nasıl ayarlanacağını
 17. Listede, daha önce oluşturduğunuz komisyon grubunu seçin.
 18. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

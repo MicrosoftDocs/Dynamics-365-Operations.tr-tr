@@ -62,3 +62,6 @@ Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uy
 - [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Yönetici Kılavuzu](hr-admin-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

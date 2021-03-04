@@ -54,3 +54,6 @@ Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi 
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis aralıkları](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

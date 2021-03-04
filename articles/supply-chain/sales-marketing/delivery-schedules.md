@@ -57,3 +57,6 @@ Satış tekliflerini onayladığınızda, elde edilen satış siparişleri sipar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

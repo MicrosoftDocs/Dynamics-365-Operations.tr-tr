@@ -250,3 +250,6 @@ Satıcı faturasını günlüğe geçirmeden önce önizlemesini görüntüledi�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Aşağıdaki çizimde, bu konu başlığında anlatılan şekilde ayrı bileşen
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 - [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak ra
 
 ### <a name="available-at-location"></a>Yerleşimde kullanılabilir
 Konum otomatik tüketimde kullanılabilir ilkesi, malzeme üretim için çekildi olarak kaydedildiğinde malzemenin otomatik olarak tüketileceğini belirtir. Malzeme, hammadde çekme işi tamamlandığında veya malzeme üretim giriş konumunda kullanılabilir olduğunda ve malzeme hattı ambara serbest bırakıldığında konumdan çekildi olarak kaydedilir. İşlem içinde oluşturulan malzeme çekme listesi, toplu iş içerisinde deftere nakledilir. Bu örnek, örneğin bir üretim emrine karşılık birden fazla malzeme çekme etkinliği varsa uygundur. Bu durumda malzeme çekme listesini el ile güncelleştirmeniz gerekmez ve WIP bakiyesinin geçerli görünümünü elde edebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

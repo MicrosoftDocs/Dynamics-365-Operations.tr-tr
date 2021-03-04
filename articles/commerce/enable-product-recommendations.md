@@ -114,3 +114,6 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 
 [Ürün önerileri SSS](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

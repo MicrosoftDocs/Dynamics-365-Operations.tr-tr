@@ -121,3 +121,6 @@ Mart 2011'e ait işlemler faturalandırıldığında, 200 EUR değerindeki satı
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

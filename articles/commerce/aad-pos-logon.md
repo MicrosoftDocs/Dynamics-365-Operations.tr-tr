@@ -74,3 +74,6 @@ Azure AD hesabını bir çalışanla ilişkilendirmek için, aşağıdaki adıml
 [Perakende işlevselliği profili oluşturma](retail-functionality-profile.md)
 
 [ Çalışanı yapılandırma](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

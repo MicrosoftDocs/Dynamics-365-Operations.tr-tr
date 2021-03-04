@@ -51,3 +51,6 @@ Bir iade sevkiyatı bir sipariş iadesi satırının tam miktarından daha azın
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

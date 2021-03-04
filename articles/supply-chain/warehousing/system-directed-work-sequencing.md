@@ -305,3 +305,6 @@ Sistemin yönlendirdiği iş sırası sorguları *dahildir*. Bu olguyu bazı kur
 Bu nedenle, bu senaryodaki örnekte iş kodu *4* de sorgu tarafından yakalanmıştır. Oluşturulduğu zaman iki satır eklenmiştir: biri 25 beher, diğeri 10 beher için. En az bir iş satırı 20 beher'den az miktarda olduğu için, iş yine de kullanıcıya sunulmuştur.
 
 Senaryoya bağlı olarak, molaları kullanarak bu davranışı önleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

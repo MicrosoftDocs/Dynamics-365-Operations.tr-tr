@@ -52,3 +52,6 @@ Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç 
 6. Hazırla'ya tıklayın.
     * İş durumu'ndaki bir simgenin işin şimdi hazır olduğunu belirttiğini unutmayın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

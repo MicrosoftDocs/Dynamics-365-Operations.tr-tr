@@ -68,3 +68,6 @@ IFRS 16 kiralamalarında kira yeniden değerleme işleminin etkilerini görmek i
 Yeniden değerleme tarihinde başlatılan yeni oluşturulmuş ödeme planını görüntüleyebilir ve güncelleştirilmiş toplam ödeme tutarını gösterebilirsiniz. Ayarlanmış ödeme planını yansıtmak için yeni bir kiralama yükümlülüğü amortisman planı ve varlık amortisman planı da oluşturulur.
 
 Günlük girişi, endeks yeniden değerlemesiyle ilgili olan kira ödemesi değişikliğini kaydetmek için düzeltme günlük girişini otomatik olarak deftere nakleder.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

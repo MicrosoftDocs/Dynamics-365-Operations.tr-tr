@@ -51,3 +51,6 @@ Sabit kıymet amortismanı tüzel kişilikler arasında tek bir adımda çalış
 5. Günlük oluştur'a tıklayın.
 6. Sabit kıymetler > Günlük girişler > Sabit kıymetler günlüğü'ne gidin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

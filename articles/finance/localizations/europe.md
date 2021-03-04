@@ -99,3 +99,6 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 
 - [Elektronik raporlamaya genel bakış](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

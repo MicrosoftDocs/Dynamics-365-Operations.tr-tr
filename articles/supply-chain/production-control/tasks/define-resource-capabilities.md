@@ -49,3 +49,6 @@ Kaynak yetenekleri, kaynağın hangi işlemleri yapabileceğini açıklar. Planl
 5. Düzey alanına bir sayı girin.
     * Bir iş veya operasyonun belirli bir yetenek gerektirdiğini belirttiğinizde, gerekli olan en düşük düzeyi de belirtebilirsiniz. Aynı işi farklı hızda, güçte ve boyutta yapabilecek kaynakları birbirinden ayırmak için yetenek düzeyini kullanın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

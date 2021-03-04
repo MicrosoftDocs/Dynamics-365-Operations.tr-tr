@@ -62,3 +62,6 @@ Bu yordam, nasıl varsayılan ürün yaşam döngüsü durumu oluşturulacağın
 > [!NOTE]
 > Etkin bir durum ayarladığınızı varsayalım: şimdi etkin durumu ürününün Master planlama ve ürün reçetesi seviyesinde hesaplamada kullanılmasına izin vermek üzere seçebilirsiniz. Bu, yalnızca tutarlı planlama için gerekli tüm ürün ayrıntılarının belirtilmiş olması durumunda bir anlam ifade etmektedir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

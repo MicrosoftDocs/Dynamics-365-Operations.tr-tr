@@ -83,3 +83,6 @@ Mağazada malzeme çekme veya perde çekme belirtilmiş sipariş satırları iç
 
 [Vergi muafiyeti hesaplaması](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

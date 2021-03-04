@@ -38,3 +38,6 @@ Bu konuda, boş çeklerin nasıl oluşturulacağı açıklanmaktadır. Örneğin
 **Çekler** sayfasını açmak için **Nakit ve banka yönetimi \> Banka hesapları \> Banka hesapları**'na gidin ve ardından Eylem Bölmesi'ndeki **Ödemeleri yönetme** sekmesinin **İlgili bilgiler** grubunda **Çekler**'i seçin. Alternatif olarak, **Nakit ve banka yönetimi \> Sorgular ve raporlar \> Çekler**'e gidin.
 
 Ardından **Boş** durumunda olan çek oluşturmak için Eylem Bölmesi'nde **Boş çek oluştur**'u seçin. Sistem boş çek oluştururken ilişkili banka hesabı geçici olarak devre dışı bırakılır. Bu davranış, boş çekler oluşturulurken aynı anda ödemelerin de oluşturulması riskini azaltır. İşlem tamamlandığında ilişkili banka hesabı yeniden etkinleştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

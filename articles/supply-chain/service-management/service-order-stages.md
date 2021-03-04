@@ -47,3 +47,6 @@ Bir servis aşaması ayarladığınızda, daha sonraki servis aşaması için se
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

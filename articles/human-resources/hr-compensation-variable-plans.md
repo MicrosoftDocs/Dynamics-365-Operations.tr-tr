@@ -99,3 +99,6 @@ Artık, çalışanları değişken ücret planına kaydedebilirsiniz. Bir çalı
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

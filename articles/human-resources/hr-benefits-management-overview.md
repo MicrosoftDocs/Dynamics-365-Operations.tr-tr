@@ -97,3 +97,6 @@ Yaptığınız değişikliklerin bazılarını etkin hale getirmek için onları
 - [Yaşam olayı uygunluğunu işleme](hr-benefits-process-life-event-eligibility.md)
 - [Oran değişikliklerini işleme](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

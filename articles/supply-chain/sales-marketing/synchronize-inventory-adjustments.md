@@ -79,3 +79,6 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Stok transferi (Field Service'ten Supply Chain Management'a): Stok transferi
 
 [![Veri tümleştirmede şablon eşleme](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

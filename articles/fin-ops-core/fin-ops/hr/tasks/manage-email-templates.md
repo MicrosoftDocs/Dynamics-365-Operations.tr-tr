@@ -47,3 +47,6 @@ Yeni bir belgeye kuruluşunuzun bilgilerini vertabanından transfer edebilirve b
 8. Yer işaretleri alanlarını ihtiyaç duyduğunuz yerlere girerken E-mail adresinizi yazmaya devam edin.
 9. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

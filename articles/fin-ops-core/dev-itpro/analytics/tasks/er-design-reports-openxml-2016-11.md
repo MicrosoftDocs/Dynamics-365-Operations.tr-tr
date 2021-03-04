@@ -150,3 +150,6 @@ Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşt
 17. **Banka hesabı** alanına `GBSI OPER` yazın.
 18. **Tamam**'ı, ardından yeniden **Tamam**'ı seçin. Oluşturulan çalışma sayfasını gözden geçirin; ödeme ayrıntı satırları ve bu ödeme iletisinde kullanılacak her bir para birimi kodu için toplamlar da dahil olmak üzere.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştir
 - [Serbest bırakılan ürüne ürün yaşam döngüsü durumu atama](tasks/product-lifecycle-state-released-product.md)
 - [Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama](tasks/obsolete-product-variants.md)
 - [Ürünleri Master planlama dışında tutmak için bir ürün yaşam döngüsü durumu oluşturma](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

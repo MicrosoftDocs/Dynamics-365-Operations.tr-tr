@@ -58,3 +58,6 @@ Aşağıdaki çizimde bir **Bakım isteği ayrıntıları** raporu örneği gös
 Aşağıdaki çizimde, tüm etkin bakım istekleri için **Bakım istek listesi** raporunun bir örneği gösterilmektedir.
 
 ![Bakım talebi listesi raporu](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

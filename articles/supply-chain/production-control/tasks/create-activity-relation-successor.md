@@ -66,3 +66,6 @@ Bir yalın imalat akışındaki faaliyetlerin akışı etkinlik ilişkileri üze
 12. Sayfayı kapatın.
 13. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

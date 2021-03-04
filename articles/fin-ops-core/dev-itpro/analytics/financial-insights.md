@@ -247,3 +247,6 @@ Aşağıda yer alan kaynaklardaki bilgiler, bir üretim ortamındaki **CFO'ya ge
 - [1 kutu ortamındaki Analiz Çalışma Alanlarına ve Raporlara erişme](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Power BI Embedded kullanarak çalışma alanlarına analiz ekleme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

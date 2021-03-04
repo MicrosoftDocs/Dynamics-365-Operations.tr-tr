@@ -60,3 +60,6 @@ Yayımlama gruplarını denemeler ile kullanırken, bilinmesi gereken bazı öne
 
 ## <a name="next-step"></a>Sonraki adım
 [Deneme çalıştırma ve izleme](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

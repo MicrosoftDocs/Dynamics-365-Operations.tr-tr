@@ -37,3 +37,6 @@ Bu yordamda önceden tanımlanmış bir donanım istasyonu indirme konusu açık
 5. Listede, istenen kaydı bulun ve seçin.
 6. İndir'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

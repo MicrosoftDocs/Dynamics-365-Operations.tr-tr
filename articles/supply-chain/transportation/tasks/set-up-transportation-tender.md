@@ -48,3 +48,6 @@ Bu yordam, bir taşıma ödemesinin nasıl ayarlanacağını gösterir. Bu genel
 7. Gönder'i tıklatın.
 8. Bir rota seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Perakende hareketlerini düzenleyebileceğiniz bir Excel çalışma kitabı olu�
 [Perakende hareketlerinin mali boyutlarını düzenleme](edit-financial-dim.md)
 
 [Perakende hareketlerini düzenlemek için Excel çalışma kitabına alanlar ekleme](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirs
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [İstatistiksel temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

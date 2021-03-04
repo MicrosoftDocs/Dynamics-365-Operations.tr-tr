@@ -75,3 +75,6 @@ Bir servis siparişinde oluşturulan servis görevi ilişkileri belirli bir serv
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

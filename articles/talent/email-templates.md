@@ -81,3 +81,6 @@ Belirli bir e-posta tipi için bir şablon oluşturulduktan sonra şablon satır
 
 > [!NOTE] 
 > Otomatik olarak gönderilen e-postalar için birden çok şablon oluşturulabilir. Bununla birlikte, tek bir şablon etkin şablon olarak ayarlanabilir. Bu süreç olaylarla tetiklendiğinden yalnızca yönetici, şablon kitaplığındaki **varsayılan** ve **Oto. gönder** rozetleri bileşimine bağlı olarak hangi şablonun kullanılması gerektiğini belirleyebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

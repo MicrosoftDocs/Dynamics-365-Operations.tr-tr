@@ -224,3 +224,6 @@ Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülm�
 Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
 
 Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

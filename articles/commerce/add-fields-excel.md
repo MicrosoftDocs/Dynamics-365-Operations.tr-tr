@@ -55,3 +55,6 @@ Yeni alan ve bu alana ait veriler artık Excel'de düzenlenebilir hale gelmişti
 [Perakende hareketlerinin mali boyutlarını düzenleme](edit-financial-dim.md)
 
 [Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

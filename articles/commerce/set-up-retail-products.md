@@ -40,3 +40,6 @@ Bu makale, ürünlerini Dynamics 365 Commerce içinde ayarlamayı anlatır.
 4. **Ürünleri çeşitlere ekleyin.** Bir çeşit, kanallarınızda sunduğunuz bir ürün koleksiyonunu temsil eder. Bir veya daha fazla çeşit tanımlayabilirsiniz ve her bir ürüne bir veya daha fazla çeşit atanabilir. Ürünleri kanallarına atamak için, çeşitleri bu kanallarına atayın. Bir çeşit oluşturduğunuzda, henüz tüzel kişiliğe serbest bırakılmamış ürünleri ekleyebilirsiniz. Ancak, ürünleri kanallarınızda sunabilmek için önce tüzel kişiliğe serbest bırakmanız gerekir.
 5. **Ürünleri gezinme hiyerarşilerine ekleyin.** Ürünlerin çevrimiçi veya satış noktasında (POS) ziyaret alabilmesi için, bir Commerce gezinme hiyerarşisinde kategorize edilmeleri gerekir.
 6. **Ürünleri kataloglara ekleyin.** Bu adım POS için isteğe bağlı olmasına rağmen, çevrimiçi mağazalar ürünlerin en az bir kataloğa dahil edilmesini gerektirir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

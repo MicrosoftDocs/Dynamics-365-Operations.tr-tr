@@ -65,3 +65,6 @@ Maliyet tahmini, aşağıdaki bilgileri de sağlar:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

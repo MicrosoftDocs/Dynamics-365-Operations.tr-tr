@@ -67,3 +67,6 @@ Yalın imalat uygulamak için biz, basit ve karmaşık üretim senaryolarda tek 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

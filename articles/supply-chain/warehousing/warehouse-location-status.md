@@ -169,3 +169,6 @@ Burada belirtilen örnek kayıtları ve değerleri kullanarak örnek senaryo üz
 
 > [!NOTE]
 > Yerleşim alanları yalnızca ambar hareketleriyle güncelleştirilir. Günlük veya diğer WHS dışı işlemleri kullanarak stok taşırsanız, alanlar güncelleştirilmez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

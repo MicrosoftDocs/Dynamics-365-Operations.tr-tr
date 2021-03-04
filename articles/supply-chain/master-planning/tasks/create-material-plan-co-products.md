@@ -111,3 +111,6 @@ ms.locfileid: "4439318"
 19. Tüm planlama işlemlerini devre dışı bırak alanında Hayır'ı işaretle.
 20. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -945,3 +945,6 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

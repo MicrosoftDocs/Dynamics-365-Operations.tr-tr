@@ -64,3 +64,6 @@ Site seçici modülü, site seçici yuvasının altındaki [üst bilgi modülün
 [İçerik haritası modülü](add-breadcrumb.md)
 
 [Gezinti menüsü modülü](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

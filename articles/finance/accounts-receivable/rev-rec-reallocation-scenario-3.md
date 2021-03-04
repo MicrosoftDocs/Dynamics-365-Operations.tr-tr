@@ -81,3 +81,6 @@ Satış siparişi eklenen madde için yeniden faturalanır. Müşteriye sunulan 
 [![Deftere nakledilen muhasebe girişi içeren fiş hareketleri sayfası](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Gelir ve satışın toplamı 319,50 dolardan fazla olduğundan, 14,48 dolarlık fark deftere nakledilir. Bu tutar, Kısmi fatura geliri kliring hesabındaki bakiyeyi kapatır. Bu bakiye, yeniden tahsisat işleminden sonra deftere nakledilen yeni muhasebe girişinde güncelleştirilmiştir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

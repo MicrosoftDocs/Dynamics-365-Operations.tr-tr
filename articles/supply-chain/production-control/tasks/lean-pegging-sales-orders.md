@@ -57,3 +57,6 @@ Bu yordam, satış satırındaki maddenin kanbanlar ile üretildiği bir pegging
 5. Ağaçta, 'Satış 000832\Kanban 000558\Issue L0001\Kanban 000559 için satır' seçin.
     * İkinci kanban için de iş planlanmıştır çünkü tüm pegging ağacı planlıdır. Kanban iş durumunun planlanmadı'dan planlandı'ya dönüştüğüne dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

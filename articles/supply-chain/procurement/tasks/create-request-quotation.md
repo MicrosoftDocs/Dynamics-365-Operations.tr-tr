@@ -81,3 +81,6 @@ RFQ'nuz hakkında temel bilgileri belirledikten sonra satıcıların teklif verm
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

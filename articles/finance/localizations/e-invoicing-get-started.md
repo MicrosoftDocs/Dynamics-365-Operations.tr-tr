@@ -344,3 +344,6 @@ Gönderme günlüğünde gösterilen sonuçlar E-faturalama özelliğinin RCS'de
 - [Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-mex-get-started.md)
 - [İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-ita-get-started.md)
 - [Elektronik faturalamayı eklentisini kurma](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

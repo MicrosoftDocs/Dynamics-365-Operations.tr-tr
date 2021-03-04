@@ -78,3 +78,6 @@ Varolan bir sayfaya farklı bir düzen seçmek için aşağıdaki adımları izl
 
 [Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

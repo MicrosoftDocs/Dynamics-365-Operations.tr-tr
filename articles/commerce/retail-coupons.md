@@ -82,3 +82,6 @@ Kupon işlevi birçok farklı özellik içerir. Commerce Headquarters (HQ) ve ka
 - **Genel merkez kısmen güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi** Bir Genel Merkez güncelleştirmesinde, kupon ve iskonto sayfaları güncelleştirilir ve ticaret fiyatı altyapısı da güncelleştirilir. Bu iki bileşenden yalnızca biri güncelleştirilirse, Commerce'deki bazı sayfalar fiyat hesaplama verileriyle eşleşmeyecektir. Bu nedenle, iskonto hesaplamaları sırasında beklenmeyen iskonto hesaplamaları veya hatalar oluşabilir.
 - **Genel merkez güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi (N-1).** Aynı anda tüm mağazalar güncelleştirilemediğinden, genel merkezi mağazaları güncelleştirmeden önce güncelleştirmenizi öneririz. N-1 senaryosunda, kuponlarla ilişkili yeni işlev henüz güncelleştirilmemiş mağazalarda kullanılamaz. Örneğin, kupon işlevi satırları "hariç tut" işlevi sunar. Bir iskontoda satırları hariç tut özelliği kullanırsanız, daha önceki bir sürümü çalıştıran bir mağaza uygulanmaz.
 - **Genel merkez güncelleştirilmedi ancak Commerce Scale Unit ve POS güncelleştirildi (N+1).** Commerce Scale Unit'deki güncelleştirilmiş fiyat alt yapısı hesaplamalar sırasında eski iskonto kodlarını işleyebildiğinden, güncelleştirmenin bu senaryo üzerinde etkisi olmayacaktır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

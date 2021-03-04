@@ -56,3 +56,6 @@ LCS ayarlama artık tamamlanmıştır. Sonraki adım, [senaryoları ayarlamak i�
 2. LCS'de, Supply Chain Management ortamınızın ayrıntılarına gidin.
 3. **Ortam eklentileri** bölümüne kaydırın.
 4. IoT Zekası eklentisi için **Kaldır**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

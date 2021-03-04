@@ -90,3 +90,6 @@ Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anl
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satınalma sözleşmeleri](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

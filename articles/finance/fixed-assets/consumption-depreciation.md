@@ -68,3 +68,6 @@ Aşağıdaki tüketim amortismanına yönelik faktör, 31 Ocak için oluşturulm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

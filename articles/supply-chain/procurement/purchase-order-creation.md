@@ -96,3 +96,6 @@ Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

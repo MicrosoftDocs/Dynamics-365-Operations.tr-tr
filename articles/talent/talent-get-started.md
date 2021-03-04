@@ -66,3 +66,6 @@ Fikirler, haberler veya Borç hesapları konusunda diğer bilgileri ve çözüml
 ### <a name="videos"></a>Videolar
 Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Kanalı](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)'nda bulunan nasıl yapılır videolarına hemen göz atın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

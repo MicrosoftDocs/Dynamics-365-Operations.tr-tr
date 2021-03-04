@@ -49,3 +49,6 @@ Mevcut işi kullanmayan ve aşağıdaki yöntemlerden birini kullanan, iş modun
 - Karma plaka alımı ve yerine koyma işlemi
 
 Kaynak belge satırlarını belirlemek için seçenekler şunlardır: satınalma siparişi maddesi, satınalma siparişi satırı, iade siparişi, transfer sipariş maddesi ve transfer emri satırı. Bu seçenekler, tek bir plaka üzerindeki alma sırasını değiştirebilir. Son seçenek yük maddesine göredir. Birden fazla maddeyi bir plakaya ekleyebilirsiniz ancak çoklu yükler arasında geçiş yapamazsınız.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

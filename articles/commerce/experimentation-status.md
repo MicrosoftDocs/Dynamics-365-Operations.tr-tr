@@ -45,3 +45,6 @@ Benzer şekilde, **üçüncü taraf durumu** sütununda, denemelerin üçüncü 
 Aşağıdaki diyagramda her iki durum kümesi ve bunların birbirleriyle ilişkileri gösterilmektedir.
 
 [ ![Deneme durumları](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

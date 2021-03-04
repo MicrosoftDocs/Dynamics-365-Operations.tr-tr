@@ -101,3 +101,6 @@ Kayıt şablonları, kayıtları daha hızlı oluşturmaya yardımcı olabilir. 
 - [Belge yönetimini konfigüre etme](configure-document-management.md)
 - [E-postayı yapılandırma ve gönderme](configure-email.md)
 - [Tarih/saat tarih ve saat dilimleri](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Yanlışlıkla yapılan bir kapatmayı tersine çevirin.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Hareketler listesinde bulunan hesapların listesini güncelleştirin
 
 Hareketler listesinde bulunan hesapları düzenleyebileceğiniz iletişim kutusunu açmak için **Genel muhasebe kapatma hesapları**'nı seçin. Listeye yeni hesaplar eklemek için **Yeni**'yi seçin. Bu liste, **Genel muhasebe hesabı kapatmaları** sayfasında görünen hareketler listesini filtrelemek için kullanılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

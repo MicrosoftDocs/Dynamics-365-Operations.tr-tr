@@ -72,3 +72,6 @@ Yeni **Maliyet girişleri** sayfası, miktar ve maliyet kayıtlarını görünt�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

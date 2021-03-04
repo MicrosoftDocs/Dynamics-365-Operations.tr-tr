@@ -60,3 +60,6 @@ Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede
 Bazen bir tümleştirme özelliği varsayılan olarak açıktır ve kapatılamaz (örneğin, **Özellik yönetimi** çalışma alanı).
  
 Bir özellik genel olarak kullanılabilir olduğunda üretim ortamlarında açılıp kapatılamayabilir. **Özellik yönetimi** çalışma alanı bir önizleme özelliğinin zorunlu hale gelme zamanını belirtir. Bu tarih genellikle yarıyıllık sürüm planlarına uygun olacak şekilde 1 Ekim veya 1 Nisandır. Zorunlu özellikleri kapatamazsınız. Bir özelliği zorunlu olana kadar tüm ortamlarda kapatıp açabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

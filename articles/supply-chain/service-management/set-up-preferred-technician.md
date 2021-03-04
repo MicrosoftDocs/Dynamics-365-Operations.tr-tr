@@ -68,3 +68,6 @@ Servis anlaşması veya servis siparişi için bir tercih edilen teknisyen olara
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

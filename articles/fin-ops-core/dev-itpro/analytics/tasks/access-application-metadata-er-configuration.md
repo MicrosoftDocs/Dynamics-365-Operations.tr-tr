@@ -125,3 +125,6 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 > [!NOTE]
 > Uygulama meta verileri hakkında bilgi elde etmenin bu yolu yerel olarak dağıtılmış uygulamalar için kullanılabilecek tek yoldur (yerel işletme verileri (LBD) veya şirket içi dağıtım modeli kullanıldığında).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

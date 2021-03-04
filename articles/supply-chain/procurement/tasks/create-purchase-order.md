@@ -74,3 +74,6 @@ Bu konu, size bir satınalma siparişinin el ile nasıl oluşturulacağını gö
 
 2. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

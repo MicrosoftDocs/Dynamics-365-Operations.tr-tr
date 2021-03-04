@@ -78,3 +78,6 @@ Seçilen servis siparişleri iptal edilir veya **İptal edildi** ilerleme duruml
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

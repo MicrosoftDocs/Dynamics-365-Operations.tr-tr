@@ -74,3 +74,6 @@ Güncelleştirilmiş başlık parçasını yayımladıktan sonra, başlık parç
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

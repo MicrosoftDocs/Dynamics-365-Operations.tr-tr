@@ -83,3 +83,6 @@ Bu yordam, bir ürün yapılandırma modelinin nasıl oluşturulacağını ve ö
 17. Seri başına alanında bir sayı girin.
 18. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

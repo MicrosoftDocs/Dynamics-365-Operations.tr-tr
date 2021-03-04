@@ -122,3 +122,6 @@ April sonra ödemeyi deftere nakleder. **Satıcı hareketleri** sayfasını açt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

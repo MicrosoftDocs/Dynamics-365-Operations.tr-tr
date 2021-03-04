@@ -45,3 +45,6 @@ Bu senaryoları etkinleştirmek üzere, mağazalar için işlev profilinin aşa�
 
 > [!NOTE]
 > Kısmi tutarları ödeme veya kapatma henüz desteklenmemektedir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

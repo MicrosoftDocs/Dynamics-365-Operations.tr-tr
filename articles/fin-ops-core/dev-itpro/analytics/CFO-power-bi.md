@@ -43,3 +43,6 @@ Aşağıdaki tablolar, raporların kopyalandığı Power BI içeriğini ve **CFO
 | [Satış ve karlılık](sales-profitability-performance-content-pack.md) | <ul><li>Bölgeye göre gelir</li><li>Gelire göre ilk 10 müşteri</li><li>Gelire göre ilk 10 ürün</li></ul> |
 | [Alacak ve tahsilat yönetimi](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Vadesi geçmiş müşteri</li><li>Müşteri fazla kredi limiti</li><li>Yaşlandırılmış bakiyeler</li></ul> |
 | [Satınalma ve harcama analizi](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Ay/gün olarak satın almalar</li><li>Satın almalara göre en üst 10 satıcı</li><li>Satın almalara göre en üst 10 ürün</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

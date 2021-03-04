@@ -104,3 +104,6 @@ Bu sürüm oturum açmış tüzel kişilik dışındaki tüzel kişiliklerde ça
 Bu işlevsellik artık korumalı ortamlarda kullanılabilir. Bu özelliği etkinleştirmek için **Sistem yönetimi > Bağlantılar > Kurulum > Sistem parametreleri > Önizleme özellikleri** ne gidin. **Gelişmiş çalışan formu ve gezinme**'yi seçin. Bu değişiklikler tüm kullanıcılar için etkinleştirilir. Bu seçeneği istediğiniz zaman kapatabilirsiniz.
 
 Daha fazla bilgi için, bkz. [Kolaylaştırılmış çalışan girişi ve gezintisi](./streamlined-employee-entry.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

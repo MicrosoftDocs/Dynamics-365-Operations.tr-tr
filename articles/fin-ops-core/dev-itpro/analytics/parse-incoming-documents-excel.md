@@ -46,3 +46,6 @@ Finance and Operations uygulamasında henüz [ER - Harici bir dosyadan veri içe
 | İçerik açıklaması    | Dosya                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER modeli yapılandırması | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

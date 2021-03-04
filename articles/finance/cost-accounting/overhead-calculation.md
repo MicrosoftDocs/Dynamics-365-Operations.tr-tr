@@ -1415,3 +1415,6 @@ Mali muhasebede, Elektrik için 10.000,00 maliyet bir sözde maliyet merkezi kim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

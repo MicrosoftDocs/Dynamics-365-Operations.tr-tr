@@ -69,3 +69,6 @@ Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturula
     - **Referans lotu**, geçerli satınalmadan kaynaklanan maliyetlerin eklenmiş satış siparişine uygulanacağını garanti eder.  
     - **Referans numarası** alanındaki bağlantıyı açarak kaynak satış siparişine gidebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

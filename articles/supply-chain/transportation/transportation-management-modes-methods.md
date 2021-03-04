@@ -47,3 +47,6 @@ Taşıma yöntemi oluşturmak için şu adımları izleyin:
 1. Yeni taşıma yöntemi oluşturmak için **Yeni**'yi seçin.
 1. Taşıma modu için benzersiz bir kimlik ve açıklayıcı ad girin.
 1. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

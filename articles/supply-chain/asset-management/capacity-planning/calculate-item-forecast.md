@@ -60,3 +60,6 @@ Bu, belirli bir döneme ait beklenen madde tüketiminin (iş emirlerini tamamlam
 8. Maddelerle ilgili ürün, depolama alanı veya izleme boyutlarını görmek istiyorsanız, **Boyutları görüntüle** düğmesine tıklayın. İlgili onay kutularını seçin ve **Tamam**'a tıklayın.
 
 ![Şekil 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

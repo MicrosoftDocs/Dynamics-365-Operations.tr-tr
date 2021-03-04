@@ -50,3 +50,6 @@ Sepet için çeşitli tutarlara yönelik daha iyi bir görüş sağlamak üzere,
 - **Uygulanan havale**: Kullanıcı bir müşteri siparişi teslim alma hareketi gerçekleştirdiğinde bir işlemde uygulanan havale tutarı. Havale geçersiz kılma işlemi yoksa ve yüzde 10 havale yapılandırıldıysa bu alandaki tutar müşteri siparişinin toplam tutarının yüzde 90'ıdır.
 - **Gerçekleşen tutar**: Müşteri siparişi oluşturulduğunda veya düzenlendiğinde ya da bir müşteri siparişi değişikliği sırasında teslimat şeklinin **Gerçekleştirme** olarak ayarlandığı satırların toplam tutarı. Bu alandaki tutar, vergileri ve masrafları içerir.
 - **İade tutarı**: Müşteri siparişi değişikliği sırasında eksi miktarlar içeren satırların toplam tutarı. Bu alandaki tutar, vergileri ve masrafları içerir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

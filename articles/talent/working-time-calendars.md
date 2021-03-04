@@ -56,3 +56,6 @@ Bir takvim ayarlamak için şu adımları takip edin:
 10. Çalışanlara bir takvim atamak için eylem bölmesinde **Çalışanlara atama**'tı seçin. Bu takvimi atamak istediğiniz çalışanları seçin ve sonra **Ata** üzerine tıklayın.
 
 Çalışanlara takvim atanması gerekli değildir. Bir çalışma zamanı takvimi tanımlanmışsa, off günler otomatik olarak talepten reddedilir. Gün veya saat cinsinden miktar, takvimde tanımlanan çalışma zamanlarına varsayılan olarak ayarlanır. Bir çalışanın atanan bir takvimi yoksa, tüm gün süresinin kullanılabilen için ve talebi varsayılan süre devre dışı değil. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

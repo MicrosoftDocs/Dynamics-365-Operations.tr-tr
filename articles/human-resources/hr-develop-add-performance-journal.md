@@ -54,3 +54,6 @@ Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir d�
 20. Açıklama alanına, "Konferanstaki yardımların için teşekkürler!" girin.
 21. Gönder'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

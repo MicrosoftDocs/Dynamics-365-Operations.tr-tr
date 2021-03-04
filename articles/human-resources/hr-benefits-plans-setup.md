@@ -159,3 +159,6 @@ Kullanılabilir kazançlar dönemlerinin bir listesini görebilirsiniz.
 1. **Sosyal haklar** yönetimi çalışma alanında, **Planlar** altında, **kazanç planları**'nı seçin.
 
 2. **Esnek kredi programları**'nı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

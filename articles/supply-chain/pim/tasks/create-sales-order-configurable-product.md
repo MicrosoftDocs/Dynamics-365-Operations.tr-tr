@@ -53,3 +53,6 @@ Bu yordam bir yapılandırma şablonunun satış siparişindeki bir ürüne nas�
 
 ## <a name="select-the-product-configuration"></a>Ürün yapılandırmasını seçme
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

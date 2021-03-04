@@ -72,3 +72,6 @@ Bir servis siparişi için servis nesnesi ilişkisi oluşturmak üzere aşağıd
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

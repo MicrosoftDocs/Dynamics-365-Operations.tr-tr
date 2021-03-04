@@ -78,3 +78,6 @@ Servis kapsamındaki parça ilişkisini kullanarak Ürün Reçetesi Tasarımcıs
 
 Servis sözleşmesi için otomatik olarak servis siparişleri oluşturursanız sözleşmedeki servis nesnesi ilişkileri de servis siparişlerinde oluşturulur.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

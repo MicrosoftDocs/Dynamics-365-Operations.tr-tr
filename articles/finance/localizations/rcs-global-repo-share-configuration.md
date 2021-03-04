@@ -75,3 +75,6 @@ Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş ta
 ![Harici bir kuruluşla paylaşılan yapılandırma](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Daha önce harici bir kuruluşla paylaşılan bir yapılandırmanın paylaşımını kaldırmak için yapılandırmayı seçin ve **Paylaşımı kaldır**'ı, ardından **Tamam**'ı seçin
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

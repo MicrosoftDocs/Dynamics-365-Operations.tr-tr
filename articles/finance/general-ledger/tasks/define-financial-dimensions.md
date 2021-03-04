@@ -55,3 +55,6 @@ Bu görev kılavuzu, varlığa dayalı bir mali boyutun ve özel bir mali boyutu
 9. **Boyut değeri** alanında, mali boyut değerinizi tanımlamak için bir ad girin.
 10. **Açıklama** alanına, mali boyut değerinizi tanımlayan bir açıklama yazın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

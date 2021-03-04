@@ -126,3 +126,6 @@ Uluslararası Banka Hesap Numarası (IBAN) ve Banka Tanımlayıcı Kodu (BIC), b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

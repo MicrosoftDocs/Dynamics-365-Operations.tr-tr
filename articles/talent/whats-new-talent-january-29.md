@@ -41,3 +41,6 @@ Müşterilerin, çalışanların hizmet aylarının etkin olduğunu belirlemeler
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Çalışan işe alma işlemleri "İş akışı tamamlandı" durumunda takıldı
 Az sayıda iş akışının "İş akışı tamamlandı" durumu ile sonlandırılmış olduğu bir hatayı düzeltmek için değişiklikler yapıldı. Yeni iş akışları şimdi bir iş akışı tamamlandığında "Tamamlandı" durumuna geçecektir. Bir iş akışı tamamlandı durumu içindeki tüm iş akışları, gerektiği taktirde güncelleştirme veya kaldırılması için bir hata durumuna geçirilecektir. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

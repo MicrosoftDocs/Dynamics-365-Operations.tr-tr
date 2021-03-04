@@ -45,3 +45,6 @@ Sabit bir varlığı, varlığın elde edildiği dönemden sonraki mali dönemde
 Orijinal varlık için amortisman tutarı 1.822,25 ABD dolarıdır. Bu tutar, bölünme hareketi deftere nakledilmeden önceki NDD (9.111,25 ABD doları), artı bölünme hareketinin deftere nakli sırasında oluşan alım düzeltme (-8.000 ABD doları), artı bölünme hareketi sırasında oluşan amortisman düzeltme (711 ABD doları) sonucuna eşittir. Bu nedenle, ikinci yılın amortismanı (1.822,25 × yüzde 18) ÷ 12 = 27,33 ABD dolarıdır.
 
 İlk yılda yeni sabit varlığın amortisman tutarı (8.000 × yüzde 18) ÷ 12 = 120 ABD dolarıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

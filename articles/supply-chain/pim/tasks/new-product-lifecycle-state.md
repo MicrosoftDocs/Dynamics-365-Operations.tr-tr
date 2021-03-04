@@ -35,3 +35,6 @@ Bu prosedürde yeni bir ürün yaşam döngüsü durumunun nasıl oluşturulaca�
 3. Durum alanına bir değer yazın.
 4. Açıklama alanına bir değer girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

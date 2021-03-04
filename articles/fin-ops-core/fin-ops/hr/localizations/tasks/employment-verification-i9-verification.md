@@ -54,3 +54,6 @@ Göçmenlik Reform ve Kontrol Yasası ABD'li işverenlerin yeni işe alınan per
 22. Belge numarası alanına bir değer girin veya buradan bir değer seçin.
 23. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

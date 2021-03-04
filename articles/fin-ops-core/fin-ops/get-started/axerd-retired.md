@@ -35,3 +35,6 @@ HTML sayfaları [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxEr
 Kendi ERD'lerinizi oluşturma işlemi [https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm](https://github.com/Microsoft/ax-2012-doc-tools/blob/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Help-HowToUse-AxErd.htm) adresinde açıklanmaktadır.
 
 Çözüm, AxErd klasörünün [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd) kökündedir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

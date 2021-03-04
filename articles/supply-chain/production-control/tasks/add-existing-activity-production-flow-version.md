@@ -56,3 +56,6 @@ Bu görev, önceden oluşturulmuş sürüme ve faaliyetlere sahip üretim akış
 3. Faaliyet alanına bir değer girin veya buradan bir değer seçin.
 4. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

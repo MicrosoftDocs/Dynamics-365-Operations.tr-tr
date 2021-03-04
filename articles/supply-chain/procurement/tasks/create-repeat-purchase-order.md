@@ -70,3 +70,6 @@ Siparişin tamamını kopyalamak yerine yeni bir PO oluşturmak, PO başlığın
 4. İstenen satınalma emri için satırı seçin. Bu PO üzerinde tek sipariş satırının da seçildiğine dikkat edin.  
 5. **Tamam**'ı seçin. Ek sipariş satırı satınalma siparişinize eklendi.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

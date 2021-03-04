@@ -46,3 +46,6 @@ ms.locfileid: "4438999"
 8. Kapasite eksikliğine tepki alanında bir seçenek belirtin.
     * Seçenekler şunlardır:   Erteleme - Etkinliği zamanlamaya ilişkin tam talebi uygun bir iş çıkarma yeteneğinin olduğu sonraki uygun bir üretim gününe erteleyin. İptal etme - Etkinliği zamanlamaya ilişkin otomatik zamanlamayı sonlandırın ve planlanmamış ilgili işleri olduğu gibi bırakın.   İstenen güne ekleme - İstenen işleri istenen bir dönemde yapılacak şekilde planlayın. Bu, hücreyi bu gün için aşırı yükler ve planlayıcının gözden geçirmesini ve el ile etkili etkileşime girmesini gerektirir.   Kullanılabilir dönemlere dağıt - Planlama etkinliğinin farklı işlerini tüm kullanılabilir üretim günlerine dağıt, kullanılabilir ilk günden başlayarak. Minimum dağıtım miktarı kanban iş miktarıdır. Dağıtım, minimum planlama miktarını (kanban miktarı) yeterince uygun iş çıkarma yeteneği olan her bir güne atar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

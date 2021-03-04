@@ -54,3 +54,6 @@ Hala kapatılması gereken tutar çok küçük ise bir kısmi ödeme gerçekleş
 
 
 Daha fazla bilgi için bkz. [Satıcı ödeme genel bakışı](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

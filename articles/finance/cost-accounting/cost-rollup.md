@@ -301,3 +301,6 @@ Kuruluşunuzdaki raporlama ve izlenebilirlik gereksinimlerine bağlı olarak, ik
 -  [Maliyet öğesi boyutları](cost-elements.md)
 -  [Boyut hiyerarşisi](dimension-hierarchy.md)
 -  [Genel gider hesaplaması](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

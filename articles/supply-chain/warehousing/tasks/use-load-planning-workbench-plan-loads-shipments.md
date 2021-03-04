@@ -61,3 +61,6 @@ Bu konuda yük planlama çalışma alanını, bir satış siparişi için bir y�
 5. **Ata**'yı seçin.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

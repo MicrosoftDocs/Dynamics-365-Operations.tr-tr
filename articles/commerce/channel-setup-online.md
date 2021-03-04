@@ -134,3 +134,6 @@ Aşağıdaki resimde, bir karşılama grubu ataması kurulum örneği gösterilm
 [Çağrı merkezi kanalını ayarlama](channel-setup-callcenter.md)
 
 [Adyen için Dynamics 365 Ödeme Bağlayıcısı](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

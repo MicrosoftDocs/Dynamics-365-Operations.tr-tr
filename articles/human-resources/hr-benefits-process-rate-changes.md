@@ -48,3 +48,6 @@ Yeni veya mevcut bir avantaj planının uygunluk kuralı ayarlarında bir deği�
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

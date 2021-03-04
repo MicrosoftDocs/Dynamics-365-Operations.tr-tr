@@ -77,3 +77,6 @@ Bu kavramların açıklamaları için bkz. [Tahsilat yönetimi temel kavramları
 [Satış siparişleri için askıda krediler](./cm-sales-order-credit-holds.md)
 
 [Müşteri kredi yönetimi periyodik görevleri](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

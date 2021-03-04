@@ -95,3 +95,6 @@ Ancak, daha önce belirtildiği gibi **tek çalışan** seçeneğiyle bir aygıt
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [İş kartı cihazından tamamlandı olarak bildirme](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

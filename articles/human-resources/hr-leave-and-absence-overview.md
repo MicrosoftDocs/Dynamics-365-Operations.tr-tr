@@ -54,3 +54,6 @@ Dynamics 365 Human Resources, çalışanlarınız için harika yararlar sağlama
 [İzin isteme](hr-employee-self-service-request-time-off.md)
 [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

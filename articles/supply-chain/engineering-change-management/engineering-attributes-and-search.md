@@ -94,3 +94,6 @@ Bir mühendislik ürünü oluşturmak için **Serbest bırakılan ürünler** sa
 Mühendislik öznitelikleri değerlerini arayarak ürünleri bulmak için mühendislik özniteliği aramasını kullanabilirsiniz. Böylece, mühendislik ürünlerini özelliklerine göre kolayca bulabilirsiniz. Mühendislik ürünü kategorisine ait ürünlerde arama yapabilir veya tüm mühendislik ürünlerinde arama yapabilirsiniz.
 
 Arama, ürün ana veri sayfalarında ve satış siparişleri gibi sistemdeki işlem kalemlerinde kullanılabilir. Bir işlem öğesinde, bir ürünü aramak için **Mühendislik özniteliği arama** sayfasını kullanabilirsiniz. Daha sonra ürünü satış siparişi satırlarına eklemek için **Yeni satır olarak ekle** düğmesini kullanabilirsiniz. Arama sonuçlarındaki ürünler de doğrudan siparişe eklenebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

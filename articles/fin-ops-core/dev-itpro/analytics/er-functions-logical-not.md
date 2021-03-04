@@ -55,3 +55,6 @@ Sonuç *Boole* değeri.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mantıksal işlevler](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

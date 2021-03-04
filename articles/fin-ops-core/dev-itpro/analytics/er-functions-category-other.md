@@ -55,3 +55,6 @@ Elektronik raporlama (ER) etki alanına özel işlevler, Microsoft Dynamics 365 
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Elektronik raporlamada formül dili](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

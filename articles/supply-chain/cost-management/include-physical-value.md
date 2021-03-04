@@ -60,3 +60,6 @@ Bir satış siparişi nakledildiğinde, cari ortalama maliyet fiyatı fiziksel o
 
 > [!NOTE]
 > Karşılaştırma amacıyla, bu madde için **Fiziksel değeri dahil et** onay kutusunu işaretlerseniz bir satış siparişi deftere nakledildiğinde nakledilen maliyet tutarı 12,00 ABD Doları olacaktır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

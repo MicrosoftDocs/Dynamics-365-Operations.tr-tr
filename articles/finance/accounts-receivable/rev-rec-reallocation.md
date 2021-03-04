@@ -114,3 +114,6 @@ Aşağıdaki konu başlıklarında gelir kabulü için çeşitli senaryolar ele 
 - [Gelir kabulü yeniden tahsisatı - Senaryo 2](rev-rec-reallocation-scenario-2.md): İki satış siparişi girilir ve ardından müşteri ilk satış siparişi faturalandıktan sonra sözleşmeye bir madde ekler.
 - [Gelir kabulü yeniden tahsisatı - Senaryo 3](rev-rec-reallocation-scenario-3.md): Mevcut, faturalanan bir satış siparişine yeni bir satır eklenir.
 - [Gelir kabulü yeniden tahsisatı - Senaryo 4](rev-rec-reallocation-scenario-4.md): Mevcut, kısmen faturalanan satış siparişinden bir satır kaldırılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

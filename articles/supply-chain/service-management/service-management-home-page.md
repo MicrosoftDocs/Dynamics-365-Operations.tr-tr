@@ -71,3 +71,6 @@ Servis yönetimi aşağıdaki modüllerle tümleştirilebilir:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

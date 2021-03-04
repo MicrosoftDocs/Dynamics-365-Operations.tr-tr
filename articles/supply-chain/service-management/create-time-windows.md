@@ -40,3 +40,6 @@ Servis siparişi satırlarının planlamasını en iyi duruma getirmek için zam
 ## <a name="related-topics"></a>İlgili konular
 
 [Zaman aralıkları](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

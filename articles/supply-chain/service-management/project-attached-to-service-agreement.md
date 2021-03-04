@@ -37,3 +37,6 @@ Tüm servis siparişi hareketlerini, servis anlaşmasına iliştirdiğiniz proje
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

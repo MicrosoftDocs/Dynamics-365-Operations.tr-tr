@@ -69,3 +69,6 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | İçerik | Tanım  | Biçim  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 Temel Bilgileri](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Microsoft Dynamics 365, Power Platform, bulut kavramları, lisanslama seçenekleri ile dağıtım ve sürüm seçeneklerini bildiğinizi kanıtlayın. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

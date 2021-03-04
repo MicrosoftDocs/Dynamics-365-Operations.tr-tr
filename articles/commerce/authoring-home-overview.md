@@ -122,3 +122,6 @@ Geliştirme aracı yüklendikten sonra, yazma sayfasına dönmek için **Giriş*
 [Siteniz için arama motoru optimizasyonu (SEO) konuları](search-engine-optimization-considerations.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

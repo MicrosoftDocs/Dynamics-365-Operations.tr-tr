@@ -108,3 +108,6 @@ Satıcı ödemelerinde, ödemenin tüzel kişiliğindeki vade sonu ve vade başl
 
 ## <a name="withholding-tax"></a>Stopaj vergisi
 Fatura ile ilişkili satıcı hesabı stopaj vergisinin hesaplanmasının gerekip gerekmediğini belirlemek için kullanılır. Stopaj vergisi varsa, faturayla ilişkilendirilmiş tüzel kişilikte hesaplanır. Tüzel kişilikler farklı para birimleri kullanıyorsa fatura ile ilişkilendirilmiş tüzel kişiliğin döviz kuru kullanılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

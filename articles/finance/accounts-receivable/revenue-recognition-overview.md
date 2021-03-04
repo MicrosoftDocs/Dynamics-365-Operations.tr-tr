@@ -55,3 +55,6 @@ Satış siparişi onaylandığında, herhangi bir satış siparişi satırı bir
 Gelir kabulü planının ayrıntıları her satış siparişi satırı için korunur. Bu nedenle, gelir kabulü yöneticisi ayrıntıları görebilir ve sözleşme yükümlülüğü yerine getirildiğinde satırları gelir için serbest bırakabilir. Her dönemin sonunda, gelir kabulü yöneticisi, vadesi tanımladığı tarihte veya öncesinde olan plan satırlarını serbest bırakmak için bir gelir günlüğü oluşturabilir. Bu gelir günlüğü hemen deftere nakledilemez. Bu nedenle, gelir kabulü yöneticisi ertelenen gelirden fiili gelire doğru tutarların serbest bırakıldığını doğrulayabilir.
 
 Sözleşmedeki bir değişiklik var olan satış siparişine veya yeni satış siparişine yeni bir satış siparişi satırı eklenmesine neden olursa satış siparişlerindeki tüm satırlarda gelir fiyatını düzeltmek amacıyla bir yeniden tahsisat işlemi çalıştırılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Bir sabit kıymet numarasını Excel eklentisinin şablonunda veya veri yönetim
 
 > [!WARNING]
 > Hareketler ilişkili deftere nakledilirse veya yeni oluşturulan sabit varlık günlük satırına girilir ancak deftere nakledilmezse sabit varlık kaydı silinmez. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

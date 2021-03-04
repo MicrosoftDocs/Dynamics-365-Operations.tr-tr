@@ -66,3 +66,6 @@ Bu yordam, malzemelerin aktarmak için bir çekme kanban işini yürütmek üzer
 2. Tamamla öğesine tıklayın.
     * Bu her iki işin transferini tamamlayacaktır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

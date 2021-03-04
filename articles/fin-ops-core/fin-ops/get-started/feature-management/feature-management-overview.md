@@ -203,3 +203,6 @@ IFeatureLifecycle, özellik yaşam döngüsü aşamasını gösteren bir Microso
 - PublicPreview - Varsayılan olarak gösterilir ancak özelliğin önizlemede olduğunu belirten bir uyarı görüntülenir.
 - Serbest bırakıldı - Tamamen serbest bırakıldı.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

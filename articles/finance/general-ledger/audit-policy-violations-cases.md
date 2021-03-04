@@ -61,3 +61,6 @@ Daha fazla bilgi için bkz: [Denetim İlkesi kuralları](audit-policy-rules.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

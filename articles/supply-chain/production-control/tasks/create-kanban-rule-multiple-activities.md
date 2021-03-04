@@ -59,3 +59,6 @@ Bu yordam, bir üretim akışından birden fazla faaliyeti içeren bir kanban ku
     * Kanbanın, üretim akışından iki işlem işi olduğuna dikkat edin. Birincisi SpeakerAssemblyAndPolish ve ikincisi de SpeakerTestAndPackaging öğeleridir.  
     * Bu son adımdır!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

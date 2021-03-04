@@ -91,3 +91,6 @@ Sorun yine de düzeltilmemişse, aşağıdaki adımları izleyin.
 4. Finance and Operations uygulamasındaki **Çift yazma** sayfasından **Tablo eşleme** sayfasını açın.
 5. Öznitelik eşlemede otomatik olarak doldurulmamışsa, **Öznitelik ekle** düğmesine ve sonra **Kaydet**'e tıklayarak el ile ekleyin. 
 6. Eşlemeyi seçin **Çalıştır**'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı se�
 4. Ölçütler alanında Müşteri grubu 10'u seçin. 
 5. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

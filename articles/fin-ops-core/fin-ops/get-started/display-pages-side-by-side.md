@@ -48,3 +48,6 @@ Bazı sayfalarda Kılavuz görünümü, Başlık görünümü ve Ayrıntı gör�
 **Yeni pencerede aç** özelliği yalnızca pencerede birden fazla sayfa açık olduğu zaman kullanılabilir. Ayrıca, açılır pencere, artık sayfada açık sayfa kalmadığı zaman (yani penceredeki son sayfa kapatıldığında) otomatik olarak kapanır. Uygulamada başka bir alana gittiğinizde sistem de açık sayfaları kapatır. Bu nedenle, açık açılır pencereleriniz varsa ve uygulamada başka bir alana giderseniz, bu pencerelerdeki sayfalar sistem tarafından kapatılacağı için, açılır pencereler otomatik olarak kapanır.
 
 Açılır pencerelerin üst çubuğunda, sayfanın salt okunur olarak açıldığı şirket hakkında bilgiler görüntülenir. Açılır pencereler de ana tarayıcı penceresine bağlıdır. Ana pencere kapatılır veya yenilenirse, açık tüm açılır pencereler salt okunur duruma geçer. Bu durum gerçekleşirse bu pencerelerde bilgileri görüntülemeye devam edebilirsiniz ancak onlarla etkileşime giremezsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

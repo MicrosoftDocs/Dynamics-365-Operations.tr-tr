@@ -102,3 +102,6 @@ Bir işi Broadbean'e ilan vermekte zorluk çekiyorsanız şu adımları deneyin.
 [Attract'te iş oluşturma, onaylama ve yayımlama](./creating-jobs-attract.md)
 
 [Microsoft Dynamics 365 Talent - Attract'te Broadbean tümleştirmesini etkinleştirme](./attract-admin-job-board-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

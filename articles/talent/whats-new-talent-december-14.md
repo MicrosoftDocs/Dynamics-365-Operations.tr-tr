@@ -151,3 +151,6 @@ Güncelleştirilmiş eşlemeler aşağıdaki resimlerdeki gibi görünmelidir.
 ![Çalışana Çalışanlar görevi](./media/WorkerMapping.png)
 
 ![Cinsiyet alanı dönüştürme](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

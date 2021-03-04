@@ -58,3 +58,6 @@ Bu yordam, günlükler için gelişmiş kurallar oluşturmayı adım adım açı
 4. Ağaçta, 'Bu günlük adı için deftere nakile izin vermek istediğiniz grup' öğesini işaretleyin.
 5. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

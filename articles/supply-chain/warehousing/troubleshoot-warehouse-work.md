@@ -50,3 +50,6 @@ Ambar uygulaması, hareketleri oluşturmak için kullanıldığında **Sahip** i
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu tespit etmiştir. Şu anda, ambar yönetimi işlemleri yalnızca tüzel kişiliklerin sahip olduğu stokları destekler.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

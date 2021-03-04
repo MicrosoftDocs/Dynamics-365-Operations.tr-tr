@@ -69,3 +69,6 @@ Bu sayfa çağrı merkezi özelliklerinin kurulumu, yapılandırması ve işlevs
 ## <a name="configure-continuity-programs"></a>Süreklilik programlarını yapılandırma
 
 [Çağrı merkezleri için süreklilik programları ayarlama](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

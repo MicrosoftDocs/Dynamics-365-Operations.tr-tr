@@ -331,3 +331,6 @@ Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

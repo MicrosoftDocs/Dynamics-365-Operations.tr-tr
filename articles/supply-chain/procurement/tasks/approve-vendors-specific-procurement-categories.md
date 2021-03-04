@@ -44,3 +44,6 @@ Bu konu, Dynamics 365 Supply Chain Management'ta belirli tedarik kategorileri i�
 13. **Ana kategoriden satıcıları devral:** alanından **Hayır**'ı seçin.
 14. **Ana kategoriden satıcıları devral:** alanından **Evet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

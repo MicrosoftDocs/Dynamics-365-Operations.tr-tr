@@ -73,3 +73,6 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 
 Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında daha fazla bilgi edinmek için [Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

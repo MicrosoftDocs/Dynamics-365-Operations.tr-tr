@@ -104,3 +104,6 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

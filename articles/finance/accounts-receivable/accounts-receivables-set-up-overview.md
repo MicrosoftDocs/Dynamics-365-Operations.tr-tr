@@ -110,3 +110,6 @@ Daha fazla bilgi için bkz. [Alacak hesaplarındaki borç ve alacaklar](collecti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

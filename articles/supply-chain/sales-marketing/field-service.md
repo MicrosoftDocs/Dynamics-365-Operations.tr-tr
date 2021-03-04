@@ -85,3 +85,6 @@ Field Service tümleştirme çözümünü kullanmak için aşağıdaki bileşenl
 - Field Service (sürüm 8.2.0.286) veya sonraki sürüm Dynamics 365 9.1.x üzerinde - Kasım 2018'de yayımlandı
 - Dynamics 365, sürüm 1.15.0.1 veya üstü sürüm için Müşteri Adayından Nakde (P2C) çözümü. Çözüm [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3) üzerinden indirilebilir.
 - 'Field Service Tümleştirmesi, Proje ve Stok' çözümü, Dynamics 365, sürüm 2.0.0.0 veya sonraki bir sürüm için. Çözüm [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2) üzerinden indirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

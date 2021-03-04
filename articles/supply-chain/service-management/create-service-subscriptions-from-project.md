@@ -55,3 +55,6 @@ Artık abonelik için abonelik hareketlerini oluşturabilirsiniz.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Yalın imalat için bir işlem faaliyeti oluşturun.
 12. Son düğmesini tıklatın.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Bu konu, yeni bir kiralama oluşturulduğunda çalışacak bir onay iş akışı
 14. **İş akışı oluştur** sayfasında **Kapat**'ı seçin.
 14. Yeni iş akışını seçin ve ardından **Sürümler**'i seçin. İş akışının etkin olmasını sağlamak için **Etkinleştir**'i seçin.
 15. **Kapat**'ı seçin. Yeni etkin sürüm görüntülenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Ticari olarak giriş sayfanızın içeriğini taramak ve doğrulamak amacıyla t
 [Ürün sayfasını zenginleştirme](enrich-product-page.md)
 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

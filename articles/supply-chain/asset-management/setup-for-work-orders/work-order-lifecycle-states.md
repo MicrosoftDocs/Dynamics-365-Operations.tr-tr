@@ -139,3 +139,6 @@ Aşağıdaki şekil iş emri türleri, yaşam döngüsü modelleri ve yaşam dö
 9. İş emri yaşam döngüsü modelini kaydedin.
 
 ![İş emri yaşam döngüsü modelleri sayfası](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

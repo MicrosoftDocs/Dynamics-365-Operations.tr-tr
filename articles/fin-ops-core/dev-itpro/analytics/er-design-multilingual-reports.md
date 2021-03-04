@@ -210,3 +210,6 @@ Bu konuda daha önce de anlatıldığı gibi, her [modelin](#LinkModelEnum) **Et
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Elektronik Raporlama işlevleri](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

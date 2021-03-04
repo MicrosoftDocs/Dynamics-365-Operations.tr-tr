@@ -53,3 +53,6 @@ Kullanıcılar Sales'da bir teklif başlattıklarında çift yazma çerçevesi t
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Çift yazmada aday müşteriden nakde](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

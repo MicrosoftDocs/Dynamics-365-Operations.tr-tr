@@ -47,3 +47,6 @@ Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanac
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

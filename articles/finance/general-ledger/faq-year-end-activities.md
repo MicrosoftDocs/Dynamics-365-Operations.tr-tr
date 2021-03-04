@@ -137,3 +137,6 @@ Dynamics 365 Finance 1096 Yıllık Özeti'ni ve ABD Bilgi Beyannamelerinin İlet
 Kamu sektörüne yönelik **1099 bilgilerini ana hesaba göre güncelleştir** adlı yeni bir özellik eklenmiştir. Özelliği, **Özellik yönetimi** çalışma alanından etkinleştirebilirsiniz. Bu özellik, satıcının 1099 değerlerini satıcı kaydındaki varsayılan hesap yerine, muhasebe dağılımındaki ana hesaba göre ilişkilendirmenize olanak tanır.
 
 Daha fazla bilgi için bkz. [1099 raporlamasına ilişkin satıcıları ayarlama](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

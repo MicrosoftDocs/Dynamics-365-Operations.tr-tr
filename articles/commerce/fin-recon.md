@@ -62,3 +62,6 @@ Trickle besleme ekstre deftere nakli kullanıldığında, hareketlerin deftere n
 Bir vardiya için mali mutabakat ayrıntıları, P-iş kullanılarak Commerce Headquarters ile eşitlenir.
 
 Commerce Headquarters 'daki mali tablolar ekstre satırlarındaki ayrıntıları göstermek için toplamları hesaplamaz. Bunun yerine, POS istemcisindeki son tutarlar mali satış ekstrelerini oluşturmak ve nakletmek için kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

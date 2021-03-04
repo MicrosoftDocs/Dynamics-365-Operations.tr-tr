@@ -113,3 +113,6 @@ Yapılandırılan ER biçiminin gelen hizmet yanıtlarını nasıl ayrıştırac
     * Göz at'ı seçin ve Response4.xml dosyasını seçin.
 16. Tamam'ı seçin.
     * Ortaya çıkan sonucu inceleyin. Yanıt türü, artık doğru şekilde Response1.xml dosyasının eşiti olarak tanınır.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki 
 | Hatalar                              | Seçili işlem yapılacak yerleşimle ilgili varlık arıza kayıtları listesini görüntüleyebileceğiniz **Varlık hataları** sayfasını açın. |
 | İşlem yapılacak yerleşim durumunu güncelleştir    | Seçili işlem yapılacak yerleşimin aşamasını güncelleştirin.                                                                                        |
 | Yaşam döngüsü durumu günlüğü                 | Seçili işlem yapılacak yerleşimin aşamalarını gösteren günlüğü görüntüleyin.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

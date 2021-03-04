@@ -61,3 +61,6 @@ Commerce site oluşturucuda deneme silmek için aşağıdaki adımları izleyin.
 
 ## <a name="previous-step"></a>Önceki adım
 [Deneme çalıştırma ve izleme](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev 
 13. Listede, istenen kaydı bulun ve seçin. **Seçilen roller**'i bölmesine eklemek üzere birden çok rol seçmek için Shift tuşuna basın ve seçili rolleri eklemek için oka tıklayın.  
 14. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

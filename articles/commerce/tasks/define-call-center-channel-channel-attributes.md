@@ -100,3 +100,6 @@ Bu yordam yeni bir Commerce kanalı oluşturma ve kanal özniteliklerini tanıml
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

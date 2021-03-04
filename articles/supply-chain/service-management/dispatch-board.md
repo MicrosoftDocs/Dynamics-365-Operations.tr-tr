@@ -54,3 +54,6 @@ Gönderme panosunda belirli görevleri gerçekleştirme hakkında bilgi için **
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

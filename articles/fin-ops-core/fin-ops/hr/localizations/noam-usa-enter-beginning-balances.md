@@ -166,3 +166,6 @@ Hareketleri geri almak ve yeniden girmek mümkündür. Hareketleri geri almak i�
 2. "Bu ödeme ekstresini geri çevirdiğinizde, bu ödeme ekstresini dengelemek için bir ters ödeme ekstresi oluşturulacaktır" iletisi üzerinde **Evet**'e tıklayın. Hiçbir ödeme ekstresi düzenlenemez. Bu ödeme ekstresini ters çevirmek istiyor musunuz?" görüntülenir. 
 
 Ödem ekstresini terse çevirdikten sonra, daha önce oluşturmuş olduğunuz kazanç ekstresinden çalışan için yeni bir ödeme ekstresi oluşturabilirsiniz. Yeni ödeme ekstresini oluşturmadan önce kazanç ekstresindeki hatalı satırları düzelttiğinizden emin olun ve sonra doğru tutarlarla yeni ödemeleri oluşturun. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

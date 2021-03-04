@@ -37,3 +37,6 @@ Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabi
 5. Ürün modelini dışa aktar'ı tıklatın.
     * İndirme davranışı, güvenlik ayarlarının nasıl ayarlandığına bağlı olarak tarayıcıdan tarayıcıya değişir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Bununla birlikte, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` belirtilen
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tarih ve saat işlevleri](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

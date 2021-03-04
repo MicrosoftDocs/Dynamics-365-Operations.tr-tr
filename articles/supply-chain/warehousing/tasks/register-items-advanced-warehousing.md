@@ -76,3 +76,6 @@ Oluşturduğunuz satınalma siparişinin numarasınının yanı sıra, satınalm
     * Tamam düğmesine tıkladıktan sonra ileti çubuğunu kontrol edin. İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.  
 5. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

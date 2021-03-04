@@ -80,3 +80,6 @@ Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 - [Satınalma talepleri için iş süreci iş akışları tanımlama](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
 - [Satıcıları işe alma](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

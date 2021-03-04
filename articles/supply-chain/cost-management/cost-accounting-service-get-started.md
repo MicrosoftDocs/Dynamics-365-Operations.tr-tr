@@ -111,3 +111,6 @@ Maliyet muhasebesi hizmeti ve Dynamics 365 Supply Chain Management arasındaki t
 ## <a name="related-resources"></a>İlgili kaynaklar
 
 [Maliyet muhasebesi hizmeti giriş sayfası](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

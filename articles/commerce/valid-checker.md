@@ -78,3 +78,6 @@ Bir doğrulama hatası bulunursa hatayı düzeltmenin tek yolu, Microsoft Deste�
 
 > [!NOTE]
 > Bir sonraki sürümde daha fazla senaryoyu desteklemek için ek doğrulama kuralları da eklenecektir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

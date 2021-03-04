@@ -144,3 +144,6 @@ Satıcı ödeme teklifi için aşağıdaki görevler ve ayrıcalıklar eklendi. 
 | Zamanlama tekrarlarıyla sorgulama | Borç hesapları ödeme memuru, borç hesapları Merkezi ödeme memuru | Bu vergi, aşağıdaki ayrıcalıklar sayesinde ödeme teklifi Otomasyonu oluşumlarını görüntüleme hakkını verir:<ul><li>Çizelge tekrarlamalarını görüntüle</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul> |
 | Zamanlama serisine sorgula      | Hiçbiri                                                                       | Bu vergi, aşağıdaki ayrıcalıklar sayesinde seri ayarlarını ve oluşumlarını görüntüleme hakkını verir:<ul><li>Çizelge tekrarlamalarını görüntüle</li><li>Oluşum listesi sayfasını görüntüle</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul>|
 | Çizelge tekrarlamalarını koru     | Hiçbiri                                                                       | Bu vergi, aşağıdaki ayrıcalıklarla bir oluşumu oluşturma ve bakımını yapma hakkını verir:<ul><li>Çizelge tekrarlamalarını koru</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 34. **Gözden geçirme** sekmesini seçin. Gözden geçirme durumlar arasında ilerledikçe çalışan ve yönetici her bir hedef veya uzmanlık için yorumlar ekleyebilir.  
 35. **Oturum kapatma işlemleri** sekmesini seçin. Çalışan ve yönetici gözden geçirmeyi kapatabilir. Tüm gerekli oturum kapatma işlemleri tamamlandığında durum **Tamamlandı** olarak değişir ve başka değişiklik yapılamaz.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

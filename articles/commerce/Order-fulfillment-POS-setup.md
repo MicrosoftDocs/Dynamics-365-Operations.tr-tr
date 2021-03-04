@@ -131,3 +131,6 @@ Satış noktasında sipariş karşılama, kullanıcının ihtiyacı olanı bulma
 - Oluşturulma tarihi
 - Teslimat tarihi
 - Giriş tarihi
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

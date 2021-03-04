@@ -127,3 +127,6 @@ Renk, Gantt şemasında yalnızca en düşük düzeyde gösterilir. Master planl
 1. Kılavuzda, **Alan** alanının **Madde numarası** olarak ayarlandığı satırı seçin.
 1. **Ölçütler** alanına bir değer girin.
 1. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

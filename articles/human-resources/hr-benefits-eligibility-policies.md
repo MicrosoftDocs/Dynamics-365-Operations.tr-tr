@@ -49,3 +49,6 @@ Kuralın kapsamını politikada tanımlarsınız. Örneğin, **Yönetici** adın
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

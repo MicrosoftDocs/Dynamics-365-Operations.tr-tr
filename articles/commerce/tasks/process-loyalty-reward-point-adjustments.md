@@ -50,3 +50,6 @@ Bu yordam ile, Bağlılık kartı bilgilerini aramak ve bağlılık programı Ö
 15. Kart hareketlerine tıkla.
 16. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

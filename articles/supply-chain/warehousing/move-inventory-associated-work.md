@@ -59,3 +59,6 @@ Rezerve edilmiş stoku taşımasına izin verilecek çalışan için **İlişkil
 Bu özellik Microsoft Dynamics AX 2012 R3'e geri aktarılmıştır ve CU12'nin parçası olarak kullanılabilecektir.
 KB numarası 3192548 ile tek olarak da indirilebilir. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Para birimi kodu isteğe bağlıdır. Boş dize olarak tanımlandığında, çal
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Metin işlevleri](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

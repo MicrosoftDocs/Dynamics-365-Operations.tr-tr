@@ -100,3 +100,6 @@ ms.locfileid: "4420965"
 10. Onaylandı’yı tıklatın.
     * Kayıt onaylandıktan sonra çalışanın resmi ücret kaydına yüklenebilir. Yeni ücret, ücret işleminde ayarlanan hareket tarihi itibariyle geçerli olur.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

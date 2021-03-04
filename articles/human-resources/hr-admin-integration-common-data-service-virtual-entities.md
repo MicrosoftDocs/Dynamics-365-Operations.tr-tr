@@ -216,3 +216,6 @@ Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntül
 [Harici veri kaynağından veri içeren sanal varlıkları oluşturma ve düzenleme](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Power Apps portalları nedir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Power Apps'ta uygulamalar oluşturmaya genel bakış](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -261,3 +261,6 @@ Dört sevkiyat oluşturulmuş olmalıdır:
 
 - [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

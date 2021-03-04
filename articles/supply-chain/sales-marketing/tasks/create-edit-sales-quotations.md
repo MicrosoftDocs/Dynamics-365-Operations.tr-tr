@@ -70,3 +70,6 @@ Bu yordam, bir satış teklifinin nasıl oluşturulacağını ve güncelleştiri
 13. **Satış siparişleri** öğesini tıklayın.
 14. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Müşteriler bir ödeme yaptığında, hala kapatılması gereken çok küçük 
 
 
 Daha fazla bilgi için bkz. [Müşteri ödemlerini havale etme](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

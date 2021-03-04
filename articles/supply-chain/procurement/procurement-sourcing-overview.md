@@ -93,3 +93,6 @@ Faturalanan satınalma siparişleri, borcu borç hesapları içindeki satıcı h
 ## <a name="vendor-performance"></a>Satıcı performansı
 
 Satınalma performansı ve incelemesi, içinde harcama analizinin ve satıcı performans analizinin bulunduğu *tedarik ve borç hesabı raporları* yoluyla desteklenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

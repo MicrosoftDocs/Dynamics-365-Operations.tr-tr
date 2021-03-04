@@ -49,3 +49,6 @@ Bu görev kılavuzu, tahakkuk düzenlerine dayalı genel muhasebe tahakkuk harek
 17. Tamam'a tıklayın.
 18. Deftere Naklet öğesine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

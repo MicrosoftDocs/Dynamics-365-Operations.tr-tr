@@ -232,3 +232,6 @@ Aşağıdaki roller, şu eylemler için ek görüntüleyiciye salt okuma erişim
 + **Borç hesapları memuru** ve **Borç Hesapları yöneticisi** – Bu rollere Satıcı faturalarını koru görevi atanır.
 
 Varsayılan olarak, kullanıcı rolü herhangi bir sayfada düzenleme hakları sağlıyorsa, kullanıcı ek görüntüleyicide de vurgulama, engelleme ve not ekleme eylemleri için düzenleme hakkında sahip olur. Bununla birlikte, belirli bir rolün sayfada düzenleme haklarına sahipken ek görüntüleyicide bu haklara sahip olmaması gereken senaryolar varsa, önceki listedeki uygun ayrıcalıklar bu kullanım örneğini karşılamak üzere kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Kapsama grubu takvimine ilişkin olarak, master planlamada bir geçersiz kılma 
 
 ### <a name="updating-scm-related-calendars"></a>SCM ilgili takvimleri güncelleştirmek
 Tüm ilgili takvimlerin karşılık gelen yerlerde atanmış olması önemliyken (satıcı, müşteri, ambar, teslimat modu veya kapsama grubu), değişiklikleri yansıtmaları için bunları güncelleştirmek de aynı şekilde önemlidir. Sistem üretim, transfer, satın alma ve satış siparişi tarihlerini atanmış takvimlerin kombinasyonuna bağlı olarak tanımlar. Takvimleri karşılık gelen bölgelerinde atamak ve güncelleştirmek için kimin sorumluluğa sahip olduğunu belirtmek en iyi uygulamadır. İş günlerinde bir bozulma veya diğer bir olağandışı değişiklik olması durumunda, takvimleri buna göre güncelleştirmek önemlidir. Takvimlere dayanan tüm görevlerin, örneğin master planlama ve üretim zamanlama gibi, takvimler güncelleştirildikten sonra yeniden çalıştırılması gerekir. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

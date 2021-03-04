@@ -69,3 +69,6 @@ Başlatma tamamlandıktan sonra ek Commerce verilerini yapılandırmanız gereki
 - Commerce kanalları
 - Kayıtlar ve cihazlar
 - Sınıflamalar
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

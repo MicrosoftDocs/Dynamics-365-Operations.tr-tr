@@ -342,3 +342,6 @@ Yapılandırılmış parametreli hesaplanan alanların doğru çalıştığında
 - [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 - [Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Aşağıdaki çizimde, malzeme çekme kalemindeki zaman yuvalarını içeren bir
 [Sipariş onayı modülü](order-confirmation-module.md)
 
 [Sipariş ayrıntıları modülü](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

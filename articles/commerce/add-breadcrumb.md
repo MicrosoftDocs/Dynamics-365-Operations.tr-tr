@@ -95,3 +95,6 @@ Bir PDP'ye içerik haritası modülü eklemek ve gerekli özellikleri ayarlamak 
 [Satın alma kutusu modülü](add-buy-box.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

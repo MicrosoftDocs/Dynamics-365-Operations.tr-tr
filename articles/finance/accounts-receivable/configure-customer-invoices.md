@@ -167,3 +167,6 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

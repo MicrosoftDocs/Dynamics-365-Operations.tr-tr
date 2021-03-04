@@ -46,3 +46,6 @@ Bir günlük girdiğinizde **İşlevler** menüsündeki **Genel muhasebe tahakku
 
 
 Daha fazla bilgi için bkz. [Tahakkuk planları oluşturma](tasks/create-accrual-schemes.md) ve [Genel muhasebe tahakkuk hareketleri oluşturma](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

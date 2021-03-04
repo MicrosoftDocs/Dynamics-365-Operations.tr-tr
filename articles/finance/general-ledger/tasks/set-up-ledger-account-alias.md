@@ -41,3 +41,6 @@ Bu yordam, bir hesap numarası girmek için kısayol sağlayan bir hesap diğer 
 9. Başlatma odağı alanında, diğer adlar kullanıldığında odağa sahip olacak boyutu seçin.
     * Kısayolu girdikten ve hesap ve boyutlar doldurulduktan sonra, Başlatma odağı alanı imlecin veya odağın taşınacağı yerdir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Değer akışları, bir veya birden çok üretim akışını gruplayan faaliyet 
 2. Sayfayı kapatın.
 3. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | 3        | Hedef başlangıç posta kodu | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 5        | Hedef ülke           | Atama | Dize    | Ülke/bölge |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

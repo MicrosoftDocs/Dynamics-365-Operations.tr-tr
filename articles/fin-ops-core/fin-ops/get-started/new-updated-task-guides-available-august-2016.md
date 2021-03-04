@@ -99,3 +99,6 @@ APQC Birleştirilmiş Kitaplık (Ağustos 2016 - tüm diller), Microsoft Dynamic
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

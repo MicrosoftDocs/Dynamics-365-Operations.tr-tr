@@ -109,3 +109,6 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 [Satınalma kutusu modülü](add-buy-box.md)
 
 [Ürün önerilerine genel bakış](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Her bir kambiyo senedi günlüğü için günlük fişi sayfasında, kambiyo sen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

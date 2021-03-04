@@ -101,3 +101,6 @@ Belirli bir denetim ilkesi için ilke kurallarının tümü aynı toplu iş para
 [Kaynak belgeler için denetleme ilkeleri tanımla](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

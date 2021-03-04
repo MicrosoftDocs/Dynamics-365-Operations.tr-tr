@@ -57,3 +57,6 @@ Gelecekteki bir tarihte gerçekleşen ömür olayları olan çalışanlarınız 
    4. **Tamam**'ı seçin. İşlem, ayarladığınız parametrelerle çalışacaktır.
 
 4. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

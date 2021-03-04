@@ -65,3 +65,6 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

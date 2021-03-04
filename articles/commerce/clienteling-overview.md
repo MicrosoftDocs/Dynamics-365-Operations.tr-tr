@@ -124,3 +124,6 @@ Tümleştirmeyi ayarlamak için aşağıdaki adımları izleyin.
     4. Customer Insights'ta test ve üretim ortamları gibi birden çok ortama sahip olabilirsiniz. **Ortam kurulumu kodu** alanına, uygun ortamı girin.
     5. **Alternatif müşteri kodu** alanına, Customer Insights'ta müşteri hesap numarasıyla eşleşen özelliği girin. (Commerce'te müşteri hesap numarası müşteri kodudur.)
     6. Kalan üç özellik, müşteri defterindeki müşteri kartında gösterilecek ölçümlerdir. Müşteri kartında gösterilmek üzere en fazla üç ölçüm seçebilirsiniz. (Ancak herhangi bir ölçüm seçmeniz gerekmez.) Daha önce de belirtildiği gibi sistem önce bu değerleri ve ardından müşteri defteri öznitelik grubunun değerlerini gösterir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

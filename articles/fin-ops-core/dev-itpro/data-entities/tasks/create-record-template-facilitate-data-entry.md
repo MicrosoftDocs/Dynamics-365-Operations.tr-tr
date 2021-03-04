@@ -43,3 +43,6 @@ Bu konu, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık 
 13. **Tamam**'ı seçin.
 14. **Kapat**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

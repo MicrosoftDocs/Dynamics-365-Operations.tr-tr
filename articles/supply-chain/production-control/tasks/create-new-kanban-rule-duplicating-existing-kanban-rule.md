@@ -44,3 +44,6 @@ Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır. V
 3. Tamam'a tıklayın.
     * 000017 kanban kuralının bir kopyasının oluşturulduğunu unutmayın.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

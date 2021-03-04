@@ -35,3 +35,6 @@ Talent, kuruluşunuzun ihtiyacı olan becerilere sahip adayları belirlemenize, 
 > [!IMPORTANT]
 > Dynamics 365 Talent: Core HR'deki işlevler şimdi Dynamics 365 Human Resources uygulamasının bir parçasıdır. Human Resources belgelerine [Dynamics 365 Human Resources'a hoş geldiniz](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome) bölümünden ulaşabilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

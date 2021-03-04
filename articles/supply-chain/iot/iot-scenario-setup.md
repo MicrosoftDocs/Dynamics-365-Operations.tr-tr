@@ -143,3 +143,6 @@ Senaryoyu devre dışı bırakmak için şu adımları izleyin.
 2. Senaryonun kutusundan **Yapılandır**'ı seçin.
 3. Son sihirbaz sayfasına gitmek için **İleri**'yi seçin.
 4. Profili devre dışı bırakmak için seçeneği ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

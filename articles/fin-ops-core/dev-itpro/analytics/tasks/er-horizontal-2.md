@@ -51,3 +51,6 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 8. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Yeni oluşturulan Excel dosyasının mali boyutlar için seçilen ile aynı sayıda sütun içerdiğini unutmayın. Bu sütunlardaki rapor başlığı mali boyutların adlarını temsil eder. Bu sütunlardaki hareketlerin satırları mali boyutları temsil eder. Bu raporu çalıştırın ve raporun seçili boyutların sayısına veya bu kurulum için yapılandırılmış boyutların sayısına bağlı olmadığını görmek için farklı boyutlar seçin.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

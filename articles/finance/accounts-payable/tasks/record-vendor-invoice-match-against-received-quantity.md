@@ -65,3 +65,6 @@ Bu yordam, USMF demo şirketini kullanır. Bu adımları borç hesapları yönet
 10. Eylem Bölmesinde, Gözden geçir öğesine tıklayın.
 11. Eşleşme ayrıntıları öğesine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

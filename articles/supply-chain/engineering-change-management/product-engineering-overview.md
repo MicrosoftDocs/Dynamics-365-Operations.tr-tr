@@ -59,3 +59,6 @@ Sonra, aşağıdaki adımları izleyerek **Mühendislik değişikliği Yönetimi
 1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
 1. **Ticaret** düğümünü genişletin ve **Mühendislik Değişikliği Yönetimi** onay kutusunu işaretleyin.
 1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

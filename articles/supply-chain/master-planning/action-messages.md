@@ -53,3 +53,6 @@ Bir öğeye eklediğiniz bir karşılama grubu için eylem iletilerinin nasıl h
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenle
 
 - Dynamics 365 Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm.
 - Dynamics 365 Sales, sürüm 1.15.0.0 veya üstü sürüm için Müşteri Adayından nakde çözümü. Çözüm AppSource'tan indirilebilir. [Download Dynamics 365, Aday Müşteriden Nakde](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

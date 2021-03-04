@@ -80,3 +80,6 @@ Attract'te yapılan tüm proje deftere nakilleri sınırlı listelerdir. LinkedI
 [LinkedIn Recruiter ile aday kaynağı bulma](./attract-linkedin-recruiter.md)
 
 [LinkedIn ile tümleştirme sorun giderme](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

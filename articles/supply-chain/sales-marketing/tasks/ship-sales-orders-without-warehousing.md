@@ -56,3 +56,6 @@ Bu konu, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl
 19. Eylem Bölmesinde, **Çek ve paketle**  öğesine tıklayın.
 20. **Sevk irsaliyesi**'ni seçin. **Sevk irsaliyesi günlüğü** sayfası, siparişiniz için oluşturulan tüm sevk irsaliyesi belgelerini içerir. Her belgenin ayrıntılarını gözden geçirebilir ve isterseniz bunları yazdırabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

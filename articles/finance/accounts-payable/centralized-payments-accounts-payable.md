@@ -301,3 +301,6 @@ Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ö
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

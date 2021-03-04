@@ -96,3 +96,6 @@ Hesap yönetimi modülleri ve bunların nasıl yazılacağıyla ilgili daha fazl
 
 [Sepet ve ödeme sayfalarına genel bakış](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

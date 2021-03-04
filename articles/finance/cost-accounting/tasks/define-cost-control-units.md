@@ -41,3 +41,6 @@ Bu yordam, maliyet kontrol birimlerini maliyet muhasebesi defterinde tanımlamay
 10. Boyut alanına bir değer girin veya buradan bir değer seçin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

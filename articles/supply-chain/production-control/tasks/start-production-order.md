@@ -71,3 +71,6 @@ Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir. 
 7. Deftere Naklet öğesine tıklayın.
 8. Tamam'a tıklayın.
     * Tekil operasyonlar için harcanan zaman rota kartı günlüğünde kaydedilir. İyi ve hata miktarı da bildirilebilir.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Microsoft Forms'da yazarlar, kurum dışındaki kullanıcıların anket veya tes
 > Tümleştirilmiş Teklif Yönetimi Uygulaması, yalnızca Kapsamlı işe alım eklentisinde kullanılabilir. Daha fazla bilgi için bkz. [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](./attract-comprehensive-hiring.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

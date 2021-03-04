@@ -54,3 +54,6 @@ Toplu iş, otomatik işlem için bir Uygulama Nesne Sunucusu (AOS) kurulumuna g�
     - **Stopaj**: Toplu işi **stopaj** olarak ayarlayın, böylece toplu iş planlayıcısından kesilir. *Durdur* ile eşdeğerdir.
     - **Bekliyor**: Toplu işi **bekliyor** olarak ayarlayın, böylece toplu iş planlayıcısı tarafından alınmayı bekler. *Git* ile eşdeğerdir.
 5. **Tamam**'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

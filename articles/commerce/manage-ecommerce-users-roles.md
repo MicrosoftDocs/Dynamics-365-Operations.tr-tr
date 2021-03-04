@@ -71,3 +71,6 @@ Siteniz oluşturulduktan sonra, yalnızca **Sistem Yöneticisi** ve **Yönetici*
 [Siteniz için arama motoru optimizasyonu (SEO) konuları](search-engine-optimization-considerations.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

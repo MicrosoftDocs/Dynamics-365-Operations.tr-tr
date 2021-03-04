@@ -89,3 +89,6 @@ Bu durumda, madde numarasının COMP'un eldeki iki parçası değerlendirilir. F
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

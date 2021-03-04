@@ -42,3 +42,5 @@ Yararlar sunan her organizasyon için, kazançlar onayı e-postaları ayarların
    | **Gönderenin varsayılan e-posta adresi** | Onay e-postası gönderilirken kullanılacak e-posta adresi. |
 
 3. **Kaydet**'i seçin.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

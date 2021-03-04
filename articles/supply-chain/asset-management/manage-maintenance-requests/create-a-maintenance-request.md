@@ -74,3 +74,6 @@ Ayrıntılar görünümünde, çeşitli bilgileri güncelleştirebilirsiniz. Bur
 
 > [!NOTE]
 > Bir bakım talebi oluşturduğunuzda bir varlık seçerseniz varlığa bir hata ekleyebilirsiniz. Bakım talebi oluşturulduktan sonra ihtiyacınız olursa daha fazla hata ekleyebilirsiniz. Hata eklemek için **Tüm bakım talepleri** sayfasından **Varlık hatası**'nı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

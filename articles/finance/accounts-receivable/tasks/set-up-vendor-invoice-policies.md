@@ -73,3 +73,6 @@ Bu konuda, satıcı fatura ilkelerinin nasıl ayarlanacağını açıklanmaktad�
 16. **Tamam**'ı seçin.
 17. Ana sayfaya dönmek için sayfaları kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

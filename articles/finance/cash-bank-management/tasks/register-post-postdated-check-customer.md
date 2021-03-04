@@ -50,3 +50,6 @@ Bir müşteriden alınan bir vadeli çekin ayrıntılarını kaydedebilirsiniz. 
 15. Deftere Naklet öğesine tıklayın.
 16. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

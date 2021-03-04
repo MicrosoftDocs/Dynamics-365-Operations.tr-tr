@@ -146,3 +146,6 @@ Elde edilen çıktı aşağıdaki gibidir.
 | IA0001 | 1 | 2 | 2 |
 
 **Filtreler** bölmesindeki ayarların, bu bölümün başlangıcında gösterilen ayrıntılı (toplanmayan) stok tablosuna uygulanacağını unutmayın. Bu nedenle, **Kullanılabilir Fiziksel Miktar** \| **küçüktür veya eşittir** \| _1_ ölçütü o tablodan iki satır bulur (her biri _1_ **Kullanılabilir Fiziksel Miktar** değerini gösterir). Ancak bu senaryoda, **Eldeki liste** sayfası **Ambar** boyutunu gösterecek şekilde ayarlanmamıştır. Bu nedenle, her iki satırda da gösterilen tüm boyutlarda aynı değerler olduğu için iki özgün satırı tek bir sonuç satırına toplar. **Kullanılabilir Fiziksel Miktar** değeri _2_ olarak gösterildiğinden, bu satır filtre ölçütünü ihlal ediyor gibi görünür. Ancak, **Filtreler** bölmesindeki ayarlar, **Eldeki liste** sayfasında gösterilen toplanmış tabloya değil, kaynak tabloya uygulandığı için sonuç doğrudur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

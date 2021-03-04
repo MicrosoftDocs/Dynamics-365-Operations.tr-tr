@@ -98,3 +98,5 @@ Bu senaryo için oluşturduğunuz her satış siparişini ambara serbest bırakm
 
 - [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

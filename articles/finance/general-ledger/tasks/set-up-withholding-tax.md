@@ -49,3 +49,6 @@ Bu konuda, stopaj vergisinin nasıl ayarlanacağı açıklanmaktadır. *Stopaj v
 18. **Kaydet**'i seçin.
 19. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

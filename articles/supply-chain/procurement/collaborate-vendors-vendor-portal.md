@@ -104,3 +104,6 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

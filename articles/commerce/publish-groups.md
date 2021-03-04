@@ -155,3 +155,6 @@ Hayır. Performans ve çakışma nedenleriyle, sistem, zamanlanan yayımlama gru
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Site gezintisini özelleştirme](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

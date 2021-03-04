@@ -173,3 +173,6 @@ Sayfada bir konteyner modülünü konfigüre etmek için aşağıdaki adımları
 
 [Yayımlama gruplarıyla çalışma](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

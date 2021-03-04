@@ -187,3 +187,6 @@ Aşağıdaki belirteçler siparişteki her ürün için değerlerle değiştiril
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

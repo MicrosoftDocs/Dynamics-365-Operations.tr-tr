@@ -55,3 +55,6 @@ Sonuç sayısal değeri.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Matematik işlevi](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

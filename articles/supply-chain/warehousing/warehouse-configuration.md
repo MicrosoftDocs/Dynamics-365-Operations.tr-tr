@@ -119,3 +119,6 @@ Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

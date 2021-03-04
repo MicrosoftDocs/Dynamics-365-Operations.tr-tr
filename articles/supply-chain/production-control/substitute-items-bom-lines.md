@@ -49,3 +49,6 @@ Planlama sırasında malzemeleri bir ürün reçetesi kullanırken değil yalnı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Bir süreliğine ofis dışında olmayı veya başka sebeple iş öğeleri üzer
 8. **Bitiş tarihi/saati** alanına tarih ve saati girin.
 9. Bu temsilci kuralını etkinleştirmek için **Etkin** onay kutusunu işaretleyin. 
 10. **Yorum** alanına, iş maddelerine neden temsilci atadığınızı belirten bir yorum girin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

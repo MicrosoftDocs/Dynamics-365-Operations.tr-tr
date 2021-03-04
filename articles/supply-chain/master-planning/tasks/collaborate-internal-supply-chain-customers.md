@@ -43,3 +43,6 @@ Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı sip
 8. Yukarı doğru talep ayrıntıları bölümünü genişletin.
     * Bu bölümde, talebin nasıl karşılanacağıyla ilgili ayrıntıları görebilirsiniz. Burada ek bilgiler görmeden önce tedarik şirketinde master planlamanın çalıştırılmasını beklemeniz gerekebilir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

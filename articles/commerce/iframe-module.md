@@ -77,3 +77,6 @@ Bir sayfaya harici bir video göstermek üzere bir iFrame modülü eklemek için
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

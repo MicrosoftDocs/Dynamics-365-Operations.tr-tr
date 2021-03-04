@@ -38,3 +38,6 @@ Bir maliyet muhasebesi defteri, genel raporlama birimini temsil eder. Maliyet ö
 8. İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

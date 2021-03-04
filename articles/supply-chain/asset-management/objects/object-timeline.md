@@ -49,3 +49,6 @@ Zaman çizelgesi, sayfa her açıldığında güncelleştirilir. Aşağıdaki bi
 - Deftere nakledilen madde ve notlar dahil olmak üzere iş emirleri
 - Hatalar
 - Koşul değerlendirmeleri
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

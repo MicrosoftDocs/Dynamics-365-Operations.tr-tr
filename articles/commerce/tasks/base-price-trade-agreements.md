@@ -70,3 +70,6 @@ Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma süre
 38. **Eylem Bölmesi**'nde, Satış'a tıklayın.
 39. **Satış fiyatı**'na tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

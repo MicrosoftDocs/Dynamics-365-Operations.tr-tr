@@ -65,3 +65,6 @@ Bu prosedür, satış siparişi için teslimat oluşturmayı göstermektedir. Te
 22. Tamam'a tıklayın.
 23. Evet'i tıklatın.
 24. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

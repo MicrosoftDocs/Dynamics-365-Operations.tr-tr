@@ -44,3 +44,6 @@ Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri g
 2. Düzenle öğesine tıklayın.
 3. Gerçek geri getirme alanına tarih girin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

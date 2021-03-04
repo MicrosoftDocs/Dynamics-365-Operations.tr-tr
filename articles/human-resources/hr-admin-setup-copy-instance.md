@@ -150,3 +150,6 @@ Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri
 [Örneği kaldırma](hr-admin-setup-remove-instance.md)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

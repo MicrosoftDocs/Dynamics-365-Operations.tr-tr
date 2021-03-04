@@ -102,3 +102,6 @@ Finance and Operations 10.0.5 sürümünde, ER şablonlarını yedekleme depolam
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [Elektronik raporlama (ER) altyapısını yapılandırma](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

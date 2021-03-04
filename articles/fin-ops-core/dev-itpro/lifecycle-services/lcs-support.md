@@ -68,3 +68,6 @@ Bu makale Finance and Operations uygulamaları veya Microsoft Dynamics Lifecycle
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

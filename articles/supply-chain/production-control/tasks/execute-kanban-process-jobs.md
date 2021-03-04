@@ -57,3 +57,6 @@ Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir. İlk iş, be
 6. İyi miktar alanına bir sayı girin.
 7. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

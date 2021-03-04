@@ -142,3 +142,6 @@ Bir yeni sayfaya konteyner oynatma modülü eklemek ve gerekli özellikleri ayar
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

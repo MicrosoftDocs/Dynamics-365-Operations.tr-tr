@@ -60,3 +60,6 @@ Müşteri hesabı alanının müşteri numarası US-001'i içerdiğinden emin ol
     * Ürün T0012 için iki indirim sözleşmesi vardır; 1 il 10 arasında sipariş satırı miktarı içi yüzde 5 ve 10 üzerinde sipariş miktarlar için yüzde 7 indirim. Bir indirimin bir grup ürüne uygulandığını (bu örnekteki ürün T0012'nin bir parçası olduğu Grup kodu 01) unutmayın.  
 4. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Deftere nakil profilinizi ayarlamak için aşağıdaki değerleri belirtin:
 
 Daha fazla bilgi için bkz. [Müşteri ödeme genel bakışı](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

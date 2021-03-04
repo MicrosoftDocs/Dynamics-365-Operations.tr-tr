@@ -72,3 +72,6 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 - [Finance and Operations için Kaldırılan veya artık kullanılmayan özellikler](../migration-upgrade/deprecated-features.md)
 - [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **P
 [Plana filtre uygulama](plan-filters.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

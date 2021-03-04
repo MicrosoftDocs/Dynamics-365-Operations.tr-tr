@@ -65,3 +65,6 @@ Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.mi
 - Maliyet yönetimi
 - [Mali performans](financial-performance-power-bi-content-pack.md)
 - [Perakende kanalı performansı](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Ancak, bir koşullu satış vergisi kullanıyorsanız, ödemeyi müşteriden 30 
 Ödeme yöntemi olarak ileri tarih atılmış çek kullanırsanız, ödeme oluşturulduğunda banka hesabı temizlenmez. Bazı ülkelerde, ödeme bankada silindiğinde KDV 'gerçekleşmiş' sorumluluk olur yani ileri tarih atılmış çek kapatılır. Bunu **Nakit ve banka yönetimi > Kurulum > Nakit ve banka yönetimi parametreleri > İleri tarih atılmış çekler**'de **İleri tarih atılmış çekler düzenlendiğinde koşullu vergi gerçekleştir**'i seçerek etkinleştirebilirsiniz.
 
 Daha fazla bilgi için bkz. [Stopaj vergisi ayarlama.](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

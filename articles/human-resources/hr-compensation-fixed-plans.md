@@ -98,3 +98,6 @@ Uygunluk kuralı ayrıca çalışanla bağlantılı işçi sendikalarını da di
 
 Sistem, derece veya bant türündeki bir ücret planı için belirtilen ücret tutarının çalışanın işinde ilgili ücret düzeyi için minimum ve maksimum referans noktaları içinde olduğunu doğrular. Telafi tutarı izin verilen aralıkta bulunuyorsa, sabit ücret planında ayarlanan tolerans düzeyine dayalı olarak bir uyarı veya hata mesajı görüntülenir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

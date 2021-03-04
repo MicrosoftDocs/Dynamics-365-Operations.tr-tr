@@ -86,3 +86,6 @@ Bir Dynamics 365 Commerce kanalı oluşturulmadan önce, önkoşul olan bazı g�
 [Perakende kanalını ayarlama](channel-setup-retail.md)
     
 [Çevrimiçi kanal ayarlama](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Bu kayıt, USRT demo şirketini kullanır.
     * Kasaya nakil tutarlarının nakledileceği hesabı seçin.  
 8. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Dynamics 365 Human Resources'ta iş türlerini, çalışanlarınıza uyacak şek
    | **Tanım** | İstihdam türünün açıklaması |
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

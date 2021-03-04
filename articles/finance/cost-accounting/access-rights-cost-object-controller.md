@@ -106,3 +106,6 @@ Ek kaynaklar
 - [Maliyet kontrolü çalışma alanı](cost-control-workspace.md)
 - [Boyut hiyerarşisi](dimension-hierarchy.md)
 - [Maliyet muhasebesi içerik paketi için güvenliği kurmak](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

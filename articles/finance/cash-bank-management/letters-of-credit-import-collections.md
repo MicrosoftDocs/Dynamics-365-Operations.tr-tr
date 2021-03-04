@@ -54,3 +54,6 @@ Bir ithalat tahsilatı, alıcı, ithal edilen malları teslim almak üzere sevki
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

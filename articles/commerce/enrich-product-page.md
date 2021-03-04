@@ -73,3 +73,6 @@ Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. 
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
 [Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -227,3 +227,5 @@ Gerekirse, bir adayı işe aldıktan sonra kapatabilirsiniz. Örneğin, bir aday
 [Common Data Service sanal varlıklarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [İş gücünüzü düzenleme](hr-personnel-departments-jobs-positions.md)<br>
 [İşin bileşenlerini ayarlama](hr-personnel-jobs.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

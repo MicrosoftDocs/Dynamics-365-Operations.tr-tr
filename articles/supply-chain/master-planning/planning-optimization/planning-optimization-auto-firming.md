@@ -67,3 +67,6 @@ Planlamayı En İyi Duruma Getirme ve Microsoft Dynamics 365 Supply Chain Manage
 - Otomatik kesinleştirme, gereksinim tarihini (bitiş tarihi) temel alır.
 - Siparişlerin vade tarihinde kesinleştirilmesini garanti etmeye yardımcı olması için kesinleştirme zaman dilimi, sağlama süresinden daha uzun olmalıdır.
 - Geçerli haftada başlaması gereken tüm siparişleri kesinleştirmek istiyorsanız kesinleştirme zaman dilimi, sağlama süresi artı bir hafta olmalıdır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -176,3 +176,6 @@ Eklediğiniz dil, site düzenleme ortamında kullanacak şekilde konfigüre edeb
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

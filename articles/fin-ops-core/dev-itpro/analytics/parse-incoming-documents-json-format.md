@@ -50,3 +50,6 @@ Ek olarak, henüz tamamlamadıysanız [ER Harici bir dosyadan veri almak için g
 | Ünvan                  | Dosya adı |
 |------------------------|-----------|
 | ER modeli yapılandırması | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

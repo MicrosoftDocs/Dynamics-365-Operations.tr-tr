@@ -127,3 +127,6 @@ Sorunu düzeltmek için şu adımları izleyin.
 
 3. **Externalenvironmenturl** sütununda doğru Dataverse veya uygulama URL 'sinin bulunduğundan emin olun. Yanlış Dataverse URL'sini işaret eden tüm yinelenen satırları silin. DUALWRITEPROJECTFIELDCONFIGURATION ve DUALWRITEPROJECTCONFIGURATION tablolarındaki ilgili satırları silin.
 4. Tablo eşlemesini durdurun ve yeniden başlatın
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

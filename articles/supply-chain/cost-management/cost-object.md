@@ -82,3 +82,6 @@ Aşağıdaki tabloda maliyet nesnesinin ve stok nesnesinin ne oldukları göster
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

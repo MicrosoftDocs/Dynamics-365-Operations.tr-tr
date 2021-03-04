@@ -1233,3 +1233,6 @@ Oluşturulan raporun altbilgisi, oluşturulduğu sırada çalıştırılan ER bi
 - [IF işlevi](er-functions-logical-if.md)
 - [ORDERBY işlevi](er-functions-list-orderby.md)
 - [SESSIONNOW işlevi](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

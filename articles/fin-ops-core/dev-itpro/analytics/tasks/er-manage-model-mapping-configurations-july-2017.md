@@ -161,3 +161,6 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 7. Tamam'a tıklayın.
     * Varsayılan model eşleme yapılandırması, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanılır (oluşturulan çıktı şirket kodunu içerir).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

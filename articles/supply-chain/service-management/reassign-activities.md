@@ -58,3 +58,6 @@ Faaliyeti başka bir çalışana yeniden atamak için aşağıdaki adımları ku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

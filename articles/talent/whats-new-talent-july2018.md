@@ -57,3 +57,6 @@ Bu güncelleştirmede başlıklar genişletildi. Bu alan artık 65 karakter uzun
 ## <a name="benefit-enrollment-status-report"></a>Kazanç kayıt durumu raporu
 
 Kazançlar için açık kayıt hakkında yerleşik raporlama, personelinizin açık kayıt sürecinin hangi aşamasında olduğunu kolayca anlamanıza yardımcı olur. Kaç personelin bu süreci tamamladığını, kaçının tamamlamak üzere olduğunu ve kaçının başlamadığını öğrenebilirsiniz. Ayrıca personel kaydı sırasında oluşan sorunları ve personel gönderimlerinin eksiksiz bir günlüğünü hızlıca görüntüleyebilirsiniz. Böylece, personel gönderimlerini kolaylıkla doğrulayabilir ve denetleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

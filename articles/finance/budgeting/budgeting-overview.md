@@ -70,3 +70,6 @@ Kullanıcılar bütçe planlarını doğrudan istemcide (yapılandırılabilir b
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

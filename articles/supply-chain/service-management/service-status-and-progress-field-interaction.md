@@ -95,3 +95,6 @@ Servis siparişindeki tüm satırlar **Deftere nakledildi** olarak işaretlenmi�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

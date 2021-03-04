@@ -76,3 +76,6 @@ Maliyet öğeleri, maliyet ayrıntılarınızın en düşük düzeyini temsil et
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

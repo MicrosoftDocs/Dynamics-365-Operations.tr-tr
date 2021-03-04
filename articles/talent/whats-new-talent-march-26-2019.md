@@ -97,3 +97,6 @@ Finance and Operations Platform güncelleştirmesi 25 ile kullanıcılar otomati
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Yinelenen personel çekleri: Kullanıcı arabirimi değişiklikleri
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin sayısını görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Veri girişinin kesilmesini engellemek için yinelenenler formu otomatik olarak açılmaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

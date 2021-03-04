@@ -80,3 +80,6 @@ Gerektiğinde her bir kategori grubuna kategori öznitelik grupları da atanabil
 [Ürün kategorilerini ve ürünleri yönetme ](category-management-product-creation.md)
 
 [Ticari varlıkların sıralama düzenini değiştirme](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

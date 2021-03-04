@@ -53,3 +53,6 @@ Ambarlar arası transfer emirlerini destekleyen bir hiyerarşi oluşturmak için
 2. **Alım noktası** alanında, **ambar**'ı seçin.
 3. **Sevkiyat ambarı**, **Alım ambarı** ve **Taşıma günleri**'ni seçin. 
 4. (İsteğe bağlı) Taşıma şekline bağlı olarak taşıma süresini de **Teslimat türüne göre taşıma günleri** sekmesinde ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

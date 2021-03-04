@@ -51,3 +51,6 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 18. **Ücret para birimi** alanında Ücretin para birimini seçin. Bu, ücretin oluşturulacağı para birimidir.  
 19. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

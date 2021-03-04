@@ -100,3 +100,6 @@ Aşağıdaki örnekte **Faaliyet numarasına** odaklanılmış **Satınalma sipa
 
 Benzer şekilde, bir siş emri satınalma talebi satırıyla ilgili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma talebi** liste sayfasında satınalma talebi kaydını seçin ve ardından **Satınalma talebi** sütununda, satınalma talebi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

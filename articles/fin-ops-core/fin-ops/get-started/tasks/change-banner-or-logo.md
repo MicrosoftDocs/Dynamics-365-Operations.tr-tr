@@ -39,3 +39,6 @@ Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık r
 6. **Gezinti bölmesi > Modüller > Ortak > Ortak > Varsayılan pano**'ya gidin. Yeni başlık sayfası veya logo resmini panoda görmelisiniz.  
     
     Şirket seçiciyi kullanarak, şirketi kapak sayfası resmi yüklediğiniz şirketinize değiştirmeniz gerekebilir.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir. Bu yönt
 6. Tamam'a tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

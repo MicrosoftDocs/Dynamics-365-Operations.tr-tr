@@ -86,3 +86,6 @@ Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırı
 15. Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.
 16. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

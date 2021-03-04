@@ -72,3 +72,6 @@ Bu konu bir satın alma sözleşmesi oluşturma aşamasında size yol gösterir.
 5. **Satınalma sözleşmesi onayları**'nı seçin. **Önizleme/yazdırma** seçeneği, bir belge yazdırmak veya satıcıya göndermek için bir satınalma anlaşması oluşturmanıza olanak sağlar. Daha sonra anlaşmayı günceller veya yeniden onaylarsanız, her iki sürüm de burada gösterilir.  
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Bu haftanın değişiklikleri, takvim günlerinin üretilebileceği bir sorunu d
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>İzinli PBI çift personel bakiyesinde mevcut bakiye raporu (385581)
 
 Bu değişiklik, Bu senaryodaki geçerli bakiye raporunu düzeltir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

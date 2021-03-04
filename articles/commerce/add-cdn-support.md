@@ -163,3 +163,6 @@ CDN'niz şimdi Commerce sitenizde kullanılabilecek şekilde doğru konfigüre e
 [Commerce ortamında birden fazla B2C kiracısı yapılandırma](configure-multi-B2C-tenants.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

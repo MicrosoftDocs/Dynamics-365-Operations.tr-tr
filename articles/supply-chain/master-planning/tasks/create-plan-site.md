@@ -55,3 +55,6 @@ ms.locfileid: "4439316"
 2. Kesinleştir öğesine tıklayın.
 3. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

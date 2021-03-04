@@ -74,3 +74,6 @@ Aşağıdaki tablo, her bir rapor sayfasında kullanılabilen görselleştirmele
 | Değerlemeler haritaları        | Sabit kıymet ayrıntıları |
 
 Analizi veri ile görüntülemek için önce AssetTransactionMeasure toplam ölçümünü **Varlık Deposu** sayfasında yenilemelisiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

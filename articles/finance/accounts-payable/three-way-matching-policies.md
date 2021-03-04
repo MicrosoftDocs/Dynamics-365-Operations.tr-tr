@@ -145,3 +145,6 @@ Daha fazla bilgi için bkz. [Borç hesapları fatura eşleştirmesine genel bak�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

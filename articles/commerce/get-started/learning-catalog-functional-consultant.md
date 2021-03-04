@@ -55,3 +55,6 @@ Diğer Finance and Operations uygulamalarıyla paylaşılan özellikler hakkınd
 | İçerik  | Tanım | Biçim  | Uzunluk    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Dynamics 365 Commerce'te e-ticareti yapılandırma ve bununla çalışma](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Çevrimiçi kanallar ve Dynamics 365 Commerce e-ticaret sitesi, perakendecilerin markalarının çevrimiçi ortamda görünür olmasını sağlar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

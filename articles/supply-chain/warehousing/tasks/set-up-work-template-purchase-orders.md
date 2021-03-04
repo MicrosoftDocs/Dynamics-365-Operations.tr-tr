@@ -61,3 +61,6 @@ Bu konu, alınan ürünler yerine koyulurken kullanılacak basit bir iş şablon
 6. **İş sınıfı kodu** alanında bir değer girin. Malzeme çekme ve yerine koyma yönergeleri bir kümedir. Her bir malzeme çekme/yerine koyma çifti aynı iş sınıfında olmalıdır. Malzeme çekme yönergesi için sağladığınız aynı iş sınıfını kullanın.  
 7. **Kaydet**'i seçin. **Geçerli** onay kutusunun işaretli olduğundan emin olun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

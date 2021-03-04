@@ -73,3 +73,6 @@ Bu yordam, bir ürün paketi oluşturma ve bunu bir satınalma siparişinde kull
 17. Oluştur'a tıklayın.
 18. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

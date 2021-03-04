@@ -45,3 +45,6 @@ Aynı toplu iş seçimi için bir satış siparişi satırında bir ürüne ili�
 - Bitiş tarihi/son kullanma tarihi ve varsa müşterinin satış yapılabilir gün sayısına göre toplu işin raf ömrü kalan gün sayısı yeterli değildir.
 
 **Etkin ambar yönetimi işlemleri** kullanan bir depolama boyutu grubuyla ilişkilendirilmiş maddeler için, yerleşim boyutunun üstünde tanımlanan toplu iş numarası stok boyutuna sahip bir rezervasyon hiyerarşisi kullanarak belirli toplu iş numaralarını rezerve edebilirsiniz. Satış ve transfer emri satırları için **toplu rezervasyon** sayfası, kullanılabilir toplu iş numaralarına dayalı olarak çoklu satırları seçmenizi ve rezerve etmenize olanak tanır. Yerin altında toplu iş numarası boyutu olan bir rezervasyon hiyerarşisi kullanıyorsanız ne yapmanız gerektiğini öğrenmek için [esnek Ambar düzeyi boyut rezervasyon ilkesi](../warehousing/flexible-warehouse-level-dimension-reservation.md) 'ne bakın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

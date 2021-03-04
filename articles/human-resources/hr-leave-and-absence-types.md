@@ -82,3 +82,6 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
 - [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
 - [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

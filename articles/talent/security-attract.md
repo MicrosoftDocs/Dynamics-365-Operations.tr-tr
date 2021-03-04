@@ -157,3 +157,6 @@ Adaylar, beceri havuza eklenen ancak bir işle ilişkili olmayan kişilerdir.
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Profil - aday ayrıntıları | Oluşturma, okuma, güncelleştirme ve silme | Oluşturma, okuma, güncelleştirme ve silme | Erişim yok   |
 | Belgeler                   | Oluşturma, okuma, güncelleştirme ve silme | Oluşturma, okuma, güncelleştirme ve silme | Erişim yok   |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

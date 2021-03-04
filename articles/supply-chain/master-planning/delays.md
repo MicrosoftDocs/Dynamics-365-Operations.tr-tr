@@ -59,3 +59,6 @@ Eylem iletileri, ürün reçetesi yapısındaki başka gecikmelerden dolayı son
 --------
 
 [Kapsam ayarları](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

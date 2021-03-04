@@ -115,3 +115,6 @@ Henüz tamamlanmadıysa, ortam için [ürün önerilerini ve kişiselleştirmeyi
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

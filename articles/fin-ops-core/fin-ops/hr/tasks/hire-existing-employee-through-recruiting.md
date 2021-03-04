@@ -40,3 +40,6 @@ Bazen açık pozisyonlar, kuruluşunuzda halihazırda personel konumunda olan ol
 9. Pozisyonu değiştir'e tıklayın.
     * Ayrıca bu sürede ücreti de değiştirebilirsiniz. Şu anda ücret atayamazsanız, çalışan formuna giderek, ücret sekmesini açıp 'Sabit Plan' seçerek değiştirebilirsiniz. 'Pozisyonu değiştir'i seçtikten sonra başvurunun durumu 'İşe alındı' olarak güncelleştirilecektir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

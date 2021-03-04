@@ -67,3 +67,6 @@ Bu işlev [YUVARLA](er-functions-mathematical-round.md) işlevi gibi davranır a
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Matematik işlevi](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

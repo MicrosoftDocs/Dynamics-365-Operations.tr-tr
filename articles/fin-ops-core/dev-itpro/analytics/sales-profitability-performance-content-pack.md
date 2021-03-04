@@ -107,3 +107,6 @@ Satış Küpündeki aşağıda belirtilen temel boyutlar daha büyük hassasiyet
 | Tarihler            | Tarihler                                                |
 
 Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir. Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

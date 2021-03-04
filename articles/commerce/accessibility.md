@@ -114,3 +114,6 @@ Bir video kıymetin **minimum yaş** özniteliğini ayarlamak için aşağıdaki
 [Gizlilik ilkesi sayfası ekleme](add-privacy-page.md)
 
 [İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

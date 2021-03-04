@@ -194,3 +194,6 @@ Daha fazla bilgi için bkz. [Üç yönlü eşleştirme ilkeleri](three-way-match
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

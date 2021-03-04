@@ -94,3 +94,6 @@ Bir kullanıcının devre dışı bırakılmasını talep etmek için:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

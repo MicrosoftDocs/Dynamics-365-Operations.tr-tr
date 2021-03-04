@@ -144,3 +144,6 @@ Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, an
 --------
 
 [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

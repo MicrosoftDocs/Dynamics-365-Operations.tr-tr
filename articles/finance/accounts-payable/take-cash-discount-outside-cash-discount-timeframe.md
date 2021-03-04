@@ -91,3 +91,6 @@ April, **Kapatılacak tutar** alanındaki değeri **500,00** olarak güncelliyor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

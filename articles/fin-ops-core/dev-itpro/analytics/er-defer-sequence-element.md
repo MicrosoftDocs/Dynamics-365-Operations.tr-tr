@@ -249,3 +249,6 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 - [Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma](./tasks/er-format-counting-summing-1.md)
 - [Performans sorunlarını gidermek için ER biçimi yürütülmesini izle](trace-execution-er-troubleshoot-perf.md)
 - [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

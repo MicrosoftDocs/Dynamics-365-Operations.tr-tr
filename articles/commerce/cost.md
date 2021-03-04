@@ -171,3 +171,6 @@ Bu birleşim için aşağıdaki alanları ayarlamanız gerekir:
 
 > [!IMPORTANT]
 > DOM'ın çalıştırıldığında bu maliyetleri dikkate alması için maliyet faktörünü ilgili karşılama profiline eklemeniz gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

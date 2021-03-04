@@ -67,3 +67,6 @@ Bu işlevi kullanma hakkında daha fazla bilgi ve örnekler için bkz. [ER biçi
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Veri toplama işlevleri](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

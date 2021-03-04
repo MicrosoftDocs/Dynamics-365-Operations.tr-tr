@@ -106,3 +106,6 @@ Bu makale Microsoft Dynamics AX uygulama sürümü 7.0.1'da yeni veya değişen 
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

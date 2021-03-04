@@ -53,3 +53,6 @@ Belirli bir bütçe modeli ve boyut değerleri için bütçe ön kayıt girişle
 19. Güncelleştir'i tıklatın.
     * Güncellemenin sonuçlarını görmek için, mavi çubuktaki mesaj detaylarına tıklayın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

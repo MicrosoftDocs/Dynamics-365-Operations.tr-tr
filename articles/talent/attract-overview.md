@@ -49,3 +49,6 @@ Adaylar, bir işe eklendikten hemen sonra web uygulamasını edinmek için bir b
 
 ## <a name="analytic-reports"></a>Analitik raporlar
 Işe alma takımları tek bir iş için temel işe alım süreci ölçümlerini veya [Attract'teki analitik raporlarla](analytic-reports.md) tüm işlerin toplamını görüntüleyebilir. Bu özellik, şu anda [Hangi Microsoft Dynamics 365 Talent - Attract sürümü](attract-comprehensive-hiring.md) olan müşteriler için [önizleme](access-preview-feature.md)'dedir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

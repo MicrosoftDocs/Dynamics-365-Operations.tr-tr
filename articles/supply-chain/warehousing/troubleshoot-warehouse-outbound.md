@@ -62,3 +62,6 @@ Ambar yönetimi (WMS) için etkinleştirilmiş bir ambardan doğrudan teslimatı
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu tespit etmiştir. Şu anda WMS doğrudan teslimi desteklemiyor. Bu nedenle, doğrudan teslimi kullanmak için WMS harici bir madde ve ambar seçmelisiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

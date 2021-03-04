@@ -47,3 +47,6 @@ Otomatik mutabakat kullanmak için mutabakatın zaman çizelgesini, faturaları 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

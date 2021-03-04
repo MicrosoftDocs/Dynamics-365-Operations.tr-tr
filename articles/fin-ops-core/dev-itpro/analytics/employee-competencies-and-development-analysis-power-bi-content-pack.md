@@ -69,3 +69,6 @@ Uygulama verileri, Personel yeterlilikleri ve gelişimi içerik paketindeki rapo
 | İşgücü\_WorkerName             | Adı, ikinci ad ve tam adı                                                                       | |
 | İşgücü\_WorkerTitle            | Başlık ve kıdem tarihi                                                                                   | |
 | Workorce\_WorkerTrend             | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                                        | İşgücü\_Company, İşgücü\_Compensation, İşgücü\_GeographicLocation, İşgücü\_Performance, İşgücü\_WorkerName, İşgücü\_ReportsToWorkerName, İşgücü\_CalendarOffset, İşgücü\_Date, Workforce\_WorkerTitle, İşgücü\_Demographics, İşgücü\_Employment, İşgücü\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

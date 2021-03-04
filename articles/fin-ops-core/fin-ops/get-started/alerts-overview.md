@@ -88,3 +88,6 @@ Uyarı kuralının beş bileşeni vardır:
 [Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde bulunmaktadır](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW).
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 
 > [!NOTE]
 > Biçim tasarımı olarak içe aktarılan aynı dosya "belge" öğesi için "kimlik" özniteliğini isteğe bağlı olarak kabul etmektedir.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Bu yaklaşımı büyük miktarda hareket verisi için kullanmayı planlıyorsan�
 [FIRSTORNULL ER işlevi](er-functions-list-firstornull.md)
 
 [WHERE ER işlevi](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

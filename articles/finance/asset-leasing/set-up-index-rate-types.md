@@ -43,3 +43,6 @@ Endeks oranı yöntemi olarak **Endeks oranı değer farkı**'nı veya **Endeks 
 
 - Başlangıç tarihindeki endeks oranı ve en güncel endeks oranı arasındaki farkı temel alarak yeni bir kira ödemesini hesaplamak için **Endeks oranı değer farkı** yöntemini seçin. Endeks oranı **Endeks oranı (%)** alanında tanımlanır.
 - **Endeks oranı (%)** alanında belirtilen yüzdeyi kullanarak kira ödemesini hesaplamak için **Endeks oranı değeri** yöntemini seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

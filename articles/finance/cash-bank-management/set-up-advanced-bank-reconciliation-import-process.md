@@ -199,3 +199,6 @@ Son adım banka ekstrenizi içe aktarıp aktaramadığınızı sınamaktır.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

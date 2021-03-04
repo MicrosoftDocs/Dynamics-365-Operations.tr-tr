@@ -98,3 +98,6 @@ Aşağıdaki çizimde örnek bir sonuç grafik verilmektedir.
 ![Bölge ve iş durumu görselleştirmesi](media/work-viz-chart.png "Bölge ve iş durumu görselleştirmesi")
 
 Bu grafik, **KAT** ve **TOPLU** adlı iki bölge ve **Boş** adlı bir bölge gösterir. **Boş** bölgesi, herhangi bir bölgenin üyesi olmayan tüm iş satırlarını temsil eder. Grafik, her zaman mümkün olduğunca çok görünürlük sağlamak için tüm alakasız filtrelenmiş verileri **Boş** olarak gösterir. **KAT** bölgesinde, grafik üç kapalı satır ve dört açık satır gösterir. **TOPLU** bölgesinde, grafik dört kapalı satır, bir açık satır ve 24 iptal edilmiş satır gösterir. Son olarak, grafik, herhangi bir bölgenin parçası olmayan ve bu nedenle **Boş** olarak listelenen sekiz kapalı satırı gösterir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

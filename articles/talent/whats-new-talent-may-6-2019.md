@@ -93,3 +93,6 @@ Kuruluşlar, bir çalışan izin talepleri gönderdiğinde belirli izin türleri
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Talent'ta sağlarken örnek türünü gösterme
 
 Talent'ın yeni bir örneğini sağlarken yeni özelliklerin erken sınanmasına izin vererek örnek türünün **Üretim** veya **Korumalı alan** olduğunu belirtebileceksiniz. Varolan tüm Talent örnekleri Üretim örneği türüne güncelleştirilecek. Varolan örneklerden birinin Korumalı alan örneği türüne güncelleştirilmesini istiyorsanız, lütfen değişiklik isteğini başlatmak için Desteğe başvurun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

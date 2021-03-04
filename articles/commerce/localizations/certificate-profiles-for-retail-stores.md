@@ -122,3 +122,6 @@ Sertifikanın yeni bir sürümü tanıtılırsa ancak aynı anda tüm mağazalar
 
 > [!NOTE]
 > Commerce Runtime'da ilk olarak sertifikanın yeni sürümü çağırılır. Sertifika henüz belirli bir mağazada veya belirli bir terminalde güncelleştirilmediyse, önceki sürüm çağrılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Bir şablondan her zaman bir kılavuz oluşturmak zorunda değilsiniz. İstersen
 - [Dynamics 365 Talent'teki yenilikler veya değişiklikler](./whats-new.md)
 - [Sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Microsoft Dynamics 365 Talent için destek alma](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

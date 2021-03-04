@@ -92,3 +92,6 @@ Numara serileri oluşturmak ve düzenlemek için aşağıdaki adımları izleyin
     | Denetleme basamağı | Bu segment türü, modül 10 hesaplaması olan bir denetleme basamağı ekler. (Bu davranış, plaka kodları için varolan mantığı eşleştirir.) Bu segment türü için **Değer** alanı her zaman bir şapka işareti (*^*) olarak ayarlanır ve **Uzunluk** alanı her zaman *1* olarak ayarlanır. |
 
 1. Nihai numara biçiminizin bir örneğini görüntülemek için, **Segmentler** hızlı sekmesinin alt kısmındaki **Biçim** alanını inceleyin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

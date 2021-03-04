@@ -108,3 +108,5 @@ Gönderme API'sine yapılan çağrının bir parçası olarak İnsan Kaynakları
 
 - [MyLeaveRequests genel bakış](hr-developer-api-myleaverequests-overview.md)
 - [Kimlik doğrulama](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

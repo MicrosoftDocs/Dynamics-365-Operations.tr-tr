@@ -136,3 +136,5 @@ Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra inc
 
 > [!NOTE]
 > *Ambar işlemleri için kalite yönetimi* özelliği, kalite ilişkilerini ayarlamak için ek seçenekler sağlar. Yeni bir koşul (**Geçerli ambar türü**) ve yeni bir ayar (**Kalite işleme ilkesi**) ekler. Bu özelliği etkinleştirdiyseniz, ayrıntılar için [Ambar işlemleri için kalite yönetimi](../quality-management-for-warehouses-processes.md)'ne bakın.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

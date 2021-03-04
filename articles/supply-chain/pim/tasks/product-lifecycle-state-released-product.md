@@ -37,3 +37,6 @@ Bu yordam, serbest bırakılan bir ürüne nasıl ürün yaşam döngüsü durum
 5. Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.
 6. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

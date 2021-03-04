@@ -48,3 +48,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak satıcı öd
 10. Ödeme hesabı alanında "DEMF OPER" değerlerini belirtin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

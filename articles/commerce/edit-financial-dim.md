@@ -53,3 +53,6 @@ Commerce genel merkezindeki Perakende hareketlerinin mali boyutlarını düzenle
 [Perakende hareketlerini düzenlemek için bir Excel çalışma kitabı oluşturma](create-excel-edit.md)
 
 [Perakende hareketlerini düzenlemek için Excel çalışma kitabına alanlar ekleme](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

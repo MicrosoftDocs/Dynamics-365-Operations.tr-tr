@@ -59,3 +59,6 @@ ms.locfileid: "4420933"
 14. Tamam'a tıklayın.
 15. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

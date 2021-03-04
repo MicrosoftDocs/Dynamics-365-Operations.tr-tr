@@ -69,3 +69,6 @@ Bu kaydı oluşturmak için kullanılan demo veri şirketi USMF'dir.
 10. Kaydet'e tıklayın.
 11. Formu kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

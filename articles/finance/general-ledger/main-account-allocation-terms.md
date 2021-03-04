@@ -70,3 +70,6 @@ Bu örnekte, tesis gideri ana hesabı için yeni bir tahsisat koşulu oluşturul
 > Seçili tahsisatı çoğaltmak için isteğe bağlı olarak **Kopyala** düğmesini de kullanabilirsiniz.
 
 Bir ana hesap için tahsisat koşulu oluşturulduğunda, tahsisat koşullarında kaynak mali boyutlarla eşleşen bir fiş nakledildiğinde, sistem otomatik olarak yeni bir fiş nakleder.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

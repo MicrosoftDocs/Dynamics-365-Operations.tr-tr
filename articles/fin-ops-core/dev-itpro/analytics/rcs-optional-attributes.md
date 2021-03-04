@@ -130,3 +130,6 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 3. **Gözat** düğmesine tıklayın ve **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**' dosyasını seçin.
 4. **Tamam**'a tıklayın.
 5. Oluşturulan dosyayı gözden geçirin. Biçim tasarımı olarak içe aktarılan aynı dosya 'belge' öğesi için 'kimlik' özniteliğini isteğe bağlı olarak kabul etmektedir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

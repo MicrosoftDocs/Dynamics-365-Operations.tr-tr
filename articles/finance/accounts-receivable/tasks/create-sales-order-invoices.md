@@ -68,3 +68,6 @@ Bu görev kılavuzunda fatura birleştirme ve toplu işlem dahil bir satış sip
 10. **İptal**'e tıklayın
 11. **Evet** seçeneğini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

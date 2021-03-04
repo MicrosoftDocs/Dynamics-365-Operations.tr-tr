@@ -40,3 +40,6 @@ Bu yordamda, günlüğe kaydetme yoluyla günlük girişleri oluşturma gösteri
 9. Filtre sayfasını kapatmak için **Tamam**'a tıklayın.
 10. Günlüğe kaydetme işlemini başlatmak için **Tamam**'a tıklayın. İşlem tamamlandıktan sonra bir rapor oluşturulur.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

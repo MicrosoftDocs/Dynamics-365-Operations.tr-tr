@@ -301,3 +301,6 @@ Takip eden resim, oluşturulan raporun diğer sayfasının bir örneğini göste
 
 - [ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Word biçiminde raporlar oluşturmak için ER yapılandırmaları tasarlama](tasks/er-design-configuration-word-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

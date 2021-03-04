@@ -55,3 +55,6 @@ Bu nedenle, günlüğü mali boyut değerlerinin düzeyinde dengelemek için aş
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

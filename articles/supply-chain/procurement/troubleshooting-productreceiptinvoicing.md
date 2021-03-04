@@ -110,3 +110,6 @@ Aşağıdaki yordamda, bu sorunu yeniden oluşturmanın bir yolu gösterilmekted
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Bu, fatura ve fatura gruplarının parametre ayarlarına bağlıdır. Daha fazla bilgi için, aşağıdaki Web günlüğü postasına bakın: [Satınalma ücreti ve stok farkı için hesap](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Eylem türü için en mantıksal tarih ile doldurulmuş olduğu için yürürlü
 - Bir **Çalışanı işe al** eyleminin başlığındaki yürürlük tarihi, **İş başlangıç tarihi** alanına girmiş olduğunuz tarihtir.
 - Bir **Çalışanı transfer et** eyleminin başlığındaki yürürlük tarihi, çalışan için **Atama başlangıç tarihi** alanına girmiş olduğunuz tarihtir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

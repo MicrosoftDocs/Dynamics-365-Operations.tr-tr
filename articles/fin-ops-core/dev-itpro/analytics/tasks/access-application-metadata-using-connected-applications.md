@@ -113,3 +113,6 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 11. Sayfayı kapatın. 
 
 Bu model eşlemesini farklı bir sürüm uygulamasının meta verilerini kullanarak değerlendirmeniz gerektiğinde, bağlı başka bir uygulamayı kaydedin, bu model eşlemesine atayın ve yeni meta verilere göre doğrulayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

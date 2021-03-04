@@ -141,3 +141,6 @@ Dynamics 365 Commerce uygulamalarının bir kullanıcısı olarak rolünüz içi
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

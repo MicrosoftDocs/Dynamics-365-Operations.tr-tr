@@ -94,3 +94,5 @@ Lütfen kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgileri
 
 - [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md)
 - [Dynamics 365 ve Power Platform Sürüm Planı](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

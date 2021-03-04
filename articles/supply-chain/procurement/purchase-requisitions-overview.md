@@ -202,3 +202,6 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

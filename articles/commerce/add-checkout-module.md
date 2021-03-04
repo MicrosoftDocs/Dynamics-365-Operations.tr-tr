@@ -127,3 +127,6 @@ Bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak için
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Hediye kartı modülü](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

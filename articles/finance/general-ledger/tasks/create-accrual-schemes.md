@@ -41,3 +41,6 @@ Bu konu, bir tahakkuk planının nasıl oluşturulacağını açıklar. Bu göre
 10. **Döneme göre oluşum sayısı** alanında bir sayı girin.
 11. **Hareketleri naklet** alanında, hareketlerin deftere nakledilmesi gereken **Aylık** vb. gibi bir süre seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

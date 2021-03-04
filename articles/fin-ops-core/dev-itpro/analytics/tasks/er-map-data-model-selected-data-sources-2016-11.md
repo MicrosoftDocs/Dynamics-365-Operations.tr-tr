@@ -146,3 +146,6 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama Geliştirici
 5. Geçerli yapılandırmanın tamamlanmış sürümünü seçin.
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1 olarak kaydedildiğini unutmayın.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Meta etiketleri parçasını eklediğiniz şablonu temel alan sayfaları önizle
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Bir SLA'nın atandığı bir servis sözleşmesi için yeni bir servis siparişi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Bu konuda, Kıymet Yönetimi'ndeki kıymet özniteliklerine genel bir bakış sa
 3. **Tamam**'ı seçin. Bir liste seçili kıymet türünü kullanan tüm kıymetleri gösterir. Her kıymet için tüm ilgili kıymet özniteliği türleri aynı satırda gösterilir.
 
 **Kıymet özniteliği** sayfasında bir kıymette kullanılan her öznitelik türü için ayrı bir satır gösterilir. Bu sayfayı açmak için **Kıymet yönetimi** \> **Sorgular** \> **Kıymetler** \> **Kıymet özniteliği**'ni seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

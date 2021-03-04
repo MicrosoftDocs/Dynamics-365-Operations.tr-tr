@@ -45,3 +45,6 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 *namemapping='Logical' bulunan, adı 'msdyn\_dualwriteentitymap' olan varlık MetadataCache içinde bulunamadı.*
 
 Bu sorunu gidermek için, Çift-Write Core çözümünün Dataverse'te yüklü olduğundan emin olun . Çift-yazılır çekirdek çözümü, çözüm tanıma için bir önkoşuldur.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

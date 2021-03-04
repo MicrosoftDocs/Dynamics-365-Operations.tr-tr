@@ -57,3 +57,6 @@ Fatura güncelleştirmesini toplu iş işlemesi için ayarladığınızda, **İa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

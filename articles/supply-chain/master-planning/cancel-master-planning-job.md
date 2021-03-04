@@ -53,3 +53,6 @@ Bunlar yalnızca, master planlama işi **Tamamlanmamış planlama işlemleri** s
 4. **Toplu iş görevlerinde** sona erdirmek istediğiniz görevleri seçin.
 5. **Durumu değiştir**'e tıklayın, **İptal etme**'yi seçip **Tamam**'a tıklayın.
 6. **Toplu işlem görevleri** hızlı sekmesinde, **Durdur**'u tıklatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

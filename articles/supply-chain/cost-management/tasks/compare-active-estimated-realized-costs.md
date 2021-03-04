@@ -40,3 +40,6 @@ Bu yordam, bir üretim emri için yüksek üretim farkının nedenlerinin nasıl
 6. Maliyet karşılaştırmasını görüntüle'ye tıklayın.
 7. Kapat’a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

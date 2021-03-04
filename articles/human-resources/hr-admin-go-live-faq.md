@@ -99,3 +99,6 @@ Proje boyunca korumalı alanda yapılandırılmış varlıkların açık bir lis
  ## <a name="see-also"></a>Ayrıca bkz.
 
  [Servise almak için hazırlama](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

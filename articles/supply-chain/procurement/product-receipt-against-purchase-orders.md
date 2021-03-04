@@ -69,3 +69,6 @@ Bu sayfaya **Satınalma siparişi** sayfasındaki **Giriş** eylem grubu üzerin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Ayrıca bakım görevlisi grupları oluşturabilir ve bakım görevlilerini bu g
 6. Bir kaynak grubunun seçili bakım görevlisi grubuyla ilgili olması gerekiyorsa **Kaynak gruptan kopyala**'yı seçin. **Grup** alanında takvim ayarlarının kopyalanacağı kaynak grubu seçin. Ardından **Çalışan grubu** alanında kaynak grubunun takvim ayarlarının kopyalanacağı çalışan grubunu seçin. Bu adımı yalnızca iş emri planlaması sırasında bakım görevlilerinin bir kaynakla (iş merkezi) ilgili takvimi kullanmalarını istiyorsanız kullanın.
 
     **Ayrıntılar** hızlı sekmesindeki alan seçili bakım çalışanı grubunda ayarlanmış bakım görevlilerinin sayısını gösterir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

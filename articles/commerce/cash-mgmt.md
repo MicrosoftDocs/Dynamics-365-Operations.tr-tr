@@ -62,3 +62,6 @@ Retail sürüm 10.0.3 ve sonrasında, nakit hareketleriyle ilgili aşağıdaki y
 - Mutabakat sırasında, seçilen hareket dengelenmemiş ise, kullanıcı, dengesiz mutabakat için neden açıklaması girmelidir. Kullanıcılar tek bir hareketi seçip gereken neden açıklamasıyla mutabakat yapabilirler.
 - Kullanıcılar, vardiya kapatılıncaya kadar hareketlerin mutabakatını ve mutabakatlaştıralmaya devam edebilir. Bir vardiya kapatıldıktan sonra hareketler mutabakat geri alınamaz.
 - Kullanıcı vardiyayı kapatmayı seçtiğinde, Commerce, vardiyada hiçbir mutabakat sağlanmamış nakit yönetimi hareketi olmadığını doğrular. Mutabakatı yapılmamış hareketler varsa kullanıcılar bir vardiyayı kapatamaz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

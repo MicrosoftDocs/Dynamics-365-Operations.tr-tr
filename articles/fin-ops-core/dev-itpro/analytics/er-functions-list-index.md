@@ -63,3 +63,6 @@ Sonuç kayıt değeri.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Bekleyen varlıkları denetlemek için **Bekleyen varlık sayımı** çalıştı
 3. Bu işi, örneğin her gün bir toplu iş olarak çalışacak şekilde ayarlayabilirsiniz.
 
 **Dikkat:** Bir satınalma siparişinde ilgili maddeyi temel alarak bir varlık oluşturduktan *sonra* veri dğiştirilirse, bu değişiklikler varlığa yansıtılmaz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Sales'te **Teklifler**, **Siparişler** ve **Faturalar** sayfalarındaki satır 
 - Giriş  miktarı
 - Çıkış miktarı
 - Eldeki miktar
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

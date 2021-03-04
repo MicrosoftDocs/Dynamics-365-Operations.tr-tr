@@ -105,3 +105,6 @@ Model eşlemenizde aşağıdaki veri kaynaklarını tanımlanır:
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Diğer (belirli iş etki alanı) işlevleri](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

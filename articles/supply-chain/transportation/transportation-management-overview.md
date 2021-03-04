@@ -87,3 +87,6 @@ Supply Chain Management, Hacim tabanlı yük oluşturma stratejisi olarak adland
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

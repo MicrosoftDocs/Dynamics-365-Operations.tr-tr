@@ -276,3 +276,6 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
 
 5. İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
 6. İlerletme yolundaki kullanıcılar verilen süre içinde yanıt vermezlerse, sistem belge üstünde otomatik olarak eylem yapar. Sistemin alacağı eylemi belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir eylem seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

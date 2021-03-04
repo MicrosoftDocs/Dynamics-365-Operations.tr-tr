@@ -51,3 +51,6 @@ Kullanılacak tahmini yetkilendirecek şirketleri ve tahmin modellerini seçebil
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

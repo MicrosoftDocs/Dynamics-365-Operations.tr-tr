@@ -65,3 +65,6 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

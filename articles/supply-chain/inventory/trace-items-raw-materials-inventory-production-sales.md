@@ -140,3 +140,6 @@ Bilgileri özet sayfalarından Microsoft Excel'e aktarabilirsiniz. İlgili sayfa
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Ortak ürünleri ve yan ürünleri izleyebilir miyim?
 Ortak ürünleri izleyebilirsiniz, ancak genellikle yan ürünlere atanmış izleme boyutları olmadığından bir yan ürünü izleyemezsiniz. Bir maddeyi izlerken, izleme ayrıntıları ilişkili tüm ortak ürünleri içerir. Ortak ürünü içeren bir düğüm, ayrıntılarda "ortak ürün" sözcüğünü içerir. Ortak ürün hakkındaki ayrıntıları, izleme ayrıntılarında düğümü seçip **Üretim** FastTab'ine tıklayarak görüntüleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

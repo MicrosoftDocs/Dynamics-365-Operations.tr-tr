@@ -69,3 +69,6 @@ Stok sayımları zamanlanmış veya zamanlanmamış olabilir. Planlı stok sayı
 ## <a name="inventory-lookup"></a>Stok arama
 
 Çok sayıda mağaza ve ambar için geçerli olan eldeki ürün miktarı, **Stok arama** sayfasından görüntülenebilir. Geçerli eldeki miktara ek olarak gelecekte karşılanabilir (ATP) miktarlar, her bir mağaza için tek tek görüntülenebilir. ATP miktarlarını görmek için mağaza seçin ve ardından **Mağaza kullanılabilirliğini göster**'i seçin. Kullanılabilir yapılandırma seçenekleri hakkında bilgi için bkz. [Perakende kanalları için stok kullanılabilirliğini hesaplama](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Aşağıdaki örnek, video oynatıcı modülünde görünen videoyu değiştirer
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
 [Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

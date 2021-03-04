@@ -109,3 +109,6 @@ Finance and Operations uygulamalarla eşitlik oluşturmak için çift yazma, Dat
 
 Gelecekteki değişiklikler hakkında daha fazla bilgi için, bkz. [Çift yazmadaki yenilikler veya değişiklikler](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

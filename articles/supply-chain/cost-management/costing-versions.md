@@ -68,3 +68,6 @@ Maddeler için satınalma fiyatı kayıtları da başvuru bilgisi olarak kullan�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

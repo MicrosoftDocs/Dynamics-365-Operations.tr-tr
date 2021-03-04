@@ -90,3 +90,6 @@ Bu yordam, bir satış anlaşmasının satış siparişleri ile ilişkilendirere
 23. İlişik satış anlaşması'nı tıklatın.
 24. Karşılama sekmesini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

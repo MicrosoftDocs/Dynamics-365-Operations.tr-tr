@@ -157,3 +157,6 @@ Aşağıdaki tabloda genel kural gösterilmektedir.
 | Satış Vergisi Alacağı | Negatif              | Vergi Alacak Hesabı | Negatif (Alacak)  |
 | Satış Vergisi Borcu    | Pozitif              | Vergi Borç Hesabı    | Negatif (Alacak)  |
 | Satış Vergisi Borcu    | Negatif              | Vergi Borç Hesabı    | Pozitif (Borç)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

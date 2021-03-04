@@ -56,3 +56,6 @@ Bir çalışanın izin bakiyesini ayarlarken bir neden kodu ve açıklama ekleye
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık isteklerini yönetme](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

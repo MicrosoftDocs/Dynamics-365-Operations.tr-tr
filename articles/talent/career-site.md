@@ -142,3 +142,6 @@ Adaylar bir veya daha fazla işe başvurduğunda, açık ve kapalı uygulamalar�
 ## <a name="internal-jobs"></a>Dahili işler
 
 Şu anda, dahili olarak işaretlenen ve Attract kariyer sitesine gönderilmeyen işler kariyer sitesinde görünmez. Yalnızca Attract uygulamasından kopyalanabilecek doğrudan **Başvur** URL'sini kullanarak erişilebilirler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Varsayılan olarak **Maksimum yürütme zamanı** kullanılabilir değil. Bunu k
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Ambar yönetimi için maksimum yürütme süresi eldeki girişler temizleme işi*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

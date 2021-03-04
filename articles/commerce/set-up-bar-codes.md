@@ -47,3 +47,6 @@ Barkodları el ile veya otomatik olarak oluşturabilirsiniz. Barkodlar oluşturm
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Barkod maskeleri ayarlama](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

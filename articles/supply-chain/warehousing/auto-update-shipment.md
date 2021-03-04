@@ -140,3 +140,6 @@ Dalga işlenir ve yük satırlarındaki rezerve edilen miktarlar için iş oluş
 Bir sevkiyatın durumu **Dalga oluşturuldu** veya daha yüksek bir durum olduğunda, bir satış siparişi satırındaki miktara ilişkin güncelleştirmeler, sevkiyatla ilişkilendirilmiş bir yükleme satırına yansıtılmaz veya bu satıra göre doğrulanmaz. Bir yük satırındaki miktar üzerinde yapılan değişiklikler doğrudan yük satırında yapılmalıdır.
 
 Doğrulama, yük satırı için iş oluşturulduktan ve rezervasyon yapıldıktan sonra gerçekleştirilir. Satış siparişi satırının miktarındaki azalma iş satırı rezervasyonuna göre doğrulanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

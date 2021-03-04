@@ -55,3 +55,6 @@ Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek iç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

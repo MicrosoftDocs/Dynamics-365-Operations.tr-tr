@@ -149,3 +149,6 @@ Genellikle, bir iş için birkaç iyi aday seçilmez ancak bunları kaybetmeyi i
 1. Başvuru sayfasında **Beceri havuzuna ekle** yi seçin. Erişiminiz olan beceri havuzları listesi gösterilir.
 
 1. Beceri havuzunu seçin veya arayın, daha sonra o havuza adayı eklemek için **Ekle** yi seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

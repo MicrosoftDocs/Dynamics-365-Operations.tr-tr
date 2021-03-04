@@ -55,3 +55,6 @@ Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade k
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

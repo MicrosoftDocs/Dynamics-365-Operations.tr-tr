@@ -111,3 +111,6 @@ Aşağıdaki çizimde POS giriş sayfasındaki **Görevler** kutucuğunun bir ö
 [Mağazalara veya personele görev listeleri atama](task-mgmt-assign-lists.md)
 
 [POS'ta görev yönetimi](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Bu adımlar�
     * Intrastat örneği eşleme  
 5. Konfigürasyon oluştur'u tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -256,3 +256,6 @@ DOM özelliğini kullanırken dikkate almanız gereken bazı noktalar aşağıda
 - DOM şu anda yalnızca ticari kanallardan oluşturulan siparişlere bakmaktadır. Satış siparişleri, **Ticari satış** seçeneği **Evet** olarak ayarlandığında ticari satış siparişleri olarak tanımlanır.
 - Microsoft, DOM'yi ileri düzey ambar yönetimi özellikleriyle test etmemiştir. Müşteriler ve iş ortakları, DOM'nin ileri düzey ambar yönetimi özellikleri ve bunlara ilgili işlemlerle uyumlu olup olmadığını belirlemek için dikkatli olmalıdır.
 - DOM, yalnızca Commerce'in bulut sürümünde kullanılabilir. Şirket içi dağıtımlarda desteklenmez.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

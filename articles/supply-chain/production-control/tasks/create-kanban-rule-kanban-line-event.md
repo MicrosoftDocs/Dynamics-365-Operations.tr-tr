@@ -69,3 +69,6 @@ Bu yordam, bir işlem etkinliğinden çekmeyi tetiklemek için kanban satır ola
     * Oluşturulan kanban kuralına bağlı olarak etkinliği işlemek amacıyla 27 için bir kanban oluşturulduğuna dikkat edin.  
     * Bu son adımdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

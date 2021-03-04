@@ -86,3 +86,6 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 ### <a name="print-performance-reviews"></a>Performans incelemelerini yazdırma
 
 Çalışanlar, Yöneticiler ve İK, bir çalışanın performans incelemesini yazdırabileceklerdir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

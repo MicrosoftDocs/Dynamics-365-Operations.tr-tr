@@ -71,3 +71,6 @@ Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında 
 + [İş akışında paralel dalları yapılandırma](configure-parallel-branch-workflow.md)
 + [Satır maddesi iş akışlarını yapılandırma](configure-line-item-workflow.md)
 + [İş akışıyla ilgili SSS](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

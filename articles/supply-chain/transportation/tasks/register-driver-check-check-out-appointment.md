@@ -46,3 +46,6 @@ Bu yordam bir sürücü giriş ve sürücü çıkışının nasıl kaydedileceğ
 1. Sürücü çıkışı'na tıklayın.
 2. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

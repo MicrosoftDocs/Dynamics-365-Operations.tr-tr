@@ -59,3 +59,6 @@ Derecelendirmeler ve İncelemeler çözümü Ayrıca derecelendirmelere ve incel
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
 [Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

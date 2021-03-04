@@ -54,3 +54,6 @@ Aşağıdaki çizimde bir bakım zamanlaması maliyet hesaplamasının sonuçlar
 
 ![Şekil 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

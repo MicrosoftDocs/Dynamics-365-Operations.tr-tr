@@ -68,3 +68,6 @@ Filtreleme seçeneklerinden herhangi birini kullanarak oluşturulan personel lis
 Bir işveren olarak kendinden sigortalı kapsama sağladığınız için kapsanan bireyleri raporlamanız gerekiyorsa, kazanç planları altında **ACA raporlanabilir** olarak işaretlenmiş bakıma ihtiyaç duyulanları, eylem bölmesi şeridindeki Bakıma ihtiyaç duyulanlar kapsama eylemini seçerek görüntüleyebilirsiniz.
 
 **Not:** Yalnızca planı **ACA raporlanabilir** olarak işaretlenmiş olan kazançlar sorgulama penceresinde görüntülenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

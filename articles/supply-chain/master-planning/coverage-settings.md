@@ -66,3 +66,6 @@ Her stok yenileme yöntemine aşağıdaki karşılama kodlarından biri atanır:
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

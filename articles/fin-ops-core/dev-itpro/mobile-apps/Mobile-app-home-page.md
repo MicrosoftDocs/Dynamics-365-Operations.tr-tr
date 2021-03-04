@@ -151,3 +151,6 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 [Mobil platform kaynakları](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

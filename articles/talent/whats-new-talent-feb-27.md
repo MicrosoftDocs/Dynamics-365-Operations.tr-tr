@@ -141,3 +141,6 @@ Varolan bir şablonu güncelleştirmek için şu adımları izleyin.
     9. **Eşleştirme görevi** sayfasında, HIERARCHYTYPENAME için başka bir eşleme oluşturmak için yeni sütunu kaynak olarak seçin.
 
         [![Eşleştirme](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -260,3 +260,6 @@ ER biçimi ile uygulamaya özel parametreler arasındaki ilişki, ER biçiminin 
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

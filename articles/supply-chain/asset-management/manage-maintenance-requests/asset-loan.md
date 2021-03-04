@@ -58,3 +58,6 @@ Diğer yerlere veya müşterilere ödünç vermiş olduğunuz tüm varlıkların
 3. **İade edildi** alanında tarihi ve saati girin.
 4. **Tamam**'ı seçin.
 5. **Etkin ödünç varlıklar** listesi sayfasını yenileyin ve ödünç varlığın artık listede görünüp görünmediğine dikkat edin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

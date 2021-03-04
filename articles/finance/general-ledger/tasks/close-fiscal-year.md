@@ -83,3 +83,6 @@ Bu yordam, bakiyeleri yeni bir mali yıla aktaran yıl sonu kapanış işlemini 
 23. Toplu iş modunda çalıştırmak için yıl sonu kapanışı varsayılanları. Uzun süreli işlemler için en iyi uygulama toplu iş modunda çalıştırmaktır. Bu, genel olarak varsayılanın iş modunda kullanılma sebebi olan süreçlerden biridir.  
 24. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

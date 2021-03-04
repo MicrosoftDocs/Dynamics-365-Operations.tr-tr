@@ -47,3 +47,6 @@ Bu özellik hakkında daha fazla bilgi için, **7.5.4.3 BT hizmeti/çözüm bile
 [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 
 [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

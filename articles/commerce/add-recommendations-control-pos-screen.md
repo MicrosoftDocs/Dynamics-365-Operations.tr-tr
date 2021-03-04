@@ -119,3 +119,6 @@ Commerce kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirs
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

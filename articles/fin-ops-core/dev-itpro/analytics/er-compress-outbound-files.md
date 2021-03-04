@@ -94,3 +94,6 @@ Bu konudaki yordamları tamamlayabilmek için önce aşağıdaki adımları tama
 [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 
 [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Bir satış teklifi satırında *Servis* tipinde bulunan bir malzeme için satı
 
 Servis malzemeleri olan ürünler için bir satış miktarı ayarlayamazsınız. Örneğin, bir ögeyi yüklemek için bir servis teklif ederseniz, fiziksel öge olmadığı için bir miktar kaydetmek anlamlı olmaz. Yalnızca bir hizmet vardır.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

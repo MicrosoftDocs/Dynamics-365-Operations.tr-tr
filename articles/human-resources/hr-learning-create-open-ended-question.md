@@ -38,3 +38,6 @@ Açık uçlu sorular, katılımcıların kendi yanıtlarını sağlamalarına ol
     * Açık uçlu bir soruda kullanılmak üzere bir metin veya not giriş türü kullanılır.  
 6. Metin alanına sorunuzu girin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam
 11. **Satınalma zamanı** alanına '5' girin.
 12. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

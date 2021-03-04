@@ -121,3 +121,6 @@ Site içeriğini yönetme hakkında daha fazla bilgi için aşağıdaki konulara
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
 
 [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

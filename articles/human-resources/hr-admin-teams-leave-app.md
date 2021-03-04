@@ -134,3 +134,6 @@ Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams i�
 [Microsoft Teams yardım merkezi](https://support.office.com/teams)</br>
 [Teams'de izin isteklerini yönetme](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

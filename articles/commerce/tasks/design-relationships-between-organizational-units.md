@@ -63,3 +63,6 @@ Bu yordam kuruluş birimleri arasında ilişkiler tasarlamayı adım adım göst
 29. Yayımla'ya tıklayın.
 30. Kapat’a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

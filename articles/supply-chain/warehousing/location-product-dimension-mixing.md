@@ -239,3 +239,5 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 > [!TIP]
 > Bu senaryoyu tekrarlayabilirsiniz ancak bu sefer *TOPLU* **yerleşim profillerindeki** **Ürün boyut karışımına izin ver** hızlı sekmesi altında **Boyut**  - *Hayır* ayarlayın, böylece ürün boyutlarının hiçbiri karışmaz. Bu durumda, satınalma siparişi aldığınızda, her ürün çeşidi yeni bir konuma yerleştirilecek.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

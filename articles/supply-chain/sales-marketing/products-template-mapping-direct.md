@@ -124,3 +124,6 @@ Aşağıdaki görsel, veri tümleştirmede bir şablon eşleme örneğini göste
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

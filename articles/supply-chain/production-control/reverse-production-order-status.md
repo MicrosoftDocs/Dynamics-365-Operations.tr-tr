@@ -53,3 +53,6 @@ Bir üretim emrinin durumunu **Başlatıldı**'dan **Serbest bırakıldı**'ya �
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

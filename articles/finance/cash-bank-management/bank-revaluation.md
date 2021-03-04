@@ -88,3 +88,6 @@ Yabancı para birimi yeniden değerleme işlemi, banka hareketleri arasında bul
 Yeniden değerleme işlemi hareketini tersine çevirmeniz gerekiyorsa **Yabancı para birimi yeniden değerleme işlemi** sayfasında **Ters hareket** Eylem Panosunda seçin. Yeniden değerleme işlemi oluştuğunda veya tersine çevrildiğinde geçmiş hesap denetimi kılavuzunu düzenlemek için yeni bir yabancı para birimi yeniden değerleme işlemi geçmiş kaydı oluşturulur.
 
 Birkaç yeniden değerlemeyi tersine çevirmek için en son yeniden değerleme ilk tersine çevirmeniz gerekir. Daha sonra, eski yeniden değerlemeleri tarih sırasında ters çevirmek için devam edin. Daha sonra tersine çevirdiğiniz dönemler için yeni yeniden değerlemeleri işleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

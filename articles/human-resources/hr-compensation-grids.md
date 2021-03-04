@@ -92,3 +92,6 @@ ms.locfileid: "4420922"
 29. Listede, tüm satırları işaretleyin veya tüm satırların işaretlerini kaldırın.
 30. Kılavuza uygula'ya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

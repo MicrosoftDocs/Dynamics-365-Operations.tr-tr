@@ -43,3 +43,6 @@ Bu konu görev ayrımındaki çakışmalarının nasıl tanımlandığını ve �
 1. **Gezinti bölmesi > Modüller > Sistem yönetimi > Güvenlik > Görev ayrımı > Görev ayırma kuralları**'na gidin. Bir kural seçin.  
 2. **Görevleri ve rolleri doğrula**'yı seçin. Herhangi bir mevcut rol seçilen kuralı ihlal ediyorsa, rolün adını ve çakışan görevlerin adlarını içeren bir ileti görüntülenir. Yönetici güvenlik riski azaltma yöntemini belirtmeli veya rolü, ayrım kurallarını ihlal etmeyecek şekilde değiştirmelidir. Eğer hiçbir rol kuralı ihlal etmiyorsa, tüm kuralların uygun olduğunu belirtir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

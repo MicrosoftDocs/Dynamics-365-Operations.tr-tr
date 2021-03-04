@@ -89,3 +89,6 @@ Raporlama para birimi tutarları için Diğer hareketleri görürsünüz.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

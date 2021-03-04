@@ -246,3 +246,6 @@ Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru s�
 
 [Soru formlarının sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -173,3 +173,6 @@ Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Mali raporları görüntüle](view-financial-reports.md)
 - [Mali raporlarda raporlama ağacı tanımları](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

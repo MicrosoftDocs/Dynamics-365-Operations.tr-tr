@@ -45,3 +45,6 @@ ms.locfileid: "4683150"
 - [Satıcı ödemeleri çalışma alanı](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
 - [İş gücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

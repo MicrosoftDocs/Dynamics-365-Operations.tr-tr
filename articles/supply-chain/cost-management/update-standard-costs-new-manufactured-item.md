@@ -53,3 +53,6 @@ Donmuş dönem boyunca yeni üretilmiş maddeler eklemek için aşağıdaki adı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

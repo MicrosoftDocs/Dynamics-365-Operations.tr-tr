@@ -255,3 +255,5 @@ Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://do
 Aşağıdaki çizim, Veri Tümleştirici'de bir şablon eşleme örneği gösteriyor. 
 
 ![Şablon Eşleme](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

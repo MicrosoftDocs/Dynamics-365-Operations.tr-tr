@@ -107,3 +107,6 @@ Teklifi satıcı veya tedarik uzmanı olarak girebilirsiniz. Daha fazla bilgi i�
 ## <a name="view-the-purchase-order-that-is-generated"></a>Oluşturulmuş bir satın alma emrini görüntüleme
 
 Eylem Bölmesi'ndeki **Genel** sekmesinde, **Satınalma emri**'ni seçin. Görüntülenen sayfada teklifi kabul ettiğinizde oluşturulmuş olan satın alma emrini görebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

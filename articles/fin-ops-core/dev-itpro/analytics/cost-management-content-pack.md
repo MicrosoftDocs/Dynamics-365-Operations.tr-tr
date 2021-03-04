@@ -207,3 +207,6 @@ Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin anali
 | Tüzel kişilikler                                          | Tüzel kişilik adları                              |
 | Mali takvimler                                        | Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay   |
 | Tesis                                                    | Kod, Ad, Adres, Eyalet, Ülke               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

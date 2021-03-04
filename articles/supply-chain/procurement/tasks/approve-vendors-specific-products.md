@@ -62,3 +62,6 @@ Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir. Bu, bir 
 31. Sayfayı kapatın.
 32. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

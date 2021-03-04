@@ -107,3 +107,6 @@ Hesap yapılarınızı ayarlarken takip edebileceğiniz bazı iyi uygulama örne
 Yeni kurulumu veya bir hesap yapısında değişikliği yeterli bulduğunuz zaman yapıyı etkinleştirmeniz gerekir. Bir hesap yapısı genel muhasebeye atanırsa, bu etkinleştirme uzun süren bir işlem haline gelebilir çünkü sistemdeki deftere nakledilmemiş tüm hareketlerin yeni yapıya eşitlenmesi gerekir. Deftere nakledilmiş hareketler hesap yapısı değişikliklerinden etkilenmez.
 
 Daha fazla bilgi için bkz. [Hesap planınızı hesaplama](plan-chart-of-accounts.md), [Mali boyutlar](financial-dimensions.md) ve [Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

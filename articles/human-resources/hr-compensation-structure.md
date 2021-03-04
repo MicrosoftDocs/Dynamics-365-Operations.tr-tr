@@ -113,3 +113,6 @@ Yeni sabit ücret planı, plan için Uygunluk kuralları tanımlanana kadar bir 
 
 8. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

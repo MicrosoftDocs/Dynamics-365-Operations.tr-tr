@@ -83,3 +83,6 @@ Teslimat seçenekleri modülü yalnızca bir ödeme modülüne eklenebilir. Tesl
 [Başlık masraflarını satış satırlarıyla eşleştirmek için eşit dağıtma](pro-rate-charges-matching-lines.md)
 
 [Teslimat şekillerini ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

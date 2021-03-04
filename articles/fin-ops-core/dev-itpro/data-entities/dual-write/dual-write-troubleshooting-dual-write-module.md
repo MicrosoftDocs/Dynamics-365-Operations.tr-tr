@@ -87,3 +87,6 @@ Bu hata için düzeltme hatanın nedenine bağlıdır:
 
 + Eşlemeye bağımlı eşlemeler varsa bu tablo eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
 + Eşlemede kaynak veya hedef alanlar eksik olabilir. Finance and Operations uygulamalarında bir alan eksikse, [Eşlemelerde eksik varlık alanları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) bölümlerindeki adımları izleyin. Dataverse'teki bir alan eksikse alanların otomatik olarak eşlemeye geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

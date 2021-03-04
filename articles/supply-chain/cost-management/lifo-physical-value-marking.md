@@ -151,3 +151,6 @@ Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok mo
 - Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
 - Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

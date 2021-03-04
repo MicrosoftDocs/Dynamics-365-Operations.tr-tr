@@ -120,3 +120,6 @@ Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok ye
 11. **Tamam**'a tıklayın.
 12. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

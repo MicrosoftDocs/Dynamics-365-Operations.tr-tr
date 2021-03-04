@@ -53,3 +53,6 @@ Bu görev, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nas�
 6. Yürürlük alanına tarih ve saat girin.
 7. Kazanç oluştur öğesine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

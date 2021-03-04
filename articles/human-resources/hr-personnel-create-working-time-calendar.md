@@ -43,3 +43,6 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
 12. **Tamam**'ı seçin.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

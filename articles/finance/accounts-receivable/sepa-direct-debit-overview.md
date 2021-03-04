@@ -84,3 +84,6 @@ Her iki SEPA Otomatik Ödeme düzeninde de, müşterilerin iade almaya çeşitli
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

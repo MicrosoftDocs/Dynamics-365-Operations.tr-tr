@@ -51,3 +51,6 @@ Standart maliyetlerin madde maliyet verileri standart veya planlanan maliyetler 
 
 [Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

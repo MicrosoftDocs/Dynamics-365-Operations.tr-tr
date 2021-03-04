@@ -147,3 +147,6 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 4. Tamamla öğesine tıklayın.
 5. Tamam'a tıklayın.
 ![ER model eşleme tasarımcısı sayfası](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

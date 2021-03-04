@@ -44,3 +44,5 @@ Bu sürüm, Attract'ta LinkedIn Recruiter tümleştirme için aşağıdaki deği
 - Tarayıcı desteği güncelleştirmeleri (LinkedIn 1 Temmuz 2020 tibarıyla Internet Explorer 11'ı desteklemez)
 
 Daha fazla bilgi için bkz. [Attract'te LinkedIn Recruiter ile aday kaynağı bulma](attract-linkedin-recruiter.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

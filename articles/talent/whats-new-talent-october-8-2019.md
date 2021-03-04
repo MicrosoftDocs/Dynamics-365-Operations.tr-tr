@@ -110,3 +110,6 @@ Bu sürüm, bir performans günlüğü silindikten ve ardından hemen bir yenisi
 ### <a name="print-performance-reviews"></a>Performans incelemelerini yazdırma
 
 Dynamics 365: 2019 sürüm dalgası 2 planındaki [Performans incelemelerini yazdır](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

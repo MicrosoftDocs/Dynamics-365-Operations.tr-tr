@@ -44,3 +44,6 @@ Bu yordam, ürünleri Master planlama ve ürün reçetesi düzeyinde hesaplama d
 5. Listede, seçili satırı işaretleyin.
 6. Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

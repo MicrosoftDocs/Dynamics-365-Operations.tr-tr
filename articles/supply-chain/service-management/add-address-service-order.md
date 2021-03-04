@@ -75,3 +75,6 @@ Servis siparişine alternatif bir adres eklemek için bu adımları izleyin:
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

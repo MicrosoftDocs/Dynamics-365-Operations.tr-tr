@@ -83,3 +83,6 @@ Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Aşağıdaki şekilde, **İş emrini zamanla** iletişim kutusundaki gönderme s
 [!NOTE]
 Bir iş emrindeki zamanlamayı silmek istiyorsanız, **Genel** sekmesinde **Tüm iş emirleri**'nden iş emrini seçip **Zamanlamayı sil**'e tıklayın. Zamanlamayı silerseniz iş emri yaşam döngüsü durumunu el ile güncelleştirmeyi unutmayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

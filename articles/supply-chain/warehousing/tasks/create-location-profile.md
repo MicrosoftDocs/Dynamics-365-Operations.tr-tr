@@ -43,3 +43,6 @@ Bu konu Dynamics 365 Supply Chain Management'ta yerleşim profili oluşturma iş
 10. **Döngü sayımına izin ver** alanında **Evet**'i seçin.
 11. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

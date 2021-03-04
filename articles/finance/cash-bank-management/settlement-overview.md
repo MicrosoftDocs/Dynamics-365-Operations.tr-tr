@@ -78,3 +78,6 @@ Bir hareketi kapatmaya çalıştığınızda, hareketin başka bir konumda işar
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Kalanı kapat](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

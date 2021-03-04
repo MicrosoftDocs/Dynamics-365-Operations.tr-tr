@@ -138,3 +138,6 @@ Bazen bir müşterinin kredi limitini el ile kontrol etmeniz gerekebilir. Örne�
 1.  **Satış ve pazarlama** \> **Yaygın** \> **Satış siparişleri** \> **Tüm satış siparişleri**'ne tıklayın. Bir satış siparişine çift tıklayın.
 
 2.  **Satış siparişi** formunda, Eylem Panosunda, **Yönet** sekmesinde, **Kredi limitini denetle**'ye tıklayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

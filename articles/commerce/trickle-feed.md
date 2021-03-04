@@ -54,3 +54,6 @@ Retail sürüm 10.0.5'te sunulan akış tabanlı sipariş oluşturma özelliğiy
 > **Retail ve Commerce > Retail ve Commerce BT > POS deftere nakli > Ekstreleri toplu işle hesapla** ve **Retail ve Commerce > Retail ve Commerce BT > POS deftere nakli > Ekstreleri toplu işle deftere naklet** menü öğeleri bu yeni özellikle birlikte kaldırıldı.
 
 Alternatif olarak, hareket ve mali tablo türlerini el ile oluşturabilirsiniz. **Retail ve Commerce > Kanallar > Mağazalar**'a gidin ve **Ekstreler**'e tıklayın. **Yeni**'ye tıklayın ve oluşturmak istediğiniz ekstre türünü seçin. **Ekstreler** sayfasındaki alanlar ve sayfanın **Ekstre grubu** altındaki eylemler, seçilen ekstre türüne göre ilgili verileri ve eylemleri gösterir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

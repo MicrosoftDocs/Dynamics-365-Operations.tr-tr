@@ -42,3 +42,6 @@ Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kan
 6. Hazırla'ya tıklayın.
     * Hazırlama işlemi şimdi tamamlandı. Seçili malzeme çekme listesindeki tüm satırlar için seçili onay kutusu, tedarik durumunun çekilmiş olduğunu gösterir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

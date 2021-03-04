@@ -51,3 +51,6 @@ Bu yordam maliyet merkezi mali boyutunu bir veri bağlayıcı aracılığıyla M
 ## <a name="view-the-imported-cost-centers"></a>İçe aktarılan maliyet merkezlerini görüntüleme
 1. Boyut üyelerini görüntüle öğesine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Aşağıdaki konuda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir k
 5. **Saat dili** alanında, açılır listeden bir seçenek belirleyin.
 6. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

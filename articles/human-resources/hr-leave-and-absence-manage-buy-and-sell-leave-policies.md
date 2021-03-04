@@ -80,3 +80,6 @@ ms.locfileid: "4420991"
 [İzin ve devamsızlık planları tahakkuk ettirme](hr-leave-and-absence-accrue.md)</br>
 [İzin satın alma ve satma](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

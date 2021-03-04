@@ -128,3 +128,6 @@ Boyut değeri grubundaki değerler için çevirileri yönetmek üzere aşağıda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

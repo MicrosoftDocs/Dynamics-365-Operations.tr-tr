@@ -64,3 +64,6 @@ Bir satıcıyı kopyaladığınızda, sistem yeni satıcı bilgilerini kaydetmey
 
 1. **Satıcıyı kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Satıcıyı geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın.
 2. **Seç** öğesini seçin. Yeni satıcı oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Yalın planlama grupları, ürünleri kanban planlamada gruplamak ve ayırt etme
 3. Ürün tahsisat anahtarı alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 4. Listede, seçili satırdaki bağlantıya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

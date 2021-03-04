@@ -46,3 +46,6 @@ Belge türünü seçip (örneğin 'satıcı faturası') **Filtre uygula**'ya tı
 [![İş belgesi türü için uygulanan filtre ve içe aktarma](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Filtre uygulanan sonuçlar bir kullanıcı RCS deposuna veya Dynamics 365 Finance ortamına tek başına veya küme olarak aktarılabilir. Bunu yapmak için, yapılandırmalar grubunu seçin ve **İçe aktar**'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

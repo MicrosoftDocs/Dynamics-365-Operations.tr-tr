@@ -230,3 +230,6 @@ Hareket ilişkilerinin aşağıdaki yollarla güncelleştirilmiş olduğunu da d
 - **Miktarı yeni yük olarak ayır** seçeneği, kalan tüm iş başlıklarındaki *işlem* durumları olduğunda da çalışır. Bu nedenle, çalışanlar zaten çekme emirlerini çalıştırıyor olsa bile işlevleri kullanabilirsiniz.
 - **Açık** veya *Sürüyor* durumuna sahip kalan iş olduğunda *yerine getirilmemiş miktarı iptal et*'i seçerseniz, şu hata iletisini alırsınız: "kalan yükleme miktarı iptal edilemiyor. Yükleme için çalışma var."
 - Kalan çalışma olmadığında ancak yükleme üzerinde serbest bırakılmış yükleme satırları varken **yerine getirilmemiş miktarı iptal et**'i seçerseniz, aşağıdaki hata iletisini alırsınız: "madde için miktar, teslimat altında tanımlanan yüzdeyi aştığından, yükleme sevkiyatı onaylanamadı." Hatayı önlemek için, serbest bırakılmamış yükleme satırındaki **eksik teslimat** yüzdesini yüzde 100 olarak ayarlayabilirsiniz. Serbest bırakılmamış satırlar yeni bir yüklemeye taşınmaz, ancak geçerli yük, eksik teslimat ile onaylanır. Bu durumda, özgün siparişi yeniden serbest bırakabilirsiniz. Bu nedenle, bunu başka şekilde işlemeniz gerekecektir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

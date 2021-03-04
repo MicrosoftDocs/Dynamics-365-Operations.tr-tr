@@ -59,3 +59,6 @@ Bu yordamı Maliyet denetimi çalışma alanını yapılandırmak için kullanar
 27. Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.
     * Bir Maliyet nesnesi boyut hiyerarşisini seçtikten sonra, istenilen maliyet değerlerini görmek için Maliyet öğesi boyut hiyerarşisini genişletin. Örneğin, hiyerarşiyi Üretim genel gideri'ne genişleterek değeri görebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

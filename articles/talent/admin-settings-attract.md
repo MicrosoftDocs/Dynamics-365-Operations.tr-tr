@@ -69,3 +69,6 @@ Aday deneyimiyle ilgili seçenekleri de yapılandırabilirsiniz. Örneğin, bir 
 Teklifleri için bitiş tarihi ayarlayabilir ve uygulayabilirsiniz. **Tüm teklifleri için bitiş tarihi gerekli** seçeneğini **Evet** ayarladıysanız, belirttiğiniz gün veya saat sayısından sonra teklifler sona erer.
 
 Teklif yönetimi hakkında daha fazla bilgi için bkz [Teklif yönetimini ayarla](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

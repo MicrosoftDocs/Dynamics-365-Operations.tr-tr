@@ -115,3 +115,6 @@ Sonuç, işi oluştururken kullanılabilen bilgiler nedeniyle farklıdır. **Bö
 [![Örnek 2](media/ReplenTemp_example_2.png "Örnek 2")](media/ReplenTemp_example_2_large.png)
 
 Bu nedenle, stok yenileme yapılan konumlara maksimum miktarı almak için stok yenilemede malzeme çekme için konum yönergelerinde **Bölmeye izin ver** seçeneğini *Evet* olarak ayarlamanız gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

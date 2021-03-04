@@ -56,3 +56,6 @@ Ambar GW ve toplu iş AAA için yürütülen ortalama maliyet fiyatı 11,20 ABD 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin.
 2.  **Arama** alanında, bir personelin adını, soyadını, unvanını veya bölümünü, aramayı başlatmak için girin.
 3.  Bir çalışan seçin. **Personel profili** sayfası görüntülenir. Bu sayfadaki bilgiler arasında personelin adı, soyadı, unvanı ve bölümü bulunur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Bu konu, deftere nakledilen satış vergisi hareketlerini görüntülemenin baz�
 2. Eylem Bölmesinde, **Satış vergisi kodu** öğesine tıklayın.
 3. **Deftere nakledilen satış vergisi**'ni seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

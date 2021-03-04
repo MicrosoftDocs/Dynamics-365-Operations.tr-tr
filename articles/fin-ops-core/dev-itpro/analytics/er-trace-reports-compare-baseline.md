@@ -243,3 +243,6 @@ Bu temel **ER temellerini öğrenme biçimi** biçimi için eklenir.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Elektronik raporlama (ER) altyapısını yapılandırma](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

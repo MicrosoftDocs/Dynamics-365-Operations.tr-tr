@@ -106,3 +106,6 @@ Bir yeni sayfaya video oynatma modülü eklemek ve gerekli özellikleri ayarlama
 [Metin bloğu modülü](add-content-rich-block.md)
 
 [İçerik blok modülü](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

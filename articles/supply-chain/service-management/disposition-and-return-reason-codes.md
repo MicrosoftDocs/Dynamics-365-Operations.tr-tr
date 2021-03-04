@@ -54,3 +54,6 @@ Elden çıkarma kodunu, madde teslim alındığında veya iade edilen maddenin f
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

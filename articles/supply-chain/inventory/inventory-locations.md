@@ -66,3 +66,6 @@ Konumları bir ambardan diğerine kopyalamak ve sihirbaz üzerinden konum oluşt
 --------
 
 [Yeni ambar düzeni oluşturma](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

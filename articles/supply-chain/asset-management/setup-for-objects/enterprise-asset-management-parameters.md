@@ -107,3 +107,6 @@ Aşağıdaki listesinde açıklanan alanların tümü iş emri planlaması sıra
 **Numara serileri** bağlantısı
 
 Gereken numara serilerini bu bölümde seçin. Kıymetler için iki numara sırası vardır: Biri el ile oluşturulan kıymetler ve diğeri de bekleyen kıymetler aracılığıyla oluşturulan kıymetler içindir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

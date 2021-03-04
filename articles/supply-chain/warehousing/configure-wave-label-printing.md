@@ -932,3 +932,6 @@ Dalga etiketlerini aşağıdaki sayfalardan görüntüleyebilir ve yeniden yazd�
 - Dalga etiketi geçmişi
 
 Bu sayfaların çoğu için, Eylem bölmesindeki **Sevkiyatlar** sekmesinde yer alan **İlgili bilgi** grubunda **Dalga etiketleri**'ni seçerek ilgili işlevi bulabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

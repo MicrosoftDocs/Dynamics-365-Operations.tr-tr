@@ -95,3 +95,6 @@ Tüketim kayıtları yaptığınızda, farklı kayıt türleriyle ilgili mali bo
 >[!NOTE]
 >Üç kayıt türü için, mali boyut birleşimi doğrulanır ve geçersiz birleşimler boş bırakılır. Bu, diğer Finance and Operations uygulamalarıyla birlikte standart kurulumdur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

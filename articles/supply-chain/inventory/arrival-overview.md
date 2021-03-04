@@ -121,3 +121,6 @@ Tüm mallar kaydedildiğinde, ambar yöneticisi veya satınalma yöneticisi, fiz
 
 ## <a name="summary"></a>Özet
 **Varış genel bakış** sayfası, ambar yöneticisi ve ambar çalışanlarının, gelen işlemlerin parçası olarak gerçekleştirilmesi gereken beklenen iş hakkında bir genel bakış edinmelerine yardımcı olabilir. Sayfa, madde varış işlemini başlatmak, maddelerin ambara ilk girişte izlenmesini garanti etmek için de kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

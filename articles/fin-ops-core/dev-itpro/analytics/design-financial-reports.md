@@ -197,3 +197,6 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 [Mali raporları görüntüle](../../../finance/general-ledger/view-financial-reports.md)
 
 [Dynamics 365 Finance Blogu](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

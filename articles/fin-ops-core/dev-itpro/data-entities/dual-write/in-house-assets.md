@@ -76,3 +76,6 @@ Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Managem
 [!include [models](includes/AssetManagementModels-msdyn-models.md)]
 
 [!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

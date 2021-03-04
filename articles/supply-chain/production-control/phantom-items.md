@@ -73,3 +73,6 @@ Hayali ürün reçeteleri de bir rota ağına sahip bir ürün reçetesi için k
 Aşağıdaki çizimde, (a) ürün G ve parça F ve G için ürün reçetesidir, ve (b), ürün G ve parça F için rota tablosudur.
 
 ![Ürün G ve parça F rota tablolarıyla](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

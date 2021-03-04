@@ -54,3 +54,6 @@ Bu yordam, size ortak ürünleri bir formül sürümünden sevk edilen bir ürü
 6. Tamam'a tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

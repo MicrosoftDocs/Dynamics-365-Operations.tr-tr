@@ -91,3 +91,6 @@ Bir işlem yapılacak yerleşime varlık yapısı yüklemek için **Varlık yük
 4. **İşlem yapılacak yerleşim** alanında, yeni yerleşimi seçin.
 5. Varsayılan olarak **Etkin** alanı mevcut tarih ve saate ayarlanır. Ancak, varlık yapısına yapılan yüklemenin geçerlilik başlangıcı olarak farklı bir tarih ve saat seçebilirsiniz.
 6. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Planlanan iadeye ait bir kaydı kaydetmek istediğinizde, bir iade siparişini s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

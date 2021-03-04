@@ -380,3 +380,6 @@ Bu nedenle, gördüğünüz gibi, herhangi bir ER biçiminin çalışması, test
 - [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md)
 - [ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.](tasks/er-upgrade-format.md)
 - [ER Lifecycle Services'tan bir yapılandırmayı içe aktarma](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

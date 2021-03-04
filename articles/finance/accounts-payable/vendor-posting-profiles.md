@@ -119,3 +119,6 @@ Deftere nakil profilinizi ayarlamak için aşağıdaki değerleri belirtin
 | **Kapatma** | Bu nakil profilini içeren hareketlerin otomatik kapatılmasını etkinleştirmek için bu seçeneği seçin. Bu seçenek temizlenirse, hareketleri, **Açık hareketleri kapat** sayfasını kullanarak elden kapatmanız gerekir. |
 | **İptal**     | Bu nakil profilini içeren hareketlerin iptal edilmesi seçeneğine sahip olmak istiyorsanız bu seçeneği seçin.                                                                                                               |
 | **Kapat**      | Bu nakil profilini içeren hareketler kapatılırken değiştirmek istediğiniz nakil profilini seçin. Bir hareket tamamen kapatıldığında kapanmış kabul edilir.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Aşağıdaki tabloda arama açıkken kullanılabilecek klavye kısayolları aç�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

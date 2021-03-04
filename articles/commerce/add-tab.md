@@ -84,3 +84,6 @@ Bir sayfaya sekme modülü eklemek ve özellikleri ayarlamak için aşağıdaki 
 [Akordeon modülü](add-accordion.md)
 
 [Metin bloğu modülü](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

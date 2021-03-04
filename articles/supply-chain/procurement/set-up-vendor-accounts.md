@@ -118,3 +118,6 @@ Satıcı kaydındaki **Fatura** sekmesinde açabileceğiniz **Varsayılan hesap 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

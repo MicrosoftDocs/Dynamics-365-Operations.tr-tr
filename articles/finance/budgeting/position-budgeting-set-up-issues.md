@@ -64,3 +64,6 @@ Tahmin pozisyonu maliyet öğesi satırındaki tarihler şu aralıklarda olmalı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Satış siparişi durumu alanlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIn
     ![Tümleştirme kullanıcısı modu alanının değerini Evet olarak değiştirme](media/sales-map-user-mode-yes.png)
 
 Satış siparişleriniz artık eşlendi.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

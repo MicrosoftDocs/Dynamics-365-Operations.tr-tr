@@ -51,3 +51,6 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 16. **Yeni dönem aralığı**'nı seçin. İlk dönem aralığı girildikten sonra yeni dönemler otomatik olarak oluşturulabilir. Gerektiğinde geri dönüp yeni dönem aralıkları ekleyebilirsiniz.  
 17. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

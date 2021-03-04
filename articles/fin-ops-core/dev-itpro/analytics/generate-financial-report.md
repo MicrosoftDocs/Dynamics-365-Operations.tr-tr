@@ -156,3 +156,6 @@ Eksik bir hesap analizini çalıştırdığınızda, aşağıdaki klavye kısayo
 [Mali raporlama](financial-reporting-intro.md)
 
 [Rapor Tasarımcısı arabirimi](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Her kural kümesinde, aşağıdaki alanı ayarlayın:
 - **Önem derecesi**: Kuralın oluşturulacağı önem düzeyini seçin. Düzeyler oluşturmak ve adlandırmak için **Mühendislik değişikliği önem dereceleri** sayfasını kullanırsınız. (Daha fazla bilgi için önceki bölüme bakın.)
 
 Geçerli önem derecesi ayarına kural eklemek veya var olan bir kuralı kaldırmak için **Kurallar** hızlı sekmesindeki düğmeleri kullanın. Her kuralda bir **Kural** alanı ve bir **Ad** alanı vardır. Kurallar sistem tarafından kurulur ve bir ürünün sahip olabileceği değişiklik türlerini gösterir. Ad, değişiklik türünü gösterir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

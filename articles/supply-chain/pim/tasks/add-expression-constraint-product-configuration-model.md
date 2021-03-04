@@ -51,3 +51,6 @@ Bu yordam, bir ürün yapılandırma modeli için nasıl yeni bir kısıtlama if
 4. Kapat’a tıklayın.
 5. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

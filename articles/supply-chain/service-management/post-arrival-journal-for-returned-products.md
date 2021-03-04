@@ -58,3 +58,6 @@ Günlük deftere nakledildikten sonra, iade edilen maddeler stoka kaydedilir ve 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

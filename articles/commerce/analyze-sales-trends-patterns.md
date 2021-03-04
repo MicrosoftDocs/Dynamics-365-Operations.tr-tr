@@ -43,3 +43,6 @@ Kullanıcılar kuruluş hiyerarşisinin farklı düzeylerindeki satış eğiliml
 - **Mağaza yönetimi** çalışma alanı &gt; **Retail ve Commerce** &gt; **Kanallar** &gt; **Mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
 - **Mağaza finansı** çalışma alanı &gt; **Retail ve Commerce** &gt; **Kanallar** &gt; **Mağaza finansı** &gt; **Raporlar** &gt; **Kanal saate göre satışlar raporu**
 - **Sorgular ve raporlar** bölümü &gt; **Retail ve Commerce** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal saate göre satışlar raporu**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

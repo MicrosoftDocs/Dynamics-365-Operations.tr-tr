@@ -123,3 +123,6 @@ Aşağıdaki çizimde, malzeme çekme zamanı yuvasının seçildiği bir e-tica
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Malzeme çekme bilgileri modülü](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

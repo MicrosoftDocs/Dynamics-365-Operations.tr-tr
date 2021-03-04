@@ -226,3 +226,6 @@ Ertelenen mali kaydın el ile yürütülmesini etkinleştirmek için POS düzeni
     1. Güncelleştirilecek düzeni seçin.
     2. Yeni bir düğme ekleyin ve **Mali kayıt işlemini tamamla** düğmesi özelliğini ayarlayın.
     3. **Dağıtım planlayıcısı** sayfasında **1090** işini çalıştırarak değişikliklerinizi kanal veritabanına aktarın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

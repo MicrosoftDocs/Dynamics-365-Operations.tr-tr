@@ -155,3 +155,6 @@ Bu hareketli ortalama örneğinde, ürüne yönelik geçerli hareketli ortalama 
 
 > [!NOTE]
 > Genel muhasebeyi stokla **Hareket saati sıralaması** seçeneğini kullanarak mutabık kılamazsınız. Raporun **Deftere nakil tarihi** seçeneği kullanılarak yazdırılması gereklidir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

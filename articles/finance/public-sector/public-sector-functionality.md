@@ -72,3 +72,6 @@ Aşağıdaki tabloda bu yapılandırma anahtarının diğer yapılandırma anaht
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

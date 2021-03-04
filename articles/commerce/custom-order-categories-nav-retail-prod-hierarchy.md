@@ -88,3 +88,6 @@ Kanal gezinme hiyerarşisinin görüntüleme sırası HQ, Katalog ve kanallarda 
 
 > [!NOTE]
 > Varsayılan olarak, özel sıralama düzeni özelliği kapalıdır. Bu özelliği ve diğer özellikleri nasıl açacağınızı öğrenmek için [Özellik Yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)'ne bakın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

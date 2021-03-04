@@ -96,3 +96,6 @@ Belirli bir tüzel kişilik için serbest bırakılan ürünler *serbest bırak�
 ### <a name="manually-creating-a-new-released-product"></a>Yeni serbest bırakılan ürünü el ile oluşturma
 
 Kuruluşun iş süreçlerine ve bu işlevin kullanılıp kullanılmayacağıyla ilgili kurallara bağlı olarak tek bir çalıştırmada el ile serbest bırakılan ürün oluşturabilirsiniz. Bu işlev yeni bir ürün oluşturur ve bunu otomatik olarak geçerli tüzel kişiliğe serbest bırakır. Yeni ürün oluşturmak için **Serbest bırakılan ürün bakımı** çalışma alanında veya **Serbest bırakılan ürün** liste sayfasında **Serbest bırakılan ürünler**'e tıklayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

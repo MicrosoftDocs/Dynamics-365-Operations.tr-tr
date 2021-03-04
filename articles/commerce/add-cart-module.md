@@ -117,3 +117,6 @@ Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
 
 [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Müşteri Portalı, Power Apps portal şablonu olarak sağlanır. Bunlar Power A
 ![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
 Müşteri Portalı, Supply Chain Management yüklemesinden veri kullanan dışarıdan bakan bir Web sitesi oluşturmak amacıyla Power Apps portalları kullanmak isteyen kuruluşlar için bir başlangıç noktası görevi görür. Kuruluşların çift-yazılır, Supply Chain Management ve Power Apps portallara bağlanmasına yardımcı olur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

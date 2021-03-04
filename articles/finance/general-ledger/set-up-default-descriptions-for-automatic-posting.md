@@ -87,3 +87,6 @@ Bu konunun önceki kısımlarındaki [Varsayılan açıklamalar ayarlama](#set-u
 2. **Referans tablosu** alanında, açıklamaya parametre verilerinin ekleneceği veritabanı tablosunu seçin.
 3. **Referans alanı** alanında, açıklamaya parametre verilerinin ekleneceği alanı seçin.
 4. Daha fazla parametre eklemek için 1 ile 3. adımlar arasındaki işlemleri tekrarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

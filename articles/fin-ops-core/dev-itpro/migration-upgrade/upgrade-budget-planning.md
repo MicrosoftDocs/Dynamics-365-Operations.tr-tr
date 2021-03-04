@@ -162,3 +162,6 @@ Bütçe planlamanı hızlı uygulamasını sağlamak için birden fazla veri var
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

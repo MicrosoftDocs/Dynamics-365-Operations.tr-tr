@@ -94,3 +94,6 @@ Yapılandırma anahtarlarının kullanmak istediğiniz veri varlıkları üzerin
 Yapılandırma anahtarlarını varlık, tablo veya alan düzeyinde her güncelleştirdiğinizde, varlık yönetimi altyapısındaki varlık listesinin yenilenmesi gerekir. Bu işlem altyapının en son yapılandırma anahtarı ayarlarını almasını sağlar. Varlık listesi yenilenene kadar aşağıdaki ileti varlık listesi sayfasında gösterilir. Güncelleştirilen yapılandırma anahtarı değişiklikleri varlık listesi yenilendikten hemen sonra etkinleşir. Yapılandırma anahtarı değişikleri etkin olduktan sonra beklenen şekilde çalıştığından emin olmak üzere mevcut veri projelerini ve işlerini değerlendirmenizi öneririz.
 
 ![Hedef alanları](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

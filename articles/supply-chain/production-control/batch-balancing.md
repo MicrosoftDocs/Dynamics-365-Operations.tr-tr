@@ -193,3 +193,6 @@ Formülde bileşen türünün **Etkin** olduğu en az bir formül satırı bulun
 Formül ambar yönetim işlemleri için etkinleştirilmiş bir ürün için etkin bileşen içeriyor ancak Toplu iş numarası rezervasyon hiyerarşisinde Yerleşimin altında yer alıyorsa, toplu iş dengelemesi toplu iş emri için kullanılamaz.
 
 Toplu iş dengelemesi kullanılamayan bir toplu iş emri toplu iş emirlerine yönelik normal süreçten geçer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

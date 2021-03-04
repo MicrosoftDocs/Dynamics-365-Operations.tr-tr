@@ -39,3 +39,6 @@ Aşağıdaki senaryolar otomatik ve el ile gerçekleştirilen ambara serbest bı
 
 - [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

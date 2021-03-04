@@ -289,3 +289,6 @@ Yapılandırılan veri kaynağı ER yürütmesi [izlenirken](trace-execution-er-
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Performans sorunlarını gidermek için ER biçimi yürütülmesini izle](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

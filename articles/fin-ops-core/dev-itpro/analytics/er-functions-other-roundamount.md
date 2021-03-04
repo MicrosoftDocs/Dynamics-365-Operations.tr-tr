@@ -91,3 +91,6 @@ Sayısal değeri belirtilen sayıda ondalık basamağa yuvarlamak için [ROUND](
 [Diğer (belirli iş etki alanı) işlevleri](er-functions-category-other.md)
 
 [Matematik işlevi](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 | Sevkiyat performansı        | Ürüne göre sevkiyat                       | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Müşteriye göre sevkiyat                      | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Tesise / ambara göre sevkiyat              | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

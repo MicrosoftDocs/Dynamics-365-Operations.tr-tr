@@ -190,3 +190,6 @@ Aşağıdaki ayrıntılar içe aktarılır ve yeni çalışan kaydına dahil edi
 
 [Common Data Service sanal varlıklarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Common Data Service nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

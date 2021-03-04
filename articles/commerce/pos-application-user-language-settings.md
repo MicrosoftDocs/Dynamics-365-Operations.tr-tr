@@ -65,3 +65,6 @@ POS kullanıcısının dil ayarı **Perakende ve Ticaret &gt; Dil** menüsünde 
 | **Şirket** | Varsayılan Değer                    | Varsayılan Değer                                                       |
 | **Mağaza**   | Şirketi geçersiz kılar          | Şirketi geçersiz kılar                                             |
 | **Kullanıcı**    | Mağazayı veya şirketi geçersiz kılar | Hiçbir Zaman                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -265,3 +265,6 @@ Zorunlu bekletme nedeni olan satış siparişleri otomatik olarak serbest bırak
 Kredi yönetimi şu anda yalnızca satış siparişleri için kullanılabiliyor. Serbest metin faturaları, satış noktası siparişleri ve çağrı merkezi siparişleri, kredi limitini ayarlamak için eklediğiniz geçici kredi limitlerini ve sigortayı/garantileri kullanacaktır. Bunlar durdurma kurallarını kullanmayacak ve kredi limitiyle ilgili bir sorun varsa, bekletme listesine alınmayacaktır.
 
 Kredi yönetiminde proje faturaları için destek yoktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Konsinye stoğun sahipliğinin satıcıdan konsinye stoğu tüketecek tüzel ki�
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Konsinye işlemlerdeki satıcı iş birliği
 Satıcılar, satıcı iş birliği arabirimini kullanıyorsa bunu, tesisinizdeki stoğun tüketimini izlemek için kullanabilirler. Satıcı iş birliğini kullanmak için satıcıların ayarlanması hakkında daha fazla bilgi için bkz. [Satıcı portalı kullanıcı güvenliği](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

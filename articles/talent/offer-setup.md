@@ -209,3 +209,6 @@ Attract yöneticisi tarafından yapılandırılabilir teklif oluşturma işlemin
 
 
 Teklif oluşturma işlemi hakkında daha fazla bilgi için bkz. [Teklif oluşturma, onaylama ve imzalama](./creating-offers.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

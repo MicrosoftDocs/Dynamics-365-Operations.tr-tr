@@ -218,3 +218,6 @@ Bu senaryoyu kullanmaya başlamadan önce, aşağıdaki önkoşulların yerine g
 1. **Eksik çekme**'yi seçin.
 1. Bu senaryo için oluşturduğunuz iş özel durum kodunu seçin.
 1. Doğru özel durumu seçtiyseniz, **Hükümsüz kıl ve yeniden yazdır** onay kutusu kullanılabilir olmalıdır. Bu kutuyu seçin ve onaylayın. Onaylandığında, **Etiket derleme kodu** alanı tarafından tanımlanan etiket rulosu sırası değiştirilen iş satırı miktarına göre yeniden hesaplanır. Belirtilen yazıcıda yeniden yazdırılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Yeni bir pozisyon mevcut olduğunda, tüm geçmiş başvuranlarınız ve yetenek
 > Attract kullanmaya yeni başladıysanız, bu yeteneği kullanmaya başlamadan önce eksiksiz profile sahip 10 veya daha fazla başvurana sahip olana kadar beklemeniz gerekir.
 
 Attract, önerilerde önyargılardan kaçınmak için aday profillerinde yalnızca yetenekler, nitelikler ve iş açıklamasıyla eşleşen diğer anahtar kelimeleri tarar. Ek olarak, Attract değerlemeden önce aday profillerinden kişisel olarak tanınmayı sağlayan bilgileri çıkartır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

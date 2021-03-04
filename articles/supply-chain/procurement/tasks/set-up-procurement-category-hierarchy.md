@@ -45,3 +45,6 @@ Bu yordam, tedarik kategori hiyerarşisi içinde yeni düğümler oluşturmayı 
 4. Tedarik kategorisine eklemek istediğiniz ürünleri seçin.
 5. Ürünleri **Seçili** tabloya eklemek için oku seçin.
 6. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

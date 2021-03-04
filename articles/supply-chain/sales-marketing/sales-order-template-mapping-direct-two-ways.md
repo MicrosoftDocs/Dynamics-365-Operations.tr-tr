@@ -207,3 +207,6 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 ## <a name="related-topics"></a>İlgili konular
 
 [Müşteri adayından nakde](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

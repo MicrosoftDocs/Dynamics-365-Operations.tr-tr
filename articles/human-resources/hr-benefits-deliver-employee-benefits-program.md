@@ -68,3 +68,6 @@ Bu makale, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nas�
 16. Temel alanında bir seçenek seçin.
 17. Tutar veya oran alanına bir sayı girin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

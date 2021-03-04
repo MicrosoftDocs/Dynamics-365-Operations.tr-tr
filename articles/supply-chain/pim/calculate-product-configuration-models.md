@@ -105,3 +105,6 @@ Hesaplamalar doğrulamaya dahil değildir. Hesaplamalardaki hataları bulmak iç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Bu kılavuz yakıt dizin bölgesi, yakıt dizini ve taşıyıcı yakıt dizini o
 12. Listede, seçili satırdaki bağlantıya tıklayın.
 13. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

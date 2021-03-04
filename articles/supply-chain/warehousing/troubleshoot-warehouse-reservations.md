@@ -78,3 +78,6 @@ Ancak, "aşağıdaki parti" ayırma hiyerarşisine sahip bir madde kullandığı
 Bu davranış tasarımdan kaynaklanır. Ayırma hiyerarşisindeki **Konum** boyutunun üzerine bir boyut eklerseniz ambara serbest bırakma işlemi öncesinde belirtilmelidir. Microsoft bu sorunu değerlendirmiş ve yük planlama çalışma ekranından ambara serbest bırakma sırasında bir özellik kısıtlaması oluştuğunu tespit etmiştir. **Konum** üzerinde bir veya daha fazla boyut belirtilmemişse kısmi miktarlar serbest bırakılamaz.
 
 Daha fazla bilgi için bkz. [Esnek ambar düzeyi boyut rezervasyonu ilkesi](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

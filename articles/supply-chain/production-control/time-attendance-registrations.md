@@ -119,3 +119,6 @@ Anında geribildirim gerektirmeyen iş görevleri olan ancak proje faaliyetleri 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

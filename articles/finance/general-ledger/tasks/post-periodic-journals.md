@@ -58,3 +58,6 @@ Tutar, metin ve diğer bilgiler periyodik günlük her alındığında tekrarlan
 27. **Periyodik günlük numarası** alanına bir değer girin veya buradan bir değer seçin.
 28. Listede, seçili satırdaki bağlantıya tıklayın.
 29. **Tamam**'a tıklayın. Dönem günlüğü artık gözden geçirilebilir, onaylanabilir veya gereklilik ve ayara bağlı olarak deftere nakledilebilir.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

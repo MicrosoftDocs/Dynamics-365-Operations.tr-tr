@@ -31,3 +31,6 @@ Tüm diğer sair giderlerde olduğu gibi, taşıma nedeniyle oluşan masraflar b
 Masraflara belirli bir **Masraf kodunun** ne zaman uygulanacağını belirleyen uygun ölçütleri tanımlamak için **Taşımacılık yönetimi > Kurulum > derecelendirme > sair giderler**'e gidin.
 
 **Sair gider türü**'nün *Hiçbiri* olarak ayarlandığı her ilgili **Masraflar modülü** ayarı (*Müşteri* ve *Satıcı*) için en az bir kurulumunuz olmalıdır. Bu eksikse sair gider siparişe *eklenmez*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

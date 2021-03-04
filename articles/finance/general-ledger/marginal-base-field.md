@@ -186,3 +186,6 @@ Daha fazla bilgi için bkz. [Satış vergisi kodları için tam tutar ve Aralık
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

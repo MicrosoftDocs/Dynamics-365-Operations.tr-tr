@@ -102,3 +102,6 @@ Geribildirimde bulunacak adayları dahil etmek veya sınırlamak için **Mülaka
 Görüşme etkinliği, üç bileşene sahip isteğe bağlı bir etkinliktir: **Aday uygunluk talebi**, **Planlama** ve **Geribildirim**. Adayın uygunluk talebini, zamanlamasını ve geribildiriminin tamamını tek tek kullanmak yerine işlemin parçası olarak dahil etmek istiyorsanız, iş şablonunda mülakat etkinliğini kullanın.
 
 Mülakata alınacak adayları dahil etmek veya sınırlamak için **Kime mülakat yapıyorsunuz** alanındaki değeri değiştirin. Kullanılabilir seçenekler **Tüm Adaylar**, **Harici Adaylar** ve **Dahili Adaylar**'dır. Örneğin, dahili adayları ilk tur mülakatta atlamak istiyorsanız, **Kime mülakat yapıyorsunuz**'u **Harici Adaylar**'a ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

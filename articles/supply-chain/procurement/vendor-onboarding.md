@@ -175,3 +175,6 @@ Aday satıcı kaydı talebindeki **Sil** eylemini kullanarak oluşturulan kayıt
 |         Onaylandı         |                                                                               Satıcı talebi onaylanır.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
 |         Reddedildi         |                                                                               Satıcı talebi reddedilir.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Aşağıdaki raporlar nesneler hakkında referans bilgileri sağlar:
 - [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md)
 - [Kullanılabilir SQL Server Reporting Services (SSRS) raporları](SSRS-report.md)
 - [İş akışı türleri raporu](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

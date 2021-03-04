@@ -118,3 +118,6 @@ Bu özellik şu anda önizlemededir. Bu adımları izlemeden önce, LinkedIn ile
 [Attract'te iş oluşturma, onaylama ve yayımlama](./creating-jobs-attract.md)
 
 [LinkedIn ve Microsoft Dynamics 365 Talent - Attract ile tümleştirmede sorun giderme](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

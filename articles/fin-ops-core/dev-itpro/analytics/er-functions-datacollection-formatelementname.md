@@ -53,3 +53,6 @@ Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için [ER Sayma ve
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Veri toplama işlevleri](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

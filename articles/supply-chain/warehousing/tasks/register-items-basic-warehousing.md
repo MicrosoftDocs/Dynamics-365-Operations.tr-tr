@@ -58,3 +58,6 @@ Bu prosedürde, Stok yönetimi modülündeki "temel depolama" işlevini kullanı
 2. Ürün girişi seçeneğine tıklayın.
 3. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -354,3 +354,6 @@ Aşağıdaki senaryolar, bu konuyu okurken oluşturduğunuz sevkiyat konsolidasy
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Sevkiyat konsolidasyonu ilkeleri](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

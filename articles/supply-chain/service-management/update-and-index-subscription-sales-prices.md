@@ -55,3 +55,6 @@ Abonelik taban fiyatı veya endeksi belirtilen değere göre güncelleştirilir.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

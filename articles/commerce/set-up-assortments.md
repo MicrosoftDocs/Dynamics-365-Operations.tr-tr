@@ -55,3 +55,6 @@ Bir ürün sınıfı ayarlamadan ve bunu bir ticaret kanalına atamadan önce a�
 2. Ürün sınıfının uygulanacağı kanallarını veya yüksek düzey kanalı gruplarını seçin.
 3. Ürün sınıfına ürün kategorileri, bireysel ürünler veya ürün varyantları ekleyin. Tüm ürünleri belirli bir kategoriye ekleyebilir veya seçilen ürünleri ürün sınıfına dahil edilen bir kategoriden çıkarabilirsiniz.
 4. Ürün sınıfını yayınlayın. Bir ürün sınıfını yayınladığınızda, ürün sınıfı planlayıcı otomatik olarak çalışır. Bu işlem, ürün listesini oluşturur. Bu işlem tamamlandığında, ürünler ürün sınıfının atandığı kanalları tarafından kullanılabilir duruma gelir. Yayınlanmış olan bir ürün sınıfında veya ürün sınıfının atandığı kanallarda değişiklikler yapılırsa, ürün sınıfının da güncelleştirilmesi gerekir. Değişiklikler yapıldığında ürün sınıfını güncelleştirmek için ürün sınıfı planlayıcıyı toplu iş olarak çalıştırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

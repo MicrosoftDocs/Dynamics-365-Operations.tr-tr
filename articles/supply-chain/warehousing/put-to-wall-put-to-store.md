@@ -541,3 +541,6 @@ Tasnif konumlarının el ile kapatılması gerekiyorsa, giden tasnif şablonu i�
 
 > [!IMPORTANT]
 > Hareket işi tasnif yerleşiminden oluşturulduktan sonra, işi iptal etmeniz gerekir. Aksi durumda, konum ve içerdiği konteynerler sistemden silinir ve daha fazla işlem için kullanılamaz. Stok da kaldırılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

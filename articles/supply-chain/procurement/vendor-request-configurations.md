@@ -54,3 +54,6 @@ Ayrıca, sihirbaz tamamlandığı zaman gösterilecek bir onay iletisi girebilir
 4.  Yapılandırmanın kullanılacağı ülkeyi/bölgeyi seçmek için **Ülke/bölgeler** sekmesini açın.
 5.  Varsayılan yapılandırma talimatlarını izleyerek yapılandırmayı tamamlayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

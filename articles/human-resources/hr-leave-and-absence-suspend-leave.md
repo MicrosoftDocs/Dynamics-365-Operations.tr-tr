@@ -49,3 +49,6 @@ Bir çalışanın izni askıya alındığında tahakkuklar işlenirse, askıya a
 - [İzin ve devamsızlık türlerini yapılandırma](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

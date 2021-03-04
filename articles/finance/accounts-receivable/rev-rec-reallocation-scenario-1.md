@@ -58,3 +58,6 @@ Yeniden tahsisatı tamamlamak için **İşlem**'i seçin. Deftere hiçbir şey d
 > Bu ek maddelerin neden gösterildiğiyle ilgili bağlam sağlamak için kılavuza **Yeniden tahsisat kodu** ve **Satış siparişi** gibi başka sütunlar ekleyebilirsiniz.
 > 
 > [![Gelir fiyatı tahsisatları sayfasındaki ek sütunlar](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

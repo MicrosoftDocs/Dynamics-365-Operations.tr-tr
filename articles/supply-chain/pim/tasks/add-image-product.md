@@ -37,3 +37,6 @@ Bu yordam, bir ürüne bir resmin nasıl ekleneceğini gösterir. Bu görevi olu
 5. Yeni'ye tıklayın.
     * Gözat düğmesine tıklayın. Kullanmak istediğiniz resmi bulun, seçin ve ardından iletişim kutusunu kapatın.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Ayrı raporlar, her hareket tipi için bilgi sağlar. Raporlanan üretim faaliye
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

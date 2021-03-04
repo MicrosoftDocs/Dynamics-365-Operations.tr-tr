@@ -60,3 +60,6 @@ Bu örnekte kullanılan biçim, ISO20022 Borç transferidir ancak daha önce iç
 21. Konu alanına bir değer yazın.
 22. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

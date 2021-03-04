@@ -146,3 +146,6 @@ Sürüm boyutu diğer ürün boyutları gibi çalışır. Ancak, özel yapısı 
 
 > [!IMPORTANT]
 > Sürüm boyutunu açar ve kullanırsanız, stok boyutlarına başvuran bazı çözümler beklendiği gibi çalışmayı durdurabilir. Bu sorunları onaylamak ve gidermek için, etkilenen çözümlerinizin bağımsız yazılım satıcısına (ISV) başvurun. Daha fazla bilgi için bkz. [Sürüm boyutunu etkinleştirme](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

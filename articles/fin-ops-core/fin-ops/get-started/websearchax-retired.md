@@ -34,3 +34,6 @@ site:technet.microsoft.com dynamics ax 2012 "arama terimi"
 veya
 
 site:msdn.microsoft.com dynamics ax 2012 "arama terimi"
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

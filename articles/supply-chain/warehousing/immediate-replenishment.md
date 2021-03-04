@@ -57,3 +57,6 @@ Bir yerleşim yönergesi satırı için anlık stok yenileme seçilir ancak bu y
 
 - Uygulanan talep stok yenileme şablonunun doğru yerleşim şablonlarıyla ve **Stok yenileme** türünde iş şablonları ile kullanılmak üzere ayarlandığından emin olun.
 - Talep stok yenileme şablonunun stok yenileme için eldeki stoğu aradığı yerleşimlerde yeterli eldeki stok bulunduğundan emin olun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

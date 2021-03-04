@@ -154,3 +154,6 @@ Mağaza ile ilgili bir girişin yazdırılması ve ödeme için nakit kullanılm
 - [Android ve iOS'ta POS Hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Ağ çevrebirim desteğine genel bakış](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

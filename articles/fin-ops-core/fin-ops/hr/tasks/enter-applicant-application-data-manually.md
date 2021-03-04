@@ -61,3 +61,6 @@ Bu yordam başvuranlar ve başvuruları hakkındaki bilgileri el ile girmeyi gö
 6. Kaydet'e tıklayın.
     * Uygulama kaydettikten sonra, başvuranın deneyimi, ödülleri ve kapak mektubu gibi belgeleri ekleyebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

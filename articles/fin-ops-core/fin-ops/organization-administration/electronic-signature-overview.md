@@ -109,3 +109,6 @@ Onaylayanları belirlemek için aşağıdaki adımları izleyin.
 1. **Seçenekler** sayfasında **Hesaplar** sekmesinde **Onaylayanı belirle** öğesine tıklayın.
 2. **Onaylayan kullanıcının kimliği** alanında, başka bir kullanıcının değişikliklerini imzalaması gereken kullanıcı kimliğini seçin.
 3. **Kullanıcı kimliği için imza yetkisi** alanında, değişiklikleri imzalanacak kullanıcının kimliğini seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

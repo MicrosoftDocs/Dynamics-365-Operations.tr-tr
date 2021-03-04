@@ -65,3 +65,6 @@ Mantıksal işlevlerin bağımsız değişkenlerinde, veri kaynağı başvurular
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mantıksal işlevler](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

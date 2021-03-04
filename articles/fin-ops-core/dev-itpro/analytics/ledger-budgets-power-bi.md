@@ -57,3 +57,6 @@ Aşağı tablo, **Gerçek ve bütçe** karşılaştırması Power BI içeriğini
 | Genel muhasebe defterleri                   | Genel muhasebeler, geçerli genel muhasebe için raporları filtrelemek için kullanılabilir              |
 | Bütçe Kodları              | Raporların filtreleneceği bütçe kodları                                                |
 | Tüzel Kişilikler            | Tüzel kişilikler, geçerli tüzel kişilikler için raporları filtrelemek için kullanılabilir |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

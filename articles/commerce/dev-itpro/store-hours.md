@@ -78,3 +78,6 @@ Yazdırılan POS alış irsaliyelerine mağaza saatleri eklemek için bu adımla
 POS makbuzları şimdi mağaza saatlerini içerir. Şablonda herhangi bir tatil varsa, bunlar alındı bilgisi içinde gösterilir.
 
 ![Makbuz örneği](../dev-itpro/media/Storehours3.png "Makbuz örneği")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

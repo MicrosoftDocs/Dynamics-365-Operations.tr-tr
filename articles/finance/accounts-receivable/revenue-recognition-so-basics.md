@@ -97,3 +97,6 @@ Faturanın oluşturulmasının ardından gelir kabulü için **Gelir fiyatı tah
 Beklenen gelir kabulü planı kaldırılır ve son gelir kabulü planıyla değiştirilir. Gelir planı ayrıntıları her satış siparişi satırı için korunur ve sözleşme yükümlülükleri karşılandıkça ertelenen geliri gerçek gelire serbest bırakmak için kullanılır.
 
 [![Son gelir kabulü planı](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

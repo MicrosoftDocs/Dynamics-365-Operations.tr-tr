@@ -622,3 +622,6 @@ Ambar 51 için iş ve konum verilerini, kalite emirleri tamamlandığında işin
 
 > [!NOTE]
 > Etkinlik kodunun *Açık iş listesini görüntüle* olduğu bir mobil cihaz menü öğesine bir kalite çıkış girişi eklemeyi düşünün. Örnek olarak, demo verilerdeki **İş listesi** adlı mobil cihaz menü öğesine bakın. Öncelikle *Kalite emri* iş sınıfını kullanıcı tarafından yönlendirilen bir menü öğesine ekleyin; çünkü işin iş listesinde görünmesi için bu iş sınıfı gereklidir. Sonra *Kalite emri* iş sınıfını **İş listesi** menü öğesine ekleyin. Bu durumda, iş listesine erişimi olan kullanıcılar otomatik olarak kalite emri doğrulaması tarafından oluşturulan işi çekebilir ve işleyebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

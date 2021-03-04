@@ -78,3 +78,6 @@ Varlık Yönetiminde iş emirleriyle ilgili tüketim kayıtları oluşturup deft
 >[!NOTE]
 >Ayrıca, daha fazla iş emri ayrıntısı içeren [iş emri raporu](../work-orders/work-order-report.md) da oluşturabilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Yanlışlıkla bir kanban boşaltılırsa veya alınan bir kanbanın boşaltılm
 2. Listede, seçili satırı işaretleyin.
     * İşlem ünitesi durumunun Boşaltıldı olduğuna dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

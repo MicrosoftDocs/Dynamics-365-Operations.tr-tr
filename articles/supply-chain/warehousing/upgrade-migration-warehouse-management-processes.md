@@ -83,3 +83,6 @@ Yükseltme sırasında engellenen ürünlerin engelini kaldırmak üzere ürünl
 6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Officetümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](../../dev-itpro/data-entities/data-entities.md) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
 7.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 8.  Değişiklikleri işleyin. Stok boyutlarının güncelleştirilmesi biraz zaman alabilir. İlerlemeyi toplu iş görevlerini kullanarak izleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Bu konu, genel amaçlı yapılandırma havuzundan [elektronik raporlama (ER) yap
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Görev kılavuzunu tamamlamak için aşağıdaki dosyaları indirin:
 
 - [ER modeli yapılandırması - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER biçimi yapılandırması - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

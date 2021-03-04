@@ -205,3 +205,6 @@ Etkinleştirmeyle ilgili ek bilgiler cihazın etkinleştirme durumunu değiştir
 ### <a name="client-data-synchronization"></a>İstemci verilerini eşitleme
 
 Cihazın etkinleştirme durumundaki değişiklikler hariç POS istemcisindeki tüm değişikliklerin etkinleştirilmesi için kanal veritabanıyla eşitlenmesi gerekir. Kanal veritabanındaki değişiklikleri eşitlemek için **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Dağıtım planı**'na gidin ve gerekli dağıtım planını çalıştırın. İstemci değişiklikleri için **Kayıtlar** ve **Kanal yapılandırması** dağıtım planlarını çalıştırmalısınız.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

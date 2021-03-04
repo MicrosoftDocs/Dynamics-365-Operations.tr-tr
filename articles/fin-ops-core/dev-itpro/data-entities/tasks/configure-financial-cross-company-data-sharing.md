@@ -59,3 +59,6 @@ Bu görev kılavuzu Dynamics AX platformu 7.1 veya sonrasını gerektirir.
 27. Sayfayı yenileyin.
 28. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

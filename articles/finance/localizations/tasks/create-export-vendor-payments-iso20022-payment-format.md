@@ -50,3 +50,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak satıcı öd
     3.    **Dosya adı** alanına bir değer girin. Bu örnekte, EUR ödemesi nedeniyle oluşturulan dosya SEPA uyumlu olacaktır. ISO20022 kredi transferi ve diğer satıcı ödeme biçimleri de diğer para birimlerinde ödemeler oluşturmak için kullanılabilir.
     4.    **Banka hesabı** alanında bir değer girin veya seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

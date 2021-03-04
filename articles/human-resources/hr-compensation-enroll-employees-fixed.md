@@ -39,3 +39,6 @@ Tazminat ve kazançlar yöneticisi, personelin ödeme oranlarını yönetmek ama
     * Sabit ücret planı bir adım planıysa, personel için doğru ödeme oranını içeren adım seçin. Sabit ücret planı bir kademeli plan veya bant planıysa, personel için doğru ödeme oranını girin. Ödeme oranı, planın toleransı ayarlarına ve iş maaş düzeyinin minimum maksimum referans noktalarına bakılarak doğrulanır.  
 8. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Seçilen teslimat şekli sipariş veya sipariş satırı için tanımlanmış ü
 Örneğin ertesi gün havayoluyla sevk edilecek siparişler için, ambardan malzeme çekme işleminin her gün 13:00'a kadar yapılması gerekir. Bu durumda, bir hızlandırma kodu oluşturulabilir ve bu kod, sistemde yapılandırılmış herhangi bir ertesi gün teslimat şekline bağlanabilir. Ambar, çekme dalgasını oluştururken, **Hızlandır** alanındaki ilgili hızlandırma kodu bir filtre olarak kullanılıp, malzeme çekme işleminin, teslimat şekilleri yalnızca o kodla bağlantılı siparişler için çalıştırılması sağlanabilir.
 
 Ek olarak, bir çağrı merkezi siparişi girilirken ya satış siparişi üst bilgisine veya tek bir satış sipariş satırına el ile bir hızlandırma kodu uygulanabilir. Yine, bu kod, sıralama veya raporlama amacıyla kullanılabilir. Bazı durumlarda, bir müşteri hizmeti sorunu nedeniyle bir siparişin dikkatle ele alınması gerekir. Böyle durumlarda, sipariş karşılama sürecinde siparişin saptanıp öncelik kazanmasına yardımcı olmak için sipariş üst bilgisine veya satırlarına belirli bir hızlandırma kodu uygulanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 11. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Her ek için tek bir XML düğümü oluşturulduğunu unutmayın. Ek'in içeriği XML çıktısına MIME (base64) metin biçiminde doldurulur.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

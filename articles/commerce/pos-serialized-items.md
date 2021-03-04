@@ -95,3 +95,6 @@ Bu tür bir doğrulamayı önkoşul olarak etkinleştirmek için, aşağıdaki i
 [POS'ta gelen stok işlemi](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [POS'ta giden stok işlemi](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Mevcut iş süreçlerinin hangilerinin geçerli yaşam döngüsü durumundaki ü
 | Poliçe | Bu yaşam döngüsü durumunda olan ürünler için geçerli işleme izin verilip verilmediğini denetlemek üzere aşağıdaki değerlerden birini seçin:<ul><li>**Etkin**: İş sürecine izin verilir.</li><li>**Engellendi**: İşleme izin verilmez. Bir kullanıcı, bu yaşam döngüsü durumunda olan bir üründe işlem kullanmaya çalışırsa, sistem girişimi engeller ve bir hata görüntüler. Örneğin, kullanım ömrü sonundaki ürünlerin satın alınmasını engelleyebilirsiniz.</li><li>**Uyarı ile etkinleştirildi**: İşleme izin verilir ancak bir uyarı görüntülenir. Örneğin, araştırma ve geliştirme departmanı tarafından oluşturulan bir üretim emrine bir prototip ürününün yerleştirilmesini isteyebilirsiniz. Ancak diğer departmanlar ürünü henüz üretmemelidir.</li></ul> |
 
 Daha fazla yaşam döngüsü durumu kuralını özelleştirme olarak ekliyorsanız üst bölmede **Süreçleri yenile**'yi seçerek bu kuralları kullanıcı arabiriminde (UI) görüntüleyebilirsiniz. **Süreçleri yenile** düğmesi yalnızca yöneticiler tarafından kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

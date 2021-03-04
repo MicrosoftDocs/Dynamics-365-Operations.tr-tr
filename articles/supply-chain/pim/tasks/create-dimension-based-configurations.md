@@ -53,3 +53,6 @@ Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tan
     * İçeriğini açıklamak için bir yapılandırma açıklaması girin.  
 11. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

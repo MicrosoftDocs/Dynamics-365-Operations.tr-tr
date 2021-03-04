@@ -75,3 +75,6 @@ Bu, üretim emirleri desteğinin bir parçası olarak planlanan beklemedeki bir 
 [Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

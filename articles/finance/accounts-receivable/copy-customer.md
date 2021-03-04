@@ -64,3 +64,6 @@ Bir müşteriyi kopyaladığınızda, sistem yeni müşteri bilgilerini kaydetme
 
 1. **Müşteriyi kopyala** seçeneği görüntülenir. Varsayılan olarak bu seçenek **Hayır** olarak ayarlanmıştır. Müşteriyi geçerli tüzel kişiliğe kopyalamak için seçeneği **Evet** olarak ayarlayın. 
 2. **Seç** öğesini seçin. Yeni müşteri oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

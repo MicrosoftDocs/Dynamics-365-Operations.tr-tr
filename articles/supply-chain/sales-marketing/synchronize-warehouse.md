@@ -81,3 +81,6 @@ Aşağıdaki görsel, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Ambarlar (Supply Chain Management'tan Field Service'e): Ambar
 
 [![Veri tümleştirmede şablon eşleme](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Commerce uygulamanız için ürün çeşitlerini planlayıp yönetirken aşağı
 - **Ürün çeşitleri dışındaki satışlar ve iadeler** – Bu özellik perakendecilerin kendi ürün çeşitlerini mağaza için temel ürün yelpazesine ait ürünler için ürün sayısını vererek etkin biçimde yönetmesine yardımcı olur. Bu özellik ayrıca perakendecilerin bir ürünün yanlışlıkla bir ürün çeşidinde eksik kalması ya da bir ürünün ürün çeşidine ilişkin geçerlilik tarihleri dışında iade edilmesi durumunda yardımcı olur.
 
 Ürün verileri kanal veritabanında yoksa, POS gerekli bilgileri almak için merkeze gerçek zamanlı bir ağrı yapar ve böylece ürün satılabilir, iade edilebilir veya müşteri siparişine konulabilir. Bu şekilde alınan ürün bilgileri yalnızca bu hareket kapsamı süresince kullanılabilir. Ürün ürün çeşidi tanımına eklenmez. Bu nedenle, daha sonra gerektiğinde gerçek zamanlı çağrılar yapılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

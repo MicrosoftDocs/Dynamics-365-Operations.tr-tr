@@ -78,3 +78,6 @@ Yeni bir seçenek, yöneticilerin hem doğrudan raporların hem de genişletilmi
 1 Ağustos 2019 tarihinde Talent için Kanada ve Güneydoğu Asya bölgelerinin kullanılabileceğini duyurmaktan mutluyuz. Bu değişiklikle, Kanada ve Asya bölgelerinde ortam oluşturabilirsiniz ve tüm Talent verileri yalnızca bu konumlarda tutulur. Yeni Ortam iletişim kutusunda yer alan yeni bölgelerde bir ortam oluşturabilirsiniz ve bu ortamı, [Talent Sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent)'da açıklandığı gibi LCS'de Talent sağlamak için kullanabilirsiniz.
 
 Varolan projelerin diğer bölgelerden Kanada ve Asya bölgelerine veri taşınması desteklenmez. Yalnızca yeni projeler, bu yeni desteklenen bölgeler için sağlanabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

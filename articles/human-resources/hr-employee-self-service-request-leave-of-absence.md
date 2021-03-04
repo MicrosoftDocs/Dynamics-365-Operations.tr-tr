@@ -53,3 +53,6 @@ Bir devamsızlık durumu için istek gönderebilir ve Dynamics 365 Human Resourc
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

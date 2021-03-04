@@ -41,3 +41,6 @@ Daha fazla bilgi için bkz. [Ana hesap kategorileri ayarlama](tasks/set-up-main-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

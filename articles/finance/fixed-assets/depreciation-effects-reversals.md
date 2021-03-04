@@ -96,3 +96,6 @@ Amortisman 16,95 değeri kadar daha az belirtilir (983,62 - 966,67).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

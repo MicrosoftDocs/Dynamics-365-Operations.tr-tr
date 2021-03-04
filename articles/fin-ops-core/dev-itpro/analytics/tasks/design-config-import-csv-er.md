@@ -124,3 +124,6 @@ Sınama amacıyla, daha önce yüklediğiniz 1099entriescsv.csv dosyasını kull
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan CSV dosyasındaki tüm 7 satırın da işlendiğini unutmayın. Alan başlıklarını içeren satır 1 atlandı, 4 hareket doğru şekilde ayrıştırıldı ve 2 hareket geçerli olarak tanındı.
 3. Sayfayı kapatın.
 4. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

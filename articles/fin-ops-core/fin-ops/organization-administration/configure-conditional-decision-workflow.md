@@ -52,3 +52,6 @@ Sistem, gönderilen belgeyi belirli koşulları karşılayıp karşılamadığı
     2. Formdaki **Koşulu doğrula** alanından bir kayıt seçin.
     3. **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.
     4. **Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Aşağıdaki görüntü Finance and Operations'taki diğer modüllere yönelik a
 ![Varlık Yönetimi tümleştirmesine genel bakış](media/overview-integrate2.jpg)
 
 Varlık Yönetimi, şirketinizdeki makineler, üretim ekipmanları ve araçlar gibi birçok ekipman türünü yönetmek ve bakım hizmeti vermek için ilgili görevleri verimli bir şekilde yönetmenize ve gerçekleştirmenize olanak tanır. Varlık Yönetimi birçok sektördeki çözümleri destekler.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

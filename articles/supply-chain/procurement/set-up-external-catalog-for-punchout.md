@@ -114,3 +114,5 @@ Harici satıcı kataloğundaki bir ürünün istenmiş olması durumunda, harici
 
 - [CXML geliştirmeleri satın alma](purchasing-cxml-enhancements.md)
 - [PunchOut e-procurement için harici katalogları kullanma](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

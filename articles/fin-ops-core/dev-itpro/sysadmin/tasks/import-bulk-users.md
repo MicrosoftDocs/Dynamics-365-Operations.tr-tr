@@ -58,3 +58,6 @@ Toplu içeri aktarma seçeneğini kullanırken kullanıcı seçmek mümkün değ
 ## <a name="run-in-a-sandbox-environment"></a>Bir korumalı alan ortamında çalıştırın
 1. **Toplu içeri aktarma**'yı seçin.
 2. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

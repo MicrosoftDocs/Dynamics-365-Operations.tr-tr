@@ -84,3 +84,6 @@ Bu haftaki yapıda, **Yetenek eksikliği analizi** sayfasında iş seçilirken a
 ### <a name="print-performance-reviews"></a>Performans incelemelerini yazdırma
 
 Çalışanlar, Yöneticiler ve İK uzmanları bir çalışanın performans incelemesini yazdırabilecekler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

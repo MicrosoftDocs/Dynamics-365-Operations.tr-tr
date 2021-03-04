@@ -75,3 +75,6 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
     * Intrastat raporunu oluşturmak için kullanılan biçimin yapısını gözden geçirin. 'Giden belge' ana öğesi üzerine dayanan veri modelinden verileri yerleştirerek bir XML dosyası oluşturmak üzere tasarlandığını unutmayın. Oluşturulan dosyanın adının kullanıcı iletişim kutusunda tanımlandığından emin olun (bunun için 'fn' veri kaynağı kullanılır).   
 30. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

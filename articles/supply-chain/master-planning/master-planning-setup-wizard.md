@@ -209,3 +209,6 @@ Sihirbazda, Contoso Retailer için aşağıdaki değerler girilir:
     - **Cevap:** "Evet, bu master planda tanımlandığı gibi." **1 gün** girilir.
 
     Contoso, bu mağazaları yenilemek için planlanan satınalma siparişleri oluşturmak üzere mağazalardan onaylanan talepleri kullanır. Master planlama her gün çalıştırıldığından, son günden gelen talepler planlamaya dahil edilecektir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -133,3 +133,6 @@ Bir iş emrine veya bakım isteğine eklenebilen düzeltici ve onarım öneriler
 
 > [!NOTE]
 > Hata semptomlarınızın adlarını, alanlarını, türlerini, nedenlerini ve gereksinim duyduğunuz değişiklikleri değiştirebilirsiniz. Ad değişiklikleri otomatik olarak ilgili hata kayıtlarında yansıtılır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

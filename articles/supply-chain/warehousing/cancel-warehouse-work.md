@@ -45,3 +45,6 @@ Ambar çekme işlemleri sırasında, bir çalışan bir depolama konumundan kend
 İşin engelini kaldırmak için sistem kalan tüm iş satırlarını iptal eder ve kullanıcının belirttiği iş koduyla ilişkilendirilmiş ambar verilerini düzeltir. Etkilenen madde miktarıyla ilgili normal ambar işleme operasyonları daha sonra devam edebilir.
 
 İş iptal edildikten sonra etkilenen maddeyi belirli bir konuma koymak için, kullanıcının bir mobil cihazda stok hareketi veya miktar düzeltmesi işlemi kullanması gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

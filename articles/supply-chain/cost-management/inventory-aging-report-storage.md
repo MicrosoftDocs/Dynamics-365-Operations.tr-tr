@@ -57,3 +57,6 @@ Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yön
     > Form, rapor düzeninde tanımlanan alt toplamları içermez.
 
 **Stok yaşlandırma raporu** veri varlığı, **İşlem Tanımlayıcısı – Ad** alanı için bir filtre uygulayarak **Stok yaşlandırma raporu depolama** raporunun çıktısını Veri yönetiminin desteklediği herhangi bir biçimde dışa aktarmanıza olanak tanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -205,3 +205,6 @@ Aşağıdaki çizim, mantık uygulamasının tüm adımları başarıyla çalı�
 Bu öğreticide, İnsan Kaynakları'ndan alınan verileri dışa aktarmak ve dışa aktarılan verileri bir OneDrive İş klasörüne kaydetmek için bir mantık uygulamasının nasıl kullanılacağını öğrendiniz. Bu öğreticinin adımlarını, iş gereksinimlerinize uygun şekilde değiştirebilirsiniz.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

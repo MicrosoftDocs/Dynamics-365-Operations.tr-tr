@@ -67,3 +67,6 @@ Bir ürün yapılandırma modeline bir tablo kısıtlaması getirilebilmesi içi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

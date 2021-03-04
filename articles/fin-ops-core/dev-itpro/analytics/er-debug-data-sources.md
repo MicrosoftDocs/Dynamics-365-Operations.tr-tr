@@ -281,3 +281,6 @@ Daha önce listelenmiş yapılandırmalardan herhangi bir yapılandırma ağacı
 6. **Banka hesabı** alanında **DEMF OPER** öğesini seçin.
 7. **Ödeme oluştur** iletişim kutusunda **Tamam**'ı seçin.
 8. **Elektronik rapor parametreleri** iletişim kutusunda **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

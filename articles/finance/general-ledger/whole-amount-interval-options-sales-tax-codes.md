@@ -90,3 +90,6 @@ Daha fazla bilgi için bkz. [Marjinal taban ve Hesaplama yöntemlerini temel ala
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

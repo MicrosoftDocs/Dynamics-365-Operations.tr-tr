@@ -86,3 +86,6 @@ Finance and Operations Platform güncelleştirmesi 24 ile kullanıcılar otomati
 Bu değişiklikle, isim alanlarını girdiğinizde yinelenenler tespit edilir ve yinelenenlerin sayısını görüntüleyen bir durum gösterilir. Sağlanan bağlantıyı tespit edilen eşleşmeyi kullanıp kullanmamak üzere yeni bir sayfa açmak için seçebilirsiniz. Yinelenenler formu, veri girişini kesintiye uğratmayı önlemek için otomatik olarak açılmaz.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

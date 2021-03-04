@@ -95,3 +95,6 @@ Deneme kapsamını **Denemeyi bağla** sihirbazında **tam** olarak tanımladıy
 
 ## <a name="next-step"></a>Sonraki adım
 [Deneme önizleme ve yayımlama](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

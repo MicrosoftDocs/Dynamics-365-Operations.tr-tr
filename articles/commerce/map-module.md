@@ -82,3 +82,6 @@ Bir sayfada harita modülünü yapılandırma hakkında ayrıntılı bilgi için
 [Kuruluşunuz için Bing Haritalar'ı yönetme](./dev-itpro/manage-bing-maps.md)
 
 [Bing Haritalar V8 Web Denetimi](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

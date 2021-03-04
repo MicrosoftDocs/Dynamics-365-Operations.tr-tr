@@ -47,3 +47,6 @@ Her oluşum, kendilerinden çıkan serilerin tanımladığı diğer oluşumları
 ## <a name="developer-documentation"></a>Geliştirici belgesi
 
 Süreç otomasyonu altyapısı geliştiricilerin süreç otomasyonu altyapısını genişletmesine olanak tanır. [Süreç otomasyonu altyapısı](../process-automation/process-automation-framework.md) belgeleri, işlem otomasyonu sihirbazıyla zamanlanmış toplu iş sunucusu tarafından çalıştırılmasını ve takvim görünümünde otomatik olarak gösterilmesini istediğiniz özel işlemleri nasıl oluşturacağınız hakkında bilgiler sağlayacak.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

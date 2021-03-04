@@ -49,3 +49,6 @@ Bu örnekte 2016 yılı boyunca güncelleştirmeleri yönetmek için bir ek mali
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

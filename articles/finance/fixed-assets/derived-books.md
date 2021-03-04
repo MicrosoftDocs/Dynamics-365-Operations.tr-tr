@@ -48,3 +48,6 @@ Daha fazla bilgi için bkz: [Türetilmiş defterlerle deftere nakletme](post-der
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

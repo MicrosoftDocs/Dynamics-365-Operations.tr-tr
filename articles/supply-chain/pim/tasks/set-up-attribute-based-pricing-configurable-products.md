@@ -52,3 +52,6 @@ Bu konu, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını açıkl
 8. **İfade** alanına bir değer yazın. Örneğin, `50` yazın. 
 9. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

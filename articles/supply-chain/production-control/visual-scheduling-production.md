@@ -160,3 +160,6 @@ Gantt grafiği aşağıdaki sayfalardan açılabilir.
 
 [Üretim için görsel planlama (demo kod)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

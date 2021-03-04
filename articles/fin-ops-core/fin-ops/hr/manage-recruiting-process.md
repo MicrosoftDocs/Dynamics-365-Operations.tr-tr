@@ -103,3 +103,6 @@ Açık bir pozisyon için iyi bir aday olabilecek kişilerin belirlenmesi için 
 ## <a name="hiring-applicants"></a>Başvuru sahiplerinin işe alınması
 
 Bir başvuru sahibini işe almak için **Uygulamalar** sayfasını kullanın. Bir başvuru sahibini işe aldığınızda başvuru kaydının durumu **İşe alındı** olarak değişir ve başvuru sahibinin genel adres defteri kişi kaydı, yeni çalışan kaydıyla ilişkilendirilir. Yeni çalışan kaydı için genel adres defteri bilgileri üzerindeki değişiklikler yanı zamanda başvuru kaydında da görüntülenir. Bu, yeni çalışan kuruluşunuzda başka bir işe başvurursa veri girişini azaltmaya yardımcı olabilir. Bir çalışanı yeni bir pozisyonda işe almak için, nakil işlemini başlatmak üzere **Başvuru durumu** açılır menüsünde **Konum değiştir**'i tıklatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

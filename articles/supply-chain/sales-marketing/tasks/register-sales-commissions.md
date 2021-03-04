@@ -71,3 +71,6 @@ Komisyon işlemi için seçtiğiniz müşteri ve ürün numaralarını not edin 
 3. Sayfayı kapatın.
 4. **Fiş**'i seçin. Önceden tanımlanmış komisyon giderlerine ve komisyon borç hesaplarına nakledilen komisyon tutarlarının fiş hareketlerini gözden geçirebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

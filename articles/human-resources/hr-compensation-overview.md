@@ -132,3 +132,6 @@ Bir işleme olayı, bir veya daha fazla sabit ya da değişken tazminat planına
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ ms.locfileid: "4693100"
     * Başlatıldı durumu, projenin başvuru almaya hazır olduğunu gösterir.  
 33. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Mali boyutları ve ana hesaplar bir uygulama için planlama aşamasının anahta
 - Seçili hesap planı ayracını mali boyut ve ana hesap değerlerinde kullanmaktan kaçının.
 
 Bu en iyi yöntemleri izleyerek sistemde kullanıcı tanımlı sıranın tutarlı gösterimini garanti altına almaya yardımcı olursunuz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

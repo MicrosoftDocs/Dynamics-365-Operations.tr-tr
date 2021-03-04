@@ -52,3 +52,6 @@ Onboard otomatik olarak değişikliklerin ne olduğunu gösteren bir e-posta yen
     ![[İşe alım şablonundaki değişiklikleri ondan oluşturulan tüm kılavuzlara gönderin](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 Değişiklikler, işe alım kılavuzlarını açan yeni kişi tarafından görülebilecek. Ancak Onboard, yeni kişilere işe alım kılavuzunun değiştiğini bildirmek için e-posta uyarıları göndermez. Kolay tanımlama için, her değişikliğin yanında kırmızı bir **Yeni** etiket görünür. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

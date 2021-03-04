@@ -101,3 +101,6 @@ Aynı rapor **Litware Retail** müşterisi için Aralık 17, 2015 tarihinde **DE
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Metin işlevleri](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

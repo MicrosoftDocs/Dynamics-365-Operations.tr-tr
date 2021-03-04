@@ -51,3 +51,6 @@ ms.locfileid: "4448906"
     * İsteğe bağlı seçimler yapmak için sayfanın üstündeki Kilidi Aç simgesini tıklatın.  
 18. Güncelleştir'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

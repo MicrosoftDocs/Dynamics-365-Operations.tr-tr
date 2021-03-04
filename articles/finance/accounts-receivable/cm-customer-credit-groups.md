@@ -39,3 +39,6 @@ Müşteri kredi gruplarını **Müşteri kredi grupları** sayfasında (**Kredi 
 Bir müşteri kredi grubunu ayarlamayı bitirdikten sonra, tüzel kişiliklerini ve müşteri hesabı kodlarını belirterek müşterileri gruba ekleyebilirsiniz. Müşteri kredi grubuna yeni müşteri eklediğiniz zaman, sistem tüm tüzel kişiliklerde aynı müşteri hesabını arar ve bunu müşteri kredi grubuna eklemenizi ister.
 
 Müşteri kredi grubundaki tüm fatura müşterilerinin yaşlandırma bakiyesi ayrıntılarını görüntülemek için **Yaşlandırılmış bakiyeler** menüsünü kullanın. **Yaşlandırma bakiyesi** sayfası, fatura müşterisi hesaplarına ait eski bakiyelerin özetini gösterir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

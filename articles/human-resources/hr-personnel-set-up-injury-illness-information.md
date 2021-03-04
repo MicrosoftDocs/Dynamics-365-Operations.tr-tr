@@ -65,3 +65,6 @@ ms.locfileid: "4420952"
     * Raporlama kurumları, olayın rapor edilmesi gereken kurumlardır. Yaralanma ve hastalık raporlama ile ilgili varsayılan kurum için varsayılan onay kutusunu seçin.  
 23. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Parametre sayfası geçersiz kılma üzerindeki doğrulama seçenekleri, eşleş
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işl
     + E-posta adresleri, URL'ler ve telefon numaraları gibi iletişim yöntemleri hakkında bilgi girin. Yeni bir iletişim kaydı girmek için Yeni'yi tıklatın. Var olan bir iletişim kaydını değiştirmek için **Diğer seçenekler > Gelişmiş**'e tıklayın.   
 6. İsteğe bağlı olarak gerekirse **Faaliyet birimi numarası**'nı değiştirin. Bu numaranın ilgili **Taraf** kaydı için benzersiz bir tanımlayıcı olduğunu ve başka bir faaliyet birimiyle aynı olamayacağını unutmayın.
 7. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Bu değişiklik ile, listede tekil iş öğelerinin ayrıntılarına gezinti, se
 
 - **Sorun**: Bir çalışan için yeni bir eki eklerken **Yeni** ve **Düzenle** düğmeleri gridir. 
 - **Çözüm:** Ek sayfasını açmadan önce **Çalışan** sayfasındaki bilgi kutularının kapalı olduğundan emin olun. **Çalışan** sayfası yüklendiğinde bilgi kutuları kapalıysa, eklentiler düğmeleri etkinleştirilmiş olacaktır. (Bu sorun sonraki platform güncelleştirmesinde giderilecektir.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

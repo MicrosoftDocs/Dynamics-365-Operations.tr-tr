@@ -100,3 +100,6 @@ Talep tahmini ölçü biriminin belirli anlamı olması gerekmediğini unutmayı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

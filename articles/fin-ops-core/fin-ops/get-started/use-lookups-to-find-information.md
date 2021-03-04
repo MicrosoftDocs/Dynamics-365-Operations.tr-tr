@@ -83,3 +83,6 @@ Bunun yerine, kullanıcı arama denetiminin değerini temizlemeli, arama açıl�
 Filtre uygulandıktan sonra (aşağıdaki resme bakın) kullanıcı her zamanki gibi satırı bulup seçebilir.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

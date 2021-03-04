@@ -46,3 +46,6 @@ Bilgi için, "Ortama erişim hakkı tanımak" bölümüne bkz. [Talent Sağlama]
 **Uzun vadeli çözüm**
 
 Microsoft, Onboard ve Attract'e uygun hakları bir kullanıcı İnsan Kaynakları'na eklendiğinde otomatik olarak eklemeyi planlamaktadır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Yükseltilmiş bir ortamda Active Directory Federasyon Hizmetleri (AD FS) altın
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>İyileştirilmiş İş Akışı Hatası özelliği nedir?
 10.0.13 sürümündeki Gelişmiş İş Akışı Hatası özelliği, farklı iş akışı hatalarının sınıflarını ayırt edebilmek için hata kodları ekler. Bildirilen hata iletileri, daha anlaşılır hale getirmek için küçük farklılıklar içerse de çoğunlukla benzer olacaktır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

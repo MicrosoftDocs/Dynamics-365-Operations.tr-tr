@@ -205,3 +205,6 @@ Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekran�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Retail satış noktası (POS) düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

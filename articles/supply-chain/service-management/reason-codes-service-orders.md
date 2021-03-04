@@ -50,3 +50,6 @@ Neden kodları isteğe bağlıdır. Servis siparişini belirli bir servis aşama
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

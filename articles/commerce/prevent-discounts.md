@@ -41,3 +41,6 @@ Yayımlanan ürünlerin **Commerce** sekmesinde bulunabilen aşağıdaki seçene
 > Bu ayarlar fiyat geçersiz kılma işlemini kısıtlamaz çünkü bu, taban fiyatı belirler ve bir indirim olarak görülmez.
 
 [![İndirim alanlarını engelle](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

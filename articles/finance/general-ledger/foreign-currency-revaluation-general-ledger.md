@@ -113,3 +113,6 @@ Tarih sırasına göre değerlendirme sonuçlarını terse çevirebilirsiniz, an
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

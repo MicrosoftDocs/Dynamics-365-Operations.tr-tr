@@ -134,3 +134,6 @@ Geçerli değerleri, varsayılan değerler olarak kaydedebilirsiniz. İki seçen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

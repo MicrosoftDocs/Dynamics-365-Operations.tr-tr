@@ -42,3 +42,6 @@ Küme malzeme çekme için madde doğrulaması, kümeli olmayan malzeme çekme i
 |        Seçenek        |                                    Açıklama                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Ürün onayı | Tarandığında, her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

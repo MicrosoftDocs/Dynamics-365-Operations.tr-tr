@@ -73,3 +73,6 @@ Ondalık basamaklar kesilir.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tür dönüştürme işlemleri](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

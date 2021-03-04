@@ -137,3 +137,6 @@ Commerce site oluşturucuda çapraz kanal içeriğinin kanala özel sürümünü
 [Belge durumları ve yaşam döngüsü](document-states-overview.md)
 
 [Yayımlama gruplarıyla çalışma](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

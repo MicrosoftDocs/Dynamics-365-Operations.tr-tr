@@ -162,3 +162,6 @@ Karşılama adımı başlatılmadan önce, **ürün reçetesi sürüm gereksinim
 - **Bir seferde tek bir yordam** – Master planlamayı başka herhangi bir yordamla birlikte çalıştırmayın.
 - **Kullanıcı oturumu günlüğünü inceleme.**
 - **Maddelere filtre uygulama** – Yaşam döngüsü durumunu, maddeleri Master planlama çalıştırmasında hariç bırakmak için kullanın. (Madde numaralarını kullanmayın.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

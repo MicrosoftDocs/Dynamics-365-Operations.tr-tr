@@ -65,3 +65,6 @@ Standart Common Data Service varlıklarından her biri, **IntercompanyOrder** ba
 7. **Teklifler** varlığını genişlettikten sonra, sorgu dizesi olarak `CUSTGROUP !=  "<company>"` ile bir filtre uygulayın.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Satış Teklifi Başlığı, düzenleme sorgusu":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

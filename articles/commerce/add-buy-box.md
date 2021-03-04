@@ -136,3 +136,6 @@ Bir yeni sayfaya satın alma kutusu modülü eklemek ve gerekli özellikleri aya
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

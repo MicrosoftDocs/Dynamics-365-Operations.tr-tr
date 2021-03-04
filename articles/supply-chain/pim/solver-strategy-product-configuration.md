@@ -73,3 +73,6 @@ Aşağıdaki tablo çeşitli senaryolarda kullanılacak çözücü stratejisi ha
 [Buluşsal yöntemler](https://techterms.com/definition/heuristic)
 
 [Sınırlama Memnuniyet Sorunu](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

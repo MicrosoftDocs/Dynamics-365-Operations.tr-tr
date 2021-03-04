@@ -43,3 +43,6 @@ Bu konu, örnek olarak M0001 madde numarasını kullanarak el ile nasıl bir bar
 12. **Kaydet**'i seçin.
 13. Sayfayı kapatın. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

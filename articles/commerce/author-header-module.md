@@ -119,3 +119,6 @@ Bir üst bilgi parçası oluşturmak için şu adımları izleyin.
 [Site seçici modülü](site-selector.md)
 
 [Mağaza seçicisi modülü](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

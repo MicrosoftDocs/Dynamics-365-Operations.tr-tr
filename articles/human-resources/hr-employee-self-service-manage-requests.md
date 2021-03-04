@@ -39,3 +39,5 @@ Yöneticiler, Dynamics 365 Human Resources içinde **çalışan self servis** ç
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluştur](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

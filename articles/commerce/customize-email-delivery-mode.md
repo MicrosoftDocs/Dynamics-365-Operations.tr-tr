@@ -73,3 +73,6 @@ Commerce Headquarters 'da belirli teslimat şekilleri için e-posta şablonları
 [Çağrı merkezi siparişleri oluşturma](tasks/create-call-center-orders.md)
 
 [Satış noktasında teslimat şeklini değiştirme](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

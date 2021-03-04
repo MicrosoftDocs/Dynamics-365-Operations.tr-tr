@@ -63,3 +63,6 @@ MPOS veya Bulut POS için grafik tasarım arabirimi kasa düzeni tarafından kon
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Retail Modern POS (MPOS) yapılandırın, yükleyin ve etkinleştirin](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

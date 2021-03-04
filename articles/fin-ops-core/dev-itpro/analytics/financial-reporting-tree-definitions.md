@@ -220,3 +220,6 @@ Aşağıdaki örnekler toplanan veriler için bir raporlama ağacı tanımında 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Erişemediğiniz ER şablonlarınız ile ilgili sorunları gidermek için aşağ
 Uygulama örneğinizi bir kereden fazla geçiş hedefi olarak kullanılan ve Blob depolamanın zaten ER şablon dosyalarını içerdiği başka bir konuma geçirdiğinizde benzer bir sorun oluşabilir.
 
 Birden fazla ER biçimi yapılandırmanız olabileceğinden bu işlem uzun sürebilir. Bu nedenle, bozuk başvuruları olan şablonları otomatik olarak kurtarmak için [ER şablonları için yedek depolama](er-backup-storage-templates.md) özelliğinin kullanılması tercih edilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

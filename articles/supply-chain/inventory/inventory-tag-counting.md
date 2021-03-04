@@ -36,3 +36,6 @@ Bu konuda ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kull
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Döngü sayımı](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

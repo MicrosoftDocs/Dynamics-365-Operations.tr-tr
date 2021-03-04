@@ -38,3 +38,6 @@ Gönderilen bir faturayı düzenlemeden önce otomatik işlemeyi duraklatmanız 
 - **Duraklatıldı** – **Borç hesapları parametreleri** sayfasında tanımlanan otomatik işlemler çalıştı ancak işlemde en az bir adım başarısız oldu. **Duraklatıldı** durumu **Otomatik işleme dahil et** alanı **Hayır** olarak ayarlanmışsa da geçerli olur. **En son sonuçları görüntüle**'yi seçerek hataları görüntüleyebilirsiniz.
 - **İş akışında** – İçe aktarılan fatura, otomatik iş akışına gönderme işlemi tarafından veya el ile iş akışı sistemine gönderildi.
 - **İş akışı tamamlandı** – İçe aktarılan fatura için iş akışı işlemi tamamlandı.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

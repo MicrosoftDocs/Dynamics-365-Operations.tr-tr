@@ -88,3 +88,6 @@ Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeler
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

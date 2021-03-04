@@ -55,3 +55,6 @@ Ortamın dağıtıldığı kiracının harici kullanıcılarının lisanslara at
 4. **Kullanıcıları içe aktar**'ı seçin.
 5. **Kapat**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

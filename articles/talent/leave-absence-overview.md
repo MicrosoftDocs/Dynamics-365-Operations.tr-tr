@@ -66,3 +66,6 @@ ms.locfileid: "4462855"
 - **İzne ayrılma istekleri gönderme.**
 
     Personeller kullanılabilir saatlerine karşılık izin istekleri gönderebilir. İstekler basit bir tek günlük istek veya çoklu izin ve devamsızlık türlerini içeren çoklu gün isteklerinden oluşabilir. Bir iş akışı etkinleştirilmemişse, istekler otomatik olarak onaylanır. Bir iş akışı etkinleştirilmişse, iş akışının yapılandırmasına bağlı olarak onay otomatik olabilir veya onay gerektirebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

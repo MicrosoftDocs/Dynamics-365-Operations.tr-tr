@@ -62,3 +62,6 @@ Lütfen %3 (31-01-2019) itibarıyla dönem sonuyla eşleşen bir stok kapanış�
 ## <a name="inventory-aging-report-discrepancies"></a>Stok yaşlandırma raporu uyuşmazlıkları
 
 **Stok yaşlandırma raporu**, farklı depolama boyutlarında (tesis veya ambar gibi) görüntülendiğinde farklı değerler gösterir. Raporlama mantığı hakkında daha fazla bilgi için bkz. [Stok yaşlandırma raporu örnekleri ve mantığı](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Aşağıdaki parametreler kullanılabilir:
 
 - **Otomatik eşleştirmeyi deneme sayısı** - İşlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini seçin. Belirtilen deneme sayısına ulaşıldığında, fatura otomasyon işleminden kaldırılır.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

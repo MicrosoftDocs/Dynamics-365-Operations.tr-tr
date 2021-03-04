@@ -144,3 +144,6 @@ Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştir
 <sup>2</sup>Microsoft, Common Data Service varlıkları için veri kapsamını artırmaya çok fazla yatırım yapmaktadır. Kapsam kullanılabilir olduğunda Common Data Service kullanmanızı öneririz. Şu anda Common Data Service veri kapsamı DMF ve OData etkin varlıklara göre düşüktür.
 
 <sup>3</sup>SQL veritabanına programlı olarak erişilebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

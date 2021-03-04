@@ -56,3 +56,6 @@ Bu seçimle sisteme bir karantina emri oluşturma isteği gönderilir ve denetim
 
 [İade edilen maddelerin nasıl elden çıkarılacağını belirtme](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

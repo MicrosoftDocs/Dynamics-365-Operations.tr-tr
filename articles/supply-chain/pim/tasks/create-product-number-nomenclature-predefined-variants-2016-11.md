@@ -58,3 +58,6 @@ Bu konu, önceden tanımlanmış ürün çeşitleri için bir ürün numara term
 5. **Ürün çeşidi numara terminolojisi** alanında bir değer girin veya seçin.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

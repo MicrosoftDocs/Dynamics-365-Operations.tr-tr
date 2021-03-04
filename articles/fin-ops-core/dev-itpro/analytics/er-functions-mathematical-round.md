@@ -75,3 +75,6 @@ Ondalık parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı bir�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Matematiksel işlevler](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

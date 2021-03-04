@@ -71,3 +71,6 @@ Servis siparişlerini el ile veya servis sözleşmesi satırından otomatik olar
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

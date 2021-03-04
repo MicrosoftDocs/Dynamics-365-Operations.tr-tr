@@ -51,3 +51,6 @@ Parça çekme tüm sayım işlemleri ve herhangi bir iş türü için ilk çekme
 | Parça çekme onayı | Çekme ve sayım iş türleri için kullanılabilir. Ürün onayı otomatik olarak seçilir. Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır. |
 |  Maksimum parça sayısı  |                   Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir. Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

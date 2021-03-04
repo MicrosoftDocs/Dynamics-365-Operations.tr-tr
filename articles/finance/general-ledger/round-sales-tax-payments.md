@@ -131,3 +131,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 - [yuvarla işlevi](https://msdn.microsoft.com/library/aa850656.aspx)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

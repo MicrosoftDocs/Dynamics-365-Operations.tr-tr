@@ -97,3 +97,6 @@ Aşağıdaki örnekte, belirli bir dönemde en az bir satış faturasının veya
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

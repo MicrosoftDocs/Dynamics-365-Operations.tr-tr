@@ -42,3 +42,6 @@ Bu konuda, ana hesap kategorilerinin nasıl ayarlanacağı açıklanmaktadır. A
 3. Ana hesapları seçmek için **Bağlantılı** seçeneğini işaretleyin veya işaretini kaldırın.
 4. **Tamam**'ı seçin.
 5. **Evet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

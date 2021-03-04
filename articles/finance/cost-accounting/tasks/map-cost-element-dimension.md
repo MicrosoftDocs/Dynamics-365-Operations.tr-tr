@@ -44,3 +44,6 @@ Bir maliyet denetleyicisi bu yordamı bir maliyet öğesi boyutunu bir maliyet �
     * Bu örnekte, 6001004 Telefono boyut üyesini seçin.  
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

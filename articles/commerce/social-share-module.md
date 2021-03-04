@@ -82,3 +82,6 @@ Satın al kutusu modülüne bir sosyal içerik paylaşım modülü eklemek için
 [Satın alma kutusu modülü](add-buy-box.md)
 
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

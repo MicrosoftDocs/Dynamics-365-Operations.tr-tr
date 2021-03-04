@@ -111,3 +111,6 @@ Belirli bir plan ve tarih aralığı için tahakkuk kayıtlarını silin. Tahakk
 
 [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)</br>
 [İzin ve devamsızlık planı oluşturma](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

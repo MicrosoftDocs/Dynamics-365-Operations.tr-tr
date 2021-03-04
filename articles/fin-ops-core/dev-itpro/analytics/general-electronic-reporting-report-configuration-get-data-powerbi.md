@@ -196,3 +196,6 @@ Power BI ile tümleştirmeyi ayarlayın. Daha fazla bilgi için bkz. [Çalışma
 [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

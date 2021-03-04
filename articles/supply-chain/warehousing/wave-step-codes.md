@@ -93,3 +93,6 @@ Aşağıdaki yordam, oluşturduğunuz stok yenileme şablonunun dalga şablonu i
 6. **Dalga adımı kodu** alanında, stok yenileme şablonunda seçtiğiniz dalga adımı kodunu seçin.
 
 Her yasal varlık için bu adımları gerçekleştirirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

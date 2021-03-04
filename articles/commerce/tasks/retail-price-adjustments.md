@@ -53,3 +53,6 @@ Bu yordam, bir ticaret fiyat ayarlaması oluşturma konusunda yol gösterir. Fiy
 14. Sayfayı kapatın.
 15. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

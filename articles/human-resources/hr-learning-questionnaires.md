@@ -44,3 +44,6 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 | [Bir soru formu tasarlama](hr-learning-design-questionnaires.md) | Bu makale bir anketin nasıl tasarlanacağı hakkında bilgi sağlar. Tasarım işlemi önkoşullar, yanıtlar ve sorular ayarlama ve ardından bunları bir ankette birleştirmeyi kapsar. |
 | [Soru formlarını dağıtma ve planlama](hr-learning-distribute-questionnaires.md) | Bu makale bir anketin yanıtlayanlara nasıl dağıtılacağı ve anketlerin nasıl tamamlanacağı hakkında bilgi sağlar. |
 | [Soru formunun sonuçlarını görüntüleme ve değerlendirme](hr-learning-evaluate-questionnaire-results.md) | Bu makale tamamlanmış anketlerin sonuçlarının nasıl görüntüleneceği ve değerlendirileceği hakkında bilgi sağlar. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

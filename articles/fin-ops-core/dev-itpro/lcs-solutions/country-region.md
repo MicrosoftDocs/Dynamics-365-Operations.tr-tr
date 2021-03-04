@@ -133,3 +133,6 @@ Daha fazla bilgi için bkz. [Yardım sistemi](../../fin-ops/get-started/help-ove
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

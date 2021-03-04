@@ -88,3 +88,6 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

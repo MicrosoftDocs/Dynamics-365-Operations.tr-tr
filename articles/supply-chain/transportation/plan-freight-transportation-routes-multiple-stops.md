@@ -53,3 +53,6 @@ Yük oluşturma çalışma ekranı yük önermek için, satış siparişlerinden
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

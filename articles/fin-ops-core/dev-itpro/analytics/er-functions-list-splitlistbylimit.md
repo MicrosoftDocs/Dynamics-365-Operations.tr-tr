@@ -100,3 +100,6 @@ Aşağıdaki örnekte düzeltilen biçim çalıştırıldığında elde edilen s
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

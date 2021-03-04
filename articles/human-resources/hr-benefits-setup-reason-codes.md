@@ -41,3 +41,6 @@ Dynamics 365 Human Resources bir çalışanın yararlarını nasıl değiştirdi
    | **Tanım** | Neden kodunun açıklaması. |
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

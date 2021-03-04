@@ -55,3 +55,6 @@ Bu sürüm, Dynamics 365 Talent: Onboard için küçük hata düzeltmeleri içer
 ## <a name="changes-in-core-hr"></a>Core HR içindeki değişiklikler
 
 Bu sürüm, Dynamics 365 Talent: Core HR için küçük hata düzeltmeleri içeriyor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

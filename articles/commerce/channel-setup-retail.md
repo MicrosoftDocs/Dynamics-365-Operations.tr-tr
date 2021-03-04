@@ -182,3 +182,6 @@ Kasaları ayarlamak için bu adımları izleyin.
 
 [Çağrı merkezi kanalını ayarlama](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

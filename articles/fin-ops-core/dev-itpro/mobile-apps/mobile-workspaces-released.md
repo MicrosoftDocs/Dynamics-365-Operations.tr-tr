@@ -41,3 +41,6 @@ Bu konu, Dynamics 365 for Unified Operations Mobile uygulaması için kullanılm
 | [Satış siparişleri](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Satış siparişleriniz hakkında her zaman ve her yerde güncel kalabilirsiniz.                                                                                                                          |  2017 Ocak                  |
 | [Satıcı işbirliği](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Satıcılarınız onay için onlara gönderilen satınalma siparişleri hakkında güncel kalabilirler. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler. |2017 Ocak    |
 | [Varlık yönetimi](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Bu çalışma alanı, kullanıcıların bakım taleplerini ve iş emirlerini görüntüleyip oluşturmasına olanak tanır. Ayrıca kullanıcılar, atanan iş emri işlerini takvim veya liste görünümünde görüntüleyebilirler. Varlıklar ve işlem yapılacak yerleşimler de görüntülenip aranabilir. |2019 Ekim    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

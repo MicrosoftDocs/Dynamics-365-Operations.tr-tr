@@ -110,3 +110,6 @@ Her bir mizan raporunu farklı bir sütun tanımı kullanır. Bu sütun tanımla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Birden çok varlık türünü aynı anda (örneğin, görüntüler ve videolar) 
 [Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
 
 [Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

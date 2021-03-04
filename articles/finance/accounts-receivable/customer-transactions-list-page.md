@@ -97,3 +97,6 @@ Her alan, düzenlediğinizde hareket üzerinde farklı bir etkiye sahiptir:
 - **Nakit iskonto şartlarını düzenle:** - Nakit iskontolar, taban tarih ve nakit iskontosu koşullarına dayanarak değiştirilir.
 
 Ödeme ayarları düzenlemeyi bitirdiğinizde, **Kapat**'ı seçerek yaptığınız değişiklikleri kaydedin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

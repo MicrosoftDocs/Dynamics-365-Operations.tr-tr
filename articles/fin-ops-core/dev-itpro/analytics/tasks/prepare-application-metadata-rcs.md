@@ -80,3 +80,6 @@ Intrastat kayıt tablosu hakkında meta veri bilgileri ekledik.
 3.    **Tamam**'a tıklayın. 
     
 Oluşturulan ER meta veri yapılandırması, RCS'ye alınabilecek ve dış ticari işletme etki alanının meta verileri hakkında bilgi kaynağı olarak kullanılabilen bir XML dosyası olarak kaydedildi. Bu bilgiye dayanarak uygulama meta verileri ve ER veri modeli arasındaki eşlemeyi belirtebiliriz.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

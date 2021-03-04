@@ -44,3 +44,6 @@ Bu konuda satıcı faturasındaki satış vergisinin nasıl ayarlanacağı açı
 13. **Tamam**'ı seçin.
 14. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

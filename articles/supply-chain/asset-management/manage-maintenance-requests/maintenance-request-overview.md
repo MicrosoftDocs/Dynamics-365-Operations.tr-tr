@@ -73,3 +73,6 @@ Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki 
 | Ödünç varlığı gönder                  | Seçili bakım talebinde seçilen varlığın geçici olarak değiştirilmesi gereken bir kredi varlığı seçin. |
 | Kredi varlıklarını iade etme                | İade edilen ödünç varlığını kaydedin. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

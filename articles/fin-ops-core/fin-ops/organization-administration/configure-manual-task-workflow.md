@@ -381,3 +381,6 @@ El ile görev bir kullanıcıya atandığında kullanıcı görev üstünde eyle
 5. Kullanıcı görevi başka bir kullanıcıya atayabilecekse **Temsilci seç** onay kutusunu işaretleyin.
 6. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya yeniden atayabilecekse **Yeniden Ata** onay kutusunu işaretleyin.
 7. Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya serbest bırakabilecekse, **Serbest Bırak** onay kutusunu işaretleyin. Daha sonra başka bir kullanıcı bu görevi tamamlayabilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

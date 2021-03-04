@@ -56,3 +56,6 @@ Bu konu, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak içi
 1. **Stok**'u seçin.
 2. **Hareketler**'i seçin. Burada, stok sayım günlüğünüzü deftere naklettiğinizde oluşturulacak tüm ilgili hareketleri görebilirsiniz.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

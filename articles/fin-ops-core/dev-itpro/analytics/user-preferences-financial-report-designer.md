@@ -72,3 +72,6 @@ Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi öz
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

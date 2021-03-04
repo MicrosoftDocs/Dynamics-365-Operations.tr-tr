@@ -280,3 +280,6 @@ Bu model eşlemesini farklı bir sürüm uygulamasının meta verilerini kullana
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 Alternatif olarak hem uygulamadaki **RCS'de kullanılabilecek uygulama meta verileri hazırlama** görev kılavuzlarını hem **Bir ER yapılandırması kullanarak uygulama meta verilerine erişme** ve RCS'deki **Bağlı uygulamalar kullanarak uygulama meta verilerine erişme** görev kılavuzlarını yürütebilirsiniz. Bu göre kılavuzları [Dynamics 365 for Finance and Operations 8.1 için Elektronil Raporlama Görev Kılavuzu](https://go.microsoft.com/fwlink/?linkid=2082739) sayfasından indirilebilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

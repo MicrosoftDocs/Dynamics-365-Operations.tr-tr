@@ -253,3 +253,6 @@ Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın.
 
    **Kira yükümlülüğü hareketleri** sayfası ilk kabulü, kira faizi ödemesini, kira ödemesini ve kira yükümlülüğü bakiyesini gösterir. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

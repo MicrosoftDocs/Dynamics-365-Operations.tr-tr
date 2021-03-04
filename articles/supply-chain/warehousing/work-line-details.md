@@ -128,3 +128,6 @@ Birkaç malzeme çekme işi oluşturmak için bu adımları izleyin.
 
 > [!IMPORTANT]
 > Bir iş satırı için yalnızca miktarın bir kısmını iptal ederseniz, yük satırından kullanılmayan miktarı da silmeniz gerekir. Aksi durumda, eksik teslimat doğru şekilde ayarlanmadıkça, yükleme satırının sevk onayı verilemez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

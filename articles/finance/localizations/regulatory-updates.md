@@ -87,3 +87,6 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 - Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun (oturum açma gerekli).
 - Desteklenen yerelleştirmelerin listesi için [Uluslararası kullanılabilirlik kılavuzuna](https://aka.ms/dynamics_365_international_availability_deck) göz atın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "4439193"
 
     ![Şekil 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Bu yordam şirketlerarası plan oluşturmayı gösterir. Bu yöntemi oluşturmak
 2. Listede, seçili satırdaki bağlantıya tıklayın. StaticPlan için bağlantıya tıklayın. USMF şirketinde olmanız gerekir.  
 3. **Planlı siparişler**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -245,3 +245,6 @@ Hub dağıtımında toplu işleri el ile koruyabilirsiniz. **Ambar yönetimi \> 
 
 - Dalga tablosu kayıtlarını işleme
 - Dalga yürütme kontrolü transfer olaylarını işle
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

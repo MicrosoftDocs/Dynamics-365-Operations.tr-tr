@@ -58,3 +58,6 @@ Maliyet muhasebesinde maliyet öğeleri oluşturmanın birkaç yolu vardır. Bu 
 1. Boyut üyelerini görüntüle öğesine tıklayın.
     * Genel muhasebe hesaplarını işinizde maliyetlerin akış gerçekleştirebileceği maliyet öğeleri olarak görüntüleyin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

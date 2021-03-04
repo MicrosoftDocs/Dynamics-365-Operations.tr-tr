@@ -316,3 +316,6 @@ Oluşturulan ikinci iş kodunun **İş emri türü** değeri *Satınalma sipari�
 Aşağıdaki şekil, tamamlanmış çapraz sevk işinin Microsoft Dynamics 365 Supply Chain Management'ta nasıl görünebileceğini gösteriyor.
 
 ![Tamamlanmış çapraz sevk işi](media/PlannedCrossDockingWork.png "Tamamlanmış çapraz sevk işi")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

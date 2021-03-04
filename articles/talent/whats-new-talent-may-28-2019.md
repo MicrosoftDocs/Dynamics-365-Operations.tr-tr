@@ -74,3 +74,6 @@ Kuruluşlar, bir çalışan izin talepleri gönderdiğinde belirli izin türleri
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>İK için izin ve devamsızlık hareket listesi sağlama
 
 Çalışan iznini takip etme ve iznin nasıl hesaplandığını anlama özelliği, yalnızca İK'nın çalışan sorularına yanıt vermesine yardımcı olmaz, aynı zamanda çalışanlar için doğru izin ödülleri verilmesini sağlar. İK artık hareketlere (izinler, tahakkuklar, ayarlamalar ve talepler) erişimine sahiptir ve böylece İK personeli, izin bakiyeleri arkasındaki nedenleri görebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

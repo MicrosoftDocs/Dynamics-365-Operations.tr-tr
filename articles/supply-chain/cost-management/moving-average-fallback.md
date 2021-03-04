@@ -46,3 +46,6 @@ Hareketli ortalama hesaplamaları için geri dönüş maliyet sırasını seçme
     - **Etkin maliyet – Madde fiyatı** - Kuruluşlar, stoklarda düzenli olarak negatif olan ve aynı anda hareket hacmi yüksek olan iş süreçlerini kullandıklarında, performans sorunlarıyla karşılaşabilir. Bu ayar, bu performans sorunlarının etkilerini hafifletmeye yardımcı olabilir.
 
 ![Stok muhasebesi parametreleri](media/inventory-accounting-parameters.png "Stok muhasebesi parametreleri")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

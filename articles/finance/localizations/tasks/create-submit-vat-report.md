@@ -35,3 +35,6 @@ Bu yordam, Alman yetkilileri için KDV raporu oluşturma ve gönderme sürecini 
 5. Elektronik vergi belgesi oluştur alanında Evet'i seçin.
 6. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

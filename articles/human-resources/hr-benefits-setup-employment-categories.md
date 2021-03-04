@@ -36,3 +36,6 @@ Dynamics 365 Human Resources'ta iş kategorilerini, çalışanlarınıza uyacak 
 3. **Çalışan türü**, **istihdam kategorisi** ve **açıklaması** değerlerini belirtin.
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

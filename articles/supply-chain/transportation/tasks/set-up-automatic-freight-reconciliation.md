@@ -72,3 +72,6 @@ Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını 
 11. Eksik ödeme neden kodu alanına bir değer girin veya seçin.
 12. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

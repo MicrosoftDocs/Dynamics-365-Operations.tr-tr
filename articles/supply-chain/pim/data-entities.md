@@ -50,3 +50,6 @@ ms.locfileid: "4439769"
 
 > [!NOTE]
 > Ürünleri sisteme aktarmak için **yayınlanan ürünler v2** veri varlığını yalnızca paylaşılan ürün zaten oluşturulmuşsa kullanabilirsiniz. Aksi durumda, ürünleri sisteme içe aktarmak için **ürün oluşturma** veri varlığını kullanmanız gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

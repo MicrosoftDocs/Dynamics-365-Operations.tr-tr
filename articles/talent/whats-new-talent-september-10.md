@@ -98,3 +98,6 @@ Bu sürüm çeşitli hatalara yönelik düzeltmeler içerir:
 - Bir alt yüklenici işe alındığında **Ücret** sekmesi, istek/eylem sayfasında kullanılabilir olmamalıdır.
 - İstek sonlandırma işleminde, tüm alanlar veri içerene kadar devam edemezsiniz.
 - Personel yönetimi analizlerindeki sıralama düzeni ve tarih göstergesi sorunları giderilmiştir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

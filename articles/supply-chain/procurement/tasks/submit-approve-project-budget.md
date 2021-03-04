@@ -57,3 +57,6 @@ Bu görev, USSI veri kümesini kullanarak oluşturulmuştur.
 21. **Açıklama** alanında bir değer girin.
 22. **Gönder**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

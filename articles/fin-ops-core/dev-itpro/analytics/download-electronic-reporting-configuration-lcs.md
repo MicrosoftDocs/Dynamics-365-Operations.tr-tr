@@ -76,3 +76,6 @@ Bu konu, en yeni [Elektronik raporlama (ER) yapılandırmaları sürümünün](g
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

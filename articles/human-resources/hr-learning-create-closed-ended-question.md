@@ -68,3 +68,6 @@ Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seç
 5. Yanıt grubu alanında bir değer girin veya seçin.
 6. Metin alanına bir değer yazın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

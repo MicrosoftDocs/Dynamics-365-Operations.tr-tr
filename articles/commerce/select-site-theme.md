@@ -68,3 +68,6 @@ Sitenize uygulanacak temayı seçmek için aşağıdaki adımları izleyin.
 
 [Yeni tema oluşturma](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

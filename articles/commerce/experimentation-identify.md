@@ -40,3 +40,6 @@ Bir varsayımını doğrulamak için, denemenin başarısı veya başarısızlı
 
 ## <a name="next-step"></a>Sonraki adım
 [Deneme ayarlama](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

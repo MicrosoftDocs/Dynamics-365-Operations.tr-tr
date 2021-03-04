@@ -64,3 +64,6 @@ Kendi öznitelik türlerinizi oluşturabilirsiniz. Ayrıca, ürün boyutlarını
 9. Kaydı kaydedin.
 
     **İşlem yapılacak yerleşim türleri** alanında öznitelik türünü kullanan işlem yapılacak yerleşimlerin sayısını gösterir. **Kıymet türleri** alanı bunu kullanan kıymet türlerinin sayısını gösterir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

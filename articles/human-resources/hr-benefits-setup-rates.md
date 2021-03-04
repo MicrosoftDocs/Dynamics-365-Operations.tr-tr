@@ -93,3 +93,6 @@ Oran çeşitli etkenlere bağlı olarak farklılık gösterdiği takdirde, katma
    | **Esnek Kredi Sigara İçen Oranı** | Sigara içenler için bir katman düzeyi için tanımlanan hesaplamaya göre, esnek kredi kazanç masraflarının sayısı. |
 
 5. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

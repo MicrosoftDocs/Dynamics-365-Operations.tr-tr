@@ -68,3 +68,6 @@ Bu konu, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

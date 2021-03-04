@@ -376,3 +376,6 @@ Web tarayıcısının karşıdan yüklenmek üzere bir zip dosyası sunduğuna d
 
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

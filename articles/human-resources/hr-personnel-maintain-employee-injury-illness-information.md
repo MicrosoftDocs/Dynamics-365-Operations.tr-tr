@@ -93,3 +93,6 @@ Bu görev, bir yaralanma veya hastalık örneği oluşturmanın temel adımları
 36. Kaydet'e tıklayın.
     * Servis talebi her zaman güncelleştirilebilir.  Yaralanma veya hastalığın işlenmesini sürüyorsa vakayı 'süren iş' olarak ayarlayın.  Olayı bir defa kapattığınızda, yalnızca maliyet, tedavi ekleyip kaldırabilir veya olayla ilgili dosyalamalar yapabilirsiniz.  Diğer bilgileri değiştirmek için olayı yeniden açın.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

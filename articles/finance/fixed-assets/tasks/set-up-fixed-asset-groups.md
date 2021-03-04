@@ -39,3 +39,6 @@ Bu konu yeni bir sabit kıymet grubunun nasıl oluşturulacağı açıklar. Kıl
 8. **Amortisman yöntemi** alanında bir seçenek belirtin.
 9. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

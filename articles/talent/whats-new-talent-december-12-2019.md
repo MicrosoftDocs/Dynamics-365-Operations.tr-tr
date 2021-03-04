@@ -85,3 +85,6 @@ Bu değişiklik, bir banka hareketine ait bir güncelleştirmenin Beceride yeni 
 
 Dynamics 365: 2019 sürüm dalgası 2 planındaki [Performans incelemelerini yazdır](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) konusuna bakın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

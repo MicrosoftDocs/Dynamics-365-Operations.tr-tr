@@ -59,3 +59,6 @@ Bu işlevin yürütülmesi, aynı şirket adı kullanılsa bile farklı Microsof
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Diğer (belirli iş etki alanı) işlevleri](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

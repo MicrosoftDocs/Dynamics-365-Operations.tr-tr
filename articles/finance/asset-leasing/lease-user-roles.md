@@ -44,3 +44,6 @@ Varlık kiralamada kullanıcıları bu rollere atamak için bu adımları izleyi
 1. **Sistem Yönetimi \> Güvenlik \> Kullanıcılara roller atayın**'a gidin.
 2. **Kiralama bakımını yapma**, **Kiralama memuru** veya **Kiralamayı görüntüleme** rolünü seçin ve ardından **Kullanıcıları el ile ata/dışarıda tut** seçeneğini belirleyin.
 3. Role atanacak kullanıcıyı seçin ve **Role ata**'yı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

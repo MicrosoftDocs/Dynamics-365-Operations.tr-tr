@@ -329,3 +329,6 @@ Zamanlama altyapısı performansı, **Planlama parametreleri** sayfasında bulun
 
 > [!NOTE]
 > Zaman aşımları için ayarlanan değerler hem serbest bırakılmış üretim emirlerinin, hem de MRP'nin bir parçası olarak planlanan siparişlerin planlanması için uygulanır. Sonuç olarak, çok yüksek değerlerin ayarlanması, planlanan birçok üretim emri bulunan bir plan için çalışırken, MRP çalışma süresine önemli ölçüde ekleme yapabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

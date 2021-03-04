@@ -131,3 +131,6 @@ Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygul
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Bir ürün reçetesi hesaplamasını başlatırken birkaç bilgi kaynağı belir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Human Resources ile Common Data Service arasında bir varlıkta tam eşitleme ç
 [![Tam eşitleme çalıştırma](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

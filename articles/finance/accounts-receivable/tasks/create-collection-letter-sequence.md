@@ -59,3 +59,6 @@ Tahsilat mektubu sırası oluşturmak için bu görev kılavuzunu kullanın. Bu 
 26. **Not** hızlı sekmesini genişletin.
 27. Seçili tahsilat mektubu kodu için tahsilat mektubunda görünecek metni girin. Not kutusunun yukarısındaki Çeviriler menüsünü kullanarak bu metni birden fazla dile çevirebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

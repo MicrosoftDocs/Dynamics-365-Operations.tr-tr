@@ -68,3 +68,6 @@ Bu örnek için USMF demo şirketini kullanın. Bu prosedür, alacak hesapları 
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Bir serbest metin faturasını şablon olarak kaydetme
 Mevcut bir serbest metin faturasını şablon olarak da kaydedebilirsiniz. Fatura sekmesinden "Şablona kaydet"i seçtiğiniz zaman şablon için bir ad ve açıklama girin. Aynı adı taşıyan bir şablon varsa, bu adda bir şablonun zaten var olduğuna ilişkin bir bildirim görürsünüz. Yine de, Tamam'a tıklayarak şablonun yerine yenisini geçirebilirsiniz. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

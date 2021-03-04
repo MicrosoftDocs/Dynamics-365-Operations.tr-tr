@@ -62,3 +62,6 @@ Bu yordam, ödeme sağlayıcılarının listesini görüntüleme ve alacak hesap
 24. Yeni kredi kartları için varsayılan işlemci onay kutusuna tıklayın.
 25. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

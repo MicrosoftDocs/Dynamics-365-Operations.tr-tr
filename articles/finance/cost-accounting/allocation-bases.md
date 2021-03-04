@@ -430,3 +430,6 @@ Elektrik sabit formül tahsisat tabanı, bunun içerisinde tahsisat tabanı olar
 |    CC002    |     FI      | 3.075,00  | (3.075,00 ÷ 18.162,50) × Tutar  |
 |    CC003    |     ST      | 13.250,00 | (13.250,00 ÷ 18.162,50) × Tutar |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Birleştirilen bir toplu sipariş şu siparişlerin herhangi bir kombinasyonunu 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

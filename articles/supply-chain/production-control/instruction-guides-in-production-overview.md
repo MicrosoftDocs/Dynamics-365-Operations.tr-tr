@@ -410,3 +410,6 @@ Supply Chain Management üretim katı için işleri oluşturduğunda, ilgili Kı
 - *Tümü* ilişkisi içeren birkaç rota operasyonu ilişkisi tanımlarsanız ve bunlara Kılavuzlar atarsanız, iş için yalnızca en belirgin ilişkideki Kılavuzlar gösterilir.  
 
 ![İlgili kılavuzları çözümlemeyle ilgili diyagram](media/instruction-guides-Resolve.png "İlgili kılavuzları çözümlemeyle ilgili diyagram")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

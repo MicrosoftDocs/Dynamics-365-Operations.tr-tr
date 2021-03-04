@@ -113,3 +113,6 @@ Aşağıdaki resimde bir müşteri yapılandırma örneği gösteriliyor.
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

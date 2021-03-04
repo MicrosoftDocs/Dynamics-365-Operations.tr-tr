@@ -141,3 +141,6 @@ Onaylayan bir belgede değişiklik yapılmasını talep ederse, belge başlatana
 Örneğin, Sam 12.000 ABD Doları için bir gider raporu gönderdi ve bu belge Sue'ya atandı. Eğer Sue bir değişiklik isteğinde bulunursa, gider raporu Sam'e geri gönderilir.
 
 Sam, daha sonra gider raporunu yeniden gönderebilir. Önce talep edilen değişiklikleri yapabilir veya gider raporunun ilk sürümünü yeniden gönderebilir. Sam gider raporunu yeniden gönderirse, onaylama işleminde ilk onaylayan Frank olduğu için belge onaylanmak üzere Frank'e gönderilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

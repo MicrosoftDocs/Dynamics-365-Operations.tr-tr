@@ -53,3 +53,6 @@ Bir müşterinin siparişini yerine getirmek üzere bir satış emrine yönelik 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

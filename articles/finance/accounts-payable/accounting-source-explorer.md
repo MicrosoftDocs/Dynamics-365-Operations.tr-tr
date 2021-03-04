@@ -51,3 +51,6 @@ Bu belgeler için, Muhasebe kaynağı gezgininden ayrıca mevcut kaynak belgesin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

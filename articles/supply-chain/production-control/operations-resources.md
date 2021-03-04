@@ -85,3 +85,6 @@ Rota operasyonu veya bir proje saat tahmini gibi bir faaliyet tanımladığını
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

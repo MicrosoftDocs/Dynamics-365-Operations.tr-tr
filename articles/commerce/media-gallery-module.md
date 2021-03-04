@@ -104,3 +104,6 @@ Bir pazarlama sayfasına ortam galerisi modül eklemek için bu adımları izley
 [Kapsayıcı modülü](add-container-module.md)
 
 [Resimleri karşıya yükleme](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

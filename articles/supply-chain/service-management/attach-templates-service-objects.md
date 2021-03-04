@@ -55,3 +55,6 @@ Bir servis kapsamındaki parça ilişkisine şablon ürün reçetesi iliştirile
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Aşağıdaki tabloda üretim uygulama ve ilgili kayıt görevler için geçerli 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

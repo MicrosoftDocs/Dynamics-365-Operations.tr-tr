@@ -274,3 +274,6 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 ### <a name="reduce-a-forecast-by-transactions"></a>Bir tahmini hareketler ile azaltın
 
 **Hareketler - azaltma anahtarı**'nı veya **Hareketler - dinamik dönem**'i tahmin gereksinimlerini azaltmak için bir yöntem olarak seçerseniz, hangi hareketlerin tahmini azaltacağını seçersiniz. **Karşılama grupları** sayfasında, **Diğer** Hızlı Sekmesinde, **Tahmini şunun üzerinden azalt** alanında, tüm hareketler tahmini azaltacaksa **Tüm tahminler**'i seçin veya yalnızca satış siparişleri tahmini azaltacaksa **Siparişler**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

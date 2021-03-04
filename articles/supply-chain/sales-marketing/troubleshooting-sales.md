@@ -111,3 +111,6 @@ Supply Chain Management, şu anda deftere nakledilen faturaların komisyonların
 Paket satış öğesi satınalma siparişlerinde kullanılmaz; çünkü paket satış öğesi için satış siparişi satırlarını incelerseniz miktarın *0* (sıfır) olduğunu ve durumun *İptal edildi* olduğunu fark edildiğini göreceksiniz. Bu davranış tasarımdan kaynaklanır. Satış siparişi yalnızca paket satış öğesinin bileşenlerini satın alır. Paket satış öğesinin kendisini satın almaz.
 
 Bir paket satın almanız gerekiyorsa, bunu paket satış öğesi olarak işaretlemenizin gerekip gerekmediğiniz gözden geçirin; çünkü bu işlev gerçekte gelir tanıma senaryoları için tasarlanmıştır. Paket satış öğeleri hakkında daha fazla bilgi için bkz. [Paket satış öğeleri](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

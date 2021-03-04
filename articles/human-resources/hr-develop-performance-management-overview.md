@@ -163,3 +163,5 @@ Performans günlüğü kaynak türleri, performans günlüğünün nereden geldi
 ### <a name="review-types"></a>Gözden geçirme türleri
 
 Performans gözden geçirme türleri, bir gözden geçirmenin davranışını denetlemenize yardımcı olur. Gözden geçirme için iş akışını etkinleştirebilir veya devre dışı bırakabilirsiniz. Gözden geçirme iş akışı kullanmıyorsa gözden geçirme oluşturulduğunda kullanılacak varsayılan durumu tanımlayabilirsiniz. Ayrıca personel, yönetici veya her ikisinin birden gözden geçirmede oturumu kapatıp kapatmaması gerektiğine de karar verebilirsiniz.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

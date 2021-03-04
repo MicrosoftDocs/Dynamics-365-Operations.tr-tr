@@ -243,3 +243,6 @@ Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Ödeme dosyaları oluşturması için özelleştirilmiş biçimi test et
 Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğüm sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

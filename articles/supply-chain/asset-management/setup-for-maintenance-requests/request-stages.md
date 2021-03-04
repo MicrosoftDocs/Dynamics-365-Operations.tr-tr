@@ -81,3 +81,6 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü modelleri** sayfasının bir örneği gösterilmektedir.
 
 ![Bakım talebi yaşam döngüsü modelleri sayfası](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

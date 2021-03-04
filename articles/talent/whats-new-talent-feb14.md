@@ -52,3 +52,6 @@ Bir personelin konum atamasını sonlandırırken, bir değişiklik varsayılan 
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>İş ücret düzeyleri için yeni varlık oluşturuldu
 Yeni bir veri yönetimi çerçevesi (DMF) varlığı oluşturuldu. Varlık, sistemde tanımlanmış her iş için ücret seviyeleri, piyasa değerleri ve anket bilgisi için oluşturma ve güncelleştirme sağlar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

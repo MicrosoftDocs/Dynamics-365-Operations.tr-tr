@@ -49,3 +49,6 @@ Bu yordam, genel muhasebe hesapları arasındaki hareketlerin nasıl kapatılaca
 7. Genel muhasebe hesabı kapatmaları'nı tıklatın.
 8. Listede, seçili satırı işaretleyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

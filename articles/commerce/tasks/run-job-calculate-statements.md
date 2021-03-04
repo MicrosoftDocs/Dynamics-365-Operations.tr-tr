@@ -45,3 +45,6 @@ Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri oluştur
 11. Tamam'a tıklayın.
 12. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

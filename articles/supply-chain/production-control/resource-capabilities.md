@@ -58,3 +58,6 @@ Bu örnekte, (Drilling) temel yeteneği gereksinimi karşıladığı için her i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

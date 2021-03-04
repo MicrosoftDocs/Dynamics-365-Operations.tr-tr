@@ -75,3 +75,6 @@ Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyeb
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık türleri yapılandır](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

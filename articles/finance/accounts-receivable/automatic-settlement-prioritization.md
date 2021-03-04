@@ -83,3 +83,6 @@ Kullanıcı tanımlı bir kapatma önceliği yoksa, hareketler otomatik olarak v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Perakendeciler, yeni maddeler veya talep edilen maddeler gibi bazı ürünleri i
 
 > [!NOTE]
 > **Tüm iskontoları engelle** yapılandırması **Evet** olarak ayarlandığında ürüne iskonto uygulanmaz. Ödeme tabanlı iskontolar bile uygulanmayacaktır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

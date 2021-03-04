@@ -112,3 +112,6 @@ Varsayılan olarak, bir iade siparişine maddeleri eklediğinizde, maddeler sto�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -218,3 +218,6 @@ Bir tahmin pozisyonunun hangi bütçe planlarına eklendiğini görmek için, **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

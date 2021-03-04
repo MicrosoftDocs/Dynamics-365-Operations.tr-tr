@@ -66,3 +66,6 @@ Uygulama verisi, Ücret ve Kazanç içerik paketindeki raporları doldurmak içi
 | İşgücü\_WorkerName             | Adı, ikinci ad ve tam adı                                                                       | İşgücü\_CurrentWorker, İşgücü\_TerminatedWorker, İşgücü\_WorkerTrend |
 | İşgücü\_WorkerTitle            | Başlık ve kıdem tarihi                                                                                   | İşgücü\_CurrentWorker, İşgücü\_TerminatedWorker, İşgücü\_WorkerTrend |
 | İşgücü\_WorkerTrend            | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                                        | İşgücü\_Şirket, İşgücü\_Maaş, İşgücü\_GeographicLocation, İşgücü\_Performans, İşgücü\_WorkerName, İşgücü\_ReportsToWorkerName, İşgücü\_CalendarOffset, İşgücü\_Tarih, İşgücü\_WorkerTitle, İşgücü\_Demografikler, İşgücü\_İstihdam, İşgücü\_İş, İşgücü\_WorkerBenefit |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

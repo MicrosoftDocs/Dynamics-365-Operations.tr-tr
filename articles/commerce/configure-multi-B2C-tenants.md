@@ -131,3 +131,6 @@ Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

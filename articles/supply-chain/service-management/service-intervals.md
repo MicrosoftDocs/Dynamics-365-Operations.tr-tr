@@ -94,3 +94,6 @@ Servis siparişinde hiçbir gruplandırma bulunmadığından ( **Servis sipariş
 
 [Servis aralıkları ayarlama](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

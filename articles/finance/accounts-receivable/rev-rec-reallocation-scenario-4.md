@@ -77,3 +77,6 @@ Gelir kabulü çizelgesi de yeni gelir yeniden tahsisat fiyatına göre güncell
 Daha sonra, **Tüm müşteriler** sayfasını açın (**Alacak hesapları \> Müşteriler \> Tüm müşteriler**), **US\_SI\_0003** müşterisini ve ardından **Hareketler**'i seçin. **Müşteri hareketleri** sayfası, orijinal muhasebe girişiyle birlikte yalnızca orijinal faturayı (000008) gösterir. **Faturayı düzeltmelerini Alacak hesaplarına naklet** seçeneği, **Genel muhasebe parametreleri** sayfasında **Hayır** olarak ayarlandığından, yalnızca Genel muhasebe güncelleştirilir. Bu nedenle, ters işlem ve güncelleştirilmiş muhasebe girişleri gösterilmez. [Senaryo 3](rev-rec-reallocation-scenario-3.md)'te oluşturulan gelir ayarlama hareketlerinin gösterildiğini unutmayın.
 
 [![Müşteri hareketleri sayfasındaki orijinal muhasebe girişi](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

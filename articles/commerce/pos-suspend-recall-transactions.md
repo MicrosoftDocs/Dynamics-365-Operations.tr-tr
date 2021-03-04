@@ -82,3 +82,6 @@ Askıya alınmış bir hareketi hızlı ve kolay şekilde geri çağırmak için
 ### <a name="void-a-suspended-transaction"></a>Askıya alınmış bir hareketi hükümsüz kılmak
 
 Askıya alınmış hareketleri, hareketi geri çağırarak ve sonra **Hareketi hükümsüz kıl** operasyonunu gerçekleştirerek veya hareketi **Hareketi geri çağır** listesinde seçerek ve uygulama çubuğunda **Hükümsüz kıl** seçeneğini işaretleyerek hükümsüz kılabilirsiniz. Alternatif olarak, mağaza, kullanıcıları askıya alınmış hareketleri vardiyaları bittiklerinde hükümsüz kılmaları konusunda uyarmak üzere yapılandırılabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

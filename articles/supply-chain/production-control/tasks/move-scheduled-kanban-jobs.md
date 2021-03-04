@@ -62,3 +62,6 @@ Bu prosedür, planlanan işlem kanban işlerini farklı bir döneme taşımaya o
 2. **İleri**'ye tıklayın. İşin listede bir satır aşağıya taşındığına dikkat edin. 
 
 3. **Geri**'yi tıklatın. İşin listede bir satır yukarıya taşındığına dikkat edin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

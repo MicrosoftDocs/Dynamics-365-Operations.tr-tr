@@ -68,3 +68,6 @@ Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağı
 13. **Hareketler**'i seçin.
 14. Oluşturduğunuz faturayı seçin. Fatura kaydı tahakkuku ters kaydedilmiş ve ilgili gider hesabına nakledilmiştir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

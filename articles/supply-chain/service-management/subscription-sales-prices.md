@@ -380,3 +380,6 @@ Abo1 abonelik grubundaki her iki aboneliğin abonelik ücretlerini oluşturmak i
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

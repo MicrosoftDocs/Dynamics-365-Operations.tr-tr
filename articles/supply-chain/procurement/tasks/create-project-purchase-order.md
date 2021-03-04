@@ -48,3 +48,6 @@ Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir. Bu göre
     * Satışların ve maliyet fiyatlarının kullanılabilir olduğunu doğrulayın. Kullanılabilir olmayıp gerekli oldukları durumda, bilgileri girin.  
 14. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Kutucuk seçildiğinde, **Tüm üretim dalgaları** sayfası açılır. Sayfa, k
 **Dikkat gerektiren açık ambar işi** kutucuğu ambara serbest bırakılan, işlenmemiş işi bulunan ve çalışma alanı tarihiyle aynı veya daha önceki bir tarihte olan bir ham madde tarihi bulunan ürün reçetesi ve formül satırı sayısını gösterir. Ayrıca satırların, çalışma alanı filtresine uygulanan bir işlem kaynağı tarafından tüketilmesi gerekir.
 
 Kutucuk seçildiğinde, **Tüm işler** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen iş satırları içeren açık iş başlıklarının sayısına göre filtrelenir. **Tüm işler** sayfasından, işi el ile işleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

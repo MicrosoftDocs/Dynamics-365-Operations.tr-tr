@@ -125,3 +125,6 @@ Proforma fatura, fatura deftere nakledilmeden önce gerçek fatura tutarının b
 #### <a name="blogs"></a>Bloglar
 
 [Dynamics 365 for Finance and Operations'ta satış nasıl işler?](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations) başlıklı yazıda satış sürecine ilişkin bir genel bakış bulabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

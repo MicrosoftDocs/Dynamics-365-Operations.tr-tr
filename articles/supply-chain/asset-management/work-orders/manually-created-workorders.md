@@ -166,3 +166,6 @@ Aşağıdaki çizimde **İş emri oluştur** iletişim kutusunun bir örneği g�
 >[!NOTE]
 >İş emirlerinin otomatik oluşturulmasını isterseniz, bakım planı işlerini planlayabilir veya bir varlıkta [bakım planlarını](../preventive-and-reactive-maintenance/maintenance-plans.md) veya [bakım sıralarını](../preventive-and-reactive-maintenance/maintenance-rounds.md) "otomatik oluştur" özelliğini ayarlayabilirsiniz. **Tüm bakım zamanlamaları** liste sayfasındaki bakım taleplerinden oluşturulan iş emirleri, bakım taleplerinde seçilen bakım işi türlerine sahiptir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

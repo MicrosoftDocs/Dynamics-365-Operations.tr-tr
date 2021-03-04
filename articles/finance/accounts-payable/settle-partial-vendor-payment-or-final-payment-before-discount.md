@@ -142,3 +142,6 @@ April, ödeme günlüğünü naklediyor ve **Satıcı hareketleri** sayfasından
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

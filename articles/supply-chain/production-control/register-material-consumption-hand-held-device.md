@@ -92,3 +92,6 @@ Kaydınız tamamladıktan sonra günlüğü deftere nakletmek ve iş akışın�
 -   Malzeme fazla tüketilebilir. Örneğin, malzemenin 100 libre miktarında tüketileceği tahmin edilirse, ürün daha fazla miktarda (örneğin 105 libre) tüketilebilir.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Bu yordam, boyut tabanlı yapılandırma teknolojisi ile yeni bir ürün şablon
     * Boyut tabanlı yapılandırma teknolojisini seçin.  
 9. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Amortisman, yuvarlama olmadan 2,444.44 olarak hesaplanır. Aşağıdaki tabloda 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

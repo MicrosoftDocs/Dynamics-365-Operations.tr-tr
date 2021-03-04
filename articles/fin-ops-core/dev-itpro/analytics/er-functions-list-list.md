@@ -73,3 +73,6 @@ Bu durumda, `LIST('Record 1', 'Record 2')` ifade iki kayıt içeren yeni bir lis
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

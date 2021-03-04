@@ -85,3 +85,6 @@ Amortismana esas olan değerin yüzde 30'u (net defter değeri eksi hurda değer
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

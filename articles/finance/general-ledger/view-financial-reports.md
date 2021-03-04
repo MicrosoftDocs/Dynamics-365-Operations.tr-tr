@@ -87,3 +87,6 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

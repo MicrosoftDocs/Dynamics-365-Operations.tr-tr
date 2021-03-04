@@ -68,3 +68,6 @@ Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve ku
 | Personel Yetenek Analizi  | Sertifikalı, seviye, seviye tarihi ve yetenek                                                                    | Personel Ad, Yetenek |
 | Performans              | Değerlendirme, açıklama ve derecelendirme modeli                                                                      | Geçerli Personel, Geçerli Pozisyon, Personel Eğilimi, İş Tercih Edilen Yetenek, Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel |
 | Yetenek                    | Beceri, beceri türü ve derecelendirme                                                                              | Personel Yetenek Analizi, İş Tercih Edilen Yetenek |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

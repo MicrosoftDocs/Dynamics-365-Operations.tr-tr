@@ -50,3 +50,6 @@ Maliyetlendirme tablosu **Ürün maliyetini hesapla** sayfasının bir kısmı o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Performans ve teknik nedenlerle, şu anda yalnızca aşağıdaki koşulları kar
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Geliştirici araçlarındaki özel alanlara başvurabilir miyim?  
 
 Özel alanlar yalnızca kullanıcı arabiriminden yönetilebilir ve kod tarafından başvurulamaz. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

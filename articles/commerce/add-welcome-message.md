@@ -68,3 +68,6 @@ Hoş geldiniz iletisi şimdi, seçili başlık parçasını kullanan her site sa
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

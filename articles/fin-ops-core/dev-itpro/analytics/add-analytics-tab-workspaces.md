@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Bir Boole değeri, filtre panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir.     |
 | showNavPane      | Bir Boole değeri, gezinti panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
 | defaultFilters   | Power BI raporu için varsayılan filtreler.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

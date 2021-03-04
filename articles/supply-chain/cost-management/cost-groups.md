@@ -54,3 +54,6 @@ Bir maliyet grubuna, bir maliyet grubu tipi ve tamamlayıcı segmentasyon amaçl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

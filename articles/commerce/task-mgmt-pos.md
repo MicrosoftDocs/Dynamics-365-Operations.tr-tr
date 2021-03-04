@@ -64,3 +64,6 @@ Aşağıdaki çizimde **Görev listeleri** sekmesi gösterilmiştir:
 [Görev listeleri oluşturma ve görev ekleme](task-mgmt-create-lists.md)
 
 [Mağazalara veya personele görev listeleri atama](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

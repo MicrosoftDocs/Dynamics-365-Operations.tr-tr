@@ -135,3 +135,6 @@ Aşağıdaki çizim, çağrı merkezi kanallarında ürün derecelendirmeleri ö
 [Derecelendirme ve incelemeleri yönetme](manage-reviews.md)
 
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

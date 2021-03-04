@@ -147,3 +147,6 @@ Aşağıdaki resimde, yapılandırılmış bir ambarın ayrıntıları gösteril
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

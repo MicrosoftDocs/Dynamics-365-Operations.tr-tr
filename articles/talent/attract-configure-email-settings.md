@@ -89,3 +89,6 @@ Farklı bir e-posta hizmeti hesabı bağlamazsanız Attract'ten atılan e-postal
     ![Şirketinizin gizlilik politikasına ve e-posta alt bilgisi ile ilgili kullanım koşullarına bağlantılar ekleme](./media/attract-admin-email-footer.png)
 
 4. E-posta şablon ayarlarınızı kaydetmek için **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

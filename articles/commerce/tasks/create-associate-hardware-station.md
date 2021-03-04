@@ -58,3 +58,6 @@ Bu yordamda yeni bir donanım istasyonu oluşturma konusu açıklanmaktadır. Ye
 23. EFT terminali kodu alanına bir değer girin.
 24. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Parça artık diğer site sayfaları için şablonda başvurulabilir. Bu parçay
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
 
 [İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

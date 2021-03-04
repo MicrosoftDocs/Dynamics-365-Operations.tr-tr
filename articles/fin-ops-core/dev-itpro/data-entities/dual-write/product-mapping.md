@@ -223,3 +223,6 @@ Böylece, eşitleme etkinleştirildiğinde ve gerçekleştiğinde Finance and Op
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Ürün verilerinin diğer Dynamics 365 uygulamalarından Finance and Operations'a taşınması
 
 Diğer Dynamics 365 uygulamalarında Finance and Operations'ta bulunmayan ürünler varsa yönetici bu ürünleri Finance and Operations'ta içe aktarmak için öncelikle **EcoResReleasedProductCreationV2Entity** varlığını kullanabilir. Ardından yukarıda açıklandığı gibi Finance and Operations ve diğer Dynamics 365 uygulamalarındaki ürün verilerini eşleştirebilir. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

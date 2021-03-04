@@ -32,3 +32,6 @@ Bu konu bir oturum tarihinin nasıl değiştirileceğini açıklamaktadır. Vars
 2. **Tarih** alanına bir tarih girin.
 3. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

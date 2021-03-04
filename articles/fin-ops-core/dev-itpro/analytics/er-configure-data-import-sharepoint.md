@@ -206,3 +206,6 @@ ER çerçevesi, veri içeri aktarma için katılımsız modda model eşleme yür
 
 [Application update 7.3 için ER çerçevesi API değişiklikleri](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

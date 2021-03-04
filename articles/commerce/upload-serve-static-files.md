@@ -107,3 +107,6 @@ URL yolu değiştirmek için, aşağıdaki adımları izleyin.
 [Resimleri kırpma](dam-crop-images.md)
 
 [Görüntü odak noktalarını özelleştirme](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Değişiklik şablonda yapılan değişiklikleri önizledikten sonra, şablonu c
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Önceden ayarlanmış düzenlerle çalışma](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

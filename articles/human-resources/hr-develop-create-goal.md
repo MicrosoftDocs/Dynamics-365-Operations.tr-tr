@@ -58,3 +58,6 @@ Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyeb
     * Genellikle ekip üyeleri veya tüm personel için aynı veya benzer çeşitli hedefler bulunur.     İK yöneticiniz veya yöneticiniz bir veya daha fazla hedef şablonları içeren hedef grupları oluşturabilir. Bir hedef grubundan hedefler ekleyebilir ve ardından bunları sizin zaman çizelgenizle eşleşecek şekilde değiştirebilirsiniz.  
     * Gözden geçirme oluşturduğunuzda, bu gözden geçirmeye hedefler ekleyebilirsiniz. Gözden geçirmelerinize hedefleri nasıl ekleyebileceğinizi görmek için gözden geçirmeler için görev kılavuzuna başvurun.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

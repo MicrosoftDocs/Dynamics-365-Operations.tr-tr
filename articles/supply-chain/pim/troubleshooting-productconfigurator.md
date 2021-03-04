@@ -75,3 +75,6 @@ Bunun ardından aşağıdaki hesaplamaları ekleyebilirsiniz:
 
 - *ResultDecimal* = *Giriş* × *Yüzde* ÷ 100
 - *ResultInteger* = *ResultDecimal*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

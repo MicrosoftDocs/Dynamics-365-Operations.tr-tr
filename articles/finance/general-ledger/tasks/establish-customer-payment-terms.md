@@ -57,3 +57,6 @@ Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. B
 26. **Satıcı iskontoları için ana hesap** alanında nakit iskontosunun satıcı faturalarına nakil olacağı ana hesabı girin.
 27. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

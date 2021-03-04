@@ -51,3 +51,6 @@ Açık pozisyonlarınızı olabildiğince fazla kalifiye adayın önüne sunmak 
 
 > [!NOTE]
 > Microsoft ve Attract, bu değerleri oluşturmak ve saklanmakta söz sahibi değildir. Attract için bunları güncel tutmak ve kimlik bilgileriniz içeren herhangi bir sorunu Broadbean ile iş birliği yaparak çözmek sizin sorumluluğunuzdur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

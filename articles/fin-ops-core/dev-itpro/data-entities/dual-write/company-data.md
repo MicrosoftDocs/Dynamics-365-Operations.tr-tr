@@ -102,3 +102,6 @@ Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurman
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Şirket bağlamını uygulama":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

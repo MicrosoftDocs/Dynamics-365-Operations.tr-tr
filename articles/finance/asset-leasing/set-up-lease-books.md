@@ -53,3 +53,6 @@ Yeni bir kiralama defteri oluşturmak için şu adımları izleyin.
     | Kısa süre eşiği                     | Kısa süreli kiralamalar için bir eşik olarak kullanılacak ay sayısını girin. Kiralama süresi buraya girdiğiniz ay sayısından azsa veya bu sayıya eşitse sistem, kiralamayı kısa süreli kiralama olarak sınıflandıracaktır ve ertelenmiş kira işlemi uygulanacaktır. |
     | Düşük değer eşiği                      | Düşük değerli kiralamalar için eşik olarak kullanılacak bir tutar girin. Varlığın adil değeri buraya girdiğiniz değerden azsa veya bu değere eşitse sistem, kiralamayı düşük değerli kiralama olarak sınıflandıracaktır ve ertelenmiş kira işlemi uygulanacaktır. |
     | Satıcıya öde                            | Kiralama ödemelerinin, her kiralamada belirtilen satıcı hesabına fatura olarak nakledilmesine izin vermek için bu seçeneği **Evet** olarak ayarlayın. Kiralama ödemesi deftere nakledildiğinde satıcı hesabı alacaklandırılır. Bu seçenek **Hayır** olarak ayarlanırsa, bunun yerine **Kiralama deftere nakil parametreleri** sayfasındaki **Kira ödemesi** deftere nakil türü için beliritilen hesap alacaklandırılacaktır. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

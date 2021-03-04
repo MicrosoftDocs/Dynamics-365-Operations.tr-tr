@@ -64,3 +64,6 @@ Bu yordamı oluşturmak için USMF demo verileri şirketi kullanılmıştır.
 6. Listede bir **Kullanıcı kodu** seçin. Örneğin, 24.
 7. **İş** hızlı sekmesini genişletin.
 8. **El ile madde yeniden tahsisine izin ver** alanında **Evet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

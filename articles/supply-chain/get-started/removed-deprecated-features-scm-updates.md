@@ -73,3 +73,6 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 
 Önceki sürümlerde kaldırılmış veya kaldırılmış özellikler hakkında daha fazla bilgi edinmek için, [önceki sürümlerdeki kaldırılmış veya kaldırılmış özelliklere](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md) bakın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

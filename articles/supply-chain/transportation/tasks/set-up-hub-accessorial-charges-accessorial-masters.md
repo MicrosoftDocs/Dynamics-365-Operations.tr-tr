@@ -54,3 +54,6 @@ Bu yordam bir hub için ana ilavenin nasıl oluşturulacağını ve onu hub ilav
 9. Kaydet'e tıklayın.
 10. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

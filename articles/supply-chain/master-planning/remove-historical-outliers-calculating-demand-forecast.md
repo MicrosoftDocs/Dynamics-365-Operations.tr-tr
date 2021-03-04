@@ -51,3 +51,6 @@ Tahmin doğruluğunu artırmak için aykırı değerleri dışarıda bırakabili
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

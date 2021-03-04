@@ -52,3 +52,6 @@ ms.locfileid: "4439338"
 
 5. **Tamam**'a tıklayın. Bir veya daha fazla iş emri oluşturulur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

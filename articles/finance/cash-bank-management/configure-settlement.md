@@ -67,3 +67,6 @@ Ek muhasebe girişlerini (aynı genel muhasebe hesabına borç ve alacak girişi
 
 -   Kuruluşlar gerekli olmayan bir mali boyutu sıfırla doldurmak için sık sık sabit boyutları kullanılır. Bu genellikle alacak hesapları/borç hesapları gibi bilanço hesapları için geçerlidir. Hesap yapıları tipik olarak sıfırla doldurulmuş mali boyutları izlememek için kullanılabilir.  Bilanço hesapları için mali boyutu kaldırarak, sabit boyutları kullanma gereksinimini ortadan kaldırabilirsiniz.
 -   Kuruluşunuz alacak hesapları/borç hesapları ana hesabında sabit boyutları gerektiriyorsa, sabit boyutu ödemede varsayılan yapmanın bir yolunu bularak, sabit boyut değerinin ödeme için satıcı hareketinde depolanmasını sağlayın. Bu, sistemin, alacak hesapları/borç hesapları ana hesabını yeniden oluşturarak sabit boyutlarının dahil edilmesini sağlamaya olanak sağlayacaktır. Sabit boyut değeri ya satıcılarda veya ödeme günlüğü için günlük adında varsayılan değer olarak tanımlanabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Bu yordamda, USMF şirketi kullanılır.
 3. Listede, istenen kaydı bulun ve seçin.
 4. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

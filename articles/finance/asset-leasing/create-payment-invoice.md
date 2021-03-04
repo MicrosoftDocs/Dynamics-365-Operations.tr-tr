@@ -49,3 +49,6 @@ Kiralamalar için ayrı ayrı aylık fatura oluşturabilir veya birden fazla kir
 6. Hareket deftere nakledildikten sonra kiralama defterinde **Yükümlülük hareketleri**'ni seçerek hareket bilgilerini ve kiralama yükümlülüğünün defter değerini görüntüleyebilirsiniz.
 
     Ödeme planında, **Günlük deftere nakledildi** onay kutusu seçili olur ve satırda fatura günlük numarası gösterilir. Ödeme günlüğü ve söz konusu günlük için bir giriş oluşturulduktan sonra, yeniden oluşturulabilmesi için girişi tersine çevirmeniz gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ O seçeneğe bağlı olarak çalışma alanını filtrelemek için bir seçenek 
 [![çalışma-alanı-bölüm-filtreleri](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Çalışma alanı genelinde filtrede olduğu gibi, bölümün içeriğini filtrelemek için, alanda bir değer seçin veya girin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

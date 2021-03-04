@@ -71,3 +71,6 @@ Bakım veya onarım işini tamamladığınızda, varlığı iade edildiği gibi 
 2. Varlık veya bakım talebini seçin.
 3. Varlıkları **Teslim et**'i seçin.
 4. **Teslim edildi** alanında tarihi ve saati girin. Daha sonra **Tamam**'ı seçin. Kayıt, **Giden varlıklar** listesi sayfasından kaldırılır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Ayrıca, yöneticiye veya departmana göre takvimlere filtre uygulayabilirsiniz.
 
 Takvim ayarları hakkında bilgi için bkz. [Takvim parametrelerini yapılandırma](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

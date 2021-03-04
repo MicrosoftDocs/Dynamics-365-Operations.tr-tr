@@ -54,3 +54,6 @@ Bu konuda, gönderme takımı oluşturma açıklanmıştır. Bir gönderme takı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

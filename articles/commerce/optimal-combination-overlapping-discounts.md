@@ -84,3 +84,6 @@ Katlanarak artan değerlendirilecek birleşim sayısı sorununu çözmek için, 
 ![Marjinal değeri hesaplama formülü](./media/overlapping-discount-combo-06.jpg)
 
 Paylaşılan ürün kümesindeki her iskontonun marjinal değeri hesaplandıktan sonra, iskonotolar, kapsamlı olarak, yüksek marjinal değerden düşük marjinal değere doğru sıralanarak paylaşılan ürünlere uygulanır. Bu yöntem için, her tek iskonto örneği uygulandıktan sonra kalan iskonto olasıklıkları karşılaştırılmaz. Bunun yerine, çakışan iskontolar bir kez karşılaştırılır ve sonra sırayla uygulanır. Hiçbir ek karşılaştırma yapılmaz. Eşiği **Ticaret parametreleri** sayfasının **İskonto** sekmesindeki marjinal değerine geçecek şekilde yapılandırabilirsiniz. Toplam iskontoyu hesaplamak için kabul edilebilir süre perakende endüstrileri arasında farklılık gösterir. Ancak, bu süre genellikle on milisaniye ile bir saniye aralığında olur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

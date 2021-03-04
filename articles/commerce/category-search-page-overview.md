@@ -111,3 +111,6 @@ Arama sonuçları sayfası için aşağıdaki bileşenler gereklidir:
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Aşağıdaki teknik konferans kayıtlarında, Finance and Operations'ın önceki
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
 Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

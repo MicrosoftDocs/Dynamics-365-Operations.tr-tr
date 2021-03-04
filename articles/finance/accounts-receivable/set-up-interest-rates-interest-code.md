@@ -131,3 +131,6 @@ Farklı sürümleri görüntülemek için, **Tarihli sürüm** menü seçeneğin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

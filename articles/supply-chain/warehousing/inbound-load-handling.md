@@ -478,3 +478,6 @@ Bu senaryoda, teslim alma memuru, yükte var olan miktarı aşan miktarı gelen 
     - **Miktar** – Satıcının 12 olan toplam satınalma siparişi miktarının parçası olarak teslim etme iznine sahip olduğu kalan miktar olan _7_ değerini girin (orijinal sipariş miktarı 10'dur ve 2 yüzde 20'lik izin verilen fazla teslimat miktarıdır). 5 parçanın ilk yük için kaydedilmiş olduğunu unutmayın.
 
 İkinci yük şimdi 7 miktarıyla güncelleştirilir ve bu miktara göre ürün girişiyle güncelleştirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

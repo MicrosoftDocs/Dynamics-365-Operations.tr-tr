@@ -62,3 +62,6 @@ Birden çok site sayfasına bir tanımlama bilgisi izin modülünü etkili şeki
 [Üst bilgi modülü](author-header-module.md) 
 
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

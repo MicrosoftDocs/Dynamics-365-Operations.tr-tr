@@ -94,3 +94,6 @@ Belirli kuralların değerlendirmesini devre dışı bırakmak için kural taraf
 [En iyi duruma getirme danışmanı için kurallar oluşturma](./create-rules-optimization-advisor.md)
 
 [Dynamics 365 for Finance and Operations içindeki İyileştirme danışmanı (Video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

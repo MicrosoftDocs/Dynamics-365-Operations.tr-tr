@@ -145,3 +145,6 @@ Bu içeriğin büyük bir bölümü, Dynamics 365 Commerce ve Dynamics 365 Human
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

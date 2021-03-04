@@ -122,3 +122,6 @@ Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün 
 2. Formlar düğümünün altından **Bilgi** formunu bulun. 
 3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın. 
 4. Güvenlik ayarını **Herkese göster** olarak değiştirin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

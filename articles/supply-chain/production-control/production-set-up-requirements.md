@@ -81,3 +81,6 @@ Rotalarla çalışıyorsanız, ayarladığınız tüm üretim rotaları için op
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

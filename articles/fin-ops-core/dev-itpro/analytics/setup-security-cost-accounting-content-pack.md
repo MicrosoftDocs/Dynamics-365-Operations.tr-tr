@@ -63,3 +63,6 @@ Kuruluşunuzun veri erişimini kısıtlamak istediğini varsayalım. Maliyet muh
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI'ın satır düzeyinde güvenliği hakkında daha fazla bilgi için bkz. [Power BI'daki modelinizde güvenliği yönetme](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

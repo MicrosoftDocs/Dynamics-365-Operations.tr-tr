@@ -78,3 +78,6 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 10. Kaydet'i tıklatın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi
 5. **Kapat**'ı seçin. 
 6. İstenen ER yapılandırması sürümünü seçin ve bunu geçerli kuruluma getirmek için **İçeri aktar**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Bu konu kategori hiyerarşileri kullanarak bir ürünün nasıl sınıflandıral
 11. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
 12. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

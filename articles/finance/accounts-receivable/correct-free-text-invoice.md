@@ -51,3 +51,6 @@ Düzeltilmiş Fatura'yı deftere naklettikten sonra üç faturanız olacaktır:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

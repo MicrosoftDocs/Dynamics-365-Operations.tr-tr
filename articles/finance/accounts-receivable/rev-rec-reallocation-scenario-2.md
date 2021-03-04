@@ -90,3 +90,6 @@ Daha sonra, **Tüm müşteriler** sayfasını açın (**Alacak hesapları \> Mü
 [![Deftere nakledilen muhasebe girişi içeren fiş hareketleri sayfası](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Gelir ve satışın toplamı 1170,44 dolardan fazla olduğundan, -130,17 dolarlık fark deftere nakledilir. Bu tutar, Kısmi fatura geliri kliring hesabındaki bakiyeyi kapatır. Bu bakiye, yeniden tahsisat işleminden sonra yeni muhasebe girişinde deftere nakledilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

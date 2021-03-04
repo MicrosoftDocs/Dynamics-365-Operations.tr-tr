@@ -74,3 +74,6 @@ Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kura
 2. İlişkilendirme ağacını görüntüle'yi tıklatın.
     * Satış satırıyla aynı miktara sahip bir kanban oluşturulduğuna dikkat edin. L0050 üretmek için gereken malzeme sorunlarını da görebilirsiniz. Bu yordamın son aşamasıdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Bir kanal için birden fazla malzeme çekme teslimat modu olduğunda, alacak ür
 ## <a name="considerations-for-distributed-order-management"></a>Dağıtılmış sipariş yönetimi için dikkate alınacaklar
 
 [Commerce'deki dağıtılmış sipariş yönetimi (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

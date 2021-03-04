@@ -55,3 +55,6 @@ Kullanıcı, Microsoft Power Apps içinde Ortam Oluşturucu rolüne eklenmiş ol
     ![Eşitleme düğmesi](media/get-more.png)
 
     Eşitleme tamamlandıktan sonra, İnsan Kaynakları ana sayfada görüntülenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

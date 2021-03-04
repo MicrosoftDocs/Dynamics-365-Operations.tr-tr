@@ -70,3 +70,6 @@ Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirs
     - **Sil ve gönder** eylemi, yalnızca Çağrı merkezi işlevini kullandığınızda geçerlidir.  
 8. **Bekletmeleri sil**'e tıklayın. Bekletme artık siparişten temizlenmiş ve Etkin bekletmeler listesinden kaldırılmıştır. Tüm bekletmeleri veya bunların alt kümesini belirli bir duruma göre görmek için Göster alanındaki değeri değiştirin.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

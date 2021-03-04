@@ -94,3 +94,6 @@ Bir ödeme sayfasına hediye kartı modülü ekleme ve gerekli özellikleri ayar
 [Harici hediye kartları için destek](./dev-itpro/gift-card.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

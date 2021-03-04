@@ -72,3 +72,6 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

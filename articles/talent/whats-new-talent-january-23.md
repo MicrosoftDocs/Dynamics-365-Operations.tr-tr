@@ -53,3 +53,6 @@ Bu değişiklikle **Deneme süresi** ve **Takvim** alanları, **Değişiklikleri
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Finance and Operations için Platform güncelleştirmesi 23
 Küçük hata gidermeleri Finance and Operations için Platform güncelleştirmesi 23'ün parçası olarak dahil edilmiştir. Daha fazla bilgi için bkz [Dynamics 365 Finance and Operations platform güncelleştirmesi 23'te neler yeni veya değişti (Ocak 2019) 23](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Bu konu, Sabit kıymetler günlüğündeki alım teklifi kullanılarak bir sabit
 - Yalnızca, defterde alım tarihi ve alım fiyatı ayarlanmış olan sabit kıymetler alım teklifine dahil edilir.  
 11. Bu sayfada **Defterler** sekmesini seçin.
 12. **Naklet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Bu yordam eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve 
 
 8. Listede, istenen kaydı bulun ve seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

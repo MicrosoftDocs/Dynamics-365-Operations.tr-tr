@@ -83,3 +83,6 @@ Kiralama içeri aktarma çerçevesini, kiraları güncelleştirmek için kullan�
 
 1. **Varlık Kiralama \> Kiralama içeri aktarma çerçevesi \> Kurulum \> Alanı güncelleştir seçimi** bölümüne gidin.
 2. Görüntülenen sayfada güncelleştirilecek alanları seçin ve sonra bunları **Seçili alanlar** listesine taşımak için yeşil oku seçin. Yalnızca **Seçili alanlar** listesindeki alanlar kira içeri aktarma paketi kullanılarak güncelleştirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

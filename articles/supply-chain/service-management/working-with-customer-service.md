@@ -49,3 +49,6 @@ Bu bölümdeki konular, Müşteri hizmetleri iş süreci ve her iş süreci bile
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

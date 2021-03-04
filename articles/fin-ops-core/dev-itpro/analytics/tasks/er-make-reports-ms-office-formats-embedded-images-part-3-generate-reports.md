@@ -119,3 +119,6 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 23. Tamam'a tıklayın.
     * Oluşturulan sonucu inceleyin. Çıktı; şirket logosunu, yetkili kişinin imzasını ve seçili filigran metinini gösteren ekli resimler içeren bir Word belgesi olarak oluştulur.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

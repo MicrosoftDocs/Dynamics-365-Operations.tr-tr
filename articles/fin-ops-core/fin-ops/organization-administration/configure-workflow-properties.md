@@ -179,3 +179,6 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
 2. **İş akışı hakkında yorumlar girin** alanında, yorumlarınızı girin.
 3. Yorumlarınızı gözden geçirin. Yorumlarınızı ekledikten sonra üzerlerinde değişiklik yapamazsınız.
 4. **Yorum geçmişi** alanına yorumlarınızı eklemek için **Ekle**'yi tıklatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

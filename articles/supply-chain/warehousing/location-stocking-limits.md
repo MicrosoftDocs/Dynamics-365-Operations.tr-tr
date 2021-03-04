@@ -104,3 +104,6 @@ Bu görünür hatayı açıklamak için konum stoklama limitlerinin seçim ölç
 
 > [!NOTE]
 > Aynı konumda farklı miktarları olan maddelerin stok yenilemesini denetlemek için konum stoklama limitlerini kullanamazsınız. Bu durumda, bir *stok yenileme şablonu* kullanın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

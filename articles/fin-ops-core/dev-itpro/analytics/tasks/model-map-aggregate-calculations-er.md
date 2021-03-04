@@ -116,3 +116,6 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
 68. Kaydet'i tıklatın.
     * Tanımlanan toplamlar olmamasına ve 'Tablo kayıtları' türündeki seçilen veri kaynağı aynı 'Intrastat' tablosuna başvuruda bulunmasına rağmen 'Yürütme konumu' alanı bu gruplamanın çalışma zamanında bellekte gerçekleştirileceğini gösterir. Bunun nedeni, veri kaynağının henüz SQL veritabanı düzeyine çevrilmemiş olan bazı hesaplanmış alanlar içermesidir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Bağlılık programı programına katılmak için, bağlılık programı kayıt 
 [Üst bilgi modülü](author-header-module.md)
 
 [Alt bilgi modülü](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

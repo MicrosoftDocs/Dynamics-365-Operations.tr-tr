@@ -523,3 +523,6 @@ Tüm bu günlük girişleri oluşturulup deftere nakledildikten sonra, aşağıd
 | 11         | Birikmiş amortisman |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

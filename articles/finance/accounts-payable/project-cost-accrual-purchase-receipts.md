@@ -83,3 +83,6 @@ Satıcı faturası gerçek satıcı faturası gelene kadar bekleme durumunda kal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

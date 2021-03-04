@@ -56,3 +56,6 @@ Bir iş emrinin belirli bir tarih *ve* saatte zamanlanması gerekiyorsa, Varlık
 >[!NOTE]
 >İş emri için bir bakım görevlisi planlamak için bu bakım görevlisinin beklenen başlangıç tarihi ve saatinde uygun olması gerekir. Çalışanın uygunluk durumu [çalışan takviminde](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md) ayarlanır. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

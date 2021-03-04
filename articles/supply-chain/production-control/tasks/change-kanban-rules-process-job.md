@@ -49,3 +49,6 @@ Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye
 7. Son düğmesini tıklatın.
     * Kanban işi şimdi artık başka bir kanban kuralını kullanmaktadır. Bu, yük iş hücrelerini eşitlemek için yararlı olabilir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

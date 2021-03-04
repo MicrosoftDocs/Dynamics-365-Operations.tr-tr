@@ -423,3 +423,6 @@ Büyük olasılıkla, bu örneği dağıtmak için kullanılan Azure AD etki ala
 
 [Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

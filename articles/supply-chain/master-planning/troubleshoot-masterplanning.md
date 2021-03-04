@@ -89,3 +89,6 @@ Yerleşik master planlama altyapısıyla performansı artırmanın bir yolu aşa
 
 > [!NOTE]
 > Bu, bu master plan için gerçekleştirilen açılımları tek bir güne sınırlandırır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Bu konu süreklilik programının ayarlanmasını gösterir (aksi takdirde tekra
     * Bu madde bir çağrı merkezinde satıldığında, seçili süreklilik programından ek iş mantığı uygulanır.  
 7. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

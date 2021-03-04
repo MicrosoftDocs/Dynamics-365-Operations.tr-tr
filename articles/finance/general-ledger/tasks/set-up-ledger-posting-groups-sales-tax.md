@@ -42,3 +42,6 @@ Satış vergisi hesaplanır ve Genel muhasebe deftere nakil gruplarında belirti
 11. **Müşteri servis talebi iskontosu** alanında, bu **Genel muhasebe deftere nakil grubuyla** ilişkili **Satış vergisi kodları** için nakit iskontosunun nakledileceği ana hesabı seçin. Bu, isteğe bağlıdır ve hiç hesap girilmezse, **Nakit iskontosu kodlarındaki** ana hesap kullanılır. **Satış vergisi gruplarında** Nakit iskontosundaki ters satış vergisi seçeneği kullanılıyorsa, **Genel muhasebe deftere nakil grubu** başına farklı hesaplar kullanırken yararlı olabilir.  
 12. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

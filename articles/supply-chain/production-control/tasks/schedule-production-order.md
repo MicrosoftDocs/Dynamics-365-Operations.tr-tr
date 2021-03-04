@@ -55,3 +55,6 @@ Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir. Bu yöntemi
 6. Sayfayı kapatın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

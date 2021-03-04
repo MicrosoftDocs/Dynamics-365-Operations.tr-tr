@@ -71,3 +71,6 @@ Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir. Bu yön
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

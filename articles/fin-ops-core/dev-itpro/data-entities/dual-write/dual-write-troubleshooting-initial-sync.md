@@ -211,3 +211,6 @@ Müşteri varlığında **ContactPersonID** ve **InvoiceAccount** alanlarında d
     Satırların ilk eşitlenme işlemi şimdi tamamlandı.
 
 8. Finance and Operations uygulamasında, **Müşteriler V3** varlığı için değişiklik izlemeyi yeniden açın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

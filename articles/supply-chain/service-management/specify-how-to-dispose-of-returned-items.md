@@ -183,3 +183,6 @@ Tanımladığınız her elden çıkarma kodu için bir elden çıkarma eylemi se
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

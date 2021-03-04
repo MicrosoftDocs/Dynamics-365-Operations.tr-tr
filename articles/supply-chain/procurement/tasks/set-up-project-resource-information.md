@@ -52,3 +52,6 @@ Bu yordam, bir proje kaynağı ayarlamayı gösterir. Bu görev, USMF veri küme
 20. Kaydet'e tıklayın.
 21. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Tuvalin üzerine sürüklediğiniz tüm öğeleri yapılandırın. Tüm iş akı
 
     - İş akışının bu sürümünü etkinleştirmek için **Yeni sürümü etkinleştir**'e tıklayın. İş akışı etkinken kullanıcılar işlenmesi için iş akışına belgeler gönderebilir.
     - Bu sürümü etkinleştirmek istemiyorsanız **Yeni sürümü etkinleştirme**'ye tıklayın. İş akışını daha sonra etkinleştirebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

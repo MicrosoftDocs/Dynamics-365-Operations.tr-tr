@@ -86,3 +86,6 @@ Bu konu, bir basit konum yönergesini kurmayı açıklar. Gösterilen örnek, bi
 4. **Ölçütler** alanına bir değer yazın.
 5. **Tamam**'ı seçin. Ambarınızdaki tüm olası senaryoları elde edene kadar yönerge satırları ve yönerge eylemleri eklemeye devam edebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

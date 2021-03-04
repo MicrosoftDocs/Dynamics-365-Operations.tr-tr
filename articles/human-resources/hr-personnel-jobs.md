@@ -87,3 +87,6 @@ Bir pozisyondaki çalışanın o iş için sorumlu olacağı iş rollerini, sür
 
 ## <a name="steps-for-creating-a-job"></a>Bir iş oluşturma adımları
 Yeni bir iş oluşturmaya ilişkin adım adım yordam için [Yeni işler tanımlama](../fin-and-ops/hr/tasks/define-new-jobs.md) konusuna başvurun. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

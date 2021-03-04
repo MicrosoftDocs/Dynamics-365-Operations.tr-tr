@@ -101,3 +101,6 @@ Kataloglar Commerce'te yapılandırılıp yayımlandığı için, **Kataloğu g�
 ## <a name="additional-notes"></a>Ek notlar
 
 Şimdilik, çağrı merkezinde bir satış siparişine uygulanan kaynak kodu kimliği; fiyatları, promosyonları, komut dosyalarını ve dikey satış/çapraz satışları yönetmek için kullanılmaktadır. Sistem, katalogda olmayan bir ürünün satış siparişinde sipariş edilmesine bir yasak veya engel getirmeyecektir. Katalogda yer almayan bir madde sipariş edilirse, sistem ilk olarak çağrı merkezi kanalında (**Retail and Commerce** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**) madde fiyatı ve promosyonları için tanımlanan **Fiyat grubunu** kullanır. Belirli bir kanal fiyatı bulunamazsa, maddenin taban satış fiyatı kullanılır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Raporu oluşturduğunuz zaman aşağıdaki varsayılan parametreler görüntüle
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

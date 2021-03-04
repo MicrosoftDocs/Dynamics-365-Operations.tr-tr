@@ -48,3 +48,6 @@ Bu özelliği kullanmak için, **özellik yönetimi** çalışma alanında **Yö
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Personel ve Yönetici self servisine genel bakış](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

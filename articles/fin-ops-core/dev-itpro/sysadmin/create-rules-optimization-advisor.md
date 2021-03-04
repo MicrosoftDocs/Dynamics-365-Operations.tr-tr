@@ -254,3 +254,6 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 ```
 
 Daha fazla bilgi için kısa YouTube videosunu izleyin: [Dynamics 365 for Finance and Operations içinde iyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

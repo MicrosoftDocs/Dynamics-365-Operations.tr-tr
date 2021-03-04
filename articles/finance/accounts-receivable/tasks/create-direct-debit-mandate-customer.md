@@ -90,3 +90,6 @@ Bu görev kılavuzunda hesaptan ödeme talimatının nasıl oluşturulacağı ve
 3. Talimatı eklediğiniz müşteriyi seçin.
 4. **Hesaptan ödeme talimatı kodu** alanında bir değer girin veya bir değer seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

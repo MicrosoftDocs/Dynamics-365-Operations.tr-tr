@@ -45,3 +45,6 @@ Ekstre deftere nakil işlemi aracılığıyla satış siparişi faturalama için
 
 > [!NOTE]
 > Gelişmiş olmayan ambar yönetimi senaryoları için ekstre deftere nakledilirken, toplu işle izlenen maddelerin gelişmiş şekilde işlenmesiyle ilgili destek Retail 10.0.5 sürümünde kullanıma sunuldu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 7. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. XML biçimindeki fatura iletisine ek olarak her bir ek için tek bir dosya oluşturulduğunu unutmayın. Ek dosyaları ikili biçimde sıkıştırılmış çıktı ile doldurulur.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Burada bazı tipik **üretim yedekleme** farkı kaynakları yer almaktadır:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

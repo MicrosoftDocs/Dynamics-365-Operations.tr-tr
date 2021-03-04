@@ -162,3 +162,6 @@ Redis önbelleği bağlantı dizesinin gizli dizisini kaydetmek için aşağıda
 > Bağlantı dizelerinden birini her güncelleştirdiğinizde gizli dizi değerlerini de güncelleştirmeniz gerekir.
 
 Gerekli Azure kaynaklarını sağlamayı şimdi bitirdiniz. Sonraki adım, [Microsoft Dynamics LifeCycle Services'daki (LCS) IoT Zekası eklentisinin yüklenmesi](iot-lcs-setup.md) ile ilgilidir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

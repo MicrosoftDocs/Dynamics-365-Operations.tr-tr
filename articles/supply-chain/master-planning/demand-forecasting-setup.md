@@ -102,3 +102,6 @@ Talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

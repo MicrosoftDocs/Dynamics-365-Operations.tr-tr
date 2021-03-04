@@ -50,3 +50,6 @@ Bu yordam, bir ilave atama kurmayı göstermektedir. Bu genellikle taşımacıl�
 14. İlave ücret alanına bir sayı girin.
 15. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

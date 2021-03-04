@@ -56,3 +56,6 @@ Bu prosedürde bir saha için henüz başlamamış üretim emirlerinin nasıl za
 4. Malzemeler öğesini tıklayın.
     * Bu sayfada, üretim emri ve güncel kullanılabilir stok üzerindeki işlemler için tahmini malzeme tüketimini görebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

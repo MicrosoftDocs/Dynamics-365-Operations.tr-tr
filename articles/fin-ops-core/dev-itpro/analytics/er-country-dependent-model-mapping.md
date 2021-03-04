@@ -496,3 +496,6 @@ Paylaşılan model eşleme yapılandırmasının varsayılan model eşleme yapı
 - ER model eşleme yapılandırmasının en az bir sürümünün **Tamamlandı** veya **Paylaşılan** durumunda olması. Bu durumda, ER biçimini yürütmek için en yüksek sürüm numarasına sahip sürüm kullanılır.
 - ER model eşleme yapılandırması için **Taslağı çalıştır** seçeneğinin açık olması. Bu durumda, ER biçimini yürütmek için **Taslak** durumuna sahip sürüm kullanılır.
 > **Ayarı çalıştır** ER kullanıcı parametresi açıldığında **Taslağı çalıştır** seçeneği, her ER model eşleme yapılandırmasının **Yapılandırmalar** sayfasında kullanılabilir hale gelir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

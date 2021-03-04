@@ -77,3 +77,6 @@ Kültür çağrılan işlevin bağımsız değişkeni olarak tanımlanmamışsa,
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Metin işlevleri](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

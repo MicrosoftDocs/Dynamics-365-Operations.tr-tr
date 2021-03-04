@@ -51,3 +51,6 @@ Gönderme panosundaki kaydedilmemiş değişiklikleri geri almak için aşağıd
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

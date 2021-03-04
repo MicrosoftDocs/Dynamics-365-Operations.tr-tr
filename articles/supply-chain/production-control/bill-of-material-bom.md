@@ -118,3 +118,6 @@ Bir alt üretim, bir ürün reçetesi satırı, etkinlik kanbanı veya ürün re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

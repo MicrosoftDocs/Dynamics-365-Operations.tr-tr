@@ -84,3 +84,6 @@ Bu görev kılavuzunda, silme işlemleri parametrelerinin ve ardından silme har
 5. **Tamam**'a tıklayın.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

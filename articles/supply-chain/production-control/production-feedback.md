@@ -36,3 +36,6 @@ Bu makalede, çalışanlara üretim işleri hakkında geribildirim veren üretim
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -599,3 +599,6 @@ Bu durumda, çalışanın esnek bakiyesi gerçek çıkış saati ile planlanan �
 - Devamsızlığı otomatik ekle
 
 Esnek saatler için etkinleştirilen bir çalışan için günlük kayıtlar hesaplanırken, **Otomatik esnek- ekleme** alanında belirtilen devamsızlık kodu varsayılan devamsızlık kodu olarak kullanılır. Çalışanın esnek saatler için etkinleştirilmemişse, **Otomatik devamsızlık ekleme** alanında belirtilen devamsızlık kodu kullanılır. Bir şirkette hem esnek saatler için etkinleştirilmiş hem de esnek saatler için etkinleştirilmemiş çalışanlar varsa, her iki parametrenin de ayarlanması gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını a�
 20. Sayfayı kapatın.
 21. **Serbest bırakılan ürün detayları** formunu kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

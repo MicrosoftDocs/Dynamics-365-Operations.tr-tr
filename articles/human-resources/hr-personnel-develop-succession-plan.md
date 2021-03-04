@@ -60,3 +60,6 @@ Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde
 28. Rapor'a tıklayın.
     * Rapor, en iyi eşleşmeleri raporun üst kısmında listeler.  Listede bir boşluk öğesi olduğunu görebilirsiniz.  Bu, beceri eşlemede listelenen düzey ile kişiye atanan beceri düzeyi arasındaki farktır.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

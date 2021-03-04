@@ -63,3 +63,6 @@ Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve ön
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tür dönüştürme işlemleri](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

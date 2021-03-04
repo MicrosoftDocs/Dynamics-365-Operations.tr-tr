@@ -75,3 +75,6 @@ Fiili maliyetler nakledilmişse bütçe satırlarındaki **Fiili maliyet** alanl
 
 - Bazı varlıkların yenilenmesinin şu anda planlama aşamasında olduğunu biliyorsunuz ancak ilgili işler henüz Varlık Yönetiminde oluşturulmadı. Ancak bu işlerin bütçe maliyetlerinin bakım bütçesine dahil edilmesini istiyorsunuz.
 - Bakım bütçesi yaptığınız tarihten itibaren yeni varlıklar veya varlık türleri oluşturuldu ancak bakım planları henüz bu varlıklar veya varlık türlerinde ayarlanmadı. Ancak bu varlık türlerinin bütçe maliyetlerinin bakım bütçesine dahil edilmesini istiyorsunuz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

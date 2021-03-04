@@ -170,3 +170,6 @@ Müşteri siparişleri POS'ta zaman uyumlu ya da zaman uyumsuz modda oluşturula
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Sistemin yönettiği küme çekmeyi ayarlamadan önce, uygun bazı giden işler 
 1. Mobil cihazdaki son adım, kümeyi son konuma **koymada** kullanılır. **Tamam**'ı seçin
     - Bu Yerine koyma işlemi teyit edildiğinde, küme profilindeki **küme sonu** alanında ayarladığınız değere göre küme kapanır ve kesilir. İş kimlikleri de kapatılmıştır.
 1. Mobil cihazda "küme tamamlandı" iletisi gösterilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

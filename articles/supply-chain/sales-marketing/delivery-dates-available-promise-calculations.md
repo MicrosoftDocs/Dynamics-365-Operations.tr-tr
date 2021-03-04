@@ -81,3 +81,6 @@ Bu nedenle, ATP hesaplamaya dayanarak, sevk tarihi şu andan itibaren 10 gün ol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Elektronik raporlama (ER) matematik işlevleri, birçok genel matematiksel hesap
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Elektronik raporlamada formül dili](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

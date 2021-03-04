@@ -48,3 +48,6 @@ Her durumda, standart maliyetlerin nasıl güncelleştirileceği dikkatle ele al
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

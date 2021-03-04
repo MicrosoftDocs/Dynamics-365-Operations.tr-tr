@@ -43,3 +43,6 @@ Eğer yükte birden fazla sevkiyat varsa, bir ana konşimento oluşturabilirsini
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

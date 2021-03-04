@@ -55,3 +55,6 @@ Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanı
     * Aynı işi seçin.  
     * Kanban işi için iş durumunun bir boş kanban simgesiyle gösterildiği üzere, Planlı'ya dönüştürüldüğüne dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

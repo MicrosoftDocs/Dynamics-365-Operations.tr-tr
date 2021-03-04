@@ -110,3 +110,6 @@ Bir ölçek biriminde işlenmiş olan üretim işlerinin geçmişini gözden ge�
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Üretim hub'ından ölçek birimine ileti işleyici işi
 
 _Üretim hub'ından ölçek birimine ileti işleyicisi_ işi, hub'dan ölçek birimine giden verileri işler. Üretim yürütme iş yükü dağıtıldığında bu iş otomatik olarak başlatılır. Bununla birlikte, **Üretim denetimi \> Periyodik görevler \> Arka ofis iş yükü yönetimi \> Üretim hub'ından ölçek birimine ileti işleyici**'ye giderek istediğiniz zaman el ile çalıştırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

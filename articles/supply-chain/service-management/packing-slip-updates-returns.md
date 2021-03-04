@@ -49,3 +49,6 @@ Bir satış sözleşmesindeki iade edilen madde için sevk irsaliyesini güncell
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

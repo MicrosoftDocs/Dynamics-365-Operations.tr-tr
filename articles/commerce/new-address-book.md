@@ -57,3 +57,6 @@ Aşağıdaki resimde, bir perakende mağaza için çalışan adres defteri oluş
 [Ekran düzenine genel bakış](pos-screen-layouts.md)       
 
 [Retail Hardware Station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

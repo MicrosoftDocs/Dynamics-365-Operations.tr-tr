@@ -60,3 +60,5 @@ Dynamics 365 Human Resources'De bir izin ve devamsızlık planı oluşturduktan 
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluştur](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Herhangi bir nedenle varyasyonlarınızı değiştirmeniz gerekirse, aşağıdak
 
 ## <a name="next-step"></a>Sonraki adım
 [Varyasyon yükseltme ve denemeyi tamamlama](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

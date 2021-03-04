@@ -177,3 +177,6 @@ Aşağıdaki yordamda, üst bilgi düzeyindeki masrafların bir satıra nasıl t
         > **Tahsisattan hariç tutulacak satırları Seç** ızgarasıyla çalışırken **tahsis et**'i seçene kadar ızgarayı açık bırakmayı unutmayın. **Tahsisatı** seçmeden önce ızgarayı kapatırsanız ızgaradaki ayarlarınız kaybolur. Bu nedenle, masraflar daha önce tanımladığınız ölçütlere göre tahsis edilir.
 
 1. Ayarlarınızı uygulayıp iletişim kutusunu kapatmak için **Tahsis Et**'i seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

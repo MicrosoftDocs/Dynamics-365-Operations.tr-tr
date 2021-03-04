@@ -67,3 +67,6 @@ Bu yordam, varsayılan işlem yapılacak yerleşim için kullanılacak varsayıl
 
 >[!NOTE] 
 >**Genel** hızlı sekmesinde, işlem yapılacak yerleşim türünde ayarlanan varlık türleri, bakım planları, varlık öznitelik gereksinimleri, izin verilen türler, öznitelikler ve işlem yapılacak yerleşimlere ilişkin genel bir bakış alabilirsiniz. **İşlem yapılacak yerleşimler** alanı işlem yapılacak yerleşim türünü kullanan işlem yapılacak yerleşimlerin sayısını gösterir. Ayarları bir işlem yapılacak yerleşim türünden seçili işlem yapılacak yerleşim türüne kopyalamak için **Kopyala** düğmesini kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

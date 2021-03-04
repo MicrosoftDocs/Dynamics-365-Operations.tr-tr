@@ -81,3 +81,6 @@ Bu örnekler, şu veri öğelerini kullanarak nasıl farklı iş akışı koşul
 [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)<br>
 [İzin satın alma ve satma ilkelerini yönetme](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

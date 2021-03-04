@@ -43,3 +43,6 @@ Bu sorun, zamanlama nedeniyle olabilir. Bu adımları izleyerek toplu işi başl
 1. Sayfanın üstünde **Düzenle**'yi seçin ve zamanlanan başlangıç tarihini/saatini, analitikleri geçerli tarihe daha yakın bir zamanda yenileyecek değere ayarlayın.
 
 ![Toplu işler](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Her servis sözleşmesi satırı ayrıntılı şekilde servis işinin içeriğin
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis sözleşmeleri oluşturma](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ RFM analizi kaydı geçmişini görüntülemek veya silmek için bu yordamı kul
 2. **RFM analizi** sayfasında, görüntülemek istediğiniz kaydı seçin.
 3. Kayıt geçmişini görüntülemek için **Geçmiş** hızlı sekmesini seçin.
 4. Kayıt geçmişini silmek için **Geçmişi temizle**'yi seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

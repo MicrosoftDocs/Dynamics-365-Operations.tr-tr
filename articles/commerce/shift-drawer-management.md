@@ -158,3 +158,6 @@ Her perakendecinin iş gereksinimleri farklı olmakla birlikte, sisteminizi bu t
 Bu kurulum, arka ofis ekstrelerinde POS'taki vardiyalarınkiyle aynı hareketleri içermesinin ve verilerin o vardiyayla özetlenmesinin garanti edilmesine yardımcı olur.
 
 Ekstre ve kapatma yöntemleri hakkında daha fazla bilgi için bkz. [Perakende ekstreleri için mağaza yapılandırmaları](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

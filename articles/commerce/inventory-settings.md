@@ -93,3 +93,6 @@ Aşağıdaki resimde, stokta ("kullanılabilir") iletiyi gösteren sepet örneğ
 [Mağaza seçicisi modülü](store-selector.md)
 
 [SDK ve modül kitaplığı güncelleştirmeleri](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

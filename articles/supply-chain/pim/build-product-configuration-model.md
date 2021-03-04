@@ -163,3 +163,6 @@ Yapılandırma üretim gerçekleşeceği site veya şirketten ayrı bir site vey
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

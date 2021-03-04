@@ -300,3 +300,6 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme](trace-execution-er-troubleshoot-perf.md)
 - [Hesaplanan alan türünün ER veri kaynaklarının parametreleştirilmiş çağrılarını destekleme](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Sonuç tarih değeri.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tarih ve saat işlevleri](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

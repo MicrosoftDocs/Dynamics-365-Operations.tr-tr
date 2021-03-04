@@ -238,3 +238,6 @@ Birden çok ilgili ve birden çok satırı bulunan bir sipariş çekildiğinde, 
 - [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

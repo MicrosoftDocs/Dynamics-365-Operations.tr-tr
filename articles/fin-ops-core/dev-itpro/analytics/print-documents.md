@@ -74,3 +74,6 @@ Aşağıdaki şema ağ yazdırma işlemlerini desteklemeye yardımcı olan temel
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tek bir yazıcının birden fazla Belge Yönlendirme Aracısına kaydedilebileceğini unutmayın. Yazıcı tercihlerini çözmek için, barındırılan hizmet her ağ yazıcısını benzersiz şekilde tanımlayan ağ yolunu kullanır. Sonuç olarak, yazıcı birden çok istemci tarafından kaydedildiğinde bile uygulamalarda kullanılabilen yazıcılar listesinde tek bir seçim olarak görüntülenir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

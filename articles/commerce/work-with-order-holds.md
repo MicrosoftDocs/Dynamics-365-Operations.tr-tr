@@ -103,3 +103,6 @@ Kullanıcılar tutmayı temizlemek istedikleri bir siparişte sonraki işlemler 
 ## <a name="reporting-options"></a>Raporlama seçenekleri
 
 Sipariş tutmalarla ilgili tarih aralığı, tutma kodu veya diğer ilgili ölçütler bazında rapor çalıştırmak için **Retail ve Commerce** \> **Sorgular ve raporlar** \> **Çağrı merkezi raporları** \> **Sipariş tutma raporu**'na gidin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

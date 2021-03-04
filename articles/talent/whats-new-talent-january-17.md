@@ -45,3 +45,6 @@ Bu değişiklik ile, **Tarafından istenen eylem** alanı için varsayılan, şi
 ### <a name="ideas-portal-updated"></a>Fikir portalları güncelleştirildi
 Talent için bir fikir göndermek için uygulama bağlantıları, yeni Fikirler portalında güncelleştirilmiştir. Eski portala girilen tüm fikirler aktarılmıştır, böylece tüm harika fikirleriniz hala mevcuttur ve başkaları tarafından oy verilebilir.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "4439003"
 6. Bitiş tarihi alanına bir tarih ve saat girin.
     * Bitiş tarihi için yeni bir sürüm başlamaz veya etkin hale gelmez. Bu üretim akışı için görevleri oluşturmak veya başlatmak artık mümkün olmaz. Başlatılan işleri, bitiş tarihinden sonra da tamamlayabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

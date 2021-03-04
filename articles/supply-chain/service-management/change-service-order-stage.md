@@ -41,3 +41,6 @@ Servis siparişini servis iş akışında bir sonraki aşamaya taşımak ya da b
 4.  **Servis aşamasını değiştir** formunda, uygun aşamayı seçin.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

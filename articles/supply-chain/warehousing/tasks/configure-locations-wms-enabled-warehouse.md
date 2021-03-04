@@ -175,3 +175,6 @@ Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri
 6. Listede, seçili satırdaki bağlantıya tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

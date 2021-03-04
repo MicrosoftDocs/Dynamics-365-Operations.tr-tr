@@ -103,3 +103,6 @@ Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litw
     BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin.
 
     Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

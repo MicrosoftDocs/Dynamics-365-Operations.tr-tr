@@ -85,3 +85,6 @@ Bu konu, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, temel st
 5. **Sayım grubu** alanının açılan menüsünde bir sayım grubu seçin. Seçtiğiniz belirli bir ambardaki maddeye uygulanması gereken belirli bir sayım grubunu seçebilirsiniz. O ambarda sayım işlemi yapılırken, bu sayım ilkesi, maddeye ilişkin genel sayım ilkesinin yerine geçer.  
 6. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

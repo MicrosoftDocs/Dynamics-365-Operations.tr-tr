@@ -83,3 +83,6 @@ Bu yordam, değiştirilmiş bir Microsoft Excel şablonu kullanarak bir Elektron
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>ER biçiminin değiştirilmiş taslak sürümünü, ödeme günlüğü işlemede kullanın
 
 Yeni ödeme satırlarının - ödeme tarihinin ayrıntıları da dahil oluşturulan çalışma sayfasını gözden geçirin.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

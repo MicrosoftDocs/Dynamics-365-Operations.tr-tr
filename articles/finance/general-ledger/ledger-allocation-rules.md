@@ -51,3 +51,6 @@ Her tahsisat kuralının dört bileşenini vardır: Genel, kaynak, hedef ve mahs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

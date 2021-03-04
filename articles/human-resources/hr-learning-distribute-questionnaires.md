@@ -131,3 +131,6 @@ Bir anketi tasarladıktan ve dağıttıktan sonra, anket seçili yanıtlayanlar 
 Anketler belirli kullanıcılar veya kullanıcı grupları ya da bir ağdaki tüm kullanıcılar için kullanıma sunulabilir.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

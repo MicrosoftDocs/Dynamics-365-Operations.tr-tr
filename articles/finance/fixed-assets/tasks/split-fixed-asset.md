@@ -63,3 +63,6 @@ Tam amortismana tabi bir kıymet bölünmeden önce, kıymet defteri durumunun e
     - Yeni kıymet için aynı tutarda bir düzeltme hareketi oluşturulur.
 
 4. **Naklet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

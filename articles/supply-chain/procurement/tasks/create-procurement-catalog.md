@@ -66,3 +66,6 @@ Bu konu tedarik kataloğunun nasıl oluşturulacağını açıklar. Bu görev ge
 7. **Satırlara ekle**'yi seçin.
 8. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

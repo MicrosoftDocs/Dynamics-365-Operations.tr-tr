@@ -62,3 +62,6 @@ Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişle
     * Bu yordamda daha önce not ettiğiniz satış siparişi numarasını girin. Bu, bu yordam için işlem süresini minimumda tutar. Satış siparişi alanı isteğe bağlıdır: Tek bir programda tüm siparişleri işleyebilirsiniz.  
 21. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

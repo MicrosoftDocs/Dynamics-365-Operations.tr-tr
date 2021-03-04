@@ -69,3 +69,6 @@ Sipariş kaydedilir ancak üzerine **İşleme** bayrağı koyulur. Bu bayrak, si
 Sahte veri incelemesi için beklemeye alınmış siparişleri görüntülemek ve yönetmek için **Retail ve Commerce** \> **Müşteriler** \> **Sipariş tutmalar**'a gidin. Tutma nedeni hakkında bilgiler içeren daha ayrıntılı bir görünümü görmek için **Sipariş tutmalar** sayfasında, listeden bir giriş seçin ve ardından **Sipariş tutma**'ya tıklayın. **Sahtekarlık ayrıntıları** hızlı sekmesinde, sipariş için bir eşleşme olduğu saptanan sistematik sahtekarlık ölçütlerini ve uygulanan puanları görüntüleyebilirsiniz. Sipariş el ile tutulursa, siparişi beklemeye alan kullanıcının girdiği yorumları, **Notlar** hızlı sekmesindeki **Sahtecilik notları** bölümüne bakarak inceleyebilirsiniz.
 
 Tutma emirleriyle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Sipariş tutmalar](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

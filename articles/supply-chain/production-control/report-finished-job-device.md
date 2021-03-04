@@ -239,3 +239,6 @@ Bu bölümde anlatılan özellikleri kullanmak için, [özellik yönetimi](../..
 
 > [!NOTE]
 > Etiekt yapılandırmak içni **Ambar Yönetimi \> Kurulum \> Belge yönlendirme \> Belge yönlendirme**'ye gidin. Daha fazla bilgi için, bkz [Lisans plaka etiket yazdırmayı etkinleştir](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

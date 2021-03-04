@@ -93,3 +93,6 @@ Bir göreve bağlanabilmesi için bir POS operasyonu konfigüre etmek için aşa
 [Mağazalara veya personele görev listeleri atama](task-mgmt-assign-lists.md)
 
 [POS'ta görev yönetimi](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Yük oluşturma stratejisini artık bir yük oluşturma şablonuna atayabilirsin
 1. Önerilen yükleri ve önerilen yük satırlarını gözden geçirin.
 1. Eylem bölmesinde, **Önerilen yük satırları** hızlı sekmesindeki kaynak belge satırlarına dayalı yükler oluşturmak için **Yük oluştur**'u seçin.
 1. **Yük oluşturma çalışma ekranı** sayfasını kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

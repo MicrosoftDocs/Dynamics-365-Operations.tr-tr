@@ -175,3 +175,6 @@ Bu hesaplama yöntemi, kısmi iade senaryoları için kullanılırsa, masraf kod
 [Çok yönlü kanal gelişmiş otomatik masrafları](omni-auto-charges.md)
 
 [Kanala göre otomatik masrafları etkinleştirme ve yapılandırma](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Aşağıdaki çizimin üst bölümünde arabirimin varsayılan olarak nasıl gö
 Varsayılan olarak, üretim katı yürütme arabirimi hiç kimse tarafından 12 saat boyunca kullanılmazsa otomatik olarak oturumu kapatır. Bir Supply Chain Management kullanıcısının yeniden oturum açması gerekir. Ancak, zaman aşımı limitini 90 güne kadar uzatabilirsiniz.
 
 Zaman aşımı limitini uzatmak için, Supply Chain Management'ta oturum açın ve **Sistem Yönetimi \> kullanıcıları \> oturum uzantılarına** gidin. Cihazda oturum açmak için kullanılan Supply Chain Management kullanıcı hesabını ve oturumun etkin kalacağı saat sayısını belirtin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

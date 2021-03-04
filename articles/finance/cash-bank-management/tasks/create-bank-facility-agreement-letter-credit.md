@@ -51,3 +51,6 @@ Bu görev, bir Kredi mektubunu işlemek için Banka kredi anlaşması oluşturma
 18. Genişlet'e tıklayın.
 19. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

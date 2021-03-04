@@ -49,3 +49,6 @@ Bu görev kılavuzu satınalma siparişleriyle ilişkili olmayan satıcı fatura
 12. **Naklet**'e tıklayın.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

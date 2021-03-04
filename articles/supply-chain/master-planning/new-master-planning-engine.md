@@ -116,3 +116,6 @@ Ortam yöneticimiz Microsoft'tan bir e-posta aldı. Bu e-posta, Planlama İyile�
 > Başlamak için lütfen aşağıdaki anketi doldurun ve ilgili istek durumunda Planlama İyileştirmesi'ne geçişle ilgili özel bir durum isteyin.
 
 **Yanıt:** Hayır, master planlama engellenmedi. Master planlama çalıştırmanız başarıyla tamamlandı ve sonucu her zamanki gibi kullanabilirsiniz. Ancak, gelecekteki master planlama çalıştırmaları sırasında bu hata iletisini almaktan kaçınmak için hemen Planlama İyileştirmesi'ne geçiş yapmalı veya hata iletisindeki bağlantıyı kullanarak bir özel durum istemeniz gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

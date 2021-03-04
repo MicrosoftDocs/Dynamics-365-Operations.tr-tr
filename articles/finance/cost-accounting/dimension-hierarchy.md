@@ -333,3 +333,6 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 > [!NOTE] 
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Erişim listesi hiyerarşisi, verinin Excel'e aktarılmasını güvenli hale getirmeye yardımcı olmaz. Bu nedenle, bu raporlama aracı yalnızca veriyi görüntülemeye tam erişime sahip maliyet muhasebecileri ve yöneticiler tarafından kullanılmalıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Bu yordam, USMF demo şirketini kullanır.
     * Mevcut günlük girişlerinin kaydını doğrulayın.  
 16. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

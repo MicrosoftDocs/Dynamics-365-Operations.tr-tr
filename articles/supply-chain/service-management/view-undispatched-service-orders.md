@@ -61,3 +61,6 @@ Bu konu, gönderme takımdan atanmış bir çalışanı olmayan bir servis sipar
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

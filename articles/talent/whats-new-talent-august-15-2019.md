@@ -61,3 +61,6 @@ Finance and Operations için Platform güncelleştirmesi 29 hakkında daha fazla
 Çalışan kayıtlarında yapılan değişiklikler hemen etkili olur. Çalışanın başlangıç tarihi itibariyle, genellikle gelecekte olan verileri güncelleştirmeniz gerekir ve aynı zamanda bilgileri geçmişte güncelleştirmeniz gerekir. Bu kolay gezinme modeliyle, birden fazla forma gitmeden veya tarih bağlamını değiştirmeden gelecekteki ve önceki verileri güncelleştirebilirsiniz. Bu değişiklik ayrıca çalışan kaydının üst başlık alanında önemli bilgileri dinamik olarak yükseltir ve görüntüler.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

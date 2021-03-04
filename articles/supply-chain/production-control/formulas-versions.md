@@ -71,3 +71,6 @@ Elektronik imza işlevini kullanarak birden çok düzeyde denetim ekleyebilirsin
 
 ## <a name="use-step-consumption"></a>Adım tüketimi kullan
 Adım tüketimi, bir içerik için **Formül satırı** sekmesinde miktar girme gereksinimini kaldırır. Bunun yerine, Adım tüketimi, bir **Başlangıç serisi** değeri ve **Miktar** değerine sahip olacak şekilde yapılandırılır. Toplu iş emri üzerindeki miktarı sağlayan Seri kaydı başına Adım tüketiminden gelen bilgi seçilir. Adım tüketimi, tüketim oranı toplu iş emri boyutuna göre doğrusal olmadığında faydalıdır ve gereksinimi yalnızca belirli bir miktar eşiği aşıldığında artırır. Bu özelliği yeni bir formül için etkinleştirmek için **Tüketim hesaplaması** grubu altında, uygulanabilir içerik için formül ayarını **Standart**'tan, **Adım**'a değiştirin. Bu tüketim yöntemini **Formül satırı** sayfasının **Kurulum** sekmesinde belirtirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

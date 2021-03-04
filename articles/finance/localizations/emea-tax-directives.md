@@ -33,3 +33,6 @@ AB Yönergesi, fatura kuralları ve fatura oluşturulurken dahil edilmesi gereke
 
 > [!NOTE]
 > **Satış vergisi özelliği** alanının **Kayıt para birimi** değerine veya **Kayıt ve Şirket para birimi** değerine ayarlandığını **Form ayarı** sayfasından **Genel** sekmesinden (**Alacak hesaplar > Ayar >Formlar >Form ayarı** veya **Proje yönetimi ve muhasebe > Ayar > Formlar > Form ayarlar**) doğrulayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Bu yordam, eldeki stoğu, stok hareket günlüğü kullanarak el ile nasıl gün
 25. Sayfayı kapatın.
 26. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

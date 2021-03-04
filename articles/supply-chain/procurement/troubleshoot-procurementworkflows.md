@@ -80,3 +80,6 @@ Bu, satınalma siparişi teyidini yansıtılacağından, onayın gerekli olabilm
 
 Bu sorun yalnızca değişiklik yönetimine bağlı satınalma siparişlerinde oluşur. Bunun nedeni, iptal işleminin onaylanması gereken bir değişiklik olduğu kabul edilir. Onay, sistem tarafından otomatik olarak yapılabilir. Bu nedenle işlem, iptal edilen satınalma siparişinin onay iş akşına gönderilmesidir. Böylece *Onaylı* durumuna geçebilir. Bu noktada, satınalma siparişi artık **Satınalma siparişi hazırlama** çalışma alanındaki taslak satınalma siparişleri listesinde görünmez.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

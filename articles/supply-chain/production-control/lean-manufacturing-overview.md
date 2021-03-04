@@ -83,3 +83,6 @@ Ek olarak, yalın üretim taşeron etkinlikler tarafından referans gösterilen 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

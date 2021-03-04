@@ -56,3 +56,6 @@ Dynamics 365 Commerce, görsel sayfa oluşturucuda "gördüğünüz şey aldığ
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
 [İçerik Güvenliği İlkesini (CSP) yönetme](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

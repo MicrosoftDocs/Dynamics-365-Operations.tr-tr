@@ -66,3 +66,6 @@ Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl 
 5. **Eylem Bölmesi**'nde Plan'a tıklayın.
 6. **Madde kapsamı**'na tıklayın. **Minimum miktarın**, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

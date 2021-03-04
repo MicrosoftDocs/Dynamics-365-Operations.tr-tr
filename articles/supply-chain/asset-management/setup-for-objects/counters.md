@@ -67,3 +67,6 @@ Varlık türleri **Sayaçlar**'daki bir sayaç türüne eklendiğinde bu sayaç 
 
 ![Şekil 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

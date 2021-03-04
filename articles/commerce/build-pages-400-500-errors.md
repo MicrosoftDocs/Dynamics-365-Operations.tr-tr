@@ -83,3 +83,6 @@ Durum kodu hata yanıtı sayfasına yeniden yönlendirme ayarlamak için aşağ�
 [Yeni site sayfası ekleme](add-new-page.md)
 
 [URL sayfası oluşturma](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

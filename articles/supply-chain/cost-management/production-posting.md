@@ -57,3 +57,6 @@ Bir üretim emri sonlandırılmadan önce gerçek maliyetler, üretilen miktar i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

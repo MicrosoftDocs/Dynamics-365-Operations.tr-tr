@@ -85,3 +85,6 @@ Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

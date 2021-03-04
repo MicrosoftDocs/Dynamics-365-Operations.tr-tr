@@ -111,3 +111,6 @@ Saat başına düzeltilen maliyet ve iş süresi bir üretim günlüğüne nakle
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

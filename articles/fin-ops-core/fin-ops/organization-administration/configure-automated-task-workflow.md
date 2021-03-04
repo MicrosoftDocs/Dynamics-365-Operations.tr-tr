@@ -110,3 +110,6 @@ Otomatik bir görev çalıştırıldığında veya iptal edildiğinde insanlara 
     </table>
 
 8. Adım 3'ten 7'ye kadar olan adımları adım 2'de seçtiğiniz tüm olaylar için yineleyin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Bu konu POS izin grubunun nasıl oluşturulacağını açıklar. Bu görevi olu�
 16. POS izin grubu alanına bir değer girin veya buradan bir değer seçin. Bu İşle ilgili Konumlarda bulunan tüm Çalışanlar, çalışanların POS izinleri Konum düzeylerinde geçersiz kılınmadığı sürece bu POS izin grubu ayarlarını kullanır.  
 17. **Kaydet**'i seçin. Değişiklikleriniz kaydedildikten sonra, değişiklikleri kanallara iletmek için Personel dağıtım planlamasını çalıştırmanız gerekir.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

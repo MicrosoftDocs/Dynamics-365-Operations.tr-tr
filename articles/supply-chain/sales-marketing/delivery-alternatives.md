@@ -153,3 +153,6 @@ Bu sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam** üzerine 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Tüm veri işleme işler tarafından yürütülür. Her bir iş ve veri sağlay�
     * Bu örnekte, Mali 2017 Dönem 9'u seçin.  
 14. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

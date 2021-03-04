@@ -367,3 +367,6 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 
 - [Elektronik raporlama (ER) yapılandırması oluşturma](electronic-reporting-configuration.md)
 - [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

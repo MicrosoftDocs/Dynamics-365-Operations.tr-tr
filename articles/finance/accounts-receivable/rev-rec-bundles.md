@@ -110,3 +110,6 @@ Maddenin durumu **İptal Edildi** olduğundan, deftere nakilden sonra oluşturul
 Fatura deftere nakledildikten sonra gerçekleştirilen tüm işlemler fatura günlüğünü temel aldığından, bu fatura günlüğünün paketteki ana maddeyi içermemesi önemlidir. Örneğin, Eylem bölmesindeki **Satış** sekmesinden bir alacak dekontu oluşturursanız oluşturulan alacak dekontu bileşen maddelerini içerir ancak ana maddeyi içermez.
 
 [![Bileşen maddelerini gösteren ancak ana maddeyi içermeyen alacak dekontu](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

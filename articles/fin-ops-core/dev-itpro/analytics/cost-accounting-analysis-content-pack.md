@@ -123,3 +123,6 @@ Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin 
 | Mali takvimler                   | Takvim, Takvim açıklaması                                                                                       |
 | Mali yıllar                       | Takvim yılı                                                                                                        |
 | Mali dönemler                     | Takvim yılı dönemi                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

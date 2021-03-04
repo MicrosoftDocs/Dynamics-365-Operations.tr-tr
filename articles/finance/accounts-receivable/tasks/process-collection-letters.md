@@ -88,3 +88,6 @@ Tahsilat mektubu kodunu hesaplarken için ödemeleri ve alacak faturalarını yo
 
 1. **Gezinti bölmesi > Modüller > Kredi ve tahsilatlar > Kurulum > Alacak hesabı parametreleri**'ne gidin ve **Tahsilatlar** sekmesine tıklayın. 
 2. **Tahsilat mektubu kodunu hesaplarken ödemeler ve alacak notlarını yoksay**'ın değerini **Evet** olarak değiştirin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

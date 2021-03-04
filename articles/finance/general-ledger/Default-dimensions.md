@@ -127,3 +127,6 @@ Aşağıdaki kaynaklardan bazıları daha önceki bir yazılım sürümüne baş
 [Muhasebe dağıtımlarında boyut varsayılanı](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Boyutlar çerçevesinde boyutların varsayılanı](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

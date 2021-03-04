@@ -83,3 +83,6 @@ Bu listenin yapısı, bu alan çağrılan işlevin her bir bağımsız değişke
 [Liste işlevleri](er-functions-category-list.md)
 
 [Veri akışı ve dönüşümünü analiz etmek için yürütülen bir ER biçiminin veri kaynaklarında hata ayıklama](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

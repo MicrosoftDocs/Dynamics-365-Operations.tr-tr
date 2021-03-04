@@ -60,3 +60,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ö
     * Örneğin, "DEMF OPER" banka hesabını seçin.  
 6. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

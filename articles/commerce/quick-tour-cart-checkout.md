@@ -107,3 +107,6 @@ Bir ödeme sayfasının nasıl yazılacağıyla ilgili daha fazla bilgi için, b
 [Ürün ayrıntıları sayfalarına genel bakış](quick-tour-pdp.md)
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

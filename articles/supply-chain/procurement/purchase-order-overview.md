@@ -92,3 +92,6 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

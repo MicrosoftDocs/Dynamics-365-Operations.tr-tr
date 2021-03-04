@@ -44,3 +44,6 @@ Geçerli bir ürün reçetesi sürümü, ister tesise özgü ister genel bir ür
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

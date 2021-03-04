@@ -55,3 +55,6 @@ Satırlar yayımlandığında, mali günlüklerde ayarlanan kurallarla uyumlu ol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

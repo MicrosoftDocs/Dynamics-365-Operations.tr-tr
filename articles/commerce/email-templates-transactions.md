@@ -203,3 +203,6 @@ Dynamics 365 Commerce uygulamasındaki e-postayı yapılandırma hakkında daha 
 [E-posta makbuzlarını ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Modern POS'tan (MPOS) e-posta makbuzları gönderme](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

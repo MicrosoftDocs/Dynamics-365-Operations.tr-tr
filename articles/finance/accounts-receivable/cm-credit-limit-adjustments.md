@@ -124,3 +124,6 @@ Kredi limiti ayarlama satırları oluşturduktan sonra, girişleri deftere nakle
 
 > [!NOTE]
 > **Kredi limiti ayarlamaları** iş akışı oluşturduğunuzda, bu iş akışını, satırlar onaylandıktan sonra ayarlamalar otomatik olarak deftere nakledilecek şekilde ayarlayabilirsiniz. İş akışına **Günlüğü otomatik olarak deftere naklet** görevini eklemeniz yeterlidir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

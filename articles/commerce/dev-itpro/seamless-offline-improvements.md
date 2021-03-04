@@ -56,3 +56,6 @@ Commerce parametreleri genellikle önbelleğe alınır. Bu nedenle, bu parametre
 
 - [Çevrimdışı satış noktası (POS) işlevleri](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

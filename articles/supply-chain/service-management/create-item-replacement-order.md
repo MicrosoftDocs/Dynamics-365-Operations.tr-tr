@@ -68,3 +68,6 @@ Madde değiştirme siparişleri genellikle bir ürün iade edildikten ve incelen
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

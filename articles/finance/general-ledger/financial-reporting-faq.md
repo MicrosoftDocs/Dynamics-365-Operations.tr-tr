@@ -88,3 +88,6 @@ D365'te beklediğiniz şekilde eşleşmeyen bir raporunuz varsa bu hesapları ve
 2.  Raporu Excel'e dışarı aktarın
 
 Artık FR Excel raporundan ve D365 Mizan raporuna veri kopyalayabilir ve "Kapanış Bakiyesi" sütunlarını karşılaştırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

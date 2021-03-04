@@ -63,3 +63,6 @@ LCS'den bir görev kılavuzunu yeniden yürütmek için aşağıdaki adımları 
 2. **LCS'ten aç**'ı seçin.
 3. Kaydedilmiş görev kılavuzuna sahip kütüphaneyi ve BPM düğümünü seçin.
 4. Görev kılavuzunu açın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -146,3 +146,6 @@ Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğ
 [Bing Maps REST API'leri](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Harita modülü](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

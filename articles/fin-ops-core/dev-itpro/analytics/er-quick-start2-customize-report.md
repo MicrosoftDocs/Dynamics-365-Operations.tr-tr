@@ -514,3 +514,6 @@ Sürüm 1.1.1 durumu **Taslak** iken **Tamamlandı** olarak değişir ve sürüm
 - [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 - [Lifecycle Services'dan ER yapılandırma indirme](download-electronic-reporting-configuration-lcs.md)
 - [Yapılandırma hizmeti genel deposundan ER yapılandırmalarını indir](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

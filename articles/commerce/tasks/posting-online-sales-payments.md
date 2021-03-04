@@ -109,3 +109,6 @@ Bu yordam, çevrimiçi mağaza hareketleri için satış siparişleri ve ödemel
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Kurs katılımcıları, bir eğitim kursuna veya etkinliğine katılım göstere
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

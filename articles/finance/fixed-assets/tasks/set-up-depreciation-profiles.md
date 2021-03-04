@@ -40,3 +40,6 @@ Amortisman profilleri bir varlığın türünü ve amortisman sıklığını bel
 7. **Dönem sıklığı** alanında bir seçenek belirtin.
 8. Formu kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

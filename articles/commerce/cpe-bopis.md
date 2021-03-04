@@ -164,3 +164,6 @@ Tüm genel sorunlar için, her zaman öncelikle Modern POS veya İnternet Bilgi 
 [Adyen bağlayıcısı ile çevrimiçi ödeme araçlarını kaydetme](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Çok yönlü kanal ödemelerine genel bakış](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

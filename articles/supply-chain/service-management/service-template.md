@@ -58,3 +58,6 @@ Servis şablonu oluşturduğunuzda bir servis sözleşmesi oluşturur, üzerinde
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis şablonları satırlarını kopyalama](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

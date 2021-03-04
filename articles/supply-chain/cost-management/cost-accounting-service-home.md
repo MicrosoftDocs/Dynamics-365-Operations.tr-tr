@@ -37,3 +37,6 @@ Microsoft Dynamics 365 Supply Chain Management için maliyet muhasebesi hizmeti 
 ## <a name="related-resources"></a>İlgili kaynaklar
 
 [Maliyet muhasebesi hizmetini kullanmaya başlama](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

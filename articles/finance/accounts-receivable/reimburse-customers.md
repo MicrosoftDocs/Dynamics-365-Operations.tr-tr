@@ -49,3 +49,6 @@ Para iadesi hareketleri oluşturduğunuzda borç bakiyesi miktarı için bir sat
 
 5. Oluşturulan para iadesi hareketlerini görüntülemek için **Para iadesi** raporunu kullanın (**Alacak Hesapları \> Sorgular ve raporlar \> Para iadesi raporu**).
 6. Borç hesaplarında para iadesi işlemi tarafından oluşturulan satıcı faturaları için bir ödeme oluşturun. Satıcılara nasıl ödeme yapıalcak hakkında bilgi için bkz. [Satıcı ödemesine genel bakış](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

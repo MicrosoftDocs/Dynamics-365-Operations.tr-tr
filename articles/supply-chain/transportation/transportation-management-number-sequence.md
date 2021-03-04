@@ -49,3 +49,6 @@ Numara serilerini bir taşıyıcıya bağlamak için aşağıdakileri yapın:
 1. **Düzenle** öğesini seçin.
 1. **Genel Bakış** hızlı sekmesinde, **Pro numara serisi** alanında bir seçenek belirleyin.
 1. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

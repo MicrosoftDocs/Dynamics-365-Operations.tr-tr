@@ -56,3 +56,6 @@ Tersine kaydedilen hareketi iptal etmek için aşağıdaki adımları izleyin.
 **Ters kayıt izleme**'yi seçtiğinizde, hem orijinal hareketleri, hem de ters kayıt hareketlerini, bağlı izleme numarasıyla birlikte gösteren bir iletişim kutusu görüntülenir.
 
 İlgili **Planlamalar** sayfasını kullanarak iptal işlemlerini de izleyebilirsiniz. **Ters kayıt** alanının işareti kaldırılmış, **Günlük deftere nakledildi** alanı seçilidir. Ayrıca, **En son günlük numarası** alanı iptal hareketinin günlük numarasıyla güncelleştirilir ve **Günlük numarası** alanı ters kayıt günlük numarasıyla güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Aşağıdaki tabloda Servis sözleşmesi karşılama iş süreci bileşenlerini 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

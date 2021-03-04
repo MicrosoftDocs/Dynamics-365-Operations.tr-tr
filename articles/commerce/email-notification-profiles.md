@@ -96,3 +96,6 @@ Posta gönderebilmek için önce giden posta hizmetinizi yapılandırmanız ve b
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
 
 [Kuruluşlar ve kuruluş hiyerarşilerine genel bakış](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

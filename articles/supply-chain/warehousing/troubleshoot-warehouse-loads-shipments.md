@@ -94,3 +94,6 @@ Kısmen sevk edilen bir yükü ambara serbest bırakamazsınız. Ambarın serbes
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 [KB sorunu 470069](https://fix.lcs.dynamics.com/Issue/Details?kb=4574490&bugId=470069&dbType=3&qc=84ce1e09d7032d8b8ef86f5a0c68b86badf3dfaf29686c5ebbe97c53c0957b5f) ("Kısmen sevk edilen yükler yeniden dalgaya eklenebilir ve yeniden işlenebilir"), [sürüm 10.0.15](../get-started/whats-new-scm-10-0-15.md)'te düzeltilmiştir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

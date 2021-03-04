@@ -150,3 +150,6 @@ Aşağıdaki mali tümleştirme işlevi de ayrıca Retail SDK içinde kullanıla
 Retail SDK'da kullanılabilen aşağıdaki eski mali tümleştirme işlevi mali tümleştirme çerçevesini kullanmaz ve sonraki güncelleştirmelerde kullanım dışı bırakılacaktır:
 
 - [İsveç için kontrol birimi tümleştirmesi örneği (eski)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Sonraki sıfırlama tarihlerini temizlemek için **sıfırlama tarihini temizle*
 
 > [!NOTE]
 > Seçtiğiniz sıfırlama tarihine ve makbuz formatına bağlı olarak, tekrarlanan Makbuz numaraları olabilir. Satış noktası (POS) sisteminin bu gibi durumları işleyebilmesine karşın, iadelerin işlenmesi için gereken süreyi arttırır, çünkü satışlar ilişkilendirmeleri tekrarlanan girişler arasında seçim yapmak zorundadır. Tekrarlanan girişler planlanan bir sonuç değilse, veri temizlemesine ilişkin diğer zorluklar ortaya çıkabilir. Bu nedenle, sıfırlamadan sonra tekrarlanan öğe numaralarının olmasını önlemeye yardımcı olmak için dinamik Tarih karakterleri (örneğin **ggg**, **AA**, **GG**, **YY**) kullanmanızı öneririz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

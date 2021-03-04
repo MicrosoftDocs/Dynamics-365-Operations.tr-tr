@@ -64,3 +64,6 @@ Uygulama çubuğunda, kullanıcı bir operasyon seçebilir. Siparişin durumuna 
 - **Düzenle** – Kullanıcıların seçili müşteri siparişinde değişiklik yapmasına olanak tanır.
 
 - **Çek** – Kullanıcının çekilecek ürünleri seçmesine ve malzeme çekme satış hareketini oluşturulmasına olanak sağlayan malzeme çekme akışını başlatır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

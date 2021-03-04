@@ -151,3 +151,6 @@ Satınalma siparişi oluşturma ve konsolidasyon kuralı isteği, onaylanan bir 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Gerekli ön koşullar dahil kayıt kimlikleri işleme için, Lifecycle Services 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

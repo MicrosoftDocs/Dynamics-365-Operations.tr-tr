@@ -70,3 +70,6 @@ Bir giden belgeyi Excel biçiminde yazdırırken belirli bir [sayfa yönlendirme
 
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

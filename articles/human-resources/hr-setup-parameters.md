@@ -50,3 +50,6 @@ Her sekme, tek bir şirketle ilgili bilgileri içerir. **genel** sekmesindeki ay
 
 > [!NOTE]
 > Çalışılan saat sayısı 1250'yi aşamaz ve 12 ay İstihdam uzunluğunu aşamaz. Bu en büyük değerler Amerika Birleşik Devletleri'nde federal yasalara uygundur. Son olarak, **Çalışan Self-Servisi** sekmesinde ayarlar yöneticinin kendi çalışanlarının adına girebileceği bilgiyi belirler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -169,3 +169,6 @@ Değiştirilen şablon, seçili madde için serbest metin faturası raporu oluş
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
 
 [OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Yalnızca bir ürünün ürün sahibi grubundaki kullanıcılar söz konusu ür�
 ## <a name="product-owners-and-approvals"></a>Ürün sahipleri ve onaylar
 
 Ürün sahipleri belirli mühendislik değişikliklerinin ürünleri için faydalı olup olmadığını bildiğinden, bunları mühendislik değişikliği yönetimi içindeki onay sürecinin bir parçası olarak eklemek mantıklı olur. Bu yaklaşımı, mühendislik değişikliği yönetimi için kullanılan iş akışlarında katılımcı sağlayıcılar olarak ürün sahiplerini ayarlayarak uygulayabilirsiniz. Sistem daha sonra, mühendislik değişikliği istekleri ve mühendislik değişikliği emirlerindeki ürünlere göre iş akışlarında onay görevleri atayacaktır. Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

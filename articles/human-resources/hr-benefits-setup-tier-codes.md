@@ -41,3 +41,6 @@ Dynamics 365 Human Resources çalışanlar ve işveren tarafından ödenen kazan
    | **Tanım** | Kazanç katman kodu kısa bir açıklaması. |
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

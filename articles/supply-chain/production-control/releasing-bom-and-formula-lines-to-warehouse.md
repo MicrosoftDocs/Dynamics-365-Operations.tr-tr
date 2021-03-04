@@ -98,3 +98,6 @@ Hammaddeyi kısmi bir mamul ürün miktarı için veya belirli bir birimde serbe
     Kullanılabilir birimler mamul ürününün birim sırası grubu kodunda tanımlanır.
 
     Örneğin, mamul ürün pound (libre) ve palet (PL) arasında şu birin dönüştürmeye sahiptir: 1 PL = 100 libre 10.000 libre mamul ürün için üretim emri oluşturmak üzere üretmeyi planladığınız palet sayısı için hammaddeyi serbest bırakabilirsiniz. Birim olarak **PL** seçin ve ardından **Miktar** alanında karşılık gelen sayıyı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Bu ifade `FIRST(SPLIT("ABC",1)).Value` **"A"** metin değerini döndürür.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Liste işlevleri](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Aşağıdaki resimde, serbest bırakılmış bir ürün için yapılandırma ör
 [Tüzel kişilik oluşturma](channels-legal-entities.md)
 
 [Çeşit grubu oluşturma](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

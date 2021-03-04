@@ -65,3 +65,5 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 #### <a name="task-guides"></a>Görev kılavuzları
 
 Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
