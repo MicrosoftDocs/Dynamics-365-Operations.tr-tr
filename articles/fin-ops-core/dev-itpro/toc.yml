@@ -14,12 +14,12 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.17 için platform güncelleştirmeleri (Nisan 2021)
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: 10.0.16 için platform güncelleştirmeleri (Şubat 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: 10.0.15 için platform güncelleştirmeleri (Ocak 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: 10.0.14 için platform güncelleştirmeleri (Kasım 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Kayıt şablonlarını kullanarak kayıt oluşturma
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Common Data Service kullanarak veri tümleştirme
+                - name: Dataverse kullanarak veri tümleştirme
                   items:
-                    - name: Common Data Service kullanarak veri tümleştirmeye genel bakış
+                    - name: Dataverse kullanarak veri tümleştirmeye genel bakış
                       href: data-entities/data-integration-cds.md
                     - name: Çift yazma tümleştirmesi
                       items:
@@ -192,24 +192,26 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Şirket tümleştirmesi
                               items:
-                                - name: Common Data Services'ta şirket kavramı
+                                - name: Dataverse'ta şirket kavramı
                                   href: data-entities/dual-write/company-data.md
-                                - name: Şirket verileriyle önyükleme
+                                - name: Şirket verilerini başlatma
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Common Data Service'ta kuruluş hiyerarşisi
+                            - name: Dataverse'te kuruluş hiyerarşisi
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Finans ve vergi verileri
                               items:
-                                - name: Finans ve vergi referans verilerine erişme
+                                - name: Finans ve vergi başvuru verilerine erişim
                                   href: data-entities/dual-write/finance-tax-reference.md
                                 - name: Tümleşik genel muhasebe
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Tümleşik vergi aslı
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Çift yazmada aday müşteriden nakde
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+                            - name: Supply Chain Management'ta tedariği Field Service ile tümleştirme
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: İsteğe bağlı Supply Chain Management fiyatlandırma altyapısıyla eşitleme
                               href: data-entities/dual-write/pricing-engine.md
+                            - name: Çift yazmada aday müşteriden nakde aktarma
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Servis gerçekleştirilecek şirket içi varlıklar
@@ -220,23 +222,25 @@
                               href: data-entities/dual-write/inventory-availability.md
                         - name: Çift yazma desteği
                           items:
-                            - name: Field Service çözümleri ve Project Service Automation çözümleri için destek
+                            - name: Field Service ve Project Service Automation çözümleri için destek
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Sorun Giderme
+                            - name: Aday müşteriden nakde verilerini Veri Tümleştiricisinden çift yazmaya taşıma
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
+                            - name: Sorun giderme
                               items:
-                                - name: Çift yazmanın Finance and Operations uygulamalarında ve Common Data Service'ta yapılandırıldığını denetleme
+                                - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: Başlangıç kurulumu sırasında sorunları giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: Başlangıç eşitlemesi sırasında sorunları giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Finance and Operations uygulamalarında Çift yazma modülüyle ilgili sorunları giderme
+                                - name: Finance and Operations uygulamalarında çift yazma ile ilgili sorunları giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: Canlı eşitleme sorunlarını giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: Çözüm farkındalığıyla ilgili sorunları giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Finance and Operations uygulamaları yükseltmeleriyle ilgili sorunları giderme
+                                - name: Finance and Operations uygulamalarının yükseltmeleriyle ilgili sorunları giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Genel sorun giderme
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
@@ -338,8 +342,12 @@
               items:
                 - name: Veri içe ve dışa aktarma işlerine genel bakış
                   href: data-entities/data-import-export-job.md
-                - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
+                - name: İçeri aktarma işlerinde tarih ve saati eşitleme
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: Genel günlük varlığını kullanarak fişleri içeri aktarma
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: Finance and Operations uygulamaları için veri geçişini iyileştirme
+                  href: sysadmin/optimize-data-migration.md
             - name: Veri varlıkları için geliştirme
               items:
                 - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
@@ -442,6 +450,8 @@
                       href: database/api/v1/reference-create-export.md
                     - name: İşlem faaliyeti durumunu alma
                       href: database/api/v1/reference-get-status.md
+                    - name: Ortamları başlatma ve durdurma
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: Tanıtım verileri
           items:
             - name: Tanıtım verilerine genel bakış
@@ -808,60 +818,6 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Sistem tabloları
                   href: dev-ref/system-tables.md
-                - name: Sistem sınıfları
-                  items:
-                    - name: Sistem sınıfı listesi
-                      href: dev-ref/system-classes/toc.yml
-                    - name: Alfabetik olarak gruplandırılmış sistem sınıfları
-                      items:
-                        - name: A sınıfları
-                          href: dev-ref/a-classes.md
-                        - name: B sınıfları
-                          href: dev-ref/b-classes.md
-                        - name: C sınıfları
-                          href: dev-ref/c-classes.md
-                        - name: D sınıfları
-                          href: dev-ref/d-classes.md
-                        - name: E sınıfları
-                          href: dev-ref/e-classes.md
-                        - name: F sınıfları
-                          href: dev-ref/f-classes.md
-                        - name: G sınıfları
-                          href: dev-ref/g-classes.md
-                        - name: H sınıfları
-                          href: dev-ref/h-classes.md
-                        - name: I sınıfları
-                          href: dev-ref/i-classes.md
-                        - name: J sınıfları
-                          href: dev-ref/j-classes.md
-                        - name: K sınıfları
-                          href: dev-ref/k-classes.md
-                        - name: L sınıfları
-                          href: dev-ref/l-classes.md
-                        - name: M sınıfları
-                          href: dev-ref/m-classes.md
-                        - name: N sınıfları
-                          href: dev-ref/n-classes.md
-                        - name: O sınıfları
-                          href: dev-ref/o-classes.md
-                        - name: P sınıfları
-                          href: dev-ref/p-classes.md
-                        - name: Q sınıfları
-                          href: dev-ref/q-classes.md
-                        - name: R sınıfları
-                          href: dev-ref/r-classes.md
-                        - name: S sınıfları
-                          href: dev-ref/s-classes.md
-                        - name: T sınıfları
-                          href: dev-ref/t-classes.md
-                        - name: U sınıfları
-                          href: dev-ref/u-classes.md
-                        - name: V sınıfları
-                          href: dev-ref/v-classes.md
-                        - name: W sınıfları
-                          href: dev-ref/w-classes.md
-                        - name: X sınıfları
-                          href: dev-ref/x-classes.md
             - name: Genişletilebilirlik
               items:
                 - name: Genişletilebilirlik giriş sayfası
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: Görev kaydedici ve Performans SDK ile tek kullanıcı testi
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Performans SDK ve yerel test denetleyicisiyle çoklu kullanıcı testi
+                - name: Yerel test denetleyicisiyle çok kullanıcılı Performans SDK'sı testi
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: Performans SDK ve Azure DevOps ile çoklu kullanıcı testi
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Performans SDK ile tek kullanıcılı veya çok kullanıcılı test için sorun giderme kılavuzu
+                - name: Performans SDK'sı ile test için sorun giderme kılavuzu
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Şirket içi ortamlarda Performans SDK ve çoklu kullanıcı testi
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,9 +978,9 @@
                   href: perf-test/testing-validation.md
                 - name: Visual Studio'da test projeleri
                   href: perf-test/testing-support.md
-                - name: Sürekli oluşturma ve test otomasyonunu destekleyen ortamlar dağıtma
+                - name: Sürekli derleme ve test otomasyonunu ortamı dağıtma ve kullanma
                   href: perf-test/continuous-build-test-automation.md
-                - name: Sınıf ve yöntem özniteliklerini kullanarak SysTest'i filtreleme
+                - name: Sınıf ve yöntem özniteliklerini kullanarak SysTest filtrelemesi
                   href: perf-test/systest-filtering.md
                 - name: Kabul testi kitaplığı
                   items:
@@ -1172,11 +1128,13 @@
           items:
             - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
               href: power-platform/overview.md
+            - name: Eklentilere genel bakış
+              href: power-platform/add-ins-overview.md
             - name: Varlık modelleme
               href: power-platform/entity-modeling.md
             - name: Uygulama yaşam döngüsü yönetimi
               href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations ve Common Data Service yönetici referansı
+            - name: Finance and Operations ve Dataverse yönetici referansı
               href: power-platform/admin-reference.md
             - name: Finance and Operations ile Power Apps portalları
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Türetilmiş test olayları
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Regression Suite Automation Tool eğitimi ve diğer özellikler
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Regression Suite Automation Tool eğitimi
+              href: perf-test/rsat/rsat-tutorial.md
             - name: En iyi uygulamalar
               href: perf-test/rsat/rsat-best-practices.md
             - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi
@@ -1467,7 +1425,7 @@
             - name: Finance and Operations ve Lifecycle Services için destek alma
               href: lifecycle-services/lcs-support.md
             - name: Dynamics 365 desteğine genel bakış
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Çin'de 21Vianet tarafından işletilen Finance and Operations için destek alma
               href: lifecycle-services/21vianet-support.md
             - name: Finance and Operations uygulamaları için teknik destek ayarlama
@@ -1506,7 +1464,9 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Kullanıcı oturumu yönetimi
                   href: sysadmin/user-session-management.md
-                - name: Kullanıcıları toplu olarak içe aktarma
+                - name: Azure AD Koşullu Erişimle konum bazında erişimi engelleme
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
+                - name: Kullanıcıları toplu olarak içeri aktarma
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Görev ayrımını ayarlama
                   href: sysadmin/tasks/set-up-segregation-duties.md
@@ -1524,11 +1484,13 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Kullanıcı lisansı gereksinimleriyle uyumluluğu koruma
               href: sysadmin/stay-compliant-user-license-requirement.md
-            - name: İşlem otomasyonu
+            - name: Bağımsız yazılım satıcısı lisans durumunu görüntüleme
+              href: sysadmin/view-isv-license-status.md
+            - name: Süreç otomasyonu
               href: sysadmin/process-automation.md
             - name: Toplu işleme
               items:
-                - name: Toplu işlemeye genel bakış
+                - name: Toplu iş işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
                 - name: Toplu iş işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md
@@ -1542,15 +1504,13 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: Toplu iş yöneticisi güvenlik rolü
                   href: sysadmin/runby.md
-                - name: SQL dizin birleştirmeyi işlemek için toplu iş
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Toplu iş uyarılarını yapılandırma
                   href: sysadmin/alerts.md
                 - name: Geliştirilmiş toplu iş formları
                   href: sysadmin/enhanced-forms.md
                 - name: Toplu iş geçmişini temizleme
                   href: sysadmin/batch-history-cleanup.md
-                - name: Yürütülen bir toplu işi durdurma
+                - name: Yürütülen bir toplu işi iptal etme
                   href: sysadmin/batch-abort.md
             - name: En iyi duruma getirme danışmanı
               items:

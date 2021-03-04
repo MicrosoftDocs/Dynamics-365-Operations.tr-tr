@@ -3,14 +3,13 @@ title: Dağıtılmış sipariş yönetimi (DOM)
 description: Bu konuda, Dynamics 365 Commerce'da dağıtılmış sipariş yönetimi (DOM) işlevleri açıklanmaktadır.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4460140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982603"
 ---
 # <a name="distributed-order-management-dom"></a>Dağıtılmış sipariş yönetimi (DOM)
 
@@ -49,8 +48,12 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
     - **Dağıtılmış sipariş yönetimine izin ver**: Bu seçeneği **Evet** olarak ayarlayın.
     - **DOM için Bing Haritalar kullanımını onayla**: Bu seçeneği **Evet** olarak ayarlayın.
 
+
         > [!NOTE]
         > Bu seçeneği yalnızca **Commerce'te paylaşılan parametreler** sayfasının (**Retail ve Commerce \> Genel merkez ayarı \> Parametreler \> Commerce'te paylaşılan parametreler**) **Bing Haritalar** sekmesindeki **Bing Haritalar'ı etkinleştir** seçeneği de **Evet** olarak ayarlıysa ve **Bing Haritalar anahtarı** alanına geçerli bir anahtar girildiyse **Evet** olarak ayarlayabilirsiniz.
+        >
+        > [Bing Haritalar Geliştirme Merkezi](https://www.bingmapsportal.com/) portalı, Bing Haritalar API anahtarlarınızda erişimi, belirttiğiniz bir etki alanı kümesiyle kısıtlamanıza olanak tanır. Bu özellik sayesinde müşteriler, anahtarın doğrulanacağı bir dizi başvuran değeri veya IP adresi aralığı tanımlayabilir. İzin verilenler listenizden gelen istekler normal şekilde işlenirken, listenizin dışından gelen istekler "erişim engellendi" yanıtı döndürür. API anahtarınıza etki alanı güvenliği eklenmesi isteğe bağlıdır ve olduğu gibi bırakılan anahtarlar çalışmaya devam eder. Bir anahtarın izin verilenler listesi, diğer anahtarlarınızın tümünden bağımsızdır ve her anahtarınız için ayrı kurallarınızın olmasını sağlar. Dağıtılmış Sipariş Yönetimi, etki alanı tarafından başvurulan özelliklerin ayarlanmasını desteklemez.
+
 
     - **Gün olarak tutma süresi**: DOM çalıştırma işlemlerinin oluşturduğu karşılama planlarının sistemde ne kadar süreyle tutulacağını belirtin. **DOM yerine getirme verileri silme işi ayarı** toplu işi burada belirttiğiniz gün sayısından daha eski olan tüm karşılama planlarını siler.
     - **Reddetme süresi (gün olarak)**: Reddedilen bir sipariş satırının aynı konuma atanabilmesi için ne kadar süre geçmesi gerektiğini belirtin.
@@ -62,14 +65,15 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
     - **Çözücü türü**: Bir değer seçin. Commerce ile birlikte şu iki çözücü türü kullanıma sunulmuştur: **Üretim Çözücü** ve **Basitleştirilmiş Çözücü**. DOM'un çalıştırılacağı tüm makinelerde (yani DOMBatch grubunun parçası olan tüm sunucularda), **Üretim Çözücü** seçilmelidir. Üretim Çözücü için varsayılan olarak üretim ortamlarında lisanslanıp dağıtılan özel lisans anahtarı gereklidir. Bu lisans anahtarı, üretim dışı ortamlarda el ile dağıtılmalıdır. Lisans anahtarını el ile kurmak için şu adımları izleyin:
 
         1. Microsoft Dynamics Lifecycle Services'ta Paylaşılan varlık kitaplığını açıp varlık türü olarak **Model**'i seçin ve **DOM lisansı** dosyasını indirin.
-        2. Microsoft Internet Information Services (IIS) Yöneticisi'ni başlatın, **AOSService web sitesi**'ne sağ tıklayın ve ardından **Keşfet**'i seçin. **\<AOS service root\>\\ webroot**'ta bir Windows Gezgini penceresi açılır. Sonraki adımda kullanacağınızdan \<AOS Service root\> yolunu not edin.
-        3. **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** dizinindeki yapılandırma dosyasını kopyalayın.
-        4. Genel Merkez istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücü**' seçeneğini belirleyin ve hiçbir hata iletisi görünmediğinden emin olun.
+        1. Microsoft Internet Information Services (IIS) Yöneticisi'ni başlatın, **AOSService web sitesi**'ne sağ tıklayın ve ardından **Keşfet**'i seçin. **\<AOS service root\>\\ webroot**'ta bir Windows Gezgini penceresi açılır. Sonraki adımda kullanacağınızdan \<AOS Service root\> yolunu not edin.
+        1. **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** dizinindeki yapılandırma dosyasını kopyalayın.
+        1. Genel Merkez istemcisine gidin ve **DOM parametreleri** sayfasını açın. **Çözücü** sekmesinde, **Çözücü türü** alanında, **Üretim çözücü**' seçeneğini belirleyin ve hiçbir hata iletisi görünmediğinden emin olun.
+
 
         > [!NOTE]
         > Basitleştirilmiş Çözücü, perakendecilerin özel lisans kurmak zorunda kalmadan DOM özelliğini deneyebilmeleri için sunulmuştur. Kurumlar Basitleştirilmiş Çözücüyü üretim ortamlarında kullanmamalıdır.
         >
-        > Basitleştirilmiş Çözücü, Üretim Çözücüyle aynı yetenek kümesini sağlasa da, performans (bir çalıştırma işleminde işlenebilecek sipariş ve sipariş satırı sayısı) ve sonuçların yakınsaması (bazı senaryolarda bir sipariş toplu işi en iyi sonuçları vermeyebilir) bakımından sınırlandırmalar söz konusudur.
+        > Üretim Çözücü performansı (bir çalıştırma işleminde işlenebilecek sipariş ve sipariş satırı sayısı gibi) ve sonuçların yakınsaması (bazı senaryolarda bir sipariş toplu işi en iyi sonuçları vermeyebileceği için) artırır. **Kısmi siparişler** kuralı ve **Maksimum konum sayısı** kuralı gibi bazı kurallar Üretim Çözücü gerektirir.
      
 6. **Retail ve Commerce \> Dağıtılmış sipariş yönetimi \> Ayarlar \> DOM parametreleri** bölümüne dönün.
 7. **Numara serileri** sekmesinde, gerekli numara serilerini çeşitli DOM varlıklarına atayın.
@@ -121,7 +125,7 @@ Aşağıdaki resimde bir DOM sistemindeki bir satış siparişinin yaşam döng�
         \* **Kısmi siparişleri karşıla** **Hayır** olarak ayarlıysa **Kısmi satırları karşıla**, aslında nasıl ayarlandığından bağımsız olarak her zaman **Hayır**'a ayarlı olarak kabul edilir.
 
         > [!NOTE]
-        > Retail 10.0.5 sürümünde, **Siparişi yalnızca bir yerleşimden karşıla** parametresi **Maksimum karşılama yerleşimleri** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar.
+        > Retail 10.0.5 sürümünde, **Siparişi yalnızca bir yerleşimden karşıla** parametresi **Maksimum karşılama yerleşimleri** olarak değiştirildi. Kullanıcılar siparişlerin yalnızca bir konumdan mı, yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını yapılandırma olanağını kullanmak yerine artık karşılamanın belirli bir konum kümesinden mi (en fazla 5) yoksa mümkün olduğunca çok sayıda konumdan mı karşılanacağını belirtebilir. Bu özellik, siparişin karşılanabileceği konum sayısı açısından daha fazla esneklik sunar. Bu kural yalnızca Üretim Çözücü ile çalışır. 
 
    - **Çevrimdışı karşılama konumu kuralı**: Bu kural, kurumların bir konumu veya konum grubunu çevrim dışı ya da DOM için kullanılamaz olarak belirtmelerini sağlar, böylece siparişler karşılama için bu konumlara atanamaz.
     - **Maksimum reddetme sayısı kuralı**: Bu kural, kurumların reddetme işlemleri için bir eşik tanımlamasını sağlar. Eşiğe ulaşıldığında, DOM işlemcisi bir siparişi veya sipariş satırını özel durum olarak işaretler ve diğer işlemlerde hariç tutar.

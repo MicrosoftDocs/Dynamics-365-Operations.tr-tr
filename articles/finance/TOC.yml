@@ -72,15 +72,15 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.17 (Mart 2021)
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (Şubat 2021)
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (Ocak 2021)
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: Finance 10.0.14 (Kasım 2020)
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
-                - name: Dynamics 365 Finance'te kaldırılan veya kullanım dışı bırakılan özellikler
+                - name: Dynamics 365 Finance'ten kaldırılan veya kullanım dışı bırakılan özellikler
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Power Apps'taki tuval uygulamalarını katıştırma
+                - name: Power Apps'teki tuval uygulamalarını katıştırma
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -175,7 +175,7 @@
                 - name: Finance and Operations uygulamaları mimarisi
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: Uygulama projesini ekleme
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Ortam planlama
@@ -336,18 +336,10 @@
               href: accounts-receivable/payment-insights-overview.md
             - name: Müşteri deftere nakil profilleri
               href: accounts-receivable/customer-posting-profiles.md
-            - name: Paylaşılan numara serilerini kullanarak müşterileri kopyalama
+            - name: Paylaşılan numara sıralarını kullanarak müşterileri kopyalama
               href: accounts-receivable/copy-customer.md
             - name: Müşteri iş akışı
               href: accounts-receivable/customer-workflow.md
-            - name: Gelir kabulüne genel bakış
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: Gelir kabulü kurulumu
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: Ertelenen geliri kabul etme
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: Satış siparişlerinde gelir kabulü
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Yinelenen faturalar ayarlama ve işleme
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri
@@ -380,14 +372,34 @@
               href: accounts-receivable/configure-customer-invoices.md
             - name: Müşteri hareketleri listesi sayfası
               href: accounts-receivable/customer-transactions-list-page.md
-            - name: Kambiyo senetleri ayarlama
+            - name: Kambiyo senetlerini ayarlama
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Alacak hesaplarını kapatma
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Ödemeler ve kapatmalar
+            - name: Gelir kabul
               items:
                 - name: Gelir kabulüne genel bakış
                   href: accounts-receivable/revenue-recognition-overview.md
+                - name: Gelir kabulü kurulumu
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: Ertelenen geliri kabul etme
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: Satış siparişlerinde gelir kabulü
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: Gelir kabulü paketleri
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: Gelir kabulü yeniden tahsisatı
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: Gelir kabulü yeniden tahsisatı – senaryo 1
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: Gelir kabulü yeniden tahsisatı – senaryo 2
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: Gelir kabulü yeniden tahsisatı – senaryo 3
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: Gelir kabulü yeniden tahsisatı – senaryo 4
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
+            - name: Ödemeler ve kapatmalar
+              items:
                 - name: Müşteri ödemesine genel bakış
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Alacak hesapları için merkezi ödemeler
@@ -470,6 +482,10 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Gelişmiş notlar yönetimi
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: Alacak dekontlarında özgün faturalarla ilgili referanslar
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: Belgeleri ve fişleri kronolojik olarak numaralandırma
+              href: accounts-receivable/chrono-numbers.md
         - name: Bütçeleme
           items:
             - name: Bütçeleme giriş sayfası
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: Nakit akışı tahmini
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: Nakit akışı tahmin kurulumu ile ilgili sorunları giderme
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: Banka yönetimi çalışma alanı
               href: cash-bank-management/Bank-management-workspace.md
             - name: Banka yabancı para birimi yeniden değerleme işlemi
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: Deftere nakledilen kira hareketlerini tersine çevirme
                   href: asset-leasing/reverse-posted-lease-trans.md
-                - name: Kira ayarlama
+                - name: Kıymet kiralama kuralları
+                  href: asset-leasing/asset-leasing-convention.md
+                - name: Kiralamayı ayarlama
                   href: asset-leasing/adjust-lease.md
                 - name: Kullanım hakkı varlığının değerini düşürme
                   href: asset-leasing/impair-rou-asset.md
+                - name: Kiralama feshi önerme
+                  href: asset-leasing/lease-termination.md
                 - name: Kirayı sabit kıymetle ilişkilendirme
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: Kiraları yabancı para birimlerinde kaydetme
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: Konsolide mali tablolar oluşturma
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Bağlı şirket verilerini dosyalardan içeri aktarma
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Bağlı şirket verilerini bir dosyaya dışarı aktarma
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: İçeri aktarma - Biçim ile konsolide etme
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Konsolidasyon işleminde kullanılmak üzere tüzel kişilik hazırlama
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Konsolidasyon için bir bağlı tüzel kişilik ayarlama
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: Konsolidasyon grupları ve ek konsolidasyon hesabı oluşturma
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: Ana hesap türleri
@@ -1000,10 +1032,12 @@
                   href: general-ledger/currency-revaluation-consolidation-company.md
                 - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Para birimi döviz kurlarını içe aktarma
+                - name: Para birimi döviz kurlarını içeri aktarma
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Bir fiş
                   href: general-ledger/one-voucher.md
+                - name: Bir fişle ilgili SSS
+                  href: general-ledger/one-voucher-faq.md
                 - name: Genel muhasebe hesabı kapatmaları
                   href: general-ledger/ledger-settlements.md
             - name: Dönem sonu kapanışı
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Toplu mali dönem kapatma
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: Yıl sonu faaliyetleriyle ilgili SSS
+                  href: general-ledger/faq-year-end-activities.md
             - name: Satış vergisi
               items:
                 - name: Satış vergisine genel bakış
@@ -1056,12 +1092,26 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Satış vergisi kapatma dönemlerini ayarlama
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Stopaj vergisini ayarlama
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Kod raporuna göre Satış vergisi ödemesini yazdırma
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Stopaj vergisi
+              items:
+                - name: Stopaj vergisini ayarlama
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Genel stopaj vergisi
+                  items:
+                    - name: Global stopaj vergisine genel bakış
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Global stopaj vergisini ayarlama
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Satın alma hareketlerinde stopaj vergisi
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Satış hareketlerinde stopaj vergisi
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Stopaj vergisi ödemesi oluşturma
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Denetim workbench'i
               items:
                 - name: Denetim ilkesi kuralları
@@ -1070,6 +1120,52 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Kaynak belgeler için denetim ilkeleri tanımlama
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Mali raporlama
+          items:
+            - name: Mali raporlamayı kullanmaya başlama
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: Mali raporlamaya genel bakış
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: Mali rapor bileşenleri
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlamada para birimi özellikleri
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: Bilanço mali raporları
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: Mali raporlar oluşturma
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: Gelir tablosu mali raporu
+              href: general-ledger/income-statement-financial-report.md
+            - name: Mizan mali raporları
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: Mali raporları görüntüleme
+              href: general-ledger/view-financial-reports.md
+            - name: Rapor tasarımcısı arabirimi
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: Finansal raporlayıcı için klavye kısayolları
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: Mali rapor tasarımcısındaki kullanıcı tercihleri
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Gelişmiş biçimlendirme seçenekleri
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Rapor tasarımcısında rapor bileşenlerini düzenleme
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Rapor tanımları
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Satır tanımları
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Sütun tanımları
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlarda raporlama ağacı tanımları
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Satır tanımı hücrelerini değiştirme
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlama veri reyonunu sıfırlama
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: Veri reyonu sıfırlamanın yapılması gereken zamanlar
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: Mali raporlama ile ilgili SSS
+              href: general-ledger/financial-reporting-faq.md
         - name: Mali içgörüler
           items:
             - name: Mali içgörüler giriş sayfası
@@ -1306,48 +1402,6 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Kanada Uyumlaştırılmış Satış Vergisi hesaplaması
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Mali raporlama
-          items:
-            - name: Mali raporlamayı kullanmaya başlama
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: Mali raporlamaya genel bakış
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: Mali rapor bileşenleri
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Mali raporlamada para birimi özellikleri
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: Bilanço mali raporları
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: Mali raporlar oluşturma
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: Gelir tablosu mali raporu
-              href: general-ledger/income-statement-financial-report.md
-            - name: Mizan mali raporları
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: Mali raporları görüntüleme
-              href: general-ledger/view-financial-reports.md
-            - name: Rapor tasarımcısı arabirimi
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: Finansal raporlayıcı için klavye kısayolları
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: Mali rapor tasarımcısındaki kullanıcı tercihleri
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Gelişmiş biçimlendirme seçenekleri
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Rapor tasarımcısında rapor bileşenlerini düzenleme
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Rapor tanımları
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Satır tanımları
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Sütun tanımları
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Mali raporlarda raporlama ağacı tanımları
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Satır tanımı hücrelerini değiştirme
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Mali raporlama veri reyonunu sıfırlama
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Globalleştirme
           items:
             - name: Globalleştirme kaynakları
@@ -1358,18 +1412,30 @@
               items:
                 - name: Elektronik faturalama eklentisine genel bakış
                   href: localizations/e-invoicing-service-overview.md
+                - name: Elektronik faturalama eklentisi yönetim bileşenleri
+                  href: localizations/e-invoicing-service-administration.md
+                - name: Regulatory Configuration Services'teki (RCS) elektronik faturalama eklentisini yapılandırma
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Finance ve Supply Chain Management'ta elektronik fatura kesme
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Azure depolama hesabı ve Key Vault oluşturma
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Elektronik faturalama eklentisini kullanmaya başlama
-                  href: localizations/e-invoicing-get-started.md
-                - name: Brezilya için Elektronik faturalama eklentisini kullanmaya başlama
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: İtalya için Elektronik faturalama eklentisini kullanmaya başlama
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: Meksika için Elektronik faturalama eklentisini kullanmaya başlama
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: Elektronik faturalama eklentisini ayarlama
-                  href: localizations/e-invoicing-setup.md
+                - name: Başlayın
+                  items:
+                    - name: Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Elektronik faturalama eklentisini kullanmaya başlama
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Brezilya için Elektronik faturalama eklentisini kullanmaya başlama
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Mısır'da elektronik müşteri faturaları
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: İtalya için Elektronik faturalama eklentisini kullanmaya başlama
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Meksika için Elektronik faturalama eklentisini kullanmaya başlama
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: Elektronik faturalama eklentisini ayarlama
+                      href: localizations/e-invoicing-setup.md
             - name: Avustralya
               items:
                 - name: Avustralya'ya genel bakış
@@ -1710,6 +1776,14 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Ödeme makbuzu biçimini ayarlama
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: Mısır
+              items:
+                - name: Mısır'a genel bakış
+                  href: localizations/egypt.md
+                - name: Mısır'da kayıt numaralarını yapılandırma
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: Mısır için fatura düzenini yapılandırma
+                  href: localizations/emea-egy-invoice-layout.md
             - name: Estonya
               items:
                 - name: Estonya'ya genel bakış
@@ -1800,6 +1874,8 @@
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
                 - name: Desteklenen elektronik faturalama standartları
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: Zorlanan elektronik fatura oluşturma
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: Orijinal fatura referansı (Doğu Avrupa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: KDV Kodu kullanılarak taraf arama
@@ -1968,6 +2044,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Çevrimiçi faturalama sistemi
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Macaristan için satış vergisi raporları
+                  href: localizations/emea-hun-sales-tax-reports.md
                 - name: Ertelenen satış vergisi hesaplamaları
                   href: localizations/emea-hun-deferred-vat.md
             - name: İzlanda
@@ -2222,8 +2300,10 @@
               items:
                 - name: İtalya'ya genel bakış
                   href: localizations/italy.md
-                - name: KDV beyanları ayrıntıları
+                - name: KDV beyanlarıyla ilgili ayrıntılar
                   href: localizations/emea-ita-vat-statements-details.md
+                - name: Üç aylık KDV iletişim raporu
+                  href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Bloke liste raporu
                   href: localizations/emea-ita-black-list-report.md
                 - name: Yetki tarihi
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: Yıllık vergi iletişimi
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: Ödeme izlenebilirliği
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: Birleşik deftere nakil tarihi denetimi
+                  href: localizations/emea-ita-post-date-control.md
             - name: Japonya
               items:
                 - name: Japonya'ya genel bakış
@@ -2826,6 +2910,10 @@
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Varlık vergisi kayıtları
                       href: localizations/rus-assets-tax-registers.md
+                    - name: Erteleme vergi kaydı
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: Nakit akışı vergi kayıtları
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: Suudi Arabistan
               items:
                 - name: Suudi Arabistan'a genel bakış
@@ -2906,6 +2994,10 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Gerçekleşmemiş KDV
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Vergi şubesi boyutları
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: Satış KDV'si raporu
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: Stopaj vergisi
                   href: localizations/apac-tha-withholding-tax.md
             - name: Birleşik Arap Emirlikleri (BAE)
@@ -2991,7 +3083,7 @@
                 - name: Yedekleme planı geliştirme
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Proje zaman çizelgelerini girme
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: Toplu işe alma projeleri
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: Toplu işe alma projesi oluşturma
@@ -3307,6 +3399,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: İşlevler
                   items:
+                    - name: Konteyner
+                      items:
+                        - name: Konteyner işlevleri
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: Tarih ve saat
                       items:
                         - name: Tarih ve saat işlevleri
@@ -3529,6 +3627,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tür: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Konteyner: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tarih ve Saat: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tarih ve Saat: DateToDateTime'
@@ -3570,7 +3670,11 @@
                         - name: Excel raporlarına dinamik olarak sütun eklemek için biçimleri çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: Raporları Word biçiminde oluşturmak için yapılandırmalar tasarlama
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: Word biçiminde raporlar oluşturmak için ER yapılandırmalarını Excel şablonlarıyla yeniden kullanma
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: PDF şablonlarını doldurmak için yapılandırmalar tasarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Resimler ve şekiller katıştırma
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan XML dosyalarını dosya boyutu ve içerik miktarına göre bölme
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
@@ -3646,7 +3752,7 @@
                         - name: Yapılandırmaları GR'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: ER yapılandırmalarının güncelleştirilmiş sürümlerini içe aktarma
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: GR'de yapılandırmaları bulmak için gelişmiş filtreleme
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Yapılandırmaları GR'ye yükleme
@@ -3710,38 +3816,40 @@
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Veri kaynaklarında hata ayıklama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Tek bir model kökü için türetilmiş birkaç eşlemeyi yönetme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: Biçimleri yapılandırma
                   items:
                     - name: Biçim oluştururken model tanımlarını seçme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: ER biçimlerini her tüzel kişilik için belirtilen parametreleri kullanmak üzere yapılandırma
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: ER biçim öğelerinin yürütülmesini erteleme
                       items:
                         - name: Sıra öğesinin yürütülmesini erteleme
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: XML öğesinin yürütülmesini erteleme
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: Çok dilli raporlar tasarlama
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Büyük giden belgeleri sıkıştırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Yapılandırılan ER bileşenlerini denetleme
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Veri bağlamalarındaki göreli yol
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Finance and Operations'da Elektronik raporlama çözümleri kullanma
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: Finance'te ER çözümlerini kullanma
               items:
                 - name: Altyapıyı yapılandırma
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Hedefleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Eyleme bağlı hedefleri yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: ER biçimine referans ayarlama
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan raporları otomatik olarak doğrulama
@@ -3811,10 +3921,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
                 - name: API değişiklikleri
                   items:
-                    - name: Application update 7.3
+                    - name: Uygulama güncelleştirmesi 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.11
+                    - name: Uygulama güncelleştirmesi 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma

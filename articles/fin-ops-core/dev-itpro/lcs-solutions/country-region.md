@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ed89c0c9cb915af0d5a70d14d1f0e251f20554d7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685065"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154131"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
@@ -55,7 +55,7 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 
 #### <a name="regulatory-updates"></a>Mevzuat güncelleştirmeleri
 -   [Mevzuat güncelleştirmeleri](../../../finance/localizations/regulatory-updates.md)
--   [Yerelleştirme portalı](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (Haftalık olarak güncelleştirilir)
+-   [Yerelleştirme portalı](https://docs.microsoft.com/dynamics/s-e/) (Haftalık olarak güncelleştirilir)
 -   [Lifecycle Services'da (LCS) konu arama](../lifecycle-services/issue-search-lcs.md) (Günlük olarak güncelleştirilir)
 
 #### <a name="communication-and-alerts"></a>İletişim ve uyarılar

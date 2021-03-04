@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4460102"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995578"
 ---
 # <a name="revenue-recognition-setup"></a>Gelir kabulü kurulumu
 [!include [banner](../includes/banner.md)]
@@ -30,6 +29,8 @@ Gerekli olan tüm kurulum için menü maddelerini içeren yeni bir **Gelir kabul
 
 > [!NOTE]
 > Gelir kabulü özelliği Özellik yönetiminden açılamaz. Şu anda, bu özelliği etkinleştirmek için yapılandırma anahtarları kullanmanız gerekir.
+
+> Paket işlevi dahil olmak üzere gelir kabulünün, Commerce kanallarında (e-ticaret, POS, çağrı merkezi) kullanımı desteklenmez. Gelir kabulü ile yapılandırılan maddeler, Commerce kanallarında oluşturulan siparişlere veya hareketlere eklenmemelidir.
 
 **Gelir kabulü** modülünde aşağıdaki kurulum seçenekleri vardır:
 
