@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b1468328433a67253bafc21ac9c9b3a2398872
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0049e47d5e0e5f8a2a6d7cc5feb29593c764d323
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438967"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991552"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>İade edilen maddelerin nasıl elden çıkarılacağını belirtme 
 
@@ -183,6 +182,3 @@ Tanımladığınız her elden çıkarma kodu için bir elden çıkarma eylemi se
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

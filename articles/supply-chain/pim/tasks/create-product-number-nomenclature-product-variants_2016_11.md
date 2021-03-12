@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f75d7e493255b9c09c10b121f388854861cb0fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e52b7a5aff3e86e845484e1e84b4003cc4a52c95
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439295"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992382"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Yapılandırılmış ürün çeşitleri için ürün numarası terminolojisi oluşturma
 
@@ -102,6 +101,3 @@ Bu yordam, yapılandırılmış ürün çeşitleri için bir ürün numara termi
 43. Sayfayı kapatın.
 44. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3fcdf571378c25d71b3ef4f3baad062a25390417
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416328"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993562"
 ---
 # <a name="configure-ratings-and-reviews"></a>Derecelendirme ve incelemeleri yapılandırma
 
@@ -95,6 +94,3 @@ Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl g�
 [Ürün ayrıntıları sayfalarındaki derecelendirme ve İnceleme modüllerini konfigüre edin](ratings-reviews-modules.md)
 
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

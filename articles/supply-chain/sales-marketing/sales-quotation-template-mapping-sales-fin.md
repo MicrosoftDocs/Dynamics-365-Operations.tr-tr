@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527350"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991877"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Satış teklifi başlıklarını ve satırlarını Sales'ten Supply Chain Management'a doğrudan eşitleme
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527350"
 Bu konu, satış teklifi başlıklarını ve satırlarını Dynamics 365 Sales'ten Dynamics 365 Supply Chain Management'a eşitlemek için kullanılan temel görevleri ve şablonları açıklamaktadır.
 
 > [!NOTE]
-> Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
+> Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 
@@ -63,8 +62,8 @@ Aşağıdaki eşitleme görevleri, satış teklifi başlıkları ve satırların
 
 | Satışlar        | Supply Chain Management     |
 |--------------|----------------------------|
-| Alıntılar       | CDS satış teklifi başlığı |
-| QuoteDetails | CDS satış teklifi satırları  |
+| Alıntılar       | Dataverse satış teklifi başlığı |
+| QuoteDetails | Dataverse satış teklifi satırları  |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
@@ -143,6 +142,3 @@ Aşağıdaki görseller, veri tümleştircisinde bir şablon eşleme örneği g�
 
 [Müşteri adayından nakde](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

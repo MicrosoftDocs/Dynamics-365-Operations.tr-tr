@@ -1,5 +1,5 @@
 ---
-title: Serbest metin faturaları için hesap dağıtımları ve muavin defteri günlük girdileri
+title: Serbest metin faturalar için muhasebe dağılımları ve günlük girişleri
 description: Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Serbest metin faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 515d0a9c35507fad04b776e1f0b6225ac5a162d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f3ee26825ec48a8e8e32401ceaa8c80ecd679d2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448662"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993217"
 ---
-# <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Serbest metin faturaları için hesap dağıtımları ve muavin defteri günlük girdileri
+# <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter girişleri
 
 [!include [banner](../includes/banner.md)]
 
@@ -131,11 +130,8 @@ Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz
 -   Serbest metin faturasının tamamının içindeki muhasebe dağılımlarını görüntüleyin.
 -   Yardımcı defter günlüğünü görüntüleyin.
 
-## <a name="subledger-journals-for-free-text-invoices"></a> Serbest metin faturaları için muavin defter günlükleri
+## <a name="subledger-journals-for-free-text-invoices"></a>Serbest metin faturaları için muavin defter günlükleri
 Tam bir serbest metin faturasını deftere nakletmeden önce, faturanın doğru hesaplara nakledildiğini teyit etmek için, borçlar ve alacaklar dahil, faturanun tüm muhasebe girdisini görebilirsiniz. Bu tam görünümün muavin defteri günlük hesap girişi olarak adlandırılır. Serbest metin faturasını günlüğe geçirmeden önce önizlemesini görüntülediğinizde muavin defteri günlük girdisi yanlış ise, muavin defteri günlük girdisi değiştiremezsiniz. Bunun yerine, hesap dağıtımları veya deftere nakil profili değiştirmeniz gerekir. Hesap dağıtımları muhasebe girişi, Borç veya alacak bir tarafı tanımlamak için kullanılır. Muavin defteri günlük mahsuplaştırma hesabı girişi deftere nakil profilleri gibi müşteri hesabı ya da vergi oluşturulur.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

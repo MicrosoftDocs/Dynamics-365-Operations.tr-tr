@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: smmActivityTypeGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0b24d6932715956be19bb74bbc161160ed5f532
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bf70157da2279df94beb8fe0b10920fe288377f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438974"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991702"
 ---
 # <a name="set-up-service-activity-types"></a>Servis faaliyeti tiplerini ayarlama 
 
@@ -53,6 +52,3 @@ ms.locfileid: "4438974"
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

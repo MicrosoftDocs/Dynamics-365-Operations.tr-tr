@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8ca1c6eea854577e5aa34b1a9b9d1731b209527b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 26e046b627d71721f4a4d7b6a60171a482e3e357
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4449003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992801"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Kira deftere nakil hesaplarını ayarlama
 
@@ -84,6 +83,3 @@ Hesapları oluşturulan kiralama defterlerine ve gruplarına atamak için Varlı
     > [!NOTE]
     > Planlanan gider faturası deftere nakledildiğinde, seçilen finansal hesap veya işletme hesabı borçlandırılır.
     > **Kira gideri mahsup** işlemi, icra maliyeti hareketleri için deftere nakil türü olarak kullanılacak ancak kiralama ayrıntılarında veya kiralama defteri formunda **İcra maliyeti ödeme planı satırları**'nda tanımlı **Mahsup hesap**'a nakledilecektir.   
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c3dd0bf262f65aac2359c05ff954bdfbd294353f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439078"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992582"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyle İlgili Sorunları Giderme 
 
@@ -75,6 +74,3 @@ Bu, üretim emirleri desteğinin bir parçası olarak planlanan beklemedeki bir 
 [Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama](get-started.md)
 
 [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

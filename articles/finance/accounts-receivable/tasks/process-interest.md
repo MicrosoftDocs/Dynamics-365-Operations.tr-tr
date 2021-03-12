@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPosting, SysQueryForm, CustInterestNote, SrsReportViewerForm
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 093fbd23f9fcaf62db9988a98a94b8cebf582768
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ad30984f55017ee275af15ddb4f1a46c6a50db69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448835"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992951"
 ---
 # <a name="process-interest"></a>Faiz işleme
 
@@ -68,6 +67,3 @@ Bu prosedürde, vade farkı dekontlarının nasıl oluşturulacağı, yazdırıl
 5. **Tamam**'a tıklayın.
 6. **Durum** alanında, "Deftere nakledildi"yi seçin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

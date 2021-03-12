@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 644ef7cc9535522b72b03ba81a72b1070c8e2ba1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448785"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993051"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Alacaklar hesapları için merkezi ödemeler
 
@@ -296,6 +295,3 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam West)    |              | 75,00         |
 | Vade başlangıcı Fabrikam East (Fabrikam West) | 25,00        |               |
 | Alacak hesapları (Fabrikam West)    |              | 25,00         |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

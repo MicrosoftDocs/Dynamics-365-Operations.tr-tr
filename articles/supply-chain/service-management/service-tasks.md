@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b433632523bfd64119fda62f8e4b108ff9b5dccd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14145020572add7fd9f49cf6a6dc2fb3c1f19b03
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438980"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991802"
 ---
 # <a name="service-tasks-overview"></a>Servis görevlerine genel bakış
 
@@ -90,6 +89,3 @@ Servis siparişlerini otomatik olarak oluşturduğunuzda, servis görevlerini gr
 2. **Kurulum** sekmesinde, **Servis siparişlerini birleştir** alanında **Servis görevine göre**'yi seçin.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

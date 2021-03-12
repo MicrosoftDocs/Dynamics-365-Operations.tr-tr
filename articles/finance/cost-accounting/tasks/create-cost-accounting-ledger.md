@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 121dc743b40e3e39818aa2c9203328ba8bd5ecba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448744"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990854"
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Maliyet muhasebesi genel muhasebesi oluşturma
 
@@ -38,6 +37,3 @@ Bir maliyet muhasebesi defteri, genel raporlama birimini temsil eder. Maliyet ö
 8. İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.
 9. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

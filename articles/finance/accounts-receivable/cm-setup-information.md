@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448685"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991276"
 ---
 # <a name="credit-management-setup"></a>Kredi yönetimi kurulumu 
 
@@ -153,6 +152,3 @@ Seçilen ölçütlere göre oluşturulacak kredi limitini temsil eden satırlar�
 2. Puanlama grubu bilgilerinin nasıl değerlendirileceğini tanımlayan karşılaştırma işlecini seçin.
 3. Puanlama grubu için belirtilen değerle karşılaştırılacak değeri girin.
 4. Müşteri bilgileri, puanlama grubu için belirtilen değerle eşleştiği zaman atanacak kredi limitini girin. Örneğin **Düşük** puanlama grubu için bir otomatik kredi limiti oluşturursunuz. Puanlama gruplarından biri Sektörde geçen yıl sayısı ise, müşterinin sektörde bulunduğu süre beş yılsa 100.000 kredi limiti atayan bir satır, ve müşterinin sektörde bulunduğu süre on yılsa 200.000 kredi limiti atayan başka bir satır tanımlayabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

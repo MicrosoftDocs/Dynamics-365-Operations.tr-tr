@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1dd4dfc5b8ca7af66941d081b4c20be0f5d6001d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993412"
 ---
 # <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
 
@@ -113,6 +112,3 @@ Aşağıdaki resimde bir müşteri yapılandırma örneği gösteriliyor.
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

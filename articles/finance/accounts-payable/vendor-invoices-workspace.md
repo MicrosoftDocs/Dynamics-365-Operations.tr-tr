@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448973"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993275"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Satıcı fatura girişi çalışma alanı
 
@@ -117,6 +116,3 @@ Aşağıdaki tablo, her bir rapor sayfasında kullanılabilen görselleştirmele
 | İçe aktarmanın başarısız olduğu faturalar | <ul><li>İçe aktarmanın başarısız olduğu faturalar</li><li>İçe aktarmanın başarısız olduğu şirkete ait faturalar</li></ul> |
 | Otomasyon hatası nedenleri | <ul><li>Faturalar başarısız oldu</li><li>Şirkete ait başarısız olan faturalar</li><li>Satıcı grubuna ait başarısız olan faturalar</li></ul> |
 | İş akışı durumu                | <ul><li>İş akışındaki faturalar</li><li>Satıcı fatura iş akışı örnekleri</li><li>Onaylayan başına atama</li><li>Şirket başına satıcı faturası iş akışı</li><li>Onaylana göre iş akışındaki ortalama gün sayısı</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

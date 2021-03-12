@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: 68e72bc17005c11f28f572114357f906098cc045
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517392"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993356"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -362,6 +361,3 @@ B2C kiracınızın **Kullanıcılar** bölümünde isteğe bağlı, ikincil bir 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

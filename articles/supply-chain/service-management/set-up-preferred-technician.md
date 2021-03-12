@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable, SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 850d91372fb1a918840ebc316a4479f4a70bdc24
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a06ec39bd0552faf7961ae75ff393f0b8edac2eb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438976"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991755"
 ---
 # <a name="set-up-a-preferred-technician"></a>Tercih edilen teklifi ayarlama 
 
@@ -68,6 +67,3 @@ Servis anlaşması veya servis siparişi için bir tercih edilen teknisyen olara
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

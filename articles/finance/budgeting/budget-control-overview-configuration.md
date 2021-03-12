@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4b371e6c87c65e707bf1468eb8df4be892f7750d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4449032"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990964"
 ---
 # <a name="budget-control-overview"></a>Bütçe denetimine genel bakış
 
@@ -127,6 +126,3 @@ Bütçe denetimi açık konuma getirildikten sonra kullanıcılar, bütçe denet
 Bu sayfadan, kullanıcılar **Döneme göre bütçe denetim istatistikleri** sayfasının ayrıntılarına girerek belirli bir bütçe denetim boyutu birleşimi için bütçe kullanılabilirliği ayrıntılarını ve rezervasyonları görüntüleyebilir. Kullanıcılar ayrıca bütçe denetiminde kullanılan tüm mali boyut birleşimlerinin bütçe kullanılabilirliğini görüntülemek için **Bütçe denetimi istatistiği** sayfasının ayrıntılarına girebilir. 
 
 Bütçe denetimi satın alma siparişleri için etkinleştirilmişse bütçe yöneticisi bütçe kontrolü uyarıları ve hataları olan onaylanmamış tüm satın alma siparişlerinin sırasını görüntülemek için **Genel muhasebe bütçeleri ve tahminleri** çalışma alanını kullanabilir. Bütçe yöneticisi yapılandırılmış bütçe aşım izinlerine sahipse satın alma siparişleri doğrudan çalışma alanında onaylanabilir.    
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

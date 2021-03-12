@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1ac06e7d702ffe3a8cdb6bd2823f2ffdc055c722
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 726d4979059417871a00626c55da32fa4286cb53
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448681"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991129"
 ---
 # <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
@@ -30,8 +29,8 @@ Bu konuda, serbest metin faturalarının nasıl oluşturulacağı açıklanmakta
 
 ## <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
-1. **Alacak hesapları \> Faturalar \> Tüm serbest metin faturaları**'na gidin.
-2. **Yeni** öğesini seçin.
+1. **Alacak hesapları (veya Satış Muhasebe Defteri) \> Faturalar \> Tüm serbest metin faturaları**'na gidin.
+2. **Yeni**'yi seçin.
 3. **Müşteri hesabı** alanında bir değer seçin.
 
     * Varsayılan olarak müşteri hesabı olarak seçilen hesap fatura hesabı olarak kullanılır.
@@ -85,6 +84,3 @@ Satırları kopyaladıktan sonra bilgilerde ihtiyacınız olan düzenlemeleri ya
 Şablondan serbest metin faturası oluşturabilirsiniz. **Fatura** sekmesinde **Şablondan yeni** öğesini seçtiğinizde yeni serbest metin faturası için bir şablon adı ve müşterinin hesabını seçebilirsiniz. Müşterinin ödeme yöntemi ve ödeme koşulları gibi varsayılan değerler, müşteriden otomatik olarak doldurulabilir veya şablonda kaydedilmiş değerleri kullanabilirsiniz.
 
 Yeni bir serbest metin faturası oluşturulur ve ihtiyacınız olan değerleri düzenleyebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
