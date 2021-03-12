@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a930b4921a29d5ce561ce0e958733f0c3261b81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d27fba816ca289e6a84e8684f7f90686864fb0b6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448770"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972093"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyet tahakkuku
 
@@ -83,6 +82,3 @@ Satıcı faturası gerçek satıcı faturası gelene kadar bekleme durumunda kal
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

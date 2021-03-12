@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448943"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971290"
 ---
 # <a name="budget-planning"></a>Bütçe planlama
 
@@ -106,7 +105,7 @@ Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel g�
 
 2.5. “Belirli organizasyonlara erişim izni ver” öğesini seçin. İlk adımda oluşturulan Kuruluş hiyerarşisi'ni seçin. Finans düğümünü seçin ve Alt öğelerle ver düğmesine tıklayın. 
 
-***Önemli!*** *Organizasyon güvenliği tüzel kişilik için uygulandığından bu görev gerçekleştirilirken DMF tüzel kişilik içeriğinde olduğunuzdan emin olun* 
+**_Önemli!_* _ _Kuruluş güvenliği tüzel kişilik için uygulandığından bu görev gerçekleştirilirken DMF tüzel kişilik içeriğinde olduğunuzdan emin olun* 
 
 ### <a name="task-3-create-scenarios"></a>Görev 3: Senaryo oluşturma
 3.1. Bütçeleme&gt;Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. Senaryolar sayfasında, bu laboratuvarda kullanacağımız senaryolara dikkat edin: Önceki yılın fiili tutarları ve bütçelenen tutarları. 
@@ -247,6 +246,3 @@ C. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandır
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

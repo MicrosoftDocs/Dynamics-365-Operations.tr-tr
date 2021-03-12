@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 659fb6c98b9ed0589932f8c4a67cb7b08264283c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 77cc6bf1d1f7f80507715d114a8c4b3d9f9cf8c3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448968"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971965"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
 
@@ -140,6 +139,3 @@ April, 495,00 tutarında ödeme yapmaya karar verir ve 5,00 tutarında nakit isk
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

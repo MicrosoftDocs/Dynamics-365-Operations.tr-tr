@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 88433
 ms.assetid: 73f3dcf6-040a-44ad-9512-7b3e0d17a571
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 82f7c8947bcc2dab394ea24e28a3631cc8682e5a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0984710220171f36a520e471c6c55bf12d97675b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448762"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972042"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları ayarlama ve oluşturma
 
@@ -165,6 +164,3 @@ Bir pozitif ödeme dosyasını değiştirmeniz gerekiyorsa, bunu geri çağırab
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

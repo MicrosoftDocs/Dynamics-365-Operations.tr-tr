@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416438"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972719"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 
@@ -84,6 +83,3 @@ Katlanarak artan değerlendirilecek birleşim sayısı sorununu çözmek için, 
 ![Marjinal değeri hesaplama formülü](./media/overlapping-discount-combo-06.jpg)
 
 Paylaşılan ürün kümesindeki her iskontonun marjinal değeri hesaplandıktan sonra, iskonotolar, kapsamlı olarak, yüksek marjinal değerden düşük marjinal değere doğru sıralanarak paylaşılan ürünlere uygulanır. Bu yöntem için, her tek iskonto örneği uygulandıktan sonra kalan iskonto olasıklıkları karşılaştırılmaz. Bunun yerine, çakışan iskontolar bir kez karşılaştırılır ve sonra sırayla uygulanır. Hiçbir ek karşılaştırma yapılmaz. Eşiği **Ticaret parametreleri** sayfasının **İskonto** sekmesindeki marjinal değerine geçecek şekilde yapılandırabilirsiniz. Toplam iskontoyu hesaplamak için kabul edilebilir süre perakende endüstrileri arasında farklılık gösterir. Ancak, bu süre genellikle on milisaniye ile bir saniye aralığında olur.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

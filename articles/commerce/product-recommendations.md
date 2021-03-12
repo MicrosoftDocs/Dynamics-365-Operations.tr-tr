@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1769af6663a040c699449eb53841b3f72ab433e5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416299"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972389"
 ---
 # <a name="product-recommendations-overview"></a>Ürün önerilerine genel bakış
 
@@ -88,6 +87,3 @@ Aşağıdaki tabloda, perakendecilerin Dynamics 365 Commerce çözümlerinde [ü
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

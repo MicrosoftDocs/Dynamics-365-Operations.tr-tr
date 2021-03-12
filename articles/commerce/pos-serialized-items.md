@@ -3,24 +3,23 @@ title: POS'ta seri hale getirilmiş maddelerle çalışma
 description: Bu konu, satış noktası (POS) uygulamasında serileştirilmiş maddelerin nasıl yönetileceğini açıklar.
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972567"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>POS'ta seri hale getirilmiş maddelerle çalışma
 
@@ -90,11 +89,49 @@ Bu tür bir doğrulamayı önkoşul olarak etkinleştirmek için, aşağıdaki i
 - **Retail and Commerce** > **Retail and Commerce BT** > **Ürünler ve stok** > **Ürün kullanılabilirliği**
 - **Retail and Commerce** > **Dağıtım planları** > **1130** (**Ürün kullanılabilirliği**)
 
+## <a name="sell-serialized-items-in-pos"></a>POS'ta seri hale getirilmiş maddeleri satma
+
+POS uygulaması serileştirilmiş ürün satışını her zaman desteklese de, Commerce 10.0.17 ve sonraki sürümlerinde kuruluşlar, seri numarası izleme için yapılandırılmış ürünler satarken tetiklenen iş mantığını geliştiren işlevleri etkinleştirebilir.
+
+**POS sipariş yakalama ve sipariş karşılama özelliğindeki gelişmiş seri numarası doğrulaması** etkinleştirildiğinde, POS'ta seri haline getirilmiş ürünler satılırken aşağıdaki ürün yapılandırmaları değerlendirilir:
+
+- Ürün için **Seri türü** kurulumu (**etkin** veya **satışlarda etkin**).
+- Ürün için **Boş vermeye izin verilir** ayarları.
+- Ürün ve/veya satış ambarı için **fiziksel negatif stok** ayarları.
+
+### <a name="active-serial-configurations"></a>Etkin seri yapılandırmaları
+
+Maddeler **Etkin** seri numarası izleme boyutuyla yapılandırılmış POS'ta satıldığında, POS, kullanıcıların satış ambarının geçerli stokunda bulunamayan seri numarasına sahip serileştirilmiş bir maddenin satışını tamamlamasını engelleyen doğrulama mantığını başlatır. Bu doğrulama kuralının iki istisnası vardır:
+
+- Madde **Boş vermeye izin verilir** etkinleştirilmiş olarak da yapılandırılmışsa, kullanıcılar seri numarasının girişini atlayabilir ve seri numarası ataması olmadan maddeyi satabilir.
+- Madde ve/veya satış ambarı **Fiziksel negatif stok** etkinleştirilmiş olarak yapılandırılmışsa, uygulama, satıldığı ambardaki stokta olduğu doğrulanamayan bir seri numarasını kabul eder ve satar. Bu yapılandırma, söz konusu madde/seri numarası için stok hareketinin negatife inmesine izin verir ve bu nedenle sistem bilinmeyen seri numaralarının satışına izin verir.
+
+> [!IMPORTANT]
+> POS uygulamasının, **Etkin** seri türü maddeleri için satılan seri numaralarının satış ambarı stokunda olup olmadığını doğrulayabildiğinden emin olmak için kuruluşların Commerce Headquarters'da **Ürün kullanılabilirliğini izleme boyutları** işini ve beraberindeki **1130** ürün kullanılabilirliği dağıtım işini sık sık Commerce Headquarters üzerinden çalıştırması gerekir. Seri haline getirilmiş yeni bir stok, satış ambarlarına alındıkça, POS'un satılan seri numaralarının stok kullanılabilirliğini doğrulaması için stok yöneticisinin kanal veritabanını sık sık en güncel stok kullanılabilirliği verileriyle güncelleştirmesi gerekir. **İzleme boyutlarıyla ürün kullanılabilirliği** işi, tüm şirket ambarları için seri numaraları da dahil olmak üzere ana stokun geçerli bir anlık görüntüsünü alır. **1130** dağıtım işi bu envanter anlık görüntüsünü alır ve yapılandırılmış tüm kanal veritabanlarıyla paylaşır.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Satış işlemi seri yapılandırmalarında etkin
+
+**Satış işleminde Etkin** olarak seri boyutuyla yapılandırılan maddeler, herhangi bir stok doğrulama mantığından geçmez çünkü bu yapılandırma stok seri numaralarının stoka önceden kaydedilmediğini ve seri numaralarının yalnızca satış sırasında yakalandığını gösterir.  
+
+**Boş vermeye izin verilir**, **Satış işleminde etkin** olarak yapılandırılmış maddelerde de yapılandırılmışsa seri numarası girişi atlanabilir. **Boş vermeye izin verilir** yapılandırılmamışsa, uygulama, kullanılabilir stoka karşı doğrulanmayacak olsa bile kullanıcının bir seri numarası girmesini gerektirir.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>POS hareketlerinin oluşturulması sırasında seri numaralarını uygulama
+
+POS uygulaması, seri haline getirilmiş bir madde satarken kullanıcılardan hemen seri numarası yakalamasını ister ancak uygulama, kullanıcıların seri numaralarının girişini satış işleminde belirli bir noktaya kadar atlamasına izin verir. Kullanıcı ödemeyi yakalamaya başladığında, uygulama gelecekteki sevkiyatlar veya teslim alımlar aracılığıyla yerine getirilecek şekilde yapılandırılmamış maddeler için seri numarası girişini zorunlu tutar. Peşin veya taşıma karşılaması için yapılandırılan seri haline getirilmiş maddeler, kullanıcının satışı tamamlamadan önce seri numarasını yakalamasını (veya madde yapılandırması izin veriyorsa boş bırakmayı kabul etmesini) gerektirir.
+
+Gelecekteki teslim alım veya sevkiyat için satılan seri haline getirilmiş maddeler için POS kullanıcıları başlangıçta seri numarasını girmeyi atlayabilir ve yine de müşteri siparişi oluşturma işlemini tamamlayabilir.   
+
+> [!NOTE]
+> POS uygulaması üzerinden, seri haline getirilmiş ürünler satarken veya karşılarken, satış hareketinde seri hale getirilmiş maddeler için "1" miktarı uygulanır. Bu, seri numarası bilgilerinin satış satırında nasıl izlendiklerinin bir sonucudur. POS üzerinden birden çok seri haline getirilmiş madde için bir hareket satışı veya karşılaması sırasında, her satış satırının yalnızca "1" miktarıyla yapılandırılması gerekir. 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Müşteri siparişi karşılama veya teslim alma sırasında seri numaralarını uygulama
+
+POS'taki **Sipariş Karşılama** işlemini kullanarak seri haline getirilmiş ürünler için müşteri sipariş satırlarını karşıladığınızda, POS, son karşılamadan önce seri numarasının yakalanmasını zorunlu tutar. Bu nedenle, ilk sipariş yakalama sırasında bir seri numarası sağlanmamışsa POS'taki çekme, paketleme veya sevk işlemleri sırasında yakalanması gerekir. Her adımda bir doğrulama yapılır ve kullanıcıdan yalnızca eksikse veya artık geçerli değilse seri numarası verileri istenir. Örneğin, bir kullanıcı malzeme çekme veya paketleme adımlarını atlar ve hemen bir sevk irsaliyesi başlatırsa ve satır için bir seri numarası kaydedilmemişse POS, son fatura adımı tamamlanmadan önce seri numarasının girilmesini zorunlu kılar. POS'ta sipariş karşılama işlemleri sırasında seri numarasının yakalanmasını zorunlu tutarken, bu konuda daha önce belirtilen tüm kurallar hala geçerlidir. Yalnızca **Etkin** olarak yapılandırılan seri haline getirilmiş maddeler bir seri numarası stok doğrulamasından geçer. **Satış işleminde Etkin** olarak yapılandırılan maddeler doğrulanmaz. **Etkin** ürünler için **Fiziksel negatif stok**'a izin verilirse, stok kullanılabilirliğine bakılmaksızın herhangi bir seri numarası kabul edilir. **Etkin** ve **Satış işleminde Etkin** öğeleri için, **Boş vermeye izin verilir** ayarı yapılandırılmışsa, malzeme çekme, paketleme ve sevk adımları sırasında istenirse kullanıcı, seri numaralarını boş bırakabilir.
+
+Seri numaraları için doğrulamalar, kullanıcı POS'taki müşteri siparişlerinde teslim alma işlemlerini gerçekleştirdiğinde de gerçekleşir. POS uygulaması, daha önce belirtildiği gibi doğrulamaları geçirmediği sürece seri hale getirilmiş bir üründe teslim alma işlemine izin vermez. Doğrulamalar her zaman ürünün izleme boyutunu ve satış ambarı yapılandırmalarını temel alır. 
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [POS'ta gelen stok işlemi](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [POS'ta giden stok işlemi](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
