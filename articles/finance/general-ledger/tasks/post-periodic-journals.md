@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f721a05c8b74f1cfcf43177b73129751483650e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448840"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968516"
 ---
 # <a name="post-periodic-journals"></a>Periyodik günlükleri deftere nakletme
 
@@ -58,6 +57,3 @@ Tutar, metin ve diğer bilgiler periyodik günlük her alındığında tekrarlan
 27. **Periyodik günlük numarası** alanına bir değer girin veya buradan bir değer seçin.
 28. Listede, seçili satırdaki bağlantıya tıklayın.
 29. **Tamam**'a tıklayın. Dönem günlüğü artık gözden geçirilebilir, onaylanabilir veya gereklilik ve ayara bağlı olarak deftere nakledilebilir.   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

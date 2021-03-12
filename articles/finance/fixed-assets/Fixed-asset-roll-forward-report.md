@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6793233367756b9e9d1cbfd4690b47efe49a8008
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b91da4679a23ba0a70c18e2bcae1b7f757f661ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448789"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969165"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Sabit kıymet ileri taşıma raporu
 
@@ -67,6 +66,3 @@ Aşağıdaki tabloda, raporda kullanılabilecek alanlar açıklanmıştır.
 |           Elden çıkarmalar: Hurda değeri            |                                                                                               Sabit kıymet defteri için bir elden çıkarma - hurda hareketiyle hurda değeri.                                                                                               |
 |           Elden çıkarmalar: Kar/Zarar            |                                                                                 Sabit kıymet defteri için elden çıkarma hareketinin bir parçası olarak hesaplanan kar veya zarar değeri.                                                                                 |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

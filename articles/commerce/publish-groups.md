@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a83affb5b383b50317ddf53de4d3bf565f0d9439
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a4f19af0cdf9c72add0ec18be84e36c807af9ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416535"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969888"
 ---
 # <a name="work-with-publish-groups"></a>Yayımlama gruplarıyla çalışma
 
@@ -155,6 +154,3 @@ Hayır. Performans ve çakışma nedenleriyle, sistem, zamanlanan yayımlama gru
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Site gezintisini özelleştirme](customize-site-navigation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

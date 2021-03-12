@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448684"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969713"
 ---
 # <a name="collections-process-automation"></a>Tahsilat işlemi otomasyonu
 
@@ -118,6 +117,3 @@ Aşağıdaki tablolarda, belirtilen hızlı sekmelerin erişilebileceği sayfala
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat mektuplarını otomatik olarak gönder           |     Tahsilat mektubu eylem türleri, otomasyon sırasında mektubu gönderir.                                      |
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Otomasyon için etkinlikleri oluşturma                |     Bir hesapta alınan tüm otomatik adımları görüntülemek için etkinlik dışı eylem türlerine ait etkinlikler oluşturun ve kapatın.        |
 |     Alacak hesapları parametreleri > Tahsilat işlemi otomasyonu     |     Tahsilat işlemi otomasyon geçmişinin tutulacağı gün sayısı     |     Tahsilat geçmişinin saklanacağı gün sayısını tanımlar.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

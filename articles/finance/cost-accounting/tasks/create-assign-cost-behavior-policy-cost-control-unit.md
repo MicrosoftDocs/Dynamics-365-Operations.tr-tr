@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 110ab87586c926d719537d2c30225d1630ce7710
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448747"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969315"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
 
@@ -86,6 +85,3 @@ Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırı
 15. Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.
 16. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

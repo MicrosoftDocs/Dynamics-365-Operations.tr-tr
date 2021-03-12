@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4315f70e7959e2576e9b87dfb3898318f47aa46d
-ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
+ms.openlocfilehash: bd0153b5d735e1d565b67db6c66c854ff738509c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448974"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969215"
 ---
 # <a name="fixed-asset-depreciation-conventions"></a>Sabit kıymet amortisman yöntemleri
 
@@ -43,6 +42,3 @@ Amortisman yöntemleri sabit kıymet grup defteri kurulumuna atanabilir. Amortis
 | Ayın ortası (Ayın 15'i) | Mülkü hizmete sunduğunuz yılın amortisman kesintisini hesaplamak için tüm yıl için amortismanı bir kesirle çarpın. Kesirin payı (üstteki sayı) mülkün hizmette olduğu toplam ay sayısı artı 1/2 veya (0,5)'tir. Payda (alttaki sayı ) 12'dir. Mülkü geri kazanma döneminin sonundan önce elden çıkarırsanız, elden çıkardığınız yıl için amortisman kesintisini hesaplamak üzere aynı yöntemi kullanın. |
 | Yarı yıl (yılın başlangıcı) | <strong>Hizmete giriş</strong> tarihi yılın ilk yarısında olan varlıklar için amortisman yılın (tam yıl) ilk gününde başlar. <strong>Hizmete giriş</strong> tarihi yılın ikinci yarısında olan varlıklar için amortisman yılın ortasında başlar. |
 | Yarı yıl (sonraki yıl)     | <strong>Hizmete giriş</strong> tarihi yılın ilk yarısında olan varlıklar için amortisman yılın (tam yıl) ilk gününde başlar. <strong>Hizmete giriş</strong> tarihi yılın ikinci yarısında olan varlıklar için amortisman sonraki yılın ilk gününde başlar. Yılın ilk yarısında geri çekilen varlıklar önceki yılın son gününde amortisman amacıyla geri çekilmiş olarak kabul edilir. Geçerli yıl içinde deftere nakledilen amortismanların tersine çevrilmesi veya ayarlanması gerekir. Yılın ikinci yarısında geri çekilen varlıklar geri çekildikleri yılın son gününde amortisman için geri çekilmiş olarak kabul edilir. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

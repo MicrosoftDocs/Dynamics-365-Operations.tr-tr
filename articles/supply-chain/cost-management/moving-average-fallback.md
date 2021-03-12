@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439485"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967595"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Hareketli ortalama, geri dönüş maliyet sırası
 
@@ -46,6 +45,3 @@ Hareketli ortalama hesaplamaları için geri dönüş maliyet sırasını seçme
     - **Etkin maliyet – Madde fiyatı** - Kuruluşlar, stoklarda düzenli olarak negatif olan ve aynı anda hareket hacmi yüksek olan iş süreçlerini kullandıklarında, performans sorunlarıyla karşılaşabilir. Bu ayar, bu performans sorunlarının etkilerini hafifletmeye yardımcı olabilir.
 
 ![Stok muhasebesi parametreleri](media/inventory-accounting-parameters.png "Stok muhasebesi parametreleri")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

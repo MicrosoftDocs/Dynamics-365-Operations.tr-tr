@@ -3,14 +3,13 @@ title: Dynamics 365 Commerce değerlendirme ortamı sağlama
 description: Bu konu, Microsoft Dynamics 365 Commerce değerlendirme ortamının nasıl sağlanacağını açıklamaktadır.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4416581"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969913"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Dynamics 365 Commerce değerlendirme ortamı sağlama
 
@@ -117,7 +116,7 @@ Ortamı dağıtmak için şu adımları izleyin.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce scale unit (bulut) Başlat
 
-Bir CSU başlatmak için şu adımları izleyin.
+CSU'yu başlatmak için bu adımları izleyin.
 
 1. **Bulut barındırılan ortamlar** görünümünde, listeden ortamınızı seçin.
 1. Sağdaki ortam görünümünde **tam ayrıntılar** 'ı tıklatın. Ortam ayrıntıları görünümü görüntülenir.
@@ -130,6 +129,22 @@ Bir CSU başlatmak için şu adımları izleyin.
 1. Devam etmeden önce, CSU durumlarınız **Başarılı** olur. Başlatma yaklaşık iki ile beş saat arasında sürer.
 
 Ortam ayrıntıları görünümünde **Yönet** bağlantısını bulamazsanız, yardım için Microsoft ilgili kişinize başvurun.
+
+Dağıtım işlemi sırasında aşağıdaki hata iletisini alabilirsiniz:
+
+> Değerlendirme (demo/test) ortamlarının, \<application ID\> kimlikli Scale Unit bağlayıcı uygulamasını Headquarters'a kaydetmesi gerekir.
+
+CSU başlatma işlemi başarısız olursa ve bu hata iletisini alırsanız, genel benzersiz tanımlayıcı (GUID) olan uygulama kimliğini not edin ve CSU dağıtım uygulamasını Commerce Headquarters'a kaydetmek için sonraki bölümdeki adımları izleyin.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>CSU dağıtım uygulamasını Commerce Headquarters'a kaydetme (gerekirse)
+
+CSU dağıtım uygulamasını Commerce Headquarters'a kaydetmek için aşağıdaki adımları izleyin.
+
+1. Commerce Headquarters'da **Sistem yönetimi \> Kurulum \> Azure Active Directory uygulamaları**'na gidin.
+1. **İstemci Kimliği** sütununa, aldığınız CSU başlatma hata iletisindeki uygulama kimliği girin.
+1. **Ad** sütununa, açıklayıcı herhangi bir metin girin (örneğin, **CSU Değerlendirme**).
+1. **Kullanıcı Kimliği** sütununa **RetailServiceAccount** girin.
+1. LCS'den CSU başlatma ve dağıtımı işlemini yeniden deneyin.
 
 ### <a name="initialize-e-commerce"></a>e-Ticaret başlat
 
@@ -176,6 +191,3 @@ Commerce değerlendirme ortamını sağlama ve yapılandırma işlemine devam et
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

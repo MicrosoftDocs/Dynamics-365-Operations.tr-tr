@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448930"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969016"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Sabit kalan ömür amortismanı
 
@@ -38,7 +37,7 @@ Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profill
 
 ### <a name="calendar"></a>Takvim
 
-***Amortisman yılı*** alanından **Takvim** öğesini seçerseniz, takvim yılını farklı tanımlasanız dahi yılın 1 Ocak ile 31 Aralık arasında olduğu kabul edilir. **Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu konunun devamındaki örnekte, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
+**_Amortisman yılı_*alanında **Takvim**'i seçerseniz, mali takvimi farklı tanımlamış olsanız bile, 1 Ocak-31 Aralık arası bir yıl varsayılır. _* Takvim** seçeneği, amortisman tabanını her yıl 1 Ocak 'ta güncelleştirilir. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu konunun devamındaki örnekte, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 
 -   **Yıllık** 31 Aralık'ta bir tutarı nakleder.
 -   **Aylık** seçeneği her takvim ayının sonunda bir aylık tutarı nakleder.
@@ -80,6 +79,3 @@ Amortisman tutarı her yıl aynıdır: (Edinme maliyeti – Hurda değeri) ÷ Se
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

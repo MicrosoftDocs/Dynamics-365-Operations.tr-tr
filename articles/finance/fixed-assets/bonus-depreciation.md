@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 687ba57042ad65d3a1ff4ad92f0da774c6751eac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 41a59b9dfe0482c995cfefc7a70f63550794428d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448693"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969190"
 ---
 # <a name="bonus-depreciation"></a>Bonus amortisman
 
@@ -65,6 +64,3 @@ Bonus amortisman bir yüzde veya sabit bir tutar olarak girilir. Amortisman tekl
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
