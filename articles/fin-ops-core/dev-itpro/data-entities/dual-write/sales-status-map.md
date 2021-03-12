@@ -1,6 +1,6 @@
 ---
-title: Satış siparişi durumu alanları için eşlemeyi ayarlama
-description: Bu konu, çift yazma için satış siparişi durumu alanlarının nasıl ayarlanacağını açıklar.
+title: Satış siparişi durumu sütunları için eşlemeyi ayarlama
+description: Bu konu, çift yazma için satış siparişi durumu sütunlarının nasıl ayarlanacağını açıklar.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458213"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744311"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Satış siparişi durumu alanları için eşlemeyi ayarlama
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Satış siparişi durumu sütunları için eşlemeyi ayarlama
 
 [!include [banner](../../includes/banner.md)]
 
-Satış siparişi durumunu gösteren alanlar Microsoft Dynamics 365 Supply Chain Management ve Dynamics 365 Sales uygulamalarında farklı sabit numaralandırma değerlerine sahiptir. Bu alanları çift-yazılır olarak eşlemek için ek kurulum gerekir.
+Satış siparişi durumunu gösteren sütunlar, Microsoft Dynamics 365 Supply Chain Management ve Dynamics 365 Sales uygulamalarında farklı sabit numaralandırma değerlerine sahiptir. Bu sütunları çift-yazılır olarak eşlemek için ek kurulum gerekir.
 
-## <a name="fields-in-supply-chain-management"></a>Supply Chain Management'ta alanlar
+## <a name="columns-in-supply-chain-management"></a>Supply Chain Management'ta sütunlar
 
-Supply Chain Management'ta, iki alan satış siparişinin durumunu yansıtır. Eşlemeniz gereken alanlar **Durum** ve **Belge Durumu** alanlarıdır.
+Supply Chain Management'ta, iki sütun satış siparişinin durumunu yansıtır. Eşlemeniz gereken sütunlar **Durum** ve **Belge Durumu** sütunlarıdır.
 
 **Durum** numaralandırma alanı siparişin genel durumunu belirtir. Bu durum sipariş başlığında gösterilir.
 
@@ -53,9 +53,9 @@ Supply Chain Management'ta, iki alan satış siparişinin durumunu yansıtır. E
 - Sevk İrsaliyesi
 - Fatura
 
-## <a name="fields-in-sales"></a>Sales'ta bulunan alanlar
+## <a name="columns-in-sales"></a>Sales'da sütunlar
 
-Sales'ta, iki alan siparişin durumunu yansıtır. Eşlemeniz gereken alanlar **Durum** ve **İşleme Durumu** alanlarıdır.
+Sales'da, iki sütun siparişin durumunu yansıtır. Eşlemeniz gereken sütunlar **Durum** ve **İşleme Durumu** sütunlarıdır.
 
 **Durum** numaralandırma alanı siparişin genel durumunu belirtir. Aşağıdaki değerlere sahiptir:
 
@@ -95,7 +95,7 @@ Aşağıdaki tablo, Sales ile Supply Chain Management uygulamaları arasında **
 
 ## <a name="setup"></a>Ayar
 
-Satış siparişi durumu alanlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIntegrationEnabled** ve **isIntegrationUser** özniteliklerini etkinleştirmelisiniz.
+Satış siparişi durumu sütunlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIntegrationEnabled** ve **isIntegrationUser** özniteliklerini etkinleştirmelisiniz.
 
 **IsSOPIntegrationEnabled** özniteliğini etkinleştirmek için şu adımları izleyin.
 
@@ -110,14 +110,14 @@ Satış siparişi durumu alanlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIn
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Satış siparişi durumu alanlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIn
 
 **isIntegrationUser** özniteliğini etkinleştirmek için şu adımları izleyin.
 
-1. Sales'ta, **Ayarlar \> Özelleştirme \> Sistemi Özelleştirme** sayfasına gidin, **Kullanıcı varlığı** ögesini seçin ve sonra **Form \> Kullanıcısı** ögesini açın.
+1. Sales'da, **Ayarlar \> Özelleştirme \> Sistemi Özelleştirme** sayfasına gidin, **Kullanıcı tablosu** ögesini seçin ve sonra **Form \> Kullanıcısı** ögesini açın.
 
     ![Kullanıcı formunu açma](media/sales-map-user.png)
 
 2. Alan Gezgini'nde, **Tümleştirme kullanıcısı modunu** bulun ve forma eklemek için çift tıklayın. Değişikliğinizi kaydedin.
 
-    ![Tümleştirme kullanıcısı modu alanını forma ekleme](media/sales-map-field-explorer.png)
+    ![Tümleştirme kullanıcısı modu sütununu forma ekleme](media/sales-map-field-explorer.png)
 
 3. Sales'ta, **Ayarlar \> Güvenlik \> Kullanıcılar** sayfasına gidin ve görünümü **Etkin Kullanıcılar** ayarından **Uygulama kullanıcıları** olarak değiştirin.
 
@@ -145,11 +145,8 @@ Satış siparişi durumu alanlarıyla ilgili eşlemeyi ayarlamak için **IsSOPIn
 
     ![Uygulama kullanıcıları listesi](media/sales-map-user-mode.png)
 
-5. **Tümleştirme kullanıcısı modu** alanının değerini **Evet** olarak değiştirin.
+5. **Tümleştirme kullanıcısı modu** sütununun değerini **Evet** olarak değiştirin.
 
-    ![Tümleştirme kullanıcısı modu alanının değerini Evet olarak değiştirme](media/sales-map-user-mode-yes.png)
+    ![Tümleştirme kullanıcısı modu sütununun değerini Evet olarak değiştirme](media/sales-map-user-mode-yes.png)
 
 Satış siparişleriniz artık eşlendi.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

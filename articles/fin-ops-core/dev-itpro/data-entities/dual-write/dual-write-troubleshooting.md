@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688271"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744553"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 
@@ -65,23 +65,23 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 
 1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Sistem** altında **Yönetim**'i seçin.
 2. **Yönetim** sayfasında **Sistem Ayarları**'nı seçin.
-3. **Özelleştirme** sekmesinde, eklenti ve **özel iş akışı faaliyet izleme** alanında, eklenti izleme günlüğünü etkinleştirmek için **tümü**'nü seçin. Yalnızca özel durumlar gerçekleştiğinde izleme günlüklerini günlüğe kaydetmek istiyorsanız, bunun yerine **özel durum** seçebilirsiniz.
+3. **Özelleştirme** sekmesinde, eklenti izleme günlüğünü etkinleştirmek için **Eklenti ve özel iş akışı etkinliği izleme** sütununda **Tümü** seçeneğini belirleyin. Yalnızca özel durumlar gerçekleştiğinde izleme günlüklerini günlüğe kaydetmek istiyorsanız, bunun yerine **özel durum** seçebilirsiniz.
 
 
 İz günlüğünü açmak için aşağıdaki adımları izleyin.
 
 1. Dynamics 365'teki model yönetimli uygulamada oturum açın, **Ayarlar** sayfasını açın ve sonra **Özelleştirme** altında **Eklenti İzleme Günlüğü**'nü seçin.
-2. **Tür Adı** alanının **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
+2. **Tür Adı** sütununun **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin** olarak ayarlandığı izleme günlüklerini bulun.
 3. Tam günlüğü görüntülemek için bir öğeyi çift tıklatın ve sonra **yürütme** hızlı sekmesinde **ileti öbeği** metnini gözden geçirin.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Finance and Operations Uygulamalardaki canlı eşitleme sorunlarını gidermek için hata ayıklama modunu etkinleştir
 
 **Hataları görüntülemek için gerekli olan rol:** Dataverse uygulamasında yer alan sistem yöneticisi Çift yazma hataları Finance and Operations uygulamasında görünebilir. Bazı durumlarda, ileti çok uzun veya kişisel tanımlayıcı bilgiler (PII) içerdiğinden hata iletisinin tam metni kullanılamıyor. Hata için ayrıntılı günlüğü, aşağıdaki adımları izleyerek açabilirsiniz.
 
-1. Finance and Operations Uygulamalardaki tüm proje yapılandırmalarında **dualwriteprojectconfiguration** varlığında bir **ısdebugmode** özelliği vardır. **DualWriteProjectConfiguration** varlığını Excel eklentisini kullanarak açın.
+1. Finance and Operations uygulamalarındaki tüm proje yapılandırmalarında **DualWriteProjectConfiguration** tablosunda bir **IsDebugMode** özelliği vardır. **DualWriteProjectConfiguration** tablosunu Excel eklentisini kullanarak açın.
 
     > [!TIP]
-    > Varlığı açmanın kolay bir yolu, Excel eklentilerinde **tasarım** modunu etkinleştirmek ve sonra da çalışma sayfasına **dualwriteprojectconfigurationentity** öğesini eklemektir. Daha fazla bilgi için bkz. [Varlık verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme](../../office-integration/use-excel-add-in.md).
+    > Tabloyu açmanın kolay bir yolu, Excel eklentilerinde **Tasarım** modunu etkinleştirmek ve sonra da çalışma sayfasına **DualWriteProjectConfigurationEntity** öğesini eklemektir. Daha fazla bilgi için bkz. [Tablo verilerini Excel'de açma ve Excel eklentisini kullanarak güncelleştirme](../../office-integration/use-excel-add-in.md).
 
 2. **Isdebugmode** özelliğini proje için **Evet** olarak ayarlayın.
 3. Hata oluşturan senaryoyu çalıştırın.
@@ -118,10 +118,7 @@ Package Deployer aracını yükledikten sonra, aşağıdaki adımları izleyerek
 Dynamics 365 Sales içinde bir satış siparişi oluşturduğunuzda, **+ Ürün ekle**'ye tıklamak, sizi Dynamics 365 Project Operations sipariş satırı formuna yönlendirebilir. Satış siparişi satırı **Bilgi** formunu görüntülemek için bu formdan bir yol yoktur. **Bilgi** seçeneği, **Yeni Sipariş Satırı** altındaki açılan listede görüntülenmez. Bunun nedeni, Project Operations'ın ortamınıza yüklenmiş olmasıdır.
 
 **Bilgi** formu seçeneğini yeniden etkinleştirmek için şu adımları izleyin:
-1. **Sipariş satırı** varlığına gidin.
+1. **Sipariş Satırı** tablosuna gidin.
 2. Formlar düğümünün altından **Bilgi** formunu bulun. 
 3. **Bilgi** formunu seçin ve **Güvenlik rollerini etkinleştir**'e tıklayın. 
 4. Güvenlik ayarını **Herkese göster** olarak değiştirin.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

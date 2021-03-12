@@ -1,6 +1,6 @@
 ---
-title: Orders ile OrderLines eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
-description: Bu konuda, Orders ile OrderLines eşitlemekten kaçınmak için şirketlerarası siparişlerin nasıl filtreleneceği açıklanmaktadır.
+title: Orders ile OrderLines tablolarının eşitlenmesini önelemek için şirketlerarası siparişleri filtreleme
+description: Bu konuda, Orders ve OrderLines varlıklarının eşitlenmemesi için şirketlerarası siparişlere nasıl filtre uygulanacağı açıklanmaktadır.
 author: negudava
 manager: tfehr
 ms.date: 11/09/2020
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,52 +18,51 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6c5e1e2467673badd20366d3bd8e1b93b8078b26
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4701045"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796618"
 ---
-# <a name="filter-intercompany-orders-to-avoid-synchronizing-orders-and-orderlines"></a>Orders ile OrderLines eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
+# <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Orders ile OrderLines tablolarının eşitlenmesini önelemek için şirketlerarası siparişleri filtreleme
 
 [!include [banner](../../includes/banner.md)]
 
-**Orders** ile **OrderLines** varlıklarını eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleyebilirsiniz. Bazı senaryolarda, şirketlerarası sipariş ayrıntıları müşteri etkileşimi uygulamasında gerekli değildir.
+**Orders** ile **OrderLines** tablolarının eşitlenmemesi için şirketlerarası siparişleri filtreleyebilirsiniz. Bazı senaryolarda, şirketlerarası sipariş ayrıntıları müşteri etkileşimi uygulamasında zorunlu değildir.
 
-Standart Common Data Service varlıklarından her biri, **IntercompanyOrder** başvurularıyla genişletilir ve çift yazma eşlemeleri filtrelerdeki ek alanlara başvuracak şekilde değiştirilir. Bunun sonucunda şirketlerarası siparişler artık eşitlenmez. Bu işlem, müşteri etkileşimi uygulamasında gereksiz verileri engeller.
+Her standart Dataverse tablosu, **IntercompanyOrder** sütununa başvurular aracılığıyla genişletilir ve çift yazma eşlemeleri filtrelerdeki ek sütunlara başvuracak şekilde değiştirilir. Bu sayede, şirketlerarası siparişler artık eşitlenmez. Bu işlem, müşteri etkileşimi uygulamasında gereksiz verileri önlemeye yardımcı olur.
 
-1. **CDS Satış Siparişi Başlıkları**'na **IntercompanyOrder** başvurusu ekleyin. Bu, yalnızca şirketlerarası siparişlerde doldurulur. **IntercompanyOrder** alanı, **SalesTable** öğesinde bulunur.
+1. **IntercompanyOrder** sütununa başvuru ekleyerek **CDS Satış Siparişi Başlıkları** tablosunu genişletin. Bu sütun yalnızca şirketlerarası siparişlerde doldurulur. **IntercompanyOrder** sütunu, **SalesTable** tablosunda kullanılabilir.
 
-    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="Hazırlamayı hedefe eşle, SalesOrderHeader":::
-    
-2. **CDS Satış Siparişi Başlıkları** genişletildikten sonra **IntercompanyOrder** alanı eşlemede kullanılabilir hale gelir. Sorgu dizesi olarak `INTERCOMPANYORDER == ""` ile bir filtre uygulayın.
+    :::image type="content" source="media/filter-sales-order-header-field-display.png" alt-text="CDS Satış Siparişi Başlıkları için hazırlamayı hedef sayfasıyla eşleme":::
 
-    :::image type="content" source="media/filter-sales-order-header.png" alt-text="Satış siparişi başlıkları, düzenleme sorgusu":::
+2. **CDS Satış Siparişi Başlıkları** genişletildikten sonra **IntercompanyOrder** sütunu eşlemede kullanılabilir hale gelir. Sorgu dizesi `INTERCOMPANYORDER == ""` olan bir filtre uygulayın.
 
-3. **CDS Satış Siparişi Satırları**'na **IntercompanyInventTransId** başvurusu ekleyin.  Bu, yalnızca şirketlerarası siparişlerde doldurulur. **InterCompanyInventTransID** alanı, **SalesLine** öğesinde bulunur.
+    :::image type="content" source="media/filter-sales-order-header.png" alt-text="CD Satış Siparişi Başlıkları için sorgu iletişim kutusu düzenleme":::
 
-    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="Hazırlamayı hedefe eşle, SalesOrderLine":::
+3. **IntercompanyInventTransId** sütununa başvuru ekleyerek **CDS Satış Siparişi Satırları** tablosunu genişletin. Bu sütun yalnızca şirketlerarası siparişlerde doldurulur. **InterCompanyInventTransId** sütunu, **SalesLine** tablosunda kullanılabilir.
 
-4. **CDS Satış Siparişi Satırları** genişletildikten sonra **IntercompanyInventTransId** alanı eşlemede kullanılabilir hale gelir. Sorgu dizesi olarak `INTERCOMPANYINVENTTRANSID == ""` ile bir filtre uygulayın.
+    :::image type="content" source="media/filter-sales-order-line-field-display.png" alt-text="CDS Satış Siparişi Satırları için hazırlamayı hedef sayfasıyla eşleme":::
 
-    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="Satış siparişi satırları, düzenleme sorgusu":::
+4. **CDS Satış Siparişi Satırları** genişletildikten sonra **IntercompanyInventTransId** sütunu eşlemede kullanılabilir hale gelir. Sorgu dizesi `INTERCOMPANYINVENTTRANSID == ""` olan bir filtre uygulayın.
 
-5. 1. ve 2. adımda Common Data Service varlıklarını genişlettiğiniz şekilde **Satış Faturası Başlığı V2** ve **Satış Faturası Satırları V2** öğelerini genişletin. Ardından filtre sorgularını ekleyin. **Satış Faturası Başlığı V2** için filtre sorgusu `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` sorgusudur. **Satış Faturası Satırları V2** için filtre sorgusu `INTERCOMPANYINVENTTRANSID == ""` sorgusudur.
+    :::image type="content" source="media/filter-sales-order-lines.png" alt-text="CD Satış Siparişi Satırları için sorgu iletişim kutusu düzenleme":::
 
-    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Hazırlamayı hedefe eşle, Satış Faturası Başlıkları":::
+5. **Satış Faturası Başlığı V2** tablosunu genişletmek ve filtre sorgusu eklemek için 1. ve 2. adımları tekrarlayın. Bu durumda, filtre için sorgu dizesi olarak `(INTERCOMPANYORDER == "") && (SALESORDERNUMBER != "")` öğesini kullanın.
 
-    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Satış faturası başlıkları, düzenleme sorgusu":::
+    :::image type="content" source="media/filter-sales-invoice-header-field-display.png" alt-text="Satış Faturası Başlığı V2 için hazırlamayı hedef sayfasıyla eşleme":::
 
-    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Satış faturası satırları, düzenleme sorgusu":::
+    :::image type="content" source="media/filter-sales-invoice-header-filter.png" alt-text="Satış Faturası Başlığı V2 için sorgu iletişim kutusu düzenleme":::
 
-6. **Teklifler** varlığının şirketlerarası ilişkisi yoktur. Bir kullanıcı, şirketlerarası müşterilerinizden biri için teklif oluşturursa, **CustGroup** alanını kullanarak bu müşterilerin tümünü bir müşteri grubunda bir araya getirebilirsiniz.  Başlık ve satırlar, **CustGroup** alanını ekleyip bu grubu dahil etmeyecek şekilde filtre uygulamak için genişletilebilir.
+6. **Satış Faturası Satırları V2** tablosunu genişletmek ve filtre sorgusu eklemek için 3. ve 4. adımları tekrarlayın. Bu durumda, filtre için sorgu dizesi olarak `INTERCOMPANYINVENTTRANSID == ""` öğesini kullanın.
 
-    :::image type="content" source="media/filter-cust-group.png" alt-text="Hazırlamayı hedefe eşle, Satış Teklifi Başlığı":::
+    :::image type="content" source="media/filter-sales-invoice-lines-filter.png" alt-text="Satış Faturası Satırları V2 için sorgu iletişim kutusu düzenleme":::
 
-7. **Teklifler** varlığını genişlettikten sonra, sorgu dizesi olarak `CUSTGROUP !=  "<company>"` ile bir filtre uygulayın.
+7. **Teklifler** tablosunun şirketlerarası ilişkisi yoktur. Bir kullanıcı, şirketlerarası müşterilerinizden biri için teklif oluşturursa, bu müşterilerin tümünü bir müşteri grubunda bir araya getirmek için **CustGroup** sütununu kullanabilirsiniz. **CustGroup** sütununu ekleyerek başlığı ve satırları genişletebilir ve ardından grubun dahil edilmemesi için filtre uygulayabilirsiniz.
 
-    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Satış Teklifi Başlığı, düzenleme sorgusu":::
+    :::image type="content" source="media/filter-cust-group.png" alt-text="CDS Satış Teklifi Başlığı için hazırlamayı hedef sayfasıyla eşleme":::
 
+8. **Teklifler** genişletildikten sonra, sorgu dizesi `CUSTGROUP != "<company>"` olan bir filtre uygulayın.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+    :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS Satış Teklifi Başlığı için sorgu iletişim kutusu düzenleme":::

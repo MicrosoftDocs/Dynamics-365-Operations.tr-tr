@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: d17c038081b5c9b94337549334c2c61421dc01ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: fda3942621a849e7aa1095dddd004ba458933af7
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694977"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796592"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)
 
@@ -193,6 +193,3 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

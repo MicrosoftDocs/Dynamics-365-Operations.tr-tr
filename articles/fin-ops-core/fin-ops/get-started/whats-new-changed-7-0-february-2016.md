@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693270"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797231"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
@@ -734,7 +734,7 @@ Perakende sunucu ve veri yönetimi, tüketicilerin ve işletmelerin çevrimiçi,
 </tr>
 <tr>
 <td>Microsoft Dynamics AX arka ofis ve kanallar arasında Commerce Data Exchange kullanarak veri taşıyın.</td>
-<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz.: <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange, çevrimiçi mağazalar ve fiziksel mağazalar gibi Microsoft Dynamics AX ve perakende kanalları arasında veri aktarımı sağlayan bir sistemdir. Daha fazla bilgi için bkz. <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Microsoft Dynamics AX 2012 CU8 ile fonksiyonel eşlilik vardır. Ancak, aşağıdaki ayrıntıları unutmayın:
 <ul>
 <li>Commerce Data Exchange bulut için yeniden yaratıldı.</li>
@@ -1033,6 +1033,3 @@ Yeni özellik eklenmemiştir.
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

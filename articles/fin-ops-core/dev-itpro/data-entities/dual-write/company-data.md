@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 2f0e3950f2b35dd8b8dbf50601b7d6b6d624863e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: bbe634b87b3cb30ed993f9b3afeb4321d70f07e6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683687"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744891"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
 
@@ -36,7 +36,7 @@ Finance and Operations'da *şirket* kavramı hem yasal bir yapı hem de bir işl
 
 Dataverse'da eşdeğer bir kavram yoktur. En yakın kavram, birincil olarak kullanıcı verileri için bir güvenlik ve görünürlük sınırı olan *iş birimidir*. Bu kavram, şirket kavramıyla aynı yasal veya iş etkilerine sahip değildir.
 
-İş birimi ve şirket eşdeğer kavramlar olmadığından, Dataverse tümleştirmesi amacıyla aralarında bire bir (1:1) eşlemesini zorlamak mümkün değildir. Ancak, kullanıcılar varsayılan olarak, uygulamada ve Dataverse'te aynı satırları görebilmelidir; bu nedenle Microsoft, Dataverse'te cdm\_Company adlı yeni bir varlığı kullanıma sundu. Bu varlık uygulamadaki Şirket varlığına eşdeğerdir. Satır görünürlüğünün uygulama ve Dataverse'te başlangıçtan itibaren eşdeğer olmasını sağlamaya yardımcı olmak için Dataverse'te veriler için aşağıdaki kurulumu öneriyoruz:
+İş birimi ve şirket eşdeğer kavramlar olmadığından, Dataverse tümleştirmesi amacıyla aralarında bire bir (1:1) eşlemesini zorlamak mümkün değildir. Ancak, kullanıcılar varsayılan olarak, uygulamada ve Dataverse'te aynı satırları görebilmelidir; bu nedenle Microsoft, Dataverse'te cdm\_Company adlı yeni bir tabloyu kullanıma sundu. Bu tablo uygulamadaki Şirket tablosuna eşdeğerdir. Satır görünürlüğünün uygulama ve Dataverse'te başlangıçtan itibaren eşdeğer olmasını sağlamaya yardımcı olmak için Dataverse'te veriler için aşağıdaki kurulumu öneriyoruz:
 
 + Çift yazma için etkinleştirilmiş her bir Finance and Operations Şirket satırı için, ilişkili bir cdm\_Company satırı oluşturulur.
 + cdm\_Company satırı oluşturulduğunda ve çift yazma için etkinleştirildiğinde, aynı ada sahip bir varsayılan iş birimi oluşturulur. Bu iş birimi için otomatik olarak varsayılan bir ekip oluşturulsa da, iş birimi kullanılmaz.
@@ -52,23 +52,23 @@ Bu yapılandırma nedeniyle, USMF şirketiyle ilgili herhangi bir satır, Datave
 + "Satış Yöneticisi" rolü "USMF Satış" takımı üyelerine atanır.
 + "Satış Yöneticisi" rolüne sahip kullanıcılar, üye oldukları aynı işi birimine üye olan hesap satırlarına erişebilir.
 + "USMF Satış" ekibi, daha önce bahsedilen USMF iş birimine bağlıdır.
-+ Bu nedenle, "USMF Satış" ekibinin üyeleri Finance and Operations'taki USMF Şirket varlığından gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
++ Bu nedenle, "USMF Satış" ekibinin üyeleri Finance and Operations'taki USMF Şirket tablosundan gelen "USMF DW" kullanıcısı tarafından sahip olunan herhangi bir hesabı görebilir.
 
 ![Ekipler nasıl kullanılabilir](media/dual-write-company-2.png)
 
 Önceki örnekte gösterildiği gibi iş birimi, şirket ve ekip arasındaki bu 1:1 eşleme yalnızca bir başlangıç noktasıdır. Bu örnekte, yeni bir "Avrupa" iş birimi hem DEMF hem de ESMF için üst öğe olarak Dataverse'ta el ile ayarlanır. Bu yeni kök iş birimi çift yazma ile ilgili değildir. Ancak, "EUR Satış" ekibinin üyelerine, ilgili güvenlik rolündeki **Üst/Alt İş Birimi** veri görünürlüğünü ayarlayarak hem DEMF hem de ESMF'deki hesap verilerine erişim vermek için kullanılabilir.
 
-Tartışılması gereken son bir konu da çift yazmanın satırları hangi sahip takıma atayacağını belirleme yöntemidir. Bu davranış, cdm\_Company satırındaki **Varsayılan sahibi olan takım** alanı tarafından denetlenir. Bir cdm\_Company satırı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** alanını ayarlar. Yönetici bu alanı farklı bir değere değiştirebilir. Ancak, varlık çift yazma için etkinleştirildiği sürece yönetici alanı temizleyemez.
+Tartışılması gereken son bir konu da çift yazmanın satırları hangi sahip takıma atayacağını belirleme yöntemidir. Bu davranış, cdm\_Company satırındaki **Varsayılan sahibi olan takım** sütunu tarafından denetlenir. Bir cdm\_Company satırı çift yazma için etkinleştirildiğinde, bir eklenti otomatik olarak ilişkili iş birimi ve sahibi olan takımı (zaten yoksa) oluşturur ve **Varsayılan sahibi olan takım** sütununu ayarlar. Yönetici bu sütunu farklı bir değere değiştirebilir. Ancak, tablo çift yazma için etkinleştirildiği sürece yönetici sütunu temizleyemez.
 
 > [!div class="mx-imgBorder"]
-![Varsayılan sahibi olan takım alanı](media/dual-write-default-owning-team.jpg)
+![Varsayılan sahibi olan takım sütunu](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Şirket bölümleme ve yeniden örnekleme
 
-Dataverse tümleştirmesi verileri bölümlemek için şirket tanımlayıcısını kullanarak şirket eşliği getirir. Aşağıdaki örnekte gösterildiği gibi, tüm şirkete özgü tablolar, cdm\_Company varlığıyla çok-bir (N:1) ilişkisine sahip olmaları için genişletilir.
+Dataverse tümleştirmesi verileri bölümlemek için şirket tanımlayıcısını kullanarak şirket eşliği getirir. Aşağıdaki çizimde gösterildiği gibi, tüm şirkete özgü tablolar, cdm\_Company tablosutka çok-bir (N:1) ilişkisine sahip olmaları için genişletilir.
 
 > [!div class="mx-imgBorder"]
-![Şirkete özgü varlık ile cdm_Şirket varlığı arasındaki N:1 ilişkisi](media/dual-write-bootstrapping.png)
+![Şirkete özgü tablo ile cdm_Company tablosu arasındaki N:1 ilişkisi](media/dual-write-bootstrapping.png)
 
 + Satırlar için, bir şirket eklendikten ve kaydedildikten sonra, değer salt okunur olur. Bu nedenle, kullanıcılar doğru şirketi seçtiğinden emin olmalıdır.
 + Yalnızca şirket verilerine sahip satırlar uygulama ile Dataverse arasında çift yazma için uygundur.
@@ -83,7 +83,7 @@ Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurman
 
     :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Kuruluş bilgileri bölümünde varsayılan şirketi ayarlayın.":::
 
-+ **İş Birimi** düzeyi için **SystemUser** varlığına **Yazma** erişiminiz varsa **Şirket** açılır menüsünden bir şirket seçerek tüm formlardaki varsayılan şirketi değiştirebilirsiniz.
++ **İş Birimi** düzeyi için **SystemUser** tablosuna **Yazma** erişiminiz varsa **Şirket** açılır menüsünden bir şirket seçerek tüm formlardaki varsayılan şirketi değiştirebilirsiniz.
 
     :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Yeni bir hesaptaki şirket adını değiştirme.":::
 
@@ -93,15 +93,12 @@ Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurman
 
 + Sistem yapılandırıcısı veya yöneticisiyseniz ve özel bir formda şirket verilerini otomatik olarak doldurmak istiyorsanız [form olaylarını](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) kullanabilirsiniz. **msdyn_/DefaultCompany.js** öğesine JavaScript başvurusu ekleyip aşağıdaki olayları kullanın. İstediğiniz kullanıma hazır formu (ör. **Hesap** formu) kullanabilirsiniz.
 
-    + Form için **OnLoad** olayı: **defaultCompany** alanını ayarlayın.
-    + **Şirket** alanı için **OnChange** olayı: **updateDefaultCompany** alanını ayarlayın.
+    + Form için **OnLoad** olayı: **defaultCompany** sütununu ayarlayın.
+    + **Şirket** sütunu için **OnChange** olayı: **updateDefaultCompany** sütununu ayarlayın.
 
 ## <a name="apply-filtering-based-on-the-company-context"></a>Şirket bağlamına göre filtre uygulama
 
-Özel formlarınızda veya standart formlara eklenmiş özel arama alanlarınızda şirket bağlamına göre filtre uygulamak için formu açın ve **İlgili Kayıtlara Filtre Uygulama** bölümünü kullanarak şirket filtresi uygulayın. Belirli bir satırdaki temel şirkete dayalı olarak filtre gerektiren her arama alanı için bunu ayarlamalısınız. Aşağıdaki resimde bu ayar **Hesap** için gösterilmiştir.
+Özel formlarınızda veya standart formlara eklenmiş özel arama sütunlarınızda şirket bağlamına göre filtre uygulamak için formu açın ve **İlgili Kayıtlara Filtre Uygulama** bölümünü kullanarak şirket filtresi uygulayın. Belirli bir satırdaki temel şirkete dayalı olarak filtre gerektiren her arama sütunu için bunu ayarlamalısınız. Aşağıdaki resimde bu ayar **Hesap** için gösterilmiştir.
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Şirket bağlamını uygulama":::
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

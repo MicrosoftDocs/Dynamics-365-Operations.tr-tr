@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694921"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798055"
 ---
 # <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
@@ -103,6 +103,3 @@ Açık bir pozisyon için iyi bir aday olabilecek kişilerin belirlenmesi için 
 ## <a name="hiring-applicants"></a>Başvuru sahiplerinin işe alınması
 
 Bir başvuru sahibini işe almak için **Uygulamalar** sayfasını kullanın. Bir başvuru sahibini işe aldığınızda başvuru kaydının durumu **İşe alındı** olarak değişir ve başvuru sahibinin genel adres defteri kişi kaydı, yeni çalışan kaydıyla ilişkilendirilir. Yeni çalışan kaydı için genel adres defteri bilgileri üzerindeki değişiklikler yanı zamanda başvuru kaydında da görüntülenir. Bu, yeni çalışan kuruluşunuzda başka bir işe başvurursa veri girişini azaltmaya yardımcı olabilir. Bir çalışanı yeni bir pozisyonda işe almak için, nakil işlemini başlatmak üzere **Başvuru durumu** açılır menüsünde **Konum değiştir**'i tıklatın.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

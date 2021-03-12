@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688579"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797353"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
 [!include[banner](../includes/banner.md)]
 
-Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reporting.md)[biçimi](general-electronic-reporting.md#FormatComponentOutbound) ve [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni, tasarım zamanında [doğrulanabilir](er-fillable-excel.md#validate-an-er-format). Bu doğrulama sırasında, yürütme hataları ve performans düşüşü gibi oluşabilecek çalışma zamanı sorunlarını önlemeye yardımcı olmak için tutarlılık denetimi yapılır. Bulunan her sorun için sorunlu öğenin yolu belirtilir. Bazı sorunlar için, otomatik düzeltme kullanılabilir.
+Her yapılandırılmış [Elektronik raporlama (ER)](general-electronic-reporting.md)[biçimi](general-electronic-reporting.md#FormatComponentOutbound) ve [model eşleme](general-electronic-reporting.md#data-model-and-model-mapping-components) bileşeni, tasarım zamanında [doğrulanabilir](er-fillable-excel.md#validate-an-er-format). Bu doğrulama sırasında, yürütme hataları ve performans düşüşü gibi oluşabilecek çalışma zamanı sorunlarını önlemeye yardımcı olmak için tutarlılık denetimi çalıştırılır. Bulunan her sorun için denetim, sorunlu öğenin yolunu belirtir. Bazı sorunlar için, otomatik düzeltme kullanılabilir.
 
 Varsayılan olarak, aşağıdaki durumlarda yukarıda belirtilen ER bileşenlerini içeren bir ER yapılandırması için doğrulama otomatik olarak uygulanır:
 
@@ -69,7 +68,7 @@ Yapılandırma içeri aktarıldığında doğrulamayı atlamak için aşağıdak
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Yapılandırmayı içeri aktarmadan sonra doğrula** seçeneğini **Hayır** olarak ayarlayın.
 
-Sürüm durumu değiştirildiğinde veya yeniden temellendirildiğinde doğrulamayı atlamak için aşağıdaki adımları izleyin.
+Sürüm durumunu değiştirdiğinizde veya yeniden temellendirdiğinizde doğrulamayı atlamak için aşağıdaki adımları izleyin.
 
 1. **Kuruluş yönetimi \> Elektronik raporlama \> Yapılandırmalar** seçeneğine git.
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
@@ -101,7 +100,7 @@ Aşağıdaki tabloda, ER tarafından sağlanan denetlemeler hakkında genel bilg
 <td>Hata</td>
 <td>
 <p>&lt;type&gt; türündeki ifade &lt;type&gt; türündeki alana dönüştürülemiyor.</p>
-<p><b>Çalışma zamanı hatası:</b> Özel durum türü</p>
+<p><b>Çalışma zamanı hatası:</b> Tür için özel durum</p>
 </td>
 </tr>
 <tr>
@@ -226,7 +225,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 6. Veri modeli tasarımcısında, **X** alanının veri türünü **Tamsayı**'dan **Int64** olarak değiştirin.
 7. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında, düzenlenebilir model eşleme bileşenini doğrulama](./media/er-components-inspections-01.gif)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini doğrulama](./media/er-components-inspections-01.gif)
 
 8. **Yapılandırmalar** sayfasında seçili ER yapılandırmasının model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
@@ -278,7 +277,7 @@ Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 
 #### <a name="option-1"></a>Seçenek 1
 
-**Sayısal** biçim öğesi veri türünü değiştirerek biçim yapısını güncelleştirin. Böylece veri türü, söz konusu öğenin bağlanması için yapılandırılan ifadenin veri türüyle eşleşir. Önceki örnek için, **X** biçim öğesinin **Sayısal tür** değerinin tekrar **Tamsayı** olarak değiştirilmesi gerekir.
+**Sayısal** biçim öğesi veri türünü değiştirerek biçim yapısını güncelleştirin. Böylece veri türü, söz konusu öğenin bağlanması için yapılandırdığınız ifadenin veri türüyle eşleşir. Önceki örnek için, **X** biçim öğesinin **Sayısal tür** değerinin tekrar **Tamsayı** olarak değiştirilmesi gerekir.
 
 #### <a name="option-2"></a>Seçenek 2
 
@@ -301,7 +300,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 6. Model eşleme tasarımcısındaki veri kaynakları bölmesinde **Y** veri kaynağını silin.
 7. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında, düzenlenebilir ER model eşleme bileşenini denetleme](./media/er-components-inspections-03.gif)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir ER model eşleme bileşenini denetleme](./media/er-components-inspections-03.gif)
 
 8. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide, **X** veri modeli alanı bağlamasının **Y** veri kaynağına başvuran yolu içerdiği ancak bu veri kaynağının bulunamadığı belirtilir.
 
@@ -430,7 +429,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 11. **Vendor.FilteredTrans** veri kaynağı ifadesini, `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` yerine `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` olacak şekilde değiştirin.
 12. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve yapılandırılan **JoinedList** veri kaynağının sorgulanabildiğini doğrulayın.
 
-    ![Düzenlenebilir model eşleme bileşenini doğrulayın ve JoinedList veri kaynağının Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama](./media/er-components-inspections-06b.png)
+    ![Düzenlenebilir model eşleme bileşenini doğrulama ve JoinedList veri kaynağının Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama](./media/er-components-inspections-06b.png)
 
 13. **Vendor.FilteredTrans** veri kaynağı ifadesi doğrudan SQL çağrısına çevrilemediği için doğrulama hatası oluştuğuna dikkat edin. Ek olarak, doğrudan SQL çağrısı **JoinedList** veri kaynağı için çağrının doğrudan SQL deyimine çevrilmesine izin vermez.
 
@@ -454,7 +453,7 @@ Uyarıda tavsiye edilen şekilde, **Vendor.FilteredTrans** veri kaynağı ifades
 
 #### <a name="option-2"></a>Seçenek 2
 
-**JoinedList** veri kaynağı için **Yürütme** alanının değerini **Sorgu** yerine **Bellek içi** olarak değiştirin. Büyük bir veri hacmi bulunan bir tablo (işlem tablosu) için değeri değiştirmenizi önermeyiz çünkü bu durumda tüm kayıtlar getirilir ve birleştirme bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir. Bu riski size bildiren bir doğrulama uyarısı gösterilir.
+**JoinedList** veri kaynağı için **Yürütme** alanının değerini **Sorgu** yerine **Bellek içi** olarak değiştirin. Büyük bir veri hacmi bulunan bir tablo (işlem tablosu) için değeri değiştirmenizi önermeyiz çünkü bu durumda tüm kayıtlar getirilir ve birleştirme bellekte gerçekleşir. Bu nedenle, bu yaklaşım düşük performansa neden olabilir. Bu riski size bildiren bir doğrulama uyarısı gösterilir.
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>FILTER ile WHERE işlevinin tercih edilirliği
 
@@ -489,11 +488,11 @@ Alternatif olarak, ızgarada tek bir uyarı satırını seçebilir ve ardından 
 
 ### <a name="manual-resolution"></a>El ile çözüm
 
-**WHERE** işlevini **FILTER** işleviyle değiştirerek, doğrulama ızgarasında belirtilen tüm veri kaynaklarının ifadelerini el ile ayarlayabilirsiniz.
+**WHERE** işlevini **FILTER** işleviyle değiştirerek, doğrulama ızgarasındaki tüm veri kaynaklarının ifadelerini el ile ayarlayabilirsiniz.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>ALLITEMSQUERY ile ALLITEMS işlevinin tercih edilirliği
 
-Yerleşik [ALLITEMS](er-functions-list-allitems.md)ve [ALLITEMSQUERY](er-functions-list-allitemsquery.md) ER işlevleri, belirtilen yolla eşleşen tüm öğelerin temsil edildiği bir kayıt listesinden oluşan düzleştirilmiş **Kayıt listesi** değerini almak için kullanılır. ER, **ALLITEMS** işlevinde başvurulan veri kaynağına doğrudan SQL çağrısı oluşturulup oluşturulamayacağını denetler. Doğrudan çağrı oluşturulamazsa ER model eşleme tasarımcısında bir doğrulama uyarısı oluşur. Aldığınız iletide, verimliliği artırmaya yardımcı olmak için **ALLITEMS** işlevi yerine **ALLITEMSQUERY** işlevini kullanmanız önerilir.
+Yerleşik [ALLITEMS](er-functions-list-allitems.md)ve [ALLITEMSQUERY](er-functions-list-allitemsquery.md) ER işlevleri, belirtilen yolla eşleşen tüm öğelerin temsil edildiği bir kayıt listesinden oluşan düzleştirilmiş **Kayıt listesi** değerini döndürür. ER, **ALLITEMS** işlevinde başvurulan veri kaynağına doğrudan SQL çağrısı oluşturulup oluşturulamayacağını denetler. Doğrudan çağrı oluşturulamazsa ER model eşleme tasarımcısında bir doğrulama uyarısı oluşur. Aldığınız iletide, verimliliği artırmaya yardımcı olmak için **ALLITEMS** işlevi yerine **ALLITEMSQUERY** işlevini kullanmanız önerilir.
 
 Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 
@@ -573,11 +572,11 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 
     ![Biçim tasarımcısı sayfasında veri kaynaklarına bağladığınız biçim öğelerini doğrulama](./media/er-components-inspections-09c.png)
 
-16. Doğrulama hatalarının oluştuğunu göreceksiniz. Bu iletide, **model.Vendor** listesi boşsa çalışma zamanında yapılandırılmış **Statement\\Party\\Name** ve **Statement\\Party\\AccountNum** biçim bileşenleri için bir hata oluşabileceği belirtilir.
+16. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide, `model.Vendor` listesi boşsa çalışma zamanında yapılandırılmış **Statement\\Party\\Name** ve **Statement\\Party\\AccountNum** biçim bileşenleri için bir hata oluşabileceği belirtilir.
 
     ![Yapılandırılan biçim bileşenleri için olası bir hatayı bildiren doğrulama hatası](./media/er-components-inspections-09d.png)
 
-Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çalıştır**'ı seçer ve var olmayan bir satıcının hesap numarasını seçerseniz oluşacak çalışma zamanı hatası gösterilir. İstenen satıcı var olmadığından **model.Vendor** listesi boş olacaktır (kayıt içermeyecektir).
+Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çalıştır**'ı seçer ve var olmayan bir satıcının hesap numarasını seçerseniz oluşacak çalışma zamanı hatası gösterilir. İstenen satıcı var olmadığından `model.Vendor` listesi boş olacaktır (kayıt içermeyecektir).
 
 ![Biçim eşleme çalışırken oluşan çalışma zamanı hataları](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çal
 
 #### <a name="option-1"></a>Seçenek 1
 
-**Statement\\Party\\Name** biçim öğesini **model.Vendor** veri kaynağı öğesine bağlayabilirsiniz. Çalışma zamanında bu bağ, önce **model.Vendor** veri kaynağını çağırır. **model.Vendor** boş bir kayıt listesi döndürürse iç içe geçmiş biçim bileşenleri çalıştırılmaz. Bu nedenle, bu biçim yapılandırması için herhangi bir doğrulama uyarısı oluşmaz.
+**Statement\\Party\\Name** biçim öğesini `model.Vendor` veri kaynağı öğesine bağlayabilirsiniz. Çalışma zamanında bu bağ, önce `model.Vendor` veri kaynağını çağırır. `model.Vendor` boş bir kayıt listesi döndürürse iç içe geçmiş biçim bileşenleri çalıştırılmaz. Bu nedenle, bu biçim yapılandırması için herhangi bir doğrulama uyarısı oluşmaz.
 
 ![Biçim tasarımcısı sayfasında biçim öğesini veri kaynağı öğesine bağlama](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Seçenek 2
 
-**Statement\\Party\\Name** biçim bileşenini bağlamasını `model.Vendor.Name` öğesinden `FIRSTORNULL(model.Vendor).Name` olarak değiştirin. Güncelleştirilmiş bağ, **Kayıt listesi** türündeki **model.Vendor** veri kaynağının ilk kaydını koşullu olarak **Kayıt** türündeki yeni bir veri kaynağına dönüştürür. Bu yeni veri kaynağı aynı alan kümesini içerir.
+**Statement\\Party\\Name** biçim bileşenini bağlamasını `model.Vendor.Name` öğesinden `FIRSTORNULL(model.Vendor).Name` olarak değiştirin. Güncelleştirilmiş bağ, **Kayıt listesi** türündeki `model.Vendor` veri kaynağının ilk kaydını koşullu olarak **Kayıt** türündeki yeni bir veri kaynağına dönüştürür. Bu yeni veri kaynağı aynı alan kümesini içerir.
 
-- **model.Vendor** veri kaynağında en az bir kayıt varsa söz konusu kaydın alanları **model.Vendor** veri kaynağının ilk kaydındaki alanların değerleriyle doldurulur. Bu durumda, güncelleştirilen bağlama satıcı adını döndürür.
+- `model.Vendor` veri kaynağında en az bir kayıt varsa söz konusu kaydın alanları `model.Vendor` veri kaynağının ilk kaydındaki alanların değerleriyle doldurulur. Bu durumda, güncelleştirilen bağlama satıcı adını döndürür.
 - Aksi durumda, kaydın oluşturulan her alanı söz konusu alan veri türünün varsayılan değeriyle doldurulur. Bu durumda, **Dize** veri türünün varsayılan değeri olan boş dize döndürülür.
 
 Bu nedenle, **Statement\\Party\\Name** biçim bileşeni `FIRSTORNULL(model.Vendor).Name` ifadesine bağlandığında doğrulama uyarıları oluşmaz.
@@ -606,13 +605,13 @@ Bu nedenle, **Statement\\Party\\Name** biçim bileşeni `FIRSTORNULL(model.Vendo
 
 #### <a name="option-3"></a>Seçenek 3
 
-**Kayıt listesi** türündeki **model.Vendor** veri kaynağı kayıt döndürmediğinde oluşturulan belgeye girilen veriyi açıkça belirtmek istiyorsanız (bu örnekte **Yok** metni), **Statement\\Party\\Name** biçim öğesinin bağlamasını `model.Vendor.Name` ifadesinden `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")` ifadesine değiştirin. Şu ifadeyi de kullanabilirsiniz: `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+**Kayıt listesi** türündeki `model.Vendor` veri kaynağı kayıt döndürmediğinde oluşturulan belgeye girilen veriyi açıkça belirtmek istiyorsanız (bu örnekte **Yok** metni), **Statement\\Party\\Name** biçim öğesinin bağlamasını `model.Vendor.Name` ifadesinden `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")` ifadesine değiştirin. Şu ifadeyi de kullanabilirsiniz: `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Dikkate alınması gereken ek hususlar
 
-Denetleme de başka bir olası sorun hakkında daha uyarı alırsınız. Varsayılan olarak, **Statement\\Party\\Name** ve **Statement\\Party\\AccountNum** biçim öğelerini **Kayıt listesi** türündeki **model.Vendor** veri kaynağının uygun alanlarına bağlarken, bu bağlar çalıştırılır ve liste boş değilse **model.Vendor** veri kaynağının ilk kaydındaki uygun alanların değerlerini alır.
+Denetleme de başka bir olası sorun hakkında daha uyarı alırsınız. Varsayılan olarak, **Statement\\Party\\Name** ve **Statement\\Party\\AccountNum** biçim öğelerini **Kayıt listesi** türündeki `model.Vendor` veri kaynağının uygun alanlarına bağlarken, bu bağlar çalıştırılır ve liste boş değilse `model.Vendor` veri kaynağının ilk kaydındaki uygun alanların değerlerini alır.
 
-**Statement\\Party** biçim öğesini **model.Vendor** veri kaynağına bağlamadığınız için biçim yürütme sırasında **Statement\\Party** öğesi **model.Vendor** veri kaynağının her kaydı için tekrarlanmaz. Bunun yerine, kayıt listesi birden fazla kayıt içeriyorsa oluşturulan belge listenin yalnızca ilk kaydındaki bilgilerle doldurulur. Bu nedenle, biçimin oluşturulan belgeyi **model.Vendor** veri kaynağındaki tüm satıcılar hakkındaki bilgilerle doldurması amaçlanıyorsa sorun oluşabilir. Bu sorunu gidermek için **Statement\\Party** öğesini **model.Vendor** veri kaynağına bağlayın.
+**Statement\\Party** biçim öğesini `model.Vendor` veri kaynağına bağlamadığınız için biçim yürütme sırasında **Statement\\Party** öğesi `model.Vendor` veri kaynağının her kaydı için tekrarlanmaz. Bunun yerine, kayıt listesi birden fazla kayıt içeriyorsa oluşturulan belge listenin yalnızca ilk kaydındaki bilgilerle doldurulur. Bu nedenle, biçimin oluşturulan belgeyi `model.Vendor` veri kaynağındaki tüm satıcılar hakkındaki bilgilerle doldurması amaçlanıyorsa sorun oluşabilir. Bu sorunu gidermek için **Statement\\Party** öğesini `model.Vendor` veri kaynağına bağlayın.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>FILTER işlevi içeren bir ifadenin yürütülebilirliği (önbelleğe alma)
 
@@ -699,7 +698,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 
 14. Biçim öğelerini sağlanan veri kaynaklarına aşağıdaki gibi bağlayın:
 
-    - **Statement\\Party** biçim öğesini **model.Vendor** veri kaynağı öğesine bağlayın.
+    - **Statement\\Party** biçim öğesini `model.Vendor` veri kaynağı öğesine bağlayın.
     - **Statement\\Party\\Name** biçim öğesini **model.Vendor.Name** veri kaynağı alanına bağlayın.
     - **Statement\\Party\\AccountNum** biçim öğesini **model.Vendor.AccountNumber** veri kaynağı alanına bağlayın.
 
@@ -813,6 +812,3 @@ Biçim yapısının [İş belgesi yönetiminin](er-business-document-management.
 [Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme](trace-execution-er-troubleshoot-perf.md)
 
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

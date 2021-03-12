@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 23fe13f7e3c7e8138b690c96fafc075c4700a60f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693318"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797664"
 ---
 # <a name="create-workflows-overview"></a>İş akışlarına genel bakış
 
@@ -83,6 +83,3 @@ Tuvalin üzerine sürüklediğiniz tüm öğeleri yapılandırın. Tüm iş akı
 
     - İş akışının bu sürümünü etkinleştirmek için **Yeni sürümü etkinleştir**'e tıklayın. İş akışı etkinken kullanıcılar işlenmesi için iş akışına belgeler gönderebilir.
     - Bu sürümü etkinleştirmek istemiyorsanız **Yeni sürümü etkinleştirme**'ye tıklayın. İş akışını daha sonra etkinleştirebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

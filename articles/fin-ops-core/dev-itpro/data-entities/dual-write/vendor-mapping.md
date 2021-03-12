@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685497"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744527"
 ---
 # <a name="integrated-vendor-master"></a>Tümleşik satıcı aslı
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685497"
 
 
 
-*Satıcı* terimi, bir tedarikçi organizasyonunu veya bir işletmeye mal veya servis sağlayan tek bir sahip anlamına gelir. *Satıcı* Microsoft Dynamics 365 Supply Chain Management'da yerleşik bir kavram olmasına karşın Dynamics 365'teki model temelli uygulamalarda satıcı kavramı yoktur. Ancak, satıcı bilgilerini depolamak üzere **firma/ilgili kişi** varlığını aşırı yükleyebilirsiniz. Tümleşik satıcı Yöneticisi, Dynamics 365 ' te model temelli uygulamalarda açık bir satıcı kavramı tanıtır. **Firma/ilgili kişi** varlığındaki yeni satıcı tasarımını kullanabilir veya satıcı verilerini depolayabilirsiniz. Çift yazım, her iki yaklaşımdan destekler.
+*Satıcı* terimi, bir tedarikçi organizasyonunu veya bir işletmeye mal veya servis sağlayan tek bir sahip anlamına gelir. *Satıcı* Microsoft Dynamics 365 Supply Chain Management'da yerleşik bir kavram olmasına karşın Dynamics 365'teki model temelli uygulamalarda satıcı kavramı yoktur. Ancak, satıcı bilgilerini depolamak üzere **Hesap/İlgili Kişi** tablosuna aşırı yükleme yapabilirsiniz. Tümleşik satıcı Yöneticisi, Dynamics 365 ' te model temelli uygulamalarda açık bir satıcı kavramı tanıtır. **Hesap/İlgili Kişi** tablosundaki yeni satıcı tasarımını kullanabilir veya satıcı verilerini depolayabilirsiniz. Çift yazım, her iki yaklaşımdan destekler.
 
 Her iki yaklaşımdan satıcı verileri, Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service ve Power Apps portalları arasında tümleştirilir. Supply Chain Management'ta, veriler satınalma talepleri ve satınalma siparişleri gibi iş akışlarında kullanılabilir.
 
 ## <a name="vendor-data-flow"></a>Satıcı veri akışı
 
-Dataverse'deki **Firma/ilgili kişi** varlığında satıcı verilerini saklamak istemiyorsanız yeni satıcı tasarımını kullanabilirsiniz.
+Dataverse'teki **Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamak istemiyorsanız yeni satıcı tasarımını kullanabilirsiniz.
 
 ![Satıcı veri akışı](media/dual-write-vendor-data-flow.png)
 
-**Firma/ilgili kişi** varlığında satıcı verilerini saklamaya devam etmek istiyorsanız genişletilmiş satıcı tasarımını kullanabilirsiniz. Genişletilmiş satıcı tasarımını kullanmak için çift yazan çözüm paketindeki satıcı iş akışlarını konfigüre etmelisiniz. Daha fazla bilgi için, bkz. [Satıcı tasarımları arasında geçiş yap](vendor-switch.md).
+**Hesap/İlgili Kişi** tablosunda satıcı verilerini saklamaya devam etmek istiyorsanız genişletilmiş satıcı tasarımını kullanabilirsiniz. Genişletilmiş satıcı tasarımını kullanmak için çift yazan çözüm paketindeki satıcı iş akışlarını konfigüre etmelisiniz. Daha fazla bilgi için, bkz. [Satıcı tasarımları arasında geçiş yap](vendor-switch.md).
 
 ![Genişletilmiş satıcı veri akışı](media/dual-write-vendor-detail.jpg)
 
@@ -56,7 +56,7 @@ Satıcı verileri, satıcıyla ilgili satıcı grubu, adresler, iletişim bilgil
 
 Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları     | Tanım
 ----------------------------|-----------------------------|------------
-Satıcı V2                   | Hesap                     | Satıcı bilgilerini depolamak için Hesap varlığını kullanan işletmeler, aynı şekilde kullanmaya devam edebilir. Ayrıca, Finance and Operations uygulamaları tümleştirmesi nedeniyle gelen açık satıcı işlevlerinden de yararlanabilir.
+Satıcı V2                   | Hesap                     | Satıcı bilgilerini depolamak için Hesap tablosunu kullanan işletmeler, aynı şekilde kullanmaya devam edebilir. Ayrıca, Finance and Operations uygulamaları tümleştirmesi nedeniyle gelen açık satıcı işlevlerinden de yararlanabilir.
 Satıcı V2                   | Msdyn\_vendors              | Satıcılar için özel bir çözüm kullanan işletmeler, Finance and Operations uygulamaları tümleştirmesi nedeniyle Dataverse'da sunulmakta olan kullanıma hazır satıcı kavramından yararlanabilir. 
 Satıcı grupları               | msdyn\_vendorgroups         | Bu şablon satıcı grubu bilgilerini eşitler.
 Satıcı ödeme yöntemi       | msdyn\_vendorpaymentmethods | Bu şablon, satıcı ödeme yöntemi bilgilerini eşitler.
@@ -75,6 +75,3 @@ Ad ekleri                | msdyn\_nameaffixes          | [Ad ekleri](customer-ma
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

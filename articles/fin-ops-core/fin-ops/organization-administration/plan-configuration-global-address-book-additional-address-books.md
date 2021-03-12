@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d83d6536d85100ef6a91e909be5a8e57e423371
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8f0a53e1f9b378759e0c5adbe0612a5fa8cddc82
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693942"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796958"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Genel adres defteri ve diğer adres defterleri için planlama
 
@@ -57,6 +57,3 @@ Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki h
 **Karar:**
 
 - Kaç tane ek adres defteri oluşturacaksınız?
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

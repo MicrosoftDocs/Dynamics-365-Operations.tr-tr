@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694347"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797058"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Kuruluşlar ve kuruluş hiyerarşilerine genel bakış
 
@@ -67,6 +67,3 @@ Bir ekip, üyelerin ortak bir sorumluluğu, çıkarı veya hedefi paylaştığı
 Her bir hiyerarşi, bir amaç için atanmıştır. Bir hiyerarşinin amacı, hiyerarşiye dahil edilebilecek organizasyon türlerini belirlemektir. Amaç ayrıca bir hiyerarşinin hangi uygulama senaryolarında kullanılabileceğini de belirler.
 
 Bir hiyerarşi içindeki kuruluşlar parametreleri, politikaları ve hareketleri paylaşabilir. Bir organizasyon, ana organizasyonun parametrelerini devralabilir veya bu parametreleri değiştirebilir. Ancak, ürün ve adres defteri gibi paylaşılan master verileri, tüm organizasyon için geçerlidir ve tek tek organizasyonlar tarafından üstüne yazdırılamazlar. Organizasyon ve hiyerarşi oluşturmak dikkatli planlama gerektirir. Daha fazla bilgi için bkz. [Kuruluş hiyerarşinizi planlama](plan-organizational-hierarchy.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

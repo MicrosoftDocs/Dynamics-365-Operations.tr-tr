@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693414"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797796"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Bordro başlangıç bakiyelerini girin
 
@@ -166,6 +166,3 @@ Hareketleri geri almak ve yeniden girmek mümkündür. Hareketleri geri almak i�
 2. "Bu ödeme ekstresini geri çevirdiğinizde, bu ödeme ekstresini dengelemek için bir ters ödeme ekstresi oluşturulacaktır" iletisi üzerinde **Evet**'e tıklayın. Hiçbir ödeme ekstresi düzenlenemez. Bu ödeme ekstresini ters çevirmek istiyor musunuz?" görüntülenir. 
 
 Ödem ekstresini terse çevirdikten sonra, daha önce oluşturmuş olduğunuz kazanç ekstresinden çalışan için yeni bir ödeme ekstresi oluşturabilirsiniz. Yeni ödeme ekstresini oluşturmadan önce kazanç ekstresindeki hatalı satırları düzelttiğinizden emin olun ve sonra doğru tutarlarla yeni ödemeleri oluşturun. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

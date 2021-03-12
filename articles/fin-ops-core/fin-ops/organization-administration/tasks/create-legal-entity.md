@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694849"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796766"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 
@@ -45,6 +45,3 @@ Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kurul
 15. **Vergi kaydı** bölümünü genişletin. **Vergi kaydı** bölümünde, vergi kurumlarına bildirilirken kullanılacak kayıt numaralarını girin.
 16. **Vergi 1099** bölümünü genişletin. **Vergi 1099** bölümüne tüzel kişilik için 1099 bilgilerini girin.  
 17. **Kaydet**'e tıklayın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

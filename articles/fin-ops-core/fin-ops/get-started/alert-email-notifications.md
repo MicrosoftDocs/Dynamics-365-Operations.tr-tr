@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693834"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798635"
 ---
 # <a name="client-alert-notifications-by-email"></a>E-postayla istemci uyarı bildirimleri
 
 [!include [banner](../includes/banner.md)]
 
-Verilerin filtre uygulanmış görünümlerini izleyen ve otomatik olarak önceden belirlenmiş olaylar oluştuğunda e-posta bildirimleri gönderen özel uyarı kuralları tanımlayabilirsiniz. E-posta bildirimleri gönderme seçeneği desteklenen tüm uyarı türleri için kullanılabilir ve ayrıca varolan uyarı kurallar için açık olabilir.
+Verilerin filtre uygulanmış görünümlerini izleyen ve otomatik olarak önceden belirlenmiş olaylar oluştuğunda e-posta bildirimleri gönderen özel uyarı kuralları tanımlayabilirsiniz. E-posta bildirimleri gönderme seçeneği desteklenen tüm uyarı türleri için kullanılabilir ve bunları mevcut uyarı kuralları için de açabilirsiniz.
 
 Yerleşik denetimleri, filtre uygulanmış görünümleri sistem toplu işlerin izleyen uyarı kuralları oluşturmak için kullanabilirsiniz. **Durum** alanının değerini izleyerek, toplu iş başarısız olursa e-posta gönderen uyarı kuralları da yapılandırabilirsiniz. Bu uyarı kurallarını oluşturduktan sonra iş verilerindeki değişiklikler için raporları denetlemenize gerek kalmaz. Bunun yerine, akıllı değişiklik algılama hizmeti izlemeyi sizin yerinize yapar.
 
@@ -47,9 +47,6 @@ Aşağıdaki görüntü **Uyarı kuralı oluştur** iletişim kutusunu gösterir
 
 Servis, uyarı bildiriminin temel ayrıntılarını gönderen e-posta bildirimlerini önceden tanımlanmış e-posta şablonlarını kullanarak gönderir.
 
-Aşağıdaki görüntü, bir e-posta tarafından alındıklarında uyarı bildirimlerinin yapısını gösterir.
+Aşağıdaki görüntüde, e-postayla alınan uyarı bildirimlerinin yapısı gösterilmektedir.
 
 [![Kayıt oluşturma, alan değişiklikleri, şablon silinmesi için şablon temelli uyarı bildirimleri](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

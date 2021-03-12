@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b681d4da750df502987bd00ab52c1cb6eecdf30e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694251"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797588"
 ---
 # <a name="workflow-elements"></a>İş akışı öğeleri
 
@@ -89,6 +89,3 @@ Aşağıdaki öğeler, alternatif dalları veya aynı anda çalışan dalları o
 ### <a name="subworkflow"></a>Alt iş akışı
 
 *Alt iş akışı*, başka bir iş akışının bağlamında çalışan bir iş akışıdır
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 56fdfc400b5bc3e640e7951985d54ffa870f96c9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693581"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797888"
 ---
 # <a name="videos"></a>Videolar 
 
@@ -167,6 +167,3 @@ ms.locfileid: "4693581"
 [FastTrack Teknik Sohbetleri](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) müşterilere ve iş ortaklarına onu alanlarına özgü ayrıntılı bilgi sağlayan teknik ayrıntılara ve en iyi uygulamalara odaklanır.
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

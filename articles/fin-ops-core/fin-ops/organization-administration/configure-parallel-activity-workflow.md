@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8043e2854ccc8db0128969ffe36a5517a12c37ac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2dfbe78f31082ad0b1272f02e3ae9d7adbd993b1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693366"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797738"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>İş akışında paralel etkinlikleri yapılandırma
 
@@ -53,6 +53,3 @@ Bu paralel faaliyete dal eklemek ve paralel faaliyetin dallarını yapılandırm
     > Paralel faaliyetin tüm dalları aynı anda çalıştığından dalların sırası önemli değildir.
 
 3. Her bir dalı yapılandırmak için bkz. [İş akışında paralel dalları yapılandırma](configure-parallel-branch-workflow.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

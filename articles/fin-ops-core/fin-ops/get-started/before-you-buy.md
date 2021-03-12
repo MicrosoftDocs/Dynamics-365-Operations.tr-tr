@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694148"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798561"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -30,7 +30,7 @@ Dynamics 365 Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Com
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Adım bir: Finance and Operations'ı 30 gün ücretsiz deneyin
 
-Dynamics 365 for Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce'i e-postayla basitçe kaydolarak 30 gün deneyebilirsiniz. Finance and Operations uygulamalarının deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. Ayrıntılara [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) adresinden ulaşın.
+Dynamics 365 for Finance, Dynamics 365 Supply Chain Management veya Dynamics 365 Commerce'i e-postayla basitçe kaydolarak 30 gün deneyebilirsiniz. Finance and Operations uygulamalarının deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. [Önizleme abonelikleri için kaydolma](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe) başlıklı makaleden ayrıntıları öğrenin.
 
 ## <a name="step-two-choose-a-deployment-option"></a>Adım iki: Bir dağıtım seçeneği belirleme
 
@@ -93,6 +93,3 @@ Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekl
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Dynamics AX 2012'den yükseltme veya AX 2009'dan geçiş yapıyorsanız
 
 Microsoft Dynamics AX 2012'den yükseltme veya Microsoft Dynamics AX 2009'dan geçiş yapan bir müşteriyseniz, daha uzun süreli bir deneme sürümüne hak sahibi olabilirsiniz. Daha fazla bilgi için <daxcf@microsoft.com> ile iletişime geçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

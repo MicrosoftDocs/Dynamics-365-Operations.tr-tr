@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: fbdd4dd1bb0b850319b12e55b0e68d6fdc516ad6
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693495"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798389"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Power Apps uygulamasından tuval uygulamalarını ekleme
 
@@ -115,7 +115,7 @@ Uygulama bir sayfaya katıştırıldıktan sonra gerekirse kaldırmak için iki 
 
 ## <a name="appendix"></a>Ek
 
-### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Geliştirici tarafından] Uygulamanın eklendiği yeri belirtme
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Geliştirici tarafından] Uygulamanın katıştırıldığı yeri belirtme
 
 Varsayılan olarak kullanıcılar, Power Apps menü düğmesi altından veya doğrudan sayfaya bir sekme, hızlı sekme, dikey pencere veya çalışma alanına yeni bir bölüm olarak herhangi bir sayfaya uygulamalar katıştırabilir. Ancak, gerekirse geliştiriciler aşağıdaki yöntemleri kullanarak bu özelliği yalnızca uygulamaların belirli sayfalara katıştırılmasına izin verecek şekilde yapılandırabilir:
 
@@ -142,6 +142,3 @@ public final class ClassTest_Extension
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

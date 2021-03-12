@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681340"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728101"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>İş belgesi şablonunun yapısını güncelleştirme 
 
@@ -56,7 +56,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 5. Yeni şablonu oluşturmak için **Tamam**'ı seçin.
 
     > [!NOTE]
-    > Henüz Office Online'da oturum açmadıysanız [Office 365 oturum açma sayfasına yönlendirilirsiniz](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Finance ortamınıza dönmek için tarayıcınızda **Geri** düğmesini seçin.
+    > Henüz Office Online'da oturum açmadıysanız [Office 365 oturum açma sayfasına yönlendirilirsiniz](er-business-document-management.md#frequently-asked-questions). Finance ortamınıza dönmek için tarayıcınızda **Geri** düğmesini seçin.
 
     Yeni şablon, şablon düzenleyicisi sayfasındaki Excel Online eklenmiş denetiminde düzenlenmek üzere açılır.
 
@@ -106,6 +106,3 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

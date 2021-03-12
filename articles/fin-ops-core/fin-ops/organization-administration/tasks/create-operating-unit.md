@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694825"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796742"
 ---
 # <a name="create-an-operating-unit"></a>Bir çalışma birimi oluşturun
 
@@ -41,6 +41,3 @@ Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işl
     + E-posta adresleri, URL'ler ve telefon numaraları gibi iletişim yöntemleri hakkında bilgi girin. Yeni bir iletişim kaydı girmek için Yeni'yi tıklatın. Var olan bir iletişim kaydını değiştirmek için **Diğer seçenekler > Gelişmiş**'e tıklayın.   
 6. İsteğe bağlı olarak gerekirse **Faaliyet birimi numarası**'nı değiştirin. Bu numaranın ilgili **Taraf** kaydı için benzersiz bir tanımlayıcı olduğunu ve başka bir faaliyet birimiyle aynı olamayacağını unutmayın.
 7. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

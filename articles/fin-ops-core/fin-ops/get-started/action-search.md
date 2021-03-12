@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694200"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798660"
 ---
 # <a name="action-search"></a>Eylem arama
 
@@ -35,7 +35,7 @@ Sayfalar, başlıca Eylem Panoları üzerindeki komutları ortaya çıkartır: s
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Anahtar İpuçları artık kullanılamaz, ancak yerine eylem arama özelliği getirilmiştir. Bu yeni özellik, görünen herhangi bir Eylem Bölmesinden bir düğmeyi hızla aramanıza ve düğmeyi çalıştırmanıza olanak sağlar.
+Eylem araması özelliği, artık kullanılamayan Anahtar İpuçları özelliğinin yerine getirilmiştir. Bu yeni özellik, görünen herhangi bir Eylem Bölmesinden bir düğmeyi hızla aramanıza ve düğmeyi çalıştırmanıza olanak sağlar.
 
 ## <a name="using-action-search"></a>Eylem aramasını kullanma
 
@@ -53,7 +53,7 @@ Eylem aramasını Ctrl+/ veya Alt+Q tuşuna basarak da başlatabilirsiniz. Sayfa
 
 ## <a name="understanding-the-results-list"></a>Sonuç listesini anlama
 
-Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem konumunu hem de bağlamını bilmeniz gerekir. Bu nedenle, size tam olarak hangi düğmenin listede göründüğünü anlamanıza yardımcı olmak için her bir öğe için ek bilgiler sonuç sayfasında görüntülenir. Özellikle, düğmenin "yol"u gösterilir. Bu yol, ilgili olarak, aşağıdaki Kullanıcı Arabirimi öğelerini içerebilir:
+Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem konumunu hem de bağlamını bilmeniz gerekir. Bu nedenle sonuç listesinde, tam olarak hangi düğmelerin listede göründüğünü anlamanıza yardımcı olmak için ek bilgiler gösterilir. Özellikle, düğmenin "yol"u gösterilir. Bu yol, ilgili olarak, aşağıdaki Kullanıcı Arabirimi öğelerini içerebilir:
 
 - Eylem Bölmesi öğesi
 - Düğme grubu
@@ -65,7 +65,7 @@ Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem ko
 
 [![eylem-arama-alan-ile-veri](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-Önceki örnekte, eylem arama bir sayfanın en üstündeki standart Eylem Bölmesi'nden sonuçları göstermiştir. Bununla birlikte, eylem arama sayfada başka yerlerde bulunan görünür araç çubuklarından sonuçları da gösterir. Örneğin **Satış siparişleri satırı** hızlı sekmesi üzerindeki **Eldeki stok** düğmesini arıyorsanız. Bu durumda, sonuç sayfasındaki düğme yolu (**Satış siparişi satırları** &gt; **Stok** &gt; **Görünüm**), bu düğmenin **Satış siparişleri satırları** hızlı sekmesi üzerindeki **Stok** menü düğmesindeki **Görünüm** başlığı altında bulunduğunu belirtir.
+Önceki örnekte, eylem arama bir sayfanın en üstündeki standart Eylem Bölmesi'nden sonuçları göstermiştir. Bununla birlikte, eylem arama özelliği sayfada başka yerlerde bulunan görünür araç çubuklarından sonuçları da gösterir. Örneğin, **Satış siparişi satırları** hızlı sekmesindeki **Eldeki stok** düğmesini aradığınızı varsayalım. Bu durumda, sonuç listesindeki düğme yolu (**Satış siparişi satırları** &gt; **Stok** &gt; **Görünüm**), bu düğmenin **Satış siparişleri satırları** hızlı sekmesi üzerindeki **Stok** menü düğmesindeki **Görünüm** başlığı altında olduğunu belirtir.
 
 [![eldeki-stok](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem ko
 ## <a name="action-search-vs-navigation-search"></a>Eylem arama - Gezinti arama karşılaştırması
 
 Eylem arama ile bir sayfadaki eylemleri bulup çalıştırma amaçlanırken, sayfaları bulup gezinmek için ayrı bir arama mekanizması bulunur. Bu özellik hakkında daha fazla bilgi için, bkz. [Gezinti arama](navigation-search.md) makalesi.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

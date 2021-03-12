@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0b55046e6c523398b4a30e674dc9f77bb6fedf3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ca9ddaed0c4aad6aeb3877384778d33f83e6e4aa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693220"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796871"
 ---
 # <a name="record-templates-overview"></a>Kayıt şablonlarına genel bakış
 
@@ -37,6 +37,3 @@ Kayıt şablonları kayıtları daha çabuk oluşturmanıza yardımcı olabilir 
 > Şablonları yalnızca erişiminiz olan alanlarda uygulayabilirsiniz. Ancak, tüm şablon başlıkları yeni bir kayıt oluşturduğunuzda size görünür olur - ayrıca, tüm kullanıcıların kullanımına açık şablonlar oluşturuyorsanız diğer kullanıcılara da. Şablonları adlandırırken bunu dikkate almayı unutmayın. Örneğin, tüm kullanıcıların şirketteki bazı çalışanların prim bazlı maaş aldığı gizliyse adlarda "prim" gibi sözcükleri kullanmaktan kaçının.
 
 Erişiminiz olan bir veya daha şablonun belirli bir form için olması ve formda yeni bir kayıt oluşturmak istediğinizde **Bir şablon seç** sayfası görüntülenir. Listeden bir şablon seçtiğinizde, yeni kayıt oluşturulur ve seçtiğiniz şablona dayalı varsayılan bilgileri içerir. Yeni kayıtlar oluştururken şablonları kullanmak istemiyorsanız, **Şablon seç** sayfasında **Tekrar sorma** onay kutusunu işaretleyin. Şablon seçimi iletişim kutusunu yeniden görüntülemek için, herhangi bir kayıt üzerine sağ tıklayın **Kayıt bilgileri**'ne tıklayın ve ardından **Şablon seçimini göster**'e tıklayın.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4b9abff57386fda61e3a83b0b8f18e533c8758c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694653"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796718"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>İş akışındaki iş öğelerini devretme
 
@@ -60,6 +60,3 @@ Bir süreliğine ofis dışında olmayı veya başka sebeple iş öğeleri üzer
 8. **Bitiş tarihi/saati** alanına tarih ve saati girin.
 9. Bu temsilci kuralını etkinleştirmek için **Etkin** onay kutusunu işaretleyin. 
 10. **Yorum** alanına, iş maddelerine neden temsilci atadığınızı belirten bir yorum girin.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

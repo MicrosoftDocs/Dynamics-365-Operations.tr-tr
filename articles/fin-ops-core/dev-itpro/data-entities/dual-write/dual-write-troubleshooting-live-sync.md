@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685576"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744625"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Canlı eşitleme sorunlarını giderme
 
@@ -46,11 +46,11 @@ Finance and Operations uygulamasında bir satır oluşturduğunuzda aşağıdaki
 
 Bu sorunu gidermek için, [sistem gereksinimleri ve önkoşulları](requirements-and-prerequisites.md) adımlarını izleyin. Bu adımları tamamlamak için, Dataverse'de oluşturulan ikili yazma uygulaması kullanıcılarının sistem yöneticisi rolüne sahip olması gerekir. Varsayılan sahip olan takımın sistem yöneticisi rolü de olmalıdır.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında satır oluşturduğunuzda, her varlık için canlı eşitleme benzer bir hata oluşturur
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamasında satır oluşturduğunuzda, her tablo için canlı eşitleme benzer bir hata oluşturur
 
 **Sorunu düzeltmek için gerekli rol:** Sistem Yöneticisi
 
-Bir Finance and Operations uygulamadaki varlık verilerini her kaydetmeye çalıştığınızda aşağıdakine benzer bir hata iletisi alabilirsiniz:
+Bir Finance and Operations uygulamasındaki tablo verilerini her kaydetmeye çalıştığınızda aşağıdakine benzer bir hata iletisi alabilirsiniz:
 
 *Değişiklikler veritabanına kaydedilemiyor. İş birimi, hareketi kaydedemiyor. Veriler varlık uyglarına yazılamıyor. UnitOfMeasureEntity yazma işlemi hata iletisiyle başarısız oldu varlık uoms ile eşitlenemiyor.*
 
@@ -58,8 +58,8 @@ Bu sorunu gidermek için, önkoşul başvuru verilerinin her iki Finance and Ope
 
 Her iki tarafta da veri varsa ve sorunun veriyle ilgili olmadığını doğrulamamışsanız, aşağıdaki adımları izleyin.
 
-1. İlgili varlığı durdurun.
-2. Finance and Operations uygulamasında oturum açın ve başarısız olan varlığa ait satırların DualWriteProjectConfiguration ve DualWriteProjectFieldConfiguration tablolarında mevcut olduğundan emin olun. Örneğin, **müşteriler** varlığı başarısız olduğunda sorgu şöyle görünür.
+1. İlgili tabloyu durdurun.
+2. Finance and Operations uygulamasında oturum açın ve başarısız olan tabloya ait satırların DualWriteProjectConfiguration ve DualWriteProjectFieldConfiguration tablolarında mevcut olduğundan emin olun. Örneğin, **Müşteriler** tablosu başarısız olduğunda sorgu şöyle görünür.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Her iki tarafta da veri varsa ve sorunun veriyle ilgili olmadığını doğrulam
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Tablo eşlemesini durdurduktan sonra bile başarısız olan varlıkla ilgili satırlar varsa başarısız olan varlıkla ilişkili satırları silin. DualWriteProjectConfiguration tablosundaki **projectname** sütununu not edin ve satırı silmek için proje adını kullanarak DualWriteProjectFieldConfiguration tablosundaki kaydı getirin.
+3. Tablo eşlemesini durdurduktan sonra bile başarısız olan tabloyla ilgili satırlar varsa başarısız olan tabloyla ilişkili satırları silin. DualWriteProjectConfiguration tablosundaki **projectname** sütununu not edin ve satırı silmek için proje adını kullanarak DualWriteProjectFieldConfiguration tablosundaki satırı getirin.
 4. Tablo eşlemesini başlatın. Verilerin herhangi bir sorun olmadan eşitlenip eşitlenmediğini doğrulayın.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Bir Finance and Operations uygulamada veri oluşturduğunuzda okuma veya yazma ayrıcalık hatalarını işleme
@@ -127,6 +127,3 @@ Sorunu düzeltmek için şu adımları izleyin.
 
 3. **Externalenvironmenturl** sütununda doğru Dataverse veya uygulama URL 'sinin bulunduğundan emin olun. Yanlış Dataverse URL'sini işaret eden tüm yinelenen satırları silin. DUALWRITEPROJECTFIELDCONFIGURATION ve DUALWRITEPROJECTCONFIGURATION tablolarındaki ilgili satırları silin.
 4. Tablo eşlemesini durdurun ve yeniden başlatın
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

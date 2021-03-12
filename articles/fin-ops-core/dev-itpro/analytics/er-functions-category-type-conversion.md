@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686087"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740820"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Tür dönüştürme kategorisindeki ER işlevlerinin listesi
 
@@ -38,6 +38,14 @@ Elektronik raporlama (ER) tür dönüştürme işlevleri, değerleri türler ara
 | [IntValue](er-functions-conversion-intvalue.md)       | Bu işlevi, belirtilen dizeyi temsil eden bir *Int* değeri döndürür. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Bu işlev, belirtilen *dize* değerinden dönüştürülen *gerçek* değeri döndürür. Dönüştürme sırasında, belirtilen ondalık ve basamak gruplandırma ayırıcıları dikkate alınır. |
 | [Değer](er-functions-conversion-value.md)             | Bu işlev, belirtilen *dize* değerinden dönüştürülen *gerçek* değeri döndürür. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Konteyner kategorisindeki tür dönüştürme işlevleri
+
+Aşağıdaki tabloda [konteyner](er-functions-category-container.md) kategorisinde tür dönüştürme işlevleri açıklanmıştır.
+
+| İşlev | Tanım |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Bu işlev, belirtilen *Dize* veri türündeki girişi *Konteyner* türünde bir veri öğesine dönüştürür. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Tarih ve zaman kategorisindeki tür dönüştürme işlevleri
 
@@ -79,6 +87,3 @@ Aşağıdaki tabloda [metin kategorisinde](er-functions-category-text.md) tür d
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Elektronik raporlamada formül dili](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

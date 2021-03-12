@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7fd1fc4756e74a5d07ffae533b6b9837b960f17a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693762"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798214"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Regression Suite Automation Tool kullanarak veri belirsiz test
 
@@ -49,6 +49,3 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
     - Genel doğrulama yerine yalnızca belirli bir harekete filtre uyguladıktan sonra doğrulayın. Örneğin kayıt numarası için hareket numarasına veya hareket tarihine filtre uygulayarak, doğrulamanın tüm diğer hareketleri hariç tutmasını sağlayın. 
     - Bir müşteri bakiyesini veya bütçe kontrolünü denetliyorsanız, önce değeri kaydedin ve ardından, sabit beklenen değeri doğrulamak yerine, beklenen sonucu doğrulamak için hareket değerini ekleyin. 
  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

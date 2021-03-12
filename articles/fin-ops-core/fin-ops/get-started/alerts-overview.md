@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 191f8a5d788f57964e7870167109e98cbde65c43
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694176"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798606"
 ---
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 
@@ -88,6 +88,3 @@ Uyarı kuralının beş bileşeni vardır:
 [Uyarı kuralı seçenekleri](https://youtu.be/cpzimwOjicM) videosu (yukarıda gösterilen), YouTube'da bulunan [Finance and Operations oynatma listesinde bulunmaktadır](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW).
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

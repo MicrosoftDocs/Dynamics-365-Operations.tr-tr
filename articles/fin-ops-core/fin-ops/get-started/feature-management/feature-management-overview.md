@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692978"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798365"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -32,7 +32,7 @@ ms.locfileid: "4692978"
 
 ## <a name="the-feature-management-workspace"></a>Özellik yönetimi çalışma alanı
 
-Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını açabilirsiniz. Özellik yönetimi deneyimi tarafından desteklenen tüm sürümlere ait özelliklerin listesini gösteren bir sayfa görürsünüz. Zamanla Microsoft Özellik yönetimi deneyimini, özellikleri yönetmenize yardımcı olacak ek işlevler içerecek şekilde geliştirecektir.
+Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını açabilirsiniz. Özellik yönetimi deneyimi tarafından desteklenen tüm sürümlere ait özelliklerin listesini gösteren bir sayfa görürsünüz. Zamanla Microsoft, Özellik yönetimi deneyimini, özellikleri yönetmenize yardımcı olacak daha fazla işlev içerecek şekilde geliştirecektir.
 
 Özellik listesi sekmesi aşağıdaki bilgileri içerir:
 
@@ -42,7 +42,7 @@ Panoda uygun kutucuğu seçerek **Özellik yönetimi** çalışma alanını aça
 - **Özellik eklendi** – Özelliğin ortamınıza eklendiği tarih. Bu tarih, aylık sürüm döngüleri sırasında ortamınızı güncelleştirdiğinizde otomatik olarak girilir.
 - **Modül** – Yeni özellikten etkilenen modül.
 
-Bir özellik seçtiğinizde, ayrıntılar bölmesinde özellik listesinin sağında ek bilgiler görüntülenir. Bölmenin en üstünde özellik adı, özelliğin eklendiği tarih, özelliğin etkilediği modül ve **Daha fazla bilgi edinin** bağlantısını görürsünüz. Özelliğin belgelerini görüntülemek için bu bağlantıyı seçin. Belge yoksa, geçici bir sayfaya yönlendirilirsiniz. Ayrıntılar bölmesi ayrıca özellik hakkında kendi açıklamalarınızı ekleyebileceğiniz bir **Açıklama** alanı da içerir.
+Bir özellik seçtiğinizde, ayrıntılar bölmesinde özellik listesinin sağında daha fazla bilgi görüntülenir. Bölmenin en üstünde özellik adı, özelliğin eklendiği tarih, özelliğin etkilediği modül ve **Daha fazla bilgi edinin** bağlantısını görürsünüz. Özelliğin belgelerini görüntülemek için bu bağlantıyı seçin. Belge yoksa, geçici bir sayfaya yönlendirilirsiniz. Ayrıntılar bölmesi ayrıca özellik hakkında kendi açıklamalarınızı ekleyebileceğiniz bir **Açıklama** alanı da içerir.
 
 **Özellik yönetimi**, her biri çalışma alanı aynı zamanda içindeki özelliklerin listesi bulunan çeşitli sekmeler içerir.
 
@@ -63,7 +63,7 @@ Bazı özellikler, açmadan önce ek bilgi sağlayan bir ileti görüntüler. Bu
 
 Bazı özellikler, bir eylem alınıncaya kadar özelliğin etkinleştirilmediğini gösteren bir ileti görüntüler. Bu özellikler kırmızı X sembolüyle belirtilir. Özellik etkinleştirilmeden önce açıklama kısmında açıklanan eylemleri gerçekleştirmelisiniz. Örneğin, bir yapılandırma anahtarı devre dışı bırakılıncaya kadar bir özelliği kullanamazsını, önce yapılandırma anahtarını devre dışı bırakmanız ve ardından özelliği etkinleştirmek için özellik yönetimine geri dönmelisiniz.
 
-Özellik açıldıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu mesaj, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılmak üzere zamanladığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
+Özellik açıldıktan sonra, ayrıntılar bölmesindeki **Daha fazla bilgi edinin** bağlantısının altında bir ileti görüntülenir. Bu ileti, özelliğin açıldığını veya özelliğin gelecekteki bir zamanda açılmak üzere zamanladığını belirtir. İleti, özellik listesinde özelliği her seçtiğinizde görüntülenecektir.
 
 Gelecekte açık olarak zamanlanan özellikler **Zamanlanmış** sekmesinde görüntülenir. Sistem tarihiyle temsil edilen saat dilimine göre bir toplu işlem, belirtilen tarihteki gece yarısına açık olacak.
 
@@ -101,8 +101,8 @@ Etkinleştirilebilir tüm özellikler etkinleştirilecektir. Bir özellik gelece
 
 Varsayılan olarak, çalışma ortamınıza eklenen tüm özellikler zorunlu özellikler olmadıkça kapalıdır. Ancak, tüm yeni özellikleri otomatik olarak etkinleştirmek istiyorsanız, yeni özellikler eklendiğinde neler olacağını değiştirmek için çalışma alanı başlığının altındaki açılan listeyi kullanabilirsiniz.
 
-- **Yeni özellikleri otomatik olarak etkinleştir**'i seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
-- **Yeni özellikleri otomatik olarak etkinleştirme**'yi seçerek ortamınıza eklenen tüm yeni özelliklerin varsayılan olarak kapalı olmasını sağlayın.
+- `Enable new features automatically` öğesini seçerek ortamınıza eklenen tüm yeni özelliklerin otomatik açılmasını sağlayın.
+- `Do not enable new features automatically` öğesini seçerek ortamınıza eklenen tüm yeni özelliklerin varsayılan olarak kapalı olmasını sağlayın.
 
 
 Tüm özelliği otomatik olarak etkinleştirdiğinizde, **Tümünü Etkinleştir** düğmesini tıkladığınızda etkinleştirilecek tüm özellikleri etkinleştirir. Bu, onay gerektiren özellikleri veya bir eylem alınıncaya kadar etkinleştirilemez özellikleri etkinleştirmez.
@@ -138,7 +138,7 @@ Aşağıdaki örnekler, veri içe aktarmak için **Özellik Yönetimi** varlığ
 
 ## <a name="feature-management-and-flighting"></a>Özellik yönetimi ve denemesi
 
-Özellik yönetimi, her sürümde teslim edilen özellikleri denetlemenize olanak tanır. Deneme sürümü, Microsoft teams'in özellikleri sınırlı sayıda müşteriye sunmasını sağlayarak özelliklerin tüm müşterileri etkilemeden test edilebilmesini ve doğrulanabilmesini sağlar. Özellik yönetimi, herhangi bir özelliğin deneme sürümünü kontrol etmez.
+Özellik yönetimi, her sürümde sunulan özellikleri denetlemenize olanak tanır. Deneme sürümü, Microsoft teams'in özellikleri sınırlı sayıda müşteriye sunmasını sağlayarak özelliklerin tüm müşterileri etkilemeden test edilebilmesini ve doğrulanabilmesini sağlar. Özellik yönetimi, herhangi bir özelliğin deneme sürümünü kontrol etmez.
 
 ## <a name="new-features-are-optional-for-12-months"></a>12 ay için yeni özellikler isteğe bağlıdır
 
@@ -159,7 +159,7 @@ Hayır, özelliği zorunlu hale getirme otomatik bir eylem değildir. Ürün eki
 ### <a name="when-do-features-become-mandatory"></a>Ne zaman özellikler zorunlu hale gelir? 
 İlke, tüm yeni özelliklerin 12 aylık bir süre için kabul edilecek olması ve siz özelliği etkinleştirene kadar herhangi bir değişiklik yönetimi gerektirmemesidir. Ürün takımları, bu dönem sona erdikten sonra bir özelliğin zorunlu yapılıp yapılmayacağını seçebilir. 
 
-### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Neden belirli bir 'zorunluluk etkinleştirme tarihi' yok? 
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Neden belirli bir "zorunluluk nedeniyle etkinleştirme tarihi" yok? 
 Güncelleştirme sürümü zamanlaması değişkendir, ortam güncelleştirme zamanlaması değişkendir ve müşteriler bazı güncelleştirmeleri atlamayı isteyebilir. Sonuç olarak, belirli tarihler belirlenmesi zordur. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Zorunlu hale getirilen özellikler için belgeler nerededir? 
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Bazı özellik sınıfları tarafından uygulanan IFeatureLifecycle nedir?
 IFeatureLifecycle, özellik yaşam döngüsü aşamasını gösteren bir Microsoft iç mekanizmasıdır. Özellikler şu olabilir:
-- PrivatePreview - Sınırlı dağıtımın görünür olmasını gerektirir.
-- PublicPreview - Varsayılan olarak gösterilir ancak özelliğin önizlemede olduğunu belirten bir uyarı görüntülenir.
-- Serbest bırakıldı - Tamamen serbest bırakıldı.
+- `PrivatePreview`: Sınırlı dağıtımın görünür olmasını gerektirir.
+- `PublicPreview`: Varsayılan olarak gösterilir ancak özelliğin önizlemede olduğunu belirten bir uyarı görüntülenir.
+- `Released`: Tam olarak yayınlanmış.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

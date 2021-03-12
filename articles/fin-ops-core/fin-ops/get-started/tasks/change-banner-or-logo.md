@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 61c286391d83d70036dbed7eae6755cdefce5f2e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 73c66d189035f7bdc302480038c44645eccb50f9
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693679"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798082"
 ---
 # <a name="change-the-banner-or-logo"></a>Başlığı veya logoyu değiştirme
 
@@ -39,6 +39,3 @@ Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık r
 6. **Gezinti bölmesi > Modüller > Ortak > Ortak > Varsayılan pano**'ya gidin. Yeni başlık sayfası veya logo resmini panoda görmelisiniz.  
     
     Şirket seçiciyi kullanarak, şirketi kapak sayfası resmi yüklediğiniz şirketinize değiştirmeniz gerekebilir.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

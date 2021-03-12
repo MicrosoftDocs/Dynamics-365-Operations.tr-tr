@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694507"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798440"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 
@@ -40,7 +40,7 @@ Uyarı koşullarının işlenmesi ve gönderilecek bildirimler için veri deği�
 
 Uyarı kuralını tetikleyen olay, gelecek bir tarih veya meydana gelen belirli bir değişiklik olabilir. Olaylar için tetikleyiciler, **Uyarı kuralı oluştur** iletişim kutusunun **Beni uyarma zamanı** hızlı sekmesinde tanımlanır. Belirli bir alanda kullanılabilecek olaylar seçili tetikleyiciye bağlıdır.
 
-Örneğin, **Başlangıç tarihi** alanı için bir uyarı kuralı ayarlıyorsanız vade tarihi olayları uygundur. Bu nedenle, bu alanda **için kalan süre** olay türü kullanılabilir. Ancak **Maliyet merkezi** gibi bir alan için bir vade tarihi olayı uygun değildir. Bu nedenle, bu alanda **için kalan süre** olay türü kullanılamaz. Bunun yerine, **değişti** olay türü kullanılabilir.
+Örneğin, **Başlangıç tarihi** alanı için bir uyarı kuralı ayarlıyorsanız vade tarihi olayları uygundur. Bu nedenle, bu alanda `is due in` olay türü kullanılabilir. Ancak **Maliyet merkezi** gibi bir alan için bir vade tarihi olayı uygun değildir. Bu nedenle, bu alanda `is due in` olay türü kullanılamaz. Bunun yerine, `has changed` olay türü kullanılabilir.
 
 ## <a name="event-types"></a>Olay tipleri
 
@@ -77,7 +77,7 @@ Daha sonra, hangi satınalma siparişleri hakkında uyarı almak istediğinize k
 
 ## <a name="alerts-as-business-events"></a>İş olayları olarak uyarılar
 
-Uyarılar, iş etkinlikleri çerçevesi kullanılarak harici olarak gönderilebilir. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarıyı iş olayını harekete geçirdikten sonra, bir iş olayı ile Finance and Operations bağlayıcı üzerindeki **Bir iş etkinliği olurken** tetikleyicisini kullanrak Power Automate'de yerleşik bir akışı tetikleyebilirsiniz veya iş olayları son noktasına **İş etkinlikleri kataloğu** aracılığıyla olayı açıkça gönderebilirsiniz.
+İş olayları çerçevesini kullanarak uyarıları harici olarak gönderebilirsiniz. Bir uyarı oluştururken, **Organizasyon genelinde** **Hayır**'ı ayarlayın ve **harici gönder**'i **Evet** olarak ayarlayın. Uyarıyı iş olayını harekete geçirdikten sonra, bir iş olayı ile Finance and Operations bağlayıcı üzerindeki **Bir iş etkinliği olurken** tetikleyicisini kullanrak Power Automate'de yerleşik bir akışı tetikleyebilirsiniz veya iş olayları son noktasına **İş etkinlikleri kataloğu** aracılığıyla olayı açıkça gönderebilirsiniz.
 
 ## <a name="create-an-alert-rule"></a>Uyarı kuralı oluşturma
 
@@ -86,22 +86,19 @@ Uyarılar, iş etkinlikleri çerçevesi kullanılarak harici olarak gönderilebi
 2. Eylem Bölmesinde, **Seçenekler** sekmesindeki **Paylaş** grubunda **Uyarı kuralı oluştur**'u seçin.
 3. **Uyarı kuralı oluştur** iletişim kutusunda **Alan** alanında, izlenecek alanı seçin.
 4. **Olay** alanında, olay türünü seçin.
-5. **Beni uyar** hızlı sekmesinde istenen seçenek belirleyin. Uyarıyı bir iş olayı olarak göndermek istiyorsanız, **organizasyon genelindeki** **Hayır** olarak ayarlandığından emin olun.
+5. **Beni uyar** hızlı sekmesinde istenen seçenek belirleyin. Uyarıyı bir iş olayı olarak göndermek istiyorsanız, **Kuruluş genelinde** değerini **Hayır** olarak ayarlayın.
 6. Uyarı kuralı etkinliğinin belirli bir tarihte son bulması gerekiyorsa **Beni şu tarihe kadar uyar** hızlı sekmesinde bir bitiş tarihi seçin.
-7. **Bana gönderilecek uyarı biçimi** hızlı sekmesinde **Konu** alanında, e-posta iletisi için varsayılan konu başlığını kabul edin veya yeni bir konu girin. Metin, bir uyarı tetiklendiğinde aldığınız e-posta iletisinin konu başlığı olarak kullanılır. Uyarıyı bir iş olayı olarak göndermek istiyorsanız, **harici gönder**'i **Evet** olarak ayarlayın.
-8. **İleti** alanına, isteğe bağlı bir ileti girin. Metin, bir uyarı tetiklendiğinde aldığınız ileti olarak kullanılır.
+7. **Bana gönderilecek uyarı biçimi** hızlı sekmesinde **Konu** alanında, e-posta iletisi için varsayılan konu başlığını kabul edin veya yeni bir konu girin. Metin, bir uyarı tetiklendiğinde aldığınız e-posta iletisinin konu başlığı olur. Uyarıyı bir iş olayı olarak göndermek istiyorsanız, **harici gönder**'i **Evet** olarak ayarlayın.
+8. **İleti** alanına, isteğe bağlı bir ileti girin. Metin, bir uyarı tetiklendiğinde aldığınız ileti olur.
 9. Ayarları kaydetmek ve uyarı kuralı oluşturmak için **Tamam**'a tıklayın.
 
 ## <a name="limitations-and-workarounds"></a>Sınırlamalar ve geçici çözümler
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Bir formun ikincil veri kaynakları için uyarı oluşturmaya yönelik geçici çözüm
-Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturulamaz. Örneğin, müşteri veya satıcı deftere nakil profilleri formunda uyarı oluştururken, boyut hesapları değil, yalnızca başlıktaki alanlar (CustLedger veya VendLedger) kullanılabilir. Bu sınırlamanın geçici çözümü, bu tabloyu birincil veri kaynağı olarak açmak üzere **SysTableBrowser** kullanmaktır. 
+Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturamazsınız. Örneğin, müşteri veya satıcı deftere nakil profilleri formunda uyarı oluştururken, boyut hesapları değil, yalnızca başlıktaki alanlar (CustLedger veya VendLedger) kullanılabilir. Bu sınırlamanın geçici çözümü, bu tabloyu birincil veri kaynağı olarak açmak üzere **SysTableBrowser** kullanmaktır. 
 1. Tabloyu **SysTableBrowser** formunda açın.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
     ```
 2. SysTableBrowser formundan bir uyarı oluşturun.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

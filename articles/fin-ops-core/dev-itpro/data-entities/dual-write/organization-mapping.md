@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680084"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744705"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse'da kuruluş hiyerarşisi
 
@@ -49,9 +49,9 @@ Kuruluş hiyerarşisi tablo eşlemeleri, Finance and Operations uygulamalarında
 
 Finance and Operations uygulamaları | Diğer Dynamics 365 uygulamaları | Tanım
 -----------------------|--------------------------------|---
-Kuruluş hiyerarşisi amaçları | msdyn_internalorganizationhierarchypurposes | Bu şablon, Kuruluş Hiyerarşisi Amacı varlığının tek yönlü eşitlemesini sağlar.
-Kuruluş hiyerarşisi türü | msdyn_internalorganizationhierarchytypes | Bu şablon, Kuruluş Hiyerarşisi Türü varlığının tek yönlü eşitlemesini sağlar.
-Yayımlanan kuruluş hiyerarşisi | msdyn_internalorganizationhierarchies | Bu şablon, Yayımlanan Kuruluş Hiyerarşisi varlığının tek yönlü eşitlemesini sağlar.
+Kuruluş hiyerarşisi amaçları | msdyn_internalorganizationhierarchypurposes | Bu şablon, Kuruluş Hiyerarşisi Amacı tablosunun tek yönlü eşitlemesini sağlar.
+Kuruluş hiyerarşisi türü | msdyn_internalorganizationhierarchytypes | Bu şablon, Kuruluş Hiyerarşisi Türü tablosunun tek yönlü eşitlemesini sağlar.
+Kuruluş hiyerarşisi - yayımlandı | msdyn_internalorganizationhierarchies | Bu şablon, Yayımlanan Kuruluş Hiyerarşisi tablosunun tek yönlü eşitlemesini sağlar.
 Faaliyet birimi | msdyn_internalorganizations |
 Tüzel kişilikler | msdyn_internalorganizations |
 Tüzel kişilikler | cdm_companies | Tüzel kişilik (şirket) bilgilerinin iki yönlü eşitlemesini sağlar.
@@ -73,6 +73,3 @@ Dataverse'teki dahili kuruluş bilgileri iki tablodan gelir: **faaliyet birimi**
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

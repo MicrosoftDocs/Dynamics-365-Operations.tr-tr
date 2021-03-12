@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683756"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744387"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Çift yazma için para birimi veri türü geçişi
 
@@ -44,11 +44,11 @@ Geçiş isteğe bağlıdır. Daha fazla ondalık basamak desteğinden avantaj sa
 
 ## <a name="requesting-migration-from-microsoft"></a>Microsoft'tan geçiş talep etme
 
-Dataverse'teki mevcut para birimi alanları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni iç alanlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi alanları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Dataverse kesinti olmadan kullanılabilir.
+Dataverse'teki mevcut para birimi sütunları için depolama, dörtten fazla ondalık basamak destekleyemez. Bu nedenle, geçiş işlemi sırasında, para birimi değerleri veritabanındaki yeni dahili sütunlara kopyalanır. Bu işlem, tüm veriler geçirilene kadar sürekli olarak gerçekleşir. Dahili olarak, geçişin sonunda yeni depolama türleri eski depolama türlerinin yerini alır, ancak veri değerleri değiştirilmez. Böylece para birimi sütunları en fazla 10 ondalık basamağı destekleyebilir. Geçiş işlemi sırasında Dataverse kesinti olmadan kullanılabilir.
 
 Aynı zamanda, döviz kurları, geçerli 10 limiti yerine 12'ye kadar ondalık basamağı destekleyecek şekilde değiştirilir. Bu değişiklik, ondalık basamak sayısının hem Finance and Operations hem de Dataverse'te aynı olmasını sağlamak için gereklidir.
 
-Geçiş hiçbir veriyi değiştirmez. Para birimi ve döviz kuru alanları dönüştürüldükten sonra, yöneticiler hem hareket para birimi hem de fiyatlandırma için ondalık basamak sayısını belirterek sistemi, para birimi alanları için en çok 10 ondalık basamak kullanacak şekilde yapılandırabilir.
+Geçiş hiçbir veriyi değiştirmez. Para birimi ve döviz kuru sütunları dönüştürüldükten sonra, yöneticiler her hareket para birimi ve fiyatlandırma için ondalık basamak sayısını belirterek sistemi, para birimi sütunları için en çok 10 ondalık basamak kullanacak şekilde yapılandırabilir.
 
 ### <a name="request-a-migration"></a>Geçiş talep etme
 
@@ -72,29 +72,26 @@ Geçiş tamamlandıktan sonra, Dataverse daha fazla ondalık basamak içeren say
 
 Bu değişikliği yapmak için Power Apps'te aşağıdaki ayarları güncelleştirmeniz gerekir:
 
-+ **Sistem Ayarları: Fiyatlandırma için para birimi duyarlığı** – **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanı **Fiyatlandırma Duyarlığı**  seçildiğinde, para biriminin kuruluş için nasıl davranacağını tanımlar.
-+ **İş Yönetimi: Para birimleri** – **Para Birimi Duyarlığı** alanı, belirli bir para birimi için özel bir ondalık basamak sayısı belirlemenizi sağlar. Kuruluş genelinde ayara geri dönüş vardır.
++ **Sistem Ayarları: Fiyatlandırma için para birimi duyarlığı** - **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** sütunu **Fiyatlandırma Duyarlılığı** seçildiğinde, para biriminin kuruluş için nasıl davranacağını tanımlar.
++ **İş Yönetimi: Para birimleri** - **Para Birimi Duyarlığı** sütunu, belirli bir para birimi için özel bir ondalık basamak sayısı belirlemenizi sağlar. Kuruluş genelinde ayara geri dönüş vardır.
 
 Bazı kısıtlamalar bulunur:
 
-+ Bir varlık üzerinde para birimi alanını yapılandıramazsınız.
++ Bir tablo üzerinde para birimi sütununu yapılandıramazsınız.
 + Yalnızca **Fiyatlandırma** ve **Hareket Para Birimi** düzeylerinde dörtten fazla ondalık basamak belirtebilirsiniz.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Sistem Ayarları: Fiyatlandırma için para birimi duyarlığı
 
-Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Sistem genelinde fiyatlandırma için kullanılan para birimi duyarlığını ayarla** alanındaki değeri aşağıda gösterildiği şekilde değiştirin.
+Geçiş tamamlandıktan sonra, yöneticiler para birimi duyarlığını ayarlayabilir. **Ayarlar \> Yönetim**'e gidin ve **Sistem Ayarları**'nı seçin. Daha sonra, **Genel** sekmesinde, **Tüm sistemde fiyatlandırma için kullanılan para birimi duyarlığını ayarlayın** sütunundaki değeri aşağıda gösterildiği şekilde değiştirin.
 
 ![Para birimi sistem ayarları](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>İş Yönetimi: Para Birimleri
 
-Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** alanını istediğiniz ondalık basamak sayısına ayarlayın.
+Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için kullanılan para birimi duyarlığından farklı olmasını istiyorsanız, bunu değiştirebilirsiniz. **Ayarlar \> İş Yönetimi**'ne gidin **Para birimleri**'ni ve ardından değiştirilecek para birimini seçin. Sonra, aşağıdaki çizimde gösterildiği gibi, **Para Birimi Duyarlığı** sütununu istediğiniz ondalık basamak sayısına ayarlayın.
 
 ![Belirli bir yerel ayarın para birimi ayarları](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tablolar: Para birimi alanı
+### <a name="tables-currency-column"></a>tablolar: Para birimi sütunu
 
-Belirli para birimi alanları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Belirli para birimi sütunları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.
