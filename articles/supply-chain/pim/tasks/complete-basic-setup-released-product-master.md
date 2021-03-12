@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ac4ceeb3e21ab089eb16565bb6e38c7eb44be80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 668b60efa55fa553cf308d5bfc5da7e23f460366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439309"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987041"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Serbest bırakılan ana ürünün temel kurulumunu tamamlama
 
@@ -53,6 +52,3 @@ Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını a�
 20. Sayfayı kapatın.
 21. **Serbest bırakılan ürün detayları** formunu kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

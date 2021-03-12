@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a77196be69bb71d917bf84c633199a3af3fbf478
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986041"
 ---
 # <a name="promo-banner-module"></a>Promosyon başlık modülü
 
@@ -96,6 +95,3 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 [İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

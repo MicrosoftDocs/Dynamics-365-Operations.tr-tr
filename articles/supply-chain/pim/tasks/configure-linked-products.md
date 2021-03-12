@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98cd12e04d8a9a41cd6987f58f46cfe9a761ee2e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fa38ed951db0b28387c61e23a19381c1c7895d8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439307"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986991"
 ---
 # <a name="configure-linked-products"></a>Bağlı ürünleri yapılandırma
 
@@ -40,6 +39,3 @@ Bu yordam, bağlantılı ürünlerin nasıl yapılandırılacağını açıklar.
 10. Miktar alanına bir sayı girin.
 11. Kaydet'e tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

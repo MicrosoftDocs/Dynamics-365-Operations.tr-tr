@@ -3,7 +3,7 @@ title: Sepet modülü
 description: Bu konu sepet modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4416583"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985991"
 ---
 # <a name="cart-module"></a>Sepet modülü
 
@@ -53,6 +52,7 @@ Aşağıdaki resimde fabrikam sitesindeki bir sepet sayfası örneği gösterilm
 | Başlık | Başlık metmi ve başlık etiketi (**H1**, **H2**, **H3**, **H4**, **H5** veya **H6**) | "Alışveriş çantası" veya "Sepetinizdeki maddeler" gibi bir sepet başlığı. |
 | Stokta yok hatalarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, alışveriş sepeti sayfası stokla ilgili hataları gösterir. Sitede stok denetimleri uygulanıyorsa bu özelliği **Doğru** olarak ayarlamanız önerilir. |
 | Kalemler için sevkiyat masraflarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, bu bilginin var olması durumunda sepet satırı maddeleri sevkiyat giderlerini gösterir. Kullanıcılar ödeme akışında yalnızca sevkiyatı seçtiğindan bu özellik Fabrikam temasında desteklenmez. Ancak, varsa bu özellik diğer iş akışlarında etkinleştirilebilir. |
+| Mevcut promosyonları göster| **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa alışveriş sepeti, içindeki ürünlere göre mevcut promosyonları gösterir. Bu özellik Dynamics 365 Commerce sürüm 10.0.16'da kullanılabilir. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Sepet modülünde kullanılabilen modüller
 
@@ -117,6 +117,3 @@ Bir yeni sayfaya sepet modülü eklemek ve gerekli özellikleri ayarlamak için 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
 
 [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f4c71d1b0e756cc20fa68bf79102479447cf8f86
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448856"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988057"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Malların şirket içinde taşınması için transfer belgelerini ayarlama
 
@@ -74,6 +73,3 @@ Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri o
 10. Sevk irsaliyesi'ne tıklayın.
 11. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

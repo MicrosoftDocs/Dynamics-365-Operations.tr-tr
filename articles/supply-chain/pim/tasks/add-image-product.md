@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductPerCompanyImagePart, EcoResProductImage, DocumentUpload
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4bcea2107c1510423145f6246c7b71d05598e79
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dd18d93c53a213b1b110da27c601590cabd17d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439311"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987091"
 ---
 # <a name="add-an-image-to-a-product"></a>Ürüne resim ekleme
 
@@ -37,6 +36,3 @@ Bu yordam, bir ürüne bir resmin nasıl ekleneceğini gösterir. Bu görevi olu
 5. Yeni'ye tıklayın.
     * Gözat düğmesine tıklayın. Kullanmak istediğiniz resmi bulun, seçin ve ardından iletişim kutusunu kapatın.    
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

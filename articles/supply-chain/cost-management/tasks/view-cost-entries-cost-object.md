@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b809c66243d3274bd06b72173ecf4f8a6c04ad4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62989c5a94a15578109b722d3f563f8b986e6e58
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439059"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987541"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Maliyet nesnesi için maliyet girişlerini görüntüleme
 
@@ -39,6 +38,3 @@ Bu yordam, bir maliyet nesnesi için maliyet girişlerinin nasıl görüntülene
 7. 'p000031' değerine sahip Numara alanlarında filtre uygulamak için Hızlı Filtre'yi kullanın.
     * Maliyeti girişleri boş ise, Başlangıç tarihini 31 Ocak 2012 ve bitiş tarihini 31 Aralık 2012 olarak işaretleyin.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

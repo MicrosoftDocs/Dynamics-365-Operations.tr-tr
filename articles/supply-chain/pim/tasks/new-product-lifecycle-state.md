@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab5624423c3e463d673e91bd056e5e80d9bb9944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce5d708f3ac4b7dc9c2048538b53c42334e0ecc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439153"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986841"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Yeni ürün yaşam döngüsü durumu oluşturma
 
@@ -35,6 +34,3 @@ Bu prosedürde yeni bir ürün yaşam döngüsü durumunun nasıl oluşturulaca�
 3. Durum alanına bir değer yazın.
 4. Açıklama alanına bir değer girin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
