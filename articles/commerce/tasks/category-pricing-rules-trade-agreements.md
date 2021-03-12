@@ -11,51 +11,50 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a945a0f49df92731175c1624da98831bbc5bb741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006097"
 ---
-# <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="d7d02-103">Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları</span><span class="sxs-lookup"><span data-stu-id="d7d02-103">Category pricing rules to create trade agreements</span></span>
+# <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="a938e-103">Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları</span><span class="sxs-lookup"><span data-stu-id="a938e-103">Category pricing rules to create trade agreements</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d7d02-104">Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret anlaşmalarının nasıl oluşturulacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="d7d02-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="d7d02-105">Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir.</span><span class="sxs-lookup"><span data-stu-id="d7d02-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="d7d02-106">Bu görev, Commerce ticaret yöneticisi rolü için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="d7d02-106">This task is intended for the Commerce merchandising manager role.</span></span>
+<span data-ttu-id="a938e-104">Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret anlaşmalarının nasıl oluşturulacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="a938e-104">This procedure demonstrates how to create sales price trade agreements using a category pricing rule.</span></span> <span data-ttu-id="a938e-105">Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir.</span><span class="sxs-lookup"><span data-stu-id="a938e-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="a938e-106">Bu görev, Commerce ticaret yöneticisi rolü için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="a938e-106">This task is intended for the Commerce merchandising manager role.</span></span>
 
-1. <span data-ttu-id="d7d02-107">Fiyatlandırma ve iskonto yönetimi öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-107">Click Pricing and discount management.</span></span>
-2. <span data-ttu-id="d7d02-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-108">Click New.</span></span>
-3. <span data-ttu-id="d7d02-109">Kategori fiyatı kuralına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-109">Click Category price rule.</span></span>
-4. <span data-ttu-id="d7d02-110">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-110">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="d7d02-111">Hesap kodu alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-111">In the Account code field, select an option.</span></span>
-    * <span data-ttu-id="d7d02-112">"Grup" türü hesap kodu, belirli Kanallar, bağlılık programları, kataloglar ve ilişkiler için satış fiyatlı ticari anlaşmaları ayarlamakta kullanılır.</span><span class="sxs-lookup"><span data-stu-id="d7d02-112">A "Group" type account code is used to set up sales price trade agreements that are specific for Channels, Loyalty programs, Catalogs, and Affiliations.</span></span>  
-6. <span data-ttu-id="d7d02-113">Hesap seçim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-113">In the Account selection field, enter or select a value.</span></span>
-7. <span data-ttu-id="d7d02-114">Kategori alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-114">In the Category field, enter or select a value.</span></span>
-8. <span data-ttu-id="d7d02-115">Tutar/Yüzde alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-115">In the Amount/Percent field, enter a number.</span></span>
-9. <span data-ttu-id="d7d02-116">Yuvarlama sürümü alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-116">In the Rounding version field, enter or select a value.</span></span>
-10. <span data-ttu-id="d7d02-117">Ticari sözleşmeler oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-117">Click Generate trade agreements.</span></span>
-11. <span data-ttu-id="d7d02-118">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-118">Click Next.</span></span>
-12. <span data-ttu-id="d7d02-119">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-119">In the From date field, enter a date.</span></span>
-13. <span data-ttu-id="d7d02-120">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-120">In the To date field, enter a date.</span></span>
-14. <span data-ttu-id="d7d02-121">Sonrakini bul alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-121">Select Yes in the Find next field.</span></span>
-15. <span data-ttu-id="d7d02-122">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-122">Click Next.</span></span>
-16. <span data-ttu-id="d7d02-123">Son düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-123">Click Finish.</span></span>
-    * <span data-ttu-id="d7d02-124">Bu bir ticari sözleşme günlüğü oluşturur ve gözden geçirmeniz için açar.</span><span class="sxs-lookup"><span data-stu-id="d7d02-124">This creates a Trade agreement journal and opens it for your review.</span></span>  
-17. <span data-ttu-id="d7d02-125">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d7d02-126">Kategori fiyatlandırma kurallarından oluşturulan ticari sözleşme günlükleri kayıt edilmez.</span><span class="sxs-lookup"><span data-stu-id="d7d02-126">The trade agreement journals created from the Category pricing rules aren't posted.</span></span> <span data-ttu-id="d7d02-127">Fiyatları deftere nakletmeden önce gözden geçirin ve fiyatlarını düzenleyin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-127">You can  review and edit the prices generated before posting them.</span></span>  
-18. <span data-ttu-id="d7d02-128">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-128">Click Edit.</span></span>
-19. <span data-ttu-id="d7d02-129">Para birimi miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d7d02-129">In the Amount in currency field, enter a number.</span></span>
-20. <span data-ttu-id="d7d02-130">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-130">Click Post.</span></span>
-21. <span data-ttu-id="d7d02-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-131">Click OK.</span></span>
-22. <span data-ttu-id="d7d02-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-132">Close the page.</span></span>
-23. <span data-ttu-id="d7d02-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-133">Close the page.</span></span>
-24. <span data-ttu-id="d7d02-134">Kategori fiyatı kuralları sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d7d02-134">Click the Category price rules tab.</span></span>
-    * <span data-ttu-id="d7d02-135">Kanal için belirli kategori fiyatlandırma kuralları bu listede gösterilir.</span><span class="sxs-lookup"><span data-stu-id="d7d02-135">Channel specific Category pricing rules will show in this list.</span></span>  
+1. <span data-ttu-id="a938e-107">Fiyatlandırma ve iskonto yönetimi öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-107">Click Pricing and discount management.</span></span>
+2. <span data-ttu-id="a938e-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-108">Click New.</span></span>
+3. <span data-ttu-id="a938e-109">Kategori fiyatı kuralına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-109">Click Category price rule.</span></span>
+4. <span data-ttu-id="a938e-110">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="a938e-110">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="a938e-111">Hesap kodu alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-111">In the Account code field, select an option.</span></span>
+    * <span data-ttu-id="a938e-112">"Grup" türü hesap kodu, belirli Kanallar, bağlılık programları, kataloglar ve ilişkiler için satış fiyatlı ticari anlaşmaları ayarlamakta kullanılır.</span><span class="sxs-lookup"><span data-stu-id="a938e-112">A "Group" type account code is used to set up sales price trade agreements that are specific for Channels, Loyalty programs, Catalogs, and Affiliations.</span></span>  
+6. <span data-ttu-id="a938e-113">Hesap seçim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-113">In the Account selection field, enter or select a value.</span></span>
+7. <span data-ttu-id="a938e-114">Kategori alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-114">In the Category field, enter or select a value.</span></span>
+8. <span data-ttu-id="a938e-115">Tutar/Yüzde alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="a938e-115">In the Amount/Percent field, enter a number.</span></span>
+9. <span data-ttu-id="a938e-116">Yuvarlama sürümü alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-116">In the Rounding version field, enter or select a value.</span></span>
+10. <span data-ttu-id="a938e-117">Ticari sözleşmeler oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-117">Click Generate trade agreements.</span></span>
+11. <span data-ttu-id="a938e-118">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-118">Click Next.</span></span>
+12. <span data-ttu-id="a938e-119">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="a938e-119">In the From date field, enter a date.</span></span>
+13. <span data-ttu-id="a938e-120">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="a938e-120">In the To date field, enter a date.</span></span>
+14. <span data-ttu-id="a938e-121">Sonrakini bul alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-121">Select Yes in the Find next field.</span></span>
+15. <span data-ttu-id="a938e-122">İleri düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-122">Click Next.</span></span>
+16. <span data-ttu-id="a938e-123">Son düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-123">Click Finish.</span></span>
+    * <span data-ttu-id="a938e-124">Bu bir ticari sözleşme günlüğü oluşturur ve gözden geçirmeniz için açar.</span><span class="sxs-lookup"><span data-stu-id="a938e-124">This creates a Trade agreement journal and opens it for your review.</span></span>  
+17. <span data-ttu-id="a938e-125">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="a938e-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a938e-126">Kategori fiyatlandırma kurallarından oluşturulan ticari sözleşme günlükleri kayıt edilmez.</span><span class="sxs-lookup"><span data-stu-id="a938e-126">The trade agreement journals created from the Category pricing rules aren't posted.</span></span> <span data-ttu-id="a938e-127">Fiyatları deftere nakletmeden önce gözden geçirin ve fiyatlarını düzenleyin.</span><span class="sxs-lookup"><span data-stu-id="a938e-127">You can  review and edit the prices generated before posting them.</span></span>  
+18. <span data-ttu-id="a938e-128">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-128">Click Edit.</span></span>
+19. <span data-ttu-id="a938e-129">Para birimi miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="a938e-129">In the Amount in currency field, enter a number.</span></span>
+20. <span data-ttu-id="a938e-130">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-130">Click Post.</span></span>
+21. <span data-ttu-id="a938e-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a938e-131">Click OK.</span></span>
+22. <span data-ttu-id="a938e-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-132">Close the page.</span></span>
+23. <span data-ttu-id="a938e-133">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-133">Close the page.</span></span>
+24. <span data-ttu-id="a938e-134">Kategori fiyatı kuralları sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a938e-134">Click the Category price rules tab.</span></span>
+    * <span data-ttu-id="a938e-135">Kanal için belirli kategori fiyatlandırma kuralları bu listede gösterilir.</span><span class="sxs-lookup"><span data-stu-id="a938e-135">Channel specific Category pricing rules will show in this list.</span></span>  
 
