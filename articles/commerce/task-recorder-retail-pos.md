@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416487"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006147"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
@@ -34,7 +33,7 @@ Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl k
 
 ## <a name="overview"></a>Genel bakış
 
-Retail Modern POS veya Bulut POS içerisindeki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
+Retail Modern POS veya Bulut POS'taki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
 
 ## <a name="architecture"></a>Mimari
 
@@ -56,7 +55,7 @@ Görev kaydetmeyi POS'da etkinleştirmek için şu adımları izleyin.
 Görev kaydedicisini kullanarak yeni bir kayıt oluşturmak için şu adımları izleyin.
 
 1. Retail Modern POS veya Bulut POS'u başlatın ve oturum açın.
-2. **Ayarlar** sayfasında, **Görev Kaydedici** bölümünde **Görev kaydediciyi aç** üzerine tıklayın. **Görev kaydedici** bölmesi görüntülenir. Yeni bir kayda başlamadan önce sağ üst köşedeki **Kapat** düğmesi (**X**) üzerine tıklayarak **Görev kaydediciyi** kapatabilirsiniz. Bölmeyi yeniden açmak için, 2. adımı tekrar edin.
+2. **Ayarlar** sayfasında, **Görev Kaydedici** bölümünde **Görev kaydediciyi aç** üzerine tıklayın. **Görev kaydedici** bölmesi görüntülenir. Yeni bir kayda başlamadan önce sağ üst köşedeki **Kapat** düğmesi (**X**) üzerine tıklayarak **Görev kaydediciyi** kapatabilirsiniz. Bölmeyi yeniden açmak için, 2. adımı tekrar edin.
 
     [![Görev kaydedici bölmesi](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
@@ -146,6 +145,3 @@ Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımla
 
 > [!NOTE]
 > Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir. Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

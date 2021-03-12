@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog, WorkPeriodTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5bd1b384fe66dd7d59b776bdf1154cc5b8262ce
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 10e8e43900fd25f0051124d761dc7b06d4f9313a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439005"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006829"
 ---
 # <a name="create-working-time-templates"></a>Çalışma süresi şablonları oluşturma
 
@@ -79,6 +78,3 @@ ms.locfileid: "4439005"
 3. Pazar bölümünü genişletin.
 4. Malzeme çekme için Kapatıldı alanında Evet seçeneğini belirleyin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

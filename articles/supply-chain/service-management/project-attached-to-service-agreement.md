@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c0a1ebd51830766332929792ddc0256ab15f5b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d28219698896e6515eecac5214f3cac1d8f5f034
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439472"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006603"
 ---
 # <a name="project-attached-to-service-agreement"></a>Servis anlaşmasına iliştirilmiş proje 
 
@@ -37,6 +36,3 @@ Tüm servis siparişi hareketlerini, servis anlaşmasına iliştirdiğiniz proje
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

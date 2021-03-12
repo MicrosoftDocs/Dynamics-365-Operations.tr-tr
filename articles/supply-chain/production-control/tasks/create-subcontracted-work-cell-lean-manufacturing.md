@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bc1e8551bbebd11cad18d47f9e74a2dedcb908d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86838eb81f42b0f930f3989f7edfa5ee724bd05e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439010"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006903"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Yalın imalat için alt sözleşmeli iş hücresi oluşturma
 
@@ -71,6 +70,3 @@ Yalın imalat için taşeron işi modellemek için işi sağlayan satıcı ile i
 24. Birim alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 25. Birimi ResolveChanges.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

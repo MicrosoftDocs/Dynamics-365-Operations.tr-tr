@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec91198e86b123fd886fb220c8a35c98cdfc8fdd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438970"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006528"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Müşteri sitesindeki nesneleri göstermek üzere şablon ayarlama 
 
@@ -55,6 +54,3 @@ Bir müşteri sitesindeki nesneleri temsil eden bir şablon ayarlamak için bu y
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
