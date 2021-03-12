@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439170"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001861"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -227,6 +226,3 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

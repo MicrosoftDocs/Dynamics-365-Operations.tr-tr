@@ -12,17 +12,16 @@ ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5f327d1d0b38ad724da6a302cefc115262317812
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439586"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001711"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
@@ -59,7 +58,7 @@ Ana ürünü, birim dönüştürmeyi her çeşit için destekleyecek şekilde ya
     - **Ürün**: Bu değeri seçerseniz ana ürün için birim dönüştürme ayarlayabilirsiniz. Bu birim dönüştürme, birim dönüştürmenin tanımlanmadığı tüm ürün çeşitleri için geri dönüş olarak kullanılacaktır.
     - **Ürün çeşidi**: Bu değeri seçerseniz belirli bir ürün çeşidi için birim dönüştürme ayarlayabilirsiniz. Ürün çeşidini seçmek için **Ürün çeşidi** alanını kullanın.
 
-    ![![Yeni bir birim dönüştürme ekleme](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")](media/uom-new-conversion.png "Adding a new unit conversion")
+    ![Yeni bir birim dönüştürme ekleme](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")
 
 1. Birim dönüştürmenizi ayarlamak için sağlanan diğer alanları kullanın.
 1. Yeni birim dönüştürmeyi kaydetmek için **Tamam**'ı seçin.
@@ -107,6 +106,3 @@ Birim dönüştürmelerini Excel'e aktarmak için **Birim dönüştürmeleri** s
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Ölçü birimini yönetme](tasks/manage-unit-measure.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

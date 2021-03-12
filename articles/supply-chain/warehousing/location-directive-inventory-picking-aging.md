@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439619"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004639"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
@@ -120,7 +119,7 @@ FIFO stratejisi, en eski yaşlandırma tarihini içeren konumu bulur ve bu yaşl
 1. **Satış siparişi** sayfasında, Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda **Ambara serbest bırak**'ı seçin. Bilgi iletileri alırsınız. Sistem bir sevkiyat oluşturur, bunu yeni bir yüklemeye ekler ve gerekli işi oluşturur.
 1. **Satış siparişi satırları** hızlı sekmesinde, **Ambar** menüsünde, bu satış siparişi için oluşturulan işi açmak için **İş ayrıntıları**'nı seçin. **İş türü** değerinin *Çekme* olduğu satırın *FL-002* değerine sahip bir **Yerleşim** gösterdiğine dikkat edin. Bu yerleşim, en eski yaşlandırma tarihine sahip (FIFO) plakayı içerir.
 1. **Ambar \> Sevkiyat ayrıntıları**'nı seçin.
-1. ***Genel** hızlı sekmesinde, senaryo 2'de kullanabilmek için dalga kodunu not edin.
+1. **_Genel_** hızlı sekmesinde, senaryo 2'de kullanabilmek için dalga kodunu not edin.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Senaryo 2: LIFO yerleşim yaşlandırması ayarlama ve kullanma
 
@@ -140,6 +139,3 @@ LIFO stratejisi, en yeni yaşlandırma tarihini içeren konumu bulur ve bu yaşl
 1. **İş türü** değerinin *Çekme* olduğu satırın *FL-001* değerine sahip bir **Yerleşim** gösterdiğine dikkat edin. Bu yerleşim, en yeni yaşlandırma tarihine sahip (LIFO) plakayı içerir.
 
 Bu senaryolarda, seçilen stratejiye bağlı olarak, yerleşim yaşlandırma stratejisinin işi en eski stoğa veya en yeni stoğa sahip stok yerleşimine nasıl yönlendirdiğini gördünüz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

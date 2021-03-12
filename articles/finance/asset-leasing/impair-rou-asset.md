@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4449024"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003268"
 ---
 # <a name="impair-right-of-use-assets"></a>Kullanım hakkı varlıklarının değerini düşürme
 
@@ -102,6 +101,3 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
 7. Değer düşüşünün net etkisini görmek için, yükümlülük ve varlık hareketleri tablolarına gidin. Değer düşüşü giderinin ROU varlığını azaltmasına rağmen kiralama yükümlülüğü defter tutarını değiştirmediğine dikkat edin.
 
 Değer düşüşünün dikkate almanız gereken başka bir etkisi daha bulunur. ROU varlık tutarı artık kiralama yükümlülüğünden çok daha düşük olduğundan, tutar daha önce olduğundan farklı bir şekilde amorti edilmelidir. Özellikle, varlık artık hareket tarihinden başlayarak kalan 84 kiralama ayı boyunca sabit esasa göre amorti edilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

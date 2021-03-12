@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d903f557fbaeb720dd4a34dc1c772be0dcb56eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9221101581a6a130889b7c941ca228070a000c56
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448807"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003168"
 ---
 # <a name="deposit-customer-payments"></a>Müşteri ödemelerini havale etme
 
@@ -48,6 +47,3 @@ Müşteri ödemelerini havale edin. Bu görevde USMF demo şirketi kullanılmakt
 17. **Tamam**'ı seçin. Havale makbuzu oluşturmak için ilk sayfa kullanılır.  
 18. **Tamam**'ı seçin. İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

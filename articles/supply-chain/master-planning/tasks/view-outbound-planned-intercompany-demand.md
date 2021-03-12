@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqOutboundIntercompanyDemand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 259ce229c18466b7d29fd231dc3f0be8a6906c6b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f97cccc0d27d1154d8f8cb5018cf5040efcf190a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439073"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001786"
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Giden planlanmış şirketlerarası talebi görüntüleme
 
@@ -43,6 +42,3 @@ Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı sip
 8. Yukarı doğru talep ayrıntıları bölümünü genişletin.
     * Bu bölümde, talebin nasıl karşılanacağıyla ilgili ayrıntıları görebilirsiniz. Burada ek bilgiler görmeden önce tedarik şirketinde master planlamanın çalıştırılmasını beklemeniz gerekebilir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

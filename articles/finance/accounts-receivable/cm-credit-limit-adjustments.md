@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d55a7c5e24213f70a1b71f89691f0e5be8c36f10
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5879f7f89d010c4d61536004c1077ca3270a98f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448781"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003464"
 ---
 # <a name="credit-limit-adjustments"></a>Alacak limiti ayarlamaları 
 
@@ -124,6 +123,3 @@ Kredi limiti ayarlama satırları oluşturduktan sonra, girişleri deftere nakle
 
 > [!NOTE]
 > **Kredi limiti ayarlamaları** iş akışı oluşturduğunuzda, bu iş akışını, satırlar onaylandıktan sonra ayarlamalar otomatik olarak deftere nakledilecek şekilde ayarlayabilirsiniz. İş akışına **Günlüğü otomatik olarak deftere naklet** görevini eklemeniz yeterlidir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 63f2d3dc55799efefaedb10134edb219fa8588e0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4449035"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003590"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Satıcı ödeme tekliflerini otomatikleştirme
 
@@ -144,6 +143,3 @@ Satıcı ödeme teklifi için aşağıdaki görevler ve ayrıcalıklar eklendi. 
 | Zamanlama tekrarlarıyla sorgulama | Borç hesapları ödeme memuru, borç hesapları Merkezi ödeme memuru | Bu vergi, aşağıdaki ayrıcalıklar sayesinde ödeme teklifi Otomasyonu oluşumlarını görüntüleme hakkını verir:<ul><li>Çizelge tekrarlamalarını görüntüle</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul> |
 | Zamanlama serisine sorgula      | Hiçbiri                                                                       | Bu vergi, aşağıdaki ayrıcalıklar sayesinde seri ayarlarını ve oluşumlarını görüntüleme hakkını verir:<ul><li>Çizelge tekrarlamalarını görüntüle</li><li>Oluşum listesi sayfasını görüntüle</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul>|
 | Çizelge tekrarlamalarını koru     | Hiçbiri                                                                       | Bu vergi, aşağıdaki ayrıcalıklarla bir oluşumu oluşturma ve bakımını yapma hakkını verir:<ul><li>Çizelge tekrarlamalarını koru</li><li>Oluşumlar görüntüle Haftalık Görünüm</li></ul> |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

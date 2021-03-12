@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439614"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004496"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -87,6 +86,3 @@ Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki
 
 Bir kanban üretim girişi konumunda tüketildikten sonra, kanban boş olarak kaydedilir ve yeni bir kanban akışa eklenir. Kanban oluşturulduğunda, bir dalga satırı kanban dalgasına atanır. Bir kanban dalgası işlendiğinde, kanban çekme için bir ambar işi oluşturulur. Ambar çalışan, kanban çekme için işi işleme alır ve iş tarafından kanban için malzemeleri bir ambar konumundan almaya yönlendirilir. Bu ambar çalışanı çekmeyi onayladığında, kanban otomatik tamamlanır ve ambar çalışanı malzemeyi üretim giriş konumuna koymaya yönlendirilir.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

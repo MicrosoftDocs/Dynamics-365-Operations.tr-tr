@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439321"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001811"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
@@ -143,6 +142,3 @@ Kapsama grubu takvimine ilişkin olarak, master planlamada bir geçersiz kılma 
 
 ### <a name="updating-scm-related-calendars"></a>SCM ilgili takvimleri güncelleştirmek
 Tüm ilgili takvimlerin karşılık gelen yerlerde atanmış olması önemliyken (satıcı, müşteri, ambar, teslimat modu veya kapsama grubu), değişiklikleri yansıtmaları için bunları güncelleştirmek de aynı şekilde önemlidir. Sistem üretim, transfer, satın alma ve satış siparişi tarihlerini atanmış takvimlerin kombinasyonuna bağlı olarak tanımlar. Takvimleri karşılık gelen bölgelerinde atamak ve güncelleştirmek için kimin sorumluluğa sahip olduğunu belirtmek en iyi uygulamadır. İş günlerinde bir bozulma veya diğer bir olağandışı değişiklik olması durumunda, takvimleri buna göre güncelleştirmek önemlidir. Takvimlere dayanan tüm görevlerin, örneğin master planlama ve üretim zamanlama gibi, takvimler güncelleştirildikten sonra yeniden çalıştırılması gerekir. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

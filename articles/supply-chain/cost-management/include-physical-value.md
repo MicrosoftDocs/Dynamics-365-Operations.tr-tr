@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5685fd384e240c1bc6236dbddf678c8d6d9c8c66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439277"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005514"
 ---
 # <a name="include-physical-value"></a>Fiziksel değeri dahil et
 
@@ -60,6 +59,3 @@ Bir satış siparişi nakledildiğinde, cari ortalama maliyet fiyatı fiziksel o
 
 > [!NOTE]
 > Karşılaştırma amacıyla, bu madde için **Fiziksel değeri dahil et** onay kutusunu işaretlerseniz bir satış siparişi deftere nakledildiğinde nakledilen maliyet tutarı 12,00 ABD Doları olacaktır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

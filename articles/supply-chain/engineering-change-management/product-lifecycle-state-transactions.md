@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439750"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005339"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Ürün yaşam döngüsü durumu ve hareketler
 
@@ -76,6 +75,3 @@ Mevcut iş süreçlerinin hangilerinin geçerli yaşam döngüsü durumundaki ü
 | Poliçe | Bu yaşam döngüsü durumunda olan ürünler için geçerli işleme izin verilip verilmediğini denetlemek üzere aşağıdaki değerlerden birini seçin:<ul><li>**Etkin**: İş sürecine izin verilir.</li><li>**Engellendi**: İşleme izin verilmez. Bir kullanıcı, bu yaşam döngüsü durumunda olan bir üründe işlem kullanmaya çalışırsa, sistem girişimi engeller ve bir hata görüntüler. Örneğin, kullanım ömrü sonundaki ürünlerin satın alınmasını engelleyebilirsiniz.</li><li>**Uyarı ile etkinleştirildi**: İşleme izin verilir ancak bir uyarı görüntülenir. Örneğin, araştırma ve geliştirme departmanı tarafından oluşturulan bir üretim emrine bir prototip ürününün yerleştirilmesini isteyebilirsiniz. Ancak diğer departmanlar ürünü henüz üretmemelidir.</li></ul> |
 
 Daha fazla yaşam döngüsü durumu kuralını özelleştirme olarak ekliyorsanız üst bölmede **Süreçleri yenile**'yi seçerek bu kuralları kullanıcı arabiriminde (UI) görüntüleyebilirsiniz. **Süreçleri yenile** düğmesi yalnızca yöneticiler tarafından kullanılabilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

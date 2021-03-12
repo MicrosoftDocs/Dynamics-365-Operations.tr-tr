@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventOnhandItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 75053
 ms.assetid: 68cc00f4-0f7a-4a7d-be90-8f2e0d0563d3
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c380b7749a55cd151655def372cf91585c263b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5773e169067d5904994741f550c0d0c620f588cf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439373"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005464"
 ---
 # <a name="track-running-average-cost-per-inventory-dimension"></a>Stok boyutu başına cari ortalama maliyeti izleme
 
@@ -56,6 +55,3 @@ Ambar GW ve toplu iş AAA için yürütülen ortalama maliyet fiyatı 11,20 ABD 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b9bd4e67ed64218f9c4ac87bd143f73680af9ac4
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: bf50b0b8da2859caab4db2394f2d56f7b76793ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439626"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004814"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyon ilkesi
 
@@ -854,6 +853,3 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
     - Transfer emirleri ve hammadde çekme
 
 - Yönerge birimine göre ambalajlama için konteyner konsolidasyon kuralında sınırlamalar vardır. Sipariş taahhütlü rezervasyonlar için, **Yönerge birimine gör ambalajla** alanının etkinleştirildiği konteyner yapı şablonlarını kullanmamanızı öneririz. Geçerli tasarımda, ambar işi oluşturulurken yerleşim yönergeleri kullanılmaz. Bu nedenle, konteyner kullanımı dalga adımı sırasında yalnızca birim sıra grubundaki en küçük birim uygulanır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
