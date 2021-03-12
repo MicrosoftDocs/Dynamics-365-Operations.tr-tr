@@ -11,41 +11,40 @@ ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9f2cbe0c9d1609aa3713776f81bafa396fff301
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 18d8b74bd8783c23e548a3185414d1461bc1d869
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645293"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971840"
 ---
-# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="5ae3d-103">Fatura günlüğüne satıcı faturası kaydetme</span><span class="sxs-lookup"><span data-stu-id="5ae3d-103">Record a vendor invoice in the invoice journal</span></span>
+# <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="13b53-103">Fatura günlüğüne satıcı faturası kaydetme</span><span class="sxs-lookup"><span data-stu-id="13b53-103">Record a vendor invoice in the invoice journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5ae3d-104">Bu görev kılavuzu satınalma siparişleriyle ilişkili olmayan satıcı faturalarının nasıl kaydedileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="5ae3d-105">Malzeme veya hizmet giderleri bu fatura türünün örneklerindendir.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="5ae3d-106">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-106">This recording uses the USMF demo company.</span></span>
+<span data-ttu-id="13b53-104">Bu görev kılavuzu satınalma siparişleriyle ilişkili olmayan satıcı faturalarının nasıl kaydedileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="13b53-104">This task guide will show how to record vendor invoices that are not associated with purchase orders.</span></span> <span data-ttu-id="13b53-105">Malzeme veya hizmet giderleri bu fatura türünün örneklerindendir.</span><span class="sxs-lookup"><span data-stu-id="13b53-105">Examples of this type of invoice include expenses for supplies or services.</span></span>  <span data-ttu-id="13b53-106">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="13b53-106">This recording uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="5ae3d-107">**Gezinti bölmesi > Modüller > Borç hesapları > Çalışma alanları > Satıcı faturası girişi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-107">Go to **Navigation pane > Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
-2. <span data-ttu-id="5ae3d-108">**Eylem Bölmesi**'nde, **Yeni fatura günlüğü**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-108">On the **Action pane**, click **New invoice journal**.</span></span>
-3. <span data-ttu-id="5ae3d-109">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-109">Click **New**.</span></span>
-4. <span data-ttu-id="5ae3d-110">**Ad** alanına günlük adını girin veya açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-110">In the **Name** field, enter the journal name or click the drop down button to open the lookup.</span></span>
-5. <span data-ttu-id="5ae3d-111">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-111">In the **Description** field, type a value.</span></span>
-6. <span data-ttu-id="5ae3d-112">**Eylem Bölmesi**'nde, **Satırlar** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-112">On the **Action pane**, click **Lines**.</span></span> <span data-ttu-id="5ae3d-113">**Tarih** alanında, Genel Muhasebenin güncelleştirileceği nakil tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-113">In the **Date** field, enter the posting date that will update General Ledger.</span></span>  
-7. <span data-ttu-id="5ae3d-114">**Hesap** alanında, **Satıcı hesabı**'nı belirtin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-114">In the **Account** field, specify the **Vendor account**.</span></span>
-8. <span data-ttu-id="5ae3d-115">**Fatura** alanına fatura numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-115">In the **Invoice** field, enter the invoice number.</span></span>
-9. <span data-ttu-id="5ae3d-116">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-116">In the **Description** field, type a value.</span></span>
-10. <span data-ttu-id="5ae3d-117">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-117">In the **Credit** field, enter a number.</span></span>
-11. <span data-ttu-id="5ae3d-118">**Mahsup hesap** alanına hesap numarasını girin veya açılır menü düğmesine tıklayarak aramayı açın</span><span class="sxs-lookup"><span data-stu-id="5ae3d-118">In the **Offset account** field, enter the account number or click the drop down button to open the lookup</span></span>
-    * <span data-ttu-id="5ae3d-119">**Satış vergisi grubu**'nun varsayılan değeri satıcı hesabından alınır.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-119">The **Sales tax group** will be default from the vendor account.</span></span>  
-    * <span data-ttu-id="5ae3d-120">**Madde satış vergisi grubu**, **Mahsup hesap** alanında belirtilen ana hesaptan alınır.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-120">The **Item sales tax group** will be default from the main account specified in the **Offset account** field.</span></span>  
-    * <span data-ttu-id="5ae3d-121">**Vade tarihi**, Ödeme koşullarına göre hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-121">The **Due date** will be calculated based on the Terms of payment.</span></span>  
-    * <span data-ttu-id="5ae3d-122">**Nakit iskontosu**'nun varsayılan değeri Satıcı hesabından alınır.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-122">The **Cash discount** will default from the Vendor account.</span></span>
-12. <span data-ttu-id="5ae3d-123">Satıcı faturası günlüğü iş akışını etkinleştirdiyseniz **İş Akışı > Gönder**'i tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-123">If you have enabled Vendor invoice journal workflow, click **Workflow > Submit**.</span></span>
-    * <span data-ttu-id="5ae3d-124">Gönderiminiz onaylandığında, hareket deftere nakil tarihi genel muhasebe defterine nakil için Beklemede veya Kapalı olan bir döneme denk geliyorsa tarih bir sonraki açık dönemin ilk gününe ertelenir.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-124">When your submission is approved, the date will be advanced to the first day of the next open period, if the transaction posting date falls within a period that is On hold or Closed for ledger posting.</span></span>
-12. <span data-ttu-id="5ae3d-125">**Naklet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-125">Click **Post**.</span></span>
-13. <span data-ttu-id="5ae3d-126">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="5ae3d-126">Close the page.</span></span>
+1. <span data-ttu-id="13b53-107">**Gezinti bölmesi > Modüller > Borç hesapları > Çalışma alanları > Satıcı faturası girişi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="13b53-107">Go to **Navigation pane > Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
+2. <span data-ttu-id="13b53-108">**Eylem Bölmesi**'nde, **Yeni fatura günlüğü**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="13b53-108">On the **Action pane**, click **New invoice journal**.</span></span>
+3. <span data-ttu-id="13b53-109">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="13b53-109">Click **New**.</span></span>
+4. <span data-ttu-id="13b53-110">**Ad** alanına günlük adını girin veya açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="13b53-110">In the **Name** field, enter the journal name or click the drop down button to open the lookup.</span></span>
+5. <span data-ttu-id="13b53-111">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="13b53-111">In the **Description** field, type a value.</span></span>
+6. <span data-ttu-id="13b53-112">**Eylem Bölmesi**'nde, **Satırlar** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="13b53-112">On the **Action pane**, click **Lines**.</span></span> <span data-ttu-id="13b53-113">**Tarih** alanında, Genel Muhasebenin güncelleştirileceği nakil tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="13b53-113">In the **Date** field, enter the posting date that will update General Ledger.</span></span>  
+7. <span data-ttu-id="13b53-114">**Hesap** alanında, **Satıcı hesabı**'nı belirtin.</span><span class="sxs-lookup"><span data-stu-id="13b53-114">In the **Account** field, specify the **Vendor account**.</span></span>
+8. <span data-ttu-id="13b53-115">**Fatura** alanına fatura numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="13b53-115">In the **Invoice** field, enter the invoice number.</span></span>
+9. <span data-ttu-id="13b53-116">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="13b53-116">In the **Description** field, type a value.</span></span>
+10. <span data-ttu-id="13b53-117">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="13b53-117">In the **Credit** field, enter a number.</span></span>
+11. <span data-ttu-id="13b53-118">**Mahsup hesap** alanına hesap numarasını girin veya açılır menü düğmesine tıklayarak aramayı açın</span><span class="sxs-lookup"><span data-stu-id="13b53-118">In the **Offset account** field, enter the account number or click the drop down button to open the lookup</span></span>
+    * <span data-ttu-id="13b53-119">**Satış vergisi grubu**'nun varsayılan değeri satıcı hesabından alınır.</span><span class="sxs-lookup"><span data-stu-id="13b53-119">The **Sales tax group** will be default from the vendor account.</span></span>  
+    * <span data-ttu-id="13b53-120">**Madde satış vergisi grubu**, **Mahsup hesap** alanında belirtilen ana hesaptan alınır.</span><span class="sxs-lookup"><span data-stu-id="13b53-120">The **Item sales tax group** will be default from the main account specified in the **Offset account** field.</span></span>  
+    * <span data-ttu-id="13b53-121">**Vade tarihi**, Ödeme koşullarına göre hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="13b53-121">The **Due date** will be calculated based on the Terms of payment.</span></span>  
+    * <span data-ttu-id="13b53-122">**Nakit iskontosu**'nun varsayılan değeri Satıcı hesabından alınır.</span><span class="sxs-lookup"><span data-stu-id="13b53-122">The **Cash discount** will default from the Vendor account.</span></span>
+12. <span data-ttu-id="13b53-123">Satıcı faturası günlüğü iş akışını etkinleştirdiyseniz **İş Akışı > Gönder**'i tıklayın.</span><span class="sxs-lookup"><span data-stu-id="13b53-123">If you have enabled Vendor invoice journal workflow, click **Workflow > Submit**.</span></span>
+    * <span data-ttu-id="13b53-124">Gönderiminiz onaylandığında, hareket deftere nakil tarihi genel muhasebe defterine nakil için Beklemede veya Kapalı olan bir döneme denk geliyorsa tarih bir sonraki açık dönemin ilk gününe ertelenir.</span><span class="sxs-lookup"><span data-stu-id="13b53-124">When your submission is approved, the date will be advanced to the first day of the next open period, if the transaction posting date falls within a period that is On hold or Closed for ledger posting.</span></span>
+12. <span data-ttu-id="13b53-125">**Naklet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="13b53-125">Click **Post**.</span></span>
+13. <span data-ttu-id="13b53-126">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="13b53-126">Close the page.</span></span>
 

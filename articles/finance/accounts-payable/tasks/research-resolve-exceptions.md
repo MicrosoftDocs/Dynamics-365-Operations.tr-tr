@@ -11,78 +11,77 @@ ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 995d68f6224b6dfbb1928c907ad991b86fc47668
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 727676d060b77633d4ff4f31dabbd7825ca19aca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448757"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971790"
 ---
-# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="70237-103">Özel durumları araştırma veya giderme</span><span class="sxs-lookup"><span data-stu-id="70237-103">Research or resolve exceptions</span></span>
+# <a name="research-or-resolve-exceptions"></a><span data-ttu-id="89a35-103">Özel durumları araştırma veya giderme</span><span class="sxs-lookup"><span data-stu-id="89a35-103">Research or resolve exceptions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="70237-104">Satıcı faturası sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası İlke ihlalleri sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır.</span><span class="sxs-lookup"><span data-stu-id="70237-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="70237-105">Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="70237-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
+<span data-ttu-id="89a35-104">Satıcı faturası sayfasından bir satıcı faturası naklettiğiniz zaman ve satıcı faturası İlke ihlalleri sayfasını açtığınız zaman satıcı faturası ilkeleri çalıştırılır.</span><span class="sxs-lookup"><span data-stu-id="89a35-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="89a35-105">Ayrıca, satıcı faturası iş akışını yapılandırarak, iş akışına her fatura gönderişinizde satıcı faturası ilkelerinin çalıştırılmasını sağlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="89a35-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
 
-<span data-ttu-id="70237-106">Fatura kaydında veya fatura günlüğünde oluşturulmuş faturalara satıcı faturası ilkeleri uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="70237-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
+<span data-ttu-id="89a35-106">Fatura kaydında veya fatura günlüğünde oluşturulmuş faturalara satıcı faturası ilkeleri uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="89a35-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
 
-<span data-ttu-id="70237-107">Fatura eşleştirme doğrulaması satıcı faturası ilkeleri kullanmaz, bunun yerine Borç hesapları parametreleri sayfasında ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="70237-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
+<span data-ttu-id="89a35-107">Fatura eşleştirme doğrulaması satıcı faturası ilkeleri kullanmaz, bunun yerine Borç hesapları parametreleri sayfasında ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="89a35-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
 
-<span data-ttu-id="70237-108">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="70237-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="70237-109">Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="70237-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="70237-110">Başlamadan önce Fatura eşleştirme yapılandırma anahtarının seçildiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="70237-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
+<span data-ttu-id="89a35-108">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="89a35-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="89a35-109">Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="89a35-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="89a35-110">Başlamadan önce Fatura eşleştirme yapılandırma anahtarının seçildiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="89a35-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
 
 
-## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="70237-111">Satıcı faturası ilkeleri oluşturmaya hazırlanın</span><span class="sxs-lookup"><span data-stu-id="70237-111">Prepare to create vendor invoice policies</span></span>
-1. <span data-ttu-id="70237-112">Borç hesapları > Kurulum > Borç hesapları parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="70237-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
-2. <span data-ttu-id="70237-113">Fatura doğrulama sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-113">Click the Invoice validation tab.</span></span>
-3. <span data-ttu-id="70237-114">Fatura başlığı durumunu otomatik olarak güncelleştir onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="70237-114">Select or clear the Automatically update invoice header status check box.</span></span>
-4. <span data-ttu-id="70237-115">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="70237-115">Click OK.</span></span>
-5. <span data-ttu-id="70237-116">Uyuşmazlıkları olan faturayı deftere naklet alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="70237-116">In the Post invoice with discrepancies field, select an option.</span></span>
-6. <span data-ttu-id="70237-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-117">Close the page.</span></span>
-7. <span data-ttu-id="70237-118">Borç hesapları > İlke ayarı > Satıcı fatura ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="70237-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-8. <span data-ttu-id="70237-119">Parametreler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-119">Click Parameters.</span></span>
-9. <span data-ttu-id="70237-120">Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-120">Click btnAdd.</span></span>
-10. <span data-ttu-id="70237-121">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-121">Close the page.</span></span>
+## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="89a35-111">Satıcı faturası ilkeleri oluşturmaya hazırlanın</span><span class="sxs-lookup"><span data-stu-id="89a35-111">Prepare to create vendor invoice policies</span></span>
+1. <span data-ttu-id="89a35-112">Borç hesapları > Kurulum > Borç hesapları parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="89a35-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
+2. <span data-ttu-id="89a35-113">Fatura doğrulama sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-113">Click the Invoice validation tab.</span></span>
+3. <span data-ttu-id="89a35-114">Fatura başlığı durumunu otomatik olarak güncelleştir onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="89a35-114">Select or clear the Automatically update invoice header status check box.</span></span>
+4. <span data-ttu-id="89a35-115">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-115">Click OK.</span></span>
+5. <span data-ttu-id="89a35-116">Uyuşmazlıkları olan faturayı deftere naklet alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="89a35-116">In the Post invoice with discrepancies field, select an option.</span></span>
+6. <span data-ttu-id="89a35-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-117">Close the page.</span></span>
+7. <span data-ttu-id="89a35-118">Borç hesapları > İlke ayarı > Satıcı fatura ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="89a35-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+8. <span data-ttu-id="89a35-119">Parametreler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-119">Click Parameters.</span></span>
+9. <span data-ttu-id="89a35-120">Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-120">Click btnAdd.</span></span>
+10. <span data-ttu-id="89a35-121">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-121">Close the page.</span></span>
 
-## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="70237-122">Satıcı faturaları için ilke kuralı türleri oluşturun</span><span class="sxs-lookup"><span data-stu-id="70237-122">Create policy rule types for vendor invoices</span></span>
-1. <span data-ttu-id="70237-123">Borç hesapları > İlke ayarı > Satıcı faturası ilke kuralı türleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="70237-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
-2. <span data-ttu-id="70237-124">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-124">Click New.</span></span>
-3. <span data-ttu-id="70237-125">Kural adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="70237-125">In the Rule name field, type a value.</span></span>
-4. <span data-ttu-id="70237-126">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="70237-126">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="70237-127">Sorgu adı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="70237-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="70237-128">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="70237-128">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="70237-129">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-129">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="70237-130">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-130">Click Save.</span></span>
-9. <span data-ttu-id="70237-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-131">Close the page.</span></span>
+## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="89a35-122">Satıcı faturaları için ilke kuralı türleri oluşturun</span><span class="sxs-lookup"><span data-stu-id="89a35-122">Create policy rule types for vendor invoices</span></span>
+1. <span data-ttu-id="89a35-123">Borç hesapları > İlke ayarı > Satıcı faturası ilke kuralı türleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="89a35-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
+2. <span data-ttu-id="89a35-124">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-124">Click New.</span></span>
+3. <span data-ttu-id="89a35-125">Kural adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89a35-125">In the Rule name field, type a value.</span></span>
+4. <span data-ttu-id="89a35-126">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89a35-126">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="89a35-127">Sorgu adı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="89a35-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="89a35-128">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="89a35-128">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="89a35-129">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-129">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="89a35-130">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-130">Click Save.</span></span>
+9. <span data-ttu-id="89a35-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-131">Close the page.</span></span>
 
-## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="70237-132">Satıcı faturası ilkesi tanımlayın</span><span class="sxs-lookup"><span data-stu-id="70237-132">Define a vendor invoice policy</span></span>
-1. <span data-ttu-id="70237-133">Borç hesapları > İlke ayarı > Satıcı fatura ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="70237-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
-2. <span data-ttu-id="70237-134">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-134">Click New.</span></span>
-3. <span data-ttu-id="70237-135">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="70237-135">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="70237-136">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="70237-136">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="70237-137">İlke organizasyonları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="70237-137">Expand or collapse the Policy organizations section.</span></span>
-6. <span data-ttu-id="70237-138">Ağaçta "Contoso Eğlence Sistemi Türkiye"yi (Contoso Entertainment System USA) seçin.</span><span class="sxs-lookup"><span data-stu-id="70237-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
-7. <span data-ttu-id="70237-139">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="70237-139">Click Add.</span></span>
-8. <span data-ttu-id="70237-140">İlke kuralları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="70237-140">Expand or collapse the Policy rules section.</span></span>
-9. <span data-ttu-id="70237-141">İlke kuralı oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-141">Click Create policy rule.</span></span>
-10. <span data-ttu-id="70237-142">İlke kuralı açıklaması alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="70237-142">In the Policy rule description field, type a value.</span></span>
-11. <span data-ttu-id="70237-143">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-143">Click Filter.</span></span>
-12. <span data-ttu-id="70237-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="70237-144">Click Add.</span></span>
-13. <span data-ttu-id="70237-145">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="70237-145">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="70237-146">Tablo alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="70237-146">In the Table field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="70237-147">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-147">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="70237-148">Türetilen tablo alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="70237-149">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-149">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="70237-150">Alan alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="70237-150">In the Field field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="70237-151">Alan alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="70237-151">In the Field field, type a value.</span></span>
-20. <span data-ttu-id="70237-152">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-152">Close the page.</span></span>
-21. <span data-ttu-id="70237-153">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="70237-153">In the Criteria field, type a value.</span></span>
-22. <span data-ttu-id="70237-154">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-154">Click OK.</span></span>
-23. <span data-ttu-id="70237-155">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="70237-155">Click OK.</span></span>
-24. <span data-ttu-id="70237-156">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-156">Close the page.</span></span>
-25. <span data-ttu-id="70237-157">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="70237-157">Close the page.</span></span>
+## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="89a35-132">Satıcı faturası ilkesi tanımlayın</span><span class="sxs-lookup"><span data-stu-id="89a35-132">Define a vendor invoice policy</span></span>
+1. <span data-ttu-id="89a35-133">Borç hesapları > İlke ayarı > Satıcı fatura ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="89a35-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+2. <span data-ttu-id="89a35-134">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-134">Click New.</span></span>
+3. <span data-ttu-id="89a35-135">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="89a35-135">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="89a35-136">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89a35-136">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="89a35-137">İlke organizasyonları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="89a35-137">Expand or collapse the Policy organizations section.</span></span>
+6. <span data-ttu-id="89a35-138">Ağaçta "Contoso Eğlence Sistemi Türkiye"yi (Contoso Entertainment System USA) seçin.</span><span class="sxs-lookup"><span data-stu-id="89a35-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
+7. <span data-ttu-id="89a35-139">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-139">Click Add.</span></span>
+8. <span data-ttu-id="89a35-140">İlke kuralları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="89a35-140">Expand or collapse the Policy rules section.</span></span>
+9. <span data-ttu-id="89a35-141">İlke kuralı oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-141">Click Create policy rule.</span></span>
+10. <span data-ttu-id="89a35-142">İlke kuralı açıklaması alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="89a35-142">In the Policy rule description field, type a value.</span></span>
+11. <span data-ttu-id="89a35-143">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-143">Click Filter.</span></span>
+12. <span data-ttu-id="89a35-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-144">Click Add.</span></span>
+13. <span data-ttu-id="89a35-145">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="89a35-145">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="89a35-146">Tablo alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="89a35-146">In the Table field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="89a35-147">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-147">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="89a35-148">Türetilen tablo alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="89a35-149">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-149">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="89a35-150">Alan alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="89a35-150">In the Field field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="89a35-151">Alan alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="89a35-151">In the Field field, type a value.</span></span>
+20. <span data-ttu-id="89a35-152">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-152">Close the page.</span></span>
+21. <span data-ttu-id="89a35-153">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="89a35-153">In the Criteria field, type a value.</span></span>
+22. <span data-ttu-id="89a35-154">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-154">Click OK.</span></span>
+23. <span data-ttu-id="89a35-155">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="89a35-155">Click OK.</span></span>
+24. <span data-ttu-id="89a35-156">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-156">Close the page.</span></span>
+25. <span data-ttu-id="89a35-157">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="89a35-157">Close the page.</span></span>
 
