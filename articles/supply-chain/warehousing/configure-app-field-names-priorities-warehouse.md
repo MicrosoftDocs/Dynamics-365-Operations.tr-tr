@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,25 +18,25 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a4cfe62aa50c423adfd116a81d7962c30b25fcf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439221"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963447"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a><span data-ttu-id="4f650-103">Ambarlama uygulaması içerisinde alan adlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4f650-103">Configure app field names in the warehouse app</span></span>
+# <a name="configure-app-field-names-in-the-warehouse-app"></a><span data-ttu-id="c5902-103">Ambarlama uygulaması içerisinde alan adlarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c5902-103">Configure app field names in the warehouse app</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4f650-104">Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="4f650-104">This topic describes how to define and configure warehouse app field names and priorities in Dynamics 365 Supply Chain Management.</span></span> 
+<span data-ttu-id="c5902-104">Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c5902-104">This topic describes how to define and configure warehouse app field names and priorities in Dynamics 365 Supply Chain Management.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="4f650-105">Bu konu, Ambar yönetimindeki özellikler için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="4f650-105">This topic applies to features in Warehouse management.</span></span> <span data-ttu-id="4f650-106">Stok yönetimindeki özellikler için geçerli değildir.</span><span class="sxs-lookup"><span data-stu-id="4f650-106">It doesn’t apply to features in Inventory management.</span></span> <span data-ttu-id="4f650-107">Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır.</span><span class="sxs-lookup"><span data-stu-id="4f650-107">Warehousing is an application that you can use to perform warehouse tasks.</span></span> <span data-ttu-id="4f650-108">Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-108">You can define and configure the field names that are used in the app, as well as configure the priority to which the field names should be assigned.</span></span> <span data-ttu-id="4f650-109">Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Ambarlama içerisinde nasıl kullanıldıklarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="4f650-109">This topic explains how to define and configure these warehouse app field names and priorities, and how they are used in Warehousing.</span></span> <span data-ttu-id="4f650-110">Ambarlama'ya bağlantıyı yapılandırma hakkında ayrıntılı bilgi için [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md) eğitimine bakın.</span><span class="sxs-lookup"><span data-stu-id="4f650-110">For detailed information about how to configure the connection to FWarehousing, refer to the tutorial [Install and configure the warehouse app overview](install-configure-warehousing-app.md).</span></span>
+> <span data-ttu-id="c5902-105">Bu konu, Ambar yönetimindeki özellikler için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="c5902-105">This topic applies to features in Warehouse management.</span></span> <span data-ttu-id="c5902-106">Stok yönetimindeki özellikler için geçerli değildir.</span><span class="sxs-lookup"><span data-stu-id="c5902-106">It doesn’t apply to features in Inventory management.</span></span> <span data-ttu-id="c5902-107">Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır.</span><span class="sxs-lookup"><span data-stu-id="c5902-107">Warehousing is an application that you can use to perform warehouse tasks.</span></span> <span data-ttu-id="c5902-108">Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-108">You can define and configure the field names that are used in the app, as well as configure the priority to which the field names should be assigned.</span></span> <span data-ttu-id="c5902-109">Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Ambarlama içerisinde nasıl kullanıldıklarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="c5902-109">This topic explains how to define and configure these warehouse app field names and priorities, and how they are used in Warehousing.</span></span> <span data-ttu-id="c5902-110">Ambarlama'ya bağlantıyı yapılandırma hakkında ayrıntılı bilgi için [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md) eğitimine bakın.</span><span class="sxs-lookup"><span data-stu-id="c5902-110">For detailed information about how to configure the connection to FWarehousing, refer to the tutorial [Install and configure the warehouse app overview](install-configure-warehousing-app.md).</span></span>
 
-## <a name="configure-warehouse-app-field-names"></a><span data-ttu-id="4f650-111">Ambar uygulaması alan adlarını yapılandırın</span><span class="sxs-lookup"><span data-stu-id="4f650-111">Configure warehouse app field names</span></span>
+## <a name="configure-warehouse-app-field-names"></a><span data-ttu-id="c5902-111">Ambar uygulaması alan adlarını yapılandırın</span><span class="sxs-lookup"><span data-stu-id="c5902-111">Configure warehouse app field names</span></span>
 
-<span data-ttu-id="4f650-112">Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-112">When you use Warehousing on your mobile device, you can configure how metadata should be displayed on your device on the **Warehouse app field names** page.</span></span> <span data-ttu-id="4f650-113">Yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın.</span><span class="sxs-lookup"><span data-stu-id="4f650-113">In a new company, select **Create default setup** to generate all field names that will be used in the warehouse mobile device workflows, and then assign a preferred input mode and input type to them.</span></span> <span data-ttu-id="4f650-114">Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-114">After you have generated all field names, you can select the following input options.</span></span>
+<span data-ttu-id="c5902-112">Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-112">When you use Warehousing on your mobile device, you can configure how metadata should be displayed on your device on the **Warehouse app field names** page.</span></span> <span data-ttu-id="c5902-113">Yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın.</span><span class="sxs-lookup"><span data-stu-id="c5902-113">In a new company, select **Create default setup** to generate all field names that will be used in the warehouse mobile device workflows, and then assign a preferred input mode and input type to them.</span></span> <span data-ttu-id="c5902-114">Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-114">After you have generated all field names, you can select the following input options.</span></span>
 
 <table>
 <colgroup>
@@ -46,31 +45,31 @@ ms.locfileid: "4439221"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4f650-115">Seçenek</span><span class="sxs-lookup"><span data-stu-id="4f650-115">Option</span></span></th>
-<th><span data-ttu-id="4f650-116">Açıklama</span><span class="sxs-lookup"><span data-stu-id="4f650-116">Description</span></span></th>
+<th><span data-ttu-id="c5902-115">Seçenek</span><span class="sxs-lookup"><span data-stu-id="c5902-115">Option</span></span></th>
+<th><span data-ttu-id="c5902-116">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c5902-116">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="4f650-117">Tercih edilen giriş modu</span><span class="sxs-lookup"><span data-stu-id="4f650-117">Preferred input mode</span></span></td>
-<td><span data-ttu-id="4f650-118">Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="4f650-118">This option defines whether a scanning field or a manual entry input field should be shown for the selected field name.</span></span> <span data-ttu-id="4f650-119">Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır.</span><span class="sxs-lookup"><span data-stu-id="4f650-119">This is useful to distinguish fields depending on if barcodes are used for the field.</span></span> <span data-ttu-id="4f650-120"><strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-120"><strong>Note:</strong> For field names with preferred input mode set to <strong>Scanning</strong>, you can enter information manually if the barcode is unreadable or damaged.</span></span></td>
+<td><span data-ttu-id="c5902-117">Tercih edilen giriş modu</span><span class="sxs-lookup"><span data-stu-id="c5902-117">Preferred input mode</span></span></td>
+<td><span data-ttu-id="c5902-118">Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler.</span><span class="sxs-lookup"><span data-stu-id="c5902-118">This option defines whether a scanning field or a manual entry input field should be shown for the selected field name.</span></span> <span data-ttu-id="c5902-119">Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır.</span><span class="sxs-lookup"><span data-stu-id="c5902-119">This is useful to distinguish fields depending on if barcodes are used for the field.</span></span> <span data-ttu-id="c5902-120"><strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-120"><strong>Note:</strong> For field names with preferred input mode set to <strong>Scanning</strong>, you can enter information manually if the barcode is unreadable or damaged.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="4f650-121">Giriş türü</span><span class="sxs-lookup"><span data-stu-id="4f650-121">Input type</span></span></td>
-<td><span data-ttu-id="4f650-122">Bu seçenek, seçilen alan adı için hangi giriş türünün kullanılacağını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="4f650-122">This option defines what input type should be used for the selected field name.</span></span> <span data-ttu-id="4f650-123">Dört seçenek kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="4f650-123">Four options are available:</span></span>
+<td><span data-ttu-id="c5902-121">Giriş türü</span><span class="sxs-lookup"><span data-stu-id="c5902-121">Input type</span></span></td>
+<td><span data-ttu-id="c5902-122">Bu seçenek, seçilen alan adı için hangi giriş türünün kullanılacağını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="c5902-122">This option defines what input type should be used for the selected field name.</span></span> <span data-ttu-id="c5902-123">Dört seçenek kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="c5902-123">Four options are available:</span></span>
 <ul>
-<li><span data-ttu-id="4f650-124"><strong>Seçim</strong> - Aralarından seçim yapabileceğiniz seçeneklerin listesini içerir.</span><span class="sxs-lookup"><span data-stu-id="4f650-124"><strong>Selection</strong> - Contains a list of options to choose from.</span></span> <span data-ttu-id="4f650-125">Bu seçenekle alan adları düzenlenebilir değildir.</span><span class="sxs-lookup"><span data-stu-id="4f650-125">Field names with this option are not editable.</span></span></li>
-<li><span data-ttu-id="4f650-126"><strong>Tarih</strong> - Tarih olarak belirtilen alan adları etiket ile bir tarih biçimi gösterir.</span><span class="sxs-lookup"><span data-stu-id="4f650-126"><strong>Date</strong> - Field names specified as date will show a date format with the label.</span></span> <span data-ttu-id="4f650-127">Bu, ambar çalışanlarının tarihi hangi biçimde gireceklerini görmelerine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="4f650-127">This helps warehouse workers see in which format to enter the date.</span></span> <span data-ttu-id="4f650-128">Bu seçenekle alan adları düzenlenebilir değildir.</span><span class="sxs-lookup"><span data-stu-id="4f650-128">Field names with this option are not editable.</span></span></li>
-<li><span data-ttu-id="4f650-129"><strong>Alfa</strong> - Seçiliyse, cihazın klavyesi bilgiyi uygulamaya el ile girmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="4f650-129"><strong>Alpha</strong> - If selected, the device keyboard will be used when entering information manually in the app.</span></span> <span data-ttu-id="4f650-130">Klavye deneyimi, hangi cihazın kullanıldığına göre değiştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="4f650-130">The keyboard experience can be changed depending on which device is used.</span></span></li>
-<li><span data-ttu-id="4f650-131"><strong>Sayısal</strong> - Yalnızca sayısal giriş kullanan alan adları için giriş alanında cihaz klavyesi yerine özel bir sayısal klavye görüntülemek için bu seçeneği kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-131"><strong>Numeric</strong> - For field names that use numeric input only, you can select this option to display a custom numeric keypad with the input field instead of the device keyboard.</span></span></li>
+<li><span data-ttu-id="c5902-124"><strong>Seçim</strong> - Aralarından seçim yapabileceğiniz seçeneklerin listesini içerir.</span><span class="sxs-lookup"><span data-stu-id="c5902-124"><strong>Selection</strong> - Contains a list of options to choose from.</span></span> <span data-ttu-id="c5902-125">Bu seçenekle alan adları düzenlenebilir değildir.</span><span class="sxs-lookup"><span data-stu-id="c5902-125">Field names with this option are not editable.</span></span></li>
+<li><span data-ttu-id="c5902-126"><strong>Tarih</strong> - Tarih olarak belirtilen alan adları etiket ile bir tarih biçimi gösterir.</span><span class="sxs-lookup"><span data-stu-id="c5902-126"><strong>Date</strong> - Field names specified as date will show a date format with the label.</span></span> <span data-ttu-id="c5902-127">Bu, ambar çalışanlarının tarihi hangi biçimde gireceklerini görmelerine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="c5902-127">This helps warehouse workers see in which format to enter the date.</span></span> <span data-ttu-id="c5902-128">Bu seçenekle alan adları düzenlenebilir değildir.</span><span class="sxs-lookup"><span data-stu-id="c5902-128">Field names with this option are not editable.</span></span></li>
+<li><span data-ttu-id="c5902-129"><strong>Alfa</strong> - Seçiliyse, cihazın klavyesi bilgiyi uygulamaya el ile girmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c5902-129"><strong>Alpha</strong> - If selected, the device keyboard will be used when entering information manually in the app.</span></span> <span data-ttu-id="c5902-130">Klavye deneyimi, hangi cihazın kullanıldığına göre değiştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="c5902-130">The keyboard experience can be changed depending on which device is used.</span></span></li>
+<li><span data-ttu-id="c5902-131"><strong>Sayısal</strong> - Yalnızca sayısal giriş kullanan alan adları için giriş alanında cihaz klavyesi yerine özel bir sayısal klavye görüntülemek için bu seçeneği kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-131"><strong>Numeric</strong> - For field names that use numeric input only, you can select this option to display a custom numeric keypad with the input field instead of the device keyboard.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="4f650-132">Ambar uygulaması alan önceliğini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4f650-132">Configure warehouse app field priority</span></span>
+## <a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="c5902-132">Ambar uygulaması alan önceliğini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c5902-132">Configure warehouse app field priority</span></span>
 
-<span data-ttu-id="4f650-133">**Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4f650-133">On the **Warehouse app field priority** page, you can put field names into different priority groups.</span></span> <span data-ttu-id="4f650-134">Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar.</span><span class="sxs-lookup"><span data-stu-id="4f650-134">This makes it possible to decide what information should be displayed on the main task page when warehouse workers perform tasks using the app.</span></span> <span data-ttu-id="4f650-135">**Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4f650-135">If you click **Create default setup**, a default set of priority groups will be generated.</span></span> <span data-ttu-id="4f650-136">İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir.</span><span class="sxs-lookup"><span data-stu-id="4f650-136">It is possible to create as many priority groups as needed, but only three priority groups will be shown on the task page.</span></span> <span data-ttu-id="4f650-137">Sistem uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler.</span><span class="sxs-lookup"><span data-stu-id="4f650-137">When the system sends metadata to the app, it will assign each field a relative priority depending on its priority group, and the app will display the first three priority groups contained in the metadata on the task page.</span></span> <span data-ttu-id="4f650-138">Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="4f650-138">The rest of the overflowing metadata will be displayed on a secondary details page.</span></span> <span data-ttu-id="4f650-139">Aşağıdaki tablo beş öncelik grubu örneğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="4f650-139">The following table shows an example of five priority groups.</span></span>
+<span data-ttu-id="c5902-133">**Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5902-133">On the **Warehouse app field priority** page, you can put field names into different priority groups.</span></span> <span data-ttu-id="c5902-134">Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar.</span><span class="sxs-lookup"><span data-stu-id="c5902-134">This makes it possible to decide what information should be displayed on the main task page when warehouse workers perform tasks using the app.</span></span> <span data-ttu-id="c5902-135">**Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="c5902-135">If you click **Create default setup**, a default set of priority groups will be generated.</span></span> <span data-ttu-id="c5902-136">İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c5902-136">It is possible to create as many priority groups as needed, but only three priority groups will be shown on the task page.</span></span> <span data-ttu-id="c5902-137">Sistem uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler.</span><span class="sxs-lookup"><span data-stu-id="c5902-137">When the system sends metadata to the app, it will assign each field a relative priority depending on its priority group, and the app will display the first three priority groups contained in the metadata on the task page.</span></span> <span data-ttu-id="c5902-138">Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="c5902-138">The rest of the overflowing metadata will be displayed on a secondary details page.</span></span> <span data-ttu-id="c5902-139">Aşağıdaki tablo beş öncelik grubu örneğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c5902-139">The following table shows an example of five priority groups.</span></span>
 
 <table>
 <colgroup>
@@ -79,68 +78,68 @@ ms.locfileid: "4439221"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4f650-140">Önceli grubu</span><span class="sxs-lookup"><span data-stu-id="4f650-140">Priority group</span></span></th>
-<th><span data-ttu-id="4f650-141">Atanan alanlar</span><span class="sxs-lookup"><span data-stu-id="4f650-141">Assigned fields</span></span></th>
+<th><span data-ttu-id="c5902-140">Önceli grubu</span><span class="sxs-lookup"><span data-stu-id="c5902-140">Priority group</span></span></th>
+<th><span data-ttu-id="c5902-141">Atanan alanlar</span><span class="sxs-lookup"><span data-stu-id="c5902-141">Assigned fields</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td> <span data-ttu-id="4f650-142">Ölçüt 10</span><span class="sxs-lookup"><span data-stu-id="4f650-142">Priority 10</span></span></td>
+<td> <span data-ttu-id="c5902-142">Ölçüt 10</span><span class="sxs-lookup"><span data-stu-id="c5902-142">Priority 10</span></span></td>
 <td><ul>
-<li><span data-ttu-id="4f650-143">Madde</span><span class="sxs-lookup"><span data-stu-id="4f650-143">Item</span></span></li>
-<li><span data-ttu-id="4f650-144">Miktar</span><span class="sxs-lookup"><span data-stu-id="4f650-144">Quantity</span></span></li>
-<li><span data-ttu-id="4f650-145">Ölçü birimi</span><span class="sxs-lookup"><span data-stu-id="4f650-145">Unit of measure</span></span></li>
+<li><span data-ttu-id="c5902-143">Madde</span><span class="sxs-lookup"><span data-stu-id="c5902-143">Item</span></span></li>
+<li><span data-ttu-id="c5902-144">Miktar</span><span class="sxs-lookup"><span data-stu-id="c5902-144">Quantity</span></span></li>
+<li><span data-ttu-id="c5902-145">Ölçü birimi</span><span class="sxs-lookup"><span data-stu-id="c5902-145">Unit of measure</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> <span data-ttu-id="4f650-146">Ölçüt 20</span><span class="sxs-lookup"><span data-stu-id="4f650-146">Priority 20</span></span></td>
+<td> <span data-ttu-id="c5902-146">Ölçüt 20</span><span class="sxs-lookup"><span data-stu-id="c5902-146">Priority 20</span></span></td>
 <td><ul>
-<li><span data-ttu-id="4f650-147">Küme konumu</span><span class="sxs-lookup"><span data-stu-id="4f650-147">Cluster position</span></span></li>
-<li><span data-ttu-id="4f650-148">Küme</span><span class="sxs-lookup"><span data-stu-id="4f650-148">Cluster</span></span></li>
+<li><span data-ttu-id="c5902-147">Küme konumu</span><span class="sxs-lookup"><span data-stu-id="c5902-147">Cluster position</span></span></li>
+<li><span data-ttu-id="c5902-148">Küme</span><span class="sxs-lookup"><span data-stu-id="c5902-148">Cluster</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> <span data-ttu-id="4f650-149">Ölçüt 30</span><span class="sxs-lookup"><span data-stu-id="4f650-149">Priority 30</span></span></td>
+<td> <span data-ttu-id="c5902-149">Ölçüt 30</span><span class="sxs-lookup"><span data-stu-id="c5902-149">Priority 30</span></span></td>
 <td><ul>
-<li><span data-ttu-id="4f650-150">Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="4f650-150">Item description</span></span></li>
+<li><span data-ttu-id="c5902-150">Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="c5902-150">Item description</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> <span data-ttu-id="4f650-151">Ölçüt 40</span><span class="sxs-lookup"><span data-stu-id="4f650-151">Priority 40</span></span></td>
+<td> <span data-ttu-id="c5902-151">Ölçüt 40</span><span class="sxs-lookup"><span data-stu-id="c5902-151">Priority 40</span></span></td>
 <td><ul>
-<li><span data-ttu-id="4f650-152">Yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4f650-152">Configuration</span></span></li>
-<li><span data-ttu-id="4f650-153">Renk</span><span class="sxs-lookup"><span data-stu-id="4f650-153">Color</span></span></li>
-<li><span data-ttu-id="4f650-154">Ebat</span><span class="sxs-lookup"><span data-stu-id="4f650-154">Size</span></span></li>
-<li><span data-ttu-id="4f650-155">Stil</span><span class="sxs-lookup"><span data-stu-id="4f650-155">Style</span></span></li>
+<li><span data-ttu-id="c5902-152">Yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c5902-152">Configuration</span></span></li>
+<li><span data-ttu-id="c5902-153">Renk</span><span class="sxs-lookup"><span data-stu-id="c5902-153">Color</span></span></li>
+<li><span data-ttu-id="c5902-154">Ebat</span><span class="sxs-lookup"><span data-stu-id="c5902-154">Size</span></span></li>
+<li><span data-ttu-id="c5902-155">Stil</span><span class="sxs-lookup"><span data-stu-id="c5902-155">Style</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> <span data-ttu-id="4f650-156">Ölçüt 50</span><span class="sxs-lookup"><span data-stu-id="4f650-156">Priority 50</span></span></td>
+<td> <span data-ttu-id="c5902-156">Ölçüt 50</span><span class="sxs-lookup"><span data-stu-id="c5902-156">Priority 50</span></span></td>
 <td><ul>
-<li><span data-ttu-id="4f650-157">Yer</span><span class="sxs-lookup"><span data-stu-id="4f650-157">Location</span></span></li>
-<li><span data-ttu-id="4f650-158">Plaka</span><span class="sxs-lookup"><span data-stu-id="4f650-158">License plate</span></span></li>
+<li><span data-ttu-id="c5902-157">Yer</span><span class="sxs-lookup"><span data-stu-id="c5902-157">Location</span></span></li>
+<li><span data-ttu-id="c5902-158">Plaka</span><span class="sxs-lookup"><span data-stu-id="c5902-158">License plate</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="4f650-159">Örneğin bir ambar çalışanı mobil cihaz üzerinde bir görev yerine getirdiğinde, uygulamada görüntülenen meta veri aşağıdaki alanlardan oluşuyorsa:</span><span class="sxs-lookup"><span data-stu-id="4f650-159">For example, when a warehouse worker is performing a task on a mobile device, if the metadata that will be displayed in the app consists of the following fields:</span></span>
+<span data-ttu-id="c5902-159">Örneğin bir ambar çalışanı mobil cihaz üzerinde bir görev yerine getirdiğinde, uygulamada görüntülenen meta veri aşağıdaki alanlardan oluşuyorsa:</span><span class="sxs-lookup"><span data-stu-id="c5902-159">For example, when a warehouse worker is performing a task on a mobile device, if the metadata that will be displayed in the app consists of the following fields:</span></span>
 
--   <span data-ttu-id="4f650-160">Madde</span><span class="sxs-lookup"><span data-stu-id="4f650-160">Item</span></span>
--   <span data-ttu-id="4f650-161">Miktar</span><span class="sxs-lookup"><span data-stu-id="4f650-161">Quantity</span></span>
--   <span data-ttu-id="4f650-162">Ölçü birimi</span><span class="sxs-lookup"><span data-stu-id="4f650-162">Unit of measure</span></span>
--   <span data-ttu-id="4f650-163">Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="4f650-163">Item description</span></span>
--   <span data-ttu-id="4f650-164">Boyut ve Konum</span><span class="sxs-lookup"><span data-stu-id="4f650-164">Size and Location</span></span>
+-   <span data-ttu-id="c5902-160">Madde</span><span class="sxs-lookup"><span data-stu-id="c5902-160">Item</span></span>
+-   <span data-ttu-id="c5902-161">Miktar</span><span class="sxs-lookup"><span data-stu-id="c5902-161">Quantity</span></span>
+-   <span data-ttu-id="c5902-162">Ölçü birimi</span><span class="sxs-lookup"><span data-stu-id="c5902-162">Unit of measure</span></span>
+-   <span data-ttu-id="c5902-163">Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="c5902-163">Item description</span></span>
+-   <span data-ttu-id="c5902-164">Boyut ve Konum</span><span class="sxs-lookup"><span data-stu-id="c5902-164">Size and Location</span></span>
 
-<span data-ttu-id="4f650-165">Yukarıdaki tabloda ayarlanmış olan ambar uygulaması alan öncelik kümesine dayanarak, aşağıdaki 3 bilgi satırı görev sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="4f650-165">Based on the warehouse app field priority set up in the table above, the following 3 rows of information will be displayed on the task page:</span></span>
+<span data-ttu-id="c5902-165">Yukarıdaki tabloda ayarlanmış olan ambar uygulaması alan öncelik kümesine dayanarak, aşağıdaki 3 bilgi satırı görev sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="c5902-165">Based on the warehouse app field priority set up in the table above, the following 3 rows of information will be displayed on the task page:</span></span>
 
--   <span data-ttu-id="4f650-166">Satır 1: Madde, Miktar ve Ölçü Birimi</span><span class="sxs-lookup"><span data-stu-id="4f650-166">Row 1: Item, Quantity, Unit of measure</span></span>
--   <span data-ttu-id="4f650-167">Satır 2: Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="4f650-167">Row 2: Item description</span></span>
--   <span data-ttu-id="4f650-168">Satır 3: Boyut</span><span class="sxs-lookup"><span data-stu-id="4f650-168">Row 3: Size</span></span>
+-   <span data-ttu-id="c5902-166">Satır 1: Madde, Miktar ve Ölçü Birimi</span><span class="sxs-lookup"><span data-stu-id="c5902-166">Row 1: Item, Quantity, Unit of measure</span></span>
+-   <span data-ttu-id="c5902-167">Satır 2: Madde açıklaması</span><span class="sxs-lookup"><span data-stu-id="c5902-167">Row 2: Item description</span></span>
+-   <span data-ttu-id="c5902-168">Satır 3: Boyut</span><span class="sxs-lookup"><span data-stu-id="c5902-168">Row 3: Size</span></span>
 
-<span data-ttu-id="4f650-169">Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="4f650-169">The remaining metadata, for example, Location, will not be displayed on the task page, but will be displayed on a details page.</span></span> <span data-ttu-id="4f650-170">Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Finance and Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span><span class="sxs-lookup"><span data-stu-id="4f650-170">To learn more and see examples of the user interface, refer to the blog post [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span></span>
+<span data-ttu-id="c5902-169">Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="c5902-169">The remaining metadata, for example, Location, will not be displayed on the task page, but will be displayed on a details page.</span></span> <span data-ttu-id="c5902-170">Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Finance and Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span><span class="sxs-lookup"><span data-stu-id="c5902-170">To learn more and see examples of the user interface, refer to the blog post [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="4f650-171">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="4f650-171">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="c5902-171">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="c5902-171">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="4f650-172">Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="4f650-172">Install and configure the warehouse app overview</span></span>](install-configure-warehousing-app.md)
+[<span data-ttu-id="c5902-172">Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="c5902-172">Install and configure the warehouse app overview</span></span>](install-configure-warehousing-app.md)
