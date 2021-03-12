@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cb9a37c65fb8eab4db6084b91a71c13a45ba42c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b27ccc3b4c4f5470d3a5b8ed7347e269c6793b87
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448845"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976053"
 ---
-# <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="fb585-103">Borç hesaplarından kıymetler oluşturup alın</span><span class="sxs-lookup"><span data-stu-id="fb585-103">Create and acquire assets from Accounts payable</span></span>
+# <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="74253-103">Borç hesaplarından kıymetler oluşturup alın</span><span class="sxs-lookup"><span data-stu-id="74253-103">Create and acquire assets from Accounts payable</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fb585-104">Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek.</span><span class="sxs-lookup"><span data-stu-id="fb585-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span>  <span data-ttu-id="fb585-105">Kılavuzda Muhasebeci, Borç hesabı memurları ve demo USMF şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="fb585-105">It uses the Accountant and Accounts payable clerks and the demo company USMF .</span></span>
+<span data-ttu-id="74253-104">Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek.</span><span class="sxs-lookup"><span data-stu-id="74253-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span>  <span data-ttu-id="74253-105">Kılavuzda Muhasebeci, Borç hesabı memurları ve demo USMF şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="74253-105">It uses the Accountant and Accounts payable clerks and the demo company USMF .</span></span>
 
 
-## <a name="set-fixed-assets-parameters"></a><span data-ttu-id="fb585-106">Sabit kıymet parametrelerini ayarlayın</span><span class="sxs-lookup"><span data-stu-id="fb585-106">Set Fixed assets parameters</span></span>
-1. <span data-ttu-id="fb585-107">**Gezinti bölmesinde** **Modüller > Sabit kıymetler > Kurulum > Sabit kıymet parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="fb585-107">In the **Navigation pane**, go to **Modules > Fixed assets > Setup > Fixed assets parameters**.</span></span>
-2. <span data-ttu-id="fb585-108">**Satınalma siparişleri** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="fb585-108">Expand the **Purchase orders** fastTab.</span></span>
-3. <span data-ttu-id="fb585-109">**Satınalmadan varlık alımına izin ver** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="fb585-109">Check the **Allow asset acquisition from Purchasing** checkbox.</span></span>
-4. <span data-ttu-id="fb585-110">**Ürün girişi veya fatura deftere nakil işlemi sırasında varlık oluştur** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="fb585-110">Check the **Create asset during product receipt or invoice posting** checkbox.</span></span>
+## <a name="set-fixed-assets-parameters"></a><span data-ttu-id="74253-106">Sabit kıymet parametrelerini ayarlayın</span><span class="sxs-lookup"><span data-stu-id="74253-106">Set Fixed assets parameters</span></span>
+1. <span data-ttu-id="74253-107">**Gezinti bölmesinde** **Modüller > Sabit kıymetler > Kurulum > Sabit kıymet parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="74253-107">In the **Navigation pane**, go to **Modules > Fixed assets > Setup > Fixed assets parameters**.</span></span>
+2. <span data-ttu-id="74253-108">**Satınalma siparişleri** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="74253-108">Expand the **Purchase orders** fastTab.</span></span>
+3. <span data-ttu-id="74253-109">**Satınalmadan varlık alımına izin ver** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="74253-109">Check the **Allow asset acquisition from Purchasing** checkbox.</span></span>
+4. <span data-ttu-id="74253-110">**Ürün girişi veya fatura deftere nakil işlemi sırasında varlık oluştur** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="74253-110">Check the **Create asset during product receipt or invoice posting** checkbox.</span></span>
 
-## <a name="create-a-new-vendor-invoice"></a><span data-ttu-id="fb585-111">Yeni bir satıcı faturası oluşturun.</span><span class="sxs-lookup"><span data-stu-id="fb585-111">Create a new vendor invoice</span></span>
-1. <span data-ttu-id="fb585-112">**Gezinti bölmesinde** **Modüller > Borç hesapları > Çalışma alanları > Satıcı faturası girişi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="fb585-112">In the **Navigation pane**, go to **Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
-2. <span data-ttu-id="fb585-113">**Yeni satıcı faturası**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-113">Click **New vendor invoice**.</span></span>
-3. <span data-ttu-id="fb585-114">**Fatura hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="fb585-114">In the **Invoice account** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="fb585-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-115">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="fb585-116">**Numara** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="fb585-116">In the **Number** field, type a value.</span></span>
-6. <span data-ttu-id="fb585-117">**Deftere nakil tarihi** alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="fb585-117">In the **Posting date** field, enter a date.</span></span>
-7. <span data-ttu-id="fb585-118">**Satır ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-118">Click **Add line**.</span></span>
-8. <span data-ttu-id="fb585-119">**Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="fb585-119">In the **Item number** field, click the drop-down button to open the lookup.</span></span> <span data-ttu-id="fb585-120">Sabit kıymet alımı için ya stoğu olmayan maddeler veya tedarik kategorileri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="fb585-120">Either non-stocked items or procurement categories can be used for fixed asset acquisition.</span></span>  
-9. <span data-ttu-id="fb585-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-121">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="fb585-122">**Miktar** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fb585-122">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="fb585-123">Bir fatura satırı, miktarı ne olursa olsun tek bir sabit kıymet oluşturur.</span><span class="sxs-lookup"><span data-stu-id="fb585-123">One invoice line will only create one fixed asset, regardless of quantity.</span></span> <span data-ttu-id="fb585-124">Fatura miktarı alanı değeri, sabit kıymet miktarına aktarılır.</span><span class="sxs-lookup"><span data-stu-id="fb585-124">The invoice quantity field value will be transferred to the fixed asset quantity.</span></span>  
-11. <span data-ttu-id="fb585-125">**Birim fiyatı** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fb585-125">In the **Unit price** field, enter a number.</span></span>
-12. <span data-ttu-id="fb585-126">**Satır ayrıntıları** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="fb585-126">Expand the **Line details** fastTab.</span></span>
-13. <span data-ttu-id="fb585-127">**Sabit kıymetler** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-127">Click the **Fixed assets** tab.</span></span>
-14. <span data-ttu-id="fb585-128">**Yeni bir sabit kıymet oluştur** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="fb585-128">Check the **Create a new fixed asset** checkbox.</span></span>
-15. <span data-ttu-id="fb585-129">**Sabit kıymet grubu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="fb585-129">In the **Fixed asset group** field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="fb585-130">Listede, yeni sabit kıymet oluşturulurken kullanılacak sabit kıymet grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="fb585-130">In the list, select the fixed asset group to be used when creating the new fixed asset.</span></span>
-17. <span data-ttu-id="fb585-131">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-131">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="fb585-132">**Naklet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb585-132">Click **Post**.</span></span> <span data-ttu-id="fb585-133">Sabit kıymet oluşturulur ve fatura deftere nakledildiğinde alınır.</span><span class="sxs-lookup"><span data-stu-id="fb585-133">The fixed asset will be created and acquired when the invoice is posted.</span></span>  
+## <a name="create-a-new-vendor-invoice"></a><span data-ttu-id="74253-111">Yeni bir satıcı faturası oluşturun.</span><span class="sxs-lookup"><span data-stu-id="74253-111">Create a new vendor invoice</span></span>
+1. <span data-ttu-id="74253-112">**Gezinti bölmesinde** **Modüller > Borç hesapları > Çalışma alanları > Satıcı faturası girişi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="74253-112">In the **Navigation pane**, go to **Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
+2. <span data-ttu-id="74253-113">**Yeni satıcı faturası**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-113">Click **New vendor invoice**.</span></span>
+3. <span data-ttu-id="74253-114">**Fatura hesabı** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="74253-114">In the **Invoice account** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="74253-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="74253-116">**Numara** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="74253-116">In the **Number** field, type a value.</span></span>
+6. <span data-ttu-id="74253-117">**Deftere nakil tarihi** alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="74253-117">In the **Posting date** field, enter a date.</span></span>
+7. <span data-ttu-id="74253-118">**Satır ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-118">Click **Add line**.</span></span>
+8. <span data-ttu-id="74253-119">**Madde numarası** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="74253-119">In the **Item number** field, click the drop-down button to open the lookup.</span></span> <span data-ttu-id="74253-120">Sabit kıymet alımı için ya stoğu olmayan maddeler veya tedarik kategorileri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="74253-120">Either non-stocked items or procurement categories can be used for fixed asset acquisition.</span></span>  
+9. <span data-ttu-id="74253-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-121">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="74253-122">**Miktar** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="74253-122">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="74253-123">Bir fatura satırı, miktarı ne olursa olsun tek bir sabit kıymet oluşturur.</span><span class="sxs-lookup"><span data-stu-id="74253-123">One invoice line will only create one fixed asset, regardless of quantity.</span></span> <span data-ttu-id="74253-124">Fatura miktarı alanı değeri, sabit kıymet miktarına aktarılır.</span><span class="sxs-lookup"><span data-stu-id="74253-124">The invoice quantity field value will be transferred to the fixed asset quantity.</span></span>  
+11. <span data-ttu-id="74253-125">**Birim fiyatı** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="74253-125">In the **Unit price** field, enter a number.</span></span>
+12. <span data-ttu-id="74253-126">**Satır ayrıntıları** hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="74253-126">Expand the **Line details** fastTab.</span></span>
+13. <span data-ttu-id="74253-127">**Sabit kıymetler** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-127">Click the **Fixed assets** tab.</span></span>
+14. <span data-ttu-id="74253-128">**Yeni bir sabit kıymet oluştur** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="74253-128">Check the **Create a new fixed asset** checkbox.</span></span>
+15. <span data-ttu-id="74253-129">**Sabit kıymet grubu** alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="74253-129">In the **Fixed asset group** field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="74253-130">Listede, yeni sabit kıymet oluşturulurken kullanılacak sabit kıymet grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="74253-130">In the list, select the fixed asset group to be used when creating the new fixed asset.</span></span>
+17. <span data-ttu-id="74253-131">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-131">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="74253-132">**Naklet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74253-132">Click **Post**.</span></span> <span data-ttu-id="74253-133">Sabit kıymet oluşturulur ve fatura deftere nakledildiğinde alınır.</span><span class="sxs-lookup"><span data-stu-id="74253-133">The fixed asset will be created and acquired when the invoice is posted.</span></span>  
 
