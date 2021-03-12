@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: caac7baa7841eea85c2c47f938f75663a7f9255a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3dee3d4817909cfe89c58e031921a79e44b1c4d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416465"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982378"
 ---
 # <a name="manage-assortments-november-2016"></a>Ürün çeşitlerini yönetme (Kasım 2016)
 
@@ -55,6 +54,3 @@ Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandı
 1. Yayımla'ya tıklayın.
 2. Evet'i tıklatın.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

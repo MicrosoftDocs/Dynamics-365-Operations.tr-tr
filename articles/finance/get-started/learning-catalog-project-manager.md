@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a0c8dabc91d4d69d3f7098672611610a4ec73ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 09f7efbfa0b4b96b52350afb961710057d6a2f92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448919"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984921"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Dynamics 365 Finance ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 
@@ -95,6 +94,3 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav | |
 | [Sınav MB-310: Microsoft Dynamics 365 for Finance and Operations, Mali İşlemler](https://docs.microsoft.com/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav | |
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanları; küresel mali işlem ve operasyonları birleştirir, görev ve iş akışlarını otomatikleştirir ve müşteri sipariş, satış, faturalama ve raporlama işlemlerini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

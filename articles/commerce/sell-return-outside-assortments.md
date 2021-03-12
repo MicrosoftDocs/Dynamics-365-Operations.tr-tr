@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 86c6ecf9ef67ca3ac4ed3c44d930acaa965112b6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f0801828086a7c5cc316895b5426a184a345ce1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416507"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982423"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Mağazanın ürün çeşidinden olmayan ürünleri satma ve iade etme
 
@@ -46,6 +45,3 @@ Bu ortak senaryolar Commerce kullanan perakendeciler için kullanılabilir. Comm
 + Ürünleri geçerli mağazadan veya başka mağazadan seçmek.
 + Geçerli mağazadaki veya başka mağazadaki siparişi iptal etmek.
 + Bir siparişi makbuzla veya makbuz olmadan geçerli mağazaya veya başka bir mağazaya iade etmek.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

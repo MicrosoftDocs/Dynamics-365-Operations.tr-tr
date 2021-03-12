@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, InventItemPriceCompareStorage, InventItemPriceCompareStorageDetailsChart, InventItemPriceCompareStorageDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 73e43a685f390fd718028de6add0370dfcd6cf3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6554aec1991080f4a14aedb3440ff3dfd32e9b61
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983986"
 ---
 # <a name="compare-item-prices-storage-report"></a>Madde fiyatları depolama raporunu karşılaştırma
 
@@ -121,6 +120,3 @@ Aşağıda, **Madde fiyatlarını karşılaştırma depolama** raporunun nasıl 
 1. Dışa aktarma işinizin durumunu ve dışa aktarılan varlıkların listesini görebileceğiniz **Yürütme özeti** sayfası açılır. **Varlık işleme durumu** alanında listelenen **Madde fiyatlarını karşılaştır** varlığını seçin ve ardından söz konusu varlıktan dışa aktarılan verileri indirmek için **Dosyayı indir**'i seçin.
 
 Veri yönetimini kullanarak verileri dışa aktarma hakkında daha fazla bilgi için bkz. [Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

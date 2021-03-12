@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528756"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984996"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance geliştiricileri için öğrenme kataloğu
 
@@ -49,8 +48,8 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Finance and Operations: Dynamics 365 for Finance and Operations'ı PowerApps ile genişletme (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Microsoft PowerApps'ın kolaylığını ve işletmeleri dijital olarak dönüştürmek ve kullanıcı verimliliğini artırmak üzere Dynamics 365 for Finance and Operations ile nasıl tümleştirilebileceğini öğrenin. | Bir web konferansını ücretsiz olarak kaydetme | 43 dakika |
 | [Finance and Operations: Genişletilebilirlik (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Microsoft'un genişletilebilirlik planları hakkında genel bir bakış ve güncelleştirme sağlayacağız. Meta veri genişletilebilirlik özelliklerinin yanı sıra kod çoğaltma ve güçlü Komut Zinciri özelliği de dahil olmak üzere genişletme özelliğini yakından inceleyerek bir çözümün kapsamını genişletmeye yönelik çeşitli yöntemleri ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 50 dakika |
 | [Visual Studio Team Services (VSTS) Kurulumu (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Bu Teknik Sohbet'te Geliştirme/Test ortamı yapılandırmasına yönelik olarak LCS uygulamasına bağlanmak üzere VSTS kurulumunu ve projesini yapılandırmak için gerekli olan adımları inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 41 dakika |
-| [CDS Veri Tümleştirici (DYN451PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Common Data Service (CDS) veri tümleştiricisinin yeteneklerine ilişkin bu teknik sohbette lütfen bize katılın. Dynamics 365 Customer Engagement ile Dynamics 365 Finance and Operations arasında tümleştirme seçeneklerini ve diğer üçüncü taraf çözümlerle tümleştirmeyi tartışacağız. | Bir web konferansını ücretsiz olarak kaydetme | 61 dakika |
-| [CDS Yoluyla Dynamics 365 for Sales ile Dynamics 365 for Finance & Operations Arasında Tümleştirme (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Bu Teknik Sohbet'te, "Müşteri adayından nakde" olarak bilinen, Dynamics 365 for Sales'taki satış ve pazarlama faaliyetleri ile tümleştirme ve Dynamics 365 for Finance and Operations'ta uygulama senaryosunu tanıtacağız. Ayrıca, Veri entegratörünü ve tümleştirmenin nasıl değiştirileceğini de inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 54 dakika |
+| [Dataverse Veri Tümleştirici (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Dataverse Veri Tümleştiricisinin yeteneklerine ilişkin bu teknik sohbette lütfen bize katılın. Dynamics 365 Customer Engagement ile Dynamics 365 Finance and Operations arasında tümleştirme seçeneklerini ve diğer üçüncü taraf çözümlerle tümleştirmeyi tartışacağız. | Bir web konferansını ücretsiz olarak kaydetme | 61 dakika |
+| [Dataverse Yoluyla Dynamics 365 for Sales ile Dynamics 365 for Finance & Operations Arasında Tümleştirme (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Bu Teknik Sohbet'te, "Müşteri adayından nakde" olarak bilinen, Dynamics 365 for Sales'taki satış ve pazarlama faaliyetleri ile tümleştirme ve Dynamics 365 for Finance and Operations'ta uygulama senaryosunu tanıtacağız. Ayrıca, Veri entegratörünü ve tümleştirmenin nasıl değiştirileceğini de inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 54 dakika |
 | [Veri Yönetimi (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Veri Yönetimine ilişkin bu Teknik Sohbette lütfen bize katılın. Kullanılabilir seçenekler ve bu seçeneklerin önerildiği senaryolar hakkında bilgi edinin. Veri Yönetimi çerçevesi, şablonlar, veritabanı kopyalama, şirketlerarası veri paylaşımı ve performansla ilgili açıklamaları ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 58 dakika |
 | [Dynamics 365 for Finance and Operations İçin Azure Tümleştirme Araçları (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Bu Teknik Sohbet'te, Dynamics 365 for Finance & Operations ile tümleştirme sırasında göz önünde bulundurulabilecek araç türleri ve hangi tümleştirme aracının ne zaman kullanılacağını ele alacağız. Ayrıca oturumda Azure tümleştirme hizmetleri kullanılarak oluşturulan bazı tümleştirme senaryolarını da inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 63 dakika |
 | [Dynamics 365 for Finance & Operations'taki Tümleştirme Çerçeveleri (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | Bu oturumda, Dynamics 365 for Finance & Operations'taki tümleştirme çerçevelerine genel bir bakış sunulacak ve bu çerçevelerin kullanılabileceği etken ele alınacaktır. | Bir web konferansını ücretsiz olarak kaydetme | 64 dakika |
@@ -94,6 +93,3 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | İçerik | Tanım  | Biçim  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Sınav MB-500: Microsoft Dynamics 365: Finance and Operations Uygulama Geliştiricisi](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Bu sınav şu teknik görevleri yerine getirebilme yeteneğinizi ölçer: plan mimarisi ve çözüm tasarımı; geliştirici araçlarını uygulama; AOT öğelerini tasarlama ve geliştirme; kod geliştirme ve test etme; raporlama uygulama; veri çözümlerini tümleştirme ve yönetme; güvenlik uygulama ve performansı optimize etme. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

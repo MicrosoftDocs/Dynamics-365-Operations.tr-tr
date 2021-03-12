@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 72367927a11879adffe68d7242d88f5cfab73e22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72ed2ba42c6233461743492fe6776f376195ada6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439269"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983478"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
 
@@ -87,6 +86,3 @@ Sonuç 25 adete ait planlı bir sipariş. (= 25 adet &minus; 0 adet) 13 numaral�
 [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

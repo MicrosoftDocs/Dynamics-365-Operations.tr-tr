@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983737"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 
@@ -622,6 +621,3 @@ Ambar 51 için iş ve konum verilerini, kalite emirleri tamamlandığında işin
 
 > [!NOTE]
 > Etkinlik kodunun *Açık iş listesini görüntüle* olduğu bir mobil cihaz menü öğesine bir kalite çıkış girişi eklemeyi düşünün. Örnek olarak, demo verilerdeki **İş listesi** adlı mobil cihaz menü öğesine bakın. Öncelikle *Kalite emri* iş sınıfını kullanıcı tarafından yönlendirilen bir menü öğesine ekleyin; çünkü işin iş listesinde görünmesi için bu iş sınıfı gereklidir. Sonra *Kalite emri* iş sınıfını **İş listesi** menü öğesine ekleyin. Bu durumda, iş listesine erişimi olan kullanıcılar otomatik olarak kalite emri doğrulaması tarafından oluşturulan işi çekebilir ve işleyebilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

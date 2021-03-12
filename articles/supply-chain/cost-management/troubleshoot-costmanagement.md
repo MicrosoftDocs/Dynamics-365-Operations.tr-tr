@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4439743"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983862"
 ---
 # <a name="troubleshoot-cost-management"></a>Maliyet yönetimi sorunlarını giderme
 
@@ -63,5 +62,22 @@ Lütfen %3 (31-01-2019) itibarıyla dönem sonuyla eşleşen bir stok kapanış�
 
 **Stok yaşlandırma raporu**, farklı depolama boyutlarında (tesis veya ambar gibi) görüntülendiğinde farklı değerler gösterir. Raporlama mantığı hakkında daha fazla bilgi için bkz. [Stok yaşlandırma raporu örnekleri ve mantığı](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Stok değerleme yöntemi Standart maliyet veya Hareketli ortalama olduğunda güncelleştirme çakışması oluşur
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ölçeklenebilirlik ve performans için paralel olarak stok günlükleri, satınalma siparişi faturaları veya satış siparişi faturaları gibi belgeleri deftere naklettiğinizde, güncelleştirme çakışmasıyla ilgili hata iletisi alabilirsiniz ve belgelerden bazıları deftere nakledilmeyebilir. Bu sorun, stok değerleme yöntemi *Standart maliyet* veya *Hareketli ortalama* olduğunda gerçekleşebilir. Her iki yöntem de kalıcı maliyetlendirme yöntemidir. Başka bir deyişle, son maliyet deftere nakil sırasında belirlenir.
+
+*Hareketli ortalama* yöntemini kullanıyorsanız, hata iletisi aşağıdaki örneğe benzer:
+
+> Orantılı gider hesaplamasından sonra xx.xx stok değeri beklenmez
+
+*Standart maliyet* yöntemini kullanıyorsanız, hata iletisi aşağıdaki örneğe benzer:
+
+> Standart maliyet, güncelleştirmeden sonraki mali stok değeriyle eşleşmez. Değer = xx.xx, Miktar = yy.yy, Standart maliyet = zz.zz
+
+Microsoft sorunu düzeltmek üzere bir çözüm yayınlayana kadar, bu hataları önlemek veya azaltmak için aşağıdaki geçici çözümleri kullanabilirsiniz:
+
+- Başarısız belgeleri yeniden deftere nakledin.
+- Daha az satır içeren belgeler oluşturun.
+- Standart maliyette ondalık değerler kullanmaktan kaçının. Standart maliyeti, **Fiyat miktarı** alanı *1* olarak ayarlanacak şekilde tanımlamaya çalışın. *1*'den yüksek bir **Fiyat miktarı** değeri belirtmeniz gerekiyorsa birim standart maliyetindeki ondalık basamak sayısını en aza indirmeye çalışın. (İdeal olarak, ikiden az ondalık basamak olmalıdır.) Örneğin, standart maliyet ayarlarını şu şekilde ayarlamaktan kaçının: **Fiyat** = *10* ve **Fiyat miktarı** = *3*, çünkü bunlar 3,333333 (ondalık değer devam eder) değerinde bir birim standart maliyeti oluşturur.
+- Birçok belgede, aynı ürün ve mali stok boyutları birleşimini içeren birden çok satırı kullanmaktan kaçının.
+- Paralelleşme derecesini azaltın. (Bu durumda sisteminiz daha hızlı olabilir, çünkü daha az güncelleştirme çakışması ve yeniden deneme gerçekleştirilir.)

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8b47aee41494394a32ffc0ea0c42a512e5051532
-ms.sourcegitcommit: b86576e1114e4125eba8c144d40c068025f670fc
+ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666734"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983556"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -274,6 +273,3 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 ### <a name="reduce-a-forecast-by-transactions"></a>Bir tahmini hareketler ile azaltın
 
 **Hareketler - azaltma anahtarı**'nı veya **Hareketler - dinamik dönem**'i tahmin gereksinimlerini azaltmak için bir yöntem olarak seçerseniz, hangi hareketlerin tahmini azaltacağını seçersiniz. **Karşılama grupları** sayfasında, **Diğer** Hızlı Sekmesinde, **Tahmini şunun üzerinden azalt** alanında, tüm hareketler tahmini azaltacaksa **Tüm tahminler**'i seçin veya yalnızca satış siparişleri tahmini azaltacaksa **Siparişler**'i seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

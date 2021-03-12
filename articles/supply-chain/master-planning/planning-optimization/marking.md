@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672213"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983503"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Planlama İyileştirmesi ile stok işaretleme
 
@@ -49,6 +48,3 @@ Planlı bir siparişi kesinleştirirken, **Kesinleştirme** iletişim kutusu kes
 - **Hayır**: Stok işaretleme uygulanmaz.
 - **Standart**: Stok işaretleme ilişkilendirmeye göre güncelleştirilir. Bir karşılama siparişi (arz) karşılığında bir gereksinim siparişi (talep) işaretlenir. Bazı miktarlar, karşılama siparişinde kalırsa işaretlenmez ve başvuru bilgileri boş bırakılır. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri yalnızca satış siparişine atanır.
 - **Genişletilmiş**: Herhangi bir miktarın karşılama siparişinde kalıp kalmadığına bakılmaksızın, hem gereksinim siparişi (talep) hem karşılama siparişi (arz) işaretlenir. Örneğin, 100 ea değerinde bir satış siparişi 150 ea değerinde bir satın alma siparişiyle ilişkilendirildirse, başvuru bilgileri hem satış siparişine hem de satın alma siparişine atanır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

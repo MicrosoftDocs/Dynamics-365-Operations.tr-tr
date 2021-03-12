@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b76d542f64979d28367cacb234669c9825b2d8aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416543"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982353"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Serileştirilmiş ürünler için satış noktası (POS) geliştirmeleri
 
@@ -42,6 +41,3 @@ Commerce Headquarters'daki ayarlara dayanarak, ürünler seri veya seri değil o
 - **Seri numaraları müşteri siparişlerini eklemek için gerekli değildir** – Müşteri siparişleri bir mağazadan eklenip başka bir mağazadan gerçekleştirilebilir. Bir müşteri siparişi ekleyen bir kasiyerin seri numarasını eklemesi gerekmez. Seri numarası malzeme çekme veya toplama adımı sırasında sağlanır. Ancak, **Alıp git** teslimat türünün seçilmiş olduğu tüm satır maddeleri için bir seri numarasının verilmiş olması gerekir. Aksi durumda, işlem tamamlanamaz.
 - **Seri hale getirilen ürünler hareket ekranında toplanmaz** – **İşlev profili** sayfasındaki **Terminal** alanı grubundaki **Ürünleri topla** ayarı, hareket ekranında seri halde olmayan aynı ürünleri toplamanıza olanak sağlar. Aynı ürünler toplanırken, hareket kılavuzunda görülmeleri daha kolaydır. Ancak, seri numaraları genellikle benzersiz olduğunda ve satış sorumlularının ödeme adımına kadar seri numarası girmek zorunda olmadıklarından **Ürünleri topla** ayarı seri haldeki ürünlere uygulanmaz. Bu nedenle seri haldeki ürünler hareket ekranında **Ürünleri topla** ayarı seçiliyse toplanmayacaktır.
 - **Günlükleri seri numarasına göre arama yeteneği** – Günlükler artık seri numaralarına göre de aranabilir. Bunu yapmak için "Günlükler" işlemini açın ve uygulama çubuğundaki "Gelişmiş arama" düğmesine basın. "Filtre ekle" düğmesini kullanarak, seri numarası aramasına bir filtre de uygulanabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

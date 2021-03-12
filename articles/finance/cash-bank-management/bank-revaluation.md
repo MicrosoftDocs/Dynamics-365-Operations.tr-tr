@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f99a5ed82fd4d74a5d20620dbe19b4f18e332432
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b7d2e33c1edb36227a76453d1981aec5babbf75
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448910"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985374"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banka yabancı para birimi yeniden değerleme işlemi
 
@@ -88,6 +87,3 @@ Yabancı para birimi yeniden değerleme işlemi, banka hareketleri arasında bul
 Yeniden değerleme işlemi hareketini tersine çevirmeniz gerekiyorsa **Yabancı para birimi yeniden değerleme işlemi** sayfasında **Ters hareket** Eylem Panosunda seçin. Yeniden değerleme işlemi oluştuğunda veya tersine çevrildiğinde geçmiş hesap denetimi kılavuzunu düzenlemek için yeni bir yabancı para birimi yeniden değerleme işlemi geçmiş kaydı oluşturulur.
 
 Birkaç yeniden değerlemeyi tersine çevirmek için en son yeniden değerleme ilk tersine çevirmeniz gerekir. Daha sonra, eski yeniden değerlemeleri tarih sırasında ters çevirmek için devam edin. Daha sonra tersine çevirdiğiniz dönemler için yeni yeniden değerlemeleri işleyebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

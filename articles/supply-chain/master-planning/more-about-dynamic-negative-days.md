@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e64a4bd9e65b62bb782785a363aa2eee5264e3a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2c098c04e8804187f5111fd10cb858a0c63289e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439273"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983631"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatif günler ve dinamik negatif günler
 
@@ -251,6 +250,3 @@ MRP, ilk satış siparişine iliştirilmiş bir planlı sipariş oluşturur. Dah
 ## <a name="see-also"></a>Ayrıca bkz.
 
 Daha fazla tartışma için orijinal [(Dinamik) negarif günler hakkında daha fazla](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/) web günlüğü dosyasına bakın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
