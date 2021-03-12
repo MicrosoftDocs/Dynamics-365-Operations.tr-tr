@@ -11,35 +11,34 @@ ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5863fcc677e6dcfedf32031a14354674255ea137
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448695"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994402"
 ---
-# <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="b281a-103">Günlük girişlerini veya hareketlerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="b281a-103">View journal entries or transactions</span></span>
+# <a name="view-journal-entries-or-transactions"></a><span data-ttu-id="400db-103">Günlük girişlerini veya hareketlerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="400db-103">View journal entries or transactions</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b281a-104">Bu yordam, günlük girişlerini veya hareketlerini aramak için Fiş hareketleri sorgusunun nasıl kullanılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="b281a-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
+<span data-ttu-id="400db-104">Bu yordam, günlük girişlerini veya hareketlerini aramak için Fiş hareketleri sorgusunun nasıl kullanılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="400db-104">This procedure shows how to use the Voucher transactions inquiry to search for journal entries or transactions.</span></span>
 
-1. <span data-ttu-id="b281a-105">**Gezinti bölmesi > Modüller > Genel muhasebe > Sorgular ve raporlar > Fiş hareketleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="b281a-105">Go to **Navigation pane > Modules > General ledger > Inquiries and reports > Voucher transactions**.</span></span>
-2. <span data-ttu-id="b281a-106">Filtre ölçütleri tanımlamak istediğiniz alanı seçin.</span><span class="sxs-lookup"><span data-stu-id="b281a-106">Select the field for which you want to define a filter criteria.</span></span>
-3. <span data-ttu-id="b281a-107">Seçili alan için filtre ölçütlerini girin.</span><span class="sxs-lookup"><span data-stu-id="b281a-107">Enter your filter critieria for the selected field.</span></span> <span data-ttu-id="b281a-108">Tek bir değeri veya bir aralığı filtreleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b281a-108">You could filter on a single value or a range.</span></span> <span data-ttu-id="b281a-109">Bir aralık tanımlarken doğru sözdiziminin kullanıldığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="b281a-109">When defining a range, make sure the correct syntax is used.</span></span> <span data-ttu-id="b281a-110">Değerler çift nokta (..) ile ayrılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="b281a-110">The values should be separated by a double period (..).</span></span>  
-4. <span data-ttu-id="b281a-111">Filtrelemek için kullanacağınız ek tabloları eklemek için **Birleştirir** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-111">Click the **Joins** tab to add additional tables from which to filter.</span></span>
-5. <span data-ttu-id="b281a-112">Ağaçta, **Tablolar/Genel günlük girişi** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="b281a-112">In the tree, select **Tables/General journal entry**.</span></span>
-6. <span data-ttu-id="b281a-113">**Birleştirme tablosu ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-113">Click **Add table join**.</span></span>
-7. <span data-ttu-id="b281a-114">Ek bir tablo eklememeye karar verdiyseniz **İptal**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-114">Click **Cancel** if you decide not to add an additional table.</span></span>
-8. <span data-ttu-id="b281a-115">**Aralık** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-115">Click the **Range** tab.</span></span>
-9. <span data-ttu-id="b281a-116">Sorguyu çalıştırmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-116">Click **OK** to run the query.</span></span>
-10. <span data-ttu-id="b281a-117">Eylem bölmesinde,  **Hareket kaynağı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-117">On the Action pane, click **Transaction origin**.</span></span> <span data-ttu-id="b281a-118">Fişin seçilen kaydı hakkında ek bilgileri araştırmak için kılavuz hakkında çeşitli düğmeler kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="b281a-118">Various buttons about the grid can be used to research additional information about the selected record of the voucher.</span></span> <span data-ttu-id="b281a-119">Hareketin türüne ve özelliklerine bağlı olarak bazı düğmeler kullanılamayabilir.</span><span class="sxs-lookup"><span data-stu-id="b281a-119">Some buttons may not be available, depending on the type of transaction and characteristics of the transaction.</span></span>
-11. <span data-ttu-id="b281a-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b281a-120">Close the page.</span></span>
-12. <span data-ttu-id="b281a-121">Eylem bölmesinde, **Orijinal belge** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b281a-121">On the Action pane, Click **Original document**.</span></span>
-13. <span data-ttu-id="b281a-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b281a-122">Close the page.</span></span>
+1. <span data-ttu-id="400db-105">**Gezinti bölmesi > Modüller > Genel muhasebe > Sorgular ve raporlar > Fiş hareketleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="400db-105">Go to **Navigation pane > Modules > General ledger > Inquiries and reports > Voucher transactions**.</span></span>
+2. <span data-ttu-id="400db-106">Filtre ölçütleri tanımlamak istediğiniz alanı seçin.</span><span class="sxs-lookup"><span data-stu-id="400db-106">Select the field for which you want to define a filter criteria.</span></span>
+3. <span data-ttu-id="400db-107">Seçili alan için filtre ölçütlerini girin.</span><span class="sxs-lookup"><span data-stu-id="400db-107">Enter your filter critieria for the selected field.</span></span> <span data-ttu-id="400db-108">Tek bir değeri veya bir aralığı filtreleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="400db-108">You could filter on a single value or a range.</span></span> <span data-ttu-id="400db-109">Bir aralık tanımlarken doğru sözdiziminin kullanıldığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="400db-109">When defining a range, make sure the correct syntax is used.</span></span> <span data-ttu-id="400db-110">Değerler çift nokta (..) ile ayrılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="400db-110">The values should be separated by a double period (..).</span></span>  
+4. <span data-ttu-id="400db-111">Filtrelemek için kullanacağınız ek tabloları eklemek için **Birleştirir** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-111">Click the **Joins** tab to add additional tables from which to filter.</span></span>
+5. <span data-ttu-id="400db-112">Ağaçta, **Tablolar/Genel günlük girişi** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="400db-112">In the tree, select **Tables/General journal entry**.</span></span>
+6. <span data-ttu-id="400db-113">**Birleştirme tablosu ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-113">Click **Add table join**.</span></span>
+7. <span data-ttu-id="400db-114">Ek bir tablo eklememeye karar verdiyseniz **İptal**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-114">Click **Cancel** if you decide not to add an additional table.</span></span>
+8. <span data-ttu-id="400db-115">**Aralık** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-115">Click the **Range** tab.</span></span>
+9. <span data-ttu-id="400db-116">Sorguyu çalıştırmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-116">Click **OK** to run the query.</span></span>
+10. <span data-ttu-id="400db-117">Eylem bölmesinde,  **Hareket kaynağı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-117">On the Action pane, click **Transaction origin**.</span></span> <span data-ttu-id="400db-118">Fişin seçilen kaydı hakkında ek bilgileri araştırmak için kılavuz hakkında çeşitli düğmeler kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="400db-118">Various buttons about the grid can be used to research additional information about the selected record of the voucher.</span></span> <span data-ttu-id="400db-119">Hareketin türüne ve özelliklerine bağlı olarak bazı düğmeler kullanılamayabilir.</span><span class="sxs-lookup"><span data-stu-id="400db-119">Some buttons may not be available, depending on the type of transaction and characteristics of the transaction.</span></span>
+11. <span data-ttu-id="400db-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="400db-120">Close the page.</span></span>
+12. <span data-ttu-id="400db-121">Eylem bölmesinde, **Orijinal belge** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="400db-121">On the Action pane, Click **Original document**.</span></span>
+13. <span data-ttu-id="400db-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="400db-122">Close the page.</span></span>
 
