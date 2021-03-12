@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 826a65af563207fbfbc7391b176aa0e65b3363f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fbdfa340f25fdf90048a9a4696ccb20855435a7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448889"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978651"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
 
@@ -47,6 +46,3 @@ Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi
 8. Konsolidasyon hesabı alanında bir değer girin.
 9. Konsolidasyon hesabı adı alanında bir değer girin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

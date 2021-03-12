@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd6d5add4d11c917a705e88d10b589e2c43fab89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a12773cc6d94a34197084c8fe12c90167d4dca62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439108"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977775"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama
 
@@ -42,6 +41,3 @@ Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kan
 6. Hazırla'ya tıklayın.
     * Hazırlama işlemi şimdi tamamlandı. Seçili malzeme çekme listesindeki tüm satırlar için seçili onay kutusu, tedarik durumunun çekilmiş olduğunu gösterir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

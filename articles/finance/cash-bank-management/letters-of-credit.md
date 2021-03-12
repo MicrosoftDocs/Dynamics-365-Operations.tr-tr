@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a9be6ad2ff90dffdf8548d7594f922a7cf9b404
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 24f2580200f69718a7183eb55764e8a64533178f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978826"
 ---
 # <a name="letters-of-credit"></a>Kredi mektupları
 
@@ -53,6 +52,3 @@ Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 [Kredi mektubu için banka hizmet sözleşmesi oluşturma](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

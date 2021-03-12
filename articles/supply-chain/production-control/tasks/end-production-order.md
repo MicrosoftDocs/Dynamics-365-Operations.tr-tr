@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fade659c320e0ea1059644324859c9a3cb273c96
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f3e121fdc0f69ace15e0fa08bde0af739ef7d28
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438997"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977825"
 ---
 # <a name="end-a-production-order"></a>Üretim emrini bitirme
 
@@ -46,6 +45,3 @@ Bu yordam, bir üretim emrini nasıl sonlandırabileceğinizi gösterir. Bu yön
 1. Eylem Bölmesi'nde, Maliyetleri yönet'e tıklayın.
 2. Maliyet karşılaştırmasını görüntüle'ye tıklayın.
     * Üretim emrini sona erdirdikten sonra, üretim farklarının genel bir bakış elde etmek için, tahmini maliyet fiyatını, gerçekleşmiş maliyet fiyatı ile karşılaştırabilirsiniz.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

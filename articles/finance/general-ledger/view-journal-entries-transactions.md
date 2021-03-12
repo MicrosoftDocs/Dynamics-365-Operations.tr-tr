@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b8ae038001e799666907fd1ba7bec09765785f45
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448816"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978473"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 
@@ -61,6 +60,3 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

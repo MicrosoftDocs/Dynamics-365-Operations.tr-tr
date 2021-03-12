@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac4dcba153b8da3d62261326c3c4e169325c2210
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439089"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977400"
 ---
 # <a name="schedule-load-utilization"></a>Yük kullanımını zamanla
 
@@ -72,6 +71,3 @@ Alan kullanımını **Ambar yük kullanımı** raporu oluşturarak planlayabilir
 
 4. **Yükleme türü** alanında alanın planlanacağı ambar işletme birimini belirtmek **Hacim** veya **Ağırlık** seçeneğini belirtin.
 5. **Alan kullanımı kurulumu** alanında, yansıtmanın temel alacağı alan kullanımı kurulumunu seçin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

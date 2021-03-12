@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439097"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977500"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
@@ -179,6 +178,3 @@ Aşağıdaki olayların gerçekleştiğine dikkat edin:
 - Bağlantılı satış siparişi için ambara serbest bırakma tetiklenir.
 - Serbest bırakmaya bağlı olarak, sevkiyat ve çapraz sevk işi oluşturulur. Bu iş, ambar operatörüne satış siparişi satırını karşılamak için gereken miktarları çekmesini ve bunları çapraz sevk yerleşimi yönergesinde belirtilen çıkış yerleşimine koymasını söyler.
 - Üretim emri miktarı, satış siparişinin gerektirdiği miktardan büyükse, olağan yerine koyma çalışması oluşturulur. Bu iş ambar operatörüne çapraz sevk sonrasında kalan mamul mal miktarını çekmesini ve bunu yerleşim yönergesine göre normal depolama birimine taşımasını bildirir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

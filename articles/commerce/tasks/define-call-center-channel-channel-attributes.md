@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2f99029195a8b783f0d12990d4e8bab0bb348d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59193d5d6a54fba89394e9700beb3b9596c47391
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416472"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976576"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
 
@@ -100,6 +99,3 @@ Bu yordam yeni bir Commerce kanalı oluşturma ve kanal özniteliklerini tanıml
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

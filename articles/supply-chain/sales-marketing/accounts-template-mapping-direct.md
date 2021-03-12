@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0499f604049240a226b4002710817034598b1e66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529222"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977725"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sales'deki hesapları doğrudan Supply Chain Management'daki müşterilerle eşitleme
 
@@ -33,7 +32,7 @@ ms.locfileid: "4529222"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Aday'dan nakde çözümünü kullanmadan önce [Common Data Service for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
+> Aday'dan nakde çözümünü kullanmadan önce [Microsoft Dataverse for Apps için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator) hakkında bilgi sahibi olmalısınız.
 
 Bu konu, hesapları doğrudan Dynamics 365 Sales'den Dynamics 365 Supply Chain Management'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
 
@@ -66,11 +65,11 @@ Hesaplar Sales'ta yönetilir ve Supply Chain Management'a müşteriler olarak e�
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
-**Hesap numarası** alanı, **Hesap** sayfasında kullanılabilir. Tümleştirmeyi desteklemek için doğal ve benzersiz anahtar yapılmıştır. Müşteri İlişkileri Yönetimi'nin (CRM) doğal anahtar özelliği, halihazırda **Hesap Numarası** alanını kullanan ancak hesap başına benzersiz **Hesap Numarası** kullanmayan müşterileri etkileyebilir. Şu anda, tümleştirme çözümü bu durumu desteklemez.
+**Hesap Numarası** sütunu, **Hesap** sayfasında bulunur. Tümleştirmeyi desteklemek için doğal ve benzersiz anahtar yapılmıştır. Müşteri İlişkileri Yönetimi (CRM) çözümünün doğal anahtar özelliği, halihazırda **Hesap Numarası** sütununu kullanan ancak hesap başına benzersiz **Hesap Numarası** değerleri kullanmayan müşterileri etkileyebilir. Şu anda, tümleştirme çözümü bu durumu desteklemez.
 
 Yeni bir hesap oluşturulduğunda, bir **Hesap Numarası** değeri zaten mevcut değilse, otomatik olarak bu numara serisini kullanarak oluşturulur. Değer **ACC**'dan oluşur ve artan bir numara serisi ve daha sonra altı karakterlik bir sonek tarafından izlenir. Aşağıda bir örnek verilmiştir: **ACC-01000-BVRCPS**
 
-Sales için tümleştirme çözümü uygulandığında, bir güncelleştirme kodu **Hesap Numarası** alanını Sales içindeki mevcut hesaplarda ayarlar. **Hesap Numarası** değeri yoksa, daha önce belirtilen numara serisi kullanılır.
+Sales için tümleştirme çözümü uygulandığında, bir güncelleştirme komut dosyası **Hesap Numarası** sütununu Sales içindeki mevcut hesaplarda ayarlar. **Hesap Numarası** değeri yoksa, daha önce belirtilen numara serisi kullanılır.
 
 ## <a name="preconditions-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
@@ -95,12 +94,12 @@ Sales için tümleştirme çözümü uygulandığında, bir güncelleştirme kod
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
 > [!NOTE]
-> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerine dahil değildir. Bu alanları eşleştirmek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
+> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** sütunları varsayılan eşlemelere dahil değildir. Bu sütunları eşleştirmek için, tablonun aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşlemesi ayarlamanız gerekir.
 
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir. 
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
+> Eşleme hangi sütun bilgilerinin Sales'den Supply Chain Management'a eşitleneceğini gösterir.
 
 ![Veri tümleştirmede şablon eşleme](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -117,6 +116,3 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 [Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

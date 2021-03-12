@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448887"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976378"
 ---
 # <a name="reconcile-a-bank-account"></a>Banka hesabı için mutabakat sağlama
 
@@ -71,6 +70,3 @@ Banka ekstresi mutabakat işlevselliğini iptal etmek, banka ekstresi mutabakat�
 Banka ekstresi mutabakatları yalnızca girildikleri kronolojik sırada iptal edilebilir. Bir banka ekstresi mutabakatı iptal edildiğinde, yeni hareketler ve düzeltmeler tersine çevrilir ve diğer tüm işlemler mutabakat sağlanacak şekilde işaretlenir.
  
 Banka ekstresi mutabakatını iptal etmek için banka ekstresini seçin ve **Banka ekstresi > Banka mutabakatını iptal et**'i seçin. **Banka mutabakatını iptal et** sayfasında **Neden kodu**, **Neden yorumu** ve **İptal tarihini** sağlayın. İptal başlangıcı için **Tamam**'ı seçin. Unutmayın, banka ekstresi iptal tarihi banka ekstresi tarihinde veya sonra olmalıdır. Banka ekstresi mutabakatı iptal edildikten sonra banka ekstresi için **İptal tarihi** alanı sağlanan **İptal tarihi** ile güncelleştirilir. Mutabakatı iptal edilen hareketleri görüntülemek için **Hareketler** düğmesini seçin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
-ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
+ms.openlocfilehash: 97790b91d4de536b89b580c26ef1e37145f7d7c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514314"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977450"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Toplu iş ve lisans plaka onayı
 
@@ -48,6 +47,3 @@ Toplu iş ve plaka onayı yapılandırmasını mobil cihaz menü öğelerinden y
 
 1. İşler mobil cihaz menü öğesinden, iş onay kurulumunu açın.  
 1. Toplu iş veya plaka onayı için seçeneği işaretleyin. Her iki seçenek de otomatik onayın etkinleştirilmiş olmadığı iş türü çekmeleri için kullanılabilir.  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

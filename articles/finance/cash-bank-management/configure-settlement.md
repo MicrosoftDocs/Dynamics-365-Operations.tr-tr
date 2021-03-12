@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 094b8876b3b10b6dcbc0ce399a1a9915271459ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ebc6fcfe20082f76007eabb86d5e33dbfc900dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448953"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976474"
 ---
 # <a name="configure-settlement"></a>Kapatma yapılandırma
 
@@ -67,6 +66,3 @@ Ek muhasebe girişlerini (aynı genel muhasebe hesabına borç ve alacak girişi
 
 -   Kuruluşlar gerekli olmayan bir mali boyutu sıfırla doldurmak için sık sık sabit boyutları kullanılır. Bu genellikle alacak hesapları/borç hesapları gibi bilanço hesapları için geçerlidir. Hesap yapıları tipik olarak sıfırla doldurulmuş mali boyutları izlememek için kullanılabilir.  Bilanço hesapları için mali boyutu kaldırarak, sabit boyutları kullanma gereksinimini ortadan kaldırabilirsiniz.
 -   Kuruluşunuz alacak hesapları/borç hesapları ana hesabında sabit boyutları gerektiriyorsa, sabit boyutu ödemede varsayılan yapmanın bir yolunu bularak, sabit boyut değerinin ödeme için satıcı hareketinde depolanmasını sağlayın. Bu, sistemin, alacak hesapları/borç hesapları ana hesabını yeniden oluşturarak sabit boyutlarının dahil edilmesini sağlamaya olanak sağlayacaktır. Sabit boyut değeri ya satıcılarda veya ödeme günlüğü için günlük adında varsayılan değer olarak tanımlanabilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
