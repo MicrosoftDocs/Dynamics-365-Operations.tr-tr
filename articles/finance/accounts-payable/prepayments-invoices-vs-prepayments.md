@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9c29529aa57eb7685e36f5407f4279544fdb701
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448768"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979550"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Ön ödeme faturaları ve ön ödemeler karşılaştırması
 
@@ -38,24 +37,24 @@ Kuruluşlar, satıcılara mal veya hizmetleri için bu mal veya hizmetler karş�
 | Ön ödeme faturalandırması                                                                | Ön ödemeler                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Satınalma emrine bir ön ödeme değeri tanımlayın.                                    | Satınalma emrine hiçbir ön ödeme değeri tanımlanmamıştır.                    |
-| Anahtar: Ön ödeme faturası ve son fatura deftere nakledilmelidir.                       | Deftere hiçbir ön ödeme faturası nakledilmemelidir.                                    |
+| Anahtar: Peşinat faturası ve nihai fatura deftere nakledilmelidir.                       | Deftere hiçbir ön ödeme faturası nakledilmemelidir.                                    |
 | Ön ödeme yükümlülüğü ön ödeme hesabında tutulur, AP hesabında değil. | Ön ödeme yükümlülüğü AP hesabında tutulur.                  |
 | Satıcı bakiyesi ön ödeme değerini işlem boyunca yansıtmaz.     | Satıcı bakiyesi ön ödeme değerini işlem boyunca yansıtır. |
 | Ön ödeme faturalandırması yalnızca Borç hesaplarında kullanılabilir.                         | Ön ödemeler Borç hesabında ve Alacak hesaplarında kullanılabilir.    |
 
 ## <a name="overview-of-the-prepayment-process"></a>Ön ödeme işlemine genel bakış
-Birçok ülkedeki/bölgedeki muhasebe uygulamaları, müşteriden satıcıya yapılan ön ödemelerin müşteri veya satıcı için genel özet hesaplarına nakledilmemesini gerektirir. Bunun yerine, bu ön ödemeler, ön ödemeler için olan özel genel muhasebe hesaplarına nakledilir. Bir satış emri veya satınalma emri oluşturulduğunda, müşteriye veya satıcıdan bir fatura çıkarılır. Fatura ödenirken, ön ödeme genel muhasebe hesaplarındaki ön ödeme ve satış vergisi ön ödemesi fişi ters çevrilir ve fatura tutarları otomatik olarak genel özet hesaplarına nakledilir. Bir ön ödeme oluşturmak için şu adımları izleyin.
+Birçok ülke/bölgedeki muhasebe uygulamaları, bir müşteriden veya satıcıdan gelen peşinatların müşteri veya satıcı için normal özet hesaplara nakledilmemesini gerektirir. Bunun yerine, bu ön ödemeler, ön ödemeler için olan özel genel muhasebe hesaplarına nakledilir. Bir satış siparişi veya satın alma siparişi oluşturulduğunda, müşteriye bir fatura düzenler veya satıcıdan alınır. Fatura ödenirken, ön ödeme genel muhasebe hesaplarındaki ön ödeme ve satış vergisi ön ödemesi fişi ters çevrilir ve fatura tutarları otomatik olarak genel özet hesaplarına nakledilir. Bir ön ödeme oluşturmak için şu adımları izleyin.
 
 1.  Ön ödemeler için deftere nakil profilleri ayarlayın.
 2.  Alacak hesapları parametreleri Borç hesapları parametrelerinde, **Genel muhasebe ve satış vergisi** altında, **Ön ödemeli ödeme günlüğü için deftere nakil profili** parametresini kullanarak yeni deftere nakil profilini seçin.
-3.  Bir ödeme günlüğü oluşturun, sonra da yeni ödeme oluşturun.
-4.  Ödemeyi ön ödeme olarak işaretleyebilirsiniz. Bir ödeme ön ödeme olarak işaretlenmişse ödeme, 1 ve 2. adımlarda ayarladığınız deftere nakil profilinde tanımlanan genel muhasebe hesaplarına nakledilir. Ek olarak, ödeme ön ödeme olarak işaretlenmişse, vergiler de hesaplanır. Bazı devletler, bir ön ödeme kaydedildiğinde, fatura olmasa bile vergilerin ödenmesini gerekir.
+3.  Bir ödeme günlüğü oluşturun ve sonra yeni ödemeyi oluşturun.
+4.  Ödemeyi ön ödeme olarak işaretleyebilirsiniz. Bir ödeme peşinat olarak işaretlenirse ödeme, 1 ve 2. adımlarda ayarladığınız deftere nakil profilinde tanımlı genel muhasebe hesaplarına nakledilir. Ek olarak, ödeme ön ödeme olarak işaretlenmişse, vergiler de hesaplanır. Bazı hükümetler, fatura olmasa ön ödeme kaydedildiğinde vergilerin ödenmesini gerektirir.
 5.  Ön ödemeyi nakledin.
-6.  İsteğe bağlı: Faturayı oluşturmadan önce ön ödemeyi satınalma siparişine veya satış siparişine karşılık kapatabilirsiniz. Satış siparişi veya satınalma siparişi sayfasında, Eylem bölmesindeki **Hareketleri kapat**'ı kullanın.
-7.  Satıcı mal veya hizmetleri teslim ettikten sonra faturayı kaydedin. 6. adımda satınalma emrine veya satış emrine karşı ön ödemeyi kapattıysanız, ön ödeme oluşturduğunuz faturaya karşı otomatik olarak kapatılır. Satınalma emrine veya satış emrine karşı ön ödemeyi kapatmadıysanız, müşteri veya satıcı sayfasındaki **Hareketleri kapat** seçeneğini kullanarak, faturaya karşı manuel olarak kapatabilirsiniz. Ardından ön ödeme tutarı, geçici olarak AP/AR genel muhasebesinden tersine çevrilir. Ek olarak, vergiler hesaplandıysa bunlar tersine çevrilir çünkü fatura gerçek vergileri içerir.
+6.  İsteğe bağlı: Faturayı oluşturmadan önce ön ödemeleri satın alma siparişi veya satış siparişi karşılığında kapatabilirsiniz. Satış siparişi veya satın alma siparişi sayfasında, Eylem Bölmesi'nde **Hareketleri kapat**'ı kullanın.
+7.  Satıcı mal veya hizmetleri teslim ettikten sonra faturayı kaydedin. 6. adımda satınalma emrine veya satış emrine karşı ön ödemeyi kapattıysanız, ön ödeme oluşturduğunuz faturaya karşı otomatik olarak kapatılır. Ön ödemeyi satın alma siparişi veya satış siparişi karşılığında kapatmadıysanız müşteri veya satıcı sayfasındaki **Hareketleri kapat**'ı kullanarak fatura karşılığında el ile kapatabilirsiniz. Ardından ön ödeme tutarı, geçici olarak AP/AR genel muhasebesinden tersine çevrilir. Ek olarak, vergiler hesaplandıysa bunlar tersine çevrilir çünkü fatura gerçek vergileri içerir.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Ön ödeme faturalandırma işlemine genel bakış
-Ön ödeme faturaları yaygın bir iş uygulamasıdır. Bir satıcı, satınalma emri karşılanmadan önce satınalma teminatı istemek için ön ödeme faturaları çıkarır. Örneğin, bazı satıcılar özel mal veya hizmetler için bir ön ödeme ister. Bir satıcı ön ödeme gerektiren bir fatura çıkarırsa, ön ödeme faturalandırma özelliğini kullanabilirsiniz. Satınalma emrine bir ön ödeme değeri tanımlanabilir, bir ön ödeme faturası kaydedilir ve ödenir, ardından ön ödeme faturaları son faturaya uygulanır. Bir ön ödeme oluşturmak için şu adımları izleyin.
+Ön ödeme faturaları yaygın bir iş uygulamasıdır. Bir satıcı, satınalma emri karşılanmadan önce satınalma teminatı istemek için ön ödeme faturaları çıkarır. Örneğin, bazı satıcılar özel mallar veya hizmetler için ön ödeme gerektirir. Bir satıcı ön ödeme gerektiren bir fatura çıkarırsa, ön ödeme faturalandırma özelliğini kullanabilirsiniz. Satın alma siparişinde bir ön ödeme değeri tanımlanabilir, ön ödeme faturası kaydedilir ve ödenir ve ardından ön ödeme faturası son faturaya uygulanır. Bir ön ödeme oluşturmak için şu adımları izleyin.
 
 1.  Satınalma temsilcisi, satıcının ön ödeme istediği bir satınalma emrini oluşturur, onaylar ve ardından gönderir. Ön ödeme değeri, satınalma emrinde anlaşmasının parçası olarak tanımlıdır.
 2.  Satıcı bir ön ödeme faturası gönderir.
@@ -66,6 +65,3 @@ Birçok ülkedeki/bölgedeki muhasebe uygulamaları, müşteriden satıcıya yap
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

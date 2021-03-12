@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 97ae175eeb6d600777bb06d1dc6a54b5a2693baa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416514"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979915"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Dynamics 365 Retail içinde neler yeni veya değişti
 
@@ -45,6 +44,3 @@ Bu sayfa sizi Microsoft Dynamics 365 Retail'in son sürümlerindeki yeni özelli
 | Dynamics 365 for Retail - 7.3.2.5 | 7,3,21971,64091 | 2018 Haziran | [KB 4342134 Microsoft Dynamics 365 for Retail - Sürüm 7.3.2.5 - BugFix Paketi 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* Bilgi Bankası (KB) makalesine bağlantı noktaları. Bilgi Bankası makalesini görüntülemek için Lifecycle Services'ta (LCS) oturum açmanız gerekir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

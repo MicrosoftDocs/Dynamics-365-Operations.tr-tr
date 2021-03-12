@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d4c8fd8251aca2cc53e59afe4c104f2e5198426
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e0e1989bcc4ca02d097f9ebff40f21158f26546
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439028"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981368"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Süreç işi için kanban kurallarını değiştirme
 
@@ -49,6 +48,3 @@ Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye
 7. Son düğmesini tıklatın.
     * Kanban işi şimdi artık başka bir kanban kuralını kullanmaktadır. Bu, yük iş hücrelerini eşitlemek için yararlı olabilir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

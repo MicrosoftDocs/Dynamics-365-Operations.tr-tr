@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448766"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979600"
 ---
 # <a name="project-invoicing"></a>Proje faturalama
 
@@ -75,7 +74,7 @@ Kuruluşunuz, nakledilmeden önce fatura tekliflerinin incelenmesi gerektiriyors
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Proje fatura listesi sayfalarında izin bilgilerini görüntüleme
 
-Kamu sektörü kullanıcıları **Proje faturası teklifleri** ve **Proje faturaları** listesi sayfalarına **İzin kodu** ve **İzin adı** ekleyebilir. Bu sütunlar, **Proje fatura listesi sayfalarına izin bilgisi ekle** özelliği kullanılarak etkinleştirilir. Bu özellik varsayılan olarak kapalıdır ve  **Çalışma alanları > Özellik yönetimi**'nde etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
+Kamu sektörü kullanıcıları **Proje faturası teklifleri** ve **Proje faturaları** listesi sayfalarına **İzin kodu** ve **İzin adı** ekleyebilir. Bu sütunlar, **Proje fatura listesi sayfalarına izin bilgisi ekle** özelliği kullanılarak etkinleştirilir. Bu özellik varsayılan olarak kapalıdır ve **Çalışma alanları > Özellik yönetimi**'nde etkinleştirilebilir. Bu özelliği etkinleştirme konusunda yardım için sistem yöneticinize başvurun.
 
 ## <a name="on-account-invoicing"></a>Açık hesap faturalama
 Bir proje için açık hesap faturasına girdiğiniz tutar zamanlamaya, tamamlanma yüzdesine ve ilgili proje sözleşmesinde belirtilmiş olan diğer faturalama koşullarına dayalıdır Tutar, projeye nakledilen saatler, maddeler, giderler veya ücretlere dayanarak hesaplanmamıştır. 
@@ -132,6 +131,3 @@ Bir alacak dekontu olarak sınıflandırılacak bir fatura haline gelecek, negat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

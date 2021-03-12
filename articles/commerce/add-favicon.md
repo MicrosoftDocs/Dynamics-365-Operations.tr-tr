@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f249348fac526fc7814045b1b1b71c898430c0f2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416360"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980443"
 ---
 # <a name="add-a-favicon"></a>Favicon ekleme
 
@@ -66,7 +65,7 @@ Site simgesi için meta etiketi içeren bir parça oluşturmak için aşağıdak
 1. **Yeni parça** iletişim kutusunda, parçanın temel aldığı modül olarak **Meta etiketleri**'ni seçin.
 1. Parça için bir ad girin ve **Tamam**'ı seçin.
 1. Parça hiyerarşisi ağacında, **Varsayılan meta etiketleri** alt öğesini seçin.
-1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
+1. Sağ bölmede, **Meta Etiketleri** altında **Ekle**'yi seçin ve site simgesi için daha önce oluşturduğunuz HTML dizesini girin. 
 1. **Düzenlemeyi bitir**'i seçin, ardından parçayı yayımlamak için **Yayımla**'yı seçin.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Meta etiket parçasını, sayfalarınızın HTML başlık bölümüne ekleme
@@ -99,6 +98,3 @@ Meta etiketleri parçasını eklediğiniz şablonu temel alan sayfaları önizle
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

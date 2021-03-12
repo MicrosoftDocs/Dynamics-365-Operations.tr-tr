@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ab9c91c365be647f336f5eca297c9107f20d0c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448825"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978976"
 ---
 # <a name="budgeting-overview"></a>Bütçelemeye genel bakış
 
@@ -88,6 +87,3 @@ Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeler
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

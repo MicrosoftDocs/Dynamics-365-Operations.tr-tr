@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529590"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980818"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 
@@ -64,11 +63,8 @@ Müşteri Portalı, Power Apps portal şablonu olarak sağlanır. Bunlar Power A
 
 [Power Apps portallar](https://docs.microsoft.com/powerapps/maker/portals/overview), kullanıcıların, kuruluş dışından kişilerin oturum açmasını sağlayan dışarıdan bakan bir Web sitesi oluşturmalarına olanak tanıyan bir özelliktir. Portalları yapmak için bir kod oluşturma gerekmez. Müşteri Portalı, Microsoft tarafından kullanılabilen birçok [Dynamics 365 Portal şablonlarından](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) biridir.
 
-[Çift yazım](https://docs.microsoft.com/powerapps/maker/portals/overview), Dynamics 365 ve Finance and Operations uygulamalardaki modele dayalı uygulamalar arasında yakın zamanda gerçek zamanlı etkileşim sağlayan bir altyapıdır. Çift-yazma, Finance and Operations uygulamalar ve Common Data Service arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri Portalı, Çift-yazılır olarak eşitlenen varlıklara bağlıdır. Supply Chain Management'tan alınan verilerin müşteri portalında yapılabilmesi için, ilgili tüm varlıklar için çift-yazım etkinleştirilmiş olmalıdır.
+[Çift yazma](https://docs.microsoft.com/powerapps/maker/portals/overview), müşteri etkileşimi uygulamaları ile Finance and Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan hazır bir altyapı ürünüdür. Çift-yazma, Finance and Operations uygulamalar ve Microsoft Dataverse arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri portalı, çift yazma ile eşitlenen tablolara bağlıdır. Supply Chain Management'tan alınan verilerin Müşteri portalında gösterilebilmesi için uygun tüm tablolarda çift yazmanın etkinleştirilmiş olması gerekir.
 
 ![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
 Müşteri Portalı, Supply Chain Management yüklemesinden veri kullanan dışarıdan bakan bir Web sitesi oluşturmak amacıyla Power Apps portalları kullanmak isteyen kuruluşlar için bir başlangıç noktası görevi görür. Kuruluşların çift-yazılır, Supply Chain Management ve Power Apps portallara bağlanmasına yardımcı olur.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

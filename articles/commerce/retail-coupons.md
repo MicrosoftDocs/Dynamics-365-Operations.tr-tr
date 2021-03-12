@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416355"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979687"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -82,6 +81,3 @@ Kupon işlevi birçok farklı özellik içerir. Commerce Headquarters (HQ) ve ka
 - **Genel merkez kısmen güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi** Bir Genel Merkez güncelleştirmesinde, kupon ve iskonto sayfaları güncelleştirilir ve ticaret fiyatı altyapısı da güncelleştirilir. Bu iki bileşenden yalnızca biri güncelleştirilirse, Commerce'deki bazı sayfalar fiyat hesaplama verileriyle eşleşmeyecektir. Bu nedenle, iskonto hesaplamaları sırasında beklenmeyen iskonto hesaplamaları veya hatalar oluşabilir.
 - **Genel merkez güncelleştirildi ancak Commerce Scale Unit ve POS güncelleştirilmedi (N-1).** Aynı anda tüm mağazalar güncelleştirilemediğinden, genel merkezi mağazaları güncelleştirmeden önce güncelleştirmenizi öneririz. N-1 senaryosunda, kuponlarla ilişkili yeni işlev henüz güncelleştirilmemiş mağazalarda kullanılamaz. Örneğin, kupon işlevi satırları "hariç tut" işlevi sunar. Bir iskontoda satırları hariç tut özelliği kullanırsanız, daha önceki bir sürümü çalıştıran bir mağaza uygulanmaz.
 - **Genel merkez güncelleştirilmedi ancak Commerce Scale Unit ve POS güncelleştirildi (N+1).** Commerce Scale Unit'deki güncelleştirilmiş fiyat alt yapısı hesaplamalar sırasında eski iskonto kodlarını işleyebildiğinden, güncelleştirmenin bu senaryo üzerinde etkisi olmayacaktır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
-ms.sourcegitcommit: 219aa992b1f4c913f26243eeb7e40a383fa1ca67
+ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4448997"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979151"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Alacak ve tahsilat yönetimi Power BI içeriği
 
@@ -77,6 +76,3 @@ The **CustCollectionsBICrossCompany** Power BI içeriği, bir dizi ölçümden o
 | Tahsilatlar mektupları         | <ul><li>Tahsilat kodu tutarları</li><li>Tahsilatlar kodu tutar ayrıntıları</li><li>Şirkete göre tahsilat mektubu tutarı</li><li>Müşteri grubuna göre tahsilat mektubu tutarı</li><li>Bölgeye göre tahsilat mektup tutarı</li></ul> |
 
 Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Altta yatan veriyi Dışa aktar işlevini de görselleştirmede özetlenen altta yatan veriyi dışa aktarmak için kullanabilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

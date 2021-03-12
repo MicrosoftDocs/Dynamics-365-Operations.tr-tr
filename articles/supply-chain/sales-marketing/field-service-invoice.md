@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1790366cebf317472bc1ef9a5ecd2a19fe755d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528257"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980843"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Field Service'daki sözleşme faturalarını Supply Chain Management'daki serbest metin faturalarıyla eşitleme
 
@@ -55,23 +54,23 @@ Aşağıdaki eşitleme faturası faturalarının eşitlemesinin gerçekleştiril
 
 | Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
-| faturalar       | CDS müşteri serbest metin faturası başlıkları |
-| invoicedetails | CDS müşteri serbest metin faturası satırları   |
+| faturalar       | Dataverse müşteri serbest metin faturası üst bilgileri |
+| invoicedetails | Dataverse müşteri serbest metin faturası satırları   |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-Field Service'taki bir sözlemeden oluşturulan faturalar Common Data Service Veri tümleştirme projesi aracılığıyla Supply Chain Management ile eşitlenebilir. Bu faturalardaki güncelleştirmeler serbest metin faturaları muhasebe durumunun **İşlemde** olması durumunda Supply Chain Management'taki serbest metin faturalarıyla eşitlenecektir. Serbest metin faturaları Supply Chain Management'da defetere nakledildikten ve muhasebe durumu **Tamamlandı** olarak güncelleştirildikten sonra Field Service'tan güncelleştirmeleri eşitleyemezsiniz.
+Field Service'taki bir sözlemeden oluşturulan faturalar Microsoft Dataverse Veri tümleştirme projesi aracılığıyla Supply Chain Management ile eşitlenebilir. Bu faturalardaki güncelleştirmeler serbest metin faturaları muhasebe durumunun **İşlemde** olması durumunda Supply Chain Management'taki serbest metin faturalarıyla eşitlenecektir. Serbest metin faturaları Supply Chain Management'da defetere nakledildikten ve muhasebe durumu **Tamamlandı** olarak güncelleştirildikten sonra Field Service'tan güncelleştirmeleri eşitleyemezsiniz.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM çözümü
 
-**Sözleşme Kaynaklı Satırlar Var** alanı **Fatura** varlığına eklenmiştir. Bu alan yalnızca bir sözleşmeden oluşturulan faturaların eşitlenmesini sağlamaya yardımcı olur. Fatura bir sözleşemeden kaynaklanan en az bir satır içeriyorsa değer **doğru** olur.
+**Sözleşme Kaynaklı Satırlar Var** sütunu **Fatura** tablosuna eklenmiştir. Bu sütun, yalnızca bir sözleşmeden oluşturulan faturaların eşitlenmesini sağlamaya yardımcı olur. Fatura bir sözleşemeden kaynaklanan en az bir satır içeriyorsa değer **doğru** olur.
 
-**Sözleşme Kaynağı Var** alanı **Fatura Satırı** varlığına eklenmiştir. Bu alan yalnızca bir sözleşmeden oluşturulan fatura satırlarının eşitlenmesini sağlamaya yardımcı olur. Fatura satırının kaynağı bir sözleşmeyse değer **doğru** olur.
+**Sözleşme Kaynağı Var** sütunu **Fatura Satırı** tablosuna eklenmiştir. Bu sütun, yalnızca bir sözleşmeden oluşturulan fatura satırlarının eşitlenmesini sağlamaya yardımcı olur. Fatura satırının kaynağı bir sözleşmeyse değer **doğru** olur.
 
-**Fatura tarihi** Supply Chain Management'ta zorunlu bir alandır. Bu nedenle, eşitlemeden önce Field Service'ta alanın bir değeri olmalıdır. Bu gereksinimi karşılamak için aşağıdaki mantık eklenir:
+**Fatura tarihi** Supply Chain Management'ta zorunlu bir alandır. Bu nedenle, eşitlemeden önce Field Service'ta sütunun bir değeri olmalıdır. Bu gereksinimi karşılamak için aşağıdaki mantık eklenir:
 
-- **Fatura Tarihi** alanı **Fatura** varlığında boşsa (diğer bir deyişle, değer yoksa), bu alan bir sözleşmeden kaynaklanan bir fatura satırının eklendiği geçerli tarih olarak ayarlanır.
-- Kullanıcı, **Fatura Tarihi** alanını değiştirebilir. Ancak, kullanıcı bir sözleşemeden kaynaklanan fatura kaydetmeye çalıştığında, faturada **Fatura Tarihi** alanının boş olması durumunda bir iş süreci hatası alır.
+- **Fatura Tarihi** sütunu **Fatura** tablosunda boşsa (diğer bir ifadeyle, değer yoksa), bu sütun bir sözleşmeden kaynaklanan bir fatura satırının eklendiği geçerli tarih olarak ayarlanır.
+- Kullanıcı, **Fatura Tarihi** sütununu değiştirebilir. Ancak, kullanıcı bir sözleşemeden gelen bir fatura kaydetmeye çalıştığında, faturada **Fatura Tarihi** sütununun boş olması durumunda bir iş süreci hatası alır.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
@@ -108,6 +107,3 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Sözleşme faturaları (Field Service'tan Supply Chain Management'a): Fatura satırları
 
 [![Veri tümleştirmede şablon eşleme](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

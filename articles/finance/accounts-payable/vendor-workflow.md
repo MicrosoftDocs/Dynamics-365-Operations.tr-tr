@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 1fad41fa4fb3562ab94adde522d3899271c85467
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4449040"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979176"
 ---
 # <a name="vendor-workflow"></a>Satıcı iş akışı
 
@@ -61,6 +60,3 @@ En az bir önerilen değişiklik yaptıktan sonra eylem bölmesinde iki ek sekme
     Sayfadaki durum **Değişiklikler onay bekliyor** olarak değişir.
 
 İş akışı, standart iş akışı sürecini takip eder. Onaylayan, **Önerilen değişiklikler** sayfasındaki değişiklikleri inceleyebileceği ve **İş akışı \> Onayla**'yı seçerek iş akışını onaylayabileceği **Satıcı** sayfasına yönlendirilir. Tüm onaylar tamamlandığında, alanlar önerdiğiniz değerlerle güncelleştirilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

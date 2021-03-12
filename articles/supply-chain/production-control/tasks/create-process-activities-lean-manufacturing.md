@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup, PlanActivityDetails, KanbanJobPickingListPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3cb096eb25fa449b521c370bcb1677e38e399658
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bd505446456791b26850d676722b6676b50dca4b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439015"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981218"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>Yalın imalat için işlem faaliyetleri oluşturma
 
@@ -94,6 +93,3 @@ Yalın imalat için bir işlem faaliyeti oluşturun.
 12. Son düğmesini tıklatın.
 13. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

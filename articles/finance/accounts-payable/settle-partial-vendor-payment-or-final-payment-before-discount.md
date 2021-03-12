@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 1aaedddae59b1a4883ac737d30436d8d7268103f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448976"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979425"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödemeyi tam olarak kapatın
 
@@ -142,6 +141,3 @@ April, ödeme günlüğünü naklediyor ve **Satıcı hareketleri** sayfasından
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

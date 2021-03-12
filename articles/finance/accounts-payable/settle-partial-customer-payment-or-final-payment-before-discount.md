@@ -1,5 +1,5 @@
 ---
-title: İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın
+title: Kısmi ve son ödemeleri iskonto tarihinden önce tamamen kapatma
 description: Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir.
 author: abruer
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7c0c2c5db4f8169876be2bd98e36c4a8dbc35c35
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979475"
 ---
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın
+# <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Kısmi ve son ödemeleri iskonto tarihinden önce tamamen kapatma
 
 [!include [banner](../includes/banner.md)]
 
@@ -149,6 +148,3 @@ Arnie bu ödeme günlüğünü naklediyor ve **Müşteri hareketleri** sayfasın
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
