@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efa1b492fec085cc8bac5a786af4aaba854899e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448732"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995002"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
 
@@ -83,6 +82,3 @@ Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seç
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

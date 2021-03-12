@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644933"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995102"
 ---
 # <a name="finance-insights-home-page-preview"></a>Mali içgörüler giriş sayfası (önizleme)
 
@@ -67,7 +66,7 @@ Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Pow
 - Active Directory kiracı yöneticisi, AI Builder uygulamasına veri gölüne erişim izni vermesi gerekecektir.
 - Bu özellik Dynamics 365'te etkinleştirilecektir.
 
-Azure, Common Data Service ve LCS'te kaynak oluşturma ve yönetme işlemi hakkında bilgi sahibi olmak bu işlemi tamamlamak için faydalı olacaktır.
+Azure, Microsoft Dataverse ve LCS'te kaynak oluşturma ve yönetme işlemi hakkında bilgi sahibi olmak bu işlemi tamamlamak için faydalı olacaktır.
 
 ## <a name="configure-finance-insights"></a>Mali içgörüleri yapılandırma
 
@@ -130,6 +129,3 @@ Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Müşteri ödem
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
 
 Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

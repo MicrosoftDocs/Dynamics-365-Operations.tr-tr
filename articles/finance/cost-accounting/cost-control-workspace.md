@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4449037"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995227"
 ---
 # <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı 
 
@@ -83,7 +82,7 @@ Sütunlarda seçilen değerler **Mali dönem başına sütun** hızlı sekmesi �
 | Geçerli dönem       | Geçerli mali dönemin bakiyesi gösterilir.<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer daha sonra geçerli dönemi temsil eder.</blockquote> |
 | Önceki dönem      | Önceki mali dönemin bakiyesi gösterilir. Aşağıdaki formül kullanılır:<br>Geçerli mali dönem – 1<blockquote>[!NOTE]<br>Varsayılan olarak önceki dönem, oturum tarihinden türetilir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem geçerli dönem olarak seçilebilir. **Önceki dönem** daha sonra uygun şekilde yeniden hesaplanır.</blockquote> |
 | Bir yıllık         | Yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>YearToDate (Geçerli mali dönem)<blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değer geçerli dönemi temsil eder ve **Yılbaşından bugüne** değeri uygun şekilde güncelleştirilir.</blockquote> |
-| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem])<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
+| Sene başından bugüne ortalaması | Ortalama yılbaşından bugüne tarihi gösterilir. Aşağıdaki formül kullanılır:<br>(YearToDate [Geçerli mali dönem]) ÷ (Sayı [Geçerli mali dönem]);<p><strong>Örnek</strong></p><ul><li>**İstatistiksel boyut üyesi:** Tam zamanlı çalışanlar</li><li>**Geçerli tarih** 21-03-2017</li><li>**Dönem:** Mali dönem 1, Mali dönem 2, Mali dönem 3</li><li>**Büyüklük** 10, 10, 12</li></ul>Bu durumda **Yılbaşından bugüne ortalama** = (10 + 10 + 12) ÷ 3 = 10,67<p>**Ortalama yılbaşından bu güne** değeri maliyet nesneleri boyut üyeleri ve istatistiksel boyut üyeleri için hesaplanabilir.</p><blockquote>[!NOTE]<br>Varsayılan olarak geçerli dönem, dönem tarihi tarafından belirlenir. **Maliyet denetimi** çalışma alanında, belirli bir mali dönem seçilebilir. Seçilen değre daha sonra geçerli dönemi temsil eder ve **Yılbaşından bugüne** ve **Yılbaşından bugüne ortalama** değerleri buna uygun olarak güncelleştirilir.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Maliyetler için görüntülenecek sütunlar
 
@@ -158,6 +157,3 @@ Ek kaynaklar
 [Maliyet nesnesi denetleyicilerinin erişim haklarını tanımlama](access-rights-cost-object-controller.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

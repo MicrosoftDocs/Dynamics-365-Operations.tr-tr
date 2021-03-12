@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DimensionDetails,  DimensionAttributeTableExtensionActivate, DimensionValueDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92c1520771c6266bdebe2c6fd058eab862460fa4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448644"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994602"
 ---
 # <a name="define-financial-dimensions"></a>Mali boyutları tanımlama
 
@@ -55,6 +54,3 @@ Bu görev kılavuzu, varlığa dayalı bir mali boyutun ve özel bir mali boyutu
 9. **Boyut değeri** alanında, mali boyut değerinizi tanımlamak için bir ad girin.
 10. **Açıklama** alanına, mali boyut değerinizi tanımlayan bir açıklama yazın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

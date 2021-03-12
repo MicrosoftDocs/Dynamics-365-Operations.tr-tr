@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba265e69bde9a9c194147d6ee6a806e9b2bd7c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c6ee3861e967246e79b072aaa69f2be02db9231b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448714"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995505"
 ---
 # <a name="set-up-sepa-direct-debit-mandate"></a>SEPA hesaptan ödeme talimatı ayarlama
 
@@ -54,6 +53,3 @@ Ek kaynaklar
 
 [Müşteri için hesaptan ödeme talimatı oluşturma](tasks/create-direct-debit-mandate-customer.md) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

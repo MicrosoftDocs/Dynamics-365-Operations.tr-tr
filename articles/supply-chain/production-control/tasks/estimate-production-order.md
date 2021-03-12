@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fb001d51fcaff2307845d918eddee8256c2ab8a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438996"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994216"
 ---
 # <a name="estimate-a-production-order"></a>Üretim emrini tahmin etme
 
@@ -42,6 +41,3 @@ USMF demo veri şirketi veya kendi veri kümenizi kullanarak, bu yordamı çalı
 1. Eylem Bölmesi'nde, Maliyetleri yönet'e tıklayın.
 2. Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.
     * Bu sayfayı maliyet dökümünü görüntüler. Örneğin, ilk satırın bitmiş ürünü için birim başına toplam maliyet fiyatı görüntüleyebilirsiniz. Sonraki satırlar, ürün reçetesi, üretim rotası ve dolaylı maliyetlere göre olan maliyetleri içerir.  
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

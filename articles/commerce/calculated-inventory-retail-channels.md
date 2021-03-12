@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416413"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995832"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -114,6 +113,3 @@ Bu toplu işleri çok sık (birkaç dakika arayla) çalıştırmamanız önerili
 > Performans nedeniyle, kanal tarafı stok kullanılabilirliği hesaplamaları e-Ticaret API'sını veya yeni POS kanal tarafı stok mantığını kullanarak stok kullanılabilirliği isteği oluşturmak için kullanıldığında, hesaplamada, hesaplama mantığını yeniden çalıştırmayı gerekçelendirmek için yeterince zaman geçip geçmediğini belirlemek amacıyla bir önbellek kullanılır. Varsayılan önbellek 60 saniyeye ayarlanır. Örneğin, mağazanız için kanal tarafındaki hesaplamayı açtınız ve **Stok arama** sayfasında bulunan bir ürünle ilgili eldeki stoğu görüntülediniz. Daha sonra ürünün bir birimi satılıyorsa **Stok arama** sayfası, önbellek temizlenene kadar azalan stoğu göstermez. Kullanıcılar POS'taki hareketleri deftere naklettikten sonra, eldeki stoğun azaldığını doğrulamadan önce 60 saniye beklemelidir.
 
 İş senaryonuz için daha küçük bir önbellek süresi gerekiyorsa yardım için ürün destek temsilcinize başvurun.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

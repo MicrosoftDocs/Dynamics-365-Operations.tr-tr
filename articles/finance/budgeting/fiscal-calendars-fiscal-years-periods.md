@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 25851
 ms.assetid: a968a5e5-585e-4389-aa4e-c885a7e23413
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b23b152ed6348b8f20b5deccf94394de6fbe85d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f40dc7227d8ee9ccc45336e9b8968937ef5f6092
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448933"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995352"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
@@ -64,6 +63,3 @@ Genel muhasebe defteri takvimi sayfasını, kuruluşunuz tarafından kullanılan
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

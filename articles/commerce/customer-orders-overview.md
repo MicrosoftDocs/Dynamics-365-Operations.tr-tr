@@ -3,7 +3,7 @@ title: Satış Noktası'ndaki (POS) müşteri siparişleri
 description: Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişleri hakkında bilgi verilir. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416412"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995807"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 
@@ -52,9 +51,9 @@ Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği t
 
 ### <a name="set-up-fulfillment-groups"></a>Karşılama gruplarını ayarlama
 
-Bazı mağazalar veya depo konumları müşteri siparişlerini karşılamayabilir. Bir kuruluş, karşılama gruplarını yapılandırarak, POS'ta müşteri siparişleri oluşturan kullanıcılara gösterilecek mağaza ve depoları konumu seçeneklerini belirtebilir. Karşılama grupları, **Karşılama grupları** sayfasında yapılandırılır. Kuruluşlar, gereksinim duydukları sayıda karşılama grubu oluşturabilir. Bir karşılama grubu tanımlandıktan sonra, **Mağazalar** sayfasının Eylem Bölmesi'ndeki **Kurulum** sekmesinde bulunan bir düğme kullanılarak bir mağazaya bağlanır.
+Bazı mağazalar veya depo konumları müşteri siparişlerini karşılamayabilir. Bir kuruluş, karşılama gruplarını yapılandırarak, POS'ta müşteri siparişleri oluşturan kullanıcılara gösterilecek mağaza ve depoları konumu seçeneklerini belirtebilir. Karşılama grupları, **Karşılama grupları** sayfasında yapılandırılır. Kuruluşlar, gereksinim duydukları sayıda karşılama grubu oluşturabilir. Bir karşılama grubu tanımlandıktan sonra, **Mağazalar** sayfasının Eylem Bölmesindeki **Kurulum** sekmesinden **Karşılama grubu ataması**'nı seçerek grubu bir mağazaya bağlayın.
 
-Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında tanımlanan depo veya depo/mağaza birleşimlerinin sevkiyat, malzeme çekme veya sevkiyat ve malzeme çekme için kullanılıp kullanılmayacağını tanımlayabilir. Bu nedenle mağaza, konumdan veya sevkiyatla alınacak sipariş oluşturan kullanıcılarına gösterilecek depo ve mağaza seçeneklerini sunan ek esnekliği sağlar. Bu yapılandırma seçeneklerinden yararlanabilmek için, **Karşılama grubundan etkinleştirilen "Sevkiyat" veya "Çekme" olarak konumun belirtilebilmesi"** özelliğini etkinleştirmelisiniz. Bir karşılama grubuna bağlanan depo bir mağaza değilse, yalnızca sevkiyat konumu olarak yapılandırılabilir. Malzeme çekme için siparişler POS'ta yapılandırıldığında kullanılamaz.
+Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında tanımlanan depo veya depo ve mağaza birleşimlerinin sevkiyat, malzeme çekme veya sevkiyat ve malzeme çekme için kullanılıp kullanılmayacağını tanımlayabilir. Bu, sevk edilecek maddeler için müşteri siparişi oluştururken işletmenin hangi ambarların seçilebileceğini ve maddelerin teslim alınması için bir müşteri siparişi oluştururken hangi mağazaların seçilebileceğini belirlemesi için ek esneklik sağlar. Bu yapılandırma seçenekleri kullanmak için **Karşılama grubundan etkinleştirilen "Sevkiyat" veya "Çekme" olarak konumun belirtilebilmesi"** özelliğini etkinleştirmelisiniz. Bir karşılama grubuna bağlı depo bir mağaza değilse, yalnızca sevkiyat konumu olarak yapılandırılabilir. Malzeme çekme için siparişler POS'ta yapılandırıldığında kullanılamaz.
 
 ![Karşılama grupları sayfası](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-scree
 
 ![POS hareket ekranındaki işlemler](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>POS'ta müşteri siparişleriyle çalışma
+## <a name="work-with-customer-orders-in-pos"></a>POS'ta müşteri siparişleriyle çalışma
+
+> [!NOTE]
+> Gelir kabulü işlevi şu anda Ticaret kanallarında (e-ticaret, POS, çağrı merkezi) kullanım için desteklenmiyor. Gelir kabulü ile konfigüre edilen maddeler, Ticaret kanallarında oluşturulan siparişlere eklenemez. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Müşteriye sevk edilecek ürünler için bir müşteri siparişi oluşturma
 
@@ -118,7 +120,7 @@ POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-scree
 2. Sepete ürünler ekle.
 3. Siparişe ait malzeme çekme yapılandırmasını başlatmak için **Seçileni çek** veya **Tümünü çek** seçeneğini belirleyin.
 4. Müşterinin seçili ürünleri çekeceği mağaza konumu seçin.
-5. Bir malzeme çekme tarihi seçin.
+5. Maddenin çekilmesi için bir tarih seçin.
 6. Vadesi gelen hesaplanmış tutarların ödemesini yapmak için ödeme işlevlerini kullanın veya vadesi gelen miktarları değiştirmek için **Havale geçersiz kılma** işlemini kullanın ve sonra ödemeyi uygulayın.
 7. Tam sipariş toplamı ödenmediyse, müşterinin ödemeyi daha sonra (malzeme çekme sırasında) sağlayıp sağlamayacağını veya kredi kartı bilgilerinin güvenli şekilde saklanarak ve malzeme çekme sırasında kullanılıp çekim yapılıp yapılmayacağını seçin.
 
@@ -127,12 +129,10 @@ POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-scree
 Çevrimiçi veya mağaza kanalında oluşturulan perakende siparişleri gerektiğinde, POS aracılığıyla geri çekilebilir ve düzenlenebilir.
 
 > [!IMPORTANT]
-> Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
+> Tüm perakende siparişler POS uygulaması aracılığıyla düzenlenemez. Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
 
-Commerce 10.0.13 ve önceki sürümlerde, kullanıcılar yalnızca siparişler tam olarak açıksa desteklenen müşteri siparişlerini POS üzerinden düzenleyebilirler. Bir siparişin satırları karşılama (çekme, paketleme, vb.) amacıyla işlenmişse, sipariş POS'ta düzenlemek için kilitlenir.
+Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse bile POS uygulaması üzerinden uygun siparişleri düzenleyebilir. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu özelliği etkinleştirmek için **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle** özelliğini açın. Bu özellik etkin değilse veya sürüm 10.0.16 veya öncesini kullanıyorsanız kullanıcılar yalnızca sipariş tam olarak açıksa POS'ta müşteri siparişlerini düzenleyebilirler. Ayrıca, özellik etkinleştirildiğinde, hangi mağazaların kısmi olarak karşılanan siparişleri düzenleyebileceğini sınırlayabilirsiniz. Belirli mağazalar için bu özelliği devre dışı bırakma seçeneği, **Genel** hızlı sekmesi altındaki **İşlevsellik profili** aracılığıyla konfigüre edilebilir.
 
-> [!NOTE]
-> Commerce 10.0.14 sürümde, [genel önizleme](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) sürümünde sunulan bir özellik siparişin bir kısmı karşılansa bile POS aracılığıyla kullanıcıların müşteri siparişlerini düzenlemesine olanak sağlar. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu önizleme özelliğini test etmek ve ek geribildirim sağlamak için, **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle (Önizleme)** özelliğini açın. Çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan müşteri siparişleri bu özellik etkinleştirildikten sonra da düzenlenemez.
 
 1. **Siparişi geri çağır** seçeneğini belirleyin.
 2. Siparişi bulmak için filtre girmek üzere **Ara**'yı kullanın ve sonra **Uygula** seçeneğini belirleyin.
@@ -170,6 +170,3 @@ Müşteri siparişleri POS'ta zaman uyumlu ya da zaman uyumsuz modda oluşturula
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3c97690956b07a3a5708cfbf37c69f186073138
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448699"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995027"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Ters işlemli amortismanın etkileri
 
@@ -96,6 +95,3 @@ Amortisman 16,95 değeri kadar daha az belirtilir (983,62 - 966,67).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d57df6188aacc2f8a56a7ba91c4ab50a90901a7e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: df0396a1d00e61ad82e52fc07779e239cd811ab8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438995"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994105"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılamadığında bir süreç kanban işi hazırlama
 
@@ -52,6 +51,3 @@ Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç 
 6. Hazırla'ya tıklayın.
     * İş durumu'ndaki bir simgenin işin şimdi hazır olduğunu belirttiğini unutmayın.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 04c46824123906eccbfff18a03974c8043729e0a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0973d36a8fddd16d02776ac6567d424ac6ebc3ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448874"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994326"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Regulatory Configuration Services (RCS)/Genel depodaki Elektronik raporlama (ER) yapılandırmalarını harici kuruluşlarla paylaşma
 
@@ -50,7 +49,7 @@ Paylaşmak istediğiniz yapılandırmanın Genel depoya önceden yüklenmiş old
 
 1. **Elektronik raporlama** çalışma alanında, yapılandırma sağlayıcınız için **Depolar**'ı seçin.
 
-    ![Konfigürasyon sağlayıcıları](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_config_provider.JPG)
+    ![Konfigürasyon sağlayıcıları](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. **Genel havuz** \> **Aç**'ı seçin.
 3. Paylaşmak istediğiniz yapılandırmayı arayın. Aramanızı daraltmak için filtre alanını kullanabilirsiniz. Yapılandırmayı Genel depoda bulamazsanız [Elektronik raporlama (ER) yapılandırmasının yeni bir sürümünü oluşturma ve yükleme](rcs-global-repo-upload.md) konusundaki adımları izleyin.
@@ -64,17 +63,12 @@ Yapılandırma sağlayıcınız altında bir yapılandırma oluşturulduktan son
 3. Paylaşmak istediğiniz yapılandırmayı seçin.
 4. **Paylaşıldı** hızlı sekmesinde **Kuruluş**'u seçin.
 
-    ![Paylaşıldı hızlı sekmesi](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Paylaşıldı hızlı sekmesi](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. İletişim kutusunda, harici kuruluşun etki alanı adını girin ve **Tamam**'ı seçin.
 
-    ![Yapılandırma sürümünü harici kuruluş ile paylaş iletişim kutusu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Yapılandırma sürümünü harici kuruluş ile paylaş iletişim kutusu](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, kuruluşun RCS örneğine veya Finance and Operations uygulama örneklerine içe aktarılabilir.
 
-![Harici bir kuruluşla paylaşılan yapılandırma](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
-
 6. Daha önce harici bir kuruluşla paylaşılan bir yapılandırmanın paylaşımını kaldırmak için yapılandırmayı seçin ve **Paylaşımı kaldır**'ı, ardından **Tamam**'ı seçin
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

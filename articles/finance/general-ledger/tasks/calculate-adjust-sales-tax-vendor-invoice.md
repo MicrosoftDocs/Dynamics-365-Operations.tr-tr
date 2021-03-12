@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03313d875d23489b3293376dd94f808c73a4bd15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2536e87953267eae13cf3b42c2bd5476fc647c22
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994727"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
 
@@ -44,6 +43,3 @@ Bu konuda satıcı faturasındaki satış vergisinin nasıl ayarlanacağı açı
 13. **Tamam**'ı seçin.
 14. **Kaydet**'i seçin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
