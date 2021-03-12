@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ffc64fd39a390af3ca7110178ef0999527106dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ac03e1bfb7a2463b31feca0a4303c182a00ad259
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416476"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964832"
 ---
 # <a name="create-pos-permission-groups"></a>POS izin grupları oluşturma
 
@@ -48,6 +47,3 @@ Bu konu POS izin grubunun nasıl oluşturulacağını açıklar. Bu görevi olu�
 16. POS izin grubu alanına bir değer girin veya buradan bir değer seçin. Bu İşle ilgili Konumlarda bulunan tüm Çalışanlar, çalışanların POS izinleri Konum düzeylerinde geçersiz kılınmadığı sürece bu POS izin grubu ayarlarını kullanır.  
 17. **Kaydet**'i seçin. Değişiklikleriniz kaydedildikten sonra, değişiklikleri kanallara iletmek için Personel dağıtım planlamasını çalıştırmanız gerekir.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

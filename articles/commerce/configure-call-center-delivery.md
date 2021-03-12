@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416331"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963122"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
@@ -95,6 +94,3 @@ Seçilen teslimat şekli sipariş veya sipariş satırı için tanımlanmış ü
 Örneğin ertesi gün havayoluyla sevk edilecek siparişler için, ambardan malzeme çekme işleminin her gün 13:00'a kadar yapılması gerekir. Bu durumda, bir hızlandırma kodu oluşturulabilir ve bu kod, sistemde yapılandırılmış herhangi bir ertesi gün teslimat şekline bağlanabilir. Ambar, çekme dalgasını oluştururken, **Hızlandır** alanındaki ilgili hızlandırma kodu bir filtre olarak kullanılıp, malzeme çekme işleminin, teslimat şekilleri yalnızca o kodla bağlantılı siparişler için çalıştırılması sağlanabilir.
 
 Ek olarak, bir çağrı merkezi siparişi girilirken ya satış siparişi üst bilgisine veya tek bir satış sipariş satırına el ile bir hızlandırma kodu uygulanabilir. Yine, bu kod, sıralama veya raporlama amacıyla kullanılabilir. Bazı durumlarda, bir müşteri hizmeti sorunu nedeniyle bir siparişin dikkatle ele alınması gerekir. Böyle durumlarda, sipariş karşılama sürecinde siparişin saptanıp öncelik kazanmasına yardımcı olmak için sipariş üst bilgisine veya satırlarına belirli bir hızlandırma kodu uygulanabilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 0829296d01e474437e8080db8b03d047e3a613fc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c24fed0027f1c1f6aeab823b22bc3b36b814f814
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695025"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4799074"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)
 
@@ -368,6 +368,3 @@ Bir BPM satırı silinince, o BPM satırıyla ilişkili görev kılavuzları da 
 **Silinen BPM satırı**
 
 - Planlanmış kanban işlerini taşıma
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

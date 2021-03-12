@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69389dd3a53ffec11116e16512bd038b45eda4d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ecfe132d9b0e096c5fdf015f80a6efb34c9b178
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439556"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961453"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Madde varışı genel bakış profili ayarlama
 
@@ -54,6 +53,3 @@ Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır. Varış
 17. **Kaydet**'i seçin.
 18. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

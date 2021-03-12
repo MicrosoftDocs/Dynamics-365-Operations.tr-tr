@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5cab02600e13a1a539b5ae0cd3ff66960430e826
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439746"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963675"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Mühendislik şirketleri ve veri sahipliği kuralları
 
@@ -67,6 +66,3 @@ Mühendislik şirketi, mühendislik ile ilgili verilerin sahibi olduğundan, aş
 
     - Bu belgeler diğer tüzel kişiliklere serbest bırakıldığında, belgelerin operasyonel şirket tarafından kaldırılmaya karşı korunur.
     - Diğer tüzel kişilikler tamamen yeni yerel belgeler ekleyebilirler. Operasyonel şirket bu yerel belgelerin sahibi olur ve onlara bakım yapar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

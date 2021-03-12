@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c9cecabb7923e86e8aa09eed7bd3b1ba5ee0bd8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694873"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798865"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>İş akışında el ile girilen kararları yapılandırma
 
@@ -350,6 +350,3 @@ Kararın belirli bir süre içerisinde alınması gerekiyorsa bu adımları izle
     - **Yıllar** – Kararın alınmış olması gereken günü, haftayı ve ayı seçin. Örneğin kararın Aralık ayının üçüncü haftasının Cuma gününden önce alınmış olmasını isteyebilirsiniz.
 
 4. Zaman limiti aşılırsa sistem kararı kendi alır. **Eylem** listesinden sistemin tercih etmesi gereken seçeneği seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

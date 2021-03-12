@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693858"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798707"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
@@ -97,6 +97,3 @@ Akıllı telefonlar ve diğer küçük ekranlarda, denetimlerin ve form düzenin
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Geliştiricilere ve müşterilere yardımcı olmak için kılavuz özelleştirmelerinde erişilebilir düşünceyi içerir.
 
 Microsoft'un erişilebilirlik sağlama konusundaki en iyi uygulamaları hakkında daha fazla bilgi edinmek için bkz. [Formlar, ürünler ve denetimlerde erişilebilirlik](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

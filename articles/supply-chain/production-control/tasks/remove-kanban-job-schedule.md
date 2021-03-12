@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, SysLookupMultiSelectGrid, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0236faa9b534678ed232ac3572c8172c62e5241f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fcd9247e24323ba606377d7e51bd4447ab51c905
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438993"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4961627"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>Kanban işini planlamadan kaldırma
 
@@ -46,6 +45,3 @@ Bu prosedür, bir planlanan işlem kanban işini, durumu Planlanmadı'ya döndü
 4. Tamam'a tıklayın.
     * Bu, geçerli işin "Planlandı" olan durumunu "Planlanmadı"ya döndürür ve işlem panosundan kaldırır.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

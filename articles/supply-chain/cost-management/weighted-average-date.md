@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439113"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963750"
 ---
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
@@ -32,13 +31,13 @@ ms.locfileid: "4439113"
 
 Ağırlıklı ortalama tarihi, ağırlıklı ortalama ilkesini temel alan bir stok modelidir. Ağırlıklı ortalama ilkesi için, stoktan yapılan çıkışlar, stok kapanış döneminde her gün stoğa alınan maddelerin ortalama değerinden değerlenir. 
 
-Ağırlıklı ortalama tarihi kullanarak stok kapanışı çalıştırdığınızda, tüm günlük girişler bir sanal bir çıkışa karşılık kapatılır. Bu sanal çıkış o güne ilişkin toplam alınan miktarı ve değeri tutar. Sanal çıkış, çıkışların kapatılacağı karşılık gelen bir sanal girişe sahiptir. Bu nedenle, tüm çıkışlar aynı ortalama maliyeti alır. Sanal çıkış ve sanal giriş, *ağırlıklı ortalama stok kapatma transferi* olarak bilinen sanal bir transfer olarak görülebilir. 
+Ağırlıklı ortalama tarihi kullanarak stok kapanışı çalıştırdığınızda, tüm günlük girişler bir sanal bir çıkışa karşılık kapatılır. Bu sanal çıkış o güne ilişkin toplam alınan miktarı ve değeri tutar. Sanal çıkış, çıkışların kapatılacağı karşılık gelen bir sanal girişe sahiptir. Bu nedenle, tüm çıkışlar aynı ortalama maliyeti alır. Sanal çıkış ve sanal giriş, *ağırlıklı ortalama stok kapatma transferi* olarak bilinen sanal bir transfer olarak değerlendirilebilir. 
 
 Bu tarihte veya bu tarihten önce yalnızca bir giriş gerçekleştiyse, ortalamayı değerlemeniz gerekmez. Tüm çıkışlar bu girişten kapatılacağından, sanal transfer oluşturulmaz. Benzer şekilde, o tarihte yalnızca çıkışlar oluşursa, ortalamanın değerlendirileceği bir giriş yoktur ve sanal transfer oluşturulmayacaktır. Ağırlıkı ortalama tarihini kullandığınızda, stok hareketlerini belirli bir madde girişinin belirli bir çıkışa göre kapatılması için işaretleyebilirsiniz. Bu durumda, ağırlıklı ortalama tarihi kuralı kullanılmaz. Ağırlıklı ortalama tarihi stok modelini kullanırken aylık stok kapatma yapmanızı öneririz. 
 
 Aşağıdaki formül, ağırlıklı ortalama tarih stok kapanış yöntemini hesaplamada kullanılır: 
 
-Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
+Ağırlıklı ortalama = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Stok kapatma sırasında, hesaplama aşağıdaki görselde gösterildiği gibi, her gün kapanış dönemi boyunca gerçekleştirilir. 
 
@@ -51,7 +50,7 @@ Satış siparişleri, stok günlükler ve üretim emirleri gibi stoktan ayrılan
 
 Kapatmalar, kapanış tarihin ağırlıklı ortalamasını düzeltmek için çıkışları ayarlayan stok kapanışı deftere nakilleridir. 
 
-**Not:** Kapatma işlemleri hakkında daha fazla bilgi için stok kapatmayla ilgili makaleye bakın. Aşağıdaki örnekler, beş yapılandırma ile ağırlıklı ortalama kullanmanın etkisini gösterir:
+**Not:** Kapatma işlemleri hakkında daha fazla bilgi için stok kapatmayla ilgili makaleye bakın. Aşağıdaki örnekler, beş yapılandırma ile ağırlıklı ortalama kullanmanın etkisini gösterir:
 
 -   **Fiziksel değeri dahil et** seçeneği kullanılmadan ağırlıklı ortalama tarihi doğrudan kapatma
 -   **Fiziksel değeri dahil et** seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma
@@ -127,7 +126,7 @@ Stok kapanışı gerçekleştirilir. Doğrudan kapatma kullanılması gerekir ç
 
 Sistem özetlenen stok transferi hareketini oluşturur ve deftere nakleder. Ayrıca sistem o güne ve eldeki stoka ait tüm girişleri özetlenmiş stok transferi çıkış hareketine karşılık kapatır. Günün tüm çıkışları, özetlenmiş stok transferi giriş hareketine karşılık kapatılır. Ağırlıklı ortalama maliyet fiyatı 16,00 ABD Doları olarak hesaplanır. Ağırlıklı ortalama maliyetini düzeltmek için çıkışın düzeltmesi 1,00 ABD Doları olur. Yeni cari ortalama maliyet fiyatı 16,00 Doları olur. 
 
-Aşağıdaki şekilde, bu hareketler serisi, ağırlıklı ortalama stok modeli ve **Fiziksel değeri dahil et** seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
+Aşağıdaki çizimde, bu hareketler serisi, ağırlıklı ortalama stok modeli ve **Fiziksel değeri dahil et** seçeneği kullanılmadan özetlenmiş kapatma ilkesi seçimlerinin etkileriyle birlikte gösterilmektedir. 
 
 ![Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama tarihi özetlenmiş kapatma](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
@@ -176,7 +175,7 @@ Hareketin deftere nakledilmeden önce bir giriş için bir çıkış hareketi i�
 -   6a. 21,25 ABD Doları maliyet fiyatında 1 miktarındaki stok fiziksel çıkışı.
 -   7. Stok kapanışı gerçekleştirilir. Mali olarak güncelleştirilen hareket var olan bir girişe işaretlendiği için, bu hareketler birbirine karşılık kapatılır ve bir düzeltme yapılmaz.
 
-Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki şekil bu hareketler serisini, işaretleme ve ağırlıklı ortalama tarihi stok modeli kullanmanın etkilerini gösterir.
+Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziksel olarak güncelleştirilmiş hareketlerin ortalamasını yansıtır. Aşağıdaki çizim bu hareketler serisini, işaretleme ve ağırlıklı ortalama tarihi stok modeli kullanmanın etkilerini gösterir.
 
 ![İşaretleme ile ağırlıklı ortalama tarihi](./media/weightedaveragedatewithmarking.gif) 
 
@@ -196,6 +195,3 @@ Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziks
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

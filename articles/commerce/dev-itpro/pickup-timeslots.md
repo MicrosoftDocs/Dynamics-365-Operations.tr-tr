@@ -3,7 +3,7 @@ title: Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelle
 description: Bu konu, Commerce Headquarters'ta müşteri teslim alma dilimlerini oluşturmayı, yapılandırmayı ve güncelleştirmeyi açıklar.
 author: anupamar-ms
 manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681554"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828223"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme
 
@@ -49,17 +49,15 @@ Zaman aralığı aşağıdaki özellikler kullanılarak tanımlanır:
 
     **Minimum günler** özelliği, satıcının Malzeme çekme için hazır olmadan önce siparişi işlemesi için yeterli zamanı olmasını sağlar. **Maksimum gün** özelliği, kullanıcının gelecekte çok uzak bir tarih seçmesini sağlar. Örneğin, minimum değer **1** olarak ayarlanmışsa ve 20 Eylül tarihinde bir sipariş yerleştirilirse, siparişin malzeme çekme için kullanılabileceği en erken gün bir sonraki uygun gün (21 Eylül) olur. Benzer şekilde, maksimum değer ayarlayarak bir siparişin çekilebileceği maksimum gün sayısını tanımlayabilirsiniz. Minimum ve maksimum değerler tanımlandığında, site kullanıcıları kullanıma alma deneyiminde yalnızca belirli gün kümesini görebilir ve seçebilir.
 
-    Minimum değeri 1'den az olan bir ondalık değere ayarlayabilirsiniz. Örneğin, bir sipariş yerleştirildikten sonra malzeme çekme dört saat kullanılabilir ise, minimum değerini **0,17** (= 4 ÷ 24, en fazla iki ondalık basamağa yuvarlayarak) olarak ayarlayın. Ancak, minimum değerini 1'den fazla olan bir ondalık değere ayarlarsanız, her zaman en yakın tamsayıya yuvarlanır (yukarı veya aşağı).
-
-    Maksimum değeri ondalık değere ayarlarsanız her zaman yuvarlanır. Örneğin, **1,2** değeri **2**'ye kadar yuvarlanır.
+    Minimum değeri 1'den az olan bir ondalık değere ayarlayabilirsiniz. Örneğin, bir sipariş yerleştirildikten sonra malzeme çekme dört saat kullanılabilir ise, minimum değerini **0,17** (= 4 ÷ 24, en fazla iki ondalık basamağa yuvarlayarak) olarak ayarlayın. Ancak, minimum değerini 1'den fazla olan bir ondalık değere ayarlarsanız, her zaman en yakın tamsayıya yukarı yuvarlanır. Örneğin, **1,2** değeri **2**'ye kadar yuvarlanır. Benzer şekilde, maksimum değeri bir ondalık değere ayarlarsanız,her zaman en yakın tamsayıya yukarı yuvarlanır. 
 
 - **Başlangıç tarihi** ve **Bitiş tarihi** – zaman diliminin başlangıç ve bitiş tarihlerini belirtin. Her zaman dilimi girişinin başlangıç ve bitiş tarihleri vardır. Bu nedenle, yıl boyunca farklı zaman yuvalarını ekleme esnekliği vardır (örneğin, tatil saatlerinde sözcüklups). Bir sipariş yerleştirildikten sonra bir zaman diliminin başlangıç ve tarihleri değiştirilirse, değişiklikler o sırada uygulanmaz. Başlangıç ve bitiş tarihlerini tanımladığınızda, kapanış tarihlerini (örneğin, Noel günü) dikkate almanız ve zaman aralıklarının bu günler için tanımlanmamasını sağlamalısınız.
-- **Etkin teslimat saatleri** – Malzeme çekme işlemine izin verildiğinde dönemi belirtin. Örneğin, toplama zamanları her gün 14.00 - 17.00 arasında olabilir. Bu özellik, malzeme çekme saatlerinin mağaza saatlerinden bağımsız olmasını sağlar. Bu nedenle, perakende malzeme çekme sürelerini belirli iş gereksinimlerini karşılayacak şekilde konfigüre edebilir. Etkin malzeme çekme saatlerini tanımladığınızda, saatleri depolamayı dikkate almanız ve malzeme çekme sürelerinin, mağazanın kapatıldığı zamanlar için tanımlanmamasını sağlamalısınız.
+- **Etkin Teslim Alma Saatleri** – Malzeme çekme işlemine izin verildiğinde dönemi belirtin. Örneğin, toplama zamanları her gün 14.00 - 17.00 arasında olabilir. Bu özellik, malzeme çekme saatlerinin mağaza saatlerinden bağımsız olmasını sağlar. Bu nedenle, perakende malzeme çekme sürelerini belirli iş gereksinimlerini karşılayacak şekilde konfigüre edebilir. Etkin malzeme çekme saatlerini tanımladığınızda, saatleri depolamayı dikkate almanız ve malzeme çekme sürelerinin, mağazanın kapatıldığı zamanlar için tanımlanmamasını sağlamalısınız.
 
     > [!NOTE]
     > Mağaza malzeme çekme saatlerinin uygun mağazanın saat diliminde tanımlanması gerekir.
 
-- **Zaman dilimi aralığı** – Her zaman dilimine göre tahsis edilebilecek süreyi belirtin. Örneğin, her zaman diliminin süresi 15 dakika, 30 dakika veya bir saatten fazla olabilir.
+- **Zaman dilimi aralığı** – Her zaman dilimine göre tahsis edilebilecek süreyi belirtin. Örneğin, her zaman diliminin süresi 15 dakika, 30 dakika veya bir saatten fazla olabilir. Zaman dilimi değeri 0 ise, saat dilimi başlangıç ve bitiş saatleri arasındaki sürenin tamamı için kullanılabilir.
 - **Aralık başına yuvalar**: her zaman dilimi aralığında malzeme çekme için sunulabilecek müşteri veya sipariş sayısını belirtin. Örneğin **1**, **2**, **3** veya başka herhangi bir tamsayı girin.
 - **Etkin günler** – Malzeme çekme zaman yuvalarının etkin olduğu haftanın günlerini belirtin. Bu özellik, perakende satış siparişinin malzeme çekme emirlerini desteklemek istediği günleri tanımlamasını sağlar.
 - **Perakende satış kanalları** – Perakende kanallarını belirtin. Her zaman dilimi bir veya daha fazla perakende depolarıyla ilişkilendirilebilir. Her mağazanın operasyon saatlerine göre, bir veya daha fazla zaman dilimi girişi oluşturulabilir ve bir kanalla ilişkilendirilebilir. 
@@ -84,7 +82,7 @@ Commerce Headquarters'da zaman dilimi özelliğini konfigüre etmek için aşağ
 1. **Sipariş toplama zamanı ayarları** hızlı sekmesinde, **Ekle**'yi seçin.
 1. **Sipariş malzeme çekme zamanı ayarları** iletişim kutusunda Tarih aralığını, teslimat şeklini, etkin saatlerin, etkin günlerin, zaman dilimi aralığı, Aralık başına Yuva ve diğer ayarlar tanımlayın.
 
-    Süre yuvaları öngörülebilir gelecekte duracağı takdirde, **bitiş tarihi** alanını boş bırakın.
+    Süre yuvaları öngörülebilir gelecekte duracağı takdirde, **Bitiş Tarihi** alanını **Asla** olarak ayarlayın.
 
     > [!NOTE]
     > Birden çok şablon oluşturabilirsiniz, ancak tek bir kanal veya depoyla yalnızca bir şablon ilişkilendirilebilir.
@@ -120,9 +118,12 @@ Aşağıdaki çizimde, malzeme çekme zamanı yuvasının seçildiği bir e-tica
 
 ![Malzeme çekme zamanı yuvasının seçildiği bir e-ticaret siparişi örneği](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
+## <a name="time-slot-selection-for-call-center-orders"></a>Çağrı merkezi siparişleri için saat dilimi seçimi
+
+Çağrı merkezi uygulamasında çağrı merkezi temsilcileri, teslim alma mağazası veya konumunu, ayrıca aşağıdaki çizimde vurgulanan tarih ve saat dilimini seçebilir.
+
+![Malzeme çekme zamanı yuvasının seçildiği bir çağrı merkezi siparişi örneği](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Malzeme çekme bilgileri modülü](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
