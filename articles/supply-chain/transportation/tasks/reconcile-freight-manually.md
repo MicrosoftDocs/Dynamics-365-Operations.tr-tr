@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily, TMSFBDetailReconcile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fc4fc51955544df4d0156a4c83bcc5b5a0e13df3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8679a729dc17e3ee85468b459da3956a92160ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439672"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974072"
 ---
 # <a name="reconcile-freight-manually"></a>El ile navlun mutabakatı sağlama
 
@@ -61,6 +60,3 @@ Taşıyıcı faturasını ve navlun faturasını mutabık kıldığınızda bu i
 5. Referans günlük numarası alanındaki bağlantıyı izlemek için tıklayın.
 6. Satırlar seçeneğine tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

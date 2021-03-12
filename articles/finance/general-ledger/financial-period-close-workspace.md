@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 9c28f9e9eb3a4b93d17413e33c7b389e2d5829c7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4449039"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975726"
 ---
 # <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
@@ -108,6 +107,3 @@ Kapanış zamanlaması tamamlandıktan sonra, onun için **Kapalı** seçeneğin
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

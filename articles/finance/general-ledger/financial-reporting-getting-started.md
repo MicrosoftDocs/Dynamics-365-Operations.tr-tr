@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
-ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
+ms.openlocfilehash: 24d57982981ca7b72e43c086ace381e420acb06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975698"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -48,6 +47,8 @@ Bir tüzel kişilik için finansal raporlar oluşturmak ve üretmek için, bu t�
 -   Genel muhasebe
 -   Hesap planı
 -   Para Birimi
+-   En az bir hesaba hareket nakletme
+-   Ana Hesap, **Genel Muhasebe > Genel Muhasebe Kurulumu > Financial Reporting Kurulumu** Seçili sütununda listelenir
 
 ## <a name="granting-security-access-to-financial-reporting"></a>Financial Reporting'e güvenlik erişimi verme
 Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri aracılığıyla görevler atanmış kullanıcılar için kullanılabilirdir. Aşağıdaki bölümlerde bu ayrıcalıklar ve görevler, ilişkili rollerle birlikte listelenmiştir.
@@ -173,6 +174,3 @@ Sorun 3: Önceki ClickOnce Rapor Tasarımcısı oturum açma sayfasından devam 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Mali raporları görüntüle](view-financial-reports.md)
 - [Mali raporlarda raporlama ağacı tanımları](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

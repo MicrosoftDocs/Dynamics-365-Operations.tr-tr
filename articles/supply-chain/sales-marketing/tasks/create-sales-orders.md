@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439102"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974822"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 
@@ -39,7 +38,7 @@ Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını gösterm
 
 ## <a name="enter-sales-order-line-details"></a>Satış siparişi satır ayrıntılarını girin
     
-Kuruluşunuz tarafından satılan ürünler; konfigürasyon, renk, boyut ve stil gibi farklılıklarla gelebilir. Ayrıca, ürünler; tesis, ambar ve palet gibi depolama boyutlarını ve parti ile seri numarası gibi bekletme boyutlarını kullanacak şekilde ayarlanabilir. Bu boyutlar atanırken, sipariş satırında bu boyutlara ait değerleri seçmeniz gerekir. Sipariş girişi etkinliğini artırmak için, ilgili boyut alanlarını sipariş kılavuzuna eklemek isteyebilirsiniz.
+Kuruluşunuz tarafından satılan ürünler; konfigürasyon, renk, boyut ve stil gibi farklılıklarla gelebilir. Ayrıca, ürünler; tesis, ambar ve palet gibi depolama boyutlarını ve parti ile seri numarası gibi izleme boyutlarını kullanacak şekilde ayarlanabilir. Bu boyutlar atanırken, sipariş satırında bu boyutlara ait değerleri seçmeniz gerekir. Sipariş girişi etkinliğini artırmak için, ilgili boyut alanlarını sipariş kılavuzuna eklemek isteyebilirsiniz.
     
 1. **Satış siparişi satırları** bölümünde, **Satış siparişi satırı**'nı seçin.
 2. **Boyutlar**'ı seçin.
@@ -68,6 +67,3 @@ Kuruluşunuz tarafından satılan ürünler; konfigürasyon, renk, boyut ve stil
     **Toplamlar** sayfasında tüm siparişin ayrıntıları görüntülenir. Bu ayrıntılar, nihai satır iskontoları için ayarlama yapılmış tüm satır net tutarlarının toplamı olan alt toplam tutarını; nihai sipariş düzeyinde iskonto, masraflar ve satış vergisi için ayarlama yapılmış bir alt toplam tutarı olan toplam fatura tutarını; müşterinin kredi limiti durumunu ve daha fazlasını kapsar. Fatura tutarı, müşterinin fatura belgesinde görünecek olan tutardır.  
     
 3. **Tamam**'ı seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

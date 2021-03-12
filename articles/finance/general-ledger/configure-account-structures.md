@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55c3d6c0f2cddb4da8fd82f26ca3184b194e174b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448884"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975903"
 ---
 # <a name="configure-account-structures"></a>Hesap yapıları yapılandır
 
@@ -107,6 +106,3 @@ Hesap yapılarınızı ayarlarken takip edebileceğiniz bazı iyi uygulama örne
 Yeni kurulumu veya bir hesap yapısında değişikliği yeterli bulduğunuz zaman yapıyı etkinleştirmeniz gerekir. Bir hesap yapısı genel muhasebeye atanırsa, bu etkinleştirme uzun süren bir işlem haline gelebilir çünkü sistemdeki deftere nakledilmemiş tüm hareketlerin yeni yapıya eşitlenmesi gerekir. Deftere nakledilmiş hareketler hesap yapısı değişikliklerinden etkilenmez.
 
 Daha fazla bilgi için bkz. [Hesap planınızı hesaplama](plan-chart-of-accounts.md), [Mali boyutlar](financial-dimensions.md) ve [Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4449031"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975828"
 ---
 # <a name="configure-ledgers"></a>Genel muhasebe defterlerini yapılandırma
 
@@ -82,6 +81,3 @@ Bütçeleme işlevi kullanıyorsanız bütçe hareketlerini bir para biriminden 
 Gerçekleşmiş kazançlar ve kayıplar, tamamlanan hareketlerden elde edilen kar ve zararlardır. Kar ve zarar ekstresinde kaydedilirler. Gerçekleşmemiş kazançlar ve kayıplar, oluşan ancak hareketin tamamlanmadığı kar ve zararlardır. Diğer bir ifadeyle, bir faturayı deftere naklettiğiniz ancak faturanın henüz kapatılıp ödenmediği bir durum buna örnek oluşturabilir. Gerçekleşmemiş kazançlar ve zararlar bilançoya kaydedilir.
 
 İki para biriminin nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Çift para birimi](dual-currency.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

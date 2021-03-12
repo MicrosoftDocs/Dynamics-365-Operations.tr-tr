@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439492"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974997"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sales ve Supply Chain Management arasında satış siparişlerini doğrudan eşitleme
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu altında, satış siparişlerini Dynamics 365 Sales ve Dynamics 365 Supply Chain Management arasında eşitlemek için kullanılan temel görevler ve şablonlar açıklanmaktadır.
 
@@ -64,8 +65,8 @@ Aşağıdaki eşitleme görevleri, satış faturası başlıkları ve satırlar�
 
 | Supply Chain Management  | Satışlar             |
 |-------------------------|-------------------|
-| CDS satış siparişi başlıkları | SalesOrders       |
-| CDS satış siparişi satırları   | SalesOrderDetails |
+| Dataverse satış siparişi başlıkları | SalesOrders       |
+| Dataverse satış siparişi satırları   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
@@ -75,7 +76,7 @@ Sales içinde siparişler oluşturmanız gerekmez. Bunun yerine, yeni satış si
 
 Supply Chain Management'ta şablondaki filtreler yalnızca ilgili satış siparişlerinin eşitlemeye dahil edilmesini sağlar:
 
-- Satış siparişinde, siparişi veren müşteri ile faturalanan müşteri Sales'tan geliyorsa, eşitlemeye dahil edilir. Supply Chain Management'ta **OrderingCustomerIsExternallyMaintained** ve **InvoiceCustomerIsExternallyMaintained** alanları, veri varlıklarından gelen satış siparişlerini filtrelemek için kullanılır.
+- Satış siparişinde, siparişi veren müşteri ile faturalanan müşteri Sales'tan geliyorsa, eşitlemeye dahil edilir. Supply Chain Management'ta **OrderingCustomerIsExternallyMaintained** ve **InvoiceCustomerIsExternallyMaintained** sütunları, veri tablolarından gelen satış siparişlerini filtrelemek için kullanılır.
 - Supply Chain Management'taki satış siparişinin onaylanması gerekir. Yalnızca onaylanmış satış siparişleri veya daha yüksek işleme durumuna sahip satış siparişler (örneğin **Sevk edildi** veya **Faturalandı** durumları) Sales'a eşitlenir.
 - Bir satış siparişi oluşturulduktan veya değiştirildikten sonra, Supply Chain Management'ta **Satış toplamlarını hesapla** toplu işinin çalıştırılması gerekir. Yalnızca satış toplamlarının hesaplandığı satış siparişleri Sales'a eşitlenir.
 
@@ -103,10 +104,10 @@ Bir satış siparişi satırı Sales'den Supply Chain Management'a eşitlendiği
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümü
 
-Yeni alanlar **Sipariş** varlığına eklenir ve sayfada görüntülenir:
+**Sipariş** tablosuna yeni sütunlar eklenmiştir ve bunlar sayfada görüntülenir:
 
 - **Dışarıda Tutulan** – Sipariş Supply Chain Management'tan geliyorsa bu seçeneği **Evet** olarak ayarlayın.
-- **İşleme durumu** – Bu alan siparişin Supply Chain Management'taki işleme durumunu gösterir. Aşağıdaki değerler kullanılabilir:
+- **İşleme durumu**: Bu sütun siparişin Supply Chain Management'taki işleme durumunu gösterir. Aşağıdaki değerler kullanılabilir:
 
     - **Taslak** – Bir sipariş Sales'ta ilk oluşturulduğundaki durum. Sales'ta yalnızca bu işleme durumuna sahip olan siparişler düzenlenebilir.
     - **Etkin** – Sipariş Sales'taki **Etkinleştir** düğmesi kullanılarak etkinleştirildikten sonraki durum.
@@ -141,7 +142,7 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 - **Ayarlar** &gt; **Yönetim** &gt; **Sistem ayarları** &gt; **Sales**'a gidin ve aşağıdaki ayarların kullanıldığından emin olun:
 
     - **Sistem fiyatlama hesaplama sistemini kullan** seçeneği **Evet** olarak ayarlanmalıdır.
-    - **İndirim hesaplama yöntemi** alanı **Satır maddesi** olarak ayarlanmalıdır.
+    - **İndirim hesaplama yöntemi** sütunu **Satır maddesi** olarak ayarlanmalıdır.
 
 ### <a name="setup-in-supply-chain-management"></a>Supply Chain Management'ta Kurulum
 
@@ -151,10 +152,10 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 
 1. **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **Satış kaynağı** seçeneğine gidin.
 2. **Yeni**'yi seçerek yeni bir satış kaynağı oluşturun.
-3. **Satış kaynağı** alanına, satış kaynağı için **SalesOrder** gibi bir ad girin.
-4. **Açıklama** alanında, **Sales'den Satış Siparişi** gibi bir açıklama girin.
+3. **Satış kaynağı** sütununa, satış kaynağı için **SalesOrder** gibi bir ad girin.
+4. **Açıklama** sütununda, **Sales'dan Satış Siparişi** gibi bir açıklama girin.
 5. **Kaynak türü ataması** onay kutusunu seçin.
-6. **Satış kaynağı türü** alanını **Satış siparişi tümleştirmesi** olarak ayarlayın.
+6. **Satış kaynağı türü** sütununu **Satış siparişi tümleştirmesi** olarak ayarlayın.
 7. **Kaydet**'i seçin.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Satış Siparişlerinde Ayarlama (Sales'den Supply Chain Management'a) - Doğrudan Veri tümleştirme projesi
@@ -181,12 +182,12 @@ Satış siparişlerini eşitlemeden önce, sistemlerde aşağıdaki ayarları g�
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
 > [!NOTE]
-> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** alanları varsayılan eşlemelerin parçası değildir. Bu alanları eşleştirmek için, varlığın aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşleştirmesi ayarlamanız gerekir.
+> **Ödeme koşulları**, **Navlun koşulları**, **Teslimat koşulları**, **Sevkiyat yöntemi** ve **Teslimat şekli** sütunları varsayılan eşlemelerin parçası değildir. Bu sütunları eşleştirmek için, tablonun aralarında eşleştirildiği kuruluşlar içinde veriye özel bir değer eşlemesi ayarlamanız gerekir.
 
 Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gösterir.
 
 > [!NOTE]
-> Eşleme hangi alan bilgilerinin Sales'den Supply Chain Management'a veya Supply Chain Management'tan Sales'e eşitleneceğini gösterir.
+> Eşleme hangi sütun bilgilerinin Sales'dan Supply Chain Management'a veya Supply Chain Management'tan Sales'a eşitleneceğini gösterir.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Satış Siparişleri (Supply Chain Management'tan Sales'e) - Doğrudan: OrderHeader
 
@@ -207,6 +208,3 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 ## <a name="related-topics"></a>İlgili konular
 
 [Müşteri adayından nakde](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

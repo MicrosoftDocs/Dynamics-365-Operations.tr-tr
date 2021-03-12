@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: 7ef40fb01352bce3c4f9848e0268ac548771120c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4439600"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975047"
 ---
 # <a name="price-simulation"></a>Fiyat benzetimi
 
@@ -145,6 +144,3 @@ Fiyat benzetimi yalnızca uygulandığı satırı etkiler ve bu satırın toplam
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

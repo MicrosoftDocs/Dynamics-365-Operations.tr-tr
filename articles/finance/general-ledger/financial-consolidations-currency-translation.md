@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448931"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975776"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -125,7 +124,7 @@ Eliminasyon kuralı etkin olduğunda ve tarih sona erdiğinde tarihi ihtiyaç du
 
 Temel özellikleri tanımladıktan sonra fiili işleme kurallarını tanımlamak için **Satırlar**'ı seçin. Eliminasyonlar için iki seçenek vardır: Net para üstü tutarını elimine edebilir veya sabit bir tutar tanımlayabilirsiniz.
 
-Kaynak hesaplarını seçin. Joker karakter olarak bir yıldız (\*) kullanabilirsiniz. Örneğin **1\***, tahsisat için veri kaynağı olarak **1** ile başlayan tüm hesapları seçer.
+Kaynak hesaplarını seçin. Joker karakter olarak bir yıldız (\*) kullanabilirsiniz. Örneğin **1\**_, tahsisat için veri kaynağı olarak _* 1** ile başlayan tüm hesapları seçer.
 
 Kaynak hesapları seçtikten sonra hedef şirketten kullanılan hesabı belirtmek için **Hesap belirtimi** alanını kullanın. Kaynak hesabında tanımlanan aynı ana hesabı kullanmak için **Kaynak**'ı seçin. **Kullanıcı tanımlı**'yı seçerseniz bir hedef hesap belirtmeniz gerekir.
 
@@ -182,6 +181,3 @@ Mali raporlamanın desteklediği konsolidasyon senaryolarından bazıları:
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 Konsolide mali tabloları oluşturabileceğiniz senaryolar hakkında bilgi için bkz. [Konsolide mali tabloları oluşturma](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

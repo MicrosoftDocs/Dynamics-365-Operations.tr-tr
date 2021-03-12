@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8a92d67afe5fd427d1bc272c59e459cb1547d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3e1353b3576270e9f0c202b85628fae4f49c882f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974297"
 ---
 # <a name="service-templates"></a>Servis şablonları
 
@@ -58,6 +57,3 @@ Servis şablonu oluşturduğunuzda bir servis sözleşmesi oluşturur, üzerinde
 ## <a name="related-topics"></a>İlgili konular
 
 [Servis şablonları satırlarını kopyalama](copy-service-template-lines.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
