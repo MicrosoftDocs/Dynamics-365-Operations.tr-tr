@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 07dbfa301e4b242f50a9c2758b11b5ad2c31b261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439676"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998365"
 ---
 # <a name="work-line-details"></a>İş satırı ayrıntıları
 
@@ -128,6 +127,3 @@ Birkaç malzeme çekme işi oluşturmak için bu adımları izleyin.
 
 > [!IMPORTANT]
 > Bir iş satırı için yalnızca miktarın bir kısmını iptal ederseniz, yük satırından kullanılmayan miktarı da silmeniz gerekir. Aksi durumda, eksik teslimat doğru şekilde ayarlanmadıkça, yükleme satırının sevk onayı verilemez.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

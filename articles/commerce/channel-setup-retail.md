@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 100822ecea03d03267f98654c66e74f2f5924bd9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416388"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997737"
 ---
 # <a name="set-up-a-retail-channel"></a>Perakende kanalı ayarlama
 
@@ -182,6 +181,3 @@ Kasaları ayarlamak için bu adımları izleyin.
 
 [Çağrı merkezi kanalını ayarlama](channel-setup-callcenter.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

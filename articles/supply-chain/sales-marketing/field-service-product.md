@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffa0616d51127a024bea526c5926a182c0449971
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439460"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996752"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Supply Chain Management'taki ürünleri Field Service'taki ürünlerle eşitleme
 
@@ -73,6 +72,3 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service Ürünleri (Supply Chain Management'tan Field Service'e): Ürünler - Ürünler
 
 [![Veri tümleştirmede şablon eşleme](./media/FSProduct.png)](./media/FSProduct.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

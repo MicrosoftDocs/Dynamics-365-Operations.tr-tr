@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae589f81811c1586e0e24de94eaf5f467f19debb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d68087afd1a0c9b675e4ac1ef2118e6aab5213d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439012"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998665"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Değiştirme kanban kuralı oluşturma
 
@@ -56,6 +55,3 @@ Bu prosedürde mevcut bir kanban kuralının belirli bir tarihte yeni bir kanban
 1. Maksimum miktarı '100' olarak ayarlayın.
     * Maksimum miktar alanını görüntülemek için Miktarlar Hızlı Sekmesini genişletin. Maksimum miktarın 100 olarak değiştirilmesi 100 kanban'a kadar işlenmesine izin verir.    Bu, bu görevdeki son adımdır.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

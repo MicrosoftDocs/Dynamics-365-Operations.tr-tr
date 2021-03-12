@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0fd390e5e0054ff301c18c2507c600f954e6ce89
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528305"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996788"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Müşteri portalı kullanıcıları oluşturma ve yönetme
 
@@ -39,11 +38,11 @@ Kullanıcılar kendi kendine kayıt yaptırtığı zaman, ilgili kişi kayıtlar
 
 ## <a name="prerequisite-setup"></a>Ön koşul kurulumu
 
-Power Apps Portallarda bulunan ilgili kişiler , Common Data Service'deki **ilgili kişiler** varlığında kayıtlar olarak depolanır . Çift yaz daha sonra bu kayıtları gerektiği gibi Microsoft Dynamics 365 Supply Chain Management'a eşitler .
+Power Apps portallarında bulunan ilgili kişiler, Microsoft Dataverse'teki **İlgili kişiler** tablosunda kayıtlar olarak depolanır. Çift yaz daha sonra bu kayıtları gerektiği gibi Microsoft Dynamics 365 Supply Chain Management'a eşitler .
 
 ![Müşteri Portalı ilgili kişilerinin sistem diyagramı](media/customer-portal-contacts.png "Müşteri Portalı ilgili kişilerinin sistem diyagramı")
 
-Yeni müşterileri davet etmeye başlamadan önce, **ilgili kişi** varlığı eşlemesini çift-yazılabilir olarak etkinleştirdiğinizden emin olun.
+Yeni müşterileri davet etmeye başlamadan önce, **İlgili kişi** tablosu eşlemesini çift yazılabilir olarak etkinleştirdiğinizden emin olun.
 
 ## <a name="the-invitation-process"></a>Davet işlemi
 
@@ -58,15 +57,15 @@ Müşteriyi müşteri portalına katılmaya davet etmeden önce, müşterinin [i
 
 Daha fazla bilgi için, Power Apps Portal belgelerindeki [bir portalda kullanılacak ilgili kişiyi konfigüre edin](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts).
 
-## <a name="out-of-box-web-roles-and-entity-permissions"></a>Yerleşik Web rolleri ve varlık izinleri
+## <a name="out-of-box-web-roles-and-table-permissions"></a>Kullanıma hazır web rolleri ve tablo izinleri
 
-Power Apps Portallarda Kullanıcı rolleri [Web rolleri](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [varlık izinleri](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
+Power Apps portallarında kullanıcı rolleri [web rolleri](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [tablo izinleri](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
 
 ### <a name="out-of-box-web-roles"></a>Yerleşik Web rolleri
 
 Bu bölümde, müşteri portalı ile teslim edilen Web rolleri açıklanmaktadır.
 
-Sistemde bulunmayan Kullanıcı rollerini değiştirme hakkında daha fazla bilgi için, Power Apps portal belgelerindeki [portallar için web rolleri oluştur](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için varlık izinlerini kullanarak kayıt tabanlı güvenlik ekleme](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions)'ye bakın.
+Kullanıma hazır kullanıcı rollerini değiştirme hakkında daha fazla bilgi için Power Apps portalları belgelerindeki [Portallar için web rolleri oluşturma](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için tablo izinlerini kullanarak kayıt tabanlı güvenlik ekleme](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) makalelerini inceleyin.
 
 #### <a name="administrator"></a>Yönetici
 
@@ -96,6 +95,3 @@ Aşağıdaki tabloda, her bir Web rolündeki kullanıcıların sistemde hangi sa
 
 > [!NOTE]
 > Hem Sam, hem Jane, müşteri X için çalışan ilgili kişiler olmakla birlikte, yalnızca kendilerinin yerleştirdikleri siparişleri görebilir, başka birşey görmez. May'in sistemde bir siparişi olsa da, yetkisi olmayan bir kullanıcı olduğu için müşteri portalında o siparişi göremeyebilir. (Ek olarak, siparişi müşteri portalı dışında bir kanala yerleştirmiş olmalıdır.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

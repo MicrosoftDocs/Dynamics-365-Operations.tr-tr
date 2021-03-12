@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f9395d39a68cd11f57262c791dd7646975c5e516
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998515"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Field Service'daki iş emirlerini Supply Chain Management'taki satış siparişleriyle eşitleme
 
@@ -62,13 +61,13 @@ Aşağıdaki eşitleme görevleri, satış siparişi başlıkları ve satırlar�
 
 | **Field Service** | **Supply Chain Management** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | CDS satış siparişi başlıkları |
-| msdyn_workorderservices | CDS satış siparişi satırları   |
-| msdyn_workorderproducts | CDS satış siparişi satırları   |
+| msdyn_workorders        | Dataverse satış siparişi başlıkları |
+| msdyn_workorderservices | Dataverse satış siparişi satırları   |
+| msdyn_workorderproducts | Dataverse satış siparişi satırları   |
 
 ## <a name="entity-flow"></a>Varlık akışı
 
-İş emirleri Field Service'ta oluşturulur. İş emirleri yalnızca harici olarak tutulan ürünleri içerirse ve **İş emri durumu** **Açık-Zamanlanmamış** ve **Kapalı-İptal edildi** değerinden farklıysa, iş emirleri Common Data Service Veri tümleştirme projesi aracılığıyla Supply Chain Management'a eşitlenebilir. İş emirlerindeki güncelleştirmeler Supply Chain Management'da satış siparişleri olarak eşitlenir. Bu güncelleştirmeler kaynak türü ve durum hakkındaki bilgileri içerir.
+İş emirleri Field Service'ta oluşturulur. İş emirleri yalnızca harici olarak tutulan ürünleri içerirse ve **İş emri durumu** **Açık-Zamanlanmamış** ve **Kapalı-İptal edildi** değerinden farklıysa, iş emirleri Microsoft Dataverse Veri tümleştirme projesi aracılığıyla Supply Chain Management'a eşitlenebilir. İş emirlerindeki güncelleştirmeler Supply Chain Management'da satış siparişleri olarak eşitlenir. Bu güncelleştirmeler kaynak türü ve durum hakkındaki bilgileri içerir.
 
 ## <a name="estimated-versus-used"></a>Tahmini Kullanılan karşılaştırması
 
@@ -273,6 +272,3 @@ Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus
 Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve ((msdyn_linestatus eq 690970001) veya (msdynce_headersystemstatus eq 690970004) veya (msdyn_allocated ne true))
 
 [![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

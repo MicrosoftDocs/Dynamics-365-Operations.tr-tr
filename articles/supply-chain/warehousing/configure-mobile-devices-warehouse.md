@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f710403baef02173c39016406a19c82f604cc99d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439663"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996402"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Ambar işi için mobil cihazları ayarlama
 
@@ -439,6 +438,3 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 [Stok durumları](../inventory/inventory-statuses.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

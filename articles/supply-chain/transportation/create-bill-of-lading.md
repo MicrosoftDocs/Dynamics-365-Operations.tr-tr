@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench, WHSBillOfLadingCarrier, WHSBillOfLadingOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd014f5804681936920b47e999709f153def11bc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b001ef8936e7e35db89163683c023211f79b24c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439717"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996487"
 ---
 # <a name="create-a-bill-of-lading"></a>Bir konşimento oluştur
 
@@ -43,6 +42,3 @@ Eğer yükte birden fazla sevkiyat varsa, bir ana konşimento oluşturabilirsini
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

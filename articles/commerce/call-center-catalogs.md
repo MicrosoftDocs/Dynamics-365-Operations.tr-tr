@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
+ms.openlocfilehash: 259b68aa28aa0c84699fc6d2e691bae0af135ab7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4416573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997812"
 ---
 # <a name="call-center-catalogs"></a>Çağrı merkezi katalogları
 
@@ -101,6 +100,3 @@ Kataloglar Commerce'te yapılandırılıp yayımlandığı için, **Kataloğu g�
 ## <a name="additional-notes"></a>Ek notlar
 
 Şimdilik, çağrı merkezinde bir satış siparişine uygulanan kaynak kodu kimliği; fiyatları, promosyonları, komut dosyalarını ve dikey satış/çapraz satışları yönetmek için kullanılmaktadır. Sistem, katalogda olmayan bir ürünün satış siparişinde sipariş edilmesine bir yasak veya engel getirmeyecektir. Katalogda yer almayan bir madde sipariş edilirse, sistem ilk olarak çağrı merkezi kanalında (**Retail and Commerce** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**) madde fiyatı ve promosyonları için tanımlanan **Fiyat grubunu** kullanır. Belirli bir kanal fiyatı bulunamazsa, maddenin taban satış fiyatı kullanılır.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

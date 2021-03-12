@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996338"
 ---
 # <a name="confirm-and-transfer"></a>Onayla ve aktar
 
@@ -230,6 +229,3 @@ Hareket ilişkilerinin aşağıdaki yollarla güncelleştirilmiş olduğunu da d
 - **Miktarı yeni yük olarak ayır** seçeneği, kalan tüm iş başlıklarındaki *işlem* durumları olduğunda da çalışır. Bu nedenle, çalışanlar zaten çekme emirlerini çalıştırıyor olsa bile işlevleri kullanabilirsiniz.
 - **Açık** veya *Sürüyor* durumuna sahip kalan iş olduğunda *yerine getirilmemiş miktarı iptal et*'i seçerseniz, şu hata iletisini alırsınız: "kalan yükleme miktarı iptal edilemiyor. Yükleme için çalışma var."
 - Kalan çalışma olmadığında ancak yükleme üzerinde serbest bırakılmış yükleme satırları varken **yerine getirilmemiş miktarı iptal et**'i seçerseniz, aşağıdaki hata iletisini alırsınız: "madde için miktar, teslimat altında tanımlanan yüzdeyi aştığından, yükleme sevkiyatı onaylanamadı." Hatayı önlemek için, serbest bırakılmamış yükleme satırındaki **eksik teslimat** yüzdesini yüzde 100 olarak ayarlayabilirsiniz. Serbest bırakılmamış satırlar yeni bir yüklemeye taşınmaz, ancak geçerli yük, eksik teslimat ile onaylanır. Bu durumda, özgün siparişi yeniden serbest bırakabilirsiniz. Bu nedenle, bunu başka şekilde işlemeniz gerekecektir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
