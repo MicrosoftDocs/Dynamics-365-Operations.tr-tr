@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e8274890c581fffc7330538430c9b2ba060041bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999115"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Satın alma ve kaynak hizmetleri iş akışları ile ilgili sorunları giderme
 
@@ -80,6 +79,3 @@ Bu, satınalma siparişi teyidini yansıtılacağından, onayın gerekli olabilm
 
 Bu sorun yalnızca değişiklik yönetimine bağlı satınalma siparişlerinde oluşur. Bunun nedeni, iptal işleminin onaylanması gereken bir değişiklik olduğu kabul edilir. Onay, sistem tarafından otomatik olarak yapılabilir. Bu nedenle işlem, iptal edilen satınalma siparişinin onay iş akşına gönderilmesidir. Böylece *Onaylı* durumuna geçebilir. Bu noktada, satınalma siparişi artık **Satınalma siparişi hazırlama** çalışma alanındaki taslak satınalma siparişleri listesinde görünmez.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

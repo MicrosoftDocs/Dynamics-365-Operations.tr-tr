@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCCreateProductConfigurationModel, PCProductConfigurationModelDetails, PCBOMLineDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c81b3af7460c636245dcc16affcb05b724fbc70
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1e0bea8743d6ca63538b2c84f74b6e4b1e6c2c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439297"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999718"
 ---
 # <a name="create-a-product-configuration-model"></a>Ürün yapılandırma modeli oluşturma
 
@@ -83,6 +82,3 @@ Bu yordam, bir ürün yapılandırma modelinin nasıl oluşturulacağını ve ö
 17. Seri başına alanında bir sayı girin.
 18. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

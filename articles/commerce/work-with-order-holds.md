@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55b794029ec765162ccfca1f39f3816c6772273d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416442"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000446"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
 
@@ -103,6 +102,3 @@ Kullanıcılar tutmayı temizlemek istedikleri bir siparişte sonraki işlemler 
 ## <a name="reporting-options"></a>Raporlama seçenekleri
 
 Sipariş tutmalarla ilgili tarih aralığı, tutma kodu veya diğer ilgili ölçütler bazında rapor çalıştırmak için **Retail ve Commerce** \> **Sorgular ve raporlar** \> **Çağrı merkezi raporları** \> **Sipariş tutma raporu**'na gidin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a9b7fe1722c366eb504882c61a337a95500c92ab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416532"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000521"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Sepet ve ödeme sayfalarına genel bakış
 
@@ -107,6 +106,3 @@ Bir ödeme sayfasının nasıl yazılacağıyla ilgili daha fazla bilgi için, b
 [Ürün ayrıntıları sayfalarına genel bakış](quick-tour-pdp.md)
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

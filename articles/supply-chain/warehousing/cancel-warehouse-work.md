@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439660"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001211"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Özel durum işleme için ambar işini iptal etme
 
@@ -45,6 +44,3 @@ Ambar çekme işlemleri sırasında, bir çalışan bir depolama konumundan kend
 İşin engelini kaldırmak için sistem kalan tüm iş satırlarını iptal eder ve kullanıcının belirttiği iş koduyla ilişkilendirilmiş ambar verilerini düzeltir. Etkilenen madde miktarıyla ilgili normal ambar işleme operasyonları daha sonra devam edebilir.
 
 İş iptal edildikten sonra etkilenen maddeyi belirli bir konuma koymak için, kullanıcının bir mobil cihazda stok hareketi veya miktar düzeltmesi işlemi kullanması gerekir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

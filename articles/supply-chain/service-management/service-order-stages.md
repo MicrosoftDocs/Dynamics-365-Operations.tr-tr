@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAStageTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52bcb72e8222b378198fcd044428fa1a4a0e8944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d126b68bea8d2083fcf1d08e168b9ead1511b25c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438982"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001261"
 ---
 # <a name="service-order-stages"></a>Servis siparişi aşamaları   
 
@@ -47,6 +46,3 @@ Bir servis aşaması ayarladığınızda, daha sonraki servis aşaması için se
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

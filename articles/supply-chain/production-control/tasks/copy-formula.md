@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26524f886a8af545869bacef4d57bfc14c0ed225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0643209f7ef5090684db693bea2483fadcf3760b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439025"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998790"
 ---
 # <a name="copy-a-formula"></a>Formül kopyalama
 
@@ -65,6 +64,3 @@ Bu yordam, varolan bir formülün, ancak küçük farklılıklar ile aynı madde
 5. Seç'e tıklayın.
 6. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

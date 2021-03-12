@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ae26012d236a44bfa0c8453bdc660671ddee82a4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439127"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000296"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management'ı (Varlık yönetimi) Dynamics 365 Guides ile tümleştirme
 
@@ -114,6 +113,3 @@ Kılavuzu bakım denetim listesi şablonuyla ilişkilendirmek için aşağıdaki
 
 - [Çift yazmaya genel bakış](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Varlık yönetimine genel bakış](index.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

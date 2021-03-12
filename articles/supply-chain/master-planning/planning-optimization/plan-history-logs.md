@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MPSPlanRegenerationJobList, MPSPlanRegenerationJobLogs
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a4f701a85979cce3fa4840b48279c45ec565612b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2616c613e5f6b99c19afad33860aaf0e84d16fe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439530"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999918"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 
@@ -47,6 +46,3 @@ Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **P
 [Plana filtre uygulama](plan-filters.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
