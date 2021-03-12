@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: TMSDriverLogListPage, TMSDriverCheckIn
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 34074a6ad2c929085dc6fd43efa8da620ce18584
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de0609db95e5b76d04ae78202762cfdf2159f04
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439671"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004989"
 ---
-# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="de7f0-103">Randevu için sürücü girişini ve çıkışını kaydetme</span><span class="sxs-lookup"><span data-stu-id="de7f0-103">Register driver check-in and check-out for an appointment</span></span>
+# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="11153-103">Randevu için sürücü girişini ve çıkışını kaydetme</span><span class="sxs-lookup"><span data-stu-id="11153-103">Register driver check-in and check-out for an appointment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="de7f0-104">Bu yordam bir sürücü giriş ve sürücü çıkışının nasıl kaydedileceğini gösterir. Bu, genellikle bir taşıma koordinatörü tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="de7f0-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="de7f0-105">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de7f0-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="de7f0-106">Başlamadan önce bir yük için bir randevu ayarı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="de7f0-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="de7f0-107">Randevu oluşturmak için önkoşul olarak "Bir yük için randevu ayarlama" yordamını çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de7f0-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
+<span data-ttu-id="11153-104">Bu yordam bir sürücü giriş ve sürücü çıkışının nasıl kaydedileceğini gösterir. Bu, genellikle bir taşıma koordinatörü tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="11153-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="11153-105">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="11153-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="11153-106">Başlamadan önce bir yük için bir randevu ayarı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="11153-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="11153-107">Randevu oluşturmak için önkoşul olarak "Bir yük için randevu ayarlama" yordamını çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="11153-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
 
 
-## <a name="select-an-appointment"></a><span data-ttu-id="de7f0-108">Randevu seçme</span><span class="sxs-lookup"><span data-stu-id="de7f0-108">Select an appointment</span></span>
-1. <span data-ttu-id="de7f0-109">Taşıma yönetimi > Planlama > Giriş/çıkış noktası randevu zamanı planlama > Sürücü girişi ve çıkışı'na gidin.</span><span class="sxs-lookup"><span data-stu-id="de7f0-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
-2. <span data-ttu-id="de7f0-110">Bir randevu seçin.</span><span class="sxs-lookup"><span data-stu-id="de7f0-110">Select an appointment.</span></span>
+## <a name="select-an-appointment"></a><span data-ttu-id="11153-108">Randevu seçme</span><span class="sxs-lookup"><span data-stu-id="11153-108">Select an appointment</span></span>
+1. <span data-ttu-id="11153-109">Taşıma yönetimi > Planlama > Giriş/çıkış noktası randevu zamanı planlama > Sürücü girişi ve çıkışı'na gidin.</span><span class="sxs-lookup"><span data-stu-id="11153-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
+2. <span data-ttu-id="11153-110">Bir randevu seçin.</span><span class="sxs-lookup"><span data-stu-id="11153-110">Select an appointment.</span></span>
 
-## <a name="register-driver-check-in"></a><span data-ttu-id="de7f0-111">Sürücü girişini kaydetme</span><span class="sxs-lookup"><span data-stu-id="de7f0-111">Register driver check-in</span></span>
-1. <span data-ttu-id="de7f0-112">Sürücü girişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-112">Click Driver check-in.</span></span>
-2. <span data-ttu-id="de7f0-113">Treyler numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="de7f0-113">In the Trailer number field, type a value.</span></span>
-3. <span data-ttu-id="de7f0-114">Sürücü adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-114">In the Driver name field, type a value.</span></span>
-4. <span data-ttu-id="de7f0-115">Sürücü belgesi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-115">In the Driver license field, type a value.</span></span>
-5. <span data-ttu-id="de7f0-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-116">Click OK.</span></span>
+## <a name="register-driver-check-in"></a><span data-ttu-id="11153-111">Sürücü girişini kaydetme</span><span class="sxs-lookup"><span data-stu-id="11153-111">Register driver check-in</span></span>
+1. <span data-ttu-id="11153-112">Sürücü girişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11153-112">Click Driver check-in.</span></span>
+2. <span data-ttu-id="11153-113">Treyler numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="11153-113">In the Trailer number field, type a value.</span></span>
+3. <span data-ttu-id="11153-114">Sürücü adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="11153-114">In the Driver name field, type a value.</span></span>
+4. <span data-ttu-id="11153-115">Sürücü belgesi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="11153-115">In the Driver license field, type a value.</span></span>
+5. <span data-ttu-id="11153-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11153-116">Click OK.</span></span>
 
-## <a name="register-driver-check-out"></a><span data-ttu-id="de7f0-117">Sürücü çıkışını kaydetme</span><span class="sxs-lookup"><span data-stu-id="de7f0-117">Register driver check-out</span></span>
-1. <span data-ttu-id="de7f0-118">Sürücü çıkışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-118">Click Driver check-out.</span></span>
-2. <span data-ttu-id="de7f0-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de7f0-119">Click OK.</span></span>
+## <a name="register-driver-check-out"></a><span data-ttu-id="11153-117">Sürücü çıkışını kaydetme</span><span class="sxs-lookup"><span data-stu-id="11153-117">Register driver check-out</span></span>
+1. <span data-ttu-id="11153-118">Sürücü çıkışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11153-118">Click Driver check-out.</span></span>
+2. <span data-ttu-id="11153-119">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="11153-119">Click OK.</span></span>
 

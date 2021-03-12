@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a67a4345271cbeffc100fc1d9077cc866846a4d4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448689"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005854"
 ---
-# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a><span data-ttu-id="3b84f-103">RCS/Genel depoda yapılandırmaları bulmak için RCS gelişmiş filtreleme seçenekleri</span><span class="sxs-lookup"><span data-stu-id="3b84f-103">RCS enhanced filtering options for finding configurations in the RCS/Global repository</span></span>
+# <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a><span data-ttu-id="897d8-103">RCS/Genel depoda yapılandırmaları bulmak için RCS gelişmiş filtreleme seçenekleri</span><span class="sxs-lookup"><span data-stu-id="897d8-103">RCS enhanced filtering options for finding configurations in the RCS/Global repository</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3b84f-104">Bu konu, aşağıdaki ölçütlere sahip filtreleme olanağını içermek üzere geliştirilmiş olan Regulatory Configuration Services (RCS) Genel deposu için gelişmiş filtreleme özelliklerini açıklamaktadır:</span><span class="sxs-lookup"><span data-stu-id="3b84f-104">This topic describes enhanced filtering capabilities for Regulatory Configuration Services (RCS) Global repository, which have been improved to include the ability to filter with the following criteria:</span></span> 
-- <span data-ttu-id="3b84f-105">**Ülke/bölge** - ISO ülke kodlarını temel alarak</span><span class="sxs-lookup"><span data-stu-id="3b84f-105">**Country/region** - Based on ISO country codes</span></span>  
-- <span data-ttu-id="3b84f-106">**Etiket** türleri:</span><span class="sxs-lookup"><span data-stu-id="3b84f-106">**Tags** types for:</span></span>
-  - <span data-ttu-id="3b84f-107">İşlevsel alan</span><span class="sxs-lookup"><span data-stu-id="3b84f-107">Functional area</span></span>
-  - <span data-ttu-id="3b84f-108">Özellik alanı</span><span class="sxs-lookup"><span data-stu-id="3b84f-108">Feature area</span></span>
-  - <span data-ttu-id="3b84f-109">Sektör</span><span class="sxs-lookup"><span data-stu-id="3b84f-109">Industry</span></span> 
-  - <span data-ttu-id="3b84f-110">İş belgesi</span><span class="sxs-lookup"><span data-stu-id="3b84f-110">Business document</span></span> 
+<span data-ttu-id="897d8-104">Bu konu, aşağıdaki ölçütlere sahip filtreleme olanağını içermek üzere geliştirilmiş olan Regulatory Configuration Services (RCS) Genel deposu için gelişmiş filtreleme özelliklerini açıklamaktadır:</span><span class="sxs-lookup"><span data-stu-id="897d8-104">This topic describes enhanced filtering capabilities for Regulatory Configuration Services (RCS) Global repository, which have been improved to include the ability to filter with the following criteria:</span></span> 
+- <span data-ttu-id="897d8-105">**Ülke/bölge** - ISO ülke kodlarını temel alarak</span><span class="sxs-lookup"><span data-stu-id="897d8-105">**Country/region** - Based on ISO country codes</span></span>  
+- <span data-ttu-id="897d8-106">**Etiket** türleri:</span><span class="sxs-lookup"><span data-stu-id="897d8-106">**Tags** types for:</span></span>
+  - <span data-ttu-id="897d8-107">İşlevsel alan</span><span class="sxs-lookup"><span data-stu-id="897d8-107">Functional area</span></span>
+  - <span data-ttu-id="897d8-108">Özellik alanı</span><span class="sxs-lookup"><span data-stu-id="897d8-108">Feature area</span></span>
+  - <span data-ttu-id="897d8-109">Sektör</span><span class="sxs-lookup"><span data-stu-id="897d8-109">Industry</span></span> 
+  - <span data-ttu-id="897d8-110">İş belgesi</span><span class="sxs-lookup"><span data-stu-id="897d8-110">Business document</span></span> 
 
-<span data-ttu-id="3b84f-111">Belirli veya ilgili yapılandırmaları daha kolay bulmak için, ayrı olarak veya grup halinde filtreler uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3b84f-111">To make it easier to discover specific or related configurations you can apply filters, either individually or as a group.</span></span> <span data-ttu-id="3b84f-112">Örneğin, satıcı faturalarıyla ilişkili yapılandırılabilir iş belgelerinin tek bir türünü bulmak için, bu belge türünü aramak üzere **İş belgesi türü** filtresi uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3b84f-112">For example, to find a single type of 'configurable business documents that are related to vendor invoices, you could apply a **Business document type** filter to search for that type of document.</span></span> 
+<span data-ttu-id="897d8-111">Belirli veya ilgili yapılandırmaları daha kolay bulmak için, ayrı olarak veya grup halinde filtreler uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="897d8-111">To make it easier to discover specific or related configurations you can apply filters, either individually or as a group.</span></span> <span data-ttu-id="897d8-112">Örneğin, satıcı faturalarıyla ilişkili yapılandırılabilir iş belgelerinin tek bir türünü bulmak için, bu belge türünü aramak üzere **İş belgesi türü** filtresi uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="897d8-112">For example, to find a single type of 'configurable business documents that are related to vendor invoices, you could apply a **Business document type** filter to search for that type of document.</span></span> 
 
-<span data-ttu-id="3b84f-113">[![Genel depo için filtre bölümü](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span><span class="sxs-lookup"><span data-stu-id="3b84f-113">[![Filter section for Global repository](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span></span> 
+<span data-ttu-id="897d8-113">[![Genel depo için filtre bölümü](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span><span class="sxs-lookup"><span data-stu-id="897d8-113">[![Filter section for Global repository](media/rcs-enhanced-filter-section.JPG)](./media/rcs-enhanced-filter-section.JPG)</span></span> 
 
-<span data-ttu-id="3b84f-114">Belge türünü seçip (örneğin 'satıcı faturası') **Filtre uygula**'ya tıklayarak aramayı daha da belirginleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3b84f-114">You can further refine the search by selecting document type, for example 'vendor invoice' and clicking **Apply filter**.</span></span> <span data-ttu-id="3b84f-115">Aşağıdaki örnek, **İş belgesi türü**'nde filtre uygulandığındaki sonuçları belge türü eklenmiş şekilde gösterir.</span><span class="sxs-lookup"><span data-stu-id="3b84f-115">The following example shows the results when filtering on **Business document type** with the document type added.</span></span> 
+<span data-ttu-id="897d8-114">Belge türünü seçip (örneğin 'satıcı faturası') **Filtre uygula**'ya tıklayarak aramayı daha da belirginleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="897d8-114">You can further refine the search by selecting document type, for example 'vendor invoice' and clicking **Apply filter**.</span></span> <span data-ttu-id="897d8-115">Aşağıdaki örnek, **İş belgesi türü**'nde filtre uygulandığındaki sonuçları belge türü eklenmiş şekilde gösterir.</span><span class="sxs-lookup"><span data-stu-id="897d8-115">The following example shows the results when filtering on **Business document type** with the document type added.</span></span> 
 
-<span data-ttu-id="3b84f-116">[![İş belgesi türü için uygulanan filtre ve içe aktarma](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span><span class="sxs-lookup"><span data-stu-id="3b84f-116">[![Applied filter and Import for business document type](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span></span> 
+<span data-ttu-id="897d8-116">[![İş belgesi türü için uygulanan filtre ve içe aktarma](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span><span class="sxs-lookup"><span data-stu-id="897d8-116">[![Applied filter and Import for business document type](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG)</span></span> 
 
-<span data-ttu-id="3b84f-117">Filtre uygulanan sonuçlar bir kullanıcı RCS deposuna veya Dynamics 365 Finance ortamına tek başına veya küme olarak aktarılabilir.</span><span class="sxs-lookup"><span data-stu-id="3b84f-117">Filtered results can be imported into a users RCS repository or a Dynamics 365 Finance environment, either individually or as a set.</span></span> <span data-ttu-id="3b84f-118">Bunu yapmak için, yapılandırmalar grubunu seçin ve **İçe aktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3b84f-118">To do this, select the group of configurations, and click **Import**.</span></span>
+<span data-ttu-id="897d8-117">Filtre uygulanan sonuçlar bir kullanıcı RCS deposuna veya Dynamics 365 Finance ortamına tek başına veya küme olarak aktarılabilir.</span><span class="sxs-lookup"><span data-stu-id="897d8-117">Filtered results can be imported into a users RCS repository or a Dynamics 365 Finance environment, either individually or as a set.</span></span> <span data-ttu-id="897d8-118">Bunu yapmak için, yapılandırmalar grubunu seçin ve **İçe aktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="897d8-118">To do this, select the group of configurations, and click **Import**.</span></span>
