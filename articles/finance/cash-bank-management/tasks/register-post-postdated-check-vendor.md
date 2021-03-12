@@ -11,48 +11,47 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 63a822350ce2bd4d673d7f9841822c84fb883601
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448848"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985224"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="0fb32-103">Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="0fb32-103">Register and post a postdated check for a vendor</span></span>
+# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="f8448-103">Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="f8448-103">Register and post a postdated check for a vendor</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="0fb32-104">Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0fb32-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="0fb32-105">Veya vadeli çeki nakledip finansal işlem oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0fb32-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="0fb32-106">Bir satıcıdan ileri tarihe atılmış bir çeki kaydetmeden ve deftere nakletmeden önce, aşağıdaki görevi tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="0fb32-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
+<span data-ttu-id="f8448-104">Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f8448-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="f8448-105">Veya vadeli çeki nakledip finansal işlem oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f8448-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="f8448-106">Bir satıcıdan ileri tarihe atılmış bir çeki kaydetmeden ve deftere nakletmeden önce, aşağıdaki görevi tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="f8448-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 
-<span data-ttu-id="0fb32-107">İleri tarihe atılmış çekleri Nakit ve banka yönetimi sayfasında yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-107">Set up postdated checks in the Cash and bank management page.</span></span> 
+<span data-ttu-id="f8448-107">İleri tarihe atılmış çekleri Nakit ve banka yönetimi sayfasında yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="f8448-107">Set up postdated checks in the Cash and bank management page.</span></span> 
 
 
 
-<span data-ttu-id="0fb32-108">Bu görevin rolü Haznedar'dır.</span><span class="sxs-lookup"><span data-stu-id="0fb32-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="0fb32-109">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="0fb32-109">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="f8448-108">Bu görevin rolü Haznedar'dır.</span><span class="sxs-lookup"><span data-stu-id="f8448-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="f8448-109">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="f8448-109">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="0fb32-110">Hesaplar > Ödemeler > Ödeme günlüğü seçeneğine gidin</span><span class="sxs-lookup"><span data-stu-id="0fb32-110">Go to Acounts payable > Payments > Payment journal</span></span>
-2. <span data-ttu-id="0fb32-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-111">Click New.</span></span>
-3. <span data-ttu-id="0fb32-112">İsim alanına VendPay' yazın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-112">In the Name field, type 'VendPay'.</span></span>
-4. <span data-ttu-id="0fb32-113">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-113">Click Lines.</span></span>
-5. <span data-ttu-id="0fb32-114">Hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-114">In the Account field, specify the desired values.</span></span>
-6. <span data-ttu-id="0fb32-115">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-115">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="0fb32-116">Borç alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-116">In the Debit field, enter a number.</span></span>
-8. <span data-ttu-id="0fb32-117">Ödeme yöntemi alanında açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="0fb32-118">Vadeli çekin ödeme yöntemini seçin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-118">Select the method of payment for the postdated check</span></span>  
-9. <span data-ttu-id="0fb32-119">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="0fb32-120">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="0fb32-121">Vadeli çekler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-121">Click the Postdated checks tab.</span></span>
-12. <span data-ttu-id="0fb32-122">Çek numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-122">In the Check number field, type a value.</span></span>
-    * <span data-ttu-id="0fb32-123">Vadeli çek üzerindeki numarayı girin veya değiştirin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-123">Enter or modify the number of the postdated check.</span></span>  
-13. <span data-ttu-id="0fb32-124">Amir banka adına alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-124">In the Issuing bank name field, type a value.</span></span>
-    * <span data-ttu-id="0fb32-125">Düzenleyen bankanın bilgilerini girin.</span><span class="sxs-lookup"><span data-stu-id="0fb32-125">enter the bank details for the issuing bank.</span></span>  
-14. <span data-ttu-id="0fb32-126">Liste sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-126">Click the List tab.</span></span>
-15. <span data-ttu-id="0fb32-127">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-127">Click Post.</span></span>
-16. <span data-ttu-id="0fb32-128">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-128">Close the page.</span></span>
-17. <span data-ttu-id="0fb32-129">Vadeli çekler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0fb32-129">Click the Postdated checks tab.</span></span>
+1. <span data-ttu-id="f8448-110">Hesaplar > Ödemeler > Ödeme günlüğü seçeneğine gidin</span><span class="sxs-lookup"><span data-stu-id="f8448-110">Go to Acounts payable > Payments > Payment journal</span></span>
+2. <span data-ttu-id="f8448-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f8448-111">Click New.</span></span>
+3. <span data-ttu-id="f8448-112">İsim alanına VendPay' yazın.</span><span class="sxs-lookup"><span data-stu-id="f8448-112">In the Name field, type 'VendPay'.</span></span>
+4. <span data-ttu-id="f8448-113">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f8448-113">Click Lines.</span></span>
+5. <span data-ttu-id="f8448-114">Hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="f8448-114">In the Account field, specify the desired values.</span></span>
+6. <span data-ttu-id="f8448-115">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f8448-115">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="f8448-116">Borç alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f8448-116">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="f8448-117">Ödeme yöntemi alanında açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="f8448-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f8448-118">Vadeli çekin ödeme yöntemini seçin.</span><span class="sxs-lookup"><span data-stu-id="f8448-118">Select the method of payment for the postdated check</span></span>  
+9. <span data-ttu-id="f8448-119">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f8448-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="f8448-120">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f8448-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="f8448-121">Vadeli çekler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f8448-121">Click the Postdated checks tab.</span></span>
+12. <span data-ttu-id="f8448-122">Çek numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f8448-122">In the Check number field, type a value.</span></span>
+    * <span data-ttu-id="f8448-123">Vadeli çek üzerindeki numarayı girin veya değiştirin.</span><span class="sxs-lookup"><span data-stu-id="f8448-123">Enter or modify the number of the postdated check.</span></span>  
+13. <span data-ttu-id="f8448-124">Amir banka adına alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f8448-124">In the Issuing bank name field, type a value.</span></span>
+    * <span data-ttu-id="f8448-125">Düzenleyen bankanın bilgilerini girin.</span><span class="sxs-lookup"><span data-stu-id="f8448-125">enter the bank details for the issuing bank.</span></span>  
+14. <span data-ttu-id="f8448-126">Liste sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f8448-126">Click the List tab.</span></span>
+15. <span data-ttu-id="f8448-127">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f8448-127">Click Post.</span></span>
+16. <span data-ttu-id="f8448-128">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="f8448-128">Close the page.</span></span>
+17. <span data-ttu-id="f8448-129">Vadeli çekler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f8448-129">Click the Postdated checks tab.</span></span>
 
