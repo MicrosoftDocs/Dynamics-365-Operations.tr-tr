@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf4c722bd2342888326ae65e9f059bcd307c98f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04df717dcf6d4710389f06e8534ea24d8697a4cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4438981"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965817"
 ---
 # <a name="service-subscriptions"></a>Servis abonelikleri
 
@@ -38,6 +37,3 @@ Dönem kodu, abonelik ücreti döneminin kapsamını veya aboneliğin faturaland
 Dönem kodu servis abonelik grubunda tanımlanır. Servis abonelik grubu aracılığıyla abonelikler için tanımlanır. Oluşturduğunuz herhangi bir yeni abonelik ücreti önerilen bir başlangıç tarihine sahiptir. Bu, oluşturulan ilk dönemse, dönemin başlangıç tarihi veya ikinci ya da sonraki bir dönemse, önceki dönemin bitiş tarihidir.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

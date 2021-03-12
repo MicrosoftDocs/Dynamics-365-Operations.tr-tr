@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsFitAnalysis, MpsIntegrationParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04605370cbcc7b8c13552ae7f999212a1efabfab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439322"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967089"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -53,7 +52,7 @@ Planlamayı En İyi Duruma Getirme uygunluk analizi sonucu görmek için **Maste
 
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Uygunluk analizinden elde edilecek olası sonuçlara genel bakış
 
-Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşitli sonuçlar gösterilmektedir. Sayı işaretleri (_\#_) listelenen soruna sahip kayıt sayısını gösteren bir sayıyla değiştirilecektir.
+Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşitli sonuçlar gösterilmektedir. Sayı işaretleri (_\#_) listelenen soruna sahip kayıt sayısını gösteren bir sayıyla değiştirilecektir. Desteklenen veya önizlemedeki özellikler, 10.0.9 sürümünde veya sonraki sürümlerde kullanılabilir ("Beklenen kullanılabilirlik" sütununda daha üst bir sürüm numarası listelenmediği sürece).
 
 | Özellik | Listelenen sorun | Açıklama | Beklenen kullanılabilirlik |
 | --- | --- | --- | --- |
@@ -66,17 +65,17 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Kesinleştirme | Otomatik kesinleştirme ayarlanmış madde karşılama kayıtları: _\#_ | Sürüm 10.0.7 ve sonrasında, otomatik kesinleştirme ( _Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme_ özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
 | Kesinleştirme | Otomatik kesinleştirme ayarlanmış master planlar: _\#_ | Sürüm 10.0.7 ve sonrasında, otomatik kesinleştirme ( _Planlamayı En İyi Duruma Getirme için Otomatik kesinleştirme_ özelliğinin [Özellik yönetiminde](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) etkinleştirilmiş olması koşuluyla) ayrı bir kesinleştirme toplu işi olarak desteklenir. Planlamayı En İyi Duruma Getirme için otomatik kesinleştirmenin gereksinim tarihini (bitiş tarihi) değil, sipariş tarihini temel aldığını unutmayın. Bu davranış, planlanan siparişlerin, sağlama süresini kesinleştirme zaman dilimine dahil etmek zorunda kalmadan, vade tarihinde kesinleştirilmesini sağlar. | Destekleniyor |
 | FitAnalysisPlanningItems | Planlama Maddeleri: _\#_ | Bu özellik beklemededir. Şu anda, planlama maddeleri Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, normal maddeler gibi işlenmektedir. | 2021 Ekim |
-| Tahmin | "Şirketlerarası siparişleri dahil et" etkin karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama aşağı akışla planlanan talebi içermez. Serbest bırakılmış/kesinleştirilmiş siparişlerin normal şirketlerarası işlevlerle çalışmaya devam ettiğini ve birçok senaryoyu kapsayacağını unutmayın. | 2020 Ekim |
-| Tahmin | "Tahmin azaltma ölçütü" ayarına sahip karşılama grupları, "Siparişler" ayarından farklı bir değere ayarlanır: _\#_ | Varsayılan olarak, Planlamayı En İyi Duruma Getirme bu ayardan bağımsız olarak siparişler için "Tahmini azaltma ölçütü"nü kullanır. | Kasım 2020 |
+| Tahmin | "Şirketlerarası siparişleri dahil et" etkin karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama aşağı akışla planlanan talebi içermez. Serbest bırakılmış/kesinleştirilmiş siparişlerin normal şirketlerarası işlevlerle çalışmaya devam ettiğini ve birçok senaryoyu kapsayacağını unutmayın. | Ön izlemede |
+| Tahmin | "Tahmin azaltma ölçütü" ayarına sahip karşılama grupları, "Siparişler" ayarından farklı bir değere ayarlanır: _\#_ | Varsayılan olarak, Planlamayı En İyi Duruma Getirme bu ayardan bağımsız olarak siparişler için "Tahmini azaltma ölçütü"nü kullanır. | Destekleniyor |
 | Tahmin | Alt modellere sahip tahmin modelleri: _\#_ | Bu özellik beklemededir. Şu anda alt model kullanan tahminler, Planlamayı En İyi Duruma Getirme etkin olduğunda desteklenmez. Bu ayar ne olursa olsun yok sayılır. | Nisan 2021 |
 | Tahmin | "Tedarik tahminini dahil et" seçeneğinin etkin olduğu Master planlar: _\#_ | Bu özellik beklemededir. Şu anda tedarik tahminleri, Planlamayı En İyi Duruma Getirme etkin olduğunda desteklenmez. Bu ayar ne olursa olsun yok sayılır. | 2021 Ekim |
 | Dondurma zaman dilimi | Dondurma zaman dilimi ayarlanmış karşılama grupları: _\#_ | Dondurma zaman dilimi genellikle kullanılmaz ve şu anda Planlamayı En İyi Duruma Getirme için bunun dahil edileceği plan yoktur. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, dondurma zaman dilimi ayarı yok sayılır. | - |
 | Dondurma zaman dilimi | Dondurma zaman dilimi ayarlanmış madde karşılama kayıtları: _\#_ | Dondurma zaman dilimi genellikle kullanılmaz ve şu anda Planlamayı En İyi Duruma Getirme için bunun dahil edileceği plan yoktur. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, dondurma zaman dilimi ayarı yok sayılır. | - |
 | Dondurma zaman dilimi | Dondurma zaman dilimi ayarlanmış master planlar: _\#_ | Dondurma zaman dilimi genellikle kullanılmaz ve şu anda Planlamayı En İyi Duruma Getirme için bunun dahil edileceği plan yoktur. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, dondurma zaman dilimi ayarı yok sayılır. | - |
-| Şirketlerarası | Planlanmış aşağı akış talebi dahil master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama aşağı akışla planlanan talebi içermez. Serbest bırakılmış/kesinleştirilmiş siparişlerin normal şirketlerarası işlevlerle çalışmaya devam ettiğini ve birçok senaryoyu kapsayacağını unutmayın. | 2020 Ekim |
+| Şirketlerarası | Planlanmış aşağı akış talebi dahil master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın Planlamayı En İyi Duruma Getirme etkinleştirildiğinde master planlama aşağı akışla planlanan talebi içermez. Serbest bırakılmış/kesinleştirilmiş siparişlerin normal şirketlerarası işlevlerle çalışmaya devam ettiğini ve birçok senaryoyu kapsayacağını unutmayın. | Ön izlemede |
 | Kanban | Planlanan sipariş türü kanban olan madde karşılama kayıtları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış madde karşılama yok sayılır. Kanban planlı sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | 2021 Ekim |
 | Kanban | Varsayılan sipariş türü kanban olan maddeler: _\#_ | Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, Kanban olarak ayarlanmış varsayılan sipariş türü yok sayılır. Kanban varsayılan sipariş türü Master planlama sırasında bir uyarı oluşturacak ve planlanan satınalma siparişleri ilgili talebi kapsayacak şekilde oluşturulacaktır. | 2021 Ekim |
-| Ürün yaşam döngüsü durumu   | Ürün yaşam döngüsü durumları planlama için etkin değil: _\#_ | Bu özellik beklemededir. Şu anda Planlamayı En İyi Duruma Getirme etkinken, Ürün yaşam döngüsü durumu yok sayılır. Ürün yaşam döngüsü durumunun planlama için devre dışı bırakıldığı ürünlerin dahil edilmesini önlemek için plan düzeyi ürün filtresini ayarlayabilirsiniz. | Kasım 2020 |
+| Ürün yaşam döngüsü durumu   | Ürün yaşam döngüsü durumları planlama için etkin değil: _\#_ | Bu özellik beklemededir. Şu anda Planlamayı En İyi Duruma Getirme etkinken, Ürün yaşam döngüsü durumu yok sayılır. Ürün yaşam döngüsü durumunun planlama için devre dışı bırakıldığı ürünlerin dahil edilmesini önlemek için plan düzeyi ürün filtresini ayarlayabilirsiniz. | Destekleniyor |
 | Üretim | Yuvarlama veya birden fazla kurulum içeren ürün reçetesi satırları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi satırlarında yuvarlama ve birden çok kurulum bu ayara bakılmaksızın yok sayılır. | Nisan 2021 |
 | Üretim | Formül ölçümü içeren ürün reçetesi/formül satırları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi ve formül satırlarında formül ölçümü bu ayara bakılmaksızın yok sayılır. | 2021 Ekim |
 | Üretim | Madde alternatifi olan ürün reçetesi/formül satırları (plan grupları): _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetesi ve formül satırlarında madde alternatifi (plan grupları) bu ayara bakılmaksızın yok sayılır. | 2021 Ekim |
@@ -85,7 +84,7 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Adım tüketimi içeren ürün reçetesi/formül satırları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, adım tüketimi ürün reçetesi ve formül satırında yok sayılır. | 2021 Ekim |
 | Üretim | Sabit ıskarta veya değişken ıskartanın tanımlandığı ürün reçeteleri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, ürün reçetelerinde tanımlanan sabit ıskarta ve değişken ıskarta yok sayılır. | 2021 Ekim |
 | Üretim | Alt sözleşme içeren ürün reçeteleri: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, ürün reçetelerindeki alr sözleşme ayarı yok sayılır. | 2021 Ekim |
-| Üretim | Tesis içermeyen ürün reçeteleri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, tesis içermeyen ürün reçeteleri yok sayılır. | 2020 Ekim |
+| Üretim | Tesis içermeyen ürün reçeteleri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, tesis içermeyen ürün reçeteleri yok sayılır. | Destekleniyor |
 | Üretim | Belirli ürün reçetesi veya rota gereksinimleri tanımlanmış talep: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde belirli ürün reçetesi veya talepte tanımlanan rota gereksinimleri (satış siparişindeki alt ürün reçetesi veya alt rota gibi) yok sayılır. Standart ürün reçetesi veya rota, bu ayardan bağımsız olarak kullanılır. | 2021 Ekim |
 | Üretim | Ortak/Yan ürünlere içeren formül sürümleri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş ortak ürünler ve yan ürünler yok sayılır. | 2021 Ekim |
 | Üretim | Verim içeren Formül sürümleri: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, formül sürümüyle ilişkilendirilmiş verim yok sayılır. | 2021 Ekim |
@@ -97,8 +96,8 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Üretim emirlerinin açılımı ile planlama: _\#_ | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | 2021 Ekim |
 | Teklif talepleri | Teklif talepleri etkin olan master planlar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde teklif talepleri (RFQs) talep olarak değerlendirilmez. Bu ayar ne olursa olsun yok sayılır. | 2021 Ekim |
 | Talepler | Taleplerin etkin olduğu master planlar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, talepler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | 2021 Ekim |
-| Güvenlik marjları | Emniyet marjına sahip karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde emniyet marjı yok sayılır. Bu davranışı dengelemek için, sağlama süresini emniyet marjı içerecek şekilde artırabilirsiniz. | 2020 Ekim |
-| Güvenlik marjları | Emniyet marjına sahip master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, emniyet marjı yok sayılır. Bu davranışı dengelemek için, sağlama süresini emniyet marjı içerecek şekilde artırabilirsiniz. | 2020 Ekim |
+| Güvenlik marjları | Emniyet marjına sahip karşılama grupları: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde emniyet marjı yok sayılır. Bu davranışı dengelemek için, sağlama süresini emniyet marjı içerecek şekilde artırabilirsiniz. | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan 2021 |
+| Güvenlik marjları | Emniyet marjına sahip master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, emniyet marjı yok sayılır. Bu davranışı dengelemek için, sağlama süresini emniyet marjı içerecek şekilde artırabilirsiniz. | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan 2021 |
 | Emniyet stoğu karşılama | "Minimum karşılama" değeri "Bugünün tarihi + tedarik süresi"den farklı olan madde karşılama kayıtları: _\#_ | Planlamayı En İyi Duruma Getirme daima *Bugünün tarihi + tedarik süresi*'ni kullanır. Bu değişiklik, ileride basitleştirilmiş bir planlama kurulumuna hazırlanmak ve eyleme geçirilebilir bir sonuç sağlamak için yapılmıştır. Emniyet stoğu için tedarik zamanı dahil edilmezse, geçerli düşük eldeki stok için oluşturulan planlı siparişler, sağlama süresi nedeniyle her zaman gecikecektir. Bu davranış belirgin gürültüye ve istenmeyen planlı siparişlere neden olabilir. En iyi yöntem, *Bugünün tarihi + tedarik süresi* kullanılacak şekilde ayarı değiştirmektir. Uyarılardan kaçınmak için ana verileri güncelleştirin. | - |
 | Satış teklifleri | Satış teklifleri etkin olan master planlar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, teklifler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | 2021 Ekim |
 | Raf ömrü | Raf ömrünün etkin olduğu master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, raf ömrü dikkate alınmaz. | 2021 Ekim |
@@ -114,6 +113,3 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 [Plana filtre uygulama](plan-filters.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

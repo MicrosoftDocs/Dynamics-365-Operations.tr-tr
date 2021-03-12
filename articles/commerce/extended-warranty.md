@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416317"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965134"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Genişletilmiş garantiler oluşturma ve yapılandırma
 
@@ -142,7 +141,7 @@ Garanti grubu, garanti maddeleri ile garanti verilebilir maddeler arasındaki il
 
 Commerce'ta garanti grubu ayarlamak için bu adımları izleyin.
 
-1.  **Retail ve Commerce \> Ürünler ve kategoriler \> Garanti \> Garanti grupları**'na gidin.
+1. **Retail ve Commerce \> Ürünler ve kategoriler \> Garanti \> Garanti grupları**'na gidin.
 1. Bir garanti grubu oluşturmak için **Yeni**'yi seçin.
 1. **Ad** alanına, yeni grup için bir ad girin.
 1. **Genel** hızlı sekmesinde, **Açıklama** alanına grubun açıklamasını girin.
@@ -239,6 +238,3 @@ Garanti belirli, benzersiz bir ürün için sağlanan bir hizmettir. Dynamics 36
 [Ürün çeşitlerini ayarlama](set-up-assortments.md)
 
 [Numara serilerine genel bakış](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

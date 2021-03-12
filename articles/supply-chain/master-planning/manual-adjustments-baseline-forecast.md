@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dc5d1812fa926216a75b6fc4e3cf820ccc3ef6d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439536"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967042"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
 
@@ -85,6 +84,3 @@ Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4439754"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967270"
 ---
 # <a name="product-readiness"></a>Ürün hazır olma durumu
 
@@ -148,6 +147,3 @@ Eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 | Soru formu | Denetim listesi için kullanılması gereken anketi seçin. Denetim listesi, hazırlık denetimin yapıldığı şirketteki yerel bir denetim listesidir. Sistem, denetim listesinin doğru yanıtlanıp yanıtlanmadığını değerlendirebilmelidir. Bu nedenle, doğru yanıtlara dayalı bir değerlendirme yapılacak şekilde denetim listesi ayarlanmalıdır. Anketlerin nasıl oluşturulacağı hakkında daha fazla bilgi için bkz. [Anketleri kullanma](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ve ilgili konuları. |
 | Otomatik onay | Hazırlık denetimi kayıtları, onay durumunu gösteren bir **Onaylandı** onay kutusu içerir. Atanan kullanıcı bunları tamamladıktan hemen sonra onaylanacak şekilde ayarlanacak denetimler için **Otomatik onay** onay kutusunu seçin. Ek bir adım olarak açık onay gerektirmesi için bu onay kutusunu temizleyin. |
 | Zorunlu | Atanan kullanıcı tarafından tamamlanması gereken denetimler için bu onay kutusunu seçin. Zorunlu denetimler atlanamaz. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

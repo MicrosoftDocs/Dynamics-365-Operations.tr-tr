@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b14bebadd7088c9bbcfb6b1c5df1fe1a3c98694d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02c4994fe6df192937f92f0167a3127ff2a8a588
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439482"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966341"
 ---
 # <a name="phantom-items"></a>Hayali maddeler
 
@@ -73,6 +72,3 @@ Hayali ürün reçeteleri de bir rota ağına sahip bir ürün reçetesi için k
 Aşağıdaki çizimde, (a) ürün G ve parça F ve G için ürün reçetesidir, ve (b), ürün G ve parça F için rota tablosudur.
 
 ![Ürün G ve parça F rota tablolarıyla](media/product-G-part-F-with-route-sheet.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 118517fe0d7208113bd361a0295ff00cacd14f3d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965338"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Mağazalar için sipariş karşılamayı ayarlama
 
@@ -131,6 +130,3 @@ Satış noktasında sipariş karşılama, kullanıcının ihtiyacı olanı bulma
 - Oluşturulma tarihi
 - Teslimat tarihi
 - Giriş tarihi
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

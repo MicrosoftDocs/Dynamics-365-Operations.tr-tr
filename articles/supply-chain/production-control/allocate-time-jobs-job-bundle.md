@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 55591
 ms.assetid: 358efce7-73c8-4d2a-a7f7-cb99b88ab6ee
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec07913e217cb3e33d5b58623643f02593c1eeae
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439035"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966592"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>İş ürün demetindeki işlere zaman atama
 
@@ -111,6 +110,3 @@ Saat başına düzeltilen maliyet ve iş süresi bir üretim günlüğüne nakle
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 6bfe27a7b4a768da00c67e307a0bd7e57b333d11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594149"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965439"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>POS'ta teslimat şeklini değiştirme
 
@@ -47,6 +46,3 @@ Yeni teslimat şeklini seçtikten sonra hareket sayfası görüntülenir. Yeni t
 [Çağrı merkezi siparişleri oluşturma](tasks/create-call-center-orders.md)
 
 [Teslimat şekline göre işlem tabanlı e-postaları özelleştirme](customize-email-delivery-mode.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

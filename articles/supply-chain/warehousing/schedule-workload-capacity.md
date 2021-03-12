@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8db243949b2aeee0a8263276234d439652905449
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439088"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965589"
 ---
 # <a name="schedule-workload-capacity"></a>İş yükü kapasitesini zamanlama
 
@@ -80,6 +79,3 @@ Bu bilgiler doğru bir şekilde belirtilmezse, **İŞ yükü kapasite** raporu o
 3. **Sipariş türü** alanında raporda yansıtılacak siparişlerin türünü belirtmek için **Planlandı ve onaylandı**, **Planlandı** veya **Onaylandı**'yı seçin.
 4. **Yük türü** alanında, iş yükü kapasitesinin hacim veya ağırlık için mi yansıtılacağını belirtmek üzere bir yük türü seçin.
 5. **İş yükü kapasitesi** alanında bir iş yükü kapasitesi kurulumu seçin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cc41f99085e5f30ae29edce296a5e3752cbabd33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90ea3f65284cc97906002015c715d9f071202bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439155"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966842"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Bir ürün modeli için rotayı koruma
 
@@ -67,6 +66,3 @@ Bu yordamın çalıştırılması için bir ürün yapılandırma modeli bulunma
 15. Gerkesinim alanında bir değer girin veya bir değer seçin.
 16. Tamam'a tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
