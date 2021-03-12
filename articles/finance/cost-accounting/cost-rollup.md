@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: cb7ba361c05dd3a3db0d41e4347a331935024bba
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4448978"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989139"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -301,6 +300,3 @@ Kuruluşunuzdaki raporlama ve izlenebilirlik gereksinimlerine bağlı olarak, ik
 -  [Maliyet öğesi boyutları](cost-elements.md)
 -  [Boyut hiyerarşisi](dimension-hierarchy.md)
 -  [Genel gider hesaplaması](overhead-calculation.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

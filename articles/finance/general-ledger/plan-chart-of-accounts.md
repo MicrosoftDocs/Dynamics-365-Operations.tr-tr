@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 007b634c18ce897160aea38e05c9a73a64dd3917
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e568fca70ea2048d881681ff7ab8ebc6fad6450
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448894"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990376"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Hesap planınızı planlama
 
@@ -60,6 +59,3 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Mali boyutlar](financial-dimensions.md)
 - [Gelişmiş kural yapıları oluşturma ve atama](tasks/create-assign-advanced-rule-structures.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

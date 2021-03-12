@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448661"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990476"
 ---
 # <a name="dual-currency"></a>Çift para birimi
 
@@ -209,6 +208,3 @@ Genel muhasebe konsolidasyona göre, muhasebe veya muhasebe para birimi tutarlar
 -  Artık, konsolidasyon şirketindeki işlem para birimi olarak kaynak şirketten muhasebe para biriminin mi yoksa raporlama para biriminin mi kullanılacağını seçebilirsiniz.
 
 - Kaynak şirketten gelen muhasebe veya raporlama para birimi tutarları, para birimlerinin aynı olması durumunda, doğrudan konsolidasyon şirketindeki muhasebe veya raporlama para birimi tutarlarına kopyalanacaktır. Para birimlerinin hiçbiri aynı değilse konsolidasyon şirketinde bulunan muhasebe ve raporlama para birimi tutarları Döviz kuru kullanılarak hesaplanır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

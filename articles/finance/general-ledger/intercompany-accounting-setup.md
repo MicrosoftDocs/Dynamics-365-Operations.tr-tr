@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15761
 ms.assetid: 1362297b-7a51-4930-b822-2b204a2e3c37
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c3bca9d0a7c37716f2334b36d8a948908f52293
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed05b0814826442f22d4c3508c28b3c48080e8ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448864"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988864"
 ---
 # <a name="intercompany-accounting-setup"></a>Şirketlerarası muhasebeyi ayarlama
 
@@ -50,6 +49,3 @@ Karşılıklı bir ilişki, **Şirketlerarası muhasebe** sayfasında, **Karşı
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

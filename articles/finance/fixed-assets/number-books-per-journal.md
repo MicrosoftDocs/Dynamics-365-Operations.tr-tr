@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d4ba98cefdc0b555eedfaa56b6a3ca4870b5de93
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: cfb9a9e1456a7d9067e3c4369a7eb7150326655d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650688"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988964"
 ---
 # <a name="number-of-books-per-journal"></a>Günlük başına defter sayısı
 
@@ -46,7 +45,7 @@ Toplu işi kapalı defterleri dışarıda tutar. Örneğin, amortisman için bir
 
 Aynı günlükte yinelenen öğe kimlikleri yoksa defter sayısı sınırı uygulanır. Ancak, varlık kodu defter koduyla aynıysa, varlık kimliğini aynı günlükte tutmak için günlük başına defter sayısı aşılabilir.
 
-Örneğin 5.001 sabit varlık var, her bir sabit varlık kimliğiyle üç defter ilişkilendirilmiş ve her varlık defteri aynı deftere nakil katmanına nakledilmiş. Özetleme yapmadan art arda üç ay boyunca amortisman uyguluyorsunuz. Amortisman günlüğü toplu iş aracılığıyla oluşturulur ve sistem, 667 sabit varlık kimliği bulunan yedi günlük ve her bir sabit varlık kimliği için üç defter oluşturur. Sonuç, 2.001 defter olacaktır. Bu nedenle, aynı varlık kimliğini aynı günlükte tutmak için üç ay içinde 6.003 günlük satırı olacaktır. Ayrıca sistem, 332 sabit varlık kimliği bulunan bir günlük ve her sabit varlık kimliği için üç defter oluşturacaktır. Üç ayda, 2.988 satır olacaktır.
+Örneğin 5.001 sabit varlık var, her bir sabit varlık kimliğiyle üç defter ilişkilendirilmiş ve her varlık defteri aynı deftere nakil katmanına nakledilmiş. Özetleme yapmadan art arda üç ay boyunca amortisman uyguluyorsunuz.  Amortisman günlüğü toplu iş aracılığıyla oluşturulur ve sistem, 667 sabit varlık kimliği bulunan yedi günlük ve her bir sabit varlık kimliği için üç defter oluşturur. Sonuç, 2.001 defter olacaktır. Bu nedenle, aynı varlık kimliğini aynı günlükte tutmak için üç ay içinde 6.003 günlük satırı olacaktır. Ayrıca sistem, 332 sabit varlık kimliği bulunan bir günlük ve her sabit varlık kimliği için üç defter oluşturacaktır. Üç ayda, 2.988 satır olacaktır.
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> [!Note] 
+> Bir amortisman teklifi oluştururken **Özet amortisman** parametresi açıksa, **Günlük başına defter sayısı-amortisman teklifi** alanındaki değerin hiçbir etkisi olmaz. Bu durumda günlük başına düşen defter sayısı, dahili sınır olarak tanımlanan 6000'dir.

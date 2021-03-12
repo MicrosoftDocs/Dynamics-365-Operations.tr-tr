@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed63245066799d7d8f14362ab6c9193c0cda7c4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66903d142ecb7228e4fdec56dbd45472acbdeb69
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439177"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989655"
 ---
 # <a name="piece-picking-confirmation"></a>Parça çekme onayı
 
@@ -51,6 +50,3 @@ Parça çekme tüm sayım işlemleri ve herhangi bir iş türü için ilk çekme
 | Parça çekme onayı | Çekme ve sayım iş türleri için kullanılabilir. Ürün onayı otomatik olarak seçilir. Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır. |
 |  Maksimum parça sayısı  |                   Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir. Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.                   |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

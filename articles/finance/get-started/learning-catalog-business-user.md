@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448854"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990251"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance kullanıcıları için öğrenme kataloğu
 
@@ -54,12 +53,10 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Dynamics 365 Finance'ta bütçelemeyi yapılandırma ve kullanma](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Özel kuruluş veya kamu kuruluşu olsun her kuruluş, bütçeleri oluşturarak mali ve operasyonel hedefleri belirler. Bütçe planlamasının işbirlikçi ve işlem temelli yapısı sayesinde bütçe işleminizi daha verimli hale getirebilirsiniz. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 3.5 saat |
 | [Dynamics 365 Finance'ta sabit kıymetleri yapılandırma ve yönetme](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Sabit kıymetler için satın alma bilgileri oluşturup girebilir, daha sonra amortisman ayırarak ve bir aktifleştirme eşiği ayarlayarak bunları yönetebilirsiniz. Sabit kıymetlerin işlenme şekli, hem uluslararası muhasebe standartlarına hem de her ülke veya bölgedeki muhasebe mevzuatına uygun olmalıdır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4.5 saat |
 | [Dynamics 365 Finance'ta tedarik zincirleri için maliyet muhasebesini kullanmaya başlayın](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylece yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve benzer konularda en iyi kararları verebilir.  | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 1 saat  |
+| [Dynamics 365 Project Operations'da gider yönetimiyle çalışma](https://docs.microsoft.com/learn/paths/work-expense-management/) | Dynamics 365 Project Operations'da doğru gider yönetimi özellikleriyle karlılığı en üst düzeye çıkarın ve maliyeti azaltın. Sistemi yapılandırmayı ve gider raporlarını oluşturma ve onaylamayı öğrenin. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.5 saat  |
 
 ## <a name="exam"></a>Sınav<a name="exam"></a>
 
 | İçerik | Tanım  | Biçim  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Dynamics 365 Temel Bilgileri](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Microsoft Dynamics 365, Power Platform, bulut kavramları, lisanslama seçenekleri ile dağıtım ve sürüm seçeneklerini bildiğinizi kanıtlayın | Maliyeti bölgeye göre değişkenlik gösteren sınav |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 64b8dcd43024e5c26d33bf12c5fe198711adde56
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 5cf1ac4de07cb6357493a0b2c84f6a6ee591d4bc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645902"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990576"
 ---
 # <a name="cash-position-preview"></a>Nakit pozisyonu (önizleme)
 
@@ -34,7 +33,7 @@ Nakit pozisyonu, yakın döneme yönelik bir tahmin olan nakit akışı tahminid
 
 Sistem, müşteri ödemelerini tahmin ederken müşteri ödeme tahmini özelliğinden ödeme tahminlerini kullanır. Ödeme tahminleri olmaksızın, her müşteri için müşteri faturasını ödemeye dönüştürmek için gerekli ortalama süre kullanılarak ödeme tarihi hesaplanır. Açık müşteri siparişleri için sistem, faturalandırılacak müşteri başına sipariş satırları için ortalama gün sayısını kullanarak fatura tarihini hesaplar. Ardından, fatura tarihini ödeme tahmini işlevi için giriş olarak kullanır. Müşteri ödeme tahmin işlevi, her sipariş satırı için bir ödeme tarihi hesaplar. 
 
-<*Need text from Jarek or Dave on how payment predictions are converted to a date*> Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden tahmin edilir [*estimated*].
+<*Need text from Jarek or Dave on how payment predictions are converted to a date*> Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden [*hesaplanır*].
 
 Satıcılara yapılan ödemeleri tahmin etmek için benzer bir yaklaşım kullanılır. Sistem, her satıcıyla ilgili olarak bir satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi hesaplar. Ardından bu gün sayısı, ödeme tarihini hesaplamak için kullanılır. Açık satıcı siparişleri için sistem, her satıcı için sipariş satırlarını faturaya dönüştürmek için gereken ortalama gün sayısını dikkate alarak fatura tarihini hesaplar. Ardından sistem, her satıcıyla ilgili olarak satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi kullanarak ödeme tarihini hesaplar.
 
@@ -51,6 +50,3 @@ Nakit pozisyonunu kaydetmek ve düzenlemek için anlık görüntü oluşturun. A
 
 #### <a name="privacy-notice"></a>Gizlilik bildirimi
 Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

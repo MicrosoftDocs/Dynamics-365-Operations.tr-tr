@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91ec6e1610c472d9c16020e4a7c38705059f0331
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448866"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988817"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
@@ -97,6 +96,3 @@ Ancak, bir koşullu satış vergisi kullanıyorsanız, ödemeyi müşteriden 30 
 Ödeme yöntemi olarak ileri tarih atılmış çek kullanırsanız, ödeme oluşturulduğunda banka hesabı temizlenmez. Bazı ülkelerde, ödeme bankada silindiğinde KDV 'gerçekleşmiş' sorumluluk olur yani ileri tarih atılmış çek kapatılır. Bunu **Nakit ve banka yönetimi > Kurulum > Nakit ve banka yönetimi parametreleri > İleri tarih atılmış çekler**'de **İleri tarih atılmış çekler düzenlendiğinde koşullu vergi gerçekleştir**'i seçerek etkinleştirebilirsiniz.
 
 Daha fazla bilgi için bkz. [Stopaj vergisi ayarlama.](tasks/set-up-withholding-tax.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7ab4ab4d04433ca03ac90acc583afceea2014e8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416546"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989541"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -763,7 +762,6 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 | Epson        | TM-T88V  | OPOS      |                           |
 | Epson        | TM-T88   | Özel    | Ağ üzerinden bağlı     |
 | Star         | TSP650II | Özel    | Ağ üzerinden bağlı     |
-| Star         | TSP100   | OPOS      | TSP650II sürücüleri gerektirir |
 | HP           | F7M67AA  | OPOS      | Güç beslemeli USB               |
 
 #### <a name="payment-terminal"></a>Ödeme terminali
@@ -837,6 +835,3 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
 [Commerce için çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: cd06410dd6260e6a371b0044546be7f8c9957c80
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439612"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989833"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>IoT Zekası için Azure kaynaklarını ayarlama
 
@@ -162,6 +161,3 @@ Redis önbelleği bağlantı dizesinin gizli dizisini kaydetmek için aşağıda
 > Bağlantı dizelerinden birini her güncelleştirdiğinizde gizli dizi değerlerini de güncelleştirmeniz gerekir.
 
 Gerekli Azure kaynaklarını sağlamayı şimdi bitirdiniz. Sonraki adım, [Microsoft Dynamics LifeCycle Services'daki (LCS) IoT Zekası eklentisinin yüklenmesi](iot-lcs-setup.md) ile ilgilidir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
