@@ -11,88 +11,87 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969863"
 ---
-# <a name="account-management-pages-overview"></a><span data-ttu-id="cc339-103">Hesap yönetimi sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="cc339-103">Account management pages overview</span></span>
+# <a name="account-management-pages-overview"></a><span data-ttu-id="b7d14-103">Hesap yönetimi sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="b7d14-103">Account management pages overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="cc339-104">Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="cc339-104">This topic provides an overview of account management pages in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="b7d14-104">Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarına genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="b7d14-104">This topic provides an overview of account management pages in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="cc339-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="cc339-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="b7d14-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="b7d14-105">Overview</span></span>
 
-<span data-ttu-id="cc339-106">Hesap yönetimi sayfaları, müşterilerin kendi hesap ve siparişleriyle ilgili bilgileri görüntülemesine olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="cc339-106">Account management pages let customers view information that is related to their account and orders.</span></span> <span data-ttu-id="cc339-107">Hesap yönetimi sayfaları, hesap yönetimi giriş sayfası, kullanıcı profili sayfaları, adresler, sipariş geçmişi sayfası, sipariş ayrıntıları sayfası, bağlılık programı puanları ve istek listesi sayfasını içerir.</span><span class="sxs-lookup"><span data-stu-id="cc339-107">Account management pages include the account management landing page, and pages for the user's profile, addresses, order history, order details, loyalty points, and wish list.</span></span>
+<span data-ttu-id="b7d14-106">Hesap yönetimi sayfaları, müşterilerin kendi hesap ve siparişleriyle ilgili bilgileri görüntülemesine olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="b7d14-106">Account management pages let customers view information that is related to their account and orders.</span></span> <span data-ttu-id="b7d14-107">Hesap yönetimi sayfaları, hesap yönetimi giriş sayfası, kullanıcı profili sayfaları, adresler, sipariş geçmişi sayfası, sipariş ayrıntıları sayfası, bağlılık programı puanları ve istek listesi sayfasını içerir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-107">Account management pages include the account management landing page, and pages for the user's profile, addresses, order history, order details, loyalty points, and wish list.</span></span>
 
-### <a name="account-management-landing-page"></a><span data-ttu-id="cc339-108">Hesap yönetimi giriş sayfası</span><span class="sxs-lookup"><span data-stu-id="cc339-108">Account management landing page</span></span>
+### <a name="account-management-landing-page"></a><span data-ttu-id="b7d14-108">Hesap yönetimi giriş sayfası</span><span class="sxs-lookup"><span data-stu-id="b7d14-108">Account management landing page</span></span>
 
-<span data-ttu-id="cc339-109">Bir müşteri oturum açıp **hesabımı** seçtiğinde hesap yönetimi giriş sayfası açılır.</span><span class="sxs-lookup"><span data-stu-id="cc339-109">When a customer signs in and selects **My Account**, the account management landing page is opened.</span></span> <span data-ttu-id="cc339-110">Bu sayfa, kullanıcı profili, siparişler, istek listesi, adresler, bağlılık programı puanları gibi hesapla ilgili tüm bilgilerin hızlı bir özetini sağlar.</span><span class="sxs-lookup"><span data-stu-id="cc339-110">This page provides a quick summary of all account-related information, such as the user's profile, orders, wish list, addresses, loyalty points.</span></span> <span data-ttu-id="cc339-111">Müşteri bu sayfadan, her alan için daha fazla ayrıntılara erişebilir.</span><span class="sxs-lookup"><span data-stu-id="cc339-111">From this page, the customer can access more details for each area.</span></span>
+<span data-ttu-id="b7d14-109">Bir müşteri oturum açıp **hesabımı** seçtiğinde hesap yönetimi giriş sayfası açılır.</span><span class="sxs-lookup"><span data-stu-id="b7d14-109">When a customer signs in and selects **My Account**, the account management landing page is opened.</span></span> <span data-ttu-id="b7d14-110">Bu sayfa, kullanıcı profili, siparişler, istek listesi, adresler, bağlılık programı puanları gibi hesapla ilgili tüm bilgilerin hızlı bir özetini sağlar.</span><span class="sxs-lookup"><span data-stu-id="b7d14-110">This page provides a quick summary of all account-related information, such as the user's profile, orders, wish list, addresses, loyalty points.</span></span> <span data-ttu-id="b7d14-111">Müşteri bu sayfadan, her alan için daha fazla ayrıntılara erişebilir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-111">From this page, the customer can access more details for each area.</span></span>
 
-<span data-ttu-id="cc339-112">Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cc339-112">The following illustration shows an example of the account management landing page.</span></span>
+<span data-ttu-id="b7d14-112">Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-112">The following illustration shows an example of the account management landing page.</span></span>
 
 ![Hesap yönetimi giriş sayfası örneği](./media/Account-Management.PNG)
 
-### <a name="my-profile-page"></a><span data-ttu-id="cc339-114">Profilim sayfası</span><span class="sxs-lookup"><span data-stu-id="cc339-114">My profile page</span></span>
+### <a name="my-profile-page"></a><span data-ttu-id="b7d14-114">Profilim sayfası</span><span class="sxs-lookup"><span data-stu-id="b7d14-114">My profile page</span></span>
 
-<span data-ttu-id="cc339-115">**Profilim** sayfası, müşterinin adı ve telefon numarası gibi müşteri hesap bilgilerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="cc339-115">The **My profile** page shows customer's account information, such as his or her name and phone number.</span></span> <span data-ttu-id="cc339-116">Müşteri bu sayfadaki kendi profil bilgilerini güncelleştirebilir.</span><span class="sxs-lookup"><span data-stu-id="cc339-116">The customer can update his or her profile information on this page.</span></span> <span data-ttu-id="cc339-117">Bu sayfa, pazarlama e-postasını tercih etme seçeneği gibi ek müşteri hesabı tercihleri içerecek şekilde özelleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="cc339-117">This page can be customized so that it includes additional customer account preferences, such as an option for opting in to marketing email.</span></span>
+<span data-ttu-id="b7d14-115">**Profilim** sayfası, müşterinin adı ve telefon numarası gibi müşteri hesap bilgilerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-115">The **My profile** page shows customer's account information, such as his or her name and phone number.</span></span> <span data-ttu-id="b7d14-116">Müşteri bu sayfadaki kendi profil bilgilerini güncelleştirebilir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-116">The customer can update his or her profile information on this page.</span></span> <span data-ttu-id="b7d14-117">Bu sayfa, pazarlama e-postasını tercih etme seçeneği gibi ek müşteri hesabı tercihleri içerecek şekilde özelleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-117">This page can be customized so that it includes additional customer account preferences, such as an option for opting in to marketing email.</span></span>
 
-<span data-ttu-id="cc339-118">Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cc339-118">The following illustration shows an example of a **My profile** page that was built by using the module library.</span></span>
+<span data-ttu-id="b7d14-118">Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-118">The following illustration shows an example of a **My profile** page that was built by using the module library.</span></span>
 
 ![Profil sayfası örneği](./media/Account-Management-MyProfile.PNG)
 
-### <a name="addresses-page"></a><span data-ttu-id="cc339-120">Adresler sayfası</span><span class="sxs-lookup"><span data-stu-id="cc339-120">Addresses page</span></span>
+### <a name="addresses-page"></a><span data-ttu-id="b7d14-120">Adresler sayfası</span><span class="sxs-lookup"><span data-stu-id="b7d14-120">Addresses page</span></span>
 
-<span data-ttu-id="cc339-121">**Adresler** sayfası, müşterinin kendi hesabına adres eklemesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="cc339-121">The **Addresses** page lets the customer add addresses to his or her account.</span></span> <span data-ttu-id="cc339-122">Ayrıca, müşterinin daha önce hesaba eklediği veya kaydettiği adreslerin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="cc339-122">It also shows the list of addresses that the customer has previously added or saved to the account.</span></span> <span data-ttu-id="cc339-123">Bu adresler, müşterinin bu sayfada girdiği veya sipariş koyduğunda kullanılan adreslerdir.</span><span class="sxs-lookup"><span data-stu-id="cc339-123">These addresses are addresses that the customer entered either on this page or while placing an order.</span></span>
+<span data-ttu-id="b7d14-121">**Adresler** sayfası, müşterinin kendi hesabına adres eklemesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="b7d14-121">The **Addresses** page lets the customer add addresses to his or her account.</span></span> <span data-ttu-id="b7d14-122">Ayrıca, müşterinin daha önce hesaba eklediği veya kaydettiği adreslerin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-122">It also shows the list of addresses that the customer has previously added or saved to the account.</span></span> <span data-ttu-id="b7d14-123">Bu adresler, müşterinin bu sayfada girdiği veya sipariş koyduğunda kullanılan adreslerdir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-123">These addresses are addresses that the customer entered either on this page or while placing an order.</span></span>
 
-<span data-ttu-id="cc339-124">Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cc339-124">The following illustration shows an example of the **Addresses** page.</span></span>
+<span data-ttu-id="b7d14-124">Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-124">The following illustration shows an example of the **Addresses** page.</span></span>
 
 ![Adresler sayfası örneği](./media/Account-Management-Address.png)
 
-### <a name="order-history-and-order-details-pages"></a><span data-ttu-id="cc339-126">Sipariş geçmişi ve sipariş ayrıntıları sayfaları</span><span class="sxs-lookup"><span data-stu-id="cc339-126">Order history and Order details pages</span></span>
+### <a name="order-history-and-order-details-pages"></a><span data-ttu-id="b7d14-126">Sipariş geçmişi ve sipariş ayrıntıları sayfaları</span><span class="sxs-lookup"><span data-stu-id="b7d14-126">Order history and Order details pages</span></span>
 
-<span data-ttu-id="cc339-127">**Sipariş geçmişi** sayfası, müşterinin hesabını kullanarak gönderdiği tüm siparişlerin özetini gösterir.</span><span class="sxs-lookup"><span data-stu-id="cc339-127">The **Order history** page shows a summary of all orders that the customer has submitted by using his or her account.</span></span> <span data-ttu-id="cc339-128">Sipariş edilen maddelerin, onay numarasının, satış kimliğinin, izleme bilgilerinin ve diğer bilgilerin hızlı özetini verir.</span><span class="sxs-lookup"><span data-stu-id="cc339-128">It gives a quick summary of the items that were ordered, the confirmation number, sales ID, tracking information, and other information.</span></span> <span data-ttu-id="cc339-129">Müşteri her sipariş için daha ayrıntılı bir döküm görüntülemek isterse, **Sipariş ayrıntıları** sayfası vardır.</span><span class="sxs-lookup"><span data-stu-id="cc339-129">If the customer wants to view a more detailed breakdown of each order, there is an **Order details** page.</span></span> <span data-ttu-id="cc339-130">Bu sayfa, siparişin sevkiyat adresi, ödeme bilgileri, iskontolar, vergiler ve sevkiyat maliyetleri gibi bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="cc339-130">This page includes information such as the shipping address, payment information, discounts, taxes, and shipping costs for the order.</span></span>
+<span data-ttu-id="b7d14-127">**Sipariş geçmişi** sayfası, müşterinin hesabını kullanarak gönderdiği tüm siparişlerin özetini gösterir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-127">The **Order history** page shows a summary of all orders that the customer has submitted by using his or her account.</span></span> <span data-ttu-id="b7d14-128">Sipariş edilen maddelerin, onay numarasının, satış kimliğinin, izleme bilgilerinin ve diğer bilgilerin hızlı özetini verir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-128">It gives a quick summary of the items that were ordered, the confirmation number, sales ID, tracking information, and other information.</span></span> <span data-ttu-id="b7d14-129">Müşteri her sipariş için daha ayrıntılı bir döküm görüntülemek isterse, **Sipariş ayrıntıları** sayfası vardır.</span><span class="sxs-lookup"><span data-stu-id="b7d14-129">If the customer wants to view a more detailed breakdown of each order, there is an **Order details** page.</span></span> <span data-ttu-id="b7d14-130">Bu sayfa, siparişin sevkiyat adresi, ödeme bilgileri, iskontolar, vergiler ve sevkiyat maliyetleri gibi bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-130">This page includes information such as the shipping address, payment information, discounts, taxes, and shipping costs for the order.</span></span>
 
-<span data-ttu-id="cc339-131">Aşağıdaki çizimde bir **Sipariş geçmişi** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cc339-131">The following illustration shows an example of the **Order history** page.</span></span>
+<span data-ttu-id="b7d14-131">Aşağıdaki çizimde bir **Sipariş geçmişi** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-131">The following illustration shows an example of the **Order history** page.</span></span>
 
 ![Sipariş geçmişi sayfası örneği](./media/Account-Management-OrderHistory.PNG)
 
-<span data-ttu-id="cc339-133">Aşağıdaki çizimde bir **Sipariş ayrıntıları** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="cc339-133">The following illustration shows an example of the **Order details** page.</span></span>
+<span data-ttu-id="b7d14-133">Aşağıdaki çizimde bir **Sipariş ayrıntıları** liste sayfasının bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-133">The following illustration shows an example of the **Order details** page.</span></span>
 
 ![Sipariş ayrıntıları sayfası örneği](./media/Account-Management-OrderDetails.PNG)
 
-### <a name="loyalty-program-page"></a><span data-ttu-id="cc339-135">Bağlılık programı sayfası</span><span class="sxs-lookup"><span data-stu-id="cc339-135">Loyalty program page</span></span>
+### <a name="loyalty-program-page"></a><span data-ttu-id="b7d14-135">Bağlılık programı sayfası</span><span class="sxs-lookup"><span data-stu-id="b7d14-135">Loyalty program page</span></span>
 
-<span data-ttu-id="cc339-136">**Bağlılık programı** sayfası, müşterinin bir bağlılık programı üyesi olmasına olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="cc339-136">The **Loyalty program** page lets the customer become a member of a loyalty program.</span></span> <span data-ttu-id="cc339-137">Müşteri bir bağlılık programı için kaydolduktan sonra, **bağlılık programı** sayfası, kazanılan puan sayısı ve kullanılmış puan sayısı gibi ayrıntıları içerir.</span><span class="sxs-lookup"><span data-stu-id="cc339-137">After a customer has signed up for a loyalty program, the **Loyalty program** page include details such as the number of points that have been earned and the number of points that have been redeemed.</span></span>
+<span data-ttu-id="b7d14-136">**Bağlılık programı** sayfası, müşterinin bir bağlılık programı üyesi olmasına olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="b7d14-136">The **Loyalty program** page lets the customer become a member of a loyalty program.</span></span> <span data-ttu-id="b7d14-137">Müşteri bir bağlılık programı için kaydolduktan sonra, **bağlılık programı** sayfası, kazanılan puan sayısı ve kullanılmış puan sayısı gibi ayrıntıları içerir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-137">After a customer has signed up for a loyalty program, the **Loyalty program** page include details such as the number of points that have been earned and the number of points that have been redeemed.</span></span>
 
-<span data-ttu-id="cc339-138">Aşağıdaki şekilde bir **bağlılık programı** sayfası örneği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="cc339-138">The following illustration shows an example of a **Loyalty program** page.</span></span>
+<span data-ttu-id="b7d14-138">Aşağıdaki şekilde bir **bağlılık programı** sayfası örneği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-138">The following illustration shows an example of a **Loyalty program** page.</span></span>
 
 ![Bağlılık programı sayfası örneği](./media/Account-Management-Loyalty.PNG)
 
-### <a name="wishlist-page"></a><span data-ttu-id="cc339-140">İstek listesi sayfası</span><span class="sxs-lookup"><span data-stu-id="cc339-140">Wishlist page</span></span>
+### <a name="wishlist-page"></a><span data-ttu-id="b7d14-140">İstek listesi sayfası</span><span class="sxs-lookup"><span data-stu-id="b7d14-140">Wishlist page</span></span>
 
-<span data-ttu-id="cc339-141">**İstek listesi** sayfası, müşterinin kendi istek listesine eklediği maddelerin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="cc339-141">The **Wishlist** page shows a list of the items that the customer has added to his or her wish list.</span></span> <span data-ttu-id="cc339-142">Ürün ve ürün çeşitleri istek listesine eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="cc339-142">Both products and product variants can be added to the wish list.</span></span> <span data-ttu-id="cc339-143">Müşteri bu sayfadan, bir maddeyi istek listesinden kaldırabilir veya doğrudan sepete madde ekleyebilir.</span><span class="sxs-lookup"><span data-stu-id="cc339-143">From this page, the customer can remove an item from the wish list or add an item directly to the cart.</span></span>
+<span data-ttu-id="b7d14-141">**İstek listesi** sayfası, müşterinin kendi istek listesine eklediği maddelerin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-141">The **Wishlist** page shows a list of the items that the customer has added to his or her wish list.</span></span> <span data-ttu-id="b7d14-142">Ürün ve ürün çeşitleri istek listesine eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-142">Both products and product variants can be added to the wish list.</span></span> <span data-ttu-id="b7d14-143">Müşteri bu sayfadan, bir maddeyi istek listesinden kaldırabilir veya doğrudan sepete madde ekleyebilir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-143">From this page, the customer can remove an item from the wish list or add an item directly to the cart.</span></span>
 
-<span data-ttu-id="cc339-144">Aşağıdaki şekilde bir **İstek listesi** sayfası örneği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="cc339-144">The following illustration shows an example of a **Wishlist** page.</span></span>
+<span data-ttu-id="b7d14-144">Aşağıdaki şekilde bir **İstek listesi** sayfası örneği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="b7d14-144">The following illustration shows an example of a **Wishlist** page.</span></span>
 
 ![İstek listesi sayfası örneği](./media/Account-Management-Wishlist.PNG)
 
-<span data-ttu-id="cc339-146">Hesap yönetimi modülleri ve bunların nasıl yazılacağıyla ilgili daha fazla bilgi için [hesap yönetimi](account-management.md)'ne bakın.</span><span class="sxs-lookup"><span data-stu-id="cc339-146">For more information about account management modules and how to author them, see [Account Management](account-management.md).</span></span>
+<span data-ttu-id="b7d14-146">Hesap yönetimi modülleri ve bunların nasıl yazılacağıyla ilgili daha fazla bilgi için [hesap yönetimi](account-management.md)'ne bakın.</span><span class="sxs-lookup"><span data-stu-id="b7d14-146">For more information about account management modules and how to author them, see [Account Management](account-management.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="cc339-147">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="cc339-147">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b7d14-147">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="b7d14-147">Additional resources</span></span>
 
-[<span data-ttu-id="cc339-148">Giriş sayfasına genel bakış</span><span class="sxs-lookup"><span data-stu-id="cc339-148">Home page overview</span></span>](quick-tour-home-page.md)
+[<span data-ttu-id="b7d14-148">Giriş sayfasına genel bakış</span><span class="sxs-lookup"><span data-stu-id="b7d14-148">Home page overview</span></span>](quick-tour-home-page.md)
 
-[<span data-ttu-id="cc339-149">Ürün ayrıntıları sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="cc339-149">Product details pages overview</span></span>](quick-tour-pdp.md)
+[<span data-ttu-id="b7d14-149">Ürün ayrıntıları sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="b7d14-149">Product details pages overview</span></span>](quick-tour-pdp.md)
 
-[<span data-ttu-id="cc339-150">Sepet ve ödeme sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="cc339-150">Cart and checkout pages overview</span></span>](quick-tour-cart-checkout.md)
+[<span data-ttu-id="b7d14-150">Sepet ve ödeme sayfalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="b7d14-150">Cart and checkout pages overview</span></span>](quick-tour-cart-checkout.md)
 
