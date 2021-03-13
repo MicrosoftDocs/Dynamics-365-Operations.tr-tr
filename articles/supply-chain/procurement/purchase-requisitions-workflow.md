@@ -1,7 +1,7 @@
 ---
 title: Satınalma talebi iş akışı
 description: İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir. Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır. Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a9dceb3f9e71163dcaf8b8763317110ef019844
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439144"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021992"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -121,6 +120,3 @@ Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kul
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
