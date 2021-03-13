@@ -1,9 +1,9 @@
 ---
 title: İş emirleri oluşturma
 description: Bu konuda Varlık Yönetimi'nde iş emirleri oluşturma işlemi açıklanmaktadır.
-author: josaw1
+author: johanhoffmann
 manager: tfehr
-ms.date: 08/27/2019
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,44 +11,87 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
-ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f94f8bc20753e38ce1cb6eccdfbc85c2e491ffad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
+ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439338"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "5131805"
 ---
-# <a name="creating-work-orders"></a><span data-ttu-id="8c2f5-103">İş emirleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="8c2f5-103">Creating work orders</span></span>
+# <a name="creating-work-orders"></a><span data-ttu-id="55109-103">İş emirleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="55109-103">Creating work orders</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
- 
+<span data-ttu-id="55109-104">Önleyici bakım işlerini planladıktan sonra, bir sonraki adım bunlar için iş emirleri oluşturmaktır.</span><span class="sxs-lookup"><span data-stu-id="55109-104">After you've scheduled preventive maintenance jobs, the next step is to create work orders for them.</span></span> <span data-ttu-id="55109-105">Bu adımı bakım zamanlamalarından birini kullanarak tamamlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="55109-105">You can complete this step by using one of the maintenance schedules.</span></span> <span data-ttu-id="55109-106">Bakım zamanlamasındaki zamanlanmış işler, aşağıdaki tabloda açıklanan şekilde farklı başvuru türlerine sahip olabilir:</span><span class="sxs-lookup"><span data-stu-id="55109-106">The scheduled jobs in a maintenance schedule can have different reference types, as described in the following table.</span></span>
 
-<span data-ttu-id="8c2f5-104">Önleyici bakım işleri planladığınızda sonraki adım işler için iş emirleri oluşturmaktır.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-104">When you have scheduled preventive maintenance jobs, next step is to create work orders for the jobs.</span></span> <span data-ttu-id="8c2f5-105">Bu işlem, bakım zamanlamalarının birinde gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-105">This is done in one of the maintenance schedules.</span></span> <span data-ttu-id="8c2f5-106">Bakım zamanlamasında zamanlanmış işler farklı referans türlerine sahip olabilir:</span><span class="sxs-lookup"><span data-stu-id="8c2f5-106">The scheduled jobs in a maintenance schedule can have different reference types:</span></span>
+| <span data-ttu-id="55109-107">Referans türü</span><span class="sxs-lookup"><span data-stu-id="55109-107">Reference type</span></span> | <span data-ttu-id="55109-108">Tanım</span><span class="sxs-lookup"><span data-stu-id="55109-108">Description</span></span> |
+|---|---|
+| <span data-ttu-id="55109-109">Bakım planları</span><span class="sxs-lookup"><span data-stu-id="55109-109">Maintenance plans</span></span> | <span data-ttu-id="55109-110">*Süre* veya *Sayaç* bakım planı türüne bağlı olan önleyici bakım işleri.</span><span class="sxs-lookup"><span data-stu-id="55109-110">Preventive maintenance jobs that are based on the *Time* or *Counter* maintenance plan type.</span></span> |
+| <span data-ttu-id="55109-111">Bakım sıraları</span><span class="sxs-lookup"><span data-stu-id="55109-111">Maintenance rounds</span></span> | <span data-ttu-id="55109-112">Benzer bir bakım türü gerektiren birkaç kıymeti içeren önleyici bakım işleri.</span><span class="sxs-lookup"><span data-stu-id="55109-112">Preventive maintenance jobs that contain several assets that require a similar type of maintenance.</span></span> |
+| <span data-ttu-id="55109-113">Bakım talebi</span><span class="sxs-lookup"><span data-stu-id="55109-113">Maintenance request</span></span> | <span data-ttu-id="55109-114">Bir kıymetin bakımı veya onarımı için el ile oluşturulmuş bir istek.</span><span class="sxs-lookup"><span data-stu-id="55109-114">A manually created request for maintenance or repair of an asset.</span></span> <span data-ttu-id="55109-115">Bu istek bir iş emrine dönüştürülebilir.</span><span class="sxs-lookup"><span data-stu-id="55109-115">This request can be converted to a work order.</span></span> |
 
-| <span data-ttu-id="8c2f5-107">Referans türü</span><span class="sxs-lookup"><span data-stu-id="8c2f5-107">Reference type</span></span> | <span data-ttu-id="8c2f5-108">Tanım</span><span class="sxs-lookup"><span data-stu-id="8c2f5-108">Description</span></span>                    |
-|-----------------------|------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="8c2f5-109">Bakım planları</span><span class="sxs-lookup"><span data-stu-id="8c2f5-109">Maintenance plans</span></span>     | <span data-ttu-id="8c2f5-110">"Süre" veya "Sayaç" bakım planı türlerini temel alan önleyici bakım işleri.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-110">Preventive maintenance jobs based on maintenance plan types "Time" or "Counter".</span></span>                       |
-| <span data-ttu-id="8c2f5-111">Bakım sıraları</span><span class="sxs-lookup"><span data-stu-id="8c2f5-111">Maintenance rounds</span></span>    | <span data-ttu-id="8c2f5-112">Benzer bir bakım türü gerektiren birkaç varlığı içeren önleyici bakım işleri.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-112">Preventive maintenance jobs containing several assets that require a similar type of maintenance.</span></span>           |
-| <span data-ttu-id="8c2f5-113">Bakım talebi</span><span class="sxs-lookup"><span data-stu-id="8c2f5-113">Maintenance request</span></span>   | <span data-ttu-id="8c2f5-114">İş emrine dönüştürülebilecek bir varlığın el ile oluşturulan bakım veya onarım talebi.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-114">Manually created request for maintenance or repair of an asset, which can be converted into a work order.</span></span> |
+## <a name="create-work-orders-based-on-your-maintenance-schedule"></a><span data-ttu-id="55109-116">Bakım zamanlamanıza göre iş emirleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="55109-116">Create work orders based on your maintenance schedule</span></span>
 
+<span data-ttu-id="55109-117">Bakım zamanlamanızı temel alan iş emirleri oluşturmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="55109-117">To create work orders that are based on your maintenance schedule, follow these steps.</span></span>
 
-1. <span data-ttu-id="8c2f5-115">**Varlık yönetimi** > **Ortak** > **Tüm bakım zamanlaması** veya **Bakım zamanlaması satırları aç** veya **Bakım zamanlaması havuzları aç** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-115">Click **Asset management** > **Common** > **All maintenance schedule** or **Open maintenance schedule lines** or **Open maintenance schedule pools**.</span></span>
+1. <span data-ttu-id="55109-118">İş emirlerinizden zamanlama öğelerini nasıl seçmek istediğinize bağlı olarak, aşağıdaki sayfalardan birini açın:</span><span class="sxs-lookup"><span data-stu-id="55109-118">Open one of the following pages, depending on how you want to select schedule items for your work orders:</span></span>
 
-2. <span data-ttu-id="8c2f5-116">İş emri oluşturmak istediğiniz zamanlanmış bakım işlerini seçin ve **İş emri** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-116">Select the scheduled maintenance jobs for which you want to create a work order and click **Work order**.</span></span> <span data-ttu-id="8c2f5-117">**İş emirleri oluştur** iletişim kutusunda, seçili satırlar için toplam tahmini saat sayısı **Bakım tahmini saatleri** alanında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-117">In the **Create work orders** dialog, the total number of forecast hours for the selected lines is shown in the **Maintenance forecast hours** field.</span></span>
+    - <span data-ttu-id="55109-119">Tüm bakım zamanlamaları (**Kıymet yönetimi \> Yönetim zamanlaması \> Tüm bakım zamanlamaları**)</span><span class="sxs-lookup"><span data-stu-id="55109-119">All maintenance schedule (**Asset management \> Management schedule \> All maintenance schedule**)</span></span>
+    - <span data-ttu-id="55109-120">Bakım zamanlaması satırlarını aç (**Kıymet yönetimi \> Yönetim zamanlaması \> Bakım zamanlaması satırlarını aç**)</span><span class="sxs-lookup"><span data-stu-id="55109-120">Open maintenance schedule lines (**Asset management \> Management schedule \> Open maintenance schedule lines**)</span></span>
+    - <span data-ttu-id="55109-121">Bakım zamanlaması havuzlarını aç (**Kıymet yönetimi \> Yönetim zamanlaması \> Bakım zamanlaması havuzlarını aç**)</span><span class="sxs-lookup"><span data-stu-id="55109-121">Open maintenance schedule pools (**Asset management \> Management schedule \> Open maintenance schedule pools**)</span></span>
 
-3. <span data-ttu-id="8c2f5-118">**Parametreler** bölümünde, kaç adet iş emri oluşturulacağını seçin.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-118">In the **Parameters** section, select how many work orders should be created.</span></span> <span data-ttu-id="8c2f5-119">Her bir bakım zamanlaması satırı için bir iş emri veya **Şuna göre bir iş emri** bölümünde yaptığınız seçimlere göre birkaç iş emri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-119">You can create one work order per maintenance schedule line, or a number of work orders based on your selections in the **One work order per** section.</span></span>
+1. <span data-ttu-id="55109-122">Izgarada, iş emri oluşturmak istediğiniz her zamanlanmış bakım işi için onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-122">In the grid, select the check box for every scheduled maintenance job that you want to create a work order for.</span></span> <span data-ttu-id="55109-123">Ardından, Eylem Bölmesi'nde **İş emri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-123">Then, on the Action Pane, select **Work order**.</span></span>
 
-4. <span data-ttu-id="8c2f5-120">Oluşturduğunuz tüm iş emirlerinde kullanılacak bir **İş emri türü** seçin.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-120">Select a **Work order type** that will be used on all the work orders you create.</span></span> <span data-ttu-id="8c2f5-121">Aşağıdaki çizimde **İş emirleri oluştur** iletişim kutusunun bir örneği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-121">The illustration below shows an example of the **Create work orders** dialog.</span></span>
+    <span data-ttu-id="55109-124">**İş emri oluşturun** iletişim kutusu görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="55109-124">The **Create work orders** dialog box appears.</span></span> <span data-ttu-id="55109-125">**Bakım tahmini saatleri** alanında, seçili satırlar için tahmini saatlerin toplam sayısı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="55109-125">The **Maintenance forecast hours** field shows the total number of forecast hours for the selected lines.</span></span>
 
-![Şekil 1](media/18-preventive-maintenance.png)
+    ![İş emri oluşturun iletişim kutusu](media/18-preventive-maintenance.png)
 
-5. <span data-ttu-id="8c2f5-123">**Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-123">Click **OK**.</span></span> <span data-ttu-id="8c2f5-124">Bir veya daha fazla iş emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="8c2f5-124">One or more work orders are created.</span></span>
+1. <span data-ttu-id="55109-127">**Parametreler** bölümünde, oluşturulması gereken iş emirlerinin sayısını belirtin.</span><span class="sxs-lookup"><span data-stu-id="55109-127">In the **Parameters** section, specify the number of work orders that should be created.</span></span> <span data-ttu-id="55109-128">Aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="55109-128">Select one of the following options:</span></span>
 
+    - <span data-ttu-id="55109-129">**Satır başına bir iş emri**: Her bakım zamanlaması satırı için bir iş emri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="55109-129">**One work order per line** – Create one work order per maintenance schedule line.</span></span>
+    - <span data-ttu-id="55109-130">**Şuna göre bir iş emri**: Bu seçeneği belirlediğinizde sunulan diğer seçeneklerin ayarlarına göre gruplandırılmış iş emirleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="55109-130">**One work order per** – Create work orders that are grouped according to the settings of the other options that become available when you select this option.</span></span>
+
+1. <span data-ttu-id="55109-131">**İş emri türü** alanında, oluşturduğunuz tüm iş emirleri için kullanılacak iş emri türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-131">In the **Work order type** field, select the work order type to use for all the work orders that you create.</span></span>
+1. <span data-ttu-id="55109-132">Ayarlarınıza göre iş emirlerini oluşturmak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-132">Select **OK** to create the work orders according to your settings.</span></span>
+
+## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a><span data-ttu-id="55109-133">Bakım planı çalışırken otomatik olarak oluşturulan iş emri satırlarını gruplandırma</span><span class="sxs-lookup"><span data-stu-id="55109-133">Group work order lines that are automatically created while a maintenance plan runs</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="55109-134">Bu bölümde açıklanan işlev, özel bir önizleme sürümünün bir parçası olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="55109-134">The functionality that is described in this section is available as part of a preview release.</span></span> <span data-ttu-id="55109-135">İçerik ve işlevde değişiklik yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="55109-135">The content and the functionality are subject to change.</span></span> <span data-ttu-id="55109-136">Önizleme sürümleri hakkında daha fazla bilgi için bkz. [One Version hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).</span><span class="sxs-lookup"><span data-stu-id="55109-136">For more information about preview releases, see [One version service updates FAQ](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).</span></span>
+
+<span data-ttu-id="55109-137">Bu özellik, sistem bir bakım planına göre otomatik olarak iş emirleri oluşturmak üzere ayarlandığında, iş emri satırlarını tek bir iş emri altında gruplandırmak için kurallar tanımlamanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="55109-137">This feature lets you define rules for grouping work order lines under a single work order when the system is set up to generate work orders automatically, based on a maintenance plan.</span></span> <span data-ttu-id="55109-138">Daha önce otomatik olarak oluşturulan iş emirleri yalnızca tek bir satır içerebiliyordu.</span><span class="sxs-lookup"><span data-stu-id="55109-138">Previously, automatically generated work orders could contain only one line.</span></span> <span data-ttu-id="55109-139">Ancak, şu anda iş emirlerini kıymet, kıymet türü veya işlem yapılacak yerleşim gibi ölçütlere göre gruplandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="55109-139">However, you can now group work orders by, for example, asset, asset type, or functional location.</span></span> <span data-ttu-id="55109-140">(Elle oluşturulan iş emirleri bu konunun önceki bölümünde açıklandığı gibi zaten bu şekilde gruplandırılabilir.)</span><span class="sxs-lookup"><span data-stu-id="55109-140">(Manually generated work orders could already be grouped in this way, as described in the previous section of this topic.)</span></span>
+
+### <a name="enable-grouping-for-automatically-generated-work-orders"></a><span data-ttu-id="55109-141">Otomatik oluşturulan iş emirleri için gruplandırmayı etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="55109-141">Enable grouping for automatically generated work orders</span></span>
+
+<span data-ttu-id="55109-142">Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="55109-142">Before you can use this feature, it must be turned on in your system.</span></span> <span data-ttu-id="55109-143">Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="55109-143">Admins can use the [feature management](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) settings to check the status of the feature and turn it on.</span></span> <span data-ttu-id="55109-144">**Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:</span><span class="sxs-lookup"><span data-stu-id="55109-144">In the **Feature management** workspace, the feature is listed in the following way:</span></span>
+
+- <span data-ttu-id="55109-145">**Modül:** *Kıymet Yönetimi*</span><span class="sxs-lookup"><span data-stu-id="55109-145">**Module:** *Asset Management*</span></span>
+- <span data-ttu-id="55109-146">**Özellik adı:** *(Önizleme) Bakım planı çalıştırırken iş emirlerini gruplandırmak için kural uygulama*</span><span class="sxs-lookup"><span data-stu-id="55109-146">**Feature name:** *(Preview) Apply rules for grouping work orders while running a maintenance plan*</span></span>
+
+### <a name="set-up-grouping-for-automatically-generated-work-orders"></a><span data-ttu-id="55109-147">Otomatik oluşturulan iş emirleri için gruplandırmayı ayarlama</span><span class="sxs-lookup"><span data-stu-id="55109-147">Set up grouping for automatically generated work orders</span></span>
+
+<span data-ttu-id="55109-148">Otomatik oluşturulan iş emirleri için gruplandırmayı ayarlamak üzere şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="55109-148">To set up grouping for automatically generated work orders, follow these steps.</span></span>
+
+1. <span data-ttu-id="55109-149">**Kıymet yönetimi \> Kurulum \> Önleyici bakım \> Bakım planları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="55109-149">Go to **Asset management \> Setup \> Preventative maintenance \> Maintenance plans**.</span></span>
+1. <span data-ttu-id="55109-150">Gruplandırılmış iş emirleri oluşturmak istediğiniz her plan için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="55109-150">For each plan where you want to generate grouped work orders, follow these steps:</span></span>
+
+    1. <span data-ttu-id="55109-151">Liste bölmesinde planı seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-151">Select the plan in the list pane.</span></span>
+    1. <span data-ttu-id="55109-152">**Satırlar** hızlı sekmesinde, her satırda **Otomatik oluştur** onay kutusunun seçili olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="55109-152">On the **Lines** FastTab, make sure that the **Auto create** check box is selected on every line.</span></span>
+
+1. <span data-ttu-id="55109-153">**Kıymet yönetimi \> Dönemsel \> Önleyici bakım \> Bakım planlarını zamanla** öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="55109-153">Go to **Asset management \> Periodic \> Preventive maintenance \> Schedule maintenance plans**.</span></span>
+1. <span data-ttu-id="55109-154">**Bakım planlarını zamanlayın** iletişim kutusundaki **Dönem** bölümünde, plan için değerlendirme tarihini (iş oluşturulacak zamanlanmış bakım işlerini bulmak için ne kadar süre sonraya bakılması gerektiğini) belirtin.</span><span class="sxs-lookup"><span data-stu-id="55109-154">In the **Schedule maintenance plans** dialog box, in the **Period** section, specify the time horizon for the plan (how far to look ahead when finding scheduled maintenance jobs to generate work for).</span></span>
+1. <span data-ttu-id="55109-155">**Zamanlamayı kullanarak iş emrini otomatik olarak oluştur** seçeneğini *Evet* olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="55109-155">Set the **Automatically create work order from schedule** option to *Yes*.</span></span>
+1. <span data-ttu-id="55109-156">**İş emri** bölümünde aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="55109-156">In the **Work order** section, select one of the following options:</span></span>
+
+    - <span data-ttu-id="55109-157">**Satır başına bir iş emri**: Her bakım zamanlaması satırı için bir iş emri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="55109-157">**One work order per line** – Create one work order per maintenance schedule line.</span></span> <span data-ttu-id="55109-158">(Bu seçenek, *Bakım planı çalıştırırken iş emirlerini gruplandırmak için kural uygula* özelliği kapalıyken kullanılabilen işlevle aynı işlevi sağlar.)</span><span class="sxs-lookup"><span data-stu-id="55109-158">(This option provides the same functionality that is available when the *Apply rules for grouping work orders while running a maintenance plan* feature is turned off.)</span></span>
+    - <span data-ttu-id="55109-159">**Şuna göre bir iş emri**: Bu seçeneği belirlediğinizde sunulan diğer seçeneklerin ayarlarına göre gruplandırılmış iş emirleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="55109-159">**One work order per** – Create work orders that are grouped according to the settings of the other options that become available when you select this option.</span></span>
+
+1. <span data-ttu-id="55109-160">Seçeneklerin yalnızca bakım planlarınızın bazılarını çalıştırırken geçerli olmasını istiyorsanız **Eklenecek kayıtlar** hızlı sekmesinde, Microsoft Dynamics 365 Supply Chain Management'taki diğer toplu işlerde yapacağınız gibi gerekli filtreleri ekleyin.</span><span class="sxs-lookup"><span data-stu-id="55109-160">If you want the options to apply when you run only some of your maintenance plans, on the **Records to include** FastTab, add filters as you require, just as you might do for other batch jobs in Microsoft Dynamics 365 Supply Chain Management.</span></span>
+1. <span data-ttu-id="55109-161">**Arka planda çalıştır** hızlı sekmesinde, Supply Chain Management'taki diğer toplu işler için yapacağınız şekilde, ihtiyaç duyduğunuz toplu iş ve zamanlama seçeneklerini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="55109-161">On the **Run in the background** FastTab, set up batch and scheduling options as you require, just as you might do for other batch jobs in Supply Chain Management.</span></span>
+1. <span data-ttu-id="55109-162">Seçili bakım planlarını çalıştırmak ve/veya zamanlamak için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="55109-162">Select **OK** to run and/or schedule the selected maintenance plans.</span></span>
