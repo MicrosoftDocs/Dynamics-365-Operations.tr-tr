@@ -1,6 +1,6 @@
 ---
 title: ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 3 - Biçimi oluşturma)
-description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini kullanmak amacıyla bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar.
+description: Bu konuda, ER çıktılarında Belge Yönetimi dosyaları kullanmak üzere Elektronik raporlama biçiminin nasıl yapılandırılacağı açıklanmaktadır. (3. Bölüm)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,107 +15,107 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 432cf4c41a7a223ab07b02edf6da7eac9965cff0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681865"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092628"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a><span data-ttu-id="7c52c-103">ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 3 - Biçimi oluşturma)</span><span class="sxs-lookup"><span data-stu-id="7c52c-103">ER Use Document Management files in format outputs (Part 3 - Create format)</span></span>
+# <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a><span data-ttu-id="6408f-104">ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 3 - Biçimi oluşturma)</span><span class="sxs-lookup"><span data-stu-id="6408f-104">ER Use Document Management files in format outputs (Part 3 - Create format)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7c52c-104">Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini (eklerini) kullanmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="7c52c-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="7c52c-105">Bu adımlar tüm şirketlerde gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="7c52c-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="6408f-105">Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini (eklerini) kullanmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="6408f-105">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="6408f-106">Bu adımlar tüm şirketlerde gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6408f-106">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="7c52c-106">Bu adımları tamamlamak için öncelikle "ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 2: Veri modelini genişletme" yordamındaki adımları tamamlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="7c52c-106">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 2: Extend data model" procedure.</span></span>
+<span data-ttu-id="6408f-107">Bu adımları tamamlamak için öncelikle "ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 2: Veri modelini genişletme" yordamındaki adımları tamamlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="6408f-107">To complete these steps, you must first complete the steps in the "ER Use Document Management files in format outputs (Part 2: Extend data model" procedure.</span></span>
 
-<span data-ttu-id="7c52c-107">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="7c52c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="6408f-108">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="6408f-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-format-to-process-invoices"></a><span data-ttu-id="7c52c-108">Faturaları işlemek için bir biçim oluşturma</span><span class="sxs-lookup"><span data-stu-id="7c52c-108">Create a format to process invoices</span></span>
-1. <span data-ttu-id="7c52c-109">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="7c52c-110">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-110">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="7c52c-111">Ağaçta "Müşteri fatura modeli" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-111">In the tree, expand 'Customer invoice model'.</span></span>
-4. <span data-ttu-id="7c52c-112">Ağaçta, "Müşteri faturası modeli\Müşteri faturası modeli (özel)" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-112">In the tree, select 'Customer invoice model\Customer invoice model (custom)'.</span></span>
-    * <span data-ttu-id="7c52c-113">Faturayı elektronik işlemeyle ilgili bir satış siparişine eklenmiş her türlü dosya hakkındaki bilgilerle elektronik iletiler oluşturmak için bir biçim oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="7c52c-113">You will create a format to generate electronic messages with information about any files that have been attached to a sales order that is related to an electronically processing invoice.</span></span>  
-5. <span data-ttu-id="7c52c-114">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-114">Click Create configuration to open the drop dialog.</span></span>
-6. <span data-ttu-id="7c52c-115">Yeni alanına, "Müşteri faturası modeli (özel) veri modeline bağlı biçim" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-115">In the New field, enter 'Format based on data model Customer invoice model (custom)'.</span></span>
-7. <span data-ttu-id="7c52c-116">Ad alanına "Elektronik fatura örnek iletisi" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-116">In the Name field, type 'Electronic invoice sample message'.</span></span>
-    * <span data-ttu-id="7c52c-117">Elektronik fatura örnek iletisi</span><span class="sxs-lookup"><span data-stu-id="7c52c-117">Electronic invoice sample message</span></span>  
-8. <span data-ttu-id="7c52c-118">Veri modeli tanımı alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-118">In the Data model definition field, enter or select a value.</span></span>
-    * <span data-ttu-id="7c52c-119">InvoiceCustomer</span><span class="sxs-lookup"><span data-stu-id="7c52c-119">InvoiceCustomer</span></span>  
-9. <span data-ttu-id="7c52c-120">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-120">Click Create configuration.</span></span>
+## <a name="create-a-format-to-process-invoices"></a><span data-ttu-id="6408f-109">Faturaları işlemek için bir biçim oluşturma</span><span class="sxs-lookup"><span data-stu-id="6408f-109">Create a format to process invoices</span></span>
+1. <span data-ttu-id="6408f-110">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="6408f-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="6408f-111">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-111">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="6408f-112">Ağaçta "Müşteri fatura modeli" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="6408f-112">In the tree, expand 'Customer invoice model'.</span></span>
+4. <span data-ttu-id="6408f-113">Ağaçta, "Müşteri faturası modeli\Müşteri faturası modeli (özel)" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="6408f-113">In the tree, select 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+    * <span data-ttu-id="6408f-114">Faturayı elektronik işlemeyle ilgili bir satış siparişine eklenmiş her türlü dosya hakkındaki bilgilerle elektronik iletiler oluşturmak için bir biçim oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="6408f-114">You will create a format to generate electronic messages with information about any files that have been attached to a sales order that is related to an electronically processing invoice.</span></span>  
+5. <span data-ttu-id="6408f-115">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-115">Click Create configuration to open the drop dialog.</span></span>
+6. <span data-ttu-id="6408f-116">Yeni alanına, "Müşteri faturası modeli (özel) veri modeline bağlı biçim" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-116">In the New field, enter 'Format based on data model Customer invoice model (custom)'.</span></span>
+7. <span data-ttu-id="6408f-117">Ad alanına "Elektronik fatura örnek iletisi" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-117">In the Name field, type 'Electronic invoice sample message'.</span></span>
+    * <span data-ttu-id="6408f-118">Elektronik fatura örnek iletisi</span><span class="sxs-lookup"><span data-stu-id="6408f-118">Electronic invoice sample message</span></span>  
+8. <span data-ttu-id="6408f-119">Veri modeli tanımı alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="6408f-119">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="6408f-120">InvoiceCustomer</span><span class="sxs-lookup"><span data-stu-id="6408f-120">InvoiceCustomer</span></span>  
+9. <span data-ttu-id="6408f-121">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-121">Click Create configuration.</span></span>
 
-## <a name="design-a-format-to-populate-attachments-into-generating-a-message-in-mime-format"></a><span data-ttu-id="7c52c-121">Ekleri oluşturulan iletiye MIME biçiminde doldurmak için bir biçim tasarlama</span><span class="sxs-lookup"><span data-stu-id="7c52c-121">Design a format to populate attachments into generating a message in MIME format</span></span>
-1. <span data-ttu-id="7c52c-122">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-122">Click Designer.</span></span>
-2. <span data-ttu-id="7c52c-123">İletişim kutusunu açmak için Kök ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-123">Click Add root to open the drop dialog.</span></span>
-3. <span data-ttu-id="7c52c-124">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="7c52c-124">In the tree, select 'XML\Element'.</span></span>
-4. <span data-ttu-id="7c52c-125">Ad alanına "Fatura" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-125">In the Name field, type 'Invoice'.</span></span>
-    * <span data-ttu-id="7c52c-126">Fatura</span><span class="sxs-lookup"><span data-stu-id="7c52c-126">Invoice</span></span>  
-5. <span data-ttu-id="7c52c-127">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-127">Click OK.</span></span>
-6. <span data-ttu-id="7c52c-128">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-128">Click Add to open the drop dialog.</span></span>
-7. <span data-ttu-id="7c52c-129">Ağaçta seçin 'XML\Attribute'.</span><span class="sxs-lookup"><span data-stu-id="7c52c-129">In the tree, select 'XML\Attribute'.</span></span>
-8. <span data-ttu-id="7c52c-130">Ad alanına "SalesOrder" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-130">In the Name field, type 'SalesOrder'.</span></span>
-    * <span data-ttu-id="7c52c-131">SalesOrder</span><span class="sxs-lookup"><span data-stu-id="7c52c-131">SalesOrder</span></span>  
-9. <span data-ttu-id="7c52c-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-132">Click OK.</span></span>
-10. <span data-ttu-id="7c52c-133">Öznitelik Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-133">Click Add Attribute.</span></span>
-11. <span data-ttu-id="7c52c-134">Ad alanına "InvoiceNumber" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-134">In the Name field, type 'InvoiceNumber'.</span></span>
-    * <span data-ttu-id="7c52c-135">InvoiceNumber</span><span class="sxs-lookup"><span data-stu-id="7c52c-135">InvoiceNumber</span></span>  
-12. <span data-ttu-id="7c52c-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-136">Click OK.</span></span>
-13. <span data-ttu-id="7c52c-137">Öznitelik Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-137">Click Add Attribute.</span></span>
-14. <span data-ttu-id="7c52c-138">Ad alanına "InvoiceAmount" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-138">In the Name field, type 'InvoiceAmount'.</span></span>
-    * <span data-ttu-id="7c52c-139">InvoiceAmount</span><span class="sxs-lookup"><span data-stu-id="7c52c-139">InvoiceAmount</span></span>  
-15. <span data-ttu-id="7c52c-140">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-140">Click OK.</span></span>
-16. <span data-ttu-id="7c52c-141">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-141">Click Add to open the drop dialog.</span></span>
-17. <span data-ttu-id="7c52c-142">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="7c52c-142">In the tree, select 'XML\Element'.</span></span>
-18. <span data-ttu-id="7c52c-143">Ad alanına "EnclosedDocs" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-143">In the Name field, type 'EnclosedDocs'.</span></span>
-    * <span data-ttu-id="7c52c-144">EnclosedDocs</span><span class="sxs-lookup"><span data-stu-id="7c52c-144">EnclosedDocs</span></span>  
-19. <span data-ttu-id="7c52c-145">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-145">Click OK.</span></span>
-20. <span data-ttu-id="7c52c-146">Ağaçta, "Fatura\EnclosedDocs" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-146">In the tree, select 'Invoice\EnclosedDocs'.</span></span>
-21. <span data-ttu-id="7c52c-147">Öğe Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-147">Click Add Element.</span></span>
-22. <span data-ttu-id="7c52c-148">Ad alanına "Belge" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-148">In the Name field, type 'Document'.</span></span>
-    * <span data-ttu-id="7c52c-149">Belge</span><span class="sxs-lookup"><span data-stu-id="7c52c-149">Document</span></span>  
-23. <span data-ttu-id="7c52c-150">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-150">Click OK.</span></span>
-24. <span data-ttu-id="7c52c-151">Ağaçta, "Fatura\EnclosedDocs\Belge" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-151">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
-25. <span data-ttu-id="7c52c-152">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-152">Click Add to open the drop dialog.</span></span>
-26. <span data-ttu-id="7c52c-153">Ağaçta seçin 'XML\Attribute'.</span><span class="sxs-lookup"><span data-stu-id="7c52c-153">In the tree, select 'XML\Attribute'.</span></span>
-27. <span data-ttu-id="7c52c-154">Ad alanına "FileName" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-154">In the Name field, type 'FileName'.</span></span>
-    * <span data-ttu-id="7c52c-155">FileName</span><span class="sxs-lookup"><span data-stu-id="7c52c-155">FileName</span></span>  
-28. <span data-ttu-id="7c52c-156">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-156">Click OK.</span></span>
-29. <span data-ttu-id="7c52c-157">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-157">Click Add to open the drop dialog.</span></span>
-30. <span data-ttu-id="7c52c-158">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="7c52c-158">In the tree, select 'XML\Element'.</span></span>
-31. <span data-ttu-id="7c52c-159">Ad alanına "FileContent" yazın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-159">In the Name field, type 'FileContent'.</span></span>
-    * <span data-ttu-id="7c52c-160">FileContent</span><span class="sxs-lookup"><span data-stu-id="7c52c-160">FileContent</span></span>  
-32. <span data-ttu-id="7c52c-161">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-161">Click OK.</span></span>
-33. <span data-ttu-id="7c52c-162">Ağaçta, "Fatura\EnclosedDocs\Belgeler\FileContent" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-162">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent'.</span></span>
-34. <span data-ttu-id="7c52c-163">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-163">Click Add to open the drop dialog.</span></span>
-35. <span data-ttu-id="7c52c-164">Ağaçta, "Metin\Base64" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-164">In the tree, select 'Text\Base64'.</span></span>
-36. <span data-ttu-id="7c52c-165">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-165">Click OK.</span></span>
+## <a name="design-a-format-to-populate-attachments-into-generating-a-message-in-mime-format"></a><span data-ttu-id="6408f-122">Ekleri oluşturulan iletiye MIME biçiminde doldurmak için bir biçim tasarlama</span><span class="sxs-lookup"><span data-stu-id="6408f-122">Design a format to populate attachments into generating a message in MIME format</span></span>
+1. <span data-ttu-id="6408f-123">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-123">Click Designer.</span></span>
+2. <span data-ttu-id="6408f-124">İletişim kutusunu açmak için Kök ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-124">Click Add root to open the drop dialog.</span></span>
+3. <span data-ttu-id="6408f-125">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="6408f-125">In the tree, select 'XML\Element'.</span></span>
+4. <span data-ttu-id="6408f-126">Ad alanına "Fatura" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-126">In the Name field, type 'Invoice'.</span></span>
+    * <span data-ttu-id="6408f-127">Fatura</span><span class="sxs-lookup"><span data-stu-id="6408f-127">Invoice</span></span>  
+5. <span data-ttu-id="6408f-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-128">Click OK.</span></span>
+6. <span data-ttu-id="6408f-129">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-129">Click Add to open the drop dialog.</span></span>
+7. <span data-ttu-id="6408f-130">Ağaçta seçin 'XML\Attribute'.</span><span class="sxs-lookup"><span data-stu-id="6408f-130">In the tree, select 'XML\Attribute'.</span></span>
+8. <span data-ttu-id="6408f-131">Ad alanına "SalesOrder" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-131">In the Name field, type 'SalesOrder'.</span></span>
+    * <span data-ttu-id="6408f-132">SalesOrder</span><span class="sxs-lookup"><span data-stu-id="6408f-132">SalesOrder</span></span>  
+9. <span data-ttu-id="6408f-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-133">Click OK.</span></span>
+10. <span data-ttu-id="6408f-134">Öznitelik Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-134">Click Add Attribute.</span></span>
+11. <span data-ttu-id="6408f-135">Ad alanına "InvoiceNumber" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-135">In the Name field, type 'InvoiceNumber'.</span></span>
+    * <span data-ttu-id="6408f-136">InvoiceNumber</span><span class="sxs-lookup"><span data-stu-id="6408f-136">InvoiceNumber</span></span>  
+12. <span data-ttu-id="6408f-137">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-137">Click OK.</span></span>
+13. <span data-ttu-id="6408f-138">Öznitelik Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-138">Click Add Attribute.</span></span>
+14. <span data-ttu-id="6408f-139">Ad alanına "InvoiceAmount" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-139">In the Name field, type 'InvoiceAmount'.</span></span>
+    * <span data-ttu-id="6408f-140">InvoiceAmount</span><span class="sxs-lookup"><span data-stu-id="6408f-140">InvoiceAmount</span></span>  
+15. <span data-ttu-id="6408f-141">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-141">Click OK.</span></span>
+16. <span data-ttu-id="6408f-142">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-142">Click Add to open the drop dialog.</span></span>
+17. <span data-ttu-id="6408f-143">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="6408f-143">In the tree, select 'XML\Element'.</span></span>
+18. <span data-ttu-id="6408f-144">Ad alanına "EnclosedDocs" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-144">In the Name field, type 'EnclosedDocs'.</span></span>
+    * <span data-ttu-id="6408f-145">EnclosedDocs</span><span class="sxs-lookup"><span data-stu-id="6408f-145">EnclosedDocs</span></span>  
+19. <span data-ttu-id="6408f-146">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-146">Click OK.</span></span>
+20. <span data-ttu-id="6408f-147">Ağaçta, "Fatura\EnclosedDocs" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-147">In the tree, select 'Invoice\EnclosedDocs'.</span></span>
+21. <span data-ttu-id="6408f-148">Öğe Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-148">Click Add Element.</span></span>
+22. <span data-ttu-id="6408f-149">Ad alanına "Belge" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-149">In the Name field, type 'Document'.</span></span>
+    * <span data-ttu-id="6408f-150">Belge</span><span class="sxs-lookup"><span data-stu-id="6408f-150">Document</span></span>  
+23. <span data-ttu-id="6408f-151">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-151">Click OK.</span></span>
+24. <span data-ttu-id="6408f-152">Ağaçta, "Fatura\EnclosedDocs\Belge" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-152">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
+25. <span data-ttu-id="6408f-153">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-153">Click Add to open the drop dialog.</span></span>
+26. <span data-ttu-id="6408f-154">Ağaçta seçin 'XML\Attribute'.</span><span class="sxs-lookup"><span data-stu-id="6408f-154">In the tree, select 'XML\Attribute'.</span></span>
+27. <span data-ttu-id="6408f-155">Ad alanına "FileName" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-155">In the Name field, type 'FileName'.</span></span>
+    * <span data-ttu-id="6408f-156">FileName</span><span class="sxs-lookup"><span data-stu-id="6408f-156">FileName</span></span>  
+28. <span data-ttu-id="6408f-157">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-157">Click OK.</span></span>
+29. <span data-ttu-id="6408f-158">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-158">Click Add to open the drop dialog.</span></span>
+30. <span data-ttu-id="6408f-159">Ağaçta seçin 'XML\Element'.</span><span class="sxs-lookup"><span data-stu-id="6408f-159">In the tree, select 'XML\Element'.</span></span>
+31. <span data-ttu-id="6408f-160">Ad alanına "FileContent" yazın.</span><span class="sxs-lookup"><span data-stu-id="6408f-160">In the Name field, type 'FileContent'.</span></span>
+    * <span data-ttu-id="6408f-161">FileContent</span><span class="sxs-lookup"><span data-stu-id="6408f-161">FileContent</span></span>  
+32. <span data-ttu-id="6408f-162">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-162">Click OK.</span></span>
+33. <span data-ttu-id="6408f-163">Ağaçta, "Fatura\EnclosedDocs\Belgeler\FileContent" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-163">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent'.</span></span>
+34. <span data-ttu-id="6408f-164">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-164">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="6408f-165">Ağaçta, "Metin\Base64" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-165">In the tree, select 'Text\Base64'.</span></span>
+36. <span data-ttu-id="6408f-166">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-166">Click OK.</span></span>
 
-## <a name="map-format-elements-to-data-model-as-data-source"></a><span data-ttu-id="7c52c-166">Veri kaynağı olarak veri modeline biçim öğelerini eşleme</span><span class="sxs-lookup"><span data-stu-id="7c52c-166">Map format elements to data model as data source</span></span>
-1. <span data-ttu-id="7c52c-167">Ağaçta, "Fatura\SalesOrder" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-167">In the tree, select 'Invoice\SalesOrder'.</span></span>
-2. <span data-ttu-id="7c52c-168">Eşleme sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-168">Click the Mapping tab.</span></span>
-3. <span data-ttu-id="7c52c-169">Ağaçta, 'model'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-169">In the tree, expand 'model'.</span></span>
-4. <span data-ttu-id="7c52c-170">Ağaçta, "model\Satış siparişi numarası(SalesId)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-170">In the tree, select 'model\Sales order number(SalesId)'.</span></span>
-5. <span data-ttu-id="7c52c-171">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-171">Click Bind.</span></span>
-6. <span data-ttu-id="7c52c-172">Ağaçta, "Fatura\InvoiceNumber" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-172">In the tree, select 'Invoice\InvoiceNumber'.</span></span>
-7. <span data-ttu-id="7c52c-173">Ağaçta, "model\Temel fatura(InvoiceBase)" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-173">In the tree, expand 'model\Base invoice(InvoiceBase)'.</span></span>
-8. <span data-ttu-id="7c52c-174">Ağaçta, "model\Temel fatura(InvoiceBase)\Fatura numarası(Id)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-174">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice number(Id)'.</span></span>
-9. <span data-ttu-id="7c52c-175">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-175">Click Bind.</span></span>
-10. <span data-ttu-id="7c52c-176">Ağaçta, "Fatura\InvoiceAmount" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-176">In the tree, select 'Invoice\InvoiceAmount'.</span></span>
-11. <span data-ttu-id="7c52c-177">Ağaçta, "model\Temel fatura(InvoiceBase)\Fatura tutarı(Tutar)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-177">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice amount(Amount)'.</span></span>
-12. <span data-ttu-id="7c52c-178">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-178">Click Bind.</span></span>
-13. <span data-ttu-id="7c52c-179">Ağaçta, "model\Fatura ekleri" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-179">In the tree, expand 'model\Invoice attachments'.</span></span>
-14. <span data-ttu-id="7c52c-180">Ağaçta, "model\Fatura ekleri\Dosya içeriği" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-180">In the tree, select 'model\Invoice attachments\File content'.</span></span>
-15. <span data-ttu-id="7c52c-181">Ağaçta, "Fatura\EnclosedDocs\Belge\FileContent\Base64" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-181">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent\Base64'.</span></span>
-16. <span data-ttu-id="7c52c-182">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-182">Click Bind.</span></span>
-17. <span data-ttu-id="7c52c-183">Ağaçta "model\Fatura ekleri\Dosya adı" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-183">In the tree, select 'model\Invoice attachments\File name'.</span></span>
-18. <span data-ttu-id="7c52c-184">Ağaçta, "Fatura\EnclosedDocs\Belgeler\FileName" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-184">In the tree, select 'Invoice\EnclosedDocs\Document\FileName'.</span></span>
-19. <span data-ttu-id="7c52c-185">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-185">Click Bind.</span></span>
-20. <span data-ttu-id="7c52c-186">Ağaçta, "model\Fatura ekleri" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-186">In the tree, select 'model\Invoice attachments'.</span></span>
-21. <span data-ttu-id="7c52c-187">Ağaçta, "Fatura\EnclosedDocs\Belge" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="7c52c-187">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
-22. <span data-ttu-id="7c52c-188">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-188">Click Bind.</span></span>
-23. <span data-ttu-id="7c52c-189">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-189">Click Save.</span></span>
-24. <span data-ttu-id="7c52c-190">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7c52c-190">Close the page.</span></span>
+## <a name="map-format-elements-to-data-model-as-data-source"></a><span data-ttu-id="6408f-167">Veri kaynağı olarak veri modeline biçim öğelerini eşleme</span><span class="sxs-lookup"><span data-stu-id="6408f-167">Map format elements to data model as data source</span></span>
+1. <span data-ttu-id="6408f-168">Ağaçta, "Fatura\SalesOrder" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-168">In the tree, select 'Invoice\SalesOrder'.</span></span>
+2. <span data-ttu-id="6408f-169">Eşleme sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-169">Click the Mapping tab.</span></span>
+3. <span data-ttu-id="6408f-170">Ağaçta, 'model'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="6408f-170">In the tree, expand 'model'.</span></span>
+4. <span data-ttu-id="6408f-171">Ağaçta, "model\Satış siparişi numarası(SalesId)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-171">In the tree, select 'model\Sales order number(SalesId)'.</span></span>
+5. <span data-ttu-id="6408f-172">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-172">Click Bind.</span></span>
+6. <span data-ttu-id="6408f-173">Ağaçta, "Fatura\InvoiceNumber" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-173">In the tree, select 'Invoice\InvoiceNumber'.</span></span>
+7. <span data-ttu-id="6408f-174">Ağaçta, "model\Temel fatura(InvoiceBase)" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="6408f-174">In the tree, expand 'model\Base invoice(InvoiceBase)'.</span></span>
+8. <span data-ttu-id="6408f-175">Ağaçta, "model\Temel fatura(InvoiceBase)\Fatura numarası(Id)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-175">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice number(Id)'.</span></span>
+9. <span data-ttu-id="6408f-176">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-176">Click Bind.</span></span>
+10. <span data-ttu-id="6408f-177">Ağaçta, "Fatura\InvoiceAmount" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-177">In the tree, select 'Invoice\InvoiceAmount'.</span></span>
+11. <span data-ttu-id="6408f-178">Ağaçta, "model\Temel fatura(InvoiceBase)\Fatura tutarı(Tutar)" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-178">In the tree, select 'model\Base invoice(InvoiceBase)\Invoice amount(Amount)'.</span></span>
+12. <span data-ttu-id="6408f-179">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-179">Click Bind.</span></span>
+13. <span data-ttu-id="6408f-180">Ağaçta, "model\Fatura ekleri" seçeneğini genişletin.</span><span class="sxs-lookup"><span data-stu-id="6408f-180">In the tree, expand 'model\Invoice attachments'.</span></span>
+14. <span data-ttu-id="6408f-181">Ağaçta, "model\Fatura ekleri\Dosya içeriği" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-181">In the tree, select 'model\Invoice attachments\File content'.</span></span>
+15. <span data-ttu-id="6408f-182">Ağaçta, "Fatura\EnclosedDocs\Belge\FileContent\Base64" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-182">In the tree, select 'Invoice\EnclosedDocs\Document\FileContent\Base64'.</span></span>
+16. <span data-ttu-id="6408f-183">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-183">Click Bind.</span></span>
+17. <span data-ttu-id="6408f-184">Ağaçta "model\Fatura ekleri\Dosya adı" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-184">In the tree, select 'model\Invoice attachments\File name'.</span></span>
+18. <span data-ttu-id="6408f-185">Ağaçta, "Fatura\EnclosedDocs\Belgeler\FileName" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-185">In the tree, select 'Invoice\EnclosedDocs\Document\FileName'.</span></span>
+19. <span data-ttu-id="6408f-186">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-186">Click Bind.</span></span>
+20. <span data-ttu-id="6408f-187">Ağaçta, "model\Fatura ekleri" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-187">In the tree, select 'model\Invoice attachments'.</span></span>
+21. <span data-ttu-id="6408f-188">Ağaçta, "Fatura\EnclosedDocs\Belge" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6408f-188">In the tree, select 'Invoice\EnclosedDocs\Document'.</span></span>
+22. <span data-ttu-id="6408f-189">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-189">Click Bind.</span></span>
+23. <span data-ttu-id="6408f-190">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6408f-190">Click Save.</span></span>
+24. <span data-ttu-id="6408f-191">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6408f-191">Close the page.</span></span>
 

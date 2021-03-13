@@ -1,6 +1,6 @@
 ---
 title: ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının bir Elektronik Raporlama veri modeli için veri kaynaklar seçebilir.
+description: Bu konuda, Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi'nin bir Elektronik raporlama veri modeli için veri kaynaklarını nasıl seçebileceği açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,145 +15,145 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fccdda3ac441630836a0d33f78eb04e9cd26d4a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682129"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092122"
 ---
-# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a><span data-ttu-id="1680f-103">ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme</span><span class="sxs-lookup"><span data-stu-id="1680f-103">Define ER model mappings and select data sources for them</span></span>
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a><span data-ttu-id="56084-103">ER model eşlemelerini tanımlama ve bunlar için veri kaynaklarını seçme</span><span class="sxs-lookup"><span data-stu-id="56084-103">Define ER model mappings and select data sources for them</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="1680f-104">Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının bir Elektronik Raporlama (ER) veri modeli için veri kaynaklar seçebilir.</span><span class="sxs-lookup"><span data-stu-id="1680f-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="1680f-105">Veri kaynakları, tasarım zamanında seçilen veri modelinin ayrı ayrı bileşenlerine bağlanır ve çalışma süresinde bu veri modeli için iş verilerini doldurur.</span><span class="sxs-lookup"><span data-stu-id="1680f-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="1680f-106">Bu örnekte, Litware, Inc. örnek şirketi için oluşturulan, mevcut bir veri modeli için veri kaynaklarını seçeceksiniz. Bu adımları tamamlamak için öncelikle "Yeni veri modeli oluştur" prosedürü altındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="1680f-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Create a new data model" procedure.</span></span>
+<span data-ttu-id="56084-104">Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının bir Elektronik Raporlama (ER) veri modeli için veri kaynaklar seçebilir.</span><span class="sxs-lookup"><span data-stu-id="56084-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="56084-105">Veri kaynakları, tasarım zamanında seçilen veri modelinin ayrı ayrı bileşenlerine bağlanır ve çalışma süresinde bu veri modeli için iş verilerini doldurur.</span><span class="sxs-lookup"><span data-stu-id="56084-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="56084-106">Bu örnekte, Litware, Inc. örnek şirketi için oluşturulan, mevcut bir veri modeli için veri kaynaklarını seçeceksiniz. Bu adımları tamamlamak için öncelikle "Yeni veri modeli oluştur" prosedürü altındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="56084-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Create a new data model" procedure.</span></span>
 
 
-## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="1680f-107">Elektronik Raporlama yapılandırmaları ağacını açın</span><span class="sxs-lookup"><span data-stu-id="1680f-107">Open the Electronic Reporting configurations tree</span></span>
-1. <span data-ttu-id="1680f-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="1680f-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="1680f-109">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-109">Click Reporting configurations.</span></span>
+## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="56084-107">Elektronik Raporlama yapılandırmaları ağacını açın</span><span class="sxs-lookup"><span data-stu-id="56084-107">Open the Electronic Reporting configurations tree</span></span>
+1. <span data-ttu-id="56084-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="56084-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="56084-109">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-109">Click Reporting configurations.</span></span>
 
-## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="1680f-110">Yeni bir model eşlemesi ekle</span><span class="sxs-lookup"><span data-stu-id="1680f-110">Insert a new model mapping</span></span>
-1. <span data-ttu-id="1680f-111">Ağaçta, 'Ödemeler (Basitleştirilmiş model)' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-111">In the tree, select 'Payments (simplified model)'.</span></span>
-2. <span data-ttu-id="1680f-112">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-112">Click Designer.</span></span>
-3. <span data-ttu-id="1680f-113">Modeli veri kaynağına eşle'yi tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-113">Click Map model to datasource.</span></span>
-4. <span data-ttu-id="1680f-114">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-114">Click New.</span></span>
-    * <span data-ttu-id="1680f-115">Bu, veri kaynaklarına bir veri modeli eşlemek için yeni bir kayıt oluşturur.</span><span class="sxs-lookup"><span data-stu-id="1680f-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="1680f-116">Bu örnekte tercih edilen ödeme türü olan Kredi transferi için veri kaynaklarına veri modelinin eşlemesin yapacaksınız.</span><span class="sxs-lookup"><span data-stu-id="1680f-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="1680f-117">Belirli bir veri modeli için birden fazla eşleme tasarlamak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="1680f-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="1680f-118">Örneğin, doğrudan borç veya kredi transferi gibi farklı ödeme türleri için eşlemeler oluşturacaktınız.</span><span class="sxs-lookup"><span data-stu-id="1680f-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="1680f-119">Bu örnekte, kredi transferleri için bir eşleme oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="1680f-119">In this example, you will create a mapping for credit transfers.</span></span>  
-5. <span data-ttu-id="1680f-120">İsim alanına 'CT eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-120">In the Name field, type 'CT mapping'.</span></span>
-    * <span data-ttu-id="1680f-121">CT eşleme</span><span class="sxs-lookup"><span data-stu-id="1680f-121">CT mapping</span></span>  
-6. <span data-ttu-id="1680f-122">Açıklama alanına, 'ödeme modeli CT eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-122">In the Description field, type 'Payment model mapping CT'.</span></span>
-    * <span data-ttu-id="1680f-123">Ödeme modeli CT eşleme</span><span class="sxs-lookup"><span data-stu-id="1680f-123">Payment model mapping CT</span></span>  
-7. <span data-ttu-id="1680f-124">Tanım alanına, "CustomerCreditTransferInitiation" yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
-    * <span data-ttu-id="1680f-125">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="1680f-125">CustomerCreditTransferInitiation</span></span>  
-8. <span data-ttu-id="1680f-126">Tanımı ResolveChanges.</span><span class="sxs-lookup"><span data-stu-id="1680f-126">ResolveChanges the Definition.</span></span>
-9. <span data-ttu-id="1680f-127">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-127">Click Save.</span></span>
+## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="56084-110">Yeni bir model eşlemesi ekle</span><span class="sxs-lookup"><span data-stu-id="56084-110">Insert a new model mapping</span></span>
+1. <span data-ttu-id="56084-111">Ağaçta, 'Ödemeler (Basitleştirilmiş model)' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-111">In the tree, select 'Payments (simplified model)'.</span></span>
+2. <span data-ttu-id="56084-112">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-112">Click Designer.</span></span>
+3. <span data-ttu-id="56084-113">Modeli veri kaynağına eşle'yi tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-113">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="56084-114">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-114">Click New.</span></span>
+    * <span data-ttu-id="56084-115">Bu, veri kaynaklarına bir veri modeli eşlemek için yeni bir kayıt oluşturur.</span><span class="sxs-lookup"><span data-stu-id="56084-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="56084-116">Bu örnekte tercih edilen ödeme türü olan Kredi transferi için veri kaynaklarına veri modelinin eşlemesin yapacaksınız.</span><span class="sxs-lookup"><span data-stu-id="56084-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="56084-117">Belirli bir veri modeli için birden fazla eşleme tasarlamak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="56084-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="56084-118">Örneğin, doğrudan borç veya kredi transferi gibi farklı ödeme türleri için eşlemeler oluşturacaktınız.</span><span class="sxs-lookup"><span data-stu-id="56084-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="56084-119">Bu örnekte, kredi transferleri için bir eşleme oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="56084-119">In this example, you will create a mapping for credit transfers.</span></span>  
+5. <span data-ttu-id="56084-120">İsim alanına 'CT eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-120">In the Name field, type 'CT mapping'.</span></span>
+    * <span data-ttu-id="56084-121">CT eşleme</span><span class="sxs-lookup"><span data-stu-id="56084-121">CT mapping</span></span>  
+6. <span data-ttu-id="56084-122">Açıklama alanına, 'ödeme modeli CT eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-122">In the Description field, type 'Payment model mapping CT'.</span></span>
+    * <span data-ttu-id="56084-123">Ödeme modeli CT eşleme</span><span class="sxs-lookup"><span data-stu-id="56084-123">Payment model mapping CT</span></span>  
+7. <span data-ttu-id="56084-124">Tanım alanına, "CustomerCreditTransferInitiation" yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="56084-125">CustomerCreditTransferInitiation</span><span class="sxs-lookup"><span data-stu-id="56084-125">CustomerCreditTransferInitiation</span></span>  
+8. <span data-ttu-id="56084-126">Tanımı ResolveChanges.</span><span class="sxs-lookup"><span data-stu-id="56084-126">ResolveChanges the Definition.</span></span>
+9. <span data-ttu-id="56084-127">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-127">Click Save.</span></span>
 
-## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="1680f-128">Geçerli model eşleme için gereken veri kaynaklarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="1680f-128">Define required data sources for the current model mapping</span></span>
-1. <span data-ttu-id="1680f-129">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-129">Click Designer.</span></span>
-2. <span data-ttu-id="1680f-130">Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
-3. <span data-ttu-id="1680f-131">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-131">Click Add root.</span></span>
-    * <span data-ttu-id="1680f-132">Ödeme hareketlerine erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-132">Enter this data source to access payment transactions.</span></span>  
-4. <span data-ttu-id="1680f-133">İsim alanına, 'Hareketler' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-133">In the Name field, type 'Transactions'.</span></span>
-    * <span data-ttu-id="1680f-134">Hareketler</span><span class="sxs-lookup"><span data-stu-id="1680f-134">Transactions</span></span>  
-5. <span data-ttu-id="1680f-135">Etiket alanına "Hareketler" girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-135">In the Label field, enter 'Transactions'.</span></span>
-    * <span data-ttu-id="1680f-136">Hareketler</span><span class="sxs-lookup"><span data-stu-id="1680f-136">Transactions</span></span>  
-6. <span data-ttu-id="1680f-137">Yardım alanına 'Genel muhasebe günlük satırları' girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-137">In the Help field, enter 'Ledger journal lines'.</span></span>
-    * <span data-ttu-id="1680f-138">Genel muhasebe günlüğü satırları</span><span class="sxs-lookup"><span data-stu-id="1680f-138">Ledger journal lines</span></span>  
-7. <span data-ttu-id="1680f-139">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-139">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="1680f-140">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-140">Select Yes.</span></span>  
-8. <span data-ttu-id="1680f-141">Tablo alanına 'LedgerJournalTrans' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
-    * <span data-ttu-id="1680f-142">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="1680f-142">LedgerJournalTrans</span></span>  
-9. <span data-ttu-id="1680f-143">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-143">Click OK.</span></span>
-    * <span data-ttu-id="1680f-144">Geçerli veri modeli için bir veri kaynağı olarak LedgerJournalTrans tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
-10. <span data-ttu-id="1680f-145">Ağaçta, 'Functions\Calculated field' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-145">In the tree, select 'Functions\Calculated field'.</span></span>
-11. <span data-ttu-id="1680f-146">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-146">Click Add.</span></span>
-    * <span data-ttu-id="1680f-147">Yeni bir hesaplanmış alan eklemek için Ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-147">Click Add to add a new calculated field.</span></span>  
-12. <span data-ttu-id="1680f-148">İsim alanına '$EndToEndID' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-148">In the Name field, type '$EndToEndID'.</span></span>
-    * <span data-ttu-id="1680f-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="1680f-149">$EndToEndID</span></span>  
-13. <span data-ttu-id="1680f-150">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-150">Click Edit formula.</span></span>
-14. <span data-ttu-id="1680f-151">Ağaçta 'String\CONCATENATE' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-151">In the tree, select 'String\CONCATENATE'.</span></span>
-15. <span data-ttu-id="1680f-152">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-152">Click Add function.</span></span>
-16. <span data-ttu-id="1680f-153">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="1680f-153">In the tree, expand 'Transactions'.</span></span>
-17. <span data-ttu-id="1680f-154">Ağaçta, 'Transactions\Voucher' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-154">In the tree, select 'Transactions\Voucher'.</span></span>
-18. <span data-ttu-id="1680f-155">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-155">Click Add data source.</span></span>
-19. <span data-ttu-id="1680f-156">Formül alanına "CONCATENATE(Transactions.Voucher, "-", " yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
-    * <span data-ttu-id="1680f-157">Formülün sonuna, [ , "-", ] yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-157">Type [ , "-", ] at the end of the formula.</span></span>  
-20. <span data-ttu-id="1680f-158">Ağaçta 'String\TEXT' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-158">In the tree, select 'String\TEXT'.</span></span>
-21. <span data-ttu-id="1680f-159">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-159">Click Add function.</span></span>
-22. <span data-ttu-id="1680f-160">Ağaçta, 'Transactions\Record-ID(RecId)' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
-23. <span data-ttu-id="1680f-161">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-161">Click Add data source.</span></span>
-24. <span data-ttu-id="1680f-162">Formül alanına "CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))" yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
-    * <span data-ttu-id="1680f-163">Formülün sonuna, [))] yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-163">Type [))] at the end of the formula.</span></span>  
-25. <span data-ttu-id="1680f-164">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-164">Click Save.</span></span>
-    * <span data-ttu-id="1680f-165">Oluşturulan formülde herhangi bir hata tespit edilmediğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="1680f-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="1680f-166">Formül düzenleyici denetimin altındaki HATALAR sekmesine bakın.</span><span class="sxs-lookup"><span data-stu-id="1680f-166">See the ERRORS tab below the formula editor control.</span></span>  
-26. <span data-ttu-id="1680f-167">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-167">Close the page.</span></span>
-27. <span data-ttu-id="1680f-168">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-168">Click OK.</span></span>
-    * <span data-ttu-id="1680f-169">Bu veri kaynağına hesaplanan alan ekleyin.</span><span class="sxs-lookup"><span data-stu-id="1680f-169">Add the calculated field to this data source.</span></span>  
-28. <span data-ttu-id="1680f-170">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-170">Click Add.</span></span>
-    * <span data-ttu-id="1680f-171">Yeni bir hesaplanmış alan eklemek için Ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-171">Click Add to add a new calculated field.</span></span>  
-29. <span data-ttu-id="1680f-172">İsim alanına '$Amount' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-172">In the Name field, type '$Amount'.</span></span>
-    * <span data-ttu-id="1680f-173">$Amount</span><span class="sxs-lookup"><span data-stu-id="1680f-173">$Amount</span></span>  
-30. <span data-ttu-id="1680f-174">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-174">Click Edit formula.</span></span>
-31. <span data-ttu-id="1680f-175">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="1680f-175">In the tree, expand 'Transactions'.</span></span>
-32. <span data-ttu-id="1680f-176">Ağaçta, 'Transactions\Debit(AmountCurDebit)' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
-33. <span data-ttu-id="1680f-177">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-177">Click Add data source.</span></span>
-34. <span data-ttu-id="1680f-178">Formül alanına "Transactions.AmountCurDebit - " yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
-    * <span data-ttu-id="1680f-179">Formülün sonuna [ - ] yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-179">Type [ - ] at the end of the formula.</span></span>  
-35. <span data-ttu-id="1680f-180">Ağaçta, 'Transactions\Credit(AmountCurCredit)' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
-36. <span data-ttu-id="1680f-181">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-181">Click Add data source.</span></span>
-37. <span data-ttu-id="1680f-182">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-182">Click Save.</span></span>
-38. <span data-ttu-id="1680f-183">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-183">Close the page.</span></span>
-39. <span data-ttu-id="1680f-184">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-184">Click OK.</span></span>
-    * <span data-ttu-id="1680f-185">Bu, $Amount hesaplanan alanını, mevcut veri modeli için seçilen veri kaynağına ekleyecektir.</span><span class="sxs-lookup"><span data-stu-id="1680f-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
-40. <span data-ttu-id="1680f-186">Ağaçta, 'Transactions\$Amount' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-186">In the tree, select 'Transactions\$Amount'.</span></span>
-41. <span data-ttu-id="1680f-187">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="1680f-187">In the tree, expand 'Transactions'.</span></span>
-42. <span data-ttu-id="1680f-188">Ağaçta, "Hareketler\$Tutar" öğesini genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="1680f-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
-43. <span data-ttu-id="1680f-189">Ağaçta, "Hareketler" öğesini genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="1680f-189">In the tree, expand or collapse 'Transactions'.</span></span>
-44. <span data-ttu-id="1680f-190">Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
-45. <span data-ttu-id="1680f-191">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-191">Click Add root.</span></span>
-    * <span data-ttu-id="1680f-192">Şirketin banka hesap ayrıntılarına erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-192">Enter this data source to access the company's bank account details.</span></span>  
-46. <span data-ttu-id="1680f-193">İsim alanına 'BankAccount' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-193">In the Name field, type 'BankAccount'.</span></span>
-    * <span data-ttu-id="1680f-194">BankAccount</span><span class="sxs-lookup"><span data-stu-id="1680f-194">BankAccount</span></span>  
-47. <span data-ttu-id="1680f-195">Etiket alanına "Banka Hesabı" girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-195">In the Label field, enter 'Bank Account'.</span></span>
-    * <span data-ttu-id="1680f-196">Banka Hesabı</span><span class="sxs-lookup"><span data-stu-id="1680f-196">Bank Account</span></span>  
-48. <span data-ttu-id="1680f-197">Yardım alanına "Banka Hesabı" girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-197">In the Help field, enter 'Bank Account'.</span></span>
-    * <span data-ttu-id="1680f-198">Banka Hesabı</span><span class="sxs-lookup"><span data-stu-id="1680f-198">Bank Account</span></span>  
-49. <span data-ttu-id="1680f-199">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-199">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="1680f-200">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-200">Select Yes.</span></span>  
-50. <span data-ttu-id="1680f-201">Tablo alanına 'BankAccountTable' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-201">In the Table field, type 'BankAccountTable'.</span></span>
-    * <span data-ttu-id="1680f-202">BankAccountTable</span><span class="sxs-lookup"><span data-stu-id="1680f-202">BankAccountTable</span></span>  
-51. <span data-ttu-id="1680f-203">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-203">Click OK.</span></span>
-    * <span data-ttu-id="1680f-204">Geçerli veri modeli için bir veri kaynağı olarak BankAccountTable tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
-52. <span data-ttu-id="1680f-205">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-205">Click Add root.</span></span>
-    * <span data-ttu-id="1680f-206">Şirketin koşullarına erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-206">Enter this data source to access the company's requisites.</span></span>  
-53. <span data-ttu-id="1680f-207">İsim alanına 'Şirket' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-207">In the Name field, type 'Company'.</span></span>
-    * <span data-ttu-id="1680f-208">Şirket</span><span class="sxs-lookup"><span data-stu-id="1680f-208">Company</span></span>  
-54. <span data-ttu-id="1680f-209">Etiket alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-209">In the Label field, type a value.</span></span>
-    * <span data-ttu-id="1680f-210">Şirket bilgileri</span><span class="sxs-lookup"><span data-stu-id="1680f-210">Company information</span></span>  
-55. <span data-ttu-id="1680f-211">Yardım alanına 'Şirket bilgisi' girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-211">In the Help field, enter 'Company information'.</span></span>
-    * <span data-ttu-id="1680f-212">Şirket bilgileri</span><span class="sxs-lookup"><span data-stu-id="1680f-212">Company information</span></span>  
-56. <span data-ttu-id="1680f-213">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-213">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="1680f-214">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-214">Select Yes.</span></span>  
-57. <span data-ttu-id="1680f-215">Tablo alanına 'CompanyInfo' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-215">In the Table field, type 'CompanyInfo'.</span></span>
-    * <span data-ttu-id="1680f-216">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="1680f-216">CompanyInfo</span></span>  
-58. <span data-ttu-id="1680f-217">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-217">Click OK.</span></span>
-    * <span data-ttu-id="1680f-218">Geçerli veri modeli için bir veri kaynağı olarak CompanyInfo tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
-59. <span data-ttu-id="1680f-219">Ağaçta, 'Functions\Calculated field' seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-219">In the tree, select 'Functions\Calculated field'.</span></span>
-60. <span data-ttu-id="1680f-220">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-220">Click Add root.</span></span>
-    * <span data-ttu-id="1680f-221">Hesaplanan bir alanı yeni bir veri kaynağı olarak ekleyin.</span><span class="sxs-lookup"><span data-stu-id="1680f-221">Insert a calculated field as a new data source.</span></span>  
-61. <span data-ttu-id="1680f-222">İsim alanına 'ProcessingDateTime' yazın.</span><span class="sxs-lookup"><span data-stu-id="1680f-222">In the Name field, type 'ProcessingDateTime'.</span></span>
-    * <span data-ttu-id="1680f-223">ProcessingDateTime</span><span class="sxs-lookup"><span data-stu-id="1680f-223">ProcessingDateTime</span></span>  
-62. <span data-ttu-id="1680f-224">Etiket alanına 'İşleme tarihi ve saati'ni girin.</span><span class="sxs-lookup"><span data-stu-id="1680f-224">In the Label field, enter 'Processing date & time'.</span></span>
-    * <span data-ttu-id="1680f-225">İşleme tarihi ve saati</span><span class="sxs-lookup"><span data-stu-id="1680f-225">Processing date & time</span></span>  
-63. <span data-ttu-id="1680f-226">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-226">Click Edit formula.</span></span>
-64. <span data-ttu-id="1680f-227">Ağaçta, "Tarih saat\SESSIONNOW" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="1680f-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
-65. <span data-ttu-id="1680f-228">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-228">Click Add function.</span></span>
-66. <span data-ttu-id="1680f-229">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-229">Click Save.</span></span>
-67. <span data-ttu-id="1680f-230">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-230">Close the page.</span></span>
-68. <span data-ttu-id="1680f-231">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-231">Click OK.</span></span>
-    * <span data-ttu-id="1680f-232">Geçerli veri modeli için bir veri kaynağı olarak ProcessingDateTime hesaplanmış alanı ekleyin.</span><span class="sxs-lookup"><span data-stu-id="1680f-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
-69. <span data-ttu-id="1680f-233">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1680f-233">Click Save.</span></span>
-70. <span data-ttu-id="1680f-234">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-234">Close the page.</span></span>
-71. <span data-ttu-id="1680f-235">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-235">Close the page.</span></span>
-72. <span data-ttu-id="1680f-236">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="1680f-236">Close the page.</span></span>
+## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="56084-128">Geçerli model eşleme için gereken veri kaynaklarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="56084-128">Define required data sources for the current model mapping</span></span>
+1. <span data-ttu-id="56084-129">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-129">Click Designer.</span></span>
+2. <span data-ttu-id="56084-130">Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+3. <span data-ttu-id="56084-131">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-131">Click Add root.</span></span>
+    * <span data-ttu-id="56084-132">Ödeme hareketlerine erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="56084-132">Enter this data source to access payment transactions.</span></span>  
+4. <span data-ttu-id="56084-133">İsim alanına, 'Hareketler' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-133">In the Name field, type 'Transactions'.</span></span>
+    * <span data-ttu-id="56084-134">Hareketler</span><span class="sxs-lookup"><span data-stu-id="56084-134">Transactions</span></span>  
+5. <span data-ttu-id="56084-135">Etiket alanına "Hareketler" girin.</span><span class="sxs-lookup"><span data-stu-id="56084-135">In the Label field, enter 'Transactions'.</span></span>
+    * <span data-ttu-id="56084-136">Hareketler</span><span class="sxs-lookup"><span data-stu-id="56084-136">Transactions</span></span>  
+6. <span data-ttu-id="56084-137">Yardım alanına 'Genel muhasebe günlük satırları' girin.</span><span class="sxs-lookup"><span data-stu-id="56084-137">In the Help field, enter 'Ledger journal lines'.</span></span>
+    * <span data-ttu-id="56084-138">Genel muhasebe günlüğü satırları</span><span class="sxs-lookup"><span data-stu-id="56084-138">Ledger journal lines</span></span>  
+7. <span data-ttu-id="56084-139">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-139">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="56084-140">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-140">Select Yes.</span></span>  
+8. <span data-ttu-id="56084-141">Tablo alanına 'LedgerJournalTrans' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="56084-142">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="56084-142">LedgerJournalTrans</span></span>  
+9. <span data-ttu-id="56084-143">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-143">Click OK.</span></span>
+    * <span data-ttu-id="56084-144">Geçerli veri modeli için bir veri kaynağı olarak LedgerJournalTrans tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
+10. <span data-ttu-id="56084-145">Ağaçta, 'Functions\Calculated field' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-145">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="56084-146">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-146">Click Add.</span></span>
+    * <span data-ttu-id="56084-147">Yeni bir hesaplanmış alan eklemek için Ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-147">Click Add to add a new calculated field.</span></span>  
+12. <span data-ttu-id="56084-148">İsim alanına '$EndToEndID' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-148">In the Name field, type '$EndToEndID'.</span></span>
+    * <span data-ttu-id="56084-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="56084-149">$EndToEndID</span></span>  
+13. <span data-ttu-id="56084-150">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-150">Click Edit formula.</span></span>
+14. <span data-ttu-id="56084-151">Ağaçta 'String\CONCATENATE' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-151">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="56084-152">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-152">Click Add function.</span></span>
+16. <span data-ttu-id="56084-153">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="56084-153">In the tree, expand 'Transactions'.</span></span>
+17. <span data-ttu-id="56084-154">Ağaçta, 'Transactions\Voucher' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-154">In the tree, select 'Transactions\Voucher'.</span></span>
+18. <span data-ttu-id="56084-155">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-155">Click Add data source.</span></span>
+19. <span data-ttu-id="56084-156">Formül alanına "CONCATENATE(Transactions.Voucher, "-", " yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
+    * <span data-ttu-id="56084-157">Förmülün sonuna, [ , “-“, ] yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-157">Type [ , "-", ] at the end of the formula.</span></span>  
+20. <span data-ttu-id="56084-158">Ağaçta 'String\TEXT' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-158">In the tree, select 'String\TEXT'.</span></span>
+21. <span data-ttu-id="56084-159">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-159">Click Add function.</span></span>
+22. <span data-ttu-id="56084-160">Ağaçta, 'Transactions\Record-ID(RecId)' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
+23. <span data-ttu-id="56084-161">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-161">Click Add data source.</span></span>
+24. <span data-ttu-id="56084-162">Formül alanına "CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))" yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
+    * <span data-ttu-id="56084-163">Formülün sonuna, [))] yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-163">Type [))] at the end of the formula.</span></span>  
+25. <span data-ttu-id="56084-164">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-164">Click Save.</span></span>
+    * <span data-ttu-id="56084-165">Oluşturulan formülde herhangi bir hata tespit edilmediğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="56084-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="56084-166">Formül düzenleyici denetimin altındaki HATALAR sekmesine bakın.</span><span class="sxs-lookup"><span data-stu-id="56084-166">See the ERRORS tab below the formula editor control.</span></span>  
+26. <span data-ttu-id="56084-167">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-167">Close the page.</span></span>
+27. <span data-ttu-id="56084-168">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-168">Click OK.</span></span>
+    * <span data-ttu-id="56084-169">Bu veri kaynağına hesaplanan alan ekleyin.</span><span class="sxs-lookup"><span data-stu-id="56084-169">Add the calculated field to this data source.</span></span>  
+28. <span data-ttu-id="56084-170">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-170">Click Add.</span></span>
+    * <span data-ttu-id="56084-171">Yeni bir hesaplanmış alan eklemek için Ekle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="56084-171">Click Add to add a new calculated field.</span></span>  
+29. <span data-ttu-id="56084-172">İsim alanına '$Amount' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-172">In the Name field, type '$Amount'.</span></span>
+    * <span data-ttu-id="56084-173">$Amount</span><span class="sxs-lookup"><span data-stu-id="56084-173">$Amount</span></span>  
+30. <span data-ttu-id="56084-174">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-174">Click Edit formula.</span></span>
+31. <span data-ttu-id="56084-175">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="56084-175">In the tree, expand 'Transactions'.</span></span>
+32. <span data-ttu-id="56084-176">Ağaçta, 'Transactions\Debit(AmountCurDebit)' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
+33. <span data-ttu-id="56084-177">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-177">Click Add data source.</span></span>
+34. <span data-ttu-id="56084-178">Formül alanına "Transactions.AmountCurDebit - " yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
+    * <span data-ttu-id="56084-179">Formün sonuna [ - ] yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-179">Type [ - ] at the end of the formula.</span></span>  
+35. <span data-ttu-id="56084-180">Ağaçta, 'Transactions\Credit(AmountCurCredit)' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
+36. <span data-ttu-id="56084-181">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-181">Click Add data source.</span></span>
+37. <span data-ttu-id="56084-182">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-182">Click Save.</span></span>
+38. <span data-ttu-id="56084-183">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-183">Close the page.</span></span>
+39. <span data-ttu-id="56084-184">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-184">Click OK.</span></span>
+    * <span data-ttu-id="56084-185">Bu, $Amount hesaplanan alanını, mevcut veri modeli için seçilen veri kaynağına ekleyecektir.</span><span class="sxs-lookup"><span data-stu-id="56084-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
+40. <span data-ttu-id="56084-186">Ağaçta, 'Transactions\$Amount' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-186">In the tree, select 'Transactions\$Amount'.</span></span>
+41. <span data-ttu-id="56084-187">Ağaçta, 'Hareketler'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="56084-187">In the tree, expand 'Transactions'.</span></span>
+42. <span data-ttu-id="56084-188">Ağaçta, "Hareketler\$Tutar" öğesini genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="56084-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
+43. <span data-ttu-id="56084-189">Ağaçta, "Hareketler" öğesini genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="56084-189">In the tree, expand or collapse 'Transactions'.</span></span>
+44. <span data-ttu-id="56084-190">Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+45. <span data-ttu-id="56084-191">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-191">Click Add root.</span></span>
+    * <span data-ttu-id="56084-192">Şirketin banka hesap ayrıntılarına erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="56084-192">Enter this data source to access the company's bank account details.</span></span>  
+46. <span data-ttu-id="56084-193">İsim alanına 'BankAccount' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-193">In the Name field, type 'BankAccount'.</span></span>
+    * <span data-ttu-id="56084-194">BankAccount</span><span class="sxs-lookup"><span data-stu-id="56084-194">BankAccount</span></span>  
+47. <span data-ttu-id="56084-195">Etiket alanına "Banka Hesabı" girin.</span><span class="sxs-lookup"><span data-stu-id="56084-195">In the Label field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="56084-196">Banka Hesabı</span><span class="sxs-lookup"><span data-stu-id="56084-196">Bank Account</span></span>  
+48. <span data-ttu-id="56084-197">Yardım alanına "Banka Hesabı" girin.</span><span class="sxs-lookup"><span data-stu-id="56084-197">In the Help field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="56084-198">Banka Hesabı</span><span class="sxs-lookup"><span data-stu-id="56084-198">Bank Account</span></span>  
+49. <span data-ttu-id="56084-199">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-199">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="56084-200">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-200">Select Yes.</span></span>  
+50. <span data-ttu-id="56084-201">Tablo alanına 'BankAccountTable' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-201">In the Table field, type 'BankAccountTable'.</span></span>
+    * <span data-ttu-id="56084-202">BankAccountTable</span><span class="sxs-lookup"><span data-stu-id="56084-202">BankAccountTable</span></span>  
+51. <span data-ttu-id="56084-203">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-203">Click OK.</span></span>
+    * <span data-ttu-id="56084-204">Geçerli veri modeli için bir veri kaynağı olarak BankAccountTable tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
+52. <span data-ttu-id="56084-205">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-205">Click Add root.</span></span>
+    * <span data-ttu-id="56084-206">Şirketin koşullarına erişmek için bu veri kaynağı girin.</span><span class="sxs-lookup"><span data-stu-id="56084-206">Enter this data source to access the company's requisites.</span></span>  
+53. <span data-ttu-id="56084-207">İsim alanına 'Şirket' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-207">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="56084-208">Şirket</span><span class="sxs-lookup"><span data-stu-id="56084-208">Company</span></span>  
+54. <span data-ttu-id="56084-209">Etiket alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-209">In the Label field, type a value.</span></span>
+    * <span data-ttu-id="56084-210">Şirket bilgileri</span><span class="sxs-lookup"><span data-stu-id="56084-210">Company information</span></span>  
+55. <span data-ttu-id="56084-211">Yardım alanına 'Şirket bilgisi' girin.</span><span class="sxs-lookup"><span data-stu-id="56084-211">In the Help field, enter 'Company information'.</span></span>
+    * <span data-ttu-id="56084-212">Şirket bilgileri</span><span class="sxs-lookup"><span data-stu-id="56084-212">Company information</span></span>  
+56. <span data-ttu-id="56084-213">Sorgu iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-213">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="56084-214">Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-214">Select Yes.</span></span>  
+57. <span data-ttu-id="56084-215">Tablo alanına 'CompanyInfo' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-215">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="56084-216">CompanyInfo</span><span class="sxs-lookup"><span data-stu-id="56084-216">CompanyInfo</span></span>  
+58. <span data-ttu-id="56084-217">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-217">Click OK.</span></span>
+    * <span data-ttu-id="56084-218">Geçerli veri modeli için bir veri kaynağı olarak CompanyInfo tablosunu seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
+59. <span data-ttu-id="56084-219">Ağaçta, 'Functions\Calculated field' seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-219">In the tree, select 'Functions\Calculated field'.</span></span>
+60. <span data-ttu-id="56084-220">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-220">Click Add root.</span></span>
+    * <span data-ttu-id="56084-221">Hesaplanan bir alanı yeni bir veri kaynağı olarak ekleyin.</span><span class="sxs-lookup"><span data-stu-id="56084-221">Insert a calculated field as a new data source.</span></span>  
+61. <span data-ttu-id="56084-222">İsim alanına 'ProcessingDateTime' yazın.</span><span class="sxs-lookup"><span data-stu-id="56084-222">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="56084-223">ProcessingDateTime</span><span class="sxs-lookup"><span data-stu-id="56084-223">ProcessingDateTime</span></span>  
+62. <span data-ttu-id="56084-224">Etiket alanına 'İşleme tarihi ve saati'ni girin.</span><span class="sxs-lookup"><span data-stu-id="56084-224">In the Label field, enter 'Processing date & time'.</span></span>
+    * <span data-ttu-id="56084-225">İşleme tarihi ve saati</span><span class="sxs-lookup"><span data-stu-id="56084-225">Processing date & time</span></span>  
+63. <span data-ttu-id="56084-226">Formülü düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-226">Click Edit formula.</span></span>
+64. <span data-ttu-id="56084-227">Ağaçta, "Tarih saat\SESSIONNOW" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="56084-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
+65. <span data-ttu-id="56084-228">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-228">Click Add function.</span></span>
+66. <span data-ttu-id="56084-229">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-229">Click Save.</span></span>
+67. <span data-ttu-id="56084-230">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-230">Close the page.</span></span>
+68. <span data-ttu-id="56084-231">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-231">Click OK.</span></span>
+    * <span data-ttu-id="56084-232">Geçerli veri modeli için bir veri kaynağı olarak ProcessingDateTime hesaplanmış alanı ekleyin.</span><span class="sxs-lookup"><span data-stu-id="56084-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
+69. <span data-ttu-id="56084-233">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="56084-233">Click Save.</span></span>
+70. <span data-ttu-id="56084-234">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-234">Close the page.</span></span>
+71. <span data-ttu-id="56084-235">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-235">Close the page.</span></span>
+72. <span data-ttu-id="56084-236">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="56084-236">Close the page.</span></span>
 
