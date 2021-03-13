@@ -1,7 +1,7 @@
 ---
 title: Belirli tedarik kategorileri için satıcıları onaylama
 description: Bu konu, Dynamics 365 Supply Chain Management'ta belirli tedarik kategorileri için satıcıların nasıl onaylanacağını açıklamaktadır.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e53102d732e9befcaca183adfd2a756c12e0162b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 159d918a4dd3b6502bc8ab411d0353545eb4fcba
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439243"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016361"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Belirli tedarik kategorileri için satıcıları onaylama
 
@@ -44,6 +43,3 @@ Bu konu, Dynamics 365 Supply Chain Management'ta belirli tedarik kategorileri i�
 13. **Ana kategoriden satıcıları devral:** alanından **Hayır**'ı seçin.
 14. **Ana kategoriden satıcıları devral:** alanından **Evet**'i seçin.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19741
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80031737ab0d0c4ab1e4dbd5646ad91f1a010cd5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 28ef1da29b38354d7ccaad56fb036f21d8c9ff15
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011184"
 ---
 # <a name="production-order-lifecycle-overview"></a>Üretim emri yaşam döngüsüne genel bakış
 
@@ -45,6 +44,3 @@ Bir üretim emri, üretim döngüsü aşamalarından geçer. Bir emir oluşturul
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

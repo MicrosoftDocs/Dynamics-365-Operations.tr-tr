@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ea16cce38cf7385df03c88e35bdb5bcaa8d7715
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416415"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012453"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS Düzeni tasarımcısını yükleme
 
@@ -63,6 +62,3 @@ MPOS veya Bulut POS için grafik tasarım arabirimi kasa düzeni tarafından kon
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Retail Modern POS (MPOS) yapılandırın, yükleyin ve etkinleştirin](retail-modern-pos-device-activation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

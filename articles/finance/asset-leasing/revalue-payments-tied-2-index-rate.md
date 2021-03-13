@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 83684afbd5e11b890a59bc1469ddefffd1777c4e
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 2cbe54ad92aff2f8a85e47301635fe4b6819e9a7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4449005"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012073"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Endeks oranına bağlı kira ödemelerini yeniden değerleme
 
@@ -68,6 +67,3 @@ IFRS 16 kiralamalarında kira yeniden değerleme işleminin etkilerini görmek i
 Yeniden değerleme tarihinde başlatılan yeni oluşturulmuş ödeme planını görüntüleyebilir ve güncelleştirilmiş toplam ödeme tutarını gösterebilirsiniz. Ayarlanmış ödeme planını yansıtmak için yeni bir kiralama yükümlülüğü amortisman planı ve varlık amortisman planı da oluşturulur.
 
 Günlük girişi, endeks yeniden değerlemesiyle ilgili olan kira ödemesi değişikliğini kaydetmek için düzeltme günlük girişini otomatik olarak deftere nakleder.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

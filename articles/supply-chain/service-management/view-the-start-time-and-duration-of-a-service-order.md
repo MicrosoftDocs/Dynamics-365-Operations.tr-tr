@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ec7cbfea709c74b73a189c24da8978a501794d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7e3277a61bd776c665d598583165e0dbd856e8c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010384"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Servis siparişinin başlangıç zamanını ve süresini görüntüleme 
 
@@ -59,6 +58,3 @@ Bir servis siparişine yönelik zaman kaydının ne zaman başlatıldığını v
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

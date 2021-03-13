@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529198"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011383"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
@@ -44,7 +43,7 @@ Dynamics 365 Supply Chain Management içinde, bir ürün için birincil kimlik t
 
 Supply Chain Management'ı uyguladığınızda ürün numaralarıyla ilgili stratejinize özel önem vermeniz gerekir. İyi bir numaralandırma sistemi lojistik akışları geliştirir ve hataları engellemeye yardımcı olur. İyi bir ürün tanımlayıcısı en çok 15 karakter uzunluğundadır. İdeal olarak, 10 karakterden daha kısa olur ve en fazla beş sınıflandırma karakteri içerir. Ayrıca, hızlı aramalar sağlamak için arama adlarını da kullanabilirsiniz. Bir arama adı bir ürünün sınıflandırmalarını temsil eden ek bir addır.
 
-Ayrıca Common Data Service kullanılırken Supply Chain Management'taki ürün numarası, Common Data Service'taki ürün numarasıdır. Ürün çeşitleri, Common Data Service ile ayrı ürünler olarak eşitlenir.
+Ayrıca Microsoft Dataverse kullanılırken Supply Chain Management'taki ürün numarası, Microsoft Dataverse'taki ürün numarasıdır. Ürün çeşitleri, Dataverse ile ayrı ürünler olarak eşitlenir.
 
 ## <a name="item-number-and-product-dimensions"></a>Madde numarası ve ürün boyutları
 
@@ -167,7 +166,7 @@ Aşağıdaki tablo, belirli numara serisi ve alan eşleme ayarları birleşimler
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Ürün varlığı tanımlayıcısı (Tüm ürün tanımlayıcılarını dışa aktarma)
 
-Ürün varlığı tanımlayıcısı modeli, CDS 1.0 sürümünün ürüne başvurmak için kullanılan tüm tanımlayıcılarla birlikte sağlanabilmesine olanak tanımak için oluşturuldu. Bu görevi basitleştirmek için tüm tanımlayıcılar tek bir genel tanımlayıcı tablosunda toplanır ve böylece tek bir model olarak dışa aktarılabilir. CDS'nin bu sürümünün ürün tanımlayıcıları modelini kullanmadığını unutmayın. Bu nedenle, **Ürün varlığı common data service tanımlayıcı varlığı** varlığı ve bu işlemin kullanımı sınırlıdır ve gelecek sürümlerde değiştirilebilir.
+Ürün varlığı tanımlayıcısı modeli, Dataverse 1.0 sürümünün ürüne başvurmak için kullanılan tüm tanımlayıcılarla birlikte sağlanabilmesine olanak tanımak için oluşturuldu. Bu görevi basitleştirmek için tüm tanımlayıcılar tek bir genel tanımlayıcı tablosunda toplanır ve böylece tek bir model olarak dışa aktarılabilir. Dataverse'ün bu sürümünün ürün tanımlayıcıları modelini kullanmadığını unutmayın. Bu nedenle, **Ürün varlığı common data service tanımlayıcı varlığı** varlığı ve bu işlemin kullanımı sınırlıdır ve gelecek sürümlerde değiştirilebilir.
 
 Ürün tanımlayıcısı tablosu, yinelenen toplu iş işiyle Ana tüzel kişiliğin tüm referans tablolarından doldurulan genel bir tablodur. Genel ana ürün kapsamı tanımı olarak bir tüzel kişilik ve bir ürün kategori hiyerarşisi seçmeniz gerekir. Genel ürün tanımlayıcısı tablosu oluşturma, seçili tüzel kişiliğe serbest bırakılan ürünler ve ürün kategori hiyerarşisinde **Common data service** rolü için seçilen ürün hiyerarşisinin üyesi olan ürünlerle sınırlandırılmıştır.
 
@@ -175,7 +174,7 @@ Bu işlem ana ürün verilerinin öncelikle bir merkezi tüzel kişilikte tutuld
 
 Ortamı yapılandırmak için şu adımları izleyin.
 
-1. CDS için kategori hiyerarşisini seçin. **Kategori hiyerarşisi rol ilişkileri** sayfasında, **Common data service** rolüyle ilişkilendirilmiş hiyerarşi yoksa, yeni bir ilişki oluşturmanız gerekir. **Common data service** rolünü seçin ve CDS ile eşitlenmesi gereken ürün portföyünü temsil eden kategori hiyerarşisini ilişkilendirin.
+1. Dataverse için kategori hiyerarşisini seçin. **Kategori hiyerarşisi rol ilişkileri** sayfasında, **Common data service** rolüyle ilişkilendirilmiş hiyerarşi yoksa, yeni bir ilişki oluşturmanız gerekir. **Common Data Service** rolünü seçin ve Dataverse ile eşitlenmesi gereken ürün portföyünü temsil eden kategori hiyerarşisini ilişkilendirin.
 2. Genel ana ürün verileri için tüzel kişiliği seçin. **Ürün bilgileri yönetimi parametreleri** sayfasında **Ürün öznitelikleri** sekmesinde, ürünün ve madde tanımlayıcıların birincil olarak tutulacağı ana şirketi seçin.
 3. Tanımlayıcı kod türlerini ve dışa aktarılması gereken kodları tanımlayın. **Ürün yönetimi bilgileri** &gt; **Kurulum** &gt; **Ürün tanımlayıcısı kodları**'na gidin. Tanımlayıcı kod türlerini oluşturmak için **Kodlar oluştur**'u seçin. Seçilen tüzel kişilikte bulunan her tanımlayıcı türü için bir kod türü girişi oluşturulur.
 
@@ -190,6 +189,3 @@ Artık herhangi bir hedef sistem için tanımlayıcıları dışa aktarmak için
 ## <a name="related-topic"></a>İlgili konu
 
 [Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ff64f28af570b792f73b51aa9caf06dd2445b2ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a598f0356034a22ee7fc0902360b8862a1944558
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439183"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010984"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Stok transferlerini ve düzeltmelerini Field Service'ten Supply Chain Management'a eşitleme
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Bu konu stok düzeltmelerini ve aktarmalarını Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
@@ -45,27 +46,27 @@ Aşağıdaki şablon ve temel görevler, stok düzeltmelerini ve transferlerini 
 - Stok Düzeltmeleri
 - Stok Transferleri
 
-## <a name="entity-set"></a>Varlık kümesi
+## <a name="table-set"></a>Tablo kümesi
 | Field Service                     | Supply Chain Management                          |
 |-----------------------------------|----------------------------------------------------|
-| msdyn_inventoryadjustmentproducts |   CDS Stok ayarlama günlüğü başlıkları ve satırları |
-| msdyn_inventoryadjustmentproducts | CDS stok transfer günlüğü başlıkları ve satırları   |
+| msdyn_inventoryadjustmentproducts | Dataverse Stok ayarlama günlüğü başlıkları ve satırları |
+| msdyn_inventoryadjustmentproducts | Dataverse stok transfer günlüğü başlıkları ve satırları   |
 
-## <a name="entity-flow"></a>Varlık akışı
+## <a name="table-flow"></a>Tablo akışı
 Field Service'ta gerçekleştirilen stok düzeltmeleri ve transferleri, **Deftere nakil durumu**, **Oluşturuldu**'dan **Deftere Nakledildi**'ye değiştirildikten sonra Supply Chain Management'a eşitlenecektir. Bu durumda, ayarlama veya transfer emri kilitlenir ve salt okunur olur. Bu, düzeltmelerin ve transferlerin Supply Chain Management'ta deftere nakledilebileceği, ancak değiştirilemeyeceği anlamına gelir. Supply Chain Management'ta, tümleştirme ile oluşturulmuş düzeltmeler ve hareketler sırasında stok günlüklerini otomatik deftere nakletmek üzere bir toplu iş ayarlayabilirsiniz. Toplu işi etkinleştirmenin ayrıntıları için aşağıdaki önkoşullara bakın.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM çözümü 
-**Stok birimi** alanı, **Ürün** varlığına eklendi. Bu alan, Satış ve Stok birimi her zaman Supply Chain Management'ta olmadığından ve Stok Birimi, Supply Chain Management'ta Ambar Stoku için gereklidir.
-Hem stok ayarlama hem de stok aktarma için bir ürünü bir stok ayarlama ürünü üzerinde ayarladığınızda, birim, stok ürün değerinden alınır. **Birim** alanında bir değer bulunursa, alan Stok ayarlama ürününde kilitlenir.
+**Stok birimi** sütunu, **Ürün** tablosuna eklendi. Bu sütun, Satış ve Stok birimi her zaman Supply Chain Management'ta olmadığından ve Stok Birimi, Supply Chain Management'ta Ambar Stoku için gerekli olduğundan gereklidir.
+Hem stok ayarlama hem de stok aktarma için bir ürünü bir stok ayarlama ürünü üzerinde ayarladığınızda, birim, stok ürün değerinden alınır. **Birim** sütununda bir değer bulunursa, sütun Stok ayarlama ürününde kilitlenir.
 
-**Deftere Nakil Durumu** alanı, hem **Stok Ayarlama** varlığına hem de **Stok aktarma** varlığına eklenmiştir. Bu alan, Supply Chain Management'a bir düzeltme veya transfer gönderildiğinde filtre olarak kullanılır. Bu alan için varsayılan değer Oluşturuldu'dur (1) ancak Supply Chain Management'a gönderilmemiştir. Değeri Deftere Nakledildi (2) olarak güncelleştirirseniz Supply Chain Management'a gönderilir ancak bundan sonra düzeltme ve transfer edemezsiniz veya yeni satırlar ekleyemezsiniz.
+**Deftere nakil durumu** sütunu, hem **Stok ayarlama** tablosuna hem de **Stok transferi** tablosuna eklenmiştir. Bu sütun, Supply Chain Management'a bir düzeltme veya transfer gönderildiğinde filtre olarak kullanılır. Bu sütun için varsayılan değer Oluşturuldu (1) değeridir ancak Supply Chain Management'a gönderilmemiştir. Değeri Deftere Nakledildi (2) olarak güncelleştirirseniz Supply Chain Management'a gönderilir ancak bundan sonra düzeltme ve transfer edemezsiniz veya yeni satırlar ekleyemezsiniz.
 
-**Numara serisi** alanı, **Stok ayarlama ürünü** varlığına eklenmiştir. Bu alan, tümleştirmenin benzersiz bir numaraya sahip olmasını sağlar, böylece tümleştirme düzeltmeyi oluşturabilir ve güncelleştirebilir. İlk stok ayarlama ürününüzü oluşturduğunuzda, **P2C AutoNumber** varlığında yeni bir kayıt oluşturarak numara serisini ve kullanılan öneki korur.
+**Numara serisi** sütunu, **Stok ayarlama ürünü** tablosuna eklenmiştir. Bu sütun, tümleştirmenin benzersiz bir numaraya sahip olmasını sağlar, böylece tümleştirme düzeltmeyi oluşturabilir ve güncelleştirebilir. İlk stok ayarlama ürününüzü oluşturduğunuzda, **P2C AutoNumber** tablosunda yeni bir kayıt oluşturarak numara serisini ve kullanılan ön eki korur.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 
 ### <a name="supply-chain-management"></a>Supply Chain Management
-Tümleştirme tarafından oluşturulan tümleştirme stok günlükleri, bir toplu iş kullanarak otomatik olarak deftere nakledilebilir. Bu, şuradan etkinleştirilir: **Stok yönetimi > Periyodik görevler > CDS tümleştirmesi > Deftere nakletme tümleştirme stok günlükleri**.
+Tümleştirme tarafından oluşturulan tümleştirme stok günlükleri, bir toplu iş kullanarak otomatik olarak deftere nakledilebilir. Bu, şuradan etkinleştirilir: **Stok yönetimi > Periyodik görevler > Dataverse tümleştirmesi > Deftere nakletme tümleştirme stok günlükleri**.
 
 ## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
@@ -79,6 +80,3 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Stok transferi (Field Service'ten Supply Chain Management'a): Stok transferi
 
 [![Veri tümleştirmede şablon eşleme](./media/FSTrans1.png)](./media/FSTrans1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

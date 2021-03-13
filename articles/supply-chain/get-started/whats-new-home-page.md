@@ -3,26 +3,25 @@ title: Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişikl
 description: Bu konu, Dynamics 365 Supply Chain Management'ın her sürümündeki yeni ve değiştirilmiş özellikleri açıklayan konulara işaret eder.
 author: kamaybac
 manager: tfehr
-ms.date: 07/23/2020
+ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77649e310be218fdea8578e974885101c5587722
-ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
+ms.openlocfilehash: 3350afc5f9537a0bd97b9c5257a66039b9dcb55c
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700993"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014570"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management içindeki Yenilikler veya değişiklikler
 
@@ -34,6 +33,7 @@ Dynamics 365 Supply Chain Management'ın her sürümündeki yenilikleri veya de�
 
 | Sürüm | Yapı numarası | Otomatik güncelleştirme kullanılabilirliği | Daha fazla bilgi edinin |
 |---|---|---|---|
+| 10.0.16 | 10.0.689 | Şubat 2021 | [Dynamics 365 Supply Chain Management'ın 10.0.16 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021 Ocak | [Dynamics 365 Supply Chain Management'ın 10.0.15 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | Kasım 2020 | [Dynamics 365 Supply Chain Management'ın 10.0.14 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-14.md) |
 | 10.0.13 | 10.0.569 | 2020 Ekim | [Dynamics 365 Supply Chain Management'ın 10.0.13 sürümündeki yenilikler veya değişiklikler](whats-new-scm-10-0-13.md) |
@@ -67,6 +67,3 @@ Kasım 2019 öncesi sürümlerdeki yenilikleri veya değişiklikleri görmek iç
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | Kasım 2016    | [Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | Mayıs 2016         | [Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | Şubat 2016    | [Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

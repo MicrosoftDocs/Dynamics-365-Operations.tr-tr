@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25ba4aa92d968f4dfb0dc23b1ac459cda2d52b61
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03a9004aae563959dd19276268b9f81aca4b0735
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439572"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011709"
 ---
 # <a name="quarantine-orders"></a>Karantina emirleri
 
@@ -67,6 +66,3 @@ Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsini
 --------
 
 [Stok durdurma](inventory-blocking.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

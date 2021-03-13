@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher, CustClassificationGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57e3b95cb1f4a13b49ddcd336efaeabb12e5defc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4334fcd996f32b00bb399d3df5c43eb6bf50ab28
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439125"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010712"
 ---
 # <a name="register-sales-commissions"></a>Satış komisyonlarını kaydetme
 
@@ -71,6 +70,3 @@ Komisyon işlemi için seçtiğiniz müşteri ve ürün numaralarını not edin 
 3. Sayfayı kapatın.
 4. **Fiş**'i seçin. Önceden tanımlanmış komisyon giderlerine ve komisyon borç hesaplarına nakledilen komisyon tutarlarının fiş hareketlerini gözden geçirebilirsiniz.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

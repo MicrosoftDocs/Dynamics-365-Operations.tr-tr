@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439683"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014495"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
 
@@ -50,7 +49,12 @@ Bu kayıt başka bir kullanıcı tarafından kullanılırken, iş bir madde içi
 
 ## <a name="possible-user-impact"></a>Olası Kullanıcı etkisi
 
-Eldeki girişler temizleme işi belirli bir düzeydeki tüm kayıtları (örneğin, lisans levhası) silerse, kullanıcılar etkilenebilir. Bu durumda, ilgili eldeki girişler artık kullanılamadığından, bu stoğu daha önce bir lisans kalıbına açık olarak kullanılabilir olarak görebilmeyle ilgili işlevsellik beklendiği gibi çalışmayabilir. (Bu işlev koşulu denetler Kullanıcılar eldeki bilgileri görüntülerken **Boyut görüntüleme** ayarlarına göre **Miktar \<\> 0**.) Ancak, temizleme işinin sağladığı performans iyileştirmesi bu küçük kaybı için işlev yapmalı.
+Eldeki girişler temizleme işi belirli bir düzeydeki tüm kayıtları (örneğin, lisans levhası) silerse, kullanıcılar etkilenebilir. Bu durumda, ilgili eldeki girişler artık kullanılamadığından, lisans plakasında stokun daha önce elde mevcut olduğunu görebilmeyle ilgili işlevsellik beklendiği gibi çalışmayabilir. Örneğin bu özellik, aşağıdaki durumlarda denenebilir:
+
+- **Eldeki listesi**'nde, kullanıcı **Miktar \<\> 0** koşulunun seçimini kaldırdığında veya **Boyutlar görünümü** ayarlarında **Kapalı hareketler** koşulunu seçtiğinde.
+- Geçmiş dönemler için **Stok boyutuna göre fiziksel stok** raporında kullanıcı **Başlangıç tarihi** parametresini seçtiğinde.
+
+Ancak, temizleme işinin sağladığı performans iyileştirmesi işlevsellikteki bu küçük kayıpları telafi etmelidir.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Maksimum yürütme zamanı ayarını kullanılabilir yap
 
@@ -58,6 +62,3 @@ Varsayılan olarak **Maksimum yürütme zamanı** kullanılabilir değil. Bunu k
 
 - **Modül:** *Ambar yönetimi*
 - **Özellik adı:** *Ambar yönetimi için maksimum yürütme süresi eldeki girişler temizleme işi*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
