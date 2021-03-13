@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (08 Temmuz 2020)
 description: Bu konuda, 8 Temmuz 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528485"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130409"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (8 Temmuz 2020)
 
@@ -71,9 +71,9 @@ Oluşturulan ve değiştirilen sistem alanları artık Human Resources'taki **Wo
 
 Bu sürüm, bir personel işe alındığında **İşe alma ve ayrıntı ekleme** seçeneği kullanıldığında personel girişinde oluşan bir hatayı (boş referans) düzeltir.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Common Data Service Çalışan varlığında yapılan değişiklikler Human Resources'ta yansıtılmıyor (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Dataverse Çalışan varlığında yapılan değişiklikler Human Resources'ta yansıtılmıyor (455652)
 
-Common Data Service'teki **Çalışan** varlığında aşağıdaki alanlarda yapılan değişiklikler artık Human Resources'ta görünecek:
+Dataverse'teki **Çalışan** varlığında aşağıdaki alanlarda yapılan değişiklikler artık Human Resources'ta görünecek:
 
 - **Evden çalışıyor**
 - **Kıdem tarihi**
@@ -131,9 +131,9 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 ## <a name="coming-soon"></a>Çok yakında
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -141,6 +141,3 @@ Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkl
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

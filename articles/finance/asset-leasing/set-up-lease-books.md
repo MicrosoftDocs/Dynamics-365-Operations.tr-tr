@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4449012"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131017"
 ---
 # <a name="set-up-lease-books"></a>Kiralama defterlerini ayarlama
 
@@ -53,6 +52,4 @@ Yeni bir kiralama defteri oluşturmak için şu adımları izleyin.
     | Kısa süre eşiği                     | Kısa süreli kiralamalar için bir eşik olarak kullanılacak ay sayısını girin. Kiralama süresi buraya girdiğiniz ay sayısından azsa veya bu sayıya eşitse sistem, kiralamayı kısa süreli kiralama olarak sınıflandıracaktır ve ertelenmiş kira işlemi uygulanacaktır. |
     | Düşük değer eşiği                      | Düşük değerli kiralamalar için eşik olarak kullanılacak bir tutar girin. Varlığın adil değeri buraya girdiğiniz değerden azsa veya bu değere eşitse sistem, kiralamayı düşük değerli kiralama olarak sınıflandıracaktır ve ertelenmiş kira işlemi uygulanacaktır. |
     | Satıcıya öde                            | Kiralama ödemelerinin, her kiralamada belirtilen satıcı hesabına fatura olarak nakledilmesine izin vermek için bu seçeneği **Evet** olarak ayarlayın. Kiralama ödemesi deftere nakledildiğinde satıcı hesabı alacaklandırılır. Bu seçenek **Hayır** olarak ayarlanırsa, bunun yerine **Kiralama deftere nakil parametreleri** sayfasındaki **Kira ödemesi** deftere nakil türü için beliritilen hesap alacaklandırılacaktır. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | Kiralama kuralı                       | Kiralamanın başlangıç tarihi kuralını seçin:<ul><li><b>Yok</b>: Kiralamanın başlangıç tarihini başlatma tarihi olarak kullanın.</li><li><b>Tam ay</b>: Kiralama başlangıç tarihinin, başlatma tarihi olarak bulunduğu ayın ilk gününü kullanın.</li></ul><p><b>Hiçbiri</b>'ni seçerseniz, pasif amostismanı ve varlık amortismanı zamanlamalarının, ay sonu yerine ayın ortasında tahakkuk edilmesi ve deftere nakil edilmesi riski vardır. <b>Tam ay</b> seçildiğinde, sistemin ayın ilk gününde kiralama muhasebesine başlayacak şekilde başlaması ve tüm ayın giderinin tahakkuk edip ayın son gününde deftere naklediğildiğinden emin olun.</p><p><strong>Not:</strong> Kiralama kuralları özelliği, Özellik yönetimi aracılığıyla açılmalıdır. <b>Özellik yönetimi</b> çalışma alanında, <b>Varlık kiralama için kiralama kuralı</b> özelliği olarak adlandırılan özelliği bulup seçin ve <b>Şimdi etkinleştir</b>'i seçin.</p> |

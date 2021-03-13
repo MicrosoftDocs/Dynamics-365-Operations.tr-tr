@@ -1,6 +1,6 @@
 ---
 title: Çift yazmaya genel bakış
-description: Bu konu, Çift yazılabilir bir genel bakış içermektedir. Çift yazım, Microsoft Dynamics 365 modele dayalı uygulamalar ve Finance and Operations uygulamalar arasında yakın zamanda gerçek zamanlı etkileşim sağlayan bir altyapıdır.
+description: Bu konuda, müşteri etkileşimi uygulamaları ile Finance and Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan çift yazma özelliğine dair genel bir bakış sunulur.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685625"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130017"
 ---
 # <a name="dual-write-overview"></a>Çift yazmaya genel bakış
 
@@ -53,7 +53,7 @@ ms.locfileid: "4685625"
 + Veri yöneticileri için etkinliğin birleşmiş görünümü ve hata günlükleri
 + Özel uyarıları ve eşikleri konfigüre etme ve bildirimlere abone olma yeteneği
 + Filtreleme ve dönüşümler için sezgisel kullanıcı arabirimi (UI)
-+ Varlık bağımlılıklarını ve ilişkilerini ayarlama ve görüntüleme yeteneği
++ Tablo bağımlılıklarını ve ilişkilerini ayarlama ve görüntüleme yeteneği
 + Standart ve özel tablolar ve haritalar için genişletilebilirlik
 + Güvenilir uygulama yaşam döngüsü yönetimi
 + Yeni müşteriler için kutulu kurulum deneyimi
@@ -93,7 +93,7 @@ ms.locfileid: "4685625"
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları için çift yazma ortalaması nedir?
 
-Çift-yazma Finance and Operations uygulamaları ve müşteri etkileşimi uygulamaları arasında veri akışını otomatikleştirir. Çift yazma, Dataverse üzerine yüklenen iki AppSource çözümünden oluşur. Çözümler, ERP boyutuna ölçeklendirilebilecek şekilde, Dataverse üzerindeki varlık şemasını, eklentileri ve iş akışlarını genişletir. Başarılı bir uygulama için, müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları bu değişiklikleri anlayıp Finance and Operations uygulamalarındaki meslektaşlarıyla birlikte çalışmalıdır.
+Çift-yazma Finance and Operations uygulamaları ve müşteri etkileşimi uygulamaları arasında veri akışını otomatikleştirir. Çift yazma, Dataverse üzerine yüklenen iki AppSource çözümünden oluşur. Çözümler, ERP boyutuna ölçeklendirilebilecek şekilde, Dataverse üzerindeki tablo şemasını, eklentileri ve iş akışlarını genişletir. Başarılı bir uygulama için, müşteri etkileşimi uygulamalarının geliştiricileri ve mimarları bu değişiklikleri anlayıp Finance and Operations uygulamalarındaki meslektaşlarıyla birlikte çalışmalıdır.
 
 Finance and Operations uygulamalarla eşitlik oluşturmak için çift yazma, Dataverse şemasında bazı önemli değişiklikler yapar. Planı anladığınızda, gelecekte tasarım ve geliştirme üzerinde yeniden çalışma yapmaktan kaçınabilirsiniz.
 
@@ -103,12 +103,9 @@ Finance and Operations uygulamalarla eşitlik oluşturmak için çift yazma, Dat
 
 + Finance and Operations uygulamaları ile Dataverse arasında yapılan para birimi iletimi sırasında veri kaybını önlemek için, müşteri etkileşimi uygulamalarının para birimi veri türünde ondalık basamak sayısını genişletebilirsiniz. Özellik, var olan satırları meta veri katmanındaki yeni genişletilmiş duruma otomatik olarak çevirir. Bu işlem sırasında para birimi değeri para verileri yerine ondalık verilere çevrilir ve para birimi değeri 10 basamaklı ondalık değeri destekler. Bu özellik tercihe bağlıdır ve 4 basamaktan fazla ondalık değere ihtiyaç duymayan kuruluşların tercih etmesine gerek yoktur. Daha fazla bilgi için, bkz. [Çift yazma için para birimi veri türü taşıma](currrency-decimal-places.md).
 
-+ [Tarih etkililiği](../../dev-tools/date-effectivity.md) Dataverse uygulamasına eklenecektir. Aynı varlık üzerinde geçmiş, şimdiki ve gelecekteki verileri destekleyecektir.
++ [Tarih etkililiği](../../dev-tools/date-effectivity.md) Dataverse uygulamasına eklenecektir. Aynı tablo üzerinde geçmiş, şimdiki ve gelecekteki verileri destekleyecektir.
 
 + Ürün [birimi dönüştürmeleri](../../../../supply-chain/pim/tasks/manage-unit-measure.md) ürünler, teklifler, siparişler ve faturalar için desteklenir.
 
 Gelecekteki değişiklikler hakkında daha fazla bilgi için, bkz. [Çift yazmadaki yenilikler veya değişiklikler](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

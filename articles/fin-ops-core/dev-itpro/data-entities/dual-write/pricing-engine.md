@@ -1,5 +1,5 @@
 ---
-title: İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+title: Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta Dynamics 365 Sales'ın fiyatlandırma motorunun nasıl kullanılacağı açıklanmaktadır.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458279"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130665"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>İstek üzerine Dynamics 365 Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Supply Chain Management fiyatlandırma altyapısıyla istek üzerine eşitleme
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
 3. Yeni siparişi satırı ekleyin.
 4. Yeni bir sipariş oluşturuyorsanız, eylem bölmesinde **fiyat siparişi** seçeneğini belirleyin. Mevcut bir siparişi güncelliyorsanız eylem bölmesinde **Yeniden hesapla** seçeneğini belirleyin.
 
-    Aşağıdaki alanlar otomatik olarak doldurulur:
+    Aşağıdaki sütunlar otomatik olarak doldurulur:
 
     + Ayrıntı Tutarı
     + İskonto yüzdesi
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management, ticari sözleşmeleri, Fiyat lis
 
 ## <a name="how-it-works"></a>Nasıl çalışır
 
-Sales'ta **fiyat siparişi** seçeneğini belirlediğinizde, ilgili satış siparişi için Supply Chain Management'te **Satış Siprişi \> Görüntüle** sekmesindeki **Toplamlar** işlevi çağrılır. Sales içindeki sipariş toplamlarında bulunan değerler, Supply Chain Management'ta karşılık gelen alanları doldurmak için kullanılır.
+Sales'ta **fiyat siparişi** seçeneğini belirlediğinizde, ilgili satış siparişi için Supply Chain Management'te **Satış Siprişi \> Görüntüle** sekmesindeki **Toplamlar** işlevi çağrılır. Sales içindeki sipariş toplamlarında bulunan değerler, Supply Chain Management'ta karşılık gelen sütunları doldurmak için kullanılır.
 
 Supply Chain Management'ta satış siparişi toplamı hesaplandığında, hesaplama müşteri ve satış siparişinde listelenen ürünler için varolan ticari sözleşmeleri ve satış anlaşmalarını değerlendirir. Toplamları hesaplamak için bu bilgiler kullanılır. **Fiyat siparişi** seçildiğinde, Sales, Supply Chain Management'de yapılan tüm kurulumu otomatik olarak yansıtır.
 
 ## <a name="limitations"></a>Sınırlamalar
 
-Sales içindeki alanlar doldurulduğunda, aşağıdaki sınırlamalar geçerlidir:
+Sales içindeki sütunlar doldurulduğunda, aşağıdaki sınırlamalar geçerlidir:
 
 + Supply Chain Management'ta bulunan masraf ve gider tahsisatının kurulumu Sales içinde çoğaltılmaz.
-+ Fiyatlandırma, Supply Chain Management'ta satış siparişi satırı sayfasındaki **perakende kanal** alanında belirtilen özel perakende fiyatlandırmasını dikkate almıyor.
++ Fiyatlandırma, Supply Chain Management'ta satış siparişi satırı sayfasındaki **Perakende Kanalı** sütununda belirtilen özel perakende fiyatlandırmasını dikkate almıyor.
 + Supply Chain Management'ın **ticari kesinti Yönetimi** bölümünde tanımlanan iskontolar dikkate alınmazlar.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

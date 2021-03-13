@@ -1,6 +1,6 @@
 ---
 title: Başlangıç kurulumu sırasında sorunları giderme
-description: Bu konu, Finance and Operations uygulamalar ve Dataverse arasında çift-yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek sorun giderme bilgileri sağlar.
+description: Bu konuda, çift yazma tümleştirmesinin ilk kurulumu sırasında oluşabilecek sorunları gidermenize yardımcı olabilecek bilgiler sağlanmaktadır.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685599"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129993"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -71,13 +71,13 @@ Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Şirket verileri ve çift-yazılır takımların bağlantı sırasında doğru şekilde ayarlandığını doğrulayın
 
-Çift-yazmanın doğru çalışmasını sağlamak için, konfigürasyon sırasında seçtiğiniz şirketler Dataverse ortamda oluşturulur. Varsayılan olarak, bu şirketler salt okunurdur **IsDualWriteEnable** özelliği **doğru** olarak ayarlanır. Ek olarak, varsayılan sorumlu departman sahibi ve ekibi oluşturulur ve şirket adını içerir. Eşlemeleri etkinleştirmeden önce varsayılan takım sahibinin belirtildiğinden emin olun. **Şirketler (CDM\_şirketi)** varlığını bulmak için aşağıdaki adımları izleyin.
+Çift-yazmanın doğru çalışmasını sağlamak için, konfigürasyon sırasında seçtiğiniz şirketler Dataverse ortamda oluşturulur. Varsayılan olarak, bu şirketler salt okunurdur **IsDualWriteEnable** özelliği **doğru** olarak ayarlanır. Ek olarak, varsayılan sorumlu departman sahibi ve ekibi oluşturulur ve şirket adını içerir. Eşlemeleri etkinleştirmeden önce varsayılan takım sahibinin belirtildiğinden emin olun. **Companies (CDM\_Company)** tablosunu bulmak için aşağıdaki adımları izleyin.
 
 1. Dynamics 365'deki model kullanımlı uygulamada, sağ üst köşedeki filtreyi seçin.
 2.  açılır listede, **Şirket**'ı seçin.
 3. Sonuçları görmek için **Çalıştır** 'ı seçin.
 4. Çift-yazmayı konfigüre ettiğinizde bağlanan şirketi seçin.
-5. **Varsayılan sahip olan takım** alanının bir değere sahip olduğunu doğrulayın. Aşağıdaki çizimde, **varsayılan sahibi olan takım** alanı **usmf ikili yazma** olarak ayarlanır.
+5. **Varsayılan sahibi olan takım** sütununun bir değere sahip olduğunu doğrulayın. Aşağıdaki çizimde, **Varsayılan sahibi olan takım** sütunu **USMF Çift Yazma** olarak ayarlanmıştır.
 
     ![Varsayılan sahip olan takım doğrulanıyor](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Haritaları etkinleştirmeyi denediğinizde aşağıdaki hata iletisini alabilir
 *İkili yazma hatası - Eklenti kaydı başarısız oldu: \[(Proje DWM için bölüm eşlemesi alınamıyor - 1ae35e60-4bc2-4905-88ea-69efd3b29260-.7f12cb89-1550-42e2-858e-4761fc1443ea. Hata, DWM için izin verilen maksimum bölüm sayısını aşıyor - 1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], bir veya daha fazla hata oluştu.*
 
 Ortam bağlamayla ilgili geçerli sınır yaklaşık 40 yasal tablodur. Bu hata, eşlemeleri etkinleştirmeye çalışırsanız ve ortamlar arasında 40'tan fazla yasal tablo bağlanmışsa oluşur.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

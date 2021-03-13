@@ -2,7 +2,7 @@
 title: Takvimler ve çalışma zamanları oluşturma
 description: Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıklar. Bu konuda bir çalışma saati şablonunu temel alan bir iş takvimi tanımlama işlemi açıklanmaktadır.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2fd297d9368472138fbe2db5a2133719cb1a9f18
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420863"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130313"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Takvimler ve çalışma zamanları oluşturma
 
@@ -43,6 +43,3 @@ Takvimler, kapasiteyi ve işlem kaynaklarının çalışma zamanlarını açıkl
 12. **Tamam**'ı seçin.
 13. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

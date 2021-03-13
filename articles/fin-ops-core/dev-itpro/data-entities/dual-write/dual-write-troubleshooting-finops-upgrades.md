@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations uygulamaları yükseltmeleriyle ilgili sorunları giderme
+title: Finance and Operations uygulamaları yükseltmelerinden sorunları giderme
 description: Bu konu, Finance and Operations uygulamalardaki yükseltmelerle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683611"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131233"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Finance and Operations uygulamaları yükseltmeleriyle ilgili sorunları giderme
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Finance and Operations uygulamaları yükseltmelerinden sorunları giderme
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 **Sorunu düzeltmek için gerekli rol:** Sistem Yöneticisi
 
-Platform Güncelleştirmesi 30'a bir Finance and Operations uygulamayı güncelleştirmek için **dualwriteprojectconfiguration** varlığını kullanmaya çalıştığınızda aşağıdaki örneğe benzer bir hata iletisi alabilirsiniz.
+Bir Finance and Operations uygulamasını Platform güncelleştirmesi 30'a yükseltmek için **DualWriteProjectConfiguration** tablosunu kullanmaya çalışırken aşağıdaki örneğe benzer bir hata iletisi alabilirsiniz.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Sorunu düzeltmek için şu adımları izleyin.
 8. Tam veritabanı eşitlemesi yapmak için **Eşitle**'yi seçin.
 9. Tam veritabanı eşitleme işlemi başarılı olduktan sonra, Microsoft Dynamics Lifecycle Services (LCS) içindeki veritabanı eşitleme adımını yeniden çalıştırın ve uygun şekilde yükseltme betiklerini el ile kullanın; böylece güncelleştirmeye devam edebilirsiniz.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Haritalarda eksik varlık alanları çıkışı
+## <a name="missing-table-columns-issue-on-maps"></a>Eşlemelerde eksik tablo sütunları sorunu
 
 **Sorunu düzeltmek için gerekli rol:** Sistem Yöneticisi
 
@@ -70,27 +70,24 @@ Sorunu düzeltmek için şu adımları izleyin.
 
 *Şemada eksik kaynak alanı \<field name\>.*
 
-![Eksik kaynak alan hata iletisi örneği](media/error_missing_field.png)
+![Eksik kaynak sütun hata iletisi örneği](media/error_missing_field.png)
 
-Bu sorunu gidermek için, öncelikle bu alanların varlıkta olduğundan emin olmak için aşağıdaki adımları izleyin.
+Bu sorunu gidermek için, öncelikle bu sütunların tabloda olduğundan emin olmak için aşağıdaki adımları izleyin.
 
 1. Finance and Operations uygulamanın VM 'sine oturum açın.
-2. **Çalışma alanları \> Veri yönetimi**'ne gidin, **Çerçeve parametreleri** kutucuğunu seçin ve sonra **Tablo ayarları** sekmesinde, tabloları yenilemek için **Varlık listesini yenile**'yi seçin.
-3. **Çalışma alanları \> Veri yönetimi**'ne gidin, **Veri tabloları** sekmesini seçin ve varlığın listelendiğinden emin olun. Varlık listelenmiyorsa, Finance and Operations uygulama için VM 'de oturum açın ve varlığın kullanılabilir olduğundan emin olun.
+2. **Çalışma alanları \> Veri yönetimi**'ne gidin, **Çerçeve parametreleri** kutucuğunu seçin ve sonra **Tablo ayarları** sekmesinde, tabloları yenilemek için **Tablo listesini yenile**'yi seçin.
+3. **Çalışma alanları \> Veri yönetimi**'ne gidin, **Veri tabloları** sekmesini seçin ve tablonun listelendiğinden emin olun. Tablo listede değilse Finance and Operations uygulaması için VM'de oturum açın ve tablonun kullanılabilir olduğundan emin olun.
 4. Finance and Operations uygulamasındaki **Çift yazma** sayfasından **Tablo eşleme** sayfasını açın.
-5. Tablo eşlemelerindeki alanları otomatik olarak doldurmak için **Varlık listesini yenile**'yi seçin.
+5. Tablo eşlemelerindeki sütunları otomatik olarak doldurmak için **Tablo listesini yenile**'yi seçin.
 
 Sorun yine de düzeltilmemişse, aşağıdaki adımları izleyin.
 
 > [!IMPORTANT]
-> Bu adımlar, bir varlığı silme ve sonra yeniden ekleme sürecinde size yol gösterir. Sorunlardan kaçınmak için, adımları tam olarak takip edin.
+> Bu adımlar, bir tabloyu silme ve sonra yeniden ekleme sürecinde size yol gösterir. Sorunlardan kaçınmak için, adımları tam olarak takip edin.
 
 1. Finance and Operations uygulamasında, **Çalışma alanları \> Veri yönetimi**'ne gidin ve **Veri tabloları** kutucuğunu seçin.
-2. Özniteliğin eksik olduğu varlığı bulun. Araç çubuğunda **Hedef eşlemeyi değiştir**'e tıklayın.
+2. Özniteliğin eksik olduğu tabloyu bulun. Araç çubuğunda **Hedef eşlemeyi değiştir**'e tıklayın.
 3. **Hazırlamayı hedefe eşle** bölmesinde, **Eşleme oluştur**'a tıklayın.
 4. Finance and Operations uygulamasındaki **Çift yazma** sayfasından **Tablo eşleme** sayfasını açın.
 5. Öznitelik eşlemede otomatik olarak doldurulmamışsa, **Öznitelik ekle** düğmesine ve sonra **Kaydet**'e tıklayarak el ile ekleyin. 
 6. Eşlemeyi seçin **Çalıştır**'a tıklayın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

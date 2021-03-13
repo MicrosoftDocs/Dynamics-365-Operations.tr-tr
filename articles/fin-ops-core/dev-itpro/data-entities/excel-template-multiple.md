@@ -1,5 +1,5 @@
 ---
-title: Birden çok çalışma sayfası olan Excel veri varlığı şablonlarından verileri içeri aktarma
+title: Birden çok çalışma sayfasına sahip veri şablonları
 description: Bu konu, Excel veri varlığı kullanarak Finance and Operations içine veri içe aktarmayı açıklar.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688091"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130593"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Birden çok çalışma sayfası olan Excel veri varlığı şablonlarından verileri içeri aktarma
+# <a name="data-templates-with-multiple-worksheets"></a>Birden çok çalışma sayfasına sahip veri şablonları
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Veri projesindeki mevcut varlıklar için aynı dosyanın yeni bir sürümünün
 ## <a name="upload-a-file-using-run-project"></a>Projeyi çalıştır özelliğini kullanarak dosya yükleme
 
 Bir içe aktarma projesini yürütmek için **Projeyi çalıştır** seçeneğini kullanırken bir Excel dosyası yükleyebilirsiniz. Yalnızca veri projesinde yer alan veri varlıklarındaki mevcut eşlemelerle aynı çalışma sayfalarına sahip dosyaları yüklemeye dikkat etmeniz gerekir. Yeni yüklenen bir dosyada bir çalışma sayfası bulunamazsa, sistem bir hata görüntüler ve içe aktarma işlemini durdurur. Çalışma sayfası eşlemesinin bir varlık için değiştirilmesi gerekirse, **Projeyi çalıştır** seçeneğindeki dosya kullanılmadan önce ilk olarak veri projesindeki eşlemelerin veri projesi içinden güncelleştirilmesi gerekir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

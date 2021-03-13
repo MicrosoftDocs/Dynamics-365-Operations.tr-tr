@@ -1,6 +1,6 @@
 ---
 title: Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
-description: Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3 - Model ve eşlemeyi değiştir)" yordamını tamamlamalısınız.
+description: Bu konuda, elektronik belge oluşturmak ve uygulama verilerini güncelleştirmek için raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e820e909bcd80b4747c06ccaaeb05c03f52b6963
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684559"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129409"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
 
@@ -149,6 +149,3 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 46. Sayfayı kapatın.
 47. Sayfayı kapatın.
 48. Sayfayı kapatın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

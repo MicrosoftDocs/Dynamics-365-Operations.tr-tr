@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations uygulamalarında çift yazma modülüyle ilgili sorunları giderme
+title: Finance and Operations uygulamalarında çift yazma sorunlarını giderme
 description: Bu konu, Finance and Operations uygulamalardaki çift-yazma modülüyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683635"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131257"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında çift yazma modülüyle ilgili sorunları giderme
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Finance and Operations uygulamalarında çift yazma sorunlarını giderme
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 **Sorunu düzeltmek için gerekli kimlik bilgileri:** Çift yazma kurulumu yapan aynı kullanıcı.
 
-Çift yazma için yeni bir varlık yapılandırmaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz. Eşleme oluşturabilecek tek kullanıcı, çift yazma bağlantısını kuran kullanıcıdır.
+Çift yazma için yeni bir tablo yapılandırmaya çalıştığınızda aşağıdaki hata iletisini alabilirsiniz. Eşleme oluşturabilecek tek kullanıcı, çift yazma bağlantısını kuran kullanıcıdır.
 
 *Yanıt durum kodu başarıyı göstermiyor: 401 (yetkisiz)*
 
@@ -77,7 +77,7 @@ Bu hata, bağlı Dataverse ortam kullanılabilir olmadığında oluşur.
 
 Bu sorunu gidermek için, veri tümleştirme ekibi için bir bilet oluşturun. Veri tümleştirme ekibinin eşlemeleri arka uçta **çalışmıyor** olarak işaretlemesi için ağ izlemesini iliştirin.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Bir tablo eşlemesi başlatılmaya çalışılırken hata oluştu
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Bir tablo eşlemesi başlatılmaya çalışılırken hata oluştu
 
 Bir eşlemenin o durumunu **Çalıştırma** olarak ayarlamaya çalıştığınızda aşağıdakine benzer bir hata alabilirsiniz:
 
@@ -86,7 +86,4 @@ Bir eşlemenin o durumunu **Çalıştırma** olarak ayarlamaya çalıştığın�
 Bu hata için düzeltme hatanın nedenine bağlıdır:
 
 + Eşlemeye bağımlı eşlemeler varsa bu tablo eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
-+ Eşlemede kaynak veya hedef alanlar eksik olabilir. Finance and Operations uygulamalarında bir alan eksikse, [Eşlemelerde eksik varlık alanları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps) bölümlerindeki adımları izleyin. Dataverse'teki bir alan eksikse alanların otomatik olarak eşlemeye geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Eşlemede kaynak veya hedef sütunlar eksik olabilir. Finance and Operations uygulamalarında bir sütun eksikse, [Eşlemelerde eksik tablo sütunları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bölümündeki adımları izleyin. Dataverse'teki bir sütun eksikse sütunların otomatik olarak eşlemede geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
