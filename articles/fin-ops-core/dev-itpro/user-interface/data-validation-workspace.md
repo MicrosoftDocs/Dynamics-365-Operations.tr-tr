@@ -1,6 +1,6 @@
 ---
 title: Veri doğrulama denetim listesi çalışma alanı
-description: Veri doğrulama yapılacaklar listesi çalışma alanı, şirketler, bölgeler ve kişiler arasındaki veri doğrulama işlemlerini izlemenize olanak sağlar. Denetim listesi yeni bir uygulama sırasında, bir yükseltmeden sonra veya bir geçişten sonra kullanılabilir.
+description: Veri doğrulama yapılacaklar listesi çalışma alanı, şirketler, bölgeler ve kişiler arasındaki veri doğrulama işlemlerini izlemenize olanak sağlar.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,12 +14,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687587"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092343"
 ---
 # <a name="data-validation-checklist-workspace"></a>Veri doğrulama denetim listesi çalışma alanı
 
@@ -39,8 +39,7 @@ Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişk
 
 **Görevler ve durum** bölümünde, veri doğrulama projesinin genel durumu çeşitli şekillerde görüntülenir: tüzel kişiliğe göre, bölgeye göre ve görev listesine göre durum. Ayrıca, belirli bir şirketin durumunu görüntülemek için filtre de seçebilirsiniz. Her durum sekmesi, hem tamamlanmış olan yüzde hem de kalan görevlerin sayısı hakkında bir çözümleme sağlar.
 
-Son sekme, ayrıntılı görev listesi içindir. Bu liste, tam görev listesini gösterir.
-Görev listesini çeşitli şekillerde filtrelenebilir. Görevin durumunu değiştirmek veya bir görev atamak için **Görevi düzenle**'ye tıklayın. Görevin eklerini görüntülemek için **Ekler** üzerine tıklayın.
+Son sekme, ayrıntılı görev listesi içindir. Bu liste, tam görev listesini gösterir. Görev listesini çeşitli şekillerde filtrelenebilir. Görevin durumunu değiştirmek veya bir görev atamak için **Görevi düzenle**'ye tıklayın. Görevin eklerini görüntülemek için **Ekler** üzerine tıklayın.
 
 Görev adı, kullanıcının görevi tamamlamak için gitmesi gereken sayfaya bir köprüdür. Bu bağlantıyı, görevi **Veri yapılandırma projesi** formundan oluşturduğunuzda veya düzenlediğinizde **Menü öğesi adı** alanını kullanarak ayarlayabilirsiniz.
 
@@ -57,6 +56,3 @@ Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanar
 Veri doğrulama görevlerini organizasyonunuz içindeki mantıklı mülkiyet alanlarına gruplandırmak için görev alanlarını kullanırsınız. Örneğin, görev alanları olarak Borç hesapları, Alacak hesapları ve Genel muhasebe kullanılabilir.
 
 **Menü öğesi adı** görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, **Borç hesapları yaşlandırma** raporunu, Borç hesapları için çalıştırmak için veri doğrulama görevi, **Borç hesapları yaşlandırma raporu** sayfası üzerinden bağlanabilir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

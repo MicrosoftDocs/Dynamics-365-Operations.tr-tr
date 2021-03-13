@@ -1,6 +1,6 @@
 ---
 title: Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
-description: Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar.
+description: Bu konuda, gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceği açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682033"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092097"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Uygulama sınıfı yöntemlerini çağırmak için ER ifadeleri tasarlama
 
@@ -157,6 +157,3 @@ Sınama amacıyla, daha önce yüklediğiniz SampleIncomingMessage.txt dosyasın
 2. Tamam'a tıklayın.
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan TXT dosyasındaki yalnızca 3 satırın işlendiğini unutmayın. Satır 4'teki geçersiz IBAN kodu atlandı ve Bilgi günlüğünde bir hata iletisi sağlandı.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

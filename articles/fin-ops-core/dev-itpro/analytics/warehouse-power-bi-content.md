@@ -1,6 +1,6 @@
 ---
 title: Ambar performansı Power BI içeriği
-description: Bu konu, Ambar performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Bu Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, Ambar performansı Power BI içeriğinde nelerin bulunduğunu açıklar.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687413"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092828"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Ambar performansı Power BI içeriği
 
@@ -111,6 +111,3 @@ Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 | Sevkiyat performansı        | Ürüne göre sevkiyat                       | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Müşteriye göre sevkiyat                      | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
 | Sevkiyat performansı        | Tesise / ambara göre sevkiyat              | CustPackingSlipOnTimeStatus           | Erken, Zamanında ve Geç (bkz. bu tablonun başındaki açıklamalar). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

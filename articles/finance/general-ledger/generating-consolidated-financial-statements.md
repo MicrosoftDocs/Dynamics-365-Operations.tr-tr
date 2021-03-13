@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448865"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044033"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
@@ -67,14 +66,14 @@ Aşağıdaki çizim, yan yana biçimdeki bir sütun tanımını gösterir.
 ![Yan yana biçimdeki sütun tanımı](./media/column-definition-side-by-side-format.png "Yan yana biçimdeki sütun tanımı")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Tüzel kişilikten oluşturulan kuruluş yapılarını kullanan konsolidasyonlar
-Boyutları veya tüzel kişilikleri içeren kuruluş hiyerarşileri Mali raporlamada dinamik olarak raporlama ağacı tanımlarını oluşturur. Konsolidasyonları kolaylaştırmanın kolay bir yolu Mali raporlamada raporunuza bir kuruluş hiyerarşisi eklemektir. Mali raporlama aşağıdaki çizimde gösterildiği üzere rapor tarihine bağlı olarak yürürlük tarihinde veya öncesinde kuruluş hiyerarşisini seçer.
+Boyutları veya tüzel kişilikleri içeren kuruluş hiyerarşileri Mali raporlamada dinamik olarak raporlama ağacı tanımlarını oluşturur. Konsolidasyonları kolaylaştırmanın kolay bir yolu Mali raporlamada raporunuza bir kuruluş hiyerarşisi eklemektir. Financial Reporting aşağıdaki çizimde gösterildiği üzere rapor tarihine bağlı olarak yürürlük tarihinde veya öncesinde kuruluş hiyerarşisini seçer.
 
 ![Dinamik olarak raporlama ağacı tanımı oluşturma](./media/dynamically-create-reporting-tree-definitions.png "Dinamik olarak raporlama ağacı tanımı oluşturma")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Elemeleri içeren konsolidasyonlar
 Eliminasyon hareketleri, konsolidasyon işleminin ortak bir bölümüdür. Bu örnekte konsolidasyon sırasında beş hesap elenmektedir: 142600, 211400, 401420, 401180 ve 510820. Şirketler, şirketlerarası hesaplarını farklı şekilde ayarlayabilir. Örneğin, hesap şirketlerarası hareketlerde kullanılıyorsa bazı şirketler son basamağı 9 olarak ayarlayabilir. Yöntemden bağımsız olarak, şirketlerarası hesapları biliyorsanız konsolide mali tablolarınızda eliminasyonları gösterebilirsiniz.
 
-Aşağıdaki çizim, konsolide gelir tablosu için bir sütun tanımı gösterir. Boyut filtresi kullanılarak her bir şirket için üç adet şirketlerarası kar ve zarar hesabı tanımlanır. D sütunu sadece USMF şirketi için eliminasyon hesapları içerir. E sütunu ise sadece DEMF şirketi için eliminasyonlar içerir. D sütunu da E sütunu da mali tabloda **yazdırılmayacak şekilde** ayarlanır.
+Aşağıdaki çizim, konsolide gelir tablosu için bir sütun tanımı gösterir. Boyut filtresi kullanılarak her bir şirket için üç adet şirketlerarası kar ve zarar hesabı tanımlanır. F, G ve H sütunları yalnızca USMF, USRT ve DEMF şirketleri için eliminasyon hesaplarını içerir. Bu sütunlar mali tabloda **yazdırılmayacak** şeklinde ayarlanır.
 
 ![Sütun tanımı konsolide gelir tablosu](./media/column-definition-consolidated-income-statement.png "Sütun tanımı konsolide gelir tablosu")
 
@@ -224,6 +223,3 @@ Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülm�
 Konsolidasyon ve para birimi dönüştürmeleri hakkında daha fazla bilgi için bu konunun ana konusuna bakın: [Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış](./financial-consolidations-currency-translation.md).
 
 Konsolidasyon bilgilerini çevrimiçi olarak nasıl gireceğiniz hakkında daha fazla bilgi için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

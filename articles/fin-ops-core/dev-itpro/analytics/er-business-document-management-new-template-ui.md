@@ -1,6 +1,6 @@
 ---
 title: İş belgesi yönetiminde yeni belge kullanıcı arabirimi
-description: Bu konu, Elektronik raporlama (ER) çerçevesinin İş belge yönetimi özelliğindeki yeni belge kullanıcı arabiriminin (UI) nasıl kullanılacağı hakkında bilgi vermektedir.
+description: Bu konu, Elektronik raporlamanın İş belge yönetimi özelliğindeki yeni belge kullanıcı arabiriminin nasıl kullanılacağı hakkında bilgi vermektedir.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681364"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092237"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>İş belgesi yönetiminde yeni belge kullanıcı arabirimi
 
@@ -64,6 +64,3 @@ Bu özelliği tüm tüzel kişilikler için açmak üzere bu adımları izleyin.
 **Yeni belge** düğmesi, kullanıcıların başka bir sağlayıcı tarafından sağlanan bir ER biçimi yapılandırmasında şablon oluşturmak ve düzenlemek için kullanılır. Bu örnekte sağlayıcı Microsoft'tur. **Yeni belge**'yi seçtiğiniz zaman, sahibi geçerli ve diğer sağlayıcılar olan tüm şablonları görüntüleyebilirsiniz. Siz şablonu seçtikten sonra şablon düzenleme için açılır. Düzenlenen şablon daha sonra otomatik olarak oluşturulan yeni bir ER biçim yapılandırması içinde depolanır.
 
 Daha fazla bilgi için bkz. [İş belgesi yönetimine genel bakış](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

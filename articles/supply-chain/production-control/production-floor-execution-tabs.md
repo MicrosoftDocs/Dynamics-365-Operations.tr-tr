@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664284"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077590"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini tasarlama
 
@@ -57,7 +56,7 @@ Yeni bir sekme oluşturmak ve yapılandırmak için bu adımları izleyin:
 1. Sayfanın üst bilgisinde aşağıdaki ayarları yapın:
 
     - **Sekme adı**: Sekme için bir ad belirtin.
-    - **Ana görünüm**: Önceden tanımlanmış iki iş listesi (*Etkin işler* veya *Tüm işler)* arasında seçim yapın.
+    - **Ana görünüm**: Önceden tanımlanmış iş listeleri (*Etkin işler*, *Tüm işler* veya *Makinem*) arasında seçim yapın.
     - **Ayrıntılar görünümü**: Boş bir değer veya **İş ayrıntıları** arasında seçim yapın. Boş değeri seçerseniz, sekmede ayrıntılı görünüm olmaz. **İş detayları**'nı seçerseniz, ayrıntılı görünümde ana görünümdeki iş listesinde seçilen işin ayrıntılı açıklaması yer alır.
 
 1. **Birincil araç çubuğu** bölümünde, birincil araç çubuğunda hangi düğmelerin kullanılabilir olmasını istediğinizi seçin. **Kullanılabilir eylemler** sütunu, eklenebilecek tüm düğmelerin listesini gösterir. **Seçilen eylemler** sütunları, geçerli yapılandırmaya dahil edilen tüm düğmelerin listesini gösterir. Sütunlar arasında seçili öğeleri gerektiği gibi taşımak için sütunlar arasındaki düğmeleri kullanın. Düğmelerin kullanıcı arabiriminde sunulduğu sırayı denetlemek için **Seçili eylemler** sütununun yanındaki yukarı ve aşağı düğmelerini kullanın.
@@ -79,6 +78,3 @@ Gereksinim duyduğunuz tüm sekmeleri tasarladıktan sonra, bunları bir yapıla
 1. Gerektikçe ek sekmeler eklemeye devam edin.
 
 1. Sekmeleri gerektiği gibi düzenlemek için araç çubuğundaki **Yukarı taşı** ve **Aşağı taşı** düğmelerini kullanın. Sekmeler, yukarıdaki ekran görüntüsünde gösterilen sırada soldan sağa doğru görüntülenecektir (üstteki sekme solda gösterilir).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

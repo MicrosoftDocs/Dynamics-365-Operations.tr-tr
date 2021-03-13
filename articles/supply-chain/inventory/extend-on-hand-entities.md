@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439369"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043405"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Eldeki stok verisi varlıklarını genişletme
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management, [tablolara uzantı aracılığıyla alanlar eklemenize](../../fin-ops-core/dev-itpro/extensibility/add-field-extension) olanak tanıyan [genişletilebilirlik](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) özellikleri sunar. Bu konuda, `INVENTORSITEONHANDENTITY` ve `INVENTWAREHOUSEONHANDENTITY` görünümlerine genişletilmiş alanlar eklemeye ve eldeki stok verisi varlıklarının uzantılarla çalışabilme özelliklerine ilişkin bir örnek sunulmaktadır. Veri varlıkları hakkında daha fazla bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management, [tablolara uzantı aracılığıyla alanlar eklemenize](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md) olanak tanıyan [genişletilebilirlik](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) özellikleri sunar. Bu konuda, `INVENTORSITEONHANDENTITY` ve `INVENTWAREHOUSEONHANDENTITY` görünümlerine genişletilmiş alanlar eklemeye ve eldeki stok verisi varlıklarının uzantılarla çalışabilme özelliklerine ilişkin bir örnek sunulmaktadır. Veri varlıkları hakkında daha fazla bilgi için bkz. [Veri yönetimine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Eldeki stok veri varlıklarının bazılarını içeren listeyi aşağıda bulabilirsiniz:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Bu adımları tamamladıktan sonra, yeni alanları ekleyerek tesise göre eldeki stok ve ambara göre eldeki stok veri varlıklarıı genişletebilirsiniz. Bu şekilde, genişletilmiş alanların bu veri varlıklarını kullanan veri taşıma sırasında tanınıp eklendiğinden emin olursunuz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

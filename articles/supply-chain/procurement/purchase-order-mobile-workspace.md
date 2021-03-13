@@ -1,7 +1,7 @@
 ---
 title: Satınalma siparişi onayı mobil çalışma
 description: Bu konu satın alma siparişlerini görmenizi ve eylemler aracılığıyla yanıt vermenizi sağlayan Satınalma siparişi onayı mobil çalışma alanı hakkında bilgi sağlar. Örneğin, bir satınalma siparişini onaylayabilir veya reddedebilirsiniz.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439467"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022318"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Satınalma siparişi onayı mobil çalışma
 
@@ -113,6 +112,3 @@ Size atanan satınalma siparişini görüntüledikten ve iş akışı talimatlar
 5. Uygun olan eylemi seçin.
 6. **Görevi tamamla** sayfasında, bir açıklama girin. **Temsilci ata** eylemini seçerseniz, görevi atayacağınız bir temsilci seçmeniz gerekir.
 7. **Tamam**'ı seçin. Çalışma alanını yeniledikten sonra satın alma siparişi artık listenizde olmayacaktır. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

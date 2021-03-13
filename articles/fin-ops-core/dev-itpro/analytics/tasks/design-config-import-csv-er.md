@@ -1,6 +1,6 @@
 ---
 title: CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
-description: Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın.
+description: Bir Finance and Operations uygulamasına CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama yapılandırmalarını tasarlamak için bu yordamı kullanın.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682057"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092778"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
 
@@ -124,6 +124,3 @@ Sınama amacıyla, daha önce yüklediğiniz 1099entriescsv.csv dosyasını kull
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan CSV dosyasındaki tüm 7 satırın da işlendiğini unutmayın. Alan başlıklarını içeren satır 1 atlandı, 4 hareket doğru şekilde ayrıştırıldı ve 2 hareket geçerli olarak tanındı.
 3. Sayfayı kapatın.
 4. Sayfayı kapatın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

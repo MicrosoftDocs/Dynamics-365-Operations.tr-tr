@@ -1,6 +1,6 @@
 ---
 title: İş gücü ölçümleri Power BI içeriği
-description: Bu konu, İşgücü ölçümleri Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, İşgücü ölçümleri Power BI içeriğini açıklar.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687363"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092803"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>İş gücü ölçümleri Power BI içeriği
 
@@ -86,6 +86,3 @@ Aşağıdaki tablo, içeriğin üzerine dayandırıldığı varlıkları göster
 | Personel Eğilimi           | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                 | Şirket, Coğrafi Konum, Personel Adı, Kime Rapor Verdiği, Takvim Kaydırma, Tarih, Personel Unvanı, Demografi, Çalışma, İş |
 | Toplu İşe Alma Projesi        | Toplu işe alma projelerinin, proje sahibinin ve proje durumunun sayısı                     | Şirket, Toplu İşe Alma Satırı |
 | Toplu İşe Alma Satırı           | Departman, iş türü ve pozisyon                                           | Tarih, İş, Toplu İşe Alma Projesi |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e3cb5dc59373b7af76fffa1b1c59728c84dfb5fb
+ms.sourcegitcommit: fd62ab3d399b0d6ea0d362f1d403a300e84a576d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693294"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5067635"
 ---
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
@@ -73,6 +73,9 @@ Bir iş akışının özelliklerini yapılandırmak için iş akışını, iş a
     4. **Çevrilen metin** alanında, metni girin.
     5. Metni kişiselleştirmek için, yer tutucular ekleyebilirsiniz. Yer tutucu girmek hakkında yönergeler için, adım 3'e bakın.
     6. **Kapat**'a tıklayın.
+
+> [!NOTE]
+> Hedef bilgiler doğru yapıştırılmadığından, yer tutucular kopyala ve yapıştır kullanılarak eklenemez. Yer tutucuları eklemek için arabirimi kullanın.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Bu iş akışının etkinleştirme koşulları üzerinden ne zaman kullanılacağını belirtin
 
@@ -179,6 +182,3 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
 2. **İş akışı hakkında yorumlar girin** alanında, yorumlarınızı girin.
 3. Yorumlarınızı gözden geçirin. Yorumlarınızı ekledikten sonra üzerlerinde değişiklik yapamazsınız.
 4. **Yorum geçmişi** alanına yorumlarınızı eklemek için **Ekle**'yi tıklatın.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

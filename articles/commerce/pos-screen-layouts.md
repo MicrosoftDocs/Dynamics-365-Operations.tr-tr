@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4416558"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032945"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS kullanıcı arabirimi görsel yapılandırmaları
 
@@ -117,7 +116,10 @@ Kompakt POS düzenlerinde düğme grupları otomatik olarak yukarıdan aşağıy
 
 ![Kompakt düzen düğme grupları](../commerce/media/Compact-View-Button-Grids.png)
 
-### <a name="images"></a>Resimler
+> [!NOTE]
+> Tasarımcıdaki düğme boyutları, pencerenin boyutuna sığacak şekilde ölçeklenir, bu nedenle POS'ta işlenmiş olan gerçek düğmeleri doğru yansıtmayabilir. Düğme grubu düzenini en iyi şekilde simüle etmek için tasarımcı pencerelerini POS ile aynı boyuta ayarlayın.
+
+### <a name="images"></a>Görüntüler
 
 Bir ekran düzenindeki her bir düzen boyutu için, POS kullanıcı arabirimine eklenecek resimleri belirtebilirsiniz. Tam POS düzenlerinde, hoş geldiniz ekranı için tek bir resim belirtilebilir. Bu resim, soldaki ilk kullanıcı arabirimi öğesi olarak görünür. **Hareket** ekranında resimler sekme resmi veya logo olarak kullanılabilir. Kompakt POS düzenleri bu resimleri kullanmaz.
 
@@ -205,6 +207,3 @@ Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekran�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Retail satış noktası (POS) düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

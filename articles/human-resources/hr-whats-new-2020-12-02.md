@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669194"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080050"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler (2 Aralık 2020)
 
@@ -61,7 +60,7 @@ Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 | 514087 | BenefitEligibilityProcessResult, işlemde kullanılan tarih/saati içermelidir. | BenefitEligibity işleme sonucu şimdi eksik olan son işleme için DateTimeStamp 'ı içeriyor. |
 | 526903 | **İnsan kaynakları paylaşılan parametrelerinde** **Görevlileri otomatik olarak seç** açık olduğunda bağımlıları olan planlar için kazanç kaydı başarısız olur . | **Görevlileri otomatik olarak seç** seçeneği varsayılan olarak etkinleştirilmiş durumdayken, ayrıcalık kaydının bağımlı tehlikeleri için başarısız olduğu sorun düzeltildi. |
 | 521922 | **Ayrıntı olmadan devamsızlığı göster** parametresi, ekip devamsızlık takviminde zaman aşımı isteklerinin ayrıntılarını gösterir. | **İzin ve devamsızlık parametrelerinde**, **ayrıntı olmadan izni göster**'i **Evet** olarak ayarladığınızda, izin türü, tür rengi ve gün ayrıntıları ekip devamsızlık takviminde gösteriliyor . Bu giderilmiştir ve şimdi bırakma türü görüntülenmez ve ekip devamsızlık takviminde tüm izin türleri için varsayılan bırakma türü rengi (koyu mavi) kullanılır. |
-| 527316 | İş, konum ve çalışan bildirimleri için başlık değişiklikleri eşitlenmez. | Daha önceden İş, Pozisyon ve çalışan varlıklara eklenen bir başlık ilişkisi. Bu ilişkinin eşitlenmesi İnsan Kaynakları'ndan Common Data Service'e itibaren eşitleme için çalışır ancak Common Data Service'den bildirimler için çalışmadı. Bu giderildi. |
+| 527316 | İş, konum ve çalışan bildirimleri için başlık değişiklikleri eşitlenmez. | Daha önceden İş, Pozisyon ve çalışan varlıklara eklenen bir başlık ilişkisi. Bu ilişkinin eşitlenmesi İnsan Kaynakları'ndan Dataverse'e itibaren eşitleme için çalışır ancak Dataverse'den bildirimler için çalışmadı. Bu giderildi. |
 | 512275 | **İzin ve devamsızlık parametrelerinden** renk seçeneklerini kaldırın. | Artık izin türü üzerinde renkler tanımlanmış olduğundan, **izin ve devamsızlık parametrelerinde** renkler seçeneklerinin kaldırılmış olması için artık gerekli değildir . |
 | 437112 | Çalışan pozisyonu ataması sırasında yanıltıcı hata iletisi metni. | Bir çalışanı işe alırken ve çalışanı etkin olmayan bir konuma atamaya çalışırken hata iletisi güncelleştirildi. Güncelleştirilmiş ileti **Belirtilen pozisyon işe başlangıç tarihi itibariyle etkin değil. Lütfen bu pozisyonun süresini denetleyin.** |
 | 527816 | **İzin** sayfası ile ilgili performans sorunları. | **İzin** sayfası zamanı geçen zamanda artırıldı. |
@@ -92,6 +91,3 @@ Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için
 [Dynamics 365 Human Resources 2020 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

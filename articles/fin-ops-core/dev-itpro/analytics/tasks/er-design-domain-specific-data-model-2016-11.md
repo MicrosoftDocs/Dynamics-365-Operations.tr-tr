@@ -1,6 +1,6 @@
 ---
 title: ER Tasarım etki alanına özel veri modeli
-description: Aşağıdaki yordamda, Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının elektronik ödeme belgeleri için bir veri modeli içeren, yeni bir Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmıştır.
+description: Bu konuda, elektronik ödeme belgeleri için bir veri modeli içeren yeni bir Elektronik raporlama (ER) yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681961"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092703"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Tasarım etki alanına özel veri modeli
 
@@ -187,6 +187,3 @@ Seçili yapılandırma için yeni bir veri modeli oluşturuyorsunuz. Bu yapılan
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4 - Biçimi çalıştırma)
-description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini kullanmak amacıyla bir Elektronik raporlama biçimini nasıl yapılandırabileceğini açıklar.
+description: Bu konuda, ER çıktılarında Belge Yönetimi dosyaları kullanmak üzere Elektronik raporlama biçiminin nasıl yapılandırılacağı açıklanmaktadır. (4. Bölüm)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681793"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092528"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4 - Biçimi çalıştırma)
 
@@ -69,6 +69,3 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 11. Tamam'a tıklayın.
     * Ortaya çıkan sonucu inceleyin. Her ek için tek bir XML düğümü oluşturulduğunu unutmayın. Ek'in içeriği XML çıktısına MIME (base64) metin biçiminde doldurulur.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

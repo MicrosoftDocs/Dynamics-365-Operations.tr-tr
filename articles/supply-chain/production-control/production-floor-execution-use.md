@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4439608"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077643"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -41,11 +40,11 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 ## <a name="all-jobs-tab"></a>Tüm işler sekmesi
 
-**Tüm işler** sekmesi, durumu *başlatılmadı*, *durduruldu* veya *Başlatıldı* olan tüm üretim işlerini gösteren bir iş listesi sağlar.
+**Tüm işler** sekmesi, durumu *başlatılmadı*, *durduruldu* veya *Başlatıldı* olan tüm üretim işlerini gösteren bir iş listesi sağlar. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
 
 ![Tüm işler sekmesi](media/pfei-all-jobs-tab.png "Tüm işler sekmesi")
 
-İş listesinde aşağıdaki sütunlar vardır. (Sayılar, önceki görseldeki sayılara karşılık gelir.)
+İş listesinde aşağıdaki sütunlar vardır. Sayılar, önceki görseldeki sayılara karşılık gelir.
 
 1. **Seçim sütunu**: En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
 1. **İş durumu sütunu**: Bu sütun, her projenin durumunu belirtmek için semboller kullanır. Bu sütunda simge içermeyen işler *başlatılmadı* durumundadır. Yeşil üçgen, durumu *başlatıldı* olan işleri belirtir. İki sarı dikey çizgi, durumu *durdurulmuş* olan işleri gösterir.
@@ -60,9 +59,11 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 ## <a name="active-jobs-tab"></a>Etkin işler sekmesi
 
+**Etkin işler** sekmesi, oturum açan çalışanın önceden başlattığı tüm işlerin listesini gösterir. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
+
 ![Etkin işler sekmesi](media/pfei-active-jobs-tab.png "Etkin işler sekmesi")
 
-**Etkin işler** sekmesindeki iş listesinde aşağıdaki sütunlar vardır:
+Etkin işler aşağıdaki sütunlar vardır:
 
 - **Seçim sütunu**: En soldaki sütun, çalışan tarafından seçilmiş olan işleri belirtmek için onay işareti kullanır. Çalışanlar, aynı anda listedeki birden fazla işi seçebilir. Listedeki tüm işleri seçmek için, sütun başlığındaki onay işaretini seçin. Tek bir iş seçildiğinde, o işle ilgili ayrıntılar sayfanın alt bölümünde gösterilir.
 - **Sipariş**: Bu sütun bir projeyle ilgili üretim emri numarasını gösterir.
@@ -72,6 +73,28 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 - **Tamamlandı**: Bu sütunda, bir proje için zaten tamamlanmış olan miktar gösterilir.
 - **Hurdaya çıkarıldı**: Bu sütunda, bir proje için zaten hurdaya çıkarılmış olan miktar gösterilir.
 - **Geri kalan**: Bu sütunda bir proje için tamamlanmak üzere kalan miktar gösterilir.
+
+## <a name="my-machine-tab"></a>Makinem sekmesi
+
+**Makinem** sekmesi, çalışanların **Tüm işler** sekmesinde ayarlanan filtre dahilindeki makine kaynağına bağlı olan kıymeti seçmesine olanak tanır. Çalışan, en fazla dört seçili sayacın değerlerini ve en son bakım istekleri ve kaydedilmiş kesinti süreleri listelerini okuyarak seçili kıymetin durumunu ve sistem durumunu görüntüleyebilir. Çalışan aynı zamanda seçili kıymet için bakım isteyebilir ve makine kesinti süresini kaydedebilir ve düzenleyebilir. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
+ 
+![Makinem sekmesi](media/pfei-my-machine-tab.png "Makinem sekmesi")
+
+**Makinem** sekmesi aşağıdaki sütunlara sahiptir. Sayılar, önceki görseldeki sayılara karşılık gelir.
+
+1. **Makine kıymeti**: İzlemek istediğiniz makine kıymetini seçin. Eşleşen kıymetler listesinden seçim yapmak için bir ad yazmaya başlayın veya iş listesi filtresi dahilindeki kaynaklarla ilişkilendirilmiş tüm kıymetlerin listesinden seçim yapmak için büyüteç simgesini seçin.
+
+    > [!NOTE]
+    > Supply Chain Management kullanıcıları, **Tüm kıymetler** sayfasını kullanarak gerektiğinde her kıymete bir kaynak atayabilir (**Sabit kıymet** sekmesindeki **Kaynak** açılır listesini kullanarak). Daha fazla bilgi için bkz. [Kıymet oluşturma](../asset-management/objects/create-an-object.md).
+
+1. **Ayarlar**: Seçili makine kıymeti için görüntülenecek sayaçları seçebileceğiniz bir iletişim kutusu açmak için dişli simgesini seçin. Bu sayaçların değerleri, **Kıymet yönetimi** sekmesinin en üstünde gösterilir. **Ayarlar** menüsü (aşağıdaki ekran görüntüsünde gösterilmektedir) en çok dört sayacı etkinleştirmenize olanak tanır. Etkinleştirmek istediğiniz her sayaç için, kutucuğun üst tarafındaki arama alanını kullanarak bir sayaç seçin. Arama alanı, **Kıymet yönetimi** sayfasının en üstünde seçilen kıymetle ilişkilendirilmiş tüm sayaçları listeler. Sayaç için **Toplam** değeri veya en son **Gerçek** değeri izlemek için her sayacı ayarlayın. Örneğin, makinenin kaç saattir çalıştığını takip eden bir sayaç ayarlarsanız bunu **Toplam** olarak ayarlamanız gerekir. En son güncelleştirilen sıcaklığı veya basıncı ölçmek üzere bir sayaç ayarlarsanız, bunu **Gerçek** olacak şekilde ayarlamalısınız. Ayarlarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
+
+    ![Makinem sekmesi](media/pfei-my-machine-tab-settings.png "Makinem sekmesi")
+
+1. **Bakım iste**: Bakım isteği oluşturabileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Açıklama ve bir not girebilirsiniz. Talep, bir Supply Chain Management kullanıcısına gösterilir ve bu kullanıcı bakım isteğini bakım iş emrine dönüştürebilir.
+1. **Kesinti süresini kaydet**: Makinenin kesinti süresini kaydedebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Bir neden kodu seçebilir ve kesinti süresi için bir tarih/saat aralığı girebilirsiniz. Makinenin kesinti süresi kaydı, makine kıymetinin verimliliğini hesaplamak için kullanılır.
+1. **Görüntüle veya düzenle**: Mevcut kesinti süresi kayıtlarını düzenleyebileceğiniz veya görüntüleyebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Üretim işlerini başlatma ve tamamlama
 
@@ -124,7 +147,7 @@ Dolaylı faaliyetler, doğrudan bir üretim emriyle ilişkili olmayan faaliyetle
 
 Her iki durumda da Shannon seçimini onayladıktan sonra, oturum açma sayfasına veya dolaylı faaliyetinden dönmüş olduğunu onaylamasını bekleyen bir sayfaya gider. Beliren sayfa, üretim tabanı yürütme arabiriminin konfigürasyonuna bağlıdır. (Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](production-floor-execution-configure.md).)
 
-## <a name="working-on-breaks"></a>Molalarda çalışma
+## <a name="registering-breaks"></a>Molaları kaydetme
 
 Çalışanlar mola kaydedebilir. Molalar, [Kayıt temel alınarak ödeme](pay-based-on-registrations.md) konusunda açıklandığı gibi esnek şekilde tanımlanabilir.
 
@@ -146,6 +169,3 @@ Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (
 1. Çalışan, görevi öğrenmek için kılavuzu inceler.
 
 HoloLens için Kılavuzlar oluşturma, atama ve kullanma hakkında daha fazla bilgi için bkz. [Üretimde çalışanlar için karma gerçeklik kılavuzları sağlama](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

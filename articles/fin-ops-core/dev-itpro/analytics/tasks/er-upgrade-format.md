@@ -1,6 +1,6 @@
 ---
 title: ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
-description: Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının, bir Elektronik raporlama (ER) biçim yapılandırmasını nasıl sürdürebileceğini gösterir.
+description: Bu konuda, Elektronik raporlama (ER) biçim yapılandırmasının nasıl korunacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b76fb09ff961a3100b6a4bf890c1b12e6a0a2771
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684277"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092578"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 
@@ -243,6 +243,3 @@ Proseware, Inc'nin bunu yapmak için temel yapılandırma sürümünü, BACS (UK
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Ödeme dosyaları oluşturması için özelleştirilmiş biçimi test et
 Paralel Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğüm sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

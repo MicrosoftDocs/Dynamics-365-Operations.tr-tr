@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595004"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053425"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Microsoft Dynamics 365 Commerce sürüm 10.0.16 ve sonraki sürümlerde kuruluşlar, alışverişçiler veya satış kişilerin bir mağazada çekilecek bir sipariş oluştururken aralarından seçim yapabildikleri çoklu teslimat modlarını tanımlayabilir. Böylece kuruluşlar alışverişçilere çoklu malzeme çekme seçeneği sağlayabilir. Örneğin, birçok perakende satış şimdi, siparişleri için mağaza içi malzeme çekme veya perde çekme seçimini alışverişçileri sunmaktadır. Commerce, bu farklı malzeme çekme teslim modlarının konfigürasyonunun yapılandırmasını destekler. Kullanıcılar daha sonra desteklenen herhangi bir ticaret kanalında (e-ticaret, çağrı merkezi veya mağaza) müşteri siparişleri oluştururken faydalanabilir.
 
@@ -86,6 +85,3 @@ Bir kanal için birden fazla malzeme çekme teslimat modu olduğunda, alacak ür
 ## <a name="considerations-for-distributed-order-management"></a>Dağıtılmış sipariş yönetimi için dikkate alınacaklar
 
 [Commerce'deki dağıtılmış sipariş yönetimi (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

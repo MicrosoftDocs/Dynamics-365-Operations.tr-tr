@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services'e bir yapılandırma yükleme
-description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırması oluşturarak Microsoft Dynamics Lifecycle Services (LCS)'ye yükleyebilirsiniz.
+description: Bu konuda, yeni bir Elektronik raporlama (ER) yapılandırması oluşturma ve bunu Microsoft Dynamics Lifecycle Services'a (LCS) yükleme açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684175"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092553"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Lifecycle Services'e bir yapılandırma yükleme
 
@@ -145,6 +145,3 @@ Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak 
     Karşıya yüklediğiniz ER yapılandırması listelenmelidir.
 
     Bu LCS projesine sağlayıcıların erişimi varsa, karşıya yüklenen LCS yapılandırmasının başka bir örneğe aktarılabildiğini unutmayın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

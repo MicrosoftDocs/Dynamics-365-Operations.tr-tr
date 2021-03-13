@@ -1,6 +1,6 @@
 ---
 title: Uygulama yöneticisi Power BI içeriği
-description: Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685717"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092469"
 ---
 # <a name="practice-manager-power-bi-content"></a>Uygulama yöneticisi Power BI içeriği
 
@@ -117,6 +117,3 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Kilit toplam ölçüm       | Alan               | Açıklama |
 |---------------------------------|---------------------|-------------|
 | Tamamlanan faaliyetin planlanan maliyeti | Sum(TotalCostPrice) | Tamamlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
