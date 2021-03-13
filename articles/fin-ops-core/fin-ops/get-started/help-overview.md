@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695151"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154165"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -163,7 +163,4 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 | [Docs.microsoft.com/previous sürümleri](/previous-versions/dynamics/) | Bu site, önceki sürümlerden içerik barındırır. |
 | [Dynamics Topluluğu](https://community.dynamics.com/) | Bu site; bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Bu site, değerlendirme ve satış bilgileri sağlar. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Bu site; eğitim kaynakları, karşıdan yüklenebilir raporlar ve teknik makaleler barındırır ve servis planı sahipleri için birincil destek sitesidir. Bu sitedeki bazı kaynaklara erişim için bir hizmet planı gerekebilir. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Bu site; eğitim kaynakları, karşıdan yüklenebilir raporlar ve teknik makaleler barındırır ve servis planı sahipleri için birincil destek sitesidir. Bu sitedeki bazı kaynaklara erişim için bir hizmet planı gerekebilir. |

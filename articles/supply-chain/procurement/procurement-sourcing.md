@@ -1,7 +1,7 @@
 ---
 title: Tedarik ve kaynak atama ana sayfası
 description: Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d189213a691d752f02160d7ed9b6f5f60329eebd
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439580"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154345"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
@@ -86,7 +85,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 ## <a name="prices-and-discounts"></a>Fiyatlar ve iskontolar
 -   [Satınalma sözleşmeleri](purchase-agreements.md)
 -   [Satınalma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
--   [Satıcı indirimleri](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (beyaz kağıt)
+-   [Satıcı indirimleri](https://docs.microsoft.com/dynamics/s-e/) (beyaz kağıt)
 
 ## <a name="product-receipt-and-invoicing"></a>Ürün girişi ve faturalandırma
 -   [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
@@ -104,6 +103,3 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

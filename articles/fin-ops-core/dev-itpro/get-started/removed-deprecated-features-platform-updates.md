@@ -3,7 +3,7 @@ title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689578"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154099"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -32,7 +32,55 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Özellik 28 Ocak 2021'de kaldırıldı
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>SQL dizin birleştirmeyi işlemek için toplu iş
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Müşterilerin dizin yönetimini işletmek, izlemek ve sürdürmekle ilgili ek yükünü azaltmak için bu özellik kaldırıldı. |
+| **Başka bir özellikle mi değiştirildi?**   | İleride, dizin bakımı Microsoft hizmetleri tarafından gerçekleştirilecektir. Bu, kullanıcı iş yüklerini etkilemeden sürekli olarak gerçekleşecektir. |
+| **Etkilenen ürün alanları**         | Finance and Operations uygulamaları|
+| **Dağıtım seçeneği**              | Bulut dağıtımı: Microsoft tarafından yönetilen üretim ortamlarını ve Katman 2 ile Katman 5 arasındaki korumalı alan ortamlarını etkiler. |
+| **Durum**                         | Bu özellik kaldırılmıştır. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.17 sürümü için platform güncelleştirmeleri
+
+> [!IMPORTANT]
+> 10.0.17 sürümü, önizleme sürümü kapsamında kullanıma sunulmuştur. İçerik ve işlevde değişiklik yapılabilir. Önizleme sürümleri hakkında daha fazla bilgi için bkz. [One Version hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Visual Studio'Nin en son sürümlerini desteklemek için Visual Studio için X++ uzantılarında bazı değişiklikler yapılmalıdır . Bu değişiklikler Visual Studio 2015 ile uyumsuz . |
+| **Başka bir özellikle mi değiştirildi?**   | Visual Studio 2017, Dağıtılmış ve gerekli sürüm olarak Visual Studio 2015 yerine çalışacak. |
+| **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. Güncelleştirme sonrasında, önceki X++ Visual Studio 2015'ten kaldırılacaktır ve güncelleştirilen araçlar Visual Studio 2015'e yüklenmeyecektir. Barındırılan yapılar üzerinde hiçbir etkisi yoktur. Derleme sanal makineleri için derleme işlem hattı (derleme tanımı), bağımlılığı MSBuild 14.0 (Visual Studio 2015) sürümünden MSBuild 15.0 (Visual Studio 2017) sürümüne değiştirmek için [Azure Pipelines'ta eski bir işlem hattını güncelleştirme](../dev-tools/pipeline-msbuild-update.md) konusunda açıklanan şekilde el ile güncelleştirilmelidir. |
+
+### <a name="user-avatar"></a>Kullanıcı avatarı 
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Gezinti çubuğunun sağ tarafında görüntülenen kullanıcı avatarı, kullanım dışı bırakılan bir Dynamics 365 üst bilgi denetiminden bir API kullanılarak alındı. |
+| **Başka bir özellikle mi değiştirildi?**   | Bunun yerine, kullanıcılar kendi baş harflerini gezinme çubuğunda bir daire içinde görür. Bu, geliştirme makinelerinde şu anda kullanılmakta olan görseldir. |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Sürüm 10.0.17 itibarıyla kaldırıldı |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Enterprise Portal (EP) kullanımdan kaldırma  
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | EP, Finance and Operations uygulamalarında hiçbir zaman desteklenmediğinden, Dynamics AX 2012 Enterprise Portal (EP) ile ilişkili meta veri yapıtları, kullanımdan kaldırıldı. |
+| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Etkilenen ürün alanları**         | Web istemcisi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kaldırıldı. EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri
 
@@ -192,6 +240,3 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 Önceki sürümlerde kaldırılmış veya kaldırılmış özellikler hakkında daha fazla bilgi edinmek için, [önceki sürümlerdeki kaldırılmış veya kaldırılmış özelliklere](../migration-upgrade/deprecated-features.md) bakın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

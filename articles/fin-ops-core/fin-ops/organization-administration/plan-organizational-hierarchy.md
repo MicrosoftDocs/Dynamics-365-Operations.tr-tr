@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694701"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154421"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
@@ -166,7 +166,7 @@ Tüzel kişilik, tüzel kişiliğin kayıtlı olduğu ülkenin/bölgenin vergi d
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Organizasyon tüzel kişilik olarak modellenmişse
 
-Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabileceği hakkında daha fazla bilgi edinmek için [Microsoft Dynamics Yerelleştirme Portalı](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)'na bakın. (Bir CustomerSource girişi zorunludur.)
+Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabileceği hakkında daha fazla bilgi edinmek için [Microsoft Dynamics Yerelleştirme Portalı](https://docs.microsoft.com/dynamics/s-e/)'na bakın. (Bir CustomerSource girişi zorunludur.)
 
 > [!NOTE]
 > Genel muhasebedeki deftere nakil katmanı, alt şirketten farklı bir muhasebe standardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak tanır. Örneğin, genel olarak Birleşik Krallık'taki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.
@@ -241,6 +241,3 @@ Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikka
 - Temel yeniden yapılandırma senaryoları modellemeden önce bir etki analiz ve bir doğrulama testi gerçekleştirmek için hiyerarşinin geçerlilik tarihlerini kullanın.
 - Bir üretim ortamında yeni bir sürümü yayımlamadan önce hiyerarşi değiştirmek için taslak modunu kullanın.
 - Bir üretim ortamındaki bir hiyerarşiye organizasyon etkilemeye veya bu hiyerarşiden organizasyon çıkarmaya yetkili kişi sayısını sınırlandırın. Bu sayının sınırlandırılması, maliyetli hataların yapılması ihtimalini ve düzeltme ihtiyacını azaltacaktır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

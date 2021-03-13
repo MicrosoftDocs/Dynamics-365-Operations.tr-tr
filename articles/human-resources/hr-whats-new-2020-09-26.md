@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527422"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152209"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527422"
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
-Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Bu sürümde
 
@@ -58,7 +57,7 @@ Bu sürümde aşağıdaki hata çözümleri bulunmaktadır.
 | 481401 | Tahakkuk tarihi temeli, tahakkuk başlangıç tarihinden sonra ve ay sonunda olduğunda tahakkuk işlemleri askıda kalır | Tahakkuk tarihi temeli, tahakkuk başlangıç tarihinden sonra ve ayın sonunda olduğunda tahakkuk işlemleri gecikmemesi için güncelleştirilir. |
 | 447167 | Süresi dolmak üzere olan kayıtlar listeleri etkin olmayan çalışanlar içeriyor | **Personel yönetiminde** **Süresi dolmak üzere olan kayıtlar** sekmesi etkin olmayan çalışanları içeriyordu. Artık yalnızca etkin çalışanları içerir. |
 | 486840 | **Bana atanan iş öğelerinden** yanlış izin isteği açılıyor | **Bana atanan iş öğelerinden** izin isteği seçildiğinde artık geçerli kullanıcıya atanmış en son izin isteği açılmıyor. |
-| 506868 | Common Data Service **Unvan** alanı **İş pozisyonu** varlığı için ayarlanmadı | **İş** ve **İş pozisyonu** varlıklarındaki **başlık** alanı belirtilmemiş olarak görüntüleniyor. **Başlık** alanı artık görüntüleniyor. |
+| 506868 | Dataverse **Unvan** alanı **İş pozisyonu** varlığı için ayarlanmadı | **İş** ve **İş pozisyonu** varlıklarındaki **başlık** alanı belirtilmemiş olarak görüntüleniyor. **Başlık** alanı artık görüntüleniyor. |
 | 430359 | Yönetici ve çalışan rolleri atandığında çıkarma denetim listesi görevlerine erişilemiyor | Gelecekteki bir sonlandırma tarihine sahip çalışanlar, bir çalışan veya yönetici rolüne sahipse denetim listeleri görevlerine erişemiyor. Artık yalnızca bir çalışan veya yönetici rolüne sahip olan kullanıcılar gelecekteki bir sonlandırma tarihi olan çıkarma görevlerine erişebilir. |
 | 458102 | Oluşturulduğunda, yeni çalışan **Çalışan Bordro bilgileri** varlığında görünmüyor | Yeni çalışanlar, varlığı dışa aktarmadan önce çalışanın bordro bilgilerini açmak zorunda kalmadan çalışan Bordro bilgileri varlığına dahil ediliyor. |
 
@@ -85,6 +84,3 @@ Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için
 [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 [Özellikleri Yönetme](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
