@@ -2,7 +2,7 @@
 title: Yuvarlama kurallarını ayarlama
 description: Dynamics 365 Human Resources'De organizasyonunuzun ihtiyaçlarını karşılamak için yuvarlama kuralları ayarlayabilirsiniz.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a9b0c33d2e0c47b351463b4b3630a91c6bd9999
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a603c31e3a36072b6456bea212ad176009c8b48
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420968"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114572"
 ---
-# <a name="set-up-rounding-rules"></a><span data-ttu-id="c0d7b-103">Yuvarlama kurallarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="c0d7b-103">Set up rounding rules</span></span>
+# <a name="set-up-rounding-rules"></a><span data-ttu-id="02e10-103">Yuvarlama kurallarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="02e10-103">Set up rounding rules</span></span>
 
-<span data-ttu-id="c0d7b-104">Dynamics 365 Human Resources'De organizasyonunuzun ihtiyaçlarını karşılamak için yuvarlama kuralları ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c0d7b-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
+<span data-ttu-id="02e10-104">Dynamics 365 Human Resources'De organizasyonunuzun ihtiyaçlarını karşılamak için yuvarlama kuralları ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="02e10-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
 
-1. <span data-ttu-id="c0d7b-105">**Sosyal haklar** yönetimi çalışma alanında, **Kur** altında, **Yuvarlama kuralları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="c0d7b-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
+1. <span data-ttu-id="02e10-105">**Sosyal haklar** yönetimi çalışma alanında, **Kur** altında, **Yuvarlama kuralları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="02e10-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
 
-2. <span data-ttu-id="c0d7b-106">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="c0d7b-106">Select **New**.</span></span>
+2. <span data-ttu-id="02e10-106">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="02e10-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="c0d7b-107">**En yakına yuvarla**, **senaryo** ve **yuvarlama formu** için değerler belirtin.</span><span class="sxs-lookup"><span data-stu-id="c0d7b-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
+3. <span data-ttu-id="02e10-107">**En yakına yuvarla**, **senaryo** ve **yuvarlama formu** için değerler belirtin.</span><span class="sxs-lookup"><span data-stu-id="02e10-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
 
-4. <span data-ttu-id="c0d7b-108">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c0d7b-108">Select **Save**.</span></span> 
+4. <span data-ttu-id="02e10-108">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="02e10-108">Select **Save**.</span></span> 

@@ -2,7 +2,7 @@
 title: Kazanca uygunluk ilkeleri
 description: Bu makalede, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -11,40 +11,40 @@ ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, SysPolicyListPage, SysPolicySourceDocumentRuleType, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 16441
 ms.assetid: 4ad0106f-5b07-4fd5-bc1a-5834fa9b198e
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fd4def17bf60ae2812927221c45547c5ac379f2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc5dfedc0022cbf9bdbc636bbe96971422c29838
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420858"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114559"
 ---
-# <a name="benefit-eligibility-policies"></a><span data-ttu-id="72bbd-103">Kazanca uygunluk ilkeleri</span><span class="sxs-lookup"><span data-stu-id="72bbd-103">Benefit eligibility policies</span></span>
+# <a name="benefit-eligibility-policies"></a><span data-ttu-id="56062-103">Kazanca uygunluk ilkeleri</span><span class="sxs-lookup"><span data-stu-id="56062-103">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="72bbd-104">Bu makalede, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="72bbd-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
+<span data-ttu-id="56062-104">Bu makalede, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="56062-104">This article provides information about benefit eligibility policies, which help you define who is eligible for specific benefits.</span></span>
 
-<span data-ttu-id="72bbd-105">Kazançlar oluşturduğunuzda hangi kazançların hangi çalışanlar için geçerli olacağına karar verirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="72bbd-106">Aşağıdaki tabloda belirli çalışanlar için geçerli hale getirilebilecek kazançlara örnekler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="72bbd-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
+<span data-ttu-id="56062-105">Kazançlar oluşturduğunuzda hangi kazançların hangi çalışanlar için geçerli olacağına karar verirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-105">When you create benefits, you decide which benefits will be available to which employees.</span></span> <span data-ttu-id="56062-106">Aşağıdaki tabloda belirli çalışanlar için geçerli hale getirilebilecek kazançlara örnekler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="56062-106">The following table shows examples of benefits that you might make available to specific employees.</span></span>
 
-| <span data-ttu-id="72bbd-107">Kazanç</span><span class="sxs-lookup"><span data-stu-id="72bbd-107">Benefit</span></span>          | <span data-ttu-id="72bbd-108">Kazanç kimin için geçerli olur</span><span class="sxs-lookup"><span data-stu-id="72bbd-108">Who the benefit is available to</span></span> |
+| <span data-ttu-id="56062-107">Kazanç</span><span class="sxs-lookup"><span data-stu-id="56062-107">Benefit</span></span>          | <span data-ttu-id="56062-108">Kazanç kimin için geçerli olur</span><span class="sxs-lookup"><span data-stu-id="56062-108">Who the benefit is available to</span></span> |
 |------------------|---------------------------------|
-| <span data-ttu-id="72bbd-109">Sağlık sigortası</span><span class="sxs-lookup"><span data-stu-id="72bbd-109">Health insurance</span></span> | <span data-ttu-id="72bbd-110">Tüm çalışanlar</span><span class="sxs-lookup"><span data-stu-id="72bbd-110">All employees</span></span>                   |
-| <span data-ttu-id="72bbd-111">Cep telefonu</span><span class="sxs-lookup"><span data-stu-id="72bbd-111">Mobile phone</span></span>     | <span data-ttu-id="72bbd-112">Satış personeli, idareciler</span><span class="sxs-lookup"><span data-stu-id="72bbd-112">Sales staff, executives</span></span>         |
-| <span data-ttu-id="72bbd-113">Park geçişleri</span><span class="sxs-lookup"><span data-stu-id="72bbd-113">Parking passes</span></span>   | <span data-ttu-id="72bbd-114">İdareciler</span><span class="sxs-lookup"><span data-stu-id="72bbd-114">Executives</span></span>                      |
+| <span data-ttu-id="56062-109">Sağlık sigortası</span><span class="sxs-lookup"><span data-stu-id="56062-109">Health insurance</span></span> | <span data-ttu-id="56062-110">Tüm çalışanlar</span><span class="sxs-lookup"><span data-stu-id="56062-110">All employees</span></span>                   |
+| <span data-ttu-id="56062-111">Cep telefonu</span><span class="sxs-lookup"><span data-stu-id="56062-111">Mobile phone</span></span>     | <span data-ttu-id="56062-112">Satış personeli, idareciler</span><span class="sxs-lookup"><span data-stu-id="56062-112">Sales staff, executives</span></span>         |
+| <span data-ttu-id="56062-113">Park geçişleri</span><span class="sxs-lookup"><span data-stu-id="56062-113">Parking passes</span></span>   | <span data-ttu-id="56062-114">İdareciler</span><span class="sxs-lookup"><span data-stu-id="56062-114">Executives</span></span>                      |
 
-<span data-ttu-id="72bbd-115">Aşağıdaki bileşenler, uygunluk politikalarının oluşturulması için kullanılır:</span><span class="sxs-lookup"><span data-stu-id="72bbd-115">The following components in are used to create eligibility policies:</span></span>
+<span data-ttu-id="56062-115">Aşağıdaki bileşenler, uygunluk politikalarının oluşturulması için kullanılır:</span><span class="sxs-lookup"><span data-stu-id="56062-115">The following components in are used to create eligibility policies:</span></span>
 
--   <span data-ttu-id="72bbd-116">Politika kuralı türleri</span><span class="sxs-lookup"><span data-stu-id="72bbd-116">Policy rule types</span></span>
--   <span data-ttu-id="72bbd-117">Kazanca uygunluk ilkeleri</span><span class="sxs-lookup"><span data-stu-id="72bbd-117">Benefit eligibility policies</span></span>
+-   <span data-ttu-id="56062-116">Politika kuralı türleri</span><span class="sxs-lookup"><span data-stu-id="56062-116">Policy rule types</span></span>
+-   <span data-ttu-id="56062-117">Kazanca uygunluk ilkeleri</span><span class="sxs-lookup"><span data-stu-id="56062-117">Benefit eligibility policies</span></span>
 
-<span data-ttu-id="72bbd-118">Politika kuralı türleri, belirli politika kuralları geliştirdiğinizde kullanılan sorgu parametrelerini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="72bbd-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="72bbd-119">Politika kuralı türleri oluşturduktan sonra kazanç uygunluk politikaları oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="72bbd-120">Politikalar bir veya birden fazla tüzel kişilik için geçerli bir kurallar topluluğu oluşturmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="72bbd-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="72bbd-121">Her bir politika kapsamında, daha önceden oluşturduğunuz kazanç uygunluk politikası kural türlerinden herhangi birini görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
+<span data-ttu-id="56062-118">Politika kuralı türleri, belirli politika kuralları geliştirdiğinizde kullanılan sorgu parametrelerini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="56062-118">Policy rule types define the query parameters that are used when you develop specific policy rules.</span></span> <span data-ttu-id="56062-119">Politika kuralı türleri oluşturduktan sonra kazanç uygunluk politikaları oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-119">After you create policy rule types, you can create benefit eligibility policies.</span></span> <span data-ttu-id="56062-120">Politikalar bir veya birden fazla tüzel kişilik için geçerli bir kurallar topluluğu oluşturmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="56062-120">The policies let you create a collection of rules that apply to one or more legal entities.</span></span> <span data-ttu-id="56062-121">Her bir politika kapsamında, daha önceden oluşturduğunuz kazanç uygunluk politikası kural türlerinden herhangi birini görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-121">Within each policy, you can view any of the benefit eligibility policy rule types that you created earlier.</span></span> 
 
-<span data-ttu-id="72bbd-122">Kuralın kapsamını politikada tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="72bbd-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="72bbd-123">Örneğin, **Yönetici** adında bir kazanç uygunluk politikası kural türü tanımlandığınızda hangi kuralın hangi politika kapsamında olduğunu belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="72bbd-124">Bu örnekte, "yönetici" sözcüğü içeren tüm iş unvanlarının kurala dahil edilmesini belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="72bbd-125">Politikaya dahil edilen kuralın veya kuralların parametrelerini tanımladıktan sonra kazanca belirli bir kural atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72bbd-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
+<span data-ttu-id="56062-122">Kuralın kapsamını politikada tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="56062-122">You define the scope of the rule within the policy.</span></span> <span data-ttu-id="56062-123">Örneğin, **Yönetici** adında bir kazanç uygunluk politikası kural türü tanımlandığınızda hangi kuralın hangi politika kapsamında olduğunu belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-123">For example, if you create a benefit eligibility policy rule type that is named **Executive**, you can specify what the rule is within that policy.</span></span> <span data-ttu-id="56062-124">Bu örnekte, "yönetici" sözcüğü içeren tüm iş unvanlarının kurala dahil edilmesini belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-124">In this example, the rule might state that any job title that contains the word "executive" should be included in the rule.</span></span> <span data-ttu-id="56062-125">Politikaya dahil edilen kuralın veya kuralların parametrelerini tanımladıktan sonra kazanca belirli bir kural atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="56062-125">After you've defined the parameters of the rule or rules that are included in the policy, you can assign a specific rule to the benefit.</span></span>
 
 
 
