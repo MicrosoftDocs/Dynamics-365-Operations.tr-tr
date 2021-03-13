@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (03 Şubat 2020)
 description: Bu makalede, 3 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527014"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128149"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (3 Şubat 2020)
 
@@ -45,7 +45,7 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 
 ## <a name="coming-soon"></a>Çok yakında
 
-Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -65,6 +65,3 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

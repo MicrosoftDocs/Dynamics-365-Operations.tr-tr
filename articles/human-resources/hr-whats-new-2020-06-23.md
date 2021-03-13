@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 25 2020)
 description: Bu konuda, 23 Haziran 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ad80e53c0a24d602ac446d3e0765f397dd0fc2d9
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528729"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127509"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (Haziran 23 2020)
 
@@ -118,9 +118,9 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 Personel self servis çalışma alanının adını Self servis olarak güncelleştirmek için **Human Resources parametrelerinde** yeni bir seçenek kullanılabilir olacaktır.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Common Data Service'te bulunan denetim listesi varlıkları
+## <a name="checklist-entities-included-in-dataverse"></a>Dataverse'te bulunan denetim listesi varlıkları
 
-Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Common Data Service'te kullanılabilir olacaktır.
+Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkları yakında Dataverse'te kullanılabilir olacaktır.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
@@ -128,5 +128,3 @@ Ekleme, çıkarma, transferler ve iş süreçleri için denetim listesi varlıkl
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

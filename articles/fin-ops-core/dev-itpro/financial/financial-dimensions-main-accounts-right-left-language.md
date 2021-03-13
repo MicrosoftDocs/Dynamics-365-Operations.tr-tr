@@ -1,6 +1,6 @@
 ---
 title: Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
-description: Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar.
+description: Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve mali boyutlar ve ana hesaplar ayarlamanız gerektiğinde vermeniz gereken kararları açıklar.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 192ed371eec24ed4e0532aaca341bb249a4933c7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2bdf1b99ae7be6c9d9c43c91c9273e18ce9b1093
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680494"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127659"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 
@@ -38,6 +38,3 @@ Mali boyutları ve ana hesaplar bir uygulama için planlama aşamasının anahta
 - Seçili hesap planı ayracını mali boyut ve ana hesap değerlerinde kullanmaktan kaçının.
 
 Bu en iyi yöntemleri izleyerek sistemde kullanıcı tanımlı sıranın tutarlı gösterimini garanti altına almaya yardımcı olursunuz.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

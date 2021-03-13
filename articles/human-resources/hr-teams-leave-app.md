@@ -2,7 +2,7 @@
 title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4421024"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128173"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -196,7 +196,6 @@ Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşa�
 | --- | --- |
 | Masaüstünde %400 yakınlaştırma eylemi, bazı eylem düğmelerini görünümden gizler. | Bu yakınlaştırma düzeyini destekleyene kadar bunun yerine Büyüteç kullanmanızı öneririz. |
 | **Zaman aşımı** sekmesinde, VoiceOver zaman kılavuzu için üstbilgiyi okurken düğme eylemini duyurur. | Kılavuz içindeki başlık ve öğeler yıla göre gruplandırılır ve bunlar daraltılabilir öğelerdir. VoiceOver, bunu işlem yapılabilir bir madde olarak yorumlar, ancak böyle değildir. |
-| Bir Popup veya Menu açıkken çekme yaparken, VoiceOver açılır öğe veya menü içeriğini okumayı atlar. | İçeriği Finger taraması kullanarak keşfedin. |
 | **İzin süresi** sekmesinde, Yeni bir istekte **neden koduna** giderken fazladan bir çekme hareketi vardır. | Çekme gezintisinin alınmaya çalıştığı gizli denetim yoktur. |
 | **İzin süresi** sekmesinde, takvim açıkken çekme yaparken yeni bir istekte en üstte veya bir istek düzenlenirken denetimin dışında sona erer. | **Bugüne git**'e ulaştığınızda , denetimin sonuna kadar, en üste geri dönmek için ters yönde çekin. |
 | VoiceOver Tarih etiketlerini okumaz. | Çiftler halinde karşılaşılan tarihler her zaman **Başlangıç tarihi** ve **bitiş tarihi**. |
@@ -229,6 +228,3 @@ Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams i�
 [Microsoft Teams platformunu indirme ve yükleme](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams yardım merkezi](https://support.office.com/teams)</br>
 [Teams'de Human Resources uygulaması](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

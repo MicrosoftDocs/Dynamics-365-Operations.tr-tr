@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (3 Mart 2020)
 description: Bu makalede, 3 Mart 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6f6f4a32e4bf85908f51eb1eed858b704c814dc
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e4007daa51d661a2a6b67c323cfaf05c22543371
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526866"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128053"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (3 Mart 2020)
 
@@ -31,9 +31,9 @@ ms.locfileid: "4526866"
 
 Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler açıklanmaktadır. Değişiklikler derleme numarası 8.1.2955 uygulanır. Bazı başlıklardaki parantez içindeki numaralar referans için LCS destek numaralarına referans verir.
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service çözümü şimdi aşağıdaki değişikliklerle kullanılabilir:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse çözümü şimdi aşağıdaki değişikliklerle kullanılabilir:
 
-Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -44,9 +44,9 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
-Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Common Data Service çözümünü el ile yüklemek için:
+Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Dataverse çözümünü el ile yüklemek için:
 
 1.  [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ne gidin.
 
@@ -96,5 +96,3 @@ Aşağıdaki önizleme özellikleri 3 Şubat 2020'de kullanılabilir duruma gelm
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

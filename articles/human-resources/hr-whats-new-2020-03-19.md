@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (19 Mart 2020)
 description: Bu makalede, 19 Mart 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6eddce5b8efa1d62dff3238a5a0b69510ed4c387
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526878"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127981"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (19 Mart 2020)
 
@@ -53,7 +53,7 @@ Artık, özellik yönetiminde etkinleştirilmiş **çoklu izin türü** önizlem
 
 İşten çıkarılan bir işe sahip çalışanlar için, işten çıkarma sırasında etkin olan birincil pozisyon varlıkta görüntülenir. Tümleştirmeler için, çalışanın çalışan pozisyon ataması için yinelenen bir kayıt oluşturulmayacaktır. 
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service çözümü şimdi aşağıdaki değişikliklerle kullanılabilir:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse çözümü şimdi aşağıdaki değişikliklerle kullanılabilir:
 
 | Tanım | Değiştirme |
 | --- | --- |
@@ -65,12 +65,12 @@ Artık, özellik yönetiminde etkinleştirilmiş **çoklu izin türü** önizlem
 | Yeni değişken ücret kurulumu varlıkları | <ul><li>**Değişken Ücret Planı Türü**</li><li>**Maaş değişken planı**</li><li>**Hakediş ödeme kuralları**</li><li>**Değişken Ücret Planı Düzeyi**</li></ul> |
 | Yeni **çalışan takvimi çalışan** varlığı | <ul><li>**İş takvimi varlığı** eklendi</li></ul> |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | <ul><li>**Bordro pozisyon ayrıntısı** eklendi</li></ul> |
-| Yeni **Başlık** varlığı | <ul><li>**Unvan** eklendi</li></ul>Common Data Service'a yeni **Unvan** varlığı eklendi ancak bu varlığa şu an için  **İş Pozisyonu** veya **İş** varlıklarından başvurulamamaktadır. |
+| Yeni **Başlık** varlığı | <ul><li>**Unvan** eklendi</li></ul>Dataverse'a yeni **Unvan** varlığı eklendi ancak bu varlığa şu an için  **İş Pozisyonu** veya **İş** varlıklarından başvurulamamaktadır. |
 
 > [!NOTE]
-> Pozisyonlar ve istihdam için mali boyutlar, Human Resources'tan Common Data Service'a güncelleştirmeler için tek yönlü tümleştirme sağlar. Mali boyut güncelleştirmeleri şu an için Common Data Service'tan Human Resources ile eşitlenmez.
+> Pozisyonlar ve istihdam için mali boyutlar, Human Resources'tan Dataverse'a güncelleştirmeler için tek yönlü tümleştirme sağlar. Mali boyut güncelleştirmeleri şu an için Dataverse'tan Human Resources ile eşitlenmez.
 
-Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Common Data Service çözümünü el ile yüklemek için:
+Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Dataverse çözümünü el ile yüklemek için:
 
 1.  [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ne gidin.
 
@@ -130,5 +130,3 @@ Aşağıdaki Önizleme özellikleri 3 Şubat 2020 ' da kullanılabilir:
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

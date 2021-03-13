@@ -1,6 +1,6 @@
 ---
-title: Lifecycle Services'tan çift yazma kurulumu
-description: Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı arasında Microsoft Dynamics Lifecycle Services'tan (LCS) nasıl çift yazma bağlantısı kurulabileceğini açıklar.
+title: Lifecycle Services'dan çift yazma kurulumu
+description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından nasıl çift yazma bağlantısı ayarlayacağınız açıklanmaktadır.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683537"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127605"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'tan çift yazma kurulumu
+# <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı 
     - Dataverse ortamı kiracınız için zaten sağlanmışsa, onu seçebilirsiniz.
 
         1. **Dataverse'ı yapılandır** seçeneğini **Evet** olarak ayarlayın.
-        2. **Kullanılabilir ortamlar** alanında, Finance and Operations verileriyle tümleştirilecek ortamı seçin. Liste, yönetici ayrıcalıklarına sahip olduğunuz tüm ortamları içerir.
+        2. **Kullanılabilir ortamlar** sütununda, Finance and Operations verileriyle tümleştirilecek ortamı seçin. Liste, yönetici ayrıcalıklarına sahip olduğunuz tüm ortamları içerir.
         3. Hüküm ve koşulları kabul etmiş olduğunuzu belirtmek için **Kabul et** onay kutusunu seçin.
 
         ![Dataverse ortamı kiracınız için zaten sağlandığında Dataverse sekmesi](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı 
         ![Kiracınızda Dataverse ortamı olmadığında Dataverse sekmesi](../dual-write/media/lcs_setup_2.png)
 
 7. **Dağıtım ayarları** sihirbazında kalan adımları tamamlayın.
-8. Ortamın durumu **Dağıtıldı** olduktan sonra, ortam ayrıntıları sayfasını açın. **Dataverse ortam bilgileri** bölümü, Finance and Operations ortamı adını ve bağlanan Dataverse ortamı adını gösterir.
+8. Ortamın durumu **Dağıtıldı** olduktan sonra, ortam ayrıntıları sayfasını açın. **Power Platform Tümleştirmesi** bölümü, Finance and Operations ortamı adını ve bağlanan Dataverse ortamı adını gösterir.
 
-    ![Dataverse ortam bilgileri bölümü](../dual-write/media/lcs_setup_3.png)
+    ![Power Platform Tümleştirmesi bölümü](../dual-write/media/lcs_setup_3.png)
 
 9. Finance and Operations ortam yöneticisinin LCS'de oturum açması ve bağlantıyı tamamlamak için **Uygulamalar için CDS'ye Bağla**'yı seçmesi gerekir. Ortam ayrıntıları sayfası yöneticinin ilgili kişi bilgilerini gösterir.
 
@@ -86,10 +84,8 @@ Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı 
 
 10. Finance and Operations ortamındaki **Veri tümleştirme** çalışma alanını açmak ve kullanılabilir şablonları kontrol etmek için **Uygulamalar için CDS'ye Bağla**'yı seçin.
 
-    ![Dataverse ortam bilgileri bölümündeki Uygulamalar için CDS'ye Bağla düğmesi](../dual-write/media/lcs_setup_4.png)
+    ![Power Platform Tümleştirmesi bölümündeki Uygulamalar için CDS'ye Bağla düğmesi](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finance and Operations ortamdaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

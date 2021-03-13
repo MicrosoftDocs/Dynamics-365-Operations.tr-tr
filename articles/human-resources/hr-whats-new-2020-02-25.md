@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (25 Şubat 2020)
 description: Bu makalede, 25 Şubat 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4faecb83518f3ef8af825872abc2a6ffb94162fc
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526822"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128034"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (25 Şubat 2020)
 
@@ -55,15 +55,15 @@ Bu değişiklikle, bir pozisyonu ve aynı pozisyon için etkin ücret kaydı bul
 
 Bu değişiklik, ek kapatma katılımcılarının performans incelemesine eklenme sorununu düzeltir.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>Yeni Çalışan iletişim kutusunda seçildiğinde çalışan pozisyonu ataması Common Data Service'ta oluşturulmuyor (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>Yeni Çalışan iletişim kutusunda seçildiğinde çalışan pozisyonu ataması Dataverse'ta oluşturulmuyor (413479)
 
-Bu değişiklik, yeni bir çalışan işe alınırken ve yeni işe alınan kişi **Yeni çalışan** iletişim kutusu aracılığıyla bir pozisyona atanırken oluşan bir sorunu düzeltir. Şimdi pozisyon ataması Common Data Service'ta yansıtılır.
+Bu değişiklik, yeni bir çalışan işe alınırken ve yeni işe alınan kişi **Yeni çalışan** iletişim kutusu aracılığıyla bir pozisyona atanırken oluşan bir sorunu düzeltir. Şimdi pozisyon ataması Dataverse'ta yansıtılır.
 
 ## <a name="coming-soon"></a>Çok yakında
 
-### <a name="updated-common-data-service-solution"></a>Güncellenen Common Data Service çözümü
+### <a name="updated-dataverse-solution"></a>Güncellenen Dataverse çözümü
 
-Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında kullanıma sunulur:
+Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma sunulur:
 
 | Tanım | Değiştirme |
 | ----------------------------------------- | --- |
@@ -74,9 +74,9 @@ Aşağıdaki değişikliklerle , yeni bir Common Data Service çözüm yakında 
 | Yeni değişken ücret kurulumu varlıkları | **Değişken Ücret Planı Türü**</br>**Maaş değişken planı**</br>**Hakediş ödeme kuralları**</br>**Değişken Ücret Planı Düzeyi** |
 | Yeni **çalışan takvimi çalışan** varlığı | **İş takvimi varlığı** eklendi |
 | Yeni **Bordro pozisyon ayrıntısı** varlığı | **Bordro pozisyon ayrıntısı** eklendi |
-| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Common Data Service eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
+| Yeni **Başlık** varlığı | **Başlık** eklendi. Yeni **başlık** varlığı insan kaynakları ve Dataverse eşitleme işlemine dahil edilecek. İlk olarak **iş pozisyonundan** veya **iş** varlıklarından başvurulmaz. |
 
-Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Common Data Service çözümünü el ile yüklemek için:
+Gelecek birkaç hafta içinde bu varlık değişiklikleri tüm ortamlarda kullanılabilir olacaktır. Human Resources için en son Dataverse çözümünü el ile yüklemek için:
 
 1.  [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ne gidin.
 
@@ -106,5 +106,3 @@ Aşağıdaki önizleme özellikleri 3 Şubat 2020'de kullanılabilir duruma gelm
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

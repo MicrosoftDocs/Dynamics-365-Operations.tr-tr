@@ -1,6 +1,6 @@
 ---
 title: Fatura onayları mobil çalışma alanı
-description: Bu konu, Fatura onayları mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, fatura başlığı iş akışı işlemi üzerinden size atanmış olan faturaların bir listesini sağlar.
+description: Bu konu, Fatura onayları mobil çalışma alanı hakkında bilgi sağlar.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683420"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127581"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Fatura onayları mobil çalışma alanı
 
@@ -86,6 +86,3 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 7.  Faturaya eklenmiş herhangi bir notu veya dosyaları görmek için **Ekler**'i seçin.
 8.  **Fatura ayrıntıları** sayfasında, gözden geçirme işleminizi tamamlamak için ilgili iş akışı eylemini seçin.
 9.  **Tamam**'ı seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

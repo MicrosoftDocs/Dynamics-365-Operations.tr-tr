@@ -1,8 +1,8 @@
 ---
 title: Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 description: Bu konuda, 14 Mayıs 2020 için Microsoft Dynamics 365 Human Resources'taki yeni veya değişen özellikler açıklanmaktadır.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: b8d65236d316035722451a871afabedc6ab73f7a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528509"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127861"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (14 Mayız 2020)
 
@@ -35,9 +35,9 @@ Bu konuda, Dynamics 365 Human Resources'daki yeni veya değişen özellikler aç
 
 Platform değişiklikleri, bu haftaki sürüme dahil edildi. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.10 sürümü için platform güncelleştirmeleri (Mayıs 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Bu sürümde, hata düzeltmeleri ve kaydedilmiş görünümlerde değişiklikler bulunmaktadır.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Common Data Service seçim listelerinin İzin sabit listeleriyle tutarlı olduğundan emin olma (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Dataverse seçim listelerinin İzin sabit listeleriyle tutarlı olduğundan emin olma (436343)
 
-Common Data Service seçim listeleri artık İzin sabit listeleriyle tutarlı.
+Dataverse seçim listeleri artık İzin sabit listeleriyle tutarlı.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>İzin isteği iş akışını, istek miktarına göre kullanıcıların yapılandırmasına izin verme (300044)
 
@@ -75,7 +75,7 @@ Bu değişiklik, izin planına iki izin türünün atandığı ancak bir çalı�
 
 Bu değişiklikle birlikte Başlarken başlığı, Sistem yöneticisi veya Veri yönetimi yöneticisi olmayan kullanıcılar için gizlenir. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Common Data Service Çalışan Adresi varlığının Human Resources'taki tarih saat bilgilerinin geçerli olduğu tarihler açısından farklı çalışması (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Dataverse Çalışan Adresi varlığının Human Resources'taki tarih saat bilgilerinin geçerli olduğu tarihler açısından farklı çalışması (425071)
 
 Bu değişiklik, adres bilgilerini adres tarihlerine göre belirli senaryolarda hizalanmış halde tutar.
 
@@ -119,5 +119,3 @@ Bu sürüm İnsan Kaynakları parametrelerini İzin ve devamsızlık parametrele
 [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
