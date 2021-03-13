@@ -3,24 +3,23 @@ title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/13/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: a09ac2c3c198bf7d7d34a1ae1739af6b62d8dce7
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517512"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118667"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -43,43 +42,34 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 |Ülke|Nakledilebilecek tarih|Yayım sürümü|Düzenleme güncelleştirmesi|
 |--------------------|---------------|-------|-------|
 |      Avusturya         |   2020 Eylül      | 10.0.15      |   KDV beyanname biçimi U30, 2020 raporlaması için güncelleştirildi   |
-|      Bahreyn         |   2020 Haziran      | 10.0.13      |   Fatura çıkış son tarihi (GCC)   |
-|      Bahreyn         |   2020 Eylül      | 10.0.13      |   Bahreyn için proje faturası   |
-|      Bahreyn         |   2020 Haziran      | 10.0.13      |   Bahreyn için KDV Beyannamesi - Hareket açıklamasını etkinleştirme   |   
-|      Brezilya         |   Ağustos 2020      | 10.0.14, 10.0.13      |   ADRCST beyannamesi PR   |
-|      Brezilya         |   Mayıs 2020      | 10.0.13      |   SPED ECF düzen 6   |
-|      Brezilya         |   Temmuz 2020      | 10.0.13      |   SPED Mali - Kayıt C176 - RS durumu   |
-|      Brezilya         |   2020 Ekim      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT 2019.001 v 1.51-Distrito Federal tarafından Kazanç yasasının ardından doğrulama kurallarının benimsenmesi   |
-|      Brezilya         |   2020 Ekim      | 10.0.16      |   SPED Mali - Düzen 015   |
-|      Brezilya         |   Kasım 2020      | 10.0.15HF      |   SPED Mali ICMS / RS durumu için IPI kaydı C176 güncelleştirmesi   |
+|      Belçika         |   2020 Aralık      | 10.0.16      |   Belçika: Dynamics 365 Finance'te "İhracat genel muhasebe hareketleri" raporu performans iyileştirmesi   |   
+|      Brezilya         |   Kasım 2020      | 10.0.15HF      |   SPED Mali ICMS/IPI - Kayıt C176 - RS durumu   |
+|      Brezilya         |   2020 Ekim      | 10.0.16, 10.0.15HF      |   NF-e NT 2019.001 v 1.51-Distrito Federal tarafından Kazanç yasasının ardından doğrulama kurallarının benimsenmesi   |
+|      Brezilya         |   Ekim 2020, Kasım 2020      | 10.0.16, 10.0.15HF      |   SPED Mali - Düzen 015   |
 |      Brezilya         |   2020 Ekim      | 10.0.16      |   DRCST beyannamesi SC - SEF 262/2020   |
 |      Brezilya         |   2020 Ekim      | 10.0.16      |   SPED Mali ICMS / IPI kaydı C176   |
-|      Çek Cumhuriyeti      |   Temmuz 2020      | 10.0.13      |   XML şemasındaki KDV denetim ifadesi değişiklikleri (fatura listesi)   |
-|      Çek Cumhuriyeti         |   Temmuz 2020      | 10.0.13      |   XML'deki KDV beyannamesi, Excel'de KDV beyannamesi önizleme ve Vergi beyanı modeline dayalı olarak KDV denetim ifadesi XML biçimleri   |
-|      Avrupa        |   Ağustos 2020       | 10.0.14      |   İş ortağı KDV No'sunu Intrastat'a aktarma  |
-|      Finlandiya         |   Temmuz 2020       | 10.0.13      |   Finlandiya için elektronik fatura desteği  |
-|      Hindistan         |   Temmuz 2020      | 10.0.13      |   206C (1H) bölümü doğrultusunda öalların satışında TCS - PAN tabanlı hareketlerin toplamına göre eşik değeri.  |
-|      Hindistan         |   Ağustos 2020 - Haziran 2020      | 10.0.13      |   İhraç faturası için alacak/borç dekontu  |
-|      Hindistan         |   Ağustos 2020      | 10.0.13      |   GST altında Elektronik Faturalar  |
-|      Hindistan         |   Temmuz 2020      | 10.0.13      |   Yeni GSTR (ANX-1 ve ANX-2) çevrimdışı Aracı (Beta sürümü)  |
-|      Hindistan         |   2020 Ekim      | 10.0.14HF, 10.0.13HF      |   Hindistan için stok transfer emrinde GST kapsamında e-fatura|
-|      Hindistan         |   2020 Ekim      | 10.0.14HF, 10.0.13HF      |   Birden fazla GSTIN kaydıyla, Hindistan için GST kapsamında e-fatura|
-|      Hindistan         |   2020 Eylül      | 10.0.13HF      |   3/5 ondalık basamaklarda stopaj vergisi oranı|
-|      Hindistan         |   2020 Eylül      | 10.0.14HF      |   Numara sırası grubu: "GSTNSG", hareket türü: "0073" vergi bilgisiyle GST referans numarası sıra grubu için ayarlanacak "GST Faturası"|
-|      İtalya         |   Temmuz 2020      | 10.0.13      |   İtalya elektronik faturalar biçiminde değişiklikler - FatturaPA |
-|      Malezya         |   Temmuz 2020      | 10.0.13      |   SST raporu |
-|      Meksika         |   2020 Eylül      | 10.0.13HF      |   Anexo 20 belgesini temel alan CFDI URL şeması konumu |
+|      Brezilya         |   2020 Aralık      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Dijital platform aracısının tanımlanması (Düzen ve doğrulama kuralları güncelleştirmeleri)   |
+|      Avrupa        |   2021 Ocak       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - AB ülkelerinde toplum içi ticaret raporlamasına Kuzey İrlanda Protokolü etkisi  |
+|      Almanya        |   2021 Ocak       | 10.0.16HF      |   ELSTER UstVA KDV ön bildirim biçimi, kurtarılamayan borçlar için 37,50 olan iki yeni kutu ile genişletildi  |
+|      Almanya        |   2021 Ocak       | 10.0.17      |   ELSTER KDV ön bildirim XML yapısındaki değişiklikler (UstVA)  |
+|      Genel        |   2021 Ocak       | 10.0.16      |   KDV/GST şeması için sorumlu sıfatıyla KDV mekanizmasını etkinleştir  |
+|      Hindistan         |   2020 Aralık      | 10.0.16, HF, 10.0.15HF      |   Mal Satışlarına İlişkin TCS Bölüm 206 9(1H), CBDT basın bülteni temelinde değişiklik  |
+|      Letonya         |   2020 Aralık      | 10.0.17      |   Intrastat biçimi 2021'in başlangı itibarıyla güncelleştirildi  |
+|      Meksika         |   2020 Aralık      | 10.0.17, 10.0.16, 10.0.15      |   "Monto" Özniteliği Güncelleştirmesi |
 |      Hollanda         |   2020 Ekim      | 10.0.16     |   Intrastat biçimi 2021'in başlangı itibarıyla güncelleştirildi |
-|      Norveç         |   Ağustos 2020      | 10.0.14     |   SAF-T - "Fiş" ile hareket gruplandırma düzeyi, "Günlük" yerine "Hareket" öğesi düzeyinde raporlanmalıdır |
-|      Polonya          |   2020 Eylül     | 10.0.14     |   Polonya: JPK-V7M (VDEK) Excel biçimi - SSRS raporunu değiştirmek için  |
-|      Polonya          |   Temmuz 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Gönüllü bölünmüş ödeme geliştirmeleri |
-|      Polonya          |   2020 Ekim     | 10.0.13HF     |   Zorunlu bölünmüş ödeme geliştirmeleri |
-|      Polonya          |   Kasım 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) - Perakende hareketleri için FP ve RO türü satış belgesi |
+|      Hollanda         |   2020 Aralık      | 10.0.167     |   Hollanda taksonomisi NT15'in yeni sürümü |
+|      Polonya          |   2020 Eylül     | 10.0.15     |   Gönüllü bölünmüş ödeme geliştirmeleri |
+|      Polonya          |   Kasım 2020     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) - Perakende hareketleri için FP ve RO türü satış belgesi |
 |      Polonya          |   2020 Eylül     | 10.0.15     |   Polonya: JPK-V7M (VDEK) - rapor oluşturma işlemini parçalar halinde çalıştırma işleminden yararlanma olasılığı |
 |      Polonya          |   2020 Ekim     | 10.0.16     |   JPK-V7M (VDEK) raporu - "Gönüllü bölünmüş ödeme" parametre düzenlemesi |
-|      Rusya          |   Ağustos 2020     | 10.0.14    |   Muhasebe raporlama biçimi 2020'den itibaren değişiyor  |
-|      Rusya          |   Temmuz 2020     | 10.0.13    |   Sahip olma maliyeti temelinde amortisman hesaplama ve Vergi muhasebesinde Amortisman bonusu uygulamayla ilgili önemli düzeltmeler  |
+|      Polonya          |   Kasım 2020     | 10.0.16, 10.0.15HF     |   Perakende - Talep başına perakende müşteri için fatura düzenleme |
+|      Polonya          |   2021 Ocak     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Polonya: Ocak 2021'den itibaren geçerli olmak üzere JPK_KR (SAF Muhasebe defterleri) açıklamaları |
 |      Rusya          |   Kasım 2020     | 10.0.16    |   KDV beyannamesi biçimi, 2020 4. Çeyrek raporlamasından itibaren sürüm 5.07'ye güncelleştirildi|
+|      Rusya          |   2020 Ekim     | 10.0.16    |   2020 muhasebe raporlaması için PBU18'deki değişiklikler|
+|      Rusya          |   2021 Ocak     | 10.0.17    |   2020 raporlaması için emlak vergisi beyannamesinin yeni bir biçimi (5.06 yerine teknik sürüm 5.07)|
+|      İspanya          |   Kasım 2020     | 10.0.17    |   SII güncelleştirme doğrulaması ve hataları v.2.1(bis), 1 Ocak 2021'den itibaren|
+|      Birleşik Krallık         |   2020 Aralık     | 10.0.17, 10.0.16, 10.0.15    |   Müşteri faturalarında şirket vergi kaydı (Brexit - Kuzey İrlanda Protokolü)|
+|      Birleşik Krallık          |   2020 Aralık     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit - Kuzey İrlanda Protokolü hem GB hem de NI konumlarında mal ticareti yapan şirketleri etkiler|
 
 
 
@@ -87,6 +77,3 @@ En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvur
 - Planlanan ve yayınlanan tüm mevzuat güncelleştirmelerini [Lifecycle Service - Konu arama](https://lcs.dynamics.com/Logon/Index) üzerinde bulun (oturum açma gerekli).
 - Desteklenen yerelleştirmelerin listesi için [Uluslararası kullanılabilirlik kılavuzuna](https://aka.ms/dynamics_365_international_availability_deck) göz atın.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

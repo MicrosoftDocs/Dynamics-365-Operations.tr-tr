@@ -2,7 +2,7 @@
 title: Soru formlarının sonuçlarını görüntüleme ve değerlendirme
 description: Bu makale yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420997"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116128"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Soru formlarının sonuçlarını görüntüleme ve değerlendirme
 
@@ -44,7 +44,7 @@ Ayrıca kişi, yanıt oturumu veya sonuç grubuna göre sıralanmış sonuçlar�
 
 ## <a name="answer-session-results"></a>Yanıt oturumu sonuçları
 
-Yanıtlayanlar bir anketi tamamladıktan sonra, tamamlanan yanıt oturumlarının sonuçlarını görüntüleyebilirsiniz. Bir yanıt oturumu kullanıcının bir ankete yanıtıdır. Tamamlanmış yanıt oturumları hakkındaki ayrıntıları **Yanıtlar** sayfasında görüntüleyebilirsiniz.  **Yanıtlar** sayfasına dahil edilen yanıt oturumları sayfayı nasıl açtığınıza bağlı olarak çeşitli yollarla filtrelenir:
+Yanıtlayanlar bir anketi tamamladıktan sonra, tamamlanan yanıt oturumlarının sonuçlarını görüntüleyebilirsiniz. Bir yanıt oturumu kullanıcının bir ankete yanıtıdır. Tamamlanmış yanıt oturumları hakkındaki ayrıntıları **Yanıtlar** sayfasında görüntüleyebilirsiniz. **Yanıtlar** sayfasına dahil edilen yanıt oturumları sayfayı nasıl açtığınıza bağlı olarak çeşitli yollarla filtrelenir:
 
 -   Tüm anketler
 -   Belirli bir anket
@@ -52,9 +52,9 @@ Yanıtlayanlar bir anketi tamamladıktan sonra, tamamlanan yanıt oturumlarını
 
 **Yanıtlar** sayfasından, yanıtlar hakkındaki ayrıntıları, kazanılan puanları, bir yanıtlayanın her yanıt grubundaki yanıtlarını ve eğer bir soru hiyerarşisi kullanıldıysa, seçili ankette kullanılan soru hiyerarşisini görüntüleyebilirsiniz. Ayrıca aşağıdaki raporları oluşturabilir ve yazdırabilirsiniz:
 
--   **Sonuç raporu** – Bu rapor, seçili yanıt oturumu için sonuç grubu başına kazanılan puanların grafik gösterimini gösterir.
+-   **Sonuçlar raporu**: Bu rapor, seçili yanıt oturumu için sonuç grubu başına kazanılan puanların grafik gösterimini gösterir.
 -   **Yanıt raporu** – Bu rapor, anketteki her soru için yanıtlayanın seçtiği cevapları gösterir.
--   **Yanlış yanıtlar** – Bu rapor yanıtlayanın seçtiği yanlış yanıtlarla ilgili bilgileri gösterir.
+-   **Yanlış yanıtlar**: Bu rapor yanıtlayanın seçtiği yanlış yanıtlarla ilgili bilgileri gösterir.
 
 > [!NOTE]
 > **Sonuçlar** raporu, yalnızca anketteki sonuç gruplarını kullanıyorsanız ve **Anketler** sayfasındaki **Sonuçlar sayfasını** seçtiyseniz kullanılabilir. **Yanıt** raporu ve **Yanlış yanıtlar** raporu yalnızca **Anketler** sayfasındaki **Yanıt raporu** seçeneğini seçtiyseniz kullanılabilir.
@@ -72,5 +72,3 @@ Tamamlanmış bir anketin sonuçlarını tanımladığınız hesaplamalara göre
 -   Yanıtlayan veya anket özelliklerine göre sonuçları analiz etmek için ölçütleri seçin veya doğrulayın. Örneğin, **Posta kodu**, seçeneğini seçerek, yanıtlayanın konumu ve doğru yanıtlar arasındaki korelasyonu analiz edebilirsiniz.
 
 Tanımladığınız ayarlar kaydedilir ve sonuçları yeniden hesaplamak için periyodik olarak kullanılabilir.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

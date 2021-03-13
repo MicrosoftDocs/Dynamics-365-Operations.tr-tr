@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448934"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120491"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 
@@ -60,6 +59,7 @@ Elemeler birden fazla yolla raporlanabilir:
 Hareket düzeyindeki ayrıntılar, raporlama ağaç tanımına dahil edilen sayıda şirket için görüntülenebileceğinden çözüm, **Mali raporlama** seçeneğidir.
 
 4.  Bütçe planlama veya bütçe kontrolü kullanıyoruz ve bunların birleştirilmesi gerekiyor.
+
 Bütçe planlama veya bütçe kontrol verilerinin birleştirilmesi için çözüm, **Mali raporlama** seçeneğidir.
 
 5.  Bağlı kuruluşlarımız dünyanın dört bir tarafında bulunuyor ve birden fazla hesap planına sahibiz. Verilerimizi birleştirmek için önerilen en iyi yöntem hangisidir?
@@ -86,10 +86,10 @@ Kısmen sahip olduğunuz bağlı kuruluşlar için birden fazla seçeneğiniz bu
 
 Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar** seçeneğini kullanabilir ve ardından diğer sürümde **İçe aktararak birleştir** seçeneğini kullanarak verileri birleştirebilirsiniz.
 
+11. **TASLAK** durumunda bütçeyle bir konsolidasyon yapabilir miyim? 
+            
+Konsolidasyon şirketinde bütçeleri işleyemez veya tamamlayamazsınız. Taslak bütçeleri konsolide etmek için Financial Reporting'i kullanmanızı öneririz.
 
 Daha fazla bilgi için bkz. [Konsolidasyon şirketinde para birimi yeniden değerleme](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
