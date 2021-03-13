@@ -1,6 +1,6 @@
 ---
 title: Mali rapor bileşenleri
-description: Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır.
+description: Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d066ee69887f05c8fe14eebac1111c4db26ec628
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682733"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093988"
 ---
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
@@ -126,6 +126,3 @@ Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı ta
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Veritabanı düzeyinde toplam hesaplamalar için model eşleme yapılandırmaları kullanma
-description: Bu yordam yeni bir Elektronik raporlama (ER) modeli eşleme yapılandırması tasarlama ve etkili toplam hesaplamalar için yerleşik ER işlevlerini kullanma hakkında bilgiler sağlar.
+description: Bu konuda, yeni bir Elektronik raporlama modeli eşleme yapılandırmasının nasıl tasarlanacağı ve etkili toplam hesaplamalar için yerleşik ER işlevlerinin nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a392697f6b91bc6555d0d72d09ecd7da32e1a3f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684128"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094277"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Veritabanı düzeyinde toplam hesaplamalar için model eşleme yapılandırmaları kullanma
 
@@ -116,6 +116,3 @@ Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne a
 68. Kaydet'i tıklatın.
     * Tanımlanan toplamlar olmamasına ve 'Tablo kayıtları' türündeki seçilen veri kaynağı aynı 'Intrastat' tablosuna başvuruda bulunmasına rağmen 'Yürütme konumu' alanı bu gruplamanın çalışma zamanında bellekte gerçekleştirileceğini gösterir. Bunun nedeni, veri kaynağının henüz SQL veritabanı düzeyine çevrilmemiş olan bazı hesaplanmış alanlar içermesidir.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 1 - Biçim oluşturma)
-description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) biçimini zaten oluşturulmuş metin çıktısının verilerine bağlı olarak nasıl sayacağını ve toplayacağını açıklar.
+description: Bu konuda, önceden oluşturulmuş metin çıktısının verilerine dayalı olarak sayma ve toplama işlemi yapmak üzere Elektronik raporlama biçiminin nasıl yapılandırılacağı açıklanmaktadır. (1. Bölüm)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1742582057cc912d8e6f90eb14e9e4cdcd193608
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7a3639b5ac28f8a571642e983906d658dabf05b1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684727"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093034"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 1 - Biçim oluşturma)
 
@@ -56,6 +56,3 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 8. Ağaçta, "Intrastat modeli" öğesini genişletin.
 9. Ağaçta, "Intrastat modeli\Intrastat (DE)" öğesini seçin.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

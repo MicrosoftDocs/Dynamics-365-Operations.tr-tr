@@ -1,6 +1,6 @@
 ---
 title: Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
-description: Aşağıdaki adımlar 'Sistem yöneticisi' veya 'Elektronik raporlama geliştiricisi' rolündeki bir kullanıcının, MS office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceklerini açıklar.
+description: Bu konuda, Excel ve Word'de katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterilmektedir.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7e15162251e5d6fa91c5a938fd846ef5b5c8cd7f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684392"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093835"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
 
@@ -119,6 +119,3 @@ Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandı
 23. Tamam'a tıklayın.
     * Oluşturulan sonucu inceleyin. Çıktı; şirket logosunu, yetkili kişinin imzasını ve seçili filigran metinini gösteren ekli resimler içeren bir Word belgesi olarak oluştulur.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

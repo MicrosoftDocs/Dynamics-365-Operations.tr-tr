@@ -1,7 +1,7 @@
 ---
 title: Finansal raporlamada gelişmiş biçimlendirme seçenekleri
-description: Finansal raporlamada bir rapor oluşturduğunuzda, ek biçimlendirme işlevleri mevcuttur; boyutlar için filtreler, sütunlar ve raporlama birimleri için kısıtlamalar, yazdırılmayan satırlar ve hesaplamalarda THEN/IF/ELSE deyimleri de dahil olmak üzere.
-author: ryansandness
+description: Bu konuda filtreler, sınırlamalar, yazdırılmayan satırlar ve hesaplamalarda koşullu deyimler dahil olmak üzere gelişmiş biçimlendirme işlevleri açıklanmaktadır.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683175"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093174"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
@@ -310,6 +310,3 @@ Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütun
 Ampersan işaretini (&) içeren boyut değerlerini kullanarak raporlar tasarlayabilirsiniz.
 
 Herhangi bir **Mali Boyuta Bağlantı** alanına, **'P&L'** gibi bir değer girebilirsiniz. Boyut değerinin her iki tarafına tek tırnak işareti (' ') ekleme, (&) ampersan karakterlerini eklemek gibi gerçek değeri kullanmakta olduğunuz anlamına gelir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

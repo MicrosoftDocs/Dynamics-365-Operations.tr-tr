@@ -1,6 +1,6 @@
 ---
 title: Kazançlar Power BI içeriği
-description: Bu konu, Kazançlar Power BI içeriğini açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, Kazançlar Power BI içeriğini açıklar.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d0a5fe54bb4f5541f610f8ea76afa7813e3a599a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5a894ebfb79eab4888178c930b9e7d55cf735c91
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687277"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093093"
 ---
 # <a name="benefits-power-bi-content"></a>Kazançlar Power BI içeriği
 
@@ -69,6 +69,3 @@ Aşağıdaki veriler **Kazançlar** Power BI içeriğindeki raporları doldurmak
 | Personel Adı            | Adı, ikinci ad ve tam adı                                                                       | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Unvanı           | Başlık ve kıdem tarihi                                                                                   | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Eğilimi           | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                                        | Şirket, Ücret, Coğrafi Konum, Personel Adı, Kime Rapor Verdiği, Takvim Kaydırma, Tarih, Personel Unvanı, Demografi, Çalışma, İş, Kazançlar |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

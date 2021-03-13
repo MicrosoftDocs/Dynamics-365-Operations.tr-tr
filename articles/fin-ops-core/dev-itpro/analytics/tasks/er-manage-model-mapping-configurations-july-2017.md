@@ -1,6 +1,6 @@
 ---
 title: Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
-description: Aşağıdaki adımlar Sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanan bir kullanıcının, Elektronik raporlama (ER) model eşleşmelerini ayrı ER yapılandırmalarında nasıl yönetebileceklerini açıklar.
+description: Bu konuda, ayrı ER yapılandırmalarında Elektronik raporlama (ER) modeli eşlemelerinin nasıl yönetileceği açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684439"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093810"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
 
@@ -161,6 +161,3 @@ ER yapılandırmalarının şirketler arasında paylaşılması nedeniyle, bu g�
 7. Tamam'a tıklayın.
     * Varsayılan model eşleme yapılandırması, bu biçim yapılandırması tarafından elektronik belge oluşturmak için kullanılır (oluşturulan çıktı şirket kodunu içerir).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4448991"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104241"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure depolama hesabı ve bir anahtar kasası oluşturma
 
 [!include [banner](../includes/banner.md)]
-
-
-
-Elektronik faturalama eklentisi servisi tüm iş verilerinizi şirketinize ait Microsoft Azure kaynaklarda saklamaktan sorumlu olur. Hizmetin doğru çalışmasını ve elektronik faturalama eklentisi için gerekli olan ve bu eklenti tarafından oluşturulan ve yalnızca eklenti tarafından oluşturulmuş tüm iş verilerine erişmesini sağlamak için iki ana Azure kaynağı oluşturmanız gerekir:
-
-- Elektronik faturaları depolamak için bir Azure depolama hesabı (Blob depolama)
-- Sertifikaları ve depolama hesabının Tekdüzen Kaynak tanımlayıcısı'nı (URI) depolamak için bir Azure Anahtar Kasası
-
-> [!NOTE]
-> Adanmış bir Anahtar Kasası kaynağı ve müşteri Blob depolaması özel olarak Elektronik faturalama eklentisi ile kullanılmak üzere ayrılmalıdır.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -91,6 +80,3 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 9. **Sorumlu** iletişim kutusunda, **Elektronik faturalama eklentisi** ekleyerek sorumluyu seçin.
 10. **Ekle**'yi seçin ve **Anahtar Kasa değişikliklerini kaydet**'i seçin.
 11. **Genel Bakış** sayfasında, anahtar kasası için **DNS adı** değerini kopyalayın. Bu değer, servisin kurulumu sırasında, RCS'de kullanılır ve *anahtar kasa URI*'si olarak anılacaktır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

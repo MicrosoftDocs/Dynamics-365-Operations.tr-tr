@@ -1,6 +1,6 @@
 ---
 title: E-posta ER hedef türü
-description: Bu konuda, giden belgeler oluşturmak üzere yapılandırılan bir Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için bir e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
+description: Bu konuda, Elektronik raporlama (ER) biçiminin her KLASÖR veya DOSYA bileşeni için e-posta hedefinin nasıl yapılandırılacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690138"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094116"
 ---
 # <a name="email-er-destination-type"></a>E-posta ER hedef türü
 
@@ -65,8 +65,6 @@ E-posta adresi türü olarak **Yazdırma Yönetimi e-postası**'nı seçerseniz 
 - **E-posta kaynağı** alanında **Hiçbiri** seçeneğini belirleyin.
 - **";" ile ayrılan ek e-posta adresleri** alanına sabit e-posta adreslerini girin.
 
-![Sabit e-posta adresini yapılandırma](./media/er_destinations-emailfixedaddress.png)
-
 Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntılarının içinden de e-posta adresleri edinebilirsiniz. Sabit olmayan e-posta adreslerini kullanmak için **E-posta kaynağı** alanında dosya hedefi için tarafın [rolünü](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) seçin. Aşağıdaki roller desteklenir:
 
 - Müşteri
@@ -92,8 +90,6 @@ Alternatif olarak, giden belge oluşturduğunuz tarafın ilgili kişi ayrıntıl
 
 Yapılandırılan rolün hesap numaraları Microsoft Dynamics 365 Finance'in tüm kurulumu için benzersiz ise **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanı boş kalabilir.
 
-![Boş E-posta kaynağının şirketi alanı](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/overview-global-address-book.md)'ndeki farklı tarafların yapılandırılan rolü doldurmak için hepsinin aynı hesap numarasını kullanacağı şekilde farklı şirketlerde ([tüzel kişilikler](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) kaydedildiği bir durumla karşılaşabilirsiniz. Bu durumda, yapılandırılan rolün hesap numaraları tüm Finance kurulumu için benzersiz değildir. Bu nedenle, bir tarafı açıkça seçmek için yalnızca hesap numarası belirtmeniz yeterli değildir. Ayrıca yapılandırılan rolü doldurmak için tarafın kaydedilği şirketi de belirtmeniz gerekir. [Formül tasarımcısı](general-electronic-reporting-formula-designer.md) sayfasını açmak için **E-posta gönderilecek adres** iletişim kutusundaki **E-posta kaynağının şirketi** alanının yanındaki **Bağla** düğmesini (zincir simgesi) seçin. Ardından, kapsamında istenen kaynağın bulunması gereken şirket kodunu çalışma zamanında döndüren formülü yapılandırmak için bu sayfayı kullanabilirsiniz.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Bunun yerine, [Genel adres defteri](../../fin-ops/organization-administration/ov
 
 > [!NOTE]
 > **Amaç** alanında amaçlar seçildiyse ve aynı zamanda **Birincil ilgili kişi** seçeneği **Evet** olarak ayarlandıysa, yapılandırılan ölçütlerden en az birini karşılayan her e-posta çalışma zamanında kullanılır.
-
-![E-posta kaynağı öznitelikleri hesabını yapılandırma](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Konfigürasyon e-postası
 
@@ -145,6 +139,3 @@ Aşağıdaki çizimde, bu konu başlığında anlatılan şekilde ayrı bileşen
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 - [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Finansal rapor tasarımcısında rapor tanımları
-description: Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı, bir satır tanımı, bir sütun tanımı ve rapor oluşturmak için isteğe bağlı bir raporlama ağacı tanımı kullanılan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar.
+description: Bu makalede rapor tanımları hakkında bilgi verilmektedir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 779548dc49be0a92456df791017045803f70bd86
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7d5531112cfb803912849af3af785b2a69a79f3d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683123"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093426"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında rapor tanımları
 
@@ -84,6 +84,3 @@ Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kulla
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

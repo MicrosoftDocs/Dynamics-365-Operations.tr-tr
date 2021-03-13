@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Services'tan bir yapılandırmayı içe aktarma
-description: Aşağıdaki konuda, Sistem yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının Elektronik Raporlama (ER) yapılandırmasına ait yeni bir sürümü Microsoft Dynamics Lifecycle Services (LCS)'den içe aktarması açıklanmaktadır.
+description: Bu konuda, Microsoft Dynamics Lifecycle Services (LCS) portalından Elektronik raporlama (ER) yapılandırmasının yeni sürümünün nasıl içeri aktarılacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684463"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093707"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Lifecycle Services'tan bir yapılandırmayı içe aktarma
 
@@ -103,6 +103,3 @@ Bu örnekte bir ER yapılandırmasının istenilen sürümünü seçecek ve Litw
     BU örnek için yapılandırmanın **Paylaşılan** durumda olan sürümünü seçin.
 
     Yalnızca seçili veri modeli yapılandırması için paylaşılan sürümü 1'in de artık kullanılabilir olduğunu unutmayın.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

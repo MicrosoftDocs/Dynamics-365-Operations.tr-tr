@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 96fbd7c2ddfcd43e38e9572a60873d5f5930c94c
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416426"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097241"
 ---
 # <a name="enrich-a-category-landing-page"></a>Kategori açılış sayfasını zenginleştirme
 
@@ -64,7 +63,6 @@ Bir kategori sayfasını zenginleştirmek için, aşağıdakileri yapın.
 
 [Ürün sayfasını zenginleştirme](enrich-product-page.md)
 
-[Sayfa içeriği erişilebilirliğini doğrula](verify-accessibility.md)
+[Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)

@@ -1,6 +1,6 @@
 ---
 title: RCS'de kullanılacak uygulama meta verileri hazırlama
-description: Bu konudaki adımlarda, bir kullanıcının Regulatory Configuration Service'ta (RCS) ER model eşleme yapılandırmaları tasarlamaya yönelik uygulama meta verilerini içeren yeni Elektronik Raporlama (ER) yapılandırmasını nasıl oluşturabileceği açıklanmaktadır.
+description: Bu konuda, uygulama meta verilerini içeren yeni bir raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d5f55d089a88642cb2bda70274472ad0f0e45cd7
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684103"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094252"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>RCS'de kullanılacak uygulama meta verileri hazırlama
 [!include [banner](../../includes/banner.md)]
@@ -80,6 +80,3 @@ Intrastat kayıt tablosu hakkında meta veri bilgileri ekledik.
 3.    **Tamam**'a tıklayın. 
     
 Oluşturulan ER meta veri yapılandırması, RCS'ye alınabilecek ve dış ticari işletme etki alanının meta verileri hakkında bilgi kaynağı olarak kullanılabilen bir XML dosyası olarak kaydedildi. Bu bilgiye dayanarak uygulama meta verileri ve ER veri modeli arasındaki eşlemeyi belirtebiliriz.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

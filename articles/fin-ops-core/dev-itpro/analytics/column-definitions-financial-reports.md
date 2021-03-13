@@ -1,6 +1,6 @@
 ---
 title: Finansal raporlarda sütun tanımları
-description: Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
+description: Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşenidir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687242"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093121"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
@@ -226,17 +226,16 @@ Bir kullanıcı, dinamik bir altı aylık tahmin için bir rapor oluşturuyor. K
 | Sütun Genişliği        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Yazdırma Kontrolü       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Kullanıcı, **Sütun Üst Bilgisi** iletişim kutusunu açmak üzere bir sütun üst bilgi hücresini çift tıklıyor ve buraya aşağıdaki bilgileri giriyor.
+Ardından kullanıcı, **Sütun Üst Bilgisi** iletişim kutusunu açmak için B sütunundaki sütun üst bilgisi hücresine çift tıklıyor ve aşağıdaki bilgileri giriyor.
 
 | Alan              | Değer                 |
 |--------------------|-----------------------|
 | Sütun başlığı metni | Gerçek Durum                |
 | Otomatik Metin Ekle    | Seçim yapılmadı. |
 | Biçim seçenekleri     | Kutu                   |
-| Yaslama      | Seçim yapılmadı. |
+| Gerekçe      | Seçim yapılmadı. |
 | Yayılma başlangıcı        | B:                     |
 | Yayılma bitişi          | TEMEL                  |
-| Bütçe başlığı      | BASE+1 ila bitiş sütunu  |
 
 Kullanıcı, bilgileri girdikten sonra **Tamam**'ı tıklıyor. Ardından kullanıcı, **Sütun Üst Bilgisi** iletişim kutusunu açmak için C sütunundaki sütun üst bilgisi hücresine çift tıklıyor ve aşağıdaki bilgileri giriyor.
 
@@ -245,9 +244,9 @@ Kullanıcı, bilgileri girdikten sonra **Tamam**'ı tıklıyor. Ardından kullan
 | Sütun başlığı metni | Bütçe                |
 | Otomatik Metin Ekle    | Seçim yapılmadı. |
 | Biçim seçenekleri     | Kutu                   |
-| Yaslama      | Seçim yapılmadı. |
-| Yayılma başlangıcı        | C                     |
-| Yayılma bitişi          | BASE+2                |
+| Gerekçe      | Seçim yapılmadı. |
+| Yayılma başlangıcı        | TEMEL+1                |
+| Yayılma bitişi          | P                     |
 
 Artık bu rapor her oluşturulduğunda, gerçek verileri içeren sütunların üzerine "Gerçek durum" ifadesi, bütçe tahminlerini içeren sütunların üzerine ise "Bütçe" ifadesi yazdırılacaktır. Ayrıca, her ay sütunların sayısı ayarlanacaktır.
 
@@ -599,6 +598,3 @@ Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğ
 [Finansal rapor tasarımcısında satır tanımları](row-definitions-financial-reporting.md)
 
 [Finansal raporlamada gelişmiş biçimlendirme seçenekleri](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

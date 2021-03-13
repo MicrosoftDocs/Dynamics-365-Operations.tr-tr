@@ -1,6 +1,6 @@
 ---
 title: ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
-description: Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.
+description: Bu konuda, ER raporları için veri kaynağı olarak mali boyutları kullanmak üzere Elektronik raporlama (ER) modelinin nasıl yapılandırılacağı açıklanmaktadır. (2. Bölüm)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 02c730d08c411e736a7f8b9e7bad3d6a18cb8e6a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681697"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093249"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)
 
@@ -147,6 +147,3 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 4. Tamamla öğesine tıklayın.
 5. Tamam'a tıklayın.
 ![ER model eşleme tasarımcısı sayfası](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

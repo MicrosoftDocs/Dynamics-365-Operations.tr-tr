@@ -1,9 +1,9 @@
 ---
 title: Elektronik raporlama (ER) hedefleri
-description: Bu konu, elektronik raporlama (ER) hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi vermektedir.
+description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687171"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097293"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -62,7 +62,7 @@ Bir ER biçimi yapılandırmasının varsayılan davranışı, ER biçimi başla
 **Toplu işleme** seçeneğini **Evet** olarak ayarlarsanız, ER biçimi [toplu iş](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) modunda çalıştırılır. Uygun toplu iş **ER parametreleri** iletişim kutusunun **Arka planda çalıştır** sekmesinde belirttiğiniz parametrelere göre oluşturulur.
 
 > [!NOTE]
-> İş açıklaması, bir ER biçimi eşlemesinin çalışması hakkında bilgi vermek üzere başlatılır. Ayrıca yürütülen ER bileşeninin adını da içerir:
+> İş açıklaması, bir ER biçimi eşlemesinin çalışması hakkında bilgi verir. Ayrıca çalıştırılan ER bileşeninin adını da içerir:
 
 [![ER biçimi çalıştırma](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Bunun ardından, **Hedef ayarları** iletişim kutusunda dosya için tekil hedef
 Örneğin, Excel biçiminde bir giden belge oluşturmak için kullanılan bir dosya bileşeni için dosya hedeflerini yapılandırmak amacıyla bu özelliği kullanabilirsiniz. Bir hedef ([Arşiv](er-destination-type-archive.md)), özgün Excel dosyasını ER işleri arşivinde depolayacak şekilde ve bir başka hedef de ([E-posta](er-destination-type-email.md)) aynı anda Excel dosyasını PDF biçimine [dönüştürecek](#OutputConversionToPDF) ve PDF dosyasını e-postayla gönderecek şekilde yapılandırılabilir.
 
 [![Tek bir biçim öğesi için birden çok hedef yapılandırma](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Bir ER biçimi çalıştırdığınızda, biçim bileşenleri için yapılandırılan tüm hedefler her zaman çalıştırılır. Ayrıca, Finance **10.0.17 sürümünde ve sonraki sürümlerde**, ER hedefleri işlevi iyileştirilmiştir ve tek bir ER biçimi için farklı hedef kümelerini yapılandırmanıza izin verir. Bu yapılandırma, her kümeyi belirli bir kullanıcı eylemine göre yapılandırılmış olarak işaretler. Kullanıcının ER biçimini çalıştırarak gerçekleştirdiği eylemin sağlanabilmesi için ER API'si [uzatılmıştır](er-apis-app10-0-17.md). Sağlanan eylem kodu, ER hedeflerine geçirilir. Sağlanan eylem koduna bağlı olarak ER biçiminin farklı hedeflerini çalıştırabilirsiniz. Daha fazla bilgi için bkz. [Eyleme bağlı ER hedeflerini yapılandırma](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Hedef türleri
 
@@ -154,7 +156,7 @@ Hedefteki **CoveringLetter** bileşeni için **Hata durumunda işlemeyi durdur**
 
 ## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Çıktıyı PDF'e dönüştürme
 
-Microsoft Office biçimindeki (Excel/Word) çıktıyı PDF'e dönüştürmek için PDF dönüştürme seçeneğini kullanabilirsiniz.
+Microsoft Office (Excel veya Word) biçimindeki çıktıyı PDF biçimine dönüştürmek için PDF dönüştürme seçeneğini kullanabilirsiniz.
 
 ### <a name="make-pdf-conversion-available"></a>PDF dönüştürmeyi kullanılabilir hale getirme
 
@@ -164,21 +166,20 @@ PDF dönüştürme seçeneğinin geçerli Finance kurulumunda kullanılabilmesin
 
 ### <a name="applicability"></a>Uygulanabilirlik
 
-PDF dönüştürme seçeneği yalnızca Microsoft Office Excel veya Word biçiminde (**Excel dosyası**) çıktı oluşturmak için kullanılan dosya bileşenleri için açılabilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür.
+PDF dönüştürme seçeneği yalnızca Office (Excel veya Word) biçiminde çıktı oluşturmak için kullanılan dosya bileşenleri (**Excel dosyası**) için açılabilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür.
 
 ### <a name="limitations"></a>Sınırlamalar
 
 > [!NOTE]
 > Bu özellik bir önizleme özelliğidir ve 365 Önizleme [Microsoft Dynamics 365 Önizlemeler için Ek Kullanım Koşulları](https://go.microsoft.com/fwlink/?linkid=2105274)'nda açıklanan kullanım koşullarına tabidir.
 
-> [!NOTE]
-> PDF dönüştürme seçeneği yalnızca bulut dağıtımları için kullanılabilir.
->
-> Üretilen PDF en fazla 300 sayfa olabilir.
->
-> Microsoft Dynamics 365 Finance 10.0.9 (Nisan 2020) sürümünde bir Excel çıktısından üretilen PDF belgesinde yalnızca yatay sayfa yönü desteklenmektedir. Dynamics 365 Finance 10.0.10 (Mayıs 2020) sürümüyle, ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
->
-> Katıştırılmış yazı tipi içermeyen bir çıktının dönüştürülmesi için yalnızca Windows işletim sisteminin ortak sistem yazı tipleri kullanılır.
+PDF dönüştürme seçeneği yalnızca bulut dağıtımları için kullanılabilir.
+
+Üretilen PDF belgesi, en fazla 300 sayfa uzunluğunda olabilir.
+
+Finance **10.0.9 sürümünde** Excel çıktısından üretilen PDF belgesinde şu anda yalnızca yatay sayfa yönü desteklenmektedir. Finance **10.0.10 (Mayıs 2020) sürümünde ve sonraki sürümlerde** ER hedefi yapılandırırken Excel çıktısından oluşturulan PDF belgesindeki [sayfa yönünü belirtebilirsiniz](#SelectPdfPageOrientation).
+
+Katıştırılmış yazı tipi içermeyen bir çıktıyı dönüştürmek için yalnızca Windows işletim sisteminin ortak sistem yazı tipleri kullanılır.
 
 ### <a name="use-the-pdf-conversion-option"></a>PDF dönüştürme seçeneğini kullanma
 
@@ -188,16 +189,16 @@ PDF dönüştürmeyi bir dosya hedefi için açmak için **PDF'e dönüştür** 
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">PDF dönüştürmesi için bir sayfa yönlendirmesi seçin</a>
 
-Excel biçiminde bir ER konfigürasyonu oluşturur ve bunu PDF formatına dönüştürmek istiyorsanız, PDF 'nin sayfa yönünü belirleyebilirsiniz. Excel biçiminde bir çıktı dosyası üreten bir dosya hedefi için PDF dönüştürmesini açmak üzere **PDF 'ye Dönüştür** onay kutusunu seçtiğinizde, **sayfa yönlendirme** alanı **PDF dönüştürme ayarları** hızlı sekmesinde kullanılabilir. **Sayfa yönlendirme** alanında, tercih edilen yönlendirmeyi seçin.
+Excel biçiminde bir ER yapılandırması oluşturur ve bunu PDF formatına dönüştürmek istiyorsanız, PDF belgesinin sayfa yönünü belirleyebilirsiniz. Excel biçiminde bir çıktı dosyası üreten bir dosya hedefi için PDF dönüştürmesini açmak üzere **PDF 'ye Dönüştür** onay kutusunu seçtiğinizde, **sayfa yönlendirme** alanı **PDF dönüştürme ayarları** hızlı sekmesinde kullanılabilir. **Sayfa yönlendirme** alanında, tercih edilen yönlendirmeyi seçin.
 
 [![PDF dönüştürmesi için bir sayfa yönlendirmesi seçin](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> PDF sayfa yönlendirmesini seçme seçeneğine sahip olmak için, Microsoft Dynamics 365 Finance sürüm 10.0.10 (2020) veya üstünü yüklemelisiniz.
+> PDF sayfa yönlendirmesini belirleme seçeneğine sahip olmak için, Finance 10.0.10 sürümünü veya sonraki bir sürümü yüklemelisiniz.
 >
 > Seçili sayfa yönlendirmesi Excel biçiminde oluşturulan tüm ER konfigürasyonlara uygulanır ve daha sonra PDF formatına dönüştürülür.
 >
-> Dönüştürülmüş PDF, Word biçimindeki bir ER yapılandırmasından oluşturulmuşsa, PDF 'nin sayfa yönlendirmesi Word belgesinden alınır.
+> Word biçimindeki bir ER yapıladırması PDF biçimine dönüştürülmüşse PDF belgesinin sayfa yönü Word belgesinden alınır.
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 
@@ -225,7 +226,7 @@ Hayır. Belge yönetim sistemi için tanımlanan ve kullanılan varsayılan Micr
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Hedef ayarlarındaki Dosyanın hedefinin amacı nedir? Bu ayar ne işe yarar?
 
-**Dosya** hedefi bir iletişim kutusunu denetlemek için kullanılır. Bu hedefi etkinleştirirseniz veya bir yapılandırma için hedef tanımlanmamışsa bir çıkış dosyası oluşturulduktan sonra bir kaydetme veya açma iletişim kutusu görünür.
+**Dosya** hedefi, etkileşimli modda ER biçimi çalıştırdığınızda web tarayıcınızın iletişim kutusunu denetlemek için kullanılır. Bu hedefi etkinleştirirseniz veya bir yapılandırma için hedef tanımlanmamışsa bir çıkış dosyası oluşturulduktan sonra web tarayıcınızda kaydetme veya açma iletişim kutusu görünür.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>E-posta gönderebileceğim bir satıcı hesabını referans gösteren bir formül örneği verebilir misiniz?
 
@@ -239,5 +240,4 @@ Formül ER yapılandırmasına özgüdür. Örneğin, ISO 20022 Borç Transferi 
 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Eyleme bağlı ER hedeflerini yapılandırma](er-action-dependent-destinations.md)

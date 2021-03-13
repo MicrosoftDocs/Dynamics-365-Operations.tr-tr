@@ -1,6 +1,6 @@
 ---
 title: Maaş Power BI içeriği
-description: Bu konu, Maaş Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+description: Bu konu, Maaş Power BI içeriğini açıklar. Raporlara nasıl erişileceğini açıklar ve kullanılan veri modeli hakkında bilgi sağlar.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687194"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093068"
 ---
 # <a name="compensation-power-bi-content"></a>Maaş Power BI içeriği
 
@@ -71,6 +71,3 @@ Aşağıdaki veriler **Ücret** Power BI içeriğindeki raporları doldurmak iç
 | Personel Adı            | Adı, ikinci ad ve tam adı                                                                       | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Unvanı           | Başlık ve kıdem tarihi                                                                                   | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Eğilimi           | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                                        | Şirket, Ücret, Coğrafi Konum, Personel Adı, Kime Rapor Verdiği, Takvim Kaydırma, Tarih, Personel Unvanı, Demografi, Çalışma, İş, Kazançlar |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

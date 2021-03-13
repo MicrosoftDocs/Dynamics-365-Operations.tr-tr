@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448869"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107732"
 ---
 # <a name="one-voucher"></a>Bir fiş
 
@@ -55,25 +54,26 @@ Bir fiş işlevi; hesap kapatma, vergi hesaplaması, hareketi geri alma, yardım
 
 Örneğin, aşağıdaki fişi deftere naklettiğinizi düşünelim.
 
-[![Örnek](./media/example.png)](./media/example.png)
+[![Çok satırlı fiş örneği](./media/example.png)](./media/example.png)
 
 Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler** raporunu oluşturursunuz. Bu raporda, gider hesap bakiyelerini satıcı grubu ve ardından satıcı altında gruplar. Rapor oluşturulurken, sistem 250,00 tutarındaki giderin hangi satıcı grupları/satıcılar tarafından tahakkuk edildiğini belirleyemez. Hareket ayrıntıları eksik olduğundan sistem, 250,00 harcamanın tamamının fişte bulunan ilk satıcı tarafından tahakkuk edildiğini varsayar. Bu nedenle, 600120 numaralı ana hesap bakiyesine dahil olan 250,00 harcama, o satıcı grubu/satıcı altında gösterilir. Ancak, fişteki ilk satıcı çok yüksek olasılıkla doğru satıcı değildir. Bu nedenle, rapor büyük olasılıkla hatalıdır.
 
-[![Gider](./media/expenses.png)](./media/expenses.png)
+[![Satıcıya göre gider raporu](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>Bir fiş'in geleceği
 
-Daha önce belirtilen sorunlar nedeniyle, Bir fiş işlevselliği geçersiz duruma getirilecektir. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, işlev aynı anda tamamen geçersiz olmayacaktır. Bunun yerine, aşağıdaki planı kullanacağız:
+Bir fiş kullanıldığında oluşabilecek sorunlar nedeniyle, bu işlevsellik kullanım dışı bırakılacaktır. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, kullanım dışı bırakma işlemi bir anda gerçekleşmeyecektir. Bunun yerine, aşağıdaki planı kullanacağız:
 
-- **Bahar 2018 sürümü** – Varsayılan olarak, işlev varsayılan olarak **Genel muhasebe parametreleri** sayfasındaki **Genel** sekmesinde bulunan **Tek bir fiş içinde birden fazla harekete izin ver** aracılığıyla kapatılır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen işlevsel boşluklardan birine denk gelen bir senaryosu varsa işlevi açabilirsiniz.
+- **Bahar 2018 sürümü** – Bu işlev varsayılan olarak **Genel muhasebe parametreleri** sayfasındaki **Genel** sekmesinde bulunan **Tek bir fiş içinde birden fazla harekete izin ver** aracılığıyla kapatılır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen işlevsel boşluklardan birine denk gelen bir senaryosu varsa bu işlevi tekrar açabilirsiniz.
 
-    - Müşterilerin Bir fiş gerektirmeyen bir iş senaryosu varsa işlevi açmamalıdır. Microsoft, başka bir çözüm varken bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmez.
-    - İşlevsel boşluklardan biri için gerekli olmadıkça tümleştirmelerde Bir fiş'i kullanmayı bırakın.
+    - İş senaryonuz için Bir fiş gerekmiyorsa işlevi kapalı bırakmanız önerilir. Microsoft, başka bir çözüm varken bile bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmez.
+    - Belgelenen işlevsel boşluklardan biri için gerekli olmadıkça tümleştirmelerde Bir fiş'i kullanmayı bırakmanızı öneririz.
 
-- **Sonraki sürümler**: Tüm işlevsel boşluklar doldurulacaktır. **İşlevsel boşluklar doldurulduğunda ve yeni özellikler sunulduğunda, Bir fiş işlevi kalıcı olarak kapatılmadan önce en az bir yıl geçer**, çünkü müşteriler ve bağımsız yazılım satıcıları (ISV'ler), yeni işleve tepki vermek üzere yeterli zamana ihtiyacı olur. Örneğin, kendi iş süreçleri, varlık ve tümleştirmeleri güncelleştirmesi gerekebilir.
+- **Sonraki sürümler** - Bu iş gereksinimlerinden bazıları yalnızca Bir fiş kullanılarak karşılanabilir. Microsoft, işlevsellik kullanımdan kalktıktan sonra tüm tanımlı iş gereksinimlerinin hala sistemde karşılanamayacağını garanti etmelidir. Bu nedenle, işlevsel boşlukları doldurmak için yeni özelliklerin eklenmesi gerekecektir. Her özellik boşluğu farklı olduğundan ve iş gereksinimlerine göre değerlendirilmek zorunda olduğundan, Microsoft belirli bir çözüm sağlayamaz. Bazı işlevsel boşluklar, belirli iş gereksinimlerini karşılamaya yardımcı olan özelliklerle değiştirilecektir. Ancak, Bir fiş kullanıldığı sırada bir günlüğe giriş yapılmasına izin vermek dışında başka boşluklar doldurulabilir fakat gerektiğinde daha ayrıntılı bilgi izlemek için sistem geliştirilir.
 
-> [!IMPORTANT]
-> **Yalnızca bir fiş numarası** seçeneğinin Günlük adı kurulumundan **kaldırılmamış** olduğunu unutmayın. Bu seçenek, fiş yalnızca genel muhasebe hesap türlerini içerdiğinde hala desteklenmektedir. Müşterilerin bu ayarı kullanırken dikkatli olması gerekir çünkü fiş **Yalnızca tek fiş numarası** seçeneğini kullanıp ardından birden fazla müşteri, satıcı, banka, sabit kıymet veya proje girmeleri durumunda deftere nakledilmez. Ayrıca, müşteriler **Satıcı**/**Banka** hesap türlerini içeren tek bir fiş içindeki bir ödeme gibi yardımcı defter hesap türlerinin bir karışımını da girebilir.
+Tüm işlevsel boşluklar doldurulduktan sonra, Microsoft özelliğin kullanımdan kaldırılacağını bildirecektir. Ancak, kullanım dışı bırakma işlemi ilgili iletişimin ardından en az bir yıl için etkili olmayacaktır. Microsoft, Bir fiş işlevinin ne zaman kullanımdan kaldırılacağı hakkında bir tahminde bulunamasa da, kullanımdan kaldırmaya en az iki yıl vardır. Microsoft'un ilkesi, kullanım dışı bırakılan işlevlerin duyurusu ile kullanım dışı bırakma işlemi arasında en az 12 ay süre bırakmaktır; böylece müşteriler ve bağımsız yazılım satıcıları (ISV) değişikliğe hazırlanmak için yeterli zamana sahip olur. Örneğin, bir kuruluşun iş süreçleri, varlık ve tümleştirmelerini güncelleştirmesi gerekebilir.
+
+Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Bu iletişim kapsamında, Microsoft bu konuyu güncelleştirir, Microsoft Dynamics 365 Finance bloguna bir blog gönderisi gönderir, "Kaldırılmış veya kullanım dışı özellikler" konusunu güncelleştirir, değişiklikleri uygun Microsoft konferanslarda yeniden iletir.
 
 ## <a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
 
@@ -84,7 +84,7 @@ Microsoft, müşterilerle yapılan görüşmelere dayanarak, müşterilerin Bir 
 Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştirilebilir. Kuruluşunuzda bu senaryolardan herhangi biri varsa, fişe girilecek birden çok hareketi etkinleştirmeniz gerekir; **genel muhasebe parametreleri** sayfasındaki **Tek bir fiş içinde birden fazla harekete izin ver** parametresi ayarını değiştirin. Bu işlevsel boşluklar, sonraki sürümlerdeki diğer özellikler ile doldurulacaktır.
 
 > [!Note]
-> [Aşağıdaki senaryoların her biri için, **Genel muhasebe parametreleri** sayfasındaki **Genel** hızlı sekmesinde **Tek bir fiş içinde birden fazla harekete izin ver** alanı Evet olarak ayarlanmalıdır.]
+> [Aşağıdaki senaryolar için **Tek bir fiş içinde birden fazla harekete izin ver** alanı, **Genel muhasebe parametreleri** sayfasındaki **Genel** hızlı sekmesinde Evet olarak ayarlanmalıdır.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Satıcı veya müşteri ödemelerini özet biçiminde banka hesabına nakletme
 
@@ -127,7 +127,7 @@ Aşağıdaki sabit kıymet hareketleri de tek bir fiş içinde birden fazla hare
 > [!Note]
 > Hareketleri girerken tüm hareketlerin aynı sabit kıymet için geçerli olduğundan emin olun. Fiş birden fazla sabit kıymet içeriyorsa **Yeni Fiş** alanı, Genel muhasebedeki **Günlük adları** sayfasında Yalnızca bir fiş numarası olarak ayarlansa bile deftere nakledilmez. Fişe birden fazla sabit kıymet eklerseniz **Fiş başına yalnızca bir sabit kıymet hareketi olabilir** iletisi görüntülenir ve fişi deftere nakledemezsiniz.  
 
-### <a name="bills-of-exchange-and-promissory-notes"></a> Kambiyo senetleri ve senetler
+### <a name="bills-of-exchange-and-promissory-notes"></a>Kambiyo senetleri ve senetler
 Kambiyo senetleri ve senetler, Bir fiş kullanımı gerektirir çünkü hareketler, müşteri veya satıcı bakiyesini ödeme durumuna bağlı olarak Alacak hesapları/Borç hesapları genel muhasebe hesabından başkasına taşır.
 
 ## <a name="scenarios-that-dont-require-one-voucher"></a>Bir fiş gerektirmeyen senaryolar
@@ -186,6 +186,3 @@ Alacak hesapları veya Borç hesapları genel muhasebe hesabında bir düzeltme 
 ### <a name="the-system-allows-it"></a>"Sistem buna izin veriyor"
 
 Kuruluşlar genellikle Tek fiş işlevini yalnızca sistem kullanmalarına olanak tanıdığından ve etkilerini anlamadan kullanır.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

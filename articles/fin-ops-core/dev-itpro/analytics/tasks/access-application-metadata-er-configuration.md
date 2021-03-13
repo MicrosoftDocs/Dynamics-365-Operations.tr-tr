@@ -1,6 +1,6 @@
 ---
 title: ER yapılandırma kullanarak uygulama meta verilerine erişim
-description: Bu konudaki adımlarda, Regulatory configuration service (RCS) kullanıcısının, Finance and Operations'ta meta verileri kullanarak yeni bir elektronik raporlama (ER) modeli eşlemesi tasarlayabileceği açıklanmaktadır.
+description: Bu konuda, Regulatory configuration service kullanıcısının, meta verileri kullanarak nasıl yeni bir Elektronik raporlama modeli eşlemesi tasarlayabileceği açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa8e9ac4940bbc1252819ebcc3de2e21c9e0933f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 58697148ecf83f4962bd64a221945b6d911e11a6
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682177"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093317"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>ER yapılandırma kullanarak uygulama meta verilerine erişim
 
@@ -125,6 +125,3 @@ Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahi
 > [!NOTE]
 > Uygulama meta verileri hakkında bilgi elde etmenin bu yolu yerel olarak dağıtılmış uygulamalar için kullanılabilecek tek yoldur (yerel işletme verileri (LBD) veya şirket içi dağıtım modeli kullanıldığında).
         
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

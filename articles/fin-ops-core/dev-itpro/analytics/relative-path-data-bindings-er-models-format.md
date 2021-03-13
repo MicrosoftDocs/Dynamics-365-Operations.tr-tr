@@ -1,6 +1,6 @@
 ---
 title: ER model ve biçimlerinin veri bağlamalarında göreli yol kullanma
-description: Elektronik raporlama (ER) aracı, kullanıcıların elektronik biçim yapılarını tanımlamasına ve sonra da içerdiği veri ve uygulamadaki algoritmaları kullanarak bu yapıların nasıl doldurulması gerektiğini açıklayabilmesine olanak tanır.
+description: Elektronik raporlama aracı, elektronik biçim yapılarını tanımlamanıza ve sonra da bu yapıların nasıl doldurulması gerektiğini açıklayabilmenize olanak tanır.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 321a85c675439b91b99ec5988494d7514a5c53f4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687490"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093149"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>ER model ve biçimlerinin veri bağlamalarında göreli yol kullanma
 
@@ -57,6 +57,3 @@ Bu özellik, ER çerçevesinin geriye dönük uyumluluğunu koparmaz. Daha önce
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [ER formül dili](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

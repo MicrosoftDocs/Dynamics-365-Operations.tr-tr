@@ -1,9 +1,9 @@
 ---
 title: Elektronik raporlamaya (ER) genel bakış
-description: Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
+description: Bu konuda, Elektronik raporlama aracına dair genel bir bakış sunulmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 33d399c6a9051097d3ea0c7990a37302395d9c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682611"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093938"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -37,6 +37,7 @@ ER altyapısı geliştiricilerden ziyade iş kullanıcılarını hedefler. Çün
 ER şimdilik TEXT, XML, Microsoft Word belgesi ve OPENXML çalışma sayfası biçimlerini desteklemektedir. Ancak bir uzantı arabirimi ek biçimleri destekler.
 
 ## <a name="capabilities"></a>Beceriler
+
 ER altyapısı aşağıdaki yeteneklere sahiptir:
 
 - Farklı etki alanlarında elektronik raporlama için tek bir paylaşımlı aracı temsil eder ve Finance and Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
@@ -46,6 +47,7 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 - Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla biçimleri iş ortakları ve müşterilere dağıtma yeteneğini destekler.
 
 ## <a name="key-concepts"></a>Kilit kavramlar
+
 ### <a name="components"></a>Bileşenler
 
 ER iki tür bileşeni destekler: **Veri modeli** ve **Biçim**.
@@ -71,7 +73,6 @@ Giden elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki öz
 - Veri modeli için veri kaynakları olarak farklı veri türlerini kullanabilir. Örneğin tabloları, veri varlıklarını, yöntemleri veya çeteleleri kullanabilir.
 - Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
 - Verinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanlar eklemenize olanak sağlar. Daha fazla bilgi için bkz. [Elektronik raporlamada (ER) formül tasarımcısı](general-electronic-reporting-formula-designer.md).
-
 
 Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
@@ -107,6 +108,7 @@ Aşağıdaki görsel, verinin bu biçimler için nasıl aktığını gösterir.
 Biçim yapılandırmasının eşleşmesini, tek bir ER biçim yapılandırmasını çalıştırmak ve giden bir elektronik belge oluşturmak için tanımlamanız gerekir.
 
 #### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Gelen elektronik belgeler için biçim bileşenleri
+
 Bir biçim bileşeni, çalışma zamanında içe aktarılan gelen belgenin planıdır. Plan aşağıdaki öğelerden oluşur:
 
 - Çalışma zamanında içe aktarılan veriyi içeren gelen elektronik belgenin yapısını ve içeriğini tanımlayan bir biçim. Bir biçim bileşeni, bir gelen belgeyi metin ve XML gibi çeşitli biçimlerde ayrıştırmak için kullanılır.
@@ -174,7 +176,7 @@ Bir **LCS paylaşımlı kitaplık** deposu Lifecycle Services (LCS) içindeki Pa
 
 **LCS projesi** havuzu, havuz kaydedildiğinde seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli kurulumdan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations uygulamalarınıza kurulumuna da aktarabilirsiniz.
 
-Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Konfigürasyonları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
+Bir **Dosya sistemi** havuzu, AOS servisinin barındırıldığı makinede xml dosyaları olarak yerel dosya sisteminin belirli bir klasöründe bulunan yapılandırmalar listesine erişim sağlar. Gerekli klasör, havuz kayıt aşamasında seçilir. Yapılandırmaları bir **Dosya sistemi** deposundan geçerli kuruluma da aktarabilirsiniz. 
 
 Bu havuz türünün aşağıdaki ortamlarda erişilebilir olduğunu unutmayın:
 
@@ -196,6 +198,7 @@ Daha fazla bilgi için bkz. [Yapılandırma Hizmeti Global deposundan Elektronik
 Gerekli **LCS projesi**, **Dosya sistemi** ve **Düzenleyici Yapılandırma Servisleri (RCS)** depoları her bir geçerli kurulumun yapılandırma sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
+
 ### <a name="building-a-data-model"></a>Bir veri modeli oluşturma
 
 ER, belirli bir iş etki alanı için bir veri modeli oluşturmak amacıyla kullanabileceğiniz bir model tasarımcısı sağlar. Tüm etki alanına özgü iş varlıkları ve aralarındaki ilişkiler hiyerarşik olarak yapılandırılmış bir veri modelinde sunulabilir. 
@@ -204,7 +207,7 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki al
 
 ### <a name="translating-data-model-content"></a>Veri modeli içeriği çevirme
 
-Veri modeli içeriği (etiketler ve tanımlar) uygulamanın desteklediği diğer dillere çevrilebilir. Aşağıdaki nedenlerden dolayı veri modeli içeriğini çevirmek isteyebilirsiniz:
+Veri modeli içeriği (etiketler ve tanımlar) uygulamaların desteklediği diğer dillere çevrilebilir. Aşağıdaki nedenlerden dolayı veri modeli içeriğini çevirmek isteyebilirsiniz:
 
 - Veri modelini biçim bileşenlerinin eşlemesi için kullanacak yabancı dilleri konuşan biçim tasarımcıları için tasarım zamanında daha anlaşılır yapmak için.
 - O anda oturum açmış kullanıcı tarafından tercih edilen dildeki yapılandırılmış doğrulama iletilerinin (hatalar ve uyarılar) yanı sıra çalıştırma zamanı parametreleri için komutları ve yardımları sunan daha kullanıcı dostu içerik oluşturmak için.
@@ -216,6 +219,7 @@ ER, kullanıcılara belirli uygulama veri kaynakları için tasarlanan veri mode
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER model eşleme tanımla ve veri kaynakları seç** ve **ER seçili veri kaynaklarına veri modeli eşle** görev kılavuzlarını ( **7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gelen belgeler için veri modeli eşlemeleri yapılandırmak
+
 ER, kullanıcılara belirli hedefler için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Örneğin, veri modelleri güncelleştirilebilir veri bileşenlerine (tablolalar, veri varlıkları ve görünümler) eşlenebilir. Eşlemeye bağlı olarak, veriler çalışma zamanında, veri modelinden veriyi kullanarak güncelleştirilir. ER biçiminin soyut depolaması olarak veri modeli, gelen bir elektronik belgeden içe aktarılan verilerle doldurulur. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Tasarlanmış model bileşenini model konfigürasyonu olarak depolama
@@ -237,6 +241,7 @@ ER biçim tasarımcısı, bir elektronik belgeyi OPENXML çalışma sayfası bi�
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **Raporlar için OPENXML biçiminde bir konfigürasyon oluştur** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın. Bir şablonun içe aktarılamsı görev kılavuzunun bir parçası olarak, [Ödeme Raporu Şablonu (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel dosyasını şablon olarak kullanın.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Bir Word belgesi biçiminde elektronik belgeler oluşturmak için bir konfigürasyon oluşturma
+
 ER biçim tasarımcısı, bir elektronik belgeyi bir Word belgesi biçiminde oluşturmak için kullanılabilir. Aşağıdaki çizim, bu tür bir biçimin örneğini gösterir. Bu biçimin, rapor çıktısını OPENXML biçiminde oluşturmak için özgün olarak tasarlanmış olan mevcut ER yapılandırmasını yeniden kullandığını unutmayın.
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için ER Microsoft WORD biçiminde raporlar oluşturmak için bir yapılandırma tasarlama görev kılavuzunu (7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677) iş işleminin parçası olarak) oynatın. Bir şablonu içe aktarmak için görev kılavuzu adımının bir parçası olarak, aşağıdaki Word dosyalarını ER biçimi için bir şablon olarak kullanın:
@@ -245,6 +250,7 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için ER Microsoft WORD bi�
 - [Ödeme Raporunun bağlı şablonu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Gelen elektronik belgelerden veri aktarmak için bir yapılandırma oluşturmak
+
 ER biçim tasarımcısı, XML ya da metin biçiminde veri içe aktarma için planlanan bir elektronik belgeyi tanımlamak için kullanılabilir. Tasarlanan biçim, gelen bir belgeyi ayrıştırmak için kullanılır. ER biçimi eşleme tasarımcısı, tasarlanan biçimin öğelerinin veri modeline bağlamasını tanımlamak için kullanılabilir. 
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için Harici bir dosyadan veri içe aktarmak için gerekli ER yapılandırmalarını oluşturma görev kılavuzunu (7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677) iş sürecinin parçası) oynatın. Bu kılavuzu oynatmak için aşağıdaki dosyaları kullanın:
@@ -265,6 +271,7 @@ Uygulama elektronik raporları oluşturmak için oluşturulan biçimi kullanmaya
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Ödemeler için elektronik belge oluşturmak için biçim kullan** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ## <a name="handling-er-components"></a>ER bileşenlerini işleme
+
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>ER bileşenini harici olarak teklif etmek için LCS'de bir ER bileşeni yayınlama (yerelleştirme)
 
 Oluşturulan bileşen sahibi (model veya biçim) LCS için bileşenin tamamlanmış sürümünü yayımlamak amacıyla ER kullanabilir. Geçerli ER konfigürasyon sağlayıcısı için **LCS projesi** türü depo gereklidir. Tamamlanmış bir bileşen sürümünün durumu **TAMAMLANDI**'dan **PAYLAŞILAN** olarak değiştirildiğinde, bu sürüm LCS'de yayımlanır. Bir bileşen LCS'de yayınlandığında bu bileşenin sahibi bu bileşeni desteklemek için hizmet sağlayıcısı olur. Örneğin, biçim bileşeni yasal olarak gerekli elektronik bir belge (örneğin, yerelleştirme senaryosuna uygun) oluşturmak için tasarlanmışsa, bu biçimin yasal değişikliklerle uyumlu tutulduğu ve yeni yasal gereksinimler ortaya çıktığında sağlayıcının bileşenin yeni sürümlerini çıkaracağı varsayılır. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Lifecycle Services'a bir yapılandırma yükleme** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
@@ -281,92 +288,13 @@ ER, LCS'den aktarıla bir bileşenin güncel sürümünden (temel) yeni bir bile
 
 ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme* olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen her değişiklik bir çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>Finance çözümüne teslim edilen ER konfigürasyonları listesi
+## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>Finance'te yayınlanmış olan ER yapılandırmalarının listesi
 
-| Etki alanına özgü veri modeli konfigürasyonları: Başlık | Etki Alanı                | Veri modeline dayalı biçim konfigürasyonları: Başlık | Açıklama                                                        |
-|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| Denetim dosyası modeli                                 | Mali denetim       |                                                   |                                                                    |
-|                                                  |                       | Denetim dosyası (NL)                                   | Hollanda için denetim dosyası biçimi                                  |
-| BAS-modeli                                        | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | BAS (AU)                                          | Avustralya için BAS biçimi                                           |
-| İnşaat sektörü plan modeli               | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | CIS aylık iade (İNG.)                           | Birleşik Krallık için CIS aylık iade biçimi                   |
-| Tahsilat mektubu modeli                          | Elektronik faturalama  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL Tahsilat Mektubu (DK)                     | Danimarka için OIOUBL tahsilat mektup biçimi                        |
-| Elektronik genel muhasebe modeli (MX)          | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | Yardımcı Genel Muhasebe XML (MX)                         | Meksika için hesap raporu biçimi başına yardımcı genel muhasebe hareketleri |
-|                                                  |                       | Hesap planı XML (MX)                         | Meksika için hesap raporu planı                          |
-|                                                  |                       | Günlükler XML (MX)                                 | Meksika için günlük hareketler rapor biçimi                      |
-|                                                  |                       | Mizan XML (MX)                            | Meksika için mizan raporu biçimi                             |
-| Elster modeli                                     | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | Elster (DE)                                       | Almanya için Elster biçimi                                          |
-| AB Satış listesi modeli                              | Ticari raporlama       |                                                   |                                                                    |
-|                                                  |                       | AB satış listesi (DE)                                | Almanya için AB Satış listesi TXT biçimi                               |
-|                                                  |                       | AB Satış listesi (DK)                                | Danimarka için AB Satış listesi TXT biçimi                               |
-|                                                  |                       | AB Satış listesi (FR)                                | Fransa için AB Satış listesi XML biçimi                                |
-|                                                  |                       | AB Satış listesi (NL)                                | Hollanda için AB Satış listesi biçimi                           |
-|                                                  |                       | AB Satış listesi TXT (UK)                            | Birleşik Krallık için AB Satış listesi TXT biçimi                    |
-|                                                  |                       | AB Satış listesi XML (UK)                            | Birleşik Krallık için AB Satış listesi XML biçimi                    |
-|                                                  |                       | Rapor sütunlu AB Satış listesi                   | Rapor sütunlu AB Satış listesi                                    |
-|                                                  |                       | Satır raporlu AB Satış listesi                      | Satır raporlu AB Satış listesi                                       |
-| FEC hesap modeli (FR)                        | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | FEC Muhasebe verileri XML (FR)                      | Fransa için FEC muhasebe verileri dışa aktarma XML biçimi                   |
-| Almanca denetim dosyası                                | Mali denetim       |                                                   |                                                                    |
-|                                                  |                       | Almanca denetim dosyası çıktısı                          | Almanya ve Avusturya için denetim dosyası çıktısı                          |
-| Intrastat modeli                                  | Ticari raporlama       |                                                   |                                                                    |
-|                                                  |                       | Intrastat (DE)                                    | Almanya için Intrastat biçimi                                       |
-|                                                  |                       | Intrastat (DK)                                    | Danimarka için Intrastat biçimi                                       |
-|                                                  |                       | Intrastat INTRACOM (FR)                           | Fransa için İntrastat INTRACOM biçimi                               |
-|                                                  |                       | Intrastat SAISUNIC (FR)                           | Fransa için Intrastat SAISUNIC biçimi                               |
-|                                                  |                       | Intrastat (NL)                                    | Hollanda için Intrastat biçimi                               |
-|                                                  |                       | Intrastat (UK)                                    | Birleşik Krallık için Intrastat biçimi                            |
-|                                                  |                       | Intrastat raporu                                  | Intrastat Excel kontrol raporu                                     |
-| Müşteri faturası modeli                           | Elektronik faturalama  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL Proje kredi notu (DK)                   | Danimarka için OIOUBL Proje kredi notu biçimi                      |
-|                                                  |                       | OIOUBL Proje faturası (DK)                       | Danimarka için OIOUBL Proje faturası biçimi                          |
-|                                                  |                       | OIOUBL Satışlar kredi notu (DK)                     | Danimarka için OIOUBL Satış kredi notu biçimi                        |
-|                                                  |                       | OIOUBL Satış faturası (DK)                         | Danimarka için OIOUBL Satış faturası biçimi                            |
-| OB beyanname modeli                             | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | OB beyannamesi (NL)                               | Hollanda için OB beyanname biçimi                          |
-| Ödeme modeli                                    | Ödemeler              |                                                   |                                                                    |
-|                                                  |                       | Betalingsservice (DK)                             | Danimarka için Betalingsservice ödeme biçimi                        |
-|                                                  |                       | Kambiyo senedi havalesi (FR)                  | Fransa için kambiyo senedini havale biçimi                      |
-|                                                  |                       | BTL91 (NL)                                        | Hollanda için BTL91 satıcı ödeme biçimi                    |
-|                                                  |                       | CFONB Prelevements (FR)                           | Fransa için CFONB doğrudan borç ödeme biçimi                       |
-|                                                  |                       | CFONB Virements (FR)                              | Fransa için CFONB yurtiçi satıcı ödeme biçimi                    |
-|                                                  |                       | Nordea Satıcı (DK)                                | Danimarka için Nordea corporate netbank satıcı ödeme biçimi         |
-|                                                  |                       | ANZ Doğrudan Kredi Hizmeti (AU)                    | Avustralya için ANZ Doğrudan Kredi Hizmeti Biçimi                 |
-|                                                  |                       | CBA Doğrudan Kredi Hizmeti (AU)                    | Avustralya için CBA Doğrudan Kredi Hizmeti Biçimi                 |
-|                                                  |                       | NAB Doğrudan Kredi Hizmeti (AU)                    | Avustralya için NAB Doğrudan Kredi Hizmeti Biçimi                 |
-|                                                  |                       | STG Doğrudan Kredi Hizmeti (AU)                    | Avustralya için STG Doğrudan Kredi Hizmeti Biçimi                 |
-|                                                  |                       | WBC Doğrudan Giriş Sistemi (AU)                      | Avustralya için WBC Doğrudan Giriş Sistemi Biçimi                   |
-|                                                  |                       | DirectLink (NZ)                                   | Yeni Zelanda için DirectLink biçimi                              |
-|                                                  |                       | JBA Ödeme dosyası (JP)                             | Japonya için JBA Ödeme biçimi                                       |
-|                                                  |                       | ISO20022 Kredi transferi                          | Avrupa için SEPA Kredi aktarma biçimi                             |
-|                                                  |                       | ISO20022 Kredi transferi (FR)                     | Fransa için SEPA Kredi aktarma biçimi                             |
-|                                                  |                       | ISO20022 Kredi transferi (DE)                     | Almanya için SEPA Kredi aktarma biçimi                            |
-|                                                  |                       | ISO20022 Kredi transferi (NL)                     | Hollanda için SEPA Kredi aktarma biçimi                    |
-|                                                  |                       | ISO20022 Otomatik ödeme                             | Avrupa için SEPA otomatik ödeme biçimi                                |
-|                                                  |                       | ISO20022 Otomatik ödeme (FR)                        | Fransa için SEPA otomatik ödeme biçimi                                |
-|                                                  |                       | ISO20022 Otomatik ödeme (DE)                        | Almanya için SEPA otomatik ödeme biçimi                               |
-|                                                  |                       | ISO20022 Otomatik ödeme (NL)                        | Hollanda için SEPA Otomatik ödeme biçimi                       |
-|                                                  |                       | BACS (İNG.)                                         | Birleşik Krallık için BACS satıcı ödeme biçimi                  |
-| Ters gider                                   | Vergi raporlama         |                                                   |                                                                    |
-|                                                  |                       | Ters gider satış listesi                         | Ters gider satış listesi biçimi                                   |
-| Hollanda XBRL tümleştirme modeli                     | XBRL raporlama        |                                                   |                                                                    |
-|                                                  |                       | Semansys XBRL (NL)                                | Hollanda için Semansys XBRL dışa aktarma biçimi                    |
-| GAF modeli (MY)                                   | Mali denetim       |                                                   |                                                                    |
-|                                                  |                       | GAF dosyası (MY)                                     | Malezya için GAF biçimi                                         |
-| Satıcı yaşlandırma raporu (CN)                         | Satıcı veri analizi |                                                   |                                                                    |
-|                                                  |                       | Satıcı yaşlandırma raporu biçimi (CN)                   | Çin için Satıcı yaşlandırma raporu biçimi                               |
-| Satıcı faturası bildirim modeli                 | Satıcı veri analizi |                                                   |                                                                    |
-|                                                  |                       | Satıcı faturası bildirimi (IS)                   | İzlanda için Satıcı fatura bildirimi biçimi                      |
-|                                                  |                       | Satıcı fatura bildirimi raporu (IS)            | İzlanda için Satıcı fatura bildirimi raporu                      |
+Finance için ER yapılandırmalarının listesi sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. **Kullanımdan kaldırma ayrıntıları** hızlı sekmesinde, kullanımdan kaldırılmış olan veya artık bakım sağlanmayan yapılandırmalar hakkındaki bilgileri inceleyebilirsiniz. 
+
+![Yapılandırma deposu sayfasında Genel depo içerikleri](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Elektronik raporlama (ER) yapılandırması oluşturma](electronic-reporting-configuration.md)
+- [Elektronik raporlama (ER) yapılandırmaları oluşturma](electronic-reporting-configuration.md)
 - [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

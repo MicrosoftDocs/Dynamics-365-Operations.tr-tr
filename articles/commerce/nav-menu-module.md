@@ -3,14 +3,13 @@ title: Gezinti menüsü modülleri
 description: Bu konu gezinti menüsü modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: 65f8b6128b140f3fa776659d8920dfc5e095213f
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4416562"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097402"
 ---
 # <a name="navigation-menu-module"></a>Gezinti menüsü modülleri
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu gezinti menüsü modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Genel bakış
 
 Gezinti menüsü modüllerinin başlıca amacı, site kullanıcılarının Dynamics 365 Commerce yönetim merkezinde tanımlanan kanal gezinti hiyerarşisine göre ürün ve site sayfalarına göz atmasına olanak sağlamaktır. Bir gezinti menüsü modülünde yapılandırılan öğeler site üstbilgisi gezintisi olarak görünür. Gezinti menüsü modülleri, bir e-ticaret sitesindeki diğer sayfalara bağlantı sağlayan statik menü öğelerini de destekler.
 
@@ -46,7 +44,9 @@ Aşağıdaki çizimde, iki düzey kategori hiyerarşisi ve bazı statik menü ö
 |---------------------------|-----------------------|-------------|
 | Kaynak                  | **Perakende**, **El ile yazma**, **Perakende ve el ile yazma** | **Perakende** değeri, Commerce yönetim merkezinde kanal gezinme hiyerarşisinin gezinti menüsünde görüntülenmesini sağlar. **El ile yazma** değeri statik menü öğelerinin oluşturulmasına izin verir. **Perakende ve el ile yazma** değeri, her ikisinin karışımına izin verir. |
 | Kategori resimlerini göster | **Doğru** veya **yanlış**    | Etkinleştirildiğinde, bu özellik gezinti menüsündeki kategori resimlerini her kategori için Commerce yönetim merkezinde tanımlandığı şekilde görüntüler. Commerce sürüm 10.0.14'e eklendi. |
-| Çok düzeyli gezinti menüsünü etkinleştir | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü gezinti hiyerarşisinin birden çok düzeyini gösterebilir. Bu özellik Dynamics 365 Commerce sürüm 10.0.15'de kullanılabilir. |
+| Promosyonları gösterme | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, promosyonlar resimler, bağlantılar ve metin kullanılarak yapılandırılabilir. Bu özellik, Commerce 10.0.17 sürümüne eklenmiştir. |
+| Promosyon ekleme | Metin görüntü veya bağlantı | **Promosyonları göster** özelliği etkinleştirildiğinde, gezinti menüsünde promosyon içeriği olarak metin, görüntü veya bağlantı ekleyebilirsiniz. |
+| Çok düzeyli gezinti menüsünü etkinleştir | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü gezinti hiyerarşisinin birden çok düzeyini gösterebilir. Bu özellik Commerce 10.0.15 sürümünde bulunur. |
 | Düzey sayısı | tamsayı | Bu özellik, **çok düzeyli gezinti menüsünü etkinleştir** özelliği **true** olarak ayarlandığında gösterilmesi gereken düzey sayısını tanımlar. |
 | Statik menü öğesi| Değerler dizisi| Bir menü öğesi adını statik site sayfasının bağlantısıyla ilişkilendiren statik menü öğeleri. Menü öğelerini diğer menü öğelerinin altında oluşturabilirsiniz. Varsayılan olarak, statik menüler kök düzeyinde görünür ve varsa kanal gezinme hiyerarşisine eklenir. |
 | Kök menüyü göster | **Doğru** veya **yanlış** | Bu özellik etkinleştirildiğinde, gezinti menüsü özel bir kök altında tanımlanabilir (örneğin, **Şimdi alışveriş yap**). Bu özellik Dynamics 365 Commerce sürüm 10.0.15'de kullanılabilir. |
@@ -72,6 +72,3 @@ Bir üstbilgi modülüne gezinti menüsü modülü ekleme hakkında ayrıntılar
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
 
 [Üst bilgi modülü](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

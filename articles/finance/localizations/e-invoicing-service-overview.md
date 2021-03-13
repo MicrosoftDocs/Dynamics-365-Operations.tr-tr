@@ -3,7 +3,7 @@ title: Elektronik faturalama eklentisine genel bakış
 description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalama eklentisi hakkında bilgi sağlar.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4448990"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104244"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Elektronik faturalama eklentisine genel bakış
 
@@ -41,13 +40,13 @@ Elektronik faturalama eklentisi aşağıdaki hedeflere ulaşmanıza yardımcı o
 - Kod değişiklikleri gerekmeyen yapılandırmalar kolayca ayarlanabilir
 - Basitleştirilmiş yapılandırma paketi
 - E-fatura belgelerinin işlenmesinde yerleşik dışa aktarma, içe aktarma ve tümleştirme, kolay genişletilebilirlik
-- Şirketler arasında aynı dışa aktarma, içe aktarma ve tümleştirme yapılandırmasının kolay yeniden kullanımı
+- Şirketler arasında aynı dışarı aktarma, içeri aktarma ve tümleştirme yapılandırmasının kolay yeniden kullanımı
 
 Elektronik faturalama eklentisini kullanmak için, Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden yüklemeniz gerekir. Daha sonra, Finance veya Supply Chain Management uygulamalarıyla tümleştirmeyi açmak için kurulum yordamını izleyin. Daha fazla bilgi için bkz. [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Kullanılabilirlik
+## <a name="service-availability"></a><a name="availability"></a>Hizmet kullanılabilirliği
 
-Başlangıçta, Elektronik faturalama eklentisi bir önizleme programıyla seçili müşteriler tarafından kullanılabilir. Daha sonra, önizleme daha geniş bir müşteri kitlesine açılacaktır. Son olarak, servis genel kullanıma açık olacaktır. Ülkeye/bölgeye özel gereksinimleri karşılayan işlevler, sürümün farklı aşamalarında sınırlı olduğundan, her zaman desteklenen ülkeye/bölgeye özel çözümlerin kapsam ve kapsamını vurgulayan en güncel belgeleri denetlemeniz gerekir.
+Elektronik faturalama eklentisi şu anda, önizleme programıyla müşterilere sunulmaktadır ve sonraki aşamada hizmet genel kullanıma açık hale gelecektir. Ülkeye/bölgeye özel gereksinimleri karşılayan işlevler, sürümün farklı aşamalarında sınırlı olduğundan, her zaman desteklenen ülkeye/bölgeye özel çözümlerin kapsam ve kapsamını vurgulayan en güncel belgeleri denetlemeniz gerekir.
 
 Elektronik faturalama eklentisi aşağıdaki Azure coğrafyalarında dağıtıldı:
 
@@ -76,7 +75,7 @@ Elektronik faturalama eklentisi, belirtilen taraflara elektronik belge oluşturm
     - Yerleşik, kolayca genişletilebilir ve çeşitli ülkelerde ek içerikle yapılandırılabilir tümleştirme
 
     > [!NOTE]
-    > Şu anda sınırlı sayıda doğrudan gönderimler desteklenmektedir. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan [Kullanılabilirlik](#availability) bölümüne bakın. Destek ileride genişletilecektir.
+    > Şu anda sınırlı sayıda doğrudan gönderimler desteklenmektedir. Daha fazla bilgi için bu konunun önceki kısımlarında yer alan [Hizmet kullanılabilirliği](#availability) bölümüne bakın. Destek ileride genişletilecektir.
 
 - Yapılandırılabilir özel durum iletisi işleme dahil olmak üzere Web hizmetlerinden yanıtların işlenmesi
 - Elektronik imza desteği (örneğin, XMLDSIG imza algoritması kullanılarak)
@@ -104,15 +103,9 @@ Aşağıdaki şekil, Elektronik faturalama eklentisi ile arasındaki veri akış
 ![Elektronik faturalama eklentisinde veri akışı](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
-Elektronik faturalandırmanın etkinleştirilmesi ve kullanılması, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimlerde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
+Elektronik faturalandırma eklentisinin etkinleştirilmesi ve kullanılması, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimlerde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-
-- [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md)
-- [Brezilya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-bra-get-started.md)
-- [Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-mex-get-started.md)
-- [İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-ita-get-started.md)
-- [Elektronik faturalamayı eklentisini kurma](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Hizmet yönetimi](e-invoicing-service-administration.md)
+- [RCS'de elektronik faturaları yapılandırma](e-invoicing-configuration-rcs.md)
+- [Finance ve Supply Chain Management'ta elektronik fatura kesme](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
