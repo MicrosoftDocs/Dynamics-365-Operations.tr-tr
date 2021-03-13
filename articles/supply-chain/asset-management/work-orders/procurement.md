@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 552b1b211460ae86af06e183af91c062a3ee569a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439494"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020216"
 ---
 # <a name="procurement"></a>Tedarik
 
@@ -100,6 +99,3 @@ Aşağıdaki örnekte **Faaliyet numarasına** odaklanılmış **Satınalma sipa
 
 Benzer şekilde, bir siş emri satınalma talebi satırıyla ilgili faaliyet numarasını görüntülemek veya girmek için **İş emri satınalma talebi** liste sayfasında satınalma talebi kaydını seçin ve ardından **Satınalma talebi** sütununda, satınalma talebi bağlantısını seçin. **Satır ayrıntıları** hızlı sekmesinin **Proje** sekmesinde **Faaliyet numarası** alanını bulabilirsiniz.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

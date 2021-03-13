@@ -1,7 +1,7 @@
 ---
 title: Teklif talebi oluşturma
 description: Bu prosedür, bir satın alma teklifinin nasıl oluşturulacağını gösterir.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchCreateRFQCase, InventLocationIdLookup, PurchRFQCaseTable, InventItemIdLookupSimple, EcoResCategorySingleLookup, UnitOfMeasureLookup, PurchRFQEditLines, PurchRFQEditLinesPrintOptions, VendRFQJournal, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59202cb6678660ae035f9f76ebe4267bac01d78f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439168"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019916"
 ---
 # <a name="create-a-request-for-quotation"></a>Teklif talebi oluşturma
 
@@ -81,6 +80,3 @@ RFQ'nuz hakkında temel bilgileri belirledikten sonra satıcıların teklif verm
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

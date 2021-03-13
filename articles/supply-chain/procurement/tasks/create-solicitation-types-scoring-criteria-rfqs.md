@@ -1,7 +1,7 @@
 ---
 title: RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma
 description: Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama yöntemi ile nasıl ilişkilendirileceği gösterilir.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b3876238a191cbbacc4e8c435bb798232e6fd6f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40625152a579bb269411d026d77d449902c8d4bc
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439403"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016818"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma
 
@@ -52,6 +51,3 @@ Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama y�
 8. Tamam'a tıklayın.
 9. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

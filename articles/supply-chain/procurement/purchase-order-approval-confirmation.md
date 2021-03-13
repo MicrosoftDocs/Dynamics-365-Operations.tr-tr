@@ -1,7 +1,7 @@
 ---
 title: Satınalma siparişlerini onaylama
 description: Bu konuda, oluşturulduktan sonra bir satınalma siparişinin geçtiği durumlar ve satınalma siparişlerinde değişiklik yönetiminin etkinleştirilmesinin etkisi açıklanmaktadır.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439618"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018458"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama
 
@@ -41,7 +40,7 @@ PO'lar için değişiklik yönetimini **Tedarik ve kaynak atama parametreleri** 
 
 Değişiklik yönetimi etkinleştirildiğinde PO'lar **Sonlandırıldı** ile **Taslak** arasında altı onay durumundan geçer. Sipariş onaylandıktan sonra değiştirmek isteyen kullanıcılar **Değişiklik iste** eylemini kullanmalıdır.
 
-| Onay durumu | Tanım                                                                      | İstenen değişiklik etkinleştirilir |
+| Onay durumu | Tanım                                                                      | Değişiklik iste etkinleştirilir |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
 | Taslak           | SAS bir taslaktır ve SAS iş akışında onaya gönderilmemiştir.     | Hayır                        |
 | İncelemede       | PO, PO iş akışında onaya gönderilmiştir. Onay bekliyor.       | Hayır                        |
@@ -99,6 +98,3 @@ SAS, değişiklik yönetimi altındaysa, siparişin veya teslimat bakiyesinin ip
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

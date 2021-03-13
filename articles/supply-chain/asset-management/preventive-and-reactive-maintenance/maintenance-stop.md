@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439330"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017977"
 ---
 # <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
@@ -97,6 +96,3 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 - Varlıkları bir bakım kesinti süresi faaliyetinden diğerine kopyalayabilirsiniz. **Tüm bakım kesinti süresi faaliyetleri**'nde **Bakım kesinti süresi faaliyetlerini kopyala** düğmesini seçin ve **Bakım kesinti süresi faaliyetlerinden** ve **Bakım kesinti süresi faaliyetlerine** alanlarında seçimlerinizi yapıp **Tamam**'a tıklayın.
 - **Tüm bakım kesinti faaliyetleri**'nde ilgili listeleri açmak ve seçilen bakım kesinti süresi faaliyetiyle ilgili satırları görüntülemek için **Bakım zamanlaması satırları** düğmesine veya **Etkin iş emirleri** düğmesine tıklayın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

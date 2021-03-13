@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bec6612290de71933ea1cb3bbe2147b9c98e21bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff485e05b10b0d22d0fdac6d764cebb13507f391
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439188"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018815"
 ---
 # <a name="asset-management-overview"></a>Varlık yönetimine genel bakış
 
@@ -38,6 +37,3 @@ Aşağıdaki görüntü Finance and Operations'taki diğer modüllere yönelik a
 ![Varlık Yönetimi tümleştirmesine genel bakış](media/overview-integrate2.jpg)
 
 Varlık Yönetimi, şirketinizdeki makineler, üretim ekipmanları ve araçlar gibi birçok ekipman türünü yönetmek ve bakım hizmeti vermek için ilgili görevleri verimli bir şekilde yönetmenize ve gerçekleştirmenize olanak tanır. Varlık Yönetimi birçok sektördeki çözümleri destekler.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

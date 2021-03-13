@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439401"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020241"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -138,6 +137,3 @@ Gantt şemasını görüntülemek ve çalışmak için:
     - Görüntülenen bir iş emrini yeniden planlamak için, bunu seçip uygun yeni tarih ve saate sürükleyin.
 
 1. Herhangi bir değişiklik yaptıysanız bunları kaydetmek için Eylem Bölmesi'nde **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

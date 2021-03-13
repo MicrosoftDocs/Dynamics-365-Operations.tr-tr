@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetStandardSparePartsItemGroup, EntAssetObjectBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f42646ae865cd530203c997fd10c8ccd59e7fa2b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: baaf516eb386c3cf63d72bf31800b8731121fe26
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439435"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019540"
 ---
 # <a name="asset-boms"></a>Varlık Ürün Reçeteleri
 
@@ -84,6 +83,3 @@ Varlıklar için el ile madde satırları oluşturabilirsiniz.
 5. Maddenin süresi dolacaksa, **Bitiş** alanına bir bitiş tarihi girin.
 6. **Madde numarası** alanında maddeyi seçin. Ad **Ürün adı** alanına otomatik olarak girilir.
 7. **Miktar** alanına kullanılan miktarı girin. **Birim** alanı otomatik olarak güncelleştirilir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

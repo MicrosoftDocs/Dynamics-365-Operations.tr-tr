@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439405"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020666"
 ---
 # <a name="asset-management-parameters"></a>Kıymet Yönetimi parametreleri
 
@@ -34,21 +33,20 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
 > [!NOTE]
 > Kıymet yönetimi özelliklerini sınamak için demo verileri içeren bir sistem kurmak istiyorsanız, talimatlar için bkz. [Demo ortamı oluştur](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md).
 
-**Kıymetler** bağlantısı
+## <a name="the-assets-tab"></a>Kıymetler sekmesi
+
+**Kıymetler** sekmesi aşağıdaki ayarları sağlar:
 
 - **Varsayılan işlem yapılacak yerleşim** yeni kıymetler oluşturduğunuzda kıymetlerde otomatik olarak seçilen standart işlem yapılacak yerleşimdir.  
 - **Standart takvim** alanında kıymet üzerinde hiçbir kaynak seçilmediyse kıymet KPI'larını hesaplamada kullanılacak takvimi seçin.  
 - **Görünüm** alanında **Kıymet görünümü** formunu açtığınızda gösterilen standart görünümü seçin (**Kıymet yönetimi** > **Ortak** > **Kıymetler** > **Kıymet görünümü**).
 - **Varsayılan talep türü** yeni bir talep oluşturduğunuzda otomatik olarak seçilen standart bakım talebi türüdür.  
-- Kıymetlerle ilgili projeler oluşturmak istiyorsanız **Ana proje**, **Proje hiyerarşisi** seçimi ve **Projeleri otomatik oluşturma** seçeneğiyle ilgili proje ilişkiler **Kıymet yönetimi parametreleri**'nde ayarlanır.  
-- **İş emri proje maskesi** alanında iş emirleri ve alt kıymetler için izin verilen alt projelerin sayısını tanımlayın. Bir iş emri maskesi bir kıymet üzerinde oluşturulabilecek ve ilgili iş emri iş projesinde kullanılabilecek iş emirlerinin sayısını tanımlamak için kullanılır. İş emri maskesi **Kıymet yönetimi parametreleri**'ndeki **İlgili İş emri maskesi** alanında ayarlanır (**Kıymet yönetimi** > **Kurulum** > **Kıymet yönetimi parametreleri** > **İş emirleri**).  
-    >[!NOTE]
-    >İlgili iş emri maskesinin biçimi kıymet üzerinde oluşturmayı beklediğiniz iş emirlerinin maksimum sayısına bağlı olarak karma işareti (#) sayısıdır. Örnek: ## ile 99 alt proje oluşturabilirsiniz.  
 - İş türlerine ilişkin tahminler **Tahmin projesi** alanında seçili olan projede depolanır. Her iş türü için tahmin projesinde yeni bir etkinlik otomatik olarak oluşturulur. İş türüne ilişkin tahminler daha sonra tahmin projesinde kaydedilir.  
-- **Model** alanında, iş türü ve iş emri tahminlerinde kullanılan tahmin modelini seçin.  
+- **Model** alanında, iş türü ve iş emri tahminlerinde kullanılan tahmin modelini seçin.
 
+## <a name="the-work-orders-tab"></a>İş emirleri sekmesi
 
-**İş emirleri** bağlantısı
+**İş emirleri** sekmesi aşağıdaki ayarları sağlar:
 
 - **Varsayılan iş emri türü** bir iş emri oluştururken standart ayarları tanımlar.  
 - **Önleyici iş emri türü** bakım planlarından iş emri oluştururken kullanılan iş emri türünü tanımlar. Bu alan boş bırakılırsa **Varsayılan iş emri türü** alanındaki iş emri türü kullanılır.  
@@ -67,8 +65,9 @@ Kıymet Yönetimi'nde kıymetler, iş emirleri ve iş emri zamanlamasıyla ilgil
     - Bakım sıraları ayarları  
 - **Kategori** hızlı sekmesinde iş emirlerinde tüketimle ilgili varsayılan kategoriler tanımlanabilir.  
 
+## <a name="the-work-order-scheduling-tab"></a>İş emri zamanlaması sekmesi
 
-**İş emri planlaması** bağlantısı
+**İş emri zamanlaması** sekmesi, **Genel** hızlı sekmesinde aşağıdaki ayarları sağlar.
 
 - **Zamanlama zaman dilimi** iş emri işlerinin planlanması boyunca iş emrinin başlangıç tarihinden itibaren hesaplanan süreyi gün cinsinden tanımlar.  
 - **Master plan** **Kuruluş yönetimi** modülündeki kaynaklarla ilgilidir. Bu alanda bir master plan seçerseniz iş emirleriyle ilgili kapasite rezervasyonlarını **Kapasite rezervasyonları** içinde görebilirsiniz (**Kuruluş yönetimi** > **Kaynaklar** > **Kaynaklar** > kaynak seç > **Kaynak** sekmesi > **Kapasite rezervasyonları** düğmesi). Bu alanı boş bırakırsanız iş emirleriyle ilgili kapasite yükünü **Kapasite yükü** içinde görebilirsiniz (**Kuruluş yönetimi** \> **Kaynaklar** \> **Kaynaklar** \> kaynak seç \> **Kaynak** sekmesi \> **Kapasite yükü** düğmesi).  
@@ -100,13 +99,10 @@ Aşağıdaki listesinde açıklanan alanların tümü iş emri planlaması sıra
   - Planlanacak iş emrinde sorumlu çalışan ve sorumlu çalışan grubu seçilmediği varsayımıyla, yukarıdaki **Tercih edilen çalışan**, **Tercih edilen çalışan grubu**, **Kıymet yerleşimi** ve **Başlangıç tarihi** alanlarına verilen örneklerin derecelendirme puanı değerlerini ekleyip çıkardığınızda toplam 3.010,00 elde edersiniz. Bu, tercih edilen çalışan seçilen ve iş emrinde tercih edilen çalışan grubuna dahil edilen çalışanın yüksek puan alacağı ve çalışanın planlanması gereken işe ilişkin kıymetle aynı tesiste bulunduğu anlamına gelir. Genel olarak da iş emri planlamasında işi tamamlamak için söz konusu çalışanın seçilme olasılığının yüksek olduğu anlamına gelir.  
   - Yukarıdaki sekiz alandan birine "0,00" değeri girilirse bu derecelendirme puanı iş emri planlaması sırasında kullanılmaz.  
 
-**Belge türleri** bağlantısı
+## <a name="the-document-types-tab"></a>Belge türleri sekmesi
 
 İş emri raporuyla ilgili ekleri yazdırmak için kullanılabilir olması gereken belge türlerini seçin. Bu işlem **Kullanılabilir** bölümünde bir belge türüne ve ardından ![ileri ok](media/15-setup-for-objects.png) düğmesine tıklayarak yapılır. Seçili belge türünü kaldırmak isterseniz **Seçili** bölümünde belge türünü seçin ve ![geri ok](media/16-setup-for-objects.png) düğmesine tıklayın.
 
-**Numara serileri** bağlantısı
+## <a name="the-number-sequences-tab"></a>Numara serileri sekmesi
 
 Gereken numara serilerini bu bölümde seçin. Kıymetler için iki numara sırası vardır: Biri el ile oluşturulan kıymetler ve diğeri de bekleyen kıymetler aracılığıyla oluşturulan kıymetler içindir.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
