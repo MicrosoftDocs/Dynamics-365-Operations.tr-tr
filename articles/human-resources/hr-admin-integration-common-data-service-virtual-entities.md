@@ -1,9 +1,9 @@
 ---
-title: Common Data Service sanal varlıklarını yapılandırma
-description: Bu konu, Dynamics 365 Human Resources için sanal varlıkların nasıl yapılandırılacağını göstermektedir. Mecvut sanal varlıkları oluşturun ve güncelleştirin ve oluşturulan ve kullanılabilir varlıkları inceleyin.
+title: Dataverse sanal tablolarını yapılandırma
+description: Bu konu, Dynamics 365 Human Resources için sanal tabloların nasıl yapılandırılacağını göstermektedir. Mecvut sanal tabloları oluşturun ve güncelleştirin ve oluşturulan ve kullanılabilir tabloları inceleyin.
 author: andreabichsel
 manager: tfehr
-ms.date: 11/02/2020
+ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,49 +18,54 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: cd299b51e38cc30c3e18f3ef9de1f43fa817b840
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645613"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114639"
 ---
-# <a name="configure-common-data-service-virtual-entities"></a>Common Data Service sanal varlıklarını yapılandırma
+# <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources Common Data Service'taki sanal bir veri kaynağıdır. Common Data Service ve Microsoft Power Platform'dan tam oluşturma, okuma, güncelleştirme ve silme (CRUD) işlemleri sağlar. Sanal varlıkların verileri Common Data Service'de depolanmaz , ancak uygulama veritabanında depolanır. 
+Dynamics 365 Human Resources Microsoft Dataverse'taki sanal bir veri kaynağıdır. Dataverse ve Microsoft Power Platform'dan tam oluşturma, okuma, güncelleştirme ve silme (CRUD) işlemleri sağlar. Sanal tabloların verileri Dataverse'de depolanmaz ancak uygulama veritabanında depolanır.
 
-Human Resources varlıklarındaki CRUD işlemlerini Common Data Service'den etkinleştirmek için, varlıkları Common Data Service'de sanal varlıklar olarak kullanılabilir yapmalısınız. Bu, Common Data Service ve Microsoft Power Platform'dan Human Resources'daki veriler üzerinde CRUD işlemleri gerçekleştirmenizi sağlar. Operasyonlar, varlıklara veri yazarken veri bütünlüğünü sağlamak için Human Resources'ın tam iş mantığı doğrulamalarını da destekler.
-
-## <a name="available-virtual-entities-for-human-resources"></a>Human Resources için kullanılabilir sanal varlıklar
-
-Human Resources'taki tüm Açık Veri Protokolü (OData) varlıkları Common Data Service'de sanal varlıklar olarak kullanılabilir. Bunlar Power Platform uygulamasında da kullanılabilir. Artık verileri Common Data Service'a kopyalamadan veya eşitlemeden doğrudan Human Resources'dan tam CRUD özelliği ile verileri kullanarak uygulamalar ve deneyimler oluşturabilirsiniz. Human Resources'taki iş süreçleri için işbirliği senaryolarını etkinleştiren, harici tabanlı web siteleri oluşturmak için Power Apps portallarını kullanabilirsiniz.
-
-Ortamda etkinleştirilmiş sanal varlıkların listesini görüntüleyebilir ve [Power Apps](https://make.powerapps.com) içindeki varlıklarla **Dynamics 365 HR Sanal Varlıklar** çözümünde çalışmaya başlayabilirsiniz.
-
-![Power Apps'taki Dynamics 365 HR Sanal Varlıkları](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
-
-## <a name="virtual-entities-versus-natural-entities"></a>Sanal varlıklar ve doğal varlıklar
-
-Human Resources için sanal varlıklar, Common Data Service'taki Human Resources için oluşturulan doğal varlıklarla aynı değildir. Human Resources için doğal varlıklar ayrı olarak oluşturulur ve Common Data Service'deki HCM Ortak çözümünde tutulur. Doğal varlıklarla, veriler Common Data Service'ta depolanır ve Human Resources uygulama veritabanıyla eşitleme gerektirir.
+Human Resources varlıklarındaki CRUD işlemlerini Dataverse'den etkinleştirmek için varlıkları Dataverse'de sanal tablolar olarak kullanılabilir yapmalısınız. Bu, Dataverse ve Microsoft Power Platform'dan Human Resources'daki veriler üzerinde CRUD işlemleri gerçekleştirmenizi sağlar. Operasyonlar, varlıklara veri yazarken veri bütünlüğünü sağlamak için Human Resources'ın tam iş mantığı doğrulamalarını da destekler.
 
 > [!NOTE]
-> Human Resources için Common Data Service doğal varlıkların listesi için bkz. [Common Data Service varlıkları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+## <a name="available-virtual-tables-for-human-resources"></a>Human Resources için kullanılabilir sanal tablolar
+
+Human Resources'taki tüm Açık Veri Protokolü (OData) varlıkları Dataverse'de sanal tablolar olarak kullanılabilir. Bunlar Power Platform uygulamasında da kullanılabilir. Artık verileri Dataverse'a kopyalamadan veya eşitlemeden doğrudan Human Resources'dan tam CRUD özelliği ile verileri kullanarak uygulamalar ve deneyimler oluşturabilirsiniz. Human Resources'taki iş süreçleri için işbirliği senaryolarını etkinleştiren, harici tabanlı web siteleri oluşturmak için Power Apps portallarını kullanabilirsiniz.
+
+Ortamda etkinleştirilmiş sanal tabloların listesini görüntüleyebilir ve [Power Apps](https://make.powerapps.com) içindeki tablolarla **Dynamics 365 HR Sanal Tablolar** çözümünde çalışmaya başlayabilirsiniz.
+
+![Power Apps'teki Dynamics 365 HR Sanal Tabloları](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+
+## <a name="virtual-tables-versus-native-tables"></a>Sanal tablolar ve yerel tablolar karşılaştırması
+
+Human Resources için sanal tablolar, Dataverse'teki Human Resources için oluşturulan yerel tablolarla aynı değildir. 
+
+Human Resources için yerel tablolar ayrı olarak oluşturulur ve Dataverse'deki HCM Ortak çözümünde tutulur. Yerel tablolarla, veriler Dataverse'ta depolanır ve Human Resources uygulama veritabanıyla eşitleme gerektirir.
+
+> [!NOTE]
+> Human Resources için Dataverse yerel tablolarının listesi için bkz. [Dataverse tabloları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
 
 ## <a name="setup"></a>Ayar
 
-Ortamınızdaki sanal varlıkları etkinleştirmek için bu kurulum adımlarını izleyin.
+Ortamınızdaki sanal tabloları etkinleştirmek için bu kurulum adımlarını izleyin.
 
-### <a name="enable-virtual-entities-in-human-resources"></a>Human Resources'ta sanal varlıkları etkinleştirme
+### <a name="enable-virtual-tables-in-human-resources"></a>Human Resources'ta sanal tabloları etkinleştirme
 
-Önce, **özellik yönetimi** çalışma alanında sanal varlıkları etkinleştirmelisiniz.
+Önce, **özellik yönetimi** çalışma alanında sanal tabloları etkinleştirmelisiniz.
 
 1. İnsan Kaynakları, **sistem yönetimi**'ni seçin.
 
 2. **Özellik yönetimi** kutucuğunu seçin.
 
-3. **HR/CD 'de sanal varlık desteğini** seçin ve **Etkinleştir** 'i seçin.
+3. **Dataverse'te HR için sanal tablo desteği**'ni seçin ve **Etkinleştir**'i seçin.
 
 Özellikleri devre dışı bırakma ve etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
 
@@ -74,13 +79,13 @@ Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Micr
 
 3. **Yeni kayıt** öğesini seçin.
 
-4. **Ad** alanına uygulama için açıklayıcı bir ad girin. Örneğin, **Dynamics 365 Human Resources Sanal Varlıkları**.
+4. **Ad** alanına uygulama için açıklayıcı bir ad girin. Örneğin, **Dynamics 365 Human Resources Sanal Tabloları**.
 
 5. **Yeniden yönlendirme URI'si** alanında Human Resources kurulumunuzun ad alanı URL'sini girin.
 
 6. **Kayıt**'ı seç.
 
-7. Kayıt tamamlandığında, Azure portalı uygulama kaydı **Uygulama (istemci) kimliğini** de içeren **Genel bakış** bölmesini görüntüler. Şu anda **Uygulama (istemci) kimliğini** not edin. [Sanal varlık veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source) bu bilgileri gireceksiniz.
+7. Kayıt tamamlandığında, Azure portalı uygulama kaydı **Uygulama (istemci) kimliğini** de içeren **Genel bakış** bölmesini görüntüler. Şu anda **Uygulama (istemci) kimliğini** not edin. [Sanal tablo veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source) bu bilgileri gireceksiniz.
 
 8. Sol gezinti bölmesinde, **Sertifikalar ve gizli anahtarlar**'ı seçin.
 
@@ -88,14 +93,14 @@ Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Micr
 
 10. Bir açıklama sağlayın, bir süre seçin ve **Ekle**'yi seçin.
 
-11. Gizli anahtar değerini kaydedin. [Sanal varlık veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source) bu bilgileri gireceksiniz.
+11. Gizli anahtar değerini kaydedin. [Sanal tablo veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source) bu bilgileri gireceksiniz.
 
     > [!IMPORTANT]
     > Bu aşamada, gizli anahtarın değerini not aldığınızdan emin olun. Bu sayfadan ayrıldıktan sonra gizli anahtar hiçbir zaman görüntülenmez.
 
-### <a name="install-the-dynamics-365-hr-virtual-entity-app"></a>Dynamics 365 HR Sanal Varlık uygulamasını yükleme
+### <a name="install-the-dynamics-365-hr-virtual-table-app"></a>Dynamics 365 HR Sanal Tablo uygulamasını yükleme
 
-Sanal varlık çözüm paketini Common Data Service'a dağıtmak için Dynamics 365 HR Sanal Varlık uygulamasını Power Apps ortamınıza yükleyin.
+Sanal tablo çözüm paketini Dataverse'a dağıtmak için Dynamics 365 HR Sanal Tablo uygulamasını Power Apps ortamınıza yükleyin.
 
 1. [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ni açın.
 
@@ -105,7 +110,7 @@ Sanal varlık çözüm paketini Common Data Service'a dağıtmak için Dynamics 
 
 4. **Uygulamayı yükle** eylemini seçin.
 
-5. **Dynamics 365 HR Sanal Varlık** öğesini ve **İleri**'yi seçin.
+5. **Dynamics 365 HR Sanal Tablosu** öğesini ve **İleri**'yi seçin.
 
 6. Hizmet koşullarını gözden geçirin ve kabul etmek için işaretleyin.
 
@@ -113,11 +118,11 @@ Sanal varlık çözüm paketini Common Data Service'a dağıtmak için Dynamics 
 
 Yükleme birkaç dakika sürer. Bu işlem tamamlandığında sonraki adımlara devam edin.
 
-![Dynamics 365 HR Sanal Varlık uygulamasını Power Platform yönetim merkezinden yükleyin](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
+![Dynamics 365 HR Sanal Tablo uygulamasını Power Platform yönetim merkezinden yükleyin](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
 
-### <a name="configure-the-virtual-entity-data-source"></a>Sanal varlık veri kaynağını yapılandırma 
+### <a name="configure-the-virtual-table-data-source"></a>Sanal tablo veri kaynağını yapılandırma 
 
-Sonraki adım, sanal varlık veri kaynağını Power Apps ortamında yapılandırmaktır. 
+Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırmaktır. 
 
 1. [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ni açın.
 
@@ -161,7 +166,7 @@ Sonraki adım, sanal varlık veri kaynağını Power Apps ortamında yapılandı
 Human Resources'ta iki Azure AD uygulaması için izin verin:
 
 - Microsoft Azure portalında kiracınız için oluşturulan uygulama
-- Power Apps ortamında yüklü olan Dynamics 365 HR Sanal Varlık uygulaması 
+- Power Apps ortamında yüklü olan Dynamics 365 HR Sanal Tablo uygulaması 
 
 1. Human Resources'ta **Azure Active Directory uygulamaları** sayfasını açın.
 
@@ -174,48 +179,45 @@ Human Resources'ta iki Azure AD uygulaması için izin verin:
 3. İkinci uygulama kaydını oluşturmak için **Yeni**'yi seçin.
 
     - **İstemci Kimliği**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Ad**: Dynamics 365 HR Sanal Varlığı
+    - **Ad**: Dynamics 365 HR Sanal Tablosu
     - **Kullanıcı kimliği** alanında, Human Resources ve Power Apps ortamında yönetici izinlerine sahip olan kullanıcının kullanıcı kimliğini seçin.
 
-## <a name="generate-virtual-entities"></a>Sanal varlıklar oluşturma
+## <a name="generate-virtual-tables"></a>Sanal tablolar oluşturma
 
-Kurulum tamamlandığında, Common Data Service örneğiniz içinde oluşturmak ve etkinleştirmek istediğiniz sanal varlıkları seçebilirsiniz.
+Kurulum tamamlandığında, Dataverse örneğiniz içinde oluşturmak ve etkinleştirmek istediğiniz sanal tabloları seçebilirsiniz.
 
-1. Human Resources'ta **Common Data Service (CDS) tümleştirmesi** sayfasını açın.
+1. Human Resources'ta **Dataverse tümleştirmesi** sayfasını açın.
 
-2. **Sanal varlıklar** sekmesini seçin.
+2. **Sanal tablolar** sekmesini seçin.
 
 > [!NOTE]
-> **Sanal varlığı etkinleştir** geçiş düğmesi, gerekli tüm kurulum tamamlandığında otomatik olarak **Evet** olarak ayarlanır. Geçiş düğmesi **Hayır** olarak ayarlanmışsa, tüm önkoşul kurulumun tamamlandığından emin olmak için bu belgenin önceki bölümlerindeki adımları gözden geçirin.
+> **Sanal tabloları etkinleştir** geçiş düğmesi, gerekli tüm kurulum tamamlandığında otomatik olarak **Evet** olarak ayarlanır. Geçiş düğmesi **Hayır** olarak ayarlanmışsa, tüm önkoşul kurulumun tamamlandığından emin olmak için bu belgenin önceki bölümlerindeki adımları gözden geçirin.
 
-3. Common Data Service'te oluşturmak istediğiniz varlığı veya varlıkları seçin.
+3. Dataverse'te oluşturmak istediğiniz tabloyu veya tabloları seçin.
 
 4. **Oluştur/Yenile**'yi seçin.
 
-![Common Data Service Tümleştirmesi](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse Tümleştirmesi](./media/hr-admin-integration-common-data-service-integration.jpg)
 
-## <a name="check-entity-generation-status"></a>Varlık oluşturma durumunu denetle
+## <a name="check-table-generation-status"></a>Tablo oluşturma durumunu denetleme
 
-Sanal varlıklar Common Data Service içinde zaman uyumsuz bir arka plan işleminde oluşturulur. İşlemin üzerindeki güncelleştirmeler işlem merkezinde görüntülenebilir. Hata günlükleri de dahil olmak üzere işlemle ilgili ayrıntılar, **işlem otomasyonları** sayfasında görüntülenir.
+Sanal tablolar Dataverse içinde zaman uyumsuz bir arka plan işleminde oluşturulur. İşlemin üzerindeki güncelleştirmeler işlem merkezinde görüntülenebilir. Hata günlükleri de dahil olmak üzere işlemle ilgili ayrıntılar, **işlem otomasyonları** sayfasında görüntülenir.
 
 1. Human Resources'da, **İşlem otomasyonları** sayfasını açın.
 
 2. **Arka plan işlemleri** sekmesini seçin.
 
-3. **Sanal varlık yoklama asenkron operasyonu arka plan işlemi**'ni seçin.
+3. **Sanal tablo yoklama asenkron operasyonu arka plan işlemi**'ni seçin.
 
 4. **En son sonuçları görüntüle**'yi seçin.
 
-Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntüler. Common Data Service'ten gelen tüm hatalar da dahil olmak üzere, işlem günlüğünü görüntüleyebilirsiniz.
+Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntüler. Dataverse'ten gelen tüm hatalar da dahil olmak üzere, işlem günlüğünü görüntüleyebilirsiniz.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Common Data Service nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Varlığa genel bakış](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Varlık ilişkilerine genel bakış](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Harici veri kaynağından veri içeren sanal varlıkları oluşturma ve düzenleme](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Dataverse'teki tablolar](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
+[Tablo ilişkilerine genel bakış](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
+[Harici veri kaynağından veri içeren sanal tablolar oluşturma ve düzenleme](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Power Apps portalları nedir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Power Apps'ta uygulamalar oluşturmaya genel bakış](https://docs.microsoft.com/powerapps/maker/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

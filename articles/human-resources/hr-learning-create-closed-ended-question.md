@@ -2,7 +2,7 @@
 title: Kapalı uçlu soru oluşturma
 description: Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seçenekler sunmanızı sağlar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2eb53290d39fef0bf439a199dfd774138823ec2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65d77806498c3a710c00865ad27716f50796cdf5
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421002"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5114968"
 ---
 # <a name="create-a-closed-ended-question"></a>Kapalı uçlu soru oluşturma
 
@@ -68,6 +68,3 @@ Kapalı uçlu sorular, yanıtlayan kişinin arasından seçim yapabileceği seç
 5. Yanıt grubu alanında bir değer girin veya seçin.
 6. Metin alanına bir değer yazın.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

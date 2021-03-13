@@ -2,7 +2,7 @@
 title: Bir izin isteğini iş akışı oluşturma
 description: Dynamics 365 Human Resources'ta izin isteklerini sürekli olarak yönetmek Için bir izin ve devamsızlık isteği iş akışı oluşturun.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 209f0ec7236778cc0a828102e554b02206b45b73
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1907ca9cc578737341e52f89453e3d6ae3d0bec
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420876"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115064"
 ---
 # <a name="create-a-leave-request-workflow"></a>Bir izin isteğini iş akışı oluşturma
 
@@ -81,6 +81,3 @@ Bu örnekler, şu veri öğelerini kullanarak nasıl farklı iş akışı koşul
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Uygunluk kurallarını ve seçeneklerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'un sosyal haklar yönetiminde, uygunluk kurallarını ve seçeneklerini ayarlayın.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70054acafc3aec35fd985c0ca81e928519ddd0a3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2920a03eaec226b306d03ebf8b899113128c410e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420890"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114579"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma
 
@@ -176,6 +176,3 @@ Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç plan�
    | **Uygunluk kuralları** | Kazançlar programına uygulanacak uygunluk kurallarını seçin. Uygunluk kurallarını bu sayfadaki **uygunluk kuralları** sekmesinde tanımlarsınız. |
    
 4. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

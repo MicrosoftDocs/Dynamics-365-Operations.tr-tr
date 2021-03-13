@@ -2,7 +2,7 @@
 title: Veri tümleştirme teknolojisi seçme
 description: Bu makale, Human Resources tarafından yönetilen verilerle tümleştirme hakkında bilgi sağlar. Gereksinimlerinize en uygun teknolojilere karar vermenize yardımcı olacak farklı tümleştirme teknolojilerini açıklar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e6eeac66cff24d193e30aa942039707fc0aed52
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ee394172fb531e7aecc1be411f9adf2dd184d15e
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528353"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114640"
 ---
 # <a name="choose-a-data-integration-technology"></a>Veri tümleştirme teknolojisi seçme
 
@@ -36,44 +36,50 @@ Bu makale, Dynamics 365 Human Resources tarafından yönetilen verilerle tümle�
 İş verileri şirketinizin benzersiz olmasını sağlayan temel varlıktır. İşletmenizin verileri çok değerlidir. İşletmenizde toplanan veriler arasındaki ilişkileri, kuruluşunuzda iş süreçlerini ve iş zekasını geliştirmek amacıyla kullanabilirsiniz. İş verilerinizi hangi sistemden gelirse gelsin kolay, güvenli ve kararlı bir şekilde sağlamak için çalışıyoruz.
 
 Birden çok sistem arasında veri tümleştirme eskiden beri zor olmuştur.
-Microsoft, veri tümleştirmeyi daha kolay hale getirmek için gereken adımları ve bu hedefin [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) ile gerçekleştirmesine yönelik büyük bir adım atıyor.
+Microsoft, veri tümleştirmeyi daha kolay hale getirmek için gereken adımları ve bu hedefin [Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) ile gerçekleştirmesine yönelik büyük bir adım atıyor.
 
-Human Resources Common Data Service'ı, İnsan Kaynakları verileri için tercih edilen ortak arabirim yapıyor. Zamanla İnsan Kaynakları tarafından yönetilen en önemli verilerin tümünün Common Data Service'te sunulacağını düşünüyoruz. Çoğu tümleştirme uygulaması için teknoloji seçeneği olarak Common Data Service'i öneriyoruz.
+Human Resources Dataverse'ı, İnsan Kaynakları verileri için tercih edilen ortak arabirim yapıyor. Zamanla İnsan Kaynakları tarafından yönetilen en önemli verilerin tümünün Dataverse'te sunulacağını düşünüyoruz. Çoğu tümleştirme uygulaması için teknoloji seçeneği olarak Dataverse'i öneriyoruz.
 
-Common Data Service uygulamanızın gerektirdiği tüm verileri henüz içeremeyebilir. Ayrıca, proje zaman çizelgeniz için alternatif bir teknoloji gerekebileceğini anlıyoruz. Common Data Service Tümleştirme gereksinimlerinizi karşılamıyorsa bize bildirin.
+Dataverse uygulamanızın gerektirdiği tüm verileri henüz içeremeyebilir. Ayrıca, proje zaman çizelgeniz için alternatif bir teknoloji gerekebileceğini anlıyoruz. Dataverse Tümleştirme gereksinimlerinizi karşılamıyorsa bize bildirin.
 
 ## <a name="integration-technologies"></a>Tümleştirme teknolojileri
 
 Aşağıdaki bölümlerde İnsan Kaynakları ile kullanılabilecek farklı veri tümleştirme teknolojileri açıklanmaktadır.
 
-### <a name="common-data-service-entities"></a>Common Data Service varlıkları
+### <a name="dataverse-tables"></a>Dataverse tabloları
 
-Common Data Service, İnsan Kaynakları için tercih edilen ortak veri arabirimidir. [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) çözümleri tarafından kullanılan Dynamics 365 XRM platformundan oluşturuldu.
+Dataverse, İnsan Kaynakları için tercih edilen ortak veri arabirimidir. [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) çözümleri tarafından kullanılan Dynamics 365 XRM platformundan oluşturuldu.
 
-Common Data Service veri varlıkları için platform ve API sağlar. Human Resources'ı dağıttığınızda, bir Common Data Service kurulumuna bağlanır. Human Resources verilerinin varlıkları bu Common Data Service kurulumuna dağıtılır. Varlıklar ve bunların verileri, Common Data Service kurulumuna bağlanabilecek tüm uygulamalar tarafından kullanılabilir. Human Resources verileri Common Data Service varlıklarına veya varlıklarıyla eşitler.
-
-Tümleştiren uygulamalarınız veri varlıklarının Common Data Service'da olmasını gerektirdiğinde, [Common Data Service ve desteklediği API'ları](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer) tamamen kullanabilirsiniz. Desteklenen API'lardan biri, Common Data Service verilerine erişmek için OData uygulaması sağlayan [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)'dır.
-
-Common Data Service varlıkları ve ilişkili API'lar, web uygulamalarından, web hizmetlerinden/API'lardan ve OData akışlarına bağlanan tüm diğer uygulamalardan İnsan Kaynakları verilerine erişmek için en iyi seçenektir.
+Dataverse veri tabloları için bir platform ve API sağlar. Human Resources'ı dağıttığınızda, bir Dataverse kurulumuna bağlanır. Human Resources verilerinin varlıkları bu Dataverse kurulumuna dağıtılır. Tablolar ve verileri, Dataverse kurulumuna bağlanabilen herhangi bir uygulama tarafından kullanılabilir. Human Resources, verileri Dataverse tablolarına ve bu tablolardan eşitler.
 
 > [!NOTE]
-> Common Data Service'i Human Resources için tercih edilen veri arabirimi yapma kararı henüz yeni olduğu için, tümleştirmenizde gereksinim duyduğunuz Human Resources veri varlıklarının henüz Common Data Service'ta kullanıma hazır olmadığını görebilirsiniz.
-</br>
-> Common Data Service'ta mevcut olan Human Resources varlıklarının listesi için bkz. [Human Resources ve Common Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+Tümleştirici uygulamalarınızın gerektirdiği veri tabloları Dataverse'te olduğunda, [Dataverse'ü ve desteklediği API'leri](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer) tamamen kullanabilirsiniz. Desteklenen API'lardan biri, Dataverse verilerine erişmek için OData uygulaması sağlayan [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api)'dır.
+
+Dataverse tabloları ve ilişkili API'leri; web uygulamalarından, web hizmetlerinden/API'lerinden ve OData akışlarına bağlanan diğer tüm uygulamalardan Human Resources verilerine erişmek için en iyi seçenektir.
+
+> [!NOTE]
+> Dataverse'i Human Resources için tercih edilen veri arabirimi yapma kararı henüz yeni olduğu için, tümleştirmenizde gereksinim duyduğunuz Human Resources veri varlıklarının henüz Dataverse'ta kullanıma hazır olmadığını görebilirsiniz.
+> </br>
+> Dataverse'ta mevcut olan Human Resources varlıklarının listesi için bkz. [Human Resources ve Dataverse](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
 > </br>
 > Tümleştirmeniz için gereken İnsan Kaynakları varlıkları henüz mevcut değilse, veri varlıklarının kullanılabilir hale gelmesini beklemeniz veya aşağıda açıklanan diğer tümleştirme teknolojilerinden birini kullanmanız gerekecektir.
 > </br>
-> Varsayılan olarak, Common Data Service tümleştirmesi, sağlanan demo verilerini içermeyen yeni ortamlarda kapalıdır. Demo verilerini içeren yeni ortamlarda açıktır ve bu veriler sağlandığında ortamlar verileri eşitlemeye başlar. Ortamınız veri eşitlemeye hazır hale gelince tümleştirmeyi açabilirsiniz.
+> Varsayılan olarak, Dataverse tümleştirmesi, sağlanan demo verilerini içermeyen yeni ortamlarda kapalıdır. Demo verilerini içeren yeni ortamlarda açıktır ve bu veriler sağlandığında ortamlar verileri eşitlemeye başlar. Ortamınız veri eşitlemeye hazır hale gelince tümleştirmeyi açabilirsiniz.
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF varlıkları
 
-Temelde Finance and Operations uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Common Data Service varlıkları İnsan Kaynakları için tercih edilen veri tümleştirme arabirimi olmakla birlikte, DMF varlıkları şöyle durumlarda yararlı olmaya devam eder:
+Temelde Finance and Operations uygulamalarıyla aynı platformda oluşturulan Human Resources, bir [Veri Yönetimi Çerçevesi (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) sağlar. DMF, Veri İçe Dışa Aktarma Çerçevesi (DIXF) olarak da bilinir. Human Resources, Human Resources verilerini içe aktarmak ve dışa aktarmak için kullanabileceğiniz bir veri varlıkları kümesi sağlar. Dataverse tabloları, Human Resources için tercih edilen veri tümleştirme arabirimi olsa da, DMF varlıkları aşağıdakiler gibi bazı durumlarda yararlıdır:
 
-- Common Data Service varlıkları henüz kullanılabilir değilse.
+- Dataverse tabloları şu anda kullanılamıyor.
 
 - Tümleştirme, yüksek performanslı toplu veri içe/dışa aktarma yetenekleri gerektiriyorsa.
 
-DMF varlıkları şu anda İnsan Kaynakları verileri için en eksiksiz veri kapsamını sağlıyorsa.
+> [!NOTE]
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+
+DMF varlıkları şu anda Human Resources verileri için en eksiksiz veri kapsamını sağlamaktadır.
 
 DMF, kullanıcı arabiriminde anında Kullanıcı geri bildirimi gerektiğinde olduğu gibi, gerçek zamanlı tümleştirmeler için uygun değildir. Paket işlemleri zamanlanmış toplu işlerdir ve toplu iş hizmeti işi yürütme için almadan ve içe/dışa aktarma işlemini tamamlamak için gerekli olan süre için en azından 1-2 dakikalık gecikme süresine sahiptir.
 
@@ -92,7 +98,7 @@ DMF, veri paketlerini yönetmek için bir [REST API'sı](https://docs.microsoft.
 
 - İçe/dışa aktarma işleminin durumunu denetleme.
 
-DMF Paket REST API'sı İnsan Kaynakları'nda tam olarak desteklenir: Core HR.
+DMF Paketi REST API'si Human Resources'da tam olarak desteklenir.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL DB (BYOD)
 
@@ -109,7 +115,7 @@ BYOD, bir [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) a
 
 Çoğu DMF varlığı İnsan Kaynakları veri hizmetine (OData) erişimi etkinleştirilmiş durumdadır. [Finance and Operations OData hizmeti](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) için sağlanan belgeler, kendi OData tarafından sağlanan varlıklarınızı oluşturmak dışında Human Resources için geçerlidir.
 
-Common Data Service ve Common Data Service'in sağladığı OData uygulaması ([Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) üzerinden), İnsan Kaynakları veri hizmetine tercih edilmekle birlikte, İnsan Kaynakları veri hizmeti şu anda İnsan Kaynakları verileri için daha eksiksiz varlık kapsamına sahiptir.
+Dataverse ve Dataverse'in sağladığı OData uygulaması ([Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8)) üzerinden), İnsan Kaynakları veri hizmetine tercih edilmekle birlikte, İnsan Kaynakları veri hizmeti şu anda İnsan Kaynakları verileri için daha eksiksiz varlık kapsamına sahiptir.
 
 ### <a name="excel-add-in"></a>Excel Eklentisi
 
@@ -119,9 +125,9 @@ Excel Eklentisi, iş etki alanı uzmanlarının özel verileri içe/dışa aktar
 
 ### <a name="data-integrator"></a>Veri Tümleştirici
 
-Common Data Service'a veri tümleştirmek veya bu uygulamadan veri tümleştirmek için [Veri Tümleştirme hizmetini](https://docs.microsoft.com/powerapps/administrator/data-integrator) kullanabilirsiniz . Veri Tümleştirici, tümleştirme projelerini tanımlamak için kullanılabilir (bu projeler genellikle uygulama geliştiricilerinin belirli tümleştirmeler için özel olarak tasarladıkları ön tanımlı şablonlara dayanır). Tümleştirme projelerini yinelenen bir zaman planıyla otomatik olarak veya el ile çalıştırılmak üzere zamanlayabilirsiniz.
+Dataverse'a veri tümleştirmek veya bu uygulamadan veri tümleştirmek için [Veri Tümleştirme hizmetini](https://docs.microsoft.com/powerapps/administrator/data-integrator) kullanabilirsiniz . Veri Tümleştirici, tümleştirme projelerini tanımlamak için kullanılabilir (bu projeler genellikle uygulama geliştiricilerinin belirli tümleştirmeler için özel olarak tasarladıkları ön tanımlı şablonlara dayanır). Tümleştirme projelerini yinelenen bir zaman planıyla otomatik olarak veya el ile çalıştırılmak üzere zamanlayabilirsiniz.
 
-Veri Tümleştirici projeleri Common Data Service toplu iş tümleştirmeleri için uygundur. Dynamics 365 uygulama ailesi arasındaki Tümleştirmeler için harika bir seçimdir. Örneğin Microsoft, Human Resources'tan alınan verileri Dynamics 365 Finance'a tümleştirmek için kullanılabilen bir Veri Tümleştirici şablonu sağlamaktadır. Şablon hakkında daha fazla bilgiyi [Dynamics 365 Human Resources'tan Dynamics 365 Finance'a tümleştirme](hr-admin-integration-finance.md) bölümünde bulabilirsiniz.
+Veri Tümleştirici projeleri Dataverse toplu iş tümleştirmeleri için uygundur. Dynamics 365 uygulama ailesi arasındaki Tümleştirmeler için harika bir seçimdir. Örneğin Microsoft, Human Resources'tan alınan verileri Dynamics 365 Finance'a tümleştirmek için kullanılabilen bir Veri Tümleştirici şablonu sağlamaktadır. Şablon hakkında daha fazla bilgiyi [Dynamics 365 Human Resources'tan Dynamics 365 Finance'a tümleştirme](hr-admin-integration-finance.md) bölümünde bulabilirsiniz.
 
 ### <a name="power-query"></a>Power Query
 
@@ -129,21 +135,18 @@ Veri Tümleştirici [Power Query](https://docs.microsoft.com/power-query/power-q
 
 ## <a name="deciding-on-an-integration-technology"></a>Bir tümleştirme teknolojisinde karar kılma
 
-Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştirme yaklaşımında karar kılmak bazen bunaltıcı olabilir. Common Data Service'teki veri kapsamı geliştikçe karar vermek kolaylaşacak, Common Data Service çoğu durumda tercih edilen veri arabirimi haline gelecektir. Ancak o zamana kadar, Common Data Service'in gereksinimlerinizi henüz karşılamadığını fark edebilirsiniz. Aşağıdaki tablo çeşitli tümleştirme teknolojisi seçeneklerinin bazı temel özelliklerini özetler.
+Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştirme yaklaşımında karar kılmak bazen bunaltıcı olabilir. Dataverse'teki veri kapsamı geliştikçe karar vermek kolaylaşacak, Dataverse çoğu durumda tercih edilen veri arabirimi haline gelecektir. Ancak o zamana kadar, Dataverse'in gereksinimlerinizi henüz karşılamadığını fark edebilirsiniz. Aşağıdaki tablo çeşitli tümleştirme teknolojisi seçeneklerinin bazı temel özelliklerini özetler.
 
 | Teknoloji/Araç/API    | Yinelenen tümleştirmeler                   | Zaman uyumlu/Zaman uyumsuz                    | API aracılığıyla programlı erişim        | Uygun veri hacimleri                                   | Veri kapsamı                       |
 |------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|------------------------------------------------------------|-------------------------------------|
-| Common Data Service varlıkları           | Evet, Veri Tümleştirici veya ara yazılım kullanarak | Zaman Uyumlu/Zaman Uyumsuz, Toplu (Veri Tümleştirici üzerinden) | Evet, Dynamics 365 Web API (OData) aracılığıyla | Kullanım durumuna göre değişir (etkileşimli kullanım için sayfalamayı destekler) | İyileştirme<sup>2</sup>                       |
+| Dataverse tabloları           | Evet, Veri Tümleştirici veya ara yazılım kullanarak | Zaman Uyumlu/Zaman Uyumsuz, Toplu (Veri Tümleştirici üzerinden) | Evet, Dynamics 365 Web API (OData) aracılığıyla | Kullanım durumuna göre değişir (etkileşimli kullanım için sayfalamayı destekler) | İyileştirme<sup>2</sup>                       |
 | DMF varlıkları           | Evet, ara yazılım aracılığıyla zamanlanmış        | Zaman Uyumsuz, Toplu                                | Evet, DMF Paket REST API'sı         | Yüksek (yüz binlerce kayıt)                    | Yüksek                                |
 | DMF Paket REST API'sı   | Evet, ara yazılım aracılığıyla zamanlanmış        | Zaman Uyumsuz, Toplu                                | Evet                                       | Yüksek (yüz binlerce kayıt)                    | API tüm DMF varlıklarını destekler       |
 | BYOD                   | Evet, İnsan Kaynakları'nda yönetici tarafından zamanlanır        | Zaman Uyumsuz, Toplu                                | Hayır<sup>3</sup>                                    | Yüksek (yüz binlerce kayıt)                    | Tüm DMF varlıklarını destekler           |
 | OData etkin varlıklar | Evet, ara yazılım kullanarak                    | Zaman Uyumlu                                        | Evet, İnsan Kaynakları Veri Hizmeti (OData) ile  | Kullanım durumuna göre değişir (etkileşimli kullanım için sayfalamayı destekler) | Yüksek                                |
 | Excel Eklentisi           | Hayır                                       | Zaman Uyumlu                                        | Hayır                                        | Orta (on binlerce kayıt)                      | Tüm OData etkin varlıkları destekler |
-| Veri Tümleştirici        | Evet, Veri Tümleştirici'de zamanlanır        | Zaman Uyumsuz, Toplu                                | Hayır                                        | Kullanım durumuna göre değişir                                       | Tüm Common Data Service varlıklarını destekler           |
+| Veri Tümleştirici        | Evet, Veri Tümleştirici'de zamanlanır        | Zaman Uyumsuz, Toplu                                | No                                        | Kullanım durumuna göre değişir                                       | Tüm Dataverse tablolarını destekler           |
 
-<sup>2</sup>Microsoft, Common Data Service varlıkları için veri kapsamını artırmaya çok fazla yatırım yapmaktadır. Kapsam kullanılabilir olduğunda Common Data Service kullanmanızı öneririz. Şu anda Common Data Service veri kapsamı DMF ve OData etkin varlıklara göre düşüktür.
+<sup>2</sup>Microsoft, Dataverse tabloları için veri kapsamını artırmaya büyük yatırım yapmaktadır. Kapsam kullanılabilir olduğunda Dataverse kullanmanızı öneririz. Şu anda Dataverse veri kapsamı DMF ve OData etkin varlıklara göre düşüktür.
 
 <sup>3</sup>SQL veritabanına programlı olarak erişilebilir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

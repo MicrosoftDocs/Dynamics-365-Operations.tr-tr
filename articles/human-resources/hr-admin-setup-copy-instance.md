@@ -2,7 +2,7 @@
 title: Örnek kopyala
 description: Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamına kopyalamak için Microsoft Dynamics Lifecycle Services'i (LCS) kullanabilirsiniz.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527849"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114583"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamı
 
 - İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](https://docs.microsoft.com/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](https://docs.microsoft.com/dynamics365/admin/switch-instance).
 
-- Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Common Data Service ile birleştirmek isterseniz Common Data Service varlıklarına özel alanları yeniden uygulamanız gerekir. [Özel alanları Common Data Service'e uygulama](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service) konusuna bakın.
+- Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Dataverse ile birleştirmek isterseniz Dataverse tablolarına özel alanları yeniden uygulamanız gerekir. [Özel alanları Dataverse'e uygulama](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service) konusuna bakın.
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>İnsan Kaynakları veritabanını kopyalama etkileri
 
@@ -72,15 +72,15 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps 
 
 4. **Örneği kopyala** görev bölmesinde, üzerine yazılacak örneği seçin ve sonra **Kopyala**'yı seçin. **Kopyalama durumu** alanı değerinin **tamamlandı** olarak güncelleştirilmesini bekleyin.
 
-   ![[Üzerine yazılacak örneği Seç](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Üzerine yazılacak örneği seçin](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. **Power Platform**'u seçin ve Microsoft Power Platform Yönetim Merkezi'nde oturum açın.
 
-   ![[Power Platform öğesini seçin.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Power Platform'u seçin](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
-7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Common Data Service tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Common Data Service entegrasyonunu yapılandırma](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Dataverse tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Dataverse entegrasyonunu yapılandırma](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Veri öğeleri ve durumlar
 
@@ -122,11 +122,11 @@ Yöneticiler dahil olmak üzere hedef korumalı alan ortamındaki tüm kullanıc
 
 Hedef korumalı alan ortamındaki yönetici olmayan tüm kullanıcılar, korumalı alan ortamında istenmeyen oturum açma yapılmasını engelleyecek şekilde devre dışı bırakılmıştır. Yöneticiler gerektiğinde kullanıcıları yeniden değiştirebilir.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Özel alanları Common Data Service'e uygulama
+## <a name="apply-custom-fields-to-dataverse"></a>Özel alanları Dataverse'e uygulama
 
-Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Common Data Service ile birleştirmek isterseniz Common Data Service varlıklarına özel alanları yeniden uygulamanız gerekir.
+Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Dataverse ile birleştirmek isterseniz Dataverse tablolarına özel alanları yeniden uygulamanız gerekir.
 
-Common Data Service varlıklarına gösterilen her özel alan için aşağıdaki adımları uygulayın:
+Dataverse tablolarına gösterilen her özel alan için aşağıdaki adımları uygulayın:
 
 1. Özel alana gidip **Düzenle**'yi seçin.
 
@@ -140,7 +140,7 @@ Common Data Service varlıklarına gösterilen her özel alan için aşağıdaki
 
 6. Yeniden **Değişiklikleri Uygula**'yı seçin.
 
-Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri yeniden uygulama, şemanın Common Data Service'i güncelleştirerek özel alanları eklemesini sağlar.
+Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri yeniden uygulama, şemanın Dataverse'i güncelleştirerek özel alanları eklemesini sağlar.
 
 Özel alanlar hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri
 [Örneği kaldırma](hr-admin-setup-remove-instance.md)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

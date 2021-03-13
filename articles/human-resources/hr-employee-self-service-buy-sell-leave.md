@@ -2,7 +2,7 @@
 title: İzin satın alma ve satma
 description: Dynamics 365 Human Resources'ta, şirketiniz tarafından ayarlanan izin satın alma ve satma ilkelerine göre izin satın alma ve satma istekleri gönderebilirsiniz.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab97803f1c961e3edd298b483cbea5345ef093f5
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421012"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115330"
 ---
 # <a name="buy-and-sell-leave"></a>İzin satın alma ve satma
 
@@ -53,6 +53,3 @@ Bakiyeleriniz otomatik olarak güncelleştirilir veya güncelleştirmeden önce 
 
 [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)</br>
 [İzin satın alma ve satma ilkelerini yönetme](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

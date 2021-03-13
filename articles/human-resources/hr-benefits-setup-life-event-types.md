@@ -2,7 +2,7 @@
 title: Yaşam olayı türlerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources, çalışan kazançları kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için ömür olayı türleri kullanır.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420924"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114618"
 ---
 # <a name="configure-life-event-types"></a>Yaşam olayı türlerini yapılandırma
 
@@ -88,6 +88,3 @@ Seçilen ömür olay türüne iliştirilmiş planların listesini görebilirsini
 | **Uygunluk kuralı geçersiz kılma son tarihi (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > planlar > kazançlar > uygunluk kuralı geçersiz kılma | Yaşam olayı değişikliğini işlemeyi kullanma Örneğin, bir planın uygunluk kuralını geçersiz kılma sona erme tarihini bügün 17:00, 17:00'den sonraki herhangi bir zaman ve sonraki günler olarak düzenlerseniz ve sonra Yaşam olayı değişikliği işlemeyi çalıştırırsanız, uygunluk kuralı geçersiz kılmanın sona erdiğini bildiren bir ileti görüntülenir. |
 | **Yeni kazanç planı (ABD 'ye özel değil)** | İnsan kaynakları Gelişmiş > Kazançlar > planlar > yeni | <ul><li>Geçerli plana uygunluk seçenekleri eklenir</li><li>Uygunluk seçenekleri eklenmiş yeni bir plan eklendi</li></ul></br></br>IK personelin bu örnekte ömür olayı uygunluk işlemi çalıştırması gerekir. |
 | **Uygunluk kuralı değiştirme (ABD'ye özgü değil)** | İnsan kaynakları Gelişmiş > kazançlar > Kurallar/seçenekler > uygunluk kuralları | Yaşam olayı uygunluğunu işlemeyi kullanma **EhrBenefitEligibilityRule** kayıtları aşağıdaki değerlere sahip olduğunda günlüğe kaydedilir: **UseEmplCategory**, **UseEmplStatus** veya **UseEmplType**. Yalnızca değiştirilmiş bir kural veya uygunluk ölçütü için zaten varolan ömür olayı hareketlerini güncelleştirir. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

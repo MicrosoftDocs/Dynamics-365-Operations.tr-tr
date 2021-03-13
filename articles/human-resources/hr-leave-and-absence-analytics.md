@@ -2,7 +2,7 @@
 title: Bırakma ve devamsızlık için Analizi görüntüle
 description: Dynamics 365 Human Resources'De bulunan analitik, tahakkukları, bakiyeler ve bakiye eğilimlerini görüntüleyin.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a6cca83cf6eb17d9d700058365ac54c54efca7eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 488745388312f0a2ef936dac2f8252431123fe33
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420995"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116080"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>Bırakma ve devamsızlık için Analizi görüntüle
 
@@ -45,5 +45,3 @@ Dynamics 365 Human Resources, organizasyonunuzun izin verme ve devamsızlık eğ
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluştur](hr-leave-and-absence-plans.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

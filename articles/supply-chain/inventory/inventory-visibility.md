@@ -1,7 +1,7 @@
 ---
 title: Stok Görünürlüğü Eklentisi
 description: Bu konu, Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisinin nasıl yüklendiğini ve yapılandırıldığını açıklar.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625077"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114682"
 ---
 # <a name="inventory-visibility-add-in"></a>Stok Görünürlüğü Eklentisi
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Stok Görünürlüğü Eklentisi, gerçek zamanlı olarak elden stok takibi sağlayan ve böylece stok görünürlüğünün genel görünümünü sunan bağımsız ve yüksek ölçeklenebilir bir mikro hizmettir.
 
 Eldeki stokla ilgili tüm bilgiler, düşük düzeyli SQL tümleştirmesi aracılığıyla neredeyse gerçek zamanlı olarak hizmete dışarı aktarılır. Harici sistemler, verilen boyut kümeleri üzerindeki bilgileri sorgulamak için restful API'lar aracılığıyla hizmete erişir ve böylece eldeki mevcut pozisyonların bir listesini alır.
 
-Stok Görünürlüğü, Common Data Service üzerine kurulmuş bir mikro hizmettir; yani, iş gereksinimlerinizi karşılamak için özelleştirilmiş işlevsellik sağlamak için Power Apps oluşturup Power BI uygulayarak genişletebilirsiniz. Envanter sorguları yapmak için dizini yükseltmeniz de mümkündür.
+Stok Görünürlüğü, Microsoft Dataverse üzerine kurulmuş bir mikro hizmettir; diğer bir ifadeyle, iş gereksinimlerinizi karşılamak için özelleştirilmiş işlevsellik sağlamak için Power Apps oluşturup Power BI uygulayarak genişletebilirsiniz. Envanter sorguları yapmak için dizini yükseltmeniz de mümkündür.
 
 Stok Görünürlüğü, birden çok üçüncü taraf sistemle tümleştirmeye olanak tanıyan yapılandırma seçenekleri sağlar. Standartlaştırılmış stok boyutunu, özelleştirilmiş genişletilebilirliği ve standartlaştırılmış, yapılandırılabilir hesaplanmış miktarları destekler.
 
@@ -78,30 +78,57 @@ Stok Görünürlüğü Eklentisi'ni yüklemek için aşağıdakileri yapın:
 
 ### <a name="get-a-security-service-token"></a>Güvenlik hizmeti belirteci alma
 
-Güvenlik hizmeti belirteci almak için aşağıdakileri yapın:
+Aşağıdakileri gerçekleştirerek güvenlik hizmeti belirteci alın:
 
-1. `aadToken` alın ve uç noktasına çağrı yapın: https://securityservice.operations365.dynamics.com/token.
-1. Gövdedeki `client_assertion` değerini `aadToken` ile değiştirin.
-1. Gövdedeki bağlamı eklentiyi dağıtmak istediğiniz ortamla değiştirin.
-1. Gövdedeki kapsamı aşağıdakilerle değiştirin:
+1. Azure portalında oturum açın ve Supply Chain Management uygulamanız için `clientId` ve `clientSecret` öğelerini bulurken bunu kullanın.
+1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek Azure Active Directory belirteci (`aadToken`) getirin:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Yöntem** - `GET`
+    - **Gövde içeriği (form verileri)**:
 
-    - MCK kapsamı - "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (MCK için Azure Active Directory uygulama kimliği ve kiracı kimliğini `appsettings.mck.json` dosyasında bulabilirsiniz.)
-    - PROD kapsamı - "https://inventoryservice.operations365.dynamics.com/.default"  
-    (PROD için Azure Active Directory uygulama kimliği ve kiracı kimliğini `appsettings.prod.json` dosyasında bulabilirsiniz.)
+        | key | değer |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Yanıt olarak aşağıdaki örneğe benzeyen bir `aadToken` almanız gerekir.
 
-    Sonuç, aşağıdaki örneğe benzeyecektir.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Aşağıdakine benzer bir JSON isteğini formülleştirin:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Where:
+    - `client_assertion` değeri, önceki adımda aldığınız `aadToken` olmalıdır.
+    - `context`değeri, eklentiyi dağıtmak istediğiniz ortam kimliği olmalıdır.
+    - Diğer tüm değerleri örnekte gösterilen şekilde ayarlayın.
+
+1. Aşağıdaki özelliklere sahip bir HTTP isteği gönderin:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Yöntem** - `POST`
+    - **HTTP üst bilgisi**: API sürümünü ekleyin (anahtar: `Api-Version` ve değer: `1.0` olmalıdır)
+    - **Gövde içeriği:** Önceki adımda oluşturduğunuz JSON isteğini ekleyin.
 
 1. Yanıt olarak bir `access_token` alırsınız. Stok Görünürlüğü API'sını çağırmak için taşıyıcı belirteç olarak ihtiyacınız olan budur. Aşağıda bir örnek verilmiştir.
 
@@ -500,6 +527,3 @@ Bu örnekte, Power Apps'te boyut yapılandırması için eşlemelerin ayarlandı
 ```
 
 Miktar alanlarının ölçümler sözlüğü ve ilişkili değerleri şeklinde yapılandırıldığını unutmayın.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

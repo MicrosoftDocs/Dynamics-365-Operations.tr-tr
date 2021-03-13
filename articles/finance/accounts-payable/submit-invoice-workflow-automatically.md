@@ -1,5 +1,5 @@
 ---
-title: Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme (önizleme)
+title: Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
 description: Bu konuda, satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını satıcı faturalarına otomatik olarak eşleştirme işlemi açıklanmaktadır.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448656"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115668"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme (önizleme)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını satıcı faturalarına otomatik olarak eşleştirme işlemi açıklanmaktadır.
 
@@ -47,13 +45,10 @@ Temassız Borç hesapları faturalama işleminin bir parçası olarak, sistem de
 
 Eşleşen giriş miktarının fatura miktarından az olduğu üç yönlü eşleştirme ilkesine sahip fatura satırları otomatik ürün girişine eşleştir işlemine dahil edilir.
 
-Otomatik iş akışına gönderme işleminin parçası olmayan faturaların **Son eşleşme** durumunu görüntülemek için faturayı **Satıcı faturaları** sayfasından açın. Faturayı görüntülediğinizde, eşleşen doğrulama bilgileri güncelleştirilir.
+Otomatik iş akışına gönderme işleminin parçası olmayan faturaların **Son eşleşme** durumunu görüntülemek için faturayı **Satıcı faturaları** sayfasından açın. Faturayı görüntülediğinizde, eşleşen doğrulama bilgileri güncelleştirilir. **Son eşleşme** durumu, **Fatura eşleştirmeyi doğrula** arka plan görevi kullanılarak otomatik olarak güncelleştirilebilir. **İşlem otomasyonları** sayfasının (**Sistem yönetimi\> Kurulum\> İşlem otomasyonları**) **Arka plan işlemleri** sekmesindeki **Son eşleşme** durumunu otomatik olarak güncelleştirme işlemini yapılandırabilirsiniz.
 
 Aşağıdaki koşullardan biri karşılanırsa, fatura satırı otomatik olarak işlemeden dışlanır:
 
 - Fatura satırının **Otomatik giriş eşleştirme durumu** değeri **Başarısız oldu** olur.
 - Fatura kullanılıyor.
 - Fatura iş akışı sisteminde.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

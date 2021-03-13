@@ -2,7 +2,7 @@
 title: Dayforce ile tümleştirme yapılandırma
 description: Microsoft Dynamics 365 Human Resources ile Ceridian Dayforce arasındaki tümleştirme, bu makalede açıklanan çeşitli yapılandırma adımlarına dayanır. Ödeme işlemini işlemeden önce tümleştirmeyi hem Human Resources'ta hem de Dayforce'ta yapılandırmanız gerekir.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 044a2d2f632b2c98ce94b6d61c2582a861640b68
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420861"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114584"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirme yapılandırma
 
@@ -676,6 +676,3 @@ Personel pasaport bilgilerini bildirebilir. Bu bilgiler, **Pasaport** kimlik tü
 
 Personel, **Pasaport** kimlik türü için birden fazla kimlik numarası bildirebilir. Ancak yalnızca geçerli etkin pasaport girişi Dayforce'a tümleştirilir. Tüm pasaport girişlerinin süresi dolmuşsa en son verilen pasaport Dayforce'a tümleştirilir.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Özet
+title: Geliştirmeye genel bakış
 description: Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uygulamalarla tümleştirme hakkında bilgiler de sağlar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528329"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115402"
 ---
-# <a name="overview"></a>Özet
+# <a name="development-overview"></a>Geliştirmeye genel bakış
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uy
 
 - [Power Apps ve Power Automate ile genişletme](hr-developer-power-apps.md)
 
-- [Common Data Service'te İnsan kaynakları varlıkları](hr-developer-entities.md)
+- [Dataverse'te İnsan kaynakları varlıkları](hr-developer-entities.md)
 
 - [Özel alanlar](hr-developer-custom-fields.md)
 
 - Veri tümleştirme Ayarlama
   - [Bir veri tümleştirme teknolojisi seçin](hr-admin-integration-choose-technology.md)
-  - [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
+  - [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
   - [Finance ile tümleştirmeyi yapılandırma](hr-admin-integration-finance.md)
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
   - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ Bu Geliştirici Kılavuzu bir API ve özel alanlar başvurusu sağlar. Diğer uy
 - [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Yönetici Kılavuzu](hr-admin-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

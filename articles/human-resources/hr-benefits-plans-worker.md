@@ -2,7 +2,7 @@
 title: Çalışan kazanç planları oluşturma
 description: Çalışanlar için kazanç planları seçmek ve kazanç planı seçimlerini onaylamak Için, Microsoft Dynamics 365 Human Resources'ta çalışan avantajı planları oluşturabilirsiniz.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420889"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114632"
 ---
 # <a name="create-worker-benefit-plans"></a>Çalışan kazanç planları oluşturma
 
@@ -49,6 +49,3 @@ ms.locfileid: "4420889"
    | Planlar | Planlar hızlı sekmesi, belirttiğiniz filtre ölçütüne uyan planları içerir. İK personeli tarafından ayarlanan ilgili konfigürasyon seçenekleri ve çalışanlar tarafından seçilen kayıt seçimleri her satıra dahil edilir. Nitelenmiş alan, plan seçimiyle bir doğrulama çakışması olup olmadığını belirtir. |
 
 4. **Kaydet**'i seçin.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

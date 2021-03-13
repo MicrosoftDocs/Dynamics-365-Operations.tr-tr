@@ -2,7 +2,7 @@
 title: Oranları yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta oranlar bir kazanç için katkıda bulunan ne kadar işveren ve çalışanların olduğunu tanımlar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f5c2ce14f6a0ff830ce2645496a35fb98d6a6ab
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420962"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114574"
 ---
 # <a name="configure-rates"></a>Oranları yapılandırma
 
@@ -93,6 +93,3 @@ Oran çeşitli etkenlere bağlı olarak farklılık gösterdiği takdirde, katma
    | **Esnek Kredi Sigara İçen Oranı** | Sigara içenler için bir katman düzeyi için tanımlanan hesaplamaya göre, esnek kredi kazanç masraflarının sayısı. |
 
 5. **Kaydet**'i seçin. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

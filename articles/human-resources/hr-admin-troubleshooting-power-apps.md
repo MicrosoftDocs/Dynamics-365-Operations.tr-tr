@@ -2,7 +2,7 @@
 title: Power Apps Yönetim merkezinde ortam oluşturulamıyor
 description: Bu oknu, bir yönetici Microsoft Power Apps Yönetim merkezinde bir ortam oluşturamıyorsa ne yapılacağını anlatmaktadır.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68e6dbcbbc9811211570e968047f5faa8a2c8bd0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 664c644c9b34e3489b4134040e165d26202dbd38
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420915"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114593"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Power Apps Yönetim merkezinde ortam oluşturulamıyor
 
 **Çıkış**
 
 - Kiracı/ortam yöneticisi, Microsoft Power Apps Yönetici merkezinde bir ortam oluşturamıyorsa ne yapılacağını anlatmaktadır.
-- Kullanıcılara ortam oluşturma adımını gerçekleştirme hakkı tanıyan bir ortam, bu adımı gerçekleştirmekte olan kullanıcıya doğrudan atanmamıştır.
+- Kullanıcının, ortam oluşturma hakkı veren bir lisansı yok.
 
 **Çözüm**
 
-Kiracı yöneticisinin, geçerli bir Power Apps P2 lisansını doğrudan ortam oluşturma adımını gerçekleştirecek kullanıcıya atamış olduğundan emin olun. Bu hakkı tanıyan Microsoft Dynamics servis planları buradadır.
+Kiracı yöneticisinin, ortamı oluşturan kullanıcıya geçerli bir Power Apps P2 lisansı atadığından emin olun. Aşağıdaki Microsoft Dynamics hizmet planları ortam oluşturma izni sağlar:
 
 | Tüm ürün stok tutma birimi (SKU)       | Power Apps P2 servis planı  |
 |------------------------------------------------|----------------------------|
@@ -44,6 +44,3 @@ Kiracı yöneticisinin, geçerli bir Power Apps P2 lisansını doğrudan ortam o
 
 1. [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments) gidin.
 2. [İnsan Kaynakları sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) içindeki talimatları izleyerek ortamlar oluşturun.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

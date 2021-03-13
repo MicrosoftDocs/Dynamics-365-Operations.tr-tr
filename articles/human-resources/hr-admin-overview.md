@@ -1,8 +1,8 @@
 ---
-title: Genel Bakış
+title: Yönetime genel bakış
 description: Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve sorun gidermenize yardımcı olur .
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 38a8845ec4ae4c61ea969efdee60a12cfb644a3b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527873"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114652"
 ---
-# <a name="overview"></a>Genel Bakış
+# <a name="administration-overview"></a>Yönetime genel bakış
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,7 +41,7 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 
 - Veri tümleştirmesini ayarlama
   - [Bir veri tümleştirme teknolojisi seçin](hr-admin-integration-choose-technology.md)
-  - [Common Data Service tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
+  - [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)
   - [Finance ile tümleştirmeyi yapılandırma](hr-admin-integration-finance.md)
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
   - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
@@ -102,5 +102,3 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 - [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Geliştirici Kılavuzu](hr-developer-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

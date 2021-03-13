@@ -2,7 +2,7 @@
 title: Hedef oluşturma
 description: Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2157e3b31786c8f0412ea447831e45a2290b8e35
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420877"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115836"
 ---
 # <a name="create-a-goal"></a>Hedef oluşturma
 
@@ -58,6 +58,3 @@ Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyeb
     * Genellikle ekip üyeleri veya tüm personel için aynı veya benzer çeşitli hedefler bulunur.     İK yöneticiniz veya yöneticiniz bir veya daha fazla hedef şablonları içeren hedef grupları oluşturabilir. Bir hedef grubundan hedefler ekleyebilir ve ardından bunları sizin zaman çizelgenizle eşleşecek şekilde değiştirebilirsiniz.  
     * Gözden geçirme oluşturduğunuzda, bu gözden geçirmeye hedefler ekleyebilirsiniz. Gözden geçirmelerinize hedefleri nasıl ekleyebileceğinizi görmek için gözden geçirmeler için görev kılavuzuna başvurun.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Performans incelemeleri oluşturma
 description: Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e83bcf60e494e6f04387727bedf41175faa07557
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420931"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115812"
 ---
 # <a name="create-performance-reviews"></a>Performans incelemeleri oluşturma
 
@@ -78,6 +78,3 @@ Bu konu bir performans gözden geçirmenin nasıl oluşturulacağını ve gözde
 34. **Gözden geçirme** sekmesini seçin. Gözden geçirme durumlar arasında ilerledikçe çalışan ve yönetici her bir hedef veya uzmanlık için yorumlar ekleyebilir.  
 35. **Oturum kapatma işlemleri** sekmesini seçin. Çalışan ve yönetici gözden geçirmeyi kapatabilir. Tüm gerekli oturum kapatma işlemleri tamamlandığında durum **Tamamlandı** olarak değişir ve başka değişiklik yapılamaz.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: İzin ve devamsızlık planı oluşturma
 description: Dynamics 365 Human Resources'ta farklı izin tipleri için izin planlarını içinde oluşturun.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 90a3d624dac6c78dfbf2479c5ac7eab76dd4b542
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4420989"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115960"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>İzin ve devamsızlık planı oluşturma
 
@@ -383,6 +383,3 @@ Tahmin edilen bakiye (30) = Tahakkuk tutarı (10 × 1) + Geçerli bakiye (40) �
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık türlerini yapılandırma](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Devamsızlık izni isteği
 description: Devamsızlık izni isteği gönderin.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1f50e45a9acaf5295b40648ea5701885ae0ea844
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22c2db7e97ab77b453c2d132ef614f0bd2b0b2c7
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421011"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115282"
 ---
 # <a name="request-a-leave-of-absence"></a>Devamsızlık izni isteği
 
@@ -53,6 +53,3 @@ Bir devamsızlık durumu için istek gönderebilir ve Dynamics 365 Human Resourc
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
