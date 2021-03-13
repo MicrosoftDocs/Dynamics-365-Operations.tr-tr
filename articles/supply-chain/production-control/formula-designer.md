@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8778d6a4d834af2151e0bced0b0f27d98f088a34
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 49ec2ac0ce32da13239f3b7789d6f73f22f6e61b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439235"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007216"
 ---
 # <a name="formula-designer"></a>Formül tasarımcısı
 
@@ -121,6 +120,3 @@ Formül tasarımcısının ağaç görünümünde gösterilen bilgileri özelle�
 |     Ürün reçetesi     | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. Formül tasarımcısı seçili ölçütleri her iki sekmenin altında gösterir. |
 |    Rota    |                                           Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın.                                           |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

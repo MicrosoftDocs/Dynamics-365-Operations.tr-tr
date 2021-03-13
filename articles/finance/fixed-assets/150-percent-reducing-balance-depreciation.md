@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a132a8d6e5eaf0dad54133fc9d0c12dcf5866c7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc7fa705681c3f1fde96cabc430dad1dd0045b4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448790"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009330"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Yüzde 150 azalan bakiyeli amortisman
 
@@ -84,10 +83,7 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 | 3. yıl | 4.900 × 30% = 1.470                           | 5.900 – 1.470 = 4.430  | 4.900 – 1.470 = 3.430                 |
 
 > [!NOTE]
-> Tipik olarak, %150 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
+> Tipik olarak, %150 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a3c9ae7f9347aedc9dfba669a788b93f339e9fe8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e13536f1d3393aea4d7a973b96d8eac57f666345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439131"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008197"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management için Öğrenme kataloğu
 
@@ -187,6 +186,3 @@ Dynamics 365 Supply Chain uygulamasının bir kullanıcısı olarak rolünüz i�
 
     :::column-end:::
 :::row-end:::
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

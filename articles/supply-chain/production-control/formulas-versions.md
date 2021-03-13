@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439232"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007182"
 ---
 # <a name="formulas-and-formula-versions"></a>Formüller ve formül sürümleri
 
@@ -71,6 +70,3 @@ Elektronik imza işlevini kullanarak birden çok düzeyde denetim ekleyebilirsin
 
 ## <a name="use-step-consumption"></a>Adım tüketimi kullan
 Adım tüketimi, bir içerik için **Formül satırı** sekmesinde miktar girme gereksinimini kaldırır. Bunun yerine, Adım tüketimi, bir **Başlangıç serisi** değeri ve **Miktar** değerine sahip olacak şekilde yapılandırılır. Toplu iş emri üzerindeki miktarı sağlayan Seri kaydı başına Adım tüketiminden gelen bilgi seçilir. Adım tüketimi, tüketim oranı toplu iş emri boyutuna göre doğrusal olmadığında faydalıdır ve gereksinimi yalnızca belirli bir miktar eşiği aşıldığında artırır. Bu özelliği yeni bir formül için etkinleştirmek için **Tüketim hesaplaması** grubu altında, uygulanabilir içerik için formül ayarını **Standart**'tan, **Adım**'a değiştirin. Bu tüketim yöntemini **Formül satırı** sayfasının **Kurulum** sekmesinde belirtirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

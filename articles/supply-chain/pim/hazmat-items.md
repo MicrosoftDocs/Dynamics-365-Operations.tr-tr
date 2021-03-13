@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3836273b1c782fe80172443f4d4c29001ccea83a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439495"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007678"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Ürün, sipariş, sevkiyat ve yüklerdeki tehlikeli malzemeler
 
@@ -221,6 +220,3 @@ Uyumluluk denetlemesini çalıştırmak için aşağıdaki adımları uygulayın
 1. Eylem Bölmesinde, **Yükler** sekmesindeki **Eylemler** grubunda **Uyumluluk denetimi**'ni seçin.
 
 Denetimin sonuçlarını bildiren bir ileti alırsınız.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

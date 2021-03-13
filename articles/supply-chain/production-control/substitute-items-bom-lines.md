@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 70171
 ms.assetid: ce3b11ef-550e-49b7-8942-2607c2ec3c5c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b7ee4bbb832fc21d52ff30b7acc8e6a5fd3aece
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa2f64026ec20a7b7562aac084866b69c5769029
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439036"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006978"
 ---
 # <a name="material-substitution-in-manufacturing"></a>Üretimde malzeme değiştirme
 
@@ -49,6 +48,3 @@ Planlama sırasında malzemeleri bir ürün reçetesi kullanırken değil yalnı
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

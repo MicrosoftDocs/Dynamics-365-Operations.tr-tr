@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59c83409ede5e006ddf030d396934eeb6cd8df76
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416309"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010138"
 ---
 # <a name="enable-product-recommendations"></a>Ürün önerilerini etkinleştirme
 
@@ -114,6 +113,3 @@ Kişiselleştirilmiş ürün önerileri hakkında daha fazla bilgi için bkz. [K
 
 [Ürün önerileri SSS](faq-recommendations.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

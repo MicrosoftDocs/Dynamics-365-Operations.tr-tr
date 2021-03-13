@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa571fb7392f6f7154f7f1bfd908e11e1bebd3a6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4c9443c6e659602ae09e4744396651186874ad3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439468"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008028"
 ---
 # <a name="merge-inventory-batches"></a>Stok toplu işlerini birleştir
 
@@ -140,6 +139,3 @@ Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listes
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Fiili ağırlık maddesini birleştirdikten sonra neden stok günlüğünde fiili ağırlık bilgilerini göremiyorum?
 Fiili ağırlık maddelerinin toplu işlerini tüm diğer öğeler gibi birleştirebilirsiniz. Ancak, fiili ağırlık bilgileri stok günlüğünde görüntülenmez. Toplu iş birleştirmeyi stok günlüğüne transfer etmeden önce fiili ağırlık bilgilerini doğrulamanız önerilir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

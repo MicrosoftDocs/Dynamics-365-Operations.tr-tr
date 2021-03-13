@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439644"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007003"
 ---
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 
@@ -51,7 +50,7 @@ Yalın üretim için bir temel oluşturmak için üretim ve lojistik işlemlerin
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Talep gereksinimlerinin sinyalini vermek için kanbanlar kullanmak
 Bir çekme sistemi, sadece mal gerektiğinde mal üretir. Bu yöntem fazladan stok ve teslimat sağlama sürelerini azaltır. Kanbanları üretim akışlarına dayalı olan gereksinimleri planlamak, izlemek ve işlemek için kullanabilirsiniz. Bir kanban çerçevesi oluşturmak için, kanbanların ne zaman oluşturulacağını ve gereksinimlerin nasıl karşılanacağını tanımlayan kurallar oluşturun. İki tür kanban kuralı oluşturabilirsiniz. Üretim kuralları işlem kanban işlerini oluşturur. Çekme kanban kuralları, hareket kanban işlerini oluşturur. Aşağıdaki stok yenileme stratejilerini ayarlayabilirsiniz:
--   **Sabit miktar** kanban kuralları sabir sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. Bir Kanban'dan tüm ürünler tüketildiğinde ve işleme birimleri el ile boşaltıldığında, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, en iyi kanban miktarlarını ve kullanılan ürün miktarlarını hesaplayabilirsiniz. Hesaplama maddeleri yenilemek için tahminleri, açık siparişlerden fiili talebi, sağlaması süresini ve geçmiş talepleri dikkate alır.
+-   **Sabit miktar** kanban kuralları sabit sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. Bir Kanban'dan tüm ürünler tüketildiğinde ve işleme birimleri el ile boşaltıldığında, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, en iyi kanban miktarlarını ve kullanılan ürün miktarlarını hesaplayabilirsiniz. Hesaplama hesap tahminini, açık siparişlerden fiili talebi, maddeleri yenilemek için sağlama süresini ve geçmiş talepleri dikkate alır.
 -   **Zamanlanmış** kanban kuralları master planlama tarafından hesaplanan gereksinimleri yeniler. Master planlama, kanbanlara kesinleştirilebilecek planlı kanbanları oluşturur.
 -   **Olay** kanban kuralları, satış siparişi satırlarından, üretim ürün reçetesi satırlarından, kanban satırlarından ya da minimum stok ayarlarından ileri gelen gereksinimleri yeniler. Olay kanbanları oluşturulduğunda, bunlar kaynak gereksinimleriyle ilişkilendirilir.
 
@@ -65,9 +64,9 @@ Yalın üretim, kanban kurallar tarafından yönetilen üretim ve lojistik faali
 -   Kanban işlerinin durumunu izleyin ve kaydedin.
 
 Özelleştirilmiş kanban panoları aşağıdaki listede açıklanmaktadır:
--   Kanban iş çizelgeleme – Kanban işlerine genel bir bakış sağlar. Pano, kanban işlerini ve bunların bir veya birden çok iş hücresi için durumlarını görüntüler. İşler, üretim akışı modelde tanımlanmış planlama dönemine (gün veya hafta) göre listelenir. Zamanlanmış yüklemeleri izleyebilmeniz için tahta aynı zamanda her planlama dönemi için kapasite tüketimini de görüntüler. Kanban işlerinin durumunu değiştirebilir, farklı planlama dönemi kanban işlerini yeniden zamanlayabilir ve başka görevleri gerçekleştirebilirsiniz.
+-   Kanban iş zamanlaması: Kanban işlerine genel bir bakış sağlar. Pano, kanban işlerini ve bunların bir veya birden çok iş hücresi için durumlarını görüntüler. İşler, üretim akışı modelinde tanımlanmış planlama dönemine (gün veya hafta) göre listelenir. Zamanlanmış yüklemeleri izleyebilmeniz için tahta aynı zamanda her planlama dönemi için kapasite tüketimini de görüntüler. Kanban işlerinin durumunu değiştirebilir, farklı planlama dönemi kanban işlerini yeniden zamanlayabilir ve başka görevleri gerçekleştirebilirsiniz.
 -   Transfer işleri için kanban panosu – Bu pano, geçerli aktarım işlerine genel bakış sağlar. Malzeme çekme listelerini kaydedebilir ve güncelleştirebilir, transfer işlerini başlatabilir ve tamamlayabilir ve diğer görevleri gerçekleştirebilirsiniz.
--   Süreç işleri için kanban panosu – Bu pano, normal üretim akışını desteklemek ve bir veya birden çok iş hücresinin geçerli durumuna bir bakış sağlamak üzere tasarlanmıştır. Bu tahtadan kanbanlara öncelik verebilir, çekebilir veya üretilebilir. Ayrıca bu tahta kanbanların raporlaması için barkod taramayı da desteklemek üzere tasarlanmıştır.
+-   Süreç işleri için kanban panosu – Bu pano, normal üretim akışını desteklemek ve bir veya birden çok iş hücresinin geçerli durumuna bir bakış sağlamak üzere tasarlanmıştır. Bu panodan Kanban'lara öncelik verebilir, malzeme çekilebilir veya üretilebilir. Ayrıca bu tahta kanbanların raporlaması için barkod taramayı da desteklemek üzere tasarlanmıştır.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban işleri ve Supply Chain Management işlemleriyle tümleştirme
 Kanban işleri, Supply Chain Management'ta stok hareketleri için geçerli işlemler ile tamamen tümleşiktir.
@@ -83,6 +82,3 @@ Ek olarak, yalın üretim taşeron etkinlikler tarafından referans gösterilen 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

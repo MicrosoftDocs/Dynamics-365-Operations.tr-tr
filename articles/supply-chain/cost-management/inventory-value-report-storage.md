@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f54c02fc828d60f4ddb28be932bbf8eb137ee92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439272"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008201"
 ---
 # <a name="inventory-value-storage-report"></a>Stok değeri depolama raporu
 
@@ -106,6 +105,3 @@ Aşağıdaki örnekte **Stok değeri raporu** raporunun nasıl dışa aktarılac
 1. Görüntülenen **Yürütme özeti** sayfasında dışa aktarma işinizin durumunu ve dışa aktarılan varlıkların listesini görebilirsiniz. **Varlık işleme durumu** bölümünde,  listeden **Stok değeri** varlığını seçin ve ardından söz konusu varlıktan dışa aktarılan verileri indirmek için **Dosyayı indir**'i seçin.
 
 Veri yönetimini kullanarak verileri dışa aktarma hakkında daha fazla bilgi için bkz. [Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

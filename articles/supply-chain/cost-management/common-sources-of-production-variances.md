@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcVarianceTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 79753
 ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc310f1d5e1f99a320b803f68395d0926d39780b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55d108ff71f0af773fa521833d57ce96d36251fb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439500"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008253"
 ---
 # <a name="common-sources-of-production-variances"></a>Üretim farklılıklarının ortak kaynakları
 
@@ -63,6 +62,3 @@ Burada bazı tipik **üretim yedekleme** farkı kaynakları yer almaktadır:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

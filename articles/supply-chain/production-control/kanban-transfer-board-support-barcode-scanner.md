@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439525"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007078"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Barkod tarayıcıları desteği için kanban transfer panosu
 
@@ -44,11 +43,11 @@ Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve B
 | Boşalt                 | Bir Kanban kartının referans verdiği malzeme işleme birimini boş olarak kaydeder.              |
 | Seç                | Bir Kanban kart numarası kaydeder ve referans verilen işi Kanban listesinde otomatik olarak seçer. |
 
- 
-Kayıt modu Seç
+ 
+<a name="registration-mode-select"></a>Kayıt modu Seç
 ------------------------
 
-İş seçmek için barkod okuyucuyu kullandığınızda, kanban panosunun görüntüleme modu değişir. Bu modda, aşağıdaki koşullar geçerlidir:
+İş seçmek için barkod okuyucuyu kullandığınızda, kanban panosunun görüntüleme modu değişir. Bu modda, aşağıdaki koşullar geçerlidir:
 
 -   Yalnızca taranan kanban işi görüntülenir.
 -   Seçilen işin ayrıntıları **Ayrıntılar** FastTab'inde görüntülenir.
@@ -192,6 +191,3 @@ Kayıt modu Seç
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

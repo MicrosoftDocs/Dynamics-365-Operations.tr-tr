@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3a15d1f4ecbf85e22bfadc1dd680d24bc56d807f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439294"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007553"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Önceden tanımlanmış ürün çeşitleri için ürün numarası terminolojisi oluşturma
 
@@ -58,6 +57,3 @@ Bu konu, önceden tanımlanmış ürün çeşitleri için bir ürün numara term
 5. **Ürün çeşidi numara terminolojisi** alanında bir değer girin veya seçin.
 6. Sayfayı kapatın.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

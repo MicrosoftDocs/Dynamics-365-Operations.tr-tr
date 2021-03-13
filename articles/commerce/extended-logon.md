@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 79878e2ffbf219f77f378997c277ced8bb41598c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 16835d9e7402c42f852b058150ba8da2b4da3d8b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4416382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009861"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama
 
@@ -67,6 +66,3 @@ Oturum açma hizmeti, avuç içi tarayıcılar gibi ek genişletilmiş oturum a�
 ## <a name="using-extended-logon"></a>Genişletilmiş oturum açmanın kullanılması
 
 Genişletilmiş oturum açma yapılandırıldığında ve bir çalışana barkod ya da manyetik bant atandığında, o çalışanın sadece POS oturum açma sayfası ekrana geldiğinde kartını geçirmesi veya taratması gerekir. Oturum açma işlemine devam edebilmesi için önce bir parola da gerekliyse, çalışandan parolasını girmesi istenir.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

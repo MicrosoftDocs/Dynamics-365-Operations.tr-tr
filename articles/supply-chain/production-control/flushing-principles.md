@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f7546b70ddef30d88a79b00fe31d4e82d9bfb9b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 84be2a4646cfc18cd1f25a4ec969acdb62cb2856
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439233"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007253"
 ---
 # <a name="flushing-principles"></a>Otomatik tüketim kuralları
 
@@ -63,6 +62,3 @@ Otomatik tüketimi tamamla ilkesi, malzemenin üretim emri tamamlandı olarak ra
 
 ### <a name="available-at-location"></a>Yerleşimde kullanılabilir
 Konum otomatik tüketimde kullanılabilir ilkesi, malzeme üretim için çekildi olarak kaydedildiğinde malzemenin otomatik olarak tüketileceğini belirtir. Malzeme, hammadde çekme işi tamamlandığında veya malzeme üretim giriş konumunda kullanılabilir olduğunda ve malzeme hattı ambara serbest bırakıldığında konumdan çekildi olarak kaydedilir. İşlem içinde oluşturulan malzeme çekme listesi, toplu iş içerisinde deftere nakledilir. Bu örnek, örneğin bir üretim emrine karşılık birden fazla malzeme çekme etkinliği varsa uygundur. Bu durumda malzeme çekme listesini el ile güncelleştirmeniz gerekmez ve WIP bakiyesinin geçerli görünümünü elde edebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

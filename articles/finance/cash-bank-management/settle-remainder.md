@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4448804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009580"
 ---
 # <a name="settle-remainder"></a>Kalanı kapat
 
@@ -70,6 +69,3 @@ Kalanı kapatmak için aşağıdaki adımları uygulayın:
 7)  Kalan kapatma ile bir ödeme günlüğü oluşturmayı da seçebilir veya günlük olmadan da deftere nakledebilirsiniz. Bir ödeme günlüğü oluşturmak için **Günlük içinde düzenle** için **Evet**'i seçin. Oluşturduğunuz ödeme günlüğünü düzenleyebileceksiniz.
 8)  **Kalanı kapat**'ı tıklatın. Bir günlük oluşturmak isterseniz, düğme **Günlük oluşturma** olarak değişecektir. Bunun yerine **Günlük oluştur**'u tıklatın.
 9)  Bir ödeme günlüğü oluşturduysanız, günlük sayfası **Kalanı kapat**'ı tıkladıktan sonra açılır. Bir günlük satırı, kalanı kapat tutarı ile günlüğe tutar olarak ve kalanı kapat hesabı mahsup hesap olarak eklenir. Kapatma tutarını başka bir müşteri veya satıcıya taşımak için bir müşteri veya satıcı eklediyseniz ek bir satır günlüğe kapatma tutarını bu müşteri veya satıcıya taşımak için eklenir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

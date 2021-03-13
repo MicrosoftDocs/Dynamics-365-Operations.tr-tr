@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4623b6eaa18b65f0f61cb8c227115d59f3ff9c08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007723"
 ---
 # <a name="dual-use-goods"></a>Çift kullanımlı mallar
 
@@ -108,6 +107,3 @@ Her ürün ve ülke için gerekli çift kullanım sertifikaları ayarlamak ve y�
     | Faturaya yazdır | Belirtilen tarih aralığında belirtilen ülkeye yönelik faturalara sertifika numarası yazdırmak için bu onay kutusunu seçin. |
     | Sevk irsaliyesine yazdır | Belirtilen tarih aralığında belirtilen ülkeye yönelik sevk irsaliyelerine sertifika numarası yazdırmak için bu onay kutusunu seçin. |
     | Satış siparişine yazdır | Belirtilen tarih aralığında belirtilen ülkeye yönelik satış siparişlerine sertifika numarası yazdırmak için bu onay kutusunu seçin. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4439721"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007503"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Satınalma siparişleri ile ilgili sorun giderme
 
@@ -132,7 +131,7 @@ Yalnızca satıcı için onay verilen dönemi uzatabilirsiniz. Geçerli olan kur
 
 Bir kaydın geçerlilik tarihi *11.01.2018* ve sona erme tarihi *Hiçbir zaman* olduğunda sorun açıklamasında açıklanan örnek senaryo için, geçerlilik tarihi *10.01.2018* ve sona erme tarihi *Hiçbir zaman* olan yeni bir kaydı içe aktarabilirsiniz. Ancak, geçerlilik tarihi veri yönetimi aracılığıyla *12.01.2018* olarak güncelleştirilecek şekilde dönemi azaltamazsınız. Bu değişikliği kullanıcı arayüzü aracılığıyla yapmalısınız.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Bir satınalma siparişi başlığındaki teslimat adresini değiştirdikten sonra, teslimat adı eşitlenmemiş.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Bir satınalma siparişi başlığındaki teslimat adresini değiştirdikten sonra, teslimat adı eşitlenmemiş.
 
 ### <a name="issue-description"></a>Sorun açıklaması
 
@@ -145,6 +144,3 @@ Bu davranış tasarımdan kaynaklanır. Seçilen adresin teslimat adresi olarak 
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Bir satınalma siparişini iptal eden kullanıcıyı bulabilir miyim?
 
 Bu bilgiler yalnızca satınalma siparişi değişiklik yönetimine tabi olduğunda izlenir. Değişiklik yönetimini kullanıyorsanız, değişikliği kimlerin göndermiş olduğunu (iptal) ve kimin onayladığını görebilirsiniz.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
