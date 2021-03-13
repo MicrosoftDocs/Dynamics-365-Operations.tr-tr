@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51837275203dc2d4f31dc4dec9bf970a7ebeba7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4439123"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021566"
 ---
 # <a name="work-order-project-setup"></a>İş emri proje kurulumu
 
@@ -86,6 +85,3 @@ Kurulum, **Oroje yönetimi ve muhasebe** modülüyle tam tümleştirmeye olanak 
 > Bir iş emri satırı her oluşturulduğunda, kıymet yönetimi iş emri iş projesiyle ilişkili olması gereken bir proje grubu arar. Arama, bu konuda açıklanan kuruluma dayanır. Her proje grubunun ilgili bir proje türü vardır. **Zaman ve malzeme** veya **Sabit fiyatlı** proje türüne sahip proje grupları, yalnızca bir müşteri hesabıyla ilişkili kıymetler için geçerlidir.
 >
 > Ana projeler ve proje grupları için, sistem kullanılabilir iş emri projesini veya proje grubunu seçtiğinde, bu seçim önceki yordamı kullanarak oluşturduğunuz kayıtlara dayanır. Kıymet yönetimi, olası bir eşleşmeyi denetlemek için iş emri projesiyle ilişkili kayıtlara geçer. Her zaman ilk önce en belirgin birleşimi denetler. Başka bir deyişle, iş emri ana projesi için Kıymet Yönetimi **Kıymet** alanı için olası bir eşleşme arar. Eşleşme bulamazsa **Kıymet** alanı için eşleşmeleri denetler. Eşleşme bulamazsa **İşlem yapılacak yerleşim** alanı için eşleşmeleri denetler ve bu şekilde devam eder. **İş emri proje ayarı** sayfasının düzeninde gördüğünüz gibi bu davranış en belirgin birleşimi bulmak için Varlık Yönetimi'nin eşleşme için sağdan sola her kaydı denetleyeceği anlamına gelir. Eşleşme bulunmazsa yalnızca proje kodunun seçildiği varsayılan kaydı kullanılır. İlgili proje grubunu bulma işlemi benzerdir. Kıymet yönetimi önce **Kıymet** alanıyla ilgili olası eşleşmeyi denetleyip **Kıymet türü** alanını ve **İş emri türü** alanını denetler. Eşleşme bulunmazsa yalnızca proje grubunun seçildiği varsayılan kaydı kullanılır.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
