@@ -54,3 +54,6 @@ Bakım talepleri oluşturduktan sonra, bunları iş emirlerine kolayca dönüşt
 
     ![Yeni iş emri açma](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

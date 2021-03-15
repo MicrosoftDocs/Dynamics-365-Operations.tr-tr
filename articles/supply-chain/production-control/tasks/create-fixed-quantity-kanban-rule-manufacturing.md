@@ -73,3 +73,6 @@ Bu yordam, bir iş hücresinde, yalın bir imalat ortamında dönüşen etkinlik
     * Bu, 5 kanban oluşturur.  
     * Bu üretim kanbanı kuralı için her 10 başına 5 kanban oluşturulduğunu unutmayın. Bu yordamın son aşamasıdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

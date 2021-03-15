@@ -95,3 +95,6 @@ Otomatik oluşturulan iş emirleri için gruplandırmayı ayarlamak üzere şu a
 1. Seçeneklerin yalnızca bakım planlarınızın bazılarını çalıştırırken geçerli olmasını istiyorsanız **Eklenecek kayıtlar** hızlı sekmesinde, Microsoft Dynamics 365 Supply Chain Management'taki diğer toplu işlerde yapacağınız gibi gerekli filtreleri ekleyin.
 1. **Arka planda çalıştır** hızlı sekmesinde, Supply Chain Management'taki diğer toplu işler için yapacağınız şekilde, ihtiyaç duyduğunuz toplu iş ve zamanlama seçeneklerini ayarlayın.
 1. Seçili bakım planlarını çalıştırmak ve/veya zamanlamak için **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

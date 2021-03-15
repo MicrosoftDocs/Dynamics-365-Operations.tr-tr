@@ -59,3 +59,6 @@ Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayar
 5. Formu kapatın.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

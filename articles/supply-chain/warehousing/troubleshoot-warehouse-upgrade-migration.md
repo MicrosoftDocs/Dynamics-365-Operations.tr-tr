@@ -54,3 +54,6 @@ Temel ambar işlemlerinden gelişmiş ambar işlemlerine geçiş hakkında daha 
 - [Microsoft Dynamics AX WMS'den yeni R3 ambar ve taşımacılık işlevine geçiş](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [WMSI/WMS2 madde geçişi](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

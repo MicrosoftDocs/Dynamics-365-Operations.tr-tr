@@ -100,3 +100,6 @@ Arnie, bilgileri **Müşteri hareketleri** sayfasında görür.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

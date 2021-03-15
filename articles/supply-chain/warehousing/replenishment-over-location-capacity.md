@@ -407,3 +407,6 @@ Malzeme çekme konumundaki eldeki stok miktarı ve stok yenileme miktarının to
 - Dilerseniz **İş ayrıntıları** sayfasından, her iş başlığı için stok yenileme işi kullanılabilirliğini el ile geçersiz kılabilirsiniz.
 - Sistem stok yenileme işi kullanılabilirliğini ayarladığında, herhangi bir iş tamamlanmadan önce o konumda olan tüm stoku dikkate alır
 - Satış siparişi işinin her parçası belirli bir stok yenileme işine bağlıdır. Karşılık gelen satış işi kullanılabilirlik işlevi yoktur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

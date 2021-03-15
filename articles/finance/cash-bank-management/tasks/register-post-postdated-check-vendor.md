@@ -55,3 +55,6 @@ Bu görevin rolü Haznedar'dır. Bu görevde USMF demo şirketi kullanılmaktad�
 16. Sayfayı kapatın.
 17. Vadeli çekler sekmesini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

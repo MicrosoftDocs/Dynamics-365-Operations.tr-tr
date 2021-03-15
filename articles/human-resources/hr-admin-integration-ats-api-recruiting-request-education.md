@@ -74,3 +74,6 @@ Fiziksel ad: mshr_hcmrecruitingrequesteducationentity
 [Başvuran İzleme Sistemi tümleştirme API'si tanıtımı](hr-admin-integration-ats-api-introduction.md)<br>
 [Işe alma isteği için sorgu örneği](hr-admin-integration-ats-api-recruiting-request-example-query.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

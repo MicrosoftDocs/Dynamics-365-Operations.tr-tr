@@ -159,3 +159,6 @@ Aşağıdaki tabloda, ödeme planının ilk 12 ayı listelenir. Aaşağıdaki ay
 
 > [!NOTE]
 > Yıllık ödeme türü **Vadesi yıllık ödeme** olarak değiştirilirse ödeme, Aralık yerine Ocak ayında olur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

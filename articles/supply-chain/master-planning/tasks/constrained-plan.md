@@ -52,3 +52,6 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam
 3. **Tamam**'ı seçin.
 4. **Planlı siparişler**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

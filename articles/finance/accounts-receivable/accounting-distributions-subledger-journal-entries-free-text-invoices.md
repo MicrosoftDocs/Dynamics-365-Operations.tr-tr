@@ -135,3 +135,6 @@ Tam bir serbest metin faturasını deftere nakletmeden önce, faturanın doğru 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedil
 15. Kazançlar'ı tıklatın.
 16. Listede, kazanç kaydını bulun ve seçin. Yeni kapsam bitiş tarihi not edin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

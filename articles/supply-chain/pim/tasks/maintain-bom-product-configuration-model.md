@@ -57,3 +57,6 @@ Bu yordamın çalıştırılması için mevcut bir ürün yapılandırma modeli 
     * Ürün boyutlarından herhangi birinin etkin olup olmadığını ve ardından bir değerin eklenmiş veya özniteliğin atanmış olduğunu doğrulayın.  
 9. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

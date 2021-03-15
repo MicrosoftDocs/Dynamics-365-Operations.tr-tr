@@ -61,3 +61,6 @@ Aşağıdaki kısıtlamalar, nakil tanımlarında bağlantılar oluştururken ge
 Daha fazla bilgi için bkz. [Deftere nakil tanımı örnekleri](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

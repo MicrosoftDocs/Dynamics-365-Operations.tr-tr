@@ -208,3 +208,6 @@ Genel muhasebe konsolidasyona göre, muhasebe veya muhasebe para birimi tutarlar
 -  Artık, konsolidasyon şirketindeki işlem para birimi olarak kaynak şirketten muhasebe para biriminin mi yoksa raporlama para biriminin mi kullanılacağını seçebilirsiniz.
 
 - Kaynak şirketten gelen muhasebe veya raporlama para birimi tutarları, para birimlerinin aynı olması durumunda, doğrudan konsolidasyon şirketindeki muhasebe veya raporlama para birimi tutarlarına kopyalanacaktır. Para birimlerinin hiçbiri aynı değilse konsolidasyon şirketinde bulunan muhasebe ve raporlama para birimi tutarları Döviz kuru kullanılarak hesaplanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

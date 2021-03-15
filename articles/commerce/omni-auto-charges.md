@@ -221,3 +221,6 @@ Kullanıcılar hesaplanan masrafları el ile geçersiz kılarlarsa veya bir el i
 
 [Başlık masraflarını eşleşen satış satırlarına eşit dağıtma](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

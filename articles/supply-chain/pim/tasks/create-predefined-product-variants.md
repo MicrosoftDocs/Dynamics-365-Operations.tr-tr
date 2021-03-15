@@ -71,3 +71,6 @@ Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün i
     * Ürün boyutu değerlerinin kombinasyonuna dayalı olarak tüm seçenekleriniz için açıklamalar oluşturabilirsiniz. Açıklamalar isteğe bağlıdır.  
 5. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Bu yordamı bir bağlılık şemasının nasıl tanımlanacağını açıklar. B
 27. Kaydet'e tıklayın.
     * Bir bağlılık programı şeması için kanalları her değiştirdiğinize Bağlılık şemalarını işle'yi çalıştırmanız gerekir. Bu şekilde, kanallar güncelleştirilmiş bağlılık şemalarını alır.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

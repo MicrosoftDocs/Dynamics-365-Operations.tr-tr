@@ -139,3 +139,6 @@ April, 495,00 tutarında ödeme yapmaya karar verir ve 5,00 tutarında nakit isk
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

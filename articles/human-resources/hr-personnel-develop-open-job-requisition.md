@@ -66,3 +66,5 @@ ms.locfileid: "5129579"
 32. **İşe alma projesi durumu**'nu seçin.
 33. **Başlat**'ı seçin. **Başlatıldı** durumu, projenin başvuruları almaya hazır olduğu anlamına gelir.  
 34. **Tamam**'ı seçin.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

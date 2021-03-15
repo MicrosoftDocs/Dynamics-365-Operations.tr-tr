@@ -92,3 +92,6 @@ Dynamics 365 Human Resources'ta , izin ve devamsızlık planlarını ayarlamadan
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

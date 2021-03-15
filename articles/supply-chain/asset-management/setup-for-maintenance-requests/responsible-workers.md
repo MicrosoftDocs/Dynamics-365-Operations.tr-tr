@@ -53,3 +53,6 @@ Sorumlu bakım görevlilerini ayarlaymadan önce, seçim için kullanılabilir o
 Aşağıdaki çizimde bir **Sorumlu bakım görevlileri** liste sayfasının bir örneği gösterilmektedir.
 
 ![Sorumlu bakım görevlileri sayfası](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

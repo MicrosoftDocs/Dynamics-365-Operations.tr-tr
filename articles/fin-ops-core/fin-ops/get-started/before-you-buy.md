@@ -93,3 +93,6 @@ Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekl
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Dynamics AX 2012'den yükseltme veya AX 2009'dan geçiş yapıyorsanız
 
 Microsoft Dynamics AX 2012'den yükseltme veya Microsoft Dynamics AX 2009'dan geçiş yapan bir müşteriyseniz, daha uzun süreli bir deneme sürümüne hak sahibi olabilirsiniz. Daha fazla bilgi için <daxcf@microsoft.com> ile iletişime geçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

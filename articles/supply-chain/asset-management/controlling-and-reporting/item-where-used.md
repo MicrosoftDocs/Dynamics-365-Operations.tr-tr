@@ -70,3 +70,6 @@ Aşağıdaki ekran görüntüsünde, "1000" numaralı madde için madde-kullanı
 
 ![Madde kullanımı hesaplaması örneği](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

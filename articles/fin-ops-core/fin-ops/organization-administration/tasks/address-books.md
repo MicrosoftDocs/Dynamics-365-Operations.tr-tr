@@ -41,3 +41,6 @@ Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu kayıt 
 7. Seçilen kullanılabilir takımlarını Adres Defteri'ne eklemek için oku tıklatın.
 8. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

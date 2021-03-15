@@ -115,3 +115,6 @@ Bu hızlı sekmede, varlıkla ilişkili bakım sıraları ekleyebilir veya kald�
 ## <a name="financial-dimensions"></a>Mali boyutlar
 
 Varlık için mali boyutları seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Bazı deftere nakil denetim noktaları için mehil gün sayısı belirtebilirken
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Numara serileri ve paylaşılan numara serisi parametreleri
 
 Kredi limiti düzeltmelerini işlemek için bir günlük kodu gereklidir. Günlük kodunu oluşturmak için kullanılması gereken kredi limiti düzeltme numarasını eklemeniz gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

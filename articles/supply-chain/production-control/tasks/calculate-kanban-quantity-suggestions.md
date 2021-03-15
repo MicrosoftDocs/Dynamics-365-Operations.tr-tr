@@ -84,3 +84,6 @@ Bu yordam, kanban boyutunu ve miktarlarını belirli bir kanban kuralı için, k
     * Bu kanban miktar hesaplamasından gelen sabit kanban miktarı olan 4'tür.  
 5. ListPanel sekmesini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

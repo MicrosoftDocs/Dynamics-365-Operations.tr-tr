@@ -164,3 +164,6 @@ Aşağıdaki tablo web sitelerimizi listeler. Adının yanında bir yıldız iş
 | [Dynamics Topluluğu](https://community.dynamics.com/) | Bu site; bloglar, forumlar ve videoları barındırır. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Bu site, değerlendirme ve satış bilgileri sağlar. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Bu site; eğitim kaynakları, karşıdan yüklenebilir raporlar ve teknik makaleler barındırır ve servis planı sahipleri için birincil destek sitesidir. Bu sitedeki bazı kaynaklara erişim için bir hizmet planı gerekebilir. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

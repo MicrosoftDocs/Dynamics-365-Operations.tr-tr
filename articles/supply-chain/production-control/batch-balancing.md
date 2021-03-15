@@ -186,3 +186,6 @@ Formülde **Bileşen türü**'nün *Etkin* olduğu en az bir formül satırı bu
 1. Formül ölçü birimi etkin bileşenin ölçü biriminden farklıysa toplu iş emri toplu iş dengelemesi için geçerli olmaz.
 
 Toplu iş dengelemesi kullanılamayan bir toplu iş emri toplu iş emirlerine yönelik normal süreçten geçer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

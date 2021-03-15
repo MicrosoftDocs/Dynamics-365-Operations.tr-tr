@@ -44,3 +44,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak satıcı öd
     * İçe Aktar düğmesi kullanılamıyorsa yapılandırma zaten içe aktarılmış demektir.  
 9. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

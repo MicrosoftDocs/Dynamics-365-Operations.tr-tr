@@ -55,3 +55,6 @@ Bu değerlendirme için, aşağıdaki konumlardan birinden açabileceğiniz, haz
 - **Mağaza yönetimi** çalışma alanı &gt; **Retail ve Commerce** &gt; **Kanallar** &gt; **Mağaza yönetimi** &gt; **Raporlar** &gt; **En ürünler raporu**
 - **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail ve Commerce** &gt; **Ürünler ve kategoriler** &gt; **Mağaza yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
 - **Inquiries and reports** section &gt; **Retail ve Commerce** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report** (Sorgular ve raporlar bölümü Dynamics AX > Perakende ve ticaret > Sorgular ve raporlar > Satış raporları > En iyi müşteriler raporu)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Sayfa meta verilerini değiştirmek için aşağıdaki adımları izleyin.
 [Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
 [URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

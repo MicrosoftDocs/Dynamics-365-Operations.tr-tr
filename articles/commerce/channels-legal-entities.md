@@ -85,3 +85,6 @@ Aşağıdaki resimde örnek bir tüzel kişiliğin ayrıntıları gösteriliyor.
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

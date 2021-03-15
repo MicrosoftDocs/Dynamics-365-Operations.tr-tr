@@ -49,3 +49,6 @@ Veri projesindeki mevcut varlıklar için aynı dosyanın yeni bir sürümünün
 ## <a name="upload-a-file-using-run-project"></a>Projeyi çalıştır özelliğini kullanarak dosya yükleme
 
 Bir içe aktarma projesini yürütmek için **Projeyi çalıştır** seçeneğini kullanırken bir Excel dosyası yükleyebilirsiniz. Yalnızca veri projesinde yer alan veri varlıklarındaki mevcut eşlemelerle aynı çalışma sayfalarına sahip dosyaları yüklemeye dikkat etmeniz gerekir. Yeni yüklenen bir dosyada bir çalışma sayfası bulunamazsa, sistem bir hata görüntüler ve içe aktarma işlemini durdurur. Çalışma sayfası eşlemesinin bir varlık için değiştirilmesi gerekirse, **Projeyi çalıştır** seçeneğindeki dosya kullanılmadan önce ilk olarak veri projesindeki eşlemelerin veri projesi içinden güncelleştirilmesi gerekir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

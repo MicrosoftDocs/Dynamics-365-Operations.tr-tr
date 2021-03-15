@@ -123,3 +123,6 @@ Microsoft Dynamics 365 for Finance and Operations'daki diğer modüllerde saat m
 Aşağıdaki şekilde **İş emri tahmini güncelleştir** iletişim kutusu örneği gösterilmektedir.
 
 ![Şekil 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Aşağıdaki resimde, "Mall", "Outlet", "Çevrimiçi" ve "Çağrı Merkezi" kana
 [Kanallara genel bakış](channels-overview.md)
 
 [Kanal kurulum önkoşulları](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

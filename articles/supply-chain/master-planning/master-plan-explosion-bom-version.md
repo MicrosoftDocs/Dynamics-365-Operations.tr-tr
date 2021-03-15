@@ -47,3 +47,6 @@ Aşağıdaki resimde, master planlama talep açılımının ne şekilde ilerledi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

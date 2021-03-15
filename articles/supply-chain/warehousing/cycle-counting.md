@@ -139,3 +139,6 @@ Sayılan değerdeki farkları düzeltebilir ve ardından sayılan değeri **Göz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

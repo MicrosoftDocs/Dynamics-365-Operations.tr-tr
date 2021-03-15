@@ -32,3 +32,6 @@ Taşımacılık yönetimiyle ilgili iskontoları ayarlamak için **Taşıma yön
 Müşterinize iskonto geçişi yapılıp yapılmayacağını (iskonto türünü müşteri olarak ayarlayarak) veya şirket içinde tutulmasını (iskonto türünü sevk edilebilir olarak ayarlayarak) seçebilirsiniz. Bu, hesaplanan navlun masraflarından bir marj elde ettiğiniz bir kurulumu tanımlamanızı sağlar.
 
 Her iskonto için taşıyıcı, taşıyıcı hizmeti, teslimat süreleri, müşteri, hedef vb. gibi birden fazla niteleyici ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

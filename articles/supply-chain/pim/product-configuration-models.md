@@ -152,3 +152,6 @@ Yayınlanmış bir ürünün bileşen veya alt bileşen olarak kullanılıp kull
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

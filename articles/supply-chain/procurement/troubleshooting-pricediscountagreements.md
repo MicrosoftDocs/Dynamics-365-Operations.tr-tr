@@ -124,3 +124,6 @@ Bu davranış beklenmektedir. Talepler her zaman onaylanmadığından, satınalm
 
 Kabul edilip edilmediğine bakılmaksızın, bir teklif talebi (RFQ) için herhangi bir yanıt için ticari sözleşmeler oluşturabilirsiniz. Daha fazla bilgi için bkz. [Teklif talebine (RFQ) genel bakış](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

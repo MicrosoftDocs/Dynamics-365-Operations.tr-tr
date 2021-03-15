@@ -114,3 +114,6 @@ Bakım yapılan varlık ile sabit kıymet arasındaki mevcut ilişkilendirmeyi k
 1. Sabit kıymeti bulun ve açın.
 1. **Sabit kıymet** hızlı sekmesinde, **İşlem yapılacak yerleşim** alanındaki değeri temizleyin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

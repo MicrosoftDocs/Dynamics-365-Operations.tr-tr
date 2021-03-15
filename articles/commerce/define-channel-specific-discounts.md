@@ -61,3 +61,6 @@ Aşağıdaki örnek bir kanal iskonto ayarının kurulmasıyla ilgili görevleri
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Fiyat ayarlamaları ve iskontolar](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

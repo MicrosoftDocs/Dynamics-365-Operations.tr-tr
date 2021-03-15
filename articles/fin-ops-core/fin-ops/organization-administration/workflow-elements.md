@@ -89,3 +89,6 @@ Aşağıdaki öğeler, alternatif dalları veya aynı anda çalışan dalları o
 ### <a name="subworkflow"></a>Alt iş akışı
 
 *Alt iş akışı*, başka bir iş akışının bağlamında çalışan bir iş akışıdır
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

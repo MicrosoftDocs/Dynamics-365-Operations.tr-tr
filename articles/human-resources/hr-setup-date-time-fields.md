@@ -95,3 +95,6 @@ Verileri görüntülemek veya yazmak için DMF gibi dış kaynakları kullanırk
 
 [Tarih ve saat verileri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Kullanıcının tercih ettiği saat dilimleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

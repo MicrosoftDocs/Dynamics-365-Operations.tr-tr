@@ -67,3 +67,6 @@ Aşağıdaki ekran görüntüsünde, işlem yapılacak yerleşim bilgileri eklen
 
 ![İşlem yapılacak yerleşimlere sahip aylık iş yükü örneği](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

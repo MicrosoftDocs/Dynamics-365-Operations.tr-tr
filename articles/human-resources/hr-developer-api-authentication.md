@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Bir erişim belirteci aldıktan sonra, doğrulama üstbilgisindeki belirteci yukarıda açıklandığı şekilde, Data API'ye gönderdiğiniz her istekle bir taşıyıcı belirteci olarak geçireceksiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

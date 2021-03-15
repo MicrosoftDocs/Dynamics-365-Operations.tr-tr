@@ -86,3 +86,6 @@ Sonuç 25 adete ait planlı bir sipariş. (= 25 adet &minus; 0 adet) 13 numaral�
 [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

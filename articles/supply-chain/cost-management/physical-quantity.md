@@ -146,3 +146,6 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

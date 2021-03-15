@@ -203,3 +203,6 @@ Doğrulama seçeneğini ayarlamak için:
 1. **Genel** sekmesinde, **Varsayılan sipariş miktarları doğrulaması** öğesini aşağıdaki değerlerden biriyle ayarlayın:
     - **Katı** - Tüm **Standart sipariş miktarı** değerlerinin her hızlı sekmede (**Satın alma siparişi** , **Stok** ve **Satış siparişi**) **Çoklu** değerinin bir katı olmasını sağlamak için bu seçeneği işaretleyin.
     - **Standart** - Standart doğrulamayı kullanmak için bu seçeneği belirleyin (bu özellik etkinleştirilmediğinde aynı şekilde çalışır).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

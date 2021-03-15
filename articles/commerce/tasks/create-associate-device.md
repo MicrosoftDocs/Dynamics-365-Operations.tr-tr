@@ -40,3 +40,6 @@ Bu yordam yeni bir aygıt oluşturma ve kayıtla ilişkilendirme konusunda açı
 9. Listede, seçili satırdaki bağlantıya tıklayın.
 10. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

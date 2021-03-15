@@ -88,3 +88,6 @@ Bir yeni sayfaya metin bloku modülü eklemek ve gerekli özellikleri ayarlamak 
 
 [Video oynatıcı modülü](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

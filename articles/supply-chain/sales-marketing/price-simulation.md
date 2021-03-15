@@ -144,3 +144,6 @@ Fiyat benzetimi yalnızca uygulandığı satırı etkiler ve bu satırın toplam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

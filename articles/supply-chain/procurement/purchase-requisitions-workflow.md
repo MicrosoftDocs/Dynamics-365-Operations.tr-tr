@@ -120,3 +120,6 @@ Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kul
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

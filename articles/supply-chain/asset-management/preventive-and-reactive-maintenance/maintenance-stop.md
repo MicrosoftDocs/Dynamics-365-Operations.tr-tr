@@ -96,3 +96,6 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 - Varlıkları bir bakım kesinti süresi faaliyetinden diğerine kopyalayabilirsiniz. **Tüm bakım kesinti süresi faaliyetleri**'nde **Bakım kesinti süresi faaliyetlerini kopyala** düğmesini seçin ve **Bakım kesinti süresi faaliyetlerinden** ve **Bakım kesinti süresi faaliyetlerine** alanlarında seçimlerinizi yapıp **Tamam**'a tıklayın.
 - **Tüm bakım kesinti faaliyetleri**'nde ilgili listeleri açmak ve seçilen bakım kesinti süresi faaliyetiyle ilgili satırları görüntülemek için **Bakım zamanlaması satırları** düğmesine veya **Etkin iş emirleri** düğmesine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

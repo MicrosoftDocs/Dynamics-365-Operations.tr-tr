@@ -158,3 +158,6 @@ Bu konu, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki 
 42. **Kaydet**'e tıklayın.
 43. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

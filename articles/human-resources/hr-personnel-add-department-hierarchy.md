@@ -54,3 +54,6 @@ Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin
 
 ## <a name="steps-for-creating-a-department"></a>Bir departman oluşturma adımları
 Yeni bir departman oluşturmaya ilişkin adım adım yordam için [Yeni departmanlar tanımlama](../fin-and-ops/hr/tasks/define-new-departments.md) konusuna başvurun. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

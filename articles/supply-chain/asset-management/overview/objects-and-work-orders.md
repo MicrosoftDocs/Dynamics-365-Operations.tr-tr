@@ -54,3 +54,6 @@ Bir iş emri üzerinde bakım işi zamanlamak ve çalıştırmak istediğinizde 
 
 > [!NOTE]
 > Genel olarak, Dynamics 365 Supply Chain Management ve **Kıymet Yönetimi** modülünde çalışırken yeni kayıt oluşturmak için **Yeni**'yi, mevcut kaydı güncelleştirmek için **Düzenle**'yi ve yeni veya düzenlenmiş verileri kaydetmek için **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

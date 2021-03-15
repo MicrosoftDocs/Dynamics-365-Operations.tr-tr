@@ -41,3 +41,6 @@ Hesaplamanın gerçekleşmesini önlemek için, ürüne atanan ürün reçetesi 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

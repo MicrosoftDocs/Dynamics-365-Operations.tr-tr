@@ -88,3 +88,6 @@ Commerce, kanalları yapılandırmak için kuruluş hiyerarşilerini kullanır. 
 > [!NOTE]
 > Commerce satış işlevlerini kullanabilmeniz için **çoklu sevk edilecek** konfigürasyon anahtarının etkinleştirilmesi gerekir. Bu konfigürasyon anahtarı, **Sistem yönetimi** \> **Kurulum** \> **Lisans konfigürasyonu** altındaki **ticaret konfigürasyon** anahtarlarında bulunabilir. Bu, satış siparişi satırı düzeyinde konfigüre edilen teslimat adresine dayalı olarak çeşitli doğrulamaları gereklidir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

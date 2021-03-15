@@ -79,3 +79,5 @@ Ocak 2021'de, neden kodları **Yan hak yönetimi** çalışma alanı yerine **Pe
 Neden kodları Personel yönetimine geçtikten sonra, bunları Yan hak yönetiminde kullanma seçeneği otomatik olarak **Evet** olarak ayarlanır.
 
 [![Yan hak yönetiminde neden kodunu kullanma](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

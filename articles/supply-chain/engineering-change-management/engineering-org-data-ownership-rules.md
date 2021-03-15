@@ -66,3 +66,6 @@ Mühendislik şirketi, mühendislik ile ilgili verilerin sahibi olduğundan, aş
 
     - Bu belgeler diğer tüzel kişiliklere serbest bırakıldığında, belgelerin operasyonel şirket tarafından kaldırılmaya karşı korunur.
     - Diğer tüzel kişilikler tamamen yeni yerel belgeler ekleyebilirler. Operasyonel şirket bu yerel belgelerin sahibi olur ve onlara bakım yapar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Bu konu, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını açıkl
 7. Sayfayı kapatın.
 8. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

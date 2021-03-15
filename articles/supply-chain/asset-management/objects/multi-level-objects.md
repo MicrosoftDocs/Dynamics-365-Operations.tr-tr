@@ -61,3 +61,6 @@ Bir kıymetin ilgili alt kıymetleri varsa kıymetler üzerinde kayıtlı bakım
 
 > [!NOTE]
 > Bir kıymeti bu yordamı kullanarak silemezseniz silme işlemini gerçekleştirmenin bir diğer yolu da bir kıymet yaşam döngüsü durumunu bu amaçla ayarlamaktır. Örneğin **Kıymet yaşam döngüsü durumlar** sayfasında **Iskarta** veya **Silindi** yaşam döngüsü durumu ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -141,3 +141,6 @@ Bu sorunu, günlüklerin deftere doğru şekilde nakledilmediği işlemler için
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Bitmiş malların seri numaralarını tüketilen malların seri numaralarıyla karşılaştırıp takip edebilir miyim?
 
 Bitmiş malların seri numaralarını, bir üretim emrinin bu bitmiş malları yapmak için tükettiği malzemenin seri numaralarıyla karşılaştırarak izleyebilirsiniz. Bu senaryo şu anda desteklenmiyor. Geçici çözüm, 1 miktarı için üretim emirleri oluşturmaktır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

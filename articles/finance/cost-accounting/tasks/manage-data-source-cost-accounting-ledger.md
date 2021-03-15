@@ -47,3 +47,6 @@ Bir maliyet muhasebesi defteri için genel muhasebe defteri veri kaynağını y�
 14. Deftere nakil katmanı alanında, Geçerli öğesini seçin.
 15. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

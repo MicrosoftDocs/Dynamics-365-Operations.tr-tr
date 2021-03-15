@@ -112,3 +112,6 @@ Finansal boyutları belge başlıklarına ya da satış anlaşmalarının tekil 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

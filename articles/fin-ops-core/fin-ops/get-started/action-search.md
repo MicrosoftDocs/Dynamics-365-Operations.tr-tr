@@ -75,3 +75,6 @@ Bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem ko
 ## <a name="action-search-vs-navigation-search"></a>Eylem arama - Gezinti arama karşılaştırması
 
 Eylem arama ile bir sayfadaki eylemleri bulup çalıştırma amaçlanırken, sayfaları bulup gezinmek için ayrı bir arama mekanizması bulunur. Bu özellik hakkında daha fazla bilgi için, bkz. [Gezinti arama](navigation-search.md) makalesi.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

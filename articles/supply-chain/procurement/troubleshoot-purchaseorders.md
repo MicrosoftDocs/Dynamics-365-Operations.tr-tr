@@ -144,3 +144,6 @@ Bu davranış tasarımdan kaynaklanır. Seçilen adresin teslimat adresi olarak 
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Bir satınalma siparişini iptal eden kullanıcıyı bulabilir miyim?
 
 Bu bilgiler yalnızca satınalma siparişi değişiklik yönetimine tabi olduğunda izlenir. Değişiklik yönetimini kullanıyorsanız, değişikliği kimlerin göndermiş olduğunu (iptal) ve kimin onayladığını görebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

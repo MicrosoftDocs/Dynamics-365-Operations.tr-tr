@@ -186,3 +186,6 @@ Dynamics 365 Supply Chain uygulamasının bir kullanıcısı olarak rolünüz i�
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

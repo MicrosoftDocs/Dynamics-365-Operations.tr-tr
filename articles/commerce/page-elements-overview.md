@@ -63,3 +63,6 @@ Aşağıdaki tabloda sitenizin görünümünü, hissini ve içeriğini değişti
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Site gezintisini özelleştirme](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

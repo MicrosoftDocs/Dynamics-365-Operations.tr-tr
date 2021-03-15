@@ -63,3 +63,6 @@ Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğ�
 2. Hareketler'e tıklayın.
     * Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

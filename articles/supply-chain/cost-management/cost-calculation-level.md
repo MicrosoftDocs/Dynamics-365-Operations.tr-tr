@@ -56,3 +56,6 @@ Daha sonra ürün C'nin üretim emri oluşturulur ve üretim emri ürün reçete
     - **Ürün C:** 2
 
 Bu davranış, üretim emri ürün reçeteleri üzerindeki değişikliklerin sonraki maliyet hesaplamalarını etkilememesini sağlar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

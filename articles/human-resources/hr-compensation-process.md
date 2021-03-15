@@ -77,3 +77,6 @@ Yalnızca Adım Adım plan türüne sahip **Sabit ücret** eylemleri ekleyebilir
 Bir veya daha fazla çalışan olayının durumu onaylandı olarak güncelleştirildikten sonra, bu olaylar çalışanların sabit ücret kayıtlarına yüklenebilir. Bu işlem her personel olayını ayrı ayrı seçip **Çalışan sonuçları** sayfasındaki **Personel ücretini yükle** düğmesine tıklayarak veya onaylanan tüm çalışan olaylarını bir kerede yüklemek için **İşlem sonuçları** sayfasındaki **Ücreti yükle**'ye tıklayarak yapılabilir.
 
 **Ücreti yükle** iletişim kutusundaki **Tamam**'a tıklamak **Çalışan sabit ücreti** sayfasına sıfır olmayan ücret eylemi satırları ekleyecektir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

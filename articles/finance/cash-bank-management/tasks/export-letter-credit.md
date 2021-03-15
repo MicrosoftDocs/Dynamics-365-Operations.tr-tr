@@ -139,3 +139,6 @@ Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve sat
 3. Listede, seçili satırdaki bağlantıya tıklayın.
     * Sevkiyat durumu'nun = Ödeme alındı ve bakiye tutarı'nın = 0,00 olduğunu doğrulayın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

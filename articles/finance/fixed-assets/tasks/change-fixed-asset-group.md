@@ -45,3 +45,6 @@ Bu kılavuz, USMF demo şirketini kullanır.
 6. Tamam'a tıklayın.
 7. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

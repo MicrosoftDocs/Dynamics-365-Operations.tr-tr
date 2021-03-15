@@ -50,3 +50,6 @@ April sonra ödeme günlüğünü naklediyor. Fatura, 940,00 tutarında bir öde
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

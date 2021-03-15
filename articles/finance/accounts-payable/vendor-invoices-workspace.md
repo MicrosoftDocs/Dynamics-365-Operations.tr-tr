@@ -116,3 +116,6 @@ Aşağıdaki tablo, her bir rapor sayfasında kullanılabilen görselleştirmele
 | İçe aktarmanın başarısız olduğu faturalar | <ul><li>İçe aktarmanın başarısız olduğu faturalar</li><li>İçe aktarmanın başarısız olduğu şirkete ait faturalar</li></ul> |
 | Otomasyon hatası nedenleri | <ul><li>Faturalar başarısız oldu</li><li>Şirkete ait başarısız olan faturalar</li><li>Satıcı grubuna ait başarısız olan faturalar</li></ul> |
 | İş akışı durumu                | <ul><li>İş akışındaki faturalar</li><li>Satıcı fatura iş akışı örnekleri</li><li>Onaylayan başına atama</li><li>Şirket başına satıcı faturası iş akışı</li><li>Onaylana göre iş akışındaki ortalama gün sayısı</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

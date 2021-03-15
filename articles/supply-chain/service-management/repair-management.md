@@ -112,3 +112,6 @@ Bir onarım sorunu giderildiğinde, onarım satırını kapatabilirsiniz. Onarı
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

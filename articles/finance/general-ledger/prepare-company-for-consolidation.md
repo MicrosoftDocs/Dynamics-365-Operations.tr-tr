@@ -67,3 +67,6 @@ Konsolide tüzel kişilik artık **Konsolide et** periyodik işi için ayarlanm�
 
 > [!NOTE]
 > Konsolidasyonu işlemeden önce, yan tüzel kişilikleri konsolidasyon için hazırlamanız gerekir. Daha fazla bilgi için bkz. [Konsolidasyon için bir bağlı tüzel kişilik ayarlama](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

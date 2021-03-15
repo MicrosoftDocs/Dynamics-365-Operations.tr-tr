@@ -56,3 +56,6 @@ Bu yordamın rolü Haznedar'dır. Bu yordam, USMF demo şirketini kullanır.
 18. Kaydet'i tıklatın.
 19. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

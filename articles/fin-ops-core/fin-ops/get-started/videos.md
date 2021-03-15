@@ -167,3 +167,6 @@ ms.locfileid: "4797888"
 [FastTrack Teknik Sohbetleri](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) müşterilere ve iş ortaklarına onu alanlarına özgü ayrıntılı bilgi sağlayan teknik ayrıntılara ve en iyi uygulamalara odaklanır.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

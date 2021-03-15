@@ -49,3 +49,6 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
     - Genel doğrulama yerine yalnızca belirli bir harekete filtre uyguladıktan sonra doğrulayın. Örneğin kayıt numarası için hareket numarasına veya hareket tarihine filtre uygulayarak, doğrulamanın tüm diğer hareketleri hariç tutmasını sağlayın. 
     - Bir müşteri bakiyesini veya bütçe kontrolünü denetliyorsanız, önce değeri kaydedin ve ardından, sabit beklenen değeri doğrulamak yerine, beklenen sonucu doğrulamak için hareket değerini ekleyin. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

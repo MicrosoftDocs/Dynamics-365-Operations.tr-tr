@@ -77,3 +77,6 @@ Aşağıdaki tablo, her bir rapor sayfasında kullanılabilen görselleştirmele
 |    Müşteri / satıcı bakiyesi     |                                                                                                                   <ul><li>Müşteri / satıcı bakiyesi</li><li>Şirkete göre satıcı / müşteri bakiyesi</li><li>Satıcı / müşteri bakiyesi ayrıntıları</li></ul>                                                                                                                    |
 |    Ödemesi beklemede olan faturalar     |                                                                                         <ul><li>Ödemesi beklemede olan faturalar</li><li>Ödemesi beklemede olan faturaların ayrıntıları</li><li>Şirkete göre ödemesi beklemede olan faturalar</li><li>Satıcı grubuna göre ödemesi beklemede olan faturalar</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

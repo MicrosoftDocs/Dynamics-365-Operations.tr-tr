@@ -82,3 +82,6 @@ Otomatik olarak rezerve edilmesi gereken ve 4 Nisan 2016 tarihinde teslim edilen
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Üretim parametreleri sayfasındaki stok rezervasyonu ilkeleri
 
 **Üretim parametreleri** sayfasında bulunan **Genel** sekmesindeki **Rezervasyon** alanının değeri üretim sürecinde stoğun rezerve edilmesi gereken varsayılan noktayı belirler. Örneğin, stok iş zamanlanırken veya iş başlatıldığında rezerve edilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

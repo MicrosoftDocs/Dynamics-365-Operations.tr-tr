@@ -236,3 +236,5 @@ Bir ankette bir soru hiyerarşisi oluşturmak için koşullu sorular kullanmak i
 Tüzel kişilik müşterilerine hem öğeler hem de hizmetler sunar. Bu gibi durumlarda genellikle olduğu gibi, bazı müşteriler yalnızca öğeleri satın alırken, bazıları yalnızca hizmetleri ve bazıları da hem öğeleri hem hizmetleri satın alır. Bu nedenle, tüzel kişilik bir müşteri memnuniyeti anketi dağıttığında, ankete koşullu bir yapı uygular, böylece yalnızca hizmetleri satın alan müşterilerin öğeler hakkındaki soruları yanıtlaması gerekmez. 
 
 Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru sırasında soru 2'nin gelmesini sağlamak için bir anket ayarlayın. Ancak yanıtlayan soru 1 için cevap B'yi seçerse, sıradaki soru soru 5'tir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

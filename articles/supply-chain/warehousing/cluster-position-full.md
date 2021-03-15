@@ -275,3 +275,6 @@ Bu senaryoda, küme çekme tamamlanmıştır ve kullanıcı, pozisyon 1 ve pozis
     Bir "Küme Tamamlandı" iletisi alırsınız.
 
 Artık kalan miktarı çekmek için **Satış Malzeme Çekme** menü öğesini kullanabilirsiniz. Daha sonra, maddeleri hazırlama yerleşiminden yükleme noktasına taşımak için **Satış yükleme** menü öğesini kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

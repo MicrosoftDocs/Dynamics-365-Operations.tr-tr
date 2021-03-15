@@ -94,3 +94,6 @@ Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize 
 8. Ağırlık birimi alanına bir değer girin veya buradan bir değer seçin.
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

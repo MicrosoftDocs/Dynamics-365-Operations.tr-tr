@@ -51,3 +51,6 @@ Yeni maddeler için standart maliyetleri düzeltmek, ayarlamak veya güncellemek
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ E-ticaret başlatmasının ardından yeni etki alanlarını e-ticaret ortamını
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

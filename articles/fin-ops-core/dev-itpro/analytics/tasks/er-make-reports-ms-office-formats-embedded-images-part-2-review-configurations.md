@@ -91,3 +91,6 @@ Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne at
     * Önceden yazdırılmış çek formunda sunulan bazı etiketler, test amaçlı oluşturulduğunda rapora dahil edilecektir. Ancak, bu etiketler gerçek yazdırma sırasında yazdırılmayacaktır çünkü önceden yazdırılmış form zaten bunları içerir.  
 15. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

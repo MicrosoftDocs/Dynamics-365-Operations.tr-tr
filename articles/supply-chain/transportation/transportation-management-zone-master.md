@@ -35,3 +35,6 @@ Taşıma yönetimi coğrafi konumları bölgelere bölmenize olanak tanır. Konu
 - **Rota planlamayı iyileştirme**: Belirli bölgelere özel rota planları atamayı sağlar.
 
 Bölgeleri, her bölgeyi nitelendirmek için kullanılan meta veri alan değerlerini (ülke/bölge, posta kodu aralığı veya taşıyıcı hizmeti gibi) temel alarak tanımlarsınız. Taşımacılık fiyatlarınız bir bölge kavramı kullanmıyorsa bölge tanımları gerekli değildir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

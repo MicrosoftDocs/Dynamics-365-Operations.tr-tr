@@ -228,3 +228,6 @@ Kuruluşunuz veya kuruluşunuzdaki kullanıcılarınız için Microsoft Teams i�
 [Microsoft Teams platformunu indirme ve yükleme](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams yardım merkezi](https://support.office.com/teams)</br>
 [Teams'de Human Resources uygulaması](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Partinin kısmi bir miktarı için stok durumu değişikliği yapmak istiyorsunu
 - **Stok durumunu görüntüle:** *Evet*
 
 Sayfadaki diğer alanları gerektiği gibi ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

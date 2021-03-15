@@ -62,3 +62,6 @@ Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gele
 Bir çalışan, başvuran veya ilgili kişinin belirli bir tarih itibariyle sahip olduğu yetkinliklerin listesini görmek için bir yetenek profili analizi oluşturabilirsiniz. Bir kişinin yeteneklerini ve belirli bir iş için gereken yetenekleri karşılaştırmak için bir yetenek eksikliği analizi oluşturabilirsiniz.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

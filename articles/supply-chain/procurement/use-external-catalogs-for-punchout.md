@@ -54,3 +54,5 @@ Talep hazır olduğunda, onay için göndermek üzere **İş akışı** > **Gön
 
 - [PunchOut e-procurement için harici katalog ayarlama](set-up-external-catalog-for-punchout.md)
 - [CXML geliştirmeleri satın alma](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

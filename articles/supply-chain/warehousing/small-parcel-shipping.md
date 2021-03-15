@@ -279,3 +279,6 @@ Sevkiyatı paketlemek için şu adımları izleyin.
     ![Örnek gönderim etiketi](media/sps-label-example.png "Örnek gönderim etiketi")
 
 1. **Konteyner bildirim kodu** ve **Toplam navlun** değerlerinin, taşıyıcıdan alındığı şekilde eklendiğini görürsünüz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

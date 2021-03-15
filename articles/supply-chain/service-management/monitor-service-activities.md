@@ -59,3 +59,6 @@ Servis faaliyeti gününü izlerken servis teknisyenin John'ın, atanan servis �
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

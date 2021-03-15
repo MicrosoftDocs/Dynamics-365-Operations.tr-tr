@@ -102,3 +102,5 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
 - [İnsan Kaynakları'ndaki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 - [Geliştirici Kılavuzu](hr-developer-overview.md)
 - [Kullanıcı Kılavuzu](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Bu örnek Fabrikam Satınalma borç hesapları fatura eşleştirme için aşağ�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

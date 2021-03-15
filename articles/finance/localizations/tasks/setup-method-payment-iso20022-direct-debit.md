@@ -52,3 +52,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ö
     * Müşteri ödeme biçimleri için SEPA hesaptan ödemesi gibi ödeme iletisinde talimat bilgilerini içermesini gerektiren, Talimat iste parametresini seçin.  
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

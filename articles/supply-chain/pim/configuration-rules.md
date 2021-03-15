@@ -45,3 +45,6 @@ Yapılandırma kurallarında sonradan yapılan değişiklikler mevcut yapıland�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

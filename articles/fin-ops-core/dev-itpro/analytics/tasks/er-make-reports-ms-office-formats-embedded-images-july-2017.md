@@ -90,3 +90,6 @@ Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlay�
  30. Etkin olmayan banka hesaplarında açık provizyon oluşturmaya izin ver: alanında Evet'i seçin.  
  31. Kaydet'e tıklayın.  
  32. Sayfayı kapatın.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

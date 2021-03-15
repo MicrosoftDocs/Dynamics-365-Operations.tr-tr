@@ -169,3 +169,6 @@ Bir çalışan **Mola**'yı seçip ardından mola türünü temsil eden kartı (
 1. Çalışan, görevi öğrenmek için kılavuzu inceler.
 
 HoloLens için Kılavuzlar oluşturma, atama ve kullanma hakkında daha fazla bilgi için bkz. [Üretimde çalışanlar için karma gerçeklik kılavuzları sağlama](instruction-guides-in-production-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

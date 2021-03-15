@@ -118,3 +118,6 @@ Bir günlüğün iş akışı geçmişini gözden geçirmek için:
 1. Gezinti bölmesinde, **Stok yönetimi \> Günlük girişleri \> Kalemler**'i genişletip bir stok günlüğü türü seçin.
 1. İlgili günlüğü açın.
 1. Açılan iletişim kutusunu açmak için Eylem Bölmesindeki **İş akışı** düğmesini seçin. **İş akışı geçmişi**'ni seçin. Daha fazla bilgi için bkz. [İş akışı geçmişini görüntüleme](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

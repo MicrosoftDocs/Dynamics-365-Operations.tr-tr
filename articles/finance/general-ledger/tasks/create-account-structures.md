@@ -60,3 +60,6 @@ Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar. Adımla
 29. **Eylem Bölmesinde** **Etkinleştir** öğesine tıklayın.
 30. **Etkinleştir**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

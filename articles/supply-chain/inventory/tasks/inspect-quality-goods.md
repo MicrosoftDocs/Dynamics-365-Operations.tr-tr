@@ -50,3 +50,6 @@ Bu konu, bir kalite emrinin nasıl işleyeceğini açıklar. Bu kılavuzu USMF d
 4. **Tamam**'ı seçin.
 5. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

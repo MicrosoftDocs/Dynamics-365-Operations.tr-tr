@@ -108,3 +108,6 @@ Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşt
 
 ![ER veri modeli tasarımcısı sayfası](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

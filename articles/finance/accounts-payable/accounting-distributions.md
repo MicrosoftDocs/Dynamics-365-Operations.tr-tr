@@ -56,3 +56,6 @@ Genel muhasebe dağılımı özellikleri, muhasebe dağılımlarının işlenmes
 Sürüm 10.0.13, yeni alanların doğru ayarlandığından emin olmak için hesap dağıtım tablosunu doğrulayan bir özellik eklenmiştir. Bu özellik, **Kaynak belge muhasebe çerçevesini kullanan belgeler için verilerin ek doğrulanmasını etkinleştir** olarak adlandırılır. Özelliği kullanmak için **Özellik yönetimi** çalışma alanını kullanarak etkinleştirmelisiniz. Özelliği etkinleştirmek için **Özellik yönetimi** sayfasındaki **Arama** alanında özelliğin adını arayın ve **Şimdi etkinleştir**'i seçin.
 
 Daha fazla bilgi için bkz. [Satıcı faturaları için muhasebe dağılımları ve muavin defteri günlük girdileri](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

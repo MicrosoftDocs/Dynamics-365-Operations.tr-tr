@@ -81,3 +81,6 @@ Bu örnekler, şu veri öğelerini kullanarak nasıl farklı iş akışı koşul
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

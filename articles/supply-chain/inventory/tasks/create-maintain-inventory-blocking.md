@@ -51,3 +51,6 @@ Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kayn
 2. **Evet** seçeneğini tıklatın.
 3. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

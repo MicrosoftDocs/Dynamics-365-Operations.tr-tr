@@ -46,3 +46,6 @@ Bir geçiş düzeltmesini yeni muhasebe standartlarıyla uyumlu olarak deftere n
 
 5. Günlük girişini görüntülemek için **Varlık kiralama günlükleri**'ni seçin.
 6. Yeni günlüğü seçin ve ardından **Deftere naklet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

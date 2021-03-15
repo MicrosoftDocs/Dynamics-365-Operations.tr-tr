@@ -156,3 +156,6 @@ Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

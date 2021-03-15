@@ -547,3 +547,6 @@ Bu başlık, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

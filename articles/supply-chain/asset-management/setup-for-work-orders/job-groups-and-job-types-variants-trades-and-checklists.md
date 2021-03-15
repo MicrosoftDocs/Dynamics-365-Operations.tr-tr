@@ -266,3 +266,6 @@ Varlık Yönetimi'nde, diğer modüllerde güncelleştirilen saat maliyetleri, m
 2. **Bakım işi türü tahminini güncelleştir** iletişim kutusunda **Eklenecek kayıtlar** hızlı sekmesinde gerektiğinde belirli bakım işi türleri için seçimler ekleyebilirsiniz. **Filtre**'yi seçin ve ardından seçim yapmak için **Seç**'i belirleyin.
 3. **Arka planda çalıştır** hızlı sekmesinde gerektiğinde otomatik güncelleştirmeyi toplu iş olarak ayarlayabilirsiniz.
 4. Tahmin güncelleştirmesini başlatmak için **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

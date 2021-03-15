@@ -134,3 +134,6 @@ Aşağıdaki tablo, sevkiyat konsolidasyonu ilkelerini kullanmadığınız sıra
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Sevkiyat konsolidasyon ilkelerini yapılandırma](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

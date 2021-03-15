@@ -67,3 +67,6 @@ Bu prosedürde, vade farkı dekontlarının nasıl oluşturulacağı, yazdırıl
 5. **Tamam**'a tıklayın.
 6. **Durum** alanında, "Deftere nakledildi"yi seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

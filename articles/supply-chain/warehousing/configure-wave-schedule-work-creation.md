@@ -110,3 +110,6 @@ Aşağıdaki akış çizelgesi, dalga işleme sırasında planlanan işin nasıl
 Dalgaları işlemeye yönelik toplu işleri görüntülemek için **Tüm dalgalar** sayfasındaki Eylem Bölmesinde **Toplu işler**'i seçin.
 
 Buradan, toplu iş kodlarının her biri için tüm toplu görev ayrıntılarını görüntüleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ A, B ve C maddelerini içeren bir plan filtresi ayarlanır. Ardından master pla
 [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
 
 [Planlama işini iptal etme](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

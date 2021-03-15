@@ -106,3 +106,6 @@ Bir yeni sayfaya Hero modülü eklemek ve gerekli özellikleri ayarlamak için a
 [Metin bloğu modülü](add-content-rich-block.md)
 
 [Video oynatıcı modülü](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

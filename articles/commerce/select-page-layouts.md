@@ -79,3 +79,6 @@ Varolan bir sayfaya farklı bir düzen seçmek için aşağıdaki adımları izl
 
 [URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

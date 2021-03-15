@@ -60,3 +60,6 @@ Kapatma 100,00 tutarında olur ve 99,00 tutarında bir ödeme ve 1,00 tutarında
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

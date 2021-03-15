@@ -50,3 +50,6 @@ Lifecycle Services'te nelerin yeni veya değiştirilmiş olduğunu görmek için
 - [Lifecycle Services'deki (LCS) yenilikler veya değişiklikler](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

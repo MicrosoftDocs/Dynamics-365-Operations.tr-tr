@@ -81,3 +81,6 @@ Kullanıcı kimliğini değiştirmek için veritabanındaki anahtarı yeniden ad
 B2B kullanıcılarını eklemekle ilgili daha fazla seçenek için bkz. [B2B kullanıcılarını Azure AD'ye aktarma](../implement-b2b.md).
 
 Önceden yapılandırılmış sistem hesapları hakkında bilgi için bkz. [Önceden yapılandırılmış sistem hesapları](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

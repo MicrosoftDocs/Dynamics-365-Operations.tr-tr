@@ -48,3 +48,6 @@ Bu yordam, Commerce ekstrelerinin oluşturulması ve nakledilmesini etkileyen ma
 17. Tanımlanan her ekstre yöntemi için oluşturulan ekstreleri almak için **Ekstre yöntemine göre böl**'e "Evet"i seçin. Bu eylem, aynı anda işlenebilecek çok sayıda küçük ekstre oluşturacağından, deftere nakil performansının yüksek hareket hacmine sahip mağazalar için geliştirilmesi gerektiğinde yararlı olabilir.  
 18. **Genel** hızlı sekmesinde **Varsayılan müşteri** alanında, bağımsız müşterilere satış için kullanılacak müşteri hesabını seçebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

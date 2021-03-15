@@ -63,3 +63,6 @@ Bu kaydı oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu kayıt
 5. Dışa Aktar'a tıklayın.
 6. PDF'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

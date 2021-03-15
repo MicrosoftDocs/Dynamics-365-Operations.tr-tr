@@ -62,3 +62,6 @@ Commerce Headquarters kullanıcıları, hiyerarşideki tüm müşteri kayıtlar�
 [B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma](payment-method.md)
 
 [B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

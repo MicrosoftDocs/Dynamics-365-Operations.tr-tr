@@ -66,3 +66,6 @@ Aşağıdaki tabloda, raporda kullanılabilecek alanlar açıklanmıştır.
 |           Elden çıkarmalar: Hurda değeri            |                                                                                               Sabit kıymet defteri için bir elden çıkarma - hurda hareketiyle hurda değeri.                                                                                               |
 |           Elden çıkarmalar: Kar/Zarar            |                                                                                 Sabit kıymet defteri için elden çıkarma hareketinin bir parçası olarak hesaplanan kar veya zarar değeri.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

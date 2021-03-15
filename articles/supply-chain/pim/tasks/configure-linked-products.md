@@ -39,3 +39,6 @@ Bu yordam, bağlantılı ürünlerin nasıl yapılandırılacağını açıklar.
 10. Miktar alanına bir sayı girin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

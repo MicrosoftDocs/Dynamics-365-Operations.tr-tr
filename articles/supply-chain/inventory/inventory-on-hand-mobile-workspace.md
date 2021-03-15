@@ -129,3 +129,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
     -   Fiziksel stoka göre (Bu görünüm, toplam tutarı temsil eder.)
     -   Fiziksel ayrılana göre (Bu görünüm ayrılan tutarı temsil eder.)
     -   Kullanılabilir fiziksele göre (Bu görünüm, rezervasyonu olmayan kullanılabilir tutarı temsil eder.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

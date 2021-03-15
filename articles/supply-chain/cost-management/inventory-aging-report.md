@@ -364,3 +364,6 @@ Yeni rapor aşağıdaki örneğe benzeyecektir.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

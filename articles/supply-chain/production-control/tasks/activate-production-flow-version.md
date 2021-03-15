@@ -40,3 +40,6 @@ Kanban işleri oluşturulmadan ve faaliyetler üretim akışı sürümü için i
 5. Etkinleştir'i tıklatın.
 6. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

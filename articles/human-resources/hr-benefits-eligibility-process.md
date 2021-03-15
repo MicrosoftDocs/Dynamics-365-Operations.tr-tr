@@ -54,3 +54,6 @@ Bu yordam, kazanç uygunluk işleminin nasıl çalıştığını gösterir. İş
 25. Durum sütunu filtresini açın.
 26. A'dan Z'ye sırala
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

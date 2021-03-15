@@ -66,3 +66,6 @@ Yinelenen faturalar nakledildikten sonra serbest metin faturasÄ± listesi sayfasÄ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

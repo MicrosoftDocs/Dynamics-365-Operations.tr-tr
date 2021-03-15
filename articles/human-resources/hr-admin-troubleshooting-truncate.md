@@ -104,3 +104,6 @@ Diyagrama dahil etmeyi seçtiğiniz alanlara dayalı olarak, her bir düğüm Vi
 **Ek seçenek**
 
 İnsan Kaynakları içerisinde, **Kişiler** çalışma alanını hiyerarşiye dayalı bazı bilgileri görmek için kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

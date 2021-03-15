@@ -54,3 +54,6 @@ Servis siparişinin aciliyetini hızlı bir şekilde ölçmenize yardımcı olma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

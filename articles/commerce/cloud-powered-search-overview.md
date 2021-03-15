@@ -81,3 +81,6 @@ Müşterilerimize, Dynamics 365 Commerce geliştirilmiş sıralama; arama sonuç
 [Varsayılan kategori açılış sayfası ve arama sonuçları sayfasına genel bakış](category-search-page-overview.md)
 
 [SEO meta verilerini yönetme](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

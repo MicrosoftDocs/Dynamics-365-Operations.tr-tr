@@ -176,3 +176,6 @@ Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç plan�
    | **Uygunluk kuralları** | Kazançlar programına uygulanacak uygunluk kurallarını seçin. Uygunluk kurallarını bu sayfadaki **uygunluk kuralları** sekmesinde tanımlarsınız. |
    
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

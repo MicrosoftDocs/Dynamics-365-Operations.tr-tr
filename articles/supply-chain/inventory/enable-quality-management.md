@@ -503,3 +503,6 @@ Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindek
 [Uygunsuzluk yönetimi](enable-nonconformance-management.md)
 
 [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

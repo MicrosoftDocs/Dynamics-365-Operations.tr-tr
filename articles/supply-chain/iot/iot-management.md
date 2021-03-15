@@ -61,3 +61,6 @@ Fabrika makine sinyallerinin benzetimini yapabilirsiniz. Daha fazla bilgi edinme
 + [IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Aygıt Benzetimi çözüm hızlandırıcısına genel bakış](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

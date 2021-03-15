@@ -62,3 +62,6 @@ Bu konuda Kıymet Yönetimi'nde işlem yapılacak yerleşim yaşam döngüsü du
 5. Model için tüm kullanılabilir durumları seçmek isterseniz ![tüm kullanılabilir aşamaları seç](media/03-setup-for-functional-locations.png) düğmesine tıklayın. Tüm durumlar **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
 6. Seçili bir durumu modelden kaldırmak isterseniz **Seçili yaşam döngüsü durumları** bölümünden ve ardından ![geri ok](media/04-setup-for-functional-locations.png) düğmesini seçin.
 7. Seçili durumu takip edebilecek yaşam döngüsü durumlarını tanımlamak için **Yaşam döngüsü durumu güncelleştirmeleri**'ni seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

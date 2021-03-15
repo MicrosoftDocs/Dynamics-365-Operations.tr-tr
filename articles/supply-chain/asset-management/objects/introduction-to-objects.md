@@ -77,3 +77,6 @@ Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki 
 | Yedek parçalar          | Kıymette kullanılabilecek onaylanmış ve alternatif yedek parçaların listesini görüntüleyin.                                                                               |
 | Kıymet tüketimi    | Kıymetin tüketim kayıtlarını gösteren bir rapor yazdırın.                                                                                                |
 | Kıymet hatası          | Kıymetin hata kayıtlarını gösteren bir rapor yazdırın.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

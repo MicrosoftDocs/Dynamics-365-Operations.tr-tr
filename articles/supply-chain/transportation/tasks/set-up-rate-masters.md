@@ -96,3 +96,6 @@ Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticis
     * Bu oran tabanı atamasının hangi posta kodundan itibaren geçerli olacağını belirtin.
 10. **Çekme Ülke Bölgesi** alanında "ABD" yazın.
 11. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

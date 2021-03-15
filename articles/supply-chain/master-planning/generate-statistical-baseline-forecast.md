@@ -77,3 +77,6 @@ Tahmin büyük öğeler kümesi için oluşturulmamış, ancak söz gelimi, bir 
 - [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 
 - [Düzeltilen tahmini yetkilendirme](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

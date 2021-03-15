@@ -62,3 +62,6 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

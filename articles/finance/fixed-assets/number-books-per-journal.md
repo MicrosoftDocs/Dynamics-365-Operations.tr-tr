@@ -49,3 +49,6 @@ Aynı günlükte yinelenen öğe kimlikleri yoksa defter sayısı sınırı uygu
 
 > [!Note] 
 > Bir amortisman teklifi oluştururken **Özet amortisman** parametresi açıksa, **Günlük başına defter sayısı-amortisman teklifi** alanındaki değerin hiçbir etkisi olmaz. Bu durumda günlük başına düşen defter sayısı, dahili sınır olarak tanımlanan 6000'dir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

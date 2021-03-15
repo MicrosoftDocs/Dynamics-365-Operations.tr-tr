@@ -113,3 +113,6 @@ Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

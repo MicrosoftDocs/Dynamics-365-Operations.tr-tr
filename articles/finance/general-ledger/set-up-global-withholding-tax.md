@@ -47,3 +47,6 @@ Bu konu, satışlar ve satın almalar için genel stopaj vergisi ödemesini ayar
 7. Bir kalem veya hizmet için **Kalem stopaj vergisi grupları** sayfasında stopaj vergisi gruplarıı ayarlayın.
 
 8. **Genel muhasebe parametreleri > Stopaj vergisi** sayfasında **Minimum fatura tutarını** ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

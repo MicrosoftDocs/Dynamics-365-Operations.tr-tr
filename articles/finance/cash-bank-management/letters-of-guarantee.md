@@ -64,3 +64,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 [Teminat mektupları için banka hizmetlerini ve banka deftere nakil profillerini ayarlama](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

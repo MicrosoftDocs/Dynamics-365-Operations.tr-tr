@@ -40,3 +40,6 @@ Kısa süreli yükümlülük yeniden sınıflama günlüğü girişi oluşturmak
 4. **Deftere naklet** parametresini açın. Girişin oluşturulması ancak deftere nakledilmemesi gerekiyorsa bunun yerine parametreyi kapalı bırakın.
 5. Girişi deftere nakledilmeden önce görüntülemek için **Deftere nakletmeden önce önizle** parametresini açın.
 6. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

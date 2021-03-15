@@ -87,3 +87,6 @@ Bir ekstreyi deftere naklettiğinizde, satış siparişleri ve faturalar, ekstre
 - POS içerisinde bir harekete bir müşterinin eklenmiş olduğu satışları, her bir benzersiz müşteri için ayrı satış siparişleri ve faturalar oluşturur.
 
 Ödeme günlükleri, ekstredeki ödemeler için otomatik olarak oluşturulur ve stok, POS mağazası için güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

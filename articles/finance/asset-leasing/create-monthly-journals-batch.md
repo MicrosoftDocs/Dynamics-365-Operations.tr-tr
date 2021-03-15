@@ -36,3 +36,6 @@ Toplu iş ayarlamak veya birden fazla kiralama için ödeme faturaları, amortis
 > Yükümlülük amortismanı planlaması, ödemeler, amortisman ve giderler gibi sonraki hareketler, yalnızca ilgili kiralama için ilk kabul deftere nakledildikten sonra deftere nakledilir.
 >
 > Günlük girişleri oluşturulur ancak siz **Çalıştır** komutunu seçene kadar deftere nakledilemez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

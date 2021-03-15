@@ -62,3 +62,6 @@ Deftere nakledilen günlük fişleri Fiş şablonu olarak kaydedilebilir ve yeni
 29. **Tutar** alanına, fişe uygulanacak tutarı girin. **Tutar** alanı yalnızca fiş şablonu türü Yüzde olduğu zaman görüntülenir.  
 30. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

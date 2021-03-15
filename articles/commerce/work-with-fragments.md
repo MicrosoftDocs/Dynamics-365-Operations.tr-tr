@@ -135,3 +135,6 @@ Bir parçayı sayfada, şablonda veya üst parçada seçerek ve sağdaki Özelli
 [Önceden ayarlanmış düzenlerle çalışma](work-with-layouts.md)
 
 [Yayınlama gruplarıyla çalışma](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ ms.locfileid: "5001561"
 ## <a name="save"></a>Kaydet
 1. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

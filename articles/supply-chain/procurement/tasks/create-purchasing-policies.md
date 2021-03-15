@@ -56,3 +56,6 @@ Bu konu satınalma için iş süreçlerinize uygun olacak şekilde satınalma il
 4. **Kapat**'ı seçin.
 - Şimdi satın alma ilkesi için diğer ilke kurallarını ayarlayabilirsiniz. İlke kuralı türünün tek bir tedarik ilkesi ile aynı sürede etkin olan çakışan kurallara sahip olamayacağına dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

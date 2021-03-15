@@ -46,3 +46,6 @@ Yeni teslimat şeklini seçtikten sonra hareket sayfası görüntülenir. Yeni t
 [Çağrı merkezi siparişleri oluşturma](tasks/create-call-center-orders.md)
 
 [Teslimat şekline göre işlem tabanlı e-postaları özelleştirme](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

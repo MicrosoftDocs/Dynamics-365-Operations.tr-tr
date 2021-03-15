@@ -74,3 +74,6 @@ Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi dep
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

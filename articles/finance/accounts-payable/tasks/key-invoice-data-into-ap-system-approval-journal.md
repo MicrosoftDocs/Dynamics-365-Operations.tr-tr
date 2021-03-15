@@ -53,3 +53,6 @@ Bu konu, fatura kaydını fatura oluşturmak için nasıl kullanacağınızı ve
 10. **Naklet**'i seçin.
 11. Nakledilen girişleri görüntülemek için **Fiş**'i seçin. Onay Bekleyen Fatura hesabı ters kaydedilir ve yerine gerçek gider hesabı geçirilir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

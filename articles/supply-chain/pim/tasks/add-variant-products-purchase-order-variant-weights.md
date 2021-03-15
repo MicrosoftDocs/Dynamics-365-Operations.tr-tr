@@ -47,3 +47,6 @@ Bu yordam, her ürün varyantı için satınalma siparişi satırlarını otomat
 17. Miktarı '1000' olarak ayarlayın.
 18. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

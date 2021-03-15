@@ -58,3 +58,6 @@ Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşı
 1. **Stok**'u tıklatın.
 2. **Hareketler**'i tıklatın. Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

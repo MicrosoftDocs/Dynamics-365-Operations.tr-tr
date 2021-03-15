@@ -44,3 +44,6 @@ Kiracı yöneticisinin, ortamı oluşturan kullanıcıya geçerli bir Power Apps
 
 1. [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments) gidin.
 2. [İnsan Kaynakları sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) içindeki talimatları izleyerek ortamlar oluşturun.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

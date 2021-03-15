@@ -153,3 +153,6 @@ Malzemelerin stoktan her zaman el ile düşülmesi gerekiyorsa aşağıdaki ayar
 | Tamamlandı bildirimi |   Otomatik ürün reçetesi tüketimi    | <strong>Hiçbir Zaman</strong>  |
 | Tamamlandı bildirimi | Tamamlanan raporu çevrimiçi olarak güncelleştir | <strong>Durum</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

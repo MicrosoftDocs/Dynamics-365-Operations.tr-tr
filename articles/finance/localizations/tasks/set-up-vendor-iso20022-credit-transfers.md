@@ -51,3 +51,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak satıcı öd
 4. Listede, SEPA CT satırındaki bağlantıya tıklayın.
 5. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

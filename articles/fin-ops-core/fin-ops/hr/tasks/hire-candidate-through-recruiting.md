@@ -45,3 +45,6 @@ Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvur
 15. İletişim bilgileri bölümünü genişletin veya daraltın.
 16. Kişisel bilgiler bölümünü genişletin veya daraltın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

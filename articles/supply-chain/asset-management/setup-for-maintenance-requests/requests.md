@@ -41,3 +41,6 @@ ms.locfileid: "5022017"
 Aşağıdaki çizimde bir **Tüm bakım talepleri** liste sayfasının bir örneği gösterilmektedir.
 
 ![Tüm bakım talepleri listesi sayfası](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

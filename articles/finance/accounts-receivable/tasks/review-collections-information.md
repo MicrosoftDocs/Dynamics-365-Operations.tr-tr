@@ -142,3 +142,6 @@ Bu konu, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenek
 5. **Listeyi göster**'i seçin.
 - Bir müşteri hesabı seçin veya varsayılan girişi kabul edin. Varsayılan olarak liste sayfasındaki veya bu formu açtığınız formdaki seçili müşteri hesabıdır. Formu bir liste sayfasından açtıysanız, listedeki müşteriler listesi sayfasında kullanılan tahsilatlar havuzuna eklenmiş müşterilerdir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

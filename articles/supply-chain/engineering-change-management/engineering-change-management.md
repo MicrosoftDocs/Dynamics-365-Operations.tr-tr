@@ -184,3 +184,6 @@ Mühendislik değişikliği emirlerindeki alanların çoğu, serbest bırakılan
 | Çevre, sağlık ve güvenlik | Çevre, sağlık ve güvenlik kurallarının değişiklik için geçerli olup olmadığını belirtin. Evetse geçerli kuralları seçebilirsiniz. |
 
 Değişiklik bilgilerini etkilenen ürünler arasında kopyalamak için **Bilgileri koru/kopyala** düğmesini kullanabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

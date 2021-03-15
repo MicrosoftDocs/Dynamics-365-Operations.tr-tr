@@ -114,3 +114,6 @@ Aşağıdaki tablo kullanılabilen ek eylemler hakkında daha fazla bilgi sağla
 | Kullanılabilirlik         | Seçili yerleşim için seçilen ürün çeşidi birleşimine ilişkin ATP bilgisini gösterin. |
 | Tüm yerleşimleri göster   | Standart stok arama görünüme geçin ve mağaza bulucu grubundaki tüm mağazalarda ve **Standart/Varsayılan** türündeki dağıtım merkezlerinde madde ürün çeşidi için stok kullanılabilirlik bilgilerini vurgulayın. |
 | Ürün ayrıntılarını görüntüle | Kullanıcıyı ilişkili ana ürünün **Ürün ayrıntıları** sayfasına yönlendirin. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ Bazı kayıtlar için, kayda ileride yapılacak değişiklikleri belirtebilirsin
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

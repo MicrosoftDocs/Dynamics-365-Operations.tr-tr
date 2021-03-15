@@ -54,3 +54,6 @@ Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek v
     * Tercih edilen yönteme göre seçilecek veya seçimi kaldırılacak madde numarasını seçin.  
 18. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

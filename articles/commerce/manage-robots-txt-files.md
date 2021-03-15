@@ -106,3 +106,6 @@ Bir robots.txt dosyasını ticari olarak silmek için aşağıdaki adımları iz
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Soru formu planlama, soru formlarınızı planlamanıza ve birden fazla alıcıy
 2. Sonlandır'ı tıklatın.
 3. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikler
 33. Tamam'a tıklayın.
 34. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Ayrıca, satıcılar bağlılık programı kartı başına maksimum bağlılık 
 
     > [!NOTE]
     > Miktar, basit, karıştır ve eşleştir gibi diğer periyodik iskontoların aksine, sevkiyat iskontosu iskonto satıralrı oluşturmaz, sevkiyat giderlerindeki düzeltmelerin doğrudandır ve iskontonun adını masraf açıklamasına ekler.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Yapılandırılmış ER biçimini çalıştırdığınızda, ekli Word şablonu 
 
 - [Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma](./tasks/er-design-configuration-word-2016-11.md)
 - [Er kullanarak oluşturduğunuz belgelere resimler ve şekiller katıştırma](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -189,3 +189,6 @@ Artık herhangi bir hedef sistem için tanımlayıcıları dışa aktarmak için
 ## <a name="related-topic"></a>İlgili konu
 
 [Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

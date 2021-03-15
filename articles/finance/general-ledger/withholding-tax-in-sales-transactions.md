@@ -63,3 +63,6 @@ Yeni bir satış siparişi oluşturduğunuzda, varsayılan Stopaj vergisi grubu 
 Stopaj vergisi hesaplanır ve **Müşteri ödeme günlüğü**'ne nakledilir. İlgili stopaj vergisi kodunu ve gerçek stopaj vergisi tutarını, **Hareketleri kapat** sayfasındaki **Stopaj vergisi** sekmesinde el ile ayarlayabilirsiniz.
 
 Hesaplanan stopaj vergisi tutarı müşteri ödemesinden düşülür ve ilgili bir fişteki **Stopaj vergisi mahsubu** hesabına nakledilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

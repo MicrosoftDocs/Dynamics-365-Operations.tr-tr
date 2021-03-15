@@ -59,3 +59,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Mali boyutlar](financial-dimensions.md)
 - [Gelişmiş kural yapıları oluşturma ve atama](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

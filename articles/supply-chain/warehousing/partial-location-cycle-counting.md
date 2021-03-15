@@ -61,3 +61,6 @@ Bu örnekte, ambar 61'de yalnızca ürün numarası A0001 sayılacaktır.
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Döngü sayımı](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

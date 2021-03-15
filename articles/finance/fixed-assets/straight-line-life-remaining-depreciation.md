@@ -79,3 +79,6 @@ Amortisman tutarı her yıl aynıdır: (Edinme maliyeti – Hurda değeri) ÷ Se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

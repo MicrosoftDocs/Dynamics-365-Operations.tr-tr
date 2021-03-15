@@ -61,3 +61,6 @@ Bu görev kılavuzunda, plaka kontrollü olmayan bir konumuna tamamlandı olarak
 18. İş ayrıntıları öğesine tıklayın.
     * Üretim emri, tamamlandı olarak rapor edilmişse, hiçbir iş üretilmez. Bu durum, Ürün L0101, konum 001'e bitirildi olarak rapor edildiğinde işin oluşturulmasının engellenmesi için tanımlanan bir iş politikası bulunmasından kaynaklanır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

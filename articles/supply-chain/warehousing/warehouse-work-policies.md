@@ -300,3 +300,6 @@ Mobil cihaz menü öğeleri hakkında daha fazla bilgi için bkz. [Ambar işi i�
 Plaka alma ve iş ilkeleri ile ilgili ayrıntılı bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Giriş yük yönetimi hakkında daha fazla bilgi için bkz. [Satınalma siparişleri için gelen yüklerin ambarda işlenmesi.](inbound-load-handling.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

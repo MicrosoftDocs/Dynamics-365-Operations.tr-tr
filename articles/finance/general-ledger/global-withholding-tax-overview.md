@@ -44,3 +44,6 @@ Genel stopaj vergisi işlevselliği satıcı ve müşteri hareketleri için geli
 
 > [!NOTE]
 > Yerelleştirilmiş stopaj vergisi çözümlerinin zaten sunulmakta olduğu ülkeler/bölgeler için genel stopaj vergisi işlevselliği etkinleştirilemez. Bu alanlar Hindistan, Brezilya, Tayland, Suudi Arabistan, İrlanda, Büyük Britanya ve ABD'yi içerir ancak bunlarla sınırlı değildir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

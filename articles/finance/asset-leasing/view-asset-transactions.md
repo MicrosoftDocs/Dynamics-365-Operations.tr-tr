@@ -47,3 +47,6 @@ Kiralama varlığı hareketlerini görüntülemek için **Kiralama özeti** sayf
 Kiralama gider hareketlerini görüntülemek için **Kiralama özeti** sayfasında bir kiralama seçin ve kiralama kaydına eklenmiş kiralama defterlerini açmak için **Defterler**'i seçin. Ardından **Gider hareketleri**'ni seçin.
 
 **Gider hareketleri** sayfası, kiralama için deftere nakledilen tüm giderleri (ör. faiz giderleri, amortisman giderleri ve icra maliyetleri) gösterir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

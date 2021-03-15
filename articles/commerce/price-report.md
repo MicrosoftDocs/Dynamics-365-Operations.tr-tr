@@ -43,3 +43,6 @@ Fiyat raporunu etkinleştirmek için **Mağaza için fiyat raporunu etkinleştir
 | Ürünleri fiyat değişiklikleriyle birlikte görüntüle | Bu ayarı **Evet** olarak işaretlemek, yalnızca fiyatların değiştiği tarihlerdeki fiyatları görüntüler. *Bir önceki gün* fiyatı için seçilen **Başlangıç tarihi** her zaman görüntülenecektir, böylece mağaza yöneticisi seçilen sürenin tamamında fiyatları değişmemiş ürünleri kolayca tespit edebilir ve geçerli fiyatı da görüntüleyebilir. |
 
 Rapor oluşturulduktan sonra Excel dosyası ek filtreleme ihtiyaçlarını gidermek için indirilebilir. Fiyat raporu, geçmiş tarihlerdeki ürünlerin eski fiyatlarını denetlemek için de kullanılabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

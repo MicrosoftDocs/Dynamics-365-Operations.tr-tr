@@ -61,3 +61,6 @@ Tehlikeli malzemelerle ilgili yönetmeliklerin ve değerlerin nasıl ayarlanaca�
 ## <a name="warehouse-management"></a>Ambar yönetimi
 
 Ambar yönetiminde sevkiyat hazırlarken, Ürün bilgileri yönetiminde ayarladığınız bilgileri kullanan bazı yeni raporlar yazdırabilirsiniz. Kullanılabilir raporlar ve bunların nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Tehlikeli malzeme sorguları ve raporları](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

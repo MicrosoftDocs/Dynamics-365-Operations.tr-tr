@@ -239,3 +239,6 @@ Ayrıca, **yalnızca** fiyatlandırma altyapısı şu fiyatlandırma özellikler
 Fiyat, birçok müşterinin satın alma kararlarını kontrol eden en önemli etkilerinden biridir ve birçok müşteri satın almadan önce çeşitli sitelerdeki fiyatları karşılaştırır. Perakendeciler, rekabetçi fiyatları sağlamalarının sağlanmasına yardımcı olmak için, rakiplerini gözlemler ve genellikle promosyonlar yapar. Bu perakendecilere müşteriler çekmenize yardımcı olmak amacıyla ürün aramasının, Gözat özelliğinin, listelerin ve Ürün Ayrıntıları sayfasının en doğru fiyatları göstermesi çok önemlidir.
 
 Commerce satış sürümünde, **GetActivePrices** uygulama programlama arabirimi (API), basit iskontolar (örneğin, sepetteki diğer maddelere bağımlı olmayan tek satırlı iskontolar) içeren fiyatları döndürür. Bu şekilde, gösterilen fiyatlar müşterilerin maddeler için ödeyeceği gerçek tutara yakın bir yöntemdir. Bu API, tüm basit iskonto türlerini içerir: bağlantı tabanlı, bağlılık programı tabanlı, katalog tabanlı ve kanal tabanlı indirimler. Ek olarak, satıcılar, uygulanan indirimlerle ilgili adları ve geçerlilik bilgilerini döndürür ve böylece perakendeciler fiyat için daha ayrıntılı bir açıklama sağlayabilir ve iskontonun geçerliliği yakında sona erdiğinde acilinin bir fikir yaratmasını sağlar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

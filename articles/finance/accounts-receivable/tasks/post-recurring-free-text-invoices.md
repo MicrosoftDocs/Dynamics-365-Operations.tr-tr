@@ -45,3 +45,6 @@ Yinelenen faturalar, müşterilere düzenli olarak aynı tutarda fatura çıkarm
 6. Deftere Naklet öğesine tıklayın.
     * Seçili faturaları deftere nakledin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

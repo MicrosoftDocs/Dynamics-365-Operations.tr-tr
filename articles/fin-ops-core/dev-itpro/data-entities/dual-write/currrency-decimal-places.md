@@ -95,3 +95,6 @@ Belirli bir para birimi için para birimi duyarlığının fiyatlandırma için 
 ### <a name="tables-currency-column"></a>tablolar: Para birimi sütunu
 
 Belirli para birimi sütunları için yapılandırılabilecek ondalık basamak sayısı dört ile sınırlıdır.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

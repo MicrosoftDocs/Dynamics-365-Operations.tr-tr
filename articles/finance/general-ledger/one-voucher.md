@@ -186,3 +186,6 @@ Alacak hesapları veya Borç hesapları genel muhasebe hesabında bir düzeltme 
 ### <a name="the-system-allows-it"></a>"Sistem buna izin veriyor"
 
 Kuruluşlar genellikle Tek fiş işlevini yalnızca sistem kullanmalarına olanak tanıdığından ve etkilerini anlamadan kullanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

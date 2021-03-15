@@ -200,3 +200,6 @@ Bu sevkiyat için yeni bir dalga oluşturulmuştur çünkü ilk satış sipariş
 1. Üçüncü satış siparişinden oluşturulan dalga kodunu seçin.
 1. Dalga ayrıntıları sayfasını açmak için dalga kodu bağlantısını seçin.
 1. İlk satış siparişi için sevkiyatla birlikte, sevkiyatın **Dalga satırları** hızlı sekmesine eklendiğine dikkat edin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

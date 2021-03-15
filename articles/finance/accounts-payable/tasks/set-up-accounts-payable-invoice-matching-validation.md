@@ -97,3 +97,6 @@ Fatura toplamlarının satıcıya özgü toleranslarını belirlemek için **Bor
 
 1. Varsayılan toleransı geçersiz kılan bağımsız satıcılar için toleransları belirtmek üzere bir **Satıcı hesabı** seçin.
 2. Bu satıcı için kabul ettiğiniz fark yüzdesini girin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

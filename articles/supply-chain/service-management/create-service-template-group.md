@@ -38,3 +38,6 @@ Servis şablonlarını sıralamak ve bunlara filtre uygulamak için servis şabl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

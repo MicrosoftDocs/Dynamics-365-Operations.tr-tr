@@ -56,3 +56,6 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 8. Ağaçta, "Intrastat modeli" öğesini genişletin.
 9. Ağaçta, "Intrastat modeli\Intrastat (DE)" öğesini seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Klavye erişimini kolaylaştırmak için, kısayol menüsünü açan bir klavye 
 
 - Bir denetimde **Ayrıntıları görüntüle** özelliği ve bir değer varsa, değer bir köprü olarak görüntülenir. Ek ayrıntılar içeren bir sayfa açmak için köprüye tıklayabilirsiniz.
 - **Ayrıntıları görüntüle**, kısayol menülerinde bir seçenek olarak da mevcuttur. Sağ tıkladığınızda kısayol menülerinin ne zaman görüntüleneceği hakkında daha fazla bilgi için önceki bölüme bakın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

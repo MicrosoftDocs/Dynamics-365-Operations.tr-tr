@@ -87,3 +87,6 @@ Bu örnekte, USMF şirketinde FRRT şirketindeki bir satış siparişini kapsaya
 Aşağıdaki şekil, bu örneğin planlanan üretim emri için **Çok düzeyli bir ilişkilendirme** sayfasında nasıl görünebileceğini gösterir.
 
 ![Üç şirket içeren şirketlerarası ilişki örneği](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -220,3 +220,6 @@ Belge **istenen** duruma girdikten sonra **etkin** sekmesinde görünür. Ancak,
 ## <a name="related-topics"></a>İlgili konular
 
 [POS'ta giden stok işlemi](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

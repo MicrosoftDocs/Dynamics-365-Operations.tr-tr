@@ -139,3 +139,6 @@ Sertifikayı imzalayan kullanıcı, belgeyi oluşturduktan sonra sayfa sayısın
 ### <a name="page-numbers"></a>Sayfa numaraları
 
 Belgenin alt kısmına yazdırılan geçerli sayfa ve sayfa sayısı.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

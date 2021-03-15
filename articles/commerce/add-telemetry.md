@@ -121,3 +121,6 @@ Site oluşturucuda bir şablona doğrudan harici komut dosyası eklemek için a�
 [Telif hakkı bildirimi ekleme](add-copyright-notice.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

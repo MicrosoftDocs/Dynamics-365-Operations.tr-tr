@@ -54,3 +54,6 @@ Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandı
 1. Yayımla'ya tıklayın.
 2. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

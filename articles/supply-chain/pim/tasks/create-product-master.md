@@ -60,3 +60,6 @@ ms.locfileid: "5001736"
 10. **Kaydet**'e tıklayın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

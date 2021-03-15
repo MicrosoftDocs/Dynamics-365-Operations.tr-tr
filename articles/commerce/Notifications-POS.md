@@ -76,3 +76,6 @@ Bir düğmedeki bildirim sayımını göstermek için, doğru ekran düzeninin g
 Aşağıdaki örnekte, farklı boyuttaki düğmeler için **İçerik hizalama** alanında **Sağ üst** ve **Merkez** seçimlerinin etkisini göstermektedir.
 
 ![POS düğmelerinde canlı içeriği](./media/ButtonsWithLiveContent.png "POS düğmelerinde canlı içeriği")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

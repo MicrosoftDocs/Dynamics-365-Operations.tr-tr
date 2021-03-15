@@ -59,3 +59,6 @@ Ağacının en üst düğümü seçilen ürün ve toplu işe yönelik eldeki ür
 9. **Sevk edilmiş satış siparişleri**'ni tıklatın.
 10. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

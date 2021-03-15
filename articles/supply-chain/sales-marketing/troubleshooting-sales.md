@@ -112,3 +112,6 @@ Supply Chain Management, şu anda deftere nakledilen faturaların komisyonların
 Ürün demeti öğesi satınalma siparişlerinde kullanılmaz; çünkü ürün demeti öğesi için satış siparişi satırlarını incelerseniz miktarın *0* (sıfır) olduğunu ve durumun *İptal edildi* olduğunu fark edeceksiniz. Bu davranış tasarımdan kaynaklanır. Satış siparişi yalnızca paket satış öğesinin bileşenlerini satın alır. Paket satış öğesinin kendisini satın almaz.
 
 Bir ürün demeti satın almanız gerekiyorsa, bunu ürün demeti öğesi olarak işaretlemenizin gerekip gerekmediğini gözden geçirin; çünkü bu işlev gelir tanıma senaryoları için tasarlanmıştır. Paket satış öğeleri hakkında daha fazla bilgi için bkz. [Paket satış öğeleri](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

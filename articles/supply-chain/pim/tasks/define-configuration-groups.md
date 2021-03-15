@@ -39,3 +39,6 @@ Bu yordam, demo verileri şirket USMF'de iki grup oluşturarak ürün konfigüra
 7. İsim alanına bir değer yazın.
 8. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

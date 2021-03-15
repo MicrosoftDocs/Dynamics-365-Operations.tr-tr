@@ -54,3 +54,6 @@ Verinin tamamı Maliye muhasebesine aktarıldıktan sonra, kuruluşun tüm seviy
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

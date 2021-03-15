@@ -256,3 +256,6 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
 
     > [!NOTE]
     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri oluşturulursa, tüm ürünlere uygulanır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

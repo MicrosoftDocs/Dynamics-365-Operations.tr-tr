@@ -38,3 +38,6 @@ Belirli ölçütlere dayalı satıcı araması yapmayı öğrenin. Bu örnek, be
 6. Ülke/bölge alanına bir değer yazın.
 7. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

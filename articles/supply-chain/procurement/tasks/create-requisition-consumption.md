@@ -91,3 +91,6 @@ Bu konuda bir talep oluşturma işlemi açıklanmaktadır. Ürün tedarik katalo
 6. Sayfayı kapatın.
 7. Sayfayı yenileyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Bu görev, karışık bir yalın ve klasik üretim ortamında üretim BOM hatlar
     * Kanbanın, tahmini üretim emri için M0001 tedarik edilmesi amacıyla oluşturulduğuna dikkat edin.  
     * Bu son adımdır!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Varlık kiralamada oluşturulan tüm günlük girişleri, Varlık kiralama günl
 
 > [!NOTE]
 > Varlık kiralama günlüğü el ile oluşturulamaz. Kiralama planları oluşturulduğunda otomatik olarak oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

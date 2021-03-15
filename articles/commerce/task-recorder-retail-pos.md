@@ -145,3 +145,6 @@ Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımla
 
 > [!NOTE]
 > Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir. Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

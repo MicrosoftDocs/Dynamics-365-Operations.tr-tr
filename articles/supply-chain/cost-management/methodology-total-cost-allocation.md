@@ -61,3 +61,6 @@ Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

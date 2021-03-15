@@ -98,3 +98,6 @@ Aşağıdaki şekilde, **Benzer ürün açıklaması Bağlantısını Etkinleşt
 [Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

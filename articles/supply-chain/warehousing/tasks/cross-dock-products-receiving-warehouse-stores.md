@@ -48,3 +48,6 @@ Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazl
 15. Listede ürünlerin teslim alındığı ambarı bulup seçin
 16. Seçilen ambar için oluşturulan siparişleri görüntülemek için Sipariş'i tıklayın
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

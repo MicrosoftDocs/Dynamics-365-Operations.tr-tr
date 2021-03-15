@@ -83,3 +83,6 @@ Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan ma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

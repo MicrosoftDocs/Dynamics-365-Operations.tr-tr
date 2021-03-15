@@ -72,3 +72,6 @@ Müşteri ödeme içgörüleri (Önizleme) uygulamasını denemek istiyorsanız 
 Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri kullanmamalıdır ve (4) sınırlı desteğe sahiptir.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

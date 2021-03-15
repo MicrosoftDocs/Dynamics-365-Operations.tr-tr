@@ -89,3 +89,6 @@ Bu konu, yeni bir Finance and Operations ortamı ile yeni bir Dataverse ortamı 
 > [!NOTE]
 > Ortamların bağlantısını LCS kullanarak kaldıramazsınız. Bir ortamın bağlantısını kaldırmak için Finance and Operations ortamdaki **Veri tümleştirme** çalışma alanını açın ve sonra **Bağlantıyı kaldır**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

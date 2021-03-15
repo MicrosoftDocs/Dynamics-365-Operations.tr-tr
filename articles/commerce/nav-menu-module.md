@@ -72,3 +72,6 @@ Bir üstbilgi modülüne gezinti menüsü modülü ekleme hakkında ayrıntılar
 [Tanımlama bilgisi uyumluluğu](cookie-compliance.md)
 
 [Üst bilgi modülü](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -120,3 +120,6 @@ Formül tasarımcısının ağaç görünümünde gösterilen bilgileri özelle�
 |     Ürün reçetesi     | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. Formül tasarımcısı seçili ölçütleri her iki sekmenin altında gösterir. |
 |    Rota    |                                           Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

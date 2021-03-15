@@ -106,3 +106,6 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

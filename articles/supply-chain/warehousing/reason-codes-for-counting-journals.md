@@ -143,3 +143,6 @@ Bir sayım onaylanmadan önce kullanıcı sayımla ilişkili neden kodunu deği�
 - Varsayılan sayım nedeni kodu
 - Sayım nedeni kodunu görüntüle
 - Sayım nedeni kodunu düzenle
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

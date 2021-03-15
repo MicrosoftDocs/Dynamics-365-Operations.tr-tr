@@ -87,3 +87,6 @@ Belirli bir ürünle ilgili pazarlama içeriği benzersiz ise, tüm pazarlama mo
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
 
 [Ürün ayrıntıları sayfasını zenginleştirme](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

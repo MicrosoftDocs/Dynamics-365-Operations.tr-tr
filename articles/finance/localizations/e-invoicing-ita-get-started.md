@@ -245,3 +245,6 @@ Gönderilen tüm belgelerin gönderme günlüklerini görüntüleyebilirsiniz.
 - [Elektronik faturalama eklentisine genel bakış](e-invoicing-service-overview.md)
 - [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md)
 - [Elektronik faturalamayı eklentisini kurma](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

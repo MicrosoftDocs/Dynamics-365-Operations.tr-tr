@@ -45,3 +45,6 @@ Bu ortak senaryolar Commerce kullanan perakendeciler için kullanılabilir. Comm
 + Ürünleri geçerli mağazadan veya başka mağazadan seçmek.
 + Geçerli mağazadaki veya başka mağazadaki siparişi iptal etmek.
 + Bir siparişi makbuzla veya makbuz olmadan geçerli mağazaya veya başka bir mağazaya iade etmek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

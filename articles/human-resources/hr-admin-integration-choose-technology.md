@@ -150,3 +150,6 @@ Bunca çeşitli tümleştirme teknolojileri mevcutken, kullanılacak tümleştir
 <sup>2</sup>Microsoft, Dataverse tabloları için veri kapsamını artırmaya büyük yatırım yapmaktadır. Kapsam kullanılabilir olduğunda Dataverse kullanmanızı öneririz. Şu anda Dataverse veri kapsamı DMF ve OData etkin varlıklara göre düşüktür.
 
 <sup>3</sup>SQL veritabanına programlı olarak erişilebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

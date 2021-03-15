@@ -78,3 +78,6 @@ Bu prosedür için bu sekiz kayıt sırasındaki, önceki 4 kılavuzu tamamlamı
 5. Tamam'a tıklayın.
 6. Etkinleştir'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 [Kredi mektubu için banka hizmet sözleşmesi oluşturma](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

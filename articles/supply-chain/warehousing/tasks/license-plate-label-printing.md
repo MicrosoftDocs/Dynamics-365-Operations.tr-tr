@@ -100,3 +100,6 @@ Bu konu, satış malzeme çekme işinde stoktan son madde çekildikten sonra Ser
 7. **Kaydet**'i seçin.
 8. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Aday müşteriden nakde verilerinizi Veri Tümleştiriciden çift yazmaya geçir
 ## <a name="quote-and-quote-product-tables"></a>Teklif ve Teklif ürünü tabloları
 
 **Teklif** tablosu için bu konunun önceki kısımlarında yer alan [Sipariş tablosu](#order-table) bölümündeki talimatları izleyin. **Teklif ürünü** tablosu için [Sipariş ürünleri tablosu](#order-products-table) bölümündeki talimatları izleyin.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Stopaj vergisi ödemesi işini yordamları, stopaj vergisi hesaplarında Borç h
 7. **Tamam**'a tıklayın.
 
 ![Stopaj vergisi ödemesine ilişkin parametreler](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi formu kullanarak oluş
 21. **Gönder**'e tıklayın.
 22. **Gönder**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

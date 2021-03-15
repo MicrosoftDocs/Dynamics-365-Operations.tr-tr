@@ -292,3 +292,6 @@ Hub dağıtımında toplu işleri el ile koruyabilirsiniz. **Ambar yönetimi \> 
 - Dalga tablosu kayıtlarını işleme
 - Ambar hub'ından ölçek birimine ileti işlemcisi
 - Ambar sipariş satırları için miktar güncelleştirme isteklerini işle
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

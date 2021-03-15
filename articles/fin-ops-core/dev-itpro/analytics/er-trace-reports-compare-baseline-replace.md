@@ -207,3 +207,6 @@ Geçerli belge yönetimi ayarları ve seçili belge türü temel alınarak Micro
 
 - [Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma](er-trace-reports-compare-baseline.md)
 - [Görev kaydedici kaynakları](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

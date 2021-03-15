@@ -131,3 +131,6 @@ Bir alacak dekontu olarak sınıflandırılacak bir fatura haline gelecek, negat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

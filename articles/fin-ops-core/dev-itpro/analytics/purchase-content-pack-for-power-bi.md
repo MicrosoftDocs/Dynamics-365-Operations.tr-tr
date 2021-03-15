@@ -154,3 +154,6 @@ Aşağıdaki tablo içerikte Fatura satırları varlığından hesaplanan anahta
 | Tarihler                  | Tarihler, Yıl denkleştirme                                    |
 
 Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir. Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

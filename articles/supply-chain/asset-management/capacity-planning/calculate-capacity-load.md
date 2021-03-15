@@ -60,3 +60,6 @@ Bu, belirli bir döneme ait beklenen kapasite yükünün genel görünümünü a
 >[!NOTE]
 >Yalnızca planlanan iş emirleriyle ilgili kapasite planlamasına odaklanmak istiyorsanız bkz. [Planlanan iş emirlerinde kapasite yükünü hesaplama](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

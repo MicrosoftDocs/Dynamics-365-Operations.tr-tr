@@ -47,3 +47,6 @@ Ayrıca, bu raporu **Satış vergisi kodları** sayfasındaki satış vergisi ko
 Aşağıdaki resim, oluşturulan raporun bir örneğini gösterir. Rapor, raporlama kodunun atandığı satış vergisi kodu için **Satış vergisi para birimi** alanının **EUR** olarak ayarlanması durumunda raporlama kodu **101**'in **EUR** para birimine sahip olduğunu gösterir.
 
 ![Koda göre satış vergisi ödemesi raporu örneği](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Yapılandırma sağlayıcınız altında bir yapılandırma oluşturulduktan son
 Yapılandırma, harici kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, kuruluşun RCS örneğine veya Finance and Operations uygulama örneklerine içe aktarılabilir.
 
 6. Daha önce harici bir kuruluşla paylaşılan bir yapılandırmanın paylaşımını kaldırmak için yapılandırmayı seçin ve **Paylaşımı kaldır**'ı, ardından **Tamam**'ı seçin
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

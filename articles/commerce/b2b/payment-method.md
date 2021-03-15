@@ -76,3 +76,6 @@ Müşteri hesabı ödeme yönteminin etkinleştirildiğini onaylamak için şu a
 [B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama](quantity-limits.md)
 
 [SDK ve Modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

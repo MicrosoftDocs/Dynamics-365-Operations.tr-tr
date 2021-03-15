@@ -52,3 +52,6 @@ Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet biri
 16. Değişiklikleri tanımla alanına bir değer girin.
 17. Yayımla'ya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

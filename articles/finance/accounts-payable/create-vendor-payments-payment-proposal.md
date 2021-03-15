@@ -122,3 +122,6 @@ Boyut kontrolü, oluşturulan satırları ödeme tekliflerine göre gruplamayı 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

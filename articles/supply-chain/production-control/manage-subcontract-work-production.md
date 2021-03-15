@@ -102,3 +102,6 @@ Genellikle çıkış ambarı ve alt sözleşmeli kaynak grubunun konumu, doğrud
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

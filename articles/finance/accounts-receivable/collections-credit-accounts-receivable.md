@@ -110,3 +110,6 @@ Tahsilatlar sayfasındaki NSF ödemesine tıklayarak NSF ödemelerini işleyebil
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

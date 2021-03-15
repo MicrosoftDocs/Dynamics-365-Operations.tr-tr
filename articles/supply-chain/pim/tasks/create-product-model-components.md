@@ -37,3 +37,6 @@ Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı 
 7. Açıklama alanına bir değer girin.
 8. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mo
 
     > [!NOTE]
    > Sistem, tamamlanması gereken her bir hareket için bir iş kodu oluşturur. Önceden stok içeren bir yerleşim belirlerseniz, yalnızca bir iş kodu oluşturulur. Yeni bir yerleşim belirtirseniz, iki iş kodu oluşturulur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

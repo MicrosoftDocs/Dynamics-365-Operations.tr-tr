@@ -115,3 +115,6 @@ Sistem emniyet stoğu gereksinimi hareketinin satış satırları, ürün reçet
 Master planlamanın karşılama aşaması sırasında, emniyet stoğu yenileme önceliği artık geriye atılmaz. Eldeki stok diğer talep türlerinden önce kullanılabilir. Gecikmenin hesaplanması sırasında, emniyet stoğunun kullanılması durumunda zamanında teslim edilip edilemeyeceğini belirlemek amacıyla geciken satış satırlarının, ürün reçetesi satırı gereksinimlerinin ve diğer tüm talep türlerinin üzerine geçmek üzere yeni bir mantık eklenir. Sistem emniyet stoğunu kullanarak gecikmeleri en aza indirebileceğini belirlerse, satış satırları veya ürün reçetesi satırları başlangıçtaki karşılamayı emniyet stoğuyla doldurur ve sistem bunun yerine emniyet stoğu yenilemesini tetikler.
 
 Plan veya madde gecikme hesaplaması için ayarlanmazsa, emniyet stoğu sınırlaması diğer talep türleriyle aynı önceliğe sahip olur. Bu, eldeki stok rezervi bulunduğu ve diğer talep türlerinden önce başka kullanılabilir stok olduğu anlamına gelir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

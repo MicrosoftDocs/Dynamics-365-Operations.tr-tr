@@ -251,3 +251,6 @@ Genelleştirme hizmetlerinin kullanıcıları, bir Genelleştirme özelliği aya
 10. Ortamı yayımlamak için **Yayımla**'yı seçin.
 
     ![Yayımlanan ortam](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

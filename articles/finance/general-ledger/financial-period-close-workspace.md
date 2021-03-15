@@ -107,3 +107,6 @@ Kapanış zamanlaması tamamlandıktan sonra, onun için **Kapalı** seçeneğin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

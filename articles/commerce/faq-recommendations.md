@@ -99,3 +99,6 @@ E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bk
 [Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
 
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

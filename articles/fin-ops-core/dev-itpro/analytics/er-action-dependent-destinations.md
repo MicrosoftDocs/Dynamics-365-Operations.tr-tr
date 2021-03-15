@@ -129,3 +129,6 @@ Aşağıdaki iş belgeleri listesi, **Kullanıcı eylemine özgü ER hedeflerine
 [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 
 [Application update 10.0.17 için elektronik raporlama çerçevesi API değişiklikleri](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

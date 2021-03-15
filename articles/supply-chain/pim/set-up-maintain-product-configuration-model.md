@@ -52,3 +52,6 @@ Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

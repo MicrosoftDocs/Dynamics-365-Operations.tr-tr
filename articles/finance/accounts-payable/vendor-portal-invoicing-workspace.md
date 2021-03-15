@@ -61,3 +61,6 @@ Daha fazla bilgi için bkz. [Harici satıcılarla satıcı işbirliği](../../su
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

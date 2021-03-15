@@ -101,3 +101,6 @@ Master planlama çalıştırıldığında, iki planlı sipariş oluşturulur: Bi
 > Bir satınalma talebiyle ilişkilendirilmiş bir planlı sipariş kesinleştirildikten sonra, planlama altyapısı, satınalma talebiyle ilişkilendirmeyi korur. Kesinleştirilmiş siparişin satınalma talebini yerine getirmek için gerekli miktara sahip olmadığı görülürse sistem, aradaki fark için yeni bir planlı sipariş oluşturur.
 
 Satın alma talepleri hakkında daha fazla bilgi için bkz. [Satınalma talebine genel bakış](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

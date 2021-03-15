@@ -226,3 +226,6 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Master planlara genel bakış](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

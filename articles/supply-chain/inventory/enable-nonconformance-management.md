@@ -53,3 +53,6 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Uyumlu olmayan yönetim için ön şartları ayarlama](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

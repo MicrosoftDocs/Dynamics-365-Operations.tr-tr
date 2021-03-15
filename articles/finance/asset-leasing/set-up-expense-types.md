@@ -58,3 +58,6 @@ Daha sonra, hesapları gider türleriyle ilişkilendirmelisiniz. Gider planı gi
 7. Uygun alanlarda, finansal kiralama ana hesabını ve işletme kiralaması ana hesabını seçin.
 
 Bu adımları tamamladığınızda, seçili bir kiralamanın **Kiralama ayrıntıları** sayfasınde **İcra maliyeti ödeme planı** satırları üzerinden giderleri ekleyebilirsiniz. Alternatif olarak, yeni bir kiralama oluştururken de giderleri ekleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

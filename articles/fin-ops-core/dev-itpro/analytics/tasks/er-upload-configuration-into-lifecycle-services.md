@@ -145,3 +145,6 @@ Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak 
     Karşıya yüklediğiniz ER yapılandırması listelenmelidir.
 
     Bu LCS projesine sağlayıcıların erişimi varsa, karşıya yüklenen LCS yapılandırmasının başka bir örneğe aktarılabildiğini unutmayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

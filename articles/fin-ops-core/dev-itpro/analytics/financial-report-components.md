@@ -126,3 +126,6 @@ Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı ta
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

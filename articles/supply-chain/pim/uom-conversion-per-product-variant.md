@@ -106,3 +106,6 @@ Birim dönüştürmelerini Excel'e aktarmak için **Birim dönüştürmeleri** s
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Ölçü birimini yönetme](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

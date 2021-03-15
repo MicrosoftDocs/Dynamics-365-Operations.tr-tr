@@ -109,3 +109,6 @@ Gezinti menünüze özel gezinti seçenekleri eklemek için aşağıdaki adımla
 [Sayfa URL'si oluşturma](create-page-url.md)
 
 [Yayınlama gruplarıyla çalışma](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

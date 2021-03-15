@@ -97,3 +97,6 @@ Serbest metin, müşteri ve proje alacak dekontlarını yazdırdığınızda, or
 
 > [!NOTE]
 > Orijinal faturalara yapılan başvuruların yazdırılacağını varsayarak belgelerin yazdırılabilir biçimlerinin doğru yapılandırılmış olduğundan emin olun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

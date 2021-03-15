@@ -47,3 +47,6 @@ Bir üretim emrini **Tamamlandı olarak rapor et** konumuna ayarlamak için stan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

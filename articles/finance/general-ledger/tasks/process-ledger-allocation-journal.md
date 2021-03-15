@@ -43,3 +43,6 @@ Bu konuda bir tahsisat talebinin nasıl işleneceği açıklanmaktadır. Genel m
 9. **Naklet**'i seçin.
 10. **Naklet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

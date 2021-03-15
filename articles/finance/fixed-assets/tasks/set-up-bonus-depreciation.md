@@ -48,3 +48,6 @@ Bu yordam, özel amortisman payının nasıl oluşturulacağını ve bir sabit k
     * Yüzde veya Tutar için varsayılan değer, özel amortisman payı kurulumundan alınır.  
 8. Öncelik alanına bir sayı girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

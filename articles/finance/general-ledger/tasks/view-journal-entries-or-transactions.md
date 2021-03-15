@@ -42,3 +42,6 @@ Bu yordam, günlük girişlerini veya hareketlerini aramak için Fiş hareketler
 12. Eylem bölmesinde, **Orijinal belge** öğesine tıklayın.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

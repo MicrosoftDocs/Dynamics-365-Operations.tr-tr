@@ -116,3 +116,6 @@ Bu iki stok günlüğü yalnızca *Stok başlatma* senaryosunu, veri yönetimi i
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Veri varlıkları](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Bu konuda, yeni bir paylaşılan ürün oluşturma yöntemi açıklanmıştır. 
 3. **İzleme boyutu grubu** alanına bir değer girin veya bir değer seçin. Takip boyutu grubu, her bir ürün hareketi için mutlaka girmeniz gereken takip boyutlarını ve bunların stokta nasıl işleneceğini belirler.  
 4. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

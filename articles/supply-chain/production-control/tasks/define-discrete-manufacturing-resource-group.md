@@ -57,3 +57,6 @@ Kaynak grubu, genellikle üretim atölyesinde sarı satırlarla tanımlanan fizi
 6. Listede, istenen kaydı bulun ve seçin.
 7. Listede, seçili satırdaki bağlantıya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

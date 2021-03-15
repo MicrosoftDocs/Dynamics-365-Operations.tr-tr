@@ -48,3 +48,6 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
     - Gerekirse kuruluşlar ekleyin.  
     - Bir kuruluş eklemek için **Düzenle** düğmesine ve ardından kuruluşu eklemek için **Ekle** düğmesine tıklayın. Değişiklikleri tamamladıktan sonra bir taslak **Kaydedebilir** ve/veya değişiklikleri **Yayınlayabilirsiniz**.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

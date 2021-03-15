@@ -103,3 +103,6 @@ POS 'ta izin verilen iade ödeme tiplerini görüntülemek için aşağıdaki ö
 
 
 ![Ödeme yöntemleri listesi](media/Return-policy-page5.PNG "Geri ödeme türlerine izin veriliyor")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

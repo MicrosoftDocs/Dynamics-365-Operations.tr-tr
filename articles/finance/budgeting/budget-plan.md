@@ -246,3 +246,6 @@ C. Bütçeleme &gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandır
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

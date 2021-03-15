@@ -69,3 +69,6 @@ Fiş satırlarının sayısı 100 veya daha az ise ters kayıt işlemi hemen ça
 
 Hareketler ancak ters işlem uygulanabilecek iş kurallarına uygun olduklarında ters kaydedilebilir. Bu konuda açıklanan özellik kullanılarak satıcı ödemeleri tersine çevrilemez. Satıcı ödemelerinin [Satıcı ödemesini tersine çevirme](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment) bölümünde listelenen adımlar kullanılarak tersine çevrilmesi gerekir.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

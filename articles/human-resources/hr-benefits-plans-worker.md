@@ -49,3 +49,6 @@ ms.locfileid: "5114632"
    | Planlar | Planlar hızlı sekmesi, belirttiğiniz filtre ölçütüne uyan planları içerir. İK personeli tarafından ayarlanan ilgili konfigürasyon seçenekleri ve çalışanlar tarafından seçilen kayıt seçimleri her satıra dahil edilir. Nitelenmiş alan, plan seçimiyle bir doğrulama çakışması olup olmadığını belirtir. |
 
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

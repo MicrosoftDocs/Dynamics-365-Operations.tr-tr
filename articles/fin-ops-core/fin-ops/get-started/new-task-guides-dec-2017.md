@@ -368,3 +368,6 @@ Bir BPM satırı silinince, o BPM satırıyla ilişkili görev kılavuzları da 
 **Silinen BPM satırı**
 
 - Planlanmış kanban işlerini taşıma
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

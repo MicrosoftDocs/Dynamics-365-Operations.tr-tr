@@ -107,3 +107,6 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Sözleşme faturaları (Field Service'tan Supply Chain Management'a): Fatura satırları
 
 [![Veri tümleştirmede şablon eşleme](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

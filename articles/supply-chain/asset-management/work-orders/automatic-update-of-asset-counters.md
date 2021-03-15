@@ -69,3 +69,6 @@ Aaşağıdaki noktaları unutmayın:
 
 - Başka bir sayaca ilişkin sayaçlar ayarlayabilirsiniz. Bu durumda, bir sayaç güncelleştirildiğinde, ilgili sayaçlar aynı anda otomatik olarak güncelleştirilir. İlgili sayaçların nasıl ayarlanacağı konusunda daha fazla bilgi için bkz. [Sayaçlar](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

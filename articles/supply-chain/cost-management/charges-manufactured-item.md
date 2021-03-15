@@ -39,3 +39,6 @@ Maddenin giderlerinin hesaplanan tutarı, maddenin birim maliyeti ile görüntü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

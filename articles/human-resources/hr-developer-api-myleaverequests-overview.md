@@ -64,3 +64,5 @@ Microsoft Dynamics 365 Human Resources'un MyLeaveRequests varlığı, sistemdeki
 
 - [Bir izin isteğini iş akışına gönderme](hr-developer-api-myleaverequests-submit.md)
 - [Kimlik doğrulama](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

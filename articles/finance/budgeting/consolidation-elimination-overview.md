@@ -93,3 +93,6 @@ Konsolidasyon şirketinde bütçeleri işleyemez veya tamamlayamazsınız. Tasla
 Daha fazla bilgi için bkz. [Konsolidasyon şirketinde para birimi yeniden değerleme](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Bir kategorideki ürünleri sipariş etmek amacıyla kuralları ayarlamak için 
 6. **Satıcı seçimi** alanında, bir seçenek belirleyin. Talepler oluşturulduğunda kategori için hangi tür satıcıların seçilebileceğini denetleyen bir kural seçin.  
 7. **Kapat**'a tıklayın. Tanımladığınız ilke kuralları Tüketim türü talepleri içindir. Stok yenileme türü talepleri için ilkeleri tanımlamak isterseniz "Stok yenileme kategorisi erişim ilkesi kuralı" olarak adlandırılan İlke kuralı türü için bir kural oluşturursunuz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Bu konuda işlenmesi ve onaylanması için iş akışı sistemine gönderilen bi
     - **Yeniden Ata** düğmesi, bir iş maddesini başka bir kullanıcıya yeniden atayabileceğiniz bir iletişim kutusu açar.  
     - **İzleme ayrıntıları** bölümünün genişletildiğinden emin olun. Bu bölümde, seçili belgenin iş akışı geçmişini görüntüleyebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

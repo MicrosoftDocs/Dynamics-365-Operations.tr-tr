@@ -81,3 +81,6 @@ Adım tüketimi, miktar aralıklarındaki sabit tüketimi hesaplamak için kulla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

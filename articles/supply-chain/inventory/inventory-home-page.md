@@ -57,3 +57,6 @@ Daha fazla bilgi için bkz. [Stok kapanışı](../cost-management/inventory-clos
 
 ### <a name="task-guides"></a>Görev kılavuzları
 Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişmek için herhangi bir sayfada **Yardım** düğmesine tıklayın
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

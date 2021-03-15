@@ -43,3 +43,6 @@ Defter tahsisat kuralları, bütçe planları için kullanılabilir. Defter tahs
 > [!NOTE]
 > Bütçe planlama için şirketler arası defter tahsisat kurallarını kullanamazsınız.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

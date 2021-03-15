@@ -187,3 +187,6 @@ Satır tanımında üzerinde çalıştığınız sütunları görüntülemeyi ko
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Ek olarak, belirli hesaplar, siparişler ve maddeler hakkındaki nakit akışı 
 - **Tedarik tahmini**: Seçili madde tedarik tahmini ile ilişkilendirilmiş gelecek nakit akışlarını görüntülemek için **Nakit akışı tahminleri**'ni seçin.
 - **Talep tahmini**: Seçili madde talep tahmini ile ilişkilendirilmiş gelecek nakit akışlarını görüntülemek için **Nakit akışı tahminleri**'ni seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

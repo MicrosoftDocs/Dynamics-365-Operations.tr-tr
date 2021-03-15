@@ -44,3 +44,6 @@ Bir iade sevkiyatı geldiğinde, bunu zaten oluşturulmuş durumdaki bir iade si
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

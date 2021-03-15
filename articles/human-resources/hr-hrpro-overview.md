@@ -127,3 +127,6 @@ Dynamics 365 Human Resources Kullanıcı kılavuzu, insan kaynakları kurulumu, 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Bu konu, bir Sevkiyat taşıyıcısı ayarlamayı ve hizmet, sevkiyat modu, taş
 9. **Yoldaki süre altyapısı** alanında, açılır menüden bir seçenek belirleyin.
 10. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

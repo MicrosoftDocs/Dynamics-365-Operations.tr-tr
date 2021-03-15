@@ -666,3 +666,6 @@ Tasnif edilen stok çekme işini tamamlamanız gerekir. Tamamlandığında, stok
     İş tamamlanır.
 
 Bu noktadan itibaren, diğer tüm ambar süreçleri geçerlidir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

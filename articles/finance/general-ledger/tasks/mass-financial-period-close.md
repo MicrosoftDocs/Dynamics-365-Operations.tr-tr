@@ -41,3 +41,6 @@ Bu konuda, bir dönemin nasıl beklemeye alındığı veya bir kerede bir dönem
 11. **Dönem durumunu güncelleştir**'i seçin ve durumu **Beklemede**, **Açık** veya **Kalıcı olarak kapatıldı** şeklinde ayarlayın. **Açık**, dönem içinde erişimi olan kullanıcılar tarafından deftere nakil yapılabileceğini gösterir. **Beklemede** dönemin nakledilemeyeceği ancak yeniden açılabileceği anlamına gelir. **Kalıcı olarak kapatıldı**, dönemin tamamen kapatıldığı ve bir daha açılamayacağı anlamına gelir. Ayarlamalar nakledilemezler. Tüm ayarlamalar ve denetimler tamamlanana kadar bir dönemin **Kalıcı olarak kapatıldı** şeklinde ayarlanması önerilmez.  
 12. **Güncelleştir**'i seçin
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

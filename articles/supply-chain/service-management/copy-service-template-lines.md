@@ -59,3 +59,6 @@ Servis şablonu satırları bunun üzerine, iliştirilen servis nesnesi ve servi
 [Servis şablonları](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

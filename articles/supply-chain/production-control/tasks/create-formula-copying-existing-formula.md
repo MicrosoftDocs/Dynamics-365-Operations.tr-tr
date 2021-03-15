@@ -56,3 +56,6 @@ Bu yordam, mevcut bir formülden kopyalayarak yeni bir formülün nasıl hızlı
 3. Tamam'a tıklayın.
 4. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Seçili sipariş hakkındaki vadeli işlem ve eylem ayrıntılarını görüntü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

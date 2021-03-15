@@ -38,3 +38,6 @@ Bu prosedür, size satınalma siparişinin tek seferlik bir tedarikçi için nas
 5. Tamam'a tıklayın.
     * Satınalma siparişi şimdi tamamlanabilir ve başka bir sipariş gibi işlenebilir. Bunun yapılmasıyla ilgili özel karakterler bulunmamaktadır. Fatura, hareket vade sonunu siparişle oluşturulmuş satıcı hesabı üzerinden dahil eder ve sonra ödeme işlenir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

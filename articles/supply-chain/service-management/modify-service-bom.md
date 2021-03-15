@@ -71,3 +71,6 @@ Servis ürün reçetesine bir öğenin geçmişini kaydedebilirsiniz. Bir ürün
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablond
 33. Eğitim bölümünün genişletilmiş görünümüne geçin.
 34. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturamazsınız. 
     ```
 2. SysTableBrowser formundan bir uyarı oluşturun.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Aşağıdaki örnek, indirim eşzamanlılık denetimi **En iyi fiyat ve öncelik
 Aşağıdaki örnek, indirim eşzamanlılık denetimi **Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir** olarak ayarlandığında kullanılan mantığı gösterir.
 
 ![Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir](./media/Model_2.png "Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir mantığı").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

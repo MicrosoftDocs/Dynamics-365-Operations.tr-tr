@@ -79,3 +79,6 @@ Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin küme
 1. Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** \> **Ambar yönetimi** \> **Kurulum** \> **Mobil cihaz** \> **Mobil cihaz menü öğeleri**.
 
 1. Mobil cihaz menü öğesinden **İş onayı ayarını** açın. **Ürün onayı** seçeneği tarandığında her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

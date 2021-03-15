@@ -60,3 +60,6 @@ Bu bilgileri yapılandırmaya başlamak için ilk parametreleri yapılandırmada
 ## <a name="warehouse-management"></a>Ambar yönetimi
 
 Bir sevkiyat hazırlanırken çeşitli yeni raporlar yazdırılabilir. Bu raporlar, Ürün bilgileri yönetimi'nde ayarladığınız bilgileri kullanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

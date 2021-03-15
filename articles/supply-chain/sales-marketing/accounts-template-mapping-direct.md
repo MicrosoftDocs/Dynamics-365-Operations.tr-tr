@@ -116,3 +116,6 @@ Aşağıdaki görseller, veri tümleştirmede bir şablon eşleme örneğini gö
 
 [Supply Chain Management'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

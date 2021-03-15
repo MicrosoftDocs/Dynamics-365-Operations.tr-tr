@@ -134,3 +134,6 @@ Kiralama düzeltilmişse kiralamanın farklı sürümlerini görebilirsiniz. Ayr
 
 2. Geçmiş planlamaları görüntülemek için **Kiralama özeti** sayfasından değiştirilen kiralamayı açın, istediğiniz defteri seçin ve ardından Eylem Bölmesinde **Defter sürüm geçmişi**'ni seçin.
 3. **Defter sürümü** sayfasında, görüntülenecek bir sürüm ve zamanlama seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

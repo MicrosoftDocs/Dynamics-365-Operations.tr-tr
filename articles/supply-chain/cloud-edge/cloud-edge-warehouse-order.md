@@ -72,3 +72,6 @@ Ambar siparişi satırlarını iptal etmek için şu adımları izleyin.
 
 - **Ambar yönetimi \> Sorgular ve raporlar \> Ambar satırı siparişleri**'ne gidin ve aradığınız satırları bulmak için filtreyi kullanın.
 - **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin ve ilgili satınalma siparişini açın. **Satınalma siparişi satırları** bölümünde, bir veya daha fazla satır seçin ve araç çubuğunda **Ambar \> Ambar makbuz girişleri**'ni seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

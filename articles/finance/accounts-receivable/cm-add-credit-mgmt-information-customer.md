@@ -101,3 +101,6 @@ Her müşteri için bir veya daha fazla sigorta poliçesi ve garanti oluşturabi
     Bu durumda, yürürlükteki kredi limiti 125.000 (= A + \[B × C\]) olur.
     
     Ancak , **Kapsama dahil** onay kutusunu işaretlerseniz, 50.000 (=100.000'in %50'si) olan **Kredi limitini güncelleştir** değeri kaldırılır ve kapsam değeri 75.000 (= A + \[B × C\] – B) olur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Bu yordam, bir üretim emrinde Süren İş bildirimini nasıl görüntüleyeceğ
 6. Form tarihi alanında, tarihi '12-01-2012' olarak ayarlayın.
 7. Alıcı alanında, tarihi '31.12.2012' olarak ayarlayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Bir finansal hareket nakledildiğinde, hareket kaydının durumu **Satılan** ol
 -   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi negatif miktar stok günlükleri
 
 Miktarı azaltan hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Bu nedenle, her bir maddeye atanan stok modeline dayalı olarak, çıkış hareketlerinin giriş hareketlerine kapatılması için stok kapanışı prosedürü uygulanmalıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

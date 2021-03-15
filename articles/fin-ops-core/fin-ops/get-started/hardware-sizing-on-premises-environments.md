@@ -141,3 +141,6 @@ Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidi
 ## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
 
 AOS gibi pek çok kritik görev hizmetleri ayrılmış kaynaklara (çekirdekler, bellek ve disk) sahip Sanal ana bilgisayarlarda barındırılmalıdır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

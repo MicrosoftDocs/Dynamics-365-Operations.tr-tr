@@ -78,3 +78,6 @@ Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilg
 39. Sayfayı kapatın.
 40. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

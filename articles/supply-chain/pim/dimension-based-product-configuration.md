@@ -87,3 +87,6 @@ Aşağıdaki sekiz görev kılavuzu, tamamlamanız gereken sırada listelenmişl
 7.  [Yapılandırma kuralları oluşturma](tasks/create-configuration-rules.md)
 8.  [Boyut tabanlı yapılandırmalar oluşturma](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

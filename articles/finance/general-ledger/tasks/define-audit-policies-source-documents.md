@@ -87,3 +87,6 @@ Bu konu, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını açı
 57. **İlişkilendirmeler**  bölümünü genişletin.
 58. Listede, istenen kaydı bulun ve seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

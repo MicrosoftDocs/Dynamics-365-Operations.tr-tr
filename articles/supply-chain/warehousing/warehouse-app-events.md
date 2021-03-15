@@ -77,3 +77,6 @@ Başarısız olan bir ambar uygulaması olay iletisini sıfırlamak için:
 1. İlgili tüm iletiler sıfırlanana kadar çalışmaya devam edin.
 
 Ayrıca, **Ambar uygulaması olay iletileri** araç çubuğundaki **Sil** seçeneğini kullanarak **Başarısız oldu** olay iletisini kaldırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

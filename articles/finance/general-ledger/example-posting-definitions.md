@@ -127,3 +127,6 @@ Bu örnekte, Hesap Yapısı - Kar ve Zarar'ın parçası olan tüm hesaplar naki
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

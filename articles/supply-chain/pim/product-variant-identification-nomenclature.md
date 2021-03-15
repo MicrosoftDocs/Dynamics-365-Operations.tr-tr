@@ -197,3 +197,6 @@ Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapıla
 
 [Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

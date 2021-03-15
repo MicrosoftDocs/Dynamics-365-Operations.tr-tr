@@ -69,3 +69,6 @@ Gerekli kıymet yaşam döngüsü durumlarını oluşturduktan sonra kıymet ya�
 
 6. Seçili yaşam döngüsü durumunu takip edebilecek kıymet yaşam döngüsü durumlarını tanımlamak için **Yaşam döngüsü durumu güncelleştirmeleri**'ni seçin.
 7. Onarım için aldığınız kıymetleri işlerken **Kıymet durumu** hızlı sekmesini kullanın. **Gelen/giden** bölümünde onarım için aldığınız bir kıymetin iş akışını göstermek için kıymet yaşam döngüsü durumlarını seçebilirsiniz. Müşterilere veya departmanlara ödünç kıymet sunuyorsanız **Ödünç verilenler** bölümünde ödünç verilen kıymetler için yaşam döngüsü durumlarını seçebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

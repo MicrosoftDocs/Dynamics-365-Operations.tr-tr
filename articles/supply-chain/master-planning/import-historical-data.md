@@ -61,3 +61,6 @@ Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirs
 
 [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)  
 [Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

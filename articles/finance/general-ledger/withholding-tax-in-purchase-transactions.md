@@ -75,3 +75,6 @@ Stopaj vergisi, **Satıcı ödeme günlüğünde** hesaplanır. İlgili stopaj v
 Türetilen stopaj vergisi tutarı satıcı ödemesinden düşülür ve ilgili bir fişteki **Stopaj vergisi hesabına** nakledilir.
 
 ![İlgili fişi gösteren stopaj vergisi hesabı](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 
  - [Tahsilat bilgilerini gözden geçirme](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

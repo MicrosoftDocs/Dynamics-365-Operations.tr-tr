@@ -76,3 +76,6 @@ Son olarak, istediğiniz iş akışı aşamasında bütçe planlama aşama tahsi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -253,3 +253,6 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

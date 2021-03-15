@@ -47,3 +47,6 @@ Müşteri ödemelerini havale edin. Bu görevde USMF demo şirketi kullanılmakt
 17. **Tamam**'ı seçin. Havale makbuzu oluşturmak için ilk sayfa kullanılır.  
 18. **Tamam**'ı seçin. İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

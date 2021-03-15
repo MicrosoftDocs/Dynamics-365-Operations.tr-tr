@@ -105,3 +105,6 @@ Supply Chain Management artık taşıma hizmetlerini içeren ürün reçetesi he
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

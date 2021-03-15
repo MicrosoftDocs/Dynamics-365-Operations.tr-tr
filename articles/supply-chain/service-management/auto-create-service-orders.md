@@ -58,3 +58,6 @@ Servis sözleşmesi 1 Ocak 2012'den 31 Kasım 2012'ye kadar sürer. İki servis 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

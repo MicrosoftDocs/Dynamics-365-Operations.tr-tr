@@ -204,3 +204,6 @@ Raporlar, maliyet kontrolünden sorumlu yöneticilerin incelemesi içindir. Rapo
 Sürümler, çeşitli sonuçların benzetiminin yapılması, görüntülenmesi ve karşılaştırılması için kullanılır. Tüm fiili maliyetler varsayılan olarak, *gerçek* olarak bilinen bir temel sürümde görüntülenir. Bütçeler ve hesaplamalar için ihtiyaç duyduğunuz kadar çok sürümle çalışabilirsiniz. Örneğin, bütçe verilerini orijinal bir sürüme aktarabilir ve ardından bütçeyi düzeltilmiş bir sürümde gözden geçirebilirsiniz. Hesaplamalar için birden çok sürüm oluşturabilirsiniz. Bu çeşitli sürümlerde, maliyet tahsisatında uygulanacak farklı hesaplama kuralları kullanarak hesaplamalar oluşturabilirsiniz.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

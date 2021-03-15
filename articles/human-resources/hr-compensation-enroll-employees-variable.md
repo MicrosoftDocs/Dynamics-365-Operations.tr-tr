@@ -41,3 +41,6 @@ Tazminat ve Kazançlar yöneticisi, nakit ve nakit olmayan personel ikramiyeleri
 8. Kuruluş geçersiz kılmaları bölümünün genişletilmiş görünümüne geçin.
     * Personelin performansı, farklı departmanların performansı veya çalışanın pozisyonuna atanmış olandan farklı bir departmanın performansı göz önünde bulundurulacaksa, departman geçersiz kılınabilir. Yüzde sütununun toplamı 100 olmalıdır.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

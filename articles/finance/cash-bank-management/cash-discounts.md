@@ -65,3 +65,6 @@ Tüzel kişiliğinizin muhasebe para birimi EUR'dur ve aşağıdaki döviz kurla
 > [!NOTE]
 > Alacak hesapları parametreleri ya da hesapların borç parametreleri sayfaları hesapla nakit iskontoları için kısmi ödeme seçeneği seçili olduğunda her bir kısmi ödeme tarihinde geçerli olan döviz kuru kullanılır. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -133,3 +133,6 @@ Bu işlemde, yüksekliği 3'ten az olan madde *paketleme* boyutlarına göre bir
 1. Mobil cihazı açın, ambar 63'te oturum açın ve **Stok \> Ayarla**'ya gidin.
 1. **Loc** = *SHORT-01* ifadesini girin. **Madde** = *A0001* ve **Miktar** = *1 adet* olacak şekilde yeni bir lisans plakası oluşturun.
 1. **Tamam**'ı seçin. "Madde A0001 yerleşimin belirtilen boyutlarına sığmadığından SHORT-01 yerleşimi başarısız oldu." hatasını alırsınız. Bunun nedeni, ürünün *Depolama* türü boyutlarının yerleşim profilinde belirtilen boyutlardan daha büyük olmasıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

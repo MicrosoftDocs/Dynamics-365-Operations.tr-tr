@@ -75,3 +75,6 @@ Tüm aralıkların yüzde toplamı 100 olmak zorunda değildir. Ancak, **Sabit k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

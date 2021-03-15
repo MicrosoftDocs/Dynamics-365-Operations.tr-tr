@@ -214,3 +214,5 @@ Yöneticiler , **ekibimin** **Özet** bölümünde **ekip performans hedefleri**
 **İncelemeler** sekmesi, çalışanın her durumunda sahip olduğu İncelemeleri özetler: **Devam ediyor**, **gözdengeçirilmek üzere hazır** ve **Son İnceleme**. Bir çalışanın incelemesine erişmek için, **Ayrıntılar** düğmesini seçin ve üzerinde işbirliği yapılacak İncelemeleri seçin. Gözden geçirme işleminin iş akışı sürecinde olduğu yere göre, incelemenin güncelleştirme için kullanılabilir olup olmadığını görebilirsiniz. 
 
 Yöneticiler , **ekibimin** **Özet** bölümünde **ekip performans incelemeleri** döşemesi aracılığıyla takımlarına ait tüm incelemeleri görebilir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

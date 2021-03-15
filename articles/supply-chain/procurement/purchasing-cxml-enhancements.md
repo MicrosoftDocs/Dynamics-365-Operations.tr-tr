@@ -276,3 +276,6 @@ Satıcı onay veya hata yanıtının içeriğini görüntülemek için, **Satın
 
 - [PunchOut e-procurement için harici katalog ayarlama](set-up-external-catalog-for-punchout.md)
 - [PunchOut e-procurement için harici katalogları kullanma](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

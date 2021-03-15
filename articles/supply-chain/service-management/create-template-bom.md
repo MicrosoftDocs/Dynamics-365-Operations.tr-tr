@@ -110,3 +110,6 @@ Orijinal şablon ürün reçetesindeki satırlara karşılık gelen satırlar ku
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

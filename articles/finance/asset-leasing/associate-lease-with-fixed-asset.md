@@ -53,3 +53,6 @@ Artık Sabit varlıklardaki standart amortisman işlevi kullanılarak sabit varl
 
 > [!NOTE]
 > Sabit varlığı bir kiralamayla ilişkilendirirseniz Varlık kiralamada **Varlık amortismanı** ve **Kira değer düşüşü** düğmeleri devre dışı bırakılır. Sabit varlıklardaki varlık amortismanı ve kira değer düşüşü hareketlerini görüntüleyebilirsiniz. Bir sorgu formu açan **Varlık hareketleri** düğmesi de devre dışı bırakılır. **Varlık hareketleri** sorgu formunu Sabit varlıklarda da açabilirsiniz.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

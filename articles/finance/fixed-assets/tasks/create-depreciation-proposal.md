@@ -47,3 +47,6 @@ Bu konu, toplu amortisman tekliflerinin nasıl işlediğini ve sabit kıymetler 
 3. **Satırlar**'ı seçin.
 4. **Naklet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

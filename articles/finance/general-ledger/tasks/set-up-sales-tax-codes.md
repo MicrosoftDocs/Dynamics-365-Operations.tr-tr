@@ -45,3 +45,6 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 12. Sayfayı kapatın.
 13. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

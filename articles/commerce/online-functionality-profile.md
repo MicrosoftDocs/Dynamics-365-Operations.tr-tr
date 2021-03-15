@@ -66,3 +66,6 @@ Aşağıdaki resimde örnek bir çevrimiçi işlevsellik profili gösterilmekted
 [Perakende kanalını ayarlama](channel-setup-retail.md)
 
 [Çağrı merkezi kanalını ayarlama](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Daha fazla bilgi için bkz: [Sabit kıymet tümleştirmesi](fixed-asset-integrat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

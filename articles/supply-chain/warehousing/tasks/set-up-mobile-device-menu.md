@@ -68,3 +68,6 @@ Bu konu bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir. Bu ö
 5. Sağ tarafı gösteren oku seçin.
 6. **Kaydet**'i seçin.
 7. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Sertifika V5'deki **Sunucu kimlik doğrulama amacı** özelliği, Brezilya Kök 
 Bu güncelleştirme, sertifika doğrulaması için alternatif bir çözüme olanak tanır, başka bir deyişle, güvenli bir iletişim kurma olanağı vardır.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Bu konu, mali boyut varsayılan şablonlarının nasıl ayarlanacağı gösteril
 11. Girilen yüzdeye karşılık gelen mali boyut değerlerini girin.
 12. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

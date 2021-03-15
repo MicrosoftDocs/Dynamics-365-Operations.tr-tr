@@ -157,3 +157,6 @@ Sınama amacıyla, daha önce yüklediğiniz SampleIncomingMessage.txt dosyasın
 2. Tamam'a tıklayın.
     * Seçili dosyadan içeri aktarılan ve veri modeline taşınan verileri temsil eden XML biçimindeki çıktıyı gözden geçirin. İçe aktarılan TXT dosyasındaki yalnızca 3 satırın işlendiğini unutmayın. Satır 4'teki geçersiz IBAN kodu atlandı ve Bilgi günlüğünde bir hata iletisi sağlandı.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

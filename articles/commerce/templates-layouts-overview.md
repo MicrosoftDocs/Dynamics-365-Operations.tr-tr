@@ -111,3 +111,6 @@ Aşağıdaki çizimler, hazır ayar ve özel düzen senaryolarını gösterir.
 [Önceden ayarlanmış düzenlerle çalışma](work-with-layouts.md)
 
 [Yayınlama gruplarıyla çalışma](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

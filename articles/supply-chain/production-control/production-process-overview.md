@@ -87,3 +87,6 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

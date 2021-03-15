@@ -59,3 +59,6 @@ Bu konu, Varlık Yönetimi'nde varlık üreticilerinin ve ilgili modellerin nas�
 2. **Varlık** sütununda, varlık için bağlantıyı seçin. **Ayrıntılar** sayfası görüntülenir.
 3. **Düzenle** öğesini seçin.
 4. **Genel** hızlı sekmesinde, **Üretici** ve **Model** alanlarında değerleri seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Aşağıdaki şekilde **Etkin iş emri bakım işleri** liste sayfası örneği 
 
 **Etkin iş emri bakım işleri** liste sayfasındaki düğmelerin kısa açıklaması için, aynı düğmelerin açıklandığı [İş emirlerine giriş](../work-orders/introduction-to-work-orders.md) bölümüne bakın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

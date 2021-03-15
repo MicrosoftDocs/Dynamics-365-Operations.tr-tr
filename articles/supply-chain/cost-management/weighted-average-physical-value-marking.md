@@ -229,3 +229,6 @@ Aşağıdaki diyagram bu hareketler serisini, işaretleme ile Ağırlıklı orta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ö
     * İçe aktar düğmesi kullanılamıyorsa yapılandırma zaten içe aktarılmış demektir.  
 9. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

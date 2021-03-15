@@ -241,3 +241,6 @@ Formül ER yapılandırmasına özgüdür. Örneğin, ISO 20022 Borç Transferi 
 [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 
 [Eyleme bağlı ER hedeflerini yapılandırma](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

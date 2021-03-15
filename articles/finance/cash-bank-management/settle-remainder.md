@@ -69,3 +69,6 @@ Kalanı kapatmak için aşağıdaki adımları uygulayın:
 7)  Kalan kapatma ile bir ödeme günlüğü oluşturmayı da seçebilir veya günlük olmadan da deftere nakledebilirsiniz. Bir ödeme günlüğü oluşturmak için **Günlük içinde düzenle** için **Evet**'i seçin. Oluşturduğunuz ödeme günlüğünü düzenleyebileceksiniz.
 8)  **Kalanı kapat**'ı tıklatın. Bir günlük oluşturmak isterseniz, düğme **Günlük oluşturma** olarak değişecektir. Bunun yerine **Günlük oluştur**'u tıklatın.
 9)  Bir ödeme günlüğü oluşturduysanız, günlük sayfası **Kalanı kapat**'ı tıkladıktan sonra açılır. Bir günlük satırı, kalanı kapat tutarı ile günlüğe tutar olarak ve kalanı kapat hesabı mahsup hesap olarak eklenir. Kapatma tutarını başka bir müşteri veya satıcıya taşımak için bir müşteri veya satıcı eklediyseniz ek bir satır günlüğe kapatma tutarını bu müşteri veya satıcıya taşımak için eklenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

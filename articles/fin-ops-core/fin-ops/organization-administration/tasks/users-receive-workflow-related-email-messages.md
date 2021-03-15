@@ -41,3 +41,6 @@ ms.locfileid: "4799016"
 
 > [!NOTE]
 > İş akışı e-posta şablonları, iş akışının sistem düzeyi (şirkete özel değil) veya organizasyon düzeyi (Şirket özel) iş akışı olmasına bağlı olarak, sistem e-posta şablonlarından veya kuruluş e-posta şablonlarından kaynakdan alınır.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

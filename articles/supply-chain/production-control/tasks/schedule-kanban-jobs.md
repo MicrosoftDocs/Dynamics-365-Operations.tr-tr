@@ -61,3 +61,6 @@ Bu prosedür, belirli bir iş hücresi için kanban işlerini zamanlama işlemin
     * Her iki işin istenen öneme eklendiğine dikkat edin.  
     * Dönem kapasitesi bölümünde, her bir dönemin yükünü görebilirsiniz. Tüketim alanı bu dönemde zamanlanan tüketimi gösterir. Zamanlanmış tüketim bu dönemdeki kullanılabilir kapasiteden daha yüksekse, aşırı yüklenmiş tüketim seçilecektir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Microsoft'un kullandığı temel ilkeler hakkında daha fazla bilgi için [Micro
 [Gizlilik ilkesi sayfası ekleme](add-privacy-page.md)
 
 [İzlenen içerik değişiklikleriyle ilişkili kullanıcı kimliklerini değiştirme](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Ayrıca, fiziksel stok değerinizdeki maksimum mahsubun, fiziksel hareket sayıs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

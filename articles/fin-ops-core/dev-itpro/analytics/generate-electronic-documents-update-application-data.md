@@ -40,3 +40,6 @@ Bu özellik hakkında daha fazla bilgi için Intrastat raporlama ve arşivleme a
 - [ER veri modeli konfigürasyonu: Intrastat (model)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER model eşleme yapılandırması: Intrastat (eşleme)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER biçim yapılandırma: Intrastat (biçim)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

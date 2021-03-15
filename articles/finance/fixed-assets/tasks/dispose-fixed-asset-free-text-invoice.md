@@ -40,3 +40,6 @@ Bu konu, serbest metin faturası kullanarak bir sabit kıymetin nasıl elden ç�
 10. **Sabit kıymet** alanında bir değer girin veya seçin.
 11. **Naklet**'i seçin. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

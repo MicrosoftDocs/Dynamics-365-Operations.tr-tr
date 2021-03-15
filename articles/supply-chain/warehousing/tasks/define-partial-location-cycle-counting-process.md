@@ -72,3 +72,6 @@ Sayım işi oluştururken döngü sayımı planları kullanırsanız, gerçek sa
 14. Tamam'a tıklayın.
 15. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

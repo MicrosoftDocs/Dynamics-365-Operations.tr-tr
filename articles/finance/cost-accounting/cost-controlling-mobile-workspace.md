@@ -144,3 +144,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 11. Bireysel maliyet öğelerinin performansını görün.
 12. Belirli maliyet öğeleri için de arama yapabilirsiniz.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

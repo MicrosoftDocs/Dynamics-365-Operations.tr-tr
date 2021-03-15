@@ -51,3 +51,6 @@ Her yeni özellikte olduğu gibi, müşterilerin Sürüm planını ve "Yenilikle
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Kullanımdan kaldırma tarihi belirlendiğinde, nereden iletilecek?
 
 Bir fiş'in kullanım dışı bırakılması, kapsamlı bir şekilde iletilen önemli bir değişikliktir. Kullanımdan kaldırmanın yürürlüğe girmesinden çok önce ürün belgeleri, blog gönderisi ve ilgili Microsoft konferanslarındaki duyurular aracılığıyla iletilecektir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

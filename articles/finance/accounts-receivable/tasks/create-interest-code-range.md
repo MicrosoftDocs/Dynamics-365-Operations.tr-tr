@@ -50,3 +50,6 @@ Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak 
 21. Faizin 7. ay içinde hesaplanmaya başlayacağı aylık faiz yüzdesini girin. Bu örnekte, değer 2,5'dır.
 22. Ayarları tamamlamak için Kapat'ı tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

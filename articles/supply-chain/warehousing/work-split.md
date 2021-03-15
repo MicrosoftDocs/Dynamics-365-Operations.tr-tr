@@ -154,3 +154,6 @@ Ambar uygulamasını, bölünmekte olan bir iş kimliğine karşı malzeme çekm
 ## <a name="other-blocked-operations"></a>Engellenen diğer işlemler
 
 İş satırlarını, iş stok hareketlerini veya bölünen işle ilgili stok yenileme bağlantılarını değiştiren işlemler başarısız olur ve aşağıdaki hata iletisi gösterilir: "\#\#\#\# kimlikli iş şu anda bölünmektedir."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

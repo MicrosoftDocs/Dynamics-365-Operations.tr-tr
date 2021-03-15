@@ -60,3 +60,6 @@ Var olan tüm değerlendirme profillerinin özetini gösteren bir genel sayfa ku
 
 > [!NOTE]
 > **Sevkiyat taşıyıcıları** sayfasında oluşturulan profiller, **Değerlendirme profilleri** sayfasında da gösterilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

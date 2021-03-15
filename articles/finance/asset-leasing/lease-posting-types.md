@@ -153,3 +153,6 @@ Her gider türü için seçilen hesap, ilgili gider türü için bir ödeme olu�
 
 > [!NOTE]
 > Mahsup hesap, icra maliyeti ödeme planı için satırlardaki kiralama düzeyinde seçilir. Bu mahsup hesap, satıcıyla veya bir genel muhasebe hesabıyla ilişkilendirilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

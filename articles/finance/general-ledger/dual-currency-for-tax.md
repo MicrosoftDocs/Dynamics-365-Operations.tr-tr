@@ -143,3 +143,6 @@ Daha fazla bilgi edinmek için aşağıdaki konulara bakın:
 - [Çift para birimi](dual-currency.md)
 - [Satış vergisine genel bakış](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

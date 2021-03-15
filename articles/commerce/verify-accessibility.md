@@ -86,3 +86,6 @@ Ticari olarak giriş sayfanızın içeriğini taramak ve doğrulamak amacıyla t
 [Kategori açılış sayfasını zenginleştirme](enrich-category-page.md)
 
 [URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

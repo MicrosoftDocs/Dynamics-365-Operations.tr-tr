@@ -190,3 +190,6 @@ Aşağıdaki ayrıntılar içe aktarılır ve yeni çalışan kaydına dahil edi
 
 [Dataverse sanal tablolarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

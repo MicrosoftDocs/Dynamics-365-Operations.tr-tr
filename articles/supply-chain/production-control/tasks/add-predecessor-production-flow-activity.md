@@ -51,3 +51,6 @@ Daha fazla bilgi için, "Üretim akışları ve yalın imalat faaliyetleri" baş
     * Bir faaliyet ilişkisinin varsayılan döngü süresi oranı 1'dir. Bu her iki faaliyetin de aynı takt zamanında çalıştığını varsayar. Öncel daha yüksek bir hızda çalışıyorsa (daha düşük takt süresi), bu oran 1'den düşük olmalıdır; öncel daha düşük bir hızda çalışıyorsa (daha yüksek takt süresi), döngü süresi oranı 1'den büyük olur.  
 5. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

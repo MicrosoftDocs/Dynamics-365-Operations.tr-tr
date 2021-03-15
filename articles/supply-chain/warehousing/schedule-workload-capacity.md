@@ -79,3 +79,6 @@ Bu bilgiler doğru bir şekilde belirtilmezse, **İŞ yükü kapasite** raporu o
 3. **Sipariş türü** alanında raporda yansıtılacak siparişlerin türünü belirtmek için **Planlandı ve onaylandı**, **Planlandı** veya **Onaylandı**'yı seçin.
 4. **Yük türü** alanında, iş yükü kapasitesinin hacim veya ağırlık için mi yansıtılacağını belirtmek üzere bir yük türü seçin.
 5. **İş yükü kapasitesi** alanında bir iş yükü kapasitesi kurulumu seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

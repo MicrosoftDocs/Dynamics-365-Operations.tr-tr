@@ -82,3 +82,6 @@ Ayrıca, servis siparişi satırlarına başlangıç ve bitiş saatleri girmek i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

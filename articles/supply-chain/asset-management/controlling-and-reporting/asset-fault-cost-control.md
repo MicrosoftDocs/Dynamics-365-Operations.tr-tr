@@ -61,3 +61,6 @@ Bu örnekte, varlık arıza maliyeti denetim hesaplaması gösterilmektedir.
     ![Şekil 1](media/05-controlling-and-reporting.png)
 
 Arızaları ayarlama hakkında bilgi için [Arıza yönetimi](../setup-for-work-orders/fault-management.md) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

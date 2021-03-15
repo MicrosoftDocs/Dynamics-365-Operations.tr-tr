@@ -77,3 +77,6 @@ Bu kılavuz ilave atama, taşıyıcı ek giderleri, yakıt ek giderleri için an
 6. Listede, seçili satırdaki bağlantıya tıklayın.
 7. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

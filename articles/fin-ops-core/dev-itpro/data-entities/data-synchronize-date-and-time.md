@@ -40,3 +40,6 @@ Bu çift dönüştürme, uygulamalar arasında tarihlerin değişmesine neden ol
 4. **Saat dilimi**'ni **Eşgüdümlü Evrensel Saat** olarak değiştirin ve **Dil**'i **En-US** olarak değiştirin.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

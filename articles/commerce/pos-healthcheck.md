@@ -82,3 +82,6 @@ Ayrıca, kullanıma hazır olarak desteklenmeyen cihazları test etmek veya POS 
 ## <a name="related-articles"></a>İlgili makaleler
 
 [Modern POS (MPOS) tetikleyicileri ve yazdırma](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

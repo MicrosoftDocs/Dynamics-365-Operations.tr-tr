@@ -43,3 +43,6 @@ Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri deftere 
 8. Tamam'a tıklayın.
 9. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

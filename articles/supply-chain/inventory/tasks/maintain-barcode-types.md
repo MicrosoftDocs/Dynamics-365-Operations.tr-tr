@@ -45,3 +45,6 @@ Bu yordam, malzeme çekme listesi raporunun bir parçası olarak da kullanılabi
 12. Kaydet'e tıklayın.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

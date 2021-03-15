@@ -42,3 +42,6 @@ Düşük değer havuzundaki bir kıymete ilişkin elden çıkarma hareketi, dü�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

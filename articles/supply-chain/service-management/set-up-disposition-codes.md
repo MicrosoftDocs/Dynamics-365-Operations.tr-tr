@@ -56,3 +56,6 @@ Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir nede
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

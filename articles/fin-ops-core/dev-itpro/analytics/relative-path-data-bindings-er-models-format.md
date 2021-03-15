@@ -57,3 +57,6 @@ Bu özellik, ER çerçevesinin geriye dönük uyumluluğunu koparmaz. Daha önce
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [ER formül dili](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayır
 
 > [!IMPORTANT] 
 > Görev ayrımı kurallarına uygunluk, kural oluşturduğunuzda doğrulanmaz. Mevcut roller için çakışma oluşturan bir kural oluşturabilirsiniz. Mevcut kullanıcı rolü atamaları yeni kuralla çakışıyor da olabilir. Bir kuralı oluşturduktan veya değiştirdikten sonra uyumluluğu doğrulamanız gerekir. Daha fazla bilgi için bkz. [Görev ayrımındaki çakışmaları tanımlama ve çözümleme](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

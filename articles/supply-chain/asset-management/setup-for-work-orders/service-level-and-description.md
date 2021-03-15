@@ -55,3 +55,6 @@ Bir iş emri oluşturduğunuzda, ilgili servis düzeylerini tanımlamak ve buna 
 2. **Yeni**'yi seçin.
 3. **Açıklama** alanına bir açıklama girin.
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

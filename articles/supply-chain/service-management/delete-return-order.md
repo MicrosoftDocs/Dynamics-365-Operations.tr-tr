@@ -43,3 +43,6 @@ Birden fazla sipariş iadesini silmek için **İade siparişini sil** formunu ku
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

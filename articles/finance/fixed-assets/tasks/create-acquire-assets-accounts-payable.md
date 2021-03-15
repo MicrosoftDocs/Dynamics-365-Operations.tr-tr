@@ -55,3 +55,6 @@ Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alım
 17. Listede, seçili satırdaki bağlantıya tıklayın.
 18. **Naklet**'e tıklayın. Sabit kıymet oluşturulur ve fatura deftere nakledildiğinde alınır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -259,3 +259,6 @@ Bu nedenle, Etkinleştirme Çakışma için seçildiğinde, ayarların geri kala
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

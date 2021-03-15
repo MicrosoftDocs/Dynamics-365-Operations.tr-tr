@@ -46,3 +46,6 @@ Gelecekteki ömür olaylarını Dynamics 365 Human Resources'da zamanlayabilirsi
    | Satır | Gelecek ömür olayı satır numarası. |
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

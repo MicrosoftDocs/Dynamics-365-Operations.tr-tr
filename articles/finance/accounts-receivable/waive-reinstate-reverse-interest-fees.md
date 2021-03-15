@@ -94,3 +94,6 @@ Ayarlamayı giren kullanıcı, ayarlama türü, tutar ve ayarlamanın ne zaman g
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

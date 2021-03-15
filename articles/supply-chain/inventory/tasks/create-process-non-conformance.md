@@ -66,3 +66,6 @@ Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmeyi bu k
 2. **Uyumsuzluğu kapat**'ı seçin.
 3. **Evet**'i seçin.
 4. Sayfaları kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

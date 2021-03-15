@@ -109,3 +109,6 @@ Burada ertelenmiş yerine koyma işleme ilkesi yapılandırılmış olsa bile uy
 ## <a name="deleting-completed-tasks"></a>Tamamlanan görevleri silme
 
 İşlemi tamamladıktan sonra ertelenmiş işleme işlemlerini seçerek ve sayfadan silerek silebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

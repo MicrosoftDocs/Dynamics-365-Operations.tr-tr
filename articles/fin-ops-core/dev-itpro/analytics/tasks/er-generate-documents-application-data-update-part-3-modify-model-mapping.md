@@ -168,3 +168,6 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 66. Sayfayı kapatın.
 67. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

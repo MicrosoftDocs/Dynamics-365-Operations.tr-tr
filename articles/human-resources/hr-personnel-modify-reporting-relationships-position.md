@@ -44,3 +44,6 @@ Bu yordam, bir personel için raporlama ilişkisinin nasıl değiştirileceğini
 12. Pozisyonlara raporlar alanına bir değer girin veya buradan bir değer seçin.  Örnek:  000437
 13. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

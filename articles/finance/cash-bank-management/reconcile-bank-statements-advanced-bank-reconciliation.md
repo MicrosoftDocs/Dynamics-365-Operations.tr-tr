@@ -95,3 +95,6 @@ Mutabakat çalışma sayfasında **Yeni** olarak işaretlediğiniz banka ekstres
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

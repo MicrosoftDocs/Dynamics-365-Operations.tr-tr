@@ -101,3 +101,6 @@ Bir URL yayımlamak için şu adımları izleyin.
 [Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
 [URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

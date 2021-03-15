@@ -44,3 +44,6 @@ Bu konu Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolüne atan
 2. **Etkin olarak ayarla**'ya tıklayın.
 
 ![Elektronik raporlama çalışma alanı sayfası](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

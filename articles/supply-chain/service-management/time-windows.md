@@ -44,3 +44,6 @@ Servis sözleşmesi satırı için zaman aralığı belirtmediyseniz servis söz
 
 [Zaman pencereleri oluşturma](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

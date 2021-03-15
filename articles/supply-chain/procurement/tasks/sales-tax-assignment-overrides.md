@@ -56,3 +56,6 @@ Bu yordam ticaret kanallarına satış vergisi gruplarının nasıl atanacağın
 21. Listede, seçili satırdaki bağlantıya tıklayın.
 22. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

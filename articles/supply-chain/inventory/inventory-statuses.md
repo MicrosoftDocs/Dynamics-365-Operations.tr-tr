@@ -64,3 +64,6 @@ Stok durumlarını, **Konuma göre eldeki** sayfasını kullanarak veya *Stok du
 > - **Konuma göre eldeki** sayfasında, **Boyutları görüntüle** düğmesini kullanarak satırları gösterilen boyutlara göre gruplandırabilir ve seçili satırların durumunu değiştirebilirsiniz.
 > - **Konuma göre eldeki** sayfasında, birden fazla kayıt seçebilir ve Tümünü bir seferde değiştirmek için **Stok durumu değişikliği** düğmesini kullanabilirsiniz.
 > - **Stok durumu değişiklik** periyodik görevinde izleme boyutlarına göre filtre uygulayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Neden kodunun gerekli olduğunu belirttiyseniz, aşağıdaki durumlarda bir nede
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

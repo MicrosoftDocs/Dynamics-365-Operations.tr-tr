@@ -84,3 +84,6 @@ Finance and Operations (Dynamics 365) mobil uygulamasında kıymet yönetimi öz
 **Kıymet yönetimi** mobil çalışma alanıyla nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Kıymet yönetimi mobil çalışma alanını kullanma](asset-management-mobile-workspace.md).
 
 Finance and Operations (Dynamics 365) mobil uygulaması hakkında daha fazla bilgi için bkz. [Mobil uygulama giriş sayfası](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

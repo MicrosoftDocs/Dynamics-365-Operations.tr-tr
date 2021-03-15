@@ -49,3 +49,6 @@ Aynı kişi için birden çok satıcı hesapları satıcı portal erişimi gerek
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

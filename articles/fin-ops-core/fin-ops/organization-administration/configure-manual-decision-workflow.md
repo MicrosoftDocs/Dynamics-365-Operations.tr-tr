@@ -350,3 +350,6 @@ Kararın belirli bir süre içerisinde alınması gerekiyorsa bu adımları izle
     - **Yıllar** – Kararın alınmış olması gereken günü, haftayı ve ayı seçin. Örneğin kararın Aralık ayının üçüncü haftasının Cuma gününden önce alınmış olmasını isteyebilirsiniz.
 
 4. Zaman limiti aşılırsa sistem kararı kendi alır. **Eylem** listesinden sistemin tercih etmesi gereken seçeneği seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Bir URL'Yi farklı bir URL'ye yeniden yönlendirmek için, aşağıdaki adımlar
 [Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
 
 [Sitenize dil ekleme](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

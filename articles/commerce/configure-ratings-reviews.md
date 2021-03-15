@@ -94,3 +94,6 @@ Aşağıdaki çizim, bu yapılandırmasının Dynamics 365 Commerce'te nasıl g�
 [Ürün ayrıntıları sayfalarındaki derecelendirme ve İnceleme modüllerini konfigüre edin](ratings-reviews-modules.md)
 
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

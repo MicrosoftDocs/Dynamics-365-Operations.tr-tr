@@ -176,3 +176,6 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 \* Şirket içi ortamlarda, PerfTimer yalnızca istemci için sonuçları gösterir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Alan kullanımını **Ambar yük kullanımı** raporu oluşturarak planlayabilir
 
 4. **Yükleme türü** alanında alanın planlanacağı ambar işletme birimini belirtmek **Hacim** veya **Ağırlık** seçeneğini belirtin.
 5. **Alan kullanımı kurulumu** alanında, yansıtmanın temel alacağı alan kullanımı kurulumunu seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

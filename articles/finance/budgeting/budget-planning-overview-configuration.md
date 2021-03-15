@@ -204,3 +204,6 @@ Ayrıca, mevcut bir süreci kopyalayarak yeni bir süreç oluşturmak için **Ey
 **Eylemler** menüsündeki bir diğer kullanışlı komut da **Bütçe sürecinin durumunu göster** komutudur. Bu komut, planların iş akışı durumu, tutara ve birime göre özetler ve bütçe planlarına tek tıklamayla ulaşma gibi ilgili verilerle birlikte, bir süreç içindeki bütçe planlarını grafiksel olarak gösterir.
 
 [![Bütçe planlama süreci durumu](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

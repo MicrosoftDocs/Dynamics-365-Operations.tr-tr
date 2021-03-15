@@ -65,3 +65,6 @@ Kıymet üzerinde bir koşul değerlendirme kaydı yaptıktan sonra bir koşul d
 
 >[!NOTE]
 >Ayrıca bir iş emrine de koşul değerlendirmesi kaydedebilirsiniz (**Kıymet yönetimi** > **Ortak** > **İş emirleri** > **Tüm İş emirleri** > **Koşul değerlendirmesi** düğmesi).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

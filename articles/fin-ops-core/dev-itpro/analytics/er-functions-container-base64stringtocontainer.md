@@ -80,3 +80,6 @@ Bu örnekte, **\#MediaAsBase64String** veri kaynağı, geçerli ortam ekinin iki
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Konteyner işlevleri](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

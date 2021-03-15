@@ -257,3 +257,6 @@ Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma 
 
 - Video: [Ambar yönetimi yapılandırmasının ayrıntıları](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Yardım konusu: [İş şablonları ve konum yönergeleri ile ambar işini denetleme](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

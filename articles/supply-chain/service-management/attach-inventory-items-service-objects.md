@@ -50,3 +50,6 @@ Madde servis kapsamındaki parçaya iliştirilmiş olur ve madde için belirtile
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

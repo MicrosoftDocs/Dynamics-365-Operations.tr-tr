@@ -157,3 +157,6 @@ Bu sorun stok hareketi miktarı, alanın desteklediği duyarlık düzeyinin alt�
 
 > [!IMPORTANT]
 > Kodu ortam için gereken şekilde dikkatle düzenlemenizi, test ortamında test etmenizi ve kodu üretim ortamında çalıştırmadan önce sonuçta elde edilen verileri denetlemenizi önemle tavsiye ederiz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

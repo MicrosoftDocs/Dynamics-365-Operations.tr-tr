@@ -55,3 +55,6 @@ Bu prosedürde mevcut bir kanban kuralının belirli bir tarihte yeni bir kanban
 1. Maksimum miktarı '100' olarak ayarlayın.
     * Maksimum miktar alanını görüntülemek için Miktarlar Hızlı Sekmesini genişletin. Maksimum miktarın 100 olarak değiştirilmesi 100 kanban'a kadar işlenmesine izin verir.    Bu, bu görevdeki son adımdır.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -579,3 +579,6 @@ Aşağıdaki tabloda yapılandırılabilir iş belgelerini destekleyen ve Aralı
 |                             | Satış siparişi sevk irsaliyesi (LT) (Excel)           |
 |                             | Satış siparişi sevk irsaliyesi (PL) (Excel)           |
 |                             | Satış siparişi sevk irsaliyesi (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

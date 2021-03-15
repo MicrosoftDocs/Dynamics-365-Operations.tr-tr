@@ -117,3 +117,6 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 | Kilit toplam ölçüm       | Alan               | Açıklama |
 |---------------------------------|---------------------|-------------|
 | Tamamlanan faaliyetin planlanan maliyeti | Sum(TotalCostPrice) | Tamamlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

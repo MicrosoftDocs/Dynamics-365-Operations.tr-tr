@@ -121,3 +121,6 @@ Bir müşteri için hareketleri sildiğiniz zaman, o müşteriye ilişkin tüm h
 [Satış siparişleri için askıda krediler](./cm-sales-order-credit-holds.md)
 
 [Müşteri kredi yönetimi periyodik görevleri](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

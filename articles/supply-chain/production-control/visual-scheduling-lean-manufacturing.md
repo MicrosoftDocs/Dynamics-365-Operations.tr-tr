@@ -94,3 +94,6 @@ Kanban planlama panosunu aşağıdaki sayfalarda yer alan menü öğesini kullan
 
 [Yalın imalat için kanban iş planlama](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

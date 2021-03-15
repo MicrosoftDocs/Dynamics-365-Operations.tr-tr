@@ -68,3 +68,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ö
 8. Tamam'a tıklayın.
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

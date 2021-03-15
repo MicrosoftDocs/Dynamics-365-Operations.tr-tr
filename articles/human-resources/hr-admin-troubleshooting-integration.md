@@ -181,3 +181,6 @@ Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> V
 - Veri Yönetimi:
 
   - [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

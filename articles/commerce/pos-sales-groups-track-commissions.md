@@ -87,3 +87,6 @@ POS, kullanıcılara POS işlemlerine erişim sağlamak amacıyla ekran düzenle
 ## <a name="calculating-commissions"></a>Komisyonları hesaplama
 
 Komisyon, belirtilen satış gruplarındaki çalışanlar için ekstrelerin deftere nakledilmesi veya satış siparişinin deftere nakledilmesi sırasında hesaplanır. Komisyon tutarı, satış grubunda ve hareketteki müşteri ve/veya ürünlere yönelik ilişkili komisyon hesaplama ayarlarında belirlenen şekilde çalışanın komsiyon payı temel alınarak belirlenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

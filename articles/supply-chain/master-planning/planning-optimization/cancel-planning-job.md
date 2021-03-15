@@ -59,3 +59,6 @@ Planlamayı En İyi Duruma Getirme hizmeti işin iptal edilmesini onaylayana kad
 [Plan geçmişini ve planlama günlüklerini görüntüleme](plan-history-logs.md)
 
 [Plana filtre uygulama](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

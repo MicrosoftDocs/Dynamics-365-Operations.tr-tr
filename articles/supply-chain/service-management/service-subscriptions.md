@@ -37,3 +37,6 @@ Dönem kodu, abonelik ücreti döneminin kapsamını veya aboneliğin faturaland
 Dönem kodu servis abonelik grubunda tanımlanır. Servis abonelik grubu aracılığıyla abonelikler için tanımlanır. Oluşturduğunuz herhangi bir yeni abonelik ücreti önerilen bir başlangıç tarihine sahiptir. Bu, oluşturulan ilk dönemse, dönemin başlangıç tarihi veya ikinci ya da sonraki bir dönemse, önceki dönemin bitiş tarihidir.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

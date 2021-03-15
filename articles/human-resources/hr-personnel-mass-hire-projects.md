@@ -82,3 +82,6 @@ Bir toplu işe alma projesi aşağıdaki durumlara sahip olabilir.
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

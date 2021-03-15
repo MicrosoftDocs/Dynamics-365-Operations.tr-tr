@@ -47,3 +47,6 @@ Bu konuda bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakle
 12. Giriş sayfasında **Mağaza mali öğeleri**'ni seçin.
 13. **Deftere nakledilen ekstreler** sekmesini seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

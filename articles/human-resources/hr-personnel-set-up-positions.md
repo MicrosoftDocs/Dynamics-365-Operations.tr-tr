@@ -67,3 +67,6 @@ Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesid
 30. Departman alanına bir değer girin veya buradan bir değer seçin.
 31. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

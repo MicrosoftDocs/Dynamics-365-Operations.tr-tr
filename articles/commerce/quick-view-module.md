@@ -77,3 +77,6 @@ Commerce site oluşturucuda bir ürün koleksiyonu modülüne hızlı görüntü
 [Ürün topluluğu modülü](product-collection-module-overview.md)
 
 [Arama sonuçları modülü](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Ticari olarak konum tabanlı mağaza algılamasını etkinleştirmek için aşa�
 [Commerce ortamında birden fazla B2C kiracısı yapılandırma](configure-multi-B2C-tenants.md)
 
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

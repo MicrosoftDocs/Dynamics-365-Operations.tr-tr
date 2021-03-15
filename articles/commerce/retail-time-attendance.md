@@ -138,3 +138,6 @@ Bir Commerce kullanıcısı, zaman kayıtlarını hesaplamak, onaylamak ve ücre
 - Devamsızlığı Kaydet
 
 Zaman ve katılım kayıtlarını ayarlamak hakkında daha fazla bilgi için bkz. [Zaman ve katılım kayıtlarını işleme](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

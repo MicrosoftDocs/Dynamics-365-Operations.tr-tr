@@ -54,3 +54,6 @@ Bu yordam, toplu iş özniteliği oluşturmak, varsayılan değer aralıkları a
 22. Kaydet'e tıklayın.
 23. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

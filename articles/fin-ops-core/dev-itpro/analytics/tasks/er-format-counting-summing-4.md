@@ -103,3 +103,6 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 21. Aç'a tıklayın.
     * Seçili yapılandırmanın yürütmesi sırasında toplanan sayım ve toplama ayrıntılarını içeren, yeni oluşturulan XML dosyasını gözden geçirin.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

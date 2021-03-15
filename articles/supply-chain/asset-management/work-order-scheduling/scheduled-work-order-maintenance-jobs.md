@@ -51,3 +51,6 @@ Aşağıdaki ekran görüntüsünde **Planlanan iş emri bakım işleri** sayfas
 
 ![Şekil 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Bu yordam, iade emri alma işlemi için mobil aygıtta kullanılabilecek bir de�
 6. İade değerlendirme kodu alanına bir değer girin.
     * İade değerlendirme kodu, kayıt edilen maddeler için iade siparişi işleminin kalanını belirlemekte kullanılır. Bu örnekte, müşteri bir alacak dekontu almalıdır. Eylem kredisi içeren bir iade değerlendirme kodu ekleyin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

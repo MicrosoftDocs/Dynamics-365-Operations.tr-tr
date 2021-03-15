@@ -60,3 +60,6 @@ En az bir önerilen değişiklik yaptıktan sonra eylem bölmesinde iki ek sekme
     Sayfadaki durum **Değişiklikler onay bekliyor** olarak değişir.
 
 İş akışı, standart iş akışı sürecini takip eder. Onaylayan, **Önerilen değişiklikler** sayfasındaki değişiklikleri inceleyebileceği ve **İş akışı \> Onayla**'yı seçerek iş akışını onaylayabileceği **Satıcı** sayfasına yönlendirilir. Tüm onaylar tamamlandığında, alanlar önerdiğiniz değerlerle güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

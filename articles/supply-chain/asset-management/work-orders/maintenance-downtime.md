@@ -88,3 +88,6 @@ Varlık üzerinde bir kaynak seçilmemişse, **Varlık yönetimi parametreleri**
 >[!NOTE]
 >**Varlık Yönetimi** modülü içinde kullanılan tüm takvimler, **Kuruluş yönetimi** > **Kurulum** > **Takvimler** > **Takvimler** içinde ayarlanır.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

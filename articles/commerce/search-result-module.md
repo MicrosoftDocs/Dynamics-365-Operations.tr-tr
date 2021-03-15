@@ -90,3 +90,6 @@ Kategori sayfasına arama sonuçları modülü eklemek için bu adımları izley
 [Modül kitaplığına genel bakış](starter-kit-overview.md)
 
 [Hızlı görünüm modülü](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Koşullu sorular, yanıtlayan kişinin önceki soruya verdiği cevaba göre hang
 10. Ağaçta 'Questions\I am paid fairly for the work I do.'.
     * Soru ağacının bağımlılığı göstermek için güncelleştirildiğinin farkına varın.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

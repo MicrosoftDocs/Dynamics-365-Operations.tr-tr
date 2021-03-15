@@ -53,3 +53,6 @@ Standart bir maliyet dönüştürmesi yapmadan önce, şu adımları izleyin:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

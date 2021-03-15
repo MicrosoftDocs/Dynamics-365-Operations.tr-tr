@@ -45,3 +45,6 @@ Prosedürde Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri k
     * Ekleme kıymetin servis ömrünü artırıyorsa, **Servis ömrünü artırır**'ı **Evet** olarak ayarlayın.  
     * Bu alan yalnızca bilgi amaçlıdır. Servis ömrünü uzatmak için, kıymetin Değer modellerindeki ve/veya Amortisman defterlerindeki Servis ömrünü değiştirin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

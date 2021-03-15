@@ -47,3 +47,6 @@ Toplu iş ve plaka onayı yapılandırmasını mobil cihaz menü öğelerinden y
 
 1. İşler mobil cihaz menü öğesinden, iş onay kurulumunu açın.  
 1. Toplu iş veya plaka onayı için seçeneği işaretleyin. Her iki seçenek de otomatik onayın etkinleştirilmiş olmadığı iş türü çekmeleri için kullanılabilir.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

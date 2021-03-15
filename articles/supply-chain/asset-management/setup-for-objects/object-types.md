@@ -96,3 +96,6 @@ Genellikle, el ile oluşturulan iş emirleri düzeltici bakım ile ilgiliyken ot
 
 Seçili satırdaki yedek parçanın Varlık Yönetiminde herhangi bir yerde kullanılıp kullanılmadığını görmek için (örneğin varlıklar ve iş emirleriyle ilgili olarak) **Maddenin kullanıldığı yer**'i seçerek **Maddenin kullanıldığı yer** sayfasını açın. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

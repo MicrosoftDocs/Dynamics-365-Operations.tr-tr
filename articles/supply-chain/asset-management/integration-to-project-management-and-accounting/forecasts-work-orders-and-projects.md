@@ -100,3 +100,6 @@ Aşağıdaki örnekte **Varlık yönetimi** modülünde **Proje yönetimi ve muh
 
 ![Şekil 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

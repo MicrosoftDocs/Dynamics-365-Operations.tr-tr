@@ -52,3 +52,6 @@ Varsa, her bir avantaj için bir çalışanın maaşından düşmelerini belirle
 4. Hazırlık oranı kurulumunda yapılan değişiklikleri izlemek ve sürdürmek için **eylemler**'i seçin ve **sürümleri koru**'yu seçin.
 
 5. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

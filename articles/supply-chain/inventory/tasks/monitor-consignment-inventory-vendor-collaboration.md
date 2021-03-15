@@ -42,3 +42,6 @@ Bu yordam müşteriye konsinye olarak bıraktığınız ürünün stok düzeyi h
 1. Satıcı iş birliği > Konsinye stok > Eldeki konsinye stok'a gidin.
     * Eldeki konsinye stok sayfası müşterinin ambarında sahip olduğunu stoğu gösterir. Boyutları görüntüle sekmesine tıklayarak, tesis ve ambar gibi ek boyutları da görüntüleyebilirsiniz.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Sitenizdeki bir CSS geçersiz kılma dosyasını devre dışı bırakmak için a
 [Sitenize dil ekleme](add-languages-to-site.md)
 
 [Telemetriyi desteklemek için site sayfalarına komut dosyası kodu ekleme](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

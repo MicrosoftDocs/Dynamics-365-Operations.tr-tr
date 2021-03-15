@@ -36,3 +36,6 @@ Satış vergisini kapat ve deftere naklet işi yordamı, satış vergisi hesapla
 5. **Hareket tarihi** alanına bir tarih girin.
 6. **Tamam**'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

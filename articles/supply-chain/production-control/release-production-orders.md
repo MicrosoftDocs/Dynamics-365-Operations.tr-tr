@@ -63,3 +63,6 @@ Hammadde çekme işi, serbest bırakma sırasında üretilir. İş yalnızca sip
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

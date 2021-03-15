@@ -181,3 +181,6 @@ Mali raporlamanın desteklediği konsolidasyon senaryolarından bazıları:
 
 ## <a name="generating-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 Konsolide mali tabloları oluşturabileceğiniz senaryolar hakkında bilgi için bkz. [Konsolide mali tabloları oluşturma](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

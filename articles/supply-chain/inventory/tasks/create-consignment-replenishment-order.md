@@ -61,3 +61,6 @@ Bu konu bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğin
 3. **Genel bakış**'ı seçin. Satıcının sahip olduğu konsinye, stok olarak alınan maddelerin elde kullanılabilirdir. Konsinye stok yenileme siparişinde kalan miktar **Toplam sipariş edilen** alanında gösterilir.  
 4. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Aşağıdaki resim, çeşitli kanalların ekli olduğu bir hiyerarşiyi gösteri
 [Perakende kanalını ayarlama](channel-setup-retail.md)
     
 [Çevrimiçi kanal ayarlama](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

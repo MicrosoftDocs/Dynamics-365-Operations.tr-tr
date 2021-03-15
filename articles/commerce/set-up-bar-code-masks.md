@@ -82,3 +82,6 @@ Barkodların kullanılabilmesi için önce barkod maskelerinin barkodlara atanma
 5. **Kaydet**'e tıklayın.
 
 Barkod maskesi şimdi ürünlere ilişkin barkodlar oluşturmak için kullanılabilir. Yukarıdaki adımlar, ürünler için barkod maskeleri oluşturma örneğidir, ancak, desteklenen diğer barkod türleri için barkod maskeleri oluşturma işlemini de gösterir. Barkod maskeleri, türleri ve uzunlukları özel ortamınızda kullanmak için ayarlanmalıdır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ GTIN kodları GS1 kurumu tarafından atanır. Bu örnekte, USMF demo veri şirke
 11. GTIN alanında bir değer girin.
 12. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

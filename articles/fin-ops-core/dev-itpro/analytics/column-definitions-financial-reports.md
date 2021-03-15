@@ -598,3 +598,6 @@ Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğ
 [Finansal rapor tasarımcısında satır tanımları](row-definitions-financial-reporting.md)
 
 [Finansal raporlamada gelişmiş biçimlendirme seçenekleri](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

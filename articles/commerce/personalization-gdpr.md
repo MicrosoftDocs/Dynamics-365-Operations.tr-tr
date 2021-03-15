@@ -103,3 +103,6 @@ Aşağıdaki örnek, bir perakendecin bu görevi nasıl yerine getirebileceği g
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

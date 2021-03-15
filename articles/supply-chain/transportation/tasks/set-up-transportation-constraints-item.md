@@ -43,3 +43,6 @@ Bu yordam, seçili bir öğenin, seçili bir hub üzerinden taşınmasını önl
 10. Kaydet'e tıklayın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

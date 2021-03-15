@@ -115,3 +115,6 @@ Sürekli numara sıraları kullanmak bir yasal gereklilik değilse, daha iyi per
 Güç kesintisi, bir uygulama hatası veya diğer beklenmeyen bir hata olması durumunda, sistem sürekli numara serileri için numaraların geri dönüşünü gerçekleştiremez. Kayıp numaraları kurtarmak için temizleme işlemini otomatik olarak veya el ile çalıştırabilirsiniz.
 
 Temizleme işlemi planlarken sunucu kullanımını dikkate alın. Temizleme işlemini yoğun olmayan saatlerde toplu iş olarak gerçekleştirmenizi öneririz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

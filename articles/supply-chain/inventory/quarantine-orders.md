@@ -66,3 +66,6 @@ Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsini
 --------
 
 [Stok durdurma](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

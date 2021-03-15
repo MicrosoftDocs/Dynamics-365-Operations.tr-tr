@@ -86,3 +86,6 @@ Aşağıdaki resimde bu tür bildirimlerin örnekleri gösterilmektedir.
 *Liste*, içinden kaydırabileceğiniz bir kayıt koleksiyonuna verilen addır. Bu kayıtları, seçerek sayfaya getirebilirsiniz. Bu durum genellikle bir kılavuz açar.
 
 ![Aşağıdaki resim araç çubukları, kılavuzlar ve listelere örnekler gösterir.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

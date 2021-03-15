@@ -676,3 +676,6 @@ Personel pasaport bilgilerini bildirebilir. Bu bilgiler, **Pasaport** kimlik tü
 
 Personel, **Pasaport** kimlik türü için birden fazla kimlik numarası bildirebilir. Ancak yalnızca geçerli etkin pasaport girişi Dayforce'a tümleştirilir. Tüm pasaport girişlerinin süresi dolmuşsa en son verilen pasaport Dayforce'a tümleştirilir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

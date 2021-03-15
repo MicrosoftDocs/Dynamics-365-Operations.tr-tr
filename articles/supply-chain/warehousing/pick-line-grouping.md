@@ -170,3 +170,6 @@ Az önce oluşturduğunuz menü öğesini **Giden** menüsüne eklemek için aş
 >   - Bitmemiş stok yenileme işi olan iş satırları
 >   - Fazla malzeme çekme
 >   - Yeniden tahsisatla eksik malzeme çekme
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

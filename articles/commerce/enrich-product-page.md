@@ -74,3 +74,6 @@ Birçok durumda, ürünleriniz için özel ek içerik kullanmak isteyeceksiniz. 
 [Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
 [URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

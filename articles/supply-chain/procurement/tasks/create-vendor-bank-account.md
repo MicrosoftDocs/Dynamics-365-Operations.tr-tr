@@ -57,3 +57,6 @@ Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gö
 25. **Banka hesabı** alanında, yeni oluşturduğunuz hesabı seçin.
 26. **Kaydet**'e tıklayın. Belirtilmişse adres banka grubundan devralınabilir veya buradan ekleyebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

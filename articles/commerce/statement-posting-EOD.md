@@ -173,3 +173,6 @@ Kullanıcının görebileceği diğer arka uç geliştirmeleri ekstre deftere na
 
     - **Retail ve Commerce** \> **Genel merkez ayarı** \> **Parametreler** \> **Commerce parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde, **Stok güncelleştirme** hızlı sekmesindeki **Ayrıntı düzeyi** alanında **Özet**'i seçin.
     - **Retail ve Commerce** \> **Genel merkez ayarı** \> **Parametreler** \> **Commerce parametreleri**'ne gidin. Ardından **Deftere nakil** sekmesinde **Toplam** hızlı sekmesinde **Fiş hareketleri** seçeneğini **Evet** olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

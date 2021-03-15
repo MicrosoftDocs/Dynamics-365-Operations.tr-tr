@@ -88,3 +88,6 @@ Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlene
 - ChartofAccounts
 
 Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Hesaplanmış ölçümler, anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanıla raporları hesaplamakta kullanılır. İçerik, varsayılan olarak son üç yılın ve gelecekteki bir yılın verilerini getirir. Raporlara ve panoya ek hesaplamalar dahil etmek için [Microsoft Excel çalışma kitabını değiştirebilirsiniz](https://docs.microsoft.com/dynamics/s-e/). Bu çalışma kitabı, içeriği oluşturmak için kullanılan varsayılan veri modelidir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Başlamadan önce, DEMF şirketi için ülke bağlamını DEU'dan (Almanya) BEL'
 10. Sayfayı kapatın.
 11. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

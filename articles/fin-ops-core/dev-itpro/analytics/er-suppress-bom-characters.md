@@ -66,3 +66,6 @@ Kodlama olarak **UTF-8**, **UTF-16** veya **UTF-32** kodlamalarını belirtirsen
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [ER biçimindeki XML öğelerinin yürütülmesini erteleme](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

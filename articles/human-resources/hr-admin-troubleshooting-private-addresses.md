@@ -39,3 +39,6 @@ Bu sorunu gidermek için müşterinin çoğaltılan güvenlik rolü için bu ad�
 3. **Kaydet**'i seçin.
 
 ![Genel adres defteri parametreleri sayfası](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

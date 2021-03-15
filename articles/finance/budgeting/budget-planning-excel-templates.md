@@ -129,3 +129,6 @@ Bütçe verisinin ek gruplama ve görselleştirmeleri için özet tabloları ve 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

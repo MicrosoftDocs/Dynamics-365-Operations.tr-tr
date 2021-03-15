@@ -172,3 +172,6 @@ Commerce tarafından sağlanan Azure Front Door örneği zirve etki alanlarını
   [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
   [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

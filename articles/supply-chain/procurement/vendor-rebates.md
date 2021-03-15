@@ -166,3 +166,6 @@ Satıcı indirimlerini ele alma işlemi genellikle çok sayıda el ile izleme g�
 - Doğru indirim talepleri oluşturma
 - Genel muhasebede beklenen alacak ve ara kazancı tahakkuk etmek
 - Satıcı bakiyesini ve gelir tablosunu, doğru hakediş ile güncelleştirmek
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

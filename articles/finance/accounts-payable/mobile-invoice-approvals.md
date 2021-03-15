@@ -534,3 +534,6 @@ Senaryo 1 için senaryo 2 gereksinimleri temel alınarak aşağıdaki çeşitlem
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

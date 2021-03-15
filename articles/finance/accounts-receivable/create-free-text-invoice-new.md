@@ -84,3 +84,6 @@ Satırları kopyaladıktan sonra bilgilerde ihtiyacınız olan düzenlemeleri ya
 Şablondan serbest metin faturası oluşturabilirsiniz. **Fatura** sekmesinde **Şablondan yeni** öğesini seçtiğinizde yeni serbest metin faturası için bir şablon adı ve müşterinin hesabını seçebilirsiniz. Müşterinin ödeme yöntemi ve ödeme koşulları gibi varsayılan değerler, müşteriden otomatik olarak doldurulabilir veya şablonda kaydedilmiş değerleri kullanabilirsiniz.
 
 Yeni bir serbest metin faturası oluşturulur ve ihtiyacınız olan değerleri düzenleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

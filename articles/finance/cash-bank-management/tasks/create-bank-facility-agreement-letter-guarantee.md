@@ -56,3 +56,6 @@ Bu görev teminat mektubu işlemek için bir banka tesis sözleşmesi oluşturur
 5. Kaydet'e tıklayın.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

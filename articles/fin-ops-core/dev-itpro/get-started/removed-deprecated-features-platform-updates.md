@@ -240,3 +240,6 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 Önceki sürümlerde kaldırılmış veya kaldırılmış özellikler hakkında daha fazla bilgi edinmek için, [önceki sürümlerdeki kaldırılmış veya kaldırılmış özelliklere](../migration-upgrade/deprecated-features.md) bakın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

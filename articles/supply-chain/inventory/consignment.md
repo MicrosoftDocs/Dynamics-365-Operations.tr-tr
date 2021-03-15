@@ -102,3 +102,6 @@ Satıcılar, satıcı iş birliği arabirimini kullanıyorsa bunu, tesisinizdeki
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

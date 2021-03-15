@@ -101,3 +101,6 @@ Bu yordam, yapılandırılmış ürün çeşitleri için bir ürün numara termi
 43. Sayfayı kapatın.
 44. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

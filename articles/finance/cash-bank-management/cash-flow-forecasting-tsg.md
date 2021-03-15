@@ -52,3 +52,6 @@ Varlık deposundaki "Nakit akışı ölçümü V2" ve "LedgerCovLiquidityMeasure
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Varlık deposu varlıkları yenilendi mi?
 
 Verilerin güncel ve doğru olduğundan emin olmak için varlıklarınızı düzenli aralıklarla yenilemeniz gerekir. Belirli bir varlığı el ile yenilemek için **Sistem yönetimi \> Kurulum \> Varlık deposu**'na gidin, varlığı seçin ve sonra **Yenile**'yi seçin. Veriler otomatik olarak da güncelleştirilebilir. **Varlık deposu** sayfasında, **Otomatik yenileme etkin** seçeneğini **Evet** olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

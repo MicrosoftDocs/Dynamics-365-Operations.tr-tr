@@ -97,3 +97,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 1.  **Övgü gönder**'i seçin. 
 1. Göndermek istediğiniz övgü metnini girin. 
 1. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

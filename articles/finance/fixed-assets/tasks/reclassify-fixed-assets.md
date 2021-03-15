@@ -45,3 +45,6 @@ Bir sabit kıymeti yeniden sınıflandırmak için şu adımları Izleyin:
 5. **Yeniden sınıflandırma tarihi** alanına bir tarih girin.
 6. **Fiş serisi** alanına bir değer girin veya bir değer seçin.
 7. **Tamam**'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

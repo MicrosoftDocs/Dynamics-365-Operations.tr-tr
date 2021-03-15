@@ -79,3 +79,6 @@ Bu işlev, satış sevk irsaliyelerini ve satış faturalarını takip edebilen 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Başarı ölçümlerinizi ayarlamak için aşağıdaki adımları takip edin.
 
 ## <a name="next-step"></a>Sonraki adım
 [Deneme bağlama ve düzenleme](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

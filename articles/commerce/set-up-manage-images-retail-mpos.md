@@ -208,3 +208,6 @@ MPOS (Commerce Scale Unit veya ağ bağlantısı yok ve hareketler bir yerel çe
 5. Kategori, çalışan ve müşteri gibi diğer varlıklar için benzer bir işlem izleyin.
 
     [![Çevrimdışı resim](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Bu kılavuz bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağ
 Satış siparişleri ve kanban siparişleri için, sipariş için ambarda serbest bırakılmadan önce stok ayrılmalıdır. Aksi halde, maddeler veya tahsisat satırları dalga içerisinde işlenemez. Üretim emirleri için Kısmi rezervasyona izin ver'i seçme seçeneğiniz de vardır. Örneğin, üretimi başlatmak için gereken malzemeler varsa ve daha sonra işlemin bitirilmesi için ek malzemelerin kullanılabilir olmasını bekleyebiliyorsanız. Bu seçeneği belirlerseniz, ek malzemeler kullanılabilir duruma geldiğinde, ambara serbest bırak işlemini el ile tekrar etmeniz gerekir.  
 25. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

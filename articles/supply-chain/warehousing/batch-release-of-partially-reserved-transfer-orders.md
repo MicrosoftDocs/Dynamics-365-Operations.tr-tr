@@ -63,3 +63,6 @@ Bir toplu iş, siparişleri bir ambara toplu olarak serbest bırakmakta kullanı
 -   Transfer siparişleri için **Miktar** ve **Kısmi serbest bırakılmış siparişlerin serbest bırakılmasına izin ver** parametrelerini ayarlamak için **Ambar yönetimi** \> **Ambara serbest bırak** \> **Transfer siparişlerinin otomatik serbest bırakması** üzerine tıklayın.
 
 -   Satış siparişleri için **Miktar** ve **Kısmi serbest bırakılmış siparişlerin serbest bırakılmasına izin ver** parametrelerini ayarlamak için **Ambar yönetimi** \> **Ambara serbest bırak** \> **Satış siparişlerinin otomatik serbest bırakması** üzerine tıklayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

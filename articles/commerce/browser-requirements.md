@@ -47,3 +47,6 @@ Dynamics 365 Commerce siteleri en iyi şekilde aşağıdaki web tarayıcıları 
 [robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

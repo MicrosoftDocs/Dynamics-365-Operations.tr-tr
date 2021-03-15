@@ -57,3 +57,6 @@ Varlık maliyetleri her zaman varlığın yerleşimini izler. Başka bir deyişl
 Aşağıdaki şekil, müşterileri temel alan işlem yapılacak yerleşimler örneğini gösterir.
 
 ![Müşterilere dayalı işlem yapılacak yerleşimleri gösteren diyagram](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

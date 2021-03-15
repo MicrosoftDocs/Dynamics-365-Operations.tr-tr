@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources kullanıcılar aynı anda, aynı kullanı
 Bir tarayıcı türü için yalnızca bir ortamın açık olduğundan emin olun. Kullanıcılar, aynı ortama birden fazla oturumu açabilirler (aynı tarayıcı içinde birden fazla sekmede).
 
 İki ortam arasında aynı zamanda geçiş yapmak isteyen kullanıcılar, her bir ortamı farklı bir tarayıcı türünde açmalıdırlar. (Örneğin, kullanıcı A ortam 1'i Chrome'da ve ortam 2'yi Microsoft Edge'de görüntüleyebilir.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

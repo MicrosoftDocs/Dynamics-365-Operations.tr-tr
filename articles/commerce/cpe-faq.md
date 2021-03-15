@@ -70,3 +70,6 @@ Zaman sınırı genişletme norm için bir istisnadır ve duruma göre değerlen
 [Dynamics 365 Commerce değerlendirme ortamında BOPIS yapılandırma](cpe-bopis.md)
 
 [Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

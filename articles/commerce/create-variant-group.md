@@ -72,3 +72,6 @@ Aşağıdaki resimde, "tişört boyutları" için bir boyut grubu örneği göst
 [Perakende ürünlerini ayarlama](set-up-retail-products.md)
 
 [Ürün boyutları](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

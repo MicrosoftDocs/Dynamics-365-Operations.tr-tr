@@ -47,3 +47,6 @@ Bu yordam satış noktası (POS) kayıtları için mali boyutlar oluşturma konu
 17. Listede, güncelleştirilecek kayda ilişkin boyut değerini bulun ve seçin.
 18. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

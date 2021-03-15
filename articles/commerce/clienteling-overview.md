@@ -132,3 +132,6 @@ Alanları güncelleştirdikten sonra, gizli diziye Commerce uygulaması tarafın
 8. Commerce'de, **Commerce parametreleri** sayfasında, **Müşteri Tabanı** sekmesinde, **Dynamics 365 Customer Insights** hızlı sekmesinde, **Uygulama Kimliği**'ni "CI_Access_AppID" olarak ayarlayın (yukarıdaki adım 1'de). **Gizli dizi adı** için yukarıdaki 7. adımda girilen gizli dizi adını ("CISecret") seçin. **Customer Insights'ı etkinleştir** seçeneğini **Evet** olarak ayarlayın. Kurulum herhangi bir nedenle başarısız olursa bir hata iletisi görüntülenir ve bu seçenek **Hayır** olarak ayarlanır. 
 
 Customer Insights'ta test ve üretim ortamları gibi birden çok ortama sahip olabilirsiniz. **Ortam kurulumu kodu** alanına, uygun ortamı girin. **Alternatif müşteri kodu** alanına, Customer Insights'ta müşteri hesap numarasıyla eşleşen özelliği girin. (Commerce'de, müşteri hesap numarası müşteri kimliğidir.) Kalan üç özellik, müşteri defterindeki müşteri kartında gösterilecek ölçülerdir. Müşteri kartında gösterilmek üzere en fazla üç ölçüm seçebilirsiniz. Ancak, herhangi bir ölçü seçmeniz gerekmez. Daha önce de belirtildiği gibi, sistem önce bu değerleri gösterir ve sonra müşteri defteri öznitelik grubunun değerlerini gösterir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

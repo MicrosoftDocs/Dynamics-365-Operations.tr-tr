@@ -44,3 +44,6 @@ Bu rapor aşağıdaki özetlerin anlık görüntüsünü mağaza performansını
 - Vergi özeti
 - Fiyat geçersiz kılma özeti
 - İskonto özeti
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

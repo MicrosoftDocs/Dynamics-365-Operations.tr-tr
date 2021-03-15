@@ -65,3 +65,6 @@ Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

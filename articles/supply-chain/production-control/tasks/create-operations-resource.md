@@ -80,3 +80,6 @@ Operasyon kaynağı, bir projenin veya bir üretim işleminin etkinliklerini ger
 4. Giriş konumu alanında bir değer girin veya seçin.
     * Operasyon kaynağının malzemeleri alacağı ambar konumu belirtin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

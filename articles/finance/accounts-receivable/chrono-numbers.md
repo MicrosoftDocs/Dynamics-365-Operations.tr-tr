@@ -105,3 +105,6 @@ Bir belgeyi deftere naklettiğinizde, belgenin deftere nakil tarihi temel alına
 
 > [!NOTE]
 > Bazı ülke/bölgelerde belge numaralandırması için önceden uygulanmış belirli bir mantık vardır. Bu durumda, ülkeye özel mantık, **Kronolojik numaralandırma** özelliğini geçersiz kılar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

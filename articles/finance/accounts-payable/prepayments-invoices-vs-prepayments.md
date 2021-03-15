@@ -65,3 +65,6 @@ Birçok ülke/bölgedeki muhasebe uygulamaları, bir müşteriden veya satıcıd
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

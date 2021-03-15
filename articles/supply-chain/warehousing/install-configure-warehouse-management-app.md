@@ -289,3 +289,6 @@ Cihazın kaybolması veya güvenliğinin aşılması durumunda, cihazın Supply 
 1. Uygulamanın istemci kimliğinin 2. adımda not ettiğiniz istemci kimliğiyle eşleştiğinden emin olun.
 1. Araç çubuğunda **Sil**'i seçin.
 1. Görüntülenen onay iletisinde **Evet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

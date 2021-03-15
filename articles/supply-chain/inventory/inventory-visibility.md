@@ -527,3 +527,6 @@ Bu örnekte, Power Apps'te boyut yapılandırması için eşlemelerin ayarlandı
 ```
 
 Miktar alanlarının ölçümler sözlüğü ve ilişkili değerleri şeklinde yapılandırıldığını unutmayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

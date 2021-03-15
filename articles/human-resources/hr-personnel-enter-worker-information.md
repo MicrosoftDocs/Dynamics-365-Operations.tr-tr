@@ -45,3 +45,6 @@ Bir işe alma sorumlusu toplu işe alma projesini ve pozisyonları oluşturdukta
 8. Listede, seçili satırın işaretini kaldırın.
     * Sonraki proje konumu seçin ve işe alacağınız her kişiye ait çalışan bilgilerini girmeye devam edin.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

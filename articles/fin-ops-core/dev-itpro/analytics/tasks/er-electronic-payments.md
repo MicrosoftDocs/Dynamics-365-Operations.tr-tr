@@ -81,3 +81,6 @@ Bu adımları tamamlamak için, öncelikle "Ödeme belgesi biçimi ile bir yapı
 25. Tamam'a tıklayın.
     * XML biçiminde oluşturulan ödeme dosyasının çözümleyin. Bunu, tasarlanmış belge düzeni ve tanımlanan ödeme işlem özniteliklerini ile karşılaştırın.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

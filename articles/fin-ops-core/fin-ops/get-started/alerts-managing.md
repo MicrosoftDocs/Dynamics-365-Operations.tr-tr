@@ -82,3 +82,6 @@ Toplu işleme penceresi ayarlarsanız uyarı, vade tarihi ölçütünde tanımla
 
 1. **Sistem yönetimi** &gt; **Periyodik görevler** &gt; **Uyarılar** &gt; **Vade tarihine yönelik uyarılar**'a gidin.
 2. **Vade tarihine yönelik uyarılar** iletişim kutusuna uygun bilgileri girin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

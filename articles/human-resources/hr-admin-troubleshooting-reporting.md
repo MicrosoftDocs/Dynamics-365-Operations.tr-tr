@@ -49,3 +49,6 @@ Kullanıcı, katıştırılmış Microsoft Power BI raporlarını özelleştirem
 **Uzun vadeli çözüm**
 
 Ek Power BI seçenekleri kullanılabilir olacaktır ve daha fazla veri ve varlık Dataverse'in parçası olacaktır.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

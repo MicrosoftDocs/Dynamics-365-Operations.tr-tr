@@ -38,3 +38,6 @@ Aşağıdaki ekran görüntüsünde, çalışma zamanı takvimi "Üretim" kullan
 
 Araçlar ve varlıklar için takvim kurulumunun iş emri zamanlayla ilgili olması gerekmez. Varsayım, araçların ve varlıkların bakım için günde 24 saat kullanılabilir durumda olduğudur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Dönüştürme işlemi planlanan geçiş başlangıç tarihinden bir gün önce 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

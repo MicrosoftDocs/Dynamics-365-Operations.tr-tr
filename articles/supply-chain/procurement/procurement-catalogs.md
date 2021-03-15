@@ -75,3 +75,6 @@ Güncellemeler, **Katalog** sayfasında **Varsayılan güncelleme türü** alan�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

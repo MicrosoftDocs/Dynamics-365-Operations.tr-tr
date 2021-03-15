@@ -812,3 +812,6 @@ Biçim yapısının [İş belgesi yönetiminin](er-business-document-management.
 [Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme](trace-execution-er-troubleshoot-perf.md)
 
 [İş belgesi yönetimine genel bakış](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Bu madde ilk giren ilk çıkar (FIFO) stok modeliyle ayarlanmıştır ve stok ka
 -   5 Şubat: 13.00 USD maliyetli 1 adet
 
 Bu iki maddenin maliyetini 15,00 USD olarak ayarlamak için eldeki açık miktarları son stok kapanış dönemi itibariyle ayarlamak için eldeki stoku düzeltme seçeneğini kullanın. **Not:** Hazır ayarlama işleminin nakil tarihi, son envanter kapatma tarihi olacaktır. Bu tarih değiştirilemez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

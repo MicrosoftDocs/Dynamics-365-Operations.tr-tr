@@ -54,3 +54,6 @@ Ayrıca, azaltma dönemindeki **Başlangıç tarihi** 21 Ocak ise (31 eksi 10), 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

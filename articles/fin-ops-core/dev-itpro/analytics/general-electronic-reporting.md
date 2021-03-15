@@ -298,3 +298,6 @@ Finance için ER yapılandırmalarının listesi sürekli olarak güncelleştiri
 
 - [Elektronik raporlama (ER) yapılandırmaları oluşturma](electronic-reporting-configuration.md)
 - [Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

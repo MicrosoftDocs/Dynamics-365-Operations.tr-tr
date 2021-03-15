@@ -145,3 +145,6 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 46. Sayfayı kapatın.
 ![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

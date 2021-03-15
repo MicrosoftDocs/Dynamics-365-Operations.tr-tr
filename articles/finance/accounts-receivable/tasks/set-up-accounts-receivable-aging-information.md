@@ -58,3 +58,6 @@ Bu kılavuz, yaşlandırma dönemi tanımı yapmanıza, müşteri bakiyelerini y
 2. Bakiyesi olan bir müşteri seçin.
 3. Yaşlandırılmış bakiyeleri görüntülemek için **Yaşlandırma bilgi** kutusu alanını genişletin. Bilgi kutusu için yaşlandırma dönemi tanımı, parametrelerde belirtilmiş varsayılan yaşlandırma dönem tanımından alınır. Bunu, Toplama menüsünü kullanarak değiştirebilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

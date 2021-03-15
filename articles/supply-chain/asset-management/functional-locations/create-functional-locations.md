@@ -131,3 +131,6 @@ Silmeye çalıştığınız herhangi bir işlem yapılacak yerleşimde yüklü v
 
 >[!NOTE]
 >İşlem yapılacak yerleşimi silemezsiniz, silme işlemini bu amaca yönelik bir işlem yapılacak yerleşim yaşam döngüsü durumu ayarlayarak yapabilirsiniz. Örneğin, **İşlem yapılacak yerleşim yaşam döngüsü durumları** formunda, etkin bir aşama olmaması gereken bir "Iskartaya çıkarıldı" veya "Silindi" aşaması ayarlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

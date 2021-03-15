@@ -71,3 +71,6 @@ Sevkiyat adresi modülü yalnızca bir ödeme modülüne eklenebilir. Sevkiyat a
 [Sipariş ayrıntıları modülü](order-confirmation-module.md)
 
 [Hediye kartı modülü](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

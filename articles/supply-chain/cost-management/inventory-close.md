@@ -86,3 +86,6 @@ Tamamlanan bir stok kapanışını ters çevirerek, kapatmaları düzeltmelerden
 > [!NOTE] 
 > Sadece kapatılan son stok dönemi yeniden açılabilir. Önceki bir stok kapatmayı geri almak için, en son kapatmadan başlayarak takip eden her stok kapatmanın tek tek geri alınması gerekir.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

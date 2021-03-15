@@ -94,3 +94,6 @@ Bu yordamı bir kuruluş raporlaması için bir raporlama hiyerarşisi oluşturm
     * Düğüme karşılık gelen boyut üyesini seçin.  
 59. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

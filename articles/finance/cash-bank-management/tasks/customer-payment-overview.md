@@ -51,3 +51,6 @@ Bu görev kılavuzu, müşteri ödemelerini girmek için kullanılan çeşitli y
 21. **Ödeme referansı** alanına, bir ödeme referansı girin. Ödeme referansı, ödemeyi bir havale makbuzuna dahil etmek için seçmeniz durumunda gereklidir.  
 22. **Eylem bölmesinde** müşteri ödemelerini deftere nakletmek için **Deftere naklet**'e tıklayın. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

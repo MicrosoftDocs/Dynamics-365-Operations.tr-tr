@@ -74,3 +74,6 @@ Müşteri fatura modelinin kendinize özel yapılandırmasını Microsoft taraf�
 3. Ad alanına "Müşteri fatura modeli (özel)" yazın.
 4. Konfigürasyon oluştur'u tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

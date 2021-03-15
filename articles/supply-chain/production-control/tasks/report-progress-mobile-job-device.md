@@ -64,3 +64,6 @@ Bu yordamı çalıştırabilmek için kullanıcı hesabı ile ilişkili Sistem y
 29. Tamam'a tıklayın.
 30. Neden erken çıkış yapıldığının nedenini seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

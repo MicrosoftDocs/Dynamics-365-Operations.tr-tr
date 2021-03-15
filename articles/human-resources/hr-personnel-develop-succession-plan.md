@@ -56,3 +56,6 @@ Kuruluşunuz büyüdükçe, ardıl planlamasına başlamalısınız. Ardıl plan
 27. **Sonuç**'u seçin.
 28. **Rapor**'u seçin. Rapor, raporun en üstünde en iyi eşleşmeleri listeler. Listelenen bir fark öğesi görebilirsiniz. Fark, yetenek eşleme düzeyi ile kişinin yetenek düzeyi arasındaki farktır.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -199,3 +199,6 @@ Promosyon için çeşitli performans ölçümlerine dair daha analitik bir genel
 
 Promosyon için çeşitli performans ölçümlerine dair daha analitik bir genel bakış elde etmek isterseniz Analiz görünümünü kullanabilirsiniz. Analiz görünümüne gitmek için **Satış ve pazarlama** \> **Ticari tahsisatlar** \> **Ticari tahsisat sözleşmeleri**'ne tıklayın. Eylem Bölmesi'nde **Analiz**'e tıklayın. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

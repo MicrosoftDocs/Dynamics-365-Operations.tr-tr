@@ -38,3 +38,6 @@ Bu kayıtta DEMF demo şirketi kullanılmaktadır.
 6. **Kısa açıklama** alanında, dahili amaçlı bir açıklama girin.
 7. **Kaydet**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

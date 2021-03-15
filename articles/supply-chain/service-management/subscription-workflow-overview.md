@@ -56,3 +56,6 @@ Her ayın sonunda, müşterinin aboneliğinden gelen bir aylık geliri kar-zarar
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Toplu iş geçmişinizi temizlemek için bir otomatik görev zamanlayın. Görev
 
 8. **Arka planda çalıştır** altındaki diğer gerekli parametreleri değiştirin ve **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

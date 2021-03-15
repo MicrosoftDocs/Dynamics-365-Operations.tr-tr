@@ -82,3 +82,6 @@ Bir URL'nin POS içinde açılmasını yapılandırmak için aşağıdaki adıml
 5. **URL Aç**'ı eylem olarak seçin.
 6. Kullanmak istediğiniz URL'yi seçin.
 7. URL'nin yeni pencerede açılmasını isteyip istemediğinizi yapılandırın.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

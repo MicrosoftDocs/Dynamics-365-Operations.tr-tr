@@ -67,3 +67,6 @@ Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ö
 11. Tamam'a tıklayın.
 12. Tamam'a tıklayın.
 13. Ödemeleri oluştur'a tıklayın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -302,3 +302,6 @@ Site oluşturucuda fatura ayrıntıları sayfası oluşturmak için aşağıdaki
 [İçerik bloğu modülü](../add-hero-module.md)
 
 [Ürün Koleksiyonu](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

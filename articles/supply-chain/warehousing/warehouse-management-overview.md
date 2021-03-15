@@ -73,3 +73,6 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

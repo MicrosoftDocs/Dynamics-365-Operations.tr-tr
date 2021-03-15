@@ -142,3 +142,6 @@ Aşağıdaki görseller, veri tümleştircisinde bir şablon eşleme örneği g�
 
 [Müşteri adayından nakde](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

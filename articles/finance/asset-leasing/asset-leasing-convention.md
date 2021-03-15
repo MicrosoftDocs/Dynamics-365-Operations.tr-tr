@@ -50,3 +50,6 @@ Kiralama sözleşmesini görüntülemek veya atamak için şu adımları izleyin
 3. **Kaydet**'i seçin.
 
 Bir kiralama oluşturulduğunda, her defterin başlangıç tarihi, kiralama için girilen başlangıç tarihine ve defter için belirtilen kiralama kuralına göre otomatik olarak girilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

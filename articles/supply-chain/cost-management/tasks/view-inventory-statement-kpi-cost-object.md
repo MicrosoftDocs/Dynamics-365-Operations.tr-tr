@@ -38,3 +38,6 @@ Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam
 7. Başlangıç tarihi alanına bir tarih girin.
 8. Bitiş tarihi alanına bir tarih girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

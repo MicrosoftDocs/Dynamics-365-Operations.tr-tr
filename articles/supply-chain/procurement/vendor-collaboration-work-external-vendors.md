@@ -258,3 +258,6 @@ RFQ işlemi için parametreleri ayarlayan kullanıcı birden fazla e-posta şabl
 - %createddate%
 
 Bir düzeltme gerekirse ve RFQ gönderildikten sonra gönderilirse, RFQ davet edilen tüm satıcılara yeniden gönderilir. Yayınlanmış belge de **Açık yayımlanan teklif talepleri** sayfasında güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

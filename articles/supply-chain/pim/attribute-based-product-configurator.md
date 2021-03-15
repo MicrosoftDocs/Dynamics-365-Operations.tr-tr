@@ -140,3 +140,6 @@ Son adım, ürün modeli sürümü için öznitelik temelli satış fiyatları b
 1. Eylem Bölmesinde, **Model** sekmesini açın ve **Ürün modeli ayrıntıları** grubundan **Sürümler**'i seçin.
 1. **Sürümler** sayfası açılır. **Fiyatlandırma yönteminin** **Öznitelik tabanlı** olarak ayarlandığından emin olun.
     ![Fiyatlandırma yönteminin öznitelik tabanlı olarak ayarlama](media/prod-config-versions.png "Fiyatlandırma yönteminin öznitelik tabanlı olarak ayarlama")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

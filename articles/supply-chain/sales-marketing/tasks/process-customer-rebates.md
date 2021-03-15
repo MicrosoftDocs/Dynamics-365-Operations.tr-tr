@@ -81,3 +81,6 @@ Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesapla
     - İndirim tahakkuk hesabı, müşterinin gelecekteki borcunu temsil etmek üzere alacaklandırıldı.
     - İndirim gider hesabı, satışlarla bağlantılı olarak tahakkuk eden maliyeti tanımak üzere borçlandırıldı.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

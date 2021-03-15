@@ -44,3 +44,6 @@ Bu konu diğer çalışanların adına satınalma talepleri hazırlamak için ç
 2. Talep sahibi olarak yeni eklediğiniz çalışanı bulmak için Hızlı Filtre'yi kullanın.
 3. Talep sahibini seçin. Hazırlayan listesi sol bölmede seçilen talep sahibi adına maddeleri sipariş etme izni olan kişileri gösterir.  Buraya ek hazırlayanlar ekleyebilirsiniz. Bu görünüm kişinin birincil tüzel kişiliği veya faaliyet birimi olamayan tüzel kişilikler ve faaliyet birimlerinde talep sahibine talepler oluşturmak için izin vermenizi de sağlar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

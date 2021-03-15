@@ -60,3 +60,6 @@ Taşıyıcı faturasını ve navlun faturasını mutabık kıldığınızda bu i
 5. Referans günlük numarası alanındaki bağlantıyı izlemek için tıklayın.
 6. Satırlar seçeneğine tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

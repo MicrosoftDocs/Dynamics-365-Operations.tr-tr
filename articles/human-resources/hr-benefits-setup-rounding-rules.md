@@ -36,3 +36,6 @@ Dynamics 365 Human Resources'De organizasyonunuzun ihtiyaçlarını karşılamak
 3. **En yakına yuvarla**, **senaryo** ve **yuvarlama formu** için değerler belirtin.
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

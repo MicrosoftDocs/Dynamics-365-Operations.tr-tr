@@ -67,3 +67,6 @@ Bu yordam, belirli bir ürünün her zaman belirli bir konumda bulunabilir olmas
 5. Kanbanlar bölümünü genişletin.
     * Gerekli malzemeyi ambar 12'ye transfer etmek için bir kanban oluşturulduğuna dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

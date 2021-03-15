@@ -102,3 +102,6 @@ Bu yordam, tek bir yasal birim bağlamında yayımlanan tek bir ürün oluşturm
 12. Listede, istenen kaydı bulun ve seçin.
 13. Listede, seçili satırdaki bağlantıya tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

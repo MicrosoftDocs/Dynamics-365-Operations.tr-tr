@@ -169,3 +169,6 @@ Sipariş satırı yanıtında yaptığınız değişiklikler gösterilir. Ancak,
 
 ### <a name="open-confirmed-orders"></a>Açık onaylanmış siparişler
 Satın alma siparişi müşteri tarafından onaylandığında, (yani satınalma siparişinin durumu **Onaylandı** olarak değiştirildiğinde), açık onaylanmış siparişte görünür. Sipariş müşteri tarafından alındı şeklinde kaydedilene kadar bu listede kalır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

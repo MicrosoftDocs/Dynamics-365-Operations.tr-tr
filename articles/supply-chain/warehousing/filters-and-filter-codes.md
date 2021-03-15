@@ -165,3 +165,6 @@ Satıcı filtre kodlarını ayarlamak için aşağıdaki adımları izleyin.
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Daha fazla bilgi için WMS Ambar Filtre Kodları blog gönderisini inceleyin](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Taraf kayıtlarını Genel Adres Defteri'ne veya uygun varlık sayfasında gireb
 ## <a name="can-i-translate-address-information-for-party-records"></a>Taraf kayıtları için adres bilgilerini çevirebilir miyim?
 
 Adres bilgilerinin çevirilerini ayarlayabilirsiniz, böylece bilgiler programınızda kullanıcı dilinde (sistem dili) görüntülenirken, satış siparişleri gibi belgelerde farklı bir dilde görüntülenecektir. Ülke/bölge adları, adres amaçları ve isim serileri için çeviriler girebilirsiniz. Örneğin, sistem dilinizi Danca'dır ve Fransa'daki bir müşteri için bir satış siparişi oluşturursunuz. Bu durumda, müşteri kaydını program içerisinde Danca olarak görüntüleyebilir fakat yazdırılan satış siparişinde adres bilgilerini Fransızca görüntüleyebilirsiniz. Çevirileri ayarladığınızda, listedeki her öğe için çeviri girmeniz gerekir. Çeviri girmediğiniz her öğe sistem dilinde görüntülenecektir. Örneğin, sistem dilinizi Danca'dır ve İspanya'daki bir müşteriye bir belge gönderiyorsunuz. Adres bilgileri için İspanyolca (ESP) çeviriler girmediyseniz, bu bilgiler hem programda hem de yazdırılan belgede Danca olarak görünür.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

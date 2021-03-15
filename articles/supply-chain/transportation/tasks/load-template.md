@@ -53,3 +53,6 @@ Bu konuda, yük şablonlarının nasıl ayarlanacağı ve yük şablonunun yeni 
 1. Eylem Bölmesinde **Arz ve talep** sekmesindeki **Ekle** grubunda **Yeni yüke**'yi seçin.
 1. **Yük şablonu** iletişim kutusunda **Yük şablonu kodu** alanından, uygulanacak şablonu seçin.
 1. Şablonu uygulamak için **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

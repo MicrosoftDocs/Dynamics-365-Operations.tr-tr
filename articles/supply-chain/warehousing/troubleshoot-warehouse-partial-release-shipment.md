@@ -41,3 +41,6 @@ Satış siparişi bir teslimat siparişi ancak üzerindeki bir veya daha fazla m
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Serbest bırakma durumu, yalnızca maddelerin ambar yönetimi için etkinleştirildiği sipariş satırları için geçerlidir. Bu nedenle, serbest bırakma durumu, bu senaryoda *Kısmi serbest bırakıldı* olarak kalır. Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu tespit etmiştir. Serbest bırakma durumunu güncelleştirmek için sevk irsaliyesi ve faturalama işleminin bir parçası olarak bir uzantı eklenebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

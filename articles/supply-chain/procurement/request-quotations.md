@@ -246,3 +246,6 @@ Aşağıdaki örnekte, bir teklifin alındığı ve başka bir teklifin kabul ed
 | Tekliflerden birini kabul edin. (veya en az bir satır gereklidir) |                          Alınan                           |                           Kabul Edildi                           |                    Alınan                    |                    Kabul Edildi                     |                   Alınan                   |                   Kabul Edildi                    |
 |           Diğer tüm teklifleri reddedin.           |                          Reddedildi                           |                           Kabul Edildi                           |                    Reddedildi                    |                    Kabul Edildi                     |                   Reddedildi                   |                   Kabul edildi                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

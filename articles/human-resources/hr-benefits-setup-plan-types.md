@@ -63,3 +63,6 @@ Plan türü, kapsam seçeneklerini tanımlayabilir. Kapsam seçenekleri, kapsma 
    | **Raporlama aralığı** | Yaşam olayının raporlama aralığını gün olarak belirtir. **Not**: tutar girmezseniz, sistem raporlama penceresinin sıfır olmasını varsayar ve ömür olayını işlemez. |
 
 5. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Microsoft Dynamics 365 Finance, ayrıca, çek üstte olduğunda, iki havale böl
 - Ödeme günlüğünde yapılandırılmış banka hesabı için ödemeler oluşturduğunuzda, çekler belirtilen biçim kullanılarak yazdırılır.
 
 Daha fazla bilgi için [Bir Elektronik raporlamada biçimini değiştir](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md) konusuna bakın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

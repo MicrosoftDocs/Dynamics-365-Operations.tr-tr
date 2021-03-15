@@ -410,3 +410,6 @@ Mühendis şimdi müşteriden gelen isteği gözden geçirir ve ürün için bir
 1. Ürünleri serbest bırakmak istediğiniz her şirketi seçin.
 1. **Serbest bırakmalar** iletişim kutusunu kapatıp değişiklik emrine dönmek için **Tamam**'ı seçin.
 1. Eylem Bölmesi'nde, **Değişiklik emri** sekmesinde, **Ürün serbest bırakmaları** grubunda, etkilenen ürünleri seçilen şirketlere serbest bırakmak için **İşle**'yi seçin. Alternatif olarak, serbest bırakma işlemini başlatmak için **Ürün yapısını serbest bırak**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

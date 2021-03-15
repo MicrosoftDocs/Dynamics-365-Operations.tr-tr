@@ -41,3 +41,6 @@ USMF demo veri şirketi veya kendi veri kümenizi kullanarak, bu yordamı çalı
 1. Eylem Bölmesi'nde, Maliyetleri yönet'e tıklayın.
 2. Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.
     * Bu sayfayı maliyet dökümünü görüntüler. Örneğin, ilk satırın bitmiş ürünü için birim başına toplam maliyet fiyatı görüntüleyebilirsiniz. Sonraki satırlar, ürün reçetesi, üretim rotası ve dolaylı maliyetlere göre olan maliyetleri içerir.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Aşağıdaki öğrenme haritası, Maliyet muhasebesi modülünün çerçevesini 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

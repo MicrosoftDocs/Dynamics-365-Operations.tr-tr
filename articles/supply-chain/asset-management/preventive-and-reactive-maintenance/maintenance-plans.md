@@ -238,3 +238,6 @@ Sistemi, ilgili iş emrinin seçili durum değerine her ulaştığında otomatik
 1. **Kıymet yönetimi \> Kurulum \> İş emirleri \> Yaşam döngüsü durumları**'na gidin.
 1. Liste bölmesinde, ilgili sayacın sıfırlanacağı iş emri yaşam döngüsü durumunu seçin.
 1. **Genel** hızlı sekmesinde, **Sayacı sıfırla** seçeneğini *Evet* olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

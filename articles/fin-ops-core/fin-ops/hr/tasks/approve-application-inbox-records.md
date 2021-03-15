@@ -48,3 +48,6 @@ Bu yordam personel self servis sayfalarından alınan başvuruların nasıl ince
 2. Listede, seçili satırdaki bağlantıya tıklayın.
 3. Ekler bölümünü genişletin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

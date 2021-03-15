@@ -67,3 +67,6 @@ Bu örnekte, çalışan hesabı yapılandırmadan önce "SHANNON" kullanıcısı
 6. **Üretim birimi** alanında çalışanın varsayılan filtresini ayarlayabilirsiniz. Bu, çalışan bu cihazda oturum açtığında yalnızca seçili üretim biriminin üretim işlerinin gösterilmesini sağlar. İstenen değeri girin.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

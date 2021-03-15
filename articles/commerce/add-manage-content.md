@@ -56,3 +56,6 @@ Başlamak için aşağıdaki konulardan birini seçin.
 [Belge durumları ve yaşam döngüsü](document-states-overview.md)
 
 [Kanallar arası paylaşımı etkinleştirme ve kullanma](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Dynamics 365 Human Resources, Çoklu alanlar arasında veri güdümlü çalışa
 [İzin ve devamsızlığı yönetme](hr-leave-and-absence-overview.md)</br>
 [Personelleri geliştirme](hr-develop-performance-management-overview.md)</br>
 [Kurslar oluştur](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

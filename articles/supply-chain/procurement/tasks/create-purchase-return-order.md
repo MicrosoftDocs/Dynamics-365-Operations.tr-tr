@@ -67,3 +67,6 @@ Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma sipar
 4. **Ürün girişi** alanına bir değer girin. Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
 5. **Tamam**'a tıklayın. Mallar şimdi satın alma iade siparişinde sevk edildi olarak kaydedilmiştir ve bir ürün giriş yevmiye defteri oluşturulmuştur. Satınalma siparişiyle oluşturulan günlükleri gözden geçirmek ve nelerin ve ne zaman alındığını veya iade edildiğini görmek için Ürün girişi etkinliğini kullanabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

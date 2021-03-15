@@ -40,3 +40,6 @@ Bir sepet satırı seçildiyse ve **Seçileni çek**, **Seçileni sevk et** veya
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modern POS'taki (MPOS) müşteri siparişleri](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

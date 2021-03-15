@@ -108,3 +108,6 @@ Bir onaylayan çalışanın zaman kayıtlarını değiştirebilir. Onaylayan ça
 ### <a name="calculate-and-approve-absence"></a>Devamsızlığı hesapla ve onayla
 
 - **İşe devam zamanı** &gt; **Gözden geçirme ve onaylama** &gt; **Onaylama veya Hesaplama** öğelerini seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

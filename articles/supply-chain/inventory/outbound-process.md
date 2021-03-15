@@ -84,3 +84,6 @@ Malzeme çekme listesi oluşturulması sırasında halihazırda rezerve edilmemi
 Tüm çekme satırları **Çekme listesi kayıt** sayfası üzerinde çekildikten sonra, ilişkilendirilen sevkiyat tamamlanır. Daha sonra satış siparişi sevk irsaliyeleri için işlem, çekilen stoka dayalı olarak başlatılabilir.
 
 [![Giden sevkiyatları güncelleştirmek](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

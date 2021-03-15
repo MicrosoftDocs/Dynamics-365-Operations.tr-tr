@@ -45,3 +45,6 @@ Gönüllüler veya personel dışı başka kişiler varsa, **Personel self-servi
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Personel ve Yönetici self servisine genel bakış](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Bu prosedür, size bir puanlama yönteminin nasıl oluşturulacağını gösterm
 14. Aralık başlangıcı alanına bir sayı girin.
 15. Aralık bitişi alanına bir sayı girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

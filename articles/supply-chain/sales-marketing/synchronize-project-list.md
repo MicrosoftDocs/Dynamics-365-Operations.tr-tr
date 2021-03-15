@@ -66,3 +66,6 @@ Veri varlığı projeleri için izlemeyi etkinleştir
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projeler (Supply Chain Management'tan Field Service'e): Projeler
 
 [![Veri tümleştirmede şablon eşleme](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

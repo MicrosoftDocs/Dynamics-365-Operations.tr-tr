@@ -100,3 +100,6 @@ Commerce Site Builder'da dijital hediye kartının özel tutarını yapılandır
 [Çevrimiçi işlevsellik profili oluşturma](online-functionality-profile.md)
 
 [Harici hediye kartları için destek](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

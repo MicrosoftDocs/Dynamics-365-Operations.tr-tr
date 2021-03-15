@@ -383,3 +383,6 @@ Gerekli tüm öğeler belirlendikten sonra, aşağıdaki adımları izleyerek ot
 1. İsterseniz otomatik çalışma tekrar sayısını belirleyin.
 
 Senaryodaki alıştırmalarda otomatik yerleştirme **ayarlamayın**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

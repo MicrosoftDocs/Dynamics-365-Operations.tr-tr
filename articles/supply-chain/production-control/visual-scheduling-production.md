@@ -159,3 +159,6 @@ Gantt grafiği aşağıdaki sayfalardan açılabilir.
 
 [Üretim için görsel planlama (demo kod)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

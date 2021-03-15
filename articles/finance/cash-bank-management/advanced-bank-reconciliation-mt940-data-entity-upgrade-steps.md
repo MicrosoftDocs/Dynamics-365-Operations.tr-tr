@@ -63,3 +63,6 @@ MT940 biçimini desteklemesi için banka ekstresi içe aktarma varlığını ekl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

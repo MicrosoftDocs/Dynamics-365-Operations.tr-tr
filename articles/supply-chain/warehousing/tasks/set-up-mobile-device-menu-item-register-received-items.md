@@ -59,3 +59,6 @@ Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam ambar yöneticis
 6. **Kaydet**'i seçin.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

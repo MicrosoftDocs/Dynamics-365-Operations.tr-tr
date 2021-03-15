@@ -99,3 +99,6 @@ Yardım'ı özelleştirmek için araçlar ve işlemler konusunda Microsoft ile i
 [Görev kaydedici kaynakları](../../dev-itpro/user-interface/task-recorder.md)  
 [Görev Kaydedici ile belge veya eğitim oluşturma](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Özel Yardım, GitHub havuzu](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

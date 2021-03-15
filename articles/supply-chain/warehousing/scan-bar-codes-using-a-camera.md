@@ -54,3 +54,6 @@ Kamera sayfasında, Kamera düğmesine tıkladığınızda, barkodu tanımlamaya
 
 Kamerayı barkoda yönelttiğinizde en iyi sonuca ulaşmak için barkodu köşeli parantez içinde hizalayın. Barkod başarılı bir şekilde tarandığında sonuç işlenir ve bir sonraki adıma geçebilirsiniz. Sonraki adım, Tarama'ya ayarlanmış tercih edilen giriş moduna sahip başka bir giriş alanı içeriyorsa kamera yeniden başlatılır. Sonraki adım tarama alanı değilse kamera sayfası başlatılmaz.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

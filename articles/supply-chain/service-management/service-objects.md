@@ -46,3 +46,6 @@ Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymet
 
 [Servis nesneleri oluşturma](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

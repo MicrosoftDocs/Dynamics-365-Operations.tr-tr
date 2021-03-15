@@ -55,3 +55,6 @@ Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyl
 16. Projenizi oluşturun ve sonra sonuçları görmek için uygulamayı açın.
 
     [![Tamamlanan çalışma alanı](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

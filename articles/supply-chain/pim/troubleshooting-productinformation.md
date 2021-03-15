@@ -151,3 +151,6 @@ Bir ürün varyantı A şirketine zaten serbest bırakılmışsa ve **Serbest b�
 **Serbest bırakılan ürün varyantları** sayfasındaki **Yeni** düğmesi varyantı oluşturur ve şirket bağlamında serbest bırakır. Varyant zaten oluşturulduysa **Yeni** düğmesini, başka bir şirkete serbest bırakma için kullanamazsınız.
 
 Sorunu gidermek için **Ana ürün** sayfasını açın ve istenen şirketteki var olan varyantı serbest bırakmak için **Ürünü serbest bırak**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

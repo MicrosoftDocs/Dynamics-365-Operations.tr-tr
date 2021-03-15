@@ -44,3 +44,6 @@ Bir üretim emri, üretim döngüsü aşamalarından geçer. Bir emir oluşturul
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

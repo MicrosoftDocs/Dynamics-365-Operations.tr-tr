@@ -36,3 +36,6 @@ Bu yordam bir ürün veya ana ürünün nasıl bir veya daha fazla tüzel kişil
 6. İleri düğmesini tıklatın.
 7. Son düğmesini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Ortamı geri yüklemek için:
 
 > [!Warning]
 > Power Apps ortamları silme işleminden sonra yalnızca yedi gün süreyle kaydedilir. Ortamı yedi gün içinde kurtarmanız gerekir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

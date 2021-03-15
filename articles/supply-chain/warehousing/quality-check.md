@@ -396,3 +396,6 @@ Bu senaryo için palet 3 kabul edilecektir.
 1. Sayfanın üst kısmındaki Menü düğmesini (**≡**) seçin ve ardından menüden **İptal**'i seçerek menüye dönün.
 
 Artık mobil uygulamayı kapatabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

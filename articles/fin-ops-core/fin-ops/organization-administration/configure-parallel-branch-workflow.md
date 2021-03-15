@@ -50,3 +50,6 @@ Paralel bir dalın öğelerini tasarlamak ve yapılandırmak için bu adımları
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [İş akışlarına genel bakış](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

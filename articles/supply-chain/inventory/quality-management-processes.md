@@ -100,3 +100,6 @@ Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüle
 [Kalite emirlerini ayarlama](tasks/set-up-quality-orders.md)
 
 [Malların kalitesini denetle](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Bu yordam, plaka birleştirme işi için mobil cihaz menüsü öğesi oluşturma
 5. Mod alanında, 'Dolaylı'yı seçin.
 6. Faaliyet kodu alanında 'Plakaları birleştir'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

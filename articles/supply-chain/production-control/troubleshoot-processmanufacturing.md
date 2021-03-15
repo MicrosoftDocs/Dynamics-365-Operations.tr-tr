@@ -40,3 +40,6 @@ Bu davranış tasarımdan kaynaklanır. **Üretim emri Varsayılanları** sayfas
 > Bir stok kapanışını bir %1 tarihiyle yürütmek üzeresiniz. Bir %1 tarihi eşleştirme dönemi sonuyla hiçbir geriye dönük maliyet hesaplama yürütmesi kaydedilmedi. Bir %1 tarihi eşleştirme dönemi sonuyla bir geriye dönük maliyet hesaplaması yürütmeyi unutmayın. Stok değerlemesi, satılan malların maliyeti ve varyantlar, bu işlem yürütülünceye kadar Yardımcı Kayıt Defteri veya Genel Kayıt Defteri'nde doğru olmayabilir.
 
 Bu sorun 10.0.13 ve sonraki sürümlerde giderilmiştir. Daha fazla bilgi için bkz. [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

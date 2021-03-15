@@ -85,3 +85,6 @@ Ek Yardım görev kılavuzları olarak mevcuttur. Görev kılavuzlarına erişme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

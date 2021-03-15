@@ -105,3 +105,6 @@ Bu örnek için el ile eşleştirme yapmanın bir diğer yolu da aşağıdakiler
 1. Inv1 ve Inv 2'yi arka arkaya FB ile eşleştirme. FB, tümüyle eşlenir.
 
 Bu örnekte görüldüğü gibi, negatif tutarlarla sahip navlun faturalarını eşleme işlemi yalnızca el ile yapılmalıdır. Böylece, eşleşen sırayı denetleyebileceğinzi için navlun faturalarını her zaman tam olarak eşleştirilmeyen bir navlun fişiyle eşleştirebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Aşağıdaki konularda, farklı ayarlar tanımlandığında planlama altyapısı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

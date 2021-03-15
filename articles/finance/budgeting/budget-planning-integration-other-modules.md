@@ -146,3 +146,6 @@ Mevcut ek raporlar **Bütçe planına göre tahmin konumları** raporunu içerir
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

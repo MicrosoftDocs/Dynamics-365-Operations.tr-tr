@@ -150,3 +150,6 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 3. **Ortam** alanına Elektronik faturalama eklentissi ortamının adını girin.
 4. **Kaydet**'i seçip sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

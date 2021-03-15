@@ -249,3 +249,6 @@ Bu senaryo, bir satış siparişi işlendiği sırada bu konuda daha önce açı
 1. Oluşturduğunuz satış siparişinde, **Satış siparişi satırları** hızlı sekmesinde, başka bir satır eklemek için **Satır ekle**'yi seçin.
 1. Bu yeni satırda, **Madde numarası** alanını *M9200* olarak ve **miktar** alanını *1* olarak ayarlayın.
 1. Satırı rezerve etmek ve ambara serbest bırakmak için 6-9 arası satırları yineleyin. Önceden olduğu gibi sistem, eklediğiniz satır için **yeni** bir sevkiyat oluşturur. Ancak, madde **CarAudio** madde grubundan olduğundan, **Yük karıştırma grubu için ayarladığınız sınırlamaları geçemezse**. Bu nedenle, **Yeni bir yüklemeye eklenir**. Yükleme oluştur şablonunda bir yük karışımı grubu belirtilmezse, bu sevkiyat ilk yüklemeye eklenmiş olmalıdır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

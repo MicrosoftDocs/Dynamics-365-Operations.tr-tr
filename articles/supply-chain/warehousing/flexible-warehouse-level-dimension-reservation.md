@@ -853,3 +853,6 @@ Aşağıdaki tablolarda, sistemin belirli ambar eylemleri için sipariş taahhü
     - Transfer emirleri ve hammadde çekme
 
 - Yönerge birimine göre ambalajlama için konteyner konsolidasyon kuralında sınırlamalar vardır. Sipariş taahhütlü rezervasyonlar için, **Yönerge birimine gör ambalajla** alanının etkinleştirildiği konteyner yapı şablonlarını kullanmamanızı öneririz. Geçerli tasarımda, ambar işi oluşturulurken yerleşim yönergeleri kullanılmaz. Bu nedenle, konteyner kullanımı dalga adımı sırasında yalnızca birim sıra grubundaki en küçük birim uygulanır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

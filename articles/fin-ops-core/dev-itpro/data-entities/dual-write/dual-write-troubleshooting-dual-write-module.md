@@ -87,3 +87,6 @@ Bu hata için düzeltme hatanın nedenine bağlıdır:
 
 + Eşlemeye bağımlı eşlemeler varsa bu tablo eşlemesinin bağımlı eşlemelerini etkinleştirdiğinizden emin olun.
 + Eşlemede kaynak veya hedef sütunlar eksik olabilir. Finance and Operations uygulamalarında bir sütun eksikse, [Eşlemelerde eksik tablo sütunları sorunu](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) bölümündeki adımları izleyin. Dataverse'teki bir sütun eksikse sütunların otomatik olarak eşlemede geri doldurulması için eşlemede **Tabloları yenile** düğmesine tıklayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

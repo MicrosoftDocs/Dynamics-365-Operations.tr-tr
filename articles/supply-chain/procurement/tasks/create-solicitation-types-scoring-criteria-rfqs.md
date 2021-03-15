@@ -51,3 +51,6 @@ Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama y�
 8. Tamam'a tıklayın.
 9. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Varlıklar için el ile madde satırları oluşturabilirsiniz.
 5. Maddenin süresi dolacaksa, **Bitiş** alanına bir bitiş tarihi girin.
 6. **Madde numarası** alanında maddeyi seçin. Ad **Ürün adı** alanına otomatik olarak girilir.
 7. **Miktar** alanına kullanılan miktarı girin. **Birim** alanı otomatik olarak güncelleştirilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

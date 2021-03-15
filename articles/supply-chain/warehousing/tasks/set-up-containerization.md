@@ -80,3 +80,6 @@ Bu konu, Ambar yönetimindeki yüklerin konteyner kullanımının nasıl otomati
 11. **Alan Seç** alanına bir değer girin veya buradan bir değer seçin.
 12. **Tamam**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Daha fazla bilgi için bkz: [Amortisman yöntemleri ve kuralları](depreciation-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

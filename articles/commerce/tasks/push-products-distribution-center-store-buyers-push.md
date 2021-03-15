@@ -52,3 +52,6 @@ Bu yordam, ürünleri bir konumundan bir veya daha fazla mağazaya dağıtmak i�
 19. Sipariş oluştur'u tıklayın.
 20. Evet'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

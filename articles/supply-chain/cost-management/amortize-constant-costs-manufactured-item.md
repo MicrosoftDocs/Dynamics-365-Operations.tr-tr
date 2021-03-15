@@ -46,3 +46,6 @@ Lot büyüklüğünü maliyetlendirme kavramı, bu sabit maliyetleri üretilen m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

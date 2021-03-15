@@ -73,3 +73,6 @@ Bir iş akışını, yapılandırdığınız herhangi bir hiyerarşiyle ilişkil
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

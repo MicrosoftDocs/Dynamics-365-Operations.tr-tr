@@ -40,3 +40,6 @@ Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi ger
 10. Yuvarlama alanına bir sayı girin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

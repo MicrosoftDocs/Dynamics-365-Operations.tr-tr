@@ -83,3 +83,6 @@ Hesapları oluşturulan kiralama defterlerine ve gruplarına atamak için Varlı
     > [!NOTE]
     > Planlanan gider faturası deftere nakledildiğinde, seçilen finansal hesap veya işletme hesabı borçlandırılır.
     > **Kira gideri mahsup** işlemi, icra maliyeti hareketleri için deftere nakil türü olarak kullanılacak ancak kiralama ayrıntılarında veya kiralama defteri formunda **İcra maliyeti ödeme planı satırları**'nda tanımlı **Mahsup hesap**'a nakledilecektir.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

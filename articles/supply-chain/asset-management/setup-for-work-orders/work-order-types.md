@@ -51,3 +51,6 @@ Bir iş emri türü, iş emri yaşam döngüsü modeliyle bir ilişki tanımlar.
 8. **Kaydet**'i seçin.
 
 ![İş emri türleri](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

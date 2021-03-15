@@ -80,3 +80,6 @@ Hesapları eşlemiş olup olmadığınıza bakılmaksızın, bu tür bir konsoli
 
 > [!NOTE]
 > Bu yöntemi, bağlı kuruluş tüzel kişiliklerinden birine ait hesap planından konsolide tüzel kişilikte bir hesap planı oluşturmak için kullanabilirsiniz. Daha fazla bilgi için bkz. [Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları](../budgeting/consolidation-account-groups-consolidation-accounts.md). Ardından, konsolide edilen her ana hesaba uygun bir konsolidasyon dönüştürme ilkesi atayın ve tüm bağlı kuruluş tüzel kişilikleri için konsolidasyonu çalıştırın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

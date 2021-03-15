@@ -44,3 +44,6 @@ Yapılandırma yeniden kullanmayı sıfırladığınızda önceden oluşturduğu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

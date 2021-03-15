@@ -44,3 +44,6 @@ Bakım talebi türü, bir bakım talebi yaşam döngüsü durumu grubu (bakım y
 Aşağıdaki çizimde bir **Bakım talebi türleri** liste sayfasının bir örneği gösterilmektedir.
 
 ![Bakım talebi türleri sayfası](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

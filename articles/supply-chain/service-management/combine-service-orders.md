@@ -112,3 +112,6 @@ Servis siparişi satırlarının servis siparişlerine ayrıntılı şekilde gru
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

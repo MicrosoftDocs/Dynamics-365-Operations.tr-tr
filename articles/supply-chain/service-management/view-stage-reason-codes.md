@@ -44,3 +44,6 @@ Servis siparişi için aşama kodları listesini görüntüleyin ve değiştirin
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

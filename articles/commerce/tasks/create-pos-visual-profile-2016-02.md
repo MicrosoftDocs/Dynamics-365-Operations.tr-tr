@@ -47,3 +47,6 @@ Bu yordam yeni bir noktası (POS) görsel profili oluşturma konusunda açıklam
 17. Listede, seçili satırdaki bağlantıya tıklayın.
 18. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

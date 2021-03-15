@@ -56,3 +56,6 @@ Bu yordam bir çalışanını POS'ta satışlar üzerinden komisyon için uygun 
 6. Varsayılan grup alanına bir değer girin veya bir değer seçin.
 7. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

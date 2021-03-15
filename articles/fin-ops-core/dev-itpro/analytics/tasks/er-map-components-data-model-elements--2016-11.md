@@ -113,3 +113,6 @@ Her biçimi sürümü belirli bir tarihten itibaren kullanılabilecek şekilde y
 1. ISO Ülke/bölge kodları bölümünü genişletin.
     * Her biçim erişimi, biçimin geçerli olacağı ülke/bölgeleri tanımlayarak kısıtlanabilir. Belirli biçim için ülkeler/bölgeler listesi boş olduğunda, bu biçim herhangi bir şirkette kullanılabilir. Bazı ISO ülke/bölge kodları ülkeler/bölgeler listesine eklendiğinde, bu biçim yalnızca birincil adresi ülke/bölge listesinde olan şirketlerde kullanılabilir.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

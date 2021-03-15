@@ -97,3 +97,6 @@ Fatura bakiyesi şimdi 0,00 olur. Arnie, bilgileri **Müşteri hareketleri** say
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Talebi bir tahsisat işleminin sonunda toplamak ve stok yenilemeyi toplanmış m
 |   Konum yönergeleri   |                                                       Yerleşim yönergeleri işi stok yenilemenin gerektiği yerleşimlere ve stok kaynağı olarak kullanılacak yerleşimlere yönlendirmek için gereklidir.                                                        |
 |     İş şablonları      |                                                   <strong>Stok yenileme</strong> türünün iş şablonları stoğu istenen yerleşimlere taşıyabilmek üzere stok yenileme işi oluşturmak için gereklidir.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 [Sepet ve ödeme sayfalarına genel bakış](quick-tour-cart-checkout.md)
 
 [Hesap yönetimi sayfalarına genel bakış](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

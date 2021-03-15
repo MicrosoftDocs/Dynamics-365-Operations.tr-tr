@@ -42,3 +42,6 @@ Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları i
    | **Gün** | Sistemin bekleme bitiş tarihi olarak ayarlandığı ayın günü. |
    
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

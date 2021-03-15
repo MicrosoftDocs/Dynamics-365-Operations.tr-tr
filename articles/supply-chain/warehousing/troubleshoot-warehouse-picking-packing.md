@@ -109,3 +109,6 @@ WMS için etkinleştirilen maddelere ait deftere nakledilen sevk irsaliyelerini 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Bu sorunu gidermek için küme profilini düzenleyin ve **Pozisyonları etkinleştir** seçeneğini *Hayır* olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

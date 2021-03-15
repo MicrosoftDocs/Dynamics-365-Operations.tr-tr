@@ -56,3 +56,6 @@ Aşağıdaki tablo, **Mühendislik değişikliği yönetimi parametreleri** sayf
 | Önem derecesi kuralı | Mühendislik değişikliği emrinin önem derecesini seçin. Kullanıcının **Önem Derecesi** alanına bir değer girmesi bekleniyorsa *El ile* seçeneğini belirleyin. Mühendislik değişikliği emrinin Eylem bölmesinde **Önem derecesini hesapla** seçeneğini belirlediğinizde, sistemin **Önem Derecesi** alanındaki değeri hesaplamasını sağlamak için *Hesapla*'yı seçin. Bu durumda, sistem, **Önem derecesi kural kümesi** sayfasında tanımlanan önem derecesi kurallarını kullanır. **Önem derecesi** alanı değerinin otomatik olarak hesaplanıp önem derecesi kuralı kümelerine göre doldurulması için *Otomatik olarak hesapla*'yı seçin. |
 | Etkilenen ürünleri yeniden serbest bırak | Bu alan, bir mühendislik değişikliği emri aracılığıyla ürünleri yeniden serbest bıraktığınızda kullanılabilir. **Serbest bırakmalar** iletişim kutusunda, tüm ürünlerin veya yalnızca etkilenen ürünlerin önerilip önerileceği arasında seçim yapabilirsiniz. |
 | Serbest bırakılacak ürün reçetesi düzeyleri | Serbest bırakılacak ürün reçetesi düzeyi derinliği. Ürün reçetesinde burada belirtilen değerden daha fazla düzey varsa (daha derin ise), yalnızca belirtilen değer üzerindeki düzeyler serbest bırakılır. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

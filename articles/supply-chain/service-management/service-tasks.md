@@ -89,3 +89,6 @@ Servis siparişlerini otomatik olarak oluşturduğunuzda, servis görevlerini gr
 2. **Kurulum** sekmesinde, **Servis siparişlerini birleştir** alanında **Servis görevine göre**'yi seçin.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

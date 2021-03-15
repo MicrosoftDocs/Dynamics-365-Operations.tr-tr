@@ -55,3 +55,6 @@ Bu konu operasyon planlama ve iş planlama ile bir üretim emri planlamaya odakl
 6. Eylem Bölmesinde **Üretim emri**'ne tıklayın.
 7. **Tüm işler**'i seçin. Etkin yola göre, iş planlamasında 5 işin oluşturulduğunda dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

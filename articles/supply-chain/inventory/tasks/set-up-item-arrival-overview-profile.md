@@ -53,3 +53,6 @@ Bu konu bir varış genel bakış profili kurulumu üzerinde odaklanır. Varış
 17. **Kaydet**'i seçin.
 18. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

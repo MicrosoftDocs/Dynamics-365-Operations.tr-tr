@@ -57,3 +57,6 @@ Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum
 24. Sayfayı kapatın.
 25. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ AB satış listesini oluşturma ve gönderme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları 
 4. **Sonraki**'yi seçin.
 5. **Bitir**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Kendi kaynaklarından teminat ayırmayla sigorta kapsamı sağladığınız içi
 
 > [!NOTE]
 > Sorgulama penceresinde yalnızca **ACA raporlanabilir** olarak işaretlenmiş sosyal hak planları görüntülenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Bonus amortisman bir yüzde veya sabit bir tutar olarak girilir. Amortisman tekl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

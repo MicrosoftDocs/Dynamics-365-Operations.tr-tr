@@ -95,3 +95,6 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 [İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

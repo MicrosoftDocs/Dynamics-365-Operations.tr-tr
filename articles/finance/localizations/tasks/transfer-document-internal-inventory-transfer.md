@@ -73,3 +73,6 @@ Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri o
 10. Sevk irsaliyesi'ne tıklayın.
 11. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

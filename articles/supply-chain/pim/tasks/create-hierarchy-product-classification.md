@@ -66,3 +66,6 @@ Bu yordam yeni bir kategori hiyerarşisi oluşturmayı ve emtia kodu hiyerarşi 
 8. Listede, seçili satırdaki bağlantıya tıklayın.
 9. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

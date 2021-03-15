@@ -48,3 +48,6 @@ Daha fazla bilgi için bkz. [Pozitif ödeme dosyaları kurma ve oluşturma](set-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

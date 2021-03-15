@@ -182,3 +182,6 @@ Bu bölümde, Microsoft tarafından sağlanan model eşlemelerinin nasıl [özel
 - [Ayrı ER yapılandırmalarında ER model eşlemesini yönetme](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma](er-country-dependent-model-mapping.md)
 - [Elektronik raporlama çerçevesi API değişiklikleri](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

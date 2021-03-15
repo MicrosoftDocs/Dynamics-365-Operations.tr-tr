@@ -148,3 +148,6 @@ Stok arabelleklerinin ve stok düzeylerinin girişi, bu API 'Lerin toplam kullan
 [Stok ayarlarını uygula](inventory-settings.md)
 
 [Perakende kanalları için stok kullanılabilirliğini hesaplama](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Bir yük için dikkate alınacak konteynerlerin sayısı, konteynerin ağırlı�
 -   Bir konteyner için ağırlık ve hacmi ayarlamak için **Ambar yönetimi** \> **Kurulum** \> **Konteynerler** \> **Konteyner türleri** üzerine tıklayın.
 
 -   Konteyner kullanım yüzdesini ayarlamak için **Ambar yönetimi** \> **Kurulum** \> **Konteynerler** \> **Konteyner grupları** üzerine tıklayın ve **Konteyner kullanım yüzdesi** alanına bir değer girin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

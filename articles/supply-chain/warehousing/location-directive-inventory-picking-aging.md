@@ -139,3 +139,6 @@ LIFO stratejisi, en yeni yaşlandırma tarihini içeren konumu bulur ve bu yaşl
 1. **İş türü** değerinin *Çekme* olduğu satırın *FL-001* değerine sahip bir **Yerleşim** gösterdiğine dikkat edin. Bu yerleşim, en yeni yaşlandırma tarihine sahip (LIFO) plakayı içerir.
 
 Bu senaryolarda, seçilen stratejiye bağlı olarak, yerleşim yaşlandırma stratejisinin işi en eski stoğa veya en yeni stoğa sahip stok yerleşimine nasıl yönlendirdiğini gördünüz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

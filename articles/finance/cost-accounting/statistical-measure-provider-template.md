@@ -345,3 +345,6 @@ Elektrik önceden tanımlanmış boyut üyesi tahsisat temeli maliyet dağıtım
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tahsisat temelleri](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

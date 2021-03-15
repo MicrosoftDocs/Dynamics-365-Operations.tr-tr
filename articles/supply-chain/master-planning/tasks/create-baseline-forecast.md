@@ -81,3 +81,6 @@ ms.locfileid: "4983428"
 5. Tahmin satırı ayrıntıları'na tıklayın.
     * Bu sayfada, doğruluk değerleri, geçmiş talep, ve tahminleri görebilirsiniz. Bu tahminde değişiklikler de yapabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

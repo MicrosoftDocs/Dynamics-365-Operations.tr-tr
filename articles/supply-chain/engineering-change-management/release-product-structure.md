@@ -159,3 +159,6 @@ Bu davranış, yalnızca bir ürün doğrudan serbest bırakılması için seçi
 Örneğin, X ürünü *Tasarım dolapları* ürün sahibi grubuna atanır. X ürünü, *Tasarım hoparlörleri* ürün sahibi grubuna atanmış, Y ürününün ürün reçetesinin de bir parçasıdır. *Tasarım hoparlörleri* ürün sahibi grubundaki bir kullanıcı, Y ürününü ve ürün reçetesini serbest bıraktığında, X ürünü, Y ürünü ile birlikte serbest bırakılacaktır.
 
 Daha fazla bilgi için bkz. [Ürün sahipleri](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

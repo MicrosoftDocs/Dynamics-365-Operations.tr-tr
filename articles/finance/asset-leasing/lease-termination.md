@@ -158,3 +158,6 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
 11. ROU varlığının ve kiralama yükümlülüğünün 0 (sıfır) olacağı sonlandırma işleminin net etkisini görüntülemek için Borç ve Varlık hareketleri tablolarını açın.
 
 Şimdi kiralama durumu **Sonlandırıldı** olmalıdır. Sonlandırma ters çevrilmediği sürece, bu kiralamaya karşı hiçbir ek günlük girişi deftere nakledilemez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

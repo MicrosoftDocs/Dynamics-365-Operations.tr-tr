@@ -57,3 +57,6 @@ Teslim alınacak maddeleri seçtikten sonra teslim alma miktarını değiştirme
 **Satış Noktası'nda teslim alma siparişi işleme için geliştirilmiş kullanıcı deneyimi** özelliği açıksa kuruluşlar hareket sayfasının ekran düzenine **Teslim alma satırlarını değiştir** işlemi için bir düğme ekleyebilir. POS'ta teslim alma hareketi sepetini oluşturup maddeleri seçtikten sonra, teslim alma maddelerini değiştirmeniz gerekiyorsa ancak tüm hareketi geçersiz kılmak istemiyorsanız **Teslim alma satırlarını değiştir**'i seçebilirsiniz. Görüntülenen **Teslim alma satırlarını değiştir** iletişim kutusunda, teslim alma maddelerini ve miktarlarını değiştirebilirsiniz. İşlem sepeti daha sonra değişikliklerinizi yansıtacak şekilde güncelleştirilir.
 
 ![Teslim alma maddelerini değiştir iletişim kutusu](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

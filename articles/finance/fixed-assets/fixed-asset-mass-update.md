@@ -41,3 +41,6 @@ Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde her kıyme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

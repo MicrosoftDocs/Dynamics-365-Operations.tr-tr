@@ -107,3 +107,6 @@ Alım düzeltmesinin servis ömrü, sabit kıymetinkiyle aynıdır ve alım anı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ağaç görünümünün üst kısmında görünen içerik haritası izi ağaç g
 Ağaç görünümünde bir kıymet seçtiyseniz kıymetle ilgili bakım taleplerini veya iş emirlerini görüntülemek için **Etkin talepler** veya **Etkin iş emirleri** öğesini seçebilirsiniz. Ayrıca ilgili görünümü açmak için **Aç** \> **İşlem yapılacak yerleşim**, **Kıymet** veya **Kıymet ürün reçetesi**'ni de seçebilirsiniz.
 
 **Görünüm** alanında seçebileceğiniz **Kıymet işlem yapılacak yerleşimleri** seçeneği bir kıymet seçebildiğiniz tüm kıymet aramalarında da kullanılabilir. Ağaç görünümü örneğin [kıymet oluşturduğunuz](../objects/create-an-object.md), bakım talebi oluşturduğunuz veya bir iş emri oluşturduğunuz **Kıymet görünümü** sekmesinde gösterilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

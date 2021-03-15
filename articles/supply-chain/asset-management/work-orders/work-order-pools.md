@@ -108,3 +108,6 @@ Aşağıdaki şekilde **İş emri havuzu** liste sayfası örneği gösterilmekt
 
 Bir iş emrini iş emri havuzundan kaldırmak için bu adımları tekrarlayın ancak adım 3'te **Kaldır**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

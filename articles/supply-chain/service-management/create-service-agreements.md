@@ -61,3 +61,6 @@ Bu başlık, Servis yönetimi ve Proje yönetimi ile muhasebe modüllerinde serv
 [Servis sözleşmeleri geliştirme ve oluşturmaya genel bakış](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

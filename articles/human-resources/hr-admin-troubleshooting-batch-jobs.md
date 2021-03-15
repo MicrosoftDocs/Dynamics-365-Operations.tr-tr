@@ -65,3 +65,6 @@ Aşağıdaki toplu işler gece veya saat tarihinden sonra çalışmalıdır. Bu 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Otomatik temizleme görevleriyle performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

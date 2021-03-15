@@ -48,3 +48,6 @@ Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapıla
     * Ürün modeli versiyonunu etkinleştirin. Bir defada bir ürün modeli için yalnızca bir etkin ürün olması mümkündür.  
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

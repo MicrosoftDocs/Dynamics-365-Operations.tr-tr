@@ -86,3 +86,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 7.  Faturaya eklenmiş herhangi bir notu veya dosyaları görmek için **Ekler**'i seçin.
 8.  **Fatura ayrıntıları** sayfasında, gözden geçirme işleminizi tamamlamak için ilgili iş akışı eylemini seçin.
 9.  **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

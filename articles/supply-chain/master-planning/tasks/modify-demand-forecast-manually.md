@@ -42,3 +42,6 @@ Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir
 1. Microsoft Office içinde **Aç** üzerine tıklayın.
 2. **Tahmin talebini düzenle**'yi Excel'de tıklatın. Excel'de talep tahmin satırlarını ekleyebilir, silebilir ve düzenleyebilirsiniz. Excel'deki verileri göremiyorsanız "Oturumumu açık tut" seçeneği etkin olarak oturum açmanız ve veri bağlantısı uygulamasına güvenmeniz gerekir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

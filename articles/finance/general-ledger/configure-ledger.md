@@ -81,3 +81,6 @@ Bütçeleme işlevi kullanıyorsanız bütçe hareketlerini bir para biriminden 
 Gerçekleşmiş kazançlar ve kayıplar, tamamlanan hareketlerden elde edilen kar ve zararlardır. Kar ve zarar ekstresinde kaydedilirler. Gerçekleşmemiş kazançlar ve kayıplar, oluşan ancak hareketin tamamlanmadığı kar ve zararlardır. Diğer bir ifadeyle, bir faturayı deftere naklettiğiniz ancak faturanın henüz kapatılıp ödenmediği bir durum buna örnek oluşturabilir. Gerçekleşmemiş kazançlar ve zararlar bilançoya kaydedilir.
 
 İki para biriminin nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Çift para birimi](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

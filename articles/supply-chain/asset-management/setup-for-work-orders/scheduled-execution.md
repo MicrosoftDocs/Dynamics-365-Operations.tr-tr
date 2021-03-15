@@ -42,3 +42,6 @@ Zamanlanmış yürütmeyi ayarlamak için iş emri servis düzeylerini kullanabi
 6. **Kaydet**'i seçin.
 
 ![Planlı yürütme](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

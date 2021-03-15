@@ -57,3 +57,6 @@ Belge türü konumu **Azure depolama** olarak ayarlandığında Azure Depolama'y
 - [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md)
 - [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md)
 - [Belge yönetimini yapılandırma](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

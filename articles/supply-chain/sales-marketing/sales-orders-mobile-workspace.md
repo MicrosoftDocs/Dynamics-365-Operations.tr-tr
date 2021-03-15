@@ -141,3 +141,6 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 4.  Müşteriyi seçin.
 5.  **İletişim bilgileri**'ni veya **Satış siparişleri**'ni seçin. **Satış siparişleri** seçerseniz, müşterinin satış siparişlerinin listesi gösterilir.
 6.  **Satış siparişi**'ni seçin. Şimdi satış siparişi satırları hakkında bilgileri, sevkiyatlar hakkındaki bilgileri, müşteri iletişim bilgilerini ve siparişi alan için iletişim bilgilerini görüntüleyebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

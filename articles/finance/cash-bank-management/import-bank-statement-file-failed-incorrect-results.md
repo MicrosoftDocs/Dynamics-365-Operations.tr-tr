@@ -107,3 +107,6 @@ Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

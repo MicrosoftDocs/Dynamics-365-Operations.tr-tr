@@ -83,3 +83,6 @@ Belirli bir üretim emri veya planlı üretim emri için gerekli talebi, ilgili 
 Yerleşik master planlama altyapısı kullanıldığında bağımlı alt öğeler otomatik olarak tespit edilip master planlama çalışmalarına dahil edilse de Planlamayı En İyi Duruma Getirme bu eylemi gerçekleştirmez.
 
 Örneğin, A ürününün ürün reçetesi yapısından yapılan tek bir cıvata, B ürününü üretmek için de kullanılırsa A ve B ürünlerinin ürün reçetesi yapısındaki tüm ürünler filtreye dahil edilmelidir. Tüm ürünlerin filtrenin parçası olduğundan emin olmak çok karmaşık olabileceğinden, üretim emirleri söz konusu olduğunda filtre uygulanmış master planlama çalıştırmalarını kullanmamanızı öneririz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

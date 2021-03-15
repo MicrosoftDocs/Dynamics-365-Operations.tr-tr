@@ -96,3 +96,6 @@ Commerce Site Builder'da özel bir sayfayla parametreli URL'yi geçersiz kılmak
 [Sayfa içeriği erişilebilirliğini doğrulama](verify-accessibility.md)
 
 [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

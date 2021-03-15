@@ -62,3 +62,6 @@ Arama sonuçları listesi 10 öğeyle sınırlıdır. Aradığınızı sonuçlar
 ## <a name="development"></a>Geliştirme
 
 Geliştirme açısından bakıldığında, gezinti araması, kolay yararlanılan bir işlevdir çünkü menü öğelerinin dağıtımı ve arama sonuçlarında görünmeleri arasında neredeyse hiç gecikme yoktur. Menü öğeleri gezinti bölmesinden veya panodan bağlantılı olduğu sürece, otomatik olarak aranabilir olacaktır.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

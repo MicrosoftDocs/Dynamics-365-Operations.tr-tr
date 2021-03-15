@@ -131,3 +131,6 @@ Commerce site oluşturucuda dereceledirmeler ve incelemeler eğilimlerini görme
 [Derecelendirme ve incelemeleri yapılandırma](configure-ratings-reviews.md)
 
 [Dynamics 365 Retail'de ürün derecelendirmelerini eşitleme](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

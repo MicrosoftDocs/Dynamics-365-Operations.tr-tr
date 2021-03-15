@@ -86,3 +86,6 @@ Satış siparişi satırı girişi için **Madde numarası** alanına yazmaya ba
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

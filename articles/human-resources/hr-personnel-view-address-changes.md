@@ -128,3 +128,6 @@ Bazı durumlarda, gelecekte değiştirilecek bir adresi güncelleştirmek isteye
 > Bu adres değişiklikleriyle ilgili bir uyarı veya e-posta almak istiyorsanız, Eylem bölmesindeki **Seçenekler** sekmesinde yeni bir uyarı kuralı oluşturabilirsiniz. Uyarı kuralları ile ilgili daha fazla bilgi için bkz. [Uyarı kuralları oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
 > Adres değişiklikleri için bir iş akışı yapılandırmak istiyorsanız, uyarı kuralınızda **Harici olarak gönder** seçeneğini seçebilir ve iş olayını tetikleyip bir iş akışı yapılandırmak için Power Automate kullanabilirsiniz. Daha fazla bilgi için bkz. [İş olayları olarak uyarılar](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

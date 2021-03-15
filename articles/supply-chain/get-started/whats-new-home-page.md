@@ -67,3 +67,6 @@ Kasım 2019 öncesi sürümlerdeki yenilikleri veya değişiklikleri görmek iç
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | Kasım 2016    | [Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | Mayıs 2016         | [Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | Şubat 2016    | [Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Kapsam zaman dilimleri ayarlanırken, aşağıdaki noktaları göz önünde bulu
 - Hesaplanan talep edilen sevk tarihi kapsam zaman diliminin içinde değilse, şirketlerarası talep yok sayılır. Yerleşik master planlama için şirketlerarası talebin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
 - Bütçe tarihi kapsam zaman diliminin içinde değilse talep tahminleri yoksayılır. Yerleşik talep tahminleri için şirketlerarası talebin kapsam zaman dilimi ile sınırlı olmadığını unutmayın.
 - Planlamayı En İyi Duruma Getirme saat dilimine duyarlıdır. Tedarik ve talep sahalarındaki saat dilimini ve planlamanın çalıştırıldığı saati dikkate alır. Örneğin, master planlamanın Danimarka'daki bir sahadan 15 Ekim 11:00'da (GMT+1 saat dilimi) tetiklendiğini ve on günlük kapsam zaman diliminin kullanıldığını varsayalım. Bu durumda, Seattle'daki (GMT-8 zaman dilimi)bir sahadan tetiklenen tedarik ve talep, 25 Ekim 02:00'a kadar dahil edilir (= ana planlamanın tetiklenmesinin ardından on 24 saatlik gün sonra eksi dokuz saatlik zaman dilimi farkı). Yerleşik master planlama altyapısının yalnızca zaman diliminin tarihini dikkate aldığını unutmayın. Bu nedenle sonuç farklı olabilir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Bu hızlı sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam**'�
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Sipariş taahhüdü](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

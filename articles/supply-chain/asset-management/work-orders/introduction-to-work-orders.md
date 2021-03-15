@@ -118,3 +118,6 @@ Eylem Bölmesinin **İş emri** sekmesindeki **Proje** grubundaki düğmeler **P
 >[!NOTE]
 >Bir iş emrinde oluşturulan tahminleri, Master planlama çalıştırılırken dahil etmek için **Varlık yönetimi parametreleri** sayfasında seçilen tahmin modelini kullanın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

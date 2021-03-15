@@ -137,3 +137,6 @@ Gantt şemasını görüntülemek ve çalışmak için:
     - Görüntülenen bir iş emrini yeniden planlamak için, bunu seçip uygun yeni tarih ve saate sürükleyin.
 
 1. Herhangi bir değişiklik yaptıysanız bunları kaydetmek için Eylem Bölmesi'nde **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

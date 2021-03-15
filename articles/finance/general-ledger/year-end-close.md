@@ -87,3 +87,6 @@ Daha fazla bilgi için bkz. [Genel muhasebe defterini dönem sonunda kapatmak](c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

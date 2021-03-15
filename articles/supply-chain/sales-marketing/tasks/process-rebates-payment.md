@@ -50,3 +50,6 @@ Bu yordam, onaylanmış ve işlenmiş müşteri indirimlerini alacak dekontları
     * Toplam indirim miktarını temsil eden negatif bir miktar hareketinin, fatura referansı olmadan müşterinin hesabına eklendiğini unutmayın.   
 15. İptal'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

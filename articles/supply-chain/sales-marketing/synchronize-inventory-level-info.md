@@ -92,3 +92,6 @@ Gelişmiş Sorgu ve Filtreleme ile filtreler uygulayarak yalnızca belirli ürü
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Ürün stoku (Supply Chain Management'tan Field Service'e): Ürün stoku
 
 [![Veri tümleştirmede şablon eşleme](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

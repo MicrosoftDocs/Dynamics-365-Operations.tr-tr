@@ -112,3 +112,6 @@ Size atanan satınalma siparişini görüntüledikten ve iş akışı talimatlar
 5. Uygun olan eylemi seçin.
 6. **Görevi tamamla** sayfasında, bir açıklama girin. **Temsilci ata** eylemini seçerseniz, görevi atayacağınız bir temsilci seçmeniz gerekir.
 7. **Tamam**'ı seçin. Çalışma alanını yeniledikten sonra satın alma siparişi artık listenizde olmayacaktır. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

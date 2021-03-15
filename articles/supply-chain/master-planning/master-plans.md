@@ -56,3 +56,6 @@ Ayrıca, başlatma dinamik planını master planlamasını her çalıştırış�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

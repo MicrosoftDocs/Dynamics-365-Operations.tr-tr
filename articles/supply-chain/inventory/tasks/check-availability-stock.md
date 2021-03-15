@@ -59,3 +59,6 @@ Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun
 5. **Tamam**'a tıklayın.
 6. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

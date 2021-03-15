@@ -86,3 +86,6 @@ SSS sayfaya akordiyon modülü eklemek ve özelliklerini site oluşturucuda ayar
 [Sekme modülü](add-tab.md)
 
 [Metin bloğu modülü](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

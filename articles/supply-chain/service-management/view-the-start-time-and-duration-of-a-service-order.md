@@ -58,3 +58,6 @@ Bir servis siparişine yönelik zaman kaydının ne zaman başlatıldığını v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

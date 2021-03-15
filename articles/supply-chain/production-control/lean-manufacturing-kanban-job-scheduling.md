@@ -72,3 +72,6 @@ Gün veya hafta olarak kullanılabilir kapasite iş hücresine atanan takvime g�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

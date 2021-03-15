@@ -79,3 +79,6 @@ Aşağıdaki şekilde bir arıza merkezi kaydı örneği gösterilmiştir.
 >[!NOTE]
 >Çeşitli varlıklar veya varlık türleri için bir arıza raporu yazdırmak üzere **Varlık yönetimi** > **Raporlar** > **Varlıklar** > **Varlık arızası**'nı seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

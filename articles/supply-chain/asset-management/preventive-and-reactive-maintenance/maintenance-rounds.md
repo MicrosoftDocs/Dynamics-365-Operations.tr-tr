@@ -116,3 +116,6 @@ Aşağıdaki iki çizimde **Bakım sıralarını zamanla** iletişim kutusundaki
 - Sıraları düzenli aralıklarla zamanlamak için **Arka planda çalıştır** hızlı sekmesinde bir toplu iş ayarlayabilirsiniz.  
 - Sıra birkaç iş emri havuzuna dahil edilirse (bkz. [İş emri havuzları](../work-orders/work-order-pools.md)) bir kayıt her bir havuz için **Bakım zamanlaması havuzları aç** seçeneğinde gösterilir. Bu işlem, iş emri havuzlarının filtre seçeneklerini en iyi duruma getirmek için gerçekleştirilir.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

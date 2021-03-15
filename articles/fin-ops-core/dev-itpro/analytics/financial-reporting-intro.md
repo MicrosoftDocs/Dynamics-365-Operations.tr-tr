@@ -96,3 +96,6 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Mali raporlar oluşturma](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

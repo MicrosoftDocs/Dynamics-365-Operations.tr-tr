@@ -54,3 +54,6 @@ Veri reyonunu sıfırlamayı önermediğimiz durumlar bulunur. Bunlara aşağıd
 > Aşağıdaki noktalar, veri reyonu sıfırlamanın *gerçekleştirmeyeceği* iki işlemi belirtir. <br>
 > - Sıfırlama işlemleri rapor tasarımlarını temizlemez. <br>
 > - Sıfırlama işlemleri, seçili olmadıkça şirket verilerini veya kullanıcı verilerini temizlemez.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Bu yordam, kanban miktarı hesaplama ilkesi oluşturma ve miktarları ve kanban 
 8. Listede, seçili satırdaki bağlantıya tıklayın.
     * Önceki alt görev oluşturduğunuz Speaker2016 ilkesini seçin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

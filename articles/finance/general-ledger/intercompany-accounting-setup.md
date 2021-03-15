@@ -49,3 +49,6 @@ Karşılıklı bir ilişki, **Şirketlerarası muhasebe** sayfasında, **Karşı
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

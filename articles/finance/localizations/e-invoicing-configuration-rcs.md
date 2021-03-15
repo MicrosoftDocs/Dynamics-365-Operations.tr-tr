@@ -290,3 +290,6 @@ Bir elektronik faturalama özelliği diğerinden türetildiğinde, **Yeniden Tem
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Finance ve Supply Chain Management'ta elektronik fatura kesme](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

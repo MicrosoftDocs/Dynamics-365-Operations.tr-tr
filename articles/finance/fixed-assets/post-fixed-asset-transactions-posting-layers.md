@@ -48,3 +48,6 @@ Daha fazla bilgi için bkz. [Türetilmiş defterler](derived-books.md) ve [Türe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

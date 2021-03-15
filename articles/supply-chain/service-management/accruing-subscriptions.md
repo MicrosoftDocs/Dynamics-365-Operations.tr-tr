@@ -151,3 +151,6 @@ Tahakkuk eden geliri deftere naklederken oluşturulan genel muhasebe hareketleri
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

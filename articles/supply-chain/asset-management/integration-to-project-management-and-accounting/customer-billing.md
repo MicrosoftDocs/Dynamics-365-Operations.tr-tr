@@ -177,3 +177,6 @@ Bu bölümde, önceki bölümde üzerinde çalıştığınız iş emri üzerinde
 1. Eylem Bölmesi'ndeki **Faturalama** sekmesinde, **Yeni fatura teklifi**'ni seçin.
 1. **Fatura teklifi oluştur** iletişim kutusundaki **Proje hareketleri** bölümünde, faturalandırmak istediğiniz her satır için **Seç** onay kutusunu seçin.
 1. İletişim kutusunu kapatmak ve yeni fatura teklifini görüntülemek için **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

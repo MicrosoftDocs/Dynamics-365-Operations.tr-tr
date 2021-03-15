@@ -220,3 +220,6 @@ Uyumluluk denetlemesini çalıştırmak için aşağıdaki adımları uygulayın
 1. Eylem Bölmesinde, **Yükler** sekmesindeki **Eylemler** grubunda **Uyumluluk denetimi**'ni seçin.
 
 Denetimin sonuçlarını bildiren bir ileti alırsınız.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

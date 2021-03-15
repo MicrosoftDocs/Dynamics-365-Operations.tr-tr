@@ -333,3 +333,6 @@ Transfer emirleri **Teslimat tarihi denetimi** özellikleri kullanılmadan oluş
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Eldeki fiziksel stoğu negatif olan bir plaka kullanabilir miyim?
 
 Özellik yalnızca pozitif fiziksel elde stok miktarlarını destekler. Bir transfer emrine plaka atamadan önce ambar ve stok durumu düzeyinde pozitif fiziksel eldeki miktarlara sahip olduğunuzdan emin olun.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

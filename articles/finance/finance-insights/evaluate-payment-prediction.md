@@ -100,3 +100,6 @@ Tahmin modellerinin nasıl değerlendirileceği hakkında daha fazla bilgi için
 
 #### <a name="privacy-notice"></a>Gizlilik bildirimi
 Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

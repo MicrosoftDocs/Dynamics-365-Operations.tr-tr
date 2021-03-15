@@ -48,3 +48,6 @@ Bu yordam, Maliyetlendirme tablosunu temel alan, çok düzeyli açılım kullana
 11. Sayfayı kapatın.
 12. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Bu yordam, bir ölçü birimi tanımlamayı, bu birim ve açıklaması için çe
 6. **Tamam**'a tıklayın.
 7. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

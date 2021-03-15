@@ -112,3 +112,6 @@ Aşağıdaki tabloda, Ambar yönetimi modülü için kullanılabilir kayıtlı g
 | Tüm dalgalar | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Dalga işleme için kayıtlı görünüm |
 | Yük planlama çalışma ekranı | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | İş planlama workbench'i için kayıtlı görünüm |
 | İş ayrıntıları | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | İş ayrıntıları sayfası için kayıtlı görünüm |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Bir mobil cihaz menü öğesini malzeme çekme satırı özeti sağlayacak şeki
     - Gereksinim duyduğunuzda, yedi taneye kadar ek görüntüleme alanı eklemek için kalan **Görüntüleme alanı** alanlarını kullanın. Her **Görüntüleme alanı** alanında, bir iş satırı alanının adını seçin. Böylece her satır, o alan için bir değer gösterir. Değerler, buradan seçtiğiniz sırada gösterilir. Yedi değere ihtiyacınız yoksa, **Görüntüleme alanı** alanlarından bazılarını boş bırakabilirsiniz.
 
 1. Eylem Bölmesi'nde **Kaydet**'i seçin ve ardından **Alan listesi** sayfasını kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

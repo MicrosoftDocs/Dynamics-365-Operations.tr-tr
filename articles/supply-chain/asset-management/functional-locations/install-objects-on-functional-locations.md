@@ -82,3 +82,6 @@ Kurulum verileri kullanılabilir olduktan sonra bir varlık oluşturmaya hazır 
 1. **Tüm işlem yapılacak yerleşimler** sayfasında, varlığın otomatik olarak oluşturulmasını istediğiniz işlem yapılacak yerleşimin, bu amaçla oluşturduğunuz işlem yapılacak yerleşim türünü kullandığından emin olun.
 2. Listeden işlem yapılacak yerleşimi seçin.
 3. **İşlem yapılacak yerleşim durumunu güncelleştir**'i ve ardından bu amaçla oluşturduğunuz yaşam döngüsü durumunu seçin. Bir varlık artık işlem yapılacak yerleşime otomatik olarak yüklenir. Bu varlık, işlem yapılacak yerleşimle aynı ada sahip olur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

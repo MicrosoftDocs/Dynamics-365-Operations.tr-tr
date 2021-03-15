@@ -50,3 +50,6 @@ Fiyat ayarlamaları ve iskontolar ürünlere, varyantlara veya kategorilere uygu
 - **Sevkiyat iskontosu** – siparişte, hareket toplamı belirtilen tutardan fazla olduğunda uygulanan iskonto (örneğin, iki günlük sevkiyat veya bir gecede nakliye gibi) sipariş için kullanılır.
 
 Hem fiyat ayarlaması hem de iskontolar fiyat gruplarına bağlanabilir. Fiyat grupları daha sonra kanallar, kataloglar, ilişkiler ve sadakat programları ile ilişkilendirilebilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

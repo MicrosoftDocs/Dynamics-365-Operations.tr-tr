@@ -39,3 +39,6 @@ Mobil cihaz uygulama öykünücüsüne erişmek için yönetici dışında herha
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Mobil cihaz uygulama öykünücüsü yalnızca yönetici hesabıyla çalışacak şekilde ayarlanmıştır. Tüm test ve canlı süreç amaçları için ambar uygulamasını kullanmanızı öneririz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

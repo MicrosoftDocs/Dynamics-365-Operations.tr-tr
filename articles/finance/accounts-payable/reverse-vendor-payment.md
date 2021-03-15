@@ -82,3 +82,6 @@ Ters işlem uygulanan çek bir müşteri para iadesi için çıkarıldıysa, ayr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

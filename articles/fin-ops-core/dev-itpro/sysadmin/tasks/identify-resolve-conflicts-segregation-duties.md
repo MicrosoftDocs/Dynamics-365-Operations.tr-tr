@@ -59,3 +59,6 @@ Rollere kullanıcı atadığınızda, görev ayrımı kuralları otomatik olarak
 
 > [!NOTE]
 > Aynı kullanıcı için birden fazla çakışma listeleniyorsa kullanıcı kaydını seçin ve atanan rolleri **Kullanıcılar** sayfasında değerlendirin. Bu çakışmayı önlemek için, eklendikten veya değiştirildikten sonra her kuralı doğrulayın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

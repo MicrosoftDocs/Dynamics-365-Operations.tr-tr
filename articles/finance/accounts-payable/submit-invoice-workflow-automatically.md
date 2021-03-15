@@ -52,3 +52,6 @@ Aşağıdaki koşullardan biri karşılanırsa, fatura satırı otomatik olarak 
 - Fatura satırının **Otomatik giriş eşleştirme durumu** değeri **Başarısız oldu** olur.
 - Fatura kullanılıyor.
 - Fatura iş akışı sisteminde.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

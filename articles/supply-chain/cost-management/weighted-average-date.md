@@ -195,3 +195,6 @@ Yeni cari ortalama maliyet fiyatı 27,50 ABD Doları tutarındaki mali ve fiziks
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

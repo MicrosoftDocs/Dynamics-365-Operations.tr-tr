@@ -79,3 +79,6 @@ Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu konuyu kullanın. Uy
 4. **Tanım** alanına bir değer girin.
 5. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

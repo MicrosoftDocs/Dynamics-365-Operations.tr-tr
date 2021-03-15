@@ -535,3 +535,6 @@ Bu örnekte, tüm eylemler ayrı yürütülebilecek şekilde ayarlanmış olmal�
 ![Mesaj durumunu güncelleştirmek](media/update-status.png)
 
 Mesaj durumu **Hazırlanmış** olarak güncelleştirilir ve şimdi raporu **Rapor oluştur**'u seçerek oluşturabilirsiniz. Rapor oluşturulur ve mesaj durumu ve eylem günlüğü güncelleştirilir. Oluşturulan raporu görüntülemek için **Ek** düğmesini seçin, sayfanın sağ üst köşesinde bulunan (ataş simgesi).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Bu yordam, serbest bırakılan bir ana ürüne ve onun ürün çeşitlerine nas�
 2. Listede, seçili satırı işaretleyin.
 3. Ürün yaşam döngüsü durumu alanına bir değer girin veya buradan bir değer seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

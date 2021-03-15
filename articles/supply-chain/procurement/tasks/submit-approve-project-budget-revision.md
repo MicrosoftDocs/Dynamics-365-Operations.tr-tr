@@ -45,3 +45,6 @@ Bu görev, SSI veri kümesini kullanır.
 12. Açıklama alanında bir değer girin.
 13. Gönder'i tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

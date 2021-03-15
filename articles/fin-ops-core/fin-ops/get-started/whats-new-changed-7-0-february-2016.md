@@ -1033,3 +1033,6 @@ Yeni özellik eklenmemiştir.
 [Finance and Operations giriş sayfasındaki yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

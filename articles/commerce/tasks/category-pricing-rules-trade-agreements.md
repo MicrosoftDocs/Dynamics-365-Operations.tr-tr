@@ -58,3 +58,6 @@ Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret an
 24. Kategori fiyatı kuralları sekmesini tıklatın.
     * Kanal için belirli kategori fiyatlandırma kuralları bu listede gösterilir.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

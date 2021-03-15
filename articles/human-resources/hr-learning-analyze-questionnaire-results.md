@@ -69,3 +69,6 @@ Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine g
 2. Sonuçlar'a tıklayın.
 3. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Yöneticiler, kimlik doğrulaması yapılmış kullanıcıların web etkinliği 
 ### <a name="custom-extensions"></a>Özel uzatmalar
 
 Yöneticiler, kullanıcılar için iptal etme deneyimini yönetmek amacıyla kendi uzantılarını oluşturabilir. Daha fazla bilgi için, bkz. [Perakende Sunucu API'lerini çağır](e-commerce-extensibility/call-retail-server-apis.md) ve [Çevrimiçi kanal genişletilebilirliği](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

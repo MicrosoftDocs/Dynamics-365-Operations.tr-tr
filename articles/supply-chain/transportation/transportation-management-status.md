@@ -48,3 +48,6 @@ Taşıma durumunu bir taşıyıcı durumuna eşlemek için şu adımları izleyi
 1. Seçili sevkiyat taşıyıcısı koduyla eşleştirmek istediğiniz taşıma durumu kodunu seçin.
 1. Sevkiyat taşıyıcısı tarafından kullanılan harici kodu girin.
 1. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

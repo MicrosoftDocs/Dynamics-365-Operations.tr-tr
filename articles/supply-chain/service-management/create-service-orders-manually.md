@@ -101,3 +101,6 @@ Servis siparişlerini, bir servis sözleşmesi kullanarak veya **Servis sipariş
 
 [Servis siparişleri oluştur (sınıf formu)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

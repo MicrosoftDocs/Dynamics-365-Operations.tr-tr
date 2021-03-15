@@ -79,3 +79,6 @@ Kredi kartı onayını hükümsüz kılmak için, ödeme türü Kredi kartı olm
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

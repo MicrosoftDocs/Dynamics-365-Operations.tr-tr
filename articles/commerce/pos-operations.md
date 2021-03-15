@@ -208,3 +208,6 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 § POS çevrimdışı olduğunda, yalnızca geçerli çevrimdışı veritabanındaki hareketler iade için geri çağrılabilir.
 
 \*\* POS çevrimdışı olduğunda, yalnızca geçerli çevrimdışı kanal veritabanındaki hareketler günlükte gösterilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

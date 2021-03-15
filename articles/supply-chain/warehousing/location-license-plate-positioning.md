@@ -280,3 +280,6 @@ Bu senaryo için, kullanıcının, iş yapması amacıyla ambar *61* için ayarl
     ![Pozisyon 1 konumu](media/LocationLicensePlatePositioning.png "Pozisyon 1 konumu")
 
 1. Konum için oluşturduğunuz lisans plakası kodunu girin ve satış siparişini seçmek için istemleri izleyin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

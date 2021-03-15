@@ -120,3 +120,6 @@ Bir çekirdek ürünle ilgili sonuçları el ile eklemek veya kaldırmak için a
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

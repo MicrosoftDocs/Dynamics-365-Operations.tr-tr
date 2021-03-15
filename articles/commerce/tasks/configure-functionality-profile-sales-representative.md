@@ -36,3 +36,6 @@ Bu yordam, USRT demo veri şirketini kullanarak bir mağazanın satış temsilci
 4. Satış temsilcisi istemi alanında, bir seçenek belirleyin.
 5. Satış temsilcisi iste alanında Evet'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

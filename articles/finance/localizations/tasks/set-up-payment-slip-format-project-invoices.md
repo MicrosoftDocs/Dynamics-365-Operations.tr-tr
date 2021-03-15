@@ -65,3 +65,6 @@ Bu işlevsellik, birincil adresi Danimarka içinde olan tüzel kişilikler için
 16. Kaydet'e tıklayın.
 17. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

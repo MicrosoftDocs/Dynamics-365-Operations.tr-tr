@@ -41,3 +41,6 @@ Hesap planıyla bir çakışma varsa, hesap planı sınırlayıcısı ve proje/a
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Güncelleştirilen sınırlayıcıların ortamınız için gerekip gerekmediğini belirleme 
 Yükseltilen ortamınızdaki sınırlayıcılarda çakışma varsa, bölümlenmiş giriş denetimi veya boyut giriş denetimine değer girerken tutarsızlıkla karşılaşabilirsiniz. Bunun anlamı, hesap ve boyut birleşimleri girerken, daima aramaları veya bir açılır menüyü kullanmanız gerekeceğidir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

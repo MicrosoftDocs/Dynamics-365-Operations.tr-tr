@@ -78,3 +78,6 @@ Alım fiyatı 100.000, faktör 20, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

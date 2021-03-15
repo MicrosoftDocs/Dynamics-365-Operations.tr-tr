@@ -98,3 +98,6 @@ SAS, değişiklik yönetimi altındaysa, siparişin veya teslimat bakiyesinin ip
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

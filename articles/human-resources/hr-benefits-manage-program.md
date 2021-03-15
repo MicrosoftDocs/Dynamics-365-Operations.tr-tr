@@ -64,3 +64,6 @@ Bazı durumlarda bir organizasyon belirli kazançları durdurur. Bu durumda, kaz
 Benzer şekilde, toplu kazanç uzatma özelliği, bir kazancı başlangıçta planladığınızdan daha uzun süre sunmaya karar verdiğinizde hem bu kazancın hem de bu kazanca kayıtlı çalışanların geçerlilik bitiş tarihini uzatmanıza izin verir.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

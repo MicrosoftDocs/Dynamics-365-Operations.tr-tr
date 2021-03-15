@@ -41,3 +41,6 @@ Birden fazla ödeme planını onaylamak için, aşağıdaki adımları izleyin.
     - Tüm defterleri onaylamak için **Tüm defterler için** parametresini açın.
 
 Yeni onaylanan defterlerle ilgili bilgiler **Onaylanan defterler** sayfasında gösterilir. Ödeme planları onaylandıktan sonra, kiralamalara göre ilk kabul günlüğü girişleri deftere nakledilebilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

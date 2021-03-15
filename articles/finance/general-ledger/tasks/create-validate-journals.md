@@ -42,3 +42,6 @@ Bu yordam, günlükler ile günlük satırları oluşturur ve doğrular. Bu yord
 12. **Naklet**'e tıklayın.
 13. **Fiş**'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

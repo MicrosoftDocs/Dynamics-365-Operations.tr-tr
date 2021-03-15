@@ -146,3 +146,6 @@ Erişilebilir bilgiler şunlardır: satıcı adı, adresleri, iletişim bilgiler
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

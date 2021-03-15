@@ -213,3 +213,6 @@ Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan so
 [İçerik teslim ağı (CDN) için destek ekleme](add-cdn-support.md)
 
 [Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

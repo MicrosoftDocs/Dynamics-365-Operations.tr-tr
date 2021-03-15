@@ -40,3 +40,6 @@ Bu yordamda, boyut tabanlı yapılandırmalar için kullanılacak ana ürünün 
 7. İleri düğmesini tıklatın.
 8. Son düğmesini tıklatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

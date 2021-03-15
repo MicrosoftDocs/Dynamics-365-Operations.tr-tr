@@ -61,3 +61,6 @@ Bu yordam bir müşteri arama, yeni bir sipariş oluşturma, bir ürün arama ve
 
 [Satış noktasında teslimat şeklini değiştirme](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ April, **Tüm satıcılar** sayfasını seçerek **Satıcı işlemleri** sayfas�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

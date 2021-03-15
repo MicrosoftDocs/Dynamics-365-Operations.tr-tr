@@ -118,3 +118,6 @@ Finance and Operations alanı | Eşleme türü | Müşteri etkileşimi alanı | 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

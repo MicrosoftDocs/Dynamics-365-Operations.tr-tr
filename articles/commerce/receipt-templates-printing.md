@@ -85,3 +85,6 @@ Giriş profilleri donanım profili yoluyla doğrudan yazıcılara atanır.
 
 > [!NOTE]
 > İki yazıcı kullanılıyorsa, standart 40 sütunluk termal faturaları yazdırmak için bir yazıcı kullanılabilir. İkinci yazıcı normalde daha fazla bilgi gerektiren tam sayfa giriş türlerini yazdırmak için kullanılır. Bu giriş türleri arasında müşteri sipariş girişleri ve müşteri faturaları bulunur.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Faturaları diğer tüzel kişiliklerde kapatan bir tüzel kişilikte bir ödeme
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

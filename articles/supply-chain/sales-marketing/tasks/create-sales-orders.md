@@ -67,3 +67,6 @@ Kuruluşunuz tarafından satılan ürünler; konfigürasyon, renk, boyut ve stil
     **Toplamlar** sayfasında tüm siparişin ayrıntıları görüntülenir. Bu ayrıntılar, nihai satır iskontoları için ayarlama yapılmış tüm satır net tutarlarının toplamı olan alt toplam tutarını; nihai sipariş düzeyinde iskonto, masraflar ve satış vergisi için ayarlama yapılmış bir alt toplam tutarı olan toplam fatura tutarını; müşterinin kredi limiti durumunu ve daha fazlasını kapsar. Fatura tutarı, müşterinin fatura belgesinde görünecek olan tutardır.  
     
 3. **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

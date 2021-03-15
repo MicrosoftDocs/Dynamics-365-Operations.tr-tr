@@ -72,3 +72,6 @@ Bir e-ticaret sitesi özelliği veya modülü gerekli olmayan bir tanımlama bil
 [Tanımlama bilgisi izin modülü](cookie-consent-module.md) 
  
 [Üst bilgi modülü](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

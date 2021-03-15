@@ -58,3 +58,6 @@ Bu yordam, bir satıcı hesabı oluşturmayı ve adres ve kişi bilgileri ekleme
 7. Sayfayı kapatın.
 8. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

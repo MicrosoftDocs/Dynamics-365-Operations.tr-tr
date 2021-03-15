@@ -76,3 +76,6 @@ Kaynaklar, iş planlamayla işlere atanır. İş siparişi başına kaynaklar i�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

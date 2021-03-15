@@ -68,3 +68,6 @@ Satıcı faturası iş akışı geçmişiyle ilgili kolay okunabilir bir görün
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Satıcı fatura otomasyonu - Birden fazla fatura için otomatik işlemeyi sürdürme
 İçeri aktarılan bir fatura otomatik işlem aracılığıyla iş akışına başarılı bir şekilde gönderilmezse sistem bu faturayı diğer otomatik işlemlerden kaldırır. Borç hesapları memuru, otomatik işlem faturayı iş akışına yeniden göndermeden önce faturayı inceleyip düzenleyebilir. Bir hata nedeni birden çok fatura için aynı düzeltme ile çözülebiliyorsa otomatik işlemi **Otomatik fatura işlemeyi sürdür** sayfasından otomatik işlemi yeniden başlatabilirsiniz. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

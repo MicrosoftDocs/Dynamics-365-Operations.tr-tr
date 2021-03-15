@@ -139,3 +139,6 @@ Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listes
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Fiili ağırlık maddesini birleştirdikten sonra neden stok günlüğünde fiili ağırlık bilgilerini göremiyorum?
 Fiili ağırlık maddelerinin toplu işlerini tüm diğer öğeler gibi birleştirebilirsiniz. Ancak, fiili ağırlık bilgileri stok günlüğünde görüntülenmez. Toplu iş birleştirmeyi stok günlüğüne transfer etmeden önce fiili ağırlık bilgilerini doğrulamanız önerilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Ayrıca, iş oluşturma sırasında işi otomatik olarak bölme kurallarındaki 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

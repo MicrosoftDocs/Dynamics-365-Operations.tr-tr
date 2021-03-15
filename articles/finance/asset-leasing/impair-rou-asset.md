@@ -101,3 +101,6 @@ Aşağıdaki tablolarda, bu örnekte kullanılan kiralama için **Genel** ve **�
 7. Değer düşüşünün net etkisini görmek için, yükümlülük ve varlık hareketleri tablolarına gidin. Değer düşüşü giderinin ROU varlığını azaltmasına rağmen kiralama yükümlülüğü defter tutarını değiştirmediğine dikkat edin.
 
 Değer düşüşünün dikkate almanız gereken başka bir etkisi daha bulunur. ROU varlık tutarı artık kiralama yükümlülüğünden çok daha düşük olduğundan, tutar daha önce olduğundan farklı bir şekilde amorti edilmelidir. Özellikle, varlık artık hareket tarihinden başlayarak kalan 84 kiralama ayı boyunca sabit esasa göre amorti edilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

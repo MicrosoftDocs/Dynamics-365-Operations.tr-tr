@@ -93,3 +93,6 @@ Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası i
 - [Soru formları tasarlama](../../../talent/design-questionnaires.md)
 - [Soru formlarını dağıtma ve planlama](../../../talent/distribute-questionnaires.md)
 - [Soru formlarının sonuçlarını görüntüleme ve değerlendirme](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

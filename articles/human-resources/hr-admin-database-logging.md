@@ -87,3 +87,6 @@ Veritabanı günlüğü temizleme işlemi ayarlamak için aşağıdaki adımlar�
    - Oluşturma tarihi ve saati
 
 3. Günlük temizleme görevinin ne zaman çalıştırılacağını belirlemek için **Veritabanı günlüklerini temizleme** sekmesini kullanın. Varsayılan olarak, veritabanı günlükleri 30 gün süreyle kullanılabilir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

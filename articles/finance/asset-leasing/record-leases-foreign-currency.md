@@ -52,3 +52,6 @@ Yabancı bir para biriminde gösterilen bir kiralamayla ilgili amortisman gider 
 Nihai amortisman gider tutarı biraz farklı bir döviz kuru kullanılarak hesaplanabilir ve böylece ROU varlığı hem muhasebe para biriminde hem de raporlama para biriminde tümüyle amorti edilir.
 
 Kiralama **Ertelenmiş kira** olarak yeniden sınıflandırıldığında sistem, muhasebe ve raporlama para birimlerinin döviz kurları zaten tanımlanmışsa, bunları otomatik olarak temizler.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

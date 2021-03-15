@@ -64,3 +64,6 @@ Servis düzeyi sözleşmesi tanımlanan bir servis siparişi için zaman kaydın
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Bu görev kılavuzu, bir satınalma siparişinden satıcı faturası oluşturman
 19. **Naklet**'e tıklayın.
 20. Formu kapatın. Satınalma siparişinin artık alındı ancak faturalanmadı olarak listelenmediğine dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

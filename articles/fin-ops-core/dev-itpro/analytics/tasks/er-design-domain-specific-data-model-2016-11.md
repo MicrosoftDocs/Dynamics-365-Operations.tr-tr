@@ -187,3 +187,6 @@ Seçili yapılandırma için yeni bir veri modeli oluşturuyorsunuz. Bu yapılan
 65. Kaydet'e tıklayın.
 66. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

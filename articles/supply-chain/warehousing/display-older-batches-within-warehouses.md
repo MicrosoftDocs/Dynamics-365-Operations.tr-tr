@@ -39,3 +39,6 @@ Ambar içindeki eski toplu işleri görüntüle mobil cihaz menü öğelerinde y
 
 - **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri** altında, **Mevcut işi kullan**'ı menü öğesi için **Evet** olarak ayarlayın ve **En eksiyi çek** altında **Uyar**'ı seçin. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

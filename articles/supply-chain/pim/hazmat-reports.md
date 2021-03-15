@@ -109,3 +109,6 @@ Sisteminizde tehlikeli malzemeler özelliği açıksa **konşimento** raporunda,
 ## <a name="packing-list-report"></a>Ambalaj listesi raporu
 
 Sisteminizdeki tehlikeli malzemeler özelliği açık olduğunda, ambalaj listelerinde maddenin sevkiyat yazdırma metniyle ilgili ek bilgiler bulunur. Bu rapor, her zamanki gibi **Tüm yükler** sayfasında bulunabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

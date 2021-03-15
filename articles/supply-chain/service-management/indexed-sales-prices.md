@@ -42,3 +42,6 @@ Abonelik ücreti oluştururken abonelik satış fiyatı için endeksi ayarlarsı
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

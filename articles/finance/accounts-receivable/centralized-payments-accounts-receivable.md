@@ -295,3 +295,6 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam West)    |              | 75,00         |
 | Vade başlangıcı Fabrikam East (Fabrikam West) | 25,00        |               |
 | Alacak hesapları (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Bu konu, kiralama kimlikleri için numara serilerinin nasıl oluşturulacağın�
 4. **Kiralama Kimliği** referansı için bir numara serisi belirleyin. Bu numara serisi, her bir kiralama için benzersiz tanımlayıcı oluşturmak amacıyla kullanılır.
 5. **İşlem Kimliği** referansı için bir numara serisi belirleyin. Bu numara serisi, her bir dizin yeniden değerleme işlemi için benzersiz tanımlayıcı oluşturmak amacıyla kullanılır.
 6. **Sonlandırma Teklifi Kimliği** referansı için bir numara serisi belirleyin. Bu numara serisi, her bir sonlandırma teklifi için benzersiz tanımlayıcı oluşturmak amacıyla kullanılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

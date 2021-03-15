@@ -117,3 +117,6 @@ Yaklaşan bir Commerce sürümünde perakendeciler, **Tüm mağazalarda arama** 
 
 Beklenmedik performans sorunlarının engellenmesine yardımcı olmak için, bu yapılandırma **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING** adında bir deneme bayrağı arkasında gizlenir. Bu nedenle, kullanıcı arayüzünü (UI) ayarlayarak **Varsayılan müşteri arama modu**'nu göstermek için, satıcı kullanıcı kabul testi (UAT) ve üretim ortamları için bir destek bileti oluşturmalıdır. Bilet alındıktan sonra, mühendislik ekibi, perakendecinin, performansı değerlendirmek ve gereken tüm değerlendirmeleri uygulamak için üretim dışı ortamlarında test yapmasını sağlamak üzere perakendeciyle birlikte çalışacaktır.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

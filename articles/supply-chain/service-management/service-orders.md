@@ -88,3 +88,6 @@ Yılın ikinci yarısında müşteriniz servis ziyaretlerinin çok az sıklıkta
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

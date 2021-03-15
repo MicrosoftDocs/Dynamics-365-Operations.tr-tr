@@ -54,3 +54,6 @@ Bu yordam, boyut değerleriyle bir Commerce kanalı mali boyutu oluşturma konus
 24. Listede, seçili satırdaki bağlantıya tıklayın.
 25. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

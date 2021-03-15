@@ -360,3 +360,6 @@ Elektronik faturalama eklenti özelliğinin yaşam döngüsünü yönetmek için
 
     > [!NOTE]
     > **Evet**'i seçtiğinizde, yapılandırma versiyonlarının durumu otomatik olarak **Tamamlandı**'dan **Paylaşılanlar** olarak değiştirilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

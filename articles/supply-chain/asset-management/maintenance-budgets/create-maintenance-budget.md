@@ -58,3 +58,6 @@ Ayrıca mevcut bütçeyi kopyalayarak yeni bir bakım bütçesi oluşturabilirsi
 
 > [!NOTE]
 > Bakım bütçesi yalnızca bakım zamanlaması satırlarını temel alan bütçe maliyetlerini hesaplar. Aynı dönemdeki fiili maliyetleri **Varlık maliyeti denetimi** sayfasında hesaplayabilirsiniz. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

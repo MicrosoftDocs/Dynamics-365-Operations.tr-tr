@@ -110,3 +110,6 @@ Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

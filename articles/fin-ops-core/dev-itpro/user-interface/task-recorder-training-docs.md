@@ -123,3 +123,6 @@ Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemele
 [Görev Kaydedici](task-recorder.md)
 
 [Görev Kaydediciyle Zengin Yardım Konuları Oluşturma (dış bağlantı)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

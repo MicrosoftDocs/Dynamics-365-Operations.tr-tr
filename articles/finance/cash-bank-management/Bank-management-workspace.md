@@ -63,3 +63,6 @@ Verinin en son ne zaman güncelleştirilmiş olduğu, grafiğin üstünde görü
 -   Döviz cinsinden bakiye
 
 Tüm şirket arasındaki banka analizlerini **Nakit genel bakışı – tüm şirketler** çalışma alanından görebilirsiniz. Daha fazla bilgi için bkz. [Nakde genel bakış Power BI içeriği](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

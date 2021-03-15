@@ -66,3 +66,6 @@ Oturum açma hizmeti, avuç içi tarayıcılar gibi ek genişletilmiş oturum a�
 ## <a name="using-extended-logon"></a>Genişletilmiş oturum açmanın kullanılması
 
 Genişletilmiş oturum açma yapılandırıldığında ve bir çalışana barkod ya da manyetik bant atandığında, o çalışanın sadece POS oturum açma sayfası ekrana geldiğinde kartını geçirmesi veya taratması gerekir. Oturum açma işlemine devam edebilmesi için önce bir parola da gerekliyse, çalışandan parolasını girmesi istenir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

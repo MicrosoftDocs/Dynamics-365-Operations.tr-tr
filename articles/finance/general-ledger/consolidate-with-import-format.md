@@ -42,3 +42,6 @@ Aşağıdaki tabloda, içeri aktarma sırasında konsolidasyon yaparken kullanma
 | 6            | İş Kolu, 1 Departman, 2 | Segment emrinde tanımlanan mali boyut öznitelikleri.<p>Özniteliklerin nasıl tanımlandığını doğrulamak için **Dışarı Aktar** sayfasını kullanabilirsiniz.</p> |
 | 7            | 002,1,658 | <ul><li>Mali boyut değeri</li><li>RecordDimensions'da sağlanan dizin olarak mali boyut</li><li>RecordTrans veya RecordTrans2'deki benzersiz kayıt kimliğiyle ilişkili belirsiz, benzersiz kayıt kimliği</li></ul> |
 | 8            | 002,1,1 | <ul><li>RecordBudget'taki hareketle ilişkili boyut değerleri</li><li>RecordDimensions'da sağlanan dizin olarak mali boyut</li><li>Dosyadaki hareket satırlarının sırasına göre hizalanmış belirsiz bir satır kaydı kimliği</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

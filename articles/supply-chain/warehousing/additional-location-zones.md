@@ -57,3 +57,6 @@ Bölge alanlarını kullanmak için ek bir kurulum gerekmez.
 7. **Oluştur**'u seçin.
 8. Yeni konumların eklendiğini bildiren iletiler alırsınız. İletileri görüntülemek için **iletileri göster** düğmesini seçin.
 9. **Ambar yönetimi \> Kurulum \> Ambar \> Konumlar** öğesine gidin. Yeni konumlar listede görünür ve tüm bölge alanları (yani, varolan bölge alanı ve yeni ek bölge alanları) kullanılabilir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

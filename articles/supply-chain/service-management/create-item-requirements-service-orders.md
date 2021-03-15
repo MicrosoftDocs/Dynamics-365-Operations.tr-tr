@@ -71,3 +71,6 @@ Servis siparişleri için madde gereksinimleri bir proje aracılığıyla işlen
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

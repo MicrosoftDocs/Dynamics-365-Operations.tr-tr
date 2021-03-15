@@ -239,3 +239,6 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 1. **Tamam**'ı seçin.
 
     ![Bakım talebine ek ekleme](media/am-mobile-10.png "Bakım talebine ek ekleme")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

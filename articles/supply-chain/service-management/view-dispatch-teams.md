@@ -52,3 +52,6 @@ Bir takıma çalışan atama hakkında daha fazla bilgi için bkz. [Tercih edile
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

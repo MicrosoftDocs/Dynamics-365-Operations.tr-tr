@@ -53,3 +53,6 @@ Daha fazla bilgi için bkz. [Konsolidasyon grupları ve ek konsolidasyon hesapla
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu adımları borç hesaplar�
 24. Sayfayı kapatın.
 25. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

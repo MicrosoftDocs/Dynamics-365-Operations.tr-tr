@@ -61,3 +61,6 @@ Kritikliği ayarlamak için önce varlık kurulumunda kullanılması gereken kri
 - İş emrindeki kritiklik, iş emrine bir iş emri satırı eklendiğinde veya silindiğinde yeniden hesaplanır.
 - İş emri birkaç iş emri işi içeriyorsa, daima **Kritiklik türleri** sayfasındaki **Faktör** alanına göre en yüksek kritiklik, iş emri üzerinde kullanılır.
 - Genellikle, varlık kritikliği zaman içinde değişebilir. Kritiklik yeni ekipman satın alma, yenilemeler gibi durumlardan etkilenebilir. Kritiklik tanımlarınızın geçerli üretim kurulumunuz ile eşleştiğinden emin olmak için varlık kritikliklerini düzenli aralıklarla (örneğin, yılda bir veya her iki yılda bir) yeniden değerlendirmeyi düşünün.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

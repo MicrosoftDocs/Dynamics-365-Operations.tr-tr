@@ -60,3 +60,6 @@ Varsayılan değer **Hayır**'dır, bu da ödeme yönteminin iadeler için izin 
 
 Bir işlem hem girişli iade hem de giriş olmayan iade ise, kısıtlama koşulu zorlanmaz çünkü işlem, girişli bir iade iş akışı olacaktır. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

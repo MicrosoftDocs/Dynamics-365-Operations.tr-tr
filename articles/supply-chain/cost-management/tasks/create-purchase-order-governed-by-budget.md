@@ -61,3 +61,6 @@ Bu yordamı, kullanılabilir bütçeye karşı denetleyen bir satınalma sipari�
 4. Bütçe denetim hataları veya uyarılarını görüntüleyin.
 5. Kapat’a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

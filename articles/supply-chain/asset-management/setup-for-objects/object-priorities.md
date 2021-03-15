@@ -52,3 +52,6 @@ Bu konuda Varlık Yönetimi'ndeki varlık hizmet düzeyleri açıklanmaktadır. 
 
 > [!NOTE]
 > **Varlık hizmeti düzeyleri** sayfasındaki bir varlık hizmet düzeyi kaydını bir iş emri üzerinde zaten kullandıktan sonra değiştirirseniz, bakım taleplerindeki ve iş emirlerindeki hizmet düzeyi buna göre güncelleştirilmez.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

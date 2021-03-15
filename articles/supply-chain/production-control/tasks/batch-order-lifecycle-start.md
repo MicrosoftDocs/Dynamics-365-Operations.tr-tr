@@ -91,3 +91,6 @@ Bu yordamı başka bir veri kümesiyle çalıştırmanın önkoşulları etkin b
 12. Sayfayı kapatın.
 13. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

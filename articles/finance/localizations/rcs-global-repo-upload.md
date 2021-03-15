@@ -97,3 +97,6 @@ Yapılandırma sürümü silindi ve onay iletisi gösteriliyor.
 > [!NOTE]
 > Yapılandırmalar yalnızca kendilerini oluşturan Yapılandırma sağlayıcısı tarafından silinebilir. Yapılandırma başka bir kuruluşla paylaşılıyorsa, silmeden önce bu yapılandırmanın paylaşımdan kaldırılması gerekir.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

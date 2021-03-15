@@ -65,3 +65,6 @@ Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her sef
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

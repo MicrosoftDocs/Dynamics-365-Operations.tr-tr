@@ -43,3 +43,6 @@ Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gö
     * EFT POS kayıt numarası, ödeme terminalinin yetkilendirme talepleri gönderdiği ödeme işlemcisini bilgilendirmek için kullanılır. Bu değere genellikle "Terminal Kodu" veya “TID” adı verilir. TID'yi genel olarak ödeme cihazının üzerinde bir etiket üzerinde bulabilirsiniz.  
 9. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

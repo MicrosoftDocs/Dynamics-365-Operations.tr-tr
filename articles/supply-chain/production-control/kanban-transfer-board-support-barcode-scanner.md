@@ -191,3 +191,6 @@ Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve B
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

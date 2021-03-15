@@ -67,3 +67,6 @@ Birçok siparişi aynı anda kesinleştirmek istiyorsanız çalışmayı koşut 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Bu nedenle, toplam hesap aralığındaki en önemli işlem hesapları için ayr�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

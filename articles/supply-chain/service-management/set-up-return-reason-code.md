@@ -62,3 +62,6 @@ Bu yordam ürünün müşteri tarafından neden iade edildiğini belirtmek için
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

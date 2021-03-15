@@ -45,3 +45,6 @@ Birçok yapılandırma ayarı, Varlık kiralamanın davranışını etkiler. Bu 
 
     > [!NOTE]
     > Bu seçeneği **Hayır** olarak tutmanızı öneririz. Bu seçeneğin ayarı, kapatılmış bir defter sürümüne yanlışlıkla amortisman uygulanmasını önlemek için doğrulama ve denetim amaçlı kullanılır. Seçenek **Hayır** olarak kaldığında, net defter değerinin ve gelecekteki amortisman hesaplamalarının doğru olmasına yardımcı olursunuz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

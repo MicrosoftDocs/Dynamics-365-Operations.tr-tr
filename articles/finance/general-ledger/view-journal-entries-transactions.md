@@ -60,3 +60,6 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

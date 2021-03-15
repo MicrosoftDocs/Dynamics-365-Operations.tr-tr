@@ -53,3 +53,6 @@ Ek kaynaklar
 
 [Müşteri için hesaptan ödeme talimatı oluşturma](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Bu konu, müşteri ödemeleri için bir ödeme yönteminin nasıl oluşturulaca�
 15. Bu ödeme yönteminde kullanmak istediğiniz ödeme özniteliklerini tanımlamak için **Ödeme öznitelikleri** sekmesini kullanın.
 16. **Kaydet**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

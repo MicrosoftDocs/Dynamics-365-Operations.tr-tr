@@ -72,3 +72,6 @@ Maliyet dağıtım kuralları, bir maliyet merkezinde mali olarak sayılmış ma
 5. Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.
 6. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

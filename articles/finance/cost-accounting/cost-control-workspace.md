@@ -157,3 +157,6 @@ Ek kaynaklar
 [Maliyet nesnesi denetleyicilerinin erişim haklarını tanımlama](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

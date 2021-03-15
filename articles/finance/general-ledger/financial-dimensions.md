@@ -139,3 +139,6 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 
 - [Mali boyutları tanımlama](tasks/define-financial-dimensions.md)
 - [Mali boyut varsayılan şablonlarını koruma](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

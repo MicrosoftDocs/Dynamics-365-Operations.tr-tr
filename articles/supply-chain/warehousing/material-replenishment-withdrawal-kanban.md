@@ -86,3 +86,6 @@ Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki
 
 Bir kanban üretim girişi konumunda tüketildikten sonra, kanban boş olarak kaydedilir ve yeni bir kanban akışa eklenir. Kanban oluşturulduğunda, bir dalga satırı kanban dalgasına atanır. Bir kanban dalgası işlendiğinde, kanban çekme için bir ambar işi oluşturulur. Ambar çalışan, kanban çekme için işi işleme alır ve iş tarafından kanban için malzemeleri bir ambar konumundan almaya yönlendirilir. Bu ambar çalışanı çekmeyi onayladığında, kanban otomatik tamamlanır ve ambar çalışanı malzemeyi üretim giriş konumuna koymaya yönlendirilir.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

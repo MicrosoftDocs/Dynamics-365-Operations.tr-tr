@@ -238,3 +238,6 @@ Garanti belirli, benzersiz bir ürün için sağlanan bir hizmettir. Dynamics 36
 [Ürün çeşitlerini ayarlama](set-up-assortments.md)
 
 [Numara serilerine genel bakış](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

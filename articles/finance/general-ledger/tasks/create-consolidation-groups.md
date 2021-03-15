@@ -46,3 +46,6 @@ Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi
 8. Konsolidasyon hesabı alanında bir değer girin.
 9. Konsolidasyon hesabı adı alanında bir değer girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

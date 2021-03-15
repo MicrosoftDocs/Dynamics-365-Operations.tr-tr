@@ -83,3 +83,6 @@ Sabit kıymette yapılacak değişiklikler veya belirli sabit kıymet hareketler
 Son olarak, sabit kıymetler için numara serilerini **Numara serileri** sekmesinde tanımlarsınız. **Sabit kıymet** numarası sırası, belirtilmişse **Sabit kıymet grup** numarası sırası tarafından geçersiz kılınır.
 
 Daha fazla bilgi için bkz. [Sabit kıymet oluşturma](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

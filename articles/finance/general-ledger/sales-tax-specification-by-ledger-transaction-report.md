@@ -57,3 +57,6 @@ Raporu oluşturduğunuz zaman aşağıdaki varsayılan alanlar kullanılabilir. 
 Raporda yalnızca vergi dışı hesapları göstermek için aşağıdaki şekilde gösterildiği gibi bir filtre koşulu ayarlayın (örneğin yıldız (\*) girin).
 
 ![Vergi dışı hesapları gösteren rapor](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

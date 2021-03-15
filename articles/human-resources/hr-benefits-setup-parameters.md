@@ -68,3 +68,6 @@ Microsoft Dynamics 365 Human Resources'ta kazanç planları kurmadan önce, kaza
 3. **Kaydet**'i seçin.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

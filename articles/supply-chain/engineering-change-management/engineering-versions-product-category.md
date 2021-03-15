@@ -161,3 +161,6 @@ Mühendislik ürün reçeteleri ve rotaları, geçerli oldukları mühendislik s
 *Sürüm* ürün boyutunu kullandığınız ürünlerde (hareketler üzerindeki lojistik etki vardır), sürüm ürün ve rotalara da eklenir. Bu davranış, **Geçerliliği zorla** ayarından bağımsız olarak, ardışık sürümlerin ürün reçetelerini ve rotalarını ayırt etmeye yardımcı olur.
 
 *Sürüm* ürün boyutunu kullanmadığınız ürünlerde (hareketler üzerinde lojistik etki olmadan), sürüm ürün reçetelerine ve rotalara eklenmez. Bu nedenle, ardışık sürümlerin ürün reçeteleri ile rotaları arasında hiçbir fark olmayacaktır. Bu durumda, **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlamanızı öneririz. Bu sayede, mühendislik sürümlerinin çakışmasını önlemeye yardımcı olur ve önceki sürümün ürün reçetesini ve rotasını devre dışı bırakmak zorunda kalmadan daha yeni bir sürümün ürün reçetesi ve rotasını etkinleştirebilirsiniz. Bu durumda **Geçerliliği zorla** seçeneğini *Evet* olarak ayarlarsanız en son sürümü etkinleştirmeden önce eski sürümlerin ürün reçetelerini ve rotalarını el ile devre dışı bırakmanız gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

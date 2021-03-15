@@ -70,3 +70,6 @@ Bağlı verileri, daha sonra konsolide edilmiş bir tüzel kişiliğe içeri akt
 5. Dışarı aktarmayı çalıştırmak için **Tamam**'ı seçin.
 
 Dışa aktarma işlemi tamamlandığında, her dosyaya kaydedilen kayıt sayısını gösteren bir ileti alırsınız. Artık dosyaları konsolide tüzel kişilikteki dosyalara içe aktarabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

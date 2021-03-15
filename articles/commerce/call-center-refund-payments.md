@@ -108,3 +108,6 @@ Alternatif olarak, bir kuruluş **Çağrı merkezi parametreleri** sayfasının 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Çağrı merkezlerinde ödeme yöntemleri](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

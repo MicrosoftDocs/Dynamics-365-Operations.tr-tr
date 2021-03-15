@@ -283,3 +283,6 @@ Bu belirtimin değerlerini ayarlamak için **Ürün bilgileri yönetimi \> Ayar 
 *Tehlikeli malzeme tüneli* belirtimi, kullanılması gereken tünel türlerini tanımlayarak tehlikeli malzemenin taşınabileceği tünel türlerini sınırlar. Tünel kategorileri, tehlikeli taşıma için uygun yönetmelikler tarafından belirlenir. Bu belirtim genellikle yalnızca kara yoluyla taşıma için geçerlidir.
 
 Bu belirtimin değerlerini ayarlamak için **Ürün bilgileri yönetimi \> Ayar \> Tehlikeli malzeme sevkiyat belgeleri \> Tehlikeli malzeme tüneli**'ine gidin. **Tehlikeli malzeme tüneli** sayfasında istediğiniz sayıda tünel tanımlayıcısı oluşturabilir ve her birini tanımlama kodu ve kısa açıklama ile yapılandırabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

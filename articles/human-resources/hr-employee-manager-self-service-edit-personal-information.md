@@ -72,3 +72,6 @@ Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebile
     - Resim karşıya yüklemek için **yeni resim yükle**'yi seçin.
     - Görüntüyü kaldırmak için, görüntüyü seçin ve **Kaldır**'ı seçin.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

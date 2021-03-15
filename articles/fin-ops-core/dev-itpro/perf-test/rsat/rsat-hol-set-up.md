@@ -803,3 +803,6 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 2. Her iki test olayının da geçtiğini doğrulayın.
 
     ![Her iki test çalışması için de sonuç alanı geçildi](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

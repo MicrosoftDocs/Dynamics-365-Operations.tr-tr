@@ -178,3 +178,6 @@ Aşağıdaki olayların gerçekleştiğine dikkat edin:
 - Bağlantılı satış siparişi için ambara serbest bırakma tetiklenir.
 - Serbest bırakmaya bağlı olarak, sevkiyat ve çapraz sevk işi oluşturulur. Bu iş, ambar operatörüne satış siparişi satırını karşılamak için gereken miktarları çekmesini ve bunları çapraz sevk yerleşimi yönergesinde belirtilen çıkış yerleşimine koymasını söyler.
 - Üretim emri miktarı, satış siparişinin gerektirdiği miktardan büyükse, olağan yerine koyma çalışması oluşturulur. Bu iş ambar operatörüne çapraz sevk sonrasında kalan mamul mal miktarını çekmesini ve bunu yerleşim yönergesine göre normal depolama birimine taşımasını bildirir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

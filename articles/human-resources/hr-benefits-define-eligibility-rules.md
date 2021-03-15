@@ -67,3 +67,6 @@ Bu konu, size yeni kazanç uygunluk kuralları ve ilkeleri oluşturmayı ve daha
 10. **Kaydet**'i seçin.
 11. Formu kapatın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

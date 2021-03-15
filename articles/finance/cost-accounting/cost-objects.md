@@ -43,3 +43,6 @@ Maliyet nesnesi boyut üyelerini içe aktarmayı daha kolay hale getirmek için 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Kıymet Yönetimi'nde belgeleri örneğin iş türleriyle, kıymet üreticileriy
 
 4. **Ekler**'i seçin. Standart **Belge işleme** sayfası görünür.
 5. Kıymet belgesi kaydına eklenmesi gereken belgeleri veya notları ayarlayın. Belgeleri ekledikten sonra **Ekler** alanı kayıtla ilgili belgelerin sayısını gösterir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

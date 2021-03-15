@@ -51,3 +51,6 @@ Yeni bir standart fiyat etkinleştirildiğinde, genellikle eldeki stok değeri s
 - **Hiçbiri**: Hiçbir mali boyut, yeniden değerleme işlemi hareketlerine nakledilmez. Hesap yapınız zorunlu bir mali boyut içeriyorsa yeniden değerleme süreci çalışmaya devam eder ancak mali boyutları olmayan muhasebe girişleri oluşturur. Bu durumda, kullanıcılar önce bir uyarı iletisi alır; böylece gerekirse yeniden değerlemeyi iptal edebilirler.
 - **Tablo**: Maddenin mali boyutları, yeniden değerleme işlemi hareketlerinde deftere nakledilir. Bu, varsayılan ayardır ve *Stok standart maliyeti yeniden değerlemesi için mali boyutları varsayılana ayarlama seçenekleri* özelliğini açmadan gerçekleşen özgün sistem davranışıyla uyumludur.
 - **Nakletme** – Yeniden değerleme yapılan hareketin mali boyutları, yeniden değerleme işlemi hareketlerine nakledilir. Varsayılan olarak, hem stok hesabı hem de yeniden değerleme hesabı için özgün hareketin stok hesabındaki mali boyutlar kullanılır.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

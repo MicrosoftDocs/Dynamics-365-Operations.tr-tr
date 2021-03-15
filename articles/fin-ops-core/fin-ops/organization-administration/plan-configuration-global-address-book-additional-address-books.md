@@ -57,3 +57,6 @@ Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki h
 **Karar:**
 
 - Kaç tane ek adres defteri oluşturacaksınız?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

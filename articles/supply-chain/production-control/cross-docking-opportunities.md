@@ -126,3 +126,6 @@ Bir ürün üretim hattında tamamlanmış olarak raporlandığında, bölme kap
 -   Çapraz sevk senaryosu toplu iş ve seri denetlenen öğeler için desteklenir; her ikisi de rezervasyon hiyerarşisinin üstünde ve altında toplu iş ve seri numarası boyutları ile tanımlanır. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

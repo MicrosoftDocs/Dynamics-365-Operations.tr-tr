@@ -152,3 +152,6 @@ Seçilen ölçütlere göre oluşturulacak kredi limitini temsil eden satırlar�
 2. Puanlama grubu bilgilerinin nasıl değerlendirileceğini tanımlayan karşılaştırma işlecini seçin.
 3. Puanlama grubu için belirtilen değerle karşılaştırılacak değeri girin.
 4. Müşteri bilgileri, puanlama grubu için belirtilen değerle eşleştiği zaman atanacak kredi limitini girin. Örneğin **Düşük** puanlama grubu için bir otomatik kredi limiti oluşturursunuz. Puanlama gruplarından biri Sektörde geçen yıl sayısı ise, müşterinin sektörde bulunduğu süre beş yılsa 100.000 kredi limiti atayan bir satır, ve müşterinin sektörde bulunduğu süre on yılsa 200.000 kredi limiti atayan başka bir satır tanımlayabilirsiniz.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

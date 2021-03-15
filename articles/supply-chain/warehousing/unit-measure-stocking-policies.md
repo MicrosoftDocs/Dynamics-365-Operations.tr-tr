@@ -49,3 +49,6 @@ Serbest bırakılan ürünlerin oluşturulmasının parçası olarak, satınalma
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

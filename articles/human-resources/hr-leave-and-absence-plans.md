@@ -383,3 +383,6 @@ Tahmin edilen bakiye (30) = Tahakkuk tutarı (10 × 1) + Geçerli bakiye (40) �
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık türlerini yapılandırma](hr-leave-and-absence-types.md)
 - [İzin ve devamsızlık planları tahakkuk etme](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

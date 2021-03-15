@@ -44,3 +44,6 @@ Bu yordamı kullanmadan önce, en azından bir kiralama onayı iş akışının 
 
 8. Bir iş akışını durdurmak için **İş akışı geçmişi** sayfasında **Yakala**'yı seçin. Görüntülenen iletişim kutusunda yorum girin ve **Tamam**'ı seçin.
 9. Bir iş akışını devre dışı bırakmak veya önceden oluşturulmuş bir iş akışını etkinleştirmek için **Varlık kiralama \> Kurulum \> Kiralama iş akışı** bölümüne gidin. Ardından, **Kiralama iş akışı** sayfasında **İş akışı \> Sürümler**'i seçin. Geçerli bir iş akışını devre dışı bırakmak için kiralama sürümü iletişim kutusunda etkin kirayı seçin ve ardından **Devre dışı bırak**'ı seçin. Varolan bir iş akışını etkin hale getirmek için iş akışını seçin ve sonra **Etkin yap**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

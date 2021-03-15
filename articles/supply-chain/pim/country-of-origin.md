@@ -90,3 +90,6 @@ Bir ürün reçetesi raporu oluştururken, kaynak ve hedef ülkeleri belirttiği
 Her bir parçanın menşei ülkesi hakkında bilgi gösteren bir rapor oluşturulur ve gösterilir. Burada rapor için bir örnek verilmiştir.
 
 ![Menşei ülke raporu](media/country-of-origin-report.png "Menşei ülke raporu")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Bu sabit listesi, aday ilgili kişi türleri için değer seçenek kümesi sağl
 
 [Başvuran İzleme Sistemi tümleştirme API'si tanıtımı](hr-admin-integration-ats-api-introduction.md)<br>
 [İşe alınacak aday için sorgu örneği](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Bu yordam, bir maliyet yuvarlama ilkesini oluşturmayı ve ilke için kurallar o
     * Tüm maliyet merkezleri karşılık gelen ikincil maliyet öğelerine eşlenene kadar devam edin.  
 16. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

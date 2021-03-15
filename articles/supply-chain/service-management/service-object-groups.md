@@ -65,3 +65,6 @@ Servis nesnelerini **Servis nesneleri** formunu kullanarak gruba atayabilirsiniz
 [Servis nesneleri oluşturma](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

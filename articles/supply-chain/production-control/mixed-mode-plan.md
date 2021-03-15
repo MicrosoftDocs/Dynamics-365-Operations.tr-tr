@@ -68,3 +68,6 @@ Karma modda tam esneklik sağlamak için tüm ürünler için üretim tipi ürü
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Ambalaj malzemesi ağırlıklarını yazdırmayı ve faturadaki ilgili ücretler
 
 1. **Alacak hesapları \> Kurulum \> Alacak hesapları parametreleri**'ne gidin.
 1. **Güncelleştirmeler** sekmesinde, **fatura** hızlı sekmesinde **ambalaj malzemesi ağırlığını Yazdır** seçeneğini **Evet** olarak ayarlayın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

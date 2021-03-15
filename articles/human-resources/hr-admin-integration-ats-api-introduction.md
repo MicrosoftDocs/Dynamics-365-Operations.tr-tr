@@ -137,3 +137,5 @@ Seçenek kümeleri:
 [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Microsoft Dataverse Web API'sini kullanma](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Web API'sini kullanarak seçenek kümeleri oluşturma ve güncelleştirme](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

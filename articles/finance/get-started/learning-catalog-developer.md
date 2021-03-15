@@ -93,3 +93,6 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | İçerik | Tanım  | Biçim  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Sınav MB-500: Microsoft Dynamics 365: Finance and Operations Uygulama Geliştiricisi](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Bu sınav şu teknik görevleri yerine getirebilme yeteneğinizi ölçer: plan mimarisi ve çözüm tasarımı; geliştirici araçlarını uygulama; AOT öğelerini tasarlama ve geliştirme; kod geliştirme ve test etme; raporlama uygulama; veri çözümlerini tümleştirme ve yönetme; güvenlik uygulama ve performansı optimize etme. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

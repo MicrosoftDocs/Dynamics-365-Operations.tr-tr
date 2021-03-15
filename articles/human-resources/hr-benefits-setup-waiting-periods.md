@@ -45,3 +45,6 @@ Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları i
    | **Bekleme günü** | Bekleme tarihini hesaplamak için kullanılacak bir bekleme günü seçin. |
 
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

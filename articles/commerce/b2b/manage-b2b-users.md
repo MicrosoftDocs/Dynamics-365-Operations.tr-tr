@@ -139,3 +139,6 @@ Commerce Headquarters'da iş ortaklarını ve kullanıcıları eklemek için şu
 [B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama](quantity-limits.md)
 
 [Numara serilerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

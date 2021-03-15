@@ -138,3 +138,6 @@ Ortam, elektronik fatura kesmeye yönelik her isteğin, Elektronik faturalama ek
 
 - [RCS'de elektronik faturaları yapılandırma](e-invoicing-configuration-rcs.md)
 - [Finance ve Supply Chain Management'ta elektronik fatura kesme](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

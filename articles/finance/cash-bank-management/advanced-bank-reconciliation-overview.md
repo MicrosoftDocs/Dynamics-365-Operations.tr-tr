@@ -50,3 +50,6 @@ Gelişmiş banka mutabakatı özelliği banka ekstrelerini içe aktarmanıza izi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

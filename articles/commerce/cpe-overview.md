@@ -63,3 +63,6 @@ Commerce değerlendirme ortamını sağlamak için bkz. [Commerce değerlendirme
 [Dynamics 365 Commerce değerlendirme ortamı için isteğe bağlı özellikleri yapılandırma](cpe-optional-features.md)
 
 [Dynamics 365 Commerce değerlendirme ortamıyla ilgili SSS](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

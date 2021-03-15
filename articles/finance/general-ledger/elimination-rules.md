@@ -154,3 +154,6 @@ Birleştirilmiş verinin kaynağı olan şirketi seçin ve sonra işlemek istedi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

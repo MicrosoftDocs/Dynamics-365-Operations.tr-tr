@@ -183,3 +183,6 @@ Onay işlemi onay adımlarından oluşur. Onay işlemine adım eklemek ve adıml
 1. İş akışı düzenleyicisinde onay işlemine çift tıklayın. İş akışı düzenleyicisi onay işleminin adımlarını görüntüler.
 2. Onay adımı eklemek için adımları **İş akışı öğeleri** alanından tuvale sürükleyin.
 3. Onay adımını yapılandırmak için bkz. [İş akışında onay adımlarını yapılandırma](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,5 @@ Tamamlanmış bir anketin sonuçlarını tanımladığınız hesaplamalara göre
 -   Yanıtlayan veya anket özelliklerine göre sonuçları analiz etmek için ölçütleri seçin veya doğrulayın. Örneğin, **Posta kodu**, seçeneğini seçerek, yanıtlayanın konumu ve doğru yanıtlar arasındaki korelasyonu analiz edebilirsiniz.
 
 Tanımladığınız ayarlar kaydedilir ve sonuçları yeniden hesaplamak için periyodik olarak kullanılabilir.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

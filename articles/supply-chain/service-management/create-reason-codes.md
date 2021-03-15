@@ -40,3 +40,6 @@ Bir servis siparişi aşamasını güncelleştirme nedeninizi açıklamak için 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

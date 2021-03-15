@@ -130,3 +130,6 @@ Belge / günlük Satış vergisi içeren tutarlar = Hayır olarak ayarlanır Har
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

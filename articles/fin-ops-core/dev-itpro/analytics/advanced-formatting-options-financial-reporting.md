@@ -310,3 +310,6 @@ Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütun
 Ampersan işaretini (&) içeren boyut değerlerini kullanarak raporlar tasarlayabilirsiniz.
 
 Herhangi bir **Mali Boyuta Bağlantı** alanına, **'P&L'** gibi bir değer girebilirsiniz. Boyut değerinin her iki tarafına tek tırnak işareti (' ') ekleme, (&) ampersan karakterlerini eklemek gibi gerçek değeri kullanmakta olduğunuz anlamına gelir.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Gönderme günlükleri aşağıdaki ek işlevleri içerir:
 - **Gönderimleri iptal et** – Bu işlev, elektronik faturanın harici bir web servisi tarafından onaylanması gereken senaryolarda özel bir gönderme süreci yapılmasını sağlar. Elektronik faturalama eklentisinin, web servisi veritabanındaki onaylanmış bir elektronik faturanın durumunu iptal eden belirli bir ileti göndermesini sağlar.
 - **Belgeyi yeniden gönder** – Elektronik faturalama eklentisinin zaten göndermiş olduğu elektronik belgeyi yeniden gönderin. **Gönderim ayrıntıları** sayfasında yeni bir tam günlük oluşturulur.
 - **İlgili gönderimi gönder**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

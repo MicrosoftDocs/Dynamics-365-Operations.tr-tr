@@ -58,3 +58,6 @@ Bu yordam, tek bir çalışanın bir veya daha fazla kazançta veya birden çok 
 14. Listede, seçili satırdaki bağlantıya tıklayın.
 15. Bu sayfa, hangi çalışanların kazanç için kaydedildiğini hangilerinin kaydedilmediğini görüntülemenize olanak verir.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

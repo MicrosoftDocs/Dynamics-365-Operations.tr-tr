@@ -254,3 +254,6 @@ Test amacıyla bu biçim eşlemesini yürütün. Daha önce indirdiğiniz 1099en
 27. Sayfayı kapatın.
 28. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

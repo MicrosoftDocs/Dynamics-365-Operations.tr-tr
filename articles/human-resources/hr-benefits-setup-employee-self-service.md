@@ -72,3 +72,6 @@ Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste
    | **End** | Döşemenin bitiş tarihi ve saati kullanılabilir olmalıdır. |
 
 4. **Kaydet**'i seçin.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

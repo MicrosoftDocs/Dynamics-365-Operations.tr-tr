@@ -48,3 +48,6 @@ Ayrıca, hiyerarşik ızgara yapısından yararlanan iki benzersiz rapor kullan�
 - **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail ve Ticaret** &gt; **Ürün ve kategoriler** &gt; **Mağaza yönetimi** &gt; **Raporlar**
 - **Fiyatlandırma ve iskonto yönetimi** çalışma alanı &gt; **Retail ve Ticaret** &gt; **Fiyatlandırma ve iskontolar** &gt; **Mağaza yönetimi** &gt; **Raporlar**
 - **Sorgular ve raporlar** bölümü &gt; **Retail ve Ticaret** &gt; **Sorgular ve raporlar** &gt; **Satış raporları**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

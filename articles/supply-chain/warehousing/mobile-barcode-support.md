@@ -34,3 +34,6 @@ Dynamics 365 Supply Chain Management - Ambar uygulaması, Android ile çalışan
 
 Müşteri olarak, satın almak istediğiniz donanıma karar vermeden önce Ambar mobil uygulamasını seçilen donanımda test etmenizi öneririz.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

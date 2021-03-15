@@ -89,3 +89,6 @@ Aşağıdaki şekil dört kıymet için bir KPI hesaplamasının ekran görünt�
 - **Tüm varlıklar** alanında birden fazla varlık için çoklu seçim yapabilirve **Genel** sekmesindeki **Varlık KPI'ları** düğmesine tıklayabilirsiniz. Ardından, seçilen varlıkların KPI'larını hesaplamak için **Varlık KPI'ları hesapla** iletişim kutusunda **Tamam**'a tıklayın.  
 - Bir KPI hesaplamasından alınan sonuçlar, kuruluma ve kesinti süresi neden kodlarının ayarına ve kullanımına bağlı olarak [bakım süresi kayıtlarını](../work-orders/maintenance-downtime.md) içerebilir veya içermeyebilir. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

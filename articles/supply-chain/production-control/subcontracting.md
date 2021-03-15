@@ -302,3 +302,6 @@ El cihazı kullanan ambar çalışanları için bir parola tanımlamalısınız.
     ![Maliyet karşılaştırması grafikleri](./media/subcontract35_cost-comparison-charts.png)
 
 Kurulumda veri eksik.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

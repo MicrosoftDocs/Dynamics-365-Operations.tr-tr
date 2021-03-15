@@ -164,3 +164,6 @@ Ağırlıklı ortalama iskonto oranı raporu, ağırlıklı ortalama iskonto ora
 |     Para Birimi                          |     Kullanılan işlem para biriminin kısaltması. Tüm raporlar, işlem para birimini raporlama para birimine dönüştürür.  |
 |     Kalan kira ödemeleri          |     **Başlangıç** tarihi itibarıyla ödeme planındaki kalan ödenmemiş kira ödemelerinin toplam tutarı.            |
 |     Kalan ağırlıklı ödemeler       |     Kullanılan iskonto oranıyla çarpılmış kalan kira ödemeleri.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

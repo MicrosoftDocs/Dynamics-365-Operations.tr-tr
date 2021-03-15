@@ -81,3 +81,6 @@ Microsoft sorunu düzeltmek üzere bir çözüm yayınlayana kadar, bu hataları
 - Standart maliyette ondalık değerler kullanmaktan kaçının. Standart maliyeti, **Fiyat miktarı** alanı *1* olarak ayarlanacak şekilde tanımlamaya çalışın. *1*'den yüksek bir **Fiyat miktarı** değeri belirtmeniz gerekiyorsa birim standart maliyetindeki ondalık basamak sayısını en aza indirmeye çalışın. (İdeal olarak, ikiden az ondalık basamak olmalıdır.) Örneğin, standart maliyet ayarlarını şu şekilde ayarlamaktan kaçının: **Fiyat** = *10* ve **Fiyat miktarı** = *3*, çünkü bunlar 3,333333 (ondalık değer devam eder) değerinde bir birim standart maliyeti oluşturur.
 - Birçok belgede, aynı ürün ve mali stok boyutları birleşimini içeren birden çok satırı kullanmaktan kaçının.
 - Paralelleşme derecesini azaltın. (Bu durumda sisteminiz daha hızlı olabilir, çünkü daha az güncelleştirme çakışması ve yeniden deneme gerçekleştirilir.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

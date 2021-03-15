@@ -133,3 +133,6 @@ Tüm şablon ve servis ürün reçeteleri için ürün reçetesindeki bilgilerin
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

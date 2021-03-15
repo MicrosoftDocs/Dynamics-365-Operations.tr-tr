@@ -69,3 +69,6 @@ Sales içindeki sütunlar doldurulduğunda, aşağıdaki sınırlamalar geçerli
 + Supply Chain Management'ta bulunan masraf ve gider tahsisatının kurulumu Sales içinde çoğaltılmaz.
 + Fiyatlandırma, Supply Chain Management'ta satış siparişi satırı sayfasındaki **Perakende Kanalı** sütununda belirtilen özel perakende fiyatlandırmasını dikkate almıyor.
 + Supply Chain Management'ın **ticari kesinti Yönetimi** bölümünde tanımlanan iskontolar dikkate alınmazlar.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

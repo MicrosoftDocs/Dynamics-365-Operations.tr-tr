@@ -45,3 +45,6 @@ Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir. Bi
 10. Sona erme süresi birimi alanında bir seçenek seçin.
 11. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

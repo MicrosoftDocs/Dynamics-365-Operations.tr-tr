@@ -58,3 +58,6 @@ Benzetimi yapılmış maliyet değişikliklerini girdikten sonra, maliyet deği�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

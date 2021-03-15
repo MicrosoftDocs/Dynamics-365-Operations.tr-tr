@@ -106,3 +106,6 @@ Aşağıdaki resimde, ürün öznitelik grupları eklenmiş bir düğüm örneğ
 [Ürün çeşitlerini ayarlama](set-up-assortments.md)
 
 [Öznitelikleri ve öznitelik gruplarını yönetme](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

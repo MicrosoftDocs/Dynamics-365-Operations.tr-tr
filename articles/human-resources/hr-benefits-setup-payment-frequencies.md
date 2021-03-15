@@ -56,3 +56,6 @@ Dönüştürme faktörleri alanları, ödeme sıklığından standart ödeme dö
    | **Saatlik dönüştürme faktörü** | Ödeme sıklığında, yıllık dönüştürme faktörü. Örneğin, aylık ödeme sıklığı için yıllık dönüştürme faktörü: </br></br>(12 aylık ödeme / 2080 saat) = 0,005769
 
 4. **Kaydet**'i seçin. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

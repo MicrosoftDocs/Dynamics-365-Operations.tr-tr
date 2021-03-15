@@ -39,3 +39,6 @@ Bağımlı stok yenileme işi nedeniyle malzeme çekme işi engellenmiştir.
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
 Dalga talep stok yenilemesini kullandığınızda, kaynak sipariş talebini yerine getirmek için bir malzeme çekme konumunda stoğun yenilenmesi gerekiyorsa sistem hem stok yenileme işini, hem de malzeme çekme işini oluşturur. Ancak, stok yenileme işi tamamlanana kadar malzeme çekme işini engeller. Bu davranış kasıtlı yapılır çünkü stok yenileme işi tamamlanana kadar malzeme çekme konumunda stok yeterli olmaz. Stok yenileme işini tamamlayın ve sonra malzeme çekme işini işleyin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

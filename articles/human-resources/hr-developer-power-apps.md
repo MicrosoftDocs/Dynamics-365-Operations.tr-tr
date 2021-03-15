@@ -60,3 +60,5 @@ Veri dönüşümü ve artımlı gönderimi etkinleştirmek için Gelişmiş sorg
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

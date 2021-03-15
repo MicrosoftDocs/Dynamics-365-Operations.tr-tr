@@ -164,3 +164,6 @@ Bir pozitif ödeme dosyasını değiştirmeniz gerekiyorsa, bunu geri çağırab
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

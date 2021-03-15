@@ -91,3 +91,6 @@ Size atanan tüm görevlerin görev listesi durumunu izlemek için, aşağıdaki
 [Görev listeleri oluşturma ve görev ekleme](task-mgmt-create-lists.md)
 
 [POS'ta görev yönetimi](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

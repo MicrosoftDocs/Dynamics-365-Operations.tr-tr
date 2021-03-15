@@ -53,3 +53,6 @@ Bu konu, Varlık Yönetimi'nde kıymet garantilerinin ve kıymet türlerinin nas
 
 > [!NOTE]
 > Satıcı garantisinin kapsadığı bir kıymet için çalışma emri oluşturduğunuzda, iş emrinde garanti dönemi içinde beklenen başlangıç tarihi varsa garanti sözleşmesiyle ilgili bir bildirim alırsınız. Böylece, gereksinim duyduğunuz şekilde iş emrini iptal edebilirsiniz.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ Aşağıdaki tablo, daha büyük hassasiyet ve daha derin analiz bilgileri elde 
 | Varlıklar                  | Kimlik ve Ad                                                   |
 | Kaynaklar                 | Kaynak Kodu, Kaynak adı, Kaynak türü ve Kaynak grubu |
 | Ürünler                  | Ürün numarası, Ürün adı, Madde Kodu ve Madde grubu         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

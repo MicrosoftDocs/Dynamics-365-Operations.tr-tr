@@ -178,3 +178,6 @@ Dynamics 365 Finance uygulamasının bir kullanıcısı olarak rolünüz için d
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

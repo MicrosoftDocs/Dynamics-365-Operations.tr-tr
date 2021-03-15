@@ -211,3 +211,6 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
     Satırların ilk eşitlenme işlemi şimdi tamamlandı.
 
 8. Finance and Operations uygulamasında, **Müşteriler V3** tablosu için değişiklik izlemeyi yeniden açın.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

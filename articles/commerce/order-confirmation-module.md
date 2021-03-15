@@ -86,3 +86,6 @@ Bir yeni sayfaya sipariş onayı modülü eklemek ve gerekli özellikleri ayarla
 [Malzeme çekme bilgileri modülü](pickup-info-module.md)
 
 [Hediye kartı modülü](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

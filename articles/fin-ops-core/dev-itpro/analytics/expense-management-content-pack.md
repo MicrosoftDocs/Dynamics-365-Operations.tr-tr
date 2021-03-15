@@ -93,3 +93,6 @@ Gider yönetimi Power BI içeriği, TrvBiExpenseMeasurement ölçüsünün ve Bu
 | Personel İstatistikleri | Gider türüne göre maliyet raporları            |
 |                     | Kişisel giderler                       |
 |                     | İstatistik grubuna göre gider raporları     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -250,3 +250,6 @@ MRP, ilk satış siparişine iliştirilmiş bir planlı sipariş oluşturur. Dah
 ## <a name="see-also"></a>Ayrıca bkz.
 
 Daha fazla tartışma için orijinal [(Dinamik) negarif günler hakkında daha fazla](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/) web günlüğü dosyasına bakın.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -148,3 +148,6 @@ Arnie bu ödeme günlüğünü naklediyor ve **Müşteri hareketleri** sayfasın
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

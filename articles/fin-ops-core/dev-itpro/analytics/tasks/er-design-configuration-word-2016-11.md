@@ -164,3 +164,6 @@ Düzenlenebilir biçimin taslak sürümünü çalıştırmak için sürümü [ç
 
 - [Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama](../er-design-configuration-word.md)
 - [Er kullanarak oluşturduğunuz belgelere resimler ve şekiller katıştırma](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

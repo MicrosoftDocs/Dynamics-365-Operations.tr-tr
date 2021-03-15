@@ -242,3 +242,6 @@ Bu konuda, Gelişmiş filtreleme/sıralama iletişim kutusunu veya Filtre bölme
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Bu ayar sevk edilecek bir tam yük veya kısmen yüklenmiş yük içeren bir ta�
 
 1. **Ambar yönetimi** \> **Yükler** \> **Taşıma yükleri**'ni seçin.
 2. Eylem Bölmesinde **Sevk ve teslim alma** sekmesindeki **Onayla** grubunda **Taşıma**'yı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

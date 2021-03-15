@@ -47,3 +47,6 @@ Bu yordam, Stok yenileme kuralları oluşturmak için gereken adımları göster
 14. Ağırlık alanına bir sayı girin.
 15. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

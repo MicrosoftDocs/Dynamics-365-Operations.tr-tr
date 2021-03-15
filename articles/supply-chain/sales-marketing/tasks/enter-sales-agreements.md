@@ -56,3 +56,6 @@ Bu konu, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarf
 11. **Tamam**'ı seçin.
 12. Sayfayı kapatın. Sözleşme şimdi etkindir. Müşterinin siparişlerini, taahhüt edilen hedefe göre mahsup etmek için sözleşmeye bağlamaya başlayabilirsiniz.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

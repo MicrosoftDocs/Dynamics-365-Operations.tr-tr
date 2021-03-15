@@ -148,3 +148,6 @@ Rapor tanımıyla yalnızca varsayılan esas dönem ayarları kaydedilir.</td>
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Bu konu, Microsoft Dynamics 365 Finance'e içeri aktarılabilmesi için harici s
 8. Konsolidasyonu belirli bir zamanda toplu iş olarak çalıştırmak için **Toplu İşleme** seçeneğini **Evet** olarak ayarlayın. Konsolidasyonu hemen çalıştırmak için **Tamam**'ı seçin. 
 
 Bağlı şirketlerde konsolidasyon için belirtilen hareket ve bakiyeler, ilgili konsolide edilen tüzel kişilikteki uygun hesaplara eklenir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

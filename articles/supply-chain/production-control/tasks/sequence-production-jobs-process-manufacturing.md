@@ -70,3 +70,6 @@ Bu prosedürde, planlanan siparişlerin renk ve paket boyutu önceliğine göre 
 8. Madde numarası alanında 'P300' değeriyle filtreleme yapmak için Hızlı Filtre'yi kullanın.
     * Siparişlerin artık, renk ve boyut önceliğine göre sıralanacağına ve planlı siparişlerin ise en erken sipariş tarihinde ve teslim tarihinde bağlayacağına dikkat edin. Sipariş tarihi sütununu veya Başlangıç tarihini Zamanlama Ayrıntıları Hızlı Kutusundan doğrulayın.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

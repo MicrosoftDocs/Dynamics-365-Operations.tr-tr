@@ -97,3 +97,6 @@ Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı kurulum iç
 ## <a name="related-topic"></a>İlgili konu
 
 [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

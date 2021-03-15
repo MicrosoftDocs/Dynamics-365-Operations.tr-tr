@@ -63,3 +63,6 @@ Genel muhasebe defteri takvimi sayfasını, kuruluşunuz tarafından kullanılan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

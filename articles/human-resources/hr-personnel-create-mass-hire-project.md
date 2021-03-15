@@ -48,3 +48,6 @@ Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol göst
     * İsteğe bağlı olarak, yeni pozisyonlar için Departman seçin.  
 13. Tamam'a tıklayın.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

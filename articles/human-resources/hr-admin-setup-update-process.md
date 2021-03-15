@@ -105,3 +105,6 @@ Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için, bkz. [
 [Dynamics 365 Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
 [Yazılım yaşam döngüsü ilkesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

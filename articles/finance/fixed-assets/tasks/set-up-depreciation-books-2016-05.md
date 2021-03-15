@@ -54,3 +54,6 @@ Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla i
 6. Servis ömrü alanına bir sayı girin.
     * Amortisman dönemleri alanı değerinin Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

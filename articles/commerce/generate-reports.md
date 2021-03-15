@@ -137,3 +137,6 @@ Bir **Organizasyon satışları** raporu oluşturmak için, aşağıdaki adımla
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Commerce giriş sayfası](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

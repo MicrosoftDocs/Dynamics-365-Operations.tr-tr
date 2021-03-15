@@ -37,3 +37,6 @@ Aynı rota segmenti için birden fazla sevkiyat taşıyıcısı ve taşıyıcı 
 1. **Ad** alanına grup için açıklayıcı bir ad girin.
 1. **Ayrıntılar** hızlı sekmesinde, bir satır ekleyin ve bunun için bir sevkiyat taşıyıcısı ve bir taşıyıcı hizmeti seçin. Grup için gerek duyduğunuz sayıda taşıyıcı ekleyinceye kadar bu adımı yineleyin.
 1. Sayfayı kapatın.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

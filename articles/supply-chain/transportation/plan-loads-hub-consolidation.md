@@ -38,3 +38,6 @@ Hub konsolidasyonu özelliğini kullanabilmek için **Taşıma yönetimi paramet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

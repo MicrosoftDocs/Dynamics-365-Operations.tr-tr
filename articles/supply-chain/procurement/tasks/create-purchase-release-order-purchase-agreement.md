@@ -58,3 +58,6 @@ Bu yordam, bir satınalma siparişi oluşturduğunuzda bir satın alma sözleşm
 3. Sayfayı kapatın.
 4. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

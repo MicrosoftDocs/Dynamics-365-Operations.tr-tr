@@ -108,3 +108,6 @@ Değişiklik önceden belirlenmiş yerleşiminizde yapılan değişiklikleri ön
 [Şablonlar ve düzenlere genel bakış](templates-layouts-overview.md)
 
 [Şablonlarla çalışma](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

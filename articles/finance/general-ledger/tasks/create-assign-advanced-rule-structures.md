@@ -58,3 +58,6 @@ Bu konu, bir hesap yapısına gelişmiş bir kural yapısının nasıl oluşturu
 17. Sayfayı kapatın.
 18. **Etkinleştir**'i seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

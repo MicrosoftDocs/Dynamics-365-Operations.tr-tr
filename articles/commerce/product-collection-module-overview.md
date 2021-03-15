@@ -112,3 +112,6 @@ Aşağıdaki tabloda, **Ürün listesi konfigürasyonu seç** iletişim kutusund
 [Ürün önerilerine genel bakış](product-recommendations.md)
 
 [Hızlı görüntüleme modülü](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

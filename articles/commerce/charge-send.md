@@ -41,3 +41,6 @@ Gönderimle görevlendir özelliği şu POS işlemlerini kullanır: Tüm ürünl
 "Sevkiyat varış yeri" adresini seçme özelliği değişmez.
 
 Sipariş satırını karşılamak için kullanılabilecek sevkiyat yöntemleri ürünler ve adresler için geçerli teslimat modlarının yapılandırmasını temel alır. Geçerli teslimat modlarıyla ilgili kurallar yalnızca Headquarters (HQ) içinde korunacağından, POS istemcisi bir sevkiyat satırı için geçerli teslim modlarını getirmek üzere gerçek zamanlı bir çağrı yapar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

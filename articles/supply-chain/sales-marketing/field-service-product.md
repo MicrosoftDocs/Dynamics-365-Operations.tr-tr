@@ -72,3 +72,6 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Field Service Ürünleri (Supply Chain Management'tan Field Service'e): Ürünler - Ürünler
 
 [![Veri tümleştirmede şablon eşleme](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

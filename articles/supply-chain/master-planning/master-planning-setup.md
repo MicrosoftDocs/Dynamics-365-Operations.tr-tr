@@ -226,3 +226,6 @@ Sağlama süresi + Negatif günler + Geçerli tarih – Gereksinim tarihi
 Sistem yalnızca bu zaman dilimi içindeki planlı tedarik siparişlerini kullanır ve dışında yeni bir planlı sipariş oluşturur. Dinamik negatif günlerin avantajı, bireysel ürün teslim süresini, geçerli siparişlerin tekrar kullanılmasını ve teslim süresinden kaynaklanan gecikmeler nedeniyle daha sonraki bir gün sona erecek yeni planlı siparişlerin yaratılmasını önlemeyi içermesidir. 
 
 Daha fazla bilgi için, bkz. [Negatif günler ve dinamik negatif günler](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

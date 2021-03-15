@@ -191,3 +191,6 @@ Commerce değerlendirme ortamını sağlama ve yapılandırma işlemine devam et
 [Microsoft Azure portalı](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce web sitesi](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

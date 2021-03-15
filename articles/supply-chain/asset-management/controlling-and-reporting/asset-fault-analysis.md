@@ -108,3 +108,6 @@ Aşağıdaki ekran görüntüsünde **Tür** eklenmiştir ve bu örnekteki en ay
 >[!NOTE]
 >İş emirlerinde ve bakım taleplerinde oluşturulan tüm arıza kayıtlarının genel bakışı için **Varlık yönetimi** > **Sorgular** > **Varlık arızası** > **Varlık arızaları** üzerine tıklayın. **Varlık arızaları** sayfasında, bir varlık arızası kaydını seçin ve **İlgili bilgi** panosunu genişleterek ilgili iş emri veya bakım talebiyle ilgili bilgiyi görüntüleyin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

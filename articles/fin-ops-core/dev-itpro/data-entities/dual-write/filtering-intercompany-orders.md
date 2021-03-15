@@ -66,3 +66,6 @@ Her standart Dataverse tablosu, **IntercompanyOrder** sütununa başvurular arac
 8. **Teklifler** genişletildikten sonra, sorgu dizesi `CUSTGROUP != "<company>"` olan bir filtre uygulayın.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="CDS Satış Teklifi Başlığı için sorgu iletişim kutusu düzenleme":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

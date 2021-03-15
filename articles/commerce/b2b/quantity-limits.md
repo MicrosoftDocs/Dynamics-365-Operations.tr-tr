@@ -84,3 +84,6 @@ Commerce site oluşturucuda B2B sipariş miktarı sınırları özelliğini açm
 [B2B e-ticaret sitelerindeki iş ortağı kullanıcılarını yönetme](manage-b2b-users.md)
 
 [B2B e-ticaret siteleri için müşteri hesabı ödeme yöntemini yapılandırma](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

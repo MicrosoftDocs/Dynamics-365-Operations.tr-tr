@@ -62,3 +62,6 @@ Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntem
 33. Ödemeleri oluşturmak için **Tamam**'a tıklayın.
 34. Tüm ödemeler onaylanır ve oluşturulursa **Deftere naklet**'e tıklayın. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

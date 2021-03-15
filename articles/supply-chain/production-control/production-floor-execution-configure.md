@@ -99,3 +99,6 @@ Son 60 gün içinde herhangi bir faaliyet kaydetmemiş olan cihazlar için, bir 
 1. Eylem bölmesinde, **İstemci yapılandırmalarını temizle**'yi seçin.
 1. **İstemci yapılandırmasını Temizle** iletişim kutusunda **gün sayısı** alanını, dikkate alınacak etkin olmama gün sayısına (bugünün tarihinden önce) ayarlayın. Bu süre içinde etkin olmayan cihazlar için tüm yapılandırmaları ve oturum açma kayıtlarını kaldırırsınız.
 1. **Gün sayısı** ayarını temel alarak ilgili konfigürasyonları temizlemek için **Tamam**'ı seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

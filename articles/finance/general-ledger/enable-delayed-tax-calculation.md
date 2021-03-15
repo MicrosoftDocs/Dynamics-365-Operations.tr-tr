@@ -64,3 +64,6 @@ Sistem, günlük başlığı ayarına öncelik verir. Varsayılan olarak, bu aya
 4. **Kurulum** sekmesinde, **Ertelenen vergi hesaplaması** seçeneğini **Evet** olarak ayarlayın.
 
 ![Genel günlük sayfası resmi](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

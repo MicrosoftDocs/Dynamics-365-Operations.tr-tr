@@ -67,3 +67,6 @@ Ayrıca, bakım talebi veya iş emri oluşturulurken seçilebilecek *sorumlu* ba
 
 İş emri planlama sırasında, hangi çalışanların bir iş emriyle ilgili işleri tamamlaması gerektiğini belirlemek için farklı puanlar hesaplanır (bu puanlar,**Varlık yönetimi parametreleri** > **İş emri planlama** bağlantısında ayarlanır). İş emri planlama sırasında iki veya daha fazla tercih edilen bakım çalışanı veya sorumlu bakım çalışanı aynı puanı elde ederse, bir çalışan rasgele seçilir. Aksi takdirde, iş emrini tamamlamak için tahsis edilen daima en yüksek puanlı çalışan olur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

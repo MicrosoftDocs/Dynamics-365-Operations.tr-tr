@@ -117,3 +117,6 @@ Hem Adyen hem de PayPal ödeme bağlayıcıları gerekiyorsa, her iki modülü d
 [PayPal için Dynamics 365 Payment Connector](paypal.md)
 
 [Adyen bağlayıcısı kullanan Güçlü Müşteri Kimlik Doğrulaması](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

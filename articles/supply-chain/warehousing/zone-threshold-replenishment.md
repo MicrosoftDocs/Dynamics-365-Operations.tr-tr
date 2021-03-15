@@ -343,3 +343,6 @@ Tüm önkoşul örnek verileri oluşturulduktan sonra, bu adımları izleyerek s
 
 - Dinamik yerleşimleri kullanıyorsanız ve yerleşim yönergesi eylemi **Konsolide etme** stratejisini kullanacak şekilde ayarlandıysa, stok yenileme işi ya ilk uygun yerleşim için veya zaten stok içeren bir yerleşim için oluşturulacaktır.
 - Bölgeler yerine sabit yerleşimler kullanıyorsanız [standart min/maks stok yenilemeyi](tasks/set-up-min-max-replenishment-process.md) kullanmanız gerekir.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

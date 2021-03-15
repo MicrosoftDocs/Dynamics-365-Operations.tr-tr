@@ -49,3 +49,6 @@ Bu görevde, müşteriye serbest metin faturası şablonunun nasıl atanacağı 
     + Yıllık – Bu seçeneği belirtin ve Dönem alanına yıl sayısını girin. Örneğin 2 girerseniz, bu müşteri için her iki yılda bir fatura oluşturulur.  
 14. **Dönem** alanına bir sayı girin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları bir veri kaynağı
 ![ER yapılandırma sayfası](../media/er-financial-dimensions-guides-run3.png)
     * Ortaya çıkan sonucu inceleyin. Seçili toplu işlere ilişkin her hareket için, ilgili boyut kümesinden mali boyutların sunulduğunu unutmayın. Bu raporu çalıştırın ve raporun seçili boyutların sayısına veya bu kurulum için yapılandırılmış boyutların sayısına bağlı olmadığını görmek için farklı boyutlar seçin.  
 ![ER yapılandırma sayfası](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

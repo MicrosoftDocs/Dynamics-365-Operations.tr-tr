@@ -85,3 +85,6 @@ Bir yeni sayfaya döngü modülü eklemek ve gerekli özellikleri ayarlamak içi
 [İçerik bloğu modülü](add-hero-module.md)
 
 [Video oynatıcı modülü](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Oluşturulan yapılandırmaları sistemden sileceğiz ve onları LCS havuzundan 
 26. Ağaçta 'Örnek veri modeli' seçeneğini genişletin.
     * Model 'Örnek eşleşme' eşleme yapılandırmasının, seçilen veri modeli yapılandırması ile birlikte indirildiğini unutmayın. İki dosya birlikte indirilmiştir çünkü 'Örnek eşleşme', seçilen veri modelini uyguluyor olarak tanımlanmıştır ve uygulama için uygulanabilirdir. 'Örnek eşleşme (alternatif)' yapılandırması, gerekli uygulama sürümü yerine getirilmediği için indirilmemiştir.   
     * Finance and Operations'ta oturum açar, aynı sağlayıcıya kaydolur, aynı LCS projesine erişir ve aynı veri modeli yapılandırmasını indirirseniz, 'Örnek eşleme (alternatif)' yapılandırması indirilir ve 'Örnek eşleme' yapılandırması atlanır.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

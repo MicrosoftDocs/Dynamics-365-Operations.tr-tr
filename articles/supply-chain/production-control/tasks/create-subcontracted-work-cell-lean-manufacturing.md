@@ -70,3 +70,6 @@ Yalın imalat için taşeron işi modellemek için işi sağlayan satıcı ile i
 24. Birim alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 25. Birimi ResolveChanges.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

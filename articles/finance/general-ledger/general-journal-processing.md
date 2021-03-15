@@ -104,3 +104,6 @@ Durumu "kurtarılamaz" olan bir iş akışındaki günlüğü geri çağırma ö
 
 ## <a name="delete-journal-lines"></a>Günlük Satırlarını Silme
 Tüm günlük satırlarını hızlı bir şekilde silme özelliği, **İşlevler** > **Günlük Satırlarını Sil** altındaki bir günlükte etkinleştirilir. Bu özelliği etkinleştirmek için, **Özellik yönetimi**'nde, **Günlük performansı iyileştirmelerini sil**'i seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen mü
 
 - [Dynamics 365 for Finance and Operations içindeki doğrudan malzemeler için standart maliyetleri ayarlamak](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Dynamics 365 for Finance and Operations içinde standart işgücü maliyetleri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

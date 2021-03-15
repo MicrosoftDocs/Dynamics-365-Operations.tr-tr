@@ -48,3 +48,6 @@ Bu görev, belirli bir sabit kıymetler grubunun amortisman yöntemini güncelle
 15. Tamam'a tıklayın.
     *  İşlemin sonuçları Toplu güncelleştirme raporunda gösterilir.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

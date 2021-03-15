@@ -115,3 +115,6 @@ Aşağıdaki şekilde, **Benzer Görünümler Araştır Bağlantısını Etkinle
 [Demo verileriyle öneriler oluşturma](product-recommendations-demo-data.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

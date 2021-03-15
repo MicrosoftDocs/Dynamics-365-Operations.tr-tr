@@ -209,3 +209,6 @@ Fiili ağırlık ürünleri için geçerli olan kısıtlamalara ek olarak, etike
 
 > [!NOTE]
 > Fiili ağırlık etiketleriyle ilgili önceki bilgiler, yalnızca, fiili ağırlık ürününde, tamamen izlenen bir fiili ağırlık etiketi boyut izleme yöntemi olduğu zaman (yani, fiili ağırlık kalemi işleme ilkesindeki **Fiili ağırlık etiket boyutu izleme yöntemi** parametresinin ayarı **Ürün boyutları, izleme boyutları ve tüm depolama boyutları** olduğu zaman) geçerlidir. Fiili ağırlık kalemi yalnızca kısmi etiket izlemeli olduğu zaman (yani, fiili ağırlık kalemi işleme ilkesindeki **Fiili ağırlık etiketi boyut izleme yöntemi** parametresinin ayarı **Ürün boyutları, izleme boyutları ve Stok Durumu** olduğu zaman) ek sınırlamalar uygulanır. Bu durumda, etiket ile stok arasında görünürlük kaybolduğu için bazı ek senaryolar desteklenmez.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

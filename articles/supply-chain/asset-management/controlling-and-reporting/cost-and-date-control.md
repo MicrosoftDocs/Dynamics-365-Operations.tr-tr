@@ -107,3 +107,6 @@ Aşağıdaki ekran görüntüsü, **İş emri tarih denetimi** içinde hesaplama
 ![İş emri tarihi denetiminde örnek hesaplama sonuçları](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

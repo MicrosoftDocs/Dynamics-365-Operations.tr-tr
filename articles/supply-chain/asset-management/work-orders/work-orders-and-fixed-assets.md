@@ -64,3 +64,6 @@ Aşağıdaki prosedürde varlıklar, iş emirleri, iş emri iş projeleri ve sab
 
 7. Bir sabit kıymetle ilişkili projelerin genel görünümünü görmek için **Sabit kıymetler** > **Sabit kıymetler** > **Sabit kıymetler**'i seçin ve **Sabit kıymet numarası** alanında, ayrıntılar görünümünü açmak için sabit kıymetin bağlantısını seçin. Sayfanın sağ tarafındaki **İlgili bilgi** bölmesini genişletin ve **İlişkili projeler** hızlı sekmesini seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

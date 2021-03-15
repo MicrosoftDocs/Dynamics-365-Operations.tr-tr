@@ -1373,3 +1373,6 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 |     <strong>Etkilenen ürün alanları</strong>     |                                              Genel muhasebe                                              |
 |             <strong>Durum</strong>             |                                      Dynamics AX 2012 itibarıyla kaldırıldı                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -293,3 +293,6 @@ Bu bölüm, yeni ızgara denetimiyle ilgili bilinen sorunların listesini içeri
 ### <a name="quality-update-for-1009platform-update-33"></a>10.0.9/Platform güncelleştirmesi 33 için kalite güncelleştirmesi
 
 - [KB 4550367] Zaman değerleri doğru şekilde biçimlendirilmiyor.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

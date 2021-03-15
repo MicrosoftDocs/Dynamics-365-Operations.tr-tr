@@ -94,3 +94,6 @@ Siparişe özel bir ürün reçetesi hesaplaması, ürün reçetesi hesaplaması
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

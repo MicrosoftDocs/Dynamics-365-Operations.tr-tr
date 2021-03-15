@@ -59,3 +59,6 @@ Bir görüntü için özel bir odak noktası tanımlamak üzere aşağıdaki ad�
 [Resimleri kırpma](dam-crop-images.md)
 
 [Statik dosyaları karşıya yükleme ve sunma](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

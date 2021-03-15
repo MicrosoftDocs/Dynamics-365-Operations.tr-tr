@@ -125,3 +125,6 @@ Süren işi dönemsel olarak değerlemek ve malzeme, işçilik ve dolaylı maliy
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Deneme işlemindeki her adım hakkında daha fazla bilgi için aşağıdaki konu
 
 ## <a name="next-step"></a>Sonraki adım
 [Varsayım tanımlama ve deneme için başarı ölçümleri belirleme](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

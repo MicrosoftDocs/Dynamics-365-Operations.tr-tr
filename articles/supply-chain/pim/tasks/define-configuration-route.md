@@ -45,3 +45,6 @@ Bu yordam, konfigürasyon gruplarının sunulacağı sırayı belirleyen bir kon
 15. Listede, seçili satırdaki bağlantıya tıklayın.
 16. Kaydet'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

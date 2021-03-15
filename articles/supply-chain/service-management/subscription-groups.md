@@ -54,3 +54,6 @@ Abonelik grubuna eklenmiş tüm abonelikler için aşağıdaki görevleri de ger
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

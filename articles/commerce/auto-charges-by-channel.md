@@ -127,3 +127,6 @@ POS uygulamasında **Hareket seçenekleri \> Masraflar \> Masrafları yönet**'i
 [Çok yönlü kanal gelişmiş otomatik masrafları](omni-auto-charges.md)
 
 [Başlık masraflarını eşleşen satış satırlarına eşit dağıtma](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

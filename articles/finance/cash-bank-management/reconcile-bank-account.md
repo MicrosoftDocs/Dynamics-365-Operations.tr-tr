@@ -70,3 +70,6 @@ Banka ekstresi mutabakat işlevselliğini iptal etmek, banka ekstresi mutabakat�
 Banka ekstresi mutabakatları yalnızca girildikleri kronolojik sırada iptal edilebilir. Bir banka ekstresi mutabakatı iptal edildiğinde, yeni hareketler ve düzeltmeler tersine çevrilir ve diğer tüm işlemler mutabakat sağlanacak şekilde işaretlenir.
  
 Banka ekstresi mutabakatını iptal etmek için banka ekstresini seçin ve **Banka ekstresi > Banka mutabakatını iptal et**'i seçin. **Banka mutabakatını iptal et** sayfasında **Neden kodu**, **Neden yorumu** ve **İptal tarihini** sağlayın. İptal başlangıcı için **Tamam**'ı seçin. Unutmayın, banka ekstresi iptal tarihi banka ekstresi tarihinde veya sonra olmalıdır. Banka ekstresi mutabakatı iptal edildikten sonra banka ekstresi için **İptal tarihi** alanı sağlanan **İptal tarihi** ile güncelleştirilir. Mutabakatı iptal edilen hareketleri görüntülemek için **Hareketler** düğmesini seçin.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

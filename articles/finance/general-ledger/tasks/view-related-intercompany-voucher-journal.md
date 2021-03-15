@@ -53,3 +53,6 @@ ms.locfileid: "4994377"
 3. Listede, seçili satırı işaretleyin.
 4. Fiş'e tıklayın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

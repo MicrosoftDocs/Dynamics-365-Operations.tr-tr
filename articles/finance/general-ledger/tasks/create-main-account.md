@@ -51,3 +51,6 @@ Bu görev kılavuzu, mevcut bir hesap planına ana hesap eklemeyi adım adım a�
 21. **Para birimi çeviri türü** alanında, hesap için döviz kurlarının hesaplanacağı yöntemi seçin.
 22. Sayfayı kapatın.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

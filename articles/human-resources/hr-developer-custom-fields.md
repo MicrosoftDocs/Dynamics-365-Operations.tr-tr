@@ -40,3 +40,5 @@ Oluşturduğunuz tüm özel alanları Dataverse uygulamasında kullanabilmeniz i
 [Dataverse tabloları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Özel alanları veri varlıklarında görüntüleme](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

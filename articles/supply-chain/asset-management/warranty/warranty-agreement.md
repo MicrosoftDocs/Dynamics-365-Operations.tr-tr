@@ -54,3 +54,6 @@ Garanti sözleşmesi, çalışma saatleri, giderler ve maddeler için garantiyi 
     4. **Yüzde** alanına, garanti satırı için karşılama yüzdesini girin. Yüzde, şirketiniz tarafından kapsanan miktarı gösterir.
 
 ![Garanti sayfası](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirilece
 7. Düzenle öğesine tıklayın.
 8. Ödeme anlaşması alanına bir değer girin veya buradan bir değer seçin.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

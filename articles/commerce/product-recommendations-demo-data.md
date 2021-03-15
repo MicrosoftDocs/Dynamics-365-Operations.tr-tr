@@ -89,3 +89,6 @@ Uzantı, sahte öneri sonuçlarını güçlendirmek için kullanılan veri küme
 [Seçkin önerileri el ile oluşturma](create-editorial-recommendation-lists.md)
 
 [Ürün önerileri SSS](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

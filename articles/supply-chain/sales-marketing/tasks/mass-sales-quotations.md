@@ -100,3 +100,6 @@ Bu yordam, birden fazla müşteriye gönderilecek ürünler ve hizmetler kümesi
 11. Sales and marketing > Sales quotations > All quotations (Satış ve pazarlama > Satış teklifleri > Tüm teklifler) menüsüne gidin.
     * Tekliflerin seçili şablon temel alınarak toplu güncelleştirme rutininde belirtilen tüm müşteriler için oluşturulduğundan emin olun.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

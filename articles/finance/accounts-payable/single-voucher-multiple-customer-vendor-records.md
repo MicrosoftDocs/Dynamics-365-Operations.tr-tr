@@ -232,3 +232,6 @@ Bu hareket için istenmeyen sorunlardan kaçınmak için bir fiş kullanmak yeri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
