@@ -14,6 +14,8 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.18 için platform güncelleştirmeleri (Mayıs 2021)
+                  href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: 10.0.17 için platform güncelleştirmeleri (Nisan 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: 10.0.16 için platform güncelleştirmeleri (Şubat 2021)
@@ -22,6 +24,8 @@
                   href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
+                - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
+                  href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Kaldırılan veya kullanım dışı bırakılan platform özellikleri
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
@@ -38,6 +42,8 @@
               href: business-events/app-business-events.md
             - name: İş akışı iş olayları
               href: business-events/business-events-workflow.md
+            - name: Toplu iş olayları
+              href: business-events/system-business-events.md
             - name: İş olayları olarak uyarılar
               href: business-events/alerts-business-events.md
             - name: Microsoft Flow'daki iş olayları
@@ -216,10 +222,14 @@
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Servis gerçekleştirilecek şirket içi varlıklar
                               href: data-entities/dual-write/in-house-assets.md
-                            - name: 'Tümleşik çalışan, iş ve pozisyon'
-                              href: data-entities/dual-write/integrated-hr.md
                             - name: Stok kullanılabilirliği
                               href: data-entities/dual-write/inventory-availability.md
+                            - name: 'Tümleşik çalışan, iş ve pozisyon'
+                              href: data-entities/dual-write/integrated-hr.md
+                            - name: Not tümleştirmesi
+                              href: data-entities/dual-write/notes-integration.md
+                            - name: Eşleme referansı
+                              href: data-entities/dual-write/mapping-reference.md
                         - name: Çift yazma desteği
                           items:
                             - name: Field Service ve Project Service Automation çözümleri için destek
@@ -642,6 +652,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Azure Pipelines'ta Lifecycle Services (LCS) bağlantısı oluşturma
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Yeni NuGet paketleri için barındırılan Azure Pipeline'ı güncelleştirme
+                  href: dev-tools/pipeline-nuget-split.md
                 - name: Azure Pipelines'ta eski bir işlem hattını güncelleştirme
                   href: dev-tools/pipeline-msbuild-update.md
             - name: Filo Yönetimi örnek uygulaması
@@ -1100,11 +1112,9 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: İzleme ve tanılama
               href: lifecycle-services/monitoring-diagnostics.md
-            - name: Etki analizi raporu
-              href: lifecycle-services/impact-analysis-report.md
             - name: Ortam hizmetlerini yeniden başlatma
               href: lifecycle-services/restart-environment-services.md
-            - name: Üretim kesintisi raporlama
+            - name: Üretim kesintisini raporlama
               href: lifecycle-services/report-production-outage.md
             - name: Kullanıcı oturum açma bilgilerini izleme
               href: lifecycle-services/user-logins.md
@@ -1448,6 +1458,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B kullanıcılarını Azure AD'ye aktarma
               href: sysadmin/implement-b2b.md
+            - name: Veri bakımı
+              href: sysadmin/DataMaintenancePortal.md
             - name: Güvenlik
               items:
                 - name: Rol tabanlı güvenlik
