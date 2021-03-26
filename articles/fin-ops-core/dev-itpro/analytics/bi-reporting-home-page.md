@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 694c1f415fd52eb9e98ace2e5787c12f7a1fed8e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 644cf8ea39da872962e44a38294af88d1dfa809e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687289"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559881"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Power BI giriş sayfasıyla raporlama ve analiz
 
@@ -35,7 +34,7 @@ Bu konu sizi mevcut iş zekası (BI) ve raporlama araçları hakkında bilgi edi
 - [Finance and Operations: Power BI Analiz ve Raporlama Hizmetleri blogu](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Analiz çalışma alanları
-Çalışma alanlarında Microsoft Power BI'ın desteklediği zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
+Çalışma alanlarında Microsoft Power BI tarafından desteklenen zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
 
 Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkileşim kurabilirler. Sebep-sonuç ilişkisini görebilirler ve çalışma alanından ayrılmadan basit deneme işlemleri gerçekleştirebilirler. Etkileyici, etkileşimli görseller sayesinde kullanıcılarınız verileri keşfedip gizli eğilimleri ortaya çıkarırken eğlenebilir.
 

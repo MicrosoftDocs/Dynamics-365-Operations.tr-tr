@@ -1,6 +1,6 @@
 ---
 title: Peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme
-description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme açıklanır.
+description: Bu konuda, Microsoft Dynamics 365 Commerce'ta peşin ve nakit yönetimi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
 author: josaw1
 manager: AnnBe
 ms.date: 11/04/2020
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c809f379dbd6824542d0b1768cfbf44f37461f4c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 296dbf03ed65c1994562149a2c4b8fccd9073f0d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010211"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221931"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>Peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Commerce uygulamasında peşin ve nakit yönetimi hareketlerini düzenleme ve denetleme açıklanır.
+Bu konuda, Microsoft Dynamics 365 Commerce'ta peşin ve nakit yönetimi hareketlerinin nasıl düzenleneceği ve denetleneceği açıklanmaktadır.
 
 ## <a name="overview"></a>Genel bakış
 

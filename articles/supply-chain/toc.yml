@@ -72,15 +72,17 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18 (Mayıs 2021)
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (Nisan 2021)
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (Şubat 2021)
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15 (Ocak 2021)
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
-                    - name: Dynamics 365 Supply Chain Management'tan kaldırılan veya kullanım dışı bırakılan özellikler
+                    - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Dynamics 365 Supply Chain Management'taki kaldırılan veya kullanım dışı bırakılan özellikler
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,10 +1347,12 @@
                   href: cost-management/inventory-close.md
                 - name: Yürütülen ortalama maliyet fiyatı
                   href: cost-management/running-average-cost-price.md
-                - name: Eldeki stokun maliyet değerlerini ayarlama
+                - name: Eldeki stoğun maliyet değerini ayarlama
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Stok boyutu başına cari ortalama maliyeti izleme
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Stok hareketlerini arşivleme
+              href: inventory/archive-inventory-transactions.md
             - name: Stok Görünürlüğü Eklentisi
               href: inventory/inventory-visibility.md
         - name: IoT Zekası
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Mühendislik sürümleri ve mühendislik ürün kategorileri
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Mevcut ürünlerde değişiklik yönetimini etkinleştirme
+              href: engineering-change-management/change-management-existing-products.md
             - name: Ürün yaşam döngüsü durumu ve hareketler
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Mühendislik ürünlerindeki değişiklikleri yönetme
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
                           href: production-control/production-floor-execution-use.md
+                        - name: Üretim katı yürütme için kullanıcı arabirimi denetim stilleri
+                          href: production-control/production-floor-execution-styles.md
                     - name: Cihazlar için iş kartını yapılandırma
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
@@ -2729,6 +2737,54 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Madde için taşıma sınırlamalarını ayarlama
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: Son teslim alma maliyeti
+          items:
+            - name: Son teslim alma maliyeti modülüne genel bakış
+              href: landed-cost/landed-cost-overview.md
+            - name: Son teslim alma maliyeti ile Taşıma yönetimi karşılaştırması
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: Son teslim alma maliyeti modülünü ayarlama ve yapılandırma
+              items:
+                - name: Son teslim alma maliyeti parametreleri
+                  href: landed-cost/landed-cost-parameters.md
+                - name: Son teslim alma maliyeti tedarik ve kaynak atama parametreleri
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Sefer durumu ayarı
+                  href: landed-cost/voyage-status-setup.md
+                - name: Sevkiyat konteyneri ayarı
+                  href: landed-cost/shipping-container-setup.md
+                - name: Teslimat bilgileri ayarı
+                  href: landed-cost/delivery-information-setup.md
+                - name: Çok aşamalı günlük ayarı
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: Sevkiyat bilgileri ayarı
+                  href: landed-cost/shipping-information-setup.md
+                - name: Maliyetlendirme parametre değerleri ayarı
+                  href: landed-cost/costing-parameters-setup.md
+                - name: Genel muhasebe için varsayılan açıklamalar
+                  href: landed-cost/defult-descriptions.md
+            - name: Son teslim alma maliyeti için eklenen satıcı ayarları
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 'Seferler, konteynerler ve folyolarla çalışma'
+              items:
+                - name: Seferleri yönetme
+                  href: landed-cost/manage-voyages.md
+                - name: Sevkiyat konteynerlerini yönetme
+                  href: landed-cost/manage-shipping-containers.md
+                - name: Folyoları yönetme
+                  href: landed-cost/manage-folios.md
+            - name: Gelen seferler ve sevkiyat konteynerleri günlüklerini izleme
+              href: landed-cost/inbound-tracking.md
+            - name: Son teslim alma maliyetlerini tahmin etme ve yönetme
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: Transitte işleme
+              href: landed-cost/in-transit-processing.md
+            - name: Fazla/eksik hareketleri işleme
+              href: landed-cost/over-under-transactions.md
+            - name: Son teslim alma maliyeti sorgulamaları
+              href: landed-cost/landed-cost-inquiries.md
+            - name: Son teslim alma maliyeti raporları
+              href: landed-cost/landed-cost-reports.md
         - name: Ambar yönetimi
           items:
             - name: Ambar yönetimine genel bakış
@@ -2925,10 +2981,12 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Madde konsolidasyonu - yerleşim kullanımı
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: Ambar işi ile ilgili sorunları giderme
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: İş bölme
                       href: warehousing/work-split.md
+                    - name: Malzeme işleme ekipmanı arabirimi (MHAX)
+                      href: warehousing/mhax.md
+                    - name: Ambar işi ile ilgili sorunları giderme
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Ambar kurulumu
               items:
                 - name: Ambar yapılandırması
@@ -2987,6 +3045,8 @@
                   items:
                     - name: Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Mobil cihaz kullanıcı ayarları
+                      href: warehousing/mobile-device-user-settings.md
                     - name: Ambar uygulamasını yükleme ve bağlama
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Ambar uygulamasında kamera kullanarak barkodları tarama
