@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 03fe3d7fb64b2e9d0a06dc56654933f0c672782a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225757"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
 
@@ -94,7 +94,7 @@ Sertifika profili satırları için **Ayarlar**'ı seçtiğinizde, **Sertifika p
 
 ### <a name="workflow-searching-certificates-in-the-commerce-runtime"></a>İş akışı: Commerce Runtime'da sertifikaları arama
 
-Burada, Commerce Runtime içinde bir sertifika profili çağrıldığında bir sertifikayı aramak için kullanılan temel iş akışı verilmektedir.
+Burada, Commerce runtime içinde bir sertifika profili çağrıldığında bir sertifikayı aramak için kullanılan temel iş akışı verilmektedir.
 
 1. Sistem, sertifika profilinin geçerli tüzel kişilik için şirkete özel ayarlar içerip içermediğini tanımlar.
 1. Sistem, **Öncelik** alanının **1** olarak ayarlandığı satır için **Sertifika profili ayarları** sayfasındaki değerleri kullanarak sertifikayı bulmaya çalışır.
@@ -120,7 +120,7 @@ Sertifikanın yeni bir sürümü tanıtılırsa ancak aynı anda tüm mağazalar
 1. Yeni satırın **Öncelik** değerini artırın. Satırı, aynı sertifikanın önceki sürümünün satırı üzerinde olacak şekilde taşımak için **Yukarı taşı** düğmesini kullanın.
 
 > [!NOTE]
-> Commerce Runtime'da ilk olarak sertifikanın yeni sürümü çağırılır. Sertifika henüz belirli bir mağazada veya belirli bir terminalde güncelleştirilmediyse, önceki sürüm çağrılır.
+> Commerce runtime'da ilk olarak sertifikanın yeni sürümü çağırılır. Sertifika henüz belirli bir mağazada veya belirli bir terminalde güncelleştirilmediyse, önceki sürüm çağrılır.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

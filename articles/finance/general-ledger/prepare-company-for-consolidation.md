@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6fce69724945448f961769dd383d1047a5d13c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 07988e71276c6439e392bce2087f3a8923f5f40b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230214"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Konsolidasyon işleminde tüzel kişilik hazırlama
 
@@ -63,7 +63,7 @@ Konsolide tüzel kişilik, yan kuruluşların sonuçlarını ve bakiyelerini top
 Konsolide tüzel kişilik artık **Konsolide et** periyodik işi için ayarlanmıştır. Bir içeri aktarma konsolidasyonu veya çevrimiçi konsolidasyon yapabilirsiniz.
 
 - İçeri aktarma konsolidasyonu yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolide et \[İçeri aktarma kaynağı\]**'na gidin.
-- Çevrimiçi konsolidasyon yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolidasyon \[\]Çevrimiçi**'ye gidin.
+- Çevrimiçi konsolidasyon yapmak için **Genel muhasebe \> Periyodik \> Konsolide et \> Konsolidasyon \[Çevrimiçi\]**'ye gidin.
 
 > [!NOTE]
 > Konsolidasyonu işlemeden önce, yan tüzel kişilikleri konsolidasyon için hazırlamanız gerekir. Daha fazla bilgi için bkz. [Konsolidasyon için bir bağlı tüzel kişilik ayarlama](set-up-subsidiary-company-for-consolidation.md).

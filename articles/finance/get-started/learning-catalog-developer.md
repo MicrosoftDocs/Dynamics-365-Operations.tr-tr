@@ -13,12 +13,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: aa1e991fe6f2a5f900560b7243c2585bd127ec2a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4984996"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223890"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance geliştiricileri için öğrenme kataloğu
 
@@ -44,7 +44,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 | [Finance and Operations uygulamalarını genişletme](https://docs.microsoft.com/learn/paths/extending-finance-operations/) | Uzantılar, kod üzerinde temel kodu etkilemeyen değişiklikleri uygulayarak geliştiricilerin Finance and Operations uygulamalarındaki kullanıcı deneyiminde değişiklik yapmasına olanak sağlar. Diğer faydaların yanı sıra, eklentiler geliştiricilerin iş süreçleri ve gerekli değişikliklere bağlı kalmak için Finance and Operations uygulamalarını güncelleştirmelerine olanak tanır. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 2.5 saat |
 | [Finance and Operations uygulamalarına bağlanma](https://docs.microsoft.com/learn/paths/connect-finance-operations/) | Tümleştirme ve Finance and Operations uygulamalarında verilerinize erişme olanağı önemli yeteneklerdir. Kodu Finance and Operations uygulamalarında oluşturma ve genişletme hakkında bilgi sahibi olan geliştiriciler, veri tümleştirmesi ve verilere bağlanmanın kullanıcılar üzerindeki olumlu etkileri hakkında bilgi sahibi olarak kendilerini geliştirebilirler. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 5.75 saat |
 | [Finance and Operations uygulamaları ile verileri taşıma ve uygulamaya geçirme](https://docs.microsoft.com/learn/paths/migrate-data-go-live-finance-operations/) | İşlevsel bir danışman olarak, Finance and Operations uygulamalarını kullanmaya başlamak için müşterinizin verilerini geçiş işlemi için hazırlamayı, veri yönetimi konusunda çalışmayı ve kullanıcı kabulü testlerini gerçekleştirmeyi bilmeniz gerekir. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 4 saat |
-| [Finance and Operations: Geliştirme ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | Bu Teknik Sohbette, Geliştirme Uygulama Yaşam Döngüsü Yönetim kavramları, araçları ve önerdiğimiz en iyi uygulamalar tartışılmaktadır. Lifecycle Services, Visual Studio ve Azure DevOps'un çözüm kod tabanınızın iş süreçlerine odaklı olarak sürekli teslimatını ve ortamlarınıza bakım yapılmasını sağlamak için nadıl birlikte çalıştıklarını açıklıyoruz. | Bir web konferansını ücretsiz olarak kaydetme | 52 dakika |
+| [Finance And Operations: Geliştirme ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | Bu Teknik Sohbette, Geliştirme Uygulama Yaşam Döngüsü Yönetim kavramları, araçları ve önerdiğimiz en iyi uygulamalar tartışılmaktadır. Lifecycle Services, Visual Studio ve Azure DevOps'un çözüm kod tabanınızın iş süreçlerine odaklı olarak sürekli teslimatını ve ortamlarınıza bakım yapılmasını sağlamak için nadıl birlikte çalıştıklarını açıklıyoruz. | Bir web konferansını ücretsiz olarak kaydetme | 52 dakika |
 | [Finance and Operations: Dynamics 365 for Finance and Operations'ı PowerApps ile genişletme (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Microsoft PowerApps'ın kolaylığını ve işletmeleri dijital olarak dönüştürmek ve kullanıcı verimliliğini artırmak üzere Dynamics 365 for Finance and Operations ile nasıl tümleştirilebileceğini öğrenin. | Bir web konferansını ücretsiz olarak kaydetme | 43 dakika |
 | [Finance and Operations: Genişletilebilirlik (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Microsoft'un genişletilebilirlik planları hakkında genel bir bakış ve güncelleştirme sağlayacağız. Meta veri genişletilebilirlik özelliklerinin yanı sıra kod çoğaltma ve güçlü Komut Zinciri özelliği de dahil olmak üzere genişletme özelliğini yakından inceleyerek bir çözümün kapsamını genişletmeye yönelik çeşitli yöntemleri ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 50 dakika |
 | [Visual Studio Team Services (VSTS) Kurulumu (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Bu Teknik Sohbet'te Geliştirme/Test ortamı yapılandırmasına yönelik olarak LCS uygulamasına bağlanmak üzere VSTS kurulumunu ve projesini yapılandırmak için gerekli olan adımları inceleyeceğiz. | Bir web konferansını ücretsiz olarak kaydetme | 41 dakika |

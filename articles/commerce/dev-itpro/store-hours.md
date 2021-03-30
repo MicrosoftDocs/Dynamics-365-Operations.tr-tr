@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 00c532dfa9ceed2cda6652496d874cb82785dc7b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230652"
 ---
 # <a name="create-and-update-store-hours"></a>Mağaza çalışma saatleri oluşturma ve güncelleştirme
 
@@ -35,7 +35,7 @@ Farklı kanallar arasında birden fazla depolama saati yapılandırılabilir. Bu
 
 Bir müşterinin farklı bir mağaza için bir malzeme çekme siparişi varsa, malzeme çekme bu mağazada kullanılabilir olduğunda, kasiyer program seçebilir. Mağaza arama, tarihlere ve depolama zamanlarında bir başvuru sağlayacaktır. Kasiyer bir tarih ve yerleşim seçebilir ve mağaza saatlerini içeren bir teslim alma girişi de yazdırabilir.
 
-Bu işlevsellik, Microsoft Dynamics 365 Retail 8.1.2 ve daha ileri sürümlerde kullanılabilir.
+Bu işlevsellik, Microsoft Dynamics 365 Retail sürümler 8.1.2 ve sonraki sürümlerinde kullanılabilir.
 
 ## <a name="configure-store-hours"></a>Mağaza saatlerini yapılandır
 
