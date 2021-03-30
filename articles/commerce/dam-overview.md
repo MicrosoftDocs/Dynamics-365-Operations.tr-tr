@@ -17,45 +17,48 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cf726c920d3d854d59fce4c6d62ab8a234e5f893
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e134c70ad81876beacd38eb58442d3784d57d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222524"
 ---
-# <a name="digital-asset-management-overview"></a><span data-ttu-id="69e78-103">Dijital varlık yönetimine genel bakış</span><span class="sxs-lookup"><span data-stu-id="69e78-103">Digital asset management overview</span></span>
+# <a name="digital-asset-management-overview"></a><span data-ttu-id="f8f5e-103">Dijital varlık yönetimine genel bakış</span><span class="sxs-lookup"><span data-stu-id="f8f5e-103">Digital asset management overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="69e78-104">Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="69e78-104">This topic provides an overview of digital asset management in Microsoft Dynamics 365 Commerce site builder.</span></span>
+<span data-ttu-id="f8f5e-104">Bu konu, Microsoft Dynamics 365 Commerce site oluşturucusunda dijital varlık yönetimine genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="f8f5e-104">This topic provides an overview of digital asset management in Microsoft Dynamics 365 Commerce site builder.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="69e78-105">Özet</span><span class="sxs-lookup"><span data-stu-id="69e78-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="f8f5e-105">Özet</span><span class="sxs-lookup"><span data-stu-id="f8f5e-105">Overview</span></span>
 
-<span data-ttu-id="69e78-106">Dynamics 365 Commerce site oluşturucusunun Ortam Kitaplığı aşağıdakiler için destek dahil olmak üzere zengin dijital varlık yönetimi işlevlerine sahiptir:</span><span class="sxs-lookup"><span data-stu-id="69e78-106">Dynamics 365 Commerce site builder's Media Library features rich digital asset management functionality, including support for the following:</span></span>
-- <span data-ttu-id="69e78-107">Görüntü varlıkları</span><span class="sxs-lookup"><span data-stu-id="69e78-107">Image assets</span></span>
-- <span data-ttu-id="69e78-108">Video varlıkları</span><span class="sxs-lookup"><span data-stu-id="69e78-108">Video assets</span></span>
-- <span data-ttu-id="69e78-109">Office belgeleri ve PDF dosyaları gibi diğer ikili varlık türleri</span><span class="sxs-lookup"><span data-stu-id="69e78-109">Other types of binary assets, such as Office documents and PDF files</span></span>
-- <span data-ttu-id="69e78-110">Yerelleştirilmiş görüntüler</span><span class="sxs-lookup"><span data-stu-id="69e78-110">Localized images</span></span>
-- <span data-ttu-id="69e78-111">Klasör karşıya yüklemeleri</span><span class="sxs-lookup"><span data-stu-id="69e78-111">Folder uploads</span></span>
-- <span data-ttu-id="69e78-112">Görüntülerin kırpılması</span><span class="sxs-lookup"><span data-stu-id="69e78-112">Cropping of images</span></span>
-- <span data-ttu-id="69e78-113">Görüntünün odak noktalarının özelleştirilmesi</span><span class="sxs-lookup"><span data-stu-id="69e78-113">Customizing of image focal points</span></span>
-- <span data-ttu-id="69e78-114">Çok yönlü kanal görüntü varlıkları (ürün, ürün çeşitleri, katalog, kategori, çalışan ve müşteri görüntüleri)</span><span class="sxs-lookup"><span data-stu-id="69e78-114">Omni-channel image assets (product, product variants, catalog, category, worker, and customer images)</span></span>
+<span data-ttu-id="f8f5e-106">Dynamics 365 Commerce site oluşturucusunun Ortam Kitaplığı aşağıdakiler için destek dahil olmak üzere zengin dijital varlık yönetimi işlevlerine sahiptir:</span><span class="sxs-lookup"><span data-stu-id="f8f5e-106">Dynamics 365 Commerce site builder's Media Library features rich digital asset management functionality, including support for the following:</span></span>
+- <span data-ttu-id="f8f5e-107">Görüntü varlıkları</span><span class="sxs-lookup"><span data-stu-id="f8f5e-107">Image assets</span></span>
+- <span data-ttu-id="f8f5e-108">Video varlıkları</span><span class="sxs-lookup"><span data-stu-id="f8f5e-108">Video assets</span></span>
+- <span data-ttu-id="f8f5e-109">Office belgeleri ve PDF dosyaları gibi diğer ikili varlık türleri</span><span class="sxs-lookup"><span data-stu-id="f8f5e-109">Other types of binary assets, such as Office documents and PDF files</span></span>
+- <span data-ttu-id="f8f5e-110">Yerelleştirilmiş görüntüler</span><span class="sxs-lookup"><span data-stu-id="f8f5e-110">Localized images</span></span>
+- <span data-ttu-id="f8f5e-111">Klasör karşıya yüklemeleri</span><span class="sxs-lookup"><span data-stu-id="f8f5e-111">Folder uploads</span></span>
+- <span data-ttu-id="f8f5e-112">Görüntülerin kırpılması</span><span class="sxs-lookup"><span data-stu-id="f8f5e-112">Cropping of images</span></span>
+- <span data-ttu-id="f8f5e-113">Görüntünün odak noktalarının özelleştirilmesi</span><span class="sxs-lookup"><span data-stu-id="f8f5e-113">Customizing of image focal points</span></span>
+- <span data-ttu-id="f8f5e-114">Çok yönlü kanal görüntü varlıkları (ürün, ürün çeşitleri, katalog, kategori, çalışan ve müşteri görüntüleri)</span><span class="sxs-lookup"><span data-stu-id="f8f5e-114">Omni-channel image assets (product, product variants, catalog, category, worker, and customer images)</span></span>
 
-<span data-ttu-id="69e78-115">Dijital varlıklar, varsayılan olarak ortam genelinde olan çok yönlü kanal varlıkları dışında kanala özgüdür.</span><span class="sxs-lookup"><span data-stu-id="69e78-115">Digital assets are channel-specific, with the exception of omni-channel assets, which are environment-wide by default.</span></span> 
+<span data-ttu-id="f8f5e-115">Dijital varlıklar, varsayılan olarak ortam genelinde olan çok yönlü kanal varlıkları dışında kanala özgüdür.</span><span class="sxs-lookup"><span data-stu-id="f8f5e-115">Digital assets are channel-specific, with the exception of omni-channel assets, which are environment-wide by default.</span></span> 
 
-<span data-ttu-id="69e78-116">Dijital varlıklar ve yönetim özellikleri site oluşturucusunda, site içindeki sol gezinti bölmesinde bulunan **Medya Kitaplığı** altında bulunur.</span><span class="sxs-lookup"><span data-stu-id="69e78-116">Digital assets and management features are located within site builder under **Media Library** on the left navigation pane within a site.</span></span>
+<span data-ttu-id="f8f5e-116">Dijital varlıklar ve yönetim özellikleri site oluşturucusunda, site içindeki sol gezinti bölmesinde bulunan **Medya Kitaplığı** altında bulunur.</span><span class="sxs-lookup"><span data-stu-id="f8f5e-116">Digital assets and management features are located within site builder under **Media Library** on the left navigation pane within a site.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="69e78-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="69e78-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f8f5e-117">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="f8f5e-117">Additional resources</span></span>
 
-[<span data-ttu-id="69e78-118">Resimleri karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="69e78-118">Upload images</span></span>](dam-upload-images.md)
+[<span data-ttu-id="f8f5e-118">Resimleri karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="f8f5e-118">Upload images</span></span>](dam-upload-images.md)
 
-[<span data-ttu-id="69e78-119">Videoyu karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="69e78-119">Upload video</span></span>](dam-upload-video.md)
+[<span data-ttu-id="f8f5e-119">Videoyu karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="f8f5e-119">Upload video</span></span>](dam-upload-video.md)
 
-[<span data-ttu-id="69e78-120">Dosyaları karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="69e78-120">Upload files</span></span>](dam-upload-files.md)
+[<span data-ttu-id="f8f5e-120">Dosyaları karşıya yükleme</span><span class="sxs-lookup"><span data-stu-id="f8f5e-120">Upload files</span></span>](dam-upload-files.md)
 
-[<span data-ttu-id="69e78-121">Resimleri kırpma</span><span class="sxs-lookup"><span data-stu-id="69e78-121">Crop images</span></span>](dam-crop-images.md)
+[<span data-ttu-id="f8f5e-121">Resimleri kırpma</span><span class="sxs-lookup"><span data-stu-id="f8f5e-121">Crop images</span></span>](dam-crop-images.md)
 
-[<span data-ttu-id="69e78-122">Görüntü odak noktalarını özelleştirme</span><span class="sxs-lookup"><span data-stu-id="69e78-122">Customize image focal points</span></span>](dam-custom-focal-point.md)
+[<span data-ttu-id="f8f5e-122">Görüntü odak noktalarını özelleştirme</span><span class="sxs-lookup"><span data-stu-id="f8f5e-122">Customize image focal points</span></span>](dam-custom-focal-point.md)
 
-[<span data-ttu-id="69e78-123">Statik dosyaları karşıya yükleme ve sunma</span><span class="sxs-lookup"><span data-stu-id="69e78-123">Upload and serve static files</span></span>](upload-serve-static-files.md)
+[<span data-ttu-id="f8f5e-123">Statik dosyaları karşıya yükleme ve sunma</span><span class="sxs-lookup"><span data-stu-id="f8f5e-123">Upload and serve static files</span></span>](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
