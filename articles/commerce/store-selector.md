@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006347"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205134"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 Müşteriler, çevrimiçi bir satın alma işleminden sonra seçili bir mağazadan bir ürünü almak için mağaza seçici modülünü kullanabilirler. Commerce sürüm 10.0.13'te mağaza seçici modülü yakındaki mağazaları gösteren bir **Mağaza Bulun** sayfası gösterebilecek ek özellikler de içerir.
 

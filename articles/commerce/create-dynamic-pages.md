@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e72b738133b396848848d167cace80fe23694334
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 8d6b4756fc81dc99786da251d5d9a575a71ccc49
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208027"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>URL parametrelerini temel alan dinamik e-ticaret sayfaları oluşturma
 

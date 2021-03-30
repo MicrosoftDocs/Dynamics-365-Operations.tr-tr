@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28cb9d2e450ff1c05d4faa5cac343e03ef051437
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a08441f5dffa9c2c65b304d0265dd107a838a685
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206619"
 ---
 # <a name="accordion-module"></a>Akordiyon modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konu akordiyon modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 Akordiyon modülleri, bir sayfadaki bilgileri veya modülleri daraltılabilir bir çekmece benzeri yetenek sağlayarak düzenlemek için kullanılan kapsayıcı benzeri modüllerdir. Bir akordiyon modülü herhangi bir sayfada kullanılabilir.
 

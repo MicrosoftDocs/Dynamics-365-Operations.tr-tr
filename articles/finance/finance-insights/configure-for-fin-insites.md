@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bb887bbff5eb5b92f588d3fa966ea204633575db
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: cf29e3c05f9fdcc685017a4c640ef32c40989c73
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115644"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208569"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Mali içgörüler için yapılandırma (önizleme)
 
@@ -383,7 +383,7 @@ Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili b
         3. Temsilci izinleri seçtikten sonra **kullanıcı\_kimliğe bürünmey**'yi seçin.
         4. **İzin ekle**'yi seçin.
 
-    5. Uygulama menüsünde, **Sertifikalar ve gizli anahtarlar**'ı seçin ve ardından Key Vault gizli anahtarlarını oluşturmak için bu adımları izleyin:
+    5. Uygulama menüsünde, **Sertifikalar \& gizli anahtarlar**'ı seçin ve ardından Key Vault gizli anahtarlarını oluşturmak için bu adımları izleyin:
 
         1. **Yeni gizli anahtar**'ı seçin.
         2. **Anahtar Açıklaması** alanına bir ad girin.

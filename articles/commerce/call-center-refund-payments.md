@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f98fbc14fc2946499a9c003eb0bd0edb7f2017e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd49835a24dc6ec429ac4b01f363f1be937628ac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214751"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Çağrı merkezlerinde iade ödemelerini işleme
 

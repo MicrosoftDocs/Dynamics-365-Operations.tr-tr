@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9ad362b4befac4a8da14fff0bc6bc8b938d30bc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be935b80e06158d9634989ba03747f4a59247f8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204942"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
@@ -36,9 +36,9 @@ Satış vergisi kodları sayfasında oluşturduğunuz her satış vergisi kodu i
 Net tutar hesaplama yönteminin Yüzdesi Kaynak alanındaki varsayılan değerdir. Satış vergisi, diğer satış vergileri hariç olarak satınalma veya satış tutarının yüzdesi olarak hesaplanır.
 ### <a name="example"></a>Örnek
 
-Vergi oranı %25. Fatura satırı, her biri 1,00 seviyesinden 10 maddelik bir miktar gösterir ve müşteriye %10'luk bir satır iskontosu izni verilir. Net tutar: (10 x 1,00) -%10 = 9,00 Satış vergisi: 9,00 x %25 = 2,25 Toplam miktar: 9,00 + 2,25 = 11,25
+Vergi oranı %25. Fatura satırı, her biri 1,00 seviyesinden 10 maddelik bir miktar gösterir ve müşteriye 10'luk bir satır iskontosu izni verilir. Net tutar: (10 x 1,00) - %10 = 9,00 Satış vergisi: 9,00 x %25 = 2,25 Toplam miktar: 9,00 + 2,25 = 11,25
 
-## <a name="percentage-of-gross-amount"></a> Brüt tutar yüzdesi
+## <a name="percentage-of-gross-amount"></a>Brüt tutar yüzdesi
 Brüt tutar yüzdesi yöntemini seçerseniz, satış vergisi brüt satış tutarı yüzdesi olarak hesaplanır. Brüt tutar, satır net tutarı artı (Kaynak = Brüt tutar yüzdesi değerine sahip bir vergi hariç) satır için tüm vergiler ve harçlardır.
 ### <a name="example"></a>Örnek
 
@@ -69,7 +69,7 @@ Net tutar: 10.00 HARÇ 1: 10.00 x %10 = 1.00 HARÇ 2: 1.00 x %20 = 0.20 Brüt tu
 
 | **Not**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vergi hesaplamalarında çok düzeyli vergi mümkün değildir.  Bir vergi, başka bir vergiye dayanılarak zaten hesaplanmış bir vergiye dayanılarak hesaplanamaz. Bir harekette, vergi kodları üzerinde birden fazla tek düzeyli vergi hesaplanabilir. |
+| Vergi hesaplamalarında çok düzeyli vergi mümkün değildir. Bir vergi, başka bir vergiye dayanılarak zaten hesaplanmış bir vergiye dayanılarak hesaplanamaz. Bir harekette, vergi kodları üzerinde birden fazla tek düzeyli vergi hesaplanabilir. |
 
 ## <a name="amount-per-unit"></a>Birim başına tutar
 Kaynak alanında Birim başına tutar seçimini yaptığınızda, satış vergisi belge satırına girilen miktarla çarpılan sabit bir birim başına tutar şeklinde hesaplanır. Birim alanında bir birim seçilmelidir. Birim başına tutar Satış vergisi kod değerleri sayfasında belirtilir.

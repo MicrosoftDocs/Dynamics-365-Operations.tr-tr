@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c21b7a55ff611a5d3ab745f3af5e2e855240531b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 3e89fb7616aff323d5815918a37e1fccf9b7f578
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207267"
 ---
 # <a name="assign-number-sequences"></a>Numara serileri atama
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konu, kiralama kimlikleri için numara serilerinin nasıl oluşturulacağını açıklamaktadır. Ayrıca, dizin yeniden değerleme işleminde kullanılan benzersiz kimliklerin nasıl oluşturulacağı da açıklanmıştır.
 

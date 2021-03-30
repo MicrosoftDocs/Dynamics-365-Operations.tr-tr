@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 89d95814e892e3afcb6514ab0d0219f7b08b9c63
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000471"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210911"
 ---
 # <a name="work-with-modules"></a>Modüllerle çalışma
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e420632c248b5b43d4983c5eb483cac580e67f20
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 25eb8dd6965f659f0febe53a6340cb1381c5664f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975570"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204918"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]

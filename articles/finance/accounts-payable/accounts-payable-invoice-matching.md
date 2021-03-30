@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdd8f90fec23341cd9c5606cf0cc2ee005a5c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ecbfdd157985899da04aa6b41d9a96cdf2fa6bc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995753"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213056"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Borç hesapları için fatura eşleştirmeye genel bakış
 
@@ -52,7 +52,7 @@ Borç hesapları fatura eşleştirmesi için aşağıdaki türleri kullanabilirs
 
 Genellikle, satıcı fatura sayfasındaki satıcı faturalarını düzenlerken fatura eşleştirme hesaplamaları otomatik olarak gerçekleştirilir. Alternatif olarak, fatura eşleştirmesi, gerektiği takdirde isteğe bağlı gerçekleştirilebilir. Tüzel kişilik için İsteğe bağlı fatura eşleştirme, Borç hesapları parametreleri sayfasındaki Fatura Doğrulama sekmesindeki Fatura başlığı durumunu otomatik olarak güncelleştirmenin hedefine göre denetlenir. Fatura eşleştirme ayrıca fatura inceleme işleminin bir parçası olarak da gerçekleştirilebilir. Fatura eşleştirmenin sonuçlarını satıcı fatura sayfasında ve ilgili fatura eşleştirme sayfalarında da görüntüleyebilirsiniz.
 
-## <a name="invoice-totals-matching"></a> Fatura toplamları eşleştirme
+## <a name="invoice-totals-matching"></a>Fatura toplamları eşleştirme
 Fatura toplamları eşleştirmesini, toplam fatura tutarlarının beklenen tutarlar ile aralarındaki farkın kabul edilebilir bir düzeyden fazla olmadığından emin olmak için kullanabilirsiniz. Aşağıdaki tabloda gösterildiği gibi, altı toplam Fatura toplamları eşleştirme detayları sayfasında karşılaştırılır. Fatura toplamları için izin verilebilir tolerans %20 ise, toplam iskonto tutarı yüzdesindeki %100'lük fark bir eşleştirme tutarsızlığı olarak kabul edilir.
 
 | Toplam alanı    | Gerçek fatura toplamı | Beklenen fatura toplamı | Fark yüzdesi | Eşleştirme durumu |
@@ -66,7 +66,7 @@ Fatura toplamları eşleştirmesini, toplam fatura tutarlarının beklenen tutar
 
 Tüzel kişilik için fatura toplamları eşleştirmesi, Borç hesapları parametreleri sayfasındaki Fatura toplamlarını eşleştir tuşu tarafından denetlenir. Eşleştirme beklenen fatura toplamları ve gerçek fatura toplamlarının üzerinde gerçekleştirilir. Beklenen fatura toplamları; fiyatlar, giderler ve satınalma siparişindeki satış vergisi bilgilerini ve faturadaki miktarlar kullanarak hesaplanır.
 
-## <a name="two-way-price-totals-matching"></a> İki yönlü, fiyat toplamları eşleşirmesi
+## <a name="two-way-price-totals-matching"></a>İki yönlü, fiyat toplamları eşleşirmesi
 Çift yönlü eşleştirmeyi satınalma siparişi ve fatura üzerindeki fiyat bilgilerinin arasındaki farkın kabul edilebilir tolerans içinde olduğundan emin olmak kullanın. Faturadaki her bir satırın net tutarıyla ilgili fiyat bilgilerini ve tüm bekleyen ve önceden nakledilmiş fatura satırlarını, karşılık gelen satınalma siparişi satırının net tutarıyla karşılaştırabilirsiniz. Buna fiyatı toplamları eşleştirmesi denir. 
 
 Fiyatı toplamları eşleştirmesi bir yüzdeye, bir tutara veya yüzde ve tutara dayanabilir. 
@@ -97,7 +97,7 @@ Tüzel kişilik için iki yönlü eşleştirme, Borç hesapları parametreleri s
 
 Tüzel kişilik için Fiyat toplamları eşleştirmesi, Borç hesapları parametreleri sayfasındaki Fiyat toplamlarını eşleştir alanı tarafından denetlenir. Satınalma fiyatı toplam tolerans yüzdesi ve tolerans tutarı (aşılmaması gereken tutar) da bu sayfada belirtilir.
 
-## <a name="two-way-net-unit-price-matching"></a> İki yönlü, net birim fiyatı eşleştirmesi
+## <a name="two-way-net-unit-price-matching"></a>İki yönlü, net birim fiyatı eşleştirmesi
 Çift yönlü eşleştirmeyi satınalma siparişi ve fatura üzerindeki fiyat bilgilerinin arasındaki farkın kabul edilebilir tolerans içinde olduğundan emin olmak kullanın. Faturanın üzerindeki her madde için net birim fiyatının fiyat bilgisini karşılaştırabilirsiniz. Buna net birim fiyatı eşleştirmesi denir. 
 
 Aşağıdaki tabloda gösterildiği gibi, dokuz satır tutarı Fatura eşleştirme detayları sayfasında karşılaştırılır. Net birim fiyatı eşleştirmesi için izin verilebilir fiyat toleransı %10 ise, net birim fiyatındaki %22,61'lik fark bir eşleştirme tutarsızlığı olarak kabul edilir.
@@ -118,7 +118,7 @@ Tüzel kişilik için iki yönlü eşleştirme, Borç hesapları parametreleri s
 
 Tüzel kişilik için net birim fiyatı eşleştirmesi, Borç hesapları parametreleri sayfasındaki Fatura eşleştirme doğrulamasını etkinleştir alanı tarafından denetlenir. Net Birim Fiyat tolerans yüzdeleri; maddeler, madde grupları, satıcılar, satıcı grupları, madde ve satıcı birleşimleri veya tüzel kişilik için Fiyat toleransları sayfasını kullanarak yapılandırılabilir.
 
-## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a> Çift yönlü fiyat toplamları eşleştirmesi ve net birim fiyatı eşleştirmesi
+## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Çift yönlü fiyat toplamları eşleştirmesi ve net birim fiyatı eşleştirmesi
 Çift yönlü fiyat toplamları eşleştirmesi ve net birim fiyatı eşleştirmesini birlikte kullanabilirsiniz. Bu örnek, aşağıdaki yapılandırmayı varsayar:
 
 -   USB sürücü öğesi için net birim fiyat toleransı %10'dur.
@@ -164,7 +164,7 @@ Fatura eşleştirme detayları sayfasında, iki yönlü eşleştirmede kullanıl
 
 Tüzel kişilik için üç yönlü eşleştirme, Borç hesapları parametreleri sayfasındaki Satır eşleştirme ilkesi alanı tarafından denetlenir. Eşleştirme ilkesi geçersiz kılmaya izin ver alanındaki seçime göre, Eşleştirme ilkesi sayfasındaki belirli bir satıcı, madde veya madde ve satıcı kombinasyonu için ve Satınalma siparişi sayfasındaki belirli bir satınalma siparişi için üç yönlü eşleştirme seçilebilir.
 
-## <a name="charges-matching"></a> Gider eşleştirme
+## <a name="charges-matching"></a>Gider eşleştirme
 Gider eşleştirmesini, gider tutarlarının beklenen tutarlar ile aralarındaki farkın kabul edilebilir bir yüzdeden fazla olmadığından emin olmak için kullanabilirsiniz. Faturaya ve satınalma siparişine uygulanan her bir gider kodu için toplam tutarlar, Gider değerlerini karşılaştır - Fatura: sayfasında, aşağıdaki tabloda gösterildiği gibi karşılaştırılır. Gider kodu için izin verilebilir tolerans %25 ise, Lisans giderleri kodu yüzdesindeki %99,999,999,999.99'lük fark bir eşleştirme tutarsızlığı olarak kabul edilir.
 
 > [!NOTE] 
@@ -181,7 +181,7 @@ Tüzel kişilik için Giderler eşleştirmesi, Borç hesapları parametreleri sa
 > [!NOTE]
 > Gider eşleştirme sadece Gider kodları sayfası üzerinde Satınalma siparişi ve fatura değerlerini karşılaştır seçeneğinin işaretli olduğu gider kodları üzerinde gerçekleştirilir.
 
-## <a name="related-functionality"></a> İlgili işlevsellik
+## <a name="related-functionality"></a>İlgili işlevsellik
 Satıcı faturaları, genellikle satınalma siparişlerine göre değil gerçek sevkiyatları gösteren ürün girişlerine göre oluşturulur. Bazen faturalanan tutarlar satınalma siparişi tutarlarıyla eşleşmez ve bazen sevk edilen miktarlar faturalanan miktarlarla eşleşmez. Bu bilgileri aşağıdaki yollarla yönetmeye yardımcı olabilirsiniz:
 -   Ürün girişlerine dayalı satıcı faturası oluşturma. Ürün alış irsaliyeleri faturalar için otomatik olarak önerilir ve hangi ürün girişlerinin kullanılacağını seçebilirsiniz. Gerekirse birden çok satınalma siparişinden belirli ürün girişi satırlarını da seçebilirsiniz.
 -   Fatura üzerindeki Faturalanan Miktar ve ürün girişindeki teslim alınan miktar arasındaki farkları onaylayın ve görüntüleyin. Eğer arada fark varsa, faturayı kaydedebilir ve daha sonra farklı ürün alış irsaliyesine eşleyebilir veya faturalanan miktarı alınan miktar ile eşleşecek şekilde değiştirebilirsiniz.

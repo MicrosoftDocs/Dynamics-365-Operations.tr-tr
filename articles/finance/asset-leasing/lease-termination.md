@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131312"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207315"
 ---
 # <a name="propose-a-lease-for-termination"></a>Sonlandırma için kiralama önerme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bir kiralama erken sonlandırıldıysa, Varlık kiralama, kiralama yükümlülüğünü, varlık kullanım hakkını (ROU) ve birikmiş amortismanı silebilir ve kazanç ya da kaybı deftere nakledebilir. Erken sonlandırma işlemi, bir kiralamayı ve onunla ilişkili kiralama rehberlerini sonlandırır. Kiralama rehberlerini tek tek sonlandırmaz. Bu konu, sonlandırma için kiralama önermeyi ve kiralama sonlandırma günlük girişini işlemeyi açıklamaktadır.
 

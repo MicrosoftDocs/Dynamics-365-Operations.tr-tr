@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980518"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206475"
 ---
 # <a name="checkout-module"></a>Ödeme modülü
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, bir yeni sayfaya ödeme modülü eklemek ve gerekli özellikleri ayarlamak açıklanır.
-
-## <a name="overview"></a>Genel Bakış
 
 Ödeme modülü, sipariş oluşturmak için gerekli olan tüm modülleri barındıran özel bir konteynerdir. Müşterinin satın alma yapmak üzere ilgili tüm bilgileri girmek için kullandığı adım adım bir akış sunar. Sevkiyat adresi, sevkiyat yöntemi ve fatura bilgilerini yakalar. Ayrıca bir sipariş özeti ve bir müşteri siparişiyle ilgili başka bilgiler de sağlar.
 

@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130767"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219999"
 ---
 # <a name="adjust-leases"></a>Kiralamaları düzeltme
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, kiralamaların nasıl düzeltileceği açıklanmaktadır. Kiralama süreleri değiştirilirse, kiralama süresi uzatılırsa veya başka koşullar değişirse düzeltme gerekebilir. Varlık kiralama, Muhasabe Standartları Kodlaması Konu 842 (ASC) ve Uluslararası Mali Raporlama Standardı 16 (IFRS 16) belgelerinde kiralama değişiklikleriyle ilgili olarak sağlanan kılavuza uyar. ASC 842-20-15-1, kiralama değişikliğini kiralamanın kapsamında veya değerlendirilmesinde değişikliğe neden olan sözleşme hüküm ve koşullarındaki herhangi bir değişiklik olarak tanımlar. IFRS 16'nın 39. paragrafında, kiracının kiralama yükümlülüğünü kira ödemelerini yansıtacak şekilde değiştirmesi gerektiği belirtilir.
 
