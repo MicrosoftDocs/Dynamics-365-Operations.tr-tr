@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 99c238ecfbb6cb29f4fefefdca32525b99a01dc8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251343"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Perakende mağazalarındaki mali mutabakat
 
