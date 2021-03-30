@@ -15,40 +15,43 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2cd5c174b0f3e3e15678513cecade020705beda
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a2ce4e1e960e04c0033990f99eb71897c7ea730f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982141"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208419"
 ---
-# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="3ca15-103">ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama</span><span class="sxs-lookup"><span data-stu-id="3ca15-103">Setup method of payment for ISO20022 direct debit</span></span>
+# <a name="setup-method-of-payment-for-iso20022-direct-debit"></a><span data-ttu-id="14f3d-103">ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama</span><span class="sxs-lookup"><span data-stu-id="14f3d-103">Setup method of payment for ISO20022 direct debit</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="3ca15-104">Bu yordam, elektronik raporlama kullanılarak ISO20022 hesaptan ödeme için müşteri ödemesi yönteminin veya başka bir ödeme türünün nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="3ca15-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
+<span data-ttu-id="14f3d-104">Bu yordam, elektronik raporlama kullanılarak ISO20022 hesaptan ödeme için müşteri ödemesi yönteminin veya başka bir ödeme türünün nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="14f3d-104">This procedure shows how to set up the customer method of payment for ISO20022 direct debit or any other payment type using electronic reporting.</span></span> 
 
 
 
-<span data-ttu-id="3ca15-105">Bu görevi tamamlamadan önce dışa aktarma biçim yapılandırmalarını ve ödeme hesaplarını ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="3ca15-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
+<span data-ttu-id="14f3d-105">Bu görevi tamamlamadan önce dışa aktarma biçim yapılandırmalarını ve ödeme hesaplarını ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="14f3d-105">Before you complete this task, you must set up export format configurations and payment accounts.</span></span>
 
 
 
-<span data-ttu-id="3ca15-106">Bu yöntem oluşturulurken DEMF demo verisi şirketi kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="3ca15-106">This procedure was created using the demo data company DEMF.</span></span>
+<span data-ttu-id="14f3d-106">Bu yöntem oluşturulurken DEMF demo verisi şirketi kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="14f3d-106">This procedure was created using the demo data company DEMF.</span></span>
 
 
 
-<span data-ttu-id="3ca15-107">Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ödemesi işlemini gösteren beş yordamın üçüncüsüdür.</span><span class="sxs-lookup"><span data-stu-id="3ca15-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="14f3d-107">Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ödemesi işlemini gösteren beş yordamın üçüncüsüdür.</span><span class="sxs-lookup"><span data-stu-id="14f3d-107">This is the third of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. <span data-ttu-id="3ca15-108">Alacak hesapları > Ödeme kurulumu > Ödeme yöntemi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
-2. <span data-ttu-id="3ca15-109">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="3ca15-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="3ca15-110">Örneğin, Ödeme yöntemi alanına "ELECTRONIC" değeriyle filtre uygulayın.</span><span class="sxs-lookup"><span data-stu-id="3ca15-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
-3. <span data-ttu-id="3ca15-111">Düzenle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3ca15-111">Click Edit.</span></span>
-4. <span data-ttu-id="3ca15-112">Ödeme hesabı alanında "DEMF OPER" değerlerini belirtin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
-5. <span data-ttu-id="3ca15-113">Dosya biçimleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-113">Expand the File formats section.</span></span>
-6. <span data-ttu-id="3ca15-114">Genel elektronik raporlama alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-114">Select Yes in the Generic electronic reporting field.</span></span>
-7. <span data-ttu-id="3ca15-115">Biçim yapılandırmasını dışa aktar alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-115">In the Export format configuration field, enter or select a value.</span></span>
-    * <span data-ttu-id="3ca15-116">Listede ISO20022 Hesaptan ödeme (DE) seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="3ca15-117">Liste boşsa, müşteri ödemesi biçim yapılandırması içe aktarılmamıştır ve etkin değildir.</span><span class="sxs-lookup"><span data-stu-id="3ca15-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
-8. <span data-ttu-id="3ca15-118">Talimat iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-118">Select Yes in the Require mandate field.</span></span>
-    * <span data-ttu-id="3ca15-119">Müşteri ödeme biçimleri için SEPA hesaptan ödemesi gibi ödeme iletisinde talimat bilgilerini içermesini gerektiren, Talimat iste parametresini seçin.</span><span class="sxs-lookup"><span data-stu-id="3ca15-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
-9. <span data-ttu-id="3ca15-120">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3ca15-120">Click Save.</span></span>
+1. <span data-ttu-id="14f3d-108">Alacak hesapları > Ödeme kurulumu > Ödeme yöntemi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-108">Go to Accounts receivable > Payments setup > Methods of payment.</span></span>
+2. <span data-ttu-id="14f3d-109">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="14f3d-109">Use the Quick Filter to find records.</span></span> <span data-ttu-id="14f3d-110">Örneğin, Ödeme yöntemi alanına "ELECTRONIC" değeriyle filtre uygulayın.</span><span class="sxs-lookup"><span data-stu-id="14f3d-110">For example, filter on the Method of payment field with a value of 'ELECTRONIC'.</span></span>
+3. <span data-ttu-id="14f3d-111">Düzenle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="14f3d-111">Click Edit.</span></span>
+4. <span data-ttu-id="14f3d-112">Ödeme hesabı alanında "DEMF OPER" değerlerini belirtin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-112">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+5. <span data-ttu-id="14f3d-113">Dosya biçimleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-113">Expand the File formats section.</span></span>
+6. <span data-ttu-id="14f3d-114">Genel elektronik raporlama alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-114">Select Yes in the Generic electronic reporting field.</span></span>
+7. <span data-ttu-id="14f3d-115">Biçim yapılandırmasını dışa aktar alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-115">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="14f3d-116">Listede ISO20022 Hesaptan ödeme (DE) seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-116">In the list, select ISO20022 Direct debit (DE).</span></span>  <span data-ttu-id="14f3d-117">Liste boşsa, müşteri ödemesi biçim yapılandırması içe aktarılmamıştır ve etkin değildir.</span><span class="sxs-lookup"><span data-stu-id="14f3d-117">If the list is empty, the customer payment export format configuration has not been imported and active.</span></span>  
+8. <span data-ttu-id="14f3d-118">Talimat iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-118">Select Yes in the Require mandate field.</span></span>
+    * <span data-ttu-id="14f3d-119">Müşteri ödeme biçimleri için SEPA hesaptan ödemesi gibi ödeme iletisinde talimat bilgilerini içermesini gerektiren, Talimat iste parametresini seçin.</span><span class="sxs-lookup"><span data-stu-id="14f3d-119">Select the Require mandate parameter for customer payment formats, which require including mandate information in the payment message, like SEPA direct debit.</span></span>  
+9. <span data-ttu-id="14f3d-120">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="14f3d-120">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

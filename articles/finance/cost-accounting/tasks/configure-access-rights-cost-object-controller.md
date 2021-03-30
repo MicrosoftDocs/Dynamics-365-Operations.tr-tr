@@ -14,57 +14,60 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d6208e867bd322ddfc4e599856b1905fa8e19b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b62e5765964a13357e0e7b663be1c7fd2cc19037
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969390"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208811"
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="83971-103">Maliyet nesnesi denetleyicisi için erişim haklarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="83971-103">Configure access rights for a cost object controller</span></span>
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="b4103-103">Maliyet nesnesi denetleyicisi için erişim haklarını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="b4103-103">Configure access rights for a cost object controller</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="83971-104">Bir maliyet nesnesi denetleyicisi için erişim haklarını yapılandırmak için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="83971-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="83971-105">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="83971-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="b4103-104">Bir maliyet nesnesi denetleyicisi için erişim haklarını yapılandırmak için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="b4103-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="b4103-105">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="b4103-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="83971-106">Maliyet nesnesi denetçi rolünü ata</span><span class="sxs-lookup"><span data-stu-id="83971-106">Assign the cost object controller role</span></span>
-1. <span data-ttu-id="83971-107">Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.</span><span class="sxs-lookup"><span data-stu-id="83971-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="83971-108">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="83971-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="83971-109">Örneğin, Kullanıcı adı alanını 'sibel' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="83971-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
-3. <span data-ttu-id="83971-110">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="83971-111">Rolleri ata'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-111">Click Assign roles.</span></span>
-5. <span data-ttu-id="83971-112">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="83971-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-113">Click OK.</span></span>
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="b4103-106">Maliyet nesnesi denetçi rolünü ata</span><span class="sxs-lookup"><span data-stu-id="b4103-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="b4103-107">Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.</span><span class="sxs-lookup"><span data-stu-id="b4103-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="b4103-108">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="b4103-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="b4103-109">Örneğin, Kullanıcı adı alanını 'sibel' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="b4103-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="b4103-110">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="b4103-111">Rolleri ata'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="b4103-112">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="b4103-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a><span data-ttu-id="83971-114">Erişim listesi güvenliğini etkinleştir</span><span class="sxs-lookup"><span data-stu-id="83971-114">Enable access list security</span></span>
-1. <span data-ttu-id="83971-115">Maliyet muhasebesi > Boyutlar > Boyut hiyerarşileri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="83971-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="83971-116">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="83971-117">Kuruluşu seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-117">Select Organization.</span></span>  
-3. <span data-ttu-id="83971-118">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-118">Click Edit.</span></span>
-4. <span data-ttu-id="83971-119">Erişim listesi hiyerarşi alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-119">Select Yes in the Access list hierarchy field.</span></span>
-5. <span data-ttu-id="83971-120">Hiyerarşiyi görüntüle düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-120">Click View hierarchy.</span></span>
+## <a name="enable-access-list-security"></a><span data-ttu-id="b4103-114">Erişim listesi güvenliğini etkinleştir</span><span class="sxs-lookup"><span data-stu-id="b4103-114">Enable access list security</span></span>
+1. <span data-ttu-id="b4103-115">Maliyet muhasebesi > Boyutlar > Boyut hiyerarşileri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="b4103-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="b4103-116">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b4103-117">Kuruluşu seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-117">Select Organization.</span></span>  
+3. <span data-ttu-id="b4103-118">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-118">Click Edit.</span></span>
+4. <span data-ttu-id="b4103-119">Erişim listesi hiyerarşi alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="b4103-120">Hiyerarşiyi görüntüle düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a><span data-ttu-id="83971-121">Kullanıcıya erişim haklarını ata</span><span class="sxs-lookup"><span data-stu-id="83971-121">Assign access rights to user</span></span>
-1. <span data-ttu-id="83971-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-122">Click New.</span></span>
-2. <span data-ttu-id="83971-123">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="83971-123">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="83971-124">Kullanıcı kimliği alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-124">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="83971-125">Yönetici seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-125">Select Admin.</span></span>  
-4. <span data-ttu-id="83971-126">Ağaçta 'Kuruluş\CEO\CFO\FIM' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
-5. <span data-ttu-id="83971-127">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-127">Click New.</span></span>
-6. <span data-ttu-id="83971-128">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="83971-128">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="83971-129">Kullanıcı kimliği alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-129">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="83971-130">Sibel'i seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-130">Select Alicia.</span></span>  
-8. <span data-ttu-id="83971-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-131">Click Save.</span></span>
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="b4103-121">Kullanıcıya erişim haklarını ata</span><span class="sxs-lookup"><span data-stu-id="b4103-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="b4103-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-122">Click New.</span></span>
+2. <span data-ttu-id="b4103-123">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b4103-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="b4103-124">Kullanıcı kimliği alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4103-125">Yönetici seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-125">Select Admin.</span></span>  
+4. <span data-ttu-id="b4103-126">Ağaçta 'Kuruluş\CEO\CFO\FIM' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="b4103-127">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-127">Click New.</span></span>
+6. <span data-ttu-id="b4103-128">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b4103-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="b4103-129">Kullanıcı kimliği alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4103-130">Sibel'i seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="b4103-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="83971-132">Maliyet muhasebesinde erişim haklarını etkinleştir</span><span class="sxs-lookup"><span data-stu-id="83971-132">Enable access rights in Cost accounting</span></span>
-1. <span data-ttu-id="83971-133">Maliyet muhasebesi > Kurulum > Parametreler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="83971-133">Go to Cost accounting > Setup > Parameters.</span></span>
-2. <span data-ttu-id="83971-134">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-134">Click the General tab.</span></span>
-3. <span data-ttu-id="83971-135">Maliyet nesnesi boyut üyeleri için görüntüleme erişimini etkinleştir alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
-4. <span data-ttu-id="83971-136">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-136">Click Save.</span></span>
-5. <span data-ttu-id="83971-137">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="83971-137">Close the page.</span></span>
-6. <span data-ttu-id="83971-138">Maliyet muhasebesi > Kurulum > Maliyet denetimi çalışma alanı yapılandırması'na gidin.</span><span class="sxs-lookup"><span data-stu-id="83971-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-7. <span data-ttu-id="83971-139">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-139">Click Edit.</span></span>
-8. <span data-ttu-id="83971-140">Yayımlanan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="83971-140">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="83971-141">Evet'i seçerseniz, aşağıdaki dört rolden birine atanmış bir kullanıcı Maliyet kontrolü çalışma alanındaki raporları görebilir: maliyet muhasebesi yöneticisi, maliyet muhasebecisi, maliyet muhasebe memuru ve maliyet nesnesi denetleyicisi.</span><span class="sxs-lookup"><span data-stu-id="83971-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="83971-142">Hayır'ı seçerseniz, yalnızca aşağıdaki rollerden birine atanmış bir kullanıcı raporları görebilir: maliyet muhasebesi yöneticisi, maliyet muhasebecisi ve maliyet muhasebe memuru.</span><span class="sxs-lookup"><span data-stu-id="83971-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
-9. <span data-ttu-id="83971-143">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83971-143">Click Save.</span></span>
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="b4103-132">Maliyet muhasebesinde erişim haklarını etkinleştir</span><span class="sxs-lookup"><span data-stu-id="b4103-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="b4103-133">Maliyet muhasebesi > Kurulum > Parametreler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="b4103-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="b4103-134">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-134">Click the General tab.</span></span>
+3. <span data-ttu-id="b4103-135">Maliyet nesnesi boyut üyeleri için görüntüleme erişimini etkinleştir alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="b4103-136">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-136">Click Save.</span></span>
+5. <span data-ttu-id="b4103-137">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b4103-137">Close the page.</span></span>
+6. <span data-ttu-id="b4103-138">Maliyet muhasebesi > Kurulum > Maliyet denetimi çalışma alanı yapılandırması'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b4103-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="b4103-139">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-139">Click Edit.</span></span>
+8. <span data-ttu-id="b4103-140">Yayımlanan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="b4103-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="b4103-141">Evet'i seçerseniz, aşağıdaki dört rolden birine atanmış bir kullanıcı Maliyet kontrolü çalışma alanındaki raporları görebilir: maliyet muhasebesi yöneticisi, maliyet muhasebecisi, maliyet muhasebe memuru ve maliyet nesnesi denetleyicisi.</span><span class="sxs-lookup"><span data-stu-id="b4103-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="b4103-142">Hayır'ı seçerseniz, yalnızca aşağıdaki rollerden birine atanmış bir kullanıcı raporları görebilir: maliyet muhasebesi yöneticisi, maliyet muhasebecisi ve maliyet muhasebe memuru.</span><span class="sxs-lookup"><span data-stu-id="b4103-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="b4103-143">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b4103-143">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
