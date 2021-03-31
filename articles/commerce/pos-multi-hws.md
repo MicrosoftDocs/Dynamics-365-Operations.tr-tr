@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72142a3e05092a2da7749fa01ec58e2c1d8fe25d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 848e83505e9e20111c2809000dcf19f352142de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972617"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223035"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 
@@ -150,7 +150,7 @@ Mağaza ile ilgili bir girişin yazdırılması ve ödeme için nakit kullanılm
 
 ## <a name="related-articles"></a>İlgili makaleler
 
-- [Android ve iOS'ta POS Hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
+- [Android ve iOS'ta uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Adyen için Dynamics 365 Ödeme Bağlayıcısı](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Ağ çevrebirim desteğine genel bakış](https://go.microsoft.com/fwlink/?linkid=2129965)
 

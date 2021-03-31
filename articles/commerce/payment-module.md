@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 85b5d8306eb4e9f2a4b9df13d95ab88020c3591e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9c0956e30d413f5ae695cf75b06fb58711b2944
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000677"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222516"
 ---
 # <a name="payment-module"></a>Ödeme modülü
 
@@ -44,7 +44,7 @@ Ayrıca ödeme modülü de oturum açmış müşterilerin ödeme bilgilerini kay
 Adyen ödeme bağlayıcısı güçlü müşteri kimlik doğrulamasını (SCA) da destekler. Avrupa Birliği (AB) Revize Ödeme Hizmetleri Yönergesi (PSD2), çevrimiçi alışverişçilerin elektronik ödeme yöntemi kullandıklarında çevrimiçi alışveriş deneyimlerinin dışında kimlik doğrulamasının yapılmasını gerektirir. Kullanıma alma akışı sırasında, müşteriler bankacılık sitesine yönlendirilir ve bunları kimlik doğrulamasından sonra Commerce ödeme sağlama akışına yeniden yönlendirilir. Bu yeniden yönlendirme sırasında, bir müşterinin ödeme akışına girdiği bilgiler (örneğin, sevkiyat adresi, teslimat seçenekleri, hediye kartı bilgileri ve bağlılık programı bilgileri) kalır. Adyen ödeme bağlayıcısı özelliği etkinleştirmeden önce, SCA için ödeme bağlayıcısının Commerce Headquarters'da yapılandırılması gerekir. Daha fazla bilgi için bkz. [Adyen kullanarak Güçlü Müşteri Kimlik Doğrulaması](adyen_redirect.md). Bu özellik, Commerce sürüm 10.0.12'te etkinleştirildi.
 
 > [!NOTE]
-> Adyen ödeme Bağlayıcısı için, ödeme modülündeki iFrame modülü ancak, adyen URL'sini sitenizin izin verilenler listesine eklediğinizde oluşturulabilir. Bu adımı tamamlamak için, **\*.adyen.com** öğesini sitenizin içerik güvenlik ilkesinin **child-src**, **connect-src**, **img-src**, **script-src** ve **Style-src** yönergelerine ekleyin. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini yönetme](manage-csp.md). 
+> Adyen ödeme Bağlayıcısı için, ödeme modülündeki iframe modülü ancak, adyen URL'sini sitenizin izin verilenler listesine eklediğinizde oluşturulabilir. Bu adımı tamamlamak için, **\*.adyen.com** öğesini sitenizin içerik güvenlik ilkesinin **child-src**, **connect-src**, **img-src**, **script-src** ve **Style-src** yönergelerine ekleyin. Daha fazla bilgi için bkz. [İçerik Güvenlik İlkesini yönetme](manage-csp.md). 
 
 Aşağıdaki resimde, Adyen ödeme sayfasındaki hediye kartı, bağlılık ve ödeme modülleri gösterilmektedir.
 
