@@ -17,118 +17,121 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 176fbebcf88e7557bf2bafc56524cd2ec015220e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 43f996921ccac0b3c85ecea2460cb9e4614f8c04
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020976"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226821"
 ---
-# <a name="fault-management"></a><span data-ttu-id="06151-103">Hata yönetimi</span><span class="sxs-lookup"><span data-stu-id="06151-103">Fault management</span></span>
+# <a name="fault-management"></a><span data-ttu-id="13411-103">Hata yönetimi</span><span class="sxs-lookup"><span data-stu-id="13411-103">Fault management</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="06151-104">Kıymet yönetiminde, arıza belirtileri, arıza alanları ve kıymet türlerinde arıza türleri ayarlamak için hata tasarımcısını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="06151-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="06151-105">Bu şekilde, kıymetler üzerinde algılanan hataları yönetebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="06151-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="06151-106">Ayrıca, hataları düzeltmek için hata nedenleri ve öneriler bir iş siparişine kaydedilebilir.</span><span class="sxs-lookup"><span data-stu-id="06151-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
+<span data-ttu-id="13411-104">Kıymet yönetiminde, arıza belirtileri, arıza alanları ve kıymet türlerinde arıza türleri ayarlamak için hata tasarımcısını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="13411-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="13411-105">Bu şekilde, kıymetler üzerinde algılanan hataları yönetebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="13411-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="13411-106">Ayrıca, hataları düzeltmek için hata nedenleri ve öneriler bir iş siparişine kaydedilebilir.</span><span class="sxs-lookup"><span data-stu-id="13411-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
 
-<span data-ttu-id="06151-107">Hata kayıt ve yönetim işlemi aşağıdaki adımlardan oluşur.</span><span class="sxs-lookup"><span data-stu-id="06151-107">The process for fault registration and management consists of these steps.</span></span>
+<span data-ttu-id="13411-107">Hata kayıt ve yönetim işlemi aşağıdaki adımlardan oluşur.</span><span class="sxs-lookup"><span data-stu-id="13411-107">The process for fault registration and management consists of these steps.</span></span>
 
-1. <span data-ttu-id="06151-108">Kıymet türleriniz üzerinde oluşabilecek hata belirtileri, arıza alanları ve arıza türleri listesi oluşturun.</span><span class="sxs-lookup"><span data-stu-id="06151-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
-2. <span data-ttu-id="06151-109">Arıza Tasarımcısında, belirtiler, arıza alanları ve arıza türlerini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="06151-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
+1. <span data-ttu-id="13411-108">Kıymet türleriniz üzerinde oluşabilecek hata belirtileri, arıza alanları ve arıza türleri listesi oluşturun.</span><span class="sxs-lookup"><span data-stu-id="13411-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
+2. <span data-ttu-id="13411-109">Arıza Tasarımcısında, belirtiler, arıza alanları ve arıza türlerini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="13411-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="06151-110">Hata belirtileri, arıza alanları ve arıza türleri arasındaki farkı anlamanıza yardımcı olacak bazı örnekler aşağıda verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="06151-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
+<span data-ttu-id="13411-110">Hata belirtileri, arıza alanları ve arıza türleri arasındaki farkı anlamanıza yardımcı olacak bazı örnekler aşağıda verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="13411-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="06151-111">**Hata belirtileri:**</span><span class="sxs-lookup"><span data-stu-id="06151-111">**Fault symptoms:**</span></span>
+<span data-ttu-id="13411-111">**Hata belirtileri:**</span><span class="sxs-lookup"><span data-stu-id="13411-111">**Fault symptoms:**</span></span>
 
-- <span data-ttu-id="06151-112">Dengesiz voltajlar</span><span class="sxs-lookup"><span data-stu-id="06151-112">Unbalanced voltages</span></span>
-- <span data-ttu-id="06151-113">Kısa devre</span><span class="sxs-lookup"><span data-stu-id="06151-113">Short circuit</span></span>
-- <span data-ttu-id="06151-114">Gürültü</span><span class="sxs-lookup"><span data-stu-id="06151-114">Noise</span></span>
-- <span data-ttu-id="06151-115">Sızıntı</span><span class="sxs-lookup"><span data-stu-id="06151-115">Leak</span></span>
-- <span data-ttu-id="06151-116">Titreşimler</span><span class="sxs-lookup"><span data-stu-id="06151-116">Vibrations</span></span>
+- <span data-ttu-id="13411-112">Dengesiz voltajlar</span><span class="sxs-lookup"><span data-stu-id="13411-112">Unbalanced voltages</span></span>
+- <span data-ttu-id="13411-113">Kısa devre</span><span class="sxs-lookup"><span data-stu-id="13411-113">Short circuit</span></span>
+- <span data-ttu-id="13411-114">Gürültü</span><span class="sxs-lookup"><span data-stu-id="13411-114">Noise</span></span>
+- <span data-ttu-id="13411-115">Sızıntı</span><span class="sxs-lookup"><span data-stu-id="13411-115">Leak</span></span>
+- <span data-ttu-id="13411-116">Titreşimler</span><span class="sxs-lookup"><span data-stu-id="13411-116">Vibrations</span></span>
 
-<span data-ttu-id="06151-117">**Hata alanları:**</span><span class="sxs-lookup"><span data-stu-id="06151-117">**Fault areas:**</span></span>
+<span data-ttu-id="13411-117">**Hata alanları:**</span><span class="sxs-lookup"><span data-stu-id="13411-117">**Fault areas:**</span></span>
 
-- <span data-ttu-id="06151-118">Elektrik</span><span class="sxs-lookup"><span data-stu-id="06151-118">Electrical</span></span>
-- <span data-ttu-id="06151-119">Mekanik</span><span class="sxs-lookup"><span data-stu-id="06151-119">Mechanical</span></span>
-- <span data-ttu-id="06151-120">Hidrolik</span><span class="sxs-lookup"><span data-stu-id="06151-120">Hydraulic</span></span>
-- <span data-ttu-id="06151-121">Pnömatik</span><span class="sxs-lookup"><span data-stu-id="06151-121">Pneumatic</span></span>
+- <span data-ttu-id="13411-118">Elektrik</span><span class="sxs-lookup"><span data-stu-id="13411-118">Electrical</span></span>
+- <span data-ttu-id="13411-119">Mekanik</span><span class="sxs-lookup"><span data-stu-id="13411-119">Mechanical</span></span>
+- <span data-ttu-id="13411-120">Hidrolik</span><span class="sxs-lookup"><span data-stu-id="13411-120">Hydraulic</span></span>
+- <span data-ttu-id="13411-121">Pnömatik</span><span class="sxs-lookup"><span data-stu-id="13411-121">Pneumatic</span></span>
 
-<span data-ttu-id="06151-122">**Hata türleri:**</span><span class="sxs-lookup"><span data-stu-id="06151-122">**Fault types:**</span></span>
+<span data-ttu-id="13411-122">**Hata türleri:**</span><span class="sxs-lookup"><span data-stu-id="13411-122">**Fault types:**</span></span>
 
-- <span data-ttu-id="06151-123">Arızalı ana stator sargısı</span><span class="sxs-lookup"><span data-stu-id="06151-123">Faulty main stator winding</span></span>
-- <span data-ttu-id="06151-124">Hatalı diyot</span><span class="sxs-lookup"><span data-stu-id="06151-124">Faulty diode</span></span>
-- <span data-ttu-id="06151-125">Kirli sargılar</span><span class="sxs-lookup"><span data-stu-id="06151-125">Dirty windings</span></span>
-- <span data-ttu-id="06151-126">Kusurlu oluşturucu</span><span class="sxs-lookup"><span data-stu-id="06151-126">Defective generator</span></span>
-- <span data-ttu-id="06151-127">Kusurlu algılayıcı</span><span class="sxs-lookup"><span data-stu-id="06151-127">Defective sensor</span></span>
+- <span data-ttu-id="13411-123">Arızalı ana stator sargısı</span><span class="sxs-lookup"><span data-stu-id="13411-123">Faulty main stator winding</span></span>
+- <span data-ttu-id="13411-124">Hatalı diyot</span><span class="sxs-lookup"><span data-stu-id="13411-124">Faulty diode</span></span>
+- <span data-ttu-id="13411-125">Kirli sargılar</span><span class="sxs-lookup"><span data-stu-id="13411-125">Dirty windings</span></span>
+- <span data-ttu-id="13411-126">Kusurlu oluşturucu</span><span class="sxs-lookup"><span data-stu-id="13411-126">Defective generator</span></span>
+- <span data-ttu-id="13411-127">Kusurlu algılayıcı</span><span class="sxs-lookup"><span data-stu-id="13411-127">Defective sensor</span></span>
 
-## <a name="create-fault-symptoms"></a><span data-ttu-id="06151-128">Hata belirtileri oluştur</span><span class="sxs-lookup"><span data-stu-id="06151-128">Create fault symptoms</span></span>
+## <a name="create-fault-symptoms"></a><span data-ttu-id="13411-128">Hata belirtileri oluştur</span><span class="sxs-lookup"><span data-stu-id="13411-128">Create fault symptoms</span></span>
 
-<span data-ttu-id="06151-129">Hata tasarımcısında kullanılabilecek belirtilerin listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="06151-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
+<span data-ttu-id="13411-129">Hata tasarımcısında kullanılabilecek belirtilerin listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="13411-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="06151-130">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata semptomları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
-2. <span data-ttu-id="06151-131">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-131">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="06151-132">**Hata semptomları** alanına hata semptomu adı girin.</span><span class="sxs-lookup"><span data-stu-id="06151-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
-4. <span data-ttu-id="06151-133">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="06151-133">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="06151-134">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-134">Select **Save**.</span></span>
+1. <span data-ttu-id="13411-130">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata semptomları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
+2. <span data-ttu-id="13411-131">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-131">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="13411-132">**Hata semptomları** alanına hata semptomu adı girin.</span><span class="sxs-lookup"><span data-stu-id="13411-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
+4. <span data-ttu-id="13411-133">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="13411-133">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="13411-134">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-134">Select **Save**.</span></span>
 
-## <a name="create-fault-areas"></a><span data-ttu-id="06151-135">Hata alanları oluştur</span><span class="sxs-lookup"><span data-stu-id="06151-135">Create fault areas</span></span>
+## <a name="create-fault-areas"></a><span data-ttu-id="13411-135">Hata alanları oluştur</span><span class="sxs-lookup"><span data-stu-id="13411-135">Create fault areas</span></span>
 
-<span data-ttu-id="06151-136">Hata tasarımcısında kullanılabilecek alanların veya konumların listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="06151-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
+<span data-ttu-id="13411-136">Hata tasarımcısında kullanılabilecek alanların veya konumların listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="13411-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="06151-137">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata alanları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
-2. <span data-ttu-id="06151-138">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-138">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="06151-139">**Hata alanları** alanına hata alanı adı girin.</span><span class="sxs-lookup"><span data-stu-id="06151-139">In the **Fault area** field, enter a name for the fault area.</span></span>
-4. <span data-ttu-id="06151-140">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="06151-140">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="06151-141">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-141">Select **Save**.</span></span>
+1. <span data-ttu-id="13411-137">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata alanları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
+2. <span data-ttu-id="13411-138">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-138">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="13411-139">**Hata alanları** alanına hata alanı adı girin.</span><span class="sxs-lookup"><span data-stu-id="13411-139">In the **Fault area** field, enter a name for the fault area.</span></span>
+4. <span data-ttu-id="13411-140">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="13411-140">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="13411-141">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-141">Select **Save**.</span></span>
 
-## <a name="create-fault-types"></a><span data-ttu-id="06151-142">Hata türleri oluştur</span><span class="sxs-lookup"><span data-stu-id="06151-142">Create fault types</span></span>
+## <a name="create-fault-types"></a><span data-ttu-id="13411-142">Hata türleri oluştur</span><span class="sxs-lookup"><span data-stu-id="13411-142">Create fault types</span></span>
 
-<span data-ttu-id="06151-143">Hata tasarımcısında kullanılabilecek hata türlerinin listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="06151-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
+<span data-ttu-id="13411-143">Hata tasarımcısında kullanılabilecek hata türlerinin listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="13411-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="06151-144">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata türleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
-2. <span data-ttu-id="06151-145">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-145">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="06151-146">**Hata Türü** alanına hata türü için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="06151-146">In the **Fault type** field, enter a name for the fault type.</span></span>
-4. <span data-ttu-id="06151-147">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="06151-147">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="06151-148">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-148">Select **Save**.</span></span>
+1. <span data-ttu-id="13411-144">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata türleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
+2. <span data-ttu-id="13411-145">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-145">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="13411-146">**Hata Türü** alanına hata türü için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="13411-146">In the **Fault type** field, enter a name for the fault type.</span></span>
+4. <span data-ttu-id="13411-147">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="13411-147">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="13411-148">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-148">Select **Save**.</span></span>
 
-## <a name="set-up-the-fault-designer"></a><span data-ttu-id="06151-149">Hata tasarımcısını ayarla</span><span class="sxs-lookup"><span data-stu-id="06151-149">Set up the fault designer</span></span>
+## <a name="set-up-the-fault-designer"></a><span data-ttu-id="13411-149">Hata tasarımcısını ayarla</span><span class="sxs-lookup"><span data-stu-id="13411-149">Set up the fault designer</span></span>
 
-<span data-ttu-id="06151-150">Hata tasarımcısında, kıymet türlerinde hata verileri ayarlarsınız.</span><span class="sxs-lookup"><span data-stu-id="06151-150">In the fault designer, you set up fault data on asset types.</span></span>
+<span data-ttu-id="13411-150">Hata tasarımcısında, kıymet türlerinde hata verileri ayarlarsınız.</span><span class="sxs-lookup"><span data-stu-id="13411-150">In the fault designer, you set up fault data on asset types.</span></span>
 
-1. <span data-ttu-id="06151-151">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata tasarımcısı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
-2. <span data-ttu-id="06151-152">Sol bölmede, bir hata kaydı kurmak üzere kullanılacak kıymetin türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
-3. <span data-ttu-id="06151-153">**Hata semptomu** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata semptomu** alanında bir hata semptomu seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
-4. <span data-ttu-id="06151-154">**Hata alanı** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata alanı** alanında bir hata alanı seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
-5. <span data-ttu-id="06151-155">**Hata türü** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata türü** alanında bir hata türü seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
-6. <span data-ttu-id="06151-156">Seçili varlık türü için varolan tüm hata semptomları, alanlar ve türlerin birleşimlerini hızlı bir şekilde oluşturmak için **Hata birleşimleri oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="06151-157">Birçok hata semptomu, alanı ve türü eklediyseniz bu işlev yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="06151-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="06151-158">Kıymet türüyle alakalı olmayan herhangi bir kombinasyon için satırları silmek, el ile yeni satırlar oluşturmaktan daha kolaydır.</span><span class="sxs-lookup"><span data-stu-id="06151-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
+1. <span data-ttu-id="13411-151">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata tasarımcısı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
+2. <span data-ttu-id="13411-152">Sol bölmede, bir hata kaydı kurmak üzere kullanılacak kıymetin türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
+3. <span data-ttu-id="13411-153">**Hata semptomu** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata semptomu** alanında bir hata semptomu seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
+4. <span data-ttu-id="13411-154">**Hata alanı** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata alanı** alanında bir hata alanı seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
+5. <span data-ttu-id="13411-155">**Hata türü** hızlı sekmesinde **Satır ekle**'yi seçin ve **Hata türü** alanında bir hata türü seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
+6. <span data-ttu-id="13411-156">Seçili varlık türü için varolan tüm hata semptomları, alanlar ve türlerin birleşimlerini hızlı bir şekilde oluşturmak için **Hata birleşimleri oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="13411-157">Birçok hata semptomu, alanı ve türü eklediyseniz bu işlev yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="13411-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="13411-158">Kıymet türüyle alakalı olmayan herhangi bir kombinasyon için satırları silmek, el ile yeni satırlar oluşturmaktan daha kolaydır.</span><span class="sxs-lookup"><span data-stu-id="13411-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="06151-159">Bir kıymet türündeki hata semptomları, alanlar ve türlerin kurulumunu seçili kıymet türüne kopyalamak için **Sabit kıymet türünden kopyala**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
+    > <span data-ttu-id="13411-159">Bir kıymet türündeki hata semptomları, alanlar ve türlerin kurulumunu seçili kıymet türüne kopyalamak için **Sabit kıymet türünden kopyala**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
 
-7. <span data-ttu-id="06151-160">Değişikliklerinizi kaydetmek için **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-160">Select **Save** to save your changes.</span></span>
+7. <span data-ttu-id="13411-160">Değişikliklerinizi kaydetmek için **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-160">Select **Save** to save your changes.</span></span>
 
 ![Arıza tasarımcısı sayfası](media/21-setup-for-work-orders.png)
 
-## <a name="create-fault-causes"></a><span data-ttu-id="06151-162">Hata nedenleri oluştur</span><span class="sxs-lookup"><span data-stu-id="06151-162">Create fault causes</span></span>
+## <a name="create-fault-causes"></a><span data-ttu-id="13411-162">Hata nedenleri oluştur</span><span class="sxs-lookup"><span data-stu-id="13411-162">Create fault causes</span></span>
 
-<span data-ttu-id="06151-163">Bir iş emrine veya bakım isteğine eklenebilen bilinen hata nedenlerinin bir listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="06151-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="13411-163">Bir iş emrine veya bakım isteğine eklenebilen bilinen hata nedenlerinin bir listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="13411-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="06151-164">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata nedenleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
-2. <span data-ttu-id="06151-165">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-165">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="06151-166">**Hata nedeni** alanına hata nedeni için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="06151-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
-4. <span data-ttu-id="06151-167">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="06151-167">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="06151-168">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-168">Select **Save**.</span></span>
+1. <span data-ttu-id="13411-164">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata nedenleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
+2. <span data-ttu-id="13411-165">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-165">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="13411-166">**Hata nedeni** alanına hata nedeni için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="13411-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
+4. <span data-ttu-id="13411-167">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="13411-167">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="13411-168">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-168">Select **Save**.</span></span>
 
-## <a name="create-fault-remedies"></a><span data-ttu-id="06151-169">Hata düzeltici oluştur</span><span class="sxs-lookup"><span data-stu-id="06151-169">Create fault remedies</span></span>
+## <a name="create-fault-remedies"></a><span data-ttu-id="13411-169">Hata düzeltici oluştur</span><span class="sxs-lookup"><span data-stu-id="13411-169">Create fault remedies</span></span>
 
-<span data-ttu-id="06151-170">Bir iş emrine veya bakım isteğine eklenebilen düzeltici ve onarım önerilerinin bir listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="06151-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="13411-170">Bir iş emrine veya bakım isteğine eklenebilen düzeltici ve onarım önerilerinin bir listesini oluşturmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="13411-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="06151-171">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata düzelticisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
-2. <span data-ttu-id="06151-172">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-172">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="06151-173">**Hata düzeltici** alanına hata düzeltici adı girin.</span><span class="sxs-lookup"><span data-stu-id="06151-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
-4. <span data-ttu-id="06151-174">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="06151-174">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="06151-175">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="06151-175">Select **Save**.</span></span>
+1. <span data-ttu-id="13411-171">**Kıymet yönetimi** \> **Kurulum** \> **Hata** \> **Hata düzelticisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
+2. <span data-ttu-id="13411-172">Bir kayıt oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-172">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="13411-173">**Hata düzeltici** alanına hata düzeltici adı girin.</span><span class="sxs-lookup"><span data-stu-id="13411-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
+4. <span data-ttu-id="13411-174">**Açıklama** alanına bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="13411-174">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="13411-175">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="13411-175">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="06151-176">Hata semptomlarınızın adlarını, alanlarını, türlerini, nedenlerini ve gereksinim duyduğunuz değişiklikleri değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="06151-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="06151-177">Ad değişiklikleri otomatik olarak ilgili hata kayıtlarında yansıtılır.</span><span class="sxs-lookup"><span data-stu-id="06151-177">The name changes are automatically reflected in the related fault registrations.</span></span>
+> <span data-ttu-id="13411-176">Hata semptomlarınızın adlarını, alanlarını, türlerini, nedenlerini ve gereksinim duyduğunuz değişiklikleri değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="13411-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="13411-177">Ad değişiklikleri otomatik olarak ilgili hata kayıtlarında yansıtılır.</span><span class="sxs-lookup"><span data-stu-id="13411-177">The name changes are automatically reflected in the related fault registrations.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
