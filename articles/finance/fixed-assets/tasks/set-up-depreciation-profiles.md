@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7cf50474a467af2cd8cd3f1e97cac3ed410fde7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13ae9bd714988d079a933e20e6e17209161e46eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994877"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224681"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Amortisman profilleri ayarlama ve oluşturma
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 668b60efa55fa553cf308d5bfc5da7e23f460366
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8c6de9fa9dd49cc32f87a6041a3639198db9f182
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987041"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218621"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Serbest bırakılan ana ürünün temel kurulumunu tamamlama
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a0234fcce4f108fc6b03f0c4221613bb8526e86
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3a6ea4abcb0a9b51680e3cdbb4533eb127b3a04a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966892"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216069"
 ---
 # <a name="define-configuration-route"></a>Konfigürasyon rotası tanımla
 
