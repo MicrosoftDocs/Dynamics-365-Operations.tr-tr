@@ -18,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 118e7689e5d37aae18d3823b957301ddfa89369a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3934390b86f821233c2620405e316cf732b3d7bf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982653"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230628"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 

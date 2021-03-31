@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39f053404348b57de0ad623869ebd7c6cc7a150b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228209"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için askıda krediler
 [!include [banner](../includes/banner.md)]

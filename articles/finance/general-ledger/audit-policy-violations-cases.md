@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ddd403bfe82b1a7d3c0c5999f89bde19f1bba5e8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 170a27c55f808e11fba047186209a2b126b6a87a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022117"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228851"
 ---
 # <a name="audit-policy-violations-and-cases"></a>İlke ihlallerini ve vakalarını denetleme
 

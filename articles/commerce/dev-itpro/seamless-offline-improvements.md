@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1ea46ae90dedcc3ad3c3b305bddeb4d98827353a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687549"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230681"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
 
@@ -32,7 +32,7 @@ Bir satış noktası (POS) aygıtının, kanal veritabanıyla olan bağlantısı
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Çevrimdışı modda hediye kartı hareketlerinin sonuçlandırma
 
-Dahili hediye kartları gerçek zamanlı servise bağlıdır, çünkü hediye kartlarının bakiyesi Microsoft Dynamics 365 Commerce Headquarters 'da merkezi olarak tutulmalıdır. Dolandırıcılık veya diğer eşitleme sorunlarını önlemeye yardımcı olmak için, hediye kartları bir hareketle eklendikten hemen sonra kilitlenir. Kilitleme işlevi, bir hediye kartının aynı anda çoklu terminallerde kullanılmamasını sağlar. Hareket tamamlandığında, hediye kartının kilidi güncellenir ve kilidi açılır.
+Dahili hediye kartları gerçek zamanlı servise bağlıdır, çünkü hediye kartlarının bakiyesi Microsoft Dynamics 365 Commerce Headquarters'da merkezi olarak tutulmalıdır. Dolandırıcılık veya diğer eşitleme sorunlarını önlemeye yardımcı olmak için, hediye kartları bir hareketle eklendikten hemen sonra kilitlenir. Kilitleme işlevi, bir hediye kartının aynı anda çoklu terminallerde kullanılmamasını sağlar. Hareket tamamlandığında, hediye kartının kilidi güncellenir ve kilidi açılır.
 
 Ancak, POS bir harekette bir hediye kartı eklendikten sonra bağlantıyı kaybederse, hediye kartı kullanılamaz hale gelebilir. Bu durumun engellenmesine yardımcı olmak için Dynamics 365 Commerce, POS çevrimdışıyken hediye kartı satırı içeren hareketlerin tamamlanmasını sağlayan bir parametresi vardır. Bu parametre etkinleştirildiğinde, çevrimdışı olarak zorlanan hediye kartı hareketleri, çevrimdışı hareketlerle birlikte kaydedilir ve çevrimdışı hareketler eşitlendiğinde Commerce Headquarters ile eşitlenir. Eşitleme, başka bir terminalde kullanılabilmesi için hediye kartının kilidini da kaldırır.
 
