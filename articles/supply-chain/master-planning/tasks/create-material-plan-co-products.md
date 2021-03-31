@@ -15,98 +15,101 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8e9067cdd8851da31c07a92217001e447f400d4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2a87935f8f30d909f1a6a62ed7be00c83476a36a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5214382"
 ---
-# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="84a85-103">Ortak ürünler için bir malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="84a85-103">Create a material plan for co products</span></span>
+# <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="555e5-103">Ortak ürünler için bir malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="555e5-103">Create a material plan for co products</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="84a85-104">Üretim Planlayıcısı formül yan ürünleri olan maddeler için malzeme gereksinimleri planlaması yapar.</span><span class="sxs-lookup"><span data-stu-id="84a85-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="84a85-105">Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USP2'dir.</span><span class="sxs-lookup"><span data-stu-id="84a85-105">The demo data company used to create this procedure is USP2.</span></span>
+<span data-ttu-id="555e5-104">Üretim Planlayıcısı formül yan ürünleri olan maddeler için malzeme gereksinimleri planlaması yapar.</span><span class="sxs-lookup"><span data-stu-id="555e5-104">The production planner plans the material requirements for items that are formula co-products.</span></span> <span data-ttu-id="555e5-105">Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USP2'dir.</span><span class="sxs-lookup"><span data-stu-id="555e5-105">The demo data company used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="84a85-106">Ortak bir ürün için gereksinim oluşturun</span><span class="sxs-lookup"><span data-stu-id="84a85-106">Create requirement for a co-product</span></span>
-1. <span data-ttu-id="84a85-107">Varsayılan panoya gidin.</span><span class="sxs-lookup"><span data-stu-id="84a85-107">Go to Default dashboard.</span></span>
-2. <span data-ttu-id="84a85-108">Satış siparişi işleme ve sorgulama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-108">Click Sales order processing and inquiry.</span></span>
-3. <span data-ttu-id="84a85-109">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-109">Click New.</span></span>
-4. <span data-ttu-id="84a85-110">Satış siparişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-110">Click Sales order.</span></span>
-5. <span data-ttu-id="84a85-111">Müşteri hesabı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-111">In the Customer account field, type a value.</span></span>
-    * <span data-ttu-id="84a85-112">Örnek: US-001</span><span class="sxs-lookup"><span data-stu-id="84a85-112">Example: US-001</span></span>  
-6. <span data-ttu-id="84a85-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-113">Click OK.</span></span>
-7. <span data-ttu-id="84a85-114">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-114">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="84a85-115">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="84a85-115">Example: P6003</span></span>  
-8. <span data-ttu-id="84a85-116">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-116">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="84a85-117">Örnek: 50000</span><span class="sxs-lookup"><span data-stu-id="84a85-117">Example: 50000</span></span>  
-9. <span data-ttu-id="84a85-118">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-118">Click Save.</span></span>
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="555e5-106">Ortak bir ürün için gereksinim oluşturun</span><span class="sxs-lookup"><span data-stu-id="555e5-106">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="555e5-107">Varsayılan panoya gidin.</span><span class="sxs-lookup"><span data-stu-id="555e5-107">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="555e5-108">Satış siparişi işleme ve sorgulama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-108">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="555e5-109">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-109">Click New.</span></span>
+4. <span data-ttu-id="555e5-110">Satış siparişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-110">Click Sales order.</span></span>
+5. <span data-ttu-id="555e5-111">Müşteri hesabı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-111">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="555e5-112">Örnek: US-001</span><span class="sxs-lookup"><span data-stu-id="555e5-112">Example: US-001</span></span>  
+6. <span data-ttu-id="555e5-113">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-113">Click OK.</span></span>
+7. <span data-ttu-id="555e5-114">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-114">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="555e5-115">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="555e5-115">Example: P6003</span></span>  
+8. <span data-ttu-id="555e5-116">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-116">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="555e5-117">Örnek: 50000</span><span class="sxs-lookup"><span data-stu-id="555e5-117">Example: 50000</span></span>  
+9. <span data-ttu-id="555e5-118">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-118">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="84a85-119">Ortak ürünler için malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="84a85-119">Create a material plan for co-products</span></span>
-1. <span data-ttu-id="84a85-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-120">Close the page.</span></span>
-2. <span data-ttu-id="84a85-121">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-121">Close the page.</span></span>
-3. <span data-ttu-id="84a85-122">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-122">Click Master planning.</span></span>
-4. <span data-ttu-id="84a85-123">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-123">In the Plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="84a85-124">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="84a85-125">Örnek: MasterPlan</span><span class="sxs-lookup"><span data-stu-id="84a85-125">Example: MasterPlan</span></span>  
-6. <span data-ttu-id="84a85-126">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-126">Click Run.</span></span>
-7. <span data-ttu-id="84a85-127">Eklenecek kayıtlar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="84a85-127">Expand or collapse the Records to include section.</span></span>
-8. <span data-ttu-id="84a85-128">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-128">Click Filter.</span></span>
-9. <span data-ttu-id="84a85-129">Listede, Alan = Madde numarası alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="84a85-129">In the list, select the row for Field = Item number.</span></span>
-10. <span data-ttu-id="84a85-130">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="84a85-130">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="84a85-131">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="84a85-131">Example: P6003</span></span>  
-11. <span data-ttu-id="84a85-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-132">Click OK.</span></span>
-12. <span data-ttu-id="84a85-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-133">Click OK.</span></span>
-13. <span data-ttu-id="84a85-134">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-134">Click Planned orders.</span></span>
-14. <span data-ttu-id="84a85-135">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="84a85-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="84a85-136">Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-136">For example, filter on the Item number field with a value of 'P6000'.</span></span>
-    * <span data-ttu-id="84a85-137">Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-137">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
-15. <span data-ttu-id="84a85-138">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-138">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="84a85-139">Filtre tarafından geri getirilen satırlardan herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="84a85-139">Select any of the rows returned by the filter.</span></span>  
-16. <span data-ttu-id="84a85-140">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-140">In the list, click the link in the selected row.</span></span>
-17. <span data-ttu-id="84a85-141">İlişkilendirme bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="84a85-141">Expand or collapse the Pegging section.</span></span>
-18. <span data-ttu-id="84a85-142">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-142">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="84a85-143">Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="84a85-143">The planned order is pegged to the sales order for the co-product.</span></span>  
-19. <span data-ttu-id="84a85-144">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-144">Close the page.</span></span>
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="555e5-119">Ortak ürünler için malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="555e5-119">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="555e5-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-120">Close the page.</span></span>
+2. <span data-ttu-id="555e5-121">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-121">Close the page.</span></span>
+3. <span data-ttu-id="555e5-122">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-122">Click Master planning.</span></span>
+4. <span data-ttu-id="555e5-123">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-123">In the Plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="555e5-124">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="555e5-125">Örnek: MasterPlan</span><span class="sxs-lookup"><span data-stu-id="555e5-125">Example: MasterPlan</span></span>  
+6. <span data-ttu-id="555e5-126">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-126">Click Run.</span></span>
+7. <span data-ttu-id="555e5-127">Eklenecek kayıtlar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="555e5-127">Expand or collapse the Records to include section.</span></span>
+8. <span data-ttu-id="555e5-128">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-128">Click Filter.</span></span>
+9. <span data-ttu-id="555e5-129">Listede, Alan = Madde numarası alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="555e5-129">In the list, select the row for Field = Item number.</span></span>
+10. <span data-ttu-id="555e5-130">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="555e5-130">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="555e5-131">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="555e5-131">Example: P6003</span></span>  
+11. <span data-ttu-id="555e5-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-132">Click OK.</span></span>
+12. <span data-ttu-id="555e5-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-133">Click OK.</span></span>
+13. <span data-ttu-id="555e5-134">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-134">Click Planned orders.</span></span>
+14. <span data-ttu-id="555e5-135">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="555e5-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="555e5-136">Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-136">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="555e5-137">Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-137">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+15. <span data-ttu-id="555e5-138">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-138">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="555e5-139">Filtre tarafından geri getirilen satırlardan herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="555e5-139">Select any of the rows returned by the filter.</span></span>  
+16. <span data-ttu-id="555e5-140">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-140">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="555e5-141">İlişkilendirme bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="555e5-141">Expand or collapse the Pegging section.</span></span>
+18. <span data-ttu-id="555e5-142">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-142">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="555e5-143">Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="555e5-143">The planned order is pegged to the sales order for the co-product.</span></span>  
+19. <span data-ttu-id="555e5-144">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-144">Close the page.</span></span>
 
-## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="84a85-145">Ortak bir ürün için gereksinim oluşturun</span><span class="sxs-lookup"><span data-stu-id="84a85-145">Create requirement for a co-product</span></span>
-1. <span data-ttu-id="84a85-146">Varsayılan panoya gidin.</span><span class="sxs-lookup"><span data-stu-id="84a85-146">Go to Default dashboard.</span></span>
-2. <span data-ttu-id="84a85-147">Satış siparişi işleme ve sorgulama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-147">Click Sales order processing and inquiry.</span></span>
-3. <span data-ttu-id="84a85-148">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-148">Click New.</span></span>
-4. <span data-ttu-id="84a85-149">Satış siparişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-149">Click Sales order.</span></span>
-5. <span data-ttu-id="84a85-150">Müşteri hesabı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-150">In the Customer account field, type a value.</span></span>
-    * <span data-ttu-id="84a85-151">Örnek: US-001</span><span class="sxs-lookup"><span data-stu-id="84a85-151">Example: US-001</span></span>  
-6. <span data-ttu-id="84a85-152">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-152">Click OK.</span></span>
-7. <span data-ttu-id="84a85-153">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-153">In the Item number field, type a value.</span></span>
-    * <span data-ttu-id="84a85-154">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="84a85-154">Example: P6003</span></span>  
-8. <span data-ttu-id="84a85-155">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="84a85-155">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="84a85-156">Örnek: 50000</span><span class="sxs-lookup"><span data-stu-id="84a85-156">Example: 50000</span></span>  
-9. <span data-ttu-id="84a85-157">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-157">Click Save.</span></span>
+## <a name="create-requirement-for-a-co-product"></a><span data-ttu-id="555e5-145">Ortak bir ürün için gereksinim oluşturun</span><span class="sxs-lookup"><span data-stu-id="555e5-145">Create requirement for a co-product</span></span>
+1. <span data-ttu-id="555e5-146">Varsayılan panoya gidin.</span><span class="sxs-lookup"><span data-stu-id="555e5-146">Go to Default dashboard.</span></span>
+2. <span data-ttu-id="555e5-147">Satış siparişi işleme ve sorgulama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-147">Click Sales order processing and inquiry.</span></span>
+3. <span data-ttu-id="555e5-148">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-148">Click New.</span></span>
+4. <span data-ttu-id="555e5-149">Satış siparişi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-149">Click Sales order.</span></span>
+5. <span data-ttu-id="555e5-150">Müşteri hesabı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-150">In the Customer account field, type a value.</span></span>
+    * <span data-ttu-id="555e5-151">Örnek: US-001</span><span class="sxs-lookup"><span data-stu-id="555e5-151">Example: US-001</span></span>  
+6. <span data-ttu-id="555e5-152">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-152">Click OK.</span></span>
+7. <span data-ttu-id="555e5-153">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-153">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="555e5-154">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="555e5-154">Example: P6003</span></span>  
+8. <span data-ttu-id="555e5-155">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="555e5-155">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="555e5-156">Örnek: 50000</span><span class="sxs-lookup"><span data-stu-id="555e5-156">Example: 50000</span></span>  
+9. <span data-ttu-id="555e5-157">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-157">Click Save.</span></span>
 
-## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="84a85-158">Ortak ürünler için malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="84a85-158">Create a material plan for co-products</span></span>
-1. <span data-ttu-id="84a85-159">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-159">In the Plan field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="84a85-160">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-160">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="84a85-161">Örnek: MasterPlan</span><span class="sxs-lookup"><span data-stu-id="84a85-161">Example: MasterPlan</span></span>  
-3. <span data-ttu-id="84a85-162">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-162">Click Run.</span></span>
-4. <span data-ttu-id="84a85-163">Eklenecek kayıtlar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="84a85-163">Expand or collapse the Records to include section.</span></span>
-5. <span data-ttu-id="84a85-164">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-164">Click Filter.</span></span>
-6. <span data-ttu-id="84a85-165">Listede, Alan = Madde numarası alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="84a85-165">In the list, select the row for Field = Item number.</span></span>
-7. <span data-ttu-id="84a85-166">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="84a85-166">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="84a85-167">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="84a85-167">Example: P6003</span></span>  
-8. <span data-ttu-id="84a85-168">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-168">Click OK.</span></span>
-9. <span data-ttu-id="84a85-169">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-169">Click OK.</span></span>
-10. <span data-ttu-id="84a85-170">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-170">Click Planned orders.</span></span>
-11. <span data-ttu-id="84a85-171">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="84a85-171">Use the Quick Filter to find records.</span></span> <span data-ttu-id="84a85-172">Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-172">For example, filter on the Item number field with a value of 'P6000'.</span></span>
-    * <span data-ttu-id="84a85-173">Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-173">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
-12. <span data-ttu-id="84a85-174">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="84a85-174">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="84a85-175">Filtre tarafından geri getirilen satırlardan herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="84a85-175">Select any of the rows returned by the filter.</span></span>  
-13. <span data-ttu-id="84a85-176">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-176">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="84a85-177">İlişkilendirme bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="84a85-177">Expand or collapse the Pegging section.</span></span>
-15. <span data-ttu-id="84a85-178">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-178">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="84a85-179">Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="84a85-179">The planned order is pegged to the sales order for the co-product.</span></span>  
-16. <span data-ttu-id="84a85-180">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-180">Close the page.</span></span>
-17. <span data-ttu-id="84a85-181">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="84a85-181">Click Master planning.</span></span>
-18. <span data-ttu-id="84a85-182">Master planlama > Kurulum > Master planlama parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="84a85-182">Go to Master planning > Setup > Master planning parameters.</span></span>
-19. <span data-ttu-id="84a85-183">Tüm planlama işlemlerini devre dışı bırak alanında Hayır'ı işaretle.</span><span class="sxs-lookup"><span data-stu-id="84a85-183">Select No in the Disable all planning processes field.</span></span>
-20. <span data-ttu-id="84a85-184">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="84a85-184">Close the page.</span></span>
+## <a name="create-a-material-plan-for-co-products"></a><span data-ttu-id="555e5-158">Ortak ürünler için malzeme planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="555e5-158">Create a material plan for co-products</span></span>
+1. <span data-ttu-id="555e5-159">Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-159">In the Plan field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="555e5-160">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-160">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="555e5-161">Örnek: MasterPlan</span><span class="sxs-lookup"><span data-stu-id="555e5-161">Example: MasterPlan</span></span>  
+3. <span data-ttu-id="555e5-162">Çalıştır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-162">Click Run.</span></span>
+4. <span data-ttu-id="555e5-163">Eklenecek kayıtlar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="555e5-163">Expand or collapse the Records to include section.</span></span>
+5. <span data-ttu-id="555e5-164">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-164">Click Filter.</span></span>
+6. <span data-ttu-id="555e5-165">Listede, Alan = Madde numarası alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="555e5-165">In the list, select the row for Field = Item number.</span></span>
+7. <span data-ttu-id="555e5-166">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="555e5-166">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="555e5-167">Örnek: P6003</span><span class="sxs-lookup"><span data-stu-id="555e5-167">Example: P6003</span></span>  
+8. <span data-ttu-id="555e5-168">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-168">Click OK.</span></span>
+9. <span data-ttu-id="555e5-169">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-169">Click OK.</span></span>
+10. <span data-ttu-id="555e5-170">Planlı siparişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-170">Click Planned orders.</span></span>
+11. <span data-ttu-id="555e5-171">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="555e5-171">Use the Quick Filter to find records.</span></span> <span data-ttu-id="555e5-172">Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-172">For example, filter on the Item number field with a value of 'P6000'.</span></span>
+    * <span data-ttu-id="555e5-173">Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-173">Filter by the formula item that has as co-product of the item that you created a sales order for.</span></span>  
+12. <span data-ttu-id="555e5-174">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="555e5-174">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="555e5-175">Filtre tarafından geri getirilen satırlardan herhangi birini seçin.</span><span class="sxs-lookup"><span data-stu-id="555e5-175">Select any of the rows returned by the filter.</span></span>  
+13. <span data-ttu-id="555e5-176">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-176">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="555e5-177">İlişkilendirme bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="555e5-177">Expand or collapse the Pegging section.</span></span>
+15. <span data-ttu-id="555e5-178">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-178">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="555e5-179">Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="555e5-179">The planned order is pegged to the sales order for the co-product.</span></span>  
+16. <span data-ttu-id="555e5-180">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-180">Close the page.</span></span>
+17. <span data-ttu-id="555e5-181">Master planlama'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="555e5-181">Click Master planning.</span></span>
+18. <span data-ttu-id="555e5-182">Master planlama > Kurulum > Master planlama parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="555e5-182">Go to Master planning > Setup > Master planning parameters.</span></span>
+19. <span data-ttu-id="555e5-183">Tüm planlama işlemlerini devre dışı bırak alanında Hayır'ı işaretle.</span><span class="sxs-lookup"><span data-stu-id="555e5-183">Select No in the Disable all planning processes field.</span></span>
+20. <span data-ttu-id="555e5-184">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="555e5-184">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

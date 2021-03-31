@@ -17,45 +17,48 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13659fd1505b4957e71384d08a8118df6fe68e6d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d2cd65140dd550d0bf4ae2fef4d5a50e1e2ab31c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006778"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204290"
 ---
-# <a name="monitor-service-activities"></a><span data-ttu-id="34551-103">Servis faaliyetlerini izleme</span><span class="sxs-lookup"><span data-stu-id="34551-103">Monitor service activities</span></span> 
+# <a name="monitor-service-activities"></a><span data-ttu-id="53b7d-103">Servis faaliyetlerini izleme</span><span class="sxs-lookup"><span data-stu-id="53b7d-103">Monitor service activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="34551-104">**Gönderme panosu** formu size çeşitli planlanmış servis faaliyetlerine yönelik olarak bir bakışta durum güncelleştirmesi olanağını ve şirketinizdeki genel servis siparişi akışını izleme araçlarını sunar.</span><span class="sxs-lookup"><span data-stu-id="34551-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
+<span data-ttu-id="53b7d-104">**Gönderme panosu** formu size çeşitli planlanmış servis faaliyetlerine yönelik olarak bir bakışta durum güncelleştirmesi olanağını ve şirketinizdeki genel servis siparişi akışını izleme araçlarını sunar.</span><span class="sxs-lookup"><span data-stu-id="53b7d-104">The **Dispatch board** form provides an at-a-glance status update for the various scheduled service activities, and tools for tracking the general flow of service orders in your company.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="34551-105">Bir servis faaliyeti hakkındaki ayrıntıları görüntülemek için bunu <STRONG>Gönderme panosu</STRONG> formunun üst kısmındaki Gantt şemasında seçip sağ tıklayın ve <STRONG>Bilgi</STRONG>'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="34551-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
+> <P><span data-ttu-id="53b7d-105">Bir servis faaliyeti hakkındaki ayrıntıları görüntülemek için bunu <STRONG>Gönderme panosu</STRONG> formunun üst kısmındaki Gantt şemasında seçip sağ tıklayın ve <STRONG>Bilgi</STRONG>'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="53b7d-105">To view details about a service activity, select it in the Gantt chart at the top of the <STRONG>Dispatch board</STRONG> form, right-click, and then click <STRONG>Information</STRONG>.</span></span></P>
 
 
-<span data-ttu-id="34551-106">Bu formdaki araçları kullanarak servis siparişlerini tarihe, önceliğe veya servis faaliyetinin tipine göre sıralayabilir, servis siparişlerine atanan öncelik düzeylerini görüntüleyebilir ve tek tek servis siparişlerine atanmış faaliyetleri gözden geçirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="34551-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
+<span data-ttu-id="53b7d-106">Bu formdaki araçları kullanarak servis siparişlerini tarihe, önceliğe veya servis faaliyetinin tipine göre sıralayabilir, servis siparişlerine atanan öncelik düzeylerini görüntüleyebilir ve tek tek servis siparişlerine atanmış faaliyetleri gözden geçirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-106">By using the tools in this form, you can sort service orders by date, priority, or type of service activity, view the priority levels that are assigned to service orders, and review which activities are assigned to individual service orders.</span></span>
 
-<span data-ttu-id="34551-107">Servis faaliyeti atamalarını yeniden dağıtmanız gerekirse, servis faaliyetini farklı bir çalışana veya farklı bir tarihe ve saate atamak üzere servis faaliyetinin grafik gösterimini taşıyabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="34551-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
+<span data-ttu-id="53b7d-107">Servis faaliyeti atamalarını yeniden dağıtmanız gerekirse, servis faaliyetini farklı bir çalışana veya farklı bir tarihe ve saate atamak üzere servis faaliyetinin grafik gösterimini taşıyabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-107">If you must redistribute service activity assignments, you can move the graphical representation of a service activity to assign it to a different employee or a different date and time.</span></span>
 
-## <a name="example"></a><span data-ttu-id="34551-108">Örnek</span><span class="sxs-lookup"><span data-stu-id="34551-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="53b7d-108">Örnek</span><span class="sxs-lookup"><span data-stu-id="53b7d-108">Example</span></span>
 
-<span data-ttu-id="34551-109">Servis faaliyeti gününü izlerken servis teknisyenin John'ın, atanan servis çağrıları zamanlamasının gerisinde kaldığını fark ettiniz.</span><span class="sxs-lookup"><span data-stu-id="34551-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="34551-110">Ayrıca, listesindeki son çağrının hizmet düzeyi sözleşme gereksinimlerini karşılamak üzere günün sonuna kadar tamamlanması gerektiğini gördünüz.</span><span class="sxs-lookup"><span data-stu-id="34551-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="34551-111">Gantt şemasındaki sürükle ve bırak işlevlerini kullanarak, söz konusu servis çağrısını kendi servis çağrılarını tamamlamış ve planın ilerisinde olan Meg'e yeniden atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="34551-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
+<span data-ttu-id="53b7d-109">Servis faaliyeti gününü izlerken servis teknisyenin John'ın, atanan servis çağrıları zamanlamasının gerisinde kaldığını fark ettiniz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-109">While monitoring the day's service activity, you notice that John, a service technician, is running behind schedule on assigned service calls.</span></span> <span data-ttu-id="53b7d-110">Ayrıca, listesindeki son çağrının hizmet düzeyi sözleşme gereksinimlerini karşılamak üzere günün sonuna kadar tamamlanması gerektiğini gördünüz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-110">You also notice that the last call in his list must be completed by the end of the day to meet service level agreement requirements.</span></span> <span data-ttu-id="53b7d-111">Gantt şemasındaki sürükle ve bırak işlevlerini kullanarak, söz konusu servis çağrısını kendi servis çağrılarını tamamlamış ve planın ilerisinde olan Meg'e yeniden atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-111">By using the drag-and-drop functionality of the Gantt chart, you can reassign that service call to Meg, who has completed her own service calls ahead of schedule.</span></span>
 
-## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="34551-112">Gönderme panosu formunu açma</span><span class="sxs-lookup"><span data-stu-id="34551-112">Open the Dispatch board form</span></span>
+## <a name="open-the-dispatch-board-form"></a><span data-ttu-id="53b7d-112">Gönderme panosu formunu açma</span><span class="sxs-lookup"><span data-stu-id="53b7d-112">Open the Dispatch board form</span></span>
 
-<span data-ttu-id="34551-113">**Servis yönetimi** \> **Periyodik** \> **Gönderme panosu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="34551-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+<span data-ttu-id="53b7d-113">**Servis yönetimi** \> **Periyodik** \> **Gönderme panosu**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="53b7d-113">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="34551-114">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="34551-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53b7d-114">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="53b7d-114">See also</span></span>
 
-[<span data-ttu-id="34551-115">Servis siparişlerinin önceliklerini belirleme</span><span class="sxs-lookup"><span data-stu-id="34551-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="53b7d-115">Servis siparişlerinin önceliklerini belirleme</span><span class="sxs-lookup"><span data-stu-id="53b7d-115">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="34551-116">Servis siparişinin durumunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="34551-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="53b7d-116">Servis siparişinin durumunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="53b7d-116">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
-<span data-ttu-id="34551-117">[Gönderme panosu (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="34551-117">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="53b7d-117">[Gönderme panosu (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="53b7d-117">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

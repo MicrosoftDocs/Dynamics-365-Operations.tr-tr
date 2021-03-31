@@ -17,25 +17,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47df457d92f6eb41d04c63db6d3a99a4a9a74439
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b18acd7b66baa804d5a230116a43ca820c097af1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219233"
 ---
-# <a name="service-activities"></a><span data-ttu-id="4fe20-103">Servis faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="4fe20-103">Service activities</span></span>        
+# <a name="service-activities"></a><span data-ttu-id="0f4ef-103">Servis faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="0f4ef-103">Service activities</span></span>        
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="4fe20-104">Bir servis siparişindeki görevleri tanımlamak ve korumak için servis faaliyetleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="4fe20-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="4fe20-105">Bir servis siparişi bir çalışan tarafından gerçekleştirilecek bir veya daha fazla servis faaliyeti içerebilir.</span><span class="sxs-lookup"><span data-stu-id="4fe20-105">A service order can include one or more service activities to be performed by a worker.</span></span>
+<span data-ttu-id="0f4ef-104">Bir servis siparişindeki görevleri tanımlamak ve korumak için servis faaliyetleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="0f4ef-105">Bir servis siparişi bir çalışan tarafından gerçekleştirilecek bir veya daha fazla servis faaliyeti içerebilir.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-105">A service order can include one or more service activities to be performed by a worker.</span></span>
 
-<span data-ttu-id="4fe20-106">Servis faaliyetleri **Faaliyet türleri** formunda tanımlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="4fe20-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="4fe20-107">(**Satış ve pazarlama** \> **Kurulum** \> **Faaliyetler** \> **Faaliyet türleri**'ne tıklayın.) Faaliyetleri ayarladıktan sonra, bunları ilgili servis sözleşmesini temel alarak servis siparişlerine otomatik olarak ekleyebilir veya faaliyetleri satırları servis siparişine eklerken el ile ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fe20-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
+<span data-ttu-id="0f4ef-106">Servis faaliyetleri **Faaliyet türleri** formunda tanımlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="0f4ef-107">(**Satış ve pazarlama** \> **Kurulum** \> **Faaliyetler** \> **Faaliyet türleri**'ne tıklayın.) Faaliyetleri ayarladıktan sonra, bunları ilgili servis sözleşmesini temel alarak servis siparişlerine otomatik olarak ekleyebilir veya faaliyetleri satırları servis siparişine eklerken el ile ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
 
-<span data-ttu-id="4fe20-108">Servis faaliyetlerinin durumunu **Gönderme panosu** formunda görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fe20-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="4fe20-109">Ayrıca, formdaki faaliyetleri bir çalışandan başka bir çalışana atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fe20-109">You can also reassign activities from one worker to another worker in that form.</span></span>
+<span data-ttu-id="0f4ef-108">Servis faaliyetlerinin durumunu **Gönderme panosu** formunda görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="0f4ef-109">Ayrıca, formdaki faaliyetleri bir çalışandan başka bir çalışana atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-109">You can also reassign activities from one worker to another worker in that form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4fe20-110">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="4fe20-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0f4ef-110">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="0f4ef-110">See also</span></span>
 
-<span data-ttu-id="4fe20-111">[Gönderme panosu (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4fe20-111">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="0f4ef-111">[Gönderme panosu (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="0f4ef-111">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
