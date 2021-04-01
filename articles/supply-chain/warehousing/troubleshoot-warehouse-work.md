@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3015ec777953cedb5a5d8eea873ed1043cac04cb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970259"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237071"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Ambar işiyle ilgili sorunları giderme
 
