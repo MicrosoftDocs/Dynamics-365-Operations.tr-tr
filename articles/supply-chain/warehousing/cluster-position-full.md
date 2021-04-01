@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9c90380cb5d109e331a2552ba779525b66d10fa6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001111"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233019"
 ---
 # <a name="cluster-position-full"></a>Küme konumu dolu
 

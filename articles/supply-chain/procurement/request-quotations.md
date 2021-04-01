@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016943"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237388"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Teklif taleplerine (RFQ'lar) genel bakış
 
@@ -80,23 +80,23 @@ Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin 
 - %Teklifi iade nedeni%
 - %Düzeltme yapma nedeni%
 - %Düzeltmeyi yapan%
-- %Şirket%
+- %Company%
 - %RFQ servis talebi adı%
 - %Expiry Date Time%
-- %Tarih%
+- %Date%
 
-%Teklifi iade nedei% ve %Düzeltme yapma nedeni% belirteçleri, tedarik uzmanının **Düzeltme** sihirbazında düzeltme işlemini tamamlarken girebileceği metinle değiştirilir. %Düzeltmeyi yapan% ve %Şirket% belirteçleri otomatik olarak RFQ'dan alınır. %Tarih% belirteci geçerli tarih ile değiştirilir.
+%Teklifi iade nedei% ve %Düzeltme yapma nedeni% belirteçleri, tedarik uzmanının **Düzeltme** sihirbazında düzeltme işlemini tamamlarken girebileceği metinle değiştirilir. %Amendment prepared by% ve %Company% belirteçleri otomatik olarak RFQ'dan alınır. %Date% belirteci geçerli tarih ile değiştirilir.
 
 Bir RFQ'yu gönderildikten sonra iptal etmek isterseniz, bunu RFQ servis talebinden yapabilirsiniz. E-posta şablonunun iptali için iptal bildiriminin satıcının ilgili kişilerine gönderilmesi gerekir. Şablonu **Tedarik ve kaynak atama parametreleri** sayfasından seçilmelidir. Şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
 
 - %İptal sebebi%
 - %RFQ servis talebi%
 - %RFQ'yu iptal eden%
-- %Şirket%
+- %Company%
 - %RFQ servis talebi adı%
-- %Tarih%
+- %Date%
 
-%İptal sebebi% belirteci, tedarik uzmanının **İptal** sihirbazına girebileceği bir metin ile değiştirilir. %Tarih% belirteci geçerli tarih ile değiştirilir.
+%İptal sebebi% belirteci, tedarik uzmanının **İptal** sihirbazına girebileceği bir metin ile değiştirilir. %Date% belirteci geçerli tarih ile değiştirilir.
 
 Bir teklifte, teklifin neden reddedildiği veya kabul edildiğini belirtmek için neden kodları kullanmak isterseniz, **Satıcı nedenleri** sayfasında neden kodları ayarlamanız gerekir.
 
