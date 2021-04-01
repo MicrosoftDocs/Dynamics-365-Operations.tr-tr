@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fee9289820d3df821036412147994e227d68d1dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972719"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257183"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 

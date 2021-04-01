@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8cef9d868c5c84949b10a591d8ab5993ac799d5c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 27308f9991a6ddb36ef1f2e93082187fbf867132
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254877"
 ---
 # <a name="assess-sales-performance-by-product"></a>Satış performansını ürüne göre değerlendirme
 
@@ -42,7 +42,7 @@ Bu değerlendirme için, aşağıdaki konumlardan birinden açabileceğiniz, haz
 
 - **Mağaza yönetimi** çalışma alanı &gt; **Retail ve Commerce** &gt; **Kanallar** &gt; **Mağaza yönetimi** &gt; **Raporlar** &gt; **En ürünler raporu**
 - **Kategori ve ürün yönetimi** çalışma alanı &gt; **Retail ve Commerce** &gt; **Kanallar** &gt; **Mağaza yönetimi** &gt; **Raporlar** &gt; **En iyi ürünler raporu**
-- **Inquiries and reports** section &gt; **Retail ve Commerce** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report** (Sorgular ve raporlar bölümü Dynamics AX > Perakende ve ticaret > Sorgular ve raporlar > Satış raporları > En iyi müşteriler raporu)
+- **Sorgular ve raporlar** bölümü &gt; **Retail ve Commerce** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **En iyi ürünler raporu**
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

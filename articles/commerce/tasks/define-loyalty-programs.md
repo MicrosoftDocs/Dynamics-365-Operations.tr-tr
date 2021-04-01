@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a853287c0795057b09c429ea1c9ad5231e39a33
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 69424cdaae84ffe5ca8157f061ba5876b9eeeff9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972317"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256913"
 ---
 # <a name="define-loyalty-programs"></a> Bağlılık programları tanımlama
 
