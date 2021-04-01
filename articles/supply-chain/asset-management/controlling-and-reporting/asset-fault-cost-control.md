@@ -17,47 +17,50 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 597e30db346e882a7002709be52ad1c2d0576099
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c25b3efbd0f2f0ec22a08aeac54ffb7fd9398c83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019965"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253842"
 ---
-# <a name="asset-fault-cost-control"></a><span data-ttu-id="fcc25-103">Kıymet hata maliyeti denetimi</span><span class="sxs-lookup"><span data-stu-id="fcc25-103">Asset fault cost control</span></span>
+# <a name="asset-fault-cost-control"></a><span data-ttu-id="e28c0-103">Kıymet hata maliyeti denetimi</span><span class="sxs-lookup"><span data-stu-id="e28c0-103">Asset fault cost control</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="fcc25-104">Varlık Yönetimi'nde, varlık arıza kayıtlarındaki maliyetleri hesaplayarak fiili maliyetlerin bütçe maliyetlerine karşılaştırmasına genel bakış elde edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fcc25-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="fcc25-105">Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır.</span><span class="sxs-lookup"><span data-stu-id="fcc25-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="fcc25-106">Tarih, belirtinin kaydedildiği arıza tarihidir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-106">The date is the fault date on which the symptom was recorded.</span></span>
+<span data-ttu-id="e28c0-104">Varlık Yönetimi'nde, varlık arıza kayıtlarındaki maliyetleri hesaplayarak fiili maliyetlerin bütçe maliyetlerine karşılaştırmasına genel bakış elde edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e28c0-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="e28c0-105">Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır.</span><span class="sxs-lookup"><span data-stu-id="e28c0-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="e28c0-106">Tarih, belirtinin kaydedildiği arıza tarihidir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-106">The date is the fault date on which the symptom was recorded.</span></span>
 
-1. <span data-ttu-id="fcc25-107">**Varlık Yönetimi** > **Sorgular** > **Varlık hatası** > **Varlık hata maliyet denetimi**'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fcc25-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
+1. <span data-ttu-id="e28c0-107">**Varlık Yönetimi** > **Sorgular** > **Varlık hatası** > **Varlık hata maliyet denetimi**'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e28c0-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
 
-2. <span data-ttu-id="fcc25-108">**Varlık arıza maliyeti denetimi** iletişim kutusunda, gerekirse hesaplamaya dahil edilecek bir mali boyut kümesi seçin.</span><span class="sxs-lookup"><span data-stu-id="fcc25-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
+2. <span data-ttu-id="e28c0-108">**Varlık arıza maliyeti denetimi** iletişim kutusunda, gerekirse hesaplamaya dahil edilecek bir mali boyut kümesi seçin.</span><span class="sxs-lookup"><span data-stu-id="e28c0-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
 
-4. <span data-ttu-id="fcc25-109">Sıfır saat içeren sonuçları göstermek istemiyorsanız, **sıfır atlama** düğmesi üzerinde "Evet" seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="fcc25-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
+4. <span data-ttu-id="e28c0-109">Sıfır saat içeren sonuçları göstermek istemiyorsanız, **sıfır atlama** düğmesi üzerinde "Evet" seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="e28c0-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
 
-5. <span data-ttu-id="fcc25-110">İşlem yapılacak yerleşimlerle ilgili olarak maliyet denetimi satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fcc25-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
+5. <span data-ttu-id="e28c0-110">İşlem yapılacak yerleşimlerle ilgili olarak maliyet denetimi satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e28c0-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="fcc25-111">Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa, işlem yapılacak yerleşim için tüm varlık arızası maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="e28c0-111">Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim yapınız varsa, işlem yapılacak yerleşim için tüm varlık arızası maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="fcc25-112">**Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm varlık arıza maliyet denetimi satırlarını gösteren ayrıntılı bir sonuç görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="fcc25-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="e28c0-112">**Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeylerinde bulunan tüm varlık arıza maliyet denetimi satırlarını gösteren ayrıntılı bir sonuç görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="e28c0-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="fcc25-113">Aramayı sınırlandırmak istiyorsanız, Hızlı Sekme **dahil edilecek kayıtlar** üzerinde belirli kıymetleri, arıza tarihlerini, arıza nedenlerini ve arızaları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fcc25-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
+6. <span data-ttu-id="e28c0-113">Aramayı sınırlandırmak istiyorsanız, Hızlı Sekme **dahil edilecek kayıtlar** üzerinde belirli kıymetleri, arıza tarihlerini, arıza nedenlerini ve arızaları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e28c0-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
 
-7. <span data-ttu-id="fcc25-114">Hesaplamayı başlatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fcc25-114">Click **OK** to start the calculation.</span></span>
+7. <span data-ttu-id="e28c0-114">Hesaplamayı başlatmak için **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e28c0-114">Click **OK** to start the calculation.</span></span>
 
-8. <span data-ttu-id="fcc25-115">**Gruplandırma ölçütü** düğmelerine tıklayarak hesaplamanın gerekli ayrıntı düzeyini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="fcc25-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="fcc25-116">Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır.</span><span class="sxs-lookup"><span data-stu-id="fcc25-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="fcc25-117">Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fcc25-117">Click on a button to activate or deactivate it.</span></span>
+8. <span data-ttu-id="e28c0-115">**Gruplandırma ölçütü** düğmelerine tıklayarak hesaplamanın gerekli ayrıntı düzeyini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="e28c0-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="e28c0-116">Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır.</span><span class="sxs-lookup"><span data-stu-id="e28c0-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="e28c0-117">Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e28c0-117">Click on a button to activate or deactivate it.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fcc25-118">Örnek</span><span class="sxs-lookup"><span data-stu-id="fcc25-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e28c0-118">Örnek</span><span class="sxs-lookup"><span data-stu-id="e28c0-118">Example</span></span>
 
-<span data-ttu-id="fcc25-119">Bu örnekte, varlık arıza maliyeti denetim hesaplaması gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-119">This example shows an asset fault cost control calculation.</span></span>
+<span data-ttu-id="e28c0-119">Bu örnekte, varlık arıza maliyeti denetim hesaplaması gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-119">This example shows an asset fault cost control calculation.</span></span>
 
-- <span data-ttu-id="fcc25-120">**Orijinal bütçe** alanı, bütçe maliyetlerini iş emri tahmininden gösterir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
-- <span data-ttu-id="fcc25-121">**Fiili maliyet** alanı, iş emirlerinde deftere nakledilen maliyetleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
-- <span data-ttu-id="fcc25-122">**Taahhüt edilen maliyet** alanı, şirketinizin iş siparişleri ile ilgili olarak taahhüt edildiği toplam maliyet miktarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="fcc25-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
+- <span data-ttu-id="e28c0-120">**Orijinal bütçe** alanı, bütçe maliyetlerini iş emri tahmininden gösterir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
+- <span data-ttu-id="e28c0-121">**Fiili maliyet** alanı, iş emirlerinde deftere nakledilen maliyetleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
+- <span data-ttu-id="e28c0-122">**Taahhüt edilen maliyet** alanı, şirketinizin iş siparişleri ile ilgili olarak taahhüt edildiği toplam maliyet miktarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="e28c0-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
 
     ![Şekil 1](media/05-controlling-and-reporting.png)
 
-<span data-ttu-id="fcc25-124">Arızaları ayarlama hakkında bilgi için [Arıza yönetimi](../setup-for-work-orders/fault-management.md) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="fcc25-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
+<span data-ttu-id="e28c0-124">Arızaları ayarlama hakkında bilgi için [Arıza yönetimi](../setup-for-work-orders/fault-management.md) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="e28c0-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
