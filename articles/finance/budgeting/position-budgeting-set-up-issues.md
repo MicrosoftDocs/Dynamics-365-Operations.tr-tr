@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 0f03ab1437d7b4af38b3594892310e27771c829d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5241454"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Pozisyon bütçeleme için sorun giderme
 

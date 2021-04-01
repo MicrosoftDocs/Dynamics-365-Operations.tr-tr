@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c0af6764742532cbe181c8a20e7bf783b0e6d7cf
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2fd13c2ceb8843b79b9dbc87acf77f219f0244f5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983108"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242265"
 ---
 # <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Yük planlama çalışma ekranından Ambara serbest bırakma kullanılarak sevkiyatları konsolide etme
 

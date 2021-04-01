@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0e580253de0d787b721c2f729ecc96db56b91af0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6d9186fe242fa56b6a360d6a4e4284c0c3eac141
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242217"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Sevkiyatları konsolide etme sayfası kullanılarak sevkiyatları manuel olarak konsolide etme
 

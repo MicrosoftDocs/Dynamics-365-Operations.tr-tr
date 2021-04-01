@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: riluan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2c81a5a1bf34706254479a99af253b2b8d743828
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020848"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246705"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
