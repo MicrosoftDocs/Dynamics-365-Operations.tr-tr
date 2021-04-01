@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ab4ab4d04433ca03ac90acc583afceea2014e8e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 64033f0e1568ae88aef6617592243ac7d0b21ab7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989541"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254951"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -157,7 +157,7 @@ Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalle
 
 ### <a name="dedicated"></a>Özel
 
-Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için [Android ve iOS'da POS Hybrid uygulaması kurma](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
+Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için [Android ve iOS'da POS hybrid uygulaması kurma](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
 
 Adanmış donanım istasyonunu kullanmak için, Windows ve Android için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS 'u çekmece dışı modda başlatıp donanım istasyon yeteneklerini açmak için **donanım istasyonlarını yönetimi** işlemini kullanın, adanmış donanım istasyonu varsayılan olarak etkin olur. Daha sonra, Modern POS oturumunu kapatın, sonra yeniden oturum açın ve donanım profilinde yapılandırılan çevre birimleri kullanılabilir. 
 
@@ -198,7 +198,7 @@ Daha fazla bilgi için bkz. [Modern POS'u (MPOS) yapılandırma, yükleme ve etk
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Android ve iOS için Modern POS kurulumu ve yapılandırması
 
-Bilgi için bkz. [Android ve iOS'ta POS Hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Bilgi için bkz. [Android ve iOS'ta POS hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS cihazı kurma ve yapılandırma
 
@@ -493,7 +493,7 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Android için Modern POS, IPC (yerleşik) donanım istasyonu ile
 
-**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için [Android ve iOS için POS Hybrid uygulama kurulumu](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
+**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için [Android ve iOS için POS hybrid uygulama kurulumu](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 

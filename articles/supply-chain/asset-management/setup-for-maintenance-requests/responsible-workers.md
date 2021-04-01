@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 137ed393f28131262584d5a2ae414092b124ea0e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: ad6b1757952fb0e5b970f82f75d99919a7f0745e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5261177"
 ---
 # <a name="responsible-maintenance-workers"></a>Sorumlu bakım görevlileri
 

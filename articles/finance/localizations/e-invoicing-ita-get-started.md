@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 08d41244d3ec785127db8f69e37dd522a463c388
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259232"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç
 

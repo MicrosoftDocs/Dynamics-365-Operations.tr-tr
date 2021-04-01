@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5eccf5409c41710585e3d69c7270faa4621f7715
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 68fec8c2ddc05c71394045351cef880361f2e306
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097215"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254829"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Sayfa kaydetme, önizleme ve yayımlama
 

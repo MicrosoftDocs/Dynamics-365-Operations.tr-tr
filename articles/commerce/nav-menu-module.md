@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 65f8b6128b140f3fa776659d8920dfc5e095213f
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: f3461993e2bd59d66be1640331e4ef315a078469
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251223"
 ---
 # <a name="navigation-menu-module"></a>Gezinti menüsü modülleri
 
