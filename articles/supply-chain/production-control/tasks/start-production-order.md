@@ -16,57 +16,60 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9822dd66876ef8ed6bbcd5846a39d69d2446d7a7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3934db907c137f25c39c5769f96f0807eb597e37
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981092"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231876"
 ---
-# <a name="start-a-production-order"></a><span data-ttu-id="729c7-103">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="729c7-103">Start a production order</span></span>
+# <a name="start-a-production-order"></a><span data-ttu-id="df8bd-103">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="df8bd-103">Start a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="729c7-104">Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="729c7-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="729c7-105">Bu işlemde, zaman ve malzeme tüketimi bildirilir.</span><span class="sxs-lookup"><span data-stu-id="729c7-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="729c7-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="729c7-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="729c7-107">Bu, üretim emri ömrünü açıklayan yedi yordamdan beşincisidir.</span><span class="sxs-lookup"><span data-stu-id="729c7-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="df8bd-104">Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="df8bd-105">Bu işlemde, zaman ve malzeme tüketimi bildirilir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="df8bd-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="df8bd-107">Bu, üretim emri ömrünü açıklayan yedi yordamdan beşincisidir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a><span data-ttu-id="729c7-108">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="729c7-108">Start a production order</span></span>
-1. <span data-ttu-id="729c7-109">Üretim denetimi > Üretim emirleri > Tüm üretim emirleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="729c7-109">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="729c7-110">Serbest bırakılmış durumunda olan bir üretim emrini seçin.</span><span class="sxs-lookup"><span data-stu-id="729c7-110">Select a production order that has the Released status.</span></span>  
-2. <span data-ttu-id="729c7-111">Eylem Bölmesinde, Üretim emri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-111">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="729c7-112">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-112">Click Start.</span></span>
-    * <span data-ttu-id="729c7-113">Bu sayfada, üretim emrinin başlatılmasını onaylayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="729c7-113">On this page, you can confirm the start of the production order.</span></span>  
-4. <span data-ttu-id="729c7-114">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-114">Click the General tab.</span></span>
-5. <span data-ttu-id="729c7-115">Operasyon Numarası</span><span class="sxs-lookup"><span data-stu-id="729c7-115">In the From Oper.</span></span> <span data-ttu-id="729c7-116">Hayır.</span><span class="sxs-lookup"><span data-stu-id="729c7-116">No.</span></span> <span data-ttu-id="729c7-117">alanına '10' girin.</span><span class="sxs-lookup"><span data-stu-id="729c7-117">field, enter '10'.</span></span>
-6. <span data-ttu-id="729c7-118">Otomatik rota tüketimi alanında, 'Her zaman' seçin.</span><span class="sxs-lookup"><span data-stu-id="729c7-118">In the Automatic route consumption field, select 'Always'.</span></span>
-7. <span data-ttu-id="729c7-119">Nakletme Rota kartını şimdi onaylayın kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-119">Click the Post route card now checkbox.</span></span>
-8. <span data-ttu-id="729c7-120">Otomatik malzeme listesi tüketimi alanında, 'Her zaman' seçin.</span><span class="sxs-lookup"><span data-stu-id="729c7-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
-9. <span data-ttu-id="729c7-121">Malzeme çekme listesini şimdi naklet kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-121">Click the Post picking list now checkbox.</span></span>
-10. <span data-ttu-id="729c7-122">Malzeme çekme listesini yazdır kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-122">Click the Print picking list checkbox.</span></span>
-11. <span data-ttu-id="729c7-123">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-123">Click OK.</span></span>
-    * <span data-ttu-id="729c7-124">Bu, üretim emri için kullanılan malzemeleri gösteren yazılı malzeme çekme listesidir.</span><span class="sxs-lookup"><span data-stu-id="729c7-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
-12. <span data-ttu-id="729c7-125">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-125">Close the page.</span></span>
+## <a name="start-a-production-order"></a><span data-ttu-id="df8bd-108">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="df8bd-108">Start a production order</span></span>
+1. <span data-ttu-id="df8bd-109">Üretim denetimi > Üretim emirleri > Tüm üretim emirleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="df8bd-110">Serbest bırakılmış durumunda olan bir üretim emrini seçin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="df8bd-111">Eylem Bölmesinde, Üretim emri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="df8bd-112">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-112">Click Start.</span></span>
+    * <span data-ttu-id="df8bd-113">Bu sayfada, üretim emrinin başlatılmasını onaylayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="df8bd-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="df8bd-114">Genel sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-114">Click the General tab.</span></span>
+5. <span data-ttu-id="df8bd-115">Operasyon Numarası</span><span class="sxs-lookup"><span data-stu-id="df8bd-115">In the From Oper.</span></span> <span data-ttu-id="df8bd-116">Hayır.</span><span class="sxs-lookup"><span data-stu-id="df8bd-116">No.</span></span> <span data-ttu-id="df8bd-117">alanına '10' girin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="df8bd-118">Otomatik rota tüketimi alanında, 'Her zaman' seçin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="df8bd-119">Nakletme Rota kartını şimdi onaylayın kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="df8bd-120">Otomatik malzeme listesi tüketimi alanında, 'Her zaman' seçin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="df8bd-121">Malzeme çekme listesini şimdi naklet kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="df8bd-122">Malzeme çekme listesini yazdır kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="df8bd-123">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-123">Click OK.</span></span>
+    * <span data-ttu-id="df8bd-124">Bu, üretim emri için kullanılan malzemeleri gösteren yazılı malzeme çekme listesidir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="df8bd-125">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a><span data-ttu-id="729c7-126">Malzeme çekme listesini doğrulayın</span><span class="sxs-lookup"><span data-stu-id="729c7-126">Validate the picking list</span></span>
-1. <span data-ttu-id="729c7-127">Eylem Bölmesinde, Görüntüle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-127">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="729c7-128">Malzeme çekme listesi'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-128">Click Picking list.</span></span>
-3. <span data-ttu-id="729c7-129">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="729c7-129">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="729c7-130">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-130">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="729c7-131">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-131">Click Edit.</span></span>
-6. <span data-ttu-id="729c7-132">Tüketim alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="729c7-132">In the Consumption field, enter a number.</span></span>
-7. <span data-ttu-id="729c7-133">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-133">Click Post.</span></span>
-8. <span data-ttu-id="729c7-134">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-134">Click OK.</span></span>
-    * <span data-ttu-id="729c7-135">Üretim emri tarafından tüketilen malzemeler, malzeme çekme listesi günlüğü defterine nakledilir.</span><span class="sxs-lookup"><span data-stu-id="729c7-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="729c7-136">Günlüğü deftere nakletmeden önce, tahmin edilen miktar ve gerçek tüketilen miktar arasında bir fark varsa gerekli ayarlamaları yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="729c7-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
-9. <span data-ttu-id="729c7-137">GridPanel sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-137">Click the GridPanel tab.</span></span>
-10. <span data-ttu-id="729c7-138">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-138">Close the page.</span></span>
+## <a name="validate-the-picking-list"></a><span data-ttu-id="df8bd-126">Malzeme çekme listesini doğrulayın</span><span class="sxs-lookup"><span data-stu-id="df8bd-126">Validate the picking list</span></span>
+1. <span data-ttu-id="df8bd-127">Eylem Bölmesinde, Görüntüle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="df8bd-128">Malzeme çekme listesi'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-128">Click Picking list.</span></span>
+3. <span data-ttu-id="df8bd-129">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="df8bd-130">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="df8bd-131">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-131">Click Edit.</span></span>
+6. <span data-ttu-id="df8bd-132">Tüketim alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="df8bd-133">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-133">Click Post.</span></span>
+8. <span data-ttu-id="df8bd-134">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-134">Click OK.</span></span>
+    * <span data-ttu-id="df8bd-135">Üretim emri tarafından tüketilen malzemeler, malzeme çekme listesi günlüğü defterine nakledilir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="df8bd-136">Günlüğü deftere nakletmeden önce, tahmin edilen miktar ve gerçek tüketilen miktar arasında bir fark varsa gerekli ayarlamaları yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="df8bd-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="df8bd-137">GridPanel sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="df8bd-138">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a><span data-ttu-id="729c7-139">Rota kartı günlüğünü doğrulayın</span><span class="sxs-lookup"><span data-stu-id="729c7-139">Verify the route card journal</span></span>
-1. <span data-ttu-id="729c7-140">Eylem Bölmesinde, Görüntüle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-140">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="729c7-141">Rota kartı'nı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="729c7-141">Click Route card.</span></span>
-3. <span data-ttu-id="729c7-142">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="729c7-142">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="729c7-143">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-143">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="729c7-144">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-144">Click Edit.</span></span>
-6. <span data-ttu-id="729c7-145">Saatler alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="729c7-145">In the Hours field, enter a number.</span></span>
-7. <span data-ttu-id="729c7-146">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-146">Click Post.</span></span>
-8. <span data-ttu-id="729c7-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="729c7-147">Click OK.</span></span>
-    * <span data-ttu-id="729c7-148">Tekil operasyonlar için harcanan zaman rota kartı günlüğünde kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="729c7-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="729c7-149">İyi ve hata miktarı da bildirilebilir.</span><span class="sxs-lookup"><span data-stu-id="729c7-149">Good and error quantity can also be reported.</span></span>  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="df8bd-139">Rota kartı günlüğünü doğrulayın</span><span class="sxs-lookup"><span data-stu-id="df8bd-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="df8bd-140">Eylem Bölmesinde, Görüntüle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="df8bd-141">Rota kartı'nı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-141">Click Route card.</span></span>
+3. <span data-ttu-id="df8bd-142">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="df8bd-143">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="df8bd-144">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-144">Click Edit.</span></span>
+6. <span data-ttu-id="df8bd-145">Saatler alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="df8bd-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="df8bd-146">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-146">Click Post.</span></span>
+8. <span data-ttu-id="df8bd-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="df8bd-147">Click OK.</span></span>
+    * <span data-ttu-id="df8bd-148">Tekil operasyonlar için harcanan zaman rota kartı günlüğünde kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="df8bd-149">İyi ve hata miktarı da bildirilebilir.</span><span class="sxs-lookup"><span data-stu-id="df8bd-149">Good and error quantity can also be reported.</span></span>  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
