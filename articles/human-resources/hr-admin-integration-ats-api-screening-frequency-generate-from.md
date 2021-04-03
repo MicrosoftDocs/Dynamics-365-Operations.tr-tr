@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f291e28584dadc465092d99a1354fda793ff7560
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 238cd5da750d815c904090cc9002e3d1a5d2bcc7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126158"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464586"
 ---
 # <a name="screening-frequency-generate-from"></a>Filtreleme sıklığı oluşturma kaynağı
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources için Filtreleme sıklığı oluşturma kaynağı seçenek kümesini açıklamaktadır.
 

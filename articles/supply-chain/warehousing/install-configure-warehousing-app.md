@@ -18,19 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 411a97427bbb16388e0f60b8ecb5dd3e5a79e87e
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142287"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486989"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu konuda, eski ambar uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Yeni Ambar Yönetimi mobil uygulamasını (şu anda genel önizleme modunda) yapılandırma hakkında bilgi arıyorsanız [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md) konusuna bakın.
+> Bu konuda, eski ambar uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Bu konu bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

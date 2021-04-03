@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104451"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592634"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalama eklentisini yapılandırma
 
@@ -64,7 +64,6 @@ Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama
 | Belçika        | Belçika elektronik faturası (BE)      | Satış faturaları ve proje faturaları |
 | Brezilya         | Brezilya NF-e (BR)                  | Mali belge modeli 55, düzeltme mektupları, iptaller ve atmalar |
 | Brezilya         | Brezilya NFS-e ABRASF Curitiba (BR) | Hizmet mali belgeleri |
-| Brezilya         | Brezilya NFS-e São Paulo (BR)       | Hizmet mali belgeleri |
 | Danimarka        | Danimarka elektronik faturası (DK)       | Satış faturaları ve proje faturaları |
 | Mısır          | Mısır elektronik faturası (EG) | Satış faturaları ve proje faturaları |
 | Estonya        | Estonya elektronik faturası (EE)     | Satış faturaları ve proje faturaları |
@@ -119,10 +118,6 @@ Aşağıdaki listelerde, elektronik faturalama özellikleri için kullanılabile
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Sorgusu Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Brezilya (BR) NFS-e: NFS-e São Paulo şehri
-
-- NFS-e Sao Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Danca (DK) elektronik fatura: Danimarka için satış ve proje faturaları
 

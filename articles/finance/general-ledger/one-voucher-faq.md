@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 916f0172a2d7f9fad9dcd70b31f8ecf65e47b2c8
-ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
+ms.openlocfilehash: a0cbc9e1f70bd41157e2ed70f78c8129671a6a04
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5107761"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234177"
 ---
 # <a name="one-voucher-faq"></a>Bir fişle ilgili SSS
 

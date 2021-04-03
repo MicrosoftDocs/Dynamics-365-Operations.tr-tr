@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d766515d82e021f41e0cc0a9a877f25551817ad5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017479"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250842"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeye genel bakış
 
@@ -43,7 +43,7 @@ Mali tümleştirme örneği tarafından desteklenmeyen diğer senaryoları deste
 
 Retail POS mali kayıt işleminde bir veya birden çok adımdan oluşur. Her adım belirli hareketlerin veya etkinliklerin bir mali cihaz veya serviste mali kaydını içerir. Aşağıdaki çözüm bileşenleri, bir Donanım istasyonuna bağlı olan bir mali cihazdaki mali kayıtta yer alır:
 
-- **Commerce Runtime (CRT) uzantısı** – Bu bileşen, hareket/etkinlik verisini mali cihaz ile etkileşimde de kullanılan biçimde serileştirir, mali cihazdan gelen yanıtları ayrıştırır ve yanıtları kanal veritabanına kaydeder. Uzantı, kaydedilmesi gereken belirli hareketleri ve etkinlikleri de tanımlar. Bu bileşen genellikle *mali belge sağlayıcısı* olarak adlandırılır.
+- **Commerce çalışma zamanı (CRT) uzantısı** – Bu bileşen, hareket/etkinlik verisini mali cihaz ile etkileşimde de kullanılan biçimde serileştirir, mali cihazdan gelen yanıtları ayrıştırır ve yanıtları kanal veritabanına kaydeder. Uzantı, kaydedilmesi gereken belirli hareketleri ve etkinlikleri de tanımlar. Bu bileşen genellikle *mali belge sağlayıcısı* olarak adlandırılır.
 - **Donanım istasyonu uzantısı** - Bu bileşen, mali cihaz ile iletişimi başlatır, talepleri ve doğrudan komutları mali cihaza, mali belgeden çıkartılan hareket/etkinlik verisine dayanarak gönderir ve mali cihazdan gelen yanıtları alır. Bu bileşen genellikle *mali bağlayıcı* olarak adlandırılır.
 
 Bir mali cihaz için mali tümleştirme örneği, bir mali belge sağlayıcısı ve bir mali bağlayıcı ile sırasıyla CRT ve Donanım istasyonlarının uzantılarını içerir. Ayrıca aşağıdaki yapılandırma bileşeni içerir:
