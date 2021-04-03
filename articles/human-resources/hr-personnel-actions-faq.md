@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115426"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467132"
 ---
 # <a name="personnel-actions-faq"></a>Personel eylemleriyle ilgili SSS
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır. Personel eylemleri gerektirebilen görevlere örnekler arasında yeni pozisyonlar oluşturduğunuz, mevcut pozisyon değerlerini düzenlediğiniz, yeni çalışanları işe aldığınız, çalışanları transfer ettiğiniz, çalışan ücretini değiştirdiğiniz, pozisyon atamalarını değiştirdiğiniz veya çalışanların işine son verdiğiniz durumları içerebilir.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114567"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466844"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -102,7 +104,7 @@ Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için, bkz. [
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/dynamics365/release-plans)</br>
-[Dynamics 365 Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
+[Dynamics 365 Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
 [Yazılım yaşam döngüsü ilkesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
 

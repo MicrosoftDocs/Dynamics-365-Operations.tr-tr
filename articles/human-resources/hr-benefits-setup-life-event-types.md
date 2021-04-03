@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114618"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466050"
 ---
 # <a name="configure-life-event-types"></a>Yaşam olayı türlerini yapılandırma
 
-Microsoft Dynamics 365 Human Resources, personel kazançları kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için yaşam olayı türleri kullanır. Örneğin, evliliğe veya çocuğa sahip olun. Her ömür olayı tür kimliği yalnızca bir ömür olay türüyle ilişkilendirilebilir. Örneğin, çalışan adres değişikliği ömür olay türü ile ilişkilendirilmiş adres değişikliği adlı bir ömür olayı kodu oluşturursanız, çalışan adresi değişikliğini etiketlenmiş başka bir kimlik oluşturamazsınız ve bunu çalışan adı olay türü olan çalışanın adres değişikliğiyle ilişkilendirebilirsiniz. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources çalışan kazançları kaydını güncelleştirmek için geçerli olduğu olayları tanımlamak için ömür olayı türleri kullanır. Örneğin, evliliğe veya çocuğa sahip olun. Her ömür olayı tür kimliği yalnızca bir ömür olay türüyle ilişkilendirilebilir. Örneğin, çalışan adres değişikliği ömür olay türü ile ilişkilendirilmiş adres değişikliği adlı bir ömür olayı kodu oluşturursanız, çalışan adresi değişikliğini etiketlenmiş başka bir kimlik oluşturamazsınız ve bunu çalışan adı olay türü olan çalışanın adres değişikliğiyle ilişkilendirebilirsiniz. 
 
 Ömür olayı türleri oluşturduktan sonra, onları plan türleriyle ilişkilendirmeniz gerekir. Daha fazla bilgi için, bkz. [Plan türleri oluşturma](hr-benefits-setup-plan-types.md).
 

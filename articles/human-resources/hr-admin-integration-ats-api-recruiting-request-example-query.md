@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42028b175d717bec01180dc9a6bc4cb7b289be05
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125942"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466002"
 ---
 # <a name="example-query-for-recruiting-request"></a>Işe alma isteği için sorgu örneği
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.
 

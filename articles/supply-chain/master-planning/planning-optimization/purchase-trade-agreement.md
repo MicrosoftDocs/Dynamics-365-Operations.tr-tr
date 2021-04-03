@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264734"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Satınalma ticari sözleşmeleri ile master planlama
 
@@ -73,12 +73,12 @@ Sisteminiz önceki bölümde anlatıldığı şekilde hazırlandıktan sonra, bu
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Nasıl En Iyi duruma getirme planlanmasına ilişkin örnekler satıcı ve sağlama sürelerini bulur
 
-Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anlaşmalarının çeşitli ayarlarının, sonuçta elde edilen planlı satınalma siparişi için bulunan değerleri nasıl etkilediğini gösteren örnekler içerir. En sağdaki iki sütundaki **kalın** değerler, planlama eniyileme ile seçilen değerlerdir. Diğer sütunlardaki **_kalın ve italik değerleri_**, her satır için sonuç değerlerini üreten ayarlardır.
+Aşağıdaki tablo, yayınlanmış bir ürün ve ilişkili satınalma ticari anlaşmalarının çeşitli ayarlarının, sonuçta elde edilen planlı satınalma siparişi için bulunan değerleri nasıl etkilediğini gösteren örnekler içerir. En sağdaki iki sütundaki **kalın** değerler, planlama eniyileme ile seçilen değerlerdir. Diğer sütunlardaki **_kalın ve italik_** değerler, her satır için sonuç değerlerini üreten ayarlardır.
 
 | Serbest bırakılan: Satıcı | Varsayılan sipariş ayarları: Sağlama süresi | Madde karşılama: satıcıyı geçersiz kıl | Madde karşılama: sağlama süresini geçersiz kıl | Ticari sözleşme: Satıcı | Ticari sözleşme: sağlama süresi | Ticari sözleşme: sağlama süresini göz ardı et | Sonuçta elde edilen satıcı | Sonuçta elde edilen sağlama süresi |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_US001_*_ | _*_1_*_ | No | No | US003 | 3 | No | **US001** | **1** |
-| US001 | 1 | **_Evet: US002_* _ | _*_Evet: 2_*_ | US003 | 3 | No | **US002** | **2** |
+| ***US001** _ | _*_1_*_ | No | No | US003 | 3 | No | **US001** | **1** |
+| US001 | 1 | ***Evet: US002** _ | _*_Evet: 2_*_ | US003 | 3 | No | **US002** | **2** |
 | *(Boş)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | **US003** | **3** |
 | *(Boş)* | ***1** _ | No | No | _*_US003_*_ | 3 | Evet | **US003** | **1** |
 | *(Boş)* | ***1** _ | _*_Evet: US002_*_ | No | US003 | 3 | No | **US002** | **1** |

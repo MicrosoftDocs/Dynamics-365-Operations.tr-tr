@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39c569bb4f3f532feb9e716309878617c136989b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: d8e5276958cd0d95918f57c82c2a242a3f745f6c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128221"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467421"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Yaralanma ve hastalık bilgilerini ayarla
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 

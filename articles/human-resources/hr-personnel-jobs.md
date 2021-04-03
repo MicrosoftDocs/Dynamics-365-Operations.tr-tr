@@ -18,14 +18,16 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22f147f85db1ef3423608578e64df7f522564e0d
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 0148518ca80832ecb7a26e28ec76c4b14bb1a194
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130193"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464874"
 ---
 # <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar. 
 

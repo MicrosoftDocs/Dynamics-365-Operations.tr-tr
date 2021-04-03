@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32981812eac3c08e1409fe5470b550e421f5d6c9
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: c4fe8f7afd4b77636ce77e58a2e75196fddae132
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114590"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466122"
 ---
 # <a name="configure-employee-self-service"></a>Personel self servisini yapılandırma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources'ta, kutucukları çalışan self serviste üst düzey gezinti için yapılandırabilirsiniz. Kazanç planı kutucukları kullanıcıları uygun oldukları kazanç planlarına yönlendirir.
 

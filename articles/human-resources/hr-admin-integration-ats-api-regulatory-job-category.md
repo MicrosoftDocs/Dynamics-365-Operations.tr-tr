@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b68103bafae4b963ba4ece3f288c6398b343edc
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 416df7d700a63a48bfe827d735ac68d9464246e5
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126134"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464610"
 ---
 # <a name="regulatory-job-category"></a>Mevzuat iş kategorisi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources için Mevzuat iş kategorisi seçenek kümesini açıklar.
 
