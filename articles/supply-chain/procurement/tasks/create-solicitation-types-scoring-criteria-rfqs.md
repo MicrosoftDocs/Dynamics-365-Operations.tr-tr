@@ -15,39 +15,42 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40625152a579bb269411d026d77d449902c8d4bc
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cf196711799b78d7f4106b6693127d7f356b1d4e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016818"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262225"
 ---
-# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="511f7-103">RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="511f7-103">Create solicitation types and scoring criteria for RFQs</span></span>
+# <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="cf28e-103">RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="cf28e-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="511f7-104">Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama yöntemi ile nasıl ilişkilendirileceği gösterilir.</span><span class="sxs-lookup"><span data-stu-id="511f7-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="511f7-105">Ayrıca, sonrasında varsayılan puanlama yöntemini ayarlamak üzere talep türünün resmi teklif talebinde (RFQ) nasıl kullanılacağı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="511f7-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="511f7-106">Bu görevler genellikle satınalma yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="511f7-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="511f7-107">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="511f7-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="511f7-108">Başlamadan önce kullanılabilir bir puanlama yöntemi gerekir.</span><span class="sxs-lookup"><span data-stu-id="511f7-108">You need to have a scoring method available before you start.</span></span>
+<span data-ttu-id="cf28e-104">Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama yöntemi ile nasıl ilişkilendirileceği gösterilir.</span><span class="sxs-lookup"><span data-stu-id="cf28e-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="cf28e-105">Ayrıca, sonrasında varsayılan puanlama yöntemini ayarlamak üzere talep türünün resmi teklif talebinde (RFQ) nasıl kullanılacağı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="cf28e-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="cf28e-106">Bu görevler genellikle satınalma yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="cf28e-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="cf28e-107">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cf28e-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="cf28e-108">Başlamadan önce kullanılabilir bir puanlama yöntemi gerekir.</span><span class="sxs-lookup"><span data-stu-id="cf28e-108">You need to have a scoring method available before you start.</span></span>
 
 
-## <a name="create-a-solicitation-type"></a><span data-ttu-id="511f7-109">Bir talep türü oluşturun.</span><span class="sxs-lookup"><span data-stu-id="511f7-109">Create a solicitation type</span></span>
-1. <span data-ttu-id="511f7-110">Tedarik ve kaynak atama > Ayarlar > Teklif talebi > Talep türü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="511f7-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
-2. <span data-ttu-id="511f7-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-111">Click New.</span></span>
-3. <span data-ttu-id="511f7-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="511f7-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="511f7-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="511f7-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="511f7-114">Puanlama yöntemi alanında, talep türü için kullanmak istediğiniz puanlama yöntemini seçin.</span><span class="sxs-lookup"><span data-stu-id="511f7-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
-6. <span data-ttu-id="511f7-115">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-115">Click Save.</span></span>
-7. <span data-ttu-id="511f7-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="511f7-116">Close the page.</span></span>
+## <a name="create-a-solicitation-type"></a><span data-ttu-id="cf28e-109">Bir talep türü oluşturun.</span><span class="sxs-lookup"><span data-stu-id="cf28e-109">Create a solicitation type</span></span>
+1. <span data-ttu-id="cf28e-110">Tedarik ve kaynak atama > Ayarlar > Teklif talebi > Talep türü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-110">Go to Procurement and sourcing > Setup > Request for quotation > Solicitation type.</span></span>
+2. <span data-ttu-id="cf28e-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-111">Click New.</span></span>
+3. <span data-ttu-id="cf28e-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="cf28e-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="cf28e-114">Puanlama yöntemi alanında, talep türü için kullanmak istediğiniz puanlama yöntemini seçin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-114">In the Scoring method field, select the scoring method that you want to use for this solicitation type.</span></span>
+6. <span data-ttu-id="cf28e-115">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-115">Click Save.</span></span>
+7. <span data-ttu-id="cf28e-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-116">Close the page.</span></span>
 
-## <a name="use-the-solicitation-type"></a><span data-ttu-id="511f7-117">Talep türünü kullanın</span><span class="sxs-lookup"><span data-stu-id="511f7-117">Use the solicitation type</span></span>
-1. <span data-ttu-id="511f7-118">Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="511f7-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
-2. <span data-ttu-id="511f7-119">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-119">Click New.</span></span>
-3. <span data-ttu-id="511f7-120">Talep türü alanında yeni oluşturduğunuz talep türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="511f7-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
+## <a name="use-the-solicitation-type"></a><span data-ttu-id="cf28e-117">Talep türünü kullanın</span><span class="sxs-lookup"><span data-stu-id="cf28e-117">Use the solicitation type</span></span>
+1. <span data-ttu-id="cf28e-118">Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-118">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="cf28e-119">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-119">Click New.</span></span>
+3. <span data-ttu-id="cf28e-120">Talep türü alanında yeni oluşturduğunuz talep türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-120">In the Solicitation type field, select the solicitation type that you have just created.</span></span> 
     *   
-4. <span data-ttu-id="511f7-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-121">Click OK.</span></span>
-5. <span data-ttu-id="511f7-122">Puanlama ölçütü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-122">Click Scoring criteria.</span></span>
-    * <span data-ttu-id="511f7-123">Gösterilen puanlama ölçütü, talep türüyle ilişkili puanlama yönteminden olanlardır.</span><span class="sxs-lookup"><span data-stu-id="511f7-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="511f7-124">Bu sayfadan ölçüt ekleyebilir veya silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="511f7-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="511f7-125">Diğer puanlama yöntemlerinden kopyalayarak yeni ölçüt eklemek de mümkündür.</span><span class="sxs-lookup"><span data-stu-id="511f7-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
-6. <span data-ttu-id="511f7-126">Ölçütü kopyala'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-126">Click Copy criteria.</span></span>
-7. <span data-ttu-id="511f7-127">Puanlama yöntemi alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="511f7-127">In the Scoring method field, enter or select a value.</span></span>
-8. <span data-ttu-id="511f7-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="511f7-128">Click OK.</span></span>
-9. <span data-ttu-id="511f7-129">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="511f7-129">Close the page.</span></span>
+4. <span data-ttu-id="cf28e-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-121">Click OK.</span></span>
+5. <span data-ttu-id="cf28e-122">Puanlama ölçütü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-122">Click Scoring criteria.</span></span>
+    * <span data-ttu-id="cf28e-123">Gösterilen puanlama ölçütü, talep türüyle ilişkili puanlama yönteminden olanlardır.</span><span class="sxs-lookup"><span data-stu-id="cf28e-123">The scoring criteria that are shown are the ones from the scoring method that you associated with the solicitation type.</span></span> <span data-ttu-id="cf28e-124">Bu sayfadan ölçüt ekleyebilir veya silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cf28e-124">You can choose to add or delete criteria on this page.</span></span> <span data-ttu-id="cf28e-125">Diğer puanlama yöntemlerinden kopyalayarak yeni ölçüt eklemek de mümkündür.</span><span class="sxs-lookup"><span data-stu-id="cf28e-125">It's also possible to add new criteria by copying them from other scoring methods.</span></span>  
+6. <span data-ttu-id="cf28e-126">Ölçütü kopyala'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-126">Click Copy criteria.</span></span>
+7. <span data-ttu-id="cf28e-127">Puanlama yöntemi alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="cf28e-127">In the Scoring method field, enter or select a value.</span></span>
+8. <span data-ttu-id="cf28e-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-128">Click OK.</span></span>
+9. <span data-ttu-id="cf28e-129">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="cf28e-129">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
