@@ -18,66 +18,71 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1907ca9cc578737341e52f89453e3d6ae3d0bec
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: c2c2020c68c4aca3594a2532d32f968ab76f6b7b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115064"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463322"
 ---
-# <a name="create-a-leave-request-workflow"></a><span data-ttu-id="18717-103">Bir izin isteğini iş akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="18717-103">Create a leave request workflow</span></span>
+# <a name="create-a-leave-request-workflow"></a><span data-ttu-id="90055-103">Bir izin isteğini iş akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="90055-103">Create a leave request workflow</span></span>
 
-<span data-ttu-id="18717-104">Dynamics 365 Human Resources'ta izin isteklerini sürekli olarak yönetmek Için bir izin ve devamsızlık isteği iş akışı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="18717-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your leave and absence requests.</span></span> <span data-ttu-id="18717-105">**İzin ve devamsızlık** iş akışı şunları yapmanızı sağlar:</span><span class="sxs-lookup"><span data-stu-id="18717-105">A **Leave and absence** workflow lets you:</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-- <span data-ttu-id="18717-106">Görevleri tanımla</span><span class="sxs-lookup"><span data-stu-id="18717-106">Define tasks</span></span>
-- <span data-ttu-id="18717-107">Görevleri kimin tamamlayagerektiğini belirleyin</span><span class="sxs-lookup"><span data-stu-id="18717-107">Determine who must complete the tasks</span></span>
-- <span data-ttu-id="18717-108">İstekleri kimlerin onaylayabilir veya reddedilebileceği belirtin</span><span class="sxs-lookup"><span data-stu-id="18717-108">Specify who can approve or reject requests</span></span>
+<span data-ttu-id="90055-104">Dynamics 365 Human Resources'ta izin isteklerini sürekli olarak yönetmek Için bir izin ve devamsızlık isteği iş akışı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="90055-104">You can create a workflow in Dynamics 365 Human Resources to consistently manage your leave and absence requests.</span></span> <span data-ttu-id="90055-105">**İzin ve devamsızlık** iş akışı şunları yapmanızı sağlar:</span><span class="sxs-lookup"><span data-stu-id="90055-105">A **Leave and absence** workflow lets you:</span></span>
 
-## <a name="create-a-leave-and-absence-request-workflow"></a><span data-ttu-id="18717-109">Bir izin ve devamsızlık isteğini iş akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="18717-109">Create a Leave and absence request workflow</span></span>
+- <span data-ttu-id="90055-106">Görevleri tanımla</span><span class="sxs-lookup"><span data-stu-id="90055-106">Define tasks</span></span>
+- <span data-ttu-id="90055-107">Görevleri kimin tamamlayagerektiğini belirleyin</span><span class="sxs-lookup"><span data-stu-id="90055-107">Determine who must complete the tasks</span></span>
+- <span data-ttu-id="90055-108">İstekleri kimlerin onaylayabilir veya reddedilebileceği belirtin</span><span class="sxs-lookup"><span data-stu-id="90055-108">Specify who can approve or reject requests</span></span>
 
-1. <span data-ttu-id="18717-110">**İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="18717-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
+## <a name="create-a-leave-and-absence-request-workflow"></a><span data-ttu-id="90055-109">Bir izin ve devamsızlık isteğini iş akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="90055-109">Create a Leave and absence request workflow</span></span>
 
-2. <span data-ttu-id="18717-111">**Kurulum**'un altında, **İnsan kaynakları iş akışlarını** seçin.</span><span class="sxs-lookup"><span data-stu-id="18717-111">Under **Setup**, select **Human resource workflows**.</span></span>
+1. <span data-ttu-id="90055-110">**İzin ve devamsızlık** sayfasında, **Bağlantılar** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="90055-110">On the **Leave and absence** page, select the **Links** tab.</span></span>
 
-3. <span data-ttu-id="18717-112">**Yeni**'ı seçin ve sonra **İzin ve devamsızlık isteği**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="18717-112">Select **New**, and then select **Leave and absence request**.</span></span> 
+2. <span data-ttu-id="90055-111">**Kurulum**'un altında, **İnsan kaynakları iş akışlarını** seçin.</span><span class="sxs-lookup"><span data-stu-id="90055-111">Under **Setup**, select **Human resource workflows**.</span></span>
 
-4. <span data-ttu-id="18717-113">**Bu dosya açılsın mı?** ileti kutusu görüntülenirse, **aç**'ı seçin ve şirket kimlik bilgilerinizle oturum açın.</span><span class="sxs-lookup"><span data-stu-id="18717-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
+3. <span data-ttu-id="90055-112">**Yeni**'ı seçin ve sonra **İzin ve devamsızlık isteği**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="90055-112">Select **New**, and then select **Leave and absence request**.</span></span> 
 
-5. <span data-ttu-id="18717-114">İzin talepleriniz için iş akışı oluşturmak üzere iş akışı düzenleyicisini kullanın.</span><span class="sxs-lookup"><span data-stu-id="18717-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="18717-115">İş akışlarıyla çalışma hakkında daha fazla bilgi için bkz. [İş akışları genel bakışı oluştur](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="18717-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
+4. <span data-ttu-id="90055-113">**Bu dosya açılsın mı?** ileti kutusu görüntülenirse, **aç**'ı seçin ve şirket kimlik bilgilerinizle oturum açın.</span><span class="sxs-lookup"><span data-stu-id="90055-113">When the **Open this file?** message box appears, select **Open** and sign in with your company credentials.</span></span>
 
-## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="18717-116">Bir izin ve devamsızlık isteği iş akışı veri öğeleri</span><span class="sxs-lookup"><span data-stu-id="18717-116">Leave and absence request workflow data elements</span></span>
+5. <span data-ttu-id="90055-114">İzin talepleriniz için iş akışı oluşturmak üzere iş akışı düzenleyicisini kullanın.</span><span class="sxs-lookup"><span data-stu-id="90055-114">Use the workflow editor to create a workflow for your leave requests.</span></span> <span data-ttu-id="90055-115">İş akışlarıyla çalışma hakkında daha fazla bilgi için bkz. [İş akışları genel bakışı oluştur](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span><span class="sxs-lookup"><span data-stu-id="90055-115">For more information about working with workflows, see [Create workflows overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)</span></span>
 
-<span data-ttu-id="18717-117">İzin ve devamsızlık istekleri iş akışlarında koşullu veya otomatik onaylar oluşturmak için aşağıdaki veri öğelerini kullanabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="18717-117">You can use the following data elements to create conditional or automatic approvals in workflows for leave and absence requests:</span></span>
+## <a name="leave-and-absence-request-workflow-data-elements"></a><span data-ttu-id="90055-116">Bir izin ve devamsızlık isteği iş akışı veri öğeleri</span><span class="sxs-lookup"><span data-stu-id="90055-116">Leave and absence request workflow data elements</span></span>
 
-- <span data-ttu-id="18717-118">**Tutar**</span><span class="sxs-lookup"><span data-stu-id="18717-118">**Amount**</span></span>
-- <span data-ttu-id="18717-119">**Açıklama**</span><span class="sxs-lookup"><span data-stu-id="18717-119">**Comment**</span></span>
-- <span data-ttu-id="18717-120">**Şirket**</span><span class="sxs-lookup"><span data-stu-id="18717-120">**Company**</span></span>
-- <span data-ttu-id="18717-121">**Oluşturan**</span><span class="sxs-lookup"><span data-stu-id="18717-121">**Created by**</span></span>
-- <span data-ttu-id="18717-122">**Oluşturma tarihi ve saati**</span><span class="sxs-lookup"><span data-stu-id="18717-122">**Created date and time**</span></span>
-- <span data-ttu-id="18717-123">**Bitiş tarihi**</span><span class="sxs-lookup"><span data-stu-id="18717-123">**End date**</span></span>
-- <span data-ttu-id="18717-124">**İzin türü**</span><span class="sxs-lookup"><span data-stu-id="18717-124">**Leave type**</span></span>
-- <span data-ttu-id="18717-125">**Değiştiren**</span><span class="sxs-lookup"><span data-stu-id="18717-125">**Modified by**</span></span>
-- <span data-ttu-id="18717-126">**Değiştirilme tarihi ve saati**</span><span class="sxs-lookup"><span data-stu-id="18717-126">**Modified date and time**</span></span>
-- <span data-ttu-id="18717-127">**Neden kodu**</span><span class="sxs-lookup"><span data-stu-id="18717-127">**Reason code**</span></span>
-- <span data-ttu-id="18717-128">**İstek kodu**</span><span class="sxs-lookup"><span data-stu-id="18717-128">**Request ID**</span></span>
-- <span data-ttu-id="18717-129">**Başlangıç tarihi**</span><span class="sxs-lookup"><span data-stu-id="18717-129">**Start date**</span></span>
-- <span data-ttu-id="18717-130">**Durum**</span><span class="sxs-lookup"><span data-stu-id="18717-130">**Status**</span></span> 
-- <span data-ttu-id="18717-131">**Gönderme tarihi**</span><span class="sxs-lookup"><span data-stu-id="18717-131">**Submission date**</span></span>
-- <span data-ttu-id="18717-132">**Gönderen:**</span><span class="sxs-lookup"><span data-stu-id="18717-132">**Submitted by**</span></span>
-- <span data-ttu-id="18717-133">**İnsan kaynakları tarafından gönderildi**</span><span class="sxs-lookup"><span data-stu-id="18717-133">**Submitted by Human resources**</span></span>
-- <span data-ttu-id="18717-134">**Yönetici tarafından gönderildi**</span><span class="sxs-lookup"><span data-stu-id="18717-134">**Submitted by Manager**</span></span>
-- <span data-ttu-id="18717-135">**Adına gönderildi**</span><span class="sxs-lookup"><span data-stu-id="18717-135">**Submitted on behalf**</span></span>
-- <span data-ttu-id="18717-136">**Çalışan**</span><span class="sxs-lookup"><span data-stu-id="18717-136">**Worker**</span></span>
-- <span data-ttu-id="18717-137">**Çalışan türü**</span><span class="sxs-lookup"><span data-stu-id="18717-137">**Worker type**</span></span>
+<span data-ttu-id="90055-117">İzin ve devamsızlık istekleri iş akışlarında koşullu veya otomatik onaylar oluşturmak için aşağıdaki veri öğelerini kullanabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="90055-117">You can use the following data elements to create conditional or automatic approvals in workflows for leave and absence requests:</span></span>
 
-<span data-ttu-id="18717-138">Bu örnekler, şu veri öğelerini kullanarak nasıl farklı iş akışı koşulları oluşturabileceğinizi göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="18717-138">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
+- <span data-ttu-id="90055-118">**Tutar**</span><span class="sxs-lookup"><span data-stu-id="90055-118">**Amount**</span></span>
+- <span data-ttu-id="90055-119">**Açıklama**</span><span class="sxs-lookup"><span data-stu-id="90055-119">**Comment**</span></span>
+- <span data-ttu-id="90055-120">**Şirket**</span><span class="sxs-lookup"><span data-stu-id="90055-120">**Company**</span></span>
+- <span data-ttu-id="90055-121">**Oluşturan**</span><span class="sxs-lookup"><span data-stu-id="90055-121">**Created by**</span></span>
+- <span data-ttu-id="90055-122">**Oluşturma tarihi ve saati**</span><span class="sxs-lookup"><span data-stu-id="90055-122">**Created date and time**</span></span>
+- <span data-ttu-id="90055-123">**Bitiş tarihi**</span><span class="sxs-lookup"><span data-stu-id="90055-123">**End date**</span></span>
+- <span data-ttu-id="90055-124">**İzin türü**</span><span class="sxs-lookup"><span data-stu-id="90055-124">**Leave type**</span></span>
+- <span data-ttu-id="90055-125">**Değiştiren**</span><span class="sxs-lookup"><span data-stu-id="90055-125">**Modified by**</span></span>
+- <span data-ttu-id="90055-126">**Değiştirilme tarihi ve saati**</span><span class="sxs-lookup"><span data-stu-id="90055-126">**Modified date and time**</span></span>
+- <span data-ttu-id="90055-127">**Neden kodu**</span><span class="sxs-lookup"><span data-stu-id="90055-127">**Reason code**</span></span>
+- <span data-ttu-id="90055-128">**İstek kodu**</span><span class="sxs-lookup"><span data-stu-id="90055-128">**Request ID**</span></span>
+- <span data-ttu-id="90055-129">**Başlangıç tarihi**</span><span class="sxs-lookup"><span data-stu-id="90055-129">**Start date**</span></span>
+- <span data-ttu-id="90055-130">**Durum**</span><span class="sxs-lookup"><span data-stu-id="90055-130">**Status**</span></span> 
+- <span data-ttu-id="90055-131">**Gönderme tarihi**</span><span class="sxs-lookup"><span data-stu-id="90055-131">**Submission date**</span></span>
+- <span data-ttu-id="90055-132">**Gönderen:**</span><span class="sxs-lookup"><span data-stu-id="90055-132">**Submitted by**</span></span>
+- <span data-ttu-id="90055-133">**İnsan kaynakları tarafından gönderildi**</span><span class="sxs-lookup"><span data-stu-id="90055-133">**Submitted by Human resources**</span></span>
+- <span data-ttu-id="90055-134">**Yönetici tarafından gönderildi**</span><span class="sxs-lookup"><span data-stu-id="90055-134">**Submitted by Manager**</span></span>
+- <span data-ttu-id="90055-135">**Adına gönderildi**</span><span class="sxs-lookup"><span data-stu-id="90055-135">**Submitted on behalf**</span></span>
+- <span data-ttu-id="90055-136">**Çalışan**</span><span class="sxs-lookup"><span data-stu-id="90055-136">**Worker**</span></span>
+- <span data-ttu-id="90055-137">**Çalışan türü**</span><span class="sxs-lookup"><span data-stu-id="90055-137">**Worker type**</span></span>
 
-- <span data-ttu-id="18717-139">Hastalık izni isteklerini onay için İK'ya **Cerrahi** neden koduyla yönlendirmek için **Neden kodu**'nu koşullu ifadede kullanın ve diğer tüm neden kodlarını yöneticiye yönlendirin.</span><span class="sxs-lookup"><span data-stu-id="18717-139">Use **Reason code** in a conditional statement to route sick leave requests with the reason code **Surgery** to HR for approval, while routing all other reason codes to the manager.</span></span> <span data-ttu-id="18717-140">Koşullu ifadeler hakkında daha fazla bilgi için, bkz. [İş akışında koşullu kararları yapılandırma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span><span class="sxs-lookup"><span data-stu-id="18717-140">For more information about conditional statements, see [Configure conditional decisions in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span></span> 
+<span data-ttu-id="90055-138">Bu örnekler, şu veri öğelerini kullanarak nasıl farklı iş akışı koşulları oluşturabileceğinizi göstermektedir:</span><span class="sxs-lookup"><span data-stu-id="90055-138">These examples show how you can create different types of workflow conditions by using these data elements:</span></span>
 
-- <span data-ttu-id="18717-141">Bu rollerin personel adına gönderdiği izin isteklerini otomatik olarak onaylamak için otomatik eylemdeki **İnsan kaynakları tarafından gönderildi** ve **Yönetici tarafından gönderildi** seçeneğini kullanın.</span><span class="sxs-lookup"><span data-stu-id="18717-141">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="18717-142">Otomatik eylemler hakkında daha fazla bilgi için bkz. [İş akışında onay süreçlerini yapılandırma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span><span class="sxs-lookup"><span data-stu-id="18717-142">For more information about automatic actions, see [Configure approval processes in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span></span>
+- <span data-ttu-id="90055-139">Hastalık izni isteklerini onay için İK'ya **Cerrahi** neden koduyla yönlendirmek için **Neden kodu**'nu koşullu ifadede kullanın ve diğer tüm neden kodlarını yöneticiye yönlendirin.</span><span class="sxs-lookup"><span data-stu-id="90055-139">Use **Reason code** in a conditional statement to route sick leave requests with the reason code **Surgery** to HR for approval, while routing all other reason codes to the manager.</span></span> <span data-ttu-id="90055-140">Koşullu ifadeler hakkında daha fazla bilgi için, bkz. [İş akışında koşullu kararları yapılandırma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span><span class="sxs-lookup"><span data-stu-id="90055-140">For more information about conditional statements, see [Configure conditional decisions in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow).</span></span> 
 
-- <span data-ttu-id="18717-143">İş akışının belirli izin türlerine sahip istekleri nasıl yönlendireceğini kontrol etmek için koşullu deyimde veya otomatik eylemde **İzin türü** kullanın.</span><span class="sxs-lookup"><span data-stu-id="18717-143">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
+- <span data-ttu-id="90055-141">Bu rollerin personel adına gönderdiği izin isteklerini otomatik olarak onaylamak için otomatik eylemdeki **İnsan kaynakları tarafından gönderildi** ve **Yönetici tarafından gönderildi** seçeneğini kullanın.</span><span class="sxs-lookup"><span data-stu-id="90055-141">Use **Submitted by Human resources** and **Submitted by manager** in an automatic action to automatically approve leave requests that these roles submit on behalf of employees.</span></span> <span data-ttu-id="90055-142">Otomatik eylemler hakkında daha fazla bilgi için bkz. [İş akışında onay süreçlerini yapılandırma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span><span class="sxs-lookup"><span data-stu-id="90055-142">For more information about automatic actions, see [Configure approval processes in a workflow](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="18717-144">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="18717-144">See also</span></span>
+- <span data-ttu-id="90055-143">İş akışının belirli izin türlerine sahip istekleri nasıl yönlendireceğini kontrol etmek için koşullu deyimde veya otomatik eylemde **İzin türü** kullanın.</span><span class="sxs-lookup"><span data-stu-id="90055-143">Use **Leave type** in a conditional statement or automatic action to control how the workflow routes requests with certain leave types.</span></span>
 
-- [<span data-ttu-id="18717-145">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="18717-145">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+## <a name="see-also"></a><span data-ttu-id="90055-144">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="90055-144">See also</span></span>
+
+- [<span data-ttu-id="90055-145">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="90055-145">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
