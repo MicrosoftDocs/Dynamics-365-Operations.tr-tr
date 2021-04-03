@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141916"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579984"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Supply Chain Management ve Field Service arasında tedariki tümleştirme
 
@@ -47,8 +46,8 @@ Supply Chain Management'ı Field Service ile tümleştirmek için aşağıdaki b
 
 ### <a name="prerequisites"></a>Önkoşullar
 
-+ **Çift yazma**: Daha fazla bilgi için bkz. [Çift yazma giriş sayfası](dual-write-home-page.md#dual-write-setup).
-+ **Dynamics 365 Field Service**: Daha fazla bilgi için bkz. [Dynamics 365 Field Service yükleme](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Çift yazma**: Daha fazla bilgi için bkz. [Çift yazma giriş sayfası](dual-write-home-page.md#dual-write-setup).
+- **Dynamics 365 Field Service**: Daha fazla bilgi için bkz. [Dynamics 365 Field Service yükleme](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Microsoft Dataverse'te etkinleştirildiklerinde, çift yazma ve Field Service ortamı yeni meta veriler, formlar, görünümler ve mantık ile geliştiren birçok çözüm katmanı sunar. Bu çözümler genellikle burada verilen sırayla yüklense de herhangi bir sırada etkinleştirilebilir:
 
@@ -57,8 +56,8 @@ Microsoft Dataverse'te etkinleştirildiklerinde, çift yazma ve Field Service or
 3. **Supply Chain Management Extended**: Çift yazma ortamda etkinleştirildiğinde Supply Chain Management Extended otomatik olarak yüklenir. 
 4. **OneFSSCM çözümü**: Field Service veya Supply Chain Management çözümlerinden biri yüklendiğinde OneFSSCM otomatik olarak yüklenir.
 
-    + Field Service ortamda zaten yüklüyse ve Supply Chain Management Extended'ı yükleyen çift yazma işlevini etkinleştirdiyseniz OneFSSCM yüklüdür.
-    + Supply Chain Management Extended ortamda zaten yüklüyse ve Field Service'ı yüklerseniz OneFSSCM yüklüdür.
+    - Field Service ortamda zaten yüklüyse ve Supply Chain Management Extended'ı yükleyen çift yazma işlevini etkinleştirdiyseniz OneFSSCM yüklüdür.
+    - Supply Chain Management Extended ortamda zaten yüklüyse ve Field Service'ı yüklerseniz OneFSSCM yüklüdür.
 
 ## <a name="initial-synchronization"></a>Başlangıç eşitlemesi
 
@@ -124,22 +123,22 @@ Ek olarak, Dataverse, satıcıları ilgili hesaplarıyla eşleyen bir mantık i�
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 
-+ Satınalma siparişleri Dataverse kullanıcıları tarafından oluşturulabilir ve güncelleştirilebilir. Ancak, işlem ve veriler Supply Chain Management tarafından kontrol edilir. Supply Chain Management'daki satınalma siparişi sütunlarına güncelleştirmelerle ilgili sınırlamalar, güncelleştirmeler Field Service'tan geldiğinde geçerlidir. Örneğin, sonlandırılmış bir satınalma siparişini güncelleştiremezsiniz. 
-+ Satınalma Supply Chain Management'taki değişiklik yönetimi tarafından denetleniyorsa, bir Field Service kullanıcısı satınalma siparişini yalnızca Supply Chain Management onay durumu *Taslak* olarak ayarlandığında güncelleştirebilir.
-+ Birçok sütun yalnızca Supply Chain Management tarafından yönetilir ve Field Service'ta güncelleştirilemez. Hangi sütunların güncelleştirilemeyeceğini öğrenmek için üründeki eşleme tablolarını inceleyin. Kolaylık olması için, bu sütunların çoğu Dataverse sayfalarında salt okunur olarak ayarlanmıştır. 
+- Satınalma siparişleri Dataverse kullanıcıları tarafından oluşturulabilir ve güncelleştirilebilir. Ancak, işlem ve veriler Supply Chain Management tarafından kontrol edilir. Supply Chain Management'daki satınalma siparişi sütunlarına güncelleştirmelerle ilgili sınırlamalar, güncelleştirmeler Field Service'tan geldiğinde geçerlidir. Örneğin, sonlandırılmış bir satınalma siparişini güncelleştiremezsiniz. 
+- Satınalma Supply Chain Management'taki değişiklik yönetimi tarafından denetleniyorsa, bir Field Service kullanıcısı satınalma siparişini yalnızca Supply Chain Management onay durumu *Taslak* olarak ayarlandığında güncelleştirebilir.
+- Birçok sütun yalnızca Supply Chain Management tarafından yönetilir ve Field Service'ta güncelleştirilemez. Hangi sütunların güncelleştirilemeyeceğini öğrenmek için üründeki eşleme tablolarını inceleyin. Kolaylık olması için, bu sütunların çoğu Dataverse sayfalarında salt okunur olarak ayarlanmıştır. 
 
     Örneğin, fiyat bilgilerinin sütunları Supply Chain Management tarafından yönetilir. Supply Chain Management, Field Service'ın yararlanabileceği ticari anlaşmalara sahiptir. **Birim fiyat**, **İskonto** ve **Net tutar** gibi sütunlar yalnızca Supply Chain Management'tan gelir. Fiyatın Field Service ile eşitlendiğinden emin olmak için satınalma siparişi verileri girildiğinde Dataverse'te **Satınalma Siparişi** ve **Satınalma Siparişi Ürünü** sayfalarında **Eşitle** özelliğini kullanmanız gerekir. Daha fazla bilgi için bkz. [İstek üzerine Dynamics 365 Supply Chain Management tedarik verileriyle eşitleme](#sync-procurement).
 
-+ **Toplamlar** sütunu, yalnızca Field Service'ta kullanılabilir, çünkü Supply Chain Management'ta satınalma siparişinin güncel toplamı yoktur. Supply Chain Management'taki toplamlar, Field Service'ta kullanılamayan birden çok parametre temel alınarak hesaplanır.
-+ Yalnızca bir tedarik kategorisinin belirtildiği veya belirtilen ürünün *Hizmet* ürün türü veya Field Service ürün türünde bir madde olduğu satınalma siparişi satırları, yalnızca Supply Chain Management'ta başlatılabilir. Daha sonra satırlar Dataverse ile eşitlenir ve Field Service'ta görünür olur.
-+ Yalnızca Field Service yüklüyse ve Supply Chain Management yüklü değilse **Ambar** sütunu satınalma siparişinde zorunludur. Ancak, Supply Chain Management yüklüyse, bu gereklilik daha esnek olur. Bunun nedeni, Supply Chain Management'ın belirli durumlarda ambarın belirtilmediği satınalma siparişi satırlarına izin vermesidir.
-+ Ürün girişleri (Dataverse'te satınalma siparişi girişleri) Supply Chain Management tarafından yönetilir ve Supply Chain Management yüklüyse Dataverse'ten oluşturulamaz. Supply Chain Management'tan alınan ürün girişleri, Supply Chain Management'tan Dataverse'e eşitlenir.
-+ Supply Chain Management'ta eksik teslimata izin verilir. OneFSSCM çözümü mantık ekler. Böylece ürün girişi satırı (veya Dataverse'te satınalma siparişi girişi ürünü) oluşturulduğunda veya güncelleştirildiğinde, eksik teslimat senaryoları için siparişte kalan miktarı dengelemek üzere Dataverse'te stok günlüüğü satırı oluşturulur.
+- **Toplamlar** sütunu, yalnızca Field Service'ta kullanılabilir, çünkü Supply Chain Management'ta satınalma siparişinin güncel toplamı yoktur. Supply Chain Management'taki toplamlar, Field Service'ta kullanılamayan birden çok parametre temel alınarak hesaplanır.
+- Yalnızca bir tedarik kategorisinin belirtildiği veya belirtilen ürünün *Hizmet* ürün türü veya Field Service ürün türünde bir madde olduğu satınalma siparişi satırları, yalnızca Supply Chain Management'ta başlatılabilir. Daha sonra satırlar Dataverse ile eşitlenir ve Field Service'ta görünür olur.
+- Yalnızca Field Service yüklüyse ve Supply Chain Management yüklü değilse **Ambar** sütunu satınalma siparişinde zorunludur. Ancak, Supply Chain Management yüklüyse, bu gereklilik daha esnek olur. Bunun nedeni, Supply Chain Management'ın belirli durumlarda ambarın belirtilmediği satınalma siparişi satırlarına izin vermesidir.
+- Ürün girişleri (Dataverse'te satınalma siparişi girişleri) Supply Chain Management tarafından yönetilir ve Supply Chain Management yüklüyse Dataverse'ten oluşturulamaz. Supply Chain Management'tan alınan ürün girişleri, Supply Chain Management'tan Dataverse'e eşitlenir.
+- Supply Chain Management'ta eksik teslimata izin verilir. OneFSSCM çözümü mantık ekler. Böylece ürün girişi satırı (veya Dataverse'te satınalma siparişi girişi ürünü) oluşturulduğunda veya güncelleştirildiğinde, eksik teslimat senaryoları için siparişte kalan miktarı dengelemek üzere Dataverse'te stok günlüüğü satırı oluşturulur.
 
 ## <a name="unsupported-scenarios"></a>Desteklenmeyen senaryolar
 
-+ Field Service, Supply Chain Management'ta iptal edilen bir satınalma siparişine satır eklenmesini engeller. Geçici bir çözüm olarak, Field Service'ta satınalma siparişinin sistem durumunu değiştirebilir ve ardından yeni satırı Field Service'a veya Supply Chain Management'a ekleyebilirsiniz.
-+ Tedarik satırları stok düzeylerini her iki sistemde de stok düzeylerini etkilese de bu tümleştirme, Supply Chain Management ve Field Service arasında stok uyumlulaştırmasını sağlamaz. Hem Field Service hem de Supply Chain Management, stok düzeylerini güncelleştiren başka işlemlere sahiptir. Bu işlemler tedarik kapsamı dışındadır.
+- Field Service, Supply Chain Management'ta iptal edilen bir satınalma siparişine satır eklenmesini engeller. Geçici bir çözüm olarak, Field Service'ta satınalma siparişinin sistem durumunu değiştirebilir ve ardından yeni satırı Field Service'a veya Supply Chain Management'a ekleyebilirsiniz.
+- Tedarik satırları stok düzeylerini her iki sistemde de stok düzeylerini etkilese de bu tümleştirme, Supply Chain Management ve Field Service arasında stok uyumlulaştırmasını sağlamaz. Hem Field Service hem de Supply Chain Management, stok düzeylerini güncelleştiren başka işlemlere sahiptir. Bu işlemler tedarik kapsamı dışındadır.
 
 ## <a name="status-management"></a>Durum yönetimi
 
@@ -161,13 +160,13 @@ Satır onay durumları yalnızca bir satır iş akışı olduğunda etkindir.
 
 Durum sütunlarına aşağıdaki kurallar uygulanır:
 
-+ Supply Chain Management'taki durum, Field Service'tan güncelleştirilemez. Ancak, bazı durumlarda, satınalma siparişi durumu Supply Chain Management'ta değiştiğinde Field Service'taki durum güncelleştirilecektir.
-+ Supply Chain Management'taki bir satınalma siparişi değişiklik yönetimindeyse ve bir değişiklik işleniyorsa onay durumu *Taslak* veya *İncelemede* olur. Bu durumda, Field Service onay durumu *Null* olarak ayarlanır.
-+ Supply Chain Management'ta satınalma sipariş onay durumu *Onaylandı*, *Harici incelemede*, *Teyit edildi* veya *Sonlandırıldı* olarak ayarlandıysa Field Service satınalma siparişi onay durumu *Onaylandı* olarak ayarlanır.
-+ Supply Chain Management'ta satınalma sipariş onay durumu *Reddedildi* olarak ayarlandıysa, Field Service satınalma siparişi onay durumu *Reddedildi* olarak ayarlanır.
-+ Supply Chain Management'taki belge başlığı durumu *Açık sipariş (Karşılanamayan sipariş)* olarak değiştirilirse ve Field Service satınalma siparişi durumu *Taslak* veya *İptal Edildi* ise Field Service satınalma siparişi durumu *Gönderildi* olarak değişir.
-+ Supply Chain Management'ta belge başlığı durumu *İptal edildi* olarak değiştirilirse ve Field Service'ta hiçbir satınalma siparişi girişi ürünü satınalma siparişiyle (satınalma siparişi ürünleri yoluyla) ilişkilendirilmediyse, Field Service sistem durumu *İptal edildi* olarak ayarlanır.
-+ Supply Chain Management'ta satınalma siparişi satırı durumu *İptal edildi* olarak ayarlandıysa Field Service'taki satınalma siparişi ürünü durumu *İptal edildi* olarak ayarlanır. Ayrıca, Supply Chain Management'ta satınalma siparişi durumu *İptal Edildi* yerine *Karşılanamayan Sipariş* olarak değiştirilirse Field Service'taki satınalma siparişi madde durumu *Beklemede* olarak ayarlanır.
+- Supply Chain Management'taki durum, Field Service'tan güncelleştirilemez. Ancak, bazı durumlarda, satınalma siparişi durumu Supply Chain Management'ta değiştiğinde Field Service'taki durum güncelleştirilecektir.
+- Supply Chain Management'taki bir satınalma siparişi değişiklik yönetimindeyse ve bir değişiklik işleniyorsa onay durumu *Taslak* veya *İncelemede* olur. Bu durumda, Field Service onay durumu *Null* olarak ayarlanır.
+- Supply Chain Management'ta satınalma sipariş onay durumu *Onaylandı*, *Harici incelemede*, *Teyit edildi* veya *Sonlandırıldı* olarak ayarlandıysa Field Service satınalma siparişi onay durumu *Onaylandı* olarak ayarlanır.
+- Supply Chain Management'ta satınalma sipariş onay durumu *Reddedildi* olarak ayarlandıysa, Field Service satınalma siparişi onay durumu *Reddedildi* olarak ayarlanır.
+- Supply Chain Management'taki belge başlığı durumu *Açık sipariş (Karşılanamayan sipariş)* olarak değiştirilirse ve Field Service satınalma siparişi durumu *Taslak* veya *İptal Edildi* ise Field Service satınalma siparişi durumu *Gönderildi* olarak değişir.
+- Supply Chain Management'ta belge başlığı durumu *İptal edildi* olarak değiştirilirse ve Field Service'ta hiçbir satınalma siparişi girişi ürünü satınalma siparişiyle (satınalma siparişi ürünleri yoluyla) ilişkilendirilmediyse, Field Service sistem durumu *İptal edildi* olarak ayarlanır.
+- Supply Chain Management'ta satınalma siparişi satırı durumu *İptal edildi* olarak ayarlandıysa Field Service'taki satınalma siparişi ürünü durumu *İptal edildi* olarak ayarlanır. Ayrıca, Supply Chain Management'ta satınalma siparişi durumu *İptal Edildi* yerine *Karşılanamayan Sipariş* olarak değiştirilirse Field Service'taki satınalma siparişi madde durumu *Beklemede* olarak ayarlanır.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Supply Chain Management tedarik verileriyle istek üzerine eşitleme
 

@@ -3,10 +3,9 @@ title: Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılm�
 description: Bu konuda, kaldırılmış olan veya Dynamics 365 for Finance and Operations'dan kaldırılması planlanan özellikler açıklanmaktadır.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154397"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559342"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -39,7 +38,7 @@ Bu konu, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sü
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
 
@@ -375,11 +374,11 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI içerik paketleri AppSource'de kullanılabilir
-[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, Microsoft Power BI'daki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'daki ürün güncelleştirmeleri. |
 | **Başka bir özellikle mi değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Retail Channel Performance** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
@@ -919,7 +918,7 @@ Bu mobil uygulama kullanıcıların anahtar iş ölçümlerini gözden geçirmel
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir.   |
-| **Başka bir özellik ile değiştirildi?**   | Microsoft Power BI için Finansal performans içeriği izleme paketi, daha önce Business Analyzer'da bulunan önemli mali ölçümleri içerecektir. |
+| **Başka bir özellikle mi değiştirildi?**   | Microsoft Power BI için Finansal performans içeriği izleme paketi, daha önce Business Analyzer'da bulunan önemli mali ölçümleri içerecektir. |
 | **Etkilenen ürün alanları**         | Genel muhasebe      |
 | **Durum**                         | Kullanımı sonlandırıldı: İş Çözümleyicisi kullanımı sonlandırıldı.    |
 

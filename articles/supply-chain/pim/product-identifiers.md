@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1e771d6cbad3faf99f88782d424273f0d8ac98b4
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011383"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574209"
 ---
 # <a name="product-identifiers"></a>Ürün tanımlayıcıları
 
@@ -74,7 +74,7 @@ Bir arama adı bir müşteri ve satıcı ürünü kodunu veya harici kodun ürü
 
 Serbest bırakılan ürünler için müşteri veya satıcının kullandığı madde numaralarını, madde adlarını ve madde açıklamalarını kullanabilirsiniz. Referanslar satış siparişleri, satınalma siparişleri, sevk irsaliyeleri ve faturalar gibi harici belgelerde gösterilir. Supply Chain Management'ın güncel sürümünde harici referanslar, temel işlem sayfalarında gösterilmez. Tek özel durum satıcı madde numarasıdır. Bu numara, serbest bırakılan ürün için varsayılan bir satıcı tanımlanmış olması durumunda **Ürün bilgisi** iletişim kutusunda gösterilir.
 
-Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakılan ürün çeşidi, müşteri veya müşteri grubu veya satıcı veya satıcı grubuna göre sağlayabilirsiniz.
+Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakılan ürün çeşidi, müşteri, müşteri grubu, satıcı veya satıcı grubuna göre sağlayabilirsiniz.
 
 **Serbest bırakılan ürünler** sayfasında, aşağıdaki adımlardan birini izleyin.
 
@@ -89,7 +89,7 @@ Harici ürün tanımlayıcıları serbest bırakılan ürün, serbest bırakıla
 | Tanım | Müşterinin maddeyle ilişkilendirdiği ad | Satıcının maddeyle ilişkilendirdiği ad |
 | Harici madde metni | Müşterinin madde açıklaması | Satıcının madde açıklaması |
 
-Birçok müşteri veya satıcı aynı madde numaralarını kullanıyorsa (örneğin satınalma ilişkisi veya ticaret grubunda olduğu gibi), harici ürün bilgilerinin bakımını basitleştirmek için müşteri veya satıcı grupları oluşturabilirsiniz.
+Birçok müşteri veya satıcı aynı madde numaralarını kullanıyorsa (örneğin satın alma ilişkisi veya ticaret grubunda olduğu gibi), harici ürün bilgilerinin bakımını basitleştirmek için müşteri veya satıcı grupları oluşturabilirsiniz.
 
 - Müşteri grupları için **Satış** &gt; **Kurulum** &gt; **Maddeler** &gt; **Harici madde açıklaması**'na giderek grupları ve ilgili madde numaralarını oluşturun ve sağlayın. Müşterileri bir grupla ilişkilendirmek için **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e gidin ve daha sonra **Satış siparişi varsayılanları** hızlı sekmesindeki **Madde - müşteri grubu** alanında bir değer belirtin.
 - Satıcı grupları için **Tedarik ve kaynak atama** &gt; **Kurulum** &gt; **Harici madde açıklaması grubu**'na giderek grupları ve ilgili madde numaralarını oluşturun ve sağlayın. Satıcıları bir grupla ilişkilendirmek için **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a gidin ve daha sonra **Satınalma siparişi varsayılanları** hızlı sekmesindeki **Madde - satıcı grubu** alanında bir değer belirtin.
@@ -108,7 +108,7 @@ Barkodlar sağlamak için **Serbest bırakılan ürünler** sayfasında, **Stoğ
 
 E-ticarette, tüm tarafların ortak bir dili konuşması ve ürünlere ortak bir tanımlayıcılar kümesi kullanarak referans vermesi önemlidir. Bu nedenle bazı sektörler, GS1 tarafından sağlanan global madde numarası sistemi olan [GTIN](https://www.gs1.org/id-keys/gtin)'e güvenir.
 
-GTIN'yi barkod olarak kullanmaya devam etmenizi öneririz. Ancak, **Madde - GTIN** sayfasından da sağlayabilirsiniz. Bu sayfayı açmak için, **Serbest bırakılan ürünler** sayfasında, **Stoğu yönet** sekmesindeki **Ambar** grubunda **GTIN kodları**'nı seçin. GTIN kodunun global numara olarak sağlanmayacağını unutmayın. Bunun yerine, bu tüzel kişiliğe göre sağlanır.
+GTIN'yi barkod olarak kullanmaya devam etmenizi öneririz. Ancak, **Madde - GTIN** sayfasından da sağlayabilirsiniz. Bu sayfayı açmak için, **Serbest bırakılan ürünler** sayfasında, **Stoğu yönet** sekmesindeki **Ambar** grubunda **GTIN kodları**'nı seçin. GTIN kodu global numara olarak sağlanmaz. Bunun yerine, bu tüzel kişiliğe göre sağlanır.
 
 Supply Chain Management'ta belirli ölçü birimlerini tanımlayarak ambar işlemlerinde paketleme değişkenlerini tanımlarsınız. Örneğin, bir madde parçalar, altılı paketler, 18'lik tepsiler veya tam paletler halinde depolanabilir. Bu paketleme değişkenlerinin her biri için belirli bir ölçü birimi tanımlanır. GTIN genellikle bir ürünün paketleme birimiyle ilgili olduğundan **Madde - GTIN** sayfası ürün ve ölçü birimi başına çoklu GTIN kodları sağlamanıza olanak tanır. Ancak, aynı GTIN kodunu bir tüzel kişilikteki farklı maddeler veya ürün çeşitleri için bir kereden fazla kullanamazsınız.
 
@@ -126,12 +126,12 @@ Ne yazık ki, harici kodlara göre ürünleri aramanızı sağlayan standart bir
 |-------------|--------------------|--------------------|----------|
 | Ürünler V2 | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası için numara serisi ve varlık ayarlarına bağlı olarak ürün numarası içe aktarma sırasında otomatik olarak oluşturulabilir. |
 | Ürün çeşitleri | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması | Ürün terminolojisi şablonuna bağlı olarak ürün numarası, içe aktarma sırasında otomatik olarak oluşturulabilir. Bununla birlikte, tüm benzersiz bir ürün numaralarını içe aktarabilirsiniz ve ürün numarasının ürün terminolojisi şablonlarının yapısını izlemesi gerekmez. |
-| Ürün çevirileri | Ürün adı, ürün açıklaması | Ürün adı, ürün açıklaması | Bu varlık herhangi bir dil üzerine yazılır. Bir tüzel kişiliğinin adının veya açıklamasının birincil dili üzerine yazıldığında, ürünün adı ve açıklaması değişir. |
+| Ürün çevirileri | Ürün adı, ürün açıklaması | Ürün adı, ürün açıklaması | Bu varlık herhangi bir dil üzerine yazılır. Bir tüzel kişiliğinin adı veya açıklamasının birincil dilinin üzerine yazıldığında, ürünün adı ve açıklaması değişir. |
 | Serbest bırakılan ürün oluşturma V2 | Madde numarası, ürün numarası, madde arama adı| Madde numarası, ürün numarası, madde arama adı, ürün arama adı, ürün adı | Numara serileri yeni serbest bırakılan ürünler oluşturulurken kullanıldığında, bu varlıkla ilgili zorluklarla karşılaşılabilir. Hem **Madde numarası** numara serisinin hem de **Ürün numarası** numara serisinin bir etkisi vardır. Bununla birlikte, **Madde numarası** numara serisi tüzel kişiliğe göredir ve **Ürün numarası** numara serisi geneldir. Bu nedenle, yeni serbest bırakılan ürünler dağıtırken **Madde numarası** numara serisini kullanmanızı önermeyiz. Açıkça, varlık varolan bir ürünü serbest bırakmak için kullanıldığında, ürün numarasının varlıkta verilmesi gerekir. Daha fazla bilgi için bu konudaki "Ürün ve madde numarası serileri" bölümüne bakın. |
 | Serbest bırakılan ürün çeşitleri | Madde numarası, ürün boyutları, ürün numarası | Ürün numarası, ürün arama adı, ürün adı, ürün açıklaması, ürün boyutları | **Ürün çeşitleri** varlığı gibi, bu varlık da ürün terminolojisi şablonunu izleyen veya ürün çeşidi için kendi ürün numaralarını kullanan yeni ürünler oluşturmak için kullanılabilir. |
 | Müşteriler için harici madde açıklaması | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Müşteri madde numarası, müşteri madde adı, müşteri açıklaması, müşteri hesabı | Bir grup müşteri (örneğin, alıcı ilişkilendirmesi) **Harici madde açıklaması müşteri grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
 | Satıcılar için harici madde açıklaması | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Satıcı madde numarası, satıcı madde adı, satıcı açıklaması, satıcı hesabı | Bir grup satıcı (örneğin, satış ilişkilendirmesi ve sektör organizasyonu) **Harici madde açıklaması satıcı grupları** varlığı kullanılarak tek bir grupta toplanabilir. |
-| Madde Barkod | Barkod | Barkod | İçe aktarma sırasında, hedef sistemde tanımlanan bir barkod kurulumuna başvurmanız gerektiğini unutmayın. İçe aktarılan barkod referansları, barkod kurulumuna karşı doğrulanır ve barkodlar barkod kurulumunda tanımlanan gereksinimlerle eşleşmiyorsa reddedilir. |
+| Madde Barkod | Barkod | Barkod | İçeri aktarma sırasında, hedef sistemde tanımlanan bir barkod kurulumuna başvurmanız gerekir. İçeri aktarılan barkod referansları, barkod kurulumuna karşı doğrulanır ve barkodlar kurulumda tanımlanan gereksinimlerle eşleşmiyorsa reddedilir. |
 | Serbest bırakılan ürünler için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, madde numarası | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. |
 | Serbest bırakılan ürün çeşitleri için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, madde numarası, ürün boyutları | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. Bu varlık madde numarası ve ürün boyutlarına göre ürün çeşitlerine başvurur. |
 | Ürün numarası tanımlayıcısına göre serbest bırakılan ürün çeşitleri için harici kodlar | Harici kod | Harici kod, harici kod sınıfları, ürün numarası | Harici kodlar tüzel kişiliğe göredir. İçe aktarma için tanımlanmış bir kod sınıfına başvurulması gerekir. **Serbest bırakılan ürünler için harici kod sınıfları** varlığını kullanarak kod sınıflarını içe aktarın. Bu varlık ürün çeşidinin ürün numarasına göre ürün çeşitlerine başvurur. (Sonraki ana sürümden itibaren) |
@@ -160,8 +160,8 @@ Aşağıdaki tablo, belirli numara serisi ve alan eşleme ayarları birleşimler
 | Ürün numarası numara serisi | Madde numarası numara serisi | Madde numarasının eşlenmesi | Ürün numarasının eşlenmesi | Varlık içe aktarmanın sonucu | El ile oluşturmanın sonucu | Sonuç |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | El ile = Hayır | El ile = Hayır | Eşleme yok | Eşleme yok | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Ürün numaraları **Ürün numarası** numara serisini kullanır. Madde numaraları **Madde numarası** numara serisini kullanır. | Bu konfigürasyonla, ürün numaraları ürün numara serisini izler ve madde numaraları madde numara serisini izler. Ancak içe aktarılacak birden fazla madde (satır) varsa, bu konfigürasyon çalışmaz. |
-| El ile = Hayır | El ile = Evet | Otomatik oluştur | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Madde numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Bu, serbest bırakılan ürün oluşturma v2 veri varlığıyla toplu ürünleri içe aktarmak için önerilen yaklaşımdır. |
-| El ile = Hayır | El ile = Evet | Eşleme yok | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Ancak içe aktarılacak birden fazla madde (satır) varsa, bu konfigürasyon çalışmaz. |
+| El ile = Hayır | El ile = Evet | Otomatik oluştur | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Madde numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Bu, serbest bırakılan ürün oluşturma v2 veri varlığıyla toplu ürünleri içe aktarmak için önerilen yaklaşımdır.<br><br>Bu yaklaşımı yalnızca maddeleri toplu olarak alırken (birkaç satır) ve kullanıcı arabirimi üzerinden öğe oluşturmadığınızda kullanabilirsiniz. Hem toplu içeri aktarmanız hem de kullanıcı arabirimi üzerinden ürün oluşturmanız gerekiyorsa bunun yerine bu tablonun bir sonraki satırındaki yordamı kullanın. Toplu içeri aktarma yaklaşımını kullanmaktan, ürünleri el ile içeri aktarmak ve oluşturmak için kullanıcı arabirimini kullanmaya geçiş yapmak için madde numarası serisindeki **Sonraki numara**'yı ürün numarası serisindeki **Sonraki numara** ile eşleşecek şekilde el ile ayarlamanız gerekir. Ardından, bu tablonun bir sonraki satırındaki yaklaşıma geçebilirsiniz. |
+| El ile = Hayır | El ile = Evet | Eşleme yok | Eşleme yok | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları **Ürün numarası** numara serisini kullanır. | Hem ürün numaraları hem de madde numaraları Ürün numara serisini kullanır. Ancak içe aktarılacak birden fazla madde (satır) varsa, bu konfigürasyon çalışmaz.<br><br>Hem varlıkları kullanarak ürün içeri aktarmanız (aynı anda yalnızca bir satır içeri aktarılabilir) hem de kullanıcı arabirimi üzerinden ürün oluşturmanız gerekiyorsa bu yaklaşımı kullanmanız gerekir. |
 | El ile = Evet | Geçerli değil | Geçerli değil | Otomatik oluştur | Aşağıdaki hata iletisini alırsınız: "Numara serisi algılanamadı" | **Madde numarası** numara serisine göre | Bu ayar içe aktarma için desteklenmez. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Ürün varlığı tanımlayıcısı (Tüm ürün tanımlayıcılarını dışa aktarma)
@@ -178,7 +178,7 @@ Ortamı yapılandırmak için şu adımları izleyin.
 2. Genel ana ürün verileri için tüzel kişiliği seçin. **Ürün bilgileri yönetimi parametreleri** sayfasında **Ürün öznitelikleri** sekmesinde, ürünün ve madde tanımlayıcıların birincil olarak tutulacağı ana şirketi seçin.
 3. Tanımlayıcı kod türlerini ve dışa aktarılması gereken kodları tanımlayın. **Ürün yönetimi bilgileri** &gt; **Kurulum** &gt; **Ürün tanımlayıcısı kodları**'na gidin. Tanımlayıcı kod türlerini oluşturmak için **Kodlar oluştur**'u seçin. Seçilen tüzel kişilikte bulunan her tanımlayıcı türü için bir kod türü girişi oluşturulur.
 
-    Barkodlar için, her barkod kurulumunda bir kod türü oluşturulduğunu unutmayın. Harici kodlar için, her harici kod sınıfı için bir kod türü oluşturulur.
+    Barkodlarda her barkod kurulumunda bir kod türü oluşturulur. Harici kodlar için, her harici kod sınıfı için bir kod türü oluşturulur.
 
     Şimdi kod türlerinin listesini sağlayabilirsiniz. Kodu, adı ve açıklamayı değiştirebilirsiniz. Aynı zamanda kod türlerini de silebilirsiniz. Sildiğiniz kod türleri, genel ürün varlığı tanımlayıcı tablolarını doldurmak için kullanılmaz.
 

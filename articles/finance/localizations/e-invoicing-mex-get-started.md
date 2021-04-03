@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988500"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592658"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç
 
@@ -291,7 +291,7 @@ Gönderilen CFDI faturası yetkilendirilirse, durumu **Onaylandı** olarak günc
     ![İptal gönderim günlüğü detaylarını görüntüleme](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
-MX-00010 ve MX-00016 (CFDI Fatura ve CFDI İptali) özelliklerinin etkinleştirilmesi, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bir yönetici, **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** sayfasına giderek MX-00010 ve MX-00016 (CFDI Fatura ve CFDI İptal) özelliklerini etkinleştirebilir ve devre dışı bırakabilir. **Özellikler** sekmesini seçin, MX-00010 ve MX-00016 özelliklerini içeren satırları seçin ve sonra uygun seçimi yapın. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
+**CFDI Meksika elektronik fatura (MX)** özelliğinin etkinleştirilmesi kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bir yönetici, **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** sayfasına giderek **CFDI Meksika elektronik fatura (MX)** özelliğini etkinleştirebilir ve devre dışı bırakabilir. **Özellikler** sekmesini seçin, **CFDI Meksika elektronik fatura (MX)** özelliğini içeren satırları seçin ve sonra uygun seçimi yapın. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

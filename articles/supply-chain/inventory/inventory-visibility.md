@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114682"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574234"
 ---
 # <a name="inventory-visibility-add-in"></a>Stok Görünürlüğü Eklentisi
 
@@ -48,11 +48,64 @@ Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](https://docs.micros
 Stok Görünürlüğü Eklentisi'ni yüklemeden önce aşağıdakileri yapmanız gerekir:
 
 - En az bir ortam dağıtılan bir LCS uygulama projesi edinin.
-- LCS'de sunduklarınız için beta anahtarlarını oluşturun.
-- LCS'de kullanıcınız için sunduğunuz beta anahtarlarını etkinleştirin.
-- Microsoft Stok Görünürlüğü ürün takımına başvurun ve Stok Görünürlüğü Eklentisi'ni dağıtmak istediğiniz ortamın kimliği sağlayın.
+- [Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)'ta sağlanan eklentileri ayarlama ön koşullarının tamamlandığından emin olun. Stok Görünürlüğü, çift yazma bağlantısı gerektirmez.
+- Aşağıdaki üç gerekli dosyayı almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü Ekibi'ne başvurun:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
+
+> [!NOTE]
+> Şu anda desteklenen ülkeler/bölgeler arasında Kanada, ABD ve Avrupa Birliği (AB) bulunmaktadır.
 
 Bu ön koşullarla ilgili herhangi bir sorunuz varsa lütfen Stok Görünürlüğü ürün takımıyla iletişime geçin.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Ayarlama Dataverse
+
+Dataverse'ü ayarlamak için aşağıdaki adımları izleyin.
+
+1. Kiracınıza bir hizmet ilkesi ekleyin:
+
+    1. Azure AD PowerShell Modülü v2'yi [ Graph için Azure Active Directory PowerShell'i Yüklema](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
+    1. Aşağıdaki PowerShell komutunu çalıştırın.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Dataverse'te Stok Görünürlüğü için bir uygulama kullanıcısı oluşturun:
+
+    1. Dataverse ortamınızın URL'sini açın.
+    1. **Gelişmiş Ayar \> Sistem \> Güvenlik \> Kullanıcılar**'a gidin ve bir uygulama kullanıcısı oluşturun. Sayfa görünümünü **Uygulama Kullanıcıları** olarak değiştirmek için görünüm menüsünü kullanın.
+    1. **Yeni**'yi seçin. Uygulama kimliğini *3022308a-b9bd-4a18-b8ac-2ddedb2075e1* olarak ayarlayın. (Değişikliklerinizi kaydettiğinizde nesne kimliği otomatik olarak yüklenir.) Adı özelleştirebilirsiniz. Örneğin *Stok Görünürlüğü* olarak ayarlayabilirsiniz. Tamamladıktan sonra **Kaydet**'i seçin.
+    1. **Rol Ata**'yı ve sonra **Sistem Yöneticisi**'ni seçin. **Common Data Service Kullanıcısı** adlı bir rol varsa onu da seçin.
+
+    Daha fazla bilgi için bkz. [Uygulama kullanıcısı oluşturma](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Dataverse yapılandırmasıyla ilgili varlıkları ve Power Apps'i içeren `Inventory Visibility Dataverse Solution.zip` dosyasını içeri aktarın:
+
+    1. **Çözümler** sayfasına gidin.
+    1. **İçe aktar**'ı seçin.
+
+1. Yapılandırma yükseltme tetikleyici akışını içeri aktarın:
+
+    1. Microsoft Flow sayfasına gidin.
+    1. *Dataverse (eski)* olarak adlandırılan bağlantının mevcut olduğundan emin olun. (Yoksa oluşturun.)
+    1. `Inventory Visibility Configuration Trigger.zip` dosyasını içeri aktarın. İçeri aktarıldıktan sonra tetikleyici **Akışlarım** altında görünecektir.
+    1. Ortam bilgilerine bağlı olarak aşağıdaki dört değişkeni başlatın:
+
+        - Azure Kiracısı Kimliği
+        - Azure Uygulaması İstemci Kimliği
+        - Azure Uygulaması Gizli Anahtarı
+        - Stok Görünürlüğü Uç Noktası
+
+            Bu değişken hakkında daha fazla bilgi için bu konuda ele alınacak olan [Stok Görünürlüğü tümleştirmesini ayarlama](#setup-inventory-visibility-integration) bölümüne bakın.
+
+        ![Yapılandırma tetikleyicisi](media/configuration-trigger.png "Yapılandırma tetikleyicisi")
+
+    1. **Aç**'ı seçin.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Eklentiyi yükleme
 
@@ -61,14 +114,16 @@ Stok Görünürlüğü Eklentisi'ni yüklemek için aşağıdakileri yapın:
 1. [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index) portalında oturum açın.
 1. Ana sayfada, ortamınızın dağıtıldığı projeyi seçin.
 1. Proje sayfasında, eklentiyi yüklemek istediğiniz ortamı seçin.
-1. Ortam sayfasında, **Ortam eklentileri** bölümünü görene kadar aşağı kaydırın. Bölüm görünmüyorsa, ön koşuldaki beta anahtarlarının tam olarak işlendiğinden emin olun.
+1. Ortam sayfasında, **Power Platform tümleştirmesi** bölümünde Dataverse ortamı adını bulabileceğiniz **Ortam eklentileri** bölümünü görene kadar aşağı kaydırın.
 1. **Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.
+
     ![LCS'deki ortam sayfası](media/inventory-visibility-environment.png "LCS'deki ortam sayfası")
+
 1. **Yeni eklenti yükleyin** bağlantısını seçin. Kullanılabilir eklentilerin bir listesi görüntülenir.
-1. Listeden **Stok hizmeti**'ni seçin. (Not: Bu çözüm artık **Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi** olarak listelenmiş olabilir.)
+1. Listeden **Stok Görünürlüğü**'nü seçin.
 1. Ortamınızın aşağıdaki alanlarının değerlerini girin:
 
-    - **AAD uygulama kodu**
+    - **AAD uygulaması (istemci) kimliği**
     - **AAD kiracı kimliği**
 
     ![Eklenti kurulum sayfası](media/inventory-visibility-setup.png "Eklenti kurulum sayfası")
@@ -76,11 +131,74 @@ Stok Görünürlüğü Eklentisi'ni yüklemek için aşağıdakileri yapın:
 1. **Şartlar ve koşullar** onay kutusunu seçerek şartlar ve koşulları kabul edin.
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak görünür. İşlem bittiğinde, durumun **Yüklendi** olarak değiştiğini görmek için sayfayı yenileyin.
 
-### <a name="get-a-security-service-token"></a>Güvenlik hizmeti belirteci alma
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Eklentiyi kaldırma
+
+Eklentiyi kaldırmak için **Kaldır**'ı seçin. LCS'yi yenilediğinizde Stok Görünürlüğü Eklentisi kaldırılır. Kaldırma işlemi eklenti kaydını kaldırır ve hizmette depolanan tüm iş verilerini temizlemek için bir iş başlatır.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Supply Chain Management'tak eldeki stok verilerini kullanma
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Stok Görünürlüğü tümleştirme paketini dağıtma
+
+Supply Chain Management sürüm 10.0.17 veya önceki bir sürümünü çalıştırıyorsanız paket dosyasını almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü yerleşik destek ekibine başvurun. Ardından LCS'de paketi dağıtın.
+
+> [!NOTE]
+> Dağıtım sırasında bir sürüm uyuşmazlığı hatası oluşursa X++ projesini geliştirme ortamınıza el ile içeri aktarmanız gerekir. Daha sonra, dağıtılabilir paketi geliştirme ortamınızda oluşturun ve üretim ortamınızda dağıtın.
+> 
+> Kod, Supply Chain Management sürüm 10.0.18'e dahildir. Bu sürümü veya sonraki bir sürümünü çalıştırıyorsanız dağıtım gerekli değildir.
+
+Supply Chain Management ortamınızda aşağıdaki özelliklerin açık olduğundan emin olun. (Varsayılan olarak bunlar açıktır.)
+
+| Özellik açıklaması | Kod sürümü | Sınıfı değiştirme |
+|---|---|---|
+| InventSum tablosunda stok boyutlarını kullanmayı etkinleştirme veya devre dışı bırakma | 10.0.11 | InventUseDimOfInventSumToggle |
+| InventSumDelta tablosunda stok boyutlarını kullanmayı etkinleştirme veya devre dışı bırakma | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Stok Görünürlüğü tümleştirmesini kurma
+
+1. Supply Chain Management'ta **[Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** çalışma alanını açın ve **Stok Görünürlüğü Tümleştirmesi** özelliğini açın.
+1. **Stok Yönetimi \> Kurulum \> Stok Görünürlüğü Tümleştirme parametreleri**'ne gidin ve Stok Görünürlüğü'nü çalıştırdığınız ortamın URL'sini girin.
+
+    LCS ortamınızın Azure bölgesini bulun ve URL'yi girin. URL aşağıdaki biçimde olur:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Örneğin, Avrupa'daysanız ortamınızda aşağıdaki URL'lerden biri bulunur:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    Şu anda aşağıdaki bölgeler kullanılabilirdir.
+
+    | Azure bölgesi | Bölge kısa adı |
+    |---|---|
+    | Doğu Avustralya | eau |
+    | Güneydoğu Avustralya | seau |
+    | Orta Kanada | cca |
+    | Doğu Kanada | eca |
+    | Kuzey Avrupa | neu |
+    | Batı Avrupa | weu |
+    | Doğu ABD | eus |
+    | Batı ABD | wus |
+
+1. **Stok Yönetimi \> Periyodik \> Stok Görünürlüğü Tümleştirmesi**'ne gidin ve işi etkinleştirin. Supply Chain Management'taki tüm stok değişikliği olayları artık Stok Görünürlüğü'ne nakledilecektir.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>Stok Görünürlüğü Eklentisi genel API'si
+
+Stok Görünürlüğü Eklentisi'nin genel REST API'si, birkaç özel tümleştirme uç noktası sunar. Üç ana etkileşim türünü destekler:
+
+- Harici bir sistemden eldeki stok değişiklikleri eklentiye deftere nakletmek
+- Harici bir sistemden eldeki geçerli miktarları sorgulamak
+- Supply Chain Management eldeki stoku ile otomatik eşitlemek
+
+Otomatik eşitleme genel API kapsamında değildir. Bunun yerine, Stok Görünürlüğü Eklentisi'nin etkinleştirildiği ortamlar için arka planda işlenir.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Kimlik Doğrulama
+
+Platform güvenlik belirteci, Stok Görünürlüğü Eklentisi'ni çağırmak için kullanılır. Bu nedenle, Azure AD uygulamanızı kullanarak bir *Azure Active Directory (Azure AD) belirteci* oluşturmanız gerekir. Daha sonra güvenlik hizmetinden *erişim belirtecini* almak için Azure AD belirteci kullanmanız gerekir.
 
 Aşağıdakileri gerçekleştirerek güvenlik hizmeti belirteci alın:
 
-1. Azure portalında oturum açın ve Supply Chain Management uygulamanız için `clientId` ve `clientSecret` öğelerini bulurken bunu kullanın.
+1. Azure portalda oturum açın ve Supply Chain Management uygulamanız için `clientId` ve `clientSecret` bilgilerini bulmak için portalı kullanın.
 1. Aşağıdaki özelliklere sahip bir HTTP isteği göndererek Azure Active Directory belirteci (`aadToken`) getirin:
     - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
     - **Yöntem** - `GET`
@@ -140,27 +258,7 @@ Aşağıdakileri gerçekleştirerek güvenlik hizmeti belirteci alın:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Eklentiyi kaldırma
-
-Eklentiyi kaldırmak için **Kaldır**'ı seçin. LCS'yi yenilediğinizde Stok Görünürlüğü Eklentisi kaldırılır. Kaldırma işlemi eklenti kaydını kaldırır ve hizmette depolanan tüm iş verilerini temizlemek için bir iş başlatır.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Stok Görünürlüğü Eklentisi genel API'sı
-
-Stok Görünürlüğü Eklentisi'nin genel REST API'sı, birkaç özel tümleştirme uç noktası sunar. Üç ana etkileşim türünü destekler:
-
-- Harici bir sistemden eldeki değişiklikleri eklentiye deftere nakletmek.
-- Harici bir sistemden eldeki geçerli miktarları sorgulamak.
-- Eldeki Supply Chain Management ile otomatik eşitleme.
-
-Otomatik eşitleme, genel API'nın bir parçası değildir ancak Stok Görünürlüğü Eklentisi'ni etkinleştiren ortamlar için arka planda işlenir.
-
-### <a name="authentication"></a>Kimlik Doğrulama
-
-Platform güvenlik belirteci, Stok Görünürlüğü Eklentisi'ni çağırmak için kullanılır, bu nedenle Azure Active Directory uygulamanızı kullanarak bir Azure Active Directory belirteci oluşturmanız gerekir.
-
-Güvenlik belirtecini alma hakkında daha fazla bilgi için bkz. [Stok Görünürlüğü Eklentisi'ni Yükleme](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Stok Görünürlüğü API'sını yapılandırma
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Stok Görünürlüğü API'sını yapılandırma
 
 Hizmeti kullanmadan önce, aşağıdaki alt bölümlerde açıklanan yapılandırmaları tamamlamanız gerekir. Yapılandırma, ortamınızın ayrıntılarına bağlı olarak değişebilir. Başlıca dört bölümden oluşur:
 
@@ -257,7 +355,7 @@ Renk ve boyut kombinasyonuna sahip ürün üzerinde gerçekleştirilen bir sorgu
 
 #### <a name="custom-measurement"></a>Özel ölçüm
 
-Varsayılan ölçüm miktarları Supply Chain Management'a bağlıdır, ancak varsayılan ölçümlerin bir karışımından oluşan bir miktara sahip olmak isteyebilirsiniz. Bunu yapmak için eldeki sorguların çıktısına eklenecek özel miktarlar yapılandırmanız olabilir.
+Varsayılan ölçüm miktarları Supply Chain Management'a bağlıdır. Ancak varsayılan ölçümlerin birleşiminden oluşan bir miktara sahip olmak isteyebilirsiniz. Bunu yapmak için eldeki sorguların çıktısına eklenecek özel miktarlar yapılandırmanız olabilir.
 
 İşlev, özel ölçümü oluşturmak için eklenecek bir dizi ölçü ve/veya çıkarılacak bir dizi ölçü belirlemenize olanak tanır.
 

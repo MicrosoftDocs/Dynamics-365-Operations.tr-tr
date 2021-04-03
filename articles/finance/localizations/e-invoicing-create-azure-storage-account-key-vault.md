@@ -3,7 +3,7 @@ title: Azure depolama hesabı ve bir anahtar kasası oluşturma
 description: Bu konu, bir Azure depolama hesabı ve anahtar kasası oluşturma yöntemini açıklamaktadır.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104241"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479357"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure depolama hesabı ve bir anahtar kasası oluşturma
 
@@ -77,9 +77,12 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 
     ![Sertifika izni verme](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. **Sorumlu** iletişim kutusunda, **Elektronik faturalama eklentisi** ekleyerek sorumluyu seçin.
-10. **Ekle**'yi seçin ve **Anahtar Kasa değişikliklerini kaydet**'i seçin.
-11. **Genel Bakış** sayfasında, anahtar kasası için **DNS adı** değerini kopyalayın. Bu değer, servisin kurulumu sırasında, RCS'de kullanılır ve *anahtar kasa URI*'si olarak anılacaktır.
+9. **Sorumlu Seç** alanında, **Seçili yok** seçeneğini belirleyin.
+10. **Sorumlu** iletişim kutusunda, **E-faturalama Hizmeti** ekleyerek sorumluyu seçin.
+11. **Ekle**'yi seçin ve **Anahtar Kasa değişikliklerini kaydet**'i seçin.
+12. **Genel Bakış** sayfasında, anahtar kasası için **DNS adı** değerini kopyalayın. Bu değer, servisin kurulumu sırasında, RCS'de kullanılır ve *anahtar kasa URI*'si olarak anılacaktır.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -3,10 +3,9 @@ title: Kuruluş hiyerarşinizi planlama
 description: Kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl en iyi nasıl modellendirileceğini anladığınızdan emin olun.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154421"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569373"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
@@ -166,7 +165,7 @@ Tüzel kişilik, tüzel kişiliğin kayıtlı olduğu ülkenin/bölgenin vergi d
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Organizasyon tüzel kişilik olarak modellenmişse
 
-Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. Her ülke/bölge için hangi raporların kullanılabileceği hakkında daha fazla bilgi edinmek için [Microsoft Dynamics Yerelleştirme Portalı](https://docs.microsoft.com/dynamics/s-e/)'na bakın. (Bir CustomerSource girişi zorunludur.)
+Desteklenen ülkeler/bölgeler için yasal raporların çoğu oluşturulabilir. 
 
 > [!NOTE]
 > Genel muhasebedeki deftere nakil katmanı, alt şirketten farklı bir muhasebe standardı kullanan bir ana şirket için ayarlama girişleri yapmanıza olanak tanır. Örneğin, genel olarak Birleşik Krallık'taki kabul görmüş muhasebe uygulamalarını kullanan (UK GAAP) bir şirket için deftere nakil katmanında ayarlama girişleri yapabilirsiniz. Bu girişler, ABD'deki genel kabul görmüş muhasebe ilkelerini (GAAP) kullanan bir ana şirkette birleştirilebilir. Ayarlama girişleri UK GAAP raporunu etkilemez.

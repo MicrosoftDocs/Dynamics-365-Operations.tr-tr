@@ -3,7 +3,7 @@ title: Satış noktasında sipariş işlemini geri çekme
 description: Bu konu, POS'taki geliştirilmiş sipariş geri çekme sayfaları için kullanılabilen özellik yeteneklerini açıklar.
 author: hhainesms
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 174821fce4baf81e4298da4b066f855bfec98ca5
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010086"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585142"
 ---
 # <a name="recall-order-operation-in-pos"></a>Satış noktasında sipariş işlemini geri çekme
 
@@ -35,7 +35,7 @@ Bu işlevi etkinleştirmek için, Commerce Headquarters'daki **Özellik yönetim
 
 Ekran seçenekleri şunlardır:
 - **Hiçbiri** – Bu seçenek, işlemi belirli bir ekran olmadan dağıtır. Kullanıcı bu yapılandırmayla işlemi açtığında, sipariş araması ve bulması veya önceden tanımlanmış bir sipariş filtresi seçmesi istenir.
-- **Karşılanacak siparişler** – Kullanıcı operasyonu başlattığında, mağaza tarafından karşılanması gereken siparişlerin listesini arayıp görüntülemek için bir sorgu otomatik olarak çalışır. Bu siparişler, mağaza içi malzeme çekme veya mağaza sevkiyatı için yapılandırılır ve bu siparişlerin satırları henüz çekilmemiştir veya paketlenememiştir.
+- **Karşılanacak siparişler** – Kullanıcı operasyonu başlattığında, kullanıcının geçerli mağazası tarafından karşılanması gereken siparişlerin listesini arayıp görüntülemek için bir sorgu otomatik olarak çalışır. Bu siparişler, mağaza içi malzeme çekme veya mağaza sevkiyatı için yapılandırılır ve bu siparişlerin satırları henüz çekilmemiştir veya paketlenememiştir.
 - **Çekilecek siparişler** – Kullanıcı operasyonu başlattığında, kullanıcının geçerli mağazasında mağazadan çekme için yapılandırılan siparişlerin listesini arayıp görüntülemek için bir sorgu otomatik olarak çalışır.
 - **Sevk edilecek siparişler** – Kullanıcı operasyonu başlattığında, kullanıcının geçerli mağazasından sevkiyat için yapılandırılan siparişlerin listesini arayıp görüntülemek için bir sorgu otomatik olarak çalışır.
 
@@ -46,7 +46,7 @@ POS'tan **Sipariş geri çekme** işlemi başlatılırken, görüntü **Hiçbiri
 
 ![RecallOrderMainMenu](media/recallordermain.png)
 
-Arama ölçütleri uygulandıktan sonra, uygulama eşleşen satış siparişlerinin listesini görüntüler.
+Arama ölçütleri uygulandıktan sonra, uygulama eşleşen satış siparişlerinin listesini görüntüler. Arama/filtre seçeneklerini kullanırken, alınan siparişlerin kullanıcının geçerli mağazasıyla bağlantılı siparişler olması gerekmediğini göz önünde bulundurun. Bu arama işlemi, sipariş başka bir mağaza/kanal ya da ambar konumu tarafından oluşturulmuş veya karşılanacak olsa bile arama ölçütleriyle eşleşen tüm müşteri siparişlerini alır ve görüntüler.
 
 ![RecallOrderDetail](media/orderrecalldetail.png)
 
@@ -54,15 +54,18 @@ Bir kullanıcı ek ayrıntıları görüntülemek için listeden bir sipariş se
 
 Uygulama çubuğunda, kullanıcı bir operasyon seçebilir. Siparişin durumuna bağlı olarak, belirli operasyonlar etkinleştirilmemiş olabilir.
 
-- **İade** – Seçilen müşteri siparişiyle ilgili bir veya daha fazla fatura için bir iade yürütür.
+- **İade** – Seçilen müşteri siparişindeki faturalanan ürünlerden herhangi biri için iade oluşturma sürecini başlatır.
 
-- **İptal** – Seçili satış siparişinin tam iptalini yapar.
+- **İptal** – Seçili satış siparişinin tam iptalini yapar. Bu seçenek, çağrı merkezi kanalı aracılığıyla başlatılan siparişler için kullanılamaz ve bir siparişi kısmen iptal etmek için kullanılamaz.
 
 - **Karşıla** – Kullanıcıyı, seçilen sipariş için ön filtre uygulanacak sipariş karşılama sayfasına aktarır. Yalnızca seçili sipariş için kullanıcının mağazası tarafından karşılanmaya açık olan sipariş satırları görüntülenir.
 
-- **Düzenle** – Kullanıcıların seçili müşteri siparişinde değişiklik yapmasına olanak tanır.
+- **Düzenle** – Kullanıcıların seçili müşteri siparişinde değişiklik yapmasına olanak tanır. Siparişler yalnızca [belirli senaryolarda düzenlenebilir](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Çek** – Kullanıcının çekilecek ürünleri seçmesine ve malzeme çekme satış hareketini oluşturulmasına olanak sağlayan malzeme çekme akışını başlatır.
+- **Teslim alma** -Siparişte, kullanıcının geçerli mağazasında ürün teslim alma için belirlenmiş bir veya daha fazla satır varsa, bu seçenek kullanılabilir. Bu işlem, kullanıcının teslim alınacak ürünleri seçmesine izin veren ve teslim alma satış işlemini oluşturan teslim alma akışını başlatır.
 
+## <a name="add-notifications-to-the-recall-order-operation"></a>Sipariş geri çekme işlemine bildirim ekleme
+
+İsterseniz, 10.0.18 ve sonrasında **sipariş geri çağırma** işlemi için POS bildirimleri canlı kutucuk uyarıları yapılandırabilirsiniz. Daha fazla bilgi için, bkz. [Satış noktasında (POS) sipariş bildirimlerini gösterme](notifications-pos.md).  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

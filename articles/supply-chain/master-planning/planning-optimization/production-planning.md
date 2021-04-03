@@ -18,19 +18,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: eda22aa6f1e8d665d8ef390f24b247a76d4c2956
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f9b5e4122fbd83ff76e0605b2f0816e10d2d9aab
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992407"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470845"
 ---
 # <a name="production-planning"></a>Üretim planlama
 
 Planlamayı En İyi Duruma Getirme, birçok üretim senaryosunu destekler. Mevcut, yerleşik master planlama altyapısından geçiş yapıyorsanız değiştirilen bazı davranışları öğrenmeniz gerekir.
 
-<!-- The following video gives a short introduction to some of the current capabilities. 
-KFM: Link to video for production functionality, coming soon... -->
+Aşağıdaki video, bu konuda ele alınan bazı kavramlara kısa bir giriş sağlar: [Dynamics 365 Supply Chain Management: Planlamayı İyileştirme'deki geliştirmeler](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="planned-production-orders"></a>Planlı üretim emirleri
 

@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985966"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582731"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>İçerik teslim ağı (CDN) için destek ekleme
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce ortamınıza bir içerik teslim ağının (CDN) nasıl ekleneceği açıklanmaktadır.
-
-## <a name="overview"></a>Genel bakış
 
 Dynamics 365 Commerce uygulamasında bir e-ticaret ortamı kurduğunuzda, bunu CDN hizmetiyle çalışacak şekilde konfigüre edebilirsiniz. 
 
@@ -96,8 +93,8 @@ Azure ön kapı hizmeti'nde bir yönlendirme kuralı ayarlamak için, aşağıda
 1. **Ad** alanına, **varsayılan** yazın.
 1. **Kabul edilen iletişim kuralı** alanında, **http ve https**'yi seçin.
 1. **Ön uç ana bilgisayarlar** alanında, **dynamics-ecom-tenant-name.azurefd.net** girin.
-1. **Eşleştirilecek desenler** altında, üst alana şunu girin: **/\** _.
-1. _*Rota Ayrıntıları** altında, **rota türü** seçeneğini **ileri** olarak ayarlayın.
+1. **Eşleştirilecek desenler** altında, üst alana şunu girin: **/\***.
+1. **Rota Ayrıntıları** altında, **rota türü** seçeneğini **ileri** olarak ayarlayın.
 1. **Arka uç havuzu** alanında, **ecom-arka uç**'yi seçin.
 1. **İletme Protokolü** alan grubunda, **isteği eşleştir** seçeneğini seçin. 
 1. **URL yeniden yazma** seçeneğini **devre dışı** olarak ayarlayın.
@@ -109,8 +106,8 @@ Azure ön kapı hizmeti'nde bir önbelleğe alma kuralı ayarlamak için, aşağ
 1. **Ad** alanına, **statikler** yazın.
 1. **Kabul edilen iletişim kuralı** alanında, **http ve https**'yi seçin.
 1. **Ön uç ana bilgisayarlar** alanında, **dynamics-ecom-tenant-name.azurefd.net** girin.
-1. **Eşleştirilecek desenler** altında, üst alana şunu girin: **/\_msdyn365/\_scnr/\** _.
-1. _*Rota Ayrıntıları** altında, **rota türü** seçeneğini **ileri** olarak ayarlayın.
+1. **Eşleştirilecek desenler** altında, üst alana şunu girin: **/\_msdyn365/\_scnr/\***.
+1. **Rota Ayrıntıları** altında, **rota türü** seçeneğini **ileri** olarak ayarlayın.
 1. **Arka uç havuzu** alanında, **ecom-arka uç**'yi seçin.
 1. **İletme Protokolü** alan grubunda, **isteği eşleştir** seçeneğini seçin.
 1. **URL yeniden yazma** seçeneğini **devre dışı** olarak ayarlayın.
@@ -143,25 +140,7 @@ CDN'niz şimdi Commerce sitenizde kullanılabilecek şekilde doğru konfigüre e
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Etki alanı adınızı yapılandırma](configure-your-domain-name.md)
-
-[Yeni bir e-ticaret kiracısını dağıtma](deploy-ecommerce-site.md)
-
-[E-ticaret sitesi oluşturma](create-ecommerce-site.md)
-
-[Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme](associate-site-online-store.md)
-
-[robots.txt dosyalarını yönetme](manage-robots-txt-files.md)
-
-[URL yeniden yönlendirmelerini toplu olarak yükleme](upload-bulk-redirects.md)
-
-[Commerce'ta B2C kiracısı ayarlama](set-up-B2C-tenant.md)
-
-[Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md)
-
-[Commerce ortamında birden fazla B2C kiracısı yapılandırma](configure-multi-B2C-tenants.md)
-
-[Konum tabanlı mağaza algılamayı etkinleştirme](enable-store-detection.md)
+[İçerik teslimi ağı uygulama seçenekleri](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
