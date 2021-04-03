@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40625152a579bb269411d026d77d449902c8d4bc
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: cf196711799b78d7f4106b6693127d7f356b1d4e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016818"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262225"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260659"
 ---
 # <a name="product-dimensions"></a>Ürün boyutları
 
@@ -106,7 +106,7 @@ Sürüm boyutunu etkinleştirdiğinizde, stok boyutlarına özelleştirmeler ekl
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Eşlemeler:** Herhangi bir eşleme stok boyutlarını kullanıyorsa, bu eşlemelere karşılık gelen ilişki eşlemesinin sürüm boyutunu içerecek şekilde güncelleştirilmesi gerekir. Genişletilmiş model veya tablo uzantılarında, alanların stok boyutlarını içerdiği tabloları arayın.
-1. **Microsoft Dynamics 365 Commerce işlevi:** Etkinleştirildikten sonra, sürüm boyutu Dynamics 365 Supply Chain Management'taki Commerce'a özgü kodun tamamında görüntülenir. Ancak, sürüm boyutu henüz Commerce kanalı veritabanı tarafından veya satış noktası (POS) uygulamalarında ya da e-ticaret uygulamalarında desteklenmemektedir. Bu Commerce'e özel uygulamalar, sürüm boyutuna göre kullanıcıların stoku satmasını/sevk etmesini veya iade etmesini/almasını desteklemez. Stok kullanılabilirliği arama işlevleri, Commerce uygulamalarındaki sürüm boyutuna göre stoku ayırmayacaktır. Bu davranış, Commerce'taki yapılandırma boyutunun geçerli davranışına benzer.
+1. **Microsoft Dynamics 365 Commerce işlevi:** Etkinleştirildikten sonra, sürüm boyutu Dynamics 365 Supply Chain Management'taki Commerce'e özgü kodun tamamında görüntülenir. Ancak, sürüm boyutu henüz Commerce kanalı veritabanı tarafından veya satış noktası (POS) uygulamalarında ya da e-ticaret uygulamalarında desteklenmemektedir. Bu Commerce'e özel uygulamalar, sürüm boyutuna göre kullanıcıların stoku satmasını/sevk etmesini veya iade etmesini/almasını desteklemez. Stok kullanılabilirliği arama işlevleri, Commerce uygulamalarındaki sürüm boyutuna göre stoku ayırmayacaktır. Bu davranış, Commerce'taki yapılandırma boyutunun geçerli davranışına benzer.
 
 #### <a name="turn-on-the-version-dimension"></a>Sürüm boyutunu açma
 
