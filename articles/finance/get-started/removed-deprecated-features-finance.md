@@ -3,7 +3,7 @@ title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikl
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,15 +11,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: sericks
+ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7090a7461c7b77d74f081afd8f22db100cdf0792
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
+ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154189"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5474075"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -33,7 +33,19 @@ Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Elektronik raporlama yapılandırmaları için depolama seçeneği olarak LCS deposu
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni Regulatory Configuration Service (RCS) genel deposu ile değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Dynamics 365 Finance, Supply Chain Management ve Project Operations ürünleri|
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 1 Nisan 2022 tarihinden itibaren Microsoft Dynamics Lifecycle Services (LCS) deposunu Elektronik raporlama (ER) yapılandırmaları için bir depolama seçeneği olarak desteklememeyi planlıyoruz. Yeni Microsoft ER yapılandırmaları Global depodan özel olarak indirilmek üzere yayımlanacaktır. Global depoya Dynamics 365 ürünlerinden ve RCS'den erişilebilir. Daha fazla bilgi için bkz. [ER yapılandırmalarını RCS'den içe aktarma](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Finance 10.0.16 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

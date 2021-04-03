@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115354"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5503000"
 ---
 # <a name="edit-personal-information"></a>Kişisel bilgileri düzenle
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Kişisel bilgilerinizi **çalışan self servis çalışma alanındaki** Dynamics 365 Human Resources'ta düzenleyebilirsiniz.
 
@@ -38,13 +40,16 @@ Düzenleyebileceğiniz kişisel bilgiler şunları içerir:
 - Ödeme yöntemi
 - İnsan Kaynakları'nda kullanılan görüntü
 
+>[!NOTE]
+>İlgili kişi bilgileri gibi belirli türde kişisel bilgileri düzenleyemeyebilirsiniz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
+
 Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebileceğiniz rolleri belirler.
 
 1. İnsan Kaynakları, **çalışan Self servis**'ı seçin.
 
 2. **Kişisel ayrıntıları düzenle** seçin.
 
-3. Adresinizi değiştirmek için **adresler** sekmesini seçin. yaptığınız değişiklikler, **personel yönetimi** çalışma alanında HR için görünür. 
+3. Adresinizi değiştirmek için **adresler** sekmesini seçin. yaptığınız değişiklikler, **personel yönetimi** çalışma alanında HR için görünür.
 
     - Yeni bir adres eklemek için **Ekle**'ye tıklayın.
     - Varolan bir adresi düzenlemek için, adresi seçin ve **Düzenle** seçin.
@@ -52,11 +57,13 @@ Genel adres defteri nde ayarlanan parametreler, kişisel bilgilerinizi görebile
     - Bir kişi eklemek veya kaldırmak için, **diğer Seçenekler** seçeneğini belirleyin ve sonra **Gelişmiş**'i seçin. İlgili **kişi bilgileri** altında, gerekli alanları **Ekle** veya **Kaldır** ve Düzenle 'yi seçin.
     - Saat diliminizi ve konumunuzu ayarlamak için **daha fazla seçenek** belirleyip **Gelişmiş**'i seçin. **Genel** altında, alanları gerektiği gibi düzenleyin.
 
-4. İlgili kişi ayrıntılarını değiştirmek için **ilgili kişi ayrıntıları** sekmesini seçin. Telefon, e-posta ve sosyal medya bağlantıları gibi farklı türlerde iletişim bilgileri sağlayabilirsiniz. İlgili kişi ayrıntısını birincil olarak ayarlayabilirsiniz, ancak yalnızca her türden birini birincil olarak ayarlayabilirsiniz. 
+4. İlgili kişi ayrıntılarını değiştirmek için **ilgili kişi ayrıntıları** sekmesini seçin. Telefon, e-posta ve sosyal medya bağlantıları gibi farklı türlerde iletişim bilgileri sağlayabilirsiniz. İlgili kişi ayrıntısını birincil olarak ayarlayabilirsiniz, ancak yalnızca her türden birini birincil olarak ayarlayabilirsiniz.
 
     - Yeni bir iletişim bilgisi eklemek için **Ekle**'ye tıklayın. Alanları gerektiği gibi düzenleyin.
     - Varolan bir iletişim bilgisini düzenlemek için, öğeyi seçin ve **Düzenle** seçin. Alanları gerektiği gibi düzenleyin.
     - İlgili kişi ayrıntısını özel olarak ayarlamak için, maddeyi seçin, **Gelişmiş**'i seçin ve sonra **özel** geçişi **Evet** olarak ayarlayın. **Tamam**'ı seçin.
+      >[!NOTE]
+      >Yöneticiniz ortamınızda **(Önizleme) Çalışanların belirli amaçlar için adres ve kişi bilgilerini eklemesini veya düzenlemesini kısıtlama** özelliğini etkinleştirdiyse **Gelişmiş** düğmesi kullanılamaz. Daha fazla bilgi için bkz. [Kişisel bilgileri düzenlemeyi kısıtlama](hr-employee-self-service-restrict-editing.md).
   
 5. Özel kişilerinizi değiştirmek için, **kişisel kişiler** sekmesini seçin. Acil durumda ulaşılacak ilgili kişiler, lehdarlar ve Etkilenenleri belirleyebilirsiniz. İlgili kişi, kişi veya organizasyon olabilir. **Sosyal haklar yönetimi** özelliği, kişisel iletişim bilgilerini kullanır. Daha fazla bilgi için bkz. [Kişisel iletişim uygunluk seçeneklerini yapılandırma](hr-benefits-setup-contact-eligibility-options.md).
 

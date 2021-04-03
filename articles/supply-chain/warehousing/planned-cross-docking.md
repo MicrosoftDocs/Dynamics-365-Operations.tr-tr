@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970318"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556278"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -37,12 +37,12 @@ Her gelen sipariş alındığında, çapraz sevk kurulumu çapraz sevk gereksini
 > [!NOTE]
 > Bu becerinin ayarı Ambar yönetimi parametrelerinde açık olsa bile, çapraz sevk işi iptal edildiği zaman stok hareketlerinin **kaydı silinmez**.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Planlanmış çapraz sevk özelliğini açın
+## <a name="turn-on-the-planned-cross-docking-features"></a>Planlanmış merkezden dağıtım özelliklerini açma
 
-İleri düzeyde planlanmış çapraz sevki kullanabilmeniz için özelliğin sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanını kullanabilir. Burada, özellik aşağıdaki şekilde listelenmiştir:
+Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve aşağıdaki özellikleri aşağıdaki sırayla açın:
 
-- **Modül:** *Ambar yönetimi*
-- **Özellik adı:** *Planlanmış çapraz sevk*
+1. *Planlanmış çapraz sevk*
+2. *Yerleşim yönergeleri olan çapraz sevk şablonları*
 
 ## <a name="setup"></a>Ayar
 
@@ -89,6 +89,10 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
     - **Tedarik girişinde yeniden doğrula:** *Hayır*
 
         Bu seçenek, tedarik girişi sırasında tedarikin yeniden doğrulanıp doğrulanmayacağını tanımlar. Bu seçenek *Evet* olarak ayarlanırsa , maksimum zaman aralığı ve sona erme gün sayısı aralığı da işaretlenir.
+
+    - **Yönerge kodu** Bu alanı boş bırakın
+
+        Bu seçenek, sistemin geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanmasını sağlar. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Her yönerge kodu benzersiz bir konum yönergesi tanımlar.
 
     - **Zaman aralığını doğrula:** *Evet*
 

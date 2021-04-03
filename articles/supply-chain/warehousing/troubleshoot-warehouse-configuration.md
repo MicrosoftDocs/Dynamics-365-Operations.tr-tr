@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994015"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487109"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Ambar yapılandırması ile ilgili sorunları giderme
 
@@ -109,5 +109,32 @@ Partinin kısmi bir miktarı için stok durumu değişikliği yapmak istiyorsunu
 
 Sayfadaki diğer alanları gerektiği gibi ayarlayabilirsiniz.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Bir konum profilinin giriş/çıkış noktası yönetim profili stok türlerinin karıştırılmasını engellemiyor.
+
+### <a name="issue-description"></a>Sorun açıklaması
+
+*Sevkiyat konsolidasyonu ilkelerini* kullanıyorsunuz. Bir *konum profili* için bir *giriş/çıkış noktası yönetim profili* ayarladınız ancak iş oluşturulduğunda, stok türleri son konumda karıştırılır.
+
+### <a name="issue-resolution"></a>Sorunun çözümü
+
+Giriş/çıkış noktası yönetim profillerinin önceden bölünmesi için çalışma gerekir. Başka bir deyişle, giriş/çıkış noktası yönetim profili, bir iş başlığının birden çok yerleştirme konumuna sahip olmayacağını bekler.
+
+Giriş/çıkış noktası yönetim profilinin stok karıştırmayı etkin bir şekilde yönetmesi için bir iş başlığı sonu ayarlanmalıdır.
+
+Bu örnekte, giriş/çıkış noktası yönetim profilimiz, **Karıştırılmaması gereken stok türleri** *Sevkiyat Kimliği* olarak ayarlanacak şekilde yapılandırılmıştır ve bunun için bir iş başlığı sonu ayarlayacağız:
+
+1. **Ambar yönetimi \> Kurulum \> İş \> İş şablonları**'na gidin.
+1. Düzenlenecek **İş emri türünü** seçin (örneğin, *Satın alma siparişleri*).
+1. Düzenlenecek iş şablonunu seçin.
+1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
+1. **Sıralama** sekmesini açın ve aşağıdaki ayarlara sahip bir satır ekleyin:
+    - **Tablo** - *Geçici iş hareketleri*
+    - **Türetilmiş tablo** - *Geçici iş hareketleri*
+    - **Alan** - *Sevkiyat Kimliği*
+1. **Tamam**'ı seçin.
+1. **İş şablonları** sayfasına yönlendirilirsiniz. Eylem Bölmesinde **İş başlığı sonları**'nı seçin.
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. **Alan adı** *Sevkiyat Kimliği* ile ilişkili onay kutusunu seçin.
+1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

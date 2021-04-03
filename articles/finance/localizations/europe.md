@@ -3,7 +3,7 @@ title: Avrupa'ya genel bakış
 description: Bu konu, Avrupa için Microsoft Dynamics 365 Finance belgelendirme kaynaklarına bağlantılar sağlar.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aca45011b39240da6634ce604cff49697f95a299
-ms.sourcegitcommit: 7cdec5469ff0da145ac4e01caf3287d0627ae2dc
+ms.openlocfilehash: b5aed9d3b5a82b88bb7d1e237aea0aa24dae102f
+ms.sourcegitcommit: 08ac570bece3e4ee4a0f632f51623e328536dfcf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5099911"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5557436"
 ---
 # <a name="europe-overview"></a>Avrupa'ya genel bakış
 
@@ -40,6 +40,7 @@ Bu konu, birincil adresi Avrupa'da olan tüzel kişilikler ayarlamanıza yardım
 - [AB Satış listesi raporlaması](emea-eu-sales-list.md)
 - [Döviz kuru ayarlamaları](emea-exchange-rate-adjustments.md)
 - [Ödeme yöntemlerine ait dosya biçimleri](emea-select-file-formats-for-the-method-of-payments.md)
+- [Brexit etkisi hakkında finans (Globalleştirme) Kılavuzu](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Mali hizmet (ESR) tümleştirmesi](emea-fiscal-service-integration.md)
 - [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Şirket içi stok transferi için bir transfer belgesi oluşturma](tasks/transfer-document-internal-inventory-transfer.md)
