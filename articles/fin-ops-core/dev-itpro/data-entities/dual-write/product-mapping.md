@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115692"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560471"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -92,9 +91,13 @@ Bu modelde, ürün Dataverse'teki iki tablonun birleşimiyle gösterilir: **Ür�
 
 Çift yazma işlevi etkin olduğunda, Finance and Operations'taki ürünler **Taslak** durumunda diğer Dynamics 365 ürünlerinde eşitlenir. Aynı para birimiyle ilk fiyat listesine eklenir. Başka bir deyişle, Dynamics 365 uygulamasında, Finance and Operations uygulamasında ürünün serbest bırakıldığı tüzel kişiliğin para birimiyle eşleşen ilk fiyat listesine eklenir. Belirtilen para birimi için fiyat listesi yoksa fiyat listesi otomatik olarak oluşturulur ve ürün buna atanır. 
 
+Varsayılan fiyat listesini birimle ilişkilendiren çift yazma eklentilerin geçerli uygulaması, Finance and Operations uygulamasıyla ilgili para birimini arar ve fiyat listesi adının alfabetik sıralamasını kullanarak customer engagement uygulamasındaki ilk fiyat listesini bulur. Belirli bir para birimi için birden fazla fiyat listeniz olduğunda, bu para birimi için varsayılan fiyat listesi ayarlamak istediğinizde, fiyat listesi adını, o para birimine yönelik diğer fiyat listelerinden alfabetik sıraya göre daha önde olan bir adla güncelleştirmeniz gerekir.
+
 Varsayılan olarak, Finance and Operations uygulamalarındaki ürünler **Taslak** durumundaki diğer Dynamics 365 uygulamalarıyla eşitlenir. Örneğin, satış siparişi tekliflerinde doğrudan kullanmak amacıyla **Etkin** durumdaki ürünü eşitlemek için şu ayarın seçilmesi gerekir: **Sistem > Yönetim > Sistem yönetimi > Sistem ayarları > Satış** sekmesi ve **Ürünleri etkin durumda oluştur = evet** seçeneğini belirleyin. 
 
 Ürünler eşitlenirken, Finance and Operations uygulamasındaki **Satış birimi** alanı için bir değer girmeniz gerekir; çünkü bu alan Sales'da zorunlu bir alandır.
+
+Dynamics 365 Sales'den ürün aileleri oluşturma, ürünlerin çift yazma eşitlemesiyle desteklenmez.
 
 Ürün eşitleme işleminin Finance and Operations uygulaması ile Dataverse arasında yapıldığını unutmayın. Bu, ürün tablo sütunlarının değerlerinin Dataverse'te değiştirilebileceği anlamına gelir ancak eşitleme tetiklendiğinde (Finance and Operations uygulamasında bir ürün sütunu değiştirildiğinde) bu işlem, Dataverse'teki değerlerin üzerine yazar. 
 

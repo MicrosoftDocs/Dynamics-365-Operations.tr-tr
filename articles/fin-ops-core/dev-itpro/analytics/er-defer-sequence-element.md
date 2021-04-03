@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9aa019e20b218fdaad4659fa65d9df629069204b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b1a9bb072330f586799f5cfea676d941739ca818
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680746"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562178"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 

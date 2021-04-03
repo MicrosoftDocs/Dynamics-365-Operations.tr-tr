@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024682"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500610"
 ---
 # <a name="manage-standard-cost-updates"></a>Maliyet güncelleştirmelerini yönetme
 
@@ -45,6 +45,8 @@ Aşağıdaki örnekte, bir üretim ortamında standart maliyetleri güncelleşti
 Bu örnekte 2020 yılı boyunca güncelleştirmeleri yönetmek için bir ek maliyetlendirme versiyonu kullanılmıştır. Her toplu güncelleştirme için ayrı bir versiyon gibi birden fazla ek maliyetlendirme versiyonu da kullanılabilirdi. Birden fazla maliyetlendirme kullanıldığında, etkin maliyetler birden fazla maliyetlendirme sürümüne dağıtılacağından geri dönüşün etkin maliyetler şeklinde ifade edilmesi gerekir.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Standart maliyet yeniden değerlemesi için mali boyutlar
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Yeni bir standart fiyat etkinleştirildiğinde, genellikle eldeki stok değeri standart maliyet yeniden değerlemesi hareketleriyle yeniden değerlenir. Genellikle maddenin mali boyutları daha sonra hareketlerde deftere nakledilir. Ancak mali boyutların deftere nakledilip nakledilmeyeceğini ve nasıl nakledileceğini denetlemek istiyorsanız *Stok standart maliyeti yeniden değerlemesi için mali boyutları varsayılana ayarlama seçenekleri* adlı özelliği açmak için [özellik yönetimini](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanın. Bu özelliği etkinleştirdikten sonra **Maliyet yönetimi > Stok muhasebesi ilkeleri kurulumu > Parametreler**'e gidin ve yeni **Mali boyut kaynağı** açılır listesini aşağıdaki değerlerden birine ayarlayın.
 

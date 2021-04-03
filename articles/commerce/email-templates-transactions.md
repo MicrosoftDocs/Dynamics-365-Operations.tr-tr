@@ -3,7 +3,7 @@ title: Hareket olayları için e-posta şablonları oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce uygulamasındaki hareket olayları için e-posta şablonlarının nasıl oluşturulacağı, yükleneceği ve yapılandırılacağı açıklanmaktadır.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000804"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555257"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Hareket olayları için e-posta şablonları oluşturma
 
@@ -39,7 +39,7 @@ Belirli bir hareket etkinliğini bir e-posta şablonuyla eşleştirmeden önce �
 
 Yeni bir e-posta şablonu oluşturmak için bu adımları izleyin.
 
-1. Commerce merkezinde **Retail ve Commerce \> Merkez kurulumu \> kuruluş e-posta şablonları** veya **kuruluş yönetim \> kurulum \> kuruluş e-posta şablonları** altındaki **kuruluş e-posta şablonları** 'na gidin.
+1. Commerce merkezinde **Retail ve Commerce \> Merkez kurulumu \> kuruluş e-posta şablonları** veya **kuruluş yönetimi \> kurulum \> kuruluş e-posta şablonları**'na gidin.
 1. **Yeni**'yi seçin.
 1. **Genel** altında, aşağıdaki alanları ayarlayın:
 
@@ -78,28 +78,29 @@ Aşağıda bir örnek verilmiştir.
 
 Aşağıdaki yer tutucular, satış siparişi düzeyinde (satış satırları seviyesinin aksine) tanımlanan verileri alır ve gösterir.
 
-| Yer tutucu adı    | Yer tutucu değeri                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Siparişi veren müşterinin adı.                   |
-| salesid             | Siparişin satış kodu.                                       |
-| deliveryaddress     | Sevk edilen siparişler için teslimat adresi.                         |
-| customeraddress     | Müşterinin adresi.                                     |
-| deliverydate        | Teslimat tarihi.                                               |
-| shipdate            | Sevk tarihi.                                                   |
-| modeofdelivery      | Siparişin teslim modu.                                  |
-| masraflar             | Siparişin toplam masrafları.                                 |
-| vergi                 | Siparişin toplam vergisi.                                     |
-| toplam               | Siparişin toplam tutarı.                                  |
-| ordernetamount      | Siparişin toplam tutarından, toplam verginin çıkarılması.             |
-| iskonto            | Siparişin toplam iskontosu.                                |
-| storename           | Siparişin verildiği mağazanın adı.                |
-| storeaddress        | Siparişi veren mağazanın adresi.                  |
-| storeopenfrom       | Siparişi veren mağazanın açılış saati.             |
-| storeopento         | Siparişi veren mağazanın kapanış saati.             |
-| pickupstorename     | Siparişin alınacağı mağazanın adı.         |
-| pickupstoreaddress  | Siparişin alınacağı mağazanın adresi.      |
-| pickupopenstorefrom | Siparişin alınacağı mağazanın açılış saati. |
-| pickupopenstoreto   | Siparişin alınacağı mağazanın kapanış saati. |
+| Yer tutucu adı     | Yer tutucu değeri                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Siparişi veren müşterinin adı.               |
+| salesid              | Siparişin satış kodu.                                   |
+| deliveryaddress      | Sevk edilen siparişler için teslimat adresi.                     |
+| customeraddress      | Müşterinin adresi.                                 |
+| customeremailaddress | Müşterinin ödeme sırasında girdiği e-posta adresi.     |
+| deliverydate         | Teslimat tarihi.                                           |
+| shipdate             | Sevk tarihi.                                               |
+| modeofdelivery       | Siparişin teslim modu.                              |
+| masraflar              | Siparişin toplam masrafları.                             |
+| vergi                  | Siparişin toplam vergisi.                                 |
+| toplam                | Siparişin toplam tutarı.                              |
+| ordernetamount       | Siparişin toplam tutarından, toplam verginin çıkarılması.         |
+| iskonto             | Siparişin toplam iskontosu.                            |
+| storename            | Siparişin verildiği mağazanın adı.            |
+| storeaddress         | Siparişi veren mağazanın adresi.              |
+| storeopenfrom        | Siparişi veren mağazanın açılış saati.         |
+| storeopento          | Siparişi veren mağazanın kapanış saati.         |
+| pickupstorename      | Siparişin alınacağı mağazanın adı.     |
+| pickupstoreaddress   | Siparişin alınacağı mağazanın adresi.  |
+| pickupopenstorefrom  | Siparişin alınacağı mağazanın açılış saati. |
+| pickupopenstoreto    | Siparişin alınacağı mağazanın kapanış saati. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Sipariş satırı yer tutucuları (satış satırı düzeyi)
 
@@ -169,11 +170,8 @@ Aşağıda bir örnek verilmiştir.
 
 Satış noktasında (POS) alışveriş yapan müşterilere makbuzlar e-postayla gönderilebilir. Genel olarak, e-postayla gönderilen makbuz şablonunu oluşturma adımları, diğer hareket olayları için şablon oluşturma adımlarıyla aynıdır. Ancak, aşağıdaki değişiklikler gereklidir:
 
-- E-posta şablonunun e-posta kodu **emailRecpt** olmalıdır.
 - Makbuz metni **%message%** yer tutucusu kullanılarak e-postaya eklenir. Makbuz gövdesinin doğru bir şekilde oluşturulmasını sağlamak için **%message%** yer tutucusunu HTML **&lt;pre&gt;** ve **&lt;/pre&gt;** etiketleriyle çevreleyin.
-- HTML'de, e-postanın üstbilgisi ve altbilgisi için satır kesmeleri, makbuz gövdesinin doğru bir şekilde görüntülenmesi için HTML **&lt;br /&gt;** etiketlerine dönüştürülür. Makbuz e-postalarınızdaki istenmeyen dikey alanı ortadan kaldırmak için HTML'deki dikey alanın gerekli olmadığı yerlerden satır sonlarını kaldırın.
-
-E-postayı makbuzlarını yapılandırma hakkında daha fazla bilgi için bkz. [E-posta makbuzlarını yapılandırma](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- **%receiptid%** yer tutucu, makbuz kodunu temsil eden bir QR kodu veya barkod göstermek için kullanılabilir. (QR kodları ve barkodlar dinamik olarak oluşturulur ve üçüncü taraf bir hizmet tarafından sunulur.) Bir QR kodunun veya bar kodun e-postayla gönderilen makbuzda nasıl gösterileceği hakkında daha fazla bilgi için, bkz. [işlem ve makbuz e-postalarına QR kodu ya da barkod ekleme](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>E-posta HTML'sini yükleme
 

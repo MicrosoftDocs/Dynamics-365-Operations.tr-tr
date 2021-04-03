@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +15,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 9b7da9867ed86921f3487077081ec63e8b44e92c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141888"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562561"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
+
+[!include [applies to](../includes/applies-to-commerce-finance-scm.md)]
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
