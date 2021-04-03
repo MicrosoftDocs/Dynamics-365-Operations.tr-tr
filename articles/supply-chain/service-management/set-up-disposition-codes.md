@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977550"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470703"
 ---
 # <a name="set-up-disposition-codes"></a>Elden çıkarma kodlarını ayarla 
 
@@ -33,15 +33,15 @@ Müşteri tarafından iade edilen bir maddenin nasıl işleneceğini belirtmek i
 
 Bir maddenin neden iade edildiğini açıklamaya yardımcı olmak için bir neden kodu da ayarlayabilirsiniz. Neden kodları hakkında daha fazla bilgi için bkz. [İade neden kodlarını ayarlama](set-up-return-reason-code.md).
 
-1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **Elden çıkarma kodları**'na tıklayın.
+1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **Elden çıkarma kodları**'na gidin.
 
-2.  Yeni bir elden çıkarma kodu oluşturmak için **Yeni**'ye tıklayın veya CTRL+N tuşlarına basın.
+2.  Yeni değerlendirme kodu oluşturmak için **Yeni**'yi seçin.
 
 3.  Benzersiz bir açıklayıcı ad girin, bir eylem seçin ve elden çıkarma kodu için bir açıklama girin.
 
-4.  Bu elden çıkarma koduyla herhangi bir müşteri giderini ilişkilendirmek istiyorsanız, **Giderleri ayarla** formunu açmak için **Giderler** düğmesini tıklatın.
+4.  Bu elden çıkarma koduyla herhangi bir müşteri giderini ilişkilendirmek istiyorsanız, **Giderleri ayarla** formunu açmak için **Giderler** düğmesini seçin.
 
-5.  Şirketin kendi elden çıkarma koduyla eşleşecek herhangi bir harici kod tanımlamak istiyorsanız **Harici kodlar** formunu açmak için **Harici kodlar** düğmesini tıklatın.
+5.  Şirketin kendi elden çıkarma koduyla eşleşecek herhangi bir harici kod tanımlamak istiyorsanız **Harici kodlar** formunu açmak için **Harici kodlar** düğmesini seçin.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

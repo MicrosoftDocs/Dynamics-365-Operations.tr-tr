@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5cf5b8cd297f1686998688979a736f47f7d100c4
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3ab2117ea0d4cf7413dddf09d953e0da39e6882a
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114631"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465714"
 ---
 # <a name="process-compensation"></a>Ücret işleme
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır. Bu konu, bir personelin performansını değerlendirmeye katılmadan sabit ücret planları için ücret işleme temel akışını ele almaktadır.
 
@@ -34,7 +36,7 @@ Personelinize başarı artışı vermek için, tüm Departmanlarınız için sab
 ## <a name="set-up-the-compensation-process"></a>Ücret işlemini ayarlama
 Bir işlem olayı ücret işleme parametreleri belirtmenize olanak verir. Bu ücretlendirme tutarlarını belirlemek için değerleme tarih aralığını ve yeni ücret tutarlarının etkin olacağı tarihi içerir.
 
-Sabit ücret planlarınız Yüzde türünde işe alma kuralı kullanıyorsa, isteğe bağlı olarak sabit ödemeli eşit dağıtılmış işe alma tarihi de ekleyebilirsiniz. Bu planlar için döngü başlangıç tarihinden sonra ve sabit ödemeli eşit dağıtılmış işe alma tarihinden önce işe alınan bir kişi hesaplanan başarı veya genel artışının %100'nü alacaktır. Sabit ödemeli eşit dağıtılmış işe alma tarihinden sonra ve döngü bitiş tarihinden önce işe alınan bir kişi, işe alındığında toplam döngü gün sayısından kaç gün geçtiği temel alınarak hesaplanan artışın bir bölümünü alır. Örneğin döngü 1 Ocak ile 31 Aralık arasındaysa ve 1 Nisan tarihli sabit ödemeli eşit dağıtılmış işe alma tarihimiz varsa, Mart ayında işe alınan personel hesaplanan tam artışı alırken 1 Temmuz tarihinde işe alınan bir personel yaklaşık olarak hesaplanan artışın yarısını alır.
+Sabit ücret planlarınız Yüzde türünde işe alma kuralı kullanıyorsa, isteğe bağlı olarak sabit ödemeli eşit dağıtılmış işe alma tarihi de ekleyebilirsiniz. Bu planlar için döngü başlangıç tarihinden sonra ve sabit ödemeli eşit dağıtılmış işe alma tarihinden önce işe alınan bir kişi hesaplanan başarı veya genel artışının %100'ünü alacaktır. Sabit ödemeli eşit dağıtılmış işe alma tarihinden sonra ve döngü bitiş tarihinden önce işe alınan bir kişi, işe alındığında toplam döngü gün sayısından kaç gün geçtiği temel alınarak hesaplanan artışın bir bölümünü alır. Örneğin döngü 1 Ocak ile 31 Aralık arasındaysa ve 1 Nisan tarihli sabit ödemeli eşit dağıtılmış işe alma tarihimiz varsa, Mart ayında işe alınan personel hesaplanan tam artışı alırken 1 Temmuz tarihinde işe alınan bir personel yaklaşık olarak hesaplanan artışın yarısını alır.
 
 İşlem olayı **Belirli bir nokta** tarihi, yalnızca belirli değişken ücret planlarını işlemek için kullanılır ve burada açıklanmaz. **İnceleme son tarihi** tüm önerileri yapmak için son tarihtir, böylece yeni ücret tutarları personelin kaydına yüklenebilir. İnceleme tarihi yalnızca bilgilendirme amaçlıdır.
 

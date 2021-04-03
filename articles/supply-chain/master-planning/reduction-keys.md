@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001861"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470781"
 ---
 # <a name="forecast-reduction-keys"></a>Tahmin azaltma anahtarları
 
@@ -198,7 +198,7 @@ Bu nedenle, aşağıdaki planlı siparişleri oluşturulur.
 Bir tahmin azaltma anahtarı **Hareketler - azaltma anahtarı** ve **Yüzde - azaltma anahtarı** yöntemlerinde tahmin gereksinimlerini azaltmak için kullanılır. Bir azaltma anahtarı oluşturmak ve ayarlamak için bu adımları izleyin.
 
 1. **Master planlama \> Kurulum \> kapsam \> Azaltma anahtarları**'na gidin.
-2. **Yeni**'yi seçin veya bir azaltma anahtarı oluşturmak için **Ctrl+N**'ye basın.
+2. Yeni bir azaltma anahtarı oluşturmak için **Yeni**'yi seçin.
 3. **Azaltma anahtarı** alanında, tahmin edilen azaltma anahtarı için benzersiz bir tanımlayıcı girin. Daha sonra **Adı** alanında, bir ad girin. 
 4. Her bir dönemdeki dönemleri ve azaltma anahtarı yüzdesini tanımlayın:
 

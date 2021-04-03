@@ -3,7 +3,7 @@ title: Teams'de Human Resources uygulaması
 description: Bu konu sizi Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulamasıyla tanıştırır.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114597"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487885"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, çalışanların hızlı bir şekilde izin istemelerine ve izin bakiyesi bilgilerini Microsoft Teams platformunda görüntülemelerine olanak tanır. Çalışanlar, bilgi istemek için bir botla etkileşime geçebilir. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Ek olarak, ekipte yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirler.
 
-![Human Resources Teams izinler uygulaması botu](./media/hr-admin-teams-leave-app-bot.png)
+![Human Resources Teams izinler uygulaması botu](./media/hr-teams-leave-app-bot.png)
 
 ![Human Resources Teams izin uygulaması İzin sekmesi](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulamas�
 
 ## <a name="install-and-setup"></a>Yükleme ve ayarlama
 
-Human Resources uygulamasını Teams mağazasında bulabilirsiniz. Teams uygulamasını yükleme hakkında bilgi için bkz. [Teams'de izin isteklerini yönetme](hr-teams-leave-app.md).
+Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz. Teams uygulamasını yükleme hakkında bilgi için bkz. [Teams'de izin isteklerini yönetme](hr-teams-leave-app.md).
 
 Teams'de uygulama izinlerini yönetme hakkında bilgi için bkz. [Microsoft Teams platformunda uygulama izin ilkelerini yönetme](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Kullanıcılarınızın uygulamadaki İzin ve devamsızlık takvimini görüntülemesini istiyorsanız Özellik yönetimindeki **Teams'de İzin ve devamsızlık takvimi** özelliğini etkinleştirmeniz gerekir. Özellikleri etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması için bildirimleri etkinleştirme
 
-Kullanıcıların Teams uygulamasında izin talebi bildirimlerini almasını istiyorsanız, Human Resources uygulamasında bildirimleri etkinleştirmelisiniz.
+Kullanıcıların Teams uygulamasında izin talebi bildirimlerini almasını istiyorsanız Dynamics 365 Human Resources uygulamasında bildirimleri etkinleştirmelisiniz.
 
 >[!NOTE]
->Yalnızca Teams'e kaydolan ve Human Resources Teams uygulamasını kullanan kullanıcılar bildirim alır.
+>Yalnızca Teams'e kaydolan ve Dynamics 365 Human Resources Teams uygulamasını kullanan kullanıcılar bildirim alır.
 
 1. İnsan Kaynakları, **sistem yönetimi**'ni seçin.
 
@@ -66,7 +68,7 @@ Kullanıcıların Teams uygulamasında izin talebi bildirimlerini almasını ist
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Bireysel kullanıcılar için Teams bildirimlerini açma veya kapatma
 
-Human Resources Teams uygulaması için bildirimleri etkinleştirdikten sonra, bireysel kullanıcılar için bildirimleri açıp kapatabilirsiniz.
+Dynamics 365 Human Resources Teams uygulaması için bildirimleri etkinleştirdikten sonra, bireysel kullanıcılar için bildirimleri açıp kapatabilirsiniz.
 
 1. İnsan Kaynakları, **sistem yönetimi**'ni seçin.
 
@@ -82,9 +84,28 @@ Human Resources Teams uygulaması için bildirimleri etkinleştirdikten sonra, b
 
 6. **Kaydet**'i seçin.
 
-## <a name="known-issues"></a>Bilinen sorunlar
+## <a name="supported-languages"></a>Desteklenen diller
 
-| Çıkış | Durum |
+Teams'deki Dynamics 365 Human Resources uygulaması aşağıdaki dilleri destekler:
+
+| Yerel Ayar Kimliği | Dil |
+| --- | --- |
+| de-DE | Almanca (Almanya) |
+| es-ES | İspanyolca (İspanya) |
+| es-MX | İspanyolca (Meksika) |
+| fr-CA | Fransızca (Kanada) |
+| fr-FR | Fransızca (Fransa) |
+| it-IT | İtalyanca (İtalya) |
+| nl-NL | Felemenkçe (Hollanda) |
+| pt-BR | Portekizce (Brezilya) |
+| tr-TR | Türkçe (Türkiye) |
+| zh-CN | Çince (Basitleştirilmiş) |
+
+## <a name="notes"></a>Notlar
+
+Aşağıdaki iş öğeleri gelecekteki sürümler için planlanmıştır:
+
+| İş maddesi | Durum |
 | --- | --- |
 | İleriki bir tarih için izin işlenirken bakiye yanlıştır. | Tahmin, henüz mevcut değil. Bakiye, geçerli tarih için görüntülenir. |
 | **İncelemede** isteği iptal edilemiyor. | Bu işlev şu anda desteklenmemektedir ve gelecekteki bir sürümde eklenecektir. |
@@ -96,11 +117,11 @@ Bir kullanıcı Human Resources Teams uygulamasında oturum açarken veya uygula
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
 
-Bir kullanıcı uygulamada oturum açamadığı için sizinle iletişim kurarsa, kullanıcının Human Resources'ta ilişkili bir çalışan kaydı olduğunu doğrulayın.
+Bir kullanıcı uygulamada oturum açamadığı için sizinle iletişim kurarsa kullanıcının Human Resources'ta ilişkili bir çalışan kaydı olduğunu doğrulayın.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Teams'deki Human Resources uygulamasındaki izin isteklerini onaylarken hata oluştu
 
-Kullanıcı Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsa, aşağıdaki sorun giderme adımlarını gerçekleştirin:
+Kullanıcı Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsa aşağıdaki sorun giderme adımlarını deneyin:
 
 1. Teams hesabının Human Resources'a erişmek için kullanılan hesapla aynı olduğunu doğrulayın.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001960"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476687"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -44,20 +44,24 @@ Mühendislik değişikliği yönetimi, ürün sürümü oluşturma ve yönetme, 
 
 Önceki video ([Dynamics 365 Supply Chain Management'taki değişiklik yönetimi özellikleri](https://youtu.be/N313FqvRuBc)) YouTube'daki [Finance and Operations oynatma listesinde](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) yer almaktadır.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Sisteminiz için mühendislik değişikliği yönetimini açma
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Sisteminiz için mühendislik değişikliği yönetimi ve sürüm boyutu özelliklerini açma
 
-Önce, aşağıdaki adımları izleyerek mühendislik değişikliği yönetimini açın.
+Mühendislik değişikliği yönetimini kullanabilmeniz için hem *Mühendislik Değişikliği Yönetimi* özelliğini hem de özelliğin yapılandırma anahtarını etkinleştirmeniz gerekir. Hareketlerdeki ürünlerin sürüm boyutunu da izlemek istiyorsanız (isteğe bağlı) *Ürün sürüm boyutu* özelliğini ve özelliğin yapılandırma anahtarını da etkinleştirmeniz gerekir.
+
+Önce aşağıdaki adımları izleyerek özelliği etkinleştirin.
 
 1. [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin.
 1. Güncelleştirmeleri denetleyin.
 1. **Mühendislik Değişikliği Yönetimi** adlı özelliği açın.
+1. Kullanmak istiyorsanız **Ürün boyutu sürümü** adlı özelliği de açın.
 
-Sonra, aşağıdaki adımları izleyerek **Mühendislik değişikliği Yönetimi** yapılandırma anahtarını açın.
+Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
 1. Sisteminizi [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
 1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
-1. **Ticaret** düğümünü genişletin ve **Mühendislik Değişikliği Yönetimi** onay kutusunu işaretleyin.
+1. **Ticaret** düğümünü genişletme
+1. **Mühendislik Değişikliği Yönetimi** onay kutusunu seçin.
+1. Kullanmak istiyorsanız **Ürün boyutu - Sürüm** onay kutusunu da seçin.
 1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

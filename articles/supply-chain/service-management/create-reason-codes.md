@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965989"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470989"
 ---
-# <a name="create-reason-codes"></a>Neden kodları oluşturma    
+# <a name="create-reason-codes"></a>Neden kodları oluşturma
 
 [!include [banner](../includes/banner.md)]
 
+1. **Servis yönetimi** \> **Kurulum** \> **Servis siparişleri** \> **Aşama neden kodları**'na gidin.
 
-1.  **Servis yönetimi** \> **Kurulum** \> **Servis siparişleri** \> **Aşama neden kodları**'na tıklayın.
+1. Yeni mod oluşturmak için **Yeni**'yi seçin.
 
-2.  Yeni bir neden kodu oluşturmak için CTRL+N tuşlarına basın.
-
-3.  Neden kodunu kaydetmek için CTRL+S tuşlarına basın.
+1. Yeni neden kodunu kaydetmek için **Kaydet**'i seçin.
 
 Bir servis siparişi aşamasını güncelleştirme nedeninizi açıklamak için bir neden kodu vermeniz istendiğinde, burada ayarladığınız neden kodlarından herhangi birini seçebilirsiniz.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

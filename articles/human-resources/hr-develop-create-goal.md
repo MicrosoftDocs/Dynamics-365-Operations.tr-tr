@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 875d0ae7ae6b93f3fc29aeb4617671de289e6c63
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 9d2a8b50f88e1f321e376923ba1da8497cedc89f
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115836"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465042"
 ---
 # <a name="create-a-goal"></a>Hedef oluşturma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz. Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

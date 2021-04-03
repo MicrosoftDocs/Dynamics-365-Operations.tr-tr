@@ -3,7 +3,7 @@ title: Stok durdurma
 description: Bu konuda, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 author: perlynne
 manager: tfehr
-ms.date: 01/17/2020
+ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 646ddc231b1ee25b13fdeb779b2bbeae6dd8c2a9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011609"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487909"
 ---
 # <a name="inventory-blocking"></a>Stok durdurma
 
@@ -32,37 +32,81 @@ ms.locfileid: "5011609"
 Bu konuda, Supply Chain Management'ın kalite denetim sürecinin bir parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 
 Stok maddelerini aşağıdaki şekillerde durdurabilirsiniz:
--   El ile
--   Kalite emri oluşturma
--   Kalite emri oluşturan bir işlemi kullanma
--   Stok durumu durdurmayı kullanma
+
+- El ile
+- Kalite emri oluşturma
+- Kalite emri oluşturan bir işlemi kullanma
+- Stok durumu durdurmayı kullanma
 
 ## <a name="blocking-items-manually"></a>Maddeleri el ile durdurma
+
 **Stok durdurma** sayfasında bir hareket oluşturarak bir miktar maddeyi durdurabilirsiniz. Yalnızca eldeki stok olarak mevcut olan maddeler el ile durdurulabilir. El ile engellenen miktarlar için, planlama etkinliklerinin beklenen girişlerin beklenen eldeki miktar olarak eklenip eklenmeyeceğine karar vermeniz gerekir. Beklenen girişler, inceleme tamamlandıktan sonra eldeki stok olarak kullanılabilir olması beklenen durdurulmuş maddelerdir. Beklenen tarihi koruyabilirsiniz. Varsayılan olarak, **Beklenen girişler** seçeneği, bir kalite emri aracılığıyla durdurulan maddeler için seçilir. **Stok durdurma** sayfasındaki hareketi silerek miktara uygulanan el ile durdurmayı iptal edebilirsiniz.
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Bir kalite emri oluşturarak maddeleri durdurma
+
 **Kalite emirleri** sayfasında bir kalite meri oluşturarak incelenmesi gereken maddeleri belirtebilirsiniz. Bir kalite emri oluşturduğunuzda, bir madde için belirttiğiniz miktar durdurulur. Bir kalite emriyle ilişkili olan örnekleme planı yalnızca incelenmesi gereken maddelerin miktarını denetler; durdurulan miktar kontrol edilmez. Kalite emrine girilen, miktar durdurulan miktardır; örnekleme planında belirtilene bakılmaksızın inceleme için gönderilmesi gerekir.
 
 > [!NOTE]
 > Toplu iş bitiş tarihi ve stok durumu bloke etme özelliklerini kullanmak Master planlama tarafından desteklenmez. Bu, Master planlama sırasında ortaya çıkabilecek Eldeki stoğun çift dışarıda tutulmasına neden olabilir. Süresi dolan toplu işleri durdurmak için stok durumu yerine toplu iş değerlendirme kodlarına güvenmenizi öneririz.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Kalite meri oluşturan bir işlem kullanarak maddeleri durdurma
+
 Kalite işlemi bir maddenin incelenmesi gerektiğini belirtirse, bir miktar madde otomatik olarak durdurulur. Bu nedenle, bir kalite emri otomatik olarak oluşturulduğunda, kalite emriyle ilişkili olan madde örnekleme planı hem durdurulan madde miktarını hem de incelenmesi gereken miktarı denetler. **Madde örnekleme** sayfasında **Tam durdurma** seçilirse, örneğin bir satınalma siparişi satırındaki tüm miktar, madde örnekleme adedine bakılmaksızın inceleme sırasında durdurulur.
+
 ### <a name="example"></a>Örnek
 
 Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledildiğinde bir kalite emri oluşturulur. **Kalite ilişkilendirmeleri** sayfasında, satınalma siparişi sevk irsaliyesi naklinin kalite emrini etkinleştiren işlem olduğunu belirtirsiniz.
 
-|Ayar                                                                     |Kullanıcı eylemi                 |Sonuç             |
-|--------------------------------------------------------------------------|----------------------------|-------------------|
+|Ayar |Kullanıcı eylemi |Sonuç |
+|----|---|---|
 | Kalite ilişkilendirme, kalite emrinin satınalma siparişi sevk irsaliyesi deftere nakledildiğinde oluşturulması gerektiğini belirtir. Kalite emrinin madde örnekleme ayarı, satınalam siparişi satırındaki miktarın yüzde 10'unun incelenmesi gerektiğini belirtir. Ayrıca, madde örnekleme ayarında **Tam durdurma** seçili olduğundan, satınalma sipariş satırındaki tüm miktarın, incelenmeye gönderilen miktara bakılmaksızın, inceleme sırasında durdurulması gerekir. | Sevk irsaliyesi deftere nakledilir. | Kalite emri oluşturulur. Satınalma siparişi miktarının yüzde onu incelemeye gönderilir.  Satınalma sipariş satırındaki tüm miktar durdurulur. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Stok durumu durdurmayı kullanarak maddeleri durdurma
+
 **Stok durumları** sayfasındaki **Stok durdurma** parametresini kullanarak hangi stok durumlarının durdurulacağını belirtebilirsiniz. Üretim emirleri, satış siparişleri, transfer emirleri, giden hareketler veya proje tümleştirmeleri için stok durumlarını durdurma durumları olarak kullanamazsınız. Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. Maddelerin durumu **Arızalı** olduğunda ve bu maddeler üzerinde master planlama çalıştırıldığında, maddeler eksik olarak kabul edilir ve stok otomatik olarak yenilenir.
 
+## <a name="take-care-when-blocking-items-that-use-both-inventory-status-blocking-and-quality-order-blocking"></a>Hem stok durumu engelleme hem de kalite emri engellemeyi kullanan maddeleri engellerken dikkatli olun
 
+**Stok durdurma** parametresi etkinleştirilmiş bir stok durumuna sahip stokla ilişkili bir kalite emri oluşturabilirsiniz. Bu durumda, kalite emri, stok durumu tarafından oluşturulana ek olarak bir stok durdurma kaydı oluşturur. Kalite emri stok durdurması **Beklenen girişler** parametresini etkinleştireceğinden, bu, stok durumu tarafından da engellenen fazladan *Sipariş edilen stok* hareketi oluşturur. Bu birleşim, oluşturulan stok hareketlerinin anlamını anlamada zorluklara yol açabilir çünkü toplam durdurulan miktar eldeki toplam miktarın üzerindeymiş gibi görünür. 1 parçayı örnek almak için oluşturulan bir kalite emri ile 10 adet A0001 maddesinin alınması örneğindeki hareketleri inceleyelim. Davranış ayrıca **Stok ve ambar yönetimi parametreleri** sayfasında **Sipariş edilen maddeleri rezerve et** seçeneğinin etkin olup olmadığına da bağlıdır.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+>[!NOTE]
+>Stok durumu engellemeyi ve kalite emirlerini birlikte kullanıyorsanız **Sipariş edilen maddeleri rezerve et** seçeneğinin etkinleştirilmesini kesinlikle öneririz.
+
+### <a name="example-with-reserve-ordered-items-enabled"></a>"Sipariş edilen maddeleri rezerve et" etkin örneği
+
+**Rezerve edilen maddeleri rezerve et** etkinleştirildiğinde, tüm stok durdurma hareketleri *Rezerve edilmiş fiziksel* veya *Rezerve edilmiş sipariş* durumuna sahip olur.
+
+| Stok hareketi referansı | Giriş | Çıkış | Miktar | Tesis | Ambar | Stok durumu | Yer | Plaka | Yorum |
+|---|---|---|---|---|---|---|---|---|---|
+| Satın alma siparişi | Satın alınan | | 10 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | | 
+| Stok durdurma | | Fiziksel rezerve miktar | -9 adet | 2 | 24 | Bloke etme | | | Stok durumu durdurma tarafından oluşturulan hareket |
+| Stok durdurma | | Fiziksel rezerve miktar | -1 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | Kalite emri örnekleme durdurması tarafından oluşturulan hareket |
+| Stok durdurma | Sipariş edilen | | 1 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | Kalite emri örnekleme durdurmadan beklenen girişler |
+| Stok durdurma | | Siparişli rezerve miktar | 1 adet | 2 | 24 | Bloke etme | | | Stok durumu durdurma tarafından oluşturulan hareket
+
+### <a name="example-with-reserve-ordered-items-disabled"></a>"Sipariş edilen maddeleri rezerve et" devre dışı örneği
+
+**Sipariş edilen maddeleri rezerve et** devre dışı bırakıldığında, beklenen girişler *Sipariş edildi* durumunda olduklarından rezerve edilemez, bu nedenle bazı durdurmalar *Siparişte* durumunda bırakılır.
+
+| Stok hareketi referansı | Giriş | Çıkış | Miktar | Tesis | Ambar | Stok Durumu | Yer | Plaka | Yorum |
+|---|---|---|---|---|---|---|---|---|---|
+| Satın alma siparişi | Satın alınan | | 10 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | |
+| Stok durdurma | | Fiziksel rezerve miktar | -9 adet | 2 | 24 | Bloke etme | | | Stok durumu durdurma tarafından oluşturulan hareket |
+| Stok durdurma | | Fiziksel rezerve miktar | -1 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | Kalite emri örnekleme durdurması tarafından oluşturulan hareket |
+| Stok durdurma | Sipariş edilen | | 1 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | Kalite emri örnekleme durdurmadan beklenen girişler |
+| Stok durdurma | | Siparişte | 1 adet | 2 | 24 | Bloke etme | ALND | receiptLp1 | Stok durumu durdurma tarafından oluşturulan hareket
+
+İki durum arasındaki hareket durumu ve boyut farklılığına dikkat edin. Bu nedenle, **Sipariş edilen maddeleri rezerve et** seçeneğini etkinleştirmenizi öneririz.
+
+<!-- KFM: (Enable this section when the feature leaves private preview)
+
+### Disable expected receipts from quality orders that sample blocked inventory feature
+
+To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
+
+-->
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Stok durdurma oluştur ve sürdür](tasks/create-maintain-inventory-blocking.md)
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115088"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463346"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği çeşitli türde devamsızlıkları tanımlayabilir. İzin tiplerini kuruluşunuzun gereksinimlerine göre uyarlayabilirsiniz. İzin türleri örnekleri:
 
@@ -72,8 +74,7 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
    
  3. İzin türü için **ileriye doğru izin türü** ayarlayın. Bu seçeneği belirlediğinizde, tüm ileri düzey bakiyeleri belirtilen izin türüne aktarılır. İleriye yönelik izin türü de, bırak ve devamsızlık planına dahil edilmesi gerekir. 
  
- 4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği konfigüre ettiğinizde, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Ayrıca, sona erme kuralının geçerlilik tarihini ayarlayabilirsiniz. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır. 
- 
+ 4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği konfigüre ettiğinizde, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Ayrıca, sona erme kuralının geçerlilik tarihini ayarlayabilirsiniz. Geçerlilik tarihi, izin süresinin dolmasını işleyen toplu işlemin ne zaman çalıştırılmaya başlayacağını veya kuralın ne zaman geçerli olacağını belirlemek için kullanılır. Toplu işlem işlenecek şekilde ayarlandıktan sonra sona erme süresi her zaman izin planı başlangıç tarihinde gerçekleşir. Örneğin, plan başlangıç tarihi 1/1/2020 olabilir ancak kural 6/1/2020'ye kadar oluşturulmamıştır. Geçerlilik tarihi 6/1/2020 olarak ayarlandığında kural bir sonraki yıl sınırı olan 1/1/2021 tarihinde işlenir. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır. 
  
 ## <a name="see-also"></a>Ayrıca bkz.
 
