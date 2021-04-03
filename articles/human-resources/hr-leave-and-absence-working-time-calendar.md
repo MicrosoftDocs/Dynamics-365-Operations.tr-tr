@@ -18,60 +18,65 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ecabac54134629074ac01944963a037c2cdc63c9
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115114"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467181"
 ---
-# <a name="create-a-working-time-calendar"></a><span data-ttu-id="30838-103">Çalışma zamanı takvimi oluşturma</span><span class="sxs-lookup"><span data-stu-id="30838-103">Create a working time calendar</span></span>
+# <a name="create-a-working-time-calendar"></a><span data-ttu-id="59412-103">Çalışma zamanı takvimi oluşturma</span><span class="sxs-lookup"><span data-stu-id="59412-103">Create a working time calendar</span></span>
 
-<span data-ttu-id="30838-104">Dynamics 365 Human Resources'deki bir çalışma zamanı takvimi, çalışanların kuruluşunuzda çalıştığı günleri ve saatleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="30838-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="30838-105">Bir çalışan zaman aşımı isteği gönderdiğinde, tatiller ve kapanışlar hakkında endişelenmenize gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="30838-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="30838-106">Zaman aşımı isteklerini kolaylaştırmak için, bu öğeleri kuruluşunuz için konfigüre edin:</span><span class="sxs-lookup"><span data-stu-id="30838-106">To streamline time-off requests, configure these items for your organization:</span></span>
+<span data-ttu-id="59412-104">Dynamics 365 Human Resources'deki bir çalışma zamanı takvimi, çalışanların kuruluşunuzda çalıştığı günleri ve saatleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="59412-104">A working time calendar in Dynamics 365 Human Resources shows the days and hours that employees work in your organization.</span></span> <span data-ttu-id="59412-105">Bir çalışan zaman aşımı isteği gönderdiğinde, tatiller ve kapanışlar hakkında endişelenmenize gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="59412-105">When an employee submits a time-off request, they don't have to worry about holidays and closures.</span></span>
 
-- <span data-ttu-id="30838-107">çalışma takvimi</span><span class="sxs-lookup"><span data-stu-id="30838-107">Working time calendar</span></span>
-- <span data-ttu-id="30838-108">Tatiller ve kapanışlar</span><span class="sxs-lookup"><span data-stu-id="30838-108">Holidays and closures</span></span>
-- <span data-ttu-id="30838-109">Çalışmama süresi</span><span class="sxs-lookup"><span data-stu-id="30838-109">Non-work time</span></span>
+<span data-ttu-id="59412-106">Zaman aşımı isteklerini kolaylaştırmak için, bu öğeleri kuruluşunuz için konfigüre edin:</span><span class="sxs-lookup"><span data-stu-id="59412-106">To streamline time-off requests, configure these items for your organization:</span></span>
 
-<span data-ttu-id="30838-110">Çalışma zamanı takvimi ayarlarken son iki öğeyi ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30838-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="30838-111">Ayrıca, bunları ayrı olarak yapılandırabilir veya güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30838-111">You can also configure or update them separately.</span></span>
+- <span data-ttu-id="59412-107">çalışma takvimi</span><span class="sxs-lookup"><span data-stu-id="59412-107">Working time calendar</span></span>
+- <span data-ttu-id="59412-108">Tatiller ve kapanışlar</span><span class="sxs-lookup"><span data-stu-id="59412-108">Holidays and closures</span></span>
+- <span data-ttu-id="59412-109">Çalışmama süresi</span><span class="sxs-lookup"><span data-stu-id="59412-109">Non-work time</span></span>
 
-## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="30838-112">Bir çalışma zamanı takvimi ayarlama</span><span class="sxs-lookup"><span data-stu-id="30838-112">Set up a working time calendar</span></span>
+<span data-ttu-id="59412-110">Çalışma zamanı takvimi ayarlarken son iki öğeyi ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="59412-110">You can add the last two items while you're setting up a working time calendar.</span></span> <span data-ttu-id="59412-111">Ayrıca, bunları ayrı olarak yapılandırabilir veya güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="59412-111">You can also configure or update them separately.</span></span>
 
-<span data-ttu-id="30838-113">Günlerinizi ve operasyon saatlerinizi gösteren en az bir çalışma zamanı takvimi ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="30838-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="30838-114">Birden fazla ülkede ve bölgede konumlarınız varsa, her alan için bir çalışma zamanı takvimi ayarlamak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30838-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
+## <a name="set-up-a-working-time-calendar"></a><span data-ttu-id="59412-112">Bir çalışma zamanı takvimi ayarlama</span><span class="sxs-lookup"><span data-stu-id="59412-112">Set up a working time calendar</span></span>
 
-1. <span data-ttu-id="30838-115">**Kuruluş yönetimi** sayfasında **Takvimler** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30838-115">On the **Organization administration** page, select **Calendars**.</span></span>
+<span data-ttu-id="59412-113">Günlerinizi ve operasyon saatlerinizi gösteren en az bir çalışma zamanı takvimi ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="59412-113">Set up at least one working time calendar that shows your days and hours of operation.</span></span> <span data-ttu-id="59412-114">Birden fazla ülkede ve bölgede konumlarınız varsa, her alan için bir çalışma zamanı takvimi ayarlamak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="59412-114">If you have locations in multiple countries and regions, you might want to set up a working time calendar for each area.</span></span>
 
-2. <span data-ttu-id="30838-116">**Yeni**'yi seçin ve takviminiz için bir ad ve açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="30838-116">Select **New** and enter a name and description for your calendar.</span></span>
+1. <span data-ttu-id="59412-115">**Kuruluş yönetimi** sayfasında **Takvimler** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="59412-115">On the **Organization administration** page, select **Calendars**.</span></span>
 
-3. <span data-ttu-id="30838-117">**Oluşturma seçenekleri** altında, organizasyonunuzun iş günlerini seçin ve çalışma sürelerini girin.</span><span class="sxs-lookup"><span data-stu-id="30838-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
-   - <span data-ttu-id="30838-118">Tatil veya kapanış eklemek için, **tatiller ve kapanışlar** yanında **Ekle** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="30838-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
-   - <span data-ttu-id="30838-119">Yarım ve daha fazla mola gibi çalışma dışı zamanı eklemek için **çalışma dışı süresi** altında **Ekle**'yi seçin ve ad ve zaman aralığını girin.</span><span class="sxs-lookup"><span data-stu-id="30838-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
+2. <span data-ttu-id="59412-116">**Yeni**'yi seçin ve takviminiz için bir ad ve açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="59412-116">Select **New** and enter a name and description for your calendar.</span></span>
 
-4. <span data-ttu-id="30838-120">**Günler** altında, takviminizde günleri oluşturmak için **Oluştur** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30838-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="30838-121">Takviminizin tarih aralığını girin ve **gün oluştur** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="30838-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
+3. <span data-ttu-id="59412-117">**Oluşturma seçenekleri** altında, organizasyonunuzun iş günlerini seçin ve çalışma sürelerini girin.</span><span class="sxs-lookup"><span data-stu-id="59412-117">Under **Generation options**, select the work days for your organization and enter work times.</span></span> 
+   - <span data-ttu-id="59412-118">Tatil veya kapanış eklemek için, **tatiller ve kapanışlar** yanında **Ekle** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="59412-118">To add a holiday or closure, select the **Add** button next to **Holidays and closures**.</span></span>
+   - <span data-ttu-id="59412-119">Yarım ve daha fazla mola gibi çalışma dışı zamanı eklemek için **çalışma dışı süresi** altında **Ekle**'yi seçin ve ad ve zaman aralığını girin.</span><span class="sxs-lookup"><span data-stu-id="59412-119">To add non-work time, like lunches or breaks, select **Add** under **NON-WORK TIME** and enter the name and time range.</span></span>
 
-5. <span data-ttu-id="30838-122">Çalışma zamanlamaları eklemek için, **çalışma zamanlaması** altında, **Ekle**'yi seçin ve her iş çizelgesi için saatleri girin.</span><span class="sxs-lookup"><span data-stu-id="30838-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
+4. <span data-ttu-id="59412-120">**Günler** altında, takviminizde günleri oluşturmak için **Oluştur** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="59412-120">Under **Days**, select **Generate** to generate the days in your calendar.</span></span> <span data-ttu-id="59412-121">Takviminizin tarih aralığını girin ve **gün oluştur** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="59412-121">Enter the date range for your calendar and then select **Generate days**.</span></span>
 
-## <a name="configure-holidays-and-closures"></a><span data-ttu-id="30838-123">Tatiller ve kapanışları yapılandırın</span><span class="sxs-lookup"><span data-stu-id="30838-123">Configure holidays and closures</span></span>
+5. <span data-ttu-id="59412-122">Çalışma zamanlamaları eklemek için, **çalışma zamanlaması** altında, **Ekle**'yi seçin ve her iş çizelgesi için saatleri girin.</span><span class="sxs-lookup"><span data-stu-id="59412-122">To add work schedules, under **Work schedule**, select **Add** and then enter the times for each work schedule.</span></span>
 
-<span data-ttu-id="30838-124">Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30838-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
+## <a name="configure-holidays-and-closures"></a><span data-ttu-id="59412-123">Tatiller ve kapanışları yapılandırın</span><span class="sxs-lookup"><span data-stu-id="59412-123">Configure holidays and closures</span></span>
 
-1. <span data-ttu-id="30838-125">**Kuruluş yönetimi** sayfasında **Tatiller ve kapanışlar** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30838-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
+<span data-ttu-id="59412-124">Tatilleri ve kapanışları, çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="59412-124">You can add or change holidays and closures separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="30838-126">**Yeni**'yi seçin ve tatil veya kapanış için bir ad ve tarih girin.</span><span class="sxs-lookup"><span data-stu-id="30838-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
+1. <span data-ttu-id="59412-125">**Kuruluş yönetimi** sayfasında **Tatiller ve kapanışlar** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="59412-125">On the **Organization administration** page, select **Holidays and closures**.</span></span>
 
-## <a name="configure-non-work-time"></a><span data-ttu-id="30838-127">Çalışmama süresi yapılandırın</span><span class="sxs-lookup"><span data-stu-id="30838-127">Configure non-work time</span></span>
+2. <span data-ttu-id="59412-126">**Yeni**'yi seçin ve tatil veya kapanış için bir ad ve tarih girin.</span><span class="sxs-lookup"><span data-stu-id="59412-126">Select **New** and enter a name and date for the holiday or closure.</span></span>
 
-<span data-ttu-id="30838-128">Çalışmama süreleri çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="30838-128">You can add or change non-work times separately from a working time calendar.</span></span>
+## <a name="configure-non-work-time"></a><span data-ttu-id="59412-127">Çalışmama süresi yapılandırın</span><span class="sxs-lookup"><span data-stu-id="59412-127">Configure non-work time</span></span>
 
-1. <span data-ttu-id="30838-129">**Kuruluş yönetimi** sayfasında **Çalışmama süresi** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="30838-129">On the **Organization administration** page, select **Non-work time**.</span></span>
+<span data-ttu-id="59412-128">Çalışmama süreleri çalışma zamanı takviminden ayrı olarak ekleyebilir veya değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="59412-128">You can add or change non-work times separately from a working time calendar.</span></span>
 
-2. <span data-ttu-id="30838-130">**Yeni**'yi seçin ve çalışmama süresi ad ve zaman aralığı girin.</span><span class="sxs-lookup"><span data-stu-id="30838-130">Select **New** and enter a name and time range for the non-work time.</span></span>
+1. <span data-ttu-id="59412-129">**Kuruluş yönetimi** sayfasında **Çalışmama süresi** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="59412-129">On the **Organization administration** page, select **Non-work time**.</span></span>
 
-<span data-ttu-id="30838-131">İzin ve devamsızlığı Banka tatili düzeltmeleri önizlemesi özelliğini etkinleştirdiyseniz, İnsan Kaynakları takvimde kayıtlı olan çalışanlara göre ayarlanacak gün sayısını belirlemek için tatiller ve kapatma tarihleri kullanır.</span><span class="sxs-lookup"><span data-stu-id="30838-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
+2. <span data-ttu-id="59412-130">**Yeni**'yi seçin ve çalışmama süresi ad ve zaman aralığı girin.</span><span class="sxs-lookup"><span data-stu-id="59412-130">Select **New** and enter a name and time range for the non-work time.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="30838-132">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="30838-132">See also</span></span>
+<span data-ttu-id="59412-131">İzin ve devamsızlığı Banka tatili düzeltmeleri önizlemesi özelliğini etkinleştirdiyseniz, İnsan Kaynakları takvimde kayıtlı olan çalışanlara göre ayarlanacak gün sayısını belirlemek için tatiller ve kapatma tarihleri kullanır.</span><span class="sxs-lookup"><span data-stu-id="59412-131">If you've enabled the Leave and absence bank holiday corrections preview feature, Human Resources uses holidays and closure dates to determine the number of days to adjust for employees enrolled in the calendar.</span></span>
 
-- [<span data-ttu-id="30838-133">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="30838-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="30838-134">İzin ve devamsızlık türleri yapılandır</span><span class="sxs-lookup"><span data-stu-id="30838-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+## <a name="see-also"></a><span data-ttu-id="59412-132">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="59412-132">See also</span></span>
+
+- [<span data-ttu-id="59412-133">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="59412-133">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="59412-134">İzin ve devamsızlık türleri yapılandır</span><span class="sxs-lookup"><span data-stu-id="59412-134">Configure leave and absence types</span></span>](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
