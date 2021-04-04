@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
@@ -15,35 +14,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9bd15e73535f1d07b664ed659f9f15b3b0b7594
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0fac7a8332e21f0fa767d1926c63833ebd90c78c
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797475"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563908"
 ---
-# <a name="manage-email-templates"></a><span data-ttu-id="d8163-103">E-posta şablonlarını yönetme</span><span class="sxs-lookup"><span data-stu-id="d8163-103">Manage email templates</span></span>
+# <a name="manage-email-templates"></a><span data-ttu-id="787df-103">E-posta şablonlarını yönetme</span><span class="sxs-lookup"><span data-stu-id="787df-103">Manage email templates</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d8163-104">Yeni bir belgeye kuruluşunuzun bilgilerini vertabanından transfer edebilirve bunu başvuranlarla ve adaylarla etkili iletişim kurmak için şablonlarda kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d8163-104">You can transfer information from your organization's database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="d8163-105">Bunu yapmak için sistem verilerinin ekleneceği standart metin ve yer işaretleri içeren bir şablon oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d8163-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="d8163-106">Örneğin, bir başvuran için adres ve iletişim bilgilerini içeren, söz konusu başvuranla iletişim kurarken kullanabileceğiniz bir Microsoft Word belgesine ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d8163-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="d8163-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="d8163-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="787df-104">Yeni bir belgeye kuruluşunuzun bilgilerini vertabanından transfer edebilirve bunu başvuranlarla ve adaylarla etkili iletişim kurmak için şablonlarda kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="787df-104">You can transfer information from your organization's database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="787df-105">Bunu yapmak için sistem verilerinin ekleneceği standart metin ve yer işaretleri içeren bir şablon oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="787df-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="787df-106">Örneğin, bir başvuran için adres ve iletişim bilgilerini içeren, söz konusu başvuranla iletişim kurarken kullanabileceğiniz bir Microsoft Word belgesine ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="787df-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="787df-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="787df-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a><span data-ttu-id="d8163-108">E-posta şablonlarınızda kullanmak istediğiniz yer işaretlerini seçin</span><span class="sxs-lookup"><span data-stu-id="d8163-108">Select which bookmarks to use in your email templates</span></span>
-1. <span data-ttu-id="d8163-109">Gezinti bölmesinde **Modüller > İnsan Kaynakları > İşe alma > İletişim > Başvuru yer işaretleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d8163-109">In the navigation pane, go to **Modules > Human Resources > Recruitment > Communication > Application bookmarks**.</span></span>
-2. <span data-ttu-id="d8163-110">Listede, istenen yazışma eylemini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-110">In the list, find and select the desired correspondence action.</span></span>
-3. <span data-ttu-id="d8163-111">**Düzenle** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-111">Select **Edit**.</span></span>
-4. <span data-ttu-id="d8163-112">Seçili Yazışma eylemi için bir e-posta şablonu kullanın ve yer işareti alanları taşımak için istediğiniz alanları seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-112">Select the fields you would like to be able to use in an email template for the selected Correspondence action and move them to the Bookmark fields.</span></span>  
-5. <span data-ttu-id="d8163-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d8163-113">Close the page.</span></span>
+## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a><span data-ttu-id="787df-108">E-posta şablonlarınızda kullanmak istediğiniz yer işaretlerini seçin</span><span class="sxs-lookup"><span data-stu-id="787df-108">Select which bookmarks to use in your email templates</span></span>
+1. <span data-ttu-id="787df-109">Gezinti bölmesinde **Modüller > İnsan Kaynakları > İşe alma > İletişim > Başvuru yer işaretleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="787df-109">In the navigation pane, go to **Modules > Human Resources > Recruitment > Communication > Application bookmarks**.</span></span>
+2. <span data-ttu-id="787df-110">Listede, istenen yazışma eylemini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-110">In the list, find and select the desired correspondence action.</span></span>
+3. <span data-ttu-id="787df-111">**Düzenle** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-111">Select **Edit**.</span></span>
+4. <span data-ttu-id="787df-112">Seçili Yazışma eylemi için bir e-posta şablonu kullanın ve yer işareti alanları taşımak için istediğiniz alanları seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-112">Select the fields you would like to be able to use in an email template for the selected Correspondence action and move them to the Bookmark fields.</span></span>  
+5. <span data-ttu-id="787df-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="787df-113">Close the page.</span></span>
 
-## <a name="create-an-email-template"></a><span data-ttu-id="d8163-114">Bir e-posta şablonu oluştur</span><span class="sxs-lookup"><span data-stu-id="d8163-114">Create an email template</span></span>
-1. <span data-ttu-id="d8163-115">Gezinti bölmesinde **Modüller > İnsan Kaynakları > İşe alma > İletişim > Başvuru e-posta şablonları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="d8163-115">In the navigation pane, go to **Modules > Human resources > Recruitment > Communication > Application e-mail templates**.</span></span>
-2. <span data-ttu-id="d8163-116">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-116">Select **New**.</span></span>
-3. <span data-ttu-id="d8163-117">**Yazışma eylemi** alanından **Görüşme**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-117">In the **Correspondence action** field, select **Interview**.</span></span> <span data-ttu-id="d8163-118">Bu tür e-posta iletişiminde kullanmak için yer işaretlerini içeren Yazışma eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-118">Select the correspondence action that contains the bookmarks to use for this type of email communication.</span></span>  
-4. <span data-ttu-id="d8163-119">**E-posta şablonu** alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d8163-119">In the **E-mail template** field, type a value.</span></span>
-5. <span data-ttu-id="d8163-120">**Konu** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="d8163-120">In the **Subject** field, type a value.</span></span>
-6. <span data-ttu-id="d8163-121">**Metin** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="d8163-121">In the **Text** field, type a value.</span></span>
-7. <span data-ttu-id="d8163-122">Listede, istenen yer işareti alanını bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-122">In the list, find and select the desired bookmark field.</span></span>
-8. <span data-ttu-id="d8163-123">Yer işaretleri alanlarını ihtiyaç duyduğunuz yerlere girerken E-mail adresinizi yazmaya devam edin.</span><span class="sxs-lookup"><span data-stu-id="d8163-123">Continue typing your email message, inserting the bookmark fields where you need them.</span></span>
-9. <span data-ttu-id="d8163-124">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d8163-124">Select **Save**.</span></span>
+## <a name="create-an-email-template"></a><span data-ttu-id="787df-114">Bir e-posta şablonu oluştur</span><span class="sxs-lookup"><span data-stu-id="787df-114">Create an email template</span></span>
+1. <span data-ttu-id="787df-115">Gezinti bölmesinde **Modüller > İnsan Kaynakları > İşe alma > İletişim > Başvuru e-posta şablonları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="787df-115">In the navigation pane, go to **Modules > Human resources > Recruitment > Communication > Application e-mail templates**.</span></span>
+2. <span data-ttu-id="787df-116">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-116">Select **New**.</span></span>
+3. <span data-ttu-id="787df-117">**Yazışma eylemi** alanından **Görüşme**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-117">In the **Correspondence action** field, select **Interview**.</span></span> <span data-ttu-id="787df-118">Bu tür e-posta iletişiminde kullanmak için yer işaretlerini içeren Yazışma eylemi seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-118">Select the correspondence action that contains the bookmarks to use for this type of email communication.</span></span>  
+4. <span data-ttu-id="787df-119">**E-posta şablonu** alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="787df-119">In the **E-mail template** field, type a value.</span></span>
+5. <span data-ttu-id="787df-120">**Konu** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="787df-120">In the **Subject** field, type a value.</span></span>
+6. <span data-ttu-id="787df-121">**Metin** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="787df-121">In the **Text** field, type a value.</span></span>
+7. <span data-ttu-id="787df-122">Listede, istenen yer işareti alanını bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-122">In the list, find and select the desired bookmark field.</span></span>
+8. <span data-ttu-id="787df-123">Yer işaretleri alanlarını ihtiyaç duyduğunuz yerlere girerken E-mail adresinizi yazmaya devam edin.</span><span class="sxs-lookup"><span data-stu-id="787df-123">Continue typing your email message, inserting the bookmark fields where you need them.</span></span>
+9. <span data-ttu-id="787df-124">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="787df-124">Select **Save**.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
