@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a04180a5dbec1e08d0149beeed0495a0d13af76c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 13ea8c2600e93379c9e3c71b97b919cbbca3b5eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971740"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257717"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Müşteriler için kredi yönetimi bilgileri ekleme
 
@@ -66,7 +66,7 @@ Geçici kredi limitleri, belirli bir döneme ait müşteri kredi limitlerini ge�
 
 Her müşteri için bir veya daha fazla sigorta poliçesi ve garanti oluşturabilirsiniz. Bunun ardından, şirketinizin müşteriye kredi sunduğu kapsamı hesaplamak için bunları kullanabilirsiniz. Sigorta poliçeleri ve garantiler de bir müşteri için kredi limitine dahil edilebilir.
 
-**Tüm müşteriler** sayfasında (**Alacak hesapları \> Müşteriler \>Tüm müşteriler**) sigorta poliçeleri ve garantiler oluşturabilirsiniz. Bir müşteri seçin ve ardından eylem bölmesinde, **Müşteri** sekmesinde **Sigorta ve garantiler**'i seçin.
+**Tüm müşteriler** sayfasında (**Alacak hesapları \> Müşteriler \> Tüm müşteriler**) sigorta poliçeleri ve garantiler oluşturabilirsiniz. Bir müşteri seçin ve ardından eylem bölmesinde, **Müşteri** sekmesinde **Sigorta ve garantiler**'i seçin.
 
 > [!NOTE]
 > Aşağıdaki yordamda, genel adres defterinden bir sigortacı veya kefil seçeceksiniz. Bu nedenle, bu yordama başlamadan önce, sigortacıların ve kefillerin genel adres defterine eklenmiş olduğundan emin olmalısınız.

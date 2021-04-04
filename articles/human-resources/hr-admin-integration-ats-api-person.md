@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e61b768c5194b52178853d48c50dbf072eebbdcd
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: a13222317ba59868686be5ce24c970d6a068f8bc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125461"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464190"
 ---
 # <a name="person"></a>Kişi
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources için Kişi varlığını açıklar.
 

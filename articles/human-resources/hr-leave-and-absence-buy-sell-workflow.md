@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4732b5dafc8074c5c59f10f02bbee7e22f51960a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 16260c66c2e92fb06664a8f20a5fc3ed4a964609
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116056"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468143"
 ---
 # <a name="create-a-buy-and-sell-leave-request-workflow"></a>İzin satın alma ve satma isteği iş akışı oluşturma
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources'ta izin satın alma ve satma isteklerinizi tutarlı bir şekilde yönetmek için bir iş akışı oluşturabilirsiniz. **İzin satın alma ve satma** iş akışı şunları yapmanızı sağlar:
 
