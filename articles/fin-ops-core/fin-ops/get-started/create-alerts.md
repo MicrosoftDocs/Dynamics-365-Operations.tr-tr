@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798440"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559420"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 
@@ -102,6 +101,8 @@ Formlardaki bazı ikincil veri kaynakları için uyarılar oluşturamazsınız. 
     ```
 2. SysTableBrowser formundan bir uyarı oluşturun.
 
+### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Değişiklik tabanlı uyarılar toplu iş durum değişikliklerinde çalışmaz
+Performans nedenleriyle kapatıldıkları için değişiklik tabanlı uyarılar toplu iş durum değişikliklerinde çalışmaz. Bunun yerine, **Toplu iş uyarıları** özelliğini ayarlamalısınız. Daha fazla bilgi için bkz [Geliştirilmiş toplu iş formları için uyarı ayarlama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

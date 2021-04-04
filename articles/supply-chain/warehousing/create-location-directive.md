@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963322"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470531"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -239,7 +239,7 @@ Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir 
     - **Tam LP ve FEFO toplu işine yukarı yuvarla**: Bu strateji, *FEFO toplu iş rezervasyonu* ile *Tam LP'ye yukarı yuvarla* stratejilerinin öğelerini içerir. Yalnızca toplu iş için etkin maddeler ve iş türü *Çekme* olan konum yönergeleri için geçerlidir. Satır, *FEFO toplu iş rezervasyonu* stratejisini kullanmak için toplu olarak etkinleştirilmiş olmalıdır ve *Tam LP'ye yukarı yuvarla* stratejisi yalnızca stok yenileme için kullanılabilir. Bu strateji stoklama limiti ile birlikte yapılandırılırsa seçili koyma işi konumunun aşırı yüklenmesine ve stoklama limitlerinin yoksayılmasına neden olabilir.
     - **Tam LP'ye yuvarla** - Bu strateji stok miktarını, çekilecek maddelere atanan plaka (LP) miktarıyla eşleşecek şekilde yuvarlamak için kullanılır. Bu stratejiyi yalnızca *Çekme* türündeki stok yenileme konum yönergeleri için kullanabilirsiniz. Bu strateji stoklama limiti ile birlikte yapılandırılırsa seçili koyma işi konumunun aşırı yüklenmesine ve stoklama limitlerinin yoksayılmasına neden olabilir.
     - **Plaka rehberli**: Çekme ve koyma işlerini oluşturmak için siparişi ambara serbest bıraktığınızda bu stratejiyi kullanın. Çoklu plakalar için bu yaklaşımı kullanabilirsiniz. Bu strateji, transfer emri satırlarıyla ilişkilendirilmiş olan istenen plakaları tutan konumlara göre ayırma ve çekme işi oluşturmayı dener. Ancak, bu eylemler tamamlanamadığı halde malzeme çekme işi oluşturmak istiyorsanız konum yönergesi eylemleri için başka bir stratejiye geri dönmelisiniz. İş süreci gereksinimlerinize bağlı olarak, ambarın başka bir alanında stok aramak da isteyebilirsiniz.
-    - **Gelen iş olmadan boş yerleşim**- Bu stratejiyi boş yerleşimleri bulmak için kullanın. Fiziksel stoğu yoksa ve gelen iş beklenmiyorsa yerleşim boş olarak değerlendirilir. Bu stratejiyi yalnızca *Çekme* iş türüne sahip konum yönergeleri için kullanabilirsiniz.
+    - **Gelen iş olmadan boş yerleşim**- Bu stratejiyi boş yerleşimleri bulmak için kullanın. Fiziksel stoğu yoksa ve gelen iş beklenmiyorsa yerleşim boş olarak değerlendirilir. Bu stratejiyi yalnızca *Yerine Koyma* iş türüne sahip konum yönergeleri için kullanabilirsiniz.
     - **Konum yaşlandırma FIFO**: Hem toplu olarak izlenen maddeleri, hem de toplu olarak izlenmeyen maddeleri sevk etmek için stoğun ambara girdiği tarihi temel alan İlk giren ilk çıkar (FIFO) stratejisini kullanabilirsiniz. Bu yetenek özellikle, tasnif için bitiş tarihi bulunmayan, toplu olarak izlenmeyen stok için yararlı olabilir. FIFO stratejisi, en eski yaşlandırma tarihini içeren konumu bulur ve ardından bu yaşlandırma tarihine göre malzeme çekme işlemini tahsis eder.
     - **Konum yaşlandırma LIFO**: Hem toplu olarak izlenen maddeleri, hem de toplu olarak izlenmeyen maddeleri sevk etmek için stoğun ambara girdiği tarihi temel alan Son giren son çıkar (LIFO) stratejisini kullanabilirsiniz. Bu yetenek özellikle, tasnif için bitiş tarihi bulunmayan, toplu olarak izlenmeyen stok için yararlı olabilir. LIFO stratejisi, en yeni yaşlandırma tarihini içeren konumu bulur ve ardından bu yaşlandırma tarihine göre malzeme çekme işlemini tahsis eder.
 

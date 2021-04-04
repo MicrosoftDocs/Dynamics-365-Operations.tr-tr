@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078315"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501114"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
 
@@ -38,11 +39,11 @@ Yeni bir üretim emri veya toplu iş emri oluşturduğunuzda, söz konusu emire 
 Özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Üretim denetimi*
-- **Özellik adı:** *Varsayılan üretim rezervasyonunu geçersiz kıl*
+- **Özellik adı:** *(Önizleme) Varsayılan üretim ayırmalarını geçersiz kıl*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Madde modeli grubuna üretim rezervasyon ilkesi atama
 
-1. **Maliyet Yönetimi &gt; Stok muhasebe ilkeleri kurulumu &gt; Madde modeli grupları**'na gidin.
+1. **Maliyet Yönetimi \> Stok muhasebe ilkeleri kurulumu \> Madde modeli grupları**'na gidin.
 1. Madde modeli grubu oluşturun veya seçin.
 1. **Stok ilkeleri** hızlı sekmesinde, **Madde üretim rezervasyonunu geçersiz kıl** onay kutusunu seçin.
 1. **Rezervasyon** alanında, seçili model grubuna ait maddeler için rezervasyon ilkesini seçin. (Bu maddeler, bir ürün reçetesi veya formül satırındaki maddeleri içerir.)

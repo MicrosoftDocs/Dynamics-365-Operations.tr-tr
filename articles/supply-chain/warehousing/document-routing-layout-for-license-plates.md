@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973772"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558274"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Plaka etiketleri için belge yönlendirme düzeni
 
 [!include [banner](../includes/banner.md)]
+
 
 Belge yönlendirme düzeni, plaka etiketlerinin düzenini ve bunlar üzerine yazdırılan verileri tanımlar. Mobil cihaz menü öğelerini ve iş şablonlarını ayarlarken, yazdırma tetikleme noktalarını yapılandırırsınız.
 
@@ -51,6 +52,10 @@ Etiket yazdırma işleminin bir parçası olarak bu örnekteki `$LicensePlateId$
 Yazdırılacak değerleri görmek için **Ambar yönetimi \> Sorgular ve raporlar \>Plaka etiketleri**'ne gidin.
 
 Birçok yaygın kullanılan etiket oluşturma aracı, etiket düzenine ilişkin metni biçimlendirmenize yardımcı olabilir. Bu araçların çoğu `$FieldName$` biçimini destekler. Ek olarak, Microsoft Dynamics 365 Supply Chain Management, belge yönlendirme düzenine için alan eşlemesinin bir parçası olarak özel biçimlendirme mantığı kullanır.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Sisteminiz için bu özelliği etkinleştirme
+
+Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve *Gelişmiş plaka etiketi düzenleri* özelliğini açın.
 
 ## <a name="custom-number-formats"></a>Özel sayı biçimleri
 

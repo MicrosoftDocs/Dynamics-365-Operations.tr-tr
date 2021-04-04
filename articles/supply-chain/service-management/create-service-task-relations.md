@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974672"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470749"
 ---
 # <a name="create-service-task-relations"></a>Servis görevi ilişkileri oluşturma    
 
@@ -32,13 +32,13 @@ Sözleşme veya sipariş için tamamlanması gereken servis görevini açıklama
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Servis anlaşmasıyla bir ilişki oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin.
 
 2.  Var olan bir servis anlaşmasını seçin veya yeni bir servis anlaşması oluşturun.
 
-3.  Eylem Bölmesindeki **Servis görevleri** düğmesine tıklayın.
+3.  Eylem Bölmesindeki **Servis görevleri** düğmesini seçin.
 
-4.  **Servis görevleri** formunda, yeni bir satır oluşturmak için CTRL+N tuşlarına basın ve **Servis görevi** listesinden bir servis görevi seçerek servis görevini servis sözleşmesine ekleyin.
+4.  **Servis görevleri** formunda, yeni bir satır oluşturmak için **Yeni**'yi seçin ve **Servis görevi** listesinden bir servis görevi seçerek servis görevini servis sözleşmesine ekleyin.
 
 5.  **Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.
 
@@ -50,13 +50,13 @@ Bir servis anlaşmasında oluşturulan bir servis görevi ilişkisi, servis anla
 
 ## <a name="create-a-relation-with-a-service-order"></a>Servis siparişiyle bir ilişki oluşturma
 
-1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.
+1.  **Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.
 
 2.  Var olan bir servis siparişini seçin veya yeni bir servis siparişi oluşturun.
 
-3.  Eylem Bölmesindeki **Servis görevleri** düğmesine tıklayın.
+3.  Eylem Bölmesindeki **Servis görevleri** düğmesini seçin.
 
-4.  **Servis görevleri** formunda, yeni bir satır oluşturmak için CTRL+N tuşlarına basın ve **Servis görevi** listesinden bir servis görevi seçerek servis görevlerini servis siparişine ekleyin.
+4.  **Servis görevleri** formunda, yeni bir satır oluşturmak için **Yeni**'yi seçin ve **Servis görevi** listesinden bir servis görevi seçerek servis görevlerini servis siparişine ekleyin.
 
 5.  **Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.
 

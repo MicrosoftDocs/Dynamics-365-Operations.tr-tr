@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991727"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470680"
 ---
 # <a name="set-up-return-reason-codes"></a>İade neden kodlarını ayarlama   
 
@@ -31,9 +31,9 @@ ms.locfileid: "4991727"
 
 ## <a name="set-up-return-reason-code-groups"></a>İade neden kodu gruplarını ayarlama 
 
-1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **İade neden kodu grupları**'na tıklayın.
+1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **İade neden kodu grupları**'na gidin.
 
-2.  Yeni bir iade nedeni kodu grubu satırı oluşturmak için CTRL+N tuşlarına basın.
+2.  Yeni bir iade nedeni kodu grubu satırı oluşturmak için **Yeni**'yi seçin.
 
 3.  **İade nedeni kodu grubu** alanına bu grup için bir tanımlayıcı girin.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991727"
 
 Bu yordam ürünün müşteri tarafından neden iade edildiğini belirtmek için kullanabileceğiniz iade neden kodlarını ayarlamanıza yardımcı olur.
 
-1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **İade neden kodları**'na tıklayın.
+1.  **Satış ve pazarlama** \> **Kurulum** \> **Satış siparişleri** \> **İadeler** \> **İade neden kodları**'na gidin.
 
 2.  Yeni bir neden iade nedeni kod satırı oluşturmak için CTRL + N tuşlarına basın.
 

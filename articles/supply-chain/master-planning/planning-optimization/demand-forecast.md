@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983556"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501138"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Talep tahminleri ile master planlama
 
@@ -249,7 +249,7 @@ Bu nedenle, aşağıdaki planlı siparişleri oluşturulur.
 Bir tahmin azaltma anahtarı **Hareketler - azaltma anahtarı** ve **Yüzde - azaltma anahtarı** yöntemlerinde tahmin gereksinimlerini azaltmak için kullanılır. Bir azaltma anahtarı oluşturmak ve ayarlamak için bu adımları izleyin.
 
 1. **Master planlama \> Kurulum \> kapsam \> Azaltma anahtarları**'na gidin.
-2. **Yeni**'yi seçin veya bir azaltma anahtarı oluşturmak için **Ctrl+N**'ye basın.
+2. Yeni bir azaltma anahtarı oluşturmak için **Yeni**'yi seçin.
 3. **Azaltma anahtarı** alanında, tahmin edilen azaltma anahtarı için benzersiz bir tanımlayıcı girin. Daha sonra **Adı** alanında, bir ad girin. 
 4. Her bir dönemdeki dönemleri ve azaltma anahtarı yüzdesini tanımlayın:
 
@@ -265,8 +265,8 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 2. **Diğer** hızlı sekmesinde, **Azaltma anahtarı** alanında, kapsama grubunu atamak için azaltma anahtarını seçin. Azaltma anahtarı, daha sonra bu kapsama grubuna ait tüm öğelere uygulanır.
 3. Master planlama sırasında tahmin azaltmayı hesaplamak için bir azaltma anahtarını kullanmak için bu ayarı, tahmin planlama veya master planlama kurulumunda tanımlamanız gerekir. Aşağıdaki konumlarda birine gidin:
 
-    - Master planlama \> Kurulum \> Planlar \> Tahmin planları
-    - Master planlama \> Ayar \> Planlar \> Master planlar
+    - **Master planlama \> Kurulum \> Planlar \> Tahmin planları**
+    - **Master planlama \> Ayar \> Planlar \> Master planlar**
 
 4. **Tahmin planları** veya **Master planlar** sayfasında, **Genel** hızlı sekmesinde, **Tahmin gereksinimlerini azaltmak için yöntem** alanında, **Yüzde - azaltma anahtarı** veya **Hareketler - azaltma anahtarı**'nı seçin.
 
@@ -274,5 +274,69 @@ Bir tahmin azaltma anahtarının, öğenin kapsama grubuna atanmış olması ger
 
 **Hareketler - azaltma anahtarı**'nı veya **Hareketler - dinamik dönem**'i tahmin gereksinimlerini azaltmak için bir yöntem olarak seçerseniz, hangi hareketlerin tahmini azaltacağını seçersiniz. **Karşılama grupları** sayfasında, **Diğer** Hızlı Sekmesinde, **Tahmini şunun üzerinden azalt** alanında, tüm hareketler tahmini azaltacaksa **Tüm tahminler**'i seçin veya yalnızca satış siparişleri tahmini azaltacaksa **Siparişler**'i seçin.
 
+## <a name="forecast-models-and-submodels"></a>Tahmin modelleri ve alt modeller
+
+Bu bölümde, tahmin modellerinin nasıl oluşturulacağı ve alt modeller ayarlanarak birden çok tahmin modelinin nasıl birleştirileceği açıklanmaktadır.
+
+*Tahmin modeli* belirli bir tahmini adlandırır ve tanımlar. Tahmin modelini oluşturduktan sonra, buna tahmin satırları ekleyebilirsiniz. Birden çok madde için tahmin satırları eklemek için **Talep tahmin satırları** sayfasını kullanın. Seçili belirli bir madde için tahmin satırları eklemek üzere **Serbest bırakılmış ürünler** sayfasını kullanın.
+
+Tahmin modeli, diğer tahmin modellerinden tahminler içerebilir. Bu sonucu elde etmek için diğer tahmin modellerini bir üst tahmin modelinin *alt modelleri* olarak eklersiniz. İlgili modeli üst tahmin modelinin alt modeli olarak ekleyebilmeniz için önce ilgili her modeli oluşturmanız gerekir.
+
+Elde edilen yapı, birden çok bireysel tahminden gelen girişi birleştirmenizi (toplamanızı) sağladığından, tahminleri kontrol etmenin güçlü bir yolunu sunar. Bu nedenle, planlama açısından simülasyonlar için tahminleri birleştirmek kolaydır. Örneğin, normal bir tahminin bahar promosyonu tahminiyle birleşimini temel alan bir simülasyon ayarlayabilirsiniz.
+
+### <a name="submodel-levels"></a>Alt model düzeyleri
+
+Bir üst tahmin modeline eklenebilecek modül alt model sayısında bir sınırlama yoktur. Ancak yapı sadece bir seviye derinliğinde olabilir. Başka bir deyişle, başka bir tahmin modelinin alt modeli olan bir tahmin modelinin kendi alt modelleri olamaz. Bir tahmin modeline alt modeller eklediğinizde, sistem bu tahmin modelinin zaten başka bir tahmin modelinin alt modeli olup olmadığını denetler.
+
+Master planlama kendi alt modellerine sahip bir alt modelle karşılaşırsa bir hata iletisi alırsınız.
+
+#### <a name="submodel-levels-example"></a>Alt model düzeyleri örneği
+
+Tahmin modeli A, alt model olarak B tahmin modeline sahiptir. Bu nedenle, B tahmin modelinin kendi alt modelleri olamaz. B tahmin modeline bir alt model eklemeye çalışırsanız aşağıdaki hata iletisini alırsınız: "Tahmin modeli B, A modelinin bir alt modelidir."
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Tahmin modelleri genelinde tahminleri toplama
+
+Aynı gün gerçekleşen tahmin satırları, tahmin modelleri ve alt modelleri genelinde toplanır.
+
+#### <a name="aggregation-example"></a>Toplama örneği
+
+Tahmin modeli A, alt model olarak B ve C tahmin modellerine sahiptir.
+
+- Tahmin modeli A, 15 Haziran'da 2 adet için bir talep tahmini içerir.
+- Tahmin modeli B, 15 Haziran'da 3 adet için bir talep tahmini içerir.
+- Tahmin modeli C, 15 Haziran'da 4 adet için bir talep tahmini içerir.
+
+Ortaya çıkan talep tahmini, 15 Haziran'da 9 adet (2 + 3 + 4) için tek bir talep olacaktır.
+
+> [!NOTE]
+> Her alt model, üst tahmin modelinin parametrelerini değil, kendi parametrelerini kullanır.
+
+### <a name="create-a-forecast-model"></a>Tahmin modeli oluşturma
+
+Tahmin modeli oluşturmak için şu adımları izleyin.
+
+1. **Master planlama \> Kurulum \> Talep tahmini \> Tahmin modelleri**'ne gidin.
+1. Eylem Bölmesinde, **Yeni**'yi seçin.
+1. Yeni tahmin modeli için aşağıdaki alanları ayarlayın:
+
+    - **Model**: Model için benzersiz bir tanımlayıcı girin.
+    - **Ad**: Model için açıklayıcı bir ad girin.
+    - **Durduruldu**: Genellikle, bu seçeneği *Hayır* olarak ayarlamanız gerekir. Yalnızca modele atanan tüm tahmin satırlarının düzenlenmesini engellemek istiyorsanız *Evet* olarak ayarlayın.
+
+    > [!NOTE]
+    > **Nakit akışı tahminlerine dahil et** alanı ve **Proje** hızlı sekmesindeki alanlar master planlamayla ilişkili değildir. Bu nedenle, bu bağlamda bunları yoksayabilirsiniz. Bunları yalnızca **Proje yönetimi ve muhasebe** modülü için tahminlerle çalışırken göz önünde bulundurmanız gerekir.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Tahmin modeline alt modeller atama
+
+Bir tahmin modeline alt modeller atamak için şu adımları izleyin.
+
+1. **Stok yönetimi \> Kurulum \> Tahmin \> Tahmin modelleri**'ne gidin.
+1. Liste bölmesinde, alt model ayarlamak istediğiniz tahmin modelini seçin.
+1. **Alt model** hızlı sekmesinde, kılavuza satır eklemek için **Ekle**'yi seçin.
+1. Yeni satırda aşağıdaki alanları ayarlayın:
+
+    - **Alt model**: Alt model olarak eklenecek tahmin modelini seçin. Bu tahmin modelinin zaten var olması ve kendi alt modellerine sahip olmaması gerekir.
+    - **Ad**: Alt model için açıklayıcı bir ad girin. Örneğin bu ad, alt modelin üst tahmin modeliyle ilişkisini gösterebilir.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

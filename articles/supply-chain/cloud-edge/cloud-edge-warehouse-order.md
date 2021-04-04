@@ -19,12 +19,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c04127b9fe621d962be2d7fe06358b3bd1b78916
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9102f53ab1b63d08b8bba7b0ae505416ec5a83fd
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5105734"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556374"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar siparişleri
 
@@ -51,6 +51,8 @@ Ambar siparişi oluşturmak için şu adımları izleyin.
 1. **Tedarik ve kaynak atama \> Satınalma siparişleri \> Tüm satınalma siparişleri**'ne gidin.
 1. Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda, **Ambara serbest bırak**'ı seçin.
 1. İlgili ambar siparişi satırlarını görüntülemek için ilgili satınalma siparişini açın, **Satınalma siparişi satırları** bölümünde bir satır seçin ve ardından araç çubuğunda **Ambar \> Ambar siparişi satırları**'nı seçin. Tüm satırları görüntülemek için **Ambar yönetimi \> Sorgular ve raporlar \> Ambar siparişi satırları**'na gidin.
+
+**Ambar yönetimi > Serbest bırakmadan ambara > Satın alma siparişlerinin otomatik olarak serbest bırakılması**'na giderek de bir toplu işlemden *Ambara serbest bırakma* işlemini tetikleyebilirsiniz. Toplu işlemi ayarlarken, sorguya göre belirli satın alma siparişi satırlarını seçebilirsiniz. Tipik bir senaryo örneği, ertesi gün gelmesi beklenen tüm onaylanmış satın alma siparişi satırlarını serbest bırakan yinelenen bir toplu işlem ayarlamaktır.
 
 ## <a name="cancel-a-warehouse-order"></a>Ambar siparişini iptal etme
 

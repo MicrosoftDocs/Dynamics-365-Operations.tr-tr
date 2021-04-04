@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 6aca285133495dfe023dfd18bdeb050aabcafee6
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114517"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478296"
 ---
 # <a name="recruit-job-candidates"></a>İş adaylarını işe alma
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources işe alma isteklerini yönetmenize yardımcı olur. Ayrıca, çalışanların iş adaylarına sorunsuz şekilde geçiş yapmanıza yardımcı olur. Organizasyonunuzda ayrı bir işe alma uygulaması kullanılıyorsa, işe alma işleminiz aşağıdaki adımları içerebilir:
 

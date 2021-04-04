@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125437"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500634"
 ---
 # <a name="recruiting-request"></a>İşe alma isteği
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Bu konu, Dynamics 365 Human Resources için İşe alma isteği varlığını açıklar.
 
@@ -98,7 +100,8 @@ Bir iş için işe alma isteğini açıklar.
 | **İş Türü Kimlik Değeri**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Salt okunur<br>İsteğe bağlı<br>Yabancı anahtar: mshr_hcmjobtypenentity varlığına ait mshr_hcmjobtypeentityid | İşe alma isteği için projeyle ilişkili iş türünün sistem tarafından oluşturulan benzersiz tanımlayıcısı. |
 | **Muafiyet durumu**<br>mshr_exemptstatus<br>*JobExemptStatus* seçenek kümesi | Salt okunur<br>İsteğe bağlı | İş türüne göre FLSA muafiyet durumu. |
 | **Tahmini Başlangıç Tarihi**<br>mshr_estimatedstartdate<br>*Date* | Okuma/yazma<br>Gerekli | Bir adayın işe başlayacağı tahmini tarih. |
-| **Harici Açıklama**<br>mshr_externaldescription<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | İşin/pozisyonun adaya yönelik açıklaması. | Ücret Alt Eşiği<br>mshr_compensationlowthreshold<br>*Çift* | Okuma/yazma<br>İsteğe bağlı | Ücret düzeyi için alt sınır. |
+| **Harici Açıklama**<br>mshr_externaldescription<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | İşin/pozisyonun adaya yönelik açıklaması. | 
+| **Ücret Alt Eşiği**<br>mshr_compensationlowthreshold<br>*Çift* | Okuma/yazma<br>İsteğe bağlı | Ücret düzeyi için alt sınır. |
 | **Ücret Denetim Noktası**<br>mshr_compensationcontrolpoint<br>*Çift* | Okuma/yazma<br>İsteğe bağlı | Ücret düzeyi için denetim noktası. |
 | **Ücret Üst Eşiği**<br>mshr_compensationhighthreshold<br>*Çift* | Okuma/yazma<br>İsteğe bağlı | Ücret düzeyi için üst sınır. |
 | **Ücret Düzeyi**<br>mshr_compensationlevelid<br>*Dize* | Okuma/yazma<br>İsteğe bağlı | İşin maaş düzeyi. Bir iş birden çok maaş düzeyiyle ayarlanabilir. Bu öznitelik, bu istek için seçilen iş maaş düzeyini gösterir. |

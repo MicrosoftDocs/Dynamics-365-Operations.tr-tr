@@ -3,7 +3,7 @@ title: Bir vade farkı kodu için vade farkı oranları ayarlama
 description: Vade farkı kodları, faizin nasıl belirleneceğini ve ödemesi geciken hesaplarda nasıl hesaplanacağını belirleyen ayarlar içerir.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971645"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555377"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Bir vade farkı kodu için vade farkı oranları ayarlama
 
@@ -46,10 +46,19 @@ Belirli bir yüzdeyi hesaplayan vade farkı oranlarını ayarlayabilirsiniz
 
 - Vade farkı tutarı tüm para birimleri için geçerlidir.
 - İsteğe bağlı vade farkı tutar limitleri girilebilir.
-- <strong>Faiz kodlarını ayarla</strong> sayfasındaki <strong>**Faiz farklarının dayanağı</strong> alanındaki <strong>Yüzde</strong> seçilidir**.
+- **Faiz kodlarını ayarla** sayfasındaki **Faiz farklarının dayanağı** alanındaki **Yüzde** seçilidir.
 
 Örneğin, fatura ödemesinin hareket vade tarihini geçtiği her iki ay için yüzde 5 vade farkı koyan vade farkı kodunu ayarlamak için **Her biri için faiz hesapla** alanına 2 girer ve **Ay**'ı seçersiniz.
 
+> [!NOTE] 
+> Vade farkı dekontu hesaplamasına yönelik yeni algoritma Özellik Yönetimi kullanılarak eklenir. Bu algoritmayı kullanmak için, **(GBL) yıllık yüzdenin 365'e bölündüğü günlük faizi hesaplamaya izin ver** özelliğini etkinleştirin. Özelliği etkinleştirme hakkında bilgi için [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'a bakın.
+> 
+> Vade farkı dekontu tutarına ait hesaplama formülü: 
+>  
+> Vade farkı dekontu tutarı = Borç tutarı * yıllık faiz % /365 * gecikilen gün sayısı
+>  
+> Bu özellik 10.0.18 sürümü ve sonrasında bulunur.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Tutarları temel alan faiz oranları
 Belirli bir para birimine göre tutarı hesaplayan vade farkı oranlarını ayarlayabilirsiniz
 - Vade farkı kodu içindeki her para birimi için vade farkı tutarı belirtilir.
