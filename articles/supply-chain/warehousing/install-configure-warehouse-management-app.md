@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142335"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487037"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142335"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Bu konuda, şu anda genel önizleme durumunda olan yeni Ambar Yönetimi mobil uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Eski ambar uygulamasını nasıl yapılandıracağınız hakkında bilgi arıyorsanız bkz. [Ambar uygulamasını yükleme ve bağlama](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Bu konuda, yeni Ambar Yönetimi mobil uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Eski ambar uygulamasını nasıl yapılandıracağınız hakkında bilgi arıyorsanız bkz. [Ambar uygulamasını yükleme ve bağlama](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
-Ambar Yönetimi mobil uygulamasının genel önizlemesi, Microsoft App Center'dan indirilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
-
-Bu konudada, Ambar Yönetimi mobil uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
+Bu konuda, Ambar Yönetimi uygulamasının mobil cihazlarınızın her birine nasıl indirilip yükleneceği ve uygulamanın Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 
 ## <a name="system-requirements"></a>Sistem gereksinimleri
 
@@ -53,17 +51,27 @@ Uygulamayı kullanabilmeniz için sisteminizde bununla ilgili bir özelliği etk
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını edinme
 
-Uygulamayı indirmek için aşağıdaki bağlantılardan birini kullanın:
+Daha küçük dağıtımlar için uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz.
 
-- **Windows (UWP):** [App Center önizleme programı - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Daha büyük dağıtımlar için uygulama dağıtımını ve/veya yapılandırmayı otomatikleştirebilirsiniz ve bu seçenek birçok cihazı yönetiyorsanız daha rahat olabilir. Örneğin, [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
-    Bu uygulama bir önizleme uygulaması olduğundan, yükleme için fazladan birkaç adım gereklidir. Ayrıntılar için bkz. [App Center'dan Derleme Yükleme](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>Uygulamayı bir uygulama mağazasından yükleme
 
-- **Android:** [App Center önizleme programı - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+Uygulamayı tek bir cihaza yüklemenin en kolay yolu, her zaman en son genel sürümü sağlayan bir uygulama mağazasından yüklemektir. Microsoft Intune, uygulama mağazalarındaki uygulamaları da getirebilir. Uygulamayı uygulama mağazasından yüklemek için aşağıdaki bağlantılardan birini kullanın:
 
-    Bu uygulama bir önizleme uygulaması olduğundan, yükleme için fazladan birkaç adım gereklidir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Microsoft Store'da Ambar Yönetimi](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Daha küçük dağıtımlar için, uygulamayı ilgili mağazadan her bir cihaza yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, isterseniz uygulama dağıtımını ve/veya yapılandırmasını otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
+- **Android:** [Google Play Store'da Ambar Yönetimi](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>Uygulamayı Microsoft App Center'dan indirme
+
+Bir uygulama mağazasından yüklemeye alternatif olarak uygulamayı Microsoft App Center'dan da indirebilirsiniz. App Center, dışarıdan yükleyebileceğiniz yüklenebilir paketler sağlar. Geçerli sürüme ek olarak, App Center önceki sürümleri indirmenize de olanak tanır ve deneyebileceğiniz yaklaşan özelliklerle önizleme sürümleri sağlayabilir. Ambar Yönetimi mobil uygulamasının geçerli, önceki veya önizleme sürümlerini Microsoft App Center'dan indirmek için aşağıdaki bağlantılardan birini kullanın:
+
+- **Windows (UWP):** [Ambar Yönetimi (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    İndirilen paketi bir Windows cihaza yükleme ve ardından gerekli sertifikaları ayarlama hakkında yönergeler için bkz. [App Center'dan Bir Derleme İndirme](https://docs.microsoft.com/appcenter/distribution/installation).
+
+- **Android:** [Ambar Yönetimi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 

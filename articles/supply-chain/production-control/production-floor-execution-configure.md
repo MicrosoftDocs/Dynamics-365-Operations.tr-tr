@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077489"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556326"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
@@ -41,7 +42,8 @@ Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri a�
 
 ### <a name="the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimi
 
-Bu konu, bu başlıkta açıklanan birincil özelliktir. Üretim katı yürütme arabirimini sisteminize ekler. Etkinleştirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:  
+Bu konu, bu başlıkta açıklanan birincil özelliktir. Üretim katı yürütme arabirimini sisteminize ekler. Etkinleştirmek için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özellikleri açın:
+
 - Üretim katı yürütmesi
 
 ### <a name="generate-license-plates"></a>Plaka oluşturma
@@ -79,6 +81,7 @@ Cihaz konfigürasyonları oluşturmak ve sürdürmek için, **Üretim denetimi \
 
 Sonra, seçili cihaz konfigürasyonuyla ilgili çeşitli ayarları yapılandırın. Aşağıdaki alanlar kullanılabilir:
 
+- **Yalnızca giriş ve çıkış saati** - Yalnızca giriş ve çıkış işlevselliği sağlayan basitleştirilmiş bir arabirim oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Bu, bu sayfadaki diğer seçeneklerin çoğunu devre dışı bırakır. Bu seçeneği etkinleştirmeden önce **Sekme seçimi** hızlı sekmesindeki tüm satırları kaldırmanız gerekir.
 - **Çıkış saatindeki rapor miktarı:** çalışanların çıkış yaparken sürmekte olan işler hakkında geribildirim raporlamalarını istemek için bunu *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar uyarılmayacaktır.
 - **Çalışanı kilitle**: Bu seçenek *Hayır* olarak ayarlandığında , çalışanlar kayıt yapıldıktan hemen sonra (yeni bir iş gibi) oturumları kapatılır. Cihaz daha sonra oturum açma sayfasına geri dönecektir. Bu seçenek *Evet* olarak ayarlandığında, çalışanlar iş kartı cihazında oturum açmış durumda kalır. Ancak, bir çalışan, iş kartı cihazı aynı sistem kullanıcı hesabı altında çalışmaya devam ederken başka bir çalışanın oturum açmasını sağlayacak şekilde el ile oturumunu kapatabilir. Bu hesap türleri hakkında daha fazla bilgi için, [atanan kullanıcılar](config-job-card-device.md#assigned-users)'a bakın.
 - **Kaydın gerçek zamanını kullan**: Her yeni kaydın bir çalışan tarafından gönderildiği tam zamana eşit olması için bu seçeneği *Evet* olarak ayarlayın. Bu seçenek *Hayır* olarak ayarlandığında, bunun yerine oturum açma zamanı kullanılır. Genellikle, **çalışanı kilitle** ve/veya **Tek çalışan** seçeneklerini çalışanların daha uzun süreler boyunca oturum açmış durumda kaldığı durumlarda *Evet* olarak işaretlediyseniz bu seçeneği *Evet* olarak ayarlamak isteyeceksiniz.

@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perahlff
+ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 2577705b04beef1f8b03f83ed8536be2e6ab6e83
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cc8bb6c3a993274f70316145f2ec8a6217e6886c
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683933"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571716"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma
 

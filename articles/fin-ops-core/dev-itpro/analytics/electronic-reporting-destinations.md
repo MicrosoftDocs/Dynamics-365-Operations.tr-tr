@@ -2,11 +2,10 @@
 title: Elektronik raporlama (ER) hedefleri
 description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097293"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569731"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -166,12 +165,14 @@ PDF dönüştürme seçeneğinin geçerli Finance kurulumunda kullanılabilmesin
 
 ### <a name="applicability"></a>Uygulanabilirlik
 
-PDF dönüştürme seçeneği yalnızca Office (Excel veya Word) biçiminde çıktı oluşturmak için kullanılan dosya bileşenleri (**Excel dosyası**) için açılabilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür.
-
-### <a name="limitations"></a>Sınırlamalar
+PDF dönüştürme seçeneği yalnızca Office (Excel veya Word) biçiminde çıktı oluşturmak için kullanılan dosya bileşenleri (**Excel dosyası**) için açılabilir. Bu seçenek etkinleştirildiğinde, Office biçiminde oluşturulan çıktı otomatik olarak PDF biçimine dönüştürülür. **10.0.18 sürümünden önceki** Finance sürümlerinde Bu seçeneği yalnızca **Excel\\Dosya** türünde [Excel](er-fillable-excel.md) veya [Word](er-design-configuration-word.md) biçiminde çıktı oluşturmak için kullanılan bileşenler için etkinleştirebilirsiniz. Ancak, **Sürüm 10.0.18 ve sonrasında** Bu seçeneği **ortak\\dosya** türü bileşenleri için de etkinleştirebilirsiniz.
 
 > [!NOTE]
-> Bu özellik bir önizleme özelliğidir ve 365 Önizleme [Microsoft Dynamics 365 Önizlemeler için Ek Kullanım Koşulları](https://go.microsoft.com/fwlink/?linkid=2105274)'nda açıklanan kullanım koşullarına tabidir.
+> **Ortak\\ dosya** türünün ER bileşeni için PDF dönüştürme seçeneğini etkinleştirdiğinizde aldığınız uyarı iletisine dikkat edin. Bu ileti, tasarım zamanında, seçili dosya bileşeninin çalışma zamanında PDF biçimindeki içeriği veya PDF'e dönüştürülebilir içeriği göstereceğini garanti etmenin bir yolu olmadığını bildirir. Bu nedenle, yalnızca seçilen dosya bileşeninin PDF biçimindeki içeriği veya PDF'e dönüştürülebilir içeriği çalışma zamanında göstermek üzere yapılandırılmış olduğundan eminseniz bu seçeneği etkinleştirmelisiniz.
+> 
+> **Excel\\dosya** türünde bir bileşen için PDF dönüştürme seçeneğini etkinleştirirseniz bu bileşen içeriği PDF dışındaki bir formatta gösterirse ve oluşturulan içerik PDF formatına dönüştürülemiyorsa, çalışma zamanında bir özel durum oluşur. Aldığınız ileti, oluşturulan içeriğin PDF biçimine dönüştürülemediğini size bildirir.
+
+### <a name="limitations"></a>Sınırlamalar
 
 PDF dönüştürme seçeneği yalnızca bulut dağıtımları için kullanılabilir.
 

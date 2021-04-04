@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b9b548212c6f1f3faac56cd7ca182d84cc339bd2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0d41d8665252a978962bf6a2e307dce3dad64a5b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973922"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233451"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Taşımacılık yönetimi modları ve yöntemleri
 

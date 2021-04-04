@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680132"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568713"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
 

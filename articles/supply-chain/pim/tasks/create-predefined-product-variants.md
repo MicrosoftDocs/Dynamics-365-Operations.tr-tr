@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d07a090dbd41eb17e8d604887435bbb8b07e8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c33bbc7fa0ef7c3ce9768dd3688f9d1d575a513e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966942"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259878"
 ---
 # <a name="create-predefined-product-variants"></a>Önceden tanımlanmış ürün çeşitleri oluşturma
 

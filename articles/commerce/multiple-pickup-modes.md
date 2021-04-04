@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
-ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
+ms.openlocfilehash: 38413f96eec97e93beb6998871a40c7ef755073c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5053425"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251295"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
