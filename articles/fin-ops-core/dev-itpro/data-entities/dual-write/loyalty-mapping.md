@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,30 +17,33 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 28872e9510394cf3d5cee151798d4130b8b6fe27
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 39e1d5b0a73b198b164e51a18222dbd985192070
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683510"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568040"
 ---
-# <a name="customer-loyalty-cards-and-reward-points"></a><span data-ttu-id="59755-103">Müşteri bağlılık programı kartları ve ödül puanları</span><span class="sxs-lookup"><span data-stu-id="59755-103">Customer loyalty cards and reward points</span></span>
+# <a name="customer-loyalty-cards-and-reward-points"></a><span data-ttu-id="b40cf-103">Müşteri bağlılık programı kartları ve ödül puanları</span><span class="sxs-lookup"><span data-stu-id="b40cf-103">Customer loyalty cards and reward points</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="59755-104">İşletmeler, müşteri alışverişi ve harcama alışkanlıkları temel alınarak müşterileri sınıflandırmakta ve karmaşık servisler sağlıyor.</span><span class="sxs-lookup"><span data-stu-id="59755-104">Businesses classify customers and provide sophisticated services, based on customer shopping and spending patterns.</span></span> <span data-ttu-id="59755-105">Örneğin Dynamics 365 Commerce, müşteri bağlılık programı kartlarını, ödüllendirme puanlarını, bağlılık programı tabanlı fiyatlandırmayı ve ödül tabanlı alışveriş deneyimlerini kolaylaştırmak ve işlemek için gerekli altyapıya ve işlevlere sahiptir.</span><span class="sxs-lookup"><span data-stu-id="59755-105">For example, Dynamics 365 Commerce has the infrastructure and functions to facilitate and handle customer loyalty cards, reward points, loyalty-based pricing, and rewards-based shopping experiences.</span></span> <span data-ttu-id="59755-106">Commerce'teki müşteri bağlılık programı kartları ve ödül puanları Dataverse'e eşitlendiğinde, müşteri etkileşimi uygulamaları bu verileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="59755-106">When data about customer loyalty cards and reward points in Commerce is synced to Dataverse, customer engagement apps can use that data.</span></span> <span data-ttu-id="59755-107">Örneğin, Dynamics 365 Customer Service kullanıcıları, verileri yardım masasıyla aynı Gelişmiş hizmetleri sağlamak için kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="59755-107">For example, Dynamics 365 Customer Service users can use the data to provide the same sophisticated services through the help desk.</span></span>
+<span data-ttu-id="b40cf-104">İşletmeler, müşteri alışverişi ve harcama alışkanlıkları temel alınarak müşterileri sınıflandırmakta ve karmaşık servisler sağlıyor.</span><span class="sxs-lookup"><span data-stu-id="b40cf-104">Businesses classify customers and provide sophisticated services, based on customer shopping and spending patterns.</span></span> <span data-ttu-id="b40cf-105">Örneğin Dynamics 365 Commerce, müşteri bağlılık programı kartlarını, ödüllendirme puanlarını, bağlılık programı tabanlı fiyatlandırmayı ve ödül tabanlı alışveriş deneyimlerini kolaylaştırmak ve işlemek için gerekli altyapıya ve işlevlere sahiptir.</span><span class="sxs-lookup"><span data-stu-id="b40cf-105">For example, Dynamics 365 Commerce has the infrastructure and functions to facilitate and handle customer loyalty cards, reward points, loyalty-based pricing, and rewards-based shopping experiences.</span></span> <span data-ttu-id="b40cf-106">Commerce'teki müşteri bağlılık programı kartları ve ödül puanları Dataverse'e eşitlendiğinde, müşteri etkileşimi uygulamaları bu verileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="b40cf-106">When data about customer loyalty cards and reward points in Commerce is synced to Dataverse, customer engagement apps can use that data.</span></span> <span data-ttu-id="b40cf-107">Örneğin, Dynamics 365 Customer Service kullanıcıları, verileri yardım masasıyla aynı Gelişmiş hizmetleri sağlamak için kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="b40cf-107">For example, Dynamics 365 Customer Service users can use the data to provide the same sophisticated services through the help desk.</span></span>
 
-## <a name="templates"></a><span data-ttu-id="59755-108">Şablonlar</span><span class="sxs-lookup"><span data-stu-id="59755-108">Templates</span></span>
+## <a name="templates"></a><span data-ttu-id="b40cf-108">Şablonlar</span><span class="sxs-lookup"><span data-stu-id="b40cf-108">Templates</span></span>
 
-| <span data-ttu-id="59755-109">Finance and Operations uygulamaları</span><span class="sxs-lookup"><span data-stu-id="59755-109">Finance and Operations apps</span></span> | <span data-ttu-id="59755-110">Dynamics 365'teki model yönetimli uygulamalar</span><span class="sxs-lookup"><span data-stu-id="59755-110">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="59755-111">Tanım</span><span class="sxs-lookup"><span data-stu-id="59755-111">Description</span></span> |
+| <span data-ttu-id="b40cf-109">Finance and Operations uygulamaları</span><span class="sxs-lookup"><span data-stu-id="b40cf-109">Finance and Operations apps</span></span> | <span data-ttu-id="b40cf-110">Dynamics 365'teki model yönetimli uygulamalar</span><span class="sxs-lookup"><span data-stu-id="b40cf-110">Model-driven apps in Dynamics 365</span></span> | <span data-ttu-id="b40cf-111">Tanım</span><span class="sxs-lookup"><span data-stu-id="b40cf-111">Description</span></span> |
 |-----------------------------|-----------------------------------|-------------|
-| <span data-ttu-id="59755-112">Bağlılık programı kartı</span><span class="sxs-lookup"><span data-stu-id="59755-112">Loyalty card</span></span>                | <span data-ttu-id="59755-113">msdyn\_loyaltycards</span><span class="sxs-lookup"><span data-stu-id="59755-113">msdyn\_loyaltycards</span></span>               | <span data-ttu-id="59755-114">Bu şablon müşteri bağlılık programı kartılarıyla ilgili bilgileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="59755-114">This template syncs information about customer loyalty cards.</span></span> |
-| <span data-ttu-id="59755-115">Bağlılık programı ödül puanları</span><span class="sxs-lookup"><span data-stu-id="59755-115">Loyalty reward points</span></span>       | <span data-ttu-id="59755-116">msdyn\_loyaltyrewardpoints</span><span class="sxs-lookup"><span data-stu-id="59755-116">msdyn\_loyaltyrewardpoints</span></span>        | <span data-ttu-id="59755-117">Bu şablon müşteri ödül puanlarıyla ilgili bilgileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="59755-117">This template syncs information about customer reward points.</span></span> |
+| <span data-ttu-id="b40cf-112">Bağlılık programı kartı</span><span class="sxs-lookup"><span data-stu-id="b40cf-112">Loyalty card</span></span>                | <span data-ttu-id="b40cf-113">msdyn\_loyaltycards</span><span class="sxs-lookup"><span data-stu-id="b40cf-113">msdyn\_loyaltycards</span></span>               | <span data-ttu-id="b40cf-114">Bu şablon müşteri bağlılık programı kartılarıyla ilgili bilgileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="b40cf-114">This template syncs information about customer loyalty cards.</span></span> |
+| <span data-ttu-id="b40cf-115">Bağlılık programı ödül puanları</span><span class="sxs-lookup"><span data-stu-id="b40cf-115">Loyalty reward points</span></span>       | <span data-ttu-id="b40cf-116">msdyn\_loyaltyrewardpoints</span><span class="sxs-lookup"><span data-stu-id="b40cf-116">msdyn\_loyaltyrewardpoints</span></span>        | <span data-ttu-id="b40cf-117">Bu şablon müşteri ödül puanlarıyla ilgili bilgileri eşitler.</span><span class="sxs-lookup"><span data-stu-id="b40cf-117">This template syncs information about customer reward points.</span></span> |
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
 [!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping reward points](includes/LoyaltyRewardPoints-msdyn-loyaltyrewardpoints.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
