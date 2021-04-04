@@ -17,60 +17,63 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974672"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470749"
 ---
-# <a name="create-service-task-relations"></a><span data-ttu-id="2678f-103">Servis görevi ilişkileri oluşturma</span><span class="sxs-lookup"><span data-stu-id="2678f-103">Create service task relations</span></span>    
+# <a name="create-service-task-relations"></a><span data-ttu-id="d9d1e-103">Servis görevi ilişkileri oluşturma</span><span class="sxs-lookup"><span data-stu-id="d9d1e-103">Create service task relations</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2678f-104">Sözleşme veya sipariş için tamamlanması gereken servis görevini açıklamak için Servis görevlerini servis sözleşmeleri veya servis siparişleriyle ilişkilendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2678f-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="2678f-105">Hem teknisyenler hem de müşteriler bu bilgileri görebilir.</span><span class="sxs-lookup"><span data-stu-id="2678f-105">This information is available to service technicians and customers.</span></span>
+<span data-ttu-id="d9d1e-104">Sözleşme veya sipariş için tamamlanması gereken servis görevini açıklamak için Servis görevlerini servis sözleşmeleri veya servis siparişleriyle ilişkilendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-104">You can associate service tasks with service agreements or service orders in order to describe the service task to be completed for the agreement or order.</span></span> <span data-ttu-id="d9d1e-105">Hem teknisyenler hem de müşteriler bu bilgileri görebilir.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-105">This information is available to service technicians and customers.</span></span>
 
-## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="2678f-106">Servis anlaşmasıyla bir ilişki oluşturma</span><span class="sxs-lookup"><span data-stu-id="2678f-106">Create a relation with a service agreement</span></span>
+## <a name="create-a-relation-with-a-service-agreement"></a><span data-ttu-id="d9d1e-106">Servis anlaşmasıyla bir ilişki oluşturma</span><span class="sxs-lookup"><span data-stu-id="d9d1e-106">Create a relation with a service agreement</span></span>
 
-1.  <span data-ttu-id="2678f-107">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-107">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="d9d1e-107">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-107">Go to **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="2678f-108">Var olan bir servis anlaşmasını seçin veya yeni bir servis anlaşması oluşturun.</span><span class="sxs-lookup"><span data-stu-id="2678f-108">Select an existing service agreement, or create a new service agreement.</span></span>
+2.  <span data-ttu-id="d9d1e-108">Var olan bir servis anlaşmasını seçin veya yeni bir servis anlaşması oluşturun.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-108">Select an existing service agreement, or create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="2678f-109">Eylem Bölmesindeki **Servis görevleri** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-109">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="d9d1e-109">Eylem Bölmesindeki **Servis görevleri** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-109">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="2678f-110">**Servis görevleri** formunda, yeni bir satır oluşturmak için CTRL+N tuşlarına basın ve **Servis görevi** listesinden bir servis görevi seçerek servis görevini servis sözleşmesine ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2678f-110">On the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
+4.  <span data-ttu-id="d9d1e-110">**Servis görevleri** formunda, yeni bir satır oluşturmak için **Yeni**'yi seçin ve **Servis görevi** listesinden bir servis görevi seçerek servis görevini servis sözleşmesine ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-110">On the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service task to the service agreement.</span></span>
 
-5.  <span data-ttu-id="2678f-111">**Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.</span><span class="sxs-lookup"><span data-stu-id="2678f-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="d9d1e-111">**Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-111">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="2678f-112">Girişi kaydetmek için formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="2678f-112">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="d9d1e-112">Girişi kaydetmek için formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-112">Close the form to save the record.</span></span>
 
-<span data-ttu-id="2678f-113">Servis anlaşması için gerekli tüm servis görevi ilişkilerini oluşturana kadar bu yordamı tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="2678f-114">Artık bu servis görevlerini iliştirilen anlaşma satırları için belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2678f-114">You can now specify these service tasks for any attached agreement lines.</span></span>
+<span data-ttu-id="d9d1e-113">Servis anlaşması için gerekli tüm servis görevi ilişkilerini oluşturana kadar bu yordamı tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-113">Repeat this procedure until you have created all the necessary service task relations for the service agreement.</span></span> <span data-ttu-id="d9d1e-114">Artık bu servis görevlerini iliştirilen anlaşma satırları için belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-114">You can now specify these service tasks for any attached agreement lines.</span></span>
 
-<span data-ttu-id="2678f-115">Bir servis anlaşmasında oluşturulan bir servis görevi ilişkisi, servis anlaşmasına iliştirilmiş tüm servis siparişlerinden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2678f-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
+<span data-ttu-id="d9d1e-115">Bir servis anlaşmasında oluşturulan bir servis görevi ilişkisi, servis anlaşmasına iliştirilmiş tüm servis siparişlerinden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-115">A service tasks relation that is created on a service agreement is available from all service orders that are attached to the service agreement.</span></span>
 
-## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="2678f-116">Servis siparişiyle bir ilişki oluşturma</span><span class="sxs-lookup"><span data-stu-id="2678f-116">Create a relation with a service order</span></span>
+## <a name="create-a-relation-with-a-service-order"></a><span data-ttu-id="d9d1e-116">Servis siparişiyle bir ilişki oluşturma</span><span class="sxs-lookup"><span data-stu-id="d9d1e-116">Create a relation with a service order</span></span>
 
-1.  <span data-ttu-id="2678f-117">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="d9d1e-117">**Servis yönetimi** \> **Ortak** \> **Servis siparişleri** \> **Servis siparişleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-117">Go to **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="2678f-118">Var olan bir servis siparişini seçin veya yeni bir servis siparişi oluşturun.</span><span class="sxs-lookup"><span data-stu-id="2678f-118">Select an existing service order, or create a new service order.</span></span>
+2.  <span data-ttu-id="d9d1e-118">Var olan bir servis siparişini seçin veya yeni bir servis siparişi oluşturun.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-118">Select an existing service order, or create a new service order.</span></span>
 
-3.  <span data-ttu-id="2678f-119">Eylem Bölmesindeki **Servis görevleri** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-119">On the Action Pane, click the **Service tasks** button.</span></span>
+3.  <span data-ttu-id="d9d1e-119">Eylem Bölmesindeki **Servis görevleri** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-119">On the Action Pane, select the **Service tasks** button.</span></span>
 
-4.  <span data-ttu-id="2678f-120">**Servis görevleri** formunda, yeni bir satır oluşturmak için CTRL+N tuşlarına basın ve **Servis görevi** listesinden bir servis görevi seçerek servis görevlerini servis siparişine ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2678f-120">From the **Service tasks** form, press CTRL+N to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
+4.  <span data-ttu-id="d9d1e-120">**Servis görevleri** formunda, yeni bir satır oluşturmak için **Yeni**'yi seçin ve **Servis görevi** listesinden bir servis görevi seçerek servis görevlerini servis siparişine ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-120">From the **Service tasks** form, select **New** to create a new line, and then select a service task from the **Service task** list to attach the service tasks to the service order.</span></span>
 
-5.  <span data-ttu-id="2678f-121">**Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.</span><span class="sxs-lookup"><span data-stu-id="2678f-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
+5.  <span data-ttu-id="d9d1e-121">**Açıklama** sekmesinde, serbest metinli alanlara her türlü dahili veya harici not açıklamasını girin.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-121">On the **Description** tab, enter any internal or external note descriptions in the free text fields.</span></span>
 
-6.  <span data-ttu-id="2678f-122">Girişi kaydetmek için formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="2678f-122">Close the form to save the record.</span></span>
+6.  <span data-ttu-id="d9d1e-122">Girişi kaydetmek için formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-122">Close the form to save the record.</span></span>
 
-<span data-ttu-id="2678f-123">Servis siparişi için gerekli tüm servis görevi ilişkilerini oluşturana kadar bu yordamı tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="2678f-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="2678f-124">Artık, servis siparişi satırları oluşturduğunuzda ilişkisini oluşturduğunuz servis görevini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2678f-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
+<span data-ttu-id="d9d1e-123">Servis siparişi için gerekli tüm servis görevi ilişkilerini oluşturana kadar bu yordamı tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-123">Repeat this procedure until you have created all the necessary service task relations for the service order.</span></span> <span data-ttu-id="d9d1e-124">Artık, servis siparişi satırları oluşturduğunuzda ilişkisini oluşturduğunuz servis görevini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-124">You can now select the service task for which you have created the relation when you create service order lines.</span></span>
 
-<span data-ttu-id="2678f-125">Bir servis siparişinde oluşturulan servis görevi ilişkileri belirli bir servis siparişinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="2678f-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
+<span data-ttu-id="d9d1e-125">Bir servis siparişinde oluşturulan servis görevi ilişkileri belirli bir servis siparişinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-125">Service task relations that are created on a service order are available on the specific service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2678f-126">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="2678f-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d9d1e-126">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="d9d1e-126">See also</span></span>
 
-[<span data-ttu-id="2678f-127">Servis görevlerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="2678f-127">Service tasks overview</span></span>](service-tasks.md)
+[<span data-ttu-id="d9d1e-127">Servis görevlerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="d9d1e-127">Service tasks overview</span></span>](service-tasks.md)
 
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
