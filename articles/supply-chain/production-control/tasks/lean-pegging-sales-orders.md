@@ -16,43 +16,46 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 457e7128bed2232a3e092b31136f768940482741
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a6a18d24be85e20a7e5824c334855aa94fe61cb5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4994191"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5245985"
 ---
-# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="dbc8d-103">Satış siparişlerinden yalın ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="dbc8d-103">Lean pegging from sales orders</span></span>
+# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="e5916-103">Satış siparişlerinden yalın ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="e5916-103">Lean pegging from sales orders</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="dbc8d-104">Bu yordam, satış satırındaki maddenin kanbanlar ile üretildiği bir pegging ağacını onaylamaya odaklanır.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="dbc8d-105">Pegging ağacı doğrulandıktan sonra tüm kanban işleri planlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="dbc8d-106">Bu durum sipariş alan kişinin üretimin hemen başlayabildiğinden emin olmasının gerektiği senaryolar için faydalıdır.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="dbc8d-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="dbc8d-108">Bu yordam, yalın bir şirkette çalışan gelişmiş siparişi alıcı içindir.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
+<span data-ttu-id="e5916-104">Bu yordam, satış satırındaki maddenin kanbanlar ile üretildiği bir pegging ağacını onaylamaya odaklanır.</span><span class="sxs-lookup"><span data-stu-id="e5916-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="e5916-105">Pegging ağacı doğrulandıktan sonra tüm kanban işleri planlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="e5916-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="e5916-106">Bu durum sipariş alan kişinin üretimin hemen başlayabildiğinden emin olmasının gerektiği senaryolar için faydalıdır.</span><span class="sxs-lookup"><span data-stu-id="e5916-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="e5916-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="e5916-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e5916-108">Bu yordam, yalın bir şirkette çalışan gelişmiş siparişi alıcı içindir.</span><span class="sxs-lookup"><span data-stu-id="e5916-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 
 
-## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="dbc8d-109">Kanban kontrollü madde için bir satış siparişi oluşturun</span><span class="sxs-lookup"><span data-stu-id="dbc8d-109">Create a sales order for a kanban controlled item</span></span>
-1. <span data-ttu-id="dbc8d-110">Tüm satış siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-110">Go to All sales orders.</span></span>
-2. <span data-ttu-id="dbc8d-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-111">Click New.</span></span>
-3. <span data-ttu-id="dbc8d-112">Müşteri hesabı alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-112">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="dbc8d-113">Kullanım ABD-001.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-113">Use US-001.</span></span>  
-4. <span data-ttu-id="dbc8d-114">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-114">Click OK.</span></span>
-5. <span data-ttu-id="dbc8d-115">Madde numarası alanına 'L0001' girin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-115">In the Item number field, type 'L0001'.</span></span>
-6. <span data-ttu-id="dbc8d-116">Miktarı '30' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-116">Set Quantity to '30'.</span></span>
-    * <span data-ttu-id="dbc8d-117">Olay kanban kuralını tetiklemek için miktarın 24'ten daha yüksek olması önemlidir.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
+## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="e5916-109">Kanban kontrollü madde için bir satış siparişi oluşturun</span><span class="sxs-lookup"><span data-stu-id="e5916-109">Create a sales order for a kanban controlled item</span></span>
+1. <span data-ttu-id="e5916-110">Tüm satış siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="e5916-110">Go to All sales orders.</span></span>
+2. <span data-ttu-id="e5916-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e5916-111">Click New.</span></span>
+3. <span data-ttu-id="e5916-112">Müşteri hesabı alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="e5916-112">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="e5916-113">Kullanım ABD-001.</span><span class="sxs-lookup"><span data-stu-id="e5916-113">Use US-001.</span></span>  
+4. <span data-ttu-id="e5916-114">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e5916-114">Click OK.</span></span>
+5. <span data-ttu-id="e5916-115">Madde numarası alanına 'L0001' girin.</span><span class="sxs-lookup"><span data-stu-id="e5916-115">In the Item number field, type 'L0001'.</span></span>
+6. <span data-ttu-id="e5916-116">Miktarı '30' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="e5916-116">Set Quantity to '30'.</span></span>
+    * <span data-ttu-id="e5916-117">Olay kanban kuralını tetiklemek için miktarın 24'ten daha yüksek olması önemlidir.</span><span class="sxs-lookup"><span data-stu-id="e5916-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
 
-## <a name="open-a-pegging-tree"></a><span data-ttu-id="dbc8d-118">Bir ilişkilendirme ağacı açmak</span><span class="sxs-lookup"><span data-stu-id="dbc8d-118">Open a pegging tree</span></span> 
-1. <span data-ttu-id="dbc8d-119">Ürün ve tedarik seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-119">Click Product and supply.</span></span>
-2. <span data-ttu-id="dbc8d-120">İlişkilendirme ağacını görüntüle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-120">Click View pegging tree.</span></span>
-    * <span data-ttu-id="dbc8d-121">Pegging ağacının satış emri satırındaki gerekli tüm pegginglerin seviyelerini gösterdiğine dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="dbc8d-122">Bu durumda, iki düzeyde kanban mevcuttur ve hepsi gerekli bileşenlerdir.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
+## <a name="open-a-pegging-tree"></a><span data-ttu-id="e5916-118">Bir ilişkilendirme ağacı açmak</span><span class="sxs-lookup"><span data-stu-id="e5916-118">Open a pegging tree</span></span> 
+1. <span data-ttu-id="e5916-119">Ürün ve tedarik seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e5916-119">Click Product and supply.</span></span>
+2. <span data-ttu-id="e5916-120">İlişkilendirme ağacını görüntüle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e5916-120">Click View pegging tree.</span></span>
+    * <span data-ttu-id="e5916-121">Pegging ağacının satış emri satırındaki gerekli tüm pegginglerin seviyelerini gösterdiğine dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e5916-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="e5916-122">Bu durumda, iki düzeyde kanban mevcuttur ve hepsi gerekli bileşenlerdir.</span><span class="sxs-lookup"><span data-stu-id="e5916-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
 
-## <a name="plan-the-pegging-tree"></a><span data-ttu-id="dbc8d-123">İlişkilendirme ağacını planla</span><span class="sxs-lookup"><span data-stu-id="dbc8d-123">Plan the pegging tree</span></span>
-1. <span data-ttu-id="dbc8d-124">Ağaçta 'Satış satırı 000832\Kanban 000558' seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
-2. <span data-ttu-id="dbc8d-125">Kanban işleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-125">Expand the Kanban jobs section.</span></span>
-    * <span data-ttu-id="dbc8d-126">Kanban işi için iş durumunun planlanmadı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-126">Notice that the job status for the kanban job is Not planned.</span></span>  
-3. <span data-ttu-id="dbc8d-127">Tüm ilişkilendirme ağacını planla'ya tıkla.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-127">Click Plan entire pegging tree.</span></span>
-    * <span data-ttu-id="dbc8d-128">Bu, iş değiştirme ilişkilendirme ağacındaki tüm kanban işlerinin iş durumunu planlanmadı'dan planlandı'ya değiştirecektir.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
-4. <span data-ttu-id="dbc8d-129">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-129">Refresh the page.</span></span>
-    * <span data-ttu-id="dbc8d-130">Kanban iş durumunun planlanmadı'dan planlandı'ya dönüştüğüne dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
-5. <span data-ttu-id="dbc8d-131">Ağaçta, 'Satış 000832\Kanban 000558\Issue L0001\Kanban 000559 için satır' seçin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
-    * <span data-ttu-id="dbc8d-132">İkinci kanban için de iş planlanmıştır çünkü tüm pegging ağacı planlıdır.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="dbc8d-133">Kanban iş durumunun planlanmadı'dan planlandı'ya dönüştüğüne dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="dbc8d-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
+## <a name="plan-the-pegging-tree"></a><span data-ttu-id="e5916-123">İlişkilendirme ağacını planla</span><span class="sxs-lookup"><span data-stu-id="e5916-123">Plan the pegging tree</span></span>
+1. <span data-ttu-id="e5916-124">Ağaçta 'Satış satırı 000832\Kanban 000558' seçin.</span><span class="sxs-lookup"><span data-stu-id="e5916-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
+2. <span data-ttu-id="e5916-125">Kanban işleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="e5916-125">Expand the Kanban jobs section.</span></span>
+    * <span data-ttu-id="e5916-126">Kanban işi için iş durumunun planlanmadı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e5916-126">Notice that the job status for the kanban job is Not planned.</span></span>  
+3. <span data-ttu-id="e5916-127">Tüm ilişkilendirme ağacını planla'ya tıkla.</span><span class="sxs-lookup"><span data-stu-id="e5916-127">Click Plan entire pegging tree.</span></span>
+    * <span data-ttu-id="e5916-128">Bu, iş değiştirme ilişkilendirme ağacındaki tüm kanban işlerinin iş durumunu planlanmadı'dan planlandı'ya değiştirecektir.</span><span class="sxs-lookup"><span data-stu-id="e5916-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
+4. <span data-ttu-id="e5916-129">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="e5916-129">Refresh the page.</span></span>
+    * <span data-ttu-id="e5916-130">Kanban iş durumunun planlanmadı'dan planlandı'ya dönüştüğüne dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e5916-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
+5. <span data-ttu-id="e5916-131">Ağaçta, 'Satış 000832\Kanban 000558\Issue L0001\Kanban 000559 için satır' seçin.</span><span class="sxs-lookup"><span data-stu-id="e5916-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
+    * <span data-ttu-id="e5916-132">İkinci kanban için de iş planlanmıştır çünkü tüm pegging ağacı planlıdır.</span><span class="sxs-lookup"><span data-stu-id="e5916-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="e5916-133">Kanban iş durumunun planlanmadı'dan planlandı'ya dönüştüğüne dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e5916-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

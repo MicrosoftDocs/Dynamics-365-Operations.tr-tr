@@ -16,36 +16,39 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28562772c52d06fbb2004bd3a01a7bfa32f58a4e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: eed109551762ff2e120ab4362c6ca0f01f71d0c2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974047"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233763"
 ---
-# <a name="set-up-accessorial-assignments"></a><span data-ttu-id="5f307-103">İlave atamaları ayarlama</span><span class="sxs-lookup"><span data-stu-id="5f307-103">Set up accessorial assignments</span></span>
+# <a name="set-up-accessorial-assignments"></a><span data-ttu-id="72da4-103">İlave atamaları ayarlama</span><span class="sxs-lookup"><span data-stu-id="72da4-103">Set up accessorial assignments</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5f307-104">Bu yordam, bir ilave atama kurmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="5f307-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="5f307-105">Bu genellikle taşımacılık düzenleyicisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="5f307-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="5f307-106">Bu kılavuzu kullanmadan önce "Hub ek giderleri ve ana ilaveleri ayarlama" kılavuzunu çalıştırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="5f307-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
+<span data-ttu-id="72da4-104">Bu yordam, bir ilave atama kurmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="72da4-104">This procedure shows how to set up an accessorial assignment.</span></span> <span data-ttu-id="72da4-105">Bu genellikle taşımacılık düzenleyicisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="72da4-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="72da4-106">Bu kılavuzu kullanmadan önce "Hub ek giderleri ve ana ilaveleri ayarlama" kılavuzunu çalıştırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="72da4-106">Before you use this guide you need to run the "Set up hub accessorial charges and accessorial masters" guide.</span></span>
 
 
-## <a name="set-up-accessorial-assignment"></a><span data-ttu-id="5f307-107">İlave atamalar ayarlayın</span><span class="sxs-lookup"><span data-stu-id="5f307-107">Set up Accessorial assignment</span></span>
-1. <span data-ttu-id="5f307-108">Taşıma yönetimi > Kurulum > Derecelendirme > Ek atamalar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="5f307-108">Go to Transportation management > Setup > Rating > Accessorial assignments.</span></span>
-2. <span data-ttu-id="5f307-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-109">Click New.</span></span>
-3. <span data-ttu-id="5f307-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="5f307-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="5f307-111">Ayrıntılar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-111">Toggle the expansion of the Details section.</span></span>
-5. <span data-ttu-id="5f307-112">Hub alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-112">In the Hub field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="5f307-113">Listede, "Hub ek giderleri ve ana ilaveleri ayarlama" kılavuzunu çalıştırdığınızda oluşturduğunuz ana ilave Hub'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-113">In the list, select the Hub that you created an accessorial master for when you ran the "Set up hub accessorial charges and accessorial masters" guide.</span></span> 
-7. <span data-ttu-id="5f307-114">Hub ilave kimliği alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-114">In the Hub accessorial ID field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="5f307-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="5f307-116">Ölçütler bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-116">Toggle the expansion of the Criteria section.</span></span>
-    * <span data-ttu-id="5f307-117">Ölçüt bölümünde giderin uygulanacağı tam ölçütleri, burada sunulan farklı değerleri temel alarak, seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5f307-117">In the Criteria section you can choose the exact criteria for when the charge should apply, based on the different values offered here.</span></span>  
-10. <span data-ttu-id="5f307-118">Her zaman uygula seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-118">Set the Always apply option to Yes.</span></span>
-11. <span data-ttu-id="5f307-119">İlave atama düzeyi alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-119">In the Accessorial assignment level field, select an option.</span></span>
-12. <span data-ttu-id="5f307-120">Hesaplama bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-120">Toggle the expansion of the Calculation section.</span></span>
-13. <span data-ttu-id="5f307-121">İlave ücret türü alanında, 'Sabit'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5f307-121">In the Accessorial fee type field, select 'Flat'.</span></span>
-    * <span data-ttu-id="5f307-122">İlave ücret türü, gerçek ücretin nasıl hesaplanacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="5f307-122">The Accessorial fee type determines how to calculate the actual charge.</span></span> <span data-ttu-id="5f307-123">Bu örnekte bu bir sabit ücrettir.</span><span class="sxs-lookup"><span data-stu-id="5f307-123">In this example it's a flat charge.</span></span>  
-14. <span data-ttu-id="5f307-124">İlave ücret alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="5f307-124">In the Accessorial fee field, enter a number.</span></span>
-15. <span data-ttu-id="5f307-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5f307-125">Click Save.</span></span>
+## <a name="set-up-accessorial-assignment"></a><span data-ttu-id="72da4-107">İlave atamalar ayarlayın</span><span class="sxs-lookup"><span data-stu-id="72da4-107">Set up Accessorial assignment</span></span>
+1. <span data-ttu-id="72da4-108">Taşıma yönetimi > Kurulum > Derecelendirme > Ek atamalar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="72da4-108">Go to Transportation management > Setup > Rating > Accessorial assignments.</span></span>
+2. <span data-ttu-id="72da4-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-109">Click New.</span></span>
+3. <span data-ttu-id="72da4-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="72da4-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="72da4-111">Ayrıntılar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-111">Toggle the expansion of the Details section.</span></span>
+5. <span data-ttu-id="72da4-112">Hub alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-112">In the Hub field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="72da4-113">Listede, "Hub ek giderleri ve ana ilaveleri ayarlama" kılavuzunu çalıştırdığınızda oluşturduğunuz ana ilave Hub'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-113">In the list, select the Hub that you created an accessorial master for when you ran the "Set up hub accessorial charges and accessorial masters" guide.</span></span> 
+7. <span data-ttu-id="72da4-114">Hub ilave kimliği alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-114">In the Hub accessorial ID field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="72da4-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="72da4-116">Ölçütler bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-116">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="72da4-117">Ölçüt bölümünde giderin uygulanacağı tam ölçütleri, burada sunulan farklı değerleri temel alarak, seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72da4-117">In the Criteria section you can choose the exact criteria for when the charge should apply, based on the different values offered here.</span></span>  
+10. <span data-ttu-id="72da4-118">Her zaman uygula seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-118">Set the Always apply option to Yes.</span></span>
+11. <span data-ttu-id="72da4-119">İlave atama düzeyi alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-119">In the Accessorial assignment level field, select an option.</span></span>
+12. <span data-ttu-id="72da4-120">Hesaplama bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-120">Toggle the expansion of the Calculation section.</span></span>
+13. <span data-ttu-id="72da4-121">İlave ücret türü alanında, 'Sabit'i seçin.</span><span class="sxs-lookup"><span data-stu-id="72da4-121">In the Accessorial fee type field, select 'Flat'.</span></span>
+    * <span data-ttu-id="72da4-122">İlave ücret türü, gerçek ücretin nasıl hesaplanacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="72da4-122">The Accessorial fee type determines how to calculate the actual charge.</span></span> <span data-ttu-id="72da4-123">Bu örnekte bu bir sabit ücrettir.</span><span class="sxs-lookup"><span data-stu-id="72da4-123">In this example it's a flat charge.</span></span>  
+14. <span data-ttu-id="72da4-124">İlave ücret alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="72da4-124">In the Accessorial fee field, enter a number.</span></span>
+15. <span data-ttu-id="72da4-125">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72da4-125">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
