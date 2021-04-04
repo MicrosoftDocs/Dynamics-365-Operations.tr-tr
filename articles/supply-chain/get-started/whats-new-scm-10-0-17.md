@@ -3,7 +3,7 @@ title: Dynamics 365 Supply Chain Management 10.0.17 (Nisan 2021) Önizlemesi
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.17'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 manager: annbe
-ms.date: 01/28/2021
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bfa6e04f8d7ae192d0acd88fb3f1d7e2ce6cc576
-ms.sourcegitcommit: b9c6ad79d05feb858f818b37ce5c344f90cc6eb7
+ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5137940"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571824"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 (Nisan 2021) Önizlemesi
 
@@ -38,84 +38,97 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 Bu sürümde aşağıdaki özellikler bulunmaktadır. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
+Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
+
+### <a name="asset-management"></a>Varlık yönetimi
+
 - [Bakım planı çalıştırırken iş emirlerini gruplandırmak için kural uygulama](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Daha fazla bilgi için bkz. [İş emirleri oluşturma](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md).
-
-<!-- KFM: Blocked for now. Dana will followup.
-- [Approve and save vendor-submitted bank details](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) 
--->
-
-- Üretim katı yürütme arabiriminde kıymet yönetimi özellikleri<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).  <!-- KFM: Not yet published on release plan, but is ready. Should be in the next publish. -->
 
 - [Bakım işi için müşterileri faturalandırma](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Daha fazla bilgi için bkz. [Müşteriye ait kıymetler için bakım faturası](../asset-management/integration-to-project-management-and-accounting/customer-billing.md).
 
-- [Planlamayı En İyi Duruma Getirme için kapsam zaman dilimi desteği](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Daha fazla bilgi için bkz. [Kapsam zaman dilimleri](../master-planning/planning-optimization/coverage-time-fence.md).
-
-- [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)
-
-<!-- KFM: Add this when the feature appears in release plan at next update:
-- Enterprise-scale inventory performance improvements and archiving  -->
-
-- [Varış yeri maliyeti](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)
-
-- [Bulutta ölçek birimleriyle üretim yürütme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md).
-
-- [Malzeme işleme/ambar otomasyonu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/material-handlingwarehouse-automation) <!-- KFM: Update RP link when the new one goes live -->
-
-- [Paketleme ve depolama boyutları](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Daha fazla bilgi için bkz. [Ambalajlama ve depolama için farklı boyutlar ayarlama](../warehousing/packing-vs-storage-dimensions.md)
-
-- Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma<br> - Daha fazla bilgi için bkz. [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](../production-control/override-default-reservation-principle.md) <!-- KFM: Not yet published on release plan, but is ready. Should be in the next publish. -->
-
 - [Birikmiş sayaç değerlerine göre bakım planlama](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Daha fazla bilgi için bkz. [Bakım planları](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md).
 
-- [Planlamayı En İyi Duruma Getirme için satınalma talebi desteği](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Daha fazla bilgi için bkz. [Satınalma talepleri](../master-planning/planning-optimization/purchase-requisitions.md).
+### <a name="inventory-and-logistics"></a>Stok ve lojistik
+
+- [Otomatik ambar prosesleri için malzeme işleme ekipmanlarına yönelik tümleştirme çerçevesi (önceki adı MHAX)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Daha fazla bilgi için bkz. [Malzeme işleme ekipmanı arabirimi (MHAX)](../warehousing/mhax.md).
+
+- [Varış yeri maliyeti](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Daha fazla bilgi için bkz. [Varış yeri maliyeti modülü](../landed-cost/landed-cost-overview.md).
+
+- [Paketleme ve depolama boyutları](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Daha fazla bilgi için bkz. [Paketleme ve depolama için farklı boyutlar ayarlama](../warehousing/packing-vs-storage-dimensions.md).
 
 - [Stok ve lojistik için kayıtlı görünümler](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
-
-- [Planlanan siparişler için kayıtlı görünümler](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
-
-- [Üretim denetimi için kayıtlı görünümler](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
 
 - [Ambar iş oluşturmayı zamanlama](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Daha fazla bilgi için bkz. [Dalga sırasında iş oluşturmayı zamanlama](../warehousing/configure-wave-schedule-work-creation.md).
 
 - [Stok standart maliyet yeniden değerleme fişleri için varsayılan mali boyutları belirleme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Daha fazla bilgi için bkz. [Standart maliyet güncelleştirmelerini yönetme](../cost-management/manage-standard-cost-updates.md).
 
-- [Küçük Paket Sevkiyatı (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)<br> - Daha fazla bilgi için bkz. [Küçük paket sevkiyatı](../warehousing/small-parcel-shipping.md). <!-- KFM: Update RP link when the new one goes live -->
+- [Küçük Paket Sevkiyatı (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Daha fazla bilgi için bkz. [Küçük paket sevkiyatı](../warehousing/small-parcel-shipping.md).
 
 - [Bulutta ölçek birimleriyle ambar yürütme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md) ve [Bulut ve uç ölçek birimleri için ambar siparişleri](../cloud-edge/cloud-edge-warehouse-order.md).
 
-- [Ambar yönetimi mobil uygulaması](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Daha fazla bilgi için bkz. [Ambar Yönetimi uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md).
+- [Ambar yönetimi mobil uygulaması](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Daha fazla bilgi için bkz. [Ambar Yönetimi uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md) ve [Mobil cihaz kullanıcı ayarları](../warehousing/mobile-device-user-settings.md).
 
-Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
+### <a name="manufacturing"></a>İmalat
+
+- [Üretim katı yürütme arabiriminde kıymet yönetimi özellikleri](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).
+
+- [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Daha fazla bilgi için bkz. [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](../production-control/override-default-reservation-principle.md)
+
+- [Üretim denetimi için kayıtlı görünümler](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
+
+- [Bulutta ölçek birimleriyle üretim yürütme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md).
+
+### <a name="planning"></a>Planlama
+
+- [Planlamayı En İyi Duruma Getirme için kapsam zaman dilimi desteği](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Daha fazla bilgi için bkz. [Kapsam zaman dilimleri](../master-planning/planning-optimization/coverage-time-fence.md).
+
+- [Planlama İyileştirmesi için tahmin alt modeli desteği](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Daha fazla bilgi için bkz. [Talep tahmini ile master planlama](../master-planning/planning-optimization/demand-forecast.md).
+
+- [Planlamayı En İyi Duruma Getirme için satınalma talebi desteği](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Daha fazla bilgi için bkz. [Satınalma talepleri](../master-planning/planning-optimization/purchase-requisitions.md).
+
+- [Planlanan siparişler için kayıtlı görünümler](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
+
+### <a name="product-information-management"></a>Ürün bilgileri yönetimi
+
+- [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Daha fazla bilgi için bkz. [Mevcut ürünlerde değişiklik yönetimini etkinleştirme](../engineering-change-management/change-management-existing-products.md).
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
 Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölçüde güncelleştirdik. Önceki bölümde listelendiği gibi, bunların bu sürüm için eklenen yeni özelliklerle ilgili olması gerekmez ancak var olan özelliklerden daha fazla bilgi almanıza yardımcı olabilirler.
 
+### <a name="cost-management"></a>Maliyet yönetimi
+
+- [Maliyet yönetimi sorunlarını giderme](../cost-management/troubleshoot-costmanagement.md)
+
+### <a name="asset-management"></a>Varlık yönetimi
+
+- [Kıymet yönetimi mobil çalışma alanını ayarlama](../asset-management/set-up-asset-management-mobile.md)
+
+### <a name="inventory-and-logistics"></a>Stok ve lojistik
+
 - [Ambar hareketleri için ürün filtrelerini yapılandırma](../warehousing/filters-and-filter-codes.md)
-
-- [Üretim katı yürütme arabirimini tasarlama](../production-control/production-floor-execution-tabs.md)
-
-- [Şirketlerarası planlama](../master-planning/planning-optimization/Intercompany-planning.md)
-
-- [Planlama Optimizasyonu ile stok işaretleme](../master-planning/planning-optimization/marking.md)
-
-- [Talep tahminleri ile master planlama](../master-planning/planning-optimization/demand-forecast.md)
 
 - [Kısmi yerleşim döngü sayımı](../warehousing/partial-location-cycle-counting.md)
 
 - [Malzeme çekme satırı gruplandırması](../warehousing/pick-line-grouping.md)
 
-- [Üretim planlama](../master-planning/planning-optimization/production-planning.md) <!--KFM: Remember to add YouTube link to this topic -->
-
-- [Master planlamadaki satınalma talepleri](../master-planning/planning-optimization/purchase-requisitions.md)
-
-- [Kıymet yönetimi mobil çalışma alanını ayarlama](../asset-management/set-up-asset-management-mobile.md)
-
-- [Maliyet yönetimi sorunlarını giderme](../cost-management/troubleshoot-costmanagement.md)
-
-- [Stok işlemlerinde sorun giderme](../inventory/troubleshoot-inventory-operations.md)
+- [Stok işlemleriyle ilgili sorunları giderme](../inventory/troubleshoot-inventory-operations.md)
 
 - [Ambar yerleştirme](../warehousing/warehouse-slotting.md)
+
+### <a name="manufacturing"></a>İmalat
+
+- [Üretim katı yürütme arabirimini tasarlama](../production-control/production-floor-execution-tabs.md)
+
+### <a name="planning"></a>Planlama
+
+- [Şirketlerarası planlama](../master-planning/planning-optimization/Intercompany-planning.md)
+
+- [Planlama İyileştirmesi ile stok işaretleme](../master-planning/planning-optimization/marking.md)
+
+- [Üretim planlaması](../master-planning/planning-optimization/production-planning.md)
+
+- [Master planlamadaki satınalma talepleri](../master-planning/planning-optimization/purchase-requisitions.md)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

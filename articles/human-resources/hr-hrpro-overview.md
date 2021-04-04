@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78fddd033c777f5be6408d5e2db691ae966edb3a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 38848fe326deb4dd1e63c9f090765e8a0af2f649
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115258"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467975"
 ---
 # <a name="overview"></a>Özet
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources Kullanıcı kılavuzu, insan kaynakları kurulumu, çalışanlarınız için maaş ve yararlar ayarlama ve iş gücünüzün yönetilmesi hakkındaki yönergeleri sağlar.
 

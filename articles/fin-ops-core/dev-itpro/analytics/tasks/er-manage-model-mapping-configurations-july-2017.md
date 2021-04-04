@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: fdd6804c33cc153974229c60b64c3bd76426241a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093810"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569425"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Ayrı ER yapılandırmalarında ER model eşlemesini yönetme
 

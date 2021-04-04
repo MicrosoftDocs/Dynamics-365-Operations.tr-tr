@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967244"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580927"
 ---
 # <a name="release-product-structures"></a>Üretim yapılarını serbest bırakma
 
@@ -76,8 +76,6 @@ Bir ürünün nasıl kabul edildiğiyle ilgili örnek için bkz. [Ürünü yerel
 ## <a name="release-policies"></a>Serbest bırakma ilkeleri
 
 Tüm operasyonel şirketler aynı ürün verilerine ihtiyaç duymaz. Genel olarak, mühendislik ürünleri üreten operasyonel şirketler bir ürün reçetesi gerektirirken, sadece mühendislik ürünleri satan operasyonel şirketler ürün reçetesi gerektirmez. Ürünlerin serbest bırakılması için kullanılan parametreleri oluşturmak için serbest bırakma ilkelerini kullanabilirsiniz.
-
-Mühendislik ürünleri için serbest bırakma ilkesi mühendislik ürün kategorisinde atanır ve alan zorunludur. Standart ürünlerde ilke, paylaşılan ürüne atanır ve alan isteğe bağlıdır.
 
 Mühendislik ürünü kategorileri hakkında daha fazla bilgi için bkz. [Mühendislik sürümleri ve mühendislik ürünü kategorileri](engineering-versions-product-category.md).
 

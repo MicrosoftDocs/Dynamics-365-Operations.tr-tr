@@ -3,10 +3,9 @@ title: Excel biçiminde belgeler oluşturmak için yapılandırma tasarlama
 description: Bu konuda, bir Excel şablonunu doldurmak ve ardından giden Excel biçimi belgeleri oluşturmak için Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094041"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574185"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -54,7 +53,7 @@ Excel biçiminde giden bir belge oluşturmak için yapılandırılmış ER biçi
 Giden belgenin düzenini belirtmek için giden belgelerin şablonu olarak **Excel\\File** bileşenine .xlsx uzantısına sahip bir Excel çalışma kitabı ekleyin.
 
 > [!NOTE]
-> Şablonu el ile eklediğinizde [ER parametreleri](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)'nde bu amaçla yapılandırılmış bir [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) kullanmanız gerekir.
+> Şablonu el ile eklediğinizde [ER parametreleri](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)'nde bu amaçla yapılandırılmış bir [belge türü](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) kullanmanız gerekir.
 
 ![Excel\File bileşenine bir ek ekleme](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Görüntüleri ve şekilleri gömme hakkında daha fazla bilgi için, bkz. [ER k
 
 **PageBreak** bileşeni, Excel'i yeni bir sayfa başlatmaya zorlar. Excel'in varsayılan sayfalandırmasını kullanmak istediğinizde bu bileşen gerekli değildir ancak Excel'in, ER biçiminizle sayfalandırmayı yapılandırmasını istediğinizde bunu kullanmanız gerekir.
 
+## <a name="footer-component"></a>Alt bilgi bileşeni
+
+**Alt bilgi** bileşeni, Excel çalışma kitabında oluşturulan çalışma sayfasının alt bilgilerini doldurmak için kullanılır.
+
+> [!NOTE]
+> Oluşturulan Excel çalışma kitabındaki farklı çalışma sayfaları için farklı alt bilgileri belirtmek üzere her **sayfa** bileşeni için bu bileşeni ekleyebilirsiniz.
+
+Tek bir **Alt bilgi** bileşenini yapılandırdığınızda, bileşenin kullanıldığı sayfaları belirlemek için **üst bilgi/alt bilgi görünümü** özelliğini kullanabilirsiniz. Aşağıdaki değerler kullanılabilir:
+
+- **Herhangi biri:** Ana Excel çalışma sayfasının herhangi bir sayfası için yapılandırılmış **alt bilgi** bileşenini çalıştırın.
+- **İlk**: Ana Excel çalışma sayfasının sadece ilk sayfası için yapılandırılmış **alt bilgi** bileşenini çalıştırın.
+- **Çift sayı**: Ana Excel çalışma sayfasının sadece çift sayılı sayfaları için yapılandırılmış **alt bilgi** bileşenini çalıştırın.
+- **Tek sayı**: Ana Excel çalışma sayfasının sadece tek sayılı sayfaları için yapılandırılmış **alt bilgi** bileşenini çalıştırın.
+
+Tek bir **sayfa** bileşeni için, her biri **üst bilgi/alt bilgi görünümü** özelliği için farklı bir değere sahip birkaç **alt bilgi** bileşeni ekleyebilirsiniz. Bu şekilde, Excel çalışma sayfasındaki farklı sayfa türleri için farklı alt bilgiler oluşturabilirsiniz.
+
+> [!NOTE]
+> Tek bir **sayfa** bileşeni için eklediğiniz her bir **alt bilginin** **üst bilgi/alt bilgi görünümü** özelliği için farklı bir değere sahip olduğundan emin olun. Aksi takdirde, [doğrulama hatası](er-components-inspections.md#i16) oluşur. Aldığınız hata iletisi, tutarsızlık hakkında sizi uyarır.
+
+Eklenen **alt bilgi** bileşeni altında **metin\\Dize**, **Metin\\Tarih/Saat** veya başka bir türün gerekli iç içe bileşenlerini ekleyin. Sayfa alt bilginizin nasıl doldurulacağını belirtmek için bu bileşenler için bağları yapılandırın.
+
+Oluşturulan bir alt bilginin içeriğini doğru şekilde biçimlendirmek için özel [biçimlendirme kodları](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) da kullanabilirsiniz. Bu yaklaşımın nasıl kullanılacağını öğrenmek için, Bu konunun ilerleyen kısımlarında [örnek 1](#example-1)'deki adımları izleyin.
+
+> [!NOTE]
+> ER biçimlerini yapılandırdığınızda, Excel [sınırını](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ve tek bir üst bilgi ya da alt bilgi için maksimum karakter sayısını göz önünde bulundurmaya dikkat edin.
+
+## <a name="header-component"></a>Üst bilgi bileşeni
+
+**Üst bilgi** bileşeni, Excel çalışma kitabında oluşturulan çalışma sayfasının üst bilgilerini doldurmak için kullanılır. **Alt bilgi** bileşeni gibi kullanılır.
+
 ## <a name="edit-an-added-er-format"></a>Eklenen bir ER biçimini düzenleme
 
 ### <a name="update-a-template"></a>Şablon güncelleştirme
@@ -175,6 +204,48 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
     >[!NOTE]
     > Formülün yeniden hesaplanması, oluşturulan belge Excel kullanılarak önizleme için açıldığında el ile gerçekleştirilir.
     > Oluşturulan belgede, formül içeren hücrelerde değer bulunmayabilir. Bu nedenle, Excel'de önizleme olmadan oluşturulan belge kullanımını varsayan bir ER hedefi (PDF dönüşümü, posta gönderme) yapılandırırken bu seçeneği kullanmayın.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Örnek 1: Alt bilgi içeriğini Biçimlendir
+
+1. Yazdırılabilir bir serbest metin faturası (FTI) belgesi [oluşturmak](er-generate-printable-fti-forms.md) için sağlanan ER yapılandırmalarını kullanın.
+2. Oluşturulan belgenin alt bilgisini gözden geçirin. Geçerli sayfa numarası ve belgedeki toplam sayfa sayısı hakkında bilgi içerdiğine dikkat edin.
+
+    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-1.gif)
+
+3. ER biçim tasarımcısında gözden geçirmek için örnek ER biçimini [açın](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format).
+
+    **Fatura** çalışma sayfasının alt bilgisi, **Alt bilgi** bileşeni altında bulunan iki **dize** bileşeninin ayarlarına göre oluşturulur:
+
+    - İlk **dize** bileşeni, Excel'i belirli bir biçimlendirmeyi uygulamaya zorlamak için aşağıdaki özel biçimlendirme kodlarını doldurur:
+
+        - **&C**: Alt bilgi metnini ortaya hizalar.
+        - **&"Segoe UI,Regular"&8**: Alt bilgi metnini "Segoe UI Regular" 8 punto boyutundaki yazı tipinde gösterir.
+
+    - İkinci **dize** bileşeni, geçerli sayfa numarasını ve geçerli belgedeki toplam sayfa sayısını içeren metni doldurur.
+
+    ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-2.png)
+
+4. Geçerli Sayfa alt bilgisini değiştirmek için örnek ER biçimini özelleştirin:
+
+    1. Örnek ER biçimini temel alan türetilmiş **serbest metin faturası (Excel) özel** ER biçimi [oluşturun](er-quick-start2-customize-report.md#DeriveProvidedFormat).
+    2. **Fatura** çalışma sayfasının **alt bilgi** bileşeni için ilk yeni **dize** çifti bileşenlerini ekleyin:
+
+        1. Şirket adını sola hizalayan ve 8 punto "Segoe UI Regular" yazı tipinde (**"&L&"Segoe UI, normal"&8"**) sunan bir **dize** bileşeni ekleyin.
+        2. Şirket adını (**model.InvoiceBase.CompanyInfo.Name**) dolduran bir **dize** bileşeni ekleyin.
+
+    3. **Fatura** çalışma sayfasının **alt bilgi** bileşeni için ikinci bir yeni **dize** çifti bileşenleri ekleyin:
+
+        1. İşlem tarihini sağa hizalayan ve 8 punto "Segoe UI Regular" yazı tipinde (**"&R&"Segoe UI, normal"&8"**) sunan bir **dize** bileşeni ekleyin.
+        2. İşleme tarihini özel bir biçimde (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd)**) dolduran bir dize **bileşeni** ekleyin.
+
+        ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-3.png)
+
+    4. Türetilmiş **serbest metin faturası (Excel) özel** ER biçiminin taslak sürümünü [tamamlayın](er-quick-start2-customize-report.md#CompleteDerivedFormat).
+
+5. Yazdırma yönetimini örnek ER biçimi yerine, türetilmiş **serbest metin faturası (Excel) özel** ER biçimini kullanacak şekilde [yapılandırın](er-generate-printable-fti-forms.md#configure-print-management).
+6. Yazdırılabilir bir FTI belgesi oluşturun ve oluşturulan belgenin alt bilgisini gözden geçirin.
+
+    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

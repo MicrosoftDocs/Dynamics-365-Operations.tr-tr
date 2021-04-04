@@ -3,7 +3,7 @@ title: Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
 description: Bu konu, elektronik faturalama eklentisini kullanmaya nasıl başlayacağınızı açıklar.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104448"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592538"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104448"
 Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerine getirilmesi gerekir:
 
 - Microsoft Dynamics Lifecycle Services (LCS) hesabınıza erişiminiz olmalıdır.
-- Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'ın 10.0.13 veya sonraki sürümünü içeren bir LCS projeniz olmalıdır. Ayrıca, bu uygulamaların aşağıdaki Azure coğrafyalarından birinde dağıtılması gerekir:
+- Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'ın 10.0.17 veya sonraki sürümünü içeren bir LCS projeniz olmalıdır. Ayrıca, bu uygulamaların aşağıdaki Azure coğrafyalarından birinde dağıtılması gerekir:
 
     - Doğu ABD
     - Batı ABD
@@ -52,6 +52,13 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 2. **Önizleme özelliği yönetimi** kutucuğunu seçin.
 3. **Genel Önizleme Özellikleri** bölümünde, **e-Faturalama hizmeti**'ni seçin.
 4. **Önizleme özelliği etkin** seçeneğinin **Evet** olarak ayarlanmış olduğundan emin olun.
+5. LCS panonuzda, LCS dağıtım projenizi seçin. LCS projesi çalışıyor olmalıdır.
+7. **Ortam eklentileri** sekmesinde, **Yeni eklenti yükle**'yi seçin.
+8. **E-faturalama hizmetlerini** seçin ve **AAD uygulama kodu** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** girin. Bu sabit bir değerdir.
+10. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin.
+11. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
+12. **Yükle**'yi seçin.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisiyle RCS entegrasyonu için parametreleri ayarlama
 
@@ -73,7 +80,7 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 ## <a name="create-key-vault-secret"></a>Key Vault gizli dizisini oluşturma
 
 1. RCS hesabınızda oturum açın.
-2. **Globalleştirme özelliği** çalışma alanında **Ortam** bölmesinde **e-faturalama** kutucuğunu seçin.
+2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
 3. **Ortam kurulumları** sayfasında, Eylem Bölmesi'nde **Hizmet ortamı**'nı ve ardından **Anahtar kasası parametreleri**'ni seçin.
 4. Yeni bir anahtar kasası gizli dizisi oluşturmak için **Yeni**'yi seçin.
 5. **Ad** alanına anahtar kasası gizli dizisi adını girin. **Açıklama** alanına bir açıklama girin.
@@ -82,22 +89,31 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 ## <a name="create-storage-account-secret"></a>Depolama hesabı gizli dizisi oluşturma
 
-1. **Anahtar kasası parametreleri** sayfasında, **Sertifikalar** bölümünde **Ekle**'yi seçin.
-2. **Ad** alanına depolama hesabı gizli dizisinin adını girin. **Açıklama** alanına bir açıklama girin.
-3. **Tür** alanında **Sertifika**'yı seçin.
-4. **Kaydet**'i seçip sayfayı kapatın.
+1. **Sistem Yönetimi** > **kurulum** > **Key Vault parametreleri**'ne gidin ve bir anahtar kasası gizli dizisi seçin.
+2. **Sertifikalar** bölümünde **Ekle**'yi seçin.
+3. **Ad** alanına, depolama hesabı gizli dizisinin adını girin ve **Açıklama** alanına bir açıklama girin.
+4. **Tür** alanında **Sertifika**'yı seçin.
+5. **Kaydet**'i seçip sayfayı kapatın.
+
+## <a name="create-a-digital-certificate-secret"></a>Dijital sertifika gizli dizisi oluşturma
+
+1. **Sistem Yönetimi** > **kurulum** > **Key Vault parametreleri**'ne gidin ve bir anahtar kasası gizli dizisi seçin.
+2. **Sertifikalar** bölümünde **Ekle**'yi seçin.
+3. **Ad** alanına, dijital sertifika gizli dizisinin adını girin ve **Açıklama** alanına bir açıklama girin.
+4. **Tür** alanında **Sertifika**'yı seçin.
+5. **Kaydet**'i seçip sayfayı kapatın.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektronik faturalama eklentisi ortamı oluşturma
 
 1. RCS hesabınızda oturum açın.
-2. **Globalleştirme özelliği** çalışma alanında **Ortam** bölmesinde **e-faturalama** kutucuğunu seçin.
+2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
 
 ## <a name="create-a-service-environment"></a>Hizmet ortamı oluşturma
 
 1. **Ortam kurulumları** sayfasındaki Eylem bölmesinde **Hizmet ortamı**'nı seçin.
 2. Yeni hizmet ortamı oluşturmak için **Yeni**'yi seçin.
 3. **Ad** alanına E-faturalama ortamının adını girin. **Açıklama** alanına bir açıklama girin.
-4. **Depolama SAS belirteci gizli dizisi** alanında, depolama hesabına erişimin kimliğini doğrulamak için kullanılması gereken sertifikanın adını seçin.
+4. **Depolama SAS belirteci gizli dizisi** alanında, depolama hesabına erişimin kimliğini doğrulamak için kullanılması gereken depolama hesabı gizli dizisinin adını seçin.
 5. **Kullanıcılar** bölümünde, ortam üzerinden elektronik fatura göndermesine ve ayrıca depolama hesabına bağlanmasına izin verilen bir kullanıcı eklemek için **Ekle**'yi seçin.
 6. **Kullanıcı Kimliği** alanına,kullanıcının diğer adını girin. **E-posta** alanına kullanıcının e-posta adresini girin.
 7. **Kaydet**'i seçin.

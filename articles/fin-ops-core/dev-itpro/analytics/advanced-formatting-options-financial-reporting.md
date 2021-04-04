@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093174"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568478"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
@@ -283,10 +282,10 @@ Böylece sonuç tutarı daha yüksek düzey bir birime yuvarlanmayacak şekilde 
 > [!NOTE]
 > Bu işlevi kullanmak için raporlama ağacı satır tanımı ile ilişkili olmalıdır.
 
-Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın **ilgili formüller/satır/birim** hücresine kaydedilir. Hesaplama **IF @Unit** yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir **IF** ifadesine **OR** birleşimleri dahil edebilirsiniz. İşte bir örnek: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aşağıdaki yollardan biriyle hesaplama türü kısıtlamasında bir birimi belirtebilirsiniz:
+Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın **ilgili formüller/satır/birim** hücresine kaydedilir. Hesaplama **IF \@Unit** yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir **IF** ifadesine **OR** birleşimleri dahil edebilirsiniz. Örneğin: **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Bir hesaplama türü kısıtlamada birimi aşağıdaki şekillerde belirtebilirsiniz:
 
-- Eşleşen birim içerecek şekilde bir birim adı girin. Örneğin, **IF @Unit(SALES)** raporlama ağacında birkaç satış birimi olsa bile hesaplamayı Satışlar adlı bir birim için etkinleştirir.
-- Belirli birimler cinsinden belirli bir şirket için hesaplama kısıtlamak için şirket ve birim adını girin. Örneğin,hesaplamayı ACME şirketindeki satış birimlerine kısıtlamak için **IF @Unit(ACME:SALES**) girin.
+- Eşleşen birim içerecek şekilde bir birim adı girin. Örneğin, **IF \@Unit(SALES)** raporlama ağacında birkaç satış birimi olsa bile hesaplamayı Satışlar adlı bir birim için etkinleştirir.
+- Belirli birimler cinsinden belirli bir şirket için hesaplama kısıtlamak için şirket ve birim adını girin. Örneğin, hesaplamayı ACME şirketindeki satış birimlerine kısıtlamak için **IF @Unit (ACME:SALES)** girin.
 - Belirli bir birim için hesaplama kısıtlamak için raporlama ağaç hiyerarşisinde tam kodunu girin. Örneğin **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvura
 
 1. Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
 2. **biçim kodu** hücresini çift tıklatın ve **CAL** seçin.
-3. **ilgili formüller/satır/birim** hücresini tıklatın ve daha sonra **IF @Unit** yapımıyla başlayan bir koşullu hesaplamayı girin.
+3. **İlgili formüller/satırlar/birimler** hücresini tıklatın ve daha sonra **IF \@Unit** yapımıyla başlayan bir koşullu hesaplamayı girin.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Sütun tanımında IF/THEN/ELSE deyimleri
 
@@ -310,6 +309,5 @@ Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütun
 Ampersan işaretini (&) içeren boyut değerlerini kullanarak raporlar tasarlayabilirsiniz.
 
 Herhangi bir **Mali Boyuta Bağlantı** alanına, **'P&L'** gibi bir değer girebilirsiniz. Boyut değerinin her iki tarafına tek tırnak işareti (' ') ekleme, (&) ampersan karakterlerini eklemek gibi gerçek değeri kullanmakta olduğunuz anlamına gelir.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

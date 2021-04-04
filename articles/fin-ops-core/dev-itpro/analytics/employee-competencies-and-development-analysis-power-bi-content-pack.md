@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bed461677cbdfa57b0a198b7179eccb9828dc944
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 86988438d19fcfcef637df9789f23c86831edddd
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687138"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569699"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Personel uzmanlıkları ve gelişimi Power BI içeriği
 

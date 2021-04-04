@@ -3,7 +3,7 @@ title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128173"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571740"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, hızlı bir şekilde izin isteğinde bulunmanıza ve izin bakiyesi bilgilerinizi doğrudan Microsoft Teams platformunda görüntülemenize olanak tanır. Bilgi istemek ve bir izin isteğini başlatmak için bir sohbet botu ile etkileşim kurabilirsiniz. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Ekipte yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirsiniz.
+Microsoft Teams platformundaki Dynamics 365 Human Resources uygulaması, hızlı bir şekilde izin isteğinde bulunmanıza ve izin bakiyesi bilgilerinizi doğrudan Microsoft Teams platformunda görüntülemenize olanak tanır. Bilgi istemek ve bir izin isteğini başlatmak için bir sohbet botu ile etkileşim kurabilirsiniz. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Teams'de yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirsiniz.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
-Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
+Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
 
 1. Microsoft Teams platformuna üç nokta simgesini seçin.
 
@@ -70,29 +70,21 @@ Uygulama yüklendikten sonra botun, sizin adınıza gerçekleştirebileceği eyl
 
 Bottan şunları isteyebilirsiniz:
 
-- Kayıtlı olduğunuz her izin türü için izin bakiyesi bilgisini göstermesini.
-
-   ![Human Resources Teams izin uygulaması bakiyeleri gösterme](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Belirli bir izin türü hakkında ek ayrıntıların gösterilmesi.
-
-   ![Human Resources Teams izin uygulaması ayrıntıları gösterme](./media/hr-teams-leave-app-bot-details.png)
-
 - Kendiniz için bir izin isteği başlatın.
 
-   ![Human Resources Teams izin uygulaması izin isteği](./media/hr-teams-leave-app-bot-request.png)
- 
-Bir izin talebini başlattıktan sonra, kartın içindeki günleri ayarlayabilirsiniz.
+  ![Teams sohbetinde izin isteği başlatma](./media/hr-teams-leave-app-initiate.png)
 
-![Human Resources Teams izin uygulaması isteği düzenleme](./media/hr-teams-leave-app-bot-edit.png)
- 
-Bilgi girişini tamamladığınızda onaya göndermek için **Gönder** öğesini seçin. Daha sonra geri dönmek için **Taslak olarak kaydet**'i de seçebilirsiniz.
+- Sohbet botu sizin için bir izin isteği dolduracaktır. **İzin talep et**'i seçin ve isteğinizin ayrıntılarını düzenleyin.
 
-![Human Resources Teams izin uygulaması istek gönderme](./media/hr-teams-leave-app-bot-submit.png)
+  ![İzin İsteği ayrıntılarını düzenleme](./media/hr-teams-leave-app-details.png)
+
+- İzin İsteği ayrıntılarınızı düzenlemeyi tamamladığınızda onaya göndermek için **Gönder** öğesini seçin.
+
+  ![İzin İsteği gönderme](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Teams'de izninizi yönetme
 
-**İzin** sekmesi şunları görüntülemenizi sağlar:
+**İzin** sekmesi şunları görüntülemenizi sağlar: 
 
 - Kayıtlı olduğunuz her izin türü için bakiye bilgisini
 
@@ -164,21 +156,51 @@ Astları bulunan bir yönetici iseniz, takımınızın onaylanmış ve bekleyen 
 
 1. Teams'de Human Resources uygulamasında, **İzin**'i seçin.
 
-2. **Ekip takvimi**'ni seçin.
+2. **Ekip takvimi**'ni seçin. Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
 
    ![Human Resources Teams uygulamasında takvimi görüntüleme](./media/hr-teams-leave-app-view-calendar.png)
 
-Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
+   > [!NOTE]
+   > Takım takvimini göremiyorsanız yöneticinizden takvimi etkinleştirmesini isteyin. Daha fazla bilgi için bkz. [Yükleme ve ayarlama](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Human Resources Teams uygulamasında izin takvimi](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Desteklenen diller
+
+Teams'deki Dynamics 365 Human Resources uygulaması aşağıdaki dilleri destekler:
+
+| Yerel Ayar Kimliği | Dil |
+| --- | --- |
+| de-DE | Almanca (Almanya) |
+| es-ES | İspanyolca (İspanya) |
+| es-MX | İspanyolca (Meksika) |
+| fr-CA | Fransızca (Kanada) |
+| fr-FR | Fransızca (Fransa) |
+| it-IT | İtalyanca (İtalya) |
+| nl-NL | Felemenkçe (Hollanda) |
+| pt-BR | Portekizce (Brezilya) |
+| tr-TR | Türkçe (Türkiye) |
+| zh-CN | Çince (Basitleştirilmiş) |
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 
-Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşıyorsanız, bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
+Dynamics 365 Human Resources Teams uygulamasında oturum açarken veya uygulamayı kullanırken sorun yaşıyorsanız, bu sorun giderme yönergelerini izleyin. Sorun giderme işleminden sonra hala sorun yaşıyorsanız, desteğe başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Teams'de Human Resource uygulaması oturumu açılamıyor
 
 Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığınız hesap Dynamics 365 Human Resources'taki bir personel kaydıyla ilişkilendirilmemiş olabilir. Çalışan kaydınızın doğru bir şekilde ilişkilendirildiğinden emin olmak için sistem yöneticinize başvurun.
+
+### <a name="translations-dont-display-correctly"></a>Çeviriler doğru görüntülenmiyor
+
+Çeviriler beklendiği gibi görüntülenmiyorsa Teams'de seçtiğiniz dilin Human Resources **Kullanıcı seçenekleri**'nde seçilen dille eşleştiğinden emin olun.
+
+Teams'de, **Ayarlar**'da **Uygulama dili**'ne bakın.
+
+![Teams ayarları](./media/hr-teams-leave-app-settings.png)
+
+Human Resources'ta **Ayarlar**'ı ve ardından **Kullanıcı seçenekleri**'ni seçin. **Dil** alanının Teams'deki **Uygulama dili** alanıyla eşleştiğini doğrulayın.
+
+![Human Resources Kullanıcı seçenekleri](./media/hr-teams-leave-app-user-options.png)
+
+Hala çeviri sorunları yaşıyorsanız bize bildirin. Bilgi için bkz. [Finance and Operations uygulamaları veya Lifecycle Services (LCS) için destek alma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Teams'deki Human Resources uygulamasındaki izin isteklerini onaylarken hata oluştu
 
@@ -198,7 +220,6 @@ Teams'te Human Resources uygulama, gelecekteki sürümlerde düzeltilirken aşa�
 | **Zaman aşımı** sekmesinde, VoiceOver zaman kılavuzu için üstbilgiyi okurken düğme eylemini duyurur. | Kılavuz içindeki başlık ve öğeler yıla göre gruplandırılır ve bunlar daraltılabilir öğelerdir. VoiceOver, bunu işlem yapılabilir bir madde olarak yorumlar, ancak böyle değildir. |
 | **İzin süresi** sekmesinde, Yeni bir istekte **neden koduna** giderken fazladan bir çekme hareketi vardır. | Çekme gezintisinin alınmaya çalıştığı gizli denetim yoktur. |
 | **İzin süresi** sekmesinde, takvim açıkken çekme yaparken yeni bir istekte en üstte veya bir istek düzenlenirken denetimin dışında sona erer. | **Bugüne git**'e ulaştığınızda , denetimin sonuna kadar, en üste geri dönmek için ters yönde çekin. |
-| VoiceOver Tarih etiketlerini okumaz. | Çiftler halinde karşılaşılan tarihler her zaman **Başlangıç tarihi** ve **bitiş tarihi**. |
 | **Sohbet** sekmesinde, yardımcı aracı veya klavye gezintisini kullanırken bir tarih girdiğinizde odak en üste geri atlar. | Sekmesini yeniden girin. |
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi

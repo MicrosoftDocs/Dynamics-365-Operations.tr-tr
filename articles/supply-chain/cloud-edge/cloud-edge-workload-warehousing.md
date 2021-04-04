@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104952"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580977"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -86,6 +86,13 @@ Hub aşağıdaki verilere sahiptir:
 > Gelen satınalma siparişi akışı, kavramsal olarak giden akıştan farklıdır. Satınalma siparişinin ambara serbest bırakılmış olup olmadığına bağlı olarak, aynı ambara ölçek biriminde veya merkezde çalıştırabilirsiniz. Bir siparişi ambara serbest bıraktıktan sonra söz konusu sipariş üzerinde yalnızca ölçek biriminde oturumunuz açıkken çalışabilirsiniz.
 
 *Ambara serbest bırakma* kullanıyorsanız [*ambar siparişleri*](cloud-edge-warehouse-order.md) oluşturulur ve ilgili alıcı akışının sahipliği ölçek birimine atanır. Hub, gelen alıcıyı kaydedemez.
+
+*Ambara serbest bırakma* işlemini kullanmak için hub'da oturum açmanız gerekir. Aşağıdaki sayfalardan birine giderek işlemi çalıştırın veya zamanlayın:
+
+- **Satın alma ve tedarik > Satın alma siparişleri > Tüm satın alma siparişleri > Ambar > Eylemler > Ambara serbest bırak**
+- **Ambar yönetimi > Ambara serbest bırak > Satın alma siparişlerini otomatik serbest bırak**
+
+**Satın alma siparişlerini otomatik olarak serbest bırakma** işlevini kullanırken, sorguyu temel alan belirli satın alma siparişi satırlarını seçebilirsiniz. Tipik bir senaryo örneği, ertesi gün gelmesi beklenen tüm onaylanmış satın alma siparişi satırlarını serbest bırakan yinelenen bir toplu işlem ayarlamaktır.
 
 Çalışan, ölçek birimine bağlı bir ambar uygulamasını kullanarak teslim alma işlemini çalıştırabilir. Veriler daha sonra ölçek birimi tarafından kaydedilir ve gelen ambar siparişine göre raporlanır. Sonraki yerine koyma işlemlerinin oluşturulması ve işlenmesi de ölçek birimi tarafından yönetilir.
 
@@ -222,7 +229,7 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Transfer emri satırı teslim alma ve yerine koyma                        | Evet | No |
 | Çalışmayı iptal etme (gelen)                                              | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | <p>Evet, ancak yalnızca <b>İşi iptal ederken girişin kaydını sil</b> seçeneği (<b>Ambar yönetimi parametreleri</b> sayfasında) seçili olmadığında</p> |
 | Satın alma siparişi ürün girişi işleme                          | Evet | No |
-| Eksik teslimat ile satınalma siparişi alma                        | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Hayır, çünkü yalnızca tam ambar sipariş satırı miktarlarını iptal edebilirsiniz |
+| Eksik teslimat ile satınalma siparişi alma                        | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet, ancak yalnızca hub'dan iptal isteğinde bulunarak |
 | Fazla teslimat ile satınalma siparişi alma                        | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | Evet  |
 | *Çapraz sevk* işinin oluşturulmasıyla alma                   | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |
 | *Kalite emri* işinin oluşturulmasıyla alma                  | <p>Evet, ambar siparişi olmadığında</p><p>Hayır, ambar siparişi olduğunda</p> | No |

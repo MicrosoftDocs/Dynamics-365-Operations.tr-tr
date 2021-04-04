@@ -3,7 +3,7 @@ title: Elektronik faturalama eklentisini kullanmaya başlangıç
 description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111232"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592562"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisini kullanmaya başlangıç
 
@@ -38,7 +38,6 @@ Aşağıdaki tabloda Elektronik faturalama özellikleri ve uygulanabilecekleri i
 | Belçika elektronik faturası (BE)      | <p>Satış faturası</p><p>Proje faturası</p> |
 | Brezilya NF-e (BR)                  | <p>Mali belge modeli 55</p><p>Düzeltme mektubu</p> |
 | Brezilya NFS-e ABRASF Curitiba (BR) | Servis Mali belgesi |
-| Brezilya NFS-e São Paulo (BR)       | Servis Mali belgesi |
 | Danimarka elektronik faturası (DK)       | <p>Satış faturası</p><p>Proje faturası</p> |
 | Mısır elektronik faturası (EG)     | <p>Satış faturası</p><p>Proje faturası</p> |
 | Estonya elektronik faturası (EE)     | <p>Satış faturası</p><p>Proje faturası</p> |
@@ -64,14 +63,14 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Microsoft yapılandırma sağlayıcısından Elektronik faturalama özelliğini içeri aktarma 
 
 1. Regulatory Configuration Service (RCS) hesabınızda oturum açın.
-2. **Globalleştirme özelliği** çalışma alanında **Özellikler** bölmesinde **E-faturalama** kutucuğunu seçin.
+2. **Genelleştirme özelliği** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
 3. **İçeri aktar**'ı seçin ve sonra **Eşitle**'yi seçin.
 4. **Yapılandırma sağlayıcısı** sütununu **Microsoft** terimini göre filtreleyin.
 5. Bu konunun başındaki tablodan elektronik faturalama özelliğinin adını seçin ve sonra **İçeri Aktar**'ı seçin.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Kuruluş sağlayıcınız altında Elektronik faturalama özelliği oluşturma
 
-1. RCS'de, **Genelleştirme özelliği** çalışma alanının **Özellikler**  bölümünde, **e-Faturalama** kutucuğunu seçin.
+1. RCS'de **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
 2. **Ekle** > **Var olan özelliğe göre**'yi seçin ve **Ad** alanına Elektronik faturalama özelliğinin adını girin.
 3. **Açıklama** alanına özellik için bir açıklama girin.
 4. **Temel özellik alanında**, Microsoft yapılandırma sağlayıcısından içeri aktarılan Elektronik faturalama özelliğini seçin.
@@ -79,7 +78,9 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğini yapılandırma
 
-Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir. Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
+Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir. 
+
+Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
 
 ## <a name="configure-the-application-setup"></a>Uygulama kurulumunu yapılandırma
 
@@ -100,7 +101,6 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | Belçika elektronik faturası (BE)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | Brezilya NF-e (BR)                  | <p>Mali belge</p><p>Düzeltme mektubu</p> | Mali belge |
     | Brezilya NFS-e ABRASF Curitiba (BR) | Servis Mali belgesi | Mali belge |
-    | Brezilya NFS-e São Paulo (BR)       | Servis Mali belgesi | Mali belge |
     | Danimarka elektronik faturası (DK)       | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | Mısır elektronik faturası (EG)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | Estonya elektronik faturası (EE)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
@@ -122,7 +122,6 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | Belçika elektronik faturası (BE)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | Brezilya NF-e (BR)                  | <p>Mali belge</p><p>Düzeltme mektubu</p> | <p>Müşteri faturası bağlam modeli – Mali belge bağlamı</p><p>Müşteri faturası bağlam modeli – FD düzeltme mektubu bağlamı</p> |
     | Brezilya NFS-e ABRASF Curitiba (BR) | Servis Mali belgesi| Müşteri faturası bağlam modeli – Mali belge bağlamı |
-    | Brezilya NFS-e São Paulo (BR)       | Servis Mali belgesi| Müşteri faturası bağlam modeli – Mali belge bağlamı |
     | Danimarka elektronik faturası (DK)       | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | Mısır elektronik faturası (EG)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | Estonya elektronik faturası (EE)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
@@ -144,7 +143,6 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | Belçika elektronik faturası (BE)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | Brezilya NF-e (BR)                  | <p>Mali belge</p><p>Düzeltme mektubu</p> | <p>Mali belge eşlemesi – Mali belge eşlemesi</p><p>Mali belge eşlemesi – düzeltme mektubu eşlemesi</p> |
     | Brezilya NFS-e ABRASF Curitiba (BR) | Servis Mali belgesi | Mali belge eşlemesi – Mali belge eşlemesi |
-    | Brezilya NFS-e São Paulo (BR)       | Servis Mali belgesi | Mali belge eşlemesi – Mali belge eşlemesi |
     | Danimarka elektronik faturası (DK)       | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | Mısır elektronik faturası (EG)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | Estonya elektronik faturası (EE)     | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
@@ -158,7 +156,9 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
 
-Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir. Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
+Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir.
+
+Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğini dağıtma
 
@@ -177,27 +177,26 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 1. Finance veya Supply Chain Management'ta oturum açın ve doğru tüzel kişilikte olduğunuzu doğrulayın.
 2. **Kuruluş yönetimi** \> **Kurulum** \> **Elektronik belge parametreleri** bölümüne gidin.
-3. **Özellikler** sekmesinde, Finance veya Supply Chain Management için Elektronik faturalama özelliğini açmak üzere aşağıdaki tabloda listelenen özellik başvurusunu veya başvurularını seçin.
+3. **Özellikler** sekmesinde, Finance veya Supply Chain Management için elektronik faturalama özelliğini etkinleştirmek üzere ülkeye/bölgeye özgü özelliği seçin. Aşağıdaki tabloda, belirli bir ülke/bölge için kullanılabilen elektronik faturalama özelliklerinin listesi sağlanmaktadır. 
 
-    | Özellik adı                         | Ülke/bölge  | Özellik referansı |
-    |--------------------------------------|-----------------|-------------------|
-    | Avusturya elektronik faturaları (AT)    | Avusturya         | EUR-00023 |
-    | Belçika elektronik faturası (BE)      | Belçika         | EUR-00023 |
-    | Brezilya NF-e (BR)                  | Brezilya          | BR-00053 |
-    | Brezilya NFS-e ABRASF Curitiba (BR) | Brezilya          | BR-00095 |
-    | Brezilya NFS-e São Paulo (BR)       | Brezilya          | BR-00095 |
-    | Danimarka elektronik faturası (DK)       | Danimarka         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Hollanda elektronik faturası (NL)        | Hollanda | EUR-00023 |
-    | Mısır elektronik faturası (EG)     | Mısır           | EG-00008 |
-    | Estonya elektronik faturası (EE)     | Estonya         | EUR-00023 |
-    | Finlandiya elektronik faturası (FI)      | Finlandiya         | EUR-00023 |
-     Fransa elektronik faturası (FR)       | Fransa           | EUR-00023 |
-    | Alman elektronik faturası (DE)       | Almanya         | EUR-00023 |
-    | Meksika CFDI Interfactura (MX)       | Meksika          | <p>MX-00010</p><p>MX-00016</p> |
-    | Norveç elektronik faturası (NO)    | Norveç          | <p>EUR-00023</p><p>NO-00010</p> |
-    | İspanya elektronik faturası (ES)      | İspanya           | <p>EUR-00023</p><p>ES-00025</p> |
-    | İtalyan elektronik faturası (IT)      | İtalya           | <p>EUR-00023</p><p>IT-00036</p> |
-    | PEPPEOL elektronik faturası            | Avrupa          | EUR-00023 |
+    | Özellik adı                                          | Ülke/bölge  |
+    |-------------------------------------------------------|-----------------|
+    | Avusturya elektronik faturaları (AT)                     | Avusturya         |
+    | Belçika elektronik faturası (BE)                       | Belçika         |
+    | CFDI Meksika elektronik faturası (MX)                  | Meksika          |
+    | Danimarka elektronik faturası (DK)                        | Danimarka         |
+    | Hollanda elektronik faturası (NL)                         | Hollanda |
+    | Mısır elektronik faturası (EG)                      | Mısır           |
+    | Estonya elektronik faturası (EE)                      | Estonya         |
+    | Finlandiya elektronik faturası (FI)                       | Finlandiya         |
+    | Fransa elektronik faturası (FR)                        | Fransa          |
+    | Alman elektronik faturası (DE)                        | Almanya         |
+    | İtalyan elektronik faturası (IT)                       | İtalya           |
+    | NF-e Federal - Brezilya elektronik faturası (BR)      | Brezilya          |
+    | NFS-e - Brezilya'ya özgü hizmet (şehir) elektronik fatura   | Brezilya          |
+    | Norveç elektronik faturası (NO)                     | Norveç          |
+    | PEPPEOL elektronik faturası                             | Genel          |
+    | İspanya elektronik faturası (ES)                       | İspanya           |
 
 4. **Kaydet**'i seçin.
 
@@ -226,11 +225,11 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 3. Kılavuzda bir fatura seçin ve ardından **Sorgula** \> **Gönderim ayrıntıları**'nı seçin.
 
-Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir. Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
 
 ## <a name="related-topics"></a>İlgili konular
 
 - [Elektronik faturalama eklentisine genel bakış](e-invoicing-service-overview.md)
+- [Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama](e-invoicing-get-started-service-administration.md)
 - [Brezilya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-bra-get-started.md)
 - [Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-mex-get-started.md)
 - [İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-ita-get-started.md)
