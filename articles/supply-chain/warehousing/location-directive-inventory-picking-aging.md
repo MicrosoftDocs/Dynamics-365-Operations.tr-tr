@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004639"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500514"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Yerleşim yönergesi stoktan çekme yaşlandırma
 
@@ -119,7 +119,7 @@ FIFO stratejisi, en eski yaşlandırma tarihini içeren konumu bulur ve bu yaşl
 1. **Satış siparişi** sayfasında, Eylem Bölmesinde, **Ambar** sekmesindeki **Eylemler** grubunda **Ambara serbest bırak**'ı seçin. Bilgi iletileri alırsınız. Sistem bir sevkiyat oluşturur, bunu yeni bir yüklemeye ekler ve gerekli işi oluşturur.
 1. **Satış siparişi satırları** hızlı sekmesinde, **Ambar** menüsünde, bu satış siparişi için oluşturulan işi açmak için **İş ayrıntıları**'nı seçin. **İş türü** değerinin *Çekme* olduğu satırın *FL-002* değerine sahip bir **Yerleşim** gösterdiğine dikkat edin. Bu yerleşim, en eski yaşlandırma tarihine sahip (FIFO) plakayı içerir.
 1. **Ambar \> Sevkiyat ayrıntıları**'nı seçin.
-1. **_Genel_** hızlı sekmesinde, senaryo 2'de kullanabilmek için dalga kodunu not edin.
+1. **Genel** hızlı sekmesinde, senaryo 2'de kullanabilmek için dalga kodunu not edin.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Senaryo 2: LIFO yerleşim yaşlandırması ayarlama ve kullanma
 

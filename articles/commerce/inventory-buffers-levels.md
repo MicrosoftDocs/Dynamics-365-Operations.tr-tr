@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012454"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478400"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Stok arabelleklerini ve stok düzeylerini konfigüre et
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce sitelerinde stok kullanılabilirliği iletilerini belirleyen stok arabelleklerinin ve stok düzeylerinin konfigüre nasıl yapılandırılacağını açıklamaktadır.
-
-## <a name="overview"></a>Özet
 
 Dynamics 365 Commerce yönetim Merkezi, stok verilerini ve satış noktası (POS) uygulamaları, e-ticaret mağazaları ve zaman uyumsuz şekilde envanter çekme ve iletme gibi çeşitli kanalları içerir. Bu nedenle, Commerce merkezdeki eldeki stok sayfası aracılığıyla, POS Kullanıcı arabirimi (UI) aracılığıyla ve e-ticaret stok kullanılabilirlik API 'Leri aracılığıyla elde edilen kullanılabilir stok değerleri, gerçek zamanlı olarak yüzde 100 doğru sonuç vermez.
 
