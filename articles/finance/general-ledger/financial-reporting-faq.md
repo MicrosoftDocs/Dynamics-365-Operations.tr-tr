@@ -2,11 +2,9 @@
 title: Mali raporlama ile ilgili SSS
 description: Bu konuda, diğer kullanıcıların mali raporlama ile ilgili soruları listelenmektedir.
 author: jiwo
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d49213ea18e09f04b026559bdca49fee1de0ef7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249323"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811322"
 ---
 # <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS 
 
@@ -80,8 +78,8 @@ D365'te beklediğiniz şekilde eşleşmeyen bir raporunuz varsa bu hesapları ve
 
 5.  Raporu Excel'e dışarı aktarın.
 
-### <a name="in-d365"></a>D365'te: 
-1.  Genel Muhasebe | Sorgular ve Raporlar | Mizan'a tıklayın a.    Parametreler i.  Başlangıç Tarihi: Mali Yılın başlangıcı ii. Bitiş Tarihi: Raporu oluşturduğunuz tarih (şunun için: iii.    Finansal Boyut Ayarı "Ana Hesap Ayarı") [![Ana Hesap Formu](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
+### <a name="in-d365&quot;></a>D365'te: 
+1.  Genel Muhasebe | Sorgular ve Raporlar | Mizan'a tıklayın a.    Parametreler i.  Başlangıç Tarihi: Mali Yılın başlangıcı ii. Bitiş Tarihi: Raporu oluşturduğunuz tarih (şunun için: iii.    Finansal Boyut Ayarı &quot;Ana Hesap Ayarı") [![Ana Hesap Formu](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
       
   b.    Hesapla'ya tıklayın
 

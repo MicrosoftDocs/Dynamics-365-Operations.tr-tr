@@ -2,11 +2,9 @@
 title: Fatura ödeme senaryolarını ayarlama
 description: Bu konuda, Dynamics 365 Commerce'ın nasıl fatura ödemeleriyle ilgili çeşitli senaryoları destekleyecek şekilde yapılandırılacağı açıklanmaktadır.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6f818fa552fe5651dc7d56de265fe989c57fa822
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08d3cf48c0bea6f0e13dda49e53b314a6037860d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257085"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804565"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Fatura ödeme senaryolarını ayarlama
 

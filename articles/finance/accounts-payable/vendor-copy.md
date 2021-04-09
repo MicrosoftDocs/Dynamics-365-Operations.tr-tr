@@ -2,11 +2,9 @@
 title: Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 description: Bu konuda, bir satıcıyı aynı satıcı kodunu koruyarak başka bir tüzel kişiliğe kopyalamak için paylaşılan numara sıralarının nasıl kullanılacağı açıklanmaktadır.
 author: mikefalkner
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c528ea166ad634bf4fe8b1e047dbd6696dff029b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3a70b268e7fd02a12c85082c651edb6fa0ac3072
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214512"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814284"
 ---
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Paylaşılan numara sıralarını kullanarak satıcıları kopyalama
 

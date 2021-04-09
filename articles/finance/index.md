@@ -2,11 +2,9 @@
 title: Finance giriş sayfası
 description: Bu konuda, Microsoft Dynamics 365 Finance'ta mali yönetim özellikleri için yardım konuları ve diğer kaynakların listesi sunulmaktadır.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218895"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813495"
 ---
 # <a name="finance-home-page"></a>Finance giriş sayfası
 
@@ -71,8 +69,10 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 
 ### <a name="additional-content"></a>Ek içerik
 
-Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında daha fazla bilgi edinmek için [Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın. 
+Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servislere yönelik talep, sipariş verme, teslim alma, faturalama ve ödeme işlemlerini içeren tedarikten ödemeye sürecinin bölümlerini kapsar. Satınalmaları, stoğu ve imalatı yönetmeye yönelik özellikler hakkında bilgi için [Supply Chain Management giriş sayfasına](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) bakın.
 
+## <a name="elearning-courses"></a>e-Öğrenme kursları
 
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Finance](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path) konusuna bakın.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

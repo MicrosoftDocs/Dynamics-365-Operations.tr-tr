@@ -3,8 +3,10 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'daki yenilikler veya değişiklikler
+        - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 22 Mart 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8 Mart 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22 Şubat 2021
@@ -261,11 +263,13 @@
           items:
             - name: Destek alma
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-            - name: Toplu işleri çalışma saatleri dışına planlayarak performansını en iyi duruma getirme
+            - name: Toplu işleri çalışma saatleri dışına planlayarak performansı en iyi duruma getirme
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Otomatik temizleme görevleriyle performansı en iyi duruma getirme
               href: hr-admin-troubleshooting-batch-history.md
-            - name: Analitik raporlar güncelleştirilmedi
+            - name: Takılmış toplu işleri sıfırlama
+              href: hr-admin-troubleshooting-batch-execution.md
+            - name: Analitik raporlar güncelleştirilmiyor
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Power Apps Yönetim merkezinde ortam oluşturulamıyor
               href: hr-admin-troubleshooting-power-apps.md

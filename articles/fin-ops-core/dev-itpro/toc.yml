@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: 10.0.16 için platform güncelleştirmeleri (Şubat 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: 10.0.15 için platform güncelleştirmeleri (Ocak 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Tümleşik çalışan, iş ve pozisyon'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Taraf ve genel adres defteri
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Taraf veri modeli ile Power Portal'ı kullanma
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Not tümleştirmesi
                               href: data-entities/dual-write/notes-integration.md
                             - name: Eşleme referansı
@@ -526,13 +528,15 @@
                   items:
                     - name: LCS'de şirket içi projeleri ayarlama
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Şirket içi ortamları ayarlama ve dağıtma
+                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmesi 41 ve sonrası)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmeleri 12 - 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                       href: deployment/deploy-retail-onprem.md
                     - name: Özel modeller geliştirme ve şirket içi ortamlara dağıtma
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Ortam bakımı
+                - name: Ortam işlemleri
                   items:
                     - name: Şirket içi dağıtıma güncelleştirmeler uygulama
                       href: deployment/apply-updates-on-premises.md
@@ -540,8 +544,10 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: İstemci internet bağlantısı
                       href: user-interface/client-disconnected.md
-                    - name: Şirket için dağıtımlarda Yalnızca toplu iş ve Yalnızca etkileşimli AOS düğümlerini yapılandırma
+                    - name: Şirket içi dağıtımlarda Yalnızca toplu iş ve Yalnızca etkileşimli AOS düğümlerini yapılandırma
                       href: deployment/onprem-batchonly.md
+                    - name: SQL Server Reporting Services (SSRS) düğümleri için yüksek kullanılabilirliği yapılandırma
+                      href: deployment/onprem-SSRSHA.md
                     - name: Şirket içi ortamlar için proxy'ler yapılandırma
                       href: deployment/onprem-reverseproxy.md
                     - name: Şirket içi tanılama
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
-            - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
-              href: power-platform/overview.md
-            - name: Eklentilere genel bakış
-              href: power-platform/add-ins-overview.md
-            - name: Varlık modelleme
-              href: power-platform/entity-modeling.md
-            - name: Uygulama yaşam döngüsü yönetimi
-              href: power-platform/application-lifecycle-management.md
-            - name: Finance and Operations ve Dataverse yönetici referansı
-              href: power-platform/admin-reference.md
-            - name: Finance and Operations ile Power Apps portalları
-              href: power-platform/power-portal-reference.md
-            - name: Finance and Operations sanal varlıkları ile ilgili SSS
-              href: power-platform/faq.md
+            - name: Sanal varlıklar
+              items:
+                - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
+                  href: power-platform/overview.md
+                - name: Varlık modelleme
+                  href: power-platform/entity-modeling.md
+                - name: Uygulama yaşam döngüsü yönetimi
+                  href: power-platform/application-lifecycle-management.md
+                - name: Finance and Operations ve Dataverse yönetici referansı
+                  href: power-platform/admin-reference.md
+                - name: Finance and Operations ile Power Apps portalları
+                  href: power-platform/power-portal-reference.md
+                - name: Finance and Operations sanal varlıkları ile ilgili SSS
+                  href: power-platform/faq.md
+            - name: Eklentiler
+              items:
+                - name: Eklentilere genel bakış
+                  href: power-platform/add-ins-overview.md
         - name: Mobil platform
           items:
             - name: Mobil platform kaynakları
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Regression Suite Automation Tool eğitimi
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Yönetici olmayan kullanıcıları yapılandırma
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: En iyi uygulamalar
               href: perf-test/rsat/rsat-best-practices.md
             - name: Regression Suite Automation Tool kullanarak veri belirsizliği testi

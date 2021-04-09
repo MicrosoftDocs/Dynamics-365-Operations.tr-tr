@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (Şubat 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (Ocak 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -1418,13 +1416,13 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
-            - name: Elektronik faturalama eklentisi
+            - name: Elektronik faturalama
               items:
-                - name: Elektronik faturalama eklentisine genel bakış
+                - name: Elektronik faturalamaya genel bakış
                   href: localizations/e-invoicing-service-overview.md
-                - name: Elektronik faturalama eklentisi yönetim bileşenleri
+                - name: Elektronik faturalama yönetim bileşenleri
                   href: localizations/e-invoicing-service-administration.md
-                - name: Regulatory Configuration Services'teki (RCS) elektronik faturalama eklentisini yapılandırma
+                - name: Regulatory Configuration Services'te (RCS) elektronik faturalamayı yapılandırma
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: Finance ve Supply Chain Management'ta elektronik fatura kesme
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
@@ -1432,20 +1430,22 @@
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Başlayın
                   items:
-                    - name: Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
+                    - name: Elektronik faturalama hizmet yönetimini kullanmaya başlama
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Elektronik faturalama eklentisini kullanmaya başlama
+                    - name: Elektronik faturalamayı kullanmaya başlama
                       href: localizations/e-invoicing-get-started.md
-                    - name: Brezilya için Elektronik faturalama eklentisini kullanmaya başlama
+                    - name: Brezilya için Elektronik faturalamayı kullanmaya başlama
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Mısır için Elektronik faturalama eklentisini kullanmaya başlama
+                    - name: Mısır için Elektronik faturalamayı kullanmaya başlama
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: İtalya için Elektronik faturalama eklentisini kullanmaya başlama
+                    - name: İtalya için Elektronik faturalamayı kullanmaya başlama
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Meksika için Elektronik faturalama eklentisini kullanmaya başlama
+                    - name: Meksika için Elektronik faturalamayı kullanmaya başlama
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: Elektronik faturalama eklentisini ayarlama
+                    - name: Elektronik faturalamayı ayarlama
                       href: localizations/e-invoicing-setup.md
+                - name: Elektronik faturalama ile ilgili SSS
+                  href: localizations/e-invoicing-faq.md
             - name: Avustralya
               items:
                 - name: Avustralya'ya genel bakış
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Mısır'da elektronik müşteri faturaları
                   href: localizations/emea-egy-e-invoices.md
+                - name: Mısır için KDV beyannamesi
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Mısır için stopaj vergisi beyannamesi
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Estonya
               items:
                 - name: Estonya'ya genel bakış
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: Hintçe yerelleştirmelerin kapsamı
                   href: localizations/apac-ind-scope.md
+                - name: Hindistan yerelleştirmesindeki yenilikler veya değişiklikler
+                  items:
+                    - name: 10.0.0 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: 10.0.01 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: 10.0.02 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: 10.0.03 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: 10.0.04 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: 10.0.05 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: 10.0.06 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: 10.0.07 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: 10.0.08 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: 10.0.09 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: 10.0.10 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: 10.0.11 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: 10.0.12 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: 10.0.13 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: 10.0.14 sürümündeki yenilikler veya değişiklikler
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Sabit kıymetler
                   items:
                     - name: Hindistan'daki sabit kıymetlere genel bakış
@@ -2090,7 +2126,7 @@
                       href: localizations/tasks/apac-ind-attach-day-based-calendar.md
                     - name: Vardiya amortismanını hesaplama
                       href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Sermaye maddeleri için stok modeli grubu oluşturma
+                    - name: Sermaye kalemleri için stok modeli grubu oluşturma
                       href: localizations/tasks/apac-ind-create-inventory-model-group.md
                     - name: Amortisman oluşturma ve deftere nakletme
                       href: localizations/apac-ind-calculate-post-depreciation.md
@@ -2106,217 +2142,205 @@
                       href: localizations/tasks/apac-ind-set-up-depreciation.md
                     - name: Amortisman defterleri için kıymet grubu amortismanı ayarlama
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Sermaye maddelerini sabit kıymete transfer etme
+                    - name: Sermaye kalemlerini sabit kıymete transfer etme
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Hindistan GST'si
+                - name: Dolaylı vergiler
                   items:
-                    - name: Hindistan GST'sine genel bakış
-                      href: localizations/apac-ind-gst.md
-                    - name: Hindistan GST'si yerelleştirmesindeki yenilikler veya değişiklikler
+                    - name: Hindistan'da GST
                       items:
-                        - name: 10.0.0 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: 10.0.01 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: 10.0.02 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: 10.0.03 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: 10.0.04 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: 10.0.05 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: 10.0.06 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: 10.0.07 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: 10.0.08 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: 10.0.09 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: 10.0.10 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: 10.0.11 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: 10.0.12 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: 10.0.13 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: 10.0.14 sürümündeki yenilikler veya değişiklikler
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: Hindistan'da GST referans grupları
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Yazar kasalara ilişkin GST tümleştirmesi
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Ana veri ayarlama
-                      items:
-                        - name: İş sektörü oluşturma
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Eyalet kodunu ve birlik bölgesini güncelleştirme
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: GSTIN ana şablonu oluşturma
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: GSTIN'leri ve referans numara serilerini tanımlama
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: HSN kodlarını ve Hizmet Muhasebesi Kodlarını tanımlama
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Vergi oranı türü oluşturma
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: GST deftere nakil türü için ana hesaplar oluşturma
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Vergi kapatma dönemi oluşturma
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: GSTIN'yi vergi kayıt grubuna ekleme
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Vergi ayarı
-                      items:
-                        - name: Vergi yapılandırması tanımlama ve tüzel kişiliklere dağıtma
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: Yapılandırma vergi türlerini eşleme - Gümrük
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Oran ve yüzde tablolarını ayarlama
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Satış vergisi hiyerarşisi ve mahsup kuralları ayarlama
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Satınalma hareketi
-                      items:
-                        - name: Kayıtlı olmayan satıcılardan satınalmalar
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Kayıtlı olmayan bir satıcıdan vergiye tabi madde satın alma
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Kayıtlı satıcılardan satınalmalar
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: İskontolu mallar satın alma
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Muaf tutulan mallar satın alma
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Sıfır oranlı mallar satın alma
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: GST olmayan mallar satın alma
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Bileşik satıcılardan satınalmalar
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: Sevkiyat masrafları olan vergiye tabi mallar satın alma
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: Vergiye tabi ürünler içeren bir satınalma faturasını düzeltme
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Sabit kıymet satınalmaları
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Satınalma faturasına karşı alacak dekontu oluşturma
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Satınalma faturasına karşı borç dekontu oluşturma
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: Örnekleme maddesinin yok edilmesiyle ilgili kalite emirleri
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Satınalma iade siparişleri
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: Ters giderler bulunan satıcı avans ödemeleri
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Satış hareketi
-                      items:
-                        - name: Vergiye tabi malların müşteriye satışı
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Kayıtlı müşterilere satış
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Serbest metin faturaları
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Ters gider bulunan vergiye tabi mal satışı
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: Muaf tutulan maddelerin satışı
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Sıfır oranlı malların satışı
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: GST olmayan malların satışı
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: İskonto ve geçici değerlendirme içeren vergiye tabi malların satışı
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: Sevkiyat masraflarında vergi içeren vergiye tabi malların satışı
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: Vergi dahil ve vergi hariç fiyatlarla satış
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Satış faturasına karşı borç dekontu oluşturma
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Satış faturasına karşı alacak dekontu oluşturma
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: Teslimat adreslerine göre bölünen satış faturaları
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Sipariş iadeleri
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Yabancı hareketler
-                      items:
-                        - name: GST içeren mallar ithal etme
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: GST içeren hizmetler ithal etme
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: Sıfır oranlı vergi içeren mallar ihraç etme
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: Sıfır oranlı vergi içeren hizmetler ihraç etme
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Stok hareketi
-                      items:
-                        - name: Stok transferi emirleri
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: Transfer fiyatı vergi içeren stok transfer emirleri
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Müşteri ödeme hareketi
-                      items:
-                        - name: Vergi içeren avans ödemeleri
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: Fatura deftere nakledilirken kapatılan avans ödemeleri
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: Avans ödemesini ve vergi içeren faturayı el ile kapatma
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: Vergi içeren fatura ödemesi
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: Vergi içeren avans ödemelerini düzeltme
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Müşteri ödeme iadeleri
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Doğrudan vergi hareketi
+                        - name: Hindistan'da GST'ye genel bakış
+                          href: localizations/apac-ind-gst.md
+                        - name: Vergi altyapısı
+                          items:
+                            - name: Vergi altyapısına genel bakış
+                              href: general-ledger/tax-engine.md
+                            - name: Yapılandırmayı içe aktarma
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Gelişmiş formül tasarımcısı
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Vergi altyapısı uygulanabilirliği
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Vergi bileşenleri oluşturma
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Vergi altyapısı tümleştirmesi
+                              href: general-ledger/tax-engine-integration.md
+                            - name: Vergi altyapısını genişletme
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: TaxDocumentJSON tablosunu temizleme
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: GTE'de sorun giderme
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Ana veri ayarlama
+                          items:
+                            - name: İş sektörü oluşturma
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Eyalet kodunu ve birlik bölgesini güncelleştirme
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: GSTIN ana şablonu oluşturma
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: GSTIN'leri ve referans numara serilerini tanımlama
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: HSN kodlarını ve Hizmet Muhasebesi Kodlarını tanımlama
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Vergi oranı türü oluşturma
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: GST deftere nakil türü için ana hesaplar oluşturma
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Vergi kapatma dönemi oluşturma
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: GSTIN'yi vergi kayıt grubuna ekleme
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Vergi ayarı
+                          items:
+                            - name: Vergi yapılandırması tanımlama ve tüzel kişiliklere dağıtma
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: Yapılandırma vergi türlerini eşleme - Gümrük
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Oran ve yüzde tablolarını ayarlama
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Satış vergisi hiyerarşisi ve mahsup kuralları ayarlama
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: Hindistan'da GST referans grupları
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Vergi hareketleri
+                          items:
+                            - name: Satınalma hareketleri
+                              items:
+                                - name: Kayıtlı olmayan satıcılardan satınalmalar
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Kayıtlı olmayan bir satıcıdan vergiye tabi madde satın alma
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Kayıtlı satıcılardan satınalmalar
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: İskontolu mallar satın alma
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Muaf tutulan mallar satın alma
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Sıfır oranlı mallar satın alma
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: GST olmayan mallar satın alma
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Bileşik satıcılardan satınalmalar
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: Sevkiyat masrafları olan vergiye tabi mallar satın alma
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: Vergiye tabi ürünler içeren bir satınalma faturasını düzeltme
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Sabit kıymet satınalmaları
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Satınalma faturasına karşı alacak dekontu oluşturma
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Satınalma faturasına karşı borç dekontu oluşturma
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: Örnekleme maddesinin yok edilmesiyle ilgili kalite emirleri
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Satınalma iade siparişleri
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: Ters giderler bulunan satıcı avans ödemeleri
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Satış hareketleri
+                              items:
+                                - name: Vergiye tabi malların müşteriye satışı
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Kayıtlı müşterilere satış
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Serbest metin faturaları
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Ters gider bulunan vergiye tabi mal satışı
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: Muaf tutulan maddelerin satışı
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Sıfır oranlı malların satışı
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: GST olmayan malların satışı
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: İskonto ve geçici değerlendirme içeren vergiye tabi malların satışı
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: Sevkiyat masraflarında vergi içeren vergiye tabi malların satışı
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: Vergi dahil ve vergi hariç fiyatlarla satış
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Satış faturasına karşı borç dekontu oluşturma
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Satış faturasına karşı alacak dekontu oluşturma
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: Teslimat adreslerine göre bölünen satış faturaları
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Sipariş iadeleri
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Yabancı hareketler
+                              items:
+                                - name: GST içeren mallar ithal etme
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: GST içeren hizmetler ithal etme
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: Sıfır oranlı vergi içeren mallar ihraç etme
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: Sıfır oranlı vergi içeren hizmetler ihraç etme
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: İhracat siparişine karşı alacak veya borç dekontu
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Stok transferi hareketleri
+                              items:
+                                - name: Stok transferi emirleri
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: Transfer fiyatı vergi içeren stok transfer emirleri
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Müşteri ödeme hareketleri
+                              items:
+                                - name: Vergi içeren avans ödemeleri
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: Fatura deftere nakledilirken kapatılan avans ödemeleri
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: Avans ödemesini ve vergi içeren faturayı el ile kapatma
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: Vergi içeren fatura ödemesi
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: Vergi içeren avans ödemelerini düzeltme
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Müşteri ödeme iadeleri
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Vergi düzeltmesi
+                              items:
+                                - name: Vergi tutarını düzeltme
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Vergi günlüğü oluşturma
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Vergi belgesi sorgulamaları
+                              items:
+                                - name: Vergi sorgulama
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Vergi kapatma
+                          items:
+                            - name: Kural tabanlı vergi kapatma
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: GSTR raporları
+                          items:
+                            - name: Yeni GSTR-1 ve GSTR-2 dönüş biçimleri
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: ANX-1 ve Satınalma Kaydı için yeni GSTR Çevrimdışı Aracı
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: Vergi iadeleri için GSTR rapor verileri oluşturma
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: GSTR raporları için çoklu toplu işlemleri etkinleştirme
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Doğrudan vergiler
+                  items:
+                    - name: Hindistan stopaj vergisi
                       items:
                         - name: Vergi kesintileri hesaplanırken GST'yi dahil etme
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: Vergi tahsilatları hesaplanırken GST'yi dahil etme
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Vergi tutarı ayarlama
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Kural tabanlı vergi kapatma
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Vergi günlüğü oluşturma
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Vergi iadeleri için GSTR rapor verileri oluşturma
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: GSTR raporları için çoklu toplu işlemleri etkinleştirme
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Vergi sorgulama
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: TaxDocumentJSON tablosunu temizleme
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Vergi altyapısı
-                  items:
-                    - name: Vergi altyapısına genel bakış
-                      href: general-ledger/tax-engine.md
-                    - name: Yapılandırmayı içeri aktarma
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Gelişmiş formül tasarımcısı
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Vergi altyapısı uygulanabilirliği
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Vergi bileşenleri oluşturma
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Vergi altyapısı tümleştirmesi
-                      href: general-ledger/tax-engine-integration.md
-                    - name: Vergi altyapısını genişletme
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: GTE'de sorun giderme
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Vergi eşikleriyle ilgili SSS
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Vergi eşikleriyle ilgili SSS
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: Malların satışında TCS
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
                   href: localizations/italy.md
-                - name: KDV beyanlarıyla ilgili ayrıntılar
+                - name: KDV beyannameleriyle ilgili ayrıntılar
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Üç aylık KDV iletişim raporu
                   href: localizations/emea-ita-quarterly-vat-communication.md
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: Litvanya için i.SAF raporlama
                   href: localizations/emea-ltu-isaf.md
+                - name: Litvanya için Vergi Standart Denetim Dosyası (SAF-T)
+                  href: localizations/emea-ltu-saf-t.md
             - name: Malezya
               items:
                 - name: Malezya'ya genel bakış
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Nakit akışı vergi kayıtları
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Derecelendirilmiş gider kayıtları
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Suudi Arabistan
               items:
                 - name: Suudi Arabistan'a genel bakış
@@ -3381,11 +3409,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Uygulamaya özel meta veriler hazırlama
                       items:
-                        - name: (ER) RCS'de kullanılacak uygulama meta verileri hazırlama
+                        - name: RCS'de kullanmak üzere ER'de uygulama meta verileri hazırlama
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) ER yapılandırması kullanarak uygulama meta verilerine erişme
+                        - name: RCS'de ER yapılandırması kullanarak uygulama meta verilerine erişme
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Bağlı uygulamalar kullanarak uygulama meta verilerine erişme
+                        - name: RCS'de bağlı uygulamalar kullanarak uygulama meta verilerine erişme
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Model eşlemelerini tanımlama ve veri kaynaklarını seçme
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: Elektronik raporlamada formül tasarımcıları
+            - name: ER'de formül tasarımcıları
               items:
                 - name: Formül tasarımcısı
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Metin: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: Farklı biçimlerde giden elektronik belgeler oluşturmak için ER biçimleri tasarlama
+            - name: Farklı biçimlerde giden belgeler oluşturmak için ER biçimleri tasarlama
               items:
                 - name: Excel biçiminde giden belgeler oluşturmak için yapılandırmalar tasarlama
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Resimler ve şekiller katıştırma
                   items:
-                    - name: (ER) Oluşturduğunuz belgelere resimler ve şekiller katıştırma
+                    - name: Oluşturduğunuz belgelere resimler ve şekiller katıştırma
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: Resim ve şekil katıştırma örneği
                       items:
@@ -3717,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Oluşturulan dosyalarda ürün reçetesi karakterlerini gizleme
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
-            - name: Elektronik raporlama kullanarak uygulama verilerini güncelleştirme
+            - name: ER kullanarak uygulama verilerini güncelleştirme
               items:
                 - name: Elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
@@ -3757,17 +3785,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
                     - name: Yapılandırmaları LCS'den içe aktarma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                    - name: Yapılandırmaları LCS'den indirme
+                    - name: LCS'den yapılandırmaları indirme
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Yapılandırmaları içe aktarma (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory Service (RCS)
+                - name: Regulatory Services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) - Globalization features
-                      href: localizations/rcs-globalization-feature.md
+                    - name: RCS'de genelleştirme özellikleri
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: ER yapılandırmalarını Finance'a indirme
                       items:
-                        - name: Yapılandırmaları RCS'den indirme
+                        - name: RCS'den yapılandırmaları indirme
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Yapılandırmaları RCS'den içe aktarma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -3877,7 +3905,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
             - name: Finance'te ER çözümlerini kullanma
               items:
-                - name: Altyapıyı yapılandırma
+                - name: Çerçeveyi yapılandırma
                   items:
                     - name: Elektronik raporlama çerçevesini yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
@@ -3896,17 +3924,17 @@
                     - name: Hedef türleri
                       items:
                         - name: Arşiv hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: E-posta hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Dosya hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Power BI hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Yazıcı hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Ekran hedefi
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Hedefleri yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Eyleme bağlı hedefleri yapılandırma
@@ -3919,11 +3947,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektronik raporlama ile testi otomatikleştirme
+                    - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronik raporlama yapılandırmalarını kullanarak iş süreçlerini otomatikleştirme
                   items:
-                    - name: Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma
+                    - name: Power BI'ya veri çekmek için ER'yi yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json

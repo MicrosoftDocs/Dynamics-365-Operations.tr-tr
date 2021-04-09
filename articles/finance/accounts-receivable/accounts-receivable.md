@@ -2,11 +2,9 @@
 title: Alacak hesapları giriş sayfası
 description: Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3974442c11e410da41613fcca9f2fad2e608997e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248051"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827734"
 ---
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
