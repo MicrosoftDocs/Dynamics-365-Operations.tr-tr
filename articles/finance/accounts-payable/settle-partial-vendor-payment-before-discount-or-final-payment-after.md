@@ -2,11 +2,9 @@
 title: Kısmi ödemeyi iskonto tarihinden önce ve iskonto tarihinden sonraki bir son ödeme ile kapatma
 description: Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227340"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810354"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Kısmi ödemeyi iskonto tarihinden önce ve iskonto tarihinden sonraki bir son ödeme ile kapatma
 
@@ -48,9 +46,9 @@ Fabrikam 3057 numaralı satıcıdan mal satın alıyor. Fabrikam, fatura 14 gün
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 09/7/2015 |
+| Nakit iskonto tarihi           | 09/7/2015 |
 | Nakit iskontosu tutarı         | -10,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -73,9 +71,9 @@ April, faturanın geri kalanını, iskonto döneminden sonra olan, 15 Temmuz'da 
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir. April kendisinin zaten 3,00 indirim aldığını görebilir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 09/7/2015 |
+| Nakit iskonto tarihi           | 09/7/2015 |
 | Nakit iskontosu tutarı         | 0,00      |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | -3,00     |
@@ -99,10 +97,10 @@ Satıcı, April iskonto tarihinden sonra ödeme yapsa da bir iskonto almasına i
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 09/7/2015 |
-| Nakit iskontosu tutarı         | 7,00      |
+| Nakit iskonto tarihi           | 09/7/2015 |
+| Nakit iskontosu tutarı         | 7.00      |
 | Nakit iskontosu kullan            | Her zaman    |
 | Alınan nakit iskontosu          | -3,00     |
 | Alınacak nakit iskontosu tutarı | -7,00     |

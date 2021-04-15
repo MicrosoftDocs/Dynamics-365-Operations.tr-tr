@@ -2,11 +2,9 @@
 title: Yaralanma ve hastalık bilgilerini ayarla
 description: İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMInjurySetup, HcmPersonnelManagementWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8e5276958cd0d95918f57c82c2a242a3f745f6c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 19512a075a9b863a84ca3e9db4a06f7eac047140
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467421"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802515"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Yaralanma ve hastalık bilgilerini ayarla
 

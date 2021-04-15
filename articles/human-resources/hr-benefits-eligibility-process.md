@@ -2,11 +2,9 @@
 title: Kazanç uygunluğu işlemi
 description: Bu yordam, kazanç uygunluk işleminin nasıl çalıştığını gösterir.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 3720adf26d2cb942bc5d9f6988641bf5e504a852
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 55137cfa62f40713b2aed740f08ab5ead53b46d8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465138"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805886"
 ---
 # <a name="benefit-eligibility-process"></a>Kazanç uygunluğu işlemi
 

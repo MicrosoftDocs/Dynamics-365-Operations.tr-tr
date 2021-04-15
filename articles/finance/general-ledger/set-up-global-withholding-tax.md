@@ -2,11 +2,9 @@
 title: Global stopaj vergisini ayarlama
 description: Bu konu, satışlar ve satın almalar için genel stopaj vergisi ödemesini ayarlamaya yönelik gereken adımları listeler.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 00c472e90f4926c52ffe9b19661e68cbfa6bd493
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3270b3f75d719fef9a7eb991c49e9d6585cd44d8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204845"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815320"
 ---
 # <a name="set-up-global-withholding-tax"></a>Global stopaj vergisini ayarlama
 

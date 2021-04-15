@@ -2,11 +2,9 @@
 title: Maliyet yuvarlaması ilkesi oluşturma
 description: Bu yordam, bir maliyet yuvarlama ilkesini oluşturmayı ve ilke için kurallar oluşturmayı gösterir.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6505d658103a4c34dfe7c7eb86ad4ea41515ccfb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 50a50dc359dc4c2741ac4d280a9f97c6a7f2c259
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261296"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810033"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Maliyet yuvarlaması ilkesi oluşturma
 

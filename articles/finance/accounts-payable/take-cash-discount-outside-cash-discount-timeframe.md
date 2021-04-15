@@ -2,11 +2,9 @@
 title: Nakit iskonto döneminin dışında bir nakit iskontosu almak
 description: Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df635e78fff1994b9a9e1abc99c67470852ad81
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 47acacf9b1e9667e86fcdd5ce1ed62e79d8afec3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235873"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810234"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit iskonto döneminin dışında bir nakit iskontosu almak
 
@@ -43,9 +41,9 @@ April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yap
 
 İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12/7/2015 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Her zaman    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -61,9 +59,9 @@ Hem fatura hem ödeme nakledilirse, **Hareketleri kapat** sayfasında hareketler
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. Alınan iskonto tutarı 20,00'dir, çünkü fatura için kapatılacak tutar, varsayılan tutar olan 1.980,00'dır.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12/7/2015 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -78,9 +76,9 @@ April, **Kapatılacak tutar** alanındaki değeri **500,00** olarak güncelliyor
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Alınacak nakit iskontosu tutarı** alanındaki değer **5,05**'dir çünkü fatura için kapatılacak tutar, ödeme tutarı olan 500,00 olarak değiştirilmiştir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12/7/2015 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |

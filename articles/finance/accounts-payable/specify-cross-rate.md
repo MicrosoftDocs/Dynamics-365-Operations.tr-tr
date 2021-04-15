@@ -2,11 +2,9 @@
 title: Çapraz kuru belirtme
 description: Bu konuda, Microsoft Dynamics 365 Finance'teki çapraz kurlar hakkında bilgi verilmektedir.
 author: abruer
-manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a1463b9676e6b26543fd88607ca13b0ceb12be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eafaf660470cec5fd82454660f2f59b86d488d0c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231578"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810306"
 ---
 # <a name="specify-the-cross-rate"></a>Çapraz kuru belirtme
 

@@ -2,11 +2,9 @@
 title: Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya tersine çevirme
 description: Bu makale, faiz ve masraflar için giderlerden nasıl feragat edileceğini, giderlerin nasıl eski durumuna getirileceğini ve tersine çevrileceğini açıklar.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43b9a612639e6981511acc1cff7fdc3607ceb28a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b50b6ad0abd566fbcaf9cf8ad36af69fb4b3e551
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220047"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814188"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya tersine çevirme
 
