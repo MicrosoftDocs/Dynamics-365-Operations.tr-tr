@@ -2,11 +2,9 @@
 title: Kuruluş raporu hiyerarşisi oluşturma
 description: Bu yordamı bir kuruluş raporlaması için bir raporlama hiyerarşisi oluşturmak üzere kullanın.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3db8465c462caffeaf6bd12d17c4b61355ed8eed
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 727a77b5a3a64bd4b679103e24d8c4c384a113e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208763"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815752"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Kuruluş raporu hiyerarşisi oluşturma
 

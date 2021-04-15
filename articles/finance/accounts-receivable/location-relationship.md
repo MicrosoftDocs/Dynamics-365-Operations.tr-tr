@@ -2,11 +2,9 @@
 title: Konum ve taraf ilişkisi türlerini ekleme
 description: Bu konu, yeni bir konum ve taraf ilişkisi türünün nasıl ekleneceğini açıklamaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 13157700b9311e93aa035162ed89ed006e1453b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 71e4c8ad122bc52103bda04144222785e9a059f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228185"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817257"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Konum ve taraf ilişkisi türlerini ekleme 
 
