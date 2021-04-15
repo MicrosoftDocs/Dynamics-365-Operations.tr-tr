@@ -2,7 +2,6 @@
 title: Genel sorun giderme
 description: Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma tümleştirme hakkında genel sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4b97fffce6d1c3ea143e0d8445769e794d0c46a4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566112"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748837"
 ---
 # <a name="general-troubleshooting"></a>Genel sorun giderme
 

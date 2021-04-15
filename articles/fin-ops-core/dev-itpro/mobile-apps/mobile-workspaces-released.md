@@ -2,7 +2,6 @@
 title: Kullanılabilir mobil çalışma alanları
 description: Bu konuda kullanılabilecek mobil çalışma alanlarını belirtilmektedir.
 author: sericks007
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f7695ede9ecb04c4953e13f7ea146461ce376c47
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5f4c91c16363b978932d74c7e8b4420b3a8366d3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570056"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752720"
 ---
 # <a name="available-mobile-workspaces"></a>Kullanılabilir mobil çalışma alanları
 

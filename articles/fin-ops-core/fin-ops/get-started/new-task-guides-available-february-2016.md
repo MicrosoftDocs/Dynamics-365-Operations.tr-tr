@@ -1,8 +1,7 @@
 ---
 title: Yeni görev kılavuzları (Şubat 2016)
-description: Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics 365 for Operations ve (Şubat 2016) Başlangıç bulunmaktadır.
+description: Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caad79ab5c5b8796116f54ceead0097481c42e9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 87c7b92b31456afc4c44427949bb2ae4dbbbf5c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749814"
 ---
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 

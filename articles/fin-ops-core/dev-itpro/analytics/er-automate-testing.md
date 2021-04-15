@@ -2,7 +2,6 @@
 title: Elektronik raporlama ile testi otomatikleştirme
 description: Bu konu, işlevsellik testini otomatikleştirmek için Elektronik raporlama (ER) çerçevesinin temel özelliğini nasıl kullanabileceğinizi açıklar.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 503d4ca562df5c60ee7c475ac146dffbe0edc0c9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0d029773d9aa59b27f80d2f670984a352e163122
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569057"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743883"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Elektronik raporlama ile testi otomatikleştirme
 

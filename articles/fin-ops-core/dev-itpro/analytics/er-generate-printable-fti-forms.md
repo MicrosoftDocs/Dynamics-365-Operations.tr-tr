@@ -2,7 +2,6 @@
 title: Yazdırılabilir FTI formları oluşturma
 description: Bu konuda, yazdırılabilir serbest metin faturası (FTI) formlarını Microsoft Office belgeleri olarak oluşturmak için Elektronik raporlama (ER) altyapısının nasıl kullanılacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da671d7b9302f99fc71860cf41846290d74d11e1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570698"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751668"
 ---
 # <a name="generate-printable-fti-forms"></a>Yazdırılabilir FTI formları oluşturma
 

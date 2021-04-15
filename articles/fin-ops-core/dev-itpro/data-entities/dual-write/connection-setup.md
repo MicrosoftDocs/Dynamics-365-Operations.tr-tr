@@ -2,7 +2,6 @@
 title: Çift yazma kurulumu kılavuzu
 description: Bu konu, çift yazma kurulumu için desteklenen senaryoları açıklamaktadır.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: dee6bc52a0967dfd6134258d3a02dc18feb404a5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 999b37970be1c10fd5e78c3d8ac6c1fb25cad367
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560237"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751398"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Çift yazma kurulumu kılavuzu
 

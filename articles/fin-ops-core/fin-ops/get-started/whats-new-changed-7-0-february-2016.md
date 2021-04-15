@@ -2,7 +2,6 @@
 title: Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 description: Bu makale Microsoft Dynamics AX 7.0'da yeni veya değişen özellikler açıklanmaktadır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 author: sericks007
-manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5631f65ab0a687671320dc1649bc83946074dc85
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566622"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752878"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 

@@ -2,7 +2,6 @@
 title: Birleştirilmiş ürün deneyimi
 description: Bu konu Finance and Operations uygulamaları ile Dataverse arasında ürün verileri tümleştirmesini açıklar.
 author: t-benebo
-manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560471"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750752"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 

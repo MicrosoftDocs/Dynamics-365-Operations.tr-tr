@@ -2,7 +2,6 @@
 title: Azure Active Directory'den kullanıcıları içeri aktarma
 description: Bu yordam, sistem yöneticisi tarafından Azure Active Directory'den seçili kullanıcıları el ile içeri aktarma veya çok sayıda kullanıcıyı içeri aktarma için kullanılabilir.
 author: peakerbl
-manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e9f03ae7197790c1aac6ebf3cb94ff7963b1291e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571017"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745801"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Azure Active Directory'den kullanıcıları içeri aktarma
 

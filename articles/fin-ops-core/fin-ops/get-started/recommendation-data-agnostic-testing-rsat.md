@@ -2,7 +2,6 @@
 title: Regression Suite Automation Tool kullanarak veri belirsiz test
 description: Bu konu altında, Regression Suite Automation Tool kullanarak veri belirsiz test yapma önerileri tartışılmaktadır.
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 63d747cb04cf0d6503e326e8e2ac8b86002c23ca
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566391"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744675"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Regression Suite Automation Tool kullanarak veri belirsiz test
 

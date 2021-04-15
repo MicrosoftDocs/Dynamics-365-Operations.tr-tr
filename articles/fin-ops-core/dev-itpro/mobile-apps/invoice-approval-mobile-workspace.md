@@ -2,7 +2,6 @@
 title: Fatura onayları mobil çalışma alanı
 description: Bu konu, Fatura onayları mobil çalışma alanı hakkında bilgi sağlar.
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3d90b89900b35bce648841aa9e49737a25309ce2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c3414d6ef5f2df62f37f1ef2e7e2ff43ce040e5e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570091"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752262"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Fatura onayları mobil çalışma alanı
 

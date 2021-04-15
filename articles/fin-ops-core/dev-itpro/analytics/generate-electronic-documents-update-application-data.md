@@ -2,7 +2,6 @@
 title: ER kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
 description: Giden elektronik belgeler oluşturmak için uygulamada kullanılabilen Elektronik raporlama (ER) biçimlerini tasarlayabilirsiniz.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf595548ac1e67b99018495d2f0278dc305254d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568665"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750046"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>ER kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
 

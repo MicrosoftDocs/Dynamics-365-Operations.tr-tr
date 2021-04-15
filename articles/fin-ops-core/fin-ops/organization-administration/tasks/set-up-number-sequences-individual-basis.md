@@ -2,7 +2,6 @@
 title: Bireysel olarak numara serileri ayarlama
 description: Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır.
 author: sericks007
-manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ae2fb85bfca6c6a30ec5bd7a13838628a6376f9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560519"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747333"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara serileri ayarlama
 

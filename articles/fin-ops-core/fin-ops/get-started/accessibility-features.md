@@ -2,7 +2,6 @@
 title: Erişilebilirlik özellikleri
 description: Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar.
 author: TLeforMicrosoft
-manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 45395113944af6f02d0afb67284dc0d42bdedca4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4cf5a5fc2d40e66d189d281b343d1525edf7e8c5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562447"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744135"
 ---
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
@@ -38,7 +37,7 @@ Her alan ve denetimde bir etiket ve ilgili kısayola ilişkin bir açıklama var
 
 En soldaki bölme olan Gezinti bölmesi menüsünü kullanarak erişilen her sayfa **Arama** kutusundan da bulunabilir. **Arama** kutusuna gitmek için Alt+G tuşlarına basın ve sonra sayfa açıklamasını veya adı yazın.
 
-![Arama kutusuna "Banka hesapları" girildi](media/6d08b0be32808221023e2aa92d69fd70.png "Arama kutusuna "Banka hesapları" girildi")
+![Arama kutusuna "Banka hesapları" girildi](media/6d08b0be32808221023e2aa92d69fd70.png "Arama kutusuna &quot;Banka hesapları&quot; girildi")
 
 Daha fazla bilgi için bkz. [Gezinti araması](navigation-search.md).
 
@@ -53,7 +52,7 @@ Bir sayfada yer alan her eyleme seklem sırası aracılığıyla klavyeden eriş
 
 Eylem Bölmesindeki **Satış siparişi** sekmesinde yer alan **E-posta bildirimi** grubunda görüntülenen **E-posta bildirimi günlüğü** eylemini çalıştırmak istiyorsunuz.
 
-![Eylem Bölmesindeki e-posta bildirim günlüğü eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem Bölmesindeki "e-posta bildirim günlüğü" eylemi")
+![Eylem Bölmesindeki e-posta bildirim günlüğü eylemi](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Eylem Bölmesindeki &quot;e-posta bildirim günlüğü&quot; eylemi")
 
 Seçeneklerden biri klavyenizi kullanmaktır. Odağı Eylem Bölmesine taşımak için CTRL+F6 tuşuna basın ve **E-posta bildirimi günlüğü** üzerine gelene kadar Sekme tuşuna art arda basarak tük sekmelerin ve eylemlerin üzerinden geçin.
 
@@ -63,11 +62,11 @@ Ancak, eylemi daha doğrudan da çalıştırabilirsiniz. Sayfadaki herhangi bir 
 
 Arama kutusuna eylemi açıklayan sözcükleri yazın. Eylem kullanılabilir duruma gelir ve doğrudan çalıştırabilirsiniz. Örneğin **e-posta**, **bildir** (sözcüğün bir kısmı) veya **günlük** yazarak "E-posta bildirimi günlüğü" işlevine "atlayabilirsiniz".
 
-![Arama kutusuna "E-posta" girildi](media/image4.png "Arama kutusuna "E-posta" girildi")
+![Arama kutusuna "E-posta" girildi](media/image4.png "Arama kutusuna &quot;E-posta&quot; girildi")
 
-![Arama kutusuna "Bildir" girildi](media/image5.png "Arama kutusuna "Bildir" girildi")
+![Arama kutusuna "Bildir" girildi](media/image5.png "Arama kutusuna &quot;Bildir&quot; girildi")
 
-![Arama kutusuna "Günlük" girildi](media/image6.png "Arama kutusuna "Günlük" girildi")
+![Arama kutusuna "Günlük" girildi](media/image6.png "Arama kutusuna &quot;Günlük&quot; girildi")
 
 İşlemi tamamladığınız zaman Ctrl+Kesme işareti tuşuna yeniden basarak eylem aramasını çalıştırmadan önce çalıştığınız alana geri dönebilirsiniz.
 
@@ -79,7 +78,7 @@ Sistem günlük kullanımında, genel görevleri gerçekleştirmek için her ala
 
 Bununla birlikte, sık gerçekleştirdiğiniz görevleri yerine getirmek için bazı alanların varsayılan sekme sırasında olmadığını görebilirsiniz. Bu durumda, Windows Ekran Okuyucusu kullanıyorsanız, Windows Ekran okuyucusunun klavyesini kullanarak bu alanlara erişebilir ve içeriklerini denetleyebilirsiniz. Bunun yerine **Seçenekler** sayfasında **Gelişmiş sekme sırası** seçeneğini etkinleştirebilirsiniz. Bu seçenek, tüm düzenlenebilir ve salt okunur alanları sekme sırasının parçası yapar. Daha sonra özel bir sekme sırası oluşturmak için sayfa kişiselleştirmeyi kullanabilir ve sekme sırasının parçası olması gerekmeyen alanları dışarıda bırakabilirsiniz. Kişiselleştirme hakkında daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md).
 
-!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png ""Gelişmiş sekme sırası" seçeneği")
+!["Gelişmiş sekme sırası" seçeneği](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "&quot;Gelişmiş sekme sırası&quot; seçeneği")
 
 ## <a name="form-patterns"></a>Form modelleri
 
