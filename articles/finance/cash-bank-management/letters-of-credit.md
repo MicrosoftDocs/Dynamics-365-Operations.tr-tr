@@ -2,11 +2,9 @@
 title: Kredi mektupları
 description: Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
@@ -17,39 +15,39 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e733238943b723d17a4588252aa85ef4123c9796
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bdd586f8b43b640d636937c13e92609098a48115
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253927"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815848"
 ---
-# <a name="letters-of-credit"></a><span data-ttu-id="69f8e-103">Kredi mektupları</span><span class="sxs-lookup"><span data-stu-id="69f8e-103">Letters of credit</span></span>
+# <a name="letters-of-credit"></a><span data-ttu-id="e06a4-103">Kredi mektupları</span><span class="sxs-lookup"><span data-stu-id="e06a4-103">Letters of credit</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="69f8e-104">Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir.</span><span class="sxs-lookup"><span data-stu-id="69f8e-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
+<span data-ttu-id="e06a4-104">Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir.</span><span class="sxs-lookup"><span data-stu-id="e06a4-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
 
-<span data-ttu-id="69f8e-105">Kredi ödemelerini garantiye almak için, uluslararası hareketlerde kredi mektupları kullanılır.</span><span class="sxs-lookup"><span data-stu-id="69f8e-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="69f8e-106">Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve satıcı arasındaki sözleşmenin koşullarını yerine getirilirse, alıcı adına ödeme yapmayı kabul ettiği bir anlaşmadır.</span><span class="sxs-lookup"><span data-stu-id="69f8e-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="69f8e-107">Kredi mektubunun da bir belgeli kredi (DC) olarak adlandırıldığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="69f8e-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
+<span data-ttu-id="e06a4-105">Kredi ödemelerini garantiye almak için, uluslararası hareketlerde kredi mektupları kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e06a4-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="e06a4-106">Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve satıcı arasındaki sözleşmenin koşullarını yerine getirilirse, alıcı adına ödeme yapmayı kabul ettiği bir anlaşmadır.</span><span class="sxs-lookup"><span data-stu-id="e06a4-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="e06a4-107">Kredi mektubunun da bir belgeli kredi (DC) olarak adlandırıldığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e06a4-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
 
-<span data-ttu-id="69f8e-108">Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır.</span><span class="sxs-lookup"><span data-stu-id="69f8e-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="69f8e-109">Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır.</span><span class="sxs-lookup"><span data-stu-id="69f8e-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="69f8e-110">Aşağıdaki partiler kredi mektubuyla ilişkilidirler:</span><span class="sxs-lookup"><span data-stu-id="69f8e-110">The following parties are involved with a letter of credit:</span></span> 
+<span data-ttu-id="e06a4-108">Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır.</span><span class="sxs-lookup"><span data-stu-id="e06a4-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="e06a4-109">Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır.</span><span class="sxs-lookup"><span data-stu-id="e06a4-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="e06a4-110">Aşağıdaki partiler kredi mektubuyla ilişkilidirler:</span><span class="sxs-lookup"><span data-stu-id="e06a4-110">The following parties are involved with a letter of credit:</span></span> 
 
- - <span data-ttu-id="69f8e-111">Malların parasını ödemeyi kabul eden, başvuru sahibi (alıcı)</span><span class="sxs-lookup"><span data-stu-id="69f8e-111">The applicant (buyer) who intends to pay for the goods</span></span> 
- - <span data-ttu-id="69f8e-112">Ödemeyi alacak lehtar (satıcı)</span><span class="sxs-lookup"><span data-stu-id="69f8e-112">The beneficiary (seller) who will receive the payment</span></span>
- - <span data-ttu-id="69f8e-113">Kredi mektubunu veren amir banka</span><span class="sxs-lookup"><span data-stu-id="69f8e-113">The issuing bank that issues the letter of credit</span></span>
- - <span data-ttu-id="69f8e-114">Başvuru sahibi adına hareketi gerçekleştiren ihbar bankası</span><span class="sxs-lookup"><span data-stu-id="69f8e-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
+ - <span data-ttu-id="e06a4-111">Malların parasını ödemeyi kabul eden, başvuru sahibi (alıcı)</span><span class="sxs-lookup"><span data-stu-id="e06a4-111">The applicant (buyer) who intends to pay for the goods</span></span> 
+ - <span data-ttu-id="e06a4-112">Ödemeyi alacak lehtar (satıcı)</span><span class="sxs-lookup"><span data-stu-id="e06a4-112">The beneficiary (seller) who will receive the payment</span></span>
+ - <span data-ttu-id="e06a4-113">Kredi mektubunu veren amir banka</span><span class="sxs-lookup"><span data-stu-id="e06a4-113">The issuing bank that issues the letter of credit</span></span>
+ - <span data-ttu-id="e06a4-114">Başvuru sahibi adına hareketi gerçekleştiren ihbar bankası</span><span class="sxs-lookup"><span data-stu-id="e06a4-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-<span data-ttu-id="69f8e-115">Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini ve sonrasında ödemenin yapılamayacağı geçerlilik bitiş tarihini içerir.</span><span class="sxs-lookup"><span data-stu-id="69f8e-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="69f8e-116">Amir banka, kredi mektubu karşılığında bir marj tahsil eder.</span><span class="sxs-lookup"><span data-stu-id="69f8e-116">The issuing bank collects a margin for the letter of credit.</span></span> 
+<span data-ttu-id="e06a4-115">Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini ve sonrasında ödemenin yapılamayacağı geçerlilik bitiş tarihini içerir.</span><span class="sxs-lookup"><span data-stu-id="e06a4-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="e06a4-116">Amir banka, kredi mektubu karşılığında bir marj tahsil eder.</span><span class="sxs-lookup"><span data-stu-id="e06a4-116">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-<span data-ttu-id="69f8e-117">Kredi mektubu kabili rücu veya gayri kabili rücu olabilir.</span><span class="sxs-lookup"><span data-stu-id="69f8e-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="69f8e-118">Kredi mektubunun yapısı, devredilebilir, devredilemez veya döner olabilir.</span><span class="sxs-lookup"><span data-stu-id="69f8e-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="69f8e-119">Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.</span><span class="sxs-lookup"><span data-stu-id="69f8e-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
+<span data-ttu-id="e06a4-117">Kredi mektubu kabili rücu veya gayri kabili rücu olabilir.</span><span class="sxs-lookup"><span data-stu-id="e06a4-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="e06a4-118">Kredi mektubunun yapısı, devredilebilir, devredilemez veya döner olabilir.</span><span class="sxs-lookup"><span data-stu-id="e06a4-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="e06a4-119">Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.</span><span class="sxs-lookup"><span data-stu-id="e06a4-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-<span data-ttu-id="69f8e-120">Daha fazla bilgi edinmek için aşağıdaki konulara bakın:</span><span class="sxs-lookup"><span data-stu-id="69f8e-120">For more information, see the following topics:</span></span>
+<span data-ttu-id="e06a4-120">Daha fazla bilgi edinmek için aşağıdaki konulara bakın:</span><span class="sxs-lookup"><span data-stu-id="e06a4-120">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="69f8e-121">İthalat kredi mektubu</span><span class="sxs-lookup"><span data-stu-id="69f8e-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
+[<span data-ttu-id="e06a4-121">İthalat kredi mektubu</span><span class="sxs-lookup"><span data-stu-id="e06a4-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
 
-[<span data-ttu-id="69f8e-122">Kredi mektubunu dışa aktar</span><span class="sxs-lookup"><span data-stu-id="69f8e-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
+[<span data-ttu-id="e06a4-122">Kredi mektubunu dışa aktar</span><span class="sxs-lookup"><span data-stu-id="e06a4-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
 
-[<span data-ttu-id="69f8e-123">Kredi mektubu için banka hizmet sözleşmesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="69f8e-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
+[<span data-ttu-id="e06a4-123">Kredi mektubu için banka hizmet sözleşmesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="e06a4-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 
