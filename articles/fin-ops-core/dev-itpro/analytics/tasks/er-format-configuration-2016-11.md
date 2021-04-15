@@ -2,7 +2,6 @@
 title: ER Biçim yapılandırması oluşturma (Kasım 2016)
 description: Bu konuda, Elektronik raporlama (ER) için biçim yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,148 +13,148 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cb86c1486223e982f8cbddc8eadaaf1c8ced4f8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 46686b9e4f6197f565a324a9d03cbb695b6a933b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565202"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749081"
 ---
-# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="370ac-103">ER Biçim yapılandırması oluşturma (Kasım 2016)</span><span class="sxs-lookup"><span data-stu-id="370ac-103">ER Create a format configuration (November 2016)</span></span>
+# <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="9d271-103">ER Biçim yapılandırması oluşturma (Kasım 2016)</span><span class="sxs-lookup"><span data-stu-id="9d271-103">ER Create a format configuration (November 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="370ac-104">Bu konu, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının nasıl Elektronik Raporlama (ER) için bir format yapılandırması oluşturabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="370ac-104">This topic explains how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="370ac-105">Bu format yapılandırması, ödemelerin işlenmesi için kullanılan elektronik belgelerin formatını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="370ac-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="370ac-106">Bu örnekte, Litware, Inc. örnek şirketi için bir format yapılandırması oluşturacaksınız. Bu adımları tamamlamak için öncelikle "Modeli seçilen veri kaynaklarına eşleştir" prosedürü altındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="370ac-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Map model to selected datasources" procedure.</span></span>
+<span data-ttu-id="9d271-104">Bu konu, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının nasıl Elektronik Raporlama (ER) için bir format yapılandırması oluşturabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="9d271-104">This topic explains how a user in the System Administrator or Electronic Reporting Developer role can create a format configuration for Electronic reporting (ER).</span></span> <span data-ttu-id="9d271-105">Bu format yapılandırması, ödemelerin işlenmesi için kullanılan elektronik belgelerin formatını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="9d271-105">This format configuration will define the format of electronic documents that are used for processing payments.</span></span> <span data-ttu-id="9d271-106">Bu örnekte, Litware, Inc. örnek şirketi için bir format yapılandırması oluşturacaksınız. Bu adımları tamamlamak için öncelikle "Modeli seçilen veri kaynaklarına eşleştir" prosedürü altındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="9d271-106">In this example, you will create a format configuration for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the "Map model to selected datasources" procedure.</span></span>
 
 
-## <a name="create-a-new-format-configuration"></a><span data-ttu-id="370ac-107">Yeni bir biçim yapılandırması oluşturma</span><span class="sxs-lookup"><span data-stu-id="370ac-107">Create a new format configuration</span></span>
-1. <span data-ttu-id="370ac-108">**Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="370ac-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
-2. <span data-ttu-id="370ac-109">**Raporlama konfigürasyonları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-109">Click **Reporting configurations**.</span></span>
-3. <span data-ttu-id="370ac-110">Ağaçta, **Ödemeler (Basitleştirilmiş model)**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-110">In the tree, select **Payments (simplified model)**.</span></span>
-4. <span data-ttu-id="370ac-111">İletişim kutusu formunu açmak için **Yapılandırma oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-111">Click **Create configuration** to open the drop dialog.</span></span>
+## <a name="create-a-new-format-configuration"></a><span data-ttu-id="9d271-107">Yeni bir biçim yapılandırması oluşturma</span><span class="sxs-lookup"><span data-stu-id="9d271-107">Create a new format configuration</span></span>
+1. <span data-ttu-id="9d271-108">**Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="9d271-108">Go to **Organization administration > Workspaces > Electronic reporting**.</span></span>
+2. <span data-ttu-id="9d271-109">**Raporlama konfigürasyonları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-109">Click **Reporting configurations**.</span></span>
+3. <span data-ttu-id="9d271-110">Ağaçta, **Ödemeler (Basitleştirilmiş model)**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-110">In the tree, select **Payments (simplified model)**.</span></span>
+4. <span data-ttu-id="9d271-111">İletişim kutusu formunu açmak için **Yapılandırma oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-111">Click **Create configuration** to open the drop dialog.</span></span>
 
  > [!NOTE]
- > <span data-ttu-id="370ac-112">**Yapılandırma oluştur**'u görmüyorsanız, tasarım modunu **Elektronik raporlama parametreleri** sayfasında etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="370ac-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ > <span data-ttu-id="9d271-112">**Yapılandırma oluştur**'u görmüyorsanız, tasarım modunu **Elektronik raporlama parametreleri** sayfasında etkinleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="9d271-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
  
-5. <span data-ttu-id="370ac-113">**Yeni** alanına, **Biçim veri modeline PaymentModel dayalı** girin.</span><span class="sxs-lookup"><span data-stu-id="370ac-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
-6. <span data-ttu-id="370ac-114">**İsim** alanına, **BACS (UK hayali)** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
-7. <span data-ttu-id="370ac-115">**Açıklama** alanına, **BACS Satıcı ödeme biçimi (UK hayali)** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
-    * <span data-ttu-id="370ac-116">Etkin yapılandırma sağlayıcısı otomatik olarak buraya girilir.</span><span class="sxs-lookup"><span data-stu-id="370ac-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="370ac-117">Bu sağlayıcının, bu yapılandırmayı sürdürmesi mümkün olacaktır.</span><span class="sxs-lookup"><span data-stu-id="370ac-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="370ac-118">Diğer sağlayıcılar bu yapılandırmayı kullanabilir, ancak onu sürdüremezler.</span><span class="sxs-lookup"><span data-stu-id="370ac-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-    * <span data-ttu-id="370ac-119">Elektronik belgenin belirli bir biçimi tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="370ac-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="370ac-120">Çalışma zamanında bir biçim seçmek isterseniz, bu alanı boş bırakın.</span><span class="sxs-lookup"><span data-stu-id="370ac-120">Leave this field blank if you want to select a format at run-time.</span></span>  
-8. <span data-ttu-id="370ac-121">**Veri modeli tanımı** alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-121">In the **Data model definition** field, enter or select a value.</span></span>
-9. <span data-ttu-id="370ac-122">**Konfigürasyon oluştur**'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-122">Click **Create configuration**.</span></span> <span data-ttu-id="370ac-123">Yeni bir yapılandırma oluşturuldu.</span><span class="sxs-lookup"><span data-stu-id="370ac-123">A new configuration has been created.</span></span> <span data-ttu-id="370ac-124">Taslak sürümü, elektronik belgeleri yönetmek için tasarım biçimini saklamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="370ac-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+5. <span data-ttu-id="9d271-113">**Yeni** alanına, **Biçim veri modeline PaymentModel dayalı** girin.</span><span class="sxs-lookup"><span data-stu-id="9d271-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
+6. <span data-ttu-id="9d271-114">**İsim** alanına, **BACS (UK hayali)** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
+7. <span data-ttu-id="9d271-115">**Açıklama** alanına, **BACS Satıcı ödeme biçimi (UK hayali)** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
+    * <span data-ttu-id="9d271-116">Etkin yapılandırma sağlayıcısı otomatik olarak buraya girilir.</span><span class="sxs-lookup"><span data-stu-id="9d271-116">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="9d271-117">Bu sağlayıcının, bu yapılandırmayı sürdürmesi mümkün olacaktır.</span><span class="sxs-lookup"><span data-stu-id="9d271-117">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="9d271-118">Diğer sağlayıcılar bu yapılandırmayı kullanabilir, ancak onu sürdüremezler.</span><span class="sxs-lookup"><span data-stu-id="9d271-118">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+    * <span data-ttu-id="9d271-119">Elektronik belgenin belirli bir biçimi tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="9d271-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="9d271-120">Çalışma zamanında bir biçim seçmek isterseniz, bu alanı boş bırakın.</span><span class="sxs-lookup"><span data-stu-id="9d271-120">Leave this field blank if you want to select a format at run-time.</span></span>  
+8. <span data-ttu-id="9d271-121">**Veri modeli tanımı** alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-121">In the **Data model definition** field, enter or select a value.</span></span>
+9. <span data-ttu-id="9d271-122">**Konfigürasyon oluştur**'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-122">Click **Create configuration**.</span></span> <span data-ttu-id="9d271-123">Yeni bir yapılandırma oluşturuldu.</span><span class="sxs-lookup"><span data-stu-id="9d271-123">A new configuration has been created.</span></span> <span data-ttu-id="9d271-124">Taslak sürümü, elektronik belgeleri yönetmek için tasarım biçimini saklamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="9d271-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
 
-## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="370ac-125">Elektronik belgenin biçimini tasarlayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-125">Design the format of an electronic document</span></span>
-1. <span data-ttu-id="370ac-126">**Tasarımcı**'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-126">Click **Designer**.</span></span>
-2. <span data-ttu-id="370ac-127">İletişim kutusunu açmak için **Kök ekle**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-127">Click **Add root** to open the drop dialog.</span></span>
-3. <span data-ttu-id="370ac-128">Ağaçta seçin **Common\File**.</span><span class="sxs-lookup"><span data-stu-id="370ac-128">In the tree, select **Common\File**.</span></span>
-4. <span data-ttu-id="370ac-129">**İsim** alanına **Xml** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-129">In the **Name** field, type **Xml**.</span></span>
-5. <span data-ttu-id="370ac-130">**Kodlama** alanına **UTF-8** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-130">In the **Encoding** field, type **UTF-8**.</span></span>
-6. <span data-ttu-id="370ac-131">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-131">Click **OK**.</span></span>
-7. <span data-ttu-id="370ac-132">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-132">Click **Add**.</span></span>
-8. <span data-ttu-id="370ac-133">Ağaçta seçin **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="370ac-133">In the tree, select **XML\Element**.</span></span>
-9. <span data-ttu-id="370ac-134">**İsim** alanına **Mesaj** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-134">In the **Name** field, type **Message**.</span></span>
-10. <span data-ttu-id="370ac-135">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-135">Click **OK**.</span></span>
-11. <span data-ttu-id="370ac-136">Ağaçta, **Xml\İleti** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-136">In the tree, select **Xml\Message**.</span></span>
-12. <span data-ttu-id="370ac-137">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-137">Click **Add Element**.</span></span>
-13. <span data-ttu-id="370ac-138">**İsim** alanında **ProcessingDate** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-138">In the **Name** field, type **ProcessingDate**.</span></span>
-14. <span data-ttu-id="370ac-139">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-139">Click **OK**.</span></span>
-15. <span data-ttu-id="370ac-140">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-140">Click **Add Element**.</span></span>
-16. <span data-ttu-id="370ac-141">İsim alanına **MessageId** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-141">In the Name field, type **MessageId**.</span></span>
-17. <span data-ttu-id="370ac-142">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-142">Click **OK**.</span></span>
-18. <span data-ttu-id="370ac-143">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-143">Click **Add Element**.</span></span>
-19. <span data-ttu-id="370ac-144">**İsim** alanına **Ödemeler** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-144">In the **Name** field, type **Payments**.</span></span>
-20. <span data-ttu-id="370ac-145">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-145">Click **OK**.</span></span>
-21. <span data-ttu-id="370ac-146">Ağaçta, **Xml\İleti\Ödemeler** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-146">In the tree, select **Xml\Message\Payments**.</span></span>
-22. <span data-ttu-id="370ac-147">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-147">Click **Add Element**.</span></span>
-23. <span data-ttu-id="370ac-148">**İsim** alanına **Öğe** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-148">In the **Name** field, type **Item**.</span></span>
-24. <span data-ttu-id="370ac-149">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-149">Click **OK**.</span></span>
-25. <span data-ttu-id="370ac-150">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-26. <span data-ttu-id="370ac-151">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-151">Click **Add**.</span></span>
-27. <span data-ttu-id="370ac-152">Ağaçta seçin **XML\Attribute**.</span><span class="sxs-lookup"><span data-stu-id="370ac-152">In the tree, select **XML\Attribute**.</span></span>
-28. <span data-ttu-id="370ac-153">İsim alanına **Kimlik** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-153">In the Name field, type **Id**.</span></span>
-29. <span data-ttu-id="370ac-154">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-154">Click **OK**.</span></span>
-30. <span data-ttu-id="370ac-155">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-155">Click **Add**.</span></span>
-31. <span data-ttu-id="370ac-156">Ağaçta seçin **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="370ac-156">In the tree, select **XML\Element**.</span></span>
-32. <span data-ttu-id="370ac-157">İsim alanına bir **Satıcı** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-157">In the Name field, type **Vendor**.</span></span>
-33. <span data-ttu-id="370ac-158">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-158">Click **OK**.</span></span>
-34. <span data-ttu-id="370ac-159">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-35. <span data-ttu-id="370ac-160">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-160">Click **Add Element**.</span></span>
-36. <span data-ttu-id="370ac-161">İsim alanında **İsim** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-161">In the Name field, type **Name**.</span></span>
-37. <span data-ttu-id="370ac-162">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-162">Click **OK**.</span></span>
-38. <span data-ttu-id="370ac-163">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-163">Click **Add Element**.</span></span>
-39. <span data-ttu-id="370ac-164">**İsim** alanına **Banka** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-164">In the **Name** field, type **Bank**.</span></span>
-40. <span data-ttu-id="370ac-165">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-165">Click **OK**.</span></span>
-41. <span data-ttu-id="370ac-166">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
-42. <span data-ttu-id="370ac-167">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-167">Click **Add Element**.</span></span>
-43. <span data-ttu-id="370ac-168">**İsim** alanına **RoutingNumber** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-168">In the **Name** field, type **RoutingNumber**.</span></span>
-44. <span data-ttu-id="370ac-169">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-169">Click **OK**.</span></span>
-45. <span data-ttu-id="370ac-170">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-170">Click **Add Element**.</span></span>
-46. <span data-ttu-id="370ac-171">**İsim** alanına **AccountNumber** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-171">In the **Name** field, type **AccountNumber**.</span></span>
-47. <span data-ttu-id="370ac-172">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-172">Click **OK**.</span></span>
-48. <span data-ttu-id="370ac-173">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
-49. <span data-ttu-id="370ac-174">**Kopyala**'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-174">Click **Copy**.</span></span>
-50. <span data-ttu-id="370ac-175">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-51. <span data-ttu-id="370ac-176">**Yapıştır**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-176">Click **Paste**.</span></span>
-52. <span data-ttu-id="370ac-177">**İsim** alanına **Ödeyen** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-177">In the **Name** field, type **Payer**.</span></span>
-53. <span data-ttu-id="370ac-178">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
-54. <span data-ttu-id="370ac-179">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-179">Click **Add Element**.</span></span>
-55. <span data-ttu-id="370ac-180">**İsim** alanına **Para birimi** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-180">In the **Name** field, type **Currency**.</span></span>
-56. <span data-ttu-id="370ac-181">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-181">Click **OK**.</span></span>
-57. <span data-ttu-id="370ac-182">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-182">Click **Add Element**.</span></span>
-58. <span data-ttu-id="370ac-183">**İsim** alanına **Açıklama** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-183">In the **Name** field, type **Description**.</span></span>
-59. <span data-ttu-id="370ac-184">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-184">Click **OK**.</span></span>
-60. <span data-ttu-id="370ac-185">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-185">Click **Add Element**.</span></span>
-61. <span data-ttu-id="370ac-186">İsim alanına **TransDate** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-186">In the Name field, type **TransDate**.</span></span>
-62. <span data-ttu-id="370ac-187">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-187">Click **OK**.</span></span>
-63. <span data-ttu-id="370ac-188">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-188">Click **Add Element**.</span></span>
-64. <span data-ttu-id="370ac-189">İsim alanına **Tutar** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-189">In the Name field, type **Amount**.</span></span>
-65. <span data-ttu-id="370ac-190">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-190">Click **OK**.</span></span>
+## <a name="design-the-format-of-an-electronic-document"></a><span data-ttu-id="9d271-125">Elektronik belgenin biçimini tasarlayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-125">Design the format of an electronic document</span></span>
+1. <span data-ttu-id="9d271-126">**Tasarımcı**'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-126">Click **Designer**.</span></span>
+2. <span data-ttu-id="9d271-127">İletişim kutusunu açmak için **Kök ekle**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-127">Click **Add root** to open the drop dialog.</span></span>
+3. <span data-ttu-id="9d271-128">Ağaçta seçin **Common\File**.</span><span class="sxs-lookup"><span data-stu-id="9d271-128">In the tree, select **Common\File**.</span></span>
+4. <span data-ttu-id="9d271-129">**İsim** alanına **Xml** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-129">In the **Name** field, type **Xml**.</span></span>
+5. <span data-ttu-id="9d271-130">**Kodlama** alanına **UTF-8** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-130">In the **Encoding** field, type **UTF-8**.</span></span>
+6. <span data-ttu-id="9d271-131">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-131">Click **OK**.</span></span>
+7. <span data-ttu-id="9d271-132">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-132">Click **Add**.</span></span>
+8. <span data-ttu-id="9d271-133">Ağaçta seçin **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="9d271-133">In the tree, select **XML\Element**.</span></span>
+9. <span data-ttu-id="9d271-134">**İsim** alanına **Mesaj** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-134">In the **Name** field, type **Message**.</span></span>
+10. <span data-ttu-id="9d271-135">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-135">Click **OK**.</span></span>
+11. <span data-ttu-id="9d271-136">Ağaçta, **Xml\İleti** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-136">In the tree, select **Xml\Message**.</span></span>
+12. <span data-ttu-id="9d271-137">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-137">Click **Add Element**.</span></span>
+13. <span data-ttu-id="9d271-138">**İsim** alanında **ProcessingDate** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-138">In the **Name** field, type **ProcessingDate**.</span></span>
+14. <span data-ttu-id="9d271-139">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-139">Click **OK**.</span></span>
+15. <span data-ttu-id="9d271-140">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-140">Click **Add Element**.</span></span>
+16. <span data-ttu-id="9d271-141">İsim alanına **MessageId** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-141">In the Name field, type **MessageId**.</span></span>
+17. <span data-ttu-id="9d271-142">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-142">Click **OK**.</span></span>
+18. <span data-ttu-id="9d271-143">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-143">Click **Add Element**.</span></span>
+19. <span data-ttu-id="9d271-144">**İsim** alanına **Ödemeler** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-144">In the **Name** field, type **Payments**.</span></span>
+20. <span data-ttu-id="9d271-145">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-145">Click **OK**.</span></span>
+21. <span data-ttu-id="9d271-146">Ağaçta, **Xml\İleti\Ödemeler** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-146">In the tree, select **Xml\Message\Payments**.</span></span>
+22. <span data-ttu-id="9d271-147">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-147">Click **Add Element**.</span></span>
+23. <span data-ttu-id="9d271-148">**İsim** alanına **Öğe** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-148">In the **Name** field, type **Item**.</span></span>
+24. <span data-ttu-id="9d271-149">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-149">Click **OK**.</span></span>
+25. <span data-ttu-id="9d271-150">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-150">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+26. <span data-ttu-id="9d271-151">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-151">Click **Add**.</span></span>
+27. <span data-ttu-id="9d271-152">Ağaçta seçin **XML\Attribute**.</span><span class="sxs-lookup"><span data-stu-id="9d271-152">In the tree, select **XML\Attribute**.</span></span>
+28. <span data-ttu-id="9d271-153">İsim alanına **Kimlik** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-153">In the Name field, type **Id**.</span></span>
+29. <span data-ttu-id="9d271-154">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-154">Click **OK**.</span></span>
+30. <span data-ttu-id="9d271-155">**Ekle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-155">Click **Add**.</span></span>
+31. <span data-ttu-id="9d271-156">Ağaçta seçin **XML\Element**.</span><span class="sxs-lookup"><span data-stu-id="9d271-156">In the tree, select **XML\Element**.</span></span>
+32. <span data-ttu-id="9d271-157">İsim alanına bir **Satıcı** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-157">In the Name field, type **Vendor**.</span></span>
+33. <span data-ttu-id="9d271-158">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-158">Click **OK**.</span></span>
+34. <span data-ttu-id="9d271-159">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-159">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+35. <span data-ttu-id="9d271-160">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-160">Click **Add Element**.</span></span>
+36. <span data-ttu-id="9d271-161">İsim alanında **İsim** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-161">In the Name field, type **Name**.</span></span>
+37. <span data-ttu-id="9d271-162">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-162">Click **OK**.</span></span>
+38. <span data-ttu-id="9d271-163">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-163">Click **Add Element**.</span></span>
+39. <span data-ttu-id="9d271-164">**İsim** alanına **Banka** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-164">In the **Name** field, type **Bank**.</span></span>
+40. <span data-ttu-id="9d271-165">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-165">Click **OK**.</span></span>
+41. <span data-ttu-id="9d271-166">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-166">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank**.</span></span>
+42. <span data-ttu-id="9d271-167">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-167">Click **Add Element**.</span></span>
+43. <span data-ttu-id="9d271-168">**İsim** alanına **RoutingNumber** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-168">In the **Name** field, type **RoutingNumber**.</span></span>
+44. <span data-ttu-id="9d271-169">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-169">Click **OK**.</span></span>
+45. <span data-ttu-id="9d271-170">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-170">Click **Add Element**.</span></span>
+46. <span data-ttu-id="9d271-171">**İsim** alanına **AccountNumber** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-171">In the **Name** field, type **AccountNumber**.</span></span>
+47. <span data-ttu-id="9d271-172">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-172">Click **OK**.</span></span>
+48. <span data-ttu-id="9d271-173">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-173">In the tree, select **Xml\Message\Payments\Item\Vendor**.</span></span>
+49. <span data-ttu-id="9d271-174">**Kopyala**'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-174">Click **Copy**.</span></span>
+50. <span data-ttu-id="9d271-175">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-175">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+51. <span data-ttu-id="9d271-176">**Yapıştır**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-176">Click **Paste**.</span></span>
+52. <span data-ttu-id="9d271-177">**İsim** alanına **Ödeyen** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-177">In the **Name** field, type **Payer**.</span></span>
+53. <span data-ttu-id="9d271-178">Ağaçta, **Xml\İleti\Ödemeler\Madde** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-178">In the tree, select **Xml\Message\Payments\Item**.</span></span>
+54. <span data-ttu-id="9d271-179">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-179">Click **Add Element**.</span></span>
+55. <span data-ttu-id="9d271-180">**İsim** alanına **Para birimi** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-180">In the **Name** field, type **Currency**.</span></span>
+56. <span data-ttu-id="9d271-181">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-181">Click **OK**.</span></span>
+57. <span data-ttu-id="9d271-182">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-182">Click **Add Element**.</span></span>
+58. <span data-ttu-id="9d271-183">**İsim** alanına **Açıklama** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-183">In the **Name** field, type **Description**.</span></span>
+59. <span data-ttu-id="9d271-184">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-184">Click **OK**.</span></span>
+60. <span data-ttu-id="9d271-185">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-185">Click **Add Element**.</span></span>
+61. <span data-ttu-id="9d271-186">İsim alanına **TransDate** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-186">In the Name field, type **TransDate**.</span></span>
+62. <span data-ttu-id="9d271-187">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-187">Click **OK**.</span></span>
+63. <span data-ttu-id="9d271-188">**Öğe Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-188">Click **Add Element**.</span></span>
+64. <span data-ttu-id="9d271-189">İsim alanına **Tutar** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-189">In the Name field, type **Amount**.</span></span>
+65. <span data-ttu-id="9d271-190">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-190">Click **OK**.</span></span>
 
-## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="370ac-191">Format bileşenlerini veri modeli öğelerine eşleme için hazırlayın</span><span class="sxs-lookup"><span data-stu-id="370ac-191">Prepare format components for mapping to data model elements</span></span>
-1. <span data-ttu-id="370ac-192">Ağaçta, **Xml\İleti\ProcessingDate** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
-2. <span data-ttu-id="370ac-193">Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-193">Click **Add** to open the drop dialog.</span></span>
-3. <span data-ttu-id="370ac-194">Ağaçta, **Metin\DateTime** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-194">In the tree, select **Text\DateTime**.</span></span>
-4. <span data-ttu-id="370ac-195">**Biçim** alanına **gün-ay-yıl** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-5. <span data-ttu-id="370ac-196">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-196">Click **OK**.</span></span>
-6. <span data-ttu-id="370ac-197">Ağaçta, **Xml\İleti\Ödemeler\Madde\TransDate** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
-7. <span data-ttu-id="370ac-198">**Tarih/Saat Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-198">Click **Add DateTime**.</span></span>
-8. <span data-ttu-id="370ac-199">**Biçim** alanına **gün-ay-yıl** yazın.</span><span class="sxs-lookup"><span data-stu-id="370ac-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
-9. <span data-ttu-id="370ac-200">**DateTime** türü alanında **Tarih** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-200">In the **DateTime** type field, select **Date**.</span></span>
-10. <span data-ttu-id="370ac-201">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-201">Click **OK**.</span></span>
-11. <span data-ttu-id="370ac-202">Ağaçta, **Xml\İleti\MessageId** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-202">In the tree, select **Xml\Message\MessageId**.</span></span>
-12. <span data-ttu-id="370ac-203">Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-203">Click **Add** to open the drop dialog.</span></span>
-13. <span data-ttu-id="370ac-204">Ağaçta seçin **Text\String**.</span><span class="sxs-lookup"><span data-stu-id="370ac-204">In the tree, select **Text\String**.</span></span>
-14. <span data-ttu-id="370ac-205">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-205">Click **OK**.</span></span>
-15. <span data-ttu-id="370ac-206">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Ad** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
-16. <span data-ttu-id="370ac-207">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-207">Click **Add String**.</span></span>
-17. <span data-ttu-id="370ac-208">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-208">Click **OK**.</span></span>
-18. <span data-ttu-id="370ac-209">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka\RoutingNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
-19. <span data-ttu-id="370ac-210">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-210">Click **Add String**.</span></span>
-20. <span data-ttu-id="370ac-211">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-211">Click **OK**.</span></span>
-21. <span data-ttu-id="370ac-212">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka\AccountNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
-22. <span data-ttu-id="370ac-213">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-213">Click **Add String**.</span></span>
-23. <span data-ttu-id="370ac-214">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-214">Click **OK**.</span></span>
-24. <span data-ttu-id="370ac-215">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Ad** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
-25. <span data-ttu-id="370ac-216">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-216">Click **Add String**.</span></span>
-26. <span data-ttu-id="370ac-217">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-217">Click **OK**.</span></span>
-27. <span data-ttu-id="370ac-218">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\RoutingNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
-28. <span data-ttu-id="370ac-219">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-219">Click **Add String**.</span></span>
-29. <span data-ttu-id="370ac-220">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-220">Click **OK**.</span></span>
-30. <span data-ttu-id="370ac-221">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\AccountNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
-31. <span data-ttu-id="370ac-222">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-222">Click **Add String**.</span></span>
-32. <span data-ttu-id="370ac-223">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-223">Click **OK**.</span></span>
-33. <span data-ttu-id="370ac-224">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Para Birimi** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
-34. <span data-ttu-id="370ac-225">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-225">Click **Add String**.</span></span>
-35. <span data-ttu-id="370ac-226">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-226">Click **OK**.</span></span>
-36. <span data-ttu-id="370ac-227">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Açıklama** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
-37. <span data-ttu-id="370ac-228">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-228">Click **Add String**.</span></span>
-38. <span data-ttu-id="370ac-229">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-229">Click **OK**.</span></span>
-39. <span data-ttu-id="370ac-230">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Tutar** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="370ac-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
-40. <span data-ttu-id="370ac-231">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-231">Click **Add String**.</span></span>
-41. <span data-ttu-id="370ac-232">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-232">Click **OK**.</span></span>
-42. <span data-ttu-id="370ac-233">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="370ac-233">Click **Save**.</span></span>
-43. <span data-ttu-id="370ac-234">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="370ac-234">Close the page.</span></span>
+## <a name="prepare-format-components-for-mapping-to-data-model-elements"></a><span data-ttu-id="9d271-191">Format bileşenlerini veri modeli öğelerine eşleme için hazırlayın</span><span class="sxs-lookup"><span data-stu-id="9d271-191">Prepare format components for mapping to data model elements</span></span>
+1. <span data-ttu-id="9d271-192">Ağaçta, **Xml\İleti\ProcessingDate** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-192">In the tree, select **Xml\Message\ProcessingDate**.</span></span>
+2. <span data-ttu-id="9d271-193">Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-193">Click **Add** to open the drop dialog.</span></span>
+3. <span data-ttu-id="9d271-194">Ağaçta, **Metin\DateTime** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-194">In the tree, select **Text\DateTime**.</span></span>
+4. <span data-ttu-id="9d271-195">**Biçim** alanına **gün-ay-yıl** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-195">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+5. <span data-ttu-id="9d271-196">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-196">Click **OK**.</span></span>
+6. <span data-ttu-id="9d271-197">Ağaçta, **Xml\İleti\Ödemeler\Madde\TransDate** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-197">In the tree, select **Xml\Message\Payments\Item\TransDate**.</span></span>
+7. <span data-ttu-id="9d271-198">**Tarih/Saat Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-198">Click **Add DateTime**.</span></span>
+8. <span data-ttu-id="9d271-199">**Biçim** alanına **gün-ay-yıl** yazın.</span><span class="sxs-lookup"><span data-stu-id="9d271-199">In the **Format** field, type **yyyy-MM-dd**.</span></span>
+9. <span data-ttu-id="9d271-200">**DateTime** türü alanında **Tarih** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-200">In the **DateTime** type field, select **Date**.</span></span>
+10. <span data-ttu-id="9d271-201">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-201">Click **OK**.</span></span>
+11. <span data-ttu-id="9d271-202">Ağaçta, **Xml\İleti\MessageId** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-202">In the tree, select **Xml\Message\MessageId**.</span></span>
+12. <span data-ttu-id="9d271-203">Açılır iletişim kutusunu açmak için **Ekle** öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-203">Click **Add** to open the drop dialog.</span></span>
+13. <span data-ttu-id="9d271-204">Ağaçta seçin **Text\String**.</span><span class="sxs-lookup"><span data-stu-id="9d271-204">In the tree, select **Text\String**.</span></span>
+14. <span data-ttu-id="9d271-205">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-205">Click **OK**.</span></span>
+15. <span data-ttu-id="9d271-206">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Ad** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-206">In the tree, select **Xml\Message\Payments\Item\Vendor\Name**.</span></span>
+16. <span data-ttu-id="9d271-207">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-207">Click **Add String**.</span></span>
+17. <span data-ttu-id="9d271-208">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-208">Click **OK**.</span></span>
+18. <span data-ttu-id="9d271-209">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka\RoutingNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-209">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\RoutingNumber**.</span></span>
+19. <span data-ttu-id="9d271-210">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-210">Click **Add String**.</span></span>
+20. <span data-ttu-id="9d271-211">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-211">Click **OK**.</span></span>
+21. <span data-ttu-id="9d271-212">Ağaçta, **Xml\İleti\Ödemeler\Madde\Satıcı\Banka\AccountNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-212">In the tree, select **Xml\Message\Payments\Item\Vendor\Bank\AccountNumber**.</span></span>
+22. <span data-ttu-id="9d271-213">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-213">Click **Add String**.</span></span>
+23. <span data-ttu-id="9d271-214">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-214">Click **OK**.</span></span>
+24. <span data-ttu-id="9d271-215">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Ad** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-215">In the tree, select **Xml\Message\Payments\Item\Payer\Name**.</span></span>
+25. <span data-ttu-id="9d271-216">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-216">Click **Add String**.</span></span>
+26. <span data-ttu-id="9d271-217">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-217">Click **OK**.</span></span>
+27. <span data-ttu-id="9d271-218">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\RoutingNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-218">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\RoutingNumber**.</span></span>
+28. <span data-ttu-id="9d271-219">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-219">Click **Add String**.</span></span>
+29. <span data-ttu-id="9d271-220">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-220">Click **OK**.</span></span>
+30. <span data-ttu-id="9d271-221">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\AccountNumber** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-221">In the tree, select **Xml\Message\Payments\Item\Payer\Bank\AccountNumber**.</span></span>
+31. <span data-ttu-id="9d271-222">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-222">Click **Add String**.</span></span>
+32. <span data-ttu-id="9d271-223">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-223">Click **OK**.</span></span>
+33. <span data-ttu-id="9d271-224">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Para Birimi** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-224">In the tree, select **Xml\Message\Payments\Item\Currency**.</span></span>
+34. <span data-ttu-id="9d271-225">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-225">Click **Add String**.</span></span>
+35. <span data-ttu-id="9d271-226">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-226">Click **OK**.</span></span>
+36. <span data-ttu-id="9d271-227">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Açıklama** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-227">In the tree, select **Xml\Message\Payments\Item\Description**.</span></span>
+37. <span data-ttu-id="9d271-228">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-228">Click **Add String**.</span></span>
+38. <span data-ttu-id="9d271-229">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-229">Click **OK**.</span></span>
+39. <span data-ttu-id="9d271-230">Ağaçta, **Xml\İleti\Ödemeler\Madde\Ödeyen\Banka\Tutar** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="9d271-230">In the tree, select **Xml\Message\Payments\Item\Amount**.</span></span>
+40. <span data-ttu-id="9d271-231">**Dize Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-231">Click **Add String**.</span></span>
+41. <span data-ttu-id="9d271-232">**Tamam** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-232">Click **OK**.</span></span>
+42. <span data-ttu-id="9d271-233">**Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9d271-233">Click **Save**.</span></span>
+43. <span data-ttu-id="9d271-234">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9d271-234">Close the page.</span></span>
 
 
 
