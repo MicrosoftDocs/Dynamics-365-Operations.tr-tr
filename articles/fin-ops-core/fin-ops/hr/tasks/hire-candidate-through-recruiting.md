@@ -2,7 +2,6 @@
 title: İşe alma yoluyla adayı işe alma
 description: Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvuru gönderen bir başvuranı işe almayı sağlar.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb87044b33abe6155b971d12d3ae516f0301ac3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 531b1e7d12db844ff438698699b2827f5b72601f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560209"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752018"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>İşe alma yoluyla adayı işe alma
 

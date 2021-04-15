@@ -2,11 +2,9 @@
 title: Personel ve Yönetici self servisine genel bakış
 description: Bu makale, çalışan ve yönetici self servis çalışma alanına genel bir bakış sağlar.
 author: andreabichsel
-manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cda6166bff926e362ee35221b9c204c2ead5503
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 6d7c68d22347861978eccff356139bab4fbc723b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464164"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790824"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Personel ve Yönetici self servisine genel bakış
 

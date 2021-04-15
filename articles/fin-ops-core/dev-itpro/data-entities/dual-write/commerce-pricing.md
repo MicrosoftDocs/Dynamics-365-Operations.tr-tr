@@ -2,7 +2,6 @@
 title: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
 description: Bu konu başlığında, Dynamics 365 Sales'da satış teklifleri oluşturmak için Microsoft Dynamics 365 Commerce fiyatlandırma altyapısının nasıl kullanılacağı açıklanmaktadır.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: cd784bb37eddfc74699d1070eab453a3b527201a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560285"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751446"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
 

@@ -2,8 +2,7 @@
 title: Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
 description: Bu konu, Elektronik raporlama (ER) biçimlerini her tüzel kişilik için belirtilen parametreleri kullanacak şekilde nasıl yapılandıracağınızı açıklar.
 author: NickSelin
-manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9253191f9cd10e0b3c87d61991598f9b791c35d9
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570746"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751190"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
 
@@ -48,14 +47,14 @@ Bu konudaki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Finan
 
 ## <a name="import-er-configurations-into-rcs"></a>ER yapılandırmalarını RCS'ye içe aktarma
 
-[Microsoft İndirme Merkezi](https://go.microsoft.com/fwlink/?linkid=851448)'nden **HESAPLANAN ALAN türüne göre ER veri kaynaklarının parametreli çağrılarını destekleme** zip dosyasını indirin. Bu zip dosyası, ayıklanması ve yerel olarak depolanması gereken aşağıdaki ER yapılandırmalarını içerir.
+Aşağıdaki ER yapılandırmalarını indirin ve yerel olarak depolayın.
 
 | **İçerik açıklaması**                        | **Dosya adı**                                        |
 |------------------------------------------------|------------------------------------------------------|
-| Örnek **ER veri modeli** yapılandırma dosyası    | Parametreleştirilmiş calls.version.1.xml öğrenme modeli     |
-| Örnek **ER meta verisi** yapılandırma dosyası      | Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri  |
-| Örnek **ER model eşlemesi** yapılandırma dosyası | Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme |
-| Örnek **ER biçimi** yapılandırması             | Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme  |
+| Örnek **ER veri modeli** yapılandırma dosyası    | [Parametreleştirilmiş calls.version.1.xml öğrenme modeli](https://download.microsoft.com/download/2/d/b/2db913a0-3622-494e-91a2-97fc494af9b9/Modeltolearnparameterizedcalls.version.1.xml)     |
+| Örnek **ER meta verisi** yapılandırma dosyası      | [Parametreleştirilmiş calls.version.1.xml öğrenmek için meta veri](https://download.microsoft.com/download/1/b/3/1b343968-5a47-4000-b5a8-6487698ef4c0/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Örnek **ER model eşlemesi** yapılandırma dosyası | [Parametreleştirilmiş calls.version.1.xml öğrenmek için eşleme](https://download.microsoft.com/download/8/6/6/866e0ab6-2e05-4d98-9d52-d2da2038f6e4/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Örnek **ER biçimi** yapılandırması             | [Parametreleştirilmiş calls.version.1.xml öğrenmek için biçimlendirme](https://download.microsoft.com/download/e/3/9/e392eadc-b9b4-4834-95c3-b8066dd00b9c/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 Ardından, RCS kurulumunuzda oturum açın.
 
@@ -79,17 +78,17 @@ Bu örnekte, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak
 
     **Parametreli çağrıları öğrenmek için biçimlendirme** ER biçimi, çeşitli vergilendirme düzeylerini (normal, azaltılmış ve yok) sunan XML biçiminde bir vergi beyannamesi oluşturmak için tasarlanmıştır. Her düzey farklı ayrıntılara sahiptir.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Birden çok ER biçim düzeyi, parametreli çağrıları öğrenmek için biçimlendirme](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  **Eşleme** sekmesinde **Model**, **Veri** ve **Özet** öğelerini genişletin.
 
     **Model. Data. Summary** veri kaynağı, vergi hareketleri listesini döndürür. Bu hareketler vergi koduna göre özetlenir. Bu veri kaynağı için **Model.Data.Summary.Level** hesaplanan alanı, her özetlenen kaydın vergilendirme düzeyine ilişkin kodu döndürecek şekilde yapılandırılmıştır. Çalışma zamanında **Model.Data.Summary** veri kaynağından alınabilecek herhangi bir vergi kodu için hesaplanan alan vergilendirme düzeyi kodunu (**Normal**, **Azaltılmış**, **Yok** veya **Diğer**) metin değeri olarak döndürür. **Model.Data.Summary.Level** hesaplanan alanı, **Model.Data.Summary** veri kaynağının kayıtlarını filtrelemek ve **Model.Data2.Level1**, **Model.Data2.Level2** ve **Model.Data2.Level3** alanlarını kullanarak vergilendirme düzeyini temsil eden her XML öğesinde filtrelenmiş verileri girmek için kullanılır.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![Model.Data.Summary veri kaynağı, vergi işlemlerini listeler](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     **Model.Data.Summary.Level** hesaplanan alanı bir ER ifadesi içerecek şekilde yapılandırılmıştır. Vergi kodlarının (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ve **InVAT0**) bu yapılandırmaya sabit kodlandığını unutmayın. Bu nedenle, bu ER biçimi belirtilen vergi kodlarının yapılandırıldığı tüzel kişiliğe bağlıdır.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Sabit vergi kodlarıyla Model.Data.Summary.Level hesaplanan alanı](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Her tüzel kişiliğe ait farklı vergi kodları kümesini desteklemek için aşağıdaki adımları izlemelisiniz:
 
@@ -129,7 +128,7 @@ Ardından, yeni bir ER biçim numaralandırması ekleyeceksiniz. Bu biçim numar
 12. Yeniden **Ekle**'yi seçin.
 13. **Ad** alanına, **Diğer** yazın.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Biçim numaralandırmaları sayfasında yeni kayıt](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     İş kullanıcıları, tüzel kişiliğe bağlı vergi kodu kümelerini belirlemek için farklı dilleri kullanabileceğinden, bu numaralandırma değerlerini Finance'taki kullanıcılar için tercih edilen dil olarak yapılandırılmış dillere çevirmenizi öneririz.
 
@@ -142,7 +141,7 @@ Ardından, yeni bir ER biçim numaralandırması ekleyeceksiniz. Bu biçim numar
 20. **Çevrilen metin** alanına, **keine Besteuerung** yazın.
 21. **Çevir**'i seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Metin çevirisi yan menüsü](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. **Kaydet**'i seçin.
 23. **Biçim numaralandırmaları** sayfasını kapatın.
@@ -169,13 +168,13 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
 10. **Model.Data.Tax.Code** öğesini seçin.
 11. **Ekle** düğmesini (sağ ok) seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Sütunlar yan menüsü](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Az önce, vergilendirme düzeyinin kabulünde bu veri kaynağında belirtilen her kural için iş kullanıcısının bir koşul olarak vergi kodlarından birini seçmesi gerektiğini belirttiniz. İş kullanıcısının seçebileceği vergi kodlarının listesi **Model.Data.Tax** veri kaynağı tarafından döndürülür. Bu veri kaynağı **Ad** alanını içerdiğinden iş kullanıcılarına sunulan aramadaki her vergi kodu değeri için vergi kodunun adı gösterilir.
     
 12. **Tamam**'ı seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Arama Tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     İş kullanıcıları, bu veri kaynağının kayıtları olarak birden fazla kural ekleyebilir. Her kayıt bir satır koduyla numaralandırılır. Kurallar artan satır numarasına göre değerlendirilir.
 
@@ -189,13 +188,13 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
 
     Veri kaynağına **Dize** veri türünün **Kod** parametresinin bağımsız değişkeni olarak iletilen herhangi bir vergi kodu için vergilendirme düzeyini **Vergilendirme düzeyleri listesi** biçimindeki numaralandırma değeri olarak döndürecek yeni bir veri kaynağı eklediğinizi unutmayın.
     
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Yeni veri kaynağıyla biçim Tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     Yapılandırılmış kuralların değerlendirilmesinin, bu kuralların koşullarını tanımlamak için seçilen alanların veri türüne bağlı olduğunu unutmayın. **Sayısal** veya **Tarih** veri türünün bir alanı olarak yapılandırılmış bir alan seçtiğinizde ölçütler daha önce **Dize** veri türü için açıklanan ölçütlerden farklı olur. **Sayısal** ve **Tarih** alanları için kuralın bir değer aralığı olarak belirtilmesi gerekir. Veri kaynağına iletilen bir değer yapılandırılmış aralıkta olduğunda kuralın koşulu yerine getirilmiş sayılır.
     
     Aşağıdaki çizim, bu tür bir ayarın örneğini gösterir. **String** veri türünün **Model.Data.Tax.Code** alanına ek olarak **Gerçek** veri türünün **Model.Tax.Summary.Base** alanı, bir arama veri kaynağının koşullarını belirtmek için kullanılır.
     
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Ek sütunlara sahip arama Tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Bu arama veri kaynağı için **Model.Data.Tax.Code** ve **Model.Tax.Summary.Base** alanları seçildiğinden, bu veri kaynağının her kuralı aşağıdaki şekilde yapılandırılır:
     
@@ -224,7 +223,7 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
 9.  **Çevir**'i seçin.
 10. **Tamam**'ı seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Veri kaynağı özellikleri yan menüsü](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Yapılandırılmış aramayı kullanmak için yeni bir alan ekleme
 
@@ -237,16 +236,16 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
 7.  **Formül alanı**'na **Model.Selector(Model.Data.Summary.Code)** yazın.
 8.  **Kaydet**'i seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Model.Selector(Model.Data.Summary.Code) öğesini Formül tasarımcısı sayfasına ekleme](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  **Formül düzenleyici** sayfasını kapatın.
 10. **Tamam**'ı seçin.
 
-    ![ER İşlem tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Yeni formül eklenen biçim Tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Eklediğiniz **LevelByLookup** hesaplanan alanın vergilendirme düzeyini, özetlenen her vergi hareketi kaydı için **Vergilendirme düzeyleri listesi** biçimi numaralandırmasının değeri olarak döndüreceğini unutmayın. Kaydın vergi kodu **Model.Selector** arama veri kaynağına geçirilir ve bu veri kaynağı için kurallar, doğru vergilendirme düzeyini seçmek için kullanılır.
 
-### <a name="add-a-new-format-enumeration-based-data-source"></a>Yeni bir biçim numaralandırması tabanlı veri kaynağı ekleme
+### <a name="add-a-new-format-enumeration-based-data-source&quot;></a>Yeni bir biçim numaralandırması tabanlı veri kaynağı ekleme
 
 Ardından, daha önce eklediğiniz biçim numaralandırmasını ifade eden yeni bir veri kaynağı ekleyeceksiniz. Bu veri kaynağının değerleri daha sonra bir ER biçimi ifadesinde kullanılır.
 
@@ -256,7 +255,7 @@ Ardından, daha önce eklediğiniz biçim numaralandırmasını ifade eden yeni 
 4.  **Biçim numaralandırma** alanında, **Vergilendirme düzeyleri listesi**'ni seçin.
 5.  **Kaydet**'i seçin.
 
-### <a name="modify-an-existing-field-to-start-to-use-the-lookup"></a>Aramayı kullanmaya başlamak için var olan bir alanı değiştirme
+### <a name=&quot;modify-an-existing-field-to-start-to-use-the-lookup&quot;></a>Aramayı kullanmaya başlamak için var olan bir alanı değiştirme
 
 Ardından var olan hesaplanan alanı, vergi koduna bağlı olarak doğru vergilendirme düzeyi değerini döndürmek için yapılandırılmış arama veri kaynağını kullanacak şekilde değiştireceksiniz.
 
@@ -266,7 +265,7 @@ Ardından var olan hesaplanan alanı, vergi koduna bağlı olarak doğru vergile
 
     **Model.Data.Summary.Level** alanının geçerli ifadesinin aşağıdaki sabit kodlanmış vergi kodlarını içerdiğini unutmayın:
     
-    CASE (@.Code, "VAT19", "Regular", "InVAT19", "Regular", "VAT7", "Reduced", "InVAT7", "Reduced", "THIRD", "None", "InVAT0", "None", "Other")
+    CASE (@.Code, &quot;VAT19&quot;, &quot;Regular&quot;, &quot;InVAT19&quot;, &quot;Regular&quot;, &quot;VAT7&quot;, &quot;Reduced&quot;, &quot;InVAT7&quot;, &quot;Reduced&quot;, &quot;THIRD&quot;, &quot;None&quot;, &quot;InVAT0&quot;, &quot;None&quot;, &quot;Other")
 
 4.  **Formül** alanına **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Regular", TaxationLevel.'Reduced taxation', "Reduced", TaxationLevel.'No taxation', "None", "Other")** yazın.
 
@@ -282,7 +281,7 @@ Ardından var olan hesaplanan alanı, vergi koduna bağlı olarak doğru vergile
 
 ## <a name="complete-the-draft-version-of-a-derived-format"></a>Türetilmiş biçimin taslak sürümünü tamamlama
 
-1.  **Sürümler** hızlı sekmesinde **Durumu değiştir**'i seçin.
+1.  **Sürümler** hızlı sekmesinde, **Durumu değiştir**'i seçin.
 2.  **Tamamlandı**'yı seçin.
 3.  **Tamam**'ı seçin.
 

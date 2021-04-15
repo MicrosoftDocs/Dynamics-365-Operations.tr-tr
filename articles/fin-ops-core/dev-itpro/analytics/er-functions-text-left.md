@@ -2,7 +2,6 @@
 title: LEFT ER işlevi
 description: Bu konu, LEFT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f1ec7a21a16c3a34bed9779b05f20f21815ab9d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 69b1d95ea0e82b1947b665b0724cff6c5b319633
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570004"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746351"
 ---
 # <a name="left-er-function"></a>LEFT ER işlevi
 

@@ -2,7 +2,6 @@
 title: İş akışı SSS
 description: Bu konu, iş akışı sistemi hakkında sık sorulan soruları yanıtlamaktadır.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98d67e240cdd5e64fef1aaf24b4907d1af42056a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567992"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747213"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 

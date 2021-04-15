@@ -2,8 +2,7 @@
 title: Şirket içi dağıtım giriş sayfası
 description: bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564072"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749317"
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım giriş sayfası
 
@@ -38,13 +37,15 @@ Dynamics 365 Finance + Operations'ı (şirket içinde) dağıtabilirsiniz. Bir �
 
 ## <a name="onboard"></a>İşe al
 - [Lifecycle Services'da (LCS) şirket içi projeler oluşturma](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Şirket içi ortamlar oluşturma ve dağıtma (Platform update 12 ve sonrası)](setup-deploy-on-premises-pu12.md)
+- [Şirket içi ortamlar oluşturma ve dağıtma (Platform update 41 ve sonrası)](setup-deploy-on-premises-pu41.md)
+- [Şirket içi ortamları ayarlama ve dağıtma (Platform güncelleştirmeleri 12 - 40 arası)](setup-deploy-on-premises-pu12.md)
 - [Şirket içi ortamlara ağ yazıcısı cihazları kurma](../analytics/install-network-printer-onprem.md)
 - [Şirket içi dağıtımlar için SQL Server Reporting Services'ı yapılandırma](../analytics/configure-ssrs-on-premises.md)
 - [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Şirket içi dağıtımınızda çalışın
-- [Belge yönetimini konfigüre etme](../../fin-ops/organization-administration/configure-document-management.md)
+- [SQL Server Reporting Services (SSRS) düğümlerinde yüksek kullanılabilirliği Yapılandırma](onprem-SSRSHA.md)
+- [Belge yönetimi yapılandırma](../../fin-ops/organization-administration/configure-document-management.md)
 - [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma](../analytics/printing-capabilities-on-premises.md)
 - [Şirket içi ortamlar için proxy'ler yapılandırma](onprem-reverseproxy.md)

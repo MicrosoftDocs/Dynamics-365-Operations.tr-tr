@@ -2,11 +2,9 @@
 title: İşe alınacak aday için sorgu örneği
 description: Bu konu, Dynamics 365 Human Resources'taki İşe alınacak aday için örnek bir sorgu sağlar.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2fc08586914fd3815b0da062f24d83ac550302f
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467637"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795081"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>İşe alınacak aday için sorgu örneği
 

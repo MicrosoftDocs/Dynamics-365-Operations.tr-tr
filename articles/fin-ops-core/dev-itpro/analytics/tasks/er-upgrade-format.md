@@ -2,7 +2,6 @@
 title: ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 description: Bu konuda, Elektronik raporlama (ER) biçim yapılandırmasının nasıl korunacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 336551f4e9858269010ec7debd1750a8d8453163
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 05f8562bcab50a303b58174d177c6058f9417294
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564254"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744951"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltin.
 

@@ -2,11 +2,9 @@
 title: Takım takvimi oluşturma
 description: Dynamics 365 Human Resources'De ekip takvimleri görüntüle ve oluştur.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ca7ccb7959eab6f8a9bdc0292e28c3126cb0364c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 07c7f1303238fe61d70be26ec5a198f1ac489090
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466460"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790776"
 ---
 # <a name="view-team-and-company-calendars"></a>Ekip ve şirket takvimlerini görüntüleme
 

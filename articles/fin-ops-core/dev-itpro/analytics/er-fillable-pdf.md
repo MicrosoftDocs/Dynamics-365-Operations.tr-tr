@@ -2,8 +2,7 @@
 title: PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 description: Bu konu, bir PDF şablonunu doldurmak üzere Elektronik raporlama (ER) biçiminin nasıl tasarlanacağı hakkında bilgi sağlar.
 author: NickSelin
-manager: AnnBe
-ms.date: 04/19/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ac7f1c3fc0b03a42012ea14369eef554c6ea30f3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561797"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753300"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -46,15 +45,15 @@ Başlamadan önce, bu konudaki yordamları tamamlamak için kullandığınız hi
 
 Ayrıca [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](tasks/er-configuration-provider-mark-it-active-2016-11.md) prosedürünü de tamamlamanız gerekir.
 
-Son olarak, [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111) adresinden aşağıdaki dosyaları indirmeniz gerekir.
+Son olarak, aşağıdaki dosyaları indirin.
 
 | İçerik açıklaması                       | Dosya adı                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Raporun ilk sayfası için şablon | [IntrastatReportTemplate1. PDF](https://mbs.microsoft.com/Files/public/CS)                  |
-| Raporun diğer sayfaları için şablon    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
-| Örnek ER biçimi - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
-| Örnek ER biçimi - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
-| Örnek veri kümesi                            | [Intrastat sample data.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
+| Raporun ilk sayfası için şablon | [IntrastatReportTemplate1. PDF](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
+| Raporun diğer sayfaları için şablon    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
+| Örnek ER biçimi - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
+| Örnek ER biçimi - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
+| Örnek veri kümesi                            | [Intrastat sample data.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>ER biçimi yapılandırması tasarlama
 

@@ -2,11 +2,9 @@
 title: Değerlendirme düzeyi
 description: Bu konu, Dynamics 365 Human Resources için Değerlendirme düzeyi varlığını açıklar.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2dbdbea7087d8bca8563da10d1bf9a97df24e8b3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: eac80599de07a045aa233f1cdfd16fe0db8733a2
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464754"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800345"
 ---
 # <a name="rating-level"></a>Değerlendirme düzeyi
 

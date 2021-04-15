@@ -2,7 +2,6 @@
 title: SPLIT ER işlevi
 description: Bu konu, SPLIT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 806a0995f0c138f4e80396bb993bc6f41bc7c827
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745605"
 ---
 # <a name="split-er-function"></a>SPLIT ER işlevi
 
