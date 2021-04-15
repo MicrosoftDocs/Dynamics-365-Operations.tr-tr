@@ -2,7 +2,6 @@
 title: RCS'de kullanılacak uygulama meta verileri hazırlama
 description: Bu konuda, uygulama meta verilerini içeren yeni bir raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9609da50482f39bafe65d3a7b655e5047c74bdba
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a5fe475bd0fceea7e1e8edf7c375d34a4be6d92a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560129"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751046"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>RCS'de kullanılacak uygulama meta verileri hazırlama
 [!include [banner](../../includes/banner.md)]

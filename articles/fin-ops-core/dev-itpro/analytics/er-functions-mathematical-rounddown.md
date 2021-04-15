@@ -2,7 +2,6 @@
 title: ROUNDDOWN ER işlevi
 description: Bu konu, ROUNDDOWN Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f199d662eb31f184b6f978b3d251e64907254584
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 89fc134ec11a47506211ce68ec3aaf966d9a308b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567152"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744475"
 ---
 # <a name="rounddown-er-function"></a>ROUNDDOWN ER işlevi
 

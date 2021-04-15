@@ -1,8 +1,7 @@
 ---
 title: Uyarı kuralları oluşturma
-description: Bu konu, uyarılar hakkında bilgi sağlar ve bir uyarı kuralının nasıl oluşturulacağını açıklar. Böylece, bir tarih geldiğinde veya meydana gelen belirli bir değişiklik gibi olaylar hakkında bilgilendirilirsiniz.
-author: tjvass
-manager: AnnBe
+description: Bu konu uyarılar hakkında bilgi sağlar ve bir uyarı kuralının nasıl oluşturulacağını açıklar.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,15 +10,15 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fb1e64b6a48367557c1d009d0e1c48f096c32abf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559420"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749209"
 ---
 # <a name="create-alert-rules"></a>Uyarı kuralları oluşturma
 

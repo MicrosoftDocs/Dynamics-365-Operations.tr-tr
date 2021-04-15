@@ -2,7 +2,6 @@
 title: Mali raporlar oluştur
 description: Bu konu mali rapor oluşturma hakkında bilgi sağlar.
 author: jinniew
-manager: AnnBe
 ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 742361162c2f502bf479a9ab518054020617af93
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: c6cde37124d4a3337bca2a9b445af5fdfd87f453
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572433"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750022"
 ---
 # <a name="generate-financial-reports"></a>Mali raporlar oluştur
 

@@ -2,11 +2,9 @@
 title: Işe alma isteği için sorgu örneği
 description: Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e3bba96988f3ccef9ef54c1dad2a4c63e829198f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466002"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789720"
 ---
 # <a name="example-query-for-recruiting-request"></a>Işe alma isteği için sorgu örneği
 

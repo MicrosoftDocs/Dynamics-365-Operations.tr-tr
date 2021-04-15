@@ -1,8 +1,7 @@
 ---
-title: İnsan kaynaklarına genel bakış
-description: İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
+title: Human Resources'a genel bakış
+description: İnsan kaynakları rutin kayıt saklama görevlerini kolaylaştırır, kuruluşunuzun personel ile ilgili işlemlerini otomatikleştirir ve insan kaynakları personelinin gözetim alanlarını yönetmesi için bir çerçeve sağlar.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566710"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752192"
 ---
-# <a name="human-resources-overview"></a>İnsan kaynaklarına genel bakış
+# <a name="human-resources-overview"></a>Human Resources'a genel bakış
 
 [!include [banner](../includes/banner.md)]
 

@@ -2,7 +2,6 @@
 title: Bir tüzel kişilik oluşturma
 description: Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur.
 author: sericks007
-manager: AnnBe
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 981f73752a39c765a4e872164a8d6ee19f2941fc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: c4801480ea22dd0edcc0efb42c50055730acc13e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560639"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747453"
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 

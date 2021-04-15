@@ -2,7 +2,6 @@
 title: Canlı eşitleme sorunlarını giderme
 description: Bu konu,canlı eşitlemeyle ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b40b71eb45ae5a95a732c9554356afcddecb750e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566825"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748909"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Canlı eşitleme sorunlarını giderme
 
