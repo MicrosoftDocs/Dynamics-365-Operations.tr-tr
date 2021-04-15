@@ -2,11 +2,9 @@
 title: Varlık kiralamaya başlama
 description: Bu konu, Varlık kiralama özelliğini açıklar ve varlık kiralaması oluşturma ve bu kiralamalarla ilgili bilgileri görüntüleme adımları konusunda rehberlik sağlar.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229610"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814140"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 
@@ -41,16 +39,16 @@ Kiralanan varlık aşağıdaki ana bileşenleri içerir:
 
 - **Kira sözleşmesi** - Kiraya veren varlığını sahibidir ve kiracıya bir varlığı periyodik kira ödemeleri için belirli bir dönemde karşılık alarak kiralamayı kabul eder. Kiraya veren ve kiracı arasındaki yasal Sözleşmeye ek olarak, kira anlaşması, yenileme seçeneğini ve sahiplik aktarımını kullanma olasılığı gibi yönetim kararlarını yakalar.
 
-- **Kira hesaplaması ve muhasebe standardına göre sınıflandırma** - Kira hesaplaması ve sınıflandırması, kira tipinin ne olacağını belirleyen sınıflandırma sınamasının yanı sıra, ilk ve sonraki ölçümde uygulanacak muhasebe standardını tanımlar. Kira, bir finansal kiralama, işletme kiralama, kısa vadeli kiralama veya düşük değerli kiralama olabilir. Sistem ayrıca, değerlendirme ve sınıflandırma amacıyla gelecekteki minimum kira ödemelerinin şimdiki değerini de hesaplar.
+- **Kira hesaplaması ve muhasebe standardına göre sınıflandırma** - Kira hesaplaması ve sınıflandırması, kira tipinin ne olacağını belirleyen sınıflandırma sınamasının yanı sıra, ilk ve sonraki ölçümde uygulanacak muhasebe standardını tanımlar. Kira, bir finansal kiralama, işletme kiralama, kısa vadeli kiralama veya düşük değerli kiralama olabilir. Sistem ayrıca, değerlendirme ve sınıflandırma amacıyla gelecekteki minimum kira ödemelerinin net mevcut değerini de hesaplar.
 
-- **Kira hareketleri** - Varlık kiralama, bilançodaki kiralar için kullanım hakkı varlığının ilk kabulünü ve bilanço kiralamaları veya bilanço dışı kiralamalar için sonraki ölçümü destekler. İlk kabul hareketi, gelecekteki minimum kira ödemelerinin mevcut değerini ölçer. Bu veriler, kuruluşun bilançosunu kullanım hakkı varlığı ve kiralama yükümlülüğü değerini belirlemek için kullanılır. Aylık kiralama hareketlerinin sonraki ölçümü, kira yükümlülüğündeki faiz birikmesiyle ilgilidir ve bu da kira yükümlülüğünün artmasına neden olur. Ayrıca kira yükümlülüğünü azaltan kira ödemeleri tahakkukunu ölçer ve bu daha sonra kiraya verene ödenir. Ölçüm ayrıca kullanım hakkı varlığının amortismanını da içerir.
+- **Kira hareketleri** - Varlık kiralama, bilançodaki kiralar için kullanım hakkı varlığının ilk kabulünü ve bilanço kiralamaları veya bilanço dışı kiralamalar için sonraki ölçümü destekler. İlk kabul hareketi, gelecekteki minimum kira ödemelerinin net mevcut değerini ölçer. Bu veriler, kuruluşun bilançosunu kullanım hakkı varlığı ve kiralama yükümlülüğü değerini belirlemek için kullanılır. Aylık kiralama hareketlerinin sonraki ölçümü, kira yükümlülüğündeki faiz birikmesiyle ilgilidir ve bu da kira yükümlülüğünün artmasına neden olur. Ayrıca kira yükümlülüğünü azaltan kira ödemeleri tahakkukunu ölçer ve bu daha sonra kiraya verene ödenir. Ölçüm ayrıca kullanım hakkı varlığının amortismanını da içerir.
 
   Sistem, bilanço dışı kiralamalar için, şu ikisi üzerinden hangisi daha azsa sabit kiralama giderini hesaplar: varlığını ekonomik ömrü veya kiralama süresi. Kira ayarlamaları kiralamayı uzatma veya genişletme gibi sözleşme değişikliklerini ve geri alınamaz maliyetler için kullanım hakkı varlığını kullanan değer düşüşü hareketini hesaplar.
 
   Varlık kiralama, deftere nakledilen tüm kiralama hareketlerinin hesap planınızı güncelleştirmesini sağlamak için genel muhasebe ile tümleşir. Varlık Kiralama, Borç hesaplarındaki kiraya veren faturalarının izlenmesi için Borç hesaplarıyla tümleştirilir ve buradan gelecek ödemeleri alır. Sabit kıymetlerle tümleştirme, sabit kıymetler kaydındaki kiraları izlemenizi ve Sabit kıymetler içinden kıymetin ilk kabulü, amortismanı ve değer düşüşü dahil olmak üzere, kullanım hakkı varlığı hareketlerini deftere nakletmenizi sağlar.   
 
 ## <a name="asset-leasing-components"></a>Varlık kiralama bileşenleri 
-Kıymet kiralama kira bilgilerini, ödeme planlarını, başlangıç ve bitiş tarihlerini ve ödeme sıklığını eşler. Ayrıca, mevcut değer, aylık kira ödemeleri, vade farkı ve kiralama amortismanı için hesaplamaları otomatikleştirir. Sistem konfigürasyona bağlı olarak kira sınıflandırması sınamaları yapar. Sistem ayrıca, takip ettiğiniz muhasebe standardı tarafından tanımlanan çerçeveye dayalı olarak, ilgili kira hareketlerini oluşturur ve deftere nakleder.
+Kıymet kiralama kira bilgilerini, ödeme planlarını, başlangıç ve bitiş tarihlerini ve ödeme sıklığını eşler. Ayrıca, net mevcut değer, aylık kira ödemeleri, vade farkı ve kiralama amortismanı için hesaplamaları otomatikleştirir. Sistem konfigürasyona bağlı olarak kira sınıflandırması sınamaları yapar. Sistem ayrıca, takip ettiğiniz muhasebe standardı tarafından tanımlanan çerçeveye dayalı olarak, ilgili kira hareketlerini oluşturur ve deftere nakleder.
 
 Aşağıdaki diyagramda kira defteri, kiralama, hesaplanan ödeme planı, kiralama ve kiralama defterleri için sınıflandırma sınamaları ve buna karşılık gelen hesap hareketleri gösterilmektedir.
 
@@ -62,13 +60,13 @@ Aşağıdaki diyagramda kira defteri, kiralama, hesaplanan ödeme planı, kirala
 
 - **Varlık kullanım ömrü** - Bir varlığın kullanım ömrünün kalan dönemini kira başlangıç tarihinden itibaren gösterir. Bir kıymetin faydalı kullanım ömrü, sınıflandırma test denkleminde dikkate alınır. Sabit kıymetlerde tanımlanan faydalı kullanım ömründen farklıdır.
 
-- **Alternatif borçlanma oranı** - Bu, mevcut değeri hesaplamak için kullanılacak olan faiz oranıdır. Kira verilerinde tanımlandığı takdirde, sistem kirala ödemelerinin mevcut değerini hesaplamak için bu dolaylı oranı kullanır. Dolaylı oran tanımlanmamışsa, sistem alternatif borçlanma oranını kullanır.
+- **Alternatif borçlanma oranı** - Bu, net mevcut değeri hesaplamak için kullanılacak olan faiz oranıdır. Kira verilerinde tanımlandığı takdirde, sistem kirala ödemelerinin net mevcut değerini hesaplamak için bu dolaylı oranı kullanır. Dolaylı oran tanımlanmamışsa, sistem alternatif borçlanma oranını kullanır.
 
 - **Yıllık ödeme türü** - Bu, ödeme döneminin başlangıcında veya dönem sonunda olan kira ödemesidir. Bu, ön ödeme veya yıllık ödeme (kira ödeme döneminin başlangıcında) veya olağan yıllık ödeme (kira ödeme döneminin sonunda) olabilir.
 
   Ön ödeme için ilk ay dönem numarası sıfır olarak kabul edilir; ilk ay, ödeme gecikmeleri için dönem bir olarak kabul edilir.
 
-- **Bileşim aralığı** - Bu, faizin yıl başına bileşik olduğu dönem sayısını temsil eder. Aylık (yılda 12 dönem), üç ayda bir (yıllık olarak 4 dönem), yarı yıllık (yılda 2 dönem) veya yıllık (yıl başına 1 dönem) olabilir. Dönem sayısı, mevcut değer hesaplamasında dikkate alınır.
+- **Bileşim aralığı** - Bu, faizin yıl başına bileşik olduğu dönem sayısını temsil eder. Aylık (yılda 12 dönem), üç ayda bir (yıllık olarak 4 dönem), yarı yıllık (yılda 2 dönem) veya yıllık (yıl başına 1 dönem) olabilir. Dönem sayısı, net mevcut değer hesaplamasında dikkate alınır.
 
 - **Başlangıç tarihi** - Bu, kıymetin kiraya veren tarafından kiracı için kullanılabilir hale getirildiği tarihtir. Tüm kira hesaplamaları ve hareketleri, başlangıç tarihini temel alır. Sonraki hesaplamaların doğruluğunu garantilemek için, başlangıç tarihinin bir dönemin başında (ayın ilk günü) olması gerekir. Sözleşme imzalandığında gerçek tarihi girmek için **Sözleşme imzalama tarihi** alanını kullanabilirsiniz.
 
@@ -81,7 +79,7 @@ Aşağıdaki diyagramda kira defteri, kiralama, hesaplanan ödeme planı, kirala
 
 - **Ödeme sıklığı** - Bu, ödemenin aylık, üç aylık, altı aylık veya yıllık olduğunu belirtir. Bitiş tarihi, başlangıç tarihi ve girilen dönem sayısı temel alınarak otomatik olarak hesaplanır.
 
-- **Ödeme planı** - Bu, kira ödemeleri kapsamındaki zamana, ödemelerin miktarına, bileşik dönemlere ve yıllık ödeme türüne göre hesaplanan geçerli mevcut değerdir.
+- **Ödeme planı** - Bu, kira ödemeleri kapsamındaki zamana, ödemelerin miktarına, bileşik dönemlere ve yıllık ödeme türüne göre hesaplanan geçerli net mevcut değerdir.
 
 - **Dönemler** - Bunlar, bileşik dahili ve yıllık ödeme türünü oluşturan kira dönemlerdir. Bileşik aralık, dönemlerin nasıl bölüneceğini belirler. Aşağıdaki bileşik aralıkları ayarlayabilirsiniz:
 
@@ -92,10 +90,10 @@ Aşağıdaki diyagramda kira defteri, kiralama, hesaplanan ödeme planı, kirala
 
 Yıllık ödeme türü yıllık ödeme ise, ilk dönem dönem sıfır ile başlar. Aksi takdirde, yıllık ödeme türü ödeme gecikmeleri ise, ilk dönem bir ile başlar.
 
-- **Aylar** - Bu, kira süresindeki takvim ayların sayısını belirtir. Ödeme tutarı, ödeme sıklığında tanımlananan ödenmesi gereken tutardır. Hesaplanan şimdiki değer, dönem başına bugünkü değer tabanlı kira ödemesi, bileşik aralıklar ve alternatif borçlanma oranıdır.
+- **Aylar** - Bu, kira süresindeki takvim ayların sayısını belirtir. Ödeme tutarı, ödeme sıklığında tanımlananan ödenmesi gereken tutardır. Hesaplanan net mevcut değer, dönem başına net mevcut değer tabanlı kira ödemesi, bileşik aralıklar ve alternatif borçlanma oranıdır.
 
 > [!NOTE] 
-> Şimdiki değer, indirimli nakit akışı denklemi temel alınarak hesaplanır.
+> Net mevcut değer, indirimli nakit akışı denklemi temel alınarak hesaplanır.
 
 - **Defterler** - Her kiralama ile ilişkilendirilecek önceden yapılandırılmış kurulumdur. Defter, uygulanan muhasebe standardını, kira türlerini ve sınıflandırma sınamaları için temel olarak kullanılan eşiği tanımlar. Sınıflandırma sınamaları, kira türünü otomatik olarak belirtmek için kullanılır.
 
@@ -107,7 +105,7 @@ Yıllık ödeme türü yıllık ödeme ise, ilk dönem dönem sıfır ile başla
 
   - **Kiralama süresi** - Sınıflandırma testinde kullanılacak yararlı kullanım ömrü yüzdesidir. Kira türü otomatik olarak ayarlanmışsa ve varlığın faydalı ömrü üzerinden kiralama süresi burada tanımlanan yüzdeye eşit veya bundan fazlaysa, sistem kiralamayı finansal olarak sınıflandıracaktır.
 
-  - **Şu anki değer** - Sınıflandırma testinde kullanılacak varlık adil değeri yüzdesidir. Kira türü otomatik olarak ayarlanmışsa ve varlığın adil değeri üzerinden gelecek kira ödemelerinin şu anki değeri burada tanımlanan yüzdeye eşit veya bundan fazlaysa, sistem kiralamayı finansal olarak sınıflandıracaktır.
+  - **Net mevcut değer** - Sınıflandırma testinde kullanılacak varlık adil değeri yüzdesidir. Kira türü otomatik olarak ayarlanmışsa ve varlığın adil değeri üzerinden gelecek kira ödemelerinin net mevcut değeri burada tanımlanan yüzdeye eşit veya bundan fazlaysa, sistem kiralamayı finansal olarak sınıflandıracaktır.
 
   - **Kısa süreli kiralama** - Kiralama süresi tanımlanan değerden az veya bu değere eşitse, kiralama kısa süreli kiralama olarak sınıflandırılacaktır.
 
@@ -115,7 +113,7 @@ Yıllık ödeme türü yıllık ödeme ise, ilk dönem dönem sıfır ile başla
 
   - **Kiralama sınıflandırması ve hareketleri** Kira sınıflandırması, kiralamanın finansal kiralama mı, işletme kiralaması mı, kısa süreli kiralama mı yoksa düşük değerli kiralama mı olduğunu tanımlamak için diğer sınıflandırma testi ölçütlerinin yanı sıra defterlerdeki tanımlanmış eşiklere göre kiralamaları sınıflandıran otomatik bir süreçtir. Bu, aynı zamanda ertelenen kira işleminin izlenip izlenmediğini tanımlamak için kullanılır.
 
-Sınıflandırma sınamaları Sahiplik aktarını, Satınalma seçeneği, Kiralama süresi, Şu andaki değer ve Benzersiz varlığı içerir. Aşağıdaki diyagram kira sınıflandırması sınamalarını gösterir.
+Sınıflandırma sınamaları Sahiplik aktarını, Satınalma seçeneği, Kiralama süresi, Net mevcut değer ve Benzersiz varlığı içerir. Aşağıdaki diyagram kira sınıflandırması sınamalarını gösterir.
 
 [![Kira sınıflandırması sınamaları](./media/overview-03.png)](./media/overview-03.png)
 
@@ -124,22 +122,22 @@ Her kira türü, farklı kira hareketleri için muhasebeyi farklı şekilde işl
 ## <a name="asset-leasing-transactions"></a>Varlık kiralama hareketleri
 
 #### <a name="initial-recognition"></a>Başlangıçtaki kabul 
-Kiralanan varlığın ilk kabulü, hesaplanan şimdiki değeri kullanır ve böylece bilançoda rapor edilebilir. Bunun için olan muhasebe girişi otomatik olarak oluşturulur. Bu hareket, kullanım hakkı varlığı hesabını borçlandırır ve işletme kiralaması yükümlülüğü hesabını alacaklandırır. Sabit kıymet kiralama ile ilişkilendirilmişse, ilk kabul girişi sabit kıymet alımı olarak yansıtılır. Bu senaryoda, kullanım hakkı varlığı hesabına nakil için sabit kıymet deftere nakil profili tanımlamanız gerekir. 
+Kiralanan varlığın ilk kabulü, hesaplanan net mevcut değeri kullanır ve böylece bilançoda rapor edilebilir. Bunun için olan muhasebe girişi otomatik olarak oluşturulur. Bu hareket, kullanım hakkı varlığı hesabını borçlandırır ve işletme kiralaması yükümlülüğü hesabını alacaklandırır. Sabit kıymet kiralama ile ilişkilendirilmişse, ilk kabul girişi sabit kıymet alımı olarak yansıtılır. Bu senaryoda, kullanım hakkı varlığı hesabına nakil için sabit kıymet deftere nakil profili tanımlamanız gerekir. 
 
 > [!NOTE]
 > İşletme kiralamaları yalnızca US GAAP ASC 842 tarafından desteklenir.
 
 |     Türü                                          |     Borç                     |     Kredi                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     US GAAP altında işletme kiralaması              |     Kullanım hakkı varlığı      |     İşletme kiralama yükümlülüğü       |
-|     IFRS ve US GAAP altında finansal kiralama        |     Kullanım hakkı varlığı      |     İşletme kiralaması yükümlülüğü       |
+|     US GAAP altında işletme kiralaması            |     Kullanım hakkı varlığı        |     İşletme kiralama yükümlülüğü     |
+|     IFRS ve US GAAP altında finansal kiralama      |     Kullanım hakkı varlığı        |     Finansal kiralama yükümlülüğü       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Kiralama yükümlülüğü amortismanı (faiz gideri) 
 Kiralama için faiz, kiralamanın başlangıç bakiyesi, dönem kira ödemesi, alternatif borçlanma oranı ve yıl başına birleşik aralık dönemleri için faiz hesaplanarak kabul edilir. Faiz tutarı, işletme kiralama yükümlülüğü hesabını alacaklandırarak artırır ve bu, kuruluşun bilançosunda yansıtılır. Hareket ayrıca faiz gideri hesabına borç girişi içerir; bu, finansal kiralamalar için kar ve zarar raporuna, işletme kiralamaları için kira gideri hesabına yansıtılır.
 
 |     Türü                                          |     Borç                     |     Kredi                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     US GAAP ASC 842 altındaki işletme kiralaması yükümlülüğü girişi    |     Vade farkı gideri          |     İşletme kiralama yükümlülüğü         |
+|     US GAAP ASC 842 altındaki işletme kiralaması yükümlülüğü girişi    |     Kiralama gideri         |     İşletme kiralama yükümlülüğü         |
 |     IFRS ve US GAAP altında finansal kiralama yükümlülüğü girişi      |     Vade farkı gideri          |     Finansal kiralama yükümlülüğü           |
 
 #### <a name="accrued-lease-payment"></a>Tahakkuk eden kira ödemesi
@@ -151,7 +149,7 @@ Tahakkuk eden bir kira ödemesi, banka veya nakit hesaplarından ödeme hareketi
 |     IFRS ve US GAAP altında finansal kiralama        |  Finansal kiralama yükümlülüğü      |   Satıcı yükümlülüğ (genel muhasebe)/Senet borçları  |
 
 #### <a name="asset-depreciation"></a>Varlık amortismanı
-Kullanım hakkı varlığı amortismanı, varlık faydalı kullanım ömrü veya kiralama süresi (hangisi azsa) üzerinden yapılır. US GAAP (ASC 842) için amortismanı hesaplama yöntemi, sabit kiralama gideri ile faiz tutarı arasındaki farka dayanır. Finansal kiralamalarla ilgili faiz standart sabit yöntem kullanılarak hesaplanır. Kira amortismanı, faiz giderinin borçlandırılması yoluyla kar ve zarar raporunu etkiler. Bilanço, finansal kiralamalar için birikmiş kullanım hakkı varlığı hesabını borçlandırarak etkilenir. İşletme kiralamaları için amortisman, kira gideri hesabını alacaklandırır. Kira bir sabit kıymete bağlıysa, amortisman hareketleri yalnızca sabit kıymetler modülünden yürütülür. 
+Kullanım hakkı varlığı amortismanı, varlık faydalı kullanım ömrü veya kiralama süresi (hangisi azsa) üzerinden yapılır. US GAAP işletme kiralaması (ASC 842) için amortismanı hesaplama yöntemi, sabit kiralama gideri ile faiz tutarı arasındaki farka dayanır. Finansal kiralamalarla ilgili amortisman standart sabit yöntem kullanılarak hesaplanır. Kira amortismanı, faiz giderinin borçlandırılması yoluyla kar ve zarar raporunu etkiler. Bilanço, finansal kiralamalar için birikmiş kullanım hakkı varlığı hesabını borçlandırarak etkilenir. Kira bir sabit kıymete bağlıysa, amortisman hareketleri yalnızca sabit kıymetler modülünden yürütülür. 
 
 |     Türü                                          |     Borç                     |     Kredi                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |

@@ -2,11 +2,9 @@
 title: Boyut hiyerarşisi
 description: Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar. Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810186"
 ---
 # <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
 
@@ -124,12 +122,13 @@ Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi burada
 
 Raporlama için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
 
-|                   | Boyut üyesi aralıkları   |                         |
+**Boyut üyesi aralıkları**
+
+|   Düğümler           |   Kaynak boyut üyesi   |   Hedef boyut üyesi   |
 |-------------------|---------------------------|-------------------------|
-| **Düğümler**         | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
 | Organizasyon      |                           |                         |
 | &nbsp;&nbsp;Yönetici         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finans   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finans   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;İK        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Üretim    |                           |                         |
@@ -146,12 +145,13 @@ Raporlama için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
 
 İlke için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
 
-|                   | Boyut üyesi aralıkları   |                         |
+**Boyut üyesi aralıkları**
+
+|   Düğümler           |   Kaynak boyut üyesi   |   Hedef boyut üyesi   |
 |-------------------|---------------------------|-------------------------|
-| **Düğümler**         | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
 | Maliyet davranışı     |                           |                         |
 | &nbsp;&nbsp;Sabit maliyet    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Değişken maliyet | 40001                     | 40010                   |
+| &nbsp;&nbsp;Değişken maliyet | 40001                     | 40010                   |
 
 > [!NOTE]
 > **Boyut üyesi aralıkları** altında, bir düğüm 1:_n_ boyut üye aralığı içerebilir. Henüz boyut üyeleri olarak mevcut olmayan boyut üye kodları ekleyebilirsiniz. Bu yaklaşım hiyerarşiyi geleceğe yönelik esnek yapar.  
@@ -297,9 +297,10 @@ Potansiyel olarak tüm yöneticileri, gelirler ve marjlar gibi yüksek hassasiye
 
 Yeni bir **Kullanıcılar** hızlı sekmesi hiyerarşi tasarımcısında kullanılabilir. Burada bir veya birden fazla kullanıcı kimliğini, hiyerarşi içerisindeki her bir düğümde ekleyebilirsiniz.
 
-|                 | Kullanıcılar            | Boyut üyesi aralıkları   |                         |
+**Kullanıcı ve boyut üyesi aralıkları**
+
+|   Düğümler         |   Kullanıcı kimliği        |   Kaynak boyut üyesi   |   Hedef boyut üyesi   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Düğümler**       | **Kullanıcı Kimliği**      | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
 | Organizasyon    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Yönetici         | Nisan            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finans   | Alicia           | CC002                     | CC003                   |

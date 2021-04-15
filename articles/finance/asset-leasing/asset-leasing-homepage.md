@@ -2,11 +2,9 @@
 title: Varlık kiralama giriş sayfası
 description: Bu konuda, Varlık kiralama belgeleri hakkında genel bilgiler ve belirli konuların bağlantıları sağlanır.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 805f57d8f7e1b3d5447d4c6934af3739a16cec16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256799"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816160"
 ---
 # <a name="asset-leasing-home-page"></a>Varlık kiralama giriş sayfası
 

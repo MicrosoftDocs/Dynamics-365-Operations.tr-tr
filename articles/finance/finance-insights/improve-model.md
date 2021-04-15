@@ -2,11 +2,9 @@
 title: Tahmin modelini geliştirme (önizleme)
 description: Bu konu, tahmin modellerinin performansını artırmak için kullanabileceğiniz özellikleri açıklamaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1028af6e702f2118fabcbc71b17daca36072c691
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810042"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Tahmin modelini geliştirme (önizleme)
 

@@ -2,11 +2,9 @@
 title: İşe alma isteği pozisyonu
 description: Bu konu, Dynamics 365 Human Resources için İşe alma isteği pozisyonu varlığını açıklar.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4892dc0801a47ab7c219df00b997fa469f56b7fc
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: cd19cce4b3e1d057585de3368076a5e7b913e50d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464706"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805214"
 ---
 # <a name="recruiting-request-position"></a>İşe alma isteği pozisyonu
 
