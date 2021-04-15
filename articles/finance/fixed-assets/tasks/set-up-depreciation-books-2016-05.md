@@ -2,11 +2,9 @@
 title: Amortisman defterleri ayarlama
 description: Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
@@ -15,44 +13,44 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd65cb77872b3e2f74402cf8c92c8b8989cea6ee
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b0ab7f9332e3224c3dadd62aae532ccffb05c82a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224705"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815608"
 ---
-# <a name="set-up-depreciation-books"></a><span data-ttu-id="8c8de-103">Amortisman defterleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="8c8de-103">Set up depreciation books</span></span> 
+# <a name="set-up-depreciation-books"></a><span data-ttu-id="5eaa2-103">Amortisman defterleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="5eaa2-103">Set up depreciation books</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8c8de-104">Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol.</span><span class="sxs-lookup"><span data-stu-id="8c8de-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
+<span data-ttu-id="5eaa2-104">Bu yordamda, yeni amortisman defteri oluşturma ve bunu sabit kıymet grubuyla ilişkilendirme süreci boyunca izlenecek yol.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-104">This procedure walks through the process of creating a new depreciation book and associate it with a fixed asset group.</span></span> 
 
-## <a name="create-a-depreciation-book"></a><span data-ttu-id="8c8de-105">Amortisman defteri oluşturun</span><span class="sxs-lookup"><span data-stu-id="8c8de-105">Create a depreciation book</span></span>
-1. <span data-ttu-id="8c8de-106">Sabit kıymetler > Kurulum > Amortisman defterleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
-2. <span data-ttu-id="8c8de-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-107">Click New.</span></span>
-3. <span data-ttu-id="8c8de-108">Amortisman defteri alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-108">In the Depreciation book field, type a value.</span></span>
-4. <span data-ttu-id="8c8de-109">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="8c8de-110">Amortismanı hesapla onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
-6. <span data-ttu-id="8c8de-111">Amortisman profili alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="8c8de-112">Listede, istediğiniz amortisman profilini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-112">In the list, find and select the desired depreciation profile.</span></span>
-8. <span data-ttu-id="8c8de-113">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-113">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="8c8de-114">Alternatif amortisman profili alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="8c8de-115">Listede, istediğiniz amortisman profilini seçin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-115">In the list, select the desired depreciation profile.</span></span>
-11. <span data-ttu-id="8c8de-116">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-116">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="8c8de-117">Olağandışı durumlarda bir kıymetin ek amortismanı için Olağandışı amortisman profili kullanılır.</span><span class="sxs-lookup"><span data-stu-id="8c8de-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="8c8de-118">Örneğin bunu doğal felaketlerden kaynaklanan amortismanı kaydetmek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8c8de-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
-12. <span data-ttu-id="8c8de-119">Temel düzeltmeler bulunan amortisman düzeltmeleri oluştur onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
-13. <span data-ttu-id="8c8de-120">Takvim alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="8c8de-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-121">In the list, click the link in the selected row.</span></span>
+## <a name="create-a-depreciation-book"></a><span data-ttu-id="5eaa2-105">Amortisman defteri oluşturun</span><span class="sxs-lookup"><span data-stu-id="5eaa2-105">Create a depreciation book</span></span>
+1. <span data-ttu-id="5eaa2-106">Sabit kıymetler > Kurulum > Amortisman defterleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-106">Go to Fixed assets > Setup > Depreciation books.</span></span>
+2. <span data-ttu-id="5eaa2-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-107">Click New.</span></span>
+3. <span data-ttu-id="5eaa2-108">Amortisman defteri alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-108">In the Depreciation book field, type a value.</span></span>
+4. <span data-ttu-id="5eaa2-109">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="5eaa2-110">Amortismanı hesapla onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-110">Check or uncheck the Calculate depreciation checkbox.</span></span>
+6. <span data-ttu-id="5eaa2-111">Amortisman profili alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-111">In the Depreciation profile field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="5eaa2-112">Listede, istediğiniz amortisman profilini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-112">In the list, find and select the desired depreciation profile.</span></span>
+8. <span data-ttu-id="5eaa2-113">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-113">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="5eaa2-114">Alternatif amortisman profili alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-114">In the Alternative depreciation profile field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="5eaa2-115">Listede, istediğiniz amortisman profilini seçin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-115">In the list, select the desired depreciation profile.</span></span>
+11. <span data-ttu-id="5eaa2-116">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-116">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="5eaa2-117">Olağandışı durumlarda bir kıymetin ek amortismanı için Olağandışı amortisman profili kullanılır.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="5eaa2-118">Örneğin bunu doğal felaketlerden kaynaklanan amortismanı kaydetmek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+12. <span data-ttu-id="5eaa2-119">Temel düzeltmeler bulunan amortisman düzeltmeleri oluştur onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-119">Check or uncheck the Create depreciation adjustments with basis adjustments checkbox.</span></span>
+13. <span data-ttu-id="5eaa2-120">Takvim alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-120">In the Calendar field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="5eaa2-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-121">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="8c8de-122">Amortisman defterini bir sabit kıymet grubuyla ilişkilendirin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-122">Associate the depreciation book with a fixed asset group</span></span>
-1. <span data-ttu-id="8c8de-123">Sabit kıymet grupları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-123">Click Fixed asset groups.</span></span>
-2. <span data-ttu-id="8c8de-124">Sabit kıymet grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="8c8de-125">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="8c8de-126">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="8c8de-126">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="8c8de-127">Amortisman yöntemi alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-127">In the Depreciation convention field, select an option.</span></span>
-6. <span data-ttu-id="8c8de-128">Servis ömrü alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-128">In the Service life field, enter a number.</span></span>
-    * <span data-ttu-id="8c8de-129">Amortisman dönemleri alanı değerinin Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="8c8de-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
+## <a name="associate-the-depreciation-book-with-a-fixed-asset-group"></a><span data-ttu-id="5eaa2-122">Amortisman defterini bir sabit kıymet grubuyla ilişkilendirin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-122">Associate the depreciation book with a fixed asset group</span></span>
+1. <span data-ttu-id="5eaa2-123">Sabit kıymet grupları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-123">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="5eaa2-124">Sabit kıymet grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-124">In the Fixed asset group field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="5eaa2-125">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-125">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="5eaa2-126">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-126">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="5eaa2-127">Amortisman yöntemi alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-127">In the Depreciation convention field, select an option.</span></span>
+6. <span data-ttu-id="5eaa2-128">Servis ömrü alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-128">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="5eaa2-129">Amortisman dönemleri alanı değerinin Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="5eaa2-129">Notice the Depreciation periods field value is calculated after setting the Service life.</span></span>  
 
 
 
