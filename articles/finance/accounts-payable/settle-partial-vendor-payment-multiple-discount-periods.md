@@ -2,11 +2,9 @@
 title: Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
 description: Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbcaca97203c47bf7eac02ba410763a4e1a7b34a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56e2b3a8dadd824fa0170a1db19fffeaecb47775
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227292"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827878"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
 
@@ -56,9 +54,9 @@ Aşağıdaki nakit iskontosu tarihleri ve tutarları bu fatura için kullanılab
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 02/7/2015 |
+| Nakit iskonto tarihi           | 02/7/2015 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -72,9 +70,9 @@ Nakit iskontosu bulunduğundan, April ödeme tutarını, hem ödeme hem de nakit
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 02/7/2015 |
+| Nakit iskonto tarihi           | 02/7/2015 |
 | Nakit iskontosu tutarı         | -20,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
@@ -105,9 +103,9 @@ April, 495,00 tutarında ödeme yapmaya karar verir ve 5,00 tutarında nakit isk
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskonto tarihi           | 12/7/2015 |
 | Nakit iskontosu tutarı         | -10,00    |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | -6,00     |

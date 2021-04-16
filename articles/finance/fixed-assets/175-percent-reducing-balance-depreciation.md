@@ -2,11 +2,9 @@
 title: Yüzde 175 azalan bakiyeli amortisman
 description: Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 author: saraschi2
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8138003971ace280b08760df718671b1779bd101
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0747c34a4b28340227209adadf367f672deb1ab
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5230358"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827158"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>Yüzde 175 azalan bakiyeli amortisman
 
@@ -66,10 +64,10 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>%175 azalan bakiyeli amortisman örneği
 
-|                                |        |
+| Alan                          | Değer  |
 |--------------------------------|--------|
-| Alım maliyeti               | 11.000 |
-| Hurda değeri                  | 1.000  |
+| Alım maliyeti               | 11,000 |
+| Hurda değeri                  | 1,000  |
 | Amortisman tabanı              | 10.000 |
 | Servis ömrü yıl sayısı             | 5      |
 | Yıllık amortisman yüzdesi | %35    |

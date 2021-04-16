@@ -2,11 +2,9 @@
 title: Konsolidasyon için içe aktarma biçimi
 description: Bu konu, birden çok tüzel kişilikten gelen finansal verileri konsolide ettiğiniz kullanılan içe aktarma biçimi hakkında ayrıntılı bilgi sağlar.
 author: jinniew
-manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0690bb1933c0d641ca54e4c519d127b37dd33f6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98fc102b308afb90d4665ecd80650f66d531da0b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212265"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826726"
 ---
 # <a name="import-format-for-consolidation"></a>Konsolidasyon için içe aktarma biçimi
 

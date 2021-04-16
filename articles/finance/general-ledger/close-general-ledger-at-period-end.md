@@ -2,11 +2,9 @@
 title: Genel muhasebeyi dönemi sonunda kapatma
 description: Bu konu, genellikle bir dönem kapanışı için genel muhasebe gerçekleştirirken tamamlanmış görevleri açıklar.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe90e29e5ae71492519d9ab0d4cab2d12765cf4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9781a439469b54e5449382fbdd04447a7f4a079
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212385"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821925"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Genel muhasebeyi dönemi sonunda kapatma
 

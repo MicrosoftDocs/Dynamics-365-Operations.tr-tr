@@ -1,12 +1,10 @@
 ---
 title: Nakit akışı tahmini
 description: Bu konu, nakit akışı genel görünüm işlemine bir genel bakış sağlar. Nakit akışı tahmininin sistemdeki diğer modüllerle nasıl tümleşik olduğunu da açıklar.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232477"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819662"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -45,10 +43,9 @@ Nakit akışı tahmini, Genel muhasebe, Borç hesapları, Alacak hesapları, Bü
 - **Bütçe kayıt girişleri** – Nakit akışı tahminleri için seçilen bütçe kayıtları.
 - **Talep tahminleri** – Nakit akışı tahminleri için seçilen stok tahmin model satırları.
 - **Tedarik tahminleri** – Nakit akışı tahminleri için seçilen stok tahmin model satırları.
+- **Proje tahminleri**: Tahmin modelini kullanan proje yönetimi ve hesap tahminleri.
 
-Proje yönetimi ve muhasebe ile doğrudan bir tümleştirme olmasa da, proje hareketlerini nakit akışı tahminine tümleştirmenin çeşitli yolları vardır. Deftere nakledilen proje faturaları, açık müşteri hareketlerinin bir parçası olarak tahmine dahil edilir. Proje tarafından başlatılan satış siparişleri ve satınalma siparişleri, sisteme girildikten sonra açık siparişler olarak tahmin dahil edilir. Proje tahminlerini bir genel muhasebe bütçe modeline de aktarabilirsiniz. Bu genel muhasebe bütçe modeli daha sonra nakit akışı tahminine, bütçe kayıt varlıklarının bir parçası olarak dahil edilir.
-
-## <a name="configuration"></a>Yapılandırma
+## <a name="configuration"></a>Konfigürasyon
 
 Nakit akışı tahmin işlemini yapılandırmak için **Nakit akışı tahmin kurulumu** sayfasını kullanın. Bu sayfada, izlemek için likidite hesaplarını ve her bir alandaki varsayılan tahmin davranışlarını belirtirsiniz.
 
@@ -96,6 +93,14 @@ Stok tedarik ve talep tahminleri nakit akışı tahminlerine dahil edilebilir. *
 **Nakit akışı tahmin kurulumu** sayfasındaki yeni bir sekme, **Nakit akışı tahmini** çalışma alanında filtre uygulamak için hangi mali boyutları kullanacağınızı kontrol etmenizi sağlar. Bu sekme yalnızca Nakit akışı tahminleri özelliği etkinleştirildiğinde görüntülenir. 
 
 **Boyutlar** sekmesinde, filtre için kullanılacak boyut listesinden seçim yapın ve bunları sağ sütuna taşımak için ok tuşlarını kullanın. Nakit akışı tahmin verilerinin filtrelenmesi için yalnızca iki boyut seçilebilir. 
+
+### <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
+
+10.0.17 sürümünde yeni bir özellik, proje yönetimi ve muhasebe ile nakit akışı tahminiyle tümleştirmeyi etkinleştirir. **Özellik Yönetimi** çalışma alanında, tahmin edilen maliyetleri ve gelirleri nakit akışı tahminine eklemek için **nakit akışı proje tahmini** özelliğini açın. **Nakit akışı tahmini kurulumu** sayfasının **Proje yönetimi ve muhasebe** sekmesinde, nakit akışı tahminine eklenmesi gereken proje türlerini ve işlem türlerini seçin. Ardından Proje tahmin modelini seçin. Bir azaltma türü alt modeli en iyi çalışır. Alacak hesapları kurulumuna girilen likidite hesapları varsayılan likidite hesapları olarak kullanılır. Bu nedenle, nakit akışı tahminini ayarlarken varsayılan likidite hesaplarını girmeniz gerekmez. Bütçe modeli de kullanılabilir, ancak Proje yönetimi ve muhasebe için **nakit akışı tahmin kurulumu** sayfasında yalnızca bir tür seçilebilir. Tahmin modeli, proje yönetimi ve muhasebe veya Project Operations kullanıldığında en iyi esnekliği sağlar.
+
+Nakit akışı proje tahmini özelliği açık olduğunda, nakit akışı tahmini **tüm projeler** sayfasında her proje için görüntülenebilir. Eylem Bölmesindeki **Plan** sekmesinde yer alan **Tahmin** grubunda **Nakit akışı tahmini**'ni seçin. **Nakit genel bakış** çalışma alanlarında (bu konunun ilerleyen bölümlerindeki [raporlama ](#reporting) bölümüne bakın), proje tahmin işlem türü, girişleri (proje tahmini geliri) ve çıkışları (proje tahmin maliyetleri) gösterir. Tutarlar ancak, **Nakit genel bakış** çalışma alanlarında **proje aşaması** alanı **İşlemde** olarak ayarlanmışsa dahil edilebilir.
+
+**Nakit akışı proje tahmini** özelliğinin açık olup olmamasına bakmaksızın, proje işlemleri çeşitli yollarla nakit akışı tahminine dahil edilir. Deftere nakledilen proje faturaları, açık müşteri hareketlerinin bir parçası olarak tahmine dahil edilir. Proje tarafından başlatılan satış siparişleri ve satınalma siparişleri, sisteme girildikten sonra açık siparişler olarak tahmin dahil edilir. Proje tahminlerini bir genel muhasebe bütçe modeline de aktarabilirsiniz. Bu genel muhasebe bütçe modeli daha sonra nakit akışı tahminine, bütçe kayıt varlıklarının bir parçası olarak dahil edilir. **Nakit akışı proje tahmini** özelliğini etkinleştirdiyseniz, Proje tahminlerini bir kayıt defteri bütçe modeline transfer etmeyin, çünkü bu eylem proje tahminlerinin iki kere sayılmasına neden olur.
 
 ### <a name="calculation"></a>Hesaplama
 

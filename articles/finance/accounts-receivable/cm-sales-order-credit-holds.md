@@ -2,11 +2,9 @@
 title: Satış siparişleri için askıda krediler
 description: Bu konuda, bir satış siparişini kredi bekletmeye sokmak için kullanılan kuralların kurulumu açıklanmaktadır.
 author: mikefalkner
-manager: AnnBe
 ms.date: 01/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 39f053404348b57de0ad623869ebd7c6cc7a150b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228209"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827662"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Satış siparişleri için askıda krediler
 [!include [banner](../includes/banner.md)]

@@ -2,11 +2,9 @@
 title: Sabit kalan ömür amortismanı
 description: Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823b2569670adfbf04038abca656e34f0199fce1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd7bc6d773d85a1ba02151b96bf80f970845d4a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210107"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818524"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Sabit kalan ömür amortismanı
 
@@ -57,10 +55,10 @@ Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profill
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Değişmeyen bir sabit kıymet için düz çizgi amortisman örneği
 Bir sabit kıymet aşağıdaki özelliklere sahiptir.
 
-|                     |        |
+| Alan               | Değer  |
 |---------------------|--------|
-| Alım maliyeti    | 11.000 |
-| Hurda değeri       | 1.000  |
+| Alım maliyeti    | 11,000 |
+| Hurda değeri       | 1,000  |
 | Amortisman tabanı   | 10.000 |
 | Servis ömrü yıl sayısı  | 5      |
 | Yıllık amortisman | 2.000  |

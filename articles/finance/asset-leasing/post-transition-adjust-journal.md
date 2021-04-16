@@ -2,11 +2,9 @@
 title: Varlık kiralamasında geçiş sonrası düzeltme günlük girişleri
 description: Bu konu, bir kiralama portföyünü yeni kiralama muhasebesini standartlarına, Muhasabe Standartları Kodlaması Konu 842 (ASC 842) ve Uluslararası Mali Raporlama Standardı 16 (IFRS 16) geçirmenizi sağlayan işlevi açıklamaktadır.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7ed62f52753a6697a7547ada0317041669cf3506
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ea61a0d6e30695a2ef6b93529fcf3d21882c9cd2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207217"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819782"
 ---
 # <a name="post-transition-adjustment-journal-entries-in-asset-leasing"></a>Varlık kiralamasında geçiş sonrası düzeltme günlük girişleri
 
