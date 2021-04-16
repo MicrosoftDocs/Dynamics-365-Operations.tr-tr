@@ -1,12 +1,10 @@
 ---
-title: İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile İtalya için Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
+title: İtalya için Elektronik faturalamayı kullanmaya başlama
+description: Bu konu, İtalya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259232"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840112"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>İtalya için Elektronik faturalamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> İtalya için Elektronik faturalama eklentisi, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içinden elektronik fatura için kullanılabilen tüm işlevleri şimdilik desteklemeyebilir. 
+> İtalya için Elektronik faturalama Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management içinden elektronik fatura için kullanılabilen tüm işlevleri şimdilik desteklemeyebilir. 
 
-Bu konu, İtalya için Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, hizmet yoluyla İtalya'ya özel **FatturaPA** biçiminde oluşturulan elektronik faturaları gönderme sürecinde size yol gösterir ve işleme sonuçlarının nasıl incelendiğini açıklar.
+Bu konu, İtalya için Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Regulatory Configuration Services (RCS) ve Finance için ülkeye bağlı olan yapılandırma adımlarında size kılavuzluk eder. Ayrıca, hizmet yoluyla İtalya'ya özel **FatturaPA** biçiminde oluşturulan elektronik faturaları gönderme sürecinde size yol gösterir ve işleme sonuçlarının nasıl incelendiğini açıklar.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalama eklentisini kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
+Bu konudaki adımları gerçekleştirmeden önce, [elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md) adımlarını tamamlamanız gerekir.
 
 ## <a name="rcs-setup"></a>RCS kurulumu
 
@@ -48,7 +46,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 4. E-faturalama özelliğini yayımlayın.
 
 > [!NOTE]
-> "E-faturala özelliği", Elektronik faturalama eklenti sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Bu durumda müşteri elektronik faturalarının dışa aktarılması kuracağınız E-faturalama özelliğidir.
+> "E-faturala özelliği", Elektronik faturalama sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Bu durumda müşteri elektronik faturalarının dışa aktarılması kuracağınız E-faturalama özelliğidir.
 
 ## <a name="import-the-e-invoicing-feature"></a>E-faturalama özelliğini içe aktarma
 
@@ -153,7 +151,7 @@ Sürüm durumunu **Tamamlandı** veya **Yayımlandı** olarak değiştirerek e-f
 
 ![E-faturalama özelliğinin durumunu değiştirme](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Finance'de Elektronik faturalama eklentisi tümleştirmesi kurulumu
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Finance'de Elektronik faturalama tümleştirmesi kurulumu
 
 Finance kurulumu sırasında şu görevleri tamamlayacaksınız:
 
@@ -193,17 +191,17 @@ Finance kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 
-1. Elektronik faturalama eklentisi ile İtalya için e-faturaları oluşturma
+1. Elektronik faturalama ile İtalya için e-faturaları oluşturma
 2. Yürütme günlüklerini görüntüleme ve işlemenin sonuçlarını gözden geçirme
 
 ### <a name="generate-electronic-invoices"></a>Elektronik faturaları oluşturma
 
-**Yapılandırılabilir Elektronik faturalama eklentisi tümleştirme** özelliğini açtıktan ve **IT00036** özelliğini etkinleştirdikten sonra, İtalya için e-faturaları oluşturmak için eski Finance işlemi artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
+**Yapılandırılabilir Elektronik faturalamayı tümleştirme** özelliğini açtıktan ve **IT00036** özelliğini etkinleştirdikten sonra, İtalya için e-faturaları oluşturmak için eski Finance işlemi artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 E-fatura belgelerinizin gerektirdiği gibi belgeleri el ile gönderebilirsiniz.
 
 > [!NOTE]
-> Devam etmeden önce, İtalya'ya ait e-faturalar için gerekli olan kurulumun tamamlandığından emin olun. Daha fazla bilgi için bkz. [Müşteri elektronik faturaları](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Elektronik faturalama eklentisi etkinleştirilmesi nedeniyle, bu konuda açıklanan bazı kurulum adımları kullanılamayabilir.
+> Devam etmeden önce, İtalya'ya ait e-faturalar için gerekli olan kurulumun tamamlandığından emin olun. Daha fazla bilgi için bkz. [Müşteri elektronik faturaları](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Elektronik faturalama etkinleştirilmesi nedeniyle, bu konuda açıklanan bazı kurulum adımları kullanılamayabilir.
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
@@ -220,7 +218,7 @@ E-fatura belgelerinizin gerektirdiği gibi belgeleri el ile gönderebilirsiniz.
 2. **Sorgulama** iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 3. Seçili belgeleri göndermek için **Tamam**'ı seçin.
 
-> ![NOT] Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama eklentisi ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
+> ![NOT] Servis aracılığıyla ilk belgeyi gönderme denemeniz sırasında, Elektronik faturalama ile bağlantıyı onaylamanız istenecektir. **Elektronik Belge Gönderme Hizmetine bağlanmak için burayı tıklayın** ögesini seçin.
 
 #### <a name="view-submission-logs"></a>Gönderme günlüklerini görüntüleme
 
@@ -242,9 +240,9 @@ Gönderilen tüm belgelerin gönderme günlüklerini görüntüleyebilirsiniz.
 
 ## <a name="related-topics"></a>İlgili konular
 
-- [Elektronik faturalama eklentisine genel bakış](e-invoicing-service-overview.md)
-- [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md)
-- [Elektronik faturalamayı eklentisini kurma](e-invoicing-setup.md)
+- [Elektronik faturalamaya genel bakış](e-invoicing-service-overview.md)
+- [Elektronik faturalamayı kullanmaya başlama](e-invoicing-get-started.md)
+- [Elektronik faturalamayı ayarlama](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

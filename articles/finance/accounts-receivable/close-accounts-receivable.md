@@ -2,11 +2,9 @@
 title: Alacak hesaplarını kapatma
 description: Aşağıdaki konuda, Alacak hesaplarını kapat iş sürecini destekleyen sayfalar listelenmiştir.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5beab66bcb64322d75e7a2ef1d1f40b13c35a06f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc3355f7fa6f72906e427203234de7ece27595e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244545"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835448"
 ---
 # <a name="close-accounts-receivable"></a>Alacak hesaplarını kapatma
 
