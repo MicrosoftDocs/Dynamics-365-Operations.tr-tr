@@ -2,7 +2,6 @@
 title: Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma
 description: Bu konu, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir.
 author: margoc
-manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,33 +13,33 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d50dbb161fca0b0bfda18a258e5cef03e43fbeb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f6a2eec8d730cb4c63c854433cf6160c475ce660
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561110"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753976"
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="7942b-103">Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="7942b-103">Create a record template to facilitate data entry</span></span>
+# <a name="create-a-record-template-to-facilitate-data-entry"></a><span data-ttu-id="9961c-103">Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="9961c-103">Create a record template to facilitate data entry</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7942b-104">Bu konu, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="7942b-104">This topic demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="7942b-105">Bu yordamda, sabit kıymetlerinize eklenmesi gereken yeni dizüstü bilgisayarlar için yeni bir kayıt oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="7942b-105">In this procedure, you'll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="7942b-106">Bu yordamda, USMF örnek şirketi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="7942b-106">This procedure uses the USMF sample company.</span></span>
+<span data-ttu-id="9961c-104">Bu konu, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="9961c-104">This topic demonstrates how to create a record template so that field values that are used often do not have to be entered explicitly for each new record.</span></span> <span data-ttu-id="9961c-105">Bu yordamda, sabit kıymetlerinize eklenmesi gereken yeni dizüstü bilgisayarlar için yeni bir kayıt oluşturacaksınız.</span><span class="sxs-lookup"><span data-stu-id="9961c-105">In this procedure, you'll create a new record for new laptops that should be added to your fixed assets.</span></span> <span data-ttu-id="9961c-106">Bu yordamda, USMF örnek şirketi kullanılır.</span><span class="sxs-lookup"><span data-stu-id="9961c-106">This procedure uses the USMF sample company.</span></span>
 
-1. <span data-ttu-id="7942b-107">Gezinti bölmesinde **Modüller > Sabit kıymetler > Sabit kıymetler > Sabit kıymetler günlüğü**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="7942b-107">In the navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
-2. <span data-ttu-id="7942b-108">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-108">Select **New**.</span></span>
-3. <span data-ttu-id="7942b-109">**Sabit kıymet grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-109">In the **Fixed asset group** field, enter or select a value.</span></span>
-4. <span data-ttu-id="7942b-110">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-110">In the **Name** field, type a value.</span></span> <span data-ttu-id="7942b-111">Örneğin, **Şirket lideri dizüstü bilgisayarı** yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-111">For example, enter **Corporate lead laptop**.</span></span>  
-5. <span data-ttu-id="7942b-112">**Arama adı** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-112">In the **Search name** field, type a value.</span></span> <span data-ttu-id="7942b-113">Örneğin, **dizüstü bilgisayar** yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-113">For example, enter **laptop**.</span></span>  
-6. <span data-ttu-id="7942b-114">**Teknik bilgi** bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="7942b-114">Expand the **Technical information** section.</span></span>
-7. <span data-ttu-id="7942b-115">**Yapım** bölümünde, **Model** ve **Model yılı** alanlarına değerleri yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-115">In the **Make**, **Model**, and **Model year** fields, type values.</span></span>
-8. <span data-ttu-id="7942b-116">Eylem Bölmesinde, **Seçenekler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-116">On the Action Pane, select **Options**.</span></span>
-9. <span data-ttu-id="7942b-117">**Kayıt bilgisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-117">Select **Record info**.</span></span>
-10. <span data-ttu-id="7942b-118">**Kullanıcı şablonu**'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-118">Select **User template**.</span></span>
-11. <span data-ttu-id="7942b-119">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7942b-119">In the **Name** field, type a value.</span></span>
-12. <span data-ttu-id="7942b-120">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7942b-120">In the **Description** field, type a value.</span></span>
-13. <span data-ttu-id="7942b-121">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-121">Select **OK**.</span></span>
-14. <span data-ttu-id="7942b-122">**Kapat**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="7942b-122">Select **Close**.</span></span>
+1. <span data-ttu-id="9961c-107">Gezinti bölmesinde **Modüller > Sabit kıymetler > Sabit kıymetler > Sabit kıymetler günlüğü**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="9961c-107">In the navigation pane, go to **Modules > Fixed assets > Fixed assets > Fixed assets**.</span></span>
+2. <span data-ttu-id="9961c-108">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-108">Select **New**.</span></span>
+3. <span data-ttu-id="9961c-109">**Sabit kıymet grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-109">In the **Fixed asset group** field, enter or select a value.</span></span>
+4. <span data-ttu-id="9961c-110">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-110">In the **Name** field, type a value.</span></span> <span data-ttu-id="9961c-111">Örneğin, **Şirket lideri dizüstü bilgisayarı** yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-111">For example, enter **Corporate lead laptop**.</span></span>  
+5. <span data-ttu-id="9961c-112">**Arama adı** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-112">In the **Search name** field, type a value.</span></span> <span data-ttu-id="9961c-113">Örneğin, **dizüstü bilgisayar** yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-113">For example, enter **laptop**.</span></span>  
+6. <span data-ttu-id="9961c-114">**Teknik bilgi** bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="9961c-114">Expand the **Technical information** section.</span></span>
+7. <span data-ttu-id="9961c-115">**Yapım** bölümünde, **Model** ve **Model yılı** alanlarına değerleri yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-115">In the **Make**, **Model**, and **Model year** fields, type values.</span></span>
+8. <span data-ttu-id="9961c-116">Eylem Bölmesinde, **Seçenekler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-116">On the Action Pane, select **Options**.</span></span>
+9. <span data-ttu-id="9961c-117">**Kayıt bilgisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-117">Select **Record info**.</span></span>
+10. <span data-ttu-id="9961c-118">**Kullanıcı şablonu**'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-118">Select **User template**.</span></span>
+11. <span data-ttu-id="9961c-119">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9961c-119">In the **Name** field, type a value.</span></span>
+12. <span data-ttu-id="9961c-120">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="9961c-120">In the **Description** field, type a value.</span></span>
+13. <span data-ttu-id="9961c-121">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-121">Select **OK**.</span></span>
+14. <span data-ttu-id="9961c-122">**Kapat**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="9961c-122">Select **Close**.</span></span>
 
 
 
