@@ -2,11 +2,9 @@
 title: Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
 description: Microsoft Dynamics 365 Human Resources'ta Kazanç yönetimi ve Personel self servisi için parametreleri yapılandırma.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e241475c9652ab2dafe6886479e9c0a93711aca
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 10f5310ba4feba4a196d02c406ff3217637e447e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466772"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791498"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Tüm şirketler için Kazanç yönetimi ve Personel self servisi parametrelerini ayarlama
 

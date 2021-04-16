@@ -2,7 +2,6 @@
 title: Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 description: Bu konu, özel rapor yazdırmak için bir Elektronik raporlama (ER) çözümünün nasıl tasarlanacağını açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5bbfae36fb15437f2baadc66663cbfdb28691e8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562623"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743739"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 

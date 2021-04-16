@@ -2,7 +2,6 @@
 title: Kurumsal eğitim Power BI içeriği
 description: Bu konuda, Finance and Operations - Kurumsal eğitim Power BI içeriği açıklanmaktadır.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de81c0268b0eb726ff3119bfef53a64d372df6d8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0d508823b19a8d19fcbd1d5b871badb8679a4bbd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564579"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749453"
 ---
 # <a name="organizational-training-power-bi-content"></a>Kurumsal eğitim Power BI içeriği
 

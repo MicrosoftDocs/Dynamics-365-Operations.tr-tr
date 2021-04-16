@@ -2,7 +2,6 @@
 title: Çözüm farkındalığıyla ilgili sorunları giderme
 description: Bu konu, çözüm farkındalığıyla ilgili sorunları çözmenize yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f9e02a6a5afe965a1707f0b04e1b4daedd4ec1df
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 86dd8803f7560ea337f2452e9722fe0151466daf
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566801"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748885"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Çözüm farkındalığıyla ilgili sorunları giderme
 
