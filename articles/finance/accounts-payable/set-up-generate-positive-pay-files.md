@@ -2,11 +2,9 @@
 title: Pozitif ödeme dosyaları ayarlama ve oluşturma
 description: Bu konu pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227388"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830724"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları ayarlama ve oluşturma
 
@@ -140,6 +138,9 @@ Pozitif ödeme dosyaları veri varlıkları kullanılarak oluşturulur. Bir pozi
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> XSLT'deki XML adları, XML içindeki düğümlerin büyük-küçük harf durumuyla eşleşmelidir. XSLT ve XML dosyaları büyük/küçük harf duyarlıdır. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Pozitif ödeme biçimini bir banka hesabına atama
 Pozitif ödeme bilgisi oluşturmak istediğiniz her bir banka hesabı için, önceki bölümde tanımladığınız pozitif ödeme biçimini atamanız gerekir. **Banka hesaplarını** sayfasında, banka hesabına karşılık gelen pozitif ödeme biçimini seçin. **Pozitif ödeme başlangıç tarihi** alanında, pozitif ödeme dosyaları oluşturmak için başlangıç tarihini girin. Bu alana bir tarih girmeniz önemlidir. Aksi takdirde, oluşturacağınız ilk pozitif ödeme dosyası bu banka hesabı için o ana kadar oluşturulan tüm çekleri içerir.

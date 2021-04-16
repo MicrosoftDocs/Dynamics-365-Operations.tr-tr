@@ -2,11 +2,9 @@
 title: Kıymetleri tedarik yoluyla alma
 description: Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ccdcef6858c4b7badd48e8a90cef97c25824223
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6dcf5088e0c2d61b453f374c73b66843f74e98d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257621"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827062"
 ---
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarik yoluyla alma
 

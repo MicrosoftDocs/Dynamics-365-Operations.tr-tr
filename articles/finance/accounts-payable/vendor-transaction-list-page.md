@@ -2,11 +2,9 @@
 title: Satıcı hareketleri listesi sayfası
 description: Bu konu, Microsoft Dynamics 365 Finance için Satıcı hareketleri listesi sayfası hakkında bilgi sağlamaktadır.
 author: mikefalkner
-manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 41a8506989add6c7c4a5596892bde442c7c7dff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 444edde75298c45db141abae3117bfcaeb2865ea
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248195"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835472"
 ---
 # <a name="vendor-transactions-list-page"></a>Satıcı hareketleri listesi sayfası
 
