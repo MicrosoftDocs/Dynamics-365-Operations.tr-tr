@@ -2,11 +2,9 @@
 title: Nakit akışı tahminini etkinleştirme (önizleme)
 description: Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2de75962f5b8a71c8f7138289078b5c669ae1daa
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250590"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818740"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Nakit akışı tahminini etkinleştirme (önizleme)
 

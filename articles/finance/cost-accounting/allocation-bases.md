@@ -2,11 +2,9 @@
 title: Tahsisat temelleri
 description: Bu konu, tahsisat tabanları hakkında bilgiler sağlar. Tahsisat tabanları, Maliyet muhasebesindeki kilit bileşenlerdendir ve genellikle genel giderleri tahsis etmekte kullanılır.
 author: AndersGirke
-manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMAllocationBaseDetail, CAMFormulaAllocationBaseDetail, CAMAllocationBasePreview, CAMAllocationBase, CAMCostAllocationRule, CAMPredefinedMemberAllocationBase
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b6d4e7fae1df977a5db311d3ea662a5eb3ffd30
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15155a987094da6047dea9245f543b5ed38e3680
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260841"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814068"
 ---
 # <a name="allocation-bases"></a>Tahsisat temelleri 
 

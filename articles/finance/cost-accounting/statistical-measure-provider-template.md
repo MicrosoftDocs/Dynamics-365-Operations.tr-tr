@@ -2,11 +2,9 @@
 title: İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
 description: Bu konu, istatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları hakkında bilgi sağlar. İstatistiksel boyut üyelerini tahsisat maliyet dağılımı ve maliyet tahsisatı gibi ilkelerde tahsisat temeli olarak kullanılabilir. Ayrıca, parasal olmayan maliyet tüketimini bildirmek için de kullanılabilir.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208835"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833078"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>İstatistiksel boyut üyeleri ve ölçü sağlayıcıları için sağlayıcı şablonları
 
@@ -162,7 +160,7 @@ Bu örnekte, yalnızca tüm tam zamanlı çalışanların sayısını (FTE) isti
 
 **İstatistiksel girişler**
 
-| Maliyet nesnesi |    | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |  Açıklama        | Büyüklük |
+| Maliyet nesnesi |  Tanım  | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |  Tanım        | Büyüklük |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | İK | 31-01-2017      | FTE'ler                         | Tam zamanlı personel | 1.00      |
 | CC002       | FI | 31-01-2017      | FTE'ler                         | Tam zamanlı personel | 2.00      |
@@ -328,7 +326,7 @@ Verileri içe aktarmak için **İçe aktarılan veriler** \> **Veri varlığı**
 
 **İstatistiksel girişler**
 
-| Maliyet nesnesi |    | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |      Açıklama                   | Büyüklük  |
+| Maliyet nesnesi | Tanım | Muhasebeleşme tarihi | İstatistiksel boyut üyesi |      Tanım                   | Büyüklük  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | İK | 31-01-2017      | Elektrik                  | Elektrik tüketimi | 2.450,00   |
 | CC002       | FI | 31-01-2017      | Elektrik                  | Elektrik tüketimi | 4.100,00   |
@@ -336,11 +334,11 @@ Verileri içe aktarmak için **İçe aktarılan veriler** \> **Veri varlığı**
 
 Elektrik önceden tanımlanmış boyut üyesi tahsisat temeli maliyet dağıtımı kuralında bir tahsisat temeli olarak atanmışsa, maliyet aşağıdaki tahsisat faktörü kullanılarak dağıtılır.
 
-| Maliyet nesnesi |    | Büyüklük | Tahsisat faktörü          |
-|-------------|----|-----------|----------------------------|
-| CC001       | İK | 2.450,00  | (2.450 ÷ 21.550) × Tutar  |
-| CC002       | FI | 4.100,00  | (4.100 ÷ 21.550) × Tutar  |
-| CC003       | ST | 15.000,00 | (15.000 ÷ 21.550) × Tutar |
+| Maliyet nesnesi | Tanım   | Büyüklük | Tahsisat faktörü          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | İK            | 2.450,00  | (2.450 ÷ 21.550) × Tutar  |
+| CC002       | FI            | 4.100,00  | (4.100 ÷ 21.550) × Tutar  |
+| CC003       | ST            | 15.000,00 | (15.000 ÷ 21.550) × Tutar |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

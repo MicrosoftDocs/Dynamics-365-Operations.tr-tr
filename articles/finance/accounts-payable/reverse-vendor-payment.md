@@ -2,11 +2,9 @@
 title: Satıcı ödemesini tersine çevirme
 description: Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65aefa75de772fa39b45fc376349b75a3662cd73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ffcaae6e060ecc9cac4439523f11cc514ce1b5b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227438"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827950"
 ---
 # <a name="reverse-a-vendor-payment"></a>Satıcı ödemesini tersine çevirme
 

@@ -2,11 +2,9 @@
 title: Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma
 description: Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerinin nasıl kapatıldığını gösterir.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241726"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835112"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma
 
@@ -56,7 +54,7 @@ Arnie bu hareketi **Müşteri hareketleri** sayfasında görüntüleyebilir.
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Kapatılacak tutar** değerini **294,00** olarak değiştirmezseniz görüntülenen **Nakit iskonto tutarı** değerleri değişecektir. Ancak, kapatma işlemi, **Kapatılacak tutar** değerini sizin için otomatik olarak düzenleyeceğinden ödeme nakledildiğinde nakit iskontosu olarak 6,00 alınacaktır.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Nakit iskontosu tarihi           | 30/6/2015 |
 | Nakit iskontosu tutarı         | 20,00     |
@@ -75,7 +73,7 @@ Arnie, ödemeyi naklettikten sonra fatura bakiyesi 700,00 olur.
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Nakit iskontosu tarihi           | 09/7/2015 |
 | Nakit iskontosu tutarı         | 30,00     |

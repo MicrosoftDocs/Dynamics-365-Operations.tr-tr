@@ -1,12 +1,10 @@
 ---
-title: Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
-description: Bu konu, elektronik faturalama eklentisini kullanmaya nasıl başlayacağınızı açıklar.
+title: Elektronik faturalama hizmet yönetimini kullanmaya başlama
+description: Bu konu, elektronik faturalamayı kullanmaya nasıl başlayacağınızı açıklar.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592538"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840160"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektronik faturalama hizmet yönetimini kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -46,7 +42,7 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 - Özellik yönetiminde RCS hesabınız için Globalleştirme özelliğini etkinleştirmeniz gerekir. Daha fazla bilgi için bkz. [Regulatory Configuration Services (RCS) - Globalleştirme özellikleri](rcs-globalization-feature.md).
 - Azure'da bir anahtar kasası ve depolama hesabı oluşturmanız gerekir. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir anahtar kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
 
 1. LCS hesabınızda oturum açın.
 2. **Önizleme özelliği yönetimi** kutucuğunu seçin.
@@ -54,13 +50,14 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 4. **Önizleme özelliği etkin** seçeneğinin **Evet** olarak ayarlanmış olduğundan emin olun.
 5. LCS panonuzda, LCS dağıtım projenizi seçin. LCS projesi çalışıyor olmalıdır.
 7. **Ortam eklentileri** sekmesinde, **Yeni eklenti yükle**'yi seçin.
-8. **E-faturalama hizmetlerini** seçin ve **AAD uygulama kodu** alanına **091c98b0-a1c9-4b02-b62c-7753395ccabe** girin. Bu sabit bir değerdir.
+8. **E-faturalama hizmetlerini** seçin.
+9. **AAD uygulama kodu** alanına şunu girin: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Bu sabit bir değerdir.
 10. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin.
 11. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
 12. **Yükle**'yi seçin.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisiyle RCS entegrasyonu için parametreleri ayarlama
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Elektronik faturalamayla RCS entegrasyonu için parametreleri ayarlama
 
 1. RCS hesabınızda oturum açın.
 2. **İlgili bağlantılar** içinde, **Elektronik raporlama** çalışma alanında, **Elektronik raporlama parametreleri**'ni seçin.
@@ -74,58 +71,56 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | Batı AB                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. **Uygulama Kimliği** alanının **0cdb527f-a8d1-4bf8-9436-b352c68682b2** olarak ayarlı olduğunu doğrulayın. Bu değer sabit bir değerdir.
-5. **LCS Ortam Kimliği** alanına LCS abonelik hesabınızın kimliğini girin.
+5. **LCS Ortam Kimliği** alanına LCS ortamınızın kimliğini girin.
 6. **Kaydet**'i seçip sayfayı kapatın.
 
-## <a name="create-key-vault-secret"></a>Key Vault gizli dizisini oluşturma
+## <a name="create-key-vault-references"></a>Key Vault başvuruları oluşturma
 
 1. RCS hesabınızda oturum açın.
-2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
+2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 3. **Ortam kurulumları** sayfasında, Eylem Bölmesi'nde **Hizmet ortamı**'nı ve ardından **Anahtar kasası parametreleri**'ni seçin.
-4. Yeni bir anahtar kasası gizli dizisi oluşturmak için **Yeni**'yi seçin.
-5. **Ad** alanına anahtar kasası gizli dizisi adını girin. **Açıklama** alanına bir açıklama girin.
-6. **Anahtar Kasası URI**'si alanına, gizli dizi Azure Key Vault'tan yapıştırın.
+4. Key Vault başvurusu oluşturmak için **Yeni**'yi seçin.
+5. **Ad** alanına Key Vault başvurusunun adını girin. **Açıklama** alanına bir açıklama girin.
+6. **Key Vault URI** alanına, key vault gizli dizisini Azure Key Vault'tan yapıştırın. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir anahtar kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
 7. **Kaydet**'i seçin.
 
 ## <a name="create-storage-account-secret"></a>Depolama hesabı gizli dizisi oluşturma
 
-1. **Sistem Yönetimi** > **kurulum** > **Key Vault parametreleri**'ne gidin ve bir anahtar kasası gizli dizisi seçin.
-2. **Sertifikalar** bölümünde **Ekle**'yi seçin.
-3. **Ad** alanına, depolama hesabı gizli dizisinin adını girin ve **Açıklama** alanına bir açıklama girin.
-4. **Tür** alanında **Sertifika**'yı seçin.
-5. **Kaydet**'i seçip sayfayı kapatın.
+1. **Ortam kurulumları** sayfasında, Eylem Bölmesi'nde **Hizmet ortamı** > **Key Vault parametreleri**'ni seçin.
+2. Bir **Key Vault başvurusu** seçin ve **Sertifikalar** bölümünde **Ekle**'yi seçin.
+3. **Ad** alanına depolama hesabı gizli dizisinin adını girin. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir anahtar kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
+4. **Açıklama** alanına bir açıklama girin.
+5. **Tür** alanında **Gizli Dizi**'yi seçin.
+6. **Kaydet**'i seçip sayfayı kapatın.
 
 ## <a name="create-a-digital-certificate-secret"></a>Dijital sertifika gizli dizisi oluşturma
 
-1. **Sistem Yönetimi** > **kurulum** > **Key Vault parametreleri**'ne gidin ve bir anahtar kasası gizli dizisi seçin.
-2. **Sertifikalar** bölümünde **Ekle**'yi seçin.
-3. **Ad** alanına, dijital sertifika gizli dizisinin adını girin ve **Açıklama** alanına bir açıklama girin.
-4. **Tür** alanında **Sertifika**'yı seçin.
-5. **Kaydet**'i seçip sayfayı kapatın.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Elektronik faturalama eklentisi ortamı oluşturma
-
-1. RCS hesabınızda oturum açın.
-2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
+1. **Ortam kurulumları** sayfasında, Eylem Bölmesi'nde **Hizmet ortamı**'nı ve ardından **Key Vault parametreleri**'ni seçin.
+2. Bir **Key Vault başvurusu** seçin ve ardından **Sertifikalar** bölümünde **Ekle**'yi seçin.
+3. **Ad** alanına dijital sertifika gizli dizisinin adını girin. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir anahtar kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
+4. **Açıklama** alanına bir açıklama girin.
+5. **Tür** alanında **Sertifika**'yı seçin.
+6. **Kaydet**'i seçip sayfayı kapatın.
 
 ## <a name="create-a-service-environment"></a>Hizmet ortamı oluşturma
 
-1. **Ortam kurulumları** sayfasındaki Eylem bölmesinde **Hizmet ortamı**'nı seçin.
-2. Yeni hizmet ortamı oluşturmak için **Yeni**'yi seçin.
-3. **Ad** alanına E-faturalama ortamının adını girin. **Açıklama** alanına bir açıklama girin.
-4. **Depolama SAS belirteci gizli dizisi** alanında, depolama hesabına erişimin kimliğini doğrulamak için kullanılması gereken depolama hesabı gizli dizisinin adını seçin.
-5. **Kullanıcılar** bölümünde, ortam üzerinden elektronik fatura göndermesine ve ayrıca depolama hesabına bağlanmasına izin verilen bir kullanıcı eklemek için **Ekle**'yi seçin.
-6. **Kullanıcı Kimliği** alanına,kullanıcının diğer adını girin. **E-posta** alanına kullanıcının e-posta adresini girin.
-7. **Kaydet**'i seçin.
-8. Ülke/bölgenize özgü faturalarınız dijital imzaları uygulamak için bir sertifika zinciri gerektiriyorsa, Eylem bölmesinde **Anahtar kasası parametreleri**'ni seçin, ardından **Sertifikalar zinciri**'ni seçin ve şu adımları izleyin:
-
+1. RCS hesabınızda oturum açın.
+2. **Genelleştirme özelliği** çalışma alanında, **Ortam** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
+3. **Ortam kurulumları** sayfasındaki Eylem bölmesinde **Hizmet ortamı**'nı seçin.
+4. Yeni hizmet ortamı oluşturmak için **Yeni**'yi seçin.
+5. **Ad** alanına E-faturalama ortamının adını girin. **Açıklama** alanına bir açıklama girin.
+6. **Depolama SAS belirteci gizli dizisi** alanında, depolama hesabına erişimin kimliğini doğrulamak için kullanılması gereken depolama hesabı gizli dizisinin adını seçin.
+7. **Kullanıcılar** bölümünde, ortam üzerinden elektronik fatura göndermesine ve ayrıca depolama hesabına bağlanmasına izin verilen bir kullanıcı eklemek için **Ekle**'yi seçin.
+8. **Kullanıcı Kimliği** alanına,kullanıcının diğer adını girin. **E-posta** alanına kullanıcının e-posta adresini girin.
+9. **Kaydet**'i seçin.
+10. Ülke/bölgenize özgü faturalarınız dijital imzaları uygulamak için bir sertifika zinciri gerektiriyorsa, Eylem bölmesinde **Anahtar kasası parametreleri**'ni seçin, ardından **Sertifikalar zinciri**'ni seçin ve şu adımları izleyin:
     1. Bir sertifika zinciri oluşturmak için **Yeni**'yi seçin.
     2. **Ad** alanına sertifika zinciri adını girin. **Açıklama** alanına bir açıklama girin.
     3. **Sertifikalar** bölümünde, zincire sertifika eklemek için **Ekle**'yi seçin.
     4. Sertifikanın zincirdeki konumunu değiştirmek için **Yukarı** veya **Aşağı** düğmesini kullanın.
     5. **Kaydet**'i seçip sayfayı kapatın.
     6. Sayfayı kapatın.
-9. **Hizmet ortamı** sayfasında, Eylem Bölmesi'nde, ortamı bulutta yayınlamak için **Yayınla**'yı seçin. **Durum** alanının değeri **Yayınlandı** olarak değiştirilir.
+11. **Hizmet ortamı** sayfasında, Eylem Bölmesi'nde, ortamı bulutta yayınlamak için **Yayınla**'yı seçin. **Durum** alanının değeri **Yayınlandı** olarak değiştirilir.
 
 ## <a name="create-a-connected-application"></a>Bağlı bir uygulama oluşturma
 
@@ -144,12 +139,12 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 3. **Hizmet ortamı** alanında, bir hizmet ortamı seçin.
 4. **Kaydet**'i seçip sayfayı kapatın.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>Finance ve Supply Chain Management'ta Elektronik faturalama eklentisi tümleştirmesini ayarlama
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>Finance ve Supply Chain Management uygulamalarında Elektronik faturalama kurulumu
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>Elektronik faturalama eklenti tümleştirme özelliğini açma
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>Elektronik faturalama tümleştirme özelliğini açma
 
 1. Finance veya Supply Chain Management kurulumunuzda oturum açın.
-2. **Özellik yönetimi** çalışma alanında, **Elektronik faturalama eklentisini tümleştirme** özelliğini arayın. Bu özellik sayfada görünmüyorsa **Güncelleştirmeleri denetle**'yi seçin.
+2. **Özellik yönetimi** çalışma alanında, **Elektronik faturalamayı tümleştirme** özelliğini arayın. Bu özellik sayfada görünmüyorsa **Güncelleştirmeleri denetle**'yi seçin.
 3. Özelliği seçin ve **Şimdi etkinleştir** düğmesini seçin.
 
 ### <a name="set-up-the-service-endpoint-url"></a>Servis uç noktası URL'sini ayarlama
@@ -164,8 +159,18 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
     | Kuzey AB                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Batı AB                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. **Ortam** alanına Elektronik faturalama eklentissi ortamının adını girin.
+3. **Ortam** alanına Elektronik faturalamada yayınlanan hizmet ortamının adını girin.
 4. **Kaydet**'i seçip sayfayı kapatın.
 
+### <a name="enable-flighting-keys"></a>Deneme anahtarlarını etkinleştir
+
+Microsoft Dynamics 365 Finance veya Microsoft Dynamics 365 Supply Chain Management sürümleri 10.0.17 veya öncesi için deneme anahtarlarını etkinleştirin. 
+1. Aşağıdaki SQL komutunu çalıştırın:
+
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Tüm AOS işlemleri için IISreset komutu gerçekleştirin.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

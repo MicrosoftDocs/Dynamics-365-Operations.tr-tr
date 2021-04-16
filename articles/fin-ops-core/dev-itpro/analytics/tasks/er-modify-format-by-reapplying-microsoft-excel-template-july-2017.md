@@ -2,7 +2,6 @@
 title: Excel şablonlarını yeniden uygulayarak biçimleri değiştirme
 description: Bu yordamdaki bu adımı tamamlamak için öncelikle "OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması tasarlama" yordamındaki adımları tamamlamanız gerekir.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ca6707095765c25851ee864a99844a82844fae1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 24eb64679b458d14e30dc5b4365c7305d71cfc4c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564326"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754902"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Excel şablonlarını yeniden uygulayarak biçimleri değiştirme
 
