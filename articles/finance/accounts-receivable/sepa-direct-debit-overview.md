@@ -2,11 +2,9 @@
 title: SEPA otomatik ödemeye genel bakış
 description: Tek Euro ödemeleri Alanı (SEPA), Avrupa Komisyonu tarafından ayarlanır ve tüm elektronik ödemelerin birey, işletme veya kuruluş ve bankanın bulunduğu ülke/bölgeden bağımsız olarak yurtiçi olarak kabul edildiğini belirler. Ulusal ve sınır ötesi ödemeler arasında hiçbir fark yoktur. SEPA, 28 Avrupa Birliği (AB) üyesi devletlerinin yanı sıra İzlanda, Liechtenstein, Norveç, İsviçre, Monako ve San Marino'yu içerir. SEPA, Avrupa Ekonomik Alanı (EEA) içinde ödeme hareketleri için tek bir pazar oluşturulmasına yardımcı olur. Sonuçta, SEPA'nın bankalar, işyerleri ve bireylerin çalışması gereken ödeme sayısını azaltması beklenir.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c0a64e2bfefb7c4ed0e0f07be60e9f5293f8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229634"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835280"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA otomatik ödemeye genel bakış
 

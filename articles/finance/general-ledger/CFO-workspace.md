@@ -2,11 +2,9 @@
 title: CFO çalışma alanına mali boyutlar ekleme
 description: Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla CFO çalışma alanına mali boyutların nasıl ekleneceğini açıklar.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256703"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823848"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>CFO çalışma alanına mali boyutlar ekleme
 

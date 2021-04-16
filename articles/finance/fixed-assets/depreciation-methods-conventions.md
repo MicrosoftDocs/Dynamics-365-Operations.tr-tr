@@ -2,11 +2,9 @@
 title: Amortisman yöntemleri
 description: Bu makalede, Microsoft Dynamics 365 Finance tarafından desteklenen amortisman kurallarına ve amortisman yöntemlerine bir genel bakış sunulmuştur.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1aacc57051f21b992d9f7feb44c99511fc2a65bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: afd771f3f2f0434aa3663a9f99512f0c31adbb78
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241302"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826942"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Amortisman yöntemleri ve kuralları
 

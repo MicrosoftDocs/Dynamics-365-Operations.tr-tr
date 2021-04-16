@@ -2,11 +2,9 @@
 title: Pozisyon tahmini
 description: Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92456c8e538d0202a842ae4d306016c7418deb3c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260243"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827361"
 ---
 # <a name="position-forecasting"></a>Pozisyon tahmini
 

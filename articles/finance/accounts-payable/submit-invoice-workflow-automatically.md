@@ -2,11 +2,9 @@
 title: Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
 description: Bu konuda, satıcı faturalarını iş akışı sistemine gönderme ve deftere nakledilen ürün giriş satırlarını satıcı faturalarına otomatik olarak eşleştirme işlemi açıklanmaktadır.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231554"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827830"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Faturaları iş akışı sistemine gönderme ve ürün giriş satırlarını eşleştirme
 
@@ -41,7 +39,9 @@ Faturaları otomatik olarak iş akışı sistemine gönderirken içe aktarılan 
 
 Temassız Borç hesapları faturalama işleminin bir parçası olarak, sistem deftere nakledilen ürün girişlerini fatura satırlarına otomatik olarak eşleştirebilir. Bu görev için üç yönlü eşleştirme ilkesi tanımlanmalıdır. Bu özellik, **Satıcı fatura otomasyonu** özelliği **Özellik yönetimi** sayfasında etkinleştirilmişse kullanılabilir.
 
-İşlem, eşlenen ürün giriş miktarı fatura miktarına eşit oluncaya kadar çalışacaktır. Bu işlemin bir parçası olarak, işlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini belirtebilirsiniz. İşlem, saatlik ya da günlük olarak arka planda çalışacaktır. Otomatik eşleştirme sürecini, faturaları iş akışı sistemine gönderme sürecinin bir parçası olarak çalıştırabilirsiniz. Alternatif olarak, bunu bağımsız bir işlem olarak da çalıştırabilirsiniz. Ürün girişlerini fatura satırlarıyla eşleştir ayarları **Borç hesapları parametreleri** sayfasının **Satıcı fatura otomasyonu** sekmesinde (**Borç hesapları \> Kurulum \> Borç hesapları parametreleri**) yapılandırılır.
+Eşleme işlemi, eşlenen ürün giriş miktarı fatura miktarına eşit oluncaya kadar çalışacaktır. Ancak, tek bir fatura satırı için birden çok ürün girişi varsa, tam miktar eşleşmesi elde etmek için işlemi birkaç kez çalıştırmanız gerekir. İşlemin başarısız olması sonucuna varmadan önce, sistemin ürün girişlerini bir fatura satırıyla eşleştirmek için kaç kez deneme yapması gerektiğini belirtebilirsiniz. İşlem, saatlik ya da günlük olarak arka planda çalışacaktır. 
+
+Otomatik eşleştirme sürecini, faturaları iş akışı sistemine gönderme sürecinin bir parçası olarak çalıştırabilirsiniz. Alternatif olarak, bunu bağımsız bir işlem olarak da çalıştırabilirsiniz. Ürün girişlerini fatura satırlarıyla eşleştir ayarları **Borç hesapları parametreleri** sayfasının **Satıcı fatura otomasyonu** sekmesinde (**Borç hesapları \> Kurulum \> Borç hesapları parametreleri**) yapılandırılır.
 
 Eşleşen giriş miktarının fatura miktarından az olduğu üç yönlü eşleştirme ilkesine sahip fatura satırları otomatik ürün girişine eşleştir işlemine dahil edilir.
 
