@@ -2,7 +2,6 @@
 title: Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
 description: Bu konuda, İş belgesi yönetimi özelliğini kullanarak Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme hakkında bilgiler sağlanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 11/15/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6368d763f44c015a6e85652b1880cfd86ff5ba09
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 991fe4ea56a2726c5df835cfc90a390cef2d5df5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569033"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751142"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Microsoft Excel'de iş belgesi şablonuna yeni alanlar ekleme
 

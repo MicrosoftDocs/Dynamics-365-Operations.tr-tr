@@ -2,11 +2,9 @@
 title: Taranan belgeler için fatura otomasyonu
 description: Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan özellikleri açıklar.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239663"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841249"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Taranan belgeler için fatura otomasyonu
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan özellikleri açıklar.
+Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan veri varlıklarını açıklar.
 
 Borç hesapları (AP) işlemlerini daha verimli kullanmak isteyen kuruluşlar genellikle fatura işlemlerini daha etkin olması gereken işlem alanları içinde ne üst sıralardan birine koyar. Çoğu durumda, bu kuruluşlar kağıt fatura işlemlerini üçüncü taraf bir optik karakter tanıma (OCR) servis sağlayıcısına aktarırlar. Daha sonra her faturanın taranan görüntüsüyle birlikte makine tarafından okunabilir fatura meta verilerini alırlar. Otomasyona yardımcı olmak için "son mil" çözümü faturalama sisteminde bu yapıların kullanımını etkinleştirmek için oluşturulmuştur. Şimdi bu "son mil" otomasyonu, bir fatura otomasyon çözümüyle kullanıma hazır hale getirilmektedir.
 
@@ -90,9 +88,9 @@ Veri paketleriyle içe aktarılan faturalar ait oldukları tüzel kişilikle iki
 
 Satıcı faturalarının Finance and Operations'a tümleştirme yoluyla geldiği senaryolarda, Borç hesapları ekibi üyesinin özel durumları veya başarısız olan faturaları işlemesi ve başarısız faturalardan bekleyen faturalar oluşturması için kolay bir yol olması gerekir. Satıcı faturaları için bu özel durum işleme özelliği artık Finance and Operations'ın bir parçasıdır.
 
-### <a name="exceptions-list-page"></a>Özel durumlar listesi sayfası
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>İçe aktarılamayan satıcı faturaları liste sayfası
 
-Özel durumlar için yeni liste sayfası **Borç hesapları** > **Faturalar** > **İçe aktarma hataları** > **İçe aktarılamayan satıcı faturaları**'nda bulunur. Bu sayfa, Satıcı fatura başlık verileri varlığının aşamalandırma tablosundaki tüm satıcı faturası başlığı kayıtlarını gösterir. Aynı kayıtları **Veri yönetimi** çalışma alanından da görebilirsiniz ve burada özel durum işleme özelliğinde sunulan eylemlerin aynılarını gerçekleştirebilirsiniz. Ancak, özel durum işleme özelliği arabirimi işlevsel kullanıcı için optimize edilmiştir.
+Özel durumlar için yeni liste sayfası **Borç hesapları** > **Faturalar** > **İçe aktarma hataları** > **İçe aktarılamayan satıcı faturaları**'nda bulunur. Bu sayfa, Satıcı fatura başlık verileri varlığının aşamalandırma tablosundaki tüm satıcı faturası başlığı kayıtlarını gösterir. Aynı kayıtları **veri yönetimi** çalışma alanından görüntüleyebilirsiniz. Özel durum işleme özelliğinde sunulan aynı işlemleri **Veri yönetimi** çalışma alanından da gerçekleştirebilirsiniz. Özel durum işleme özelliği işlevsel bir kullanıcı için en iyi duruma getirildi, bu da kullanımını kolaylaştırır.
 
 ![Özel durumlar listesi sayfası](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ Bu liste sayfası akış ile gelen aşağıdaki alanları içerir:
 Bu liste sayfasında aşağıdaki şekillerde kullanabileceğiniz bir önizleme bölmesi de vardır:
 
 + Tam hata iletisini görmek - Böylece ızgaradaki **Kata iletisi** sütununu genişletmeniz gerekmez.
-+ Faturayla birlikte gelen ek varsa, faturanın eklerinin tam listesini görmek.
 
 Liste sayfası aşağıdaki eylemleri destekler:
 
 + **Düzenle** – Sorunları gidermek için özel durum kaydını düzenleme modunda açın.
 + **Seçenekler** – Liste sayfalarında kullanılabilir olan standart seçeneklere erişin. Özel durumlar liste sayfasını çalışma alanınıza liste veya kutucuk olarak sabitlemek için **Çalışma alanına ekle** seçeneğini kullanabilirsiniz.
 
-### <a name="exception-details-page"></a>Özel durum ayrıntıları sayfası
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>İçe aktarılamayan satıcı faturaları ayrıntı sayfası
 
-Düzenleme modunu çalıştırdığınızda, sorunları bulunan fatura için özel durum ayrıntıları sayfası görüntülenir. Ekler varsa, fatura ve varsayılan ek özel durum ayrıntıları sayfasında yan yana görünür.
+Düzenleme modunu başlattığınızda, sorunları olan faturanın **İçe aktarılamayan satıcı faturaları ayrıntıları** sayfası açılır. Eki olan bir faturada sorunlar varsa, ek görüntülenmez. Ekin faturaya yeniden eklenmesi gerekir.
 
-![Özel durum ayrıntıları sayfası](media/vendor_invoice_automation_03.png)
-
-Önceki örnekte, gelen satıcı faturası başlığı için satırlar yoktu. Bu nedenle, satırlar bölümü boştu.
-
-Özel durum ayrıntıları sayfası aşağıdaki işlemi destekler:
-
-+ **Bekleyen fatura oluştur** – Özel durum işlemenin bir parçası olarak faturadaki sorunları giderdikten sonra, bekleyen fatura oluşturmak için bu düğmeye tıklayabilirsiniz. Bekleyen faturalar oluşturma (zaman uyumsuz işlem) arka planda gerçekleşir.
+**İçe aktarılamayan satıcı faturaları ayrıntıları** sayfası bekleyen bir fatura oluşturmanıza olanak sağlar. Özel durum işlemenin bir parçası olarak faturadaki sorunları giderdikten sonra, bekleyen fatura oluşturmak için **Bekleyen fatura oluştur** düğmesini seçin. Bekleyen fatura arka planda oluşturulur. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Paylaşılan hizmetler ile kuruluş tabanlı özel durum işleme karşılaştırması
 
@@ -187,7 +178,7 @@ Yalnızca tek bir belge varsayılan ek olarak ayarlanabilir. Bir belgeyi varsay�
 
 **Özel durum işleme**, **Bekleyen fatura** ve **Fatura günlüğü** sorgu sayfalarında, ek görüntüleyiciyi gizlemenizi veya göstermenizi sağlayan yeni bir düğme bulunur.
 
-### <a name="security"></a>Güvenlik
+## <a name="security"></a>Güvenlik
 
 Ek görüntüleyicideki aşağıdaki eylemler rol tabanlı güvenlikle denetlenir:
 
@@ -212,7 +203,7 @@ Aşağıdaki roller, şu eylemler için ek görüntüleyiciye salt okuma veya ok
 + **Borç hesapları memuru** ve **Borç Hesapları yöneticisi** – Bu rollere Satıcı faturalarını koru görevi atanır.
 + **Borç hesapları memuru**, **Borç Hesapları yöneticisi**, **Borç hesapları merkezi ödeme memuru** ve **Borç hesapları ödemeler memuru** – Bu rollere satıcı faturası durumunu sorgula görevi atanır.
 
-### <a name="invoice-exception-details-page"></a>Fatura özel durum ayrıntıları sayfası
+### <a name="vendor-invoice-attachment"></a>Satıcı faturası eki
 
 Aşağıdaki ayrıcalıklar vurgulama, engelleme veya ek açıklama ekleme işlemleri için ek görüntüleyiciye salt okuma erişimi veya okuma/yazma erişimi sağlar.
 

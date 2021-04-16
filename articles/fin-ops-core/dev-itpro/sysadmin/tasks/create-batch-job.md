@@ -2,7 +2,6 @@
 title: Toplu iş oluşturma
 description: Toplu iş, otomatik işlem için bir Uygulama Nesne Sunucusu (AOS) kurulumuna gönderilmiş görevlerin bir grubudur.
 author: maertenm
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 753a78dd140ca82c8c42ff8fdd3772e66b5a1cb0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f498014555e0beccbc8965dd43e5162944867978
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571089"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745873"
 ---
 # <a name="create-a-batch-job"></a>Toplu iş oluşturma
 

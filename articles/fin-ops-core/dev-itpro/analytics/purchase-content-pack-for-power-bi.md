@@ -2,7 +2,6 @@
 title: Satınalma ve harcama analizi Power BI içeriği
 description: Bu konu, Power BI Satınalma harcaması analizinde nelerin bulunduğunu açıklar.
 author: FrankDahl
-manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a4149b13754b544558dbb5666fbec7df97e5c5d8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f9741b5f30f5e62b9e80000953113377fe016253
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559561"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749381"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma ve harcama analizi Power BI içeriği
 

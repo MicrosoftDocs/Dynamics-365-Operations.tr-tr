@@ -2,7 +2,6 @@
 title: İş akışında koşullu kararları yapılandırma
 description: Koşullu kararın özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a593d4e188f47b73967f0c5468f7d7c3e9f64dc8
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ed53eeb26e1b4b1df1647739ce1d115c7dd169f8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567472"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747943"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>İş akışında koşullu kararları yapılandırma
 

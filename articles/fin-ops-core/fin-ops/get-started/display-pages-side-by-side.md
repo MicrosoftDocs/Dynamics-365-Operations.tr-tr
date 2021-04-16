@@ -2,7 +2,6 @@
 title: Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 description: Bu makale, sayfaları nasıl yan yana görüntüleyebileceğinizi açıklar.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf77e488b60cc4c526398db494104c31b0f210b1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7ba583c2c9bcaaf106af75f8ac41f79bebc2c363
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748405"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Yeni pencerede aç özelliğini kullanarak sayfaları yan yana gösterme
 
