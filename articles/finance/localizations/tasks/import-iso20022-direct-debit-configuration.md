@@ -2,11 +2,9 @@
 title: ISO20022 hesaptan ödeme yapılandırmasını içe aktarma
 description: Bu yordam, müşteri ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,38 +13,38 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 964f396625340d593a2fe3dd5be5a1b7da795e9a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4d0358c414af20558e7e5aaadad5d9844f7853bf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218770"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840901"
 ---
-# <a name="import-iso20022-direct-debit-configuration"></a><span data-ttu-id="47467-103">ISO20022 hesaptan ödeme yapılandırmasını içe aktarma</span><span class="sxs-lookup"><span data-stu-id="47467-103">Import ISO20022 direct debit configuration</span></span>
+# <a name="import-iso20022-direct-debit-configuration"></a><span data-ttu-id="3c3f4-103">ISO20022 hesaptan ödeme yapılandırmasını içe aktarma</span><span class="sxs-lookup"><span data-stu-id="3c3f4-103">Import ISO20022 direct debit configuration</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="47467-104">Bu yordam, müşteri ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="47467-104">This procedure demonstrates how to import a customer payment electronic reporting configuration.</span></span> <span data-ttu-id="47467-105">Bu yordam örnek olarak ISO 20022 hesaptan ödeme biçimini kullanır.</span><span class="sxs-lookup"><span data-stu-id="47467-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> 
+<span data-ttu-id="3c3f4-104">Bu yordam, müşteri ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-104">This procedure demonstrates how to import a customer payment electronic reporting configuration.</span></span> <span data-ttu-id="3c3f4-105">Bu yordam örnek olarak ISO 20022 hesaptan ödeme biçimini kullanır.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> 
 
 
 
-<span data-ttu-id="47467-106">Bu yordam, demo veri şirketi DEMF kullanılarak oluşturulmuştur ancak bu amaç için herhangi bir demo veri şirketini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="47467-106">This procedure was created using the demo data company DEMF but you can use any demo data company for this purpose.</span></span>
+<span data-ttu-id="3c3f4-106">Bu yordam, demo veri şirketi DEMF kullanılarak oluşturulmuştur ancak bu amaç için herhangi bir demo veri şirketini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-106">This procedure was created using the demo data company DEMF but you can use any demo data company for this purpose.</span></span>
 
 
 
-<span data-ttu-id="47467-107">Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ödemesi işlemini gösteren beş yordamın birincisidir.</span><span class="sxs-lookup"><span data-stu-id="47467-107">This is the first of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="3c3f4-107">Bu, birlikte elektronik raporlama yapılandırmalarını kullanarak müşteri ödemesi işlemini gösteren beş yordamın birincisidir.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-107">This is the first of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. <span data-ttu-id="47467-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="47467-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="47467-109">Kullanılabilir yapılandırma sağlayıcıları listesinden Microsoft'u seçin.</span><span class="sxs-lookup"><span data-stu-id="47467-109">In the list of available configuration providers, select Microsoft.</span></span>
-3. <span data-ttu-id="47467-110">Etkin olarak ayarla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="47467-110">Click Set active.</span></span>
-4. <span data-ttu-id="47467-111">Depolar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="47467-111">Click Repositories.</span></span>
-5. <span data-ttu-id="47467-112">Aç'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="47467-112">Click Open.</span></span>
-6. <span data-ttu-id="47467-113">Filtreleri göster'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="47467-113">Click Show filters.</span></span>
-7. <span data-ttu-id="47467-114">Şu filtreleri uygulayın: "ile başlar" filtre işlecini kullanarak "Yapılandırma adı" alanında "ISO20022 Hesaptan ödeme (DE)" için bir filtre değeri girin</span><span class="sxs-lookup"><span data-stu-id="47467-114">Apply the following filters: Enter a filter value of "ISO20022 Direct debit (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="47467-115">İsteğe bağlı olarak, listede yapılandırmayı bulabilir, seçebilir ve bu adımı atlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="47467-115">Optionally, you can find the configuration in the list, select it, and skip this step.</span></span>  
-8. <span data-ttu-id="47467-116">İçe aktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="47467-116">Click Import.</span></span>
-    * <span data-ttu-id="47467-117">İçe aktar düğmesi kullanılamıyorsa yapılandırma zaten içe aktarılmış demektir.</span><span class="sxs-lookup"><span data-stu-id="47467-117">If the Import button is not available, it means that the configuration has been imported already.</span></span>  
-9. <span data-ttu-id="47467-118">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="47467-118">Click Yes.</span></span>
+1. <span data-ttu-id="3c3f4-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="3c3f4-109">Kullanılabilir yapılandırma sağlayıcıları listesinden Microsoft'u seçin.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-109">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="3c3f4-110">Etkin olarak ayarla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-110">Click Set active.</span></span>
+4. <span data-ttu-id="3c3f4-111">Depolar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-111">Click Repositories.</span></span>
+5. <span data-ttu-id="3c3f4-112">Aç'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-112">Click Open.</span></span>
+6. <span data-ttu-id="3c3f4-113">Filtreleri göster'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-113">Click Show filters.</span></span>
+7. <span data-ttu-id="3c3f4-114">Şu filtreleri uygulayın: "ile başlar" filtre işlecini kullanarak "Yapılandırma adı" alanında "ISO20022 Hesaptan ödeme (DE)" için bir filtre değeri girin</span><span class="sxs-lookup"><span data-stu-id="3c3f4-114">Apply the following filters: Enter a filter value of "ISO20022 Direct debit (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="3c3f4-115">İsteğe bağlı olarak, listede yapılandırmayı bulabilir, seçebilir ve bu adımı atlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-115">Optionally, you can find the configuration in the list, select it, and skip this step.</span></span>  
+8. <span data-ttu-id="3c3f4-116">İçe aktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-116">Click Import.</span></span>
+    * <span data-ttu-id="3c3f4-117">İçe aktar düğmesi kullanılamıyorsa yapılandırma zaten içe aktarılmış demektir.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-117">If the Import button is not available, it means that the configuration has been imported already.</span></span>  
+9. <span data-ttu-id="3c3f4-118">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3c3f4-118">Click Yes.</span></span>
 
 
 
