@@ -1,12 +1,10 @@
 ---
-title: Elektronik faturalamayı eklentisini kurma
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalama eklentisinin nasıl kurulacağını açıklamaktadır.
+title: Elektronik faturalamayı ayarlama
+description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalamanın nasıl ayarlanacağını açıklamaktadır.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,62 +15,62 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209958"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840016"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>Elektronik faturalamayı eklentisini kurma
+# <a name="set-up-electronic-invoicing"></a>Elektronik faturalamayı ayarlama
 
 [!include [banner](../includes/banner.md)]
 
 
-Elektronik faturalama eklenti özelliğinin kurulumu, gerekli yapılandırmayı Regulatory Configuration Services (RCS) ortamı aracılığıyla oluşturma ve bu yapılandırmayı elektronik faturalama eklenti sunucusunda yayımlama işlemidir. Kurulum, elektronik faturalama eklentisinin Internet üzerinden bir üçüncü taraf varlıkla Web Hizmetleri aracılığıyla iletişim kurup veri alışverişi yapmak için güvenli bir protokol kullanmasını sağlayan yapılandırılabilir kurallar oluşturmanıza olanak sağlar.
+Elektronik faturalama özelliğinin ayarlanması gerekli yapılandırmayı Regulatory Configuration Services (RCS) ortamı aracılığıyla oluşturma ve bu yapılandırmayı elektronik faturalama sunucusunda yayımlama işlemidir. Ayarlama işlemi elektronik faturalamanın Internet üzerinden bir üçüncü taraf varlıkla Web Hizmetleri aracılığıyla iletişim kurup veri alışverişi yapmak için güvenli bir protokol kullanmasını sağlayan yapılandırılabilir kurallar oluşturmanıza olanak sağlar.
 
 Yapılandırılabilirlik, dijital dosyalar üzerinden gönderilen ve alınan içeriği oluşturmak amacıyla elektronik raporlama (ER) biçimi yapılandırmasına bağlıdır. Ayrıca, kod yazmanızı gerektirmeden, üçüncü taraf Web hizmetlere yanıtları göndermek ve bu hizmetlerden yanıt almak için iletişim eylemlerinin düzenlemesine dayanır.
 
 ## <a name="overview"></a>Genel bakış
 
-"Elektronik faturalama eklentisi özelliği", Elektronik faturalama eklenti sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Özellik kurulumu, başka şeylerin yanı sıra, yapılandırılabilir dışarı aktarma ve içe aktarma dosyaları oluşturmak için ER yapılandırma biçimlerinin kullanılması ve isteklerin gönderilmesi, yanıtları içe aktarmak ve yanıt içeriğini ayrıştırmaya olanak tanıyan eylemleri ve eylem akışlarının kullanımını birleştirir.
+"Elektronik faturalama özelliği", Elektronik faturalama sunucusunu kullanmak üzere yapılandırılmış ve yayımlanmış olan kaynağın genel adıdır. Özellik kurulumu, başka şeylerin yanı sıra, yapılandırılabilir dışarı aktarma ve içe aktarma dosyaları oluşturmak için ER yapılandırma biçimlerinin kullanılması ve isteklerin gönderilmesi, yanıtları içe aktarmak ve yanıt içeriğini ayrıştırmaya olanak tanıyan eylemleri ve eylem akışlarının kullanımını birleştirir.
 
-Aşağıdaki şekil, Elektronik faturalama eklentisi özelliğinin ana bileşenlerini gösterir.
+Aşağıdaki şekil, Elektronik faturalama özelliğinin ana bileşenlerini gösterir.
 
-![Elektronik faturalama eklentisi özelliğine genel bakış](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Elektronik faturalama özelliğine genel bakış](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Fatura biçimlerindeki ve eylem akışlarındaki çeşitlilikler nedeniyle, özellik kurulumu ülkeye veya bölgeye veya iş gereksinimlerine göre değişebilir.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>Elektronik faturalama eklenti özelliğini kurma
+## <a name="set-up-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğini ayarlama
 
-Kurulum işleminin RCS ortamınızda tamamlanması gereklidir. Yeni bir elektronik faturalama eklenti özelliği oluşturmak için aşağıdaki adımları izleyin.
+Kurulum işleminin RCS ortamınızda tamamlanması gereklidir. Yeni bir elektronik faturalama özelliği oluşturmak için aşağıdaki adımları izleyin.
 
 1. RCS ortamınızda oturum açın.
-2. **Genelleştirme özellikleri** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
-3. **Elektronik faturalama eklenti özellikleri** sayfasında, Genel depodan ER veri modeli yapılandırmasını içe aktarmak için **İçe aktar**'ı seçin.
-4. Elektronik faturalama eklentisi özelliği oluşturmak için **Ekle**'yi seçin. Özelliği sıfırdan oluşturabilir veya var olan bir elektronik faturalama eklentisi özelliğinden türetebilirsiniz.
+2. **Genelleştirme özellikleri** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
+3. **Elektronik faturalama özellikleri** sayfasında, Genel depodan ER veri modeli yapılandırmasını içe aktarmak için **İçe aktar**'ı seçin.
+4. Elektronik faturalama özelliği oluşturmak için **Ekle**'yi seçin. Özelliği sıfırdan oluşturabilir veya var olan bir elektronik faturalama özelliğinden türetebilirsiniz.
 
-    ![Elektronik faturalama eklentisi özelliği ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektronik faturalama özelliği ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> Yeni bir elektronik faturalama eklenti özelliği oluşturduğunuzda, bir sürüm numarası vardır ve varsayılan durumu **Taslak** olarak ayarlanır.
+> Yeni bir elektronik faturalama özelliği oluşturduğunuzda, bir sürüm numarası vardır ve varsayılan durumu **Taslak** olarak ayarlanır.
 
 ### <a name="configurations"></a>Konfigürasyonlar
 
-Yapılandırmalar dönüştürmeler için gerekli olan ve üçüncü taraf Web hizmetleriyle iletişim sırasında alışverişi yapılan dosyaları oluşturan ER biçim yapılandırmalarını tutar. Elektronik faturalama eklenti özelliği, Web servis sağlayıcısı tarafından sağlanan tümleştirme teknik belirtimine bağlı olarak, gereken sayıda ER dosya biçimi yapılandırmasına sahip olabilir.
+Yapılandırmalar dönüştürmeler için gerekli olan ve üçüncü taraf Web hizmetleriyle iletişim sırasında alışverişi yapılan dosyaları oluşturan ER biçim yapılandırmalarını tutar. Elektronik faturalama özelliği, Web servis sağlayıcısı tarafından sağlanan tümleştirme teknik belirtimine bağlı olarak, gereken sayıda ER dosya biçimi yapılandırmasına sahip olabilir.
 
-Elektronik faturalama eklenti özelliğine ER biçimleri eklemek için aşağıdaki adımları izleyin.
+Elektronik faturalama özelliğine ER biçimleri eklemek için aşağıdaki adımları izleyin.
 
-1. Elektronik faturalama eklentisi özelliği için, **Elektronik faturalama eklentisi özellikleri** sayfasında, ER dosya biçimi yapılandırması eklemek için, **Yapılandırmalar** sekmesinde **Ekle**'yi seçin.
+1. Elektronik faturalama özelliği için, **Elektronik faturalama özellikleri** sayfasında, ER dosya biçimi yapılandırması eklemek için, **Yapılandırmalar** sekmesinde **Ekle**'yi seçin.
 
-    ![Elektronik faturalama eklentisi özelliği yapılandırmalarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektronik faturalama özelliği yapılandırmalarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > Sıfırdan bir Elektronik faturalama eklenti özelliği oluşturduğunuzda, tüm ER dosya biçimi yapılandırmalarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama eklenti özelliği türettiğinizde, özgün elektronik faturalama eklentisi özelliğinden devralındığından, ER dosya biçimi yapılandırmaları otomatik olarak oluşturulur.
+    > Sıfırdan bir Elektronik faturalama özelliği oluşturduğunuzda, tüm ER dosya biçimi yapılandırmalarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama özelliği türettiğinizde, özgün elektronik faturalama özelliğinden devralındığından, ER dosya biçimi yapılandırmaları otomatik olarak oluşturulur.
 
 2. ER dosya biçimi yapılandırmasını düzenleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** seçin.
 
-    ![Elektronik faturalama eklentisi özelliği yapılandırmalarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektronik faturalama özelliği yapılandırmalarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Biçimi düzenlerken, yapılandırma sürümünün durumu **Taslak** olarak ayarlanır.
@@ -83,20 +81,20 @@ Elektronik faturalama eklenti özelliğine ER biçimleri eklemek için aşağıd
 
 ### <a name="feature-setups"></a>Özellik kurulumları
 
-Özellik kurulumları, üçüncü taraf bir Web hizmetiyle ilgili iletişim ve güvenlik kurallarını içerir. Elektronik faturalama eklenti özelliği, gerçekleştirmek istediğiniz iş kuralına bağlı olarak, gereken sayıda özellik kurulumu içerebilir.
+Özellik kurulumları, üçüncü taraf bir Web hizmetiyle ilgili iletişim ve güvenlik kurallarını içerir. Elektronik faturalama özelliği, gerçekleştirmek istediğiniz iş kuralına bağlı olarak, gereken sayıda özellik kurulumu içerebilir.
 
-Elektronik faturalama eklenti özelliğine özellik kurulumlarını eklemek için aşağıdaki adımları izleyin.
+Elektronik faturalama özelliğine özellik kurulumlarını eklemek için aşağıdaki adımları izleyin.
 
-1. Elektronik faturalama eklentisi özelliğine özellik kurulumlarını eklemek için, **Elektronik faturalama eklentisi özellikleri** sayfasında **Kurulumlar** sekmesinde **Ekle**'yi seçin.
+1. Elektronik faturalama özelliğine özellik kurulumlarını eklemek için, **Elektronik faturalama özellikleri** sayfasında **Kurulumlar** sekmesinde **Ekle**'yi seçin.
 
-    ![Elektronik faturalama eklentisi özelliği kurulumlarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektronik faturalama özelliği kurulumlarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > Sıfırdan bir Elektronik faturalama eklenti özelliği oluşturduğunuzda, gereksinim duyduğunuz tüm özellik kurulumlarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama eklenti özelliği türettiğinizde, özgün elektronik faturalama eklentisi özelliğinden devralındığından, tüm özellik kurulumları otomatik olarak oluşturulur.
+    > Sıfırdan bir Elektronik faturalama özelliği oluşturduğunuzda, gereksinim duyduğunuz tüm özellik kurulumlarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama özelliği türettiğinizde, özgün elektronik faturalama özelliğinden devralındığından, tüm özellik kurulumları otomatik olarak oluşturulur.
 
 2. Özellik sürümü kurulumunu düzenlemek için **Düzenle** öğesini seçin.
 
-    ![Elektronik faturalama eklentisi özelliği kurulumlarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektronik faturalama özelliği kurulumlarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Eylemleri, uygulanabilirlik kurallarını ve değişkenleri yapılandırmak için **Özellik sürümü kurulumu** sayfasını kullanın.
 
@@ -104,7 +102,7 @@ Elektronik faturalama eklenti özelliğine özellik kurulumlarını eklemek içi
 
 ### <a name="actions"></a>Eylemler
 
-Eylemler, sıralı olarak çalışan, önceden tanımlanmış bir operasyonlar listesidir. Bu liste, Elektronik faturalama eklentisi özelliğinin tam yürütülmesi için gereken adımların dökümünü gösterir. Eylemler, aynı elektronik faturalama ek bileşeni ile iletişimi her iki yönde de kapsülleyebilirsiniz: bir hedef için istek gönderme, yanıt alma ve içeriğini ayrıştırma.
+Eylemler, sıralı olarak çalışan, önceden tanımlanmış bir operasyonlar listesidir. Bu liste, Elektronik faturalama özelliğinin tam yürütülmesi için gereken adımların dökümünü gösterir. Eylemler, aynı elektronik faturalama özelliği ile iletişimi her iki yönde de kapsülleyebilirsiniz: bir hedef için istek gönderme, yanıt alma ve içeriğini ayrıştırma.
 
 Her eylem, eylemin amacını yerine getirmek için gerekli olan parametrelerin önceden tanımlı bir listesini içerir. Ek parametreler isteğe bağlı olarak sağlanabilir.
 
@@ -255,7 +253,7 @@ Kullanılabilir parametreler, **Eylemler** hızlı sekmesinde seçilen eyleme g�
 
 ### <a name="applicability-rules"></a>Uygulanabilirlik kuralları
 
-Uygulanabilirlik kuralları, özellik kurulumu için kullanım bağlamını belirleyen mantıksal kurallar oluşturmanıza olanak sağlar. Böylece, işlem için gönderilen iş ile ilgili belge tarafından verilen bağlam ile uygulanabilirlik kuralı ölçütleriyle eşleşmesi söz konusu gönderimi işlemek için hangi elektronik faturalama eklentisi özelliğinin kullanılacağını belirler.
+Uygulanabilirlik kuralları, özellik kurulumu için kullanım bağlamını belirleyen mantıksal kurallar oluşturmanıza olanak sağlar. Böylece, işlem için gönderilen iş ile ilgili belge tarafından verilen bağlam ile uygulanabilirlik kuralı ölçütleriyle eşleşmesi söz konusu gönderimi işlemek için hangi elektronik faturalama özelliğinin kullanılacağını belirler.
 
 #### <a name="set-up-applicability-rules"></a>Uygulanabilirlik kurallarını kurma
 
@@ -290,7 +288,7 @@ Aşağıdaki tabloda, **Uygulanabilirlik kuralları** sekmesinde kullanılabilec
 
 ### <a name="variables"></a>Değişkenler
 
-Değişkenler oluşturabilir ve belirli bir eylemin parametresi için giriş değeri olarak kullanabilirsiniz. Bunları, Elektronik faturalama eklenti hizmetleri ve istemci arasında, gönderim akışının kapsamında belirli bir eylemi yürütmenin sonucu olan bilgiler ile alış veriş yapmak için kullanabilirsiniz.
+Değişkenler oluşturabilir ve belirli bir eylemin parametresi için giriş değeri olarak kullanabilirsiniz. Bunları, Elektronik faturalama hizmetleri ve istemci arasında, gönderim akışının kapsamında belirli bir eylemi yürütmenin sonucu olan bilgiler ile alış veriş yapmak için kullanabilirsiniz.
 
 #### <a name="set-up-variables"></a>Değişkenlerini ayarla
 
@@ -318,45 +316,45 @@ Doğrulama tüm yapılandırmalarda tutarlılığını denetler. Örneğin, bir 
 
 ## <a name="environments"></a>Ortamlar
 
-Elektronik faturalama eklenti ortamı, elektronik faturalama eklentisi özelliğiyle ilişkilendirilmiş ve bu özellik için etkinleştirilmiş olmalıdır. Elektronik faturalama eklenti ortamları, kuruluşunuzun RCS hesabındaki Genelleştirme özelliklerinin yapılandırılmasıyla önceden oluşturulup yayımlanmalıdır.
+Elektronik faturalama ortamı, elektronik faturalama özelliğiyle ilişkilendirilmiş ve bu özellik için etkinleştirilmiş olmalıdır. Elektronik faturalama ortamları, kuruluşunuzun RCS hesabındaki Genelleştirme özelliklerinin yapılandırılmasıyla önceden oluşturulup yayımlanmalıdır.
 
-Elektronik faturalama eklenti ortamını, Elektronik faturalama eklentisi özelliği için etkinleştirmek üzere şu adımları izleyin.
+Elektronik faturalama ortamını, Elektronik faturalama özelliği için etkinleştirmek üzere şu adımları izleyin.
 
-1. Elektronik faturalama eklentisi ortamını eklemek için, **Elektronik faturalama eklentisi özellikleri** sayfasında **Ortamlar** sekmesinde **Etkinleştir**'i seçin.
+1. Elektronik faturalama ortamını eklemek için, **Elektronik faturalama özellikleri** sayfasında **Ortamlar** sekmesinde **Etkinleştir**'i seçin.
 2. **Geçerlilik başlangıcı** alanına, yeni ortamın geçerli olacağı tarihi girin.
 
-![Elektronik faturalama eklentisi ortamını etkinleştirme](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Elektronik faturalama ortamını etkinleştirme](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Kuruluşlar
 
-Elektronik faturalama eklentisi özelliği birden çok kuruluş arasında paylaşılabilir.
+Elektronik faturalama özelliği birden çok kuruluş arasında paylaşılabilir.
 
-- Elektronik faturalama eklenti özelliklerini paylaşmak istediğiniz kuruluşu eklemek için, **Elektronik faturalama eklenti özelliği** sayfasında **Kuruluşlar** sekmesinde, **Paylaş**'ı seçin.
+- Elektronik faturalama özelliklerini paylaşmak istediğiniz kuruluşu eklemek için, **Elektronik faturalama özelliği** sayfasında **Kuruluşlar** sekmesinde, **Paylaş**'ı seçin.
 
-Elektronik faturalama eklentisi özelliğini kuruluşla paylaşmayı durdurmak için, **Paylaşımını kaldır**'ı seçin.
+Elektronik faturalama özelliğini kuruluşla paylaşmayı durdurmak için, **Paylaşımını kaldır**'ı seçin.
 
 ## <a name="versions"></a>Sürümler
 
-Sürümler, durumunu yöneterek Elektronik faturalama eklenti özelliği kullanım ömrünün kontrol altına alınmasına yardım eder. Var olan bir elektronik faturalama eklentisi özelliğinin yeni sürümünü oluşturabilir veya Elektronik faturalama eklentisi özelliği için tüm yapılandırmalar tamamlandığında, özelliğin durumunu **Tamamlandı** olarak, sonrasında da **Yayımla** olarak değiştirebilirsiniz.
+Sürümler, durumunu yöneterek Elektronik faturalama özelliği kullanım ömrünün kontrol altına alınmasına yardım eder. Var olan bir elektronik faturalama özelliğinin yeni sürümünü oluşturabilir veya Elektronik faturalama özelliği için tüm yapılandırmalar tamamlandığında, özelliğin durumunu **Tamamlandı** olarak, sonrasında da **Yayımla** olarak değiştirebilirsiniz.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Var olan bir Elektronik faturalama eklenti özelliğinin yeni sürümünü oluşturma
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Var olan bir Elektronik faturalama özelliğinin yeni sürümünü oluşturma
 
-1. **Elektronik faturalama eklentisi özellikleri** sayfasında soldaki kılavuzda Elektronik faturalama eklenti özelliğini seçin.
-2. **Sürümler** sekmesinde, elektronik faturalama eklentisi özelliğinin yeni bir sürümünü eklemek için **Yeni**'yi seçin.
+1. **Elektronik faturalama özellikleri** sayfasında soldaki kılavuzda Elektronik faturalama özelliğini seçin.
+2. **Sürümler** sekmesinde, elektronik faturalama özelliğinin yeni bir sürümünü eklemek için **Yeni**'yi seçin.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Elektronik faturalama eklentisi özelliğinin durumunu değiştirme
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğinin durumunu değiştirme
 
-Elektronik faturalama eklenti özelliğinin yaşam döngüsünü yönetmek için aşağıdaki adımları izleyin.
+Elektronik faturalama özelliğinin yaşam döngüsünü yönetmek için aşağıdaki adımları izleyin.
 
-1. **Elektronik faturalama eklentisi özellikleri** sayfasında soldaki kılavuzda Elektronik faturalama eklenti özelliğini seçin.
+1. **Elektronik faturalama özellikleri** sayfasında soldaki kılavuzda Elektronik faturalama özelliğini seçin.
 2. **Sürümler** sekmesinde **Durumu Değiştir**'i seçin ve sonra durumu **Taslak**'tan **Tamamlandı**'ya değiştirin.
-3. Elektronik faturalama eklentisi özelliğini ve tüm bileşenlerini tamamlamak istediğinizi onaylamanız istenir. Eylemi onaylamak için **Evet**'i, iptal etmek için **Hayır**'ı seçin.
+3. Elektronik faturalama özelliğini ve tüm bileşenlerini tamamlamak istediğinizi onaylamanız istenir. Eylemi onaylamak için **Evet**'i, iptal etmek için **Hayır**'ı seçin.
 
     > [!NOTE]
-    > **Evet**'i seçtiğinizde, Elektronik faturalama eklentisi özelliğinin bileşenleri olan yapılandırma sürümlerinin durumu otomatik olarak **Taslak**'tan **Tamamlandı**'ya geçer.
+    > **Evet**'i seçtiğinizde, Elektronik faturalama özelliğinin bileşenleri olan yapılandırma sürümlerinin durumu otomatik olarak **Taslak**'tan **Tamamlandı**'ya geçer.
 
 4. **Durumu Değiştir**'i seçin ve sonra durumu **Taslak**'tan **Yayımla**'ya değiştirin.
-5. Elektronik faturalama eklentisi özelliğini ve tüm bileşenlerini Genel depoya yayımlamak istediğinizi onaylamanız istenir. Eylemi onaylamak için **Evet**'i, iptal etmek için **Hayır**'ı seçin.
+5. Elektronik faturalama özelliğini ve tüm bileşenlerini Genel depoya yayımlamak istediğinizi onaylamanız istenir. Eylemi onaylamak için **Evet**'i, iptal etmek için **Hayır**'ı seçin.
 
     > [!NOTE]
     > **Evet**'i seçtiğinizde, yapılandırma versiyonlarının durumu otomatik olarak **Tamamlandı**'dan **Paylaşılanlar** olarak değiştirilir.

@@ -2,11 +2,9 @@
 title: Günlükler için gelişmiş kurallar oluşturma
 description: Bu yordam, günlükler için gelişmiş kurallar oluşturmayı adım adım açıklar.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalControl, CompanyLookup, LedgerJournalPostControl
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e61ed731c4040e7351e20421f6cf217ae9a4641d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cd753d521dc4ad4c1e46bf51d9c1e4aa0ba02721
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222371"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832814"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Günlükler için gelişmiş kurallar oluşturma
 

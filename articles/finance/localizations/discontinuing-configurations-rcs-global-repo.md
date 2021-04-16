@@ -2,7 +2,6 @@
 title: RCS genel deposunda yapılandırmaları sona erdirme
 description: Bu konuda, RCS genel deposundaki yapılandırmaların nasıl sona erdirileceği açıklanmaktadır.
 author: JaneA07
-manager: AnnBe
 ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 35d0af91161d898b09557a83913019609c71e836
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 25ad0744e7c3320505c13c465d440b6a364da47c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474260"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840304"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>RCS genel deposunda yapılandırmaları sona erdirme
 

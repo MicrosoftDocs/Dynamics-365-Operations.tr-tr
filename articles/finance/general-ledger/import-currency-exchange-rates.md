@@ -2,11 +2,9 @@
 title: Para birimi döviz kurlarını içe aktarma
 description: Bu konu, döviz kuru sağlayıcıları tarafından yayımlanan yabancı döviz referans oranlarını içe aktarma gereksinimleri hakkında bilgi sağlar.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249131"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823752"
 ---
 # <a name="import-currency-exchange-rates"></a>Para birimi döviz kurlarını içe aktarma
 
@@ -35,9 +33,8 @@ Aşağıdaki bölümler, yabancı döviz kurlarının içe aktarılmasında kull
 ## <a name="configure-an-exchange-rate-provider"></a>Bir döviz kuru sağlayıcısı yapılandırma
 Döviz kurlarını almadan önce, döviz kurlarını sunan sağlayıcılar tarafından gerek duyulan bilgileri ayarlamanız gerekir. **Döviz kuru sağlayıcılarını yapılandır** sayfasını kullanarak döviz kuru sağlayıcılarını seçin. Bazı döviz kuru sağlayıcıları Dynamics 365 Finance içerisindeki örnek veride bulunmaktadır. Aşağıdaki tabloda bu sayfadaki kontrollerle ilgili açıklamalar bulunur.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Alan** | **Açıklama**                                                                                                                                                                                                             |
+| Alan | Tanım                   |
+|-----------|-----------------------------------|
 | **Ad**  | Döviz kuru sağlayıcının adı.                                                                                                                                                                                     |
 | **Anahtar**   | Sağlayıcının istediği yapılandırma bilgilerinin her parçası için benzersiz kimlik. Her döviz kuru sağlayıcı ekleyişinizde bu bilgiler otomatik olarak eklenir. |
 | **Value** | Her bir anahtar için bilgi. Her döviz kuru sağlayıcı ekleyişinizde bu bilgiler eklenir.                                                                                         |
@@ -45,9 +42,8 @@ Döviz kurlarını almadan önce, döviz kurlarını sunan sağlayıcılar taraf
 ## <a name="import-currency-exchange-rates"></a>Para birimi döviz kurlarını içe aktarma
 Döviz kurlarını, döviz kurları sağlayıcı kaynağından alabilirsiniz ve onları **Para birimi döviz kurları** sayfasında ekleyebilirsiniz. Döviz kurlarını içe aktarmak için **Para birimi döviz kurlarını alma** sayfasını kullanın. Aşağıdaki tablo, alma işlemini başarıyla tamamlamak için gerekli alanların açıklamalarını sağlar.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Alan**                              | **Açıklama**                                                                                                                                                                                                                                                                                                                                                             |
+| Alan | Tanım                   |
+|-----------|-----------------------------------|
 | **Döviz kuru türü**                 | Bir döviz kuru tipi.                                                                                                                                                                                                                                                                                                                                                      |
 | **Döviz kuru sağlayıcı**             | Bir döviz kuru sağlayıcısı.                                                                                                                                                                                                                                                                                                                                                  |
 | **Şu tarihten itibaren içe aktar:**                       | Bu parametre, geçerli tarihten itibaren veya belirli bir tarih aralığı için almayı yönetir. Bir tarih aralığı kullanmak istiyorsanız, başlangıç ve bitiş tarihlerini seçin.                                                                                                                                                                                                                |

@@ -2,11 +2,9 @@
 title: Yüzde 150 azalan bakiyeli amortisman
 description: Bu makale, amortismanın Yüzde 150 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4edc868b76d466c41be8036b962730db90eeb68a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1c6b7e92ea8b20123c0b1c1747c49847b0e2420
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249449"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827182"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Yüzde 150 azalan bakiyeli amortisman
 
@@ -66,7 +64,7 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>%150 azalan bakiyeli amortisman örneği
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Alım maliyeti               | 11.000 |
 | Hurda değeri                  | 1.000  |

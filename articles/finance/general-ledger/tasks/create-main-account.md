@@ -2,11 +2,9 @@
 title: Ana hesap oluşturma
 description: Bu görev kılavuzu, mevcut bir hesap planına ana hesap eklemeyi adım adım açıklar.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1d1bfe358bbff1720e7d013c3bfeaba1a598ed0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 01483e6bd059520322d185c946222e35321072bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837021"
 ---
 # <a name="create-a-main-account"></a>Ana hesap oluşturma
 
