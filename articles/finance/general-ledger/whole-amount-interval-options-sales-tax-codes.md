@@ -2,11 +2,9 @@
 title: Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 description: Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234129"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842380"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 
@@ -46,9 +44,8 @@ Bir tutarın önceki bir aralığın Maksimum sınırı ve sonraki aralığın M
 ## <a name="example-whole-amount-method-of-calculation"></a>Örnek: Tüm tutar hesaplama yöntemi
 Satış vergisi kod değerleri sayfasında, satış vergisi oranları aşağıdaki aralıklarda ayarlanır:
 
-|                   |                   |              |
+| Minimum sınır     | Maksimum sınır     | Vergi oranı     |
 |-------------------|-------------------|--------------|
-| **Minimum sınır** | **Maksimum sınır** | **Vergi oranı** |
 | 0,00              | 50,00             | %30          |
 | 50,00             | 100,00            | %20          |
 | 100,00            | 0,00              | %10          |
@@ -65,9 +62,8 @@ Satış vergisi, vergiye tabi tüm tutar üzerinde hesaplanır.
 ## <a name="example-interval-method-of-calculation"></a>Örnek: Aralık hesaplama yöntemi
 Değerler sayfasında, satış vergisi oranları aşağıdaki aralıklarda belirlenir:
 
-|                   |                   |              |
+| Minimum sınır     | Maksimum sınır     | Vergi oranı     |
 |-------------------|-------------------|--------------|
-| **Minimum sınır** | **Maksimum sınır** | **Vergi oranı** |
 | 0,00              | 50,00             | %30          |
 | 50,00             | 100,00            | %20          |
 | 100,00            | 0,00              | %10          |

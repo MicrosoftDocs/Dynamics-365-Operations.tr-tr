@@ -1,12 +1,10 @@
 ---
-title: Elektronik faturalama eklentisini kullanmaya başlangıç
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
+title: Elektronik faturalamayı kullanmaya başlama
+description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management ile Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
 author: gionoder
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,83 +15,82 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: cf553f2ffecf18859b88932e68360231ca46410f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592562"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840136"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on"></a>Elektronik faturalama eklentisini kullanmaya başlangıç
+# <a name="get-started-with-electronic-invoicing"></a>Elektronik faturalamayı kullanmaya başlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Elektronik faturalama eklentisini kullanmaya başlamanıza yardımcı olacak bilgiler içerir.
-
-Aşağıdaki tabloda Elektronik faturalama özellikleri ve uygulanabilecekleri iş belgeleri listelenmektedir.
-
-| Özellik adı                         | İş belgesi |
-|--------------------------------------|-------------------|
-| Avusturya elektronik faturaları (AT)    | <p>Satış faturası</p><p>Proje faturası</p> |
-| Belçika elektronik faturası (BE)      | <p>Satış faturası</p><p>Proje faturası</p> |
-| Brezilya NF-e (BR)                  | <p>Mali belge modeli 55</p><p>Düzeltme mektubu</p> |
-| Brezilya NFS-e ABRASF Curitiba (BR) | Servis Mali belgesi |
-| Danimarka elektronik faturası (DK)       | <p>Satış faturası</p><p>Proje faturası</p> |
-| Mısır elektronik faturası (EG)     | <p>Satış faturası</p><p>Proje faturası</p> |
-| Estonya elektronik faturası (EE)     | <p>Satış faturası</p><p>Proje faturası</p> |
-| Finlandiya elektronik faturası (FI)       | <p>Satış faturası</p><p>Proje faturası</p> |
-| Fransa elektronik faturası (FR)       | <p>Satış faturası</p><p>Proje faturası</p> |
-| Alman elektronik faturası (DE)       | <p>Satış faturası</p><p>Proje faturası</p> |
-| FatturaPA (IT)                       | <p>Satış faturası</p><p>Proje faturası</p> |
-| Meksika CFDI Interfactura (MX)       | <p>Satış faturası</p><p>Sevk irsaliyesi</p><p>Stok transferi</p><p>Ödeme tamamlayıcısı</p> |
-| Hollanda elektronik faturası (NL)        | <p>Satış faturası</p><p>Proje faturası</p> |
-| Norveç elektronik faturası (NO)    | <p>Satış faturası</p><p>Proje faturası</p> |
-| İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> |
-| PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> |
+Bu konu, Elektronik faturalamayı kullanmaya başlamanıza yardımcı olacak bilgiler içerir. Bu konu, Regulatory Configuration Services (RCS) ve Dynamics 365 Finance içindeki genel konfigürasyon adımlarında size kılavuzluk eder ve iş belgelerini göndermek ve işleme sonuçlarını gözden geçirmek için izlemeniz gereken adımları sağlar.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
 Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerine getirilmesi gerekir:
 
-- Elektronik faturalama eklentisine gönderim yapabilmek için Regulatory Configuration Service (RCS) ve Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management ortamınızı yapılandırın.
-- Bir hizmet ortamı oluşturun ve elektronik faturalama eklentisinde yayınlayın. Daha fazla bilgi için bkz. [Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlangıç](e-invoicing-get-started-service-administration.md).
-- Bağlı bir uygulama oluşturun. Daha fazla bilgi için bkz. [Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlangıç](e-invoicing-get-started-service-administration.md).
-- Kuruluşunuz için bir yapılandırma sağlayıcısı oluşturun. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcısı oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+- Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) ve Microsoft Dynamics 365 Finance veya Dynamics 365 Supply Chain Management ortamınızı yapılandırın. Daha fazla bilgi için bkz. [Elektronik faturalama hizmet yönetimini kullanmaya başlama](e-invoicing-get-started-service-administration.md).
+- Kuruluşunuz için bir yapılandırma sağlayıcısı oluşturun. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Microsoft yapılandırma sağlayıcısından Elektronik faturalama özelliğini içeri aktarma 
 
 1. Regulatory Configuration Service (RCS) hesabınızda oturum açın.
-2. **Genelleştirme özelliği** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
+2. **Genelleştirme özelliği** çalışma alanında, **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 3. **İçeri aktar**'ı seçin ve sonra **Eşitle**'yi seçin.
 4. **Yapılandırma sağlayıcısı** sütununu **Microsoft** terimini göre filtreleyin.
 5. Bu konunun başındaki tablodan elektronik faturalama özelliğinin adını seçin ve sonra **İçeri Aktar**'ı seçin.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Kuruluş sağlayıcınız altında Elektronik faturalama özelliği oluşturma
 
-1. RCS'de **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama eklentisi** kutucuğunu seçin.
+1. RCS'te **Genelleştirme özelliği** çalışma alanının **Özellikler** bölümünde, **Elektronik faturalama** kutucuğunu seçin.
 2. **Ekle** > **Var olan özelliğe göre**'yi seçin ve **Ad** alanına Elektronik faturalama özelliğinin adını girin.
 3. **Açıklama** alanına özellik için bir açıklama girin.
 4. **Temel özellik alanında**, Microsoft yapılandırma sağlayıcısından içeri aktarılan Elektronik faturalama özelliğini seçin.
 5. **Özellik oluştur**'u seçin.
 
-## <a name="configure-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğini yapılandırma
+## <a name="country-specific-configuration-for-electronic-invoicing-feature"></a>Elektronik faturalama özelliği için ülkeye özel yapılandırma
 
-Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir. 
+Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği belirli bir yapılandırma gerektirebilir. 
 
 Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
+
+## <a name="import-the-model-mapping-configurations-from-electronic-reporting"></a>Elektronik raporlama için model eşleme yapılandırmalarını içe aktarma
+
+1. RCS'de, **Elektronik raporlama** çalışma alanını seçin.
+2. **Microsoft** yapılandırma sağlayıcı listesinden **depolar**'ı seçin.
+3. **Genel**'i seçin ve eylem bölmesinde **aç**'ı seçin.
+4. Model eşleme yapılandırmalarını aşağıdaki özellik adına göre oluşturulan tabloya uygun şekilde içe aktarın.
+
+| Özellik adı                         | Model eşleme yapılandırması |
+|--------------------------------------|-----------------------------|
+| Avusturya elektronik faturaları (AT)    | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Belçika elektronik faturası (BE)      | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Brezilya NF-e (BR)                  | <p>Müşteri faturası bağlam modeli</p><p>Mali belgeler</p><p>Yanıt iletisi modeli</p> |
+| Brezilya NFS-e ABRASF Curitiba (BR) | <p>Müşteri faturası bağlam modeli</p><p>Mali belgeler</p><p>Yanıt iletisi modeli</p> |
+| Danimarka elektronik faturası (DK)       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Mısır elektronik faturası (EG)     | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p><p>Yanıt iletisi modeli</p> |
+| Estonya elektronik faturası (EE)     | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Finlandiya elektronik faturası (FI)       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Fransa elektronik faturası (FR)       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Alman elektronik faturası (DE)       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| FatturaPA (IT)                       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Meksika CFDI Interfactura (MX)       | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p><p>Yanıt iletisi modeli</p> |
+| Hollanda elektronik faturası (NL)        | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| Norveç elektronik faturası (NO)    | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| İspanya elektronik faturası (ES)      | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+| PEPPEOL elektronik faturası            | <p>Müşteri faturası bağlam modeli</p><p>Fatura modeli</p> |
+
 
 ## <a name="configure-the-application-setup"></a>Uygulama kurulumunu yapılandırma
 
 1. Oluşturduğunuz elektronik faturalama özelliğini seçin.
-2. **Sürüm** sekmesinde **Taslak** sürümünün seçili olduğunu doğrulayın.
-3. **Kurulumlar** sekmesinde **Uygulama Kurulumu**'nu seçin.
-
-    > [!NOTE]
-    > Kuruluşunuzun **Etkin** yapılandırma sağlayıcısı olarak ayarlı olduğunu doğrulayın. Daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-
-4. **Özellik kurulumu**'nu seçin ve sonra **Bağlı uygulama**'yı seçin.
-5. **Elektronik belge türleri** bölümünde **Ekle**'yi seçin.
-6. Özelliğin desteklediği her iş belgesi için aşağıdaki tabloya göre bir **Tablo adı** değeri seçip girin.
+2. **Kurulumlar** sekmesinde **Uygulama Kurulumu**'nu seçin.
+3. **Uygulama bağla** alanında Finance veya Supply Chain Management krulumunuzla ilişkili bağlantıyı seçin.
+4. **Elektronik belge türleri** bölümünde **Ekle**'yi seçin.
+5. Aşağıdaki tabloya göre bir **tablo adı** değeri seçin ve girin.
 
     | Özellik adı                         | İş belgesi | Tablo adı |
     |--------------------------------------|-------------------|------------|
@@ -114,7 +111,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri fatura günlüğü</p><p>Proje faturası</p> |
 
-7. Özelliğin desteklediği her iş belgesi için aşağıdaki tabloya göre bir **Bağlam** değeri seçip girin.
+7. Oluşturduğunuz her tablo adı için aşağıdaki tabloya göre bir bağlam değeri seçin ve girin.
 
     | Özellik adı                         | İş belgesi | Bağlam |
     |--------------------------------------|-------------------|---------|
@@ -135,7 +132,7 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Müşteri faturası bağlam modeli – Müşteri faturası bağlamı</p><p>Müşteri faturası bağlam modeli – Proje faturası bağlamı</p> |
 
-8. Özelliğin desteklediği her iş belgesi için aşağıdaki tabloya göre bir **İş belgesi eşleme** değeri seçin ve girin.
+8. Her tablo adı ve bağlamı için aşağıdaki tabloya göre bir iş belgesi eşleme değeri seçip girin.
 
     | Özellik adı                         | İş belgesi | İş belgesi eşleme |
     |--------------------------------------|-------------------|---------------------------|
@@ -156,21 +153,32 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
     | İspanya elektronik faturası (ES)      | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
     | PEPPEOL elektronik faturası            | <p>Satış faturası</p><p>Proje faturası</p> | <p>Fatura modeli eşlemesi – Müşteri faturası</p><p>Fatura modeli eşlemesi – Proje faturası</p> |
 
-Ülke/bölgeye bağlı olarak, Elektronik faturalama özelliği ek yapılandırma gerektirebilir.
+
+## <a name="country-specific-configuration-of-application-setup"></a>Uygulama kurulumunun ülkeye özel yapılandırması
+
+Ülke/bölgeye bağlı olarak, Uygulama kurulumu özelliği belirli bir yapılandırma gerektirebilir. 
 
 Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgelerine bakın.
 
-## <a name="deploy-the-electronic-invoicing-feature"></a>Elektronik faturalama özelliğini dağıtma
+## <a name="deploy-the-electronic-invoicing-feature-to-service-environment"></a>Elektronik faturalama özelliğini servis ortamına dağıtma
 
 1. **Sürümler** sekmesinde, dağıtmak istediğiniz Elektronik faturalama özelliği sürümünü seçin.
 2. **Durumu değiştir** \> **Tamamla**'yı seçin.
 3. **Durumu değiştir** \> **Yayınla**'yı seçin.
 4. **Dağıt**'ı seçin.
+5. **Bağlı uygulamaya dağıt** seçeneğini **Hayır** olarak ayarlayın.
+6. **Hizmet ortamına dağıt** seçeneğini **Evet** olarak ayarlayın.
+7. **Hizmet ortamı** alanında, Elektronik faturalama özelliğini dağıtmak istediğiniz Elektronik faturalama hizmet ortamını seçin.
+8. **Başlangıç tarihi** alanında, Elektronik faturalama özelliğinin Elektronik faturalamada etkili olması gereken tarihi seçin.
+9. **Tamam**'ı seçin.
+
+## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Elektronik faturalama özelliğini Bağlı uygulamaya dağıtma
+
+1. **Sürümler** sekmesinde, dağıtmak istediğiniz Elektronik faturalama özelliği sürümünü seçin.
+4. **Dağıt**'ı seçin.
 5. **Bağlı uygulamaya dağıt** seçeneğini **Evet** olarak ayarlayın.
-6. **Uygulama bağla** sayfasında, Finance veya Supply Chain Management krulumunuzla ilişkili bağlantıyı seçin.
-7. **Hizmet ortamına dağıt** seçeneğini **Evet** olarak ayarlayın.
-8. **Hizmet ortamı** alanında, Elektronik faturalama özelliğini dağıtmak istediğiniz Elektronik faturalama eklentisi hizmet ortamını seçin.
-9. **Başlangıç tarihi** alanında, Elektronik faturalama özelliğinin Elektronik faturalama eklentisinde etkili olması gereken tarihi seçin.
+6. **Uygulama bağla** alanında Finance veya Supply Chain Management krulumunuzla ilişkili bağlantıyı seçin.
+7. **Hizmet ortamına dağıt** seçeneğini **Hayır** olarak ayarlayın.
 10. **Tamam**'ı seçin.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Finance veya Supply Chain Management'ta Elektronik faturalama özelliğini açma
@@ -228,11 +236,11 @@ Belirli adımlar için ülke/bölgeniz için kullanılabilen "Başlarken" belgel
 
 ## <a name="related-topics"></a>İlgili konular
 
-- [Elektronik faturalama eklentisine genel bakış](e-invoicing-service-overview.md)
-- [Elektronik faturalama eklentisi hizmet yönetimini kullanmaya başlama](e-invoicing-get-started-service-administration.md)
-- [Brezilya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-bra-get-started.md)
-- [Meksika için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-mex-get-started.md)
-- [İtalya için Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-ita-get-started.md)
+- [Elektronik faturalamaya genel bakış](e-invoicing-service-overview.md)
+- [Elektronik faturalama hizmet yönetimini kullanmaya başlama](e-invoicing-get-started-service-administration.md)
+- [Brezilya için Elektronik faturalamayı kullanmaya başlama](e-invoicing-bra-get-started.md)
+- [Meksika için Elektronik faturalamayı kullanmaya başlama](e-invoicing-mex-get-started.md)
+- [İtalya için Elektronik faturalamayı kullanmaya başlama](e-invoicing-ita-get-started.md)
 - [Mısır'da elektronik müşteri faturaları](emea-egy-e-invoices.md)
 
 
