@@ -2,11 +2,9 @@
 title: Fatura havuzu kullanarak fatura verilerini AP sistemine girme
 description: Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağını açıklar.
 author: abruer
-manager: AnnBe
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,58 +12,58 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670dd2ec15aa26791758ec4bea2b431482499436
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227172"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820677"
 ---
-# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a><span data-ttu-id="fb761-103">Fatura havuzu kullanarak fatura verilerini AP sistemine girme</span><span class="sxs-lookup"><span data-stu-id="fb761-103">Key invoice data into the AP system using invoice pool</span></span>
+# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a><span data-ttu-id="5126c-103">Fatura havuzu kullanarak fatura verilerini AP sistemine girme</span><span class="sxs-lookup"><span data-stu-id="5126c-103">Key invoice data into the AP system using invoice pool</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fb761-104">Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="fb761-104">This topic describes how to use the invoice register to create invoices.</span></span> <span data-ttu-id="fb761-105">Bunun ardından, faturayı bir satınalma siparişiyle eşleştirmek ve satıcı faturası sayfasında gideri sonlandırmak için fatura havuzunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="fb761-105">Then use the invoice pool to match the invoice to a purchase order and finalize the expense in the vendor invoice page.</span></span>
+<span data-ttu-id="5126c-104">Bu konu, fatura kaydının faturaları oluşturmak için nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="5126c-104">This topic describes how to use the invoice register to create invoices.</span></span> <span data-ttu-id="5126c-105">Bunun ardından, faturayı bir satınalma siparişiyle eşleştirmek ve satıcı faturası sayfasında gideri sonlandırmak için fatura havuzunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="5126c-105">Then use the invoice pool to match the invoice to a purchase order and finalize the expense in the vendor invoice page.</span></span>
 
 
-## <a name="create-a-purchase-order"></a><span data-ttu-id="fb761-106">Satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="fb761-106">Create a purchase order</span></span>
-1. <span data-ttu-id="fb761-107">Gezinti bölmesinde **Modüller > Borç hesapları > Satınalma siparişleri > Satın alma siparişleri** öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="fb761-107">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > Purchase orders**.</span></span>
-2. <span data-ttu-id="fb761-108">Satınalma siparişi oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-108">Select **New** to create a purchase order.</span></span>
-3. <span data-ttu-id="fb761-109">**Satıcı hesabı** alanında, açılır liste için bir satıcı belirleyin.</span><span class="sxs-lookup"><span data-stu-id="fb761-109">In the **Vendor account** field, select a vendor for the drop-down list.</span></span> <span data-ttu-id="fb761-110">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-110">For example, select vendor **1001**.</span></span>
-4. <span data-ttu-id="fb761-111">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-111">Select **OK**.</span></span>
-5. <span data-ttu-id="fb761-112">**Madde numarası** alanında, açılık menüde hizmet madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-112">In the **Item number** field, select the services item number in the drop-down list.</span></span> <span data-ttu-id="fb761-113">Örneğin, **S0001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-113">For example, select **S0001**.</span></span> <span data-ttu-id="fb761-114">Net tutar 75,00'tir.</span><span class="sxs-lookup"><span data-stu-id="fb761-114">The net amount is 75.00.</span></span>  <span data-ttu-id="fb761-115">Bu, faturada olmasını beklediğimiz tutardır.</span><span class="sxs-lookup"><span data-stu-id="fb761-115">That is the amount that we will expect on the invoice.</span></span>  
-6. <span data-ttu-id="fb761-116">Eylem Bölmesinde, **Satınalma** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb761-116">On the action pane, select **Purchase**.</span></span>
-7. <span data-ttu-id="fb761-117">**Onayla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-117">Select **Confirm**.</span></span>
+## <a name="create-a-purchase-order"></a><span data-ttu-id="5126c-106">Satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="5126c-106">Create a purchase order</span></span>
+1. <span data-ttu-id="5126c-107">Gezinti bölmesinde **Modüller > Borç hesapları > Satınalma siparişleri > Satın alma siparişleri** öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="5126c-107">In the navigation pane, go to **Modules > Accounts payable > Purchase orders > Purchase orders**.</span></span>
+2. <span data-ttu-id="5126c-108">Satınalma siparişi oluşturmak için **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-108">Select **New** to create a purchase order.</span></span>
+3. <span data-ttu-id="5126c-109">**Satıcı hesabı** alanında, açılır liste için bir satıcı belirleyin.</span><span class="sxs-lookup"><span data-stu-id="5126c-109">In the **Vendor account** field, select a vendor for the drop-down list.</span></span> <span data-ttu-id="5126c-110">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-110">For example, select vendor **1001**.</span></span>
+4. <span data-ttu-id="5126c-111">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-111">Select **OK**.</span></span>
+5. <span data-ttu-id="5126c-112">**Madde numarası** alanında, açılık menüde hizmet madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-112">In the **Item number** field, select the services item number in the drop-down list.</span></span> <span data-ttu-id="5126c-113">Örneğin, **S0001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-113">For example, select **S0001**.</span></span> <span data-ttu-id="5126c-114">Net tutar 75,00'tir.</span><span class="sxs-lookup"><span data-stu-id="5126c-114">The net amount is 75.00.</span></span>  <span data-ttu-id="5126c-115">Bu, faturada olmasını beklediğimiz tutardır.</span><span class="sxs-lookup"><span data-stu-id="5126c-115">That is the amount that we will expect on the invoice.</span></span>  
+6. <span data-ttu-id="5126c-116">Eylem Bölmesinde, **Satınalma** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5126c-116">On the action pane, select **Purchase**.</span></span>
+7. <span data-ttu-id="5126c-117">**Onayla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-117">Select **Confirm**.</span></span>
 
-## <a name="create-and-post-and-invoice"></a><span data-ttu-id="fb761-118">Fatura oluşturun ve nakledin</span><span class="sxs-lookup"><span data-stu-id="fb761-118">Create and post and invoice</span></span>
-1. <span data-ttu-id="fb761-119">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="fb761-119">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
-2. <span data-ttu-id="fb761-120">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-120">Select **New**.</span></span>
-3. <span data-ttu-id="fb761-121">Kullanmak istediğiniz fatura kaydının adını seçmek için aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="fb761-121">Open the lookup to select the name of the invoice register that you want to use.</span></span>
-4. <span data-ttu-id="fb761-122">Kullanmak istediğiniz fatura kaydının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-122">Select the name of the invoice register that you want to use.</span></span>
-5. <span data-ttu-id="fb761-123">Defteri açıp gider satırlarını girmek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-123">Select **Lines** to open the register and enter expense lines.</span></span>
-6. <span data-ttu-id="fb761-124">Aramada bir satıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-124">In the lookup, select a vendor.</span></span> <span data-ttu-id="fb761-125">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-125">For example, select vendor **1001**.</span></span>
-7. <span data-ttu-id="fb761-126">**Fatura** alanına fatura numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="fb761-126">In the **Invoice** field, enter the invoice number.</span></span>
-8. <span data-ttu-id="fb761-127">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="fb761-127">In the **Description** field, type a value.</span></span>
-9. <span data-ttu-id="fb761-128">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fb761-128">In the **Credit** field, enter a number.</span></span>
-10. <span data-ttu-id="fb761-129">**Satınalma siparişi** alanında, önceden oluşturduğunuz satınalma siparişini seçmek için açılır listeyi açın.</span><span class="sxs-lookup"><span data-stu-id="fb761-129">In the **Purchase order** field, open the drop-down list to select the purchase order that you created earlier.</span></span>
-11. <span data-ttu-id="fb761-130">**Onaylayan** alanında açılır listeden bir onaylayan seçin ve o onaylayanı seçmek için **Seç**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fb761-130">In the **Approved by** field, highlight an approver in the drop-down list and click **Select** to select that approver.</span></span>
-12. <span data-ttu-id="fb761-131">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-131">Select **Post**.</span></span>
+## <a name="create-and-post-and-invoice"></a><span data-ttu-id="5126c-118">Fatura oluşturun ve nakledin</span><span class="sxs-lookup"><span data-stu-id="5126c-118">Create and post and invoice</span></span>
+1. <span data-ttu-id="5126c-119">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura kaydı**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="5126c-119">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice register**.</span></span>
+2. <span data-ttu-id="5126c-120">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-120">Select **New**.</span></span>
+3. <span data-ttu-id="5126c-121">Kullanmak istediğiniz fatura kaydının adını seçmek için aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5126c-121">Open the lookup to select the name of the invoice register that you want to use.</span></span>
+4. <span data-ttu-id="5126c-122">Kullanmak istediğiniz fatura kaydının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-122">Select the name of the invoice register that you want to use.</span></span>
+5. <span data-ttu-id="5126c-123">Defteri açıp gider satırlarını girmek için **Satırlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-123">Select **Lines** to open the register and enter expense lines.</span></span>
+6. <span data-ttu-id="5126c-124">Aramada bir satıcı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-124">In the lookup, select a vendor.</span></span> <span data-ttu-id="5126c-125">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-125">For example, select vendor **1001**.</span></span>
+7. <span data-ttu-id="5126c-126">**Fatura** alanına fatura numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="5126c-126">In the **Invoice** field, enter the invoice number.</span></span>
+8. <span data-ttu-id="5126c-127">**Tanım** alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5126c-127">In the **Description** field, type a value.</span></span>
+9. <span data-ttu-id="5126c-128">**Alacak** alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="5126c-128">In the **Credit** field, enter a number.</span></span>
+10. <span data-ttu-id="5126c-129">**Satınalma siparişi** alanında, önceden oluşturduğunuz satınalma siparişini seçmek için açılır listeyi açın.</span><span class="sxs-lookup"><span data-stu-id="5126c-129">In the **Purchase order** field, open the drop-down list to select the purchase order that you created earlier.</span></span>
+11. <span data-ttu-id="5126c-130">**Onaylayan** alanında açılır listeden bir onaylayan seçin ve o onaylayanı seçmek için **Seç**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5126c-130">In the **Approved by** field, highlight an approver in the drop-down list and click **Select** to select that approver.</span></span>
+12. <span data-ttu-id="5126c-131">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-131">Select **Post**.</span></span>
 
-## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a><span data-ttu-id="fb761-132">Havuzdan bir fatura açın ve bir satınalma siparişiyle eşleştirerek fatura işlemini tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="fb761-132">Open an invoice from the pool and match it to a purchase order to complete the invoice process</span></span>
-1. <span data-ttu-id="fb761-133">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura havuzu**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="fb761-133">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice pool**.</span></span>
-2. <span data-ttu-id="fb761-134">Havuzdaki faturadan bir satıcı faturası oluşturmak için **Satınalma siparişi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-134">Select **Purchase order** to create a vendor invoice from the invoice in the pool.</span></span>
-3. <span data-ttu-id="fb761-135">İncelemek istediğiniz faturayı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-135">Select the invoice that you want to review.</span></span>
-4. <span data-ttu-id="fb761-136">Eşleşmeyi tamamlamak için **Eşleştirme durumunu güncelleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-136">Select **Update match status** to complete the matching.</span></span>
-5. <span data-ttu-id="fb761-137">Eylem Bölmesinde, **Seçenekler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-137">On the action pane, select **Options**.</span></span>
-6. <span data-ttu-id="fb761-138">**Görünümü değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-138">Select **Change view**.</span></span>
-7. <span data-ttu-id="fb761-139">**Izgara görünümü**'nü seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-139">Select **Grid view**.</span></span>
-8. <span data-ttu-id="fb761-140">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-140">Select **Post**.</span></span>
-9. <span data-ttu-id="fb761-141">Formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="fb761-141">Close the form.</span></span>
-10. <span data-ttu-id="fb761-142">Gezinti Bölmesi'nde **Modüller > Borç hesapları > Satıcılar > Satıcılar**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="fb761-142">In the navigation pane, go to **Modules > Accounts payable > Vendors > Vendors**.</span></span>
-11. <span data-ttu-id="fb761-143">Satınalma siparişindeki satıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-143">Select the vendor that was on the purchase order.</span></span> <span data-ttu-id="fb761-144">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-144">For example, select vendor **1001**.</span></span>
-12. <span data-ttu-id="fb761-145">Eylem Bölmesinde, **Satıcılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-145">On the action pane, select **Vendor**.</span></span>
-13. <span data-ttu-id="fb761-146">**Hareketler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-146">Select **Transactions**.</span></span>
-14. <span data-ttu-id="fb761-147">Oluşturduğunuz faturayı seçin.</span><span class="sxs-lookup"><span data-stu-id="fb761-147">Select the invoice that you created.</span></span> <span data-ttu-id="fb761-148">Fatura kaydı tahakkuku ters kaydedilmiş ve ilgili gider hesabına nakledilmiştir.</span><span class="sxs-lookup"><span data-stu-id="fb761-148">The invoice register accrual was reversed and posted to the appropriate expense account.</span></span>  
+## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a><span data-ttu-id="5126c-132">Havuzdan bir fatura açın ve bir satınalma siparişiyle eşleştirerek fatura işlemini tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="5126c-132">Open an invoice from the pool and match it to a purchase order to complete the invoice process</span></span>
+1. <span data-ttu-id="5126c-133">Gezinti bölmesinde **Modüller > Borç hesapları > Faturalar > Fatura havuzu**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="5126c-133">In the navigation pane, go to **Modules > Accounts payable > Invoices > Invoice pool**.</span></span>
+2. <span data-ttu-id="5126c-134">Havuzdaki faturadan bir satıcı faturası oluşturmak için **Satınalma siparişi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-134">Select **Purchase order** to create a vendor invoice from the invoice in the pool.</span></span>
+3. <span data-ttu-id="5126c-135">İncelemek istediğiniz faturayı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-135">Select the invoice that you want to review.</span></span>
+4. <span data-ttu-id="5126c-136">Eşleşmeyi tamamlamak için **Eşleştirme durumunu güncelleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-136">Select **Update match status** to complete the matching.</span></span>
+5. <span data-ttu-id="5126c-137">Eylem Bölmesinde, **Seçenekler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-137">On the action pane, select **Options**.</span></span>
+6. <span data-ttu-id="5126c-138">**Görünümü değiştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-138">Select **Change view**.</span></span>
+7. <span data-ttu-id="5126c-139">**Izgara görünümü**'nü seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-139">Select **Grid view**.</span></span>
+8. <span data-ttu-id="5126c-140">**Naklet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-140">Select **Post**.</span></span>
+9. <span data-ttu-id="5126c-141">Formu kapatın.</span><span class="sxs-lookup"><span data-stu-id="5126c-141">Close the form.</span></span>
+10. <span data-ttu-id="5126c-142">Gezinti Bölmesi'nde **Modüller > Borç hesapları > Satıcılar > Satıcılar**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="5126c-142">In the navigation pane, go to **Modules > Accounts payable > Vendors > Vendors**.</span></span>
+11. <span data-ttu-id="5126c-143">Satınalma siparişindeki satıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-143">Select the vendor that was on the purchase order.</span></span> <span data-ttu-id="5126c-144">Örneğin, satıcı **1001**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-144">For example, select vendor **1001**.</span></span>
+12. <span data-ttu-id="5126c-145">Eylem Bölmesinde, **Satıcılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-145">On the action pane, select **Vendor**.</span></span>
+13. <span data-ttu-id="5126c-146">**Hareketler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-146">Select **Transactions**.</span></span>
+14. <span data-ttu-id="5126c-147">Oluşturduğunuz faturayı seçin.</span><span class="sxs-lookup"><span data-stu-id="5126c-147">Select the invoice that you created.</span></span> <span data-ttu-id="5126c-148">Fatura kaydı tahakkuku ters kaydedilmiş ve ilgili gider hesabına nakledilmiştir.</span><span class="sxs-lookup"><span data-stu-id="5126c-148">The invoice register accrual was reversed and posted to the appropriate expense account.</span></span>  
 
 
 
