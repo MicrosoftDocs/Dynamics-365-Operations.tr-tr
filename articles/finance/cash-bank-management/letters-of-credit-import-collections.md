@@ -2,11 +2,9 @@
 title: Kredi mektupları ve ithalat tahsilatları
 description: Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45eed711ace1534df462a21d0f37bdfaa09e6392
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c59a4f098ac19223c5b2fb6808d18d8fea4f4290
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253951"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815944"
 ---
 # <a name="letters-of-credit-and-import-collections"></a>Kredi mektupları ve ithalat tahsilatları
 

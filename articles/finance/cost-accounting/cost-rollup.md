@@ -2,11 +2,9 @@
 title: Maliyet yuvarlama ilkesi ve genel gider hesaplaması
 description: Bu konu, ikincil maliyet öğelerinin doğru düzeyini belirlemek ve kuruluşun raporlamasına ve maliyet izlemesine uygun maliyet öğeleri ve maliyet yuvarlama kuralları oluşturmak hakkında bilgi sağlar.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b71dc9b5394ee35b76ead292b72951ece0d1d03d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226329"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815776"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 

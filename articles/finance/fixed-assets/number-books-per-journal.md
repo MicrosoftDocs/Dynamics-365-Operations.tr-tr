@@ -2,11 +2,9 @@
 title: Günlük başına defter sayısı
 description: Bu konu, bir toplu iş aracılığıyla sabit varlık alımı veya amortisman teklifi oluşturduğunuzda günlükler ve varlık defterleri arasındaki ilişkiyi açıklar. Her bir alım ve amortisman için dahil edilen maksimum defter sayısını tanımlayabilirsiniz.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256727"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822045"
 ---
 # <a name="number-of-books-per-journal"></a>Günlük başına defter sayısı
 
@@ -43,11 +41,14 @@ Toplu işi, aynı alınan varlık kümesiyle ilgili amortismanı çalıştırmak
 
 Toplu işi kapalı defterleri dışarıda tutar. Örneğin, amortisman için bir toplu işte, ilk 2.000 defterin 10'unun kapalı olduğunu düşünelim. Bu durumda, ilk günlükte 1 ile 2.011 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır. İkinci günlükte 2.012 ile 4.000 arasında numaralandırılmış sabit varlıklarla ilişkili defterler yer alır.
 
+> [!NOTE]
+> Farklı ayırıcıları (örneğin – veya /) olan sabit varlık kodları varsa ve toplu işlerde sabit değer işlemleri oluşturursanız, her bir ayırıcı türü için ayrı bir toplu iş çalıştırmanız gerekir. Sistem aynı toplu iş içinde farklı ayırıcıları işleyemez.
+
 Aynı günlükte yinelenen öğe kimlikleri yoksa defter sayısı sınırı uygulanır. Ancak, varlık kodu defter koduyla aynıysa, varlık kimliğini aynı günlükte tutmak için günlük başına defter sayısı aşılabilir.
 
 Örneğin 5.001 sabit varlık var, her bir sabit varlık kimliğiyle üç defter ilişkilendirilmiş ve her varlık defteri aynı deftere nakil katmanına nakledilmiş. Özetleme yapmadan art arda üç ay boyunca amortisman uyguluyorsunuz.  Amortisman günlüğü toplu iş aracılığıyla oluşturulur ve sistem, 667 sabit varlık kimliği bulunan yedi günlük ve her bir sabit varlık kimliği için üç defter oluşturur. Sonuç, 2.001 defter olacaktır. Bu nedenle, aynı varlık kimliğini aynı günlükte tutmak için üç ay içinde 6.003 günlük satırı olacaktır. Ayrıca sistem, 332 sabit varlık kimliği bulunan bir günlük ve her sabit varlık kimliği için üç defter oluşturacaktır. Üç ayda, 2.988 satır olacaktır.
 
-> [!Note] 
+> [!NOTE] 
 > Bir amortisman teklifi oluştururken **Özet amortisman** parametresi açıksa, **Günlük başına defter sayısı-amortisman teklifi** alanındaki değerin hiçbir etkisi olmaz. Bu durumda günlük başına düşen defter sayısı, dahili sınır olarak tanımlanan 6000'dir.
 
 

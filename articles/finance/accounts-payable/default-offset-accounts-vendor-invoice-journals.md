@@ -2,11 +2,9 @@
 title: Satıcı faturası ve fatura onay günlükleri için varsayılan mahsup hesaplar
 description: Bu konu, fatura günlükleri için varsayılan hesaplar atamanız gerekip gerekmediğine karar vermenize yardımcı olur.
 author: abruer
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e67bebcfb934a3e6dae78cafd7bb2b01c05e450
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e859d166d19cd97d4b19c989b7a1bbe6832d218b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250638"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820749"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Satıcı faturası ve fatura onay günlükleri için varsayılan mahsup hesaplar
 

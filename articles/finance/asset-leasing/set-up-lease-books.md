@@ -2,11 +2,9 @@
 title: Kiralama defterlerini ayarlama
 description: Bu konuda, kiralama defterlerinde saklanan bilgiler açıklanmaktadır. Kiralama defterleri sistemde kiralamanın nasıl hesaplandığını belirleyen muhasebe ilkelerini içerir.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f5eac47448835dae5837b31c59a72833652f63bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0aac682c66bef51c802efcb1c5e34dd60c38f9fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249665"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819686"
 ---
 # <a name="set-up-lease-books"></a>Kiralama defterlerini ayarlama
 

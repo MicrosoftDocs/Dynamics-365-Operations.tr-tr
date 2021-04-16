@@ -2,11 +2,9 @@
 title: Banka günlüğü birleşik varlığını güncelleştirme
 description: Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir.
 author: ShylaThompson
-manager: panolte
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 18137ca8cecc43b4269f14b36df2eb8063192e52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e265915cf3f53a8243788b50a9374d521efbbae
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236359"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819622"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü birleşik varlığını güncelleştirme
 

@@ -2,11 +2,9 @@
 title: Müşteri ödeme tahminlerini etkinleştirme (önizleme)
 description: Bu konuda, Mali içgörülerde Müşteri ödeme tahminleri özelliğinin nasıl açılacağı ve yapılandırılacağı açıklanmaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b8c5fc4a915aa0aba6ff683fac59379f6e319fff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ecc3851cc91c8fe17a7582f2be06e84cf9bc2d83
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256823"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818668"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Müşteri ödeme tahminlerini etkinleştirme (önizleme)
 

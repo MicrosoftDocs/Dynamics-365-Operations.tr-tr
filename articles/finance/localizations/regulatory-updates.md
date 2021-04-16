@@ -2,11 +2,9 @@
 title: Düzenleme güncelleştirmeleri
 description: Bu konu altında, Microsoft Dynamics 365 Finance için planlanan ve yayınlanan mevzuat güncelleştirmelerinin listesi verilmektedir.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 02/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16ae9ac066f30744dc99c6fa1c671a0a96fd803d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242868"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822769"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
