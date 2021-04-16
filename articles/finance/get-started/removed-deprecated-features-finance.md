@@ -2,11 +2,9 @@
 title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474075"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836925"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -39,7 +37,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Elektronik raporlama yapılandırmaları için depolama seçeneği olarak LCS deposu
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeni Regulatory Configuration Service (RCS) genel deposu ile değiştirildi |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -51,7 +49,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Çek Cumhuriyeti için "KDV beyannamesi (CZ)" ve "Denetim ifadesi dışarı aktarma (CZ)" elektronik raporlama biçimleri
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeni biçimlerle değiştirildi |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -61,7 +59,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Genel muhasebe defteri hareketi dışarı aktarma biçimi (BE)" Belçika için elektronik raporlama biçimi ve ilgili "Genel muhasebe defteri hareketi dışarı aktarma (BE)" modeli
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Standart Denetim Dosyası (SAF-T)" modeli altındaki yeni ER biçimi ile değiştirildi.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -71,7 +69,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Birleşik Krallık için SSRS biçiminde "KDV 100" raporu
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Vergi beyannamesi modeli" kapsamında yeni ER biçimi - "KDV Beyannamesi Excel (UK)" biçimi ile değiştirilmiştir.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |
@@ -83,7 +81,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 için Internet Explorer 11 desteği kullanım dışı bırakılmıştır
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
@@ -95,7 +93,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lehçe SSRS raporları: Satış KDV kaydı, Satınalma KDV kaydı, AB Özeti KDV kaydı – Özellik referansı PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yasal olarak gerekli değildir.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet (KDV beyannamesiyle Standart Denetim Dosyası için Excel biçimi - JPK_VDEK) |
@@ -107,7 +105,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="norwegian-standard-main-accounts"></a>Norveç Standart ana hesapları
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Yeniden tasarla  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet (ER biçimi uygulamaya özgü parametreleriyle değiştirildi) |
@@ -118,7 +116,8 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Finance 10.0.7 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>İş akışı isteği değişikliği iletişim kutusu artık kullanıcı seçimi açılan listesini içermiyor
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Hesap grupları seçimine sahip özellik olarak değiştirildi.  |
 | **Başka bir özellikle mi değiştirildi?**   | Evet |

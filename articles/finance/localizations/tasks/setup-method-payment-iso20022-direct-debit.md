@@ -2,11 +2,9 @@
 title: ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama
 description: Bu yordam, elektronik raporlama kullanılarak ISO20022 hesaptan ödeme için müşteri ödemesi yönteminin veya başka bir ödeme türünün nasıl ayarlanacağını gösterir.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2ce4e1e960e04c0033990f99eb71897c7ea730f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9c6a692553867d7e8679099210dc44b9d9e4d0f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208419"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838694"
 ---
 # <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama
 

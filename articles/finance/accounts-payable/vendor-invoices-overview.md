@@ -2,11 +2,9 @@
 title: Satıcı faturalarına genel bakış
 description: Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir.
 author: abruer
-manager: AnnBe
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1799fb18a1dd4b7c532259ab198e1ba30a89c09d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264143"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841273"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 

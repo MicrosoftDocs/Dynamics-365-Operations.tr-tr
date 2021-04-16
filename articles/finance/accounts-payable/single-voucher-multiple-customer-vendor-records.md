@@ -2,11 +2,9 @@
 title: Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 description: Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 Finance'in gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bca422d7c79bef2155b84e3da964c5e47af8ac8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231602"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837309"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 

@@ -2,11 +2,9 @@
 title: Kira deftere nakil türleri
 description: Bu konuda, varlık kiralama hareketleri için kullanılan deftere nakil türleri açıklanmıştır.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841153"
 ---
 # <a name="lease-posting-types"></a>Kira deftere nakil türleri
 
@@ -90,15 +88,6 @@ Hesap, ROU varlığının karşı varlık hesabıyla ilişkilidir. Bu hesap, bir
 **Örnek günlük girişleri**: Amortisman tahakkuku<br>
 **Borç**: Amortisman gideri XXX<br>
 **Alacak:** Birikmiş amortisman XXX
-
-## <a name="retained-earnings"></a>Yedek akçe
-
-Bu hesap, dağıtılmamış kazançlarla ilişkilidir. Bu hesap, tam geriye dönük yöntem veya kümülatif yakalama seçeneği A yöntemi kullanılarak bir geçiş düzeltme günlüğü girişinde borçlandırılabilir veya alacaklandırılabilir. İlk ROU varlığı ile kiralama yükümlülüğü arasındaki fark, dağıtılmamış kazançlara kaydedilir. Nadiren de olsa, ROU varlığının kiralama yükümlülüğüne eşit olması için değerinin artırılması veya azaltılması amacıyla kiralama sınıflandırmasının finansaldan işletmeye geçmesi durumunda kalan kazançlar da kiralama değişikliğinden etkilenebilir.
-
-**Örnek günlük girişleri**: Geçiş düzeltmesi (tam geriye dönük veya kümülatif yakalama seçeneği A yöntemi)<br>
-**Borç**: Kiralama yükümlülüğü XXX<br>
-**Alacak**: Kiralama varlığı XXX<br>
-**Alacak**: Dağıtılmamış kazançlar xxx
 
 ## <a name="variable-payment"></a>Değişken ödeme
 

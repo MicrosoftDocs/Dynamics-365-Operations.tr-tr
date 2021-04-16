@@ -2,11 +2,9 @@
 title: Birleştirme ve elemeye genel bakış
 description: Bu makale konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 author: aprilolson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 894e7b1e77489d6ab8ce7e1d980586624cdc6df3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9eb1440a67ae96f2a456bcee07515841f205bd2a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210229"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827422"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 

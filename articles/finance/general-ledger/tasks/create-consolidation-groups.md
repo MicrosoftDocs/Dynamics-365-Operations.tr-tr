@@ -2,11 +2,9 @@
 title: Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
 description: Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi gösterir.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a02d6cf5516e63378f4aa356627c069404546e07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6c60b09fd0481c84a9c3a3eb35b66264d92d00eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216532"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832790"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
 

@@ -1,12 +1,10 @@
 ---
-title: Regulatory Configuration Services'teki (RCS) elektronik faturalama eklentisini yapılandırma
-description: Bu konuda, Dynamics 365 Regulatory Configuration Services'te (RCS) Elektronik faturalama eklentisinin nasıl yapılandırılacağı açıklanmaktadır.
+title: Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
+description: Bu konuda, Dynamics 365 Regulatory Configuration Services'te (RCS) Elektronik faturalamanın nasıl yapılandırılacağı açıklanmaktadır.
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592634"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840256"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalama eklentisini yapılandırma
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Bu konu, Dynamics 365 Regulatory Configuration Services'teki (RCS) Elektronik faturalamanın yapılandırma yetenekleri hakkında bilgi sağlar.
 
-Bu konu, Dynamics 365 Regulatory Configuration Services'teki (RCS) Elektronik faturalama eklentisinin yapılandırma yetenekleri hakkında bilgi sağlar.
-
-Elektronik faturalama eklentisinin, herhangi bir kodlama yapmak zorunda kalmadan elektronik faturaların iş ve mevzuat gereksinimlerini karşılamanıza yardımcı olması yapılandırma özellikleri sayesindedir. Elektronik faturaların bir web hizmetleri tarafından elektronik olarak onaylanması gereken senaryolarda, yapılandırma özellikleri, herhangi bir kod yapmadan bir web hizmetleriyle ileti alışverişi gereksinimlerini karşılamanıza da yardımcı olur.
+Elektronik faturalamanın, herhangi bir kodlama yapmak zorunda kalmadan elektronik faturaların iş ve mevzuat gereksinimlerini karşılamanıza yardımcı olması yapılandırma özellikleri sayesindedir. Elektronik faturaların bir web hizmetleri tarafından elektronik olarak onaylanması gereken senaryolarda, yapılandırma özellikleri, herhangi bir kod yapmadan bir web hizmetleriyle ileti alışverişi gereksinimlerini karşılamanıza da yardımcı olur.
 
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 
-Elektronik raporlama (ER), Elektronik faturalama eklentisini destekler.
+Elektronik raporlama (ER), Elektronik faturalamayı destekler.
 
-Veri modeli eşlemesi ve biçimleri, ER aracılığıyla oluşturulan ve sürdürülen ve Elektronik faturalama eklentisinde kullanılan yapılandırılabilir bileşenlerdir. ER biçimi tasarımcısı, dosya biçimleri oluşturmak ve bunları korumak için kullanılan bir araçtır. Elektronik faturalama özelliklerini yapılandırmak için kullanılır.
+Veri modeli eşlemesi ve biçimleri, ER aracılığıyla oluşturulan ve sürdürülen ve Elektronik faturalamada kullanılan yapılandırılabilir bileşenlerdir. ER biçimi tasarımcısı, dosya biçimleri oluşturmak ve bunları korumak için kullanılan bir araçtır. Elektronik faturalama özelliklerini yapılandırmak için kullanılır.
 
 Daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Elektronik faturalama özellikleri
 
-Elektronik faturalama özellikleri, Elektronik faturalama eklentisi aracılığıyla elektronik fatura oluşturmayı sağlar. Yapılandırma kurallarını kapsüllerler ve bunları Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'ın elektronik faturalama eklentisine ve elektronik faturalara gönderdiği verileri işlemek için kullanırlar.
+Elektronik faturalama özellikleri, Elektronik faturalama aracılığıyla elektronik fatura oluşturmayı sağlar. Yapılandırma kurallarını kapsüllerler ve bunları Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'ın elektronik faturalama ve elektronik faturalara gönderdiği verileri işlemek için kullanırlar.
 
 Özellikler ayrıca dosya biçimi teknik özelliklerine uygunluğun gerekli olduğu ve çıktının bağımsız bir elektronik dosya olduğu senaryoları da destekler. Çoğu durumda, dosya biçimi teknik özellikleri vergi dairesi tarafından yayınlanır.
 
@@ -81,13 +77,13 @@ Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama
 
 Elektronik faturalama özellikleri aşağıdaki yapılandırılabilir bileşen gruplarından oluşur:
 
-- **Biçimler**: Biçimler, elektronik bir belge elektronik fatura haline geldiğinde Elektronik fatura eklentisinin oluşturması gerekenleri yapılandırmanıza olanak tanır. Biçimler, elektronik fatura ve harici bir web hizmetiyle iletişim gerektiğinde istek göndermek ve yanıt almak için kullanılan dosyalar ve iletiler için biçim yapılandırmasını içerir.
-- **Eylemler**: Eylemler, Elektronik faturalama eklentisinin Finance ve Supply Chain Management'ın elektronik faturaya gönderdiği elektronik belgenin dönüşümünü nasıl oluşturduğunu yapılandırmanıza olanak tanır.
-- **Uygulanabilirlik kuralları**: Uygulanabilirlik kuralları, elektronik faturalama özelliğini işlemek için Elektronik faturalama eklentisinin göz önünde bulundurması gereken bağlamı yapılandırmanıza olanak tanır.
-- **Değişkenler**: Değişkenler, yapılandırma mantığının yapısı için desteği yapılandırmanıza olanak tanır. Değişkenler, belirli bir eylemi gerçekleştirmek için değer girişleri olarak çalışabilir. Alternatif olarak, Finance ve Supply Chain Management ile Elektronik faturalama eklentisi arasında bir değer takası olarak çalışabilirler.
-- **Elektronik belge modeli eşlemesi**: Elektronik belge modeli eşlemesi, ER modeli eşlemesini yapılandırmanızı sağlar. Model eşleme, elektronik belgeler gönderildiğinde Elektronik faturalama eklentisine entegre edilmiş soyut faturanın veri eşlemesini tanımlar.
+- **Biçimler**: Biçimler, elektronik bir belge elektronik fatura haline geldiğinde Elektronik faturalamanın oluşturması gerekenleri yapılandırmanıza olanak tanır. Biçimler, elektronik fatura ve harici bir web hizmetiyle iletişim gerektiğinde istek göndermek ve yanıt almak için kullanılan dosyalar ve iletiler için biçim yapılandırmasını içerir.
+- **Eylemler**: Eylemler, Elektronik faturalamanın Finance ve Supply Chain Management'ın elektronik faturaya gönderdiği elektronik belgenin dönüşümünü nasıl oluşturduğunu yapılandırmanıza olanak tanır.
+- **Uygulanabilirlik kuralları**: Uygulanabilirlik kuralları, elektronik faturalama özelliğini işlemek için Elektronik faturalamanın göz önünde bulundurması gereken bağlamı yapılandırmanıza olanak tanır.
+- **Değişkenler**: Değişkenler, yapılandırma mantığının yapısı için desteği yapılandırmanıza olanak tanır. Değişkenler, belirli bir eylemi gerçekleştirmek için değer girişleri olarak çalışabilir. Alternatif olarak, Finance ve Supply Chain Management ile Elektronik faturalama arasında bir değer takası olarak çalışabilirler.
+- **Elektronik belge modeli eşlemesi**: Elektronik belge modeli eşlemesi, ER modeli eşlemesini yapılandırmanızı sağlar. Model eşleme, elektronik belgeler gönderildiğinde Elektronik faturalamaya entegre edilmiş soyut faturanın veri eşlemesini tanımlar.
 - **Fatura bağlam modeli**: Fatura bağlam modeli, ER fatura bağlam modelini yapılandırmanıza ve elektronik faturalama özelliğinin bağlamını tanımlamanıza olanak tanır.
-- **Yanıt türleri**: Yanıt türleri, elektronik fatura işlemenin bir sonucu olarak Elektronik faturalama eklentisinin Finance ve Supply Chain Management'ta güncelleştirilmesi gerekenleri yapılandırmanıza olanak tanır.
+- **Yanıt türleri**: Yanıt türleri, elektronik fatura işlemenin bir sonucu olarak Elektronik faturalamanın Finance ve Supply Chain Management'ta güncelleştirilmesi gerekenleri yapılandırmanıza olanak tanır.
 
 ### <a name="formats"></a>Biçimler
 
@@ -237,7 +233,7 @@ Elektronik faturalama özelliği sürümleri, en fazla üç durumu olan bir yaş
 
 - **Taslak**: Bir özellik sürümü bu durumdaysa, yapılandırma özniteliklerini ve yapılarından herhangi birini (örneğin, dosya biçimi yapılandırmaları) düzenleyebilirsiniz.
 - **Tamamlandı**: Bir özellik sürümü bu durumdaysa, kuruluşunuzla ilişkili Global depoda yayınlanmıştır. Artık özellik sürümünü veya ER bileşenlerinin hiçbirini düzenleyemezsiniz.
-- **Yayınlandı**: Bir özellik sürümü bu durumdaysa, Elektronik faturalama eklentisinde yayınlanmıştır. Artık özellik sürümünü veya ER bileşenlerinin hiçbirini düzenleyemezsiniz.
+- **Yayınlandı**: Bir özellik sürümü bu durumdaysa, Elektronik faturalamada yayınlanmıştır. Artık özellik sürümünü veya ER bileşenlerinin hiçbirini düzenleyemezsiniz.
 
 ### <a name="feature-configurations"></a>Özellik yapılandırmaları
 
@@ -266,14 +262,14 @@ Uygulama kurulumu üzerinden, Finance ve Supply Chain Management'ta yapılması 
 
 RCS'de, elektronik faturalama özelliği sürümünü hedef olarak yayınlamak için **Dağıt** komutunu kullanabilirsiniz. **Dağıt**'ı seçin ve sonra dağıtımın hedefini tanımlamak için aşağıdaki seçeneklerden birini belirleyin: 
 
-- **Hizmet ortamı**: Dağıtımın hedefi hizmet ortamı olduğunda, elektronik faturalama özelliği sürümü hizmet ortamına yayınlanır. Elektronik faturalama eklentisi daha sonra Finance ve Supply Chain Management'ın gönderdiği elektronik belgeleri almaya ve işlemeye hazır hale gelir.
+- **Hizmet ortamı**: Dağıtımın hedefi hizmet ortamı olduğunda, elektronik faturalama özelliği sürümü hizmet ortamına yayınlanır. Elektronik faturalama daha sonra Finance ve Supply Chain Management'ın gönderdiği elektronik belgeleri almaya ve işlemeye hazır hale gelir.
 - **Bağlı uygulama**: Dağıtımın hedefi bağlı uygulama olduğunda, uygulama kurulumu tarafından sağlanan yapılandırma, daha önce ilişkili olan Finance ve Supply Chain Management örneğine yazılır.
 
 Yalnızca **Tamamlandı** durumuna sahip elektronik faturalama özelliği sürümleri bir hizmet ortamına veya bağlı bir uygulamaya dağıtılabilir.
 
 ### <a name="removing-feature-versions"></a>Özellik sürümlerini kaldırma
 
-RCS'de, Elektronik faturalama eklentisindeki bir hizmet ortamından belirli bir elektronik faturalama özelliği sürümünü kaldırmak için **Dağıtımı kaldır** komutunu kullanabilirsiniz.
+RCS'de, Elektronik faturalamadaki bir hizmet ortamından belirli bir elektronik faturalama özelliği sürümünü kaldırmak için **Dağıtımı kaldır** komutunu kullanabilirsiniz.
 
 > [!IMPORTANT]
 > **Dağıtımı kaldır** komutu yalnızca hizmet ortamlarında çalışır. Bağlı uygulamalardan elektronik faturalama özelliği sürümlerini kaldırmaz.

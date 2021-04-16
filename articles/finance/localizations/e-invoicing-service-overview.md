@@ -1,12 +1,10 @@
 ---
-title: Elektronik faturalama eklentisine genel bakış
-description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalama eklentisi hakkında bilgi sağlar.
+title: Elektronik faturalamaya genel bakış
+description: Bu konu, Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management uygulamalarında elektronik faturalama hakkında bilgi sağlar.
 author: gionoder
-manager: AnnBe
-ms.date: 01/22/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,23 +15,23 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 381f5ecdb3d6fc909a8350ba28af9fd21152da7a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228801"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839992"
 ---
-# <a name="electronic-invoicing-add-on-overview"></a>Elektronik faturalama eklentisine genel bakış
+# <a name="electronic-invoicing-overview"></a>Elektronik faturalamaya genel bakış
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için Elektronik faturalama eklentisi elektronik fatura belgelerinin yapılandırılabilir şekilde işlenmesini ve yapılandırılabilir belge alış verişi sağlayan aşırı ölçeklenebilir bir çoklu kiracı hizmetidir. İşlem ve tümleştirme kuralları tümüyle yapılandırılabilir ve bu mantık Finance ve Supply Chain Management dışında çalıştırılır. Servis esas olarak şirketten kamuya senaryolarındaki e-fatura işlemlerinde hedeflenmiştir, ancak başka amaçlar için özel olarak yapılandırılabilir.
+Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management için Elektronik faturalama elektronik fatura belgelerinin yapılandırılabilir şekilde işlenmesini ve yapılandırılabilir belge alış verişi sağlayan aşırı ölçeklenebilir bir çoklu kiracı hizmetidir. İşlem ve tümleştirme kuralları tümüyle yapılandırılabilir ve bu mantık Finance ve Supply Chain Management dışında çalıştırılır. Servis esas olarak şirketten kamuya senaryolarındaki e-fatura işlemlerinde hedeflenmiştir, ancak başka amaçlar için özel olarak yapılandırılabilir.
 
-Elektronik faturalama eklentisi aşağıdaki hedeflere ulaşmanıza yardımcı olabilir:
+Elektronik faturalama aşağıdaki hedeflere ulaşmanıza yardımcı olabilir:
 
 - Ülkeye/bölgeye özel gereksinimlerin hızlı ve kolay şekilde benimseme
-- Elektronik faturalama eklenti çözümünün standartlaştırılmış uygulamaları
+- Elektronik faturalama çözümünün standartlaştırılmış uygulamaları
 - Belge geçmişinin gelişmiş izlenebilirliği
 - Daha kısa uygulama döngüsü
 - Düşülen toplam sahip olma maliyeti (TCO)
@@ -42,29 +40,29 @@ Elektronik faturalama eklentisi aşağıdaki hedeflere ulaşmanıza yardımcı o
 - E-fatura belgelerinin işlenmesinde yerleşik dışa aktarma, içe aktarma ve tümleştirme, kolay genişletilebilirlik
 - Şirketler arasında aynı dışarı aktarma, içeri aktarma ve tümleştirme yapılandırmasının kolay yeniden kullanımı
 
-Elektronik faturalama eklentisini kullanmak için, Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden yüklemeniz gerekir. Daha sonra, Finance veya Supply Chain Management uygulamalarıyla tümleştirmeyi açmak için kurulum yordamını izleyin. Daha fazla bilgi için bkz. [Elektronik faturalama eklentisini kullanmaya başlangıç](e-invoicing-get-started.md).
+Elektronik faturalamayı kullanmak için, Microsoft Dynamics Lifecycle Services (LCS) içindeki projenizden yüklemeniz gerekir. Daha sonra, Finance veya Supply Chain Management uygulamalarıyla tümleştirmeyi açmak için kurulum yordamını izleyin. Daha fazla bilgi için bkz. [Elektronik faturalama kullanmaya başlangıç](e-invoicing-get-started.md).
 
 ## <a name="service-availability"></a><a name="availability"></a>Hizmet kullanılabilirliği
 
-Elektronik faturalama eklentisi şu anda, önizleme programıyla müşterilere sunulmaktadır ve sonraki aşamada hizmet genel kullanıma açık hale gelecektir. Ülkeye/bölgeye özel gereksinimleri karşılayan işlevler, sürümün farklı aşamalarında sınırlı olduğundan, her zaman desteklenen ülkeye/bölgeye özel çözümlerin kapsam ve kapsamını vurgulayan en güncel belgeleri denetlemeniz gerekir.
+Elektronik faturalama şu anda, önizleme programıyla müşterilere sunulmaktadır ve sonraki aşamada hizmet genel kullanıma açık hale gelecektir. Ülkeye/bölgeye özel gereksinimleri karşılayan işlevler, sürümün farklı aşamalarında sınırlı olduğundan, her zaman desteklenen ülkeye/bölgeye özel çözümlerin kapsam ve kapsamını vurgulayan en güncel belgeleri denetlemeniz gerekir.
 
-Elektronik faturalama eklentisi aşağıdaki Azure coğrafyalarında dağıtıldı:
+Elektronik faturalama aşağıdaki Azure coğrafyalarında dağıtıldı:
 
 - Amerika Birleşik Devletleri
 - Avrupa
 
 > [!NOTE]
-> Elektronik faturalama eklentisi şirket içi dağıtımları desteklemiyor.
+> Elektronik faturalama şirket içi dağıtımları desteklemiyor.
 
 ## <a name="extended-configurability"></a>Genişletilmiş yapılandırılabilirlik
 
-Elektronik faturalama eklentisi, belirtilen taraflara elektronik belge oluşturmanız ve göndermeniz gereken senaryolarda kullanılabilir. Özel olarak, alınan verilere dayalı olarak, yapılandırılabilir bir işlem eylemi çalıştırmak için tasarlanmıştır. Finance ve Supply Chain Management uygulamalarında kullanılabilen yapılandırılabilirlik seçenekleri belge dönüşümüyle sınırlıdır. Hizmet, içinde kullanılabilen yapılandırılabilir tümleştirmeler ekleyerek bu seçenekleri genişletir. Ayrıca, önceden kullanılabilen elektronik fatura işlevleri de dahil olmak üzere, Brazilian Nota fiscal eletrônica (NF-e), Mexican Comprobante Fiscal Digital por Internet (CFDI) veya diğer Batı Avrupa Universal Business Language (UBL)/Pan-European Public Procurement OnLine (PEPPOL) işlevleri gibi, dışa aktarma ve içe aktarma yapılandırmaları ve harici Web hizmetleriyle tümleştirmeleri kullanacaktır.
+Elektronik faturalama belirtilen taraflara elektronik belge oluşturmanız ve göndermeniz gereken senaryolarda kullanılabilir. Özel olarak, alınan verilere dayalı olarak, yapılandırılabilir bir işlem eylemi çalıştırmak için tasarlanmıştır. Finance ve Supply Chain Management uygulamalarında kullanılabilen yapılandırılabilirlik seçenekleri belge dönüşümüyle sınırlıdır. Hizmet, içinde kullanılabilen yapılandırılabilir tümleştirmeler ekleyerek bu seçenekleri genişletir. Ayrıca, önceden kullanılabilen elektronik fatura işlevleri de dahil olmak üzere, Brazilian Nota fiscal eletrônica (NF-e), Mexican Comprobante Fiscal Digital por Internet (CFDI) veya diğer Batı Avrupa Universal Business Language (UBL)/Pan-European Public Procurement OnLine (PEPPOL) işlevleri gibi, dışa aktarma ve içe aktarma yapılandırmaları ve harici Web hizmetleriyle tümleştirmeleri kullanacaktır.
 
 ## <a name="feature-highlights"></a>Özellikle ilgili önemli noktalar
 
 - Finance ve Supply Chain Management uygulamalarıyla yerleşik tümleştirme
 - Tüm ülkeler veya bölgeler için e-fatura sürecini yapılandırılması ve izlenmesiyle ilgili tutarlı kullanıcı deneyimi
-- Yeni ülke veya bölgelerde, elektronik faturalama eklenti çözümlerinin daha hızlı, kolay ve ucuz olarak benimsenmesi
+- Yeni ülke veya bölgelerde, elektronik faturalama çözümlerinin daha hızlı, kolay ve ucuz olarak benimsenmesi
 - Hizmetin Regulatory Configuration Service (RCS) ve Genelleştirme özelliği kurulumu aracılığıyla yapılandırılması
 - İş verilerinin, RCS 'de tanımlanan yapılandırmaları kullanarak çoklu e-fatura biçimlerine (XML, JavaScript nesne gösterimi \[JSON\], TXT ve virgülle ayrılmış değerler \[CSV\]) biçimlerine dönüştürülmesi:
 
@@ -83,7 +81,7 @@ Elektronik faturalama eklentisi, belirtilen taraflara elektronik belge oluşturm
 
 ## <a name="architecture-and-data-flow"></a>Mimari ve veri akışı
 
-Elektronik faturalama eklentisi LCS'den yüklendiğinde ve gerekli kurulum tüm gerekli uygulamalarda tamamlanırsa, güvenli bir bağlantı kurulur. Hizmet şu anda Amerika Birleşik Devletleri ve Avrupa'da bulunan veri merkezlerinde bulunmaktadır. Bu nedenle, hizmet konumu ilgili Finance veya Supply Chain Management örneğinin konumundan farklı olabilir. Elektronik faturalama eklentisinin kurulumunu tamamladıktan ve tümleştirmeyi açıktan sonra, bir e-faturanın her gönderilmesinde belirli bir belgeyle ilgili ana veriler ve işlem verileri Elektronik faturalama eklentisine gönderilir.
+Elektronik faturalama LCS'den yüklendiğinde ve gerekli kurulum tüm gerekli uygulamalarda tamamlanırsa, güvenli bir bağlantı kurulur. Hizmet şu anda Amerika Birleşik Devletleri ve Avrupa'da bulunan veri merkezlerinde bulunmaktadır. Bu nedenle, hizmet konumu ilgili Finance veya Supply Chain Management örneğinin konumundan farklı olabilir. Elektronik faturalama kurulumunu tamamladıktan ve tümleştirmeyi açıktan sonra, bir e-faturanın her gönderilmesinde belirli bir belgeyle ilgili ana veriler ve işlem verileri Elektronik faturalamaya gönderilir.
 
 > [!NOTE]
 > Elektronik faturanızda veya herhangi bir belgede kişisel veriler varsa, bu özelliği kullanmanın, Genel Veri Koruma Yönetmeliği (GDPR) ve kişisel verilerin aktarılmasıyla ilgili diğer düzenlemeleri karşıladığını doğrulayın.
@@ -98,12 +96,12 @@ Elektronik faturalama eklentisi LCS'den yüklendiğinde ve gerekli kurulum tüm 
 6. Hizmet, gönderilen iş belgesinin işlem durumu hakkında istemciye isteğe bağlı bilgiler sağlar.
 7. İstemci tamamlanan işleme yürütme hakkında bilgi alır ve tüm günlük bilgilerini kullanılabilir yapar. Ayrıca, akış işlemi sırasında oluşturulan veya alınan belgeyi kullanılabilir yapar.
 
-Aşağıdaki şekil, Elektronik faturalama eklentisi ile arasındaki veri akışının nasıl olduğunu gösterir.
+Aşağıdaki şekil, Elektronik faturalama ile arasındaki veri akışının nasıl olduğunu gösterir.
 
-![Elektronik faturalama eklentisinde veri akışı](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Elektronik faturalamada veri akışı](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
-Elektronik faturalandırma eklentisinin etkinleştirilmesi ve kullanılması, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimlerde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
+Elektronik faturalandırmanın etkinleştirilmesi ve kullanılması, kuruluş vergi kayıt kodunu içeren sınırlı verilerin gönderilmesini gerektirebilir. Bu, devlete ait Web servisi ile tümleştirme için gerekli önceden tanımlanmış biçimlerde vergi dairesine elektronik fatura göndermek amacıyla vergi dairesi tarafından yetkilendirilen üçüncü taraf kuruluşlarına iletilecektir. Bu harici sistemlerden alınan verilerin bu Dynamics 365 çevrimiçi hizmetine aktarılması [gizlilik bildirimimize](https://go.microsoft.com/fwlink/?LinkId=512132) tabidir. Daha fazla bilgi için, lütfen ülkeye özel özellik belgelerindeki Gizlilik bildirimi bölümlerine bakın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 - [Hizmet yönetimi](e-invoicing-service-administration.md)
