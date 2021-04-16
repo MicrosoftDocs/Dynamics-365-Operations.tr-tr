@@ -2,11 +2,9 @@
 title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: bf868ad44e52b0ed7d0ca6e1f133efa030f3c4a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463346"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794577"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
 

@@ -2,11 +2,9 @@
 title: İzin satın alma ve satma ilkelerini yönetme
 description: Dynamics 365 Human Resources'ta çalışanların izin satın alma ve satma olanağı sağlayabilirsiniz.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeaveBuySellPolicy, LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: f03d6055c407b2c3e13831c8b5a6f8b0d6c47897
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468095"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794721"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>İzin satın alma ve satma ilkelerini yönetme
 

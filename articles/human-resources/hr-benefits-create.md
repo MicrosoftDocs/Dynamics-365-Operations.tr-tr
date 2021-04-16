@@ -2,11 +2,9 @@
 title: Yeni kazanç oluştur
 description: Bu görev, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 857fb7d6860d050fb0be50f2559e3998dacad458
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 7ca390e296b28d1d22fc7bab85bac83fbffcead8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468023"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805982"
 ---
 # <a name="create-a-new-benefit"></a>Yeni kazanç oluştur
 

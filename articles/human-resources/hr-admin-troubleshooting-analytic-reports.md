@@ -2,11 +2,9 @@
 title: Sorun giderme Analitik raporları
 description: Bu konu, müşterinin verisindeki değişiklikler müşterinin herhangi bir çalışma alanında görüntülenmediğinde ne yapılacağını açıklar.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e0befe1a35aa46b2eabb4516559fe07ce27e9f18
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: b500d519d61edfd20456355376e3fc81f16517a0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466676"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794985"
 ---
 # <a name="troubleshoot-analytic-reports"></a>Sorun giderme Analitik raporları
 

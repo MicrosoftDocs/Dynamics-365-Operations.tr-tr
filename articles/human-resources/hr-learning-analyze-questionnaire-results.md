@@ -2,11 +2,9 @@
 title: Soru formu sonuçlarını analiz etme
 description: Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine, HcmLearningWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91012c681666e543b59fcee326ad1254196c080b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 7c7f6767b900ede0112e972149c271d53c36296f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467951"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794769"
 ---
 # <a name="analyzing-questionnaire-results"></a>Soru formu sonuçlarını analiz etme
 
