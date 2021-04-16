@@ -2,11 +2,9 @@
 title: Kısmi ödemeyi iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma
 description: Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250566"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835160"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Kısmi ödemeyi iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma
 
@@ -48,7 +46,7 @@ Fabrikam 4027 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Kapatılacak tutar** değerini 297,00 olarak değiştirmezseniz, görünen **Nakit iskontosu tutarı** değerleri farklı olur. Ancak, kapatma işlemi, **Kapatılacak tutar** değerini sizin için otomatik olarak düzenleyeceğinden ödeme nakledildiğinde nakit iskontosu olarak 3,00 alınacaktır.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
 | Nakit iskonto tarihi           | 09/7/2015 |
 | Nakit iskontosu tutarı         | 10,00     |
@@ -73,9 +71,9 @@ Müşteri 4027 faturanın geri iskonto dönemindan sonra, 11 Temmuz tarihinde fa
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 09/7/2015 |
+| Nakit iskonto tarihi           | 09/7/2015 |
 | Nakit iskontosu tutarı         | 0,00      |
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 3,00      |
@@ -89,10 +87,10 @@ Tamer **Nakit iskontosu kullan** alanındaki değeri **Her zaman** olarak deği�
 
 İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir.
 
-|                              |           |
+| Alan                        | Değer     |
 |------------------------------|-----------|
-| Nakit iskontosu tarihi           | 09/7/2015 |
-| Nakit iskontosu tutarı         | 7,00      |
+| Nakit iskonto tarihi           | 09/7/2015 |
+| Nakit iskontosu tutarı         | 7.00      |
 | Nakit iskontosu kullan            | Her zaman    |
 | Alınan nakit iskontosu          | 3,00      |
 | Alınacak nakit iskontosu tutarı | 7,00      |
