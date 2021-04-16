@@ -2,11 +2,9 @@
 title: Güncelleştirme işlemi
 description: Microsoft Dynamics 365 Human Resources uygulama ve platform değişiklikleri için sürekli, temassız servis güncelleştirmeleri sağlayan gerçek bir hizmet olarak yazılımdır (SaaS).
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466844"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791545"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
@@ -58,14 +56,14 @@ Gerektiğinde, İnsan Kaynakları aşağıdaki düzeltme türlerini de sağlar:
 
 Sürümler bir iç ortam üzerinde gözden geçirilip test edildiğini ve doğrulanmaktadır. Yapılar imzalandıktan sonra üretime dağıtılır.
 
-## <a name="release-cadence-exceptions-in-2020"></a>2020 içinde sürüm temposu özel durumları
+## <a name="release-cadence-exceptions-in-2021"></a>2021 içinde sürüm temposu özel durumları
 
-Tatilleri hesaba eklemek için, Kasım ve Aralık 2020 için sürüm planı aşağıdaki gibidir:
+Tatilleri hesaba eklemek için, Kasım ve Aralık 2021 için sürüm planı aşağıdaki gibidir:
 
-- Kasım sürümü: 2 Kasım - 13 Kasım
-- Aralık sürümü: 30 Kasım - 11 Aralık
+- Kasım sürümü: 1 Kasım - 14 Kasım
+- Aralık sürümü: 29 Kasım - 12 Aralık
  
-İki haftalık sürüm temposu 11 Ocak 2021'de her zamanki gibi devam ettirilecektir.
+İki haftalık sürüm temposu 10 Ocak 2022'de her zamanki gibi devam ettirilecektir.
 
 ## <a name="communications"></a>İletişim
 

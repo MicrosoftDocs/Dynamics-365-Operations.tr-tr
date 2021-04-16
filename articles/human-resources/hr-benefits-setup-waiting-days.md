@@ -2,11 +2,9 @@
 title: Bekleme günlerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta, bekleme günleri, kazanç planları için kullanılacak aylık kilometre taşı oluşturur.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba4a073e714e950b8efed1692ff2de7b3d557fa
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 0a98627a5e985c76aa569aff8e5e934e3be530c0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468335"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791472"
 ---
 # <a name="configure-waiting-days"></a>Bekleme günlerini yapılandırma
 

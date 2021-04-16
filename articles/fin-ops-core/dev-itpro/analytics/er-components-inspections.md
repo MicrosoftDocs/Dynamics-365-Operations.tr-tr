@@ -2,7 +2,6 @@
 title: Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 description: Bu konuda, oluşabilecek çalışma zamanı sorunlarını önlemek için yapılandırılmış elektronik raporlama (ER) bileşenlerinin nasıl denetleneceği açıklamaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574137"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753852"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -666,19 +665,19 @@ Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çal
 
 ![Biçim tasarımcısı sayfasında biçim eşleme çalıştırması sırasında oluşan çalışma zamanı hatası](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Otomatik çözüm
+### <a name="automatic-resolution&quot;></a>Otomatik çözüm
 
 Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 
-### <a name="manual-resolution"></a>El ile çözüm
+### <a name=&quot;manual-resolution&quot;></a>El ile çözüm
 
-#### <a name="option-1"></a>Seçenek 1
+#### <a name=&quot;option-1&quot;></a>Seçenek 1
 
 **Vendor** veri kaynağından **Önbellek** işaretini kaldırın. **FilteredVendor** veri kaynağı yürütülebilir hale gelir ancak **FilteredVendor** veri kaynağı her çağrıldığında VendTable tablosunda başvurulan **Vendor** veri kaynağına erişilecektir.
 
-#### <a name="option-2"></a>Seçenek 2
+#### <a name=&quot;option-2&quot;></a>Seçenek 2
 
-**FilteredVendor** veri kaynağı ifadesini, `FILTER(Vendor, Vendor.AccountNum="US-101")` yerine `WHERE(Vendor, Vendor.AccountNum="US-101")` olacak şekilde değiştirin. Bu durumda, VendTable tablosunda başvurulan **Vendor** veri kaynağına yalnızca **Vendor** veri kaynağı ilk çağrıldığında erişilir. Ancak, kayıt seçimi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
+**FilteredVendor** veri kaynağı ifadesini, `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` yerine `WHERE(Vendor, Vendor.AccountNum="US-101")` olacak şekilde değiştirin. Bu durumda, VendTable tablosunda başvurulan **Vendor** veri kaynağına yalnızca **Vendor** veri kaynağı ilk çağrıldığında erişilir. Ancak, kayıt seçimi bellekte yapılır. Bu nedenle, bu yaklaşım düşük performansa neden olabilir.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Eksik bağlama
 

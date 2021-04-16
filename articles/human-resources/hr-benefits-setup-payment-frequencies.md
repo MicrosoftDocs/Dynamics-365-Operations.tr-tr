@@ -2,11 +2,9 @@
 title: Ödeme sıklıklarını ayarlama
 description: Microsoft Dynamics 365 Human Resources yıllık kazancı hesaplamak, bir çalışanın her bir ödeme döneminde ödediği kazanç prim tutarını ve sağlayıcılara ne sıklıkla ödeme yapılacağını belirlemek için ödeme sıklıklarını kullanır.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f98559901ad22930b669d56b533adcac9a0f231
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3a6a638cee08f77ca21f6301730a64102b734887
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466604"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793789"
 ---
 # <a name="set-up-payment-frequencies"></a>Ödeme sıklıklarını ayarlama
 

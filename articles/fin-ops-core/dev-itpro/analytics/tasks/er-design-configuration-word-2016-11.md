@@ -2,7 +2,6 @@
 title: Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
 description: Bu konuda, Excel çalışma kitapları olarak rapor oluşturmak üzere tasarlanmış rapor biçimlerinin, Word belgeleri olarak rapor oluşturmak üzere nasıl yapılandırılabileceği açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/11/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 601896bad72b079759b1a07efba8717101e94362
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569323"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755070"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
 

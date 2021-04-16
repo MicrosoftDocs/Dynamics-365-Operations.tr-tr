@@ -2,7 +2,6 @@
 title: ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2 - İşlemleri yapılandırma)
 description: Bu konuda, önceden oluşturulmuş metin çıktısının verilerine dayalı olarak sayma ve toplama işlemi yapmak üzere Elektronik raporlama biçiminin nasıl yapılandırılacağı açıklanmaktadır. (2. Bölüm)
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6eb3d686e8f60de51001deffb4c2460c181a4ab
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a14fe079515b176cbcda74852ae2ad456dd6434a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565178"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749033"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2 - İşlemleri yapılandırma)
 

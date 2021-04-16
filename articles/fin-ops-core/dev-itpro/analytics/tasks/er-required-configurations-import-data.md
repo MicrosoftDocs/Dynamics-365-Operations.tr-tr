@@ -2,8 +2,7 @@
 title: ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Finance uygulamasına harici bir dosyadan veri aktarmak üzere Elektronik raporlama yapılandırmalarının nasıl tasarlanacağı açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564302"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751474"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Harici bir dosyadan veri almak için gerekli olan yapılandırmaları oluşturma
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan uygulamaya verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan uygulamaya verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, aşağıdaki dosyaları da indirip yerel olarak kaydetmelisiniz. 
+
+| İçerik açıklaması                       | Dosya adı                                     |
+|-------------------------------------------|-----------------------------------------------|
+| ER verisi modeli yapılandırması - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| ER biçimi yapılandırması - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| XML biçimindeki gelen belge örneği                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Gelen belgenin verisini yönetmek için çalışma sayfası örneği                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER, iş kullanıcılarına harici veri dosyalarının tablolara .XML veya .TXT biçiminde içeri aktarılmasını yapılandırma özelliği sunar. Öncelikle, içeri aktardığınız verileri temsil etmek üzere soyut veri modeli ve ER veri modeli yapılandırmasının tasarlanması gerekir. Ardından, içeri aktarmakta olduğunuz dosyanın yapısını ve verileri dosyadan soyut veri modeline taşırken kullanacağınız yöntemi tanımlamanız gerekir. Bu soyut veri modeli için tasarlanan veri modeliyle eşleşen ER biçim yapılandırmasının oluşturulması gerekir. Ardından, veri modeli yapılandırması içeri aktarılan verilerin soyut veri modeli verileri olarak nasıl kalıcı hale geldiğini ve tabloları güncelleştirmek için nasıl kullanıldığını tanımlayan bir eşleme ile genişletilmelidir.  ER veri modeli yapılandırması, veri modelinin uygulama hedefleriyle bağını tanımlayan yeni bir model eşlemesiyle birlikte eklenmesi gerekir.  
 

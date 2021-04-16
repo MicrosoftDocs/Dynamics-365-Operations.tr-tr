@@ -2,7 +2,6 @@
 title: Başvuran ve başvuru verilerini el ile girme
 description: Bu yordam başvuranlar ve başvuruları hakkındaki bilgileri el ile girmeyi gösterir.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 786db0191bd1beb1dd21acc748ba7beaaa89b29c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 08104729f5be15ef7e727102e7be731bdda1a38c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566596"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751994"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Başvuran ve başvuru verilerini el ile girme
 

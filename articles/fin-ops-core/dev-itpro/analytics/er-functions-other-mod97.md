@@ -2,7 +2,6 @@
 title: MOD_97 ER işlevi
 description: Bu konu, MOD_97 Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 618cb2b101dd0b1c91b3b1538ef3f87c21e4a70a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 1054407addaf6f7c2a7d2f72bf1479e9dc374389
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563354"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749177"
 ---
 # <a name="mod_97-er-function"></a>MOD_97 ER işlevi
 

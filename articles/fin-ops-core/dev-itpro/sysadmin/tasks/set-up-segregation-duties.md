@@ -2,7 +2,6 @@
 title: Görev ayrımını ayarlamak
 description: Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayırmak için kurallar ayarlayabilirsiniz.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c1521d6bbbe12964fef0942fcc4943f12a4360a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e25fee324ce95cd04b86ee0e4e6a56cfacb61a53
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562509"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745753"
 ---
 # <a name="set-up-segregation-of-duties"></a>Görev ayrımını ayarlamak
 

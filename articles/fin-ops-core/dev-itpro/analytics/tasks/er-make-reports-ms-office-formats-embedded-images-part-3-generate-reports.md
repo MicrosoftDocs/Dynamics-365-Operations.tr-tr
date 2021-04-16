@@ -2,7 +2,6 @@
 title: Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
 description: Bu konuda, Excel ve Word'de katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterilmektedir.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ed0ab0042c98f063eb0ec2ab31c913d9385186c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 81b93c14fc4819fffd322a1b364feac3d25a0d24
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569473"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751570"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Katıştırılmış resimlere sahip Office biçiminde raporlar oluşturma
 

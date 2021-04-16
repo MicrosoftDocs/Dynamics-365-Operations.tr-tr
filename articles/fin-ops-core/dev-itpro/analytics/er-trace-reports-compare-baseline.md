@@ -2,7 +2,6 @@
 title: Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
 description: Bu konu, oluşturulan ER raporlama (ER) raportlarının sonuçlarını temel rapor değerleriyle nasıl karşılaştıracağınız hakkında bilgi vermektedir.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/17/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3141e285f694f8778c7ac886d3f7e289fd76c648
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a8609cb026e7738eab96980bc9fe4a53340272eb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568937"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743593"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Oluşturulan rapor sonuçlarını izleme ve temel değerlerle karşılaştırma
 

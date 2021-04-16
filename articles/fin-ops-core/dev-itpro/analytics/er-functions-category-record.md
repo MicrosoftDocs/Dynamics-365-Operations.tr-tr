@@ -2,7 +2,6 @@
 title: Kayıt kategorisindeki ER işlevlerinin listesi
 description: Bu konu, elektronik raporlama (ER) uygulamasında desteklenen kayıt işlevleri hakkında bilgi sağlar.
 author: NickSelin
-manager: kfend
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a26318df71607fea2601c863072b20f5a67e8615
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: fe25b8d4b2c0900d68eec79e14639424a0e4960a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561602"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5755432"
 ---
 # <a name="list-of-er-functions-in-the-record-category"></a>Kayıt kategorisindeki ER işlevlerinin listesi
 
