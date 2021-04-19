@@ -2,11 +2,9 @@
 title: Organizasyon hiyerarşisine kanal ekleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir organizasyon hiyerarşisine nasıl kanal ekleneceği açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,71 +14,71 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4212797d2959c4f8b0d60e6b45de76ffc3ee0dc2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216774"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800699"
 ---
-# <a name="add-a-channel-to-an-organizational-hierarchy"></a><span data-ttu-id="509ea-103">Organizasyon hiyerarşisine kanal ekleme</span><span class="sxs-lookup"><span data-stu-id="509ea-103">Add a channel to an organizational hierarchy</span></span>
+# <a name="add-a-channel-to-an-organizational-hierarchy"></a><span data-ttu-id="71136-103">Organizasyon hiyerarşisine kanal ekleme</span><span class="sxs-lookup"><span data-stu-id="71136-103">Add a channel to an organizational hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="509ea-104">Bu konuda, Microsoft Dynamics 365 Commerce'te bir organizasyon hiyerarşisine nasıl kanal ekleneceği açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="509ea-104">This topic describes how to add a channel to an organizational hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="71136-104">Bu konuda, Microsoft Dynamics 365 Commerce'te bir organizasyon hiyerarşisine nasıl kanal ekleneceği açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="71136-104">This topic describes how to add a channel to an organizational hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="509ea-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="509ea-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="71136-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="71136-105">Overview</span></span>
 
-<span data-ttu-id="509ea-106">Kanalların bir veya daha fazla organizasyon hiyerarşiyle ilişkilendirilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="509ea-106">Channels need to be associated with one or more organizational hierarchies.</span></span> <span data-ttu-id="509ea-107">Kanalları oluşturmadan önce, organizasyon hiyerarşilerinizin ayarlandığını onaylamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="509ea-107">Before creating channels, you need to confirm that your organizational hierarchies have been set up.</span></span>  
+<span data-ttu-id="71136-106">Kanalların bir veya daha fazla organizasyon hiyerarşiyle ilişkilendirilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="71136-106">Channels need to be associated with one or more organizational hierarchies.</span></span> <span data-ttu-id="71136-107">Kanalları oluşturmadan önce, organizasyon hiyerarşilerinizin ayarlandığını onaylamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="71136-107">Before creating channels, you need to confirm that your organizational hierarchies have been set up.</span></span>  
 
-<span data-ttu-id="509ea-108">Organizasyon hiyerarşilerinin nasıl oluşturulacağı hakkında daha ayrıntılı bilgi için bkz. [Organizasyon hiyerarşileri](channels-org-hierarchies.md).</span><span class="sxs-lookup"><span data-stu-id="509ea-108">See [Organizational hierarchies](channels-org-hierarchies.md) for more details on how to create organizational hierarchies.</span></span>
+<span data-ttu-id="71136-108">Organizasyon hiyerarşilerinin nasıl oluşturulacağı hakkında daha ayrıntılı bilgi için bkz. [Organizasyon hiyerarşileri](channels-org-hierarchies.md).</span><span class="sxs-lookup"><span data-stu-id="71136-108">See [Organizational hierarchies](channels-org-hierarchies.md) for more details on how to create organizational hierarchies.</span></span>
 
-## <a name="select-a-hierarchy"></a><span data-ttu-id="509ea-109">Hiyerarşi seçme</span><span class="sxs-lookup"><span data-stu-id="509ea-109">Select a hierarchy</span></span>
+## <a name="select-a-hierarchy"></a><span data-ttu-id="71136-109">Hiyerarşi seçme</span><span class="sxs-lookup"><span data-stu-id="71136-109">Select a hierarchy</span></span>
 
-<span data-ttu-id="509ea-110">Hiyerarşi seçmek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="509ea-110">To select a hierarchy, follow these steps.</span></span>
+<span data-ttu-id="71136-110">Hiyerarşi seçmek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="71136-110">To select a hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="509ea-111">Gezinti bölmesinde **Modüller \> Retail and commerce \> Kanal Kurulumu \> Organizasyon hiyerarşileri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="509ea-111">In the navigation pane, go to **Modules \> Retail and commerce \> Channel Setup \> Organization hierarchies**.</span></span>
-1. <span data-ttu-id="509ea-112">Listeden, kanalı ekleyeceğiniz organizasyon hiyerarşisini seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-112">From the list, select the organization hierarchy that you'll be adding the channel to.</span></span>
-1. <span data-ttu-id="509ea-113">Eylem bölmesinde hiyerarşi ayrıntılarını görüntülemek için **Görüntüle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-113">On the action pane, select **View** to view hierarchy details.</span></span>
+1. <span data-ttu-id="71136-111">Gezinti bölmesinde **Modüller \> Retail and commerce \> Kanal Kurulumu \> Organizasyon hiyerarşileri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="71136-111">In the navigation pane, go to **Modules \> Retail and commerce \> Channel Setup \> Organization hierarchies**.</span></span>
+1. <span data-ttu-id="71136-112">Listeden, kanalı ekleyeceğiniz organizasyon hiyerarşisini seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-112">From the list, select the organization hierarchy that you'll be adding the channel to.</span></span>
+1. <span data-ttu-id="71136-113">Eylem bölmesinde hiyerarşi ayrıntılarını görüntülemek için **Görüntüle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-113">On the action pane, select **View** to view hierarchy details.</span></span>
 
-<span data-ttu-id="509ea-114">Aşağıdaki resim, seçili hiyerarşinin organizasyon hiyerarşisi ayrıntılarını gösteriyor.</span><span class="sxs-lookup"><span data-stu-id="509ea-114">The following image shows organizational hierarchy details for the selected hierarchy.</span></span>
+<span data-ttu-id="71136-114">Aşağıdaki resim, seçili hiyerarşinin organizasyon hiyerarşisi ayrıntılarını gösteriyor.</span><span class="sxs-lookup"><span data-stu-id="71136-114">The following image shows organizational hierarchy details for the selected hierarchy.</span></span>
 
 ![Seçili hiyerarşinin organizasyon hiyerarşisi ayrıntıları](media/channel-add-to-org-hierarchy-1.png)
 
-## <a name="add-a-channel-to-a-hierachy-node"></a><span data-ttu-id="509ea-116">Bir hiyerarşi düğümüne kanal ekleme</span><span class="sxs-lookup"><span data-stu-id="509ea-116">Add a channel to a hierachy node</span></span>
+## <a name="add-a-channel-to-a-hierachy-node"></a><span data-ttu-id="71136-116">Bir hiyerarşi düğümüne kanal ekleme</span><span class="sxs-lookup"><span data-stu-id="71136-116">Add a channel to a hierachy node</span></span>
 
-<span data-ttu-id="509ea-117">Bir hiyerarşi düğümüne kanal eklemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="509ea-117">To add a channel to a hierachy node, follow these steps.</span></span>
+<span data-ttu-id="71136-117">Bir hiyerarşi düğümüne kanal eklemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="71136-117">To add a channel to a hierachy node, follow these steps.</span></span>
 
-1. <span data-ttu-id="509ea-118">Eylem bölmesinde, **Düzenle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-118">On the action pane, select **Edit**.</span></span>
-1. <span data-ttu-id="509ea-119">Kanalın eklenmesini istediğiniz hiyerarşi düğümünü seçin ve **Ekle** açılır listesinden **Perakende Kanalı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-119">Select the hierachy node you want the channel added to, then from the **Insert** drop-down list, select **Retail Channel**.</span></span> 
-1. <span data-ttu-id="509ea-120">Eklenecek kanalı ve ardından **Tamam** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-120">Select the channel to add, then select the **OK** button.</span></span>
-1. <span data-ttu-id="509ea-121">Eylem bölmesinde, **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="509ea-121">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="509ea-122">Eylem bölmesinde, **Yayımla** 'yı seçin ve bu eylemin hemen yürürlüğe girmesini sağlamak için geçmiş bir **Yürürlük tarihi** girin.</span><span class="sxs-lookup"><span data-stu-id="509ea-122">On the action pane, select **Publish** and provide an **Effective date** in the past to have this action go into effect immediately.</span></span>
+1. <span data-ttu-id="71136-118">Eylem bölmesinde, **Düzenle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-118">On the action pane, select **Edit**.</span></span>
+1. <span data-ttu-id="71136-119">Kanalın eklenmesini istediğiniz hiyerarşi düğümünü seçin ve **Ekle** açılır listesinden **Perakende Kanalı**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-119">Select the hierachy node you want the channel added to, then from the **Insert** drop-down list, select **Retail Channel**.</span></span> 
+1. <span data-ttu-id="71136-120">Eklenecek kanalı ve ardından **Tamam** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-120">Select the channel to add, then select the **OK** button.</span></span>
+1. <span data-ttu-id="71136-121">Eylem bölmesinde, **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="71136-121">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="71136-122">Eylem bölmesinde, **Yayımla** 'yı seçin ve bu eylemin hemen yürürlüğe girmesini sağlamak için geçmiş bir **Yürürlük tarihi** girin.</span><span class="sxs-lookup"><span data-stu-id="71136-122">On the action pane, select **Publish** and provide an **Effective date** in the past to have this action go into effect immediately.</span></span>
 
-<span data-ttu-id="509ea-123">Aşağıdaki resimde, hiyerarşi düğümüne eklenecek kanalın nasıl seçildiği gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="509ea-123">The following image shows how to select a channel to add to a hierarchy node.</span></span>
+<span data-ttu-id="71136-123">Aşağıdaki resimde, hiyerarşi düğümüne eklenecek kanalın nasıl seçildiği gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="71136-123">The following image shows how to select a channel to add to a hierarchy node.</span></span>
 
 ![Hiyerarşi düğümüne eklenecek kanalı seçme](media/channel-add-to-org-hierarchy-2.png)
 
-<span data-ttu-id="509ea-125">Aşağıdaki resim, çeşitli kanalların ekli olduğu bir hiyerarşiyi gösteriyor.</span><span class="sxs-lookup"><span data-stu-id="509ea-125">The following image shows a hierarchy with various channels added.</span></span>
+<span data-ttu-id="71136-125">Aşağıdaki resim, çeşitli kanalların ekli olduğu bir hiyerarşiyi gösteriyor.</span><span class="sxs-lookup"><span data-stu-id="71136-125">The following image shows a hierarchy with various channels added.</span></span>
 
 ![Çeşitli kanalların eklendiği bir hiyerarşi](media/channel-add-to-org-hierarchy-3.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="509ea-127">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="509ea-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="71136-127">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="71136-127">Additional resources</span></span>
 
-[<span data-ttu-id="509ea-128">Kanallara genel bakış</span><span class="sxs-lookup"><span data-stu-id="509ea-128">Channels overview</span></span>](channels-overview.md)
+[<span data-ttu-id="71136-128">Kanallara genel bakış</span><span class="sxs-lookup"><span data-stu-id="71136-128">Channels overview</span></span>](channels-overview.md)
 
-[<span data-ttu-id="509ea-129">Kanal kurulum önkoşulları</span><span class="sxs-lookup"><span data-stu-id="509ea-129">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="71136-129">Kanal kurulum önkoşulları</span><span class="sxs-lookup"><span data-stu-id="71136-129">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="509ea-130">Kuruluşlar ve kuruluş hiyerarşilerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="509ea-130">Organizations and organizational hierarchies overview</span></span>](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="71136-130">Kuruluşlar ve kuruluş hiyerarşilerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="71136-130">Organizations and organizational hierarchies overview</span></span>](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
-[<span data-ttu-id="509ea-131">Kuruluş hiyerarşinizi planlama</span><span class="sxs-lookup"><span data-stu-id="509ea-131">Plan your organizational hierarchy</span></span>](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+[<span data-ttu-id="71136-131">Kuruluş hiyerarşinizi planlama</span><span class="sxs-lookup"><span data-stu-id="71136-131">Plan your organizational hierarchy</span></span>](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
-[<span data-ttu-id="509ea-132">Organizasyon hiyerarşileri</span><span class="sxs-lookup"><span data-stu-id="509ea-132">Organization hierarchies</span></span>](channels-org-hierarchies.md)
+[<span data-ttu-id="71136-132">Organizasyon hiyerarşileri</span><span class="sxs-lookup"><span data-stu-id="71136-132">Organization hierarchies</span></span>](channels-org-hierarchies.md)
 
-[<span data-ttu-id="509ea-133">Perakende kanalını ayarlama</span><span class="sxs-lookup"><span data-stu-id="509ea-133">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="71136-133">Perakende kanalını ayarlama</span><span class="sxs-lookup"><span data-stu-id="71136-133">Set up a retail channel</span></span>](channel-setup-retail.md)
     
-[<span data-ttu-id="509ea-134">Çevrimiçi kanal ayarlama</span><span class="sxs-lookup"><span data-stu-id="509ea-134">Set up an online channel</span></span>](channel-setup-online.md)
+[<span data-ttu-id="71136-134">Çevrimiçi kanal ayarlama</span><span class="sxs-lookup"><span data-stu-id="71136-134">Set up an online channel</span></span>](channel-setup-online.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

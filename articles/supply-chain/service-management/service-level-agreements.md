@@ -2,11 +2,9 @@
 title: Servis düzeyi sözleşmelerine genel bakış
 description: Servis düzeyi sözleşmesinde müşteri, şirketin sorunu kayda alışından sorun giderilene kadar olan süreyi temel alan bir minimum yanıt süresini kabul eder.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
@@ -17,65 +15,65 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b626d490b5abb948943df25c956c48084953da7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 55d65de5c041bd100bf8267bdbe3c5c5eb061a61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214334"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835930"
 ---
-# <a name="service-level-agreements-overview"></a><span data-ttu-id="2ca41-103">Servis düzeyi sözleşmelerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="2ca41-103">Service level agreements overview</span></span>       
+# <a name="service-level-agreements-overview"></a><span data-ttu-id="a0987-103">Servis düzeyi sözleşmelerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="a0987-103">Service level agreements overview</span></span>       
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2ca41-104">Servis düzeyi anlaşması (SDA) bir servis şirketi ve servis müşterisi arasındaki anlaşmadır.</span><span class="sxs-lookup"><span data-stu-id="2ca41-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="2ca41-105">SLA'da müşteri, şirketin sorunu kayda alışından sorun giderilene kadar olan süreyi temel alan bir minimum yanıt süresini kabul eder.</span><span class="sxs-lookup"><span data-stu-id="2ca41-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
+<span data-ttu-id="a0987-104">Servis düzeyi anlaşması (SDA) bir servis şirketi ve servis müşterisi arasındaki anlaşmadır.</span><span class="sxs-lookup"><span data-stu-id="a0987-104">A service level agreement (SLA) is an agreement between a service company and a service customer.</span></span> <span data-ttu-id="a0987-105">SLA'da müşteri, şirketin sorunu kayda alışından sorun giderilene kadar olan süreyi temel alan bir minimum yanıt süresini kabul eder.</span><span class="sxs-lookup"><span data-stu-id="a0987-105">In a SLA, the customer agrees to a minimum response time based on when the service company records the issue and when the issue is resolved.</span></span>
 
-<span data-ttu-id="2ca41-106">SLA, müşterilere standart servis düzeyi sunulmasını zorunlu kılar ve ayrıca bir servis şirketi için bir servis işinin ne zaman tamamlanması gerektiğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="2ca41-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
+<span data-ttu-id="a0987-106">SLA, müşterilere standart servis düzeyi sunulmasını zorunlu kılar ve ayrıca bir servis şirketi için bir servis işinin ne zaman tamamlanması gerektiğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="a0987-106">A SLA enforces a standard level of service that is offered to customers, and also makes it transparent to a service company when a service job should be completed.</span></span>
 
-<span data-ttu-id="2ca41-107">Servis müşterilerine farklı düzeylerde servis sunmak için istenilen sayıda SDA oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="2ca41-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
+<span data-ttu-id="a0987-107">Servis müşterilerine farklı düzeylerde servis sunmak için istenilen sayıda SDA oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="a0987-107">Any number of SLAs can be created to offer service customers different levels of service.</span></span>
 
-## <a name="create-a-service-level-agreement"></a><span data-ttu-id="2ca41-108">Servis düzeyi anlaşması oluşturma</span><span class="sxs-lookup"><span data-stu-id="2ca41-108">Create a service level agreement</span></span>
+## <a name="create-a-service-level-agreement"></a><span data-ttu-id="a0987-108">Servis düzeyi anlaşması oluşturma</span><span class="sxs-lookup"><span data-stu-id="a0987-108">Create a service level agreement</span></span>
 
-1.  <span data-ttu-id="2ca41-109">**Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis düzeyi sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2ca41-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
+1.  <span data-ttu-id="a0987-109">**Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis düzeyi sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a0987-109">Click **Service management** \> **Setup** \> **Service agreements** \> **Service level agreements**.</span></span>
 
-2.  <span data-ttu-id="2ca41-110">**Servis düzeyi sözleşmesi** alanında, yeni servis sözleşmesi için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="2ca41-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
+2.  <span data-ttu-id="a0987-110">**Servis düzeyi sözleşmesi** alanında, yeni servis sözleşmesi için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="a0987-110">Type a name for the service level agreement in the **Service level agreement** field.</span></span>
 
-3.  <span data-ttu-id="2ca41-111">Servis düzeyi sözleşmesine eklenen servis çağrılarının tamamlanması için izin vermek istediğiniz süreyi yazın.</span><span class="sxs-lookup"><span data-stu-id="2ca41-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="2ca41-112">Ardından servis düzeyi anlaşmasının belirli bir takvimi temel almasını istiyorsanız bir takvim seçin.</span><span class="sxs-lookup"><span data-stu-id="2ca41-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
+3.  <span data-ttu-id="a0987-111">Servis düzeyi sözleşmesine eklenen servis çağrılarının tamamlanması için izin vermek istediğiniz süreyi yazın.</span><span class="sxs-lookup"><span data-stu-id="a0987-111">Type the time that you want to allow for completion of service calls that are attached to the service level agreement.</span></span> <span data-ttu-id="a0987-112">Ardından servis düzeyi anlaşmasının belirli bir takvimi temel almasını istiyorsanız bir takvim seçin.</span><span class="sxs-lookup"><span data-stu-id="a0987-112">Then select a calendar if you want to base the service level agreement on a specific calendar.</span></span>
 
-## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="2ca41-113">Servis düzeyi anlaşmasını uygulama</span><span class="sxs-lookup"><span data-stu-id="2ca41-113">Apply a service level agreement</span></span>
+## <a name="apply-a-service-level-agreement"></a><span data-ttu-id="a0987-113">Servis düzeyi anlaşmasını uygulama</span><span class="sxs-lookup"><span data-stu-id="a0987-113">Apply a service level agreement</span></span>
 
-<span data-ttu-id="2ca41-114">SDA doğrudan bir servis anlaşmasına uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2ca41-114">The SLA is applied directly to a service agreement.</span></span>
+<span data-ttu-id="a0987-114">SDA doğrudan bir servis anlaşmasına uygulanır.</span><span class="sxs-lookup"><span data-stu-id="a0987-114">The SLA is applied directly to a service agreement.</span></span>
 
-<span data-ttu-id="2ca41-115">El ile oluşturduğunuz ve SLA içeren bir servis anlaşmasına iliştirdiğiniz servis siparişleri bu SLA'ya göre ölçülür.</span><span class="sxs-lookup"><span data-stu-id="2ca41-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
+<span data-ttu-id="a0987-115">El ile oluşturduğunuz ve SLA içeren bir servis anlaşmasına iliştirdiğiniz servis siparişleri bu SLA'ya göre ölçülür.</span><span class="sxs-lookup"><span data-stu-id="a0987-115">Service orders that you create manually and attach to a service agreement that has an SLA are measured against that SLA.</span></span>
 
-<span data-ttu-id="2ca41-116">Otomatik olarak oluşturduğunuz servis siparişleri bir SDA'ya iliştirilmez.</span><span class="sxs-lookup"><span data-stu-id="2ca41-116">Service orders that you create automatically are not attached to an SLA.</span></span>
+<span data-ttu-id="a0987-116">Otomatik olarak oluşturduğunuz servis siparişleri bir SDA'ya iliştirilmez.</span><span class="sxs-lookup"><span data-stu-id="a0987-116">Service orders that you create automatically are not attached to an SLA.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="2ca41-117">Servis düzeyi anlaşmasını servis anlaşmasına uygulama</span><span class="sxs-lookup"><span data-stu-id="2ca41-117">Apply the service level agreement to the service agreement</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a><span data-ttu-id="a0987-117">Servis düzeyi anlaşmasını servis anlaşmasına uygulama</span><span class="sxs-lookup"><span data-stu-id="a0987-117">Apply the service level agreement to the service agreement</span></span>
 
-1.  <span data-ttu-id="2ca41-118">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2ca41-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="2ca41-119">SLA uygulamak istediğiniz servis sözleşmesini seçin ve **Eylem Bölmesinde** **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2ca41-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
+1.  <span data-ttu-id="a0987-118">**Servis yönetimi** \> **Ortak** \> **Servis sözleşmeleri** \> **Servis sözleşmeleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a0987-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="a0987-119">SLA uygulamak istediğiniz servis sözleşmesini seçin ve **Eylem Bölmesinde** **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a0987-119">Select the service agreement that you want to apply the SLA to, and then click **Edit** on the **Action Pane**.</span></span>
 
-2.  <span data-ttu-id="2ca41-120">**Servis düzeyi sözleşmesi** alanında, atamak istediğiniz SLA'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2ca41-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="a0987-120">**Servis düzeyi sözleşmesi** alanında, atamak istediğiniz SLA'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="a0987-120">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="2ca41-121">Servis düzeyi anlaşmasını servis anlaşması grubuna uygulama</span><span class="sxs-lookup"><span data-stu-id="2ca41-121">Apply the service level agreement to the service agreement group</span></span>
+## <a name="apply-the-service-level-agreement-to-the-service-agreement-group"></a><span data-ttu-id="a0987-121">Servis düzeyi anlaşmasını servis anlaşması grubuna uygulama</span><span class="sxs-lookup"><span data-stu-id="a0987-121">Apply the service level agreement to the service agreement group</span></span>
 
-1.  <span data-ttu-id="2ca41-122">**Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis sözleşmesi grupları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2ca41-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
+1.  <span data-ttu-id="a0987-122">**Servis yönetimi** \> **Kurulum** \> **Servis sözleşmeleri** \> **Servis sözleşmesi grupları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a0987-122">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
 
-2.  <span data-ttu-id="2ca41-123">**Servis düzeyi sözleşmesi** alanında, atamak istediğiniz SLA'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2ca41-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
+2.  <span data-ttu-id="a0987-123">**Servis düzeyi sözleşmesi** alanında, atamak istediğiniz SLA'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="a0987-123">In the **Service level agreement** field, select the SLA that you want to assign.</span></span>
 
-## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="2ca41-124">Servis siparişindeki zamanı SDA'ya göre izleme</span><span class="sxs-lookup"><span data-stu-id="2ca41-124">Track time on a service order against an SLA</span></span>
+## <a name="track-time-on-a-service-order-against-an-sla"></a><span data-ttu-id="a0987-124">Servis siparişindeki zamanı SDA'ya göre izleme</span><span class="sxs-lookup"><span data-stu-id="a0987-124">Track time on a service order against an SLA</span></span>
 
-<span data-ttu-id="2ca41-125">Bir SLA'nın atandığı bir servis sözleşmesi için yeni bir servis siparişi oluşturduğunuzda, servisin teslim edilmesi için zaman aralığı başlatılır ve sistem teslimat süresini izlemeye başlar.</span><span class="sxs-lookup"><span data-stu-id="2ca41-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="2ca41-126">Ek olarak aşağıdaki seçenekleri ayarlayabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="2ca41-126">Additionally, you can set the following options:</span></span>
+<span data-ttu-id="a0987-125">Bir SLA'nın atandığı bir servis sözleşmesi için yeni bir servis siparişi oluşturduğunuzda, servisin teslim edilmesi için zaman aralığı başlatılır ve sistem teslimat süresini izlemeye başlar.</span><span class="sxs-lookup"><span data-stu-id="a0987-125">When you create a new service order for a service agreement that an SLA is assigned to, the time interval for the delivery of the service is initiated, and the system starts to track the delivery time.</span></span> <span data-ttu-id="a0987-126">Ek olarak aşağıdaki seçenekleri ayarlayabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="a0987-126">Additionally, you can set the following options:</span></span>
 
-  - <span data-ttu-id="2ca41-127">Servis siparişlerinde harcanan toplam zamanı kaydetmek için servis siparişindeki zaman kaydını başlatabilir ve durdurabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2ca41-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
+  - <span data-ttu-id="a0987-127">Servis siparişlerinde harcanan toplam zamanı kaydetmek için servis siparişindeki zaman kaydını başlatabilir ve durdurabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a0987-127">You can start and stop time recording on the service order to register the total amount of time that is spent on service orders.</span></span>
 
-  - <span data-ttu-id="2ca41-128">Servis düzeyi anlaşmasında belirlenen zaman aralığıyla uyumluluğu izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2ca41-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
+  - <span data-ttu-id="a0987-128">Servis düzeyi anlaşmasında belirlenen zaman aralığıyla uyumluluğu izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a0987-128">You can monitor compliance with the time interval that is set in the service level agreement.</span></span>
 
-  - <span data-ttu-id="2ca41-129">Servis düzeyi anlaşmasının zaman aralığı aşıldığında belirlenmesi gereken neden kodlarını tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2ca41-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
+  - <span data-ttu-id="a0987-129">Servis düzeyi anlaşmasının zaman aralığı aşıldığında belirlenmesi gereken neden kodlarını tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a0987-129">You can define reason codes that must be set if the time interval of the service level agreement is exceeded.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2ca41-130">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="2ca41-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0987-130">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="a0987-130">See also</span></span>
 
-[<span data-ttu-id="2ca41-131">Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="2ca41-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
+[<span data-ttu-id="a0987-131">Servis düzeyi anlaşmalarıyla uyumluluğu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="a0987-131">View compliance with service level agreements</span></span>](view-compliance-with-service-level-agreements.md)
 
   
 
