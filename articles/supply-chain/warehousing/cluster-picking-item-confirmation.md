@@ -2,11 +2,9 @@
 title: Küme çekme için ürün onayı
 description: Bu konu, madde onaylamayı küme çekmeyle birlikte nasıl kuracağınızı açıklar.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e30022377cb02e7516cb98f48dc12e4f9e2ce172
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 530129ba6877c68475217d3a035775e25930cd07
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233043"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808882"
 ---
 # <a name="product-confirmation-for-cluster-picking"></a>Küme çekme için ürün onayı
 

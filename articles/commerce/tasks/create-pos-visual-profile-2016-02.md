@@ -2,11 +2,9 @@
 title: Satış noktası (POS) görsel profilleri oluşturma
 description: Bu yordam yeni bir noktası (POS) görsel profili oluşturma konusunda açıklama sağlar.
 author: jashanno
-manager: AnnBe
 ms.date: 12/05/2015
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2fda8857a3ff8ac52bb48e7c032ffae0441ce60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 41b5e25c6e4569d72124bff55781dba16227861a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221269"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802755"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>Satış noktası (POS) görsel profilleri oluşturma
 

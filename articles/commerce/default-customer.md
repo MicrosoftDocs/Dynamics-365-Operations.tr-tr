@@ -2,11 +2,9 @@
 title: Varsayılan müşteri oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir kanal oluşturulurken kullanılacak bir varsayılan müşterinin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477912"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799191"
 ---
 # <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
 
@@ -67,14 +65,14 @@ Aşağıdaki resimde örnek bir adres defteri gösterilmektedir.
 
 ![Adres defteri](media/address-book.png)
 
-## <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
+## <a name="create-a-default-customer&quot;></a>Varsayılan müşteri oluşturma
 
 Bir varsayılan müşteri oluşturmak için bu adımları izleyin.
 
 1. Gezinti bölmesinde **Modüller \> Perakende ve ticaret \> Müşteriler \> Tüm müşteriler**'e gidin.
 1. Eylem bölmesinde **Yeni**'yi seçin.
-1. **Tür** açılır listesinde "Kişi"yi seçin.
-1. **Müşteri hesabı** açılır listesinde bir hesap numarası seçin veya girin (örneğin "100001").
+1. **Tür** açılır listesinde &quot;Kişi&quot;yi seçin.
+1. **Müşteri hesabı** açılır listesinde bir hesap numarası seçin veya girin (örneğin &quot;100001").
 1. **Ad** açılır listesinde, bir ad seçin veya girin (örneğin "Varsayılan").
 1. **İkinci ad** açılır listesinde, bir ad seçin veya girin (örneğin "Perakende").
 1. **Soyadı** açılır listesinde, bir ad seçin veya girin (örneğin "Müşteri").

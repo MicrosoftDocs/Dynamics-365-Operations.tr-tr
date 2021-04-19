@@ -2,11 +2,9 @@
 title: Malzeme çekme bilgileri modülü
 description: Bu konu teslim bilgileri modülünü kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün ödeme sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 222e8ad79b30e5197f7140958309d442b284f286
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263192"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804417"
 ---
 # <a name="pickup-information-module"></a>Malzeme çekme bilgileri modülü
 

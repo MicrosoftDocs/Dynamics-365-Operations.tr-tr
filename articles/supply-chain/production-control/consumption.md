@@ -2,11 +2,9 @@
 title: Malzeme tüketimini hesapla
 description: Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc39df69a22b90a805aa9967d52dafea27c78c2b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 366ae86f09bf975ba0b2df33cfc2355b71b15e54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246345"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809218"
 ---
 # <a name="calculate-material-consumption"></a>Malzeme tüketimini hesapla
 

@@ -2,11 +2,9 @@
 title: Commerce ortamında birden fazla B2C kiracısı yapılandırma
 description: Bu konu, özel bir Dynamics 365 Commerce ortamında kullanıcı kimlik doğrulaması için kanal başına birden çok Microsoft Azure Active Directory (Azure AD) İşletme-Müşteri Arası (B2C) kiracısının ne zaman ve nasıl ayarlanacağını açıklamaktadır.
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477768"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796111"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Commerce ortamında birden fazla B2C kiracısı yapılandırma
 
@@ -55,10 +53,6 @@ Aşağıdaki örnekte bir Commerce ortamındaki birden fazla B2C kiracısı gös
 
 İşletmeniz için aynı Commerce ortamında kanal başına farklı B2C kiracıları gerektiğine karar verirseniz, bu özelliği istemek için aşağıdaki bölümlerdeki yordamları tamamlayın.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Ortamınızda kanal başına B2C'nin etkinleştirilmesini isteme
-
-Şu anda, aynı Commerce ortamında kanal başına farklı B2C kiracıların kullanılabilir olmasını istiyorsanız, Dynamics 365 Commerce'a bir istek göndermeniz gerekir. Daha fazla bilgi için bkz. [Lifecycle Services (LCS) için destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md). Veya bu sorunu Commerce çözümleri ilgili kişisiyle tartışın.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>Ortamınızdaki B2C kiracıları yapılandırma
 
 Ortamınızda B2C kiracıları yapılandırmak için, bu bölümdeki ilgili yordamları tamamlayın.
@@ -79,11 +73,11 @@ Ortamınıza bir Azure AD B2C kiracısı eklemek için aşağıdaki adımları i
     - **İstemci GUID'i**: Azure AD B2C kiracısı kimliğini Azure portalında göründüğü şekliyle girin (B2C kiracısı için uygulama kimliği değil).
     - **Profili Düzenle İlke Kimliği**: İlke kimliğini (Azure portalındaki ilkenin adı) girin.
 
-1. Bu bilgileri girmeyi bitirdiğinizde, değişikliklerinizi kaydetmek için **Tamam**'ı seçin.
+1. Bu bilgileri girmeyi bitirdiğinizde, değişikliklerinizi kaydetmek için **Tamam**'ı seçin. Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki listede görünmelidir.
 
 > [!NOTE]
 > Dynamics 365 Commerce takım bunları ayarlamanızı istemedikçe **Kapsam**, **Etkileşimli olmayan ilke kodu**, **Etkileşimli olmayan istemci kodu**, **Oturum açma özel etki alanı** ve **Kayıt ilkesi Kodu** alanlarını boş bırakmanız gerekir.
-Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki listede görünmelidir.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Azure AD B2C kiracısını yönetme veya silme
 
@@ -97,6 +91,7 @@ Yeni Azure AD B2C kiracınız şimdi **B2C uygulamalarını yönet** altındaki 
 > Bir B2C kiracısı canlı/yayımlanmış bir site için yapılandırıldığında, kullanıcılar kiracıda bulunan hesapları kullanarak oturum açabilirler. **Kiracı Ayarları \> B2C Kiracısı** menüsünde yapılandırılmış bir kiracıyı silerseniz, bu B2C kiracısının ilişkisini, kiracının kanallarıyla ilişkilendirilmiş olan sitelerden kaldırırsınız. Bu durumda, kullanıcılarınız hesaplarında artık oturum açamayabilirler. Bu nedenle, yapılandırılmış bir kiracıyı silerken çok dikkatli olun.
 >
 > Yapılandırılmış bir kiracı silindiğinde, B2C kiracısı ve kayıtları korunmaya devam eder, ancak bu kiracının Commerce sistem yapılandırması değiştirilir veya kaldırılır. Siteye kaydolmaya veya sitede oturum açmaya çalışan kullanıcılar, varsayılan veya sitenin kanalı için yapılandırılan yeni ilişkili B2C kiracısında yeni bir firma kaydı oluşturacaktır.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Kanalınızı bir B2C kiracısı ile yapılandırma
 
 1. Bir sistem yöneticisi olarak ortamınız için Commerce site oluşturucuda oturum açın. Azure AD B2C kiracıları yapılandırmak için Commerce ortamınızda sistem yöneticisi olmanız gerekir.

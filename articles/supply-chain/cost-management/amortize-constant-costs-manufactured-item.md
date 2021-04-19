@@ -2,11 +2,9 @@
 title: Üretilen maddeler için sabit maliyetlerin itfası
 description: Üretilen bir ürünün sabit maliyetleri, operasyon hazırlık sürelerini ve sabit miktara veya sabit hurda tutarına sahip bileşeni yansıtır.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 765982c5a25ae99667766f7e8a3bd2010ec83b1b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5f44c0c7a50df55206ddd08ce71772f8caac9363
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254323"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808124"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Üretilen maddeler için sabit maliyetlerin itfası
 

@@ -2,11 +2,9 @@
 title: Yük oluşturma çalışma ekranı
 description: Bu konuda, yük oluşturma ekranı ile nasıl çalışılacağı açıklanmaktadır.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 480006a6d091acdf5c88fdbf0d9e625088d660d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b8633adbab43c95366d42cf409f5e508771c906
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247250"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809050"
 ---
 # <a name="load-building-workbench"></a>Yük oluşturma çalışma ekranı
 

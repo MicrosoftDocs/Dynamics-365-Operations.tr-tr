@@ -2,11 +2,9 @@
 title: Barkod maskesi ayarlama
 description: Bu konu, barkod maskesi karakterlerini, barkod maskelerini ve barkod maskelerinin barkodlara nasıl atanacağını açıklamaktadır.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7bc66b9d6586650dc7b1477ac02260a480d46596
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77daf93e3f516bfddd383e5828159824b97ead8f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264588"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804221"
 ---
 # <a name="set-up-bar-code-masks"></a>Barkod maskesi ayarlama
 

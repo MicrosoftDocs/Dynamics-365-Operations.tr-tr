@@ -2,11 +2,9 @@
 title: Ürün çeşidi yönetimi
 description: Bu konu Dynamics 365 Commerce'da ürün çeşidi yönetiminin temel kavramlarını açıklar ve projeniz için uygulamayla ilgili önemli notlar sağlar.
 author: jblucher
-manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 6a7a488b6684c23ceac9f35abf9e93e5c7261eb9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211510"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797293"
 ---
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
 

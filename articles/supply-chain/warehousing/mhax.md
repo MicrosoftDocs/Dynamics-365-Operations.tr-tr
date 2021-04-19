@@ -2,7 +2,6 @@
 title: Malzeme işleme ekipmanı arabirimi (MHAX)
 description: Bu konuda, harici fiziksel malzeme işleme (MH) sistemlerine bağlanabilmeniz için malzeme işleme ekipmanı arabiriminin (MHAX) nasıl ayarlanacağı açıklanmaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571854"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810522"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Malzeme işleme ekipmanı arabirimi (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Harici fiziksel malzeme işleme (MH) sistemlerini Microsoft Dynamics 365 Supply Chain Management'ta gelişmiş ambar yönetimi (WMS) tarafından yönetilen bir ambara bağlamak için *malzeme işleme ekipmanı arabirimini* (MHAX) kullanabilirsiniz. WMS ve MH sistemleri arasındaki arabirim iki kuyruktan oluşur: biri giden olaylar (WMS'den MH'ye) ve diğeri gelen olaylar için (MH'den WMS'ye). WMS sistemi, çeşitli iş oluşturma ve yürütme işlemleri sırasında oluşturulan iş satırlarına dayalı giden olaylar oluşturur. MH sistemi daha sonra WMS sistemini düzenli olarak yeni olaylar için yoklar ve yanıtları işler. MH sistemi olayları iş talimatlarına uygun olarak işlemeyi tamamladıktan sonra, iş satırının tamamlanması ve kısa malzeme çekme gibi gelen olayları gönderir.
 

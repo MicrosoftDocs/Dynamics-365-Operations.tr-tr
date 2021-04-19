@@ -2,11 +2,9 @@
 title: Bağlılık programına genel bakış
 description: Bu konu, Dynamics 365 Commerce'daki bağlılık özelliklerini ve satıcının bağlılık programına kolayca başlamasına yardımcı olmak için karşılık gelen kurulum adımlarını açıklar.
 author: scott-tucker
-manager: AnnBe
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1697c377c8291190f27b2057463ddb98aac1f9b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 25f02517bf333716bdb7c74ce1decebcd4e30c6d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264564"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801903"
 ---
 # <a name="loyalty-overview"></a>Bağlılık programına genel bakış
 

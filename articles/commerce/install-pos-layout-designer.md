@@ -2,11 +2,9 @@
 title: POS Düzeni tasarımcısını yükleme
 description: Tek işlemli tasarımcıyı mağazalar, kayıtlar, kasiyerler ve yöneticiler için Yatay modda veya Dikey Modda farklı Modern POS (MPOS) ve Bulut POS düzenleri tasarlamak için kullanabilirsiniz.
 author: athinesh99
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d96343e4258c84988a675599ab35d93f18ab36b9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213150"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797008"
 ---
 # <a name="install-the-pos-layout-designer"></a>POS Düzeni tasarımcısını yükleme
 

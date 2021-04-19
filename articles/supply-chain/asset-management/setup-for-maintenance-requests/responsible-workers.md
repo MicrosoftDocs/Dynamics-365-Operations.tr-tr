@@ -1,12 +1,10 @@
 ---
 title: Sorumlu bakım görevlileri
 description: Bu konuda Varlık Yönetimi'nde sorumlu bakım görevlisi ayarlama işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerResponsible
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6b1757952fb0e5b970f82f75d99919a7f0745e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a1330aa04a57809ff34dcca9791f8fb0a93c8d71
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261177"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808460"
 ---
 # <a name="responsible-maintenance-workers"></a>Sorumlu bakım görevlileri
 

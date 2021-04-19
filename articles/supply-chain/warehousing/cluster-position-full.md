@@ -2,11 +2,9 @@
 title: Küme konumu dolu
 description: Bu konuda, Küme konumu dolu özelliğiyle ilgili bilgiler verilir. Bu özellik, küme malzeme çekme kullanılırken iş kesme kuralına ait daha katı zorlamaya olanak sağlayan bir alternatif sunar, çünkü konteyner ve sepetlerin hacimleri ile ilişki kısıtlamalarda daha büyük hata marjlarına olanak sağlar.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233019"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808858"
 ---
 # <a name="cluster-position-full"></a>Küme konumu dolu
 
@@ -213,7 +211,7 @@ Her biri iki çekme satırı içeren iki iş kodu oluşturulmalıdır. İş kiml
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Mobil cihaz akışı yürütme – ürün için çalışma onayı kurulumu
 
-1. Ambar uygulamasında ambar *61*'deki bir kullanıcı olarak oturum açın.
+1. Ambar *61*'de bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın.
 1. **Giden \> Küme malzeme çekme oluşturma** bölümüne gidin.
 
     **GÖREV: Kümeye iş ata** sayfası görüntülenir.

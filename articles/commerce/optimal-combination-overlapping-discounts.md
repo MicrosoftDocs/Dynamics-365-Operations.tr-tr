@@ -2,11 +2,9 @@
 title: Çakışan iskontoları için en uygun birleşimi belirleme
 description: İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan '1 satın al, 1 al X yüzdesi' (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
 author: kfend
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fee9289820d3df821036412147994e227d68d1dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257183"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804709"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 

@@ -2,11 +2,9 @@
 title: Ambar ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te yeni bir kanalla kullanılacak bir ambarın nasıl ayarlanacağı açıklanmaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477646"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800507"
 ---
 # <a name="warehouse-set-up"></a>Ambarı ayarlama
 
@@ -49,7 +47,7 @@ Aşağıdaki resimde örnek bir ambar tesisi gösterilmektedir.
 
 ![Örnek ambar tesisi](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>Ambar ayarlama
+## <a name="set-up-a-warehouse&quot;></a>Ambar ayarlama
 
 Bir ambarı ayarlamak için bu adımları izleyin.
 
@@ -63,14 +61,14 @@ Bir ambarı ayarlamak için bu adımları izleyin.
     - Bir **Transit ambarı** ayarlamak istiyorsanız, bu adımları izleyerek, **Tür** ayarı **Transit** olan ek bir ambar oluşturmanız gerekir.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
-## <a name="set-up-inventory-aisles"></a>Stok koridorlarını ayarla
+## <a name=&quot;set-up-inventory-aisles&quot;></a>Stok koridorlarını ayarla
 
 Stok koridorları ayarlamak için bu adımları izleyin.
 
 1. Gezinti bölmesinde **Modüller \> Perakende ve ticaret \> Kanal kurulumu \> Yerleşim ayarı \> Stok koridorları**'na gidin.
 1. Eylem bölmesinde **Yeni**'yi seçin.
 1. **Ambar** açılır listesinde, önceden oluşturulan ambarı seçin.
-1. **Koridor** alanına bir ad girin (örneğin "Var").
+1. **Koridor** alanına bir ad girin (örneğin &quot;Var").
 1. **Ad** alanına bir ad girin (örneğin "Varsayılan koridor").
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 

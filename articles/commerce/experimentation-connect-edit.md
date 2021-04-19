@@ -2,11 +2,9 @@
 title: Deneme bağlama ve varyasyonları düzenleme
 description: Bu konuda, üçüncü taraf bir hizmetteki bir denemebib Dynamics 365 Commerce'a nasıl bağlanacağı ve denemeler için varyasyonların nasıl düzenleneceği açıklanmaktadır.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c295f6f8170b6314ddf2d0c3582343b312c815b6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238666"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799099"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Deneme bağlama ve varyasyonları düzenleme
 

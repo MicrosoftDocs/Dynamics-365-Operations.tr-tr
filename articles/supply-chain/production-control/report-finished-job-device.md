@@ -2,11 +2,9 @@
 title: İş kartı cihazından tamamlandı olarak bildirme
 description: Bu konuda, bir iş kartı kullanıcıları bir üretim emrinden stoka bitmiş ürünleri raporlenebilecek şekilde sistemi konfigüre etme yöntemi açıklanmıştır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7eabcb23681a9b2427fa1065b045e639cc98f9d7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262153"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811642"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>İş kartı cihazından tamamlandı olarak bildirme
 
@@ -64,7 +62,7 @@ Son operasyonda tamamlandı olarak rapor edilen miktarların stoğa eklenmesi ge
 İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir toplu iş numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
 
 1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
-1. İş Kartı Cihazında (Önizleme) bitmiş olarak raporlarken toplu iş ve seri numaralarını girmek için etkinleştirin
+1. İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Toplu numara bildirimi gerektiren ürünleri yapılandırma
 
@@ -142,7 +140,7 @@ Bu senaryoyu kullandığınızda, iş kartı aygıtında **durumu raporla** sayf
 İş kartı aygıtlarınızın tamamlandı bildirimi sırasında bir seri numarası kabul etmesini sağlamak için, [özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanarak aşağıdaki özellikleri (Bu sırada) açmanız gerekir:
 
 1. İş Kartı Cihazındaki Rapor ilerlemesi iletişim kutusu için geliştirilmiş kullanıcı deneyimi.
-1. İş Kartı Cihazında (Önizleme) bitmiş olarak raporlarken toplu iş ve seri numaralarını girmek için etkinleştirin
+1. İş Kartı Cihazında iş sona erdi bildirimi yaparken toplu iş ve seri numaralarını girmek için etkinleştirin
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Seri numarası bildirimi gerektiren ürünleri yapılandırma
 

@@ -2,11 +2,9 @@
 title: CSS geçersiz kılma dosyalarıyla çalışma
 description: Bu konu, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 41fb0be51f7af25faba1b860319aea84ae7a8b56
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207811"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799505"
 ---
 # <a name="work-with-css-override-files"></a>CSS geçersiz kılma dosyalarıyla çalışma
-
 
 [!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'te geçişli stil sayfalarının (CSS) nasıl geçersiz kılındığını, ne zaman ve nasıl kullanılacağını açıklamaktadır.
-
-## <a name="overview"></a>Genel Bakış
 
 Kalıcı site stilleri genellikle sitenin teması üzerinden işlenmelidir. Temalar, sitenizin herhangi bir sayfasında modüller için temel CSS ve stil ayarlarını sağlar. Temalar, Dynamics 365 Commerce çevrimiçi yazılım geliştirme SETI (SDK) kullanılarak oluşturulur ve bunlar Web siteleriniz ile Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla dağıtılır. SDK yardımda Tema hata ayıklama özellikleri ve modül arabirim yapılandırmaları özelleştirilebilir ve ortaklaşa bulunmayan site tasarım paketleri oluşturur. Bu tasarım paketleri bir siteye dağıtıldığında, Site yazarları, site geliştirme yerine içerik oluşturma, düzenleme ve yayımlama işlemlerinde yoğunlaşabilir.
 

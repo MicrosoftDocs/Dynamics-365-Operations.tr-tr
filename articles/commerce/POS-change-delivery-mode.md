@@ -2,11 +2,9 @@
 title: POS'ta teslimat şeklini değiştirme
 description: Bu konu, POS'ta teslimat işlemi değişiklik modunun nasıl yapılandırıldığını ve kullanıldığını açıklamaktadır.
 author: hhainesms
-manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 4a56262d37f7d1a37f63d0b8e7c7e3f1642d33c4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206739"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796402"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>POS'ta teslimat şeklini değiştirme
 

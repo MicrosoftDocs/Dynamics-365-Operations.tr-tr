@@ -2,11 +2,9 @@
 title: Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 description: Bu konu, Dynamics 365 Commerce içinde bir çağrı merkezi siparişinin teslimat modlarını ve giderlerini ayarlamayı açıklar.
 author: josaw1
-manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: af9ff5e613679593f59dab605ed35e0bc43dd09a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220618"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796160"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 

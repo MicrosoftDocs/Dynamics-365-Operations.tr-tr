@@ -2,11 +2,9 @@
 title: Varlık yönetimini sabit kıymetlerle tümleştirme
 description: Bu konu, sabit kıymetleri bakım yapılan varlıklarla bağlamak için Varlık Yönetimi ve Sabit kıymetler modüllerinin nasıl tümleştirileceğini açıklamaktadır.
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: adc14019c243b1992cdaa22ef7aa32cb44bfffd9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a45bf1f62cdcc8abed2ec157a223e7f3fddec7ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253602"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809866"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Varlık yönetimini sabit kıymetlerle tümleştirme
 

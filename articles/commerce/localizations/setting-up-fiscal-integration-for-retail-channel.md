@@ -2,11 +2,9 @@
 title: Commerce kanalları için mali tümleştirmeyi ayarlama
 description: Bu konu, mali tümleştirme işlevini Commerce kanalları için ayarlama hakkında yönergeler sağlar.
 author: josaw
-manager: annbe
 ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 475459e20bb53a726524311fb66ddd82dee454ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bc87972b1cd2e04d31a3d48132cd1de42353698d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801929"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Commerce kanalları için mali tümleştirmeyi ayarlama
 

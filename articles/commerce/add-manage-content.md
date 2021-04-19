@@ -2,11 +2,9 @@
 title: İçerik ekleme yolları
 description: Bu konu, Microsoft Dynamics 365 Commerce Site Builder Web yazma aracı kümesi kullanılarak içeriğin nasıl ve nasıl başlanacağı ile ilgili genel bakış ve bağlantı sağlar.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208075"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797587"
 ---
 # <a name="ways-to-add-content"></a>İçerik ekleme yolları
 
 [!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Commerce site yapıcısı web yazma araç takımı kullanarak içeriği yönetme hakkında genel bakış ve bağlantılar sağlar.
-
-## <a name="overview"></a>Genel Bakış
 
 Sitenizin görünümünü, hissini ve içeriğini değiştirmek için birçok yol vardır. Bu değişikliklerin çoğu, gerekli özelleştirme düzeyine bağlı olarak, Site Builder içinde bulunan Web yazma araç takımı içindeki geliştiriciler tarafından gerçekleştirilebilir Dynamics 365 Commerce. Site Builder, şablon oluşturmanızı, temaları seçmenizi ve herhangi bir kod yazmadan modülleri seçmenizi ve yapılandırmanızı sağlar. Bunun aksine, e-ticaret yazılım geliştirme seti (SDK) ve Microsoft Dynamics Lifecycle Services (LCS) dağıtım iş akışı kullanılması gerektiğinden, yeni bir tema veya modül oluşturmak için geliştirme becerileri gereklidir.
 

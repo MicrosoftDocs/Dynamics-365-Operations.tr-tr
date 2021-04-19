@@ -2,11 +2,9 @@
 title: Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 description: Bu konu, bir adanmış ödeme terminali alma ve kullanıcıdan bir para çekmecesini ve bir makbuz yazıcısı seçmesini sağlayan bilgiler içerir.
 author: rubendel
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 848e83505e9e20111c2809000dcf19f352142de4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223035"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804319"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Adanmış ödeme terminalleri ve yazıcı ve nakit çekmecesini sorar
 

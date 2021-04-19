@@ -1,12 +1,10 @@
 ---
-title: Ambarlama uygulaması içerisinde alan adlarını yapılandırma
-description: Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
+title: Ambar Yönetimi mobil uygulaması için alanları yapılandırma
+description: Bu konu, Ambar Yönetimi mobil uygulamasında gösterilen alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232971"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808834"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Ambarlama uygulaması içerisinde alan adlarını yapılandırma
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması için alanları yapılandırma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 Supply Chain Management için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
+Bu konu, Ambar Yönetimi mobil uygulamasında gösterilen alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır.
 
 > [!NOTE]
-> Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Ambarlama'ya bağlantıyı yapılandırma hakkında ayrıntılı bilgi için [Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md) eğitimine bakın.
+> Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Ambar Yönetimi mobil uygulaması ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu Ambar Yönetimi mobil uygulamalarının alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların nasıl kullanıldıklarını açıklar.
 
 ## <a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
 
@@ -142,7 +140,7 @@ Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, an
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Ambarlama uygulamasını yükleme ve yapılandırmaya genel bakış](install-configure-warehousing-app.md)
+[Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

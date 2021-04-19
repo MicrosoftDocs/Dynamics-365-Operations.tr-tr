@@ -2,11 +2,9 @@
 title: Hesap yönetimi sayfaları ve modülleri
 description: Bu konu, Microsoft Dynamics 365 Commerce'ta hesap yönetimi sayfalarını ve modüllerini kapsamaktadır.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206643"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796306"
 ---
 # <a name="account-management-pages-and-modules"></a>Hesap yönetimi sayfaları ve modülleri
 
@@ -51,9 +49,9 @@ Sipariş geçmişi sayfası, kullanıcının verdiği tüm son siparişleri gös
 
 Sipariş Ayrıntıları sayfası her sipariş için ayrıntılı bilgi sağlar ve sipariş geçmişi sayfasından erişilir. Sipariş ayrıntılarını almak için satış kodu veya işlem kodunun gerekli olmasını gerektiren sipariş ayrıntıları modülünü kullanır.
 
-### <a name="user-profile-page"></a>Kullanıcı profil sayfası
+### <a name="my-profile-page"></a>Profilim sayfası
 
-Kullanıcı profili sayfası kullanıcının adı ve e-posta adresi gibi kullanıcı hesabı ayrıntılarını gösterir. Kullanıcı profili ayrıntılarını ve Kullanıcı profili düzenleme modüllerini kullanır. Ancak e-posta adresi kaldırılamaz, düzenlenebilir. Kullanıcı profili sayfası, kullanıcının öneri listelerinin kişiselleştirmesi gibi belirli özellikleri kabul etmesini veya devre dışı olmasını etkinleştiren Kullanıcı tercihlerini de gösterir. 
+Profilim sayfası, hesap profili modülünü kullanarak kullanıcının hesap profili ayrıntılarını gösterir. Sayfa, kullanıcının hesabıyla ilişkili e-posta adresini ve ayrıca hesap için ayarlanmış tercihleri gösterir. Özel müşteri öznitelikleri ayarlıyorsanız, bu öznitelikler bir "ek bilgiler" bölümünde de görüntülenecektir. Kullanıcılar adlarını, tercihlerini veya ek bilgilerini (varsa) düzenleyebilir.
 
 ### <a name="user-address-page"></a>Kullanıcı adresi sayfası
 

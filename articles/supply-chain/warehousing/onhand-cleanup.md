@@ -2,11 +2,9 @@
 title: Ambar yönetimi eldeki stok girişlerini temizleme işi
 description: Bu konu, gerekli ancak gerekmeyen kayıtları tanımlayıp silerek sistem performansının artırılmasına yardımcı olan eldeki girişler temizleme işini açıklamaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 93c77434a912554dab486b42c0c9fffd68cf9435
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4dd3bb9dc580e715b6945da1f94cf27e601c549e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226015"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808738"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Ambar yönetimi eldeki stok girişlerini temizleme işi
 

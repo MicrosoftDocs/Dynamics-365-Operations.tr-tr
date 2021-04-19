@@ -2,11 +2,9 @@
 title: " Bağlılık ödül puanlarını tanımlama"
 description: Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bb190e720e5040d446d75a2e8c39cb360019d42
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e7f3b19513bb25d1976d2e4d0e235c347c38ccb4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798477"
 ---
 # <a name="define-loyalty-reward-points"></a> Bağlılık ödül puanlarını tanımlama
 
