@@ -2,11 +2,9 @@
 title: Mühendislik değişimi yönetimi parametreleri
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management için mühendislik değişikliği yönetimi özelliklerinin nasıl yapılandırılacağı açıklanmaktadır.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d5cf6826aa44e27fae989c73d87d2d3687e0cd0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34c2cd1bb7bfaac50f8816e7eecabf754bc714c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262297"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832238"
 ---
 # <a name="engineering-change-management-parameters"></a>Mühendislik değişimi yönetimi parametreleri
 

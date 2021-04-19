@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.12 (Ağustos 2020)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.12'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258983"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832214"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Dynamics 365 Supply Chain Management'deki yenilikler veya değişiklikler 10.0.12 (Ağustos 2020)
 
@@ -47,9 +45,9 @@ Bu sürümde aşağıdaki özellikler bulunmaktadır. Özellik başlıkları, [S
 
 - [IoT zekası temel içgörüleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Daha fazla bilgi için bkz. [IoT Zekası ana sayfası](../iot/iot-intelligence-home-page.md).
 
-- [Ambar uygulaması için plaka teslim alma geliştirmeleri (devamı)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması üzerinden plaka alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Ambar uygulaması için plaka teslim alma geliştirmeleri (devamı)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması üzerinden plaka alma](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Warehouse Mobile App için toplu dağıtım](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulamasını yükleme ve yapılandırmaya genel bakış](../warehousing/install-configure-warehousing-app.md).
+- [Warehouse Mobile App için toplu dağıtım](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Ambar yönetimi eldeki girişlerini temizleme işi için maksimum yürütme süresi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Daha fazla bilgi için bkz. [Ambar yönetimi eldeki stok girişlerini temizleme işi](../warehousing/onhand-cleanup.md).
 

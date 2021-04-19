@@ -2,11 +2,9 @@
 title: Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme
 description: Bu konuda, gelişmiş ambar yönetimine yükseltme ve geçiş sırasında karşılaşabileceğiniz genel sorunları nasıl giderebileceğiniz açıklanmaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208099"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826407"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme
 
@@ -34,11 +32,11 @@ Bu konuda, gelişmiş ambar yönetimine yükseltme ve geçiş sırasında karş�
 
 ### <a name="issue-description"></a>Sorun açıklaması
 
-Bu hata iletisini ambar uygulamasında alırsınız çünkü otomatik olarak imzalanan sertifikalara şirket içi ortamlarda Android 8+ sistemlerde güvenilmez.
+Bu hata iletisini Ambar Yönetimi mobil uygulamasında alırsınız çünkü otomatik olarak imzalanan sertifikalara şirket içi ortamlarda Android 8+ sistemlerde güvenilmez.
 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
-Harici (ortak) bir sertifika yetkilisi (CA) kullanın. Bu sorunla ilgili düzeltme, ambar uygulamasının 1.9.0.0 sürümünde kullanıma sunulmuştur. Bu sorun ve nasıl düzeltileceği hakkında daha fazla bilgi için bkz. [Ambar uygulaması bağlantı sorunlarını giderme](troubleshoot-warehouse-app-connection.md).
+Harici (ortak) bir sertifika yetkilisi (CA) kullanın. Bu sorunla ilgili düzeltme, ambar uygulamasının 1.9.0.0 sürümünde kullanıma sunulmuştur. Bu sorun ve nasıl düzeltileceği hakkında daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulaması bağlantı sorunlarını giderme](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Temel ambar işlemlerinden gelişmiş ambar işlemlerine geçiş için onaylı işlem nedir?
 

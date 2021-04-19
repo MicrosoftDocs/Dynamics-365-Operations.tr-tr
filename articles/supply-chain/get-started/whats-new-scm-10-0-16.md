@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management 10.0.16'deki yenilikler veya değişiklikler (Şubat 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.16'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236087"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829998"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16'deki yenilikler veya değişiklikler (Şubat 2021)
 
@@ -35,11 +33,13 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.16'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
 - [Özelleştirilebilir atölye yürütme arabirimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini çalıştırmak için cihaz ayarlama](../production-control/production-floor-execution-setup.md).
 
 - [Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Daha fazla bilgi için bkz. [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)
+
+- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için, bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
 
 - [Kaynak belge satırlarında plakaları doğrulama](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Daha fazla bilgi için bkz. [Ambar yapılandırmaya genel bakış](../warehousing/warehouse-configuration.md).
 
@@ -75,7 +75,7 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 - [Satış siparişleri ile ilgili sorunları giderme](../sales-marketing/troubleshooting-sales.md)
 - [Satış teklifleri ile ilgili sorunları giderme](../sales-marketing/troubleshooting-salesquotation.md)
 - [Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Ambar uygulaması bağlantı sorunlarını giderme](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Ambar yönetimi mobil uygulama bağlantısı sorunları ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Ambar yapılandırması ile ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Ambar stok yenileme sorunlarını giderme](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Ambar kurulumuyla ilgili sorunları giderme](../warehousing/troubleshoot-warehouse-setup.md)

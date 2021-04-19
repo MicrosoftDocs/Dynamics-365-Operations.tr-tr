@@ -2,11 +2,9 @@
 title: Sevkiyat konsolidasyonu ilkeleri
 description: Bu konu, sevkiyat konsolidasyon ilkelerinin esnek yapılandırmasını sağlayan işlevlere genel bir bakış sağlar.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0823bd6f346e068e28f0f46227dfbdfabb52d238
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b39bcf316d7779765b588d75d8057da285b47de2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233259"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831470"
 ---
 # <a name="shipment-consolidation-policies"></a>Sevkiyat konsolidasyonu ilkeleri
 

@@ -2,7 +2,6 @@
 title: Teslimat bilgileri ayarı
 description: Bu konuda, Varış yeri maliyeti modülü için teslimat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/09/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 7b65e1c6bb1b6bf345fdde0f4de7015190052efa
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4cb1207916c40a18cf5b295baa913ae2d7198a05
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500538"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841922"
 ---
 # <a name="delivery-information-setup"></a>Teslimat bilgileri ayarı
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, **Varış yeri maliyeti** modülü için teslimat bilgilerinin nasıl ayarlanacağı açıklanmaktadır.
 

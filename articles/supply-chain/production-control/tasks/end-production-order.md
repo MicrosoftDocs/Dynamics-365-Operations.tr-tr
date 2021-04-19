@@ -2,11 +2,9 @@
 title: Üretim emrini bitirme
 description: Bu yordam, bir üretim emrini nasıl sonlandırabileceğinizi gösterir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 994f4ca578de970876f714bb397afeea1f39c15c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 577b026c950885524b726b09eb4df1ee7cf06837
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240353"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828694"
 ---
 # <a name="end-a-production-order"></a>Üretim emrini bitirme
 

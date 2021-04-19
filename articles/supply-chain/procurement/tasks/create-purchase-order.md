@@ -1,26 +1,24 @@
 ---
 title: Satınalma siparişi oluşturma
 description: Bu konu, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2152a2f6677fc0a321f15798c063f01ffd5969d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4fca62bcfc1d6e15c8882bed32b82b63eb4c1666
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212018"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812314"
 ---
 # <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
 

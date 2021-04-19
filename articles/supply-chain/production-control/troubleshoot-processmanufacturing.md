@@ -2,11 +2,9 @@
 title: Süreç üretimi ile ilgili sorunları giderme
 description: Bu konuda, süreç üretimi ile çalışırken karşılaşabileceğiniz sorunların nasıl düzeltileceğini açıklanmaktadır.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71ff5eeb2065a67281393777937d50237ab78d5e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 938820b6cd2bb470b440fea7b70124efc0faf7f8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259734"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825002"
 ---
 # <a name="troubleshoot-process-manufacturing"></a>Süreç üretimi ile ilgili sorunları giderme
 

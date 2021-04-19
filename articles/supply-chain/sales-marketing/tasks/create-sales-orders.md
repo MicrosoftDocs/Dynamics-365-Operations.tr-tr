@@ -2,11 +2,9 @@
 title: Satış siparişleri oluşturma
 description: Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir.
 author: omulvad
-manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 630e82f737adf2a2c694ba4d6c046f0ae02f2696
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a52c512d630e560afac998e1a35e71204d98f5d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260467"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841371"
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 

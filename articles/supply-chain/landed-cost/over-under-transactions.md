@@ -2,7 +2,6 @@
 title: Fazla/eksik hareketleri
 description: Bu konu, sistemin alındıktan sonra malların aşırı işlenmesini ve eksik işlenmesini nasıl yöneteceğini belirleyebilmesi için fazla/eksik hareketleri için ilkelerin ayrıntılarını ayarlamanıza yardımcı olacak bilgiler sağlar.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500994"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833749"
 ---
 # <a name="overunder-transactions"></a>Fazla/eksik hareketleri
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bir seyahatteki siparişler işlendiğinde, sistem tüketim için son hedef ambarda alınan madde miktarının, seyahatle ilişkili satın alma siparişi satırlarında belirtilen miktarla eşleşmesini bekler. Ancak satın alma siparişi satırlarındaki tam miktar her zaman ambarda alınmadığı için **Varış yeri maliyeti** modülü, malların fazla ve eksik teslim alınmasını işlemek için kullanılan bir kurallar kümesi tanımlar. Orijinal satın alma siparişi faturalandığı ve artık değiştirilemediği için bu kurallar özellikle önemlidir. Fazla/eksik hareketi ilkelerinin ayrıntılarını ayarlayarak sistemin malların giriş anında fazla işlenmesini ve eksik işlenmesini nasıl yöneteceğini belirlemesini sağlarsınız. Ayrıca, **Fazla/eksik hareketleri** sayfasını kullanarak fazla ve eksik stoku el ile yönetebilirsiniz.
 

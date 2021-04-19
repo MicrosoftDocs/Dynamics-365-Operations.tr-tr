@@ -2,13 +2,11 @@
 title: Malzeme özel durumlarının görülebilirliği
 description: Bu konuda, üretim emirleri ve toplu iş emirleri için ham madde özel durumlarının nasıl daha iyi görülebilir duruma getirilebileceği açıklanmaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246177"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831998"
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
@@ -59,7 +57,11 @@ Kutucuğu seçtiğinizde, **Ambara serbest bırak** sayfası açılır. Bu sayfa
 
 Bir ürün reçetesi veya formül satırı serbest bırakıldığında, üretim dalga şablonu yapılandırmasına bağlı olarak yeni bir üretim dalgasına veya mevcut açık bir dalgaya eklenir. Dalga şablonu yapılandırmasıyla, bir ürün reçetesi veya formül satırı serbest bırakıldığında otomatik olarak işlenecek bir dalga da ayarlayabilirsiniz. Dalga işlendiğinde, ham madde çekme için bir ambar işi oluşturulur. Dalga şablonu, dalgalar serbest bırakma sırasında işlenmeyecek şekilde yapılandırılırsa, dalga işlenmemiş durumda kalır. **Dikkat gerektiren işlem görmemiş dalgalar** kutucuğu işlenmemiş dalgalarda ambara serbest bırakılan ve çalışma alanı tarihiyle aynı veya daha önceki bir tarihte olan bir ham madde tarihi bulunan ürün reçetesi ve formül satırı sayısını gösterir. Ayrıca satırların, çalışma alanı filtresine uygulanan bir işlem kaynağı tarafından tüketilmesi gerekir.
 
-Kutucuk seçildiğinde, **Tüm üretim dalgaları** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen dalga satırları içeren açık dalgaların sayısına göre filtrelenir. **Tüm üretim dalgaları** sayfasından, dalgayı el ile işleyebilirsiniz.
+Kutucuk seçildiğinde, **Tüm üretim dalgaları** sayfası açılır. Sayfa, kutucuk ölçütünü karşılayan serbest bırakılmış ürün reçetesi ve formül satırlarından gelen dalga satırları içeren açık dalgaların sayısına göre filtrelenir.
+
+### <a name="manually-maintain-production-waves"></a>Üretim dalgalarını el ile koruma
+
+**Tüm üretim dalgaları** sayfasında, bir dalgayı el ile **işlemek** ve **serbest bırakmak** için eylem bölmesinin **dalga** sekmesindeki düğmeleri kullanabilirsiniz. Ayrıca dalga işlemini işlemek için kullanılan **Ürün Reçetesi Havuzu** verilerini görüntülemek ve korumak için **üretimleri koru** seçeneğini kullanabilirsiniz.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Dikkat gerektiren açık ambar işi
 
