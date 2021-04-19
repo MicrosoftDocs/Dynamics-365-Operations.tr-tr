@@ -2,11 +2,9 @@
 title: Kanban işlem işlerini yürütme
 description: Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
@@ -16,45 +14,45 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10f8a464207fc3b1c34638a9f55df7b53a69b357
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0bccee458ee48c51bdeeb64cee1f62aac9bdf4f9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259806"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828550"
 ---
-# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="52a5c-103">Kanban işlem işlerini yürütme</span><span class="sxs-lookup"><span data-stu-id="52a5c-103">Execute kanban process jobs</span></span>
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="2560f-103">Kanban işlem işlerini yürütme</span><span class="sxs-lookup"><span data-stu-id="2560f-103">Execute kanban process jobs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="52a5c-104">Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="52a5c-105">İlk iş, beklenen miktar ile tamamlanır ve hiçbir hata alınmaz.</span><span class="sxs-lookup"><span data-stu-id="52a5c-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="52a5c-106">İkinci iş bir takım hatalarla tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="52a5c-106">The second job is completed with errors.</span></span> <span data-ttu-id="52a5c-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="52a5c-108">Bu yordam makine operatörü için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="52a5c-108">This procedure is intended for the machine operator.</span></span>
+<span data-ttu-id="2560f-104">Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="2560f-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="2560f-105">İlk iş, beklenen miktar ile tamamlanır ve hiçbir hata alınmaz.</span><span class="sxs-lookup"><span data-stu-id="2560f-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="2560f-106">İkinci iş bir takım hatalarla tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="2560f-106">The second job is completed with errors.</span></span> <span data-ttu-id="2560f-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="2560f-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2560f-108">Bu yordam makine operatörü için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="2560f-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a><span data-ttu-id="52a5c-109">Bir kanban işi seçin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-109">Select a kanban job</span></span>
-1. <span data-ttu-id="52a5c-110">Üretim kontrolü > Kanban > İş işlemleri için kanban kartı'na gidin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="52a5c-111">İş hücresi alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="52a5c-112">1250 kaynak grubunun bulunduğu sırayı tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="52a5c-113">Böylece, İş listesi filtrelenerek sadece 1250 iş hücresi için olan işler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
-    * <span data-ttu-id="52a5c-114">Planlı iş durumuna sahip sırayı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-114">Mark the row that has the Planned job status.</span></span>  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="2560f-109">Bir kanban işi seçin.</span><span class="sxs-lookup"><span data-stu-id="2560f-109">Select a kanban job</span></span>
+1. <span data-ttu-id="2560f-110">Üretim kontrolü > Kanban > İş işlemleri için kanban kartı'na gidin.</span><span class="sxs-lookup"><span data-stu-id="2560f-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="2560f-111">İş hücresi alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="2560f-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="2560f-112">1250 kaynak grubunun bulunduğu sırayı tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="2560f-113">Böylece, İş listesi filtrelenerek sadece 1250 iş hücresi için olan işler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="2560f-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="2560f-114">Planlı iş durumuna sahip sırayı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="2560f-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="52a5c-115">Bir işi beklenen miktarla tamamlama</span><span class="sxs-lookup"><span data-stu-id="52a5c-115">Complete a job with expected quantity</span></span>
-1. <span data-ttu-id="52a5c-116">Ayrıntılar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-116">Expand or collapse the Details section.</span></span>
-    * <span data-ttu-id="52a5c-117">Bu bölümde kart numarası, madde numarası, sipariş edilen miktar ve etkinlik adı hakkında önemli bilgiler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
-2. <span data-ttu-id="52a5c-118">Üretim talimatları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-118">Expand or collapse the Production instructions section.</span></span>
-    * <span data-ttu-id="52a5c-119">Bu bölümde etkinlik için üretim talimatları verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="52a5c-120">Talimatlar metin, resim, çizim ve diğer belge türlerinde olabilir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
-3. <span data-ttu-id="52a5c-121">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-121">Click Start.</span></span>
-    * <span data-ttu-id="52a5c-122">Tamamlanmamış bir iş seçin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-122">Select a job that is not completed.</span></span> <span data-ttu-id="52a5c-123">İş durumunu görüntülemek için İş durumu alanındaki durum simgelerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-123">Use status icons in the Job status field to view job status.</span></span>      
-4. <span data-ttu-id="52a5c-124">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-124">Click Complete.</span></span>
-    * <span data-ttu-id="52a5c-125">İş, beklenen miktarla tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="52a5c-125">The job is completed with the expected quality.</span></span>  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="2560f-115">Bir işi beklenen miktarla tamamlama</span><span class="sxs-lookup"><span data-stu-id="2560f-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="2560f-116">Ayrıntılar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="2560f-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="2560f-117">Bu bölümde kart numarası, madde numarası, sipariş edilen miktar ve etkinlik adı hakkında önemli bilgiler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="2560f-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="2560f-118">Üretim talimatları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="2560f-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="2560f-119">Bu bölümde etkinlik için üretim talimatları verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="2560f-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="2560f-120">Talimatlar metin, resim, çizim ve diğer belge türlerinde olabilir.</span><span class="sxs-lookup"><span data-stu-id="2560f-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="2560f-121">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-121">Click Start.</span></span>
+    * <span data-ttu-id="2560f-122">Tamamlanmamış bir iş seçin.</span><span class="sxs-lookup"><span data-stu-id="2560f-122">Select a job that is not completed.</span></span> <span data-ttu-id="2560f-123">İş durumunu görüntülemek için İş durumu alanındaki durum simgelerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="2560f-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="2560f-124">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-124">Click Complete.</span></span>
+    * <span data-ttu-id="2560f-125">İş, beklenen miktarla tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="2560f-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a><span data-ttu-id="52a5c-126">Bir işi hatalarla tamamlama</span><span class="sxs-lookup"><span data-stu-id="52a5c-126">Complete a job with errors</span></span>
-1. <span data-ttu-id="52a5c-127">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-127">Click Start.</span></span>
-    * <span data-ttu-id="52a5c-128">Bir iş tamamlandığında listedeki bir sonraki iş otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="52a5c-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="52a5c-129">Bu nedenle, Başlat düğmesini tıklamadan önce bir iş seçmenize gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="52a5c-129">This is why you don't need to select a job before you click Start.</span></span>  
-2. <span data-ttu-id="52a5c-130">Eylem Bölmesinde, Üretim öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-130">On the Action Pane, click Manufacture.</span></span>
-3. <span data-ttu-id="52a5c-131">Tamamla (ayrıntılar) düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-131">Click Complete (details).</span></span>
-4. <span data-ttu-id="52a5c-132">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-132">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="52a5c-133">Hata miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-133">In the Error quantity field, enter a number.</span></span>
-6. <span data-ttu-id="52a5c-134">İyi miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="52a5c-134">In the Good quantity field, enter a number.</span></span>
-7. <span data-ttu-id="52a5c-135">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="52a5c-135">Click OK.</span></span>
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="2560f-126">Bir işi hatalarla tamamlama</span><span class="sxs-lookup"><span data-stu-id="2560f-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="2560f-127">Başlat'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-127">Click Start.</span></span>
+    * <span data-ttu-id="2560f-128">Bir iş tamamlandığında listedeki bir sonraki iş otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="2560f-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="2560f-129">Bu nedenle, Başlat düğmesini tıklamadan önce bir iş seçmenize gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="2560f-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="2560f-130">Eylem Bölmesinde, Üretim öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="2560f-131">Tamamla (ayrıntılar) düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="2560f-132">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="2560f-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="2560f-133">Hata miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="2560f-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="2560f-134">İyi miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="2560f-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="2560f-135">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2560f-135">Click OK.</span></span>
 
 
 
