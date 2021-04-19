@@ -2,11 +2,9 @@
 title: Malzeme çekme satırı gruplandırması
 description: Bu konu, çekme satırı gruplandırmasına genel bakış sağlamaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 12/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7ab8cdd7cad5420aca0de53e59220da9e230d411
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234645"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828286"
 ---
 # <a name="pick-line-grouping"></a>Malzeme çekme satırı gruplandırması
 

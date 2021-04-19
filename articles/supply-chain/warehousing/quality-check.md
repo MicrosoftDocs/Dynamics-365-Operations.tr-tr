@@ -2,11 +2,9 @@
 title: Kalite denetimi
 description: Bu konuda, Kalite denetimi özelliğiyle ilgili bilgiler verilir. Bu özellik, ambar çalışanlarının kalemleri giriş noktası alanına alırken kalite açısından hızlı bir şekilde denetlemesine olanak tanır.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228477"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838238"
 ---
 # <a name="quality-check"></a>Kalite denetimi
 
@@ -301,7 +299,7 @@ Satın alma siparişi oluşturulduktan sonra, **SAS satırı teslim alma** menü
 
 #### <a name="receive-pallet-1"></a>Palet 1'i alma
 
-1. Ambar uygulamasında ambar *51*'deki bir kullanıcı olarak oturum açın. (Kullanıcı kimliği olarak *51*, parola olarak *1* girin.)
+1. Ambar *51*'te bir kullanıcı olarak Ambar Yönetimi mobil uygulamasına oturum açın. (Kullanıcı kimliği olarak *51*, parola olarak *1* girin.)
 1. **Gelen \> SAS satırı teslim alma** bölümüne gidin.
 1. **PONUM** alanına satın alma siparişi numaranızı girin.
 1. Satın alma siparişi numarasını doğrulayın.

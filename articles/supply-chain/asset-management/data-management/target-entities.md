@@ -1,12 +1,10 @@
 ---
 title: Hedef varlıkları
 description: Bu konu, Varlık Yönetimi içinde hedef varlıkların genel bakışını almayı anlatır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 00e9acea04252207a3715744ec5c9d7da141d4b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253697"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838646"
 ---
 # <a name="target-entities"></a>Hedef varlıklar
 

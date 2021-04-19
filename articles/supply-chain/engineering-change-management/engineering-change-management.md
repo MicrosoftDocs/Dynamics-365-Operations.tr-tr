@@ -2,11 +2,9 @@
 title: Mühendislik ürünlerindeki değişiklikleri yönetme
 description: Bu konu mühendislik değişikliği yönetimi hakkında bilgiler sağlar. Mühendislik değişikliği yönetimi, mühendislik ürünlerindeki değişiklikleri yönetmek için önerme, talepte bulunma ve değişiklik yapmadan değişiklikleri inceleme ve onaylama, mevcut hareketler üzerindeki etkilerini değerlendirme ve bunları takip etme gibi yapılandırılmış süreçler sağlar.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262345"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830040"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 

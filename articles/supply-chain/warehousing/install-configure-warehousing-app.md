@@ -2,11 +2,9 @@
 title: Ambar uygulamasını yükleme ve bağlama
 description: Bu konuda, ambar uygulamasının mobil cihazlarınızın her birine nasıl yükleneceği ve Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde nasıl yapılandırılacağı açıklanmaktadır. Her cihazı el ile yapılandırabilir veya bir dosya ya da bir QR kodunu tarayarak bağlantı ayarlarını içe aktarabilirsiniz.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486989"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835590"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Bu konuda, eski ambar uygulamasının nasıl yapılandırılacağı açıklanmaktadır. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
+> Bu konu, eski ambar uygulamasının (şimdi kullanım dışı) nasıl yapılandırılacağını açıklar. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Bu konu bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

@@ -2,11 +2,9 @@
 title: çapraz sevk için sevkiyatı otomatik serbest bırakma
 description: Bu konuda, talep miktarını sağlayan üretim emri tamamlandı olarak bildirildiğinde ambara otomatik olarak bir talep emri serbest bırakmanızı sağlayan çapraz sevk stratejisi açıklanır. Bu durumda, miktar doğrudan üretim çıkış konumundan giden konumuna taşınır.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233187"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831446"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>çapraz sevk için sevkiyatı otomatik serbest bırakma
 
@@ -163,7 +161,7 @@ Mamul malların miktarını ilişkili satış siparişinin giden yerleşimine ç
 8. **Üretim emri** sayfasında, Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Tahmini**'yi ve ardından **Tamam**'ı seçin. Sipariş tahmini yapılır ve hammadde miktarı üretim için rezerve edilir.
 9. Eylem bölmesindeki **Üretim emri** sekmesinde, **İşlem** grubunda **Serbest bırak**'ı ve ardından **Tamam**'ı seçin. Ham madde için ambar çekme işi oluşturulur.
 10. İşi açın ve gözden geçirin. Eylem Bölmesinde **Ambar** sekmesindeki **Genel** grubunda **İş ayrıntıları**'nı seçin. İş kodunu not edin.
-11. Ambarda 51'de işi çalıştırmak için ambarlama uygulamasına oturum açın.
+11. Ambarda 51'de işi çalıştırmak için Ambar Yönetimi mobil uygulamasına oturum açın.
 12. **Üretim** \> **Üretim çekme**'ye gidin.
 13. Ham maddenin çekilmesini başlatmak ve tamamlamak için iş kodunu girin. 
 

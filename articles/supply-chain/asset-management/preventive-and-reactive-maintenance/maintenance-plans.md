@@ -1,12 +1,10 @@
 ---
 title: Bakım planları
 description: Bu konuda Varlık Yönetimi'ndeki bakım planları açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500826"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839619"
 ---
 # <a name="maintenance-plans"></a>Bakım planları
 
@@ -195,8 +193,6 @@ Aşağıdaki çizimde **Tüm varlıklar** sayfasında bulunan bir varlıktaki ba
 
 ## <a name="counter-based-maintenance-enhancements"></a>Sayaç tabanlı bakım geliştirmeleri
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 *Sayaç tabanlı bakım geliştirmeleri* özelliği aşağıdaki işlevleri sağlar:
 
 - Bir kıymet oluşturulduğunda, değeri *0* (sıfır) olan bir sayacı otomatik olarak ekleme seçeneği. Bu seçenek, sayaçları temel alan tahmine dayalı bakımı kullandığınızda yararlı olabilir. *Sayaç tabanlı bakım geliştirmeleri* özelliği kullanılmazsa, değeri *0* (sıfır) olan sayaçlar el ile eklenmelidir.
@@ -209,7 +205,7 @@ Aşağıdaki çizimde **Tüm varlıklar** sayfasında bulunan bir varlıktaki ba
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Kıymet Yönetimi*
-- **Özellik adı:** *(Önizleme) Sayaç tabanlı bakım geliştirmeleri özelliğini açma*
+- **Özellik adı:** *Sayaç tabanlı bakım geliştirmeleri özelliğini açma*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Bir kıymet oluşturulduğunda sayaçlar oluşturma ve başlatma
 

@@ -2,11 +2,9 @@
 title: Ambar hareketleri için ürün filtrelerini yapılandırma
 description: Bu konuda, bir ambardaki stok maddelerini kategorilere ayırmak için ürün filtrelerinin ve filtre kodlarının nasıl yapılandırılacağı açıklanmaktadır. Ayrıca, belirli bir maddeyi hangi müşterilerin sipariş edebileceğini ve belirli bir satıcıdan hangi maddelerin satın alınabileceğini belirtmek için de filtreleri kullanabilirsiniz.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSFilters,WHSFilterGroupTable,EcoResProductDetailsExtended,WHSFilterGenerallyAvail
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: dbf92c5e199ecadb3e4f7c6130427d449ef5b6c8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c3648a2d9df300ecd0c26a12db8093babb3db48f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251781"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838262"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Ambar hareketleri için ürün filtrelerini yapılandırma
 

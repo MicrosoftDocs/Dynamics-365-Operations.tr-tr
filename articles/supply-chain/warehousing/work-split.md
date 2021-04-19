@@ -2,11 +2,9 @@
 title: İş bölme
 description: Bu konu, iş bölme işlevi hakkında bilgi sağlar. Bu işlevsellik, büyük iş siparişlerini daha sonra birden çok ambar çalışanına atayabileceğiniz birkaç küçük iş siparişine bölmenize olanak tanır. Bu şekilde, aynı iş aynı anda birkaç ambar çalışanı tarafından çekilebilir.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245094"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830774"
 ---
 # <a name="work-split"></a>İş bölme
 
@@ -69,7 +67,7 @@ Ardından, aşağıdaki şekilde listelenen *İş bölme* özelliğini açın:
 >
 > - İş şu anda başka bir kullanıcı tarafından bölünmektedir. Zaten başka bir kullanıcı tarafından bölünmekte olan iş için bölme sayfasını açmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimliğine sahip iş şu anda bölünmektedir. Birkaç dakika içinde tekrar deneyin. Bu iletiyi almaya devam ederseniz bir denetçiye başvurun."
 
-Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin devam etmekte olduğunu gösterir. Bir kullanıcı işi çalıştırmaya çalışırsa hem **İşi böl** sayfasında hem de ambar uygulamasında gösterilir. Engelleme nedenleri kullanıldığında, iş kimliğindeki **Engellenen dalga** alanının adı **Engellendi** olarak değiştirilir.
+Yeni bir iş engelleme nedeni, *İşi böl*, iş kimliği bölme işleminin devam etmekte olduğunu gösterir. Bir kullanıcı işi çalıştırmaya çalışırsa hem **İşi böl** sayfasında hem de Ambar Yönetimi mobil uygulamasında gösterilir. Engelleme nedenleri kullanıldığında, iş kimliğindeki **Engellenen dalga** alanının adı **Engellendi** olarak değiştirilir.
 
 ## <a name="initiate-a-work-split"></a>İş bölme işlemi başlatma
 
@@ -147,9 +145,9 @@ Yeni iş hemen bir kullanıcıya atanmaz. Ancak **İş ayrıntıları** sayfası
 
 *İşi böl* engelleme nedeni kaldırıldıktan sonra, **Engelledi** durumunun iş kimliğinde *Hayır* olarak ayarlanmış olması koşuluyla, iş mobil cihazda çalıştırılabilir.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Ambar uygulamasında kullanıcı engelleme
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında kullanıcı engelleme
 
-Ambar uygulamasını, bölünmekte olan bir iş kimliğine karşı malzeme çekme işini çalıştırmak için kullanmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimlikli iş şu anda bölünmektedir." Bu iletiyi alırsanız **İptal et**'i seçin. Daha sonra diğer işleri işlemeye devam edebilirsiniz.
+Ambar Yönetimi mobil uygulamasını bölünmekte olan bir iş kimliğine karşı malzeme çekme işini çalıştırmak için kullanmaya çalışırsanız aşağıdaki hata iletisini alırsınız: "\#\#\#\# kimlikli iş şu anda bölünmektedir." Bu iletiyi alırsanız **İptal et**'i seçin. Daha sonra diğer işleri işlemeye devam edebilirsiniz.
 
 ## <a name="other-blocked-operations"></a>Engellenen diğer işlemler
 

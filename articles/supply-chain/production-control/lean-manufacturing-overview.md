@@ -2,11 +2,9 @@
 title: Yalın imalata genel bakış
 description: Bu makale Dynamics 365 Supply Chain Management içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 author: ChristianRytt
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b333b1bf5842211641c946730c5c6582a221b5b5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3da372e4e110b87322a7f2e974bd999c4c085234
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246033"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825807"
 ---
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 

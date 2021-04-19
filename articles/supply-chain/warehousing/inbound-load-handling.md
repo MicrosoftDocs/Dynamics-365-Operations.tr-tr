@@ -2,11 +2,9 @@
 title: Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 description: Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235352"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835642"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
@@ -66,7 +64,7 @@ Bir gelen yük ambara ilk kez ulaştığında, ambar çalışanları sevkiyata d
 
 - **Yük alımını destekleyecek şekilde yapılandırılmış mobil cihaz menüsü**
 
-    Mobil cihazlar için [Ambar uygulaması](install-configure-warehousing-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
+    Mobil cihazlar için [Ambar Yönetimi mobil uygulaması](../warehousing/install-configure-warehouse-management-app.md) aşağıdaki iş oluşturma işlemlerini destekler:
 
     - Yük maddesi teslim alma
     - Yük maddesi teslim alma ve yerine koyma
@@ -285,7 +283,7 @@ Belirtilen örnek kayıtları ve değerleri kullanarak bu senaryolar arasında �
 
 Ambar teslim alma görevlilerinin bir yük ile bağlantılı gelen stoğu kaydetmek için bir mobil cihaz kullanabilmesi için, o amaca yönelik bir mobil cihaz menü öğesi oluşturmanız gerekir.
 
-Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar uygulaması içindeki menü öğesini seçebilir.
+Bu bölümde, bir mobil cihaz menü öğesi oluşturacak ve bunu varolan bir menüye ekleyeceksiniz. Ambar çalışanı böylece Ambar Yönetimi mobil uygulaması içindeki menü öğesini seçebilir.
 
 1. **Ambar yönetimi \> Kurulum \> Mobil cihaz \> Mobil cihaz menü öğeleri**'ne gidin ve mobil cihaz menünüzde aşağıdaki ayarlara sahip bir menü öğesi bulunduğundan emin olun:
 

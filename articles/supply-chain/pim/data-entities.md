@@ -2,11 +2,9 @@
 title: Ürün veri varlıkları
 description: Bu konu, ürün verilerini içe aktarmak ve vermek için kullanılabilecek farklı varlıklar hakkında bilgi sağlar.
 author: cvocph
-manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: 1e7bda8cc900a5ae3ebab8e78254c802a627dc6d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f19cb309c9cd84106c45d4a4d3ee11b62ca46bd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243285"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829510"
 ---
 # <a name="product-data-entities"></a>Ürün veri varlıkları
 

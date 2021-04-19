@@ -2,11 +2,9 @@
 title: Ürün girişleri ve faturalama ile ilgili sorunları giderme
 description: Bu konu, ürün girişleri ve faturalama ile ilgili çalışırken karşılaşabileceğiniz sorunların nasıl düzeltilebileceğini açıklamaktadır.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5fd8ced95c6017c128b77b80047761715b92fc2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3522a024261ff6dfffb53f2101139460be7669e4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260563"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832022"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Ürün girişleri ve faturalama ile ilgili sorunları giderme
 

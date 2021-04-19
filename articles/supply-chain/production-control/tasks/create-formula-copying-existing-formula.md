@@ -2,11 +2,9 @@
 title: Mevcut bir formülden kopyalayarak formül oluşturma
 description: Bu yordam, mevcut bir formülden kopyalayarak yeni bir formülün nasıl hızlıca oluşturulacağını gösterir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d10d57fc924f73e1f03a1d59cd4a7c884f768631
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 482302e38b1536e09f9d26f5f153aa1deda3bf3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255241"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829174"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Mevcut bir formülden kopyalayarak formül oluşturma
 

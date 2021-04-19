@@ -1,12 +1,10 @@
 ---
 title: Planlanan iş emri bakım işleri
 description: Bu konu, Varlık Yönetiminde planlanan iş emri bakım işlerini açıklamaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c8cea81d27f1671b54c4947b05bbc387667247c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a8a93f5252e2785329bf3d24414841cf724f0aa3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263818"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832430"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Planlanan iş emri bakım işleri
 

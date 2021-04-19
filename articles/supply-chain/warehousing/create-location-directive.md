@@ -2,11 +2,9 @@
 title: Konum yönergeleriyle çalışma
 description: Bu konu, konum yönergeleriyle nasıl çalışılacağını açıklamaktadır. Yerleşim yönergeleri stok hareketi için çekme ve yerine koyma yerleşimlerini belirlemeye yardımcı olan kullanıcı tanımlı kurallardır.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470531"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838406"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -152,7 +150,7 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
     > [!IMPORTANT]
     > Hem çoklu madde, hem de tekli SKU yerine koyma yapabilmek için aynı yapıya ve kuruluma sahip iki satır belirtmeniz gerekir ancak **Birden fazla SKU** seçeneğini bir satır için *Evet* ve diğeri için *Hayır* olarak ayarlamalısınız. Bu nedenle, yerine koyma işlemleri için iki eş konum yönergesine ihtiyacınız vardır, iş kimliğinde tekli SKU veya çoklu SKU arasında ayrım yapmıyorsanız bile. Genellikle, bu konum yönergelerinin her ikisini birden ayarlamadıysanız, uygulanan Konum yönergesinden beklenmeyen iş süreci konumları gelecektir. Çoklu SKU'ları içeren siparişleri işleyebilmeniz gerekiyorsa *malzeme çekme* **İş türü** olan konum yönergeleri için benzer bir kurulum kullanmalısınız.
 
-    Birden fazla madde numarası işleyen iş satırları için **Çoklu SKU** seçeneğini kullanın. (Madde numarası iş ayrıntılarında boş olacak ve ambar uygulamasındaki işleme sayfalarında **Çoklu** şeklinde gösterilecektir.)
+    Birden fazla madde numarası işleyen iş satırları için **Çoklu SKU** seçeneğini kullanın. (Madde numarası iş ayrıntılarında boş olacak ve Ambar Yönetimi mobil uygulamasındaki işleme sayfalarında **Çoklu** şeklinde gösterilecektir.)
 
     Tipik bir örnek senaryoda, bir iş şablonu birden fazla malzeme çekme/yerine koyma çifti içerecek şekilde ayarlanır. Bu durumda, **İş türü** *Yerine Koyma* olan satırlarda kullanılmak üzere belirli bir hazırlama konumunu aramak isteyebilirsiniz.
 
@@ -171,7 +169,7 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
     > [!NOTE]
     > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.
 
-- **Değerlendirme kodu**: Bu alan, iş emri türü *Satın alma siparişleri*, *Bitmiş mal yerine koyma* veya *İade siparişleri* olan ve iş türü *Yerine koyma* olan iş emri türüne sahip konum yönergeleri için kullanılır. Ambar uygulamasında bir çalışanın seçtiği değerlendirme koduna bağlı olarak, akışta belirli bir konum yönergesini kullanmasını gösteren bir yol göstermesi için bunu kullanın. Örneğin, stoğa iade etmeden önce iade edilen malları bir denetleme konumuna yönlendirebilirsiniz. Bir değerlendirme kodu stok durumuna bağlanabilir. Bu şekilde, teslim alma sürecinin bir parçası olarak stok durumunu değiştirmek için kullanılabilir. Örneğin, stok durumunu *QA* olarak ayarlayan *QA* adlı bir değerlendirme kodunuz vardır. Daha sonra, bu stoğu karantina konumuna taşımak için ayrı bir konum yönergesine sahip olabilirsiniz.
+- **Değerlendirme kodu**: Bu alan, iş emri türü *Satın alma siparişleri*, *Bitmiş mal yerine koyma* veya *İade siparişleri* olan ve iş türü *Yerine koyma* olan iş emri türüne sahip konum yönergeleri için kullanılır. Ambar Yönetimi mobil uygulamasında bir çalışanın seçtiği değerlendirme koduna bağlı olarak, akışta belirli bir konum yönergesini kullanmasını gösteren bir yol göstermesi için bunu kullanın. Örneğin, stoğa iade etmeden önce iade edilen malları bir denetleme konumuna yönlendirebilirsiniz. Bir değerlendirme kodu stok durumuna bağlanabilir. Bu şekilde, teslim alma sürecinin bir parçası olarak stok durumunu değiştirmek için kullanılabilir. Örneğin, stok durumunu *QA* olarak ayarlayan *QA* adlı bir değerlendirme kodunuz vardır. Daha sonra, bu stoğu karantina konumuna taşımak için ayrı bir konum yönergesine sahip olabilirsiniz.
 
     > [!NOTE]
     > Bu alan yalnızca stok yenilemeye izin verilen seçili iş emri türleri için kullanılabilir. Listenin tamamı için [İş emri türlerine özel olan alanlar](#fields-specific-types) kısmına bakın.

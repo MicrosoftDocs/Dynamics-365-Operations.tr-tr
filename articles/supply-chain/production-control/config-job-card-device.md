@@ -2,11 +2,9 @@
 title: Cihazlar için iş kartını konfigüre et
 description: Bu konu, iş kartı aygıtını konfigüre etmek için çeşitli seçenekleri açıklamaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c139fb7daa0f40b6b7afb0a707f714502d3146d1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246369"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836602"
 ---
 # <a name="configure-job-card-for-devices"></a>Cihazlar için iş kartını konfigüre et
 
@@ -50,7 +48,7 @@ Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../..
 
 Bu özelliği kullanılabilir hale getirmek için, [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) aşağıdaki özellikleri etkinleştirin:
 
-- (Önizleme) Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
+- Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
 
 ## <a name="manage-your-device-configurations"></a>Cihaz yapılandırmalarınızı yönetin
 

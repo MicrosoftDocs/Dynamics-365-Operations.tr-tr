@@ -2,11 +2,9 @@
 title: Anlık stok yenileme
 description: Bu konu, bir yerleşim yönergesi stok tahsis etmek için başarısız olduğunda stok yenileme için anlık stok yenilemeyi nasıl kullanabileceğinizi açıklar.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 3def95ac272a424591ed4382d5cd5841bc663654
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 006160a3f7eada95ebdcdbf6694ee54be439f349
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235400"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835666"
 ---
 # <a name="immediate-replenishment"></a>Anlık stok yenileme
 

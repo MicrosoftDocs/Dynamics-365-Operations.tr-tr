@@ -2,11 +2,9 @@
 title: Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
 description: Bu konu, üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri hakkında bilgi sağlar.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240449"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836722"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
 
@@ -124,10 +122,10 @@ Daha fazla bilgi için [üretim ölçek birimi iş yükü ayrıntıları](cloud-
 Ambar yönetiminde, bulut ve uç ölçek birimleri, ölçek buluta bağlı olmasalar bile aşağıdaki özellikleri sağlar:
 
 - Satış siparişleri ve talep stok yenileme için seçili dalga yöntemlerinin işlenmesi etkindir.
-- Ambar çalışanları, ambar uygulamasını kullanarak satış ve talep stok yenileme ambar işlerini çalıştırabilir.
-- Ambar çalışanları, ambar uygulamasını kullanarak eldeki stokta sorgu çalıştırabilirler.
-- Ambar çalışanları ambar uygulamasını kullanarak stok hareketleri oluşturabilir ve çalıştırabilir.
-- Ambar çalışanları satın alma siparişlerini kaydedebilir ve ambar uygulamasını kullanarak siparişleri kaydedebilir.
+- Ambar çalışanları, Ambar Yönetimi mobil uygulamasını kullanarak satış ve talep stok yenileme ambar işlerini çalıştırabilir.
+- Ambar çalışanları,Ambar Yönetimi mobil uygulamasını kullanarak eldeki stokta sorgu çalıştırabilirler.
+- Ambar çalışanları Ambar Yönetimi mobil uygulamasını kullanarak stok hareketleri oluşturabilir ve çalıştırabilir.
+- Ambar çalışanları satın alma siparişlerini kaydedebilir ve Ambar Yönetimi mobil uygulamasını kullanarak siparişleri kaydedebilir.
 
 Daha fazla bilgi için [ambar ölçek birimi iş yükü ayrıntıları](cloud-edge-workload-warehousing.md) bölümüne bakın.
 

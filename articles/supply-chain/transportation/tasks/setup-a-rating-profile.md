@@ -2,11 +2,9 @@
 title: Değerlendirme profilleri
 description: Bu konuda, değerlendirme profilleri için veri ayarlama yöntemi açıklanmaktadır.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f754a8b86b0d369af03812a831d77a8a6fa8154
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d359394ee0086edc5c8b9a3a0c48cf5933963ceb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233523"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828454"
 ---
 # <a name="rating-profiles"></a>Değerlendirme profilleri
 

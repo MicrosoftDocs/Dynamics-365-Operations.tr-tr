@@ -2,11 +2,9 @@
 title: İş emirleri oluşturma
 description: Bu konuda Varlık Yönetimi'nde iş emirleri oluşturma işlemi açıklanmaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500586"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836746"
 ---
 # <a name="creating-work-orders"></a>İş emirleri oluşturma
 
@@ -62,8 +60,6 @@ Bakım zamanlamanızı temel alan iş emirleri oluşturmak için aşağıdaki ad
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Bakım planı çalışırken otomatik olarak oluşturulan iş emri satırlarını gruplandırma
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Bu özellik, sistem bir bakım planına göre otomatik olarak iş emirleri oluşturmak üzere ayarlandığında, iş emri satırlarını tek bir iş emri altında gruplandırmak için kurallar tanımlamanıza olanak sağlar. Daha önce otomatik olarak oluşturulan iş emirleri yalnızca tek bir satır içerebiliyordu. Ancak, şu anda iş emirlerini kıymet, kıymet türü veya işlem yapılacak yerleşim gibi ölçütlere göre gruplandırabilirsiniz. (Elle oluşturulan iş emirleri bu konunun önceki bölümünde açıklandığı gibi zaten bu şekilde gruplandırılabilir.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Otomatik oluşturulan iş emirleri için gruplandırmayı etkinleştirme
@@ -71,7 +67,7 @@ Bu özellik, sistem bir bakım planına göre otomatik olarak iş emirleri oluş
 Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
 
 - **Modül:** *Kıymet Yönetimi*
-- **Özellik adı:** *(Önizleme) Bakım planı çalıştırırken iş emirlerini gruplandırmak için kural uygulama*
+- **Özellik adı:** *Bakım planı çalıştırırken iş emirlerini gruplandırmak için kural uygulama*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Otomatik oluşturulan iş emirleri için gruplandırmayı ayarlama
 

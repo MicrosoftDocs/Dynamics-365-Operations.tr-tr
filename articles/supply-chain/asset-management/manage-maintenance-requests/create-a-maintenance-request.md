@@ -1,12 +1,10 @@
 ---
 title: Bakım talepleri oluştur
 description: Bu konuda Kıymet Yönetimi'nde bakım talepleri oluşturma işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a85125853b3b69d33f07249e0d2aa7592de1cc8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253434"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836794"
 ---
 # <a name="create-maintenance-requests"></a>Bakım talepleri oluştur
 

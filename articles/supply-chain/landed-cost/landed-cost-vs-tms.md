@@ -2,7 +2,6 @@
 title: Varış yeri maliyeti ve Taşıma yönetimi karşılaştırması
 description: Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için Taşıma yönetimi (TMS) ve Varış yeri maliyeti olmak üzere iki farklı modül sağlar. Bu konu, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500730"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833869"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Varış yeri maliyeti ve Taşıma yönetimi karşılaştırması
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management, taşıma ile çalışmak için iki farklı modül sağlar: **Taşıma yönetimi** (TMS) ve **Varış yeri maliyeti**. Bu konu, iki modülün ortak işlevselliğini özetler ve aralarındaki farkları vurgular. Hangi modülün iş uygulamalarınıza en uygun olduğuna karar vermek için bu bilgileri kullanabilirsiniz. Bazı iş uygulamalarının TMS ile daha iyi çalıştığını, diğerlerinin ise Varış yeri maliyetiyle en iyi şekilde çalıştığını görebilirsiniz. Ardından, iş gereksinimlerinize bağlı olarak yalnızca bir modül kullanmayı seçebilir veya iki modülü birleştirebilirsiniz.
 
@@ -158,15 +156,15 @@ Hem TMS hem de Varış yeri maliyeti, bir konteynerdeki malların teslim alımı
 
 ### <a name="tms-receiving-by-container-features"></a>Konteyner özelliklerine göre TMS teslim alma
 
-TMS, gelen ASN'leri, ambar uygulaması üzerinden teslim almanın tüm çeşitlerini ve Supply Chain Management istemcisi aracılığıyla teslim almanın tüm yöntemlerini destekler.
+TMS, gelen ASN'leri, Ambar Yönetimi mobil uygulaması üzerinden teslim almanın tüm çeşitlerini ve Supply Chain Management istemcisi aracılığıyla teslim almanın tüm yöntemlerini destekler.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Konteyner özelliklerine göre varış yeri maliyeti alma
 
 Konteynere göre teslim almayı desteklemek için Varış yeri maliyeti sevkiyat konteyneri kayıtları oluşturur ve satın alma siparişlerini konteyner kimliği kullanılarak belirli bir sevkiyat konteyneriyle ilişkilendirir. Ek yük maliyetleri daha sonra bu sevkiyat konteynerine uygulanabilir ve ilgili satın alma siparişleriyle ilişkilendirilecek şekilde bölünebilir.
 
-Varış yeri maliyetindeki konteynerler, *transitteki mallar girişi* olarak bilinen yeni bir giriş türü üzerinden, varış günlükleriyle veya mobil cihaz teslim alma yoluyla teslim alınabilir. Varış günlükleri kullanıldığında, miktarlar transitteki mal siparişinden veya konteynerdeki orijinal satın alma siparişi satırlarından başlatılabilir. Varış yeri maliyeti, ambar uygulaması üzerinden alınacak iki iş türü sağlar.
+Varış yeri maliyetindeki konteynerler, *transitteki mallar girişi* olarak bilinen yeni bir giriş türü üzerinden, varış günlükleriyle veya mobil cihaz teslim alma yoluyla teslim alınabilir. Varış günlükleri kullanıldığında, miktarlar transitteki mal siparişinden veya konteynerdeki orijinal satın alma siparişi satırlarından başlatılabilir. Varış yeri maliyeti, Ambar Yönetimi mobil uygulaması üzerinden alınacak iki iş türü sağlar.
 
-Varış yeri maliyeti, malların elektronik olarak alınması için bir ASN sağlamaz. Ayrıca, yük teslim alma, plaka alma veya karışık plaka alma işlemlerini işleyen ambar uygulaması akışlarını desteklemez.
+Varış yeri maliyeti, malların elektronik olarak alınması için bir ASN sağlamaz. Ayrıca, yük teslim alma, plaka alma veya karışık plaka alma işlemlerini işleyen Ambar Yönetimi mobil uygulaması akışlarını desteklemez.
 
 ## <a name="rate-shopping-by-vendor"></a>Satıcıya göre alışveriş derecelendirme
 

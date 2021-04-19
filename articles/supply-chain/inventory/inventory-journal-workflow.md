@@ -2,11 +2,9 @@
 title: Stok günlüğü onay iş akışları
 description: Bu konuda, çeşitli fiziksel stok hareketi türleri için stok günlüklerini onaylama iş akışlarını nasıl oluşturup kullanabileceğiniz açıklanmaktadır. Stok günlüğü iş akışları yalnızca onaylanmış stok günlüklerinin hareketlere nakledilebilmesine yardımcı olur.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 596182dfd7430e4d1e35ffebb795fbcf98d45e33
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247922"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826023"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Stok günlüğü onay iş akışları
 

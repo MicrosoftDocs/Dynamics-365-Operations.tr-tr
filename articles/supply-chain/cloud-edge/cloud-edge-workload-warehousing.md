@@ -2,11 +2,9 @@
 title: Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 description: Bu konu, ölçek birimlerinin ambar yönetimi iş yükünden seçili işlemleri çalıştırmasını sağlayan özellik hakkında bilgi sağlar.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832406"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -70,7 +68,7 @@ Hub aşağıdaki verilere sahiptir:
 - Sipariş tahsisi ve giden yük işleme
 - Ambara serbest bırakma, sevkiyat oluşturma, dalga oluşturma ve dalgayı kesinleştirme işlemleri
 
-Ölçek birimleri, dalganın serbest bırakılmasından sonra gerçek dalga işlemenin (iş tahsisatı, stok yenileme işi ve talep işi oluşturma gibi) sahibidir. Bu nedenle, ambar çalışanları, ölçek birimine bağlı bir ambar uygulaması kullanarak giden işleri işleyebilir.
+Ölçek birimleri, dalganın serbest bırakılmasından sonra gerçek dalga işlemenin (iş tahsisatı, stok yenileme işi ve talep işi oluşturma gibi) sahibidir. Bu nedenle, ambar çalışanları, ölçek birimine bağlı bir Ambar Yönetimi mobil uygulaması kullanarak giden işleri işleyebilir.
 
 ![Dalga işleme akışı](./media/wes-wave-processing-ga.png "Dalga işleme akışı")
 
@@ -94,7 +92,7 @@ Hub aşağıdaki verilere sahiptir:
 
 **Satın alma siparişlerini otomatik olarak serbest bırakma** işlevini kullanırken, sorguyu temel alan belirli satın alma siparişi satırlarını seçebilirsiniz. Tipik bir senaryo örneği, ertesi gün gelmesi beklenen tüm onaylanmış satın alma siparişi satırlarını serbest bırakan yinelenen bir toplu işlem ayarlamaktır.
 
-Çalışan, ölçek birimine bağlı bir ambar uygulamasını kullanarak teslim alma işlemini çalıştırabilir. Veriler daha sonra ölçek birimi tarafından kaydedilir ve gelen ambar siparişine göre raporlanır. Sonraki yerine koyma işlemlerinin oluşturulması ve işlenmesi de ölçek birimi tarafından yönetilir.
+Çalışan, ölçek birimine bağlı bir Ambar Yönetimi mobil uygulamasını kullanarak teslim alma işlemini çalıştırabilir. Veriler daha sonra ölçek birimi tarafından kaydedilir ve gelen ambar siparişine göre raporlanır. Sonraki yerine koyma işlemlerinin oluşturulması ve işlenmesi de ölçek birimi tarafından yönetilir.
 
 *Ambara serbest bırakma* işlemini kullanmıyorsanız ve bu nedenle *ambar siparişlerini* kullanmıyorsanız hub, ambar teslim alma işlemini ve iş işlemeyi ölçek birimlerinden bağımsız olarak işleyebilir.
 
@@ -117,10 +115,10 @@ Hub ve ölçek birimlerinde ambar yöneticisi olarak görev yapan kullanıcılar
 Bir ölçek biriminde WES iş yükü için aşağıdaki ambar yürütme işlemleri etkinleştirilebilir:
 
 - Satış ve transfer siparişleri (tahsisat, talep stok yenileme, konteyner kullanımı, iş oluşturma ve dalga etiketi yazdırma) için seçilen dalga yöntemleri
-- Ambar uygulamasını kullanarak satış ve transfer siparişi ambar işini işleme (stok yenileme çalışması dahil)
-- Ambar uygulamasını kullanarak eldeki stoğu sorgulama
-- Ambar uygulamasını kullanarak stok hareketleri oluşturma ve çalıştırma
-- Ambar uygulamasını kullanarak satın alma siparişlerini kaydetme ve yerine koyma işi yapma
+- Ambar Yönetimi mobil uygulamasını kullanarak satış ve transfer siparişi ambar işini işleme (stok yenileme çalışması dahil)
+- Ambar Yönetimi mobil uygulamasını kullanarak eldeki stoğu sorgulama
+- Ambar Yönetimi mobil uygulamasını kullanarak stok hareketleri oluşturma ve çalıştırma
+- Ambar Yönetimi mobil uygulamasını kullanarak satın alma siparişlerini kaydetme ve yerine koyma işi yapma
 
 Aşağıdaki iş emri türleri şu anda ölçek birimi dağıtımlarında WES iş yükleri için desteklenir:
 
@@ -133,7 +131,7 @@ Aşağıdaki iş emri türleri şu anda ölçek birimi dağıtımlarında WES i�
 Şu anda ölçek birimlerinde başka türde kaynak belge işleme veya depo işi desteklenmemektedir. Örneğin, ölçek birimindeki bir WES iş yükü için transfer emri alımını işleme (transfer girişi) veya işlem döngüsü sayım işini gerçekleştiremezsiniz.
 
 > [!NOTE]
-> Desteklenmeyen işlevler için mobil cihaz menü öğeleri ve düğmeleri, ölçek birimi dağıtımına bağlı olduğunda _ambar uygulamasında_ gösterilmez.
+> Desteklenmeyen işlevler için mobil cihaz menü öğeleri ve düğmeleri, ölçek birimi dağıtımına bağlı olduğunda _Ambar Yönetimi mobil uygulamasında_ gösterilmez.
 
 > [!WARNING]
 > Bir ölçek biriminde iş yükü çalıştırıyorsanız merkezdeki belirli bir ambar için desteklenmeyen işlemleri çalıştıramazsınız. Bu konunun ilerleyen kısımlarında sağlanan tablolar desteklenen özellikleri gösterir.
@@ -164,7 +162,7 @@ Aşağıdaki ambar yönetimi işlevi şu anda ölçek birimi iş yükleri için 
 - Sevkiyat notlarıyla ambar işi işleme
 - Döngü sayımı eşik tetiklemesiyle ambar işi işleme
 - Malzeme işlemesi/ambar otomasyonu ile ambar işi işlemesi
-- Ürün ana verileri görüntüsünün kullanımı (ör. ambar uygulamasında)
+- Ürün ana verileri görüntüsünün kullanımı (ör. Ambar Yönetimi mobil uygulamasında)
 
 > [!WARNING]
 > Bazı ambar işlevleri, ölçek biriminde ambar yönetimi iş yüklerini çalıştıran ambarlar için kullanılamaz ve merkezde ya da ölçek birimi iş yükünde desteklenmez.
@@ -253,7 +251,7 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | Hareket                                           | Evet | Evet                          |
 | Şablonla hareket                               | Evet | Evet                          |
 | Ambar transferi                                 | Evet | No                           |
-| Ambar uygulamasından transfer emri oluşturma           | Evet | No                           |
+| Ambar Yönetimi mobil uygulamasından transfer emri oluşturma           | Evet | No                           |
 | Ayarlama (giriş/çıkış)                                | Evet | No                           |
 | Stok durumu değişikliği                            | Evet | No                           |
 | Döngü sayma ve Sayma tutarsızlığı işleme | Evet | No                           |

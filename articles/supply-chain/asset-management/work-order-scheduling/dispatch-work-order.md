@@ -1,12 +1,10 @@
 ---
 title: İş emri gönderme
 description: Bu konuda Varlık Yönetimi'nde iş emri gönderme işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetScheduledExecution
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cd9965ec8f3c3ff58f16b53abc8b9b114444946d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215022"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825554"
 ---
 # <a name="dispatch-work-order"></a>İş emri gönderme
 

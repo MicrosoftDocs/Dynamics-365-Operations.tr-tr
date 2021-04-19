@@ -2,11 +2,9 @@
 title: Stok durumları
 description: Bu makalede, stoğu kategorilendirmek ve izlemek için stok durumlarını nasıl kullanabileceğiniz açıklanmaktadır.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476711"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829872"
 ---
 # <a name="inventory-statuses"></a>Stok durumları
 
@@ -45,10 +43,14 @@ Stok durumu, depolama boyutu grubundaki boyutlardan biridir. Stok durumları, ku
 
 Gelen iş için kullanılabilir veya kullanılamaz stok durumuna sahip ambar maddelerini kullanabilirsiniz. Örneğin, *Hazır* adında bir kullanılabilir durum, *Hasarlı* adında bir kullanılamayan durum ve *Engelli* adında bir engellenen durum oluşturuyorsunuz. Alınan veya iade edilen madeler için bir satın alma emri oluşturduğunuzda maddeler hasarlı veya arızalı ise bu maddelerin stok durumunu satın alma emri satırında *Hasarlı* olarak değiştirebilirsiniz. Bu maddeler teslim alındıktan sonra durum otomatik olarak *Engelli* olarak ayarlanır. Hasarlı maddeleri bir taşınabilir cihaz kullanarak tarıyorsanız Supply Chain Management bu maddeleri yerine koyabileceğiniz uygun bir konum veya konumlar hakkında bilgi göstermek üzere konum direktiflerini ve iş şablonlarını kullanabilir. İade edilen maddeler için *Stok hareketleri* sayfasında **Rezervasyon** türü bir sorun oluşturulur.
 
+**Stok durumları** sayfasındaki **Stok durdurma** onay kutularını kullanarak hangi stok durumlarının durdurulacağını belirtebilirsiniz. Satış siparişleri, transfer emirleri veya proje tümleştirmeleri için stok durumlarını durdurma durumları olarak kullanamazsınız.
+
+Giden işe için hangi stoğun rezerve edilecek olduğunu denetlemek için farklı engellemeyen stok durumları kullanabilirsiniz. *Engelleniyor* durumunda olan maddeler varsa ve master planlama bu maddeler üzerinde çalıştırılıyorsa maddelerin eksik olduğu kabul edilir ve stok otomatik olarak yenilenir. Ayrıca, giden işle ilişkili kalite emirleri için, kalite emri doğrulamasının bir parçası olarak **stok durumu** güncelleştirilemez.
+
 > [!NOTE]
 > Açık çalışmanın bulunduğu konumlarda stokun durumunu değiştiremezsiniz. Örneğin, bir madde için satın alma alım işlemi yaptıysanız ancak yerine koyma adımını yapmadıysanız alıcı konum için açık çalışma bulunur ve bu konumdaki stokun durumunu değiştirmeye çalışırsanız bir hata alırsınız. İlgili çalışmayı tamamlamak veya iptal etmek durumu değiştirmenize olanak sağlar.
- 
-Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. *Arızalı* durumunda olan maddeler varsa ve master planlama bu maddeler üzerinde çalıştırılıyorsa maddelerin eksik olduğu kabul edilir ve stok otomatik olarak yenilenir.
+>
+> Genellikle, açık ambar çalışması ile ilgili eldeki stokların durumu yalnızca ambar yönetimi mobil uygulamasını kullanan çalışanlar tarafından değiştirilir, örneğin, bir taşıma işlemi yürütülürken.
 
 Stok durumlarını oluşturduktan sonra bir saha, madde ve ambar için varsayılan stok durumunu ayarlayabilirsiniz. Ayrıca satışlar, transferler ve satın alma emirleri için de varsayılan bir durum ayarlayabilirsiniz. Satış emirleri ve giden transferler için varsayılan durumun **Stok engelleme** seçeneğini *Evet* olarak ayarlanamaz. Bir saha, ambar, madde, satın alma emri, transfer emri veya satış emri ile ilgili varsayılan ayarlardan gelen stok durumu taşınabilir aygıt kullanarak veya satın alma emir, satış emri veya transfer emri satırında değiştirilebilir.
 

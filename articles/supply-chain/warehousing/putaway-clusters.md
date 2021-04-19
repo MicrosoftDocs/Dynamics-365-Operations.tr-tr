@@ -2,11 +2,9 @@
 title: Yerine koyma kümeleri
 description: Yerine koyma kümeleri, aynı anda birden fazla plakayı çekmek ve daha sonra farklı yerlerde yerine koymak için bir yol sunar. Bunlar, plakaların genellikle stoğun tam paletleri olmadığı perakende işletmeler için çok yararlı olabilir.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840377"
 ---
 # <a name="putaway-clusters"></a>Yerine koyma kümeleri
 
@@ -230,7 +228,7 @@ Bu senaryo, küme küme yerine koymayı işlemeyi simüle eder.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Stoğu bir kümeye teslim alma ve sıralama
 
-1. Ambar *61* için ayarlanan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *61* için ayarlanan bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. Ana menüde **Gelen**'i seçin.
 1. **Gelen** menüsünde **Teslim al ve kümeyi sırala**'yı seçin.
 1. **SAS No** alanına satın alma siparişi numaranızı girin.
@@ -272,7 +270,7 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 
 #### <a name="put-the-cluster-away"></a>Kümeyi yerine koyma
 
-1. Ambar *61* için ayarlanan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *61* için ayarlanan bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. Ana menüde **Gelen**'i seçin.
 1. **Gelen** menüsünden **Küme yerine koyma**'yı seçin.
 1. **Küme Kimliği**'ni seçin ve kapalı küme için daha önce girdiğiniz küme kimliğini girin.

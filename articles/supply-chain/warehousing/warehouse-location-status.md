@@ -2,11 +2,9 @@
 title: Ambar yerleşimi durumu
 description: Bu konu Ambar konumu durumu özelliğine genel bakış sunmaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248631"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837357"
 ---
 # <a name="warehouse-location-status"></a>Ambar yerleşimi durumu
 
@@ -53,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management'ta, yerleşimler üzerinde çalı
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Örnek senaryo için gereken örnek verileri hazırlama
 
-Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde açıklandığı şekilde ayarlamanız gerekir. Örnek senaryoyu tamamlamak için, ambar uygulamasını veya tarayıcı tabanlı öykünücüyü kullanmalısınız. Burada belirtilen adımlar ambar uygulamasını kullanır. Tarayıcı tabanlı öykünücüye ilişkin adımlar benzerdir.
+Senaryo üzerinden çalışmaya başlamadan önce, örnek verileri etkinleştirmeniz ve özelliği bu bölümde açıklandığı şekilde ayarlamanız gerekir. Örnek senaryoyu tamamlamak için, Ambar Yönetimi mobil uygulamasını veya tarayıcı tabanlı öykünücüyü kullanmalısınız. Burada belirtilen adımlar Ambar Yönetimi mobil uygulamasını kullanır. Tarayıcı tabanlı öykünücüye ilişkin adımlar benzerdir.
 
 #### <a name="use-the-usmf-legal-entity"></a>Tüzel kişilik olarak USMF'yi kullanın
 

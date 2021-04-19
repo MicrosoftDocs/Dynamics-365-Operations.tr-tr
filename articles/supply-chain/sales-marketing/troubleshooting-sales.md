@@ -2,11 +2,9 @@
 title: Satış siparişleri ile ilgili sorun giderme
 description: Bu konu, satış siparişleri üzerinde çalışırken karşılaşabileceğiniz sorunların nasıl düzeltileceğini açıklamaktadır.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 346ebee598e282abfe01a399793cc259aff3c22d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5389b0d5a8ff68a3c16dedd2d8bb62f6e99af4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232242"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824738"
 ---
 # <a name="troubleshoot-sales-orders"></a>Satış siparişleri ile ilgili sorun giderme
 

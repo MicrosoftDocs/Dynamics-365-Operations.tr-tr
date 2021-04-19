@@ -2,11 +2,9 @@
 title: Üretim emri oluşturma
 description: Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute, ProdJournalCreate
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dec447302da3a3bbca7d9c3e783af54bc77dfe70
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9e9358811f35e0417099ae65b0206e32a1455f84
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828982"
 ---
 # <a name="create-a-production-order"></a>Üretim emri oluşturma
 

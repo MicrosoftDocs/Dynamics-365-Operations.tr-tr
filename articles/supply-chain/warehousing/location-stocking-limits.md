@@ -2,11 +2,9 @@
 title: Konum stoklama sınırları
 description: Bu konu, konum stoklama limitlerinin işlevini açıklamaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216993"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831278"
 ---
 # <a name="location-stocking-limits"></a>Konum stoklama sınırları
 
@@ -83,7 +81,7 @@ Bu örnekte, iki satır için bir satın alma siparişi teslim alma akışı ça
 
 Önce *S* boyutunda *4* birim *PL* miktarı alacak ve oluşturulan iş için yerine koyma satırı konumlarını gözden geçireceksiniz. Daha sonra *L* boyutunda *4* birim *PL* miktarı alacak ve oluşturulan iş için yerine koyma satırı konumlarını gözden geçireceksiniz.
 
-1. Ambar uygulamasında, kullanıcı kimliği *24* ve parola olarak *1*'i kullanarak oturum açın.
+1. Ambar Yönetimi mobil uygulamasında, kullanıcı kimliği *24* ve parola olarak *1*'i kullanarak oturum açın.
 1. **Gelen** \> **Satın Alma Teslim Alma**'ya gidin.
 1. Madde numarası *D0013*'ten *S* boyutunda *4* *PL* alır.
 1. Oluşturulan yerine koyma işini gözden geçirin. Aşağıdaki sonucu görmeniz gerekir:

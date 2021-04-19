@@ -2,11 +2,9 @@
 title: Gelen ambar operasyonlarında sorun giderme
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta gelen ambar işlemleriyle çalışırken karşılaşabileceğiniz genel sorunları nasıl giderebileceğiniz açıklanmıştır.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250894"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828238"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Gelen ambar operasyonlarında sorun giderme
 
@@ -65,5 +63,22 @@ Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu te
 
 Daha fazla bilgi için bkz. [Kayıtlı ürün miktarlarını satınalma siparişlerine göre deftere nakletme](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Gelen siparişleri kaydettiğimde, şu hata iletisini alıyorum: "miktar geçerli değil."
+
+### <a name="issue-description"></a>Sorun açıklaması
+
+**Plaka gruplandırma ilkesi** alanı gelen siparişleri kaydetmek için kullanılan bir mobil aygıt menü öğesi için *Kullanıcı tanımlı* olarak ayarlanmışsa, bir hata iletisi alırsınız ("miktar geçerli değil") ve kaydı tamamlayamazsınız.
+
+### <a name="issue-cause"></a>Sorun nedeni
+
+*Kullanıcı tanımlı*, Plaka gruplama ilkesi olarak kullanıldığında sistem, gelen stoku birim sıra grubunda belirtildiği gibi ayrı plakalara böler. Alınmakta olan maddeyi izlemek için toplu iş veya seri numaraları kullanılıyorsa, her toplu iş veya seri miktarı kaydedilen her plaka için belirtilmelidir. Bir plaka için belirtilen miktar, geçerli boyutlar için hâlâ teslim alınması gereken miktarı aşarsa, hata iletisini alırsınız.
+
+### <a name="issue-resolution"></a>Sorunun çözümü
+
+**Plaka gruplandırma ilkesi** alanının *Kullanıcı tanımlı* olarak ayarlandığı bir mobil aygıt menü öğesini kullanarak bir öğeyi kaydettiğinizde, sistem plaka numaralarını, toplu iş numaralarını veya seri numaralarını onaylamanızı veya girmenizi gerektirebilir.
+
+Plaka onayı sayfasında, sistem, geçerli plakaya ayrılan miktarı gösterir. Toplu iş veya seri onay sayfalarında, sistem geçerli plakanın üzerinde hâlâ alınması gereken miktarı gösterir. Ayrıca, bu plaka ve seri numarası birleşimi için kaydedilecek miktarı girebileceğiniz bir alan da içerir. Bu durumda, plaka için kaydedilen miktarın hâlâ teslim alınması gereken miktardan fazla olmadığından emin olun.
+
+Alternatif olarak, gelen sipariş kaydında çok fazla plaka oluşturulursa, **Plaka gruplandırma ilkesi** alanının değeri *Plaka gruplandırma* ile değiştirilebilir, maddeye yeni bir birim dizi grubu atanabilir veya birim sıra grubu için **plaka gruplandırma** seçeneği devre dışı bırakılabilir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

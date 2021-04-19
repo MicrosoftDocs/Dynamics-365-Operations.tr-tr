@@ -2,7 +2,6 @@
 title: Çok duraklı yolculuk kurulumu
 description: Bu konuda, Varış yeri maliyeti modülü için çok duraklı yolculukların nasıl ayarlanacağı açıklanmaktadır.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 88e1d94f7c3a9b624447c5fc000afc3faab395f1
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e1377b7453622e5bed711753fc2d99258d3c5951
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500442"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833773"
 ---
 # <a name="multi-leg-journey-setup"></a>Çok duraklı yolculuk kurulumu
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, **Varış yeri maliyeti** modülü için çok duraklı yolculukların nasıl ayarlanacağı açıklanmaktadır.
 

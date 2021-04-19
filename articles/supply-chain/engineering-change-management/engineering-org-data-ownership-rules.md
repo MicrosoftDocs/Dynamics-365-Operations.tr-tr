@@ -2,11 +2,9 @@
 title: Mühendislik şirketleri ve veri sahipliği kuralları
 description: Bu konu, ürünlerin ana verilerinin merkezi olarak oluşturulduğundan ve korunduğundan emin olmak için bir veya daha fazla mühendislik şirketini nasıl kullanabileceğinizi açıklamaktadır. Mühendislik şirketi, mühendislik ürünlerine ve mühendislik ile ilgili verilerin sahibi olan şirketi temsil eder.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 837960a628ef03df4d73909e96713e256d0f5e60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a434bf3727432f4964b7b0ed60905449378245de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262321"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830016"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Mühendislik şirketleri ve veri sahipliği kuralları
 

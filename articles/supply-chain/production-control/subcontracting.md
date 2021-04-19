@@ -2,11 +2,9 @@
 title: Alt sözleşme
 description: Bu konu, Dynamics 365 Supply Chain Management içinde üretimde taşeron kullanımın için bir inceleme rehberi yapmanıza olanak sağlar.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255553"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825194"
 ---
 # <a name="subcontracting"></a>Alt sözleşme
 
@@ -210,7 +208,7 @@ El cihazı kullanan ambar çalışanları için bir parola tanımlamalısınız.
 
     ![İş sayfasında hammadde seçimi için iki iş kümesi](./media/subcontract22_work-page.png)
 
-26. Operasyon 10 için ambar işini işlemek için ambar uygulamasını başlatın.
+26. Operasyon 10 için ambar işini işlemek için Ambar Yönetimi mobil uygulamasını başlatın.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ El cihazı kullanan ambar çalışanları için bir parola tanımlamalısınız.
     - **Operasyon Numarası**'da alan, seçin **10**.
     - **Operasyon Numarası'na** içerisinde alan, seçin **10**.
 
-    ![Genel sekmesinde ayarlanan değerler](./media/subcontract23_start-dialog.png)
+    ![Genel 1 sekmesinde ayarlanan değerler](./media/subcontract23_start-dialog.png)
 
 31. **Tamam**'ı seçin, kapatmak için **Başlat** iletişim kutusunu ve **Tüm üretim emirleri** sayfasına dönmek için.
 
     Üretim emrinin durumunun şimdi **Başlatıldı** olduğunu göz önünde bulundurun. Operasyon 10 için malzemeler, malzeme çekme listesi günlüğüne otomatik nakledilmesi tarafından tüketilmektedir. Operasyon 10 için zaman tüketimi, bir rota kartı günlüğünün otomatik nakli ile hesaplanır.
 
-32. Operasyon 20 için ambar işini işlemek için ambar uygulamasını başlatın.
+32. Operasyon 20 için ambar işini işlemek için Ambar Yönetimi mobil uygulamasını başlatın.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ El cihazı kullanan ambar çalışanları için bir parola tanımlamalısınız.
     - **Miktar** alanına **10** yazın.
     - **Malzeme çekme listesi** seçeneğini **Hayır** olarak ayarlayın.
 
-    ![Genel sekmesinde ayarlanan değerler](./media/subcontract24_general-tab.png)
+    ![Genel 2 sekmesinde ayarlanan değerler](./media/subcontract24_general-tab.png)
 
 35. **Tamam**'ı seçin, kapatmak için **Başlat** iletişim kutusunu ve **Tüm üretim emirleri** sayfasına dönmek için.
 

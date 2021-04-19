@@ -2,11 +2,9 @@
 title: Madde konsolidasyonu - yerleşim kullanımı
 description: Bu konu, ambar yöneticilerinin ambar içindeki yerleşimlerin hacimsel kullanımını görüntülemesini ve filtrelemesini kolaylaştıran işlev hakkında bilgi sağlar. Yöneticiler yerleşimleri seçip maddeleri konsolide etmek ve böylece ambar alanını daha iyi kullanabilmek için Madde Konsolidasyonu sayfasından doğrudan stok hareketi işi oluşturabilirler.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217017"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835593"
 ---
 # <a name="item-consolidation---location-utilization"></a>Madde konsolidasyonu - yerleşim kullanımı
 
@@ -149,7 +147,7 @@ Bu bölümde, sistemin madde konsolidasyonu ve yerleşim kullanımını kullanma
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
-Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için mobil cihazda ambar uygulamasını kullanır.
+Aşağıdaki senaryo, ambarda iki yerleşimde stok *ayarlaması* yapmak için ambar yönetimi mobil uygulamasını kullanır.
 
 ### <a name="add-inventory-to-locations"></a>Yerleşimlere stok ekleme
 

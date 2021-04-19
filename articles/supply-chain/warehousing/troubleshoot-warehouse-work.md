@@ -2,11 +2,9 @@
 title: Ambar işiyle ilgili sorunları giderme
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta ambar işiyle çalışırken karşılaşabileceğiniz genel sorunları nasıl giderebileceğiniz açıklanmıştır.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237071"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837453"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Ambar işiyle ilgili sorunları giderme
 
@@ -40,11 +38,11 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ta ambar işiyle çal�
 
 Bu sorun [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687)'da dağıtılan değişikliklerle düzeltilecektir. Boş girişe ve boş çıkışa izin verildiğinde, bu değişiklikler **Seri numarası** alanını isteğe bağlı yapar.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Hareketleri işlediğimde ambar uygulamasında aşağıdaki hata iletisini alıyorum: "Bu işlemde %1 adlı stok sahibine izin verilmiyor."
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Hareketleri işlediğimde Ambar Yönetimi mobil uygulamasında aşağıdaki hata iletisini alıyorum: "Bu işlemde %1 adlı stok sahibine izin verilmiyor."
 
 ### <a name="issue-description"></a>Sorun açıklaması
 
-Ambar uygulaması, hareketleri oluşturmak için kullanıldığında **Sahip** izleme boyutu eksiktir. Supply Chain Management istemcisinden alınan düzenli bir stok transferi günlüğü, istendiği gibi çalışır ve yalnızca **Sahip** boyutu doldurulmuşsa deftere nakledilebilir.
+Ambar Yönetimi mobil uygulaması, hareketleri oluşturmak için kullanıldığında **Sahip** izleme boyutu eksiktir. Supply Chain Management istemcisinden alınan düzenli bir stok transferi günlüğü, istendiği gibi çalışır ve yalnızca **Sahip** boyutu doldurulmuşsa deftere nakledilebilir.
 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
