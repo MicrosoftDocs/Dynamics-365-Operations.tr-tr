@@ -2,11 +2,9 @@
 title: Satış Noktası'ndaki (POS) müşteri siparişleri
 description: Bu konuda, Satış Noktası'ndaki (POS) müşteri siparişleri hakkında bilgi verilir. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220522"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821020"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 
@@ -61,7 +59,8 @@ Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında t
 
 POS'ta müşteri siparişleri ile çalışırken, mağaza kanalının bazı ayarlarına dikkat etmeniz gerekir. Bu ayarlar, Commerce yönetim merkezindeki **Mağazalar** sayfasında bulunur.
 
-- **Ambar**: Bu alan, mağazadan sevkiyat için yapılandırılmış siparişleri karşılamak için kullanılacak ambarı gösterir.
+- **Ambar**: Bu alan, bu mağazaya bağlı nakit ve müşteri malzeme çekme emirleri için stok küçültmekte kullanılacak ambarı gösterir. En iyi yöntem olarak, mağazalar boyunca çakışan iş mantığı sorunlarını önlemek için, her bir mağaza kanalının benzersiz ambarların kullanımını öneririz.
+- **Sevkiyat Ambarı**: Bu alan, seçilen mağazadan gönderilecek müşteri siparişleri için stok küçültmekte kullanılacak ambarı gösterir. Ortamınızda, **Karşılama grubunda yerleşimleri "Sevkiyat" veya "Malzeme çekme" etkin olarak belirtme özelliği** etkinleştirilmişse , POS kullanıcıları, sevkiyatın yapılacağı bir mağaza seçmek yerine, POS'tan sevk etmek için belirli bir ambar seçebilirler. Bu nedenle, bu özellik etkinleştirildiğinde, siparişin oluşturulduğu sırada Kullanıcı siparişi sevk etmek için belirli bir ambarı seçeneği için sevkiyat ambarı artık kullanılmaz.
 - **Karşılama grubu ataması**: POS'ta müşteri siparişleri oluşturulurken malzeme çekme konumları veya sevkiyat kaynakları için seçenekleri göstermek üzere referans gösterilen karşılama gruplarını bağlamak için bu düğmeyi seçin (Eylem Bölmesi'ndeki **Kurulum** sekmesinde).
 - **Hedef esaslı vergi kullan**: Bu seçenek, sevkiyat adresinin, müşterinin adresine sevk edilen sipariş satırlarına uygulanacak vergi grubunu belirlemek için teslimat adresinin kullanılıp kullanılmayacağını gösterir.
 - **Müşteri tabanlı vergi kullan**: Bu seçenek, müşterinin teslimat adresi için tanımlanan vergi grubunun evine sevkiyat için POS'ta oluşturulan müşteri siparişlerinin vergilendirilmesi için kullanılıp kullanılmayacağını gösterir.

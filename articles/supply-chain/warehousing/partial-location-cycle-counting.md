@@ -2,11 +2,9 @@
 title: Kısmi konum döngü sayımı
 description: Döngü sayımı planları, gerçek sayım işlemlerine yol gösterir. Bir konumdaki tüm eldeki stokun sayılması yerine yalnızca belirli ürünlerin ve ürün çeşitlerinin sayılmasını talep edebilirsiniz.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234693"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818908"
 ---
 # <a name="partial-location-cycle-counting"></a>Kısmi konum döngü sayımı
 
@@ -48,7 +46,7 @@ Kısmi döngü sayım işi işleme alınmadan önce, döngü sayım kurulumunun 
 Kısmi döngü sayımı işlemi için, belirli bir konumdaki eldeki tüm maddeler sayılsa dahi, **Son döngü sayımı** tarihi/saati, yerleşim için güncelleştirilmez. Kısmi döngü sayımı, **Döngü sayımı planları** sayfasındaki **Döngü sayımı arasındaki günler** parametresini dikkate almaz. Kısmi döngü sayımı aynı konumda birden fazla öğenin eşzamanlı olarak sayılmasını desteklemez. Kısmi döngü sayımı işlevi **Döngü sayım planını işle** öğesi çalıştırıldığında aynı konumun bir madde için birden çok kez sayılmasına neden olabilir. Bu senaryoyu önlemek için **Konumları seç** alanında filtreler belirtin.
 
 > [!NOTE]
-> Kısmi döngü sayımı sürecini kullandığınızda, ambar uygulaması **LP veya madde ekle** düğmesini sağlamaz.
+> Kısmi döngü sayımı sürecini kullandığınızda, Ambar Yönetimi mobil uygulaması **LP veya madde ekle** düğmesini sağlamaz.
 
 ## <a name="example"></a>Örnek
 

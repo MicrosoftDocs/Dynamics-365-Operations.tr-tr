@@ -2,11 +2,9 @@
 title: Çoklu kanal gelişmiş otomatik ücretleri
 description: Bu konu Commerce kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için ek sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: b7a309cc9e8901aa50e1d4ea3be6ee37d9fc5450
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244947"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804685"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 

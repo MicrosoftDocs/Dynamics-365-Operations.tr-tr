@@ -2,7 +2,6 @@
 title: Seyahatleri yönetme
 description: Bu konu, seyahatlerle nasıl çalışılacağını açıklamaktadır. Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prosedürlerinize bağlı olarak bir satıcıyı, satın alma siparişini veya kuruluşunuz için anlamlı olan başka bir maddeyi temsil edebilir.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501018"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833797"
 ---
 # <a name="manage-voyages"></a>Seyahatleri yönetme
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bir seyahat genellikle bir gemiyi temsil eder. Ancak uygulamalarınıza ve prosedürlerinize bağlı olarak bir satıcıyı, satın alma siparişini veya kuruluşunuz için anlamlı olan başka bir maddeyi temsil edebilir.
 
@@ -74,9 +72,9 @@ Aşağıdaki tabloda, doğrudan Eylem Bölmesinde bulunan **Yönet** sekmesindek
 | Faturayı deftere naklet | Seyahatteki tüm satın alma siparişi satırları için bir faturayı deftere nakledin. Seyahatteki mallar sevkiyattaki malların işlenmesinden geçecekse satın alma siparişi satırları teslim alma işlemi yapılmadan önce faturalanır. Orijinal satın alma siparişi faturalandığında, orijinal satın alma siparişi satırlarıyla ilişkili transitteki mal siparişleri oluşturulur. Bu siparişler daha sonra ambar tarafından teslim alınabilir. Çok şirketli sevkiyatlar kullanılırsa her şirket için yeni bir fatura deftere nakil iletişim kutusu açılır. |
 | Sevk transfer emri | Seyahatteki tüm transfer emri satırları için bir transfer emri seyahatini deftere nakledin. Bu düğme seçildiğinde, güncelleştirme için yalnızca transfer emirleri kullanılabilir. |
 | Transfer emrini al | Seyahatteki tüm transfer emri satırları için transfer emri girişini deftere nakledin. |
-| Transitteki malları al | Seyahatteki transitteki tüm sipariş satırlarını alın. Bu düğme, bir seyahatte transitteki malları almak için kullanılabilen üç seçenekten biridir. (Diğer iki seçenek, bu tablonun ilerleyen bölümlerinde açıklanan **Varış günlüğü oluştur** düğmesi ve ambar uygulamasıdır.) Bu seçenek en basit seçenektir ve transitteki malları transit ambarından nihai hedef ambara işler. İşlem üzerinde daha fazla kontrol isterseniz malların alımını işlemek için varış günlüğü veya mobil cihaz kullanın. |
+| Transitteki malları al | Seyahatteki transitteki tüm sipariş satırlarını alın. Bu düğme, bir seyahatte transitteki malları almak için kullanılabilen üç seçenekten biridir. (Diğer iki seçenek, bu tablonun ilerleyen bölümlerinde açıklanan **Varış günlüğü oluştur** düğmesi ve Ambar Yönetimi mobil uygulamasıdır.) Bu seçenek en basit seçenektir ve transitteki malları transit ambarından nihai hedef ambara işler. İşlem üzerinde daha fazla kontrol isterseniz malların alımını işlemek için varış günlüğü veya mobil cihaz kullanın. |
 | Otomatik maliyetleri bul | İlgili seyahat maliyetlerini bulun. Bu maliyetler zaten bulunduysa veya güncelleştirildiyse aşağıdaki iletiyi alırsınız: "Faturalanmamış maliyet satırları mevcut. Üzerine yazılmasını ister misiniz?" Oluşturma anında seyahatle ilişkili olmayan tüm maliyetler bulunacaktır. Bir seyahate bağlı olan ve faturalanan seyahat maliyetlerinin üzerine yazılmaz. |
-| Varış günlüğü oluştur | <p>Konum belirten bir varış günlüğü oluşturabileceğiniz **Varış günlüğü oluştur** iletişim kutusunu açın. İletişim kutusu, aşağıdaki seçenekleri sağlar:</p><ul><li>**Transitteki mallardan oluştur** veya **Transfer emrinden oluştur**: Bu seçeneğin etiketi, transitteki malları kullanıp kullanmadığınıza bağlı olarak değişir. Seyahatle ilişkili transitteki mallar için standart bir varış günlüğü işlemenizi sağlayan bir varış günlüğü sayfası açmak için *Evet* olarak ayarlayın. Madde son hedef ambarda zaten teslim alınmışsa varış günlüğü satırlarına eklenmez.</li><li>**Miktarı başlat**: Seyahat satırında belirtilen mal miktarına bağlı olarak teslim alınacak miktarı başlatmak için bu seçeneği *Evet* olarak ayarlayın. Seyahat satırı kısmen alınmışsa bu miktar kalan miktar olacaktır. Bu seçeneği *Evet* olarak ayarlamanızı öneririz.</li><li>**Sipariş satırlarından oluştur**: Değeri sipariş satırlarından almak için bu seçeneği *Evet* olarak ayarlayın.</li></ul><p>Bu düğme, bir seyahatteki malları almak için kullanılabilen üç seçenekten biridir. (Diğer seçenekler, bu tabloda daha önce açıklanan **Transitteki malları al** düğmesi ve ambar uygulamasıdır.)</p> |
+| Varış günlüğü oluştur | <p>Konum belirten bir varış günlüğü oluşturabileceğiniz **Varış günlüğü oluştur** iletişim kutusunu açın. İletişim kutusu, aşağıdaki seçenekleri sağlar:</p><ul><li>**Transitteki mallardan oluştur** veya **Transfer emrinden oluştur**: Bu seçeneğin etiketi, transitteki malları kullanıp kullanmadığınıza bağlı olarak değişir. Seyahatle ilişkili transitteki mallar için standart bir varış günlüğü işlemenizi sağlayan bir varış günlüğü sayfası açmak için *Evet* olarak ayarlayın. Madde son hedef ambarda zaten teslim alınmışsa varış günlüğü satırlarına eklenmez.</li><li>**Miktarı başlat**: Seyahat satırında belirtilen mal miktarına bağlı olarak teslim alınacak miktarı başlatmak için bu seçeneği *Evet* olarak ayarlayın. Seyahat satırı kısmen alınmışsa bu miktar kalan miktar olacaktır. Bu seçeneği *Evet* olarak ayarlamanızı öneririz.</li><li>**Sipariş satırlarından oluştur**: Değeri sipariş satırlarından almak için bu seçeneği *Evet* olarak ayarlayın.</li></ul><p>Bu düğme, bir seyahatteki malları almak için kullanılabilen üç seçenekten biridir. (Diğer seçenekler, bu tabloda daha önce açıklanan **Transitteki malları al** düğmesi ve Ambar Yönetimi mobil uygulamasıdır.)</p> |
 | Tahakkuk eden maliyetler | Maliyet türünün borç için belirtilen bir genel muhasebe hesabına sahip olduğu maliyetleri tahakkuk ettirebilirsiniz. Bu düğme genellikle stok transitteyken veya mallar teslim alındığında ve faturalandığında kullanılır. |
 | Maliyetleri topla | Maliyetleri sevkiyat konteyneri seviyesinden seyahat seviyesine taşıyın. Bu düğmeyi, birden çok varlığın bir sevkiyat konteyneri veya karton alanı paylaştığı bir hizmet/sevkiyat senaryosunda kullanabilirsiniz. Örneğin, seyahat 12 metrelik bir sevkiyat konteynerine ve 6 metrelik bir sevkiyat konteynerine sahiptir ve tahsisi hacme göre yapılır. Bu durumda, 6 metrelik sevkiyat konteynerinde alanı paylaşan veya kullanan mallar/varlıklar cezalandırılabilir. Maliyetleri adil bir şekilde dağıtmak için bazı kuruluşlar maliyetleri seyahate transfer etmek ve seyahat düzeyinde tahsis yöntemine göre dağıtmak isteyebilir. |
 | Seyahat şablonunu değiştir | Yolculuk şablonunu değiştirebileceğiniz bir iletişim kutusu açın. Şablonu değiştirdikten sonra seyahat maliyetleri silinir. Bu nedenle, **Otomatik maliyetleri bul**'u seçmeniz (bu tablonun önceki açıklamasına bakın) veya maliyetleri el ile yeniden eklemeniz gerekebilir. |

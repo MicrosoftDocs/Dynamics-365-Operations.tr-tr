@@ -2,11 +2,9 @@
 title: Ekstre deftere nakil işlevi geliştirmeleri
 description: Bu konu ekstre deftere nakli özelliğinde yapılan geliştirmeleri tanımlar.
 author: josaw1
-manager: AnnBe
 ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 96798c052a24f3a1ad0856c34bd26051f1196110
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e9f41a65ca092606e79d5aaa4e3af0ec444604f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234281"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795321"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Ekstre deftere nakil işlevi geliştirmeleri
 

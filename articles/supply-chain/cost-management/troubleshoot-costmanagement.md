@@ -1,12 +1,10 @@
 ---
 title: Maliyet yönetimi sorunlarını giderme
 description: Bu konu, maliyet yönetimi ile çalışırken karşılaşabileceğiniz sorunların nasıl düzeltileceğini açıklamaktadır.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262465"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834301"
 ---
 # <a name="troubleshoot-cost-management"></a>Maliyet yönetimi sorunlarını giderme
 
@@ -37,7 +35,7 @@ Bu konu, maliyet yönetimi ile çalışırken karşılaşabileceğiniz sorunlar�
 
 Sonuç dışarı aktarıldığında, özellikle de kullanıcılar kayıt sırasını değişiyorlarsa alt toplamlar sorunlara neden olabilir.
 
-Alt toplamları denetlemek için sonucu Microsoft Excel'e dışarı aktarabilirsiniz. Alternatif olarak, Supply Chain Management içindeki alt toplamları denetlemek istiyorsanız tüm gruplar için alt toplamı sütuna göre görmek için daha esnek bir yol sağlayan *Yeni kılavuz denetimi* ve *(Önizleme) Kılavuzlarda gruplama* özelliklerini etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanın. Daha fazla bilgi için [Kılavuz özellikleri](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md) bölümüne bakın.
+Alt toplamları denetlemek için sonucu Microsoft Excel'e dışarı aktarabilirsiniz. Alternatif olarak, Supply Chain Management içindeki alt toplamları denetlemek istiyorsanız tüm gruplar için alt toplamı sütuna göre görmek için daha esnek bir yol sağlayan *Yeni kılavuz denetimi* ve *Kılavuzlarda gruplama* özelliklerini etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanın. Daha fazla bilgi için [Kılavuz özellikleri](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md) bölümüne bakın.
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Stok değeri depolama raporu, kayıt defteri hesap bilgilerini desteklemiyor
 

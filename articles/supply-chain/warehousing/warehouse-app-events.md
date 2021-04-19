@@ -2,11 +2,9 @@
 title: Ambar uygulaması olayları
 description: Bu konu, toplu işin bir parçası olarak ambar uygulaması olay iletilerini işlemek için kullanılan ambar uygulaması olayını işlemeyi açıklamaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0bafcbd5306860cb80d6e813aabf83853a9011c1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248655"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837405"
 ---
 # <a name="warehouse-app-event-processing"></a>Ambar uygulaması olayı işleme
 
 [!include [banner](../includes/banner.md)]
 
-Supply Chain Management'ta çalışan toplu işler, sinyal verilen olaylara gerektiğinde tepki vermek üzere ambar uygulaması tarafından yayınlanan olayları işlemek için bir kuyruktaki verileri kullanabilir. Bu özellik, uygulamayı kullanan çalışanların yaptığı belirli eylem türlerine yanıt olarak kuyruğa ilgili olayları ekler. Örneğin, **Ambar uygulamasından transfer emirleri oluşturma ve işleme** özelliği kullanıldığında sistem **Ambar uygulaması olaylarını işle** toplu işini çalıştırırken transfer emri başlıkları ve satırları arkauçta oluşturulur ve güncelleştirilir.
+Supply Chain Management'ta çalışan toplu işler, sinyal verilen olaylara gerektiğinde tepki vermek üzere Ambar Yönetimi mobil uygulaması tarafından yayınlanan olayları işlemek için bir kuyruktaki verileri kullanabilir. Bu özellik, uygulamayı kullanan çalışanların yaptığı belirli eylem türlerine yanıt olarak kuyruğa ilgili olayları ekler. Örneğin, *Ambar uygulamasından transfer emirleri oluşturma ve işleme* özelliği kullanıldığında sistem **Ambar uygulaması olaylarını işle** toplu işini çalıştırırken transfer emri başlıkları ve satırları arkauçta oluşturulur ve güncelleştirilir.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Ambarı uygulaması olaylarını işle özelliğini etkinleştirme
 
@@ -50,7 +48,7 @@ Transfer emri oluşturma ve satır güncelleştirmeleri için ambar uygulaması 
 
 ## <a name="query-warehouse-app-events"></a>Ambar uygulaması olaylarını sorgulama
 
-Ambar uygulaması tarafından oluşturulan olay kuyruğunu ve olay iletilerini **Ambar yönetimi \> Sorgular ve raporlar \> Mobil cihaz günlükleri \> Ambar uygulaması olayları**'na giderek görüntüleyebilirsiniz.
+Ambar Yönetimi mobil uygulaması tarafından oluşturulan olay kuyruğunu ve olay iletilerini **Ambar yönetimi \> Sorgular ve raporlar \> Mobil cihaz günlükleri \> Ambar uygulaması olayları**'na giderek görüntüleyebilirsiniz.
 
 ## <a name="the-standard-event-queue-process"></a>Standart olay kuyruğu işlemi
 

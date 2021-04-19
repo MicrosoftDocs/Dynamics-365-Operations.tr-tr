@@ -2,11 +2,9 @@
 title: Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)
 description: Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 359d3e6d9b6e2ce5439c36ea52ebad4ce7a3e2c9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2843c42474fcd4afbbc2cd7753c0d06cfe467dbe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211730"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810378"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Manuel ambalajlamayı ayarlama (Şubat 2016 ve Mayıs 2016)
 

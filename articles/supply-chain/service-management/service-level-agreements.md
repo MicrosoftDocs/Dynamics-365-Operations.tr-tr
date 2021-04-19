@@ -2,11 +2,9 @@
 title: Servis düzeyi sözleşmelerine genel bakış
 description: Servis düzeyi sözleşmesinde müşteri, şirketin sorunu kayda alışından sorun giderilene kadar olan süreyi temel alan bir minimum yanıt süresini kabul eder.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b626d490b5abb948943df25c956c48084953da7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 55d65de5c041bd100bf8267bdbe3c5c5eb061a61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214334"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835930"
 ---
 # <a name="service-level-agreements-overview"></a>Servis düzeyi sözleşmelerine genel bakış       
 

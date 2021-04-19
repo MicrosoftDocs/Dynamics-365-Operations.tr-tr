@@ -2,11 +2,9 @@
 title: İşteki iş havuzunu değiştir
 description: Bu konu, varolan işin iş havuzunu değiştirmek için iş öğelerinin İş havuzunu değiştir düğmesini nasıl kullanabileceğinizi açıklamaktadır.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 61b988cf2501812e940f726e02d8fc1bcee2c035
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cdd0a1b6d022c958e00a1ba8fa87a8715ff88ce5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233067"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808906"
 ---
 # <a name="change-work-pool-on-work"></a>İşteki iş havuzunu değiştir
 

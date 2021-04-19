@@ -2,11 +2,9 @@
 title: Üretim emri durumunu tersine çevirme
 description: Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParmStatusDecrease, ProdSetupStatusDecrease
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e92a8032abb0695ed0efbd109459e85af88d2dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d3aa8b8ed35ec489ad48319ec15b66e75f9ab289
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262105"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819316"
 ---
 # <a name="reverse-the-production-order-status"></a>Üretim emri durumunu tersine çevirme
 

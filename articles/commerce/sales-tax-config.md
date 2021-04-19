@@ -2,11 +2,9 @@
 title: Çevrimiçi siparişler için satış vergisini yapılandırma
 description: Bu konu, Dynamics 365 Commerce'de farklı çevrimiçi sipariş türleri için satış vergisi grubu seçimine genel bir bakış sağlar .
 author: gvrmohanreddy
-manager: AnnBe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 36dd3e8a3d47f02eed5b9c8bb79d773d98069376
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 68b7e59a1e1ea18bdcd4e7a9117e4892407f40ff
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791859"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Çevrimiçi siparişler için satış vergisini yapılandırma
 

@@ -2,11 +2,9 @@
 title: " Cihaz oluşturma ve ilişkilendirme"
 description: Bu yordam yeni bir aygıt oluşturma ve kayıtla ilişkilendirme konusunda açıklamalar içerir.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailDevice
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76f1c323fa53b9c3c204beec765390ec35e7180
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2790cf0ccbb13a1341b91c7a3e3f5ffdb10eaf7b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247080"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798621"
 ---
 # <a name="create-and-associate-a-device"></a> Cihaz oluşturma ve ilişkilendirme
 

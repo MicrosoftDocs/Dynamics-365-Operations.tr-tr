@@ -2,11 +2,9 @@
 title: Yerleşim ürün boyutu karıştırması
 description: Bu konu, konum ürün boyutu karıştırma hakkında bilgiler sağlar. Bu konum profili işlevi, kullanım sektörü gibi ürün çeşitleri veya boyutları olan ürünler kullanıldığında yerleşim yönetiminin artırılmasına yardımcı olur. Konfigürasyonların, renklerin, stillerin ve boyutların belirli bir yerleşim profili için karıştırılıp karışlamayacağını veya bu boyutlardan yalnızca birinin veya bunların bir bileşimin aynı konuma konulacağını belirlemenize olanak tanır.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217041"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831302"
 ---
 # <a name="location-product-dimension-mixing"></a>Yerleşim ürün boyutu karıştırması
 
@@ -206,9 +204,9 @@ Başlamadan önce, ambar *24*'te *toplu* yerleşim profili kullanan boş konumla
 
 1. **Kaydet**'i seçin.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Ambar uygulamasında satınalma siparişi satırları al
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasında satın alma siparişi satırları alma
 
-1. Ambar *24*'te etkin olan bir kullanıcı olarak ambarı uygulamasına oturum açın.
+1. Ambar *24* için etkinleştirilen bir kullanıcı olarak Ambar Yönetimi mobil uygulamasında oturum açın.
 1. **Gelen** menüsünü seçin.
 1. **Satın alma satırı alma**'yı seçin.
 1. **PONUM** alanını seçin ve satınalma siparişi numarasını girin.

@@ -2,11 +2,9 @@
 title: Emniyet marjları
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management güvenlik boşluklarının uygulamasında Planlamayı En İyi Duruma Getirme Eklentisi ile nasıl kullanılabileceği açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4a15b1c3df5de1dc5a55cfaa08686ee85ed50ba3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236039"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841875"
 ---
 # <a name="safety-margins"></a>Emniyet marjları
 

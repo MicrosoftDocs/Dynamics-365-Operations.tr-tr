@@ -2,7 +2,6 @@
 title: Otomatik maliyet kurulumu
 description: Bu konuda, çeşitli gelen seyahat düzeyleri için maliyet kurallarının nasıl ayarlanacağı açıklanmaktadır. Bu kurallara dayanarak sistem maliyetleri hesaplar ve otomatik olarak ekler. Bu nedenle, kullanıcıların maliyetleri el ile eklemesi gerekmez.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501162"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841971"
 ---
 # <a name="auto-costs-setup"></a>Otomatik maliyet kurulumu
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Çeşitli maliyet alanları (seyahatler, sevkiyat konteynerleri, folyolar, satın alma siparişleri, maddeler veya transfer emri satırları gibi) için maliyet kuralları ayarlamak üzere **Otomatik maliyetler** sayfasını kullanabilirsiniz. Kurallara ve kullanıcıların maliyet alanlarından biri için kayıt oluştururken seçtikleri alanlara bağlı olarak sistem maliyetleri hesaplar ve bunları otomatik olarak ekler. Bu nedenle, kullanıcıların maliyetleri el ile eklemesi gerekmez.
 

@@ -2,11 +2,9 @@
 title: " Satınalma siparişleri için ürün paketleri oluşturma"
 description: Bu yordam, bir ürün paketi oluşturma ve bunu bir satınalma siparişinde kullanmayla ilgili süreci açıklamaktadır.
 author: josaw1
-manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d16c5c576ce6b35687fb7edab835d52f6f58e6a0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4c84c829ca1344d70dee294da35b659299d6fa37
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256985"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802731"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a> Satınalma siparişleri için ürün paketleri oluşturma
 

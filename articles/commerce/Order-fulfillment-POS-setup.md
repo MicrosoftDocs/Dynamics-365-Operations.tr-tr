@@ -2,11 +2,9 @@
 title: Mağazalar için sipariş karşılamayı ayarlama
 description: Bu konu, Mağaza sipariş karşılamanın nasıl ayarlanacağı konusuna genel bir bakış sağlar.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2519dcaf657b495a494b6f45f93930d980d89a65
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477816"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796450"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Mağazalar için sipariş karşılamayı ayarlama
 

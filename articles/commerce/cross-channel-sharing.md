@@ -2,11 +2,9 @@
 title: Kanallar arası paylaşımı etkinleştirme ve kullanma
 description: Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucunun çapraz kanal paylaşımı özelliğinin nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207835"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799529"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Kanallar arası paylaşımı etkinleştirme ve kullanma
 
 [!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 Commerce site oluşturucunun çapraz kanal paylaşımı özelliğinin nasıl etkinleştirileceği ve kullanılacağı açıklanmaktadır.
-
-## <a name="overview"></a>Genel bakış
 
 Kanallar arası paylaşım, perakendecilere bir sitenin çoklu kanalları arasında içeriği yeniden kullanma ve paylaşma olanağı sağlar. Bu özellik, site kanallarının uyumlu bir temel dili olduğunda veya ortak olarak çok sayıda içerik öğesi olduğunda yararlıdır.
 

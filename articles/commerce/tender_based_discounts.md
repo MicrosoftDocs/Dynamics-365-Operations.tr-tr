@@ -2,11 +2,9 @@
 title: Ödeme tabanlı iskontolar
 description: Bu konu, perakendecilere belirli ödeme türleri için iskonto yapılandırma olanağı tanıyan işlevlere genel bir bakış sağlar.
 author: bebeale
-manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 482eb8da5777af79c791dd6841315424d101b5d0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232579"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795177"
 ---
 # <a name="tender-based-discounts"></a>Ödeme tabanlı iskontolar
 

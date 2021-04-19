@@ -2,11 +2,9 @@
 title: "\"Benzer ürünler açıklaması\" önerilerini etkinleştirme"
 description: Bu konuda, Microsoft Dynamics 365 Commerce'ta "benzer ürünler açıklaması" ürün önerilerinin nasıl etkinleştirileceği açıklanmaktadır.
 author: bsokolov
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ce01ef1d4b916d955685b4d01dafd3d54d6fcebd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234401"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795417"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>"Benzer ürünler açıklaması" önerilerini etkinleştirme
 

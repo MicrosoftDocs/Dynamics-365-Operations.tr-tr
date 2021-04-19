@@ -2,11 +2,9 @@
 title: B2B e-ticaret sitesi ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6e39310ac2658ceed3f269249fe8b9d0d05dde21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212591"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799769"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-ticaret sitesi ayarlama
 

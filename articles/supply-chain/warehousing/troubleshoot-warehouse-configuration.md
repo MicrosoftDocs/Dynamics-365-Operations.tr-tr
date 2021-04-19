@@ -2,11 +2,9 @@
 title: Ambar yapılandırması ile ilgili sorunları giderme
 description: Bu konuda, Microsoft Dynamics 365 Supply Chain Management'ı yapılandırırken karşılaşabileceğiniz genel sorunları nasıl giderebileceğiniz açıklanmıştır.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487109"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814404"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Ambar yapılandırması ile ilgili sorunları giderme
 
@@ -38,7 +36,7 @@ Bu hata iletisini, bir plaka kimliğini veya konumu taradığınızda alırsın�
 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
-Plaka kimliğinin başka bir şey tarafından ayrılmadığından emin olun. Bu sorun, bir kullanıcının ambar uygulamasında taradığı değer, hem geçerli bir konum hem de geçerli bir plaka olduğunda oluşurdu. Ancak, bu sorun 10.0.11 sürümünde giderilmiştir.
+Plaka kimliğinin başka bir şey tarafından ayrılmadığından emin olun. Bu sorun, bir kullanıcının Ambar Yönetimi mobil uygulamasında taradığı değer, hem geçerli bir konum hem de geçerli bir plaka olduğunda oluşurdu. Ancak, bu sorun 10.0.11 sürümünde giderilmiştir.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Şu hata iletisini alıyorum: "Bu konum için plaka belirtilmelidir."
 
@@ -82,7 +80,7 @@ Hata iletisinin sürüm 10.0.15'te geliştirilmiş olduğunu (bkz. [KB 4581627](
 
 10.0.15 sürümüne *Çoklu SKU konum yönergeleri için tüm eylemleri değerlendir* adlı yeni bir özellik eklendi (bkz. [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Bu özellik çoklu SKU konum yönergeleri için tüm eylemleri değerlendirir. Bu özelliğe gereksinim duyarsanız, etkinleştirmek için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ni kullanın.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Kısmi malzeme çekme yapmak için ambar uygulamasını kullanamıyorum.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Kısmi malzeme çekme yapmak için Ambar Yönetimi mobil uygulamasını kullanamıyorum.
 
 ### <a name="issue-description"></a>Sorun açıklaması
 
@@ -100,7 +98,7 @@ Partinin kısmi bir miktarı için stok durumu değişikliği yapmak istiyorsunu
 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
-Çalışanların bu değişikliği yapmasını sağlamak için ambar uygulamasında bir menü öğesi oluşturabilirsiniz. **Mobil cihaz menü öğeleri** sayfasında, şu özelliklere sahip bir menü öğesi oluşturun (veya düzenleyin):
+Çalışanların bu değişikliği yapmasını sağlamak için Ambar Yönetimi mobil uygulamasında bir menü öğesi oluşturabilirsiniz. **Mobil cihaz menü öğeleri** sayfasında, şu özelliklere sahip bir menü öğesi oluşturun (veya düzenleyin):
 
 - **Mod:** *İş*
 - **Varolan çalışmayı kullan:** *Hayır*

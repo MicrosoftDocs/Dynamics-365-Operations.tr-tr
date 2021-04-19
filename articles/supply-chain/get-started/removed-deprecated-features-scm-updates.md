@@ -2,11 +2,9 @@
 title: Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Supply Chain Management'taki kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259103"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821285"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -33,7 +31,19 @@ Dynamics 365 Supply Chain Management için kaldırılan veya kullanımı sonland
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır.
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finance and Operations uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations: Depolama (ambar uygulaması)
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Nisan 2021'den itibaren, *Dynamics 365 for Finance and Operations -Ambar* (ambar uygulaması) kullanım dışıdır ve Nisan 2022'den sonra desteklenmeyecektir. Şimdi Supply Chain Management 10.0.17 sürümüyle yayınlanan *ambar yönetimi mobil uygulaması* yerini almıştır. Yeni uygulama tam bir değişiklik yapar ama geçişi kolaylaştıran aynı temel çerçeveyi kullanır. Gerekirse, kullanıcılar, yeni uygulamayı kullanmaya alışana kadar iki uygulama yan yana kullanılabilir.<br><br>Yeni Ambar Yönetimi mobil uygulaması hakkında daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulamasını](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ve [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md). |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, yeni ambar yönetimi mobil uygulaması ile değiştirildi. |
+| **Etkilenen ürün alanları**         | Supply Chain Management - ambar uygulaması |
+| **Dağıtım seçeneği**              | Bulut ve Şirket içi |
+| **Durum**                         | Kaldırıldı. Ambar uygulaması hata ve güvenlik düzeltmesi desteği alacaktır, ancak özellik geliştirmeleri artık sağlanmayacaktır. Nisan 2022 tarihinden sonra, eski ambar uygulaması artık desteklenmeyecek ve müşterilerin yeni ambar yönetimi mobil uygulamasına taşınması istenecektir. Eski ambar uygulaması daha sonra Microsoft Store ve Google Play Store'dan kaldırılacaktır.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Supply Chain Management 10.0.15 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 

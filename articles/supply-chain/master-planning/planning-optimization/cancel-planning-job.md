@@ -2,11 +2,9 @@
 title: Planlama işini iptal etme
 description: Bu konuda, Planlamayı en iyi duruma getirme işlevini kullanan etkin bir planlama işinin nasıl iptal edileceği açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5aadf7fb94bb2d836892064837f9cb1c5790d657
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9cf4902251c3c2b93af12a8ad9bd571930ef769
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238026"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833341"
 ---
 # <a name="cancel-a-planning-job"></a>Planlama işini iptal etme
 

@@ -2,7 +2,6 @@
 title: Varış yeri maliyeti raporları
 description: Bu konuda, varış yeri maliyeti modülü için kullanılabilen çeşitli rapor türlerinin nasıl bulunacağı ve kullanılacağı açıklanmaktadır.
 author: sherry-zheng
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 565303a4f51d1726c62a85faaf8c4d8692c110fc
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 90630a29d8ad77931735a81ee152aa76514a387c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500658"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821093"
 ---
 # <a name="landed-cost-reports"></a>Varış yeri maliyeti raporları
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="outstanding-invoices"></a>Bekleyen faturalar
 

@@ -2,11 +2,9 @@
 title: Ürün hazır olma durumu
 description: Bu konu, bir ürün için gerekli ana verilerin işlemlerde kullanılmadan önce tamamlandığından emin olmak için hazırlık denetimlerini nasıl kullanabileceğinizi açıklar.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38ceef3d03fae83f7ac509fb05a4cd9603af2465
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5266163"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842028"
 ---
 # <a name="product-readiness"></a>Ürün hazır olma durumu
 

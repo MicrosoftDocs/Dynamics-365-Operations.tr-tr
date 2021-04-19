@@ -2,11 +2,9 @@
 title: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 description: Bu konu, bir çalışanın bakış açısından üretim katı yürütme arabiriminin nasıl kullanılacağını açıklar.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500802"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814668"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Üretim katı yürütme arabirimi dokunma etkileşimi için en iyi duruma getirilmiştir. Tasarımı, atölye ortamları için erişilebilirlik gereksinimlerini karşılayan görsel bir kontrast sağlar. İş kartı cihazı ile aynı işlevsel tüm yetenekleri sunar. Ancak, bir iş listesinden paralel olarak birden fazla işin başlatılmasına olanak tanır. (Bu yetenek *iş gruplama* olarak da bilinir.) Ek olarak, bir iş listesinden, çalışanlar Microsoft Dynamics 365 kılavuzunda oluşturulmuş bir Kılavuzu açabilir. Böylece, bir HoloLens üzerinde görsel yönergeler elde edebilirler.
 
@@ -90,7 +87,7 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 1. **Ayarlar**: Seçili makine kıymeti için görüntülenecek sayaçları seçebileceğiniz bir iletişim kutusu açmak için dişli simgesini seçin. Bu sayaçların değerleri, **Kıymet yönetimi** sekmesinin en üstünde gösterilir. **Ayarlar** menüsü (aşağıdaki ekran görüntüsünde gösterilmektedir) en çok dört sayacı etkinleştirmenize olanak tanır. Etkinleştirmek istediğiniz her sayaç için, kutucuğun üst tarafındaki arama alanını kullanarak bir sayaç seçin. Arama alanı, **Kıymet yönetimi** sayfasının en üstünde seçilen kıymetle ilişkilendirilmiş tüm sayaçları listeler. Sayaç için **Toplam** değeri veya en son **Gerçek** değeri izlemek için her sayacı ayarlayın. Örneğin, makinenin kaç saattir çalıştığını takip eden bir sayaç ayarlarsanız bunu **Toplam** olarak ayarlamanız gerekir. En son güncelleştirilen sıcaklığı veya basıncı ölçmek üzere bir sayaç ayarlarsanız, bunu **Gerçek** olacak şekilde ayarlamalısınız. Ayarlarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-    ![Makinem sekmesi](media/pfei-my-machine-tab-settings.png "Makinem sekmesi")
+    ![Makinem sekmesi ayarları](media/pfei-my-machine-tab-settings.png "Makinem sekmesi ayarları")
 
 1. **Bakım iste**: Bakım isteği oluşturabileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Açıklama ve bir not girebilirsiniz. Talep, bir Supply Chain Management kullanıcısına gösterilir ve bu kullanıcı bakım isteğini bakım iş emrine dönüştürebilir.
 1. **Kesinti süresini kaydet**: Makinenin kesinti süresini kaydedebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Bir neden kodu seçebilir ve kesinti süresi için bir tarih/saat aralığı girebilirsiniz. Makinenin kesinti süresi kaydı, makine kıymetinin verimliliğini hesaplamak için kullanılır.

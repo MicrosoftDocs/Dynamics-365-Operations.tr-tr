@@ -2,11 +2,9 @@
 title: Ürün yapılandırıcısındaki sorunları giderme
 description: Bu konuda, ürün yapılandırıcı ile çalışırken karşılaşabileceğiniz sorunların nasıl düzeltileceğini açıklanmaktadır.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d17d9f16f01a68da724751273b7d137a0f0f14de
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 77d0c21fbb5a8479ca5e7bdb759c1373b6b255a4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248775"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841563"
 ---
 # <a name="troubleshoot-the-product-configurator"></a>Ürün yapılandırıcısındaki sorunları giderme
 

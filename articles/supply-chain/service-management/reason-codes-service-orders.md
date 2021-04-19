@@ -2,11 +2,9 @@
 title: Servis siparişleri için neden kodları
 description: Bir servis siparişinin aşaması güncelleştirildiğinde servis siparişinin durumunu açıklamaya yardımcı olması için neden kodlarını kullanın.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b059ad5b2ea9cd577624355cf17925cfb9b4867b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9548d3a29c787b49713499519e1a02b5d218ac1c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258530"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836194"
 ---
 # <a name="reason-codes-for-service-orders"></a>Servis siparişleri için neden kodları   
 

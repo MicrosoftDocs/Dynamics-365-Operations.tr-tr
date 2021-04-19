@@ -2,11 +2,9 @@
 title: Standart maliyet dönüştürme için önkoşullar
 description: Bu konuda, standart maliyet dönüştürme yapmadan önce gerçekleştirilecek görevler açıklanmaktadır.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a0bb8e549b429ef1af2ee0a59361c14e6aa6bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b78cfb2c6f0462a86cf3785038c5fe4e5d63b9cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263506"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809698"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Standart maliyet dönüştürme için önkoşullar
 
