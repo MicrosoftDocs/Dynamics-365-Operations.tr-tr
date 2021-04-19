@@ -1,12 +1,10 @@
 ---
 title: Tahminler, iş emirleri ve projeler
 description: Bu konu, Varlık yönetimindeki Proje yönetimi ve muhasebe modülüyle tahminler ve iş emri tümleştirmesini açıklamaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ce456655495fd72f82451f319940d8e9c1c02f1a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253530"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813833"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Tahminler, iş emirleri ve projeler
 

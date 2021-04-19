@@ -1,12 +1,10 @@
 ---
-title: Ambar uygulaması aracılığıyla plaka teslim alma
-description: Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
+title: Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
+description: Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı desteklemek üzere Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245166"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823203"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Ambar uygulaması aracılığıyla plaka teslim alma
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, fiziksel stoku almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde ambar uygulamasının nasıl ayarlanacağını açıklamaktadır.
+Bu konu, fiziksel stoğu almak için bir plaka teslim alma işlemi kullanmayı destekleyecek şekilde Ambar Yönetimi mobil uygulamasının nasıl ayarlanacağını açıklamaktadır.
 
 Bu işlevi, bir ön sevkiyat bildirimi (ÖSB) ile ilgili gelen stoğun girişini hızlı bir şekilde kaydetmek için kullanabilirsiniz. Ambar yönetim işlemleri transfer emri sevk etmek için kullanıldığında, sistem otomatik olarak bir ÖSB oluşturur. Satınalma siparişi işlemi için, ÖSB el ile kaydedilebilir veya bir gelen ÖSB veri varlığı işlemi kullanılarak otomatik olarak içe aktarılabilir.
 
@@ -72,7 +70,7 @@ Bu işlevselliğin sisteminizde kullanılabilmesini sağlamak için, [özellik y
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Teslim alma özet sayfasını gösterme veya atlama
 
-*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı Ambarlama uygulaması akışından yararlanmak üzere kullanabilirsiniz.
+*Mobil cihazlarda teslim alma özet sayfası görüntülenip görüntülenmeyeceğni denetle* özelliğini, plaka teslim alma işleminin bir parçası olarak ek bir ayrıntılı Ambar Yönetimi mobil uygulaması akışından yararlanmak üzere kullanabilirsiniz.
 
 Bu özellik etkinleştirildiğinde, plaka teslim alma veya plaka teslim alma ve yerine koyma için mobil cihaz menüsü öğeleri bir **Teslim alma özeti sayfası görüntüle** ayarı sağlar. Bu ayar aşağıdaki seçeneklere sahiptir:
 

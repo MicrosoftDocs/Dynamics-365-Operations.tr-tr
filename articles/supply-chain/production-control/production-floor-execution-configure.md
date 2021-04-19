@@ -2,11 +2,9 @@
 title: Üretim katı yürütme arabirimini yapılandırma
 description: Bu konu, üretim katı yürütme arabirimi için bir veya daha fazla konfigürasyon oluşturmayı açıklamaktadır. Üretim katı yürütme arabirimini açtığınızda, seçilen bir konfigürasyon ve tarayıcıya ve cihaza özel iş filtresini otomatik olarak yükler. Konfigürasyonda, belirli bir kullanım için geçerli olması gereken ilkeleri ayarlayabilirsiniz.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556326"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814742"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini yapılandırma
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Atölye çalışanları işlerin başlatılması, işlere ilişkin geri bildirim bildirmek, dolaylı faaliyetleri kaydetmek ve devamsızlığı bildirmek gibi günlük çalışmalarını kaydetmek için üretim katı yürütme arabirimini kullanır. Bu kayıtlar, ilerlemeyi izlemenin ve üretim emirleriyle ilgili maliyetin temelini oluşturur ve çalışanların ödemesine yönelik temel hesaplama içindir.
 
@@ -67,6 +64,8 @@ Bu özellik, çalışanların dokunmatik ekranı hijyenik hale getirmesini sağl
 - Temizlenebilmeleri için iş kartı cihazını ve iş kartı terminalini kilitleme özelliği
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimi için varlık yönetim işlevi
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Bu özellik, üretim tabanı yürütme arabirimine bir kıymet yönetimi sekmesi ekler. Çalışanlar bu sekmeyi, iş listesinin seçili filtresinde bulunan makine kaynağına bağlı bir kıymeti seçmek için kullanabilir. Çalışan, seçili makine kıymeti için en fazla dört seçili sayaçtaki sayaç değerlerinden kıymetin durumunu ve sistem durumunu görebilir. Bu özelliği kullanmak için [özellik yönetiminde](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) bulunan şu özelliği açın:
 

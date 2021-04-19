@@ -2,11 +2,9 @@
 title: Abonelik grubundan servis abonelikleri oluşturma
 description: Abonelik grubundan servis abonelikleri oluşturabilirsiniz.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 777dfa2078adf31d651003f1075203c9b016ab1a
-ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
+ms.openlocfilehash: 3f71042f743ccf09abbce341d46f8b83d2ce233a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470735"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819100"
 ---
 # <a name="create-service-subscriptions-from-a-subscription-group"></a>Abonelik grubundan servis abonelikleri oluşturma 
 

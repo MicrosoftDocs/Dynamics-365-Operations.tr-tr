@@ -2,11 +2,9 @@
 title: Eldeki eksi miktarları planlama
 description: Bu konu, planlama en iyileştirmesi kullanılırken eldeki eksi stokun nasıl işlendiğini açıklar.
 author: ChristianRytt
-manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: ba36d87a991a3b0088800313da2cac3a769f2894
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c403e23309dda36dd1c99e22bbae0aa2d6d76a4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232314"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813111"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Eldeki eksi miktarları planlama
 

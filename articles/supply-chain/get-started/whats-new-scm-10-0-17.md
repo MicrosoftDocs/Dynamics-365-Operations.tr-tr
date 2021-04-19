@@ -1,12 +1,10 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.17 (Nisan 2021) Önizlemesi
+title: Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.17'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571824"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813183"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17 (Nisan 2021) Önizlemesi
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.17'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.761 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
+Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.17'teki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.761 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürüm önizlemesi:** Şubat 2021
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Mart 2021
@@ -36,9 +33,9 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır.  Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
+Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, çoğu ise genel olarak kullanılabilir durumda olabilir.
 
 ### <a name="asset-management"></a>Varlık yönetimi
 
@@ -68,9 +65,13 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 - [Ambar yönetimi mobil uygulaması](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Daha fazla bilgi için bkz. [Ambar Yönetimi uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md) ve [Mobil cihaz kullanıcı ayarları](../warehousing/mobile-device-user-settings.md).
 
+- Dalga yürütme bildirimleri<br> - Daha fazla bilgi için bkz. [Dalga yürütme bildirimleri](../warehousing/wave-execution-notifications.md).
+
 ### <a name="manufacturing"></a>İmalat
 
-- [Üretim katı yürütme arabiriminde kıymet yönetimi özellikleri](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).
+- [Üretim katı yürütme arabiriminde kıymet yönetimi özellikleri](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
+
+- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için bkz. 
 
 - [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Daha fazla bilgi için bkz. [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](../production-control/override-default-reservation-principle.md)
 

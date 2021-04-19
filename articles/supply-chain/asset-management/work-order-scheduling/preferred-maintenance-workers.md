@@ -1,12 +1,10 @@
 ---
 title: Tercih edilen bakım görevlilerini ayarla
 description: Bu konuda Varlık Yönetimi'nde tercih edilen bakım görevlisi ayarlama işlemi açıklanmaktadır.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 102f48d1273ac91d5cb42eca11d2dec337c30528
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822551"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Tercih edilen bakım görevlilerini ayarla
 

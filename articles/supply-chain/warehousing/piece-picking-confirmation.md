@@ -1,12 +1,10 @@
 ---
-title: Parça çekme onayı
-description: Bu konu bir mobil cihazdan parça çekme onayının nasıl ayarlanacağını ve uygulanacağını açıklamaktadır.
+title: Malzeme çekme onayı
+description: Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
@@ -16,20 +14,20 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f9da533998341de60d210e196baae64d285d372
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232875"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818860"
 ---
-# <a name="piece-picking-confirmation"></a>Parça çekme onayı
+# <a name="piece-picking-confirmation"></a>Malzeme çekme onayı
 
 [!include [banner](../includes/banner.md)]
 
 Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır. Çekme işleri için, işte çekim için belirtilen miktara kadar olan miktarda işi onaylayabilirsiniz. Sayım işi için, saydığınız stoğu tarayabilir ve toplam tutarı izleyebilirsiniz.
 
-Parça çekmeyi etkinleştirdiğinizde, ürün onayı otomatik olarak seçilir. İş türü çekmeler için, maksimum parça sayısı etkinleştirilir. Bu, parça sayısı için iş işlenirken onaylanması gereken maksimum değeri ayarlamanıza olanak sağlar. Maksimum miktar işlenmekte olan geçerli iş birimini temel alır. Sayım iş türü maksimum ayarlanmasına izin vermez.
+Parça çekmeyi etkinleştirdiğinizde, ürün onayı otomatik olarak seçilir. İş türü çekmeler için, maksimum parça sayısı ayarlayabilirsiniz. Bu, parça sayısı için iş işlenirken onaylanması gereken maksimum değeri ayarlamanıza olanak sağlar. Maksimum miktar işlenmekte olan geçerli iş birimini temel alır. Sayım iş türü maksimum ayarlanmasına izin vermez.
 
 Taranan bir barkodla ilişkili olan miktarı ve ölçü birimini de kullanabilirsiniz. Karma plaka alma, satınalma siparişi maddesi, transfer emri maddesi ve yük maddesi de dahil olmak üzere gelen akışlar üzerinde alma için işe yarar. Ayrıca, barkod tarama işleminin miktarı onaylanan toplam parça sayısına barkod ile iş birimi üzerindeki ölçü birimine göre dönüştürme yaparak eklediği parça çekme işleminde de kullanılabilir. Barkod üzerindeki ölçü birimi sayımı yapılırken, miktarın sıra grubunda sayımına izin verildiği onaylanırsa, miktar toplam sayıma eklenir.
 

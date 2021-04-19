@@ -2,11 +2,9 @@
 title: Uyumlu olmayan yönetim için ön şartları ayarlama
 description: Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu konuyu kullanın.
 author: perlynne
-manager: tfehr
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e30f110e5f0008e66ec4781a35368a75143b565
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c8ce4ae69585a93d679ae614ae81efc9723d9397
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244339"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818193"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Uyumlu olmayan yönetim için ön şartları ayarlama
 

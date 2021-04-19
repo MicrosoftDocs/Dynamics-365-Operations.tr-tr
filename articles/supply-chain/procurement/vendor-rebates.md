@@ -2,11 +2,9 @@
 title: Satıcı indirimleri
 description: Bu konu, bir satıcı indirimi ile çalışırken gerçekleştirmek isteyebileceğiniz en yaygın görevlere bir genel bakış sağlar. Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: b0bbb97625b9746f8332eb75cac0ab0b904ca7e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246609"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822479"
 ---
 # <a name="vendor-rebates"></a>Satıcı indirimleri
 

@@ -2,11 +2,9 @@
 title: Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
 description: Bu konuda, her madde modeli grubu için varsayılan bir rezervasyon ilkesinin nasıl ayarlanacağını açıklanmaktadır. Böylece farklı rezervasyon ilkeleri, üretim ürün reçetesi (BOM) veya toplu iş emri formülünün parçası olan her bir maddeye otomatik olarak uygulanabilir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501114"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814814"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *Varsayılan üretim rezervasyonunu geçersiz kıl* özeliği, her madde modeli grubu için varsayılan rezervasyon ilkesini ayarlamanızı sağlar. Bu sayede, üretim ürün reçetesi (BOM) veya toplu iş siparişi formülünün parçası olan her maddeye farklı rezervasyon ilkeleri otomatik olarak uygulanabilir. Her madde modeli grubunun sipariş için ayarlanan varsayılan rezervasyon ilkesini geçersiz kılıp kılmayacağını ve bunun yerine hangi rezervasyon ilkesinin (*el ile*, *tahmin*, *zamanlama*, *serbest bırakma* veya *başlatma*) kullanılacağını seçebilirsiniz.
 

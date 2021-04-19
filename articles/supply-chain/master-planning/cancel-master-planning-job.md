@@ -2,11 +2,9 @@
 title: Ana planlama işini iptal etme
 description: Bu konuda, yerleşik planlama işlevini kullanan etkin bir planlama işinin nasıl iptal edileceği açıklanmaktadır.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace, ReqProcessList
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d5dad766f4c01e993dd77dd762595b29208c6cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 513aee3b9475506e28db4bffe90df58567b6b281
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264758"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816616"
 ---
 # <a name="cancel-a-master-planning-job"></a>Ana planlama işini iptal etme
 

@@ -2,11 +2,9 @@
 title: Stok yenilemeye genel bakış
 description: Bu konuda Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır.
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56df730dc4d66e07591ed11240d2bbd5efe9ee2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f2b9ae560a991d50b9e63e6c3d73f01ce72394fb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236608"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814476"
 ---
 # <a name="replenishment-overview"></a>Stok yenilemeye genel bakış
 

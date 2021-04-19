@@ -2,7 +2,6 @@
 title: Transitteki malları işleme
 description: Bu konuda, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Transitteki malların işlenmesini kullanmak üzere bir sipariş veya seyahat ayarlandığında, mallar tüketim için ambara alınmadan önce faturalanabilir.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500416"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823421"
 ---
 # <a name="goods-in-transit-processing"></a>Transitteki malları işleme
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Bu konuda, transitteki mal siparişleriyle nasıl çalışılacağı açıklanmaktadır. Bu tür siparişler yalnızca **Varış yeri maliyeti** modülü tarafından kullanılır. Bir sipariş veya seyahat, transitteki malları işlemek üzere ayarlandığında, malları faturalamadan önce ambara alınana kadar beklemeniz gerekmemektedir. Bunun yerine, mallar satıcının ambarı veya çıkış limanından ayrıldığında faturalanır ve seyahat başladığında mali maliyetler tanınır. Bu işlevsellik, malların sevkiyat limanından ayrıldığında genellikle kuruluşunuzun malı haline gelmesi nedeniyle stokun sahipliğini doğru bir şekilde almanızı sağlar.
 
@@ -135,7 +133,7 @@ Varış yeri maliyeti, transitteki malların işlenmesini desteklemek için mobi
 
 Bu işlemlerin yapılandırma ayarları, [satın alma siparişi alma ve yerine koyma işi oluşturma işlemleri](https://technet.microsoft.com/library/dn553216.aspx) ayarlarına benzerdir. Ancak *Transitteki mal madde teslim alma ve yerine koyma* işlemi, aşağıdaki alanı da ekler.
 
-- **Sevkiyat konteynerini etkinleştirme tamamlandı**: Bu seçenek *Evet* olarak ayarlanırsa yerine koyma işi tamamlandığında, ambar uygulaması **Sevkiyat konteyneri tamamlandı** olarak adlandırılan ek bir seçenek sağlar. Bu seçenek belirlendiğinde, çalışandan konteynerin tamamlandığını onaylaması istenir. Bu noktada, tüm kısa girişler bir eksik işlem olarak işlenir.
+- **Sevkiyat konteynerini etkinleştirme tamamlandı**: Bu seçenek *Evet* olarak ayarlanırsa yerine koyma işi tamamlandığında, Ambar Yönetimi mobil uygulaması **Sevkiyat konteyneri tamamlandı** olarak adlandırılan ek bir seçenek sağlar. Bu seçenek belirlendiğinde, çalışandan konteynerin tamamlandığını onaylaması istenir. Bu noktada, tüm kısa girişler bir eksik işlem olarak işlenir.
 
 ### <a name="location-directives"></a>Konum yönergeleri
 

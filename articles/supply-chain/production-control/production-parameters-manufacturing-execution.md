@@ -2,11 +2,9 @@
 title: Üretim yürütmede üretim parametreleri
 description: Bu konu Üretim yürütmeden üretim parametrelerinin ayarlanmasıyla ilgili bilgiler içerir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProdParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd0befdd16b72d7c5d789f635f516cd1bfe9930d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 30bbcd0365fada4554dc2f7d12b40abc9b22ac63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209479"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814620"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Üretim yürütmede üretim parametreleri
 

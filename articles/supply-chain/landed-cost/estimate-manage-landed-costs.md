@@ -2,7 +2,6 @@
 title: Varış yeri maliyetlerini tahmin etme ve yönetme
 description: Sistem, varış yeri maliyetiniz için bir tahmin belirlemek üzere otomatik maliyet kurulumunuzu kullanır. Bu konuda, daha doğru bir tahmin sunmak için çeşitli senaryoları nasıl tanımlayabileceğiniz açıklanmaktadır.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501282"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823445"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Varış yeri maliyetlerini tahmin etme ve yönetme
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sistem, varış yeri maliyetiniz için bir tahmin belirlemek üzere [otomatik maliyet kurulumunuzu](auto-cost-setup.md) kullanır. Ayrıca, daha doğru bir tahmin sunmak için çeşitli senaryolar tanımlayabilirsiniz. Bu senaryolar depolanır. Böylece, bunları daha sonra gözden geçirebilir ve bir rapordaki fiili değerlerle karşılaştırabilirsiniz. Madde fiyatını da güncelleştirebilirsiniz.
 

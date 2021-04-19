@@ -2,11 +2,9 @@
 title: Supply Chain Management için standart kayıtlı görünümler
 description: Bu konuda, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği açıklanmaktadır.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500706"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821261"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management için standart kayıtlı görünümler
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management, gerektiği şekilde etkinleştirebileceğiniz ve kullanabileceğiniz kaydedilmiş görünümler içerir. Bu standart kayıtlı görünümlerin bazıları belirli bir rol veya görev için en iyi duruma getirilmiş ve adlandırılmıştır (ör. "Kalite kontrol" veya "Alma"). Diğerleri, Microsoft kullanım istatistiklerine göre müşteriler tarafından en çok kullanılan alanları ve ayarları içerecek şekilde en iyi duruma getirilmiştir. Bu kayıtlı görünümlere genellikle *basitleştirilmiş* görünümler adı verilir. Bu konuda, sunulan standart kayıtlı görünümler ve bunların nasıl etkinleştirileceği ve özelleştirileceği açıklanmaktadır.
 
@@ -82,14 +79,16 @@ Aşağıdaki tabloda, Tedarik ve kaynak atama modülü için kullanılabilir kay
 
 ## <a name="saved-views-for-the-production-control-module"></a>Üretim denetimi modülü için kayıtlı görünümler
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Aşağıdaki tabloda, Üretim denetimi modülü için kullanılabilir kayıtlı görünümler açıklanmaktadır.
 
 | Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
 |---|---|---|---|
-| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
-| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
+| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
+| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
+| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
+| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Satış ve pazarlama modülü için kayıtlı görünümler
 

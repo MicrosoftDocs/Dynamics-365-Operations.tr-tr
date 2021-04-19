@@ -2,11 +2,9 @@
 title: Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 description: Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7bf69ccec59f2c540d71d44347bd99dc2378dc4c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224990"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816640"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 

@@ -2,11 +2,9 @@
 title: Duvara yerleştirme - mağazaya yerleştirme
 description: Bu konu, Duvara yerleştirme - Mağazaya yerleştirme işlevi hakkında bilgi sağlar. Bu işlev, bir ürünü, yapılandırılabilir ölçütlere göre bir ön paketleme hazırlık alanıyla birleştirmeniz gereken senaryoları işlemenize olanak tanır. Tek bir hedef plakaya malzeme çekme ve küme malzeme çekmeye göre daha fazla yerine koyma konumu kullanma olanağı sağladığından, malzeme çekme süresinin azalmasına yardımcı olur.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228525"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823299"
 ---
 # <a name="put-to-wall---put-to-store"></a>Duvara yerleştirme - mağazaya yerleştirme
 
@@ -524,7 +522,7 @@ Tüm stoklar tasnif yerleşimine konulduğu için, doğru tasnif konumuna tasnif
 
 Tasnif konumlarının el ile kapatılması gerekiyorsa, giden tasnif şablonu için **Tasnif konumunu otomatik kapat** seçeneği *Hayır* olarak ayarlanmalıdır ve stoğun bölme kapısı alanına taşınabilmesi için kapatma işlemi yapılmalıdır. Konumlar çeşitli şekillerde kapatılabilir:
 
-- Ambar uygulaması aracılığıyla:
+- Ambar Yönetimi mobil uygulaması aracılığıyla:
 
     - Kullanıcı, zaten o konumdaki maddelerden birini tarayabilir ve konumu kapatmak için **Kapat**'ı seçebilir.
     - Kullanıcı zaten tasnif edilmiş bir konteyneri tararsa, bir hata iletisi görüntülenir. Ancak, kullanıcı konumu kapatmaya devam edebilir.

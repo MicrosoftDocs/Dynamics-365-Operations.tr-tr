@@ -2,11 +2,9 @@
 title: Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
 description: Üretim katı yürütme arabirimi, üretim katındaki her cihaz için ayarlanır. Şirketler, genellikle cihazın hizmet verdiği amaca bağlı olarak her bir cihazı farklı şekilde kurar. Örneğin, bir şirketin teslim alma alanında, çalışanların giriş ve çıkış saatlerini girdikleri bir cihazı ve atölye katında çalışanların işlerini yönettiği başka bir cihazı olabilir.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 641273dd3ae189853326bf7af7ceb06d48465b5c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500562"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814718"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Üretim katı yürütme arabirimi, üretim katındaki her cihaz için ayarlanır. Şirketler, genellikle cihazın hizmet verdiği amaca bağlı olarak her bir cihazı farklı şekilde kurar. Örneğin, bir şirketin teslim alma alanında, çalışanların giriş ve çıkış saatlerini girdikleri bir cihazı ve atölye katında çalışanların işlerini yönettiği başka bir cihazı olabilir.
 

@@ -2,11 +2,9 @@
 title: İade siparişini silme
 description: Birden fazla sipariş iadesini silmek için İade siparişini sil formunu kullanın.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesDeleteOrder
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054d56969a373c62d29fa12ef22024ff0e7e9558
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 32e61e76c16c994f463825507629e3af502dbe5d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247490"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817545"
 ---
 # <a name="delete-a-return-order"></a>İade siparişini silme 
 
