@@ -2,11 +2,9 @@
 title: Konsolide toplu iş emirleri
 description: Bu makale konsolide edilen toplu siparişler kavramını açıklar.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
@@ -18,29 +16,29 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed722ba0c79afa038f1af7b4491f3ff18b052067
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8d7656889b69cfd1dcffb45b52eb649bce59629
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246393"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809242"
 ---
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="557b9-103">Konsolide toplu iş emirleri</span><span class="sxs-lookup"><span data-stu-id="557b9-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="bcf8f-103">Konsolide toplu iş emirleri</span><span class="sxs-lookup"><span data-stu-id="bcf8f-103">Consolidated batch orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="557b9-104">Bu makale konsolide edilen toplu siparişler kavramını açıklar.</span><span class="sxs-lookup"><span data-stu-id="557b9-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="bcf8f-104">Bu makale konsolide edilen toplu siparişler kavramını açıklar.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="557b9-105">Üretilen toplu ürün, ana ürün olarak değerlendirilirken, paketlenen bir ürün alt ürün olarak değerlendirilir.</span><span class="sxs-lookup"><span data-stu-id="557b9-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="557b9-106">Toplu ürün ile paketli ürün arasındaki ilişki bir toplu ürün dönüşümü cinsinden ifade edilir.</span><span class="sxs-lookup"><span data-stu-id="557b9-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="557b9-107">Bu toplu öğe dönüşümü toplu öğenin kendisine tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="557b9-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="bcf8f-105">Üretilen toplu ürün, ana ürün olarak değerlendirilirken, paketlenen bir ürün alt ürün olarak değerlendirilir.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="bcf8f-106">Toplu ürün ile paketli ürün arasındaki ilişki bir toplu ürün dönüşümü cinsinden ifade edilir.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="bcf8f-107">Bu toplu öğe dönüşümü toplu öğenin kendisine tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="557b9-108">Paketlenmiş öğeler tek ünite olarak değerlendirilen, tek bir boyuttan veya birden fazla boyuttan meydana gelen konteynerlerde paketlenir.</span><span class="sxs-lookup"><span data-stu-id="557b9-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="557b9-109">Bir toplu ürün için siparişleri birleştirerek, tüm ilgili toplu siparişleri mutlaka tamamlanması gereken, kalan işin belirlenmesine yardımcı olabilecek, tek bir görünümde görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="557b9-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="bcf8f-108">Paketlenmiş öğeler tek ünite olarak değerlendirilen, tek bir boyuttan veya birden fazla boyuttan meydana gelen konteynerlerde paketlenir.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="bcf8f-109">Bir toplu ürün için siparişleri birleştirerek, tüm ilgili toplu siparişleri mutlaka tamamlanması gereken, kalan işin belirlenmesine yardımcı olabilecek, tek bir görünümde görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bcf8f-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="557b9-110">Birleştirilen bir toplu sipariş şu siparişlerin herhangi bir kombinasyonunu içerebilir:</span><span class="sxs-lookup"><span data-stu-id="557b9-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="bcf8f-110">Birleştirilen bir toplu sipariş şu siparişlerin herhangi bir kombinasyonunu içerebilir:</span><span class="sxs-lookup"><span data-stu-id="bcf8f-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="557b9-111">Tek bir toplu sipariş ve birden fazla paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="557b9-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="557b9-112">Birden fazla toplu sipariş ve tek bir paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="557b9-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="557b9-113">Birden fazla toplu sipariş ve tek bir paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="557b9-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="557b9-114">Sadece paketli siparişler</span><span class="sxs-lookup"><span data-stu-id="557b9-114">Only packed orders</span></span>
+-   <span data-ttu-id="bcf8f-111">Tek bir toplu sipariş ve birden fazla paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="bcf8f-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="bcf8f-112">Birden fazla toplu sipariş ve tek bir paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="bcf8f-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="bcf8f-113">Birden fazla toplu sipariş ve tek bir paketli sipariş</span><span class="sxs-lookup"><span data-stu-id="bcf8f-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="bcf8f-114">Sadece paketli siparişler</span><span class="sxs-lookup"><span data-stu-id="bcf8f-114">Only packed orders</span></span>
 
 
 

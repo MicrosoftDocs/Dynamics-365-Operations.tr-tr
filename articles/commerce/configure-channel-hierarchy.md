@@ -2,11 +2,9 @@
 title: Bir kanalı kanal gezinme hiyerarşisini kullanacak şekilde yapılandırma
 description: Bu konu, Microsoft Dynamics 365 Commerce'te bir kanal gezinme hiyerarşisi kullanmak üzere bir kanalın nasıl yapılandırılacağını açıklamaktadır.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,71 +14,71 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796136"
 ---
-# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="4f626-103">Bir kanalı kanal gezinme hiyerarşisini kullanacak şekilde yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4f626-103">Configure a channel to use a channel navigation hierarchy</span></span>
+# <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a><span data-ttu-id="e1481-103">Bir kanalı kanal gezinme hiyerarşisini kullanacak şekilde yapılandırma</span><span class="sxs-lookup"><span data-stu-id="e1481-103">Configure a channel to use a channel navigation hierarchy</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="4f626-104">Bu konu, Microsoft Dynamics 365 Commerce'te bir kanal gezinme hiyerarşisi kullanmak üzere bir kanalın nasıl yapılandırılacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="4f626-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="e1481-104">Bu konu, Microsoft Dynamics 365 Commerce'te bir kanal gezinme hiyerarşisi kullanmak üzere bir kanalın nasıl yapılandırılacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="e1481-104">This topic describes how to configure a channel to use a channel navigation hierarchy in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="4f626-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="4f626-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="e1481-105">Genel Bakış</span><span class="sxs-lookup"><span data-stu-id="e1481-105">Overview</span></span>
 
-<span data-ttu-id="4f626-106">Kanal gezinme hiyerarşileri, ürünleri kategoriler halinde düzenleyerek ürünlere bir e-ticaret sitesinde veya satış noktasında (POS) göz atılabilmesini sağlanır.</span><span class="sxs-lookup"><span data-stu-id="4f626-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="4f626-107">Perakende ve çevrimiçi kanallar kanal gezinme hiyerarşileriyle yapılandırılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="4f626-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
+<span data-ttu-id="e1481-106">Kanal gezinme hiyerarşileri, ürünleri kategoriler halinde düzenleyerek ürünlere bir e-ticaret sitesinde veya satış noktasında (POS) göz atılabilmesini sağlanır.</span><span class="sxs-lookup"><span data-stu-id="e1481-106">Channel navigation hierarchies organize products into categories so that the products can be browsed on an e-Commerce site or at points of sale (POS).</span></span> <span data-ttu-id="e1481-107">Perakende ve çevrimiçi kanallar kanal gezinme hiyerarşileriyle yapılandırılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="e1481-107">Retail and online channels must be configured with channel navigation hierarchies.</span></span>
 
-## <a name="configure-the-channel"></a><span data-ttu-id="4f626-108">Kanalı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4f626-108">Configure the channel</span></span>
+## <a name="configure-the-channel"></a><span data-ttu-id="e1481-108">Kanalı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="e1481-108">Configure the channel</span></span>
 
-<span data-ttu-id="4f626-109">Kanal gezinme hiyerarşisini kullanacak şekilde kanalı yapılandırmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="4f626-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
+<span data-ttu-id="e1481-109">Kanal gezinme hiyerarşisini kullanacak şekilde kanalı yapılandırmak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="e1481-109">To configure a channel to use a channel navigation hierarchy, follow these steps.</span></span>
 
-1. <span data-ttu-id="4f626-110">Gezinti bölmesinde, **Modüller \> Retail and commerce \> Kanal kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="4f626-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
-1. <span data-ttu-id="4f626-111">Yapılandırılacak kanalı seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-111">Select the channel to configure.</span></span>
-1. <span data-ttu-id="4f626-112">Eylem bölmesinde, **Öznitelik meta verileri ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-112">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="4f626-113">**Kategori hiyerarşisi** açılır listesinde, uygun kanal gezinme hiyerarşisini seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
-1. <span data-ttu-id="4f626-114">Eylem bölmesinde, **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-114">On the action pane, select **Save**.</span></span>
-1. <span data-ttu-id="4f626-115">**Öznitelik grubu** altında, tüm düğümler için genel öznitelikler olacak olan öznitelik gruplarını ekleyin.</span><span class="sxs-lookup"><span data-stu-id="4f626-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
+1. <span data-ttu-id="e1481-110">Gezinti bölmesinde, **Modüller \> Retail and commerce \> Kanal kurulumu \> Kanal kategorileri ve ürün öznitelikleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="e1481-110">In the navigation pane, go to **Modules \> Retail and commerce \> Channel setup \> Channel categories and product attributes**.</span></span>
+1. <span data-ttu-id="e1481-111">Yapılandırılacak kanalı seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-111">Select the channel to configure.</span></span>
+1. <span data-ttu-id="e1481-112">Eylem bölmesinde, **Öznitelik meta verileri ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-112">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="e1481-113">**Kategori hiyerarşisi** açılır listesinde, uygun kanal gezinme hiyerarşisini seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-113">In the **Category hierarchy** drop-down list, select the appropriate channel navigation hierarchy.</span></span>
+1. <span data-ttu-id="e1481-114">Eylem bölmesinde, **Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-114">On the action pane, select **Save**.</span></span>
+1. <span data-ttu-id="e1481-115">**Öznitelik grubu** altında, tüm düğümler için genel öznitelikler olacak olan öznitelik gruplarını ekleyin.</span><span class="sxs-lookup"><span data-stu-id="e1481-115">Under **Attribute group**, add any attribute groups that will be global attributes for all nodes.</span></span>
 
-<span data-ttu-id="4f626-116">Aşağıdaki resimde, bir kanalın kanal gezinme hiyerarşisini kullanacak şekilde nasıl yapılandırıldığı gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="4f626-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
+<span data-ttu-id="e1481-116">Aşağıdaki resimde, bir kanalın kanal gezinme hiyerarşisini kullanacak şekilde nasıl yapılandırıldığı gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="e1481-116">The following image shows how to configure a channel to use a channel navigation hierarchy.</span></span>
 
 ![Örnek kanalı yapılandırması](media/configure-channel-hierarchy-1.png)
 
-## <a name="set-attribute-metadata"></a><span data-ttu-id="4f626-118">Öznitelik meta verileri ayarla</span><span class="sxs-lookup"><span data-stu-id="4f626-118">Set attribute metadata</span></span>
+## <a name="set-attribute-metadata"></a><span data-ttu-id="e1481-118">Öznitelik meta verileri ayarla</span><span class="sxs-lookup"><span data-stu-id="e1481-118">Set attribute metadata</span></span>
 
-<span data-ttu-id="4f626-119">Öznitelik meta verilerinin ayarlanması, her bir düğümdeki özniteliklerin yapılandırılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="4f626-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
+<span data-ttu-id="e1481-119">Öznitelik meta verilerinin ayarlanması, her bir düğümdeki özniteliklerin yapılandırılmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="e1481-119">Setting the attribute metadata will allow configuration of attributes on each node.</span></span>
 
-<span data-ttu-id="4f626-120">Öznitelik meta verilerini ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="4f626-120">To set attribute metadata, follow these steps.</span></span>
+<span data-ttu-id="e1481-120">Öznitelik meta verilerini ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="e1481-120">To set attribute metadata, follow these steps.</span></span>
 
-1. <span data-ttu-id="4f626-121">Eylem bölmesinde, **Öznitelik meta verileri ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-121">On the action pane, select **Set attribute metadata**.</span></span>
-1. <span data-ttu-id="4f626-122">Her bir düğüm için **Kanal ürün öznitelikleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-122">For each node select **Channel product attributes**.</span></span>
-1. <span data-ttu-id="4f626-123">Kanalda düzelticileri etkinleştirmek için **Özniteliği kanalda göster** ayarını **Evet** ve **İyileştirilebilir** ayarını **Evet** yapın.</span><span class="sxs-lookup"><span data-stu-id="4f626-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
-1. <span data-ttu-id="4f626-124">**Eylem bölmesinde** her düğümü istenildiği gibi yapılandırdıktan sonra, kaydetmek için **Kaydet** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
-1. <span data-ttu-id="4f626-125">Bu ekrandan çıkıp **Kanal kategorileri ve ürün öznitelikleri** sayfasına dönmek için sağ üst köşedeki **X**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
+1. <span data-ttu-id="e1481-121">Eylem bölmesinde, **Öznitelik meta verileri ayarla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-121">On the action pane, select **Set attribute metadata**.</span></span>
+1. <span data-ttu-id="e1481-122">Her bir düğüm için **Kanal ürün öznitelikleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-122">For each node select **Channel product attributes**.</span></span>
+1. <span data-ttu-id="e1481-123">Kanalda düzelticileri etkinleştirmek için **Özniteliği kanalda göster** ayarını **Evet** ve **İyileştirilebilir** ayarını **Evet** yapın.</span><span class="sxs-lookup"><span data-stu-id="e1481-123">Set **Show attribute on channel** to **Yes** and **Can be refined** to **Yes**, to enable refiners on that channel.</span></span>
+1. <span data-ttu-id="e1481-124">**Eylem bölmesinde** her düğümü istenildiği gibi yapılandırdıktan sonra, kaydetmek için **Kaydet** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-124">After configuring each node as desired, on the **Action pane**, select the **Save** button to save.</span></span>
+1. <span data-ttu-id="e1481-125">Bu ekrandan çıkıp **Kanal kategorileri ve ürün öznitelikleri** sayfasına dönmek için sağ üst köşedeki **X**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-125">Select the **X** in the top right corner to exit this screen back to the **Channel categories and product attributes** page.</span></span>
 
-<span data-ttu-id="4f626-126">Aşağıdaki resimde, bir kanal kategori düğümünde yapılandırılmış kanal ürün öznitelikleri kümesi gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="4f626-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
+<span data-ttu-id="e1481-126">Aşağıdaki resimde, bir kanal kategori düğümünde yapılandırılmış kanal ürün öznitelikleri kümesi gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="e1481-126">The following image shows an example set of channel product attributes configured on a channel category node.</span></span>
 
 ![Kanal kategori düğümündeki kanal öznitelikleri](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a><span data-ttu-id="4f626-128">Değişiklikleri yayımlama</span><span class="sxs-lookup"><span data-stu-id="4f626-128">Publish changes</span></span>
+## <a name="publish-changes"></a><span data-ttu-id="e1481-128">Değişiklikleri yayımlama</span><span class="sxs-lookup"><span data-stu-id="e1481-128">Publish changes</span></span>
 
-<span data-ttu-id="4f626-129">Değişikliklerin yürürlüğe girmesi için, değişiklikleri yayımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="4f626-129">For changes to take effect, you will need to publish the changes.</span></span>
+<span data-ttu-id="e1481-129">Değişikliklerin yürürlüğe girmesi için, değişiklikleri yayımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="e1481-129">For changes to take effect, you will need to publish the changes.</span></span>
 
-<span data-ttu-id="4f626-130">Değişiklikleri yayımlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="4f626-130">To publish changes, follow these steps.</span></span>
+<span data-ttu-id="e1481-130">Değişiklikleri yayımlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="e1481-130">To publish changes, follow these steps.</span></span>
 
-1. <span data-ttu-id="4f626-131">Eylem bölmesinde, **Kanal güncelleştirmelerini yayınla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-131">On the action pane, select **Publish channel updates**.</span></span>
-1. <span data-ttu-id="4f626-132">**Kanal güncelleştirmelerini yayınla** bölmesinde **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="4f626-132">In the **Publish channel updates** pane, select **OK**.</span></span>
+1. <span data-ttu-id="e1481-131">Eylem bölmesinde, **Kanal güncelleştirmelerini yayınla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-131">On the action pane, select **Publish channel updates**.</span></span>
+1. <span data-ttu-id="e1481-132">**Kanal güncelleştirmelerini yayınla** bölmesinde **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="e1481-132">In the **Publish channel updates** pane, select **OK**.</span></span>
 
-<span data-ttu-id="4f626-133">Aşağıdaki resimde, kanal güncelleştirmelerinin nasıl yayımlanacağı gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="4f626-133">The following image shows how to publish channel updates.</span></span>
+<span data-ttu-id="e1481-133">Aşağıdaki resimde, kanal güncelleştirmelerinin nasıl yayımlanacağı gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="e1481-133">The following image shows how to publish channel updates.</span></span>
 
 ![Kanal güncelleştirmelerini yayınla](media/configure-channel-hierarchy-3.png)
 
-## <a name="additional-resources"></a><span data-ttu-id="4f626-135">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="4f626-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="e1481-135">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="e1481-135">Additional resources</span></span>
 
-[<span data-ttu-id="4f626-136">Kanal gezinme hiyerarşisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="4f626-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
+[<span data-ttu-id="e1481-136">Kanal gezinme hiyerarşisi oluşturma</span><span class="sxs-lookup"><span data-stu-id="e1481-136">Create a channel navigation hierarchy</span></span>](create-channel-hierarchy.md)
 
 
 

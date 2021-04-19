@@ -2,11 +2,9 @@
 title: Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme
 description: Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ROBOTS: ''
 audience: Application user
@@ -17,46 +15,46 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7ceef55bac11ae8a1f7d9dafbddc45d67b836504
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211534"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797317"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a><span data-ttu-id="76ead-103">Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="76ead-103">Associate a Dynamics 365 Commerce site with an online channel</span></span>
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a><span data-ttu-id="9527b-103">Dynamics 365 Commerce sitesini çevrimiçi bir kanalla ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="9527b-103">Associate a Dynamics 365 Commerce site with an online channel</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="76ead-104">Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="76ead-104">This topic explains how to bind your Microsoft Dynamics 365 Commerce site to one or more online stores.</span></span> 
+<span data-ttu-id="9527b-104">Bu konu, Microsoft Dynamics 365 Commerce sitenizin bir veya daha fazla çevrimiçi mağazaya nasıl bağlanacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="9527b-104">This topic explains how to bind your Microsoft Dynamics 365 Commerce site to one or more online stores.</span></span> 
 
-<span data-ttu-id="76ead-105">Microsoft Dynamics Lifecycle Services (LCS) portalını kullanarak e-ticaret sağlandıktan sonra, ilk Dynamics 365 Commerce e-ticaret Web sitenizi hazırlıyoruz.</span><span class="sxs-lookup"><span data-stu-id="76ead-105">After you've provisioned your Dynamics 365 Commerce e-commerce environment by using the Microsoft Dynamics Lifecycle Services (LCS) portal, you're ready to establish your first e-commerce website.</span></span> <span data-ttu-id="76ead-106">İlk site oluşturma işleminin bir parçası olarak, siteyi önceden oluşturulmuş bir çevrimiçi mağazadan ilişkilendirirsiniz.</span><span class="sxs-lookup"><span data-stu-id="76ead-106">As part of the initial site creation, you associate the site with an online store that was previously created.</span></span> <span data-ttu-id="76ead-107">Bu adım, siteyi çevrimiçi bir kanala bağlar ve sitenin gezinti hiyerarşisini, ürünlerini, kategorilerini, fiyatlarını, Sevkiyat seçeneklerini ve çevrimiçi mağazada tanımladığınız her şeyi göstermesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="76ead-107">This step binds the site to an online channel and lets the site show the navigation hierarchy, products, categories, prices, shipping options, and everything else that you defined in the online store.</span></span>
+<span data-ttu-id="9527b-105">Microsoft Dynamics Lifecycle Services (LCS) portalını kullanarak e-ticaret sağlandıktan sonra, ilk Dynamics 365 Commerce e-ticaret Web sitenizi hazırlıyoruz.</span><span class="sxs-lookup"><span data-stu-id="9527b-105">After you've provisioned your Dynamics 365 Commerce e-commerce environment by using the Microsoft Dynamics Lifecycle Services (LCS) portal, you're ready to establish your first e-commerce website.</span></span> <span data-ttu-id="9527b-106">İlk site oluşturma işleminin bir parçası olarak, siteyi önceden oluşturulmuş bir çevrimiçi mağazadan ilişkilendirirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9527b-106">As part of the initial site creation, you associate the site with an online store that was previously created.</span></span> <span data-ttu-id="9527b-107">Bu adım, siteyi çevrimiçi bir kanala bağlar ve sitenin gezinti hiyerarşisini, ürünlerini, kategorilerini, fiyatlarını, Sevkiyat seçeneklerini ve çevrimiçi mağazada tanımladığınız her şeyi göstermesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="9527b-107">This step binds the site to an online channel and lets the site show the navigation hierarchy, products, categories, prices, shipping options, and everything else that you defined in the online store.</span></span>
 
-<span data-ttu-id="76ead-108">Yeni bir site oluşturmak ve bir çevrimiçi mağazayı bununla ilişkilendirmek için, LCS'de, site yazma ortamı bağlantısını seçin.</span><span class="sxs-lookup"><span data-stu-id="76ead-108">To establish a new site and associate an online store with it, in LCS, select the link for the site authoring environment.</span></span> <span data-ttu-id="76ead-109">Sonra, site geliştirme ortamının sayfasında **Yeni site**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="76ead-109">Then, on the page for the site authoring environment, select **New site**.</span></span> <span data-ttu-id="76ead-110">**Yeni site** iletişim kutusunda, siteniz hakkında bazı temel bilgileri sağlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="76ead-110">In the **New site** dialog box, you must provide some basic information about your site.</span></span> <span data-ttu-id="76ead-111">Sağlamanız gereken bilgilerin tam açıklaması için, [yeni bir e-ticaret sitesi oluşturma](create-ecommerce-site.md) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="76ead-111">For a complete explanation of the information that you must provide, see [Create a new e-commerce site](create-ecommerce-site.md).</span></span>
+<span data-ttu-id="9527b-108">Yeni bir site oluşturmak ve bir çevrimiçi mağazayı bununla ilişkilendirmek için, LCS'de, site yazma ortamı bağlantısını seçin.</span><span class="sxs-lookup"><span data-stu-id="9527b-108">To establish a new site and associate an online store with it, in LCS, select the link for the site authoring environment.</span></span> <span data-ttu-id="9527b-109">Sonra, site geliştirme ortamının sayfasında **Yeni site**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="9527b-109">Then, on the page for the site authoring environment, select **New site**.</span></span> <span data-ttu-id="9527b-110">**Yeni site** iletişim kutusunda, siteniz hakkında bazı temel bilgileri sağlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="9527b-110">In the **New site** dialog box, you must provide some basic information about your site.</span></span> <span data-ttu-id="9527b-111">Sağlamanız gereken bilgilerin tam açıklaması için, [yeni bir e-ticaret sitesi oluşturma](create-ecommerce-site.md) konusuna bakın.</span><span class="sxs-lookup"><span data-stu-id="9527b-111">For a complete explanation of the information that you must provide, see [Create a new e-commerce site](create-ecommerce-site.md).</span></span>
 
-<span data-ttu-id="76ead-112">Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi deponuzla ilişkili olduğunu doğrulayabilirsiniz. Çevrimiçi mağazaya tahsis edilen ürün sınıflamayı görmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="76ead-112">After your site is created, you can verify that it's associated with your online store by selecting the **Products** tab. You should see the assortment of products that has been allocated to the online store.</span></span> <span data-ttu-id="76ead-113">Ürünlere göre ürüne erişmek için sayfanın sol üst tarafındaki açılan alanı da kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="76ead-113">You can also use the drop-down field in the upper left of the page to access the products by category.</span></span>
+<span data-ttu-id="9527b-112">Siteniz oluşturulduktan sonra, **ürünler** sekmesini seçerek çevrimiçi deponuzla ilişkili olduğunu doğrulayabilirsiniz. Çevrimiçi mağazaya tahsis edilen ürün sınıflamayı görmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="9527b-112">After your site is created, you can verify that it's associated with your online store by selecting the **Products** tab. You should see the assortment of products that has been allocated to the online store.</span></span> <span data-ttu-id="9527b-113">Ürünlere göre ürüne erişmek için sayfanın sol üst tarafındaki açılan alanı da kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9527b-113">You can also use the drop-down field in the upper left of the page to access the products by category.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="76ead-114">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="76ead-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9527b-114">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="9527b-114">Additional resources</span></span>
 
-[<span data-ttu-id="76ead-115">Etki alanı adınızı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="76ead-115">Configure your domain name</span></span>](configure-your-domain-name.md)
+[<span data-ttu-id="9527b-115">Etki alanı adınızı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="9527b-115">Configure your domain name</span></span>](configure-your-domain-name.md)
 
-[<span data-ttu-id="76ead-116">Yeni bir e-ticaret kiracısını dağıtma</span><span class="sxs-lookup"><span data-stu-id="76ead-116">Deploy a new e-commerce tenant</span></span>](deploy-ecommerce-site.md)
+[<span data-ttu-id="9527b-116">Yeni bir e-ticaret kiracısını dağıtma</span><span class="sxs-lookup"><span data-stu-id="9527b-116">Deploy a new e-commerce tenant</span></span>](deploy-ecommerce-site.md)
 
-[<span data-ttu-id="76ead-117">E-ticaret sitesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="76ead-117">Create an e-commerce site</span></span>](create-ecommerce-site.md)
+[<span data-ttu-id="9527b-117">E-ticaret sitesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="9527b-117">Create an e-commerce site</span></span>](create-ecommerce-site.md)
 
-[<span data-ttu-id="76ead-118">robots.txt dosyalarını yönetme</span><span class="sxs-lookup"><span data-stu-id="76ead-118">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
+[<span data-ttu-id="9527b-118">robots.txt dosyalarını yönetme</span><span class="sxs-lookup"><span data-stu-id="9527b-118">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
 
-[<span data-ttu-id="76ead-119">URL yeniden yönlendirmelerini toplu olarak yükleme</span><span class="sxs-lookup"><span data-stu-id="76ead-119">Upload URL redirects in bulk</span></span>](upload-bulk-redirects.md)
+[<span data-ttu-id="9527b-119">URL yeniden yönlendirmelerini toplu olarak yükleme</span><span class="sxs-lookup"><span data-stu-id="9527b-119">Upload URL redirects in bulk</span></span>](upload-bulk-redirects.md)
 
-[<span data-ttu-id="76ead-120">Commerce'ta B2C kiracısı ayarlama</span><span class="sxs-lookup"><span data-stu-id="76ead-120">Set up a B2C tenant in Commerce</span></span>](set-up-B2C-tenant.md)
+[<span data-ttu-id="9527b-120">Commerce'ta B2C kiracısı ayarlama</span><span class="sxs-lookup"><span data-stu-id="9527b-120">Set up a B2C tenant in Commerce</span></span>](set-up-B2C-tenant.md)
 
-[<span data-ttu-id="76ead-121">Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama</span><span class="sxs-lookup"><span data-stu-id="76ead-121">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
+[<span data-ttu-id="9527b-121">Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama</span><span class="sxs-lookup"><span data-stu-id="9527b-121">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
 
-[<span data-ttu-id="76ead-122">Commerce ortamında birden fazla B2C kiracısı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="76ead-122">Configure multiple B2C tenants in a Commerce environment</span></span>](configure-multi-B2C-tenants.md)
+[<span data-ttu-id="9527b-122">Commerce ortamında birden fazla B2C kiracısı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="9527b-122">Configure multiple B2C tenants in a Commerce environment</span></span>](configure-multi-B2C-tenants.md)
 
-[<span data-ttu-id="76ead-123">İçerik teslim ağı (CDN) için destek ekleme</span><span class="sxs-lookup"><span data-stu-id="76ead-123">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
+[<span data-ttu-id="9527b-123">İçerik teslim ağı (CDN) için destek ekleme</span><span class="sxs-lookup"><span data-stu-id="9527b-123">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
 
-[<span data-ttu-id="76ead-124">Konum tabanlı mağaza algılamayı etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="76ead-124">Enable location-based store detection</span></span>](enable-store-detection.md)
+[<span data-ttu-id="9527b-124">Konum tabanlı mağaza algılamayı etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="9527b-124">Enable location-based store detection</span></span>](enable-store-detection.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

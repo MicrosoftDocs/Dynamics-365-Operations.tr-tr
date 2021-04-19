@@ -2,11 +2,9 @@
 title: " Bağlılık ödül puanlarını tanımlama"
 description: Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
@@ -16,34 +14,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bb190e720e5040d446d75a2e8c39cb360019d42
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e7f3b19513bb25d1976d2e4d0e235c347c38ccb4
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798477"
 ---
-# <a name="define-loyalty-reward-points"></a><span data-ttu-id="2cfec-103"> Bağlılık ödül puanlarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="2cfec-103">Define loyalty reward points</span></span>
+# <a name="define-loyalty-reward-points"></a><span data-ttu-id="f0189-103"> Bağlılık ödül puanlarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="f0189-103">Define loyalty reward points</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2cfec-104">Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="2cfec-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="2cfec-105">Bir bağlılık programı ayarlamadan önce bağlılık ödül puanları ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="2cfec-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="2cfec-106">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="2cfec-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="f0189-104">Bu yordam bağlılık ödül puanlarının nasıl belirleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="f0189-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="f0189-105">Bir bağlılık programı ayarlamadan önce bağlılık ödül puanları ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0189-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="f0189-106">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="f0189-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="2cfec-107">Retail and Commerce >Müşteriler > Bağlılık > Bağlılık programı ödül puanları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
-2. <span data-ttu-id="2cfec-108">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2cfec-108">Click New.</span></span>
-3. <span data-ttu-id="2cfec-109">Ödül puanı kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-109">In the Reward point ID field, type a value.</span></span>
-4. <span data-ttu-id="2cfec-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="2cfec-111">Ödül puanı türü alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-111">In the Reward point type field, select an option.</span></span>
-    * <span data-ttu-id="2cfec-112">Ödül puanlarının en yakın tam sayıya yuvarlanmasını istiyorsanız Miktar seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="2cfec-113">Ödül puanlarının para birimi yuvarlama kurallarına göre yuvarlanmasını istiyorsanız Tutar seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="2cfec-114">Miktar'ı seçerseniz, bu yordamın bir sonraki adımına atlayın...</span><span class="sxs-lookup"><span data-stu-id="2cfec-114">If you select Quantity, skip the next step of this procedure..</span></span>  
-6. <span data-ttu-id="2cfec-115">Para birimi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="2cfec-115">In the Currency field, type a value.</span></span>
-    * <span data-ttu-id="2cfec-116">Tutar türü ödül puanları için, verilen tüm puanlar seçili para birimine sahip olacaktır.</span><span class="sxs-lookup"><span data-stu-id="2cfec-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="2cfec-117">Miktar türü ödül puanları için bu alan kullanılmaz; bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="2cfec-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
-7. <span data-ttu-id="2cfec-118">Kullanılabilir onay kutusunu işaretleyin veya işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="2cfec-118">Check or uncheck the Redeemable checkbox.</span></span>
-8. <span data-ttu-id="2cfec-119">Derecelendirme kullanma alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-119">In the Redeem ranking field, enter a number.</span></span>
-    * <span data-ttu-id="2cfec-120">Derecelendirme kullanma, ürün ödemeleri için iki veya daha fazla kullanılabilir ödül puanı olduğunda kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2cfec-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="2cfec-121">İki ödül puanı aynı derecelendirme kullanma durumuna sahipse, daha düşük sayıda puana sahip olan kullanılır.</span><span class="sxs-lookup"><span data-stu-id="2cfec-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
-9. <span data-ttu-id="2cfec-122">Sonra erme süresi değer alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-122">In the Expiration time value field, enter a number.</span></span>
-    * <span data-ttu-id="2cfec-123">Ödül puanlarının süresi, puanlar verildikten sonra belirtilen sayıda gün, ay veya yıl geçtiğinde sonra erer.</span><span class="sxs-lookup"><span data-stu-id="2cfec-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="2cfec-124">'0' değeri bağlılık ödül puanının süresiz olduğunu belirtir.</span><span class="sxs-lookup"><span data-stu-id="2cfec-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
-10. <span data-ttu-id="2cfec-125">Sona erme süresi birimi alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="2cfec-125">In the Expiration time unit field, select an option.</span></span>
-11. <span data-ttu-id="2cfec-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2cfec-126">Click Save.</span></span>
+1. <span data-ttu-id="f0189-107">Retail and Commerce >Müşteriler > Bağlılık > Bağlılık programı ödül puanları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="f0189-107">Go to Retail and Commerce > Customers > Loyalty > Loyalty reward points.</span></span>
+2. <span data-ttu-id="f0189-108">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f0189-108">Click New.</span></span>
+3. <span data-ttu-id="f0189-109">Ödül puanı kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f0189-109">In the Reward point ID field, type a value.</span></span>
+4. <span data-ttu-id="f0189-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f0189-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f0189-111">Ödül puanı türü alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f0189-111">In the Reward point type field, select an option.</span></span>
+    * <span data-ttu-id="f0189-112">Ödül puanlarının en yakın tam sayıya yuvarlanmasını istiyorsanız Miktar seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="f0189-112">Select Quantity if you want the reward points to be rounded to the nearest integer.</span></span> <span data-ttu-id="f0189-113">Ödül puanlarının para birimi yuvarlama kurallarına göre yuvarlanmasını istiyorsanız Tutar seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="f0189-113">Select Amount if you want the reward points to be rounded according to currency rounding rules.</span></span> <span data-ttu-id="f0189-114">Miktar'ı seçerseniz, bu yordamın bir sonraki adımına atlayın...</span><span class="sxs-lookup"><span data-stu-id="f0189-114">If you select Quantity, skip the next step of this procedure..</span></span>  
+6. <span data-ttu-id="f0189-115">Para birimi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f0189-115">In the Currency field, type a value.</span></span>
+    * <span data-ttu-id="f0189-116">Tutar türü ödül puanları için, verilen tüm puanlar seçili para birimine sahip olacaktır.</span><span class="sxs-lookup"><span data-stu-id="f0189-116">For Amount type reward points, all points issued will have the selected currency.</span></span> <span data-ttu-id="f0189-117">Miktar türü ödül puanları için bu alan kullanılmaz; bu adımı atlayın.</span><span class="sxs-lookup"><span data-stu-id="f0189-117">For Quantity type reward points, this field doesn't apply—skip this step.</span></span>  
+7. <span data-ttu-id="f0189-118">Kullanılabilir onay kutusunu işaretleyin veya işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="f0189-118">Check or uncheck the Redeemable checkbox.</span></span>
+8. <span data-ttu-id="f0189-119">Derecelendirme kullanma alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f0189-119">In the Redeem ranking field, enter a number.</span></span>
+    * <span data-ttu-id="f0189-120">Derecelendirme kullanma, ürün ödemeleri için iki veya daha fazla kullanılabilir ödül puanı olduğunda kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f0189-120">Redeem ranking is used when two or more redeemable reward points can be used to pay for products.</span></span> <span data-ttu-id="f0189-121">İki ödül puanı aynı derecelendirme kullanma durumuna sahipse, daha düşük sayıda puana sahip olan kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f0189-121">If the two reward points have the same redeem ranking, then the one that needs to lower number of points will be used.</span></span>  
+9. <span data-ttu-id="f0189-122">Sonra erme süresi değer alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f0189-122">In the Expiration time value field, enter a number.</span></span>
+    * <span data-ttu-id="f0189-123">Ödül puanlarının süresi, puanlar verildikten sonra belirtilen sayıda gün, ay veya yıl geçtiğinde sonra erer.</span><span class="sxs-lookup"><span data-stu-id="f0189-123">The reward points will expire the specified number of days, months, or years after when the points are issued.</span></span> <span data-ttu-id="f0189-124">'0' değeri bağlılık ödül puanının süresiz olduğunu belirtir.</span><span class="sxs-lookup"><span data-stu-id="f0189-124">A value of '0' means the loyalty reward points will never expire.</span></span>  
+10. <span data-ttu-id="f0189-125">Sona erme süresi birimi alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="f0189-125">In the Expiration time unit field, select an option.</span></span>
+11. <span data-ttu-id="f0189-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0189-126">Click Save.</span></span>
 
 
 
