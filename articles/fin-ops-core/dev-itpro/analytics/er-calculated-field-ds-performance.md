@@ -2,7 +2,6 @@
 title: Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 description: Bu konuda, parametreli HESAPLANAN ALAN veri kaynaklarını ekleyerek, Elektronik raporlama (ER) çözümlerinin performansını artırmaya nasıl yardımcı olabileceğiniz açıklanmaktadır.
 author: NickSelin
-manager: AnnBe
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c63d64774b5b97a562da20655400078ed47c5675
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569237"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749525"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 
