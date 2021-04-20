@@ -37,9 +37,9 @@ Veri modelindeki veriler nesneler tarafından taşınır ve sınıflar tarafınd
 
 Önemli nesnelerin listesi aşağıdadır:
 
-* AxClass/TaxIntegration **Belge** Nesnesi
-* AxClass/TaxIntegration **Satır** Nesnesi
-* AxClass/TaxIntegration **TaxLine** Nesnesi
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 Aşağıdaki resim bu nesnelerin nasıl ilişkili olduğunu gösterir.
 
