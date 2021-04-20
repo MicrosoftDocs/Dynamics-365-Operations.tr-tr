@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Commerce giriş sayfası
           href: index.md
-        - name: Başlayın
+        - name: Kullanmaya başlama
           items:
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
@@ -68,7 +68,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Şirket içi ortama Retail kanalı bileşenleri yükleme adımları
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance + Operations (on-premises) satın alma
+                - name: Finance + Operations (şirket içi) satın alma
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Data Exchange uygulama kılavuzu
                   href: dev-itpro/implementation-considerations-cdx.md
@@ -280,7 +280,7 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station'ı yapılandırma ve yükleme
                   href: retail-hardware-station-configuration-installation.md
-                - name: Self servis bileşenlerinin toplu dağıtımı
+                - name: Eski self servis bileşenlerinin toplu dağıtımı
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Tanılama ve sorun giderme için Commerce bileşeni olayları
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: Alt bilgi modülü
                       href: author-footer-module.md
+                - name: 'Sayfa, meta veri ve betik modülleri'
+                  items:
+                    - name: Varsayılan sayfa modülü
+                      href: default-page-module.md
+                    - name: Sayfa özeti modülleri
+                      href: page-summary-module.md
+                    - name: Meta etiketler modülü
+                      href: metatags-module.md
+                    - name: Harici ve satır içi betik modülleri
+                      href: script-module.md
                 - name: Ürün ayrıntısı sayfası modülleri
                   items:
                     - name: Satın alma kutusu modülü
@@ -2160,7 +2170,7 @@
               items:
                 - name: Çevrimiçi kanal genişletilebilirliğine genel bakış
                   href: e-commerce-extensibility/overview.md
-                - name: Başlayın
+                - name: Kullanmaya başlama
                   items:
                     - name: E-ticaret çevrimiçi genişletilebilirlik geliştirmesini kullanmaya başlama
                       href: e-commerce-extensibility/sdk-getting-started.md

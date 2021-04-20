@@ -228,6 +228,8 @@
                               href: data-entities/dual-write/party-gab.md
                             - name: Taraf veri modeli ile Power Portal'ı kullanma
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Taraf ve genel adres defteri modeline yükseltme
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Not tümleştirmesi
                               href: data-entities/dual-write/notes-integration.md
                             - name: Eşleme referansı
@@ -714,6 +716,8 @@
               items:
                 - name: X++ ve hata ayıklayıcı özellikleri
                   href: dev-tools/new-x-debugger-features.md
+                - name: X++ için Visual Studio 2017 gereksinimleri
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: X++ kodu hatalarını ayıklama
                   href: dev-tools/debug-xpp.md
                 - name: İstek veya yanıt senaryolarındaki EventHandlerResult sınıfları
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Tarih etkililiği
               href: dev-tools/date-effectivity.md
-            - name: ISV lisanslaması
-              href: dev-tools/isv-licensing.md
-            - name: Şirket içi ISV lisanslaması
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Bağımsız yazılım satıcıları için geliştirme
+              items:
+                - name: ISV Studio kullanarak X++ modüllerini paketlere bağlama
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ISV lisanslaması
+                  href: dev-tools/isv-licensing.md
+                - name: Şirket içi ISV lisanslaması
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Genel Veri Koruma Yönetmeliği (GDPR)
           items:
             - name: Genel Veri Koruma Yönetmeliği'ne genel bakış
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Microsoft Power Platform tümleştirmesi
           items:
+            - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
+              href: power-platform/overview.md
             - name: Sanal varlıklar
               items:
-                - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
-                  href: power-platform/overview.md
                 - name: Varlık modelleme
                   href: power-platform/entity-modeling.md
                 - name: Uygulama yaşam döngüsü yönetimi
@@ -1164,7 +1172,7 @@
           items:
             - name: Mobil platform kaynakları
               href: mobile-apps/platform/mobile-platform-home-page.md
-            - name: Başlayın
+            - name: Kullanmaya başlama
               items:
                 - name: Mobil platformu kullanmaya başlama
                   href: mobile-apps/platform/mobile-platform-getting-started.md
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Finance and Operations uygulamaları için destek deneyimlerini yönetme
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Üretim desteği ve izleme
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Sistem yönetimi
           items:
             - name: Sistem yönetimi giriş sayfası
