@@ -4,7 +4,7 @@
       items:
         - name: Dynamics 365 Finance giriş sayfası
           href: index.md
-        - name: Başlayın
+        - name: Kullanmaya başlama
           items:
             - name: Satın almadan önce
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
@@ -934,6 +934,8 @@
                   href: general-ledger/tasks/define-financial-dimensions.md
                 - name: Mali boyut varsayılan şablonlarını koruma
                   href: general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Mali boyut kümeleri
+                  href: general-ledger/financial-dimension-sets.md
                 - name: Hesap yapıları oluşturma
                   href: general-ledger/tasks/create-account-structures.md
                 - name: Mali boyutlar ve deftere nakletme
@@ -1414,38 +1416,66 @@
           items:
             - name: Globalleştirme kaynakları
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
+            - name: Genelleştirme hizmetleri
+              items:
+                - name: Genelleştirme hizmetlerine genel bakış
+                  href: localizations/globalization-services-overview.md
+                - name: Regulatory Configuration Service
+                  items:
+                    - name: Regulatory Configuration Service'e genel bakış
+                      href: localizations/rcs-overview.md
+                    - name: Regulatory Configuration Service - Globalleştirme özellikleri
+                      href: localizations/rcs-globalization-feature.md
+                    - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
+                      href: localizations/rcs-global-repo-upload.md
+                - name: Elektronik Faturalama
+                  items:
+                    - name: Elektronik Faturalamaya genel bakış
+                      href: localizations/e-invoicing-service-overview.md
+                    - name: Elektronik Faturalama yönetim bileşenleri
+                      href: localizations/e-invoicing-service-administration.md
+                    - name: Regulatory Configuration Services'te (RCS) Elektronik Faturalamayı yapılandırma
+                      href: localizations/e-invoicing-configuration-rcs.md
+                    - name: Finance ve Supply Chain Management'ta elektronik fatura kesme
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                    - name: Azure depolama hesabı ve Key Vault oluşturma
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                    - name: Kullanmaya başlama
+                      items:
+                        - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
+                          href: localizations/e-invoicing-get-started-service-administration.md
+                        - name: Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-get-started.md
+                        - name: Brezilya için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-bra-get-started.md
+                        - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-eg-get-started.md
+                        - name: İtalya için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-ita-get-started.md
+                        - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
+                          href: localizations/e-invoicing-mex-get-started.md
+                        - name: Elektronik Faturalamayı ayarlama
+                          href: localizations/e-invoicing-setup.md
+                    - name: Elektronik Faturalama ile ilgili SSS
+                      href: localizations/e-invoicing-faq.md
+                - name: Vergi Hesaplama
+                  items:
+                    - name: Vergi Hesaplamaya genel bakış
+                      href: localizations/global-tax-calcuation-service-overview.md
+                    - name: Vergi Hesaplamayı kullanmaya başlama
+                      href: localizations/global-get-started-with-tax-calculation-service.md
+                    - name: Transfer emirleri için vergi özelliği desteği
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                    - name: Vergi yapılandırmalarına veri alanları ekleme
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                    - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                    - name: Çoklu KDV kayıt numarası
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Ana veri arama için ortam ayarlama
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
-            - name: Elektronik faturalama
-              items:
-                - name: Elektronik faturalamaya genel bakış
-                  href: localizations/e-invoicing-service-overview.md
-                - name: Elektronik faturalama yönetim bileşenleri
-                  href: localizations/e-invoicing-service-administration.md
-                - name: Regulatory Configuration Services'te (RCS) elektronik faturalamayı yapılandırma
-                  href: localizations/e-invoicing-configuration-rcs.md
-                - name: Finance ve Supply Chain Management'ta elektronik fatura kesme
-                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
-                - name: Azure depolama hesabı ve Key Vault oluşturma
-                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Başlayın
-                  items:
-                    - name: Elektronik faturalama hizmet yönetimini kullanmaya başlama
-                      href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Elektronik faturalamayı kullanmaya başlama
-                      href: localizations/e-invoicing-get-started.md
-                    - name: Brezilya için Elektronik faturalamayı kullanmaya başlama
-                      href: localizations/e-invoicing-bra-get-started.md
-                    - name: Mısır için Elektronik faturalamayı kullanmaya başlama
-                      href: localizations/e-invoicing-eg-get-started.md
-                    - name: İtalya için Elektronik faturalamayı kullanmaya başlama
-                      href: localizations/e-invoicing-ita-get-started.md
-                    - name: Meksika için Elektronik faturalamayı kullanmaya başlama
-                      href: localizations/e-invoicing-mex-get-started.md
-                    - name: Elektronik faturalamayı ayarlama
-                      href: localizations/e-invoicing-setup.md
-                - name: Elektronik faturalama ile ilgili SSS
-                  href: localizations/e-invoicing-faq.md
             - name: Avustralya
               items:
                 - name: Avustralya'ya genel bakış
@@ -1468,6 +1498,8 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: KDV beyanı
                   href: localizations/emea-aut-vat-statement-details.md
+                - name: Sınır ötesi hizmetler raporu
+                  href: localizations/emea-aut-cross-border-services-report.md
             - name: Bahreyn
               items:
                 - name: Bahreyn'e genel bakış
@@ -1492,6 +1524,8 @@
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Mutabakat raporları
                   href: localizations/emea-bel-reconciliation-reports.md
+                - name: Günlük raporları
+                  href: localizations/emea-bel-journal-reports.md
                 - name: Ödeme bakiyesi raporlamasını ayarlama
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM ayarlama ve yönetme
@@ -2118,32 +2152,6 @@
                       href: localizations/ind-news-letter-10-0-13.md
                     - name: 10.0.14 sürümündeki yenilikler veya değişiklikler
                       href: localizations/apac-ind-news-letter-10-0-14.md
-                - name: Sabit kıymetler
-                  items:
-                    - name: Hindistan'daki sabit kıymetlere genel bakış
-                      href: localizations/apac-ind-fixed-assets.md
-                    - name: Sabit kıymet defterine gün tabanlı takvim ekleme
-                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Vardiya amortismanını hesaplama
-                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Sermaye kalemleri için stok modeli grubu oluşturma
-                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Amortisman oluşturma ve deftere nakletme
-                      href: localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Defterler için vardiya ve endüstri türünü tanımlama ve sabit kıymete ekleme
-                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Sabit kıymet hareketlerini tersine çevirme
-                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Vardiya amortismanı hesaplaması
-                      href: localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Günü temel alan mali takvim ayarlama
-                      href: localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Amortismanı hesaplamak için parametreleri ayarlama
-                      href: localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Amortisman defterleri için kıymet grubu amortismanı ayarlama
-                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Sermaye kalemlerini sabit kıymete transfer etme
-                      href: localizations/tasks/apac-ind-transfer-capital-items.md
                 - name: Dolaylı vergiler
                   items:
                     - name: Hindistan'da GST
@@ -2300,6 +2308,10 @@
                                   href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
                                 - name: Müşteri ödeme iadeleri
                                   href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Proje yönetimi hareketleri
+                              items:
+                                - name: Mal ve Hizmetler Vergisi (GST) proje hareketleri
+                                  href: localizations/apac-ind-gst-project-transactions.md
                             - name: Vergi düzeltmesi
                               items:
                                 - name: Vergi tutarını düzeltme
@@ -2336,6 +2348,32 @@
                           href: localizations/apac-ind-tax-thresholds.md
                         - name: Malların satışında TCS
                           href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                - name: Sabit kıymetler
+                  items:
+                    - name: Hindistan'daki sabit kıymetlere genel bakış
+                      href: localizations/apac-ind-fixed-assets.md
+                    - name: Sabit kıymet defterine gün tabanlı takvim ekleme
+                      href: localizations/tasks/apac-ind-attach-day-based-calendar.md
+                    - name: Vardiya amortismanını hesaplama
+                      href: localizations/tasks/apac-ind-shift-depreciation-rates.md
+                    - name: Sermaye kalemleri için stok modeli grubu oluşturma
+                      href: localizations/tasks/apac-ind-create-inventory-model-group.md
+                    - name: Amortisman oluşturma ve deftere nakletme
+                      href: localizations/apac-ind-calculate-post-depreciation.md
+                    - name: Defterler için vardiya ve endüstri türünü tanımlama ve sabit kıymete ekleme
+                      href: localizations/tasks/apac-ind-books-shift-industry-types.md
+                    - name: Sabit kıymet hareketlerini tersine çevirme
+                      href: localizations/apac-ind-reverse-fixed-assets-transactions.md
+                    - name: Vardiya amortismanı hesaplaması
+                      href: localizations/apac-ind-calculation-shift-depreciation.md
+                    - name: Günü temel alan mali takvim ayarlama
+                      href: localizations/tasks/apac-ind-day-based-calendar.md
+                    - name: Amortismanı hesaplamak için parametreleri ayarlama
+                      href: localizations/tasks/apac-ind-set-up-depreciation.md
+                    - name: Amortisman defterleri için kıymet grubu amortismanı ayarlama
+                      href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                    - name: Sermaye kalemlerini sabit kıymete transfer etme
+                      href: localizations/tasks/apac-ind-transfer-capital-items.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
@@ -2958,6 +2996,8 @@
                       href: localizations/rus-cash-flow-tax-registers.md
                     - name: Derecelendirilmiş gider kayıtları
                       href: localizations/rus-rated-expenses-registers.md
+                    - name: Borç hesapları borç vergi kayıtları ve borç silme
+                      href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
             - name: Suudi Arabistan
               items:
                 - name: Suudi Arabistan'a genel bakış
@@ -3026,7 +3066,7 @@
                   href: localizations/switzerland.md
                 - name: ESR'de müşteri ödemelerini içe aktarma
                   href: localizations/emea-che-esr-customer-payments-import.md
-                - name: İsveç QR-senetler
+                - name: İsveç QR senetleri
                   href: localizations/emea-che-swiss-qr-bills.md
             - name: Tayland
               items:
@@ -3034,14 +3074,20 @@
                   href: localizations/thailand.md
                 - name: Stok kartı raporları
                   href: localizations/apac-tha-stock-card-reports.md
+                - name: Vergi faturaları
+                  href: localizations/apac-tha-tax-invoices.md
                 - name: Vergi faturasını değiştirme/ayarlama
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Gerçekleşmemiş KDV
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Satın alma hareketleri için ortalama KDV
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Vergi şubesi boyutları
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Satış KDV'si raporu
                   href: localizations/apac-tha-sales-vat-report.md
+                - name: Satın alma hareketleri için ortalama KDV
+                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Stopaj vergisi
                   href: localizations/apac-tha-withholding-tax.md
             - name: Birleşik Arap Emirlikleri (BAE)
@@ -3869,10 +3915,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Belge yönetimi dosyalarını kullanmak üzere biçimleri değiştirme ve çalıştırma
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                    - name: Veri kaynaklarında hata ayıklama
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Barkod görüntüleri oluşturmak için BARKOD kullanma
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: ER uygulamasına özgü parametreleri kullanmak için ARAMA veri kaynaklarını yapılandırma
+                      href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Veri kaynaklarında hata ayıklama
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Model eşlemelerini yapılandırma
                   items:
                     - name: Ülke bağlamına bağımlı ER model eşlemeleri yapılandırma
