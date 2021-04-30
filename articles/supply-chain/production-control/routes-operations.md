@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819292"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908940"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -79,7 +79,7 @@ Bir rotanın planlama veya üretim sürecinde kullanılabilmesi için onaylanmas
 
 Her rota ayrı olarak onaylanabilir veya onayı kaldırılabilir. Bununla birlikte bir rotanın onayı kaldırıldığında ilgili tüm rota sürümlerinin onayının da kaldırılacağını unutmayın. Üretim denetim parametrelerinde rotaların onayının kaldırılıp kaldırılamayacağını ve onaylanmış rotaların değiştirilip değiştirilemeyeceğini belirtebilirsiniz.  
 
-Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](../../fin-and-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini onaylatmak zorundadır.
+Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini onaylatmak zorundadır.
 
 ## <a name="operations"></a>Operations
 Operasyon üretim sürecindeki bir adıma karşılık gelir. Her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
@@ -185,7 +185,7 @@ Bir rota sürümünü etkinleştirdiğinizde, onu ana planlamanın kullanacağı
 
 ### <a name="electronic-signatures"></a>Elektronik imzalar
 
-Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildiği bir günlük tutmanız gerekiyorsa, bu görevler için elektronik imzalar isteyebilirsiniz. Böylece rota sürümlerini onaylayan ve etkinleştiren kullanıcıların [elektronik imza](../../fin-and-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini doğrulamaları gerekir.
+Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildiği bir günlük tutmanız gerekiyorsa, bu görevler için elektronik imzalar isteyebilirsiniz. Böylece rota sürümlerini onaylayan ve etkinleştiren kullanıcıların [elektronik imza](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md) kullanarak kimliklerini doğrulamaları gerekir.
 
 ### <a name="product-change-that-uses-case-management"></a>Servis talebi yönetiminin kullanıldığı ürün değişikliği
 
@@ -253,7 +253,7 @@ Bu nedenle, Etkinleştirme Çakışma için seçildiğinde, ayarların geri kala
 
 - [Kaynak yetenekleri](resource-capabilities.md)
 
-- [Elektronik imzalara genel bakış](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Elektronik imzalara genel bakış](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

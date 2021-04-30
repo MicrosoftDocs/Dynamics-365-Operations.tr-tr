@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 812f8c66c5f0353abdbabaf5874032648a4b5ca6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a1a9bac01c9688161e3ae363d6cd5f57e5c3d79
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793477"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893005"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>Hoş geldiniz Dynamics 365 Human Resources
 
@@ -53,7 +53,7 @@ Dynamics 365 Human Resources, Çoklu alanlar arasında veri güdümlü çalışa
 [Özellikleri yönetme](hr-admin-manage-features.md)</br>
 [Kullanıcı arabirimini keşfetme](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
 [Belge kaynakları](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[İnsan Kaynakları sorun giderme](hr-admin-troubleshooting-support.md)</br>
+[İnsan Kaynakları sorun giderme](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)</br>
 
 ## <a name="developer-guide"></a>Geliştirici Kılavuzu
 

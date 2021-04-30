@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835642"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910027"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Satınalma siparişleri için gelen yüklerin ambarda işlenmesi
 
 Bu konu, satınalma siparişleri için gelen yüklerle ilgili ambar işleme sürecini açıklamaktadır.
 
-Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalıdır ve ayrıca ilgili yük belirtimini ve/veya taşımacılık planını da içerebilir. Gelen yükleri oluşturma ve yönetme hakkında daha fazla bilgi için bkz. [İş süreci: Gelen yükler için taşımayı planlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Her gelen yük için, sisteminizde zaten ilgili bir satış siparişi bulunmalıdır ve ayrıca ilgili yük belirtimini ve/veya taşımacılık planını da içerebilir. Gelen yükleri oluşturma ve yönetme hakkında daha fazla bilgi için bkz. [İş süreci: Gelen yükler için taşımayı planlama](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Genel bakış: Gelen yüklerin oluşturulması, kaydedilmesi ve teslim alınması
 
@@ -38,11 +38,11 @@ Aşağıdaki şekil, ambarınıza ulaştığında satınalma siparişi miktarlar
 
 1. **Varışı ve içeriğini planlamak için bir gelen yük kaydı oluşturulur.**
 
-    Gelen yük kaydı bir veya daha fazla satınalma siparişinin satıcı sevkiyatını temsil eder. Yükün, ambara bir fiziksel taşıma birimi olarak (örneğin, bir kamyon yükü) gelmesi beklenir. Gelen yük kaydı planlama amacıyla kullanılır ve lojistik düzenleyicisinin satıcıdan alınan yük ilerlemesini izlemesine olanak tanır. Ayrıca, sipariş satırı miktarlarını kaydetmek ve varış ve yerine koyma işi gibi ambar işlemlerindeki ilerlemeyi yönetmek için de kullanılır. Yükler otomatik olarak veya el ile oluşturulabilir ve bir satınalma siparişi ya da satıcıdan gelen ön sevkiyat bildirimini (ÖSB) temel alabilir. Daha fazla bilgi için bkz. [Gelen yük oluşturma veya değiştirme](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Gelen yük kaydı bir veya daha fazla satınalma siparişinin satıcı sevkiyatını temsil eder. Yükün, ambara bir fiziksel taşıma birimi olarak (örneğin, bir kamyon yükü) gelmesi beklenir. Gelen yük kaydı planlama amacıyla kullanılır ve lojistik düzenleyicisinin satıcıdan alınan yük ilerlemesini izlemesine olanak tanır. Ayrıca, sipariş satırı miktarlarını kaydetmek ve varış ve yerine koyma işi gibi ambar işlemlerindeki ilerlemeyi yönetmek için de kullanılır. Yükler otomatik olarak veya el ile oluşturulabilir ve bir satınalma siparişi ya da satıcıdan gelen ön sevkiyat bildirimini (ÖSB) temel alabilir. Daha fazla bilgi için bkz. [Gelen yük oluşturma veya değiştirme](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Satıcı yükün gönderilmesini onaylar.**
 
-    Satıcı yükü gönderdiğinde, teslim alan ambardaki lojistik koordinatörü yük sevkiyatını onaylar. Teslim alan şirket **Taşıma Yönetimi** modülünü kullanıyorsa, gelen sevkiyat onayı gelen yüklerle ilişkili diğer yük yönetimi işlemlerini tetikler. Daha fazla bilgi için bkz. [Yükü sevkiyat için onaylama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Satıcı yükü gönderdiğinde, teslim alan ambardaki lojistik koordinatörü yük sevkiyatını onaylar. Teslim alan şirket **Taşıma Yönetimi** modülünü kullanıyorsa, gelen sevkiyat onayı gelen yüklerle ilişkili diğer yük yönetimi işlemlerini tetikler. Daha fazla bilgi için bkz. [Yükü sevkiyat için onaylama](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Yük ambara ulaşır ve çalışanlar miktarları kaydeder.**
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838286"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907999"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Plaka etiketleri için belge yönlendirme düzeni
 
@@ -73,7 +73,7 @@ Aşağıdaki örneklerde iş miktarı (**Miktar**) alanının nasıl özelleşti
 - Her zaman dört basamağı göstermek için (sıfırları yer tutucular olarak kullanarak), `$Qty:0000$` kullanın. Örneğin, miktar 10 ise, etiket "0010" olarak görünür.
 - Her zaman iki ondalık basamak göstermek için `$Qty:0.00$` kullanın. Örneğin, miktar 10 ise, etiket "10,00" olarak görünür.
 
-Kullanılabilir sayı biçimi dizelerinin tam listesi için bkz. [Özel sayı biçimlendirme dizeleri](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Kullanılabilir sayı biçimi dizelerinin tam listesi için bkz. [Özel sayı biçimlendirme dizeleri](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Özel dize biçimleri
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Bu örnekte, 30 Nisan 2020 tarihi "30-04-2020" olarak yazdırılacaktır.
 
-Kullanılabilir tarih/saat biçimlerinin tam listesi için bkz. [Özel tarih ve saat biçimlendirme dizeleri](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Kullanılabilir tarih/saat biçimlerinin tam listesi için bkz. [Özel tarih ve saat biçimlendirme dizeleri](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Çok satırlı verilerden ayrı ayrı satırlar yazdırma
 

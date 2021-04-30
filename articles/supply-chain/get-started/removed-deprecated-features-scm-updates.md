@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821285"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909659"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -31,7 +31,7 @@ Dynamics 365 Supply Chain Management için kaldırılan veya kullanımı sonland
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır.
 
 > [!NOTE]
-> Finance and Operations uygulamalarındaki nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -39,7 +39,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Nisan 2021'den itibaren, *Dynamics 365 for Finance and Operations -Ambar* (ambar uygulaması) kullanım dışıdır ve Nisan 2022'den sonra desteklenmeyecektir. Şimdi Supply Chain Management 10.0.17 sürümüyle yayınlanan *ambar yönetimi mobil uygulaması* yerini almıştır. Yeni uygulama tam bir değişiklik yapar ama geçişi kolaylaştıran aynı temel çerçeveyi kullanır. Gerekirse, kullanıcılar, yeni uygulamayı kullanmaya alışana kadar iki uygulama yan yana kullanılabilir.<br><br>Yeni Ambar Yönetimi mobil uygulaması hakkında daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulamasını](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ve [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md). |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Nisan 2021'den itibaren, *Dynamics 365 for Finance and Operations -Ambar* (ambar uygulaması) kullanım dışıdır ve Nisan 2022'den sonra desteklenmeyecektir. Şimdi Supply Chain Management 10.0.17 sürümüyle yayınlanan *ambar yönetimi mobil uygulaması* yerini almıştır. Yeni uygulama tam bir değişiklik yapar ama geçişi kolaylaştıran aynı temel çerçeveyi kullanır. Gerekirse, kullanıcılar, yeni uygulamayı kullanmaya alışana kadar iki uygulama yan yana kullanılabilir.<br><br>Yeni Ambar Yönetimi mobil uygulaması hakkında daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulamasını](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ve [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md). |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, yeni ambar yönetimi mobil uygulaması ile değiştirildi. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - ambar uygulaması |
 | **Dağıtım seçeneği**              | Bulut ve Şirket içi |
@@ -65,7 +65,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - Master planlama |
 | **Dağıtım seçeneği**              | Yalnızca bulut. Planlamayı En İyi Duruma Getirme şirket içi dağıtımlarda desteklenmez. |
-| **Durum**                         | Kaldırıldı. 1 Ekim 2021 itibarıyla, üretim senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Üretim senaryoları için müşterilerin master planlama hesaplamaları için Planlama İyileştirmesi'ni kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](https://go.microsoft.com/fwlink/?linkid=2105830). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, Ekim 2021 sonrasında üretim senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
+| **Durum**                         | Kaldırıldı. 1 Nisan 2022 itibarıyla, üretim senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Üretim senaryoları için müşterilerin master planlama hesaplamaları için Planlama İyileştirmesi'ni kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, Nisan 2022 sonrasında üretim senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Supply Chain Management 10.0.11 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 
@@ -77,7 +77,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
 | **Etkilenen ürün alanları**         | Supply Chain Management - Master planlama |
 | **Dağıtım seçeneği**              | Yalnızca bulut. Planlamayı En İyi Duruma Getirme şirket içi dağıtımlarda desteklenmez. |
-| **Durum**                         | Kaldırıldı. 1 Nisan 2021 itibarıyla, dağıtım senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Dağıtım senaryoları için, müşterilerin master planlama hesaplamaları için Planlamayı En İyi Duruma Getirme kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](https://go.microsoft.com/fwlink/?linkid=2105830). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, 2021 Nisan sonrasında dağıtım senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
+| **Durum**                         | Kaldırıldı. 1 Nisan 2021 itibarıyla, dağıtım senaryoları artık yerleşik Dynamics 365 Supply Chain Management master planlama altyapısıyla desteklenmeyecektir. Dağıtım senaryoları için, müşterilerin master planlama hesaplamaları için Planlamayı En İyi Duruma Getirme kullanmaları gerekir. Daha fazla bilgi için bkz. [Planlamayı En İyi Duruma Getirme belgeleri](../master-planning/planning-optimization/planning-optimization-overview.md). Dynamics 365 Supply Chain Management'ın şirket içi dağıtımlarına sahip olan müşteriler, 2021 Nisan sonrasında dağıtım senaryoları için Supply Chain Management master planlama altyapısını kullanmaya devam edebilir. Ancak, daha fazla özellik geliştirmesi sağlanmayacaktır. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 

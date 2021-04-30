@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744063"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910461"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Bulut ile şirket içi özellikleri karşılaştırma
 
@@ -84,7 +84,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 | **Alan**                | **Özellik**             | **Bulut** | **Şirket içi** |
 |-------------------------|-------------------|-----------|-----------------|
-| Kıymet yönetimi                     |                                                                                           | Evet       | No              |
+| Varlık yönetimi                     |                                                                                           | Evet       | Evet             |
 | Uyumluluk ve sertifikalar        |                                                                                           | Evet       | Evet             |
 |                                      | SOC 1 Tip 1 sertifikası                                                                | Evet       | Hayır              |
 | Maliyet muhasebesi                      |                                                                                           | Evet       | Evet             |
@@ -147,7 +147,7 @@ Aşağıdaki tablolar uygulama alanlarını listeler. Bulut ve şirket içi dest
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen Commerce yetenekleri](../../../retail/retail-onprem.md).
+Şirket içi dağıtımda kullanılabilen yetenekler listesini görmek için bkz. [Şirket içi dağıtımda kullanılabilen Commerce yetenekleri](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

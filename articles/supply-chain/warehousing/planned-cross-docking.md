@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810426"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911260"
 ---
 # <a name="planned-cross-docking"></a>Planlanmış çapraz sevk
 
@@ -28,19 +28,21 @@ Bu konuda, ileri düzeyde planlı çapraz sevk açıklanmaktadır. Çapraz sevk,
 
 Çapraz sevk, çalışanların zaten bir giden sipariş için işaretlenmiş olan stokun gelen yerine koyma ve giden çekme işlemini atlamasını sağlar. Bu sayede stok işlem sayısı olabildiğince azaltılır. Ek olarak, sistemle daha az etkileşim olduğu için, ambardaki zaman ve alan tasarrufları artar.
 
-Çapraz sevkin çalıştırılabilmesi için, kullanıcının tedarik kaynağının ve çapraz sevke ilişkin diğer gereksinimler dizisinin belirtildiği yeni bir çapraz sevk şablonu yapılandırması gerekir. Giden sipariş oluşturulurken, satır, aynı maddeyi içeren bir gelen siparişe göre işaretlenmelidir.
+Çapraz sevkin çalıştırılabilmesi için, tedarik kaynağının ve çapraz sevke ilişkin diğer gereksinimler dizisinin belirtildiği yeni bir çapraz sevk şablonu yapılandırmanız gerekir. Giden sipariş oluşturulurken, satır, aynı maddeyi içeren bir gelen siparişe göre işaretlenmelidir. Çapraz sevk şablonunda, stok yenileme ve satınalma siparişlerini ayarlama şeklinize benzer şekilde yönerge kodu alanını seçebilirsiniz.
 
 Her gelen sipariş alındığında, çapraz sevk kurulumu çapraz sevk gereksinimini otomatik olarak belirler ve yerleşim yönergesinin kurulumuna göre, gereken miktar için hareket işini oluşturur.
 
 > [!NOTE]
-> Bu becerinin ayarı Ambar yönetimi parametrelerinde açık olsa bile, çapraz sevk işi iptal edildiği zaman stok hareketlerinin **kaydı silinmez**.
+> Bu becerinin ayarı Ambar yönetimi parametrelerinde açık olsa bile, çapraz sevk işi iptal edildiği zaman stok hareketlerinin *kaydı silinmez*.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Planlanmış merkezden dağıtım özelliklerini açma
 
 Sisteminiz bu konuda açıklanan özellikleri zaten içermiyorsa [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve aşağıdaki özellikleri aşağıdaki sırayla açın:
 
 1. *Planlanmış çapraz sevk*
-2. *Yerleşim yönergeleri olan çapraz sevk şablonları*
+1. *Yerleşim yönergeleri olan çapraz sevk şablonları*
+    > [!NOTE]
+    > Bu özellik, çapraz sevk şablonunda, stok yenileme şablonlarını ayarlama şeklinize benzer şekilde **Yönerge kodu** alanının belirtilmesini sağlar. Bu özelliği etkinleştirmek, son *Yerine koyma* satırı için çapraz sevk iş şablonu satırlarına bir yönerge kodu eklemenizi engeller. Bu, iş şablonlarını dikkate almadan önce son yerine koyma konumunun iş oluşturma sırasında belirlenebilmesini sağlar.
 
 ## <a name="setup"></a>Ayar
 
@@ -88,9 +90,9 @@ Planlanmış çapraz sevk, bir yükleme deftere nakil yöntemi olarak uygulanır
 
         Bu seçenek, tedarik girişi sırasında tedarikin yeniden doğrulanıp doğrulanmayacağını tanımlar. Bu seçenek *Evet* olarak ayarlanırsa , maksimum zaman aralığı ve sona erme gün sayısı aralığı da işaretlenir.
 
-    - **Yönerge kodu** Bu alanı boş bırakın
+    - **Yönerge kodu:** Bu alanı boş bırakın
 
-        Bu seçenek, sistemin geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanmasını sağlar. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Her yönerge kodu benzersiz bir konum yönergesi tanımlar.
+        Bu seçenek, *Konum yönergelerine sahip çapraz sevk şablonları* özelliği tarafından etkinleştirilir. Sistem, geçici stoku taşımak için en iyi konumu belirlemeye yardımcı olmak üzere konum yönergelerini kullanır. İlgili her merkezden dağıtım şablonuna bir yönerge kodu atayarak ayarlayabilirsiniz. Yönerge kodu ayarlanırsa, iş oluşturulduğunda sistem yerleşim yönergelerini yönerge koduna göre arar. Bu şekilde, belirli bir çapraz sevk şablonu için kullanılan konum yönergelerini sınırlayabilirsiniz.
 
     - **Zaman aralığını doğrula:** *Evet*
 

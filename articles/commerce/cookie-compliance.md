@@ -2,7 +2,7 @@
 title: Çerez uyumluluğu
 description: Bu konu, tanımlama bilgisi uyumu ve Microsoft Dynamics 365 Commerce'in içerdiği varsayılan ilkelerin dikkate alınması konularını açıklamaktadır.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796039"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908196"
 ---
 # <a name="cookie-compliance"></a>Çerez uyumluluğu
 
@@ -50,6 +50,57 @@ Aşağıdaki tabloda, Dynamics 365 Commerce siteleri tarafından yerleştirilen 
 | x-ms-cpim-slice                             | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | SSO oturumunu sürdürmek için kullanılır.                        |
 | x-ms-cpim-trans                             | Geçerli hareket dahil olmak üzere hareketleri izlemek için kullanılır (işletme tüketici arası (B2C) sitede kimlik doğrulaması yapan açık sekme sayısı). |
+| \_msdyn365___muid_                            | Ortam için Deneme etkinleştirilirse kullanılır; deneme amacıyla userId olarak kullanılır. |
+| \_msdyn365___exp_                             | Ortam için Deneme etkinleştirilirse kullanılır; performans yük dengelemesini ölçmek için kullanılır.         |
+
+
+
+Site kullanıcısı bir sitedeki herhangi bir sosyal medya bağlantısını seçerse, aşağıdaki tabloda yer alan tanımlama bilgileri de tarayıcılarında izlenir.
+
+
+| Etki alanı                      | Tanımlama bilgisi               | Tanım                                                  | Kaynak                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | LinkedIn Ads Kimliği eşitleme                                      | LinkedIn Akış ve İçgörü etiketi                                |
+| .linkedin.com               | li_sugr                  | Tarayıcı tanımlayıcısı                                           | IP adresi belirlenmiş bir ülkede değilse LinkedIn İçgörü etiketi |
+| .linkedin.com               | BizographicsOptOut       | Üçüncü taraf izleme için geri çevirme durumunu belirler.              | LinkedIn konuk denetimleri ve sektör geri çevirme sayfaları           |
+| .linkedin.com               | \_guid                    | Google Ads için tarayıcı tanımlayıcısı.                            | LinkedIn Akışı                                                |
+| .linkedin.com               | li_oatml                 | Dönüştürme izlemesi, yeniden hedefleme ve analiz için üye dolaylı tanımlayıcısı. | LinkedIn Reklamlar ve İçgörü etiketi                                |
+| Çeşitli birinci taraf etki alanı | li_fat_id                | Dönüştürme izlemesi, yeniden hedefleme ve analiz için üye dolaylı tanımlayıcısı. | LinkedIn Reklamlar ve İçgörü etiketi                                |
+| .adsymptotic.com            | U                        | Tarayıcı tanımlayıcısı                                           | IP adresi Belirlenmiş Ülkede değilse LinkedIn İçgörü etiketi |
+| .linkedin.com                | bcookie                  | Tarayıcı kimliği tanımlama bilgisi                                            | LinkedIn İstekleri                                         |
+| .linkedin.com                | bscookie                 | Güvenli tarayıcı tanımlama bilgisi                                        | LinkedIn İstekleri                                         |
+| .linkedin.com               | lang                     | Varsayılan yerel ayarı ve dili ayarlar.                                 | LinkedIn İstekleri                                         |
+| .linkedin.com                | lidc                     | Yönlendirme için kullanılır.                                             | LinkedIn İstekleri                                         |
+| .linkedin.com               | aam_uuid                 | Adobe hedef kitle yöneticisi tanımlama bilgisi                                                     | Kimlik eşitleme için ayar                                              |
+| .linkedin.com               | \_ga                      | Google Analytics tanımlama bilgisi                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics tanımlama bilgisi                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics tanımlama bilgisi                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Tanımlama bilgisi, oturum açmış geçerli kullanıcının kullanıcı kimliğini içerir.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Oturum açan kullanıcıdan bağımsız olarak Facebook'a bağlanmak için kullanılan web tarayıcısını tanımlamak için kullanılır. | Facebook                                                             |
+| .facebook.com               | wd                       | Tarayıcı penceresinin boyutlarını depolar ve Facebook tarafından sayfa işlemeyi en iyi duruma getirmek için kullanılır. | Facebook                                                             |
+| .facebook.com               | xs                       | Oturum numarasını gösteren iki basamaklı sayı. Değerin ikinci bölümü bir oturum gizli anahtarıdır. |  Facebook                                                            |
+| .facebook.com               | fr                       | Hedeflenen reklam için kullanılan benzersiz tarayıcı ve kullanıcı kimliğini içerir. |  Facebook                                                            |
+| .facebook.com               | sb                       | Facebook arkadaş önerilerini geliştirmek için kullanılır.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Tanımlama bilgisi, oturum açmış geçerli kullanıcının kullanıcı kimliğini içerir.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Tanımlama bilgisi, oturum açmış geçerli kullanıcının kullanıcı kimliğini içerir.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Tanımlama bilgisi, kullanıcı Pinterest düğmesini seçtiğinde sayfalar içerir.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Tanımlama bilgisi, kullanıcı Pinterest düğmesini seçtiğinde sayfalar içerir.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Tanımlama bilgisi oluşturulduğunda bir kullanıcı kimliği ve zaman damgası içerir. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Tanımlama bilgisi, kullanıcı Pinterest düğmesini seçtiğinde sayfalar içerir.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Tanımlama bilgisi, kullanıcı Pinterest düğmesini seçtiğinde sayfalar içerir.      | Pinterest                                                             |
+| .pinterest.com              | Yerel depolama            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Servis Çalışanları          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Bir e-ticaret sitesinde site kullanıcısı tanımlama bilgisi izni 
 

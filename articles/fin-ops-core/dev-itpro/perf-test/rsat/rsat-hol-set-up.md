@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 725bce4b3aa7feb61bd7d7ded1be07f803424e57
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745209"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909046"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi ayarlama ve yükleme
 
@@ -54,7 +54,7 @@ Bu konu, RSAT ve RSAT kullanmayla ilgili araçları almanıza ve bu kurulumu ba�
 
 ### <a name="user-eligibility"></a>Kullanıcı uygunluğu
 
-Kullanıcının Azure DevOps'da oluşturulduğundan ve Azure Test Planlarına erişim sağlayan bir abonelik düzeyine sahip olduğundan emin olun. Azure DevOps Test planı lisansının yalnızca, kullanıcının test çalışmalarını oluşturması ve yönetmesi gerekir (tüm RSAT kullanıcıları bu lisansı gerektirmez). Lisans gereksinimleri hakkında daha fazla bilgi için bkz.  [Lisans gereklilikleri](https://docs.microsoft.com/azure/devops/test/manual-test-permissions#license-requirements).
+Kullanıcının Azure DevOps'da oluşturulduğundan ve Azure Test Planlarına erişim sağlayan bir abonelik düzeyine sahip olduğundan emin olun. Azure DevOps Test planı lisansının yalnızca, kullanıcının test çalışmalarını oluşturması ve yönetmesi gerekir (tüm RSAT kullanıcıları bu lisansı gerektirmez). Lisans gereksinimleri hakkında daha fazla bilgi için bkz.  [Lisans gereklilikleri](/azure/devops/test/manual-test-permissions#license-requirements).
 
 ### <a name="create-a-new-azure-devops-project"></a>Yeni Azure DevOps projesi oluşturma
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822143"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898222"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlamaya genel bakış
 
@@ -75,7 +75,7 @@ Aşağıdaki şekilde, şirket genel merkezlerinin başlangıç bütçe temel tu
 
 **Kuruluş hiyerarşisi** sayfasında, bir kuruluş hiyerarşisini her bir bütçe planlama süreci için bir bütçe planlama hiyerarşisi olarak belirtebilirsiniz. Bütçe planlama hiyerarşisi, başka amaçlar için kullanılan standart organizasyon hiyerarşisiyle eşleşmek zorunda değildir. Bu hiyerarşi, verilerin toplanması ve dağıtılması için kullanıldığından, farklı bir yapıya sahip olmasını isteyebilirsiniz. Bu örnek şemada, Satış departmanları Bütçe ve Finans departmanlarını içeren bir genel merkez düzeyi altındadır. Bu yapı, Satış departmanlarına yönelik işlemlerin yönetilmesi için kullanılan yapı büyük olasılıkla farklı olacaktır. Her bir bütçe planlama sürecine sadece tek bir organizasyon hiyerarşisi atanabilir.
 
-Daha fazla bilgi için bkz. [Organizasyonlar ve organizasyon hiyerarşileri](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Daha fazla bilgi için bkz. [Organizasyonlar ve organizasyon hiyerarşileri](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Kullanıcı güvenliği
 
@@ -163,7 +163,7 @@ Bütçe tutarları sütunlarına ek olarak proje, teklif edilen proje, kıymet v
 
 Örnek şema için, "PY Satışları," "Sözleşmeler" ve "Tahmin" senaryoları için sütunlar oluşturmak isteyebilirsiniz. (Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.) Ardından, mali yılın her bir çeyreği için bu senaryoların birini veya tümünü ayrı sütunlara dağıtabilirsiniz, böylece Satış departmanı yöneticisi her bir dönem için tahmin tutarlarını doğru şekilde girebilir.
 
-[![Sütunlar](./media/columns.png)](./media/columns.png)
+[![Sütun ekleme için şema bölümlerinin gösterimi](./media/columns.png)](./media/columns.png)
 
 Her bir düzen öğesinin (sütunun) düzenlenebilir olup olmayacağını ve bu düzen için oluşturulan bir çalışma sayfası şablonunda mevcut olup olmayacağını da belirtebilirsiniz. Örnek şemada, "Tahmin" aşaması için kullanılan düzende "Tahmin" sütunları düzenlenebilirken, "PY Satışları" ve "Sözleşmeler" sütunları salt okunurdur.
 

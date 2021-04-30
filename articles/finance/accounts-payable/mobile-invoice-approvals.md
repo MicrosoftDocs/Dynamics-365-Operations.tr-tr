@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828046"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897708"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
@@ -32,7 +32,7 @@ Mobil özellikler, bir işletmenin mobil deneyimler tasarlamasına olanak tanır
 
 | Önkoşul                                                                                            | Açıklama                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobil el kitabı ön okuma                                                                                |[Mobil platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Mobil el kitabı ön okuma                                                                                |[Mobil platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Sürüm 1611 ve Platform güncelleştirmesi 3'e sahip bir ortam (Kasım 2016)                   |
 | KB 3204341 numaralı düzeltmeyi yükleyin.                                                                              | Görev kaydedici, Platform güncelleştirmesi 3'te (Kasım 2016 güncellemesi) bulunan açılır iletişim kutusu için yanlışlıkla iki Kapat komutu kaydedebilir. |
 | KB 3207800 numaralı düzeltmeyi yükleyin.                                                                              | Bu düzeltme, eklerin Platform güncelleştirmesi 3'te (Kasım 2016 güncelleştirmesi) bulunan mobil istemcide görüntülenmesini sağlar.           |
@@ -213,7 +213,7 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak için **VendMobileInvoi
 
 11. Önceki iki adımda tüm alanları ekledikten sonra **Bitti**'yi tıklayın. Bu sayfa aşağıda gösterilene benzemelidir.
     
-    [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Eklenen ek alanları gösteren şekil](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
 

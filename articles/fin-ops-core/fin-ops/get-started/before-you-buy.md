@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 648a793b15df5597c0c4c6f2f972e28bb0ce79a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ef556c44ac0241f19e9e1891fb3ce32294667827
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750926"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909875"
 ---
 # <a name="before-you-buy"></a>Satın almadan önce
 
@@ -86,7 +86,7 @@ Ek kaynaklar için bkz.:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Adım dört: FastTrack hakkında bilgi alın ve dağıtımınızı planlayın
 
-Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekleştirebilmeniz için Dynamics 365'e geçişinizi hızlı ve güvenli hale getirmeye yardımcı olur. FastTrack programına katıldığınızda, en iyi yöntemler ve başarılı dağıtımları planlama hakkında rehberlik alırsınız. Yeni kullanıcılar etkinleştirmeyi ve kabiliyetleri genişletmeyi de size uygun hızda öğreneceksiniz. Ek olarak, Dynamics 365 ile deneyiminizi başarılı hale getirmeye adanmış Microsoft mühendislik kaynaklarına erişim sahibi olacaksınız. Daha fazla bilgi için bkz. [Microsoft FastTrack](fasttrack-dynamics-365-overview.md).
+Dynamics 365 için Microsoft FastTrack, işletme değerini daha hızlı gerçekleştirebilmeniz için Dynamics 365'e geçişinizi hızlı ve güvenli hale getirmeye yardımcı olur. FastTrack programına katıldığınızda, en iyi yöntemler ve başarılı dağıtımları planlama hakkında rehberlik alırsınız. Yeni kullanıcılar etkinleştirmeyi ve kabiliyetleri genişletmeyi de size uygun hızda öğreneceksiniz. Ek olarak, Dynamics 365 ile deneyiminizi başarılı hale getirmeye adanmış Microsoft mühendislik kaynaklarına erişim sahibi olacaksınız. Daha fazla bilgi için bkz. [Microsoft FastTrack](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Dynamics AX 2012'den yükseltme veya AX 2009'dan geçiş yapıyorsanız
 

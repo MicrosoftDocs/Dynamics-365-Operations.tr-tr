@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810210"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897636"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Maliyet nesnesi denetleyicilerinin erişim hakları
 
@@ -62,9 +62,8 @@ Aşağıdaki örnek, bir boyut hiyerarşisinin nasıl görünebileceğini göste
 
 Her bir düğüme bir veya birden fazla kullanıcı kimliği eklemek için hiyerarşi tasarımcısındaki **Kullanıcılar** hızlı sekmesini kullanabilirsiniz.
 
-|                                   | Kullanıcılar            | Boyut üyesi aralıkları   |                         |
+|             Düğümler                 | Kullanıcılar            | Kaynak boyut üyesi     |   Hedef boyut üyesi   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Düğümler**                         | **Kullanıcı Kimliği**      | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
 | Organizasyon                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Yönetici                 | Nisan            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finans   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
     - Dynamics 365 Finance istemcisine içine katıştırılmış veri Power BI görselleştirmeleri
 
 > [!IMPORTANT]
-> - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki Erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki Erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Bu konu, **Maliyet kontrolü** çalışma alanını kullanmadan önce ayarlanması gereken önkoşulları gösterir.
 
 Ek kaynaklar
 
 - [Maliyet kontrolü çalışma alanı](cost-control-workspace.md)
 - [Boyut hiyerarşisi](dimension-hierarchy.md)
-- [Maliyet muhasebesi içerik paketi için güvenliği kurmak](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Maliyet muhasebesi içerik paketi için güvenliği kurmak](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

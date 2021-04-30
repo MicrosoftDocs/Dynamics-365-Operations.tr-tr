@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751328"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893616"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -57,7 +57,7 @@ Bir ER biçimi yapılandırmasının varsayılan davranışı, ER biçimi başla
 
 **Intrastat Raporu** iletişim kutusunda, **Arka planda çalıştır** hızlı sekmesinde **Toplu işleme** seçeneğini **Hayır** olarak ayarlasanız bir ER biçimi hemen etkileşimli modda çalıştırılır. Bu yürütme başarılı şekilde tamamlandığında, oluşturulan bir giden belge indirmek üzere kullanılabilir duruma getirilir.
 
-**Toplu işleme** seçeneğini **Evet** olarak ayarlarsanız, ER biçimi [toplu iş](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) modunda çalıştırılır. Uygun toplu iş **ER parametreleri** iletişim kutusunun **Arka planda çalıştır** sekmesinde belirttiğiniz parametrelere göre oluşturulur.
+**Toplu işleme** seçeneğini **Evet** olarak ayarlarsanız, ER biçimi [toplu iş](../sysadmin/batch-processing-overview.md) modunda çalıştırılır. Uygun toplu iş **ER parametreleri** iletişim kutusunun **Arka planda çalıştır** sekmesinde belirttiğiniz parametrelere göre oluşturulur.
 
 > [!NOTE]
 > İş açıklaması, bir ER biçimi eşlemesinin çalışması hakkında bilgi verir. Ayrıca çalıştırılan ER bileşeninin adını da içerir:
@@ -70,7 +70,7 @@ Bu işle ilgili bilgileri birkaç yerde bulabilirsiniz:
 - Planlanan işin durumunu ve tamamlanan işin yürütme sonuçlarını kontrol etmek için **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama işleri**'ne gidin. İş yürütme başarıyla tamamlandığında, oluşturulan çıktı belgesini almak için **Elektronik raporlama işleri** sayfasında **Dosyaları göster**'i seçin.
 
     > [!NOTE]
-    > Bu belge geçerli iş kaydının eki olarak depolanır ve [Belge yönetimi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) çerçevesi tarafından denetlenir. Bu türdeki ER yapılarını depolamak için kullanılan [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) [ER parametrelerinde](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) yapılandırılır.
+    > Bu belge geçerli iş kaydının eki olarak depolanır ve [Belge yönetimi](../../fin-ops/organization-administration/configure-document-management.md) çerçevesi tarafından denetlenir. Bu türdeki ER yapılarını depolamak için kullanılan [belge türü](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) [ER parametrelerinde](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) yapılandırılır.
 
 - İş yürütme sırasında oluşturulan hataların ve uyarıların listesini görmek için **Elektronik raporlama işleri** sayfasında, **Dosyaları göster**'i seçin.
 

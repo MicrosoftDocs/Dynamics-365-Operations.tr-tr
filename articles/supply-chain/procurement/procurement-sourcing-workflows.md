@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807956"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909243"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 
@@ -47,7 +47,7 @@ Aşağıdaki iş akışı türleri, Tedarik ve kaynak atama için kullanılabili
 | Satıcı uygulama ekleme iş akışı | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
 
 > [!IMPORTANT]
-> Yeni bir iş akışı eklerken, **İş akışı oluştur** iletişim kutusunda listelenmiş olan aşağıdaki geçersiz iş akışlarını da görebilirsiniz. Bunlar, [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows)'de bulunan fakat artık kullanımdan kaldırılan *giriş onayı* işleviyle ilgilidir. Bu iş akışları şu anda desteklenmemektedir.
+> Yeni bir iş akışı eklerken, **İş akışı oluştur** iletişim kutusunda listelenmiş olan aşağıdaki geçersiz iş akışlarını da görebilirsiniz. Bunlar, [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows)'de bulunan fakat artık kullanımdan kaldırılan *giriş onayı* işleviyle ilgilidir. Bu iş akışları şu anda desteklenmemektedir.
 > 
 > - Teslimat tarihi bildirimi iş akışı
 > - Fatura alındı bildirimi iş akışı

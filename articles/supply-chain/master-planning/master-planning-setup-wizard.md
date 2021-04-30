@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829705"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909439"
 ---
 # <a name="master-planning-setup-wizard"></a>Master planlama kurulum sihirbazı
 
@@ -45,13 +45,13 @@ Sihirbazın ilk sayfası, şirketinizin belirli gereksinimlerini sorar. Bu sorul
 
 Hesaplanan iş parçacıklarının sayısı mevcut iplik sayısının yüzde 75'ini aşıyorsa her müşteri için mevcut iş parçacıklarının sayılarının yüzde 75'i ile sınırlandırılır. (Her müşteri için kullanılabilir iş parçacığı sayısı belirlenir.)
 
-Daha fazla bilgi için bkz: [İş parçacığı sayısı](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Daha fazla bilgi için bkz: [İş parçacığı sayısı](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Paket boyutu
 
 Ürün demeti boyutu **1** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
-Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayısı](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayısı](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Toplu iş grubu kesinleştirme
 
@@ -64,7 +64,7 @@ Daha fazla bilgi için bkz [: Yardımcı görev ürün demetinde görevler sayı
 
 Önbellek boyutu **Maksimum** olarak ayarlanacaktır. Bu değer genellikle en iyi değerdir, çünkü master planlamanın performansını artırmaya yardımcı olur.
 
-Daha fazla bilgi için bkz: [İş ürün demetindeki işlere zaman tahsis etme](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Daha fazla bilgi için bkz: [İş ürün demetindeki işlere zaman tahsis etme](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Üretim kurulumu
 
@@ -88,7 +88,7 @@ Bu sayfada kalan sorular ve cevapları aynı şemayı takip ediyor:
 - **Evet, master planı tanımlandığı gibi** – Sihirbaz **Tahmin planı (zaman dilimi)** seçeneğini **Evet** olarak ayarlayacak. Girdiğiniz gün sayısı kullanılacaktır ve kapsam gruplarında ayarlanan değerleri geçersiz kılacaktır.
 - **Evet, grupta tanımlandığı gibi** – Sihirbaz **Tahmin planı (zaman dilimi)** seçeneğini **Hayır** olarak ayarlayacak.
 
-Daha fazla bilgi için bkz. [İş planlama](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Daha fazla bilgi için bkz. [İş planlama](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Planlama seçenekleri
 
@@ -99,7 +99,7 @@ Bu sayfadaki ilk soruya cevabınız (Bireysel işlere bölünmüş işlemleri za
 - **Evet** -İş planlaması kullanılacaktır.
 - **Hayır** – İşlem planlaması kullanılacaktır.
 
-Daha fazla bilgi için bkz. [İşlem planlaması](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ve [İş planlaması](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Daha fazla bilgi için bkz. [İşlem planlaması](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) ve [İş planlaması](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Talep ve tedarik güncelleştirmeleri
 

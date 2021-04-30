@@ -1,8 +1,8 @@
 ---
 title: Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
-description: Bu konu, Microsoft Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
+description: Bu konu, Dynamics 365 Finance için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750118"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893213"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektronik raporlama (ER) yapılandırması yaşam döngüsünü yönetme
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 Finance çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
+Bu konu, Dynamics 365 Finance için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
 
 ## <a name="overview"></a>Genel bakış
 
@@ -45,7 +45,7 @@ Elektronik raporlama (ER), gerekli yasal ve ülkeye özel elektronik belgeleri d
 
 - Diğer örneklerde de kullanılabilecek bir şablonu kullanılır hale getirin:
 
-    - Uygulamada oluşturulmuş bir belge şablonunu ER yapılandırmasına dönüştürün ve yapılandırmayı geçerli örnekten yerel olarak veya LCS içinde depolanabilen XML paketi halinde dışa aktarın.
+    - Uygulamada oluşturulmuş bir belge şablonunu ER yapılandırmasına dönüştürün ve yapılandırmayı geçerli örnekten yerel olarak veya Lifecycle Services (LCS) içinde depolanabilen XML paketi halinde dışa aktarın.
     - ER yapılandırmasını uygulama belge şablonuna dönüştürün.
     - Yerel olarak ve LCS içinde depolanan bir XML paketini geçerli örneğe aktarın.
 
@@ -78,9 +78,20 @@ Aşağıdaki ER ile ilgili nedenlerden dolayı, ER yapılandırmalarını geliş
 - **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar yapılandırmaları düzenleyebilir ve sınama amacıyla bunları çalıştırabilir. Bu senaryo iş verilerine ve örneğin performansına zararı olabilecek sınıflar ve tabloların çağrı yöntemlerine neden olabilir.
 - ER yapılandırmasının ER veri kaynağı olarak sınıflar ve tabloların çağrı yöntemleri giriş noktaları ve oturum açan şirket içeriği ile sınırlı değildir. Bu nedenle, **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar iş açısından hassas verilere erişebilir.
 
-Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma değerlendirmesi (uygun işlem tümleştirme, sonuçların doğruluğu ve performans) ve kalite güvencesi (role dayalı erişim hakları doğruluğu ve görev ayrımı gibi) için test ortamı'na yüklenebilir. ER yapılandırması değişimi sağlayan özellikler bu amaçla kullanılabilir. Son olarak, kanıtlanan ER yapılandırmaları hizmet aboneleri ile paylaşılmak için LCS'ye veya iç kullanım için üretim ortamına yüklenebilir, aşağıdaki resimlerde gösterildiği gibi.
+Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma değerlendirmesi (uygun işlem tümleştirme, sonuçların doğruluğu ve performans) ve kalite güvencesi (role dayalı erişim hakları doğruluğu ve görev ayrımı gibi) için test ortamına [yüklenebilir](#data-persistence-consideration). ER yapılandırması değişimi sağlayan özellikler bu amaçla kullanılabilir. Kanıtlanan ER yapılandırmaları hizmet aboneleri ile paylaşılmak için LCS'ye veya dahili kullanım için üretim ortamına [aktarılabilir](#data-persistence-consideration).
 
 ![ER yapılandırma yaşam döngüsü](./media/ger-configuration-lifecycle.png)
+
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Veri kalıcılığının dikkate alınması
+
+Bir ER [yapılandırmasının](general-electronic-reporting.md#Configuration) farklı [sürümlerini](general-electronic-reporting.md#component-versioning) Finance kurulumunuza ayrı ayrı [aktarabilirsiniz](tasks/er-import-configuration-lifecycle-services.md). ER yapılandırmasının yeni bir sürümü içeri aktarıldığında sistem, bu yapılandırmanın taslak sürümünün içeriğini denetler:
+
+   - Geçerli Finance kurulumunda içe aktarılan sürüm bu yapılandırmanın en yüksek sürümünden daha düşükse, bu yapılandırmanın taslak sürümünün içeriği değişmeden kalır.
+   - İçeri aktarılan sürüm bu yapılandırmanın geçerli Finance kurulumundaki diğer herhangi bir sürümünden daha yüksek olduğunda, içeri aktarılan sürümün içeriği bu yapılandırmanın taslak sürümüne kopyalanır ve son tamamlanan sürümü düzenlemeye devam etmenize olanak tanır.
+
+Bu yapılandırmanın sahibi etkinleştirilmiş olan yapılandırma [sağlayıcısıysa](general-electronic-reporting.md#Provider), bu yapılandırmanın taslak sürümü **Yapılandırmalar** sayfasının **Sürümler** hızlı sekmesinde size gösterilir (**Kuruluş yönetimi** > **Elektronik raporlama** > **Yapılandırmalar**). Yapılandırmanın taslak sürümünü seçebilir ve ilgili ER tasarımcısını kullanarak içeriğini [değiştirebilirsiniz](er-quick-start2-customize-report.md#ConfigureDerivedFormat). Bir ER yapılandırmasının taslak sürümünü düzenlediğinizde içeriği artık geçerli Finance kurulumundaki yapılandırmanın en yüksek sürümünün içeriğiyle eşleşmez. Değişikliklerinizin kaybolmasını önlemek için sistem, bu yapılandırmanın sürümünün geçerli Finance kurulumundaki yapılandırmanın en yüksek sürümünden yüksek olduğundan, içeri aktarmanın devam edemediğine ilişkin bir hata görüntüler. Bu durumda, örneğin **X** biçim yapılandırmasıyla **'X' biçimi sürümü tamamlanmadı** hatası görüntülenir.
+
+Taslak sürümünde yaptığınız değişiklikleri geri almak için, **Sürümler** hızlı sekmesinde, Finance içindeki en yüksek tamamlanmış veya paylaşılan sürümü ve ardından **Bu sürümü al** seçeneğini belirleyin. Seçili sürümün içeriği taslak sürümüne kopyalanır.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

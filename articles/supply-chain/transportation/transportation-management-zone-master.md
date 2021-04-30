@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-01-09
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: aec1c17d32d1469f3a452084138404de3d498b71
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7347add052ec4a9540417a5aeea64ab623026954
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807596"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880750"
 ---
 # <a name="transportation-management-zone-master"></a>Taşıma yönetimi ana bölgesi
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753372"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893968"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>ER konfigürasyonlarının güncelleştirilmiş sürümlerini içe aktar
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753372"
 
 Elektronik raporlama (ER) [depoları](general-electronic-reporting.md#Repository), [ER konfigürasyonları](general-electronic-reporting.md#Configuration) paylaşmak için kullanılır. Farklı depolardaki ER yapılandırmalarını Microsoft Dynamics 365 Finance örneğiniz için [içe aktarabilirsiniz](download-electronic-reporting-configuration-lcs.md) . ER yapılandırmalarını içe aktardığınızda, [Konfigürasyon sağlayıcıları](general-electronic-reporting.md#Provider)paylaşılabilecek şekilde yeni [sürümler](general-electronic-reporting.md#component-versioning) depoları yayımlayabilir.
 
-Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Bu konu, genel amaçlı yapılandırma havuzundan ER yapılandırmalarının güncel sürümlerinin nasıl içe aktarılacağı açıklamaktadır. Daha fazla bilgi için, bkz [Microsoft Dynamics 365 for Finance and Operations - Regulatory services yapılandırma hizmeti](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Kullanılabilir güncelleştirilmiş sürümleri gözden geçirin
 

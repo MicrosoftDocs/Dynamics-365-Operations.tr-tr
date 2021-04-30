@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dab70b213efc7e7a3537aa2b47b9edf38d492d34
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753732"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894136"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
@@ -27,7 +27,7 @@ Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), E
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. (Daha fazla bilgi için bkz. [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Bu topolojiye aşağıdaki rollerden biriyle erişiminiz olması gerekir:
+Sürekli yapılandırma destekleyen bir topoloji dağıtmanız gerekir. (Daha fazla bilgi için bkz. [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation).) Bu topolojiye aşağıdaki rollerden biriyle erişiminiz olması gerekir:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
@@ -53,7 +53,7 @@ Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configurati
 
 Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek için [Elektronik raporlama (ER) hedefleri](electronic-reporting-destinations.md) yapılandırmanız gerekir. Oluşturulan belgeleri dosyalar olarak depolamak için yapılandırılmış her ER hedefinde, Belge yönetimi çerçevesinin belge türünü belirtmeniz gerekir. Farklı belge türleri farklı ER biçimlerinin oluşturduğu belgeleri yönlendirmekte kullanılabilir.
 
-1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
+1. Daha önceden oluşturduğunuz veya içe aktardığınız ER biçimi için yeni bir [belge türü](../../fin-ops/organization-administration/configure-document-management.md) ekleyin. Aşağıdaki örnekte, belge türü **FileX**'tir.
 2. Bu belge türünü diğer belge türlerinden ayırt etmek için adında belirli bir anahtar kelime dahil edin. Örneğin, aşağıdaki görselde, adı **(LOCAL) folder**'dır.
 3. **Sınıf** alanında, **Dosya ekle** belirtin.
 4. **Grup** alanında, **Dosya** belirtin.
@@ -117,14 +117,14 @@ public DocuRef insertFile(
 
 ## <a name="configure-an-er-destination"></a>Bir ER hedefini yapılandırma
 
-1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
+1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Yapılandırılan hedef için daha önce eklediğiniz belge türünü kullanın. (Bu konudaki örnek için, belge türü **FileX**'tir.)
 
 ![Hedef ayarları iletişim kutusu](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Kaynak kodu değiştir
 
-1. Microsoft Visual Studio projenize yeni bir sınıf ekleyin ve daha önceden belirtilen **AttachingFile()** etkinliğine abone olmak için kodu yazın. (Kullanılan genişletilebilirlik modeli hakkında daha fazla bilgi için bkz. [EventHandlerResult kullanarak yanıtla](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Örneğin, yeni sınıfta, aşağıdaki eylemleri gerçekleştiren kodu yazın:
+1. Microsoft Visual Studio projenize yeni bir sınıf ekleyin ve daha önceden belirtilen **AttachingFile()** etkinliğine abone olmak için kodu yazın. (Kullanılan genişletilebilirlik modeli hakkında daha fazla bilgi için bkz. [EventHandlerResult kullanarak yanıtla](/dynamics365/unified-operations/dev-itpro/extensibility/respond-event-handler-result).) Örneğin, yeni sınıfta, aşağıdaki eylemleri gerçekleştiren kodu yazın:
 
     1. Oluşturulan dosyaları, Application Object Server (AOS) servisini çalıştıran sunucunun yerel dosya sisteminin bir klasöründe depolayın.
     2. Bu oluşturulan dosyaları yalnızca yeni belge türü (örneğin, adında "(LOCAL)" anahtar kelimesini içeren **FileX** türü) kullanıldığında, bir dosya ER çalıştırma iş günlüğünün kaydına eklendiğinde.

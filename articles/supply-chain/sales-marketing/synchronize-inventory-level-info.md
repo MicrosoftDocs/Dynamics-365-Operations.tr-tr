@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: c0db0c143abb8ce26a4a3007845050e4ddb02363
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840593"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910292"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Stok düzeyi bilgilerini Supply Chain Management'tan Field Service'e eşitleme 
 
@@ -67,7 +67,7 @@ Supply Chain Management, stok düzeyleri için üst görevi görür. Bu nedenle 
 Stok düzeylerinin Supply Chain Management'tan üstlenildiği ürünler ve ambarlar, Gelişmiş Sorgu ve Filtreleme (Power Query) ile denetlenebilir.
 
 > [!NOTE]
-> Field Services'te birden fazla ambar (**Harici Korunan = Hayır**) oluşturmak ve bunları Supply Chain Management'ta tek bir ambara eşlemek Gelişmiş sorgu ve filtreleme işlevleriyle mümkündür. Bu, Field Service'in ayrıntılı stok düzeylerini üstlenmesi ve sadece güncelleştirmeleri yalnızca Supply Chain Management'a göndermesini istediğiniz durumlarda kullanılır. Bu durumda, Field Service, Supply Chain Management'tan stok düzeyi güncelleştirmeleri almayacaktır. Daha fazla bilgi için bkz. [Field Service'ten Supply Chain Management'a stok ayarlamalarını eşitleme](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ve [Field Service'teki iş emirlerini Supply Chain Management'taki projeyle bağlantılı satış siparişlerine eşitleme](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Field Services'te birden fazla ambar (**Harici Korunan = Hayır**) oluşturmak ve bunları Supply Chain Management'ta tek bir ambara eşlemek Gelişmiş sorgu ve filtreleme işlevleriyle mümkündür. Bu, Field Service'in ayrıntılı stok düzeylerini üstlenmesi ve sadece güncelleştirmeleri yalnızca Supply Chain Management'a göndermesini istediğiniz durumlarda kullanılır. Bu durumda, Field Service, Supply Chain Management'tan stok düzeyi güncelleştirmeleri almayacaktır. Daha fazla bilgi için bkz. [Field Service'ten Supply Chain Management'a stok ayarlamalarını eşitleme](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) ve [Field Service'teki iş emirlerini Supply Chain Management'taki projeyle bağlantılı satış siparişlerine eşitleme](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM çözümü
 **Harici ürün stoku** varlığı yalnızca arka uç tümleştirmesinde kullanılır. Bu varlık tümleştirmedeki Supply Chain Management'tan stok düzeyi değerlerini alır ve bu değerleri, Ambardaki Stok ürünlerini değiştiren Manuel stok günlüklerine dönüştürür.

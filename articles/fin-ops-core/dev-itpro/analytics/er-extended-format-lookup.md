@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753348"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893944"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 
@@ -30,7 +30,7 @@ giden belgelerin [biçimlerini](general-electronic-reporting.md#FormatComponentO
 
 Genellikle, belirli bir iş sürecinde hangi ER biçiminin kullanılması gerektiğini belirtmeniz gerekir. Bunu yapmak için, iş sürecine özgü parametrelerin bir parçası olarak yapılandırılan bir arama alanında tek bir ER biçimi seçin. Bu arama alanları genellikle ER çerçevesinin uygun API'sını kullanarak uygulanır. Daha fazla bilgi için bkz. [ER çerçevesi API'sı - bir biçim eşleme aramasını görüntülemek için kod](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Örneğin, [dış ticaret parametreleri](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters) yapılandırdığınızda, Intrastat beyannamesini ve Intrastat beyanname denetim raporunu oluşturmak için kullanılacak bireysel ER biçimlerine başvuruları ayarlamanız gerekir. Aşağıdaki ekran görüntüleri, **Dış ticaret parametreleri** sayfasında ER biçimleri arama alanının nasıl göründüğünü gösteriyor.
+Örneğin, [dış ticaret parametreleri](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters) yapılandırdığınızda, Intrastat beyannamesini ve Intrastat beyanname denetim raporunu oluşturmak için kullanılacak bireysel ER biçimlerine başvuruları ayarlamanız gerekir. Aşağıdaki ekran görüntüleri, **Dış ticaret parametreleri** sayfasında ER biçimleri arama alanının nasıl göründüğünü gösteriyor.
 
 Geçerli Finance kurulumunda intrastat iş süreciyle ilgili ER biçimleri yoksa bu arama alanı boş olacaktır.
 

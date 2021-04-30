@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840256"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897732"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 
@@ -50,6 +50,14 @@ Son olarak, özellikler, vergi dairesi veya bazı onaylı kuruluşlar taraflarda
 
 Elektronik faturalama özelliklerinin kullanılabilirliği ülkeye veya bölgeye bağlıdır. Bazı özellikler genel kullanıma sunulsa da, diğerleri önizleme aşamasındadır.
 
+#### <a name="generally-available-features"></a>Genel kullanıma sunulan özellikler
+
+Aşağıdaki tabloda, genel kullanıma sunulan elektronik faturalama özellikleri gösterilmektedir.
+
+| Ülke/bölge | Özellik adı                         | İş belgesi |
+|----------------|--------------------------------------|-------------------|
+| Mısır          | Mısır elektronik faturası (EG) | Satış faturaları ve proje faturaları |
+
 #### <a name="preview-features"></a>Önizleme özellikleri
 
 Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama özellikleri gösterilmektedir.
@@ -61,7 +69,6 @@ Aşağıdaki tabloda, şu anda önizleme aşamasında olan elektronik faturalama
 | Brezilya         | Brezilya NF-e (BR)                  | Mali belge modeli 55, düzeltme mektupları, iptaller ve atmalar |
 | Brezilya         | Brezilya NFS-e ABRASF Curitiba (BR) | Hizmet mali belgeleri |
 | Danimarka        | Danimarka elektronik faturası (DK)       | Satış faturaları ve proje faturaları |
-| Mısır          | Mısır elektronik faturası (EG) | Satış faturaları ve proje faturaları |
 | Estonya        | Estonya elektronik faturası (EE)     | Satış faturaları ve proje faturaları |
 | Finlandiya        | Finlandiya elektronik faturası (FI)      | Satış faturaları ve proje faturaları |
 | Fransa         | Fransa elektronik faturası (FR)       | Satış faturaları ve proje faturaları |
@@ -202,6 +209,91 @@ Aşağıdaki tabloda, kullanılabilir eylemler ve bunların şu anda genel kulla
 | Meksika PAC Hizmetini çağırma                      | CFDI gönderimi için Meksika PAC hizmetiyle tümleştirme yapın.                      | Ön izlemede           |
 | Yanıtı işle                              | Web hizmeti çağrısından alınan yanıtı analiz edin.                     | Genel kullanılabilir  |
 | MS kullanma Power Automate                         | Microsoft Power Automate'te yerleşik akışla tümleştirme yapın.                       | Ön izlemede           |
+
+### <a name="applicability-rules"></a>Uygulanabilirlik kuralları
+
+Uygulanabilirlik kuralları, Elektronik fatura özelliği düzeyinde tanımlanan yapılandırılabilir koşullardır. Kurallar, Elektronik Faturalama özellik kümesi aracılığıyla elektronik faturalama özelliklerinin yürütülmesi için bir bağlam sağlamak üzere yapılandırılır.
+
+Finance veya Supply Chain Management'tan alınan bir iş belgesi elektronik faturalamaya gönderildiğinde, iş belgesi Elektronik Faturalama özelliğinin, gönderimi işlemesi için belirli bir elektronik faturalama özelliğini çağırmasını sağlayan açık bir referans taşımaz.
+
+Bununla birlikte, doğru yapılandırıldığında iş belgesi, elektronik faturalamanın hangi elektronik faturalama özelliğinin seçilmesi gerektiğini çözümlemesine ve elektronik faturayı oluşturmasına olanak sağlayan gerekli öğeleri içerir.
+
+Uygulanabilirlik kuralları, Elektronik Faturalama özelliğinin, gönderimi işlemek için kullanılması gereken elektronik tam faturalama özelliklerini bulmasını sağlar. Bu işlem, gönderilen iş belgesinin içeriğini Uygulanabilirlik kurallarındaki yan tümceciklerle eşleştirerek gerçekleştirilir.
+
+Örneğin, ilgili Uygulanabilirlik kuralına sahip iki elektronik faturalama özelliği Elektronik Faturalama yetenek kümesine dağıtılır.
+
+| Elektronik faturalama özelliği | Uygulanabilirlik kuralları        |
+|------------------------------|--------------------------- |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>Tüzel Kişilik = BRMF</p>  |
+| B:                            | <p>Ülke = MX</p><p>ve</p><p>Tüzel Kişilik = MXMF</p>  |
+
+Finance veya Supply Chain Management'taki bir iş belgesi Elektronik faturalama yeteneği kümesine gönderilirse, iş belgesi şu şekilde doldurulmuş olan aşağıdaki öznitelikleri içerir:
+
+- Ülke = BR
+- Tüzel Kişilik = BRMF
+
+Elektronik Faturalama yeteneği kümesi, gönderimi işlemek ve elektronik faturayı oluşturmak için elektronik faturalama özelliği **A**'yı seçer.
+
+Aynı şekilde, iş belgesi şunları içeriyorsa:
+
+- Ülke = MX
+- Tüzel Kişilik = MXMF
+
+Elektronik fatura oluşturmak için elektronik faturalama özelliği **B** seçilir.
+
+Uygulanabilirlik kurallarının yapılandırması belirsiz olamaz. Bu, iki veya daha fazla elektronik faturalama özelliğinin aynı yan tümceleri olamayacağı anlamına gelir, aksi takdirde hiçbir seçim yapılmaz. Elektronik faturalama özelliklerinde yineleme varsa, belirsizliğe engel olmak amacıyla Elektronik Faturalama yeteneği kümesinin iki elektronik faturalama özelliği arasında ayrım yapmasına olanak sağlayan ek yan tümceleri kullanın.
+
+Örneğin, elektronik faturalama özelliği **C**'yi kullanmayı düşünün. Bu özellik, elektronik faturalama özelliği **A**'nın bir kopyasıdır.
+
+| Elektronik faturalama özelliği | Uygulanabilirlik kuralları        |
+|------------------------------|--------------------------- |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>Tüzel Kişilik = BRMF</p>  |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>Tüzel Kişilik = BRMF</p>  |
+
+Bu örnekte, **C** özelliği aşağıdakileri içeren bir iş belgesi gönderiminin önünde yer alır:
+
+- Ülke = BR
+- Tüzel Kişilik = BRMF
+
+Elektronik Faturalama yeteneği, gönderimler aynı yan tümceleri içerdiğinden, gönderimi işlemek için hangi elektronik faturalama özelliğinin kullanılması gerektiğini ayıramayabilir.
+
+Uygulanabilirlik kurallarıyla iki özellik arasında ayrım oluşturmak için Elektronik faturalama özelliğinin uygun elektronik faturalama özelliğini seçmesine olanak tanımak amacıyla özelliklerden birine yeni bir yan tümce eklenmelidir.
+
+| Elektronik faturalama özelliği | Uygulanabilirlik kuralları        |
+|------------------------------|--------------------------- |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>Tüzel Kişilik = BRMF</p>  |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>Tüzel Kişilik = BRMF</p><p>ve</p><p>Model=55</p>  |
+
+Daha karmaşık yan tümceler oluşturmayı desteklemek için, aşağıdaki kaynaklar kullanılabilir:
+
+Mantıksal işleçler:
+- Ve
+- Veya
+
+İşleç türleri:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Büyüktür veya eşittir
+- Küçüktür veya eşittir
+- Contains
+- İle başlar
+
+Veri türleri:
+- Dize
+- Sayı
+- Boole
+- Date
+- UUID
+
+Yan tümcecikleri gruplama ve grubunu çözme yeteneği.
+Örnek şunun gibi görünür.
+
+| Elektronik faturalama özelliği | Uygulanabilirlik kuralları        |
+|------------------------------|--------------------------- |
+| A                            | <p>Ülke = BR</p><p>ve</p><p>( Tüzel Kişilik = BRMF</p><p>veya</p><p>Model=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Konfigürasyon sağlayıcıları
 

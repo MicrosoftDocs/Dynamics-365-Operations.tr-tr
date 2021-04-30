@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816496"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908892"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Talep tahminleri için geçmiş verisini içe aktar
 
@@ -41,7 +41,7 @@ Varlık verisini kullanmak için geçmiş talep verisini içeren Microsoft Excel
 
 ## <a name="example"></a>Örnek
 
-Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz. [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/) karşıdan yükleyin. Bu dosya, madde D0001 için geçmiş talep verisini içerir. Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.
+Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz. [HistoricalDemandData](/dynamics/s-e/) karşıdan yükleyin. Bu dosya, madde D0001 için geçmiş talep verisini içerir. Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.
 
 1. Geçmiş talep verisinin aktarılacağı şirketi seçin.
 2. **Veri yönetimi** çalışma alanını açın.

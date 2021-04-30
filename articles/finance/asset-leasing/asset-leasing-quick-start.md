@@ -2,11 +2,11 @@
 title: Varlık kiralamaya başlama
 description: Bu konu, Varlık kiralama özelliğini açıklar ve varlık kiralaması oluşturma ve bu kiralamalarla ilgili bilgileri görüntüleme adımları konusunda rehberlik sağlar.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814140"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892445"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 
 [!include [banner](../includes/banner.md)]
 
 Bu konu, Varlık kiralama özelliğini açıklar ve varlık kiralaması oluşturma ve bu kiralamalarla ilgili bilgileri görüntüleme adımları konusunda rehberlik sağlar. Konu ayrıca kullanıcı arabiriminde ve belgelerinde kullanılan terminolojiyi tanımlar. Varlık kiralama, Microsoft Dynamics 365 Finance'ta kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur. Varlık kiralama Sabit kıymetler, Borç hesapları ve Genel muhasebe dahil Dynamics 365 Finance'ın diğer bileşenleriyle ile sorunsuz tümleşir.
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. **Özellik yönetimi** çalışma alanında, **Varlık kiralama** olarak adlandırılan özelliği bulup seçin ve **Şimdi etkinleştir** düğmesine tıklayın.
 
 Muhasebe standartları hakkında daha fazla bilgi için IFRS 16 ve US GAAP ASC 842 standart belgelerine başvurun.
 

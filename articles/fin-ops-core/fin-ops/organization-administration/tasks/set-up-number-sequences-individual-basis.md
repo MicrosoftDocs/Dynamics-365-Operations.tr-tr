@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747333"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890870"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara serileri ayarlama
 
@@ -30,7 +30,7 @@ Bu konuda bireysel olarak numara serileri ayarlama işlemi açıklanmaktadır. N
 2. **Numara serisi**'ni seçin.
 3. **Numara serisi kodu** alanına bir değer yazın.
 4. **Ad** alanına bir değer yazın.
-5. **Kapsam parametreleri** hızlı sekmesinde, numara serisi için bir kapsam seçin ve açılır listeden kapsam değerlerini belirleyin. Kapsam, hangi kuruluşların numara serisini kullandığını tanımlar. Ayrıca, **Paylaşılan** dışındaki bir kapsama sahip numara serileri, kendi kapsamlarına karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmentine sahip olabilir. Kapsamlar hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. **Kapsam parametreleri** hızlı sekmesinde, numara serisi için bir kapsam seçin ve açılır listeden kapsam değerlerini belirleyin. Kapsam, hangi kuruluşların numara serisini kullandığını tanımlar. Ayrıca, **Paylaşılan** dışındaki bir kapsama sahip numara serileri, kendi kapsamlarına karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmentine sahip olabilir. Kapsamlar hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](../number-sequence-overview.md). 
 6. **Segmentler** bölümünü genişletin.
     - Segment ekleyerek, çıkararak veya yeniden düzenleyerek numara serisi için biçimi tanımlayın.  
     - Tüm kapsamlardan numara serileri *Sabit parçalar* ve *Alfasayısal parçalar* içerebilir. Sabit parçalar, değişmeyen bir dizi alfasayısal karakter içerirler. Bu segment türünü, numara serisi segmentleri arasına tire veya başka ayırıcılar eklemek için kullanın. Alfasayısal segmentler, numara işaretleri (#) ve ampersanların (&) bir kombinasyonunu içerirler. Bu karakterler, numara serisinden her bir numara kullanıldığında artan harfler ve numaraları temsil eder. Artan sayıları göstermek için numara işaretini (#) ve artan harfleri göstermek için bir ampersanı (&) kullanın. Örneğin `#####_2014` biçimi `00001_2014`, `00002_2014` serisini ve devamını oluşturur. En az bir alfasayısal segment bulunması gerekir. Şirket veya tüzel kişilik gibi kapsam segmentleri zorunlu değildir. Ancak, biçim içerisinde kapsam segmentleri eklemezseniz, seçili referans için numaralar yine de kapsama göre oluşturulacaktır.  

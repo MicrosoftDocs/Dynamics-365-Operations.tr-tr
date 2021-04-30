@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801107"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889824"
 ---
 # <a name="copy-an-instance"></a>Örnek kopyala
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Human Resources veritabanını bir korumalı alan ortamı
 
 - Örneği kopyaladıktan sonra oturum açmak için hedef ortamda bir yönetici olmanız gerekir.
 
-- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](https://docs.microsoft.com/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- İnsan Kaynakları veritabanını kopyaladığınızda, bir Microsoft Power Apps ortamda bulunan öğeleri (uygulamalar veya veriler) kopyalamayın. Bir Power Apps ortamdaki öğelerin nasıl kopyalanacağı hakkında bilgi için, bkz. [Ortam kopyalama](/power-platform/admin/copy-environment). Üzerine yazmak istediğiniz Power Apps ortamı bir korumalı alan ortamı olmalıdır. Power Apps üretim ortamını korumalı alan ortamına dönüştürmek için genel bir kiracı yöneticisi olmanız gerekir. Power Apps ortamın değiştirilmesi hakkında daha fazla bilgi için, bkz. [Örneği değiştirme](/dynamics365/admin/switch-instance).
 
 - Örneği korumalı alan ortamınıza kopyalayıp sandbox ortamınızı Dataverse ile birleştirmek isterseniz Dataverse tablolarına özel alanları yeniden uygulamanız gerekir. [Özel alanları Dataverse'e uygulama](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service) konusuna bakın.
 
@@ -80,7 +80,7 @@ Bu görevi tamamlamak için, önce bir örneği kopyalayın ve sonra Power Apps 
 
 6. Kopyalanacak Power Apps ortamını seçin ve sonra **Kopyala**'yı seçin.
 
-7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Dataverse tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Dataverse entegrasyonunu yapılandırma](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Kopyalama işlemi tamamlandığında, hedef örneğe oturum açın ve Dataverse tümleştirmeyi etkinleştirin. Daha fazla bilgi ve talimatlar için bkz. [Dataverse entegrasyonunu yapılandırma](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Veri öğeleri ve durumlar
 
@@ -142,7 +142,7 @@ Dataverse tablolarına gösterilen her özel alan için aşağıdaki adımları 
 
 Seçimi kaldırma, değişiklikleri uygulama, yeniden seçme ve değişiklikleri yeniden uygulama, şemanın Dataverse'i güncelleştirerek özel alanları eklemesini sağlar.
 
-Özel alanlar hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Özel alanlar hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

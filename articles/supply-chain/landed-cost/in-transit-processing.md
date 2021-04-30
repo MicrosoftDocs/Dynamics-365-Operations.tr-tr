@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823421"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909463"
 ---
 # <a name="goods-in-transit-processing"></a>Transitteki malları işleme
 
@@ -40,7 +40,7 @@ Aşağıdaki bölümlerde, transitteki mal konseptini ve işlevselliğini kullan
 
 Geçerli teslimat şartları kaydı için **Transitteki mal yönetimi** seçeneği *Evet* olarak ayarlandığında, mallar transitteki mal ambarına konur. Bu eylem yalnızca bir fatura işlenmeden önce stok girişi işlenmezse tetiklenir. Bir siparişin teslimat şartları transitteki malları kullanacak şekilde ayarlandığında, kullanıcılar artık satın alma siparişi için bir ürün girişini deftere nakledemez. Denerlerse bir hata oluşur. Hata iletisi, devam etmek için transitteki mallar işlevini kullanmaları gerektiğini belirtir.
 
-Transitteki malların teslimat şartları bilgileriyle çalışmak için **Satın Alma ve Tedarik \> Kurulum \> Dağıtım \> Teslimat Şartları**'na gidin. Aşağıdaki tabloda, transitteki mallar işlevselliğini desteklemek için **Varış yeri maliyeti** modülünün **Teslimat Şartları** sayfasına eklediği alanlar açıklanmaktadır. Her iki alan da **Genel** hızlı sekmesindedir. Bu sayfadaki diğer alanlar hakkında daha fazla bilgi için bkz. [Teslimat şartları (form)](https://technet.microsoft.com/library/aa575567.aspx).
+Transitteki malların teslimat şartları bilgileriyle çalışmak için **Satın Alma ve Tedarik \> Kurulum \> Dağıtım \> Teslimat Şartları**'na gidin. Aşağıdaki tabloda, transitteki mallar işlevselliğini desteklemek için **Varış yeri maliyeti** modülünün **Teslimat Şartları** sayfasına eklediği alanlar açıklanmaktadır. Her iki alan da **Genel** hızlı sekmesindedir. Bu sayfadaki diğer alanlar hakkında daha fazla bilgi için bkz. [Teslimat şartları (form)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Alan | Tanım |
 |---|---|
@@ -55,7 +55,7 @@ Varış yeri maliyeti iki yeni ambar türü ekler: *transitteki mallar* ve *eksi
 
 *Transitteki mal* ambarı türü, transitteki mal ambarınızla ilişkilendirilir ve bu ambar, mallar son varış ambarında teslim alınmadan önce transit siparişlerdeki malları işlemek için kullanılır. Genel olarak, stok yönetimi için kullanılan tek stok boyutları Tesis ve Ambar ise her tesis için bir adet transitteki mal ambarı yeterlidir. Konum stok boyutu da kullanılıyorsa varsayılan konumun da belirtilebilmesi için bir tesis ve ambarın her kombinasyonu için bir transitteki mal ambarı ayarlanmalıdır.
 
-Ambarlarınıza yönelik transitteki mal ayarlarıyla çalışmak için **Stok yönetimi \> Kurulum \> Stok dökümü \> Ambarlar**'a gidin. Aşağıdaki tabloda, **Varış yeri maliyeti** modülünün transitteki mal işlevselliğini desteklemek için **Ambarlar** sayfasına eklediği alanlar açıklanmaktadır. Her iki alan da **Genel** hızlı sekmesinde görünür. Sayfadaki diğer alanlar hakkında bilgi için bkz. [Ambarlar (form)](https://technet.microsoft.com/library/aa620570.aspx).
+Ambarlarınıza yönelik transitteki mal ayarlarıyla çalışmak için **Stok yönetimi \> Kurulum \> Stok dökümü \> Ambarlar**'a gidin. Aşağıdaki tabloda, **Varış yeri maliyeti** modülünün transitteki mal işlevselliğini desteklemek için **Ambarlar** sayfasına eklediği alanlar açıklanmaktadır. Her iki alan da **Genel** hızlı sekmesinde görünür. Sayfadaki diğer alanlar hakkında bilgi için bkz. [Ambarlar (form)](/dynamicsax-2012//warehouses-form).
 
 | Alan | Tanım |
 |---|---|
@@ -109,7 +109,7 @@ Varış günlüğü oluşturarak da mal alabilirsiniz. Doğrudan seyahat sayfas�
     - **Transitteki mallardan oluştur**: Seçili seyahat, konteyner veya folyo için seçili transitteki mal transit satırlarından miktar almak üzere bu seçeneği *Evet* olarak ayarlayın.
     - **Sipariş satırlarından oluştur**: Satın alma siparişi satırlarından varış günlüğündeki varsayılan miktarı ayarlamak için bu seçeneği *Evet* olarak ayarlayın. Varış günlüğündeki varsayılan miktar, yalnızca satın alma siparişi satırındaki miktar transitteki mal siparişteki miktarla eşleşiyorsa bu şekilde ayarlanabilir.
 
-1. Varış günlüğünü, [Madde girişlerini bir madde varış günlüğüyle kaydet](https://technet.microsoft.com/library/aa571129.aspx) bölümünde açıklandığı gibi işleyin.
+1. Varış günlüğünü, [Madde girişlerini bir madde varış günlüğüyle kaydet](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal) bölümünde açıklandığı gibi işleyin.
 
 > [!NOTE]
 > Varış günlüğü genellikle konumların ve toplu iş/seri izlemenin kullanıldığı durumlarda kullanılır ancak ambar yönetimi kullanılmaz.
@@ -131,15 +131,14 @@ Varış yeri maliyeti, transitteki malların işlenmesini desteklemek için mobi
 - Transitteki mallar için madde teslim alma
 - Transitteki mallar için madde teslim alma ve yerine koyma
 
-Bu işlemlerin yapılandırma ayarları, [satın alma siparişi alma ve yerine koyma işi oluşturma işlemleri](https://technet.microsoft.com/library/dn553216.aspx) ayarlarına benzerdir. Ancak *Transitteki mal madde teslim alma ve yerine koyma* işlemi, aşağıdaki alanı da ekler.
+Bu işlemlerin yapılandırma ayarları, [satın alma siparişi alma ve yerine koyma işi oluşturma işlemleri](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work) ayarlarına benzerdir. Ancak *Transitteki mal madde teslim alma ve yerine koyma* işlemi, aşağıdaki alanı da ekler.
 
 - **Sevkiyat konteynerini etkinleştirme tamamlandı**: Bu seçenek *Evet* olarak ayarlanırsa yerine koyma işi tamamlandığında, Ambar Yönetimi mobil uygulaması **Sevkiyat konteyneri tamamlandı** olarak adlandırılan ek bir seçenek sağlar. Bu seçenek belirlendiğinde, çalışandan konteynerin tamamlandığını onaylaması istenir. Bu noktada, tüm kısa girişler bir eksik işlem olarak işlenir.
 
 ### <a name="location-directives"></a>Konum yönergeleri
 
-Varış yeri maliyeti, **Konum yönergeleri** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş emri türleriyle](https://technet.microsoft.com/library/dn553184.aspx)aynı şekilde yapılandırılmalıdır.
+Varış yeri maliyeti, **Konum yönergeleri** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş emri türleriyle](/dynamicsax-2012/appuser-itpro/create-a-work-template)aynı şekilde yapılandırılmalıdır.
 
 ### <a name="work-templates"></a>İş şablonları
 
-Varış yeri maliyeti, **İş şablonları** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş şablonlarıyla](https://technet.microsoft.com/library/dn553184.aspx)aynı şekilde yapılandırılmalıdır.
-
+Varış yeri maliyeti, **İş şablonları** sayfasına *Transitteki mallar* adlı yeni bir iş emri türü ekler. Bu iş emri türü, [satın alma siparişi iş şablonlarıyla](/dynamicsax-2012/appuser-itpro/create-a-work-template)aynı şekilde yapılandırılmalıdır.

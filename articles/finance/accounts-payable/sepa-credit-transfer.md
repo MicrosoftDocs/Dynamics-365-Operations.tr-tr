@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830748"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897174"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
@@ -54,7 +54,7 @@ Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 Fi
 Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.
 
 ## <a name="what-do-i-have-to-set-up"></a>Neyi ayarlamam gerekiyor?
--   Kredi transfer dosyaları oluşturmadan önce en az bir etkin kredi transferi yapılandırmasının ER yapılandırmalarınıza aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Kredi transfer dosyaları oluşturmadan önce en az bir etkin kredi transferi yapılandırmasının ER yapılandırmalarınıza aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Borç hesapları ödeme yöntemlerini yapılandırırken **Genel elektronik raporlama** onay kutusunu işaretleyin ve dışa aktarma biçimi yapılandırması olarak uygun kredi transferi biçimini (örneğin **ISO 20022 Kredi transferi (AT)**) seçin.
 -   Tüzel kişiliği ve banka hesap bilgilerini de ayarlamanız gerekir.
 -   Banka hesabı numaraları, IBAN'lar ve bazen SWIFT kodları (BIC'ler) veya diğer kimlikler geçerli kredi transferi ödemeleri oluşturmak için gereklidir. Bu nedenle, satıcı banka hesabı ve transferi isteyen kuruluşun banka hesabı için bunları ayarlamanız gerekir.

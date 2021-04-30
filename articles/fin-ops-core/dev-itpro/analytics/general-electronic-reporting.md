@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750070"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893189"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -183,11 +183,11 @@ Bu havuz türünün aşağıdaki ortamlarda erişilebilir olduğunu unutmayın:
 
 Daha fazla bilgi için bkz: [Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./electronic-reporting-import-ger-configurations.md).
 
-**RCS** örneği havuzu, havuz kayıt aşamasında seçilen [Yapılandırma servisi (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) belirli bir örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli örneğe aktarmanızı ve böylece elektronik raporlama için kullanmanızı sağlar.
+**RCS** örneği havuzu, havuz kayıt aşamasında seçilen [Yapılandırma servisi (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) belirli bir örneği konfigürasyonlar listesine erişim sağlar. ER, tamamlanmış veya paylaşılan yapılandırmaları seçilen RCS örneğinden geçerli örneğe aktarmanızı ve böylece elektronik raporlama için kullanmanızı sağlar.
 
 Daha fazla bilgi için bkz: [RCS'den Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./rcs-download-configurations.md).
 
-**Genel bir depo** deposu, [yapılandırma hizmetindeki](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) genel depo içindeki yapılandırmalar listesine erişim sağlar . Bu türde bir ER deposu, yalnızca Microsoft sağlayıcısı için kaydedilebilir. Global depodan ER yapılandırmalarının en güncel sürümlerini mevcut kuruluma aktarabilirsiniz.
+**Genel bir depo** deposu, [yapılandırma hizmetindeki](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) genel depo içindeki yapılandırmalar listesine erişim sağlar . Bu türde bir ER deposu, yalnızca Microsoft sağlayıcısı için kaydedilebilir. Global depodan ER yapılandırmalarının en güncel sürümlerini mevcut kuruluma aktarabilirsiniz.
 
 Daha fazla bilgi için bkz. [Yapılandırma Hizmeti Global deposundan Elektronik raporlama (ER) yapılandırmalarını içe aktarma](./er-download-configurations-global-repo.md).
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823872"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897320"
 ---
 # <a name="financial-dimensions-and-posting"></a>Mali boyutlar ve deftere nakletme 
 
@@ -83,17 +83,17 @@ Günlük başlığındaki varsayılan boyut, departman 023'ün satış hesabı s
 
 Bununla birlikte, satır deftere nakledildiğinde sabit boyut uygulanır ve satır departman 022'ye nakledilir. Aşağıdaki şekil, sabit boyutun satış hesabına uygulandığı deftere nakledilen fişi gösterir.
 
-[![Fiş hareketleri](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Sabit boyuta sahip fiş hareketleri uygulandı](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Örnek 2
 
 Örnek ilk örnek ile aynı kurulumu kullanır. Bununla birlikte, ikinci bir bileşen ekleyeceğiz ve dengeleme boyutu olarak Departman boyutunu kullanacağız. Aşağıdaki şekilde **Departman** USMF genel muhasebesi için dengeleme mali boyutu olarak ayarlanır.
 
-[![Genel Muhasebe](./media/ledger.png)](./media/ledger.png)
+[![Bilanço mali boyutu olarak Departmanı gösteren çizim](./media/ledger.png)](./media/ledger.png)
 
 Aynı günlük başlık kurulumu kullanıldığında ve aynı hareket deftere nakledildiğinde, sabit boyut ilk olarak uygulanır. Daha sonra dengeleme mantığı, her bölümün dengeli bir girişe sahip olduğundan emin olmaya yardımcı olmak için uygulanır. Aşağıdaki örnek sabit boyut uygulandıktan sonraki dengeleme girişini içeren fiş hareketlerini gösterir.
 
-[![Fiş hareketleri](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Bilanço girişi uygulandıktan sonraki fiş hareketleri](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Örnek 3
 
@@ -119,11 +119,11 @@ Aşağıdaki kaynaklardan bazıları daha önceki bir yazılım sürümüne baş
 
 [Hesap planınızı planlama](plan-chart-of-accounts.md) 
 
-[AX 2012'de hesap planınızı planlamak blog](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Bu bağlantı yedi bölümlük bir serinin 1. bölümüne gider.
+[AX 2012'de hesap planınızı planlamak blog](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7) – Bu bağlantı yedi bölümlük bir serinin 1. bölümüne gider.
 
-[Muhasebe dağıtımlarında boyut varsayılanı](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Muhasebe dağıtımlarında boyut varsayılanı](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Boyutlar çerçevesinde boyutların varsayılanı](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Boyutlar çerçevesinde boyutların varsayılanı](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

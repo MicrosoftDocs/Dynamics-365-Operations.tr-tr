@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802227"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892621"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 22 Şubat 2021
 
@@ -32,7 +32,7 @@ Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özell
 
 Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
-Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya bakın](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya bakın](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Bu sürümde
 
@@ -44,7 +44,7 @@ Aşağıdaki özellikler genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Microsoft Teams için Dynamics 365 Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
+| Microsoft Teams için Dynamics 365 Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](./hr-admin-teams-leave-app.md)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -68,9 +68,9 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Şirketler arası Yöneticiler şirket içi görünümü | [Şirketler arası Yöneticiler şirket içi çalışan izni görünümü](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [İzin ve devamsızlık parametrelerini yapılandırma](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| Kazanç yönetimi çalışma alanı | [Kazanç yönetimi çalışma alanı (Önizleme)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Kazanç yönetimi çalışma alanı](hr-benefits-management-workspace.md) |
-| Çalışanların ilgili kişi bilgilerini düzenlemelerini kısıtlama | [Çalışanların ilgili kişi bilgilerini düzenlemesini kısıtlama](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Kişisel bilgilerin düzenlenmesini kısıtlama](hr-employee-self-service-restrict-editing.md)|
+| Şirketler arası Yöneticiler şirket içi görünümü | [Şirketler arası Yöneticiler şirket içi çalışan izni görünümü](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [İzin ve devamsızlık parametrelerini yapılandırma](./hr-leave-and-absence-parameters.md) |
+| Kazanç yönetimi çalışma alanı | [Kazanç yönetimi çalışma alanı (Önizleme)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Kazanç yönetimi çalışma alanı](hr-benefits-management-workspace.md) |
+| Çalışanların ilgili kişi bilgilerini düzenlemelerini kısıtlama | [Çalışanların ilgili kişi bilgilerini düzenlemesini kısıtlama](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Kişisel bilgilerin düzenlenmesini kısıtlama](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Çok yakında
 
@@ -78,15 +78,15 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 | --- | --- |
 | Çalışanları için bir yönetici tarafından girilen yetenekler, bir iş akışı tarafından otomatik olarak onaylanabilir | Çok yakında sunulacak. |
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2021 sürümü 1. Dalga'ya genel bakış](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Microsoft Dataverse için terminoloji güncelleştirmeleri
 
-Kasım 2020'den itibaren geçerli olacak şekilde, Common Data Service [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) olarak yeniden adlandırıldı. Daha fazla bilgi edinmek için Power Apps blogundaki [resmi duyuruya](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) bakın. Bu ad değişikliğiyle birlikte, Dataverse'te bazı terimler güncelleştirildi. Örneğin, artık *varlık* yerine *tablo* ve *alan* yerine *sütun* kullanılmaktadır. Daha fazla bilgi için bkz. [Terminoloji güncelleştirmeleri](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
+Kasım 2020'den itibaren geçerli olacak şekilde, Common Data Service [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro) olarak yeniden adlandırıldı. Daha fazla bilgi edinmek için Power Apps blogundaki [resmi duyuruya](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) bakın. Bu ad değişikliğiyle birlikte, Dataverse'te bazı terimler güncelleştirildi. Örneğin, artık *varlık* yerine *tablo* ve *alan* yerine *sütun* kullanılmaktadır. Daha fazla bilgi için bkz. [Terminoloji güncelleştirmeleri](/powerapps/maker/data-platform/data-platform-intro#terminology-updates).
 
 Bu sürümde, Dataverse ile Dynamics 365 Human Resources tümleştirmesine dair terminoloji, bu değişiklikleri yansıtacak şekilde uygulamanın tamamında güncelleştirilmiştir. Örneğin, **Common Data Service tümleştirme** formu artık **Microsoft Dataverse tümleştirme** adını almıştır.
 
-Microsoft Dataverse ile Dynamics 365 Human Resources tümleştirmesi hakkında daha fazla bilgi için bkz. [Microsoft Dataverse tümleştirmesini yapılandırma](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) ve [Microsoft Dataverse sanal tablolarını yapılandırma](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Microsoft Dataverse ile Dynamics 365 Human Resources tümleştirmesi hakkında daha fazla bilgi için bkz. [Microsoft Dataverse tümleştirmesini yapılandırma](./hr-admin-integration-common-data-service.md) ve [Microsoft Dataverse sanal tablolarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="updates-to-service-deployment"></a>Hizmet dağıtımı güncelleştirmeleri
 
@@ -94,12 +94,12 @@ Microsoft Dataverse ile Dynamics 365 Human Resources tümleştirmesi hakkında d
 
 İki haftalık dağıtım temposunu uygulamaya devam edeceğiz. Ancak müşteriler güncelleştirmelerin genellikle iki haftalık döngünün önceki sürümlerden farklı bir gününde Human Resources ortamlarına uygulandığını fark edebilir.
 
-Hizmet güncelleştirme işlemi hakkında daha fazla bilgi için [Güncelleştirme işlemi](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process)'ne bakın.
+Hizmet güncelleştirme işlemi hakkında daha fazla bilgi için [Güncelleştirme işlemi](./hr-admin-setup-update-process.md)'ne bakın.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2021 sürüm 1'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2021 sürüm 1'ye genel bakış](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 

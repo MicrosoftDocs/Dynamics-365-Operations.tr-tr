@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 079ac1e8020c5fb80618b0237c4cf3a747b1e85c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827278"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898024"
 ---
 # <a name="customer-payment-predictions-preview"></a>Müşteriye ödeme tahminleri (önizleme)
 
@@ -71,7 +71,7 @@ Geçmişte, yapay zeka (AI) çözümü geliştirmek ve dağıtmak genellikle zor
 
 Mali İçgörüler genel önizleme, Amerika Birleşik Devletleri, Avrupa ve Birleşik Krallık'ta deneme için sunulmuştur. Microsoft, destek sunduğu bölgeleri kademeli olarak artırmaktadır.
 
-Genel önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve AI modelleri, üretim ortamına geçirilemeyebilir. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Genel önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve AI modelleri, üretim ortamına geçirilemeyebilir. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Gizlilik bildirimi
 

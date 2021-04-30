@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794481"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891090"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
 
@@ -53,7 +53,7 @@ Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin
 6.  Hazır olduğunuzda, hiyerarşisi tasarımcısı içerisinde **Yayımla**'yı tıklatın. Hiyerarşinin ne zaman yayımlanacağını belirtecek bir geçerlilik tarihi girebilirsiniz. Örneğin, bir sonraki takvim yılı başına yeni bir departman eklemek için yürürlük tarihini yeni takvim yılının 1 Ocak'ı olarak ayarlayın. Hiyerarşi değişiklikleri o tarihte geçerlilik kazanır.
 
 ## <a name="steps-for-creating-a-department"></a>Bir departman oluşturma adımları
-Yeni bir departman oluşturmaya ilişkin adım adım yordam için [Yeni departmanlar tanımlama](../fin-and-ops/hr/tasks/define-new-departments.md) konusuna başvurun. 
+Yeni bir departman oluşturmaya ilişkin adım adım yordam için [Yeni departmanlar tanımlama](./hr-personnel-define-departments.md) konusuna başvurun. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825218"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908047"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı işbirliği
 
@@ -31,7 +31,7 @@ Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta müşterilerle çalı
 - **Satınalma siparişi teyidi** – Satınalma siparişlerini (PO) izleyin ve yanıtlayın.
 - **Satıcı teklifi** - Teklif taleplerini (RFQ) görüntüleyin ve tekliflere girerek yanıt verin.
 - **Satıcı bilgileri** – Satıcı ana verilerini görüntüleyin ve güncelleştirin.
-- **Faturalama** – Faturalar ile çalışın. Bu konu **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturalama** – Faturalar ile çalışın. Bu konu **Faturalama** çalışma alanını kapsamaz. Bu çalışma alanı hakkında daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Satıcılar konsinye stok bilgilerini de izleyebilir.
 

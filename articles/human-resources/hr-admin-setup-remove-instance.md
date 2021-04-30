@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795033"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889920"
 ---
 # <a name="remove-an-instance"></a>Örneği kaldırma
 
@@ -81,7 +81,7 @@ Ortamı geri yüklemek için:
 
 1. [Power Apps ortamını kurtarma](/power-platform/admin/recover-environment.md) bölümündeki yönergeleri uygulayın.
 
-2. Human Resources ortamını geri yüklemek için Destek birimine başvurun. Daha fazla bilgi için [Destek alma](hr-admin-troubleshooting-support.md) bölümüne bakın.
+2. Human Resources ortamını geri yüklemek için Destek birimine başvurun. Daha fazla bilgi için [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) bölümüne bakın.
 
 > [!Warning]
 > Power Apps ortamları silme işleminden sonra yalnızca yedi gün süreyle kaydedilir. Ortamı yedi gün içinde kurtarmanız gerekir.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e744ade8b02b288821dd9142c85092d384db4b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816967"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897296"
 ---
 # <a name="view-financial-reports"></a>Mali raporları görüntüleme
 
@@ -79,7 +79,7 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 <a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Mali raporlama](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Mali raporlama](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

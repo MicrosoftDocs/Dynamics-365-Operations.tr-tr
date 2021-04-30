@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833869"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909487"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Varış yeri maliyeti ve Taşıma yönetimi karşılaştırması
 
@@ -51,8 +51,8 @@ TMS ve Varış yeri maliyeti; maliyet kurulumu, yolculuklar ve duraklar gibi var
 
 Aşağıdaki raporlar, Varış yeri maliyetinin sağladığı transitteki mallar özelliğiyle çalışmaz:
 
-- [Şirketlerarası transitteki mallar toplamı raporu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Şirketlerarası transitteki mallar toplamı raporu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Şirketlerarası transitteki mallar toplamı raporu](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Şirketlerarası transitteki mallar toplamı raporu](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Bu raporlar, bir satış sevk irsaliyesi düzenlediğiniz anda malların transite alındığını ve teslim alındıktan sonra transitten stoka alındığını varsayar. Ancak, transitteki mallar bu şekilde işlenmez. Bu nedenle, transitteki mallar ve şirketlerarası özelliklerini birlikte kullanırsanız bu raporların her ikisinin sonuçları da yanlış olacaktır.
 

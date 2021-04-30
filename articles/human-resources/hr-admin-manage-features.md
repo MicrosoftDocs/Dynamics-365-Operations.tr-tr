@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793837"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889848"
 ---
 # <a name="manage-features-in-human-resources"></a>Human Resources özellikleri yönetme
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793837"
 
 Microsoft Dynamics 365 Human Resources için sürekli olarak kullanıma sunduğumuz yeni yeteneklerin bir parçası olarak, müşterilerimizin yeni özellikleri mümkün olan en kısa sürede deneyimlemesini istiyoruz. Neredeyse genel kullanıma hazır ve kapsamlı bir sınamadan geçirilmiş önizleme özelliklerini sunacağız. Bu özellikleri genel kullanım için yayımlamadan önce müşterilerimizden son kez geribildirim almak istiyoruz.
 
-İnsan Kaynakları'ndaki yeni özellikler hakkında daha fazla bilgi için bkz. [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Planı](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+İnsan Kaynakları'ndaki yeni özellikler hakkında daha fazla bilgi için bkz. [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md) ve [Dynamics 365 ve Power Platform Sürüm Planı](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-**Özellik yönetimi** çalışma alanı, her sürümde teslim edilen özelliklerin bir listesini sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+**Özellik yönetimi** çalışma alanı, her sürümde teslim edilen özelliklerin bir listesini sağlar. Varsayılan olarak, bu özellikler kapalıdır. Çalışma alanını, bu özellikleri açıp ilgili belgelere bakmak için kullanabilirsiniz. Özellik yönetimi hakkında daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede kalır. Önemli özellikler genellikle önizleme dönemini izleyen her yılın Ekim ve Nisan ayında kullanılabilir. **Özellik yönetimi** çalışma alanında yeni yetenekleri gördüğünüz anda bunları açabilirsiniz. Bazı özellikler varsayılan olarak açık olabilir.
 
@@ -93,6 +93,6 @@ Lütfen kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgileri
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İnsan Kaynakları'ndaki yenilikler](hr-admin-whats-new.md)
-- [Dynamics 365 ve Power Platform Sürüm Planı](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Dynamics 365 ve Power Platform Sürüm Planı](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753324"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893920"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -159,7 +159,7 @@ Tek bir **sayfa** bileşeni için, her biri **üst bilgi/alt bilgi görünümü*
 
 Eklenen **alt bilgi** bileşeni altında **metin\\Dize**, **Metin\\Tarih/Saat** veya başka bir türün gerekli iç içe bileşenlerini ekleyin. Sayfa alt bilginizin nasıl doldurulacağını belirtmek için bu bileşenler için bağları yapılandırın.
 
-Oluşturulan bir alt bilginin içeriğini doğru şekilde biçimlendirmek için özel [biçimlendirme kodları](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) da kullanabilirsiniz. Bu yaklaşımın nasıl kullanılacağını öğrenmek için, Bu konunun ilerleyen kısımlarında [örnek 1](#example-1)'deki adımları izleyin.
+Oluşturulan bir alt bilginin içeriğini doğru şekilde biçimlendirmek için özel [biçimlendirme kodları](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) da kullanabilirsiniz. Bu yaklaşımın nasıl kullanılacağını öğrenmek için, Bu konunun ilerleyen kısımlarında [örnek 1](#example-1)'deki adımları izleyin.
 
 > [!NOTE]
 > ER biçimlerini yapılandırdığınızda, Excel [sınırını](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) ve tek bir üst bilgi ya da alt bilgi için maksimum karakter sayısını göz önünde bulundurmaya dikkat edin.

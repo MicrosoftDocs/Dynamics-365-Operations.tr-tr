@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752978"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908353"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Varlık verilerini Excel ile görüntüleme ve güncelleştirme 
 
@@ -45,7 +45,7 @@ Excel eklentisini nasıl kullanacağınızı öğrenmek için [Üst bilgi ve sat
 2. Bir **Excel'de aç** seçeneğini belirleyin ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı varlık için bağlayıcı bilgiler, ortamınız için bir işaretçi ve Excel eklentisi için bir işaretçi içerir.
 3. Excel'de,**Düzenlemeyi etkinleştir**'i seçerek Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4. Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'i seçin.
-5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Finance and Operations uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)) Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
+5. Oturum açmanız istendiğinde **Oturum aç**'ı seçin ve ardından Finance and Operations uygulamasında oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, tarayıcıdan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. (İşletim sistemine göre kullanılan tarayıcı hakkında daha fazla bilgi için bkz. [Office eklentileri tarafından kullanılan tarayıcılar](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)) Oturum açma işleminin başarılı olması için Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın. 
 
 Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Excel eklentisi okuyana kadar çalışma kitabında veri olmayacağını unutmayın.
 
@@ -60,7 +60,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 
 6. **Tamam**'ı ve ardından **Evet**'i seçerek değişikliği onaylayın. Excel eklentisi yeniden başlar ve meta verileri yükler.
 
-    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun [Sorun giderme](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
+    **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun [Sorun giderme](../office-integration/use-excel-add-in.md#troubleshooting) bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
 
 7. **Tasarım**'ı seçin. Excel eklentisi varlık meta verilerini alır.
 8. **Tablo ekle**'yi seçin. Varlıkların listesi görüntülenir. Varlıklar "Ad - Etiket" biçiminde listelenir.
@@ -138,7 +138,7 @@ Bazı kolay adımlarla çözülebilecek birkaç sorun var.
 
 - **Uygulamaları yükle düğmesi görünüyor** – Oturum açıldıktan sonra Excel eklentisinde bir **Uygulamaları** yükle düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, adı seçin, oturumu kapatın ve yeniden oturum açın.
 - **"Yasak" iletisi alıyorsunuz** – Excel eklentisi meta verileri yüklerken "Yasak" iletisi alırsanız, Excel eklentisinde oturum açan hesabın, hedeflenen hizmeti, örneği veya veritabanını kullanma izni yoktur. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, adı seçin, oturumu kapatın ve yeniden oturum açın.
-- **Excel'de boş bir web sayfası görünüyor**: Oturum açma işlemi sırasında boş bir web sayfası açılıyorsa, hesap için AD FS gerekiyordur ancak Excel eklentisini çalıştıran Excel'in sürümü, oturum aç iletişim kutusunu yükleyecek kadar yeni değildir. Bu sorunu çözmek için, kullandığınız Excel sürümünü güncelleştirin. Gecikmeli bir kanalda bulunan bir kuruluştayken Excel sürümünü güncelleştirmek için [Office dağıtım aracını](https://technet.microsoft.com/library/jj219422.aspx) kullanarak [gecikmeli kanaldan geçerli kanala geçin](https://technet.microsoft.com/library/mt455210.aspx).
+- **Excel'de boş bir web sayfası görünüyor**: Oturum açma işlemi sırasında boş bir web sayfası açılıyorsa, hesap için AD FS gerekiyordur ancak Excel eklentisini çalıştıran Excel'in sürümü, oturum aç iletişim kutusunu yükleyecek kadar yeni değildir. Bu sorunu çözmek için, kullandığınız Excel sürümünü güncelleştirin. Gecikmeli bir kanalda bulunan bir kuruluştayken Excel sürümünü güncelleştirmek için [Office dağıtım aracını](/deployoffice/overview-office-deployment-tool) kullanarak [gecikmeli kanaldan geçerli kanala geçin](/deployoffice/overview-update-channels).
 - **Veri değişiklikleri yayımladığınızda zaman aşımı iletisi alıyorsunuz**: Varlıkta yapılan veri değişikliklerini yayımlamaya çalışırken zaman aşımı iletileri alıyorsanız etkilenen çalışma kitabının yayımlama toplu işi boyutunu azaltabilirsiniz. Kayıt değişikliklerinde büyük boyutlarda mantık tetikleyen varlıklar, zaman aşımlarını önlemeye yardımcı olmak için güncelleştirmelerin daha küçük toplu işlerle gönderilmesini gerektirebilir.
 
 

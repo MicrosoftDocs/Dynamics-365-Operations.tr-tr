@@ -2,11 +2,11 @@
 title: Kira içe aktarma çerçevesi üzerinden kiraları yönetme
 description: Bu konu, aynı anda birden fazla kiralamayı düzeltmek için kiralama içe aktarma çerçevesinin nasıl kullanılacağını açıklar.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 26fb195ff18dc0c86d3546b782265043c2c78bf4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 083adf0a4bb74ac65e6f8b5077f65c74eb3fa337
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819806"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880922"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Kira içe aktarma çerçevesi üzerinden kiraları yönetme
 
@@ -53,7 +53,7 @@ Karşılaştırma işlevi, içeri aktarmakta olduğunuz bir kaydı sisteminizde 
 > [!NOTE]
 > Karşılaştırma işlevi, **Kayıt ekleme** işlem türüne sahip kiralamalarla karşılaştırılacak bir öğe olmadığından bunlar için çalışmaz.
 >
-> Aynı anda birden fazla kiralamayı karşılaştırmak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik \> Karşılaştır** bölümüne gidin ve **Karşılaştır**'ı seçin.
+> Aynı anda birden fazla kiralamayı karşılaştırmak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik** bölümüne gidin ve **Karşılaştır**'ı seçin.
 
 Her bir varlık için, şu anda sistemdekiler ve hazırlama tablolarındakiler arasındaki farkları görüntüleyebilirsiniz. Hazırlama tablolarındaki her bir varlık için **Farklılıkları göster**'i seçin. Açılan iletişim kutusunda geçerli değer ve önerilen hazırlama değeri gösterilir.
 
@@ -62,17 +62,17 @@ Her bir varlık için, şu anda sistemdekiler ve hazırlama tablolarındakiler a
 Tüm kayıtların hata vermeden sisteme getirilmesini sağlamak için kiralamaları doğrulayabilirsiniz. Kiralama kaydı geçirilmeden önce, sistem kaydın başarıyla içeri aktarıldığından emin olmak için birkaç doğrulama çalıştırır. Tek bir kirayı doğrulamak için **Doğrula**'yı seçin.
 
 > [!NOTE]
-> Aynı anda birden fazla kiralamayı doğrulamak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik \> Doğrula** bölümüne gidin ve **Karşılaştır**'ı seçin.
+> Aynı anda birden fazla kiralamayı doğrulamak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik** ve **Doğrula**'yı seçin.
 
 Tek bir kirayı işlemek için **Üst bilgiyi içeri aktar** sayfasında **Kiralama kayıtlarını geçir**'i seçin. Bir kiralama geçirildiğinde sistem, **İşlem türü** alanında belirtilen işlemi gerçekleştirir.
 
 > [!NOTE]
-> Aynı anda birden fazla kiralamayı doğrulamak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik \> Doğrula** bölümüne gidin ve **Karşılaştır**'ı seçin.
+> Aynı anda birden fazla kiralamayı taşımak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik** bölümüne gidin ve **Geçir**'i seçin.
 
 Kiralamalar karşılaştırıldıktan sonra, içeri aktarma kimliğine dahil edilen her kiralama için farkları görüntülemek amacıyla bir rapor çalıştırabilirsiniz. Raporu bir kiralama için çalıştırmak istiyorsanız hazırlama verilerinde bu kiralamayı seçin ve ardından **Karşılaştır ve raporu görüntüle \> Farklar raporu** öğesini seçin.
 
 > [!NOTE]
-> Aynı anda birden fazla kiralamayı doğrulamak için **Varlık kiralama \> Sorgular ve raporlar \> Farklar raporu** bölümüne gidin ve **Karşılaştır**'ı seçin.
+> Aynı anda birden fazla kiralamayı karşılaştırmak için **Varlık kiralama \> Kiralama içeri aktarma çerçevesi \> Periyodik** bölümüne gidin ve **Karşılaştır**'ı seçin. 
 
 ## <a name="set-up-update-fields"></a>Güncelleştirme alanlarını ayarlama
 

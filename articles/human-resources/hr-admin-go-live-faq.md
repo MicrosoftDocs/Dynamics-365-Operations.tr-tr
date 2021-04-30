@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4a06da220fd90de91fb9091c41f35a1fb95442c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1b4b336953ef6bd74da009b3bb44fbcf2eab5a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804029"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892335"
 ---
 # <a name="go-live-faq"></a>Servise almayla ilgili SSS 
 
@@ -48,7 +48,7 @@ Uygun müşteriler bu aşamada olduğunda, Microsoft FastTrack ekibi, proje ekib
 
 ## <a name="what-is-a-go-live-assessment"></a>Uygulamaya geçme değerlendirmesi nedir?  
 
-Uygulamaya geçme değerlendirmesi,  [Microsoft FastTrack programının](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview) bir parçasıdır. Bu İnceleme sırasında, bir çözüm mimarı uygulama projesinin başarılı bir kesin bitiş ve uygulamaya geçme için hazır olup olmadığını değerlendirir. Üretim ortamında uygulamaya geçmeyi isteyebilmeniz için, bu inceleme her uygulama projesi için zorunludur. 
+Uygulamaya geçme değerlendirmesi,  [Microsoft FastTrack programının](/dynamics365/fasttrack/) bir parçasıdır. Bu İnceleme sırasında, bir çözüm mimarı uygulama projesinin başarılı bir kesin bitiş ve uygulamaya geçme için hazır olup olmadığını değerlendirir. Üretim ortamında uygulamaya geçmeyi isteyebilmeniz için, bu inceleme her uygulama projesi için zorunludur. 
 
 ## <a name="our-sandbox-environments-are-deployed-in-the-central-us-datacenter-we-want-our-production-environments-to-be-deployed-in-the-west-us-datacenter-can-i-select-west-us-as-the-datacenter-in-my-production-configuration"></a>Korumalı alan ortamlarımız Orta ABD veri merkezinde dağıtılır. Üretim ortamlarımızın Batı ABD veri merkezi'nde dağıtılmasını istiyoruz. Üretim konfigürasyonumda veri merkezi olarak Batı ABD'yi seçebilir miyim? 
 
@@ -56,7 +56,7 @@ LCS, İnsan Kaynakları ortamı dağıttığınızda farklı bir veri merkezi se
 
 Üretim ortamınızın Batı ABD veri merkezinde olmasını istiyorsanız, önce korumalı alan ortamlarınızı Batı ABD veri merkezine yeniden dağıtmanız, test etmeniz ve onaylamanız gerekir. 
 
-Doğru veri merkezini seçme hakkında bilgi için bkz. [ağ gereksinimleri](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements#network-requirements). 
+Doğru veri merkezini seçme hakkında bilgi için bkz. [ağ gereksinimleri](../fin-ops-core/fin-ops/get-started/system-requirements.md#network-requirements). 
 
 ## <a name="what-level-of-access-do-i-have-to-the-azure-resources-for-my-human-resources-environments"></a>İnsan Kaynakları ortamlarım için Azure kaynaklarına hangi düzeyde erişime sahibim?  
 
@@ -64,7 +64,7 @@ Doğru veri merkezini seçme hakkında bilgi için bkz. [ağ gereksinimleri](htt
 
 Azure kaynaklarınıza veya Dynamics 365 Human Resources ortamınıza doğrudan erişemeseniz de verilerinize erişmek için kullanabileceğiniz ek özellikler vardır:
 
-- Azure SQL veritabanını kendi Azure kiracınıza dağıtabilir ve verileri eşitlemek için kendi veritabanınızı getirin (BYOD) özelliğini kullanabilirsiniz. Daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
+- Azure SQL veritabanını kendi Azure kiracınıza dağıtabilir ve verileri eşitlemek için kendi veritabanınızı getirin (BYOD) özelliğini kullanabilirsiniz. Daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md).
 
 - Belirli varlıkları Dataverse veritabanıyla senkronize etmek için Dataverse tümleştirmesini kullanabilirsiniz. Daha fazla bilgi için [Dataverse tabloları](hr-developer-entities.md)'na bakın. 
 
@@ -80,11 +80,11 @@ Veritabanları otomatik yedeklemeler tarafından aşağıdaki sıklıklarda koru
 
 Microsoft, son 14 gün içinde belirli bir noktaya geri yüklemeye (PITR) izin vermek için yeterli yedeği saklar. 
 
-Daha fazla bilgi için bkz.  [Otomatik SQL Veritabanı yedeklemeleri hakkında daha fazla bilgi alın](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
+Daha fazla bilgi için bkz.  [Otomatik SQL Veritabanı yedeklemeleri hakkında daha fazla bilgi alın](/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 
 ## <a name="can-i-request-a-copy-of-the-backup-of-my-production-database"></a>Üretim veritabanımın yedeğinin bir kopyasını isteyebilir miyim? 
 
-Hayır. Ancak üretim ortamınızı korumalı alan ortamınıza kopyalamak için veritabanı yenileme hizmeti isteği gönderebilirsiniz. Azure SQL veritabanını kendi Azure kiracınıza dağıtabilir ve üretim ortamınızdan verileri eşitlemek için BYOD özelliğini kullanabilirsiniz. Daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database). 
+Hayır. Ancak üretim ortamınızı korumalı alan ortamınıza kopyalamak için veritabanı yenileme hizmeti isteği gönderebilirsiniz. Azure SQL veritabanını kendi Azure kiracınıza dağıtabilir ve üretim ortamınızdan verileri eşitlemek için BYOD özelliğini kullanabilirsiniz. Daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md). 
 
 ## <a name="how-do-i-move-my-sandbox-environment-to-production-for-go-live"></a>Korumalı alan ortamımı uygulamaya geçirmek üzere üretime nasıl taşıyabilirim? 
 
@@ -94,7 +94,7 @@ Proje boyunca korumalı alanda yapılandırılmış varlıkların açık bir lis
 
 ## <a name="what-should-i-do-if-my-production-environment-is-down"></a>Üretim ortamım arızalıyla ne yapmam gerekir? 
 
-Üretim kesintisi bildirmek için,  [üretim kesintisi bildir](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/report-production-outage) bölümünde açıklanan süreci izleyin. 
+Üretim kesintisi bildirmek için,  [üretim kesintisi bildir](../fin-ops-core/dev-itpro/lifecycle-services/report-production-outage.md) bölümünde açıklanan süreci izleyin. 
 
  ## <a name="see-also"></a>Ayrıca bkz.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818336"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894710"
 ---
 # <a name="registration-ids"></a>Kayıt kodları
 
@@ -55,7 +55,7 @@ Kayıt kategorisi ülke/bölge kayıt tanımlayıcısıdır, belirli bir ülke/b
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Genel adres defteri kayıtları için kayıt kimlikleri girin
 
-Genel adres defteri (GAB) müşteriler, satıcılar, bağlantılar, iş ilişkileri ve tüzel varlıklar için birleştirilmiş adres bilgilerini içerir. Daha fazla bilgi için [Genel adres defterine genel bakış](../../fin-and-ops/organization-administration/overview-global-address-book.md). Genel adres defterinde depolanan taraf kayıtları, bir veya birden fazla adres kaydı içerebilir. Bu adresler farklı amaçlar için kullanılabilir; örneğin faturalama veya teslimat. Müşteriler, satıcılar, çalışanlar ve tüzel varlıklar için adres bilgileri için kayıt kimlikleri ayarlayabilirsiniz. Kayıt kimliğini girmek istediğiniz taraf (tüzel varlık, satıcı, müşteri, çalışan) kaydını bulun ve daha sonra **Kayıt kimlikleri** forumuna taraf, tüzel varlık, satıcı, müşteri, satıcı ile ilgili **Adresleri yönet** sayfasında tıklayın. **Vergi kaydı** sekmesinde, **Ekle** üzerine tıklayın ve kayıt kimliği hakkında aşağıdaki bilgiyi girin.
+Genel adres defteri (GAB) müşteriler, satıcılar, bağlantılar, iş ilişkileri ve tüzel varlıklar için birleştirilmiş adres bilgilerini içerir. Daha fazla bilgi için [Genel adres defterine genel bakış](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). Genel adres defterinde depolanan taraf kayıtları, bir veya birden fazla adres kaydı içerebilir. Bu adresler farklı amaçlar için kullanılabilir; örneğin faturalama veya teslimat. Müşteriler, satıcılar, çalışanlar ve tüzel varlıklar için adres bilgileri için kayıt kimlikleri ayarlayabilirsiniz. Kayıt kimliğini girmek istediğiniz taraf (tüzel varlık, satıcı, müşteri, çalışan) kaydını bulun ve daha sonra **Kayıt kimlikleri** forumuna taraf, tüzel varlık, satıcı, müşteri, satıcı ile ilgili **Adresleri yönet** sayfasında tıklayın. **Vergi kaydı** sekmesinde, **Ekle** üzerine tıklayın ve kayıt kimliği hakkında aşağıdaki bilgiyi girin.
 
 
 |Alan                |Açıklama                                                |

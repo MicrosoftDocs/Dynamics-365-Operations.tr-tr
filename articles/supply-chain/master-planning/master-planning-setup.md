@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833413"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909415"
 ---
 # <a name="set-up-master-planning"></a>Master planlamayı ayarlama
 
@@ -106,11 +106,11 @@ Net değişiklik minimize edilmiş planlama yöntemi, en son master planlama ça
 
 ### <a name="operations-scheduling"></a>İşlemleri planlama
 
-Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz. Operasyon planlama üretim rotasının operasyonlarını işlere ayırmaz. Operasyonlar planlaması hakkında daha fazla bilgi için bkz [İşlemleri planlama](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz. Operasyon planlama üretim rotasının operasyonlarını işlere ayırmaz. Operasyonlar planlaması hakkında daha fazla bilgi için bkz [İşlemleri planlama](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>İş planlama
 
-İş planlama her operasyonun bireysel görev veya işlere bölündüğü daha ayrıntılı bir planlama yöntemidir. İş planlama kapasite hakkında bilgi içerir. Bu, genellikle atölyedeki tek tek işleri anlık veya kısa bir zaman aralığında planlamak için kullanılır. İş planlama hakkında daha fazla bilgi için bkz [İş planlama](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+İş planlama her operasyonun bireysel görev veya işlere bölündüğü daha ayrıntılı bir planlama yöntemidir. İş planlama kapasite hakkında bilgi içerir. Bu, genellikle atölyedeki tek tek işleri anlık veya kısa bir zaman aralığında planlamak için kullanılır. İş planlama hakkında daha fazla bilgi için bkz [İş planlama](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Gün cinsinden zaman dilimleri
 
@@ -158,7 +158,7 @@ Eylem iletileri, tedarik planının en iyi duruma getirilmesine yardımcı olmak
 
 **Eylem iletisi** seçeneğini **Evet** olarak ayarlayıp master planlama sırasında madde için tanımlanan eylem iletisi zaman dilimini geçersiz kılabilirsiniz. Bu durumda, gereksinimler için master planlama eylem iletilerinin oluşturduğu gün sayısı girilmelidir. Eylem iletisi zaman dilimi geçerli tarihten ileriye doğru hesaplanır.
 
-Eylem hakkında daha fazla bilgi için, bkz. [Eylem iletileri](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Eylem hakkında daha fazla bilgi için, bkz. [Eylem iletileri](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Eylem iletilerinin hesaplanması master planlama için daha uzun süre çalışma süresine neden olur. Eylem iletileri düzenli olarak analiz edilmez ve uygulanmazsa (günlük, haftalık, vb.), master planlama çalıştırması sırasında hesaplamayı kapatmayı düşünebilirsiniz. Hesaplamayı kapatmak için **Master planlar** sayfasından **Eylem iletisi** zaman dilimini çalıştırdığınız master plan için **0** (sıfır) olarak ayarlayın. Ayrıca, tüm kapsam grupları için **Êylem iletisi** ayarının kapatılmış olduğundan da emin olun.
@@ -223,7 +223,7 @@ Sağlama süresi + Negatif günler + Geçerli tarih – Gereksinim tarihi
 
 Sistem yalnızca bu zaman dilimi içindeki planlı tedarik siparişlerini kullanır ve dışında yeni bir planlı sipariş oluşturur. Dinamik negatif günlerin avantajı, bireysel ürün teslim süresini, geçerli siparişlerin tekrar kullanılmasını ve teslim süresinden kaynaklanan gecikmeler nedeniyle daha sonraki bir gün sona erecek yeni planlı siparişlerin yaratılmasını önlemeyi içermesidir. 
 
-Daha fazla bilgi için, bkz. [Negatif günler ve dinamik negatif günler](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Daha fazla bilgi için, bkz. [Negatif günler ve dinamik negatif günler](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
