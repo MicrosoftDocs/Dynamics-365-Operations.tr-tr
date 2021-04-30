@@ -2,7 +2,8 @@
 title: Çevrimiçi siparişler için satış vergisini yapılandırma
 description: Bu konu, Dynamics 365 Commerce'de farklı çevrimiçi sipariş türleri için satış vergisi grubu seçimine genel bir bakış sağlar .
 author: gvrmohanreddy
-ms.date: 11/16/2020
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,59 +16,62 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 68b7e59a1e1ea18bdcd4e7a9117e4892407f40ff
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8df939c1a566fb63bc53e455cc6c2aa85956ac79
+ms.sourcegitcommit: 583801af75c50915ea5ffc60e831fb617d045533
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791859"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853823"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Çevrimiçi siparişler için satış vergisini yapılandırma
 
 [!include [banner](includes/banner.md)]
 
-Bu konu, farklı çevrimiçi sipariş türleri için satış vergisi grubu seçimine genel bir bakış sağlar. 
+Bu konu, hedef tabanlı veya müşteri hesabı tabanlı vergi ayarlarını kullanan farklı çevrimiçi sipariş türleriyle ilgili satış vergisi grubu seçimine genel bir bakış sağlar. 
 
-E-ticaret kanallarınız, çevrimiçi siparişler için teslimat ve malzeme çekme gibi seçenekleri desteklemek isteyebilir. Satış vergi uygulanabilirliğini, çevrimiçi kullanıcılarınızın seçtiği seçeneğe göre yapılır. Bir site müşterisi, bir maddeyi çevrimiçi olarak satın almayı ve onu bir adrese sevk edilmesini seçtiğinde, satış vergisi müşterinin sevkiyat adresi vergi grubu ayarına göre belirlenir. Bir müşteri bir mağazada satın alınan bir maddeyi çekme işlemi yaparken, satış vergisi malzeme çekme deposunun vergi grubu ayarına göre belirlenir. 
+E-ticaret kanalınızın, çevrimiçi siparişler için teslimat ve malzeme çekme gibi seçenekleri desteklemesini isteyebilirsiniz. Satış vergi uygulanabilirliğini, çevrimiçi müşterilerinizin seçtiği seçeneğe göre yapılır. 
 
-## <a name="orders-shipped-to-a-customer-address"></a>Müşteri adresine sevk edilen siparişler 
+## <a name="destination-based-taxes-for-online-orders"></a>Çevrimiçi siparişler için hedef tabanlı vergiler
 
-Genel olarak, Müşteri adresine sevkiyat amacıyla gönderilen çevrimiçi siparişler için vergiler hedef tarafından tanımlanır. Her satış vergisi grubunun, işletmenizin İlçe/Bölge, eyalet, ilçe ve şehir gibi hedef ayrıntılarını hiyerarşik bir formda tanımlayabileceği, perakende hedefi tabanlı bir vergi konfigürasyonu vardır. Bir çevrimiçi sipariş verildiğinde, Commerce vergi altyapısı, siparişteki her bir satır maddesinin teslimat adresini kullanır ve hedef esaslı vergi ölçütlerine sahip satış vergisi gruplarını bulur. Örneğin, California Francisco'ya ait satır maddesi teslimat adresi olan bir çevrimiçi sipariş için vergi altyapısı, California için satış vergisi grubunu ve satış vergisi kodunu bulacak ve her satır maddesi için vergiyi hesaplayacaktır.  
+Genel olarak, Müşteri adresine sevkiyat amacıyla gönderilen çevrimiçi siparişler için vergiler hedef tarafından tanımlanır. Her satış vergisi grubunun, işletmenizin ülke veya bölge, eyalet, ilçe ve şehir gibi hedef ayrıntılarını hiyerarşik bir formda tanımlayabileceği, perakende hedefi tabanlı bir vergi konfigürasyonu vardır.
 
-## <a name="customer-based-tax-groups"></a>Müşteri tabanlı vergi grupları
+### <a name="orders-delivered-to-customer-address"></a>Müşteri adresine teslim edilen siparişler
 
-Commerce Headquarters'da, müşteri vergi gruplarının konfigüre edildiği iki yer vardır:
+Bir çevrimiçi sipariş verildiğinde, Commerce vergi altyapısı, siparişteki her bir satır maddesinin teslimat adresini kullanır ve hedef esaslı vergi ölçütlerine sahip satış vergisi gruplarını bulur. Örneğin, California Francisco'ya ait satır maddesi teslimat adresi olan bir çevrimiçi sipariş için vergi altyapısı, California için satış vergisi grubunu ve satış vergisi kodunu bulacak ve her satır maddesi için vergiyi hesaplayacaktır.
 
-- **Müşterinin profili**
-- **Müşterinin sevkiyat adresi**
+### <a name="order-pick-up-in-store"></a>Mağazadan sipariş teslim alma
 
-### <a name="if-a-customers-profile-has-a-tax-group-configured"></a>Bir müşterinin profilinde konfigüre edilmiş bir vergi grubu varsa
+Mağazada teslim alma veya yolda teslim alma belirtilmiş sipariş satırları için, seçili teslim alma mağazasındaki vergi grubu uygulanır. Belirli bir mağaza için satış vergisinin nasıl ayarlanacağı hakkında ayrıntılı bilgi için bkz [Mağazalar için diğer vergi seçeneklerini ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
-Müşteri merkezindeki bir müşterinin profil kaydının konfigüre edilmiş bir satış vergisi grubu olabilir; ancak çevrimiçi siparişler için vergi altyapısı tarafından konfigüre edilen satış vergisi grubu kullanılmaz. 
+## <a name="customer-account-based-taxes-for-online-orders"></a>Çevrimiçi siparişler için müşteri hesabı tabanlı vergiler
 
-### <a name="if-a-customers-shipping-address-has-a-tax-group-configured"></a>Bir müşterinin teslimat adresinde konfigüre edilmiş bir vergi grubu varsa
+Commerce Headquarters'da belirli bir müşteri hesabında satış vergisi grubunu yapılandırmak istediğiniz bir iş senaryosu olabilir. Headquarters'ta bir müşteri hesabındaki satış vergisini yapılandırabileceğiniz iki yer vardır. Bunlara erişmek için önce **Retail ve Commerce \> Müşteriler \> Tüm müşteriler**'e gidip müşteri seçerek bir müşteri ayrıntı sayfasına gitmeniz gereklidir.
 
-Müşterinin sevkiyat adresi kaydının konfigüre edilmiş bir vergi grubu varsa ve müşterinin sevkiyat adresine bir çevrimiçi sipariş (veya satır maddesi) sevk edilmişse, müşterinin adres kaydında konfigüre edilen vergi grubu vergi hesaplamaları için vergi alt yapısı tarafından kullanılacaktır.
+Bir müşteri hesabı için satış vergisini yapılandırabileceğiniz iki yer şunlardır:
 
-#### <a name="configure-a-tax-group-for-a-customers-shipping-address-record"></a>Bir müşterinin teslimat adresi kaydı için vergi grubunu yapılandırın
+- Müşteri ayrıntıları sayfasındaki **Fatura ve teslimat** hızlı sekmesindeki **satış vergisi grubu**. 
+- **Adresleri yönet** sayfasındaki **Genel** Hızlı sekmesindeki **Satış vergisi** sayfası. Müşteri ayrıntıları sayfasından buraya gitmek için **Adresler** hızlı sekmesi altından belirli bir adres seçin ve ardından **Gelişmiş**'i seçin.
 
-Commerce Headquarters'da müşterinin sevkiyat adresi kaydı için bir vergi grubu konfigüre etmek üzere aşağıdaki adımları izleyin.
+> [!TIP]
+> Çevrimiçi müşteri siparişleri için, yalnızca hedef tabanlı vergileri uygulamak ve müşteri hesabı tabanlı vergileri önlemek istiyorsanız, müşteri ayrıntıları sayfasının **Fatura ve teslimat** hızlı sekmesindeki **Satış vergisi grubu** alanının boş olduğundan emin olun. Çevrimiçi kanalı kullanarak kaydolan yeni müşterilerin varsayılan müşteri veya müşteri grubu ayarlarından satış vergisi grubu ayarlarını devralmamasını sağlamak için **Satış vergisi grubu** alanının, çevrimiçi kanal varsayılan müşteri ayarları ve müşteri grubu ayarları (**Retail ve Commerce \> Müşteriler \> Müşteri grupları**) için de boş olduğundan emin olun.
 
-1. **Tüm müşteriler**'e gidin ve istediğiniz müşteriyi seçin. 
-1. **Adresler** hızlı sekmesinde, istediğiniz adresi seçin ve **Daha fazla seçenek \> Gelişmiş**'i seçin. 
-1. **Adresleri Yönet** sayfasının **Genel** sekmesi altında satış vergisi değerini gerektiği gibi ayarlayın.
+## <a name="determine-destination-based-tax-or-customer-account-based-tax-applicability"></a>Hedef tabanlı vergi veya müşteri hesabı tabanlı vergi uygulanabilirliğini belirleme 
 
-> [!NOTE]
-> Vergi grubu sipariş satırının teslimat adresi ve hedef esaslı vergiler vergi grubunun kendisinde konfigüre edilmiş olarak tanımlanır. Daha fazla bilgi için, bkz [Hedefe bağlı olara çevrimiçi mağazalar için vergiler ayarlayın](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+Aşağıdaki tabloda, çevrimiçi siparişler için hedef tabanlı vergiler mi yoksa müşteri hesabı tabanlı vergiler mi uygulandığı açıklanmaktadır. 
 
-## <a name="order-pickup-in-store"></a>Mağazadan sipariş teslim alma
-
-Mağazada malzeme çekme veya perde çekme belirtilmiş sipariş satırları için, seçili malzeme çekme deposundaki vergi grubu uygulanır. Belirli bir mağaza için vergi grubunun nasıl konfigüre nakledileceği hakkında ayrıntılı bilgi için bkz [Mağazalar için diğer vergi seçenekleri ayarlayın](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
-
-> [!NOTE]
-> Bir mağazada sipariş satırı çekildiğinde, vergi altyapısı (ayarlanmış ise) için müşterinin adres vergi ayarları yoksayılacaktır ve malzeme çekme deposunun vergi konfigürasyonu uygulanır. 
+| Müşteri türü | Sevkiyat adresi                   | Müşteri > Fatura ve teslimat > Satış vergisi grubu? | Merkezdeki müşteri hesabındaki adres? | Müşteri adresi > Gelişmiş > Genel > Satış vergisi grubu?                                              | Uygulanan satış vergisi grubu      |
+|---------------|------------------------------------|-----------------------------------------------------|-----------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------|
+| Konuk         | Manhattan, NY                      | Hayır (boş)                                                | Hayır (boş)                              | Hayır (boş)                                                                                                   | NY (hedef tabanlı vergiler) |
+| Oturum açıldı     | Austin, TX                          | Hayır (boş)                                             | Evet                               | Hiçbiri<br/><br/>Çevrimiçi kanal koluyla eklenen yeni adres.                                                            | TX (hedef tabanlı vergiler) |
+| Oturum açıldı     | San Francisco, CA (Mağazada teslim alma) | Evet (NY)                                            | Geçerli değil                              | Geçerli değil                                                                                                    | CA (hedef tabanlı vergiler) |
+| Oturum açıldı     | Houston, TX                         | Evet (NY)                                            | Evet                               | Evet (NY)<br/><br/>Yeni adres çevrimiçi kanal aracılığıyla eklendi ve satış vergi grubu müşteri hesabından devralındı. | NY (müşteri hesabı tabanlı vergiler)  |
+| Oturum açıldı     | Austin, TX                          | Evet (NY)                                            | Evet                               | Evet (NY)<br/><br/>Yeni adres çevrimiçi kanal aracılığıyla eklendi ve satış vergi grubu müşteri hesabından devralındı. | NY (müşteri hesabı tabanlı vergiler)  |
+| Oturum açıldı     | Sarasota, FL                       | Evet (NY)                                            | Evet                               | Evet (WA)<br/><br/>El ile WA olarak ayarlandı.                                                                          | WA (müşteri hesabı tabanlı vergiler)  |
+| Oturum açıldı     | Sarasota, FL                       | Hayır (boş)                                                | Evet                               | Evet (WA)<br/><br/>El ile WA olarak ayarlandı.                                                                          | WA (müşteri hesabı tabanlı vergiler)  |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
+
+[Hedefi temel alarak çevrimiçi mağazalar için vergiler ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination)
 
 [Satış vergisine genel bakış](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json) 
 

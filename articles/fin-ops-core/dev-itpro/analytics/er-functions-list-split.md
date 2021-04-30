@@ -2,7 +2,7 @@
 title: SPLIT ER işlevi
 description: Bu konu, SPLIT Elektronik raporlama (ER) işlevinin nasıl kullanıldığı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745605"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853455"
 ---
 # <a name="split-er-function"></a>SPLIT ER işlevi
 
@@ -79,6 +79,14 @@ Döndürülen listenin kayıt yapısı, *dize* türünün **değer** alanından 
 ## <a name="example-2"></a>Örnek 2
 
 `SPLIT ("XAb aBy", "aB")`, *Dize* türünün **Değer** alanına sahip üç kaydı içeren yeni bir listeyi döndürür. İlk kayıttaki **Değer** alanı, **"X"** metni, ikinci kayıttaki **Değer** alanı **"&nbsp;"** metni, üçüncü kayıttaki **Değer** alanı **"y"** metni içerir. 
+
+## <a name="example-3"></a>Örnek 3
+
+Belirtilen giriş dizesinin bağımsız öğelerine erişmek için [INDEX](er-functions-list-index.md) fonksiyonunu kullanabilirsiniz. **Hesaplanmış alan** türüne ait **MyList** veri kaynağını girerseniz ve bunun için `SPLIT("abc", 1)` ifadesini yapılandırırsanız, `INDEX(MyList,2).Value` ifadesi **"b"** metnini döndürür.
+
+## <a name="example-4"></a>Örnek 4
+
+Belirtilen giriş dizesinin bağımsız öğelerine erişmek için [ENUMERATE](er-functions-list-enumerate.md) fonksiyonunu da kullanabilirsiniz. Önce **Hesaplanan alan** türünün **MyList** veri kaynağını girerseniz ve bunun için `SPLIT("abc", 1)` ifadesini yapılandırırsanız ve ardından **Hesaplanan alan** türünün **EnumeratedList** veri kaynağını girip bunu `ENUMERATE(MyList)` ifadesi için yapılandırırsanız `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` ifadesi **"b"** metnini döndürür.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

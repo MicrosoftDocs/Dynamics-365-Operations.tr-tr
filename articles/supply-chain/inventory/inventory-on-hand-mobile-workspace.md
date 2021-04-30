@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816664"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908742"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
@@ -56,7 +56,7 @@ Mobil çalışma alanı, eldeki durumun tesisler arasında anında görülmesine
 Önkoşullar, kuruluşunuz için dağıtılan Supply Chain Management sürümüne göre değişiklik gösterir.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Supply Chain Management kullanıyorsanız önkoşullar
-Supply Chain Management, kuruluşunuza dağıtıldıysa sistem yöneticisinin **Eldeki stok** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Supply Chain Management, kuruluşunuza dağıtıldıysa sistem yöneticisinin **Eldeki stok** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Platform güncelleştirmesi 3 veya daha sonrasıyla kullanıyorsanız önkoşullar 
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri dağıtıldıysa sistem yöneticisinin aşağıdaki önkoşulları yerine getirmesi gerekir. 
@@ -76,17 +76,17 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri dağıtıldıysa sistem 
 
 <td>KB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Dağıtılabilir paketi uygulayın</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td><strong>Eldeki stok mobil çalışma alanı</strong> mobil çalışma alanını yayımla.</td>
 <td>Sistem yöneticisi</td>
-<td>Bkz. <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobil çalışma alanı yayınlama</a>.</td>
+<td>Bkz. <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 
 1.  Mobil cihazınızda **Eldeki stok** çalışma alanını seçin.
 
-2.  **Bir maddenin eldeki durumunu kontrol et** seçeneğini işaretleyin. Çevrimdışı kullanım için uygulamanıza yüklenmiş ürünlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  **Bir maddenin eldeki durumunu kontrol et** seçeneğini işaretleyin. Çevrimdışı kullanım için uygulamanıza yüklenmiş ürünlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Maddeniz listede yoksa, **Daha fazla ara**'yı seçin. Ürün numarası ile arayın veya ürün adına göre aramaya geçin.
 
 4.  Bir ürün seçin. Maddenin bir resmi varsa, resim gösterilir.

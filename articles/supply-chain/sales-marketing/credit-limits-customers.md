@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824930"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908096"
 ---
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
@@ -90,7 +90,7 @@ Dynamics 365'i, bir müşterinin kalan kredisini aşağıdaki şekillerden birin
 
 **Müşterinin kalan kredisi hakkındaki bilgi nerede kullanılır?**
 
-Bir müşterinin bakiyesi ve kalan kredi tutarı, yaşlandırma anlık görüntüsü oluşturduğunuzda hesaplanır ve depolanır ve **Tahsilatlar** formunda görüntülenir. **Tahsilatlar** formunda görüntülenen tutarlar, yeni bir yaşlandırma anlık görüntüsü oluşturulana kadar tüm hareket etkinliğini içermeyebilir. Daha fazla bilgi için bkz. [Alacak hesaplarında koleksiyonlar ve kredi](https://technet.microsoft.com/library/hh209221.aspx).
+Bir müşterinin bakiyesi ve kalan kredi tutarı, yaşlandırma anlık görüntüsü oluşturduğunuzda hesaplanır ve depolanır ve **Tahsilatlar** formunda görüntülenir. **Tahsilatlar** formunda görüntülenen tutarlar, yeni bir yaşlandırma anlık görüntüsü oluşturulana kadar tüm hareket etkinliğini içermeyebilir. Daha fazla bilgi için bkz. [Alacak hesaplarında koleksiyonlar ve kredi](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Seçilen belgelere bağlı olarak, bir müşterinin bakiyesi ve kalan kredi tutarı hakkında bilgiler, satış siparişleri, sevk irsaliyeleri ve müşteri faturaları güncelleştirildiğinde hesaplanır. Çalışmakta olduğunuz belgenin tutarı, kredi limitinin aşılmasına neden olursa, bir ileti görüntülenir.
 

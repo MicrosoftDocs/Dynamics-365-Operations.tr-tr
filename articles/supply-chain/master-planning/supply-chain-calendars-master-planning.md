@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841779"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908383"
 ---
 # <a name="calendars-and-master-planning"></a>Takvimler ve master planlama
 
@@ -90,7 +90,7 @@ Bir müşterinin teslimat kabul edebileceği tarihleri belirtmek için bir giri�
 
 Müşteri başına yalnızca bir takvim dahil etmenin mümkün olduğuna dikkat edin. Bir takvimi her bir farklı müşteri adresi için dahil etmeniz gerekirse, adres başına bir müşteri oluşturabilir ve karşılık gelen takvimini atayabilirsiniz. 
 
-Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
+Satış siparişi satırındaki talep edilen alındı tarihi müşterinin takviminden ve teslimat tarihi denetim modundan etkilenir. En erken teslimat tarihinin nasıl hesaplandığına dair daha fazla bilgiyi [Sipariş Taahhüt](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations) içinde okuyabilirsiniz.
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Tüzel bir varlık için sevkiyat takvimi
 Bir tüzel varlığın malları sevk edebileceği tarihleri belirtmek için bir teslimat takvimini **Kuruluş yönetimi > Kuruluşlar > Tüzel varlıklar** altında ayarlayabilirsiniz. Tüzel varlığı seçin ve takvimi **Sevkiyat takvimi** alanında bulunan **Dış ticaret ve lojistik** sekmesinde ekleyin. Sevkiyat takvimi tüzel varlık içindeki tüm ambar takvimleri için varsayılanların bir kaynağı olarak iş görür. 

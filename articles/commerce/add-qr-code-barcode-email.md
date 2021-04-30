@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f8d9408090846799c1bb421c4b6e5e248d37fa07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 791b244c867ea4263f08250abf220a1b75784cad
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797515"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907875"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>İşlem tabanlı e-postalara ve makbuz e-postalarına QR kodu veya barkod ekleme
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Bu konu, Microsoft Dynamics 365 Commerce'de işlem tabanlı e-postalara ve makbuz e-postalarına sıra kimliklerini temsil eden QR kodlarının ve barkodların nasıl ekleneceğini açıklamaktadır.
 

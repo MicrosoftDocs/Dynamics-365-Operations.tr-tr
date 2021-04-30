@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792037"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906661"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Perakende satışlar için kupon ayarlama
 
@@ -38,6 +38,8 @@ Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Bunun ardı
 
 > [!NOTE]
 > Bir Kupon bir iskontoya bağlandıktan sonra, kupon ayarları tarafından yönetildiklerinden Commerce'deki iskonto sayfasında için birçok alan salt okunur olur. Bu alanlar standart tarih aralıkları ve durum alanlarını içerir.
+> 
+> Kuponu çağrı merkezi kanalında kullanırken, kuponla ilişkilendirilmiş iskontonun uygulanmasını sağlamak için **Yeniden hesapla** düğmesini **(Satış sekmesi > Hesapla > Yeniden hesapla)** seçmeniz gerekir. Bu ek adım gelecekteki bir sürümde kaldırılacaktır.
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 

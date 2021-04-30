@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801179"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889968"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801179"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](https://docs.microsoft.com/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
+Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
 ![Human Resources'tan Finance'e Tümleştirme Akışı](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ Human Resources'tan Finance'e tümleştirme, kayıtları kodlarına göre eşlem
 
 Sorun, eşlemeyi yapmak için **Personel numarası** kullanılan **Çalışan** ve **Pozisyonlar**'da oluşabilir. İşler numara serileri kullanmaz. Sonuç olarak, hem Human Resources'ta hem de Finance'te aynı iş kodu mevcutsa, Human Resources bilgileri Dynamics 365 Finance bilgilerinin üzerine yazılır. 
 
-Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json)bir önek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
+Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)bir önek ekleyebilir veya numara serisinde, diğer sistemin aralığının dışında bir başlangıç numarası ayarlayabilirsiniz. 
 
 Çalışan adresi için kullanılan konum kodu, bir numara serisinin parçası değildir. Human Resources'tan bir çalışan adresi Finance'e tümleştirilirken, çalışan adresi Finance'te zaten varsa yinelenen bir adres kaydı oluşturulabilir. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 915815d6be726141aa78d55c4fe98b75ae762189
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1d7c6960dc48bb1bb780ecbbb36a58a1bbd7352
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835906"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908220"
 ---
 # <a name="service-management-overview"></a>Servis yönetimine genel bakış
 
@@ -64,7 +64,7 @@ Aşağıdaki şemada **Servis yönetimi** için üst düzey iş süreçleri ve s
 Servis yönetimi aşağıdaki modüllerle tümleştirilebilir:
 
   - [Satış ve pazarlamaya genel bakış](../sales-marketing/overview-sales-marketing.md)
-  - [İnsan kaynakları](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
+  - [İnsan kaynakları](/dynamics365/unified-operations/talent/index)
 
   
 

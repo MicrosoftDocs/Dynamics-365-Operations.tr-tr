@@ -2,7 +2,8 @@
 title: Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
 description: Bu konu, Elektronik raporlama (ER) biçimlerini her tüzel kişilik için belirtilen parametreleri kullanacak şekilde nasıl yapılandıracağınızı açıklar.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751190"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853505"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Her tüzel kişilik için belirtilen parametreleri kullanmak için ER biçimlerini yapılandırma
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751190"
 
 ## <a name="overview"></a>Genel Bakış
 
-Tasarlayacağınız Elektronik raporlama (ER) biçimlerinin çoğunda, kurulumunuzun her bir tüzel kişiliğine özgü bir değer kümesi kullanarak verileri filtrelemelisiniz (örneğin, vergi hareketlerini filtrelemek için bir vergi kodu kümesi). Şu anda, bu tür filtreleme bir ER biçiminde yapılandırıldığında tüzel kişiliğe bağlı değerler (örneğin vergi kodları) ER biçiminin ifadelerinde veri filtreleme kurallarını belirtmek için kullanılır. Bu nedenle, ER biçimi tüzel kişiliğe özgü yapılır ve gerekli raporları oluşturmak için ER biçimini çalıştırmanız gereken her tüzel kişilik için orijinal ER biçiminin türetilmiş kopyalarını oluşturmalısınız. Her türetilmiş ER biçimi; tüzel kişiliğe özgü değerleri içine alacak şekilde düzenlenmeli, orijinal (temel) sürüm güncellendiğinde yeniden yayınlanmalı, bir test ortamından dışa aktarılmalı ve üretim kullanımı için dağıtılması gerektiğinde bir üretim ortamına içe aktarılmalıdır. Bu nedenle, bu tür yapılandırılmış ER çözümünün bakımı çeşitli nedenlerden dolayı oldukça karmaşık ve zaman alıcıdır:
+Tasarlayacağınız Elektronik raporlama (ER) biçimlerinin çoğunda, kurulumunuzun her bir tüzel kişiliğine özgü bir değer kümesi kullanarak verileri filtrelemelisiniz (örneğin, vergi hareketlerini filtrelemek için bir vergi kodu kümesi). Şu anda, bu tür filtreleme bir ER biçiminde yapılandırıldığında tüzel kişiliğe bağlı değerler (örneğin vergi kodları) ER biçiminin ifadelerinde veri filtreleme kurallarını belirtmek için kullanılır. Bu nedenle, ER biçimi tüzel kişiliğe özgü yapılır ve gerekli raporları oluşturmak için ER biçimini çalıştırmanız gereken her tüzel kişilik için orijinal ER biçiminin türetilmiş kopyalarını oluşturmalısınız. Her türetilmiş ER biçimi; tüzel kişiliğe özgü değerleri içine alacak şekilde düzenlenmeli, orijinal (temel) sürüm güncellendiğinde yeniden yayınlanmalı, bir test ortamından dışa aktarılmalı ve üretim kullanımı için dağıtılması gerektiğinde bir üretim ortamına içe aktarılmalıdır. Bu nedenle, bu tür yapılandırılmış ER çözümünün bakımı çeşitli nedenlerden dolayı karmaşık ve zaman alıcıdır:
 
 -   Ne kadar çok tüzel kişilik varsa o kadar çok ER biçim yapılandırması korunmalıdır.
 -   ER yapılandırmalarının bakımı, iş kullanıcılarının ER bilgisine sahip olmasını gerektirir.
@@ -86,7 +87,7 @@ Bu örnekte, Litware, Inc. örnek şirketi için bir yapılandırma oluşturacak
 
     ![Model.Data.Summary veri kaynağı, vergi işlemlerini listeler](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    **Model.Data.Summary.Level** hesaplanan alanı bir ER ifadesi içerecek şekilde yapılandırılmıştır. Vergi kodlarının (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ve **InVAT0**) bu yapılandırmaya sabit kodlandığını unutmayın. Bu nedenle, bu ER biçimi belirtilen vergi kodlarının yapılandırıldığı tüzel kişiliğe bağlıdır.
+    **Model.Data.Summary.Level** hesaplanan alanı bir ER ifadesi içerecek şekilde yapılandırılmıştır. Vergi kodları (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** ve **InVAT0**) bu yapılandırmaya sabit kodlanmıştır. Bu nedenle, bu ER biçimi belirtilen vergi kodlarının yapılandırıldığı tüzel kişiliğe bağlıdır.
 
     ![Sabit vergi kodlarıyla Model.Data.Summary.Level hesaplanan alanı](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
 1.  **Eşleme** sekmesinde **Ekle**'yi seçin.
 2.  **Biçim numaralandırması\Arama**'yı seçin.
 
-    Az önce, iş kullanıcılarının vergilendirme düzeyi kabulü için belirlediği her kuralın bir ER biçim numaralandırması değeri döndüreceğini tanımladınız. **Biçim numaralandırma** bloğuna ek olarak, **Arama** veri kaynağı türüne **Veri modeli** ve **Dynamics 365 for Operations** blokları altından erişilebildiğine dikkat edin. Bu nedenle, ER veri modeli numaralandırmaları ve uygulama numaralandırmaları, bu tür veri kaynakları için döndürülen değer türlerini belirtmek için kullanılabilir.
+    Az önce, iş kullanıcılarının vergilendirme düzeyi kabulü için belirlediği her kuralın bir ER biçim numaralandırması değeri döndüreceğini tanımladınız. **Biçim numaralandırma** bloğuna ek olarak, **Arama** veri kaynağı türüne **Veri modeli** ve **Dynamics 365 for Operations** blokları altından erişilebildiğine dikkat edin. Bu nedenle, ER veri modeli numaralandırmaları ve uygulama numaralandırmaları, bu tür veri kaynakları için döndürülen değer türlerini belirtmek için kullanılabilir. **Arama** veri kaynakları hakkında daha fazla bilgi edinmek için bkz. [ER uygulamasına özgü parametreler özelliğini kullanmak için Arama veri kaynaklarını yapılandırma](er-lookup-data-sources.md).
     
 3.  **Ad** alanına, **Seçici** yazın.
 4.  **Biçim numaralandırma** alanında, **Vergilendirme düzeyleri listesi**'ni seçin.
 
-    Az önce, bu veri kaynağında belirtilen her kural için bir iş kullanıcısının, **Vergilendirme düzeyleri listesi** biçim numaralandırma değerlerinden birini, döndürülen değer olarak seçmesi gerektiğini belirlediniz.
+    Bu veri kaynağında belirtilen her kural için bir iş kullanıcısının, **Vergilendirme düzeyleri listesi** biçim numaralandırma değerlerinden birini, döndürülen değer olarak seçmesi gerektiğini belirlediniz.
     
 5.  **Aramayı düzenle**'yi seçin.
 6.  **Sütunlar**'ı seçin.
@@ -190,7 +191,7 @@ Ardından, iş kullanıcılarının özetlenen her hareket kaydı için doğru v
     
     ![Yeni veri kaynağıyla biçim Tasarımcısı sayfası](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Yapılandırılmış kuralların değerlendirilmesinin, bu kuralların koşullarını tanımlamak için seçilen alanların veri türüne bağlı olduğunu unutmayın. **Sayısal** veya **Tarih** veri türünün bir alanı olarak yapılandırılmış bir alan seçtiğinizde ölçütler daha önce **Dize** veri türü için açıklanan ölçütlerden farklı olur. **Sayısal** ve **Tarih** alanları için kuralın bir değer aralığı olarak belirtilmesi gerekir. Veri kaynağına iletilen bir değer yapılandırılmış aralıkta olduğunda kuralın koşulu yerine getirilmiş sayılır.
+    Yapılandırılmış kuralların değerlendirilmesi, bu kuralların koşullarını tanımlamak için seçilen alanların veri türüne bağlıdır. **Sayısal** veya **Tarih** veri türünün bir alanı olarak yapılandırılmış bir alan seçtiğinizde ölçütler daha önce **Dize** veri türü için açıklanan ölçütlerden farklı olur. **Sayısal** ve **Tarih** alanları için kuralın bir değer aralığı olarak belirtilmesi gerekir. Veri kaynağına iletilen bir değer yapılandırılmış aralıkta olduğunda kuralın koşulu yerine getirilmiş sayılır.
     
     Aşağıdaki çizim, bu tür bir ayarın örneğini gösterir. **String** veri türünün **Model.Data.Tax.Code** alanına ek olarak **Gerçek** veri türünün **Model.Tax.Summary.Base** alanı, bir arama veri kaynağının koşullarını belirtmek için kullanılır.
     
@@ -307,6 +308,8 @@ Vergi hareketlerini farklı vergilendirme düzeylerine göre filtrelemek üzere 
 [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 
 [Her tüzel kişilik için ER biçiminin parametrelerini ayarlama](er-app-specific-parameters-set-up.md)
+
+[ER uygulamasına özgü parametreler özelliğini kullanmak için Arama veri kaynaklarını yapılandırma](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

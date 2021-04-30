@@ -2,11 +2,11 @@
 title: Deftere nakledilen kira hareketlerini ters kaydetme
 description: Bu konu, deftere nakledilen bir kira hareketinin nasıl ters kaydedilebileceğini açıklamaktadır. Varlık Kiralama üzerinden oluşturulan tüm hareketler için ters kayıt oluşturulabilir.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeaseTransactions
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 955b4f71f5698cf2f482129f00c676d70f6cef9b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 55eb7c5f2419bf1cb2ac0a33a82ab931a3ef380f
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823059"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881554"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Deftere nakledilen kira hareketlerini ters kaydetme
 

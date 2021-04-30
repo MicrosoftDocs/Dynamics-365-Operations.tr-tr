@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3d6f2f69b7093e5408b016f4a69792b28c70f57f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a2b581c8ae52f4c379e8e511dc898a8d106d149
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824690"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908072"
 ---
 # <a name="accruing-subscriptions"></a>Tahakkuk eden abonelikler 
 
@@ -41,7 +41,7 @@ Faturalanmış abonelik tutarlarını alacaklandırabilir, tahakkuk eden tutarla
 
   - Alacak dekontunun deftere nakledildiği tarihte veya tahakkukun orijinal deftere nakil tarihinde tahakkuk eden tutarlara tersine işlem uygulayabilirsiniz.
 
-Daha fazla bilgi için bkz. [Abonelik parametreleri (form)](https://technet.microsoft.com/library/aa619615.aspx).
+Daha fazla bilgi için bkz. [Abonelik parametreleri (form)](/dynamicsax-2012//subscription-parameters-form).
 
 ## <a name="setup-requirements"></a>Gereksinimler kurulumu
 

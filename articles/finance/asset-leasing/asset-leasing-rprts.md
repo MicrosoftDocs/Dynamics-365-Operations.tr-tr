@@ -2,11 +2,11 @@
 title: Varlık kiralama raporları
 description: Bu konuda, Varlık kiralamaları için kullanılabilen raporlar listelenmekte ve kısaca açıklanmaktadır.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147bc22336819a792ddfd5518f55331714e7fe66
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814116"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881336"
 ---
 # <a name="asset-leasing-reports"></a>Varlık kiralama raporları
 

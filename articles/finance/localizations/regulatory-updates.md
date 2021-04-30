@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822769"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890788"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822769"
 
 Bu konu altında, desteklenen Dynamics 365 Finance yerelleştirmelerinde yayınlanması planlanan mevzuat güncelleştirmelerinin listesi verilmektedir. Teslimat saatleri değişebilir ve öngörülen işlevsellik farklı olabilir veya yayınlanmayabilir. Daha fazla bilgi için bkz. [Microsoft ilkesi](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için bkz. [Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/business-applications-release-notes/index)
+Mevzuat güncelleştirmeleri, yeni veya değişen ülkeye özel yasaları desteklemek için sunulan özelliklerdir. Planlanan ve yayınlanan ülkeye özel özellikler hakkında ek bilgi almak için bkz. [Dynamics 365 ve Power Platform sürüm planları](/business-applications-release-notes/index)
 
 Microsoft, yeni mevzuat gereksinimlerini olabildiğince erken uygulamaya çalışır. Gerçek teslim tarihi yasanın duyurulma tarihi, yerel otoritelerden gereksinim ayrıntılarının alınabilmesi, değerleme araçlarının mevcut olması ve değişikliğin boyutu ve karmaşıklığına bağlıdır.
 

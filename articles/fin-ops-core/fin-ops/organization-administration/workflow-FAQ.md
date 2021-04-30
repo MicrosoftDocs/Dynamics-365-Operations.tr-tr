@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11604389ff598c70e15709c9e3e04b6ec436f6a6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 64ce34cf38e4d6f37d9d417b70843a8308a408a8
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747213"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890369"
 ---
 # <a name="workflow-faq"></a>İş akışıyla ilgili SSS
 
@@ -45,9 +45,9 @@ Bildirim sağlamak amacıyla iş akışlarına uyarı ekleme hakkında dikkat ed
     - Gelecekteki bir güncelleştirmede, kullanıcıya bir iş akışı iş maddesi atanacak bir İşlem Merkezi iletisi ekleyeceğiz. 
 - İş akışına bildirim ekleme
     - X++içindeki bir iş akışından oluşturulan ileti gibi belirli kullanıcılar için işlem merkezi iletileri oluşturulabilir.
-    - [İş Akışının İş Olayları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) Müşterinin Akışları tetiklemek için kullanabileceği, aradıkları bildirimlere sahiptir.   
+    - [İş Akışının İş Olayları](../../dev-itpro/business-events/business-events-workflow.md) Müşterinin Akışları tetiklemek için kullanabileceği, aradıkları bildirimlere sahiptir.   
 
-Özetle, bir Kullanıcı bir iş akışı iş maddesi atandığında eylem merkezinden uygun bildirimi alamazsanız ek veya farklı bildirimler sağlamak için [İş Akışının iş olayları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) ile Microsoft Power Automate'u ek ya da farklı bildirimler sağlamak için kullanın.
+Özetle, bir Kullanıcı bir iş akışı iş maddesi atandığında eylem merkezinden uygun bildirimi alamazsanız ek veya farklı bildirimler sağlamak için [İş Akışının iş olayları](../../dev-itpro/business-events/business-events-workflow.md) ile Microsoft Power Automate'u ek ya da farklı bildirimler sağlamak için kullanın.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>İş akışı düzenleyicisi AD FS altında niçin başlatılamıyor?
 Yükseltilmiş bir ortamda Active Directory Federasyon Hizmetleri (AD FS) altında çalışırken, iş akışı Düzenleyicisi başlatılırken sorun olabilir. Varsa, ADFS ayarlarındaki **Microsoft Dynamics 365 for Operations şirket içi-iş akışı-yerel uygulama** özelliğine "https://dynamicsaxworkfloweditor/" URL'si eklenmiş olduğundan emin olun.

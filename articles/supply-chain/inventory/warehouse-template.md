@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816640"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908455"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır. Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur. Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
+Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır. Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur. Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Yapılandırma şablonlarının yardımcı olabileceği senaryolar
 
@@ -88,13 +88,13 @@ Veri paketi için bir zip dosyası indirebilirsiniz. Bu dosya tüm verileri seç
 4. **+ Dosya ekle**'yi seçin ve veri paketi zip dosyasını yükleyin.
 5. **İçe aktar**'ı seçin. **Gelişmiş** görünümde, içe aktarma sırasında oluşabilecek sorunların genel bir görünümünü almak için **Filtre** seçeneğini kullanabilirsiniz.
 
-**Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
+**Yürütmeyi görüntüle** günlüğü içe aktarılan her veri varlığıyla ilgili ayrıntılı bilgi sağlar. Hedef verilere hızlıca gitmek için aşamalandırma verisi görünümünü kullanabilirsiniz. Bu şekilde, uygulamadaki ilgili sayfalarda içe aktarılan verilen nasıl göründüğünü görebilirsiniz. Varsayılan veri şablonlarını kullandığınızda, her veri varlığı için içe aktarma sırası önceden tanımlanan şekilde çalışarak tüm bağımlı verilerin önce içe aktarılmasını sağlamaya yardımcı olur. Özel veri varlıkları projesinin bir parçasıysa, doğru sıranın tanımlandığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Ambarın yapılandırmasını bir şirketten yeni bir şirkete aynı kurulum içinde kopyalamak için ambar şablonu kullanma hakkında daha fazla bilgi edinmek üzere YouTube'daki bu 3 dakikalık videoyu izleyin: [Ambar şablonunu Finance and Operations için yapılandırmayı kopyalamak üzere kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>İlgili konu
 
-[Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Yapılandırma veri şablonları](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

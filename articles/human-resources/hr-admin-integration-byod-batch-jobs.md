@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: f21e9b94b5aa30b2cdb18692e8cc9c8d00f758d6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805046"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890088"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD zamanlanmış toplu işlerini iyileştirme
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Bu konuda, kendi veritabanınızı getirin (BYOD) özelliğini kullanırken performansı nasıl iyileştirebileceğiniz açıklanmaktadır. Kendi veritabanınızı getirme hakkında daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json).
+Bu konuda, kendi veritabanınızı getirin (BYOD) özelliğini kullanırken performansı nasıl iyileştirebileceğiniz açıklanmaktadır. Kendi veritabanınızı getirme hakkında daha fazla bilgi için bkz. [Kendi veritabanınızı getirme (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Veri dışarı aktarma için performans ile ilgili hususlar
 
-Varlıklar hedef veritabanında yayımlandıktan sonra verileri taşımak için **Veri yönetimi** çalışma alanında Dışarı aktarma işlevini kullanabilirsiniz. Dışa aktarma işlevi, bir veya daha fazla varlık içeren bir Veri taşıma işi tanımlamanızı sağlar. Verileri dışarı aktarma hakkında daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json).
+Varlıklar hedef veritabanında yayımlandıktan sonra verileri taşımak için **Veri yönetimi** çalışma alanında Dışarı aktarma işlevini kullanabilirsiniz. Dışa aktarma işlevi, bir veya daha fazla varlık içeren bir Veri taşıma işi tanımlamanızı sağlar. Verileri dışarı aktarma hakkında daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 **Dışarı aktarma** sayfasını, verileri farklı hedef veri biçimlerine (ör. virgülle ayrılmış değerler (CSV) dosyası) aktarmak için kullanılabilir. Bu sayfa, bir diğer hedef olarak SQL veritabanlarını da destekler.
 
@@ -61,7 +61,7 @@ En iyi performans için, BYOD toplu işlerini zamanlarken her zaman **Dışarı 
 
 Veri dışarı aktarma için bir varlık eklediğinizde artımlı gönderme (dışa aktarma) veya tam gönderme yapabilirsiniz. Tam göndermede, BYOD veritabanındaki varlığın tüm mevcut kayıtları silinir. Ardından, Human Resources varlığından geçerli kayıt kümesi eklenir.
 
-Artımlı gönderme yapmak için **Varlıklar** sayfasında her varlık için değişiklik izleme özelliğini açmanız gerekir. Daha fazla bilgi için bkz. [Varlıklar için değişiklik izlemeyi etkinleştirme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+Artımlı gönderme yapmak için **Varlıklar** sayfasında her varlık için değişiklik izleme özelliğini açmanız gerekir. Daha fazla bilgi için bkz. [Varlıklar için değişiklik izlemeyi etkinleştirme](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 Artımlı göndermeyi seçerseniz ilk gönderim her zaman tam gönderme şeklinde yapılır. SQL, bu ilk tam göndermedeki değişiklikleri izler. Yeni bir kayıt eklendiğinde veya bir kayıt güncelleştirildiğinde ya da silindiğinde, değişiklik hedef varlığa yansıtılır.
 
@@ -88,14 +88,14 @@ BYOD özelliğinde aşağıdaki sınırlamalar geçerlidir:
 
 **Sorun:** Bir varlık için tam gönderim gerçekleştiğinde **seçili** bir deyimi kullanırsanız BYOD'de büyük bir kayıt kümesi görürsünüz. Ancak artımlı gönderim yaptığınızda, BYOD 'de yalnızca birkaç kayıt görürsünüz. Artımlı gönderim tüm kayıtları silmiş ve BYOD'ye yalnızca değiştirilmiş kayıtları eklemiş gibi görünür.
 
-**Çözüm:** SQL değişiklik izleme tabloları beklenen durumda olmayabilir. Bu tür durumlarda, varlığın değişiklik izleme özelliğini kapatıp yeniden açmanız önerilir. Daha fazla bilgi için bkz. [Varlıklar için değişiklik izlemeyi etkinleştirme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json).
+**Çözüm:** SQL değişiklik izleme tabloları beklenen durumda olmayabilir. Bu tür durumlarda, varlığın değişiklik izleme özelliğini kapatıp yeniden açmanız önerilir. Daha fazla bilgi için bkz. [Varlıklar için değişiklik izlemeyi etkinleştirme](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Veri yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages?toc=/dynamics365/human-resources/toc.json)<br>
-[Kendi veritabanınızı getirin (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/human-resources/toc.json)<br>
-[Veri içe ve dışa aktarma işlerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job?toc=/dynamics365/human-resources/toc.json)<br>
-[Varlıklar için değişiklik izlemeyi etkinleştirme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/entity-change-track?toc=/dynamics365/human-resources/toc.json)
+[Veri yönetimine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Kendi veritabanınızı getirin (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Veri içe ve dışa aktarma işlerine genel bakış](../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)<br>
+[Varlıklar için değişiklik izlemeyi etkinleştirme](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838334"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908023"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Ambar işinin ertelenmiş işlemesi
 
@@ -28,7 +28,7 @@ Bu konu, Dynamics 365 Supply Chain Management'ta mevcut olan ambar işi için er
 
 Ertelenmiş işleme işlevselliği, ambar çalışanlarının arka planda işlenirken ambar işçilerinin başka işler yapmaya devam etmesini sağlar. Ertelenmiş işleme, birçok iş hattının işlenmesi gerektiğinde ve çalışan bu işin zaman uyumsuz olarak işlenmesine izin verebilirse yararlıdır. Ayrıca, sunucu işlem zamanında geçici veya planlanmamış artışlara sahip olabilir ve artan işlem süresi kullanıcının verimliliğini etkileyebilir.
 
-Arka plan işleme SysOperation çerçevesi kullanılarak elde edilir. Daha fazla bilgi için bkz. [SysOperation Çerçevesine Genel Bakış](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Arka plan işleme SysOperation çerçevesi kullanılarak elde edilir. Daha fazla bilgi için bkz. [SysOperation Çerçevesine Genel Bakış](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>İş işleme ilkelerini yapılandırma
 

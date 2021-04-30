@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcb57082a49fc07a4139aa37f9507890ca7ed620
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1647b7fbf84a78051e745e918954df32a2e7e1dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805094"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890016"
 ---
 # <a name="configure-integration-with-dayforce"></a>Dayforce ile tümleştirme yapılandırma
 
@@ -53,8 +53,8 @@ Tümleştirme açıldığında veri dışa aktarma paketi ve dosyalar oluşturul
 
 Azure depolama hesapları ve Azure Depolama bağlantı dizeleri hakkında daha fazla bilgi için aşağıdaki Azure makalelerine bakın:
 
-- [Azure depolama hesapları hakkında](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Azure Depolama bağlantı dizelerini yapılandırma](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
+- [Azure depolama hesapları hakkında](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Azure Depolama bağlantı dizelerini yapılandırma](/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Bordro tümleştirmesinin etkinleştirilmesinin teknik ayrıntıları
 
@@ -65,6 +65,7 @@ Bordro tümleştirmesinin açılmasının iki temel etkisi vardır:
 
 > [!NOTE]
 > SFTP son noktasına aktarılan veri paketi, pakette benzersiz bir anahtar kullanılarak şifrelenir. Anahtar yalnızca Ceridian tarafından erişilebilen bir Azure Key Vault'ta yer alır. Veri paketi içeriğinin şifresini çözmek ve içeriği incelemek mümkün değildir. Veri paketinin içeriğini incelemeniz gerekiyorsa "Bordro tümleştirmesini dışa aktar" veri projesini el ile dışa aktarmanız, indirmeniz ve sonra açmanız gerekir. El ile dışa aktarmada şifreleme uygulanmaz veya paket transfer edilmez.
+> Tümleştirme dosyalarının Dynamics 365 Human Resources UAT veya Korumalı alan ortamından bir Ceridian Dayforce Test ortamına gönderildiği durumlarda şu anahtar kasası URL'sini kullanabilirsiniz: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Verilerinizi yapılandırma 
 
@@ -124,10 +125,10 @@ Dayforce, kazanç planında tanımlanan bordro etkisine göre aşağıdaki kesin
 
 Kazanç programı tanımlama ve yönetme hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
-- [Personel kazançları programı oluşturma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Yeni kazanç oluştur](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Kazanç uygunluk kurallarını ve ilkelerini tanımlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Personel kazançları programı oluşturma](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Yeni kazanç oluştur](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Kazanç uygunluk kurallarını ve ilkelerini tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Ücret 
 
@@ -137,20 +138,20 @@ Dayforce personelin saatlik veya yıllık ücretlerini hesaplamak için ücret b
 
 Ücret planları hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
-- [Sabit ücret planları oluşturma](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Değişken ücret planları oluşturma](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Maaş/ücret yapısı ve planları geliştirme](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [İşlem ücreti](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-- [Ücret işlemini tanımlama ve sonuçları hesaplama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Personeli sabit ücret planına kaydetme](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Personeli değişken ücret planına kaydetme](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Sabit ücret planları oluşturma](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Değişken ücret planları oluşturma](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Maaş/ücret yapısı ve planları geliştirme](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [İşlem ücreti](/dynamics365/unified-operations/talent/process-compensation)
+- [Ücret işlemini tanımlama ve sonuçları hesaplama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Personeli sabit ücret planına kaydetme](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Personeli değişken ücret planına kaydetme](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>İşler 
 
 Bir iş, işi gerçekleştiren kişiden beklenen görev ve sorumlulukların toplamıdır. Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
-- [İşin bileşenlerini ayarlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
-- [Yeni işler tanımlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [İşin bileşenlerini ayarlama](/dynamics365/unified-operations/talent/create-job)
+- [Yeni işler tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Pozisyonlar
 
@@ -174,8 +175,8 @@ Aynı departmanda birden fazla pozisyon aynı işle ilişkilendirilmişse bunlar
 
 Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
-- [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Pozisyonları ayarlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Pozisyonları ayarlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Departmanlar
 
@@ -183,8 +184,8 @@ Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden iş
 
 Daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
-- [Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Yeni departmanlar tanımlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Yeni departmanlar tanımlama](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Ödeme döngüleri ve ödeme dönemleri
 

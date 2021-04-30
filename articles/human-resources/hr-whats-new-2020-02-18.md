@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c28d0dc76195cc0aedc132f348a229af0421c43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8109826df93f9916914a2db3876ee0f9107985f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790440"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890970"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (18 Şubat 2020)
 
@@ -33,7 +33,7 @@ Bu makalede Dynamics 365 Human Resources'te yeni veya değişen özellikler aç�
 
 ## <a name="platform-update-32"></a>Platform güncelleştirmesi 32 
 
-32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform güncelleştirmesi 32'daki yenilikler veya değişiklikler (2020 Şubat)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+32 platform güncelleştirmesi artık kullanılabilir durumdadır. Daha fazla bilgi için bkz. [Finance and Operations uygulamaları için Platform güncelleştirmesi 32'daki yenilikler veya değişiklikler (2020 Şubat)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Akıcı personel formundaki görünüm seçenekleri değiştirilirken arama değerleri hatırlanır (383833)
 
@@ -81,7 +81,7 @@ Aşağıdaki değişikliklerle , yeni bir Dataverse çözüm yakında kullanıma
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 

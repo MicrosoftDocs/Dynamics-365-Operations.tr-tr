@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12dcadae2a65d71614a2eee9468ec93cac284a7b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826407"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907899"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Gelişmiş ambar yönetimine yükseltme ve geçiş ile ilgili sorunları giderme
 
@@ -51,7 +51,7 @@ Temel ambar işlemlerinden gelişmiş ambar işlemlerine geçiş hakkında daha 
 - [Mevcut maddeler ve ambarlar için ambar yönetimi işlemini etkinleştirme](https://cleverax.wordpress.com/2017/12/06/d365fo-enable-warehouse-management-process-for-existing-items-and-warehouses/)
 - [Microsoft Dynamics AX WMS'den yeni R3 ambar ve taşımacılık işlevine geçiş](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [WMSI/WMS2 madde geçişi](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
-- [Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+- [Ambar yönetimini Microsoft Dynamics AX 2012'den Supply Chain Management'a yükseltme](./upgrade-migration-warehouse-management-processes.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791959"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857285"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -142,6 +142,9 @@ UWP, çevre birimleri söz konusu olduğunda, Tak ve Kullan cihazlar için Windo
 ### <a name="keyboard-wedge"></a>Klavye emülasyonu
 
 Klavye emülasyon cihazları, verileri bilgisayara sanki veriler klavyeden yazılmış gibi gönderir. Bu nedenle, varsayılan olarak, POS'ta etkin olan alan taranan veya veya geçirilen veriyi alır. Bazı durumlarda, bu davranış yanlış türde verinin yanlış alana taranmasına neden olabilir. Örneğin, bir barkod kredi kartı veri girişi için tasarlanmış bir alana taranabilir. Çoğu durumda, POS'ta taranan veya geçirilen verinin barkod mu yoksa manyetik kart mı olduğunu belirleyen bir mantık bulunur. Bu nedenle, veriler doğru şekilde ele alınır. Ancak, cihazlar klavye emülasyon cihazları yerine OPOS olarak kurulduğunda, cihazlardan gelen verilerin nasıl kullanılacağı konusunda daha fazla denetim olanağı vardır çünkü verinin geldiği cihazla ilgili daha fazla "bilgi" vardır. Örneğin, bir barkod tarayıcıdan gelen veriler otomatik olarak bir barkod olarak tanınır ve veri tabanındaki ilişkili kayıt, klavye emülasyon cihazları kullanılması durumda gerçekleşen jenerik dizin aramasına göre daha kolay ve daha hızlı bulunur.
+
+> [!NOTE]
+> POS'ta klavye emülasyonu tarayıcıları kullanıldığında, bu tarayıcıların son taranan karakterden sonra satır başı göndermek veya olay **Girmek** üzere programlanması gerekir. Bu yapılandırma yapılmazsa, klavye emülasyonlu tarayıcılar doğru çalışmayacaktır. Satır sonu olayının nasıl ekleneceği hakkında bilgi için cihaz üreticinizin sağladığı belgelere başvurun.  
 
 ### <a name="native-printer"></a>Yerel yazıcı
 

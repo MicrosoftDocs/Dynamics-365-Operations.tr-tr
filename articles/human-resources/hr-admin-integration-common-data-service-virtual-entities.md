@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805118"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890064"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources Microsoft Dataverse'taki sanal bir veri kaynağıd�
 Human Resources varlıklarındaki CRUD işlemlerini Dataverse'den etkinleştirmek için varlıkları Dataverse'de sanal tablolar olarak kullanılabilir yapmalısınız. Bu, Dataverse ve Microsoft Power Platform'dan Human Resources'daki veriler üzerinde CRUD işlemleri gerçekleştirmenizi sağlar. Operasyonlar, varlıklara veri yazarken veri bütünlüğünü sağlamak için Human Resources'ın tam iş mantığı doğrulamalarını da destekler.
 
 > [!NOTE]
-> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Human Resources için kullanılabilir sanal tablolar
 
@@ -51,7 +51,7 @@ Human Resources için sanal tablolar, Dataverse'teki Human Resources için oluş
 Human Resources için yerel tablolar ayrı olarak oluşturulur ve Dataverse'deki HCM Ortak çözümünde tutulur. Yerel tablolarla, veriler Dataverse'ta depolanır ve Human Resources uygulama veritabanıyla eşitleme gerektirir.
 
 > [!NOTE]
-> Human Resources için Dataverse yerel tablolarının listesi için bkz. [Dataverse tabloları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).
+> Human Resources için Dataverse yerel tablolarının listesi için bkz. [Dataverse tabloları](./hr-developer-entities.md).
 
 ## <a name="setup"></a>Ayar
 
@@ -71,7 +71,7 @@ Ortamınızdaki sanal tabloları etkinleştirmek için bu kurulum adımlarını 
 
 ### <a name="register-the-app-in-microsoft-azure"></a>Microsoft Azure'da uygulamayı kaydetme
 
-Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Microsoft kimlik platformu uygulama ve kullanıcılar için kimlik doğrulama ve yetkilendirme hizmetleri sağlayabilir. Azure'da uygulama kaydetme hakkında daha fazla bilgi için bkz. [Hızlı başlangıç: Microsoft kimlik platform ile uygulama kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Microsoft kimlik platformu uygulama ve kullanıcılar için kimlik doğrulama ve yetkilendirme hizmetleri sağlayabilir. Azure'da uygulama kaydetme hakkında daha fazla bilgi için bkz. [Hızlı başlangıç: Microsoft kimlik platform ile uygulama kaydetme](/azure/active-directory/develop/quickstart-register-app).
 
 1. [Microsoft Azure portalını](https://portal.azure.com) açın.
 
@@ -93,7 +93,7 @@ Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Micr
 
 10. Bir açıklama sağlayın, bir süre seçin ve **Ekle**'yi seçin.
 
-11. Gizli anahtar değerini kaydedin. [Sanal tablo veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source) bu bilgileri gireceksiniz.
+11. Gizli öğenin değerini tablonun **Değer** özelliği bölümünden kaydedin. [Sanal tablo veri kaynağını yapılandırırken](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source) bu bilgileri gireceksiniz.
 
     > [!IMPORTANT]
     > Bu aşamada, gizli anahtarın değerini not aldığınızdan emin olun. Bu sayfadan ayrıldıktan sonra gizli anahtar hiçbir zaman görüntülenmez.
@@ -215,12 +215,11 @@ Yan taraftaki bölme işlemle ilgili en son yürütme sonuçlarını görüntül
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Dataverse'teki tablolar](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Tablo ilişkilerine genel bakış](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Harici veri kaynağından veri içeren sanal tablolar oluşturma ve düzenleme](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Power Apps portalları nedir?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Power Apps'ta uygulamalar oluşturmaya genel bakış](https://docs.microsoft.com/powerapps/maker/)
-
+[Dataverse nedir?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Dataverse'teki tablolar](/powerapps/maker/common-data-service/entity-overview)<br>
+[Tablo ilişkilerine genel bakış](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Harici veri kaynağından veri içeren sanal tablolar oluşturma ve düzenleme](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Power Apps portalları nedir?](/powerapps/maker/portals/overview)<br>
+[Power Apps'ta uygulamalar oluşturmaya genel bakış](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 080f66e4e13df44a77f0499c6d69686f0e3d7021
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bf406a954f5bb8b49627b58a901d0721cdad407b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801203"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890040"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse tümleştirmesini yapılandırma
 
@@ -30,7 +30,7 @@ ms.locfileid: "5801203"
 Microsoft Dataverse ve Dynamics 365 Human Resources arasındaki tümleştirmeyi açabilir veya kapatabilirsiniz. Eşitleme ayrıntılarını görüntüleyebilir, izleme verilerini temizleyebilir ve iki ortam arasındaki veri sorunlarını gidermeye yardımcı olmak için bir tabloyu yeniden işleyebilirsiniz.
 
 > [!NOTE]
-> Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
 
 Tümleştirmeyi kapattığınızda, kullanıcılar Human Resource veya Dataverse'te değişiklikler yapabilir ancak bu değişiklikler iki ortam arasında eşitlenmez.
 
@@ -124,8 +124,8 @@ Human Resources ile Dataverse arasında bir tablonun tam eşitlemesini çalışt
 [Dataverse tabloları](hr-developer-entities.md)<br>
 [Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources sanal tablolarıyla ilgili SSS](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminoloji güncelleştirmeleri](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloji güncelleştirmeleri](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

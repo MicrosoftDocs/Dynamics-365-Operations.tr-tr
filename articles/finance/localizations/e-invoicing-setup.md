@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840016"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890843"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektronik faturalamayı ayarlama
 
@@ -75,7 +75,7 @@ Elektronik faturalama özelliğine ER biçimleri eklemek için aşağıdaki adı
     > [!NOTE]
     > Biçimi düzenlerken, yapılandırma sürümünün durumu **Taslak** olarak ayarlanır.
 
-3. **Biçim tasarımcısı** sayfasını, dosya biçimi yapılandırmasını değiştirmek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
+3. **Biçim tasarımcısı** sayfasını, dosya biçimi yapılandırmasını değiştirmek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Biçim tasarımcısı sayfası](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
