@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811310"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897048"
 ---
 # <a name="get-started-with-financial-reporting"></a>Financial Reporting kullanmaya başlama 
 
@@ -148,7 +148,7 @@ Sorun 1: **Yeni** veya **Düzenle**'yi seçtiğinizde Rapor Tasarımcısı başl
 * Internet Explorer'da **Ayarlar**'ı ve ardından **İnternet Seçenekleri**'ni seçin. **Güvenlik** sekmesini seçin. Güvenilen Siteler'i seçin. Bu bölge için Güvenlik düzeyi etiketli alanda, seçeneği **Orta-Düşük** olarak değiştirin.
 * Tarayıcınızdaki açılır pencere engelleyicisini devre dışı bırakın.
 * Microsoft .NET Framework 4.6.2 veya üstünü yüklemek için iş istasyonları gereklidir. Microsoft .NET Framework'ün bu sürümünü [Microsoft Download Center'dan](https://www.microsoft.com/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz.
-* Chrome tarayıcı kullanıyorsanız Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. Chrome'u gizli modda çalıştırıyorsanız ClickOnce eklentisinin gizli mod için etkinleştirildiğinden emin olun. Chrome ClickOnce Eklentisi hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Chrome tarayıcı kullanıyorsanız Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. Chrome'u gizli modda çalıştırıyorsanız ClickOnce eklentisinin gizli mod için etkinleştirildiğinden emin olun. Chrome ClickOnce Eklentisi hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Chrome tarayıcıyla Microsoft Edge kullanıyorsanız Edge Chromium için ClickOnce eklentisi yüklemeniz gerekmez. Ancak, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce seçeneğini etkinleştirmelisiniz. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun.
      1. Microsoft Edge'de yeni bir tarayıcı açın.
      2. **edge://flags** girin ve **Enter** seçeneğini belirleyin.

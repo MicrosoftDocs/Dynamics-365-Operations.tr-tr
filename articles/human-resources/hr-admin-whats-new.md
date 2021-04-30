@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a7d86e85ef9cff493dcdfab498d107163f381d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bbcedfe45801d0892d80d3e18f78be00bdfdc40
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5806030"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892189"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Human Resources'taki yenilikler veya değişiklikler
 
@@ -39,7 +39,7 @@ Her iki haftada bir, Microsoft Dynamics 365 Human Resources için yeni bir sür�
 
 Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştirme işlemi hakkında daha fazla bilgi için, aşağıdakilere bakın: 
 
-- [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
+- [Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
 - [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 
@@ -49,6 +49,7 @@ Yakında gerçekleştirilecek özellikler veya İnsan Kaynakları güncelleştir
 
 Human Resources'ın her iki haftalık sürümünde nelerin yeni veya değiştirilmiş olduğunu öğrenmek için aşağıdaki konulara bakın:
 
+[5 Nisan 2021](hr-whats-new-2021-04-05.md)</br>
 [22 Mart 2021](hr-whats-new-2021-03-22.md)</br>
 [8 Mart 2021](hr-whats-new-2021-03-08.md)</br>
 [22 Şubat 2021](hr-whats-new-2021-02-22.md)</br>
@@ -81,7 +82,7 @@ Human Resources'ın her iki haftalık sürümünde nelerin yeni veya değiştiri
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Dynamics 365 Human Resources 2020 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2020 sürüm 2'ye genel bakış](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 

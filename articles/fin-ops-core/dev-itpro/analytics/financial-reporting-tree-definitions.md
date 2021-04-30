@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
+ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819950"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866314"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
@@ -52,9 +52,7 @@ Raporlama ağacı tanımı aşağıdaki tabloda açıklanan sütunları içerir.
 | Birim Açıklama      | Raporlama birimi başlığı, rapor tanımı **Üstbilgiler ve Altbilgiler** sekmesinin bir kodu olarak **UnitDesc** girerseniz rapor üst bilgisinde veya alt bilgisinde görüntülenir. Satır tanımının **Açıklama** hücresine **UnitDesc** ifadesini girerseniz başlık rapor satırı açıklamasında görünür. |
 | Boyutlar            | Doğrudan mali verilerden bilgi alan bir raporlama birimi. Hesap ve ilgili segmentler için mantıksal konumlandırmayı ve uzunlukları tanımlar. Her bir raporlama birimi satırı bu sütunda bir boyuta sahip olmalıdır. Özet birimi satırına bir boyut da yerleştirebilirsiniz (örneğin, bu birimle doğrudan ilgili giderler için). Özet birimi satırına boyut girerseniz üst birimlerde kullanılan hesaplar alt birimlerde kullanılmamalıdır. Aksi halde, tutarlar yinelenebilir. |
 | Satır Tanımları       | Raporlama birimi için satır tanımı adı. Aynı satır tanımı raporlama ağacının her birimi için kullanılır. Rapor oluşturduğunuzda, bu satır tanımı her bir raporlama birimi için kullanılır. Satır tanımı birden fazla mali boyut bağlantısı içerebilir. Satır tanımı raporlama ağacında belirtilmişse rapor tanımının **Rapor** sekmesindeki **Raporlama ağacındaki satır tanımını kullan** onay kutusunu işaretleyin. |
-| Satır bağlantısı              | Raporlama birimi için kullanılacak satır bağlantısı. İlişkilendirilecek mali boyutları tanımlamak üzere satır tanımı için satır bağlantıları tanımlanır. |
-| Harici bağlantı         | Bu raporlama birimi için kullanılacak satır bağlantısı. Satır bağlantıları bağlanılacak raporu belirlemek amacıyla satır tanımı için tanımlanır. |
-| Harici dosya         | Verilerin alınacağı mali raporlama çalışma sayfasının dosya yoludur. |
+| Mali Boyutlar bağlantısı| Raporlama birimi için kullanılacak mali boyutlar bağlantısı. Bağlantı verilecek mali boyutları tanımlamak üzere satır tanımı için mali boyut bağlantıları tanımlanır. |
 | Sayfa Seçenekleri          | Bu sütun, rapor görüntülendiğinde veya yazdırıldığında raporlama birimi ayrıntılarının gizlenip gizlenmediğini denetler. |
 | Toplama %              | Ana birime tahsis edilmesi gereken raporlama biriminin yüzdesi. Bu sütuna girdiğiniz yüzde, satır değeri üst rapora eklenmeden önce satır tanımının her satırı için geçerlidir. Örneğin, alt birimin iki bölüm arasında eşit olarak bölünmesi gerekiyorsa değer departman raporuna eklenmeden önce her satırdaki tutarlar yüzde 50 ile çarpılır. Bir raporlama birimi iki ana birime sahip olamaz. Bir raporlama biriminden gelen tutarları iki ana birime tahsis etmek için ek yüzde 50 toplanacak aynı boyuta sahip başka bir raporlama birimi oluşturun. Tam yüzdeleri ondalık basamak olmadan girin. Örneğin, **25** ana birime yüzde 25 tahsisi temsil eder. Ondalık değer (**0,25**) eklerseniz ana birime yüzde 0,25 tahsis edilir. Yüzde 1'den küçük bir yüzde kullanmak için rapor tanımında **&lt;%1 Toplamaya İzin Ver** seçeneğini kullanın. Bu seçenek, **rapor ayarları** iletişim kutusu **Ek Seçenekler** sekmesinde bulunur. Bu iletişim kutusuna rapor tanımının **Ayarlar** sekmesindeki **Diğer** düğmesinden erişebilirsiniz. |
 | Birim Güvenliği         | Raporlama biriminin bilgilerine erişebilen kullanıcılar ve gruplar üzerindeki kısıtlamalar. |
@@ -113,10 +111,10 @@ Her bir raporlama ağacı tanımı benzersiz görünümlerde görüntülenir. Ü
 
 Raporlama birimlerinin aşağıdaki türleri mali raporlamada kullanılır:
 
-- Ayrıntılı birim, bilgileri doğrudan mali verilerden, bir Excel çalışma sayfasından veya başka bir mali raporlama çalışma sayfasından çeker.
+- Doğrudan mali verilerden bilgi alan bir ayrıntı birimi.
 - Özet birim alt düzey birimlerindeki verileri özetler.
 
-Üst raporlama birimi, ayrıntı biriminden özetlenmiş bilgiler toplayan bir özet birimidir. Özet birimi bir ayrıntı birimi ve bir özet birimi olabilir. Bu nedenle, özet birimi bilgileri bir alt düzey birimden, mali verilerden veya bir Excel çalışma sayfasından çekebilir. Ana birim daha yüksek düzeyde bir ana birimin alt birimi olabilir. Alt raporlama birimi bilgileri doğrudan mali verilerden veya bir Excel çalışma sayfasından çeken bir ayrıntı birimi olabilir. Alt raporlama birimi bir ara özet birimi de olabilir. Başka bir deyişle, bir alt düzey birimin ana birimi ve bir üst düzey özet biriminin alt birimi de olabilir. Raporlama birimleri için en yaygın senaryoda ana birimler **Boyutlar** sütununda boş bir hücreye sahiptir ve alt birimler belirli veya joker boyut birleşimlerine bağlantılar içerir.
+Üst raporlama birimi, ayrıntı biriminden özetlenmiş bilgiler toplayan bir özet birimidir. Özet birimi bir ayrıntı birimi ve bir özet birimi olabilir. Bu nedenle, özet birimi bilgileri bir alt düzey birimden veya mali verilerden çekebilir. Ana birim daha yüksek düzeyde bir ana birimin alt birimi olabilir. Alt raporlama birimi bilgileri doğrudan mali verilerden çeken bir ayrıntı birimi olabilir. Alt raporlama birimi bir ara özet birimi de olabilir. Başka bir deyişle, bir alt düzey birimin ana birimi ve bir üst düzey özet biriminin alt birimi de olabilir. Raporlama birimleri için en yaygın senaryoda ana birimler **Boyutlar** sütununda boş bir hücreye sahiptir ve alt birimler belirli veya joker boyut birleşimlerine bağlantılar içerir.
 
 ### <a name="organize-reporting-units"></a>Raporlama birimlerini düzenlemek
 
@@ -160,38 +158,25 @@ Belirli kullanıcıların ve grupların bir raporlama birimine erişimini engell
 1. Rapor Tasarımcısı'nda, değiştirilecek raporlama ağacı tanımını açın.
 2. Erişimi kaldırılacak raporlama birimi satırı için **Birim Güvenliği** hücresine çift tıklayın.
 3. **Birim Güvenliği** iletişim kutusunda bir ad seçin ve sonra **Kaldır**'a tıklayın.
-4. **Tamam** düğmesini tıklatın.
-
-### <a name="link-to-reports"></a>Raporlara bağlantı
-
-Satır tanımında bir **rapor** sütunu oluşturduktan ve rapora dahil edilecek raporu belirttikten sonra, raporlama ağacını bağlı sütun ve rapor bilgileriyle güncelleştirmeniz gerekir. Bir rapor, raporlama ağacındaki herhangi bir birime aktarılabilir.
-
-### <a name="identify-the-report-in-a-reporting-tree"></a>Raporlama ağacında raporu tanımlama
-
-1. Rapor Tasarımcısı'nda raporlama ağaç tanımını değiştirmek için açın.
-2. **Satır Tanımları** sütununda, hücrelerdeki bilgiler seçili satıra ait bilgilere dayanır çünkü aynı satır tanımı raporlama ağacının tüm birimlerinde kullanılmalıdır. **Satır Tanımları** hücresine çift tıklayın ve sonra rapor hakkında bilgi içeren satır tanımını seçin.
-3. Raporlama birimi için **Çalışma Sayfası Bağlantısı** hücresinde rapora karşılık gelen bağlantı adını seçin.
-4. Raporlama birimi için **Çalışma Kitabı veya Rapor Yolu** hücresine raporun adını yazın veya raporu seçmek için göz atın.
-5. Raporda bir çalışma sayfasını belirtmek için çalışma sayfasının adını **Çalışma sayfası adı** hücresine girin.
-6. Rapordan veri alması gereken her raporlama birimi için 3 ile 5 arasındaki adımları yineleyin. Raporunuzda hatalı verilerin görünmesini önlemek için raporlama ağacının ilgili biriminde doğru rapor adlarının göründüğünden emin olun.
+4. **Tamam**'a tıklayın.
 
 ## <a name="examples"></a>Örnekler
 ### <a name="reporting-unit-structure--example-1"></a>Raporlama birimi yapısı: Örnek 1
 
 Raporlama birimlerinin yapısı aşağıdaki raporlama ağacında verildiği gibidir:
 
-- Contoso Japonya raporlama birimi, Contoso Japonya Satış ve Japonya Contoso Danışmanlık alt birimlerinin ana birimidir.
+- Contoso Japonya raporlama birimi, Contoso Japonya Satış ve Contoso Japonya Danışmanlık alt birimlerinin ana birimidir.
 - Contoso Japonya Satış bölümü birimi hem Contoso Japonya biriminin alt birimi, hem de Yurtiçi Satış ve Otomatik Satış birimleri için bir ana birimdir.
 - En düşük düzeydeki ayrıntı raporlama birimleri (Yurtiçi Satışlar, Otomatik Satışlar, Müşteri Hizmetleri ve Operasyonlar) departmanları mali verilerde temsil eder. Bu raporlama birimleri diyagram gölgeli alanındadır.
 - Üst düzey özet birimleri ayrıntılı birim bilgilerini özetler.
 
-[![Contoso Özet Rapor Yapısı - örnek 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Contoso Özet Rapor Yapısı - Örnek 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Raporlama birimi yapısı: Örnek 2
 
 Aşağıdaki diyagramda, raporlama ağacı iş işlevlerine göre ayrılmış bir organizasyon yapısına sahiptir.
 
-[![Contoso Özet Rapor Yapısı - örnek 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Contoso Özet Rapor Yapısı - Örnek 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Boyutlardan Raporlama Birimleri Ekle iletişim kutusu örneği
 

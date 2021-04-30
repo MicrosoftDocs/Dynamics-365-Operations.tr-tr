@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798447"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890137"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Başvuran İzleme Sistemi tümleştirme API'si tanıtımı
 
@@ -45,21 +45,21 @@ Bu API, Microsoft Dataverse (eski adıyla Common Data Service) üzerine kuruludu
 
 Microsoft Dataverse Web API'si hakkında daha fazla genel bilgi için bkz:
 
-- [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [Microsoft Dataverse Web API'sini kullanma](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse geliştirici kılavuzu](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
+- [Microsoft Dataverse Web API'sini kullanma](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse geliştirici kılavuzu](/powerapps/developer/data-platform)
 
-Yukarıdaki belgeler, [kimlik doğrulamayı yönetme](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [işlemleri gerçekleştirme](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api) , [API ile Postman'i kullanma](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) ve API ile [değişiklik izleme veya delta belirteçlerini kullanma](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) gibi Dataverse Web API'sini kullanma hakkında ayrıntılar ve geliştirici kılavuzu içerir.
+Yukarıdaki belgeler, [kimlik doğrulamayı yönetme](/powerapps/developer/data-platform/webapi/authenticate-web-api), [işlemleri gerçekleştirme](/powerapps/developer/data-platform/webapi/perform-operations-web-api) , [API ile Postman'i kullanma](/powerapps/developer/data-platform/webapi/use-postman-web-api) ve API ile [değişiklik izleme veya delta belirteçlerini kullanma](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) gibi Dataverse Web API'sini kullanma hakkında ayrıntılar ve geliştirici kılavuzu içerir.
 
 ### <a name="option-sets"></a>Seçenek kümeleri
 
-Bu belgede açıklanan ATS tümleştirme API'sinin veri modeli, varlık özellikleriyle ilişkili numaralandırılmış değerler sağlayan seçenek kümelerini içerir. Dataverse Web API'sinde seçenek kümeleriyle çalışma hakkında ayrıntılı bilgi için bkz. [Web API'sini kullanarak seçenek kümeleri oluşturma ve güncelleştirme](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets). Seçenek kümeleri her Dataverse ortamı için tanımlanır.
+Bu belgede açıklanan ATS tümleştirme API'sinin veri modeli, varlık özellikleriyle ilişkili numaralandırılmış değerler sağlayan seçenek kümelerini içerir. Dataverse Web API'sinde seçenek kümeleriyle çalışma hakkında ayrıntılı bilgi için bkz. [Web API'sini kullanarak seçenek kümeleri oluşturma ve güncelleştirme](/powerapps/developer/data-platform/webapi/create-update-optionsets). Seçenek kümeleri her Dataverse ortamı için tanımlanır.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Dataverse'te Human Resources için sanal tablolar
 
 ATS tümleştirme API'sinin uç noktaları , Microsoft Dataverse'ün sanal tablo platformu yeteneklerini kullanır. Varsayılan olarak, sanal tablolar ve ilişkili API uç noktaları Human Resources ortamları için dağıtılmamıştır ve kuruluşların ortam için hangi OData uç noktalarının kullanıma sunulacağını belirlemesine olanak tanır. API'yi kullanmak istiyorsanız ortam için Human Resources varlıklarına yönelik sanal tablolar oluşturulmalıdır. 
 
-API'ye yönelik sanal tablolar oluşturma hakkında bilgi için bkz. [Dataverse sanal tablolarını yapılandırma](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+API'ye yönelik sanal tablolar oluşturma hakkında bilgi için bkz. [Dataverse sanal tablolarını yapılandırma](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="data-model"></a>Veri modeli
 
@@ -134,8 +134,8 @@ Seçenek kümeleri:
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [İş adaylarını işe alma](hr-personnel-recruit.md)<br>
-[Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Microsoft Dataverse Web API'sini kullanma](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[Web API'sini kullanarak seçenek kümeleri oluşturma ve güncelleştirme](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Microsoft Dataverse Web API'sini kullanma](/powerapps/developer/data-platform/webapi/overview)<br>
+[Web API'sini kullanarak seçenek kümeleri oluşturma ve güncelleştirme](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91c8df8a111132d75ec02b79912c66e02aef4ea6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36471cf76615e22c2ca80163756e2fd05aaf6a0f
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831326"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911284"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>İş şablonları ve konum yönergeleri ile ambar işini denetleyin
 
@@ -73,7 +73,7 @@ Konum yönergeleri, maddelerin çekilmesi gereken *konumu* ve konulması gereken
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - Video: [Ambar yönetimi yapılandırmasının ayrıntıları](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Yardım konusu: [Konum yönergeleri oluşturma](create-location-directive.md)
+- Yardım konusu: [Konum yönergeleriyle çalışma](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

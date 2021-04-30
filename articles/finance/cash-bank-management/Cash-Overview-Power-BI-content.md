@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830604"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897464"
 ---
 # <a name="cash-overview-power-bi-content"></a>Nakde genel bakış Power BI içeriği
 
@@ -38,7 +38,7 @@ Bu konu, **Nakide genel bakış** Microsoft Power BI içeriğini açıklar. Bu a
 2. Etkin döneme atanan mali takvim tarihlerini doğrulamak için **Genel muhasebe > Takvimler > Mali takvimler**'e gidin.
 3. **Muhasebe Para Birimi** ve **Döviz Kuru Türü**'nü ayarlamak için **Genel Muhasebe > Ayarlar > Muhasebe**'ye gidin
 4. Hareket para birimleri ile muhasebe para birimi, muhasebe para birimi ve sistem para birimi ve muhasebe para birimi ile banka para birimleri arasındaki döviz kurlarını tanımlayın. Bunu yapmak için **Genel Muhasebe > Para Birimleri > Para birimi döviz kurları**'na gidin.
-5. Nakit Akışı tahminini yapılandırın ve çalıştırın. Nakit akışı tahmini ayarlamak hakkında daha fazla bilgi için bkz: [Nakit akışı tahmini](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Nakit Akışı tahminini yapılandırın ve çalıştırın. Nakit akışı tahmini ayarlamak hakkında daha fazla bilgi için bkz: [Nakit akışı tahmini](./cash-flow-forecasting.md). 
 6. **LedgerCovLiquidityMeasurement** toplam ölçümünü Varlık Deposu sayfası üzerinde yenilemek için **Sistem yönetimi > Ayarlar > Varlık Deposu**'na gidin
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim

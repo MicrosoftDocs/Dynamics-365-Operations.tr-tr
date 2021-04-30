@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837669"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910413"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
@@ -33,7 +33,7 @@ Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkın
 > [!NOTE]
 > Bu konudaki satıcı iş birliğiyle ilgili bilgiler, yalnızca Supply Chain Management'ın geçerli sürümü için geçerlidir. Microsoft Dynamics AX 7.0 (Şubat 2016) ve Microsoft Dynamics AX uygulaması 7.0.1 (Mayıs 2016) sürümünde, **Satıcı portalı** modülünü kullanarak satıcılarla iş birliği yapabilirsiniz. **Satıcı portalı** modülü hakkında bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak iş birliği yapma](collaborate-vendors-vendor-portal.md).
 
-Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
+Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Satıcılara PO'lara yanıt verdiklerinde gösterilen bilgileri tanımlama
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811098"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908531"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Fiyatlar, indirimler, sözleşmeler ve para iadeleri ile ilgili sorunları giderme
 
@@ -37,7 +37,7 @@ Sevkiyat tarihini değiştirdiğinizde, "El ile veya harici belge ile girilen fi
 
 İleti, herhangi bir tarih veya başka parametre değiştiğinde tetiklenir. İletinin amacı, bu değişikliklerden dolayı oluşabilecek fiyat değişikliklerinin farkında olduğunuzdan emin olmak içindir.
 
-Bu ileti ticari sözleşme değerlendirme (TAE) istemidir. Tam açıklama için bkz. [Ticari sözleşme değerlendirme ilkeleri](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
+Bu ileti ticari sözleşme değerlendirme (TAE) istemidir. Tam açıklama için bkz. [Ticari sözleşme değerlendirme ilkeleri](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>Satınalma siparişi girişi tüm giderleri içermez.
 

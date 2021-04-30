@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753708"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894160"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumları belirtme
 
@@ -27,7 +27,7 @@ Elektronik raporlama (ER) çerçevesinin Uygulama programlama arabirimi (API), E
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Sürekli derlemeyi destekleyen bir topoloji dağıtın. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Bu topoloji, aşapıdaki rollerden biri için erişim izniniz olmalıdır:
+Sürekli derlemeyi destekleyen bir topoloji dağıtın. Daha fazla bilgi için, [Sürekli yapılandırma ve test otomasyonu destekleyen topolojiler dağıtın](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Bu topoloji, aşapıdaki rollerden biri için erişim izniniz olmalıdır:
 
 - Elektronik raporlama geliştirici
 - Elektronik raporlama işlev danışmanı
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Mevcut `AssetRollForwardService` sınıfını değiştirin ve rapor çalıştırıcısı için özel bir hedef fabrikası ayarlamak amacıyla bir kod yazın. Özel bir hedef fabrikası oluşturulduğunda, hedef klasörü belirten uygulama temelli parametreye geçilir. Bu şekilde, bu hedef klasör oluşturulan dosyaları depolamak için kullanılır.
 
     > [!NOTE] 
-    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) özel durumu oluşturulur.
+    > Belirtilen klasörün (bu örnekte **c:\\0**) AOS hizmetini çalıştıran sunucunun yerel dosya sisteminde mevcut olduğundan emin olun. Aksi takdirde, çalışma zamanında [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) özel durumu oluşturulur.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

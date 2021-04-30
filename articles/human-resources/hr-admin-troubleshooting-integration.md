@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794865"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892263"
 ---
 # <a name="integration-with-finance-faq"></a>Finans ile tümleştirme SSS
 
@@ -50,7 +50,7 @@ Varsayılan olarak, Dataverse tümleştirmesi sağlanan demo verileri içermeyen
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Yeni bir eşlemeyi şablonları kullanmadan oluşturabilir miyim?
 
-Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse için veri tümleştirme](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Şablonları, başlangıç noktasıdır. Kendi şablonunuzu oluşturabilirsiniz, ancak şablon bir tümleştirme projesi oluşturma sırasında her zaman gereklidir. Veri tümleştirme (DI) şablonları ve projeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse için veri tümleştirme](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>İnsan Kaynakları ve Finance arasında aktarmak üzere mali boyutlar eşleyebilir miyim?
 
@@ -145,7 +145,7 @@ Finance'e tümleştirme iki adımlı bir işlemdir. Öncelikle, İnsan Kaynaklar
 
 Veri Dataverse'te beklendiği gibi görüntülenmiyorsa, varlığın tümleştirme ile desteklendiğinden emin olun. Dataverse içine ek veri dahil etmek için Microsoft tarafından bir değişiklik gerekir.
 
-Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Varlık destekleniyorsa ve veri Dataverse içinde kullanılabilirse, Veri Tümleştiricisi içinde eşleştirmenin doğru olduğunu doğrulayın. Tümleştirme eşleştirmesi doğru gözüküyorsa, veri yönetimi işlerini başarıyla çalıştırıldığını doğrulayın. Toplu işlerin yürütülmesinde hatalar ortaya çıkabilir. Veri Yönetimi hakkında daha fazla bilgi için bkz. [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Çalışanlarımın adresleri Finance'e aktardıktan sonra doğru görünmüyor. Ne yapmalıyım?
 
@@ -172,15 +172,15 @@ Finance'te veri varlıklarını **Veri yönetimi \> Çerçeve Parametreleri \> V
 
 - Veri Tümleştirici (DI): 
 
-  - [Veriyi Microsoft Dataverse içine tümleştir](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Veriyi Microsoft Dataverse içine tümleştir](/powerapps/administrator/data-integrator)
 
-  - [Veri Tümleştirici hata yönetimi ve sorun giderme](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Veri Tümleştirici hata yönetimi ve sorun giderme](/powerapps/administrator/data-integrator-error-management)
 
-  - [Power Apps, Microsoft Power Automate ve Dataverse'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Power Apps, Microsoft Power Automate ve Dataverse'te sistem tarafından oluşturulan günlükler için DSR taleplerine yanıt verme](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Veri Yönetimi:
 
-  - [Veri yönetimi](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

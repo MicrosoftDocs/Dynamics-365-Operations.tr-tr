@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819662"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897416"
 ---
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
@@ -144,7 +144,7 @@ Geçerli şirketin çalışma alanına erişim **Geçerli şirketin nakit akış
 
 **Nakit genel bakış – geçerli şirket** çalışma alanı, nakit akışı tahmin analizlerini şirketin tanımlanmış muhasebe para birimi cinsinden gösterir. Analizler için kullanılan muhasebe para birimi, **Genel muhasebe** sayfasında tanımlanır. Bu çalışma alanı, geçerli şirket için nakit akışı tahmini ve banka hesabı bakiyelerine bir genel bakışı gösterir. Nakit girişleri ve çıkışlarının bir grafiği, gelecekteki nakit hareketleri ve bakiyeleri muhasebe para birimi cinsinden, tahmin edilen hareketler hakkında ayrıntılı bilgiyle birlikte gösterir. Tahmin edilen para birimi bakiyelerini de görebilirsiniz.
 
-Nakit akışı tahmin analizleri hakkında daha fazla bilgi için [Nakit genel bakışı Power BI içeriği](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) konusuna göz atın.
+Nakit akışı tahmin analizleri hakkında daha fazla bilgi için [Nakit genel bakışı Power BI içeriği](./cash-overview-power-bi-content.md) konusuna göz atın.
 
 Ek olarak, belirli hesaplar, siparişler ve maddeler hakkındaki nakit akışı tahmin verisini aşağıdaki sayfalarda görebilirsiniz:
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821165"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909979"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Dynamics 365 Supply Chain Management 10.0.15 sürümündeki yenilikler veya değişiklikler (Ocak 2021)
 
@@ -33,23 +33,23 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.15'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
 - Üretim ve ambar yürütme iş yükleri ile bulut ve edge ölçek birimi yönetimi<br> - Daha fazla bilgi için bkz. [Üretim ve ambar yönetimi iş yükleri için bulut ve edge ölçek birimleri](../cloud-edge/cloud-edge-landing-page.md).
 
-- [Transfer emirlerini ambar uygulamasından oluştur ve işle](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulamasından transfer emri oluşturma](../warehousing/create-transfer-order-from-warehouse-app.md).
+- [Transfer emirlerini ambar uygulamasından oluştur ve işle](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daha fazla bilgi için bkz. [Ambar uygulamasından transfer emri oluşturma](../warehousing/create-transfer-order-from-warehouse-app.md).
 
-- [Satıcı teklifi için varsayılan RFQ yanıtı alanları](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Daha fazla bilgi için bkz. [Teklif talebine (RFQ) genel bakış](../procurement/request-quotations.md).
+- [Satıcı teklifi için varsayılan RFQ yanıtı alanları](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Daha fazla bilgi için bkz. [Teklif talebine (RFQ) genel bakış](../procurement/request-quotations.md).
 
-- [Dynamics 365 Supply Chain Management için Mühendislik Değişiklik Yönetimi Eklentisi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Daha fazla bilgi için bkz. [Mühendislik değişikliğine genel bakış](../engineering-change-management/product-engineering-overview.md).
+- [Dynamics 365 Supply Chain Management için Mühendislik Değişiklik Yönetimi Eklentisi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Daha fazla bilgi için bkz. [Mühendislik değişikliğine genel bakış](../engineering-change-management/product-engineering-overview.md).
 
-- [Üretim için karma gerçeklik kılavuzları](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Daha fazla bilgi için bkz. [Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama](../production-control/instruction-guides-in-production-overview.md).
+- [Üretim için karma gerçeklik kılavuzları](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Daha fazla bilgi için bkz. [Üretimdeki çalışanlar için karma gerçeklik Kılavuzları sağlama](../production-control/instruction-guides-in-production-overview.md).
 
-- [Üretim katı yürütmesi için yeni kullanıcı deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).
+- [Üretim katı yürütmesi için yeni kullanıcı deneyimi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daha fazla bilgi için bkz. [Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?](../production-control/production-floor-execution-use.md).
 
-- [Ambar uygulaması olaylarını işle](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması olayı işleme](../warehousing/warehouse-app-events.md).
+- [Ambar uygulaması olaylarını işle](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daha fazla bilgi için bkz. [Ambar uygulaması olayı işleme](../warehousing/warehouse-app-events.md).
 
-- [Bırakılan ürünler için kaydedilmiş görünümler sayfası](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Daha fazla bilgi için, bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md).
+- [Bırakılan ürünler için kaydedilmiş görünümler sayfası](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Daha fazla bilgi için, bkz. [Kayıtlı görünümler](../../fin-ops-core/fin-ops/get-started/saved-views.md).
 
 - USMCA kaynak sertifikasyonu belgesi<br> - Daha fazla bilgi için bkz. [USMCA menşe sertifikası](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.15 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2020 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2020 sürüm dalgası 2 planını](/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 

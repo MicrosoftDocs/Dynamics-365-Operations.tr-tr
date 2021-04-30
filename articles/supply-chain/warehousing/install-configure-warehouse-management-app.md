@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835618"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908964"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
 
@@ -50,7 +50,7 @@ Uygulamayı kullanabilmeniz için sisteminizde bununla ilgili bir özelliği etk
 
 Daha küçük dağıtımlar için uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz.
 
-Daha büyük dağıtımlar için uygulama dağıtımını ve/veya yapılandırmayı otomatikleştirebilirsiniz ve bu seçenek birçok cihazı yönetiyorsanız daha rahat olabilir. Örneğin, [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Daha büyük dağıtımlar için uygulama dağıtımını ve/veya yapılandırmayı otomatikleştirebilirsiniz ve bu seçenek birçok cihazı yönetiyorsanız daha rahat olabilir. Örneğin, [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Uygulamayı bir uygulama mağazasından yükleme
 
@@ -65,10 +65,10 @@ Uygulamayı tek bir cihaza yüklemenin en kolay yolu, her zaman en son genel sü
 Bir uygulama mağazasından yüklemeye alternatif olarak uygulamayı Microsoft App Center'dan da indirebilirsiniz. App Center, dışarıdan yükleyebileceğiniz yüklenebilir paketler sağlar. Geçerli sürüme ek olarak, App Center önceki sürümleri indirmenize de olanak tanır ve deneyebileceğiniz yaklaşan özelliklerle önizleme sürümleri sağlayabilir. Ambar Yönetimi mobil uygulamasının geçerli, önceki veya önizleme sürümlerini Microsoft App Center'dan indirmek için aşağıdaki bağlantılardan birini kullanın:
 
 - **Windows (UWP):** [Ambar Yönetimi (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    İndirilen paketi bir Windows cihaza yükleme ve ardından gerekli sertifikaları ayarlama hakkında yönergeler için bkz. [App Center'dan Bir Derleme İndirme](https://docs.microsoft.com/appcenter/distribution/installation).
+    İndirilen paketi bir Windows cihaza yükleme ve ardından gerekli sertifikaları ayarlama hakkında yönergeler için bkz. [App Center'dan Bir Derleme İndirme](/appcenter/distribution/installation).
 
 - **Android:** [Ambar Yönetimi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Önizleme sürümünü indirirseniz yüklemek için birkaç ek adım gerekir. Ayrıntılar için bkz. [Android Uygulamalarını Test Etme](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 
@@ -103,11 +103,11 @@ Ambar Yönetimi mobil uygulamasının belirli bir Supply Chain Management sunucu
 
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki konulara bakın:
 
-    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
+    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 
@@ -135,7 +135,7 @@ Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uyg
 
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın Ambar Yönetimi mobil uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 
-Sertifikayı, Ambar Yönetimi mobil uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Sertifikayı, Ambar Yönetimi mobil uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Bağlantı ayarlarını içe aktararak uygulamayı yapılandırma
 

@@ -2,7 +2,8 @@
 title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798645"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853429"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
@@ -32,11 +33,32 @@ Müşteriler, çevrimiçi bir satın alma işleminden sonra seçili bir mağazad
 
 Mağaza seçici modülü, arama yarıçapı içindeki mağazaları aramak için kullanıcıların bir konum (şehir, eyalet, adres vb.) girmesini sağlar. Modül ilk açıldığında, mağazaları bulmak için müşterinin tarayıcı konumunu kullanır (izin sağlanırsa).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>e-Ticarette mağaza seçici modül kullanımı
+## <a name="store-selector-module-usage"></a>Mağaza seçicisi modülünün kullanımı
 
 - Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için ürün ayrıntıları sayfasında (PDP) kullanılabilir.
 - Bir mağaza seçici modülü malzeme çekme amacıyla bir mağaza seçmek için sepet sayfasında kullanılabilir.
 - Mağaza seçici modülü, kullanılabilir tüm mağazaları gösteren bağımsız bir sayfada kullanılabilir.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Commerce Headquarters'da karşılama grubu ayarlama
+
+Mağaza seçicinin mevcut mağazaları görüntülemesi için, karşılama grubunun Commerce Headquarters'da ayarlanması gerekir. Daha fazla bilgi için bkz. [Karşılama grupları ayarlama](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Ayrıca, karşılama grubundaki her mağaza için, mağaza yerleşiminin enlem ve boylamı Headquarters'ta tanımlanmalıdır.
+
+Commerce Headquarters'da mağaza konumu için boylam ve enlem değerlerini girmek üzere aşağıdaki adımları izleyin.
+
+1. **Stok yönetimi \> Kurulum \> Stok dökümü** öğelerini seçin.
+1. Sol bölmede ambar konumunu seçin.
+1. **Adresler** hızlı sekmesinde, **Gelişmiş**'i seçin.
+
+    ![Headquarters'daki mağaza ayrıntıları örneği](./media/Store-address.png)
+
+1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
+1. **Genel** hızlı sekmesinde **Enlem** ve **Boylam** değerlerini girin.
+
+    ![Headquarters'daki bir mağaza için enlem ve boylam ayarı örneği](./media/Store-latitude-longitude.png)
+
+1. Eylem bölmesinde, **Kaydet**'i seçin. 
 
 ## <a name="bing-maps-integration"></a>Bing Haritalar tümleştirmesi
 
@@ -48,6 +70,7 @@ Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca a�
 - **img-src** yönergesine **&#42;.virtualearth.net** ekleyin.
 - **script-src** yönergesine, **&#42;.bing.com, &#42;.virtualearth.net** ekleyin.
 - **script style-src** yönergesine **&#42;.bing.com** ekleyin.
+
  
 ## <a name="pickup-in-store-mode"></a>Mağazadan teslim alma modu
 

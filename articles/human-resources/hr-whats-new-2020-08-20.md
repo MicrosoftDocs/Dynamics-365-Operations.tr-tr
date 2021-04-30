@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800177"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891829"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Dynamics 365 Human Resources'deki yenilikler veya değişiklikler (20 Ağustos 2020)
 
@@ -65,15 +65,15 @@ DMF varlığı artık tahakkuk askıya almalar için kullanılabilir.
 
 İnsan Kaynakları kişiselleştirme yeteneklerini kullanarak alanları zorunlu hale getirebilirsiniz. Bu özellik için **Kaydedilmiş görünümler** gereklidir . Kayıtlı görünümler hakkında daha fazla bilgi için bkz.
 
-- Dynamics 365 2020 sürümü 2. dalga planında [Kayıtlı görünümler - genel kullanılabilirlik](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
-- [Kayıtlı görünümleri tamamen kullanan formlar oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- Dynamics 365 2020 sürümü 2. dalga planında [Kayıtlı görünümler - genel kullanılabilirlik](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability)
+- [Kayıtlı görünümleri tamamen kullanan formlar oluşturma](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Teams'de Human Resources uygulaması
 
 Çalışanlar, Microsoft Teams içinde işten geçen zamanı görüntüleyebilir ve talep edebilir . İzin istekleri oluşturmak için bir bot ile etkileşime girebilirler. Daha fazla bilgi için bkz:
 
-- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
-- [Teams'de Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)
+- Dynamics 365 2020 sürümü 1. dalga planında [Microsoft Teams'de personel izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams)
+- [Teams'de Human Resources uygulaması](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Çok yakında
 
@@ -117,7 +117,7 @@ Yakın zamanda, **BenefitsPlanEmployee** varlığıyla ilgili iki sorun tespit e
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [Human Resources'taki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2019 sürüm 2'ye genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 

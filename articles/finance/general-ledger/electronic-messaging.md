@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823800"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897612"
 ---
 # <a name="electronic-messaging"></a>Elektronik mesajlaşma
 
@@ -29,7 +29,7 @@ Yakın zamanda çeşitli ülkelerin ve bölgelerin hükümetleri ve mevzuatları
 
 Finance içindeki elektronik mesajlaşma işlevi, Finance ile hükümetler ve yasama otoritelerinin resmi bilgiyi raporlama, gönderme ve alma sistemleri arasında birlikte çalışabilirliği desteklemektedir.
 
-Elektronik mesaj işlevselliği, **Elektronik Raporlama** (ER) modülüne tümleşiktir. Bu nedenle, elektronik mesajlar için ER biçimlerini ayarlayabilirsiniz. Daha fazla bilgi için bkz: [Elektronik raporlamaya (ER) genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektronik mesaj işlevselliği, **Elektronik Raporlama** (ER) modülüne tümleşiktir. Bu nedenle, elektronik mesajlar için ER biçimlerini ayarlayabilirsiniz. Daha fazla bilgi için bkz: [Elektronik raporlamaya (ER) genel bakış](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Elektronik mesajlaşma aşağıdaki varlıklara bağlıdır:
 
@@ -56,7 +56,7 @@ Elektronik mesajlar işlevi, aşağıdaki senaryoları destekler:
 
 ## <a name="set-up-electronic-messaging"></a>Elektronik mesajlaşmayı kurma
 
-Elektronik mesajlaşma, farklı elektronik raporlama işlemlerini farklı belge türleri için korumanıza yardımcı olur. Bazı karmaşık senaryolarda elektronik mesajlaşma, birden fazla mesaj durumuna, mesaj öğesi durumuna, eyleme, ek alanlara ve yürütülebilir sınıflara sahip olmak üzere kurulur. Bu senaryolarda, veri varlıkları paketleri içe aktarmak için kullanılabilir. Bu veri paketlerini kullanıyorsanız, bunları bir tüzel kişiliğe, Veri yönetimi aracını kullanarak içe aktarmalısınız. Veri yönetimi aracını kullanmak hakkında daha fazla bilgi için bkz. [Veri yönetimi](../../dev-itpro/data-entities/data-entities-data-packages.md)
+Elektronik mesajlaşma, farklı elektronik raporlama işlemlerini farklı belge türleri için korumanıza yardımcı olur. Bazı karmaşık senaryolarda elektronik mesajlaşma, birden fazla mesaj durumuna, mesaj öğesi durumuna, eyleme, ek alanlara ve yürütülebilir sınıflara sahip olmak üzere kurulur. Bu senaryolarda, veri varlıkları paketleri içe aktarmak için kullanılabilir. Bu veri paketlerini kullanıyorsanız, bunları bir tüzel kişiliğe, Veri yönetimi aracını kullanarak içe aktarmalısınız. Veri yönetimi aracını kullanmak hakkında daha fazla bilgi için bkz. [Veri yönetimi](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 Bir varlık paketini içe aktarmazsanız, Elektronik mesajlaşma işlevselliğini el ile ayarlayabilirsiniz. Bu durumda, aşağıdaki öğeleri ayarlamanız gerekir:
 

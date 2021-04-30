@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826702"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897876"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
@@ -34,7 +34,7 @@ Mali raporlamayı kullanarak konsolide etmek için en kolay yöntem aynı hesap 
 3. Konsolide raporları kullandığınız her şirket için raporlama düğümü içeren bir raporlama ağacı oluşturun.
 
 > [!TIP]
-> Satır tanımlarının, sütun tanımlarının ve raporlama ağaçlarının nasıl oluşturulacağı ve yönetileceği hakkında daha fazla bilgi için bkz. [Mali rapor bileşenleri](../../dev-itpro/analytics/financial-report-components.md).
+> Satır tanımlarının, sütun tanımlarının ve raporlama ağaçlarının nasıl oluşturulacağı ve yönetileceği hakkında daha fazla bilgi için bkz. [Mali rapor bileşenleri](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 Aşağıdaki çizim, konsolide edeceğiniz her bir şirketi tanımlamak için Mali raporlamada raporlama ağacı tanımını nasıl kullanabileceğinizi gösterir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818643"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897924"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 
@@ -41,7 +41,7 @@ Bu bağlantı sizi, geçerli model hakkında daha fazla bilgi edinebileceğiniz 
 
 Açılan sayfada aşağıdaki bilgiler gösterilir:
 
-- **Performans** bölümünde, model performans derecesi modelin kalitesiyle ilgili bir bakış açısı sağlar. Bu derece hakkında daha fazla bilgi için AI Builder belgelerindeki [Tahmin modeli performansı](https://docs.microsoft.com/ai-builder/prediction-performance) konusuna bakın.
+- **Performans** bölümünde, model performans derecesi modelin kalitesiyle ilgili bir bakış açısı sağlar. Bu derece hakkında daha fazla bilgi için AI Builder belgelerindeki [Tahmin modeli performansı](/ai-builder/prediction-performance) konusuna bakın.
 - **En etkili veri** bölümü modeliniz için farklı giriş türlerinin ne kadar önemli olduğunu gösterir. Bu listeyi ve ilgili yüzdeleri, bilgilerin işletmeniz ve pazarınızla ilgili olarak mevcut bilgilerinizle tutarlı olup olmadığını belirlemek için değerlendirebilirsiniz.
 
     [![Tahmin modeli için Performans ve En etkili veri bölümleri](./media/models.png)](./media/models.png)

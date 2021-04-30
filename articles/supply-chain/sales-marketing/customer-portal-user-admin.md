@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840713"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907777"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Müşteri portalı kullanıcıları oluşturma ve yönetme
 
@@ -44,26 +44,26 @@ Yeni müşterileri davet etmeye başlamadan önce, **İlgili kişi** tablosu eş
 
 ## <a name="the-invitation-process"></a>Davet işlemi
 
-Varolan bir ilgili kişiyi müşteri portalına davet etmek için, Power Apps Portal belgelerindeki [ilgili kişileri portallarınıza davet etme](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) adımlarını izleyin.
+Varolan bir ilgili kişiyi müşteri portalına davet etmek için, Power Apps Portal belgelerindeki [ilgili kişileri portallarınıza davet etme](/powerapps/maker/portals/configure/invite-contacts) adımlarını izleyin.
 
-Müşteriyi müşteri portalına katılmaya davet etmeden önce, müşterinin [ilgili kişi kaydının](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) kullanılabilir olduğundan ve aşağıdaki şekilde ayarlandığından emin olun:
+Müşteriyi müşteri portalına katılmaya davet etmeden önce, müşterinin [ilgili kişi kaydının](/powerapps/maker/portals/configure/configure-contacts) kullanılabilir olduğundan ve aşağıdaki şekilde ayarlandığından emin olun:
 
 1. **Şirket** alanını Supply Chain Management'a ait olmasını istediğiniz müşterinin tüzel varlığı girin.
 2. **Hesap Numarası** alanını Supply Chain Management'ta ait olmasını istediğiniz kullanıcının müşteri hesap numarasına girin.
 
 İlgili kişi oluşturulduktan sonra, Supply Chain Management'tan bunu görebilmelisiniz.
 
-Daha fazla bilgi için, Power Apps Portal belgelerindeki [bir portalda kullanılacak ilgili kişiyi konfigüre edin](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts).
+Daha fazla bilgi için, Power Apps Portal belgelerindeki [bir portalda kullanılacak ilgili kişiyi konfigüre edin](/powerapps/maker/portals/configure/configure-contacts).
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Kullanıma hazır web rolleri ve tablo izinleri
 
-Power Apps portallarında kullanıcı rolleri [web rolleri](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [tablo izinleri](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
+Power Apps portallarında kullanıcı rolleri [web rolleri](/powerapps/maker/portals/configure/create-web-roles) ve [tablo izinleri](/powerapps/maker/portals/configure/assign-entity-permissions) tarafından tanımlanır. Müşteri Portalı için birkaç rol tanımlanır. Yeni roller oluşturabilir, varolan rolleri değiştirebilir veya kaldırabilirsiniz.
 
 ### <a name="out-of-box-web-roles"></a>Yerleşik Web rolleri
 
 Bu bölümde, müşteri portalı ile teslim edilen Web rolleri açıklanmaktadır.
 
-Kullanıma hazır kullanıcı rollerini değiştirme hakkında daha fazla bilgi için Power Apps portalları belgelerindeki [Portallar için web rolleri oluşturma](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için tablo izinlerini kullanarak kayıt tabanlı güvenlik ekleme](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) makalelerini inceleyin.
+Kullanıma hazır kullanıcı rollerini değiştirme hakkında daha fazla bilgi için Power Apps portalları belgelerindeki [Portallar için web rolleri oluşturma](/powerapps/maker/portals/configure/create-web-roles) ve [Portallar için tablo izinlerini kullanarak kayıt tabanlı güvenlik ekleme](/powerapps/maker/portals/configure/assign-entity-permissions) makalelerini inceleyin.
 
 #### <a name="administrator"></a>Yönetici
 
