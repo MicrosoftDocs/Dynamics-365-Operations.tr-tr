@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841491"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910173"
 ---
 # <a name="automatic-allocation-of-charges"></a>Otomatik masraf tahsisatı
 
@@ -144,7 +144,7 @@ Masraf kodlarınızı ayarladıktan sonra, otomatik Masrafları tanımlamak içi
     - **Site** ve **Ambar**: Masrafların yalnızca belirli bir site ve ambar için uygulanması gerekiyorsa, bir site ve ambar belirtin.
     - **Sakla**: Faturalamadan sonra masraf işlemlerini saklamak için bu onay kutusunu işaretleyin. Böylece seçili müşteri hesabı için her yeni fatura oluşturduğunuzda bu masraf uygulanır.
 
-1. **Yalnızca satış siparişleri için:** Katmanlı masrafları hesaplamak istiyorsanız, bilgi için [satış siparişlerindeki katmanlı masraflar](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) konusuna bakın.
+1. **Yalnızca satış siparişleri için:** Katmanlı masrafları hesaplamak istiyorsanız, bilgi için [satış siparişlerindeki katmanlı masraflar](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) konusuna bakın.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Masrafları üst bilgiden satıra tahsis et
 

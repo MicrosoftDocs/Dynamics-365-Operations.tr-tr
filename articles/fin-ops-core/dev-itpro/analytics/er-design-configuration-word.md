@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753588"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894088"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama
 
@@ -38,7 +38,7 @@ Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yen
 Çözümün ER biçimi bileşeni, **Excel\\File** biçim öğesini içermeli ve söz konusu biçim öğesi çalıştırma zamanında oluşturulan raporlar için şablon olarak kullanılacak Word belgesine bağlanmalıdır. ER biçim bileşenini yapılandırmak için ER biçim tasarımcısında oluşturulan ER yapılandırmasının [taslak](general-electronic-reporting.md#component-versioning) sürümünü açmanız gerekir. Ardından **Excel\\File** öğesini ekleyin, Word şablonunuzu düzenlenebilir ER biçimine ekleyin ve söz konusu şablonu eklediğiniz **Excel\\File** öğesine bağlayın.
 
 > [!NOTE]
-> Şablonu eklediğinizde, ER biçimleri şablonlarını depolamak için ER parametrelerinde daha önce [yapılandırılmış](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) olan [belge türünü](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) kullanmanız gerekir.
+> Şablonu eklediğinizde, ER biçimleri şablonlarını depolamak için ER parametrelerinde daha önce [yapılandırılmış](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) olan [belge türünü](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) kullanmanız gerekir.
 
 ![Biçim tasarımcısı sayfasına şablon ekleme](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Word biçimindeki raporlar için şablon olarak Word belgesi kullanmak için yen
 
 ![Biçim tasarımcısı sayfasına iç içe öğeler ekleme](./media/er-design-configuration-word-image4.gif)
 
-Tasarım aşamasında değişikliklerini ER biçimine kaydettiğinizde hiyerarşik biçim yapısı, ekli Word şablonunda **Rapor** adlı [özel XML bölümü](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) olarak saklanır. Değiştirilen şablona erişmeniz, Finance'ten indirmeniz, yerel olarak depolamanız ve Word masaüstü uygulamasında açmanız gerekir. Aşağıdaki çizimde, **Rapor** özel XML bölümünü içeren denetim raporu için yerel olarak depolanan örnek şablon gösterilmektedir.
+Tasarım aşamasında değişikliklerini ER biçimine kaydettiğinizde hiyerarşik biçim yapısı, ekli Word şablonunda **Rapor** adlı [özel XML bölümü](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) olarak saklanır. Değiştirilen şablona erişmeniz, Finance'ten indirmeniz, yerel olarak depolamanız ve Word masaüstü uygulamasında açmanız gerekir. Aşağıdaki çizimde, **Rapor** özel XML bölümünü içeren denetim raporu için yerel olarak depolanan örnek şablon gösterilmektedir.
 
 ![Word masaüstü uygulamasında örnek rapor şablonunun önizlemesini görüntüleme](./media/er-design-configuration-word-image5.gif)
 
-**Excel\\Range** ve **Excel\\Cell** bağlamaları çalıştırma zamanında çalıştırıldığında, söz konusu bağlamanın sunduğu veriler, oluşturulan Word belgesine **Rapor** özel XML bölümünün ayrı bir alanı olarak gelir. Özel XML bölümünün alanlarındaki değerleri oluşturulmuş bir belgeye girmek için, Word şablonunuza uygun Word [içerik denetimlerini](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) eklemeniz gerekir ve bunlar çalışma zamanında doldurulacak veriler için yer tutucu görevi görür. İçerik denetimlerinin nasıl doldurulacağını belirtmek içinc her içerik denetimini **Rapor** özel XML bölümünün uygun alanıyla eşleştirin.
+**Excel\\Range** ve **Excel\\Cell** bağlamaları çalıştırma zamanında çalıştırıldığında, söz konusu bağlamanın sunduğu veriler, oluşturulan Word belgesine **Rapor** özel XML bölümünün ayrı bir alanı olarak gelir. Özel XML bölümünün alanlarındaki değerleri oluşturulmuş bir belgeye girmek için, Word şablonunuza uygun Word [içerik denetimlerini](/office/client-developer/word/content-controls-in-word) eklemeniz gerekir ve bunlar çalışma zamanında doldurulacak veriler için yer tutucu görevi görür. İçerik denetimlerinin nasıl doldurulacağını belirtmek içinc her içerik denetimini **Rapor** özel XML bölümünün uygun alanıyla eşleştirin.
 
 ![Word masaüstü uygulamasında içerik denetimleri ekleme ve eşleme](./media/er-design-configuration-word-image6.gif)
 

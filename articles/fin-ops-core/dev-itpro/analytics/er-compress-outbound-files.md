@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753828"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894184"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Elektronik raporlama sırasında oluşturulan büyük belgeleri sıkıştırma 
 
 [!include [banner](../includes/banner.md)]
 
-[Elektronik raporlama (ER) çerçevesini](general-electronic-reporting.md), giden belge oluşturmak üzere hareketlere ait verileri getiren bir çözüm yapılandırmak için kullanabilirsiniz. Oluşturulan bu belge çok büyük olabilir. Bu tür bir belge oluşturulduğunda, dosyayı tutmak için [Uygulama Nesne Sunucusu (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) belleği kullanılır. Bir noktada, belgenin Microsoft Dynamics 365 Finance uygulamasından yüklenmesi gerekir. Şu anda ER tarafından oluşturulan tek bir belgenin boyutu en fazla 2 gigabayt (GB) ile sınırlıdır. Ek olarak, Finance indirilen dosyanın boyutunu 1 GB ile [sınırlandırır](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3). Bu nedenle, bu sınırlamaların aşılma olasılığını azaltan ve bir **Akış çok uzundu** veya **Aritmetik işlemde taşma veya yetersiz gelme** özel durumu alacağınız bir ER çözümü yapılandırmalısınız.
+[Elektronik raporlama (ER) çerçevesini](general-electronic-reporting.md), giden belge oluşturmak üzere hareketlere ait verileri getiren bir çözüm yapılandırmak için kullanabilirsiniz. Oluşturulan bu belge çok büyük olabilir. Bu tür bir belge oluşturulduğunda, dosyayı tutmak için [Uygulama Nesne Sunucusu (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) belleği kullanılır. Bir noktada, belgenin Microsoft Dynamics 365 Finance uygulamasından yüklenmesi gerekir. Şu anda ER tarafından oluşturulan tek bir belgenin boyutu en fazla 2 gigabayt (GB) ile sınırlıdır. Ek olarak, Finance indirilen dosyanın boyutunu 1 GB ile [sınırlandırır](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3). Bu nedenle, bu sınırlamaların aşılma olasılığını azaltan ve bir **Akış çok uzundu** veya **Aritmetik işlemde taşma veya yetersiz gelme** özel durumu alacağınız bir ER çözümü yapılandırmalısınız.
 
 Bir çözüm yapılandırdığınızda, iç içe geçmiş öğelerin herhangi biri tarafından oluşturulan içeriği sıkıştırmak için **Klasör** türünün bir kök öğesini ekleyerek ER biçimini Operations tasarımcısında ayarlayabilirsiniz. Sıkıştırma işlemi "tam zamanında" çalışır, böylece yüklenecek en yüksek bellek kullanımı ve dosya boyutu da azaltılabilir.
 

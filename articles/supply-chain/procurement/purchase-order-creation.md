@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4679ce27b248770b9998914407cd2eb21d7dd16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825410"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909168"
 ---
 # <a name="create-purchase-orders"></a>Satınalma siparişleri oluşturma
 
@@ -65,7 +65,7 @@ Bazı durumlarda, sipariş ettiğiniz miktarı farklı tarihlerde farklı parça
 Satıcı veya satıcı gider grubu ve madde veya madde gider grubu otomatik giderlere ayarlanmışsa giderler otomatik olarak PO satırlarına eklenebilir. Ancak, giderler sipariş satırı düzeyinde genellikle el ile eklenir. Gider eklemek için **Satırlar** görünümündeki **Finansal öğeler** menüsü üzerinden **Giderleri koru** eylemini kullanarak **Giderleri koru** sayfasını açın. Sipariş satırı düzeyinde doğrudan giderleri eklemenin avantajı giderin stok maliyeti olarak tahsis edilebilmesidir. Gider kodlarını hesap ürün maliyetine ayarlamak için **Madde** borç seçeneğini kullanın. Bu gider türleri sipariş onaylanmadan önce PO başlığından satırlara tahsis edilmelidir. Örneğin, her bir satırdaki miktara göre giderleri tahsis etmek isteyebilirsiniz. Gider kategorisi giderlerin muhasebesinin nasıl yapıldığını da etkiler. Örneğin, sabit giderler sabit bir tutarı belirtir ve yüzde giderleri sipariş satırı için net tutarın yüzdesi olarak hesaplanır. PO'lar bir yüke atanabilir ve yük, ulaştırma maliyeti için beklenen gider tahminini içerebilir. Bu gideri yükten geri dönerek PO satırlarına tahsis edebilirsiniz.
 
 ## <a name="purchase-order-actions"></a>Satın alma siparişi eylemleri
-PO'ya başlık ve satırları ekledikten sonra sipariş onaya hazır olmadan önce ek adımları tamamlamanız gerekir. Çok fazla seçenek olduğundan geçerli menü öğesini bulmak için [Eylem araması](../../fin-and-ops/get-started/action-search.md) seçeneğini kullanmak yararlı olabilir.  
+PO'ya başlık ve satırları ekledikten sonra sipariş onaya hazır olmadan önce ek adımları tamamlamanız gerekir. Çok fazla seçenek olduğundan geçerli menü öğesini bulmak için [Eylem araması](../../fin-ops-core/fin-ops/get-started/action-search.md) seçeneğini kullanmak yararlı olabilir.  
 
 Siparişteki ürünleri tamamlayıcı maddelere sahip olacakları şekilde yapılandırabilirsiniz. Tamamlayıcı maddeler diğer ürünlerle satın alınması gereken veya satın alınabilen ürünlerdir. Tamamlayıcı ürünler ürünlere iliştirilmiş olarak ücretsiz eklenebilir veya bunları siparişe ekleyip eklememeye karar verebilirsiniz. Eklenen her sipariş satırından sonra tamamlayıcı maddeleri gözden geçirebilirsiniz. Ancak büyük olasılıkla Eylem Bölmesinden açabileceğiniz **Tamamlayıcı maddeler** sayfasını kullanarak tüm sipariş satırları için ilgili tamamlayıcı maddeleri gözden geçirmek veya eklemek daha kolay olabilir.  
 

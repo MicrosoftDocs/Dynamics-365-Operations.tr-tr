@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791545"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892287"
 ---
 # <a name="update-process"></a>Güncelleştirme işlemi
 
@@ -39,7 +39,7 @@ Güncelleştirmeler düzenli aralıklarla yayımlanır ve tüm ortamlar için ya
 
 İnsan Kaynakları güncelleştirmeler otomatik olarak tüm ortamlara uygulanır. İnsan Kaynakları iki tür sürüm sağlar:
 
-- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, serbest bıraktıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmelerinin ne zaman yayınlanacaklarını öğrenmek için [Tablo 3: Platform yayımları](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases)'na bakın. İki Haftalık Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. İki Haftalık güncellemeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
+- **Hizmet güncelleştirmeleri**: Güncellemeler, hata düzeltmeleri ve yeni özellikler içererek iki haftada bir yapılır. Hizmet güncelleştirmeleri, serbest bıraktıklarında uygun platform güncelleştirmelerini de içerir. Platform güncelleştirmelerinin ne zaman yayınlanacaklarını öğrenmek için [Tablo 3: Platform yayımları](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases)'na bakın. İki Haftalık Güncelleştirmeler, bölgeler arasında aşamalı genel bir piyasaya sahiptir. İki Haftalık güncellemeler hakkında daha fazla bilgi için bkz. [Dynamics 365 Human Resources'ta yenilikler veya değişiklikler](hr-admin-whats-new.md).
 
     Aksi belirtilmedikçe, tüm desteklenen veri merkezleri iki haftalık olarak güncelleştirilir. ABD, Avustralya, Avrupa, Birleşik Krallık, Asya ve Kanada bölgeleri iki haftalık güncelleştirmelere dahil edilmiştir. 
 
@@ -71,11 +71,11 @@ Tatilleri hesaba eklemek için, Kasım ve Aralık 2021 için sürüm planı aşa
 
 - [Dynamics 365 Human Resources Yol haritası](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Dynamics 365 sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Dynamics 365 sürüm planları](/dynamics365/release-plans/)
 
 - [Dynamics 365 Human Resources'teki yenilikler veya değişiklikler](hr-admin-whats-new.md)
 
-- [Lifecycle Services'de (LCS) Sorun arama](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (yalnızca platform ile ilgili hatalar için)
+- [Lifecycle Services'de (LCS) Sorun arama](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (yalnızca platform ile ilgili hatalar için)
 
 - [İnsan kaynakları blogu](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Tatilleri hesaba eklemek için, Kasım ve Aralık 2021 için sürüm planı aşa
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Korumalı alan ortamındaki Önizleme özellikleri
 
-Bir korumalı alan ortamındaki Önizleme özelliklerini, üretim ortamınızda etkinleştirmeden önce doğrulayabilirsiniz. Yeni özellikleri etkinleştirme hakkında daha fazla bilgi için [Özellik yönetimine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)'a bakın.
+Bir korumalı alan ortamındaki Önizleme özelliklerini, üretim ortamınızda etkinleştirmeden önce doğrulayabilirsiniz. Yeni özellikleri etkinleştirme hakkında daha fazla bilgi için [Özellik yönetimine genel bakış](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'a bakın.
 
 Tüm yeni özellikler en az 30 gün boyunca ve genellikle 30-60 gün önizlemede kalır. Önemli özellikler genellikle önizleme dönemini izleyen her yılın Ekim ve Nisan ayında kullanılabilir. Özellik yönetimi çalışma alanında yeni yetenekleri gördüğünüz anda bunları açabilirsiniz. Bazı özellikler varsayılan olarak açık olabilir.
 
@@ -101,9 +101,9 @@ Korumalı alan ortamının sağlanması hakkında daha fazla bilgi için, bkz. [
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Dynamics 365 ve Power Platform sürüm planları](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Dynamics 365 ve Power Platform sürüm planları](/dynamics365/release-plans)</br>
 [Dynamics 365 Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Yazılım yaşam döngüsü ilkesi](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Yazılım yaşam döngüsü ilkesi](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

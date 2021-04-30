@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829998"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909931"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Dynamics 365 Supply Chain Management 10.0.16'deki yenilikler veya değişiklikler (Şubat 2021)
 
@@ -33,17 +33,17 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.16'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-- [Özelleştirilebilir atölye yürütme arabirimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini çalıştırmak için cihaz ayarlama](../production-control/production-floor-execution-setup.md).
+- [Özelleştirilebilir atölye yürütme arabirimi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini çalıştırmak için cihaz ayarlama](../production-control/production-floor-execution-setup.md).
 
-- [Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Daha fazla bilgi için bkz. [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)
+- [Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklentisi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Daha fazla bilgi için bkz. [Stok Görünürlüğü Eklentisi](../inventory/inventory-visibility.md)
 
 - İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için, bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
 
-- [Kaynak belge satırlarında plakaları doğrulama](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Daha fazla bilgi için bkz. [Ambar yapılandırmaya genel bakış](../warehousing/warehouse-configuration.md).
+- [Kaynak belge satırlarında plakaları doğrulama](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Daha fazla bilgi için bkz. [Ambar yapılandırmaya genel bakış](../warehousing/warehouse-configuration.md).
 
-- [Ambar yönetimi giden iş yükü görselleştirmesi](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Daha fazla bilgi için bkz. [Giden iş yükü görselleştirmesi](../warehousing/outbound-workload-visualization.md)
+- [Ambar yönetimi giden iş yükü görselleştirmesi](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Daha fazla bilgi için bkz. [Giden iş yükü görselleştirmesi](../warehousing/outbound-workload-visualization.md)
 
 Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
@@ -99,7 +99,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.16 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2020 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2020 sürüm dalgası 2 planını](/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 

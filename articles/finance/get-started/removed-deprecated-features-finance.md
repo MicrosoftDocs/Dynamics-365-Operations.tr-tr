@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836925"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898299"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -31,7 +31,20 @@ Bu konu Dynamics 365 Finance'dan kaldırılmış veya kaldırılması planlanan 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!NOTE]
-> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+> Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Sorgusu Fatura Ayrıntısı İsteği (HU) biçimi yapılandırması
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Macarca çevrimiçi faturalama sistemiyle birlikte çalışabilirlik elektronik ileti işleme işlemi dışında bırakıldı |
+| **Başka bir özellikle mi değiştirildi?**   | No |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı: 15 Nisan 2022 itibarıyla, "RTIR Sorgusu Fatura Verileri İsteği (HU)" biçimi yapılandırması desteğini sonlandırmayı planlıyoruz. |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

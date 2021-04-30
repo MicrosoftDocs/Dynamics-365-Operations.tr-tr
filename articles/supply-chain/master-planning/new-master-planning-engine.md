@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823469"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907703"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 
@@ -63,8 +63,12 @@ Master planlamaya bağlı olan bulut tabanlı dağıtımların sahipleri, Planla
 
 Gerekli özellikler kullanıma sunulduktan sonra, Microsoft özel durum süresi dolana kadar bir yetkisiz kullanım süresi sağlar. Gerekli özellikler kullanılabilir hale geldiğinde ve yetkisiz kullanım süresi başladığında ortam yöneticisi bilgilendirilecektir.
 
+Aşağıdaki akış çizelgesi, bu konuda sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin.
+
+![Özel durum akış çizelgesi](media/exception-diagram.png "Özel durum akış çizelgesi")
+
 > [!NOTE]
-> Sadece üretim ortamları için bir özel durum isteyebilirsiniz, korumalı alan ortamları için değil. Hizmet olarak altyapı (IaaS) korumalı alan ortamında bir Planlama İyileştirmesi özel durum hatasını devre dışı bırakmanız gerekiyorsa [Korumalı alan ortamları](#faq-sandbox) bölümünde sağlanan SQL sorgusunu çalıştırın.
+> Yalnızca üretim ortamı içeren veya içerecek kiracılar için bir özel durum isteyebilirsiniz. Yalnızca korumalı alan ortamlarına sahip kiracılar için istekte bulunamazsınız. Hizmet olarak altyapı (IaaS) korumalı alan ortamında bir Planlama İyileştirmesi özel durum hatasını devre dışı bırakmanız gerekiyorsa [Korumalı alan ortamları](#faq-sandbox) bölümünde sağlanan SQL sorgusunu çalıştırın.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 

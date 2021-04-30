@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840112"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894789"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>İtalya için Elektronik faturalamayı kullanmaya başlama
 
@@ -201,7 +201,7 @@ Finance'de işlem sırasında şu görevleri tamamlayacaksınız:
 E-fatura belgelerinizin gerektirdiği gibi belgeleri el ile gönderebilirsiniz.
 
 > [!NOTE]
-> Devam etmeden önce, İtalya'ya ait e-faturalar için gerekli olan kurulumun tamamlandığından emin olun. Daha fazla bilgi için bkz. [Müşteri elektronik faturaları](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Elektronik faturalama etkinleştirilmesi nedeniyle, bu konuda açıklanan bazı kurulum adımları kullanılamayabilir.
+> Devam etmeden önce, İtalya'ya ait e-faturalar için gerekli olan kurulumun tamamlandığından emin olun. Daha fazla bilgi için bkz. [Müşteri elektronik faturaları](./emea-ita-e-invoices.md). Elektronik faturalama etkinleştirilmesi nedeniyle, bu konuda açıklanan bazı kurulum adımları kullanılamayabilir.
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.

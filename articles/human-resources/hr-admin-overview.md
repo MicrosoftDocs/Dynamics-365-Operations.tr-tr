@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801155"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889776"
 ---
 # <a name="administration-overview"></a>Yönetime genel bakış
 
@@ -46,10 +46,10 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Dayforce ile tümleştirmeyi yapılandırma](hr-admin-integration-dayforce.md)
   - [Yinelenen veri dışarı aktarma uygulaması oluşturma](hr-admin-integration-recurring-data-export.md)
   - Office ile tümleştirme
-    - [Office tümleştirmesi öğreticisi](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excel'de varlık verilerini güncelleştirme](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Excel'de Aç deneyimleri oluşturma](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Office tümleştirmesi ile ilgili sorunları giderme](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Office tümleştirmesi öğreticisi](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excel'de varlık verilerini güncelleştirme](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Excel'de Aç deneyimleri oluşturma](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Office tümleştirmesi ile ilgili sorunları giderme](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Özellikleri yönetme](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ Bu Yönetici Kılavuzu, Dynamics 365 Human Resources kurmanıza, yönetmenize ve
   - [Görev Kaydedici ile belge veya eğitim oluşturma](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Human Resources ile ilgili sorunları giderme
-  - [Destek alma](hr-admin-troubleshooting-support.md)
+  - [Destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Otomatik temizleme görevleriyle performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-history.md)
   - [Analitik raporlar güncelleştirilmedi](hr-admin-troubleshooting-analytic-reports.md)
   - [Power Apps Yönetim merkezinde ortam oluşturulamıyor](hr-admin-troubleshooting-power-apps.md)

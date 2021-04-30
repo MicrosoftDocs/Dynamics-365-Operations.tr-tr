@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809794"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899107"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
 
@@ -29,9 +29,10 @@ ms.locfileid: "5809794"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> Üretim yürütme iş yükü şu anda önizlemede sunulmaktadır.
 > İş yükü ölçek birimleri kullanıldığında, genel önizlemedeki bazı iş işlevleri tam olarak desteklenmez.
 
-Üretim yürütmede, bulut ve edge ölçek birimleri, ölçek hub'a bağlı olmasalar bile aşağıdaki özellikleri sağlar:
+Üretim yürütmede, ölçek birimleri aşağıdaki özellikleri sunar:
 
 - Makine operatörleri ve üretim katı denetçileri operasyonel üretim planına erişebilirler.
 - Makine operatörleri, gizli ve süreç üretim işleri çalıştırarak planı güncel tutabilir.
@@ -108,5 +109,6 @@ Bir ölçek biriminde işlenmiş olan üretim işlerinin geçmişini gözden ge�
 
 _Üretim hub'ından ölçek birimine ileti işleyicisi_ işi, hub'dan ölçek birimine giden verileri işler. Üretim yürütme iş yükü dağıtıldığında bu iş otomatik olarak başlatılır. Bununla birlikte, **Üretim denetimi \> Periyodik görevler \> Arka ofis iş yükü yönetimi \> Üretim hub'ından ölçek birimine ileti işleyici**'ye giderek istediğiniz zaman el ile çalıştırabilirsiniz.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

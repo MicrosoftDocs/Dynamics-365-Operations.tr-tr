@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840785"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909012"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Müşteri portalını özelleştirme ve kullanma
 
@@ -33,14 +33,14 @@ Müşteri Portalı birkaç Web sayfası ve kutudan birinin dışında bir eylem 
 
 Aşağıdaki konular Power Apps portalların ve portalların nasıl özelleştirilebileceği hakkında temel bilgileri öğrenmenize yardımcı olur:
 
-- [Şablonlarla çalışma](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates) – Bu konuda, Power Apps portalların nasıl çalıştığı ve portallardaki basit özelleştirmelerin nasıl yapılacağı ile ilgili genel bir bakış sunulmaktadır.
-- [Portal içeriğini yönetme](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Bu konu, portalınızda yüzeyiniz içeriği nasıl yöneteceğinizi ve özelleştirebileceğinizi açıklamaktadır.
-- [CSS Düzenle](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Bu konu, portalınızdaki Kullanıcı arabirimi (UI) için daha karmaşık özelleştirmeler yapmanıza yardımcı olur.
-- [Portalınız için bir tema oluşturun](https://docs.microsoft.com/dynamics365/portals/create-theme) – Bu konu, portalınız için bir UI teması oluşturmanıza yardımcı olur.
-- [Portal içeriğini kolayca oluşturma ve gösterme](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content): Bu konu, portalınız için kullandığınız temel verileri ve tabloları yönetmenize yardımcı olur.
-- [Bir ilgili kişiyi portalda kullanılmak üzere konfigüre etme](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Bu konu Kullanıcı rollerinin nasıl oluşturulacağını ve özelleştirileceğini ve güvenlik ve kimlik doğrulamanın Power Apps portalda nasıl çalıştığını açıklamaktadır.
-- [Tablo formları ve portallardaki Web formları için notları yapılandırma](https://docs.microsoft.com/powerapps/maker/portals/configure-notes): Bu konu, portala nasıl belge ve ek depolama alanı ekleneceğini açıklamaktadır.
-- [Portal Web sitesi için hata işleme](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Bu konu, portal hata günlüklerinin nasıl görüntüleneceğini ve bunları Microsoft Azure BLOB depolama hesabınızda nasıl depolayabileceğinizi açıklamaktadır.
+- [Şablonlarla çalışma](/powerapps/maker/portals/work-with-templates) – Bu konuda, Power Apps portalların nasıl çalıştığı ve portallardaki basit özelleştirmelerin nasıl yapılacağı ile ilgili genel bir bakış sunulmaktadır.
+- [Portal içeriğini yönetme](/dynamics365/portals/manage-portal-content) – Bu konu, portalınızda yüzeyiniz içeriği nasıl yöneteceğinizi ve özelleştirebileceğinizi açıklamaktadır.
+- [CSS Düzenle](/powerapps/maker/portals/edit-css) – Bu konu, portalınızdaki Kullanıcı arabirimi (UI) için daha karmaşık özelleştirmeler yapmanıza yardımcı olur.
+- [Portalınız için bir tema oluşturun](/dynamics365/portals/create-theme) – Bu konu, portalınız için bir UI teması oluşturmanıza yardımcı olur.
+- [Portal içeriğini kolayca oluşturma ve gösterme](/dynamics365/portals/create-expose-portal-content): Bu konu, portalınız için kullandığınız temel verileri ve tabloları yönetmenize yardımcı olur.
+- [Bir ilgili kişiyi portalda kullanılmak üzere konfigüre etme](/powerapps/maker/portals/configure/configure-contacts) – Bu konu Kullanıcı rollerinin nasıl oluşturulacağını ve özelleştirileceğini ve güvenlik ve kimlik doğrulamanın Power Apps portalda nasıl çalıştığını açıklamaktadır.
+- [Tablo formları ve portallardaki Web formları için notları yapılandırma](/powerapps/maker/portals/configure-notes): Bu konu, portala nasıl belge ve ek depolama alanı ekleneceğini açıklamaktadır.
+- [Portal Web sitesi için hata işleme](/powerapps/maker/portals/admin/view-portal-error-log) – Bu konu, portal hata günlüklerinin nasıl görüntüleneceğini ve bunları Microsoft Azure BLOB depolama hesabınızda nasıl depolayabileceğinizi açıklamaktadır.
 
 ## <a name="customize-the-order-creation-process"></a>Sipariş oluşturma işlemini Özelleştir
 
@@ -88,7 +88,7 @@ Müşteri portalından sipariş gönderme standart adımları aşağıda verilme
 
 Sorunsuz bir kullanıcı deneyiminin sağlanmasına yardımcı olmak için, müşteri portalı gerekli birkaç alana ait değerleri otomatik olarak doldurur. Bu değerler siparişi gönderen müşterinin ilgili kişi kaydındaki bilgileri temel alınır.
 
-Siparişleri göndermek için müşteri portalını kullanacak bir müşteriye ait her [ilgili kişi satırı](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) için, aşağıdaki gerekli alanlar için değerlerin belirtilmesi gerekir. Aksi takdirde, hatalar oluşur.
+Siparişleri göndermek için müşteri portalını kullanacak bir müşteriye ait her [ilgili kişi satırı](/powerapps/maker/portals/configure/configure-contacts) için, aşağıdaki gerekli alanlar için değerlerin belirtilmesi gerekir. Aksi takdirde, hatalar oluşur.
 
 - **Şirket** – Siparişin ait olduğu yasal varlık
 - **Olası müşteri** - Siparişle ilişkilendirilen müşteri hesabı.
@@ -134,16 +134,16 @@ Maddeler için aşağıdaki sütunlar gereklidir:
 
 Müşteri portalınızın tüm bu sütunlar için değer gönderdiğinden emin olmanız gerekir.
 
-Sayfaya sütun eklemek veya sütunları kaldırmak istiyorsanız bkz. [Kolaylaştırılmış bir veri girişi deneyimi için hızlı kayıt formları oluşturma veya düzenleme](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Sayfaya sütun eklemek veya sütunları kaldırmak istiyorsanız bkz. [Kolaylaştırılmış bir veri girişi deneyimi için hızlı kayıt formları oluşturma veya düzenleme](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
 Sütunların önceden belirlenme şeklini ve bu sayfa kaydedildiğinde değerlerin nasıl ayarlanacağını değiştirmek istiyorsanız Power Apps portal belgelerinde aşağıdaki bilgileri inceleyin:
 
-- [Önceden doldurulan alan](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Kaydederken değeri ayarla](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Önceden doldurulan alan](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Kaydederken değeri ayarla](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>Giriş sayfasını Özelleştir
 
-Müşteri Power Apps portalındaki tüm kontroller yerleşik Portal denetimleridir. Bunları, Power Apps Portal belgelerinde [sayfa oluşturma](https://docs.microsoft.com/powerapps/maker/portals/compose-page) içindeki adımları izleyerek özelleştirebilirsiniz.
+Müşteri Power Apps portalındaki tüm kontroller yerleşik Portal denetimleridir. Bunları, Power Apps Portal belgelerinde [sayfa oluşturma](/powerapps/maker/portals/compose-page) içindeki adımları izleyerek özelleştirebilirsiniz.
 
 Ana sayfada kutucukları oluşturmak için müşteri portalı şablonunda bulunan tek özel kontrol kullanılır.
 
@@ -151,7 +151,7 @@ Ana sayfada kutucukları oluşturmak için müşteri portalı şablonunda buluna
 
 Kutucukları değiştirmek için aşağıdaki adımları izleyin.
 
-1. [Portal Yönetimi uygulamasını](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal) açın.
+1. [Portal Yönetimi uygulamasını](/powerapps/maker/portals/configure/configure-portal) açın.
 1. Soldaki gezinti bölmesinde **Sayfa Şablonları**'nı seçin.
 
     ![Portal Yönetimi gezinti bölmesi](media/customer-portal-nav.png "Portal Yönetimi gezinti bölmesi")
@@ -167,11 +167,11 @@ Kutucukları değiştirmek için aşağıdaki adımları izleyin.
 
 Müşteri portalını nasıl ayarlayabileceğinizi ve özelleştirebileceğinizi öğrenmek için aşağıdaki kaynaklara bakın:
 
-- [Power Apps portal belgeleri](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Power Apps portal belgeleri](/powerapps/maker/portals/overview)
 - [Çift yazma belgeleri](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Portal yaşam döngüsü hakkında](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Bir portalı yükselt](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portal konfigürasyonu geçir](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Portal yaşam döngüsü hakkında](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Bir portalı yükselt](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portal konfigürasyonu geçir](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Çözüm yaşam döngüsü yönetimi: Customer Engagement için Dynamics 365 uygulamaları](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

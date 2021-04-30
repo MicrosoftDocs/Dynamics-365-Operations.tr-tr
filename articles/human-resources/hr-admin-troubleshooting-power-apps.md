@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1a086f1b710de9bad898abc740286c174ae3be7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 26a228229a09e74809a048675a3ff90025f2a26c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797997"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892239"
 ---
 # <a name="cant-create-an-environment-in-the-power-apps-admin-center"></a>Power Apps Yönetim merkezinde ortam oluşturulamıyor
 
@@ -43,7 +43,7 @@ Kiracı yöneticisinin, ortamı oluşturan kullanıcıya geçerli bir Power Apps
 Çeşitli Microsoft Office SKU'larının da bu hakkı, tek başına Power Apps Plan 2 SKU'larıyla birlikte tanıdığına dikkat edin. Buradaki önemli nokta bu SKU'lardan birinin mevcut olması zorunluluğudur.
 
 1. [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments) gidin.
-2. [İnsan Kaynakları sağlama](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) içindeki talimatları izleyerek ortamlar oluşturun.
+2. [İnsan Kaynakları sağlama](/dynamics365/unified-operations/talent/provisioning-talent) içindeki talimatları izleyerek ortamlar oluşturun.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

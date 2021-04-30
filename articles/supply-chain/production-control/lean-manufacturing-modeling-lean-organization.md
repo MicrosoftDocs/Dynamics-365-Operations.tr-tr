@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837645"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910389"
 ---
 # <a name="modeling-a-lean-organization"></a>Bir yalın kuruluşu modelleme
 
@@ -51,7 +51,7 @@ Değer akışının gelecekteki durumu, bir üretim akışı sürümü olarak mo
 
 Değer akışı bir işletme birimi olarak modellenmiştir. Bu nedenle, değer akışı bir mali boyut olarak kullanılabilir.
 
-Operasyon birimleri hakkında daha fazla bilgi için bkz. [Bir operasyon birimi oluştur](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Operasyon birimleri hakkında daha fazla bilgi için bkz. [Bir operasyon birimi oluştur](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Üretim akışını temel alan yalın üretim için maliyetlendirme
 Üretim akışının maliyetin dönemsel birleştirmesi, ilgili süren iş hesabını düzeltir ve üretim tarafından tedarik edilen ürünlerin farklılıkların belirlenmesini etkinleştirir.

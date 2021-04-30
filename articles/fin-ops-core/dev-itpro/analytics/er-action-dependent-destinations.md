@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751244"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893590"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Eyleme bağlı ER hedeflerini yapılandırma
 
@@ -60,7 +60,7 @@ Geçerli Finance kurulumunda eyleme bağlı ER hedeflerini yapılandırmak ve [y
     - Çalışma zamanında **Gönder** eylemi sağlanırsa **E-posta** ER hedefi uygulanır.
     - Çalışma zamanında **Yazdır** eylemi sağlanırsa **Yazıcı** ER hedefi uygulanır.
 
-Örneğin, deftere naklettiğinizde [serbest metin faturasını](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) yazdırmak için **Serbest metin faturası (Excel)** ER biçimini kullanabilirsiniz. Oluşturulan bir belgeyi yönlendirmek için bu ER biçimi için ER hedeflerini yapılandırmalısınız. Örneğin, bu ER hedeflerini, oluşturulan bir belgede aşağıdakileri gerçekleştirecek şekilde yapılandırmanız gerekebilir:
+Örneğin, deftere naklettiğinizde [serbest metin faturasını](../../../finance/accounts-receivable/create-free-text-invoice-new.md) yazdırmak için **Serbest metin faturası (Excel)** ER biçimini kullanabilirsiniz. Oluşturulan bir belgeyi yönlendirmek için bu ER biçimi için ER hedeflerini yapılandırmalısınız. Örneğin, bu ER hedeflerini, oluşturulan bir belgede aşağıdakileri gerçekleştirecek şekilde yapılandırmanız gerekebilir:
 
 - ER biçimi çalıştırılmasına rağmen eylem kodu sağlanmazsa belgeyi arşivleyin (ör. belgenin elektronik olarak gönderilmesi durumunda).
 - Kullanıcı **Görüntüle** eylemini gerçekleştirdiğinde belgeyi web tarayıcısında önizlemeyle görüntüleyin.
@@ -82,7 +82,7 @@ Aşağıdaki çizimde, tek bir hedef için her kayıt yapılandırma işleminde 
 
 Bir ER biçimi çalıştırıldığında, çalışma zamanında yapılandırılan hedef ayarlarını değiştirmek için uygun [izinlere](electronic-reporting-destinations.md#security-considerations) sahip kullanıcılar tarafından kullanıcı eylemleri sağlanırsa, yapılandırılan hedef ayarlarını değiştirme seçeneği sunan bir iletişim kutusu gösterilir. Bu iletişim kutusu isteğe bağlıdır ve görünümü, ER çerçevesinin ER biçimini çalıştırmak için yaptığı çağrının nasıl uygulandığına bağlıdır. Bu iletişim kutusu görüntülenirse içindeki ER hedefleri sağlanan kullanıcı eylemine göre etkinleştirilir.
 
-Aşağıdaki çizimde, serbest metin faturası [deftere nakledildiğinde](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) görüntülenen **Elektronik raporlama biçimi hedefleri** iletişim kutusunun bir örneği gösterilir. **Yazıcı** eylemi sağlanmışsa ve bu konunun önceki kısımlarında belirtilen şekilde bu biçim için ER hedefleri yapılandırılmışsa bu belgeyi oluşturmak için **Serbest metin faturası (Excel)** ER biçimi çalıştırılır.
+Aşağıdaki çizimde, serbest metin faturası [deftere nakledildiğinde](../../../finance/accounts-receivable/create-free-text-invoice-new.md) görüntülenen **Elektronik raporlama biçimi hedefleri** iletişim kutusunun bir örneği gösterilir. **Yazıcı** eylemi sağlanmışsa ve bu konunun önceki kısımlarında belirtilen şekilde bu biçim için ER hedefleri yapılandırılmışsa bu belgeyi oluşturmak için **Serbest metin faturası (Excel)** ER biçimi çalıştırılır.
 
 ![Çalıştırılan ER biçimi için başlangıçta yapılandırılmış ER hedeflerini değiştirme seçeneği sunan iletişim kutusu](./media/er-destination-action-dependent-02.gif)
 

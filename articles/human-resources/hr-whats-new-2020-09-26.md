@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bb0d01536106306dd456f4f3474611fa29530e2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cc730bca25293e7dbc78d72834dc8abf9b2a1ec4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800081"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892693"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler 26 Eylül 2020
 
@@ -30,7 +30,7 @@ ms.locfileid: "5800081"
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
-Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Bu sürümde
 
@@ -40,7 +40,7 @@ Bu sürüm aşağıdaki yeni özellikleri ve hata düzeltmelerini içerir. Deği
 
 Aşağıdaki özellik genellikle bu sürümde mevcuttur:
 
-- **Platform güncelleştirmesi 10.0.13 şimdi kullanılabilir durumda**: Güncelleştirme hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Platform güncelleştirmesi 10.0.13 şimdi kullanılabilir durumda**: Güncelleştirme hakkında daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.13 sürümü için platform güncelleştirmeleri (2020 Ekim)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -67,21 +67,21 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Microsoft Teams'de Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
-| Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Microsoft Teams'de Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](./hr-admin-teams-leave-app.md)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
+| Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 
 ## <a name="coming-soon"></a>Çok yakında
 
 Aşağıdaki yeni özellik gelecekteki bir sürüm için planlanmıştır:
 
-- [Yönetici self servisindeki özel bağlantılar](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
+- [Yönetici self servisindeki özel bağlantılar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service)
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Human Resources'da yeni olan veya değiştirilen özellikler](hr-admin-whats-new.md)
-[Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
+[Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)
 [Özellikleri Yönetme](hr-admin-manage-features.md)
 

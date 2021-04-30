@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832406"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899179"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832406"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Ölçek birimlerinde ambar yürütme
 
-Bu özellik, ölçek birimlerinin ambar yönetimi özelliklerinden seçili işlemlerin çalıştırılmasını sağlar. Bulut ölçek birimleri, seçtiğiniz Microsoft Azure bölgesinde özel işleme kapasitesini kullanarak iş yüklerini bulutta çalıştırır. Uç ölçek birimlerinde, ölçek birimlerinin bulutla geçici olarak bağlantısı kesilse bile, bazı iş yüklerini şirket içinde bağımsız olarak çalıştırabilirsiniz.
+Bu özellik, ölçek birimlerinin ambar yönetimi özelliklerinden seçili işlemlerin çalıştırılmasını sağlar.
 
 Bu konudaki, ölçek birimi olarak tanımlanan bir ambardaki ambar yönetimi yürütmeleri *Ambar yürütme sistemi* *(WES)* olarak da bilinir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Ambar yönetimi iş yüküyle birlikte dağıtılan bir Dynamics 365 Supply Chain Management hub'ına ve ölçek birimine sahip olmalısınız. Mimari ve dağıtım süreçleri hakkında daha fazla bilgi için bkz. [Üretim ve ambar yönetimi iş yükleri için bulut ve edge ölçek birimleri](cloud-edge-landing-page.md).
+Ambar yönetimi iş yüküyle birlikte dağıtılan bir Dynamics 365 Supply Chain Management hub'ına ve ölçek birimine sahip olmalısınız. Mimari ve dağıtım süreçleri hakkında daha fazla bilgi için bkz. [Tedarik zinciri yönetimi iş yükleri için esnekliği artırmak üzere ölçek birimlerini kullanma](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>WES iş yükü ölçek birimlerinde nasıl çalışır?
 
@@ -297,6 +297,8 @@ Hub dağıtımında toplu işleri el ile koruyabilirsiniz. **Ambar yönetimi \> 
 - Dalga tablosu kayıtlarını işleme
 - Ambar hub'ından ölçek birimine ileti işlemcisi
 - Ambar sipariş satırları için miktar güncelleştirme isteklerini işle
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

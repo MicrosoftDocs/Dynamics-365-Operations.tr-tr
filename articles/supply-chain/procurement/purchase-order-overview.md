@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825338"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909144"
 ---
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
@@ -41,7 +41,7 @@ Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bak�
 -   [Satınalma siparişleri oluşturma](purchase-order-creation.md)
 -   [Satınalma siparişlerini onaylama](purchase-order-approval-confirmation.md)
 -   [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
--   [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Satınalma siparişlerinin türleri
 Üç tip satınalma siparişi vardır: Bir satınalma siparişi oluşturduğunuzda türünü belirtmeniz gerekir. Yeni siparişler için varsayılan sipariş türünü **Tedarik ve kaynak atama parametreleri** sayfasından ayarlayabilirsiniz.
@@ -85,7 +85,7 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 
 [Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 
-[Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Satıcı faturalarına genel bakış](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

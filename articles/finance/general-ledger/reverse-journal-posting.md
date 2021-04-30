@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815416"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897148"
 ---
 # <a name="reverse-journal-posting"></a>Ters günlük nakli
 
@@ -65,7 +65,7 @@ Hareketler ters kaydedilir.
 
 Fiş satırlarının sayısı 100 veya daha az ise ters kayıt işlemi hemen çalıştırılır. Sonuçlar, ters kaydedilememiş fişleri ve ters kaydedilememe nedenlerini gösteren bir iletişim kutusunda görüntülenir. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-Hareketler ancak ters işlem uygulanabilecek iş kurallarına uygun olduklarında ters kaydedilebilir. Bu konuda açıklanan özellik kullanılarak satıcı ödemeleri tersine çevrilemez. Satıcı ödemelerinin [Satıcı ödemesini tersine çevirme](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment) bölümünde listelenen adımlar kullanılarak tersine çevrilmesi gerekir.
+Hareketler ancak ters işlem uygulanabilecek iş kurallarına uygun olduklarında ters kaydedilebilir. Bu konuda açıklanan özellik kullanılarak satıcı ödemeleri tersine çevrilemez. Satıcı ödemelerinin [Satıcı ödemesini tersine çevirme](../accounts-payable/reverse-vendor-payment.md) bölümünde listelenen adımlar kullanılarak tersine çevrilmesi gerekir.
 
 
 

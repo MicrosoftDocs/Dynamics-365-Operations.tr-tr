@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802299"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894618"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Dynamics 365 Human Resources'taki yenilikler veya değişiklikler (6 Ekim 2020)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802299"
 
 Bu konuda, Dynamics 365 Human Resources'daki yeni, değişen veya gelecek özellikler açıklanmaktadır. Güncelleştirme işlemi ve planı hakkında daha fazla bilgi için bkz. [Güncelleştirme işlemi](hr-admin-setup-update-process.md).
 
-Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Yeni özellikler ve bunların beklenen genel kullanılabilirlik tarihleri hakkında daha fazla bilgi için, [Dynamics 365 Human Resources 2020 sürümü 2. Dalga'ya bakın](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Bu sürümde
 
@@ -42,7 +42,7 @@ Aşağıdaki özellik genel olarak bu sürümde mevcuttur.
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| İzin takvimleri konusunda ek bilgiler | [İzin takvimleri görünümü konusunda ek bilgiler sunma](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Takım ve şirket takvimini görüntüleme](hr-employee-self-service-calendar.md) |
+| İzin takvimleri konusunda ek bilgiler | [İzin takvimleri görünümü konusunda ek bilgiler sunma](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Takım ve şirket takvimini görüntüleme](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 
@@ -70,9 +70,9 @@ Aşağıdaki yeni özellikler önizlemededir. Özellikleri açma hakkında daha 
 
 | Özellik | Sürüm planı | Belgeler |
 | --- | --- | --- |
-| Microsoft Teams'de Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
-| Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Human Resources için Dataverse'te sanal varlıklar | [Dataverse'te Dynamics 365 Human Resources temel verilerini genişletme](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Dataverse sanal varlıklarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Microsoft Teams'de Human Resources uygulaması | [Microsoft Teams'de çalışan izin ve devamsızlık deneyimi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Teams'de Human Resources uygulaması](./hr-admin-teams-leave-app.md)<br>[Teams'de izin isteklerini yönetme](hr-teams-leave-app.md) |
+| Geliştirilmiş iş akışı istekleri ve onaylar | [Kuruluş ve personel yönetimi iş akışı deneyimi geliştirmeleri](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Bana atanan iş öğeleri listesini konumlandırmak için yapılandırma seçeneği](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Human Resources için Dataverse'te sanal varlıklar | [Dataverse'te Dynamics 365 Human Resources temel verilerini genişletme](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Dataverse sanal varlıklarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Çok yakında
 
@@ -82,14 +82,14 @@ Aşağıdaki yeni özellikler gelecekteki bir sürüm için planlanmıştır:
 
 - **Yan haklar yönetimi neden kodları**: Yan haklar yönetimi neden kodları Human Resources içinde var olan neden kodlarıyla yakında birleştirilecektir. Yan haklar yönetiminde 15 karakterden uzun neden kodları oluşturduysanız, Yan haklar yönetimi **Neden kodları** formunda neden kodunun adını 15 karakter veya daha az olacak şekilde değiştirmeniz gerekir. Adı güncelleştirdiğinizde, neden kodu, Personel yönetimi'nde var olan neden kodu formunun altında görüntülenir. Bu değişiklik gelecekte kullanılabilir olacaktır ve var olan işlevleri etkilemeyecek.
 
-- **Yönetici self servisindeki özel bağlantılar**: Yöneticileri desteklemek için, Yönetici Self Servisindeki yetenekleri genişletiyoruz. **Ekibim** sekmesinde özel bağlantılar ekleme özelliği ekliyoruz. Bu özellik, Çalışan Self Servisindeki **bilgilerim sekmesinde** bulunan özel bağlantılar özelliğine benzer. Daha fazla bilgi için bkz [Yönetici self servisinde özel bağlantılar](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Yönetici self servisindeki özel bağlantılar**: Yöneticileri desteklemek için, Yönetici Self Servisindeki yetenekleri genişletiyoruz. **Ekibim** sekmesinde özel bağlantılar ekleme özelliği ekliyoruz. Bu özellik, Çalışan Self Servisindeki **bilgilerim sekmesinde** bulunan özel bağlantılar özelliğine benzer. Daha fazla bilgi için bkz [Yönetici self servisinde özel bağlantılar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
-Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
+Planlanan özelliklerin tam listesi ve bunların zamanlanmış sürümleri için, bkz. [Dynamics 365 Human Resources 2019 sürümü 2. Dalga'ya genel bakış](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Human Resources'daki yenilikler veya değişiklikler](hr-admin-whats-new.md)</br>
-[Dynamics 365 Human Resources 2020 sürüm 2'ye genel bakış](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Dynamics 365 Human Resources 2020 sürüm 2'ye genel bakış](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Güncelleştirme işlemi](hr-admin-setup-update-process.md)</br>
 [Özellikleri yönetme](hr-admin-manage-features.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842028"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909731"
 ---
 # <a name="product-readiness"></a>Ürün hazır olma durumu
 
@@ -142,7 +142,7 @@ Eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 | Şirket | **Şuraya yürüt** alanını *Tek şirket* olarak ayarlarsanız şirketi seçin. |
 | Sahip türü | Satırın oluşturduğu hazır denetimlerin bir kişiye mi yoksa bir takıma mı atanması gerektiğini seçin. |
 | Sahip | Satırın oluşturduğu hazırlık denetimlerinin atanması gereken kişi veya takımı seçin. |
-| Soru formu | Denetim listesi için kullanılması gereken anketi seçin. Denetim listesi, hazırlık denetimin yapıldığı şirketteki yerel bir denetim listesidir. Sistem, denetim listesinin doğru yanıtlanıp yanıtlanmadığını değerlendirebilmelidir. Bu nedenle, doğru yanıtlara dayalı bir değerlendirme yapılacak şekilde denetim listesi ayarlanmalıdır. Anketlerin nasıl oluşturulacağı hakkında daha fazla bilgi için bkz. [Anketleri kullanma](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) ve ilgili konuları. |
+| Soru formu | Denetim listesi için kullanılması gereken anketi seçin. Denetim listesi, hazırlık denetimin yapıldığı şirketteki yerel bir denetim listesidir. Sistem, denetim listesinin doğru yanıtlanıp yanıtlanmadığını değerlendirebilmelidir. Bu nedenle, doğru yanıtlara dayalı bir değerlendirme yapılacak şekilde denetim listesi ayarlanmalıdır. Anketlerin nasıl oluşturulacağı hakkında daha fazla bilgi için bkz. [Anketleri kullanma](/dynamicsax-2012/appuser-itpro/using-questionnaires) ve ilgili konuları. |
 | Otomatik onay | Hazırlık denetimi kayıtları, onay durumunu gösteren bir **Onaylandı** onay kutusu içerir. Atanan kullanıcı bunları tamamladıktan hemen sonra onaylanacak şekilde ayarlanacak denetimler için **Otomatik onay** onay kutusunu seçin. Ek bir adım olarak açık onay gerektirmesi için bu onay kutusunu temizleyin. |
 | Zorunlu | Atanan kullanıcı tarafından tamamlanması gereken denetimler için bu onay kutusunu seçin. Zorunlu denetimler atlanamaz. |
 

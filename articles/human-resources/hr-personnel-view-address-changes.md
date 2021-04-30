@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802467"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892141"
 ---
 # <a name="view-and-manage-address-changes"></a>Adres değişikliklerini görüntüleme ve yönetme
 
@@ -125,9 +125,9 @@ Bazı durumlarda, gelecekte değiştirilecek bir adresi güncelleştirmek isteye
 **Adres değişiklikleri** kutucuğunu seçtiğinizde, yeni bir sayfa, tüm adres değişikliklerinin ayrıntılarını görüntüler. Gelecek tarihteki adres değişikliklerini görüntülemek için, isteğe bağlı olarak, sağ üst köşedeki **Gelecek adres değişikliklerini dahil et**'i seçebilirsiniz.
 
 > [!NOTE]
-> Bu adres değişiklikleriyle ilgili bir uyarı veya e-posta almak istiyorsanız, Eylem bölmesindeki **Seçenekler** sekmesinde yeni bir uyarı kuralı oluşturabilirsiniz. Uyarı kuralları ile ilgili daha fazla bilgi için bkz. [Uyarı kuralları oluşturma](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Bu adres değişiklikleriyle ilgili bir uyarı veya e-posta almak istiyorsanız, Eylem bölmesindeki **Seçenekler** sekmesinde yeni bir uyarı kuralı oluşturabilirsiniz. Uyarı kuralları ile ilgili daha fazla bilgi için bkz. [Uyarı kuralları oluşturma](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Adres değişiklikleri için bir iş akışı yapılandırmak istiyorsanız, uyarı kuralınızda **Harici olarak gönder** seçeneğini seçebilir ve iş olayını tetikleyip bir iş akışı yapılandırmak için Power Automate kullanabilirsiniz. Daha fazla bilgi için bkz. [İş olayları olarak uyarılar](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Adres değişiklikleri için bir iş akışı yapılandırmak istiyorsanız, uyarı kuralınızda **Harici olarak gönder** seçeneğini seçebilir ve iş olayını tetikleyip bir iş akışı yapılandırmak için Power Automate kullanabilirsiniz. Daha fazla bilgi için bkz. [İş olayları olarak uyarılar](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

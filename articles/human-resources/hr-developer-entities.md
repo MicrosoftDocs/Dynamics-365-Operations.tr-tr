@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e316cda9b9c5361c0a2837e7ed6c050e76cc39b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8ddb74a2f0b6265c5be3c13a009211455ea862da
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793621"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893412"
 ---
 # <a name="dataverse-tables"></a>Dataverse tabloları
 
@@ -30,7 +30,7 @@ ms.locfileid: "5793621"
 Microsoft Dynamics 365 Human Resources, Dataverse genişletilebilirlik ve tümleştirme senaryolarını etkinleştirmek için kullanılır.
 
 > [!NOTE]
-> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources varlıkları Dataverse tablolarına karşılık gelir. Dataverse (önceden Common Data Service) ve terminoloji güncelleştirmeleri hakkında daha fazla bilgi için bkz. [Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)
 
 Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanılabilir.
 
@@ -181,8 +181,8 @@ Aşağıdaki Dataverse tabloları Human Resources varlıklarına göre kullanıl
 [Dataverse tümleştirmesini yapılandırma](hr-admin-integration-common-data-service.md)<br>
 [Dataverse sanal tablolarını yapılandırma](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Human Resources sanal tablolarıyla ilgili SSS](hr-admin-virtual-entity-faq.md)<br>
-[Microsoft Dataverse nedir?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[Terminoloji güncelleştirmeleri](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+[Microsoft Dataverse nedir?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[Terminoloji güncelleştirmeleri](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

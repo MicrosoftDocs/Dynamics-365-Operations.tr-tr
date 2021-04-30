@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 59a421b5e81366845901c44486acb3dfa3781850
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753660"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894112"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 
@@ -42,7 +42,7 @@ Bu özellik hakkında daha fazla bilgi edinmek için bu konudaki örneği tamaml
 
 ## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Örneğin: Bir ER biçimindeki bir sıra öğesinin yürütülmesini erteleme
 
-Aşağıdaki adımlarda, Sistem Yöneticisi veya Elektronik raporlama işlev danışmanı [rolündeki](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) bir kullanıcının, yürütme sırasının biçim hiyerarşisindeki sıradan farklı olduğu bir sıra öğesini içeren bir ER biçimini nasıl yapılandırabileceği açıklanmaktadır.
+Aşağıdaki adımlarda, Sistem Yöneticisi veya Elektronik raporlama işlev danışmanı [rolündeki](../sysadmin/tasks/assign-users-security-roles.md) bir kullanıcının, yürütme sırasının biçim hiyerarşisindeki sıradan farklı olduğu bir sıra öğesini içeren bir ER biçimini nasıl yapılandırabileceği açıklanmaktadır.
 
 Bu adımlar Microsoft Dynamics 365 Finance'teki **USMF** şirketinde gerçekleştirilebilir.
 

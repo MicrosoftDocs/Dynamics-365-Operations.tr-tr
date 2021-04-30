@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840064"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894895"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Meksika için Elektronik faturalamayı kullanmaya başlama
 
@@ -86,7 +86,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
     ![Biçim tasarımcısı sayfasını açma](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. **Biçim tasarımcısı** sayfasını, ER biçimi dosya yapılandırmalarını düzenlemek ve görüntülemek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. **Biçim tasarımcısı** sayfasını, ER biçimi dosya yapılandırmalarını düzenlemek ve görüntülemek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Biçim tasarımcısı sayfası](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Finance içindeki Elektronik faturalamayı ayarlamak için şu görevleri tamaml
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>ER veri modelini, ER veri modeli eşleştirmesini ve CFDI faturaları için bağlam yapılandırmalarını içe aktarın
 
 1. Finance'de oturum açın.
-2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. **Elektronik raporlama** çalışma alanında, **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** başlığını seçin. Bu yapılandırma sağlayıcısının **Etkin** olarak ayarlandığından emin olun. Sağlayıcının **Etkin** olarak nasıl ayarlanacağı hakkında daha fazla bilgi için bkz. [Yapılandırma sağlayıcıları oluşturma ve etkin olarak işaretleme](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. **Depolar**'ı seçin.
 4. **Genel kaynak \> Aç**'ı seçin.
 5. **Fatura modeli**, **Fatura modeli eşlemesi**, **CFDI fatura biçimi (MX)**, **CFDI fatura iptal isteği biçimi (MX)** ve **CFDI fatura iptali biçimi (MX)** ögelerini ni içe aktarın.
@@ -215,7 +215,7 @@ Elektronik faturalama ile Finance içindeki CFDI faturalarının işlenmesi sır
 **Yapılandırılabilir Elektronik faturalama tümleştirmesi** özelliğini açtıktan sonra, **CFDI faturalarını göndermek için Elektronik faturayı dışa/içe aktar** işlemi (**Alacak hesapları \> Fatura \> E-faturalar**) artık kullanılamaz. **Elektronik belge gönderme** adı verilen yeni bir işlemle değiştirilir.
 
 > [!NOTE]
-> Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Yeni **Elektronik belge gönder** işlemini kullanmadan önce, Meksika e-faturaları için gerekli olan kurulumun tamamlandığını doğrulayın. Daha fazla bilgi için bkz. [CFDI düzen sürümü 3.3](./latam-mex-cfdi-3-3.md).
 
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönder** sayfasına gidin.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini her zaman **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.

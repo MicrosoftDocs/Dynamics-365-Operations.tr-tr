@@ -2,7 +2,7 @@
 title: İş belgesi yönetimine genel bakış
 description: Bu konu, ER çerçevesinin iş belge yönetimi özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749549"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891317"
 ---
 # <a name="business-document-management-overview"></a>İş belgesi yönetimine genel bakış
 
@@ -45,9 +45,9 @@ Microsoft 365 uygulamalarını kullanarak şablonları Excel veya Word biçimler
 
 ## <a name="business-document-availability"></a>İş belgesi uygunluğu
 
-2019 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [ Word ve Excel'de yapılandırılabilir iş belgeleri raporlaması](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+2019 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [ Word ve Excel'de yapılandırılabilir iş belgeleri raporlaması](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-2020 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [Yapılandırılabilir iş belgeleri - Word şablonları](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+2020 Ekim sürümü için planlanan tüm raporların tam listesi için bkz. [Yapılandırılabilir iş belgeleri - Word şablonları](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Gelecekteki sürümlerde daha fazla rapor kullanılabilir olacak. Ek raporlarla ilgili özel bildirimler ayrı olarak gönderilecektir. Şu anda kullanılabilir raporların listesini nasıl inceleyebileceğinizi öğrenmek için aşağıdaki [Yapılandırılabilir iş belgelerini desteklemek için Finance'te yayınlanan ER yapılandırmalarının listesi](#list-of-configurations-cbd) bölümüne bakın.
 
@@ -272,7 +272,23 @@ Seçili şablon için **Şablonu Düzenle** şablonu seçeneği kullanılabilir.
 
 ![Yeni şablon oluşturmak için düzenleme işleminin başlangıcını onaylama](./media/BDM-Overview-EditingTemplate4.png)
 
+Herhangi bir sağlayıcı yoksa oluşturulması önerilecektir. Etkin sağlayıcı yoksa, etkinleştirme için seçmeniz önerilecektir.
+
+Sağlayıcı oluşturmak için, **Ad** alanında sağlayıcının adını değiştirin, **İnternet adresi** alanında yeni sağlayıcının internet adresini güncelleştirin ve onaylamak için **Tamam**'ı seçin.
+
+   ![BDM'de yeni sağlayıcı oluşturma](./media/bdm_create_provider.png)
+
+Mevcut sağlayıcıyı etkinleştirmek için **Yapılandırma sağlayıcısı** alanında sağlayıcının adını seçin ve ardından sağlayıcıyı etkin olarak ayarlamak için **Tamam**'ı seçin.
+
+   ![BDM'de sağlayıcıyı etkinleştirme](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Her BDM şablonu yapılandırmanın yazarı olarak sağlayıcıya başvurur. Bu nedenle şablon için etkin bir sağlayıcı gereklidir.
+
+
 **Yeni belge** seçeneği, geçerli veya başka bir sağlayıcı tarafından (bu örnekte Microsoft) sağlanan ER biçimi yapılandırmasındaki revizyonu olmayan bir şablonda her zaman kullanılabilir. Düzenlenen şablon daha sonra otomatik olarak oluşturulan yeni bir ER biçim yapılandırması içinde depolanır.
+
+
 
 ### <a name="start-editing-a-template"></a>Şablonu düzenlemeye başla
 
@@ -419,7 +435,7 @@ Büyük olasılıkla, bu örneği dağıtmak için kullanılan Azure AD etki ala
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Yapılandırılabilen iş belgelerini desteklemek için Finance'te yayınlanan ER yapılandırmalarının listesi
 
-Finance için ER yapılandırmalarının [listesi](general-electronic-reporting.md#list-of-configurations) sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. Yapılandırılabilir iş belgelerini desteklemek için kullanılan ER yapılandırmalarının listesini incelemek için Genel depo'da [filtre uygulayabilirsiniz](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo).
+Finance için ER yapılandırmalarının [listesi](general-electronic-reporting.md#list-of-configurations) sürekli olarak güncelleştirilmektedir. Şu anda desteklenen ER yapılandırmalarının listesini incelemek için [Genel depo](er-download-configurations-global-repo.md)'yu açın. Yapılandırılabilir iş belgelerini desteklemek için kullanılan ER yapılandırmalarının listesini incelemek için Genel depo'da [filtre uygulayabilirsiniz](../../../finance/localizations/enhanced-filtering-global-repo.md).
 
 ![Yapılandırma deposu sayfasında Genel depo içeriklerini filtreleme](./media/bdm-overview-filterglobalrepo.gif)
 

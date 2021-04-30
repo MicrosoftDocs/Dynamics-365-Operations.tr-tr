@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818573"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898072"
 ---
 # <a name="finance-insights-home-page-preview"></a>Mali içgörüler giriş sayfası (önizleme)
 
@@ -31,7 +31,7 @@ Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekil
 
 Mali içgörüler önizlemesi, Amerika Birleşik Devletleri, Avrupa ve Birleşik Krallık'ta denetim dağıtımları için kullanılabilir. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
 
-Önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açık olabilir ve açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve yapay zeka (AI) modelleri, üretim ortamına geçirilemez. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açık olabilir ve açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve yapay zeka (AI) modelleri, üretim ortamına geçirilemez. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -43,7 +43,7 @@ Bu bölümde, Mali içgörülerin kullanımıyla ilgili gereksinimler listelenmi
 
 ### <a name="system-requirements"></a>Sistem gereksinimleri
 
-Mali içgörüleri önizlemek için Katman 2 korumalı alan ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning) konusuna bakın.
+Mali içgörüleri önizlemek için Katman 2 korumalı alan ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
 
 ### <a name="version-requirements"></a>Sürüm gereksinimleri
 
@@ -79,7 +79,7 @@ Makine öğrenimi modelinin ürettiği verilerin Dynamics 365 Finance'e geçebil
 Yapılandırma adımlarını tamamlayıp tanıtım verilerini ayarladığınızda, kullanmayı planladığınız her özelliği açmanız ve ayarlamanız gerekir: müşteri ödeme tahminleri, nakit akışı tahmini ve bütçe teklifleri.
 
 ### <a name="enable-customer-payment-predictions"></a>Müşteri ödeme tahminlerini etkinleştirme
-Müşteri ödeme tahminlerini test etmek için tanıtım verileri kullanıyorsanız, yapay zeka modelinizi başarılı şekilde oluşturmak için ek tanıtım verilerini içeri aktarmanız gerekebilir. Tanıtım verilerini içeri aktarmayla ilgili adımlar için bkz. [Ödeme tahminleri için tanıtım verilerini ayarlama](set-up-demo-data.md).
+Müşteri ödeme tahminlerini test etmek için tanıtım verileri kullanıyorsanız, yapay zeka modelinizi başarılı şekilde oluşturmak için ek tanıtım verilerini içeri aktarmanız gerekebilir. 
 
 Müşteri ödeme tahminlerini etkinleştirmek için, müşterilerin bekleyen faturaları ne zaman ödeyeceğine ve belirli faturaların ne zaman ödeneceğine dair tahminler oluşturmak için kuruluşunuzun verilerini kullanan bir makine öğreinimi modeli oluşturma adımlarını tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md). 
 

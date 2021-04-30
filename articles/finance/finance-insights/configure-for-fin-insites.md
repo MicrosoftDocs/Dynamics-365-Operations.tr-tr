@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818812"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908842"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Mali içgörüler için yapılandırma (önizleme)
 
@@ -69,7 +69,7 @@ Sonraki manuel yapılandırma adımlarını tamamlayabilir veya sağlanan Window
     13. **Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.
     14. Üst gezinti çubuğunda, **Ayarlar**'ı seçin ve ardından **Özelleştirmeler**'i seçin.
     15. **Geliştirici Kaynakları**'nı seçin.
-    16. **Kurulum Referansı Bilgi Kodu** alanını, daha önce not ettiğiniz Dataverse kuruluş kodu değeri olarak ayarlayın.
+    16. **Dataverse kuruluş kimliği** değerini kopyalayın.
     17. Tarayıcının adres çubuğunda Dataverse kuruluşunun URL'sini not edin. Örneğin, URL şu şekilde olabilir: `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Nakit akışı tahminleri veya bütçe tahminleri özelliğini kullanmayı planlıyorsanız kuruluşunuzun ek açıklama sınırını en az 50 megabayt (MB) olarak güncelleştirmek için aşağıdaki adımları izleyin:
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShell betik dosyası kullanma](#tab/use-a-powershell-script)
 
-[Azure Data Lake'e aktarmayı yapılandırma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake) konusunda açıklandığı gibi Azure kaynaklarını kolayca ayarlayabilmeniz için Windows PowerShell betik dosyası sağlanmıştır. El ile kurulum yapmayı tercih ediyorsanız bu yordamı atlayın ve [El ile kurulum](#manual-setup) bölümündeki yordama devam edin.
+[Azure Data Lake'e aktarmayı yapılandırma](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) konusunda açıklandığı gibi Azure kaynaklarını kolayca ayarlayabilmeniz için Windows PowerShell betik dosyası sağlanmıştır. El ile kurulum yapmayı tercih ediyorsanız bu yordamı atlayın ve [El ile kurulum](#manual-setup) bölümündeki yordama devam edin.
 
 > [!NOTE]
 > PowerShell betiğini çalıştırmak için aşağıdaki adımları izleyin. Azure CLI "Try it" seçeneği veya betiği bilgisayarınızda çalıştırmak işe yaramayabilir.
 
-Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili bu adımları izleyin. Azure kaynak grubu, Azure kaynakları ve bir Azure AD uygulaması oluşturma haklarınız olmalıdır. Gerekli izinler hakkında daha fazla bilgi için bkz. [Azure AD izinlerini denetleme](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili bu adımları izleyin. Azure kaynak grubu, Azure kaynakları ve bir Azure AD uygulaması oluşturma haklarınız olmalıdır. Gerekli izinler hakkında daha fazla bilgi için bkz. [Azure AD izinlerini denetleme](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. [Azure portalda](https://portal.azure.com) hedef Azure aboneliğinize gidin. **Arama** alanının sağında bulunan **Cloud Shell** düğmesini seçin.
 2. **PowerShell**'i seçin.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Varlık deposunu yapılandırma
 
-Finance ortamınızda varlık deposunu ayarlamak için bu adımları izleyin.
-
-1. **Sistem Yönetimi \> Kurulum \> Sistem parametreleri \> Veri bağlantıları** bölümüne gidin.
-2. **Data Lake tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
-3. Aşağıdaki Key Vault alanlarını ayarlayın:
-
-    - **Uygulama (istemci) kimliği**: Daha önce oluşturduğunuz uygulama istemcisi kimliğini girin.
-    - **Uygulama Gizli Anahtarı**: Daha önce oluşturduğunuz uygulama için kaydettiğiniz gizli anahtarı girin.
-    - **DNS adı**: Daha önce oluşturduğunuz uygulamanın uygulama ayrıntıları sayfasında Etki Alanı Adı Sistemi (DNS) adını bulabilirsiniz.
-    - **Gizli anahtar adı**: **storage-account-connection-string** dizesini girin.
 
 ## <a name="configure-the-data-lake"></a>Veri gölünü yapılandırma
 
@@ -991,6 +980,19 @@ Eklenti birkaç dakika içinde yüklenir.
     | CDS Kiracı Kimliği (AAD'den Dizin Kimliği)               | Dataverse kurulumunun kiracı kimliği. Bu değeri bulmak için [Azure portalı](https://portal.azure.com) açın , **Azure Active Directory** öğesine gidin ve **Kiracı Kimliği** değerini kopyalayın. |
     | Sistem yöneticisi rolüne sahip kullanıcı nesnesi kimliğini belirtin | Dataverse'te kullanıcının Azure AD kullanıcı nesnesi kimliği. Bu kullanıcı, Dataverse kurulumunun sistem yöneticisi olmalıdır. Bu değeri bulmak için, [Azure portalı](https://portal.azure.com) açın, **Azure Active Directory \> Kullanıcılar** bölümüne gidin, kullanıcıyı seçin ve **Kimlik** bölümünde **Nesne Kimliği** değerini kopyalayın. |
     | Bu kiracı için varsayılan CDS ortamı mı?      | Dataverse kurulumu, oluşturulan ilk üretim kurulumu ise bu onay kutusunu seçin. Dataverse kurulumu el ile oluşturulmuşsa bu onay kutusunun işaretini kaldırın. |
+
+## <a name="configure-the-entity-store"></a>Varlık deposunu yapılandırma
+
+Finance ortamınızda varlık deposunu ayarlamak için bu adımları izleyin.
+
+1. **Sistem Yönetimi \> Kurulum \> Sistem parametreleri \> Veri bağlantıları** bölümüne gidin.
+2. **Data Lake tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
+3. Aşağıdaki anahtar kasası alanlarını ayarlayın:
+
+    - **Uygulama (istemci) kimliği**: Daha önce oluşturduğunuz uygulama istemcisi kimliğini girin.
+    - **Uygulama Gizli Anahtarı**: Daha önce oluşturduğunuz uygulama için kaydettiğiniz gizli anahtarı girin.
+    - **DNS adı**: Daha önce oluşturduğunuz uygulamanın uygulama ayrıntıları sayfasında Etki Alanı Adı Sistemi (DNS) adını bulabilirsiniz.
+    - **Gizli anahtar adı**: **storage-account-connection-string** dizesini girin.
 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 

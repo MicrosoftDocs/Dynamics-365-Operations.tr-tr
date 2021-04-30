@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835590"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909391"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Ambar uygulamasını yükleme ve bağlama
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835590"
 > Bu konu, eski ambar uygulamasının (şimdi kullanım dışı) nasıl yapılandırılacağını açıklar. Yeni Ambar Yönetimi mobil uygulamasını yapılandırma hakkında bilgi arıyorsanız bkz. [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Bu konu bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Bu konu bulut dağıtımları için ambar uygulamasının nasıl yapılandırılacağını açıklar. Şirket içi dağıtımlar için ambar uygulamasının nasıl yapılandırılacağı hakkında bilgi arıyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Ambar uygulaması Google Play Store ve Microsoft Store'dan edinilebilir. Bağımsız bir bileşen olarak sağlanır. Bu nedenle, her cihaza indirmeli ve sonra Microsoft Dynamics 365 Supply Chain Management ortamınıza bağlanacak şekilde yapılandırmalısınız.
 
@@ -54,7 +54,7 @@ Uygulamayı indirmek için aşağıdaki bağlantılardan birini kullanın:
 - **Windows (UWP):** [Microsoft Store'da Dynamics 365 for Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Google Play Store'da Warehousing - Dynamics 365](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Daha küçük dağıtımlar için, uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, ambar uygulamasının 1.7.0.0 ve üstü sürümlerinde uygulama dağıtımını ve/veya yapılandırmasını da otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Daha küçük dağıtımlar için, uygulamayı her bir cihazdaki ilgili mağazadan yüklemek ve ardından kullandığınız ortamlara olan bağlantıyı el ile yapılandırmak isteyebilirsiniz. Ancak, ambar uygulamasının 1.7.0.0 ve üstü sürümlerinde uygulama dağıtımını ve/veya yapılandırmasını da otomatikleştirebilirsiniz. Birçok cihazı yönetiyorsanız ve [Microsoft Intune](/mem/intune/fundamentals/what-is-intune) gibi bir mobil cihaz yönetimi ve mobil uygulama yönetimi çözümü kullanıyorsanız bu yaklaşımı uygun bulabilirsiniz. Uygulama eklemek için Intune'u kullanma hakkında bilgi için bkz. [Microsoft Intune'a uygulama ekleme](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 
@@ -89,11 +89,11 @@ Ambar uygulamasının belirli bir Supply Chain Management sunucusuyla etkileşim
 
 Azure AD uygulamasında web hizmeti uygulamalarını ayarlama hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Azure AD uygulamasında web hizmeti uygulamalarını ayarlamak için Windows PowerShell'in nasıl kullanılacağını gösteren yönergeler için bkz. [Nasıl yapılır: Sertifikalı bir hizmet sorumlusu oluşturmak için Azure PowerShell'i kullanma](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Azure AD uygulamasında el ile bir web hizmeti uygulaması oluşturma hakkında ayrıntılı bilgi için aşağıdaki konulara bakın:
 
-    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Hızlı Başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app)
+    - [Nasıl yapılır: Kaynaklara erişebilen bir Azure AD uygulaması ve hizmet sorumlusu oluşturmak için portalı kullanma](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Supply Chain Management içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 
@@ -121,7 +121,7 @@ Azure AD ile kimlik doğrulaması, bir mobil cihazı Supply Chain Management uyg
 
 Sertifikalar, bir belirteç istendiğinde uygulamanın kimliğini kanıtlamak için parola olarak kullanılabilir. Sertifikanın genel kısmı Azure portalındaki uygulama kaydına yüklenirken tam sertifikanın ambar uygulamasının yüklü olduğu her cihaza dağıtılması gerekir. Kuruluşunuz sertifikayı, rotasyonu vb. konularda yönetmekle sorumludur. Kendinden imzalı sertifikalar kullanabilirsiniz ancak her zaman dışa aktarılamayan sertifikalar kullanmalısınız.
 
-Sertifikayı, ambar uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Sertifikayı, ambar uygulamasını çalıştırdığınız her cihazda yerel olarak kullanılabilir hale getirmelisiniz. Intune kullanıyorsanız, Intune denetimli cihazlara yönelik sertifikaları yönetme hakkında bilgi için bkz. [Microsoft Intune'da kimlik doğrulama için sertifika kullanma](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Bağlantı ayarlarını içe aktararak uygulamayı yapılandırma
 

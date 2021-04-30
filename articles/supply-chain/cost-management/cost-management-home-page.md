@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839379"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908794"
 ---
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
@@ -43,7 +43,7 @@ Stok muhasebesi ve Üretim muhasebesine **Maliyet yönetimi** ve **Maliyet anali
 
 Üretim muhasebesi, üretim emirleri ve toplu iş emirlerinde [Geriye dönük maliyetlendirme](backflush-costing.md) ile yalın imalattaki [İş siparişi maliyetlendirmeyi](production-order-cost-analysis.md) yönetmenizi sağlar.
 
-[Maliyet yönetimi Power BI içeriği](../../dev-itpro/analytics/cost-management-content-pack.md) stok ve süren iş (WIP) stokuna dair yönetimsel öngörü sağlar ve maliyetlerin bunların arasında zaman içerisinde kategorilere göre nasıl bir akış gösterdiğini gösterir. Bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
+[Maliyet yönetimi Power BI içeriği](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) stok ve süren iş (WIP) stokuna dair yönetimsel öngörü sağlar ve maliyetlerin bunların arasında zaman içerisinde kategorilere göre nasıl bir akış gösterdiğini gösterir. Bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 
 ### <a name="additional-resources"></a>Ek kaynaklar
 
@@ -57,7 +57,7 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
 #### <a name="blogs"></a>Bloglar
 
-[Dynamics AX İmalat Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/axmfg) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Maliyet yönetimi hakkında pek çok fikir, haber ve bilgi bulabilirsiniz. Bu deftere nakillerin bazıları Maliyet yönetiminin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
+[Dynamics AX İmalat Ar-Ge Ekibi blogunda](/archive/blogs/axmfg/) ve [Dynamics AX'te Supply Chain Management Ar-Ge Ekibi blogunda](https://blogs.msdn.microsoft.com/dynamicsaxscm) Maliyet yönetimi hakkında pek çok fikir, haber ve bilgi bulabilirsiniz. Bu deftere nakillerin bazıları Maliyet yönetiminin önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar da geçerli sürümdekine benzerdir.
 
 #### <a name="task-guides"></a>Görev kılavuzları
 

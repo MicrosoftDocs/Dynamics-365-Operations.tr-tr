@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832166"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909537"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Dynamics 365 Supply Chain Management 10.0.14'daki yenilikler veya değişiklikler (Kasım 2020)
 
@@ -33,7 +33,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.14'teki
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için, bkz. [Sürüm planları](https://docs.microsoft.com/dynamics365/release-plans/) sitesi.
+Bu sürüm, güncelleştirilmiş bir platform ve genel iyileştirmeler içerir, ancak Supply Chain Management uygulamasına özgü yeni özellikleri içermez. Yakında sunulacak özellikler hakkında daha fazla bilgi için, bkz. [Sürüm planları](/dynamics365/release-plans/) sitesi.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
@@ -49,7 +49,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.14 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2020 sürüm dalgası 2 planını](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2020 sürüm dalgası 2 planını](/dynamics365-release-plan/2020wave2/index) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 

@@ -2,11 +2,11 @@
 title: Varlık kiralama giriş sayfası
 description: Bu konuda, Varlık kiralama belgeleri hakkında genel bilgiler ve belirli konuların bağlantıları sağlanır.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816160"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898122"
 ---
 # <a name="asset-leasing-home-page"></a>Varlık kiralama giriş sayfası
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816160"
 
 Bu konu, Varlık kiralama için sunulan yardım konu başlıklarını listeler ve belirli konuların bağlantılarını içerir. 
 
-Varlık kiralama, Microsoft Dynamics 365 Finance'ta kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur.  
+Varlık kiralama, Microsoft Dynamics 365 Finance'ta kiralanmış varlıklar için mali hareketleri yönetme, izleme ve otomatikleştirmeye yönelik gelişmiş bir özelliktir. Varlık kiralama Uluslararası muhasebe standartları (IFRS 16) ve US GAAP standartları (ASC 842) ile uyumludur. Varlık kiralama, kiralama bilgilerini yakalıp işler ve ilk kabul ve aylık günlük girişlerinden kira değerinin düşmesi ve kiranın sonlanmasına kadar kiranın yaşam döngüsü aracılığıyla günlük girişleri oluşturmaya yardımcı olur.
+
+Bu özelliği kullanabilmeniz için sisteminizde etkinleştirmeniz gerekir. Yöneticiler özellik durumunu denetlemek ve gerekirse etkinleştirmek için **özellik yönetimi** çalışma alanını kullanabilir. **Özellik yönetimi** çalışma alanında, **Varlık kiralama** olarak adlandırılan özelliği bulup seçin ve **Şimdi etkinleştir** düğmesine tıklayın.
 
 ## <a name="asset-leasing-topics"></a>Varlık kiralama konuları
 Aşağıdaki konu, Varlık kiralamayı yapılandırmaya ve kullanmaya yardımcı olmak için sunulmuştur. 
@@ -82,7 +84,7 @@ Bu konuda, varlık kiralamaları için kullanılabilen raporlar açıklanmaktad�
 
 ### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
+Planlanmış yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](/dynamics365/release-plans/) bakın. 
 
 ### <a name="blogs"></a>Bloglar
 

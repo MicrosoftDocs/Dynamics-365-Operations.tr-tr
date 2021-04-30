@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745849"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907923"
 ---
 # <a name="create-new-users"></a>Yeni kullanıcılar oluşturma
 
@@ -29,10 +29,10 @@ Finance and Operations uygulamalarına erişmeden önce, **Kullanıcılar** sayf
 Finance and Operations uygulamalarını satın alma ve lisanslama hakkında bilgi için bkz. [Microsoft Dynamics 365 Lisanslama Kılavuzu](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Kullanıcıya lisans atama
-Sistem yöneticileri [Microsoft 365 yönetim merkezinden](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) [kullanıcılara lisans atayabilir](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) .
+Sistem yöneticileri [Microsoft 365 yönetim merkezinden](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide) [kullanıcılara lisans atayabilir](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) .
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Harici kullanıcıyı Azure AD'ye ekleme ve lisans atama 
-Harici kullanıcılara lisans atayabilmeniz için bu kullanıcıların kiracı dizininizde (Azure Active Directory (Azure AD)) temsil edilmeleri gerekir. Bu harici kullanıcılar Azure AD'de kiracıya konuk kullanıcı olarak eklenmeli ve sonra uygun lisanslara atanmalıdırlar. Finance and Operations uygulamaları için şartlardan biri, konuk kullanıcının şirketinin Azure AD kullanmasıdır. Daha fazla bilgi için bkz. [Azure portalında Azure Active Directory B2B işbirliği kullanıcıları ekleme](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Harici kullanıcılara lisans atayabilmeniz için bu kullanıcıların kiracı dizininizde (Azure Active Directory (Azure AD)) temsil edilmeleri gerekir. Bu harici kullanıcılar Azure AD'de kiracıya konuk kullanıcı olarak eklenmeli ve sonra uygun lisanslara atanmalıdırlar. Finance and Operations uygulamaları için şartlardan biri, konuk kullanıcının şirketinin Azure AD kullanmasıdır. Daha fazla bilgi için bkz. [Azure portalında Azure Active Directory B2B işbirliği kullanıcıları ekleme](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Azure AD'den yeni kullanıcıları içeri aktarma 
 1. **Sistem yönetimi** \> **Kullanıcı** \> **Kullanıcılar** öğesine gidin.
@@ -57,7 +57,7 @@ Harici kullanıcılara lisans atayabilmeniz için bu kullanıcıların kiracı d
 7. **Şirket** alanında, kullanıcı için varsayılan başlangıç şirketini seçin. 
 8. **Kaydet**'i seçin.
 
-Kullanıcı kaydı kaydedildiğinde Kimlik sağlayıcısı ve Telemetri Kimliği değerleri [Microsoft Graph](https://docs.microsoft.com/graph/overview) çağrısına göre güncelleştirilir. Telemetri Kimliği, kullanıcının Azure AD'deki Nesne Kimliği/Güvenlik Tanımlayıcısı (SID) değerine bağlıdır.
+Kullanıcı kaydı kaydedildiğinde Kimlik sağlayıcısı ve Telemetri Kimliği değerleri [Microsoft Graph](/graph/overview) çağrısına göre güncelleştirilir. Telemetri Kimliği, kullanıcının Azure AD'deki Nesne Kimliği/Güvenlik Tanımlayıcısı (SID) değerine bağlıdır.
 
 > [!NOTE]
 > Bir kullanıcıyı ekledikten sonra, rolleri ve kuruluşları uygun şekilde atamanız gerekir. Daha fazla bilgi için bkz. [Kullanıcıları güvenlik rollerine atama](assign-users-security-roles.md). Koşullu olarak, kullanıcının bir **Kişi** ile ilişkilendirilmesi ve dil gibi **Kullanıcı seçenekleri**'nin güncelleştirilmesi gerekebilir.

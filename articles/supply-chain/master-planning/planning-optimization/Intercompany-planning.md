@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5c9ab724034a9bb40cfe155b748a0c7e25978add
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833365"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907655"
 ---
 # <a name="intercompany-planning"></a>Şirketlerarası planlama
 
@@ -45,8 +45,8 @@ Master planlamayı planlı aşağı akış talebini içeren bir ana plandan çal
 
 Şirketlerarası planlamayı kullanmak için sisteminizi aşağıdaki şekilde hazırlamanız gerekir:
 
-1. İlgili ürünlerin ilgili tüm şirketlerde serbest bırakılması gerekir. Daha fazla bilgi için bkz. Microsoft Learn'deki [Dynamics 365 Supply Chain Management'ta şirketlerarası ticareti yapılandırma ve kullanma](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. Aşağı akış talebi, yukarı akış şirketi ve müşterinin ilgili varsayılan stok boyutlarına (tesis ve ambar) şirketlerarası ilşikisi olan bir satıcıdan yapılan satın almalarla kapsanmalıdır. Daha fazla bilgi için bkz. Microsoft Learn'deki [Dynamics 365 Supply Chain Management'ta şirketlerarası ticareti yapılandırma ve kullanma](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. İlgili ürünlerin ilgili tüm şirketlerde serbest bırakılması gerekir. Daha fazla bilgi için bkz. Microsoft Learn'deki [Dynamics 365 Supply Chain Management'ta şirketlerarası ticareti yapılandırma ve kullanma](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Aşağı akış talebi, yukarı akış şirketi ve müşterinin ilgili varsayılan stok boyutlarına (tesis ve ambar) şirketlerarası ilşikisi olan bir satıcıdan yapılan satın almalarla kapsanmalıdır. Daha fazla bilgi için bkz. Microsoft Learn'deki [Dynamics 365 Supply Chain Management'ta şirketlerarası ticareti yapılandırma ve kullanma](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Yukarı akış şirketindeki master plan, planlanan aşağı akış talebini içermeli ve ilgili şirket ile master plan, aşağı akış planlarında belirtilmelidir.
 
 ## <a name="include-planned-downstream-demand"></a>Çıkıştaki planlanan talebi ekle

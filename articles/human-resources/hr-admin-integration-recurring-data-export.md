@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801131"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889872"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Yinelenen veri dışarı aktarma uygulaması oluşturma
 
@@ -43,12 +43,12 @@ Bu öğretici aşağıdaki teknolojileri kullanmaktadır:
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)**– Dışa aktarılacak çalışanlar için ana veri kaynağı.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – Yinelenen dışa aktarmanın düzenleme ve zamanlamasını sağlayan teknoloji.
 
-    - **[Bağlayıcılar](https://docs.microsoft.com/azure/connectors/apis-list)** – Mantık uygulamasını gerekli uç noktalara bağlamak için kullanılan teknoloji.
+    - **[Bağlayıcılar](/azure/connectors/apis-list)** – Mantık uygulamasını gerekli uç noktalara bağlamak için kullanılan teknoloji.
 
-        - [HTTP with Azure AD](https://docs.microsoft.com/connectors/webcontents/) bağlayıcısı
-        - [OneDrive İş](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) bağlayıcısı
+        - [HTTP with Azure AD](/connectors/webcontents/) bağlayıcısı
+        - [OneDrive İş](/azure/connectors/connectors-create-api-onedriveforbusiness) bağlayıcısı
 
-- **[DMF paket REST API'sı](../dev-itpro/data-entities/data-management-api.md)** – Dışa aktarma işlemini tetiklemek ve ilerlemesini izlemek için kullanılan teknoloji.
+- **[DMF paket REST API'sı](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – Dışa aktarma işlemini tetiklemek ve ilerlemesini izlemek için kullanılan teknoloji.
 - **[OneDrive İş](https://onedrive.live.com/about/business/)** – Dışa aktarılan çalışanlar için hedef.
 
 ## <a name="prerequisites"></a>Önkoşullar
@@ -84,11 +84,11 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
     ![Mantık uygulaması oluşturma sayfası](media/integration-logic-app-creation-1.png)
 
 2. Logic Apps Designer'da boş bir mantık uygulamasıyla başlayın.
-3. Mantık uygulamasını 24 saatte bir çalıştırmak için (veya istediğiniz zaman çizelgesine göre) bir [Yineleme Çizelgesi tetikleyicisi](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) ekleyin.
+3. Mantık uygulamasını 24 saatte bir çalıştırmak için (veya istediğiniz zaman çizelgesine göre) bir [Yineleme Çizelgesi tetikleyicisi](/azure/connectors/connectors-native-recurrence) ekleyin.
 
     ![Yineleme iletişim kutusu](media/integration-logic-app-recurrence-step.png)
 
-4. Veri paketinizin dışa aktarılmasını zamanlamak için [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API'sını çağırın.
+4. Veri paketinizin dışa aktarılmasını zamanlamak için [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) DMF REST API'sını çağırın.
 
     1. HTTP with Azure AD bağlayıcısından **Bir HTTP isteği çağır** eylemini kullanın.
 
@@ -122,13 +122,13 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
     > [!TIP]
     > Her adımı, varsayılan addan daha anlamlı olacak şekilde yeniden adlandırmak isteyebilirsiniz: **Bir HTTP isteği çağır**. Örneğin bu adımı **ExportToPackage** olarak yeniden adlandırabilirsiniz.
 
-5. **ExportToPackage** isteğinin yürütme durumunu depolamak için [bir değişken başlatın](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable).
+5. **ExportToPackage** isteğinin yürütme durumunu depolamak için [bir değişken başlatın](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable).
 
     ![Değişken başlatma eylemi](media/integration-logic-app-initialize-variable-step.png)
 
 6. Veri dışa aktarmanın yürütme durumu **Başarılı** olana kadar bekleyin.
 
-    1. **ExecutionStatus** değişkeninin değeri **Başarılı** olana kadar yinelenen bir [Until döngüsü](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ekleyin.
+    1. **ExecutionStatus** değişkeninin değeri **Başarılı** olana kadar yinelenen bir [Until döngüsü](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) ekleyin.
     2. Dışa aktarmanın geçerli yürütme durumu için yoklamadan önce beş saniye bekleyen bir **Gecikme** eylemi ekleyin.
 
         ![Until döngüsü kapsayıcısı](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         > [!NOTE]
         > Dışa aktarmanın tamamlanması için maksimum 75 saniye (15 yineleme × 5 saniye) beklenmesi için limit sayısını **15** olarak ayarlayın. Dışa aktarma işleminiz daha uzun sürüyorsa, limit sayısını uygun şekilde ayarlayın.        
 
-    3. [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API'yı çağırmak için bir **HTTP isteği çağır** eylemi ekleyin ve **ExecutionStatus** değişkenini **GetExecutionSummaryStatus** yanıtının sonucuna ayarlayın.
+    3. [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) DMF REST API'yı çağırmak için bir **HTTP isteği çağır** eylemi ekleyin ve **ExecutionStatus** değişkenini **GetExecutionSummaryStatus** yanıtının sonucuna ayarlayın.
 
-        > Bu örnek hata denetimi yapmaz. **GetExecutionSummaryStatus** API, başarılı olmayan nihai durumları (yani **Başarılı** dışındaki durumları) döndürebilir. Daha fazla bilgi için [API belgelerine](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) bakın.
+        > Bu örnek hata denetimi yapmaz. **GetExecutionSummaryStatus** API, başarılı olmayan nihai durumları (yani **Başarılı** dışındaki durumları) döndürebilir. Daha fazla bilgi için [API belgelerine](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) bakın.
 
         - **Yöntem:** POST
         - **Talep url'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
 
 7. Dışa aktarılan paketin indirme URL'sini alın.
 
-    - [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API'yı çağırmak için bir **HTTP isteği çağır** eylemi ekleyin.
+    - [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) DMF REST API'yı çağırmak için bir **HTTP isteği çağır** eylemi ekleyin.
 
         - **Yöntem:** POST
         - **Talep URL'si:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
 
 8. Dışa aktarılan paketi indirin.
 
-    - Paketi önceki adımda döndürülen URL'den indirmek için bir HTTP **GET** isteği ([yerleşik bir HTTP bağlayıcı eylemi](https://docs.microsoft.com/azure/connectors/connectors-native-http)) ekleyin.
+    - Paketi önceki adımda döndürülen URL'den indirmek için bir HTTP **GET** isteği ([yerleşik bir HTTP bağlayıcı eylemi](/azure/connectors/connectors-native-http)) ekleyin.
 
         - **Yöntem:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ Alıştırmanın büyük kısmı, mantık uygulamasını oluşturmayla ilgilidir
         > [!NOTE]
         > Bu istek herhangi bir ek kimlik doğrulaması gerektirmez çünkü **GetExportedPackageUrl** API'nın döndürdüğü URL, dosyayı indirmek için erişim izni veren bir paylaşılan bir erişim imzaları belirteci içerir.
 
-9. İndirilen paketi [OneDrive İş](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness) bağlayıcısı kullanarak kaydedin.
+9. İndirilen paketi [OneDrive İş](/azure/connectors/connectors-create-api-onedriveforbusiness) bağlayıcısı kullanarak kaydedin.
 
-    - Bir OneDrive İş [Dosya Oluştur](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file) eylemi ekleyin.
+    - Bir OneDrive İş [Dosya Oluştur](/connectors/onedriveforbusinessconnector/#create-file) eylemi ekleyin.
     - Gerektiğinde OneDrive İş hesabınıza bağlanın.
 
         - **Klasör Yolu:** Seçtiğiniz bir klasör

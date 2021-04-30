@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821141"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910437"
 ---
 # <a name="inventory-visibility-add-in"></a>Stok Görünürlüğü Eklentisi
 
@@ -39,7 +39,7 @@ Bu konu, Dynamics 365 Supply Chain Management için Stok Görünürlüğü Eklen
 
 Stok Görünürlüğü Eklentisi'ni, Microsoft Dynamics Lifecycle Services'ı (LCS) kullanarak yüklemeniz gerekir. LCS, Dynamics 365 Finance and Operations uygulamalarınızın uygulama yaşam döngüsünü yönetmenize yardımcı olan bir ortam ve düzenli olarak güncelleştirilen bir dizi hizmet sağlayan bir işbirliği portalıdır.
 
-Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -48,10 +48,13 @@ Stok Görünürlüğü Eklentisi'ni yüklemeden önce aşağıdakileri yapmanız
 - En az bir ortam dağıtılan bir LCS uygulama projesi edinin.
 - [Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)'ta sağlanan eklentileri ayarlama ön koşullarının tamamlandığından emin olun. Stok Görünürlüğü, çift yazma bağlantısı gerektirmez.
 - Aşağıdaki üç gerekli dosyayı almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü Ekibi'ne başvurun:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
+- Bir uygulamayı kaydettirmek ve Azure aboneliğiniz altında AAD'ye istemci gizli anahtarı eklemek için [Hızlı Başlangıç: Bir uygulamayı Microsoft kimlik platformuna kaydetme](/azure/active-directory/develop/quickstart-register-app) bölümünde verilen yönergeleri izleyin.
+    - [Uygulama kaydetme](/azure/active-directory/develop/quickstart-register-app)
+    - [İstemci gizli anahtarı](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - **Uygulama(İstemci) Kimliği**, **İstemci Gizli Anahtarı** ve **Kiracı Kimliği** aşağıdaki adımlarda kullanılacaktır.
 
 > [!NOTE]
 > Şu anda desteklenen ülkeler/bölgeler arasında Kanada, ABD ve Avrupa Birliği (AB) bulunmaktadır.
@@ -64,7 +67,7 @@ Dataverse'ü ayarlamak için aşağıdaki adımları izleyin.
 
 1. Kiracınıza bir hizmet ilkesi ekleyin:
 
-    1. Azure AD PowerShell Modülü v2'yi [ Graph için Azure Active Directory PowerShell'i Yüklema](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
+    1. Azure AD PowerShell Modülü v2'yi [ Graph için Azure Active Directory PowerShell'i Yüklema](/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
     1. Aşağıdaki PowerShell komutunu çalıştırın.
 
         ```powershell
@@ -80,7 +83,12 @@ Dataverse'ü ayarlamak için aşağıdaki adımları izleyin.
     1. **Yeni**'yi seçin. Uygulama kimliğini *3022308a-b9bd-4a18-b8ac-2ddedb2075e1* olarak ayarlayın. (Değişikliklerinizi kaydettiğinizde nesne kimliği otomatik olarak yüklenir.) Adı özelleştirebilirsiniz. Örneğin *Stok Görünürlüğü* olarak ayarlayabilirsiniz. Tamamladıktan sonra **Kaydet**'i seçin.
     1. **Rol Ata**'yı ve sonra **Sistem Yöneticisi**'ni seçin. **Common Data Service Kullanıcısı** adlı bir rol varsa onu da seçin.
 
-    Daha fazla bilgi için bkz. [Uygulama kullanıcısı oluşturma](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+    Daha fazla bilgi için bkz. [Uygulama kullanıcısı oluşturma](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Dataverse varsayılan diliniz **İngilizce** değilse:
+
+    1. **Gelişmiş Ayar \> Yönetim \>Diller**'e gidin,
+    1. **İngilizce (LanguageCode=1033)** dilini ve **Uygula**'yı seçin.
 
 1. Dataverse yapılandırmasıyla ilgili varlıkları ve Power Apps'i içeren `Inventory Visibility Dataverse Solution.zip` dosyasını içeri aktarın:
 
@@ -158,12 +166,12 @@ Supply Chain Management ortamınızda aşağıdaki özelliklerin açık olduğun
 
     LCS ortamınızın Azure bölgesini bulun ve URL'yi girin. URL aşağıdaki biçimde olur:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Örneğin, Avrupa'daysanız ortamınızda aşağıdaki URL'lerden biri bulunur:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     Şu anda aşağıdaki bölgeler kullanılabilirdir.
 
@@ -212,13 +220,13 @@ Aşağıdakileri gerçekleştirerek güvenlik hizmeti belirteci alın:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Aşağıdakileri gerçekleştirerek güvenlik hizmeti belirteci alın:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Örnek İstek
+
+İncelemeniz için örnek bir http isteği verilmiştir. Bu isteği göndermek için herhangi bir aracı veya kodlama dilini kullanabilirsiniz (örneğin ``Postman``).
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Stok Görünürlüğü API'sını yapılandırma
 
@@ -338,7 +383,7 @@ Renk ve boyut kombinasyonuna sahip ürün üzerinde gerçekleştirilen bir sorgu
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Renk ve boyut kombinasyonuna sahip ürün üzerinde gerçekleştirilen bir sorgu
     "returnNegative": true
 }
 ```
+
+`filters` alanı için şu anda yalnızca `ProductId` birden çok değeri desteklemektedir. `ProductId` boş bir diziyse, tüm ürünler sorgulanır.
 
 #### <a name="custom-measurement"></a>Özel ölçüm
 

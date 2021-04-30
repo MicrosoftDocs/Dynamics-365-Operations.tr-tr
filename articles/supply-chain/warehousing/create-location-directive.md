@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838406"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911308"
 ---
 # <a name="work-with-location-directives"></a>Konum yönergeleriyle çalışma
 
@@ -44,8 +44,8 @@ Bir yerleşim yönergesi oluşturmadan önce, önkoşulların karşılandığın
 1. **Ambar yönetimi \> Kurulum \> Ambar  \> Ambarlar**'a gidin.
 1. Ambar oluşturun.
 1. **Ambar** hızlı sekmesinde **Ambar yönetimi işlemlerini kullan** seçeneğini *Evet* olarak ayarlayın.
-1. Yerleşimler, yerleşim türleri, yerleşim profilleri ve yerleşim biçimleri oluşturun. Daha fazla bilgi için bkz. [WMS özellikli ambarda yerleşimler yapılandırma](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Tesisler, bölgeler ve bölge grupları oluşturun. Daha fazla bilgi için bkz. [Ambar kurulumu](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) ve [WMS özellikli ambarda yerleşimler yapılandırma](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Yerleşimler, yerleşim türleri, yerleşim profilleri ve yerleşim biçimleri oluşturun. Daha fazla bilgi için bkz. [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Tesisler, bölgeler ve bölge grupları oluşturun. Daha fazla bilgi için bkz. [Ambar kurulumu](../../commerce/channels-setup-warehouse.md) ve [WMS özellikli ambarda yerleşimler yapılandırma](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Konum yönergeleri için iş emri türleri
 
@@ -143,7 +143,7 @@ Konum yönergesi başlığı, sıra numarası ve konum yönergesinin tanımlayı
 - **Yönerge kodu**: Bir iş şablonu veya stok yenileme şablonu için yönerge kodunu seçin. **Yönerge kodu** sayfasında, iş şablonlarını veya stok yenileme şablonlarını yerleşim yönergelerine bağlamak için kullanılabilecek yeni kodlar oluşturabilirsiniz. Yönerge kodları ayrıca, herhangi bir iş şablonu satırı ve konum yönergesi (bölme kapısı veya hazırlama konumu gibi) arasındaki bağlantıyı oluşturmak için de kullanılabilir.
 
     > [!TIP]
-    > Yönerge kodu ayarlanırsa, iş oluşturulması gerektiğinde sistem, arama yönergelerini sıra numarasına göre aramaz. Bunun yerine, yönerge koduna göre arama yapılır. Bu şekilde, iş şablonundaki (örneğin malzemelerin hazırlanması gibi) belirli bir adım için hangi yerleşim şablonunun kullanılabileceği konusunda daha spesifik olabilirsiniz.
+    > Yönerge kodu ayarlanırsa, iş oluşturulması gerektiğinde sistem, arama yönergelerini sıra numarasına göre aramaz. Bunun yerine, yönerge koduna göre arama yapılır. Bu şekilde, iş şablonundaki (örneğin malzemelerin hazırlanması gibi) belirli bir adım için hangi konum yönergesinin kullanılabileceği konusunda daha spesifik olabilirsiniz.
 
 - **Birden çok SKU**: Bir konumda birden fazla stok tutma birimini (SKU) etkinleştirmek için bu seçeneği *Evet* olarak ayarlayın. Örneğin, bölme kapısı konumu için birden çok SKU etkinleştirilmiş olmalıdır. Birden çok SKU'yu etkinleştirirseniz yerine koyma konumunuz beklendiği gibi çalışma sırasında belirtilir. Ancak, yerine koyma konumu yalnızca çoklu madde yerine koymayı işleyebilir (iş, çekilmesi ve yerine koyulması gereken farklı SKU'lar içeriyorsa). Tek bir SKU yerine koymayı işleyemez. Bu seçeneği *Hayır* olarak ayarlarsanız, yerine koyma konumunuz, yerine koyma işleminde yalnızca bir çeşit SKU varsa belirtilir.
 
@@ -249,7 +249,7 @@ Bu senaryo için iki konum yönergesi eylemi tanımlamanız gerek. Sıradaki ilk
 
 ## <a name="next-step"></a>Sonraki adım
 
-Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma için bir iş şablonu koduyla ilişkilendirebilirsiniz. Daha fazla bilgi için bkz. [İş şablonları ve yerleşim yönergeleri kullanarak ambar işini denetleme](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Yerleşim yönergeleri oluşturduktan sonra, her yönerge kodunu iş oluşturma için bir iş şablonu koduyla ilişkilendirebilirsiniz. Daha fazla bilgi için bkz. [İş şablonları ve yerleşim yönergeleri kullanarak ambar işini denetleme](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

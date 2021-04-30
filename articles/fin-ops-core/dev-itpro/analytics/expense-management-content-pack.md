@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743519"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893264"
 ---
 # <a name="expense-management-power-bi-content"></a>Gider yönetimi Power BI içeriği
 
@@ -41,7 +41,7 @@ Bu konu, Power BI Gider Yönetimi'nde içeriğinde nelerin bulunduğunu açıkla
 Gösterilen tüm tutarlar şirket para birimi cinsindendir. Tüm şirketler hakkında veri gösterilir, ancak ihtiyaç duyulursa bir şirket filtresi ekleyebilirsiniz. 
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişim
-Gider Yönetici Panosu.pbix ve Gider Kişisel Pano.pbix Power BI içeriğini Microsoft Dynamics Lifecycle services (LCS) içindeki Paylaşılan varlıklarda bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Gider Yönetici Panosu.pbix ve Gider Kişisel Pano.pbix Power BI içeriğini Microsoft Dynamics Lifecycle services (LCS) içindeki Paylaşılan varlıklarda bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 İçerik, Gider Yönetimi çalışma alanından, katıştırılmış Power Bi içeriği olarak kullanılabilir. Her gider sahibi, kendileri için kişisel giderlere erişebilir, ancak yalnızca Borç Hesapları elemanları ve yöneticilerinin tüm kullanıcı gider verisini görüntülemek için Yönetici içeriğine erişimleri vardır.
 
 ## <a name="refreshing-the-power-bi-content"></a>Power BI içeriğini yenilemek

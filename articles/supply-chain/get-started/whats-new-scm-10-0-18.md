@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832142"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909365"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Dynamics 365 Supply Chain Management 10.0.18 önizlemesi (Mayıs 2021)
 
@@ -35,15 +35,15 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
+Bu sürümde aşağıdaki özellikler bulunmaktadır. Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-- Satın alma siparişlerini otomatik olarak serbest bırakma ([Bulutta ölçek birimleriyle ambar yürütme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)için geliştirme)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Satın alma siparişlerini otomatik olarak serbest bırakma ([Bulutta ölçek birimleriyle ambar yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)için geliştirme)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Kurumsal ölçekli stok performansı iyileştirmeleri ve arşivleme](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daha fazla bilgi için bkz. [Stok hareketlerini arşivleme](../inventory/archive-inventory-transactions.md).
+- [Kurumsal ölçekli stok performansı iyileştirmeleri ve arşivleme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Daha fazla bilgi için bkz. [Stok hareketlerini arşivleme](../inventory/archive-inventory-transactions.md).
 
-- [İndirim yönetimi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daha fazla bilgi için bkz. [İndirim yönetimi modülüne genel bakış](../rebate-management/rebate-management-overview.md).
+- [İndirim yönetimi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Daha fazla bilgi için bkz. [İndirim yönetimi modülüne genel bakış](../rebate-management/rebate-management-overview.md).
 
-- Sadece giriş ve çıkış için basitleştirilmiş arabirim ([Gelişmiş üretim katı yürütme arabirimi](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) için geliştirme)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
+- Sadece giriş ve çıkış için basitleştirilmiş arabirim ([Gelişmiş üretim katı yürütme arabirimi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) için geliştirme)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
 
 Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir. 
 
@@ -70,7 +70,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.18 platform güncelleştirme
 
 İş uygulamalarımız veya platformumuz için gelecek olan ve en son yayımlanan özellikleri merak ediyor musunuz?
 
-[Dynamics 365: 2021 sürüm dalgası 1 planını](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
+[Dynamics 365: 2021 sürüm dalgası 1 planını](/dynamics365-release-plan/2021wave1/) inceleyin. Baştan sona tüm ayrıntıları, planlama için kullanabileceğiniz tek bir belgede bir araya getirdik.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Kaldırılan ve kullanım dışı bırakılan Supply Chain Management özellikleri
 
