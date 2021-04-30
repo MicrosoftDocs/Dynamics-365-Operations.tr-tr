@@ -16,29 +16,29 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b0a3efffaac5158f8dcdbc424139046a3fbc2f07
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c232955873706bcceb6c685527a0dd92b129e543
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793669"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893436"
 ---
-# <a name="custom-fields"></a><span data-ttu-id="9971a-103">Özel alanlar</span><span class="sxs-lookup"><span data-stu-id="9971a-103">Custom fields</span></span>
+# <a name="custom-fields"></a><span data-ttu-id="4455b-103">Özel alanlar</span><span class="sxs-lookup"><span data-stu-id="4455b-103">Custom fields</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="9971a-104">Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9971a-104">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="9971a-105">Özel alanlar oluşturma hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="9971a-105">For more information about creating custom fields, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
+<span data-ttu-id="4455b-104">Dynamics 365 Human Resources'taki sayfalara özel alanlar ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4455b-104">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="4455b-105">Özel alanlar oluşturma hakkında daha fazla bilgi için bkz. [Özel alanlar oluşturma ve bunlarla çalışma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="4455b-105">For more information about creating custom fields, see [Create and work with custom fields](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
 
-<span data-ttu-id="9971a-106">Çoğu Dataverse tablosu özel alanları destekler.</span><span class="sxs-lookup"><span data-stu-id="9971a-106">Most Dataverse tables support custom fields.</span></span> <span data-ttu-id="9971a-107">Dataverse tablolarının tam listesi için bkz. [Dataverse tabloları](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="9971a-107">For a full list of Dataverse tables, see [Dataverse tables](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span> 
+<span data-ttu-id="4455b-106">Çoğu Dataverse tablosu özel alanları destekler.</span><span class="sxs-lookup"><span data-stu-id="4455b-106">Most Dataverse tables support custom fields.</span></span> <span data-ttu-id="4455b-107">Dataverse tablolarının tam listesi için bkz. [Dataverse tabloları](./hr-developer-entities.md).</span><span class="sxs-lookup"><span data-stu-id="4455b-107">For a full list of Dataverse tables, see [Dataverse tables](./hr-developer-entities.md).</span></span> 
 
-<span data-ttu-id="9971a-108">Oluşturduğunuz tüm özel alanları Dataverse uygulamasında kullanabilmeniz için etkinleştirdiğinizden emin olun.</span><span class="sxs-lookup"><span data-stu-id="9971a-108">Be sure to enable any custom fields that you create so you can use them in Dataverse.</span></span> <span data-ttu-id="9971a-109">Daha fazla bilgi için, bkz. [Veri varlıklarında özel alanlara maruz kalma](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="9971a-109">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
+<span data-ttu-id="4455b-108">Oluşturduğunuz tüm özel alanları Dataverse uygulamasında kullanabilmeniz için etkinleştirdiğinizden emin olun.</span><span class="sxs-lookup"><span data-stu-id="4455b-108">Be sure to enable any custom fields that you create so you can use them in Dataverse.</span></span> <span data-ttu-id="4455b-109">Daha fazla bilgi için, bkz. [Veri varlıklarında özel alanlara maruz kalma](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="4455b-109">For more information, see [Exposing custom fields on data entities](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="9971a-110">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="9971a-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4455b-110">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="4455b-110">See also</span></span>
 
-[<span data-ttu-id="9971a-111">Dataverse tabloları</span><span class="sxs-lookup"><span data-stu-id="9971a-111">Dataverse tables</span></span>](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
-[<span data-ttu-id="9971a-112">Özel alanlar oluşturma ve bunlarla çalışma</span><span class="sxs-lookup"><span data-stu-id="9971a-112">Create and work with custom fields</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
-[<span data-ttu-id="9971a-113">Özel alanları veri varlıklarında görüntüleme</span><span class="sxs-lookup"><span data-stu-id="9971a-113">Exposing custom fields on data entities</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+[<span data-ttu-id="4455b-111">Dataverse tabloları</span><span class="sxs-lookup"><span data-stu-id="4455b-111">Dataverse tables</span></span>](./hr-developer-entities.md)</br>
+[<span data-ttu-id="4455b-112">Özel alanlar oluşturma ve bunlarla çalışma</span><span class="sxs-lookup"><span data-stu-id="4455b-112">Create and work with custom fields</span></span>](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[<span data-ttu-id="4455b-113">Özel alanları veri varlıklarında görüntüleme</span><span class="sxs-lookup"><span data-stu-id="4455b-113">Exposing custom fields on data entities</span></span>](/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
