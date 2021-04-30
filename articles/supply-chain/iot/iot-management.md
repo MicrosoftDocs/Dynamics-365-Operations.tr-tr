@@ -14,51 +14,51 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86e20b9e60e890833c0eb8573e92c0fbb27f8c9a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813087"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908431"
 ---
-# <a name="monitor-and-manage-iot-intelligence"></a><span data-ttu-id="838e4-103">IoT Zekası'nı izleme ve yönetme</span><span class="sxs-lookup"><span data-stu-id="838e4-103">Monitor and manage IoT Intelligence</span></span>
+# <a name="monitor-and-manage-iot-intelligence"></a><span data-ttu-id="848a6-103">IoT Zekası'nı izleme ve yönetme</span><span class="sxs-lookup"><span data-stu-id="848a6-103">Monitor and manage IoT Intelligence</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="838e4-104">Bu konu, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="838e4-104">This topic explains how to monitor and manage IoT Intelligence.</span></span>
+<span data-ttu-id="848a6-104">Bu konu, IoT Zekası'nın nasıl izleneceğini ve yönetileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="848a6-104">This topic explains how to monitor and manage IoT Intelligence.</span></span>
 
-## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a><span data-ttu-id="838e4-105">Microsoft Dynamics 365 Supply Chain Management'ta senaryoları izleme</span><span class="sxs-lookup"><span data-stu-id="838e4-105">Monitor scenarios in Microsoft Dynamics 365 Supply Chain Management</span></span>
+## <a name="monitor-scenarios-in-microsoft-dynamics-365-supply-chain-management"></a><a id="monitor-scenarios"></a><span data-ttu-id="848a6-105">Microsoft Dynamics 365 Supply Chain Management'ta senaryoları izleme</span><span class="sxs-lookup"><span data-stu-id="848a6-105">Monitor scenarios in Microsoft Dynamics 365 Supply Chain Management</span></span>
 
-<span data-ttu-id="838e4-106">IoT Zekası işlemesini çeşitli yerlerden izleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="838e4-106">You can monitor IoT Intelligence processing from several places:</span></span>
+<span data-ttu-id="848a6-106">IoT Zekası işlemesini çeşitli yerlerden izleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="848a6-106">You can monitor IoT Intelligence processing from several places:</span></span>
 
-+ <span data-ttu-id="838e4-107">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Bildirimler** - Çözüme ulaşmamış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="838e4-107">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Notifications** – View the list of unresolved notifications.</span></span>
-+ <span data-ttu-id="838e4-108">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Kapanan bildirimler** - Çözüme ulaşmış veya kapatılmış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="838e4-108">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Closed notifications** – View the list of notifications that have been resolved or dismissed.</span></span>
-+ <span data-ttu-id="838e4-109">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Ölçüm anahtarları** - **Kaynak Durumu** zaman serisi grafiklerinin ölçüm anahtarlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="838e4-109">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Metric keys** – View the metric keys for the **Resource Status** times series charts.</span></span>
-+ <span data-ttu-id="838e4-110">**Modüller \> Üretim denetimi \> Üretim yürütme \> Kaynak durumu** – **Yapılandır** iletişim kutusunu kullanarak belirli ölçümleri izleyin.</span><span class="sxs-lookup"><span data-stu-id="838e4-110">**Modules \> Production control \> Manufacturing execution \> Resource status** – Track specific metrics by using the **Configure** dialog box.</span></span> <span data-ttu-id="838e4-111">Senaryo bir özel durum algılarsa, özel durumun ayrıntılarını gösteren bir bildirim görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="838e4-111">If a scenario detects an exception, a notification shows the details of the exception.</span></span>
-+ <span data-ttu-id="838e4-112">**Çalışma alanları \> Üretim katı yönetimi \> Bildirimleri** - Çözüme ulaşmamış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="838e4-112">**Workspaces \> Production floor management \> Notifications** – View the list of unresolved notifications.</span></span>
++ <span data-ttu-id="848a6-107">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Bildirimler** - Çözüme ulaşmamış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="848a6-107">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Notifications** – View the list of unresolved notifications.</span></span>
++ <span data-ttu-id="848a6-108">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Kapanan bildirimler** - Çözüme ulaşmış veya kapatılmış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="848a6-108">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Closed notifications** – View the list of notifications that have been resolved or dismissed.</span></span>
++ <span data-ttu-id="848a6-109">**Modüller \> Üretim denetimi \> Sorgular ve raporlar \> IoT Zekası \> Ölçüm anahtarları** - **Kaynak Durumu** zaman serisi grafiklerinin ölçüm anahtarlarını görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="848a6-109">**Modules \> Production control \> Inquiries and reports \> IoT Intelligence \> Metric keys** – View the metric keys for the **Resource Status** times series charts.</span></span>
++ <span data-ttu-id="848a6-110">**Modüller \> Üretim denetimi \> Üretim yürütme \> Kaynak durumu** – **Yapılandır** iletişim kutusunu kullanarak belirli ölçümleri izleyin.</span><span class="sxs-lookup"><span data-stu-id="848a6-110">**Modules \> Production control \> Manufacturing execution \> Resource status** – Track specific metrics by using the **Configure** dialog box.</span></span> <span data-ttu-id="848a6-111">Senaryo bir özel durum algılarsa, özel durumun ayrıntılarını gösteren bir bildirim görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="848a6-111">If a scenario detects an exception, a notification shows the details of the exception.</span></span>
++ <span data-ttu-id="848a6-112">**Çalışma alanları \> Üretim katı yönetimi \> Bildirimleri** - Çözüme ulaşmamış bildirimlerin listesini görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="848a6-112">**Workspaces \> Production floor management \> Notifications** – View the list of unresolved notifications.</span></span>
 
-## <a name="modify-a-running-iot-intelligence-scenario"></a><span data-ttu-id="838e4-113">Çalışan bir IoT Zekası senaryosunu değiştirme</span><span class="sxs-lookup"><span data-stu-id="838e4-113">Modify a running IoT Intelligence scenario</span></span>
+## <a name="modify-a-running-iot-intelligence-scenario"></a><span data-ttu-id="848a6-113">Çalışan bir IoT Zekası senaryosunu değiştirme</span><span class="sxs-lookup"><span data-stu-id="848a6-113">Modify a running IoT Intelligence scenario</span></span>
 
-<span data-ttu-id="838e4-114">Bir senaryo çalışırken şu değişiklikleri yapabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="838e4-114">When a scenario is running, you can make these changes:</span></span>
+<span data-ttu-id="848a6-114">Bir senaryo çalışırken şu değişiklikleri yapabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="848a6-114">When a scenario is running, you can make these changes:</span></span>
 
-+ <span data-ttu-id="838e4-115">Yeni sensör şeması tanımları ekleme.</span><span class="sxs-lookup"><span data-stu-id="838e4-115">Add new sensor schema definitions.</span></span>
-+ <span data-ttu-id="838e4-116">Yeni sinyal verisi değerleri seçme.</span><span class="sxs-lookup"><span data-stu-id="838e4-116">Select new signal data values.</span></span>
-+ <span data-ttu-id="838e4-117">Var olan sinyal verisi değerlerinin seçimini iptal etme.</span><span class="sxs-lookup"><span data-stu-id="838e4-117">Cancel the selection of existing signal data values.</span></span>
-+ <span data-ttu-id="838e4-118">Yeni sinyal verisi değerleri ekleme ve eşleme.</span><span class="sxs-lookup"><span data-stu-id="838e4-118">Add and map new signal data values.</span></span>
-+ <span data-ttu-id="838e4-119">Eşik değerlerini güncelleştirme.</span><span class="sxs-lookup"><span data-stu-id="838e4-119">Update threshold values.</span></span>
++ <span data-ttu-id="848a6-115">Yeni sensör şeması tanımları ekleme.</span><span class="sxs-lookup"><span data-stu-id="848a6-115">Add new sensor schema definitions.</span></span>
++ <span data-ttu-id="848a6-116">Yeni sinyal verisi değerleri seçme.</span><span class="sxs-lookup"><span data-stu-id="848a6-116">Select new signal data values.</span></span>
++ <span data-ttu-id="848a6-117">Var olan sinyal verisi değerlerinin seçimini iptal etme.</span><span class="sxs-lookup"><span data-stu-id="848a6-117">Cancel the selection of existing signal data values.</span></span>
++ <span data-ttu-id="848a6-118">Yeni sinyal verisi değerleri ekleme ve eşleme.</span><span class="sxs-lookup"><span data-stu-id="848a6-118">Add and map new signal data values.</span></span>
++ <span data-ttu-id="848a6-119">Eşik değerlerini güncelleştirme.</span><span class="sxs-lookup"><span data-stu-id="848a6-119">Update threshold values.</span></span>
 
-<span data-ttu-id="838e4-120">Bir senaryo çalışırken şu değişiklikler yapılamaz:</span><span class="sxs-lookup"><span data-stu-id="838e4-120">When a scenario is running, these changes are prohibited:</span></span>
+<span data-ttu-id="848a6-120">Bir senaryo çalışırken şu değişiklikler yapılamaz:</span><span class="sxs-lookup"><span data-stu-id="848a6-120">When a scenario is running, these changes are prohibited:</span></span>
 
-+ <span data-ttu-id="838e4-121">Etkin bir senaryo tarafından kullanılmakta olan tüm şema tanımlarını silme veya değiştirme.</span><span class="sxs-lookup"><span data-stu-id="838e4-121">Delete or modify any schema definitions that are currently consumed by an enabled scenario.</span></span>
-+ <span data-ttu-id="838e4-122">Etkin senaryonun seçili şema yollarını değiştirme.</span><span class="sxs-lookup"><span data-stu-id="838e4-122">Change the enabled scenario's selected schema paths.</span></span>
++ <span data-ttu-id="848a6-121">Etkin bir senaryo tarafından kullanılmakta olan tüm şema tanımlarını silme veya değiştirme.</span><span class="sxs-lookup"><span data-stu-id="848a6-121">Delete or modify any schema definitions that are currently consumed by an enabled scenario.</span></span>
++ <span data-ttu-id="848a6-122">Etkin senaryonun seçili şema yollarını değiştirme.</span><span class="sxs-lookup"><span data-stu-id="848a6-122">Change the enabled scenario's selected schema paths.</span></span>
 
-## <a name="simulation-options"></a><span data-ttu-id="838e4-123">Benzetim seçenekleri</span><span class="sxs-lookup"><span data-stu-id="838e4-123">Simulation options</span></span>
+## <a name="simulation-options"></a><span data-ttu-id="848a6-123">Benzetim seçenekleri</span><span class="sxs-lookup"><span data-stu-id="848a6-123">Simulation options</span></span>
 
-<span data-ttu-id="838e4-124">Fabrika makine sinyallerinin benzetimini yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="838e4-124">You can simulate factory machine signals.</span></span> <span data-ttu-id="838e4-125">Daha fazla bilgi edinmek için şu konulara bakın:</span><span class="sxs-lookup"><span data-stu-id="838e4-125">For more information, see these topics:</span></span>
+<span data-ttu-id="848a6-124">Fabrika makine sinyallerinin benzetimini yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="848a6-124">You can simulate factory machine signals.</span></span> <span data-ttu-id="848a6-125">Daha fazla bilgi edinmek için şu konulara bakın:</span><span class="sxs-lookup"><span data-stu-id="848a6-125">For more information, see these topics:</span></span>
 
-+ [<span data-ttu-id="838e4-126">IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama</span><span class="sxs-lookup"><span data-stu-id="838e4-126">Connect IoT DevKit AZ3166 to Azure IoT Hub</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [<span data-ttu-id="838e4-127">Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama</span><span class="sxs-lookup"><span data-stu-id="838e4-127">Connect Raspberry Pi online simulator to Azure IoT Hub (Node.js)</span></span>](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [<span data-ttu-id="838e4-128">Aygıt Benzetimi çözüm hızlandırıcısına genel bakış</span><span class="sxs-lookup"><span data-stu-id="838e4-128">Device Simulation solution accelerator overview</span></span>](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [<span data-ttu-id="848a6-126">IoT DevKit AZ3166'yı Azure IoT Hub'a bağlama</span><span class="sxs-lookup"><span data-stu-id="848a6-126">Connect IoT DevKit AZ3166 to Azure IoT Hub</span></span>](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [<span data-ttu-id="848a6-127">Raspberry Pi online simulator'ı Azure IoT Hub'a (Node. js) bağlama</span><span class="sxs-lookup"><span data-stu-id="848a6-127">Connect Raspberry Pi online simulator to Azure IoT Hub (Node.js)</span></span>](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [<span data-ttu-id="848a6-128">Aygıt Benzetimi çözüm hızlandırıcısına genel bakış</span><span class="sxs-lookup"><span data-stu-id="848a6-128">Device Simulation solution accelerator overview</span></span>](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
