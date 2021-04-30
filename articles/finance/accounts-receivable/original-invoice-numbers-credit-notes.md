@@ -14,86 +14,86 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811522"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897344"
 ---
-# <a name="references-to-original-invoices-in-credit-notes"></a><span data-ttu-id="83bd5-103">Alacak dekontlarındaki orijinal faturalara başvurular</span><span class="sxs-lookup"><span data-stu-id="83bd5-103">References to original invoices in credit notes</span></span>
+# <a name="references-to-original-invoices-in-credit-notes"></a><span data-ttu-id="d7f37-103">Alacak dekontlarındaki orijinal faturalara başvurular</span><span class="sxs-lookup"><span data-stu-id="d7f37-103">References to original invoices in credit notes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="83bd5-104">Bazı ülke/bölgelerde, yazdırılan alacak dekontlarının orijinal faturalara referanslar içermesi yasal bir gereksinim vardır.</span><span class="sxs-lookup"><span data-stu-id="83bd5-104">In some countries and regions, there is a legal requirement that printed credit notes include references to the original invoices.</span></span> <span data-ttu-id="83bd5-105">Bu konu, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağını ve yazdırılacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="83bd5-105">This topic explains how to set up and print the original invoice numbers in related credit notes.</span></span>
+<span data-ttu-id="d7f37-104">Bazı ülke/bölgelerde, yazdırılan alacak dekontlarının orijinal faturalara referanslar içermesi yasal bir gereksinim vardır.</span><span class="sxs-lookup"><span data-stu-id="d7f37-104">In some countries and regions, there is a legal requirement that printed credit notes include references to the original invoices.</span></span> <span data-ttu-id="d7f37-105">Bu konu, ilgili alacak dekontlarında orijinal fatura numaralarının nasıl ayarlanacağını ve yazdırılacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="d7f37-105">This topic explains how to set up and print the original invoice numbers in related credit notes.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="83bd5-106">Önkoşullar</span><span class="sxs-lookup"><span data-stu-id="83bd5-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="d7f37-106">Önkoşullar</span><span class="sxs-lookup"><span data-stu-id="d7f37-106">Prerequisites</span></span>
 
-- <span data-ttu-id="83bd5-107">**Özellik yönetimi** çalışma alanında, **Satış ve proje faturası raporları için alacak faturalama düzeni**'ni açın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-107">In the **Feature management** workspace, turn on the **Credit invoicing layout for sales and project invoice reports** feature.</span></span> <span data-ttu-id="83bd5-108">Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="83bd5-108">For more information, see [Feature management overview](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).</span></span>
-- <span data-ttu-id="83bd5-109">Gerekli belgelerin yazdırılabilir biçimleri Yazdırma yönetimi'nde konfigüre edilmelidir.</span><span class="sxs-lookup"><span data-stu-id="83bd5-109">The printable formats of the required documents must be configured in Print management.</span></span>
+- <span data-ttu-id="d7f37-107">**Özellik yönetimi** çalışma alanında, **Satış ve proje faturası raporları için alacak faturalama düzeni**'ni açın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-107">In the **Feature management** workspace, turn on the **Credit invoicing layout for sales and project invoice reports** feature.</span></span> <span data-ttu-id="d7f37-108">Daha fazla bilgi için bkz. [Özellik yönetimine genel bakış](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="d7f37-108">For more information, see [Feature management overview](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+- <span data-ttu-id="d7f37-109">Gerekli belgelerin yazdırılabilir biçimleri Yazdırma yönetimi'nde konfigüre edilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d7f37-109">The printable formats of the required documents must be configured in Print management.</span></span>
 
-<span data-ttu-id="83bd5-110">Bu konuda açıklanan işlevsellik aşağıdaki belgeler için geçerlidir:</span><span class="sxs-lookup"><span data-stu-id="83bd5-110">The functionality that is described in this topic applies to the following documents:</span></span>
+<span data-ttu-id="d7f37-110">Bu konuda açıklanan işlevsellik aşağıdaki belgeler için geçerlidir:</span><span class="sxs-lookup"><span data-stu-id="d7f37-110">The functionality that is described in this topic applies to the following documents:</span></span>
 
-<span data-ttu-id="83bd5-111">**Alacak hesapları**</span><span class="sxs-lookup"><span data-stu-id="83bd5-111">**Accounts receivable**</span></span>
+<span data-ttu-id="d7f37-111">**Alacak hesapları**</span><span class="sxs-lookup"><span data-stu-id="d7f37-111">**Accounts receivable**</span></span>
 
-- <span data-ttu-id="83bd5-112">Serbest metinli alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-112">Free text credit note</span></span>
-- <span data-ttu-id="83bd5-113">Müşteri alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-113">Customer credit note</span></span>
+- <span data-ttu-id="d7f37-112">Serbest metinli alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-112">Free text credit note</span></span>
+- <span data-ttu-id="d7f37-113">Müşteri alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-113">Customer credit note</span></span>
 
-<span data-ttu-id="83bd5-114">**Proje yönetimi ve muhasebe**</span><span class="sxs-lookup"><span data-stu-id="83bd5-114">**Project management and accounting**</span></span>
+<span data-ttu-id="d7f37-114">**Proje yönetimi ve muhasebe**</span><span class="sxs-lookup"><span data-stu-id="d7f37-114">**Project management and accounting**</span></span>
 
-- <span data-ttu-id="83bd5-115">Proje alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-115">Project credit note</span></span>
+- <span data-ttu-id="d7f37-115">Proje alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-115">Project credit note</span></span>
 
-## <a name="configure-accounts-receivable-parameters"></a><span data-ttu-id="83bd5-116">Alacak hesapları parametrelerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="83bd5-116">Configure Accounts receivable parameters</span></span>
+## <a name="configure-accounts-receivable-parameters"></a><span data-ttu-id="d7f37-116">Alacak hesapları parametrelerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="d7f37-116">Configure Accounts receivable parameters</span></span>
 
-<span data-ttu-id="83bd5-117">Orijinal faturalara yapılan referansların ilgili alacak dekontlarına yazdırılıp yazdırılmadığını kontrol eden parametreyi ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-117">Follow these steps to set the parameter that controls whether references to the original invoices are printed in related credit notes.</span></span>
+<span data-ttu-id="d7f37-117">Orijinal faturalara yapılan referansların ilgili alacak dekontlarına yazdırılıp yazdırılmadığını kontrol eden parametreyi ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-117">Follow these steps to set the parameter that controls whether references to the original invoices are printed in related credit notes.</span></span>
 
-1. <span data-ttu-id="83bd5-118">**Alacak hesapları** \> **Kurulum** \> **Alacak hesapları parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-118">Go to **Accounts receivable** \> **Setup** \> **Accounts receivable parameters**.</span></span>
-2. <span data-ttu-id="83bd5-119">**Güncelleştirmeler** sekmesinde, **Fatura** hızlı sekmesinde, **Alacak faturalama düzenini satış ve proje fatura raporlarına uygula** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-119">On the **Updates** tab, on the **Invoice** FastTab, set the **Apply the credit invoicing layout into sales and project invoice reports** option to **Yes**.</span></span>
+1. <span data-ttu-id="d7f37-118">**Alacak hesapları** \> **Kurulum** \> **Alacak hesapları parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-118">Go to **Accounts receivable** \> **Setup** \> **Accounts receivable parameters**.</span></span>
+2. <span data-ttu-id="d7f37-119">**Güncelleştirmeler** sekmesinde, **Fatura** hızlı sekmesinde, **Alacak faturalama düzenini satış ve proje fatura raporlarına uygula** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-119">On the **Updates** tab, on the **Invoice** FastTab, set the **Apply the credit invoicing layout into sales and project invoice reports** option to **Yes**.</span></span>
 
 ![Alacak hesapları parametrelerini yapılandırma](media/original-invoice-number-in-credit-note.jpg)
 
-## <a name="define-references-to-original-invoices"></a><span data-ttu-id="83bd5-121">Orijinal faturalara referansları tanımlama</span><span class="sxs-lookup"><span data-stu-id="83bd5-121">Define references to original invoices</span></span>
+## <a name="define-references-to-original-invoices"></a><span data-ttu-id="d7f37-121">Orijinal faturalara referansları tanımlama</span><span class="sxs-lookup"><span data-stu-id="d7f37-121">Define references to original invoices</span></span>
 
-<span data-ttu-id="83bd5-122">Belge türüne göre orijinal faturalara referansları tanımlamak için aşağıdaki yordamları kullanın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-122">Use the following procedures to define references to original invoices, based on the document type.</span></span>
+<span data-ttu-id="d7f37-122">Belge türüne göre orijinal faturalara referansları tanımlamak için aşağıdaki yordamları kullanın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-122">Use the following procedures to define references to original invoices, based on the document type.</span></span>
 
-### <a name="free-text-credit-note"></a><span data-ttu-id="83bd5-123">Serbest metinli alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-123">Free text credit note</span></span>
+### <a name="free-text-credit-note"></a><span data-ttu-id="d7f37-123">Serbest metinli alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-123">Free text credit note</span></span>
 
-1. <span data-ttu-id="83bd5-124">**Alacak hesapları** \> **Faturalar** \> **Tüm serbest metin faturaları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-124">Go to **Accounts receivable** \> **Invoices** \> **All free text invoices**.</span></span>
-2. <span data-ttu-id="83bd5-125">Yeni bir alacak dekontu oluşturun veya var olan bir alacak dekontunu seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-125">Create a new credit note, or select an existing credit note.</span></span>
-3. <span data-ttu-id="83bd5-126">Faturayı açın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-126">Open the invoice.</span></span>
-4. <span data-ttu-id="83bd5-127">Eylem Bölmesi'nde, **Fatura** sekmesindeki **İşlevler** grubunda **Alacak faturalaması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-127">On the Action Pane, on the **Invoice** tab, in the **Functions** group, select **Credit invoicing**.</span></span>
-5. <span data-ttu-id="83bd5-128">Orijinal faturaya olan referansı girin ve düzeltme nedenini seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-128">Enter the reference to the original invoice, and select the reason for the correction.</span></span>
+1. <span data-ttu-id="d7f37-124">**Alacak hesapları** \> **Faturalar** \> **Tüm serbest metin faturaları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-124">Go to **Accounts receivable** \> **Invoices** \> **All free text invoices**.</span></span>
+2. <span data-ttu-id="d7f37-125">Yeni bir alacak dekontu oluşturun veya var olan bir alacak dekontunu seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-125">Create a new credit note, or select an existing credit note.</span></span>
+3. <span data-ttu-id="d7f37-126">Faturayı açın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-126">Open the invoice.</span></span>
+4. <span data-ttu-id="d7f37-127">Eylem Bölmesi'nde, **Fatura** sekmesindeki **İşlevler** grubunda **Alacak faturalaması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-127">On the Action Pane, on the **Invoice** tab, in the **Functions** group, select **Credit invoicing**.</span></span>
+5. <span data-ttu-id="d7f37-128">Orijinal faturaya olan referansı girin ve düzeltme nedenini seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-128">Enter the reference to the original invoice, and select the reason for the correction.</span></span>
 
 ![Serbest metin faturası için referans tanımlama](media/reference-original-invoice-FTI.jpg)
 
-### <a name="customer-credit-note"></a><span data-ttu-id="83bd5-130">Müşteri alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-130">Customer credit note</span></span>
+### <a name="customer-credit-note"></a><span data-ttu-id="d7f37-130">Müşteri alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-130">Customer credit note</span></span>
 
-1. <span data-ttu-id="83bd5-131">**Alacak hesapları** \> **Siparişler** \> **Tüm satış siparişleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-131">Go to **Accounts receivable** \> **Orders** \> **All sales orders**.</span></span>
-2. <span data-ttu-id="83bd5-132">Düzeltilmesi gereken faturalanmış satış siparişini seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-132">Select and open the invoiced sales order that must be corrected.</span></span>
-3. <span data-ttu-id="83bd5-133">Eylem Bölmesi'nde, **Satış** sekmesindeki **Alacak dekontu** grubunda **Alacak dekontu**'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-133">On the Action Pane, on the **Sell** tab, in the **Credit note** group, select **Credit note**.</span></span>
-4. <span data-ttu-id="83bd5-134">Düzeltme nedenini girin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-134">Enter the reason for the correction.</span></span> <span data-ttu-id="83bd5-135">Orijinal faturaya olan referans otomatik olarak kurulur.</span><span class="sxs-lookup"><span data-stu-id="83bd5-135">The reference to the original invoice is automatically established.</span></span>
+1. <span data-ttu-id="d7f37-131">**Alacak hesapları** \> **Siparişler** \> **Tüm satış siparişleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-131">Go to **Accounts receivable** \> **Orders** \> **All sales orders**.</span></span>
+2. <span data-ttu-id="d7f37-132">Düzeltilmesi gereken faturalanmış satış siparişini seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-132">Select and open the invoiced sales order that must be corrected.</span></span>
+3. <span data-ttu-id="d7f37-133">Eylem Bölmesi'nde, **Satış** sekmesindeki **Alacak dekontu** grubunda **Alacak dekontu**'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-133">On the Action Pane, on the **Sell** tab, in the **Credit note** group, select **Credit note**.</span></span>
+4. <span data-ttu-id="d7f37-134">Düzeltme nedenini girin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-134">Enter the reason for the correction.</span></span> <span data-ttu-id="d7f37-135">Orijinal faturaya olan referans otomatik olarak kurulur.</span><span class="sxs-lookup"><span data-stu-id="d7f37-135">The reference to the original invoice is automatically established.</span></span>
 
 ![Satış siparişi için referans tanımlama](media/reference-original-invoice-SO.jpg)
 
-### <a name="project-credit-note"></a><span data-ttu-id="83bd5-137">Proje alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="83bd5-137">Project credit note</span></span>
+### <a name="project-credit-note"></a><span data-ttu-id="d7f37-137">Proje alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="d7f37-137">Project credit note</span></span>
 
-1. <span data-ttu-id="83bd5-138">**Proje yönetimi ve muhasebe** \> **Proje faturaları** \> **Proje faturaları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-138">Go to **Project management and accounting** \> **Project invoices** \> **Project invoices**.</span></span>
-2. <span data-ttu-id="83bd5-139">Düzeltilmesi gereken proje faturasını seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="83bd5-139">Select and open the project invoice that must be corrected.</span></span>
-3. <span data-ttu-id="83bd5-140">Eylem Bölmesi'nde, **Proje faturası** sekmesindeki **İşlevler** grubunda **Alacak dekontu için seçin**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-140">On the Action Pane, on the **Project invoice** tab, in the **Functions** group, select **Select for credit note**.</span></span>
-4. <span data-ttu-id="83bd5-141">**Alacak faturalaması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-141">Select **Credit invoicing**.</span></span>
-5. <span data-ttu-id="83bd5-142">Düzeltme nedenini girin.</span><span class="sxs-lookup"><span data-stu-id="83bd5-142">Enter the reason for the correction.</span></span> <span data-ttu-id="83bd5-143">Orijinal faturaya olan referans otomatik olarak kurulur.</span><span class="sxs-lookup"><span data-stu-id="83bd5-143">The reference to the original invoice is automatically established.</span></span>
+1. <span data-ttu-id="d7f37-138">**Proje yönetimi ve muhasebe** \> **Proje faturaları** \> **Proje faturaları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-138">Go to **Project management and accounting** \> **Project invoices** \> **Project invoices**.</span></span>
+2. <span data-ttu-id="d7f37-139">Düzeltilmesi gereken proje faturasını seçin ve açın.</span><span class="sxs-lookup"><span data-stu-id="d7f37-139">Select and open the project invoice that must be corrected.</span></span>
+3. <span data-ttu-id="d7f37-140">Eylem Bölmesi'nde, **Proje faturası** sekmesindeki **İşlevler** grubunda **Alacak dekontu için seçin**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-140">On the Action Pane, on the **Project invoice** tab, in the **Functions** group, select **Select for credit note**.</span></span>
+4. <span data-ttu-id="d7f37-141">**Alacak faturalaması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-141">Select **Credit invoicing**.</span></span>
+5. <span data-ttu-id="d7f37-142">Düzeltme nedenini girin.</span><span class="sxs-lookup"><span data-stu-id="d7f37-142">Enter the reason for the correction.</span></span> <span data-ttu-id="d7f37-143">Orijinal faturaya olan referans otomatik olarak kurulur.</span><span class="sxs-lookup"><span data-stu-id="d7f37-143">The reference to the original invoice is automatically established.</span></span>
 
 ![Proje faturası için referans tanımlama](media/reference-original-invoice-project.jpg)
 
-## <a name="printing-credit-notes"></a><span data-ttu-id="83bd5-145">Alacak dekontlarını yazdırma</span><span class="sxs-lookup"><span data-stu-id="83bd5-145">Printing credit notes</span></span>
+## <a name="printing-credit-notes"></a><span data-ttu-id="d7f37-145">Alacak dekontlarını yazdırma</span><span class="sxs-lookup"><span data-stu-id="d7f37-145">Printing credit notes</span></span>
 
-<span data-ttu-id="83bd5-146">Serbest metin, müşteri ve proje alacak dekontlarını yazdırdığınızda, orijinal faturaya referans ve düzeltme sebebini içerecektir.</span><span class="sxs-lookup"><span data-stu-id="83bd5-146">When you print free text, customer, and project credit notes, they will include the reference to the original invoice and the correction reason.</span></span>
+<span data-ttu-id="d7f37-146">Serbest metin, müşteri ve proje alacak dekontlarını yazdırdığınızda, orijinal faturaya referans ve düzeltme sebebini içerecektir.</span><span class="sxs-lookup"><span data-stu-id="d7f37-146">When you print free text, customer, and project credit notes, they will include the reference to the original invoice and the correction reason.</span></span>
 
 ![Yazdırılmış alacak dekontu](media/credit-note-FTI.jpg)
 
 > [!NOTE]
-> <span data-ttu-id="83bd5-148">Orijinal faturalara yapılan başvuruların yazdırılacağını varsayarak belgelerin yazdırılabilir biçimlerinin doğru yapılandırılmış olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="83bd5-148">Make sure that the printable formats of the documents are correctly configured, on the assumption that references to original invoices will be printed.</span></span>
+> <span data-ttu-id="d7f37-148">Orijinal faturalara yapılan başvuruların yazdırılacağını varsayarak belgelerin yazdırılabilir biçimlerinin doğru yapılandırılmış olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="d7f37-148">Make sure that the printable formats of the documents are correctly configured, on the assumption that references to original invoices will be printed.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
