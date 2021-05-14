@@ -94,12 +94,12 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (Temmuz 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (Nisan 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (Şubat 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -182,8 +182,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Power Apps'teki tuval uygulamalarını katıştırma
+                - name: Power Apps'teki tuval uygulamalarını ekleme
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Üçüncü taraf uygulamaları ekleme
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Oturumun tarihini değiştirme
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Retail Hardware Station'ı yapılandırma ve yükleme
                   href: retail-hardware-station-configuration-installation.md
+                - name: Mühürlü Commerce self servis bileşenlerinin toplu dağıtımı
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Eski self servis bileşenlerinin toplu dağıtımı
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Tanılama ve sorun giderme için Commerce bileşeni olayları
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Özelleştirilmiş bir Modern POS için cihaz etkinleştirme
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: POS oturum açma için Azure Active Directory kimlik doğrulamasını etkinleştirme
+                    - name: POS oturum açma için Azure Active Directory kimlik doğrulamasını yapılandırma
                       href: aad-pos-logon.md
                     - name: POS'ta ürün ve müşteri arama
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Sevkiyat iskontosuna genel bakış
                   href: retail-shipping-discount.md
+                - name: Hediyeyi satın alma promosyonlarıyla yapılandırma
+                  href: gift-with-purchase.md
                 - name: Kuponları ayarlama
                   href: retail-coupons.md
                 - name: POS'ta iskontoları gösterme
@@ -760,9 +766,11 @@
                   href: notifications-pos.md
                 - name: Süreklilik programları satma ve satış siparişlerini işleme
                   href: tasks/use-continuity-program.md
+                - name: Satış noktasında (POS) müşteri iade bildirimlerini etkinleştirme
+                  href: enable-customer-check-in.md
             - name: İadeler
               items:
-                - name: Bağlantılı para iadeleri
+                - name: Bağlantılı geri ödemeler
                   href: dev-itpro/linked-refunds.md
                 - name: Mağazanın ürün çeşitlerine dahil olmayan ürünleri satma ve iade etme
                   href: sell-return-outside-assortments.md
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Web etkinliği olay koleksiyonundan vazgeçme
                   href: web-activity-opt-out.md
+                - name: Ölçü birimi ayarlarını uygulama
+                  href: unit-of-measure.md
             - name: Site içeriğinizi yönetme
               items:
                 - name: İçerik ekleme yolları
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Malzeme çekme bilgileri modülü
                       href: pickup-info-module.md
+                    - name: Teslim alma modülü için giriş
+                      href: check-in-pickup-module.md
                     - name: Sipariş ayrıntıları modülü
                       href: order-confirmation-module.md
                     - name: Hediye kartı modülü
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
               href: set-up-rfm-analysis.md
+            - name: Dynamics 365 Commerce'de Microsoft Clarity'i ayarlama
+              href: set-up-clarity.md
         - name: Globalleştirme
           items:
             - name: Commerce kanalı için mali tümleştirmeye genel bakış
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Regulatory Configuration Service'e genel bakış
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service - Globalleştirme özellikleri
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Avusturya
               items:
                 - name: Avusturya için mali kayıt hizmeti tümleştirme örneği
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Modül props.autogenerated.ts dosyası
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Modül yapılandırma ön ayarları
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Modül geliştirme
                   items:
                     - name: Yeni modül oluşturma
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: POS başlık çubuğuna özel düğmeler ekleme
                   href: dev-itpro/pos-header-bar.md
+                - name: POS bağımsız ambalaj SDK'sı
+                  items:
+                    - name: POS uzantısına genel bakış
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: POS uzantılarını kullanmaya başlama
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: POS uzantı paketi projesi oluşturma
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Modern POS uzantısı appx dosyası oluşturma
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: POS uzantısında hata ayıklama
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Hardware Station genişletilebilirliği
               items:
                 - name: Hardware Station ve genişletilebilirlik

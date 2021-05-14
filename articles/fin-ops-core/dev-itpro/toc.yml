@@ -14,12 +14,12 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
+                - name: 10.0.19 için platform güncelleştirmeleri (Temmuz 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: 10.0.18 için platform güncelleştirmeleri (Mayıs 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: 10.0.17 için platform güncelleştirmeleri (Nisan 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: 10.0.16 için platform güncelleştirmeleri (Şubat 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -303,19 +303,19 @@
                         - name: Project Service Automation tümleştirmesini yapılandırma
                           items:
                             - name: Project Service Automation'a genel bakış
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Project Service Automation tümleştirmesi parametreleri
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Proje sözleşmeleri ile projeleri eşitleme
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Proje görevlerini eşitleme
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Proje gider kategorilerini eşitleme
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Proje tahminleri için proje tahminleriyle eşitleme
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Harici web hizmetleri kullanma
               href: data-entities/consume-external-web-service.md
             - name: Elektronik mesajlaşma
@@ -691,7 +691,7 @@
                     - name: Modeller ve veri modeli öğeleri oluşturmaya genel bakış
                       href: dev-tools/create-data-model-elements.md
                     - name: Uzantılar için adlandırma kuralları
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Model özelleştirmeyi kapatma ve işlevi kullanımdan kaldırma
                       href: dev-tools/lock-models.md
                 - name: Özelleştirme Analizi Raporu
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Lifecycle Services'deki yenilikler veya değişiklikler
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Bilinen sorunlar
-                  href: lifecycle-services/known-issues.md
                 - name: Lifecycle Services (LCS) portalındaki kaldırılan veya kullanımına son verilen özellikler
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services kullanıcı kılavuzu
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Regression Suite Automation Tool kullanma
               href: perf-test/rsat/rsat-run.md
+            - name: Regression Suite Automation Tool'da test çalışmalarını sürdürme
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Beklenen değerleri doğrulama
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Zincir test olayları
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Türetilmiş test olayları
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Parametre dosyalarını yükseltme
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Regression Suite Automation Tool eğitimi
               href: perf-test/rsat/rsat-tutorial.md
             - name: Yönetici olmayan kullanıcıları yapılandırma
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 yükseltmesi - dacpac işlemini kullanarak korumalı alan ortamlarında veri yükseltme
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: AX 2012'den yükseltme - SQL İşlem Çoğaltma
+                  href: database/replication-setup.md
                 - name: AX 2012 yükseltmesi - Korumalı alan ortamlarında veri yükseltme
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 yükseltmesi - Şirket için ortamlar
