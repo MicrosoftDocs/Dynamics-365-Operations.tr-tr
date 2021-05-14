@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908842"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941238"
 ---
-# <a name="configuration-for-finance-insights-preview"></a><span data-ttu-id="6f4ee-103">Mali içgörüler için yapılandırma (önizleme)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-103">Configuration for Finance insights (preview)</span></span>
+# <a name="configuration-for-finance-insights-preview"></a><span data-ttu-id="a7ffb-103">Mali içgörüler için yapılandırma (önizleme)</span><span class="sxs-lookup"><span data-stu-id="a7ffb-103">Configuration for Finance insights (preview)</span></span>
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,420 +30,231 @@ ms.locfileid: "5908842"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="6f4ee-104">Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Microsoft Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-104">Finance insights combines functionality from Microsoft Dynamics 365 Finance with Microsoft Dataverse, Azure, and AI Builder to provide powerful forecasting tools for your organization.</span></span> <span data-ttu-id="6f4ee-105">Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-105">This topic explains the configuration steps that will enable your system to use the capabilities that are available in Finance insights.</span></span>
+<span data-ttu-id="a7ffb-104">Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Microsoft Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-104">Finance insights combines functionality from Microsoft Dynamics 365 Finance with Microsoft Dataverse, Azure, and AI Builder to provide powerful forecasting tools for your organization.</span></span> <span data-ttu-id="a7ffb-105">Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-105">This topic explains the configuration steps that will enable your system to use the capabilities that are available in Finance insights.</span></span>
 
-## <a name="deploy-dynamics-365-finance"></a><span data-ttu-id="6f4ee-106">Dynamics 365 Finance dağıtımı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-106">Deploy Dynamics 365 Finance</span></span>
+## <a name="deploy-dynamics-365-finance"></a><span data-ttu-id="a7ffb-106">Dynamics 365 Finance dağıtımı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-106">Deploy Dynamics 365 Finance</span></span>
 
-<span data-ttu-id="6f4ee-107">Şu adımları izleyerek ortamları dağıtın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-107">Deploy the environments by following these steps.</span></span>
+<span data-ttu-id="a7ffb-107">Şu adımları izleyerek ortamları dağıtın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-107">Deploy the environments by following these steps.</span></span>
 
-1. <span data-ttu-id="6f4ee-108">Microsoft Dynamics Lifecycle Services (LCS) portalında, bir Dynamics 365 Finance ortamı oluşturun veya güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-108">In Microsoft Dynamics Lifecycle Services (LCS), create or update a Dynamics 365 Finance environment.</span></span> <span data-ttu-id="6f4ee-109">Ortam, sürüm 10.0.11/Platform update 35 veya daha sonraki bir uygulama sürümü gerektirir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-109">The environment requires app version 10.0.11/Platform update 35 or later.</span></span>
-2. <span data-ttu-id="6f4ee-110">Ortam, Korumalı Alan içinde yüksek kullanılabilirlik (HA) ortamı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-110">The environment must be a high-availability (HA) environment in Sandbox.</span></span> <span data-ttu-id="6f4ee-111">(Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span><span class="sxs-lookup"><span data-stu-id="6f4ee-111">(This type of environment is also known as a Tier-2 environment.) For more information, see [Environment planning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span></span>
-3. <span data-ttu-id="6f4ee-112">Contoso tanıtım verilerini kullanıyorsanız Müşteri ödeme tahminleri, Nakit akışı tahminleri ve Bütçe tahminleri özelliklerini kullanmak için ek örnek verilere ihtiyaç duyarsınız.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-112">If you're using Contoso demo data, you will require additional sample data to use the Customer payment predictions, Cash flow forecasts, and Budget forecasts features.</span></span> 
+1. <span data-ttu-id="a7ffb-108">Microsoft Dynamics Lifecycle Services (LCS) portalında, bir Dynamics 365 Finance ortamı oluşturun veya güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-108">In Microsoft Dynamics Lifecycle Services (LCS), create or update a Dynamics 365 Finance environment.</span></span> <span data-ttu-id="a7ffb-109">Ortam, sürüm 10.0.11/Platform update 35 veya daha sonraki bir uygulama sürümü gerektirir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-109">The environment requires app version 10.0.11/Platform update 35 or later.</span></span>
+2. <span data-ttu-id="a7ffb-110">Ortam, Korumalı Alan içinde yüksek kullanılabilirlik (HA) ortamı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-110">The environment must be a high-availability (HA) environment in Sandbox.</span></span> <span data-ttu-id="a7ffb-111">(Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span><span class="sxs-lookup"><span data-stu-id="a7ffb-111">(This type of environment is also known as a Tier-2 environment.) For more information, see [Environment planning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).</span></span>
+3. <span data-ttu-id="a7ffb-112">Contoso tanıtım verilerini kullanıyorsanız Müşteri ödeme tahminleri, Nakit akışı tahminleri ve Bütçe tahminleri özelliklerini kullanmak için ek örnek verilere ihtiyaç duyarsınız.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-112">If you're using Contoso demo data, you will require additional sample data to use the Customer payment predictions, Cash flow forecasts, and Budget forecasts features.</span></span> 
 
-## <a name="configure-dataverse"></a><span data-ttu-id="6f4ee-113">Dataverse'ı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-113">Configure Dataverse</span></span>
+## <a name="configure-dataverse"></a><span data-ttu-id="a7ffb-113">Dataverse'ı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-113">Configure Dataverse</span></span>
 
-<span data-ttu-id="6f4ee-114">Sonraki manuel yapılandırma adımlarını tamamlayabilir veya sağlanan Windows PowerShell betiğini kullanarak yapılandırma işlemini hızlandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-114">You can complete the manual configuration steps that follow, or you can speed up the configuration process by using the Windows PowerShell script that is provided.</span></span> <span data-ttu-id="6f4ee-115">PowerShell betik dosyasının çalışması bittiğinde size Mali içgörüleri yapılandırmak için kullanabileceğiniz değerler sunar.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-115">When the PowerShell script has finished running, it will give you values to use to configure Finance insights.</span></span> 
+<span data-ttu-id="a7ffb-114">Finance Insights için Dataverse'ü yapılandırmak için aşağıdaki adımları kullanın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-114">Use the following steps to configure Dataverse for Finance insights.</span></span>
+
+1. <span data-ttu-id="a7ffb-115">LCS'deki ortam sayfasını açın ve **Power Platform Tümleştirme** bölümünün ayarlı olduğunu doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-115">Open the environment page in LCS and verify that the **Power Platform Integration** section is already setup.</span></span>
+    1. <span data-ttu-id="a7ffb-116">Ayarlıysa Dynamics 365 Finance Ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-116">If it is already set up, the Dataverse environment name linked to the Dynamics 365 Finance Environment should be listed.</span></span> <span data-ttu-id="a7ffb-117">Dataverse ortam adını kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-117">Copy the Dataverse environment name.</span></span>
+    2. <span data-ttu-id="a7ffb-118">Ayarlı değilse aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-118">If it is not set up, follow these steps:</span></span>
+        1. <span data-ttu-id="a7ffb-119">Power Platform Tümleştirme bölümünde **Kurulum** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-119">Select the **Setup** button in the Power Platform Integration section.</span></span> <span data-ttu-id="a7ffb-120">Ortamın kurulumu bir saat kadar sürebilir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-120">It may take up to an hour for the environment to be set up.</span></span>
+        2. <span data-ttu-id="a7ffb-121">Dataverse ortamı başarıyla ayarlandığında Dynamics 365 Finance Ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-121">If the Dataverse environment is successfully set up, the Dataverse environment name linked to the Dynamics 365 Finance Environment should be listed.</span></span> <span data-ttu-id="a7ffb-122">Dataverse ortam adını kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-122">Copy the Dataverse environment name.</span></span>
+> [!NOTE]
+> <span data-ttu-id="a7ffb-123">Ortam kurulumu tamamladıktan sonra, **Uygulamalar için CDS bağlantısı** düğmesini **SEÇMEYİN**.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-123">After completing the environment set up, **DO NOT** select the **Link to CDS for Apps** button.</span></span> <span data-ttu-id="a7ffb-124">Bu, Finance Insights için gerekli değildir ve LCS'de gerekli Ortam Eklentilerini tamamlama özelliğini devre dışı bırakır.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-124">This is not needed for Finance Insights and will disable the ability to complete the required Environment Add-ins in LCS.</span></span>
+
+2. <span data-ttu-id="a7ffb-125">[Power Platform yönetim merkezini](https://admin.powerplatform.microsoft.com/)açın ve aynı Active Directory kiracısında yeni bir Dataverse ortamı oluşturmak için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-125">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and follow these steps to create a new Dataverse environment in the same Active Directory tenant:</span></span>
+
+    1. <span data-ttu-id="a7ffb-126">**Ortamlar** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-126">Open the **Environments** page.</span></span>
+
+        <span data-ttu-id="a7ffb-127">[![Ortamlar sayfası](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span><span class="sxs-lookup"><span data-stu-id="a7ffb-127">[![Environments page](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span></span>
+
+    2. <span data-ttu-id="a7ffb-128">Yukarıda oluşturulan Dataverse ortamını seçin ve ardından **Ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-128">Select the Dataverse environment created above and then select **Settings**.</span></span>
+    3. <span data-ttu-id="a7ffb-129">**Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-129">Select **Resources \> All Legacy Settings**.</span></span>
+    4. <span data-ttu-id="a7ffb-130">Üst gezinti çubuğunda, **Ayarlar**'ı seçin ve ardından **Özelleştirmeler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-130">On the top navigation bar, select **Settings**, and then select **Customizations**.</span></span>
+    5. <span data-ttu-id="a7ffb-131">**Geliştirici Kaynakları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-131">Select **Developer Resources**.</span></span>
+    6. <span data-ttu-id="a7ffb-132">**Dataverse kuruluş kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-132">Copy the **Dataverse organization ID** value.</span></span>
+    7. <span data-ttu-id="a7ffb-133">Tarayıcının adres çubuğunda Dataverse kuruluşunun URL'sini not edin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-133">In the browser's address bar, make a note of the URL for the Dataverse organization.</span></span> <span data-ttu-id="a7ffb-134">Örneğin, URL şu şekilde olabilir: `https://org42b2b3d3.crm.dynamics.com`.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-134">For example, the URL might be `https://org42b2b3d3.crm.dynamics.com`.</span></span>
+
+3. <span data-ttu-id="a7ffb-135">Nakit akışı tahminleri veya bütçe tahminleri özelliğini kullanmayı planlıyorsanız kuruluşunuzun ek açıklama sınırını en az 50 megabayt (MB) olarak güncelleştirmek için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-135">If you plan to use the Cash flow forecasts or Budget forecasts feature, follow these steps to update the annotation limit for your organization to at least 50 megabytes (MB):</span></span>
+
+    1. <span data-ttu-id="a7ffb-136">[Power Apps portalını](https://make.powerapps.com) açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-136">Open the [Power Apps portal](https://make.powerapps.com).</span></span>
+    2. <span data-ttu-id="a7ffb-137">Yeni oluşturduğunuz ortamı seçin ve sonra **Gelişmiş ayarlar**'ı seçin .</span><span class="sxs-lookup"><span data-stu-id="a7ffb-137">Select the environment that you just created, and then select **Advanced settings**.</span></span>
+    3. <span data-ttu-id="a7ffb-138">**Ayarlar \> E-posta Yapılandırması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-138">Select **Settings \> Email Configuration**.</span></span>
+    4. <span data-ttu-id="a7ffb-139">**Maksimum dosya boyutu** alanının değerini **51.200** olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-139">Change the value of the **Maximum file size** field to **51,200**.</span></span> <span data-ttu-id="a7ffb-140">(Değer, kilobayt \[KB\] cinsinden ifade edilir.)</span><span class="sxs-lookup"><span data-stu-id="a7ffb-140">(The value is expressed in kilobytes \[KB\].)</span></span>
+    5. <span data-ttu-id="a7ffb-141">Yaptığınız değişiklikleri kaydetmek için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-141">Select **OK** to save your changes.</span></span>
+
+## <a name="configure-the-azure-setup"></a><span data-ttu-id="a7ffb-142">Azure kurulumunu yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-142">Configure the Azure setup</span></span>
+
+### <a name="enter-the-dataverse-directory-id-and-the-users-azure-ad-object-id"></a><span data-ttu-id="a7ffb-143">Dataverse dizin kodunu ve kullanıcının Azure AD nesne kodunu girin</span><span class="sxs-lookup"><span data-stu-id="a7ffb-143">Enter the Dataverse directory ID and the user's Azure AD object ID</span></span>
+
+1. <span data-ttu-id="a7ffb-144">Dataverse dizin kodunu girin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-144">Enter the Dataverse directory ID:</span></span>
+
+    1. <span data-ttu-id="a7ffb-145">[Azure portalını](https://portal.azure.com) açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-145">Open the [Azure portal](https://portal.azure.com).</span></span>
+    2. <span data-ttu-id="a7ffb-146">Dataverse ortamı oluşturmak için kullanılan kullanıcı kimliğini kullanarak oturum açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-146">Sign in by using the user ID that was used to create the Dataverse environment.</span></span>
+    3. <span data-ttu-id="a7ffb-147">**Azure Active Directory** gidin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-147">Go to **Azure Active Directory**.</span></span>
+    4. <span data-ttu-id="a7ffb-148">**Kiracı Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-148">Copy the **Tenant ID** value.</span></span>
+
+2. <span data-ttu-id="a7ffb-149">Kullanıcının Azure Active Directory (Azure AD) nesne kimliğini girin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-149">Enter the user's Azure Active Directory (Azure AD) object ID:</span></span>
+
+    1. <span data-ttu-id="a7ffb-150">[Azure portalı](https://portal.azure.com) içinde **Kullanıcılar**'a gidin ve e-posta adresine göre kullanıcıyı arayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-150">In the [Azure portal](https://portal.azure.com), go to **Users**, and search for the user by email address.</span></span>
+    2. <span data-ttu-id="a7ffb-151">Kullanıcının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-151">Select the user's name.</span></span>
+    3. <span data-ttu-id="a7ffb-152">**Nesne Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-152">Copy the **Object ID** value.</span></span>
+
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a><span data-ttu-id="a7ffb-153">Mali içgörüler Data Lake kaynaklarını ayarlamak için Azure Cloud Shell kullanma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-153">Use Azure Cloud Shell to set up Finance insights Data Lake resources</span></span>
+
+# <a name="use-a-windows-powershell-script"></a>[<span data-ttu-id="a7ffb-154">Windows PowerShell betik dosyası kullanma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-154">Use a Windows PowerShell script</span></span>](#tab/use-a-powershell-script)
+
+<span data-ttu-id="a7ffb-155">[Azure Data Lake'e aktarmayı yapılandırma](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) konusunda açıklandığı gibi Azure kaynaklarını kolayca ayarlayabilmeniz için Windows PowerShell betik dosyası sağlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-155">A Windows PowerShell script has been provided, so that you can easily set up the Azure resources that are described in [Configure export to Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).</span></span> <span data-ttu-id="a7ffb-156">El ile kurulum yapmayı tercih ediyorsanız bu yordamı atlayın ve [El ile kurulum](#manual-setup) bölümündeki yordama devam edin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-156">If you prefer to do manual setup, skip this procedure, and continue with the procedure in the [Manual setup](#manual-setup) section.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6f4ee-116">Betik dosyasını çalıştırmak için bilgisayarınızda PowerShell'i açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-116">Open PowerShell on your PC to run the script.</span></span> <span data-ttu-id="6f4ee-117">PowerShell sürüm 5 gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-117">You may need PowerShell version 5.</span></span> <span data-ttu-id="6f4ee-118">Microsoft Azure CLI "Try it" seçeneği çalışmayabilir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-118">The Microsoft Azure CLI "Try it" option may not work.</span></span>
+> <span data-ttu-id="a7ffb-157">PowerShell betiğini çalıştırmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-157">Follow the steps below to run the PowerShell script.</span></span> <span data-ttu-id="a7ffb-158">Azure CLI "Try it" seçeneği veya betiği bilgisayarınızda çalıştırmak işe yaramayabilir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-158">The Azure CLI "Try it" option, or running the script on your PC may not work.</span></span>
 
-# <a name="manual-configuration-steps"></a>[<span data-ttu-id="6f4ee-119">El ile yapılandırma adımları</span><span class="sxs-lookup"><span data-stu-id="6f4ee-119">Manual configuration steps</span></span>](#tab/configuration-steps)
+<span data-ttu-id="a7ffb-159">Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-159">Follow these steps to configure Azure by using the Windows PowerShell script.</span></span> <span data-ttu-id="a7ffb-160">Azure kaynak grubu, Azure kaynakları ve bir Azure AD uygulaması oluşturma haklarınız olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-160">You must have rights to create an Azure resource group, Azure resources, and an Azure AD application.</span></span> <span data-ttu-id="a7ffb-161">Gerekli izinler hakkında daha fazla bilgi için bkz. [Azure AD izinlerini denetleme](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span><span class="sxs-lookup"><span data-stu-id="a7ffb-161">For information about the required permissions, see [Check Azure AD permissions](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span></span>
 
-1. <span data-ttu-id="6f4ee-120">[Power Platform yönetim merkezini](https://admin.powerplatform.microsoft.com/)açın ve aynı Active Directory kiracısında yeni bir Dataverse ortamı oluşturmak için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-120">Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and follow these steps to create a new Dataverse environment in the same Active Directory tenant:</span></span>
+1. <span data-ttu-id="a7ffb-162">[Azure portalda](https://portal.azure.com) hedef Azure aboneliğinize gidin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-162">In the [Azure portal](https://portal.azure.com), go to your target Azure subscription.</span></span> <span data-ttu-id="a7ffb-163">**Arama** alanının sağında bulunan **Cloud Shell** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-163">Select the **Cloud Shell** button to the right of the **Search** field.</span></span>
+2. <span data-ttu-id="a7ffb-164">**PowerShell**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-164">Select **PowerShell**.</span></span>
+3. <span data-ttu-id="a7ffb-165">İstenirse depolama alanı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-165">Create storage if you're prompted to do so.</span></span>
+4. <span data-ttu-id="a7ffb-166">**Azure CLI** sekmesine gidin ve **Kopyala**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-166">Go to the **Azure CLI** tab and select **Copy**.</span></span>  
+5. <span data-ttu-id="a7ffb-167">Not defterini açın ve PowerShell betiğini yapıştırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-167">Open Notepad and paste the PowerShell script.</span></span> <span data-ttu-id="a7ffb-168">Dosyayı, ConfigureDataLake.ps1 olarak kaydedin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-168">Save the file as ConfigureDataLake.ps1.</span></span>
+6. <span data-ttu-id="a7ffb-169">Cloud Shell'de yükleme için menü seçeneğini kullanarak Windows PowerShell betiğini oturuma yükleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-169">Upload the Windows PowerShell script to the session using the menu option for upload in Cloud Shell.</span></span>
+7. <span data-ttu-id="a7ffb-170">.\ConfigureDataLake.ps1 betiğini çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-170">Run the script .\ConfigureDataLake.ps1.</span></span>
+8. <span data-ttu-id="a7ffb-171">Betik dosyasını çalıştırmak için istemleri izleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-171">Follow the prompts to run the script.</span></span>
+9. <span data-ttu-id="a7ffb-172">LCS'ye **Data Lake'e dışarı aktar** eklentisini yüklemek için betik dosyası çıktısındaki bilgileri kullanın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-172">Use the information from the script output to install the **Export to Data Lake** add-in in LCS.</span></span>
+10. <span data-ttu-id="a7ffb-173">Finance'teki **Veri bağlantıları** sayfasında varlık deposunu etkinleştirmek için betik dosyası çıktısındaki bilgileri kullanın (**Sistem yönetimi \> Sistem parametreleri \> Veri bağlantıları**).</span><span class="sxs-lookup"><span data-stu-id="a7ffb-173">Use the information from the script output to enable the entity store on the **Data connections** page in Finance (**System administration \> System parameters \> Data connections**).</span></span>
 
-    1. <span data-ttu-id="6f4ee-121">**Ortamlar** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-121">Open the **Environments** page.</span></span>
+### <a name="manual-setup"></a><span data-ttu-id="a7ffb-174">El ile kurulum</span><span class="sxs-lookup"><span data-stu-id="a7ffb-174">Manual setup</span></span>
 
-        <span data-ttu-id="6f4ee-122">[![Ortamlar sayfası](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-122">[![Environments page](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)</span></span>
+#### <a name="add-applications-to-the-azure-ad-tenant"></a><span data-ttu-id="a7ffb-175">Azure AD kiracısına uygulama ekleme</span><span class="sxs-lookup"><span data-stu-id="a7ffb-175">Add applications to the Azure AD tenant</span></span>
 
-    2. <span data-ttu-id="6f4ee-123">**Yeni ortam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-123">Select **New environment**.</span></span>
-    3. <span data-ttu-id="6f4ee-124">**Tür** alanında **Korumalı alan**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-124">In the **Type** field, select **Sandbox**.</span></span>
-    4. <span data-ttu-id="6f4ee-125">**Veritabanı Oluştur** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-125">Set the **Create Database** option to **Yes**.</span></span>
-    5. <span data-ttu-id="6f4ee-126">**Sonraki**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-126">Select **Next**.</span></span>
-    6. <span data-ttu-id="6f4ee-127">Kuruluşunuz için dili ve para birimini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-127">Select the language and currency for your organization.</span></span>
-    7. <span data-ttu-id="6f4ee-128">Diğer alanlar için varsayılan değerleri kabul edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-128">Accept the default values for the other fields.</span></span>
-    8. <span data-ttu-id="6f4ee-129">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-129">Select **Save**.</span></span>
-    9. <span data-ttu-id="6f4ee-130">**Ortamlar** sayfasını yenileyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-130">Refresh the **Environments** page.</span></span>
-    10. <span data-ttu-id="6f4ee-131">**Durum** alanının değeri **Hazır** olarak güncelleştirilene kadar bekleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-131">Wait until the value of the **State** field is updated to **Ready**.</span></span>
-    11. <span data-ttu-id="6f4ee-132">Dataverse kuruluş kodunu not edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-132">Make a note of the Dataverse organization ID.</span></span>
-    12. <span data-ttu-id="6f4ee-133">Ortamı seçin ve sonra **Ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-133">Select the environment, and then select **Settings**.</span></span>
-    13. <span data-ttu-id="6f4ee-134">**Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-134">Select **Resources \> All Legacy Settings**.</span></span>
-    14. <span data-ttu-id="6f4ee-135">Üst gezinti çubuğunda, **Ayarlar**'ı seçin ve ardından **Özelleştirmeler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-135">On the top navigation bar, select **Settings**, and then select **Customizations**.</span></span>
-    15. <span data-ttu-id="6f4ee-136">**Geliştirici Kaynakları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-136">Select **Developer Resources**.</span></span>
-    16. <span data-ttu-id="6f4ee-137">**Dataverse kuruluş kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-137">Copy the **Dataverse organization ID** value.</span></span>
-    17. <span data-ttu-id="6f4ee-138">Tarayıcının adres çubuğunda Dataverse kuruluşunun URL'sini not edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-138">In the browser's address bar, make a note of the URL for the Dataverse organization.</span></span> <span data-ttu-id="6f4ee-139">Örneğin, URL şu şekilde olabilir: `https://org42b2b3d3.crm.dynamics.com`.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-139">For example, the URL might be `https://org42b2b3d3.crm.dynamics.com`.</span></span>
+1. <span data-ttu-id="a7ffb-176">[Azure portalda](https://portal.azure.com) **Azure Active Directory**'ye gidin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-176">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**.</span></span>
+2. <span data-ttu-id="a7ffb-177">**Yönet \> Kurumsal uygulamalar** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-177">Select **Manage \> Enterprise applications**.</span></span>
+3. <span data-ttu-id="a7ffb-178">Uygulama kimliğine göre aşağıdaki uygulamaları arayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-178">Search for the following applications by app ID.</span></span>
 
-2. <span data-ttu-id="6f4ee-140">Nakit akışı tahminleri veya bütçe tahminleri özelliğini kullanmayı planlıyorsanız kuruluşunuzun ek açıklama sınırını en az 50 megabayt (MB) olarak güncelleştirmek için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-140">If you plan to use the Cash flow forecasts or Budget forecasts feature, follow these steps to update the annotation limit for your organization to at least 50 megabytes (MB):</span></span>
-
-    1. <span data-ttu-id="6f4ee-141">[Power Apps portalını](https://make.powerapps.com) açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-141">Open the [Power Apps portal](https://make.powerapps.com).</span></span>
-    2. <span data-ttu-id="6f4ee-142">Yeni oluşturduğunuz ortamı seçin ve sonra **Gelişmiş ayarlar**'ı seçin .</span><span class="sxs-lookup"><span data-stu-id="6f4ee-142">Select the environment that you just created, and then select **Advanced settings**.</span></span>
-    3. <span data-ttu-id="6f4ee-143">**Ayarlar \> E-posta Yapılandırması**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-143">Select **Settings \> Email Configuration**.</span></span>
-    4. <span data-ttu-id="6f4ee-144">**Maksimum dosya boyutu** alanının değerini **51.200** olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-144">Change the value of the **Maximum file size** field to **51,200**.</span></span> <span data-ttu-id="6f4ee-145">(Değer, kilobayt \[KB\] cinsinden ifade edilir.)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-145">(The value is expressed in kilobytes \[KB\].)</span></span>
-    5. <span data-ttu-id="6f4ee-146">Yaptığınız değişiklikleri kaydetmek için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-146">Select **OK** to save your changes.</span></span>
-
-# <a name="windows-powershell-configuration-script"></a>[<span data-ttu-id="6f4ee-147">Windows PowerShell yapılandırma betik dosyası</span><span class="sxs-lookup"><span data-stu-id="6f4ee-147">Windows PowerShell configuration script</span></span>](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
-
-## <a name="configure-the-azure-setup"></a><span data-ttu-id="6f4ee-148">Azure kurulumunu yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-148">Configure the Azure setup</span></span>
-
-### <a name="enter-the-dataverse-directory-id-and-the-users-azure-ad-object-id"></a><span data-ttu-id="6f4ee-149">Dataverse dizin kodunu ve kullanıcının Azure AD nesne kodunu girin</span><span class="sxs-lookup"><span data-stu-id="6f4ee-149">Enter the Dataverse directory ID and the user's Azure AD object ID</span></span>
-
-1. <span data-ttu-id="6f4ee-150">Dataverse dizin kodunu girin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-150">Enter the Dataverse directory ID:</span></span>
-
-    1. <span data-ttu-id="6f4ee-151">[Azure portalını](https://portal.azure.com) açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-151">Open the [Azure portal](https://portal.azure.com).</span></span>
-    2. <span data-ttu-id="6f4ee-152">Dataverse ortamı oluşturmak için kullanılan kullanıcı kimliğini kullanarak oturum açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-152">Sign in by using the user ID that was used to create the Dataverse environment.</span></span>
-    3. <span data-ttu-id="6f4ee-153">**Azure Active Directory** gidin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-153">Go to **Azure Active Directory**.</span></span>
-    4. <span data-ttu-id="6f4ee-154">**Kiracı Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-154">Copy the **Tenant ID** value.</span></span>
-
-2. <span data-ttu-id="6f4ee-155">Kullanıcının Azure Active Directory (Azure AD) nesne kimliğini girin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-155">Enter the user's Azure Active Directory (Azure AD) object ID:</span></span>
-
-    1. <span data-ttu-id="6f4ee-156">[Azure portalı](https://portal.azure.com) içinde **Kullanıcılar**'a gidin ve e-posta adresine göre kullanıcıyı arayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-156">In the [Azure portal](https://portal.azure.com), go to **Users**, and search for the user by email address.</span></span>
-    2. <span data-ttu-id="6f4ee-157">Kullanıcının adını seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-157">Select the user's name.</span></span>
-    3. <span data-ttu-id="6f4ee-158">**Nesne Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-158">Copy the **Object ID** value.</span></span>
-
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a><span data-ttu-id="6f4ee-159">Mali içgörüler Data Lake kaynaklarını ayarlamak için Azure Cloud Shell kullanma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-159">Use Azure Cloud Shell to set up Finance insights Data Lake resources</span></span>
-
-# <a name="use-a-windows-powershell-script"></a>[<span data-ttu-id="6f4ee-160">Windows PowerShell betik dosyası kullanma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-160">Use a Windows PowerShell script</span></span>](#tab/use-a-powershell-script)
-
-<span data-ttu-id="6f4ee-161">[Azure Data Lake'e aktarmayı yapılandırma](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) konusunda açıklandığı gibi Azure kaynaklarını kolayca ayarlayabilmeniz için Windows PowerShell betik dosyası sağlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-161">A Windows PowerShell script has been provided, so that you can easily set up the Azure resources that are described in [Configure export to Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).</span></span> <span data-ttu-id="6f4ee-162">El ile kurulum yapmayı tercih ediyorsanız bu yordamı atlayın ve [El ile kurulum](#manual-setup) bölümündeki yordama devam edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-162">If you prefer to do manual setup, skip this procedure, and continue with the procedure in the [Manual setup](#manual-setup) section.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="6f4ee-163">PowerShell betiğini çalıştırmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-163">Follow the steps below to run the PowerShell script.</span></span> <span data-ttu-id="6f4ee-164">Azure CLI "Try it" seçeneği veya betiği bilgisayarınızda çalıştırmak işe yaramayabilir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-164">The Azure CLI "Try it" option, or running the script on your PC may not work.</span></span>
-
-<span data-ttu-id="6f4ee-165">Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-165">Follow these steps to configure Azure by using the Windows PowerShell script.</span></span> <span data-ttu-id="6f4ee-166">Azure kaynak grubu, Azure kaynakları ve bir Azure AD uygulaması oluşturma haklarınız olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-166">You must have rights to create an Azure resource group, Azure resources, and an Azure AD application.</span></span> <span data-ttu-id="6f4ee-167">Gerekli izinler hakkında daha fazla bilgi için bkz. [Azure AD izinlerini denetleme](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span><span class="sxs-lookup"><span data-stu-id="6f4ee-167">For information about the required permissions, see [Check Azure AD permissions](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).</span></span>
-
-1. <span data-ttu-id="6f4ee-168">[Azure portalda](https://portal.azure.com) hedef Azure aboneliğinize gidin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-168">In the [Azure portal](https://portal.azure.com), go to your target Azure subscription.</span></span> <span data-ttu-id="6f4ee-169">**Arama** alanının sağında bulunan **Cloud Shell** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-169">Select the **Cloud Shell** button to the right of the **Search** field.</span></span>
-2. <span data-ttu-id="6f4ee-170">**PowerShell**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-170">Select **PowerShell**.</span></span>
-3. <span data-ttu-id="6f4ee-171">İstenirse, depolama alanı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-171">Create storage, if you're prompted to do so.</span></span> <span data-ttu-id="6f4ee-172">Ardından, Windows PowerShell betiğini oturuma yükleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-172">Then upload the Windows PowerShell script to the session.</span></span>
-4. <span data-ttu-id="6f4ee-173">Betik dosyasını çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-173">Run the script.</span></span>
-5. <span data-ttu-id="6f4ee-174">Betik dosyasını çalıştırmak için istemleri izleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-174">Follow the prompts to run the script.</span></span>
-6. <span data-ttu-id="6f4ee-175">LCS'ye **Data Lake'e dışarı aktar** eklentisini yüklemek için betik dosyası çıktısındaki bilgileri kullanın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-175">Use the information from the script output to install the **Export to Data Lake** add-in in LCS.</span></span>
-7. <span data-ttu-id="6f4ee-176">Finance'teki **Veri bağlantıları** sayfasında varlık deposunu etkinleştirmek için betik dosyası çıktısındaki bilgileri kullanın (**Sistem yönetimi \> Sistem parametreleri \> Veri bağlantıları**).</span><span class="sxs-lookup"><span data-stu-id="6f4ee-176">Use the information from the script output to enable the entity store on the **Data connections** page in Finance (**System administration \> System parameters \> Data connections**).</span></span>
-
-### <a name="manual-setup"></a><span data-ttu-id="6f4ee-177">El ile kurulum</span><span class="sxs-lookup"><span data-stu-id="6f4ee-177">Manual setup</span></span>
-
-#### <a name="add-applications-to-the-azure-ad-tenant"></a><span data-ttu-id="6f4ee-178">Azure AD kiracısına uygulama ekleme</span><span class="sxs-lookup"><span data-stu-id="6f4ee-178">Add applications to the Azure AD tenant</span></span>
-
-1. <span data-ttu-id="6f4ee-179">[Azure portalda](https://portal.azure.com) **Azure Active Directory**'ye gidin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-179">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**.</span></span>
-2. <span data-ttu-id="6f4ee-180">**Yönet \> Kurumsal uygulamalar** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-180">Select **Manage \> Enterprise applications**.</span></span>
-3. <span data-ttu-id="6f4ee-181">Uygulama kimliğine göre aşağıdaki uygulamaları arayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-181">Search for the following applications by app ID.</span></span>
-
-    | <span data-ttu-id="6f4ee-182">Uygulama</span><span class="sxs-lookup"><span data-stu-id="6f4ee-182">Application</span></span>                              | <span data-ttu-id="6f4ee-183">Uygulama kodu</span><span class="sxs-lookup"><span data-stu-id="6f4ee-183">App ID</span></span>                               |
+    | <span data-ttu-id="a7ffb-179">Uygulama</span><span class="sxs-lookup"><span data-stu-id="a7ffb-179">Application</span></span>                              | <span data-ttu-id="a7ffb-180">Uygulama kodu</span><span class="sxs-lookup"><span data-stu-id="a7ffb-180">App ID</span></span>                               |
     |------------------------------------------|--------------------------------------|
-    | <span data-ttu-id="6f4ee-184">Microsoft Dynamics ERP Mikro Hizmetleri</span><span class="sxs-lookup"><span data-stu-id="6f4ee-184">Microsoft Dynamics ERP Microservices</span></span>     | <span data-ttu-id="6f4ee-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span><span class="sxs-lookup"><span data-stu-id="6f4ee-185">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span></span> |
-    | <span data-ttu-id="6f4ee-186">Microsoft Dynamics ERP Mikro Hizmetleri CDS</span><span class="sxs-lookup"><span data-stu-id="6f4ee-186">Microsoft Dynamics ERP Microservices CDS</span></span> | <span data-ttu-id="6f4ee-187">703e2651-d3fc-48f5-942c-74274233dba8</span><span class="sxs-lookup"><span data-stu-id="6f4ee-187">703e2651-d3fc-48f5-942c-74274233dba8</span></span> |
-    | <span data-ttu-id="6f4ee-188">AI Builder Yetkilendirme Hizmeti</span><span class="sxs-lookup"><span data-stu-id="6f4ee-188">AI Builder Authorization Service</span></span>         | <span data-ttu-id="6f4ee-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span><span class="sxs-lookup"><span data-stu-id="6f4ee-189">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span></span> |
+    | <span data-ttu-id="a7ffb-181">Microsoft Dynamics ERP Mikro Hizmetleri</span><span class="sxs-lookup"><span data-stu-id="a7ffb-181">Microsoft Dynamics ERP Microservices</span></span>     | <span data-ttu-id="a7ffb-182">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span><span class="sxs-lookup"><span data-stu-id="a7ffb-182">0cdb527f-a8d1-4bf8-9436-b352c68682b2</span></span> |
+    | <span data-ttu-id="a7ffb-183">Microsoft Dynamics ERP Mikro Hizmetleri CDS</span><span class="sxs-lookup"><span data-stu-id="a7ffb-183">Microsoft Dynamics ERP Microservices CDS</span></span> | <span data-ttu-id="a7ffb-184">703e2651-d3fc-48f5-942c-74274233dba8</span><span class="sxs-lookup"><span data-stu-id="a7ffb-184">703e2651-d3fc-48f5-942c-74274233dba8</span></span> |
+    | <span data-ttu-id="a7ffb-185">AI Builder Yetkilendirme Hizmeti</span><span class="sxs-lookup"><span data-stu-id="a7ffb-185">AI Builder Authorization Service</span></span>         | <span data-ttu-id="a7ffb-186">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span><span class="sxs-lookup"><span data-stu-id="a7ffb-186">ad40333e-9910-4b61-b281-e3aeeb8c3ef3</span></span> |
 
-<span data-ttu-id="6f4ee-190">Önceki uygulamalardan hiçbirini bulamazsanız aşağıdaki adımları deneyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-190">If you can't find any of the preceding applications, try the following steps.</span></span>
+<span data-ttu-id="a7ffb-187">Önceki uygulamalardan hiçbirini bulamazsanız aşağıdaki adımları deneyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-187">If you can't find any of the preceding applications, try the following steps.</span></span>
 
-1. <span data-ttu-id="6f4ee-191">Yerel makinenizde, **Başlat** menüsünü seçin ve **powershell**'i arayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-191">On your local machine, select the **Start** menu, and search for **powershell**.</span></span>
-2. <span data-ttu-id="6f4ee-192">**Windows PowerShell**'i seçin ve basılı tutun (veya sağ tıklayın) ve sonra **Yönetici olarak çalıştır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-192">Select and hold (or right-click) **Windows PowerShell**, and then select **Run as administrator**.</span></span>
-3. <span data-ttu-id="6f4ee-193">**AzureAD** modülünü yüklemek için aşağıdaki komutu çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-193">Run the following command to install the **AzureAD** module.</span></span>
+1. <span data-ttu-id="a7ffb-188">Yerel makinenizde, **Başlat** menüsünü seçin ve **powershell**'i arayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-188">On your local machine, select the **Start** menu, and search for **powershell**.</span></span>
+2. <span data-ttu-id="a7ffb-189">**Windows PowerShell**'i seçin ve basılı tutun (veya sağ tıklayın) ve sonra **Yönetici olarak çalıştır**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-189">Select and hold (or right-click) **Windows PowerShell**, and then select **Run as administrator**.</span></span>
+3. <span data-ttu-id="a7ffb-190">**AzureAD** modülünü yüklemek için aşağıdaki komutu çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-190">Run the following command to install the **AzureAD** module.</span></span>
 
     `Install-Module -Name AzureAD`
 
-4. <span data-ttu-id="6f4ee-194">Devam etmek için NuGet sağlayıcısı gerekiyorsa yüklemek için **Y**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-194">If a NuGet provider is required to continue, select **Y** to install it.</span></span>
-5. <span data-ttu-id="6f4ee-195">"Güvenilmeyen depo" iletisi görüntülenirse devam etmek için **Y**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-195">If an "Untrusted repository" message appears, select **Y** to continue.</span></span>
-6. <span data-ttu-id="6f4ee-196">Eklenmesi gereken her uygulama için uygulamayı Azure AD'ye eklemek üzere aşağıdaki komutları çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-196">For each application that must be added, run the following commands to add the application to Azure AD.</span></span> <span data-ttu-id="6f4ee-197">İstendiğinde, Azure AD yöneticisi olarak oturum açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-197">When you're prompted, sign in as the Azure AD administrator.</span></span>
+4. <span data-ttu-id="a7ffb-191">Devam etmek için NuGet sağlayıcısı gerekiyorsa yüklemek için **Y**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-191">If a NuGet provider is required to continue, select **Y** to install it.</span></span>
+5. <span data-ttu-id="a7ffb-192">"Güvenilmeyen depo" iletisi görüntülenirse devam etmek için **Y**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-192">If an "Untrusted repository" message appears, select **Y** to continue.</span></span>
+6. <span data-ttu-id="a7ffb-193">Eklenmesi gereken her uygulama için uygulamayı Azure AD'ye eklemek üzere aşağıdaki komutları çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-193">For each application that must be added, run the following commands to add the application to Azure AD.</span></span> <span data-ttu-id="a7ffb-194">İstendiğinde, Azure AD yöneticisi olarak oturum açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-194">When you're prompted, sign in as the Azure AD administrator.</span></span>
 
     `Connect-AzureAD`
 
     `New-AzureADServicePrincipal –AppId <AppId>`
 
-#### <a name="create-azure-resources"></a><span data-ttu-id="6f4ee-198">Azure kaynakları oluşturma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-198">Create Azure resources</span></span>
+#### <a name="create-azure-resources"></a><span data-ttu-id="a7ffb-195">Azure kaynakları oluşturma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-195">Create Azure resources</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6f4ee-199">Dataverse ortamıyla aynı Azure AD kurulumunda aşağıdaki kaynakları oluşturduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-199">Make sure that you create the following resources in the same Azure AD instance as the Dataverse environment.</span></span> <span data-ttu-id="6f4ee-200">Farklı bir Azure AD kurulumundan kaynak kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-200">You can't use resources from a different Azure AD instance.</span></span>
+> <span data-ttu-id="a7ffb-196">Dataverse ortamıyla aynı Azure AD kurulumunda aşağıdaki kaynakları oluşturduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-196">Make sure that you create the following resources in the same Azure AD instance as the Dataverse environment.</span></span> <span data-ttu-id="a7ffb-197">Farklı bir Azure AD kurulumundan kaynak kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-197">You can't use resources from a different Azure AD instance.</span></span>
 
-1. <span data-ttu-id="6f4ee-201">Yeni depolama hesabı oluşturma:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-201">Create a new storage account:</span></span>
+1. <span data-ttu-id="a7ffb-198">Yeni depolama hesabı oluşturma:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-198">Create a new storage account:</span></span>
 
-    1. <span data-ttu-id="6f4ee-202">[Azure portalında](https://portal.azure.com) bir depolama hesabı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-202">In the [Azure portal](https://portal.azure.com), create a storage account.</span></span>
-    2. <span data-ttu-id="6f4ee-203">**Depolama hesabı oluştur** iletişim kutusunda, aşağıdaki alanları ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-203">In the **Create storage account** dialog box, set the following fields:</span></span>
+    1. <span data-ttu-id="a7ffb-199">[Azure portalında](https://portal.azure.com) bir depolama hesabı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-199">In the [Azure portal](https://portal.azure.com), create a storage account.</span></span>
+    2. <span data-ttu-id="a7ffb-200">**Depolama hesabı oluştur** iletişim kutusunda, aşağıdaki alanları ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-200">In the **Create storage account** dialog box, set the following fields:</span></span>
 
-        - <span data-ttu-id="6f4ee-204">**Konum**: Ortamınızın bulunduğu veri merkezini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-204">**Location** – Select the data center where your environment is located.</span></span>
-        - <span data-ttu-id="6f4ee-205">**Performans**: **Standart** seçeneğini belirlemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-205">**Performance** – We recommend that you select **Standard**.</span></span>
-        - <span data-ttu-id="6f4ee-206">**Hesap türü**: **StorageV2**'yi seçmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-206">**Account kind** – You must select **StorageV2**.</span></span>
+        - <span data-ttu-id="a7ffb-201">**Konum**: Ortamınızın bulunduğu veri merkezini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-201">**Location** – Select the data center where your environment is located.</span></span>
+        - <span data-ttu-id="a7ffb-202">**Performans**: **Standart** seçeneğini belirlemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-202">**Performance** – We recommend that you select **Standard**.</span></span>
+        - <span data-ttu-id="a7ffb-203">**Hesap türü**: **StorageV2**'yi seçmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-203">**Account kind** – You must select **StorageV2**.</span></span>
 
-    3. <span data-ttu-id="6f4ee-207">**Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-207">In the **Advanced options** dialog box, for the **Data Lake storage Gen2** option, select **Enable** under the **Hierarchical namespaces** feature.</span></span> <span data-ttu-id="6f4ee-208">Bu özelliği devre dışı bırakırsanız Power BI veri akışları gibi hizmetleri kullanarak, Finance and Operations uygulamalarının yazdığı verileri kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-208">If you disable this feature, you can't consume data that Finance and Operations apps write by using services such as Power BI data flows.</span></span>
-    4. <span data-ttu-id="6f4ee-209">**İncele ve oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-209">Select **Review and create**.</span></span> <span data-ttu-id="6f4ee-210">Dağıtım tamamlandığında, yeni kaynak Azure portalında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-210">When the deployment is completed, the new resource will be shown in the Azure portal.</span></span>
-    5. <span data-ttu-id="6f4ee-211">Oluşturduğunuz depolama hesabına gidin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-211">Go to the storage account that you created.</span></span>
-    6. <span data-ttu-id="6f4ee-212">Sol menüde **Erişim anahtarları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-212">On the left menu, select **Access keys**.</span></span>
-    7. <span data-ttu-id="6f4ee-213">**Key1** veya **Key2** için bağlantı dizesini kopyalayıp kaydedin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-213">Copy and save the connection string for either **Key1** or **Key2**.</span></span>
-    8. <span data-ttu-id="6f4ee-214">Depolama hesabı adını kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-214">Copy and save the storage account name.</span></span>
+    3. <span data-ttu-id="a7ffb-204">**Gelişmiş seçenekler** iletişim kutusunda **Data Lake Storage 2. Nesil** seçeneği için **Hiyerarşik ad alanları** bölümünde **Etkinleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-204">In the **Advanced options** dialog box, for the **Data Lake storage Gen2** option, select **Enable** under the **Hierarchical namespaces** feature.</span></span> <span data-ttu-id="a7ffb-205">Bu özelliği devre dışı bırakırsanız Power BI veri akışları gibi hizmetleri kullanarak, Finance and Operations uygulamalarının yazdığı verileri kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-205">If you disable this feature, you can't consume data that Finance and Operations apps write by using services such as Power BI data flows.</span></span>
+    4. <span data-ttu-id="a7ffb-206">**İncele ve oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-206">Select **Review and create**.</span></span> <span data-ttu-id="a7ffb-207">Dağıtım tamamlandığında, yeni kaynak Azure portalında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-207">When the deployment is completed, the new resource will be shown in the Azure portal.</span></span>
+    5. <span data-ttu-id="a7ffb-208">Oluşturduğunuz depolama hesabına gidin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-208">Go to the storage account that you created.</span></span>
+    6. <span data-ttu-id="a7ffb-209">Sol menüde **Erişim anahtarları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-209">On the left menu, select **Access keys**.</span></span>
+    7. <span data-ttu-id="a7ffb-210">**Key1** veya **Key2** için bağlantı dizesini kopyalayıp kaydedin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-210">Copy and save the connection string for either **Key1** or **Key2**.</span></span>
+    8. <span data-ttu-id="a7ffb-211">Depolama hesabı adını kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-211">Copy and save the storage account name.</span></span>
 
-2. <span data-ttu-id="6f4ee-215">Yeni bir anahtar kasası oluşturma:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-215">Create a new key vault:</span></span>
+2. <span data-ttu-id="a7ffb-212">Yeni bir anahtar kasası oluşturma:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-212">Create a new key vault:</span></span>
 
-    1. <span data-ttu-id="6f4ee-216">[Azure portalında](https://portal.azure.com) bir anahtar kasası oluşturun.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-216">In the [Azure portal](https://portal.azure.com), create a key vault.</span></span>
-    2. <span data-ttu-id="6f4ee-217">**Anahtar kasası oluştur** iletişim kutusundaki **Konum** alanında ortamınızın bulunduğu veri merkezini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-217">In the **Create key vault** dialog box, in the **Location** field, select the data center where your environment is located.</span></span>
-    3. <span data-ttu-id="6f4ee-218">Anahtar kasası oluşturulduktan sonra, kasayı listeden seçin ve ardından **Gizli anahtarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-218">After key vault is created, select it in the list, and then select **Secrets**.</span></span>
-    4. <span data-ttu-id="6f4ee-219">**Oluştur/İçe aktar** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-219">Select **Generate/Import**.</span></span>
-    5. <span data-ttu-id="6f4ee-220">**Gizli anahtar oluştur** iletişim kutusunda **Karşıya yükleme seçenekleri** alanında, **El ile** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-220">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
-    6. <span data-ttu-id="6f4ee-221">Gizli anahtar için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-221">Enter a name for the secret.</span></span> <span data-ttu-id="6f4ee-222">Daha sonra sağlamanız gerekeceği için bu adı not edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-222">Make a note of the name, because you will have to provide it later.</span></span>
-    7. <span data-ttu-id="6f4ee-223">**Değer** alanında, önceki yordamda depolama hesabından elde ettiğiniz bağlantı dizesini girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-223">In the **Value** field, enter the connection string that you obtained from the storage account in the previous procedure.</span></span>
-    8. <span data-ttu-id="6f4ee-224">**Etkin**'i ve ardından **Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-224">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="6f4ee-225">Gizli anahtar oluşturulur ve Key Vault'a eklenir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-225">The secret is created and added to Key Vault.</span></span>
-    9. <span data-ttu-id="6f4ee-226">**Key Vault'a Genel Bakış**'a gidin ve DNS adını not edin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-226">Go to the **Key Vault Overview**, and make a note of the DNS name.</span></span>
+    1. <span data-ttu-id="a7ffb-213">[Azure portalında](https://portal.azure.com) bir anahtar kasası oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-213">In the [Azure portal](https://portal.azure.com), create a key vault.</span></span>
+    2. <span data-ttu-id="a7ffb-214">**Anahtar kasası oluştur** iletişim kutusundaki **Konum** alanında ortamınızın bulunduğu veri merkezini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-214">In the **Create key vault** dialog box, in the **Location** field, select the data center where your environment is located.</span></span>
+    3. <span data-ttu-id="a7ffb-215">Anahtar kasası oluşturulduktan sonra, kasayı listeden seçin ve ardından **Gizli anahtarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-215">After key vault is created, select it in the list, and then select **Secrets**.</span></span>
+    4. <span data-ttu-id="a7ffb-216">**Oluştur/İçe aktar** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-216">Select **Generate/Import**.</span></span>
+    5. <span data-ttu-id="a7ffb-217">**Gizli anahtar oluştur** iletişim kutusunda **Karşıya yükleme seçenekleri** alanında, **El ile** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-217">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
+    6. <span data-ttu-id="a7ffb-218">Gizli anahtar için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-218">Enter a name for the secret.</span></span> <span data-ttu-id="a7ffb-219">Daha sonra sağlamanız gerekeceği için bu adı not edin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-219">Make a note of the name, because you will have to provide it later.</span></span>
+    7. <span data-ttu-id="a7ffb-220">**Değer** alanında, önceki yordamda depolama hesabından elde ettiğiniz bağlantı dizesini girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-220">In the **Value** field, enter the connection string that you obtained from the storage account in the previous procedure.</span></span>
+    8. <span data-ttu-id="a7ffb-221">**Etkin**'i ve ardından **Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-221">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="a7ffb-222">Gizli anahtar oluşturulur ve Key Vault'a eklenir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-222">The secret is created and added to Key Vault.</span></span>
+    9. <span data-ttu-id="a7ffb-223">**Key Vault'a Genel Bakış**'a gidin ve DNS adını not edin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-223">Go to the **Key Vault Overview**, and make a note of the DNS name.</span></span>
 
-3. <span data-ttu-id="6f4ee-227">Bir Azure AD uygulaması oluşturma ve kaydetme:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-227">Create and register an Azure AD application:</span></span>
+3. <span data-ttu-id="a7ffb-224">Bir Azure AD uygulaması oluşturma ve kaydetme:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-224">Create and register an Azure AD application:</span></span>
 
-    1. <span data-ttu-id="6f4ee-228">[Azure portalında](https://portal.azure.com) **Azure Active Directory**'ye gidin ve ardından **Uygulama kayıtları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-228">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and then select **App registrations**.</span></span>
-    2. <span data-ttu-id="6f4ee-229">**Yeni uygulama kaydı**'nı seçin ve aşağıdaki alanları ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-229">Select **New application registration**, and set the following fields:</span></span>
+    1. <span data-ttu-id="a7ffb-225">[Azure portalında](https://portal.azure.com) **Azure Active Directory**'ye gidin ve ardından **Uygulama kayıtları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-225">In the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and then select **App registrations**.</span></span>
+    2. <span data-ttu-id="a7ffb-226">**Yeni uygulama kaydı**'nı seçin ve aşağıdaki alanları ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-226">Select **New application registration**, and set the following fields:</span></span>
 
-        - <span data-ttu-id="6f4ee-230">**Ad**: Uygulamanın adını girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-230">**Name** – Enter the name of the app.</span></span>
-        - <span data-ttu-id="6f4ee-231">**Uygulama türü**: **Web API'si** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-231">**Application type** – Select **Web API**.</span></span>
-        - <span data-ttu-id="6f4ee-232">**Yeniden yönlendirme URI'si kurulumu**: Dynamics 365 kurulumunuzun URL'sini girin (ör. `https://yourdynamicsinstance.dynamics.com/auth`).</span><span class="sxs-lookup"><span data-stu-id="6f4ee-232">**Redirect URI setup** – Enter the URL for your Dynamics 365 instance, such as, `https://yourdynamicsinstance.dynamics.com/auth`.</span></span>
+        - <span data-ttu-id="a7ffb-227">**Ad**: Uygulamanın adını girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-227">**Name** – Enter the name of the app.</span></span>
+        - <span data-ttu-id="a7ffb-228">**Uygulama türü**: **Web API'si** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-228">**Application type** – Select **Web API**.</span></span>
+        - <span data-ttu-id="a7ffb-229">**Yeniden yönlendirme URI'si kurulumu**: Dynamics 365 kurulumunuzun URL'sini girin (ör. `https://yourdynamicsinstance.dynamics.com/auth`).</span><span class="sxs-lookup"><span data-stu-id="a7ffb-229">**Redirect URI setup** – Enter the URL for your Dynamics 365 instance, such as, `https://yourdynamicsinstance.dynamics.com/auth`.</span></span>
 
-    3. <span data-ttu-id="6f4ee-233">Yeni oluşturduğunuz uygulamaya gidin ve **Uygulama (istemci) kimliği** değerini kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-233">Go to the app that you just created, and copy and save its **Application (client) ID** value.</span></span> <span data-ttu-id="6f4ee-234">Anahtar kasasını ayarlarken bu değeri sağlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-234">You will have to provide this value later, when you set up the key vault.</span></span>
-    4. <span data-ttu-id="6f4ee-235">**API izinleri**'ne gidin ve şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-235">Go to **API permissions**, and follow these steps:</span></span>
+    3. <span data-ttu-id="a7ffb-230">Yeni oluşturduğunuz uygulamaya gidin ve **Uygulama (istemci) kimliği** değerini kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-230">Go to the app that you just created, and copy and save its **Application (client) ID** value.</span></span> <span data-ttu-id="a7ffb-231">Anahtar kasasını ayarlarken bu değeri sağlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-231">You will have to provide this value later, when you set up the key vault.</span></span>
+    4. <span data-ttu-id="a7ffb-232">**API izinleri**'ne gidin ve şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-232">Go to **API permissions**, and follow these steps:</span></span>
 
-        1. <span data-ttu-id="6f4ee-236">**İzin ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-236">Select **Add a permission**.</span></span>
-        2. <span data-ttu-id="6f4ee-237">**Azure Key Vault**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-237">Select **Azure Key vault**.</span></span>
-        3. <span data-ttu-id="6f4ee-238">Temsilci izinleri seçtikten sonra **kullanıcı\_kimliğe bürünmey**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-238">After you select delegated permissions, select **user\_impersonation**.</span></span>
-        4. <span data-ttu-id="6f4ee-239">**İzin ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-239">Select **Add permissions**.</span></span>
+        1. <span data-ttu-id="a7ffb-233">**İzin ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-233">Select **Add a permission**.</span></span>
+        2. <span data-ttu-id="a7ffb-234">**Azure Key Vault**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-234">Select **Azure Key vault**.</span></span>
+        3. <span data-ttu-id="a7ffb-235">Temsilci izinleri seçtikten sonra **kullanıcı\_kimliğe bürünmey**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-235">After you select delegated permissions, select **user\_impersonation**.</span></span>
+        4. <span data-ttu-id="a7ffb-236">**İzin ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-236">Select **Add permissions**.</span></span>
 
-    5. <span data-ttu-id="6f4ee-240">Uygulama menüsünde, **Sertifikalar \& gizli anahtarlar**'ı seçin ve ardından Key Vault gizli anahtarlarını oluşturmak için bu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-240">On the menu for the app, select **Certificates \& secrets**, and then follow these steps to create Key Vault secrets:</span></span>
+    5. <span data-ttu-id="a7ffb-237">Uygulama menüsünde, **Sertifikalar \& gizli anahtarlar**'ı seçin ve ardından Key Vault gizli anahtarlarını oluşturmak için bu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-237">On the menu for the app, select **Certificates \& secrets**, and then follow these steps to create Key Vault secrets:</span></span>
 
-        1. <span data-ttu-id="6f4ee-241">**Yeni gizli anahtar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-241">Select **New client secret**.</span></span>
-        2. <span data-ttu-id="6f4ee-242">**Anahtar Açıklaması** alanına bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-242">In the **Key Description** field, enter a name.</span></span>
-        3. <span data-ttu-id="6f4ee-243">Bir süre seçin ve ardından **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-243">Select a duration, and then select **Add**.</span></span> <span data-ttu-id="6f4ee-244">**Değer** alanında gizli anahtar oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-244">A secret is generated in the **Value** field.</span></span>
-        4. <span data-ttu-id="6f4ee-245">Gizli anahtar değerini kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-245">Copy and save the secret value.</span></span>
+        1. <span data-ttu-id="a7ffb-238">**Yeni gizli anahtar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-238">Select **New client secret**.</span></span>
+        2. <span data-ttu-id="a7ffb-239">**Anahtar Açıklaması** alanına bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-239">In the **Key Description** field, enter a name.</span></span>
+        3. <span data-ttu-id="a7ffb-240">Bir süre seçin ve ardından **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-240">Select a duration, and then select **Add**.</span></span> <span data-ttu-id="a7ffb-241">**Değer** alanında gizli anahtar oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-241">A secret is generated in the **Value** field.</span></span>
+        4. <span data-ttu-id="a7ffb-242">Gizli anahtar değerini kopyalayın ve kaydedin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-242">Copy and save the secret value.</span></span>
 
-4. <span data-ttu-id="6f4ee-246">Key Vault gizli anahtarları oluşturma:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-246">Create Key Vault secrets:</span></span>
+4. <span data-ttu-id="a7ffb-243">Key Vault gizli anahtarları oluşturma:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-243">Create Key Vault secrets:</span></span>
 
-    1. <span data-ttu-id="6f4ee-247">Daha önce oluşturduğunuz anahtar kasasına gidin ve **Gizli Anahtarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-247">Go to the key vault that you created earlier, and select **Secrets**.</span></span>
-    2. <span data-ttu-id="6f4ee-248">Aşağıdaki tabloda bulunan her gizli anahtar adı için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-248">For each secret name in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="a7ffb-244">Daha önce oluşturduğunuz anahtar kasasına gidin ve **Gizli Anahtarlar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-244">Go to the key vault that you created earlier, and select **Secrets**.</span></span>
+    2. <span data-ttu-id="a7ffb-245">Aşağıdaki tabloda bulunan her gizli anahtar adı için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-245">For each secret name in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="6f4ee-249">**Oluştur/İçe aktar** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-249">Select **Generate/Import**.</span></span>
-        2. <span data-ttu-id="6f4ee-250">**Gizli anahtar oluştur** iletişim kutusunda **Karşıya yükleme seçenekleri** alanında, **El ile** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-250">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
-        3. <span data-ttu-id="6f4ee-251">Aşağıdaki tablodan gizli anahtar adını ve değerini oluşturun.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-251">Create the secret name and value from the following table.</span></span>
-        4. <span data-ttu-id="6f4ee-252">**Etkin**'i ve ardından **Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-252">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="6f4ee-253">Gizli anahtar oluşturulur ve Key Vault'a eklenir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-253">The secret is created and added to Key Vault.</span></span>
+        1. <span data-ttu-id="a7ffb-246">**Oluştur/İçe aktar** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-246">Select **Generate/Import**.</span></span>
+        2. <span data-ttu-id="a7ffb-247">**Gizli anahtar oluştur** iletişim kutusunda **Karşıya yükleme seçenekleri** alanında, **El ile** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-247">In the **Create a secret** dialog box, in the **Upload options** field, select **Manual**.</span></span>
+        3. <span data-ttu-id="a7ffb-248">Aşağıdaki tablodan gizli anahtar adını ve değerini oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-248">Create the secret name and value from the following table.</span></span>
+        4. <span data-ttu-id="a7ffb-249">**Etkin**'i ve ardından **Oluştur**'u seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-249">Select **Enabled**, and then select **Create**.</span></span> <span data-ttu-id="a7ffb-250">Gizli anahtar oluşturulur ve Key Vault'a eklenir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-250">The secret is created and added to Key Vault.</span></span>
 
-        | <span data-ttu-id="6f4ee-254">Parola adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-254">Secret name</span></span>                       | <span data-ttu-id="6f4ee-255">Gizli anahtar değeri</span><span class="sxs-lookup"><span data-stu-id="6f4ee-255">Secret value</span></span>                                                                                |
+        | <span data-ttu-id="a7ffb-251">Parola adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-251">Secret name</span></span>                       | <span data-ttu-id="a7ffb-252">Gizli anahtar değeri</span><span class="sxs-lookup"><span data-stu-id="a7ffb-252">Secret value</span></span>                                                                                |
         |-----------------------------------|---------------------------------------------------------------------------------------------|
-        | <span data-ttu-id="6f4ee-256">app-id</span><span class="sxs-lookup"><span data-stu-id="6f4ee-256">app-id</span></span>                            | <span data-ttu-id="6f4ee-257">Daha önce oluşturduğunuz uygulamanın uygulama kimliği</span><span class="sxs-lookup"><span data-stu-id="6f4ee-257">The app ID of the application that you created earlier</span></span>                                      |
-        | <span data-ttu-id="6f4ee-258">app-secret</span><span class="sxs-lookup"><span data-stu-id="6f4ee-258">app-secret</span></span>                        | <span data-ttu-id="6f4ee-259">Daha önce kaydettiğiniz gizli anahtar</span><span class="sxs-lookup"><span data-stu-id="6f4ee-259">The client secret that you saved earlier</span></span>                                                    |
-        | <span data-ttu-id="6f4ee-260">storage-account-name</span><span class="sxs-lookup"><span data-stu-id="6f4ee-260">storage-account-name</span></span>              | <span data-ttu-id="6f4ee-261">Daha önce oluşturduğunuz depolama hesabının adı (ör. **storageaccount1**)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-261">The name of the storage account that you created earlier, such as **storageaccount1**</span></span>       |
-        | <span data-ttu-id="6f4ee-262">storage-account-connection-string</span><span class="sxs-lookup"><span data-stu-id="6f4ee-262">storage-account-connection-string</span></span> | <span data-ttu-id="6f4ee-263">Depolama hesabı için **Erişim anahtarları** sayfasından kopyaladığınız bağlantı dizesi</span><span class="sxs-lookup"><span data-stu-id="6f4ee-263">The connection string that you copied from the **Access keys** page for the storage account</span></span> |
+        | <span data-ttu-id="a7ffb-253">app-id</span><span class="sxs-lookup"><span data-stu-id="a7ffb-253">app-id</span></span>                            | <span data-ttu-id="a7ffb-254">Daha önce oluşturduğunuz uygulamanın uygulama kimliği</span><span class="sxs-lookup"><span data-stu-id="a7ffb-254">The app ID of the application that you created earlier</span></span>                                      |
+        | <span data-ttu-id="a7ffb-255">app-secret</span><span class="sxs-lookup"><span data-stu-id="a7ffb-255">app-secret</span></span>                        | <span data-ttu-id="a7ffb-256">Daha önce kaydettiğiniz gizli anahtar</span><span class="sxs-lookup"><span data-stu-id="a7ffb-256">The client secret that you saved earlier</span></span>                                                    |
+        | <span data-ttu-id="a7ffb-257">storage-account-name</span><span class="sxs-lookup"><span data-stu-id="a7ffb-257">storage-account-name</span></span>              | <span data-ttu-id="a7ffb-258">Daha önce oluşturduğunuz depolama hesabının adı (ör. **storageaccount1**)</span><span class="sxs-lookup"><span data-stu-id="a7ffb-258">The name of the storage account that you created earlier, such as **storageaccount1**</span></span>       |
+        | <span data-ttu-id="a7ffb-259">storage-account-connection-string</span><span class="sxs-lookup"><span data-stu-id="a7ffb-259">storage-account-connection-string</span></span> | <span data-ttu-id="a7ffb-260">Depolama hesabı için **Erişim anahtarları** sayfasından kopyaladığınız bağlantı dizesi</span><span class="sxs-lookup"><span data-stu-id="a7ffb-260">The connection string that you copied from the **Access keys** page for the storage account</span></span> |
 
-5. <span data-ttu-id="6f4ee-264">Anahtar kasasına erişmek için uygulamayı yetkilendirme:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-264">Authorize the application to access the key vault:</span></span>
+5. <span data-ttu-id="a7ffb-261">Anahtar kasasına erişmek için uygulamayı yetkilendirme:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-261">Authorize the application to access the key vault:</span></span>
 
-    1. <span data-ttu-id="6f4ee-265">[Azure portalında](https://portal.azure.com), daha önce oluşturduğunuz anahtar kasasını açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-265">In the [Azure portal](https://portal.azure.com), open the key vault that you created earlier.</span></span>
-    2. <span data-ttu-id="6f4ee-266">Erişim ilkelerini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-266">Select the access policies.</span></span>
-    3. <span data-ttu-id="6f4ee-267">Aşağıdaki tabloda bulunan her uygulama için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-267">For each application in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="a7ffb-262">[Azure portalında](https://portal.azure.com), daha önce oluşturduğunuz anahtar kasasını açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-262">In the [Azure portal](https://portal.azure.com), open the key vault that you created earlier.</span></span>
+    2. <span data-ttu-id="a7ffb-263">Erişim ilkelerini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-263">Select the access policies.</span></span>
+    3. <span data-ttu-id="a7ffb-264">Aşağıdaki tabloda bulunan her uygulama için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-264">For each application in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="6f4ee-268">Erişim ilkesi oluşturmak için **Erişim İlkesi Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-268">Select **Add Access Policy** to create an access policy.</span></span>
-        2. <span data-ttu-id="6f4ee-269">**Gizli anahtar izinleri** alanında, aşağıdaki tabloda yer alan izinleri seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-269">In the **Secret permissions** field, select the permissions from the following table.</span></span>
-        3. <span data-ttu-id="6f4ee-270">**Sorumlu seç** alanında aşağıdaki tablodan uygulama görünen adını arayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-270">In the **Select principal** field, search for the application display name from the following table.</span></span>
-        4. <span data-ttu-id="6f4ee-271">**Seç** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-271">Select **Select**.</span></span>
-        5. <span data-ttu-id="6f4ee-272">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-272">Select **Add**.</span></span>
-        6. <span data-ttu-id="6f4ee-273">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-273">Select **Save**.</span></span>
+        1. <span data-ttu-id="a7ffb-265">Erişim ilkesi oluşturmak için **Erişim İlkesi Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-265">Select **Add Access Policy** to create an access policy.</span></span>
+        2. <span data-ttu-id="a7ffb-266">**Gizli anahtar izinleri** alanında, aşağıdaki tabloda yer alan izinleri seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-266">In the **Secret permissions** field, select the permissions from the following table.</span></span>
+        3. <span data-ttu-id="a7ffb-267">**Sorumlu seç** alanında aşağıdaki tablodan uygulama görünen adını arayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-267">In the **Select principal** field, search for the application display name from the following table.</span></span>
+        4. <span data-ttu-id="a7ffb-268">**Seç** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-268">Select **Select**.</span></span>
+        5. <span data-ttu-id="a7ffb-269">**Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-269">Select **Add**.</span></span>
+        6. <span data-ttu-id="a7ffb-270">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-270">Select **Save**.</span></span>
 
-        | <span data-ttu-id="6f4ee-274">Uygulama</span><span class="sxs-lookup"><span data-stu-id="6f4ee-274">Application</span></span>                                              | <span data-ttu-id="6f4ee-275">İzinler</span><span class="sxs-lookup"><span data-stu-id="6f4ee-275">Permissions</span></span> |
+        | <span data-ttu-id="a7ffb-271">Uygulama</span><span class="sxs-lookup"><span data-stu-id="a7ffb-271">Application</span></span>                                              | <span data-ttu-id="a7ffb-272">İzinler</span><span class="sxs-lookup"><span data-stu-id="a7ffb-272">Permissions</span></span> |
         |----------------------------------------------------------|-------------|
-        | <span data-ttu-id="6f4ee-276">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-276">The display name of the new application that you created</span></span> | <span data-ttu-id="6f4ee-277">Al, Listele</span><span class="sxs-lookup"><span data-stu-id="6f4ee-277">Get, List</span></span>   |
-        | <span data-ttu-id="6f4ee-278">**Microsoft Dynamics ERP Mikro Hizmetleri**</span><span class="sxs-lookup"><span data-stu-id="6f4ee-278">**Microsoft Dynamics ERP Microservices**</span></span>                 | <span data-ttu-id="6f4ee-279">Al, Listele</span><span class="sxs-lookup"><span data-stu-id="6f4ee-279">Get, List</span></span>   |
+        | <span data-ttu-id="a7ffb-273">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-273">The display name of the new application that you created</span></span> | <span data-ttu-id="a7ffb-274">Al, Listele</span><span class="sxs-lookup"><span data-stu-id="a7ffb-274">Get, List</span></span>   |
+        | <span data-ttu-id="a7ffb-275">**Microsoft Dynamics ERP Mikro Hizmetleri**</span><span class="sxs-lookup"><span data-stu-id="a7ffb-275">**Microsoft Dynamics ERP Microservices**</span></span>                 | <span data-ttu-id="a7ffb-276">Al, Listele</span><span class="sxs-lookup"><span data-stu-id="a7ffb-276">Get, List</span></span>   |
 
-6. <span data-ttu-id="6f4ee-280">Depolama hesabına erişmek için rolleri atama:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-280">Assign roles to access the storage account:</span></span>
+6. <span data-ttu-id="a7ffb-277">Depolama hesabına erişmek için rolleri atama:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-277">Assign roles to access the storage account:</span></span>
 
-    1. <span data-ttu-id="6f4ee-281">[Azure portalında](https://portal.azure.com), daha önce oluşturduğunuz depolama hesabını açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-281">In the [Azure portal](https://portal.azure.com), open the storage account that you created earlier.</span></span>
-    2. <span data-ttu-id="6f4ee-282">**Access Control (IAM)** seçeneğini belirleyin ve ardından **Rol Atamaları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-282">Select **Access Control (IAM)**, and then select **Role Assignments**.</span></span>
-    3. <span data-ttu-id="6f4ee-283">**Ekle, Rol Ataması Ekle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-283">Select **Add, Add Role Assignment**.</span></span>
-    4. <span data-ttu-id="6f4ee-284">Aşağıdaki tabloda bulunan her uygulama için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-284">For each application in the following table, follow these steps:</span></span>
+    1. <span data-ttu-id="a7ffb-278">[Azure portalında](https://portal.azure.com), daha önce oluşturduğunuz depolama hesabını açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-278">In the [Azure portal](https://portal.azure.com), open the storage account that you created earlier.</span></span>
+    2. <span data-ttu-id="a7ffb-279">**Access Control (IAM)** seçeneğini belirleyin ve ardından **Rol Atamaları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-279">Select **Access Control (IAM)**, and then select **Role Assignments**.</span></span>
+    3. <span data-ttu-id="a7ffb-280">**Ekle, Rol Ataması Ekle** seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-280">Select **Add, Add Role Assignment**.</span></span>
+    4. <span data-ttu-id="a7ffb-281">Aşağıdaki tabloda bulunan her uygulama için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-281">For each application in the following table, follow these steps:</span></span>
 
-        1. <span data-ttu-id="6f4ee-285">Aşağıdaki tablodan rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-285">Select the role from the following table.</span></span>
-        2. <span data-ttu-id="6f4ee-286">**Erişim ata** alanını **Azure AD kullanıcısı, grubu veya hizmet sorumlusu** olarak bırakın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-286">Leave the **Assign access to** field set to **Azure AD user, group, or service principal**.</span></span>
-        3. <span data-ttu-id="6f4ee-287">**Seç** alanında aşağıdaki tablodan uygulamayı girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-287">In the **Select** field, enter the application from the following table.</span></span>
-        4. <span data-ttu-id="6f4ee-288">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-288">Select **Save**.</span></span>
+        1. <span data-ttu-id="a7ffb-282">Aşağıdaki tablodan rolü seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-282">Select the role from the following table.</span></span>
+        2. <span data-ttu-id="a7ffb-283">**Erişim ata** alanını **Azure AD kullanıcısı, grubu veya hizmet sorumlusu** olarak bırakın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-283">Leave the **Assign access to** field set to **Azure AD user, group, or service principal**.</span></span>
+        3. <span data-ttu-id="a7ffb-284">**Seç** alanında aşağıdaki tablodan uygulamayı girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-284">In the **Select** field, enter the application from the following table.</span></span>
+        4. <span data-ttu-id="a7ffb-285">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-285">Select **Save**.</span></span>
 
-        | <span data-ttu-id="6f4ee-289">Uygulama</span><span class="sxs-lookup"><span data-stu-id="6f4ee-289">Application</span></span>                                              | <span data-ttu-id="6f4ee-290">Rol</span><span class="sxs-lookup"><span data-stu-id="6f4ee-290">Role</span></span>                        |
+        | <span data-ttu-id="a7ffb-286">Uygulama</span><span class="sxs-lookup"><span data-stu-id="a7ffb-286">Application</span></span>                                              | <span data-ttu-id="a7ffb-287">Rol</span><span class="sxs-lookup"><span data-stu-id="a7ffb-287">Role</span></span>                        |
         |----------------------------------------------------------|-----------------------------|
-        | <span data-ttu-id="6f4ee-291">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-291">The display name of the new application that you created</span></span> | <span data-ttu-id="6f4ee-292">Sahip</span><span class="sxs-lookup"><span data-stu-id="6f4ee-292">Owner</span></span>                       |
-        | <span data-ttu-id="6f4ee-293">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-293">The display name of the new application that you created</span></span> | <span data-ttu-id="6f4ee-294">Katılımcı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-294">Contributor</span></span>                 |
-        | <span data-ttu-id="6f4ee-295">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-295">The display name of the new application that you created</span></span> | <span data-ttu-id="6f4ee-296">Depolama Hesabı Katılımcısı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-296">Storage Account Contributor</span></span> |
-        | <span data-ttu-id="6f4ee-297">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-297">The display name of the new application that you created</span></span> | <span data-ttu-id="6f4ee-298">Depolama Blobu Veri Sahibi</span><span class="sxs-lookup"><span data-stu-id="6f4ee-298">Storage Blob Data Owner</span></span>     |
-        | <span data-ttu-id="6f4ee-299">**AI Builder Yetkilendirme Hizmeti**</span><span class="sxs-lookup"><span data-stu-id="6f4ee-299">**AI Builder Authorization Service**</span></span>                     | <span data-ttu-id="6f4ee-300">Depolama Blobu Veri Okuyucusu</span><span class="sxs-lookup"><span data-stu-id="6f4ee-300">Storage Blob Data Reader</span></span>    |
+        | <span data-ttu-id="a7ffb-288">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-288">The display name of the new application that you created</span></span> | <span data-ttu-id="a7ffb-289">Sahip</span><span class="sxs-lookup"><span data-stu-id="a7ffb-289">Owner</span></span>                       |
+        | <span data-ttu-id="a7ffb-290">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-290">The display name of the new application that you created</span></span> | <span data-ttu-id="a7ffb-291">Katılımcı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-291">Contributor</span></span>                 |
+        | <span data-ttu-id="a7ffb-292">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-292">The display name of the new application that you created</span></span> | <span data-ttu-id="a7ffb-293">Depolama Hesabı Katılımcısı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-293">Storage Account Contributor</span></span> |
+        | <span data-ttu-id="a7ffb-294">Oluşturduğunuz yeni uygulamanın görünen adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-294">The display name of the new application that you created</span></span> | <span data-ttu-id="a7ffb-295">Depolama Blobu Veri Sahibi</span><span class="sxs-lookup"><span data-stu-id="a7ffb-295">Storage Blob Data Owner</span></span>     |
+        | <span data-ttu-id="a7ffb-296">**AI Builder Yetkilendirme Hizmeti**</span><span class="sxs-lookup"><span data-stu-id="a7ffb-296">**AI Builder Authorization Service**</span></span>                     | <span data-ttu-id="a7ffb-297">Depolama Blobu Veri Okuyucusu</span><span class="sxs-lookup"><span data-stu-id="a7ffb-297">Storage Blob Data Reader</span></span>    |
 
-# <a name="azure-cli"></a>[<span data-ttu-id="6f4ee-301">Azure CLI</span><span class="sxs-lookup"><span data-stu-id="6f4ee-301">Azure CLI</span></span>](#tab/azure-azure-cli)
+# <a name="azure-cli"></a>[<span data-ttu-id="a7ffb-298">Azure CLI</span><span class="sxs-lookup"><span data-stu-id="a7ffb-298">Azure CLI</span></span>](#tab/azure-azure-cli)
 
 ```
 function New-FinanceDataLakeAzureResources {
@@ -945,62 +756,62 @@ finally {
 
 
 
-## <a name="configure-the-data-lake"></a><span data-ttu-id="6f4ee-302">Veri gölünü yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-302">Configure the data lake</span></span>
+## <a name="configure-the-data-lake"></a><span data-ttu-id="a7ffb-299">Veri gölünü yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-299">Configure the data lake</span></span>
 
-<span data-ttu-id="6f4ee-303">LCS'yi kullanarak Azure Data Lake eklentisini ortama eklemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-303">Follow these steps to use LCS to add the Azure Data Lake add-in to the environment.</span></span>
+<span data-ttu-id="a7ffb-300">LCS'yi kullanarak Azure Data Lake eklentisini ortama eklemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-300">Follow these steps to use LCS to add the Azure Data Lake add-in to the environment.</span></span>
 
-1. <span data-ttu-id="6f4ee-304">LCS'de oturum açın ve sonra sayfanın sağ tarafındaki ortam adının altında **Tüm Ayrıntılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-304">Sign in to LCS, and then, under the environment name on the right side of the page, select **Full Details**.</span></span>
-2. <span data-ttu-id="6f4ee-305">**Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-305">In the **Environment add-ins** section, select **Install a new add-in**.</span></span>
-3. <span data-ttu-id="6f4ee-306">**Data Lake'e dışarı aktar** eklentisini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-306">Select the **Export to Data Lake** add-in.</span></span>
-4. <span data-ttu-id="6f4ee-307">Aşağıdaki değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-307">Enter the following values.</span></span>
+1. <span data-ttu-id="a7ffb-301">LCS'de oturum açın ve sonra sayfanın sağ tarafındaki ortam adının altında **Tüm Ayrıntılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-301">Sign in to LCS, and then, under the environment name on the right side of the page, select **Full Details**.</span></span>
+2. <span data-ttu-id="a7ffb-302">**Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-302">In the **Environment add-ins** section, select **Install a new add-in**.</span></span>
+3. <span data-ttu-id="a7ffb-303">**Data Lake'e dışarı aktar** eklentisini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-303">Select the **Export to Data Lake** add-in.</span></span>
+4. <span data-ttu-id="a7ffb-304">Aşağıdaki değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-304">Enter the following values.</span></span>
 
-    | <span data-ttu-id="6f4ee-308">Değer</span><span class="sxs-lookup"><span data-stu-id="6f4ee-308">Value</span></span>                                                              | <span data-ttu-id="6f4ee-309">Tanım</span><span class="sxs-lookup"><span data-stu-id="6f4ee-309">Description</span></span> |
+    | <span data-ttu-id="a7ffb-305">Değer</span><span class="sxs-lookup"><span data-stu-id="a7ffb-305">Value</span></span>                                                              | <span data-ttu-id="a7ffb-306">Tanım</span><span class="sxs-lookup"><span data-stu-id="a7ffb-306">Description</span></span> |
     |--------------------------------------------------------------------|-------------|
-    | <span data-ttu-id="6f4ee-310">Key Vault'un bulunduğu Azure Aboneliğinin Kiracı Kimliği</span><span class="sxs-lookup"><span data-stu-id="6f4ee-310">Tenant ID of the Azure Subscription where the Key Vault is located</span></span> | <span data-ttu-id="6f4ee-311">Depolama hesabı, uygulamalar ve anahtar kasalarının bulunduğu kiracının kimliğidir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-311">The tenant ID where the storage account, apps, and key vaults are located.</span></span> <span data-ttu-id="6f4ee-312">Bu değeri bulmak için [Azure portalı](https://portal.azure.com) açın , **Azure Active Directory** öğesine gidin ve **Kiracı Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-312">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
-    | <span data-ttu-id="6f4ee-313">Key Vault'unuz için DNS adı belirtin</span><span class="sxs-lookup"><span data-stu-id="6f4ee-313">Provide the DNS name of your Key Vault</span></span>                             | <span data-ttu-id="6f4ee-314">Anahtar kasasının DNS adı (ör. `https://customkeyvault.vault.azure.net/`).</span><span class="sxs-lookup"><span data-stu-id="6f4ee-314">The DNS name of the key vault, such as `https://customkeyvault.vault.azure.net/`.</span></span> <span data-ttu-id="6f4ee-315">(Bu değer, varlık deposunda kullanılan DNS adıyla eşleşir.)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-315">(This value matches the DNS name that is used in the entity store.)</span></span> |
-    | <span data-ttu-id="6f4ee-316">Depolama hesabının adını içeren gizli anahtarı girin</span><span class="sxs-lookup"><span data-stu-id="6f4ee-316">Provide the secret that contains the name of the storage account</span></span>   | <span data-ttu-id="6f4ee-317">**storage-account-name**</span><span class="sxs-lookup"><span data-stu-id="6f4ee-317">**storage-account-name**</span></span> |
-    | <span data-ttu-id="6f4ee-318">Data Lake'e erişmek için kullanılacak Uygulama Kimliği için Gizli Anahtar Adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-318">Secret Name for App ID to be used for accessing Data Lake</span></span>          | <span data-ttu-id="6f4ee-319">**app-id**</span><span class="sxs-lookup"><span data-stu-id="6f4ee-319">**app-id**</span></span> |
-    | <span data-ttu-id="6f4ee-320">Uygulama Kimliği ile kullanılacak gizli anahtar adı</span><span class="sxs-lookup"><span data-stu-id="6f4ee-320">Secret name to be used with App ID</span></span>                                 | <span data-ttu-id="6f4ee-321">**app-secret**</span><span class="sxs-lookup"><span data-stu-id="6f4ee-321">**app-secret**</span></span> |
+    | <span data-ttu-id="a7ffb-307">Key Vault'un bulunduğu Azure Aboneliğinin Kiracı Kimliği</span><span class="sxs-lookup"><span data-stu-id="a7ffb-307">Tenant ID of the Azure Subscription where the Key Vault is located</span></span> | <span data-ttu-id="a7ffb-308">Depolama hesabı, uygulamalar ve anahtar kasalarının bulunduğu kiracının kimliğidir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-308">The tenant ID where the storage account, apps, and key vaults are located.</span></span> <span data-ttu-id="a7ffb-309">Bu değeri bulmak için [Azure portalı](https://portal.azure.com) açın , **Azure Active Directory** öğesine gidin ve **Kiracı Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-309">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
+    | <span data-ttu-id="a7ffb-310">Key Vault'unuz için DNS adı belirtin</span><span class="sxs-lookup"><span data-stu-id="a7ffb-310">Provide the DNS name of your Key Vault</span></span>                             | <span data-ttu-id="a7ffb-311">Anahtar kasasının DNS adı (ör. `https://customkeyvault.vault.azure.net/`).</span><span class="sxs-lookup"><span data-stu-id="a7ffb-311">The DNS name of the key vault, such as `https://customkeyvault.vault.azure.net/`.</span></span> <span data-ttu-id="a7ffb-312">(Bu değer, varlık deposunda kullanılan DNS adıyla eşleşir.)</span><span class="sxs-lookup"><span data-stu-id="a7ffb-312">(This value matches the DNS name that is used in the entity store.)</span></span> |
+    | <span data-ttu-id="a7ffb-313">Depolama hesabının adını içeren gizli anahtarı girin</span><span class="sxs-lookup"><span data-stu-id="a7ffb-313">Provide the secret that contains the name of the storage account</span></span>   | <span data-ttu-id="a7ffb-314">**storage-account-name**</span><span class="sxs-lookup"><span data-stu-id="a7ffb-314">**storage-account-name**</span></span> |
+    | <span data-ttu-id="a7ffb-315">Data Lake'e erişmek için kullanılacak Uygulama Kimliği için Gizli Anahtar Adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-315">Secret Name for App ID to be used for accessing Data Lake</span></span>          | <span data-ttu-id="a7ffb-316">**app-id**</span><span class="sxs-lookup"><span data-stu-id="a7ffb-316">**app-id**</span></span> |
+    | <span data-ttu-id="a7ffb-317">Uygulama Kimliği ile kullanılacak gizli anahtar adı</span><span class="sxs-lookup"><span data-stu-id="a7ffb-317">Secret name to be used with App ID</span></span>                                 | <span data-ttu-id="a7ffb-318">**app-secret**</span><span class="sxs-lookup"><span data-stu-id="a7ffb-318">**app-secret**</span></span> |
 
-5. <span data-ttu-id="6f4ee-322">Koşulları kabul edin ve **Yükle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-322">Agree to the terms, and select **Install**.</span></span>
+5. <span data-ttu-id="a7ffb-319">Koşulları kabul edin ve **Yükle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-319">Agree to the terms, and select **Install**.</span></span>
 
-<span data-ttu-id="6f4ee-323">Eklenti birkaç dakika içinde yüklenir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-323">The add-in will be installed within a few minutes.</span></span>
+<span data-ttu-id="a7ffb-320">Eklenti birkaç dakika içinde yüklenir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-320">The add-in will be installed within a few minutes.</span></span>
 
-## <a name="configure-ai-builder"></a><span data-ttu-id="6f4ee-324">AI Builder'ı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-324">Configure AI Builder</span></span>
+## <a name="configure-ai-builder"></a><span data-ttu-id="a7ffb-321">AI Builder'ı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-321">Configure AI Builder</span></span>
 
-1. <span data-ttu-id="6f4ee-325">LCS'de oturum açın ve **Ortam ayrıntıları** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-325">Sign in to LCS, and open the **Environment details** page.</span></span>
-2. <span data-ttu-id="6f4ee-326">**Ortam eklentileri** bölümüne kaydırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-326">Scroll to the **Environment add-ins** section.</span></span> <span data-ttu-id="6f4ee-327">Bu ortamda zaten yüklü olan eklentileri görmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-327">You should see the add-ins that are already installed in this environment.</span></span> <span data-ttu-id="6f4ee-328">Bunların arasında **Data Lake'e dışarı aktar** eklentisi bulunmuyorsa bu eklentiyi yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-328">If the **Export to Data Lake** add-in isn't among them, configure this add-in.</span></span>
-3. <span data-ttu-id="6f4ee-329">**İçgörü edinme** eklentisini seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-329">Select the **Get insights** add-in.</span></span>
-4. <span data-ttu-id="6f4ee-330">**İçgörü edinme** eklenti ayrıntıları sayfasında aşağıdaki değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-330">On the **Get insights** add-in details page, enter the following values.</span></span>
+1. <span data-ttu-id="a7ffb-322">LCS'de oturum açın ve **Ortam ayrıntıları** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-322">Sign in to LCS, and open the **Environment details** page.</span></span>
+2. <span data-ttu-id="a7ffb-323">**Ortam eklentileri** bölümüne kaydırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-323">Scroll to the **Environment add-ins** section.</span></span> <span data-ttu-id="a7ffb-324">Bu ortamda zaten yüklü olan eklentileri görmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-324">You should see the add-ins that are already installed in this environment.</span></span> <span data-ttu-id="a7ffb-325">Bunların arasında **Data Lake'e dışarı aktar** eklentisi bulunmuyorsa bu eklentiyi yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-325">If the **Export to Data Lake** add-in isn't among them, configure this add-in.</span></span>
+3. <span data-ttu-id="a7ffb-326">**İçgörü edinme** eklentisini seçin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-326">Select the **Get insights** add-in.</span></span>
+4. <span data-ttu-id="a7ffb-327">**İçgörü edinme** eklenti ayrıntıları sayfasında aşağıdaki değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-327">On the **Get insights** add-in details page, enter the following values.</span></span>
 
-    | <span data-ttu-id="6f4ee-331">Değer</span><span class="sxs-lookup"><span data-stu-id="6f4ee-331">Value</span></span>                                                    | <span data-ttu-id="6f4ee-332">Tanım</span><span class="sxs-lookup"><span data-stu-id="6f4ee-332">Description</span></span> |
+    | <span data-ttu-id="a7ffb-328">Değer</span><span class="sxs-lookup"><span data-stu-id="a7ffb-328">Value</span></span>                                                    | <span data-ttu-id="a7ffb-329">Tanım</span><span class="sxs-lookup"><span data-stu-id="a7ffb-329">Description</span></span> |
     |----------------------------------------------------------|-------------|
-    | <span data-ttu-id="6f4ee-333">CDS Kuruluş URL'si</span><span class="sxs-lookup"><span data-stu-id="6f4ee-333">CDS Organization URL</span></span>                                     | <span data-ttu-id="6f4ee-334">Dataverse kurulumunun Dataverse kuruluşu URL'si.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-334">The Dataverse organization URL of the Dataverse instance.</span></span> <span data-ttu-id="6f4ee-335">Bu değeri bulmak için [Power Apps portalını](https://make.powerapps.com) açın, sağ üst köşede **Ayarlar** düğmesini (dişli simgesi) seçin, **Gelişmiş ayarlar**'ı seçin ve URL'yi kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-335">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Advanced settings**, and copy the URL.</span></span> <span data-ttu-id="6f4ee-336">(URL "dynamics.com" ile biter)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-336">(The URL ends with "dynamics.com.")</span></span> |
-    | <span data-ttu-id="6f4ee-337">CDS Kuruluş Kimliği</span><span class="sxs-lookup"><span data-stu-id="6f4ee-337">CDS Org ID</span></span>                                               | <span data-ttu-id="6f4ee-338">Dataverse kurulumunun ortam kimliği.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-338">The environment ID of the Dataverse instance.</span></span> <span data-ttu-id="6f4ee-339">Bu değeri bulmak için [Power Apps portalını](https://make.powerapps.com) açın, sağ üst köşede **Ayarlar** düğmesini (dişli simgesi) seçin, **Özelleştirmeler \> Geliştirici Kaynakları \> Kurulum Referansı Bilgileri** öğesini seçin ve **Kimlik** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-339">To find this value, open the [Power Apps portal](https://make.powerapps.com), select the **Settings** button (gear symbol) in the upper-right upper corner, select **Customizations \> Developer resources \> Instance Reference Information**, and copy the **ID** value.</span></span> |
-    | <span data-ttu-id="6f4ee-340">CDS Kiracı Kimliği (AAD'den Dizin Kimliği)</span><span class="sxs-lookup"><span data-stu-id="6f4ee-340">CDS Tenant ID (Directory ID from AAD)</span></span>               | <span data-ttu-id="6f4ee-341">Dataverse kurulumunun kiracı kimliği.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-341">The tenant ID of the Dataverse instance.</span></span> <span data-ttu-id="6f4ee-342">Bu değeri bulmak için [Azure portalı](https://portal.azure.com) açın , **Azure Active Directory** öğesine gidin ve **Kiracı Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-342">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory**, and copy the **Tenant ID** value.</span></span> |
-    | <span data-ttu-id="6f4ee-343">Sistem yöneticisi rolüne sahip kullanıcı nesnesi kimliğini belirtin</span><span class="sxs-lookup"><span data-stu-id="6f4ee-343">Provide user object ID who has system administrator role</span></span> | <span data-ttu-id="6f4ee-344">Dataverse'te kullanıcının Azure AD kullanıcı nesnesi kimliği.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-344">The Azure AD user object ID of the user in Dataverse.</span></span> <span data-ttu-id="6f4ee-345">Bu kullanıcı, Dataverse kurulumunun sistem yöneticisi olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-345">This user must be a system administrator of the Dataverse instance.</span></span> <span data-ttu-id="6f4ee-346">Bu değeri bulmak için, [Azure portalı](https://portal.azure.com) açın, **Azure Active Directory \> Kullanıcılar** bölümüne gidin, kullanıcıyı seçin ve **Kimlik** bölümünde **Nesne Kimliği** değerini kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-346">To find this value, open the [Azure portal](https://portal.azure.com), go to **Azure Active Directory \> Users**, select the user, and then, in the **Identity** section, copy the **Object ID** value.</span></span> |
-    | <span data-ttu-id="6f4ee-347">Bu kiracı için varsayılan CDS ortamı mı?</span><span class="sxs-lookup"><span data-stu-id="6f4ee-347">Is this the default CDS environment for the tenant?</span></span>      | <span data-ttu-id="6f4ee-348">Dataverse kurulumu, oluşturulan ilk üretim kurulumu ise bu onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-348">If the Dataverse instance was the first production instance that was created, select this check box.</span></span> <span data-ttu-id="6f4ee-349">Dataverse kurulumu el ile oluşturulmuşsa bu onay kutusunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-349">If the Dataverse instance was manually created, clear this check box.</span></span> |
+    | <span data-ttu-id="a7ffb-330">CDS Kuruluş URL'si</span><span class="sxs-lookup"><span data-stu-id="a7ffb-330">CDS Organization URL</span></span>                                     | <span data-ttu-id="a7ffb-331">Yukarıdan kopyalanan Dataverse kuruluş URL'si.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-331">The Dataverse organization URL copied from above.</span></span> |
+    | <span data-ttu-id="a7ffb-332">CDS Kuruluş Kimliği</span><span class="sxs-lookup"><span data-stu-id="a7ffb-332">CDS Org ID</span></span>                                               | <span data-ttu-id="a7ffb-333">Yukarıdan kopyalanan Dataverse kuruluş kimliği.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-333">The Dataverse organization ID copied from above.</span></span> |
+5. <span data-ttu-id="a7ffb-334">**Bu, Kiracı için varsayılan CDS ortamı mı**'nı etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-334">Enable **Is this the default environment for you Tenant**.</span></span>
+    
+## <a name="configure-the-entity-store"></a><span data-ttu-id="a7ffb-335">Varlık deposunu yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a7ffb-335">Configure the entity store</span></span>
 
-## <a name="configure-the-entity-store"></a><span data-ttu-id="6f4ee-350">Varlık deposunu yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6f4ee-350">Configure the entity store</span></span>
+<span data-ttu-id="a7ffb-336">Finance ortamınızda varlık deposunu ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-336">Follow these steps to set up the entity store in your Finance environment.</span></span>
 
-<span data-ttu-id="6f4ee-351">Finance ortamınızda varlık deposunu ayarlamak için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-351">Follow these steps to set up the entity store in your Finance environment.</span></span>
+1. <span data-ttu-id="a7ffb-337">**Sistem Yönetimi \> Kurulum \> Sistem parametreleri \> Veri bağlantıları** bölümüne gidin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-337">Go to **System administration \> Setup \> System parameters \> Data connections**.</span></span>
+2. <span data-ttu-id="a7ffb-338">Aşağıdaki anahtar kasası alanlarını ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="a7ffb-338">Set the following key vault fields:</span></span>
 
-1. <span data-ttu-id="6f4ee-352">**Sistem Yönetimi \> Kurulum \> Sistem parametreleri \> Veri bağlantıları** bölümüne gidin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-352">Go to **System administration \> Setup \> System parameters \> Data connections**.</span></span>
-2. <span data-ttu-id="6f4ee-353">**Data Lake tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-353">Set the **Enable Data Lake integration** option to **Yes**.</span></span>
-3. <span data-ttu-id="6f4ee-354">Aşağıdaki anahtar kasası alanlarını ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="6f4ee-354">Set the following key vault fields:</span></span>
+    - <span data-ttu-id="a7ffb-339">**Uygulama (istemci) kimliği**: Daha önce oluşturduğunuz uygulama istemcisi kimliğini girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-339">**Application (client) ID** – Enter the application client ID that you created earlier.</span></span>
+    - <span data-ttu-id="a7ffb-340">**Uygulama Gizli Anahtarı**: Daha önce oluşturduğunuz uygulama için kaydettiğiniz gizli anahtarı girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-340">**Application Secret** – Enter the secret that you saved for the application that you created earlier.</span></span>
+    - <span data-ttu-id="a7ffb-341">**DNS adı**: Daha önce oluşturduğunuz uygulamanın uygulama ayrıntıları sayfasında Etki Alanı Adı Sistemi (DNS) adını bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-341">**DNS name** – You can find the Domain Name System (DNS) name on the application details page for the application that you created earlier.</span></span>
+    - <span data-ttu-id="a7ffb-342">**Gizli anahtar adı**: **storage-account-connection-string** dizesini girin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-342">**Secret name** – Enter **storage-account-connection-string**.</span></span>
+3. <span data-ttu-id="a7ffb-343">**Data Lake tümleştirmesi**'ni etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-343">Enable **Enable Data Lake integration**.</span></span>
+4. <span data-ttu-id="a7ffb-344">**Azure Key Vault'u test et**'i seçin ve hata olmadığını doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-344">Select **Test Azure Key Vault** and verify there are no errors.</span></span>
+5. <span data-ttu-id="a7ffb-345">**Azure depolamayı test et**'i seçin ve hata olmadığını doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-345">Select **Test Azure storage** and verify there are no errors.</span></span>
 
-    - <span data-ttu-id="6f4ee-355">**Uygulama (istemci) kimliği**: Daha önce oluşturduğunuz uygulama istemcisi kimliğini girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-355">**Application (client) ID** – Enter the application client ID that you created earlier.</span></span>
-    - <span data-ttu-id="6f4ee-356">**Uygulama Gizli Anahtarı**: Daha önce oluşturduğunuz uygulama için kaydettiğiniz gizli anahtarı girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-356">**Application Secret** – Enter the secret that you saved for the application that you created earlier.</span></span>
-    - <span data-ttu-id="6f4ee-357">**DNS adı**: Daha önce oluşturduğunuz uygulamanın uygulama ayrıntıları sayfasında Etki Alanı Adı Sistemi (DNS) adını bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-357">**DNS name** – You can find the Domain Name System (DNS) name on the application details page for the application that you created earlier.</span></span>
-    - <span data-ttu-id="6f4ee-358">**Gizli anahtar adı**: **storage-account-connection-string** dizesini girin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-358">**Secret name** – Enter **storage-account-connection-string**.</span></span>
+## <a name="feedback-and-support"></a><span data-ttu-id="a7ffb-346">Geri bildirim ve destek</span><span class="sxs-lookup"><span data-stu-id="a7ffb-346">Feedback and support</span></span>
 
-## <a name="feedback-and-support"></a><span data-ttu-id="6f4ee-359">Geri bildirim ve destek</span><span class="sxs-lookup"><span data-stu-id="6f4ee-359">Feedback and support</span></span>
+<span data-ttu-id="a7ffb-347">Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Müşteri ödeme içgörüleri (Önizleme)](mailto:fiap@microsoft.com) ekibine e-posta gönderin.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-347">Please send an email to [Customer payment insights (Preview)](mailto:fiap@microsoft.com) if you are interested in providing feedback or need support.</span></span>
 
-<span data-ttu-id="6f4ee-360">Geri bildirim sağlamak veya destek almak istiyorsanız lütfen [Müşteri ödeme içgörüleri (Önizleme)](mailto:fiap@microsoft.com) ekibine e-posta gönderin.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-360">Please send an email to [Customer payment insights (Preview)](mailto:fiap@microsoft.com) if you are interested in providing feedback or need support.</span></span>
+## <a name="privacy-notice"></a><span data-ttu-id="a7ffb-348">Gizlilik bildirimi</span><span class="sxs-lookup"><span data-stu-id="a7ffb-348">Privacy notice</span></span>
 
-## <a name="privacy-notice"></a><span data-ttu-id="6f4ee-361">Gizlilik bildirimi</span><span class="sxs-lookup"><span data-stu-id="6f4ee-361">Privacy notice</span></span>
-
-<span data-ttu-id="6f4ee-362">Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.</span><span class="sxs-lookup"><span data-stu-id="6f4ee-362">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
+<span data-ttu-id="a7ffb-349">Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.</span><span class="sxs-lookup"><span data-stu-id="a7ffb-349">Previews (1) might use less privacy and fewer security measures than the Dynamics 365 Finance and Operations service, (2) aren't included in the service level agreement (SLA) for this service, (3) should not be used to process personal data or other data that is subject to legal or regulatory compliance requirements, and (4) have limited support.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

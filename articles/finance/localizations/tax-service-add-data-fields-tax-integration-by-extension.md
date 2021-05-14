@@ -2,7 +2,7 @@
 title: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
 description: Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
 author: qire
-ms.date: 03/26/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,100 +16,99 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fdf112bbdd5245d19ab1d07cfcf94c58bf8208c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e3573f9c9971d4a5af33ece08b7e0b43f2e813a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830352"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921177"
 ---
-# <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a><span data-ttu-id="ae953-103">Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme</span><span class="sxs-lookup"><span data-stu-id="ae953-103">Add data fields in the tax integration by using extension</span></span>
+# <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a><span data-ttu-id="316b9-103">Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme</span><span class="sxs-lookup"><span data-stu-id="316b9-103">Add data fields in the tax integration by using extension</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="ae953-104">Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="ae953-104">This topic explains how to use X++ extensions to add data fields in the tax integration.</span></span> <span data-ttu-id="ae953-105">Bu alanlar vergi hizmetinin vergi veri modeline genişletilebilir ve vergi kodlarını belirlemek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="ae953-105">These fields can be extended to the tax data model of the tax service and used to determine tax codes.</span></span> <span data-ttu-id="ae953-106">Daha fazla bilgi için, bkz. [Vergi yapılandırmalarında veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).</span><span class="sxs-lookup"><span data-stu-id="ae953-106">For more information, see [Add data fields in tax configurations](tax-service-add-data-fields-tax-configurations.md).</span></span>
+<span data-ttu-id="316b9-104">Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="316b9-104">This topic explains how to use X++ extensions to add data fields in the tax integration.</span></span> <span data-ttu-id="316b9-105">Bu alanlar vergi hizmetinin vergi veri modeline genişletilebilir ve vergi kodlarını belirlemek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="316b9-105">These fields can be extended to the tax data model of the tax service and used to determine tax codes.</span></span> <span data-ttu-id="316b9-106">Daha fazla bilgi için, bkz. [Vergi yapılandırmalarında veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).</span><span class="sxs-lookup"><span data-stu-id="316b9-106">For more information, see [Add data fields in tax configurations](tax-service-add-data-fields-tax-configurations.md).</span></span>
 
-## <a name="data-model"></a><span data-ttu-id="ae953-107">Veri modeli</span><span class="sxs-lookup"><span data-stu-id="ae953-107">Data model</span></span>
+## <a name="data-model"></a><span data-ttu-id="316b9-107">Veri modeli</span><span class="sxs-lookup"><span data-stu-id="316b9-107">Data model</span></span>
 
-<span data-ttu-id="ae953-108">Veri modelindeki veriler nesneler tarafından taşınır ve sınıflar tarafından uygulanır.</span><span class="sxs-lookup"><span data-stu-id="ae953-108">The data in the data model is carried by objects and implemented by classes.</span></span>
+<span data-ttu-id="316b9-108">Veri modelindeki veriler nesneler tarafından taşınır ve sınıflar tarafından uygulanır.</span><span class="sxs-lookup"><span data-stu-id="316b9-108">The data in the data model is carried by objects and implemented by classes.</span></span>
 
-<span data-ttu-id="ae953-109">Önemli nesnelerin listesi aşağıdadır:</span><span class="sxs-lookup"><span data-stu-id="ae953-109">Here is a list of the major objects:</span></span>
+<span data-ttu-id="316b9-109">Önemli nesnelerin listesi aşağıdadır:</span><span class="sxs-lookup"><span data-stu-id="316b9-109">Here is a list of the major objects:</span></span>
 
-* <span data-ttu-id="ae953-110">AxClass/TaxIntegration **Document** Object</span><span class="sxs-lookup"><span data-stu-id="ae953-110">AxClass/TaxIntegration **Document** Object</span></span>
-* <span data-ttu-id="ae953-111">AxClass/TaxIntegration **Line** Object</span><span class="sxs-lookup"><span data-stu-id="ae953-111">AxClass/TaxIntegration **Line** Object</span></span>
-* <span data-ttu-id="ae953-112">AxClass/TaxIntegration **TaxLine** Object</span><span class="sxs-lookup"><span data-stu-id="ae953-112">AxClass/TaxIntegration **TaxLine** Object</span></span>
+* <span data-ttu-id="316b9-110">AxClass/TaxIntegration **Document** Object</span><span class="sxs-lookup"><span data-stu-id="316b9-110">AxClass/TaxIntegration **Document** Object</span></span>
+* <span data-ttu-id="316b9-111">AxClass/TaxIntegration **Line** Object</span><span class="sxs-lookup"><span data-stu-id="316b9-111">AxClass/TaxIntegration **Line** Object</span></span>
+* <span data-ttu-id="316b9-112">AxClass/TaxIntegration **TaxLine** Object</span><span class="sxs-lookup"><span data-stu-id="316b9-112">AxClass/TaxIntegration **TaxLine** Object</span></span>
 
-<span data-ttu-id="ae953-113">Aşağıdaki resim bu nesnelerin nasıl ilişkili olduğunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="ae953-113">The following illustration shows how these objects are related.</span></span>
+<span data-ttu-id="316b9-113">Aşağıdaki resim bu nesnelerin nasıl ilişkili olduğunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="316b9-113">The following illustration shows how these objects are related.</span></span>
 
-<span data-ttu-id="ae953-114">[![Veri modeli nesne ilişkisi](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)</span><span class="sxs-lookup"><span data-stu-id="ae953-114">[![Data model object relationship](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)</span></span>
+<span data-ttu-id="316b9-114">[![Veri modeli nesne ilişkisi](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)</span><span class="sxs-lookup"><span data-stu-id="316b9-114">[![Data model object relationship](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)</span></span>
 
-<span data-ttu-id="ae953-115">Bir **Belge** nesnesi birçok **satır** nesnesi içerebilir.</span><span class="sxs-lookup"><span data-stu-id="ae953-115">A **Document** object can contain many **Line** objects.</span></span> <span data-ttu-id="ae953-116">Her nesne vergi hizmeti için meta verilerini içerir.</span><span class="sxs-lookup"><span data-stu-id="ae953-116">Each object contains metadata for the tax service.</span></span>
+<span data-ttu-id="316b9-115">Bir **Belge** nesnesi birçok **satır** nesnesi içerebilir.</span><span class="sxs-lookup"><span data-stu-id="316b9-115">A **Document** object can contain many **Line** objects.</span></span> <span data-ttu-id="316b9-116">Her nesne vergi hizmeti için meta verilerini içerir.</span><span class="sxs-lookup"><span data-stu-id="316b9-116">Each object contains metadata for the tax service.</span></span>
 
-- <span data-ttu-id="ae953-117">`TaxIntegrationDocumentObject`, kaynak adres hakkında bilgiler içeren `originAddress` meta verileri ve satır tutarının satış vergisini içerip içermediğini gösteren `includingTax` meta veriler içerir.</span><span class="sxs-lookup"><span data-stu-id="ae953-117">`TaxIntegrationDocumentObject` has `originAddress` metadata, which contains information about the source address, and `includingTax` metadata, which indicates whether the line amount includes sales tax.</span></span>
-- <span data-ttu-id="ae953-118">`TaxIntegrationLineObject` `itemId`, `quantity` ve `categoryId` meta verilerini içerir.</span><span class="sxs-lookup"><span data-stu-id="ae953-118">`TaxIntegrationLineObject` has `itemId`, `quantity`, and `categoryId` metadata.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="ae953-119">`TaxIntegrationLineObject` **gider** nesnelerini de uygular.</span><span class="sxs-lookup"><span data-stu-id="ae953-119">`TaxIntegrationLineObject` also implements **Charge** objects.</span></span>
-
-## <a name="integration-flow"></a><span data-ttu-id="ae953-120">Tümleştirme akışı</span><span class="sxs-lookup"><span data-stu-id="ae953-120">Integration flow</span></span>
-
-<span data-ttu-id="ae953-121">Akıştaki veriler etkinlikler tarafından değiştirilir.</span><span class="sxs-lookup"><span data-stu-id="ae953-121">The data in the flow is manipulated by activities.</span></span>
-
-### <a name="key-activities"></a><span data-ttu-id="ae953-122">Önemli etkinlikler</span><span class="sxs-lookup"><span data-stu-id="ae953-122">Key activities</span></span>
-
-* <span data-ttu-id="ae953-123">AxClass/TaxIntegration **Calculation** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="ae953-123">AxClass/TaxIntegration **Calculation** ActivityOnDocument</span></span>
-* <span data-ttu-id="ae953-124">AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="ae953-124">AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument</span></span>
-* <span data-ttu-id="ae953-125">AxClass/TaxIntegration **DataPersistence** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="ae953-125">AxClass/TaxIntegration **DataPersistence** ActivityOnDocument</span></span>
-* <span data-ttu-id="ae953-126">AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="ae953-126">AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument</span></span>
-* <span data-ttu-id="ae953-127">AxClass/TaxIntegration **SettingRetrieval** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="ae953-127">AxClass/TaxIntegration **SettingRetrieval** ActivityOnDocument</span></span>
-
-<span data-ttu-id="ae953-128">Etkinlikler aşağıdaki sıraya göre çalıştırılır:</span><span class="sxs-lookup"><span data-stu-id="ae953-128">Activities are run in the following order:</span></span>
-
-1. <span data-ttu-id="ae953-129">Alma işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="ae953-129">Setting Retrieval</span></span>
-2. <span data-ttu-id="ae953-130">Veri Alma</span><span class="sxs-lookup"><span data-stu-id="ae953-130">Data Retrieval</span></span>
-3. <span data-ttu-id="ae953-131">Hesaplama servisi</span><span class="sxs-lookup"><span data-stu-id="ae953-131">Calculation Service</span></span>
-4. <span data-ttu-id="ae953-132">Döviz kuru</span><span class="sxs-lookup"><span data-stu-id="ae953-132">Currency Exchange</span></span>
-5. <span data-ttu-id="ae953-133">Veri kalıcılığı</span><span class="sxs-lookup"><span data-stu-id="ae953-133">Data Persistence</span></span>
-
-<span data-ttu-id="ae953-134">Örneğin, **Hesaplama hizmetinden** önce **veri alma**'yı genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae953-134">For example, extend **Data Retrieval** before **Calculation Service**.</span></span>
-
-#### <a name="data-retrieval-activities"></a><span data-ttu-id="ae953-135">Veri alma faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="ae953-135">Data Retrieval activities</span></span>
-
-<span data-ttu-id="ae953-136">**Veri alma** eylemleri veritabanından veri alır.</span><span class="sxs-lookup"><span data-stu-id="ae953-136">**Data Retrieval** activities retrieve data from the database.</span></span> <span data-ttu-id="ae953-137">Farklı işlem tablolarından veri almak için farklı işlemler için bağdaştırıcılar kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="ae953-137">Adapters for different transactions are available to retrieve data from different transaction tables:</span></span>
-
-- <span data-ttu-id="ae953-138">AxClass/TaxIntegration **PurchTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-138">AxClass/TaxIntegration **PurchTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-139">AxClass/TaxIntegration **PurchParmTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-139">AxClass/TaxIntegration **PurchParmTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-140">AxClass/TaxIntegration **PurchREQTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-140">AxClass/TaxIntegration **PurchREQTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-141">AxClass/TaxIntegration **PurchRFQTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-141">AxClass/TaxIntegration **PurchRFQTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-142">AxClass/TaxIntegration **VendInvoiceInfoTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-142">AxClass/TaxIntegration **VendInvoiceInfoTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-143">AxClass/TaxIntegration **SalesTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-143">AxClass/TaxIntegration **SalesTable** DataRetrieval</span></span>
-- <span data-ttu-id="ae953-144">AxClass/TaxIntegration **SalesParm** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="ae953-144">AxClass/TaxIntegration **SalesParm** DataRetrieval</span></span>
-
-<span data-ttu-id="ae953-145">Bu **veri alma** faaliyetlerinde, veriler veritabanından `TaxIntegrationDocumentObject` ve `TaxIntegrationLineObject`'e kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="ae953-145">In these **Data Retrieval** activities, data is copied from the database to `TaxIntegrationDocumentObject` and `TaxIntegrationLineObject`.</span></span> <span data-ttu-id="ae953-146">Tüm bu faaliyetler aynı soyut şablon sınıfını genişlettiğinden, ortak yöntemleri vardır.</span><span class="sxs-lookup"><span data-stu-id="ae953-146">Because all these activities extend the same abstract template class, they have common methods.</span></span>
-
-#### <a name="calculation-service-activities"></a><span data-ttu-id="ae953-147">Hesaplama Hizmeti faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="ae953-147">Calculation Service activities</span></span>
-
-<span data-ttu-id="ae953-148">**Hesaplama Hizmeti** faaliyeti, Vergi hizmeti ile vergi tümleştirmesi arasındaki bağlantıdır.</span><span class="sxs-lookup"><span data-stu-id="ae953-148">The **Calculation Service** activity is the link between the tax service and the tax integration.</span></span> <span data-ttu-id="ae953-149">Bu faaliyet aşağıdaki işlevlerden sorumludur:</span><span class="sxs-lookup"><span data-stu-id="ae953-149">This activity is responsible for the following functions:</span></span>
-
-1. <span data-ttu-id="ae953-150">İsteği oluşturun.</span><span class="sxs-lookup"><span data-stu-id="ae953-150">Construct the request.</span></span>
-2. <span data-ttu-id="ae953-151">Talebi vergi hizmetine nakledin.</span><span class="sxs-lookup"><span data-stu-id="ae953-151">Post the request to the tax service.</span></span>
-3. <span data-ttu-id="ae953-152">Yanıtı vergi hizmetinden alın.</span><span class="sxs-lookup"><span data-stu-id="ae953-152">Get the response from the tax service.</span></span>
-4. <span data-ttu-id="ae953-153">Yanıtı ayrıştırın.</span><span class="sxs-lookup"><span data-stu-id="ae953-153">Parse the response.</span></span>
-
-<span data-ttu-id="ae953-154">İsteğe eklediğiniz bir veri alanı diğer meta verilerle birlikte deftere nakledilecektir.</span><span class="sxs-lookup"><span data-stu-id="ae953-154">A data field that you add to the request will be posted together with other metadata.</span></span> 
-
-## <a name="extension-implementation"></a><span data-ttu-id="ae953-155">Uzantıyı uygulama</span><span class="sxs-lookup"><span data-stu-id="ae953-155">Extension implementation</span></span>
-
-<span data-ttu-id="ae953-156">Bu bölüm, uzantının nasıl uygulanacağını açıklayan ayrıntılı adımlar sağlar.</span><span class="sxs-lookup"><span data-stu-id="ae953-156">This section provides detailed steps that explain how to implement the extension.</span></span> <span data-ttu-id="ae953-157">Bu, **Maliyet merkezini** ve **Proje** Mali boyutlarını örnek olarak kullanır.</span><span class="sxs-lookup"><span data-stu-id="ae953-157">It uses the **Cost center** and **Project** financial dimensions as examples.</span></span>
-
-### <a name="step-1-add-the-data-variable-in-the-object-class"></a><span data-ttu-id="ae953-158">1. Adım</span><span class="sxs-lookup"><span data-stu-id="ae953-158">Step 1.</span></span> <span data-ttu-id="ae953-159">Nesne sınıfına veri değişkeni ekleme</span><span class="sxs-lookup"><span data-stu-id="ae953-159">Add the data variable in the object class</span></span>
-
-<span data-ttu-id="ae953-160">Nesne sınıfı, veriler için veri değişkeni ve alıcı/kurucu yöntemlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="ae953-160">The object class contains the data variable and getter/setter methods for the data.</span></span> <span data-ttu-id="ae953-161">Alan düzeyine bağlı olarak veri alanını `TaxIntegrationDocumentObject` ya da `TaxIntegrationLineObject`'e ekleyin.</span><span class="sxs-lookup"><span data-stu-id="ae953-161">Add the data field to either `TaxIntegrationDocumentObject` or `TaxIntegrationLineObject`, depending on the level of the field.</span></span> <span data-ttu-id="ae953-162">Aşağıdaki örnekte satır düzeyi kullanılır ve `TaxIntegrationLineObject_Extension.xpp` dosya adı kullanılır.</span><span class="sxs-lookup"><span data-stu-id="ae953-162">The following example uses the line level, and the file name is `TaxIntegrationLineObject_Extension.xpp`.</span></span>
+- <span data-ttu-id="316b9-117">`TaxIntegrationDocumentObject`, kaynak adres hakkında bilgiler içeren `originAddress` meta verileri ve satır tutarının satış vergisini içerip içermediğini gösteren `includingTax` meta veriler içerir.</span><span class="sxs-lookup"><span data-stu-id="316b9-117">`TaxIntegrationDocumentObject` has `originAddress` metadata, which contains information about the source address, and `includingTax` metadata, which indicates whether the line amount includes sales tax.</span></span>
+- <span data-ttu-id="316b9-118">`TaxIntegrationLineObject` `itemId`, `quantity` ve `categoryId` meta verilerini içerir.</span><span class="sxs-lookup"><span data-stu-id="316b9-118">`TaxIntegrationLineObject` has `itemId`, `quantity`, and `categoryId` metadata.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ae953-163">Eklediğiniz veri alanı belge düzeyindeyse dosya adını `TaxIntegrationDocumentObject_Extension.xpp` olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="ae953-163">If the data field that you're adding is at the document level, change the file name to `TaxIntegrationDocumentObject_Extension.xpp`.</span></span>
+> <span data-ttu-id="316b9-119">`TaxIntegrationLineObject` **gider** nesnelerini de uygular.</span><span class="sxs-lookup"><span data-stu-id="316b9-119">`TaxIntegrationLineObject` also implements **Charge** objects.</span></span>
+
+## <a name="integration-flow"></a><span data-ttu-id="316b9-120">Tümleştirme akışı</span><span class="sxs-lookup"><span data-stu-id="316b9-120">Integration flow</span></span>
+
+<span data-ttu-id="316b9-121">Akıştaki veriler etkinlikler tarafından değiştirilir.</span><span class="sxs-lookup"><span data-stu-id="316b9-121">The data in the flow is manipulated by activities.</span></span>
+
+### <a name="key-activities"></a><span data-ttu-id="316b9-122">Önemli etkinlikler</span><span class="sxs-lookup"><span data-stu-id="316b9-122">Key activities</span></span>
+
+* <span data-ttu-id="316b9-123">AxClass/TaxIntegration **Calculation** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="316b9-123">AxClass/TaxIntegration **Calculation** ActivityOnDocument</span></span>
+* <span data-ttu-id="316b9-124">AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="316b9-124">AxClass/TaxIntegration **CurrencyExchange** ActivityOnDocument</span></span>
+* <span data-ttu-id="316b9-125">AxClass/TaxIntegration **DataPersistence** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="316b9-125">AxClass/TaxIntegration **DataPersistence** ActivityOnDocument</span></span>
+* <span data-ttu-id="316b9-126">AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="316b9-126">AxClass/TaxIntegration **DataRetrieval** ActivityOnDocument</span></span>
+* <span data-ttu-id="316b9-127">AxClass/TaxIntegration **SettingRetrieval** ActivityOnDocument</span><span class="sxs-lookup"><span data-stu-id="316b9-127">AxClass/TaxIntegration **SettingRetrieval** ActivityOnDocument</span></span>
+
+<span data-ttu-id="316b9-128">Etkinlikler aşağıdaki sıraya göre çalıştırılır:</span><span class="sxs-lookup"><span data-stu-id="316b9-128">Activities are run in the following order:</span></span>
+
+1. <span data-ttu-id="316b9-129">Alma işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="316b9-129">Setting Retrieval</span></span>
+2. <span data-ttu-id="316b9-130">Veri Alma</span><span class="sxs-lookup"><span data-stu-id="316b9-130">Data Retrieval</span></span>
+3. <span data-ttu-id="316b9-131">Hesaplama servisi</span><span class="sxs-lookup"><span data-stu-id="316b9-131">Calculation Service</span></span>
+4. <span data-ttu-id="316b9-132">Döviz kuru</span><span class="sxs-lookup"><span data-stu-id="316b9-132">Currency Exchange</span></span>
+5. <span data-ttu-id="316b9-133">Veri kalıcılığı</span><span class="sxs-lookup"><span data-stu-id="316b9-133">Data Persistence</span></span>
+
+<span data-ttu-id="316b9-134">Örneğin, **Hesaplama hizmetinden** önce **veri alma**'yı genişletin.</span><span class="sxs-lookup"><span data-stu-id="316b9-134">For example, extend **Data Retrieval** before **Calculation Service**.</span></span>
+
+#### <a name="data-retrieval-activities"></a><span data-ttu-id="316b9-135">Veri alma faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="316b9-135">Data Retrieval activities</span></span>
+
+<span data-ttu-id="316b9-136">**Veri alma** eylemleri veritabanından veri alır.</span><span class="sxs-lookup"><span data-stu-id="316b9-136">**Data Retrieval** activities retrieve data from the database.</span></span> <span data-ttu-id="316b9-137">Farklı işlem tablolarından veri almak için farklı işlemler için bağdaştırıcılar kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="316b9-137">Adapters for different transactions are available to retrieve data from different transaction tables:</span></span>
+
+- <span data-ttu-id="316b9-138">AxClass/TaxIntegration **PurchTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-138">AxClass/TaxIntegration **PurchTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-139">AxClass/TaxIntegration **PurchParmTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-139">AxClass/TaxIntegration **PurchParmTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-140">AxClass/TaxIntegration **PurchREQTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-140">AxClass/TaxIntegration **PurchREQTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-141">AxClass/TaxIntegration **PurchRFQTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-141">AxClass/TaxIntegration **PurchRFQTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-142">AxClass/TaxIntegration **VendInvoiceInfoTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-142">AxClass/TaxIntegration **VendInvoiceInfoTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-143">AxClass/TaxIntegration **SalesTable** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-143">AxClass/TaxIntegration **SalesTable** DataRetrieval</span></span>
+- <span data-ttu-id="316b9-144">AxClass/TaxIntegration **SalesParm** DataRetrieval</span><span class="sxs-lookup"><span data-stu-id="316b9-144">AxClass/TaxIntegration **SalesParm** DataRetrieval</span></span>
+
+<span data-ttu-id="316b9-145">Bu **veri alma** faaliyetlerinde, veriler veritabanından `TaxIntegrationDocumentObject` ve `TaxIntegrationLineObject`'e kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="316b9-145">In these **Data Retrieval** activities, data is copied from the database to `TaxIntegrationDocumentObject` and `TaxIntegrationLineObject`.</span></span> <span data-ttu-id="316b9-146">Tüm bu faaliyetler aynı soyut şablon sınıfını genişlettiğinden, ortak yöntemleri vardır.</span><span class="sxs-lookup"><span data-stu-id="316b9-146">Because all these activities extend the same abstract template class, they have common methods.</span></span>
+
+#### <a name="calculation-service-activities"></a><span data-ttu-id="316b9-147">Hesaplama Hizmeti faaliyetleri</span><span class="sxs-lookup"><span data-stu-id="316b9-147">Calculation Service activities</span></span>
+
+<span data-ttu-id="316b9-148">**Hesaplama Hizmeti** faaliyeti, Vergi hizmeti ile vergi tümleştirmesi arasındaki bağlantıdır.</span><span class="sxs-lookup"><span data-stu-id="316b9-148">The **Calculation Service** activity is the link between the tax service and the tax integration.</span></span> <span data-ttu-id="316b9-149">Bu faaliyet aşağıdaki işlevlerden sorumludur:</span><span class="sxs-lookup"><span data-stu-id="316b9-149">This activity is responsible for the following functions:</span></span>
+
+1. <span data-ttu-id="316b9-150">İsteği oluşturun.</span><span class="sxs-lookup"><span data-stu-id="316b9-150">Construct the request.</span></span>
+2. <span data-ttu-id="316b9-151">Talebi vergi hizmetine nakledin.</span><span class="sxs-lookup"><span data-stu-id="316b9-151">Post the request to the tax service.</span></span>
+3. <span data-ttu-id="316b9-152">Yanıtı vergi hizmetinden alın.</span><span class="sxs-lookup"><span data-stu-id="316b9-152">Get the response from the tax service.</span></span>
+4. <span data-ttu-id="316b9-153">Yanıtı ayrıştırın.</span><span class="sxs-lookup"><span data-stu-id="316b9-153">Parse the response.</span></span>
+
+<span data-ttu-id="316b9-154">İsteğe eklediğiniz bir veri alanı diğer meta verilerle birlikte deftere nakledilecektir.</span><span class="sxs-lookup"><span data-stu-id="316b9-154">A data field that you add to the request will be posted together with other metadata.</span></span> 
+
+## <a name="extension-implementation"></a><span data-ttu-id="316b9-155">Uzantıyı uygulama</span><span class="sxs-lookup"><span data-stu-id="316b9-155">Extension implementation</span></span>
+
+<span data-ttu-id="316b9-156">Bu bölüm, uzantının nasıl uygulanacağını açıklayan ayrıntılı adımlar sağlar.</span><span class="sxs-lookup"><span data-stu-id="316b9-156">This section provides detailed steps that explain how to implement the extension.</span></span> <span data-ttu-id="316b9-157">Bu, **Maliyet merkezini** ve **Proje** Mali boyutlarını örnek olarak kullanır.</span><span class="sxs-lookup"><span data-stu-id="316b9-157">It uses the **Cost center** and **Project** financial dimensions as examples.</span></span>
+
+### <a name="step-1-add-the-data-variable-in-the-object-class"></a><span data-ttu-id="316b9-158">1. Adım</span><span class="sxs-lookup"><span data-stu-id="316b9-158">Step 1.</span></span> <span data-ttu-id="316b9-159">Nesne sınıfına veri değişkeni ekleme</span><span class="sxs-lookup"><span data-stu-id="316b9-159">Add the data variable in the object class</span></span>
+
+<span data-ttu-id="316b9-160">Nesne sınıfı, veriler için veri değişkeni ve alıcı/kurucu yöntemlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="316b9-160">The object class contains the data variable and getter/setter methods for the data.</span></span> <span data-ttu-id="316b9-161">Alan düzeyine bağlı olarak veri alanını `TaxIntegrationDocumentObject` ya da `TaxIntegrationLineObject`'e ekleyin.</span><span class="sxs-lookup"><span data-stu-id="316b9-161">Add the data field to either `TaxIntegrationDocumentObject` or `TaxIntegrationLineObject`, depending on the level of the field.</span></span> <span data-ttu-id="316b9-162">Aşağıdaki örnekte satır düzeyi kullanılır ve `TaxIntegrationLineObject_Extension.xpp` dosya adı kullanılır.</span><span class="sxs-lookup"><span data-stu-id="316b9-162">The following example uses the line level, and the file name is `TaxIntegrationLineObject_Extension.xpp`.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="316b9-163">Eklediğiniz veri alanı belge düzeyindeyse dosya adını `TaxIntegrationDocumentObject_Extension.xpp` olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="316b9-163">If the data field that you're adding is at the document level, change the file name to `TaxIntegrationDocumentObject_Extension.xpp`.</span></span>
 
 ```X++
 [ExtensionOf(classStr(TaxIntegrationLineObject))]
@@ -156,18 +155,18 @@ final class TaxIntegrationLineObject_Extension
 }
 ```
 
-<span data-ttu-id="ae953-164">**Maliyet merkezi** ve **Proje** özel değişkenler olarak eklendi.</span><span class="sxs-lookup"><span data-stu-id="ae953-164">**Cost center** and **Project** are added as private variables.</span></span> <span data-ttu-id="ae953-165">Verileri değiştirmek üzere bu veri alanları için alıcı ve ayarlayıcı yöntemleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="ae953-165">Create getter and setter methods for these data fields to manipulate the data.</span></span>
+<span data-ttu-id="316b9-164">**Maliyet merkezi** ve **Proje** özel değişkenler olarak eklendi.</span><span class="sxs-lookup"><span data-stu-id="316b9-164">**Cost center** and **Project** are added as private variables.</span></span> <span data-ttu-id="316b9-165">Verileri değiştirmek üzere bu veri alanları için alıcı ve ayarlayıcı yöntemleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="316b9-165">Create getter and setter methods for these data fields to manipulate the data.</span></span>
 
-### <a name="step-2-retrieve-data-from-the-database"></a><span data-ttu-id="ae953-166">2. Adım</span><span class="sxs-lookup"><span data-stu-id="ae953-166">Step 2.</span></span> <span data-ttu-id="ae953-167">Veritabanından veri alma</span><span class="sxs-lookup"><span data-stu-id="ae953-167">Retrieve data from the database</span></span>
+### <a name="step-2-retrieve-data-from-the-database"></a><span data-ttu-id="316b9-166">2. Adım</span><span class="sxs-lookup"><span data-stu-id="316b9-166">Step 2.</span></span> <span data-ttu-id="316b9-167">Veritabanından veri alma</span><span class="sxs-lookup"><span data-stu-id="316b9-167">Retrieve data from the database</span></span>
 
-<span data-ttu-id="ae953-168">İşlemi belirtin ve verileri almak için uygun bağdaştırıcı sınıflarını genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae953-168">Specify the transaction, and extend the appropriate adapter classes to retrieve the data.</span></span> <span data-ttu-id="ae953-169">Örneğin, bir **Satın alma siparişi** işlemikullanırsanız, `TaxIntegrationPurchTableDataRetrieval` ve `TaxIntegrationVendInvoiceInfoTableDataRetrieval` öğesini genişletmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="ae953-169">For example, if you use a **Purchase order** transaction, you must extend `TaxIntegrationPurchTableDataRetrieval` and `TaxIntegrationVendInvoiceInfoTableDataRetrieval`.</span></span> 
+<span data-ttu-id="316b9-168">İşlemi belirtin ve verileri almak için uygun bağdaştırıcı sınıflarını genişletin.</span><span class="sxs-lookup"><span data-stu-id="316b9-168">Specify the transaction, and extend the appropriate adapter classes to retrieve the data.</span></span> <span data-ttu-id="316b9-169">Örneğin, bir **Satın alma siparişi** işlemikullanırsanız, `TaxIntegrationPurchTableDataRetrieval` ve `TaxIntegrationVendInvoiceInfoTableDataRetrieval` öğesini genişletmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="316b9-169">For example, if you use a **Purchase order** transaction, you must extend `TaxIntegrationPurchTableDataRetrieval` and `TaxIntegrationVendInvoiceInfoTableDataRetrieval`.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="ae953-170">`TaxIntegrationPurchParmTableDataRetrieval`, `TaxIntegrationPurchTableDataRetrieval`'dan devralınmıştır.</span><span class="sxs-lookup"><span data-stu-id="ae953-170">`TaxIntegrationPurchParmTableDataRetrieval` is inherited from `TaxIntegrationPurchTableDataRetrieval`.</span></span> <span data-ttu-id="ae953-171">`purchTable` ve `purchParmTable` tablolarının mantığı farklı olmadıkça değiştirilmemelidir.</span><span class="sxs-lookup"><span data-stu-id="ae953-171">It should not be changed unless the logic of the `purchTable` and `purchParmTable` tables differs.</span></span>
+> <span data-ttu-id="316b9-170">`TaxIntegrationPurchParmTableDataRetrieval`, `TaxIntegrationPurchTableDataRetrieval`'dan devralınmıştır.</span><span class="sxs-lookup"><span data-stu-id="316b9-170">`TaxIntegrationPurchParmTableDataRetrieval` is inherited from `TaxIntegrationPurchTableDataRetrieval`.</span></span> <span data-ttu-id="316b9-171">`purchTable` ve `purchParmTable` tablolarının mantığı farklı olmadıkça değiştirilmemelidir.</span><span class="sxs-lookup"><span data-stu-id="316b9-171">It should not be changed unless the logic of the `purchTable` and `purchParmTable` tables differs.</span></span>
 
-<span data-ttu-id="ae953-172">Veri alanının tüm işlemler için eklenmesi gerekiyorsa tüm `DataRetrieval` sınıflarını genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae953-172">If the data field should be added for all transactions, extend all `DataRetrieval` classes.</span></span>
+<span data-ttu-id="316b9-172">Veri alanının tüm işlemler için eklenmesi gerekiyorsa tüm `DataRetrieval` sınıflarını genişletin.</span><span class="sxs-lookup"><span data-stu-id="316b9-172">If the data field should be added for all transactions, extend all `DataRetrieval` classes.</span></span>
 
-<span data-ttu-id="ae953-173">Tüm **veri alma** etkinlikleri aynı şablon sınıfını genişlettiği için sınıf yapıları, değişkenler ve Yöntemler benzerdir.</span><span class="sxs-lookup"><span data-stu-id="ae953-173">Because all **Data Retrieval** activities extend the same template class, the class structures, variables, and methods are similar.</span></span>
+<span data-ttu-id="316b9-173">Tüm **veri alma** etkinlikleri aynı şablon sınıfını genişlettiği için sınıf yapıları, değişkenler ve Yöntemler benzerdir.</span><span class="sxs-lookup"><span data-stu-id="316b9-173">Because all **Data Retrieval** activities extend the same template class, the class structures, variables, and methods are similar.</span></span>
 
 ```X++
 protected TaxIntegrationDocumentObject document;
@@ -200,7 +199,7 @@ protected abstract void copyToLine(TaxIntegrationLineObject _line)
 }
 ```
 
-<span data-ttu-id="ae953-174">Aşağıdaki örnek, `PurchTable` tablosu kullanıldığında temel yapıyı gösterir.</span><span class="sxs-lookup"><span data-stu-id="ae953-174">The following example shows the basic structure when the `PurchTable` table is used.</span></span>
+<span data-ttu-id="316b9-174">Aşağıdaki örnek, `PurchTable` tablosu kullanıldığında temel yapıyı gösterir.</span><span class="sxs-lookup"><span data-stu-id="316b9-174">The following example shows the basic structure when the `PurchTable` table is used.</span></span>
 
 ```X++
 public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstractDataRetrievalTemplate
@@ -227,13 +226,13 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
 }
 ```
 
-<span data-ttu-id="ae953-175">`CopyToDocument` yöntemi çağrıldığında, `this.purchTable` arabelleği zaten vardır.</span><span class="sxs-lookup"><span data-stu-id="ae953-175">When the `CopyToDocument` method is called, the `this.purchTable` buffer already exists.</span></span> <span data-ttu-id="ae953-176">Bu yöntemin amacı, `DocumentObject` sınıfında oluşturulmuş olan ayarlayıcı yöntemini kullanarak `this.purchTable`'daki gerekli tüm verilerin `document` nesnesine kopyalanmasını sağlamaktır.</span><span class="sxs-lookup"><span data-stu-id="ae953-176">The purpose of this method is to copy all the required data from `this.purchTable` to the `document` object by using the setter method that was created in the `DocumentObject` class.</span></span>
+<span data-ttu-id="316b9-175">`CopyToDocument` yöntemi çağrıldığında, `this.purchTable` arabelleği zaten vardır.</span><span class="sxs-lookup"><span data-stu-id="316b9-175">When the `CopyToDocument` method is called, the `this.purchTable` buffer already exists.</span></span> <span data-ttu-id="316b9-176">Bu yöntemin amacı, `DocumentObject` sınıfında oluşturulmuş olan ayarlayıcı yöntemini kullanarak `this.purchTable`'daki gerekli tüm verilerin `document` nesnesine kopyalanmasını sağlamaktır.</span><span class="sxs-lookup"><span data-stu-id="316b9-176">The purpose of this method is to copy all the required data from `this.purchTable` to the `document` object by using the setter method that was created in the `DocumentObject` class.</span></span>
 
-<span data-ttu-id="ae953-177">Benzer şekilde, `this.purchLine` arabelleği `CopyToLine` yönteminde zaten mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="ae953-177">Likewise, a `this.purchLine` buffer already exists in the `CopyToLine` method.</span></span> <span data-ttu-id="ae953-178">Bu yöntemin amacı, `LineObject` sınıfında oluşturulmuş olan ayarlayıcı yöntemini kullanarak `this.purchLine`'daki gerekli tüm verilerin `_line` nesnesine kopyalanmasını sağlamaktır.</span><span class="sxs-lookup"><span data-stu-id="ae953-178">The purpose of this method is to copy all the required data from `this.purchLine` to the `_line` object by using the setter method that was created in the `LineObject` class.</span></span>
+<span data-ttu-id="316b9-177">Benzer şekilde, `this.purchLine` arabelleği `CopyToLine` yönteminde zaten mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="316b9-177">Likewise, a `this.purchLine` buffer already exists in the `CopyToLine` method.</span></span> <span data-ttu-id="316b9-178">Bu yöntemin amacı, `LineObject` sınıfında oluşturulmuş olan ayarlayıcı yöntemini kullanarak `this.purchLine`'daki gerekli tüm verilerin `_line` nesnesine kopyalanmasını sağlamaktır.</span><span class="sxs-lookup"><span data-stu-id="316b9-178">The purpose of this method is to copy all the required data from `this.purchLine` to the `_line` object by using the setter method that was created in the `LineObject` class.</span></span>
 
-<span data-ttu-id="ae953-179">En doğrudan yaklaşım, `CopyToDocument` ve `CopyToLine` yöntemlerini uzatmaktır.</span><span class="sxs-lookup"><span data-stu-id="ae953-179">The most straightforward approach is to extend the `CopyToDocument` and `CopyToLine` methods.</span></span> <span data-ttu-id="ae953-180">Ancak, önce `copyToDocumentFromHeaderTable` ve `copyToLineFromLineTable` yöntemlerini denemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="ae953-180">However, we recommend that you try the `copyToDocumentFromHeaderTable` and `copyToLineFromLineTable` methods first.</span></span> <span data-ttu-id="ae953-181">Bunlar gerektiği gibi çalışmıyorsa, kendi yönteminizi uygulayın ve `CopyToDocument` ve `CopyToLine`'de çağırın.</span><span class="sxs-lookup"><span data-stu-id="ae953-181">If they don't work as you require, implement your own method, and call it in `CopyToDocument` and `CopyToLine`.</span></span> <span data-ttu-id="ae953-182">Bu yaklaşımı kullanabileceğiniz üç yaygın durum vardır:</span><span class="sxs-lookup"><span data-stu-id="ae953-182">There are three common situations where you might use this approach:</span></span>
+<span data-ttu-id="316b9-179">En doğrudan yaklaşım, `CopyToDocument` ve `CopyToLine` yöntemlerini uzatmaktır.</span><span class="sxs-lookup"><span data-stu-id="316b9-179">The most straightforward approach is to extend the `CopyToDocument` and `CopyToLine` methods.</span></span> <span data-ttu-id="316b9-180">Ancak, önce `copyToDocumentFromHeaderTable` ve `copyToLineFromLineTable` yöntemlerini denemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="316b9-180">However, we recommend that you try the `copyToDocumentFromHeaderTable` and `copyToLineFromLineTable` methods first.</span></span> <span data-ttu-id="316b9-181">Bunlar gerektiği gibi çalışmıyorsa, kendi yönteminizi uygulayın ve `CopyToDocument` ve `CopyToLine`'de çağırın.</span><span class="sxs-lookup"><span data-stu-id="316b9-181">If they don't work as you require, implement your own method, and call it in `CopyToDocument` and `CopyToLine`.</span></span> <span data-ttu-id="316b9-182">Bu yaklaşımı kullanabileceğiniz üç yaygın durum vardır:</span><span class="sxs-lookup"><span data-stu-id="316b9-182">There are three common situations where you might use this approach:</span></span>
 
-- <span data-ttu-id="ae953-183">Gerekli alan `PurchTable` veya `PurchLine`'dadır.</span><span class="sxs-lookup"><span data-stu-id="ae953-183">The required field is in `PurchTable` or `PurchLine`.</span></span> <span data-ttu-id="ae953-184">Bu durumda, `copyToDocumentFromHeaderTable` ve `copyToLineFromLineTable` öğesini genişletebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae953-184">In this situation, you can extend `copyToDocumentFromHeaderTable` and `copyToLineFromLineTable`.</span></span> <span data-ttu-id="ae953-185">Örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="ae953-185">Here is the sample code.</span></span>
+- <span data-ttu-id="316b9-183">Gerekli alan `PurchTable` veya `PurchLine`'dadır.</span><span class="sxs-lookup"><span data-stu-id="316b9-183">The required field is in `PurchTable` or `PurchLine`.</span></span> <span data-ttu-id="316b9-184">Bu durumda, `copyToDocumentFromHeaderTable` ve `copyToLineFromLineTable` öğesini genişletebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="316b9-184">In this situation, you can extend `copyToDocumentFromHeaderTable` and `copyToLineFromLineTable`.</span></span> <span data-ttu-id="316b9-185">Örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="316b9-185">Here is the sample code.</span></span>
 
     ```X++
     /// <summary>
@@ -248,7 +247,7 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
     }
     ```
 
-- <span data-ttu-id="ae953-186">Gerekli veriler, işlemin varsayılan tablosunda yoktur.</span><span class="sxs-lookup"><span data-stu-id="ae953-186">The required data isn't in the default table of the transaction.</span></span> <span data-ttu-id="ae953-187">Ancak, varsayılan tabloyla birlikte bazı birleştirme ilişkileri vardır ve alan çoğu satırda gereklidir.</span><span class="sxs-lookup"><span data-stu-id="ae953-187">However, there are some join relationships with the default table, and the field is required on most lines.</span></span> <span data-ttu-id="ae953-188">Bu durumda, tabloyu birleştirme ilişkisiyle sorgulamak için `getDocumentQueryObject` veya `getLineObject`'i değiştirin.</span><span class="sxs-lookup"><span data-stu-id="ae953-188">In this situation, replace `getDocumentQueryObject` or `getLineObject` to query the table by join relationship.</span></span> <span data-ttu-id="ae953-189">Aşağıdaki örnekte, **Şimdi teslim et** alanı satır düzeyinde satış siparişiyle tümleşiktir.</span><span class="sxs-lookup"><span data-stu-id="ae953-189">In the following example, the **Deliver Now** field is integrated with the sales order at the line level.</span></span>
+- <span data-ttu-id="316b9-186">Gerekli veriler, işlemin varsayılan tablosunda yoktur.</span><span class="sxs-lookup"><span data-stu-id="316b9-186">The required data isn't in the default table of the transaction.</span></span> <span data-ttu-id="316b9-187">Ancak, varsayılan tabloyla birlikte bazı birleştirme ilişkileri vardır ve alan çoğu satırda gereklidir.</span><span class="sxs-lookup"><span data-stu-id="316b9-187">However, there are some join relationships with the default table, and the field is required on most lines.</span></span> <span data-ttu-id="316b9-188">Bu durumda, tabloyu birleştirme ilişkisiyle sorgulamak için `getDocumentQueryObject` veya `getLineObject`'i değiştirin.</span><span class="sxs-lookup"><span data-stu-id="316b9-188">In this situation, replace `getDocumentQueryObject` or `getLineObject` to query the table by join relationship.</span></span> <span data-ttu-id="316b9-189">Aşağıdaki örnekte, **Şimdi teslim et** alanı satır düzeyinde satış siparişiyle tümleşiktir.</span><span class="sxs-lookup"><span data-stu-id="316b9-189">In the following example, the **Deliver Now** field is integrated with the sales order at the line level.</span></span>
 
     ```X++
     public class TaxIntegrationSalesTableDataRetrieval
@@ -271,14 +270,14 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
     }
     ```
 
-    <span data-ttu-id="ae953-190">Bu örnekte, bir `mcrSalesLineDropShipment` arabelleği bildirilir ve sorgu `getLineQueryObject`'te tanımlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="ae953-190">In this example, a `mcrSalesLineDropShipment` buffer is declared, and the query is defined in `getLineQueryObject`.</span></span> <span data-ttu-id="ae953-191">Sorgu `MCRSalesLineDropShipment.SalesLine == SalesLine.RecId` ilişkisini kullanır.</span><span class="sxs-lookup"><span data-stu-id="ae953-191">The query uses the relationship `MCRSalesLineDropShipment.SalesLine == SalesLine.RecId`.</span></span> <span data-ttu-id="ae953-192">Bu durumu uzatırken, `getLineQueryObject` nesnesini kendi oluşturduğunuz sorgu nesnenizle değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae953-192">While you're extending in this situation, you can replace `getLineQueryObject` with your own constructed query object.</span></span> <span data-ttu-id="ae953-193">Ancak, aşağıdaki noktaları unutmayın:</span><span class="sxs-lookup"><span data-stu-id="ae953-193">However, note the following points:</span></span>
+    <span data-ttu-id="316b9-190">Bu örnekte, bir `mcrSalesLineDropShipment` arabelleği bildirilir ve sorgu `getLineQueryObject`'te tanımlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="316b9-190">In this example, a `mcrSalesLineDropShipment` buffer is declared, and the query is defined in `getLineQueryObject`.</span></span> <span data-ttu-id="316b9-191">Sorgu `MCRSalesLineDropShipment.SalesLine == SalesLine.RecId` ilişkisini kullanır.</span><span class="sxs-lookup"><span data-stu-id="316b9-191">The query uses the relationship `MCRSalesLineDropShipment.SalesLine == SalesLine.RecId`.</span></span> <span data-ttu-id="316b9-192">Bu durumu uzatırken, `getLineQueryObject` nesnesini kendi oluşturduğunuz sorgu nesnenizle değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="316b9-192">While you're extending in this situation, you can replace `getLineQueryObject` with your own constructed query object.</span></span> <span data-ttu-id="316b9-193">Ancak, aşağıdaki noktaları unutmayın:</span><span class="sxs-lookup"><span data-stu-id="316b9-193">However, note the following points:</span></span>
 
-    * <span data-ttu-id="ae953-194">`getLineQueryObject` Yönteminin dönüş değeri `SysDaQueryObject` olduğundan, bu nesneyi SysDa yaklaşımını kullanarak oluşturmalısınız.</span><span class="sxs-lookup"><span data-stu-id="ae953-194">Because the return value of the `getLineQueryObject` method is `SysDaQueryObject`, you must construct this object by using the SysDa approach.</span></span>
-    * <span data-ttu-id="ae953-195">Var olan tablo kaldırılamıyor.</span><span class="sxs-lookup"><span data-stu-id="ae953-195">Can't remove existed table.</span></span>
+    * <span data-ttu-id="316b9-194">`getLineQueryObject` Yönteminin dönüş değeri `SysDaQueryObject` olduğundan, bu nesneyi SysDa yaklaşımını kullanarak oluşturmalısınız.</span><span class="sxs-lookup"><span data-stu-id="316b9-194">Because the return value of the `getLineQueryObject` method is `SysDaQueryObject`, you must construct this object by using the SysDa approach.</span></span>
+    * <span data-ttu-id="316b9-195">Var olan tablo kaldırılamıyor.</span><span class="sxs-lookup"><span data-stu-id="316b9-195">Can't remove existed table.</span></span>
 
-- <span data-ttu-id="ae953-196">Gerekli veriler, karmaşık birleştirme ilişkisi aracılığıyla işlem tablosuyla ilişkilendirilir veya ilişki bire bire bir (1:1) değildir bire çoktur (1: N).</span><span class="sxs-lookup"><span data-stu-id="ae953-196">The required data is related to the transaction table by a complicated join relationship, or the relation isn't one to one (1:1) but one to many (1:N).</span></span> <span data-ttu-id="ae953-197">Bu durumda, işler biraz karmaşık olacaktır.</span><span class="sxs-lookup"><span data-stu-id="ae953-197">In this situation, things become a little complicated.</span></span> <span data-ttu-id="ae953-198">Bu durum mali boyut örnekleri için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="ae953-198">This situation applies to the example of financial dimensions.</span></span> 
+- <span data-ttu-id="316b9-196">Gerekli veriler, karmaşık birleştirme ilişkisi aracılığıyla işlem tablosuyla ilişkilendirilir veya ilişki bire bire bir (1:1) değildir bire çoktur (1: N).</span><span class="sxs-lookup"><span data-stu-id="316b9-196">The required data is related to the transaction table by a complicated join relationship, or the relation isn't one to one (1:1) but one to many (1:N).</span></span> <span data-ttu-id="316b9-197">Bu durumda, işler biraz karmaşık olacaktır.</span><span class="sxs-lookup"><span data-stu-id="316b9-197">In this situation, things become a little complicated.</span></span> <span data-ttu-id="316b9-198">Bu durum mali boyut örnekleri için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="316b9-198">This situation applies to the example of financial dimensions.</span></span> 
 
-    <span data-ttu-id="ae953-199">Bu durumda, verileri almak için kendi yönteminizi uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae953-199">In this situation, you can implement your own method to retrieve the data.</span></span> <span data-ttu-id="ae953-200">`TaxIntegrationPurchTableDataRetrieval_Extension.xpp` dosyasındaki örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="ae953-200">Here is the sample code in the `TaxIntegrationPurchTableDataRetrieval_Extension.xpp` file.</span></span>
+    <span data-ttu-id="316b9-199">Bu durumda, verileri almak için kendi yönteminizi uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="316b9-199">In this situation, you can implement your own method to retrieve the data.</span></span> <span data-ttu-id="316b9-200">`TaxIntegrationPurchTableDataRetrieval_Extension.xpp` dosyasındaki örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="316b9-200">Here is the sample code in the `TaxIntegrationPurchTableDataRetrieval_Extension.xpp` file.</span></span>
 
     ```X++
     [ExtensionOf(classStr(TaxIntegrationPurchTableDataRetrieval))]
@@ -328,9 +327,9 @@ public class TaxIntegrationPurchTableDataRetrieval extends TaxIntegrationAbstrac
     }
     ```
 
-### <a name="step-3-add-data-to-the-request"></a><span data-ttu-id="ae953-201">3. Adım</span><span class="sxs-lookup"><span data-stu-id="ae953-201">Step 3.</span></span> <span data-ttu-id="ae953-202">İsteğe veri ekleme</span><span class="sxs-lookup"><span data-stu-id="ae953-202">Add data to the request</span></span>
+### <a name="step-3-add-data-to-the-request"></a><span data-ttu-id="316b9-201">3. Adım</span><span class="sxs-lookup"><span data-stu-id="316b9-201">Step 3.</span></span> <span data-ttu-id="316b9-202">İsteğe veri ekleme</span><span class="sxs-lookup"><span data-stu-id="316b9-202">Add data to the request</span></span>
 
-<span data-ttu-id="ae953-203">İstek için veri eklemek için `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject` ya da `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` yöntemini genişletebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae953-203">Extend the `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject` or `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` method to add data to the request.</span></span> <span data-ttu-id="ae953-204">`TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp` dosyasındaki örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="ae953-204">Here is the sample code in the `TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp` file.</span></span>
+<span data-ttu-id="316b9-203">İstek için veri eklemek için `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject` ya da `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` yöntemini genişletebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="316b9-203">Extend the `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject` or `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` method to add data to the request.</span></span> <span data-ttu-id="316b9-204">`TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp` dosyasındaki örnek kod aşağıdadır.</span><span class="sxs-lookup"><span data-stu-id="316b9-204">Here is the sample code in the `TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp` file.</span></span>
 
 ```X++
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
@@ -355,17 +354,17 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-<span data-ttu-id="ae953-205">Bu kodda, `_destination` gönderi isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.</span><span class="sxs-lookup"><span data-stu-id="ae953-205">In this code, `_destination` is the wrapper object that is used to generate the post request, and `_source` is the `TaxIntegrationLineObject` object.</span></span> 
+<span data-ttu-id="316b9-205">Bu kodda, `_destination` gönderi isteğini oluşturmak için kullanılan sarmalayıcı nesnedir ve `_source` `TaxIntegrationLineObject` nesnesidir.</span><span class="sxs-lookup"><span data-stu-id="316b9-205">In this code, `_destination` is the wrapper object that is used to generate the post request, and `_source` is the `TaxIntegrationLineObject` object.</span></span> 
 
 > [!NOTE]
-> * <span data-ttu-id="ae953-206">Talep formunda kullanılan anahtarı olduğu `private const str` olarak tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="ae953-206">Define the key that is used in the request form as `private const str`.</span></span>
-> * <span data-ttu-id="ae953-207">`copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` yönteminde `SetField` yöntemini kullanarak alanı ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="ae953-207">Set the field in the `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` method by using the `SetField` method.</span></span> <span data-ttu-id="ae953-208">İkinci parametrenin veri türü `string` olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="ae953-208">The data type of the second parameter should be `string`.</span></span> <span data-ttu-id="ae953-209">Veri türü `string` değilse, `string`'e dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="ae953-209">If the data type isn't `string`, convert it to `string`.</span></span>
+> * <span data-ttu-id="316b9-206">Talep formunda kullanılan anahtarı olduğu `private const str` olarak tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="316b9-206">Define the key that is used in the request form as `private const str`.</span></span>
+> * <span data-ttu-id="316b9-207">`copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` yönteminde `SetField` yöntemini kullanarak alanı ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="316b9-207">Set the field in the `copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine` method by using the `SetField` method.</span></span> <span data-ttu-id="316b9-208">İkinci parametrenin veri türü `string` olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="316b9-208">The data type of the second parameter should be `string`.</span></span> <span data-ttu-id="316b9-209">Veri türü `string` değilse, `string`'e dönüştürün.</span><span class="sxs-lookup"><span data-stu-id="316b9-209">If the data type isn't `string`, convert it to `string`.</span></span>
 
-## <a name="appendix"></a><span data-ttu-id="ae953-210">Ek</span><span class="sxs-lookup"><span data-stu-id="ae953-210">Appendix</span></span>
+## <a name="appendix"></a><span data-ttu-id="316b9-210">Ek</span><span class="sxs-lookup"><span data-stu-id="316b9-210">Appendix</span></span>
 
-<span data-ttu-id="ae953-211">Bu ekte, satır düzeyinde mali boyutların (**maliyet merkezi** ve **Proje**) tümleştirilmesi için örnek kodun tamamı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="ae953-211">This appendix shows the complete sample code for the integration of financial dimensions (**Cost center** and **Project**) at the line level.</span></span>
+<span data-ttu-id="316b9-211">Bu ekte, satır düzeyinde mali boyutların (**maliyet merkezi** ve **Proje**) tümleştirilmesi için örnek kodun tamamı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="316b9-211">This appendix shows the complete sample code for the integration of financial dimensions (**Cost center** and **Project**) at the line level.</span></span>
 
-### <a name="taxintegrationlineobject_extensionxpp"></a><span data-ttu-id="ae953-212">TaxIntegrationLineObject_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="ae953-212">TaxIntegrationLineObject_Extension.xpp</span></span>
+### <a name="taxintegrationlineobject_extensionxpp"></a><span data-ttu-id="316b9-212">TaxIntegrationLineObject_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="316b9-212">TaxIntegrationLineObject_Extension.xpp</span></span>
 
 ```X++
 [ExtensionOf(classStr(TaxIntegrationLineObject))]
@@ -412,7 +411,7 @@ final class TaxIntegrationLineObject_Extension
 }
 ```
 
-### <a name="taxintegrationpurchtabledataretrieval_extensionxpp"></a><span data-ttu-id="ae953-213">TaxIntegrationPurchTableDataRetrieval_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="ae953-213">TaxIntegrationPurchTableDataRetrieval_Extension.xpp</span></span>
+### <a name="taxintegrationpurchtabledataretrieval_extensionxpp"></a><span data-ttu-id="316b9-213">TaxIntegrationPurchTableDataRetrieval_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="316b9-213">TaxIntegrationPurchTableDataRetrieval_Extension.xpp</span></span>
 
 ```X++
 [ExtensionOf(classStr(TaxIntegrationPurchTableDataRetrieval))]
@@ -460,7 +459,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 }
 ```
 
-### <a name="taxintegrationcalculationactivityondocument_calculationservice_extensionxpp"></a><span data-ttu-id="ae953-214">TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="ae953-214">TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp</span></span>
+### <a name="taxintegrationcalculationactivityondocument_calculationservice_extensionxpp"></a><span data-ttu-id="316b9-214">TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp</span><span class="sxs-lookup"><span data-stu-id="316b9-214">TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension.xpp</span></span>
 
 ```X++
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]

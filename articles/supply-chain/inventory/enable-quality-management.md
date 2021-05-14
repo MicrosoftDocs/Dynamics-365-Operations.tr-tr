@@ -1,12 +1,12 @@
 ---
-title: Kalite yönetimine genel bakış
-description: Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Dynamics 365 Supply Chain Management'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.
+title: Kalite ve uygunsuzluk yönetimini etkinleştirme
+description: Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uygunsuzluk yönetimi özelliklerini ayarlama ve yapılandırma işlemine genel bakış sağlar.
 author: perlynne
-ms.date: 10/15/2019
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
+ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome, InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement, InventTestRelatedOperations
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 94003
@@ -16,491 +16,63 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23406f68e6ed317025a072eb3377392f0b129626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 67d5da648e31d07d054246f5d308a6c6cdeb506c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829944"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956266"
 ---
-# <a name="quality-management-overview"></a><span data-ttu-id="a24b6-103">Kalite yönetimine genel bakış</span><span class="sxs-lookup"><span data-stu-id="a24b6-103">Quality management overview</span></span>
+# <a name="enable-quality-and-nonconformance-management"></a><span data-ttu-id="6449e-103">Kalite ve uygunsuzluk yönetimini etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="6449e-103">Enable quality and nonconformance management</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a24b6-104">Bu koun, tedarik zincirinizde ürün kalitesini artırmak için Dynamics 365 Supply Chain Management'teki kalite yönetimini nasıl kullanabileceğiniz açıklar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-104">This topic describes how you can use quality management in Dynamics 365 Supply Chain Management to help improve product quality within your supply chain.</span></span>
+<span data-ttu-id="6449e-104">Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta kalite ve uygunsuzluk yönetimi özelliklerini ayarlama ve yapılandırma işlemine genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="6449e-104">This topic provides an overview of the process for setting up and configuring quality and nonconformance management features in Microsoft Dynamics 365 Supply Chain Management.</span></span>
 
-<span data-ttu-id="a24b6-105">Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-105">Quality management can help you manage turnaround times when you handle nonconforming products, regardless of their point of origin.</span></span> <span data-ttu-id="a24b6-106">Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Supply Chain Management sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-106">Because diagnostic types are linked to correction reporting, Supply Chain Management can schedule tasks to correct problems and prevent them from recurring.</span></span>
+## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a><span data-ttu-id="6449e-105">Kalite ve uygunsuzluk yönetimini etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="6449e-105">Enable quality and nonconformance management</span></span>
 
-<span data-ttu-id="a24b6-107">Uygunsuzluğu yönetmek için daha fazla işlevselliğe ek olarak, Kalite Yönetimi sorun türüne göre sorunları (hatta iç sorunları) izlemek için ve çözümleri kısa vadeli veya uzun vadeli olarak tanımlamak için işlev içerir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-107">In addition to functionality for managing nonconformance, quality management includes functionality for tracking issues by problem type (even internal problems), and for identifying solutions as short-term or long-term.</span></span> <span data-ttu-id="a24b6-108">Anahtar performans göstergeleri (APG) ile ilgili istatistikler, önceki uygunsuzluk sorunlarının geçmişi ve bunları düzeltmek için kullanılan çözümler hakkında bir anlayış sağlar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-108">Statistics about key performance indicators (KPIs) provide insight into the history of previous nonconformance issues and the solutions that were used to correct them.</span></span> <span data-ttu-id="a24b6-109">Önceki kalite ölçülerinin geçmişteki etkilerini incelemek ve ileride kullanılmaya uygun önlemleri belirlemek için geçmişe dönük verileri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-109">You can use historical data to review the effectiveness of previous quality measures and determine appropriate measures to use in the future.</span></span>
+<span data-ttu-id="6449e-106">Sisteminizde kalite yönetimini etkinleştirmek için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="6449e-106">Follow these steps to enable quality management on your system.</span></span>
 
-<span data-ttu-id="a24b6-110">Bir kalite ilişkisi ayarladığınızda, Supply Chain Management çeşitli iş süreçleri, olaylar ve koşullar için kalite emirleri oluşturabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-110">When you set up a quality association, Supply Chain Management can generate quality orders for various business processes, events, and conditions.</span></span> <span data-ttu-id="a24b6-111">Kalite ilişkisi, belirli bir madde, belirli bir madde grubu veya tüm öğeleri kapsayabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-111">The quality association can cover a specific item, a specific group of items, or all items.</span></span>
+1. <span data-ttu-id="6449e-107">**Stok yönetimi \> Kurulum \> Stok ve ambar yönetim parametreleri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="6449e-107">Go to **Inventory management \> Setup \> Inventory and warehouse management parameters**.</span></span>
+1. <span data-ttu-id="6449e-108">**Kalite yönetimi** sekmesinde, **Kalite yönetimi kullan** seçeneğini *Evet* olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6449e-108">On the **Quality management** tab, set the **Use quality management** option to *Yes*.</span></span>
+1. <span data-ttu-id="6449e-109">**Saatlik ücret** alanına saatlik işçilik ücretini yerel para birimi cinsinden girin.</span><span class="sxs-lookup"><span data-stu-id="6449e-109">In the **Hourly rate** field, enter an hourly labor rate in the local currency.</span></span> <span data-ttu-id="6449e-110">Saatlik ücret, uygunsuzlukla ilgili operasyonlar için maliyetlerin hesaplanmasında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6449e-110">The hourly rate is used to calculate costs for operations that are related to a nonconformance.</span></span> <span data-ttu-id="6449e-111">Saatlik ücret ve hesaplanan maliyetler bir uyumsuzluk için referans bilgileri sağlar.</span><span class="sxs-lookup"><span data-stu-id="6449e-111">The hourly rate and calculated costs provide reference information for a nonconformance.</span></span> <span data-ttu-id="6449e-112">Diğer işlevlerle bir etkileşimi yoktur.</span><span class="sxs-lookup"><span data-stu-id="6449e-112">They don't interact with other functionality.</span></span>
+1. <span data-ttu-id="6449e-113">**Rapor kurulumu**'nu seçin.</span><span class="sxs-lookup"><span data-stu-id="6449e-113">Select **Report setup**.</span></span>
+1. <span data-ttu-id="6449e-114">Çeşitli rapor türleri için yeni satırlar ekleyin ve her raporda kullanılacak belge türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="6449e-114">Add new lines for the various report types, and select the type of document to use for each report.</span></span>
+1. <span data-ttu-id="6449e-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6449e-115">Close the page.</span></span>
+1. <span data-ttu-id="6449e-116">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6449e-116">Close the page.</span></span>
 
-## <a name="examples-of-the-use-of-quality-management"></a><span data-ttu-id="a24b6-112">Kalite yönetimi kullanımına örnekler</span><span class="sxs-lookup"><span data-stu-id="a24b6-112">Examples of the use of quality management</span></span>
-<span data-ttu-id="a24b6-113">Kalite Yönetimi esnektir ve tedarik zinciri işlemlerinin belirli düzeylerdeki gereksinimlerini karşılamak için çeşitli şekillerde uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-113">Quality management is flexible and can be implemented in various ways to meet the requirements of specific levels of supply chain operations.</span></span> <span data-ttu-id="a24b6-114">Aşağıdaki örneklerde, bu özelliklerin olası kullanımı gösterilmektedir:</span><span class="sxs-lookup"><span data-stu-id="a24b6-114">The following examples illustrate possible uses of these features:</span></span>
+## <a name="quality-management-configuration-process"></a><span data-ttu-id="6449e-117">Kalite yönetimini yapılandırma işlemi</span><span class="sxs-lookup"><span data-stu-id="6449e-117">Quality management configuration process</span></span>
 
--   <span data-ttu-id="a24b6-115">Önceden tanımlanmış ölçütlere (belirli bir satıcı satınalma siparişinden, ambar kaydı) dayalı bir kalite kontrol işlemini otomatik olarak başlatın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-115">Automatically start a quality control process, based on predefined criteria (upon warehouse registration of a purchase order from a specific vendor).</span></span>
--   <span data-ttu-id="a24b6-116">Onaylanmamış stokun kullanılmasını engellemek için inceleme sırasında stoku bloklayın(Tüm satınalma siparişi miktarlarını engelleme).</span><span class="sxs-lookup"><span data-stu-id="a24b6-116">Block inventory during inspection to prevent non-approved inventory from being used (full blocking of purchase order quantities).</span></span>
--   <span data-ttu-id="a24b6-117">Madde örneklemeyi kalite ilişkilendirmesinin bir parçası olarak, denetlenmesi gereken geçerli fiziksel stok miktarını tanımlamak için kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-117">Use item sampling as part of a quality association to define the amount of current physical inventory that must be inspected.</span></span> <span data-ttu-id="a24b6-118">Örnekleme miktar, yüzde veya tam plaka tabanlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-118">Sampling can be based on fixed quantities, a percentage, or full license plate.</span></span>
+<span data-ttu-id="6449e-118">Kalite yönetimi özelliklerini kullanmaya ve kalite emirleri oluşturmaya başlamadan önce, sistemi ve önkoşulları yapılandırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6449e-118">Before you can start to use the quality management features and generate quality orders, you must configure the system and prerequisites.</span></span> <span data-ttu-id="6449e-119">Kalite yönetimini yapılandırmak için gerekli adımların listesini aşağıda bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6449e-119">Here is a list of the steps that are required to configure quality management.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="a24b6-119">_Ambar işlemleri için kalite yöntemleri_ özelliği, kalite yönetimi özelliğinin yeteneklerini genişletir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-119">The _Quality management for warehouse processes_ feature extends the capabilities of quality management.</span></span> <span data-ttu-id="a24b6-120">Bu özelliği kullanıyorsanız, kalite yönetiminin etkinleştirildiğinde nasıl çalıştığına ilişkin örnekler için [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md)'ne bakın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-120">If you are using this feature, then see [Quality management for warehouse processes](quality-management-for-warehouses-processes.md) for examples of how quality management works when it's enabled.</span></span>
+1. <span data-ttu-id="6449e-120">[Kalite ve uygunsuzluk yönetimini etkinleştirme](#enable-qm).</span><span class="sxs-lookup"><span data-stu-id="6449e-120">[Enable quality and nonconformance management](#enable-qm).</span></span>
+1. <span data-ttu-id="6449e-121">İsteğe bağlı: [Test araçlarını yapılandırma](quality-test-instruments.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-121">Optional: [Configure test instruments](quality-test-instruments.md).</span></span>
+1. <span data-ttu-id="6449e-122">[Testleri yapılandırma](quality-tests.md)</span><span class="sxs-lookup"><span data-stu-id="6449e-122">[Configure tests](quality-tests.md).</span></span>
+1. <span data-ttu-id="6449e-123">[Test değişkenlerini ve sonuçları yapılandırma](quality-test-variables.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-123">[Configure test variables and outcomes](quality-test-variables.md).</span></span>
+1. <span data-ttu-id="6449e-124">[Test gruplarını yapılandırma](quality-test-groups.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-124">[Configure test groups](quality-test-groups.md).</span></span>
+1. <span data-ttu-id="6449e-125">İsteğe bağlı: [Kalite gruplarını yapılandırma ve ürünlerle ilişkilendirme](quality-groups.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-125">Optional: [Configure quality groups, and link to products](quality-groups.md).</span></span>
+1. <span data-ttu-id="6449e-126">İsteğe bağlı: [Kalite ilişkilendirmelerini yapılandırma](quality-associations.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-126">Optional: [Configure quality associations](quality-associations.md).</span></span>
 
--   <span data-ttu-id="a24b6-121">Kısmi alış irsaliyeleri için kalite emirleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="a24b6-121">Create quality orders for partial receipts.</span></span> <span data-ttu-id="a24b6-122">Bir siparişten fiziksel olarak alına miktara bağlı olarak oluşturulan bir kalite emri oluşturmak için **Madde örnekleme** formundaki **Güncelleştirilen miktar başına** onay kutusunu seçmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-122">To create a quality order that is based on the quantity that is physically received with an order, you must select the **Per updated quantity** check box on the **Item sampling** form.</span></span>
--   <span data-ttu-id="a24b6-123">Minimum, maksimum ve hedef test değerleri içeren test türleri oluşturun ve doğrulama sonuçları önceden tanımlanmış olan niteliğe karşı nicelik sınamaları gerçekleştirin.</span><span class="sxs-lookup"><span data-stu-id="a24b6-123">Create test types that include minimum, maximum, and target test values, and perform qualitative-versus-quantitative testing that has predefined validation results.</span></span>
--   <span data-ttu-id="a24b6-124">Kalite Ölçüm toleranslarını kontrol etmek için bir kabul edilebilir kalite düzeyi (AQL) belirtin.</span><span class="sxs-lookup"><span data-stu-id="a24b6-124">Specify an acceptable quality level (AQL) to control quality measure tolerances.</span></span>
--   <span data-ttu-id="a24b6-125">Denetleme işlemi için gereken test alanı ve test aletleri gibi kaynakları belirtin.</span><span class="sxs-lookup"><span data-stu-id="a24b6-125">Specify the resources that an inspection operation requires, such as a test area and test instruments.</span></span>
+<span data-ttu-id="6449e-127">Yapılandırma tamamlandıktan sonra, kalite emirleri oluşturmaya ve işlemeye başlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6449e-127">After the configuration is completed, you can start to create and process quality orders.</span></span> <span data-ttu-id="6449e-128">Kalite emirleriyle çalışma hakkında daha fazla bilgi için bkz. [Kalite emirleri](quality-orders.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-128">For more information about how to create and work with quality orders, see [Quality orders](quality-orders.md).</span></span>
 
-## <a name="working-with-quality-associations"></a><span data-ttu-id="a24b6-126">Kalite ilişkileri ile çalışmak</span><span class="sxs-lookup"><span data-stu-id="a24b6-126">Working with quality associations</span></span>
-<span data-ttu-id="a24b6-127">Kalite ilişkisini kullanan iş süreci, satınalma siparişleri, satış siparişleri veya üretim emirleri gibi çeşitli kaynak belgelere ilişkili olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-127">The business process that uses a quality association can be related to various source documents, such as purchase orders, sales orders, or production orders.</span></span>
+## <a name="nonconformance-management-configuration-process"></a><span data-ttu-id="6449e-129">Uygunsuzluk yönetimini yapılandırma işlemi</span><span class="sxs-lookup"><span data-stu-id="6449e-129">Nonconformance management configuration process</span></span>
 
-<span data-ttu-id="a24b6-128">Her kalite bağlantısı kaydı oluşturulan kalite emirlerine geçerli olacak testler kümesini, AQL'yi ve örnek alma planını da tanımlamaktadır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-128">Each quality association record defines the set of tests, the AQL, and the sampling plan that applies to the quality orders that are generated.</span></span> <span data-ttu-id="a24b6-129">Bir iş sürecindeki her değişim için bir kalite ilişkisi kaydı tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-129">You must define a quality association record for each variation in a business process.</span></span> <span data-ttu-id="a24b6-130">Örneğin, bir satınalma siparişi ürün alış irsaliyesi güncelleştirildiğinde, kalite emri oluşturacak bir kalite ilişkisi ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-130">For example, you can set up a quality association that generates a quality order when a purchase order product receipt is updated.</span></span> <span data-ttu-id="a24b6-131">Yürütme planı kurulumuna bağlı olarak, açık bir kalite emri yok ya da satınalma siparişi faturalama gibi sonraki işlemler, engellenen tetikleyici işlem engellenebilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-131">Depending on the setup of the execution plan, the triggering process itself can be blocked while there is an open quality order, or the next processes, such as purchase order invoicing, can be blocked.</span></span>
+<span data-ttu-id="6449e-130">Uygunsuzluk yönetimi özelliklerini kullanmaya ve uygunsuzluklar oluşturmaya başlamadan önce, sistemi ve önkoşulları yapılandırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6449e-130">Before you can start to use the nonconformance management features and generate nonconformances, you must configure the system and prerequisites.</span></span> <span data-ttu-id="6449e-131">Uygunsuzluk yönetimini yapılandırmak için gerekli adımların listesini aşağıda bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6449e-131">Here is a list of the steps that are required to configure nonconformance management.</span></span>
 
-<span data-ttu-id="a24b6-132">**Not:** Açık kalite emirleri olduğunda, stok miktarlarının çıkarılması otomatik olarak engellenir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-132">**Note:** While there are open quality orders, inventory quantities are automatically blocked from being issued.</span></span> <span data-ttu-id="a24b6-133">**Madde örnekleri** sayfasında bulunan **Tam engelleme** ayarına bağlı olarak, miktar kalite emrindeki miktardır ya da kaynak belge satırındaki miktardır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-133">Depending on the **Full blocking** setting on the **Item samplings** page, the quantity is either the quantity on the quality order or the quantity on the source document line.</span></span>
+1. <span data-ttu-id="6449e-132">[Kalite ve uygunsuzluk yönetimini etkinleştirme](#enable-qm).</span><span class="sxs-lookup"><span data-stu-id="6449e-132">[Enable quality and nonconformance management](#enable-qm).</span></span>
+1. <span data-ttu-id="6449e-133">[Uygunsuzlukları onaylamaktan sorumlu çalışanları yapılandırma](quality-responsible-workers.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-133">[Configure workers who are responsible for approving nonconformances](quality-responsible-workers.md).</span></span>
+1. <span data-ttu-id="6449e-134">[Sorunlu türlerini yapılandırma](quality-problem-types.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-134">[Configure problem types](quality-problem-types.md).</span></span>
+1. <span data-ttu-id="6449e-135">[Karantina bölgelerini yapılandırma](quality-quarantine-zones.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-135">[Configure quarantine zones](quality-quarantine-zones.md).</span></span>
+1. <span data-ttu-id="6449e-136">[Tanılama türlerini yapılandırma](quality-diagnostic-types.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-136">[Configure diagnostic types](quality-diagnostic-types.md).</span></span>
+1. <span data-ttu-id="6449e-137">[İşlemleri yapılandırma](quality-operations.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-137">[Configure operations](quality-operations.md).</span></span>
+1. <span data-ttu-id="6449e-138">İsteğe bağlı: [Kalite giderlerini yapılandırma](quality-charges.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-138">Optional: [Configure quality charges](quality-charges.md).</span></span>
 
-<span data-ttu-id="a24b6-134">Bir iş süreci için, kalite ilişkisi kaydı, kalite emrinin oluşturulduğu olay ve koşulları tanımlar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-134">For a given business process, the quality association record identifies the event and the conditions that a quality order is generated for.</span></span> <span data-ttu-id="a24b6-135">Koşullar bir siteye veya bir tüzel kişiliğe özel olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-135">The conditions can be specific to either a site or a legal entity.</span></span> <span data-ttu-id="a24b6-136">Bozucu testler içeren bir kalite emri yalnızca olay için eldeki stok bulunması durumunda oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-136">A quality order that involves destructive tests can be generated only when on-hand inventory exists for the event.</span></span>
+<span data-ttu-id="6449e-139">Yapılandırma tamamlandıktan sonra, uygunsuzluklar oluşturmaya ve işlemeye başlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6449e-139">After the configuration is completed, you can start to create and process nonconformances.</span></span> <span data-ttu-id="6449e-140">Uygunsuzluk oluşturma ve bunlarla çalışma hakkında daha fazla bilgi için bkz. [Uygunsuzluklar oluşturma ve işleme](tasks/create-process-non-conformance.md).</span><span class="sxs-lookup"><span data-stu-id="6449e-140">For more information about how to create and work with nonconformances, see [Create and process nonconformances](tasks/create-process-non-conformance.md).</span></span>
 
-<span data-ttu-id="a24b6-137">Aşağıdaki örnekler, her iş sürecindeki değişiklikler için bir kalite bağlantısını tanımlamayı açıklar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-137">The following examples illustrate how a quality association record is defined for the variations in each business process.</span></span> <span data-ttu-id="a24b6-138">Her örnek için, aşağıdaki tablo kalite ilişki kaydındaki olayları ve durumları özetler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-138">For each example, the following table summarizes the events and conditions that are defined by a quality association record.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6449e-141">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="6449e-141">Additional resources</span></span>
 
-<table>
-<tbody>
-<tr>
-<th><span data-ttu-id="a24b6-139">Referans türü</span><span class="sxs-lookup"><span data-stu-id="a24b6-139">Reference type</span></span></th>
-<th><span data-ttu-id="a24b6-140">Olay türü</span><span class="sxs-lookup"><span data-stu-id="a24b6-140">Event type</span></span></th>
-<th><span data-ttu-id="a24b6-141">Yürütme</span><span class="sxs-lookup"><span data-stu-id="a24b6-141">Execution</span></span></th>
-<th><span data-ttu-id="a24b6-142">Olay durdurma</span><span class="sxs-lookup"><span data-stu-id="a24b6-142">Event blocking</span></span></th>
-<th><span data-ttu-id="a24b6-143">Belge başvurusu</span><span class="sxs-lookup"><span data-stu-id="a24b6-143">Document reference</span></span></th>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-144">Stok</span><span class="sxs-lookup"><span data-stu-id="a24b6-144">Inventory</span></span></td>
-<td><span data-ttu-id="a24b6-145">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="a24b6-145">Not applicable</span></span></td>
-<td><span data-ttu-id="a24b6-146">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="a24b6-146">Not applicable</span></span></td>
-<td><span data-ttu-id="a24b6-147">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-147">None</span></span></td>
-<td><span data-ttu-id="a24b6-148">Tümü</span><span class="sxs-lookup"><span data-stu-id="a24b6-148">All</span></span></td>
-</tr>
-<tr>
-<td rowspan="7"><span data-ttu-id="a24b6-149">Satışlar</span><span class="sxs-lookup"><span data-stu-id="a24b6-149">Sales</span></span></td>
-<td rowspan="4"><span data-ttu-id="a24b6-150">Malzeme çekme işlemi planlandı</span><span class="sxs-lookup"><span data-stu-id="a24b6-150">Picking process is scheduled</span></span></td>
-<td rowspan="4"><span data-ttu-id="a24b6-151">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-151">Before</span></span></td>
-<td><span data-ttu-id="a24b6-152">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-152">None</span></span></td>
-<td rowspan="22"><span data-ttu-id="a24b6-153">Belirli Kimlik, Grup veya Yalnızca tümü</span><span class="sxs-lookup"><span data-stu-id="a24b6-153">Specific ID, Group, or All only</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-154">Malzeme çekme işlemi</span><span class="sxs-lookup"><span data-stu-id="a24b6-154">Picking process</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-155">Sevk irsaliyesi</span><span class="sxs-lookup"><span data-stu-id="a24b6-155">Packing slip</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-156">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-156">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="3"><span data-ttu-id="a24b6-157">Sevk irsaliyesi</span><span class="sxs-lookup"><span data-stu-id="a24b6-157">Packing slip</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-158">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-158">Before</span></span></td>
-<td><span data-ttu-id="a24b6-159">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-159">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-160">Sevk irsaliyesi</span><span class="sxs-lookup"><span data-stu-id="a24b6-160">Packing slip</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-161">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-161">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="15"><span data-ttu-id="a24b6-162">Satınalma</span><span class="sxs-lookup"><span data-stu-id="a24b6-162">Purchase</span></span></td>
-<td rowspan="7"><span data-ttu-id="a24b6-163">Giriş listesi</span><span class="sxs-lookup"><span data-stu-id="a24b6-163">Receipt list</span></span></td>
-<td rowspan="4"><span data-ttu-id="a24b6-164">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-164">Before</span></span></td>
-<td><span data-ttu-id="a24b6-165">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-165">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-166">Giriş listesi</span><span class="sxs-lookup"><span data-stu-id="a24b6-166">Receipt list</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-167">Ürün girişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-167">Product receipt</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-168">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-168">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="3"><span data-ttu-id="a24b6-169">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-169">After</span></span></td>
-<td><span data-ttu-id="a24b6-170">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-170">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-171">Ürün girişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-171">Product receipt</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-172">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-172">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="3"><span data-ttu-id="a24b6-173">Kayıt</span><span class="sxs-lookup"><span data-stu-id="a24b6-173">Registration</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-174">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="a24b6-174">Not applicable</span></span></td>
-<td><span data-ttu-id="a24b6-175">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-175">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-176">Ürün girişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-176">Product receipt</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-177">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-177">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="5"><span data-ttu-id="a24b6-178">Ürün girişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-178">Product receipt</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-179">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-179">Before</span></span></td>
-<td><span data-ttu-id="a24b6-180">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-180">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-181">Ürün girişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-181">Product receipt</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-182">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-182">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="2"><span data-ttu-id="a24b6-183">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-183">After</span></span></td>
-<td><span data-ttu-id="a24b6-184">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-184">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-185">Fatura</span><span class="sxs-lookup"><span data-stu-id="a24b6-185">Invoice</span></span></td>
-</tr>
-<tr>
-<td rowspan="8"><span data-ttu-id="a24b6-186">Üretim</span><span class="sxs-lookup"><span data-stu-id="a24b6-186">Production</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-187">Kayıt</span><span class="sxs-lookup"><span data-stu-id="a24b6-187">Registration</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-188">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="a24b6-188">Not applicable</span></span></td>
-<td><span data-ttu-id="a24b6-189">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-189">None</span></span></td>
-<td rowspan="12"><span data-ttu-id="a24b6-190">Tümü</span><span class="sxs-lookup"><span data-stu-id="a24b6-190">All</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-191">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-191">Report as finished</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-192">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-192">End</span></span></td>
-</tr>
-<tr>
-<td rowspan="5"><span data-ttu-id="a24b6-193">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-193">Report as finished</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-194">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-194">Before</span></span></td>
-<td><span data-ttu-id="a24b6-195">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-195">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-196">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-196">Report as finished</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-197">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-197">End</span></span></td>
-</tr>
-<tr>
-<td rowspan="2"><span data-ttu-id="a24b6-198">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-198">After</span></span></td>
-<td><span data-ttu-id="a24b6-199">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-199">None</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-200">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-200">End</span></span></td>
-</tr>
-<tr>
-<td rowspan="4"><span data-ttu-id="a24b6-201">Karantina</span><span class="sxs-lookup"><span data-stu-id="a24b6-201">Quarantine</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-202">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-202">Report as finished</span></span></td>
-<td rowspan="2"><span data-ttu-id="a24b6-203">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-203">Before</span></span></td>
-<td><span data-ttu-id="a24b6-204">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-204">Report as finished</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-205">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-205">End</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-206">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-206">After</span></span></td>
-<td><span data-ttu-id="a24b6-207">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-207">End</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-208">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-208">End</span></span></td>
-<td><span data-ttu-id="a24b6-209">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-209">Before</span></span></td>
-<td><span data-ttu-id="a24b6-210">Bitir</span><span class="sxs-lookup"><span data-stu-id="a24b6-210">End</span></span></td>
-</tr>
-<tr>
-<td rowspan="3"><span data-ttu-id="a24b6-211">Rota operasyonu</span><span class="sxs-lookup"><span data-stu-id="a24b6-211">Route operation</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-212">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-212">Report as finished</span></span></td>
-<td rowspan="2"><span data-ttu-id="a24b6-213">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-213">Before</span></span></td>
-<td><span data-ttu-id="a24b6-214">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-214">None</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-215">Belirli Kimlik, Grup veya Tümü ve Kaynağa özel, Grup veya Tümü</span><span class="sxs-lookup"><span data-stu-id="a24b6-215">Specific ID, Group, or All, and Resource specific, Group, or All</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-216">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-216">Report as finished</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-217">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-217">After</span></span></td>
-<td><span data-ttu-id="a24b6-218">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-218">None</span></span></td>
-</tr>
-<tr>
-<td rowspan="3"><span data-ttu-id="a24b6-219">Ortak ürün üretimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-219">Co-product production</span></span></td>
-<td><span data-ttu-id="a24b6-220">Kayıt</span><span class="sxs-lookup"><span data-stu-id="a24b6-220">Registration</span></span></td>
-<td><span data-ttu-id="a24b6-221">Geçerli değil</span><span class="sxs-lookup"><span data-stu-id="a24b6-221">Not applicable</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-222">Yok</span><span class="sxs-lookup"><span data-stu-id="a24b6-222">None</span></span></td>
-<td rowspan="3"><span data-ttu-id="a24b6-223">Tümü</span><span class="sxs-lookup"><span data-stu-id="a24b6-223">All</span></span></td>
-</tr>
-<tr>
-<td rowspan="2"><span data-ttu-id="a24b6-224">Tamamlandı bildirimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-224">Report as finished</span></span></td>
-<td><span data-ttu-id="a24b6-225">Önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-225">Before</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-226">Sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-226">After</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="a24b6-227">Aşağıdaki tabloda belirli türde işlemler için kalite emirlerinin nasıl oluşturulabileceği hakkında daha fazla bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-227">The following table provides more information about how quality orders can be generated for specific types of processes.</span></span>
-<div class="tableSection">
-
-<table>
-<tbody>
-<tr>
-<th><span data-ttu-id="a24b6-228">İşleme türü</span><span class="sxs-lookup"><span data-stu-id="a24b6-228">Type of process</span></span></th>
-<th><span data-ttu-id="a24b6-229">Kalite emirlerinin ne zaman otomatik olarak oluşturulabileceği</span><span class="sxs-lookup"><span data-stu-id="a24b6-229">When quality orders can be automatically generated</span></span></th>
-<th><span data-ttu-id="a24b6-230">Bozucu sınama yapılması gerekirse kalite emirlerinin ne zaman oluşturulabileceği</span><span class="sxs-lookup"><span data-stu-id="a24b6-230">When quality orders can be generated if destructive testing is required</span></span></th>
-<th><span data-ttu-id="a24b6-231">Koşul bilgisi</span><span class="sxs-lookup"><span data-stu-id="a24b6-231">Condition information</span></span></th>
-<th><span data-ttu-id="a24b6-232">El ile oluşturma bilgisi</span><span class="sxs-lookup"><span data-stu-id="a24b6-232">Manual generation information</span></span></th>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-233">Satın alma siparişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-233">Purchase order</span></span></td>
-<td><span data-ttu-id="a24b6-234">Alınan malzeme için ürün girişi ya da giriş listesi nakledildikten önce veya sonra.</span><span class="sxs-lookup"><span data-stu-id="a24b6-234">Before or after a receipts list or product receipt for the material that is received is posted</span></span></td>
-<td><span data-ttu-id="a24b6-235">Alınan malzeme için ürün girişi nakledildikten sonra, çünkü malzemenin bozucu test için mevcut olması gerekmektedir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-235">After the product receipt for the material that is received is posted, because the material must be available for destructive testing</span></span></td>
-<td><span data-ttu-id="a24b6-236">Kalite emri gereksinimi özel bir tesisi, maddeyi veya satıcıyı ya da bunların bir birleşimini yansıtabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-236">The requirement for a quality order can reflect a particular site, item, or vendor, or a combination of these conditions.</span></span></td>
-<td><span data-ttu-id="a24b6-237">Bir satınalma siparişine gönderme yapan ve el ile oluşturulmuş bir kalite emri, tasarlanmış örnek alma planı gibi, bir kalite bağlantısı kaydında bulunan bilgileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-237">A manually generated quality order that refers to a purchase order can use information in a quality association record, such as the test sampling plan.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-238">Karantina emri</span><span class="sxs-lookup"><span data-stu-id="a24b6-238">Quarantine order</span></span></td>
-<td><span data-ttu-id="a24b6-239">Karantina siparişi tamamlandı veya sona erdi olarak bildirildikten önce veya sonra.</span><span class="sxs-lookup"><span data-stu-id="a24b6-239">Before or after the quarantine order is reported as finished or ended</span></span></td>
-<td><span data-ttu-id="a24b6-240">Yıkıcı testler gerektiren kalite emirleri oluşturulamaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-240">Quality orders that require destructive tests can&#39;t be generated.</span></span> <span data-ttu-id="a24b6-241">Karantina siparişi işlevinin, yok edilen malzemenin değerlendirmesini üstleneceği kabul edilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-241">It&#39;s assumed that the quarantine order functionality handles the disposition of the material that is destroyed.</span></span></td>
-<td><span data-ttu-id="a24b6-242">Kalite emri gereksinimi özel bir tesisi, maddeyi veya satıcıyı ya da bunların bir birleşimini yansıtabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-242">The requirement for a quality order can reflect a particular site, item, or vendor, or a combination of these conditions.</span></span></td>
-<td><span data-ttu-id="a24b6-243">Bir karantina siparişine gönderme yapan ve el ile oluşturulmuş bir kalite emri, tasarlanmış örnek alma planı gibi, bir kalite bağlantısı kaydında bulunan bilgileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-243">A manually generated quality order that refers to a quarantine order can use information in a quality association record, such as the test sampling plan.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-244">Satış siparişi</span><span class="sxs-lookup"><span data-stu-id="a24b6-244">Sales order</span></span></td>
-<td><span data-ttu-id="a24b6-245">Bir zamanlanmış malzeme çekme işlem veya sevk irsaliyesi güncelleştirmesi sevk maddeler için önce</span><span class="sxs-lookup"><span data-stu-id="a24b6-245">Before a scheduled picking process or packing slip update for the items that are being shipped</span></span></td>
-<td><span data-ttu-id="a24b6-246">Herhangi bir adımda</span><span class="sxs-lookup"><span data-stu-id="a24b6-246">At any step</span></span></td>
-<td><span data-ttu-id="a24b6-247">Kalite emri gereksinimi özel bir tesisi, maddeyi veya satıcıyı ya da bunların bir birleşimini yansıtabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-247">The requirement for a quality order can reflect a particular site, item, or customer, or a combination of these conditions.</span></span></td>
-<td><span data-ttu-id="a24b6-248">Bir satış siparişine gönderme yapan ve el ile oluşturulmuş bir kalite emri, tasarlanmış örnek alma planı gibi, bir kalite bağlantısı kaydında bulunan bilgileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-248">A manually generated quality order that refers to a sales order can use information in a quality association record, such as the test sampling plan.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-249">Üretim emri</span><span class="sxs-lookup"><span data-stu-id="a24b6-249">Production order</span></span></td>
-<td><span data-ttu-id="a24b6-250">Üretim emri için bitmiş miktar rapor edildikten önce veya sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-250">Before or after the finished quantity for the production order is reported</span></span></td>
-<td><span data-ttu-id="a24b6-251">Üretim emri için bitmiş miktar rapor edildikten sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-251">After the finished quantity for the production order is reported</span></span></td>
-<td><span data-ttu-id="a24b6-252">Kalite emri gereksinimi özel bir tesisi, maddeyi veya satıcıyı ya da bunların bir birleşimini yansıtabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-252">The requirement for a quality order can reflect a particular site or item, or a combination of these conditions.</span></span></td>
-<td><span data-ttu-id="a24b6-253">Bir üretim emrine gönderme yapan ve el ile oluşturulmuş bir kalite emri, tasarlanmış örnek alma planı gibi, bir kalite bağlantısı kaydında bulunan bilgileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-253">A manually generated quality order that refers to a production order can use information in a quality association record, such as the test sampling plan.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-254">Bir rota operasyonuna sahip olan üretim emri</span><span class="sxs-lookup"><span data-stu-id="a24b6-254">Production order that has a route operation</span></span></td>
-<td><span data-ttu-id="a24b6-255">Bir operasyon için bir rapor sona erdikten önce veya sonra</span><span class="sxs-lookup"><span data-stu-id="a24b6-255">Before or after the report is finished for an operation</span></span></td>
-<td><span data-ttu-id="a24b6-256">Son operasyon için raporlama üretimi bittikten sonra.</span><span class="sxs-lookup"><span data-stu-id="a24b6-256">After the reporting production is finished for the last operation</span></span></td>
-<td><span data-ttu-id="a24b6-257">Kalite emri gereksinimi özel bir tesisi, maddeyi veya operasyon kaynağı ya da bunların bir birleşimini yansıtabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-257">The requirement for a quality order can reflect a particular, site, item, or operations resource, or a combination of these conditions.</span></span></td>
-<td><span data-ttu-id="a24b6-258">Bir rota operasyonu gönderme yapan ve el ile oluşturulmuş bir kalite emri, tasarlanmış örnek alma planı gibi, bir kalite bağlantısı kaydında bulunan bilgileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-258">A manually generated quality order that refers to a route operation can use information in a quality association record, such as the test sampling plan.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-259">Stok</span><span class="sxs-lookup"><span data-stu-id="a24b6-259">Inventory</span></span></td>
-<td><span data-ttu-id="a24b6-260">Bir kalite emri, transfer emri hareketleri veya bir stok günlüğünde bir hareket için otomatik olarak oluşturulamaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-260">A quality order cannot be automatically generated for a transaction in an inventory journal or for transfer order transactions.</span></span></td>
-<td></td>
-<td></td>
-<td><span data-ttu-id="a24b6-261">Bir kalite emrinin bir maddenin stok miktarı için el ile oluşturulması gerekir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-261">A quality order must be created manually for an item&#39;s inventory quantity.</span></span> <span data-ttu-id="a24b6-262">Fiziksel eldeki stok gereklidir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-262">Physical on-hand inventory is required.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="quality-order-auto-generation-examples"></a><span data-ttu-id="a24b6-263">Kalite emri otomatik oluşturma örnekleri</span><span class="sxs-lookup"><span data-stu-id="a24b6-263">Quality order auto-generation examples</span></span>
-
-### <a name="purchasing"></a><span data-ttu-id="a24b6-264">Satınalma</span><span class="sxs-lookup"><span data-stu-id="a24b6-264">Purchasing</span></span>
-
-<span data-ttu-id="a24b6-265">Satınalmada, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanını **Ürün girişi** ve **Yürütme** alanını **Sonra** olarak ayarlarsanız aşağıdaki sonuçları elde edersiniz:</span><span class="sxs-lookup"><span data-stu-id="a24b6-265">In purchasing, if you set the **Event type** field to **Product receipt** and the **Execution** field to **After** on the **Quality associations** page, you get the following results:</span></span> 
-
-- <span data-ttu-id="a24b6-266">**Güncelleştirilen miktar başına** seçeneği **Evet** olarak ayarlanmışsa, madde örneklemesindeki teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili her giriş için bir kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-266">If the **Per updated quantity** option is set to **Yes**, a quality order is generated for every receipt against the purchase order, based on the received quantity and settings in the item sampling.</span></span> <span data-ttu-id="a24b6-267">Satınalma siparişine göre bir miktar her teslim alındığında, yeni teslim alınan miktar temel alınarak geçerli kalite emirleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-267">Every time that a quantity is received against the purchase order, new quality orders are generated based on the newly received quantity.</span></span>
-- <span data-ttu-id="a24b6-268">**Güncelleştirilen miktar başına** seçeneği **Hayır** olarak ayarlanmışsa, teslim alınan miktar ve ayarlar temel alınarak satınalma siparişiyle ilgili ilk giriş için bir kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-268">If the **Per updated quantity** option is set to **No**, a quality order is generated for the first receipt against the purchase order, based on the received quantity.</span></span> <span data-ttu-id="a24b6-269">Ayrıca, izleme boyutlarına bağlı olarak kalan miktar temel alınarak bir veya daha fazla kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-269">Additionally, one or more quality orders are created based on the remaining quantity, depending on the tracking dimensions.</span></span> <span data-ttu-id="a24b6-270">Satınalma siparişiyle ilgili sonraki girişler için kalite emirleri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-270">Quality orders aren't generated for subsequent receipts against the purchase order.</span></span>
-
-### <a name="production"></a><span data-ttu-id="a24b6-271">Üretim</span><span class="sxs-lookup"><span data-stu-id="a24b6-271">Production</span></span>
-
-<span data-ttu-id="a24b6-272">Üretimde, **Kalite ilişkilendirmeleri** sayfasında **Olay türü** alanını **Tamamlandı olarak bildir** ve **Yürütme** alanını **Sonra** olarak ayarlarsanız aşağıdaki sonuçları elde edersiniz:</span><span class="sxs-lookup"><span data-stu-id="a24b6-272">In production, if you set the **Event type** field to **Report as finished** and the **Execution** field to **After** on the **Quality associations** page, you get the following results:</span></span>
-
-- <span data-ttu-id="a24b6-273">**Güncelleştirilen miktar başına** seçeneği **Evet** olarak ayarlanmışsa, madde örneklemesindeki her tamamlanan miktar için bir kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-273">If the **Per updated quantity** option is set to **Yes**, a quality order is generated based on every finished quantity and settings in the item sampling.</span></span> <span data-ttu-id="a24b6-274">Üretim emrine göre bir miktar her tamamlandı olarak bildirildiğinde, yeni tamamlanan miktar temel alınarak geçerli kalite emirleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-274">Every time that a quantity is reported as finished against the production order, new quality orders are generated based on newly finished quantity.</span></span> <span data-ttu-id="a24b6-275">Bu oluşturma mantığı satın alma ile tutarlıdır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-275">This generation logic is consistent with purchasing.</span></span>
-- <span data-ttu-id="a24b6-276">**Güncelleştirilen miktar başına** seçeneği **Hayır** olarak ayarlanmışsa, tamamlanan miktar temel alınarak bir miktar ilk kez tamamlandı olarak bildirildiğinde bir kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-276">If the **Per updated quantity** option is set to **No**, a quality order is generated the first time that a quantity is reported as finished, based on the finished quantity.</span></span> <span data-ttu-id="a24b6-277">Ayrıca, madde örneklemesinin izleme boyutlarına bağlı olarak kalan miktar temel alınarak bir veya daha fazla kalite emri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a24b6-277">Additionally, one or more quality orders are created based on the remaining quantity, depending on the tracking dimensions of the item sampling.</span></span> <span data-ttu-id="a24b6-278">Sonraki tamamlanan miktarlar için kalite emirleri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-278">Quality orders aren't generated for subsequent finished quantities.</span></span>
-
-<table>
-<tbody>
-<tr>
-<th><span data-ttu-id="a24b6-279">Kalite belirtimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-279">Quality specification</span></span></th>
-<th><span data-ttu-id="a24b6-280">Güncelleştirilen miktar başına</span><span class="sxs-lookup"><span data-stu-id="a24b6-280">Per updated quantity</span></span></th>
-<th><span data-ttu-id="a24b6-281">İzleme boyutu başına</span><span class="sxs-lookup"><span data-stu-id="a24b6-281">Per tracking dimension</span></span></th>
-<th><span data-ttu-id="a24b6-282">Sonuç</span><span class="sxs-lookup"><span data-stu-id="a24b6-282">Result</span></span></th>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-283">Yüzde: %10</span><span class="sxs-lookup"><span data-stu-id="a24b6-283">Percentage: 10%</span></span></td>
-<td><span data-ttu-id="a24b6-284">Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-284">Yes</span></span></td>
-<td>
-<p><span data-ttu-id="a24b6-285">Toplu iş numarası: Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-285">Batch number: No</span></span></p>
-<p><span data-ttu-id="a24b6-286">Seri numarası: Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-286">Serial number: No</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="a24b6-287">Sipariş miktarı: 100</span><span class="sxs-lookup"><span data-stu-id="a24b6-287">Order quantity: 100</span></span></p>
-<ol>
-<li><span data-ttu-id="a24b6-288">30 için tamamlandı olarak bildir</span><span class="sxs-lookup"><span data-stu-id="a24b6-288">Report as finished for 30</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-289">3 için (30'un %10'u) için kalite emri #1</span><span class="sxs-lookup"><span data-stu-id="a24b6-289">Quality order #1 for 3 (10% of 30)</span></span></li>
-</ul>
-</li>
-<li><span data-ttu-id="a24b6-290">70 için tamamlandı olarak bildir</span><span class="sxs-lookup"><span data-stu-id="a24b6-290">Report as finished for 70</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-291">7 (kalan sipariş miktarının %10'u; bu durumda 70'e eşittir) için kalite emri #2</span><span class="sxs-lookup"><span data-stu-id="a24b6-291">Quality order #2 for 7 (10% of the remaining order quantity, which equals 70 in this case)</span></span></li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-292">Sabit miktar: 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-292">Fixed quantity: 1</span></span></td>
-<td><span data-ttu-id="a24b6-293">Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-293">No</span></span></td>
-<td>
-<p><span data-ttu-id="a24b6-294">Toplu iş numarası: Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-294">Batch number: No</span></span></p>
-<p><span data-ttu-id="a24b6-295">Seri numarası: Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-295">Serial number: No</span></span></p>
-</td>
-<td><span data-ttu-id="a24b6-296">Sipariş miktarı: 100</span><span class="sxs-lookup"><span data-stu-id="a24b6-296">Order quantity: 100</span></span>
-<ol>
-<li><span data-ttu-id="a24b6-297">30 için tamamlandı olarak bildir</span><span class="sxs-lookup"><span data-stu-id="a24b6-297">Report as finished for 30</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-298">1 için kalite emri #1 (sabit değeri 1 olan ilk tamamlandı bildirimi miktarı için)</span><span class="sxs-lookup"><span data-stu-id="a24b6-298">Quality order #1 for 1 (for the first reported-as-finished quantity, which has a fixed value of 1)</span></span></li>
-<li><span data-ttu-id="a24b6-299">1 için kalite emri #2 (sabit değeri hala 1 olan kalan miktar için)</span><span class="sxs-lookup"><span data-stu-id="a24b6-299">Quality order #2 for 1 (for the remaining quantity, which still has a fixed value of 1)</span></span></li>
-</ul>
-</li>
-<li><span data-ttu-id="a24b6-300">10 için tamamlandı olarak bildir</span><span class="sxs-lookup"><span data-stu-id="a24b6-300">Report as finished for 10</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-301">Kalite emri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-301">No quality orders are created.</span></span></li>
-</ul>
-</li>
-<li><span data-ttu-id="a24b6-302">60 için tamamlandı olarak bildir</span><span class="sxs-lookup"><span data-stu-id="a24b6-302">Report as finished for 60</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-303">Kalite emri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-303">No quality orders are created.</span></span></li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-304">Sabit miktar: 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-304">Fixed quantity: 1</span></span></td>
-<td><span data-ttu-id="a24b6-305">Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-305">Yes</span></span></td>
-<td>
-<p><span data-ttu-id="a24b6-306">Toplu iş numarası: Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-306">Batch number: Yes</span></span></p>
-<p><span data-ttu-id="a24b6-307">Seri numarası: Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-307">Serial number: Yes</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="a24b6-308">Sipariş miktarı: 10</span><span class="sxs-lookup"><span data-stu-id="a24b6-308">Order quantity: 10</span></span></p>
-<ol>
-<li><span data-ttu-id="a24b6-309">3 için tamamlandı olarak bildir: #b1, #s1 için 1; #b2, #s2 için 1 ve #b3, #s3 için 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-309">Report as finished for 3: 1 for #b1, #s1; 1 for #b2, #s2; and 1 for #b3, #s3</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-310">Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</span><span class="sxs-lookup"><span data-stu-id="a24b6-310">Quality order #1 for 1 of batch #b1, serial #s1</span></span></li>
-<li><span data-ttu-id="a24b6-311">Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</span><span class="sxs-lookup"><span data-stu-id="a24b6-311">Quality order #2 for 1 of batch #b2, serial #s2</span></span></li>
-<li><span data-ttu-id="a24b6-312">Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</span><span class="sxs-lookup"><span data-stu-id="a24b6-312">Quality order #3 for 1 of batch #b3, serial #s3</span></span></li>
-</ul>
-</li>
-<li><span data-ttu-id="a24b6-313">2 için tamamlandı olarak bildir: #b4, #s4 için 1 ve #b5, #s5 için 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-313">Report as finished for 2: 1 for #b4, #s4; and 1 for #b5, #s5</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-314">Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</span><span class="sxs-lookup"><span data-stu-id="a24b6-314">Quality order #4 for 1 of batch #b4, serial #s4</span></span></li>
-<li><span data-ttu-id="a24b6-315">Toplu iş #b5, seri #s5'deki 1 için kalite emri #5</span><span class="sxs-lookup"><span data-stu-id="a24b6-315">Quality order #5 for 1 of batch #b5, serial #s5</span></span></li>
-</ul>
-</li>
-</ol>
-<p><span data-ttu-id="a24b6-316"><strong>Not:</strong> Toplu iş yeniden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-316"><strong>Note:</strong> The batch can be reused.</span></span></p>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="a24b6-317">Sabit miktar: 2</span><span class="sxs-lookup"><span data-stu-id="a24b6-317">Fixed quantity: 2</span></span></td>
-<td><span data-ttu-id="a24b6-318">Hayır</span><span class="sxs-lookup"><span data-stu-id="a24b6-318">No</span></span></td>
-<td>
-<p><span data-ttu-id="a24b6-319">Toplu iş numarası: Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-319">Batch number: Yes</span></span></p>
-<p><span data-ttu-id="a24b6-320">Seri numarası: Evet</span><span class="sxs-lookup"><span data-stu-id="a24b6-320">Serial number: Yes</span></span></p>
-</td>
-<td>
-<p><span data-ttu-id="a24b6-321">Sipariş miktarı: 10</span><span class="sxs-lookup"><span data-stu-id="a24b6-321">Order quantity: 10</span></span></p>
-<ol>
-<li><span data-ttu-id="a24b6-322">4 için tamamlandı olarak bildir: #b1, #s1 için 1; #b2, #s2 için 1; #b3, #s3 için 1 ve #b4, #s4 için 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-322">Report as finished for 4: 1 for #b1, #s1; 1 for #b2, #s2; 1 for #b3, #s3; and 1 for #b4, #s4</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-323">Toplu iş #b1, seri #s1'deki 1 için kalite emri #1</span><span class="sxs-lookup"><span data-stu-id="a24b6-323">Quality order #1 for 1 of batch #b1, serial #s1</span></span></li>
-<li><span data-ttu-id="a24b6-324">Toplu iş #b2, seri #s2'deki 1 için kalite emri #2</span><span class="sxs-lookup"><span data-stu-id="a24b6-324">Quality order #2 for 1 of batch #b2, serial #s2</span></span></li>
-<li><span data-ttu-id="a24b6-325">Toplu iş #b3, seri #s3'deki 1 için kalite emri #3</span><span class="sxs-lookup"><span data-stu-id="a24b6-325">Quality order #3 for 1 of batch #b3, serial #s3</span></span></li>
-<li><span data-ttu-id="a24b6-326">Toplu iş #b4, seri #s4'deki 1 için kalite emri #4</span><span class="sxs-lookup"><span data-stu-id="a24b6-326">Quality order #4 for 1 of batch #b4, serial #s4</span></span></li>
-</ul>
-<ul>
-<li><span data-ttu-id="a24b6-327">Bir toplu iş ve bir seri numarasına referans olmadan, 2 için kalite emri #5.</span><span class="sxs-lookup"><span data-stu-id="a24b6-327">Quality order #5 for 2, without a reference to a batch and a serial number</span></span></li>
-</ul>
-</li>
-<li><span data-ttu-id="a24b6-328">6 için tamamlandı olarak bildir: #b5, #s5 için 1; #b6, #s6 için 1; #b7, #s7 için 1; #b8, #s8 için 1; #b9, #s9 için 1 ve #b10, #s10 için 1</span><span class="sxs-lookup"><span data-stu-id="a24b6-328">Report as finished for 6: 1 for #b5, #s5; 1 for #b6, #s6; 1 for #b7, #s7; 1 for #b8, #s8; 1 for #b9, #s9; and 1 for #b10, #s10</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-329">Kalite emri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-329">No quality orders are created.</span></span></li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> <span data-ttu-id="a24b6-330">*Ambar işlemleri için kalite yönetimi* özelliği, **Olay Türü** *Tamamlandı olarak bildir*, **Yürütme** *Sonra* olarak ayarlanmış olan üretim ve **Olay türü** *Kayıt* olarak ayarlanmış satınalmalar için kalite emri işleme yetenekleri ekler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-330">The *Quality management for warehouse processes* feature adds capabilities for quality order processing for production with **Event type** set to *Report as finished* and **Execution** set to *After*, and for purchases with **Event type** set to *Registration*.</span></span> <span data-ttu-id="a24b6-331">Ayrıntılar için bkz. [Ambar işlemleri için kalite yönetimi](quality-management-for-warehouses-processes.md).</span><span class="sxs-lookup"><span data-stu-id="a24b6-331">For details, see [Quality management for warehouse processes](quality-management-for-warehouses-processes.md).</span></span>
-
-## <a name="quality-management-pages"></a><span data-ttu-id="a24b6-332">Kalite yönetim sayfaları</span><span class="sxs-lookup"><span data-stu-id="a24b6-332">Quality management pages</span></span>
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="a24b6-333">Sayfa</span><span class="sxs-lookup"><span data-stu-id="a24b6-333">Page</span></span></th>
-<th><span data-ttu-id="a24b6-334">Tanım</span><span class="sxs-lookup"><span data-stu-id="a24b6-334">Description</span></span></th>
-<th><span data-ttu-id="a24b6-335">Örnek</span><span class="sxs-lookup"><span data-stu-id="a24b6-335">Example</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span data-ttu-id="a24b6-336">Kalite ilişkileri</span><span class="sxs-lookup"><span data-stu-id="a24b6-336">Quality associations</span></span></td>
-<td><span data-ttu-id="a24b6-337">Bu makalenin önceki bölümlerine bakınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-337">See the previous sections of this article.</span></span></td>
-<td><span data-ttu-id="a24b6-338">Bir kalite ilişkisi oluşturulan bir kalite emri için aşağıdaki tüm bilgileri tanımlar:</span><span class="sxs-lookup"><span data-stu-id="a24b6-338">A quality association defines all the following information for a quality order that is generated:</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-339">Hareket olayı</span><span class="sxs-lookup"><span data-stu-id="a24b6-339">The transaction event</span></span></li>
-<li><span data-ttu-id="a24b6-340">Öğeler üzerinde gerçekleştirilmesi gereken test dizileri</span><span class="sxs-lookup"><span data-stu-id="a24b6-340">The set of tests that must be performed on the items</span></span></li>
-<li><span data-ttu-id="a24b6-341">Kabul edilebilir kalite düzeyi</span><span class="sxs-lookup"><span data-stu-id="a24b6-341">The AQL</span></span></li>
-<li><span data-ttu-id="a24b6-342">Örnekleme planı</span><span class="sxs-lookup"><span data-stu-id="a24b6-342">The sampling plan</span></span></li>
-</ul>
-<span data-ttu-id="a24b6-343">Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindeki her farklılık için bir kalite eşleştirmesi tanımlamanız gerekmektedir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-343">You must define a quality association for each variation in a business process that requires automatic generation of quality orders.</span></span> <span data-ttu-id="a24b6-344">Örneğin, satınalma siparişleri, karantina siparişleri, satış siparişleri ve üretim emirleri için iş süreçlerinde bir kalite emri oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-344">For example, a quality order can be generated in the business processes for purchase orders, quarantine orders, sales orders, and production orders.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="a24b6-345">Testler</span><span class="sxs-lookup"><span data-stu-id="a24b6-345">Tests</span></span></td>
-<td><span data-ttu-id="a24b6-346">Ürünlerinizin kalite belirtimlerini sağlayıp sağlamadığını belirleyen tek tek testler tanımlamak ve görüntülemek için bu sayfayı kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-346">Use this page to define and view the individual tests that determine whether your products meet quality specifications.</span></span> <span data-ttu-id="a24b6-347">Bir veya daha çok bireysel testleri bir test grubuna atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-347">You can assign one or more individual tests to a test group.</span></span> <span data-ttu-id="a24b6-348">Bu durumda, kabul edilebilir ölçüm değerleri gibi teste özgü bilgileri de belirtirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-348">In this case, you also specify test-specific information, such as the acceptable measurement values.</span></span> <span data-ttu-id="a24b6-349">Ölçüm değerleri nicel testleri için kullanılır ve nitel testler için test değişkenleri kullanılır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-349">Measurement values are used for quantitative tests, and test variables are used for qualitative tests.</span></span>
-<ul>
-<li><span data-ttu-id="a24b6-350">Nicel bir testin bir test tür <strong>tamsayı</strong> veya <strong>kesir</strong>, ve de atanmış bir ölçüsü vardır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-350">A quantitative test has a test type of <strong>Integer</strong> or <strong>Fraction</strong>, and also has a designated unit of measure.</span></span> <span data-ttu-id="a24b6-351">Kalite belirtimleri ve test sonuçları sayı olarak ifade edilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-351">Quality specifications and test results are expressed as numbers.</span></span></li>
-<li><span data-ttu-id="a24b6-352">Kalite testi, <strong>Seçenek</strong> test tipindedir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-352">A qualitative test has a test type of <strong>Option</strong>.</span></span> <span data-ttu-id="a24b6-353">Kalite testleri, ölçülmekte olan değişken ve onun numaralandırılmış seçenekleri hakkında ek bilgi gerektirirler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-353">Qualitative tests require additional information about the test variable that is being measured and its enumerated options.</span></span> <span data-ttu-id="a24b6-354">Kalite belirtimleri ve test sonuçları bir sonuca göre ifade edilirler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-354">Quality specifications and test results are expressed according to an outcome.</span></span></li>
-</ul></td>
-<td><span data-ttu-id="a24b6-355">Bir üretim şirketi satınalınan malzeme üzerinde, malzeme kalitesi hakkında bir sayısal test ile ambalaj hasarı üzerine bir kalite testi dahil olmak üzere iki test gerçekleştiriyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-355">A manufacturing company performs two tests on purchased material: a quantitative test about material quality and a qualitative test about packaging damage.</span></span> <span data-ttu-id="a24b6-356">Şirket, test değişkenini (hasarlı ambalaj) ve sonuçlarını tanımlamak için ek bilgiler tanımlıyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-356">The company defines additional information about the qualitative test to identify the test variable (damaged packaging) and its outcomes.</span></span> <span data-ttu-id="a24b6-357">Şirket <strong>Test grupları</strong> sayfasını iki testleri bir test grubuna atamak için ve teste özgü bilgileri belirtmek için kullanır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-357">The company uses the <strong>Test groups</strong> page to assign the two tests to a test group and to specify the test-specific information.</span></span> <span data-ttu-id="a24b6-358">Test grubu, şirketin iki teste ait test sonuçlarını rapor edebilmesi için bir kalite emrine atanır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-358">The test group is assigned to a quality order, so that the company can report test results for the two tests.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="a24b6-359">Test grupları</span><span class="sxs-lookup"><span data-stu-id="a24b6-359">Test groups</span></span></td>
-<td><span data-ttu-id="a24b6-360">Test gruplarını ve test grubuna atanmış bireysel testleri ayarlamak, düzenlemek ve görüntülemek için bu sayfayı kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-360">Use this page to set up, edit, and view test groups and the individual tests that are assigned to a test group.</span></span> <span data-ttu-id="a24b6-361">Üst bölme test gruplarını gösterir ve alt bölme seçili bir test grubuna atanan testleri görüntüler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-361">The upper pane displays test groups, and the lower pane displays the tests that are assigned to a selected test group.</span></span> <span data-ttu-id="a24b6-362">Test grubuna; örnekleme planı, kabul edilebilir kalite düzeyi ve bozucu test gereksinimi gibi birçok ilke atarsınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-362">You assign several policies to a test group, such as a sampling plan, an AQL, and the requirement for destructive testing.</span></span> <span data-ttu-id="a24b6-363">Tek bir testi bir test grubuna atadığınızda, sıra, belgeler ve geçerlilik tarihleri gibi ek bilgiler tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-363">When you assign an individual test to a test group, you define additional information, such as the sequence, documents, and validity dates.</span></span> <span data-ttu-id="a24b6-364">Nicel bir test için tanımladığınız bilgilere kabul edilebilir ölçüm değerleri de dahildir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-364">For a quantitative test, the information that you define also includes the acceptable measurement values.</span></span> <span data-ttu-id="a24b6-365">Nitel bir test için bu bilgilere test değişkeni ve varsayılan sonuç dahildir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-365">For a qualitative test, the information includes the test variable and default outcome.</span></span> <span data-ttu-id="a24b6-366">Bir kalite emrine atanan test grubu, belirtilen öğe üzerinde gerçekleştirilmesi gereken testlerin varsayılan kümesini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-366">The test group that is assigned to a quality order defines the default set of tests that must be performed on the specified item.</span></span> <span data-ttu-id="a24b6-367">Bununla birlikte, kalite emrindeki testleri değiştirebilirsiniz, ekleyebilir veya silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-367">However, you can add, delete, or change tests on the quality order.</span></span> <span data-ttu-id="a24b6-368">Test sonuçları, kalite emrindeki her test için rapor edilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-368">Test results are reported for each test on a quality order.</span></span></td>
-<td><span data-ttu-id="a24b6-369">Bir üretim şirketi, kalite yönergelerindeki her sapma için bir test grubu tanımlıyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-369">A manufacturing company defines a test group for each variation of its quality guidelines.</span></span> <span data-ttu-id="a24b6-370">Çeşitli test grupları, örnekleme planları arasındaki farklılıkları, birlikte gerçekleştirilmesi gereken testler kümesini, kabul edilebilir kalite düzeyini ve diğer etkenleri yansıtır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-370">The various test groups reflect differences in the sampling plans, the sets of tests that must be performed together, the AQL, and other factors.</span></span> <span data-ttu-id="a24b6-371">Nicel testleri için, kabul edilebilir ölçüm değerleri için de farklılıklar vardır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-371">For quantitative tests, there are also differences in the acceptable measurement values.</span></span> <span data-ttu-id="a24b6-372">Şirket, kalite kurallarını uygulayabilmek için kalite emirlerini otomatik oluşturabilmek için her kurala bir test grubunu <strong>Kalite ilişkilendirmeleri</strong> sayfasından atar ve ayrıca el ile oluşturulan kalite emirlerine de bir test grubu atar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-372">To enforce its quality guidelines, the company assigns a test group to each rule for automatically generating quality orders on the <strong>Quality associations</strong> page, and also assigns a test group to quality orders that are manually created.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="a24b6-373">Madde kalite grupları</span><span class="sxs-lookup"><span data-stu-id="a24b6-373">Item quality groups</span></span></td>
-<td><span data-ttu-id="a24b6-374">Bir kalite grubuna atanmış maddeleri veya bir maddeye atanmış kalite gruplarını ayarlamak, düzenlemek ve görüntülemek için bu sayfayı kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-374">Use this page to set up, edit, and view the items that are assigned to a quality group or the quality groups that are assigned to an item.</span></span> <span data-ttu-id="a24b6-375">Kalite grubu, maddeler için ortak test gereksinimlerini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="a24b6-375">A quality group represents common testing requirements for items.</span></span> <span data-ttu-id="a24b6-376"><strong>Test grupları</strong> sayfasındaki test gereksinimlerini tanımladıktan sonra, kalite emirlerini otomatik olarak oluşturmak için kurallar tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-376">After you define the test requirements on the <strong>Test groups</strong> page, you can define the rules for automatically generating quality orders.</span></span> <span data-ttu-id="a24b6-377">İşlemi basitleştirmek için, kuralları her bir öğe için tanımlamanız gerekmez.</span><span class="sxs-lookup"><span data-stu-id="a24b6-377">To simplify the process, you don&#39;t define rules for individual items.</span></span> <span data-ttu-id="a24b6-378">Bunun yerine, <strong>Kalite ilişkileri</strong> sayfasını kullanarak bir kalite grubu için kurallar tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-378">Instead, you define rules for a quality group, by using the <strong>Quality associations</strong> page.</span></span> <span data-ttu-id="a24b6-379">Ayrıca <strong>Madde kalite grupları</strong> sayfasını kullanarak belirlenmiş bir kalite grubuna ilgili maddeleri atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-379">You can also use the <strong>Item quality groups</strong> page for a selected quality group to assign relevant items to that group.</span></span> <span data-ttu-id="a24b6-380">Ayrıca <strong>Madde kalite grupları</strong> sayfasını kullanarak belirlenmiş bir maddeye bir kalite grubuna ilgili maddeye atabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a24b6-380">You can also use the <strong>Item quality groups</strong> page for a selected item to assign relevant quality groups to that item.</span></span></td>
-<td><span data-ttu-id="a24b6-381">Üretim şirketi, gelen denetim için aynı test gereksinimlerine sahip çeşitli hammaddeler satın alıyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-381">A manufacturing company purchases various raw materials that have the same testing requirements for incoming inspection.</span></span> <span data-ttu-id="a24b6-382">Şirket bir kalite grubu tanımlar ve artından hammaddeler ile ilişkilendirilmiş olan madde numaralarını bu gruba atar.</span><span class="sxs-lookup"><span data-stu-id="a24b6-382">The company defines a quality group and then assigns the item numbers that are associated with the raw materials to that group.</span></span> <span data-ttu-id="a24b6-383">Daha sonra aynı sınama gereksinimleri olan yeni bir hammadde türü şirket tarafından satın alınır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-383">Later, the company purchases a new type of raw material that has the same testing requirements.</span></span> <span data-ttu-id="a24b6-384">Yeni malzeme için yeni test gereksinimleri ayarlamak yerine, şirket yeni malzeme için madde numarasını mevcut kalite grubuna ekler.</span><span class="sxs-lookup"><span data-stu-id="a24b6-384">Instead of setting up new testing requirements for the new material, the company adds the item number for the new material to the existing quality group.</span></span> <span data-ttu-id="a24b6-385">Aynı üretim şirketi, aynı üretim testi gereksinimlerine sahip maddeler de üretiyor ve ön sevkiyat testleri için aynı gereksinimlere sahip maddeleri sevk ediyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-385">The same manufacturing company also produces items that have the same production testing requirements and ships items that have the same requirement for pre-shipment testing.</span></span> <span data-ttu-id="a24b6-386">Şirket iki ek kalite grubu tanımlıyor ve sonra her gruba ilgili madde numaralarını atıyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-386">The company defines two additional quality groups and then assigns the relevant item numbers to each group.</span></span></td>
-</tr>
-<tr class="odd">
-<td><span data-ttu-id="a24b6-387">Test değişkenleri</span><span class="sxs-lookup"><span data-stu-id="a24b6-387">Test variables</span></span></td>
-<td><span data-ttu-id="a24b6-388">Nitel bir test ile ilişkili değişkenleri görüntülemek ve tanımlamak için bu sayfayı kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-388">Use this page to define and view the variables that are associated with a qualitative test.</span></span> <span data-ttu-id="a24b6-389">Her değişken için olası sonuçları gösteren numaralandırılmış seçenekleri tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-389">For each variable, you define enumerated outcomes that represent the possible options.</span></span> <span data-ttu-id="a24b6-390">Testleri tanımlamak için <strong>Testler</strong> sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-390">You define tests on the <strong>Tests</strong> page.</span></span> <span data-ttu-id="a24b6-391">Nitel testler için test türünü <strong>Seçenek</strong> olarak ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-391">For qualitative tests, you must set the test type to <strong>Option</strong>.</span></span> <span data-ttu-id="a24b6-392"><strong>Test grupları</strong> sayfasını kullanarak bir teste bir test değişkeni atayın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-392">Use the <strong>Test groups</strong> page to assign a test variable to an individual test.</span></span></td>
-<td><span data-ttu-id="a24b6-393">Kurabiye üreten bir üretim şirketi, tamamlanan ürüne yönelik bir denetim testi uyguluyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-393">A manufacturing company that produces cookies uses an inspection test for the finished product.</span></span> <span data-ttu-id="a24b6-394">Bu inceleme testinin birçok değişkeni vardır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-394">This inspection test has several variables.</span></span> <span data-ttu-id="a24b6-395">Bir değişken lezzettir ve bu değişkenin olası sonuçları iyi veya kötü olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-395">One variable is taste, and the possible outcomes for this variable are good and bad.</span></span> <span data-ttu-id="a24b6-396">İkinci bir değişken, çok koyu, çok açık ve doğru sonuçları ile temsil edilen renk değişkeni oluyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-396">A second variable is color, and the possible outcomes are too dark, too light, and correct.</span></span></td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="a24b6-397">Test değişkeni sonuçları</span><span class="sxs-lookup"><span data-stu-id="a24b6-397">Test variable outcomes</span></span></td>
-<td><span data-ttu-id="a24b6-398">Bir kalite testiyle ilişkili bir test değişkenine ait olası test sonuçlarını ayarlamak, düzenlemek ve görüntülemek için bu sayfayı kullanın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-398">Use this page to set up, edit, and to view the possible test results for a test variable that is associated with a qualitative test.</span></span> <span data-ttu-id="a24b6-399">Her sonuç için bir <strong>geçti</strong> veya <strong>başarısız</strong> oldu durumu atarsınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-399">For each outcome, you assign a <strong>pass</strong> or <strong>fail</strong> status.</span></span> <span data-ttu-id="a24b6-400"><strong>Testler</strong> sayfasında tanımlanan her nitel test için bir değişken ve sonuçlarını tanımlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="a24b6-400">You must define a variable and its outcomes for each qualitative test that is defined on the <strong>Tests</strong> page.</span></span> <span data-ttu-id="a24b6-401">(Kalite testleri için, test türü <strong>Testler</strong> sayfasında <strong>Seçenek</strong> olarak ayarlanmıştır.) <strong>Test grupları</strong> sayfasını kullanıp, bir test değişkenini ve varsayılan sonucu bir kişisel kalite testine atayın.</span><span class="sxs-lookup"><span data-stu-id="a24b6-401">(For qualitative tests, the test type is set to <strong>Option</strong> on the <strong>Tests</strong> page.) Use the <strong>Test groups</strong> page to assign a test variable and the default outcome to an individual qualitative test.</span></span></td>
-<td><span data-ttu-id="a24b6-402">Kurabiye üreten bir üretim şirketi, tamamlanan ürüne yönelik bir denetim testi uyguluyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-402">A manufacturing company that produces cookies uses an inspection test for the finished product.</span></span> <span data-ttu-id="a24b6-403">Bu inceleme testinin birçok değişkeni vardır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-403">This inspection test has of several variables.</span></span> <span data-ttu-id="a24b6-404">Bir değişken lezzettir ve bu değişkenin olası sonuçları iyi veya kötü olabilir.</span><span class="sxs-lookup"><span data-stu-id="a24b6-404">One variable is taste, and the possible outcomes for this variable are good and bad.</span></span> <span data-ttu-id="a24b6-405">İkinci bir değişken, çok koyu, çok açık ve doğru sonuçları ile temsil edilen renk değişkeni oluyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-405">A second variable is color, and the possible outcomes are too dark, too light, and correct.</span></span> <span data-ttu-id="a24b6-406">Her sonuca <strong>geçti</strong> veya <strong>kaldı</strong> durumu atanır.</span><span class="sxs-lookup"><span data-stu-id="a24b6-406">A status of <strong>pass</strong> or <strong>fail</strong> is assigned to each outcome.</span></span> <span data-ttu-id="a24b6-407">Her değişkene yönelik denetim testi sırasında, denetçi sonuçlardan birini seçerek test sonucunu rapor ediyor.</span><span class="sxs-lookup"><span data-stu-id="a24b6-407">During the inspection test for each variable, the inspector reports the test result by selecting one of the outcomes.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-
-
-<a name="additional-resources"></a><span data-ttu-id="a24b6-408">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="a24b6-408">Additional resources</span></span>
---------
-
-[<span data-ttu-id="a24b6-409">Kalite yönetimi işlemleri</span><span class="sxs-lookup"><span data-stu-id="a24b6-409">Quality management processes</span></span>](quality-management-processes.md)
-
-[<span data-ttu-id="a24b6-410">Uygunsuzluk yönetimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-410">Nonconformance management</span></span>](enable-nonconformance-management.md)
-
-[<span data-ttu-id="a24b6-411">Ambar işlemleri için kalite yönetimi</span><span class="sxs-lookup"><span data-stu-id="a24b6-411">Quality management for warehouse processes</span></span>](quality-management-for-warehouses-processes.md)
-
+- [<span data-ttu-id="6449e-142">Kalite yönetimine genel bakış</span><span class="sxs-lookup"><span data-stu-id="6449e-142">Quality management overview</span></span>](quality-management-processes.md)
+- [<span data-ttu-id="6449e-143">Kalite ve uygunsuzluk yönetimini etkinleştirme</span><span class="sxs-lookup"><span data-stu-id="6449e-143">Enable quality and nonconformance management</span></span>](enable-quality-management.md)
+- [<span data-ttu-id="6449e-144">Ambar işlemleri için kalite yönetimi</span><span class="sxs-lookup"><span data-stu-id="6449e-144">Quality management for warehouse processes</span></span>](quality-management-for-warehouses-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

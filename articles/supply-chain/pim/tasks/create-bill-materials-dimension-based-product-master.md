@@ -13,68 +13,69 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0db1c35779a468d9a86d18eb6c849d40bc8c03a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13053dd87242963586678b46c64493feb3383c4c
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820094"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920717"
 ---
-# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="c93a5-103">Boyut tabanlı ana ürün için ürün reçetesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="c93a5-103">Create a bill of materials for a dimension-based product master</span></span>
+# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="df404-103">Boyut tabanlı ana ürün için ürün reçetesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="df404-103">Create a bill of materials for a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="c93a5-104">Bu prosedür için bu sekiz kayıt sırasındaki, önceki 4 kılavuzu tamamlamış olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c93a5-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="c93a5-105">İlk 4 kayıtta bu prosedürün tamamlanması için gereken verileri kurulur.</span><span class="sxs-lookup"><span data-stu-id="c93a5-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="c93a5-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="c93a5-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c93a5-107">Bu görev tipik olarak ürün tasarımcısı tarafından ele alınır.</span><span class="sxs-lookup"><span data-stu-id="c93a5-107">This task is typically handled by the product designer.</span></span>
+<span data-ttu-id="df404-104">Bu prosedür için bu sekiz kayıt sırasındaki, önceki 4 kılavuzu tamamlamış olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="df404-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="df404-105">İlk 4 kayıtta bu prosedürün tamamlanması için gereken verileri kurulur.</span><span class="sxs-lookup"><span data-stu-id="df404-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="df404-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="df404-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="df404-107">Bu görev tipik olarak ürün tasarımcısı tarafından ele alınır.</span><span class="sxs-lookup"><span data-stu-id="df404-107">This task is typically handled by the product designer.</span></span>
 
+## <a name="select-the-product"></a><span data-ttu-id="df404-108">Ürün seçme</span><span class="sxs-lookup"><span data-stu-id="df404-108">Select the product</span></span>
 
-## <a name="select-the-product"></a><span data-ttu-id="c93a5-108">Ürün seçme</span><span class="sxs-lookup"><span data-stu-id="c93a5-108">Select the product</span></span>
-1. <span data-ttu-id="c93a5-109">Serbest bırakılan ürün bakımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="c93a5-110">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-110">Click Released products.</span></span>
-3. <span data-ttu-id="c93a5-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="c93a5-112">Bu sıradaki ilk görev kılavuzunda oluşturduğunuz, boyut tabanlı yapılandırma teknolojisiyle, serbest bırakılan ürün mastarını bulun.</span><span class="sxs-lookup"><span data-stu-id="c93a5-112">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
-4. <span data-ttu-id="c93a5-113">Eylem Bölmesinde, Mühendis öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-113">On the Action Pane, click Engineer.</span></span>
-5. <span data-ttu-id="c93a5-114">BOM sürümlerini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-114">Click BOM versions.</span></span>
+1. <span data-ttu-id="df404-109">**Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="df404-109">Go to **Product information management \> Products \> Released products**.</span></span>
+1. <span data-ttu-id="df404-110">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="df404-110">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="df404-111">Bu sıradaki ilk görev kılavuzunda oluşturduğunuz, boyut tabanlı yapılandırma teknolojisiyle, serbest bırakılan ürün mastarını bulun.</span><span class="sxs-lookup"><span data-stu-id="df404-111">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
+1. <span data-ttu-id="df404-112">Eylem Bölmesi'nde **Mühendis**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-112">On the Action Pane, select **Engineer**.</span></span>
+1. <span data-ttu-id="df404-113">**Ürün Reçetesi sürümleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-113">Select **BOM versions**.</span></span>
 
-## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="c93a5-115">Yeni BOM ve BOM sürümünü oluşturma</span><span class="sxs-lookup"><span data-stu-id="c93a5-115">Create new BOM and BOM version</span></span>
-1. <span data-ttu-id="c93a5-116">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-116">Click New.</span></span>
-2. <span data-ttu-id="c93a5-117">BOM ve BOM sürümünü tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-117">Click BOM and BOM version.</span></span>
-3. <span data-ttu-id="c93a5-118">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="c93a5-119">Bir saha ayarlanması</span><span class="sxs-lookup"><span data-stu-id="c93a5-119">Setting a site</span></span>  
-    * <span data-ttu-id="c93a5-120">Bu prosedürde BOM için belirli bir saha ayarlamıyoruz.</span><span class="sxs-lookup"><span data-stu-id="c93a5-120">In this procedure we don't set a specific site for the BOM.</span></span>  
-4. <span data-ttu-id="c93a5-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-121">Click OK.</span></span>
-5. <span data-ttu-id="c93a5-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-122">Click New.</span></span>
-    * <span data-ttu-id="c93a5-123">Bu prosedürde BOM'a dört satır ekleyeceğiz.</span><span class="sxs-lookup"><span data-stu-id="c93a5-123">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="c93a5-124">İki satır, kablo seçeneklerini temsil ederken; iki satır, dolap seçeneklerini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="c93a5-124">Two lines represent cable options and two lines represent cabinet options.</span></span>  
-6. <span data-ttu-id="c93a5-125">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-125">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="c93a5-126">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-126">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-127">A0001, HDMI 6' Kablo madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-127">Select item number A0001, HDMI 6' Cables.</span></span>  
-8. <span data-ttu-id="c93a5-128">Yapılandırma grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-128">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-129">Bu sıradaki kılavuz 4'te oluşturulan Kablo yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-129">Select the Cable configuration group created in guide 4 in this sequence.</span></span>  
-9. <span data-ttu-id="c93a5-130">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-130">Click New.</span></span>
-    * <span data-ttu-id="c93a5-131">A0002, HDMI 12' Kablo madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-131">Select item number A0002, HDMI 12' Cables.</span></span>  
-10. <span data-ttu-id="c93a5-132">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-132">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="c93a5-133">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-133">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="c93a5-134">Yapılandırma grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-134">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-135">Kablo yapılandırma grubunu tekrar seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-135">Select the Cable configuration group again.</span></span>  
-13. <span data-ttu-id="c93a5-136">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-136">Click New.</span></span>
-14. <span data-ttu-id="c93a5-137">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-137">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="c93a5-138">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-138">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-139">D0002 Dolap madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-139">Select item number D0002 Cabinet.</span></span>  
-16. <span data-ttu-id="c93a5-140">Yapılandırma grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-140">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-141">Bu BOM satırı için Dolap yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-141">Select the Cabinet configuration group for this BOM line.</span></span>  
-17. <span data-ttu-id="c93a5-142">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-142">Click New.</span></span>
-18. <span data-ttu-id="c93a5-143">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-143">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="c93a5-144">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-144">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-145">Son BOM satırı olarak, M0007 Standart Dolap madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-145">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
-20. <span data-ttu-id="c93a5-146">Yapılandırma grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-146">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="c93a5-147">Son BOM satırı için Dolap yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-147">Select the Cabinet configuration group for the laste BOM line.</span></span>  
+## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="df404-114">Yeni BOM ve BOM sürümünü oluşturma</span><span class="sxs-lookup"><span data-stu-id="df404-114">Create new BOM and BOM version</span></span>
 
-## <a name="approve-and-activate"></a><span data-ttu-id="c93a5-148">Onayla ve etkinleştir</span><span class="sxs-lookup"><span data-stu-id="c93a5-148">Approve and activate</span></span>
-1. <span data-ttu-id="c93a5-149">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-149">Close the page.</span></span>
-2. <span data-ttu-id="c93a5-150">Onayla’yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-150">Click Approve.</span></span>
-3. <span data-ttu-id="c93a5-151">Onaylayan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c93a5-151">In the Approved by field, enter or select a value.</span></span>
-4. <span data-ttu-id="c93a5-152">Ürün reçetesini de onaylamak ister misiniz? sorusunu Evet olarak yanıtlayın. alanda kullandığınızda otomatik olarak işaretlenir.</span><span class="sxs-lookup"><span data-stu-id="c93a5-152">Select Yes in the Do you also want to approve the bill of materials? field.</span></span>
-5. <span data-ttu-id="c93a5-153">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-153">Click OK.</span></span>
-6. <span data-ttu-id="c93a5-154">Etkinleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c93a5-154">Click Activate.</span></span>
+1. <span data-ttu-id="df404-115">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-115">Select **New**.</span></span>
+1. <span data-ttu-id="df404-116">**Ürün Reçetesi ve Ürün Reçetesi sürümü**'nü seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-116">Select **BOM and BOM version**.</span></span>
+1. <span data-ttu-id="df404-117">**Ad** alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="df404-117">In the **Name** field, type a value.</span></span>
+    * <span data-ttu-id="df404-118">Bir saha ayarlanması</span><span class="sxs-lookup"><span data-stu-id="df404-118">Setting a site</span></span>  
+    * <span data-ttu-id="df404-119">Bu prosedürde BOM için belirli bir saha ayarlamıyoruz.</span><span class="sxs-lookup"><span data-stu-id="df404-119">In this procedure we don't set a specific site for the BOM.</span></span>  
+1. <span data-ttu-id="df404-120">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-120">Select **OK**.</span></span>
+1. <span data-ttu-id="df404-121">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-121">Select **New**.</span></span>
+    * <span data-ttu-id="df404-122">Bu prosedürde BOM'a dört satır ekleyeceğiz.</span><span class="sxs-lookup"><span data-stu-id="df404-122">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="df404-123">İki satır, kablo seçeneklerini temsil ederken; iki satır, dolap seçeneklerini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="df404-123">Two lines represent cable options and two lines represent cabinet options.</span></span>  
+1. <span data-ttu-id="df404-124">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="df404-124">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df404-125">**Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-125">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-126">A0001, HDMI 6' Kablo madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-126">Select item number A0001, HDMI 6' Cables.</span></span>  
+1. <span data-ttu-id="df404-127">**Yapılandırma grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-127">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-128">Bu sıradaki kılavuz 4'te oluşturulan kablo yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-128">Select the cable configuration group created in guide 4 in this sequence.</span></span>  
+1. <span data-ttu-id="df404-129">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-129">Select **New**.</span></span>
+    * <span data-ttu-id="df404-130">A0002, HDMI 12' Kablo madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-130">Select item number A0002, HDMI 12' Cables.</span></span>  
+1. <span data-ttu-id="df404-131">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="df404-131">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df404-132">**Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-132">In the **Item number** field, enter or select a value.</span></span>
+1. <span data-ttu-id="df404-133">**Yapılandırma grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-133">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-134">Kablo yapılandırma grubunu yeniden seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-134">Select the cable configuration group again.</span></span>  
+1. <span data-ttu-id="df404-135">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-135">Select **New**.</span></span>
+1. <span data-ttu-id="df404-136">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="df404-136">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df404-137">**Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-137">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-138">D0002 Dolap madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-138">Select item number D0002 Cabinet.</span></span>  
+1. <span data-ttu-id="df404-139">**Yapılandırma grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-139">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-140">Bu Ürün Reçetesi satırı için dolap yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-140">Select the cabinet configuration group for this BOM line.</span></span>  
+1. <span data-ttu-id="df404-141">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-141">Select **New**.</span></span>
+1. <span data-ttu-id="df404-142">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="df404-142">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df404-143">**Madde numarası** alanına bir değer girin veya bu alanda bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-143">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-144">Son BOM satırı olarak, M0007 Standart Dolap madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-144">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
+1. <span data-ttu-id="df404-145">**Yapılandırma grubu** alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-145">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df404-146">Son Ürün Reçetesi satırı için Dolap yapılandırma grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-146">Select the Cabinet configuration group for the last BOM line.</span></span>  
+
+## <a name="approve-and-activate"></a><span data-ttu-id="df404-147">Onayla ve etkinleştir</span><span class="sxs-lookup"><span data-stu-id="df404-147">Approve and activate</span></span>
+
+1. <span data-ttu-id="df404-148">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="df404-148">Close the page.</span></span>
+1. <span data-ttu-id="df404-149">**Onayla**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-149">Select **Approve**.</span></span>
+1. <span data-ttu-id="df404-150">**Onaylayan** alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-150">In the **Approved by** field, enter or select a value.</span></span>
+1. <span data-ttu-id="df404-151">**Ürün reçetesini de onaylamak ister misiniz?** sorusunu *Evet* olarak yanıtlayın.</span><span class="sxs-lookup"><span data-stu-id="df404-151">Select *Yes* in the **Do you also want to approve the bill of materials?** field.</span></span>
+1. <span data-ttu-id="df404-152">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-152">Select **OK**.</span></span>
+1. <span data-ttu-id="df404-153">**Etkinleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="df404-153">Select **Activate**.</span></span>
 
 
 
