@@ -2,7 +2,7 @@
 title: Bulut ve uç ölçek birimleri için ambar siparişleri
 description: Bu konuda, ambar ölçek birimi iş yükünün parçası olarak kullanılan ambar siparişi özelliği hakkında bilgi sağlanmaktadır.
 author: perlynne
-ms.date: 04/13/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: ff1f13198a7acc35897252f3ca8f6c2b1f56852e
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899131"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938288"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar siparişleri
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907975"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935617"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Dynamics 365 Supply Chain Management 10.0.17'daki yenilikler veya değişiklikler (Nisan 2021)
 
@@ -35,7 +35,7 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management sürümü 10.0.17'teki
 
 Bu sürümde aşağıdaki özellikler bulunmaktadır.  Her bir özelliğin resmi yayın tarihlerini görmek için [yayın planı](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantıları izleyin.
 
-Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, çoğu ise genel olarak kullanılabilir durumda olabilir.
+Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir.
 
 ### <a name="asset-management"></a>Varlık yönetimi
 
@@ -71,13 +71,13 @@ Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fi
 
 - [Üretim katı yürütme arabiriminde kıymet yönetimi özellikleri](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Daha fazla bilgi için bkz. [Üretim katı yürütme arabirimini yapılandırma](../production-control/production-floor-execution-configure.md).
 
-- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için bkz. 
+- [Bulutta ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Daha fazla bilgi için bkz. [Üretimdeki malzemeler için varsayılan rezervasyon ilkesini geçersiz kılma](../production-control/override-default-reservation-principle.md)
 
 - [Üretim denetimi için kayıtlı görünümler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Daha fazla bilgi için bkz. [Supply Chain Management için standart kayıtlı görünümler](saved-views-scm.md).
 
-- [Bulutta ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Daha fazla bilgi için bkz. [Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- İş kimlikleri için birleşik numara serisi<br> - Daha fazla bilgi için, bkz. [İş kodları için birleşik numara serisine bakın](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Planlama
 

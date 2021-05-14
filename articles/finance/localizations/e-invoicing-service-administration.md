@@ -2,7 +2,7 @@
 title: Elektronik faturalama yönetim bileşenleri
 description: Bu konu, elektronik faturalama yönetimiyle ilgili bileşenler hakkında bilgi sağlar.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840040"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963203"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Elektronik faturalama yönetim bileşenleri
 
@@ -31,7 +31,7 @@ Bu konu, elektronik faturalama yönetimiyle ilgili bileşenler hakkında bilgi s
 
 ## <a name="azure"></a>Azure
 
-Anahtar kasası ve depolama hesabının gizli dizilerini oluşturmak için Microsoft Azure kullanın. Sonra, Elektronik faturalamanın yapılandırmasında gizli dizileri kullanın.
+Key Vault ve depolama hesabının gizli dizilerini oluşturmak için Microsoft Azure kullanın. Sonra, Elektronik faturalamanın yapılandırmasında gizli dizileri kullanın.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -87,10 +87,12 @@ Elektronik faturalama servisi, tüm iş verilerinizi şirketinize ait Azure kayn
 - Elektronik faturaları depolayacak bir Azure depolama hesabı (Blob depolama)
 - Sertifikaları ve depolama hesabının Tekdüzen Kaynak Tanımlayıcısı'nı (URI) depolamak için bir Azure Key Vault
 
-> [!NOTE]
-> Özel bir Anahtar Kasası kaynağı ve müşteri depolama hesabıyla özel olarak Elektronik faturalama ile kullanılmak üzere ayrılmalıdır.
 
-Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir anahtar kasası oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
+Özel bir Key Vault kaynağı ve müşteri depolama hesabıyla özel olarak Elektronik Faturalama ile kullanılmak üzere ayrılmalıdır. Daha fazla bilgi için bkz. [Azure depolama hesabı ve bir Key Vault oluşturma](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Key Vault'un sağlığını izlemek ve uyarı almak üzere, Key Vault için Azure İzleyici'yi yapılandırın. Key Vault günlüğünü etkinleştirerek, Key Vault'larınıza nasıl, ne zaman ve kim tarafından erişildiğini izleyebilirsiniz. Daha fazla bilgi için bkz. [Azure Key Vault için izleme ve uyarı](/azure/key-vault/general/alert) ve [Key Vault günlüğünü etkinleştirme](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Bir en iyi uygulama olarak, gizli anahtarları düzenli olarak döndürün. Daha fazla bilgi için bkz. [Gizli anahtar belgeleri](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Kullanıcılar
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fff5d47d6eb3e08288d17853fcd94f9eab843c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b228babfd32a4191eeed2a6d924a8b99f1a5311
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801961"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936718"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-ticaret kiracısını dağıtma
 
@@ -29,13 +29,13 @@ Bu konu, Microsoft Dynamics Lifecycle Services (LCS) kullanarak yeni bir Dynamic
 
 Microsoft Dynamics Lifecycle Services (LCS), iş ortaklarının ve müşterilerin projelerini ve ortamlarını yönetmek, Microsoft Dynamics ürünlerle ve özelliklerle ilgili en son bilgileri görüntülemek ve destek olayları oluşturmak, izlemek ve bunlara gözatmak için kullanılabilecek bulut tabanlı bir ortak çalışma alanıdır. E-ticaret yönetim özellikleri LCS ile tümleşiktir.
 
-LCS hakkında daha fazla bilgi edinmek için, [Lifecycle Services Kullanıcı Kılavuzu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)'na bakın.
+LCS hakkında daha fazla bilgi edinmek için, [Lifecycle Services Kullanıcı Kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)'na bakın.
     
 ## <a name="get-started"></a>Başlayın
 
 E-ticaretin ilk önce başlatılması için bir proje, ortam ve bir Retail Cloud Scale Unit (rcsu) başlatmalısınız. LCS'de başlatma yapmak için, proje sahibi veya ortam yöneticisi rolü için izinleriniz olmalıdır. Üretim ve korumalı alan ortam topolojileri desteklenir.
 
-Ortamlar hakkında daha fazla bilgi için [ortam planlama](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) konusuna bakın. RCSU hakkında daha fazla bilgi için, bkz. [Retail Cloud Scale Unit Başlat](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
+Ortamlar hakkında daha fazla bilgi için [ortam planlama](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning) konusuna bakın. RCSU hakkında daha fazla bilgi için, bkz. [Retail Cloud Scale Unit Başlat](/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
 ## <a name="initialize-e-commerce"></a>e-Ticaret başlat
 

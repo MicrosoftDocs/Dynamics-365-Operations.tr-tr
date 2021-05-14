@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889800"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963228"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı hazırlama
 
@@ -55,6 +55,9 @@ Ek ortamlar için dikkat edilmesi gereken noktalar şunlardır, ancak bunlarla s
 İnsan Kaynakları ortamlarınızı yönetmek üzere LCS'yi kullanmak için öncelikle bir LCS projesi oluşturmanız gerekir.
 
 1. İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın.
+
+   > [!NOTE]
+   > Sağlamanın başarılı olmasını sağlamak için, Human Resources ortamını sağlamak için kullandığınız hesap, Human Resources ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** veya **Sistem Özelleştirici** rolüne atanmalıdır. Power Platform'da kullanıcılara güvenlik rolleri atama hakkında daha fazla bilgi edinmek için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](https://docs.microsoft.com/power-platform/admin/database-security).
 
 2. Yeni bir proje oluşturmak için artı işaretini (**+**) seçin.
 
@@ -115,13 +118,30 @@ Human Resources veri kullanımını, Power Apps araçlarını kullanarak tümle�
    
     - **Deneme ortamları** - Bu ortamlar bir sona erme tarihiyle oluşturulur. Kullanım süresi sona erdiğinde, ortamınız ve bunun içinde bulunan tüm Human Resources örnekleri otomatik olarak kaldırılır.
    
-    - **Desteklenmeyen bölgeler** - Human Resources şu anda yalnızca şu bölgelerde desteklenmektedir: Amerika Birleşik Devletleri, Avrupa, Birleşik Krallık veya Avustralya, Kanada ve Asya.
-
-    > [!NOTE]
-    > Human Resources ortamı, Power Apps ortamın sağlandığı aynı bölgede sağlandı. Human Resources ortamın başka bir bölgeye geçirilmesi desteklenmez.
+    - **Desteklenmeyen coğrafyalar** - Ortam, desteklenen bir coğrafyada olmalıdır. Daha fazla bilgi için bkz. [Desteklenen coğrafyalar](hr-admin-setup-provision.md#supported-geographies).
 
 6. Kullanılacak doğru ortamı belirledikten sonra, sağlama işlemine devam edebilirsiniz. 
- 
+
+### <a name="supported-geographies"></a>Desteklenen coğrafyalar
+
+Human Resources şu anda aşağıdaki coğrafyaları desteklemektedir:
+
+- Amerika Birleşik Devletleri
+- Avrupa
+- Birleşik Krallık
+- Avustralya
+- Kanada
+- Asya 
+
+Bir Human Resources ortamı oluşturduğunuzda, Human Resources ortamıyla ilişkilendirilecek bir Power Apps ortamı seçersiniz. Daha sonra, Human Resources ortamı seçili Power Apps ortamı ile aynı Azure coğrafyasında sağlanır. Human Resources ortamıyla ilişkilendirilecek Power Apps ortamını oluştururken coğrafyayı seçerek Human Resources ortamı ve veritabanının fiziksel olarak nerede yer alacağınızı seçebilirsiniz.
+
+Ortamın sağlanacağı Azure *coğrafyasını* seçebilirsiniz ancak Azure *bölgesini* tam olarak seçemezsiniz. Otomasyon, yük dengelemeyi ve performansı iyileştirmek için ortamın oluşturulduğu coğrafya içindeki bölgeyi belirler. Azure coğrafyaları ve bölgeleri hakkında bilgi edinmek için [Azure coğrafyaları](https://azure.microsoft.com/global-infrastructure/geographies) belgelerini inceleyebilirsiniz.
+
+Human Resources ortamı verileri her zaman oluşturulduğu Azure coğrafyasında tutulur. Ancak, her zaman aynı Azure bölgesi içinde tutulmaz. Olağanüstü durum kurtarma amacıyla, veriler hem birincil Azure bölgesinde hem de coğrafya içinde ikincil bir yük devretme bölgesinde çoğaltılacaktır.
+
+ > [!NOTE]
+ > Human Resources ortamının başka bir Azure bölgesine geçirilmesi desteklenmez.
+
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
 
 Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Human Resources ortamında kullanıcılar eklemeniz ve kullanıcılara uygun roller atamanız gerekir. İnsan Kaynakları'nı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard'ı da başlatmalıdır. Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard'a erişemez ve erişim ihlali hataları alır. Daha fazla bilgi için bkz. [Yeni kullanıcılar oluşturmak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [Kullanıcıları güvenlik rollerine atamak](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

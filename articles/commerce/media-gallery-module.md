@@ -2,7 +2,8 @@
 title: Ortam galerisi modülü
 description: Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802827"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937398"
 ---
 # <a name="media-gallery-module"></a>Ortam galerisi modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu ortam galerisi modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'te site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -50,10 +52,12 @@ Aşağıdaki çizimdeki örnekte, bir ortam galerisi modülü kullanılarak PDP'
 | Görüntü kaynağı | **Sayfa bağlamı** veya **Ürün kimliği** | Varsayılan değer **Sayfa bağlamıdır**. **Sayfa bağlamı** seçilirse, modül sayfanın ürün kimliği bilgilerini sağlamasını bekler. **Ürün kimliği** seçilirse, bir resmin ürün kimliği, **Ürün kimliği** özelliğinin değeri olarak sağlanmalıdır. Bu özellik Commerce 10.0.12 sürümünde sunulmaktadır. |
 | Ürün kodu | Bir ürün kimliği | Bu özellik yalnızca, **Resim kaynağı** özelliğinin değeri **Ürün kimliği** ise geçerlidir. |
 | Görüntü yakınlaştırma | **Satır içi** veya **Kapsayıcı** | Bu özellik, ortam galerisi modülündeki resimlerin kullanıcı tarafından yakınlaştırmasına olanak tanır. Bir resim satır içi olarak veya görüntünün yanında ayrı bir kapsayıcıda yakınlaştırılabilir. Bu özellik 10.0.12 sürümünde mevcuttur. |
-| Yakınlaştırma ölçeği | Bir ondalık sayı | Bu özellik, resimlerin yakınlaştırılacağı ölçek faktörünü belirtir. Örneğin, değer **2,5** olarak ayarlanırsa, resimler 2,5 kat büyütülür.|
-| Tam ekran | **Doğru** veya **yanlış** | Bu özellik, resimlerin tam ekran modunda görüntülenip görüntülenemeyeceğini belirtir. Tam ekran modunda, yakınlaştırma özelliği etkinse resimler daha da büyütülebilir. Bu özellik Commerce 10.0.13 sürümünde sunulmaktadır. |
+| Yakınlaştırma faktörü | Bir ondalık sayı | Bu özellik, resimlerin yakınlaştırılacağı ölçek faktörünü belirtir. Örneğin, değer **2,5** olarak ayarlanırsa, resimler 2,5 kat büyütülür. |
+| Tam ekran | **Doğru** veya **yanlış** | Bu özellik, resimlerin tam ekran modunda görüntülenip görüntülenemeyeceğini belirtir. Tam ekran modunda, yakınlaştırma özelliği etkinse resimler daha da büyütülebilir. Bu özellik, Commerce 10.0.13 sürümünde bulunur. |
+| Yakınlaştırılmış görüntü kalitesi | İzleme çubuğu denetimi kullanılarak seçilen ve bir yüzdeyi temsil eden, 1 ile 100 arasında bir sayı | Bu özellik, yakınlaştırılmış görüntülerin görüntü kalitesini tanımlar. Yakınlaştırılmış bir görüntünün her zaman mümkün olan en yüksek çözünürlüğü kullanmasını sağlamak için %100'e ayarlanabilir. Bu özellik, kayıpsız biçim kullandıkları için PNG dosyalarına uygulanamaz. Bu özellik, Commerce 10.0.19 sürümünden itibaren bulunur. |
 | Görüntüler | Site oluşturucu Ortam Kitaplığı'ndan seçilen resimler | Bir üründen oluşturulmalarının yanı sıra, resimler bir ortam galerisi modülü için de seçilebilir. Bu resimler kullanılabilir ürün resimlerine eklenir. Bu özellik Commerce 10.0.12 sürümünde sunulmaktadır. |
 | Küçük resim yönü | **Dikey** veya **Yatay** | Bu özellik, küçük resimlerin dikey şeritte mi, yoksa yatay şeritte mi gösterileceğini belirtir. |
+| Varyant için ana ürün görüntülerini gizle | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa , varyant seçildiği zaman, varyantın hiç görüntüsü yoksa ana ürünün görüntüleri gizlenir. Bu özellik, varyantları olmayan ürünleri etkilemez. |
 
 Aşağıdaki çizimde, tam ekran ve yakınlaştırma seçeneklerinin kullanılabilir olduğu bir ortam galerisi modülü örneği gösterilmektedir.
 

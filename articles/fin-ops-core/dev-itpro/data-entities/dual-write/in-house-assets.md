@@ -1,6 +1,6 @@
 ---
-title: Servis sağlanacak şirket içi varlıklar
-description: Bu konuda, Microsoft Dynamics 365 Field Service'ı hem müşteri varlıklarına, hem de şirket içi varlıklara servis sağlamak amacıyla nasıl kullanabileceğiniz açıklanmaktadır.
+title: Servis gerçekleştirilecek şirket içi varlıklar
+description: Bu konuda, Microsoft Dynamics 365 Field Service'i hem müşteri varlıklarına hem de şirket içi varlıklara hizmet sağlamak için nasıl kullanabileceğiniz açıklanmıştır.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ebda6b5679ec601513fb6d046725b396e69fe0f3
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748605"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941426"
 ---
 # <a name="in-house-assets-for-servicing"></a>Servis gerçekleştirilecek şirket içi varlıklar
 
@@ -31,7 +31,7 @@ ms.locfileid: "5748605"
 
 Microsoft Dynamics 365 Field Service, müşteri varlıklarına servis sağlamak üzere tasarlanmıştır. Dynamics 365 Supply Chain Management için varlık yönetimi, şirket içi kıymetlere bakım yapmak üzere tasarlanmıştır. Bu iki uygulamanın tümleştirilmesi, Field Service'ı hem de şirket içi varlıklara hem de müşteri varlıklarına servis sağlamak üzere kullanmanıza olanak tanır. Ayrıca, işelm yapılacak yerleşim veya hiyerarşiye dayalı olarak varlıkları sınıflandırabilir ve servis işlemini ayrıntılı düzeyde izleyebilirsiniz.
 
-Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Management'ı Tümleştirme](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration).
+Daha fazla bilgi için bkz. [Dynamics 365 Field Service ile Supply Chain Management'ı Tümleştirme](/dynamics365/field-service/supply-chain-field-service-integration).
 
 ## <a name="templates"></a>Şablonlar
 

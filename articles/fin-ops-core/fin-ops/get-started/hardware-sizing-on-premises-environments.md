@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748757"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923492"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -134,7 +134,7 @@ Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir. 
 
 ## <a name="environment-orchestrator"></a>Ortam Orchestrator
 
-Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz. [Service Fabric tek küme dağıtımınızı hazırlayın ve planlayın](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz. [Service Fabric tek küme dağıtımınızı hazırlayın ve planlayın](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
 

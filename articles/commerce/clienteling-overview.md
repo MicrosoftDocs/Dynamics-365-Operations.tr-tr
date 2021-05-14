@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800459"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937024"
 ---
 # <a name="clienteling-overview"></a>Müşteri rehberliğine genel bakış
 
@@ -60,7 +60,7 @@ Satış yetkilileri, her etkileşimden önce başvurulabilecek genel müşteri b
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Dynamics 365 Customer Insights'le Tümleştirme
 
-Perakendeciler Dynamics 365 Customer Insights uygulamasını kullanarak müşterilerin perakendecinin markasıyla etkileşim kurmak için kullandıkları çeşitli sistemlerden veri toplayabilir. Ardından bu verileri müşterinin tek bir görünümünü oluşturmak ve öngörüler türetmek için kullanabilirler. Customer Insights'ın Commerce ile tümleştirilmesi, perakendecilerin müşteri defterindeki müşteri kartında gösterilmesi gereken bir veya daha fazla ölçümü seçmelerine olanak tanır. Örneğin, perakendeciler bir müşteri için "kayıp olasılığını" hesaplamak ve "sonraki en iyi eylemi" tanımlamak için Customer Insights'taki verileri kullanabilir. Bu değerler ölçüm olarak tanımlanırsa müşteri kartında gösterilebilir ve satış yetkililerine önemli bilgiler sağlayabilir. Customer Insights hakkında daha fazla bilgi için [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview) belgelerine bakın. Ölçümler hakkında daha fazla bilgi için bkz. [Ölçümler](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Perakendeciler Dynamics 365 Customer Insights uygulamasını kullanarak müşterilerin perakendecinin markasıyla etkileşim kurmak için kullandıkları çeşitli sistemlerden veri toplayabilir. Ardından bu verileri müşterinin tek bir görünümünü oluşturmak ve öngörüler türetmek için kullanabilirler. Customer Insights'ın Commerce ile tümleştirilmesi, perakendecilerin müşteri defterindeki müşteri kartında gösterilmesi gereken bir veya daha fazla ölçümü seçmelerine olanak tanır. Örneğin, perakendeciler bir müşteri için "kayıp olasılığını" hesaplamak ve "sonraki en iyi eylemi" tanımlamak için Customer Insights'taki verileri kullanabilir. Bu değerler ölçüm olarak tanımlanırsa müşteri kartında gösterilebilir ve satış yetkililerine önemli bilgiler sağlayabilir. Customer Insights hakkında daha fazla bilgi için [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview) belgelerine bakın. Ölçümler hakkında daha fazla bilgi için bkz. [Ölçümler](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Müşteri rehberliğini ayarlama
 
@@ -73,7 +73,7 @@ Ortamınızda müşteri rehberliği işlevini açmak için aşağıdaki adımlar
 2. **Şimdi etkinleştir** öğesini seçerek **Müşteri rehberliği** özelliğini açın.
 3. **Commerce Parametreleri** sayfasında, **Numara serisi** sekmesinde, **Müşteri defteri tanımlayıcısı** satırını seçin. Ardından **Numara serisi kodu** alanından bir numara serisi seçin. Sistem, bu numara serisini müşteri defterlerine bir kod atamak için kullanır.
 4. **Kaydet**'i seçin.
-5. Müşteri defterlerinde yönetilen müşteriler için yakalamak istediğiniz öznitelikleri içeren yeni bir öznitelik grubu oluşturun. Yönergeler için bkz. [Öznitelikler ve öznitelik grupları](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Müşteri defterlerinde yönetilen müşteriler için yakalamak istediğiniz öznitelikleri içeren yeni bir öznitelik grubu oluşturun. Yönergeler için bkz. [Öznitelikler ve öznitelik grupları](./attribute-attributegroups-lifecycle.md).
 
     - Gerekli öznitelikleri **İyileştirilebilir** olarak tanımlayın. Satış yetkilileri daha sonra bu öznitelikleri müşteri defterlerini filtrelemek için kullanabilir.
     - Bu öznitelikler için görüntüleme sırası ayarlayın. Bu görüntüleme sırası, müşteri defterindeki müşteri kartında hangi özniteliklerin gösterilmesi gerektiğini belirler. Görüntüleme sırası 1'in görüntüleme sırası 2'den yüksek olduğu kabul edilir. Bu nedenle, görüntüleme sırası 1 olan öznitelik, görüntüleme sırası 2 olan öznitelikten önce görüntülenir.
@@ -103,18 +103,18 @@ Customer Insights'ın Commerce ile tümleştirilmesini açmak için Commerce'in 
 
 Tümleştirmeyi ayarlamak için aşağıdaki adımları izleyin.
 
-1. Azure portalda, yeni bir uygulama kaydedin ve uygulama adını, uygulama kimliğini ve gizli diziyi not edin. Bu bilgiler, Commerce ve Customer Insights arasında hizmetten hizmete kimlik doğrulaması için kullanılacaktır. Anahtar kasasına kaydetmek için gerekli olacağından gizli diziyi güvenli bir şekilde not edin. Aşağıdaki örnekte, sırasıyla uygulama adı, uygulama kimliği ve gizli dizi için CI_Access_name, CI_Access_AppID, CI_Access_Secret kullanın. Daha fazla bilgi için bkz. [Hızlı başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+1. Azure portalda, yeni bir uygulama kaydedin ve uygulama adını, uygulama kimliğini ve gizli diziyi not edin. Bu bilgiler, Commerce ve Customer Insights arasında hizmetten hizmete kimlik doğrulaması için kullanılacaktır. Anahtar kasasına kaydetmek için gerekli olacağından gizli diziyi güvenli bir şekilde not edin. Aşağıdaki örnekte, sırasıyla uygulama adı, uygulama kimliği ve gizli dizi için CI_Access_name, CI_Access_AppID, CI_Access_Secret kullanın. Daha fazla bilgi için bkz. [Hızlı başlangıç: Microsoft kimlik platformu ile bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Süresi dolmadan parolayı değiştirdiğinizde anımsayabilmenizi sağlayacak adımları atın. Aksi takdirde, tümleştirme beklenmedik şekilde durdurulur.
 
 2. Customer Insights bulut sunucunuza gidin ve yukarıda oluşturulan uygulamanın adını arayın (bu örnekte "CI_Access_name").
-3. Bir Azure Key Vault oluşturup adı ve URL'yi not edin (bu örnekte, "KeyVaultName", "KeyVaultURL"). Yönergeler için bkz. [Hızlı Başlangıç: Azure portalını kullanarak Azure Anahtar Kasasında bir parola ayarlama ve alma](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+3. Bir Azure Key Vault oluşturup adı ve URL'yi not edin (bu örnekte, "KeyVaultName", "KeyVaultURL"). Yönergeler için bkz. [Hızlı Başlangıç: Azure portalını kullanarak Azure Anahtar Kasasında bir parola ayarlama ve alma](/azure/key-vault/quick-create-portal).
 4. Kasaya gizli diziyi (bu örnekte "CI_Access_Secret") kaydedin. Bu gizli dizi kasada saklandığında, gizli dizi bir isim alır. Gizli dizi adını not edin (bu örnekte, "SecretName").
 5. Azure Key Vault'tan gizli diziye erişmek için, uygulama kimliği ve gizli dizi (bu örnekte "KeyVault_Access_AppID" ve "KeyVault_Access_Secret") ile başka bir uygulama oluşturmanız gerekir. Bir daha görüntülenmeyeceği için gizli diziyi güvenli bir şekilde not edin.
 6. Ardından, API'leri kullanarak Key Vault'a Commerce'den erişmek için uygulamaya izin vermeniz gerekir. Azure portalda uygulama sayfasına gidin. **Yönet** bölümünün altında **API izinleri**'ni seçin. **Azure Key Vault**'a erişim için izin ekleyin. Bu izin için **Erişim ilkesi** seçin. Şablonu **Gizli dizi yönetimi** olarak seçin ve **Al**, **Listele**, **Şifresini Çöz** ve **Şifrele** seçeneklerini belirleyin. 
 5. Commerce Headquarters'da, **Sistem yönetimi \> Kurulum \> Key Vault parametreleri**'ne gidin ve anahtar kasası için gerekli bilgileri girin. Ardından Commerce'in anahtar kasasındaki parolalara erişebilmesi için **Anahtar Kasası istemcisi** alanına, 4. adımda kullandığınız uygulama kodunu girin.
-6. 1. adımda oluşturduğunuz uygulamayı güvenli uygulamalar listesine (bazen güvenli liste olarak da adlandırılır) eklemek için Customer Insights'a gidin ve uygulamaya **Görüntüleme** erişimini seçin. Yönergeler için bkz. [İzinler](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. 1. adımda oluşturduğunuz uygulamayı güvenli uygulamalar listesine (bazen güvenli liste olarak da adlandırılır) eklemek için Customer Insights'a gidin ve uygulamaya **Görüntüleme** erişimini seçin. Yönergeler için bkz. [İzinler](/dynamics365/ai/customer-insights/pm-permissions).
 7. Commerce HQ'daki **Sistem yönetimi > Kurulum > Key Vault parametreleri** sayfasında, alanları aşağıda açıklandığı gibi güncelleştirin: 
 
 - **Key Vault URL'si**: "KeyVaultURL" (yukarıdaki 3. adımda).

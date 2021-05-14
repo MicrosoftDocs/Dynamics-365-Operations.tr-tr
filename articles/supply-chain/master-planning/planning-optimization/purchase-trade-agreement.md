@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820430"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961717"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Satınalma ticari sözleşmeleri ile master planlama
 
@@ -67,7 +67,7 @@ Sisteminiz önceki bölümde anlatıldığı şekilde hazırlandıktan sonra, bu
 1. Her bir ilgili ürün için bu yordamı yineleyin.
 
 > [!NOTE]
-> Satınalma ticari anlaşma satırındaki para birimi, Seçili satıcının para birimiyle eşlenmelidir. Master planlama yalnızca satınalma ticari sözleşme satırlarından alınan, para biriminin satıcının para birimiyle eşleştiği bilgileri içerir.
+> Planlama Optimizasyonu, ticari anlaşmaları için birden fazla para birimli satın alımları destekler. **En düşük birim fiyatı** seçeneğini kullanarak bir ticari sözleşme ararken, sistem, ticari anlaşma satırları para birimi ile yasal varlığın muhasebe para birimi arasında bir döviz kuru tanımlandığında, farklı para birimlerine sahip ticari sözleşme satırlarını dikkate alır. Aksi durumda, ticari anlaşma satırı yok sayılır ve master planlama sırasında hata görürsünüz. Bu nedenle, master planlama fiyatların muhasebe para birimine dönüştürülebileceği tüm ilgili satınalma ticari sözleşme satırlarından bilgileri içerir.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Nasıl En Iyi duruma getirme planlanmasına ilişkin örnekler satıcı ve sağlama sürelerini bulur
 

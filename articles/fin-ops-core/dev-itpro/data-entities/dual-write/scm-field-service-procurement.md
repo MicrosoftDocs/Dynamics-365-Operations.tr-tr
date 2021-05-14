@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750702"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941121"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Supply Chain Management ve Field Service arasında tedariki tümleştirme
 
@@ -46,7 +46,7 @@ Supply Chain Management'ı Field Service ile tümleştirmek için aşağıdaki b
 ### <a name="prerequisites"></a>Önkoşullar
 
 - **Çift yazma**: Daha fazla bilgi için bkz. [Çift yazma giriş sayfası](dual-write-home-page.md#dual-write-setup).
-- **Dynamics 365 Field Service**: Daha fazla bilgi için bkz. [Dynamics 365 Field Service yükleme](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Dynamics 365 Field Service**: Daha fazla bilgi için bkz. [Dynamics 365 Field Service yükleme](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Microsoft Dataverse'te etkinleştirildiklerinde, çift yazma ve Field Service ortamı yeni meta veriler, formlar, görünümler ve mantık ile geliştiren birçok çözüm katmanı sunar. Bu çözümler genellikle burada verilen sırayla yüklense de herhangi bir sırada etkinleştirilebilir:
 

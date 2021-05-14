@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908842"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941238"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Mali içgörüler için yapılandırma (önizleme)
 
@@ -42,228 +42,36 @@ Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microso
 
 ## <a name="configure-dataverse"></a>Dataverse'ı yapılandırma
 
-Sonraki manuel yapılandırma adımlarını tamamlayabilir veya sağlanan Windows PowerShell betiğini kullanarak yapılandırma işlemini hızlandırabilirsiniz. PowerShell betik dosyasının çalışması bittiğinde size Mali içgörüleri yapılandırmak için kullanabileceğiniz değerler sunar. 
+Finance Insights için Dataverse'ü yapılandırmak için aşağıdaki adımları kullanın.
 
+1. LCS'deki ortam sayfasını açın ve **Power Platform Tümleştirme** bölümünün ayarlı olduğunu doğrulayın.
+    1. Ayarlıysa Dynamics 365 Finance Ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir. Dataverse ortam adını kopyalayın.
+    2. Ayarlı değilse aşağıdaki adımları izleyin:
+        1. Power Platform Tümleştirme bölümünde **Kurulum** düğmesini seçin. Ortamın kurulumu bir saat kadar sürebilir.
+        2. Dataverse ortamı başarıyla ayarlandığında Dynamics 365 Finance Ortamına bağlı Dataverse ortam adının listelenmiş olması gerekir. Dataverse ortam adını kopyalayın.
 > [!NOTE]
-> Betik dosyasını çalıştırmak için bilgisayarınızda PowerShell'i açın. PowerShell sürüm 5 gerekebilir. Microsoft Azure CLI "Try it" seçeneği çalışmayabilir.
+> Ortam kurulumu tamamladıktan sonra, **Uygulamalar için CDS bağlantısı** düğmesini **SEÇMEYİN**. Bu, Finance Insights için gerekli değildir ve LCS'de gerekli Ortam Eklentilerini tamamlama özelliğini devre dışı bırakır.
 
-# <a name="manual-configuration-steps"></a>[El ile yapılandırma adımları](#tab/configuration-steps)
-
-1. [Power Platform yönetim merkezini](https://admin.powerplatform.microsoft.com/)açın ve aynı Active Directory kiracısında yeni bir Dataverse ortamı oluşturmak için aşağıdaki adımları izleyin:
+2. [Power Platform yönetim merkezini](https://admin.powerplatform.microsoft.com/)açın ve aynı Active Directory kiracısında yeni bir Dataverse ortamı oluşturmak için aşağıdaki adımları izleyin:
 
     1. **Ortamlar** sayfasını açın.
 
         [![Ortamlar sayfası](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
-    2. **Yeni ortam**'ı seçin.
-    3. **Tür** alanında **Korumalı alan**'ı seçin.
-    4. **Veritabanı Oluştur** seçeneğini **Evet** olarak ayarlayın.
-    5. **Sonraki**'yi seçin.
-    6. Kuruluşunuz için dili ve para birimini seçin.
-    7. Diğer alanlar için varsayılan değerleri kabul edin.
-    8. **Kaydet**'i seçin.
-    9. **Ortamlar** sayfasını yenileyin.
-    10. **Durum** alanının değeri **Hazır** olarak güncelleştirilene kadar bekleyin.
-    11. Dataverse kuruluş kodunu not edin.
-    12. Ortamı seçin ve sonra **Ayarlar**'ı seçin.
-    13. **Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.
-    14. Üst gezinti çubuğunda, **Ayarlar**'ı seçin ve ardından **Özelleştirmeler**'i seçin.
-    15. **Geliştirici Kaynakları**'nı seçin.
-    16. **Dataverse kuruluş kimliği** değerini kopyalayın.
-    17. Tarayıcının adres çubuğunda Dataverse kuruluşunun URL'sini not edin. Örneğin, URL şu şekilde olabilir: `https://org42b2b3d3.crm.dynamics.com`.
+    2. Yukarıda oluşturulan Dataverse ortamını seçin ve ardından **Ayarlar**'ı seçin.
+    3. **Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.
+    4. Üst gezinti çubuğunda, **Ayarlar**'ı seçin ve ardından **Özelleştirmeler**'i seçin.
+    5. **Geliştirici Kaynakları**'nı seçin.
+    6. **Dataverse kuruluş kimliği** değerini kopyalayın.
+    7. Tarayıcının adres çubuğunda Dataverse kuruluşunun URL'sini not edin. Örneğin, URL şu şekilde olabilir: `https://org42b2b3d3.crm.dynamics.com`.
 
-2. Nakit akışı tahminleri veya bütçe tahminleri özelliğini kullanmayı planlıyorsanız kuruluşunuzun ek açıklama sınırını en az 50 megabayt (MB) olarak güncelleştirmek için aşağıdaki adımları izleyin:
+3. Nakit akışı tahminleri veya bütçe tahminleri özelliğini kullanmayı planlıyorsanız kuruluşunuzun ek açıklama sınırını en az 50 megabayt (MB) olarak güncelleştirmek için aşağıdaki adımları izleyin:
 
     1. [Power Apps portalını](https://make.powerapps.com) açın.
     2. Yeni oluşturduğunuz ortamı seçin ve sonra **Gelişmiş ayarlar**'ı seçin .
     3. **Ayarlar \> E-posta Yapılandırması**'nı seçin.
     4. **Maksimum dosya boyutu** alanının değerini **51.200** olarak değiştirin. (Değer, kilobayt \[KB\] cinsinden ifade edilir.)
     5. Yaptığınız değişiklikleri kaydetmek için **Tamam**'ı seçin.
-
-# <a name="windows-powershell-configuration-script"></a>[Windows PowerShell yapılandırma betik dosyası](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
 
 ## <a name="configure-the-azure-setup"></a>Azure kurulumunu yapılandırma
 
@@ -295,11 +103,14 @@ Windows PowerShell betik dosyasını kullanarak Azure yapılandırmayla ilgili b
 
 1. [Azure portalda](https://portal.azure.com) hedef Azure aboneliğinize gidin. **Arama** alanının sağında bulunan **Cloud Shell** düğmesini seçin.
 2. **PowerShell**'i seçin.
-3. İstenirse, depolama alanı oluşturun. Ardından, Windows PowerShell betiğini oturuma yükleyin.
-4. Betik dosyasını çalıştırın.
-5. Betik dosyasını çalıştırmak için istemleri izleyin.
-6. LCS'ye **Data Lake'e dışarı aktar** eklentisini yüklemek için betik dosyası çıktısındaki bilgileri kullanın.
-7. Finance'teki **Veri bağlantıları** sayfasında varlık deposunu etkinleştirmek için betik dosyası çıktısındaki bilgileri kullanın (**Sistem yönetimi \> Sistem parametreleri \> Veri bağlantıları**).
+3. İstenirse depolama alanı oluşturun.
+4. **Azure CLI** sekmesine gidin ve **Kopyala**'yı seçin.  
+5. Not defterini açın ve PowerShell betiğini yapıştırın. Dosyayı, ConfigureDataLake.ps1 olarak kaydedin.
+6. Cloud Shell'de yükleme için menü seçeneğini kullanarak Windows PowerShell betiğini oturuma yükleyin.
+7. .\ConfigureDataLake.ps1 betiğini çalıştırın.
+8. Betik dosyasını çalıştırmak için istemleri izleyin.
+9. LCS'ye **Data Lake'e dışarı aktar** eklentisini yüklemek için betik dosyası çıktısındaki bilgileri kullanın.
+10. Finance'teki **Veri bağlantıları** sayfasında varlık deposunu etkinleştirmek için betik dosyası çıktısındaki bilgileri kullanın (**Sistem yönetimi \> Sistem parametreleri \> Veri bağlantıları**).
 
 ### <a name="manual-setup"></a>El ile kurulum
 
@@ -975,24 +786,24 @@ Eklenti birkaç dakika içinde yüklenir.
 
     | Değer                                                    | Tanım |
     |----------------------------------------------------------|-------------|
-    | CDS Kuruluş URL'si                                     | Dataverse kurulumunun Dataverse kuruluşu URL'si. Bu değeri bulmak için [Power Apps portalını](https://make.powerapps.com) açın, sağ üst köşede **Ayarlar** düğmesini (dişli simgesi) seçin, **Gelişmiş ayarlar**'ı seçin ve URL'yi kopyalayın. (URL "dynamics.com" ile biter) |
-    | CDS Kuruluş Kimliği                                               | Dataverse kurulumunun ortam kimliği. Bu değeri bulmak için [Power Apps portalını](https://make.powerapps.com) açın, sağ üst köşede **Ayarlar** düğmesini (dişli simgesi) seçin, **Özelleştirmeler \> Geliştirici Kaynakları \> Kurulum Referansı Bilgileri** öğesini seçin ve **Kimlik** değerini kopyalayın. |
-    | CDS Kiracı Kimliği (AAD'den Dizin Kimliği)               | Dataverse kurulumunun kiracı kimliği. Bu değeri bulmak için [Azure portalı](https://portal.azure.com) açın , **Azure Active Directory** öğesine gidin ve **Kiracı Kimliği** değerini kopyalayın. |
-    | Sistem yöneticisi rolüne sahip kullanıcı nesnesi kimliğini belirtin | Dataverse'te kullanıcının Azure AD kullanıcı nesnesi kimliği. Bu kullanıcı, Dataverse kurulumunun sistem yöneticisi olmalıdır. Bu değeri bulmak için, [Azure portalı](https://portal.azure.com) açın, **Azure Active Directory \> Kullanıcılar** bölümüne gidin, kullanıcıyı seçin ve **Kimlik** bölümünde **Nesne Kimliği** değerini kopyalayın. |
-    | Bu kiracı için varsayılan CDS ortamı mı?      | Dataverse kurulumu, oluşturulan ilk üretim kurulumu ise bu onay kutusunu seçin. Dataverse kurulumu el ile oluşturulmuşsa bu onay kutusunun işaretini kaldırın. |
-
+    | CDS Kuruluş URL'si                                     | Yukarıdan kopyalanan Dataverse kuruluş URL'si. |
+    | CDS Kuruluş Kimliği                                               | Yukarıdan kopyalanan Dataverse kuruluş kimliği. |
+5. **Bu, Kiracı için varsayılan CDS ortamı mı**'nı etkinleştirin.
+    
 ## <a name="configure-the-entity-store"></a>Varlık deposunu yapılandırma
 
 Finance ortamınızda varlık deposunu ayarlamak için bu adımları izleyin.
 
 1. **Sistem Yönetimi \> Kurulum \> Sistem parametreleri \> Veri bağlantıları** bölümüne gidin.
-2. **Data Lake tümleştirmesini etkinleştir** seçeneğini **Evet** olarak ayarlayın.
-3. Aşağıdaki anahtar kasası alanlarını ayarlayın:
+2. Aşağıdaki anahtar kasası alanlarını ayarlayın:
 
     - **Uygulama (istemci) kimliği**: Daha önce oluşturduğunuz uygulama istemcisi kimliğini girin.
     - **Uygulama Gizli Anahtarı**: Daha önce oluşturduğunuz uygulama için kaydettiğiniz gizli anahtarı girin.
     - **DNS adı**: Daha önce oluşturduğunuz uygulamanın uygulama ayrıntıları sayfasında Etki Alanı Adı Sistemi (DNS) adını bulabilirsiniz.
     - **Gizli anahtar adı**: **storage-account-connection-string** dizesini girin.
+3. **Data Lake tümleştirmesi**'ni etkinleştirin.
+4. **Azure Key Vault'u test et**'i seçin ve hata olmadığını doğrulayın.
+5. **Azure depolamayı test et**'i seçin ve hata olmadığını doğrulayın.
 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 

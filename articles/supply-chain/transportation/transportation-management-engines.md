@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828382"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920121"
 ---
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
@@ -94,8 +94,14 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | 1        | Kaynak posta kodu            | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 2        | Hedef il             | Atama | Dize    | Eyalet          |           |
 | 3        | Hedef başlangıç posta kodu | Atama | Dize    | Posta Kodu    | Seçildi  |
-| 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçildi  |
-| 5        | Hedef ülke           | Atama | Dize    | Ülke/bölge |           |
+| 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçili  |
+| 5        | Hedef ülke           | Assignment | Dize    | Ülke/bölge |           |
+
+### <a name="whitepaper"></a>Teknik inceleme
+
+Daha fazla bilgi için, aşağıdaki teknik incelemeyi indirin (AX2012'yi desteklemek için yazılmıştır ancak Dynamics 365 Supply Chain Management için de geçerlidir)
+
+- [Taşıma yönetimi altyapıları](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

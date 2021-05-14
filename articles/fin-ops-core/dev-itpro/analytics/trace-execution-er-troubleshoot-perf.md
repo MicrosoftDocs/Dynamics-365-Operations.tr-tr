@@ -2,7 +2,7 @@
 title: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
 description: Bu konu, performans sorunlarını gidermek amacıyla elektronik raporlama (ER) içindeki performans izleme özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754230"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944665"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -47,10 +47,10 @@ Ayrıca, aşağıdaki dosyaları da indirip yerel olarak depolamalısınız.
 
 | Dosya                                  | İçerik                               |
 |---------------------------------------|---------------------------------------|
-| Performans izleme modeli sürüm 1     | [Örnek ER verisi modeli yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Performans izleme meta veri sürüm 1  | [Örnek ER meta verisi yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Performans izleme eşleştirme sürümü 1.1 | [Örnek ER model eşleme yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Performans izleme biçimi sürümü 1.1  | [Örnek ER biçim yapılandırması](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Performans izleme modeli sürüm 1     | [Örnek ER verisi modeli yapılandırması](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Performans izleme meta veri sürüm 1  | [Örnek ER meta verisi yapılandırması](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Performans izleme eşleştirme sürümü 1.1 | [Örnek ER model eşleme yapılandırması](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Performans izleme biçimi sürümü 1.1  | [Örnek ER biçim yapılandırması](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>ER parametrelerini yapılandırma
 
@@ -84,7 +84,7 @@ Oluşturulan ER performans izlemeleri, ER biçim Tasarımcısı ve ER eşleme Ta
 Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözümü tasarladığınızı varsayın. Şu anda, seçilen satıcı için hareketleri **Satıcı hareketleri** sayfasında bulabilirsiniz (**Borç hesapları \> Satıcılar \> Tüm satıcılar**'a gidin, bir satıcı seçin ve Eylem Panosu üzerinde, **Satıcı** sekmesinde, **Hareketler** grubunda, **Hareketler**'i seçin). Ancak, tüm satıcı hareketinin elektronik bir belgede XML biçiminde aynı anda olmasını istersiniz. Bu çözüm, gerekli veri modelini, meta verileri, model eşlemeyi ve biçim bileşenlerini içeren birkaç ER yapılandırmasından oluşur.
 
 1. Şirketiniz için sağlanan RCS örneğine oturum açın.
-2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için, bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) bakın.
+2. Bu kılavuzda, **Litware, Inc.** örnek şirket için yapılandırmalar oluşturacak ve değiştireceksiniz. Bu nedenle, bu konfigürasyon sağlayıcısının RCS'ye eklenmiş olduğundan ve etkin olarak seçildiğinden emin olun. Yönergeler için, bkz. [Yapılandırma sağlayıcıları oluşturmak ve bunları etkin olarak işaretlemek yordamına](tasks/er-configuration-provider-mark-it-active-2016-11.md) bakın.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları** kutucuğunu seçin.
 4. **Yapılandırmalar** sayfasında, önkoşul olarak karşıdan yüklediğiniz ER yapılandırmalarını aşağıdaki sırada içe aktarın: veri modeli, meta veriler, model eşleme, biçim. Her bir yapılandırma için şu adımları izleyin:
 
@@ -101,7 +101,7 @@ ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şim
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER yapılandırmalarını RCS'den Finance and Operations içine aktarma
 
 1. Uygulama örneğinizde oturum açın.
-2. Bu kılavuzda, yapılandırmaları RCS örneğinizden (ER bileşenlerinizi tasarladığınız yerden) örneğinize (test edeceğiniz ve son olarak kullanacağınız) içe aktarırsınız. Bu nedenle, gerekli tüm yapıların hazırlandığından emin olmalısınız. Talimatlar için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations) yordamı.
+2. Bu kılavuzda, yapılandırmaları RCS örneğinizden (ER bileşenlerinizi tasarladığınız yerden) örneğinize (test edeceğiniz ve son olarak kullanacağınız) içe aktarırsınız. Bu nedenle, gerekli tüm yapıların hazırlandığından emin olmalısınız. Talimatlar için bkz. [Düzenleyici Yapılandırma Hizmeti'nden (RCS) Elektronik raporlama (ER) yapılandırmalarını içe aktarma](rcs-download-configurations.md) yordamı.
 3. Yapılandırmaları RCS'den uygulamada içe aktarmak için aşağıdaki adımları izleyin:
 
     1. **Elektronik raporlama** çalışma alanında, **Litware, Inc.** yapılandırma sağlayıcısının döşemesi üzerinde **Depolar**'ı seçin.

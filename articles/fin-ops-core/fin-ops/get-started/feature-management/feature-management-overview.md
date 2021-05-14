@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754812"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923319"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -140,7 +140,7 @@ Aşağıdaki örnekler, veri içe aktarmak için **Özellik Yönetimi** varlığ
 
 ## <a name="new-features-are-optional-for-12-months"></a>12 ay için yeni özellikler isteğe bağlıdır
 
-Kritik olmayan yeni bir özellik yüklendiğinde, 12 aylık bir dönem için isteğe bağlı olacaktır. Bu, size ve kuruluşunuzun, bir özelliği ne zaman alıp günlük operasyonlarınıza karşı test etmenizi sağlamak için size önceden planlama yapmanızı sağlar. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleriyle ilgili SSS](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Kritik olmayan yeni bir özellik yüklendiğinde, 12 aylık bir dönem için isteğe bağlı olacaktır. Bu, size ve kuruluşunuzun, bir özelliği ne zaman alıp günlük operasyonlarınıza karşı test etmenizi sağlamak için size önceden planlama yapmanızı sağlar. Daha fazla bilgi için bkz. [Bir Sürüm hizmeti güncelleştirmeleriyle ilgili SSS](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>ISV özelliklerini veya özel özellikleri açmak için Özellik yönetimini kullanma
 
@@ -161,7 +161,7 @@ Hayır, özelliği zorunlu hale getirme otomatik bir eylem değildir. Ürün eki
 Güncelleştirme sürümü zamanlaması değişkendir, ortam güncelleştirme zamanlaması değişkendir ve müşteriler bazı güncelleştirmeleri atlamayı isteyebilir. Sonuç olarak, belirli tarihler belirlenmesi zordur. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Zorunlu hale getirilen özellikler için belgeler nerededir? 
-Belgeler, uygulama takımlarından gelir. Bunlar genellikle [Kaldırılan veya kullanım dışı bırakılan özellikler](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features) bölümünde belirtilir. 
+Belgeler, uygulama takımlarından gelir. Bunlar genellikle [Kaldırılan veya kullanım dışı bırakılan özellikler](../../../dev-itpro/migration-upgrade/deprecated-features.md) bölümünde belirtilir. 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Bir özelliğin zorunlu olarak etkinleştirileceğini belirten bir ürün içi bildirim veya sinyal var mıdır? 
 Özelliği zorunlu hale getirme ile ilgili bir bildirim mekanizması şu anda mevcut değildir.

@@ -2,7 +2,7 @@
 title: ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1 - Biçimi tasarlama)
 description: Bu konuda, OPENXML çalışma sayfası (Excel) dosyaları olarak rapor oluşturmak için Elektronik raporlama (ER) biçiminin nasıl yapılandırılacağı açıklanmaktadır. (1. Bölüm)
 author: NickSelin
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af3d7bdf6bf0de371fa0896bf5f668c98498640d
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745023"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944617"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1 - Biçimi tasarlama)
 
@@ -34,7 +34,7 @@ Bu adımları tamamlamak için önce bu üç görev kılavuzunu tamamlamalısın
 
 "ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2 - Model eşleme)"
 
-Ayrıca [Örnek Finansal Boyutlar Web Hizmeti Raporu](https://go.microsoft.com/fwlink/?linkid=862266)'nda bir örnek raporla birlikte şablonu indirmeniz ve yerel bir kopyasını oluşturmanız gerekir.
+Ayrıca [Örnek Finansal Boyutlar Web Hizmeti Raporu](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx)'nda bir örnek raporla birlikte şablonu indirmeniz ve yerel bir kopyasını oluşturmanız gerekir.
 
 Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

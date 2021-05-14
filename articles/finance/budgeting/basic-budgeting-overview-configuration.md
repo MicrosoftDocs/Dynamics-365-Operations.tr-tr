@@ -1,8 +1,8 @@
 ---
 title: Bütçelemeye genel bakış
 description: Microsoft Dynamics 365 Finance içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827470"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960061"
 ---
 # <a name="budgeting-overview"></a>Bütçelemeye genel bakış
 
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 Finance sürüm 10.0.7'de (Ocak 2020) sunulan işlev, bü
 
 Yalnızca **miktar için bütçe kaydı girişleri** özelliği bütçe kaydı girişini yalnızca miktar tutarları ile deftere nakletmenize olanak tanır. Örneğin, miktarı 32 ve fiyatı 0 olan bir bütçeyi (bu durumda tutar 0 olur) deftere nakledebilirsiniz. Bu miktarı, miktar başına bir fiyat belirlemek için bir mali rapor bağlamında kullanabilirsiniz. Bu özelliğin bir parçası olarak hiçbir sorgu veya raporun güncelleştirilmediğini unutmayın; özellik yalnızca sıfır tutarını deftere nakletmenizi sağlar.
 
-**Tutar türü için bütçe kaydı girişleri varsayılanı** özellği bir bütçe kaydı girişi içindeki varsayılan tutar türünün gider dışındaki bir tutar olmasına olanak sağlar. Ana hesap türü gider olduğunda, bütçe kayıt girişi satırı varsayılan olarak giderolacaktır; ana hesap türü gider olduğunda varsayılan olarak gelir ve diğer tüm hesap türleri için varsayılan olarak gider olacaktır.
+**Tutar türü için bütçe kaydı girişleri varsayılanı** özellği bir bütçe kaydı girişi içindeki varsayılan tutar türünün gider dışındaki bir tutar olmasına olanak sağlar. Ana hesap türü gider olduğunda, bütçe kayıt girişi satırı varsayılan olarak gider olacaktır; ana hesap türü gelir olduğunda varsayılan olarak gelir ve diğer tüm hesap türleri için varsayılan olarak gider olacaktır.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Bütçe ile Gerçek tutar izlemek için çalışma alanları ve sorgulama sayfaları kullanma
 Bütçe Yöneticisi **genel muhasebe bütçeleri ve tahminleri** çalışma alanında geçerli bir bütçe durumunu gözden geçirebilir. **Bütçeyi aşan gider** ve **bütçenin altında gelir** sekmeleri bütçe hedefleri karşılanmadığı veya eşiğe yaklaştığı mali boyut birleşimlerinin hızlı bir görünümünü sağlar. Bu sekmelerde kullanılan bütçe eşik yüzdesi ve mali boyut kümelerini **Çalışma alanımı yapılandır**'ı tıklatarak kişiselleştirebilirsiniz. **birim yöneticileri** tıklatarak bu sekmelerinde seçili belirli finansal boyut birleşimlerinden sorumlu çalışanları görebilirsiniz. Örneğin, İşlemler bölümünün gider bütçesinin bütçe eşiği üzerine gittiğini görürseniz, sorunu tartışmak için İşlemler bölüm yöneticisini kolayca bulabilir ve görüşebilirsiniz. 

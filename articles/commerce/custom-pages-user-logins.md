@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799457"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936792"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -32,7 +32,7 @@ Dynamics 365 Commerce'te kullanıcı oturum açma akışlarını işlemek amacı
 Özel Commerce sayfaları oturum açma, kayıt, hesap profili düzenleme, parola sıfırlama veya genel AAD modülü kullanılarak oluşturulabilir. Bu özel sayfalar için yayınlanan sayfa URL'lerine, Azure portalında Azure AD B2C ilkesi yapılandırmalarında başvurulmalıdır.
 
 > [!WARNING] 
-> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
+> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
 
 >Commerce sürüm 10.0.15 veya üzeri için modül kitaplığı önerilen B2C Kullanıcı akışlarıyla kullanılmalıdır. Azure AD B2C'de sunulan varsayılan kullanıcı ilkesi sayfaları da kullanılabilir ve Şirket markalaması ile ilgili ek arka plan görüntüsü, amblem ve arka plan renk değişikliklerine izin verir. Tasarım yetenekleri daha kısıtlı olsa da varsayılan kullanıcı ilkesi sayfaları, adanmış özel sayfalar oluşturup yapılandırmadan, Azure AD B2C ilkesi işlevselliği sağlar. 
 

@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 826cee7b1e30020aec99f6148dd9ab16f126c417
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7917f36d8ff3c1ae2d37c5390806ef82771b5211
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839137"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920049"
 ---
 # <a name="rebate-management-module-overview"></a>İndirim yönetimi modülüne genel bakış
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 İndirim, kesintiler ve kâr paylarını hesaplayabilmek için işiniz ve müşterileriniz ya da satıcılarınız arasında kontratlar, anlaşmalar veya sözleşmeler oluşturmak için **indirim yönetimi** modülünü kullanabilirsiniz. İndirim yönetimi, indirim ve kesinti işlemlerini kullanıcıların etkili şekilde oluşturabilecekleri, gözden geçirecekleri ve işleyebilecekleri merkezi bir konumda izler ve korur.
 

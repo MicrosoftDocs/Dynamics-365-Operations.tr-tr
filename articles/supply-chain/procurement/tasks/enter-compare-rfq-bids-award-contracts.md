@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812002"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920593"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ tekliflerini girip karşılaştırma ve işi verme
 
@@ -32,7 +32,7 @@ Teklifi satıcı veya tedarik uzmanı olarak girebilirsiniz. Daha fazla bilgi i�
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Bir satıcı olarak yanıt girme
 
-1. Panoda, **Satıcı teklifi**'ni seçin.
+1. **Satıcı işbirliği \> Çalışma alanları \> Satıcı teklifi**'ne gidin.
 2. **Yeni teklif davetleri** listesinde, henüz gönderilmiş bir RFQ bulun. Neyin istenmiş olduğunu incelemek için RFQ'yu seçin.
 3. Eklenmiş ekleri gözden geçirmek için **RFQ ekleri**'ni seçin.
 4. Alanları düzenlenebilir yapmak için **Teklif**'i seçin. **Teklif ilerlemesi** alanının **Satıcı güncelleştiriliyor** olarak ayarlandığından emin olun.

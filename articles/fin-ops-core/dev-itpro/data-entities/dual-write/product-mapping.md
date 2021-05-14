@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750752"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941208"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -124,7 +124,7 @@ Dynamics 365 Sales'den ürün aileleri oluşturma, ürünlerin çift yazma eşit
 
 Ürünün farklı ürün boyutları (örneğin, ürün boyutu olarak Boyut ve Renk boyutu bulunan bir ana ürün) olduğunda, her ayrı ürün (her bir ürün çeşidi) bu ürün boyutlarının bir birleşimi olarak tanımlanır. Örneğin, ürün numarası B0001 extra small beden siyah tişört ve ürün numarası B0002 small beden siyah tişörttür. Bu durumda, ürün boyutlarının var olan birleşimleri tanımlanmıştır. Örneğin, önceki örnekteki Tişört extra small ve siyah, small ve siyah, medium ve siyah veya large ve siyah olabilir, ancak extra large ve siyah olamaz. Başka bir deyişle, bir ana ürünün alabileceği ürün boyutları belirtilir ve ürün çeşitleri bu değerlere dayalı olarak serbest bırakılabilir.
 
-Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıdaki tablolar oluşturulur ve her ürün boyutu için Dataverse'te eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıdaki tablolar oluşturulur ve her ürün boyutu için Dataverse'te eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](../../../supply-chain/pim/product-information.md).
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -138,7 +138,7 @@ Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıda
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Varsayılan sipariş ayarları ve ürüne özgü varsayılan sipariş ayarları
 
-Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Dataverse'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları konusu](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings)'ndan ulaşabilirsiniz.
+Varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Bu bilgiler varsayılan sipariş ayarları ve ürüne özel varsayılan sipariş ayarları varlığı kullanılarak Dataverse'te kullanılabilir. İşlev hakkında daha fazla bilgiye [Varsayılan sipariş ayarları konusu](../../../../supply-chain/production-control/default-order-settings.md)'ndan ulaşabilirsiniz.
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 

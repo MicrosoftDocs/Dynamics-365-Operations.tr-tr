@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745275"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921435"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -37,7 +37,7 @@ Bu konu, Dynamics 365 for Finance and Operations'dan ve bu ürünün önceki sü
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7, Platform güncelleştirmesi 31 ile
 
@@ -147,7 +147,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Diğer Dynamics ve Office ürünleriyle başlık hizalaması. Daha fazla ayrıntı için, [Office başlığı ile hizalanan güncelleştirilmiş gezinti çubuğu](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Kullanımı sonlandırma/kaldırma nedeni** | Diğer Dynamics ve Office ürünleriyle başlık hizalaması. Daha fazla ayrıntı için, [Office başlığı ile hizalanan güncelleştirilmiş gezinti çubuğu](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Başka bir özellikle mi değiştirildi?**   | 24 platform güncelleştirmesinde başlayarak, arama özelliklerinin bulunduğu yeniden tasarlanmış bir gezinti çubuğu sunulmuştur. |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
@@ -161,7 +161,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuzlar içindeki varsayılan eylemler için eski davranış, beklenmeyen bir sütunun kılavuz sütunları kişiselleştirmeyle yeniden düzenlenmesinden sonra varsayılan eylem bağlantısına sahip olmasına neden olur. Yeni yapışkan varsayılan eylem özelliği bunu düzeltir. Daha fazla bilgi için [kılavuzları Yapışkan varsayılan eylemi](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Kılavuzlar içindeki varsayılan eylemler için eski davranış, beklenmeyen bir sütunun kılavuz sütunları kişiselleştirmeyle yeniden düzenlenmesinden sonra varsayılan eylem bağlantısına sahip olmasına neden olur. Yeni yapışkan varsayılan eylem özelliği bunu düzeltir. Daha fazla bilgi için [kılavuzları Yapışkan varsayılan eylemi](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 21 itibariyle "yapışkan varsayılan eylemler" için bir özellik kullanıma sunulmuştur. Bu özellik, **İstemci performans seçenekleri** sayfasında etkinleştirilebilir. |
 | **Etkilenen ürün alanları**         | Web istemcisindeki kılavuzlar |
 | **Dağıtım seçeneği**              | Tümü |
@@ -172,7 +172,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | "Bunlardan biri" filtreleme deneyimi, Platform güncelleştirmesi 22'de yeniden tasarlandı ve bunun tek "bunlardan biri" filtreleme deneyimi olması planlandı. |
-| **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 22 ile başlayarak, geliştirilmiş bir "bunlardan biri" filtreleme deneyimi **İstemci performans seçenekleri** sayfasında kullanılabilir hale gelmiştir. Daha fazla bilgi için bkz. [En iyi duruma getirilen filtreleme deneyiminden biri](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Başka bir özellikle mi değiştirildi?**   | Platform güncelleştirmesi 22 ile başlayarak, geliştirilmiş bir "bunlardan biri" filtreleme deneyimi **İstemci performans seçenekleri** sayfasında kullanılabilir hale gelmiştir. Daha fazla bilgi için bkz. [En iyi duruma getirilen filtreleme deneyiminden biri](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımdan kalktı: Nisan 2020'den itibaren, iyileştirilmiş "bunlardan biri" deneyimi varsayılan davranış olacaktır, eski davranışa dönme mekanizması sunulmayacaktır. |
@@ -1333,7 +1333,7 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 
 ### <a name="virtual-company-accounts"></a>Sanal şirket hesapları
 
-Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. Sanal şirketler özelliği, kullanıcılara bir dizi şirket tarafından paylaşılabilecek tablolar ayarlama olanağı sağlar. Özelliğin açıklaması için bkz. [Şirket hesapları ve Sanal şirket hesapları](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Bu özellik, tabloları, var olan "gerçek" şirketlerin grupları olan sanal şirketlere atanan koleksiyonlara gruplayarak çalışmaktadır. Sanal şirketteki tüm şirketlerin ilişkilendirilen tablo koleksiyonlarının tabloları içindeki verilere erişebileceği şekilde sorgular oluşturulur.
+Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. Sanal şirketler özelliği, kullanıcılara bir dizi şirket tarafından paylaşılabilecek tablolar ayarlama olanağı sağlar. Özelliğin açıklaması için bkz. [Şirket hesapları ve Sanal şirket hesapları](../../fin-ops/get-started/ax4-content-retired.md). Bu özellik, tabloları, var olan "gerçek" şirketlerin grupları olan sanal şirketlere atanan koleksiyonlara gruplayarak çalışmaktadır. Sanal şirketteki tüm şirketlerin ilişkilendirilen tablo koleksiyonlarının tabloları içindeki verilere erişebileceği şekilde sorgular oluşturulur.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

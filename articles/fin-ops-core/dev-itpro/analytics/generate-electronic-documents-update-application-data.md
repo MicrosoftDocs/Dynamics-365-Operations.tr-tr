@@ -2,7 +2,7 @@
 title: ER kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
 description: Giden elektronik belgeler oluşturmak için uygulamada kullanılabilen Elektronik raporlama (ER) biçimlerini tasarlayabilirsiniz.
 author: NickSelin
-ms.date: 11/01/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863c69446e9a7d447847483ec129788e85a8fd58
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5f66a173c7d66f915a7802e42caf1a36f661eea1
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750046"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944329"
 ---
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>ER kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
 
@@ -35,9 +35,9 @@ Bu işlev ile tek bir ER biçimi giden elektronik belgeleri oluşturmak ve daha 
 
 Bu özellik hakkında daha fazla bilgi için Intrastat raporlama ve arşivleme ayrıntıları hakkında sizi bilgilendirecek ER Uygulama veri güncelleştirmesi ile belgeler oluşturma Görev kılavuzlarını (7.5.4.3 Al/Geliş BT hizmeti/çözüm bileşenleri (10677) iş işleminin parçası olarak) oynatın. Aşağıdaki dosyalar, bu Görev kılavuzlarındaki çeşitli adımları tamamlamak için gereklidir. Bu dosyaları yerel makinenize indirin ve kaydedin.
 
-- [ER veri modeli konfigürasyonu: Intrastat (model)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [ER model eşleme yapılandırması: Intrastat (eşleme)](https://go.microsoft.com/fwlink/?linkid=849038)
-- [ER biçim yapılandırma: Intrastat (biçim)](https://go.microsoft.com/fwlink/?linkid=849038)
+- [ER veri modeli konfigürasyonu: Intrastat (model)](https://download.microsoft.com/download/9/c/e/9ceeacbe-c13e-422e-96f2-594c4a6b45b7/Intrastatmodel.xml)
+- [ER model eşleme yapılandırması: Intrastat (eşleme)](https://download.microsoft.com/download/2/1/d/21ddaaeb-64c5-4408-a35f-1ccb922d40a4/Intrastatmapping.xml)
+- [ER biçim yapılandırma: Intrastat (biçim)](https://download.microsoft.com/download/8/b/b/8bbb8891-e88d-4739-b92a-2d1d2fffcb79/Intrastatformat.xml)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799865"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936668"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>B2B e-ticaret web sitelerindeki iş ortağı kullanıcılarını yönetme
 
@@ -43,7 +43,7 @@ Commerce Headquarters'da B2B e-ticaret yetenekleri özelliğini açmak için şu
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Numara serisi oluşturma ve Commerce paylaşılan parametrelerine ekleme
 
-Numara serileri, ana veri kayıtları ve tanımlayıcı gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Numara serileri hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview).
+Numara serileri, ana veri kayıtları ve tanımlayıcı gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Numara serileri hakkında daha fazla bilgi için bkz. [Numara serilerine genel bakış](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
 
 Bir numara serisi oluşturmak ve bunu Commerce Headquarters'da Commerce paylaşılan parametrelerine eklemek için şu adımları izleyin.
 
@@ -136,7 +136,7 @@ Commerce Headquarters'da iş ortaklarını ve kullanıcıları eklemek için şu
 
 [B2B e-ticaret siteleri için ürün miktarı sınırlarını ayarlama](quantity-limits.md)
 
-[Numara serilerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Numara serilerine genel bakış](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

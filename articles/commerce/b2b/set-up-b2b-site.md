@@ -2,7 +2,8 @@
 title: B2B e-ticaret sitesi ayarlama
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl bir işletmeden işletmeye (B2B) e-ticaret sitesi kurulacağı açıklanmaktadır.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799769"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937518"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>B2B e-ticaret sitesi ayarlama
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 İşletmeler arası (B2B) e-ticaret siteleri, B2B kullanıcısı için iş akışını iyileştiren bazı önemli özellikler sağlar. Bu konuda, Microsoft Dynamics 365 Commerce'te nasıl B2B e-ticaret sitesi kurulacağı açıklanmaktadır. B2B'ye özgü senaryoları etkinleştirmek için yapılandırılması gereken modüller ve site ayarları anlatılmaktadır.
 
@@ -283,9 +285,35 @@ Site oluşturucuda fatura ayrıntıları sayfası oluşturmak için aşağıdaki
 1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
 1. Sayfanın URL'sini yayınlayın.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Sepet sayfasına hızlı ekleme modülü ekleme
+
+Hızlı ekleme modülü, madde kodları (stok saklama birimi \[SKU\] kodu olarak da bilinir) kullanılarak alışveriş sepetine hızlı bir şekilde birden fazla madde eklemenin bir yolunu sağlar. Hızlı ekleme modülü, sitenin sepet sayfasına eklenir.
+
+Commerce site oluşturucuda bir sepet sayfasına hızlı ekleme modülü eklemek için aşağıdaki adımları izleyin.
+
+1. **Şablonlar**'a gidin ve sitenizin sepet sayfası şablonunu seçin.
+1. **Düzenle** öğesini seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Hızlı ekleme** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, şablonu iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+1. **Sayfalar**'a gidin ve sitenizin sepet sayfası şablonunu seçin.
+1. **Varsayılan sayfa** modülünde **ana** yuvayı seçin, üç nokta düğmesini (**...**) ve sonra **Modül ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Konteyner** modülünü seçin ve **Tamam**'ı seçin.
+1. **Konteyner** modülü için özellikler panosunda **Genişlik** altında, **Konteyneri doldur**'u seçin.
+1. **Konteyner** yuvası için üç nokta (**...**) düğmesini seçin ve **Modül Ekle**'yi seçin.
+1. **Modül Ekle** iletişim kutusunda **Hızlı ekleme** modülünü seçin ve **Tamam**'ı seçin.
+1. **Kaydet**'i seçin, sayfayı iade etmek için **Düzenlemeyi bitir**'i ve ardından yayımlamak için **Yayımla**'yı seçin.
+
+> [!NOTE] 
+> Hızlı ekleme modülü, Commerce 10.0.17 sürümü itibarıyla kullanılabilir. Commerce'ün eski sürümlerinden birini güncelleştiriyorsanız, appsettings.json dosyasını el ile güncelleştirmeniz gerekir. Talimatlar için bkz. [SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Modül kitaplığına genel bakış](../starter-kit-overview.md)
+
+[SDK ve modül kitaplığı güncelleştirmeleri](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Yazma sayfasına genel bakış](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Site oluşturucuda fatura ayrıntıları sayfası oluşturmak için aşağıdaki
 
 [İçerik bloğu modülü](../add-hero-module.md)
 
-[Ürün Koleksiyonu](../product-collection-module-overview.md)
+[Ürün topluluğu modülü](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

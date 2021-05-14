@@ -2,7 +2,7 @@
 title: Ambar işlemleri için kalite yönetimi
 description: Bu konuda, ambar işlemleri özelliği için Kalite yönetimi hakkında bilgiler verilmektedir. Bu özellik kalite yönetimi yeteneklerini genişletir ve kullanıcıların gelişmiş ambar yönetimini kullanarak madde örnekleme kontrollerini ambar teslim alma işlemiyle tümleştirmelerini sağlar.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956094"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Ambar işlemleri için kalite yönetimi
 
@@ -620,5 +620,8 @@ Ambar 51 için iş ve konum verilerini, kalite emirleri tamamlandığında işin
 > [!NOTE]
 > Etkinlik kodunun *Açık iş listesini görüntüle* olduğu bir mobil cihaz menü öğesine bir kalite çıkış girişi eklemeyi düşünün. Örnek olarak, demo verilerdeki **İş listesi** adlı mobil cihaz menü öğesine bakın. Öncelikle *Kalite emri* iş sınıfını kullanıcı tarafından yönlendirilen bir menü öğesine ekleyin; çünkü işin iş listesinde görünmesi için bu iş sınıfı gereklidir. Sonra *Kalite emri* iş sınıfını **İş listesi** menü öğesine ekleyin. Bu durumda, iş listesine erişimi olan kullanıcılar otomatik olarak kalite emri doğrulaması tarafından oluşturulan işi çekebilir ve işleyebilir.
 
+## <a name="additional-resources"></a>Ek kaynaklar
+
+- [Kalite ve uygunsuzluk yönetimine genel bakış](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

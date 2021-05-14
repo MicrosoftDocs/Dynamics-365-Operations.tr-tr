@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eaa20f9a8f145fa8d44bfe77cc85f4dc565c2d27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841515"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921229"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
@@ -103,7 +103,7 @@ Birim dönüştürmelerini Excel'e aktarmak için **Birim dönüştürmeleri** s
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Ölçü birimini yönetme](tasks/manage-unit-measure.md)
+[Ölçü birimlerini yönetme](tasks/manage-unit-measure.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

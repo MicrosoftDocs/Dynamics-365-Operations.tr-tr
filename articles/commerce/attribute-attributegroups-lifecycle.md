@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 9d1d511fa83655dfcb383bdf2c1da84eb4e0ed3e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797269"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936816"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik gruplarını yönetme
 
@@ -101,7 +101,7 @@ Sizin de göreceğiniz gibi **Öznitelikler** sayfası öznitelik meta verileriy
 
 Bu seçeneklerin temel amacı çevrimiçi mağaza için arama işlevini geliştirmektir. Kullanıma hazır olarak çevrimiçi mağaza içermese de e-Ticaret Yayımlama Yazılım Geliştirme Seti (SDK) içerir. Müşteriler bu SDK'yı kullanarak ürünleri istedikleri arama dizinine koyabilir. Ürün verileri içe aktarılsa da müşteriler aranabilir verileri, sorgulanabilecek verileri, vb. birbirinden ayırabilir. Bu şekilde, yalnızca *kendi görüşlerine göre* dizinlenmesi gereken öznitelikleri dizinlediklerinden emin olmak için optimum dizini oluşturabilir.
 
-Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](https://technet.microsoft.com/library/jj219669.aspx).
+Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013'te arama şemasına genel bakış](/SharePoint/search/search-schema-overview).
 
 ## <a name="filter-settings-for-attributes"></a>Öznitelik filtre ayarları
 

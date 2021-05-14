@@ -2,7 +2,7 @@
 title: Elektronik raporlamaya (ER) genel bakış
 description: Bu konuda, Elektronik raporlama aracına dair genel bir bakış sunulmaktadır. Anahtar kavramlar, desteklenen senaryolar ve çözümün parçası olan biçimler açıklanmaktadır.
 author: NickSelin
-ms.date: 12/07/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893189"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944377"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektronik raporlamaya (ER) genel bakış
 
@@ -236,7 +236,7 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki al
 
 ER biçim tasarımcısı, bir elektronik belgeyi OPENXML çalışma sayfası biçiminde oluşturmak için kullanılabilir. 
 
-Bu senaryonun ayrıntıları hakkında bilgi edinmek için **Raporlar için OPENXML biçiminde bir konfigürasyon oluştur** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın. Bir şablonun içe aktarılamsı görev kılavuzunun bir parçası olarak, [Ödeme Raporu Şablonu (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel dosyasını şablon olarak kullanın.
+Bu senaryonun ayrıntıları hakkında bilgi edinmek için **Raporlar için OPENXML biçiminde bir konfigürasyon oluştur** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın. Bir şablonun içe aktarılamsı görev kılavuzunun bir parçası olarak, [Ödeme Raporu Şablonu (SampleVendPaymWsReport.xlsx)](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx) Excel dosyasını şablon olarak kullanın.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Bir Word belgesi biçiminde elektronik belgeler oluşturmak için bir konfigürasyon oluşturma
 
@@ -244,8 +244,8 @@ ER biçim tasarımcısı, bir elektronik belgeyi bir Word belgesi biçiminde olu
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için ER Microsoft WORD biçiminde raporlar oluşturmak için bir yapılandırma tasarlama görev kılavuzunu (7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677) iş işleminin parçası olarak) oynatın. Bir şablonu içe aktarmak için görev kılavuzu adımının bir parçası olarak, aşağıdaki Word dosyalarını ER biçimi için bir şablon olarak kullanın:
 
-- [Ödeme Raporu Şablonu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Ödeme Raporunun bağlı şablonu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [Ödeme Raporu Şablonu (SampleVendPaymDocReport.docx)](https://download.microsoft.com/download/0/d/e/0de5a87c-95fc-4dfa-958f-285cb28b5b2b/SampleVendPaymDocReport.docx)
+- [Ödeme Raporunun bağlı şablonu (SampleVendPaymDocReportBounded.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded.docx)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Gelen elektronik belgelerden veri aktarmak için bir yapılandırma oluşturmak
 
@@ -253,10 +253,10 @@ ER biçim tasarımcısı, XML ya da metin biçiminde veri içe aktarma için pla
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için Harici bir dosyadan veri içe aktarmak için gerekli ER yapılandırmalarını oluşturma görev kılavuzunu (7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677) iş sürecinin parçası) oynatın. Bu kılavuzu oynatmak için aşağıdaki dosyaları kullanın:
 
-- [ER veri modeli konfigürasyonu (1099model.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [ER biçim yapılandırma (1099format.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Gelen belgenin XML biçimnde örneği (1099entries.xml)](https://go.microsoft.com/fwlink/?linkid=845202)
-- [Gelen belgenin verisini yönetmek için çalışma sayfası örneği (1099entries.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202)
+- [ER veri modeli konfigürasyonu (1099model.xml)](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)
+- [ER biçim yapılandırma (1099format.xml)](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)
+- [Gelen belgenin XML biçimnde örneği (1099entries.xml)](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)
+- [Gelen belgenin verisini yönetmek için çalışma sayfası örneği (1099entries.xlsx)](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx)
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Biçim konfigürasyonunda tasarlanmış bir biçim bileşeni depolama
 

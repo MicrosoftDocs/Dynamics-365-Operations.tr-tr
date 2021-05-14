@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891042"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953424"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -207,6 +207,14 @@ Teams uygulamasında izin isteklerini onaylamaya çalışırken hata alırsanız
 1. Microsoft Teams'te Oturum açmak için kullandığınız hesabın Dynamics 365 Human Resources'a erişmek için kullandığınız hesapla aynı olduğunu doğrulayın.
 
 2. İzin onayı için iş akışı ayarlarını denetleyerek istek için geçerli bir onaylayan olduğunuzu doğrulayın. İzin isteği iş akışları hakkında daha fazla bilgi için bkz. [İzin isteği iş akışı oluşturma](hr-leave-and-absence-workflow.md).
+
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>İzin onaylayanları, izin taleplerini onaylamak üzere Teams sohbet iletilerini almıyor
+
+1. Ortam ve kullanıcı için bildirimlerin etkinleştirildiğinden emin olun. Daha fazla bilgi için bkz. [Teams'teki Human Resources uygulamasında bildirimleri etkinleştirme](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) ve [Bireysel kullanıcılar için Teams bildirimlerini etkinleştirme](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Kullanıcıların, **Sohbet** sekmesinde izin isteklerini onaylamak için kullandıkları kimlik bilgileriyle oturum açtığından emin olun. Doğru kimlik bilgileriyle oturum açmak için "oturumu Kapat" ve ardından "oturum aç" iletilerini kullanın.
+
+3. Sorun devam ederse, sistem yöneticisi olarak İş Olayları sistem toplu işinin durumunu denetleyin. Bekleme veya yürütme aşamasındaysa, birkaç dakika sonra yeniden denetleyin. Durum değişmeden kalırsa, bir destek bileti oluşturun. Böylece ekibimiz sorunu gidermeye yardımcı olur.
 
 ## <a name="known-accessibility-issues"></a>Bilinen erişilebilirlik sorunları
 

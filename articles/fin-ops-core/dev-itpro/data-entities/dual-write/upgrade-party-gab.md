@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857382"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941095"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -52,11 +52,11 @@ Bu önkoşullar gereklidir:
 
 2. [Microsoft Azure](https://portal.azure.com/)'da oturum açın.
 
-3. [Kaynak grubu](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal) oluşturun.
+3. [Kaynak grubu](/azure/azure-resource-manager/management/manage-resource-groups-portal) oluşturun.
 
-4. Oluşturduğunuz kaynak grubunda bir [depolama hesabı](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) oluşturun.
+4. Oluşturduğunuz kaynak grubunda bir [depolama hesabı](/azure/storage/common/storage-account-create?tabs=azure-portal) oluşturun.
 
-5. Yukarıda oluşturduğunuz kaynak grubunda bir [veri fabrikası](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) oluşturun.
+5. Yukarıda oluşturduğunuz kaynak grubunda bir [veri fabrikası](/azure/data-factory/quickstart-create-data-factory-portal) oluşturun.
 
 6. Veri fabrikasını açın ve **Yaz ve İzle** kutucuğunu seçin.
 
@@ -81,7 +81,7 @@ Bu önkoşullar gereklidir:
     FO Linked Service_properties_type Properties_service Principal Id | Uygulamanın istemci kimliğini belirtin.
     Dynamics Crm Linked Service_properties_type Properties_username | Dynamics'e bağlanmak için kullanıcı adı.
 
-    Daha fazla bilgi için bkz. [Her ortam için el ile bir Resource Manager şablonu yükseltme](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Bağlantılı hizmet özellikleri](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) ve [Azure Data Factory kullanarak veri kopyalama](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Daha fazla bilgi için bkz. [Her ortam için el ile bir Resource Manager şablonu yükseltme](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Bağlantılı hizmet özellikleri](/azure/data-factory/connector-dynamics-ax#linked-service-properties) ve [Azure Data Factory kullanarak veri kopyalama](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Dağıtımdan sonra, veri fabrikasının bağlantılı hizmetini, veri kümelerini ve veri akışını doğrulayın.
 
@@ -158,7 +158,7 @@ Bu önkoşullar gereklidir:
 8. Finance and Operations uygulamasında yeni **Taraf** kayıtlarını içe aktarın.
 
     + Azure blob depolamadan `FONewParty.csv` dosyasını indirin. Yol: `partybootstrapping/output/FONewParty.csv`.
-    + `FONewParty.csv` dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın.  csv içe aktarma işlemi sizin için uygunsa, csv dosyasını doğrudan içe aktarabilirsiniz. Veri hacmine bağlı olarak içe aktarma birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + `FONewParty.csv` dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın.  csv içe aktarma işlemi sizin için uygunsa, csv dosyasını doğrudan içe aktarabilirsiniz. Veri hacmine bağlı olarak içe aktarma birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
 
     ![Dataverse taraf kayıtlarını içe aktarma](media/data-factory-import-party.png)
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f7e412b7365901e18f476758aa3c5d43de590b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f8489cc8eac8013041d4c138930feab57e43b81d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811618"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920917"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Çalışma zamanı planlama özelliklerini oluşturma
 
@@ -27,19 +27,21 @@ ms.locfileid: "5811618"
 
 Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır. Bu yordam, bir çalışma zamanı planlama özelliği ile ilişkili özellik değerlerinin nasıl belirleneceğini gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 
-1. Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.
-2. Özellikler'i tıklatın.
+1. **Çalışma alanları \> Kaynak yaşam döngüsü yönetimi**'ne gidin.
+2. **Özellikler**'i seçin.
 
 ## <a name="create-property"></a>Özellik oluşturma
-1. Yeni'ye tıklayın.
-2. Özellik alanına bir değer yazın.
-3. İsim alanına bir değer yazın.
+
+1. **Yeni**'yi seçin.
+2. **Özellik** alanına bir değer yazın.
+3. **Ad** alanına bir değer yazın.
 
 ## <a name="create-property-values"></a>Özellik değerleri oluşturma
+
 1. Listede, seçili satırı işaretleyin.
-2. İsim alanına bir değer yazın.
-3. Değer alanına bir değer yazın.
-4. Kaydet'e tıklayın.
+2. **Ad** alanına bir değer yazın.
+3. **Değer** alanına bir değer yazın.
+4. **Kaydet**'i seçin.
 
 
 

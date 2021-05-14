@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814332"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923550"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -30,7 +30,7 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
-Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Özellik 28 Ocak 2021'de kaldırıldı
 
@@ -123,7 +123,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Genel olarak, özel kod sınırlı avantaj sunarken destek için önemli miktarda kaynak kullanımı ve işlem gerektirir. Özel kod, öncelikle özel bir kod derlemesinden genel yöntemleri çağırmak için rapor yazarları tarafından kullanılır. Ancak, bulutta barındırılan hizmet SSRS raporları için özel derlemelere yönelik başvuruları desteklemez. |
-| **Başka bir özellikle mi değiştirildi?**   | Rapor yazarları, herhangi bir metin kutusu ifadesinden Matematik, Dönüştürme ve Biçim işlemleri için genel .NET API'larına başvuruda bulunmaya devam etmeyi seçebilirler. Daha fazla bilgi için bkz. [Rapora Kod Ekleme (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Başka bir özellikle mi değiştirildi?**   | Rapor yazarları, herhangi bir metin kutusu ifadesinden Matematik, Dönüştürme ve Biçim işlemleri için genel .NET API'larına başvuruda bulunmaya devam etmeyi seçebilirler. Daha fazla bilgi için bkz. [Rapora Kod Ekleme (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Etkilenen ürün alanları**         | Özel kod içeren RDL'de tanımlanan uygulama raporu tasarımlarının alt kümesi. |
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Sürüm 10.0.13 ile, derleyici bir SSRS rapor tanımında özel kodun algılandığı durumlar için uyarı vermeyi başlayacaktır. Sorunu gidermek için rapor tasarımı tanımını açın ve tüm özel kod yapılarını kaldırın. Bu uyarı gelecekteki bir güncelleştirmede bulunan bir derleyici hatasıyla değiştirilecektir.   |
@@ -178,7 +178,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | IP'yi güvenli listelere taşıma işlemi değiştirildi. Self servis artık IP güvenli listelerini desteklemiyor. |
-| **Başka bir özellikle mi değiştirildi?**   | Daha fazla bilgi için, bkz [Azure Active Directory Koşullu Erişimi yapılandırma](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Başka bir özellikle mi değiştirildi?**   | Daha fazla bilgi için, bkz [Azure Active Directory Koşullu Erişimi yapılandırma](/appcenter/general/configuring-aad-conditional-access).|
 | **Etkilenen ürün alanları**         | Güvenlik |
 | **Dağıtım seçeneği**              | Bulut |
 | **Durum**                         | **Kullanım dışı:** Bu özellik self servis dağıtımları için tam olarak kullanım dışıdır. |
@@ -223,7 +223,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | İş akışı |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanıcı seçimi açılan listesi, platform güncelleştirmesi 32 ' deki istek değişimi iletişim kutusundan kaldırıldı. İstek değişikliği istekleri oluşturana otomatik olarak istendiği gibi gönderilecek. Bu işlevsellik hakkında daha fazla bilgi için bkz [İş akışı onay sürecindeki eylemler](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **Durum**                         | Kullanıcı seçimi açılan listesi, platform güncelleştirmesi 32 ' deki istek değişimi iletişim kutusundan kaldırıldı. İstek değişikliği istekleri oluşturana otomatik olarak istendiği gibi gönderilecek. Bu işlevsellik hakkında daha fazla bilgi için bkz [İş akışı onay sürecindeki eylemler](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Katıştırılmış ayrıntılandırma bağlantıları bulut tarafından barındırılan hizmet tarafından işlenen sayfalandırılmış belgelerde artık desteklenmiyor 
 
@@ -233,7 +233,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | No |
 | **Etkilenen ürün alanları**         | Raporlama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Bu özellik, hizmetten etkin olarak kaldırılmaktadır.<br><br>Modern istemci, uygulamada gezinme konusunda yardımcı olacak otomatik oluşturulmuş bağlantılar içeren görünümler üretmek için birçok seçenek sunar. Hizmet tarafından işlenen sayfalandırılmış belgeler e-postayla gönderilen, arşivlenen ve alıcılar için yazdırılan harici iletişimler için önerilir. Belgeleri doğrudan tarayıcıda önizleme deneyimini geliştirdik (yerel yazıcılara doğrudan erişim sunar). Daha fazla bilgi için bkz. [Katıştırılmış görüntüleyiciyle PDF belgelerini önizleme](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
+| **Durum**                         | Bu özellik, hizmetten etkin olarak kaldırılmaktadır.<br><br>Modern istemci, uygulamada gezinme konusunda yardımcı olacak otomatik oluşturulmuş bağlantılar içeren görünümler üretmek için birçok seçenek sunar. Hizmet tarafından işlenen sayfalandırılmış belgeler e-postayla gönderilen, arşivlenen ve alıcılar için yazdırılan harici iletişimler için önerilir. Belgeleri doğrudan tarayıcıda önizleme deneyimini geliştirdik (yerel yazıcılara doğrudan erişim sunar). Daha fazla bilgi için bkz. [Katıştırılmış görüntüleyiciyle PDF belgelerini önizleme](../analytics/preview-pdf-documents.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Kaldırılmış veya kullanım dışı bırakılmış özellikler hakkındaki önceki duyurular
 Önceki sürümlerde kaldırılmış veya kaldırılmış özellikler hakkında daha fazla bilgi edinmek için, [önceki sürümlerdeki kaldırılmış veya kaldırılmış özelliklere](../migration-upgrade/deprecated-features.md) bakın.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a616dcfdd755efc9bf0473e9239acb9127f11f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d22c3321beaa2667ee20bff00acd746714b993
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818169"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920543"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Satış fiyatı seçim ölçütü oluşturma
 
@@ -26,30 +26,30 @@ ms.locfileid: "5818169"
 
 Bu yordam, öznitelik tabanlı satış fiyat modelleri için satış fiyatı seçim ölçütlerinin nasıl oluşturulacağını gösterir. Bu yordam için kullanılabilir en az bir satış fiyatı modeli olması gerekir. Bu örnek için, USMF demo veri şirketinde Hoparlör çözümü satış fiyatı modeli için fiyat modeli kullanılır. Genel olarak bu yordamı bir ürün yöneticisi kullanır.
 
-
 ## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>Mevcut satış fiyatı modeli için yeni bir ölçüt ekleme
-1. Ürün varyantı model tanımı'na tıklayın.
-2. Ürün yapılandırma modelleri'ne tıklayın.
-3. Listede, Hoparlör çözümü ürün modeli için satır seçin ancak model adı bağlantısına tıklamayın.
-4. Eylem Bölmesinde,Model öğesine tıklayın.
-5. Fiyat modeli ölçütlerine tıklayın.
-6. Yeni'yi tıklatın.
-7. Ad alanına "Müşteri grubu 10" yazın.
+
+1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
+1. Listede, Hoparlör çözümü ürün modeli için satır seçin ancak model adı bağlantısını seçmeyin.
+1. Eylem Bölmesinde, **Model**'i seçin.
+1. **Fiyat modeli ölçütleri**'ni seçin.
+1. **Yeni**'yi seçin.
+1. **Ad** alanına "Müşteri grubu 10" yazın.
     * Fiyat modeli ölçütünün adı, temel alınan seçim ölçütlerinin tanımlanmasına yardımcı olmak için kullanılır.  
-8. Fiyat modeli alanına bir değer girin veya seçin.
-9. Sipariş türü alanında Satış siparişi'ni seçin.
+1. **Fiyat modeli** alanına bir değer girin veya seçin.
+1. **Sipariş türü** alanında *Satış siparişi*'ni seçin.
     * Sipariş türü seçim sorgusu için kullanılacak veri tabanı alanlarını belirler.  
-10. Geçerlilik başlangıcı alanına bir tarih girin.
-11. Geçerlilik sonu alanına bir tarih girin.
-12. Kaydet'e tıklayın.
+1. **Geçerlilik başlangıcı** alanına bir tarih girin.
+1. **Geçerlilik sonu** alanına bir tarih girin.
+1. **Kaydet**'i seçin.
 
 ## <a name="create-the-query-for-the-selection-criteria"></a>Seçim ölçütleri için sorgu oluşturma
-1. Düzenle öğesine tıklayın.
-2. Tablo alanında, Müşteriler'i seçin. 
-3. Alan alanında Müşteri grubu'nu seçin.
+
+1. **Düzenle** öğesini seçin.
+2. **Tablo** alanında, *Müşteriler*'i seçin.
+3. **Alan** alanında *Müşteri grubu*'nu seçin.
     * Bu örnekte, seçim ölçütü için belirli bir müşteri grubu kullanacağız.  
-4. Ölçütler alanında Müşteri grubu 10'u seçin. 
-5. Tamam'a tıklayın.
+4. **Ölçütler** alanında *Müşteri grubu 10*'u seçin.
+5. **Tamam**'ı seçin.
 
 
 

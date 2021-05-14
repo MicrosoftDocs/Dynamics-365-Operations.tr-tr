@@ -2,7 +2,7 @@
 title: Veri içe ve dışa aktarma işlerine genel bakış
 description: Veri yönetimi çalışma alanını veri içe aktarma ve dışa aktarma işlerini oluşturmak ve yönetmek için kullanın.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751012"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937342"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Veri içe ve dışa aktarma işlerine genel bakış
 
@@ -161,19 +161,7 @@ Verilerin içe aktarılmasını hızlandırmak için, varlık paralel içe aktar
     - **İçe aktarma eşik kayıt sayısı** alanında, içe aktarma için eşik kayıt sayısını girin. Bu, bir iş parçacığı tarafından işlenecek kayıt sayısını belirler. Bir dosyada 10K kayıt varsa, görev sayısı 4 olan 2500 kayıt sayısı, her iş parçacığının 2500 kayıt işleyeceği anlamına gelir.
     - **İçe aktarma görev sayısı** alanında, içe aktarma görevlerinin sayısını girin. Bu, **Sistem Yönetimi \>Sunucu yapılandırması**'ndaki toplu işleme için tahsis edilen maksimum toplu iş parçacığı sayısını aşmamalıdır.
 
-## <a name="clean-up-the-staging-tables"></a>Hazırlama tablolarını temizleyin
-Platform Update 29'dan başlayarak, bu işlevselliği kullanımdan kaldırılmıştır. Bu, aşağıda açıklanan iş geçmişi temizleme işlevselliği yeni bir sürümü ile değiştirilir.
-
-Hazırlama tablolarını **Veri yönetimi** çalışma alanındaki **Hazırlama temizleme** özelliğini kullanarak temizleyebilirsiniz. Aşağıdaki seçenekleri, hangi kayıtların hangi hazırlama tablosundan silineceğini seçmek için kullanabilirsiniz:
-
-- **Varlık**: Yalnızca bir varlık sağlandıysa, o varlığın hazırlama tablosundaki tüm kayıtlar silinir. Varlık için tüm veri projeleri ve tüm işler için tüm veriyi silmek için bu seçeneği işaretleyin.
-- **İş Kodu**: Yalnızca bir iş kodu sağlandıysa, seçilen işteki tüm varlıklar için tüm kayıtlar uygun hazırlama tablolarından silinir.
-- **Veri projeleri**: Yalnızca bir veri projesi seçiliyse, seçilen veri projesi için tüm işler arasındaki tüm varlıklar için tüm kayıtlar silinir.
-
-Silinen kayıt kümesini daha da kısıtlamak için seçenekleri birleştirebilirsiniz.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>İş geçmişi temizleme (Platform Update 29 ve sonraki sürümlerde kullanılabilir)
-
+## <a name="job-history-clean-up"></a>İş geçmişi temizleme 
 Veri yönetimindeki iş geçmişi temizleme işlevselliği, yürütme geçmişinin periyodik olarak temizlenmesini zamanlamak için kullanılmalıdır. Bu işlevsellik, şimdi kullanımdan kaldırılan önceki hazırlama tablolarını temizleme işlevselliğini değiştirir. Aşağıdaki tablolar temizleme işlemi tarafından temizlenecektir.
 
 -   Tüm hazırlama tabloları

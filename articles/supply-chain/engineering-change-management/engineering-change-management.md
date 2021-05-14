@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830040"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954657"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -139,13 +139,14 @@ Bir değişiklik isteğini gözden geçirirken Eylem Bölmesi'nde, **Değişikli
 
 [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md) bölümünde açıklandığı gibi, değiştirebileceğiniz ürün verileri, çalıştığınız tüzel kişiliğin türüne (mühendislik şirketi veya operasyonel şirket) bağlı olarak değişir. Veri sahipliği kuralları, mühendislik değişikliği emirlerine de uygulanır. Bu nedenle, mühendislik değişikliği emrini oluşturduğunuz tüzel kişiliğe bağlı olarak farklı türde değişiklikler yapılabilir. Burada bazı örnekler verilmiştir:
 
-- Bir **mühendislik şirketindeki** mühendislik değişikliği emirleri durumunda, mühendislik verilerinde temel değişiklikler yapabilirsiniz. Örneğin, bir ürünün yeni sürümlerini oluşturabilir, ürün reçetesi üzerinden ürün yapısını değiştirebilir ve mühendislik özniteliği değerlerini değiştirebilirsiniz. Etkilenen her ürün için **Etki** alanında aşağıdaki değerlerden birini seçin:
+- Bir *mühendislik şirketindeki* mühendislik değişikliği emirleri durumunda, mühendislik verilerinde temel değişiklikler yapabilirsiniz. Örneğin, bir ürünün yeni sürümlerini oluşturabilir, ürün reçetesi üzerinden ürün yapısını değiştirebilir ve mühendislik özniteliği değerlerini değiştirebilirsiniz. Etkilenen her ürün için **Etki** alanında aşağıdaki değerlerden birini seçin:
 
     - **Hiçbiri**: Var olan ürün sürümünü güncelleştirin (sürüm içi güncelleştirme).
     - **Yeni sürüm**: Seçili ürün sürümünü temel alan yeni bir sürüm oluşturun.
-    - **Yeni ürün**: Seçili ürün sürümüne dayalı tamamen yeni bir ürün veya ürün varyantı oluşturun.
+    - **Yeni ürün**: Seçili ürün sürümüne dayalı tamamen yeni bir ürün oluşturun.
+    - **Yeni varyant**: Seçili ürün sürümünü temel alan yeni bir varyant oluşturun. Ürün reçetesi ve rota bilgileri kopyalanacaktır.
 
-- Bir **operasyonel şirketteki** mühendislik değişikliği emirleri durumunda, ürünün lojistik verilerini değiştirebilirsiniz. Örneğin, mevcut ürün reçetesini kaynak kullanımı ayarlarıyla zenginleştirebilir, yerel rotalar veya yerel ürün reçeteleri ekleyebilir ve yerel ambalaj malzemeleri, yağlama sıvıları veya yerel dilde talimatlar için yeni ürün reçetesi satırları ekleyerek ürün reçetesini zenginleştirebilirsiniz. Kullanıcıların operasyonel şirkette yaptıkları zenginleştirmeler, mühendislik şirketinden yeni güncellemeler gönderildiğinde korunur. Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).
+- Bir *operasyonel şirketteki* mühendislik değişikliği emirleri durumunda, ürünün lojistik verilerini değiştirebilirsiniz. Örneğin, mevcut ürün reçetesini kaynak kullanımı ayarlarıyla zenginleştirebilir, yerel rotalar veya yerel ürün reçeteleri ekleyebilir ve yerel ambalaj malzemeleri, yağlama sıvıları veya yerel dilde talimatlar için yeni ürün reçetesi satırları ekleyerek ürün reçetesini zenginleştirebilirsiniz. Kullanıcıların operasyonel şirkette yaptıkları zenginleştirmeler, mühendislik şirketinden yeni güncellemeler gönderildiğinde korunur. Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).
 
     Mühendislik değişikliği emirleri mühendislik şirketinde işlendiğinde, ürünler yalnızca mühendislik şirketinde oluşturulur ve/veya güncelleştirilir. Bu nedenle, ürün ana verilerinin de güncelleştirilmesi gerekiyorsa ürünleri operasyonel şirketlere de serbest bırakmanız gerekir.
 

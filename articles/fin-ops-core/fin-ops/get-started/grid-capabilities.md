@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c8f417b3ba427104d6d0e57ac595ab7b453f48fa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749577"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923610"
 ---
 # <a name="grid-capabilities"></a>Kılavuz yetenekleri
 
@@ -134,7 +134,7 @@ Yeni ızgaradaki satır seçimi ve satır durumu sütunlarının, her zaman ilk 
 
 **10.0.9 / Platform güncelleştirmesi 33 ve sonrası**
 
-**Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](https://go.microsoft.com/fwlink/?linkid=2105274) tabidir.  
+**Yeni kılavuz denetimi** özelliği, herhangi bir ortamda doğrudan Özellik yönetiminde kullanılabilir. Diğer genel Önizleme özellikleri gibi, üretim için bu özelliğin etkinleştirilmesi, [Tamamlayıcı Kullanım Koşulları Sözleşmesine](public-preview-terms.md) tabidir.  
 
 **10.0.8 / Platform güncelleştirmesi 32 ve 10.0.7 / Platform güncelleştirmesi 31**
 

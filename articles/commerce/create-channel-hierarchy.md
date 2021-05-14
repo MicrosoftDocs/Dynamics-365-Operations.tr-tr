@@ -2,7 +2,7 @@
 title: Kanal gezinme hiyerarşisi oluşturma
 description: Bu konuda, Microsoft Dynamics 365 Commerce'te bir kanal gezinme hiyerarşisinin nasıl oluşturulacağı açıklanmaktadır.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 358f3d40c7a21184c20da342d6b2bf72dd4e7bbd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795847"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951920"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Kanal gezinme hiyerarşisi oluşturma
 
@@ -77,7 +77,7 @@ Kategori düğümlerine ürünler eklemek için bu adımları izleyin.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 
 > [!NOTE]
-> Kanal gezinme hiyerarşisi içinde bir düğüme ürünlerin eklenmesi, ürünlerin seçili bir kanalda görünmesi için yeterli değildir; ürünlerin bir ürünle ilişkili olması da gereklidir.
+> Kanal gezinme hiyerarşisi içinde bir düğüme ürünlerin eklenmesi, ürünlerin seçili bir kanalda görünmesi için yeterli değildir; ürünlerin bir kanalla ilişkili olması da gereklidir. Ürün çeşitleri hakkında daha fazla bilgi için bkz. [Ürün çeşitleri yönetimi](assortments.md).
 
 Aşağıdaki resimde, ürünler eklenmiş bir düğüm örneği gösteriliyor.
 

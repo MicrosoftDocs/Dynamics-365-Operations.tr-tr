@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797851"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936842"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>İçerik teslim ağı (CDN) için destek ekleme
 
@@ -47,7 +47,7 @@ Daha önce belirtildiği gibi, oluşturulan ana bilgisayar adı veya bitiş nokt
 
 Herhangi bir CDN hizmeti, bir Commerce ortamıyla kullanılabilir. Burada iki örnek verilmiştir:
 
-- **Microsoft Azure Ön kapı hizmeti** – Azure CDN çözümü. Azure ön kapı hizmeti hakkında daha fazla bilgi için [Azure ön kapı hizmeti belgelerine](https://docs.microsoft.com/azure/frontdoor/) bakın.
+- **Microsoft Azure Ön kapı hizmeti** – Azure CDN çözümü. Azure ön kapı hizmeti hakkında daha fazla bilgi için [Azure ön kapı hizmeti belgelerine](/azure/frontdoor/) bakın.
 - **Akamai dinamik sitesi Hızlandırıcısı** – daha fazla bilgi için bkz. [Dinamik Site Hızlandırıcısı](https://www.akamai.com/us/en/products/performance/dynamic-site-accelerator.jsp).
 
 ## <a name="cdn-setup"></a>CDN kurulumu
@@ -62,7 +62,7 @@ CDN kurulum işlemi aşağıdaki adımlardan oluşur:
 
 Tüm CDN hizmetleri kullanılabilir, ancak bu konudaki örnek için Azure ön kapı hizmeti kullanılır. 
 
-Azure ön kapı hizmeti'ni kurma hakkında bilgi için bkz. [Hızlı başlangıç: yüksek oranda kullanılabilir bir Global Web uygulaması için ön kapı oluşturun.](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door)
+Azure ön kapı hizmeti'ni kurma hakkında bilgi için bkz. [Hızlı başlangıç: yüksek oranda kullanılabilir bir Global Web uygulaması için ön kapı oluşturun.](/azure/frontdoor/quickstart-create-front-door)
 
 ### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Azure Front Door Service'te bir arka uç havuzu yapılandırın
 
@@ -115,7 +115,7 @@ Aşağıdaki resimde, Azure ön kapı hizmeti'ndeki **Özel alan HTTPS** iletiş
 
 ![Özel etki alanı HTTPS iletişim kutusu](./media/Custom_Domain_HTTPS.png)
 
-Azure Front Door'unuza özel etki alanı eklemeyle ilgili ayrıntılı yönergeler için bkz. [Front Door'a özel etki alanı ekleme](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
+Azure Front Door'unuza özel etki alanı eklemeyle ilgili ayrıntılı yönergeler için bkz. [Front Door'a özel etki alanı ekleme](/azure/frontdoor/front-door-custom-domain).
 
 CDN'niz şimdi Commerce sitenizde kullanılabilecek şekilde doğru konfigüre edilmelidir.
 

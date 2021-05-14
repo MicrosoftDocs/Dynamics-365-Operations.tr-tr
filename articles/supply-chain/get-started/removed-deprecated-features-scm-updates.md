@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 description: Bu konu Dynamics 365 Supply Chain Management'taki kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909659"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947556"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -32,6 +32,19 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 > [!NOTE]
 > Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
+
+### <a name="job-card-device"></a>İş kartı cihazı
+
+|   |   |
+|---|---|
+| **Kullanımı sonlandırma/kaldırma nedeni** | [İş kartı cihazı,](../production-control/config-job-card-device.md) yeni [üretim katı yürütme arabirimiyle](../production-control/production-floor-execution-configure.md) değiştiriliyor. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, [iş kartı cihazı,](../production-control/config-job-card-device.md) yeni [üretim katı yürütme arabirimiyle](../production-control/production-floor-execution-configure.md) değiştirilecek. |
+| **Etkilenen ürün alanları** | Supply Chain Management - üretim denetimi |
+| **Dağıtım seçeneği** | Bulut ve Şirket içi |
+| **Durum** | Kaldırıldı. İş kartı cihazı hata ve güvenlik düzeltmesi desteği alacaktır, ancak özellik geliştirmeleri artık sağlanmayacaktır. Nisan 2022 tarihinden sonra, iş kartı cihazı artık desteklenmeyecek ve müşterilerin yeni üretim katı yürütme arabirimine taşınması istenecektir. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 sürümünden kaldırılan veya kullanım dışı bırakılan özellikler
 

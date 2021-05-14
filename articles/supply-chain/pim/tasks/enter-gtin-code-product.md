@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18df36fe2d147ce395c113eacaf69d8016b38303
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0163844d7999468e288ba2d612662d1dd6f22df
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818073"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921401"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Ürünün GTIN kodunu girme
 
@@ -26,18 +26,17 @@ ms.locfileid: "5818073"
 
 GTIN kodları GS1 kurumu tarafından atanır. Bu örnekte, USMF demo veri şirketinde M0001 ürün numarası için bir kod girin.
 
-1. Serbest bırakılan ürün bakımı'na tıklayın.
-2. Sevk edilen ürünler'e tıklayın.
-3. Ürün resmi bilgi kutusunu genişletin.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Eylem Bölmesinde, Stok yönetimi'ne tıklayın.
-6. GTIN kodları'na tıklayın.
-7. Yeni'ye tıklayın.
-8. Listede, seçili satırı işaretleyin.
-9. Birim alanına bir değer girin veya buradan bir değer seçin.
-10. GTIN kod alanında bir seçeneği işaretleyin.
-11. GTIN alanında bir değer girin.
-12. Sayfayı kapatın.
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. **Ürün resmi** bilgi kutusunu genişletin.
+1. Listede, istenen kaydı bulun ve seçin.
+1. Eylem Bölmesinde, **Stok yönetimi**'ni seçin.
+1. **GTIN kodları**'nı seçin.
+1. **Yeni**'yi seçin.
+1. Listede, seçili satırı işaretleyin.
+1. **Birim** alanına bir değer girin veya buradan bir değer seçin.
+1. **GTIN kodu** alanında bir seçeneği işaretleyin.
+1. **GTIN alanı**'na bir değer yazın.
+1. Sayfayı kapatın.
 
 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69dc3f8e70c3b0a760f54d2251757ac997a432
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841635"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920669"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Önceden tanımlanmış ürün çeşitleri için ürün numarası terminolojisi oluşturma
 
@@ -28,33 +28,33 @@ Bu konu, önceden tanımlanmış ürün çeşitleri için bir ürün numara term
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Ürün numara terminolojisi oluşturma
-1. **Ürün çeşidi model tanımı**'nı seçin.
-2. **Ürün terminolojisi**'ni seçin.
-3. **Yeni**'yi seçin.
-4. **Ad** alanına, örneğin `ColorSize` gibi hedef ürün boyut grubunu tanımlamaya yardımcı olacak bir terminoloji adı girin.
-5. **Tanım** alanına bir değer girin.
-6. **Ekle**'yi seçin.
-7. **Ürün ana numarası** seçin.
-8. **Ekle**'yi seçin.
-9. **Metin sabiti** seçin.
-10. **Metin** alanına bir değer yazın.
-11. **Ekle**'yi seçin.
-12. **Renk** seçin.
-13. **Ekle**'yi seçin.
-14. **Metin sabiti** seçin.
-15. **Metin** alanına bir değer yazın.
-16. **Ekle**'yi seçin.
-17. **Boyut** seçin.
-18. Sayfayı kapatın.
+
+1. **Ürün bilgi yönetimi \> Kurulum \> Ürün terminolojisi**'ne gidin.
+1. **Yeni**'yi seçin.
+1. **Ad** alanına, örneğin `ColorSize` gibi hedef ürün boyut grubunu tanımlamaya yardımcı olacak bir terminoloji adı girin.
+1. **Tanım** alanına bir değer girin.
+1. **Ekle**'yi seçin.
+1. **Ürün ana numarası** seçin.
+1. **Ekle**'yi seçin.
+1. **Metin sabiti** seçin.
+1. **Metin** alanına bir değer yazın.
+1. **Ekle**'yi seçin.
+1. **Renk** seçin.
+1. **Ekle**'yi seçin.
+1. **Metin sabiti** seçin.
+1. **Metin** alanına bir değer yazın.
+1. **Ekle**'yi seçin.
+1. **Boyut** seçin.
+1. Sayfayı kapatın.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Ana ürüne terminoloji atama
+
 1. **Ürün boyut grupları**'nı seçin.
 2. **SizeCol ürün boyut grubunu** seçin.
 3. **Düzenle** öğesini seçin.
 4. **Terminolojiyi kullan** alanında **Evet**'i seçin.
 5. **Ürün çeşidi numara terminolojisi** alanında bir değer girin veya seçin.
 6. Sayfayı kapatın.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

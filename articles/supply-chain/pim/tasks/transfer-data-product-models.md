@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799e7bce1ce7fd2d912b2ff5f97da61123f7293a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825506"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920643"
 ---
 # <a name="transfer-data-for-product-models"></a>Ürün modelleri için verileri aktarma
 
@@ -26,14 +26,12 @@ ms.locfileid: "5825506"
 
 Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabilir en az bir ürün modeline sahip olunmasını gerektirir. Bu yordam, bu model için verilerin nasıl içe aktarılacağını göstermek amacıyla USMF veri şirketindeki son teknoloji hoparlör modelini kullanır.
 
-1. Ürün varyantı model tanımı'na tıklayın.
-2. Ürün yapılandırma modelleri'ne tıklayın.
-3. Listede, istenen kaydı bulun ve seçin.
+1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
+1. Listede, istenen kaydı bulun ve seçin.
     * Bu yordam için son teknoloji hoparlör modelini seçin.  
-4. Eylem Bölmesinde,Model öğesine tıklayın.
-5. Ürün modelini dışa aktar'ı tıklatın.
+1. Eylem Bölmesinde, **Model**'i seçin.
+1. **Ürün modelini dışa aktar**'ı seçin.
     * İndirme davranışı, güvenlik ayarlarının nasıl ayarlandığına bağlı olarak tarayıcıdan tarayıcıya değişir.  
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,74 +1,109 @@
 ---
 title: Önceden tanımlanmış ürün çeşitleri oluşturma
 description: Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır.
-author: ShylaThompson
-ms.date: 08/29/2018
+author: t-benebo
+manager: tfehr
+ms.date: 04/22/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
+ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart, EcoResProductVariantSuggestionsEnhanced
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8340d295ffd072c95d9b174507ef4203131c8165
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: acd2e3f1464dfed09ee24764270b06970b747d7c
+ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809362"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938214"
 ---
-# <a name="create-predefined-product-variants"></a>Önceden tanımlanmış ürün çeşitleri oluşturma
+# <a name="predefined-product-variants"></a>Önceden tanımlanmış ürün varyantları
 
 [!include [banner](../../includes/banner.md)]
 
-Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır. Bu yöntemi oluşturmak için kullanılan demo şirketi USMF'dir.
+## <a name="example-scenario-create-predefined-product-variants"></a>Örnek senaryo: Önceden tanımlanmış ürün varyantları oluşturma
 
+Bu örnek senaryo, ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün varyantlarının nasıl oluşturulacağını adım adım açıklar.
 
-## <a name="create-a-product-master"></a>Ana ürün oluşturma
-1. Ürün bilgi yönetimi > Ürünler > Ana ürünler'e git.
-2. Yeni'ye tıklayın.
-3. Ürün numarası alanında bir değer girin.
-    * Bir ürün numarasının el ile girilmesi sadece ürün numarası alanı için hiçbir numarası dizisi ayarlanmamışsa gereklidir. Diğer bir deyişle, alan için bir numara serisi ayarlanmışsa bu adımı atlayın.  
-4. Ürün adı alanına bir değer girin.
-5. Ürün boyutu grubu alanına bir değer girin veya bir değer seçin.
-    * SizeCol (Boyut ve Renk) ürün boyut grubunu seçin.  
-6. Tamam'a tıklayın.
+### <a name="make-demo-data-available"></a>Tanıtım verilerini kullanılabilir hale getirme
 
-## <a name="add-product-dimensions"></a>Ürün boyutları ekleme
-1. Ürün boyutları öğesini tıklayın.
-    * Bu örnekte ürün boyutlarının nasıl el ile girileceği gösterilmiştir. Ayrıca, kullanmak istediğiniz ürün boyutu değerlerini içeren boyut, renk veya tarz grubunu seçebilirsiniz.  
-2. Yeni'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Ebat alanına bir değer girin veya seçin.
-5. İsim alanına bir değer yazın.
-6. Yeni'yi tıklatın.
-7. Listede, seçili satırı işaretleyin.
-8. Ebat alanına bir değer girin veya seçin.
-9. İsim alanına bir değer yazın.
-10. Renkler sekmesini tıklatın.
-11. Yeni'ye tıklayın.
-12. Listede, seçili satırı işaretleyin.
-13. Renk alanına bir değer girin veya buradan bir değer seçin.
-14. İsim alanına bir değer yazın.
-15. Yeni'yi tıklatın.
-16. Listede, seçili satırı işaretleyin.
-17. Renk alanına bir değer girin veya buradan bir değer seçin.
-18. İsim alanına bir değer yazın.
-19. Kaydet'e tıklayın.
-20. Sayfayı kapatın.
+Bu senaryoyu izlemek için, burada önerilen değerleri kullanarak demo verilerinin yüklenmiş olması ve *USMF* tüzel kişiliğini kullanmanız gerekir.
 
-## <a name="generate-product-variants"></a>Ürün seçenekleri oluşturma
-1. Ürün çeşitleri öğesini tıklayın.
-2. Çeşit önerilerini tıklayın.
-3. Tümünü seç'i tıklatın.
-    * Bu örnekte tüm olası seçenekler dahil edilmiştir. Bu seçeneklerin oluşturulması için sadece olası ürün boyutu kombinasyonlarının bir alt kümesi kullanılacaksa, bireysel girişleri seçebilirsiniz.  
-4. Oluştur'a tıklayın.
-    * Ürün boyutu değerlerinin kombinasyonuna dayalı olarak tüm seçenekleriniz için açıklamalar oluşturabilirsiniz. Açıklamalar isteğe bağlıdır.  
-5. Kaydet'e tıklayın.
+### <a name="step-1-create-a-product-master"></a>1. Adım: Ana ürün oluşturma
 
+Ana ürün oluşturmak için:
 
+1. **Ürün bilgi yönetimi > Ürünler > Ana ürünler**'e gidin.
+1. **Yeni**'yi seçin.
+1. **Ürün numarası** alanında zaten bir numara yoksa bir değer girin. Bu, yalnızca bu alan için numara sırası ayarlanmadıysa gereklidir.
+1. **Ürün adı** alanına bir ad girin.
+1. **Ürün boyut grubu** alanında, ürün boyut grubu *SizeCol* (Boyut ve Renk) seçeneğini belirleyin.
+1. Yeni ürün yöneticisi oluşturmak ve açmak için **Tamam**'ı seçin.
+
+### <a name="step-2-add-product-dimensions"></a>2. Adım: Ürün boyutları ekleme
+
+Bu örnekte ürün boyutlarının nasıl el ile girileceği gösterilmiştir. Ayrıca, kullanmak istediğiniz ürün boyutu değerlerini içeren boyut, renk veya tarz grubunu da seçebilirsiniz.
+
+Ürün boyutları eklemek için:
+
+1. Yeni ana ürününüz hâlâ açıkken Eylem Bölmesi'nde **Ürün boyutları**'nı seçin.
+1. Izgaraya satır eklemek için **Boyut** sekmesini açın ve araç çubuğunda **Yeni**'yi seçin. Yeni satır için aşağıdaki ayarları yapın:
+    - **Boyut**: Bir boyut değeri seçin.
+    - **Ad**: Boyut için bir ad girin.
+1. Araç çubuğunda **Yeni**'yi seçin ve yeni bir **Boyut** ve **Ad** kullanarak ızgaraya ikinci bir boyut ekleyin.
+1. Izgaraya satır eklemek için **Renk** sekmesini açın ve araç çubuğunda **Yeni**'yi seçin. Yeni satır için aşağıdaki ayarları yapın:
+    - **Renk:** Bir renk değeri seçin.
+    - **Ad**: Renk için bir ad girin.
+1. Araç çubuğunda **Yeni**'yi seçin ve yeni bir **Renk** ve **Ad** kullanarak ızgaraya ikinci bir renk ekleyin.
+1. **Kaydet**'i seçin.
+1. Sayfayı kapatın ve yeni ana ürününüze dönün.
+
+### <a name="step-3-generate-product-variants"></a>3. Adım: Ürün varyantları oluşturma
+
+> [!NOTE]
+> Bu bölümde, *Varyant önerileri sayfası geliştirmeleri* özelliği etkin olmadığında ürün varyantlarını nasıl oluşturacağınız anlatılmaktadır. Bu özellik kullanılabilir olduğunda ürün varyantlarının nasıl oluşturulacağı ile ilgili ayrıntılar için sonraki bölüme bakın.
+
+Ürün varyantları oluşturmak için:
+
+1. Yeni ana ürününüz hâlâ açıkken Eylem Bölmesi'nde **Ürün varyantları**'nı seçin.
+1. Eylem Bölmesi'nde **Varyant önerileri**'ni seçin.
+1. Sistem, ürün için tanımladığınız boyutların ve renklerin tüm olası birleşimlerine sahip bir liste oluşturur. Araç çubuğundan **Tümünü Seç**'i seçin.
+    - Bu örnekte, olası tüm varyantları seçin. Yalnızca olası ürün boyut birleşimlerinin bir alt kümesini kullanmak istiyorsanız yalnızca dilediğiniz onay kutularını gerektiği şekilde seçin.  
+1. **Oluştur**'u seçin.
+1. **Kaydet**'i seçin.
+
+## <a name="improved-variant-suggestions"></a>Geliştirilmiş varyant önerileri
+
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
+
+*Varyant önerileri sayfası iyileştirmeleri* özelliği, yüksek sayıda ürün boyutu kombinasyonu olan şirketler için performans ve kullanılabilirlik sorunlarını gidermek amacıyla **Varyant önerileri** sayfasını geliştirir. Varyant önerileri oluşturulacak ürün boyut değerlerini seçmeye yönelik gelişmiş süreç, ilgili ürün varyantları kümesini tanımlama ve serbest bırakma işlemini hızlandırır ve kolaylaştırır.
+
+Bu özellikle birlikte aşağıdaki iyileştirmeler sağlanır:
+
+- **Varyant önerilerinin ertelenmiş şekilde oluşturulması:** **Varyant önerileri** sayfası, artık ilk açtığınızda öneriler göstermez. Bunun yerine, gereksinim duyacağınız değerleri seçmeniz ve birleşimleri oluşturmak için **Öner** düğmesini seçmeniz gerekir. Bu, işlemi daha görünür ve etkileşimli hale getirir.
+- **Boyut değerleri seçimi:** Birçok boyut değerleriniz olduğunda, genellikle bunlardan yalnızca birkaçını içeren (örneğin, yeni bir renk veya stil kümesi oluştururken) varyant önerileri oluşturmak isteyebilirsiniz. Bu geliştirilmiş tasarım sayesinde, ürün varyantı önerileri oluşturmak istediğiniz boyut değerlerini seçebilirsiniz. Bu, önerilen varyantların ilgi derecesini büyük ölçüde artırır ve hem sistem performansını hem de kullanıcı üretkenliğini artırır.
+
+### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Varyant önerileri sayfa iyileştirmeleri özelliğini etkinleştirme
+
+*Varyant önerileri sayfa iyileştirmeleri* özelliğini kullanabilmeniz için sisteminizde etkinleştirilmesi gerekir. Yöneticiler özellik durumunu denetlemek ve etkinleştirmek için [özellik yönetimi](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ayarlarını kullanabilir. **Özellik yönetimi** çalışma alanındabu özellik aşağıdaki şekilde listelenir:
+
+- **Modül:** *Ürün bilgileri yönetimi*
+- **Özellik adı**: *Varyant önerileri sayfa iyileştirmeleri*
+
+### <a name="work-with-the-improved-variant-suggestions"></a>İyileştirilmiş varyant önerileriyle çalışma
+
+*Varyant önerileri sayfası geliştirmeleri* özelliği etkin olduğunda ürün varyantlarını oluşturmak için:
+
+1. Bir ana ürün açın veya oluşturun ve önceki bölümde açıklandığı gibi bu ana ürüne gerekli ürün boyutlarını ekleyin.
+1. Ana ürününüz açıkken Eylem Bölmesi'nde **Ürün varyantları**'nı seçin.
+1. Eylem Bölmesi'nde **Varyant önerileri**'ni seçin.
+1. Her bir boyut için kullanmak istediğiniz değerleri seçin.
+1. Üst araç çubuğunda, **Öner**'i seçin.
+1. Sistem, seçtiğiniz boyutların ve renklerin tüm olası birleşimlerine sahip bir liste oluşturur. **Önerilen varyantlar** hızlı sekmesinde, kullanmak istediğiniz her ürün boyutu birleşiminin onay kutusunu işaretleyin veya tümünü seçmek için araç çubuğundan **Tümünü Seç**'i seçin.  
+1. Varyantları geçerli ana ürüne eklemek için **Oluştur** seçeneğini belirleyin.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

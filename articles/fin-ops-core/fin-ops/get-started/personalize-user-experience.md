@@ -2,7 +2,7 @@
 title: Kullanıcı deneyimini kişiselleştirme
 description: Bu konuda uygulamayı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744705"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944545"
 ---
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
@@ -98,7 +98,7 @@ Bir öğeyi aşağıdaki yöntemlerle kişiselleştirmek için özellik penceres
 
 Öğeye bağlı olarak, özellik penceresi başka kişiselleştirme yetenekleri içerebilir. Örneğin, bir kutucuğun özellik penceresi sayesinde o kutucuğu bir panoya yükseltebilir ve bir varsayılan panodaki öğeler için özellik penceresiyle yeni bir özel çalışma alanı oluşturabilirsiniz.
 
-### <a name="the-personalization-toolbar"></a>Kişiselleştirme araç çubuğu
+### <a name="personalization-toolbar"></a>Kişiselleştirme araç çubuğu
 
 Bir sayfada birden çok değişiklik veya diğer mekanizmalarla gerçekleştirilemeyen değişiklikler yapmak istiyorsanız (öğeleri yeniden düzenleme istediğinizde), **Kişiselleştirme** araç çubuğunu kullanabilirsiniz. **Kişiselleştirme** araç çubuğunu açmak için, aşağıdaki adımlardan birini izleyin:
 
@@ -173,7 +173,90 @@ Panoda bulunan benzersiz bir kişiselleştirme özelliği kutucuk ekleyebilme ö
 
 ## <a name="sharing-personalizations"></a>Kişiselleştirmeler paylaşma
 
-Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa aktararak kişiselleştirmelerinizi diğer kullanıcılarla paylaşabilirsiniz. Böylece, diğer kullanıcılardan kişiselleştirme dosyasını içe aktarmasını isteyebilirsiniz. Alternatif olarak, kişiselleştirmenizi yönetici ayrıcalıklarına sahip bir kullanıcıya verebilirsiniz. Bu Kullanıcı daha sonra **kişiselleştirme** yönetimi sayfasını kullanarak aynı anda birçok kullanıcıya kişiselleştirilme dosyası uygulayabilir.
+Bir sayfayı kişiselleştirdikten sonra, kişiselleştirmelerinizi diğer kullanıcılarla paylaşmak için kullanabileceğiniz birkaç yöntem bulunur. Aşağıdaki listede, bu yöntemler en çok önerilenden en az önerilene doğru düzenlenmiştir.
+
+1. Görünümleri kullanıcılara yayımlayın.
+2. Görünümleri veya kişiselleştirmeleri kullanıcılara kopyalayın.
+3. Görünümleri veya kişiselleştirmeleri dışa ve içe aktarın.
+
+### <a name="publish-views-to-users"></a>Görünümleri kullanıcılara yayımlama
+
+[Kaydedilen görünümler](saved-views.md) özelliği açıksa ve sayfa görünümleri destekliyorsa, kişiselleştirmeleri diğer kullanıcılarla paylaşmanın en iyi yolu, görünümü bir veya daha fazla güvenlik rolüne sahip kullanıcılar için yayımlamaktır. Daha fazla bilgi için bkz. [Görünümleri yayımlama](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Görünümleri veya kişiselleştirmeleri kullanıcılara kopyalama
+
+[Kaydedilen görünümler](saved-views.md) özelliği kapalıysa veya sayfa görünümleri desteklemiyorsa, kişiselleştirmeleri paylaşmak için önerilen yol bunları kullanıcılar arasında kopyalamaktır. Bu yöntem yalnızca ayrıcalıklı kullanıcılar (örneğin, sistem yöneticileri) tarafından kullanılabilir. Ancak, yöneticiler sistemdeki belirli bir kullanıcının kişiselleştirmesini (kaydedilmiş görünümler etkinse kullanıcının kişisel görünümü de dahil) arayabilir ve yapılandırmayı diğer kullanıcılara kopyalayabilir.
+
+Kaydedilmiş görünümler etkinse, kişiselleştirmeleri kopyalamak için aşağıdaki adımları izleyin.
+
+1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
+2. Kişisel görünümleri kopyalamak için şu adımları izleyin:
+
+    1. **Kişisel görünümler**'i seçin.
+    2. Listeden dilediğiniz görünümleri seçin.
+    3. **Kullanıcılara kopyala**'yı seçin.
+    4. Görünümlerin dağıtılacağı kullanıcıları seçin.
+
+    Görünümü desteklemeyen sayfalardaki kişiselleştirmeleri kopyalamak için şu adımları izleyin:
+
+    1. **Kullanıcı ayarlarını** seçin.
+    2. Dağıtmak istediğiniz kişiselleştirmeye sahip kullanıcıyı seçin.
+    3. **Tüm kişiselleştirmeleri yönet**'i seçin.
+    4. Listeden dilediğiniz kişiselleştirmeleri seçin.
+    5. **Kullanıcılara kopyala**'yı seçin.
+    6. Kişiselleştirmelerin dağıtılacağı kullanıcıları seçin.
+
+Kaydedilmiş görünümler etkin değilse kişiselleştirmeyi kopyalamak için aşağıdaki adımları izleyin.
+
+1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
+2. **Uygula**'yı seçin.
+3. Kişiselleştirmenin dağıtılacağı kullanıcıları seçin.
+4. **Varolan kişiselleştirmeyi seç**'i seçin.
+5. İlgilendiğiniz (tek) kişiselleştirmeyi bulun ve seçin.
+6. **Tamam**'ı seçin.
+
+### <a name="export-and-import-views-or-personalizations"></a>Görünümleri veya kişiselleştirmeleri dışa ve içe aktarma
+
+Kişiselleştirmeleri paylaşmanın başka bir yolu da dışa ve içe aktarmadır. Bireysel kullanıcılar veya bu kişiler adına hareket eden bir yönetici, bu yöntemi kullanarak kendi kişiselleştirmelerini veya görünümlerini dışa aktarabilir ve dışa aktarılan dosyayı içe aktarmaları üzere diğer kullanıcılara verebilir. Alternatif olarak, kullanıcılar yönetici ayrıcalıklarına sahip bir kullanıcıya dışa aktarılan kişiselleştirmelerini verebilir ve böylece söz konusu kullanıcı aynı anda birçok kullanıcıya kişiselleştirme dosyası uygulamak için **kişiselleştirme** yönetim sayfasını kullanabilir.
+
+#### <a name="export"></a>Dışarı aktar
+
+Genel olarak, kendi görünümlerinizi veya kişiselleştirmelerinizi, uygun sayfayı açıp **Kişiselleştirme** araç çubuğunu açıp **Dışa aktar**'ı seçerek verebilirsiniz. Araç çubuğu hakkında daha fazla bilgi için bu konunun önceki bölümlerinde yer alan [Kişiselleştirme araç çubuğu](#personalization-toolbar) kısmını inceleyin. Alternatif olarak, [kaydedilmiş görünümler](saved-views.md)etkinse, sistem içindeki tüm kişiselleştirmeler listesini görüntülemek için **Ayarlar \> Kullanıcı seçenekleri \> Kişiselleştirme**'ye gidebilirsiniz. Daha sonra dışa aktarılacak görünümleri ya da kişiselleştirmeleri seçebilir ve **Dışa aktar**'ı seçebilirsiniz.
+
+Ek olarak, yöneticiler aşağıdaki adımları izleyerek diğer kullanıcıların kişiselleştirmelerini dışa aktarabilir.
+
+1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
+2. **Kullanıcılar** sekmesinde, dilediğiniz kullanıcıyı seçin.
+3. İlgilendiğiniz görünümü veya kişiselleştirmeyi bulun ve seçin.
+4. **Dışa Aktar**'ı seçin.
+
+#### <a name="import"></a>İthalat
+
+Bir görünümü veya kişiselleştirmeyi içe aktarmak için **Kişiselleştirme** araç çubuğunu açıp **İçe aktar**'ı seçebilirsiniz. Ek olarak, yöneticiler bir dosyayı içe aktarabilir ve bir ya da daha fazla kullanıcıya hemen verebilir.
+
+Kaydedilmiş görünümler etkinse, aşağıdaki adımları izleyin.
+
+1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
+2. Eylem Bölmesinde, **Görünümleri içe aktar \> Kullanıcı görünümleri**'ni seçin.
+3. İçeri aktar modunu seçin:
+
+    - **Belirli kullanıcıları seç** – Görünüm veya kişiselleştirmeyi seçili kullanıcılara verin.
+    - **Olduğu gibi içe aktar** – Görünümü veya kişiselleştirmeyi dışa aktaran kullanıcıya aktarın.
+
+4. **Göz at**'ı seçin ve içe aktarılacak kişiselleştirmeyi bulun ve seçin.
+5. **Sonraki**'yi seçin.
+6. 3. adımda **Belirli kullanıcıları seç** seçeneğini belirlediyseniz, kişiselleştirmenin aktarılacağı kullanıcıları seçin.
+7. **İçe aktar**'ı seçin.
+8. Çakışmaları gerektiği gibi çözümleyin.
+
+Kaydedilmiş görünümler etkin değilse, aşağıdaki adımları izleyin.
+
+1. **Sistem yönetimi \> Kurulum \> Kişiselleştirme**'ye gidin.
+2. **Uygula**'yı seçin.
+3. Kişiselleştirmenin dağıtılacağı kullanıcıları seçin.
+4. **Kişiselleştirmeleri bir dosyadan içe aktar**'ı seçin.
+5. **Göz at**'ı seçin ve içe aktarılacak kişiselleştirmeyi bulun ve seçin.
+6. **Tamam**'ı seçin.
 
 ## <a name="administration-of-personalizations"></a>Kişiselleştirme yönetimi
 
@@ -184,8 +267,11 @@ Bir sayfayı kişiselleştirdikten sonra, kişiselleştirilmiş sayfayı dışa 
 [Kaydedilmiş görünümler](saved-views.md) özelliğini henüz etkinleştirmemiş olan müşteriler için bu sayfanın dört sekmesi vardır:
 
 - **Uygula** – Bir veya birden fazla kullanıcı için bir kişiselleştirmeyi içe aktarabilir veya seçebilirsiniz. Bir kişiselleştirmeyi bir veya daha fazla kullanıcıya uygulamak için önce bir rol ve o role sahip kullanıcıları seçin. Daha sonra, ya seçilen kullanıcılara uygulamak üzere mevcut bir kişiselleştirmeyi seçin veya bir kişiselleştirme dosyasını içe aktarın. Kişiselleştirme doğrulanır ve seçilen tüm kullanıcılara, seçili sayfayı bir dahaki açışlarında uygulanır.
+
 - **Temizle** – Bir sayfanın veya çalışma alanının tüm kişiselleştirmelerini bir veya birden fazla kullanıcı için temizleyebilirsiniz. Önce bir sayfayı veya çalışma alanını özelleştiren kullanıcıların listesini görmek için o sayfayı veya çalışma alanını seçin. Ardından, o sayfa veya çalışma alanı için kişiselleştirmelere sahip olması gereken kullanıcıları seçin ve **Temizle**'yi seçin. Seçili kullanıcıların seçili sayfaya veya çalışma alanına uyguladığı tüm kişiselleştirmeler silinir. Bu eylem geri alınamaz. Ancak, sayfa veya çalışma alanı için kaydedilmiş bir kişiselleştirme varsa, kişiselleştirme yeniden içe aktarılabilir.
+
 - **Kullanıcılar** – Bir kullanıcı seçerek, kullanıcının kişiselleştirdiği sayfaların listesini görün. Bunun ardından, seçili kullanıcıların belirli sayfalar veya tüm sistem için kişiselleştirme kullanma yeteneklerini etkinleştirebilir veya devre dışı bırakabilirsiniz. Ayrıca, kullanıcı için bir kişiselleştirmeyi içe veya dışa aktarabilir ya da temizleyebilirsiniz. Ek olarak, kullanıcı için özellik açıklamalarını sıfırlayabilirsiniz. Bu durumda, kullanıcı yeni özellikler içeren açılır pencereleri önceden devre dışı bırakmışsa, bu özellikler kullanıcının bir sonraki karşılaştığı sefer yeniden görünürler.
+
 - **Sistem:** Tüm kullanıcılar için kişiselleştirmeleri geçici olarak devre dışı bırakabilirsiniz. Bu durumda, tüm kullanıcılar için tüm kişiselleştirmeler silinir ve tüm sayfalar varsayılan durumlarına sıfırlanır. Kişiselleştirmeyi daha sonra yeniden etkinleştirirseniz, tüm kişiselleştirmeler yeniden uygulanır. Ayrıca sistemdeki tüm kullanıcılar için tüm kişiselleştirmeleri kalıcı olarak silebilirsiniz. Silinmiş kişiselleştirmeler kurtarılamaz. Bu nedenle, bu görevi uygulamadan önce, daha sonra içeri aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınızdan emin olun.
 
 ## <a name="personalizing-inventory-dimensions"></a>Stok boyutlarının kişiselleştirilmesi

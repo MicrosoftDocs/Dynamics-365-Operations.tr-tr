@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d37644d9dd124e8894197c56cc585cc6f805b54
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06735ce7c876234da263316a6481781f8baa9edd
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820190"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921099"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Kategori hiyerarşilerini kullanarak bir ürünü sınıflandırma
 
@@ -27,18 +27,17 @@ ms.locfileid: "5820190"
 
 Bu konu kategori hiyerarşileri kullanarak bir ürünün nasıl sınıflandıralınacağını açıklamaktadır. Dışa aktarma, tedarik etme, satış ve diğer amaçlar için kategori hiyerarşilerini kullanın. Bu görev, genel olarak bir ürün yöneticisi tarafından gerçekleştirilir. Örnek, demo veri şirketi USMF'de M0009 ürün numarasını kullanır.
 
-1. **Serbest bırakılan ürün bakımı**'nı seçin.
-2. **Tüm serbest bırakılan ürünler**'i seçin.
-3. Listede, istenen kaydı bulun ve seçin.
-4. Eylem Bölmesinde, **Ürün**'ü seçin.
-5. **Ürün kategorileri**'ni seçin.
-6. **Yeni**'yi seçin.
-7. **Kategori hiyerarşisi** alanına bir değer girin veya buradan bir değer seçin.
-8. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
-9. **Yeni**'yi seçin.
-10. **Kategori hiyerarşisi** alanına bir değer girin veya buradan bir değer seçin.
-11. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
-12. Sayfayı kapatın.
+1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
+1. Listede, istenen kaydı bulun ve seçin.
+1. Eylem Bölmesinde, **Ürün**'ü seçin.
+1. **Ürün kategorileri**'ni seçin.
+1. **Yeni**'yi seçin.
+1. **Kategori hiyerarşisi** alanına bir değer girin veya buradan bir değer seçin.
+1. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
+1. **Yeni**'yi seçin.
+1. **Kategori hiyerarşisi** alanına bir değer girin veya buradan bir değer seçin.
+1. **Kategori** alanına bir değer girin veya buradan bir değer seçin.
+1. Sayfayı kapatın.
 
 
 

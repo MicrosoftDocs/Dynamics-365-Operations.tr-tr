@@ -1,5 +1,5 @@
 ---
-title: Satıcı fatura girişi çalışma alanı
+title: Satıcı fatura otomasyonu çalışma alanı
 description: Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanacağını ve Microsoft Power BI üzerinden kullanılabilen bilgileri gösterir.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837279"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954147"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Satıcı fatura girişi çalışma alanı
+# <a name="vendor-invoice-automation-workspace"></a>Satıcı fatura otomasyonu çalışma alanı
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanaca�
 
 ## <a name="overview"></a>Genel bakış
 
-**Satıcı faturası girişi** çalışma alanı satıcı faturasının işlenmesiyle ilgili bilgileri gösterir. Bir **İşim** görünümü ve bir **Analiz - Tüm şirketler** sayfası içerir. **İşim** görünümü özet kutucuklarını, satıcı hareketi ızgaralarını ve ilgili satıcı bilgilerini gösterir. **Analiz - Tüm şirketler** sayfası, Power BI yeteneklerini, satıcı faturalarıyla ilgili görselleri göstermek için kullanır.
+**Satıcı faturası otomasyonu** çalışma alanı satıcı faturasının işlenmesiyle ilgili bilgileri gösterir. Bir **İşim** görünümü ve bir **Analiz - Tüm şirketler** sayfası içerir. **İşim** görünümü özet kutucuklarını, satıcı hareketi ızgaralarını ve ilgili satıcı bilgilerini gösterir. **Analiz - Tüm şirketler** sayfası, Power BI yeteneklerini, satıcı faturalarıyla ilgili görselleri göstermek için kullanır.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Çalışma alanını Power BI içeriğini gösterecek şekilde ayarlama
 
-**Satıcı fatura girişi** çalışma alanındaki Power BI görsel öğelerde verilerin gösterilebilmesi için önce bu kurulumu tamamlamanız gerekir.
+**Satıcı fatura otomasyonu** çalışma alanındaki Power BI görsel öğelerde verilerin gösterilebilmesi için önce bu kurulumu tamamlamanız gerekir.
 
 1. **Özellik Yönetimi** çalışma alanında, **satıcı faturası Otomasyonu** özelliğini bulmak için listeyi filtreleyin.
 3. **Şimdi etkinleştir**'i seçin.
@@ -54,7 +54,7 @@ Bu konu, satıcı faturalarıyla ilgili çalışma alanının nasıl ayarlanaca�
 
 ### <a name="company-selection"></a>Şirket seçimi
 
-**Otomasyon satıcı faturaları** özelliği açık olduğunda, çalışma alanının üst kısmında bir **şirket** alanı belirir. **Şirket** alanındaki seçim, çalışma alanında görüntülenen tüm bilgileri etkiler. Varsayılan olarak görünüm, oturum açmış olduğunuz şirketle ilgili bilgileri gösterir. **Şirket** alanında farklı bir şirket seçerek, o şirketle ilgili bilgileri çalışma alanında gösterebilirsiniz. Daha sonra, seçili şirketteki ilgili sayfaya gitmek için çalışma alanında bir kutucuk seçebilirsiniz.
+**Satıcı fatura otomasyonu** özelliği açık olduğunda, çalışma alanının üst kısmında bir **şirket** alanı belirir. **Şirket** alanındaki seçim, çalışma alanında görüntülenen tüm bilgileri etkiler. Varsayılan olarak görünüm, oturum açmış olduğunuz şirketle ilgili bilgileri gösterir. **Şirket** alanında farklı bir şirket seçerek, o şirketle ilgili bilgileri çalışma alanında gösterebilirsiniz. Daha sonra, seçili şirketteki ilgili sayfaya gitmek için çalışma alanında bir kutucuk seçebilirsiniz.
 
 ### <a name="summary-tiles"></a>Özet kutucukları
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833269"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921253"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Yapılandırılabilir ürünler için öznitelik tabanlı fiyatlandırmayı ayarlama
 
@@ -28,17 +28,18 @@ Bu konu, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını açıkl
 
 
 ## <a name="create-a-new-price-model"></a>Yeni bir fiyat modeli oluşturma
-1. Giriş sayfasında **Ürün çeşidi model tanımı**'nı seçin.
-2. **Bağlantılar** bölümünde **Ürün yapılandırma modelleri**'ni seçin.
-3. Listede, **Son Teknoloji Hoparlör** satırını seçin ancak ad bağlantısını seçmeyin.
-4. Eylem Bölmesinde, **Model**'i seçin.
-5. **Fiyat modelleri**'ni seçin.
-6. **Yeni**'yi seçin.
-7. **Fiyat modeli adı** alanına bir değer yazın. Modelin tanımlanmasını kolaylaştıracak bir ad kullanın.  
-8. **Tanım** alanına bir değer girin.
-9. **Kaydet**'i seçin.
+
+1. **Ürün bilgileri yönetimi \> Ürünler \> Ürün yapılandırma modelleri**'ne gidin.
+1. Listede, **Son Teknoloji Hoparlör** satırını seçin ancak ad bağlantısını seçmeyin.
+1. Eylem Bölmesinde, **Model**'i seçin.
+1. **Fiyat modelleri**'ni seçin.
+1. **Yeni**'yi seçin.
+1. **Fiyat modeli adı** alanına bir değer yazın. Modelin tanımlanmasını kolaylaştıracak bir ad kullanın.  
+1. **Tanım** alanına bir değer girin.
+1. **Kaydet**'i seçin.
 
 ## <a name="add-price-elements"></a>Fiyat öğeleri ekleme
+
 1. **Düzenle** öğesini seçin. Ürün modelindeki her bileşen, taban fiyat öğesine ve istenen sayıda fiyat ifade kuralına sahip olabilir. Ayrıca farklı para birimlerinde fiyatlar da ekleyebilirsiniz.  
 2. **Taban fiyat ifadesi** alanına bir değer yazın. Örneğin 100 yazın. Taban fiyat ifadesi sayısal bir değer olabilir veya bir veya daha fazla özniteliği kapsayan aritmetik hesaplamadan oluşabilir.  
 3. **Ekle**'yi seçin.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890088"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951944"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD zamanlanmış toplu işlerini iyileştirme
 
@@ -89,6 +89,12 @@ BYOD özelliğinde aşağıdaki sınırlamalar geçerlidir:
 **Sorun:** Bir varlık için tam gönderim gerçekleştiğinde **seçili** bir deyimi kullanırsanız BYOD'de büyük bir kayıt kümesi görürsünüz. Ancak artımlı gönderim yaptığınızda, BYOD 'de yalnızca birkaç kayıt görürsünüz. Artımlı gönderim tüm kayıtları silmiş ve BYOD'ye yalnızca değiştirilmiş kayıtları eklemiş gibi görünür.
 
 **Çözüm:** SQL değişiklik izleme tabloları beklenen durumda olmayabilir. Bu tür durumlarda, varlığın değişiklik izleme özelliğini kapatıp yeniden açmanız önerilir. Daha fazla bilgi için bkz. [Varlıklar için değişiklik izlemeyi etkinleştirme](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Hazırlama tabloları temizlenmiyor
+
+**Sorun:** Proje için hazırlama yaparken hazırlama tabloları doğru şekilde temizlenmiyor. Tablolardaki veriler büyümeye devam ediyor ve performans sorunlarına neden oluyor.
+
+**Çözüm:** Hazırlama tablolarında yedi günlük geçmiş tutulur. **İçe aktarma hazırlamasını temizleme** toplu işi tarafından, hazırlama tablolarındaki yedi günden daha eski geçmiş veriler otomatik olarak temizlenir. Bu iş takılı kalırsa tablolar düzgün bir şekilde temizlenmeyecektir. Bu toplu işi yeniden başlatmak, hazırlama tablolarının otomatik olarak temizlenmesi işini devam ettirir.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

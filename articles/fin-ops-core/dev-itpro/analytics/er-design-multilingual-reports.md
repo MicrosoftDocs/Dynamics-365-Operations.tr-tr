@@ -2,7 +2,7 @@
 title: Elektronik raporlamada çok dilli raporlar tasarlama
 description: Bu konu, çok dilli raporlar tasarlamak ve oluşturmak için Elektronik raporlama (ER) etiketlerini nasıl kullanabileceğinizi açıklamaktadır.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753564"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951997"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Elektronik raporlamada çok dilli raporlar tasarlama
 
@@ -158,6 +158,31 @@ ER, oluşturulan bir rapor için dil belirtmek üzere farklı yöntemleri destek
 - **Çalışma zamanında tanımlanmış**: Çalışma zamanında belirtilen bir dilde rapor oluşturun. Bu değeri seçerseniz, **Dil** alanında, dil (ör. ilgili müşterinin dili) için dil kodunu döndüren bir ER ifadesi yapılandırın.
 
     ![ER İşlem tasarımcısında oluşturulan raporun dili olarak çalışma zamanında tanımlanan bir dil belirtin](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Kültüre özel biçimlendirme
+
+ER, oluşturulan bir rapor için kültür belirtmek üzere farklı yöntemleri destekler. Bu nedenle tarih, saat ve sayısal değerler için kültüre özgü doğru biçimlendirme kullanılabilir. Bir ER biçimi tasarladığınızda, **Biçim** sekmesinde, **Kültür tercihleri** alanında, **Ortak\\Dosya**, **Excel\\Dosya**, **PDF\\Dosya** veya **PDF \\Birleştirici** türündeki her biçim bileşeni için aşağıdaki değerlerden birini seçebilirsiniz:
+
+- **Kullanıcı tercihi** – Değerleri, kullanıcının tercih ettiği kültüre göre biçimlendirin. Bu kültür, **Kullanıcı seçenekleri** sayfasının **Tercihler** sekmesindeki **Tarih, saat ve sayı biçimi** alanında tanımlanır.
+
+    ![Kullanıcının tercih edilen kültürünü, ER İşlem Tasarımcısı'nda oluşturulan bir raporun kültürü olarak tanımlama](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Açıkça tanımlanmış** – Değerleri, tasarım zamanında belirtilen kültüre göre biçimlendirin.
+
+    ![Tasarım zamanında belirtilen kültürü, ER İşlem Tasarımcısı'nda oluşturulan bir raporun kültürü olarak tanımlama](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Çalışma süresinde tanımlanmış** – Değerleri, çalışma zamanında belirtilen kültüre göre biçimlendirin. Bu değeri seçerseniz, **Eşleme** sekmesinde **Tarih, saat ve sayı biçimi** alanında, ilgili müşterinin kültürü gibi kültür için kültür kodu döndüren bir ER ifadesi yapılandırın.
+
+    ![Çalışma zamanında belirtilen kültürü, ER İşlem Tasarımcısı'nda oluşturulan bir raporun kültürü olarak tanımlama](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Belirli bir kültürü tanımladığınız bir ER bileşeni, bir metin değerini doldurmak üzere yapılandırılmış alt ER bileşenleri içerebilir. Varsayılan olarak, ana bileşenin kültürü bu bileşenlerin değerlerini biçimlendirmek için kullanılır. Bu bileşenlerin bağlarını yapılandırmak ve değer biçimlendirmesi için alternatif bir kültür uygulamak için aşağıdaki yerleşik ER işlevlerini kullanabilirsiniz:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Sürüm 10.0.20 ve sonrasında, **Ortak\\Dosya** ve **Excel\\Dosya** türlerinin biçim bileşenlerinin yerel ayarları, oluşturulan bir belgenin [PDF dönüştürmesinde](electronic-reporting-destinations.md#OutputConversionToPDF) değerleri biçimlendirmek için kullanılır.
 
 ## <a name="translation"></a>Çeviri
 

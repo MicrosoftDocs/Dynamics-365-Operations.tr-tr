@@ -2,7 +2,7 @@
 title: ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 description: Bu konu, bir Elektronik raporlama (ER) biçimindeki bir sıra öğesinin yürütülmesinin nasıl erteleneceğini açıklamaktadır.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894112"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944521"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>ER biçimindeki sıra öğelerinin yürütülmesini erteleme
 
@@ -57,14 +57,14 @@ Bu örneği tamamlamak üzere aşağıdaki rollerden biri için Finance'teki **U
 
 | İçerik açıklaması            | Dosya adı |
 |--------------------------------|-----------|
-| ER data model configuration    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER model eşleme yapılandırması | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER data model configuration    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER model eşleme yapılandırması | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Başlamadan önce, örnek ER çözümünün de aşağıdaki yapılandırmasını indirip kaydetmeniz gerekir.
 
 | İçerik açıklaması     |Dosya adı |
 |-------------------------|----------|
-| ER format configuration | [Format to learn deferred sequences.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER format configuration | [Format to learn deferred sequences.version.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Örnek ER yapılandırmalarını içe aktarma
 
@@ -169,7 +169,7 @@ Vergi hareketlerine erişmek ve erişilen verileri istek üzerine göstermek iç
 1. **Biçim tasarımcısı** sayfasında, **Çalıştır**'ı seçin.
 2. Web tarayıcısının sunduğu dosyayı indirin ve incelemek üzere açın.
 
-    ![İndirilen dosya](./media/ER-DeferredSequence-Run.png)
+    ![İndirilen örnek rapor dosyası](./media/ER-DeferredSequence-Run.png)
 
 22. özet satırının işlenen hareketler için vergi değerlerinin toplamını sunduğuna dikkat edin. Çünkü biçim, bu toplamı döndürmek için **model.Data.Summary.Total** bağını kullanmak üzer yapılandırılmıştır. Toplam, model eşleşmesini kullanan *GroupBy* türündeki **Gruplandırılmış** veri kaynağının **TotalSum** toplamını çağırarak hesaplanır. Bu toplamı hesaplamak için, model eşleme **Filtre uygulanmış** veri kaynağında seçilen tüm hareketlerin üzerinde yinelenir. Satır 21 ve satır 22'nin yürütme sürelerini karşılaştırarak, toplamın hesaplamasının 10 milisaniye (ms) sürdüğünü belirleyebilirsiniz. Satır 2 ve satır 21'nin yürütme sürelerini karşılaştırarak, tüm işlem satırlarının oluşturulmasının 7 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, toplam 17 milisaniye gerekmiştir.
 
@@ -202,7 +202,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 12. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 13. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredSequence-Run1.png)
+    ![İndirilen dosya - Vergi değerlerinin toplamı](./media/ER-DeferredSequence-Run1.png)
 
     Satır 21, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Satır 22, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy** yerine çıktı tabanlı toplama kullanılabilir. Satır 2 ve satır 21'nin yürütme sürelerini karşılaştırarak, tüm işlem satırlarının oluşturulmasının ve toplama işleminin 9 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin ayrıntılı satırlarının ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
 
@@ -211,7 +211,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 16. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 17. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredSequence-Run2.png)
+    ![Düzenlenmiş formül ile indirilen dosya](./media/ER-DeferredSequence-Run2.png)
 
     Son hareket ayrıntıları satırındaki vergi değerlerinin çalışma toplamının artık özet satırındaki toplama eşit olduğuna dikkat edin.
 
@@ -224,7 +224,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredSequence-Run3.png)
+    ![Rapor üstbilgisinde toplama için indirilen dosya](./media/ER-DeferredSequence-Run3.png)
 
     Özet satırı 2'deki vergi değerleri toplamının 0'a (sıfır) eşit olduğuna dikkat edin, çünkü bu toplam, oluşturulan çıktı temel alınarak hesaplanmıştır. Satır 2 oluşturulurken, oluşturulan çıktıda henüz hareket ayrıntılarını içeren satırlar yoktur. Bu biçimi, **Rapor\\Satırlar\\Kayıt** sıra öğesi tüm vergi hareketleri için çalıştırılana kadar **Rapor\\Satırlar\\Özet** sıra öğesinin yürütülmesini ertelemek üzere yapılandırabilirsiniz.
 
@@ -238,7 +238,7 @@ Hareketlerin hacmi, geçerli örnekteki hacimden çok büyükse, toplama süresi
 3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredSequence-Run4.png)
+    ![İndirilen dosya - ertelenmiş yürütme](./media/ER-DeferredSequence-Run4.png)
 
     **Rapor\\Satırlar\\Özet** sıra öğesi artık yalnızca üst öğesi olan **Rapor\\Satırlar** altında iç içe yuvalanmış diğer öğelerin tümü çalıştırıldıktan sonra çalıştırılır. Bu nedenle, bu öğe, **Rapor\\Satırlar\\Kayıt** sıra öğesi, **model.Data.List** veri kaynağının tüm vergi hareketleri için çalıştırıldıktan sonra çalıştırılır. Satır 1, 2 ve 3'ün ve son satır 22'nin yürütme süreleri bu olguyu ortaya koyar.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813519"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944789"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Satış vergisi kapatma dönemlerini ayarlama
 
@@ -37,9 +37,7 @@ Bu görevde USMF demo şirketi kullanılmaktadır.
 7. **Ödeme koşulları** alanında, açılır menüden istediğiniz kaydı seçin. İlgili Satış vergi dairesi, bir satıcı olarak kurulabilir ve Satış vergisi kapatma işlemi bir açık satıcı faturası oluşturur. Ödeme koşulları, açık satıcı faturası için Vade tarihi oluşturur.  
 8. Kapatma dönemi aralıkları için tür seçin.
 9. Dönem başına dönem aralığı birim sayısını girin. Örneğin üç aylık dönemde 3 ay vardır.
-10. **Satış vergisi kapatma için toplu iş kullan** onay kutusunu işaretleyin veya kutuda işaret varsa kaldırın. Kapatma dönemi için kapatma işlemi arka planda toplu iş olarak sürdürülebilir. Bu bir dönem aralığında çok sayıda vergi hareketi olması durumunda önerilir.  
-    > [!NOTE]
-    > Şu anda bu İspanya, İtalya, Japonya ve Hollanda'da desteklenmez.
+10. **Satış vergisi kapatma için toplu iş kullan** onay kutusunu işaretleyin veya kutuda işaret varsa kaldırın. Kapatma dönemi için kapatma işlemi arka planda toplu iş olarak sürdürülebilir. Bu bir dönem aralığında çok sayıda vergi hareketi olması durumunda önerilir.
 11. **Mahsup vergi hareketleri oluşturmayı engelle** onay kutusunu seçin veya temizleyin. Varsayılan olarak, sistem kapatma işlemi sırasında mahsup vergi hareketleri oluşturur; bu da bir dönem aralığında çok sayıda vergi hareketi varsa performans sorununa neden olur. Mahsup vergi hareketleri oluşturmayı engellemek için bu onay kutusunu seçin.
 12. **Dönem aralıkları sekmesi**'ni genişletin.
 13. **Ekle**'yi seçin.

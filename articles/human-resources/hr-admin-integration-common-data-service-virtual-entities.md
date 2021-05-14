@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890064"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935765"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Dataverse sanal tablolarını yapılandırma
 
@@ -102,27 +102,15 @@ Human Resource örneğinizi Azure portalında kaydetmeniz gerekir; böylece Micr
 
 Sanal tablo çözüm paketini Dataverse'a dağıtmak için Dynamics 365 HR Sanal Tablo uygulamasını Power Apps ortamınıza yükleyin.
 
-1. [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ni açın.
+1. Human Resources'ta **Microsoft Dataverse tümleştirmesi** sayfasını açın.
 
-2. **Ortamlar** listesinde, Human Resources kurulumunuzla ilişkilendirilen Power Apps ortamını seçin.
+2. **Sanal tablolar** sekmesini seçin.
 
-3. Sayfanın **Kaynaklar** bölümünde **Dynamics 365 uygulamaları**'nı seçin.
+3. **Sanal tablo uygulamasını yükle**'yi seçin.
 
-4. **Uygulamayı yükle** eylemini seçin.
+### <a name="configure-the-virtual-table-data-source"></a>Sanal tablo veri kaynağını yapılandırma
 
-5. **Dynamics 365 HR Sanal Tablosu** öğesini ve **İleri**'yi seçin.
-
-6. Hizmet koşullarını gözden geçirin ve kabul etmek için işaretleyin.
-
-7. **Yükle**'yi seçin.
-
-Yükleme birkaç dakika sürer. Bu işlem tamamlandığında sonraki adımlara devam edin.
-
-![Dynamics 365 HR Sanal Tablo uygulamasını Power Platform yönetim merkezinden yükleyin](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>Sanal tablo veri kaynağını yapılandırma 
-
-Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırmaktır. 
+Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırmaktır.
 
 1. [Power Platform Yönetim Merkezi](https://admin.powerplatform.microsoft.com)'ni açın.
 
@@ -133,6 +121,9 @@ Sonraki adım, sanal tablo veri kaynağını Power Apps ortamında yapılandırm
 4. **Çözüm Durumu Merkezi**'nde, uygulama sayfasının sağ üst kısmında **Gelişmiş Bul** simgesini seçin.
 
 5. **Gelişmiş Bul** sayfasında, **Ara** açılan listesinde **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları**'nı seçin.
+
+   > [!NOTE]
+   > Sanal tablo uygulamasının önceki kurulum adımından yüklenmesi birkaç dakika sürebilir. **Finance and Operations Sanal Veri Kaynağı Yapılandırmaları** listede yoksa, bir dakika bekleyip listeyi yenileyin.
 
 6. **Sonuçlar**'ı seçin.
 
@@ -186,7 +177,7 @@ Human Resources'ta iki Azure AD uygulaması için izin verin:
 
 Kurulum tamamlandığında, Dataverse örneğiniz içinde oluşturmak ve etkinleştirmek istediğiniz sanal tabloları seçebilirsiniz.
 
-1. Human Resources'ta **Dataverse tümleştirmesi** sayfasını açın.
+1. Human Resources'ta **Microsoft Dataverse tümleştirmesi** sayfasını açın.
 
 2. **Sanal tablolar** sekmesini seçin.
 
@@ -197,7 +188,7 @@ Kurulum tamamlandığında, Dataverse örneğiniz içinde oluşturmak ve etkinle
 
 4. **Oluştur/Yenile**'yi seçin.
 
-![Dataverse Tümleştirmesi](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Dataverse Tümleştirmesi](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Tablo oluşturma durumunu denetleme
 

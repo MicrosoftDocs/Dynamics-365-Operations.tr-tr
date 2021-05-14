@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
-ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
+ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
+ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5898299"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5965322"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -104,7 +104,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Finance 10.0.12 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
-### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Lehçe SSRS raporları: Satış KDV kaydı, Satınalma KDV kaydı, AB Özeti KDV kaydı – Özellik referansı PL-00014
+### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Kullanımdan kaldırılmadı: Lehçe SSRS raporları: Satış KDV kaydı, Satınalma KDV kaydı, AB Özeti KDV kaydı – Özellik referansı PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -112,7 +112,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Başka bir özellikle mi değiştirildi?**   | Evet (KDV beyannamesiyle Standart Denetim Dosyası için Excel biçimi - JPK_VDEK) |
 | **Etkilenen ürün alanları**         | Uygulama |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanım dışı: 1 Temmuz 2021 itibarıyla, SSRS raporlarını desteklememeyi planlıyoruz: **Satış KDV kaydı, Satınalma KDV kaydı, AB Özet KDV kaydı – Özellik referansı PL-00014**. Bunun yerine, KDV beyannamesi ile Standart Denetim Dosyası (JPK_VDEK) için Excel biçiminde bir örnek kullanıma sunulacaktır. |
+| **Durum**                         | Kullanımdan kaldırılmadı: 27 Nisan 2021 itibarıyla, SSRS raporlarını desteklemeye devam etmeyi planlıyoruz: **Satış KDV kaydı, Satınalma KDV kaydı, AB Özet KDV kaydı – Özellik referansı PL-00014**. Bunun yerine, KDV beyannamesi ile Standart Denetim Dosyası (JPK_VDEK) için Excel biçiminde bir örnek kullanıma sunuldu. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Finance 10.0.11 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

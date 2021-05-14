@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836410"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919953"
 ---
 # <a name="create-a-new-trade-agreement"></a>Yeni bir ticari sözleşme oluşturma
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836410"
 
 Bu yordam belirli bir müşteri ile üzerinde anlaştığınız yeni bir ürün satış fiyatını kaydetmek için bir ticari sözleşmenin nasıl oluşturulacağını gösterir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Eğer kendi verilerinizi kullanıyorsanız, bu kılavuz başlamadan önce varsayılan ilişkisi "Fiyat (satış)" olarak ayarlanan bir ticari sözleşmenin günlük adının var olduğundan emin olmanız gerekir.
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Yeni bir ticari sözleşme günlüğü oluşturun ve deftere nakledin.
+
 1. **Gezinti bölmesi > Modüller > Satış ve pazarlama > Fiyatlar ve indirimler > Ticari sözleşme günlükleri**'ne gidin.
 2. **Yeni**'ye tıklayın.
 3. **Ad** alanında, açılır menü düğmesine tıklayarak aramayı açın.
@@ -58,22 +58,26 @@ Bu yordam belirli bir müşteri ile üzerinde anlaştığınız yeni bir ürün 
 20. **Tamam**'a tıklayın.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Bir ürün için ticari sözleşmeleri görüntüleyin
+
 1. **Gezinti bölmesi > Modüller > Ürün bilgileri yönetimi > Ürünler > Serbest bırakılan ürünler**'e gidin.
 2. Listede, fiyatını az önce güncelleştirdiğiniz ürünü bulun ve seçin.
 3. **Eylem bölmesi**'nde, **Satış**'a tıklayın.
 4. **Ticaret anlaşmalarını görüntüle**'ye tıklayın.
     
-    Yeni oluşturduğunuz fiyat ticari sözleşmesinin ayrıntılarını gözden geçirin.    
+    Yeni oluşturduğunuz fiyat ticari sözleşmesinin ayrıntılarını gözden geçirin.
 
 5. Sayfayı kapatın.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 ### <a name="whitepaper"></a>Teknik inceleme
+
 Daha fazla bilgi için, aşağıdaki teknik incelemeyi indirin (AX2012'yi desteklemek için yazılmıştır ancak Dynamics 365 Supply Chain Management için de geçerlidir)
-- [Ticari sözleşmeler](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Ticari sözleşmeler](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Topluluk blogları
+
 - [Dynamics 365 for Finance and Operations içindeki satış fiyatları](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

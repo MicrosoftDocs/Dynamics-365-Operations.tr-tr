@@ -2,25 +2,25 @@
 title: Yevmiye defteri satırlarında satış vergisi hesaplaması
 description: Bu konu, yevmiye defteri satırlarında farklı hesap türleri (satıcı, müşteri, genel muhasebe ve proje) için satış vergilerinin nasıl hesaplandığını açıklamaktadır.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815344"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937318"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Yevmiye defteri satırlarında satış vergisi hesaplaması
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Bu bölümde, satış vergisi tutar işaretinin nasıl hesaplandığı açıklan
 
 ![Satış vergisi hareketleri sayfası](media/sales-tax-amount-sign.jpg)
 
-Aşağıdaki tabloda, geçici satış vergisi tablosundaki satış vergisi tutarlarının işaretini belirlemeye yönelik genel kural gösterilmektedir.
+Aşağıdaki tabloda, geçici satış vergisi tablosundaki satış vergisi yönünü ve satış vergisi tutarlarının işaretini belirlemeye yönelik genel kural gösterilmektedir.
 
 | Günlük satırı tutarı | Satış vergisi yönü  | Satış vergisi tutar işareti |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ Aşağıdaki tabloda, geçici satış vergisi tablosundaki satış vergisi tutar
 | Negatif            | Satış Vergisi Alacağı | Negatif              |
 | Negatif            | Satış Vergisi Borcu    | Pozitif              |
 
-**Genel muhasebe** satırında bir satış vergisi grubu veya madde satış vergisi grubu seçildiğinde yalnızca **Proje** veya **Genel muhasebe** satırları olan fişler için özel bir kural vardır. Bu kural, yevmiye defterleri için Bağımsız satış vergisi hesaplamasını etkinleştir özelliğiyle kontrol edilir. Bu özellik kapatılınca **Genel muhasebe** satırının vergi tutarı **Proje** satırının borç/alacak yönünü kullanır. Bu özellik açılınca **Genel muhasebe** satırının vergi tutarı kendi borç/alacak yönünü kullanır. Aşağıdaki tablolarda her senaryoya ilişkin kural gösterilmektedir. 
+**Genel muhasebe** satırında bir satış vergisi grubu veya madde satış vergisi grubu seçildiğinde yalnızca **Proje** veya **Genel muhasebe** satırları olan fişler için özel bir kural vardır. Bu kural, **Yevmiye defterleri için bağımsız satış vergisi hesaplamasını etkinleştir** özelliğiyle kontrol edilir. Bu özellik kapatılınca **Genel muhasebe** satırının vergi tutarı **Proje** satırının borç/alacak yönünü kullanır. Bu özellik açılınca **Genel muhasebe** satırının vergi tutarı kendi borç/alacak yönünü kullanır. Aşağıdaki tablolarda her senaryoya ilişkin kural gösterilmektedir. 
 
 **Özellik açıkken uygulanan kural**
 

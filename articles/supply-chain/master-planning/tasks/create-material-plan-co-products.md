@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d910b89330865b0bcf3f6cd05b761506f339a45f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b51e4b4d00da2babb5128d8c4c22139b0c1853d4
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841683"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920741"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Ortak ürünler için bir malzeme planı oluşturma
 
@@ -26,88 +26,88 @@ ms.locfileid: "5841683"
 
 Üretim Planlayıcısı formül yan ürünleri olan maddeler için malzeme gereksinimleri planlaması yapar. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USP2'dir.
 
-
 ## <a name="create-requirement-for-a-co-product"></a>Ortak bir ürün için gereksinim oluşturun
-1. Varsayılan panoya gidin.
-2. Satış siparişi işleme ve sorgulama'ya tıklayın.
-3. Yeni'yi tıklatın.
-4. Satış siparişi'ne tıklayın.
-5. Müşteri hesabı alanına bir değer girin.
+
+1. **Satış ve pazarlama \> Çalışma alanları \> Satış siparişi işleme ve sorgulama**'ya gidin.
+1. **Yeni**'yi seçin.
+1. **Satış siparişi**'ni seçin.
+1. **Müşteri hesabı** alanına bir değer girin.
     * Örnek: US-001  
-6. Tamam'a tıklayın.
-7. Madde numarası alanına bir değer girin.
+1. **Tamam**'ı seçin.
+1. **Madde numarası** alanına bir değer girin.
     * Örnek: P6003  
-8. Miktar alanına bir sayı girin.
+1. **Miktar** alanına bir sayı girin.
     * Örnek: 50000  
-9. Kaydet'e tıklayın.
+1. **Kaydet**'i seçin.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Ortak ürünler için malzeme planı oluşturma
+
 1. Sayfayı kapatın.
-2. Sayfayı kapatın.
-3. Master planlama'ya tıklayın.
-4. Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Listede, seçili satırdaki bağlantıya tıklayın.
+1. Sayfayı kapatın.
+1. **Master planlama**'yı seçin.
+1. **Plan** alanında, aramayı açmak için açılır menü düğmesini seçin.
+1. Listeden, seçilen satırdaki bağlantıyı seçin.
     * Örnek: MasterPlan  
-6. Çalıştır öğesine tıklayın.
-7. Eklenecek kayıtlar bölümünü genişletin veya daraltın.
-8. Filtre'ye tıklayın.
-9. Listede, Alan = Madde numarası alanını seçin.
-10. Ölçütler alanına bir değer yazın.
+1. **Çalıştır**'ı seçin.
+1. **Eklenecek kayıtlar** bölümünü genişletin veya daraltın.
+1. **Filtre**'yi seç.
+1. Listede, **Alan** =  *Madde numarası* satırını seçin.
+1. **Ölçütler** alanına bir değer yazın.
     * Örnek: P6003  
-11. Tamam'a tıklayın.
-12. Tamam'a tıklayın.
-13. Planlı siparişler'e tıklayın.
-14. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.
+1. **Tamam**'ı seçin.
+1. **Tamam**'ı seçin.
+1. **Planlı siparişler**'i seçin.
+1. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Öğe numarası** alanını 'P6000' değeriyle filtreleyin.
     * Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.  
-15. Listede, seçili satırı işaretleyin.
+1. Listede, seçili satırı işaretleyin.
     * Filtre tarafından geri getirilen satırlardan herhangi birini seçin.  
-16. Listede, seçili satırdaki bağlantıya tıklayın.
-17. İlişkilendirme bölümünü genişletin veya daraltın.
-18. Listede, seçili satırdaki bağlantıya tıklayın.
+1. Listeden, seçilen satırdaki bağlantıyı seçin.
+1. **İlişkilendirme** bölümünü genişletin.
+1. Listeden, seçilen satırdaki bağlantıyı seçin.
     * Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.  
-19. Sayfayı kapatın.
+1. Sayfayı kapatın.
 
-## <a name="create-requirement-for-a-co-product"></a>Ortak bir ürün için gereksinim oluşturun
-1. Varsayılan panoya gidin.
-2. Satış siparişi işleme ve sorgulama'ya tıklayın.
-3. Yeni'yi tıklatın.
-4. Satış siparişi'ne tıklayın.
-5. Müşteri hesabı alanına bir değer girin.
+## <a name="create-a-second-requirement-for-a-co-product"></a>Ortak bir ürün için ikinci bir gereksinim oluşturma
+
+1. **Satış ve pazarlama \> Çalışma alanları \> Satış siparişi işleme ve sorgulama**'ya gidin.
+1. **Yeni**'yi seçin.
+1. **Satış siparişi**'ni seçin.
+1. **Müşteri hesabı** alanına bir değer girin.
     * Örnek: US-001  
-6. Tamam'a tıklayın.
-7. Madde numarası alanına bir değer girin.
+1. **Tamam**'ı seçin.
+1. **Madde numarası** alanına bir değer girin.
     * Örnek: P6003  
-8. Miktar alanına bir sayı girin.
+1. **Miktar** alanına bir sayı girin.
     * Örnek: 50000  
-9. Kaydet'e tıklayın.
+1. **Kaydet**'i seçin.
 
-## <a name="create-a-material-plan-for-co-products"></a>Ortak ürünler için malzeme planı oluşturma
-1. Plan alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-2. Listede, seçili satırdaki bağlantıya tıklayın.
+## <a name="create-a-second-material-plan-for-co-products"></a>Ortak ürünler için ikinci bir malzeme planı oluşturma
+
+1. **Plan** alanında, aramayı açmak için açılır menü düğmesini seçin.
+2. Listeden, seçilen satırdaki bağlantıyı seçin.
     * Örnek: MasterPlan  
-3. Çalıştır öğesine tıklayın.
-4. Eklenecek kayıtlar bölümünü genişletin veya daraltın.
-5. Filtre'ye tıklayın.
-6. Listede, Alan = Madde numarası alanını seçin.
-7. Ölçütler alanına bir değer yazın.
+3. **Çalıştır**'ı seçin.
+4. **Eklenecek kayıtlar** bölümünü genişletin veya daraltın.
+5. **Filtre**'yi seç.
+6. Listede, **Alan** =  *Madde numarası* satırını seçin.
+7. *Ölçütler* alanına bir değer yazın.
     * Örnek: P6003  
-8. Tamam'a tıklayın.
-9. Tamam'a tıklayın.
-10. Planlı siparişler'e tıklayın.
-11. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, Ürün numarası alanını 'P6000' değeriyle filtreleyin.
+8. **Tamam**'ı seçin.
+9. **Tamam**'ı seçin.
+10. **Planlı siparişler**'i seçin.
+11. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, **Öğe numarası** alanını 'P6000' değeriyle filtreleyin.
     * Bir satış siparişi oluşturduğunuz maddeyi, ortak ürün olarak içeren formül maddesine göre filtreleyin.  
 12. Listede, seçili satırı işaretleyin.
     * Filtre tarafından geri getirilen satırlardan herhangi birini seçin.  
-13. Listede, seçili satırdaki bağlantıya tıklayın.
-14. İlişkilendirme bölümünü genişletin veya daraltın.
-15. Listede, seçili satırdaki bağlantıya tıklayın.
+13. Listeden, seçilen satırdaki bağlantıyı seçin.
+14. **İlişkilendirme** bölümünü genişletin veya daraltın.
+15. Listeden, seçilen satırdaki bağlantıyı seçin.
     * Planlı sipariş, ortak ürünün satış siparişine ilişkilendirilmiştir.  
 16. Sayfayı kapatın.
-17. Master planlama'ya tıklayın.
-18. Master planlama > Kurulum > Master planlama parametreleri'ne gidin.
-19. Tüm planlama işlemlerini devre dışı bırak alanında Hayır'ı işaretle.
+17. **Master planlama**'yı seçin.
+18. **Master planlama \> Kurulum \> Master planlama parametreleri**'ne gidin.
+19. **Tüm planlama işlemlerini devre dışı bırak** alanında *Hayır*'ı işaretleyin.
 20. Sayfayı kapatın.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

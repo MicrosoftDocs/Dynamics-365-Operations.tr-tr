@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821020"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936742"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 
@@ -42,7 +42,7 @@ POS'ta müşteri siparişi işlevini kullanmayı denemeden önce, Commerce yöne
 
 ### <a name="configure-modes-of-delivery"></a>Teslimat şekillerini yapılandırma
 
-Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği teslimat şekillerini yapılandırmalısınız. Bir mağazadan sipariş satırları müşteriye sevk edildiğinde kullanılabilecek en az bir teslimat şeklini tanımlamalısınız. Ayrıca sipariş satırları bir mağazadan çekildiğinde kullanılabilecek en az bir teslimatın alma şeklini tanımlamalısınız. Teslimat şekilleri Commerce yönetim merkezinde **Teslimat şekilleri** sayfasında tanımlanır. Commerce kanalları için teslimat şeklinin yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat şekillerini tanımlama](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği teslimat şekillerini yapılandırmalısınız. Bir mağazadan sipariş satırları müşteriye sevk edildiğinde kullanılabilecek en az bir teslimat şeklini tanımlamalısınız. Ayrıca sipariş satırları bir mağazadan çekildiğinde kullanılabilecek en az bir teslimatın alma şeklini tanımlamalısınız. Teslimat şekilleri Commerce yönetim merkezinde **Teslimat şekilleri** sayfasında tanımlanır. Commerce kanalları için teslimat şeklinin yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat şekillerini tanımlama](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Teslimat şekilleri sayfası](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ POS'ta müşteri siparişlerini oluşturmayı denemeden önce, Commerce yönetim
 - **İptal ücreti yüzdesi**: Müşteri siparişi iptal edildiğinde, bir ücret uygulanacaksa bu tutarı belirtin.
 - **İptal masrafı kodu**: POS ile iptal edilen müşteri siparişleri için iptal gideri uygulandığında kullanılması gereken Alacak hesapları gider kodunu belirtin. Masraf kodu, iptal masrafı için mali deftere nakil mantığını tanımlar.
 - **Sevkiyat masrafı kodu**: **Gelişmiş otomatik masrafları kullan** seçeneği **Evet** olarak ayarlanmışsa, bu parametre ayarının hiçbir etkisi olmaz. Bu seçenek **Hayır** olarak ayarlanmışsa, kullanıcılardan POS'ta müşteri siparişleri oluştururken, sevkiyat masraflarını el ile girmeleri istenir. Kullanıcılar bir sevkiyat masrafı girdiğinde siparişlere uygulanacak Alacak hesapları gider kodunu eşlemek için bu parametreyi kullanın. Masraf kodu, sevkiyat masrafı için mali deftere nakil mantığını tanımlar.
-- **Gelişmiş otomatik masrafları kullan**: POS'ta müşteri siparişleri oluşturulurken sistem tarafından hesaplanan otomatik masrafları kullanmak için bu seçeneği **Evet** olarak ayarlayın. Otomatik masraflar, sevkiyat ücretlerini ve diğer sipariş veya maddeye özel masrafları hesaplamak için kullanılabilir. Gelişmiş otomatik masrafları özelliğini ayarlama ve kullanma hakkında bilgi için bkz. [Çok yönlü kanal gelişmiş otomatik masrafları](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Gelişmiş otomatik masrafları kullan**: POS'ta müşteri siparişleri oluşturulurken sistem tarafından hesaplanan otomatik masrafları kullanmak için bu seçeneği **Evet** olarak ayarlayın. Otomatik masraflar, sevkiyat ücretlerini ve diğer sipariş veya maddeye özel masrafları hesaplamak için kullanılabilir. Gelişmiş otomatik masrafları özelliğini ayarlama ve kullanma hakkında bilgi için bkz. [Çok yönlü kanal gelişmiş otomatik masrafları](./omni-auto-charges.md).
 
 ![Commerce parametreleri sayfasındaki müşteri siparişleri sekmesi](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>POS'ta hareket ekran düzenlerini güncelleştirme
 
-POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts), müşteri siparişlerinin oluşturulmasını ve yönetilmesini destekleyecek şekilde yapılandırıldığından ve gerekli tüm POS işlemlerinin yapılandırıldığından emin olun. Müşteri siparişi oluşturma ve yönetimini doğru şekilde desteklemek için önerilen POS işlemlerinden bazıları şunlardır:
+POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluşturulmasını ve yönetilmesini destekleyecek şekilde yapılandırıldığından ve gerekli tüm POS işlemlerinin yapılandırıldığından emin olun. Müşteri siparişi oluşturma ve yönetimini doğru şekilde desteklemek için önerilen POS işlemlerinden bazıları şunlardır:
 - **Tüm ürünleri sevk et**: Bu işlem, hareket sepetindeki tüm satırların bir hedefe sevk edileceğini belirtmek için kullanılır.
 - **Seçili ürünleri sevk et**: Bu işlem, hareket sepetindeki seçili satırların bir hedefe sevk edileceğini belirtmek için kullanılır.
 - **Tüm ürünleri çek**: Bu işlem, hareket sepetindeki tüm satırların seçili bir mağaza konumundan çekileceğini belirtmek için kullanılır.
 - **Seçili ürünleri çek**: Bu işlem, hareket sepetindeki seçili satırların seçili bir mağaza konumundan çekileceğini belirtmek için kullanılır.
 - **Tüm ürünleri teslim al**: Bu işlem, hareket sepetindeki tüm satırların teslim alınacağını için belirtmek kullanılır. POS'ta bu işlem kullanılırsa, müşteri siparişi öde ve al hareketine dönüştürülür.
-- **Seçili ürünleri teslim al**: Bu işlem, hareket sepetindeki seçili satırların, satınalma sırasında müşteri tarafından satın alınacağını belirtmek için kullanılır. Bu işlemden yalnızca [karma sipariş](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) senaryosunda yararlanılır.
+- **Seçili ürünleri teslim al**: Bu işlem, hareket sepetindeki seçili satırların, satınalma sırasında müşteri tarafından satın alınacağını belirtmek için kullanılır. Bu işlemden yalnızca [karma sipariş](./hybrid-customer-orders.md) senaryosunda yararlanılır.
 - **Siparişi geri çağır**: Bu işlem, müşteri siparişlerini aramak ve getirmek için kullanılır, böylece POS kullanıcıları gerektiğinde karşılama ile ilgili işlemlerini düzenleyebilir, iptal edebilir veya gerçekleştirebilir.
 - **Teslimat şeklini değiştir**: Bu işlem, önceden sevkiyat için yapılandırılmış olan satırlar için teslimat şeklini, kullanıcıların "tüm ürünleri sevk et" veya "seçilen ürünleri sevk et" akışının aşamalarının üzerinden yeniden geçmelerine gerek kalmadan teslim etme modunu hızla değiştirmek için kullanılabilir.
 - **Havale geçersiz kılma**: Bu işlem, müşterinin seçili müşteri siparişi için ödeyeceği depozito tutarını değiştirmek için kullanılabilir.
@@ -128,7 +128,7 @@ POS [ekran düzeninin](https://docs.microsoft.com/dynamics365/commerce/pos-scree
 Çevrimiçi veya mağaza kanalında oluşturulan perakende siparişleri gerektiğinde, POS aracılığıyla geri çekilebilir ve düzenlenebilir.
 
 > [!IMPORTANT]
-> Tüm perakende siparişler POS uygulaması aracılığıyla düzenlenemez. Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
+> Tüm perakende siparişler POS uygulaması aracılığıyla düzenlenemez. Çağrı merkezi kanalında oluşturulan siparişler, bu kanalda [Sipariş tamamlamayı etkinleştir](./set-up-order-processing-options.md#enable-order-completion) ayarı açıksa, POS üzerinden düzenlenemez. Doğru ödeme işleminin yapıldığından emin olmak için, bir çağrı merkezi kanalında oluşturulan ve Sipariş tamamlamayı etkinleştirme işlevini kullanan siparişlerin Commerce Headquarters'da çağrı merkezi uygulaması aracılığıyla düzenlenmesi gerekir.
 
 Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse bile POS uygulaması üzerinden uygun siparişleri düzenleyebilir. Ancak, tamamen faturalanmış siparişler POS üzerinden düzenlenemez. Bu özelliği etkinleştirmek için **Özellik yönetimi** çalışma alanında **Satış Noktası'nda kısmen karşılanmış siparişleri düzenle** özelliğini açın. Bu özellik etkin değilse veya sürüm 10.0.16 veya öncesini kullanıyorsanız kullanıcılar yalnızca sipariş tam olarak açıksa POS'ta müşteri siparişlerini düzenleyebilirler. Ayrıca, özellik etkinleştirildiğinde, hangi mağazaların kısmi olarak karşılanan siparişleri düzenleyebileceğini sınırlayabilirsiniz. Belirli mağazalar için bu özelliği devre dışı bırakma seçeneği, **Genel** hızlı sekmesi altındaki **İşlevsellik profili** aracılığıyla konfigüre edilebilir.
 
@@ -153,7 +153,7 @@ Sürüm 10.0.17 ve sonrasında, kullanıcılar,sipariş kısmen karşılanabilse
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>POS'tan müşteri sipariş sevkiyatını veya malzeme çekmeyi sonlandırma
 
-Bir sipariş oluşturulduktan sonra, maddeler müşteri tarafından bir mağaza konumundan çekilir veya siparişin yapılandırmasına bağlı olarak sevk edilir. Bu işlem hakkında daha fazla bilgi edinmek için [mağaza sipariş karşılama](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview) belgelerine bakın.
+Bir sipariş oluşturulduktan sonra, maddeler müşteri tarafından bir mağaza konumundan çekilir veya siparişin yapılandırmasına bağlı olarak sevk edilir. Bu işlem hakkında daha fazla bilgi edinmek için [mağaza sipariş karşılama](./order-fulfillment-overview.md) belgelerine bakın.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Müşteri siparişleri için zaman uyumsuz işlem akışı
 

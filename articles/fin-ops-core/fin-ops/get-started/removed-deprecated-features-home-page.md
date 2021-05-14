@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f9b37ffe1f3c13672bfed29918bfc6d108b0eaea
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f11043005ba6ec32b81b923aa78248100134c130
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744651"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923387"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Kaldırılan veya kullanım dışı bırakılan özellikler ana sayfası
 
@@ -37,6 +37,4 @@ Aşağıdaki konularda, Finance and Operations uygulamalarındaki kaldırılan v
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Microsoft Power Platform'da kullanımdan kaldırmalar
 Aşağıdaki konu Microsoft Power Platform'daki kullanımdan kaldırmalar hakkında bilgi sağlar:
 
-- [Power Apps, Power Automate ve müşteri etkileşimi uygulamalarıyla gelen önemli değişiklikler (kullanımdan kaldırmalar)](https://docs.microsoft.com/power-platform/important-changes-coming)
-
-
+- [Power Apps, Power Automate ve müşteri etkileşimi uygulamalarıyla gelen önemli değişiklikler (kullanımdan kaldırmalar)](/power-platform/important-changes-coming)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812532"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920569"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>PunchOut e-procurement için harici katalog ayarlama
 
@@ -40,7 +40,7 @@ Harici katalog satınalma talebini giren çalışanın ürünleri seçmek için 
 
 1. Bir tedarik kategori hiyerarşisi ayarlayın. Daha fazla bilgi için bkz. [Tedarik kategorisi hiyerarşileri için ilkeleri ayarlama](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Satıcıyı Supply Chain Management'a kaydedin. Harici satıcı kataloğuna erişmek için yapılandırmalarını ayarlamadan önce Microsoft Dynamics 365'te satıcıyı ve satıcı ilgili kişisini ayarlamanız gerekir. Harici kataloğun satıcısı seçilen tedarik kategorisine de eklenmelidir. Satıcıları kaydetme hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md). Satıcıları bir tedarik kategorisine atama konusunda bilgi için bkz. [Belirli tedarik kategorileri için satıcıları onaylama](tasks/approve-vendors-specific-procurement-categories.md).
-3. Satıcının kullandığı para birimi ve ölçü birimlerinin ayarlandığından emin olun. Bir ölçü birimi oluşturma hakkında bilgi için bkz. [Ölçü birimi yönetme](../pim/tasks/manage-unit-measure.md).
+3. Satıcının kullandığı para birimi ve ölçü birimlerinin ayarlandığından emin olun. Bir ölçü birimi oluşturma hakkında bilgi için bkz. [Ölçü birimleri yönetme](../pim/tasks/manage-unit-measure.md).
 4. Harici satıcı kataloğunu satıcınızın harici katalog sitesi gereksinimlerini kullanarak yapılandırın. Bu görev hakkında daha fazla bilgi için bkz. [Harici satıcı kataloğu yapılandırma](#configure-the-external-vendor-catalog).
 5. Ayarlarının geçerli olduğunu ve satıcının harici kataloğuna erişebildiğinizi doğrulamak için satıcının harici katalog yapılandırmalarını test edin. Tanımladığınız talep kurulumu iletisini doğrulamak için **Ayarları doğrula** eylemini kullanın. Bu ileti satıcının harici katalog sitesinin bir tarayıcı penceresinde açılmasına neden olmalıdır. Doğrulama sırasında satıcıdan ürün veya hizmet sipariş edemezsiniz. Malzeme veya hizmet sipariş etmek için satıcının kataloğuna bir satınalma talebinden erişmeniz gerekir.
 6. Harici kataloğu **Harici kataloglar** sayfasındaki **Kataloğu etkinleştir** düğmesini kullanarak etkinleştirin. Çalışanların kullanabilmesi için harici kataloğun etkinleştirilmesi gerekir. Herhangi bir zamanda harici kataloğu devre dışı bırakabilirsiniz.

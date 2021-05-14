@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751422"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941041"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse'da şirket kavramı
 
@@ -89,7 +89,7 @@ Müşteri etkileşimi uygulamalarında şirket adını otomatik olarak doldurman
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Satır seçmek, varsayılan şirketi değiştirir.":::
 
-+ Sistem yapılandırıcısı veya yöneticisiyseniz ve özel bir formda şirket verilerini otomatik olarak doldurmak istiyorsanız [form olaylarını](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) kullanabilirsiniz. **msdyn_/DefaultCompany.js** öğesine JavaScript başvurusu ekleyip aşağıdaki olayları kullanın. İstediğiniz kullanıma hazır formu (ör. **Hesap** formu) kullanabilirsiniz.
++ Sistem yapılandırıcısı veya yöneticisiyseniz ve özel bir formda şirket verilerini otomatik olarak doldurmak istiyorsanız [form olaylarını](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) kullanabilirsiniz. **msdyn_/DefaultCompany.js** öğesine JavaScript başvurusu ekleyip aşağıdaki olayları kullanın. İstediğiniz kullanıma hazır formu (ör. **Hesap** formu) kullanabilirsiniz.
 
     + Form için **OnLoad** olayı: **defaultCompany** sütununu ayarlayın.
     + **Şirket** sütunu için **OnChange** olayı: **updateDefaultCompany** sütununu ayarlayın.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751446"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941178"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
 
@@ -31,7 +31,7 @@ Bu konu başlığında, Dynamics 365 Sales'da satış teklifleri oluşturmak iç
 
 Dynamics 365 Commerce fiyatlandırma altyapısı, mağaza düzeyinde fiyatlandırma, ilişki tabanlı ve bağlılık programı tabanlı fiyatlandırma, karıştırma ve eşleme iskontoları, miktar iskontoları ve eşik iskontoları gibi işletme-müşteri (B2C) fiyatlandırma senaryolarının çoğunu destekler. Fiyatlandırma motoru, belirli bir teklif veya sipariş için en iyi fiyatı belirlemek amacıyla karmaşık kurallar kullanır.
 
-[Çift yazma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) özelliğini kullandığınızda, fiyatlandırma gereksinimleriniz için üç seçenek sunulur. Dynamics 365 Sales'daki fiyat listesinden gelen statik fiyatlandırmayı, Dynamics 365 Supply Chain Management'taki fiyatlandırma altyapısını veya Dynamics 365 Commerce'teki fiyatlandırma altyapısını kullanabilirsiniz. Bu seçenekler arasında Commerce fiyatlandırma altyapısı, B2C senaryolarına en uygun yöntemdir.
+[Çift yazma](./dual-write-overview.md) özelliğini kullandığınızda, fiyatlandırma gereksinimleriniz için üç seçenek sunulur. Dynamics 365 Sales'daki fiyat listesinden gelen statik fiyatlandırmayı, Dynamics 365 Supply Chain Management'taki fiyatlandırma altyapısını veya Dynamics 365 Commerce'teki fiyatlandırma altyapısını kullanabilirsiniz. Bu seçenekler arasında Commerce fiyatlandırma altyapısı, B2C senaryolarına en uygun yöntemdir.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Sales'da Commerce fiyatlandırma altyapısını kullanma
 
@@ -42,7 +42,7 @@ Kullanıcılar Sales'da bir teklif başlattıklarında çift yazma çerçevesi t
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-- Commerce fiyatlandırma altyapısını Sales'da kullanabilmek için [Çift yazmada aday müşteriden nakde](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/) konusundaki adımları uygulamanız gerekir.
+- Commerce fiyatlandırma altyapısını Sales'da kullanabilmek için [Çift yazmada aday müşteriden nakde](./dual-write-prospect-to-cash.md) konusundaki adımları uygulamanız gerekir.
 - Aşağıdaki adımları izleyerek, el ile giriş için ticari sözleşme değerlendirmesini kapatmanız gerekir:
 
     1. Commerce ortamınızda **Alacak hesapları\>Kurulum \>Alacak hesapları parametreleri**'ne gidin.
@@ -50,7 +50,7 @@ Kullanıcılar Sales'da bir teklif başlattıklarında çift yazma çerçevesi t
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Çift yazmada aday müşteriden nakde](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Çift yazmada aday müşteriden nakde](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

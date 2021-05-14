@@ -2,7 +2,7 @@
 title: ER biçimindeki XML öğelerinin yürütülmesini erteleme
 description: Bu konu, bir Elektronik raporlama (ER) biçimindeki bir XML öğesinin yürütülmesinin nasıl erteleneceğini açıklamaktadır.
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894064"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944497"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>ER biçimindeki XML öğelerinin yürütülmesini erteleme
 
@@ -59,14 +59,14 @@ Bu örneği tamamlamak üzere aşağıdaki rollerden biri için Finance'teki **U
 
 | İçerik açıklaması            | Dosya adı |
 |--------------------------------|-----------|
-| ER data model configuration    | [Model to learn deferred elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| ER model eşleme yapılandırması | [Mapping to learn deferred elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER data model configuration    | [Model to learn deferred elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| ER model eşleme yapılandırması | [Mapping to learn deferred elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Başlamadan önce, örnek ER çözümünün de aşağıdaki yapılandırmasını indirip yerel bilgisayarınıza kaydetmeniz gerekir.
 
 | İçerik açıklaması     | Dosya adı |
 |-------------------------|-----------|
-| ER biçim yapılandırması | [Format to learn deferred XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER biçim yapılandırması | [Format to learn deferred XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Örnek ER yapılandırmalarını içe aktarma
 
@@ -164,7 +164,7 @@ Vergi hareketlerine erişmek ve erişilen verileri istek üzerine göstermek iç
 1. **Biçim tasarımcısı** sayfasında, **Çalıştır**'ı seçin.
 2. Web tarayıcısının sunduğu dosyayı indirin ve incelemek üzere açın.
 
-    ![İndirilen dosya](./media/ER-DeferredXml-Run.png)
+    ![İçe aktarılan biçim dosyası indirildi](./media/ER-DeferredXml-Run.png)
 
 Özet düğümünün işlenen hareketler için vergi değerlerinin toplamını sunduğuna dikkat edin. Çünkü biçim, bu toplamı döndürmek için **model.Data.Summary.Total** bağını kullanmak üzer yapılandırılmıştır. Toplam, model eşleşmesindeki *GroupBy* türünde **Gruplandırılmış** veri kaynağının **TotalSum** toplamını çağırarak hesaplanır. Bu toplamı hesaplamak için, model eşleme **Filtre uygulanmış** veri kaynağında seçilen tüm hareketlerin üzerinde yinelenir. Özet düğümünün ve son kayıt düğümünün yürütme sürelerini karşılaştırarak, toplam hesaplamasının 12 milisaniye (ms) olduğunu belirleyebilirsiniz. İlk ve son kayıt düğümlerinin yürütme sürelerini karşılaştırarak, tüm kayıt düğümlerini oluşturmanın 9 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, toplam 21 milisaniye gerekmiştir.
 
@@ -196,7 +196,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 11. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 12. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredXml-Run1.png)
+    ![Çalışma toplamıyla oluşturulan vergi değeri listesi](./media/ER-DeferredXml-Run1.png)
 
     Son kayıt düğümü, oluşturulan çıktıyı bir veri kaynağı olarak kullanarak, tüm işlem gören hareketler için hesaplanan vergi değerlerinin çalışma toplamını içerir. Bu veri kaynağı raporun başından başlar ve son vergi hareketi üzerinden devam eder. Özet düğümü, *GroupBy* türündeki veri kaynağını kullanarak model eşlemesinde hesaplanan tüm işlenmiş hareketler için vergi değerlerinin toplamını içerir. Bu değerlerin eşit olduğuna dikkat edin. Bu nedenle, **GroupBy** yerine çıktı tabanlı toplama kullanılabilir. İlk kayıt düğümü ve özet düğümü yürütme sürelerini karşılaştırarak, tüm kayıt düğümlerini oluşturma ve toplama işlemlerinin 11 milisaniye sürdüğünü belirleyebilirsiniz. Bu nedenle, vergi değerlerinin kayıt düğümlerinin ve toplamının oluşturulması söz konusuyken, değiştirilen biçim, orijinal biçimden yaklaşık iki kat daha hızlıdır.
 
@@ -205,7 +205,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 15. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 16. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredXml-Run2.png)
+    ![Düzenlenmiş formül kullanılarak oluşturulan vergi değerleri listesi](./media/ER-DeferredXml-Run2.png)
 
     Son kayıt düğümündeki vergi değerlerinin çalışma toplamının artık özet düğümündeki toplama eşit olduğuna dikkat edin.
 
@@ -218,7 +218,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredXml-Run3.png)
+    ![Rapor başlığı için indirilen vergi değerleri dosyası](./media/ER-DeferredXml-Run3.png)
 
     Özet düğümündeki vergi değerleri toplamının 0'a (sıfır) eşit olduğuna dikkat edin, çünkü bu toplam, oluşturulan çıktı temel alınarak hesaplanmıştır. İlk kayıt düğümü oluşturulurken, oluşturulan çıktıda henüz hareket ayrıntılarını içeren kayıt düğümleri yoktur. Bu biçimi, **Rapor\\İleti\\Kayıt** öğesi tüm vergi hareketleri için çalıştırılana kadar **Rapor\\İleti\\Özet** öğesinin yürütülmesini ertelemek üzere yapılandırabilirsiniz.
 
@@ -232,7 +232,7 @@ Hareketin hacmi, geçerli örnekteki hacimden çok büyükse, hesaplama süresi 
 3. **Kaydet** i ve ardından **Çalıştır**'ı seçin.
 4. Web tarayıcısının sunduğu dosyayı indirin ve inceleyin.
 
-    ![İndirilen dosya](./media/ER-DeferredXml-Run4.png)
+    ![İndirilen ertelenmiş yürütme dosyası](./media/ER-DeferredXml-Run4.png)
 
     **Rapor\\İleti\\Özet** öğesi artık yalnızca üst öğesi olan **Rapor\\İleti** altında iç içe yuvalanmış diğer öğelerin tümü çalıştırıldıktan sonra çalıştırılır. Bu nedenle, bu öğe, **Rapor\\İleti\\Kayıt** öğesi, **model.Data.List** veri kaynağının tüm vergi hareketleri için çalıştırıldıktan sonra çalıştırılır. İlk ve son kayıt düğümlerinin ve üst bilgi ve özet düğümlerin yürütme süreleri bu olguyu ortaya koyar.
 

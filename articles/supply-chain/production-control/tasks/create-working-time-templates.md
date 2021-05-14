@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1885aba11b5c6878cc9dca615cea98b77b4df63f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed1981b7c1427c902f237f0aa95f63e89bc345ab
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811594"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920941"
 ---
 # <a name="create-working-time-templates"></a>Çalışma süresi şablonları oluşturma
 
@@ -27,55 +27,58 @@ ms.locfileid: "5811594"
 
 Çalışma zamanı şablonları bir haftalık çalışma saatlerini tanımlar ve bir dönem için çalışma zamanları oluşturmak için kullanılır. Bu yordam, çalışma zaman aralıklarını kategorilere ayırmak için çalışma zamanı planlama özelliklerini kullanarak bir çalışma zamanı şablonunun nasıl tanımlanacağını gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 
-1. Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.
-2. Çalışma zamanı şablonları'nı tıklatın.
+1. **Çalışma alanları > Kaynak yaşam döngüsü yönetimi**'ne gidin.
+1. **Çalışma zamanı şablonları**'nı seçin.
 
 ## <a name="create-working-time-template"></a>Çalışma zamanı şablonu oluşturma
-1. Yeni'ye tıklayın.
-2. Çalışma zamanı şablonu alanında bir değer girin.
-3. İsim alanına bir değer yazın.
-4. Pazartesi bölümünü genişletin.
-5. Ekle öğesini tıklatın.
-6. Başlangıç alanında bir saat girin.
+
+1. **Yeni**'yi seçin.
+1. **Çalışma zamanı şablonu** alanında bir değer girin.
+1. **Ad** alanına bir değer yazın.
+1. **Pazartesi** bölümünü genişletin.
+1. **Ekle**'yi seçin.
+1. **Başlangıç** alanında bir saat girin.
     * İşin sabah başlayacağı saati belirtin.  
-7. Bitiş alanında bir saat girin.
+1. **Bitiş** alanında bir saat girin.
     * Çalışanların öğle yemeği saatini belirtin.  
-8. Ekle öğesini tıklatın.
-9. Başlangıç alanında bir saat girin.
+1. **Ekle**'yi seçin.
+1. **Başlangıç** alanında bir saat girin.
     * Öğle yemeğinin ardından işin başlayacağı saati belirtin.  
-10. Bitiş alanında bir saat girin.
+1. **Bitiş** alanında bir saat girin.
     * İşin bitiş tarihini belirtin.  
 
 ## <a name="replicate-working-times-to-all-week-days"></a>Çalışma saatlerini haftanın tüm günleri için çoğaltma
-1. Günü kopyala'yı tıklatın.
+
+1. **Kopyalama günü**'nü seçin.
     * Çalışma saati tanımlarını Pazartesi gününden Salı gününe kopyalayın.  
-2. Tamam'a tıklayın.
-3. Günü kopyala'yı tıklatın.
+1. **Tamam**'ı seçin.
+1. **Kopyalama günü**'nü seçin.
     * Çalışma saati tanımlarını Pazartesi gününden Çarşamba gününe kopyalayın.  
-4. Hafta içi bitiş tarihi alanında bir seçenek belirleyin.
-5. Tamam'a tıklayın.
-6. Günü kopyala'yı tıklatın.
+1. **Hafta içi bitiş tarihi** alanında bir seçenek belirleyin.
+1. **Tamam**'ı seçin.
+1. **Kopyalama günü**'nü seçin.
     * Çalışma saati tanımlarını Pazartesi gününden Perşembe gününe kopyalayın.  
-7. Hafta içi bitiş tarihi alanında bir seçenek belirleyin.
-8. Tamam'a tıklayın.
-9. Günü kopyala'yı tıklatın.
+1. **Hafta içi bitiş tarihi** alanında bir seçenek belirleyin.
+1. **Tamam**'ı seçin.
+1. **Kopyalama günü**'nü seçin.
     * Çalışma saati tanımlarını Pazartesi gününden Cuma gününe kopyalayın.  
-10. Hafta içi bitiş tarihi alanında bir seçenek belirleyin.
-11. Tamam'a tıklayın.
+1. **Hafta içi bitiş tarihi** alanında bir seçenek belirleyin.
+1. **Tamam**'ı seçin.
 
 ## <a name="define-time-slots-for-special-operations"></a>Özel işlemler için zaman dilimi tanımlama
-1. Cuma bölümünü genişletin.
-2. Listede, istenen kaydı bulun ve seçin.
-3. Özellik alanında bir değer girin veya bir değer seçin.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Özellik alanında bir değer girin veya bir değer seçin.
+
+1. **Cuma** bölümünü genişletin.
+1. Listede, istenen kaydı bulun ve seçin.
+1. **Özellik** alanında bir değer girin veya bir değer seçin.
+1. Listede, istenen kaydı bulun ve seçin.
+1. **Özellik** alanında bir değer girin veya bir değer seçin.
 
 ## <a name="mark-weekend-days-as-closed-for-pickup"></a>Haftasonlarını malzeme çekme için kapatıldı olarak işaretleme
-1. Cumartesi bölümünü genişletin.
-2. Malzeme çekme için Kapatıldı alanında Evet seçeneğini belirleyin.
-3. Pazar bölümünü genişletin.
-4. Malzeme çekme için Kapatıldı alanında Evet seçeneğini belirleyin.
 
+1. **Cumartesi** bölümünü genişletin.
+1. **Malzeme çekme için kapatıldı** alanında *Evet* seçeneğini belirleyin.
+1. **Pazar** bölümünü genişletin.
+1. **Malzeme çekme için kapatıldı** alanında *Evet* seçeneğini belirleyin.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

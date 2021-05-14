@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6f6d689c596b4ec924cb50ec3bea8ce907e6dc6b
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828238"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920999"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Gelen ambar operasyonlarında sorun giderme
 
@@ -56,7 +56,7 @@ Microsoft bu sorunu değerlendirmiş ve bir özellik sınırlaması olduğunu te
 
 ### <a name="issue-resolution"></a>Sorunun çözümü
 
-*Yük miktarlarını aşırı alma* adlı yeni bir özellikle bu sorunu düzeltilmiştir. Bu özelliği açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'ne gidin ve aşağıdaki özellikleri (listelendikleri sırada) açın:
+*Yük miktarlarını aşırı alma* adlı yeni bir özellikle bu sorunu düzeltilmiştir. Bu özelliği açmak için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanına gidin ve aşağıdaki özellikleri (listelendikleri sırada) açın:
 
 1. Satınalma siparişi stok hareketlerini yükle ilişkilendir
 1. Yük miktarlarının fazlasını alma

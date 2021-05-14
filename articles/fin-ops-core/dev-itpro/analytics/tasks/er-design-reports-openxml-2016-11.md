@@ -2,7 +2,7 @@
 title: ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 description: Bu konuda, OPENXML biçiminde elektronik belgeler oluşturmak için bir şablon içeren yeni bir Elektronik raporlama yapılandırmasının nasıl oluşturulacağı açıklanmaktadır.
 author: NickSelin
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2f84621028c36cf79d6fb9ab07707bdb970d97e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0f23748f6f1d2c3045b1dc69d8e46821f67da593
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754998"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944280"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)
 
@@ -28,7 +28,7 @@ Bu konuda Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki
 
 Bu örnekte Litware, Inc. örnek şirketi için bir yapılandırma oluşturacaksınız. Bu adımlar, herhangi bir GBSI şirketinde gerçekleştirilebilir.
 
-Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)'ndan erişilebilir.
+Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. Ayrıca, şablonu oluştururken, alınacak olan bir Excel dosyası olmalıdır. Bu dosyaya [Ödeme Rapor Şablonu](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx)'ndan erişilebilir.
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Ödemeler veri modeli konfigürasyonunu yükleme

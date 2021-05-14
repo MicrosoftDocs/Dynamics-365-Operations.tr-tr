@@ -2,7 +2,7 @@
 title: Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
 description: Bu konu, verilerinizi kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750094"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944449"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı (ER) yapılandırma
 
@@ -68,10 +68,10 @@ Bu konudaki örneği tamamlamak için şu erişimlere sahip olmanız gerekir:
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>ER veri modelini veri kaynağı olarak kullanma
 Power BI raporlarında kullanılacak iş verileri kaynağı olarak bir ER veri modeliniz olmalıdır. Bu veri modeli ER yapılandırmaları deposundan yüklenir. Daha fazla bilgi için [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükleme](download-electronic-reporting-configuration-lcs.md) bölümüne bakın veya **ER Lifecycle Services'tan bir yapılandırmayı içe aktarma** görev kılavuzunu oynatın. Seçili ER yapılandırmaları deposundan karşıya yüklenecek veri modeli olarak **Intrastat**'ı seçin. (Bu örnekte, modelin 1. sürümü kullanılır.) Daha sonra **Intrastat** ER model yapılandırmasına **Yapılandırmalar** sayfasından erişebilirsiniz.
 
-[![Yapılandırmalar sayfası](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Yapılandırmalar sayfasında Intrastat ER model yapılandırması](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>ER biçimi yapılandırması tasarlama
-İş verilerinin kaynağı olarak **Intrastat** veri modelini kullanan yeni bir ER biçimi yapılandırması oluşturmanız gerekir. Bu biçim yapılandırması çıktı sonuçlarını OpenXML (Excel dosyası) biçiminde elektronik belgeler olarak oluşturmalıdır. Daha fazla bilgi için **ER Raporlar için OPENXML biçiminde bir konfigürasyon oluşturma** görev kılavuzunu oynatın. Yeni yapılandırmayı, aşağıdaki çizimde gösterildiği gibi, **İçe aktarma / dışa aktarma etkinlikleri** olarak adlandırın. ER biçimini tasarlarken şablon olarak [ER verileri - içe aktarma ve dışa aktarma ayrıntıları](https://go.microsoft.com/fwlink/?linkid=845208) adlı Excel dosyasını kullanın. (Biçim şablonunu içe aktarma hakkında daha fazla bilgi için görev kılavuzunu oynatın.)
+İş verilerinin kaynağı olarak **Intrastat** veri modelini kullanan yeni bir ER biçimi yapılandırması oluşturmanız gerekir. Bu biçim yapılandırması çıktı sonuçlarını OpenXML (Excel dosyası) biçiminde elektronik belgeler olarak oluşturmalıdır. Daha fazla bilgi için **ER Raporlar için OPENXML biçiminde bir konfigürasyon oluşturma** görev kılavuzunu oynatın. Yeni yapılandırmayı, aşağıdaki çizimde gösterildiği gibi, **İçe aktarma / dışa aktarma etkinlikleri** olarak adlandırın. ER biçimini tasarlarken şablon olarak [ER verileri - içe aktarma ve dışa aktarma ayrıntıları](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) adlı Excel dosyasını kullanın. (Biçim şablonunu içe aktarma hakkında daha fazla bilgi için görev kılavuzunu oynatın.)
 
 [![Etkinlik yapılandırmasını içe aktarma / dışa aktarma](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Yeni hedef kaydı için **Ayarlar** düğmesine tıklayın. Daha sonra, **Hedef 
 1. **Yapılandırmalar** sayfasında (**Organizasyon yönetimi** &gt; **Elektronik raporlama** &gt; **Yapılandırmalar**), yapılandırmalar ağacından önceden oluşturduğunuz **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasını seçin.
 2. 1.1 sürümünün durumunu **Taslak**'tan **Tamamlandı** olarak değiştirerek bu biçimi kullanılabilir hale getirin.
 
-    [![Yapılandırmalar sayfası](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Yapılandırmalar sayfasında faaliyetleri içe/dışa aktarma yapılandırması](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasının tamamlanmış sürümünü seçin ve **Çalıştır**'a tıklayın. Yapılandırılan hedefin Excel biçiminde üretilen çıktı sonucuna uygulandığına dikkat edin.
 4. Bu raporu katılımsız modda çalıştırmak için **Toplu işleme** seçeneğini **Evet** olarak ayarlayın.
@@ -187,7 +187,7 @@ Power BI ile tümleştirmeyi ayarlayın. Daha fazla bilgi için bkz. [Çalışma
 2. Oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI raporunu seçili sayfada bir eylem öğesi olarak göstermek için raporu seçin.
 3. Power BI'da tasarladığınız raporu gösteren sayfayı açmak için eylem öğesine tıklayın.
 
-    [![İçe aktarma ve dışa aktarma ayrıntıları raporu](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Power BI'da tasarlanan içe aktarma ve dışa aktarma ayrıntıları raporu](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

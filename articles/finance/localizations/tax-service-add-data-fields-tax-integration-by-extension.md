@@ -2,7 +2,7 @@
 title: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
 description: Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar.
 author: qire
-ms.date: 03/26/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fdf112bbdd5245d19ab1d07cfcf94c58bf8208c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e3573f9c9971d4a5af33ece08b7e0b43f2e813a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830352"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921177"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Uzantı kullanarak vergi tümleştirmesine veri alanları ekleme
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Bu konu, vergi tümleştirmesinde veri alanları eklemek için X++ uzantılarının nasıl kullanılacağını açıklar. Bu alanlar vergi hizmetinin vergi veri modeline genişletilebilir ve vergi kodlarını belirlemek için kullanılabilir. Daha fazla bilgi için, bkz. [Vergi yapılandırmalarında veri alanları ekleme](tax-service-add-data-fields-tax-configurations.md).
 
