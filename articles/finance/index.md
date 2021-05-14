@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813495"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890341"
 ---
 # <a name="finance-home-page"></a>Finance giriş sayfası
 
@@ -38,11 +38,11 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
         - [Maliyet muhasebesi](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gider yönetimi](expense-management/expense-management.md)
-        - [Mali raporlama](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Gider yönetimi](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Mali raporlama](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Sabit kıymetler](fixed-assets/fixed-assets.md)
         - [Genel muhasebe ve Mali raporlama](general-ledger/general-ledger.md) 
-        - [Proje yönetimi ve muhasebe](project-management/overview-project-management-accounting.md)
+        - [Proje yönetimi ve muhasebe](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Kamu sektörü](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Check out the how-to videos that are now available on the [Microsoft Dynamics 36
 
 ### <a name="countryregion-functionality"></a>Ülke/bölge işlevi
 
-Ülke/bölge düzenlemeleri vergi ayarını ve mali yönetimin diğer alanlarını etkiler. Ülkeye/bölgeye özel işlevler hakkında daha fazla bilgi edinmek için yardım içeriğimizin [Yerelleştirme ve mevzuat özellikleri](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) bölümüne bakın.
+Ülke/bölge düzenlemeleri vergi ayarını ve mali yönetimin diğer alanlarını etkiler. Ülkeye/bölgeye özel işlevler hakkında daha fazla bilgi edinmek için yardım içeriğimizin [Yerelleştirme ve mevzuat özellikleri](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) bölümüne bakın.
 
 ### <a name="additional-content"></a>Ek içerik
 
@@ -73,6 +73,6 @@ Tedarik zinciri yönetimi işlevi, kurumunuzun satınalmalarındaki mal ve servi
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Finance](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path) konusuna bakın.
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Finance](/learn/browse/?products=dynamics-finance&resource_type=learning+path) konusuna bakın.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

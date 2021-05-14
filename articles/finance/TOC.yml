@@ -72,6 +72,8 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.19 (Temmuz 2021)
+                      href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (Nisan 2021)
@@ -160,8 +162,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Özel alanlar oluşturma ve bunlarla çalışma
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Power Apps'teki tuval uygulamalarını katıştırma
+                - name: Power Apps'teki tuval uygulamalarını ekleme
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
+                - name: Üçüncü taraf uygulamaları ekleme
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/finance/toc.json
                 - name: Aramaları kullanarak bilgi bulma
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
                 - name: Oturumun tarihini değiştirme
@@ -683,45 +687,45 @@
         - name: Gider yönetimi
           items:
             - name: Gider yönetimine genel bakış
-              href: expense-management/expense-management.md
+              href: /dynamics365/project-operations/prod-exp/expense-management
             - name: Yeniden tasarlanan gider raporları
-              href: expense-management/ExpenseWorkspaceNew.md
+              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
             - name: Gider yönetimini planlama
-              href: expense-management/plan-expense-management.md
+              href: /dynamics365/project-operations/prod-exp/plan-expense-management
             - name: Gider yönetimi parametreleri
-              href: expense-management/Expense-Management-Parameters.md
+              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
             - name: Gider yönetimi mobil çalışma alanı
-              href: expense-management/expense-management-mobile-workspace.md
+              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
             - name: Gider yönetimi için iş akışları ayarlama
-              href: expense-management/expense-workflows.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflows
             - name: Gider yönetimi iş akışı
-              href: expense-management/expense-workflow.md
+              href: /dynamics365/project-operations/prod-exp/expense-workflow
             - name: Gider temsilcisini yönetme
-              href: expense-management/manage-expense-delegation.md
+              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
             - name: Gider makbuzu işleme
-              href: expense-management/expense-receipt-processing.md
+              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
             - name: Kredi kartı hareketlerini içe aktarma ve yönetme
-              href: expense-management/import-credit-card.md
+              href: /dynamics365/project-operations/prod-exp/import-credit-card
             - name: Gider raporundaki dağıtımlar
-              href: expense-management/expense-report-distributions.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
             - name: Şirketlerarası giderler
-              href: expense-management/intercompany-expense.md
+              href: /dynamics365/project-operations/prod-exp/intercompany-expense
             - name: Gider ilkelerini tanımlama
-              href: expense-management/travel-expense-policies.md
+              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
             - name: Gider raporu görüntüleme
-              href: expense-management/view-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/view-expense-report
             - name: Gider raporunu deftere nakletme
-              href: expense-management/post-expense.md
+              href: /dynamics365/project-operations/prod-exp/post-expense
             - name: Gider raporları ve birden çok onaylayan
-              href: expense-management/expense-report-multiple-approvers.md
+              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
             - name: Gider yönetiminde KDV kurtarma
-              href: expense-management/VAT-expense-report.md
+              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
             - name: Harcırah kuralları
-              href: expense-management/per-diem.md
+              href: /dynamics365/project-operations/prod-exp/per-diem
             - name: Seyahat talepleri
-              href: expense-management/travel-req.md
+              href: /dynamics365/project-operations/prod-exp/travel-req
             - name: Gider raporundaki kişisel giderler
-              href: expense-management/personal-expenses.md
+              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Sabit kıymetler
           items:
             - name: Sabit kıymetler giriş sayfası
@@ -1104,6 +1108,20 @@
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Kod raporuna göre Satış vergisi ödemesini yazdırma
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+                - name: Satış vergisi sorun giderme
+                  items:
+                    - name: Vergi hesaplanmaz veya vergi tutarı sıfırdır
+                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                    - name: Vergi hesaplama performansı işlemleri etkiler
+                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                    - name: TaxTrans'ta yanlış alan değeri
+                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                    - name: TaxTrans kaydı oluşturulmuyor
+                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                    - name: Vergi fişteki yanlış genel muhasebe hesabına nakledilir
+                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                    - name: Fiş oluşturulmaz
+                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
             - name: Stopaj vergisi
               items:
                 - name: Stopaj vergisini ayarlama
@@ -1215,85 +1233,85 @@
         - name: Proje yönetimi ve muhasebe
           items:
             - name: Proje yönetimi ve muhasebeye genel bakış
-              href: project-management/overview-project-management-accounting.md
+              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
             - name: Şirketlerarası faturalama
-              href: project-management/intercompany-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
             - name: Şirketlerarası proje faturalamasını yapılandırma
-              href: project-management/tasks/configure-intercompany-project-invoicing.md
+              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
             - name: İşçilik ve masraflar için standart maliyetleri yapılandırma
-              href: project-management/tasks/configure-standard-costs-labor-expenses.md
+              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
             - name: Satıcı ödemesi tutma koşulları oluşturma ve uygulama
-              href: project-management/create-and-apply-vendor-payment-retention-terms.md
+              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
             - name: Ödendiğinde öde satıcı ödemeleri ayarlama ve kullanma
-              href: project-management/setup-manage-vendor-payments.md
+              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
             - name: Satınalma girişlerinde proje maliyeti tahakkuku
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Proje faturalama
               href: accounts-payable/project-invoicing.md
             - name: Proje sözleşmeleri
-              href: project-management/project-contracts.md
+              href: /dynamics365/project-operations/prod-pma/project-contracts
             - name: İlerlemeye göre faturalama için gelişmiş sözleşmeler oluşturma
-              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
+              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
             - name: Proje tahminleri ve bütçeler
-              href: project-management/project-forecasts-budgets.md
+              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
             - name: Proje bütçeleri için tahmin modelleri oluşturma
-              href: project-management/create-forecast-models-project-budgets.md
+              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
             - name: Proje bütçelerini mali yıl bitişinde transfer etme
-              href: project-management/process-project-budgets-for-fiscal-year-end.md
+              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
             - name: Proje satış siparişleri
-              href: project-management/project-sales-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-sales-orders
             - name: Proje için satınalma siparişleri
-              href: project-management/project-purchase-orders.md
+              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
             - name: Proje teklifleri
-              href: project-management/project-quotations.md
+              href: /dynamics365/project-operations/prod-pma/project-quotations
             - name: 'Proje teklifini onaylama, güncelleştirme ve gönderme'
-              href: project-management/confirm-update-send-project-quotation.md
+              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
             - name: Teklifi bir projeye transfer etme
-              href: project-management/transfer-quote-new-existing-project.md
+              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
             - name: Proje kaynak ataması
               items:
                 - name: Proje kaynak atamasına genel bakış
-                  href: project-management/project-resourcing.md
+                  href: /dynamics365/project-operations/prod-pma/project-resourcing
                 - name: Proje kaynaklarını ayarlama
-                  href: project-management/set-up-project-resources.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
                 - name: Kaynak uzmanlıklarını yönetme
-                  href: project-management/manage-resource-competencies.md
+                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
                 - name: Yeni proje oluşturma
-                  href: project-management/create-new-project.md
+                  href: /dynamics365/project-operations/prod-pma/create-new-project
                 - name: Rol tabanlı fiyatlandırmayı ayarlama
-                  href: project-management/set-up-role-based-pricing.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
                 - name: Proje ekibi oluşturma
-                  href: project-management/create-project-team.md
+                  href: /dynamics365/project-operations/prod-pma/create-project-team
                 - name: Kaynak kapasitesini eşitleme
-                  href: project-management/synchronize-resource-capacity.md
+                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
                 - name: Proje kaynak zamanlaması performansı
-                  href: project-management/project-scheduling-performance.md
+                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
                 - name: İş kırılım yapısı şablonlarındaki rolleri ayarlama
-                  href: project-management/set-up-roles-wbs-template.md
+                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
                 - name: Planlı kaynaklar için kaynak karşılama
-                  href: project-management/resource-fulfillment-planned-resources.md
+                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
             - name: Madde gereksiniminden satınalma siparişindeki maddeleri alma
-              href: project-management/tasks/receive-items-purchase-order-item-requirement.md
+              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
             - name: İş kırılım yapıları
               items:
                 - name: İş kırılım yapılarına genel bakış
-                  href: project-management/work-breakdown-structures.md
+                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
                 - name: Microsoft Project Client tümleştirmesi
-                  href: project-management/project-integration.md
+                  href: /dynamics365/project-operations/prod-pma/project-integration
                 - name: Project mobil uygulamalarına genel bakış
-                  href: project-management/project-mobile-application-overview.md
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
                 - name: Proje süresi girişi mobil çalışma alanı
-                  href: project-management/project-time-entry-mobile-workspace.md
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
                 - name: Project Timesheet mobil uygulaması
-                  href: project-management/project-timesheet.md
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet
                 - name: Mobil cihazda proje zaman çizelgeleri
-                  href: project-management/mobile-timesheets.md
+                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
                 - name: Project Timesheet mobil uygulaması için özel alanlar uygulama
-                  href: project-management/custom-fields-mobile.md
+                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
             - name: Proje verme
-              href: project-management/project-grants.md
+              href: /dynamics365/project-operations/prod-pma/project-grants
             - name: Proje tahminini eleme
-              href: project-management/eliminate-project-estimate.md
+              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Kamu sektörü
           items:
             - name: Kamu sektörü giriş sayfası
@@ -1419,61 +1437,61 @@
             - name: Genelleştirme hizmetleri
               items:
                 - name: Genelleştirme hizmetlerine genel bakış
-                  href: localizations/globalization-services-overview.md
+                  href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory Configuration Service
                   items:
                     - name: Regulatory Configuration Service'e genel bakış
-                      href: localizations/rcs-overview.md
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Service - Globalleştirme özellikleri
-                      href: localizations/rcs-globalization-feature.md
+                      href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
-                      href: localizations/rcs-global-repo-upload.md
+                      href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
-                      href: localizations/e-invoicing-service-overview.md
+                      href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronik Faturalama yönetim bileşenleri
-                      href: localizations/e-invoicing-service-administration.md
+                      href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Services'te (RCS) Elektronik Faturalamayı yapılandırma
-                      href: localizations/e-invoicing-configuration-rcs.md
+                      href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
                     - name: Finance ve Supply Chain Management'ta elektronik fatura kesme
-                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
+                      href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Azure depolama hesabı ve Key Vault oluşturma
-                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                      href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
                     - name: Kullanmaya başlama
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
-                          href: localizations/e-invoicing-get-started-service-administration.md
+                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-get-started.md
+                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Brezilya için Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-bra-get-started.md
+                          href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-eg-get-started.md
+                          href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: İtalya için Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-ita-get-started.md
+                          href: localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
-                          href: localizations/e-invoicing-mex-get-started.md
+                          href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Elektronik Faturalamayı ayarlama
-                          href: localizations/e-invoicing-setup.md
+                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Elektronik Faturalama ile ilgili SSS
-                      href: localizations/e-invoicing-faq.md
+                      href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Vergi Hesaplama
                   items:
                     - name: Vergi Hesaplamaya genel bakış
-                      href: localizations/global-tax-calcuation-service-overview.md
+                      href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Vergi Hesaplamayı kullanmaya başlama
-                      href: localizations/global-get-started-with-tax-calculation-service.md
+                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
                     - name: Transfer emirleri için vergi özelliği desteği
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md
+                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
                     - name: Vergi yapılandırmalarına veri alanları ekleme
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md
+                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md
+                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
                     - name: Çoklu KDV kayıt numarası
-                      href: localizations/emea-multiple-vat-registration-numbers.md
+                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Ana veri arama için ortam ayarlama
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md
+                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
             - name: Avustralya
@@ -3139,7 +3157,7 @@
                 - name: Human Resources paylaşılan parametrelerini yapılandırma
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: İnsan kaynakları iş akışlarını ayarlama
-                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/finance/hr-workflow-manage-employee-information?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Tarih ve Saat alanlarını anlama
                   href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
             - name: Personeli yönetme
@@ -3189,15 +3207,15 @@
                 - name: İşe alma süreçlerini yönetme
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
                 - name: Toplu işe alma projeleri
-                  href: ../fin-ops-core/fin-ops/hr/mass-hire-projects.md
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md
                 - name: Toplu işe alma projeleri oluşturma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-mass-hire-project.md
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: Başvuran ve başvuru verilerini el ile girme
                   href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                 - name: İş talepleri geliştirme ve açma
                   href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                 - name: Pozisyonları ayarlama
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-positions.md
+                  href: ../human-resources/hr-personnel-set-up-positions.md
                 - name: Adayları işe alma yoluyla istihdam etme
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
                 - name: Mevcut bir personeli işe alma yoluyla istihdam etme
@@ -4052,7 +4070,7 @@
                 - name: Maliyet kontrolü
                   href: cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Gider yönetimi
-                  href: expense-management/expense-management-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Eldeki stok
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Fatura onayları
@@ -4060,11 +4078,11 @@
                 - name: Takımım
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Project mobil uygulamalarına genel bakış
-                  href: project-management/project-mobile-application-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Proje süresi girişi
-                  href: project-management/project-time-entry-mobile-workspace.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Project Timesheet
-                  href: project-management/project-timesheet.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
                 - name: Satınalma siparişi onayı
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/finance/toc.json
                 - name: Satış siparişleri

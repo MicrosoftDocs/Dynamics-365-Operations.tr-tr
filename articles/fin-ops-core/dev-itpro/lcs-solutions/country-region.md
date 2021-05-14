@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748477"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920869"
 ---
 # <a name="globalization-resources"></a>Globalleştirme kaynakları
 
 ## <a name="local-and-regional-deployments"></a>Yerel ve bölgesel dağıtımlar
 Bulunduğunuz bölgedeki mevzuat verilerin diğer ülkelerden/bölgelerden farklı şekilde depolanmasını veya sunulmasını gerektiriyorsa dağıtım sırasında dikkate almanız gereken ülkeye/bölgeye özel gereklilikler olabilir. Sizinle ilgili olabilecek aşağıdaki kaynakları inceleyin:
 
-[Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Çin'de 21Vianet tarafından işletilen Finance and Operations uygulamaları](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
@@ -60,7 +60,7 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 -   [Ülkeye/bölgeye özel mevzuat özellikleri hakkında uyarılar gönderme](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365 sürüm planları
-[Dynamics 365 sürüm planları](https://docs.microsoft.com/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
+[Dynamics 365 sürüm planları](/business-applications-release-notes/), Dynamics 365 iş uygulamaları ve uygulama platformları için planlanan yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations uygulamalarındaki yenilikler
 [Finance and Operations'taki yenilikler veya değişiklikler giriş sayfası](../../fin-ops/get-started/whats-new-changed.md) Finance and Operations uygulamalarının özel sürümlerindeki özellikleri listeler.

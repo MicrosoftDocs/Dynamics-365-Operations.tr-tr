@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e20c26939389a72a8b3249bcb26bb3871768bbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62e075fc26ee2e183cd859c5ec2c90faa3bfe3ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820871"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897022"
 ---
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
@@ -120,7 +120,7 @@ Aşağıdaki konular kapatmalar hakkında bilgi sağlar. Kapatma, ödemeleri fat
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 sürüm planlarına](/dynamics365/release-plans/) bakın. 
 
 #### <a name="blogs"></a>Bloglar
 

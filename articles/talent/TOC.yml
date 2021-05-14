@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: Başlayın
       items:
@@ -150,8 +150,8 @@
           href: modular-app-tech-faq.md
         - name: Attract ve Onboard uygulamalarından verileri dışarı aktarma
           href: attract-onboard-export-data.md
-        - name: Power Apps'taki tuval uygulamalarını katıştırma
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Power Apps'taki tuval uygulamalarını ekleme
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Talent için destek alma
           href: talent-support.md
     - name: Attract ile kuruluşunuzun personelini belirleme

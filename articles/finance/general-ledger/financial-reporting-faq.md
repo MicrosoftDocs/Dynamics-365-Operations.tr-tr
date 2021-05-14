@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811322"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923037"
 ---
 # <a name="financial-reporting-faq"></a>Mali raporlama ile ilgili SSS 
 
-Bu konuda, diğer kullanıcıların mali raporlama ile ilgili soruları listelenmektedir. 
-
+Bu konu, finansal raporlama hakkında sık sorulan soruların yanıtlarını sağlar. 
 
 ## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Ağaç güvenliğini kullanarak bir rapora erişimi nasıl kısıtlayabilirim?
 
-Senaryo: USMF demo şirketinin tüm mali raporlama kullanıcılarının D365'te görüntülemesini istemediği bir bilanço raporu bulunuyor. Çözüm: Rapora yalnızca belirli kullanıcıların erişmesini sağlamak üzere tek bir rapora erişimi kısıtlamak için Ağaç güvenliğini kullanabilirsiniz. 
+Aşağıdaki örnek, ağaç güvenliğini kullanarak bir rapora erişimin nasıl kısıtlanacağını gösterir.
 
-1.  Mali Raporlayıcı Rapor Tasarımcısında oturum açma
+USMF demo şirketi, tüm Financial Reporting kullanıcılarının erişemeyeceği bir Bilanço raporuna sahiptir. Erişimi sınırlamak için rapora yalnızca belirli kullanıcıların erişmesini sağlamak üzere tek bir rapora erişimi kısıtlamak için ağaç güvenliğini kullanabilirsiniz. Erişimi kısıtlamak için şu adımları izleyin: 
 
-2.  Yeni Ağaç Tanımı oluşturma (Dosya | Yeni | Ağaç Tanımı) a.    **Birim Güvenliği** sütununda **Özet** satırına çift tıklayın.
-  i.    Kullanıcılar ve Gruplar'a tıklayın.  
-          1. Bu rapora erişmesini istediğiniz Kullanıcılar veya Grupları seçin. 
-          
-[![kullanıcı ekranı](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+1. Financial Reporter Report Designer'da oturum açın.
+2. Yeni ağaç tanımı oluşturun. **Dosya > Yeni > Ağaç Tanımı**'na gidin.
+3. **Birim Güvenliği** sütununda **Özet** satırına çift tıklayın.
+4. **Kullanıcılar ve Gruplar**'ı seçin.  
+5. Bu rapora erişmesi gereken kullanıcıları veya grupları seçin. 
+6. **Kaydet**'i seçin.
+7. Rapor tanımına yeni ağaç tanımınızı ekleyin.
+8. Ağaç tanımında **Ayar**'ı seçin. **Raporlama birimi seçimi** altında **Tüm birimleri dahil et**'i seçin.
 
-[![güvenlik ekranı](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Hangi hesapların bakiyelerimle eşleşmediğini nasıl belirleyeceğim?
 
-  b.    **Kaydet**'e tıklayın.
-  
-[![kaydet düğmesi](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+Eşleşen bakiyeleri olmayan bir raporunuz varsa her hesabı ve farklarını tanımlamak için gerçekleştirebileceğiniz adımlar burada verilmiştir. 
 
-3.  Rapor Tanımınızda, yeni Ağaç Tanımınızı ekleyin
+**Financial Reporter Report Designer**
+1. Financial Reporter Report Designer'da yeni satır tanımı oluşturun. 
+2. **Düzenle > Boyutlardan Satır Ekle**'yi seçin.
+3. **MainAccount**'u seçin.  
+4. **Tamam**'ı seçin.
+5. Satır tanımını kaydedin.
+6. Yeni sütun tanımı oluşturun
+7. Yeni rapor tanımı oluşturun.
+8. **Ayarlar**'ı seçin ve bu seçeneğin işaretini kaldırın.  
+9. Raporu oluşturun. 
+10. Raporu Microsoft Excel'e dışarı aktarın.
 
-[![ağaç tanımı formu](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
+**Dynamics 365 Finance** 
+1. Dynamics 365 Finance'te **Genel Muhasebe > Sorgular ve Raporlar > Mizan**'a tıklayın.
+2. Aşağıdaki parametreleri ayarlayın:
+   - **Başlangıç Tarihi** - Mali yılın başlangıç tarihini girin.
+   - **Bitiş Tarihi** - Raporu oluşturduğunuz tarihi girin.
+   - **Finansal Boyut** - Bu alanı **Ana Hesap kümesi** olarak ayarlayın.
+ 3. **Hesapla**'yı seçin.
+ 4. Raporu Microsoft Excel'e dışarı aktarın.
 
-A.  Ağaç Tanımındayken, Ayar'a tıklayın ve "Raporlama birimi seçimi" altından, "Tüm birimleri dahil et"i işaretleyin
-
-[![raporlama birimi seçim formu](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Öncesi:** [![öncesi ekran görüntüsü](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Sonrası:** [![sonrası ekran görüntüsü](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Not: Yukarıdaki iletinin nedeni, Birim Güvenliği uygulandıktan sonra kullanıcımın o rapora erişim izninin olmamasıdır
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>D365'te hangi hesaplarda bakiyelerin eşleşmediğini nasıl belirleyebilirim?
-
-D365'te beklediğiniz şekilde eşleşmeyen bir raporunuz varsa bu hesapları ve farkları tanımlamak için gerçekleştirebileceğiniz adımlar burada verilmiştir. 
-
-### <a name="in-financial-reporter-report-designer"></a>Mali Raporlayıcı Rapor Tasarımcısında
-
-1.  Yeni Satır Tanımı oluşturun a.    Düzenle | Boyutlardan Satır Ekle'yi tıklayın i.  MainAccount'u seçme [![Ana ekranı seçme_](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Tamam'a tıklayın b.    Satır Tanımını kaydedin
-
-2.  Yeni Sütun Tanımı oluşturma     [![Yeni Sütun Tanımı oluşturma](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Yeni Rapor Tanımı oluşturun a.    Ayarlar'a tıklayın ve işaretleri kaldırın [![Ayarlar formu](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Raporu oluşturun. 
-
-5.  Raporu Excel'e dışarı aktarın.
-
-### <a name="in-d365&quot;></a>D365'te: 
-1.  Genel Muhasebe | Sorgular ve Raporlar | Mizan'a tıklayın a.    Parametreler i.  Başlangıç Tarihi: Mali Yılın başlangıcı ii. Bitiş Tarihi: Raporu oluşturduğunuz tarih (şunun için: iii.    Finansal Boyut Ayarı &quot;Ana Hesap Ayarı") [![Ana Hesap Formu](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Hesapla'ya tıklayın
-
-2.  Raporu Excel'e dışarı aktarın
-
-Artık FR Excel raporundan ve D365 Mizan raporuna veri kopyalayabilir ve "Kapanış Bakiyesi" sütunlarını karşılaştırabilirsiniz.
-
+Artık Mali Raporlayıcı Excel raporundan Mizan raporuna veri kopyalayabilirsiniz ve böylece **Kapanış Bakiyesi** sütunlarını karşılaştırabilirsiniz.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827734"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898148"
 ---
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
@@ -39,61 +39,45 @@ Müşteri faturalarını satış siparişlerine veya sevk irsaliyelerine göre o
 
 Müşteri faturalarını ve müşterilerden aldığınız ödemeleri izlemek için Alacak hesaplarını kullanın. Müşteri grupları, müşteriler, deftere nakil profilleri, vade farkı dekontları, tahsilat mektupları, komisyonlar ve müşteriler, masraflar, teslimatlar ve gönderilecek yerler, kambiyo senetleri ile ilgili parametreler ve diğer Alacak hesabı bilgilerini ayarlayabilirsiniz. 
 
-:::row:::
-    :::column:::
-        - [Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Müşteri deftere nakil profilleri](customer-posting-profiles.md)
-        - [Kredi kartı ayarı, onayı ve çekimi](credit-card-authorizations.md)
-        - [Müşteri faturası oluşturma](configure-customer-invoices.md)
-        - [Yinelenen faturalar ayarlama ve işleme](set-up-process-recurring-invoices.md)
-        - [Serbest metin faturasını düzeltme](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Kambiyo senetleri ayarlama](set-up-bills-exchange.md)
-        - [Faiz kodu için faiz oranları ayarlama](set-up-interest-rates-interest-code.md)
-        - [Vade farkı ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme](waive-reinstate-reverse-interest-fees.md)
-        - [SEPA hesaptan ödemeye genel bakış](sepa-direct-debit-overview.md)
-        - [SEPA hesaptan ödeme talimatı ayarlama](sepa-direct-debit-mandate.md)
-        - [Alacak hesaplarını kapatma](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girişleri](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Müşteri deftere nakil profilleri](customer-posting-profiles.md)
+- [Kredi kartı ayarı, onayı ve çekimi](credit-card-authorizations.md)
+- [Müşteri faturası oluşturma](configure-customer-invoices.md)
+- [Yinelenen faturalar ayarlama ve işleme](set-up-process-recurring-invoices.md)
+- [Serbest metin faturasını düzeltme](correct-free-text-invoice.md)
+- [Kambiyo senetleri ayarlama](set-up-bills-exchange.md)
+- [Faiz kodu için faiz oranları ayarlama](set-up-interest-rates-interest-code.md)
+- [Vade farkı ücretlerinden feragat etme, bunları eski durumuna getirme veya tersine çevirme](waive-reinstate-reverse-interest-fees.md)
+- [SEPA hesaptan ödemeye genel bakış](sepa-direct-debit-overview.md)
+- [SEPA hesaptan ödeme talimatı ayarlama](sepa-direct-debit-mandate.md)
+- [Alacak hesaplarını kapatma](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Alacak ve tahsilatları ayarlama
 
 Alacak hesabı tahsilat bilgileri, Tahsilatlar sayfasında tek bir merkezi görünümden yönetilir. Kredi ve tahsilat yöneticileri, tahsilatları yönetmek için bu merkezi görünümü kullanabilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
 
-[Alacak hesaplarında alacak ve tahsilatlar](collections-credit-accounts-receivable.md)
-
-[Alacak hesapları, Alacak ve tahsilatları yapılandırma](accounts-receivables-set-up-overview.md)
-
-[Alacak ve tahsilatları ayarlama](set-up-collections.md)
+- [Alacak hesaplarında alacak ve tahsilatlar](collections-credit-accounts-receivable.md)
+- [Alacak hesapları, Alacak ve tahsilatları yapılandırma](accounts-receivables-set-up-overview.md)
+- [Alacak ve tahsilatları ayarlama](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Ödemeleri ve kapatmaları ayarlama
 
 Müşterilerden kambiyo senedi, nakit, çek, kredi kartı ve elektronik ödeme gibi farklı ödeme türlerini kabul edin. 
 
-:::row:::
-    :::column:::
-        - [Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Alacak hesapları için merkezi ödemeler](centralized-payments-accounts-receivable.md)
-        - [Kısmi müşteri ödemesini ve son ödemeyi iskonto tarihinden önce tamamen kapatma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Alacak dekontları üzerinden iskontosu olan bir kısmi müşteri ödemesini kapatma](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Müşteriye geri ödeme](reimburse-customers.md)
-        - [Kısmi tutar için müşteri ödemeleri](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Alacak hesapları için merkezi ödemeler](centralized-payments-accounts-receivable.md)
+- [Kısmi müşteri ödemesini ve son ödemeyi iskonto tarihinden önce tamamen kapatma](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Alacak dekontları üzerinden iskontosu olan bir kısmi müşteri ödemesini kapatma](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Müşteriye geri ödeme](reimburse-customers.md)
+- [Kısmi tutar için müşteri ödemeleri](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Ek kaynaklar
 
 #### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 
-Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritasına](https://go.microsoft.com/fwlink/?linkid=2010158) bakın. 
+Planlanan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritasına](/dynamics365/release-plans/) bakın. 
 
 #### <a name="blogs"></a>Bloglar
 
