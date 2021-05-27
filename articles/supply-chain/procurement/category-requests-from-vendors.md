@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938564"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015963"
 ---
 # <a name="category-requests-from-vendors"></a>Satıcılardan gelen kategori istekleri
 
@@ -36,10 +36,7 @@ Sisteminiz bu konuda açıklanan özelliği henüz içermiyorsa, [Özellik yöne
 
 Bir satıcının kategori istekleriyle etkileşime geçebilmesi için satıcı işbirliği için gerekli ayarları yapmış olması gerekir.
 
-Satıcının en az bir satıcı işbirliği kullanıcısı olmalıdır. Yalnızca aşağıdaki güvenlik rollerinden birine veya her ikisine sahip olan satıcı kullanıcıları kategori istekleri oluşturabilir ve gönderebilir:
-
-- Satıcı ilgili kişisi (harici)
-- Satıcı yöneticisi (harici)
+Satıcının en az bir satıcı işbirliği kullanıcısı olmalıdır. Yalnızca *Satıcı yönetici (harici)* güvenlik rolüne sahip satıcı kullanıcıları kategori istekleri oluşturabilir ve gönderebilir.
 
 Daha fazla bilgi için bkz. [Satıcı işbirliğini ayarlama ve sürdürme](set-up-maintain-vendor-collaboration.md).
 

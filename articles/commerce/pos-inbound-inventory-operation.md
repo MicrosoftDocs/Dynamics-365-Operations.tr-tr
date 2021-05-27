@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804343"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018966"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS'ta gelen stok işlemi
 
@@ -70,7 +70,7 @@ Oluşturduğunuz toplu işler, başarısız olan veya zaman aşımına uğrayabi
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Önkoşul: POS ekran düzenine gelen işlem Ekle
 
-Kuruluşunuzun gelen operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) **gelen operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
+Kuruluşunuzun gelen operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](/dynamics365/unified-operations/retail/pos-screen-layouts) **gelen operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
 
 ## <a name="overview"></a>Genel Bakış
 
@@ -159,9 +159,9 @@ Commerce 10.0.14 sürümü ve sonraki sürümler, kullanıcılar başlangıçta 
 
 Bu özellik, yalnızca satınalma siparişi teslim alma için geçerlidir. Maddeler daha önce sipariş edilmemiş ve giden ambardan sevk edilmemişse transfer emirlerinden farklı maddeler teslim alınması mümkün değildir.
 
-Satınalma siparişi [değişiklik yönetimi iş akışı](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) Commerce Headquarters'ta (HQ) etkinse kullanıcılar POS sırasında satın alma siparişine yeni ürün ekleyemez. Değişiklik yönetimini etkinleştirmek için satınalma siparişindeki tüm değişikliklerin teslim almadan önce onaylanması gerekir seçeneğine izin verilmelidir. Bu işlem bir alıcının satınalma siparişine yeni satırlar eklemesine izin verdiğinden değişiklik yönetimi iş akışı etkinleştirilmişse teslim alma işlemi başarısız olur. Tüm satınalma siparişleri veya POS'ta etkin olarak teslim alınan satın alma siparişiyle ilişkili satıcı için değişiklik yönetimi etkinse kullanıcı, POS'ta teslim alma sırasında satın alam siparişine yeni ürün ekleyemez.
+Satınalma siparişi [değişiklik yönetimi iş akışı](../supply-chain/procurement/purchase-order-approval-confirmation.md) Commerce Headquarters'ta (HQ) etkinse kullanıcılar POS sırasında satın alma siparişine yeni ürün ekleyemez. Değişiklik yönetimini etkinleştirmek için satınalma siparişindeki tüm değişikliklerin teslim almadan önce onaylanması gerekir seçeneğine izin verilmelidir. Bu işlem bir alıcının satınalma siparişine yeni satırlar eklemesine izin verdiğinden değişiklik yönetimi iş akışı etkinleştirilmişse teslim alma işlemi başarısız olur. Tüm satınalma siparişleri veya POS'ta etkin olarak teslim alınan satın alma siparişiyle ilişkili satıcı için değişiklik yönetimi etkinse kullanıcı, POS'ta teslim alma sırasında satın alam siparişine yeni ürün ekleyemez.
 
-Satınalma siparişinde mevcut olan ürünlerin miktarını artırmaya yönelik geçici bir çözüm olarak satır eklemeye izin veren işlev kullanılamaz. Fazla alma, satınalma siparişindeki ürün satırı için standart [fazla alma](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) ayarları üzerinden yönetilir.
+Satınalma siparişinde mevcut olan ürünlerin miktarını artırmaya yönelik geçici bir çözüm olarak satır eklemeye izin veren işlev kullanılamaz. Fazla alma, satınalma siparişindeki ürün satırı için standart [fazla alma](#over-receiving-validations) ayarları üzerinden yönetilir.
 
 **Satış Noktasında teslim alma sırasında Satınalma Siparişine satır ekleyin** etkinse ve kullanıcı POS'ta **Gelen işlem** ile teslim alıyorsa, kullanıcı mevcut satın alma siparişinde madde olarak tanınmasa da geçerli bir madde olarak tanınan ürün kodunu veya ürün numarasını taratıyor veya giriyorsa; kullanıcı, maddeyi satınalma siparişine ekleme hakkında bir ileti alır. Kullanıcı maddeyi satınalma siparişine eklerse **Şimdi alınıyor**'a girilen miktar satınalma siparişi satırı için sipariş edilen miktar kabul edilir.
 

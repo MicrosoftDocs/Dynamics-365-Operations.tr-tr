@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795465"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028263"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vardiya ve kasa çekmecesi yönetimi
 
@@ -154,7 +154,7 @@ Her perakendecinin iş gereksinimleri farklı olmakla birlikte, sisteminizi bu t
 
 Bu kurulum, arka ofis ekstrelerinde POS'taki vardiyalarınkiyle aynı hareketleri içermesinin ve verilerin o vardiyayla özetlenmesinin garanti edilmesine yardımcı olur.
 
-Ekstre ve kapatma yöntemleri hakkında daha fazla bilgi için bkz. [Perakende ekstreleri için mağaza yapılandırmaları](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Ekstre ve kapatma yöntemleri hakkında daha fazla bilgi için bkz. [Perakende ekstreleri için mağaza yapılandırmaları](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

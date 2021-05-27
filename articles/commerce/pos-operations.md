@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804293"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027660"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri
 
@@ -64,7 +64,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 642 | Tüm Ürünleri Gerçekleştir | Tüm satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 641 | Seçilen Ürünleri Gerçekleştir | Tüm seçili satırlar için teslimat modunu **Teslim alınan** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 647 | Teslimat şeklini değiştir | Önceden yapılandırılmış sevkiyat satış satırları için teslimat şeklini değiştirin. | Evet | Evet | Hayır | Hayır| Hayır |
-| 1215 | Parolayı değiştir | Bu işlem POS kullanıcısının kendi parolasını değiştirmesini sağlar. | Evet | Evet | Evet | Hayır | Hayır |
+| 1215 | Parolayı değiştir | Bu işlem, POS kullanıcısının parolasını değiştirmesini sağlar. | Evet | Evet | Evet | No | No |
 | 123 | Ölçü birimini değiştir | Seçilen satır maddesi için ölçü birimi değiştirin. | Evet | Evet | Hayır | Evet | Hayır |
 | 639 | Hareketteki varsayılan satış temsilcisini temizle | Komisyon satış grubunu (satış temsilcisi) hareketten kaldırın. | Evet | Evet | Hayır | Evet | Hayır |
 | 106 | Miktarı temizle | Seçili satırdaki miktarı **1** olarak sıfırlayın. | Evet | Evet | Hayır | Evet | Hayır |

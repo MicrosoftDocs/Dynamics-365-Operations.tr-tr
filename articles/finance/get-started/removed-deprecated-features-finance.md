@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965322"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980910"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -35,7 +35,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>RTIR Sorgusu Fatura Ayrıntısı İsteği (HU) biçimi yapılandırması
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>"RTIR Sorgusu Fatura Ayrıntısı İsteği (HU)" Elekronik raporlama (ER) biçimi yapılandırması
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanım dışı: 15 Nisan 2022 itibarıyla, "RTIR Sorgusu Fatura Verileri İsteği (HU)" biçimi yapılandırması desteğini sonlandırmayı planlıyoruz. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>"Alman denetim dosyası çıktısı" biçimi altında "Fransız FEC denetim dosyası" Fransa için Elektronik raporlama (ER) biçimi
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Yeni "FEC denetim dosyası (FR)" biçimiyle değiştirildi |
+| **Başka bir özellikle mi değiştirildi?**   | Evet |
+| **Etkilenen ürün alanları**         | Uygulama |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanım dışı bırakılma tarihi: 1 Mayıs 2022. "Almanca denetim dosyası çıktısı" biçimi altındaki "Fransız FEC denetim dosyası" Fransa için Elektronik raporlama (ER) biçimini artık desteklememeyi planlıyoruz. Bunun yerine, "Veri dışa aktarma modeli" altında yeni FEC denetim dosyası (FR) biçimini kullanıma sunuyoruz. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Finance 10.0.17 sürümünden kaldırılan veya kullanımı sonlandırılan özellikler
 

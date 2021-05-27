@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944425"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980962"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -58,7 +58,10 @@ Bir ölçek birimi yalnızca sahip olduğu verileri koruyabilir. Ölçek birimle
   - **Transfer emirleri** (basit malzeme çekme ve yüklemeyle yalnızca giden iş)
 
 - **Ambar sipariş girişi verileri**: Bu veriler yalnızca ambara serbest bırakılan satın alma siparişleri için kullanılır.
-- **Plaka verileri**: Plakalar hub ve ölçek biriminde oluşturulabilir. Özel çakışma yönetimi sağlanmıştır. Bu verilerin ambara özgü olmadığını unutmayın.
+- **Plaka verileri**: Plakalar, hem hub hem ölçek birimlerinde oluşturulabilir. Özel çakışma yönetimi sağlanır. 
+
+    > [!IMPORTANT]
+    > Plaka verileri, ambara özgü değildir. Aynı eşitleme döngüsü sırasında hem hub'da hem de ölçek biriminde aynı plaka numarası oluşturulursa, bir sonraki eşitleme başarısız olur. Böyle bir durumla karşılaşırsanız, **Sistem yönetimi > Sorgular > İş yükü sorguları > Yinelenen kayıtlar**'a gidin. Burada verileri görüntüleyebilir ve birleştirebilirsiniz.
 
 ## <a name="outbound-process-flow"></a>Giden işleme akışı
 

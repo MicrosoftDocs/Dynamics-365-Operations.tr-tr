@@ -16,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b3db432ae10139bcd8ee400b0bbc1173e33ef206
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792427"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019823"
 ---
 # <a name="product-recommendations-faq"></a>Ürün önerileri SSS
 
@@ -68,7 +68,7 @@ Bir maddenin depoda keşfedilmesini engellemelisiniz, **madde sınıflamalar** d
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Bir e-ticaret sayfasına nasıl liste ekleyebilirim?
 
-E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bkz [Sayfalara ürün öneri listeleri ekle](add-reco-list-to-page.md).
+E-ticaret Web sitenize ürün öneri sayfaları ekleme hakkında bilgi için, bkz [Sayfalara ürün öneri listeleri ekle](./product-recommendations.md).
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>POS'un önerilerini nasıl etkinleştirebilirim?
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1296dc994e43d75fd9b834acf345134494b4810
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835184"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027516"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma
 
@@ -39,7 +39,7 @@ Müşteri 4035'in tutarı 1.000,00 olan bir faturası ve 100,00 tutarında bir a
 | CCRN-10050 | Alacak dekontu      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | ABD Doları      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Bir alacak dekontunu fatura ile kapatma
-Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın açar. Faturayı ve alacak dekontunu kapatman için **Hareketleri kapat** sayfasını kullanabilir. Kapatma işleminin bir parçası olarak, nakit iskontosu tarihlerini ve tutarlarını görüntüler. İki belgeyi işaretler ve sonra hareketleri kapatmak için **Deftere naklet**'i tıklatır. Fabrikam, iskontoları alacak dekontlarında sağladığından alacak notunda -1.00 iskonto vardır.
+Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın açar. Arnie, faturayı ve alacak dekontunu kapatman için **Hareketleri kapat** sayfasını kullanabilir. Arnie kapatma işleminin bir parçası olarak, nakit iskontosu tarihlerini ve tutarlarını görüntüler. Arnie, iki belgeyi işaretler ve sonra hareketleri kapatmak için **Deftere naklet**'i tıklatır. Fabrikam, iskontoları alacak dekontlarında sağladığından alacak notunda -1.00 iskonto vardır.
 
 | İşaret     | Nakit iskontosu kullan | Fiş    | Hesap | Tarih      | Vade tarihi  | Fatura  | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

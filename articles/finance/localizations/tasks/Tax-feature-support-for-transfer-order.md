@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920967"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021381"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Transfer emirleri için vergi özelliği desteği
 
@@ -41,7 +40,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
 
 1. **Vergi özellikleri** sayfasında, **sürümler** sekmesinde, taslak özelliğinin sürümünü seçin ve sonra **Düzenle**'yi seçin.
 
-    ![Düzenle'yi seçme](../media/image1.png)
+    ![Düzenle'yi seçme](../media/tax-feature-support-01.png)
 
 2. **Vergi özelliklerini ayarlama** sayfasında, **Vergi kodları** sekmesinde, yeni vergi kodları oluşturmak için **Ekle**'yi seçin. Bu örnekte, üç vergi kodu oluşturulur: **NL-Exempt**, **BE-RC-21** ve **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         4. **Ücret** sekmesinde **Ekle**'yi seçin.
         5. **Genel** bölümünde **Muaf**'ı **Evet** olarak değiştirin.
 
-        ![NL-Exempt vergi kodu](../media/image2.png)
+        ![NL-Exempt vergi kodu](../media/tax-feature-support-02.png)
 
     - Belçika ambarında bir transfer emri alındığında, karşı ödeme mekanizması **BE-RC-21** ve **BE-RC+21** Vergi kodları kullanılarak uygulanır.
         
@@ -67,7 +66,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         6. **Genel** bölümünde **Karşı Ödeme**'yi **Evet** olarak değiştirin.
         7. **Kaydet**'i seçin.
 
-        ![Karşı ödeme için BE-RC-21 vergi kodu](../media/image3.png)
+        ![Karşı ödeme için BE-RC-21 vergi kodu](../media/tax-feature-support-03.png)
         
         Vergi kodu **BE-RC+21**'i oluşturun.
         1. **Ekle**'yi seçin, **Vergi kodu** alanına **BE-RC-21** yazın.
@@ -77,7 +76,7 @@ Bir transfer emrine dahil olan vergiyi ayarlamak için bu adımları izleyin. Bu
         5. **Vergi oranı** alanına **21** girin.
         6. **Kaydet**'i seçin.
 
-        ![Karşı ödeme için BE-RC+21 vergi kodu](../media/image4.png)
+        ![Karşı ödeme için BE-RC+21 vergi kodu](../media/tax-feature-support-04.png)
 
 3. Vergi kodlarının uygulanabilirliğini tanımlayın.
 

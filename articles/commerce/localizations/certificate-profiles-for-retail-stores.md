@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798873"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020325"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perakende mağazaları için kullanıcı tarafından tanımlanmış sertifika profilleri
 
@@ -79,7 +79,7 @@ Sertifika profili satırları için **Ayarlar**'ı seçtiğinizde, **Sertifika p
 - **Key Vault sertifikası** – Bu alan, **Konum türü** alanını **Key Vault** olarak ayarlarsanız gereklidir. Key Vault sertifikası gizli anahtarı belirtmek için bunu kullanın.
 
     > [!NOTE]
-    > Sertifika profillerinde Key Vault sertifikası kullanmadan önce, anahtar kasası depolama alanına bir sertifika yüklediğinizden emin olun ve [Azure Key Vault istemcisini ayarlama ](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client) yönergelerini izleyin.
+    > Sertifika profillerinde Key Vault sertifikası kullanmadan önce, anahtar kasası depolama alanına bir sertifika yüklediğinizden emin olun ve [Azure Key Vault istemcisini ayarlama ](../../finance/localizations/setting-up-azure-key-vault-client.md) yönergelerini izleyin.
 
 - **Mağaza adı** – Bu alan isteğe bağlıdır ve yalnızca **Konum türü** alanını **Yerel sertifika** olarak ayarladığınızda kullanılabilir. Yerel sertifikaları aramak için kullanılacak varsayılan bir mağaza adı belirtmek için bunu kullanın.
 - **Mağaza konumu** – Bu alan isteğe bağlıdır ve yalnızca **Konum türü** alanını **Yerel sertifika** olarak ayarladığınızda kullanılabilir. Yerel sertifikaları aramak için kullanılacak varsayılan bir mağaza konumu belirtmek için bunu kullanın.

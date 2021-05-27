@@ -1,6 +1,6 @@
 ---
-title: Çoklu kanal gelişmiş otomatik ücretleri
-description: Bu konu Commerce kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için ek sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
+title: Çok yönlü kanal gelişmiş otomatik masrafları
+description: Bu konu Commerce kanal düzeni masraflar otomatik gelişmiş özelliklerini kullanmak için diğer sipariş masrafları yönetmek için kullanılan özellikleri açıklar.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3326f8740874083746c1566063ee7d265ee90faf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804685"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022719"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Çok yönlü kanal gelişmiş otomatik masrafları
 
@@ -29,9 +29,9 @@ ms.locfileid: "5804685"
 
 Bu konu Dynamics 365 for Retail sürüm 10.0.'da yapılandırma ve dağıtım için kullanılabilir olan gelişmiş otomatik masraflar özelliği hakkında bilgi sağlar.
 
-Gelişmiş otomatik masraflar özellikleri etkinleştirildiğinde, desteklenen herhangi bir Commerce kanalında (satış noktası (POS), çağrı merkezi ve çevrimiçi) içinde oluşturulan siparişler [otomatik masraflar](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarından hem başlık hem de satır düzeyi ile ilişkili masraflar için faydalanabilirler.
+Gelişmiş otomatik masraflar özellikleri etkinleştirildiğinde, desteklenen herhangi bir Commerce kanalında (satış noktası (POS), çağrı merkezi ve çevrimiçi) içinde oluşturulan siparişler [otomatik masraflar](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarından hem başlık hem de satır düzeyi ile ilişkili masraflar için faydalanabilirler.
 
-Retail sürüm 10.0 öncesi sürümlerde [otomatik masraf](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarına yalnızca e-Ticaret ve çağrı merkezi kanallarında oluşturulan siparişler tarafından erişilebilir. Sürümler 10.0 ve sonrasında, POS tarafından oluşturulan siparişler otomatik masraf yapılandırmalarını kullanabilir. Bu şekilde, ek sair masraflar sistematik olarak satış işlemlerine eklenebilir.
+Retail sürüm 10.0 öncesi sürümlerde [otomatik masraf](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) yapılandırmalarına yalnızca e-Ticaret ve çağrı merkezi kanallarında oluşturulan siparişler tarafından erişilebilir. Sürümler 10.0 ve sonrasında, POS tarafından oluşturulan siparişler otomatik masraf yapılandırmalarını kullanabilir. Bu şekilde, ekstra sair masraflar sistematik olarak satış işlemlerine eklenebilir.
 
 10.0 öncesi sürümler kullanılırken, bir POS kullanıcısının sevkiyat masrafını "sevk tüm" veya "seçilen sevk" POS hareketi sırasında el ile girmesi istenir. Uygulamanın sair masraflar yeteneği, masrafların siparişe nasıl yazıldığıyla ilgilidir, sistematik hesaplama sağlanmaz; hesaplama, masrafların değerini belirlemek için kullanıcının girdisine dayanmaktadır. masraflar yalnızca tek bir "sevkiyat" ile ilgili masraf kodu satırı olarak eklenebilir ve POS içinde oluşturulduktan sonra değiştirilemez veya düzenlenemez.
 
@@ -39,7 +39,7 @@ Sevkiyat masrafları eklemek için el ile uyarıların kullanımı sürüm 10.0 
 
 Gelişmiş otomatik masraflar özelliğiyle, POS kullanıcıları tanımlanan herhangi bir sair masraflara dayanan sistematik masraflara sahip olabilirler. Ek olarak, kullanıcılar sınırsız sayıda ek masraf ve ücreti herhangi bir POS satışı hareketine başlık veya satır düzeyinde ekleme ve düzenleme olanağına sahip olurlar.
 
-## <a name="enabling-advanced-auto-charges"></a>Gelişmiş otomatik masrafları etkinleştirmek
+## <a name="enable-advanced-auto-charges"></a>Gelişmiş otomatik masrafları etkinleştirme
 
 **Perakende ve Ticaret \> Genel merkez kurulumu \> Parametreler \> Ticaret parametreleri** sayfasında, **Müşteri siparişleri** sekmesine gidin. **Masraflar** hızlı sekmesinde, **Gelişmiş otomatik masrafları kullan**'ı **Evet** olarak ayarlayın.
 
@@ -49,11 +49,11 @@ Gelişmiş otomatik masraflar etkin olduğunda, kullanıcıların bir sevkiyat m
 
 Gelişmiş otomatik masraflar etkinleştiğinde, mevcut **Sevkiyat masrafları kodu** ve **Geri ödeme sevkiyat masrafları** için **Ticaret parametreleri** artık kullanılmaz. Bu parametreler yalnızca **Gelişmiş otomatik masraflar kullan** parametresi **Hayır** olarak ayarlandığında uygulanabilir.
 
-Bu özelliği etkinleştirmeden önce, çalışanlarınızı eğittiğinizden ve test ettiğinizden emin olun çünkü etkinleştirilen özellik, sevkiyat veya diğer masrafların nasıl hesaplandığı ve POS satış siparişlerine eklendiği iş işlemi akışını değiştirecektir. POS'tan işlemlerin oluşturulması işlem akışı üzerindeki etkisini anladığınızdan emin olun. Çağrı merkezi ve e-ticaret siparişleri için gelişmiş otomatik masrafların etkisi asgari düzeydedir. Çağrı merkezi ve e-ticaret uygulamaları, geçmişte otomatik masraflar tablosunda ek sipariş ücretleriyle ilgili sahip oldukları eski davranışa sahip olacaktır. Çağrı merkezi kanalı kullanıcıları, sistem tarafından hesaplanan otomatik masrafları başlık veya satır düzeyinde el ile düzenleme olanağına sahip olmaya devam edecektir veya sair masrafları başlık veya satır düzeyinde el ile ekleyebilirler.
+Bu özelliği etkinleştirmeden önce, çalışanlarınızı eğittiğinizden ve test ettiğinizden emin olun çünkü etkinleştirilen özellik, sevkiyat veya diğer masrafların nasıl hesaplandığı ve POS satış siparişlerine eklendiği iş işlemi akışını değiştirecektir. POS'tan işlemlerin oluşturulması işlem akışı üzerindeki etkisini anladığınızdan emin olun. Çağrı merkezi ve e-ticaret siparişleri için gelişmiş otomatik masrafların etkisi asgari düzeydedir. Çağrı merkezi ve e-ticaret uygulamaları, geçmişte otomatik masraflar tablosunda ekstra sipariş ücretleriyle ilgili sahip oldukları eski davranışa sahip olacaktır. Çağrı merkezi kanalı kullanıcıları, sistem tarafından hesaplanan otomatik masrafları başlık veya satır düzeyinde el ile düzenleme olanağına sahip olmaya devam edecektir veya sair masrafları başlık veya satır düzeyinde el ile ekleyebilirler.
 
-## <a name="additional-pos-operations"></a>Ek POS işlemleri
+## <a name="add-pos-operations"></a>POS işlemleri ekleme
 
-Gelişmiş otomatik masrafların POS uygulaması ortamınızda doğru çalışması için yeni POS operasyonları eklenmiştir. Bu işlemlerin [POS ekran düzenlerine](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) eklenmesi ve gelişmiş otomatik masraflar dağıttığınızda POS cihazlarına dağıtılması gerekir. Bu işlemler eklenmezse, kullanıcılar sair masrafları POS hareketleri üzerinde yönetemez veya koruyamaz ve sistematik olarak otomatik masraf yapılandırmalarına dayanan masraf değerlerini değiştiremez veya ayarlayamazlar. En azından, **masrafları yönet** operasyonunu POS düzeninizde dağıtmanız önerilir.
+Gelişmiş otomatik masrafların POS uygulaması ortamınızda doğru çalışması için yeni POS operasyonları eklenmiştir. Bu işlemlerin [POS ekran düzenlerine](/dynamics365/unified-operations/retail/pos-screen-layouts) eklenmesi ve gelişmiş otomatik masraflar dağıttığınızda POS cihazlarına dağıtılması gerekir. Bu işlemler eklenmezse, kullanıcılar sair masrafları POS hareketleri üzerinde yönetemez veya koruyamaz ve sistematik olarak otomatik masraf yapılandırmalarına dayanan masraf değerlerini değiştiremez veya ayarlayamazlar. En azından, **masrafları yönet** operasyonunu POS düzeninizde dağıtmanız önerilir.
 
 Yeni operasyonlar şu şekildedir.
 
@@ -74,7 +74,7 @@ Bu bölümde, örnek kullanım vakaları size otomatik masraflar ve sair masrafl
 
 #### <a name="use-case-scenario"></a>Kullanımı vakası senaryosu
 
-Bir perakendeci, ürünlerin müşteriye nakledilmesi gereken hareketler Ticaret kanalında oluşturulduklarında bir navlun için otomatik olarak masrafları eklemek için kullanmak istiyor. Perakendeci iki teslimat seçeneği sunmaktadır: kara ve hava yolu. Bir müşteri Karayolu teslimatını seçerse ve değer 100$'dan az ise, perakendeci müşteriden 10.00$ navlun ücreti talep etmek istemektedir. Sipariş 100$ değerin üzerindeyse ve müşteri karayolu sevkiyatını seçerse, kullanıcıdan ek navlun ücretleri talep edilmeyecektir. Kullanıcı tüm siparişleri için Hava yöntemini seçerse, toplam değerlerinden bağımsız olarak 20,00$ navlun ücreti talep edilecektir.
+Bir perakendeci, ürünlerin müşteriye nakledilmesi gereken hareketler Ticaret kanalında oluşturulduklarında bir navlun için otomatik olarak masrafları eklemek için kullanmak istiyor. Perakendeci iki teslimat seçeneği sunmaktadır: kara ve hava yolu. Bir müşteri Karayolu teslimatını seçerse ve değer 100$'dan az ise, perakendeci müşteriden 10.00$ navlun ücreti talep etmek istemektedir. Sipariş 100$ değerin üzerindeyse ve müşteri karayolu sevkiyatını seçerse, kullanıcıdan ekstra navlun ücretleri talep edilmeyecektir. Kullanıcı tüm siparişleri için Hava yöntemini seçerse, toplam değerlerinden bağımsız olarak 20,00$ navlun ücreti talep edilecektir.
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
@@ -106,7 +106,7 @@ POS ve e-ticaret senaryoları için bu siparişler üzerinde net olarak tanımla
 
 #### <a name="use-case-scenario"></a>Kullanımı vakası senaryosu 
 
-Bir perakendeci, müşteri belirli bir bilgisayar modeli sipariş etmek istediğinde müşteri kurulumu ücretlerine ek bir masraf eklemek istemektedir. Bu bilgisayar, perakendecinin müşteri için gerçekleştireceği ek ve isteğe bağlı olmayan kurulum işlemleri içermektedir. Perakendeci, müşteriye bu kurulum için ek ücret söz konusu olacağını bildirmiştir. Perakendeci, bu ücretle ilişkili masrafları finansal raporlama amaçları yüzünden ürün satış fiyatından ayrı olarak yönetmeyi tercih etmektedir. 19,99$ tutarında bir kurulum ücreti, müşteri herhangi bir kanaldan bu belirli bilgisayarı satın alırsa ücretlendirilecektir.
+Bir perakendeci, müşteri belirli bir bilgisayar modeli sipariş etmek istediğinde müşteri kurulumu ücretlerine ekstra bir masraf eklemek istemektedir. Bu bilgisayar, perakendecinin müşteri için gerçekleştireceği ek ve isteğe bağlı olmayan kurulum işlemleri içermektedir. Perakendeci, müşteriye bu kurulum için ek ücret söz konusu olacağını bildirmiştir. Perakendeci, bu ücretle ilişkili masrafları finansal raporlama amaçları yüzünden ürün satış fiyatından ayrı olarak yönetmeyi tercih etmektedir. 19,99$ tutarında bir kurulum ücreti, müşteri herhangi bir kanaldan bu belirli bilgisayarı satın alırsa ücretlendirilecektir.
 
 #### <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
 
@@ -142,7 +142,7 @@ masraf, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili masraf 
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
-**Masraf başlığı ekle** işleminin [POS ekran düzeninizde](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) yapılandırılmış olması gerekir, böylece kullanıcıya POS üzerinden erişilebilir bir düğme bu işlemi çağırmak (işlem 141) üzere mevcut olacaktır. Ekran düzeni değişiminin kanalına, dağıtım zamanlaması işlevi üzerinden de dağıtılması gerekir.
+**Masraf başlığı ekle** işleminin [POS ekran düzeninizde](/dynamics365/unified-operations/retail/pos-screen-layouts) yapılandırılmış olması gerekir, böylece kullanıcıya POS üzerinden erişilebilir bir düğme bu işlemi çağırmak (işlem 141) üzere mevcut olacaktır. Ekran düzeni değişiminin kanalına, dağıtım zamanlaması işlevi üzerinden de dağıtılması gerekir.
 
 #### <a name="sales-processing-of-manual-header-charges"></a>El ile başlık masraflarının satış işlemi
 
@@ -164,7 +164,7 @@ Gider, ilgili indirim veya promosyonlar amacıyla "sevkiyat" ile ilgili gider ol
 
 Değişiklikleri Commerce Scale Unit/Kanalı Veritabanına gönderin böylece POS onları **1040 dağıtım zamanlaması** işini çalıştırırken kullanabilir.
 
-**Masraf satırı ekle** işleminin [POS ekran düzeninizde](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) yapılandırılmış olması gerekir, böylece kullanıcıya POS üzerinden erişilebilir bir düğme bu işlemi çağırmak (işlem 140) üzere mevcut olacaktır. Ekran düzeni değişiminin kanalına, dağıtım zamanlaması işlevi üzerinden de dağıtılması gerekir.
+**Masraf satırı ekle** işleminin [POS ekran düzeninizde](/dynamics365/unified-operations/retail/pos-screen-layouts) yapılandırılmış olması gerekir, böylece kullanıcıya POS üzerinden erişilebilir bir düğme bu işlemi çağırmak (işlem 140) üzere mevcut olacaktır. Ekran düzeni değişiminin kanalına, dağıtım zamanlaması işlevi üzerinden de dağıtılması gerekir.
 
 #### <a name="sales-processing-of-the-manual-line-charge"></a>El ile satır masrafının satış işlemi
 
@@ -176,7 +176,7 @@ Aynı işlem, çağrı merkezinde, **Satış siparişi** sayfasındaki **Satış
 
 ### <a name="editing-charges-on-a-pos-sales-transaction"></a>POS satış işlemindeki masrafları düzenlemek
 
-**Masrafları yönet** işlemi (142), [POS ekran düzenine](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) eklenmelidir, böylece kullanıcı sistem tarafından hesaplanan veya el ile oluşturulan başlık veya satır düzeyi masrafları görüntüleyebilir ve düzenleyebilir. İşlem eklenmezse, kullanıcılar POS hareketindeki masrafların değerini ayarlayamayacaktır ve masrafların türü ve masraf kodu gibi masrafa ilişkin ayrıntıları görüntülemeyecektirler.
+**Masrafları yönet** işlemi (142), [POS ekran düzenine](/dynamics365/unified-operations/retail/pos-screen-layouts) eklenmelidir, böylece kullanıcı sistem tarafından hesaplanan veya el ile oluşturulan başlık veya satır düzeyi masrafları görüntüleyebilir ve düzenleyebilir. İşlem eklenmezse, kullanıcılar POS hareketindeki masrafların değerini ayarlayamayacaktır ve masrafların türü ve masraf kodu gibi masrafa ilişkin ayrıntıları görüntülemeyecektirler.
 
 POS'taki **Masrafları yönet** sayfasında, kullanıcı hem başlık hem de satır düzeyi ayrıntıları görüntüleyebilir. Kullanıcılar bu sayfada bulunan **Düzenle** işlevini, belirli bir gider satırına uygulanan tutarda değişiklikler yapmak için kullanabilirler. Bir masraf satırı el ile değiştirildikten sonra, kullanıcı **Yeniden hesapla** işlemini başlatmadığı sürece sistematik olarak yeniden hesaplanmayacaktır.
 
@@ -197,7 +197,7 @@ Masraflar sistematik olarak Ticaret içinde oluşturulmuş **İade siparişlerin
 Aşağıdaki giriş ögeleri giriş satırına ve altbilgisine gelişmiş otomatik masraflar işlevini desteklemek için eklenmiştir.
 
 - **Satır Sevkiyat Masrafları** - Bu satır düzeyi öğesi, satış satırına uygulanan belirli masraf kodlarını özetlemek için kullanılabilir. Yalnızca **Masraf kodları** sayfasındaki **Sevkiyat** masrafı olarak işaretlenmiş masraf kodları burada görüntülenir.
-- **Satır Diğer Masrafları** - Bu satır düzeyi öğesi, satış satırına uygulanan sevkiyatla ilgili olmayan belirli masraf kodlarını özetlemek için kullanılabilir. Bunlar, **Masraf kodlar** sayfasındaki **Sevkiyat** bayrağının etkinleştirilmediği masraf kodlarıdır.
+- **Satır Diğer Masrafları** - Bu satır düzeyi öğesi, satış satırına uygulanan sevkiyatla ilgili olmayan belirli masraf kodlarını özetlemek için kullanılabilir. **Satır Diğer Masrafları**, **Masraf kodları** sayfasındaki **Sevkiyat** bayrağının etkinleştirilmediği masraf kodlarıdır.
 - **Sipariş Sevkiyat Masrafları Ayrıntısı** - Bu altbilgi düzeyi öğe, **Masraf kodları** kurulum sayfasında **Sevkiyat** masrafı olarak işaretlenmiş masraf kodlarının açıklamalarını gösterir.
 - **Sipariş Sevkiyat Masrafları** - Bu altbilgi düzeyi öğe, sevkiyat ile ilişkili masrafların Dolar cinsinden değerini gösterir.
 - **Sipariş Diğer Masrafları Ayrıntısı** - Bu altbilgi düzeyi öğe, Masraf kodları kurulum sayfasında Sevkiyat masrafı değil olarak işaretlenmiş masraf kodlarının açıklamalarını gösterir.

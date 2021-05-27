@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791907"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021500"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Retail'de saat ve işe devam yönetimi
 
@@ -38,9 +38,9 @@ Bu konuda, Dynamics 365 Commerce süre ve işe devam yönetimi için desteklenen
 
 ### <a name="plan-worker-schedules"></a>Çalışan zaman cetvelini planlayın
 
-- İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için bkz. [İş planlayıcı kullanarak profiller uygulamak](https://technet.microsoft.com/library/aa551234.aspx).
+- İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için bkz. [İş planlayıcı kullanarak profiller uygulamak](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
 
-Yapılandırma adımları hakkında daha fazla bilgi için bkz. [Zaman ve katılım ayarlama](https://technet.microsoft.com/library/aa496971.aspx).
+Yapılandırma adımları hakkında daha fazla bilgi için bkz. [Zaman ve katılım ayarlama](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Commerce yapılandırması
 
@@ -135,7 +135,7 @@ Bir Commerce kullanıcısı, zaman kayıtlarını hesaplamak, onaylamak ve ücre
 - Toplu Çıkış
 - Devamsızlığı Kaydet
 
-Zaman ve katılım kayıtlarını ayarlamak hakkında daha fazla bilgi için bkz. [Zaman ve katılım kayıtlarını işleme](https://technet.microsoft.com/library/aa573180.aspx).
+Zaman ve katılım kayıtlarını ayarlamak hakkında daha fazla bilgi için bkz. [Zaman ve katılım kayıtlarını işleme](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

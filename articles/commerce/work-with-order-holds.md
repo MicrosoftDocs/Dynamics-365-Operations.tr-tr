@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800395"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027468"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
 
@@ -53,7 +53,7 @@ Tutma bilgileri girilip kaydedildikten sonra kullanıcı **Sipariş tutmalar** s
 
 **Sipariş tamamlamayı etkinleştir** bayrağı etkinleştirildiyse, çağrı merkezi kanalında bekleme durumundaki bir siparişe ödeme uygulanması zorunlu değildir. Bunun tersine, beklemeye alınmamış bir satış siparişi için, kullanıcılar ödeme uygulanana kadar satış siparişi giriş sayfasından ayrılamaz. Kuşkusuz, sipariş tutma kaldırılmadan önce ödeme yapılması gerekecektir.
 
-Ek olarak, çağrı merkezi kullanıcıları herhangi bir nedenle şüpheli görülen siparişlere el ile bir sahte tutma ekleyebilirler. Siparişler etkin sahtekarlık ölçütleri ve kurallarıyla eşleştikleri zaman otomatik olarak da beklemeye alınabilir. Bu tür sipariş tutma hakkında daha fazla bilgi için bkz. [Sahtekarlık uyarılarını ayarlama](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Ek olarak, çağrı merkezi kullanıcıları herhangi bir nedenle şüpheli görülen siparişlere el ile bir sahte tutma ekleyebilirler. Siparişler etkin sahtekarlık ölçütleri ve kurallarıyla eşleştikleri zaman otomatik olarak da beklemeye alınabilir. Bu tür sipariş tutma hakkında daha fazla bilgi için bkz. [Sahtekarlık uyarılarını ayarlama](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Beklemeye alınan siparişleri görüntüleme ve yönetme
 

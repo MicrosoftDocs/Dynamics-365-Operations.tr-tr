@@ -2,7 +2,6 @@
 title: Kesinleşmiş planlı siparişler
 description: Bu konu, planlı siparişlerin nasıl kesinleştirileceğini açıklar. Planlı siparişler kesinleştirildiğinde, gerçek satınalma siparişlerine, transfer emirlerine veya üretim emirlerine dönüştürülür.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
@@ -11,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8aac0bb323ee5b2d85d584d63e3217972f82fb80
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938360"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019506"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 

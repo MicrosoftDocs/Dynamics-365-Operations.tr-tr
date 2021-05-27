@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835160"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027540"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Kısmi ödemeyi iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma
 
@@ -38,7 +38,7 @@ Fabrikam 4027 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde
 | FTI-10020 | Fatura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | ABD Doları      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Nakit iskonto tarihinden önce kısmi ödeme
-2 Temmuz, müşteri 4027 fatura için 297,00 kısmi ödeme yapar. Fabrikam kısmi ödemelerde nakit iskontosu sunduğundan ve kısmi ödeme nakit iskontosu tarihinden önce yapıldığından ödeme bir nakit iskontosu için uygundur. Bu nedenle, müşteri 4027 3,00 nakit iskontosu alır. Tamer, müşteri 4027 için Ödeme günlüğünü kullanarak ödemeyi kaydeder. Ardından, kapatmanın faturasını işaretleyebilmek için **Hareketleri kapat** sayfasını açar.
+2 Temmuz, müşteri 4027 fatura için 297,00 kısmi ödeme yapar. Fabrikam kısmi ödemelerde nakit iskontosu sunduğundan ve kısmi ödeme nakit iskontosu tarihinden önce yapıldığından ödeme bir nakit iskontosu için uygundur. Bu nedenle, müşteri 4027 3,00 nakit iskontosu alır. Tamer, müşteri 4027 için Ödeme günlüğünü kullanarak ödemeyi kaydeder. Arnie ardından, kapatmanın faturasını işaretleyebilmek için **Hareketleri kapat** sayfasını açar.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
@@ -95,7 +95,7 @@ Tamer **Nakit iskontosu kullan** alanındaki değeri **Her zaman** olarak deği�
 | Alınan nakit iskontosu          | 3,00      |
 | Alınacak nakit iskontosu tutarı | 7,00      |
 
-Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğinden **Nakit iskontosu kullan** alanındaki değeri tekrar **Normal** olarak değiştirir. Sonra ödemeyi deftere nakleder. Tamer **Müşteri hareketleri** sayfasını açtığında, faturanın bakiyesinin 0,00 olduğunu görür. Ayrıca, iki ödeme olduğunu da görür. Ödemelerden biri 297,00 içindir ve 3,00 tutarında nakit iskontosu vardır; diğer ödeme ise 700,00 içindir.
+Arnie, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğinden **Nakit iskontosu kullan** alanındaki değeri tekrar **Normal** olarak değiştirir. Sonra ödemeyi deftere nakleder. Arnie **Müşteri hareketleri** sayfasını açtığında, faturanın bakiyesinin 0,00 olduğunu görür. İki ödeme bulunur. Ödemelerden biri 297,00 içindir ve 3,00 tutarında nakit iskontosu vardır; diğer ödeme ise 700,00 içindir.
 
 | Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan | Para Birimi |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

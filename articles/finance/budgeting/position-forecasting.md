@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827361"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028239"
 ---
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
@@ -67,7 +67,7 @@ Jodi'nin kuruluşu, bir çalışanın temel ödemesinin yüzde 5'i kadar bir eğ
 
 Jodi yöneticilerin kazanç miktarını değiştirmesini istemiyor. Bu nedenle, **Tahmin pozisyonunu geçersiz kılma** alanında **Maliyet değişikliklerine izin verme** seçeneğini seçiyor. Kuruluş bu maliyetin her aya eşit olarak atanmasını istiyor. Bu nedenle, Jodi **Tahsisat yöntemi** alanında **Üç aylık** seçeneğini seçiyor. 
 
-Ardından, Jodi maliyet hesaplama satırı ekliyor, tarihleri ve bir ana hesabı ayarlıyor ve yüzde olarak **5,00** değerini giriyor. Kuruluşunda, bu kazanç için yılda 5,000 $'lık bir kapasite vardır. Bu nedenle, Jodi bu tutarı yıllık sınır olarak giriyor. 
+Ardından, Jodi maliyet hesaplama satırı ekliyor, tarihleri ve bir ana hesabı ayarlıyor ve yüzde olarak **5,00** değerini giriyor. Kuruluşda, bu kazanç için yılda 5,000 $'lık bir kapasite vardır. Bu nedenle, Jodi bu tutarı yıllık sınır olarak giriyor. 
 
 Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm gelir maliyet öğelerini ekliyor. Bütçe maliyet öğesi artık kullanılmaya hazırdır.
 
@@ -137,7 +137,7 @@ FTE değeri tahmin pozisyonunda değiştirildiğinde bütçe maliyet öğesi sat
 
 **Örnek** 
 
-Kuruluş bir muhasebeci pozisyonunun maliyetini azaltmak için iki seçenek düşünüyor. Birinci seçenek, pozisyonu yıl bitmeden kaldırmaktır. Diğer seçenek, pozisyonu tüm yıl boyunca yarı zamanlı olarak değiştirmektir. Brad bir başlangıç senaryosunda mevcut muhasebeci pozisyonu için bir tahmin pozisyonu oluşturdu. Bu başlangıç tahmin senaryosunu A senaryosuna kopyalayıp kaldırma tarihini 31 Mayıs olarak ayarladı ve yeniden hesapladı. Sonra Brad başlangıç tahmin pozisyonunu B senaryosuna kopyalayıp FTE değerini **0,50** olarak değiştirdi ve yeniden hesapladı. Brad'in şimdi üç sürümü ve her bir sürümün kendi seçenekleri ile uyumlu maliyet toplamları vardır.
+Kuruluş bir muhasebeci pozisyonunun maliyetini azaltmak için iki seçenek düşünüyor. Birinci seçenek, pozisyonu yıl bitmeden kaldırmaktır. Diğer seçenek, pozisyonu tüm yıl boyunca yarı zamanlı olarak değiştirmektir. Brad bir başlangıç senaryosunda mevcut muhasebeci pozisyonu için bir tahmin pozisyonu oluşturdu. Brad, bu başlangıç tahmin senaryosunu A senaryosuna kopyalayıp kaldırma tarihini 31 Mayıs olarak ayarladı ve yeniden hesapladı. Sonra Brad başlangıç tahmin pozisyonunu B senaryosuna kopyalayıp FTE değerini **0,50** olarak değiştirdi ve yeniden hesapladı. Brad'in şimdi üç sürümü ve her bir sürümün seçenekler ile uyumlu maliyet toplamları vardır.
 
 #### <a name="assigning-a-compensation-group"></a>Bir ücret grubu atama
 

@@ -2,11 +2,9 @@
 title: TaxTrans kaydı oluşturulmuyor
 description: Bu konu, TaxTrans kaydı oluşturulmuyorsa yardımcı olabilecek sorun giderme bilgileri sağlar.
 author: qire
-manager: beya
 ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0c7414cc39198ff4d5be9b4c41ca62f9c78c9250
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947721"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018793"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>TaxTrans kaydı oluşturulmuyor
 

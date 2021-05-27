@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835112"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027492"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma
 
@@ -31,7 +31,7 @@ Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerini
 Fabrikam, müşteri 4031'e iki nakit iskonto dönemi sunuyor. Müşteri, faturayı beş gün içinde öderse yüzde 2'lik bir nakit iskontosu ve 14 gün içinde öderse yüzde 1'lik bir nakit iskontosu alır. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="invoice"></a>Fatura
-25 Haziran Tamer 4031 müşteri için 1.000,00 değerinde bir faturayı girip deftere naklediyor. Bu fatura için nakit iskontoları inceleyen Tamer, fatura 30 Haziran'a kadar ödendiği zaman 4031 numaralı müşterinin 20,00 iskonto alacağını görür. Fatura 9 Temmuz'a kadar ödenirse, müşteri 10,00 iskonto alır.
+25 Haziran Tamer 4031 müşteri için 1.000,00 değerinde bir faturayı girip deftere naklediyor. Bu fatura için nakit iskontoları inceleyen Arnie, fatura 30 Haziran'a kadar ödendiği zaman 4031 numaralı müşterinin 20,00 iskonto alacağını görür. Fatura 9 Temmuz'a kadar ödenirse, müşteri 10,00 iskonto alır.
 
 | Nakit iskontosu tarihi | Nakit iskontosu tutarı | Hareket para birimi cinsinden tutar |
 |--------------------|----------------------|--------------------------------|

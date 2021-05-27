@@ -1,6 +1,6 @@
 ---
 title: Borç hesapları ile alacak hesapları için para birimi yeniden değerleme işlemi
-description: Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir.
+description: Bu konuda, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e9a4bfdad4e69b13d7b0324f4978f13d6d295
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815920"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026169"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Borç hesapları ile alacak hesapları için para birimi yeniden değerleme işlemi
 
 [!include [banner](../includes/banner.md)]
 
-Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir. 
+Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu konuda, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir. 
 
 Yabancı para birimlerindeki açık hareketlerinin teorik değeri veya defter değeri, döviz kurlarındaki dalgalanmalar nedeniyle zaman içinde değişiklik gösterebilir. Borç hesapları ve Alacak hesapları altındaki açık hareketlerin değerini güncelleştirmek için yabancı para birimi yeniden değerleme sürecini işletin. Yabancı para biriminde yeniden değerleme hem Borç hesapları hem Alacak hesapları için yürütülebilir. Süreç, belirli bir tarihteki açık hesapları veya kapatılmamış tutarları yeniden değerlemek için yeni bir döviz kuru kullanır. Gönderilen orijinal tutarlar ve yeniden değerlenen tutarlar, her açık hareketten gerçekleşmemiş kazanç veya kayıp ile sonuçlanmış olabilir. Borç hesapları ve alacak hesapları alt muhasebe defterleri daha sonra gerçekleşmemiş kazanç veya zararı yansıtmak için güncelleştirilir ve bir muhasebe girişi Genel muhasebe defterine nakledilir.
 
@@ -55,7 +55,7 @@ Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her sef
     -   **Nakil** – Müşteri hareketinin nakil profili kullanılır.
     -   **Seç** – Nakil profilini **Nakil profili** alanına girin.
 -   **Nakil profili** – **Şu nakil profilini kullan** alanından **Seç** seçimini yaparsanız bu alana girdiğiniz nakil profili, yabancı para birimi yeniden değerleme hareketlerinin nakil profilini belirler.
--   **Mali boyutlar** – Yabancı para birimi yeniden değerleme hareketlerinin muhasebe girişlerine nakledilen mali boyutlar:
+-   **Mali boyutlar** – Yabancı para birimi yeniden değerleme hareketlerinin muhasebe girişlerine nakledilen mali boyutlar. Mali boyutlar, hesap yapısının kurallarına göre doğrulanmaz. Faturalar deftere nakledildiği sırada yerinde olan hesap yapısı, yeniden değerleme tamamlandığında yer alan kurallarla aynı olmayabilir. Yeniden değerleme işleminde belirli mali boyutları seçme seçeneği yoktur, bu nedenle hesap yapısı doğrulaması atlanır.  
     -   **Yok** – Hiçbir mali boyut nakledilmez. Hesap yapınızda bir zorunlu mali boyut bulunuyorsa yeniden değerleme süreci hala çalışır ve mali boyutları olmayan muhasebe girişleri oluşturur. Öncelikle bir uyarı mesajı alırsınız, ardından yeniden değerlemeyi iptal edebilirsiniz.
     -   **Tablo** – Yabancı para birimi yeniden değerleme işlemi ayarlama hareketlerinde müşteri hesabı veya satıcı hesabı mali boyutlarının nakledildiği anlamına gelir.
     -   **Nakletme** – Yeniden değerleme yapılan hareketin mali boyutlarının yabancı para birimi yeniden değerleme işlemi hareketlerine nakledildiğini gösterir. Varsayılan olarak, orijinal hareketlerin AR/AP genel muhasebe hesabındaki mali boyutlar, yeniden değerleme hareketlerinin AR/AP ana hesabı için kullanılırken, orijinal hareketlerin gider/kıymet/gelir ana muhasebe hesabındaki mali boyutlar yeniden değerleme hareketinin gerçekleşmemiş kazanç/kayıt ana hesabı için kullanılır.

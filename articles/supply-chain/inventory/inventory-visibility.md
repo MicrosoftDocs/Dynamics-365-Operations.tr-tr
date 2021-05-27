@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910437"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017018"
 ---
 # <a name="inventory-visibility-add-in"></a>Stok Görünürlüğü Eklentisi
 
@@ -41,20 +41,23 @@ Stok Görünürlüğü Eklentisi'ni, Microsoft Dynamics Lifecycle Services'ı (L
 
 Daha fazla bilgi için bkz. [Lifecycle Services kaynakları](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Önkoşullar
+### <a name="inventory-visibility-add-in-prerequisites"></a>Stok Görünürlüğü Eklentisi ön koşulları
 
 Stok Görünürlüğü Eklentisi'ni yüklemeden önce aşağıdakileri yapmanız gerekir:
 
 - En az bir ortam dağıtılan bir LCS uygulama projesi edinin.
 - [Eklentilere genel bakış](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md)'ta sağlanan eklentileri ayarlama ön koşullarının tamamlandığından emin olun. Stok Görünürlüğü, çift yazma bağlantısı gerektirmez.
 - Aşağıdaki üç gerekli dosyayı almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü Ekibi'ne başvurun:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (Supply Chain Management'ın çalıştırdığınız bu sürümü 10.0.18 sürümünden daha eskiyse)
+- Buna ek olarak, aşağıdaki Package Deployer paketlerini almak için [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) adresinden Stok Görünürlüğü Ekibi'ne başvurun: Bu paketler, resmi bir Package Deployer aracı tarafından kullanılabilir.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip`(Bu paket, `InventoryServiceBase` paketindeki tüm değişiklikleri ve ek kullanıcı arabirimi uygulama bileşenlerini içerir)
 - Bir uygulamayı kaydettirmek ve Azure aboneliğiniz altında AAD'ye istemci gizli anahtarı eklemek için [Hızlı Başlangıç: Bir uygulamayı Microsoft kimlik platformuna kaydetme](/azure/active-directory/develop/quickstart-register-app) bölümünde verilen yönergeleri izleyin.
-    - [Uygulama kaydetme](/azure/active-directory/develop/quickstart-register-app)
-    - [İstemci gizli anahtarı](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - **Uygulama(İstemci) Kimliği**, **İstemci Gizli Anahtarı** ve **Kiracı Kimliği** aşağıdaki adımlarda kullanılacaktır.
+  - [Uygulama kaydetme](/azure/active-directory/develop/quickstart-register-app)
+  - [İstemci gizli anahtarı](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - **Uygulama(İstemci) Kimliği**, **İstemci Gizli Anahtarı** ve **Kiracı Kimliği** aşağıdaki adımlarda kullanılacaktır.
 
 > [!NOTE]
 > Şu anda desteklenen ülkeler/bölgeler arasında Kanada, ABD ve Avrupa Birliği (AB) bulunmaktadır.
@@ -63,18 +66,49 @@ Bu ön koşullarla ilgili herhangi bir sorunuz varsa lütfen Stok Görünürlü�
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Ayarlama Dataverse
 
-Dataverse'ü ayarlamak için aşağıdaki adımları izleyin.
+Dataverse'ü Stok Görünürlüğüyle kullanılacak şekilde ayarlamak için, önce önkoşulları hazırlamanız ve sonra Dataverse'ü Package Deployer aracını kullanarak mı yoksa çözümleri el ile içe aktararak mı ayarlayacağınıza karar vermeniz gerekir. Ardından Stok Görünürlüğü Eklentisini yükleyin. Aşağıdaki alt kısımlar, bu görevlerin nasıl tamamlanacağını açıklar.
 
-1. Kiracınıza bir hizmet ilkesi ekleyin:
+#### <a name="prepare-dataverse-prerequisites"></a>Dataverse önkoşullarını hazırlama
 
-    1. Azure AD PowerShell Modülü v2'yi [ Graph için Azure Active Directory PowerShell'i Yüklema](/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
-    1. Aşağıdaki PowerShell komutunu çalıştırın.
+Dataverse'ü kurmaya başlamadan önce, aşağıdakileri gerçekleştirerek kiracınıza bir hizmet ilkesi ekleyin:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Azure AD PowerShell Modülü v2'yi [ Graph için Azure Active Directory PowerShell'i Yüklema](/powershell/azure/active-directory/install-adv2) bölümünde açıklandığı gibi yükleyin.
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Aşağıdaki PowerShell komutunu çalıştırın:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Package Deployer aracını kullanarak Dataverse'ü kurma
+
+Önkoşulları yerine getirdikten sonra, Dataverse'ü Package Deployer aracını kullanarak ayarlamayı tercih ediyorsanız aşağıdaki prosedürü kullanın. Bunun yerine, çözümlerin el ile nasıl içe aktarılacağı hakkında ayrıntılı bilgi için sonraki bölüme bakın (iki yöntemi birden uygulamayın).
+
+1. Geliştirici araçlarını, [NuGet'ten araçları indirme](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget) bölümünde açıklandığı şekilde yükleyin.
+
+1. İş gereksinimlerinize göre, `InventoryServiceBase` veya `InventoryServiceApplication` paketini seçin.
+
+1. Çözümleri içe aktarın:
+    1. `InventoryServiceBase` paketi için:
+        - `InventoryServiceBase.PackageDeployer.zip` zip dosyasını açın
+        - `InventoryServiceBase` klasörünü, `[Content_Types].xml` dosyasını, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll` dosyasını, `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` dosyasını ve `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` dosyasını bulun. 
+        - Bu klasör ve dosyaların her birini, geliştirici araçlarını yüklediğinizde oluşturulan `.\Tools\PackageDeployment` dizinine kopyalayın.
+    1. `InventoryServiceApplication` paketi için:
+        - `InventoryServiceApplication.PackageDeployer.zip` zip dosyasını açın
+        - `InventoryServiceApplication` klasörünü, `[Content_Types].xml` dosyasını, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll` dosyasını, `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` dosyasını ve `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` dosyasını bulun.
+        - Bu klasör ve dosyaların her birini, geliştirici araçlarını yüklediğinizde oluşturulan `.\Tools\PackageDeployment` dizinine kopyalayın.
+    1. `.\Tools\PackageDeployment\PackageDeployer.exe`'yi yürütün. Çözümleri içe aktarmak için ekranınızdaki talimatları izleyin.
+
+1. Uygulama kullanıcısına güvenlik rolleri atayın.
+    1. Dataverse ortamınızın URL'sini açın.
+    1. **Gelişmiş Ayarlar \> Sistem \> Güvenlik \> Kullanıcılar**'a gidin ve **# InventoryVisibility** adlı kullanıcıyı bulun.
+    1. **Rol Ata**'yı ve sonra **Sistem Yöneticisi**'ni seçin. **Common Data Service Kullanıcısı** adlı bir rol varsa bunu da seçin.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Çözümleri içe aktararak Dataverse'ü elle kurma
+
+Önkoşulları yerine getirdikten sonra, Dataverse'ü çözümleri elle içe aktararak ayarlamayı tercih ediyorsanız aşağıdaki prosedürü kullanın. Bunun yerine Package Deployer aracının kullanımıyla ilgili ayrıntılar için önceki bölüme bakın (iki yöntemi birden uygulamayın).
 
 1. Dataverse'te Stok Görünürlüğü için bir uygulama kullanıcısı oluşturun:
 

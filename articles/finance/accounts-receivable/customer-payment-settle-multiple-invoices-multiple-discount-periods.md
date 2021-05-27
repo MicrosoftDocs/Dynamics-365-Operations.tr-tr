@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819926"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027758"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan faturaları kapatmak için bir ödeme kullanma
 
@@ -66,7 +66,7 @@ Arnie, bu faturaların tamamını 1 Temmuz'da kapatmak üzere bir ödeme günlü
 | Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>29 Haziran'da kısmi kapatma
-Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler. Her satırda, o müşteriye sağlanan yönergelere dayalı olarak kapatılacak tutarı girer. Arnie bir satırı seçtiğinde, bu satır için geçerli iskonto tutarını ve alınan nakit iskontosu tutarını görür. Müşteri faturanın yarısını ödediğinden Arnie FTI-10042 için **Nakit iskontosu tutarı** alanındaki değerin **20,00** olduğunu ancak **Alınan nakit iskontosu** alanındaki tutarın **10,00** olduğunu görür. Ödeme tutarı 1.485,00'tir.
+Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler. Her satırda Arnie, o müşteriye sağlanan yönergelere dayalı olarak kapatılacak tutarı girer. Arnie bir satırı seçtiğinde, Arnie bu satır için geçerli iskonto tutarını ve alınan nakit iskontosu tutarını görür. Müşteri faturanın yarısını ödediğinden Arnie FTI-10042 için **Nakit iskontosu tutarı** alanındaki değerin **20,00** olduğunu ancak **Alınan nakit iskontosu** alanındaki tutarın **10,00** olduğunu görür. Ödeme tutarı 1.485,00'tir.
 
 | İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie m�
 | Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 495,00           |
 | Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 490,00           |
 
-Tamer, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Tamer ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
+Arnie, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Arnie ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
 
 > İşaretlenen hareketlerin toplam tutarı günlük tutarından farklı. Günlükteki tutar değiştirilsin mi?
 
-Arnie ödemenin sadece 1.485,00 olmasını istiyorsa **Hayır** seçeneğini tıklar veya günlüğü deftere nakleder. Hareketler aşağıdaki şekilde kapatılır:
+Arnie ödemenin sadece 1.485,00 olmasını istiyorsa **Hayır** seçeneğine tıklar veya günlüğü deftere nakleder. Hareketler aşağıdaki şekilde kapatılır:
 
 1.  FTI-10040, 15 Mayıs'ta girildiğinden ve en eski fatura olduğundan 1.000,00 tutarı tamamen kapatılır. Nakit iskontosu yapılmaz. Ödeme hareketinde kalan tutar 485,00'tir.
 2.  Fatura FTI 10041 için hiçbir tutar kapatılmaz. Faturala FTI-10041 ve FTI-10042 aynı tarihte girilmiştir. Ancak, fatura FTI-10041 için yüzde 1 oranında ve fatura FTI-10042 için yüzde 2 oranında iskonto uygulanabilir. Fatura FTI-10042 için daha iyi bir iskonto sunulduğundan, kalan 485,00 fatura FTI-10042 ile kapatılır.

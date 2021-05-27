@@ -2,7 +2,6 @@
 title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853429"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021476"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
@@ -62,7 +61,7 @@ Commerce Headquarters'da mağaza konumu için boylam ve enlem değerlerini girme
 
 ## <a name="bing-maps-integration"></a>Bing Haritalar tümleştirmesi
 
-Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](https://docs.microsoft.com/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
+Mağaza seçici modülü, [Bing Haritalar REST uygulama programlama arabirimleri (API'ler)](/bingmaps/rest-services/) ile Bing'in Coğrafi Kodlama ve Otomatik Öneri özelliklerini kullanacak şekilde Bing Haritalar ile tümleştirilmiştir. Bir Bing Haritalar API anahtarı gereklidir ve Commerce Headquarters'daki paylaşılan parametreler sayfasına eklenmelidir. Geocoding API, bir konumu enlem ve boylam değerlerine dönüştürmek için kullanılır. Autosuggest API ile tümleştirme, kullanıcılar arama alanına konum girerken arama önerilerini göstermek için kullanılır.
 
 Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca aşağıdaki URL'lere izin verildiğinden emin olmanız gerekir. Bu kurulum, site için çeşitli CSP yönergelerine (örneğin, **img-src**) izin verilen URL'leri ekleyerek Commerce site oluşturucuda gerçekleştirilir. Daha fazla bilgi için bkz. [İçerik güvenlik ilkesi](manage-csp.md). 
 
@@ -78,14 +77,14 @@ Mağaza seçici modülü,bir ürünün teslim alınabileceği mağazaların list
 
 Bir ürünün teslim alma için uygun olduğu mağazaları görüntüleyen bir PDF'de bir satın alma kutusu modülüne mağaza seçici modülü eklenebilir. Bir sepet modülüne da eklenebilir. Bu durumda, depo seçici modülü alışveriş sepetindeki her kalem için teslim alma seçeneklerini gösterir. Mağaza seçici modülü uzantılar ve özelleştirmeler aracılığıyla diğer sayfalara veya modüllere de eklenebilir.
 
-Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılacak şekilde yapılandırılması gerekir. Aksi durumda, modül ürün sayfalarında gösterilmez. Teslimat modunun yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat modlarını ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılacak şekilde yapılandırılması gerekir. Aksi durumda, modül ürün sayfalarında gösterilmez. Teslimat modunun yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat modlarını ayarlama](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
 ![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Mağaza bulma modu
 
@@ -157,11 +156,11 @@ Mağaza seçici modülünü bu konunun yukarısında gösterilen çizimde olduğ
 
 [Sepet ve ödemede hızlı tur](quick-tour-cart-checkout.md)
 
-[Teslimat şekillerini ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Teslimat şekillerini ayarla](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Kuruluşunuz için Bing Haritalar'ı yönetme](dev-itpro/manage-bing-maps.md)
 
-[Bing Maps REST API'leri](https://docs.microsoft.com/bingmaps/rest-services/)
+[Bing Maps REST API'leri](/bingmaps/rest-services/)
 
 [Harita modülü](map-module.md)
 

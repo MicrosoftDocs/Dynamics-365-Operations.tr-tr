@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818764"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028215"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Makine öğrenimi modellerinin sonuçları (önizleme)
 
@@ -63,8 +63,8 @@ Bu soruyu ele almak için basit bir tahminin doğruluğunu düşünelim. Sınıf
 
 Dikkate alınması gereken bir başka husus daha vardır. Bir hastada hastalığın tespiti için tıbbi bir testin kullanıldığı bir senaryoyu ele alalım. Bu problem, pozitif sonucun hastanın hastalığa sahip olduğunu gösteren ikili sınıflandırma problemidir. Bu senaryoda, aşağıdaki hataların etkisini dikkate almalısınız:
 
-- Testin hastanın hastalığa sahip olduğunu göstermesine rağmen hastanın hastalığa sahip olmadığı hatalı pozitif sonuçlar
-- Testin hastanın hastalığa sahip olmadığını göstermesine rağmen hastanın aslında hastalığa sahip olduğu hatalı negatif sonuçlar
+- Testin hastanın hastalığa sahip olduğunu göstermesine rağmen hastanın, hastalığa sahip olmadığı hatalı pozitif sonuçlar.
+- Testin hastanın hastalığa sahip olmadığını göstermesine rağmen hastanın, aslında hastalığa sahip olduğu hatalı negatif sonuçlar.
 
 Elbette iki hata türü de istenmeyen sonuçlardır ancak hangisi daha kötüdür? Bu da duruma göre değişir. Hayati tehlike oluşturan ve hızlı tedavi gerektiren bir hastalıkta hatalı negatiflerin azaltılması (ve ek testlerin yapılması) önceliklidir. Daha az kritik durumlarda, modeli oluşturanlar bunun yerine hatalı pozitif durumları en aza düşürebilir. Her durumda, bu örnekten modelin kalitesini etkili bir şekilde belirlemek için doğruluk ölçümünün sağladığından daha fazla bilgiye sahip olmanız gerektiği sonucu çıkarılabilir.
 

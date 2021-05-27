@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 91f1963f2bbc01fc4d3a9282d6ac7705bc5287c2
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857285"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018843"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -158,7 +158,7 @@ Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalle
 
 ### <a name="dedicated"></a>Özel
 
-Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için [Android ve iOS'da POS hybrid uygulaması kurma](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
+Windows ve Android için Modern POS istemcileri ve **adanmış** veya yerleşik donanım istasyonları vardır. Bu istemciler, uygulamalara yerleşik iş mantığını kullanan çevre birimleri ile doğrudan iletişim kurabilir. Android uygulama yalnızca ağ aygıtlarını destekliyor. Android için Çevre birimi desteği hakkında daha fazla bilgi için [Android ve iOS'da POS hybrid uygulaması kurma](./dev-itpro/hybridapp.md) makalesini ziyaret edin.
 
 Adanmış donanım istasyonunu kullanmak için, Windows ve Android için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS 'u çekmece dışı modda başlatıp donanım istasyon yeteneklerini açmak için **donanım istasyonlarını yönetimi** işlemini kullanın, adanmış donanım istasyonu varsayılan olarak etkin olur. Daha sonra, Modern POS oturumunu kapatın, sonra yeniden oturum açın ve donanım profilinde yapılandırılan çevre birimleri kullanılabilir. 
 
@@ -199,7 +199,7 @@ Daha fazla bilgi için bkz. [Modern POS'u (MPOS) yapılandırma, yükleme ve etk
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Android ve iOS için Modern POS kurulumu ve yapılandırması
 
-Bilgi için bkz. [Android ve iOS'ta POS hybrid uygulamasını ayarlama](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Bilgi için bkz. [Android ve iOS'ta POS hybrid uygulamasını ayarlama](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS cihazı kurma ve yapılandırma
 
@@ -494,7 +494,7 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Android için Modern POS, IPC (yerleşik) donanım istasyonu ile
 
-**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için [Android ve iOS için POS hybrid uygulama kurulumu](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) makalesini ziyaret edin.
+**10.0.8 için yeni** - Epson ağ yazıcıları ve bu yazıcılara, DK bağlantı noktasıyla bağlı nakit çekmeenlerin şimdi Modern POS fo Android uygulaması için desteklenmektedir. Ayrıntılar için [Android ve iOS için POS hybrid uygulama kurulumu](./dev-itpro/hybridapp.md) makalesini ziyaret edin.
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
 
@@ -614,6 +614,9 @@ Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC 
 | Star         | TSP650II | Özel    | Ağ üzerinden bağlı   |
 | Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
 | HP           | F7M67AA  | OPOS      | Güç beslemeli USB             |
+
+> [!NOTE]
+> Star TSP 100 yazıcısı, yerleşik donanım istasyonu için desteklenmez. Yerleşik donanım istasyonu, mevcut Star TP 100 sürücüleriyle uyumlu olmayan 64-bit işlem kullanır. 
 
 #### <a name="bar-code-scanner"></a>Barkod tarayıcısı
 

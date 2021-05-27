@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 829c9c5549c337c5c2b118f3027111831f2632ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814308"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027806"
 ---
 # <a name="three-way-matching-policies"></a>Üç yönlü eşleştirme ilkeleri
 
@@ -37,9 +37,9 @@ Fabrikam, birden çok tüzel kişilikle ve dünyanın tüm bölgelerindeki çal�
 
 Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan kişilerin hedefleri karşılamasına yardımcı olur:
 
--   Ken, Fabrikam kurumunda denetleyicidir. Bu kuruluştaki kişilerin satıcılardan madde (mal veya hizmet) sipariş etme, alma ve ödeme yapmayla ilişkili sorunları belirlemesine ve düzeltmesine yardımcı olabilir.
+-   Ken, Fabrikam kurumunda denetleyicidir. Ken, bu kuruluştaki kişilerin satıcılardan madde (mal veya hizmet) sipariş etme, alma ve ödeme yapmayla ilişkili sorunları belirlemesine ve düzeltmesine yardımcı olabilir.
 -   Phyllis ve April Fabrikam'ın Amerika Birleşik Devletleri bölümündeki borç hesapları departmanında muhasebe yönetici olarak çalışmaktadır. Şirket ilkelerini uygulayarak faturalar için ödemelerin yalnızca faturalar satınalma siparişi ve uygun olduğunda mal ve hizmet girişleriyle eşleştirildikten sonra yapılmasını sağlayabilirler.
--   Tony, Fabrikam'ın Amerika Birleşik Devletleri bölümünde üretim müdürü olarak görev yapmaktadır. Kendisi ve diğer üretim personeli, ürünlerin satıcılardan sipariş edildiği şekilde alındığından ve muhasebeleştirildiğinden emin olarak personelin işlerini yapmak için gerekli olan araçlara sahip olmalarını sağlayabilirler.
+-   Tony, Fabrikam'ın Amerika Birleşik Devletleri bölümünde üretim müdürü olarak görev yapmaktadır. Tony, kendisi ve diğer üretim personeli, ürünlerin satıcılardan sipariş edildiği şekilde alındığından ve muhasebeleştirildiğinden emin olarak personelin işlerini yapmak için gerekli olan araçlara sahip olmalarını sağlayabilirler.
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -51,13 +51,13 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
     | Madde kodu                 | Miktar | Birim fiyat | Net tutar | Masraf kodu        | Masraf değeri |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron Makine | 5        | 8.000,00   | 40.000,00  | Sevkiyat ve ambalaj | 3.000,00      |
+    | 1500 – CNC Milicron Makine | 5        | 8.000,00   | 40.000,00  | Sevkiyat ve ambalaj | 3,000.00      |
 
 -   Contoso'da alacak hesapları görevlisi olan Arnie o haftayla ilgili sevkiyatları inceler. Arnie, CNC Milicron Makinelerinin teslimatı için Fabrikam'a faturalanacak sevkiyat hareketlerini seçer. Tamer, sevkiyat ve ambalaj için de bir ücret ekler. Fabrikam, bu gideri kıymet maliyetinin bir parçası olarak değerlendirecektir.
 
 ### <a name="scenario"></a>Senaryo
 
-1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
+1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Sammy, ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
     -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 Finance'te tanımlanan toleranslar dahilindedir. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
@@ -66,7 +66,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 
-| Madde                        | Miktar | Birim fiyat | Net tutar |
+| Ürün                        | Miktar | Birim fiyat | Net tutar |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron Makine | 5        | 8.100,00   | 40,500.00  |
 | Sevkiyat ve ambalaj       |          |            | 4,000.00   |
@@ -87,7 +87,7 @@ Bu satır fatura eşleştirme işlemini geçtiğinden, fatura deftere nakledileb
 Hacim ve tutarlar küçüktür ve Malezya'daki bazı satıcıların yaptıkları teslimatlarda sorunlar olmuştur. Bu nedenlerle Cassie, Malezya'da tedarik sağlayan belirli madde ve satıcı bileşenleri için denetim düzeyini üç yönlü eşleştirme olarak ayarlar. 
 
 Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan kişilerin hedefleri karşılamasına yardımcı olur:
--   Ken, Fabrikam kurumunda denetleyicidir. Bu kuruluştaki kişilerin satıcılardan madde (mal veya hizmet) sipariş etme, alma ve ödeme yapmayla ilişkili sorunları belirlemesine ve düzeltmesine yardımcı olabilir.
+-   Ken, Fabrikam kurumunda denetleyicidir. Ken, bu kuruluştaki kişilerin satıcılardan madde (mal veya hizmet) sipariş etme, alma ve ödeme yapmayla ilişkili sorunları belirlemesine ve düzeltmesine yardımcı olabilir.
 -   Cassie, Fabrikam Malezya bölümünde sayman olarak görev yapmaktadır. Şirket ilkelerini uygulayarak faturalar için ödemelerin yalnızca faturalar satınalma siparişi satırları ve mal ve hizmet alımını gösteren ürün girişleriyle eşleştirildikten sonra yapılmasını sağlayabilir. Ayrıca, operasyon maliyetlerini denetlemek amacıyla belirli maddeler için denetim düzeyini üç yönlü eşleştirmeye yükseltebilir.
 
 ### <a name="prerequisites"></a>Önkoşullar
@@ -115,7 +115,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 
-| Madde                  | Miktar | Birim fiyat | Net tutar |
+| Ürün                  | Miktar | Birim fiyat | Net tutar |
 |-----------------------|----------|------------|------------|
 | PH2500 – Bilgisayar     | 2        | 2,500,00   | 5.000,00   |
 | MM01 – Kablosuz Fare | 2        | 41.00      | 82.00      |

@@ -2,7 +2,6 @@
 title: Ölçü birimi ayarlarını uygulama
 description: Bu konu, ölçü birimlerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ta bunların nasıl uygulanacağını açıklar .
 author: anupamar-ms
-manager: annbe
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c5750ae506978dfac842eebf4ba6036322bdd7f
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: d1fba966434b80c9b64c1f4d9b6b87993d59c0bf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937626"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022386"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Ölçü birimi ayarlarını uygulama
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794031"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028167"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Serileştirilmiş ürünler için satış noktası (POS) geliştirmeleri
 
@@ -30,7 +30,7 @@ Commerce Headquarters'daki ayarlara dayanarak, ürünler seri veya seri değil o
 
 ## <a name="pos-improvements"></a>POS geliştirmeleri
 
-- **Seri numaraları ödemeye kadar gerekli değil** – Önceden, bir seri haldeki ürünü harekete ekleyen bir kasiyerin bir seri numarası eklemesi gerekiyordu. Bu gereksinim, kasiyerlerin up-sell yapma fırsatı olduğunda müşteri kayırma senaryoları söz konusu olduğunda bir sorun haline geldi. Ürünler, çoğu zaman sepette ödeme adımına kadar güncelleştiriliyordu. Bu nedenle, bir kasiyer her defasında yeni bir ürün eklediğinde, sistem ona seri numarası soruyordu. Seri numarası iletişim kutusu şimdi bir **Sonra ekle** düğmesi içeriyor. Bu nedenle, satış personeli maddeleri harekete ekleyebiliyor ancak seri numarasını sonra sağlayabiliyor. Satış sorumluları, sepette seri halde ürünleri hızlıca ekleyebilir ve değiştirebilir ve sonra seri numarasını ödemeden hemen önce sağlayabilir. Seri numarası herhangi bir seri haldeki ürün için sağlanmamışsa, hareketi tamamlamaya çalışan kasiyer bir hata iletisi alır. Bu mesaj, devam etmeden önce kasiyerin eksik seri numarasını girmesi gerektiğini belirtir.
+- **Seri numaraları ödemeye kadar gerekli değil** – Önceden, bir seri haldeki ürünü harekete ekleyen bir kasiyerin bir seri numarası eklemesi gerekiyordu. Bu gereksinim, kasiyerlerin up-sell yapma fırsatı olduğunda müşteri kayırma senaryoları söz konusu olduğunda bir sorun haline geldi. Ürünler, çoğu zaman sepette ödeme adımına kadar güncelleştiriliyordu. Bu nedenle, bir kasiyer her defasında yeni bir ürün eklediğinde, sistem kasiyere seri numarası soruyordu. Seri numarası iletişim kutusu şimdi bir **Sonra ekle** düğmesi içeriyor. Bu nedenle, satış personeli maddeleri harekete ekleyebiliyor ancak seri numarasını sonra sağlayabiliyor. Satış sorumluları, sepette seri halde ürünleri hızlıca ekleyebilir ve değiştirebilir ve sonra seri numarasını ödemeden hemen önce sağlayabilir. Seri numarası herhangi bir seri haldeki ürün için sağlanmamışsa, hareketi tamamlamaya çalışan kasiyer bir hata iletisi alır. Bu mesaj, kasiyere devam etmeden önce eksik seri numarasını girmesi gerektiğini belirtir.
 
     Seri numarasının atlandığı her bir seri haldeki ürün için bir yorum hareket satırının altında görüntülenir. Bu yorum, seri numarasının madde için sağlanmamış olduğunu belirtir. Bu nedenle, kasiyer seri numarası eksik ürünleri hızlıca bulabilir.
 

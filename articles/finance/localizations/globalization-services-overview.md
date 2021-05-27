@@ -2,7 +2,6 @@
 title: Dynamics 365 genelleştirme hizmetleri
 description: Bu konu, Microsoft Dynamics 365 genelleştirme hizmetlerine genel bir bakış sağlar.
 author: JaneA07
-manager: AnnBe
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8c6f3b7fb4dec0dffe55014e9e2d60620dc3b193
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ef942f7f6dac2c321a51800ade0bf25f2162304
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893060"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018819"
 ---
 # <a name="dynamics-365-globalization-services"></a>Dynamics 365 genelleştirme hizmetleri
 

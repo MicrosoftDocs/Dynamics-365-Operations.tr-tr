@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796900"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020663"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Müşteri sipairşleri için Çoklu malzeme çekme teslimat şekillerini etkinleştirme
 
@@ -82,7 +82,7 @@ Bir kanal için birden fazla malzeme çekme teslimat modu olduğunda, alacak ür
 
 ## <a name="considerations-for-distributed-order-management"></a>Dağıtılmış sipariş yönetimi için dikkate alınacaklar
 
-[Commerce'deki dağıtılmış sipariş yönetimi (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
+[Commerce'deki dağıtılmış sipariş yönetimi (DOM)](./dom.md) özellikleri mağaza malzeme çekme için işaretlenen tüm satış satırlarını dikkate almaz. Konfigüre edilmiş malzeme çekme teslimat modlarıyla bağlantılı satış satırlarının DOM mantığını atlayıp yeni bir karşılama ambarına yeniden tahsis edilmemesini sağlamak için bu özellikler güncelleştirilmiştir.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
