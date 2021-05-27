@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834608"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026217"
 ---
 # <a name="set-up-postdated-checks"></a>İleri tarih atılmış çekleri ayarlama
 
@@ -51,9 +51,13 @@ Bu yordamın rolü Haznedar'dır. Bu yordam, USMF demo şirketini kullanır.
     * Ödeme yönteminin mahsup hesabı bir banka olacaktır.  
 17. Ödeme hesabı alanında istediğiniz değerleri belirtin.
     * Fatura miktarının çekilmesi için kullanılacak banka hesabını seçin.  
-18. Kaydet'i tıklatın.
+18. Kaydet'e tıklayın.
 19. Sayfayı kapatın.
-
-
+> [!NOTE]
+> Oturum tarihi, vade tarihinden büyük veya bu tarihe eşit olduğunda, bir banka hesabına ileri tarihli bir çek nakledebilmek için, **Ödeme günlüğünü naklinin banka hesabına yatırılan ileri tarihli çeklerle vade tarihi doğrulaması** özelliğini etkinleştirmeniz gerekir. Bu özellik, oturum tarihi vade tarihine eşit veya bun tarihten büyük olduğunda satıcılar veya müşteriler için ödeme günlüklerini deftere nakletmenize olanak sağlar.
+> 
+> **Ödeme yöntemi**'ni ayarlarken ( **Borç hesapları > Ödeme kurulumu > Ödeme yöntemleri**), **Bağlantılı hesap** alanını doldurmayın. Bu durumda, mahsup hesap, **Ödeme yöntemi**'nde ayarlanan banka hesabıyla doldurulur.
+>  
+> Özellik etkinleştirildiğinde ve oturum tarihi vade tarihinden erken bir tarihteyse, ödeme günlüğü deftere nakledilirken şu hata iletisi görüntülenir: "Mahsup hesap türü Banka ise, vade tarihinin oturum tarihine eşit veya bu tarihten erken olması gerekir". Özellik etkinleştirilmemişse, oturum tarihi vade tarihinden erken olduğunda ödeme günlüğünü ileri tarihli bir çekle deftere nakledebilirsiniz.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

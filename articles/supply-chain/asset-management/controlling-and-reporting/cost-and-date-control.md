@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808676"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016167"
 ---
 # <a name="cost-and-date-control"></a>Maliyet ve tarih kontrolü
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-Kıymet yönetiminde, sabit kıymetler, işlevsel yerleşimler ve iş emirleriyle ilgili bütçe maliyetleriyle karşılaştırıldığında fiili maliyetlerin genel görünümünü elde etmek için maliyetleri hesaplayabilirsiniz. Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır. 
+Kıymet yönetiminde, sabit kıymetler, işlevsel yerleşimler ve iş emirleriyle ilgili bütçe maliyetleriyle karşılaştırıldığında fiili maliyetlerin genel görünümünü elde etmek için maliyetleri hesaplayabilirsiniz. Fiili maliyetler deftere nakledilen hareketleri temel alarak yapılır.
 
 Ayrıca, planlanan başlangıç ve bitiş tarihlerini çalışma emirlerindeki gerçek başlangıç ve bitiş tarihleriyle karşılaştırmak istiyorsanız, tarih hesaplaması da yapabilirsiniz.
 
@@ -46,8 +44,8 @@ Varlıklar, işlevsel yerleşimler ve çalışma emirleri için oluşturulan hes
 
 5. İşlem yapılacak yerleşimlerle ilgili olarak maliyet denetimi satırlarının ne kadar ayrıntılı olmasını istediğinizi belirtmek için **Düzey** alanını kullanabilirsiniz. 
 
-    Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim hiyerarşiniz varsa, işlem yapılacak yerleşim için tüm maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir. 
-    
+    Örneğin alana "1" değerini girerseniz ve çok düzeyli bir işlem yapılacak yerleşim hiyerarşiniz varsa, işlem yapılacak yerleşim için tüm maliyet denetimi satırları üst düzeyde gösterilir ve dolayısıyla bir satırdaki saatler, alt düzeyde bulunan işlem yapılacak yerleşimden eklenebilir.
+
     **Düzey** alanına "0" sayısını girerseniz ilişkili oldukları tüm işlem yapılacak yerleşim düzeyinde bulunan tüm maliyet denetimi satırlarını gösteren ayrıntılı bir sonuç görürsünüz.
 
 6. Bu sütunu hesaplamaya dahil etmek istiyorsanız **Açık taahhüt edilen maliyeti göster** değiştir düğmesini göster üzerinde "Evet" seçeneğini belirleyin.
@@ -64,7 +62,7 @@ Varlıklar, işlevsel yerleşimler ve çalışma emirleri için oluşturulan hes
 
 10. **Varlık maliyet denetimi** sayfasında, hesaplamanın gerekli ayrıntı düzeyini göstermek için **Gruplama ölçütü** düğmelerine tıklayın. Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
-## <a name="example"></a>Örnek
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Varlık maliyet denetiminde hesaplama sonuçları örneği
 
 Aşağıdaki ekran görüntüsü, **Varlık maliyet denetimi** içinde hesaplama sonuçlarının bir örneğini gösterir.
 
@@ -76,7 +74,6 @@ Aşağıdaki ekran görüntüsü, **Varlık maliyet denetimi** içinde hesaplama
 ![Varlık maliyet denetiminde örnek hesaplama sonuçları](media/02-controlling-and-reporting.png)
 
 Maliyet hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin varlıklar** içinde çoklu varlıkları seçmektir. Daha sonra, **genel** sekmesindeki **maliyet denetimi** düğmesini tıklatın. **Varlık maliyet denetimi** iletişim kutusunda, seçilen kıymetler hızlı sekme **dahil edilecek kayıtlar** içindeki **Varlık** alanına otomatik eklenir. **Tamam**'ı tıklattın ve seçilen varlıklar için bir maliyet hesaplaması gösterilir. Aynı işlem **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler** içindeki işlem yapılacak yerleşimler ve **Tüm iş emirleri** veya **Etkin iş emirleri** içindeki tüm iş emirleri için kullanılabilir.
-
 
 ## <a name="work-order-date-control"></a>İş emri tarih denetimi
 
@@ -94,7 +91,7 @@ Maliyet hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin 
 
 6. **Gruplandırma ölçütü** düğmelerine tıklayarak hesaplamanın gerekli ayrıntı düzeyini görüntüleyin. Seçilen **Gruplandırma ölçütü** düğmeleri vurgulanır. Etkinleştirmek veya devre dışı bırakmak için bir düğmeye tıklayın.
 
-## <a name="example"></a>Örnek
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>İş emri tarihi denetiminde hesaplama sonuçları örneği
 
 Aşağıdaki ekran görüntüsü, **İş emri tarih denetimi** içinde hesaplama sonuçlarının bir örneğini gösterir.
 

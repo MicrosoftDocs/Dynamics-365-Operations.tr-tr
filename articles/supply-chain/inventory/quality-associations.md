@@ -2,11 +2,9 @@
 title: Kalite ilişkileri
 description: Bu konu, satış, satınalma ve üretim süreçleriniz ile ilgili kalite emirlerini otomatik olarak oluşturmak için Microsoft Dynamics 365 Supply Chain Management'ta kalite ilişkilendirmelerini nasıl kullanabileceğinizi açıklamaktadır.
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f46f09dc9b67cfb04d0320a071c2c739266af58
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 6c6fab1b89b7e58d9e443c27da03a6b13afcc9c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956861"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022336"
 ---
 # <a name="quality-associations"></a>Kalite ilişkileri
 

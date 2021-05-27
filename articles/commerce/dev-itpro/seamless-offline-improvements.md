@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a8eda003e4cd4cf0d43bb07c93bd8d68a2fb9e57
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792969"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019969"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
 
@@ -52,8 +52,8 @@ Commerce parametreleri genellikle önbelleğe alınır. Bu nedenle, bu parametre
 
 ## <a name="related-topics"></a>İlgili konular
 
-- [Çevrimdışı satış noktası (POS) işlevleri](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
-- [Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+- [Çevrimdışı satış noktası (POS) işlevleri](../pos-offline-functionality.md)
+- [Çevrimiçi ve çevrimdışı satış noktası (POS) işlemleri](../pos-operations.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

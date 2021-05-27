@@ -2,11 +2,9 @@
 title: Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
 description: Bu konu, Microsoft Dynamics 365 Commerce ve Microsoft Teams tümleştirmesinin nasıl etkinleştirileceğini açıklamaktadır.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908407"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019847"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesini etkinleştirme
 
@@ -39,9 +37,9 @@ Microsoft Teams ve Commerce tümleştirmesini etkinleştirmeden önce, Teams uyg
 
 Teams uygulamasını kiracınızla Azure portalında kaydetmek için aşağıdaki adımları izleyin.
 
-1. Azure portalında kiracınız ile Teams uygulamasını kaydettirmek için [Hızlı Başlangıç: Microsoft Kimlik Platformunda bir uygulamayı kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) konusundaki adımları izleyin.
+1. Azure portalında kiracınız ile Teams uygulamasını kaydettirmek için [Hızlı Başlangıç: Microsoft Kimlik Platformunda bir uygulamayı kaydetme](/azure/active-directory/develop/quickstart-register-app) konusundaki adımları izleyin.
 1. Kayıtlı uygulama için **genel bakış** sayfasından **uygulama (istemci) Kimliği** değerini kopyalayın. Bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için kullanacaksınız.
-1. Adım 1'de [bir sertifika eklediğinizde](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) girilen sertifika değerini kopyalayın. Sertifika, ortak anahtar veya uygulama anahtarı olarak da bilinir. Bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için kullanacaksınız.
+1. Adım 1'de [bir sertifika eklediğinizde](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) girilen sertifika değerini kopyalayın. Sertifika, ortak anahtar veya uygulama anahtarı olarak da bilinir. Bu değeri Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için kullanacaksınız.
 
 Commerce Headquarters'da Teams tümleştirmesini etkinleştirmek için aşağıdaki adımları izleyin.
 

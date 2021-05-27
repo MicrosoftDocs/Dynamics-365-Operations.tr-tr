@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795657"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022743"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>POS'ta giden stok işlemi
 
@@ -71,7 +71,7 @@ Oluşturduğunuz toplu işler, başarısız olan veya zaman aşımına uğrayabi
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Önkoşul: POS ekran düzenine giden işlem Ekle
 
-Kuruluşunuzun giden operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) **giden operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
+Kuruluşunuzun giden operasyon işlevini kullanabilmesi için önce bir veya daha fazla [POS ekran mizanpajlarından](/dynamics365/unified-operations/retail/pos-screen-layouts) **giden operasyon** POS operasyonunu konfigüre etmelidir. Yeni operasyonu üretim ortamında dağıtmadan önce, bunu kapsamlı olarak test edin ve kullanıcılarınıza bunu kullanmaya eğittiğinizden emin olun.
 
 ## <a name="overview"></a>Genel Bakış
 

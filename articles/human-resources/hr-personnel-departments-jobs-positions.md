@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803597"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027902"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
 
@@ -120,7 +120,7 @@ Bir pozisyona işçi atadığınızda, o pozisyonu doldurmuş olursunuz. İşçi
 
 Pozisyonlar, bir organizasyon hiyerarşisinin alt düzeyi için önemli öğelerdir. Pozisyon formunda, bir pozisyonun rapor vereceği pozisyonu belirtebilirsiniz. Bir pozisyona başka bir pozisyona rapor veren bir işçi atadığınızda, iki pozisyona atanan işçiler arasında bir raporlama ilişkisi oluşturmuş olursunuz. Örneğin, "Muhasebeci A" pozisyonu "Muhasebe Gözetmeni" pozisyonuna rapor verir. Kim Akers "Muhasebe Gözetmeni" pozisyonuna atanmıştır ve Sanjay Patel "Muhasebeci A" pozisyonuna atanmıştır. Bu, Sanjay Patel'in Kim Akers'a rapor vereceği anlamına gelir. 
 
-Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz. Örneğin, Lori Penor Adventure Works'te genel müdürdür ve “Genel Müdür” pozisyonuna atanmıştır. Lori ıvır zıvır temizliğinde kullanılan bir ürünün geliştirilmesini yönetmektedir. Lori'nin ürünü geliştirmek için finans konusunda muhasebecinin yardımına ihtiyacı vardır. Bu nedenle, Sanjay Patel'i muhasebecisi olarak işe almıştır. Sanjay, doğrudan Kim Akers'a rapor vermektedir, ancak ıvır zıvır temizleyicisi geliştirme çalışmasının finansmanı konusunda Lori Penor ile birlikte de çalışır. 
+Organizasyonunuz bir matris hiyerarşisi veya başka bir özel hiyerarşi kullanıyorsa, pozisyon hiyerarşisi türleri ayarlayabilir ve ayarladığınız her bir hiyerarşi türü için pozisyonlara rapor ilişkileri ekleyebilirsiniz. Örneğin, Lori Penor Adventure Works'te genel müdürdür ve “Genel Müdür” pozisyonuna atanmıştır. Lori ıvır zıvır temizliğinde kullanılan bir ürünün geliştirilmesini yönetmektedir. Lori'nin ürünü geliştirmek için finans konusunda muhasebecinin yardımına ihtiyacı vardır. Bu nedenle, Sanjay Patel'i muhasebeci olarak işe almıştır. Sanjay, doğrudan Kim Akers'a rapor vermektedir, ancak ıvır zıvır temizleyicisi geliştirme çalışmasının finansmanı konusunda Lori Penor ile birlikte de çalışır. 
 
 Önceki örnek için, Sanjay Patel ve Lori Penor arasında iş ilişkisi oluşturacak aşağıdaki görevleri tamamlarsınız:
 1.  Ivır zıvır temizleme ürünü üzerinde çalışmaktan sorumlu olan pozisyonları içeren bir hiyerarşi yaratmak için "Ivır zıvır" adlı özel bir pozisyon hiyerarşisi türü oluşturun.
@@ -159,7 +159,7 @@ Bazı kayıtlar için, kayda ileride yapılacak değişiklikleri belirtebilirsin
 </tbody>
 </table>
 
-Önceki tabloda sözü edilen bilgileri bir pozisyona veya işe yönelik olarak değiştirebilir ve pozisyon veya işe yapılan değişikliklerin ne zaman geçerlilik kazanacağını belirtebilirsiniz. Örneğin, bir pozisyon yalnızca bir işçiye atanabilir ancak Muhasebe A pozisyonuna atanan Sanjay Patel iki hafta boyunca işte olmayacak. Sanjay Patel ayrıldığında, yerini Joe Healy alır. Sanjay hala kendi pozisyona atanmış olsa da, Joe Healy'i atamanın ancak Sanjay'ın son gününden sonra geçerli olacağı şekilde aynı pozisyona atayabilirsiniz.
+Önceki tabloda sözü edilen bilgileri bir pozisyona veya işe yönelik olarak değiştirebilir ve pozisyon veya işe yapılan değişikliklerin ne zaman geçerlilik kazanacağını belirtebilirsiniz. Örneğin, bir pozisyon yalnızca bir işçiye atanabilir ancak Muhasebe A pozisyonuna atanan Sanjay Patel iki hafta boyunca işte olmayacak. Sanjay Patel ayrıldığında, Sanjay'ın yerini Joe Healy alır. Sanjay hala kendi pozisyona atanmış olsa da, Joe Healy'i atamanın ancak Sanjay'ın son gününden sonra geçerli olacağı şekilde aynı pozisyona atayabilirsiniz.
 
 
 

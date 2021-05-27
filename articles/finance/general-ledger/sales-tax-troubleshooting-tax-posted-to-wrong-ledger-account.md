@@ -2,11 +2,9 @@
 title: Vergi, fişte yanlış genel muhasebe hesabına naklediliyor
 description: Bu konu, verginin fişteki yanlış genel muhasebe hesabına nakledilmesiyle ilgili sorun giderme bilgileri sağlar.
 author: qire
-manager: beya
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0404d71f0492e188ed5da62387bb90a336e69c5a
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947723"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020103"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Vergi, fişte yanlış genel muhasebe hesabına naklediliyor
 

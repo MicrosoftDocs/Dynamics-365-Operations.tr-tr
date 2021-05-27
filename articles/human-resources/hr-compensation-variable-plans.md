@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800891"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027782"
 ---
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
@@ -38,7 +38,7 @@ Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikrami
 
 ### <a name="describe-vesting-rules"></a>Hakediş ödeme kuralları tanımlama
 
-İsteğe bağlı olarak, şirketler **hakediş ödeme kuralları** oluşturabilir. Hakediş kuralları, değişken ikramiyenin zaman içerisinde nasıl ayrılacağını açıklar. Örneğin, bir hakediş ödeme kuralı, çalışanın kendi toplam ikramiyesinin yüzde 25'ini, sonraki dört yıl boyunca için alacağını belirtebilir. Hakediş ödeme kuralları yalnızca bilgilendirme amaçlıdır.
+İsteğe bağlı olarak, şirketler **hakediş ödeme kuralları** oluşturabilir. Hakediş kuralları, değişken ikramiyenin zaman içerisinde nasıl ayrılacağını açıklar. Örneğin, bir hakediş ödeme kuralı, çalışanın toplam ikramiyenin yüzde 25'ini, sonraki dört yıl boyunca için alacağını belirtebilir. Hakediş ödeme kuralları yalnızca bilgilendirme amaçlıdır.
 
 ## <a name="variable-compensation-plans"></a>Değişken maaş planları
 **Değişken ücret planı** kurallar, hesaplama yöntemleri ve kayıtlı çalışanlar için değişken ücret hesaplamasına ilişkin varsayılan değerleri içerir. Bir değişken ücret planı oluşturduğunuzda, değişken ücret türünü ayarlamanız gerekir. Değişken ücret türü, ikramiye olarak sistem para birimi tutarını mı yoksa birim sayısını mı ikramiye olarak hesaplayacağını belirler. Ayrıca, hesaplama yöntemini de ayarlamanız gerekir:
@@ -49,7 +49,7 @@ Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikrami
 Değişken ikramiye tutarı, çalışanın düzenli taban kazançlarına veya ayarlanan bir birim sayısına dayalı olabilir.
 
 -   Bir varsayılan yüzde girmek için **Taban yüzdesi** öğesini seçin ve tabanın çalışanın sabit ödeme oranımı mı, yoksa çalışanın ücret seviyesi için kontrol noktası mı olduğunu belirtin. Ücret düzeyi, personelin işinde ayarlanır. Ücret yapısından bir referans noktası, sabit ücret planında bir denetim noktası olarak ayarlanabilir. Sistem, personelin ücret seviyesi için denetim noktası tutarını bulmak için personelin işindeki ücret seviyesi kullanır ve bunu personelin sabit ücret planında listelenen denetim noktasıyla çapraz referanslar. Daha sonra, kontrol noktası tutarı tutar için temel olarak personelin sabit ödeme oranının yerine kullanılır.
--   Ücret planı nakit olmayan bir ikramiye (örneğin, 40 USD değerinde 200 birim hisse senedi) ise varsayılan birim sayısını, her bir birimin değerini ve birim değerinin para birimini girmek için **Birim sayısı** öğesini seçin veya ücret planı bir nakit ikramiye için ise sadece birim sayısını girin. Nakit ikramiye için personel, kendisinin sabit ücret planının para birimi cinsinden belirli sayıda birimi alacaktır (örneğin, 500 birim 1 USD). Bire bir ilişki denetimi, birim sayısı ve birim değeri arasında bire bir eşleşme olup olmadığını belirtmek üzere kullanılabilir. Nakit tabanlı bir plan için birim sayısı kullanarak bir değişken ücret planı oluşturursanız, bu seçenek otomatik biçimde **Evet** olarak sabitlenir ve birim değeri **1,0000**'dir.
+-   Ücret planı nakit olmayan bir ikramiye (örneğin, 40 USD değerinde 200 birim hisse senedi) ise varsayılan birim sayısını, her bir birimin değerini ve birim değerinin para birimini girmek için **Birim sayısı** öğesini seçin veya ücret planı bir nakit ikramiye için ise sadece birim sayısını girin. Nakit ikramiye için personel, sabit ücret planının para birimi cinsinden belirli sayıda birimi alacaktır (örneğin, 500 birim 1 USD). Bire bir ilişki denetimi, birim sayısı ve birim değeri arasında bire bir eşleşme olup olmadığını belirtmek üzere kullanılabilir. Nakit tabanlı bir plan için birim sayısı kullanarak bir değişken ücret planı oluşturursanız, bu seçenek otomatik biçimde **Evet** olarak sabitlenir ve birim değeri **1,0000**'dir.
 
 **İşe alma** kuralı ayarı, çalışanların işe alınma tarihinden (**İşe alma kuralı** = **Yok**) bağımsız olarak aynı artışı alıp almayacağını veya çalışanların döngü sırasında çalıştıkları süreye dayalı olarak bir ikramiye yüzdesi alıp almayacağını (**İşe alma kuralı** = **Yüzde**) belirlemenize izin verir. 
 

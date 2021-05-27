@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791090"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022484"
 ---
 # <a name="e-commerce-site-overview"></a>E-ticaret sitesine genel bakış
 
@@ -37,11 +37,11 @@ Dynamics 365 Commerce uygulamasında, ürünleri, fiyatları, dilleri, ödeme y�
 
 Dynamics 365 Commerce kullanmaya başlamadan önce yalnızca bir çevrimiçi mağaza kanalının kurulması yeterlidir. Ancak, tek e-ticaret sitesi birden çok çevrimiçi mağaza için çevrimiçi deneyim sağlayabilir. Örneğin, birden fazla çevrimiçi mağaza farklı coğrafi bölgeleri destekleyecek şekilde ayarlandıysa, her bir mağaza tarafından tanımlanan benzersiz deneyimleri sağlamak için tek bir e-ticaret sayfaları kümesi kullanılabilir. Birden çok çevrimiçi mağaza destekleyecek bir siteyi konfigüre etme hakkında daha fazla bilgi için, bkz. [Kanalla çevrimiçi site ilişkilendirme](associate-site-online-store.md).
 
-Çevrimiçi bir mağaza kurduktan sonra, çevrimiçi storefront işlevi görecek Dynamics 365 Commerce siteyle ilişkilendirilebilir. Çevrimiçi mağazalar ve bunların nasıl ayarlanacağı hakkında daha fazla bilgi için [Çevrimiçi mağazaları ayarla](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores)'ya bakın.
+Çevrimiçi bir mağaza kurduktan sonra, çevrimiçi storefront işlevi görecek Dynamics 365 Commerce siteyle ilişkilendirilebilir. Çevrimiçi mağazalar ve bunların nasıl ayarlanacağı hakkında daha fazla bilgi için [Çevrimiçi mağazaları ayarla](/dynamics365/unified-operations/retail/online-stores)'ya bakın.
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Yeni bir e-ticaret kiracısını dağıtma
 
-Bir e-ticaret sitesinin başlatılması sırasında, bir etki alanı adı istenir. Commerce etki alanları hakkında daha fazla bilgi için, bkz. [Etki alanı adınızı yapılandırın](configure-your-domain-name.md) ve [Dynamics 365 Commerce'teki etki alanları](domains-commerce.md). [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) kullanarak yeni bir e-ticaret kiracısı dağıtmak için [Yeni bir e-ticaret kiracısı dağıtma adımlarını izleyin ](deploy-ecommerce-site.md). E-ticaret kiracınız LCS'de ayarlandığında, Commerce Site Builder'a bir bağlantı sağlanır. Daha sonra, e-ticaret sitelerinizi başlatmak ve yapılandırmak için Commerce Site Builder 'ı kullanabilirsiniz.
+Bir e-ticaret sitesinin başlatılması sırasında, bir etki alanı adı istenir. Commerce etki alanları hakkında daha fazla bilgi için, bkz. [Etki alanı adınızı yapılandırın](configure-your-domain-name.md) ve [Dynamics 365 Commerce'teki etki alanları](domains-commerce.md). [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) kullanarak yeni bir e-ticaret kiracısı dağıtmak için [Yeni bir e-ticaret kiracısı dağıtma adımlarını izleyin ](deploy-ecommerce-site.md). E-ticaret kiracınız LCS'de ayarlandığında, Commerce Site Builder'a bir bağlantı sağlanır. Daha sonra, e-ticaret sitelerinizi başlatmak ve yapılandırmak için Commerce Site Builder 'ı kullanabilirsiniz.
 
 ## <a name="initialize-your-e-commerce-site"></a>E-ticaret sitenizi başlatma
 

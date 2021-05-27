@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794008"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018592"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Commerce'ta B2C kiracısı ayarlama
 
@@ -30,7 +30,7 @@ Bu konu, Dynamics 365 Commerce'ta kullanıcı sitesi kimlik doğrulaması için 
 Dynamics 365 Commerce, kullanıcı kimlik bilgileri ve kimlik doğrulama akışlarını desteklemek için Azure AD B2C kullanır. Kullanıcı, bu akışlar aracılığıyla kaydolabilir, oturum açabilir ve parolasını sıfırlayabilir. Azure AD B2C kullanıcının hassas kimlik doğrulama bilgilerini (örneğin, kullanıcı adı ve parolası) depolar. B2C kiracısındaki kullanıcı kaydı, bir B2C yerel hesap kaydını ya da B2C sosyal kimlik sağlayıcısı kaydını depolar. Bu B2C kayıtları Commerce ortamındaki müşteri kaydına geri bağlantı sağlar.
 
 > [!WARNING] 
-> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Commerce sürüm 10.0.15 veya üzeri için modül kitaplığı önerilen B2C Kullanıcı akışlarıyla kullanılmalıdır. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
+> Azure AD B2C, 1 Ağustos 2021'den itibaren eski Kullanıcı akışlarını devre dışı bırakıyor. Bu nedenle, Kullanıcı akışlarınızı önerilen yeni sürüme geçirmeyi planlamalısınız. Yeni sürüm, özellik eşliği ve yeni özellikler sağlar. Commerce sürüm 10.0.15 veya üzeri için modül kitaplığı önerilen B2C Kullanıcı akışlarıyla kullanılmalıdır. Daha fazla bilgi için, [Azure Active Directory B2C'deki Kullanıcı akışları](/azure/active-directory-b2c/user-flow-overview) konusuna bakın.
  
  > [!NOTE]
  > Commerce değerlendirme ortamları Gösterim amacıyla önceden yüklenmiş bir Azure AD B2C kiracısı ile gelir. Aşağıdaki adımları kullanarak kendi Azure AD B2C kiracınızı yüklemek, değerlendirme ortamları için gerekli değildir.
@@ -88,7 +88,7 @@ B2C uygulaması oluşturmak için şu adımları izleyin.
 1. **Örtük onay** altında, uygulama için bunları etkinleştirmek üzere hem **erişim belirteçlerini** hem de **kimlik belirteçlerini** seçin. **Kaydet**'i seçin.
 1. Azure Portal'ın **Genel bakış** menüsüne gidin ve **uygulama (istemci) kimliğini** kopyalayın. Sonraki kurulum adımları için bu ID'yi not edin (ileride **istemci GUID** olarak başvurulur).
 
-Azure AD B2C'deki uygulama kayıtları hakkında ek bilgi için, lütfen [Azure Active Directory B2C için yeni uygulama kayıtları deneyimine bakın](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide)
+Azure AD B2C'deki uygulama kayıtları hakkında ek bilgi için, lütfen [Azure Active Directory B2C için yeni uygulama kayıtları deneyimine bakın](/azure/active-directory-b2c/app-registrations-training-guide)
 
 ### <a name="reply-urls"></a>Yanıt URL'leri
 
@@ -110,7 +110,7 @@ Azure AD B2C üç temel kullanıcı akışı türü sağlar:
 
 Azure AD tarafından sağlanan varsayılan kullanıcı akışlarını kullanmayı seçebilirsiniz; bu durumda AAD B2C tarafından barındırılan sayfa görüntülenir. Alternatif olarak, bu kullanıcı akış deneyimlerinin görünümünü ve hissini denetlemek için bir HTML sayfası oluşturabilirsiniz. 
 
-Kullanıcı ilkesi sayfalarını Dynamics 365 Commerce'te oluşturulan sayfalarla özelleştirmek için bkz. [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md). Ek bilgi için bkz. [Azure Active Directory B2C'de kullanıcı arabirimi deneyimlerini özelleştirme](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Kullanıcı ilkesi sayfalarını Dynamics 365 Commerce'te oluşturulan sayfalarla özelleştirmek için bkz. [Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama](custom-pages-user-logins.md). Ek bilgi için bkz. [Azure Active Directory B2C'de kullanıcı arabirimi deneyimlerini özelleştirme](/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Kullanıcı akış ilkesinde kaydolma ve oturum açma oluşturma
 
@@ -197,15 +197,15 @@ Sosyal kimlik sağlayıcı kimlik doğrulaması eklenir ve kullanıcı sunulan s
 
 Kimlik doğrulama için bir sosyal kimlik sağlayıcısı eklemeden önce, kimlik sağlayıcının portalına gitmeniz ve Azure AD B2C belgelerinde belirtildiği gibi bir kimlik sağlayıcı uygulaması ayarlamanız gerekir. Belge bağlantılarının listesi aşağıda verilmiştir.
 
-- [Amazon](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
-- [Azure AD (Tek Kiracı)](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
-- [Microsoft Hesabı](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
-- [Facebook](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
-- [GitHub](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
-- [Google](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
-- [LinkedIn](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
-- [OpenID Connect](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
-- [Twitter](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
+- [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
+- [Azure AD (Tek Kiracı)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
+- [Microsoft Hesabı](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app)
+- [Facebook](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+- [GitHub](/azure/active-directory-b2c/active-directory-b2c-setup-github-app)
+- [Google](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app)
+- [LinkedIn](/azure/active-directory-b2c/active-directory-b2c-setup-li-app)
+- [OpenID Connect](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-idp)
+- [Twitter](/azure/active-directory-b2c/active-directory-b2c-setup-twitter-app)
 
 ### <a name="add-and-set-up-a-social-identity-provider"></a>Sosyal kimlik sağlayıcı ekleme ve ayarlama
 
@@ -346,11 +346,11 @@ B2C uygulamasını sitenizle ve kanalınızla ilişkilendirmek için şu adımla
 
 Müşteri kayıtlarını önceki bir kimlik sağlayıcı platformundan geçirmeyi düşünüyorsanız, lütfen müşteri geçiş gereksinimlerinizi gözden geçirmek için Dynamics 365 Commerce ekibiyle birlikte çalışın.
 
-Müşteri geçisindeki ek Azure AD B2C belgeleri için bkz. [Kullanıcıları Azure Active Directory B2C'ye geçirme](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-user-migration).
+Müşteri geçisindeki ek Azure AD B2C belgeleri için bkz. [Kullanıcıları Azure Active Directory B2C'ye geçirme](/azure/active-directory-b2c/active-directory-b2c-user-migration).
 
 ### <a name="custom-policies"></a>Özel ilkeler
 
-Azure AD B2C etkileşimlerini ve ilke akışlarını standart B2C ilkeleriyle sunulandan daha fazla özelleştirme hakkında ek bilgi için bkz. [Azure Active Directory'deki özel ilkeler](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
+Azure AD B2C etkileşimlerini ve ilke akışlarını standart B2C ilkeleriyle sunulandan daha fazla özelleştirme hakkında ek bilgi için bkz. [Azure Active Directory'deki özel ilkeler](/azure/active-directory-b2c/active-directory-b2c-overview-custom). 
 
 ### <a name="secondary-admin"></a>İkincil yönetici
 

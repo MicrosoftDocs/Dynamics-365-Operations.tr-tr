@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 64106cb1aeea01f1f227247d32b8b1dfdea98362
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793885"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020207"
 ---
 # <a name="commerce-inventory-management"></a>Commerce stok yönetimi
 
@@ -39,11 +39,11 @@ CSU üzerinde çalışan Commerce uygulamaları aşağıdaki izleme boyutların�
 
 - Satış noktası (POS) uygulaması aşağıdaki boyutlar için sınırlı destek sunabilir. POS, ambar veya mağaza kurulumunun konfigürasyonunu temel alarak stok hareketlerindeki boyutların bir kısmını otomatik olarak girebilir. Ancak POS, bir satış hareketi Commerce Headquars'a el ile girilirse, boyutları desteklenme biçiminde tam olarak desteklemez. 
 
-- **Ambar Yerleşimi**: Kullanıcılar, yeni POS işlemleri [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) ve [Giden işlem](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)'i kullandıklarında gelen maddelerin alınacağı veya giden transfer emirli maddelerin sevk edileceği bir depo stok yerleşimini seçebilirler. Eski **Malzeme çekme ve teslim alma** işlemini kullanırlarsa giden transferlerin giriş ve sevkiyatları için sınırlı yerleşim yönetimi desteği alabilirler. Bu destek yalnızca madde ve mağaza ambarı için **Ambar yönetimi sürecini kullan** seçeneği etkinleştirilmişse kullanılabilir. Şu anda bir stok yerleşimi, **Stok sayımı** işlemi veya **Stok arama** işlemi ile kullanılamaz.
+- **Ambar Yerleşimi**: Kullanıcılar, yeni POS işlemleri [Gelen işlem](./pos-inbound-inventory-operation.md) ve [Giden işlem](./pos-outbound-inventory-operation.md)'i kullandıklarında gelen maddelerin alınacağı veya giden transfer emirli maddelerin sevk edileceği bir depo stok yerleşimini seçebilirler. Eski **Malzeme çekme ve teslim alma** işlemini kullanırlarsa giden transferlerin giriş ve sevkiyatları için sınırlı yerleşim yönetimi desteği alabilirler. Bu destek yalnızca madde ve mağaza ambarı için **Ambar yönetimi sürecini kullan** seçeneği etkinleştirilmişse kullanılabilir. Şu anda bir stok yerleşimi, **Stok sayımı** işlemi veya **Stok arama** işlemi ile kullanılamaz.
 
-- **Plaka**: Plakalar yalnızca **Ambar yönetimi sürecini kullan** seçeneği madde ve mağaza ambarında etkinleştirilmişse uygulanır. POS'ta stok, **Gelen işlem** veya ambar yönetimi işlemi etkinleştirilmişse **Malzeme çekme ve teslim alma** işlemi kullanılarak bir mağaza ambarına alınırsa ve maddeyi teslim almak için seçilen yerleşim, plaka denetimi gerektiren bir yerleşim profiline bağlıysa POS uygulaması, bir plakayı teslim alma satırına sistematik olarak uygular. POS kullanıcıları bu plaka verilerini değiştiremez veya yönetemez. Plakaların tam yönetimi gerekiyorsa mağazanın bu maddelerin girişini yönetmek için [ambarlama uygulaması](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) veya arka ofis istemcisi kullanmasını öneririz.
+- **Plaka**: Plakalar yalnızca **Ambar yönetimi sürecini kullan** seçeneği madde ve mağaza ambarında etkinleştirilmişse uygulanır. POS'ta stok, **Gelen işlem** veya ambar yönetimi işlemi etkinleştirilmişse **Malzeme çekme ve teslim alma** işlemi kullanılarak bir mağaza ambarına alınırsa ve maddeyi teslim almak için seçilen yerleşim, plaka denetimi gerektiren bir yerleşim profiline bağlıysa POS uygulaması, bir plakayı teslim alma satırına sistematik olarak uygular. POS kullanıcıları bu plaka verilerini değiştiremez veya yönetemez. Plakaların tam yönetimi gerekiyorsa mağazanın bu maddelerin girişini yönetmek için [ambarlama uygulaması](../supply-chain/warehousing/install-configure-warehousing-app.md) veya arka ofis istemcisi kullanmasını öneririz.
 
-- **Seri numarası**: POS uygulaması, POS'ta oluşturulan ve serileştirilmiş maddeler içeren siparişlerin bir satış hareketi satırına kaydedilmesi için sınırlı destek sağlar. Bu seri numarası, zaten stokta bulunan kayıtlı seri numaraları ile doğrulanamaz. Bir satış siparişi, çağrı merkezi kanalında oluşturulursa veya kurumsal kaynak planlama (ERP) aracılığıyla karşılanırsa ve çoklu seri numaraları ERP'de karşılama işlemi sırasında tek bir satış satırına kaydedilirse POS'ta sipariş için iade işlemi gerçekleştiğinde bu seri numaraları uygulanamaz veya doğrulanamaz. **Gelen işlem** işlemi kullanılarak stok girişi yapıldığında kullanıcılar [alınan seri numaralarını kaydedebilir veya onaylayabilir](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Seri numarası**: POS uygulaması, POS'ta oluşturulan ve serileştirilmiş maddeler içeren siparişlerin bir satış hareketi satırına kaydedilmesi için sınırlı destek sağlar. Bu seri numarası, zaten stokta bulunan kayıtlı seri numaraları ile doğrulanamaz. Bir satış siparişi, çağrı merkezi kanalında oluşturulursa veya kurumsal kaynak planlama (ERP) aracılığıyla karşılanırsa ve çoklu seri numaraları ERP'de karşılama işlemi sırasında tek bir satış satırına kaydedilirse POS'ta sipariş için iade işlemi gerçekleştiğinde bu seri numaraları uygulanamaz veya doğrulanamaz. **Gelen işlem** işlemi kullanılarak stok girişi yapıldığında kullanıcılar [alınan seri numaralarını kaydedebilir veya onaylayabilir](./pos-serialized-items.md).
 
 - **Toplu İş Kimliği**: Toplu iş denetimli bir madde satılırsa, POS uygulaması ekstre deftere nakli sırasında sınırlı destek sağlar ancak POS kullanıcıları POS uygulamasını kullanırken satılan veya seçilen toplu iş kimliği tanımlayamaz.
 
@@ -56,11 +56,11 @@ CSU üzerinde çalışan Commerce uygulamaları aşağıdaki izleme boyutların�
 
 ## <a name="purchase-orders"></a>Satın alma siparişleri
 
-Satınalma siparişleri Commerce Headquarters'da oluşturulur. Mağaza ambarı satınalma siparişi başlığına veya satınalma siparişi satırlarına dahil edilmişse satırlar POS'ta, [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) işlemi kullanılarak mağazadan teslim alınabilir. 
+Satınalma siparişleri Commerce Headquarters'da oluşturulur. Mağaza ambarı satınalma siparişi başlığına veya satınalma siparişi satırlarına dahil edilmişse satırlar POS'ta, [Gelen işlem](./pos-inbound-inventory-operation.md) işlemi kullanılarak mağazadan teslim alınabilir. 
 
 ## <a name="transfer-orders"></a>Transfer emirleri
 
-Transfer emirleri, Commerce Headquarters'da veya POS'ta [Gelen işlem](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) veya [Giden işlem](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) işlemi aracılığıyla oluşturulabilir. Stokun başka bir ambar veya mağaza yerleşiminden mağazaya gönderilmesi için bir transfer emri isteği oluşturmak üzere **Gelen işlem** POS işlemini kullanın. Stokun, mağazadan başka bir ambar veya mağaza yerleşimine gönderilmesi için bir transfer emri isteği oluşturmak üzere **Giden işlem** POS işlemini kullanın. Mağaza için bir transfer emri oluşturulduktan sonra bu mağaza, POS'taki **Gelen işlem** işlemi aracılığıyla oluşturulan transfer emri için stok girişini yönetebilir. Mağaza, stoku başka bir yerleşime gönderiyorsa söz konusu mağazanın giden sevkiyat işlemini yönetmek için POS'taki **Giden işlem** işlemi kullanılır.
+Transfer emirleri, Commerce Headquarters'da veya POS'ta [Gelen işlem](./pos-inbound-inventory-operation.md) veya [Giden işlem](./pos-outbound-inventory-operation.md) işlemi aracılığıyla oluşturulabilir. Stokun başka bir ambar veya mağaza yerleşiminden mağazaya gönderilmesi için bir transfer emri isteği oluşturmak üzere **Gelen işlem** POS işlemini kullanın. Stokun, mağazadan başka bir ambar veya mağaza yerleşimine gönderilmesi için bir transfer emri isteği oluşturmak üzere **Giden işlem** POS işlemini kullanın. Mağaza için bir transfer emri oluşturulduktan sonra bu mağaza, POS'taki **Gelen işlem** işlemi aracılığıyla oluşturulan transfer emri için stok girişini yönetebilir. Mağaza, stoku başka bir yerleşime gönderiyorsa söz konusu mağazanın giden sevkiyat işlemini yönetmek için POS'taki **Giden işlem** işlemi kullanılır.
 
 ## <a name="stock-counts"></a>Stok sayımları
 
@@ -68,7 +68,7 @@ Stok sayımları zamanlanmış veya zamanlanmamış olabilir. Planlı stok sayı
 
 ## <a name="inventory-lookup"></a>Stok arama
 
-Çok sayıda mağaza ve ambar için geçerli olan eldeki ürün miktarı, **Stok arama** sayfasından görüntülenebilir. Geçerli eldeki miktara ek olarak gelecekte karşılanabilir (ATP) miktarlar, her bir mağaza için tek tek görüntülenebilir. ATP miktarlarını görmek için mağaza seçin ve ardından **Mağaza kullanılabilirliğini göster**'i seçin. Kullanılabilir yapılandırma seçenekleri hakkında bilgi için bkz. [Perakende kanalları için stok kullanılabilirliğini hesaplama](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+Çok sayıda mağaza ve ambar için geçerli olan eldeki ürün miktarı, **Stok arama** sayfasından görüntülenebilir. Geçerli eldeki miktara ek olarak gelecekte karşılanabilir (ATP) miktarlar, her bir mağaza için tek tek görüntülenebilir. ATP miktarlarını görmek için mağaza seçin ve ardından **Mağaza kullanılabilirliğini göster**'i seçin. Kullanılabilir yapılandırma seçenekleri hakkında bilgi için bkz. [Perakende kanalları için stok kullanılabilirliğini hesaplama](./calculated-inventory-retail-channels.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

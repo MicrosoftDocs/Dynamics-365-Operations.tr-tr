@@ -2,11 +2,9 @@
 title: Kalite emirleri
 description: Bu konuda, kalite emirlerinin el ile veya otomatik olarak nasıl oluşturulacağı ve incelemeler gerçekleştirmek ve Microsoft Dynamics 365 Supply Chain Management'ta test sonuçlarını kaydetmek için bunlarla nasıl çalışılacağı açıklanmaktadır.
 author: perlynne
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQualityOrderTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c951716a456101ba753e5c567c80deb4ee7e764f
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 964f8a37ac9471b2eb6c9ec01fc0322a43cfea11
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956871"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022192"
 ---
 # <a name="quality-orders"></a>Kalite emirleri
 

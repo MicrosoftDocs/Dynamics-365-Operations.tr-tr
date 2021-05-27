@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842069"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016968"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Ürün yaşam döngüsü durumu ve hareketler
 
@@ -74,5 +74,24 @@ Mevcut iş süreçlerinin hangilerinin geçerli yaşam döngüsü durumundaki ü
 
 Daha fazla yaşam döngüsü durumu kuralını özelleştirme olarak ekliyorsanız üst bölmede **Süreçleri yenile**'yi seçerek bu kuralları kullanıcı arabiriminde (UI) görüntüleyebilirsiniz. **Süreçleri yenile** düğmesi yalnızca yöneticiler tarafından kullanılabilir.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Serbest bırakılmış ürünler ve ürün çeşitleri için yaşam döngüsü durumları
+
+Çeşitleri (ana ürün ve çeşitler) olan bir ürün için, ürün (ana) bir yaşam döngüsü durumuna sahip olacaktır ve her ürün çeşidinin farklı bir yaşam döngüsü durumuna sahip olabilir.
+
+Ürün çeşidi veya ürün durdurulmuşsa, belirli işlemler için de bu işlem engellenir. Özellikle bir işlemin durdurulup durdurulmadığını belirlemek için, sistem aşağıdaki denetimleri yapar:
+
+- Mühendislik denetimli ürünler için:
+  - Geçerli mühendislik sürümü durdurulmuşsa, işlemi durdurun.
+  - Geçerli ürün çeşidi durdurulmuşsa, işlemi durdurun.
+  - Serbest bırakılmış ürün durdurulmuşsa, işlemi durdurun.
+- Standart ürünler için:
+  - Geçerli ürün çeşidi durdurulmuşsa, işlemi durdurun.
+  - Serbest bırakılmış ürün durdurulmuşsa, işlemi durdurun.
+
+Örneğin, yalnızca belirli bir ürünün (tişört) tek bir çeşidini (kırmızı) satmak istediğinizi, diğer tüm çeşitlerin satışlarını şimdilik durdurduğunuzu varsayalım. Bunu, aşağıdaki ayar ile uygulayabilirsiniz:
+
+- Ürüne, işleme izin veren bir yaşam döngüsü durumu atayın. Örneğin, tişört ürününe, *Satış siparişi* iş işlemine olanak tanıyan *Satılabilir* yaşam döngüsü durumunu atayın.
+- Satılabilir çeşide, işleme izin veren bir yaşam döngüsü durumu atayın. Örneğin, kırmızı çeşidine *Satılabilir* yaşam döngüsü durumunu atayın.
+- Diğer tüm çeşitlere, işlemin durdurulduğu başka bir yaşam döngüsü durumu atanır. Örneğin, beyaz çeşidine (ve diğer tüm çeşitlere), *Satış siparişi* iş sürecini durduran *Satılamaz* yaşam döngüsü durumu atanır.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

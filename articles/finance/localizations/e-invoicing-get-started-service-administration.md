@@ -2,7 +2,7 @@
 title: Elektronik faturalama hizmet yönetimini kullanmaya başlama
 description: Bu konu, elektronik faturalamayı kullanmaya nasıl başlayacağınızı açıklar.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840160"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980988"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektronik faturalama hizmet yönetimini kullanmaya başlama
 
@@ -33,10 +33,10 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 - Microsoft Dynamics Lifecycle Services (LCS) hesabınıza erişiminiz olmalıdır.
 - Microsoft Dynamics 365 Finance ve Dynamics 365 Supply Chain Management'ın 10.0.17 veya sonraki sürümünü içeren bir LCS projeniz olmalıdır. Ayrıca, bu uygulamaların aşağıdaki Azure coğrafyalarından birinde dağıtılması gerekir:
 
-    - Doğu ABD
-    - Batı ABD
-    - Kuzey AB
-    - Batı AB
+    - Amerika Birleşik Devletleri
+    - Avrupa
+    - Birleşik Krallık
+    - Asya
 
 - Dynamics 365 Regulatory Configuration Services (RCS) hesabınıza erişiminiz olmalıdır.
 - Özellik yönetiminde RCS hesabınız için Globalleştirme özelliğini etkinleştirmeniz gerekir. Daha fazla bilgi için bkz. [Regulatory Configuration Services (RCS) - Globalleştirme özellikleri](rcs-globalization-feature.md).
@@ -46,11 +46,12 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 1. LCS hesabınızda oturum açın.
 2. **Önizleme özelliği yönetimi** kutucuğunu seçin.
-3. **Genel Önizleme Özellikleri** bölümünde, **e-Faturalama hizmeti**'ni seçin.
+3. **Genel Önizleme Özellikleri** bölümünde, **Elektronik Faturalama**'yı seçin.
 4. **Önizleme özelliği etkin** seçeneğinin **Evet** olarak ayarlanmış olduğundan emin olun.
-5. LCS panonuzda, LCS dağıtım projenizi seçin. LCS projesi çalışıyor olmalıdır.
-7. **Ortam eklentileri** sekmesinde, **Yeni eklenti yükle**'yi seçin.
-8. **E-faturalama hizmetlerini** seçin.
+5. LCS proje panonuzda, bir LCS dağıtım projesi seçin.
+6. LCS projesinde, LCS ortam panosunda, LCS dağıtım projenizi seçin. LCS dağıtım projesi çalışıyor olmalıdır.
+7. **Power Platform Tümleştirme** sekmesinde, **Ortam eklentileri** alan grubunda, **Yeni eklenti yükle**'yi seçin.
+8. **Elektronik Faturalama**'yı seçin.
 9. **AAD uygulama kodu** alanına şunu girin: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Bu sabit bir değerdir.
 10. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin.
 11. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
@@ -65,10 +66,10 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
     | Veri merkezi Azure coğrafyası | Hizmet uç noktası URI'si                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Doğu ABD                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Batı ABD                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Kuzey AB                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Batı AB                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Amerika Birleşik Devletleri              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Avrupa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Birleşik Krallık             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Asya                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. **Uygulama Kimliği** alanının **0cdb527f-a8d1-4bf8-9436-b352c68682b2** olarak ayarlı olduğunu doğrulayın. Bu değer sabit bir değerdir.
 5. **LCS Ortam Kimliği** alanına LCS ortamınızın kimliğini girin.
@@ -152,12 +153,12 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 1. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
 2. **Gönderim hizmeti** sekmesinde, **Hizmet uç noktası URL**'si alanına, aşağıdaki tabloda gösterildiği gibi Azure coğrafyanız için uygun hizmet uç noktasını girin.
 
-    | Veri merkezi Azure coğrafyası | Hizmet uç noktası URL'si                                                       |
+    | Veri merkezi Azure coğrafyası | Hizmet uç noktası URI'si                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | Doğu ABD                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | Batı ABD                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Kuzey AB                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Batı AB                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Amerika Birleşik Devletleri              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Avrupa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Birleşik Krallık             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Asya                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. **Ortam** alanına Elektronik faturalamada yayınlanan hizmet ortamının adını girin.
 4. **Kaydet**'i seçip sayfayı kapatın.

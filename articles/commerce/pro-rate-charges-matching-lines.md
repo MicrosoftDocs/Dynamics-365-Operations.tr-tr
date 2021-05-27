@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791066"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018618"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791066"
 
 Bu konu, başlık düzeyi otomatik masrafları gruplandırmayı ve bunları ticaret satış satırlarına eşit dağıtmak için özelliği açıklar. Bu özellik, Retail sürüm 10.0.1 içinde satış noktası (POS) içerisinde ve Retail sürüm 10.0.2 içinde çağrı merkezinde oluşturulmuş hareketler için kullanılabilirdir.
 
-Bu özellik, yalnızca [gelişmiş otomatik masraflar](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) özelliği, **Commerce parametreleri** sayfasındaki seçenek kullanılarak açılmışsa kullanılabilirdir. Ek olarak, otomatik giderler için gelişmiş hesaplama yöntemi, yalnızca ticaret kanalları aracılığıyla oluşturulmuş (POS, çağrı merkezi ve Dynamics e-Ticaret platformu) ticaret satış siparişlerine uygulanabilir.
+Bu özellik, yalnızca [gelişmiş otomatik masraflar](/dynamics365/unified-operations/retail/omni-auto-charges) özelliği, **Commerce parametreleri** sayfasındaki seçenek kullanılarak açılmışsa kullanılabilirdir. Ek olarak, otomatik giderler için gelişmiş hesaplama yöntemi, yalnızca ticaret kanalları aracılığıyla oluşturulmuş (POS, çağrı merkezi ve Dynamics e-Ticaret platformu) ticaret satış siparişlerine uygulanabilir.
 
 Bu yeni özellik, başlık düzeyi otomatik masrafların hesaplanmasına ve satış hareketlerine uygulanmasında kuruluşlara daha fazla esneklik verir.
 
@@ -38,7 +38,7 @@ Sürüm 10.0.1'den önceki uygulama sürümlerinde, belirli bir teslimat modu il
 
 Örneğin, başlık düzeyi otomatik masraflar, teslimat modu **99** ve teslimat modu **11** için tanımlanmıştır. Bir satış siparişi oluşturulur ve teslimat modu **99**, sipariş başlığında tanımlanır. Ancak, satış satırlarının bazıları, teslimat modu **11** kullanılarak sevk edilmek üzere ayarlanmıştır. Bu durumda, yalnızca teslimat modu **99** ile bağlantılı başlık düzeyi masrafları dikkate alınır ve satış siparişine uygulanır.
 
-Commerce içinde, başlık düzeyi masrafları, bir [katmanlı masraf yapılandırması](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) tanımlamanıza izin veren ek bir özelliğe sahiptir. Örneğin, sipariş değeri 50,00 $ ve 200,00 $ arasındaysa, bir kuruluş 5,00 $ tutarında navlun gideri isteyebilir. Ancak, siparişin değeri 200,01 $ ve 500,00 $ arasındaysa, navlun ücreti 4,00 $ olabilir.
+Commerce içinde, başlık düzeyi masrafları, bir [katmanlı masraf yapılandırması](/dynamics365/unified-operations/retail/configure-call-center-delivery) tanımlamanıza izin veren ek bir özelliğe sahiptir. Örneğin, sipariş değeri 50,00 $ ve 200,00 $ arasındaysa, bir kuruluş 5,00 $ tutarında navlun gideri isteyebilir. Ancak, siparişin değeri 200,01 $ ve 500,00 $ arasındaysa, navlun ücreti 4,00 $ olabilir.
 
 Bazı kuruluşlar, başlık düzeyi masraflarla sağlanan katmanlı masraf hesaplamasından faydalanmak ister. Ancak, karma teslimat modları içeren bazı senaryolarda, hesaplanan masrafların her bir satış satırında tanımlanmış teslimat modu ile eşleşmeye dayanmasını da temin etmek isterler.
 
@@ -72,7 +72,7 @@ Bir satış siparişi çağrı merkezinde oluşturulur ve teslimat modu **99** o
 
 Bu senaryoda, siparişin tamamı teslimat modu **99** için otomatik masraf tablosuna karşı değerlendirilir. Tüm satış satırlarının son toplamı, otomatik masraf yapılandırmasında eşleşen bir katmanı belirlemek için kullanılır ve bu masraf sipariş başlığı düzeyinde uygulanır. Bu örnekte, sipariş toplamı 165,00 $ tutarındadır ve 15,00 $ navlun masrafı sipariş başlığına uygulanır. Teslimat modu **11** için yapılandırılan otomatik masraflara hiçbir zaman başvurulmaz veya uygulanmaz.
 
-Bu senaryoda, bir müşteri siparişteki bazı öğeleri iade ederse ve [iade edileceği şekilde masraf kodu yapılandırılmışsa](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), toplam başlık düzeyi masrafı iadeye sistematik olarak uygulanır, yalnızca bazı öğeler iade edilmiş olsa bile.
+Bu senaryoda, bir müşteri siparişteki bazı öğeleri iade ederse ve [iade edileceği şekilde masraf kodu yapılandırılmışsa](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), toplam başlık düzeyi masrafı iadeye sistematik olarak uygulanır, yalnızca bazı öğeler iade edilmiş olsa bile.
 
 ### <a name="scenario-2"></a>Senaryo 2
 

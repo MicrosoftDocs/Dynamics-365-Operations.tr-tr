@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5ec0e13c8ecfb6003cbb905e66fc102074e7b9b6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 17ed0adefb2c3dd10e5e6020929c877cf5c3b8c9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795537"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022635"
 ---
 # <a name="set-up-call-center-channels"></a>Çağrı merkezi kanalları ayarlama
 
@@ -37,7 +37,7 @@ Kullanıcıların çağrı merkezi özelliklerini kullanmak için bir çağrı m
 
 Bir e-posta bildirimi profili de çağrı merkezi kanalında yapılandırılabilir. Profil, e-posta siparişleri veren müşterilere çağrı merkezi kanalı üzerinden gönderildiğinde kullanılan e-posta şablonları kümesini tanımlar. E-posta tetikleyicileri sipariş gönderme veya siparişi sevk etme gibi sistem olaylarına karşı yapılandırılabilir.
 
-Satışın bir çağrı merkezi kanalı üzerinden doğru şekilde işlenebilmesi için doğru [ödeme yöntemleri](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) ve teslimat şekilleri kanal için tanımlanmalıdır.
+Satışın bir çağrı merkezi kanalı üzerinden doğru şekilde işlenebilmesi için doğru [ödeme yöntemleri](/dynamics365/unified-operations/retail/work-with-payments) ve teslimat şekilleri kanal için tanımlanmalıdır.
 
 Çağrı merkezi kanalı düzeyinde, kanal tarafından oluşturulan siparişlere bağlanacak mali boyutlar ile ilgili diğer varsayılan değerleri tanımlayabilirsiniz.
 
@@ -47,13 +47,13 @@ Bir çağrı merkezinin yapılandırmasında üç ayarın çağrı merkezine gö
 
 ### <a name="enable-order-completion"></a>Sipariş tamamlamayı etkinleştir
 
-Çağrı merkezi kanalındaki **Sipariş tamamlamayı etkinleştir** ayarının bu kanal için girilen satış siparişlerinin sipariş işleme akışı üzerinde önemli bir etkisi vardır. Bu ayar etkinleştirildiğinde, tüm satış siparişlerinin onaylanabilmesi için önce bir doğrulama kural kümesinden geçmesi gerekir. Bu kuralları satış siparişi sayfasının Eylem Bölmesine eklenen **Tamamla** düğmesini seçerek çalıştırın. **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda oluşturulan tüm siparişlerin sipariş tamamlama işleminden geçmesi gerekir. Bu işlem, ödeme ve ödeme doğrulama mantığının yakalanmasını zorunlu kılar. Ödeme uygulama yanı sıra, sipariş gönderme işlemi sistemde yapılandırdığınız [sahtekarlık denetimlerini](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) tetikleyebilir. Ödemesi yapılmayan veya sahtekarlık doğrulamalarını geçemeyen siparişler beklemeye alınır ve beklemeye alınma nedeni çözülene kadar başka bir işlem (malzeme çekme veya sevkiyat gibi) yapılamaz.
+Çağrı merkezi kanalındaki **Sipariş tamamlamayı etkinleştir** ayarının bu kanal için girilen satış siparişlerinin sipariş işleme akışı üzerinde önemli bir etkisi vardır. Bu ayar etkinleştirildiğinde, tüm satış siparişlerinin onaylanabilmesi için önce bir doğrulama kural kümesinden geçmesi gerekir. Bu kuralları satış siparişi sayfasının Eylem Bölmesine eklenen **Tamamla** düğmesini seçerek çalıştırın. **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda oluşturulan tüm siparişlerin sipariş tamamlama işleminden geçmesi gerekir. Bu işlem, ödeme ve ödeme doğrulama mantığının yakalanmasını zorunlu kılar. Ödeme uygulama yanı sıra, sipariş gönderme işlemi sistemde yapılandırdığınız [sahtekarlık denetimlerini](/dynamics365/unified-operations/retail/set-up-fraud-alerts) tetikleyebilir. Ödemesi yapılmayan veya sahtekarlık doğrulamalarını geçemeyen siparişler beklemeye alınır ve beklemeye alınma nedeni çözülene kadar başka bir işlem (malzeme çekme veya sevkiyat gibi) yapılamaz.
 
-**Sipariş tamamlamayı etkinleştir** ayarı çağrı merkezi kanalı için açık olduğunda, satır maddeleri bir satış siparişine girilirse ve kanal kullanıcısı **Tamamla** 'yı seçmeden satış siparişi formunu kapatmayı veya formdan ayrılmayı denerse, sistem satış siparişi özet sayfasını açarak ve kullanıcıdan siparişi doğru şekilde göndermesini isteyerek satışı tamamlama işlemini zorunlu kılar. Sipariş ödeme ile birlikte sipariş doğru şekilde gönderilemiyorsa, kullanıcı siparişi beklemeye almak için [sipariş tutmalar](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) işlevini kullanabilir. Kullanıcı siparişi iptal etmeye çalışırsa, siparişi kullanıcı güvenlik ayarlarının izin verdiği işleve bağlı olarak İptal et veya Sil işlevini kullanarak doğru şekilde iptal etmesi gerekir.
+**Sipariş tamamlamayı etkinleştir** ayarı çağrı merkezi kanalı için açık olduğunda, satır maddeleri bir satış siparişine girilirse ve kanal kullanıcısı **Tamamla** 'yı seçmeden satış siparişi formunu kapatmayı veya formdan ayrılmayı denerse, sistem satış siparişi özet sayfasını açarak ve kullanıcıdan siparişi doğru şekilde göndermesini isteyerek satışı tamamlama işlemini zorunlu kılar. Sipariş ödeme ile birlikte sipariş doğru şekilde gönderilemiyorsa, kullanıcı siparişi beklemeye almak için [sipariş tutmalar](/dynamics365/unified-operations/retail/work-with-order-holds) işlevini kullanabilir. Kullanıcı siparişi iptal etmeye çalışırsa, siparişi kullanıcı güvenlik ayarlarının izin verdiği işleve bağlı olarak İptal et veya Sil işlevini kullanarak doğru şekilde iptal etmesi gerekir.
 
 **Sipariş tamamlamayı etkinleştir** ayarı çağrı merkezi kanalı için açılırsa **Ödeme durumu** alanı siparişte izlenir. Sistem satış siparişi gönderildiğinde **Ödeme durumu**'nu hesaplar. Yalnızca onaylanan ödeme durumundaki siparişlerin malzeme çekme ve sevkiyat gibi ek sipariş işleme adımları için sistem üzerinde ilerlemesine izin verilir. Ödemeler reddedilirse **işleme** bayrağı ayrıntılı sipariş durumunda etkin hale gelir ve bu, ödeme sorunu çözülene kadar siparişin beklemede kalmasını sağlar.
 
-Ayrıca, **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, kullanıcılar satış siparişleri oluşturduğunda ve satır maddesi giriş modunda olduğunda **Kaynak** alanı ana satış siparişi başlığında kullanılabilir olacaktır. **Kaynak** alanı bir doğrudan pazarlama satış senaryosunda [katalog kaynak kodunu](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) yakalamak için kullanılır. Bu kod promosyonlar ve özel fiyatlar sağlar.
+Ayrıca, **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, kullanıcılar satış siparişleri oluşturduğunda ve satır maddesi giriş modunda olduğunda **Kaynak** alanı ana satış siparişi başlığında kullanılabilir olacaktır. **Kaynak** alanı bir doğrudan pazarlama satış senaryosunda [katalog kaynak kodunu](/dynamics365/unified-operations/retail/call-center-catalogs) yakalamak için kullanılır. Bu kod promosyonlar ve özel fiyatlar sağlar.
 
 **Sipariş tamamlamayı etkinleştir** ayarı kapalı olsa bile, kullanıcılar hala satış siparişine bir kaynak kodu uygulayabilir. Bununla birlikte, önce **Kaynak** alanına erişmek için satış siparişi başlığı ayrıntılarını açmaları gerekir. Başka bir deyişle, bazı ek tıklamalar gereklidir. Aynı davranış sevki tamamlanan ve öncelikli siparişler gibi özellikler için de geçerlidir. Bu özellikler, çağrı merkezinde oluşturulan tüm siparişler için kullanılabilir. Bununla birlikte, **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda, kullanıcılar bu özelliklerin yapılandırmasını satış giriş görünümündeyken satış başlığında görebilir. Uygun ayarları ve alanları bulmak için satış siparişi başlığı ayrıntılarına gitmeleri gerekmez.
 

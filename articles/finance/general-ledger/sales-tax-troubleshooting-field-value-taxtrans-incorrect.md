@@ -2,11 +2,9 @@
 title: TaxTrans'ta hatalı alan değeri
 description: Bu konu, TaxTrans'taki hatalı alan değerleriyle ilgili sorunları giderme hakkında bilgi sağlar.
 author: bijian
-manager: beya
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 97f9bb24d32180f2fccb69c5a13e2aa0349c1ee4
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: 488ff54f1dd99208db940024a2fe8b2d25861f44
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947720"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020175"
 ---
 # <a name="incorrect-field-value-in-taxtrans"></a>TaxTrans'ta hatalı alan değeri
 

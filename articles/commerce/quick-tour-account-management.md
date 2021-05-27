@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792279"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027975"
 ---
 # <a name="account-management-pages-overview"></a>Hesap yönetimi sayfalarına genel bakış
 
@@ -39,7 +39,7 @@ Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği göst
 
 ### <a name="my-profile-page"></a>Profilim sayfası
 
-**Profilim** sayfası, müşterinin adı ve telefon numarası gibi müşteri hesap bilgilerini gösterir. Müşteri bu sayfadaki kendi profil bilgilerini güncelleştirebilir. Bu sayfa, pazarlama e-postasını tercih etme seçeneği gibi ek müşteri hesabı tercihleri içerecek şekilde özelleştirilebilir.
+**Profilim** sayfası, ad ve telefon numarası gibi müşteri hesap bilgilerini gösterir. Müşteri, bu sayfada profil bilgilerini güncelleştirebilir. Bu sayfa, pazarlama e-postasını tercih etme seçeneği gibi ek müşteri hesabı tercihleri içerecek şekilde özelleştirilebilir.
 
 Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.
 
@@ -47,7 +47,7 @@ Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **pr
 
 ### <a name="addresses-page"></a>Adresler sayfası
 
-**Adresler** sayfası, müşterinin kendi hesabına adres eklemesini sağlar. Ayrıca, müşterinin daha önce hesaba eklediği veya kaydettiği adreslerin listesini gösterir. Bu adresler, müşterinin bu sayfada girdiği veya sipariş koyduğunda kullanılan adreslerdir.
+**Adresler** sayfası, müşterinin hesabına adres eklemesini sağlar. Ayrıca, müşterinin daha önce hesaba eklediği veya kaydettiği adreslerin listesini gösterir. Bu adresler, müşterinin bu sayfada girdiği veya sipariş koyduğunda kullanılan adreslerdir.
 
 Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösterilmektedir.
 
@@ -55,7 +55,7 @@ Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösteril
 
 ### <a name="order-history-and-order-details-pages"></a>Sipariş geçmişi ve sipariş ayrıntıları sayfaları
 
-**Sipariş geçmişi** sayfası, müşterinin hesabını kullanarak gönderdiği tüm siparişlerin özetini gösterir. Sipariş edilen maddelerin, onay numarasının, satış kimliğinin, izleme bilgilerinin ve diğer bilgilerin hızlı özetini verir. Müşteri her sipariş için daha ayrıntılı bir döküm görüntülemek isterse, **Sipariş ayrıntıları** sayfası vardır. Bu sayfa, siparişin sevkiyat adresi, ödeme bilgileri, iskontolar, vergiler ve sevkiyat maliyetleri gibi bilgileri içerir.
+**Sipariş geçmişi** sayfası, müşterinin kendi hesabını kullanarak gönderdiği tüm siparişlerin özetini gösterir. Sipariş edilen maddelerin, onay numarasının, satış kimliğinin, izleme bilgilerinin ve diğer bilgilerin hızlı özetini verir. Müşteri her sipariş için daha ayrıntılı bir döküm görüntülemek isterse, **Sipariş ayrıntıları** sayfası vardır. Bu sayfa, siparişin sevkiyat adresi, ödeme bilgileri, iskontolar, vergiler ve sevkiyat maliyetleri gibi bilgileri içerir.
 
 Aşağıdaki çizimde bir **Sipariş geçmişi** liste sayfasının bir örneği gösterilmektedir.
 

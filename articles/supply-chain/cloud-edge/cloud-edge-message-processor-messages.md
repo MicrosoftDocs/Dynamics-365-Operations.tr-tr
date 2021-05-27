@@ -2,11 +2,9 @@
 title: İleti işlemci iletileri
 description: Bu konu, ölçek birimi iş yükleri için İleti işlemcisi iletileri özelliği hakkında bilgi sağlar.
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysMessageProcessorMessage, BusinessEventsWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: b1428e2e657e653874d4ec07605932a32bd803b2
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 03d8cad743ac2b2b1e7b2832b8272ca3dbf5a163
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938262"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021067"
 ---
 # <a name="message-processor-messages"></a>İleti işlemci iletileri
 

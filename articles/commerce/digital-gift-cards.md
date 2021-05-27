@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792883"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019945"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>E-ticaret dijital hediye kartları
 
@@ -51,12 +51,12 @@ Commerce Headquarters'da dijital hediye kartı ürünleri yapılandırılmalıd�
 
     ![Commerce Headquarters'daki hediye kartı ürün alanı](./media/PostGiftcard.png)
 
-- Bir hediye kartının önceden tanımlanmış birden fazla tutarı (örneğin, $25, $50 ve $100) desteklemesi gerekiyorsa bu önceden tanımlanmış tutarları ayarlamak için **Boyut** boyutu kullanılmalıdır. Her önceden tanımlanmış tutar bir varyant olacaktır. Daha fazla bilgi için bkz. [Ürün boyutları](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Bir hediye kartının önceden tanımlanmış birden fazla tutarı (örneğin, $25, $50 ve $100) desteklemesi gerekiyorsa bu önceden tanımlanmış tutarları ayarlamak için **Boyut** boyutu kullanılmalıdır. Her önceden tanımlanmış tutar bir varyant olacaktır. Daha fazla bilgi için bkz. [Ürün boyutları](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Müşterilerin bir hediye kartı için özel bir tutar belirtmesi gerekiyorsa önce özel bir tutara izin veren bir varyant ayarlayın. Sonra, ürünü, **Kategoride serbest bırakılmış ürünler** sayfasından açın ve sonra **Commerce** hızlı sekmesinde, aşağıdaki çizimde gösterildiği gibi, **Fiyat girin** alanını **Yeni fiyat girilmeli** şekilde ayarlayın. Bu ayar, bir PDP'de ürüne göz attıklarında müşterilerin fiyat girebilmesini sağlar.
 
     ![Commerce Headquarters'da fiyat girme alanı](./media/KeyInPrice.png)
 
-- Dijital hediye kartının teslimat şekli **Elektronik** olarak ayarlanmalıdır. **Teslimat şekilleri** sayfasında (**Perakende ve ticaret \> Kanal kurulumu \> Teslimat şekilleri**), liste bölmesinden **Elektronik** teslim modunu seçin ve sonra, aşağıdaki çizimde gösterildiği gibi, **Ürünler** hızlı sekmesinde dijital hediye kartı ürününü kılavuza ekleyin. Daha fazla bilgi için bkz. [Teslimat koşullarını ayarlama](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- Dijital hediye kartının teslimat şekli **Elektronik** olarak ayarlanmalıdır. **Teslimat şekilleri** sayfasında (**Perakende ve ticaret \> Kanal kurulumu \> Teslimat şekilleri**), liste bölmesinden **Elektronik** teslim modunu seçin ve sonra, aşağıdaki çizimde gösterildiği gibi, **Ürünler** hızlı sekmesinde dijital hediye kartı ürününü kılavuza ekleyin. Daha fazla bilgi için bkz. [Teslimat koşullarını ayarlama](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Commerce Headquarters'da Teslimat modundaki dijital hediye kartı ürünleri](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Commerce Site Builder'da dijital hediye kartının özel tutarını yapılandır
 
 [Commerce'ta yeni ürün oluşturma](create-new-product-commerce.md)
 
-[Teslimat şekillerini ayarla](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Teslimat şekillerini ayarla](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Ürün boyutları](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Ürün boyutları](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [E-posta bildirimi profili ayarlama](email-notification-profiles.md)
 
