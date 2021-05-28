@@ -380,9 +380,7 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Nakit yönetimine yönelik geliştirmeler
                       href: cash-mgmt.md
-                    - name: POS'ta stok araması
-                      href: product-variants-POS.md
-                    - name: POS'ta hareketleri askıya alma ve sürdürme
+                    - name: POS'ta işlemleri askıya alma ve sürdürme
                       href: pos-suspend-recall-transactions.md
                     - name: Çevrimdışı POS işlevi
                       href: pos-offline-functionality.md
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Perakende kanalları için stok kullanılabilirliğini hesaplama
                       href: calculated-inventory-retail-channels.md
+                    - name: POS'ta stok arama işlemi
+                      href: pos-inventory-lookup-operation.md
                 - name: Satın alma siparişleri
                   items:
                     - name: Satın alma siparişine genel bakış
@@ -2448,10 +2448,34 @@
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: POS uzantı paketi projesi oluşturma
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Modern POS uzantısı appx dosyası oluşturma
+                    - name: Modern POS uzantı paketi için bir .appx dosyası oluşturma
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: POS uzantısında hata ayıklama
+                    - name: POS uzantılarında hata ayıklama
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Uzantı paketi ve dağıtım
+                      items:
+                        - name: Modern POS uzantı paketi oluşturma
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Modern POS (MSIX) uzantı paketini imzalama kodu
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Bulut POS uzantı paketi oluşturma
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: POS uzantısını bağımsız paket modeline geçirme
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: POS uzantısı geliştirme kılavuzu
+                      items:
+                        - name: POS uzantısı temelleri
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: POS'ta özel görünüm oluşturma
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: Uzantılarda POS denetimlerini kullanma
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Görevler
+                          items:
+                            - name: POS uzantılarında Knockout.js kullanma
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Özel gözetimsiz Commerce API'lerini kullanma
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Hardware Station genişletilebilirliği
               items:
                 - name: Hardware Station ve genişletilebilirlik

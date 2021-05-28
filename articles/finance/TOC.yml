@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (Nisan 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (Şubat 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Müşteri ön ödemeleri
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Müşteriye geri ödeme
                   href: accounts-receivable/reimburse-customers.md
                 - name: Kısmi tutar için müşteri ödemeleri
@@ -484,6 +484,8 @@
               href: accounts-receivable/process-collection-letters-example.md
             - name: Alacak hesapları yaşlandırma bilgilerini ayarlama ve oluşturma
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Müşteri yaşlandırma anlık görüntüsü
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Müşteri yaşlandırma raporu
               href: accounts-receivable/customer-aging.md
             - name: Müşteri için silme günlüğü oluşturma
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Hareket hesaplarından ve toplam hesaplardan bütçe oluşturma
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Bütçe planı açıklaması
+              href: budgeting/budget-narrative.md
             - name: Excel için bütçe planlama şablonları
               href: budgeting/budget-planning-excel-templates.md
             - name: Bütçe planlama düzenini uzatma
@@ -1146,6 +1150,16 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Kaynak belgeler için denetim ilkeleri tanımlama
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Sorun giderme
+              items:
+                - name: Muhasebe veya raporlama para birimini değiştirme
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Genel muhasebe takvimini değiştirme veya yeniden atama
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Günlükler ve satırlardaki ayarları tersine çevirme
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Yıl sonu kapanışında eksik açılış bakiyeleri
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Mali raporlama
           items:
             - name: Mali raporlamayı kullanmaya başlama
@@ -1648,8 +1662,16 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: SPED-Reinf vergi beyannamesi
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinf'e Genel Bakış
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: Elektronik ileti ayarlama
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Mali defterleri ayarlama
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Olaylar
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED mali çözümü 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED mali 2020 - SPED mali düzeni 014 için tamamlayıcı ICMS-ST bilgileri
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: KDV müşteri faturaları hakkında SSS
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: GB/T 24589-2010'u dışarı aktarma
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: Çek Cumhuriyeti
               items:
                 - name: Çek Cumhuriyeti
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Kronolojik faturalar ve fişler
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Fransa (FEC) için Standart Denetleme Dosyası oluşturma
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Fransa için denetim dosyası
+                  items:
+                    - name: Fransa için denetim dosyasına (FEC) genel bakış
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: Fransa'da FEC denetim dosyası oluşturma için ön koşullar
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: FEC için Finance veri kaynaklarının yapısı
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Ortamınızı bir FEC oluşturacak şekilde hazırlama
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: Dynamics 365 Finance'ta FEC oluşturma
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Müşteri ve satıcı hesap ekstreleri
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Geç ödeme ile fatura ve tahsilat mektubundaki peşin ödeme için günlük faizi hesaplama
@@ -2390,13 +2424,91 @@
                       href: localizations/tasks/apac-ind-set-up-depreciation.md
                     - name: Amortisman defterleri için kıymet grubu amortismanı ayarlama
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Sermaye kalemlerini sabit kıymete transfer etme
+                    - name: Sermaye kalemlerini sabit kıymete aktarma
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: Hindistan için TDS
+                  items:
+                    - name: Hindistan için Kaynakta Kesilen Vergiye (TDS) genel bakış
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: TDS için temel ayarlar
+                      items:
+                        - name: TDS parametrelerini ayarlama
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: TDS genel muhasebe hesaplarını ayarlama
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: Tüzel kişilikler için TDS kayıt numaralarını ayarlama
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: TDS vergi türü için stopaj vergisi yetkililerini ayarlama
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: TDS vergi türü için vergi bileşenlerini ayarlama
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: TDS vergi türü için stopaj vergisi kapatma dönemlerini ayarlama
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: TDS vergi kodlarını TDS vergi gruplarına ekleme ve TDS hesaplamak için formülü tanımlama
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: TDS imtiyaz sertifikası numaralarını kaydetme
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: Borç hesaplarında ve Alacak hesaplarında TDS parametrelerini ayarlama
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: TDS tahsisatına göre ödeme planlarını ayarlama
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: TDS yetkilisi ödemeleri için ödeme masraflarını ayarlama
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'Satıcılar ve müşteriler için TDS grubu, PAN ve TAN bilgilerini ayarlama'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: TDS hesaplaması için formül tasarımcısı ve eşik sınırı
+                      items:
+                        - name: TDS hesaplamaları için formül tasarımcısı
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Eşik sınırı ve özel durum eşik sınırı
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: Faturalarda TDS hesaplaması
+                      items:
+                        - name: Faturalarda TDS hesaplaması
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: Faturalarda günlükleri kullanarak TDS hesaplama
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: Satın alma siparişi formu ve satış siparişi formunu kullanarak TDS faturalarını hesaplama
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: Faturalarda Serbest metin faturası sayfasından TDS hesaplaması
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Faturayı ayırma işlevi
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: Ödemeler ve senetlerde TDS hesaplaması
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: Şirketlerarası hareketlerde TDS hesaplaması
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: TDS kapatma işlemi
+                      items:
+                        - name: Ödemeler ve senetlerde TDS hesaplaması
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: Şirketlerarası hareketlerde TDS hesaplaması
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: TDS kapatma işlemi
+                          items:
+                            - name: Dönemsel TDS kapatma işlemini çalıştırma
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: TDS yetkilisi satıcılara yapılan TDS ödemelerini kapatma ve TDS challan oluşturma
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: TDS kapatma dönemi için deftere nakledilen TDS ödemelerini ve işlemleri görüntüleme
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: TDS sertifika numaralarını ve tarihlerini kaydetme ve güncelleştirme
+                          items:
+                            - name: Düşürülebilir TDS sertifika numaralarını kaydetme
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: TDS işlemleri için sertifika numaralarını ve tarihleri güncelleştirme
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
                   href: localizations/italy.md
-                - name: KDV beyannameleriyle ilgili ayrıntılar
+                - name: KDV beyanlarıyla ilgili ayrıntılar
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Üç aylık KDV iletişim raporu
                   href: localizations/emea-ita-quarterly-vat-communication.md

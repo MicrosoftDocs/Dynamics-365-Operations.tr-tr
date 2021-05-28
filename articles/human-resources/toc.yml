@@ -3,9 +3,11 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'daki yenilikler veya değişiklikler
+        - name: Human Resources'taki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
-        - name: 19 Nisan 2020
+        - name: 3 Mayıs 2021
+          href: hr-whats-new-2021-05-03.md
+        - name: 19 Nisan 2021
           href: hr-whats-new-2021-04-19.md
         - name: 5 Nisan 2021
           href: hr-whats-new-2021-04-05.md

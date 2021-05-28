@@ -363,10 +363,8 @@
                   href: asset-management/objects/object-view.md
                 - name: Varlık özniteliğine genel bakış
                   href: asset-management/objects/object-specification-overview.md
-            - name: Bakım talepleri için ayarlama
+            - name: Bakım talepleri için kurulum
               items:
-                - name: Bakım talepleri
-                  href: asset-management/setup-for-maintenance-requests/requests.md
                 - name: Bakım talebi yaşam döngüsü durumları
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Bakım talebi türleri
@@ -3341,17 +3339,103 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Eldeki stok veri varlıklarını genişletme
               href: inventory/extend-on-hand-entities.md
-        - name: Sorun Giderme
+        - name: Sorun giderme
           items:
+            - name: Maliyet yönetimi
+              items:
+                - name: Madde model gruplarının başka bir tüzel kişiliğe kopyalanmasında eksik alan ayarları
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: '"Süren dolaylı maliyetler" raporu, silinen üretim emirlerini içeriyor'
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Sıfır değerli ürün girişi için satın alma tahakkuku sıfır tutarıyla deftere naklediliyor
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Fiziksel olarak alınan satın alma siparişleri stok kapanış raporunda görünmüyor
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Madde fiyatı sayfasının Etkin fiyatlar sekmesinde Başlangıç tarihi yok
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Stok yönetimi
+              items:
+                - name: Toplu iş numaraları için "Fiziksel güncelleştirme" olmadan birden fazla stok hareketi oluşuyor
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Bir rapor tamamlanmış olarak tersine çevrildiğinde beklenmedik bir açık işlem oluşuyor
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Malzeme çekme listesi raporunda bir günlüğe eklenen yeni notlar gösterilemiyor
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: 'Başlatılan bir karantina emrindeki miktar, sipariş bölündüğünde güncelleştirilemiyor'
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Birden fazla kalite emri oluşturulurken "Son test tarihi" alanı güncelleştirilemiyor
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: Fiili ağırlık miktarı bölünürken nominal miktar yerine minimum miktar kullanılıyor
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Master planlama
+              items:
+                - name: 'Doğrudan türetilen kesinleştirilmiş siparişler, incelemedeki bir iş akışı tarafından işleniyor'
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Master planlama hayali ürünler için planlı siparişler oluşturuyor
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Talep tahmini girişlerine maliyet fiyatı yüklenemiyor
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Tedarik
+              items:
+                - name: VEL şirketinde müşteriye yönelik bir satış siparişi faturalandırılamıyor
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Değişiklik isteğinden sonra satın alma talebine satır eklenemiyor
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Ürün bilgileri yönetimi
+              items:
+                - name: Serbest bırakılan ürün oluşturmak için şablon uygulanamıyor
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Serbest bırakılan ürünler V2 varlığı kullanılarak madde içeri aktarılamıyor
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: Satın alma siparişleri çevrilmiş ürün metnini göstermiyor
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Üretim denetimi
+              items:
+                - name: Ürün reçetesi satırlarındaki otomatik tüketim kuralı ayarları dikkate alınmıyor
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Yeni bir lot kimliği seçildiğinde toplu iş numarası siliniyor
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Toplu iş aracılığıyla verilen üretim emirleri sıfırlanırken geç seçim dikkate alınmıyor
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: 'Kullanıcılar, bitmiş olarak bildirilen ürünler için malzeme satırlarını çekmeyi geri alabiliyor'
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Tamamlandı bildirimi günlüğü gönderilirken hata oluşuyor
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Malzeme çekme listesi günlüğündeki ambar bir ürün reçetesi satırında güncelleştirilemiyor
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: İndirim yönetimi
+              items:
+                - name: Müşteri indirimleri madde indirim grupları kullanılarak biriktirilemiyor
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Satış ve pazarlama
+              items:
+                - name: Sistem yöneticileri yetkili olmadıklarından sipariş tutmalarını silemiyor
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Taşıma yönetimi
+              items:
+                - name: 'Mutabakat nedeniyle yalnızca ana hesap, alacak hesabı olarak eklenebiliyor'
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
-                - name: Takvimle ilgili bir sorun nedeniyle sevkiyatı onaylamıyorsunuz
+                - name: Malzeme çekme listesi kaydı sırasında konum seçilirken bir hata oluşuyor
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: Ambalaj istasyonunda ürün notları görüntülenmiyor
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: Konum profili negatif stoka izin vermiyor ancak eldeki negatif stoka izin veriliyor
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Birden çok iş başlığı için tek bir makbuza yalnızca bir etiket yazdırılıyor
+                  href: troubleshooting/warehousing/when-receipting-prod.md
+                - name: Takvimdeki bir sorun nedeniyle sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Tamamlanmamış veya eksik iş nedeniyle bir sevkiyatı onaylayamazsınız
+                - name: Tamamlanmamış veya eksik iş nedeniyle bir sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: Maddeler alınmadığı için sevkiyatı onaylayamazsınız
+                - name: Maddeler alınmadığı için sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: Sıfır miktar olduğundan sevkiyatı onaylayamazsınız
+                - name: Sıfır miktar olduğundan sevkiyat onaylanamıyor
                   href: troubleshooting/warehousing/picked-quantity-is-zero.md
                 - name: 'Miktar, fazla teslimat yüzdesini aştığından sevkiyat onaylanamıyor'
                   href: troubleshooting/warehousing/quantity-exceeds-ove.md
