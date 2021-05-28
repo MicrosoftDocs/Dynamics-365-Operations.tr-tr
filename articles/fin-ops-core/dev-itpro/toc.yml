@@ -80,11 +80,11 @@
               href: dev-tools/manage-runtime-packages.md
             - name: Hepsi bir arada dağıtılabilir paketler
               href: dev-tools/aio-deployable-packages.md
-            - name: Otomatik derlemede sürüm modellerini güncelleştirme
+            - name: Otomatik derlemede model sürümlerini güncelleştirme
               href: dev-tools/version-models-build.md
-        - name: Veri tümleştirme
+        - name: Veri tümleştirmesi
           items:
-            - name: Veri tümleştirme (içeri/dışarı aktarma) stratejisi seçme
+            - name: Finance and Operations uygulamaları ile üçüncü taraf hizmetler arasında tümleştirme
               href: data-entities/integration-overview.md
             - name: Öncelik tabanlı azaltma
               hreF: data-entities/priority-based-throttling.md
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Kayıt şablonlarını kullanarak kayıt oluşturma
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Dataverse kullanarak veri tümleştirme
+                - name: Veri Tümleştirici
                   items:
-                    - name: Dataverse kullanarak veri tümleştirmeye genel bakış
-                      href: data-entities/data-integration-cds.md
-                    - name: Çift yazma tümleştirmesi
+                    - name: Aday müşteriden nakde senaryosu yapılandırma
                       items:
-                        - name: Çift yazma giriş sayfası
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Çift yazmadaki yenilikler veya değişiklikler
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Çift yazmaya genel bakış
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Çift yazma kurulumu
-                          items:
-                            - name: Çift yazma için sistem gereksinimleri
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Çift yazmayı ayarlama kılavuzu
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: İlk eşitleme için dikkat edilecek hususlar
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Lifecycle Services'dan çift yazma kurulumu
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
-                              items:
-                                - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Sistem gereksinimleri ve önkoşullar
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Ortamlarınızı bağlamak için çift yazma sihirbazını kullanma
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Çift yazma için varlık eşlemeyi etkinleştirme
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Çift yazma için para birimi veri türü geçişi
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: Satış siparişi durumu alanları için eşlemeyi ayarlama
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Siparişler ile Sipariş Satırlarını eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Çift yazmayı yönetme
-                          items:
-                            - name: Varlık ve alan eşlemelerini özelleştirme
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Çoklu varlık eşlemelerini işleme
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Hata yönetimi ve uyarı bildirimleri
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Uygulama yaşam döngüsü yönetimi
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Uygulamalar arasında kavramları eşleme
-                          items:
-                            - name: Tümleşik müşteri aslı
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Satıcı tümleştirmesi
-                              items:
-                                - name: Tümleşik satıcı aslı
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Satıcı tasarımları arasında geçiş yapma
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Müşteri bağlılık programı kartları ve ödül puanları
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Ürün tümleştirmesi
-                              items:
-                                - name: Birleşik ürün deneyimi
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Tümleşik tesisler ve ambarlar
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Şirket tümleştirmesi
-                              items:
-                                - name: Dataverse'ta şirket kavramı
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Şirket verilerini başlatma
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Dataverse'te kuruluş hiyerarşisi
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Finans ve vergi verileri
-                              items:
-                                - name: Finans ve vergi başvuru verilerine erişim
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Tümleşik genel muhasebe
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Tümleşik vergi aslı
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Supply Chain Management'ta tedariği Field Service ile tümleştirme
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: İsteğe bağlı Supply Chain Management fiyatlandırma altyapısıyla eşitleme
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Çift yazmada aday müşteriden nakde aktarma
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Servis gerçekleştirilecek şirket içi varlıklar
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Stok kullanılabilirliği
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Tümleşik çalışan, iş ve pozisyon'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Taraf ve genel adres defteri
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Taraf veri modeli ile Power Portal'ı kullanma
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Taraf ve genel adres defteri modeline yükseltme
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Not tümleştirmesi
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Eşleme referansı
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Çift yazma desteği
-                          items:
-                            - name: Field Service ve Project Service Automation çözümleri için destek
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Aday müşteriden nakde verilerini Veri Tümleştiricisinden çift yazmaya taşıma
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Sorun giderme
-                              items:
-                                - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Başlangıç kurulumu sırasında sorunları giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Başlangıç eşitlemesi sırasında sorunları giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Finance and Operations uygulamalarında çift yazma ile ilgili sorunları giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Canlı eşitleme sorunlarını giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Çözüm farkındalığıyla ilgili sorunları giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Finance and Operations uygulamalarının yükseltmeleriyle ilgili sorunları giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Genel sorun giderme
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Çift yazmayla ilgili sık sorulan sorular
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Power Platform ile tümleştirme
+                        - name: Aday müşteriden nakde
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Finance and Operations'daki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service ile tümleştirmeyi yapılandırma
                       items:
-                        - name: Aday müşteriden nakde senaryosu yapılandırma
-                          items:
-                            - name: Aday müşteriden nakde
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Sales'daki hesapları doğrudan Finance and Operations'daki müşterilerle eşitleme
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Finance and Operations'daki ürünleri doğrudan Sales'teki ürünlerle eşitleme
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'daki ilgili kişilerle veya müşterilerle eşitleme
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Field Service ile tümleştirmeyi yapılandırma
-                          items:
-                            - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Finance and Operations'daki ürünleri Field Service'teki ürünlerle eşitleme
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Field Service'teki iş emirlerini Finance and Operations'daki satış siparişleriyle eşitleme
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Field Service'teki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Stok birimli ürünleri Finance and Operations'dan Field Service'e eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Proje listesini Finance and Operations'dan Field Service'e eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Ambarları Finance and Operations'dan Field Service'e eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Project Service Automation tümleştirmesini yapılandırma
-                          items:
-                            - name: Project Service Automation'a genel bakış
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automation tümleştirmesi parametreleri
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Proje sözleşmeleri ile projeleri eşitleme
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Proje görevlerini eşitleme
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Proje gider kategorilerini eşitleme
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Proje tahminleri için proje tahminleriyle eşitleme
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Field Service ile tümleştirmeyi yapılandırmaya genel bakış
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Finance and Operations'daki ürünleri Field Service'teki ürünlerle eşitleme
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Field Service'teki iş emirlerini Finance and Operations'daki satış siparişleriyle eşitleme
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Field Service'teki sözleşme faturalarını Finance and Operations'daki serbest metin faturalarıyla eşitleme
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Stok transferlerini ve ayarlamalarını Field Service'ten Finance and Operations'a eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Stok düzeyi bilgilerini Field Service'ten Finance and Operations'a eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Stok birimli ürünleri Finance and Operations'dan Field Service'e eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Proje listesini Finance and Operations'dan Field Service'e eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Ambarları Finance and Operations'dan Field Service'e eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Proje içeren iş emirlerini Field Service'ten Finance and Operations'a eşitleme
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation tümleştirmesini yapılandırma
+                      items:
+                        - name: Project Service Automation'a genel bakış
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation tümleştirmesi parametreleri
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Proje sözleşmeleri ile projeleri eşitleme
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Proje görevlerini eşitleme
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Proje gider kategorilerini eşitleme
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Proje tahminleri için proje tahminleriyle eşitleme
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Proje gerçek değerlerini proje tümleştirme günlüğüyle eşitleme
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Harici web hizmetleri kullanma
               href: data-entities/consume-external-web-service.md
             - name: Elektronik mesajlaşma
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Self servis dağıtımla dağıtılan ortamlarda sorun giderme
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Self servis ortamlarda planlı bakımla ilgili SSS
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Azure Resource Manager'da işe alım sürecini tamamlama
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute ve Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Microsoft Power Platform ve Finance and Operations tümleştirmesi
               href: power-platform/overview.md
+            - name: Çift yazma
+              items:
+                - name: Çift yazma giriş sayfası
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Çift yazmadaki yenilikler veya değişiklikler
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Çift yazmaya genel bakış
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Çift yazma kurulumu
+                  items:
+                    - name: Çift yazma için sistem gereksinimleri
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Çift yazmayı ayarlama kılavuzu
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: İlk eşitleme için dikkat edilecek hususlar
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Lifecycle Services'dan çift yazma kurulumu
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
+                      items:
+                        - name: Mevcut Finance and Operations uygulamaları için çift yazmayı etkinleştirme
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Sistem gereksinimleri ve önkoşullar
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Ortamlarınızı bağlamak için çift yazma sihirbazını kullanma
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Çift yazma için varlık eşlemeyi etkinleştirme
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Çift yazma için para birimi veri türü geçişi
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: Satış siparişi durumu alanları için eşlemeyi ayarlama
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Siparişler ile Sipariş Satırlarını eşitlemekten kaçınmak için şirketlerarası siparişleri filtreleme
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Çift yazmayı yönetme
+                  items:
+                    - name: Varlık ve alan eşlemelerini özelleştirme
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Çoklu varlık eşlemelerini işleme
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Çift yazma kurulumundan sonra tüzel kişiliği düzenleme
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Hata yönetimi ve uyarı bildirimleri
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Uygulama yaşam döngüsü yönetimi
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Uygulamalar arasında kavramları eşleme
+                  items:
+                    - name: Tümleşik müşteri aslı
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Satıcı tümleştirmesi
+                      items:
+                        - name: Tümleşik satıcı aslı
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Satıcı tasarımları arasında geçiş yapma
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Müşteri bağlılık programı kartları ve ödül puanları
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Ürün tümleştirmesi
+                      items:
+                        - name: Birleşik ürün deneyimi
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Tümleşik tesisler ve ambarlar
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Şirket tümleştirmesi
+                      items:
+                        - name: Dataverse'ta şirket kavramı
+                          href: data-entities/dual-write/company-data.md
+                        - name: Şirket verilerini başlatma
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Dataverse'te kuruluş hiyerarşisi
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Finans ve vergi verileri
+                      items:
+                        - name: Finans ve vergi başvuru verilerine erişim
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Tümleşik genel muhasebe
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Tümleşik vergi aslı
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Supply Chain Management'ta tedariği Field Service ile tümleştirme
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: İsteğe bağlı Supply Chain Management fiyatlandırma altyapısıyla eşitleme
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Çift yazmada aday müşteriden nakde aktarma
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Dynamics 365 Commerce fiyatlandırma altyapısını Dynamics 365 Sales ile kullanma
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Servis gerçekleştirilecek şirket içi varlıklar
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Stok kullanılabilirliği
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Tümleşik çalışan, iş ve pozisyon'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Taraf ve genel adres defteri
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Taraf veri modeli ile Power Portal'ı kullanma
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Taraf ve genel adres defteri modeline yükseltme
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Not tümleştirmesi
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Eşleme referansı
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Çift yazma desteği
+                  items:
+                    - name: Field Service ve Project Service Automation çözümleri için destek
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Aday müşteriden nakde verilerini Veri Tümleştiricisinden çift yazmaya taşıma
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Sorun giderme
+                      items:
+                        - name: Finance and Operations uygulamaları ve Dataverse'teki çift yazma yapılandırmasını doğrulama
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Başlangıç kurulumu sırasında sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Başlangıç eşitlemesi sırasında sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Finance and Operations uygulamalarında çift yazma ile ilgili sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Canlı eşitleme sorunlarını giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Çözüm farkındalığıyla ilgili sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Finance and Operations uygulamalarının yükseltmeleriyle ilgili sorunları giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Genel sorun giderme
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Çift yazmayla ilgili sık sorulan sorular
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Sanal varlıklar
               items:
+                - name: Sanal varlıklara genel bakış
+                  href: power-platform/virtual-entities-overview.md
                 - name: Varlık modelleme
                   href: power-platform/entity-modeling.md
                 - name: Uygulama yaşam döngüsü yönetimi
