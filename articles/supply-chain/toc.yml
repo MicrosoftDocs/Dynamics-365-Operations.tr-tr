@@ -72,7 +72,9 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (Temmuz 2021)
+                    - name: Supply Chain Management 10.0.20 (Temmuz 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (Haziran 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,13 +389,13 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: İş emirleri ayarı
               items:
-                - name: 'Bakım işi türü kategorileri ve bakım iş türleri, bakım iş türü çeşitleri, bakım işi işlemleri ve bakım denetim listeleri'
+                - name: 'Bakım işi türleri, kategoriler, varyantlar, işlemler ve kontrol listeleri'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: İş emri yaşam döngüsü durumları
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
                 - name: İş emri türleri
                   href: asset-management/setup-for-work-orders/work-order-types.md
-                - name: İş emri proje ayarı
+                - name: İş emri proje kurulumu
                   href: asset-management/setup-for-work-orders/work-order-project-setup.md
                 - name: Servis düzeyi ve açıklaması
                   href: asset-management/setup-for-work-orders/service-level-and-description.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
+                    - name: Temel değerlerle karşılaştırmak için oluşturulan ER raporları sonuçlarını izlemeyi iyileştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Mühendislik sürümleri ve mühendislik ürün kategorileri
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Formüllerdeki ve içeriklerindeki değişiklikleri yönetme
+              href: engineering-change-management/manage-formula-changes.md
             - name: Mevcut ürünlerde değişiklik yönetimini etkinleştirme
               href: engineering-change-management/change-management-existing-products.md
             - name: Ürün yaşam döngüsü durumu ve hareketler
@@ -2247,7 +2251,9 @@
               href: production-control/manage-subcontract-work-production.md
             - name: İş kimlikleri için birleşik numara serisi
               href: production-control/unified-job-ids.md
-            - name: Ayrı imalat
+            - name: Kalite emirleri oluşturmak için proses otomasyon akışlarını çağırma
+              href: production-control/process-automation-quality-orders.md
+            - name: Kesikli üretim
               items:
                 - name: Üretim ana verilerini koruma
                   items:
@@ -2337,9 +2343,9 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
                           href: production-control/production-floor-execution-use.md
-                        - name: Üretim katı yürütme için kullanıcı arabirimi denetim stilleri
+                        - name: Üretim katı yürütme arabirimini düzenleme
                           href: production-control/production-floor-execution-styles.md
-                    - name: Cihazlar için iş kartını yapılandırma
+                    - name: Cihazlar için iş kartını konfigüre et
                       href: production-control/config-job-card-device.md
                     - name: İş kartı cihazından tamamlandı olarak bildirme
                       href: production-control/report-finished-job-device.md
@@ -3139,9 +3145,9 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Sevkiyat konsolidasyonu ilkelerini yapılandırma
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: 'Senaryo 1: Satış siparişlerini otomatik serbest bırakma özelliğini kullanarak sevkiyatları ambara serbest bırakıldıklarında konsolide etme'
+                    - name: 'Senaryo 1: Satış siparişlerini otomatik serbest bırakma özelliğini kullanarak ambara serbest bırakılan sevkiyatları konsolide etme'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Senaryo 2: Sevkiyat konsolidasyon ilkesi Ambara serbest bırak sayfasından geçersiz kılındığında sevkiyatları konsolide etme'
+                    - name: 'Senaryo 2: Sevkiyatları sevkiyat konsolidasyonu ilkesi geçersiz kılındığında konsolide etme'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
                     - name: 'Senaryo 3: Sevkiyatları yük planlama çalışma ekranından Ambara serbest bırak özelliğini kullanarak konsolide etme'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
@@ -3297,13 +3303,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Ambar Yönetimi mobil uygulamasında kamera kullanarak barkodları tarama
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Ambar Yönetimi mobil uygulaması için alanları yapılandırma
+                    - name: Warehouse Management mobil uygulaması için alanları yapılandırma
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Ambar işi için mobil cihazları ayarlama
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Adım simgeleri ve başlıkları atama
+                      href: warehousing/step-icons-titles.md
                     - name: Ambar uygulaması olayı işleme
                       href: warehousing/warehouse-app-events.md
-                    - name: Ambar Yönetimi mobil uygulaması aracılığıyla plaka teslim alma
+                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3345,7 +3353,7 @@
               items:
                 - name: Madde model gruplarının başka bir tüzel kişiliğe kopyalanmasında eksik alan ayarları
                   href: troubleshooting/costing/copying-item-model-groups.md
-                - name: '"Süren dolaylı maliyetler" raporu, silinen üretim emirlerini içeriyor'
+                - name: 'Süren dolaylı maliyetler raporu, silinen üretim emirlerini içeriyor'
                   href: troubleshooting/costing/indirect-costs-in-pr.md
                 - name: Sıfır değerli ürün girişi için satın alma tahakkuku sıfır tutarıyla deftere naklediliyor
                   href: troubleshooting/costing/posting-to-purchase.md
@@ -3359,37 +3367,41 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: Bir rapor tamamlanmış olarak tersine çevrildiğinde beklenmedik bir açık işlem oluşuyor
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Malzeme çekme listesi raporunda bir günlüğe eklenen yeni notlar gösterilemiyor
+                - name: 'Malzeme çekme listesi, bir günlüğe eklenen yeni notları göstermez'
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: 'Başlatılan bir karantina emrindeki miktar, sipariş bölündüğünde güncelleştirilemiyor'
                   href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Birden fazla kalite emri oluşturulurken "Son test tarihi" alanı güncelleştirilemiyor
+                - name: Birden fazla kalite emri oluşturulurken Son test tarihi alanı güncelleştirilemiyor
                   href: troubleshooting/inventory/the-field-last-test.md
-                - name: Fiili ağırlık miktarı bölünürken nominal miktar yerine minimum miktar kullanılıyor
+                - name: Fiili ağırlık miktarı bölündüğünde nominal miktar yerine minimum miktar kullanılır
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Master planlama
               items:
                 - name: 'Doğrudan türetilen kesinleştirilmiş siparişler, incelemedeki bir iş akışı tarafından işleniyor'
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Master planlama maddelerini ilgili karşılama grubu değerlerine göre filtreleyemezsiniz
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Master planlama hayali ürünler için planlı siparişler oluşturuyor
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Negatif günler içinde bir satın alma mevcut olduğunda planlı satın alma siparişi oluşturuluyor
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Talep tahmini girişlerine maliyet fiyatı yüklenemiyor
+                - name: 'Talep tahmini kayıtlarını içe aktardığınızda, tahmin edilen birim maliyeti güncelleştirilemiyor'
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Ambar talebi tahmin boyutu tahmin satırlarından kaldırılamıyor
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: Hiçbir değişiklik yapmamış olsanız bile madde karşılama ayarlarını kaydetmeniz istenir
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Tedarik
               items:
-                - name: VEL şirketinde müşteriye yönelik bir satış siparişi faturalandırılamıyor
+                - name: Müşteriyle tarafındaki bir satış siparişini faturalayamazsınız
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Değişiklik isteğinden sonra satın alma talebine satır eklenemiyor
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Ürün bilgileri yönetimi
               items:
-                - name: Serbest bırakılan ürün oluşturmak için şablon uygulanamıyor
+                - name: Serbest bırakılan ürün oluşturmak için şablon uygulayamazsınız
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Serbest bırakılan ürünler V2 varlığı kullanılarak madde içeri aktarılamıyor
+                - name: Serbest bırakılan ürünler V2 varlığını kullanarak bir maddeyi içeri aktaramazsınız
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: Satın alma siparişleri çevrilmiş ürün metnini göstermiyor
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: 'Kullanıcılar, bitmiş olarak bildirilen ürünler için malzeme satırlarını çekmeyi geri alabiliyor'
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Tamamlandı bildirimi günlüğü gönderilirken hata oluşuyor
+                - name: Tamamlandı bildirimi günlüğü deftere nakledildiğinde hata
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Malzeme çekme listesi günlüğündeki ambar bir ürün reçetesi satırında güncelleştirilemiyor
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3453,7 +3465,7 @@
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
                 - name: Durum nedeniyle iş iptal edilemiyor
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: İş engellenmedi
+                - name: İş durdurulmadı
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: İş engellenmeye devam ediyor
                   href: troubleshooting/warehousing/work-remains-blocked.md

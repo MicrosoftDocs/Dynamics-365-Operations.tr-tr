@@ -72,6 +72,8 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (Temmuz 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (Temmuz 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (Mayıs 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Yıl sonu kapanışında eksik açılış bakiyeleri
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Office'te mali günlük şablonlarını açma
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Mali raporlama
           items:
             - name: Mali raporlamayı kullanmaya başlama
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Uzantıları kullanarak vergi tümleştirmesine veri alanları ekleme
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Çoklu KDV kayıt numarası
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Ana veri arama için ortam ayarlama
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Çoklu KDV kayıt numarası
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Birden çok KDV kaydı için raporlama
+                      items:
+                        - name: Birden çok KDV kaydı için raporlama
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Hollanda raporlama
+                          items:
+                            - name: KDV beyannamesi
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: AB satış listesi
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Mevzuat güncelleştirmeleri
               href: localizations/regulatory-updates.md
             - name: Avustralya
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: GSTR raporları için çoklu toplu işlemleri etkinleştirme
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: GST ile ilgili sorunları giderme
+                          items:
+                            - name: Hesaplama sonrasında yalnız vergi tutarı
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Vergi yapılandırma hataları
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Vergi hesaplanmıyor
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: Mahsup kurallarının etkinleştirilmesi beklenenden uzun sürüyor
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans veya fiş oluşturulmaz
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Vergi işlemi kodu yanlış
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Doğrudan vergiler
                   items:
                     - name: Hindistan stopaj vergisi
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Denetim dosyası (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: KDV beyannamesi (Hollanda)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: AB satış listesi
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Norveç
               items:
                 - name: Norveç'e genel bakış
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
+                    - name: Temel değerlerle karşılaştırmak için oluşturulan ER raporları sonuçlarını izlemeyi iyileştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json

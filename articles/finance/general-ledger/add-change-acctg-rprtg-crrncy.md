@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 38b2cdb618d92dca7909a145e7fc07ddfc5f4d45
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 0435deb009173684c7faaf5340e8095c019ec71c
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017067"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085486"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Muhasebe veya raporlama para birimini değiştirme
 
@@ -31,12 +31,12 @@ Bu konuda, muhasebe veya raporlama para biriminin nasıl değiştirileceği ya d
 Muhasebe veya raporlama para birimini değiştirmek ya da genel muhasebe kurulumuna raporlama para birimi eklemek istiyorsunuz. Bu durum genellikle aşağıdaki senaryolarda ortaya çıkar:
 
 - Tüzel kişilik ayarlanırken yanlış muhasebe veya raporlama para birimi belirtilmiş. Şimdi bu para birimini değiştirmek istiyorsunuz.
-- Tüzel kişilik ayarlanırken raporlama para birimi belirtilmemiş. (Raporlama para birimi isteğe bağlıdır.) Şimdi bir raporlama para birimi eklemek istiyorsunuz.
+- Tüzel kişilik ayarlanırken raporlama para birimi belirtilmiş ancak kuruluş şimdi raporlama para birimini kaldırmak istiyor.
+- Kuruluş, Microsoft Dynamics 365 Finance'e yükseltiyor veya geçiyor ve muhasebe ya da raporlama para birimini değiştirmek istiyor.
 
 Daha önce Çift para birimi özelliğini kullanmayan bir kuruluş bunu kullanmaya başlamak istiyor. Bu sorun genellikle aşağıdaki senaryolarda ortaya çıkar.
 
-- Tüzel kişilik ayarlanırken raporlama para birimi belirtilmiş ancak kuruluş şimdi raporlama para birimini kaldırmak istiyor.
-- Kuruluş, Microsoft Dynamics 365 Finance'e yükseltiyor veya geçiyor ve muhasebe ya da raporlama para birimini değiştirmek istiyor.
+- Tüzel kişilik ayarlanırken raporlama para birimi belirtilmemiş. (Raporlama para birimi isteğe bağlıdır.) Şimdi bir raporlama para birimi eklemek istiyorsunuz.
 
 ## <a name="resolution"></a>Çözüm
 

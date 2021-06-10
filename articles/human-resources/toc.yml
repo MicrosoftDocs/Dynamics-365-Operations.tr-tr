@@ -3,8 +3,10 @@
   items:
     - name: Yenilikler
       items:
-        - name: Human Resources'taki yenilikler veya değişiklikler
+        - name: Human Resources'daki yenilikler veya değişiklikler
           href: hr-admin-whats-new.md
+        - name: 20 Mayıs 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 Mayıs 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 Nisan 2021
@@ -785,8 +787,14 @@
           items:
             - name: Performans yönetimine genel bakış
               href: hr-develop-performance-management-overview.md
-            - name: İş gücü becerilerini dengeleme
-              href: hr-develop-skills.md
+            - name: Yetenekler
+              items:
+                - name: Becerileri yapılandırma
+                  href: hr-develop-skills.md
+                - name: Beceriler girme
+                  href: hr-develop-enter-skills.md
+                - name: Becerileri eşleştirme
+                  href: hr-develop-map-skills.md
             - name: Performans günlüğünüze ekleme
               href: hr-develop-add-performance-journal.md
             - name: Hedef oluşturma
