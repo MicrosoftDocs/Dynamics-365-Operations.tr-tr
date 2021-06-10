@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,42 +15,42 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3cddc6205660b48abd9067bfdcaa04c9d2ba541
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1bfbd7347581e57edcab39a675b17ef66e262582
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790920"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059028"
 ---
-# <a name="process-life-event-changes"></a><span data-ttu-id="0412f-103">Ömür olayı değişikliklerini işle</span><span class="sxs-lookup"><span data-stu-id="0412f-103">Process life event changes</span></span>
+# <a name="process-life-event-changes"></a><span data-ttu-id="b2e06-103">Ömür olayı değişikliklerini işle</span><span class="sxs-lookup"><span data-stu-id="b2e06-103">Process life event changes</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="0412f-104">Ömür olayı değişiklikleri için Microsoft Dynamics 365 Human Resources'ta iki ömür olayı değişikliklerini işleyin.</span><span class="sxs-lookup"><span data-stu-id="0412f-104">Process life event changes in Microsoft Dynamics 365 Human Resources for two life event changes:</span></span>
+<span data-ttu-id="b2e06-104">Ömür olayı değişiklikleri için Microsoft Dynamics 365 Human Resources'ta iki ömür olayı değişikliklerini işleyin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-104">Process life event changes in Microsoft Dynamics 365 Human Resources for two life event changes:</span></span>
 
-- <span data-ttu-id="0412f-105">Doğum günü değişiklikleri</span><span class="sxs-lookup"><span data-stu-id="0412f-105">Birthday changes</span></span>
-- <span data-ttu-id="0412f-106">Uygunluk kuralı geçersiz kılma süresi değişiklikleri</span><span class="sxs-lookup"><span data-stu-id="0412f-106">Eligibility rule override expiration changes</span></span> 
+- <span data-ttu-id="b2e06-105">Doğum günü değişiklikleri</span><span class="sxs-lookup"><span data-stu-id="b2e06-105">Birthday changes</span></span>
+- <span data-ttu-id="b2e06-106">Uygunluk kuralı geçersiz kılma süresi değişiklikleri</span><span class="sxs-lookup"><span data-stu-id="b2e06-106">Eligibility rule override expiration changes</span></span> 
 
-1. <span data-ttu-id="0412f-107">**Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Ömür olayı değişimi işlemini** seçin.</span><span class="sxs-lookup"><span data-stu-id="0412f-107">In the **Benefits management** workspace, under **Processing**, select **Life event change processing**.</span></span>
+1. <span data-ttu-id="b2e06-107">**Sosyal haklar** yönetimi çalışma alanında, **işlem** altında, **Ömür olayı değişimi işlemini** seçin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-107">In the **Benefits management** workspace, under **Processing**, select **Life event change processing**.</span></span>
 
-2. <span data-ttu-id="0412f-108">**Ömür olayı değişimi işlemini çalıştır** iletişim kutusunda, aşağıdaki alanlar için değer belirtin:</span><span class="sxs-lookup"><span data-stu-id="0412f-108">In the **Run life event change process** dialog box, specify values for the following fields:</span></span>
+2. <span data-ttu-id="b2e06-108">**Ömür olayı değişimi işlemini çalıştır** iletişim kutusunda, aşağıdaki alanlar için değer belirtin:</span><span class="sxs-lookup"><span data-stu-id="b2e06-108">In the **Run life event change process** dialog box, specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="0412f-109">Alan</span><span class="sxs-lookup"><span data-stu-id="0412f-109">Field</span></span> | <span data-ttu-id="0412f-110">Tanım</span><span class="sxs-lookup"><span data-stu-id="0412f-110">Description</span></span> |
+   | <span data-ttu-id="b2e06-109">Alan</span><span class="sxs-lookup"><span data-stu-id="b2e06-109">Field</span></span> | <span data-ttu-id="b2e06-110">Tanım</span><span class="sxs-lookup"><span data-stu-id="b2e06-110">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="0412f-111">Kayıt dönemi</span><span class="sxs-lookup"><span data-stu-id="0412f-111">Enrollment period</span></span> | <span data-ttu-id="0412f-112">Ömür olayı değişiklikleri işleyecek kayıt dönemi.</span><span class="sxs-lookup"><span data-stu-id="0412f-112">The enrollment period to process life event changes for.</span></span> |
-   | <span data-ttu-id="0412f-113">Tüzel kişilik</span><span class="sxs-lookup"><span data-stu-id="0412f-113">Legal entity</span></span> | <span data-ttu-id="0412f-114">Ömür olayı değişiklikleri işleyecek yasal varlık.</span><span class="sxs-lookup"><span data-stu-id="0412f-114">The legal entity to process life event changes for.</span></span> |
+   | <span data-ttu-id="b2e06-111">Kayıt dönemi</span><span class="sxs-lookup"><span data-stu-id="b2e06-111">Enrollment period</span></span> | <span data-ttu-id="b2e06-112">Ömür olayı değişiklikleri işleyecek kayıt dönemi.</span><span class="sxs-lookup"><span data-stu-id="b2e06-112">The enrollment period to process life event changes for.</span></span> |
+   | <span data-ttu-id="b2e06-113">Tüzel kişilik</span><span class="sxs-lookup"><span data-stu-id="b2e06-113">Legal entity</span></span> | <span data-ttu-id="b2e06-114">Ömür olayı değişiklikleri işleyecek yasal varlık.</span><span class="sxs-lookup"><span data-stu-id="b2e06-114">The legal entity to process life event changes for.</span></span> |
 
-3. <span data-ttu-id="0412f-115">İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:</span><span class="sxs-lookup"><span data-stu-id="0412f-115">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="b2e06-115">İşlemi arka planda çalıştırmak istiyorsanız, **arka planda Çalıştır** 'ı seçin ve aşağıdaki görevleri gerçekleştirin:</span><span class="sxs-lookup"><span data-stu-id="b2e06-115">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="0412f-116">İşlem bilgilerini girin.</span><span class="sxs-lookup"><span data-stu-id="0412f-116">Enter information for the process.</span></span>
+   1. <span data-ttu-id="b2e06-116">İşlem bilgilerini girin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-116">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="0412f-117">Tekrarlayan iş ayarlamak için **tekrarlama**'yı seçin, yinelenme bilgilerini girin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="0412f-117">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="b2e06-117">Tekrarlayan iş ayarlamak için **tekrarlama**'yı seçin, yinelenme bilgilerini girin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-117">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="0412f-118">İş uyarısı ayarlamak için, **uyarılar**'ı seçin, alınacak uyarıları seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="0412f-118">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="b2e06-118">İş uyarısı ayarlamak için, **uyarılar**'ı seçin, alınacak uyarıları seçin ve **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-118">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="0412f-119">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="0412f-119">Select **OK**.</span></span> <span data-ttu-id="0412f-120">İşlem, ayarladığınız parametrelerle çalışacaktır.</span><span class="sxs-lookup"><span data-stu-id="0412f-120">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="b2e06-119">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-119">Select **OK**.</span></span> <span data-ttu-id="b2e06-120">İşlem, ayarladığınız parametrelerle çalışacaktır.</span><span class="sxs-lookup"><span data-stu-id="b2e06-120">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="0412f-121">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="0412f-121">Select **OK**.</span></span>
+4. <span data-ttu-id="b2e06-121">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="b2e06-121">Select **OK**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

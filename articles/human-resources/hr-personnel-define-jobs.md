@@ -8,68 +8,67 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 539f465f148229c48200feaf795ec775c3b76874
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff331ace04602075cd7d61aa04439cae52cf4bab
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793501"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058860"
 ---
-# <a name="define-new-jobs"></a><span data-ttu-id="5ce9c-103">Yeni işler tanımlama</span><span class="sxs-lookup"><span data-stu-id="5ce9c-103">Define new jobs</span></span>
+# <a name="define-new-jobs"></a><span data-ttu-id="ca276-103">Yeni işler tanımlama</span><span class="sxs-lookup"><span data-stu-id="ca276-103">Define new jobs</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="5ce9c-104">Bu görevde yeni iş oluşturmaya odaklanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="5ce9c-105">El ile giriş ve şablondan kopyalama işlevleri kullanılarak tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="5ce9c-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="5ce9c-107">Bu görev, insan kaynakları uzmanlarına yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-107">This task is intended for the human resources specialist.</span></span>
+<span data-ttu-id="ca276-104">Bu görevde yeni iş oluşturmaya odaklanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="ca276-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="ca276-105">El ile giriş ve şablondan kopyalama işlevleri kullanılarak tamamlanır.</span><span class="sxs-lookup"><span data-stu-id="ca276-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="ca276-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="ca276-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ca276-107">Bu görev, insan kaynakları uzmanlarına yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="ca276-107">This task is intended for the human resources specialist.</span></span>
 
-1. <span data-ttu-id="5ce9c-108">İnsan kaynakları > İşler > İşler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-108">Go to Human resources > Jobs > Jobs.</span></span>
-2. <span data-ttu-id="5ce9c-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-109">Click New.</span></span>
-3. <span data-ttu-id="5ce9c-110">İş alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-110">In the Job field, type a value.</span></span>
-4. <span data-ttu-id="5ce9c-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="5ce9c-112">İş için kullanılacak standart bir başlık seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-112">Select a standard title that will be used for the job.</span></span> 
-    * <span data-ttu-id="5ce9c-113">Girilen başlık, işe atanan yeni pozisyonlar için varsayılan değer olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
-6. <span data-ttu-id="5ce9c-114">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="5ce9c-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="5ce9c-116">Maksimum pozisyon sayısı grubunda "Maksimum pozisyon"u seçin</span><span class="sxs-lookup"><span data-stu-id="5ce9c-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
-9. <span data-ttu-id="5ce9c-117">Maksimum pozisyon sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-117">Enter the maximum number of positions.</span></span> 
-    * <span data-ttu-id="5ce9c-118">Pozisyon atamalarının, buraya girilen en yüksek değeri aşmasına izin verilmez.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
-10. <span data-ttu-id="5ce9c-119">Açıklama bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-119">Toggle the expansion of the Description section.</span></span>
-11. <span data-ttu-id="5ce9c-120">Not alanına İş için bir standart bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
-    * <span data-ttu-id="5ce9c-121">Açıklama, burada tanımlanmış işe atanan tüm pozisyonlar için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-121">The description applies to all positions assigned to the job defined here.</span></span>  
-12. <span data-ttu-id="5ce9c-122">İş sınıflandırması bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-122">Toggle the expansion of the Job classification section.</span></span>
-13. <span data-ttu-id="5ce9c-123">İnsan kaynaklarında standart raporlamada kullanılacak bir iş işlevi seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
-14. <span data-ttu-id="5ce9c-124">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-124">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="5ce9c-125">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-125">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="5ce9c-126">Kuruluşunuzda işleri daha ayrıntılı sınıflandırmak için bir İş türü seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-126">Select a Job type to further classify jobs within your organization.</span></span> 
-    * <span data-ttu-id="5ce9c-127">İş türleri tüm İnsan Kaynakları'ndaki raporlarda kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-127">Job types can be used in reporting throughout Human resources.</span></span>  
-17. <span data-ttu-id="5ce9c-128">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-128">In the list, find and select the desired record.</span></span>
-18. <span data-ttu-id="5ce9c-129">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-129">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="5ce9c-130">Ücret bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-130">Toggle the expansion of the Compensation section.</span></span>
-20. <span data-ttu-id="5ce9c-131">Ücret düzeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-131">Select a compensation level.</span></span>
-    * <span data-ttu-id="5ce9c-132">Ücret düzeyi, bir personelin o işte alabileceği Minimum ve Maksimum ücret düzeyini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="5ce9c-133">Ücret kuralları, personelin ücretinin aralık dışında olup olmadığını belirler.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
-21. <span data-ttu-id="5ce9c-134">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-134">In the list, find and select the desired record.</span></span>
-22. <span data-ttu-id="5ce9c-135">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-135">In the list, click the link in the selected row.</span></span>
-23. <span data-ttu-id="5ce9c-136">Yetenekler bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-136">Toggle the expansion of the Skills section.</span></span>
-    * <span data-ttu-id="5ce9c-137">Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="5ce9c-138">Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
-24. <span data-ttu-id="5ce9c-139">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-139">Click Save.</span></span>
-25. <span data-ttu-id="5ce9c-140">Kopyalama kaynağı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-140">Click Copy from.</span></span>
-26. <span data-ttu-id="5ce9c-141">Şablondan kopyala'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-141">Click Copy from template.</span></span>
-27. <span data-ttu-id="5ce9c-142">İş şablonu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
-28. <span data-ttu-id="5ce9c-143">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-143">In the list, find and select the desired record.</span></span>
-29. <span data-ttu-id="5ce9c-144">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-144">In the list, click the link in the selected row.</span></span>
-30. <span data-ttu-id="5ce9c-145">Not seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-145">Click the Note option.</span></span>
-    * <span data-ttu-id="5ce9c-146">Yalnızca seçtiğiniz öğeler seçili işe kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-146">Only those items you select will be copied to the selected job.</span></span>    
-31. <span data-ttu-id="5ce9c-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-147">Click OK.</span></span>
-32. <span data-ttu-id="5ce9c-148">Sertifikalar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-148">Toggle the expansion of the Certificates section.</span></span>
-33. <span data-ttu-id="5ce9c-149">Eğitim bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-149">Toggle the expansion of the Education section.</span></span>
-34. <span data-ttu-id="5ce9c-150">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce9c-150">Click Save.</span></span>
+1. <span data-ttu-id="ca276-108">İnsan kaynakları > İşler > İşler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="ca276-108">Go to Human resources > Jobs > Jobs.</span></span>
+2. <span data-ttu-id="ca276-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-109">Click New.</span></span>
+3. <span data-ttu-id="ca276-110">İş alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="ca276-110">In the Job field, type a value.</span></span>
+4. <span data-ttu-id="ca276-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="ca276-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="ca276-112">İş için kullanılacak standart bir başlık seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-112">Select a standard title that will be used for the job.</span></span> 
+    * <span data-ttu-id="ca276-113">Girilen başlık, işe atanan yeni pozisyonlar için varsayılan değer olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="ca276-113">The title entered will be used as a default for new positions assigned to the job.</span></span>  
+6. <span data-ttu-id="ca276-114">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="ca276-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="ca276-116">Maksimum pozisyon sayısı grubunda "Maksimum pozisyon"u seçin</span><span class="sxs-lookup"><span data-stu-id="ca276-116">In the Maximum number of positions group, select 'Maximum positions'</span></span>
+9. <span data-ttu-id="ca276-117">Maksimum pozisyon sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="ca276-117">Enter the maximum number of positions.</span></span> 
+    * <span data-ttu-id="ca276-118">Pozisyon atamalarının, buraya girilen en yüksek değeri aşmasına izin verilmez.</span><span class="sxs-lookup"><span data-stu-id="ca276-118">Position assignments will not be allowed above the maximum value entered here.</span></span>  
+10. <span data-ttu-id="ca276-119">Açıklama bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-119">Toggle the expansion of the Description section.</span></span>
+11. <span data-ttu-id="ca276-120">Not alanına İş için bir standart bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="ca276-120">In the Note field, enter 'Enter a standard description for the Job.</span></span>
+    * <span data-ttu-id="ca276-121">Açıklama, burada tanımlanmış işe atanan tüm pozisyonlar için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="ca276-121">The description applies to all positions assigned to the job defined here.</span></span>  
+12. <span data-ttu-id="ca276-122">İş sınıflandırması bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-122">Toggle the expansion of the Job classification section.</span></span>
+13. <span data-ttu-id="ca276-123">İnsan kaynaklarında standart raporlamada kullanılacak bir iş işlevi seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-123">Select a job function that will be used in standard reporting within Human resources.</span></span>
+14. <span data-ttu-id="ca276-124">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-124">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="ca276-125">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-125">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="ca276-126">Kuruluşunuzda işleri daha ayrıntılı sınıflandırmak için bir İş türü seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-126">Select a Job type to further classify jobs within your organization.</span></span> 
+    * <span data-ttu-id="ca276-127">İş türleri tüm İnsan Kaynakları'ndaki raporlarda kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="ca276-127">Job types can be used in reporting throughout Human resources.</span></span>  
+17. <span data-ttu-id="ca276-128">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-128">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="ca276-129">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-129">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="ca276-130">Ücret bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-130">Toggle the expansion of the Compensation section.</span></span>
+20. <span data-ttu-id="ca276-131">Ücret düzeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-131">Select a compensation level.</span></span>
+    * <span data-ttu-id="ca276-132">Ücret düzeyi, bir personelin o işte alabileceği Minimum ve Maksimum ücret düzeyini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="ca276-132">The compensation level will define the Minimum and Maximum compensation an employee may have for the job.</span></span> <span data-ttu-id="ca276-133">Ücret kuralları, personelin ücretinin aralık dışında olup olmadığını belirler.</span><span class="sxs-lookup"><span data-stu-id="ca276-133">Compensation rules will determine if employees' compensation can be outside the range.</span></span>  
+21. <span data-ttu-id="ca276-134">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-134">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="ca276-135">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-135">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="ca276-136">Yetenekler bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-136">Toggle the expansion of the Skills section.</span></span>
+    * <span data-ttu-id="ca276-137">Yetenekler, Eğitim ve Sertifikalar hızlı sekmelerindeki alanların boş olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="ca276-137">Note that the fields in the Skills, Education and Certificates FastTabs are blank.</span></span> <span data-ttu-id="ca276-138">Bir iş şablonundaki bilgileri kopyaladıktan sonra bu alanlardaki bilgiler tek bir adımda girilir.</span><span class="sxs-lookup"><span data-stu-id="ca276-138">After copying information from a job template, information in these fields will be entered in a single step.</span></span>   
+24. <span data-ttu-id="ca276-139">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-139">Click Save.</span></span>
+25. <span data-ttu-id="ca276-140">Kopyalama kaynağı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-140">Click Copy from.</span></span>
+26. <span data-ttu-id="ca276-141">Şablondan kopyala'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-141">Click Copy from template.</span></span>
+27. <span data-ttu-id="ca276-142">İş şablonu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="ca276-142">In the Job template field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="ca276-143">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-143">In the list, find and select the desired record.</span></span>
+29. <span data-ttu-id="ca276-144">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-144">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="ca276-145">Not seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-145">Click the Note option.</span></span>
+    * <span data-ttu-id="ca276-146">Yalnızca seçtiğiniz öğeler seçili işe kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="ca276-146">Only those items you select will be copied to the selected job.</span></span>    
+31. <span data-ttu-id="ca276-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-147">Click OK.</span></span>
+32. <span data-ttu-id="ca276-148">Sertifikalar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-148">Toggle the expansion of the Certificates section.</span></span>
+33. <span data-ttu-id="ca276-149">Eğitim bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ca276-149">Toggle the expansion of the Education section.</span></span>
+34. <span data-ttu-id="ca276-150">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ca276-150">Click Save.</span></span>
 
 
 
