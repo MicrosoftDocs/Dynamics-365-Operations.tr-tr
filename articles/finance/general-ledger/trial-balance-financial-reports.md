@@ -1,8 +1,8 @@
 ---
 title: Mizan mali raporları
 description: Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816943"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103670"
 ---
 # <a name="trial-balance-financial-reports"></a>Mizan mali raporları
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816943"
 
 Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır. 
 
-<a name="default-trial-balance-reports"></a>Varsayılan mizan raporları
------------------------------
+## <a name="default-trial-balance-reports"></a>Varsayılan mizan raporları
 
 Mali raporlama için üç mizan raporu kullanılabilir.
 
@@ -47,6 +46,9 @@ Mizan mali raporları aşağıdaki yapı taşlarını kullanır.
 | Ayrıntılı Mizan - Varsayılan               | Mizan - Varsayılan | Ayrıntılı Mizan - Varsayılan               |
 | Özet Mizan – Varsayılan                | Mizan - Varsayılan | Özet Mizan - Varsayılan                |
 | Özet Mizan Yıl Yıl – Varsayılan | Mizan - Varsayılan | Özet Mizan Yıl Yıl - Varsayılan |
+
+> [!NOTE] 
+> Mali raporlamada **Mizan** raporunu çalıştırırken **Tutarsız satırları görüntüle** ve **Ayarlar** sekmesinde **etkin satır olmayan raporları görüntüle** onay kutularını seçtiğinizden emin olun.
 
 ### <a name="row-definition"></a>Satır tanımı
 
@@ -94,10 +96,7 @@ Her bir mizan raporunu farklı bir sütun tanımı kullanır. Bu sütun tanımla
     -   **FD** – Geçen yıl için yalnızca borçları içeren mali veriler
     -   **FD** – Geçen yıl için yalnızca alacakları içeren mali veriler
 
-
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlamaya genel bakış](financial-reporting-getting-started.md)
 

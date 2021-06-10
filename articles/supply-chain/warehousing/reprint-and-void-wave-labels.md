@@ -1,22 +1,22 @@
 ---
 title: Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
 description: Bu konu, mevcut dalga etiketlerinin nasıl hükümsüz kılınacağını ve yeniden yazdırılacağını açıklamaktadır.
-author: GarmMSFT
+author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: PJacobse
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0b309a0e40541463db4d71fa9e7cac5db2d799be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: caba37d3e7bb5d2f08a8c10ff0f0e1bc886e5648
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817377"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102770"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma
 

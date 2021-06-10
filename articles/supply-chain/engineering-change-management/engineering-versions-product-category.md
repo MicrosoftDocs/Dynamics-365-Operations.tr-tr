@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920169"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115157"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Mühendislik sürümleri ve mühendislik ürünü kategorileri
 
@@ -48,7 +48,8 @@ Mühendislik ürünlerini kullandığınızda, her ürünün en az bir mühendis
 - Ürünü oluşturan ve ürünün sahibi olan mühendislik şirketi (Daha fazla bilgi için bkz. [Mühendislik şirketleri ve veri sahipliği kuralları](engineering-org-data-ownership-rules.md).)
 - Montaj kılavuzu, kullanım talimatları, resimler ve bağlantılar gibi ilgili mühendislik belgeleri
 - Mühendislik öznitelikleri (Daha fazla bilgi için bkz. [Mühendislik öznitelikleri ve mühendislik özniteliği araması](engineering-attributes-and-search.md).)
-- Mühendislik ürün reçeteleri
+- Mühendislik ürünleri için ürün reçetesi (BOM)
+- Süreç üretimi ürünleri için formüller
 - Mühendislik rotaları
 
 Bu verileri var olan bir sürümde güncelleştirebilir veya bir *mühendislik değişikliği emri* kullanarak yeni bir sürüm oluşturabilirsiniz. (Daha fazla bilgi için bkz. [Mühendislik ürünlerindeki değişiklikleri yönetme](engineering-change-management.md).) Bir ürünün yeni bir sürümünü oluşturursanız sistem mühendislikle ilgili tüm verileri bu yeni sürüme kopyalar. Daha sonra bu yeni sürümün verilerini değiştirebilirsiniz. Bu şekilde, ardışık her sürüm için belirli verileri izleyebilirsiniz. Ardışık mühendislik sürümleri arasındaki farkları karşılaştırmak için tüm değişiklikleri gösteren değişiklik türlerini içeren mühendislik değişikliği emrini inceleyin.
@@ -110,6 +111,8 @@ Mühendislik ürünü kategorisinin **Ayrıntılar** hızlı sekmesinde aşağı
 | Alan | Tanım |
 |---|---|
 | Ürün türü | Kategorinin ürünler veya hizmetler için geçerli olup olmadığını seçin. |
+| Üretim türü | Bu alan yalnızca sisteminizde [formül değişikliği yönetimini](manage-formula-changes.md) etkinleştirdiğinizde görünür. Bu mühendislik ürün kategorisinin geçerli olduğu üretim türünü seçin:<ul><li>**Planlama maddesi** – Planlama maddeleri için formül değişikliği yönetimi yapmak üzere bu mühendislik kategorisini kullanın. Planlama maddeleri formüller kullanır. Formül öğelerine benzerler, ancak bitmiş ürünler değil, yalnızca ortak ürünler ve yan ürünler üretmek için kullanılırlar. Formüller proses üretimi sırasında kullanılır.</li><li>**Ürün reçetesi** – Formül kullanmayan ve genellikle (ancak zorunlu değil) ürün reçetelerini içermeyen mühendislik ürünlerini yönetmek için bu mühendislik kategorisini kullanın.</li><li>**Formül** – Bitmiş ürünler için formül değişikliği yönetimi yapmak üzere bu mühendislik kategorisini kullanın. Bu maddelerin bir formülü olacak, ancak ürün reçetesi olmayacak. Formüller proses üretimi sırasında kullanılır.</li></ul> |
+| Fiili ağırlık | Bu seçenek yalnızca sisteminizde [formül değişikliği yönetimini](manage-formula-changes.md) etkinleştirdiğinizde görünür. Yalnızca **Üretim türü** alanı *Planlama maddesi* veya *Formül* olarak ayarlandığında kullanılabilir. Ağırlık desteği gerektiren öğeleri yönetmek için bu mühendislik kategorisini kullanacaksanız, bu seçeneği *Evet* olarak ayarlayın. |
 | Hareketlerde sürümleri izleme | Ürünün sürümünün tüm hareketlere damgalanıp damgalanmayacağını (lojistik etki) seçin. Örneğin, hareketlerde sürümü izliyorsanız her satış siparişi, belirli bir satış siparişinde ürünün hangi sürümünün satıldığını gösterir. Hareketlerde sürümü izlemiyorsanız satış siparişleri hangi sürümün satıldığını göstermez. Bunun yerine, her zaman en son sürümünü gösterirler.<ul><li>Bu seçenek *Evet* olarak ayarlanırsa ürün için bir ana ürün oluşturulur ve ürünün her sürümü *sürüm* ürün boyutunu kullanan bir varyant olur. **Ürün alt türü** alanı otomatik olarak *Ana ürün* olarak ayarlanır ve **Ürün boyutu grubu** alanında sürüm boyutunun *etkin* olduğu bir ürün boyutu grubu seçmeniz gerekir. Yalnızca *sürümün* etkin bir boyut olduğu ürün boyutu grupları gösterilir. **Düzenle** düğmesini (kalem simgesi) seçerek yeni ürün boyutu grupları oluşturabilirsiniz.</li><li>Bu seçenek *Hayır* olarak ayarlıysa *sürüm* ürün boyutu kullanılmaz. Daha sonra, bir ürün mü yoksa diğer boyutları kullanan bir ana ürün mü oluşturup oluşturmayacağınızı seçebilirsiniz.</li></ul><p>Bu seçenek genellikle sürümler arasında maliyet farkı olan ürünler veya müşteriyle ilgili olarak farklı koşulların geçerli olduğu ürünler için kullanılır. Bu nedenle, her harekette hangi sürümün kullanıldığını belirtmek önemlidir.</p> |
 | Ürün alt türü | Kategorinin ürün veya ana ürünleri barındırıp barındırmayacağını seçin. Ana ürünler için ürün boyutları kullanılacaktır.
 | Ürün boyut grubu | **Hareketlerde sürümleri izle** ayarı, ürün boyut grubunu seçmenize yardımcı olur. Hareketlerde sürümü izlemek istediğinizi belirtirseniz *sürüm* boyutunun kullanıldığı ürün boyutu grupları gösterilir. Aksi takdirde, yalnızca *sürüm* boyutunun kullanılmadığı ürün boyutu grupları gösterilir. |
@@ -139,7 +142,10 @@ Kılavuza eklediğiniz her satır için aşağıdaki alanları ayarlayın.
 
 ### <a name="readiness-policy-fasttab"></a>Hazırlık ilkesi hızlı sekmesi
 
-Bu kategoriye ait ürünlerde geçerli olan hazırlık ilkesini seçmek için **Ürün hazırlık ilkesi** alanını kullanın. Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).
+Bu mühendislik kategorisine bağlı olarak oluşturulan ürünler için geçerli olması gereken hazırlık ilkesini seçmek için **Ürün hazırlık ilkesi** alanını kullanın. Daha fazla bilgi için bkz. [Ürün hazırlığı](product-readiness.md).
+
+> [!NOTE]
+> Sisteminizdeki **Ürün hazırlık denetimleri** özelliğini açtıysanız *Ürün hazırlık politikası* alanı biraz farklı çalışır. (Bu özellik, standart \[mühendislik dışı\] ürünlere hazırlık ilkeleri uygulamanızı sağlar). Daha fazla bilgi için, bkz. [Standart ve mühendislik ürünlerine hazırlık politikaları atama](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>Serbest bırakma ilkesi hızlı sekmesi
 

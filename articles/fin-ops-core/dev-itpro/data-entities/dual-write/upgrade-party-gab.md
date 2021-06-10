@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018324"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112685"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018324"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-[Azure Data Factory template](https://aka.ms/dual-write-gab-adf), çift yazmadaki mevcut **Hesap**, **İlgili Kişi** ve **Satıcı** tablo verilerini taraf ve genel adres defteri modeline yükseltmenize yardımcı olur. Şablon, Finance and Operations uygulamaları ve müşteri etkileşimi uygulamalarındaki veriler arasında mutabakat sağlar. İşlemin sonunda, **Taraf** kayıtlarına ait **Taraf** ve **İlgili Kişi** alanları oluşturulur ve müşteri etkileşimi uygulamalarındaki **Hesap**, **İLgili Kişi** ve **Satıcı** kayıtlarıyla ilişkilendirilir. Finance and Operations uygulaması içinde yeni **Taraf** kayıtları oluşturmak için bir .csv dosyası (`FONewParty.csv`) oluşturulur. Bu konu, Data Factory şablonunu kullanma ve verilerinizi yükseltme yönergelerini sağlamaktadır.
+[Microsoft Azure Data Factory şablonu](https://aka.ms/dual-write-gab-adf), çift yazmadaki mevcut **Hesap**, **İlgili Kişi** ve **Satıcı** tablo verilerini taraf ve genel adres defteri modeline yükseltmenize yardımcı olur. Şablon, Finance and Operations uygulamaları ve müşteri etkileşimi uygulamalarındaki veriler arasında mutabakat sağlar. İşlemin sonunda, **Taraf** kayıtlarına ait **Taraf** ve **İlgili Kişi** alanları oluşturulur ve müşteri etkileşimi uygulamalarındaki **Hesap**, **İLgili Kişi** ve **Satıcı** kayıtlarıyla ilişkilendirilir. Finance and Operations uygulaması içinde yeni **Taraf** kayıtları oluşturmak için bir .csv dosyası (`FONewParty.csv`) oluşturulur. Bu konu, Data Factory şablonunu kullanma ve verilerinizi yükseltme yönergelerini sağlamaktadır.
 
 Herhangi bir özelleştirmeleriniz yoksa, şablonu olduğu gibi kullanabilirsiniz. **Hesap**, **İlgili Kişi** ve **Satıcı** için özelleştirmeleriniz varsa aşağıdaki yönergeleri kullanarak şablonu değiştirmeniz gerekir.
 
-> [!Note]
+> [!NOTE]
 > Şablon yalnızca **Taraf** verilerini yükseltmeye yardımcı olur. Gelecek bir sürümde, posta ve elektronik adresler de dahil edilecektir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu önkoşullar gereklidir:
+Parti ve genel adres defteri modeline yükseltmek için aşağıdaki önkoşullar gereklidir:
 
 + [Azure aboneliği](https://portal.azure.com/)
 + [Şablona erişim](https://aka.ms/dual-write-gab-adf)
-+ Mevcut bir çift yazma müşterisi olmak.
++ Mevcut bir çift yazma müşterisi olmanız gerekir.
 
 ## <a name="prepare-for-the-upgrade"></a>Yükseltmek için hazırlık
+Yükseltmeye hazırlanmak için aşağıdaki etkinlikler gereklidir:
 
 + **Tamamen eşitlenmiş**: Her iki ortam **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** için tamamen eşitlenmiş durumda.
 + **Tümleştirme anahtarları**: Müşteri etkileşimi uygulamalarındaki **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** tabloları kullanıma hazır gönderilen tümleştirme anahtarlarını kullanıyor. Tümleştirme anahtarlarını özelleştirdiyseniz, şablonu özelleştirmeniz gerekir.
 + **Taraf numarası**: Yükseltilecek tüm **Hesap (Müşteri)**, **İlgili Kişi** ve **Satıcı** kayıtlarında bir **Taraf** numarası bulunur. **Taraf** numarası olmayan kayıtlar yok sayılır. Bu kayıtları yükseltmek istiyorsanız, yükseltme işlemine başlamadan önce onlara bir **Taraf** numarası ekleyin.
-+ **Sistem kesintisi**: Yükseltme işlemi sırasında, hem Finance and Operations hem de müşteri etkileşimi uygulamalarını çevrimdışına almanız gerekir.
-+ **Anlık görüntü**: Hem Finance and Operations hem de müşteri etkileşimi uygulamalarının anlık görüntüsünü alın. Gerekirse önceki durumu geri yüklemek için anlık görüntüleri kullanın.
++ **Sistem kesintisi**: Yükseltme işlemi sırasında, hem Finance and Operations hem de Customer Engagement uygulamalarını çevrimdışına almanız gerekir.
++ **Anlık görüntü**: Hem Finance and Operations hem de Customer Engagement uygulamalarının anlık görüntüsünü alın. Gerekirse önceki durumu geri yüklemek için anlık görüntüleri kullanın.
 
 ## <a name="deployment"></a>Dağıtım
 
@@ -78,15 +79,19 @@ Bu önkoşullar gereklidir:
     FO Linked Service_properties_type Properties_tenant | Uygulamanızın altında bulunduğu kiracı bilgilerini (etki alanı adı veya kiracı kimliği) belirtin.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | Uygulamanın istemci kimliğini belirtin.
-    Dynamics Crm Linked Service_properties_type Properties_username | Dynamics'e bağlanmak için kullanıcı adı.
+    Dynamics Crm Linked Service_properties_type Properties_username | Dynamics 365'e bağlanmak için kullanıcı adı.
 
-    Daha fazla bilgi için bkz. [Her ortam için el ile bir Resource Manager şablonu yükseltme](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Bağlantılı hizmet özellikleri](/azure/data-factory/connector-dynamics-ax#linked-service-properties) ve [Azure Data Factory kullanarak veri kopyalama](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Daha fazla bilgi için aşağıdaki konulardan birine başvurun: 
+    
+    - [Her ortam için kaynak yöneticisi şablonunu el ile yükseltme](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Bağlı hizmet özellikleri](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Azure Data Factory kullanarak veri kopyalama](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Dağıtımdan sonra, veri fabrikasının bağlantılı hizmetini, veri kümelerini ve veri akışını doğrulayın.
 
    ![Veri kümeleri, veri akışı ve bağlantılı hizmet](media/data-factory-validate.png)
 
-11. **Yönet**'e gidin. **Bağlantılar** altından, **Bağlantılı Hizmet**'i seçin. **DynamicsCrmLinkedService** öğesini seçin. **Bağlantılı hizmeti düzenle ( Dynamics CRM)** formuna aşağıdaki değerleri girin:
+11. **Yönet**'e gidin. **Bağlantılar** altından, **Bağlantılı Hizmet**'i seçin. **DynamicsCrmLinkedService** öğesini seçin. **Bağlantılı hizmeti düzenle ( Dynamics CRM)** formuna aşağıdaki değerleri girin.
 
     Alan | Değer
     ---|---
@@ -102,7 +107,7 @@ Bu önkoşullar gereklidir:
 
 ## <a name="run-the-template"></a>Şablonu çalıştır
 
-1. Finance and Operations uygulamasını kullanarak aşağıdaki **Hesap**, **İlgili Kişi** ve **Satıcı** çift yazmasını durdurun.
+1. Finance and Operations uygulamasını kullanarak aşağıdaki **Hesap**, **İlgili Kişi** ve **Satıcı** çift yazma eşlemelerini durdurun.
 
     + Müşteriler V3 (hesaplar)
     + Müşteriler V3(ilgili kişiler)
@@ -157,7 +162,7 @@ Bu önkoşullar gereklidir:
 8. Finance and Operations uygulamasında yeni **Taraf** kayıtlarını içe aktarın.
 
     + Azure blob depolamadan `FONewParty.csv` dosyasını indirin. Yol: `partybootstrapping/output/FONewParty.csv`.
-    + `FONewParty.csv` dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın.  csv içe aktarma işlemi sizin için uygunsa, csv dosyasını doğrudan içe aktarabilirsiniz. Veri hacmine bağlı olarak içe aktarma birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
+    + `FONewParty.csv` dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın. csv içe aktarma işlemi sizin için uygunsa, csv dosyasını doğrudan içe aktarabilirsiniz. Veri hacmine bağlı olarak içe aktarma birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
 
     ![Dataverse taraf kayıtlarını içe aktarma](media/data-factory-import-party.png)
 
@@ -198,4 +203,4 @@ Bu önkoşullar gereklidir:
 
 ## <a name="learn-more-about-the-template"></a>Şablon hakkında daha fazla bilgi edinin
 
-Şablonla ilgili açıklamaları [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md) dosyasında bulabilirsiniz.
+Şablon hakkında ek bilgileri [Azure Data Factory için Yorumlar şablonu benioku](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)'da bulabilirsiniz.

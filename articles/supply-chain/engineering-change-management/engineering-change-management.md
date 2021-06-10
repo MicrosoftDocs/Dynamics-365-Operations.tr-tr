@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954657"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115011"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Mühendislik ürünlerindeki değişiklikleri yönetme
 
@@ -92,9 +92,13 @@ Bu liste yalnızca bilgi amaçlıdır. Bu nedenle, istediğiniz sayıda ilgili o
 
 **Kaynak** hızlı sekmesi, değişiklik isteğinin başlangıç noktasını izlemenizi sağlar. Örneğin, değişiklik isteğinin bir satış siparişinden oluşturulup oluşturulmadığını, kim tarafından oluşturulduğunu ve hangi şirkette oluşturulduğunu görmek için yararlıdır.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Değişiklik isteğinin iş üzerindeki etkisini değerlendirme
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Değişiklik isteğinin ve bildirim göndermenin iş üzerindeki etkisini değerlendirme
 
-Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabilirsiniz. Bu şekilde, istenen değişikliğin satış siparişleri, üretim emirleri ve eldeki stok gibi açık hareketler üzerindeki etkisini değerlendirebilirsiniz.
+Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabilirsiniz. Bu şekilde, istenen değişikliğin satış siparişleri, üretim emirleri ve eldeki stok gibi açık hareketler üzerindeki etkisini değerlendirebilirsiniz. Değişiklik isteklerini incelerken, çeşitli ilgili sipariş türlerini yerine getirmekle sorumlu kişilere bildirim gönderebilirsiniz.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Etkilenen hareketleri gözden geçirme, seçili hareketleri engelleme ve bildirim gönderme
+
+Etkilenen hareketleri gözden geçirmek için, seçili hareketleri engellemek ve ilgili bildirim göndermek için bu adımları izleiyn.
 
 1. **Mühendislik değişikliği yönetimi \> Ortak \> Mühendislik değişikliği yönetimi \> Mühendislik değişikliği istekleri**'ne gidin.
 1. Var olan bir değişiklik isteğini açın veya yeni bir değişiklik isteği oluşturmak için Eylem Bölmesi'nden **Yeni**'yi seçin.
@@ -103,7 +107,30 @@ Bir değişiklik isteğini gözden geçirdiğinizde, bağımlılıkları arayabi
     - **Ara**: Tüm açık hareketleri tarar ve ardından değişiklikten etkilenecek tüm hareketleri listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar.
     - **Önceki aramayı görüntüle**: Önceki aramanın sonuçlarını listeleyen **Açık hareketler üzerindeki iş etkisi** iletişim kutusunu açar. (Yeni bir arama yapılmaz.)
 
-1. Değişiklik gerektiren sorunun kritik olduğu tespit edilirse, **Açık hareketler üzerindeki iş etkisi** iletişim kutusundaki araç çubuğunun düğmelerini kullanarak açık hareketleri engelleyebilir veya sorumlu kullanıcıya bildirebilirsiniz.
+1. **Hareketlerin açılmasına yönelik İş etkisi** iletişim kutusu, her biri belirli bir türdeki etkilenen hareketlerin listesini gösteren bir sekme kümesi sağlar  (**Satış emirleri**, **Satın alma emirleri**, **Üretim emirleri**, **Stok** vb.). Her sekmede, bu türdeki etkilenen hareketlerin sayısını gösteren bir sayı da gösterilir. İlgili listeyi görüntülemek için bir sekme seçin.
+1. Listedeki bir hareketle çalışmak için, hareketi seçin ve sonra araç çubuğunda aşağıdaki düğmelerden birini seçin:
+
+    - **Hareketi görüntüle** – Seçili hareket kaydını açın.
+    - **Siparişi engelle** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emri satırını engellemek için seçin.
+    - **Satırı engelle** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emri satırını engellemek için seçin.
+    - **Sorumluyu bildir** – Bu düğme yalnızca **Satış emirleri** sekmesinde kullanılabilir. Seçili satış emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
+    - **Sipariş vereni bildir** – Bu düğme yalnızca **Satın alma emirleri** sekmesinde kullanılabilir. Seçili satın alma emrinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
+    - **Üretimi bildir** – Bu düğme yalnızca **Üretim emirleri** sekmesinde kullanılabilir. Satış siparişlerinin ve satın alma siparişlerinin aksine, üretim emirlerinin uçtan uca bunlardan sorumlu olarak ayarlanmış tek bir kullanıcısı yoktur. Bunun yerine, çeşitli süpervizörler veya planlamacılar genellikle belirli bir site veya üretimin belirli bir bölümü için (örneğin, belirli kaynaklar veya kaynak grupları için) sahipliği alır. Bu nedenle, bu düğmeyi seçtiğinizde, seçili üretim emriyle ilgili herhangi bir kaynakndan sorumlu olan tüm kullanıcılar bir değişiklik bildirimi alır.
+    - **Hazırlayana bildir** – Bu düğme yalnızca **Satın alma talebi** sekmesinde kullanılabilir. Seçili satın alma talebinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
+    - **Satış sorumlusuna bildir** – Bu düğme yalnızca **Fiyat teklifleri** sekmesinde kullanılabilir. Seçili fiyat teklifinden sorumlu olarak ayarlanmış kullanıcıya değişiklik bildirimi göndermek için seçin.
+    - **Iskarta** – Bu düğme yalnızca **Stok** sekmesinde kullanılabilir. Seçili envanteri ıskartaya çıkarmak için seçin.
+    - **Geçmişi görüntüle** – **İŞlemleri açmak için İş etkisi** iletişim kutusunu kullanarak seçili işlemdeki işlemler geçmişini açın. (Örneğin, geçmiş bildirimlerin gönderilip gönderilmediğini veya işlemlerin engellenip engellenmediğini gösterir.) 
+    - **Tüm işlemleri görüntüle** – Sadece açık hareketlerin değil, tüm hareketlerin tam listesini açın.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>İşlemler için değişiklik bildirimlerini gözden geçirme ve işleme
+
+Aldığınız değişiklik bildirimlerini aşağıdaki şekillerde okuyabilir ve işleyebilirsiniz:
+
+- Üretim emirleri dışında, sorumlu olduğunuz hareketlerin bildirimlerini değiştirme İşlem merkezinde görünür. Gezinti çubuğunun sağ tarafındaki **iletileri göster** düğmesi (çan sembolü), geçerli kullanıcı için bir Eylem Merkezi iletisinin ne zaman tarafınızca kullanılabileceğini gösterir. Eylem merkezini açmak ve iletileri incelemek için **iletileri göster** düğmesini seçebilir.
+- Mühendislik bildiriminin gönderildiği tüm üretim emirlerini görüntülemek için **Üretim emirleri \> Üretim emirleri \> Tüm üretim emirleri**'ne gidin. Ardından **Üretim emri** sekmesinde, **Mühendislik değişim talebi** grubunda **Mühendislik bildirimleri** sayfasını açmak için **Mühendislik bildirimleri**'ni açın.
+- Üretim emirleri için, yalnızca yönettiğiniz üretim kaynakları için geçerli olan değişiklik bildirimlerini gözden geçirmeyi seçebilirsiniz. **Üretim kat yönetimi** çalışma alanında, Eylem Bölmesi'nde, **Çalışma alanımı yapılandır** öğesini seçerek sayfaya filtre uygulayın ve böylece yalnızca yönettiğiniz üretim üniteleri, gruplar ve/veya kaynakları göstersin. **Özet** bölümünde, **değiştirilen ürünlere sahip Üretim emirleri** adlı bir kutucuk, filtre ayarlarınızla eşleşen bildirimlerin sayısını gösterir. Filtrenizin ölçütlerine uyan hareketlerin tam listesini gösteren **Mühendislik bildirimleri** sayfasını açmak için bu kutucuğu seçin.
+
+**Mühendislik bildirimleri** sayfasında üretim emri bildirimlerini gözden geçirirken, sütun değerlerini seçerek veya Eylem Bölmesi'ndeki ilgili komutları kullanarak ilgili değişiklik emirlerine veya üretim emirlerine bağlantıları takip edebilirsiniz. Bir değişikliği değerlendirmeyi tamamladıktan ve üretim emirlerini gerektiği gibi iptal ettikten veya değiştirdikten sonra, bir bildirimi çözümlenmiş olarak işaretleyebilirsiniz. Bildirimi seçin ve eylem bölmesinde **Çözümle** 'yi seçin. Bildirim tüm kullanıcıların görünümlerinden kaldırılır.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Değişiklik isteğinden değişiklik emri oluşturma
 

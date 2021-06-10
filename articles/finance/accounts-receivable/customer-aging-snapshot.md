@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039939"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123374"
 ---
 # <a name="customer-aging-snapshots"></a>Müşteri yaşlandırma anlık görüntüleri
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039939"
 Bu konu müşteri yaşlandırma anlık görüntüleriyle ilgili bilgiler sağlar. Bir yaşlandırma anlık görüntüsü, bir müşteri grubunun bir zamandaki yaşlandırılmış bakiyesini hesaplar. Tüm müşteriler veya bir müşteri havuzundaki müşteriler için yaşlandırma anlık görüntüsü oluşturabilirsiniz.
 
 Yaşlandırma anlık görüntüsü bilgileri,**Yaşlandırılmış bakiyeler** listesi sayfası ve **Tahsilatlar** sayfasında görüntülenir. **Yaşlandırılmış bakiyeler** listesini kullanmadan önce bir yaşlandırma anlık görüntüsünü oluşturmanız gerekir. Liste sayfası, sadece yaşlandırma anlık görüntüsü oluşturulan müşterileri listeler.
+
+**Müşteri alacak ve tahsilatları** çalışma alanında aynı zamanda müşteri yaşlandırması da görüntülenir. Daha fazla bilgi için bkz. [Power BI içerikleri alacak ve tahsilatlar yönetimi](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Yaşlandırma anlık görüntüsü oluşturmak için gereken süreyi azaltmak için, **Özellik yönetimi** çalışma alanındaki **Müşteri yaşlandırma performansı geliştirmesi** özelliğini etkinleştirin. Ancak, bu özellik etkinleştirildiğinde müşteri havuzlarını kullanmayın. Bir müşteri havuzu seçiliyse özellik çalışmaz ancak yine de yaşlandırma anlık görüntüsü oluşturabilirsiniz.
@@ -62,4 +64,3 @@ Bu işlemi, toplu işte çalışacak şekilde zamanlamanızı öneririz.
 > [!NOTE]
 > Yaşlandırma anlık görüntüleri oluşturulurken toplu iş performansını geliştirmeye yardımcı olmak için, **Alacak hesapları parametreleri** sayfasının **Tahsilatlar** sekmesindeki **Tahsilat varsayılanları** hızlı sekmesinde bulunan **Maksimum toplu iş sayısı** alanına bir sayı girin. **Müşteri bakiyelerini yaşlandır** alanında, varsayılan değer olan **100** ile başlamanızı ve sonrasında durumunuza göre işlemi optimize etmek için bu değeri ayarlamanız önerilir.
 
-**Müşteri alacak ve tahsilatları** çalışma alanında aynı zamanda müşteri yaşlandırması da görüntülenir. Daha fazla bilgi için bkz. [Power BI içerikleri alacak ve tahsilatlar yönetimi](credit-collections-power-bi.md).

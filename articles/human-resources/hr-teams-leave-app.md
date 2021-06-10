@@ -2,13 +2,12 @@
 title: Teams'de izin isteklerini yönetme
 description: Bu konuda Microsoft Teams uygulamasındaki Dynamics 365 Human Resources uygulamasında, nasıl izin isteneceği gösterilmektedir.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953424"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097271"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -33,21 +32,13 @@ Microsoft Teams platformundaki Dynamics 365 Human Resources uygulaması, hızlı
 
 Dynamics 365 Human Resources uygulamasını Teams mağazasında bulabilirsiniz.
 
-1. Microsoft Teams platformuna üç nokta simgesini seçin.
-
-   ![Human Resources Teams izin uygulaması üç nokta simgesi](./media/hr-teams-leave-app-ellipses.png)
+1. Microsoft Teams İçinde uygulamalar listesine gidin.
  
 2. Dynamics 365 Human Resources uygulamasını arayın ve ardından **Human Resources** kutucuğunu seçin.
 
-   ![Human Resources Teams izin uygulaması HR kutucuğu](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Uygulamayı yüklemek için **Ekle** düğmesini seçin.
 
-   ![Human Resources Teams izin uygulaması yükleme](./media/hr-teams-leave-app-in-store.png)
-
 Uygulama otomatik olarak oturum açmazsa oturum açmak için **Ayarlar** sekmesini seçin.
-
-![Human Resources Teams izin uygulaması Ayarlar sekmesi](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin. 
@@ -61,20 +52,24 @@ Birden fazla Human Resources örneğine erişiminiz varsa **Ayarlar** sekmesinde
 
 Uygulama yüklendikten sonra botun, sizin adınıza gerçekleştirebileceği eylem türlerini bildiren bir hoş geldiniz iletisi görüntülenir.
 
-![Human Resources Teams izin uygulaması botun hoş geldiniz iletisi](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Bot ile ilk kez etkileşimde bulunurken oturum açmanız gerekebilir. Oturum açma iletişim kutusunu görmüyorsanız açılır pencerelere izin vermek için tarayıcı ayarlarınızı kontrol edin.
 
 Bottan şunları isteyebilirsiniz:
 
-- Kendiniz için bir izin isteği başlatın.
+- Geçerli çıkış bakiylerinizi görüntüleyin. Örneğin, "bakiyeleri görüntüle" yazan bir ileti gönderin.
+
+- Kendiniz için bir izin isteği başlatın. Örneğin, "izin al" veya "sonraki Perşembe ve Cuma günleri izin almak istiyorum" şeklinde bir ileti gönderin, böylece tatil izin türüne izin vermek üzere daha belirgin olur. 
 
   ![Teams sohbetinde izin isteği başlatma](./media/hr-teams-leave-app-initiate.png)
 
 - Sohbet botu sizin için bir izin isteği dolduracaktır. **İzin talep et**'i seçin ve isteğinizin ayrıntılarını düzenleyin.
 
-  ![İzin İsteği ayrıntılarını düzenleme](./media/hr-teams-leave-app-details.png)
+   Aynı tarih için birden fazla izin türü için ayrılma istekleri göndermek istiyorsanız, **Diğer Seçenekler** menüsünde o **ile bölünen gün** seçeneğini seçin. 
+
+   İzin isteği birimi gün olarak bir yarım gün bırak seçeneğini belirlerseniz, **Diğer Seçenekler** menüsünde **yarım gün tanımı** seçeneğini belirleyerek, zamanı ilk yarım gün veya ikinci yarım gün talep etmek isteyip istemediğinizi belirtebilirsiniz.
+   
+   ![Yarım gün tanımı](./media/HalfDayDefinitions.png)
 
 - İzin İsteği ayrıntılarınızı düzenlemeyi tamamladığınızda onaya göndermek için **Gönder** öğesini seçin.
 
@@ -91,42 +86,36 @@ Bottan şunları isteyebilirsiniz:
 - İzin süresi istekleri
 
 - Taslak izin istekleri
-
-![Human Resources Teams izin uygulaması İzin sekmesi](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Yeni bir istek oluşturma
 
 1. Yeni bir izin isteği oluşturmak için **Yeni istek** seçeneğini belirleyin.
 
-   ![Human Resources Teams izin uygulaması Yeni istek](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Talep ettiğiniz izin süresi için gün veya günleri girin ve ardından **Ekle**'yi seçin.
 
-   ![Human Resources Teams izin uygulaması izin ekleme](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Human Resources Teams izin uygulaması izin ekleme](./media/TimeOffHours.png)
 
 3. Uygunsa, bir neden kodu girin. Ayrıca açıklama girin ve herhangi bir ek ekleyin.
 
-4. Bilgi girişini tamamladığınızda onay için göndermek üzere **Gönder**'e basın. Daha sonra geri dönmek için **Taslak olarak kaydet**'e de basabilirsiniz.
+4. Farklı izin türleri için ancak aynı tarih için birden fazla izin türü için ayrılma istekleri göndermek istiyorsanız, **Diğer Seçenekler** menüsünde o **ile bölünen gün** seçeneğini seçin.
+
+5. İlk yarım günü veya ikinci yarım günü kapatmak isteyip istemediğinizi belirtmek için **yarım gün tanımı** seçeneğini belirleyin. Bu seçenek, izin isteği birimi gün olarak kullanılırken ve istenen tutar 0,5 gün ise kullanılabilir.
+
+6. Bilgi girişini tamamladığınızda onaya göndermek için **Gönder** öğesini seçin. Daha sonra geri dönmek için **Taslak olarak kaydet**'e de basabilirsiniz.
 
 ### <a name="manage-draft-requests"></a>Taslak istekleri yönetme
 
 1. **Taslaklar** sekmesini seçin.
 
-   ![Human Resources Teams izin uygulaması Taslaklar sekmesi](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. İsteği düzenlemek için kalemi veya isteği silmek için çöp kutusunu seçin.
 
 3. Gerekli tüm değişiklikleri yapın. Bilgi girişini tamamladığınızda onay için göndermek üzere **Gönder**'e basın. Daha sonra geri dönmek için **Taslak olarak kaydet**'i de seçebilirsiniz.
-
-   ![Human Resources Teams izin uygulaması taslağı düzenleme](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Teams bildirimlerini yanıtlama
 
 Siz veya onaylayan taraf olduğunuz bir çalışan izin talebi gönderdiğinde, Teams'de Human Resources uygulamasından bir bildirim alırsınız. Görüntülemek için bildirimi seçebilirsiniz. Bildirimler **Sohbet** alanında da görünür.
 
 Onaylayan iseniz, bildirimden **Onayla** veya **Reddet** seçeneklerini belirleyebilirsiniz. Ayrıca, isteğe bağlı bir ileti de sağlayabilirsiniz.
-
-![Human Resources Teams uygulamasında izin talebi bildirimi](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Yaklaşan izin bilgilerini iş arkadaşlarınıza gönderme
 
@@ -138,15 +127,9 @@ Teams için Human Resources uygulamasını yükledikten sonra, ekiplere veya soh
 
 2. Paylaşmak istediğiniz izin isteğini seçin. Bir taslak olarak izin isteğini paylaşmak istiyorsanız, önce **Taslaklar**'ı seçin.
 
-   ![Paylaşılacak bir yaklaşan izin isteğini seçme](./media/hr-teams-leave-app-chat-search.png)
-
 İzin talebiniz sohbette gösterilir.
 
-![Human Resources izin istek kartı](./media/hr-teams-leave-app-chat-card.png)
-
-Bir taslak talep paylaştıysanız, taslak olarak görüntülenecektir:
-
-![Human Resources taslak izin istek kartı](./media/hr-teams-leave-app-chat-draft-card.png)
+Bir taslak talep paylaştıysanız, taslak olarak görüntülenecektir.
 
 ## <a name="view-your-teams-leave-calendar"></a>Ekip izin takviminizi görüntüleme
 
@@ -155,8 +138,6 @@ Astları bulunan bir yönetici iseniz, takımınızın onaylanmış ve bekleyen 
 1. Teams'de Human Resources uygulamasında, **İzin**'i seçin.
 
 2. **Ekip takvimi**'ni seçin. Takvim, doğrudan astlarınıza ait onaylı ve beklemede olan izinleri görüntüler.
-
-   ![Human Resources Teams uygulamasında takvimi görüntüleme](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Takım takvimini göremiyorsanız yöneticinizden takvimi etkinleştirmesini isteyin. Daha fazla bilgi için bkz. [Yükleme ve ayarlama](hr-admin-teams-leave-app.md#install-and-setup).

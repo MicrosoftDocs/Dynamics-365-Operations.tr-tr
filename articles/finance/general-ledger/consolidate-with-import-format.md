@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 98fc102b308afb90d4665ecd80650f66d531da0b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826726"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085462"
 ---
 # <a name="import-format-for-consolidation"></a>Konsolidasyon için içe aktarma biçimi
 
@@ -36,7 +36,7 @@ Aşağıdaki tabloda, içeri aktarma sırasında konsolidasyon yaparken kullanma
 | 2            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Ana hesap kimliği</li><li>Hareket tarihi</li><li>Mali dönem türü (**0** = Açılış, **1** = Faaliyet ve **2** = Kapanış)</li><li>Hareketin para birimi</li><li>Borç veya alacak (**0** = Borç ve **1** = Alacak)</li><li>Deftere nakil katmanı</li><li>Hareket tutarları</li><li>Miktar</li><li>Yerel RecID (hareket için belirsiz, benzersiz int64 değeri)</li></ul> |
 | 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>Giriş numarası (bütçe başlığı hareket numarası)</li><li>Bütçe başlığının varsayılan tarihi</li><li>Bütçe modeli kimliği</li><li>Hareket türü için sabit listesi tamsayı değeri (boş, orijinal bütçe vb.)</li><li>Satırın tarihi</li><li>Satır için ana hesap</li><li>Satır için para birimi kodu</li><li>Hareket para birimi cinsinden satırın tutarı</li><li>Satırın bütçe türü için sabit listesi tamsayı değeri (gider veya gelir)</li></ul> |
 | 4            | DEMF | RecordCompany, Kaynak tüzel kişiliktir. |
-| 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | RecordCompany, Kaynak tüzel kişiliktir. |
+| 5            | 110130, 2015/01/01, 1, USD, 0,0,80699.39,0,1 | <ul><li>Ana hesap kodu</li><li>Hareket tarihi</li><li>Mali dönem türü (0 Açılış, 1 Faaliyet ve 2 Kapanış)</li><li>Hareket para birimi</li><li>Borç veya alacak (0 Borç ve 1 Alacak)</li><li>Deftere nakil katmanı</li><li>Hareket tutarı</li><li>Miktar</li><li>Yerel RecID (hareket için belirsiz, benzersiz int64 değeri)</li></ul>  |
 | 6            | İş Kolu, 1 Departman, 2 | Segment emrinde tanımlanan mali boyut öznitelikleri.<p>Özniteliklerin nasıl tanımlandığını doğrulamak için **Dışarı Aktar** sayfasını kullanabilirsiniz.</p> |
 | 7            | 002,1,658 | <ul><li>Mali boyut değeri</li><li>RecordDimensions'da sağlanan dizin olarak mali boyut</li><li>RecordTrans veya RecordTrans2'deki benzersiz kayıt kimliğiyle ilişkili belirsiz, benzersiz kayıt kimliği</li></ul> |
 | 8            | 002,1,1 | <ul><li>RecordBudget'taki hareketle ilişkili boyut değerleri</li><li>RecordDimensions'da sağlanan dizin olarak mali boyut</li><li>Dosyadaki hareket satırlarının sırasına göre hizalanmış belirsiz bir satır kaydı kimliği</li></ul> |

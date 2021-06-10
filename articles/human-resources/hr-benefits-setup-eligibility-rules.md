@@ -2,13 +2,12 @@
 title: Uygunluk kurallarını ve seçeneklerini yapılandırma
 description: Microsoft Dynamics 365 Human Resources'un sosyal haklar yönetiminde, uygunluk kurallarını ve seçeneklerini ayarlayın.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
+ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791521"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6093932"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma
 
@@ -39,7 +38,7 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
 
 2. **Uygunluk kuralları** sekmesinde, uygunluk kuralı oluşturmak için **yeni**'yi seçin. Uygunluk kuralıyla ilişkili planları görmek için **ilişik planlar**'ı seçin.
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
@@ -57,7 +56,7 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
    | **Kayıt dönemi** | Yeni işe alma kaydına izin verildiği zaman dilimi. Bunu aynı zamanda parametrelerde ayarlarsanız, parametreler ayarı da bunun üzerine öncelik kazanır. |
    | **Önceki istihdam durumunu kullan** | Kazanç uygunluğu kuralının parçası olarak personelin önceki istihdam durumunu mu kullanacağınızı belirtir. Örneğin, önceki istihdamını takip eden 90 gün içinde **İşten çıkarıldı** durumundan **İstihdam edildi** durumunda geçil yapmış tüm çalışanlar için bir karşılama bekleme dönemini uygulatmayan bir uygunluk kuralı belirtebilirsiniz. |
 
-4. **Ek ölçütler** altında, aşağıdaki seçenekleri seçin ve gerekli bilgileri ekleyin:
+4. **Ek ölçütler** altında, aşağıdaki seçenekleri seçin ve gerekli bilgileri ekleyin.
 
    | Seçenek | Tanım |
    | --- | --- |
@@ -76,7 +75,7 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
    | **Uygun sendika** | Uygunluk kuralına uyan işçi sendikası üyelikleri belirtir. Örneğin, Amerika Forklift sürücüleri. </br></br>Birleşim tabanlı uygunluk kuralı kullanırken, çalışanın birleşim kaydı bitiş tarihine sahip olmalıdır. Boş bırakamazsınız. |
    | **Uygun Posta kodu** | Uygunluk kuralına uyan ZIP/posta kodu belirtir. Örneğin, 58104. |
 
-5. **Ek ayrıntılı** bilgi için aşağıdaki ek ayrıntıları görüntüleyebilirsiniz:
+5. **Ek ayrıntılı** bilgi için aşağıdaki ek ayrıntıları görüntüleyebilirsiniz.
 
    | Alan | Tanım |
    | --- | --- |
@@ -87,6 +86,72 @@ Açık kayıt sırasında çalışanlar kazanç planlarını seçebilir. Zaten k
 
 6. **Kaydet**'i seçin.
 
+## <a name="using-custom-fields-in-eligibility-rules"></a>Özel alanların uygunluk kurallarında kullanılması
+
+Ek bilgileri izlemek için insan kaynakları içinde [özel alanlar](hr-developer-custom-fields.md) oluşturulabilir. Bu alanlar doğrudan Kullanıcı arabirimine eklenebilir ve bir sütun, temel alınan tabloya dinamik olarak eklenir.  
+
+Özel alanlar uygunluk sürecinde kullanılabilir. Uygunluk kuralları bir çalışanın uygunluğunu belirlemek için bir veya daha fazla özel alan değeri kullanabilir.  Varolan bir kurala özel alan eklemek veya yeni bir kural oluşturmak için, **sosyal haklar yönetimi > bağlantılar > Kurulum > Uygunluk kuralları > özel alan uygunluğu**'na gidin. Bu sayfa içinde, bir veya birden çok özel alan kullanan bir kural oluşturabilir ve uygunluğu belirlemek üzere her özel alan için birden fazla değer tanımlayabilirsiniz.
+
+Aşağıdaki tablolar, uygunluk işlemede kullanılabilen özel alanları destekler:
+
+- Çalışan (HcmWorker)  
+- İş (HcmJob)  
+- Pozisyon (HcmPosition)  
+- Pozisyon ayrıntısı (HcmPositionDetail)  
+- Pozisyon Çalışan Ataması  
+- Çalışma (Hcmemplone)  
+- EmploymentDetails (HcmEmploymentDetails)  
+- İş Ayrıntıları (HcmJobDetails)  
+
+Aşağıdaki özel alan türleri, uygunluk işlemede desteklenir:
+
+- Metin  
+- Seçim listesi  
+- Sayı  
+- Ondalık  
+- Onay kutusu  
+
+Aşağıdaki tablo özel alan uygunluk formu alan bilgilerini gösterir.
+
+| Alan  | Tanım |
+|--------|-------------|
+| Kuruluş adı | Oluşturulan ölçütlerin adı. |
+| Tablo adı | Uygunluk kuralı için kullanılan özel alanı içeren tablo adı. |
+| Alan adı | Uygunluk kuralı olarak kullanılacak alan. |
+| İşleç türü | Özel alan uygunluk yapılandırmasında kullanılan operatörü görüntüler. |
+| Değer | Özel alan uygunluk yapılandırmasında kullanılan değeri görüntüler. |
+
+## <a name="eligibility-logic"></a>Uygunluk mantığı
+
+Aşağıdaki bölümlerde, yararlı uygunluk haklarının nasıl işlendiği açıklanmaktadır.
+
+### <a name="rules-assigned-to-a-plan"></a>Plana atanan kurallar 
+Bir kazanç planına birden fazla uygunluk kuralı atandığında, bir çalışan en az bir kurala, kazanç planına kaydolmaya uygun olacak şekilde uyması gerekir.  Aşağıdaki örnekte, çalışan **iş türü** kuralı veya **etkin çalışanlar** kuralındaki gereksinimleri karşılamalıdır.
+
+![Çalışan iş türü kuralı veya etkin çalışanlar kuralındaki gereksinimleri karşılamalıdır.](media/RulesAssignedToAPlan.png)
+ 
+### <a name="criteria-within-an-eligibility-rule"></a>Uygunluk kuralı içindeki ölçütler 
+Kural içinde, kuralı oluşturan ölçütü tanımlarsınız. Yukarıdaki örnekte, **iş türü** kuralıyla ilgili ölçütler İş türü = direktörler'dir. Bu nedenle, uygun olması için çalışanın bir yönetmen olması gerekir. Bu, kural içinde yalnızca bir ölçütün bulunduğu bir kuraldır.
+
+Birden çok ölçütü olan kurallar tanımlayabilirsiniz. Uygunluk kuralı içinde birden çok ölçüt tanımladığınızda, bir çalışan, kazanç planı için uygun olacak şekilde kural içindeki tüm kriterleri karşılamalıdır. 
+
+Examplem için, Yukarıdaki **etkin çalışanlar** kuralı aşağıdaki ölçütlerden oluşur. Çalışanın **etkin çalışanlar** kuralına dayalı olarak uygun olabilmesi için , çalışanın yasal MF varlığında *ve* tam zamanlı bir pozisyon türüne sahip olması gerekir.  
+
+![Uygunluk kuralı içindeki ölçütler](media/CriteriaWithinAnEligibilityRule.png) 
+ 
+### <a name="multiple-conditions-within-criteria"></a>Ölçüt içinde birden çok koşul
+
+Kurallar, tek bir ölçüt içinde çoklu koşulları kullanmak üzere daha fazla genişletilebilir. Çalışan, uygun olması için en az bir koşulu karşılamalıdır. Yukarıdaki örnekte oluşturmak için, **etkin çalışanlar** kuralı, aynı zamanda yarı zamanlı çalışan çalışanları içerecek şekilde daha da genişletilebilir. Sonuç olarak, artık çalışan USMF'de çalışan *ve* tam zamanlı veya yarı zamanlı çalışan olmalıdır.  
+
+![Ölçüt içinde birden çok koşul](media/MultipleConditionsWithinCriteria.png) 
+ 
+### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Özel alan ölçütündeki uygunluk koşulları 
+Yukarıdakiyle benzerlik olarak, özel alanlar uygunluk kuralları oluştururken ve aynı şekilde çalışırken kullanılabilir. Örneğin, internet maliyetleri bu konumlarda daha yüksek olduğu için evden çalışan Fargo ve Kopenhag çalışanlarına Internet geri ödeme teklif etmek isteyebilirsiniz. Bunu yapmak için, iki özel alan oluşturun: **Office konumu** (seçim listesi) ve **evden çalışma** (onay kutusu). Sonra **WFH Çalışanları** adında bir kural oluşturun. Kural ölçütü, **Office konumu = Fargo** veya **Kopenhag** *ve* **Evden çalışma = Evet** şeklindedir.
+
+En özel uygunluk kurallarının aşağıdaki görüntüde belirtildiği gibi ayarlanması gerekir. 
+
+![Özel alan ölçütündeki uygunluk koşulları](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+ 
 ## <a name="configure-bundles"></a>Ürün demetlerini yapılandırma
 
 Bir dizi ilgili kazanç planları kümesidir. Bir çalışanın, başka bir kazanç planına bağımlı olabilecek belirli bir avantaj planına kayıt yapmak için seçmesi gereken kazanç planlarını gruplamak için kazançlar demeti kullanabilirsiniz. Bir ürün demetini kullanmak isteyebileceğiniz durumlarda örnekler şunlardır:
@@ -99,11 +164,11 @@ Bir dizi ilgili kazanç planları kümesidir. Bir çalışanın, başka bir kaza
 
 2. **Ürün demetleri** sekmesinde, bir paket oluşturmak için **yeni**'yi seçin. Ürün paketiyle ilişkili planları görmek için **ilişik planlar**'ı seçin.
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
-   | **Ürün demeti** | Ürün demeyinin benzersiz tanımlayıcısı |
+   | **Görev Demeti** | Ürün demeyinin benzersiz tanımlayıcısı |
    | **Açıklama** | Ürün demeti açıklaması. |
    | **Ana** | Paketteki planlardan birinin Master plan olarak işaretlenip işaretlenmemesi gerektiğini gösterir. Ana plan açık kayıt sırasında, kazançlar Yöneticisi çalışanın sosyal haklarının koşullarını onaylayabilmesi için başlangıçta seçilen kümenin bir parçası olarak seçilmelidir. |
    | **Geçerlilik başlangıç tarihi ve saati** | Ürün demetinin etkin olduğu tarih ve saat. |
@@ -119,7 +184,7 @@ Dönemler, kazançların etkili olduğu ve çalışanların ne zaman kayıt yapm
 
 2. **Dönemler** sekmesinde, bir dönem oluşturmak için **yeni**'yi seçin. Geçerli tüm etkin kazanç planlarını avantaj dönemine bağlayan bir işlemi çalıştırmak için, ilgili **Plan Ekle**'yi seçin. Ürün paketiyle ilişkili planları görmek için **ilişik planlar**'ı seçin. 
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
@@ -141,7 +206,7 @@ Dönemler, kazançların etkili olduğu ve çalışanların ne zaman kayıt yapm
 
 2. **Dönemler** sekmesinde, **esnek kredi programlarını** seçin.
 
-3. Uygulanacak esnek kredi programını seçin. Alanlar şu bilgileri kapsar:
+3. Uygulanacak esnek kredi programını seçin. Alanlar şu bilgileri kapsar.
 
    | Alan | Tanım |
    | --- | --- |
@@ -157,13 +222,13 @@ Dönemler, kazançların etkili olduğu ve çalışanların ne zaman kayıt yapm
 
 ## <a name="configure-programs"></a>Programları konfigüre et
 
-Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç planındaysa. Her bir plan için, programın tamamı yerine uygunluk kuralları tanımlayabilirsiniz. Örneğin, contoso Kanada FTE programı veya contoso Avrupa Executive-seviye programı. 
+Programlar, ortak uygunluk kuralları kümesini paylaşan bir dizi kazanç planındaysa. Her bir plan için, programın tamamı yerine uygunluk kuralları tanımlayabilirsiniz. Örneğin, Contoso Kanada FTE programı veya Contoso Avrupa Executive-seviye programı. 
 
 1. **Sosyal haklar** yönetimi çalışma alanında, **Kurulum** altında, **Uygunluk kuralları ve seçenekleri** seçin.
 
 2. **Programlar** sekmesinde, bir program oluşturmak için **yeni**'yi seçin. Uygunluk kuralı gereksinimlerini karşılamayan çalışanlara özel durumlar yapmak için **uygunluk kuralı geçersiz kılma**'yi seçin. Programla ilişkili planları görmek için **ilişik planlar**'ı seçin.
 
-3. Aşağıdaki alanların değerleri belirtin:
+3. Aşağıdaki alanların değerleri belirtin.
 
    | Alan | Tanım |
    | --- | --- |
