@@ -94,7 +94,9 @@
                   items:
                     - name: Commerce giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (Temmuz 2021)
+                    - name: Commerce 10.0.20 (Temmuz 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (Haziran 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleştirme
                   href: dev-itpro/pickup-timeslots.md
+                - name: Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma
+                  href: dev-itpro/dimensions-swatch.md
         - name: Ürün ve hizmetlerinizin ticari satışı
           items:
             - name: 'Kategoriler, ürünler ve ürün çeşitleri'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Ölçü birimi ayarlarını uygulama
                   href: unit-of-measure.md
+                - name: Ürün boyutları için görüntü ayarlarını uygulama
+                  href: dimension-settings.md
             - name: Site içeriğinizi yönetme
               items:
                 - name: İçerik ekleme yolları
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Oluşturulan rapor sonuçlarını izleme ve bunları temel değerlerle karşılaştırma
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Oluşturulan ER raporları sonuçlarının izlenmesi ve temel değerlerle karşılaştırılmasına ilişkin geliştirmeler
+                    - name: Temel değerlerle karşılaştırmak için oluşturulan ER raporları sonuçlarını izlemeyi iyileştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Uygulama ayarları
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Site oluşturucu genel yapılandırma ayarlarını etkin özelliklere göre yapılandırma
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Platform ayarları dosyası
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Modül tanımını genişletme
@@ -2366,9 +2374,11 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: 10.0.10 sürümünden 10.0.13 sürümüne kadar geliştirme ve ALM değişiklikleri
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Bağımsız ambalaj SDK'sı için bir derleme işlem hattı kurma
+                  href: dev-itpro/build-pipeline.md
                 - name: Commerce ve Finance and Operations için derleme sistemlerini birleştirme
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
-                - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye taşıma
+                - name: Retail SDK'yi Visual Studio 2015'ten Visual Studio 2017'ye geçirme
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Retail SDK genişletilebilirlik örnekleri
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
@@ -2386,6 +2396,8 @@
               items:
                 - name: POS ekranı düzenleri
                   href: pos-screen-layouts.md
+                - name: Microsoft Dynamics 365 Commerce'te Store Commerce uygulaması
+                  href: dev-itpro/store-commerce.md
                 - name: URL'yi POS'ta açma
                   href: Open-URL-in-POS.md
                 - name: POS Düzeni tasarımcısını yükleme

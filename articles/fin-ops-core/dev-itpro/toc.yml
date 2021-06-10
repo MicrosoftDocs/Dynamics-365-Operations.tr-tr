@@ -14,7 +14,9 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.19 için platform güncelleştirmeleri (Temmuz 2021)
+                - name: 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: 10.0.19 için platform güncelleştirmeleri (Haziran 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: 10.0.18 için platform güncelleştirmeleri (Mayıs 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Lifecycle Services'deki yenilikler veya değişiklikler
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Lifecycle Services (LCS) portalındaki kaldırılan veya kullanımına son verilen özellikler
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Lifecycle Services kullanıcı kılavuzu
               href: lifecycle-services/lcs-user-guide.md
             - name: Proje ekleme
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Uygulama yaşam döngüsü yönetimi
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Kullanıcı tarafından belirtilen takım sahibi
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Çift yazma ortamlarının bağlantısını kaldırma ve yeniden bağlama
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Uygulamalar arasında kavramları eşleme
                   items:
                     - name: Tümleşik müşteri aslı
@@ -1166,6 +1170,8 @@
               items:
                 - name: Eklentilere genel bakış
                   href: power-platform/add-ins-overview.md
+            - name: İlkeler ve iletişimler
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobil platform
           items:
             - name: Mobil platform kaynakları
