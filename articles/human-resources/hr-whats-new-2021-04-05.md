@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 24f5ab1e1e321f2d783449a5ba9a1fb1523920ae
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 879a500c187e7b0a11d367c4a12618a9c60c98b7
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021091"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Dynamics 365 Human Resources'daki yenilikler veya değişiklikler 5 Nisan 2021
 

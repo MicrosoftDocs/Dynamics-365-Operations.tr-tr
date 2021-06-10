@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b113f0db1d44dc5fbda30e10d62ff939550f299
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88fb3a947dd15f80238baab5f315c889f47f5b3b
+ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748705"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087027"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Bağlı uygulamalar kullanarak uygulama meta verilerine erişme
 
 [!include [banner](../../includes/banner.md)]
 
-Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının Finance and Operations'taki meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. RCS bağlantılı uygulama kullanılarak uygulama meta verilerine çevrimiçi olarak erişilir. Örnek ER model eşlemesi, dış ticari hareketlere erişmek üzere yapılandırılacak. Bu adımları tamamlamak için öncelikle RCS'de [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) adımlarını tamamlamanız gerekir. Konudaki adımları tamamlamadıysanız [ER yapılandırma kullanarak uygulama meta verilerine erişim](access-application-metadata-er-configuration.md) [elektronik raporlama örnekleri sayfasına](https://go.microsoft.com/fwlink/?linkid=862266) şu ER yapılandırmalarını indirmek ve kaydetmek için gidin: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml ve sonra prosedürü tamamlayın.
+Aşağıdaki adımlar, Sistem Yöneticisi veya Elektronik Raporlama rolüne sahip Regulatory Configuration Service (RCS) kullanıcısının Finance and Operations'taki meta verilerini kullanarak nasıl yeni bir Elektronik raporlama (ER) modeli eşlemesi tasarlayabildiğini açıklar. RCS bağlantılı uygulama kullanılarak uygulama meta verilerine çevrimiçi olarak erişilir. Örnek ER model eşlemesi, dış ticari hareketlere erişmek üzere yapılandırılacak. Bu adımları tamamlamak için öncelikle RCS'de [Yapılandırma sağlayıcıları oluşturma ve bunları etkin olarak işaretleme](er-configuration-provider-mark-it-active-2016-11.md) adımlarını tamamlamanız gerekir. Konudaki adımları tamamlamadıysanız [ER yapılandırma kullanarak uygulama meta verilerine erişim](access-application-metadata-er-configuration.md) [elektronik raporlama örnekleri](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) şu ER yapılandırmalarını indirmek ve kaydetmek için gidin: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml ve sonra prosedürü tamamlayın.
 
 ## <a name="prerequisites"></a>Önkoşullar
 1. **Tüm çalışma alanları** > **Elektronik raporlama**'ya gidin. 

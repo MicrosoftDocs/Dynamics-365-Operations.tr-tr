@@ -1,27 +1,21 @@
 ---
 title: Negatif günler ve dinamik negatif günler
 description: Bu konu, negatif günler ve dinamik negatif günler hakkında bilgi verir ve işinize yardımcı olması için bunları nasıl kullanabileceğinizi açıklar.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907753"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097246"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatif günler ve dinamik negatif günler
 
@@ -45,7 +39,7 @@ Bu konu, bu bilgileri anlamanıza yardımcı olması için üç kuramsal senaryo
 - DemoProduct maddesinin altı günlük bir satınalma sağlama süresi vardır.
 - Sıfırıncı günde (1 Ocak), DemoProduct maddesi için stok düzeyi 0'dır (sıfır).
 - Sıfırıncı günde (1 Ocak), DemoProduct öğesinin 10'u miktarında bir satış siparişi alırsınız.
-- Yedi (7 Ocak) numaralı günde,DemoProduct öğesinin 10'u miktarında mevcut bir satınalma siparişi vardır.
+- Yedi (8 Ocak) numaralı günde,DemoProduct öğesinin 10'u miktarında mevcut bir satınalma siparişi vardır.
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
@@ -112,7 +106,7 @@ Maddenin sağlama süresi boyunca bir süre talep alabilirsiniz. Bu senaryoya bi
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
-![Senaryo 1'in grafik görünümü](./media/negative-days-8.png)
+![Senaryo 2'in grafik görünümü](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Olay A: Negatif günler maddenin sağlama süresinden daha küçüktür
 
@@ -157,7 +151,7 @@ Maddenin sağlama süresinden sonra talep alabilirsiniz. Bu senaryoya bir örnek
 - DemoProduct maddesinin altı günlük bir satınalma sağlama süresi vardır.
 - Sıfırıncı günde (1 Ocak), DemoProduct maddesi için stok 0'dır (sıfır).
 - Maddenin sağlama süresi dışında bulunan yedinci günde (8 Ocak), DemoProduct maddesinin 10'unun miktarında satış siparişini alırsınız.
-- 10 (11 Ocak) numaralı günde, DemoProduct öğesinin 10'u miktarında bir satınalma siparişi vardır.
+- On (11 Ocak) numaralı günde,DemoProduct öğesinin 10'u miktarında bir satınalma siparişi vardır.
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
@@ -219,8 +213,8 @@ Negatif günleri uzun bir zaman dilimine ayarlamak ve sonra da eylem iletileriyl
 - DemoProduct maddesinin altı günlük bir satınalma sağlama süresi vardır.
 - Sıfırıncı günde (1 Ocak), DemoProduct maddesi için stok 0'dır (sıfır).
 - Sıfırıncı günde (1 Ocak), DemoProduct öğesinin 10'u miktarında bir satış siparişi alırsınız.
-- 10. günde (10 Ocak), DemoProduct öğesinin 10'u miktarında bir satış siparişi alırsınız.
-- 12 (12 Ocak) numaralı günde, DemoProduct öğesinin 10'u miktarında bir satınalma siparişi vardır.
+- Dokuzuncu günde (10 Ocak), DemoProduct öğesinin 10'u miktarında bir satış siparişi alırsınız.
+- Onbir (12 Ocak) numaralı günde,DemoProduct öğesinin 10'u miktarında bir satınalma siparişi vardır.
 - Negatif günler, maddenin sağlama zamanından çok daha fazla olacak şekilde **20** olarak ayarlanır.
 
 Aşağıdaki çizim, ne yaşandığının grafiksel bir görünümünü göstermektedir.
@@ -229,7 +223,7 @@ Aşağıdaki çizim, ne yaşandığının grafiksel bir görünümünü gösterm
 
 MRP aşağıdaki sonuçları verir.
 
-![Sonuçlar](./media/negative-days-20.png)
+![Sonuçlar örneği 1](./media/negative-days-20.png)
 
 Önceki ekran görüntüsünde, satış siparişi gereksinim tarihi 10 Ocak yerine 9 Ocak'tır. Bu ekran görüntüsü 2015 tarihinde çekildiği için, 10 Ocak Cumartesi günü olan MRP, gereksinim tarihini 9 Ocak Cuma olan bir önceki çalışma gününe taşındı.
 
@@ -239,7 +233,7 @@ Sonuçlar yanlış, ancak MRP'nin tüm gecikmeleri ve önerileri oluşturması g
 
 Negatif günleri maddenin sağlama süresine daha yakın bir sayıya kadar azaltırsanız ve dinamik negatif günler kullanırsanız, MRP aşağıdaki sonuçları verir.
 
-![Sonuçlar](./media/negative-days-21.png)
+![Sonuçlar örneği 2](./media/negative-days-21.png)
 
 MRP, ilk satış siparişine iliştirilmiş bir planlı sipariş oluşturur. Daha sonra, beklenildiği gibi, ikinci satış siparişi negatif günler ayarına göre varolan satınalma siparişine karşı iliştirilir. Bu planlama sonucu da doğrudur ve MRP için çalışma süresi daha kısa olabilir. Bu olayda, eylem iletileriyle nasıl çalışacağının anlaşılması ve bilinmesi gerekli değildir.
 

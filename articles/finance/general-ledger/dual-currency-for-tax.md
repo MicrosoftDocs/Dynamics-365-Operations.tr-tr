@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832982"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088477"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Satış vergisi için çift para birimi desteği
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Dynamics 365 Finance için çift para birimi özelliği 8.1 (2018 Ekim) sürüm�
 Çift para birimleri desteğinin bir sonucu olarak özellik yönetiminde iki yeni özellik bulunur: 
 
 - Satış vergisi dönüştürmesi (10.0.13 sürümde yeni)
+- Satış vergisi kapatması için gerçekleşen para birimi ayarlama kar/zarar hesaplarına mali boyutlar girin (sürüm 10.0.17 yeni)
 
-Satış vergileri için çift para birimi desteği, vergi para birimi cinsinden vergilerin doğru hesaplanmasını ve satış vergisi kapatma bakiyesinin hem muhasebe para birimi, hem de raporlama para birimi cinsinden doğru şekilde hesaplanmasını sağlar. 
+Satış vergileri için çift para birimi desteği, vergi para birimi cinsinden vergilerin doğru hesaplanmasını ve satış vergisi kapatma bakiyesinin hem muhasebe para birimi, hem de raporlama para birimi cinsinden doğru şekilde hesaplanmasını sağlar.
 
 ## <a name="sales-tax-conversion"></a>Satış vergisi dönüştürme
 
@@ -88,6 +89,10 @@ Bu özellik yalnızca yeni hareketler için geçerlidir. Vergi hareketi için TA
 
 Önceki senaryoyu önlemek için bu parametre değerini, kapatılmamış vergi hareketleri içermeyen yeni (temiz) vergi kapatma döneminde değiştirmenizi öneririz. Vergi kapatma döneminin ortasındaki bu değeri değiştirmek için, lütfen bu parametre değerini değiştirmeden önce geçerli vergi kapatma dönemi için "Satış vergisini kapat ve deftere naklet" programını çalıştırın.
 
+Bu özellik, döviz alım satımlarından elde edilen kazanç ve kayıpları netleştiren muhasebe girişleri ekler. Girişler, satış vergisi kapatması sırasında yeniden değerleme yapıldığında gerçekleşen para birimi ayarlama kar ve zarar hesaplarında yapılacaktır. Daha fazla bilgi için, bu konunun sonraki bölümlerinde yer alan [raporlama para birimi bölümündeki Vergi kapatma otomatik bakiyesi](#tax-settlement-auto-balance-in-reporting-currency) bölümüne bakın.
+
+> [!NOTE]
+> Kapatma sırasında, mali boyutlara ilişkin bilgiler bilanço hesapları olan satış vergisi hesaplarından alınır ve kar ve zarar tablosu hesapları olan para birimi ayarlama kar ve zarar hesaplarına girilir. Mali boyutların değerine ilişkin kısıtlamalar bilanço hesapları ile kar ve zarar tablosu hesapları arasında farklılık sağladığından, Satış vergisi kapatma ve deftere naklet işlemi sırasında bir hata oluşabilir. Hesap yapılarını değiştirmek zorunda kalmamak için, "Mali boyutları satış vergisi kapatması için gerçekleşen para birimi ayarlama kar/zarar hesaplarına doldur" özelliğini açabilirsiniz. Bu özellik, finansal boyutların para birimi düzeltme kar/zarar hesaplarına türetilmesini zorlayacaktır. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Raporlama para birimi vergi tutarını izleme
 
@@ -114,7 +119,7 @@ Satış vergisi dönüştürme yolu "muhasebe para birimi" veya tek bir vergi ka
 | Muhasebe para birimi             | 100                        | 111                       | 83                       | **83.25**          |
 | Raporlama para birimi              | 100                        | 111                       | 83                       | **83**             |
 
-Satış vergisi kapatma programını ay sonu ile çalıştırdığınızda, hesap girişi aşağıdaki gibi olur:.
+Satış vergisi kapatma programını ay sonu ile çalıştırdığınızda, hesap girişi aşağıdaki gibi olur.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Senaryo: satış vergisi dönüştürme = "Muhasebe para birimi"
 
 | Ana hesap           | Hareket para birimi (GBP) | Muhasebe para birimi (USD) | Raporlama para birimi (GBP) |

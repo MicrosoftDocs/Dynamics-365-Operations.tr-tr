@@ -2,7 +2,7 @@
 title: Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 description: Bu konuda, Dynamics 365 Regulatory Configuration Services'te (RCS) Elektronik faturalamanın nasıl yapılandırılacağı açıklanmaktadır.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897732"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075155"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Regulatory Configuration Services'teki (RCS) elektronik faturalamayı yapılandırma
 
@@ -194,6 +194,8 @@ Aşağıdaki listelerde, elektronik faturalama özellikleri için kullanılabile
 
 - Satış faturası (ES)
 - Proje faturası (ES)
+
+Elektronik Faturalama hizmetiyle kullanmak üzere kullanıma hazır ER biçimi yapılandırmalarına ek olarak, kendi ER biçim yapılandırmalarınızı da oluşturabilirsiniz. Ancak, Elektronik Faturalama özellikleriyle kullanılmak üzere oluşturulan biçim yapılandırmaları, Finance veya Supply Chain Management tablolarına veya ilgili meta verilerden herhangi birine doğrudan başvuruyu desteklemez. Yalnızca ER modeli eşlemesine yapılan başvurular desteklenir.
 
 ### <a name="actions"></a>Eylemler
 

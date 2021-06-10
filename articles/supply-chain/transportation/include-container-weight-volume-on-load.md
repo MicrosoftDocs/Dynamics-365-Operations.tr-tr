@@ -1,7 +1,7 @@
 ---
 title: Konteyner ağırlığını ve hacmini yüke dahil etme
 description: Bu konu, yüklerdeki konteyner ağırlığı ve hacmi dahil etmek için işlevi ayarlamayı ve uygulamayı açıklar.
-author: pjacobse
+author: Henrikan
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 269384
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: henrikan
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d747d2cdafeedf77b8b2df1cbc8debdc0675729
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9196e9c4ce1a8aa629400b8bf379e7164a797b85
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824064"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102651"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Konteyner ağırlığını ve hacmini yüke dahil etme
 

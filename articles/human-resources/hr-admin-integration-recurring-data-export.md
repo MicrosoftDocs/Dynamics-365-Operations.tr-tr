@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889872"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6055016"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Yinelenen veri dışarı aktarma uygulaması oluşturma
 

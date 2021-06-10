@@ -2,7 +2,7 @@
 title: Elektronik faturalama hizmet yönetimini kullanmaya başlama
 description: Bu konu, elektronik faturalamayı kullanmaya nasıl başlayacağınızı açıklar.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980988"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092418"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Elektronik faturalama hizmet yönetimini kullanmaya başlama
 
@@ -44,18 +44,14 @@ Bu konudaki prosedürleri tamamlamadan önce, aşağıdaki önkoşulların yerin
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Lifecycle Services'de mikro hizmetler için eklentiyi yükleme
 
-1. LCS hesabınızda oturum açın.
-2. **Önizleme özelliği yönetimi** kutucuğunu seçin.
-3. **Genel Önizleme Özellikleri** bölümünde, **Elektronik Faturalama**'yı seçin.
-4. **Önizleme özelliği etkin** seçeneğinin **Evet** olarak ayarlanmış olduğundan emin olun.
-5. LCS proje panonuzda, bir LCS dağıtım projesi seçin.
-6. LCS projesinde, LCS ortam panosunda, LCS dağıtım projenizi seçin. LCS dağıtım projesi çalışıyor olmalıdır.
-7. **Power Platform Tümleştirme** sekmesinde, **Ortam eklentileri** alan grubunda, **Yeni eklenti yükle**'yi seçin.
-8. **Elektronik Faturalama**'yı seçin.
-9. **AAD uygulama kodu** alanına şunu girin: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Bu sabit bir değerdir.
-10. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin.
-11. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
-12. **Yükle**'yi seçin.
+1. LCS hesabınızda oturum açın ve LCS projesinde, LCS panosunda, LCS projesi seçin.
+2. Projede, ortam panosunda, LCS dağıtım projenizi seçin. Seçtiğiniz proje çalışıyor olmalıdır.
+3. **Power Platform Tümleştirme** sekmesinde, **Ortam eklentileri** alan grubunda, **Yeni eklenti yükle**'yi seçin.
+4. **Elektronik Faturalama**'yı seçin.
+5. **AAD uygulama kodu** alanına şunu girin: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Bu sabit bir değerdir.
+6. **AAD kiracı kimliği** alanında, Azure abonelik hesabınızın kiracı kimliğini girin.
+7. Hüküm ve koşulları inceleyin ve ardından onay kutusunu seçin.
+8. **Yükle**'yi seçin.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Elektronik faturalamayla RCS entegrasyonu için parametreleri ayarlama

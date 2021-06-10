@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814838"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103011"
 ---
 # <a name="pay-based-on-registrations"></a>Kayıtlara dayalı ödeme
 
@@ -168,9 +168,9 @@ Sistemi standart saat ile fazla mesaiyi açıkça ayıracak şekilde yapılandı
 
 **Hesaplama parametreleri** sayfasında, profil özellik türü olarak **Fazla mesai**'yi seçin ve **Ödeme saati** seçeneğini burada gösterildiği gibi **Hayır** olarak ayarlayın.
 
-| Kayıt belirtimi | Profil belirtim türü | Hesaplama   |     | Ücretli         |     |
+| Kayıt belirtimi | Profil belirtim türü | Hesaplama   | Ayar | Ödendi         | Ayar |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Çalışma zamanı       | Fazla mesai                   | Standart zaman | Evet | Ödeme zamanı     | Hayır  |
+| Çalışma zamanı       | Fazla mesai                   | Standart zaman | Evet | Ödeme zamanı     | No  |
 |                    |                            | Ödeme zamanı      | Evet | Fazla mesai ödemesi | Evet |
 
 Hesaplama parametrelerini ayarladıktan sonra, aşağıdaki ödeme maddeleri oluşturulur.
@@ -559,7 +559,7 @@ Bunun tersine, **Fazla mesaiyi düş** onay kutusu seçili devamsızlık kodu i�
 
 Aşağıdaki örnek, bir çalışanın esnek hesabının devamsızlık dönemi Esnek- dönemine dönüştürülerek nasıl düşürülebileceğini gösterir.
 
-Çalışan saat 07:00'de giriş ve saat 13:00'da çıkış yapar. Bu saatleri esnek hesabından düşmesi durumunda hafta sonu için eve gidebileceği konusunda yöneticisiyle bir anlaşmaya varmıştır. İlgili iş gününün kalan kısmı için devamsızlık dönemi çalışan planlı Esnek- döneminde olmadığından çalışan 13:00'da çıkış yaptığında bir devamsızlık kodu seçmesi istenir. İş gününün kalan kısmını Esnek- dönemine çevirmek için çalışan esnek hesabından düşülmek üzere ayarlanmış bir devamsızlık kodu seçebilir.
+Çalışan saat 07:00'de giriş ve saat 13:00'da çıkış yapar. İşçi, bu saatleri esnek hesabından keserse hafta sonu için eve gidebileceklerine dair bir anlaşmaya sahiptir. İlgili iş gününün kalan kısmı için devamsızlık dönemi çalışan planlı Esnek- döneminde olmadığından çalışan 13:00'da çıkış yaptığında bir devamsızlık kodu seçmesi istenir. İş gününün kalan kısmını Esnek- dönemine çevirmek için çalışan esnek hesabından düşülmek üzere ayarlanmış bir devamsızlık kodu seçebilir.
 
 Bir iş gününde devamsızlık kaydeden çalışanlar için esnek saatlerin bakiyesini azaltmak üzere **Saat ve işe devam** &gt; **Kurulum** &gt; **Gruplar** &gt; **Devamsızlık grupları**'nı ve **Esnek azalt** onay kutusunu seçin.
 
