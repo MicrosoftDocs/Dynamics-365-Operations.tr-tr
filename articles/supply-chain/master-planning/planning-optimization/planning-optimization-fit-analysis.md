@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812991"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049448"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planlamayı En İyi Duruma Getirme uygunluk analizi
 
@@ -89,13 +89,13 @@ Aşağıdaki tabloda, bir uygunluk analizinin ardından gösterilebilecek çeşi
 | Üretim | Sıralama içeren planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, sıralama yok sayılır. | Ekim 2021 - Nisan 2022 |
 | Üretim | Planlanan başlangıcı bugünden önce olan başlatılmamış serbest bırakılan üretim emirleri: _\#_ | Bu özellik beklemededir. Şu anda, bir üretim emri gecikirse, master planlama bunun bugün tamamlanacağını varsayar. Bu, teslimat tarihi geçmişte olan, ancak henüz tamamlanmamış olan yayımlanmış üretim emirleriyle ilgilidir. | Ekim 2021 - Nisan 2022 |
 | Üretim | Sınırlı kapasiteyle planlanan kaynaklar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde sınırlı kapasiteyle zamanlanan kaynaklar yok sayılır. Planlama, üründen alınan varsayılan sağlama süresine göre yapılır. | Sonsuz: Haziran 2021, Sonlu: Ekim 2021 |
-| Üretim | Planlamada kullanılan rotalar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, rotalar yok sayılır. Ürünün varsayılan sağlama süresi kullanılır. | 2021 Haziran |
+| Üretim | Planlamada kullanılan rotalar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, rotalar yok sayılır. Ürünün varsayılan sağlama süresi kullanılır. | Temmuz 2021 |
 | Üretim | Açılım kullanılarak satış satırı rezervasyonu: _\#_ | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, açılım kullanan satış satırı rezervasyonu desteklenmez. | 2021 Ekim |
 | Üretim | Üretim emirlerinin açılımı ile planlama: _\#_ | Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, üretim emirlerinin açılımını kullanan planlama desteklenmez. Üretim emirleri ayrı olarak zamanlanabilir. | 2021 Ekim |
 | Teklif talepleri | Teklif talepleri etkin olan master planlar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde teklif talepleri (RFQs) talep olarak değerlendirilmez. Bu ayar ne olursa olsun yok sayılır. | Ekim 2021 - Nisan 2022 |
 | Talepler | Taleplerin etkin olduğu master planlar: _\#_ | Bu özellik şimdi desteklenmektedir. Ek bilgi için bkz. [Satın alma talepleri](purchase-requisitions.md) | Destekleniyor |
-| Güvenlik marjları | Emniyet marjına sahip karşılama grupları: _\#_ | Bu özellik şimdi kısmen desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan 2021 |
-| Güvenlik marjları | Emniyet marjına sahip master planlar: _\#_ | Bu özellik şimdi kısmen desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan 2021 |
+| Güvenlik marjları | Emniyet marjına sahip karşılama grupları: _\#_ | Bu özellik şimdi kısmen desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan - Ekim 2021 |
+| Güvenlik marjları | Emniyet marjına sahip master planlar: _\#_ | Bu özellik şimdi kısmen desteklenmektedir. Ek bilgi için bkz. [Güvenlik marjları](safety-margins.md) | Giriş marjı: Desteklenir. Sipariş yenileme sınırı ve çıkış marjı: Nisan - Ekim 2021 |
 | Emniyet stoğu karşılama | "Minimum karşılama" değeri "Bugünün tarihi + tedarik süresi"den farklı olan madde karşılama kayıtları: _\#_ | Planlamayı En İyi Duruma Getirme daima *Bugünün tarihi + tedarik süresi*'ni kullanır. Bu değişiklik, ileride basitleştirilmiş bir planlama kurulumuna hazırlanmak ve eyleme geçirilebilir bir sonuç sağlamak için yapılmıştır. Emniyet stoğu için tedarik zamanı dahil edilmezse, geçerli düşük eldeki stok için oluşturulan planlı siparişler, sağlama süresi nedeniyle her zaman gecikecektir. Bu davranış belirgin gürültüye ve istenmeyen planlı siparişlere neden olabilir. En iyi yöntem, *Bugünün tarihi + tedarik süresi* kullanılacak şekilde ayarı değiştirmektir. Uyarılardan kaçınmak için ana verileri güncelleştirin. | - |
 | Satış teklifleri | Satış teklifleri etkin olan master planlar: _\#_ | Bu özellik beklemededir. Şu anda, Planlamayı En İyi Duruma Getirme etkinleştirildiğinde, teklifler dikkate alınmaz. Bu ayar ne olursa olsun yok sayılır. | Ekim 2021 - Nisan 2022 |
 | Raf ömrü | Raf ömrünün etkin olduğu master planlar: _\#_ | Bu özellik beklemededir. Şu anda, bu ayara bakılmaksızın, Planlamayı En İyi Duruma Getirme özelliği etkinleştirildiğinde, raf ömrü dikkate alınmaz. | 2021 Ekim |

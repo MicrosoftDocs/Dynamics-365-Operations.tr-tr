@@ -2,7 +2,7 @@
 title: Kayıtlı görünümler
 description: Bu konu, kaydedilmiş görünümler özelliklerinin nasıl kullanılacağını açıklar.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744627"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050568"
 ---
 # <a name="saved-views"></a>Kayıtlı görünümler
 
@@ -126,17 +126,26 @@ Bir görünümü yayımlamak için şu adımları izleyin:
 5. **10.0.17 ve sonraki güncelleştirmeler:** **(Önizleme) Kuruluş görünümleri için çeviri desteği** özelliği açıksa, **Ad** alanının yanındaki **Çeviriler** düğmesini seçerek görünüm adı için kuruluşunuzda gerekli olan dil kadar çeviri ekleyebilirsinzi. Ardından görünüm adı kullanıcılara geçerli dillerinde gösterilir. Çeviri tanımlanmayan dilleri çalıştıran kullanıcılara gösterilecek çeviriyi belirtmek için varsayılan dili de ayarlayabilirsiniz.
 5. İsteğe bağlı: Görünüm için bir açıklama girin; böylece bu görünümü alan kullanıcılar amacını daha iyi anlayabilir. 
 6. Görünümün, seçilen kullanıcılar için varsayılan görünüm olarak yayımlanıp yayımlanmayacağını belirleyin. Bir görünüm varsayılan olarak ayarlandığında, bu görünüm, kullanıcıların hedef sayfayı bir sonraki açtıklarında görecekleri görünüm olur. Hedeflenen her kullanıcının tek, genel varsayılan görünümü değiştirilir. Ancak, yayımlama gerçekleştirildikten sonra kullanıcılar varsayılan görünümlerini değiştirmeye devam edebilir.
-7. Bu görünüm tarafından hedeflenen kullanıcılara karşılık gelen güvenlik rollerini ekleyin. 
-8. Görünümü, seçilen her güvenlik rolünün alt rollerine yayımlamak isteyip istenediğinizi belirleyin. İstiyorsanız uygun güvenlik rolleri için satırdaki **Alt rolleri dahil et** onay kutusunu seçin. Bu onay kutusu, alt rollere sahip olmayan roller için kullanılamaz.
-9. Bu görünümün kullanılabilir olması gereken tüzel kişilikleri ekleyin. 
-10. **Yayımla**'yı seçin.
+
+    > [!NOTE]
+    > Bir görünümü varsayılan görünüm olarak yayımlarken aşağıdakilere dikkat edin: 
+    > -  Bir görünümü tüzel kişiliklerin tümüne veya bir kısmına varsayılan görünüm olarak yayımlarsanız, hedeflenen her kullanıcının tek, **genel** varsayılan görünümünü değiştirirsiniz. 
+    > -  Bir kullanıcının birden çok görünümün varsayılan görünüm olarak yayımlandığı rollere sahip olması durumunda, yayımlanan son görünüm kullanıcının varsayılan görünümü olarak kullanılacaktır. 
+
+8. Bu görünüm tarafından hedeflenen kullanıcılara karşılık gelen güvenlik rollerini ekleyin. 
+9. Görünümü, seçilen her güvenlik rolünün alt rollerine yayımlamak isteyip istenediğinizi belirleyin. İstiyorsanız uygun güvenlik rolleri için satırdaki **Alt rolleri dahil et** onay kutusunu seçin. Bu onay kutusu, alt rollere sahip olmayan roller için kullanılamaz.
+10. Bu görünümün kullanılabilir olması gereken tüzel kişilikleri ekleyin. 
+
+    > [!NOTE]
+    > Bir tüzel üzel üzel lığa görünüm yayımladığınızda aşağıdaki beklentilerin farkında olun.
+    > 
+    > Bir görünümü tüzel bir kişiliğe yayımlarsanız fakat bunu varsayılan görünüm olarak yayımlamazsanız, kullanıcılar başlangıçta yalnızca belirtilen tüzel kişilikler için görünüm seçicide görünümü görürler. Ancak, görünüm ilk kez yüklendikten sonra, tüzel kişilerden bağımsız olarak her zaman bu sayfanın kullanıcı görünümü seçicisinde olacaktır.
+
+11. **Yayımla**'yı seçin.
 
 Bazı ortamlarda, kullanıcılar yayımlanan görünümü görebilmeleri için biraz zaman (bir saat kadar) sürebilir.
 
-> [!NOTE]
-> Tüzel bir varlığa bir görünüm yayımladığınızda veya bir görünümü varsayılan görünüm olarak yayımladığınızda, aşağıdaki beklentilerin farkında olun.
-> - Bir görünümü tüzel kişiliklerin tümüne veya bir kısmına varsayılan görünüm olarak yayımlarsanız, hedeflenen her kullanıcının tek, genel varsayılan görünümünü değiştirirsiniz. Bir kullanıcının birden çok görünümün varsayılan görünüm olarak yayımlandığı rollere sahip olması durumunda, yayımlanan son görünüm kullanıcının varsayılan görünümü olarak kullanılacaktır. 
-> - Bir görünümü tüzel bir kişiliğe yayımlarsanız fakat bunu varsayılan görünüm olarak yayımlamazsanız, kullanıcılar başlangıçta yalnızca belirtilen tüzel kişilikler için görünüm seçicide görünümü görürler. Ancak, görünüm ilk kez yüklendikten sonra, tüzel kişilerden bağımsız olarak her zaman bu sayfanın kullanıcı görünümü seçicisinde olacaktır. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Yayınlanmış görünümü değiştirme
 
