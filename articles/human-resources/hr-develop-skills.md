@@ -1,14 +1,14 @@
 ---
-title: İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme
-description: Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.
+title: Yetenekleri konfigüre et
+description: Çalışanlarınızın yeteneklerini Dynamics 365 Human Resources'ta izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.
 author: andreabichsel
-ms.date: 11/01/2017
+manager: tfehr
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
@@ -16,52 +16,97 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: fc9996c31c3575ccf942907a66e59b00a344f3d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
+ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793717"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6076571"
 ---
-# <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="6b5fd-104">İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme</span><span class="sxs-lookup"><span data-stu-id="6b5fd-104">Align workforce skills with business needs</span></span>
+# <a name="configure-skills"></a><span data-ttu-id="609e9-104">Yetenekleri konfigüre et</span><span class="sxs-lookup"><span data-stu-id="609e9-104">Configure skills</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="6b5fd-105">Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="6b5fd-106">Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-106">You can also specify the skills that are required for a specific job.</span></span>
+<span data-ttu-id="609e9-105">Çalışanlarınızın yeteneklerini Dynamics 365 Human Resources'ta izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="609e9-105">You can track your worker's skills in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="609e9-106">Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="609e9-106">You can also specify the skills that are required for a specific job.</span></span>
 
-<span data-ttu-id="6b5fd-107">İzleyebileceğiniz yetenek örnekleri aşağıda verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="6b5fd-107">Examples of skills you can track include the following:</span></span>
--   <span data-ttu-id="6b5fd-108">Gözetime yönelik – Diğerlerinin çalışmasını denetleme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-108">Supervisory – Ability to supervise the work of others.</span></span>
--   <span data-ttu-id="6b5fd-109">Liderlik – Çalışanları ve iş alanlarını yönetme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-109">Leadership – Ability to lead employees and business domains.</span></span>
--   <span data-ttu-id="6b5fd-110">Planlama - İleriyi görebilme, vizyonlar oluşturma ve bunları değerlendirme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-110">Planning – Ability to look ahead, to form visions, and to see them through.</span></span>
--   <span data-ttu-id="6b5fd-111">HTML – HTML kodu yazabilme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-111">HTML – Ability to write HTML code.</span></span>
+<span data-ttu-id="609e9-107">İzleyebileceğiniz yetenek örnekleri verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="609e9-107">Examples of skills you can track include:</span></span>
 
-<span data-ttu-id="6b5fd-112">Bir kişiye veya işe bir yetenek atayabilmek, bir yetenek eşleme araması ya da bir yetenek profili oluşturabilmek için, **Yetenekler** sayfasında yeteneklerle ilgili bilgileri girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-112">Before you can assign a skill to a person or a job, create a skill-mapping search, or create a skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="6b5fd-113">Her bir yetenek için yetenek türünü ve değerlendirme modelini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-113">For each skill, you can select a skill type and a rating model.</span></span>
+- <span data-ttu-id="609e9-108">Gözetime yönelik – Diğerlerinin çalışmasını denetleme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="609e9-108">Supervisory – Ability to supervise the work of others.</span></span>
+- <span data-ttu-id="609e9-109">Liderlik – Çalışanları ve iş alanlarını yönetme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="609e9-109">Leadership – Ability to lead employees and business domains.</span></span>
+- <span data-ttu-id="609e9-110">Planlama - İleriyi görebilme, vizyon deyimleri oluşturma ve bunları değerlendirme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="609e9-110">Planning – Ability to look ahead, to form vision statements, and to see them through.</span></span>
+- <span data-ttu-id="609e9-111">HTML – HTML kodu yazabilme yeteneği.</span><span class="sxs-lookup"><span data-stu-id="609e9-111">HTML – Ability to write HTML code.</span></span>
 
-## <a name="rating-models"></a><span data-ttu-id="6b5fd-114">Değerlendirme modelleri</span><span class="sxs-lookup"><span data-stu-id="6b5fd-114">Rating models</span></span>
-<span data-ttu-id="6b5fd-115">Değerlendirme modelleri bir kişinin gerçek yetenek düzeyini, elde etmek için çalışmaları gereken düzeyi veya iş için gerekli olan yetenek düzeyini değerlendirmenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-115">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill that is required for a job.</span></span> <span data-ttu-id="6b5fd-116">Bir derecelendirme modeli için en fazla 10 düzey girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-116">You can enter up to 10 levels for a rating model.</span></span>  <span data-ttu-id="6b5fd-117">Derecelendirme modelindeki her düzeye bir faktör atanır.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-117">Each level in a rating model is assigned a factor.</span></span>  <span data-ttu-id="6b5fd-118">Faktör değeri, farklı değerlendirme modelleri kullanılan yetenek skorlarını normalleştirmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-118">The factor value will be used to normalize the scores of skills that use different rating models.</span></span>  <span data-ttu-id="6b5fd-119">Faktörün 0-9 arasında bir numarası ve her düzeyin benzersiz bir faktörü olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-119">The factor must be a number between 0-9 and each level must have a unique factor.</span></span>  <span data-ttu-id="6b5fd-120">Faktör değerleri yüksek düzeyler bir derecelendirme modelinde daha fazla ağırlık taşır.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-120">Levels with higher factor values carry more weight in a rating model.</span></span>
+<span data-ttu-id="609e9-112">Yetenek tiplerini ve derecelendirme modellerini henüz ayarlamadıysanız, yetenek oluşturmadan önce bir miktar eklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="609e9-112">If you haven't already set up skill types and rating models, you'll need to add some before creating skills.</span></span>
 
-## <a name="specify-job-skills"></a><span data-ttu-id="6b5fd-121"> İş yeteneklerini belirtme</span><span class="sxs-lookup"><span data-stu-id="6b5fd-121">Specify job skills</span></span>
-<span data-ttu-id="6b5fd-122">Bir iş hakkındaki bilgileri girerken, bir kişinin o işte gereken çalışmayı yapması için sahip olması gereken yetenekleri belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-122">When you enter information about a job, you can specify the skills that a person should have to perform the work required for the job.</span></span>  <span data-ttu-id="6b5fd-123">Ayrıca, istenen her yetenek için istenen düzeyi ve o yeteneğin önem düzeyini belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-123">In addition you can specify the desired level for each skill as well the level of importance of the skill.</span></span> <span data-ttu-id="6b5fd-124">Farklı işler, aynı yeteneğin farklı düzeylerini gerektirebilir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-124">Different jobs can require different levels of importance for the same skill.</span></span>
+<span data-ttu-id="609e9-113">Aşağıdaki kişiler bir çalışan için yetenek girebilecek:</span><span class="sxs-lookup"><span data-stu-id="609e9-113">The following people can enter skills for a worker:</span></span>
 
-## <a name="enter-skills-for-workers-applicants-or-contacts"></a><span data-ttu-id="6b5fd-125"> Çalışanlar, başvuranlar veya ilgili kişiler için yetenekleri girme</span><span class="sxs-lookup"><span data-stu-id="6b5fd-125">Enter skills for workers, applicants, or contacts</span></span>
-<span data-ttu-id="6b5fd-126">Çalışanlar, başvuranlar veya ilgili kişiler için hedef yetenekler veya gerçek yetenekler girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-126">You can enter target skills or actual skills for workers, applicants, or contacts.</span></span> <span data-ttu-id="6b5fd-127">Hedef yetenek, bir kişinin elde etmeyi planladığı yetenektir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-127">A target skill is a skill that a person plans to achieve.</span></span> <span data-ttu-id="6b5fd-128">Gerçek yetenek, bir kişinin sahip olduğu yetenektir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-128">An actual skill is a skill that a person currently has.</span></span>
+- <span data-ttu-id="609e9-114">Çalışanlar self servise kendileri için yetenekler girebilecek.</span><span class="sxs-lookup"><span data-stu-id="609e9-114">Workers can enter skills for themselves in Employee self-service.</span></span> <span data-ttu-id="609e9-115">Bu yetenekler için yönetici onayı gereklidir.</span><span class="sxs-lookup"><span data-stu-id="609e9-115">These skills require manager approval.</span></span>
+- <span data-ttu-id="609e9-116">Yöneticiler, çalışanları için yetenekler girebilirler.</span><span class="sxs-lookup"><span data-stu-id="609e9-116">Managers can enter skills for their workers.</span></span> <span data-ttu-id="609e9-117">Bu becerileri otomatik olarak onaylayan bir iş akışı oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="609e9-117">You can create a workflow that auto-approves these skills.</span></span>
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a><span data-ttu-id="6b5fd-129"> Yetenek eşleme ve Yetenek eşleme profilleri</span><span class="sxs-lookup"><span data-stu-id="6b5fd-129">Skill mapping and Skill mapping profiles</span></span>
-<span data-ttu-id="6b5fd-130">Belirli türde bir görevi yerine getirmeye uygun nitelikte bir işçi, başvuru sahibi veya ilgili kişi bulmak için bir yetenek eşleştirme araması oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-130">You can create a skill-mapping search to find a worker, applicant, or contact person who is qualified to perform a specific type of task.</span></span> <span data-ttu-id="6b5fd-131">Yetenek eşleştirme aramaları yetenekleri, eğitimi, sertifikaları, güven gerektiren pozisyonları ve proje deneyimini arayıp, girilen ölçütlere uyan sonuçları döndürür.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-131">Skill-mapping searches look across skills, education, certificates, positions of trust and project experience and return results that match the criteria entered.</span></span>  <span data-ttu-id="6b5fd-132">Örneğin, kuruluşunuzda hangi çalışanların CPA kazandığını bilmek yararlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-132">For example, it might be useful to know which workers in your organization earned their CPA.</span></span>
+## <a name="create-a-skill-type"></a><span data-ttu-id="609e9-118">Beceri türü oluşturma</span><span class="sxs-lookup"><span data-stu-id="609e9-118">Create a skill type</span></span>
 
-<span data-ttu-id="6b5fd-133">Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="6b5fd-134">Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="6b5fd-135">Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
+<span data-ttu-id="609e9-119">Yetenek tipleri yönetim veya satışlar gibi bireysel yeteneklerin altında kalan kategorilerlerdir.</span><span class="sxs-lookup"><span data-stu-id="609e9-119">Skill types are categories that individual skills fall under, such as Administration or Sales.</span></span>
 
-> <span data-ttu-id="6b5fd-136">**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="6b5fd-137">Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="6b5fd-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-> 
-> + <span data-ttu-id="6b5fd-138">Çalışan</span><span class="sxs-lookup"><span data-stu-id="6b5fd-138">Worker</span></span>
-> + <span data-ttu-id="6b5fd-139">Çalışan</span><span class="sxs-lookup"><span data-stu-id="6b5fd-139">Employee</span></span>
-> + <span data-ttu-id="6b5fd-140">Başvuran</span><span class="sxs-lookup"><span data-stu-id="6b5fd-140">Applicant</span></span>
-> + <span data-ttu-id="6b5fd-141">İlgili kişiler</span><span class="sxs-lookup"><span data-stu-id="6b5fd-141">Contacts</span></span>
+1. <span data-ttu-id="609e9-120">**Çalışan geliştirme** çalışma alanında, **Bağlantılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-120">In the **Employee development** workspace, select **Links**.</span></span>
 
-## <a name="skill-gap-analysis-and-skill-profile-analysis"></a><span data-ttu-id="6b5fd-142"> Yetenek eksikliği analizi ve yetenek profili analizi</span><span class="sxs-lookup"><span data-stu-id="6b5fd-142">Skill gap analysis and skill profile analysis</span></span>
-<span data-ttu-id="6b5fd-143">Bir çalışan, başvuran veya ilgili kişinin belirli bir tarih itibariyle sahip olduğu yetkinliklerin listesini görmek için bir yetenek profili analizi oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-143">You can create a skill profile analysis to view a list of the competencies of a worker, applicant, or contact person as of a specific date.</span></span> <span data-ttu-id="6b5fd-144">Bir kişinin yeteneklerini ve belirli bir iş için gereken yetenekleri karşılaştırmak için bir yetenek eksikliği analizi oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6b5fd-144">You can create a skill gap analysis to compare a person’s skills and the skills that are required for a specific job.</span></span>  
+2. <span data-ttu-id="609e9-121">**Yetki kurulumu** altında **Yetenek tipleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-121">Under **Competency setup**, select **Skill types**.</span></span>
 
+3. <span data-ttu-id="609e9-122">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-122">Select **New**.</span></span>
 
+4. <span data-ttu-id="609e9-123">Ardından aşağıdaki alanları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="609e9-123">Complete the following fields:</span></span>
 
+   - <span data-ttu-id="609e9-124">**Beceri türü**: Beceri türü için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-124">**Skill type**: Enter a name for the skill type.</span></span>
+   - <span data-ttu-id="609e9-125">**Açıklama**: Beceri türü için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-125">**Description**: Enter a description for the skill type.</span></span>
+
+5. <span data-ttu-id="609e9-126">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-126">Select **Save**.</span></span>
+
+## <a name="create-a-rating-model"></a><span data-ttu-id="609e9-127">Derecelendirme modeli oluşturma</span><span class="sxs-lookup"><span data-stu-id="609e9-127">Create a rating model</span></span>
+
+<span data-ttu-id="609e9-128">Değerlendirme modelleri bir kişinin gerçek yetenek düzeyini, elde etmek için çalışmaları gereken düzeyi veya iş için gerekli olan yetenek düzeyini değerlendirmenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="609e9-128">Rating models help evaluate a person's actual level of skill, the level they should work to achieve, or the level of skill required for a job.</span></span> <span data-ttu-id="609e9-129">Derecelendirme modelindeki her düzeye bir faktör atanır.</span><span class="sxs-lookup"><span data-stu-id="609e9-129">Each level in a rating model is assigned a factor.</span></span>
+
+1. <span data-ttu-id="609e9-130">**Çalışan geliştirme** çalışma alanında, **Bağlantılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-130">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="609e9-131">**Yetki kurulumu** altında, **değerlendirme modelleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-131">Under **Competency setup**, select **Rating models**.</span></span>
+
+3. <span data-ttu-id="609e9-132">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-132">Select **New**.</span></span>
+
+4. <span data-ttu-id="609e9-133">Ardından aşağıdaki alanları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="609e9-133">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="609e9-134">**Derecelendirme**: değerlendirme modeli için **yetenekler** gibi bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-134">**Rating**: Enter a name for the rating model, such as **Skills**.</span></span>
+   - <span data-ttu-id="609e9-135">**Açıklama**: **Yetenek derecelendirmeleri** gibi bir değerlendirme modeli açıklaması girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-135">**Description**: Enter a description for the rating model, such as **Skill ratings**.</span></span>
+
+5. <span data-ttu-id="609e9-136">**Düzeyler** bölümünde, **Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-136">In the **Levels** section, select **New**.</span></span> <span data-ttu-id="609e9-137">Eklemek istediğiniz her düzey için, aşağıdaki alanları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="609e9-137">For each level you want to add, complete the following fields:</span></span>
+
+   - <span data-ttu-id="609e9-138">**Düzey**: Düzey için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-138">**Level**: Enter a name for the level.</span></span>
+   - <span data-ttu-id="609e9-139">**Açıklama**: Düzey için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-139">**Description**: Enter a description for the level.</span></span>
+   - <span data-ttu-id="609e9-140">**Faktör**: 0-9 bir faktör değeri girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-140">**Factor**: Enter a factor value from 0-9.</span></span> <span data-ttu-id="609e9-141">Faktörlr, farklı değerlendirme modelleri kullanılan yetenek skorlarını normalleştirmeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="609e9-141">Factors help normalize the scores of skills that use different rating models.</span></span> <span data-ttu-id="609e9-142">Her düzey benzersiz bir etmenle sahip olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="609e9-142">Each level must have a unique factor.</span></span> <span data-ttu-id="609e9-143">Faktör değerleri yüksek düzeyler bir derecelendirme modelinde daha fazla ağırlık taşır.</span><span class="sxs-lookup"><span data-stu-id="609e9-143">Levels with higher factor values carry more weight in a rating model.</span></span>
+
+   <span data-ttu-id="609e9-144">Gerektiğinde düzeyler eklemeye devam edin.</span><span class="sxs-lookup"><span data-stu-id="609e9-144">Continue adding levels as necessary.</span></span> <span data-ttu-id="609e9-145">Bir derecelendirme modeli için en fazla 10 düzey girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="609e9-145">You can enter up to 10 levels for each rating model.</span></span>
+
+6. <span data-ttu-id="609e9-146">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-146">Select **Save**.</span></span>
+
+## <a name="create-a-skill"></a><span data-ttu-id="609e9-147">Beceri oluşturma</span><span class="sxs-lookup"><span data-stu-id="609e9-147">Create a skill</span></span>
+
+<span data-ttu-id="609e9-148">Bir kişiye veya işe bir yetenek atayabilmek, bir yetenek eşleme araması ya da bir yetenek profili oluşturabilmek için, **Yetenekler** sayfasında yeteneklerle ilgili bilgileri girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="609e9-148">Before you can assign a skill, or create a skill-mapping search or skill profile, you must enter information about the skills on the **Skills** page.</span></span> <span data-ttu-id="609e9-149">Her bir yetenek için yetenek türünü ve değerlendirme modelini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="609e9-149">For each skill, you can select a skill type and a rating model.</span></span>
+
+1. <span data-ttu-id="609e9-150">**Çalışan geliştirme** çalışma alanında, **Bağlantılar**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-150">In the **Employee development** workspace, select **Links**.</span></span>
+
+2. <span data-ttu-id="609e9-151">**Yetki kurulumu** altında **Yetenekler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-151">Under **Competency setup**, select **Skills**.</span></span>
+
+3. <span data-ttu-id="609e9-152">**Yeni**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-152">Select **New**.</span></span>
+
+4. <span data-ttu-id="609e9-153">Ardından aşağıdaki alanları tamamlayın:</span><span class="sxs-lookup"><span data-stu-id="609e9-153">Complete the following fields:</span></span>
+
+   - <span data-ttu-id="609e9-154">**Beceri**: Beceri için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-154">**Skill**: Enter a name for the skill.</span></span>
+   - <span data-ttu-id="609e9-155">**Açıklama**: Beceri için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="609e9-155">**Description**: Enter a description for the skill.</span></span>
+   - <span data-ttu-id="609e9-156">**Derecelendirme**: Bu beceri için kullanmak istediğiniz derecelendirme modelini seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-156">**Rating**: Select the rating model you want to use for this skill.</span></span>
+   - <span data-ttu-id="609e9-157">**Yetenek türü**: Yetenek tipleri listesinden seçim yapın.</span><span class="sxs-lookup"><span data-stu-id="609e9-157">**Skill type**: Select from the list of skill types.</span></span>
+
+5. <span data-ttu-id="609e9-158">**Kaydet**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="609e9-158">Select **Save**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="609e9-159">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="609e9-159">See also</span></span>
+
+[<span data-ttu-id="609e9-160">Yetenekleri girin</span><span class="sxs-lookup"><span data-stu-id="609e9-160">Enter skills</span></span>](hr-develop-enter-skills.md)<br>
+[<span data-ttu-id="609e9-161">Becerileri eşleştirme</span><span class="sxs-lookup"><span data-stu-id="609e9-161">Map skills</span></span>](hr-develop-map-skills.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
