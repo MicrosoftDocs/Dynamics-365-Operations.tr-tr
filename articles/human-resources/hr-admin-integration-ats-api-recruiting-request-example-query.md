@@ -7,35 +7,34 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3bba96988f3ccef9ef54c1dad2a4c63e829198f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 24c94aeb743aa1c9267b63472db2ac68badd0130
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789720"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057418"
 ---
-# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="569a1-103">Işe alma isteği için sorgu örneği</span><span class="sxs-lookup"><span data-stu-id="569a1-103">Example query for Recruiting request</span></span>
+# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="e5f0a-103">Işe alma isteği için sorgu örneği</span><span class="sxs-lookup"><span data-stu-id="e5f0a-103">Example query for Recruiting request</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="569a1-104">Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.</span><span class="sxs-lookup"><span data-stu-id="569a1-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="e5f0a-104">Bu konu, Dynamics 365 Human Resources'taki İşe alma isteği varlığı için örnek bir sorgu sağlar.</span><span class="sxs-lookup"><span data-stu-id="e5f0a-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="569a1-105">Aşağıdaki sorgu, belirli bir işe alma isteği kaydı ve belirtilen istekle ilgili tüm ilişkili pozisyonlar, gerekli yetenekler ve Eğitim gereksinimlerini almak için $expand sorgu seçeneğini bir alma işlemi içinde nasıl kullanabileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="569a1-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="569a1-106">Örnek yanıt, iki pozisyon için işe alma isteğini ve istenen pozisyonlar için gerekli becerileri ve eğitim bilgilerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="569a1-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+<span data-ttu-id="e5f0a-105">Aşağıdaki sorgu, belirli bir işe alma isteği kaydı ve belirtilen istekle ilgili tüm ilişkili pozisyonlar, gerekli yetenekler ve Eğitim gereksinimlerini almak için $expand sorgu seçeneğini bir alma işlemi içinde nasıl kullanabileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="e5f0a-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="e5f0a-106">Örnek yanıt, iki pozisyon için işe alma isteğini ve istenen pozisyonlar için gerekli becerileri ve eğitim bilgilerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="e5f0a-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
 
-<span data-ttu-id="569a1-107">**İstek**</span><span class="sxs-lookup"><span data-stu-id="569a1-107">**Request**</span></span>
+<span data-ttu-id="e5f0a-107">**İstek**</span><span class="sxs-lookup"><span data-stu-id="e5f0a-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruiting request entity ID>)?$expand=mshr_FK_HcmRecruitingRequestPositionEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestSkillEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestEducationEntity_RecruitingRequest
 ```
 
-<span data-ttu-id="569a1-108">**Yanıt**</span><span class="sxs-lookup"><span data-stu-id="569a1-108">**Response**</span></span>
+<span data-ttu-id="e5f0a-108">**Yanıt**</span><span class="sxs-lookup"><span data-stu-id="e5f0a-108">**Response**</span></span>
 
 ```json
 {
@@ -180,8 +179,8 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="569a1-109">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="569a1-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5f0a-109">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="e5f0a-109">See also</span></span>
 
-[<span data-ttu-id="569a1-110">Başvuran İzleme Sistemi tümleştirme API'si tanıtımı</span><span class="sxs-lookup"><span data-stu-id="569a1-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="e5f0a-110">Başvuran İzleme Sistemi tümleştirme API'si tanıtımı</span><span class="sxs-lookup"><span data-stu-id="e5f0a-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
