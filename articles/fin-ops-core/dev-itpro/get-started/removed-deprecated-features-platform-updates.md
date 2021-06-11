@@ -2,7 +2,7 @@
 title: Kaldırılan veya artık kullanılmayan Platform özellikleri
 description: Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923550"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111736"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Kaldırılan veya artık kullanılmayan Platform özellikleri
 
@@ -31,6 +31,19 @@ Bu konu, Finance and Operations uygulamalarının platofrm güncellemelerinde ka
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye [Teknik referans](/dynamics/s-e/global/axtechrefrep_61) raporları altından ulaşabilirsiniz. Finance and Operations uygulamalarının her sürümünde değiştirilen veya kaldırılan nesneler hakkında bilgi edinmek için bu raporların farklı sürümlerini karşılaştırabilirsiniz.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Mayıs 2021'den itibaren geçerli olmak üzere özellik kullanımdan kaldırma bildirimi
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Lifecycle Services (LCS) içinde genelleştirme portalı
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu özellik diğer LCS tabanlı hizmetler tarafından yerine geçirildikçe LCS'deki Genelleştirme portalını kullanımdan kaldırdık. |
+| **Başka bir özellikle mi değiştirildi?**   | Evet, bu özelliğin yerini LCS [Sorunu arama](../lifecycle-services/issue-search-lcs.md) ve [Dynamics düzenleyici uyarı gönderme hizmeti](../lcs-solutions/submit-localization-alerts.md). |
+| **Etkilenen ürün alanları**         | LCS'de genelleştirme portalı|
+| **Dağıtım seçeneği**              | Bulut dağıtımı |
+| **Durum**                         | Kullanım dışı: Mayıs 2022'de planlanan kaldırma tarihi. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Özellik 28 Ocak 2021'de kaldırıldı
 
@@ -56,7 +69,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Visual Studio 2017, Dağıtılmış ve gerekli sürüm olarak Visual Studio 2015 yerine çalışacak. |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı. Güncelleştirme sonrasında, önceki X++ Visual Studio 2015'ten kaldırılacaktır ve güncelleştirilen araçlar Visual Studio 2015'e yüklenmeyecektir. Barındırılan yapılar üzerinde hiçbir etkisi yoktur. Derleme sanal makineleri için derleme işlem hattı (derleme tanımı), bağımlılığı MSBuild 14.0 (Visual Studio 2015) sürümünden MSBuild 15.0 (Visual Studio 2017) sürümüne değiştirmek için [Azure Pipelines'ta eski bir işlem hattını güncelleştirme](../dev-tools/pipeline-msbuild-update.md) konusunda açıklanan şekilde el ile güncelleştirilmelidir. |
+| **Durum**                         | Kullanım dışı: Güncelleştirme sonrasında, önceki X++ Visual Studio 2015'ten kaldırılacaktır ve güncelleştirilen araçlar Visual Studio 2015'e yüklenmeyecektir. Barındırılan yapılar üzerinde hiçbir etkisi yoktur. Derleme sanal makineleri için derleme işlem hattı (derleme tanımı), bağımlılığı MSBuild 14.0 (Visual Studio 2015) sürümünden MSBuild 15.0 (Visual Studio 2017) sürümüne değiştirmek için [Azure Pipelines'ta eski bir işlem hattını güncelleştirme](../dev-tools/pipeline-msbuild-update.md) konusunda açıklanan şekilde el ile güncelleştirilmelidir. |
 
 ### <a name="user-avatar"></a>Kullanıcı avatarı 
 
@@ -76,7 +89,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | No |
 | **Etkilenen ürün alanları**         | Web istemcisi |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kaldırıldı. EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
+| **Durum**                         | Kullanım dışı: EP kodunun tamamının, Ekim 2021 sürümünde kaldırılması planlanıyor. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Finance and Operations uygulamalarının 10.0.15 sürümü için platform güncelleştirmeleri
 
@@ -88,7 +101,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
 | **Etkilenen ürün alanları**         | Tüm Dynamics 365 ürünleri |
 | **Dağıtım seçeneği**              | Tümü|
-| **Durum**                         | Kaldırıldı. Internet Explorer 11 Ağustos 2021'den sonra desteklenmeyecektir.|
+| **Durum**                         | Kullanım dışı: Internet Explorer 11 Ağustos 2021'den sonra desteklenmeyecektir.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Meta veri düzeltmelerini uygulamak için Visual Studio eklentisi
@@ -181,7 +194,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Daha fazla bilgi için, bkz [Azure Active Directory Koşullu Erişimi yapılandırma](/appcenter/general/configuring-aad-conditional-access).|
 | **Etkilenen ürün alanları**         | Güvenlik |
 | **Dağıtım seçeneği**              | Bulut |
-| **Durum**                         | **Kullanım dışı:** Bu özellik self servis dağıtımları için tam olarak kullanım dışıdır. |
+| **Durum**                         | Kullanım dışı: Bu özellik self servis dağıtımları için tam olarak kullanım dışıdır. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
@@ -201,7 +214,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Bu derleyici hatası, derleyici uyarısının kalıcı olarak yerini alır.  |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | **Kullanım dışı:** Derleyici uyarısı, Finance and Operations uygulamalarının 10.0.11 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
+| **Durum**                         | Kullanım dışı: Derleyici uyarısı, Finance and Operations uygulamalarının 10.0.11 sürümü platform güncelleştirmelerinde bir derleyici hatasıdır. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>SHA1 karma algoritması kullanılarak oluşturulan ISV lisansları
 
@@ -211,7 +224,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Evet. Lisans oluşturmak için Windows PowerShell'i kullanın. |
 | **Etkilenen ürün alanları**         | Visual Studio geliştirme araçları |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | <strong>Kullanım dışı:</strong> SHA1 karma algoritması kullanılarak oluşturulan ISV lisansları. Bu algoritma MakeCert yardımcı programı kullanılarak oluşturulan sertifikalara bağımlıydı ve bu yardımcı program kullanım dışı bırakıldı.<p><strong>Kullanım dışı:</strong> Güvenlik veya karma amaçlar için SHA1 kullanımı. SHA1 işlevi, 2021'in ilk dönemlerinde sonlandırılacaktır. Bu nedenle, artık kullanılmamalıdır.<p><strong>Kaldırıldı:</strong> Aktarım Katmanı Güvenliği (TLS) 1.0 ve TLS 1.1 gelen veya giden istekleri için destek. |
+| **Durum**                         | Kullanım dışı: SHA1 karma algoritması kullanılarak oluşturulan ISV lisansları. Bu algoritma MakeCert yardımcı programı kullanılarak oluşturulan sertifikalara bağımlıydı ve bu yardımcı program kullanım dışı bırakıldı.<br><br>Kullanım dışı: Güvenlik veya karma amaçlar için SHA1 kullanımı. SHA1 işlevi, 2021'in ilk dönemlerinde sonlandırılacaktır. Bu nedenle, artık kullanılmamalıdır.<br><br>Kaldırıldı: Aktarım Katmanı Güvenliği (TLS) 1.0 ve TLS 1.1 gelen veya giden istekleri için destek. |
 
 ## <a name="platform-update-32"></a>Platform update 32
 

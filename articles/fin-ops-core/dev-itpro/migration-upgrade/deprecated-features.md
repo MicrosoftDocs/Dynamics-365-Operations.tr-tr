@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921435"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112633"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -104,6 +104,39 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **Yurtiçi vergi raporu (IT) – Özellik referansı IT-00003** özelliğini desteklememeyi planlıyoruz. |
 
+## <a name="october-2019-deprecation-announcement"></a>Ekim 2019 kullanımdan kaldırma duyurusu
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>İş süreci modelleyicideki akış çizelgesi diyagramları
+
+<table>
+<tbody>
+<tr>
+<td><strong>Kullanımı sonlandırma/kaldırma nedeni</strong></td>
+<td>Eski tasarım düşük kullanıma neden olduğundan, İş süreci modelleyici (BPM) içindeki akış çizelgesi diyagramları bileşenini yeniden modelliyoruz.</td>
+</tr>
+<tr>
+<td><strong>Başka bir özellik ile değiştirildi?</strong></td>
+<td>Hayır</td>
+</tr>
+<tr>
+<td><strong>Etkilenen alanlar</strong></td>
+<td>İş süreci modelleyici</td>
+</tr>
+<tr>
+<td><strong>Durum</strong></td>
+<td>Kullanım dışı: BPM içindeki akış grafiği diyagramları bileşeninin 2020 tarihinde ilk olarak kaldırılması beklenir. Aşağıdaki işlevler kullanılamayacak:
+<ul>
+<li>Tüm akış çizelgeleri salt okunur olacak ve düzenleme için uygun olmayacak. Akış çizelgesi etkinlikleriyle ilişkilendirilmiş şekil özellikleri de kullanılamayacak. Bu akış çizelgeleri, otomatik olarak oluşturulan varsayılan akış çizelgeleri ve varsayılan akış çizelgeleri temel alınarak değiştirilmiş özel akış çizelgeleri içerir.</li>
+<li>İşlem adımları salt okunur olacak ve düzenleme için uygun olmayacak.</li>     
+<li>Eski sığdırma/boşluk analizi özelliği kullanılamayacak. Bu nedenle, hiçbir Aralık listesi otomatik olarak oluşturulmayacak veya dışa aktarma için kullanılabilir olmayacak.
+<p><strong>Not:</strong> Bu özellik daha önce kaldırılmış ve Microsoft Azure DevOps tümleştirmeviyle değiştirildi.</p>
+</li>
+<li>Akış çizelgesinin sürüm geçmişi kullanılamayacak.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5, Platform güncelleştirmesi 29 ile
 

@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841273"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111706"
 ---
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Bu konuda, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, ürün ve hizmetlere yönelik alınan ödemeler için taleplerdir. Satıcı faturaları devam eden hizmetler için bir faturayı temsil edebilir veya belirli madde ve hizmetler için satın alma siparişlerini temel alabilir.
 
@@ -71,7 +73,9 @@ Bir faturanın iş akışına gönderilmesini engelleyebilmenizin çeşitli yoll
 
 - **Fatura tahsis edilmemiş masraflar içeriyor.** Faturayı gönderen kişi, faturada tahsis edilmemiş masraflar olduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Bu özellik, **Özellik yönetimi** sayfasındaki  **Satıcı faturasında tahsis edilmemiş masraflar olduğunda iş akışına göndermeyi engelle** parametresi etkin olduğunda kullanılabilir.
 
-- **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kişi, yinelenen numaraya sahip bir fatura bulunduğunu belirten bir uyarı alacak ve faturayı iş akışına yeniden göndermeden önce düzeltebilecektir. Borç hesaplarında, **Kullanılan fatura numarasını denetle** parametresi, **Yineleneni reddet** olarak ayarlandığında bu uyarı görüntülenir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.  
+- **Fatura, deftere nakledilen başka bir faturayla aynı fatura numarasını içeriyor.** Faturayı gönderen kişi, yinelenen numaraya sahip bir faturanın bulunduğunu belirten bir ileti alır. Yinelenen numara, faturayı iş akışına yeniden göndermeden önce düzeltilebilir. Borç hesaplarında, **Kullanılan fatura numarasını denetle** parametresi, **Yineleneni reddet** olarak ayarlandığında bu uyarı görüntülenir. Bu özellik, **Özellik yönetimi** sayfasındaki **Fatura numarası deftere nakledilmiş bir faturada zaten varsa ve sisteminiz yinelenen fatura numaralarını kabul etmek üzere yapılandırılmadıysa iş akışına gönderimi engelle** parametresi etkin olduğunda kullanılabilir.
+
+- **Fatura, fatura miktarının eşleşen ürün giriş miktarından az olduğu bir satır içerir.** Faturayı gönderen veya deftere nakletmeye çalışan kişi, miktarların eşit olmadığını belirten bir ileti alır. Bu mesaj, faturayı iş akışına yeniden göndermeden önce değerleri düzeltmek için bir fırsat sağlar. Bu özellik, **Özellik yönetimi** sayfasında **satıcı faturalarının deftere naklini ve iş akışına gönderilmesini engelle** parametresi açıksa ve **Borç hesapları parametreleri** sayfasındaki **Deftere Nakil ve İş Akışına Gönderimi Engelle** parametresi açıksa kullanılabilir.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Satıcı faturalarını ürün girişlerine eşleştirmek
 

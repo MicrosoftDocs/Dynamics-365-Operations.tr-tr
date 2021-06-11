@@ -2,7 +2,7 @@
 title: Mağazalardaki müşteri yönetimi
 description: Bu konu, perakendecilerin müşteri yönetimi yeteneklerini Microsoft Dynamics 365 Commerce'teki satış noktasında nasıl etkinleştirebileceğini açıklar.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019999"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097220"
 ---
 # <a name="customer-management-in-stores"></a>Mağazalardaki müşteri yönetimi
 
@@ -35,7 +35,10 @@ Satış yetkilileri ikincil e-posta adreslerini ve telefon numaralarını da kay
 
 ## <a name="default-customer-properties"></a>Varsayılan müşteri özellikleri
 
-Perakendeciler, her mağaza için varsayılan bir müşteri ilişkilendirmek amacıyla Commerce genel merkezindeki (**perakende ve Commerce \> Kanallar \> Mağazalar**) **tüm mağazalar** sayfasını kullanabilir. Böylece Commerce, varsayılan müşteri için tanımlanan özellikleri, oluşturulan tüm yeni müşteri kayıtlarına kopyalar. Örneğin, **Müşteri Oluştur** iletişim kutusu, mağazayla ilişkilendirilmiş olan varsayılan müşteriden alınan özellikleri gösterir. Bu özellikler müşteri türü, müşteri grubu, makbuz tercihi, para birimi ve dili içerir. Tüm ilişkiler de (müşteri grupları) varsayılan müşteriden devralınır. Ancak, mali boyutlar varsayılan müşterinin kendisinden değil, varsayılan müşteriyle ilişkilendirilmiş müşteri grubundan devralınır.
+Perakendeciler, her mağaza için varsayılan bir müşteri ilişkilendirmek amacıyla Commerce genel merkezindeki (**perakende ve Commerce \> Kanallar \> Mağazalar**) **tüm mağazalar** sayfasını kullanabilir. Böylece Commerce, varsayılan müşteri için tanımlanan özellikleri, oluşturulan tüm yeni müşteri kayıtlarına kopyalar. Örneğin, **Müşteri Oluştur** iletişim kutusu, mağazayla ilişkilendirilmiş olan varsayılan müşteriden alınan özellikleri gösterir. Bu özellikler **müşteri türü**, **müşteri grubu**, **makbuz seçeneği**, **makbu e-postası**, **para birimi** ve **dili** içerir. Tüm **ilişkiler** de (müşteri grupları) varsayılan müşteriden devralınır. Ancak, **mali boyutlar** varsayılan müşterinin kendisinden değil, varsayılan müşteriyle ilişkilendirilmiş müşteri grubundan devralınır.
+
+> [!NOTE]
+> **Makbuz e-postası** değeri, yalnızca yeni oluşturulan müşteriler için makbuz e-posta kimliği sağlanmadıysa varsayılan müşteriden kopyalanır. Bu, makbuz e-posta kimliği varsayılan müşteride varsa, e-ticaret sitesinden oluşturulan tüm müşterilerin, müşteriden gelen makbuz e-posta kimliğini yakalamak için kullanıcı arabirimi olmadığı için aynı makbuz e-posta kimliğini alacağı anlamına gelir. **Makbuz e-posta** alanını mağazanın varsayılan müşterisi için boş tutmanızı ve yalnızca mevcut bir makbuz e-posta adresine bağlı bir iş işleminiz varsa kullanmanızı öneririz. 
 
 Satış yetkilileri bir müşteri için birden fazla adres kaydedebilir. Müşterinin adı ve telefon numarası, her bir adresle ilişkilendirilmiş iletişim bilgilerinden devralınır. Müşteri kaydının **adresler** hızlı sekmesi, satış yetkilisinin düzenleyebileceği bir **amaç** alanı içerir. Müşteri türü **kişi** ise , varsayılan değer **ev** olur. Müşteri türü **Kuruluş** ise , varsayılan değer **İş** olur. Bu alanın desteklediği diğer değerler **Ev**, **ofis** ve **posta kutusu**'nu içerir. Bir adresin **ülke** alanının değeri, **kuruluş yönetimi \> Kuruluşlar \> işletim birimleri** içindeki Commerce genel merkezinde bulunan **işletim birimi** sayfasında belirtilen birincil adresten devralınır.
 

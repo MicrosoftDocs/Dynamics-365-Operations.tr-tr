@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019506"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103640"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -77,6 +77,7 @@ Planlı siparişleri el ile kesinleştirmek için, kesinleştirmek istediğiniz 
 
     - **Satıcıya göre gruplandır** – Kesinleştirme sırasında planlanan satınalma siparişlerini gruplamak ve her satıcı için bir satınalma siparişi oluşturmak için bu seçeneği *Evet* olarak ayarlayın. Alternatif olarak her planlı sipariş için tek satır içeren bir satınalma siparişi oluşturabilirsiniz.
     - **Alıcı grubuna göre gruplandır** – Satıcı ve alıcı grubunu birleştiren tek bir satınalma siparişi oluşturmak ve planlı satınalma siparişlerini gruplandırmak için bu seçeneği *Evet* olarak ayarlayın. Bu seçeneği kullanmak için aynı zamanda **Satıcıya göre gruplandır** seçeneğini *Evet* olarak ayarlamanız gerekir.
+    - **Satın alma anlaşmasına göre gruplandır** – Varolan satınalma anlaşmalarıyla aynı satıcıya sahip planlı satınalma siparişlerini gruplandırmak ve satınalma anlaşması başına bir satınalma siparişi oluşturmak için bu seçeneği *Evet* olarak ayarlayın. **Satıcıya göre grupla** etkinleştirildiğinde bu seçenek otomatik olarak etkinleştirilir. **Satın alma sözleşmesine göre gruplandır**'ı kullanmak için **Satın alma sözleşmesini bul**, **Master planlama parametreleri** sayfasında *Evet* olarak ayarlanmalıdır.
     - **Döneme göre grupla** ( **Satınalma siparişleri** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz dönemi seçin. Bu seçeneği kullanmak için aynı zamanda **Satıcıya göre gruplandır** seçeneğini seçmeniz gerekir.
     - **Döneme göre grupla** ( **Transferler** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz transferi seçin. Siparişler, **Kaynak ambar** ve **Hedef ambar** değerleri temel alınarak gruplandırılır.
 

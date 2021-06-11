@@ -2,7 +2,7 @@
 title: Elektronik raporlama (ER) hedefleri
 description: Bu konuda, elektronik raporlama hedeflerinin yönetimi, desteklenen hedef türleri ve güvenlik konuları hakkında bilgi verilmektedir.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893616"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085512"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -199,6 +199,34 @@ Excel biçiminde bir ER yapılandırması oluşturur ve bunu PDF formatına dön
 > Seçili sayfa yönlendirmesi Excel biçiminde oluşturulan tüm ER konfigürasyonlara uygulanır ve daha sonra PDF formatına dönüştürülür.
 >
 > Word biçimindeki bir ER yapıladırması PDF biçimine dönüştürülmüşse PDF belgesinin sayfa yönü Word belgesinden alınır.
+
+## <a name="output-unfolding"></a>Çıktı açma
+
+ER biçiminizin **Klasör** bileşeni için bir hedef yapılandırdığınızda, bu bileşenin çıktısının yapılandırılan hedefe nasıl teslim edildiğini belirtebilirsiniz.
+
+### <a name="make-output-unfolding-available"></a>Çıktı açmayı kullanılabilir hale getirme
+
+Çıktı açma seçeneğini geçerli Finans örneğinde kullanılabilir hale getirmek için **Özellik yönetimi** çalışma alanını açın ve **ER hedeflerinin klasör içeriği ayrı dosyalar özelliği olarak gönderecek şekilde yapılandırılmasına izin ver** seçeneğini açın.
+
+### <a name="applicability"></a>Uygulanabilirlik
+
+Çıktı açma seçeneği yalnızca **Klasör** türünün biçim bileşenleri için yapılandırılabilir. Bir **Klasör** bileşenini yapılandırmaya başladığınızda, **Genel** Hızlı Sekmesi **Elektronik raporlama hedef** sayfasında kullanılabilir hale gelir. 
+
+### <a name="use-the-output-unfolding-option"></a>Çıktı açma seçeneğini kullanma
+
+**Genel** Hızlı Sekmesinde, **Klasörü farklı gönder** alanında aşağıdaki değerlerden birini seçin:
+
+- **ZIP arşivi** – Oluşturulan bir dosyayı zip dosyası olarak teslim edin.
+- **Ayrı dosyalar** – Oluşturulan zip dosyasının her dosyasını tek bir dosya olarak teslim edin.
+
+    > [!NOTE]
+    > **Dosyaları ayır**'ı seçtiğinizde, oluşturulan çıktı bellekte sıkıştırılmış durumda toplanır. Bu nedenle, gerçek dosya boyutu bu sınırı aşabileceği zaman sıkıştırılmış çıktı için en büyük [dosya boyutu sınırı](er-compress-outbound-files.md) uygulanır. Oluşturulan çıktının boyutunun da oldukça büyük olmasını beklediğinizde bu değeri seçmenizi öneririz.
+
+[![Klasör biçimi bileşeni için hedef yapılandırma](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Sınırlamalar
+
+**Klasörü farklı gönder** alanını, iç içe geçmiş diğer **Klasör** bileşenlerini içeren bir **Klasör** bileşeninin **dosyalarını ayır** olarak ayarlarsanız, ayar iç içe geçmiş **Klasör** bileşenlerine özyinelemeli olarak uygulanmaz.
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 

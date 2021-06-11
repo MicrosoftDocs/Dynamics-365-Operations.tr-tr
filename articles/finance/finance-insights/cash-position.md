@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811399"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123402"
 ---
 # <a name="cash-position-preview"></a>Nakit pozisyonu (önizleme)
 
@@ -31,7 +31,7 @@ Nakit pozisyonu, yakın döneme yönelik bir tahmin olan nakit akışı tahminid
 
 Sistem, müşteri ödemelerini tahmin ederken müşteri ödeme tahmini özelliğinden ödeme tahminlerini kullanır. Ödeme tahminleri olmaksızın, her müşteri için müşteri faturasını ödemeye dönüştürmek için gerekli ortalama süre kullanılarak ödeme tarihi hesaplanır. Açık müşteri siparişleri için sistem, faturalandırılacak müşteri başına sipariş satırları için ortalama gün sayısını kullanarak fatura tarihini hesaplar. Ardından, fatura tarihini ödeme tahmini işlevi için giriş olarak kullanır. Müşteri ödeme tahmin işlevi, her sipariş satırı için bir ödeme tarihi hesaplar. 
 
-<*Need text from Jarek or Dave on how payment predictions are converted to a date*> Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden [*hesaplanır*].
+Bekleyen faturaların ödeme tarihi, tahmin edilen demet olasılıklarından elde edilen kümülatif dağılım işlevinin yüzde ellisine karşılık gelen bir tarih seçerek ödeme tahminlerinden hesaplanır.
 
 Satıcılara yapılan ödemeleri tahmin etmek için benzer bir yaklaşım kullanılır. Sistem, her satıcıyla ilgili olarak bir satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi hesaplar. Ardından bu gün sayısı, ödeme tarihini hesaplamak için kullanılır. Açık satıcı siparişleri için sistem, her satıcı için sipariş satırlarını faturaya dönüştürmek için gereken ortalama gün sayısını dikkate alarak fatura tarihini hesaplar. Ardından sistem, her satıcıyla ilgili olarak satıcı faturasını ödemeye dönüştürmek için gereken ortalama süreyi kullanarak ödeme tarihini hesaplar.
 

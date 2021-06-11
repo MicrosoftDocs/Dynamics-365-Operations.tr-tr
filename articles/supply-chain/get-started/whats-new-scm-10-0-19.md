@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.19 Önizlemesi (2021 Temmuz)
+title: Dynamics 365 Supply Chain Management 10.0.19 Önizlemesi (2021 Haziran)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.19'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961693"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114987"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Dynamics 365 Supply Chain Management 10.0.19 Önizlemesi (2021 Temmuz)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Dynamics 365 Supply Chain Management 10.0.19 Önizlemesi (2021 Haziran)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10
 
 - **Sürümün önizlemesi:** Nisan 2021
 - **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Haziran 2021
-- **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Temmuz 2021
+- **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Haziran 2021
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 
-Aşağıdaki tabloda, bu sürümde yer alan özellikler yer almaktadır. *Özellik* sütunu, her bir özellik için resmi kullanıma sunma tarihlerini görebileceğiniz [kullanıma sunma planına](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantılar sağlar. *Ek bilgi* sütunu, ilgili belgelerin bağlantılarını sağlar.
+Aşağıdaki tabloda, bu sürümde yer alan özellikler yer almaktadır. *Özellik* sütunu, her bir özellik için resmi kullanıma sunma tarihlerini görebileceğiniz [kullanıma sunma planına](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) bağlantılar sağlar. *Ek bilgi* sütunu, ilgili belgelerin diğer ayrıntılrını ve/veya bağlantılarını sağlar.
 
 Bu özelliklerin çoğunun kullanılabilmesi için [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) kullanılarak etkinleştirilmesi gerekir. Listelenen özelliklerden bazıları hala önizleme görünümünde, bazılaru genel olarak kullanılabilir durumda olabilir.
 
 | Özellik alanı | Özellik | Daha fazla bilgi |
 |---|---|---|
-| Stok ve lojistik | [İlgili kişi veri varlığını dışa aktarma optimizasyonu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Uygun değil* |
+| Stok ve lojistik | [İlgili kişi veri varlığını dışa aktarma optimizasyonu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Bu özellik Etkinleştirildiğinde, başvurulan verilerde yapılan değişiklikler ilgili kişilerin sonraki artımlı dışa aktarma işlemine eklenmesine neden olmaz. Bu özellik devre dışı bırakıldığında, başvurulan verilerde yapılan değişiklikler ilgili kişilerin sonraki artımlı dışa aktarma işlemine eklenmesine neden lur. |
 | Stok ve lojistik | [Ölçek birimlerine sahip ambar yürütme yeteneği için artımlı geliştirmeler](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[İleti işlemci iletileri](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ambar stoku düzeltmesi](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Stok ve lojistik | [Satış teklifi sayfasındaki Belge giriş ve Belge sonuç alanları için arama özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Uygun değil* |
+| Stok ve lojistik | [Satış teklifi sayfasındaki Belge giriş ve Belge sonuç alanları için arama özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Bu özellik, **Satış teklifi** sayfasındaki **Belge giriş** ve **Belge sonuç** alanları için arama özelliği ekler.<br><br>Varsayılan olarak bu özellik etkindir. |
 | Stok ve lojistik | [Özel donanımınızda uç ölçek birimleriyle ambar yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Özel donanımda LBD kullanarak kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| İmalat | [Özel donanımınızda uç ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Özel donanımda LBD kullanarak kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| İmalat | [Özel donanımınızda uç ölçek birimleriyle üretim yürütme](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [LBD kullanarak özel donanımda kenar ölçek birimleri dağıtma](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Planlama | [Planlama Optimizasyonu için sonsuz kapasite planlaması](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Bu özellik, Planlama Optimizasyonu için sonsuz kapasiteye sahip kapasite planlaması sağlar. Bu özellik olmadan, planlı üretim emirleri, planlama zaman diliminden bağımsız olarak, serbest bırakılan ürünler stok sağlama süresinden sağlama sürelerini alır. |
 | Planlama | Sorgu temelli planlı sipariş kesinleştirme | [Kesinleşmiş planlı siparişler](../master-planning/planning-optimization/planned-order-firming.md) |
 | Ürün bilgileri yönetimi | [Çeşit önerileri sayfa geliştirmeleri](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Önceden tanımlanmış ürün çeşitleri oluşturma](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Bu sürümdeki özellik iyileştirmeleri
+
+Aşağıdaki tabloda, bu sürümde yer alan özellik iyileştirmeleri yer almaktadır. Bunların her biri varolan bir özellik için artımlı bir geliştirme sağlar. Bunlar yalnızca geliştirmeler olduğundan, [sürüm planında](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) listelenmezler. Ancak, bu geliştirmelerin mevcut özelleştirmelerinizle veya tercihlerinizle çakışmayacağından emin olmak için, her biri varsayılan olarak kapatılmıştır (aksi belirtilmedikçe). Bu özelliklerden herhangi birini kullanmak istiyorsanız, bunları [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)'nde açıkça etkinleştirmeniz gerekir.
+
+| Özellik alanı | Özellik&nbsp;yönetiminde&nbsp;özellik&nbsp;adı | Daha fazla bilgi |
+|---|---|---|
+| Satış ve pazarlama | Satış geçmişi temizleme performansı iyileştirmeleri | Satış geçmişi temizleme, yüksek satış güncelleştirmeleri hacmine sahip ortamlarda seyrek çalıştırılırsa uzun sürebilir. Süreyi azaltmak ve güvenilirliği artırmak için bu özellik temizlemeyi sınırlı bir süre çalışan toplu işlere böler. Mümkün olduğunda, kilitlemeyi en aza indirmek ve temizleme sırasında işlem tablolarını birleştirmekten kaçınmak için veritabanı yeteneklerinden yararlanılacaktır. |
+| Satış ve pazarlama | Talep edilen giriş tarihini, şirketlerarası siparişlerin Onaylanan tarihiyle güncelleştir | Bu özellik, şirketlerarası doğrudan teslimat kullanırken satış ve satınalma tarihi alan değerlerine ne olacağını denetlemenizi sağlar. Sistemin istenen tarihleri güncelleştirip güncelleştirmeyeceğini veya güncelleştirmeyi atlayıp atlamayacağını seçebilirsiniz. Güncelleştirmeyi atlarsanız, istenen tarihler müşterinin isteklerini temsil eder. Güncelleştirmeyi etkinleştirirseniz, istenen tarihler (teslimat tarihi denetimini kullanırken) yalnızca başlangıçta müşterinin istediğini temsil eder. Teslim tarihi denetimi, *Yok*'dan farklı olduğunda, başlangıçta isteneni geçersiz kılar. Bu seçeneği, şirketlerarası satıcı veya müşteri ayarlarında **Onaylanan tarih ayarıyla yeni İstenen giriş tarihini güncelleştir**'i kullanarak ayarlayabilirsiniz.<br><br>Özellik devre dışı bırakılırsa, sistem teslimat tarihi denetim kuralına göre orijinal satış siparişlerinde istenen giriş tarihinin üzerine yazar, ancak istenen sevkiyat tarihi olduğu gibi kalır. |
+| Ambar yönetimi | Ambara serbest bırakırken miktarları en yakın satış birimine indirgenecek şekilde yuvarla | Bu özellik, serbest bırakıldığındaki sipariş miktarlarını ambara kısıtlayabilecek bir seçenek ekler. Etkinleştirildiğinde, sipariş miktarları en yakın tüm satış birimine yuvarlanır ve birden az satış birimi için miktar içeren siparişler serbest bırakılmak üzere reddedilir. |
+| Ambar yönetimi | Kuruluşu genelindeki "İş oluşturmayı planla" dalga yöntemi | Bu özelliği etkinleştirmek, *İş oluşturmayı planlama* dalga yöntemi (), tüm yasal varlıklarda paralel çalışacak şekilde eklenir ve yapılandırılır. Birkaç ek ayar da etkilenecektir. Tüm ayrıntılar için bkz. [Dalga sırasında iş oluşturmayı zamanlama](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Yeni ve güncelleştirilmiş belge kaynakları
 
@@ -62,7 +74,7 @@ Aşağıdaki yardım konularını yakın bir zamanda ekledik veya önemli ölç�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için platform güncelleştirmeleri
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.19 sürümü için platform güncelleştirmeleri (Temmuz 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 platform güncelleştirmeleri içerir. Daha fazla bilgi için bkz. [Finance and Operations uygulamalarının 10.0.19 sürümü için platform güncelleştirmeleri (Haziran 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Hata düzeltmeleri
 

@@ -2,7 +2,7 @@
 title: Planlamayı En İyi Duruma Getirmeye başlayın
 description: Bu konuda, Planlamayı En İyi Duruma Getirme işlevini kullanmaya nasıl başlanacağı açıklanmaktadır.
 author: ChristianRytt
-ms.date: 10/09/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907679"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103605"
 ---
 # <a name="get-started-with-planning-optimization"></a>Planlamayı En İyi Duruma Getirmeyi kullanmaya başlama
 
@@ -58,7 +58,7 @@ Planlamayı En İyi Duruma Getirme Eklentisini yüklemeden önce aşağıdaki ö
 
 - Supply Chain Management'da şurada çalıştırıyor olmanız gerekir: LCS etkin yüksek kullanılabilirlik ortamı, katman 2 veya üstü (OneBox ortamı değil); Dynamics 365 Supply Chain Management sürüm 10.0.7 veya sonraki bir sürüm. Eklentiyi OneBox ortamına yüklemeye çalışırsanız, yükleme tamamlanmaz ve yükleme işlemini iptal etmeniz gerekir.
 
-- Sisteminiz, Power Platform tümleştirmesi için ayarlanmış olmalıdır. Daha fazla bilgi için [Eklentileri ayarlamak için ön koşullar](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) ve [Eklentileri ayarlama](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins) konularına bakın.
+- Sisteminiz, Power Platform tümleştirmesi için ayarlanmış olmalıdır. Daha fazla bilgi için, bkz. [Finance and Operations uygulamaları ile Microsoft Power Platform tümleştirmesi.](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Planlamayı En İyi Duruma Getirme lisansını etkinleştirme
 

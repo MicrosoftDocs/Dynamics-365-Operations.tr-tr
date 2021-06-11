@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947532"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115061"
 ---
 # <a name="engineering-change-management-overview"></a>Mühendislik değişikliği yönetimine genel bakış
 
@@ -50,15 +50,20 @@ Mühendislik değişikliği yönetimini kullanabilmeniz için hem *Mühendislik 
 
 1. [Özellik yönetimi](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) çalışma alanına gidin.
 1. Güncelleştirmeleri denetleyin.
-1. **Mühendislik Değişikliği Yönetimi** adlı özelliği açın.
-1. Kullanmak istiyorsanız **Ürün boyutu sürümü** adlı özelliği de açın.
+1. *Mühendislik Değişikliği Yönetimi* adlı özelliği açın.
+1. Kullanmak istiyorsanız *Ürün boyutu sürümü* adlı özelliği de açın.
 
 Sonra, aşağıdaki adımları izleyerek yapılandırma anahtarını açın.
 
 1. Sisteminizi [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım moduna alın.
 1. **Sistem yönetimi \> Kurulum \> Lisans yapılandırma** seçeneğine gidin.
 1. **Ticaret** düğümünü genişletin.
-1. **Mühendislik Değişim Yönetimi** onay kutusunu seçerek ana özellik için yapılandırma anahtarını etkinleştirin. (Alt özelliklerinden birini veya her ikisini de devre dışı bırakmak istemedikçe, düğümü genişletmeniz gerekmez.)
+1. **Mühendislik Değişim Yönetimi** onay kutusunu seçerek ana özellik için yapılandırma anahtarını etkinleştirin.
+1. **Mühendislik Değişiklik Yönetimi** düğümünü genişletin ve aşağıdaki onay kutularını gerektiği gibi seçin veya temizleyin (kullanmak istediğiniz özelliklere bağlı olarak):
+
+    - **Öznitelik arama** – [Öznitelik arama özelliğini](engineering-attributes-and-search.md) etkinleştirmek için bu onay kutusunu seçin. Bu özelliği etkinleştirmenizi öneririz ancak kullanmayacaksanız bu onay kutusunu temizleyebilirsiniz.
+    - **Proses üretimi için değişiklik yönetimi** – Proses üretimi formüllerindeki değişiklikleri yönetmek için Mühendislik değişiklik yönetimi özelliklerini kullanmak istiyorsanız bu onay kutusunu seçin. Formülleri yönetmeniz gerek yoksa, bu onay kutusunu temizleyebilirsiniz. Daha fazla bilgi için bkz. [Formüllerde ve içeriklerindeki değişiklikleri yönetme](manage-formula-changes.md).
+
 1. Sürüm boyutunu da kullanmak istiyorsanız **Ürün boyutu - Sürüm** onay kutusunu da seçin. (Bu onay kutusu listede daha aşağıdadır, **Mühendislik Değişim Yönetimi** düğümünün içinde değildir.)
 1. [Bakım modu](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) bölümünde anlatıldığı şekilde bakım modunu kapatın.
 

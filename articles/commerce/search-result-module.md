@@ -2,7 +2,7 @@
 title: Arama sonuçları modülü
 description: Bu konu arama sonuçları modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794127"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117145"
 ---
 # <a name="search-results-module"></a>Arama sonuçları modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu arama sonuçları modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'ün site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -51,9 +52,12 @@ Aşağıdaki tabloda, arama sonucu modüllerinin özellikleri, değerleri ve aç
 | Kategori hiyerarşisi görüntüsünü gizle | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, sayfadaki kategori hiyerarşisi ekranı gizlenir. Kategori hiyerarşisini göstermek için [içerik haritası modülünü](add-breadcrumb.md) kullanıyorsanız bu özellik **Doğru** olarak ayarlanmalıdır.|
 | Ürün özniteliklerini arama sonuçlarına dahil et | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, arama sonuçlarındaki ürünler için öznitelikler döndürülür. Bu öznitelikler bir Ticaret sitesinde gösterilebilse de, bir uzantı gereklidir.|
 | İlişki fiyatlarını göster | **Doğru** veya **yanlış** | Bu özellik **Doğru** olarak ayarlanırsa, oturum açmış bir kullanıcı sayfaya göz attığında, ürünlerin bağlı kuruluş fiyatları arama sonuçlarında gösterilir. |
+| İyileştirici panelini güncelleştir | **Doğru** veya **yanlış** | Bu özellik **doğru** olarak ayarlanırsa, iyileştiriciler seçildiğinde iyileştirici paneli güncelleştirilir. Bu modda, bazı çok seçimli iyileştiriciler, iyileştirici paneli güncelleştirildiğinde tek seçimli iyileştiriciler gibi davranır. |
 
 > [!IMPORTANT]
-> Dynamics 365 Commerce 10.0.16 sürümünde ve sonrasında, **Bağlı kuruluş fiyatlarını göster** yapılandırması, sayfada bağlı kuruluş fiyatlarını göstermek için kullanılabilir.
+> Commerce 10.0.16 sürümünde ve sonrasında, **Bağlı kuruluş fiyatlarını göster** yapılandırması, sayfada bağlı kuruluş fiyatlarını göstermek için kullanılabilir.
+>
+> Commerce sürüm 10.0.20 sürümünde ve daha sonra, iyileştirici seçiminde iyileştiriciyi güncelleştirmek için kullanılabilen **İyileştirici panelini güncelleştir** yapılandırmasını güncelleştirmek için kullanılabilir.
 
 ## <a name="supported-modules"></a>Desteklenen modüller
 
