@@ -14,7 +14,7 @@
               items:
                 - name: Platform güncelleştirmeleri giriş sayfasındaki yenilikler veya değişiklikler
                   href: get-started/whats-new-home-page.md
-                - name: 10.0.20 sürümü için platform güncelleştirmeleri (Temmuz 2021)
+                - name: 10.0.20 sürümü için platform güncelleştirmeleri (Ağustos 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: 10.0.19 için platform güncelleştirmeleri (Haziran 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -850,13 +850,11 @@
               items:
                 - name: İzleme ayrıştırıcı kullanarak izlemeler yapma
                   href: perf-test/trace-trace-tutorial.md
-                - name: Görev kaydedici ve Performans SDK ile tek kullanıcı testi
+                - name: Performans SDK ve Görev kaydedici kullanarak tek kullanıcı testi
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Yerel test denetleyicisiyle çok kullanıcılı Performans SDK'sı testi
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Performans SDK ve Azure DevOps ile çoklu kullanıcı testi
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Performans SDK'sı ile test için sorun giderme kılavuzu
+                - name: Performans SDK kullanarak çoklu kullanıcı testi
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Performans SDK ile test için sorun giderme kılavuzu
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Şirket içi ortamlarda Performans SDK ve çoklu kullanıcı testi
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1532,13 +1530,15 @@
               href: sysadmin/process-automation.md
             - name: Toplu işleme
               items:
-                - name: Toplu iş işlemeye genel bakış
+                - name: Toplu işlemeye genel bakış
                   href: sysadmin/batch-processing-overview.md
-                - name: Toplu iş işleme ve toplu iş sunucuları
+                - name: Toplu işleme ve toplu iş sunucuları
                   href: sysadmin/batch-server-overview.md
                 - name: Toplu işler oluşturma
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Toplu iş kopyalama
+                - name: Toplu işlerde otomatik yeniden denemeleri etkinleştirme
+                  href: sysadmin/retryable-batch.md
+                - name: Toplu işi kopyalama
                   href: sysadmin/copy-batch-job.md
                 - name: Etkin toplu iş dönemleri
                   href: sysadmin/activeperiod.md
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 yükseltmesi - Veri yükseltme için yükseltme öncesi denetim listesi
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: AX 2012 yükseltmesi - dacpac işlemini kullanarak korumalı alan ortamlarında veri yükseltme
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012'den yükseltme - SQL İşlem Çoğaltma
                   href: database/replication-setup.md
-                - name: AX 2012 yükseltmesi - Korumalı alan ortamlarında veri yükseltme
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012'den yükseltme - Self servis ortamlarda veri yükseltme
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 yükseltmesi - Şirket için ortamlar
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 yükseltmesi - Kesin bitiş testi
