@@ -72,7 +72,7 @@
                   items:
                     - name: Supply Chain Management giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.20 (Temmuz 2021)
+                    - name: Supply Chain Management 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (Haziran 2021)
                       href: get-started/whats-new-scm-10-0-19.md
@@ -222,6 +222,8 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
+                      href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
@@ -234,6 +236,8 @@
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Azure depolama hesabı ve Key Vault oluşturma
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Kullanım yönetimi panosu
+                      href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kullanmaya başlama
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
@@ -1383,8 +1387,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Verimli ER çözümleri tasarlama
+                  items:
+                    - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER yapılandırmalarında performans sorunlarını giderme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış
@@ -1675,30 +1683,38 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: İç tedarik zinciri müşterileriyle işbirliği yapma
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
-            - name: Talep tahmini
+            - name: Tahmin
               items:
-                - name: Talep tahminine genel bakış
-                  href: master-planning/introduction-demand-forecasting.md
-                - name: Talep tahmini kurulumu
-                  href: master-planning/demand-forecasting-setup.md
-                - name: Talep tahminleri için geçmiş verilerini içe aktarma
-                  href: master-planning/import-historical-data.md
-                - name: İstatistik temel tahmini oluşturma
-                  href: master-planning/generate-statistical-baseline-forecast.md
-                - name: Temel tahminlerle ilgili el ile ayarlama yapma
-                  href: master-planning/manual-adjustments-baseline-forecast.md
-                - name: Düzeltilen tahmini yetkilendirme
-                  href: master-planning/authorize-adjusted-forecast.md
-                - name: Tahmin doğruluğunu izleme
-                  href: master-planning/monitor-forecast-accuracy.md
-                - name: Bir talep tahmini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma
-                  href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
-                - name: Azaltma anahtarları
-                  href: master-planning/reduction-keys.md
-                - name: Temel tahmin oluşturma
-                  href: master-planning/tasks/create-baseline-forecast.md
-                - name: Talep tahminini el ile değiştirme
-                  href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Talep ve tedarik tahmini
+                  items:
+                    - name: Stok tahminleri
+                      href: master-planning/inventory-forecast.md
+                    - name: 'Kılavuz: Talep tahminini el ile değiştirme'
+                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Talep tahmini
+                  items:
+                    - name: Talep tahminine genel bakış
+                      href: master-planning/introduction-demand-forecasting.md
+                    - name: Talep tahmini kurulumu
+                      href: master-planning/demand-forecasting-setup.md
+                    - name: İstatistik temel tahmini oluşturma
+                      href: master-planning/generate-statistical-baseline-forecast.md
+                    - name: Temel tahminlerle ilgili el ile düzeltme yapma
+                      href: master-planning/manual-adjustments-baseline-forecast.md
+                    - name: Düzeltilen tahmini yetkilendirme
+                      href: master-planning/authorize-adjusted-forecast.md
+                    - name: Talep tahminleri için geçmiş verilerini içe aktarma
+                      href: master-planning/import-historical-data.md
+                    - name: Talep tahminini hesaplarken aykırı değerleri geçmiş hareket verilerinden kaldırma
+                      href: master-planning/remove-historical-outliers-calculating-demand-forecast.md
+                    - name: Tahmin doğruluğunu izleme
+                      href: master-planning/monitor-forecast-accuracy.md
+                    - name: 'Kılavuz: Temel tahmin oluşturma'
+                      href: master-planning/tasks/create-baseline-forecast.md
+                - name: Tahmin ile master planlama
+                  items:
+                    - name: Tahmin azaltma anahtarları
+                      href: master-planning/reduction-keys.md
             - name: Master planlama sorunlarını giderme
               href: master-planning/troubleshoot-masterplanning.md
         - name: Mobil uygulama
@@ -3425,6 +3441,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Satış ve pazarlama
               items:
+                - name: Satış siparişi iptal edilirken miktar azaltılamıyor
+                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
                 - name: Sistem yöneticileri yetkili olmadıklarından sipariş tutmalarını silemiyor
                   href: troubleshooting/sales/system-administrator.md
             - name: Taşıma yönetimi

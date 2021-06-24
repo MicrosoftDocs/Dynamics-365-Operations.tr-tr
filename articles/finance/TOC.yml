@@ -72,13 +72,11 @@
                   items:
                     - name: Finance giriş sayfasındaki yenilikler veya değişiklikler
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (Temmuz 2021)
+                    - name: Finance 10.0.20 (Ağustos 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (Temmuz 2021)
+                    - name: Finance 10.0.19 (Haziran 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (Mayıs 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (Nisan 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Yapılandırma ve yönetim
               items:
-                - name: Mali içgörüleri yapılandırma
+                - name: Genel önizleme için Finance Insights'ı yapılandırma
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: Finance Insights'ı yapılandırma
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Müşteri ödeme tahminlerini etkinleştirme
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1464,6 +1464,8 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory Configuration Service'te ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service – Lifecycle Services deposu kullanımdan kaldırılıyor
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronik Faturalama
                   items:
                     - name: Elektronik Faturalamaya genel bakış
@@ -1476,6 +1478,8 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Azure depolama hesabı ve Key Vault oluşturma
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: Kullanım yönetimi panosu
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Kullanmaya başlama
                       items:
                         - name: Elektronik Faturalama hizmet yönetimini kullanmaya başlama
@@ -2412,22 +2416,106 @@
                               href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
                             - name: Mahsup kurallarının etkinleştirilmesi beklenenden uzun sürüyor
                               href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
-                            - name: TaxTrans veya fiş oluşturulmaz
+                            - name: TaxTrans veya fiş oluşturulmuyor
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: Vergi işlemi kodu yanlış
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: GSTR raporunda yanlış alan değeri
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: Fatura günlüğü veya fişte yanlış alan değeri
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: Fişte yanlış genel muhasebe hesabı
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: Geçerli vergi yapılandırması için tasarımcıyı açma
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: GSTR raporunda kayıtlar ve alanlar görünmüyor
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: Vergi kapatma çalıştırıldığında mahsup kuralı hatası
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: Doğrudan vergiler
                   items:
                     - name: Hindistan stopaj vergisi
                       items:
-                        - name: Vergi kesintileri hesaplanırken GST'yi dahil etme
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: Vergi tahsilatları hesaplanırken GST'yi dahil etme
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Vergi eşikleriyle ilgili SSS
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: Malların satışında TCS
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: Hindistan için TCS
+                          items:
+                            - name: Malların satışında TCS
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: Vergi tahsilatları hesaplanırken GST'yi dahil etme
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: Hindistan için TDS
+                          items:
+                            - name: Hindistan için Kaynakta Kesilen Vergiye (TDS) genel bakış
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: Vergi kesintileri hesaplanırken GST'yi dahil etme
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: TDS için temel ayarlar
+                              items:
+                                - name: TDS parametrelerini ayarlama
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: TDS genel muhasebe hesaplarını ayarlama
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: Tüzel kişilikler için TDS kayıt numaralarını ayarlama
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: TDS vergi türü için stopaj vergisi yetkililerini ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: TDS vergi türü için vergi bileşenlerini ayarlama
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: TDS vergi türü için stopaj vergisi kapatma dönemlerini ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: TDS vergi kodlarını TDS vergi gruplarına ekleme ve TDS hesaplamak için formülü tanımlama
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: TDS imtiyaz sertifikası numaralarını kaydetme
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: Borç hesaplarında ve Alacak hesaplarında TDS parametrelerini ayarlama
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: TDS tahsisatına göre ödeme planlarını ayarlama
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: TDS yetkilisi ödemeleri için ödeme masraflarını ayarlama
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'Satıcılar ve müşteriler için TDS grubu, PAN ve TAN bilgilerini ayarlama'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: TDS hesaplaması için formül tasarımcısı ve eşik sınırı
+                                  items: null
+                                - name: TDS hesaplamaları için formül tasarımcısı
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: Eşik sınırı ve özel durum eşik sınırı
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: Faturalarda TDS hesaplaması
+                              items:
+                                - name: Faturalarda TDS hesaplaması
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: Faturalarda günlükleri kullanarak TDS hesaplama
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: Satın alma siparişi formu ve satış siparişi formunu kullanarak TDS faturalarını hesaplama
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: Faturalarda Serbest metin faturası sayfasından TDS hesaplaması
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: Faturayı ayırma işlevi
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: Ödemeler ve senetlerde TDS hesaplaması
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: Şirketlerarası hareketlerde TDS hesaplaması
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: TDS kapatma işlemi
+                              items:
+                                - name: Ödemeler ve senetlerde TDS hesaplaması
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: Şirketlerarası hareketlerde TDS hesaplaması
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: Dönemsel TDS kapatma işlemini çalıştırma
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: TDS yetkilisi satıcılara yapılan TDS ödemelerini kapatma ve TDS irsaliyesi oluşturma
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: TDS kapatma dönemi için deftere nakledilen TDS ödemelerini ve işlemleri görüntüleme
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: Sabit kıymetler
                   items:
                     - name: Hindistan'daki sabit kıymetlere genel bakış
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Sermaye kalemlerini sabit kıymete aktarma
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Hindistan için TDS
-                  items:
-                    - name: Hindistan için Kaynakta Kesilen Vergiye (TDS) genel bakış
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: TDS için temel ayarlar
+                    - name: TDS sertifika numaralarını ve tarihlerini kaydetme ve güncelleştirme
                       items:
-                        - name: TDS parametrelerini ayarlama
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: TDS genel muhasebe hesaplarını ayarlama
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: Tüzel kişilikler için TDS kayıt numaralarını ayarlama
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: TDS vergi türü için stopaj vergisi yetkililerini ayarlama
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: TDS vergi türü için vergi bileşenlerini ayarlama
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: TDS vergi türü için stopaj vergisi kapatma dönemlerini ayarlama
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: TDS vergi türü için stopaj vergisi kodlarını ayarlama
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: TDS vergi kodlarını TDS vergi gruplarına ekleme ve TDS hesaplamak için formülü tanımlama
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: TDS imtiyaz sertifikası numaralarını kaydetme
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: Borç hesaplarında ve Alacak hesaplarında TDS parametrelerini ayarlama
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: TDS tahsisatına göre ödeme planlarını ayarlama
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: TDS yetkilisi ödemeleri için ödeme masraflarını ayarlama
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'Satıcılar ve müşteriler için TDS grubu, PAN ve TAN bilgilerini ayarlama'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: TDS hesaplaması için formül tasarımcısı ve eşik sınırı
-                      items:
-                        - name: TDS hesaplamaları için formül tasarımcısı
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: Eşik sınırı ve özel durum eşik sınırı
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: Faturalarda TDS hesaplaması
-                      items:
-                        - name: Faturalarda TDS hesaplaması
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: Faturalarda günlükleri kullanarak TDS hesaplama
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: Satın alma siparişi formu ve satış siparişi formunu kullanarak TDS faturalarını hesaplama
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: Faturalarda Serbest metin faturası sayfasından TDS hesaplaması
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: Faturayı ayırma işlevi
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: Ödemeler ve senetlerde TDS hesaplaması
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: Şirketlerarası hareketlerde TDS hesaplaması
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: TDS kapatma işlemi
-                      items:
-                        - name: Ödemeler ve senetlerde TDS hesaplaması
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: Şirketlerarası hareketlerde TDS hesaplaması
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: TDS kapatma işlemi
-                          items:
-                            - name: Dönemsel TDS kapatma işlemini çalıştırma
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: TDS yetkilisi satıcılara yapılan TDS ödemelerini kapatma ve TDS challan oluşturma
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: TDS kapatma dönemi için deftere nakledilen TDS ödemelerini ve işlemleri görüntüleme
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: TDS sertifika numaralarını ve tarihlerini kaydetme ve güncelleştirme
-                          items:
-                            - name: Düşürülebilir TDS sertifika numaralarını kaydetme
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: TDS işlemleri için sertifika numaralarını ve tarihleri güncelleştirme
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: Düşürülebilir TDS sertifika numaralarını kaydetme
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: TDS işlemleri için sertifika numaralarını ve tarihleri güncelleştirme
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: İtalya
               items:
                 - name: İtalya'ya genel bakış
@@ -4159,14 +4175,18 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: ER ile testi otomatikleştirme
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: Elektronik raporlama yapılandırmalarını kullanarak iş süreçlerini otomatikleştirme
+                - name: ER yapılandırmalarını kullanarak iş süreçlerini otomatikleştirme
                   items:
                     - name: Power BI'ya veri çekmek için ER'yi yapılandırma
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Yazdırılabilir serbest metin faturası (FTI) formları oluşturma
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Verimli ER çözümleri tasarlama
+                  items:
+                    - name: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: ER yapılandırmalarında performans sorunlarını giderme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: İş belgesi yönetimi (BDM)
                   items:
                     - name: BDM'ye genel bakış
