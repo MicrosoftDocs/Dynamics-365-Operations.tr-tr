@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.20 Önizlemesi (2021 Temmuz)
+title: Dynamics 365 Supply Chain Management 10.0.20 önizlemesi (2021 Ağustos)
 description: Bu konuda, Dynamics 365 Supply Chain Management 10.0.20'daki yeni veya değişen özellikler açıklanmaktadır.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c009625204ef0fdc72c381b5fee11f4d031a6a82
-ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
+ms.openlocfilehash: 3a35d3becbf81c51d29ef2e0f4cbf6a12cd196b8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6123426"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187638"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-july-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 Önizlemesi (2021 Temmuz)
+# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 önizlemesi (2021 Ağustos)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -25,8 +25,9 @@ ms.locfileid: "6123426"
 Bu konuda, Microsoft Dynamics 365 Supply Chain Management önizleme sürümü 10.0.20'deki yeni veya değişen özellikler listelenmektedir. Bu sürüm, 10.0.886 derleme numarasına sahiptir ve aşağıdaki gibi kullanıma sunulmuştur:
 
 - **Sürümün önizlemesi:** Mayıs 2021
-- **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Haziran 2021
+- **Sürüm genel kullanılabilirliği (kendi kendine güncelleştirme):** Temmuz 2021
 - **Sürüm genel kullanılabilirliği (otomatik güncelleştirme):** Temmuz 2021
+
 
 ## <a name="features-included-in-this-release"></a>Bu sürümdeki özellikler
 

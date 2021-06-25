@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920121"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188873"
 ---
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
@@ -43,8 +43,7 @@ Aşağıdaki tabloda, kullanılabilecek taşıma yönetimi altyapıları göster
 | **Navlun fatura türü**            | Navlun faturasını ve navlun faturası satırlarını standartlaştırır ve otomatik navlun faturası eşleştirmesi için kullanılır.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
 
 Bir sevkıyatı belirli bir taşıyıcı kullanarak değerlendirmek için, birden fazla taşıma yönetimi altyapısı yapılandırmanız gerekir. **Değerlendirme altyapısı** gereklidir, ancak **Değerlendirme altyapısı**'nı desteklemek için diğer taşıma yönetimi altyapıları gerekebilir. Örneğin, **Değerlendirme altyapısı**, değerlendirmeyi kaynak ile hedef arasındaki mesafeye dayalı olarak hesaplamak için **Mesafe altyapısı**'ndan veri almak için kullanılabilir.
 
@@ -62,8 +61,7 @@ Birçok durumda, taşıma yönetimi altyapısının kurulum formlarındaki **Par
 |  <em>MileageEngineCode</em>  |                       Veritabanında mesafe altyapısı kaydını tanımlayan mesafe altyapısı kodu.                        |
 | <em>ApportionmentEngine</em> |                        Veritabanında paylaştırma altyapısını tanımlayan genel altyapı kodu.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
 
 Supply Chain Management'ta tanımlanmış verilere dayanan taşıma yönetimi altyapıları, farklı veri şemaları kullanabilir. Taşıma yönetimi sistemi, farklı taşıma yönetimi altyapılarının aynı genel fiziksel veritabanı tablolarını kullanmasına imkan verir. Altyapı verilerinin çalışma süresini doğru yorumlaması için, veritabanı tablolarına meta veri tanımlayabilirsiniz. Bu, yeni taşıma yönetimi altyapılarının inşa edilmesine yönelik maliyetleri azaltır çünkü Operations'da ek tablo ve form yapıları gerekmez.
 

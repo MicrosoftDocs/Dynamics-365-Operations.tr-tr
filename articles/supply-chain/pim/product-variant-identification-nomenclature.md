@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812848"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190172"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Ürün çeşidi numaraları ve adlarının terminolojisi
 
@@ -188,8 +188,7 @@ Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ür
 
 Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapılandırma değeri önerir. Bu adımda, yapılandırma değerini el ile değiştirebilirsiniz. Yapılandırmayı kaydettiğinizde sistem, yapılandırma değerinin benzersiz olduğunu doğrular. Girmiş olduğunuz değer benzersiz değilse, bir hata iletisi alırsınız. Yapılandırmayı kaydetmek için, benzersiz bir yapılandırma değeri girmeniz gerekir.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Önceden tanımlanmış ürün çeşitleri için ürün numarası terminolojisi oluşturma](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

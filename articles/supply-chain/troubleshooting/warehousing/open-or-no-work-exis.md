@@ -4,19 +4,19 @@ description: Tamamlanmamış veya eksik çalışmalar nedeniyle sevkiyatı onayl
 author: perlynne
 ms.date: 04/21/2021
 ms.topic: troubleshooting
-ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm
+ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm, WHSContainerCloseDiag_WHSShipConfirm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: da6388d433d6021a99840ae9781c717db1b540a9
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: beef0909d41e69f3e7bcc1021527be35b7e6fd44
+ms.sourcegitcommit: c2c6d687a89bc1534c029109315c23e92865b63b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938568"
+ms.lasthandoff: 05/31/2021
+ms.locfileid: "6123855"
 ---
 # <a name="you-cant-confirm-a-shipment-because-of-incomplete-or-missing-work"></a>Tamamlanmamış veya eksik çalışmalar nedeniyle sevkiyatı onaylayamıyorsunuz
 

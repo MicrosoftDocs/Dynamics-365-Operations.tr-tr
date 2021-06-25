@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103640"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193893"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -102,7 +102,7 @@ Otomatik kesinleştirme, planlı siparişleri master planlama işleminin parças
 
 Planlama Optimizasyonu ve yerleşik planlama altyapısı işlevlerinin ikisi de planlı siparişleri kesinleştirmek için kullanılabilir. Ancak, bazı önemli farklar vardır. Örneğin, Planlama Optimizasyonu işlevi hangi planlı siparişlerin kesinleştirileceğini belirlemek için sipariş tarihini (başka bir deyişle, başlangıç tarihi) kullanırken yerleşik planlama altyapısı gereksinim tarihini (başka bir deyişle, bitiş tarihi) kullanır. Aşağıdaki tablo, farkları özetlemektedir.
 
-| | Planlama Optimizasyonu | Yerleşik planlama altyapısı |
+| Özellik | Planlama Optimizasyonu | Yerleşik planlama altyapısı |
 |---|---|---|
 | **Tarih esası** | Otomatik kesinleştirme, sipariş tarihini (başlangıç tarihi) temel alır. | Otomatik kesinleştirme, gereksinim tarihini (bitiş tarihi) temel alır. |
 | **Sağlama süresi** | Sipariş tarihi (başlangıç tarihi) kesinleştirmeyi tetiklediğinden sağlama süresini kesinleştirme zaman diliminin bir parçası olarak düşünmeniz gerekmez. | Siparişlerin zamanında kesinleştirilmesini garanti etmeye yardımcı olması için kesinleştirme zaman dilimi, sağlama süresinden daha uzun olmalıdır. |

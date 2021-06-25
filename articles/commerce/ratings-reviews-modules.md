@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792159"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193294"
 ---
 # <a name="ratings-and-reviews-modules"></a>Derecelendirmelere ve inceleme modülleri
 
@@ -54,7 +54,11 @@ Aşağıdaki şekil, **Modül Ekle** iletişim kutusunun Dynamics 365 Commerce't
 
 İnceleme yazma modülü, kullanıcıların bir ürünü oturum açmalarını, derecelendirmesine ve bir ürün incelemesi yazmalarına olanak tanıyan bir **inceleme yaz** düğmesi içerir. Bu modül ayrıca kullanıcıların daha önceden gönderdikleri bir derecelendirme veya gözden geçirmelerini sağlar. Bu modül, bir PDP üzerinde genellikle derecelendirme çubuk grafiği ve ürün incelemeleri liste modüllerinin üzerinde görünür.
 Aşağıdaki şekil, bir müşteri **gözden geçirme yaz** 'ı seçtiğinde beliren bir **gözden geçirme yazma** iletişim kutusunu göstermektedir. Müşteri bu iletişim kutusunu, bir derecelendirme ve İnceleme göndermek için kullanabilir.
-![İnceleme yaz iletişim kutusu](media/rnr-eCommerce-write-review-module.png) Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma İnceleme modülünü gösterir.
+
+![Gözden geçirme iletişim kutusu yazma](media/rnr-eCommerce-write-review-module.png)
+
+Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma İnceleme modülünü gösterir.
+
 | Özellik adı | Değer        | Özellik açıklaması                 |
 |---------------|--------------|--------------------------------------|
 | Dosya Adı          | İnceleme yaz | İnceleme yazma modülünün adı. |

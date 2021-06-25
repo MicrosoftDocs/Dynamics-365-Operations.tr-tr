@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816544"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189728"
 ---
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
@@ -88,8 +88,7 @@ Talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için,
 - **Mevsimsellikle ilgili ipucu**: Mevsimsel veriler için, tahmin doğruluğunu iyileştirmek amacıyla tahmin modeline bir ipucu sağlayın. Biçim: bir talep deseninin kendisini tekrarlayacağı demet sayısını temsil eden tamsayı. Örneğin, her 6 ayda bir yinelenen veriler için "6" girin.
 - **Test kümesi boyut yüzdesi**: Tahmin doğruluğu hesaplamada test kümesi olarak kullanılacak geçmiş verilerin yüzdesi. 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Talep tahminine genel bakış](introduction-demand-forecasting.md)
 

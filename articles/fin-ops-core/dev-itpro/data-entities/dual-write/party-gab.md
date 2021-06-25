@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937898"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216624"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -143,16 +143,22 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
 ## <a name="setup"></a>Ayar
 
-1. [Çift yazma uygulama düzenleme çözümünün](https://aka.ms/dual-write-app) en güncel sürümünü (2.2.2.60 veya daha sonrası) yükleyin.
+1. Customer Engagement uygulama ortamınızı açın.
 
-2. [Çift Yazma Taraf ve Genel Adres Defteri Çözümleri](https://aka.ms/dual-write-gab)'ni yükleyin.
+2. [Çift yazma uygulama düzenleme çözümünün](https://aka.ms/dual-write-app) en güncel sürümünü (2.2.2.60 veya daha sonrası) yükleyin.
 
-3. Artık gerekli olmadıklarından aşağıdaki eşlemeleri durdurun. Bunun yerine, `Contacts V2 (msdyn_contactforparties)` eşlemesini çalıştırın.
+3. [Çift Yazma Taraf ve Genel Adres Defteri Çözümleri](https://aka.ms/dual-write-gab)'ni yükleyin.
+
+4. Finance and Operations uygylamasını açın. Veri Yönetimi modülüne gidin ve Çift yazma sekmesini seçin. Çift yazma yönetim sayfası açılır.
+
+5. [Çözüm Uygula](link-your-environment.md) işlevini kullanarak 2. adımda yüklenen çözümlerin her ikisini de uygulayın.
+
+6. Artık gerekli olmadıklarından aşağıdaki eşlemeleri durdurun. Bunun yerine, `Contacts V2 (msdyn_contactforparties)` eşlemesini çalıştırın.
 
     + CDS İlgili Kişileri V2 ve İlgili Kişiler (müşteri ilgili kişilerini gösterir)
     + CDS İlgili Kişileri V2 ve İlgili Kişiler (satıcı ilgili kişilerini gösterir)
 
-4. Aşağıdaki varlık eşlemeleri taraf işlevselliği için güncelleştirilir ve bu nedenle en son sürümün bu eşlemelere uygulanması gereklidir.
+7. Aşağıdaki varlık eşlemeleri taraf işlevselliği için güncelleştirilir ve bu nedenle en son sürümün bu eşlemelere uygulanması gereklidir.
 
     Eşleme | Bu sürüme Güncelleştir | Değişiklikler
     ---|---|---
@@ -176,7 +182,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Bu sürümünün parçası olarak eklenen yeni bir eşlemedir.
 
-5. Yukarıdaki eşlemeleri çalıştırmadan önce, aşağıdaki adımlarda açıklandığı şekilde tümleştirme anahtarlarını el ile güncelleştirmeniz gerekir. Sonra **Kaydet**'i seçin.
+8. Yukarıdaki eşlemeleri çalıştırmadan önce, aşağıdaki adımlarda açıklandığı şekilde tümleştirme anahtarlarını el ile güncelleştirmeniz gerekir. Sonra **Kaydet**'i seçin.
 
     | Eşleme | Anahtarlar |
     |-----|------|
@@ -185,7 +191,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     | Müşteri/Satıcı için İlgili Kişi | msdyn_contactforpartynumber [Taraf Numarası için İlgili Kişi]<br>msdyn_associatedcompanyid.cdm_companycode [İlişkili Şirket (Şirket Kodu)] |
     | Satıcı | msdyn_vendoraccountnumber [Satıcı Firma Numarası]<br>msdyn_company.cdm_companycode [Şirket (Şirket Kodu)]|
 
-6. Dataverse'de, yinelenen saptama kurallarının karakter sınırları 450 ile 700 karakter olarak artırıldı. Bu sınır, yinelenen saptama kurallarına bir veya daha fazla anahtar eklemenize olanak tanır. Aşağıdaki alanları ayarlayarak **Firmalar** tablosunun yinelenen saptama kuralını genişletin.
+9. Dataverse'de, yinelenen saptama kurallarının karakter sınırları 450 ile 700 karakter olarak artırıldı. Bu sınır, yinelenen saptama kurallarına bir veya daha fazla anahtar eklemenize olanak tanır. Aşağıdaki alanları ayarlayarak **Firmalar** tablosunun yinelenen saptama kuralını genişletin.
 
     | Alan | Değer |
     |-------|-------|
@@ -201,7 +207,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
     ![Firmalar için tekrarlanan kural](media/duplicate-rule-1.PNG)
 
-7. Aşağıdaki alanları ayarlayarak **İlgili Kişiler** tablosunun yinelenen saptama kuralını genişletin.
+10. Aşağıdaki alanları ayarlayarak **İlgili Kişiler** tablosunun yinelenen saptama kuralını genişletin.
 
     | Alan | Değer |
     |-------|-------|
@@ -217,9 +223,9 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
 
     ![İlgili kişiler için tekrarlanan kural](media/duplicate-rule-2.PNG)
 
-8. Varolan bir çift yazma kullanıcısıysanız, [Taraf ve genel adres defteri modeline yükseltme](upgrade-party-gab.md) bölümündeki talimatları izleyin ve verilerinizi yükseltin.
+11. Varolan bir çift yazma kullanıcısıysanız, [Taraf ve genel adres defteri modeline yükseltme](upgrade-party-gab.md) bölümündeki talimatları izleyin ve verilerinizi yükseltin.
 
-9. Eşlemeleri aşağıdaki sıraya göre çalıştırın. Şu ifadeleri içeren bir mesaj alırsanız: "Proje doğrulama başarısız oldu. Hedef alan eksik... " eşlemeyi açın ve **Tabloları Yenile**'yi seçin. Ardından eşlemeyi çalıştırın.
+12. Eşlemeleri aşağıdaki sıraya göre çalıştırın. Şu ifadeleri içeren bir mesaj alırsanız: "Proje doğrulama başarısız oldu. Hedef alan eksik... " eşlemeyi açın ve **Tabloları Yenile**'yi seçin. Ardından eşlemeyi çalıştırın.
 
     Finance and Operations Uygulaması | Müşteri etkileşimi uygulaması  
     ----------------------------|------------------------

@@ -2,7 +2,7 @@
 title: Videoları karşıya yükleme
 description: Bu konuda, Microsoft Dynamics 365 Commerce' site oluşturucuda videoları karşıya yükleme yöntemi açıklanmaktadır.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799217"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224550"
 ---
 # <a name="upload-videos"></a>Videoları karşıya yükleme
 
@@ -35,7 +35,7 @@ Commerce site oluşturucu Ortam Kitaplığı videoları karşıya yüklemenize o
 Video karşıya yüklenirken, aşağıdaki bilgiler belirtilebilir.
 
 - **Başlık, Açıklama, Anahtar Sözcükler**: Videonun meta verileri.
-- **Açıklamalı alt yazıları otomatik oluştur**: Video için açıklamalı alt yazıların otomatik olarak oluşturulup oluşturulmayacağını belirtir.
+- **Açıklamalı alt yazıları otomatik oluştur**: Video için açıklamalı alt yazıların otomatik olarak oluşturulup oluşturulmayacağını belirtir (yalnızca İngilizce dili desteklenir). 
 - **Açıklamalı Altyazı**: Kullanılacak açıklamalı alt yazıları belirtir.
 - **Normal Ses**: Kullanılacak normal ses parçasını belirtir.
 - **Küçük resim**: Videonun küçük resmini belirtir. Belirtilmezse, otomatik olarak oluşturulacaktır.

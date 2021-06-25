@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821997"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187880"
 ---
 # <a name="audit-policy-rules"></a>Denetim ilkesi kuralları
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821997"
 
 Gider raporlarını, satıcı faturalarını ve satınalma siparişlerini değerlendirerek, oluşturduğunuz ilke kurallarına uygun olup olmadıklarından emin olmak için denetim ilkelerini kullanabilirsiniz. Bir denetim ilkesiyle ilişkili kuralların tümü, belirlediğiniz bir zaman planına göre top iş modunda çalıştırılır.  Her ilke kuralı, ilke kuralı türünün bir örneğidir. Her ilke kuralı türü için aynı anda yalnızca bir ilke kuralı etkin olabilir. 
 
-<a name="queries-and-query-types"></a>Sorgular ve sorgu türleri
------------------------
+## <a name="queries-and-query-types"></a>Sorgular ve sorgu türleri
 
 Bir denetim ilkesi kuralı oluşturduğunuzda öncelikle bir ilke kuralı türü seçersiniz. İlke kuralı türü, ilke kuralının oluşturulmasında başlangıç noktası olarak kullanılmak üzere Uygulama Nesne Ağacı (AOT) sorgusunu belirler. Ayrıca, ilke kuralı için kullanmak üzere sorgu türünü belirtir. Sorgu, İlke kuralının değerlendirdiği kaynak belgeyi belirler. Ayrıca, kaynak belgesinde hem tüzel kişiliği hem belgeler denetim için seçildiğinde kullanılacak tarihi tanımlayan alanları belirler. Sorgu türü, sorgu sayfasındaki ve Denetim ilkesi kuralı sayfadaki varsayılan alanları kontrol eder. Aşağıdaki tabloda denetim ilkesi kuralları için mevcut sorgu türleri gösterilmiştir.
 
@@ -91,8 +90,7 @@ Belirli bir denetim ilkesi için ilke kurallarının tümü aynı toplu iş para
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [İlke ihlali ve olaylarını denetleme](audit-policy-violations-cases.md)
 [Kaynak belgeler için denetleme ilkeleri tanımla](tasks/define-audit-policies-source-documents.md)

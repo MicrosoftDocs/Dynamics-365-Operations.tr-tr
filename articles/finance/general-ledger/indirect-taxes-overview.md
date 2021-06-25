@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826630"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188452"
 ---
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826630"
 
 Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 
-<a name="overview"></a>Özet
---------
+## <a name="overview"></a>Özet
 
 Satış vergisi çerçevesi, farklı türlerdeki dolaylı vergileri destekler, örneğin satış vergisi, katma değer vergisi (KDV), ürün ve hizmet vergisi, birim tabanlı ücretler ve stopaj vergisi gibi. Bu vergiler, satın alma ve satış hareketleri sırasında hesaplanır ve belgelenir. Düzenli olarak vergi dairelerine bildirilmeleri ve ödenmeleri gerekir. 
 

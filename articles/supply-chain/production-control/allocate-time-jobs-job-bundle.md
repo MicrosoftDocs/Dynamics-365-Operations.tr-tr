@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811882"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193057"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>İş ürün demetindeki işlere zaman atama
 
@@ -80,7 +80,7 @@ Aşağıdaki tabloda atanan sürenin hesaplanması için kullanılan formül gö
 ## <a name="net-time-allocation-key"></a>Net süre tahsisat anahtarı
 Aşağıdaki tabloda atanan sürenin hesaplanması için kullanılan formül gösterilmiştir. Formül şu şekildedir: Raporlama başına hesaplanan süre = Grup süresi ÷ İş sayısı
 
-|                              | 09:00–10:00 (1 saat) | 10:00–11:00 (1 saat) | 11:00–13:00 (2 saat) | 13:00–15:00 (2 saat) | Tahsis edilen süre |
+| Örnek                       | 09:00–10:00 (1 saat) | 10:00–11:00 (1 saat) | 11:00–13:00 (2 saat) | 13:00–15:00 (2 saat) | Tahsis edilen süre |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Gruptaki iş sayısı | 1                    | 3                    | 2                     | 1                     | Geçerli değil |
 | İş 1                        | 1 ÷ 1 = 1 saat       | 1 ÷ 3 = 0.33 saat    | Geçerli değil        | Geçerli değil        | 1,33 saat     |

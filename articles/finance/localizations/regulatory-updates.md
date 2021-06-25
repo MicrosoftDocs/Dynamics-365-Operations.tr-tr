@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941152"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129789"
 ---
 # <a name="regulatory-updates"></a>Düzenleme güncelleştirmeleri
 
@@ -38,37 +38,52 @@ Aylık güncelleştirmelerin bir parçası olarak yayınlanan mevzuat güncelle�
 En güncel mevzuat güncelleştirme planları için aşağıdaki tabloya başvurun.   
 
 |Ülke|Nakledilebilecek tarih|Yayım sürümü|Düzenleme güncelleştirmesi|
-|--------------------|---------------|-------|-------|
-|      Avusturya         |   2020 Eylül      | 10.0.15      |   KDV beyanname biçimi U30, 2020 raporlaması için güncelleştirildi   |
-|      Belçika         |   2020 Aralık      | 10.0.16      |   Belçika: Dynamics 365 Finance'te "İhracat genel muhasebe hareketleri" raporu performans iyileştirmesi   |   
-|      Brezilya         |   Kasım 2020      | 10.0.15HF      |   SPED Mali ICMS/IPI - Kayıt C176 - RS durumu   |
-|      Brezilya         |   2020 Ekim      | 10.0.16, 10.0.15HF      |   NF-e NT 2019.001 v 1.51-Distrito Federal tarafından Kazanç yasasının ardından doğrulama kurallarının benimsenmesi   |
-|      Brezilya         |   Ekim 2020, Kasım 2020      | 10.0.16, 10.0.15HF      |   SPED Mali - Düzen 015   |
-|      Brezilya         |   2020 Ekim      | 10.0.16      |   DRCST beyannamesi SC - SEF 262/2020   |
-|      Brezilya         |   2020 Ekim      | 10.0.16      |   SPED Mali ICMS / IPI kaydı C176   |
-|      Brezilya         |   2020 Aralık      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Dijital platform aracısının tanımlanması (Düzen ve doğrulama kuralları güncelleştirmeleri)   |
-|      Brezilya         |   Mart 2021         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF düzeni 1.5.1
-|      Avrupa        |   2021 Ocak       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - AB ülkelerinde toplum içi ticaret raporlamasına Kuzey İrlanda Protokolü etkisi  |
-|      Almanya        |   2021 Ocak       | 10.0.16HF      |   ELSTER UstVA KDV ön bildirim biçimi, kurtarılamayan borçlar için 37,50 olan iki yeni kutu ile genişletildi  |
+|--------------------|---------------|-------|-------| 
+|      Brezilya         |   Mayıs 2021, Aralık 2020      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006 - Dijital platform aracısının tanımlanması (Düzen ve doğrulama kuralları güncelleştirmeleri)   |
+|      Brezilya         |   Mart 2021         | 10.0.19         |    SPED REINF düzeni 1.5.1  |
+|      Brezilya         |   Şubat 2021         | 10.0.18         |    SPED Mali 015 - RS kuralları |
+|      Brezilya         |   Mart 2021         | 10.0.17 HF       |    NFS-e Brezilya'ya özgü hizmet (şehir) elektronik fatura  |
+|      Brezilya         |   Nisan 2021         | 10.0.20        |    SPED ECD Düzen 9  |
+|      Brezilya         |   Mayıs 2021         | 10.0.20         |    SPED Katkıları - Sürüm Kılavuzu 1.34  |
+|      Mısır         |   Şubat 2021         | 10.0.17         |    KDV iade formu ve raporları  |
+|      Mısır        |   Şubat 2021         | 10.0.17         |    Fatura düzeni yapılandırması  |
+|      Mısır         |   Şubat 2021         | 10.0.17         |    Stopaj beyannamesi formu 41  |
+|      Mısır         |   Şubat 2021         | 10.0.17         |    Stopaj beyannamesi formu 11  |
+|      Mısır         |   Şubat 2021         | 10.0.17         |    Alacak dekontlarında özgün faturalarla ilgili referanslar  |
+|      Avrupa        |   2021 Ocak       | 10.0.17      |   Brexit - AB ülkelerinde toplum içi ticaret raporlamasına Kuzey İrlanda Protokolü etkisi  |
+|      Fransa        |   Mart 2021       | 10.0.18      |   Retail - Sertifikalı POS sistem güncelleştirmesi - Dynamics 365 Commerce  |
+|      Fransa        |   Nisan 2021       | 10.0.20      |   Fransa veri arşivlemeyi dışa aktarma (FEC) geliştirmesi  |
 |      Almanya        |   2021 Ocak       | 10.0.17      |   ELSTER KDV ön bildirim XML yapısındaki değişiklikler (UstVA)  |
-|      Genel        |   2021 Ocak       | 10.0.16      |   KDV/GST şeması için sorumlu sıfatıyla KDV mekanizmasını etkinleştir  |
-|      Hindistan         |   2020 Aralık      | 10.0.16, HF, 10.0.15HF      |   Mal Satışlarına İlişkin TCS Bölüm 206 9(1H), CBDT basın bülteni temelinde değişiklik  |
+|      Almanya        |   Mart 2021       | 10.0.19      |   Sabit Kıymetler tablosu ve hareketleri için GDPDU uzantıları  |
+|      Almanya        |   Nisan 2021       | 10.0.20HF      |   Almanya'da 2021 tarihinden itibaren E-faturalama biçimindeki (xRechnung) değişiklikler  |
+|      Genel        |   2021 Ocak       | 10.0.17      |   Satır düzeyinde stopaj vergisi  |
+|      Genel        |   2021 Ocak       | 10.0.17      |   Stopaj vergisi ödemesi  |
+|      Genel        |   2021 Ocak       | 10.0.17      |   Satış siparişlerinde stopaj vergisi  |
+|      Genel        |   2021 Ocak       | 10.0.17      |   Fatura tutarındaki stopaj vergisi eşiği  |
+|      Genel        |   2021 Ocak       | 10.0.17      |   Deftere nakledilen sevk irsaliyesi tüm ülkeler için kullanılabilir yapıldıktan sonra fatura tarihinin doğrulaması  |
+|      Macaristan        |   Şubat 2021       | 10.0.17HF, 10.0.18      |   Çevrimiçi faturalama sistemi v.3.0  |
+|      Hindistan         |   Şubat 2021      | 10.0.17HF, 10.0.18      |   GST e-faturalar: eWay Fatura bilgileri  |
+|      Hindistan         |   Mart 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   GST e-faturalar: Dışa aktarma siparişleri, Varsayılan dışa aktarma, SEZ  |
+|      Hindistan         |   Mart 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   B2C faturasında Dynamics QR kodu  |
+|      İtalya         |   Mart 2021      | 10.0.19      |   Faturalar iletişimi (Esterometro) biçim değişiklikleri v.2.1.1  |
+|      İtalya        |   Mayıs 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Retail - XML RT 2.0'ı destekleyecek mali yazıcı tümleştirme örneği güncelleştirmesi  |
+|      İtalya         |   Mart 2021      | 10.0.19      |   Retail - Kronolojik deftere nakile karşı gelen perakendeye özel faturaları etkinleştirme  |
+|      İtalya         |   Şubat 2021      | 10.0.19      |   Benzersiz sertifika - 2021  |
 |      Letonya         |   2020 Aralık      | 10.0.17      |   Intrastat biçimi 2021'in başlangı itibarıyla güncelleştirildi  |
-|      Meksika         |   2020 Aralık      | 10.0.17, 10.0.16, 10.0.15      |   "Monto" Özniteliği Güncelleştirmesi |
-|      Hollanda         |   2020 Ekim      | 10.0.16     |   Intrastat biçimi 2021'in başlangı itibarıyla güncelleştirildi |
-|      Hollanda         |   2020 Aralık      | 10.0.167     |   Hollanda taksonomisi NT15'in yeni sürümü |
-|      Polonya          |   2020 Eylül     | 10.0.15     |   Gönüllü bölünmüş ödeme geliştirmeleri |
-|      Polonya          |   Kasım 2020     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) - Perakende hareketleri için FP ve RO türü satış belgesi |
-|      Polonya          |   2020 Eylül     | 10.0.15     |   Polonya: JPK-V7M (VDEK) - rapor oluşturma işlemini parçalar halinde çalıştırma işleminden yararlanma olasılığı |
-|      Polonya          |   2020 Ekim     | 10.0.16     |   JPK-V7M (VDEK) raporu - "Gönüllü bölünmüş ödeme" parametre düzenlemesi |
-|      Polonya          |   Kasım 2020     | 10.0.16, 10.0.15HF     |   Perakende - Talep başına perakende müşteri için fatura düzenleme |
-|      Polonya          |   2021 Ocak     | 10.0.17, 10.0.16HF, 10.0.15HF     |   Polonya: Ocak 2021'den itibaren geçerli olmak üzere JPK_KR (SAF Muhasebe defterleri) açıklamaları |
-|      Rusya          |   Kasım 2020     | 10.0.16    |   KDV beyannamesi biçimi, 2020 4. Çeyrek raporlamasından itibaren sürüm 5.07'ye güncelleştirildi|
-|      Rusya          |   2020 Ekim     | 10.0.16    |   2020 muhasebe raporlaması için PBU18'deki değişiklikler|
+|      Litvanya         |   Mart 2021      | 10.0.18      |   SAF-T rapor sürümü 2.01  |
+|      Meksika         |   2020 Aralık      | 10.0.17      |   "Monto" Özniteliği Güncelleştirmesi |
+|      Hollanda         |   2020 Aralık      | 10.0.17     |   Hollanda taksonomisi NT15'in yeni sürümü |
+|      Polonya          |   2021 Ocak     | 10.0.17     |   Polonya: Ocak 2021'den itibaren geçerli olmak üzere JPK_KR (SAF Muhasebe defterleri) açıklamaları |
 |      Rusya          |   2021 Ocak     | 10.0.17    |   2020 raporlaması için emlak vergisi beyannamesinin yeni bir biçimi (5.06 yerine teknik sürüm 5.07)|
+|      Rusya          |   Mart 2021     | 10.0.19    |   2020 mülk vergisi beyanı, taşınabilir sabit kıymetlerin yıllık ortalama değerini belirtmek zorundadır|
+|      Rusya          |   Mart 2021     | 10.0.19HF    |   2020 raporlama için kâr vergisi beyannamesi sürüm 5.09|
+|      Rusya          |   Mart 2021     | 10.0.19    |   Taşıma faturası için resmi hüküm N 2200 21.12.2020 uygulaması 4 yeni forma gereklidir|
 |      İspanya          |   Kasım 2020     | 10.0.17    |   SII güncelleştirme doğrulaması ve hataları v.2.1(bis), 1 Ocak 2021'den itibaren|
-|      Birleşik Krallık         |   2020 Aralık     | 10.0.17, 10.0.16, 10.0.15    |   Müşteri faturalarında şirket vergi kaydı (Brexit - Kuzey İrlanda Protokolü)|
-|      Birleşik Krallık          |   2020 Aralık     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit - Kuzey İrlanda Protokolü hem GB hem de NI konumlarında mal ticareti yapan şirketleri etkiler|
+|      Tayland          |   Şubat 2021     | 10.0.17HF    |   Stopaj formu Por Ngor Dor 53, 3 ve 2 |
+|      Birleşik Arap Emirlikleri   |   Mayıs 2021     | 10.0.20    |   İleri tarihli çeklere sahip ödeme defterini banka hesabına nakletme |
+|      Birleşik Krallık         |   2020 Aralık     | 10.0.17    |   Müşteri faturalarında şirket vergi kaydı (Brexit - Kuzey İrlanda Protokolü)|
+|      Birleşik Krallık          |   2020 Aralık     | 10.0.17    |   Brexit - Kuzey İrlanda Protokolü hem GB hem de NI konumlarında mal ticareti yapan şirketleri etkiler|
+|      Birleşik Krallık          |   Mart 2021     | 10.0.18    |   MTD KDV > Önizleme yazdırma düzeninde ifade değişiklikleri (2,8,9 kutuları) 2021|
 
 
 

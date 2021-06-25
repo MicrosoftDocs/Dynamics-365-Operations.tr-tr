@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816520"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189704"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>İstatistik temel tahmini oluşturma
 
@@ -67,8 +67,7 @@ Tahmin büyük öğeler kümesi için oluşturulmamış, ancak söz gelimi, bir 
 > [!NOTE]
 > Potansiyel olarak sabit görünümlü bir tahmin daha uzun bir tarihsel zaman diliminde olması gereken tarihsel verilerden kaynaklanabilir (aylık tahmini ile 3 yıl gibi bir model seçmek için en az 3 zaman dilimi). Daha iyi sonuç elde etmek için zaman aralığının parçalı yapısını değiştirmeyi deneyebilir veya zaman aralığını artırabilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Talep tahmini kurulumu](demand-forecasting-setup.md)
 

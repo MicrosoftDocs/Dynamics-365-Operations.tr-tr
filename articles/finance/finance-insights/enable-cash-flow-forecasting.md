@@ -2,7 +2,7 @@
 title: Nakit akışı tahminini etkinleştirme (önizleme)
 description: Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl açılacağı açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818740"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222570"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Nakit akışı tahminini etkinleştirme (önizleme)
 
@@ -37,7 +37,7 @@ Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl 
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Microsoft Dynamics 365 Finance dağıtımınız Service Fabric dağıtımıysa bu adımı atlayabilirsiniz. Mali İçgörüler ekibi, bu sınırlı dağıtımı sizin için açmış olmalıdır. Özellikleri **Özellik yönetimi** çalışma alanında görmüyorsanız veya özellikleri açmaya çalışırken sorun yaşıyorsanız <fiap@microsoft.com> adresiyle iletişime geçin.
+    > Sürüm 10.0.20 veya sonrasını kullanıyorsanız veya bir Service Fabric dağıtımı kullanıyorsanız bu adımı atlayın. Mali içgörüler ekibi, bu sınırlı dağıtımı sizin için açmış olmalıdır. Özelliği **Özellik yönetimi** çalışma alanında görmüyorsanız veya özelliği açmaya çalışırken sorun yaşıyorsanız <fiap@microsoft.com> adresiyle iletişime geçin.
   
 2. **Özellik yönetimi** çalışma alanını açın ve şu adımları izleyin:
 
@@ -60,10 +60,5 @@ Bu konuda, Mali İçgörüler'de Nakit akışı tahminleri özelliğinin nasıl 
     2. **Tahmin modeli oluştur** seçeneğini belirleyin.
 
 Nakit akışı tahmini özelliği hakkında daha fazla bilgi için bkz: [Nakit akışı tahmini](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Gizlilik bildirimi
-
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

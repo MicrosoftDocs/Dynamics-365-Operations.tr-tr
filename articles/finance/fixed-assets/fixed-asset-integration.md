@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826846"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189796"
 ---
 # <a name="fixed-assets-integration"></a>Sabit kıymet tümleştirmesi
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826846"
 
 Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz.
 
-<a name="general-ledger"></a>Genel muhasebe
---------------
+## <a name="general-ledger"></a>Genel muhasebe
 
 Genel muhasebede, tüm sabit kıymetlerin değeri genel olarak mali raporlama için gereken birden fazla ana hesapta özetlenir. Ancak, **Sabit kıymetler** sayfasında birçok sabit kıymet kaydı oluşturabilirsiniz. Bu kayıtlar alım fiyatı, amortisman ve değerleme gibi bilgiler içerebilir. Sabit kıymet için deftere her hareket nakledişinizde, ilgili ana hesaplar güncelleştirilir. Sabit kıymetlere ilişkin ana hesaplar her zaman sabit kıymetlerin güncelleştirilmiş değerini gösterir.
 

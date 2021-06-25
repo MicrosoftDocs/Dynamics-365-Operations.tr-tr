@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835016"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188602"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835016"
 
 Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Dynamics 365 Finance'teki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
-<a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
 
 **Banka ekstreleri** sayfasındaki **Ekstreyi içe aktar** eylemini kullanarak banka ekstrelerini içe aktarın. Banka ekstresinde, banka hesabı, banka hesap ayrıntılarına ayarlanan değer birleşimleri aracılığıyla tanımlanır. Bu değerler banka adı, banka hesap numarası, rota numarası, Dünya Interbank Mali Telekomünikasyon Derneği (SWIFT) kodu ve Uluslararası Banka Hesap Numarasını (IBAN) içerir. 
 

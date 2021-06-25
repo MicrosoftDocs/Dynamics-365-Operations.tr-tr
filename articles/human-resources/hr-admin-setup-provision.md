@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053671"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193736"
 ---
 # <a name="provision-human-resources"></a>Human Resources'ı hazırlama
 
@@ -56,7 +56,7 @@ Ek ortamlar için dikkat edilmesi gereken noktalar şunlardır, ancak bunlarla s
 1. İnsan Kaynaklarına abone olmak için kullandığınız hesabı kullanarak [LCS](https://lcs.dynamics.com/Logon/Index)'de oturum açın.
 
    > [!NOTE]
-   > Sağlamanın başarılı olmasını sağlamak için, Human Resources ortamını sağlamak için kullandığınız hesap, Human Resources ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** veya **Sistem Özelleştirici** rolüne atanmalıdır. Power Platform'da kullanıcılara güvenlik rolleri atama hakkında daha fazla bilgi edinmek için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](https://docs.microsoft.com/power-platform/admin/database-security).
+   > Sağlamanın başarılı olmasını sağlamak için, Human Resources ortamını sağlamak için kullandığınız hesap, Human Resources ortamıyla ilişkilendirilmiş Power Apps ortamındaki **Sistem Yöneticisi** veya **Sistem Özelleştirici** rolüne atanmalıdır. Power Platform'da kullanıcılara güvenlik rolleri atama hakkında daha fazla bilgi edinmek için bkz. [Kaynaklara kullanıcı güvenliği yapılandırma](/power-platform/admin/database-security).
 
 2. Yeni bir proje oluşturmak için artı işaretini (**+**) seçin.
 

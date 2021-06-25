@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839161"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190100"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Üretim emirlerinden çıkış noktalarına çapraz sevk
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839161"
 
 Bu konu, bir üretim hattından bir harici nakliye sevk noktasından tamamlanmış olarak raporlanan çapraz sevk malzemesinin yönetilme işlemini açıklar.
 
-<a name="introduction"></a>Giriş
-------------
+## <a name="introduction"></a>Giriş
 
 Üretimden harici bir konuma çapraz sevk, yüksek hacimli üretim yapan ve bitirilmiş ürünleri, üretim hatlarından bitirilmiş olarak raporlandıktan sonra en kısa zamanda nakletmek isteyen üreticiler için önemlidir. Amaç, ürünleri üretim tesisinin envanterinde biriktirmek yerine, müşteri talebine fiziksel olarak yakın bulunan dağıtım merkezlerine nakletmektir.
 

@@ -9,6 +9,7 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -16,17 +17,16 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f7ff7ea28f8417d4c35f87e0d8fef46d647f42e4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019114"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193684"
 ---
 # <a name="commerce-home-page"></a>Commerce giriş sayfası
 
 [!include [banner](includes/banner.md)]
-
 
 Dynamics 365 Commerce (kanıtlanmış Dynamics 365 Retail yetenekleri üzerine kurulu), arka ofis, mağaza, çağrı merkezi ve dijital deneyimlerini birleştiren kapsamlı bir çok yönlü kanal çözümü sunar. Dynamics 365 Commerce, kişiselleştirilmiş müşteri görevlendirmelerinde marka bağlılık programı oluşturmanıza olanak tanır, üretkenliği geliştirilmiş çalışanla gelirleri artırmanıza, maliyetleri azaltmak ve tedarik zinciri verimliliğini artırmak için operasyonları en iyi duruma getirmenize ve böylece daha iyi iş sonuçları elde etmenize olanak sağlar.
 
@@ -38,21 +38,23 @@ Bu sürüm, çekici ve akıllı dijital mağazalar oluşturmak üzere yerleşik 
 
 - **Esnek ve akıllı çok yönlü kanal deneyimi:** bulut arama ve bulma, ürün değerlendirmeleri, istek listeleri, stok, hediye kartları ve bağlılık programı üzerinden müşterilere tutarlı deneyimler sunarak fiziksel ve dijital ticareti bütünleştirme. Kullanıcıların herhangi bir cihazda, modern ödeme yöntemleri ve ürün toplama ya da teslimatın etrafında seçim yaparken, tüm aygıtların ne zaman, nasıl ve istediklerini satın almasına izin verin.
 
-- **Bulutta AI kullanarak operasyonları verimli hale getirin:** Çok yönlü kanal ticaret deneyimleri ve entegre, en iyi duruma getirilmiş arka-ofis operasyonlarını kapsamlı, etkili ve bağlam odaklı bulut zekasıyla geliştirin. Yenilik yapmak ve rekabette önde olmak için gelişmiş ticaret, stok yönetimi, dağıtılmış sipariş yönetimi ve fiyatlandırma ve promosyon kullanın. İşletmenizin tüm yönleriyle kapsamlı ve tutarlı verileri görselleştirerek ve inceleyerek öngörüleri türetin. Erişilebilir Web siteleri sağlamak, iş veriminizi ödeme dolandırıcılarına karşı korumak ve derecelendirmeler ve incelemeler gibi kullanıcı tarafından oluşturulan içeriği etkili şekilde yapmak için AI güdümlü teknolojileri kullanın. 
+- **Bulutta AI kullanarak operasyonları verimli hale getirin:** Çok yönlü kanal ticaret deneyimleri ve entegre, en iyi duruma getirilmiş arka-ofis operasyonlarını kapsamlı, etkili ve bağlam odaklı bulut zekasıyla geliştirin. Yenilik yapmak ve rekabette önde olmak için gelişmiş ticaret, stok yönetimi, dağıtılmış sipariş yönetimi ve fiyatlandırma ve promosyon kullanın. İşletmenizin tüm yönleriyle kapsamlı ve tutarlı verileri görselleştirerek ve inceleyerek öngörüleri türetin. Erişilebilir Web siteleri sağlamak, iş veriminizi ödeme dolandırıcılarına karşı korumak ve derecelendirmeler ve incelemeler gibi kullanıcı tarafından oluşturulan içeriği etkili şekilde yapmak için AI güdümlü teknolojileri kullanın.
 
 ## <a name="core-concepts-and-tasks"></a>Temel kavramlar ve görevler
 
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
+
 - [Commerce önizleme ortamı yapılandırma](provisioning-guide.md)
 - [Ticari mimari](./commerce-architecture.md)
 - [Kanallarınızı ayarlama](channels-overview.md)
-- [Ürün ve hizmetlerinizin ticari satışı](set-up-retail-products.md)
-- [Siparişlerinizi yönetme](Order-fulfillment-overview.md)
-- [Müşterilerinizi yönetme](set-up-customer-loyalty-program.md)
+- [Ürünler ve hizmetlerinizi alın ve satın](set-up-retail-products.md)
+- [Siparişlerinizi yönetin](Order-fulfillment-overview.md)
+- [Müşterilerinizi yönetin](set-up-customer-loyalty-program.md)
 - [Mali öğelerinizi yönetme](retail-statements.md)
 - [E-ticaret sitenizi yönetin](online-store-overview.md)
-- [Sahtekarlık koruması](dev-itpro/DFP.md)
-- [Ticari geliştirme ve genişletilebilirlik](dev-itpro/dev-retail-home-page.md)
+- [Fraud Protection](dev-itpro/DFP.md)
+- [Commerce geliştirme ve genişletilebilirlik](dev-itpro/dev-retail-home-page.md)
 
+## <a name="elearning-courses"></a>e-Öğrenme kursları
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Çevrimiçi kurslar ve eğitim için [Microsoft Learn'de Dynamics 365 Commerce](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) konusuna bakın.

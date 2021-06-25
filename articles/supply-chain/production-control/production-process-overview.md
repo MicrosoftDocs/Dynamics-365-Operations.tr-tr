@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814596"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188161"
 ---
 # <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
@@ -74,8 +74,7 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 12. **Dönem kapanışı** – Dönemsel ortalama, geriye dönük maliyetlendirme, FIFO veya LIFO gibi bazı maliyet muhasebesi ilkeleri, stoku veya mali dönemi kapatmak için dönemsel faaliyetler gerektirir. Genellikle, sistem tüm malzeme ve kaynak tüketimini, ayrıca stok ve ıskarta düzeltmelerini, dönemler kapatılmadan önce rapor etmeyi dener. Bu raporlama, genellikle stok hareketi günlükleri veya ayarlama günlükleri kullanılarak yapılır. Amaç, işletme birimlerinin ekonomik performansını dönem başına değerlendirmektir. Bazı durumlarda, mali raporlama dönemlerini kapsayan uzun vadeli üretim emirleri kullanılırken, dönem sonu itibariyle üretimin ilerlemesini ve kaynak tüketimini raporlamak için üretim günlükleri kullanılır.
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Üretim geri bildirimi](production-feedback.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1a819505343eaee93c7bf67b1364e61ad5c9c68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 245b61c8cb85ab1282a921ac99b9ac7c2efbadc5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827373"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189433"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
 
@@ -28,8 +28,7 @@ ms.locfileid: "5827373"
 
 Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 Finance içerisinde nasıl kullanıldıkları hakkında bilgi sağlar.
 
-<a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
-----------------------------
+## <a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
 
 Konsolidasyon hesabı grupları, verileri konsolide etmek için kullanmak isteyebileceğiniz hesap gruplarını oluşturmanıza olanak sağlar. Çoğunlukla, bir konsolidasyon hesabı grubu, devletin zorunlu kıldığı hesap planlarını veya eşleşme hesaplarını, şirketin yönetim merkezi tarafından tanımlanmış bir gruba temsilini sağlar. Konsolidasyon hesap gruplarını **Konsolidasyonlar** modülünün **Kurulum** alanında bulabilirsiniz. Yeni bir grup eklediğinizde, hesap grubu için bir kimlik tanımlayıcısı ve bir ad girersiniz.
 

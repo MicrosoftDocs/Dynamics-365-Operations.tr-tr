@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf3872a47a92509af5857c0c1aec0d4da4095d19
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ec24c84d2b1a3dc88bf96ae6f52441b58a694
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835280"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188698"
 ---
 # <a name="sepa-direct-debit-overview"></a>SEPA otomatik ödemeye genel bakış
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835280"
 
 Tek Euro ödemeleri Alanı (SEPA), Avrupa Komisyonu tarafından ayarlanır ve tüm elektronik ödemelerin birey, işletme veya kuruluş ve bankanın bulunduğu ülke/bölgeden bağımsız olarak yurtiçi olarak kabul edildiğini belirler. Ulusal ve sınır ötesi ödemeler arasında hiçbir fark yoktur. SEPA, 28 Avrupa Birliği (AB) üyesi devletlerinin yanı sıra İzlanda, Liechtenstein, Norveç, İsviçre, Monako ve San Marino'yu içerir. SEPA, Avrupa Ekonomik Alanı (EEA) içinde ödeme hareketleri için tek bir pazar oluşturulmasına yardımcı olur. Sonuçta, SEPA'nın bankalar, işyerleri ve bireylerin çalışması gereken ödeme sayısını azaltması beklenir.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>SEPA otomatik ödemelerinin amacı nedir?
----------------------------------------
+## <a name="what-is-the-goal-of-sepa-direct-debits"></a>SEPA otomatik ödemelerinin amacı nedir?
 
 SEPA otomatik ödemesi, müşteri tarafından imzalanmış talimat olduğu takdirde, alacaklının bir müşterinin banka hesabından otomatik olarak fon toplamasına izin verir. Müşteri, alacaklının tahsilat yapmasına izin veren bir yönerge imzalar ve müşteri bankasına ödemeyi yapması doğrultusunda talimat verir. 
 

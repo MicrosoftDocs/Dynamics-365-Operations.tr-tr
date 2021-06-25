@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834752"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193941"
 ---
 # <a name="import-letter-of-credit"></a>İthalat kredi mektubu
 
@@ -128,7 +128,8 @@ Bu yordam, USMF demo şirketini kullanır.
 12. Sayfayı kapatın.
 13. Sayfayı kapatın.
 
-## <a name="verify-import-letter-of-credit-status"></a>İthalat kredi mektubunun durumunu onaylayın.
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>İthalat kredi mektubunun durumunu ve yazdırmayı onaylama
+
 1. Nakit ve Banka yönetimi > Kredi mektupları > İthalat Kredi Mektubu ve İthalat Tahsilatı'na tıklayın.
 2. Listede, istenen kaydı bulun ve seçin.
 3. Listede, seçili satırdaki bağlantıya tıklayın.

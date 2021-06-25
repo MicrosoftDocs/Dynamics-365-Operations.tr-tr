@@ -2,7 +2,7 @@
 title: İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 description: Bu konu, müşteri ödeme tahmin modelini anlamak ve verimliliğini değerlendirmek için gerçekleştirebileceğiniz adımları açıklamaktadır.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897924"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186750"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 
@@ -95,9 +95,5 @@ Bu durumda, yaklaşık yüzde 49,3 oranındaki F1 Makro puanı modelin, makul ö
 ## <a name="for-more-information"></a>Daha fazla bilgi için
 
 Tahmin modellerinin nasıl değerlendirileceği hakkında daha fazla bilgi için: [Makine öğrenimi modellerinin sonuçları](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

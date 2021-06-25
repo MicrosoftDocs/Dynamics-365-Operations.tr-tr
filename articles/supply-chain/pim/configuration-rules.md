@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c27d022aeb2e32edb763530a75ae9fd7f1062cc5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70aff927dfea602ee6c4ad5c195274248f831bcb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829582"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190196"
 ---
 # <a name="configuration-rules"></a>Konfigürasyon kuralları
 
@@ -36,8 +36,7 @@ Yapılandırma kurallarında sonradan yapılan değişiklikler mevcut yapıland�
 
 **Not:** **Seç** yöntemi için, türetilen yapılandırma grubu, madde numarası ve yapılandırma otomatik olarak seçilir. **Seçimi Kaldır** yöntemi için, türetilen yapılandırma grubu, madde numarası ve yapılandırma seçilemez.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Boyut tabanlı ürün yapılandırmasına genel bakış](dimension-based-product-configuration.md)
 

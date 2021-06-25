@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837381"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189563"
 ---
 # <a name="warehouse-configuration-overview"></a>Ambar yapılandırmasına genel bakış
 
@@ -109,8 +109,7 @@ Adından da anlaşılacağı gibi, konum yönergeleri iş hareketlerini ambardak
 
 Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızlı ve kolaylaştırmak için önceden tanımlanmış stratejilerden birini kullanın. Örneğin **Gelen iş olmayan boş konum** stratejisini ambardaki boş konumları aramak için kullanabilirsiniz veya **FEFO toplu iş rezervasyonu** stratejisini giden satış sevki için kullanabilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [WMS özellikli bir ambarda yerleşimleri yapılandırma](tasks/configure-locations-wms-enabled-warehouse.md)
 

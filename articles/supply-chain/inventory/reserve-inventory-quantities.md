@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834205"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193965"
 ---
 # <a name="reserve-inventory-quantities"></a>Stok miktarlarını rezerve etme
 
@@ -46,7 +46,7 @@ Stok rezervasyonu ilkeleri **Madde model grupları** sayfasında, **Stok ve amba
 
 **Stok ilkeleri** bölümü aşağıdaki rezervasyon ilkelerini içerir.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervasyon ilkesi**  | **Açıklama**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | FIFO tarihi denetimli    | **FIFO tarihi denetimli** seçeneğini belirlerseniz stok rezervasyonu FIFO ilkesine göre bir sıralama tarihi ile denetlenir. İlk giren ilk çıkar (FIFO) ilkesine göre, toplu işler maddenin en erken giriş tarihine göre rezerve edilir.                                                                                                                                                                                                                                                                       |

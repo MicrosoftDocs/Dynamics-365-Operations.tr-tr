@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 84ee7c82fa6aaa819798f4bc052b12b06a51c025
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f19506d66aef22099dae9396fd345c293bf559b7
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796522"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193083"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Modern POS (MPOS) ile Cloud POS arasında seçim yapma
 
@@ -57,7 +57,7 @@ MPOS ve CPOS büyük ölçüde aynı olmakla birlikte, anlamanız gereken bazı 
 Windows, iOS veya Android cihazdaki MPOS bu cihazda paketlenen, yüklenen ve hizmet veren bir uygulamadır.
 
 - **Windows** – Windows için MPOS uygulaması, uygulama kodunun tamamını ve katıştırılmış Commerce Runtime'ı (CRT) içerir. 
-- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure üzerindeki CPOS sunucusundan veya Commerce Scale Unit (RSSU) üzerinden geliyor. Daha fazla bilgi için bkz. [Commerce Scale Unit'e genel bakış](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Bu platformlarda, uygulama CPOS uygulama kodu için bir barındırıcı olarak çalışır. Başka bir deyişle, uygulama kodu Microsoft Azure üzerindeki CPOS sunucusundan veya Commerce Scale Unit (RSSU) üzerinden geliyor. Daha fazla bilgi için bkz. [Commerce Scale Unit'e genel bakış](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -79,11 +79,11 @@ Commerce Scale Unit, CRT'yi barındıran bir bileşendir. CRT, POS'un kullandı�
 
 #### <a name="offline-mode"></a>Çevrimdışı mod
 
-Windows için MPOS çevrimdışı modu destekler. Çevrimdışı modda, POS Commerce Scale Unit bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. MPOS, kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-offline-functionality).
+Windows için MPOS çevrimdışı modu destekler. Çevrimdışı modda, POS Commerce Scale Unit bağlantısı kesilmiş olsa bile satış işlemine devam edebilir. Bağlantı yeniden kurulduğunda kanal veritabanıyla eşitlenebilir. MPOS, kendi katıştırılmış CRT kurulumunu kullanır ve kendi yerel veri kaynağını (çevrimdışı SQL Server veritabanı) geçici olarak kullanır. Çevrimdışı işlev hakkında daha fazla bilgi için bkz. [POS çevrimdışı işlevi](pos-offline-functionality.md).
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS çevre birimi/donanımı hakkında önemli noktalar
 
-Perakendecilerin POS'un yazıcılar, kasa çekmeceleri ve ödeme terminalleri gibi çevre birimlerine ve cihazlara nasıl erişeceğini de göz önünde bulundurmaları gerekir. Yalnızca Windows için MPOS bu cihazlarla ile doğrudan iletişimi destekler. Windows Phone, iOS ve Android için MPOS ve Cloud POS bu cihazlara erişim için bir donanım istasyonu gerektirir. Donanım istasyonları bir POS kasasına ayrılabilir veya mağazadaki kasalar arasında paylaştırılabilir. Donanım istasyonları hakkında daha fazla bilgi için bkz. [Retail donanım istasyonu yapılandırma ve yükleme](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Perakendecilerin POS'un yazıcılar, kasa çekmeceleri ve ödeme terminalleri gibi çevre birimlerine ve cihazlara nasıl erişeceğini de göz önünde bulundurmaları gerekir. Yalnızca Windows için MPOS bu cihazlarla ile doğrudan iletişimi destekler. Windows Phone, iOS ve Android için MPOS ve Cloud POS bu cihazlara erişim için bir donanım istasyonu gerektirir. Donanım istasyonları bir POS kasasına ayrılabilir veya mağazadaki kasalar arasında paylaştırılabilir. Donanım istasyonları hakkında daha fazla bilgi için bkz. [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Uygulama ile ilgili hususlar
 
@@ -100,7 +100,7 @@ Mağazalarınızda POS uygulamanızı planlarken aşağıdaki bilgileri göz ön
     Bu iki seçenek karşılıklı olarak birbirini dışarıda bırakmaz. En güvenilir topoloji için perakendeciler internet bağlantısına veya Azure'un kullanılabilirliğine olan bağımlılığı azaltmak amacıyla yerel bir RSSU dağıtabilir. Ayrıca, yerel sunucu veya ağ ile ilgili bir sorun olması durumunda çevrimdışı modun etkinleştirildiği POS kayıtları da dağıtabilir.
 
 - **Donanım cihazları/çevre birimleri** – Retail POS sistemin önemli bir yönü yazıcı, nakit çekmecesi ve ödeme terminalleri gibi POS çevre birimlerini kullanabilme yeteneğidir. Tüm kullanılabilir POS seçenekleri çevre birim cihazlarını kullanabilmesine rağmen, yalnızca Windows için MPOS bunları doğrudan destekler. Diğer tüm uygulamalar için bir veya daha fazla donanım istasyonu olması gerekir. Bu yaklaşım esneklik kazandırmasına karşın, ek bileşenlerin dağıtılması, yapılandırılması ve bakımının yapılması gerekir.
-- **Sistem gereksinimleri** – POS uygulaması için sistem gereksinimleri farklılık gösterir. En son bilgileri seçiminizi yapmadan önce kontrol ettiğinizden emin olun. Örneğin, CPOS bir tarayıcıda çalıştığı için çok çeşitli işletim sistemlerini destekler. Sistem gereksinimleri hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
+- **Sistem gereksinimleri** – POS uygulaması için sistem gereksinimleri farklılık gösterir. En son bilgileri seçiminizi yapmadan önce kontrol ettiğinizden emin olun. Örneğin, CPOS bir tarayıcıda çalıştığı için çok çeşitli işletim sistemlerini destekler. Sistem gereksinimleri hakkında daha fazla bilgi için bkz. [Bulut dağıtımları için sistem gereksinimleri](../fin-ops-core/fin-ops/get-started/system-requirements.md).
 - **Dağıtım ve bakım** – Dağıtım ve bakım gereksinimlerinin karmaşıklığı, uygulamaya ve dağıtım seçimlerine bağlı olarak değişebilir. Örneğin, bulutta barındırılan bir CPOS dağıtımı için, her cihaza uygulamayı yüklemeniz ve güncelleştirmeniz gerekmez. Bu nedenle, bu yaklaşım büyük ölçüde karmaşıklığı ve maliyeti azaltır. Ancak, her kasaya MPOS dağıtırsanız, çevrimdışı modu etkinleştirirseniz ve paylaştırılmış donanım istasyonları dağıtırsanız, yönetilmesi gereken uç nokta sayısını önemli ölçüde artırırsınız.
 
 

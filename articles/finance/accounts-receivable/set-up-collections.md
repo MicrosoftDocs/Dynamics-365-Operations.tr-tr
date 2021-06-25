@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835232"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189481"
 ---
 # <a name="set-up-collections"></a>Koleksiyonları ayarla
 
@@ -40,8 +40,7 @@ Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar. Koleksiyonlar yete
 
 Bu noktalar, konunun geri kalanı boyunca daha ayrıntılı olarak ele alınmıştır. 
 
-<a name="set-up-aging-period-definitions"></a>Yaşlandırma dönem tanımlarını ayarla
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Yaşlandırma dönem tanımlarını ayarla
 
 Bir yaşlandırma dönemi tanımı ayarlayın. Bir yaşlandırma dönem tanımı **Yaşlandırma bakiyeleri**, **Tahsilat faaliyetleri**, ve **Tahsilat vakaları** liste sayfaları üzerinde görüntülenen sütunları tanımlar. Bu ayrıca, **Tahsilatlar** sayfasında görüntülenen periyotları da tanımlar. Bir müşteri havuzu ayarlanmışsa, havuzun eskime dönem tanımı kullanılır. Hiçbir havuz ayarlanmamışsa, **Alacak hesapları parametreleri** sayfasındaki varsayılan eskime dönem tanımı kullanılır. Hiçbir varsayılan yaşlandırma dönemi tanımı belirtilmemişse, **Yaşlandırma dönemi tanımları** sayfasındaki ilk yaşlandırma dönemi tanımı kullanılır.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1726d127883f9849fe87888134c0c174377ecf2b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813039"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187259"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Plan geçmişini ve planlama günlüklerini görüntüleme
 
@@ -31,19 +31,17 @@ Bu konu, Microsoft Dynamics 365 Supply Chain Management'ta Planlamayı En İyi D
 
 Planın geçmişini görüntülemek için **Master planlama** \> **Ayar** \> **Planlar** \> **Master planlar**'a gidip **Geçmiş**'i seçerek planı açın. Geçmiş, seçilen plan için tüm işleri listeler. Liste, tamamlanmış ve etkin işleri içerir.
 
-İşlerin başlama zamanını ve durumunu görmeye ek olarak, belirli bir iş için günlüğü de görüntüleyebilirsiniz. Günlük, ek bilgiler ve uyarılar içerir. Tüm işlerin günlüğü olmayabilir. İşin günlüğünü görüntülemek için **Günlük** öğesini seçin.
+Planlama Optimizasyonu master planlama çalıştırma işlerinin geçmişi, master plan başına yalnızca 60'a kadar kayıt saklar. Yeni bir master planlama hesaplaması çalıştırdığınızda, ilgili planın en eski geçmiş kaydı silinir.
+
+İşlerin başlama zamanını ve durumunu görmeye ek olarak, belirli bir iş için günlüğü de görüntüleyebilirsiniz. Günlük, ek bilgiler ve uyarılar içerir. Tüm işlerin günlüğü olmayabilir. İşin günlüğünü görüntülemek için **Günlük** öğesini seçin. Günlük girişleri, iş tamamlandıktan sonra yalnızca 30 gün saklanır. Bu tarihten sonra otomatik olarak silinirler.
 
 ## <a name="related-resources"></a>İlgili kaynaklar
 
-[Planlamayı En İyi Duruma Getirmeye genel bakış](planning-optimization-overview.md)
-
-[Planlamayı En İyi Duruma Getirmeye başlayın](get-started.md)
-
-[Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
-
-[Plana filtre uygulama](plan-filters.md)
-
-[Planlama işini iptal etme](cancel-planning-job.md)
+- [Planlama Optimizasyonuna genel bakış](planning-optimization-overview.md)
+- [Planlama Optimizasyonunu kullanmaya başlama](get-started.md)
+- [Planlamayı En İyi Duruma Getirme uygunluk analizi](planning-optimization-fit-analysis.md)
+- [Plana filtre uygulama](plan-filters.md)
+- [Planlama işini iptal etme](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

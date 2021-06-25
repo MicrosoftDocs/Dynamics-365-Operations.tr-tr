@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12497e4b6dde44cc7f3701cf6e00c90f109ff16c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825386"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188185"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -105,8 +105,7 @@ Harcama gözden geçiren yapılandırmalarını tanımlamanız gerekmez. Bunun y
 
 Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kullanmak için, ilgili iş akışı öğesinin **Atamalar** özelliklerinde **Katılımcı türü** seçeneğini **Harcama katılımcıları**  olarak ayarlamanız gerekir.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tüketim talebi oluşturma](tasks/create-requisition-consumption.md)
 

@@ -2,7 +2,7 @@
 title: Fiyat ayarlamaları ve iskontolar
 description: Bu makale, Dynamics 365 Commerce içinde fiyat ayarlaması ve iskontolar hakkında bilgi sağlar.
 author: scott-tucker
-ms.date: 11/16/2020
+ms.date: 06/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2d3e8025c5ab28296713634094694156f9addf62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44c03ae0a04d648e788a72d8f6dcc3671c5736c7
+ms.sourcegitcommit: 7c9d6be464db058511df9cb6ba162d21dc0554e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802803"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6240954"
 ---
 # <a name="price-adjustments-and-discounts"></a>Fiyat ayarlamaları ve iskontolar
 
@@ -48,6 +48,13 @@ Fiyat ayarlamaları ve iskontolar ürünlere, varyantlara veya kategorilere uygu
 - **Sevkiyat iskontosu** – siparişte, hareket toplamı belirtilen tutardan fazla olduğunda uygulanan iskonto (örneğin, iki günlük sevkiyat veya bir gecede nakliye gibi) sipariş için kullanılır.
 
 Hem fiyat ayarlaması hem de iskontolar fiyat gruplarına bağlanabilir. Fiyat grupları daha sonra kanallar, kataloglar, ilişkiler ve sadakat programları ile ilişkilendirilebilir.
+
+> [!NOTE]
+> Karıştır ve eşle iskontosu ve eşik iskontosu, sırasıyla "Sayılamayan ürünleri say" ve "Sayılamayan ürünleri eşiğe doğru say" adlı özelliklere sahiptir. Bu özellikler etkinleştirilirse, herhangi bir iskonto için uygun olmayan bir madde, bir hareketi iskontoya uygun olarak saymaya yardımcı olabilir ancak yeterli madde iskontosu alamaz. 
+> 
+> Örneğin, her iki maddede de bir müşterinin %10 iskonto alması gereken iki satırı (A ve B) olan bir karıştır ve eşle iskontosu oluşturursanız, ancak madde A'nın "Tüm iskontoları engelle" yapılandırması varsa bu durum genellikle A maddesinin iskontoya dahil edilmesini engeller. Ancak, "Sayılamayan ürünleri say" özelliği etkinse karıştır ve eşle iskontosuna uygun olacak şekilde madde A kullanılabilir ancak %10 iskonto yalnızca B maddesine uygulanır. Benzer bir mantık eşik iskontosuna da uygulanır. 
+>
+> Ancak, karıştır ve eşle iskontolarında "Sayılamayan ürünleri say" özelliğiyle karşılaştırıldığında "Sayılamayan ürünleri eşiğe doğru say" özelliği ek bir özelliğe sahiptir. Eşik iskontosu etkinleştirilmişse ve maddenin başka bir iskonto almasını önleyen mevcut iskonto içeren bir madde varsa, bu madde için ödenen fiyat eşiğe yaklaşma hakkı kazanır ancak bu maddeye ek iskonto uygulanmaz.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

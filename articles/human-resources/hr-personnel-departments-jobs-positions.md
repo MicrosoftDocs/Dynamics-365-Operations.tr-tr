@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058836"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189762"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme
 
@@ -42,8 +42,7 @@ Aşağıdaki örnek, bu konuda açıklanan kavramları göstermek için kullanı
 |**İnsan kaynakları**|İK yöneticisi (Merkezi)|İK yöneticisi|
 
 
- <a name="departments"></a>Departmanlar
-------------
+##  <a name="departments"></a>Departmanlar
 
 Bir departman, organizasyonun satış veya muhasebe gibi belirli organizasyon alanından sorumlu bir kategorisini veya işlevsel alanını temsil eden bir işletme birimidir. Bir departman, işlevsel alanlar konusunda raporlama yapmak için kullanılır ve kar ve zarar sorumluluğu olabilir. Ayrıca, bir departman maliyet merkezleri grubu da içerebilir. Satış, muhasebe ve insan kaynakları organizasyondaki departmanlara bazı örneklerdir.
 
@@ -96,8 +95,7 @@ Benzer işleri kategorilere ayırmak için iş türlerini kullanın. İş türle
 
 Bir pozisyondaki işçinin o iş için sorumlu olacağı iş rollerini, süreçleri ve ürünleri belirtmek üzere sorumluluk alanlarını kullanın. "Muhasebeci" başlıklı bir iş için sorumluluk alanına örnek "A Ürünü için finansal raporlama" olabilir.
 
-<a name="positions"></a>Pozisyonlar
-----------
+## <a name="positions"></a>Pozisyonlar
 
 Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesidir. Bir pozisyon, bir işin bireysel eşdüşümüdür. Örneğin "Satış yöneticisi (Doğu)" pozisyonu, "Satış yöneticisi" işiyle ilişkilendirilmiş işlerden sadece biridir. Bir departmanda ve çalışanlara tanmış olarak pozisyonlar vardır.
 ### <a name="position-creation-and-maintenance"></a>Pozisyon oluşturma ve muhafaza etme

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2131ae11e634f9ced0d9696acb61d7b8a94c59cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df20a45707d3f6ff2ba963e3310194c1af830234
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841827"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187398"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Bir talep tahmin hesaplarken, geçmiş işlem verilerinden aykırı değerleri kaldırın.
 
@@ -39,8 +39,7 @@ Tahmin doğruluğunu artırmak için aykırı değerleri dışarıda bırakabili
 
 **Not:** Ayrıca var olan bir sorguyu temel alan bir sorgu da oluşturabilirsiniz. Kopyalanacak sorguyu seçin ve sonra **Tekrarlama**'yı tıklatın. **Sorgu tarihi** alanı, sürümü tanımlar. Sorguyu olduğu gibi kullanabilir veya **Sorguyu düzenle**'yi tıklayıp ölçütü değiştirebilirsiniz. İsteğe bağlı olarak, yeni sorgunun adını ve açıklamasını değiştirebilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Talep tahminine genel bakış](introduction-demand-forecasting.md)
 

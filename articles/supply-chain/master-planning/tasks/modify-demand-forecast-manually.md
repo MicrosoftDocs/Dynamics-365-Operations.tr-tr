@@ -1,5 +1,5 @@
 ---
-title: Talep tahminini el ile değiştirme
+title: 'Kılavuz: Talep tahminini el ile değiştirme'
 description: Bu konuda, bir madde için tahminin nasıl değiştirileceği açıklanmaktadır
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889036"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224022"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Talep tahminini el ile değiştirme
+# <a name="guide-modify-a-demand-forecast-manually"></a>Kılavuz: Talep tahminini el ile değiştirme
 
 [!include [banner](../../includes/banner.md)]
 
-Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam için üretim planlayıcısına yöneliktir.
+Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir. Bu yordam için üretim planlayıcısına yöneliktir.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>Seçili bir madde için tahmin değiştirme
 
@@ -36,9 +36,9 @@ Seçili bir madde için tahmini değiştirmek üzere:
 1. Diğer alanları gereken şekilde doldurun.
 1. Eylem Bölmesinde **Kaydet**'i seçin.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>Bir veya daha fazla madde için tahmini değiştirme Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>Microsoft Excel ile bir veya daha fazla madde için tahmini değiştirme
 
-Bir veya daha fazla madde için tahmini değiştirmek üzere Microsoft Excel:
+Microsoft Excel ile bir veya daha fazla madde için tahmini değiştirmek için:
 
 1. Aşağıdakilerden birini yapın:
     - Önceki bölümde açıklandığı gibi herhangi bir madde için (hangisi olduğu önemli değildir) **Talep tahmini** sayfasını açın.

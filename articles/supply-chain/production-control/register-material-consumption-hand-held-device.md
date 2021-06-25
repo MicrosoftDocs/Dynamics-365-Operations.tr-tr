@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814548"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189654"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Mobil cihaz kullanarak malzeme tüketimini kaydetme
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814548"
 
 Bu konu, bir taşınabilir aygıt kullanarak üretimdeki ham madde tüketimini kaydetmeyi sağlayan bir iş akışını açıklar.
 
-<a name="introduction"></a>Giriş
-------------
+## <a name="introduction"></a>Giriş
 
 Bu iş akışı malzeme izlenebilirliği için sıkı bir gereksinim varsa geçerlidir. Bu gibi durumlarda, malzemelerin izlenebilirliğini korumak için tam saat ve miktar tüketim için bildirilmelidir. Bu işlem, kayıt zamanı ile gerçek tüketimin gerçekleştiği zaman arasında bir denkleştirme bulunan önce veya sonra otomatik tüketim işleminin tersi olarak görülebilir. Bu, izlenebilirlik gereksinimleri olan bazı maddeler için neden otomatik tüketimi stratejisi kullanılamayacağını açıklar. Taşınabilir cihaz kullanarak üretimdeki ham madde tüketimi kaydını etkinleştirmek için bir iş akışının nasıl ayarlanacağını açıklayan basit bir senaryoya bakalım. [![bir taşınabilir cihaz kullanarak hammadde tüketimi kaydını etkinleştirmek için iş akışını ayarla](./media/scenario3.png)](./media/scenario3.png)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2860ffb028c2d33f84e2e0796b2971e090454c90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3dbd66d499b5d5f9f8ef21c0ce3752031a5f4672
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840641"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193794"
 ---
 # <a name="delivery-schedules"></a>Teslimat zaman çizelgeleri
 
@@ -32,7 +32,7 @@ Bir sipariş veya teklif satırındaki toplam miktarın çok sayıda sevkiyat il
 
 **Bir teslimat zamanlaması örneği**
 
-|                                   |                                          |
+| Ürün                              | Değer                                    |
 |-----------------------------------|------------------------------------------|
 | Toplam sipariş (orijinal sipariş satırı) | 600 sandalye                               |
 | Talep edilen teslimat planı       | Aylık 100 sandalye                     |

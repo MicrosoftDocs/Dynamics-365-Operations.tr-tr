@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815776"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189057"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
@@ -149,8 +149,7 @@ Maliyet tahsisat kuralları aşağıdaki gibi ayarlanabilir.
 | CC001                                | Toplam         | **HR hizmetleri**        |
 | CC002                                | Toplam         | **Finansal hizmetler** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Maliyetin maliyet merkezleri arasında akışı 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Maliyetin maliyet merkezleri arasında akışı 
 
 Maliyetin, kuruluş içerisindeki maliyet merkezlerinde nasıl aktığını öğrenmek istiyorsanız, her bir maliyet merkezi için **İkincil** türde bir maliyet öğesi oluşturabilirsiniz. Bu maliyet öğeleri daha sonra genel gider hesaplaması sırasında maliyet merkezleri arasında bakiyeleri nakletmekte kullanılır.
 

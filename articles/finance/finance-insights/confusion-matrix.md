@@ -2,7 +2,7 @@
 title: Makine öğrenimi modellerinin sonuçları (önizleme)
 description: Bu konuda, makine öğrenimi (ML) modellerindeki karışıklık matrisleri, sınıflandırma problemleri ve doğruluk konuları ele alınmaktadır. Amaç, ML tahmin sonuçlarındaki doğruluğu daha iyi anlamanıza yardımcı olmaktır.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028215"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193552"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Makine öğrenimi modellerinin sonuçları (önizleme)
 
@@ -129,16 +129,12 @@ Hesaplamaları basitleştirmek amacıyla gerçek ve öngörülen değerleri eşl
 
 Bu hesaplamanın nasıl çalıştığı hakkında daha ayrıntılı bilgiyi model 1 için sklearn.metrics sınıflandırma raporunda bulabilirsiniz. "Zamanında", "Geç" ve "Çok geç" olmak üzere üç durum, sırasıyla 1, 2 ve 3 olarak etiketlenen satırlarla temsil edilir. Makro ortalaması yalnızca "f1-score" sütununun ortalamasıdır.
 
-|           | duyarlık | yakalama   | f1-score |
+| &nbsp;    | duyarlık | yakalama   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Bu sonuçlarda gösterildiği gibi iki model, neredeyse aynı F1 makro doğruluk puanlarına sahiptir. Bunun gibi daha pek çok örnekte F1 doğruluğu, modelin becerilerini daha iyi gösterir. Doğruluk açısından, bu sonuçları yorumlayabilmek için modelde dikkate alınması gereken en önemli unsuru anlamış olmanız gerekir.
-
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

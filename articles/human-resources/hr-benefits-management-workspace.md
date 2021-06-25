@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 154c3d70b61869795edc25514e98a28389eeb244
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052254"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193443"
 ---
 # <a name="benefits-management-workspace"></a>Kazanç yönetimi çalışma alanı
 
@@ -31,7 +31,7 @@ ms.locfileid: "6052254"
 Bu konuda, Dynamics 365 Human Resources'daki **Kazanç yönetimi** çalışma alanı açıklanmaktadır.
 
 > [!NOTE]
-> **Kazanç yönetimi** çalışma alanını görüntülemek için önce Özellik yönetiminde **(Önizleme) Kazanç yönetimi çalışma alanı** özelliğini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](../hr-admin-manage-features.md).<br><br>![Kazanç yönetimi çalışma alanını etkinleştirme](./media/hr-benefits-management-workspace-enable.png)
+> **Kazanç yönetimi** çalışma alanını görüntülemek için önce Özellik yönetiminde **(Önizleme) Kazanç yönetimi çalışma alanı** özelliğini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br><br>![Kazanç yönetimi çalışma alanını etkinleştirme](./media/hr-benefits-management-workspace-enable.png)
 
 **Kazanç yönetimi** çalışma alanı, dikkatinizi gerektiren kazanç öğelerinin hızlı bir görünümünü sunar. Bu sayfada şunları görebilirsiniz:
 

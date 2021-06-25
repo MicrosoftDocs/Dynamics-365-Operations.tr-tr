@@ -2,26 +2,21 @@
 title: Üretim planlama
 description: Bu konuda üretim planlaması açıklanır ve Planlamayı En İyi Duruma Getirme kullanılarak planlı üretim emirlerinin nasıl değiştirileceği anlatılır.
 author: ChristianRytt
-ms.date: 12/15/2020
+ms.date: 06/01/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839235"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129765"
 ---
 # <a name="production-planning"></a>Üretim planlama
 
@@ -79,11 +74,44 @@ Belirli bir üretim emri veya planlı üretim emri için gerekli talebi, ilgili 
 
 ## <a name="filters"></a><a name="filters"></a>Filtreler
 
-Üretim içeren planlama senaryoları için filtre uygulanmış master planlama çalıştırmaların kullanmamanızı öneririz. Planlamayı En İyi Duruma Getirme işlevinin doğru sonucu hesaplamak için gerekli bilgilere sahip olmasını sağlamak için planlı siparişin tüm ürün reçetesi yapısındaki ürünlerle ilişkisi olan tüm ürünleri dahil etmelisiniz.
+Planlamayı En İyi Duruma Getirme işlevinin doğru sonucu hesaplamak için gerekli bilgilere sahip olmasını sağlamak için planlı siparişin tüm ürün reçetesi yapısındaki ürünlerle ilişkisi olan tüm ürünleri dahil etmelisiniz. Üretim içeren planlama senaryoları için bu yüzden filtre uygulanmış master planlama çalıştırmaların kullanmamanızı öneririz.
 
-Yerleşik master planlama altyapısı kullanıldığında bağımlı alt öğeler otomatik olarak tespit edilip master planlama çalışmalarına dahil edilse de Planlamayı En İyi Duruma Getirme bu eylemi gerçekleştirmez.
+Yerleşik master planlama altyapısı kullanıldığında bağımlı alt öğeler otomatik olarak tespit edilip master planlama çalışmalarına dahil edilse de Planlamayı En İyi Duruma Getirme şu anda bu eylemi gerçekleştirmez.
 
-Örneğin, A ürününün ürün reçetesi yapısından yapılan tek bir cıvata, B ürününü üretmek için de kullanılırsa A ve B ürünlerinin ürün reçetesi yapısındaki tüm ürünler filtreye dahil edilmelidir. Tüm ürünlerin filtrenin parçası olduğundan emin olmak çok karmaşık olabileceğinden, üretim emirleri söz konusu olduğunda filtre uygulanmış master planlama çalıştırmalarını kullanmamanızı öneririz.
+Örneğin, A ürününün ürün reçetesi yapısından yapılan tek bir cıvata, B ürününü üretmek için de kullanılırsa A ve B ürünlerinin ürün reçetesi yapısındaki tüm ürünler filtreye dahil edilmelidir. Tüm ürünlerin filtrenin parçası olduğundan emin olmak karmaşık olabileceğinden, üretim emirleri söz konusu olduğunda filtre uygulanmış master planlama çalıştırmalarını kullanmamanızı öneririz. Aksi durumda, master planlama istenmeyen sonuçlar sağlar.
 
+### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Filtre uygulanmış master planlama çalıştırmalarını gerçekleştirmemek için nedenler
+
+Bir ürün için filtrelenmiş master planlama çalıştırdığınızda, Planlamayı En İyi Duruma Getirme (yerleşik master planlama alt yapısının aksine), söz konusu ürünün ürün reçetesi yapısındaki tüm alt ürünleri ve hammaddeleri algılamaz ve bu nedenle bunları master planlama çalıştırmasına bunları dahil etmez. Planlamayı En İyi Duruma Getirme, ürünün ürün reçetesi yapısındaki ilk düzeyi tanımladığı halde, veritabanındaki herhangi bir ürün ayarını (varsayılan sipariş türü veya madde kapsamı gibi) yüklemez.
+
+Planlamayı En İyi Duruma Getirme sırasında, çalıştırmaya ilişkin veriler önceden yüklenir ve filtreler uygular. Bu, belirli bir ürüne dahil edilen bir alt ürün veya ham malzeme filtrenin parçası değilse, çalıştırma için bu ilgili bilgilerin yakalanmayacağı anlamına gelir. Ek olarak, alt ürün veya hammadde başka bir ürüne dahil edildiğinde, yalnızca orijinal ürün ve bileşenleri içeren filtre uygulanmış bir çalıştırma, o diğer ürün için oluşturulmuş varolan planlı talebi kaldırır.
+
+Bu mantık, filtre uygulanmış master planlama çalışmalarının beklenmeyen sonuçlar üretmesine neden olabilir. Aşağıdaki bölümlerde, oluşabilecek beklenmedik sonuçları gösteren örnekler verilmiştir.
+
+### <a name="example-1"></a>Örnek 1
+
+Tamamlanan *FG* malı, aşağıdaki bileşenlerden oluşur:
+
+- Hammadde *R*
+- *S2* alt ürününden oluşan alt ürün *S1*
+
+*R* hammadesi için eldeki stok mevcutken *S1* alt ürünü stokta mevcut değildir.
+
+Tamamlanmış *FG* malı için filtre uygulanmış bir master planlama gerçekleştirdiğinizde, tamamlanan *FG* malı için planlı bir üretim emri, *R* ham malzemesi için planlı bir satınalma siparişi ve *S1* alt ürünü için planlı bir satınalma siparişi elde edebilirsiniz. Bu istenmeyen bir sonuçtur çünkü Planlamayı En İyi Duruma Getirme, *R* hammadesi için varolan tedariği yok saydı ve *S1* altmaddesinin doğrudan sipariş yerine *S2* kullanılarak üretilmesi gerekir. Bunun nedeni, Planlamayı En İyi Duruma Getirmenin, mevcut bileşen kaynağı veya bunların varsayılan sipariş ayarları gibi ilgili bilgileri içermeyen, yalnızca tamamlanan *FG* malı bileşenler listesine sahip olmasıdır.
+
+### <a name="example-2"></a>Örnek 2
+
+Önceki örnekten devam edersek, ek bir tamamlanan *FG2* malı da *S1* alt ürününü kullanmaktadır. Tamamlanan *FG2* malı için bir planlı sipariş bulunur ve *S1* dahil olmak üzere tüm bileşenler için planlı bir talep vardır.
+
+Tamamlanan *FG* malı ürün reçetesi yapısından tüm alt ürünleri ve ham malzemeleri filtreye ekleyerek ve sonra eksiksiz yeniden oluşturma işlemi çalıştırarak önceki örnekteki filtre uygulanmış master planlama çalıştırmasının istenmeyen sonuçlarının üstesinden gelmeye karar verirsiniz.
+
+Eksiksiz yeniden oluşturmayı çalıştırdığınızda, sistem dahil edilen tüm ürünlerle ilgili varolan tüm sonuçları siler ve sonra yeni hesaplamaları temel alarak sonuçları yeniden oluşturur. Bu, *S1* ürünü için varolan planlı talebin silindiği ve daha sonra hesaba yalnızca tamamlanan *FG* malının gereksinimlerini kattığını, *FG2* gereksinimlerini yok saydığı anlamına gelir. Bunun nedeni, Planlamayı En İyi Duruma Getirmeyi çalıştırdığınızda, planlanan diğer üretim emirlerinin planlı talebini dahil etmemesidir&mdash;yalnızca çalıştırma sırasında oluşturulan planlı talep kullanılır.
+
+> [!NOTE]
+> Tamamlanan *FG2* malının varolan planlı siparişin durumu *Onaylandı* ise, üst ürün filtreye eklenmemiş olsa bile onaylanan planlı talep dahil edilir.
+
+Bu nedenle, tamamlanan *FG* malı, tamamlanan *FG2* malı ve bu bileşenlerin parçası olan tüm diğer ürünler (bileşenleriyle birlikte) eklenmedikçe, filtre uygulanan master planlama çalışması istenmeyen sonuçlara neden olur.
+
+Tüm ürünlerin filtrenin parçası olduğundan emin olmak karmaşık olabileceğinden, üretim emirleri söz konusu olduğunda filtre uygulanmış master planlama çalıştırmalarını kullanmamanızı öneririz.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

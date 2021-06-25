@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814260"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189457"
 ---
 # <a name="collections-in-accounts-receivable"></a>Alacak hesaplarındaki tahsilatlar
 
@@ -99,8 +99,7 @@ Silme hareketi hareket para birimi cinsinden oluşturulur.
 
 Daha fazla bilgi için bkz. [Bir müşteri için bir silme günlüğü oluştur](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Yetersiz fon (NSF) ödemelerini işleme  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Yetersiz fon (NSF) ödemelerini işleme  
 
 Tahsilatlar sayfasındaki NSF ödemesine tıklayarak NSF ödemelerini işleyebilirsiniz. Bu düğmeye tıkladığınızda, ödeme iptal edilir. Müşteriye NSF ücreti uygulanırsa, ödeme günlüğünde gider hareketi oluşturulur. Ücret tutarı, otomatik giderler ayarlarını temel alır. NSF ödemeleri için uygulanan otomatik giderler, etkilenen banka hesabı için Banka hesapları sayfasında seçilen gider grubu tarafından belirlenir.
 

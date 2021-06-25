@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897296"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187806"
 ---
 # <a name="view-financial-reports"></a>Mali raporları görüntüleme
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897296"
 
 Bu konuda, mali raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
-<a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
-----------------------------
+## <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 
 ## <a name="open-a-financial-report"></a>Bir mali rapor açma
 Bir rapor açmak için raporun adını seçin. Bir rapor ilk defa açıldığında otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2015'te açarsanız rapor 31 Temmuz 2015 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
@@ -76,8 +75,7 @@ Yazdırma seçeneklerini ayarlamayı bitirdikten sonra, devam etmek için **Yazd
 ## <a name="export-a-financial-report"></a>Bir mali raporu dışa aktarma
 Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmesini tıklayın. Rapor, Microsoft Excel'e aktarılır ve tarayıcınız dışa aktarılan dosyayı açmak mı, yoksa kaydetmek mi istediğinizi sorar. Rapor tasarımında ayarlanan dışa aktarma ayarları dışa aktarılan rapora uygulanır.    
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

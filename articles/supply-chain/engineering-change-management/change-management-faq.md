@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018697"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187283"
 ---
 # <a name="engineering-change-management-faq"></a>Mühendislik değişim yönetimi SSS
 
@@ -46,7 +46,7 @@ Bu seçeneği yönetmek daha kolaydır çünkü bir sürümden diğerine geçmek
 
 Birçok kuruluş, sürüm ve değişiklik yönetimi sağlayıp da her harekette sürümü izleme, stok ve master planlama sırasında fazladan ek yük eklemediği için bu özelliği tercih eder.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Serbest bırakılan madde şablonuna hangi alanlar kopyalanır?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Serbest bırakılan madde şablonundan hangi alanlar kopyalanır?
 
 Bir mühendislik şirketi mühendislik ürünü oluşturduğunda, söz konusu ürün, mühendislik şirketinde serbest bırakılmış bir ürün olarak oluşturulur. Oluşturulan serbest ürün, seçilen *serbest bırakılmış madde şablonunu* temel alır. (Serbest bırakılan madde şablonu, kendi başına var olan serbest bir üründür.) Serbest bırakılmış madde şablonu, ürün bir operasyonel şirkette serbest bırakıldığında da kullanılır. Her durumda, serbest bırakılmış madde şablonu serbest bırakılan ürün için alan değerlerinin çoğunu tanımlar ve bu değerler, ilgili **Serbest bırakılan ürün ayrıntıları** sayfasından gelir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825458"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188295"
 ---
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
@@ -102,8 +102,7 @@ Satınalma sözleşmesinin başlığında bir satır eşleştirme ilkesi tanıml
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Satınalma sözleşmeleri üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil satırlarına kopyalayabilirsiniz. Sözleşme başlığındaki veya sözleşme satırındaki boyutları değiştirirseniz, bu değişiklik serbest bırakılmış siparişlerin hiçbirini etkilemez fakat yeni siparişlerin tümünü etkiler.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satınalma sözleşmesi oluşturma](tasks/create-purchase-agreement.md)
 

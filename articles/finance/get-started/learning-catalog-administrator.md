@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c3c69781aa7a67d22fe7d0fc70b1349673c5867c
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 289b51c1dcb2a30a09c643d7cc419af0627bd8d8
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897272"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193367"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Dynamics 365 Finance yöneticileri için öğrenme kataloğu
 
@@ -60,6 +60,7 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 | İçerik | Tanım  | Biçim | Uzunluk    |
 |---------|--------------|--------|-----------|
+| [Dynamics AX 2012'yi Finance and Operations uygulamalarına yükseltme](https://docs.microsoft.com/learn/paths/upgrade-ax-2012-finance-operations/) | Dynamics AX 2012 çözümünüzü Finance and Operations uygulamalarına başarılı şekilde yükseltmeye yönelik en önemli öğeleri ve en iyi uygulamaları öğrenin. Temel mimari farklılıkları keşfetme, yükseltme işlemini başlatma, kod ve veri yükseltme araçlarını kullanmaya başlamanın ilk adımlarından tümleştirmelerinizi, analizlerinizi ve raporlamanızı en son özelliklere göre yeniden tasarlamanın en iyi yollarına kadar. | Ücretsiz ve kendi öğrenme temponuza uygun çevrimiçi öğrenme yolu | 7 saat |
 | [Finance and Operations: 7.x'ten 8+'ya yükseltme (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 7.X sürümünden 8.X sürümüne yükseltme işlemini ele alacağımız bir sonraki Teknik Sohbet'te lütfen bize katılın. Kod yükseltme ve veri yükseltme için uygulanacak çeşitli senaryo ve adımları ele alacağız. Ayrıca, genişletilebilirlik talebi senaryolarını ve uygun durumlarda bu taleplerin nasıl oluşturulacağını ele alacağız. | Bir web konferansını ücretsiz olarak kaydetme | 61 dakika |
 | [7.0 (RTW)/7.1 (Sürüm 1611) sürümünden 7.2 (Temmuz 2017) sürümüne yükseltme yapma (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Bu oturumda, Dynamics 365 Finance and Operations uytgulaması v7.0 (RTW) ve v7.1 (1611) sürümlerinden v7.2 (Temmuz 2017) sürümüne yükseltme işlemini açıklayacağız. Canlı müşteriler ile devam eden projeler (henüz canlı olmayan) arasında net bir ayrım yaparız. | Bir web konferansını ücretsiz olarak kaydetme | 58 dakika |
 | [AX2012'den Dynamics 365 for Operations'a Yükseltme (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Bu Teknik Sohbet'te, kod ve verileri Dynamics AX 2012'den Dynamics 365 for Operations'a yükseltmeye genel bir bakış sunacağız. | Bir web konferansını ücretsiz olarak kaydetme | 45 dakika |

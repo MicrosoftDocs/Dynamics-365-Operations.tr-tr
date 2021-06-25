@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908940"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188946"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908940"
 
 Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya ürün çeşidini üretme sürecini tanımlar. Üretim sürecindeki her adımı (operasyonu) ve bu adımların gerçekleştirilmesi gereken sırayı açıklar. Rota her adım için gerekli operasyon kaynaklarını, gerekli hazırlık süresini ve çalışma süresini, maliyetin nasıl hesaplanacağını tanımlar.
 
-<a name="overview"></a>Özet
---------
+## <a name="overview"></a>Özet
 
 Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Supply Chain Management'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 

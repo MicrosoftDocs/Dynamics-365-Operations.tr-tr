@@ -2,7 +2,7 @@
 title: Mali içgörüler giriş sayfası (önizleme)
 description: Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir modeller sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Tüm bu özellikler akıllı makine öğrenimi modellerine dayanır.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087001"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222522"
 ---
 # <a name="finance-insights-home-page-preview"></a>Mali içgörüler giriş sayfası (önizleme)
 
@@ -68,7 +68,9 @@ Azure, Microsoft Dataverse ve LCS'te kaynak oluşturma ve yönetme işlemi hakk�
 
 ## <a name="configure-finance-insights"></a>Mali içgörüleri yapılandırma
 
-Mali içgörüleri kullanabilmeniz için bazı yapılandırma adımlarını tamamlamanız gerekir. Mali içgörüleri yapılandırma hakkında daha fazla bilgi için bkz. [Mali içgörülerde yapılandırma](configure-for-fin-insites.md).
+Mali içgörüleri kullanabilmeniz için bazı yapılandırma adımlarını tamamlamanız gerekir. Finans Insights'ı yapılandırma hakkında daha fazla bilgi için bkz.
+  - 10.0.19 sürümüne kadar olan sürümler için: [10.0.19 sürümüne kadar Finance Insights yapılandırması](configure-for-fin-insites.md).
+  - 10.0.20 ve sonrasındaki sürümler için: [10.0.20 sürümü ve sonrası için Finance Insights (preview) yapılandırması](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Veri tümleştirici projesi oluşturma
 
@@ -84,10 +86,7 @@ Müşteri ödeme tahminlerini test etmek için tanıtım verileri kullanıyorsan
 Müşteri ödeme tahminlerini etkinleştirmek için, müşterilerin bekleyen faturaları ne zaman ödeyeceğine ve belirli faturaların ne zaman ödeneceğine dair tahminler oluşturmak için kuruluşunuzun verilerini kullanan bir makine öğreinimi modeli oluşturma adımlarını tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Müşteri ödeme tahminlerini etkinleştirme](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Nakit akışı tahminini etkinleştirme
-Nakit akışı tahmini özelliğini etkinleştirmek için, nakit akışı tahminleri oluşturmak üzere kuruluşunuzun verilerinin kullanıldığı bir makine öğrenimi modeli oluşturmak için bir dizi adımı tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Nakit akışı tahminini etkinleştirme](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Nakit akışı tahminini ayarlama ve kullanma
-Nakit akışı tahmini ayarlamak ve kullanmak hakkında daha fazla bilgi için bkz. [Nakit akışı tahmini etkinleştirme](enable-cash-flow-forecasting.md). Bu özelliğin nasıl kullanılacağı hakkında daha fazla bilgi için bkz. [Nakit akışı tahmini](cash-flow-forecast-intro.md).
+Nakit akışı tahmini özelliğini etkinleştirmek için, nakit akışı tahminleri oluşturmak üzere kuruluşunuzun verilerini kullanan bir makine öğrenimi modeli oluşturmak için bir dizi adımı tamamlamanız gerekir. Daha fazla bilgi ve tamamlanması gereken adımlar için bkz. [Nakit akışı tahminini etkinleştirme](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Bütçe tekliflerini etkinleştirme
 
@@ -111,14 +110,12 @@ Nakit akışı tahmini özelliği, nakit pozisyonunuzu daha doğru tahmin etmeni
 
 - Nakit akışı tahminlerindeki yeni özellikler hakkında bilgi edinmek için bkz. [Nakit akışı tahmini](cash-flow-forecast-intro.md).
 - Nakit akışı tahmininize dahil etmek üzere dış verilerin içeri aktarılması hakkında bilgi için bkz. [Nakit akışı tahminlerinde dış verileri kullanma](external-data-in-cash-flow.md). 
-- Uzun vadeli nakit akışını öngörmek için yapay zeka modelinin nasıl kullanılacağı hakkında bilgi için bkz. [Nakit akışı tahminlerine genel bakış](cash-position.md).
+- Kısa vadeli nakit akışını öngörmek için yapay zeka modelinin nasıl kullanılacağı hakkında bilgi için bkz. [Nakit konumu](cash-position.md).
 - Nakit akışı pozisyonlarının ve nakit akışı tahminlerinin anlık görüntü olarak kaydedilmesi ve anlık görüntüyü gerçek değerlerle karşılaştırmak hakkında bilgi için bkz. [Anlık görüntülere genel bakış](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Bütçe teklifini kullanma
 
 Bütçenin oluşturulmasını hızlandırma hakkında bilgi için bkz. [Bütçe teklifleri](budget-proposals.md). 
-
-Bütçe teklifi için tanıtım verileri:
 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 

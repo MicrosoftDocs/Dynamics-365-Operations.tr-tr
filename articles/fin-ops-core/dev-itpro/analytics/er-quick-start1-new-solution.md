@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891805"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224046"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 
@@ -285,7 +285,7 @@ Devam etmek için sonraki yordamı atlayın, [Yeni bir veri modeli yapılandırm
 
 Bu yapılandırmanın sürüm 1 durumu **Taslak** yerine **Tamamlandı** olarak değiştirildi. Sürüm 1 artık değiştirilemez. Bu sürüm yapılandırılmış veri modeli içerir ve diğer ER yapılandırmalarının temeli olarak kullanılabilir. Bu yapılandırma için sürüm 2 oluşturuldu ve **taslak** durumuna sahip. **Soru formu** veri modelini ayarlamak için bu sürümü düzenleyebilirsiniz.
 
-![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri](./media/er-quick-start1-model-configuration.png)
+![Yapılandırmalar sayfasındaki düzenlenebilir yapılandırmanın sürümleri](./media/er-quick-start1-model-configuration.png)
 
 ER yapılandırmaları için sürüm oluşturma hakkında daha fazla bilgi için bkz. [Elektronik raporlamaya (ER) genel bakış](general-electronic-reporting.md#component-versioning).
 
@@ -799,7 +799,7 @@ Aşağıdaki şekil, soruların doğru şekilde sıralandığı Excel biçiminde
 
 Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olarak değiştirildi. Sürüm 1.1 artık değiştirilemez. Bu sürüm yapılandırılmış biçimi içerir ve özel raporunuzu yazdırmak için kullanılabilir. Bu yapılandırma için sürüm 1.2 oluşturuldu ve **taslak** durumuna sahip. **Soru formu** raporunuzun biçimini ayarlamak için bu sürümü düzenleyebilirsiniz.
 
-![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırmasının sürümleri](./media/er-quick-start1-format-configuration.png)
+![Yapılandırmalar sayfasındaki düzenlenebilir ER yapılandırması](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Yapılandırılan biçim, **Soru formu** raporu tasarımınızdır ve Finance'a özgü en artefaktlara ilişki içermez.

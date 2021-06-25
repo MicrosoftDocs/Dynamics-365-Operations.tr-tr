@@ -2,7 +2,7 @@
 title: Nakit akışı tahmini (önizleme)
 description: Bu konuda, Nakit akışı tahmini özelliği açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6e4713aa4662714d1b2a3eeb62adce8608907054
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64935db3b50e7598f2076ecbec72aba020d4f908
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811423"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186552"
 ---
 # <a name="cash-flow-forecast-preview"></a>Nakit akışı tahmini (önizleme)
 
@@ -62,9 +62,5 @@ Dynamics 365 Finance'teki nakit akışı tahmini işlevi; sıkıcı, karmaşık 
 **Nakit akışı tahmin kurulumu** sayfasındaki yeni bir sekme, **Nakit akışı tahmini** çalışma alanında filtre uygulamak için hangi mali boyutları kullanacağınızı kontrol etmenizi sağlar. Bu sekme yalnızca Nakit akışı tahminleri özelliği etkinleştirildiğinde görüntülenir. 
 
 **Boyutlar** sekmesinde, filtre için kullanılacak boyut listesinden seçim yapın ve bunları sağ sütuna taşımak için ok tuşlarını kullanın. Nakit akışı tahmin verilerinin filtrelenmesi için yalnızca iki boyut seçilebilir. 
-
-#### <a name="privacy-notice"></a>Gizlilik bildirimi
-Önizlemeler (1), Dynamics 365 Finance and Operations hizmetinden daha az gizlilik ve güvenlik önlemleri kullanabilir, (2) bu hizmet için hizmet düzeyi sözleşmesine (SLA) dahil edilmez, (3) kişisel verileri veya yasal ya da mevzuat uyumluluğu gereksinimlerine tabi olan diğer verileri işlemek için kullanılmamalıdır ve (4) sınırlı desteğe sahiptir.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

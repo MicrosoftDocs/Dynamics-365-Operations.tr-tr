@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838382"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164858"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
@@ -330,7 +330,6 @@ Transfer emirleri **Teslimat tarihi denetimi** özellikleri kullanılmadan oluş
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Eldeki fiziksel stoğu negatif olan bir plaka kullanabilir miyim?
 
-Özellik yalnızca pozitif fiziksel elde stok miktarlarını destekler. Bir transfer emrine plaka atamadan önce ambar ve stok durumu düzeyinde pozitif fiziksel eldeki miktarlara sahip olduğunuzdan emin olun.
-
+Özellik, lisans plakası düzeyinde yalnızca pozitif fiziksel eldeki miktarları destekler ancak transfer emirlerine lisans plakaları atarken, yüksek ambar ve stok durumu düzeylerinde fiziksel negatif eldeki miktarlarınız olabilir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ab5e7a2675705cc2265b7f894d9b12d4465aea1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838849"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187832"
 ---
 # <a name="income-statement-financial-report"></a>Gelir tablosu mali raporu
 
@@ -28,8 +28,7 @@ ms.locfileid: "5838849"
 
 Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar. 
 
-<a name="default-income-statement-report"></a>Varsayılan gelir tablosu raporu
--------------------------------
+## <a name="default-income-statement-report"></a>Varsayılan gelir tablosu raporu
 
 | Varsayılan rapor             | Ne yapar                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -57,8 +56,7 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlamaya genel bakış](financial-reporting-getting-started.md)
 

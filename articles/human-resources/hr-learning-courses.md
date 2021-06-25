@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054031"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190244"
 ---
 # <a name="set-up-training-courses"></a>Eğitim kursları ayarlama
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054031"
 
 İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
 
- <a name="set-up-prerequisites"></a>Önkoşulları ayarlama
----------------------
+##  <a name="set-up-prerequisites"></a>Önkoşulları ayarlama
 
 Aşağıdaki bilgiler gereklidir ve kurslar oluşturmadan önce ayarlanmış olması gerekir.
 -   **Kurs tipleri**
@@ -127,8 +126,7 @@ Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa t
 ## <a name="course-participants"></a>Kurs katılımcıları
 Kurs katılımcıları, bir eğitim kursuna veya etkinliğine katılım gösteren çalışanlardır. Yalnızca açık kurslara katılımcıları kayıt yaptırabilirsiniz. Bir kursa kaydedebileceğiniz en az ve en çok katılımcı sayısı, **Kurslar** sayfasının **Genel** hızlı sekmesinde tanımlanır.
 
-<a name="workflow"></a>İş Akışı
---------
+## <a name="workflow"></a>İş Akışı
 
 **Personel self servis** sayfası üzerinden bir kursa kayıt olan personeller, kayıtlarını onay için çalışma akışından yönlendirebilirler. Bir kursu bir iş akışına, **Kurslar** sayfasında **Genel** hızlı sekmesinden atayabilirsiniz.
 

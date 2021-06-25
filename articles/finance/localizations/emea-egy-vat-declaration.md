@@ -2,7 +2,7 @@
 title: Mısır için KDV beyannamesi
 description: Bu konu, Mısır için KDV iade formunun nasıl yapılandırılacağını ve oluşturulacağını açıklar.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021968"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186626"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Mısır için KDV beyannamesi (EG-00002)
 
@@ -85,6 +85,7 @@ Aşağıdaki arama yapılandırmaları satın alma ve satış KDV defterleri rap
 - **VATRateTypeLookup** > Sütun B: Vergi türü
 - **VATRateTypeLookup** > Sütun C: Tablo madde türü
 - **PurchaseOperationTypeLookup** > Sütun A: Belge türü
+- **CustomerTypeLookup** > A sütunu: Belge türü
 - **SalesOperationTypeLookup** > Sütun N: İşlem türü
 - **SalesItemTypeLookup** > Sütun O: Madde türü
 
@@ -98,6 +99,8 @@ KDV beyanı ve ilgili defter raporları oluşturmak için kullanılan farklı ar
 6. Tüm kullanılabilir aramalar için 3-5 arasındaki adımları yineleyin.
 7. Son kayıt satırını eklemek için **Ekle**'yi seçin ve **Arama sonucu** sütununda **Geçerli değil**'i seçin. 
 8. Kalan sütunlarda, **boş değil** seçeneğini belirleyin. 
+9. **Durum** alanında **Tamamlandı**'yı seçin.
+10. **Kaydet**'i seçin ve **Uygulamaya özel parametreler** sayfasını kapatın.
 
 > [!NOTE]
 > Son kaydı eklediğinizde, **Geçerli değil**, şu kuralı tanımlarsınız: Bağımsız değişken olarak iletilen satış vergisi grubu, madde satış vergisi grubu, vergi kodu ve ad önceki kurallardan herhangi birini karşılamadığında işlemler satış KDV defterine dahil edilmez. Bu kural rapor oluşturulurken kullanılmasa da, eksik bir kural yapılandırması olduğunda, rapor oluşturmada hataları önlemek için kural size yardımcı olur.
@@ -138,7 +141,7 @@ Aşağıdaki tablolarda, tanımlanan arama yapılandırmaları için önerilen y
 | Hizmetler       | 7    | VAT_SERV                | *Boş değil* | SaleExempt            |
 | Hizmetler       | 8    | VAT_SERV                | *Boş değil* | SalesExemptCreditNote |
 | Düzeltmeler    | 9    | *Boş*                 | VAT_ADJ     | Satışlar                 |
-| Düzeltmeler    | 10   | *Boş*                 | VAT_ADJ     | Satınalma              |
+| Düzeltmeler    | 10   | *Boş*                 | VAT_ADJ     | SalesCreditNote       |
 | Geçerli değil | 11   | *Boş değil*             | *Boş değil* | *Boş değil*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ Aşağıdaki tablolarda, tanımlanan arama yapılandırmaları için önerilen y
 | Mallar                  | 1    | VAT_GOODS               | *Boş değil* | Satınalma                 |
 | Mallar                  | 2    | VAT_GOODS               | *Boş değil* | PurchaseCreditNote       |
 | Hizmetler               | 3    | VAT_SERV                | *Boş değil* | Satınalma                 |
-| Hizmetler               | 4    | VAT_SERV                | *Boş değil*  | PurchaseCreditNote       |
+| Hizmetler               | 4    | VAT_SERV                | *Boş değil* | PurchaseCreditNote       |
 | Makine ve ekipman  | 5    | VAT_M&E                 | *Boş değil* | Satınalma                 |
 | Makine ve ekipman  | 6    | VAT_M&E                 | *Boş değil* | PurchaseCreditNote       |
 | Parça makineleri         | 7    | VAT_PARTS               | *Boş değil* | Satınalma                 |
 | Parça makineleri         | 8    | VAT_PARTS               | *Boş değil* | PurchaseCreditNote       |
 | Muafiyetler             | 9    | VAT_EXE                 | *Boş değil*  | PurchaseExempt           |
 | Muafiyetler             | 10   | VAT_EXE                 | *Boş değil* | PurchaseExemptCreditNote |
-| Geçerli değil         | 11   | *Boş*                 | VAT_ADJ     | *Boş değil*              |
-| Geçerli değil         | 12   | *Boş değil*             | *Boş değil* | *Boş değil*              |
-| Geçerli değil         | 13   | *Boş*                 | *Boş değil* | *Boş değil*              |
+| Geçerli değil         | 11   | *Boş değil*             | *Boş değil* | *Boş değil*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ Aşağıdaki tablolarda, tanımlanan arama yapılandırmaları için önerilen y
 | Düzeltmeler    | 9    | *Boş*          | VAT_ADJ     | PurchaseCreditNote       |
 | Düzeltmeler    | 10   | *Boş*          | VAT_ADJ     | Satınalma                 |
 | Geçerli değil | 11   | *Boş değil*      | *Boş değil* | *Boş değil*              |
+
+**CustomerTypeLookup**
+
+|    Arama sonucu    | Satır | Satış vergi grubu |
+|---------------------|------|-----------------|
+| Organizasyon        |  1   | VAT_LOCAL       |
+| Organizasyon        |  2   | VAT_EXPORT      |
+| Organizasyon        |  3   | VAT_EXE         |
+| Son tüketici      |  4   | VAT_FINALC      |
+| Kamuya Açık Kuruluş |  5   | VAT_PUBLIO      |
+| Geçerli Değil      |  6   | *Boş değil*     |
 
 **VATRateTypeLookup**
 

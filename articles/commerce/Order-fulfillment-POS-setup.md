@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796450"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193191"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Mağazalar için sipariş karşılamayı ayarlama
 
@@ -33,9 +33,9 @@ Satış noktasındaki sipariş karşılama işlemi, satış noktasında sipariş
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Sipariş karşılama işlemini ayarlama
 
-Siparişin karşılama, [928 işlem kodu](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
+Siparişin karşılama, [928 işlem kodu](pos-operations.md), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
 
-Satış noktasında sipariş karşılamayı çağırmak için hangi parametrenin kullanılacağını belirlemek üzere [Düğme grubuna bir işlem ekleme](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) bölümündeki adımları izleyin. Varsayılan olarak sipariş karşılama işlemleri belirtildikten sonra **Tüm siparişler** seçeneği seçilir. Bu parametre ile yapılandırıldığında, işlem geçerli mağazadaki karşılanacak tüm sipariş satırlarını listeler. Ayrıca, bir düğmeye atanıp yalnızca kullanıcı mağazadan sev edilecek siparişleri görmek istediği zaman kullanılabilecek **Sevk edilecek siparişler** seçeneği de bulunmaktadır. Son olarak **Çekilecek siparişler** seçeneği bulunur. Satış noktasında çağrıldığında, yalnızca mağazadan çekilecek olan siparişleri listeler. Farklı parametreler, kullanıcıya sipariş karşılamanın farklı yollarını sağlamak üzere farklı düğmelere atanabilir.
+Satış noktasında sipariş karşılamayı çağırmak için hangi parametrenin kullanılacağını belirlemek üzere [Düğme grubuna bir işlem ekleme](pos-screen-layouts.md) bölümündeki adımları izleyin. Varsayılan olarak sipariş karşılama işlemleri belirtildikten sonra **Tüm siparişler** seçeneği seçilir. Bu parametre ile yapılandırıldığında, işlem geçerli mağazadaki karşılanacak tüm sipariş satırlarını listeler. Ayrıca, bir düğmeye atanıp yalnızca kullanıcı mağazadan sev edilecek siparişleri görmek istediği zaman kullanılabilecek **Sevk edilecek siparişler** seçeneği de bulunmaktadır. Son olarak **Çekilecek siparişler** seçeneği bulunur. Satış noktasında çağrıldığında, yalnızca mağazadan çekilecek olan siparişleri listeler. Farklı parametreler, kullanıcıya sipariş karşılamanın farklı yollarını sağlamak üzere farklı düğmelere atanabilir.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Kullanıcıların satış noktasında sipariş karşılamaya erişmesine olanak tanır
 
@@ -104,9 +104,9 @@ Varsayılan olarak, siparişlerin durumu **Kabul edildi** olur. Sipariş durumu 
 
 - **Düzenle** – durumu Beklemede olduğunda, satış noktasında düzenlenebilir. Zaten kısmen çekilmiş, paketlenmiş veya faturalanmış olan siparişler sipariş karşılama görünümünden düzenlenemez.
 - **Kabul et** – **El ile kabul et** kanal düzeyinde yapılandırılmışsa, satırların sipariş karşılama işlemine geçebilmesi için öncelikle kabul edilmesi gerekir.
-- **Çek** – Çekme seçeneği birçok eylemi destekler. Öncelikle, **Çekme** sipariş satırının durumunu güncelleştirir, böylece mağazadaki diğer kişiler aynı satır için çekme işlemi gerçekleştirmeye çalışmaz. Ardından, **Malzeme çekme listesini yazdır** seçeneği seçilen satır veya satırlar için malzeme çekme listesini yazdırır ve durumlarını **Çekme** olarak güncelleştirir. Malzeme çekme listesi biçimleri makbuz biçimlerinin bir parçası olarak denetlenir. Makbuz biçimleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Son olarak, **Çekildi olarak işaretle** satırı çekilmiş gösterir. **Çekildi olarak işaretle**, arka ofiste ilgili stok hareketlerini başlatır. Çekme eylemleri, siparişlerdeki birden fazla sipariş satırı ve tüm teslimat şekilleri için aynı anda gerçekleştirilebilir.
+- **Çek** – Çekme seçeneği birçok eylemi destekler. Öncelikle, **Çekme** sipariş satırının durumunu güncelleştirir, böylece mağazadaki diğer kişiler aynı satır için çekme işlemi gerçekleştirmeye çalışmaz. Ardından, **Malzeme çekme listesini yazdır** seçeneği seçilen satır veya satırlar için malzeme çekme listesini yazdırır ve durumlarını **Çekme** olarak güncelleştirir. Malzeme çekme listesi biçimleri makbuz biçimlerinin bir parçası olarak denetlenir. Makbuz biçimleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md). Son olarak, **Çekildi olarak işaretle** satırı çekilmiş gösterir. **Çekildi olarak işaretle**, arka ofiste ilgili stok hareketlerini başlatır. Çekme eylemleri, siparişlerdeki birden fazla sipariş satırı ve tüm teslimat şekilleri için aynı anda gerçekleştirilebilir.
 - **Reddet** – Satırlar veya kısmi satırlar reddedilebilir. Bu, satırların arka ofisten başka bir mağazaya veya ambara atanmasına olanak tanır. Satırlar yalnızca henüz çekilmemiş veya paketlenmemiş olması durumunda reddedilebilir. Çekilmiş veya paketlenmiş olan bir satırı reddetmek için, arka ofis tarafından bu satırdaki çekme veya paketleme işleminin geri alınması gerekir.
-- **Paketle** – Paketle seçeneği iki eylemi destekler: **Sevk irsaliyesi yazdır** seçeneği seçili satırlar için sevk irsaliyesi yazdırır ve **Paketlendi olarak işaretle** seçeneği satırları paketlendi olarak işaretler ve satırlar arka ofiste teslim edildi olarak işaretlenir. Yalnızca aynı siparişe ait olan ve aynı teslimat şekline sahip olan sipariş satırları aynı anda paketlenebilir. Sevk irsaliyesi biçimleri makbuz biçimlerinin bir parçası olarak denetlenir. Makbuz biçimleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Paketle** – Paketle seçeneği iki eylemi destekler: **Sevk irsaliyesi yazdır** seçeneği seçili satırlar için sevk irsaliyesi yazdırır ve **Paketlendi olarak işaretle** seçeneği satırları paketlendi olarak işaretler ve satırlar arka ofiste teslim edildi olarak işaretlenir. Yalnızca aynı siparişe ait olan ve aynı teslimat şekline sahip olan sipariş satırları aynı anda paketlenebilir. Sevk irsaliyesi biçimleri makbuz biçimlerinin bir parçası olarak denetlenir. Makbuz biçimleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md).
 - **Sevk et** – Sevk etme eylemi seçili satırları arka ofiste **Teslim edildi** olarak işaretler. Bir satır tam olarak sevk edildikten sonra, artık sipariş karşılama görünümünde görüntülenmez.
 - **Malzeme çekme** – Malzeme çekme eylemi çekme için satırları hareket görünümüne ekler. Siparişte henüz çekilmemiş başka satırlar olması durumunda, bu satırlar hareket görünümüne sıfır miktarıyla eklenir. Bir satır tam olarak çekildikten sonra, artık sipariş karşılama görünümünde görüntülenmez.
 

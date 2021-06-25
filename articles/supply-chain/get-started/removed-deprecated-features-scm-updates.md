@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947556"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193242"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management'ta kaldırılan veya artık kullanılmayan özellikler
 
@@ -38,7 +38,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="job-card-device"></a>İş kartı cihazı
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Kullanımı sonlandırma/kaldırma nedeni** | [İş kartı cihazı,](../production-control/config-job-card-device.md) yeni [üretim katı yürütme arabirimiyle](../production-control/production-floor-execution-configure.md) değiştiriliyor. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, [iş kartı cihazı,](../production-control/config-job-card-device.md) yeni [üretim katı yürütme arabirimiyle](../production-control/production-floor-execution-configure.md) değiştirilecek. |
@@ -50,7 +50,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations: Depolama (ambar uygulaması)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Nisan 2021'den itibaren, *Dynamics 365 for Finance and Operations -Ambar* (ambar uygulaması) kullanım dışıdır ve Nisan 2022'den sonra desteklenmeyecektir. Şimdi Supply Chain Management 10.0.17 sürümüyle yayınlanan *ambar yönetimi mobil uygulaması* yerini almıştır. Yeni uygulama tam bir değişiklik yapar ama geçişi kolaylaştıran aynı temel çerçeveyi kullanır. Gerekirse, kullanıcılar, yeni uygulamayı kullanmaya alışana kadar iki uygulama yan yana kullanılabilir.<br><br>Yeni Ambar Yönetimi mobil uygulaması hakkında daha fazla bilgi için bkz. [Ambar Yönetimi mobil uygulamasını](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) ve [Ambar Yönetimi mobil uygulamasını yükleme ve bağlama](../warehousing/install-configure-warehouse-management-app.md). |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, yeni ambar yönetimi mobil uygulaması ile değiştirildi. |
@@ -62,7 +62,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Dynamics 365 için Internet Explorer 11 desteği kullanım dışı bırakılmıştır
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Aralık 2020 itibarıyla geçerli olmak üzere, tüm Dynamics 365 ürünleri için Microsoft Internet Explorer 11 desteği kullanım dışı, bırakılacaktır ve Internet Explorer 11, Ağustos 2021'den sonra desteklenmeyecektir.<br><br>Bu, Internet Explorer 11 arabirimi aracılığıyla kullanılmak üzere tasarlanmış olan Dynamics 365 ürünlerini kullanan müşterileri etkileyecektir. Ağustos 2021'den sonra, Internet Explorer 11, bu tür Dynamics 365 ürünleri için desteklenmeyecektir. |
 | **Başka bir özellikle mi değiştirildi?**   | Müşterilerin Microsoft Edge'e geçiş yapması önerilir.|
@@ -72,7 +72,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Üretim senaryoları için yerleşik Supply Chain Management master planlama altyapısı kullanımı
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Master planlama çalışması sırasında performansı artırmak ve SQL veritabanı yükünü en aza indirmek için, yerleşik Supply Chain Management master planlama altyapısı Planlamayı En İyi Duruma Getirme ile değiştiriliyor. Planlamayı En İyi Duruma Getirme, çalışma saatleri sırasında bile gerçekleştirilebilecek hızlı planlama çalıştırma olanağı sağlar. Bu, planlayıcıların talep veya planlama parametrelerinde yapılan değişikliklere hemen tepki vermesine olanak sağlar. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |
@@ -84,7 +84,7 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Sağıtım senaryoları için yerleşik Supply Chain Management master planlama altyapısı kullanımı
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Master planlama çalışması sırasında performansı artırmak ve SQL veritabanı yükünü en aza indirmek için, yerleşik Supply Chain Management master planlama altyapısı Planlamayı En İyi Duruma Getirme ile değiştiriliyor. Planlamayı En İyi Duruma Getirme, çalışma saatleri sırasında bile gerçekleştirilebilecek hızlı planlama çalıştırma olanağı sağlar. Bu, planlayıcıların talep veya planlama parametrelerinde yapılan değişikliklere hemen tepki vermesine olanak sağlar. |
 | **Başka bir özellikle mi değiştirildi?**   | Evet, Planlamayı En İyi Duruma Getirme hizmeti mevcut yerleşik Supply Chain Management master planlama altyapısının yerini alacaktır. |

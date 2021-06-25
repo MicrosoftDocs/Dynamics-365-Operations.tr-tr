@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810882"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188137"
 ---
 # <a name="sales-and-marketing-overview"></a>Satış ve pazarlamaya genel bakış
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810882"
 
 Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 
-<a name="marketing"></a>Pazarlama
----------
+## <a name="marketing"></a>Pazarlama
 
 Potansiyel müşteriler bulup onlarla ilişkiler kurmak için pazarlama kampanyalarını ve etkinliklerini kullanın. Böylelikle, ilk etkileşimler satış ilişkileri haline gelebilir. Aşağıdaki süreç akışı, pazarlama için iş sürecini gösterir. [![Pazarlama için iş süreci](./media/marketing01.jpg)](./media/marketing01.jpg)
 

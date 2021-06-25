@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837309"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6194013"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
@@ -207,8 +207,6 @@ Mali boyutlar, nakit iskontosu için ilgili fiş üzerinden ARPAYM002 fişinde g
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Müşteri nakit iskontosu | 2.00      |            |
 | ARP-00001   | 130100-002-     | Müşteri bakiyesi       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Birden çok müşteri ve satıcı için mahsuplaşmaya sahip bir fiş
 Kuruluş, aynı şirket için satınalma ve satış gerçekleştirdiğinde mahsuplaşma yararlı olabilir. Müşteri faturaları için ödeme almayı beklemek ve satıcı faturalarına ödeme yapmak yerine satıcı ve müşteri faturaları netleştirilir. Mahsuplaşma hareketi devreden bakiyelere karşılık kapatılır. 

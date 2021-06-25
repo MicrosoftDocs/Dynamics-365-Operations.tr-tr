@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112633"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193578"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Önceki sürümlerdeki kaldırılmış veya kullanım dışı bırakılmış özellikler
 
@@ -92,7 +92,7 @@ Finance and Operations uygulamlarındai nesneler hakkında ayrıntılı bilgiye 
 | **Başka bir özellikle mi değiştirildi?**   | Hayır |
 | **Etkilenen ürün alanları**         | İtalyanca yerelleştirme |
 | **Dağıtım seçeneği**              | Tümü |
-| **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla **Bloke liste raporu (IT) – Özellik referansı IT-00001** özelliğini desteklememeyi planlıyoruz. |
+| **Durum**                         | Kullanımına son verildi: 1 Ekim 2020 itibarıyla bu raporu desteklememeyi planlıyoruz. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Yurtiçi vergi raporu – Özellik referansı IT-00003
 
@@ -365,6 +365,16 @@ Yeni kar vergi kayıtları için şablonlar oluşturma özelliği. Bu özellik, 
 | **Dağıtım seçeneği**              | Tümü |
 | **Durum**                         | Platform update 20 ile Finance and Operations 8.1 itibarıyla kaldırıldı. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Rusya için Bordro ve İnsan Kaynakları
+Personel idari bilgilerini yönetmek, çalışanların zaman çizelgesi ayrıntıları, bordro muhasebesi ve ödeme ekstreleri oluşturmak için Rusya ülkesine özel modül. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Dynamics 365 portföyünün genel stratejik odağına Bordro dahil değildir. Ortaklar ve ISV'ler, yerel düzenlemeler ve vergi güncelleştirmeleriyle uyumlu olan bordro işlevleri sağlamak için en iyi şekilde konumlandırılmıştır.|
+| **Başka bir özellikle mi değiştirildi?**   | No|
+| **Etkilenen ürün alanları**         | Rusya için Bordro ve İnsan Kaynakları Yönetimi |
+| **Dağıtım seçeneği**              | Tümü |
+| **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 10.0 sürümünün gelecekteki güncelleştirmelerinden biridir. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0, Platform güncelleştirmesi 15 ile
 Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.

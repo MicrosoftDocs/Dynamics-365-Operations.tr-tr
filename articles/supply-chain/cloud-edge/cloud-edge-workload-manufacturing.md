@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899107"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184008"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için üretim yürütme iş yükleri
 
@@ -72,6 +72,7 @@ Aşağıdaki üretim yürütme görevleri, şu anda iş yükleri üzerinde ölç
 - Iskarta bildir
 - Dolaylı faaliyet
 - Mola
+- Tamamlanıp kaldırıldı olarak bildirme (aynı zamanda ölçeklendirme birimi üzerinde ambar yürütme iş yükünü de çalıştırmanızı gerektirir, aynı zamanda bkz. [Ölçek biriminde tamamlandı ve kaldırıldı olarak bildirme](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Hub'da üretim yürütme iş yükleri ile çalışma
 
@@ -108,6 +109,26 @@ Bir ölçek biriminde işlenmiş olan üretim işlerinin geçmişini gözden ge�
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Üretim hub'ından ölçek birimine ileti işleyici işi
 
 _Üretim hub'ından ölçek birimine ileti işleyicisi_ işi, hub'dan ölçek birimine giden verileri işler. Üretim yürütme iş yükü dağıtıldığında bu iş otomatik olarak başlatılır. Bununla birlikte, **Üretim denetimi \> Periyodik görevler \> Arka ofis iş yükü yönetimi \> Üretim hub'ından ölçek birimine ileti işleyici**'ye giderek istediğiniz zaman el ile çalıştırabilirsiniz.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Ölçek biriminde tamamlandı ve kaldırıldı olarak bildirme
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Geçerli sürümde, tamamlandı ve kaldırıldı olarak bildirme işlemleri (tamamlanmış ürünler, ortak ürünler ve yan ürünler için), [ambar yürütme iş yükü ](cloud-edge-workload-warehousing.md) (üretim yürütme iş yükü değil) tarafından desteklenir. Bu nedenle, bu işlevi bir ölçek birimine bağlıyken kullanmak için aşağıdakileri yapmalısınız:
+
+- Hem ambar yürütme iş yükünü hem de üretim yürütme iş yükünü ölçeklendirme biriminize yükleyin.
+- Tamamlandı olarak bildirmek ve kaldırma çalışmasını işlemek için Warehouse Management mobil uygulamasını kullanın. Üretim katı yürütme arabirimi, şu anda bu işlemleri desteklememektedir.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

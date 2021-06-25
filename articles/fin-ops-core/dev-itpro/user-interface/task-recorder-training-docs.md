@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744175"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188087"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Görev Kaydedici'yle belge veya eğitim oluşturma
 
@@ -31,8 +31,7 @@ Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev ka
 > [!IMPORTANT]
 > Dynamics 365 Human Resources için kendi görev kılavuzlarınızı kaydedebilirsiniz ancak bunları İş Süreci Modelleyici (BPM) kitaplığına kaydedemez veya Yardım bölmesinden açamazsınız. Bunları yerel olarak veya ağ konumuna kaydedebilir ve daha sonra Görev kaydediciyi kullanarak açabilir ve oynatabilirsiniz. 
 
-<a name="learn-about-task-recorder"></a>Görev kaydedici hakkında bilgi edinin
--------------------------
+## <a name="learn-about-task-recorder"></a>Görev kaydedici hakkında bilgi edinin
 
 Görev kaydedici, ürün kullanıcı arabiriminde (UI) gerçekleştirdiğiniz eylemleri kaydetmek için kullanabileceğiniz bir araçtır. Görev kaydediciyi kullandığınızda, kullanıcı biriminde gerçekleştirdiğiniz ve sunucuda yürütülen tüm olaylar yakalanır. Bunlara değer ekleme, ayarları değiştirme ve veri kaldırma da dahildir. Kaydettiğiniz tüm adımlar toplu olarak *görev kaydı* olarak adlandırılır. Görev kayıtları birçok şekilde kullanılabilir:
 
@@ -111,8 +110,7 @@ Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemele
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Yardım sistemi](../../fin-ops/get-started/help-overview.md)
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897076"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193343"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Dynamics 365 Finance ile çalışan uygulama proje yöneticileri için öğrenme kataloğu
 
@@ -88,10 +88,10 @@ Aşağıdaki katalog, en temelden en gelişmişe doğru olacak şekilde, belirli
 
 ## <a name="exams"></a>Sınavlar<a name="exams"></a>
 
-| İçerik  | Tanım  | Biçim   |
-|-------------|-----------------|-------------|
-| [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav | |
-| [Sınav MB-310: Microsoft Dynamics 365 for Finance and Operations, Mali İşlemler](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav | |
+| İçerik | Tanım | Biçim |
+|---|---|---|
+| [Sınav MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; yaygın işlev ve uygulama araçlarını kullanma; güvenliği, işlem ve seçenekleri yapılandırma; veri geçişini gerçekleştirme ve çözümü uygulayıp destekleme gibi teknik görevleri gerçekleştirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
+| [Sınav MB-310: Microsoft Dynamics 365 for Finance and Operations, Mali İşlemler](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Bu sınav; mali yönetimi ayarlama ve yapılandırma; ortak işlemleri yönetme ve uygulama; borç hesaplarını uygulama ve yönetme ile bütçeleme ve sabit kıymetleri yönetme gibi teknik görevleri yerine getirme becerinizi ölçer. | Maliyeti bölgeye göre değişkenlik gösteren sınav |
 | [Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanı Çalışan](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft Sertifikası: Dynamics 365 for Finance and Operations, Mali İşlev Danışmanları; küresel mali işlem ve operasyonları birleştirir, görev ve iş akışlarını otomatikleştirir ve müşteri sipariş, satış, faturalama ve raporlama işlemlerini kolaylaştırır. | Maliyeti bölgeye göre değişkenlik gösteren sertifika |
 
 

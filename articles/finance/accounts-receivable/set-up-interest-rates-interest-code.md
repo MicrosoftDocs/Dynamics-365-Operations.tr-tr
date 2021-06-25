@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835208"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188722"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Bir vade farkı kodu için vade farkı oranları ayarlama
 
@@ -90,7 +90,6 @@ Aralığı bilgilerini aşağıdaki gibi ayarlayın.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Örnek 2: Aralığa göre faiz = Gün
---------------------------------------------------
 
 Faturanın ödemesinin hareket vade tarihini aştığını her 15 günde bir değerlendirecek bir vade farkı kodu ayarlarsınız. Hesaplamayı, adımlı gün aralıklarına göre, bir tutar vade farkı değerine dayandırmak isteyebilirsiniz. Vade farkı değeri ilk 60 gün içinde 15 günlük 10,00, 61 ve 90. günler arasında 15 günlük 15,00 ve 91 gün ve daha fazlası için her 15 günlük 20,00 olacaktır. Vade farkı kodu alan değerlerini aşağıdaki gibi ayarlayın.
 
@@ -111,7 +110,6 @@ Aralığı bilgilerini aşağıdaki gibi ayarlayın.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Örnek 3: Aralığa göre faiz = Ay
-----------------------------------------------------
 
 Faturanın ödemesinin hareket vade tarihini aştığını her ayda bir değerlendirecek bir vade farkı kodu ayarlarsınız. Hesaplamayı, adımlı aylık aralıklarına göre, bir yüzde vade farkı değerine dayandırmak isteyebilirsiniz. Varde farkı değer, vadenin geçtiği ilk üç ay için her aylık yüzde 1,5, ikinci üç aylık dönem için aylık yüzde 2,0 ve ilk altı aydan sonraki her ay için yüzde 2,5 olacaktır. Vade farkı kodu alan değerlerini aşağıdaki gibi ayarlayın.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837141"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190321"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredi kartı ayarlama, onaylama ve tutma
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837141"
 
 Bu makalede, Microsoft Dynamics 365 Finance'ta kredi kartı onayına genel bir bakış sağlanmıştır. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
 
 Kredi kartlarını kullanmak için, Ödeme hizmetleri sayfasından bir ödeme hizmeti ayarlamanız ve etkinleştirmeniz gerekir. Ödeme hizmeti, tüzel kişiliğiniz ile müşterinin kredi kartı harcamalarını işleyen banka arasında bir köprü olarak çalışır. Ödeme bağlayıcı alanında listelenen bir kredi kartı sağlayıcısıyla çalışmanız ve bu sağlayıcıyla bir hesap kurmanız gerekmektedir. Ardından Ödeme hizmetleri sayfasında diğer seçenekleri belirlemeniz, Kredi kartı türleri sayfasında American Express, Discover, MasterCard ve Discover için kredi kartı türlerini ayarlamanız ve sağlayıcıyı varsayılan sağlayıcı olarak etkinleştirmeniz gerekir. Ayrıca, ayarları tamamlamak için aşağıdaki adımları izlemeniz gerekir:
 -   Alacak hesapları parametreleri sayfasında, kredi kartı onaylarını kullanmak için parametreleri belirtin.
@@ -39,13 +38,11 @@ Kredi kartlarını kullanmak için, Ödeme hizmetleri sayfasından bir ödeme hi
 ## <a name="adding-a-new-credit-card"></a>Yeni kredi kartı ekleme
 Müşteri, Ayar, Kredi kartı öğelerini kullanarak Müşteriler sayfasında yeni kredi kartı kayıtları oluşturabilirsiniz. Ayrıca, Satış siparişi sayfasında siparişleri girerken Yönet, Müşteri, Kredi kartı, Kaydet öğelerini kullanarak da kredi kartı kayıtları oluşturabilirsiniz.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Bir satış siparişine kredi kartı ekleme
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Bir satış siparişine kredi kartı ekleme
 
 Satış siparişi sayfasındaki Fiyat ve iskontolar hızlı sekmesindeki kredi kartı arama alanından bir kredi kartı seçerek satış siparişine kredi kartı ekleyebilirsiniz. Onay işlemini başlatmak için, Eylem Bölmesindeki Yönet sekmesinde Kredi kartı ve Onay öğelerini seçin.
 
-<a name="authorizing-a-credit-card"></a>Kredi kartını onaylama
--------------------------
+## <a name="authorizing-a-credit-card"></a>Kredi kartını onaylama
 
 Bir kredi kartı onaylanırken, kart numarası ve kart sahibinin adı doğrulanır ve kullanılabilir kredi bakiyesi onaylanır. İsteğe bağlı olarak, kart doğrulama değeri ve kart sahibinin adresi de doğrulanabilir. Ardından, müşterinin kullanılabilir kredi bakiyesinden fatura tutarı düşülür. Ödeme hizmeti, kredi kartının onaylandığı ya da reddedildiği bilgisini gönderir. Satış siparişi faturalandırıldığında, kredi kartı fatura tutarı ile borçlandırılır (tutulan).
 

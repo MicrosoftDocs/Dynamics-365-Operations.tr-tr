@@ -1,8 +1,8 @@
 ---
-title: Mali İçgörüler için Yapılandırma (önizleme)
-description: Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
+title: Finance Insights için Yapılandırma (10.0.19 sürümüne kadar)
+description: Bu konuda, sisteminizin Finance Insights'da (10.0.19 sürümüne kadar) sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
-ms.date: 11/25/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941238"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186432"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Mali içgörüler için yapılandırma (önizleme)
 
@@ -30,6 +30,9 @@ ms.locfileid: "5941238"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
+> [!NOTE]
+> Finance Insights'ı ayarlamak için aşağıdaki yordamlar, 10.0.19'a kadar Microsoft Dynamics 365 Finance sürümleri için geçerlidir. Finance Insights'ı sürüm 10.0.20 ve sonrasında ayarlamak için bkz. [Sürüm 10.0.20 ve sonrasında Finance Insights yapılandırmaları](configure-for-fin-insites-PubPrvw.md).
+
 Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Microsoft Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 
 ## <a name="deploy-dynamics-365-finance"></a>Dynamics 365 Finance dağıtımı
@@ -38,7 +41,7 @@ Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microso
 
 1. Microsoft Dynamics Lifecycle Services (LCS) portalında, bir Dynamics 365 Finance ortamı oluşturun veya güncelleştirin. Ortam, sürüm 10.0.11/Platform update 35 veya daha sonraki bir uygulama sürümü gerektirir.
 2. Ortam, Korumalı Alan içinde yüksek kullanılabilirlik (HA) ortamı olmalıdır. (Bu ortam türü aynı zamanda Katman 2 ortamı olarak da bilinir.) Daha fazla bilgi için bkz. [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Contoso tanıtım verilerini kullanıyorsanız Müşteri ödeme tahminleri, Nakit akışı tahminleri ve Bütçe tahminleri özelliklerini kullanmak için ek örnek verilere ihtiyaç duyarsınız. 
+3. Finance Insights'ı bir korumalı alanda yapılandırıyorsanız tahminlerin çalışması için üretim verilerini ilgili ortama kopyalamanız gerekebilir. Tahmin modeli, tahminleri oluşturmak için birkaç senelik verileri kullanır. Contoso demo verileri, tahmin modelini yeterince geliştirmek için yeterli tarihsel veri içermez. 
 
 ## <a name="configure-dataverse"></a>Dataverse'ı yapılandırma
 

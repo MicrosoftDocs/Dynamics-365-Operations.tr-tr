@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826383"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193630"
 ---
 # <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826383"
 
 Müşteri deftere nakil profilleri, müşteri hareketlerinin genel muhasebeye naklini kontrol eder.
 
-<a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
--------------------------
+## <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
 Müşteri deftere nakil profilleri tüm müşterilere, bir müşteri grubuna veya tek bir müşteriye genel muhasebe hesapları ve belge ayarları atamanızı sağlar. Satış siparişleri, serbest metin faturaları, nakit ödemeler, tahsilat mektupları ve vade farkı dekontları işlemleri oluşturduğunuzda, bu ayarlar kullanılacaktır. Bazı hareketler için, bu sayfadaki hareket için ayarlanan nakil profillerinden farklılık gösteren ve bunların yerini alan bir nakil profili seçebilirsiniz. 
 
@@ -118,7 +117,6 @@ Tüm müşteri hareketlerinin aynı deftere nakil profili içermesini istiyorsan
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Tablo kısıtlamaları**
 

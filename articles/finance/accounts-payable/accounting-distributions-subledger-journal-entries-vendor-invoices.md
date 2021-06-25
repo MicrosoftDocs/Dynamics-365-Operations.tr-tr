@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820996"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189105"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Satıcı faturaları için muhasebe dağılımları ve defter girişleri
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820996"
 
 Muhasebe dağılımları, bir tutarın, örneğin giderin, verginin veya masrafların, bir satıcı faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Satıcı faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır. 
 
-<a name="accounting-distributions"></a>Muhasebe dağılımları 
--------------------------
+## <a name="accounting-distributions"></a>Muhasebe dağılımları 
 
 Satıcı faturası sayfasında aşağıdaki düğmeleri kullanarak satıcı faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz
 -   **Tutarları dağıtmak** – Vergiler ve masraflar gibi tek bir satır ve tüm alt satırların muhasebe dağılımlarını görüntüleyip değiştirin. Alt satır için muhasebe dağılımlarını da doğrudan satış vergisi hareketleri sayfasından veya Gider hareketlerini görüntüleyebilir ve değiştirebilirsiniz.
@@ -227,8 +226,7 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 </table>
 
 
-<a name="distributing-taxes"></a>Vergileri dağıtma
-------------------
+## <a name="distributing-taxes"></a>Vergileri dağıtma
 
 Vergiler için muhasebe dağılımları, vergiler hesaplanana dek oluşturulamaz. Satış vergilerini hesaplamak için Satıcı faturası sayfasında aşağıdaki görevleri tamamlamanız gerekir:
 -   Fatura toplamını görüntüleyin.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831254"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189956"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831254"
 Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için nasıl kullanılacağını açıklar.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Çekme kanbanı kullanan malzeme stok yenileme için iş akışı
--------------------------------------------------------------------
 
 Çekme kanbanı, malzemenin tüketildiği tek bir öğenin kanbanını ambarlar ve üretim konumları arasında taşımak için kullanılabilir. Çekme kanbanı, malzeme stok yenileme için belirli bir talep için tedariki tetiklemek üzere bir çekme sinyalinin gerekli olduğu, çekmeye dayalı bir çözüm sunmaktadır. 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941121"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219799"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Supply Chain Management ve Field Service arasında tedariki tümleştirme
 
@@ -196,23 +196,10 @@ Tedarikle ilgili belgelerin tümleştirilmesi için aşağıdaki belgeler kullan
 
 | Supply Chain Management | Field Service | Tanım |
 |---|---|---|
-| Satınalma siparişi başlığı V2 | msdyn\_Purchaseorders | Bu tablo, satınalma siparişi başlığını temsil eden sütunları içerir. |
-| Satınalma siparişi satırı varlığı | msdyn\_PurchaseOrderProducts | Bu tablo, satınalma siparişindeki satırları temsil eden satırları içerir. Ürün numarası eşitleme için kullanılır. Bu, ürün boyutları dahil olmak üzere ürünü stok tutma birimi (SKU) olarak tanımlar. Dataverse ile ürün tümleştirmesi hakkında daha fazla bilgi için bkz. [Tümleşik ürün deneyimi](product-mapping.md). |
-| Ürün girişi başlığı | msdyn\_purchaseorderreceipts | Bu tablo, ürün girişi Supply Chain Management'ta nakledildiğinde oluşturulan ürün girişi başlıklarını içerir. |
-| Ürün girişi satırı | msdyn\_purchaseorderreceiptproducts | Bu tablo, ürün girişi Supply Chain Management'ta nakledildiğinde oluşturulan ürün girişi satırlarını içerir. |
-| Satın alma sipariş satırı geçici silinen varlığı | msdyn\_purchaseorderproducts | Bu tablo, geçici olarak silinen satınalma siparişi satırları hakkında bilgi içerir. Supply Chain Management'taki bir satınalma siparişi satırı, yalnızca satınalma siparişinin teyit edildiği veya onaylandığı durumlarda değişiklik yönetimin açık olması koşuluyla geçici olarak silinebilir. Satır, Supply Chain Management veritabanında mevcuttur ve **IsDeleted** olarak işaretlidir. Dataverse'te geçici silme kavramı bulunmadığından bu bilgilerin Dataverse ile eşitlenmesi önemlidir. Bu şekilde, Supply Chain Management'ta geçici olarak silinen satırlar Dataverse'ten de otomatik olarak silinebilir. Bu durumda, Dataverse'de bir satırı silme mantığı Supply Chain Management Extended'da bulunur. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Satınalma siparişi başlığı V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Bu tablo, satınalma siparişi başlığını temsil eden sütunları içerir. |
+| [Satınalma siparişi satırı varlığı](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Bu tablo, satınalma siparişindeki satırları temsil eden satırları içerir. Ürün numarası eşitleme için kullanılır. Bu, ürün boyutları dahil olmak üzere ürünü stok tutma birimi (SKU) olarak tanımlar. Dataverse ile ürün tümleştirmesi hakkında daha fazla bilgi için bkz. [Tümleşik ürün deneyimi](product-mapping.md). |
+| [Ürün girişi başlığı](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Bu tablo, ürün girişi Supply Chain Management'ta nakledildiğinde oluşturulan ürün girişi başlıklarını içerir. |
+| [Ürün girişi satırı](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Bu tablo, ürün girişi Supply Chain Management'ta nakledildiğinde oluşturulan ürün girişi satırlarını içerir. |
+| [Satın alma sipariş satırı geçici silinen varlığı](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Bu tablo, geçici olarak silinen satınalma siparişi satırları hakkında bilgi içerir. Supply Chain Management'taki bir satınalma siparişi satırı, yalnızca satınalma siparişinin teyit edildiği veya onaylandığı durumlarda değişiklik yönetimin açık olması koşuluyla geçici olarak silinebilir. Satır, Supply Chain Management veritabanında mevcuttur ve **IsDeleted** olarak işaretlidir. Dataverse'te geçici silme kavramı bulunmadığından bu bilgilerin Dataverse ile eşitlenmesi önemlidir. Bu şekilde, Supply Chain Management'ta geçici olarak silinen satırlar Dataverse'ten de otomatik olarak silinebilir. Bu durumda, Dataverse'de bir satırı silme mantığı Supply Chain Management Extended'da bulunur. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

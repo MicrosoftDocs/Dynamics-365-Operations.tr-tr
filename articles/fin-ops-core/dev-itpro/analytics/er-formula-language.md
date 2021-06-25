@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753276"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223998"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronik raporlamada formül dili
 
@@ -38,13 +38,13 @@ ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:
 - [Yollar](#Paths)
 - [İşlevler](#Functions)
 
-## <a name=""></a><a name="Constants">Sabitler</a>
+## <a name="constants"></a><a name="Constants"></a>Sabitler
 
 İfadeleri tasarlarken metin ve sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin `VALUE ("100") + 20` ifadesi, sayısal sabit **20** ve dize sabiti **"100"** kullanır ve **120** sayısal değerini döndürür.
 
 ER formül tasarımcısı kaçış sıralarını destekler. Bu nedenle, farklı şekilde ele alınması gereken bir ifade dizesi belirtebilirsiniz. Örneğin, `"Leo Tolstoy ""War and Peace"" Volume 1"` deyimi, **Leo Tolstoy "Savaş ve barış" 1. Cilt** metin dizesini döndürür.
 
-## <a name=""></a><a name="Operators">İşleçler</a>
+## <a name="operators"></a><a name="Operators"></a>İşleçler
 
 Aşağıdaki tablo, toplama, çıkarma, bölme ve çarpma gibi temel matematik işlemleri gerçekleştirmek için kullanabileceğiniz aritmetik işleçleri gösterir.
 
@@ -88,9 +88,9 @@ Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önem
 
 Bir ifadenin aynı önceliğe sahip birden çok işleç içeriyorsa, bu işleçler soldan sağa doğru değerlendirilir. Örneğin, `1 + 6 / 2 \* 3 > 5` ifadesi, **doğru** sonucunu verir. Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin ifadedeki arzu edilen işlem sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.
 
-## <a name=""></a><a name="References">Referanslar</a>
+## <a name="references"></a><a name="References"></a>Referanslar
 
-Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler. Geçerli ER bileşeni, bir model eşleme veya bir biçim olabilir. Örneğin, mevcut ER model eşlemesi, *DateTime* veri türünün değerini döndüren **ReportingDate** veri kaynağını içerir. Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler. Geçerli ER bileşeni, bir model eşleme veya bir biçim olabilir. Örneğin, mevcut ER model eşlemesi, [*DateTime*](er-formula-supported-data-types-primitive.md#datetime) veri türünün değerini döndüren **ReportingDate** veri kaynağını içerir. Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Referansta bulunan veri kaynağının adında yer alan ve alfabedeki bir harfi temsil etmeyen tüm karakterlerin önünde tek bir tırnak işareti (') olmalıdır. Referans gösterilen veri kaynağı adı alfabede temsil edilmeyen en az bir simgeyi içeriyorsa, adın tekli tırnak işaretleri içerisine alınması gerekir. Örneğin, alfabetik olmayan simgeler noktalama işaretleri veya diğer yazılı simgeleri olabilir. Burada bazı örnekler verilmiştir:
 
@@ -99,7 +99,7 @@ Referansta bulunan veri kaynağının adında yer alan ve alfabedeki bir harfi t
 
 Uygulama veri kaynaklarının yöntemlerinde parametreler varsa, yöntemleri çağırmak için aşağıdaki sözdizimi kullanılır:
 
-- **Sistem** veri kaynağının **isLanguageRTL** yönteminde *Dize* veri türünün **EN-US** parametresi varsa, bu yönteme bir ER deyiminde `System.isLanguageRTL("EN-US")` olarak referans verilmelidir.
+- **Sistem** veri kaynağının **isLanguageRTL** yönteminde [*Dize*](er-formula-supported-data-types-primitive.md#string) veri türünün **EN-US** parametresi varsa, bu yönteme bir ER deyiminde `System.isLanguageRTL("EN-US")` olarak referans verilmelidir.
 - Bir yöntem adı yalnızca alfasayısal simgelerden oluşuyorsa tırnak işaretleri zorunlu değildir. Ancak, bir tablonun bir yönteminin adı köşeli parantez içerdiğinde zorunludur.
 
 **Sistem** veri kaynağı **Global** uygulama sınıfına referansta bulunan bir ER eşlemesine eklendiğinde, `System.isLanguageRTL("EN-US ")` ifade **YANLIŞ** *Boole* değerini döndürür. Değiştirilen ifade `System.isLanguageRTL("AR")`, **DOĞRU** *Boole* değerini döndürür.
@@ -107,9 +107,9 @@ Uygulama veri kaynaklarının yöntemlerinde parametreler varsa, yöntemleri ça
 Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandırabilirsiniz:
 
 - Bu tür yöntemlere yalnızca sabitler geçirilebilir. Sabitlerin değerleri tasarım zamanında tanımlanır.
-- Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir. Temel veri türleri şunlardır: *tamsayı*, *gerçek*, *Boole* ve *dize*.
+- Yalnızca [basit](er-formula-supported-data-types-primitive.md) (temel) veri türleri bu tür parametreler için desteklenir. Temel veri türleri şunlardır: *tamsayı*, *gerçek*, *Boole* ve *dize*.
 
-## <a name=""></a><a name="Paths">Yollar</a>
+## <a name="paths"></a><a name="Paths"></a>Yollar
 
 Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz. Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır. Örneğin, mevcut ER model eşlemesi **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu nedenle, faturalanan tutarı hesaplamak için aşağıdaki ifadeyi tasarlayabilirsiniz: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Bu `InvoiceTransactions.AmountDebit` ifadedeki yapım, *kayıt listesi* türünün **Faturalamaİşlemleri** veri kaynağının **TutarBorç** alanına erişmek için kullanılan yoldur.
 
@@ -129,7 +129,7 @@ Mutlak yolun kalan bölümü de [ER formül düzenleyicisinde](general-electroni
 
 Daha fazla bilgi için bkz. [ER model ve biçimlerinin veri bağlamalarında göreli yol kullanma](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">İşlevler</a>
+## <a name="functions"></a><a name="Functions"></a>İşlevler
 
 ER yerleşik işlevler ER deyimlerinde kullanılabilir. İfade bağlamının tüm veri kaynakları (geçerli ER model eşlemesi ya da ER biçimi ) çağırma işlevlerinin bağımsız değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir. Sabitler çağırma işlevleri parametreleri olarak da kullanılabilir. Örneğin, mevcut ER model eşlemesi **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan şu deyimi tasarlayabilirsiniz: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Elektronik raporlama işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)
 
+[Desteklenen temel veri türleri](er-formula-supported-data-types-primitive.md)
+
+[Desteklenen bileşik veri türleri](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

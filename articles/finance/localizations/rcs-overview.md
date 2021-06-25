@@ -2,7 +2,7 @@
 title: Regulatory Configuration Service
 description: Bu konu, Regulatory Configuration Service (RCS) yeteneklerine genel bakış sağlar ve hizmete nasıl erişebileceğinizi açıklar.
 author: JaneA07
-ms.date: 04/07/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1eeac7217290e0583fcecdf5b4b5b9153d266240
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 7f946988f124c814452e1774c700d5c7354f39b0
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019406"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216574"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -59,9 +59,19 @@ RCS, aşağıdaki bölgelerde genel kullanıma sunulmuştur:
 
 Bölgelerin tam listesi için bkz. [Dynamics 365 ve Power Platform: Kullanılabilirlik, veri konumu, dil ve yerelleştirme](https://aka.ms/dynamics_365_international_availability_deck).
 
+## <a name="rcs-default-company"></a>RCS varsayılan şirket
+
+RCS'de kullanılan tasarım zamanı işlevi tüm şirketler arasında paylaşılır. Şirkete özgü işlevler yoktur. Bu nedenle, RCS ortamınızla bir şirket, **DAT**, kullanmanızı öneririz.
+
+Ancak bazı senaryolarda, ER biçimlerinin belirli bir tüzel kişilikle ilişkili parametreleri kullanmasını isteyebilirsiniz. Yalnızca bu senaryolarda, varsayılan şirket değiştiricisini kullanmalısınız. Örneğin, bkz. [ER biçimini her tüzel kişilik için belirtilen parametreleri kullanmak üzere yapılandırma](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md)
+
 ## <a name="related-rcs-documentation"></a>İlgili RCS belgeleri
 
-İlgili bileşenler hakkında daha fazla bilgi için aşağıdaki belgelere bakın:
+İlgili bileşenler hakkında daha fazla bilgi için aşağıdaki konulara bakın:
+
+- **RCS:**
+
+    - [RCS'de ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme](rcs-global-repo-upload.md)
 
 - **Genel depo:**
 
@@ -70,7 +80,20 @@ Bölgelerin tam listesi için bkz. [Dynamics 365 ve Power Platform: Kullanılabi
     - [Genel depoda gelişmiş filtre uygulama](enhanced-filtering-global-repo.md)
     - [Genel depodan ER yapılandırmalarını indirme](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md)
     - [Genel depodaki yapılandırmaları durdurma](discontinuing-configurations-rcs-global-repo.md)
+    - [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) depolama kullanımdan kalkma](rcs-lcs-repo-dep-faq.md)
 
 - **Genelleştirme özelliği:**
 
     - [Regulatory Configuration Service (RCS) - Genelleştirme özelliği](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-finance/regulatory-configuration-service-simplified-globalization-feature-management-globalization-services)
+
+
+## <a name="troubleshooting-rcs-sign-up"></a>RCS'ye kaydolmayla ilgili sorunları giderme
+
+Hizmet sayfasından RCS'ye kayolduğunuzda Azure Active Directory (Azure AD) ile ilgili bir sorunla karşılaşabilirsiniz. Aldığınız hata iletisi, RCS kaydolma işleminin şu an kapalı olduğunu ve kaydolma işlemini tamamlayabilmeniz için etkinleştirilmesi gerektiğini gösterir.
+
+![RCS kaydolma hata iletisi](media/01_RCSSignUpError.jpg)
+
+Sorun, dinamik aboneliklere kaydolma izniniz olmadığını ve `AllowAdHocSubscriptions` özelliğinin kiracınızda etkin olması gerektiğini gösterir. 
+
+- BT departmanınız, kuruluşunuzun Azure kiracılarını yönetiyorsa sorunu bildirmek için BT departmana başvurun.
+- Azure kiralamalarınızı yönetmekten siz sorumluysanız, [Azure Active Directory için self servis kaydolma nedir](/azure/active-directory/enterprise-users/directory-self-service-signup#how-do-i-control-self-service-settings) bölümündeki adımları izleyerek bu sorunları çözebilirsiniz.

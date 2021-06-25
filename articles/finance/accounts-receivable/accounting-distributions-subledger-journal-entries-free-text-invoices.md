@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837189"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188770"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter girişleri
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837189"
 
 Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Serbest metin faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır.
 
-<a name="accounting-distributions"></a>Muhasebe dağılımları
-------------------------
+## <a name="accounting-distributions"></a>Muhasebe dağılımları
 
 Serbest metin faturası sayfasında aşağıdaki düğmeleri kullanarak serbest metin faturası üzerindeki her bir satır için muhasebe dağılımlarını görüntüleyebilir ve değiştirebilirsiniz
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980962"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184034"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Bulut ve uç ölçek birimleri için ambar yönetimi iş yükleri
 
@@ -289,14 +289,15 @@ Aşağıdaki tablo, ambar yönetimi iş yükleri bulut ve uç ölçek birimlerin
 | İşteki iş havuzunu değiştirme                           | Evet | Evet                          |
 | İşi iptal et                                        | Evet | Evet                          |
 
-
 ### <a name="production"></a>Üretim
 
-Ambar yönetimi üretim senaryoları, aşağıdaki tabloda belirtildiği gibi şu anda ölçek birimi iş yüklerinde desteklenmez.
+Aşağıdaki tablo, ambar yönetimi üretim senaryolarının hangilerinin geçerli ölçek birimi iş yüklerinde desteklendiğini (ve desteklenmediğini) gösterir.
 
 | İşle | Hub | Bir ölçek biriminde WES iş yükü |
 |---------|-----|------------------------------|
-| <p>Üretimle ilgili tüm ambar yönetim süreçleri. Burada bazı örnekler verilmiştir:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>RAF ve yerine konan mamul mallar</li><li>Yerine konan ortak ürün ve yan ürün</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim emrini başlat</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | No |
+| Tamamlandı ve tamalanan ürünler kaldırıldı olarak bildirme | Evet | Evet |
+| Yerine konan ortak ürün ve yan ürün | Evet | Evet |
+| <p>Üretimle ilgili diğer tüm ambar yönetim süreçleri, aşağıdakiler dahil olmak üzere:</p><li>Ambara serbest bırak</li><li>Üretim dalgası işleme</li><li>Hammadde çekme</li><li>Kanban yerine koyma</li><li>Kanban çekme</li><li>Üretim emrini başlat</li><li>Üretim ıskartası</li><li>Üretimdeki son palet</li><li>Malzeme tüketimini kaydet</li><li>Kanban boş</li></ul> | Evet | No |
 
 ## <a name="maintaining-scale-units-for-wes"></a>WES için ölçek birimleri bakımı
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821949"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189033"
 ---
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821949"
 
 Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
 
-<a name="default-balance-sheet-reports"></a>Varsayılan bilanço raporları
------------------------------
+## <a name="default-balance-sheet-reports"></a>Varsayılan bilanço raporları
 
 İki farklı varsayılan bilanço raporu vardır. Bir raporda bölümler üst üste yerleştirilir. Diğer raporda ise bölümler yan yanadır.
 
@@ -68,8 +67,7 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlamaya genel bakış](financial-reporting-getting-started.md)
 

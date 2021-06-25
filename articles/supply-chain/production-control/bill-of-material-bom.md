@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811786"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190124"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Ürün reçeteleri ve formüller
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811786"
 
 Bu konu, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM'lar) ve formüller hakkında bilgi sağlar. BOM'lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir. 
 
-<a name="bills-of-materials"></a>Ürün reçeteleri
-------------------
+## <a name="bills-of-materials"></a>Ürün reçeteleri
 
 Ürün reçetesi (BOM), bir ürünü üretmek için gereken bileşenleri tanımlar. Bileşenler hammadde, yarı mamul ürünler ve malzemeleri olabilir. Bazı durumlarda, bir ürün reçetesinde hizmetlere gönderme yapılabilir. Ancak, ürün reçeteleri genellikle gerekli *malzeme kaynaklarını* açıklar.  
 

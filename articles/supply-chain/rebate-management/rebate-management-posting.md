@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020423"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216755"
 ---
 # <a name="rebate-management-posting-setup"></a>İndirim yönetimi deftere nakil ayarı
 
@@ -43,7 +43,7 @@ Aşağıdaki tabloda, her bir indirim yönetimi deftere nakil profilinin başlı
 | Tanım | Profilin açıklamasını girin. |
 | Modül | Profilin (*müşteri* veya *satıcı*) ilişkilendirildiği indirimlerin ve kâr paylarının türünü seçin. |
 | Türü | Profil türünü seçin (*indirim* veya *kâr payı*). |
-| Ödeme türü | <p>Bu alan, deftere nakledilen indirim çıktısının biçimini belirler.<p><p>**Tür** alanı *indirim* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Yok*: Varsayılan deftere nakil türü yoktur. Bu nedenle, işlem yapılırken türü tanımlamanız gerekir.</li><li>*Borç hesaplarını kullanarak öde*: İndirimi deftere naklettiğinizde, indirim müşterisinde ayarlanan havale satıcısının satıcı faturası oluşturulur.</li><li>*Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Vergi faturası Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir serbest metin faturası oluşturulur.</li><li>*Ticari harcama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li></ul><p>**Tür** alanı *Kâr payı* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Yok*: Varsayılan deftere nakil türü yoktur. Bu nedenle, işlem yapılırken türü tanımlamanız gerekir.</li><li>*Borç hesaplarını kullanarak öde*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li></ul><p>Daha fazla bilgi için, aşağıdaki [Ödeme türleri](#payment-types) bölümüne bakın. |
+| Ödeme türü | <p>Bu alan, deftere nakledilen indirim çıktısının biçimini belirler.<p><p>**Tür** alanı *indirim* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Borç hesaplarını kullanarak öde*: Müşteri indirimini deftere naklettiğinizde, indirim müşterisinde ayarlanan havale satıcısının satıcı faturası oluşturulur. Satıcı indirimini deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li><li>*Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Vergi faturası Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir serbest metin faturası oluşturulur.</li><li>*Ticari harcama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li></ul><p>**Tür** alanı *Kâr payı* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Borç hesaplarını kullanarak öde*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li></ul><p>Daha fazla bilgi için, aşağıdaki [Ödeme türleri](#payment-types) bölümüne bakın. |
 | Şirket | Provizyonun tahakkuk ettirileceği ve talepleri ödeyecek şirketi (tüzel kişilik) seçin. |
 
 ### <a name="payment-types"></a>Ödeme tipleri

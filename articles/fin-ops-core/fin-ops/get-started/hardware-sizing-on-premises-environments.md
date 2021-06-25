@@ -2,7 +2,7 @@
 title: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 description: Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923492"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168741"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
@@ -131,6 +131,8 @@ Bir [boyutlandırma elektronik tablosu](https://adfsdocs.blob.core.windows.net/a
 ## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services
 
 Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir. SSRS düğümünüzü test ederken izleyin ve SSRS tarafından kullanılabilir çekirdeklerin sayısını ihtiyaca göre artırın. Önceden yapılandırılmış bir ikincil düğümün SSRS VM'den farklı bir sanal makinede kullanılabilir olduğundan emin olun. Bu, SSRS'yi barındıran sanal makine veya sanal ana bilgisayarda bir sorun olursa önemlidir. Bu durumda, bunların değiştirilmesi gerekir.
+
+Sürüm 10.0.17'den itibaren, yüksek kullanılabilirlik sağlamak için ek SSRS düğümlerini yapılandırmak mümkündür. Daha fazla bilgi için bkz. [SQL Server Reporting Services (SSRS) düğümleri için yüksek kullanılabilirliği yapılandırma](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Ortam Orchestrator
 

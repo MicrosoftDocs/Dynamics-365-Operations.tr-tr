@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796426"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193167"
 ---
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
@@ -33,7 +33,7 @@ Satış noktasındaki sipariş karşılama işlemi, satış noktasında sipariş
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Satış noktasındaki birleştirilmiş sipariş karşılamaya erişme
 
-Siparişin karşılama, [928 işlem kodu](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
+Siparişin karşılama, [928 işlem kodu](pos-operations.md), satış noktasında mağaza sipariş karşılama çalışma alanına erişmek için kullanılabilir.
 
 Sipariş karşılama işleminin kullanıma hazır kendi izni bulunmamaktadır ancak kullanıcılar gelecekte işlemi satış noktasından çağırmak için **Sipariş almaya izin ver** iznini kullanabilecektir.
 
@@ -93,7 +93,7 @@ Bir sipariş kabul edildikten sonra, satırlar seçilebilir ve **Çekme** olarak
 
 Malzeme çekme listeleri, çalışanların çekme işlemini gerçekleştirmesine yardımcı olmak üzere satış noktasında yazdırılabilir. Yazdırılan bir malzeme çekme listesi çekme işlemini gerçekleştiren çalışanın yanında olabilir ve ürünler çekildikçe çalışan malzeme çekme listesinde ürünleri çekildi olarak işaretleyebilir.
 
-Malzeme çekme listesi biçimi, Commerce'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Malzeme çekme listesi biçimi, Commerce'da yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md).
 
 Satırlar seçilir ve bu satırlar için bir malzeme çekme listesi yazdırılırsa, bunlar otomatik olarak **Çekme** durumuyla güncelleştirilir.
 
@@ -119,7 +119,7 @@ Sipariş satırları sipariş satırı kabul edildikten sonra herhangi bir nokta
 - **Neden olduğu durum:** Paketlendi veya kısmen paketlendi
 - **Neden olduğu arka ofis durumu:** Teslim edildi veya kısmen teslim edildi
 
-Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi, Commerce'de yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Bu eylem satırları paketlendi veya kısmen paketlendi olarak işaretler ve sevk irsaliyesini yazdırır. Bir arada paketlenen ürünleri doğrulamak için bir sevk irsaliyesi yazdırılabilir. Sevk irsaliyesi, Commerce'de yapılandırılıp makbuz profiline eklenir. Makbuz profilleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](receipt-templates-printing.md).
 
 **Eylem: Paketlendi olarak işaretle**
 

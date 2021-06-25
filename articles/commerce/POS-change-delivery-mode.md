@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd69d82536047c06e94ba4a7e860ef54680619a4
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796402"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193143"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>POS'ta teslimat şeklini değiştirme
 
@@ -31,7 +31,7 @@ Dynamics 365 Commerce 10.0.10 ve sonraki sürümlerinde, **Teslimat şeklini de�
 
 Teslimat şeklini değiştir özelliği, POS hareketinde bir veya daha fazla sevkiyat yapılandırılmış satış satırı için teslimat şeklini değiştirme seçeneği sunar. Önceki Commerce sürümlerinde, sevkiyat için yapılandırılmış mevcut bir satırda teslimat şeklini değiştirmek istediğinizde, tam **Tümünü sevk et** veya **Seçileni sevk et** yapılandırma akışlarından geçmeniz gerekirdi. Bu işlem zaman alıyordu ve satır için teslimat kaynağında veya teslimat tarihlerinde yanlışlıkla değişikliklere neden olabiliyordu. Yeni işlev, bu satış satırlarındaki teslimat şeklini etkili şekilde güncelleştirmek için alternatif bir yöntem sağlar.
 
-POS düğme kılavuzundaki bir düğmeye işlem ekleme hakkında daha fazla bilgi için bkz. [Satış noktası için ekran düzenleri](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+POS düğme kılavuzundaki bir düğmeye işlem ekleme hakkında daha fazla bilgi için bkz. [Satış noktası için ekran düzenleri](pos-screen-layouts.md).
 
 Bu özellik POS'ta yapılandırıldıktan sonra,**Teslimat şeklini değiştir**'i seçtiğinizde, teslimat şeklini değiştirmek istediğiniz hareketin satırlarını seçmenize olanak sağlayan bir liste sayfası görüntülenir. Satırların bazılarını veya tümünü seçebilir veya herhangi bir değişiklik yapmadan çıkabilirsiniz. Daha önce sevkiyat için yapılandırılmış olan satış satırları, listede değiştirebileceğiniz tek satırlardır. Malzeme çekme veya teslim alma için belirlenmiş bir satırı sevk edilmek üzere değiştirmek istiyorsanız, **Tümünü sevk et** veya **Seçileni sevk et** işlemlerini kullanmanız gerekir. Buna karşılık, sevkiyat olarak belirlenmiş bir satırı malzeme çekme veya teslim alma olarak değiştirmek istiyorsanız **Tümünü çek**, **Seçileni çek**, **Tümünü teslim al** veya **Seçileni teslim al** işlemlerini kullanmanız gerekir.
 

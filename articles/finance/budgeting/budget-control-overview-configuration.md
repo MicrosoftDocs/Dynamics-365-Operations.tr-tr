@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959981"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188057"
 ---
 # <a name="budget-control-overview"></a>Bütçe denetimine genel bakış
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959981"
 
 Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 
-<a name="overview"></a>Genel bakış
---------
+## <a name="overview"></a>Genel bakış
 
 Bütçe kontrolü bir kuruluşun mali kaynaklarının hesap planları, iş akışları, kullanıcı grupları, kaynak belgeleri ve günlükleri, kullanılabilir fonların yapılandırılabilir hesabı, bütçe döngüleri ve eşikler üzerinden yönetimini desteklemektedir. Denetimler oluşturulduktan sonra bir organizasyon mali yıl boyunca mali kaynaklarını planlayabilir, ölçebilir, yönetebilir ve kestirebilir. 
 
