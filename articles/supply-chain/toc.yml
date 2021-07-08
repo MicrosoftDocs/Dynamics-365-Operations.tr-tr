@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (Nisan 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Finance and Operations mobil uygulaması için maliyet kontrolü çalışma alanını kullanma
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Genel Stok Muhasebesi
+          items:
+            - name: Genel Stok Muhasebesi giriş sayfası
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Genel Stok Muhasebesi'ni kullanmaya başlama
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Genel Stok Muhasebesi tarafından desteklenen iş belgeleri
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Genel Stok Muhasebesi için Power BI'yı etkinleştirme
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Kurallar
+              href: global-inventory-accounting/conventions.md
+            - name: Genel Stok Muhasebesi kayıt defteri
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Maliyet yönetimi
           items:
             - name: Maliyet yönetimi giriş sayfası
@@ -873,6 +885,12 @@
               items:
                 - name: Formül dili
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: ER formülleri için desteklenen veri türleri
+                  items:
+                    - name: Temel veri türleri
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Bileşik veri türleri
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: İşlevler
                   items:
                     - name: Konteyner
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Özel hedef fabrikası için ER hedefi oluşturmayı devretme
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Kaynak kodundan KULLANICI GİRİŞ PARAMETRESİ türünün veri kaynağı değerlerini başlatma
+                - name: Oluşturulan belgeler için özel hedef uygulama
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Stok yönetimi
           items:
@@ -1593,16 +1615,20 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Güvenlik marjları
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Gecikme toleransı (negatif günler)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Satın alma talepleri
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Üretim planlaması
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Planlama İyileştirmesi ile stok işaretleme
+                - name: Planlama Optimizasyonu ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Belirli ürün yaşam döngüsü durumları olan ürünleri hariç tutma
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Stok yenileme yöntemleri ve miktar değişikliği
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Kapsam zaman dilimleri
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Planlı siparişleri onaylama
@@ -3047,9 +3073,11 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Temel ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Gelen ÖSB'leri v2 veri varlığı aracılığıyla içeri aktarma
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
+                - name: Satın alma siparişini yerine koyma için yerleşim yönergesi ayarlama
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Satınalma siparişleri için iş şablonu ayarlama
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Kısmi yerleşim döngü sayımı işlemini tanımlama
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Döngü sayımı örnek senaryoları
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Ambar yönetimi eldeki stok girişlerini temizleme işi
                       href: warehousing/onhand-cleanup.md
                     - name: Stok günlükleri
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Ambar işi ile ilgili sorunları giderme
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: Ambar uygulaması
+              items:
+                - name: 'Mobil cihazları yükleme, ayarlama ve kullanma'
+                  items:
+                    - name: Warehouse Management mobil uygulamasındaki yenilikler veya değişiklikler
+                      href: warehousing/whats-new-wma.md
+                    - name: Warehouse Management mobil uygulamasını yükleme ve bağlama
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Ambar uygulamasını yükleme ve bağlama
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Warehouse Management mobil uygulamasında kamera kullanarak barkodları tarama
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Warehouse Management mobil uygulamasının bağlantı sorunlarını giderme
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Mobil cihazlar için alanları ve menüleri ayarlama
+                  items:
+                    - name: Warehouse Management mobil uygulaması için alanları yapılandırma
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Ambar işi için mobil cihazları ayarlama
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Malzeme çekme satırına genel bakış sağlamak için mobil cihaz menü öğesi ayarlama
+                      href: warehousing/pick-line-overview.md
+                    - name: Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Mobil cihazda karma plakayı alma
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Bir mobil cihazda en eski toplu işi seçme
+                      href: warehousing/pick-oldest-batch.md
+                - name: Mobil cihaz kullanıcı ayarları
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Ambar uygulaması olayı işleme
+                  href: warehousing/warehouse-app-events.md
+                - name: Ambar uygulamasını özelleştirme
+                  items:
+                    - name: Kılavuz çerçevesini işleme
+                      href: warehousing/process-guide-framework.md
+                    - name: Adım simgeleri ve başlıkları atama
+                      href: warehousing/step-icons-titles.md
             - name: Ambar kurulumu
               items:
                 - name: Ambar yapılandırması
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Dalga etiketi yazdırma
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Dalga sırasında dalga etiketi yazdırmayı zamanlama
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Konteyner kullanımı
                           href: warehousing/wave-containerization.md
+                        - name: Konteyner ambalaj stratejileri
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Sevkiyatları otomatik güncelleştirme
                       href: warehousing/auto-update-shipment.md
                     - name: Yerleşim profili oluşturma
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Ambar yapılandırması ile ilgili sorunları giderme
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Ambar Yönetimi mobil uygulamasını yükleme ve yapılandırma
-                  items:
-                    - name: Ambar Yönetimi mobil uygulamasını yükleme ve bağlama
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Mobil cihaz kullanıcı ayarları
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Ambar uygulamasını yükleme ve bağlama
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Ambar Yönetimi mobil uygulamasında kamera kullanarak barkodları tarama
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Warehouse Management mobil uygulaması için alanları yapılandırma
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Ambar işi için mobil cihazları ayarlama
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Adım simgeleri ve başlıkları atama
-                      href: warehousing/step-icons-titles.md
-                    - name: Ambar uygulaması olayı işleme
-                      href: warehousing/warehouse-app-events.md
-                    - name: Warehouse Management mobil uygulaması aracılığıyla plaka teslim alma
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Satınalma siparişindeki işin tamamlanması için bir mobil cihaz menü öğesi ayarlama
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Malzeme çekme satırına genel bakış sağlamak için mobil cihaz menü öğesi ayarlama
-                      href: warehousing/pick-line-overview.md
-                    - name: Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Mobil cihazda karma plakayı alma
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Bir mobil cihazda en eski toplu işi seçme
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Kılavuz çerçevesini işleme
-                      href: warehousing/process-guide-framework.md
-                    - name: Ambar Yönetimi mobil uygulamasının bağlantı sorunlarını giderme
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Yükseltme ve geçiş
                   items:
                     - name: Ambar yönetimi işlemlerini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Master planlama
               items:
+                - name: Yerleşik master planlama altyapısını çalıştırırken hata alıyorsunuz
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Madde alanı ürün reçetesi veya formül içeremez
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Master plan için parametre yok
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: Planlı üretim emrinin kesinleştirilmeden önce zamanlanması gerekir
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: 'Ürün, hareketler için beklemede'
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: 'Seçili formül numarası, bir toplu iş emri için onaylanmamış.'
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Satıcı kodu belirli bir ürün ve tarih için yetkilendirilmemiş
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Planlı siparişler kesinleştirilirken satıcı belirtilmemiş
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: 'Doğrudan türetilen kesinleştirilmiş siparişler, incelemedeki bir iş akışı tarafından işleniyor'
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Master planlama maddelerini ilgili karşılama grubu değerlerine göre filtreleyemezsiniz
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Ambar yönetimi
               items:
+                - name: İptal edilen ürün girişleri hareket durumunu kaydedilmiş olarak güncelleştirmiyor
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: Fiziksel güncelleştirme miktarının ondalık yuvarlaması yanlış
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Birim cinsinden kalan fiziksel miktar sıfırdan farklı olmalıdır
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: Sevk irsaliyesi oluşturma sırasında çekilen miktar yeterli değil
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: Sevk irsaliyesi oluşturma sırasında miktar fazla teslimat yüzdesini aşıyor
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'Güncelleştirmeye çalıştığınız miktar, alınan/teslim edilen miktarı aşıyor'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: 'Sevk irsaliyesi oluşturma sırasında miktar, eksik teslimat yüzdesini aşıyor'
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Malzeme çekme listesi kaydı sırasında konum seçilirken bir hata oluşuyor
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: Ambalaj istasyonunda ürün notları görüntülenmiyor

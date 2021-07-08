@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (Mayıs 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (Nisan 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler
                   items:
                     - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Dynamics 365 Commerce bileşen sürümü oluşturma gereksinimleri
                   href: arch-component-versioning.md
-                - name: Gözetimsiz ticari altyapı mimarisi
+                - name: Gözetimsiz ticari mimari
                   href: dev-itpro/retail-server-architecture.md
                 - name: Mağaza içi topoloji seçme
                   href: dev-itpro/retail-in-store-topology.md
@@ -1218,7 +1216,7 @@
               href: store-performance-information.md
             - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
               href: set-up-rfm-analysis.md
-            - name: Dynamics 365 Commerce'de Microsoft Clarity'i ayarlama
+            - name: Dynamics 365 Commerce'te Microsoft Clarity'i ayarlama
               href: set-up-clarity.md
         - name: Globalleştirme
           items:
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Brezilya için Commerce yerelleştirmesini ayarlama ve dağıtma
                   href: localizations/latam-bra-deployment.md
+                - name: Brezilya için Commerce POS'ta NF-e mali belge işlevleri
+                  href: localizations/latam-bra-nfce.md
+                - name: Brezilya için POS'ta müşteri bilgilerini yönetme
+                  href: localizations/latam-bra-customer-information.md
+                - name: Brezilya için Commerce POS'ta NFC-e belgelerinin iptali ve iadesi
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: Çevrimdışı yedek modunda düzenlenen NFC-e belgelerinin ertelenen kaydı
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Brezilya mali belgelerini Commerce genel merkezinde perakende ekstreleri aracılığıyla yayınlama
+                  href: localizations/latam-bra-retail-statements.md
             - name: Doğu Avrupa
               items:
                 - name: Ortak
@@ -1458,6 +1466,12 @@
               items:
                 - name: Formül dili
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: ER formülleri için desteklenen veri türleri
+                  items:
+                    - name: Temel veri türleri
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bileşik veri türleri
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: İşlevler
                   items:
                     - name: Konteyner
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Uygulama güncelleştirmesi 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Uygulama güncelleştirmesi 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Oluşturulan belgeler için özel depolama konumu belirtme
                   items:
                     - name: Abone olma işleyicisinden yanıt istemek için bir olaya abone olma
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Özel hedef fabrikası için ER hedefi oluşturmayı devretme
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Kaynak kodundan KULLANICI GİRİŞ PARAMETRESİ türünün veri kaynağı değerlerini başlatma
+                - name: Oluşturulan belgeler için özel hedef uygulama
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: Kaynak kodundan USER INPUT PARAMETER türünün veri kaynağı değerlerini başlatma
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: Finance and Operations (Dynamics 365) mobil uygulaması
           items:

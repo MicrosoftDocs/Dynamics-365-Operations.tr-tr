@@ -15,39 +15,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057370"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303256"
 ---
-# <a name="manage-leave-and-absence-requests"></a><span data-ttu-id="01c80-103">İzin ve devamsızlık isteklerini yönetme</span><span class="sxs-lookup"><span data-stu-id="01c80-103">Manage leave and absence requests</span></span>
+# <a name="manage-leave-and-absence-requests"></a><span data-ttu-id="01098-103">İzin ve devamsızlık isteklerini yönetme</span><span class="sxs-lookup"><span data-stu-id="01098-103">Manage leave and absence requests</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="01c80-104">Dynamics 365 Human Resources'ta **Çalışan self servis** çalışma alanındaki zaman aşımı isteklerini yönetin.</span><span class="sxs-lookup"><span data-stu-id="01c80-104">Manage time-off requests from the **Employee self-service** workspace in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="01c80-105">İstekler basit bir tek günlük istek veya çoklu izin ve devamsızlık türlerini içeren çoklu gün isteklerinden oluşabilir.</span><span class="sxs-lookup"><span data-stu-id="01c80-105">Requests might be simple single-day requests or multiple-day requests that include multiple leave and absence types.</span></span> <span data-ttu-id="01c80-106">Bir iş akışı etkinleştirilmemişse, istekler otomatik olarak onaylanır.</span><span class="sxs-lookup"><span data-stu-id="01c80-106">If a workflow isn't enabled, the requests are automatically approved.</span></span> <span data-ttu-id="01c80-107">Bir iş akışı etkinleştirilmişse, iş akışının yapılandırmasına bağlı olarak onay otomatik olabilir veya onay gerektirebilir.</span><span class="sxs-lookup"><span data-stu-id="01c80-107">When a workflow is enabled, the approval can be automatic or require sign-off, depending on the workflow configuration.</span></span>
+<span data-ttu-id="01098-104">Dynamics 365 Human Resources'ta **Çalışan self servis** çalışma alanındaki zaman aşımı isteklerini yönetin.</span><span class="sxs-lookup"><span data-stu-id="01098-104">Manage time-off requests from the **Employee self-service** workspace in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="01098-105">İstekler basit bir tek günlük istek veya çoklu izin ve devamsızlık türlerini içeren çoklu gün isteklerinden oluşabilir.</span><span class="sxs-lookup"><span data-stu-id="01098-105">Requests might be simple single-day requests or multiple-day requests that include multiple leave and absence types.</span></span> <span data-ttu-id="01098-106">Bir iş akışı etkinleştirilmemişse, istekler otomatik olarak onaylanır.</span><span class="sxs-lookup"><span data-stu-id="01098-106">If a workflow isn't enabled, the requests are automatically approved.</span></span> <span data-ttu-id="01098-107">Bir iş akışı etkinleştirilmişse, iş akışının yapılandırmasına bağlı olarak onay otomatik olabilir veya onay gerektirebilir.</span><span class="sxs-lookup"><span data-stu-id="01098-107">When a workflow is enabled, the approval can be automatic or require sign-off, depending on the workflow configuration.</span></span>
 
-1. <span data-ttu-id="01c80-108">**Personel self servisi** çalışma alanında **Takımım**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="01c80-108">In the **Employee self-service** workspace, select **My team**.</span></span>
+1. <span data-ttu-id="01098-108">**Personel self servisi** çalışma alanında **Takımım**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="01098-108">In the **Employee self-service** workspace, select **My team**.</span></span>
 
-2. <span data-ttu-id="01c80-109">**Ekip bilgilerim** altında, **İzin ve devamsızlık** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="01c80-109">Under **My team information**, select the **Leave and absence** tab.</span></span>
+2. <span data-ttu-id="01098-109">**Ekip bilgilerim** altında, **İzin ve devamsızlık** sekmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="01098-109">Under **My team information**, select the **Leave and absence** tab.</span></span>
 
-3. <span data-ttu-id="01c80-110">Ekip üyelerinizin süre kapama isteklerinizi gerektiği gibi görüntüleyin ve onaylayın.</span><span class="sxs-lookup"><span data-stu-id="01c80-110">View and approve your team members' time-off requests as necessary.</span></span>
+3. <span data-ttu-id="01098-110">Ekip üyelerinizin süre kapama isteklerinizi gerektiği gibi görüntüleyin ve onaylayın.</span><span class="sxs-lookup"><span data-stu-id="01098-110">View and approve your team members' time-off requests as necessary.</span></span>
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a><span data-ttu-id="01c80-111">(Önizleme) İzin isteği iş akışı deneyimi geliştirmeleri</span><span class="sxs-lookup"><span data-stu-id="01c80-111">(Preview) Leave request workflow experience enhancements</span></span>
+## <a name="leave-request-workflow-experience-enhancements"></a><span data-ttu-id="01098-111">İzin isteği iş akışı deneyimi geliştirmeleri</span><span class="sxs-lookup"><span data-stu-id="01098-111">Leave request workflow experience enhancements</span></span>
 
-[!include [Preview feature](includes/preview-feature.md)]
+<span data-ttu-id="01098-112">Bu özellik aşağıdaki geliştirmeleri sağlar:</span><span class="sxs-lookup"><span data-stu-id="01098-112">This feature provides the following enhancements:</span></span>
 
-<span data-ttu-id="01c80-112">Bu önizleme özelliği aşağıdaki geliştirmeleri sağlar:</span><span class="sxs-lookup"><span data-stu-id="01c80-112">This preview feature provides the following enhancements:</span></span>
-
-- <span data-ttu-id="01c80-113">Birden fazla izin isteği seçebilir ve bunların tümünde aynı eylemi gerçekleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="01c80-113">You can select multiple leave requests and perform the same action on all of them.</span></span>
-- <span data-ttu-id="01c80-114">Üstteki şerit ve sayfadaki yeni bir iş akışı düğmesi, izin isteklerinde gerçekleştirebileceğiniz eylemleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="01c80-114">The ribbon across the top and a new workflow button on the page show the actions you can take on leave requests.</span></span>
+- <span data-ttu-id="01098-113">Birden fazla izin isteği seçebilir ve bunların tümünde aynı eylemi gerçekleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="01098-113">You can select multiple leave requests and perform the same action on all of them.</span></span>
+- <span data-ttu-id="01098-114">Üstteki şerit ve sayfadaki yeni bir iş akışı düğmesi, izin isteklerinde gerçekleştirebileceğiniz eylemleri gösterir.</span><span class="sxs-lookup"><span data-stu-id="01098-114">The ribbon across the top and a new workflow button on the page show the actions you can take on leave requests.</span></span>
 
 ![Yönetici deneyimi](media/hr-leave-and-absence-manager-experience.png)
 
-## <a name="see-also"></a><span data-ttu-id="01c80-116">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="01c80-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="01098-116">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="01098-116">See also</span></span>
 
-- [<span data-ttu-id="01c80-117">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="01c80-117">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
-- [<span data-ttu-id="01c80-118">İzin ve devamsızlık planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="01c80-118">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
+- [<span data-ttu-id="01098-117">İzin ve devamsızlığa genel bakış</span><span class="sxs-lookup"><span data-stu-id="01098-117">Leave and absence overview</span></span>](hr-leave-and-absence-overview.md)
+- [<span data-ttu-id="01098-118">İzin ve devamsızlık planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="01098-118">Create a leave and absence plan</span></span>](hr-leave-and-absence-plans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
