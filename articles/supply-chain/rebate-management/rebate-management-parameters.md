@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: cf009e32f8c137e235793d80bf8448a5f55988bd
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dc41df33d01c3c8523afb6d8f16bfec88e0c42b8
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020447"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271041"
 ---
 # <a name="rebate-management-parameters"></a>İndirim yönetimi parametreleri
 
@@ -27,7 +27,7 @@ ms.locfileid: "6020447"
 
 **İndirim yönetimi parametreleri** sayfası, **indirim yönetimi** modülü üzerinden uygulanan ayarları tanımlamak için kullanılır. Bu ayarlar deftere nakli, durum güncelleştirmelerini, numara serilerini ve diğer davranışı etkileyen ayarlar içerir. Bu sayfadaki kurulum yasal varlıklar genelinde paylaşılır ve uygun güvenlik izinlerine sahip kullanıcılar tarafından değiştirilebilir.
 
-**İndirim yönetimi parametreleri** sayfasını açmak için **indirimler ve kesintiler \> Kurulum \> indirim yönetimi parametrelerine** gidin. Ardından, aşağıdaki alt bölümlerde açıklanan alanları ayarlayın.
+**İndirim yönetimi parametreleri** sayfasını açmak için **İndirim yönetimi \> Kurulum \> indirim yönetimi parametrelerine** gidin. Ardından, aşağıdaki alt bölümlerde açıklanan alanları ayarlayın.
 
 ## <a name="rebate-management-tab"></a>İndirim yönetimi sekmesi
 
@@ -36,12 +36,12 @@ Aşağıdaki tablo, **İndirim yönetimi parametreleri** sayfasının **İndirim
 | Alan | Tanım |
 |---|---|
 | Varsayılan durum | Tüm yeni anlaşmalar için varsayılan durumu seçin. Seçim için kullanılabilen durum değerleri kümesini tanımlamak için [**indirim durumları** sayfasını kullanın](rebate-statuses.md). |
-| Boyuta göre işleme | Provizyon, indirim ve gider yazma işlemlerinin mali boyut tarafından işlenip işlenmeyeceğini seçin. Bu seçenek etkinleştirildiğinde, sistem kaynak işlemleri için finansal boyutları kullanır. |
+| Boyuta göre işleme | Provizyon, indirim ve gider yazma işlemlerinin mali boyut tarafından işlenip işlenmeyeceğini seçin. Bu seçenek etkinleştirildiğinde, sistem hedef hareketlerdeki kaynak hareketlerdeki finansal boyutları kullanır. |
 | Daha önce nakledilip nakledilmediğini denetle | <p>Deftere nakledilmemiş indirim işlemleri aynı dönem için birden fazla kez işlenirse sistem davranışını seçin:</p><ul><li>**Uyarı**: Sistem, kullanıcıların orijinal işlem satırlarını geçersiz kılmasına izin verir, ancak bir uyarı görüntülenir.</li><li>**Hata**: Sistem kullanıcıların özgün işlem satırlarını geçersiz kılmasını engeller ve bir hata mesajı gösterilir. |
 | Günlükleri otomatik olarak deftere naklet | Sistemin önerilen günlükleri otomatik olarak deftere nakletmesi gerekip gerekmeyeceğini seçin. Bu Günlükler, provizyonlar ve müşteri kesintileri için kullanılan günlük defterleri ve ayrıca satıcı vergi fatura günlüklerini içerir. |
 | Serbest metin faturalarını otomatik olarak nakletme | Sistemin serbest metin faturalarını otomatik olarak deftere nakletmesi gerekip gerekmeyeceğini seçin. Bu seçenek yalnızca ödeme türü *vergi fatura müşteri kesintileri* olarak ayarlanan serbest metin faturalarına uygulanır. |
-| İndirim maddesi sipariş referansı | İndirim işleminden oluşturulan satış ve satın alma siparişlerinde (*hiçbiri*, *indirim ve kesinti anlaşması*, *indirim ve kesinti numarası*, *indirim işlem numarası* veya *belge notları*) kullanılacak indirim başvurusunu seçin. |
-| Talep işlemini kullan | <p>Talepler işlemini kullanmak için bu seçeneği *Evet* olarak ayarlayın. Bu şekilde, indirim yönetiminin talep edilen veya talep edilmemiş olarak oluşturduğu işlemleri işaretleyebilir ve sonra yalnızca talep edilen işlemleri deftere nakledebilirsiniz.</p><p>Örneğin, bir aylık işlemlere ilişkin indirimleri hesaplıyorsunuz ancak müşteri iki günü talep etmemiş. Bu durumda, *işle* işlevini aynı dönem için bir sonraki çalıştırmanızda talep edilmemiş işlemler yeniden oluşturulur.</p><p>Bu seçeneği *Hayır* olarak ayarlarsanız, tüm talep işlemleri nakledilir.</p> |
+| İndirim maddesi sipariş referansı | İndirim işleminden oluşturulan satış siparişlerinde ve satın alma siparişlerinde (*hiçbiri*, *indirim yönetimi anlaşması*, *indirim yönetimi numarası*, *indirim hareket numarası* veya *belge notları*) kullanılacak indirim başvurusunu seçin. |
+| Talep işlemini kullan | <p>Talepler işlemini kullanmak için bu seçeneği *Evet* olarak ayarlayın. Bu şekilde, indirim yönetiminin talep edilen veya talep edilmemiş olarak oluşturduğu işlemleri işaretleyebilir ve sonra yalnızca talep edilen işlemleri deftere nakledebilirsiniz.</p><p>Örneğin, bir aylık işlemlere ilişkin indirimleri hesaplıyorsunuz ancak müşteri iki günü talep etmemiş. Bu durumda, *işle* işlevini sonraki dönem için bir sonraki çalıştırmanızda talep edilmemiş işlemler yeniden oluşturulur.</p><p>Bu seçeneği *Hayır* olarak ayarlarsanız, tüm talep işlemleri nakledilir.</p> |
 | Sipariş türü günlüğünü dahil et | İşlem türünün *Sipariş* olarak ayarlandığı anlaşmalar veya anlaşma satırları için Bu seçenek, *günlük* türünde bir satış siparişinin dahil edilip edilmeyeceğini denetler. Bir indirimin henüz uygulamamış olduğu senaryolarda bu tip siparişler kullanılıyorsa esneklik sağlar. |
 
 ## <a name="number-sequences-tab"></a>Numara serileri sekmesi
@@ -50,8 +50,8 @@ Aşağıdaki tablo, **İndirim yönetimi parametreleri** sayfasının **İndirim
 
 | Referans | Tanım |
 |---|---|
-| İndirim ve kesintiler anlaşması | Numara serisi, her indirim anlaşması için benzersiz bir anahtar değeri atar. Bu anahtar, anlaşmalar oluşturulduğunda kullanılır. |
-| İndirim ve kesintiler numarası | Numara serisi, her indirim için benzersiz bir anahtar değeri atar. Bu anahtar indirim ilişkilerini tanımlamak için kullanılır. |
+| İndirim yönetimi anlaşması | Numara serisi, her indirim anlaşması için benzersiz bir anahtar değeri atar. Bu anahtar, anlaşmalar oluşturulduğunda kullanılır. |
+| İndirim yönetimi numarası | Numara serisi, her indirim için benzersiz bir anahtar değeri atar. Bu anahtar indirim ilişkilerini tanımlamak için kullanılır. |
 | İndirim işlem Numarası | Numara serisi, her indirim işlemi için benzersiz bir anahtar değeri atar. Bu anahtar indirim işlemlerini tanımlamak için kullanılır. |
 | Vergi faturası | Numara serisi, her indirim faturası için benzersiz bir anahtar değeri atar. Bu anahtar, indirim günlükleri otomatik olarak deftere nakledildiğinde kullanılır. |
 

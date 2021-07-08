@@ -2,7 +2,7 @@
 title: Oranları yapılandırma
 description: Microsoft Dynamics 365 Human Resources'ta oranlar bir kazanç için katkıda bulunan ne kadar işveren ve çalışanların olduğunu tanımlar.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054992"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266669"
 ---
 # <a name="configure-rates"></a>Oranları yapılandırma
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Human Resources'ta oranlar bir kazanç için katkıda bul
    | **Bitiş tarihi** | Oranın bitiş tarihi. Varsayılan değer 12/31/2154'dir ve hiçbir zaman bunu belirtir. |
    | **Katmanları kullan** | Kazanç oranı hesaplamasında kullanılacak katman. Bir katman için tek katman kazanç oranı veya iki katmanlı bir kazanç oranı için çift katman. Çift katmanlı bir örnek, cinsiyet ve yaşına dayalı bir katmana örnektir. |
    | **Ödeme sıklığı** | En prim oranının kazanç sağlayıcısına nasıl ödeneceğini belirleyen ödeme sıklığı. Örneğin, ödeme sıklığı aylık ise, kazanç oranı aylık ödeme tutarını gösterir. |
-   | **Ödeme sıklığı oran yuvarlaması** | Hızı yuvarlama yöntemi: Standart veya kesilmiş. |
+   | **Ödeme sıklığı oran yuvarlaması** | Oranı yuvarlama yöntemleri şunlardır: Standart, Kesilmiş, Normal, Aşağı ve Yukarı yuvarlama. </br></br><ul><li>**Standart**: Her zaman yukarı yuvarla. Örneğin, 10,611 10,62'ye yuvarlanır. -10,231, -10,23'e yuvarlanır. </li><li>**Kesilmiş**: Her zaman aşağı yuvarla. Örneğin, 10,619 10,61'e yuvarlanır. -10,231, -10,24'e yuvarlanır. </li><li>**Normal**: 5'te biten veya 5'ten büyük olan ondalık değerler sıfırdan uzağa yuvarlanır. 4 ile biten veya daha az olan ondalık değeri sıfıra yuvarlanır. Örneğin, 10,615 10,62'ye yuvarlanır. -10,235, -10,24'e yuvarlanır. 10,614, 10,61'e yuvarlanır. -10,234, -10,23'e yuvarlanır. </li><li>**Aşağı**: Sıfıra doğru yuvarla. Örneğin, 10,619 10,61'e yuvarlanır. -10,231, -10,23'e yuvarlanır. </li><li>**Yukarı yuvarlama**: Sıfırdan uzağa yuvarla. Örneğin, 10,619 10,62'ye yuvarlanır. -10,231, -10,24'e yuvarlanır. |
    | **Sigara İçmeyen Personel tutarı** | Sigara olmayan çalışan için kazanç sağlayıcısı masrafın tutarı. Bu, işverenin kazanç sağlayıcısına ödediği tutardır ve Kurun oran ayarına göre ödeme sıklığını temel almak zorunda değildir. |
    | **Sigara İçmeyen İşveren tutarı** | Sigara olmayan çalışan için kazanç sağlayıcısı masrafın tutarı. Bu, işverenin kazanç sağlayıcısına ödediği tutardır ve Kurun oran ayarına göre ödeme sıklığını temel almak zorunda değildir. |
    | **Sigara İçen Personel tutarı** | Sigara içen çalışan için kazanç sağlayıcısı masrafın tutarı. Bu, işverenin kazanç sağlayıcısına ödediği tutardır ve Kurun oran ayarına göre ödeme sıklığını temel almak zorunda değildir. |
