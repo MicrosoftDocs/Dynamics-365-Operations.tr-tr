@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059485"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303476"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>İzin ve devamsızlık planlarını tahakkuk et
 
@@ -104,11 +104,9 @@ Belirli bir plan ve tarih aralığı için tahakkuk kayıtlarını silin. Tahakk
 
 2. **İzni yönet** altında, **İzin tahakkuk denetimini sil**'i seçin.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Önizleme) İzin tahakkuku hareketi denetleme
+## <a name="leave-accrual-transaction-auditing"></a>İzin tahakkuku hareketi denetleme
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Bu önizleme özelliği, çıkış ve devamsızlık yöneticilerinin belirli bir izin türü için bir çalışanın dengelemesinin zamanıyla ilgili bırakma ve devamsızlık tahakkuk hareketlerini anlamasına yardımcı olur.
+Bu özellik, çıkış ve devamsızlık yöneticilerinin belirli bir izin türü için bir çalışanın dengelemesinin zamanıyla ilgili bırakma ve devamsızlık tahakkuk hareketlerini anlamasına yardımcı olur.
 
 İşlem Ayrıntılarını görüntülemek için:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 14a32f7fc4608ef8910646f80786a188c46dc89d
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 6360f36b6a3526cdc5680a4059ae1202896986a5
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102626"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301783"
 ---
 # <a name="wave-label-printing"></a>Dalga etiketi yazdırma
 
@@ -933,5 +933,6 @@ Bu sayfaların çoğu için, Eylem bölmesindeki **Sevkiyatlar** sekmesinde yer 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 - [Dalga etiketlerini yeniden yazdırma ve hükümsüz kılma](reprint-and-void-wave-labels.md)
+- [Dalga sırasında dalga etiketi yazdırmayı zamanlama](configure-task-based-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

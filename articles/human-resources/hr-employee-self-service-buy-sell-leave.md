@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052085"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271508"
 ---
 # <a name="buy-and-sell-leave"></a>İzin satın alma ve satma
 
@@ -47,6 +47,12 @@ Bakiyeleriniz otomatik olarak güncelleştirilir veya güncelleştirmeden önce 
 3. İsteğinizi göndermeye hazır olduğunuzda **Gönder**'i seçin.
 
 Bakiyeleriniz otomatik olarak güncelleştirilir veya güncelleştirmeden önce onay işleminden geçer. Bu, satın alma ilkesinin nasıl yapılandırıldığına bağlıdır.
+
+
+## <a name="troubleshooting"></a>Sorun Giderme 
+
+Bir izin satın alma veya satma talebi iş akışı başarısız olursa, **EssLeaveBuySellRequestApprover** ayrıcalığına sahip kullanıcılar, tüm izin satınalma ve satma taleplerini gözden geçirebilir. Bunu yapmak için, **İzin ve devamsızlık > Bağlantı > İzin satın alma ve satma talepleri > İleti günlüğü**'ne (solda üst tarafta) gidin. **İleti günlüğü** kullanıcılara hareketlerin nasıl işlendiğini ve ilişkili iş akışı geçmişini gösterir.
+
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

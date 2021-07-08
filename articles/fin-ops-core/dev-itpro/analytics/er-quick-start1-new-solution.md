@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224046"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304405"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Özel rapor yazdırmak için yeni bir ER çözümü tasarlama
 
@@ -185,7 +185,7 @@ ER yapılandırma sağlayıcıları hakkında daha fazla bilgi için bkz. [Yapı
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Yeni bir veri modeli yapılandırmasını içe aktarma
 
-1. [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
@@ -300,7 +300,7 @@ Elektronik Raporlama Geliştirici rolünde bir kullanıcı olarak, **Soru formu*
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Yeni bir model eşlemesi yapılandırmasını içe aktarma
 
-1. [Questionnaires mapping.version.1.1xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires mapping.version.1.1xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.
@@ -366,7 +366,7 @@ Soru formu ayrıntılarını içeren uygulama tablolarına erişmek için veri k
     2. **Ekle**'yi seçin.
     3. İletişim kutusunda, **Ad** alanına **\$ResultGroup** girin.
     4. **Formül düzenle**’yi seçin.
-    5. [ER formül düzenleyicisinde](general-electronic-reporting-formula-designer.md) **Formül** alanında KMCollection ile KMQuestionResultGroup tabloları arasındaki bir-çok ilişkisinin [yolunu](er-formula-language.md#paths) kullanmak için **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** girin.
+    5. [ER formül düzenleyicisinde](general-electronic-reporting-formula-designer.md) **Formül** alanında KMCollection ile KMQuestionResultGroup tabloları arasındaki bir-çok ilişkisinin [yolunu](er-formula-language.md#Paths) kullanmak için **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** girin.
     6. **Kaydet**'i seçip formül düzenleyicisini kapatın.
     7. Yeni hesaplanan alanı eklemek için **Tamam**'ı seçin.
 
@@ -547,7 +547,7 @@ Bu yapılandırmanın sürüm 1.1 durumu **Taslak** yerine **Tamamlandı** olara
 
 ER çerçevesi, Microsoft Office (Excel çalışma kitapları veya Word belgeleri) biçimlerinde raporlar oluşturmak için önceden tanımlanmış şablonları kullanır. Gerekli rapor oluşturulurken, yapılandırılmış veri akışına göre bir şablon gerekli verilerle doldurulur. Bu nedenle, özel raporunuz için önce bir şablon tasarmalısınız. Bu şablon özel bir raporun düzenini temsil eden yapıdaki bir Excel çalışma kitabı olarak tasarlanmalıdır. Gerekli verilerle doldurmak istediğiniz tüm Excel öğelerini adlandırın.
 
-1. [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. Dosyayı Excel'de açın ve çalışma kitabının yapısını gözden geçirin.
 
 Aşağıdaki çizimin gösterdiği gibi, indirilen şablon, bir soru formunun sorularını uygun yanıtlarla birlikte görüntüleyen belirtilen soru formlarını yazdıracak şekilde tasarlanmıştır.
@@ -572,7 +572,7 @@ Elektronik Raporlama İşlev Danışmanı rolündeki bir kullanıcı olarak, bir
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Tasarlanan biçim yapılandırmasını içe aktarma
 
-1. [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
+1. [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) dosyasını indirin ve yerel bilgisayarınıza kaydedin.
 2. **Organizasyon yönetimi** \> **Çalışma alanları** \> **Elektronik raporlama**'ya gidin.
 3. **Elektronik raporlama** çalışma alanında **Raporlama yapılandırmaları**'nı seçin.
 4. Eylem Bölmesinde, **Exchange** \> **XML dosyasından yükle**'yi seçin.

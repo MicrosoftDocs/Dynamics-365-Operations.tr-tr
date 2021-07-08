@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f586e0f40b5362510333263a985eada39d3c53f5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a0cde0c22b69e7605708a647d47530840ce823b1
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020379"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270945"
 ---
 # <a name="rebate-reduction-principles"></a>İndirim azaltma ilkeleri
 
@@ -45,7 +45,7 @@ Bir maddeyle ilişkilendirilmiş diğer provizyonleri azaltmak ve/veya indirim h
 
 Aşağıdaki tabloda, bazı tipik indirim Azaltma ilkesi kurulumu örnekleri gösterilmiştir. Bu indirim azaltma ilkelerinin her biri için, **Açıklama** alanının değeri indirim azaltma ilkesinin amacını açıklar.
 
-| indirim azaltma ilkesi | Tanım | Azaltmayı uygulama | Azaltma tabanı | Azaltmadan hariç tut |
+| İndirim azaltma ilkesi | Tanım | Azaltmayı uygulama | Azaltma tabanı | Azaltmadan hariç tut |
 |---|---|---|---|---|
 | Ertelenmiş | İndirimi azalt | Evet | İkisi birden | No |
 | Exclreb | İndirimi hariç tut | Evet | İndirim | Evet |

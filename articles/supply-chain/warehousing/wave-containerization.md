@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019063"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292749"
 ---
 # <a name="containerization"></a>Konteyner Kullanımı
 
@@ -108,6 +108,8 @@ Konteyner yapılandırma şablonu ayarlamak için aşağıdaki adımları izleyi
 
       - **Tüm açık konteynerlere paketle**: Sistem tahsisat satırının konteyner kullanımı döngüsünde oluşturulan herhangi bir konteynere sığıp sığmayacağını değerlendirir.
       - **Yalnızca geçerli konteynere paketle**: Sistem yalnızca tahsisat satırının en son oluşturulan konteynere sığıp sığmayacağını değerlendirir.
+
+    Konteyner paketleme stratejileriyle nasıl çalışılacağını gösteren daha fazla bilgi ve örnek için bkz. [Konteyner paketleme stratejileri](container-packing-strategy-overview.md).
 
 1. Konteynerler içindeki paketleme tahsisat satırları için kurallar eklemek için **Karıştırma mantığı aralıkları**'nı seçin. Örneğin, çalışanların aynı konteynerdeki iki farklı madde için tahsisat satırlarına paket oluşturmasını sağlayacak bir kural oluşturabilirsiniz. Karıştırma kuralı oluşturmak için aşağıdaki adımları izleyin:
 

@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908892"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301662"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Talep tahminleri için geçmiş verisini içe aktar
 
@@ -39,26 +39,6 @@ Varlık verisini kullanmak için geçmiş talep verisini içeren Microsoft Excel
 
 İçeei aktarma işleminden sonra verilerin nasıl temizleneceği de dahil olmak üzere verilerin nasıl içeri aktarılacağı hakkında daha fazla bilgi için [Veri içeri ve dışarı aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ve ilgili konuları inceleyin.
 
-## <a name="example"></a>Örnek
-
-Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz. [HistoricalDemandData](/dynamics/s-e/) karşıdan yükleyin. Bu dosya, madde D0001 için geçmiş talep verisini içerir. Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.
-
-1. Geçmiş talep verisinin aktarılacağı şirketi seçin.
-2. **Veri yönetimi** çalışma alanını açın.
-3. **İçeri aktar** kutucuğunu seçin.
-4. İçe aktarma projesi için bir ad seçin, örneğin **Madde D0001 için geçmiş talep verisi içe aktar**.
-5. **Kaynak veri biçimi** alanında, içe aktardığınız dosyanın dosya formatını seçin. Bu örnek için HistoricalDemandData dosyasını içe aktarmak için, **CSV** seçeneğini işaretleyin.
-6. **Varlık adı** alanında, **Geçmiş harici talep** seçeneğini işaretleyin.
-7. Dosyayı bilgisayarınıza kaydedin ve sonra karşıya yükleyin.
-8. **İçe aktar**'ı seçin.
-9. **Yürütme özeti** sayfası otomatik olarak açılır. İçe aktarılan veriyi sayfada doğrulayın.
-
-Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirsiniz.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-
-[İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)  
-[Veri içe ve dışa aktarma işlerine genel bakış](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Ayrıca bkz. [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

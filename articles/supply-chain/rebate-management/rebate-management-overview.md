@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020471"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271065"
 ---
 # <a name="rebate-management-module-overview"></a>İndirim yönetimi modülüne genel bakış
 
@@ -70,7 +70,7 @@ Bu hesaplama bağımsız müşterilere ve ürünlere, müşteri ve ürün grupla
 
 İndirim hesaplama sonuçları, indirimin net tutara göre hesaplama için ayarlanıp ayarlanmadığına bağlı olarak diğer indirimler tarafından da azaltılabilir.
 
-Satıcı tarafında, indirimler ilk giren ilk çıkar (FIFO) kuralını, en son satın alma fiyatını, ortalama satın alma fiyatını veya satış fiyatını temel alarak fiyatı hesaplayabilir.
+Satıcı tarafında, satış siparişini temel alan indirimler ilk giren ilk çıkar (FIFO) kuralını, en son satın alma fiyatını, ortalama satın alma fiyatını veya satış fiyatını temel alarak fiyatı hesaplayabilir.
 
 ## <a name="rebate-target-transactions"></a>İndirim hedef hareketleri
 
@@ -84,11 +84,12 @@ Madde çıkışları, Müşteri indirimleri için ücretsiz madde satış sipari
 
 İlişkili anlaşmalar, hesaplamaların sıklığı, hesaplama esası ve seçilen hesaplama yöntemi birleşimi, indirim hesaplamalarının doğruluğunu ve kesinliğini belirler. İndirim provizyonları, deftere nakledilen ve talep edilen değerleri tahakkuk ettirmek için kullanılabilir.
 
-Provizyonlar günlük veya aylık olarak yönetilebilir. Ancak, işlev herhangi bir tanımlı frekansta indirim ayırabilir veya indirimi ödeyebilir ya da ödemesini alabilir. Kullanıcılar, ödeme sırasında herhangi bir zamanda bir planı veya ödeme tutarlarını kolayca ayarlayabilir.
+Provizyonlar günlük, haftalık, aylık olarak veya özel bir döneme göre yönetilebilir. Ancak, bu işlev indirimi tahsis edebilir veya ödeyebilir veya sağlama sıklığından daha uzun veya aynı uzunluktaki tanımlanan sıklıkta ödemesini alabilir. Silme indirim ile aynı sıklığı kullanır. Kullanıcılar, ödeme sırasında herhangi bir zamanda bir planı veya ödeme tutarlarını kolayca ayarlayabilir.
 
 Kullanıcıların artık iki adımda yapılan anlaşmaları veya provizyonlarını işlemesi gerekmez. Provizyonlar ve gider yazmalar doğrudan kayıt defterine nakledilir. Ayrıca, alacak dekontları otomatik olarak oluşturulabilir. Bu nedenle, borç hesapları ve alacak hesapları ile tam bütünleşme vardır. İşlem sırasında, hesaplamalar hesap ve değerlerin doğru hesaplanmasını sağlamak için kapatma iskontolarını, ücretli faturaları, ticari indirimleri ve varolan borç dekontlarını dikkate alır.
 
-İndirimler hesaplanırken, işlem deftere nakil gerçekleşmeden önce gözden geçirilebilecek işlemler oluşturur. Böylece bir günlük, alacak dekontu veya borç işlemi oluşturulabilir. Ayrı bir işlem, indirim ve kesinti hareketlerini deftere nakleder. Uyumluluk, verimlilik ve saydamlık sağlamak için raporlama beyanları ve işlem listeleri elde edilebilir.
+İndirimler hesaplanırken, işlem deftere nakil gerçekleşmeden önce gözden geçirilebilecek işlemler oluşturur. Ayrı bir işlem, indirim ve yönetim hareketlerini deftere nakleder. Daha sonra teklif edilen hareketlere nakil sırasında bir günlük, alacak dekontu veya borç hareketi oluşturulabilir. Uyumluluk, verimlilik ve saydamlık sağlamak için raporlama beyanları ve işlem listeleri elde edilebilir.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Garantili kâr payı ödemeleri
 

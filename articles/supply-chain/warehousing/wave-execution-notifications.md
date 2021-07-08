@@ -11,19 +11,18 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2022-04-01
+ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: fee112d3211f619b2146dd21c4f8a52ad33667d6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019166"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271389"
 ---
 # <a name="wave-execution-notifications"></a>Dalga yürütme bildirimleri
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 *Dalga yürütme bildirimleri* özelliği, dalga yürütme ile ilgili bildirimler sağlamak için iş olaylarını ve eylem merkezini kullanır. Bildirimler üreten olayların tiplerini, onları oluşturan ambarları ve onları alan kullanıcıları belirtmenize olanak tanır.
 

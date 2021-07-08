@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020495"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271089"
 ---
 # <a name="rebate-management-groups"></a>İndirim yönetimi grupları
 
 [!include [banner](../includes/banner.md)]
 
-İndirim ve kesinti hesaplamaları gruplar ile yapılabilir. İndirim Yönetimi grupları müşteriler, satıcılar ve maddeler için oluşturulabilir. Bunlar bir ana kayda eklenebilir.
+İndirim yönetimi hesaplamaları gruplar ile yapılabilir. İndirim Yönetimi grupları müşteriler, satıcılar ve maddeler için oluşturulabilir. Bunlar bir ana kayda eklenebilir.
 
 ## <a name="rebate-management-customer-groups"></a>İndirim yönetimi müşteri grupları
 
@@ -49,10 +49,9 @@ Seçili bir grup için müşterileri görüntülemek, eklemek veya kaldırmak i�
 1. **İndirim yönetimi \> indirim Yönetimi grupları kurulumu \> müşteri grupları**'na gidin.
 1. Yönetilecek grubu seçin.
 1. Eylem Bölmesinde **Müşteriler** öğesini seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve zaten seçili grubun üyesi olan müşterilerin bir listesini gösterir.
-1. Gruba yeni müşteri eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Gruba yeni müşteri eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **Müşteri hesabı**: Müşteri hesap kimliğini seçin.
-    - **Ad**: Müşterinin adını ve/veya açıklamasını girin.
 
 1. Bir müşteriyi gruptan kaldırmak için, müşteriyi seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 
@@ -61,10 +60,9 @@ Seçili bir müşteri için grup atamalarını görüntülemek, eklemek veya kal
 1. **Alacak hesapları \> Müşteriler \> Tüm müşteriler**'e gidin.
 1. Çalışmak istediğiniz müşteriyi seçin.
 1. Eylem Bölmesi'nde, **Müşteri** sekmesindeki **İndirim yönetimi** grubunda **İndirim yönetimi grupları**'nı seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve seçili müşterinin zaten üyesi olduğu bir grup listesini gösterir.
-1. Müşteriyi yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Müşteriyi yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **İndirim yönetimi grubu**: Müşterinin ekleneceği grubu seçin.
-    - **Açıklama**: Grubun açıklamasını girin (örneğin, müşterinin neden üyesi olduğunu açıklamak için).
 
 1. Bir müşteriyi gruptan kaldırmak için, grubu seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 
@@ -88,10 +86,9 @@ Seçili bir grup için satıcıları görüntülemek, eklemek veya kaldırmak i�
 1. **İndirim yönetimi \> indirim Yönetimi grupları kurulumu \> satıcı grupları**'na gidin.
 1. Yönetilecek grubu seçin.
 1. Eylem Bölmesinde, **Satıcılar**'ı seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve zaten seçili grubun üyesi olan satıcıların bir listesini gösterir.
-1. Yeni bir satıcıyı gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Yeni bir satıcıyı gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **satıcı hesabı**: satıcı hesap kimliğini seçin.
-    - **Ad**: Satıcının adını ve/veya açıklamasını girin.
 
 1. Bir satıcıyı gruptan kaldırmak için, satıcıyı seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 
@@ -100,10 +97,9 @@ Seçili bir satıcı için grup atamalarını görüntülemek, eklemek veya kald
 1. **Borç hesapları \> Satıcılar \> Tüm satıcılar**'a gidin.
 1. Çalışmak istediğiniz satıcıyı seçin.
 1. Eylem Bölmesi'nde, **satıcı** sekmesindeki **İndirim yönetimi** grubunda **İndirim yönetimi grupları**'nı seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve seçili satıcının zaten üyesi olduğu bir grup listesini gösterir.
-1. Satıcıyı yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Satıcıyı yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **İndirim yönetimi grubu**: Satıcının ekleneceği grubu seçin.
-    - **Açıklama**: Grubun açıklamasını girin (örneğin, satıcının neden üyesi olduğunu açıklamak için).
 
 1. Bir satıcıyı gruptan kaldırmak için, grubu seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 
@@ -127,10 +123,9 @@ Seçili bir grup için maddeleri görüntülemek, eklemek veya kaldırmak için 
 1. **İndirim yönetimi \> indirim Yönetimi grupları kurulumu \> Madde grupları**'na gidin.
 1. Yönetilecek grubu seçin.
 1. Eylem Bölmesinde, **Maddeler**'i seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve zaten seçili grubun üyesi olan maddelerin bir listesini gösterir.
-1. Yeni bir maddeyi gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Yeni bir maddeyi gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **Madde hesabı**: Madde hesap kimliğini seçin.
-    - **Ürün Adı**: Maddenin adını ve/veya açıklamasını girin.
 
 1. Bir maddeyi gruptan kaldırmak için, maddeyi seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 
@@ -139,10 +134,9 @@ Seçili bir madde için grup atamalarını görüntülemek, eklemek veya kaldır
 1. **Ürün bilgi yönetimi \> Ürünler \> Serbest bırakılmış ürünler**'e gidin.
 1. Çalışmak istediğiniz maddeyi seçin.
 1. Eylem Bölmesi'nde, **Ürün** sekmesindeki **İndirim yönetimi** grubunda **İndirim yönetimi grupları**'nı seçin. **İndirim Yönetimi grupları** sayfası görüntülenir ve seçili maddenin zaten üyesi olduğu bir grup listesini gösterir.
-1. Maddeyi yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanları ayarlayın:
+1. Maddeyi yeni bir gruba eklemek için Eylem Bölmesinde **Yeni**'yi seçin ve ızgaraya bir satır ekleyin. Ardından yeni satırda aşağıdaki alanı ayarlayın:
 
     - **İndirim yönetimi grubu**: Maddenin ekleneceği grubu seçin.
-    - **Açıklama**: Grubun açıklamasını girin (örneğin, maddenin neden üyesi olduğunu açıklamak için).
 
 1. Bir maddeyi gruptan kaldırmak için, grubu seçin ve sonra Eylem bölmesinde **Sil**'i seçin.
 

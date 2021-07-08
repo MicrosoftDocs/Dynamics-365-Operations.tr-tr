@@ -2,7 +2,7 @@
 title: Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izleme
 description: Bu konu, performans sorunlarını gidermek amacıyla elektronik raporlama (ER) içindeki performans izleme özelliğinin nasıl kullanılacağı hakkında bilgi sağlar.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944665"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295585"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Performans sorunlarını gidermek için ER biçimlerinin yürütülmesini izle
 
@@ -119,12 +119,27 @@ Veri modeli ve model eşleme yapılandırmalarının ilgili sürümleri, içe ak
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Kullanıcı parametreleri** iletişim kutusunda, **Yürütme izleme** bölümünde şu adımları izleyin:
 
-    1. **Yürütme izleme biçimi** alanında, ER biçimi yürütme ayrıntılarını toplamaya başlamak için **İzleme biçimi sorun giderme**'yi seçin. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
+    1. **Yürütme izleme biçimi** alanda, yürütme ayrıntılarının ER biçimi ve eşleme öğelerinde depolanması gereken oluşturulmuş performans izlemesinin biçimini belirtin:
 
-        - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
-        - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+        - **Hata ayıklama izleme biçimi**: Kısa yürütme süresine sahip bir ER biçimini etkileşimli olarak çalıştırmayı planlıyorsanız bu değeri seçin. Böylece, ER biçimi yürütme ile ilgili ayrıntılar topluluğu başlatılır. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
 
-        **Yürütme izleme biçimi** alanını, yürütme ayrıntılarının ER biçimi ve eşleme öğeleri için depolandığı oluşturulan performans izlemesinin biçimini belirtmek için kullanırsınız. **İzleme biçimi hata ayıklama**'yı değer olarak seçerek, ER Operasyon tasarımcısı içindeki içeriği analiz edebilir ve izlemede bahsedilen ER biçimi veya eşleştirme öğelerini görebilirsiniz.
+            - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
+            - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+
+            **Hata ayıklama izleme biçimi** değerini seçerseniz, izleme içeriğini ER İşlem tasarımcısında analiz edebilirsiniz. Burada, izlemede bahsedilen ER biçimini veya eşleme öğelerini görüntüleyebilirsiniz.
+
+        - **Toplama izleme biçimi**: Toplu iş modunda uzun yürütme süresine sahip bir ER biçimini çalıştırmayı planlıyorsanız bu değeri seçin. Böylece, ER biçimi yürütme ile ilgili toplama ayrıntıları topluluğu başlatılır. Bu değer seçildiğinde, performans izlemesi aşağıdaki eylemlerde harcanan süre hakkında bilgi toplar:
+
+            - Her bir veri kaynağını veri almak için çağırılan model eşlemesinde çalıştırma
+            - Her bir veri kaynağını veri almak için çağırılan biçim eşlemesinde çalıştırma
+            - Oluşturulan çıktıya veri girmek için her biçim öğesini işlemek
+
+            **Toplu izleme biçimi** değeri Microsoft Dynamics 365 Finance Sürüm 10.0.20 ve sonrasında kullanılabilir.
+
+            ER biçim tasarımcısı ve ER model eşleme tasarımcısında, tek bir bileşen için toplam yürütme süresini görüntüleyebilirsiniz. Ek olarak izleme, yürütme sayısı ve tek bir yürütmenin minimum ve maksimum süresi gibi yürütme ayrıntılarını içerir.
+
+            > [!NOTE]
+            > Bu izleme, izlenen bileşenler yoluna göre toplanır. Bu nedenle, tek bir üst bileşen birkaç adlandırılmamış alt bileşen içerdiğinde veya birden fazla alt bileşen aynı ada sahip olduğunda istatistikler yanlış olabilir.
 
     2. ER model eşleme ve ER biçimde bileşenlerinin yürütülmesine dair belirli ayrıntıları toplamak için aşağıdaki seçenekleri **Evet** olarak ayarlayın:
 

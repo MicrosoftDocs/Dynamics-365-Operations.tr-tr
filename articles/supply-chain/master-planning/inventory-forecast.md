@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216854"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306427"
 ---
 # <a name="inventory-forecasts"></a>Stok tahminleri
 
@@ -353,20 +353,46 @@ Mevcut tahmin işlemi satırlarını işlemek için bu prosedürü kullanın. Ta
 1. Tahmin satırlarının mali boyutlarını güncelleştirmek için **Mali boyutlar** bölümünü kullanın. Değiştirmek istediğiniz mali boyutları seçin ve seçili boyutlara uygulamak için bir değer girin.
 1. Değişiklerinizi uygulamak için **Tamam**'ı seçin.
 
-## <a name="run-forecast-planning"></a>Tahmin planlamasını çalıştırma
+## <a name="use-forecasts-with-master-planning"></a>Tahminleri master planlama ile kullanma
 
-Talep tahmini ve/veya tedarik tahmini değerlerinizi girdikten sonra, malzeme ve kapasite için brüt gereksinimleri hesaplamak ve planlanmış siparişler oluşturmak üzere tahmin planlamayı çalıştırabilirsiniz.
+Talep tahmininizi ve/veya tedarik tahminini girdikten sonra, Master planlama çalıştırıldığında beklenen talep ve/veya tedarikle ilgili dikkate alınacak tahminleri master planlama sırasında ekleyebilirsiniz. Tahminler master planlamaya dahil edildiğinde, malzeme ve kapasite için brüt gereksinimler hesaplanır ve planlı siparişler oluşturulur.
 
-1. **Master planlama \> Tahmin \> Tahmin planlama**'ya gidin.
-1. **Tahmin planı** alanında bir tahmin planı seçin.
-1. Her bir planlama görevinin işlem zamanını kaydetmek için **İşleme süresini izle**'yi etkinleştirin.
-1. **İş parçacığı sayısı** alanına bir değer girin. (Daha fazla bilgi için bkz. [Master planlama performansını iyileştirme](master-planning-performance.md).)
-1. **Yorum** alanına gerekli ek bilgileri yakalamak için metin girin.
-1. **Eklenecek kayıtlar** hızlı sekmesinde, madde seçimini sınırlamak için **Filtre**'yi seçin.
-1. **Arka planda çalıştır** hızlı sekmesinde, toplu işin parametrelerini belirtin.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Bir stok tahminini dahil etmek için bir master plan ayarlama
+
+Master planınızı bir stok tahmini içerecek şekilde yapılandırmak için bu adımları izleyin.
+
+1. **Master planlama \> Kurulum \> Planlar \> Master planlar** bölümüne gidin.
+1. Var olan bir planı seçin veya yeni bir plan oluşturun.
+1. **Genel** hızlı sekmesinde, aşağıdaki alanları ayarlayın:
+
+    - **Tahmin modeli**: Uygulanacak tahmin modelini seçin. Geçerli master plan için bir tedarik önerisi oluşturulduğunda, bu model dikkate alınır.
+    - **Tedarik tahminini dahil et**: Geçerli master plana tedarik tahmini eklemek için bu seçeneği *Evet* olarak ayarlayın. *Hayır* olarak ayarlarsanız tedarik tahmini hareketleri master plana dahil edilmeyecektir.
+    - **Talep tahminini dahil et**: Geçerli master plana talep tahmini eklemek için bu seçeneği *Evet* olarak ayarlayın. *Hayır* olarak ayarlarsanız talep tahmini hareketleri master plana dahil edilmeyecektir.
+    - **Tahmin gereksinimlerini azaltmak için kullanılan yöntem**: Tahmin gereksinimlerini azaltmak için kullanılacak yöntemi seçin. Daha fazla bilgi için bkz. [Tahmin azaltma anahtarları](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. **Gün olarak zaman dilimleri** hızlı sekmesinde, tahminin dahil edildiği dönemi belirtmek için aşağıdaki alanları ayarlayabilirsiniz:
+
+    - **Tahmin planı**: Ayrı kapsam gruplarından kaynaklanan tahmin planı zaman dilimini geçersiz kılmak için bu seçeneği *Evet* olarak ayarlayın. Geçerli master plan için ayrı kapsam gruplarındaki değerleri kullanmak için *Hayır* olarak ayarlayın.
+    - **Tahmin zaman dönemi**: **Tahmin planı** seçeneğini *Evet* olarak ayarlarsanız, talep tahmininin uygulanması gereken gün sayısını (bugünün tarihinden itibaren) belirtin.
+
+    > [!IMPORTANT]
+    > **Tahmin planı** seçeneği Planlamayı En İyi Duruma Getirme'de henüz desteklenmemektedir.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Bir stok tahmini içeren bir master plan çalıştırma
+
+Stok tahmini içeren bir master plan çalıştırmak için bu adımları izleyin.
+
+1. **Master planlama \> Çalışma alanları \> Master planlama**'ya gidin.
+1. **Master plan** alanında, önceki yordamda ayarladığınız master planı girin veya seçin.
+1. **Master planlama** kutucuğunda **Çalıştır**'ı seçin.
+1. **Master planlama** iletişim kutusunda, **İşlem süresini izle** seçeneğini *Evet* olarak ayarlayın.
+1. **İş parçacığı sayısı** alanına bir rakam girin.
+1. **Eklenecek kayıtlar** hızlı sekmesinde **Filtrele**'yi seçin.
+1. Standart sorgu düzenleyicisi iletişim kutusu görüntülenir. **Aralık** sekmesinde **Alan** alanının *Madde numarası* olarak ayarlandığı satırı seçin.
+1. **Ölçüt** alanında, plana dahil edilecek madde numarasını seçin.
 1. **Tamam**'ı seçin.
 
-Hesaplanan gereksinimleri görüntülemek için **Brüt gereksinim** sayfasını açın. Örneğin, **Serbest bırakılan ürünler** sayfasında, **Plan** sekmesinde, **Gereksinimler** bölümünde **Brüt gereksinim**'i seçin.
+Hesaplanan gereksinimleri görüntülemek için **Brüt gereksinim** sayfasını açın. Örneğin, **Serbest bırakılan ürünler** sayfasında, Eylem Bölmesinde, **Plan** sekmesinde, **Gereksinimler** grubunda **Brüt gereksinim**'i seçin.
 
 Oluşturulan planlı siparişleri görüntülemek için **Master planlama \> Yaygın \> Planlı siparişler**'e gidin ve uygun tahmin planını seçin.
 
@@ -376,5 +402,6 @@ Oluşturulan planlı siparişleri görüntülemek için **Master planlama \> Yay
 - [Talep tahmini kurulumu](demand-forecasting-setup.md)
 - [İstatistik temel tahmini oluşturma](generate-statistical-baseline-forecast.md)
 - [Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
+- [Talep tahminleri ile master planlama](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

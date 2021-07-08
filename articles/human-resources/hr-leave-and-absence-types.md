@@ -2,7 +2,7 @@
 title: İzin ve devamsızlık türlerini yapılandırma
 description: Dynamics 365 Human Resources'ta çalışanların götürebileceği izin tiplerini ayarlayın.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056624"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271139"
 ---
 # <a name="configure-leave-and-absence-types"></a>İzin ve devamsızlık türlerini yapılandırma
 
@@ -71,14 +71,15 @@ Dynamics 365 Human Resources'ta izin türleri, bir personelin bildirebileceği �
    
  3. İzin türü için **ileriye doğru izin türü** ayarlayın. Bu seçeneği belirlediğinizde, tüm ileri düzey bakiyeleri belirtilen izin türüne aktarılır. İleriye yönelik izin türü de, bırak ve devamsızlık planına dahil edilmesi gerekir. 
  
- 4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği konfigüre ettiğinizde, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Ayrıca, sona erme kuralının geçerlilik tarihini ayarlayabilirsiniz. Geçerlilik tarihi, izin süresinin dolmasını işleyen toplu işlemin ne zaman çalıştırılmaya başlayacağını veya kuralın ne zaman geçerli olacağını belirlemek için kullanılır. Toplu işlem işlenecek şekilde ayarlandıktan sonra sona erme süresi her zaman izin planı başlangıç tarihinde gerçekleşir. Örneğin, plan başlangıç tarihi 1/1/2020 olabilir ancak kural 6/1/2020'ye kadar oluşturulmamıştır. Geçerlilik tarihi 6/1/2020 olarak ayarlandığında kural bir sonraki yıl sınırı olan 1/1/2021 tarihinde işlenir. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır. 
+4. İzin türü için **süre sonu kurallarını** tanımlayın. Bu seçeneği yapılandırdığınızda, gün veya ay birimini seçebilir ve bitiş tarihi için süreyi ayarlayabilirsiniz. Sona erme kuralının geçerlilik tarihi, izin süresinin dolmasını işleyen toplu işlemin ne zaman çalıştırılmaya başlayacağını veya kuralın ne zaman geçerli olacağını belirlemek için kullanılır. Süre sonunun kendisi her zaman tahakkuk dönemi başlangıç tarihinde gerçekleşir. Örneğin, tahakkuk dönemi başlangıç tarihi 3 Ağustos 2021 ise ve sona erme kuralı 6 ay olarak ayarlanmışsa, kural tahakkuk dönemi başlangıç tarihinden sona erme süresi mahsubu temel alınarak işlenir. Bu durumda 3 Şubat 2022'de yürütülecektir. Bitiş tarihinde varolan tüm izin bakiyeleri izin dışında bırakılacak ve bırakma bakiyesine yansıtılır.
  
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [İzin ve devamsızlığa genel bakış](hr-leave-and-absence-overview.md)
 - [İzin ve devamsızlık planı oluşturma](hr-leave-and-absence-plans.md)
 - [Çalışma zamanı takvimi oluşturma](hr-leave-and-absence-working-time-calendar.md)
-- [İzni askıya alma](hr-leave-and-absence-suspend-leave.md)
+- [İzni askıya al](hr-leave-and-absence-suspend-leave.md)
+- [İzin satın alma ve satma isteği iş akışı oluşturma](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

@@ -1,8 +1,8 @@
 ---
-title: Veri reyonunu sıfırlama zamanı
-description: Bu konuda, veri reyonu sıfırlayarak iyileştirilebilecek durumlar ile veri reyonunu sıfırlamanın fayda sağlamayacağı durumlar listelenmektedir.
+title: Veri reyonunu sıfırlamayla ilgili SSS
+description: Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar.
 author: jinniew
-ms.date: 05/06/2021
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,40 +14,47 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: bc2c4ee490f3bebd6e7c91609a06f8dfedfcb628
-ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
+ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "5989004"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266621"
 ---
-# <a name="when-to-reset-a-data-mart"></a>Veri reyonunu sıfırlama zamanı
+# <a name="data-mart-resets-faq"></a>Veri reyonunu sıfırlamayla ilgili SSS
 
-Veri reyonu sıfırlamak zaman alabilir. Koşullara bağlı olarak, bu eylem gerekli çözüm olmayabilir. Bu konuda, veri reyonu sıfırlayarak iyileştirilebilecek durumların yanı sıra veri reyonunu sıfırlamanın fayda sağlamayacağı durumlar listelenmektedir.  
+Bu konu, veri reyonu sıfırlama hakkında sık sorulan bazı soruların yanıtlarını sağlar. Veri reyonu sıfırlama işlemi zaman alan bir işlem olabilir ve koşullara bağlı olarak gerekli çözüm olmayabilir. Bu nedenle, bu konu bir veri reyonu sıfırlamasının yardımcı olabileceği ve büyük olasılıkla size yardımcı olamayacağı koşullar hakkında bilgi içerir.
 
-## <a name="when-do-i-need-to-do-a-data-mart-reset"></a>Veri reyonu sıfırlama işlemini ne zaman yapmam gerekir?
-Veri reyonunu sıfırlamadan önce aşağıdaki soruları göz önünde bulundurun. Bir veya daha fazla sorunun yanıtı evet ise veri reyonu sıfırlamak kuruluşunuz için faydalı olabilir.
-
-- Uygulama veritabanı geri yüklendi mi?
-- Bir destek olayı açtınız mı ve destek mühendisi sorun giderme adımının bir parçası olarak veri reyonunu sıfırlamanızı istedi mi?
- 
-## <a name="when-is-it-not-appropriate-to-reset-a-data-mart"></a>Veri reyonu sıfırlamak hangi durumlarda uygun değildir?
-Veri reyonunu sıfırlamayı önermediğimiz durumlar bulunur. Bunlara aşağıdakiler dahildir. 
-
-- Veri eşitleme ile ilişkili performans sorunları yaşıyorsunuz. 
-- Aşağıdakilerden herhangi biri nedeniyle yinelenen bir sıfırlama modeliniz varsa: 
-  - **Eksik veri** 
-  - **Tümleştirme durumu takılı kaldı** 
-  - **Eski kayıtlar**: Yalnızca eski kayıtlar olması tek başına veri reyonunun sıfırlanması için geçerli bir gerekçe değildir. Büyük bir veri kümeniz varsa sıfırlama işleminin çalışması biraz zaman alır ancak bu işlemin iyileştirme sağlama olasılığı düşüktür.
- 
 ## <a name="what-is-a-data-mart-reset"></a>Veri reyonu sıfırlama nedir?
-- Sıfırlama, yalnızca mevcut görevler tamamlandığında başlar. Bu, eski verilerin eklenmemesini sağlar. Bu aşamada, "Veri reyonu sıfırlama işlemi, etkin bir görev nedeniyle işlenemedi. Lütfen daha sonra yeniden deneyin."
-- Sıfırlama, tümleştirme görevlerini devre dışı bırakır ve tüm veri reyonu verilerini siler. Tümleştirme yeniden etkinleştirilir.
 
-## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Veri reyonunu sıfırladığımda, önceden tasarlamış olduğum raporları kaybedecek miyim? 
-Hayır, raporlarınız veri reyonu sıfırlanmadan etkilenmeyen SQL tablolarında depolanır. Tasarladığınız raporların kaybedilmesiyle ilgili endişeleriniz varsa, kaybetmek istemediğiniz tasarımları yedekleyebilirsiniz. Bunları yedeklemek için, Rapor Tasarımcısı'nı açın ve **Şirket > Şirketler > Yapı Taşları > Dışa aktar**'a gidin.
+Veri reyonu sıfırlama, tümleştirme görevlerini devre dışı bırakacak, tüm veri reyonu verilerini silecek ve tümleştirmeyi yeniden etkinleştirecektir.
+
+Eski verilerin eklenmemesini sağlamak için veri reyonu sıfırlaması yalnızca mevcut görevler tamamlandıktan sonra başlatılabilir. Tüm görevler tamamlanmadan önce veri reyonunu sıfırlamayı denerseniz şöyle bir ileti görebillirsiniz: "Veri reyonu sıfırlama etkin bir görev nedeniyle işlenemedi. Lütfen daha sonra yeniden deneyin."
+
+## <a name="when-do-i-have-to-do-a-data-mart-reset"></a>Veri reyonu sıfırlama işlemini ne zaman yapmam gerekir?
+
+Aşağıdaki ifadelerden biri veya daha fazlası sizin durumunuza için geçerli ise kuruluşunuz bir veri reyonu sıfırlamadan yararlanabilir:
+
+- Uygulama veritabanı geri yüklendi.
+- Bir destek bileti açtınız ve Destek mühendisi sorun giderme adımının bir parçası olarak veri reyonunu sıfırlamanızı istedi.
  
-## <a name="is-it-necessary-for-all-users-to-exit-the-system-to-reset-the-data-mart"></a>Tüm kullanıcıların veri reyonu sıfırlamak için sistemden çıkması gerekiyor mu?
-Hayır, veri reyonu sıfırlama sırasında kullanıcılar sistemde çalışmaya devam edebilir. Ancak, sıfırlama tamamlanana kadar Mali Raporlayıcı ile oluşturulan raporlara erişemezler. 
+## <a name="when-is-a-data-mart-reset-inappropriate"></a>Veri reyonu sıfırlama ne zaman uygun değildir?
+
+Veri reyonunu sıfırlamayı önermediğimiz bazı durumları aşağıda bulabilirsiniz:
+
+- Veri eşitleme ile ilişkili performans sorunları yaşıyorsunuz.
+- Aşağıdakilerden herhangi biri nedeniyle yinelenen bir sıfırlama modeliniz var:
+
+    - **Eksik veri**: Verilerin eksik olduğunu görürseniz, rapor biçiminizi ve veri eşitleme sorunlarını gözden geçirmesi için Microsoft ile bir destek bileti açın.
+    - **Tümleştirme durumu takılı kaldı**
+    - **Eski kayıtlar**: Yalnızca eski kayıtlar olması tek başına veri reyonunun sıfırlanması için geçerli bir gerekçe değildir. Büyük bir veri kümeniz varsa sıfırlama işleminin çalışması biraz zaman alır ancak bu işlemin iyileştirme sağlama olasılığı düşüktür.
+
+## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Veri reyonunu sıfırladığımda, önceden tasarlamış olduğum raporları kaybedecek miyim?
+
+Hayır. Raporlarınız veri reyonu sıfırlanmadan etkilenmeyen SQL tablolarında depolanır. Tasarladığınız raporların kaybedilmesiyle ilgili endişeleriniz varsa, kaybetmek istemediğiniz tasarımları yedekleyebilirsiniz. Tasarımları yedeklemek için, Rapor Tasarımcısı'nı açın ve **Şirket \> Şirketler \> Yapı Taşları \> Dışa aktar**'a gidin.
+ 
+## <a name="do-all-users-have-to-exit-the-system-before-i-can-reset-the-data-mart"></a>Veri reyonu sıfırlayabilmem için tüm kullanıcıların sistemden çıkması gerekiyor mu?
+
+Hayır. Veri reyonu sıfırlama sırasında kullanıcılar sistemde çalışmaya devam edebilir. Ancak, sıfırlama tamamlanana kadar Financial Reporter ile oluşturulan raporlara erişemezler.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

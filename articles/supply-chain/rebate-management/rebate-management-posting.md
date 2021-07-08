@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216755"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271017"
 ---
 # <a name="rebate-management-posting-setup"></a>İndirim yönetimi deftere nakil ayarı
 
@@ -41,7 +41,7 @@ Aşağıdaki tabloda, her bir indirim yönetimi deftere nakil profilinin başlı
 |---|---|
 | Deftere nakil profili | Profil için benzersiz bir ad girin. |
 | Tanım | Profilin açıklamasını girin. |
-| Modül | Profilin (*müşteri* veya *satıcı*) ilişkilendirildiği indirimlerin ve kâr paylarının türünü seçin. |
+| Modül | Profilin indirimlerinin ve kar paylarının (*müşteri* veya *satıcı*) ile ilişkilendirildiği modülü seçin. |
 | Türü | Profil türünü seçin (*indirim* veya *kâr payı*). |
 | Ödeme türü | <p>Bu alan, deftere nakledilen indirim çıktısının biçimini belirler.<p><p>**Tür** alanı *indirim* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Borç hesaplarını kullanarak öde*: Müşteri indirimini deftere naklettiğinizde, indirim müşterisinde ayarlanan havale satıcısının satıcı faturası oluşturulur. Satıcı indirimini deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li><li>*Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Vergi faturası Müşteri kesintileri*: İndirimi deftere naklederken, indirim müşterisi için bir serbest metin faturası oluşturulur.</li><li>*Ticari harcama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklederken, indirim müşterisi için bir müşteri kesintisi günlüğü oluşturulur.</li></ul><p>**Tür** alanı *Kâr payı* olarak ayarlandığında aşağıdaki değerler kullanılabilir:</p><ul><li>*Borç hesaplarını kullanarak öde*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li><li>*Raporlama*: İndirimi deftere naklettiğinizde, indirim satıcısı hesabında satıcı faturası oluşturulur.</li></ul><p>Daha fazla bilgi için, aşağıdaki [Ödeme türleri](#payment-types) bölümüne bakın. |
 | Şirket | Provizyonun tahakkuk ettirileceği ve talepleri ödeyecek şirketi (tüzel kişilik) seçin. |
@@ -66,7 +66,7 @@ Aşağıdaki tablo, **ödeme türü** alanının çeşitli ayarlarının, ödeme
 > [İndirim yönetimi anlaşmalarını](rebate-management-deals.md) ayarlarken aşağıdaki noktaları göz önünde bulundurun:
 >
 > - **Mutabakat ölçütü** alanının, *Anlaşma* olarak ayarlandığı anlaşmalar için deftere nakil sırasında dinamik anlaşma hesabını kullanamazsınız. Belirli bir müşteri veya satıcı hesabı kullanmalısınız.
-> - **Mutabakat ölçütü** alanının *satır* olarak ayarlandığı anlaşmalar için, müşteri her bir anlaşma satırı için ayarlandığından, anlaşma satırındaki dinamik bir anlaşma hesabına mahsup eden bir deftere nakil profili kullanabilirsiniz.
+> - **Mutabakat ölçütü** alanının *Satır* olarak ayarlandığı anlaşmalar için, müşteri veya satıcı her bir anlaşma satırı için ayarlandığından, anlaşma satırındaki dinamik bir anlaşma hesabına mahsup eden bir deftere nakil profili kullanabilirsiniz.
 
 ## <a name="posting-fasttab"></a>Deftere nakletme hızlı sekmesi
 
@@ -74,15 +74,15 @@ Aşağıdaki tabloda, her bir indirim yönetimi deftere nakil profilinin **Defte
 
 | Alan | Tanım |
 |---|---|
-| Alacak türü | Bir kayıt defteri hesabının mı, yoksa bir müşteri ya da satıcının mı alacaklandırılacağını seçin. |
-| Alacak hesabı | İndirim provizyonları yapıldığında alacak tutarlarının deftere nakledildiği hesap. Bu hesap, indirim müşteriye alacak şekilde deftere nakledildiğinde borç hesabı olarak da kullanılır. |
+| Alacak türü | Bir genel muhasebe hesabının mı, yoksa bir müşterinin mi alacaklandırılacağını seçin. Başlıktaki **ödeme türü** alanı *vergi faturası müşteri kesintileri* olarak ayarlanmışsa, bu alan *Genel muhasebe hesabı* olarak ayarlanır. Satıcı indirimleri için, bu alan *Genel muhasebe hesabı* olarak ayarlanır. |
+| Alacak hesabı | İndirim provizyonları yapıldığında alacak tutarlarının deftere nakledildiği hesabı seçin. Bu hesap, indirim müşteriye alacaklandıracak veya satıcıyı borçlandıracak şekilde deftere nakledildiğinde bir mahsup hesap olarak da kullanılır. |
 | Günlüğün adı<br>(**Provizyon** bölümünde) | Deftere nakledilen provizyonu kaydetmek için kullanılacak günlüğün adını seçin. |
 | Türü | İndirimin Bir kayıt defteri hesabına mı, yoksa bir müşteri ya da satıcıya mı nakledileceğini seçin. Başlıktaki **ödeme türü** alanı *vergi faturası müşteri kesintileri* olarak ayarlanmışsa, bu alan *müşteri/satıcı* olarak ayarlanır. |
-| Hesap kaynağı kullanma | <p>Aşağıdaki değerlerden birini seçin:</p><ul><li>*Hiçbiri*: Bu değeri seçerseniz, indirim **hesabı alanında** bir hesap belirtmeniz gerekir.</li><li>*Anlaşma hesabı*: indirim satırında belirtilen müşteri veya satıcı hesabını kullanın. Bu değeri yalnızca **Mutabakat ölçütü** alanı, *Satır* ve **Hesap kodu** alanının anlaşma satırları *tablo* olarak ayarlandığı anlaşmalar için seçebilirsiniz. Müşteri kâr payı deftere nakil profilleri için geçerli değildir.</li></ul> |
+| Hesap kaynağı kullanma | <p>Aşağıdaki değerlerden birini seçin:</p><ul><li>*Sabit hesap*: Bu değeri seçerseniz, **İndirim hesabı** alanında bir hesap belirtmeniz gerekir.</li><li>*Anlaşma satırı hesabı*: indirim satırında belirtilen müşteri veya satıcı hesabını kullanın. Bu değeri yalnızca **Mutabakat ölçütü** alanı, *Satır* ve **Hesap kodu** alanının anlaşma satırları *tablo* olarak ayarlandığı anlaşmalar için seçebilirsiniz. Müşteri kar payı deftere nakil profilleri veya satış siparişlerine dayalı olan satıcı indirimleri için geçerli değildir.</li></ul> |
 | İndirim hesabı | Fiili indirim giderinin nakledileceği hesap. |
-| Günlüğün adı<br>**(İndirim Yönetimi** bölümünde) | Müşteriye İndirim tutarı için alacak dekontunu naklederken kullanılacak günlüğün adını seçin. Başlıktaki **ödeme türü** alanı *vergi faturası müşteri kesintileri* olarak ayarlandığında bu alan kullanılamaz. |
+| Günlüğün adı<br>(**İndirim yönetimi** alan grubu) | Müşteriye veya satıcıya İndirim tutarı için alacak dekontunu deftere naklederken kullanılacak günlüğün adını seçin. Başlıktaki **ödeme türü** alanı *vergi faturası müşteri kesintileri* olarak ayarlandığında bu alan kullanılamaz. Müşteri indirimleri için, *Günlük* günlük türündeki günlük adları da kullanılabilir. Müşteri kar payları ve satıcı indirimleri için, *Satıcı fatura kaydı* günlük türünün günlük adları da kullanılabilir olacaktır. |
 | Madde satış vergisi grubu | İndirimin vergiye tabi olup olmayacağını belirtin. |
-| Günlüğün adı<br>(**Gider yazma** bölümü) | Deftere nakledilen indirim provizyon ile aynı değilse, fark gider olarak yazılabilir. Deftere nakledilen gider olarak yazmayı kaydetmek için kullanılacak günlüğün adını seçin. |
+| Günlüğün adı<br>(**Yazma** alanı grubu) | Deftere nakledilen indirim provizyon ile aynı değilse, fark gider olarak yazılabilir. Deftere nakledilen gider olarak yazmayı kaydetmek için kullanılacak günlüğün adını seçin. |
 
 ## <a name="posting-by-company-fasttab"></a>Şirket bazında deftere nakil hızlı sekmesi
 
@@ -92,6 +92,6 @@ Kılavuza şirket eklemek ve bunları kaldırmak için araç çubuğundaki düğ
 
 Her bir şirket için bir satır seçin ve daha sonra kılavuzun altındaki alanları kullanarak aşağıdaki bilgileri girin:
 
-- **Borç türü**: Bir kayıt defteri hesabının mı, yoksa bir müşteri ya da satıcının mı borçlandırılacağını seçin.
+- **Borç türü**: Bir kayıt defteri hesabının mı yoksa satıcının mı borçlandırılacağını seçin. Müşteri indirimleri ve kar payları için, bu alan *Genel muhasebe hesabı* olarak ayarlanır.
 - **Borç hesabı**: İndirim provizyonları yapıldığında, borç tutarının nakledildiği hesabı girin.
 - **Ana hesap**: Gider yazmalar için ana hesabı seçin.

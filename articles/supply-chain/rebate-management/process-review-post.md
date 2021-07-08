@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020543"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270773"
 ---
 # <a name="process-review-and-post-rebates"></a>İndirimleri işleme, inceleme ve deftere nakletme
 
@@ -55,9 +55,9 @@ Bir anlaşmayı işlediğinizde sistem ayarlanan tüm ilgili indirimleri ve kâr
 1. İşlemek istediğiniz her bir anlaşma için satırı seçin (veya işlemek istediğiniz anlaşmayı açın).
 1. Eylem bölmesinde, **indirim yönetimi anlaşmaları** sekmesinde, **Oluştur** grubunda, aşağıdaki komutlardan birini seçin:
 
-    - **İşlem \> sağlama**: Her bir ilgili indirim anlaşması için bir dizi tahakkuk sağlayın, ancak deftere nakletmeyin.
+    - **İşlem \> sağlama**: Her bir ilgili indirim anlaşması için bir dizi tahakkuk sağlayın, ancak deftere nakletmeyin. Bu menü öğesi, **İndirim çıkışı** alanının *Madde* olarak ayarlandığı anlaşmalar için kullanılamaz.
     - **İşlem \> İndirim yönetimi**: Her bir anlaşma için indirimin değerini sağlayan bir dizi işlem işler.
-    - **İşlem \> Sil**: Yeni indirim anlaşması işlemlerinin hesaplanabilmesi için daha önce deftere nakledilmiş işlemleri silmek üzere tersine çevirir.
+    - **İşlem \> Silme**: İndirim anlaşması ve belirtilen dönem için her kaynak hareketi için, bir hüküm ve indirim yönetimi için deftere nakledilen tutarlar arasındaki farkı işleyin. Bu menü öğesi, **İndirim çıkışı** alanının *Madde* olarak ayarlandığı anlaşmalar için kullanılamaz.
 
 1. Görüntülenen iletişim kutusunda, Hesaplama için tarih aralığını tanımlamak üzere **başlangıç tarihi** ve **bitiş tarihi** alanlarını ayarlayın.
 1. Hesaplamayı çalıştırmak için **Tamam**'ı seçin.
@@ -70,9 +70,9 @@ Bir anlaşmayı işlediğinizde sistem ayarlanan tüm ilgili indirimleri ve kâr
 1. **İndirim Yönetimi** hızlı sekmesinde, işlemek istediğiniz her bir anlaşma satırı için satırı seçin.
 1. **İndirim Yönetimi** hızlı sekmesindeki araç çubuğunda, aşağıdaki komutlardan birini seçin. (Bu komutlar yalnızca, **mutabakat ölçütü** alanının *satır* olarak ayarlandığı anlaşmalar için mevcuttur.)
 
-    - **İşlem \> sağlama**: Her bir ilgili anlaşma satırı için bir dizi tahakkuk sağlayın, ancak deftere nakletmeyin.
+    - **İşlem \> sağlama**: Her bir ilgili anlaşma satırı için bir dizi tahakkuk sağlayın, ancak deftere nakletmeyin. Bu menü öğesi, **İndirim çıkışı** alanının *Madde* olarak ayarlandığı anlaşmalar için kullanılamaz.
     - **İşlem \> İndirim yönetimi**: Her bir anlaşma satırı için indirimin değerini sağlayan bir dizi işlem işler.
-    - **İşlem \> Sil**: Yeni indirim anlaşması işlemlerinin hesaplanabilmesi için daha önce deftere nakledilmiş işlemleri silmek üzere tersine çevirir.
+    - **İşlem \> Silme**: İndirim anlaşması ve belirtilen dönem için her kaynak hareketi için, bir hüküm ve indirim yönetimi için deftere nakledilen tutarlar arasındaki farkı işleyin. Bu menü öğesi, **İndirim çıkışı** alanının *Madde* olarak ayarlandığı anlaşmalar için kullanılamaz. 
 
 1. Görüntülenen iletişim kutusunda, Hesaplama için tarih aralığını tanımlamak üzere **başlangıç tarihi** ve **bitiş tarihi** alanlarını ayarlayın.
 1. Hesaplamayı çalıştırmak için **Tamam**'ı seçin.
@@ -115,26 +115,26 @@ Bir veya daha fazla anlaşma işlediğinizde sistem deftere nakletmeden önce g�
         - **Talep edilmedi olarak ayarla \> Tümü**: Tüm işlemleri talep edilmedi olarak işaretler.
         - **Talep edilmedi olarak ayarla \> Seçili**: Seçili işlemleri talep edilmedi olarak işaretler.
 
-    - Bir veya daha fazla satır için talebi deftere nakletmek için ilgili satırları seçin ve eylem bölmesinde, **Deftere Naklet**'i seçin. (**Deftere naklet** düğmesi yalnızca indirim işlemleri için kullanılabilir. Bu, sağlama ve silme işlemleri için kullanılamaz.) **Deftere naklet** iletişim kutusunda, **Başlangıç tarihi** ve **bitiş tarihi** alanları otomatik olarak ayarlanır. **Deftere nakil tarihi** alanını ayarlayın ve **Tamam**'ı seçin.
+    - Tüm ilgili satırlar için talebi deftere nakletmek üzere Eylem Bölmesinde **Deftere Naklet**'i seçin. Bir talepler işlemi kullanıyorsanız (**İndirim yönetimi parametreleri** sayfasında **Talep işlemini kullan** seçeneği etkinleştirildiğinde), yalnızca **Talep Edildi** olarak işaretlenmiş satırlar deftere nakledilir. Aksi takdirde, seçili indirim hareketi için tüm kaynak hareketler deftere nakledilir. **Deftere naklet** düğmesi yalnızca indirim hareketleri için kullanılabilir. Sağlama ve silme hareketleri için kullanılamaz. **Deftere Naklet** iletişim kutusunda, **Başlangıç tarihi** ve **Bitiş tarihi** alanları otomatik olarak ayarlanır. **Deftere nakil tarihi** alanını ayarlayın ve **Tamam**'ı seçin.
     - Açık veya deftere nakledilmemiş işlemler için Gösterilen tutarı ayarlamak için, işlemi seçin ve aşağıdaki adımlardan birini izleyin:
 
         - **Düzeltilen tutar** alanındaki değeri Düzenleyin.
         - Eylem bölmesinde, **Düzeltmeyi ayarla**'yı seçin. Ardından, görüntülenen açılan iletişim kutusunda **Düzeltilen tutar** alanına bir değer girin.
 
 > [!NOTE]
-> Bir sonraki dönemi işlediğiniz zaman, işlem listesi önceki deftere nakil işleminden talep edilmeyen işlemleri ve Seçili döneme ait yeni işlemleri içerir.
+> Talepler işlemini kullanıyorsanız, bir sonraki dönemi işlediğiniz zaman, işlem listesi önceki deftere nakil işleminden talep edilmeyen işlemleri ve Seçili döneme ait yeni işlemleri içerir.
 
 ## <a name="post-rebates-transactions"></a>İndirim işlemlerini deftere nakletme
 
-İndirimlerin ve kesintilerin değerini deftere nakletmek için, sisteminizi otomatik olarak deftere nakletmek üzere ayarlamadıysanız, deftere nakil işlemini çalıştırmanız gerekir.
+İşlenmiş bir provizyonun değerini, indirim yönetimi tutarını ve silmeyi deftere nakletmek için deftere nakil işlemini çalıştırmanız gerekir. Deftere nakil işlemi, provizyon, indirim yönetimi veya silme hareketlerini deftere nakledilmiş olarak işaretler ve hedef hareketi oluşturur. Hedef işlemi gözden geçirmeniz gerekmezse, bu işlemler otomatik olarak deftere nakledilecek şekilde ayarlanabilir.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Sistemi tüm işlemleri otomatik olarak deftere nakletmek için ayarla
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Sistemi tüm hedef işlemleri otomatik olarak deftere nakletmek için ayarla
 
-Sisteminizi, oluşturuldukları anda tüm işlemleri deftere nakledebilmek üzere ayarlamak için, **indirim yönetimi parametreleri** sayfasında **günlükleri otomatik olarak deftere naklet** ve/veya **serbest metin faturalarını otomatik olarak deftere naklet** seçeneğini etkinleştirin. Daha fazla bilgi için bkz. [İndirim yönetimi parametreleri](rebate-management-parameters.md).
+Sisteminizi, bir provizyon deftere nakil işlemi, indirim yönetimi tutarı veya silme tarafından oluşturuldukları anda tüm hedef işlemleri deftere nakledebilmek üzere ayarlamak için, **indirim yönetimi parametreleri** sayfasında **günlükleri otomatik olarak deftere naklet** ve/veya **serbest metin faturalarını otomatik olarak deftere naklet** seçeneğini etkinleştirin. Daha fazla bilgi için bkz. [İndirim yönetimi parametreleri](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Bir veya daha fazla anlaşma için işlemleri deftere nakletme
 
-Otomatik deftere nakletmeyi kullanmıyorsanız, ilgili anlaşmaları işledikten sonra, bir veya daha fazla anlaşma için oluşturulan işlemleri gözden geçirip deftere nakletmek için aşağıdaki adımları izleyin.
+İlgili anlaşmaları işledikten sonra, bir veya daha fazla anlaşma için oluşturulan işlemleri gözden geçirip deftere nakletmek için aşağıdaki adımları izleyin.
 
 1. Çalışmak istediğiniz işlem türü için uygun [indirim anlaşmaları listesi sayfasını](rebate-management-deals.md) açın.
 1. Deftere nakletmek istediğiniz her bir anlaşma için satırı seçin (veya deftere nakletmek istediğiniz anlaşmayı açın).
@@ -149,7 +149,7 @@ Otomatik deftere nakletmeyi kullanmıyorsanız, ilgili anlaşmaları işledikten
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Seçili bir anlaşma için bir veya daha fazla belirli anlaşma satırı için işlemleri deftere nakletme
 
-Otomatik deftere nakletmeyi kullanmıyorsanız, ilgili anlaşmaları işledikten sonra, seçili anlaşma için bir veya daha fazla belirli anlaşma satırı için oluşturulan işlemleri gözden geçirip deftere nakletmek için aşağıdaki adımları izleyin.
+İlgili anlaşmaları işledikten sonra, seçil anlaşma için bir veya daha özel fazla satırı için oluşturulan işlemleri gözden geçirip deftere nakletmek için aşağıdaki adımları izleyin. Bu yordam yalnızca, **Mutabakat ölçütü** alanının *Satır* olarak ayarlandığı anlaşmalar için geçerlidir.
 
 1. Çalışmak istediğiniz işlem türü için uygun [indirim anlaşmaları listesi sayfasını](rebate-management-deals.md) açın.
 1. İşlemleri deftere nakletmek istediğiniz satırı içeren anlaşmayı açın.
@@ -174,7 +174,7 @@ Belirli anlaşmalar veya anlaşma satırları için işlemleri deftere nakletmek
     - **İndirim Yönetimi \> Periyodik görevler \> Deftere Naklet \> İndirim yönetimi** bölümüne giderek, oluşturduğunuz indirim işlemlerini deftere nakledin.
     - **İndirim Yönetimi \> Periyodik görevler \> Deftere Naklet \> Sil** bölümüne giderek, oluşturduğunuz silme işlemlerini deftere nakledin.
 
-1. Görüntülenen iletişim kutusunda **parametreler** hızlı sekmesinde, **Dönem** bölümünde, **deftere nakil tarihi** alanını ayarlayın. Ardından deftere nakledilecek işlemler için tarih aralığını tanımlamak üzere **başlangıç tarihi** ve **bitiş tarihi** alanlarını ayarlayın. 
+1. Görüntülenen iletişim kutusunda **parametreler** hızlı sekmesinde, **Dönem** bölümünde, **deftere nakil tarihi** alanını ayarlayın. Ardından deftere nakledilecek işlemler için tarih aralığını tanımlamak üzere **başlangıç tarihi** ve **bitiş tarihi** alanlarını ayarlayın.
 1. **Garanti Dönemi** bölümünde, deftere nakledilecek garantilere yönelik tarih aralığını tanımlamak üzere **başlangıç tarihi** ve **bitiş tarihi** alanlarını ayarlayın.
 1. **Dahil edilecek kayıtlar** Hızlı sekmesi'nde, toplu işlerin işleneceği anlaşmaları sınırlamak için filtreler ayarlayabilirsiniz. Bu ayarlar, diğer toplu iş türlerinde çalıştıkları gibi çalışır.
 1. **Arka planda çalıştır** hızlı sekmesinde gerektiğinde toplu işleme ve planlama seçeneklerini ayarlayabilirsiniz. Bu ayarlar, diğer toplu iş türlerinde çalıştıkları gibi çalışır.
@@ -182,17 +182,17 @@ Belirli anlaşmalar veya anlaşma satırları için işlemleri deftere nakletmek
 
 ## <a name="review-rebate-management-journals"></a>İndirim yönetimi günlüklerini gözden geçirme
 
-İşlemleriniz deftere nakledildikten sonra, sonuçta elde edilen günlükleri, belgeleri veya maddeleri gözden geçirebilirsiniz. İndirimler ve kâr payları ile ilgili hedef işlemler deftere nakil profilinde ayarlanan ödeme türüne ve indirimin çıktı türüne dayanır. Örneğin, indirim çıktısı *madde* olarak ayarlanmışsa bir satış siparişi oluşturulur ve hedef işlemler aracılığıyla görüntülenebilir. Alternatif olarak, ödeme borç hesapları kullanacak şekilde ayarlanmışsa, Müşteri indirimleri için müşteri üzerinde ayarlanmış satıcı için bir satıcı faturası oluşturulur.
+İşlemleriniz deftere nakledildikten sonra, sonuçta elde edilen günlükleri, belgeleri veya maddeleri gözden geçirebilirsiniz. İndirimler ve kâr payları ile ilgili hedef işlemler deftere nakil profilinde ayarlanan ödeme türüne ve indirimin çıktı türüne dayanır. Örneğin, indirim çıkışı *Madde* olarak ayarlanırsa, müşteri indirimi için bir satış siparişi oluşturulur ve satıcı indirimi için bir satınalma siparişi oluşturulur. Bu siparişler hedef hareketler üzerinden görüntülenebilir. Alternatif olarak, ödeme borç hesapları kullanacak şekilde ayarlanmışsa, Müşteri indirimleri için müşteri üzerinde ayarlanmış satıcı için bir satıcı faturası oluşturulur.
 
 İndirim yönetimi ile ilişkili günlük girişlerini gözden geçirmek için aşağıdaki adımları izleyin.
 
 1. Çalışmak istediğiniz işlem türü için uygun [indirim anlaşmaları listesi sayfasını](rebate-management-deals.md) açın.
 1. Günlük girişlerini incelemek için anlaşmayı seçin.
-1. Eylem bölmesinde, **indirim yönetimi anlaşmaları** sekmesinde, **İşlemler** grubunda, bakmak istediğiniz işlem türüne bağlı olarak **İşlemler** veya **İndirim işlemlerini** seçin.
+1. Eylem bölmesinde, **indirim yönetimi anlaşmaları** sekmesinde, **İşlemler** grubunda, bakmak istediğiniz işlem türüne bağlı olarak **İşlemler** veya **Garanti işlemleri**'ni seçin.
 1. **Göster** alanının *tüm* veya *deftere nakledilmiş* olarak ayarlandığından emin olun.
 1. İncelemek istediğiniz işlem koleksiyonunu bulun ve seçin, sonra eylem bölmesinde, aşağıdaki düğmelerden birini seçin. (Bu düğmeler yalnızca seçili işlem koleksiyonu için ilgili deftere nakil varsa kullanılabilir.)
 
     - **Hedef işlemleri**: İlgili günlükleri ve seçili anlaşma tarafından oluşturulan diğer belge tiplerini gözden geçirin.
-    - **Maddeler**: Seçili anlaşma tarafından oluşturulan ilgili maddeleri gözden geçirin.
+    - **Maddeler**: Seçili anlaşma tarafından oluşturulan ilgili satış siparişlerini veya satınalma siparişlerini gözden geçirin.
 
 1. İlgili günlüklerin, belgelerin veya maddelerin listesi görüntülenir. Herhangi bir günlük, belge veya öğe hakkında daha fazla bilgi görüntülemek için, ilgili satırı seçin ve eylem bölmesinde **Ayrıntıları görüntüle**'yi seçin.

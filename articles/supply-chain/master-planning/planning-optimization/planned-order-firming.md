@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193893"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271220"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -123,8 +123,6 @@ Otomatik kesinleştirme zaman dilimi, ilgili kapsama ayarı için girdiğiniz g�
 Daha önce bahsedilen tüm saatleri *0* (sıfır) olarak ayarlarsanız, otomatik kesinleştirme ilgili kapsanan maddeler için etkili şekilde devre dışı bırakılır.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Sorgu kullanarak planlı siparişleri kesinleştirme
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Sorgu tabanlı kesinleştirme, önceden tanımlanan ölçütlere dayalı olarak kesinleştirmenizi sağlar. Otomatik kesinleştirmenin aksine sorgu tabanlı kesinleştirme, zaman içinde farklı zamanlarda farklı sipariş alt kümelerinin otomatik olarak kesinleştirilmesi için olanak sağlar. Ek olarak, planlı siparişlerin farklı tiplerini kesinleştirmek için el ile veya otomatikleştirilmiş operasyonları kullanabilirsiniz. Ayrıca, ayarlarınıza bağlı olarak hangi kesinleştirilmiş siparişlerin seçileceğini de önizleyebilirsiniz. Bu nedenle, seçimin beklentilerinize uygun olduğunu doğrulayabilirsiniz.
 

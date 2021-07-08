@@ -2,7 +2,7 @@
 title: Elektronik raporlama gelişmiş formül düzenleyicisi
 description: Bu konu, Elektronik raporlama (ER) model eşlemesi ve biçim bileşenlerinde ifade yapılandırmak için, gelişmiş formül düzenleyicinin nasıl kullanılabileceğini açıklamaktadır.
 author: NickSelin
-ms.date: 04/10/2020
+ms.date: 06/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d18aeedb2f21176ffe964b926168d4bf088a093b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751220"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270719"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektronik raporlama gelişmiş formül düzenleyicisi
 
@@ -45,16 +45,29 @@ Microsoft Dynamics 365 Finance kurulumunuzda gelişmiş formül düzenleyicisini
 2.  **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3.  **Kullanıcı parametreleri** iletişim kutusunun **Yürütme izleme** bölümünde **Gelişmiş formül düzenleyicisini etkinleştir** parametresini **Evet** olarak ayarlayın.
 
-[![ER yapılandırma sayfası](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi etkinleştir parametresi vurgulanmış olarak](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Bu parametrenin kullanıcıya özel ve şirkete özel olduğuna dikkat edin.
+
+Microsoft Dynamics 365 Finance sürüm 10.0.19'u kullanmaya başlayarak hangi ER formül düzenleyicisinin varsayılan olarak sunulacağını kontrol edebilirsiniz. Geçerli Finance kurulumunun tüm kullanıcıları ve şirketleri için Gelişmiş Formül Düzenleyicisini etkinleştirmek üzere aşağıdaki adımları tamamlayın.
+
+1.  **Özellik yönetimi** çalışma alanını açın.
+2.  Listede **ER gelişmiş formül düzenleyicisini tüm kullanıcılar için varsayılan olarak ayarla** özelliğini bulup seçin ve ardından **Şimdi etkinleştir** 'i seçin.
+3.  **Kuruluş yönetimi**  > **Elektronik raporlama** > **Yapılandırmalar**'a gidin.
+4.  **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
+5.  **Kullanıcı parametreleri** iletişim kutusunda, **Gelişmiş formül düzenleyicisini devre dışı bırak** parametresini bulun ve **Hayır** olarak ayarlandığını doğrulayın.
+
+[![Kullanıcı parametreleri iletişim kutusu, Gelişmiş formül düzenleyiciyi devre dışı bırak parametresi vurgulanmış olarak](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+
+> [!NOTE]
+> **Gelişmiş Formül Düzenleyicisini etkinleştir** ve **Gelişmiş Formül Düzenleyicisini devre dışı bırak** parametrelerinin değerleri her kullanıcı için ayrı tutulur ve **ER gelişmiş formül düzenleyicisini tüm kullanıcılar için varsayılan olarak ayarla** özelliğinin durumuna bağlı olarak **Kullanıcı parametreleri** iletişim kutusunda sunulur.
 
 ## <a name=""></a><a name="Autoformatting">Kodu otomatik biçimlendirme</a>
 
 Birden fazla kod satırı içeren karmaşık bir ifade yazdığınız zaman, yeni bir girilen satırın girintilemesi önceki satırın girintilemesine göre otomatik olarak yapılır. Satırları seçip girintilemelerini **Sekme**'ye veya **Üst Krkt+Sekme** tuşlarına basarak değiştirebilirsiniz.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![Satırları seçme ve girintiyi değiştirmeyi gösteren ER formül düzenleyicisi GIF dosyası](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Otomatik biçimlendirme, bakımı ve yapılandırılan mantığın anlaşılmasını kolaylaştırmak için tüm ifadeyi iyi biçimlendirilmiş durumda tutmanıza olanak sağlar.
 
@@ -62,7 +75,7 @@ Otomatik biçimlendirme, bakımı ve yapılandırılan mantığın anlaşılmas�
 
 Düzenleyici, ifadeyi daha hızlı yazmanıza ve yazım hatalarını önlemenize yardımcı olmak için sözcük tamamlama sağlar. Yeni metin eklemeye başladığınızda, düzenleyici, girdiğiniz karakterleri içeren ER işlevlerinde desteklenen işlevlerin bir listesini otomatik olarak sunar. Yapılandırılmış bir ifadenin herhangi bir yerinde **Ctrl + Boşluk** tuşlarına basarak IntelliSense'i de tetikleyebilirsiniz.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![IntelliSense tetiklemeyi gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Kod tamamlama</a>
 
@@ -72,7 +85,7 @@ Düzenleyici aşağıdaki eylemlerle kodun otomatik olarak tamamlanmasını sağ
 - İlk tırnak girilince ikincisini ekleyip, imleci tırnakların içinde tutarak.
 - İlk çift tırnak girilince ikincisini ekleyip, imleci tırnakların içinde tutarak.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![Kod tamamlamayı otomatik olarak sağlayan düzenleyiciyi gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Yazılan ayracın üzerine geldiğinizde, bu çiftin ikinci ayracı, destekledikleri yapıyı gösterecek şekilde otomatik olarak vurgulanır.
 
@@ -88,7 +101,7 @@ Komut paletini veya bağlam menüsünü kullanıp **Go to** komutunu yazarak ifa
 
 - **F1** tuşuna basın, **G** yazın, **Go to line**'ı seçin, **8** değerini girin ve **Enter** tuşuna basın.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![Komut paletini kullanarak bir ifadenin bölümlerinin nasıl bulunacağını gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Kod yapılandırma</a>
 
@@ -110,7 +123,7 @@ Tüm bölgeleri açmak için aşağıdakileri yapın:
   
 - **F1**'e basın, **UN** yazın, **Tümünü aç**'ı seçin ve **Enter**'a basın
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![Kodu açmayı gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Bul ve değiştir</a>
 
@@ -138,13 +151,13 @@ Belirli bir metnin tüm yinelemelerini değiştirmek için, ifadenizde metni se�
   
 - **F1** tuşuna basın, **C** yazın ve seçili metni değiştirmek için gerekli seçeneği belirleyin. Alternatif metni girin.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![Bul ve değiştiri gösteren ER formül düzenleyici GIF dosyası](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Veri kaynaklarını ve işlevleri yapıştırma</a>
 
 **Veri kaynağı** sol bölmesinde seçili olan bir veri kaynağını geçerli ifadeye yapıştırmak için **Veri kaynağı ekle**'yi seçebilirsiniz. Benzer şekilde, **İşlevler** sağ bölmesinde seçili olan bir işlevi geçerli ifadeye yapıştırmak için **İşlev ekle**'yi seçebilirsiniz. ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı yapılandırılan ifadenin hep sonuna yapıştırılır. Gelişmiş ER formül düzenleyicisi kullanıyorsanız, seçilen bir işlev veya seçilen bir veri kaynağı, yapılandırılan ifadenin herhangi bir yerine yapıştırılır. Verileri yapıştırmak istediğiniz yeri belirtmek için imleci kullanmanız gerekir.
 
-[![ER formül düzenleyicisi](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![Veri kaynağı eklemeyi ve bir işlevi yapıştırmayı gösteren ER formül düzenleyicisi GIF dosyası](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Sözdizimi renklendirme</a>
 

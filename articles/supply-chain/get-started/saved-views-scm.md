@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821261"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270671"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Supply Chain Management için standart kayıtlı görünümler
 
@@ -79,16 +79,14 @@ Aşağıdaki tabloda, Tedarik ve kaynak atama modülü için kullanılabilir kay
 
 ## <a name="saved-views-for-the-production-control-module"></a>Üretim denetimi modülü için kayıtlı görünümler
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Aşağıdaki tabloda, Üretim denetimi modülü için kullanılabilir kayıtlı görünümler açıklanmaktadır.
 
 | Sayfa | Görünüm adı | Görünüm açıklaması | Özellik adı |
 |---|---|---|---|
-| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
-| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
-| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
-| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | (Önizleme) Üretim denetimi için kayıtlı görünümler |
+| Üretim emri ürün reçetesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
+| Üretim emri ayrıntıları sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
+| Üretim emri malzeme çekme listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
+| Üretim emirleri listesi sayfası | Basitleştirilmiş | Bu basitleştirilmiş görünüm, yalnızca en sık kullanılan alanları içerir. Bu şekilde, daha hızlı bir genel bakış ve kolay bir iş süreci sağlar. | Üretim denetimi için kayıtlı görünümler |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Satış ve pazarlama modülü için kayıtlı görünümler
 

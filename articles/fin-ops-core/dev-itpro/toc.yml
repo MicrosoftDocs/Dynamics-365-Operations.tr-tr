@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: 10.0.18 için platform güncelleştirmeleri (Mayıs 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: 10.0.17 için platform güncelleştirmeleri (Nisan 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Kaldırılan veya kullanım dışı bırakılan özellikler
               items:
                 - name: Kaldırılan veya kullanım dışı bırakılan özellikler giriş sayfası
@@ -274,10 +272,12 @@
               href: data-entities/azure-data-lake-overview.md
             - name: Azure Data Lake'e aktarmayı yapılandırma
               href: data-entities/configure-export-data-lake.md
-            - name: Azure Data Lake'deki Finance and Operations uygulamaları
+            - name: Azure Data Lake'teki Finance and Operations uygulamaları
               href: data-entities/finance-data-azure-data-lake.md
             - name: Varlık deposunu Data Lake olarak kullanılabilir yapma
               href: data-entities/entity-store-data-lake.md
+            - name: Azure Data Lake'te verileri değiştirme
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Veritabanı taşıma işlemleri
           items:
             - name: Genel bakış

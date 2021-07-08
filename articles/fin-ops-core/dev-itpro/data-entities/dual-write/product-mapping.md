@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941208"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306401"
 ---
 # <a name="unified-product-experience"></a>Birleşik ürün deneyimi
 
@@ -124,7 +124,7 @@ Dynamics 365 Sales'den ürün aileleri oluşturma, ürünlerin çift yazma eşit
 
 Ürünün farklı ürün boyutları (örneğin, ürün boyutu olarak Boyut ve Renk boyutu bulunan bir ana ürün) olduğunda, her ayrı ürün (her bir ürün çeşidi) bu ürün boyutlarının bir birleşimi olarak tanımlanır. Örneğin, ürün numarası B0001 extra small beden siyah tişört ve ürün numarası B0002 small beden siyah tişörttür. Bu durumda, ürün boyutlarının var olan birleşimleri tanımlanmıştır. Örneğin, önceki örnekteki Tişört extra small ve siyah, small ve siyah, medium ve siyah veya large ve siyah olabilir, ancak extra large ve siyah olamaz. Başka bir deyişle, bir ana ürünün alabileceği ürün boyutları belirtilir ve ürün çeşitleri bu değerlere dayalı olarak serbest bırakılabilir.
 
-Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıdaki tablolar oluşturulur ve her ürün boyutu için Dataverse'te eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](../../../supply-chain/pim/product-information.md).
+Bir ana ürünün alabileceği ürün boyutlarını takip etmek için aşağıdaki tablolar oluşturulur ve her ürün boyutu için Dataverse'te eşlenir. Daha fazla bilgi için bkz. [Ürün bilgilerine genel bakış](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

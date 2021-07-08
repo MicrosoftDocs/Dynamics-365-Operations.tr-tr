@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923319"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270825"
 ---
 # <a name="feature-management-overview"></a>Özellik yönetimine genel bakış
 
@@ -160,8 +160,8 @@ Hayır, özelliği zorunlu hale getirme otomatik bir eylem değildir. Ürün eki
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Neden belirli bir "zorunluluk nedeniyle etkinleştirme tarihi" yok? 
 Güncelleştirme sürümü zamanlaması değişkendir, ortam güncelleştirme zamanlaması değişkendir ve müşteriler bazı güncelleştirmeleri atlamayı isteyebilir. Sonuç olarak, belirli tarihler belirlenmesi zordur. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Zorunlu hale getirilen özellikler için belgeler nerededir? 
-Belgeler, uygulama takımlarından gelir. Bunlar genellikle [Kaldırılan veya kullanım dışı bırakılan özellikler](../../../dev-itpro/migration-upgrade/deprecated-features.md) bölümünde belirtilir. 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Zorunlu özellikler için belgeler nerededir? 
+Bu belgeler, Dynamics 365 uygulama takımlarından gelir. Bu özelliklerden genellikle [İstemci özellik durumlarına yapılan güncelleştirmeler](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) veya [Kaldırılmış ya da kullanım dışı özellikler](../../../dev-itpro/migration-upgrade/deprecated-features.md) bölümünde bahsedilir. 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Bir özelliğin zorunlu olarak etkinleştirileceğini belirten bir ürün içi bildirim veya sinyal var mıdır? 
 Özelliği zorunlu hale getirme ile ilgili bir bildirim mekanizması şu anda mevcut değildir.

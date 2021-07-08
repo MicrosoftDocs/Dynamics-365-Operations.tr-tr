@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020399"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270969"
 ---
 # <a name="rebate-management-deal-workflows"></a>İndirim yönetimi anlaşması iş akışları
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020399"
 
 İndirim anlaşmalarını onaylamak için, İndirim yönetimi, diğer Finance and Operations uygulamalarıyla aynı iş akışı platformunu kullanır. İki iş işlemi her iş akışı ile ilişkilendirilmiştir:
 
-- İş akışının bir öğesi, Kullanıcı veya iş akışı işleminin hareketleri onaylaması için, anlaşmayı etkinleştirir.
 - İş akışının bir öğesi anlaşmayı onaylar.
+- İş akışının bir öğesi, Kullanıcı veya iş akışı işleminin hareketleri onaylaması için, anlaşmayı etkinleştirir.
 
 İndirim anlaşması kullanabilmeniz için, bunun **indirim Yönetimi** modülünde etkin olması gerekir. Bir anlaşmayı etkinleştirmek için önce bir *indirim yönetimi anlaşma iş akışı* oluşturmalı ve konfigüre etmelisiniz.
 
-İndirim yönetimi için iş akışı etkinleştirildikten sonra, kullanıcılar anlaşmaları el ile onaylayamaz. İş akışının her zaman kullanılması gereklidir.
+Kullanıcılar fırsatları el ile onaylayamaz. İş akışının her zaman kullanılması gereklidir.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>İndirim yönetimi anlaşması iş akışlarını oluşturma ve yönetme
 
@@ -42,4 +42,17 @@ ms.locfileid: "6020399"
 
 Bir iş akışı üzerinden bir anlaşmayı etkinleştirmek için, anlaşmayı açın (örneğin, **tüm indirim yönetimi anlaşmaları** sayfasında). Ardından Eylem bölmesinden **İş akışı \> Gönder**'i seçin. Yeni anlaşma iş akışı ile işlendikten ve onaylandıktan sonra, etkin ve kullanıma hazır olur.
 
-Bir anlaşma etkinleştirildikten sonra, kurulumunu değiştiremezsiniz. Etkin bir anlaşmayı değiştirmeniz gerekiyorsa, bunu devre dışı bırakın ve sonra yeni bir anlaşma oluşturun. Yeni anlaşma eski anlaşmayı benziyorsa, eski anlaşmayı kopyalayarak bunu oluşturabilirsiniz.
+Bir anlaşma etkinleştirildikten sonra, kurulumunun büyük bölümünü değiştiremezsiniz. Etkin bir anlaşmayı değiştirmeniz gerekiyorsa, önce bunu devre dışı bırakın ve sonra yeni bir anlaşma oluşturun. Yeni anlaşma eski anlaşmayı benziyorsa, eski anlaşmayı kopyalayarak bunu oluşturabilirsiniz.
+
+Bir anlaşma etkinleştirildikten sonra aşağıdaki ayarları değiştirebilirsiniz:
+
+- Mutabakat ölçütü
+- Kümülatif garanti
+- Deftere nakil profili
+- Garanti için nakil profili
+- Belge notları
+- Para Birimi
+- Başlangıç tarihi
+- Bitiş tarihi
+
+Ayrıca, indirim satırları kaldırılabilir.

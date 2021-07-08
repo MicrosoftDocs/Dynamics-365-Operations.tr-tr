@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938312"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261758"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Üretim ve ambar yönetimi iş yükleri için bulut ve uç ölçek birimleri
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938312"
 > [!IMPORTANT]
 > Microsoft Dynamics 365 Supply Chain Management ölçek birimi özelliği, hizmetin kullanımını düzenleyen koşullar altında kullanıma sunulur. Daha fazla bilgi için [Microsoft Dynamics Yasal Bilgiler](https://go.microsoft.com/fwlink/?LinkID=290927) bölümüne bakın.
 >
-> Bulut ve uç ölçek birimlerini etkinleştirerek, bulut ve uç ölçek birimlerinin yapılandırması ve işlenmesiyle ilgili bazı verilerin ABD'de bulunan bir veri merkezinde depolanabileceğini anladığınızı onaylamış olursunuz. Bulut ve uç ölçek birimleri için veri işleme hakkında daha fazla bilgi edinmek için, bu konunun sonraki bölümlerinde yer alan [Ölçek birimleri yönetimi sırasında veri işleme](#data-processing-management) bölümüne bakın.
+> Bulut ve uç ölçek birimlerini etkinleştirdiğinizde, bulut ve uç ölçek birimlerinin yapılandırması ve işlenmesiyle ilgili bazı verilerin ABD'de bulunan bir veri merkezinde depolanabileceğini anladığınızı onaylamanız istenir. Bulut ve uç ölçek birimleri için veri işleme hakkında daha fazla bilgi edinmek için, bu konunun sonraki bölümlerinde yer alan [Ölçek birimleri yönetimi sırasında veri işleme](#data-processing-management) bölümüne bakın.
 
 ## <a name="core-value-proposition-for-scale-units"></a>Ölçek birimleri için temel değer önerisi
 
