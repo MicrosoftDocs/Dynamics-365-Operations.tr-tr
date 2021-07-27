@@ -2,7 +2,7 @@
 title: Personel eylemleriyle ilgili SSS
 description: Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054560"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333031"
 ---
 # <a name="personnel-actions-faq"></a>Personel eylemleriyle ilgili SSS
 
@@ -51,7 +51,7 @@ Personel eylemleri aşağıdaki durumlara sahip olabilir:
 - **Engellendi** – Eylem talebi onaylayıcı tarafından engelledi.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Bir personel eylemini silebilir miyim?
-Evet, **Taslak**, **Hata**, **Başarısız** veya **İptal edilmiş** durumuna sahip personel eylemlerini silebilirsiniz.
+Evet, **Taslak**, **Hata**, **Başarısız** veya **İptal edilmiş** durumuna sahip personel eylemlerini silebilirsiniz. Yalnızca **Tamamlandı** durumundaki çalışanların eylemlerini , yalnızca **İnsan kaynakları paylaşılan parametreleri** sayfasında **Tamamlanan çalışan eylemlerini silmeye izin ver**'i **Evet** olarak ayralamış olmanız durumunda silebilirsiniz.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Bir personel eylemi talebinin durumunu denetlemenin en hızlı yolu nedir?
 Personel eylemi listesi sayfalarından herhangi birini açın ve bir personel eylemi seçin.
@@ -68,7 +68,7 @@ Bir personel eylemi talebi başarısız olursa, hatayı çözümlemek ve talebi 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Son onay tamamlandığında iş akışı kullanan bir personel eylemine ne olur?
 Bir hata yoksa, personel eylemi salt okunur olur. (Geçmişi **Tüm çalışan eylemleri** liste sayfasında görebilirsiniz ancak personel eylemini değiştiremezsiniz.) Personel eyleminin durumu **Tamamlandı** ise, pozisyon veya çalışan kaydı zaten güncelleştirilmiştir. Gerçekleştirilen değişiklikleri görüntülemek için **Pozisyonlar** veya **Çalışanlar** liste sayfasını açın.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Ödeme oranı alanında sıfır olmayan bir değer girdiğimde neden aşağıdaki hatayı alıyorum? "Değer geçerli aralığın dışında" – 0,00 ve 0,00 arasında olmalıdır"
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Ödeme oranı alanında sıfır olmayan bir değer girdiğimde neden aşağıdaki hatayı alıyorum? "Değer geçerli aralığın dışında – 0,00 ve 0,00 arasında olmalıdır"
 Bu mesajı alıyorsunuz çünkü İş formunda bulunan Düzey alanı, seçilen konum ile ilişkilendirilmiş iş için boş.
 
 Bu hatayı gidermek için şu adımları izleyin:

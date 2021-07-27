@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222624"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309677"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Genel önizleme için Finance Insights (önizleme) sürüm 10.0.20 ve sonrası için yapılandırma
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222624"
 Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konu, genel önizleme için Finance Insights sürüm 10.0.20 ve sonrasında bulunan özellikleri sisteminizin kullanabilmesi için Dynamics 365 Finance sürüm 10.0.20'yi yapılandırma yöntemini açıklamaktadır.
 
 > [!NOTE]
-> Bu konuda açıklanan yapılandırma adımları yalnızca Finance sürüm 10.0.20 ve sonrası için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.18'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
+> Bu konuda açıklanan yapılandırma adımları yalnızca Finance sürüm 10.0.20 ve sonrası için geçerlidir. Finance Insights'ı sürüm 10.0.19 ve öncesinde ayarlamak için bkz. [Sürüm 10.0.19'e kadar Finance Insights yapılandırmaları](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Finance'i Dağıtma
 
@@ -748,6 +748,8 @@ Bu adımları izleyip, Finance Insights eklentisini yükleyin.
 2. **Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.
 3. **Finance Insights** eklentisini seçin.
 4. Koşulları kabul edin ve ardından **Yükle**'yi seçin.
+
+Eklentinin yüklenmesi birkaç dakika sürebilir.
 
 ## <a name="feedback-and-support"></a>Geri bildirim ve destek
 

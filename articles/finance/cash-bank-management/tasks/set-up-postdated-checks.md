@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026217"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309778"
 ---
 # <a name="set-up-postdated-checks"></a>İleri tarih atılmış çekleri ayarlama
 
@@ -58,6 +58,7 @@ Bu yordamın rolü Haznedar'dır. Bu yordam, USMF demo şirketini kullanır.
 > 
 > **Ödeme yöntemi**'ni ayarlarken ( **Borç hesapları > Ödeme kurulumu > Ödeme yöntemleri**), **Bağlantılı hesap** alanını doldurmayın. Bu durumda, mahsup hesap, **Ödeme yöntemi**'nde ayarlanan banka hesabıyla doldurulur.
 >  
-> Özellik etkinleştirildiğinde ve oturum tarihi vade tarihinden erken bir tarihteyse, ödeme günlüğü deftere nakledilirken şu hata iletisi görüntülenir: "Mahsup hesap türü Banka ise, vade tarihinin oturum tarihine eşit veya bu tarihten erken olması gerekir". Özellik etkinleştirilmemişse, oturum tarihi vade tarihinden erken olduğunda ödeme günlüğünü ileri tarihli bir çekle deftere nakledebilirsiniz.    
+> Özellik etkinleştirildiğinde ve oturum tarihi vade tarihinden erken bir tarihteyse, ödeme günlüğü deftere nakledilirken şu hata iletisi görüntülenir: "Mahsup hesap türü Banka ise, vade tarihinin oturum tarihine eşit veya bu tarihten erken olması gerekir". Özellik etkinleştirilmemişse, oturum tarihi vade tarihinden erken olduğunda ödeme günlüğünü ileri tarihli bir çekle deftere nakledebilirsiniz.
+> Bu özellik 10.0.21 sürümü ve sonrasında bulunur.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

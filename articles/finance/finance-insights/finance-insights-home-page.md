@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261922"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338241"
 ---
 # <a name="finance-insights-home-page-preview"></a>Mali içgörüler giriş sayfası (önizleme)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261922"
 
 Mali içgörüler, şirketinizin nakit akışını doğru ve anlaşılır şekilde tahmin etmek için yapılandırılabilir ve genişletilebilir modeller sağlar, bekleyen alacak ödemeleri için ödemeyi ne zaman alacağınızı tahmin eder ve bütçeleme sürecinizi hızlandırabilecek bir bütçe teklifi oluşturur. Tüm bu özellikler akıllı makine öğrenimi modellerine dayanır. Bu yeni özellikler satıcı ödemeleri ve tahsilatlardaki otomasyonla birleştirildiğinde, karar verme sürecini hızlandıran ve geçerli ve beklenen ticari zorluklara etkili şekilde yanıt vermek üzere önlem almanıza yardımcı olan kapsamlı ve akıllı finans sistemi sunar.
 
-Mali içgörüler önizlemesi, Amerika Birleşik Devletleri, Avrupa ve Birleşik Krallık'ta denetim dağıtımları için kullanılabilir. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır.
-
-Önizleme özellikleri, yalnızca Katman 2 korumalı alan ortamlarında açık olabilir ve açılmalıdır. Korumalı alan ortamında oluşturulan kurulum ve yapay zeka (AI) modelleri, üretim ortamına geçirilemez. Daha fazla bilgi için bkz. [Microsoft Dynamics 365 Önizlemeleri için Ek Kullanım Koşulları](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> Finance Insights önizlemesi, Amerika Birleşik Devletleri, Kanada, Avrupa, Asya Pasifik, Avusturalya, Yeni Zelanda ve Birleşik Krallık'ta dağıtım için sunulmuştur. Microsoft, destek sunduğu bölge sayısını kademeli olarak artırmaktadır. Finance Insights'ı Üretim ortamlarında etkinleştirmek için [Data Lake'e aktar](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) özelliklerinin üretim ortamında etkinleştirilmiş olması gerekir.
 
 > [!NOTE]
 > Bu işlevsellik, bir önizleme özelliği kümesi olarak sunuluyor. Önizleme özelliği olduğundan, elde edilen makine öğrenimi modellerini iş kararlarını almak veya bütçeleme tekliflerine yön vermek için kullanmamalısınız. Bu özelliğin kullanımı [Ek Kullanım Koşulları](https://go.microsoft.com/fwlink/?linkid=2105274) tarafından yönetilir.
@@ -46,7 +47,7 @@ Bu bölümde, Mali içgörülerin kullanımıyla ilgili gereksinimler listelenmi
 
 ### <a name="system-requirements"></a>Sistem gereksinimleri
 
-Mali içgörüleri önizlemek için Katman 2 korumalı alan ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
+Finance Insights önizlemesi için Katman 2 ortamı (çoklu kutu) gereklidir. Ortamlar hakkında arka plan bilgileir için [Ortam planlama](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) konusuna bakın.
 
 ### <a name="version-requirements"></a>Sürüm gereksinimleri
 
@@ -55,8 +56,6 @@ Bu belge, Finance and Operations uygulamalarının (Platform update 35) 10.0.11 
 ### <a name="historical-data-requirements"></a>Geçmişe ait veri gereksinimleri
 
 Müşteri ödeme tahminleri özelliği için kullanılan makine öğrenimi modelinin doğru şekilde eğitimi için en az bir yıllık müşteri faturası gereklidir.
-
-Contoso tanıtım veri kümesine sahip tanıtım sistemleri için örnek veriler mevcuttur.
 
 ### <a name="role-and-permission-requirements"></a>Rol ve izin gereksinimleri
 
@@ -72,7 +71,7 @@ Azure, Microsoft Dataverse ve LCS'te kaynak oluşturma ve yönetme işlemi hakk�
 ## <a name="configure-finance-insights"></a>Mali içgörüleri yapılandırma
 
 Mali içgörüleri kullanabilmeniz için bazı yapılandırma adımlarını tamamlamanız gerekir. Finans Insights'ı yapılandırma hakkında daha fazla bilgi için bkz.
-  - 10.0.19 sürümüne kadar olan sürümler için: [10.0.19 sürümüne kadar Finance Insights yapılandırması](configure-for-fin-insites.md).
+  - 10.0.19 sürümüne kadar olan sürümler için: [10.0.19 sürümüne kadar Finance Insights (önizleme)](configure-for-fin-insites.md).
   - 10.0.20 ve sonrasındaki sürümler için: [10.0.20 sürümü ve sonrası için Finance Insights (preview) yapılandırması](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Veri tümleştirici projesi oluşturma

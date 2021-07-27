@@ -15,43 +15,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4a64794a0e04516441fab628d441640e4d154b8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36fe4c8376ad0364516c0268965c798e20436c6
+ms.sourcegitcommit: 3a9599e9b9458434c0e44d295eabd2304c5650be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796909"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334437"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Birden fazla müşteri siparişi ve faturasındaki maddeleri iade etme
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Birden fazla müşteri siparişi ve faturası arasında iade kalemleri
 
 [!include [banner](includes/banner.md)]
 
 
-Bu makalede, müşteri siparişi iadelerini birden fazla fatura üzerinden en iyi duruma getiren iki özellik açıklanmaktadır. 
+İadeler, birden fazla sipariş ve fatura arasında yapılabilir. 
 
-## <a name="enable-refunds-over-multiple-captures"></a>Birden fazla yakalama üzerinden geri ödemeleri etkinleştir
+## <a name="configure-commerce-to-support-returns-across-multiple-customer-order-and-invoices"></a>Birden fazla müşteri siparişi ve faturası arasındaki iadeleri desteklemek için Commerce'i yapılandırma
 
-Bu özellik aynı müşteri siparişine karşı çoklu bağlantılı geri ödemeleri etkinleştirir. 
-
-1. **Özellik yönetimi** çalışma alanına gidin ve **Çoklu yakalamalar üzerinde geri ödemeleri etkinleştir**'i arayın.
-2. **Çoklu siparişler üzerinde geri ödemeleri etkinleştir**'i seçin ve **Etkinleştir**'e tıklayın. 
-
-## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Kısmi miktarlı iadeler için doğru vergi hesaplamasını etkinleştirme
-
-Bu özellik, bir sipariş birden çok fatura kullanılarak iade edildiğinde, vergilerin sonunda uygulanan vergi tutarına eşit olmasını sağlar. 
-
-1. **Özellik yönetimi** çalışma alanına gidin ve **Kısmi miktarlı iadeler için uygun vergi hesaplamasını etkinleştir**'i arayın.
-2. **Kısmi miktarlı iadelerle ilgili doğru vergi hesaplamasını etkinleştir**'ı seçin ve ardından **Etkinleştir**'e tıklayın. 
-
+1. **Commerce parametreleri \> Müşteri siparişleri**'ne gidin.
+1. **Birden fazla sipariş için iadeleri etkinleştirme** parametresini açın. 
 
 ## <a name="process-returns"></a>İadeleri işleme
 
-Bu özellikler açıldıktan ve değişiklikler mağazalar ile eşitlendikten sonra mağazadaki kasiyer, iadeye yönelik olarak bir müşteri için birden fazla satış siparişi seçebilir.
+Parametre açıldıktan ve değişiklikler mağazalar ile eşitlendikten sonra mağazadaki kasiyer, iadeye yönelik olarak bir müşteri için birden fazla satış siparişi seçebilir.
 
 Siparişler seçildiğinde siparişler için tüm faturalar arasında tüm iade edilebilir ürünlerin listesi görüntülenir. Daha sonra kasiyer, iade edilecek ürünleri seçebilir. Seçilen tüm ürünler için tek bir iade emri oluşturulur.
-
-Sipariş tam olarak iade edilirse müşteriye iade edilen vergilerin tutarı başlangıçta uygulanan vergi tutarına eşit olur.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

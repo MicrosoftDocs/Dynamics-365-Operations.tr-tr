@@ -351,10 +351,12 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Bir izin isteğini iş akışına gönderme
                       href: hr-developer-api-myleaverequests-submit.md
-        - name: ATS tümleştirme API'sı
+        - name: ATS tümleştirme API'si
           items:
             - name: Giriş
               href: hr-admin-integration-ats-api-introduction.md
+            - name: ATS tümleştirmeleri için sunucudan sunucuya kimlik doğrulaması
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: İşe alma isteği ve ilgili varlıklar
               items:
                 - name: İşe alma isteği
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Bordro varlıkları oluşturma ve gözden geçirme
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Bordrolu personel
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Bordrolu çalışanın adresi
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Bordro sabit ücret planı
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Bordrolu pozisyon işi
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Bordrolu pozisyon
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Bordro tümleştirme parametreleri
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Bordro varlıkları
+              items:
+                - name: Bordrolu personel
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Bordrolu çalışanın adresi
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Bordro sabit ücret planı
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Bordro değişken ücret planı
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Bordrolu pozisyon
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Bordrolu pozisyon işi
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: İzin ve devamsızlıkla ilgili varlıklar
+              items:
+                - name: İzin bakiyesi
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: İzin türü
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: İzin isteği
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Seçenek kümeleri
+              items:
+                - name: Cinsiyet
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Hayır Evet
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: İkramiye türü
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: İşlem türü
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Kullanıcı Kılavuzu
       items:
         - name: Genel bakış
@@ -599,6 +625,8 @@
           items:
             - name: İş gücünüzü düzenleme
               href: hr-personnel-departments-jobs-positions.md
+            - name: Personel yönetimi çalışma alanı
+              href: hr-personnel-personnel-management-workspace.md
             - name: İşin bileşenlerini ayarlama
               href: hr-personnel-jobs.md
             - name: Departmanları tanımlama
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: İşleri tanımlama
               href: hr-personnel-define-jobs.md
+            - name: Pozisyonlar
+              href: hr-personnel-positions.md
             - name: Çalışma zamanları takvimi oluşturma
               href: hr-personnel-create-working-time-calendar.md
             - name: İş adaylarını işe alma
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Kişisel bilgilerin düzenlenmesini kısıtlama
               href: hr-employee-self-service-restrict-editing.md
+        - name: İş akışı sistemini kullanma
+          items:
+            - name: İş akışı sistemine genel bakış
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı sistemi mimarisi
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı öğeleri
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı eylemleri
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışları oluşturma
+              items:
+                - name: İş akışlarına genel bakış
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı özelliklerini yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: El ile girilen görevleri yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Otomatik görevleri yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Onay süreçlerini yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Onay adımlarını yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Harcama gözden geçirenlerini yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: El ile girilen kararları yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Koşullu kararları yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Paralel faaliyetleri yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Paralel dalları yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Satır maddesi iş akışlarını yapılandırma
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş Akışı İletisi İşleme toplu işini önemli olarak yapılandırma
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışındaki iş öğelerini devretme
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı geçmişini görüntüleme
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı türleri
+              items:
+                - name: İş akışı türü oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı türü kontrol listesi
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı kategorisi oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı türü için sorgu oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Yeni iş akışı türü oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı belgesi sınıfı oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: SubmitToWorkflow sınıfı oluşturma
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: İş akışı belgesi sınıfını iş akışı türüyle ilişkilendirme
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışı türleri raporu
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: İş akışıyla ilgili SSS
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
