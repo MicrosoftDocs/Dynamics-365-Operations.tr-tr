@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820823"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350658"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Satıcı ödeme tekliflerini otomatikleştirme
 
@@ -97,11 +97,11 @@ Gereksinimlerinize göre, otomasyonunuzun kuruluşunuza yararlı olacağını de
 
 Satıcı ödeme teklifi Otomasyon serisi oluşturulduktan sonra, her bir ödemenin örnekleri İşlem Otomasyonu haftalık görünümünde gösterilir. Satıcı ödemeleri için İşlem Otomasyonu haftalık görünümü hem **Satıcı ödemeleri** çalışma alanına hem de **İşlem otomasyonu** sayfasına eklenmiştir.
 
-[![Satıcı ödemeleri çalışma alanında işlem otomasyonu haftalık görünümü](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Satıcı ödemeleri çalışma alanında işlem otomasyonu haftalık görünümü.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 **Satıcı ödemeleri** çalışma alanında, işlem otomasyonu haftalık görünümü yalnızca satıcı ödeme teklifi tahminleri gösterir. Bu, geçerli hafta için tüm ödemelerin oluşumlarını, oturum açan kullanıcının güvenlik izinleri olan tüm yasal varlıklar için gösterir. Örneğin, USBMF ve USSI şirketlerinde bulunan ödemelerden BH ödeme memuru sorumlu ise, bu iki şirket için satıcı ödeme teklifi otomasyonunun tekrarlamalarını görür, ancak diğer şirketler için görmez.
 
-[![USMF ve USSI şirketleri için işlem otomasyonu haftalık görünümü](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![USMF ve USSI şirketleri için işlem otomasyonu haftalık görünümü.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Her oluşum, ödeme günlüğünün oluşturulacağı şirketi gösterir. Ödemeler Merkezi ödemeler kullanılarak oluşturulduysa, gösterilen şirket ödemede oluşturulacağı şirkettir. Oluşum, hangi şirket faturalarının ödeneceğini göstermelidir.
 

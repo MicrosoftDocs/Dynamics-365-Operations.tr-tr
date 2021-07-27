@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193762"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345824"
 ---
 # <a name="financial-analysis"></a>Mali Analiz
 
@@ -60,7 +60,7 @@ Mali tablolarda görünmesi ve KPI'lar gibi çeşitli diğer görsellere dahil e
 ## <a name="entity-store"></a>Varlık deposu
 **Mali analiz** için veriler Varlık deposundan alınır (**Sistem yönetimi** \> **Kurulum** \> **Varlık deposu**). **CFO'ya genel bakış** veya **Mali analiz** çalışma alanını açarsanız ve görsellerde aşağıdaki uyarı iletisi görüntülenirse, varlıkları güncelleştirmeniz gerekir.
 
-![Uyarı](./media/Cantdisplay.png)
+![Uyarı.](./media/Cantdisplay.png)
 
 **Mali analiz** çalışma alanında verileri görmek için aşağıdaki varlıkları güncelleştirmeniz gerekir:
 
@@ -124,7 +124,7 @@ Kullanıcılar soldaki **Filtre** bölmesini kullanarak rapora filtre uygulayabi
 - **Görsel düzeyindeki filtreler**: Bu filtreler yalnızca seçilen görsele uygulanır. Bu filtreler sayfa düzeyinde filtrelerin üzerinde uygulanır.
 - **Ayrıntılandırma filtresi**: Bu filtre, kaynak görselden geçerli görsele ayrıntılandırma yaptığınızda geçerli görsele uygulanan "kaynak" görselden filtreleme yapar.
 
-![Filtre seçenekleri](./media/filter.png)
+![Filtre seçenekleri.](./media/filter.png)
 
 Bir özel filtre değerini kaldırmak için yanındaki silgi simgesini seçin. Filtreyi X öğesini seçerek kaldırmayın. X öğesini seçerseniz filtre uyguladığınız alan filtre seçeneği olarak kaldırılır. Bir alanı filtreden yanlışlıkla kaldırırsanız çalışma alanını kapatıp yeniden açın. Varsayılan filtre ayarları yeniden uygulanacaktır.
 
@@ -169,25 +169,25 @@ Power BI ile çeşitli ayrıntıya inme düzeyleri kullanılabilir. Her düzey f
 
 Aşağıdaki örnekte, **Mizan** tablosu satır hiyerarşisinin en üst düzeyi olan ana hesap türüne daraltılmıştır.
 
-![Mizan ekstresi](./media/trial-balance.png)
+![Mizan ekstresi.](./media/trial-balance.png)
 
 Hiyerarşinin sonraki düzeyi olan ana hesap kategorilerini görüntülemek için **Ayrıntıya in** alanını **Satırlar** olarak ayarlayıp **Genişlet** düğmesini (Alanda Ayrıntıya İn'den sonraki üçüncü düğme) seçin. Şimdi tüm ana hesap kategorilerini genişletilmiş olarak görürsünüz. Şu anda, Power BI yalnızca bir satırı veya sütunu genişletmenize olanak tanımamaktadır; diğer tüm satırları veya sütunları görürsünüz.
 
-![Satırlarda Mizan detayına git](./media/trial-balance2.png)
+![Satırlarda Mizan detayına gitme.](./media/trial-balance2.png)
 
 Tüm satırlar için ana hesaplara genişletmek üzere tekrar **Genişlet** düğmesini kullanabilirsiniz. Ancak, yalnızca bir satır için ana hesapları ayrıntılı incelemek üzere öncelikle **Ayrıntıya in** düğmesini (pencerenin sağ tarafındaki aşağı doğru bakan tek ok) ve ardından ayrıntılı incelenecek olan satırı seçin. Aşağıdaki örnekte, **Ayrıntıya in** düğmesinin ardından **Satış** satırı seçildiğinde ortaya çıkan sonuç gösterilmektedir.
 
-![Mizan genişletme düğmesi](./media/trial-balance3.png)
+![Mizan genişletme düğmesi.](./media/trial-balance3.png)
 
 Tek bir satırda ayrıntılara indikten sonra, tam mizana dönmek için birden fazla tıklama yapmanız gerekir. **Genele git** düğmesi (alanda **Ayrıntıla**'dan sonraki ilk düğme) aşağıdaki örnekte gösterildiği gibi yalnızca **Satış** kategorisi bağlamında genele doğru gider.
 
-![Mizan detayından çık düğmesi](./media/trial-balance4.png)
+![Mizan detayından çık düğmesi.](./media/trial-balance4.png)
 
 Satırlar için en üst özet düzeyine dönmek için **Genele git** düğmesini kullanmaya devam edebilirsiniz.
 
 Power BI'da ayrıca hiyerarşide sonraki aşamaya gitmenizi sağlayan bir düğme bulunur (alanda **Ayrıntıla**'dan sonraki ikinci düğme). Bu düğmenin etkisi hiyerarşi genişletmek için kullanılan **Genişlet** düğmesinden farklıdır (alanda **Ayrıntıla**'dan sonraki üçüncü düğme). Hiyerarşiyi genişlettiğinizde, hiyerarşi raporda tutulur. Örneğin, daha önce gösterildiği gibi, ana hesap türü üzerinde genişletirseniz, raporda ana hesap türünü görmeye devam edersiniz. Ancak, hiyerarşide sonraki düzeye gittiğinizde, rapor aşağıdaki örnekte gösterildiği gibi artık hiyerarşideki üst öğeyi göstermez.
 
-![Mizan detayına geri dön düğmesi](./media/trial-balance5.png)
+![Mizan detayına geri dön düğmesi.](./media/trial-balance5.png)
 
 Özetlenmiş bakiyelerin arkasındaki hareket ayrıntılarını görmek için, Finance and Operations'ta bazı tutarlar için geriye doğru ayrıntılandırma yapmayı seçebilirsiniz.
 
@@ -226,7 +226,7 @@ Sütunlar için hiyerarşi tüzel kişiliklere ve mali dönemlere odaklanır. Ç
 ## <a name="data-limitations"></a>Veri sınırlamaları
 Mali tablo görsellerinde gösterilecek satır sayısı için sınır vardır. Şu anda sınır 30.000 olarak ayarlanmıştır. Bu sınırı aşmanız durumunda, görselde size bu durumu bildiren bir uyarı simgesi bulunacaktır.
 
-![Veri sınırlamaları](./media/data-limit.png)
+![Veri sınırlamaları.](./media/data-limit.png)
 
 Üst sınır aşılırsa, tüm satırlar görsele yüklenmeyeceğinden mali tabloda gösterilen toplamlar yanlış olacaktır.
 

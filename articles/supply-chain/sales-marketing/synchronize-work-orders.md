@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 0956e7aa51973014ee474d97829d3d15dfdea3b3
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a641789adf27e51b7a3f8ab03269cc2e748eef96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909955"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359823"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-supply-chain-management"></a>Proje içeren iş emirlerini Field Service'ten Supply Chain Management'a eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "5909955"
 
 Bu konu iş emirlerini Dynamics 365 Field Service bir proje numarasına üzerinden Dynamics 365 Supply Chain Management üzerine eşitlemekte kullanılan şablonları ve alttaki görevi açıklar.
 
-[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Kullanılan **Proje İçeren İş Emirleri (Field Service'ten Supply Chain Management'a)** şablonu, **İş Emirleri (Field Service'ten Supply Chain Management'a)** şablonuna dayanmaktadır. Daha fazla bilgi için bkz. [Field Service'teki iş emirlerini Supply Chain Management'taki satış siparişlerine eşitleme](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
@@ -61,19 +61,19 @@ Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheader"></a>Proje İçeren İş Emirleri (Field Service'ten Supply Chain Management'a): WorkOrderHeader
 
-[![Veri tümleştirmede şablon eşleme](./media/FSWOP1.png)](./media/FSWOP1.png)
+[![Veri tümleştirmede şablon eşleme.](./media/FSWOP1.png)](./media/FSWOP1.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderheaderproject"></a>Proje İçeren İş Emirleri (Field Service'ten Supply Chain Management'a): WorkOrderHeaderProject
 
-[![Veri tümleştirmede şablon eşleme](./media/FSWOP2.png)](./media/FSWOP2.png)
+[![Veri tümleştirmede şablon eşleme.](./media/FSWOP2.png)](./media/FSWOP2.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderproduct"></a>Proje İçeren İş Emirleri (Field Service'ten Supply Chain Management'a): WorkOrderProduct
 
-[![Veri tümleştirmede şablon eşleme](./media/FSWOP3.png)](./media/FSWOP3.png)
+[![Veri tümleştirmede şablon eşleme.](./media/FSWOP3.png)](./media/FSWOP3.png)
 
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Proje İçeren İş Emirleri (Field Service'ten Supply Chain Management'a): WorkOrderService
 
-[![Veri tümleştirmede şablon eşleme](./media/FSWOP4.png)](./media/FSWOP4.png)
+[![Veri tümleştirmede şablon eşleme.](./media/FSWOP4.png)](./media/FSWOP4.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

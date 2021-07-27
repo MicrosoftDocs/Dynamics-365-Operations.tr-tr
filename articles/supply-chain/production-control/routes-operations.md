@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188946"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350510"
 ---
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
@@ -45,7 +45,7 @@ Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonla
 
 Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.  
 
-[![Basit rota](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Basit rota.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Üretim denetim parametrelerinde yalnızca basit rotaları etkinleştirirseniz, rotayı tanımladığınız zaman Supply Chain Management operasyon numaralarını otomatik olarak üretir (10, 20, 30 vb.).
 
@@ -53,7 +53,7 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 Üretim denetim parametrelerinde daha karmaşık rota ağlarını etkinleştirirseniz, birden çok başlangıç noktasının ve paralel işleyen operasyonların bulunduğu rotalar tanımlayabilirsiniz.  
 
-[![Rota zinciri](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rota ağı.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
@@ -64,7 +64,7 @@ Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.
 
 Bazen, bir operasyonu gerçekleştirmek için farklı özelliklere sahip birden fazla operasyon kaynağı kombinasyonu gerekir. Örneğin, bir montaj operasyonu için bir makine, bir alet ve operasyonu denetlemek üzere her iki makine için bir işçi gerekebilir. Bu örnek, bir operasyonun birincil operasyon olarak ve diğerlerinin ikincil olarak belirlendiği paralel operasyonlarla modellenebilir.  
 
-[![Birincil ve ikincil operasyonları olan rota](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Birincil ve ikincil operasyonları olan rota.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Genellikle birincil operasyon darboğaz kaynağını temsil eder ve ikincil operasyonlar için çalışma süresini belirler. Bununla birlikte, sınırlı kapasite içeren zaman planlamasında hem birincil operasyon hem de ikincil operasyonlar için planlanan kaynaklar aynı anda mevcut ve boş kapasiteli olmalıdır.  
 

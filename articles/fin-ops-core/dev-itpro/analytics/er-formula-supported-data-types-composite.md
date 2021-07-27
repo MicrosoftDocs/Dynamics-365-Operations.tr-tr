@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224118"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355358"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Elektronik raporlama formülleri için desteklenen bileşik veri türleri
 
@@ -43,11 +43,11 @@ Bir *sınıf* ın varsayılan değeri **null**'dur.
 
 Aşağıdaki görsel, **xInfo** uygulama sınıfının örneğini oluşturmak ve mevcut uygulamanın adını almak için **productName()** yöntemini çağırmak için **Sınıf** türünün **Sistem bilgisi(xInfo)** veri kaynağının nasıl eklendiğini gösterir. Geçerli uygulamanın adı, ER veri modelinin **Yazılım adı (SoftwareName)** alanı için yapılandırılan `xInfo.productName` bağlamasının yürütülmesiyle çalışma zamanında alınır. Bu bağlama, geçerli model eşlemede **Sistem bilgisi(xInfo)** veri kaynağı olarak temsil edilen **xInfo** uygulama sınıfının `productName()` yöntemini çağırır.
 
-[![Model eşleme tasarımcıda Sınıf veri kaynağını yapılandırma](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Model eşleme tasarımcıda Sınıf veri kaynağını yapılandırma.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 Aşağıdaki görsel, ER biçiminin oluşturulan belgelere sağlanan uygulama adını koymak için nasıl yapılandırıldığını göstermektedir. Kullanılan veri modelinin **Yazılım adı(SoftwareName)** alanı, ER biçiminin **softwareUsed** XML öğesi altında yuvalanmış olan **Dize** bileşenine bağlıydı. Bu nedenle, geçerli uygulamanın adı çalışma zamanında XML biçiminde oluşturulan belgenin **sofwareUsed** XML öğesine yerleştirilir.
 
-[![ER biçim tasarımcısında elektronik giden belgenin yapısını yapılandırma](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![ER biçim tasarımcısında elektronik giden belgenin yapısını yapılandırma.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Konteyner
 
@@ -60,7 +60,7 @@ Bir *konteyner* in varsayılan değeri **null**'dur.
 
 Aşağıdaki görsel, *Konteyner* türünün **Bitmap(Image)** alanının, **Konteyner** türünün **Satış faturası** model eşlemesinde **Logo** veri modeli alanına nasıl bağlı olduğunu gösterir. Bu bağlama, şirket logosunun, **SalesInvoice** kök tanımı için tasarlanan ve çalışma süresinde bu model eşlemesini kullanan bir ER biçimi için kullanılabilir olmasını sağlar.
 
-[![ER model eşleme tasarımcısında Konteyner türünün bir alanını bağlama](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![ER model eşleme tasarımcısında Konteyner türünün bir alanını bağlama.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Kaydet
 
@@ -109,7 +109,7 @@ Bir *nesne* nin varsayılan değeri **null**'dur.
 
 Aşağıdaki görsel, kaynak kodundan oluşturulan bir fatura hakkındaki bilgileri **Proje faturası** model eşlemesine geçirmek için *Nesne* türünün **ReportDataContract** veri kaynağının nasıl eklendiğini gösterir. Örneğin, fatura örneği metni yürütme bağlamının bir parçası olarak geçirilir. Bu metin, ER veri modelinin **Not** alanı için konfigüre edilmiş `ReportDataContract.parmInvoiceInstanceText` bağlamasının yürütülmesiyle çalışma zamanında kaynak kodundan alınır. Bu bağlama, geçerli model eşlemede **ReportDataContract** veri kaynağı olarak temsil edilen **PSAProjInvoiceContract** uygulama sınıfının `parmInvoiceInstanceText()` yöntemini çağırır.
 
-[![Model eşleme tasarımcıda Nesne veri kaynağını yapılandırma](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Model eşleme tasarımcıda Nesne veri kaynağını yapılandırma.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Yürütme bağlamının ayrıntılarını kaynak koddan çalışan ER çözümüne nasıl geçitireceğinizi öğrenmek için, bkz. [Tasarlanan raporu çağırmak üzere uygulama artefaktları geliştirme](er-quick-start1-new-solution.md#DevelopCustomCode).
 

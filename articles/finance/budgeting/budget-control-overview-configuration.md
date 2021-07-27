@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 60493
+ms.custom:
+- "60493"
+- intro-internal
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 010f5c5e2609cf4b39548a121615c50971aee68b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188057"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357474"
 ---
 # <a name="budget-control-overview"></a>Bütçe denetimine genel bakış
 
@@ -38,7 +40,7 @@ Harcamalar ana hesaplar ve mali boyutlar kullanılarak kaydedilebilir. Mali boyu
 
 Aşağıdaki çizelgede tipik bir bütçe döngüsünün aşamaları içinde bütçe denetiminin yeri gösterilmektedir.
 
-[![Tipik bütçeleme döngüsü](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
+[![Tipik bütçeleme döngüsü.](./media/budgetingcycle-300x198.png)](./media/budgetingcycle.png) 
 
 Bütçe denetimini birkaç etkene göre yapılandırabilirsiniz:
 

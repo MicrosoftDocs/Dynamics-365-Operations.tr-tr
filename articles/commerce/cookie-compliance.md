@@ -2,7 +2,7 @@
 title: Çerez uyumluluğu
 description: Bu konu, tanımlama bilgisi uyumu ve Microsoft Dynamics 365 Commerce'in içerdiği varsayılan ilkelerin dikkate alınması konularını açıklamaktadır.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088399"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333081"
 ---
 # <a name="cookie-compliance"></a>Çerez uyumluluğu
 
@@ -33,26 +33,27 @@ Microsoft'un çerez uyumluluğu için kullandığı temel ilkeler hakkında daha
 
 Aşağıdaki tabloda, Dynamics 365 Commerce siteleri tarafından yerleştirilen tanımlama bilgilerine ilişkin geçerli başvuru listesi gösterilmektedir.
 
-| Tanımlama bilgisi adı                               | Kullanım                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Çoklu oturum açma (SSO) için Microsoft Azure Active Directory (Azure AD) kimlik doğrulama bilgilerini depolar. Şifreli kullanıcı asıl bilgisini depolar (adı, soyadı, eposta). |
-| &#95;msdyn365___cart&#95;                           | Sepet örneğine eklenen ürünlerin listesini almak için kullanılan alışveriş sepeti kodunu depolar. |
-| &#95;msdyn365___ucc&#95;                            | Tanımlama bilgisi uyumluluk onayı izleme.                          |
-| ai_session                                  | Uygulamanın belirli sayfalarını ve özelliklerini içeren kaç kullanıcı etkinliği oturumu olduğunu saptar. |
-| ai_user                                     | Uygulamayı ve özelliklerini kaç kişinin kullanmış olduğunu saptar. Kullanıcılar anonim kimlikler kullanılarak sayılır. |
-| b2cru                                       | Yeniden yönlendirme URL'sini dinamik olarak depolar.                              |
-| JSESSIONID                                  | Adyen ödeme bağlayıcısı tarafından kullanıcı oturumunu depolamak için kullanılır.       |
-| OpenIdConnect.nonce.&#42;                       | Kimlik Doğrulama                                               |
-| x-ms-cpim-cache:.&#42;                          | İstek durumunu korumak için kullanılır.                      |
-| x-ms-cpim-csrf                              | CRSF koruması için kullanılan siteler arası istek sahteciliği (CRSF) belirteci.     |
-| x-ms-cpim-dc                                | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. |
-| x-ms-cpim-rc.&#42;                              | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. |
-| x-ms-cpim-slice                             | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | SSO oturumunu sürdürmek için kullanılır.                        |
-| x-ms-cpim-trans                             | Geçerli hareket dahil olmak üzere hareketleri izlemek için kullanılır (işletme tüketici arası (B2C) sitede kimlik doğrulaması yapan açık sekme sayısı). |
-| \_msdyn365___muid_                            | Ortam için Deneme etkinleştirilirse kullanılır; deneme amacıyla userId olarak kullanılır. |
-| \_msdyn365___exp_                             | Ortam için Deneme etkinleştirilirse kullanılır; performans yük dengelemesini ölçmek için kullanılır.         |
-| d365mkt                                       | Mağaza konumu önerileri için kullanıcının IP adresini izlemek üzere konum tabanlı algılama, **Site Ayarları> Genel > Konum tabanlı mağaza algılamayı etkinleştir**'deki Commerce site oluşturucusunda etkinleştirilmişse kullanın.      |
+| Tanımlama bilgisi adı                               | Kullanım                                                        | Ömür boyu |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Çoklu oturum açma (SSO) için Microsoft Azure Active Directory (Azure AD) kimlik doğrulama bilgilerini depolar. Şifreli kullanıcı asıl bilgisini depolar (adı, soyadı, eposta). | Oturum |
+| \_msdyn365___cart_                           | Sepet örneğine eklenen ürünlerin listesini almak için kullanılan alışveriş sepeti kodunu depolar. | Oturum |
+| \_msdyn365___checkout_cart_                           | Ödeme sepet örneğine eklenen ürünlerin listesini almak için kullanılan mağaza ödeme sepeti kodunu depolar. | Oturum |
+| \_msdyn365___ucc_                            | Tanımlama bilgisi uyumluluk onayı izleme.                          | 1 yıl |
+| ai_session                                  | Uygulamanın belirli sayfalarını ve özelliklerini içeren kaç kullanıcı etkinliği oturumu olduğunu saptar. | 30 dakika |
+| ai_user                                     | Uygulamayı ve özelliklerini kaç kişinin kullanmış olduğunu saptar. Kullanıcılar anonim kimlikler kullanılarak sayılır. | 1 yıl |
+| b2cru                                       | Yeniden yönlendirme URL'sini dinamik olarak depolar.                              | Oturum |
+| JSESSIONID                                  | Adyen ödeme bağlayıcısı tarafından kullanıcı oturumunu depolamak için kullanılır.       | Oturum |
+| OpenIdConnect.nonce.&#42;                       | Kimlik Doğrulama                                               | 11 dakika |
+| x-ms-cpim-cache:.&#42;                          | İstek durumunu korumak için kullanılır.                      | Oturum |
+| x-ms-cpim-csrf                              | CRSF koruması için kullanılan siteler arası istek sahteciliği (CRSF) belirteci.     | Oturum |
+| x-ms-cpim-dc                                | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. | Oturum |
+| x-ms-cpim-rc.&#42;                              | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. | Oturum |
+| x-ms-cpim-slice                             | İstekleri uygun üretim kimlik doğrulama sunucusu örneğine yönlendirmek için kullanılır. | Oturum |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | SSO oturumunu sürdürmek için kullanılır.                        | Oturum |
+| x-ms-cpim-trans                             | Geçerli hareket dahil olmak üzere hareketleri izlemek için kullanılır (işletme tüketici arası (B2C) sitede kimlik doğrulaması yapan açık sekme sayısı). | Oturum |
+| \_msdyn365___muid_                            | Ortam için Deneme etkinleştirilirse kullanılır; deneme amacıyla kullanıcı kimliği olarak kullanılır. | 1 yıl |
+| \_msdyn365___exp_                             | Ortam için Deneme etkinleştirilirse kullanılır; performans yük dengelemesini ölçmek için kullanılır.         | 1 saat |
+| d365mkt                                       | Mağaza konumu önerileri için kullanıcının IP adresini izlemek üzere konum tabanlı algılama, **Site Ayarları \> Genel \> Konum tabanlı mağaza algılamayı etkinleştir**'deki Commerce site oluşturucusunda etkinleştirilmişse kullanın.      | 1 saat |
 
 Site kullanıcısı bir sitedeki herhangi bir sosyal medya bağlantısını seçerse, aşağıdaki tabloda yer alan tanımlama bilgileri de tarayıcılarında izlenir.
 

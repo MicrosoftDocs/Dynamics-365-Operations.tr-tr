@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19741
+ms.custom:
+- "19741"
+- intro-internal
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df773cf13b8ccd9ee4f861955b1a4321af38a150
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 893a927d0f916450ce860bef0610a4585bfcf8ad
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811810"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340030"
 ---
 # <a name="production-order-lifecycle-overview"></a>Üretim emri yaşam döngüsüne genel bakış
 

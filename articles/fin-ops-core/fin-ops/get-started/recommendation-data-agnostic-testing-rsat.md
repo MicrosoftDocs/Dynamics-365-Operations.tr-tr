@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 120a88790b7cdb6a8cfcf97cbafeced4685384f2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4795d11ac370003e48dc845c86ec8a5ba22aa86
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348667"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Regression Suite Automation Tool kullanarak veri belirsiz test
 
@@ -30,7 +30,7 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
 - ATL çerçevesi
 - Regression Suite Automation Tool (RSAT)
 
-[![Test sınıflandırması piramidi](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Test sınıflandırması piramidi.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Genel bakış
 -   **SysTest çerçevesi** – SysTest çerçevesi, birim testleri yazmak için güvenilirdir. Birim testleri genellikle bir yöntem veya işlevi test ettiğinden, her zaman veri belirsiz olmaları ve yalnızca testin parçası olarak sağlanan giriş verilerine bağlı olmaları gerekir.
@@ -42,7 +42,7 @@ Bir ERP uygulamasının işlevsel doğrulaması tam veri belirsiz olamaz; test e
     - Fatura numarası gibi benzersiz kimlik tanımlayıcıları numara sırasına göre veya =TEXT(NOW(),"yyyymmddhhmm") gibi Microsoft Excel işlevlerini kullanarak girin. Bu işlev, her dakika, bu eylemin ne zaman gerçekleştiğini izlemenize olanak sağlayan benzersiz bir numara sağlayacaktır. Bu, ürün giriş numaraları ve satıcı fatura numaraları gibi değişkenler için kullanılabilir. Bu testler, geri yükleme gerektirmeden, aynı veritabanı üzerinde tekrar tekrar çalışmaya devam eder.
     - Varsayılan seçenek **Otomatik** olduğundan, ortamın **Düzenleme modu** ayarını ilk test olayı olarak **Oku** veya **Düzenle** yapın. **Otomatik** seçenekleri her zaman önceki ayarı kullanır ve güvenilmez testlere neden olabilir. 
  
-    [![Seçenekler sayfası, Performans sekmesi](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Seçenekler sayfası, Performans sekmesi.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Genel doğrulama yerine yalnızca belirli bir harekete filtre uyguladıktan sonra doğrulayın. Örneğin kayıt numarası için hareket numarasına veya hareket tarihine filtre uygulayarak, doğrulamanın tüm diğer hareketleri hariç tutmasını sağlayın. 
     - Bir müşteri bakiyesini veya bütçe kontrolünü denetliyorsanız, önce değeri kaydedin ve ardından, sabit beklenen değeri doğrulamak yerine, beklenen sonucu doğrulamak için hareket değerini ekleyin. 

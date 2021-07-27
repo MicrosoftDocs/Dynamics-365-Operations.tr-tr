@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792941"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348254"
 ---
 # <a name="create-and-update-store-hours"></a>Mağaza çalışma saatleri oluşturma ve güncelleştirme
 
@@ -49,14 +49,14 @@ Mağaza saatlerini yapılandırmak için şu adımları izleyin.
     > [!NOTE]
     > Örtüşen başlangıç ve bitiş tarihlerine sahip birden çok şablon oluşturabilirsiniz. Bu nedenle, örneğin, farklı saat dilimlerindeki Mağazalar için mağaza saatleri tanımlayabilirsiniz.
 
-    ![Aralık Ekle iletişim kutusu](../dev-itpro/media/Storehours1.png "Aralık Ekle iletişim kutusu")
+    ![Aralık Ekle iletişim kutusu.](../dev-itpro/media/Storehours1.png "Aralık Ekle iletişim kutusu")
 
 4. Mağaza saatleri şablonunu, kullanılacak mağazalar ile ilişkilendirin. **Kuruluş düğümlerini Seç** iletişim kutusunda, şablonun ilişkilendirilmesi gereken depoları, bölgeleri ve organizasyonları seçin.
 
     - Her bir mağaza ile yalnızca bir depolama saatleri şablonu ilişkilendirilebilir.
     - Mağaza, bölge veya organizasyon seçmek için ok düğmelerini kullanın. Takvim mağazalar veya mağaza grupları tarafından kullanılabilir ve burada referans olarak görünür.
 
-    ![Organizasyon kırılımını seç iletişim kutusu](../dev-itpro/media/Storehours2.png "Organizasyon kırılımını seç iletişim kutusu")
+    ![Kuruluş düğümlerini seç iletişim kutusu.](../dev-itpro/media/Storehours2.png "Organizasyon kırılımını seç iletişim kutusu")
 
 5. **Dağıtım zamanlaması** sayfasında **1070** ve **1090** işlerini çalıştırarak mağaza saatlerini POS'ta kullanılabilir kılın.
 
@@ -75,7 +75,7 @@ Yazdırılan POS alış irsaliyelerine mağaza saatleri eklemek için bu adımla
 
 POS makbuzları şimdi mağaza saatlerini içerir. Şablonda herhangi bir tatil varsa, bunlar alındı bilgisi içinde gösterilir.
 
-![Makbuz örneği](../dev-itpro/media/Storehours3.png "Makbuz örneği")
+![Makbuz örneği.](../dev-itpro/media/Storehours3.png "Makbuz örneği")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

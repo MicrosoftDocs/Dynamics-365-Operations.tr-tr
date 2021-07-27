@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359521"
 ---
 # <a name="transportation-management-overview"></a>Taşıma yönetimine genel bakış
 
@@ -67,17 +69,17 @@ Taşıma yönetimi, şirketinizin taşımalarını kullanmanıza olanak tanır v
 ## <a name="planning-transportation-in-supply-chain-management"></a>Supply Chain Management'ta taşımayı planlama
 Taşıma yönetiminde , taşıma planlaması için siparişler veya bu siparişlere göre oluşturulan sevkiyatlar temel alınır. Sevkiyatlar daima zaman içinde bir noktada bulunmaktadır ancak taşıma planlaması için gerekli değildir. Transfer emirleri giden senaryosunun bir parçasıdır ve satış siparişleriyle birlikte planlanabilir. 
 
-![Yük çekme](./media/Load-drawing1-1024x477.jpg)
+![Yük çekme.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Gelen taşıma
 Bir satıcıya madde siparişi verdiğiniz zaman ve bu maddelerin sizin ambarınıza teslim edilmesi gerektiğinde maddeleri taşımayı kendiniz düzenlemek isteyebilirsiniz. Gelen yükün taşıma ve girişini planlamak için Supply Chain Management kullanabilirsiniz. Aşağıdaki şekilde, gelen yük için taşıma planlamasına ilişkin iş süreci akışı gösterilmektedir. 
 
-![Gelen yükün taşınmasına ilişkin iş süreci akışı](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Gelen yükün taşınmasına ilişkin iş süreci akışı.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Giden taşıma
 Belirli maddeleri şirketin ambarından müşteriye sevk etmek için giden yük planlaması yapabilir ve işleme koyabilirsiniz. Giden yükün taşıma ve sevkiyatını planlamak için Supply Chain Management kullanabilirsiniz. Aşağıdaki şekilde, giden yükün sevkiyat için planlaması ve işleme konmasına ilişkin iş süreci akışı gösterilmektedir. 
 
-![Giden yükleri planlama ve işleme](./media/Planningandprocessingoutboundloads.jpg)
+![Giden yükleri planlama ve işleme.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Yapıyı yükle
 Supply Chain Management, Hacim tabanlı yük oluşturma stratejisi olarak adlandırılan bir yük oluşturma stratejisi sunar. Bu strateji, yük şablonunda yükseklik ve ağırlık için belirtilen maksimum değerleri kullanmanıza olanak tanır; veya yeni değerler girerek ayarları geçersiz kılabilirsiniz. Kullanmak için **Yük oluşturma workbench'i** sayfasında bulunan **Ayar** Hızlı sekmesindeki **Yük oluşturma stratejisi** alanından bu stratejiyi seçebilirsiniz. Ayrıca, Uygulama Nesne Ağacı'nda (AOT) yeni bir sınıf oluşturarak kendi yük oluşturma stratejinizi ekleyebilirsiniz.

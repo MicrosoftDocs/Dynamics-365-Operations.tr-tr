@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897320"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360700"
 ---
 # <a name="financial-dimensions-and-posting"></a>Mali boyutlar ve deftere nakletme 
 
@@ -71,29 +71,29 @@ Kişiler genellikle çeşitli bileşenlerin hangi sırada çalıştıklarını s
 
 Aşağıdaki şekil ana hesap 401100 üzerinde ayarlanan sabit varsayılan boyutu gösterir.
 
-[![Varsayılan mali boyutlar](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Varsayılan mali boyutlar.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Bu son derece basit örnekte, Bölüm boyutunun varsayılan değer **023** (Operasyonlar) kullanmak üzere ayarlandığı bir genel günlük gireceğiz. Bir genel muhasebe hesabı gireceğiz ve deftere nakledeceğiz. Aşağıdaki şekil genel muhasebe defter başlığındaki varsayılan boyutu gösterir.
 
-[![Yevmiye defterleri](./media/general-journal.png)](./media/general-journal.png)
+[![Yevmiye defterleri.](./media/general-journal.png)](./media/general-journal.png)
 
 Günlük başlığındaki varsayılan boyut, departman 023'ün satış hesabı satırına varsayılan olarak uygulanmasına neden olur. Aşağıdaki şekil, başlıktaki **023** varsayılan boyut değerinin uygulandığı genel günlük satırını gösterir.
 
-[![Günlük fişi](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Günlük fişi.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Bununla birlikte, satır deftere nakledildiğinde sabit boyut uygulanır ve satır departman 022'ye nakledilir. Aşağıdaki şekil, sabit boyutun satış hesabına uygulandığı deftere nakledilen fişi gösterir.
 
-[![Sabit boyuta sahip fiş hareketleri uygulandı](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Sabit boyuta sahip fiş hareketleri uygulandı.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Örnek 2
 
 Örnek ilk örnek ile aynı kurulumu kullanır. Bununla birlikte, ikinci bir bileşen ekleyeceğiz ve dengeleme boyutu olarak Departman boyutunu kullanacağız. Aşağıdaki şekilde **Departman** USMF genel muhasebesi için dengeleme mali boyutu olarak ayarlanır.
 
-[![Bilanço mali boyutu olarak Departmanı gösteren çizim](./media/ledger.png)](./media/ledger.png)
+[![Bilanço mali boyutu olarak Departmanı gösteren çizim.](./media/ledger.png)](./media/ledger.png)
 
 Aynı günlük başlık kurulumu kullanıldığında ve aynı hareket deftere nakledildiğinde, sabit boyut ilk olarak uygulanır. Daha sonra dengeleme mantığı, her bölümün dengeli bir girişe sahip olduğundan emin olmaya yardımcı olmak için uygulanır. Aşağıdaki örnek sabit boyut uygulandıktan sonraki dengeleme girişini içeren fiş hareketlerini gösterir.
 
-[![Bilanço girişi uygulandıktan sonraki fiş hareketleri](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Bilanço girişi uygulandıktan sonraki fiş hareketleri.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Örnek 3
 
@@ -101,11 +101,11 @@ Bu örnekte, gelişmiş bir kural ekleyeceğiz. Gelişmiş kural, satış hesab�
 
 Bu örnek, sıra sebebiyle önemlidir. Hesap yapısı, an hesap girildikten sonra belirlenir. Hesap yapı kurulumuna başvurursanız, sistem ilgili ana hesabı, iş birimini, departmanı ve maliyet merkezini belirleyebilir. Bu noktada, gelişmiş kural tetiklenmemiştir çünkü sabit boyutlar, varsayılan boyutlar genel fişine deftere nakletme sırasında uygulanana kadar uygulanmaz. Aşağıdaki şekilde Müşteri bölümü mevcut değildir çünkü gelişmiş kural kıstası yerine getirilmemiştir.
 
-[![Genel muhasebe hesabı](./media/drop-down.png)](./media/drop-down.png)
+[![Genel muhasebe hesabı.](./media/drop-down.png)](./media/drop-down.png)
 
 Deftere nakletme başarılı olmaz çünkü sabit boyut işlemin sonunda uygulanmıştır. Boyut doğrulama, Müşteri bölümünün, ana hesap 401100 ve departman 022 olduğunda gerekli olup olmadığını belirler. Doğrulama hatası nedeniyle deftere nakletme gerçekleşemez. Aşağıdaki şekil, boyut doğrulama Müşteri'nin gerekli bir bölüm olduğunu belirledikten sonra beliren mesajı gösterir.
 
-[![İleti ayrıntıları](./media/message.png)](./media/message.png)
+[![İleti ayrıntıları.](./media/message.png)](./media/message.png)
 
 Bu örnekte, varsayılan değeri, kural tetiklenecek ve Müşteri bölümünü girebileceğiniz şekilde geçersiz kılmanız gerekir. Ancak, bu çözüm her zaman mümkün değildir ve bazı kullanıcılar deftere nakletme kurallarının farkında bile değildir. Bu nedenle, hesap planınızı ayarladığınızda, uygulanacak varsayılan boyutların sırasını anlamanız önemlidir.
 

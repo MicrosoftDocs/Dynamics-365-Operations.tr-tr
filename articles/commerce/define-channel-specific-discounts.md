@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349588"
 ---
 # <a name="define-channel-specific-discounts"></a>Kanala özel iskontolar tanımlama
 
@@ -37,7 +37,7 @@ Commerce, fiyat gruplarını kanal özel indirimleri tanımlamak için kullanır
 
 ## <a name="price-groups"></a>Fiyat grupları
 
-[![Fiyat grupları](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Fiyat grupları.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 Yukarıdaki diyagram, bir hareket üzerinde bulunabilen varlıklar (kanal, katalog, ilişki, müşteri, bağlılık programı kartı) arasındaki ilişkiyi ve yapılandırılabilen çeşitli iskonto türlerini gösterir. Tüm hareketler bir kanal içerisinde gerçekleşir, böylece kanalın hareket üzerinde bulunması garanti edilir. Kalan varlıklar isteğe bağlıdır. Her ana veri sayfalarında ilgili fiyat grupları sayfasına gerektiği gibi fiyat grupları girebileceğiniz veya görüntüleyebileceğiniz bir bağlantı vardır. Bir fiyat grubu, dört farklı tipte varlığı iskontolara, fiyat ayarlamalarına ve ticari anlaşmalara ilişkilendirmek için kullanılır. Fiyat gruplarınızı organize etmek için onları nasıl adlandıracağınıza dair bir strateji planlamanızı öneririz. Bir seçenek, farklı türler arasında ayrım yapabilmek için bir harf veya sayı ön veya son eki kullanmak olabilir. Örneğin, kanal fiyat grupları için 1-xxxxx ve katalog fiyat grupları için 2-xxxxx. Her birine iskonto ilişkilendirilmiş olabilecek her bir Commerce varlığına odaklanan dört farklı sorgulama sayfası mevcuttur.
 

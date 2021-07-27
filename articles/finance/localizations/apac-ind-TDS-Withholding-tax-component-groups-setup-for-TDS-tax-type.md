@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023669"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356621"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi bilişen gruplarını ayarlama
 
@@ -31,7 +31,7 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) türü için stopaj vergisi gruplarının 
 
 1. **Vergi \> Kurulum \> Stopaj vergisi \> Stopaj vergisi bileşeni grupları**'na gidin.
 
-    [![Stopaj vergisi bileşeni grupları sayfası](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![Stopaj vergisi bileşeni grupları sayfası.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. TDS vergi türü için stopaj vergisi bileşeni gruplarını ayarlamak üzere **Vergi türü** alanında **TDS**'yi seçin.
 3. Eylem bölmesinde, bir satır oluşturmak için **Yeni**'yi seçin.

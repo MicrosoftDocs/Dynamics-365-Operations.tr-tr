@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354120"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Tercih edilen bakım görevlilerini ayarla
 
@@ -59,7 +59,7 @@ Aynı kayıt için ne kadar çok seçim yaparsanız, kurulumunuz o kadar belirgi
 
     [!NOTE] Genellikle, iş emri planlama sırasında tercih edilen bir bakım çalışanı seçildiğinde, Varlık Yönetimi olası bir eşleşmeyi denetlemek için tüm **Tercih edilen bakım görevlileri** kayıtlarına bakar ve her zaman en belirgin birleşimi denetler. Eşleşme bulunmazsa, **Tercih edilen bakım çalışanı grubu** alanında veya **Tercih edilen bakım çalışanı** alanında bulunan "varsayılan" kayıt kullanılır.
 
-![Şekil 1](media/02-work-order-scheduling.png)
+![Şekil 1.](media/02-work-order-scheduling.png)
 
 Ayrıca, bakım talebi veya iş emri oluşturulurken seçilebilecek *sorumlu* bakım görevlileri de ayarlayabilirsiniz. **Tüm iş emirleri** ve **Tüm bakım istekleri** alanında gerekirse seçimi düzenleyebilirsiniz. Daha fazla bilgi için bkz. [Sorumlu bakım görevlileri](../setup-for-maintenance-requests/responsible-workers.md).
 

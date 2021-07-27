@@ -2,7 +2,7 @@
 title: Promosyon başlık modülü
 description: Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796258"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479364"
 ---
 # <a name="promo-banner-module"></a>Promosyon başlık modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu promosyon başlığı modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -34,7 +35,7 @@ Promosyon başlığı modülleri bir metin iletisini ve bir bağlantıyı destek
 
 Promosyon başlığı, içerik yönetimi sistemindeki (CMS) veriler tarafından yönlendiriliyor ve herhangi bir sayfaya konabilir.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>E-ticaret'daki promosyon başlık sayfaları için kullanım örnekleri
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>E-ticaret'teki promosyon başlık sayfaları için kullanım örnekleri
 
 Promosyon başlık sayfaları site başlığında, aşağıdaki örneklerde olduğu gibi, site çapında yükseltmeleri veya iletileri göstermek amacıyla kullanılabilir.
 
@@ -46,7 +47,7 @@ Promosyon başlık sayfaları site başlığında, aşağıdaki örneklerde oldu
 
 Aşağıdaki resimde, bir promosyon başlığı örneği gösterilmektedir.
 
-![Promosyon başlık modülü örneği](./media/ecommerce-Promobanner.PNG)
+![Promosyon başlık modülü örneği.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Promosyon başlığı modülü özellikleri
 
@@ -59,6 +60,10 @@ Aşağıdaki resimde, bir promosyon başlığı örneği gösterilmektedir.
 | Carusel kolu göster     | **Doğru** veya **yanlış**              | Döner değiştiricilerin gösterilip gösterilmeyeceğini belirten ve müşterilerin birden çok Başlık öğelerini el ile dolaşabilmesi için bir değer. |
 | Metin hizalama            | **Sağ**, **Sol** veya **Orta** | Promosyon başlık modülünde metin hizalaması. |
 | Bağla                      | Bir URL                              | İsteğe bağlı bağlantı için URL. |
+|Metin hizalama             | **Sağ**, **Sol** veya **Orta** | Bu özellik, Adventure Works temalarında bir tema uzantısı olarak mevcuttur. Kullanıcının, promosyon başlığında metin hizalaması ayarlamasını sağlar. |
+
+> [!IMPORTANT]
+> Adventure Works teması Dynamics 365 Commerce Sürüm 10.0.20 itibarıyla kullanılabilir.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Bir sayfaya bir promosyon başlığı ekle 
 
@@ -78,7 +83,6 @@ Bir sayfaya bir promosyon başlığı modülü eklemek ve gerekli özellikleri a
 
 > [!NOTE]
 > Bir promosyon başlığı genellikle sayfa üstbilgisi yuvasında veya alt başlık yuvasında kullanılır.
-
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

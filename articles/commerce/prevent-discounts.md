@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ddf3834057c89f5a091f09412183ca79540225fc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f808eb51de30eb8000cfc33ba0683bdac0709051
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352264"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Perakende ürünler için iskontoları engelleme seçenekleri
 
@@ -37,7 +37,7 @@ Yayımlanan ürünlerin **Commerce** sekmesinde bulunabilen aşağıdaki seçene
 > [!NOTE]
 > Bu ayarlar fiyat geçersiz kılma işlemini kısıtlamaz çünkü bu, taban fiyatı belirler ve bir indirim olarak görülmez.
 
-[![İndirim alanlarını engelle](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+[![İskonto alanlarını engelle.](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

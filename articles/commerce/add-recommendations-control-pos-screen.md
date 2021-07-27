@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348356"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Hareket ekranına öneriler ekleme
 
@@ -43,7 +43,7 @@ Commerce kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirs
 6. Oturum açtığınızda, aşağıdakine benzer bir sayfa görüntülenir. Düzen, mağazanız için yapılan özelleştirmelere bağlı olarak farklı olacaktır.
 
 
-    [![Düzen tasarımcısı](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Düzen tasarımcısı.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Bir görüntüleme seçeneği seçin
 
@@ -58,11 +58,11 @@ Commerce kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirs
 1. Hareket satırı ayrıntıları alanının yüksekliğini, solundaki müşteri paneliyle aynı boyda olacak şekilde azaltın.
 
 
-    [![Hareket satırı ayrıntıları alanının yüksekliği azaltıldı](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hareket satırı ayrıntıları alanının yüksekliği azaltıldı.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Soldaki menüden, öneriler denetimini hareket satırı ayrıntıları alanı ve hareket erkanının alt ortasındaki düğme kılavuzu arasında sürükleyip bırakın. Bu alana sığacak şekilde yeniden boyutlandırın.
 
-    [![Öneriler denetimi düzene eklendi](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Öneriler denetimi düzene eklendi.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
@@ -77,13 +77,13 @@ Commerce kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirs
 
 2. **Özelleştir**'e tıklayın.
 
-    [![Özelleştirme - Sekme denetimi iletişim kutusu](./media/pic-5.png)](./media/pic-5.png)
+    [![Özelleştirme - Sekme denetimi iletişim kutusu.](./media/pic-5.png)](./media/pic-5.png)
 
 3. **Yeni sekme** üzerine tıklayın.
 4. Şimdi eklemiş olduğunuz yeni sekmeyi bulun. Aşağı doğru gitmeniz gerekebilir.
 5. **İçerikler** açılır listesinde, **Önerilen ürünler**'i seçin.
 
-    [![Önerilen ürünleri İçerik alanında seçmek](./media/pic-6.png)](./media/pic-6.png)
+    [![Önerilen ürünleri İçerik alanında seçme.](./media/pic-6.png)](./media/pic-6.png)
 
 6. **Etiket** alanı içinde, öneriler sekmesi için bir ad girin. Örneğin, 'Önerilen ürünler' yazın.
 7. **Resim** alanında, sekme üzerinde görünecek resmi seçin.

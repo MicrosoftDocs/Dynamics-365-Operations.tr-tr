@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ec0d683153bd5ab731035159d32881fbdb352d70
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f681018c27afbef8d34c88a518941d45aa9d72df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023667"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358494"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>TDS vergi kodlarını, TDS vergi gruplarına ekle ve TDS hesaplama formülünü belirle
 
@@ -33,7 +33,7 @@ TDS vergi grubunu ayarlamak, TDS vergi kodlarını gruba iliştirmek ve TDS'yi h
 
 1. **Vergi \> Dolaylı vergiler \> Stopaj vergisi \> Stopaj vergisi grupları**'na gidin.
 
-    [![Stopaj vergisi grupları sayfası](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
+    [![Stopaj vergisi grupları sayfası.](./media/apac-ind-TDS-29.png)](./media/apac-ind-TDS-29.png)
 
 2. Eylem bölmesinde, TDS için stopaj vergisi grubu oluşturmak üzere **Yeni**'yi seçin ve gerekli ayrıntıları girin.
 3. **Vergi türü** alanında **TDS**'yi seçin.
@@ -43,7 +43,7 @@ TDS vergi grubunu ayarlamak, TDS vergi kodlarını gruba iliştirmek ve TDS'yi h
 7. Vergi grubunun hareketlerde hesaplanmasını önlemek için, **Muaf** onay kutusunu seçin.
 8. Eylem bölmesinde, bu TDS vergi grubunun TDS hesaplama formülünü belirleyebilmek için formül tasarımcısını açmak üzere **Tasarımcı**'yı seçin. **Tasarımcı** sayfasında, **Vergiler** sekmesi, TDS vergi grubu için seçilen TDS vergi kodlarını gösterir.
 
-    [![Tasarımcı sayfası](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
+    [![Tasarımcı sayfası.](./media/apac-ind-TDS-30.png)](./media/apac-ind-TDS-30.png)
 
 9. Bir satır oluşturmak için, **Hesaplama** sekmesinde **Alt+N**'yi seçin. **Kimlik** alanı, TDS hesaplaması için otomatik olarak oluşturulan öncelik kimliğini gösterir.
 10. **Vergi kodu** alanında formül için belirlenecek TDS vergi kodunu seçin. TDS vergi grubu için seçilen tüm TDS vergisi kodları, bu alanda seçilebilir.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841249"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344818"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Taranan belgeler için fatura otomasyonu
 
@@ -34,7 +34,7 @@ Fatura otomasyon çözümü, fatura başlığı ve fatura satırları ve faturay
 
 Aşağıda Contoso'nun satıcı faturası işleme için bir OCR hizmet sağlayıcısı ile ortaklık kurduğu basit bir tümleştirme senaryosu gösterilmektedir. Contoso satıcıları servis sağlayıcısına faturaları e-posta ile gönderir. OCR işlemi aracılığıyla, hizmet sağlayıcısı fatura meta verilerini (başlığı ve/veya satırlar) ve taranan fatura görüntüsünü oluşturur. Bunun ardından bir tümleştirme katmanı bu yapıları dönüştürerek kullanılabilir hale getirir.
 
-![Basit tümleştirme senaryosu](media/vendor_invoice_automation_01.png)
+![Basit tümleştirme senaryosu.](media/vendor_invoice_automation_01.png)
 
 Fatura tümleştirme gerektiğinde önceki senaryonun çeşitli kullanımları mümkün olabilir. Veri geçiş işlemleri; faturaları ve eklerini oluşturmak için bu arabirimin kullanılabileceği başka bir kullanım örneğidir.
 
@@ -92,7 +92,7 @@ Satıcı faturalarının Finance and Operations'a tümleştirme yoluyla geldiği
 
 Özel durumlar için yeni liste sayfası **Borç hesapları** > **Faturalar** > **İçe aktarma hataları** > **İçe aktarılamayan satıcı faturaları**'nda bulunur. Bu sayfa, Satıcı fatura başlık verileri varlığının aşamalandırma tablosundaki tüm satıcı faturası başlığı kayıtlarını gösterir. Aynı kayıtları **veri yönetimi** çalışma alanından görüntüleyebilirsiniz. Özel durum işleme özelliğinde sunulan aynı işlemleri **Veri yönetimi** çalışma alanından da gerçekleştirebilirsiniz. Özel durum işleme özelliği işlevsel bir kullanıcı için en iyi duruma getirildi, bu da kullanımını kolaylaştırır.
 
-![Özel durumlar listesi sayfası](media/vendor_invoice_automation_02.png)
+![Özel durumlar listesi sayfası.](media/vendor_invoice_automation_02.png)
 
 Bu liste sayfası akış ile gelen aşağıdaki alanları içerir:
 
@@ -136,13 +136,13 @@ Düzenleme modunu başlattığınızda, sorunları olan faturanın **İçe aktar
 + Kullanıcıya göre
 + Tüzel kişiliğe göre
 
-![Kullanıcı rolüne ve tüzel kişiliğe göre güvenlik altına alınan içer aktarma işlemi](media/vendor_invoice_automation_04.png)
+![Kullanıcı rolüne ve tüzel kişiliğe göre güvenlik altına alınan içer aktarma işlemi.](media/vendor_invoice_automation_04.png)
 
 Fatura içe aktarma işi için güvenlik yapılandırıldıysa, özel durumlar listesi bu ayarları kabul eder. Kullanıcılar, yalnızca bu kurulumun görmelerine izin verdiği fatura özel durumu kayıtlarını görebilir.
 
 Örneğin, Contoso fatura özel durumlarını tüzel kişiliğe göre işleme kararı verir. Bu nedenle, güvenlik fatura içe aktarma işleminde A tüzel kişiliğindeki kullanıcının yalnızca A tüzel kişiliğindeki fatura özel durumlarını görmesine, B tüzel kişiliğindeki kullanıcının yalnızca B tüzel kişiliğindeki fatura özel durumlarını görmesine izin verecek şekilde yapılandırılır. Bu ayar, fatura özel durumlarının yönetimi için görev ayrımına olanak tanır.
 
-Conotoso herhangi bir güvenlik uygulamamaya da karar verebilirdi; bu durumda aynı kullanıcılar tüm tüzel kişiliklere ait fatura özel durumlarıyla işlem yapabilirdi. Bu ayar, fatura özel durumlarının yönetimi için paylaşılan hizmetler senaryosuna olanak tanır.
+Contoso herhangi bir güvenlik uygulamamaya da karar verebilirdi; bu durumda aynı kullanıcılar tüm tüzel kişiliklere ait fatura özel durumlarıyla işlem yapabilirdi. Bu ayar, fatura özel durumlarının yönetimi için paylaşılan hizmetler senaryosuna olanak tanır.
 
 ## <a name="side-by-side-attachment-viewer"></a>Yan yana ek görüntüleyici
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750496"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350268"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>İş belgesi şablonunun yapısını güncelleştirme 
 
@@ -58,7 +58,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 
     Yeni şablon, şablon düzenleyicisi sayfasındaki Excel Online eklenmiş denetiminde düzenlenmek üzere açılır.
 
-[![İş belgesi şablonunu düzenlemeye başlamak için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![İş belgesi şablonunu düzenlemeye başlamak için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Düzenlenebilir şablonun geçerli yapısını inceleme
 
@@ -68,7 +68,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 4. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 5. Finance'teki şablon yapısında **rptHeaderCompLogo** öğesnini, **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesinin alt öğesi olarak sunulduğuna dikkat edin.
 
-[![Düzenlenebilir şablonun geçerli yapısını incelemek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Düzenlenebilir şablonun geçerli yapısını incelemek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Bir resim silerek iş belgesi şablonunun yapısını güncelleştirme
 
@@ -85,7 +85,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 4. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 5. **rptHeaderCompLogo** öğesinin, artık Finance'teki şablon yapısında yer almadığını görebilirsiniz.
 
-[![İş belgesi şablonundan bir resim silmek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![İş belgesi şablonundan bir resim silmek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Bir resim ekleyerek iş belgesi şablonunun yapısını güncelleştirme
 
@@ -97,7 +97,7 @@ Bu örnekte, şablon Office Online'da değiştirildikten sonra sistem yöneticis
 6. **Şablon yapısı** bölmesinde **Rapor \> Fatura \> rptHeader \> rptHeaderPart1** öğesini genişletin.
 7. Yeni resimin, artık Finance'teki şablon yapısında öğe olarak yer aldığını görebilirsiniz.
 
-[![İş belgesi şablonuna resim eklemek için İş belgesi yönetimi çalışma alanını kullanma](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![İş belgesi şablonuna resim eklemek için İş belgesi yönetimi çalışma alanını kullanma.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>İlgili bağlantılar
 

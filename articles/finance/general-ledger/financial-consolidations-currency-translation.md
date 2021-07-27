@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193917"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345392"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Mali konsolidasyonlar ve para birimi dönüştürmeye genel bakış
 
@@ -66,13 +67,13 @@ Kullanıcılar; Çevrimiçi Olarak Konsolide Et, Mali raporlama veya ikisini bir
 ## <a name="legal-entity-setup"></a>Tüzel kişilik kurulumu
 Bir konsolidasyonu işlemeden önce tüzel kişiliği ayarlamanız gerekir. Konsolidasyonu ihtiyacınız olduğu sayıda çalıştırabilirsiniz ve tüm veriler kaynak şirketin muhasebe para biriminden konsolidasyon şirketi için tanımlı para birimine dönüştürülür. Bu nedenle aşağıdaki organizasyon yapısı için, tüm Kuzey Amerika şirketlerini önce ABD dolarına (USD) ve sonra ana şirketin para birimi olan avroya (EUR) dönüştürmek zorundaysanız en az iki konsolidasyon şirketiniz olmalıdır.
 
-![Kuruluş yapısı](./media/organizational-structure.png "Kuruluş yapısı")
+![Kuruluş yapısı.](./media/organizational-structure.png "Kuruluş yapısı")
 
 Önceki organizasyon yapısında Kuzey Amerika konsolidasyonu için bir tüzel kişiliğe sahip olmalısınız çünkü konsolidasyonlar daima kaynak şirketin muhasebe para biriminden konsolidasyon şirketinin para birimine konsolide edilir. Örnek olarak tüm şirketler tek bir konsolidasyona dahilse Meksika'daki yan kuruluş Meksika pesosunu (MXN) USD'ye ve sonra EUR'ye değil, doğrudan EUR'ye dönüştürür.
 
 Tüzel kişiliği oluştururken şirketin konsolidasyon işlemiyle eliminasyon işleminin her ikisi için mi yoksa bu işlemlerden sadece birisi için mi kullanılacağını belirtebilirsiniz. Aşağıdaki çizimde şirket her iki işlem için kullanılmaktadır. Konsolidasyon şirketinde günlük defterleri nakledemeyeceğinizi ancak onları bir eliminasyon şirketinde deftere nakledebileceğinizi unutmayın. Bu nedenle farklı bir eliminasyon şirketinizin olmasını isteyebilirsiniz.
 
-![Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik](./media/sep-elimination-company.png "Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik")
+![Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik.](./media/sep-elimination-company.png "Hem konsolidasyon hem de eleme için kullanılan tüzel kişilik")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Ana hesaplar ve konsolidasyon hesabı grupları
 Yapmanız gereken seçim, hesap planlarınızı nasıl konsolide etmek isteyeceğinizdir. Konsolidasyon işlemi sırasında ana hesapları konsolide etmek için üç seçeneğiniz vardır.
@@ -81,11 +82,11 @@ Yapmanız gereken seçim, hesap planlarınızı nasıl konsolide etmek isteyece�
 
 İkinci seçenek, **Ana hesaplar** sayfasında bir varsayılan konsolidasyon hesabı belirtmektir. Böylece hesap, konsolidasyon hesabına eşlenir. Bu seçenek farklı hesap planlarına sahip olduğunuzda veya genel merkez tarafından tanımlanan bir şemaya eşlemek zorunda olduğunuzda yararlı olabilir.
 
-![Ana hesaplar sayfasında belirtilen varsayılan konsolidasyon hesabı](./media/main-accounts.png "Ana hesaplar sayfasında belirtilen varsayılan konsolidasyon hesabı")
+![Ana hesaplar sayfasında belirtilen varsayılan konsolidasyon hesabı.](./media/main-accounts.png "Ana hesaplar sayfasında belirtilen varsayılan konsolidasyon hesabı")
 
 Üçüncü seçenek, konsolidasyon hesabı gruplarını kullanmaktır. İhtiyacınız kadar sayıda konsolidasyon hesabı grubu tanımlayabilirsiniz. Ardından, **İlave konsolidasyon hesapları** sayfasında sadece ana hesabı hesap planından bu grupta ihtiyacınız olan hesaba eşlersiniz.
 
-![İlave konsolidasyon hesapları sayfasında eşleme](./media/additional-consolidation-accounts.png "İlave konsolidasyon hesapları sayfasında eşleme")
+![İlave konsolidasyon hesapları sayfasında eşleme.](./media/additional-consolidation-accounts.png "İlave konsolidasyon hesapları sayfasında eşleme")
 
 ## <a name="consolidating-online"></a>Çevrimiçi olarak konsolide etme
 Konsolidasyon bilgilerinin çevrimiçi olarak nasıl girildiğini öğrenmek için bkz. [Çevrimiçi mali konsolidasyonlar](./consolidate-online.md).
@@ -97,7 +98,7 @@ Konsolidasyon sonuçlarını görüntülemek için birden fazla seçeneğiniz va
 - Konsolidasyon şirketinde **Mizan** listesi sayfasını gözden geçirin.
 - **Konsolidasyonlar** sayfasındaki konsolidasyon hareketleri listesinde, her dönemde her kaynak şirket için tarihe göre oluşturulan bakiyeleri görüntüleyin.
 
-    ![Konsolidasyonlar sayfasındaki konsolidasyon hareketleri](./media/managing-consolidation-transactions.png "Konsolidasyonlar sayfasındaki konsolidasyon hareketleri")
+    ![Konsolidasyonlar sayfasındaki konsolidasyon hareketleri.](./media/managing-consolidation-transactions.png "Konsolidasyonlar sayfasındaki konsolidasyon hareketleri")
 
 Konsolidasyonu tekrar çalıştırmak için konsolidasyonu işlemeniz yeterlidir. Alternatif olarak, önce **Konsolidasyonlar** sayfasındaki **Hareketleri kaldır**'ı seçebilirsiniz.
 Konsolide hesabınızdaki bakiyeler doğru değilse, bu bakiyeler **Kapanış dönemi ayarlamaları** sayfası kullanılarak düzeltilebilir.
@@ -118,7 +119,7 @@ Eliminasyonlar için ayarlamayı **Konsolidasyonlar** modülünün **Ayarlama** 
 
 Eliminasyon kuralı etkin olduğunda ve tarih sona erdiğinde tarihi ihtiyaç duyduğunuz şekilde ayarlayabilirsiniz. Eliminasyon teklifi işleminde eliminasyon kuralının mevcut olmasını istiyorsanız **Etkin** seçeneğini **Evet** olarak ayarlamanız gerekir. **Eleme** türünün günlük adını seçin.
 
-![Eliminasyon kuralının temel özellikleri](./media/ledger-elimination-rule-journal.png "Eliminasyon kuralının temel özellikleri")
+![Eliminasyon kuralının temel özellikleri.](./media/ledger-elimination-rule-journal.png "Eliminasyon kuralının temel özellikleri")
 
 Temel özellikleri tanımladıktan sonra fiili işleme kurallarını tanımlamak için **Satırlar**'ı seçin. Eliminasyonlar için iki seçenek vardır: Net para üstü tutarını elimine edebilir veya sabit bir tutar tanımlayabilirsiniz.
 
@@ -126,7 +127,7 @@ Kaynak hesaplarını seçin. Joker karakter olarak bir yıldız (\*) kullanabili
 
 Kaynak hesapları seçtikten sonra hedef şirketten kullanılan hesabı belirtmek için **Hesap belirtimi** alanını kullanın. Kaynak hesabında tanımlanan aynı ana hesabı kullanmak için **Kaynak**'ı seçin. **Kullanıcı tanımlı**'yı seçerseniz bir hedef hesap belirtmeniz gerekir.
 
-![Genel muhasebe eliminasyon kuralı satırı sayfası](./media/ledger-elimination-rule-line.png "Genel muhasebe eliminasyon kuralı satırı sayfası")
+![Genel muhasebe eliminasyon kuralı satırı sayfası.](./media/ledger-elimination-rule-line.png "Genel muhasebe eliminasyon kuralı satırı sayfası")
 
 **Boyut belirtimi** alanı, **Hesap belirtimi** alanı gibi çalışır. Hedef şirkette ve kaynak şirkette aynı boyutları kullanmak için **Kaynak**'ı seçin. **Kullanıcı tanımlı**'yı seçerseniz **Hedef boyutları**'nı seçerek hedef şirketteki boyutları belirtmeniz gerekir. Ardından, kaynak boyutlarını ve eliminasyon kaynağı olarak kullanılan mali boyutlar ile değerleri seçin.
 

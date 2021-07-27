@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193552"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349070"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Makine öğrenimi modellerinin sonuçları (önizleme)
 
@@ -34,7 +34,7 @@ Denetlenen bir ML problemi belirli bir geçmiş veriler kümesinde eğitildikten
 
 Örneğin, bir evcil hayvanın bazı fiziksel özniteliklere ve davranış özniteliklerine göre köpek mi yoksa kedi mi olduğunu tahmin etmeyi amaçladığınızı düşünelim. 30 köpek ve 20 kedi içeren bir veri kümeniz varsa karışıklık matrisi aşağıdaki çizime benzeyebilir.
 
-![Tür tahmini örneği](media/species-prediction-matrix.png)
+![Tür tahmini örneği.](media/species-prediction-matrix.png)
 
 Yeşil hücrelerdeki sayılar doğru tahminleri temsil eder. Gördüğünüz gibi model, gerçek kedileri daha yüksek bir oranla doğru tahmin etti. Modelin genel doğruluğunu hesaplamak kolaydır. Bu durumda doğruluk şudur: 42 ÷ 50 veya 0,84.
 
@@ -44,7 +44,7 @@ Karışıklık matrisiyle ilgili tartışmaların çoğu, önceki örnekteki gib
 
 Daha sonra, üç durumlu bir mali senaryo için bir sınıflandırma problemini ele alacağız. Model, bir müşteri faturasının zamanında, geç veya çok geç ödenme durumunu tahmin eder. Örneğin, 100 test faturasından 50'si zamanında ödenir, 35'i geç ödenir ve 15'i çok geç ödenir. Bu durumda, bir model aşağıdaki şekile benzeyen bir karışıklık matrisi üretebilir.
 
-![Model 1](media/payment-prediction-matrix.png)]
+![Model 1.](media/payment-prediction-matrix.png)]
 
 Bir karışıklık matrisi, basit bir doğruluk ölçümüne kıyasla önemli ölçüde daha fazla bilgi sağlar. Ancak, anlaşılması yine de daha kolaydır. Bir karışıklık matrisi, çıkış sınıfı sayılarının benzer olduğu dengeli bir veri kümesine sahip olup olmadığınızı gösterir. Çoklu sınıf senaryosu için müşteri ödemelerini ele alan bir önceki örnekte olduğu gibi, çıkış sınıflarının sıralı olduğu durumlarda tahminin gerçek değerlerden ne kadar uzakta olabileceğini gösterir.
 
@@ -55,7 +55,7 @@ Doğruluk anlaşılması kolay bir ölçüm olduğundan, modeli başta veri bili
 
 Ancak, modelin daha kapsamlı anlaşılması için doğrulukla ilgili bazı zorluklara dikkat edilmelidir. Ölçümün kullanışlılığı problemin bağlamına bağlıdır. Model performansıyla ilgili olarak genellikle "Model ne kadar iyi?" sorusu sorulur. Ancak, bu sorunun yanıtı her zaman basit değildir. Aşağıdaki karışıklık matrisini göz önünde bulundurun (model 2).
 
-![Daha büyük bir örneğe sahip ödeme tahmini örneği](media/payment-prediction-matrix-2.png)
+![Daha büyük bir örneğe sahip ödeme tahmini örneği.](media/payment-prediction-matrix-2.png)
 
 Hızlı bir hesaplamayla bu modelin doğruluğu (70 + 10 + 3) ÷ 100 veya 0,83 olarak bulunabilir. Görünüşte bu sonuç, 0,73 doğruluğa sahip olan bir önceki çok sınıflı modelin (model 1) sonucundan daha iyi görünebilir. Ancak daha iyi midir?
 
@@ -87,7 +87,7 @@ Bu konuda dikkate alınması gereken en son husus, sınıflandırma ML performan
 
 F1 doğruluğunu tanımlamadan önce iki ek ölçüm açıklanmalıdır: duyarlık ve yakalama. Duyarlık, pozitif olarak belirtilen toplam tahmin sayısından kaç tanesinin doğru atandığını gösterir. Bu ölçüm pozitif tahmine dayalı değer olarak da bilinir. Yakalama, doğru şekilde öngörülen gerçek pozitif durumların toplam sayısıdır. Bu ölçüm aynı zamanda hassasiyet olarak da bilinir.
 
-[![Doğru sonuçlar ve yanlış sonuçlar karşılaştırması](./media/tn-fn.png)](./media/tn-fn.png)
+[![Doğru sonuçlar ve yanlış sonuçlar karşılaştırması.](./media/tn-fn.png)](./media/tn-fn.png)
 
 Önceki çizimdeki karışıklık matrisinde bu ölçümler aşağıdaki şekilde hesaplanır:
 
@@ -100,7 +100,7 @@ F1 ölçümü, duyarlık ile yakalamayı birleştirir. Sonuçta iki değerin har
 
 Daha somut bir örneği inceleyelim. Bu konun ilk kısmında bir hayvanın köpek mi kedi mi olduğunu tahmin eden bir modeli incelemiştik. Çizimi burada tekrar inceleyelim.
 
-[![Tür tahmini örneği (tekrarlı)](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
+[![Tür tahmini örneği (tekrarlı).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
 "Köpek" pozitif yanıt olarak kullanılırsa sonuçlar aşağıdaki gibi olur.
 
@@ -114,9 +114,9 @@ F1 doğruluğu kolay anlaşılır olmasa da temel doğruluk numarasının yanın
 
 Bu konunun [Model doğruluğu](#model-accuracy) bölümünde aşağıdaki iki karışıklık matrisi karşılaştırılmıştır. İlk modelin doğruluk değeri daha düşük olsa da varsayılan zamanında ödeme tahmininden daha fazla iyileşme gösterdiği için daha kullanışlı bir model olduğu kabul edilmiştir.
 
-![Ödeme tahmini ile gerçek değerler örneği](media/payment-prediction-matrix.png)
+![Ödeme tahmini ile fiili değerler örneği karşılaştırması.](media/payment-prediction-matrix.png)
 
-![Daha büyük bir örneğe sahip ödeme tahmini örneği (tekrarlı)](media/payment-prediction-matrix-2.png)
+![Daha büyük bir örneğe sahip ödeme tahmini örneği (tekrarlı).](media/payment-prediction-matrix-2.png)
 
 F1 puanı kullanıldığında bu iki modelin karşılaştırmasının nasıl olacağını inceleyelim. F1 puanı, her durum için duyarlığı ve yakalamayı hesaba katar ve ardından F1 makro hesaplaması, genel bir F1 puanı belirlemek için durumlar genelinde F1 puanlarının ortalamasını alır. Başka F1 türevleri de mevcuttur ancak her üç duruma da verilen eşit önem göz önünde bulundurulduğunda makro sürümü dikkate almak daha önemlidir.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355334"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Elektronik raporlama formülleri için desteklenen temel veri türleri
 
@@ -112,13 +112,13 @@ Bir uygulama *numaralandırması*, herhangi bir ER model eşleme ve ER biçimi i
 
 Aşağıdaki görsel, **CustVendCorrectiveReasonCode** model numaralandırmasını düzenlenebilir ER veri modeline nasıl ekleyebileceğinizi gösterir.
 
-[![ER veri modeli tasarımcısında model numaralandırması yapılandırma](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![ER veri modeli tasarımcısında model numaralandırması yapılandırma.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Model *numaralandırması*, *numaralandırmanın* bulunduğu bir veri modeli altında oluşturulmuş bir ER model eşleme ve ER biçimi ifadelerinde kullanılabilir.
 
 Aşağıdaki görsel, **Natura tersine çevirme masrafı alt kategorileri** biçim numaralandırmasını düzenlenebilir ER biçimine nasıl ekleyebileceğinizi gösterir.
 
-[![ER biçim tasarımcısında biçim numaralandırması yapılandırma](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![ER biçim tasarımcısında biçim numaralandırması yapılandırma.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Bir biçim *numaralandırması* yalnızca *numaralandırmanın* yerine getirilen ER biçiminin ifadelerinde kullanılabilir.
 
@@ -126,15 +126,15 @@ Belirli bir numaralandırmayı yapılandırılmış bir ER bileşenine sabit de�
 
 - Uygulama numaralandırmalarına **Dynamics 365 for Operations \ Numaralandırma** ve **Genel \ Kullanıcı girdi parametreleri** veri kaynaklarından erişebilirsiniz. Aşağıdaki görsel, **NoYes** uygulama numaralandırmasına başvuran **appenumNoYes** ve **uipNoYes** veri kaynaklarını düzenlenebilir bir ER biçimine nasıl ekleyebileceğinizi gösterir.
 
-    [![ER biçim tasarımcısında uygulama numaralandırma veri kaynakları ekleme](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![ER biçim tasarımcısında uygulama numaralandırma veri kaynakları ekleme.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Veri modeli numaralandırmalarına **Veri modeli \ Numaralandırma** ve **Veri modeli \ Kullanıcı giriş parametreleri** veri kaynaklarını kullanılarak erişebilirsiniz. Aşağıdaki görsel, **CustVendCorrectiveReasonCode** veri modeli numaralandırmasına başvuran **CustVendCorrectiveReasonCode** veri kaynaklarını düzenlenebilir bir ER biçimine nasıl ekleyebileceğinizi gösterir.
 
-    [![ER biçim tasarımcısında model numaralandırma veri kaynakları ekleme](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![ER biçim tasarımcısında model numaralandırma veri kaynakları ekleme.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Biçim numaralandırmalarına **Biçim \ Numaralandırma** ve **Biçim \ Kullanıcı giriş parametreleri** veri kaynaklarını kullanılarak erişebilirsiniz. Aşağıdaki görsel, **Natura tersine çevirme masrafı alt kategorileri** veri modeli numaralandırmasına başvuran **NaturaReverseCharge** veri kaynaklarını düzenlenebilir bir ER biçimine nasıl ekleyebileceğinizi gösterir.
 
-    [![ER biçim tasarımcısında biçim numaralandırma veri kaynakları ekleme](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![ER biçim tasarımcısında biçim numaralandırma veri kaynakları ekleme.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 *numaralandırma*, örtük dönüştürme içermez. Ancak, bir *numaralandırmayı* metin dizesine dönüştürmek için [TEXT](er-functions-text-text.md) dönüştürme işlevini kullanabilirsiniz. Bu dönüştürme dile bağlı değildir. *numaralandırma* değerini uygun dile özgü etiketlerle nasıl ilişkilendirebileceğinizi öğrenmek için, [LISTOFFIELDS](er-functions-list-listoffields.md) ve [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) işlevleriyle ilgili kullanım örneklerine bakın.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189587"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345044"
 ---
 # <a name="peripherals"></a>Çevre birimleri
 
@@ -119,7 +121,7 @@ Commerce ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardım
 -   **Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar. Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar. CCO'lar, Commerce'in POS bileşenlerini test etmekte kullanılır. Bu nedenle, Commerce bir cihaz sınıfını OPOS aracılığıyla destekliyorsa, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, test birçok cihaz türünün desteklenebilmesini garanti etmeye yardımcı olur. Her cihaz türünü açıkça test etmeniz gerekmez.
 -   **Hizmet nesnesi** – Hizmet nesnesi denetim nesnesi (CCO) ile cihaz arasındaki iletişimi sağlar. Genellikle, bir cihaz için hizmet nesnesi cihaz üreticisi tarafından sağlanır. Ancak, bazı durumlarda, hizmet nesnesini üreticisinin web sitesinden indirmeniz gerekebilir. Örneğin, daha yeni bir hizmet nesnesi mevcut olabilir. Üreticinin web sitesi adresini bulmak için donanım belgelerinize bakın.
 
-[![Denetim nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur. 
+[![Kontrol nesnesi ve hizmet nesnesi.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur. 
 
 > [!NOTE]
 > OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Commerce önce OPOS aracılığıyla cihaz türünü veya sınıfını desteklemelidir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813737"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344628"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Bir iş emri için bakım kesinti süresi
 
@@ -45,7 +45,7 @@ Bir iş emrinde seçilen kıymet üzerinde bakım kesinti süresi kayıtları ol
 
 Aşağıdaki şekilde bir **Bakım kesinti süresi neden kodları** sayfası örneği gösterilmektedir.
 
-![Şekil 1](media/15-work-orders.png)
+![Şekil 1.](media/15-work-orders.png)
 
 Kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını oluşturduktan sonra, iş emirleri ve varlıklar için bakım kesinti süresi kayıtları oluşturabilirsiniz.
 
@@ -71,15 +71,15 @@ Kullanmak istediğiniz bakım kesinti süresi nedeni kodlarını oluşturduktan 
 
 Aşağıdaki şekilde bir bakım kesinti süresi kaydı örneği gösterilmiştir.
 
-![Şekil 2](media/16-work-orders.png)
+![Şekil 2.](media/16-work-orders.png)
 
 Bakım kapalı kalma süresini hesaplamak için kullanılan takvim, varlıklar ve parametreler kurulumunda yaptığınız seçime bağlıdır. **Tüm varlıklar** sayfasının **Sabit kıymetler** hızlı sekmesindeki **Kaynak** alanındaki bir varlıkta kaynak seçildiyse, ilişkili kaynak grubu için takvim kurulumu aşağıdaki şekildeki gibi gösterilir.
 
-![Şekil 3](media/17-work-orders.png)
+![Şekil 3.](media/17-work-orders.png)
 
 Varlık üzerinde bir kaynak seçilmemişse, **Varlık yönetimi parametreleri** sayfasında seçilen standart takvim içinde kullanılır, aşağıdaki şekilde görüntülendiği gibi.
 
-![Şekil 4](media/18-work-orders.png)
+![Şekil 4.](media/18-work-orders.png)
 
 **Varlık yönetimi** > **Sorgular** > **Bakım kesinti süresi**'ne tıklayarak tüm bakım kesinti süresi kayıtlarına genel bir bakışı görebilirsiniz.
 

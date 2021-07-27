@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: baba699a1b8efc986b4b274b8faf143d24d69e96
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893944"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355793"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Kullanıcıların, Global havuzdan bir biçim sorgulayan ER biçimi başvurusu ayarlamalarına izin verme
 
@@ -34,27 +34,27 @@ Genellikle, belirli bir iş sürecinde hangi ER biçiminin kullanılması gerekt
 
 Geçerli Finance kurulumunda intrastat iş süreciyle ilgili ER biçimleri yoksa bu arama alanı boş olacaktır.
 
-[![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Dış ticaret parametreleri sayfası.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Geçerli Finance kurulumunda Intrastat iş süreciyle ilgili ER biçimleri varsa, bu arama alanı ER biçimlerini sunar.
 
-[![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Dış ticaret parametreleri sayfası.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Bu arama, yalnızca geçerli Finance kurulumunda zaten içe aktarılmış olan ER biçimlerini sunar. ER çözümlerini geçerli Finance kurulumunda [içe aktarmak için](./tasks/er-import-configuration-lifecycle-services.md), ER biçimlerini içeren ER çözümlerinin [yaşam döngüsünü](general-electronic-reporting-manage-configuration-lifecycle.md) destekleyen ilgili ER çerçevesi işlevini çalıştırmak için izinleriniz olmalıdır.
 
 Finance 10.0.9 sürümünden (Nisan 2020 sürümü) başlayarak, ER çerçevesi API'sı kullanarak uygulanan ER biçim aramasının kullanıcı arabirimi genişletilmiştir. **Biçim yapılandırmasını seç** hızlı sekmesindeki varolan ER biçimlerini yine de seçebilirsiniz. Ayrıca, genişletilmiş arama, belirli ER biçimlerini bulmak için Genel depoda (GR) arama yapmak için yeni bir seçenek sunar. GR'nin tüm ER biçimleri **Global havuzdan içe aktar** hızlı sekmesinde sunulur.
 
-[![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Dış ticaret parametreleri sayfası.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 **Biçim yapılandırmasını seç** hızlı sekmesine benzer şekilde, **Global havuzdan içe aktar** hızlı sekmesi yalnızca bu arama alanında bir ER biçiminin seçildiği iş süreci için uygun olan ER biçimlerini gösterir. Bu örnekte, Intrastat beyannamesinin oluşturulması gösterilmektedir. ER biçimi, şirket ülke içeriğine bağlı olarak kullanıcının oturum açtığı şirket için geçerlidir.
 
 **Global havuzdan içe aktar** hızlı sekmesinde bir ER biçimi seçtiğiniz zaman, seçilen ER biçimi [yapılandırması](general-electronic-reporting.md#Configuration), GR'den geçerli Finance kurulumuna aktarılır.
 
-[![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Dış ticaret parametreleri sayfası.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Bunun ardından içe aktarma işlemi başarıyla tamamlandıysa, içe aktarılan ER biçimine başvuru bu arama alanında depolanır. GR'ye ilk kez eriştiğinizde, GR depolama alanına erişimi yönetmek için kullanılan [Regulatory Configuration Service](https://aka.ms/rcs)'e (RCS) kaydolmak için verilen bağlantıyı izlemeniz gerekir.
 
-[![Dış ticaret parametreleri sayfası](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Dış ticaret parametreleri sayfası.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Varsayılan olarak, **Global havuzdan içe aktar** hızlı sekmesi, performans iyileştirmeleri için GR içeriğine göre otomatik olarak oluşturulan geçici depolamadan gelen ER biçimlerinin listesini sunar. Bu durum, **Genel havuzdan içe aktar** hızlı sekmesi ilk kez açıldığında olur ve birkaç saniye alabilir.
 
@@ -64,7 +64,7 @@ Varsayılan olarak, **Global havuzdan içe aktar** hızlı sekmesi, performans i
 
 Bu işlevselliğin kullanılabilirliği, **Özellik yönetimi**'ndeki **Global havuzu sorgulamaya izin veren ER biçimi yapılandırmaları için genişletilmiş arama** özelliğiyle kontrol edilir. Varsayılan olarak bu özellik etkindir.
 
-[![Özellik yönetimi sayfası](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
+[![Özellik yönetimi sayfası.](./media/ER-ExtLookup-FeatureMngt.png)](./media/ER-ExtLookup-FeatureMngt.png)
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 
@@ -72,7 +72,7 @@ Bu işlevselliğin kullanılabilirliği, **Özellik yönetimi**'ndeki **Global h
 
 Aşağıdaki ekran görüntüsünde, **Muhasebeci** rolüne atanmış kullanıcılara bu ayrıcalığın nasıl verilebileceği gösterilmektedir. Bu rol, kullanıcıların **Dış ticaret parametreleri** sayfasındaki **Dosya biçimi** ve **Rapor biçimi eşleme** alanlarında dış ticaret parametrelerini yapılandırmalarına ve ER biçimlerine başvuruları ayarlamalarına izin verir.
 
-[![Güvenlik yapılandırması sayfası](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
+[![Güvenlik yapılandırması sayfası.](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 
 ## <a name="limitations"></a>Sınırlamalar
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bef79df8d9806771f87a6f77a0c9094887050646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 112d3d37d1f70218265f264cda7ecefcb76f1f67
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822215"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343874"
 ---
 # <a name="budget-planning-data-allocation"></a>Bütçe planlama veri tahsisatı
 
@@ -36,28 +36,28 @@ Aynı bütçe planında bulunan satırlara dayalı olarak bütçe plan satırlar
 > [!NOTE] 
 > Dağıtım veya daha önce ana planda gerçekleştirilen diğer değişiklikler için kullanılan senaryodan farklı bir toplam için benzersiz bir senaryo kullanılmalıdır.  
 
-[![Dönemler genelinde tahsis etme tahsisat yöntemi](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![Dönemler genelinde tahsis etme tahsisat yöntemi.](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Dönemler genelinde tahsis et**: Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler genelinde tahsis etmek için bir dönem tahsisat kategorisi kullanılır. Kaynak tutarı, dönem tahsisat kategorisinde tanımlanan yüzdeye ve tarihe dayalı olarak hedef senaryodaki birden fazla satıra tahsis edilir.         
 
-[![Boyutlara tahsis etme tahsisat yöntemi](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![Boyutlara tahsis etme tahsisat yöntemi.](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Boyutlara tahsis et**: Bütçe planı satırları, seçilen bir bütçe tahsisat koşulunda tanımlanan yüzdelere ve mali boyutlara göre kaynak bütçe planlama senaryosundan hedef senaryodaki bir veya daha fazla satıra tahsis edilir.           
 
-![Grafiği toplama](./media/aggregatechart-300x230.png)
+![Toplama grafiği.](./media/aggregatechart-300x230.png)
 **Toplama**: Bütçe planı satırları, ilişkili (alt) bütçe planlarındaki kaynak bütçe planı senaryosundan ana bütçe planındaki hedef senaryoya toplanır. Bu yöntem, organizasyonun bir alt düzeyinde hazırlanan bütçe tutarlarının daha yüksek bir düzeyde birleştirilmesini sağlar.          
 
-[![Grafiği dağıtma](./media/distributechart-300x230.png)](./media/distributechart.png)
+[![Dağıtma grafiği.](./media/distributechart-300x230.png)](./media/distributechart.png)
 **Dağıt**: Bütçe planı satırları, ilişkili planların organizasyon birimlerinin mali boyutlarına göre ana bütçe planındaki kaynak bütçe planlama senaryosundan ilişkili (alt) bütçe planlarındaki hedef senaryoya dağıtılır. Bu yöntem, organizasyonun bir üst düzeyinde hazırlanan bütçe tutarlarının daha lokal bir değerlendirme için dağıtılmasını sağlar.           
 
-[![Genel muhasebe tahsisat kuralları](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+[![Genel muhasebe tahsisat kuralları.](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
 **Genel muhasebe tahsisat kurallarını kullan**: Bütçe planı satırları, seçilen genel muhasebe tahsisat kuralına göre kaynak bütçe planlama senaryosundan hedef senaryoya dağıtılır. 
 
-[![Bütçe planından kopyalama](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![Bütçe planından kopyalama.](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Bütçe planından kopyala**: Dağıtma tahsisat yönteminde olduğu gibi, ilgili bir bütçe planındaki satırlara göre hedefte bütçe planı satırları oluşturulur. Ancak, bu yöntem için, kaynak bütçe planının ana plan olması zorunlu değildir, bütçe planı hiyerarşisinde daha yüksek bir düzeyde bulunabilir. Bu tahsisat yöntemi, konsolide tutarların orijinal olarak çok yüksek bir düzeyde bütçelendiği ve daha üst düzeyde bir onay almadan önce ayrıntılı şekilde gözden geçirilmesi ve düzenlenmesi için organizasyonun daha alt bir düzeyine transfer edilmesinin gerektiği durumlarda kullanışlıdır.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Bir bütçe planında tahsisat yöntemlerini kullanma
 Bütçe planı sayfasında tahsisatlar gerçekleştirmek için, tahsis edilecek satırları seçin ve ardından **Bütçeyi tahsis et** öğesini tıklayın.
 
-[![Bütçe tahsis et düğmesi](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![Bütçe tahsis et düğmesi.](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 Ardından, bir tahsisat yöntemi seçin. Kalan alanlar, seçtiğiniz yönteme dayalı olarak ayarlanır. Bu alanlara bütçe planı verilerinin kaynağı ve hedefi ve ayrıca toplu iş ayarının kolaylaşması açısından hedef tutarları oluşturulduğunda kaynağı belirtilen bir faktörle çarpmanıza izin veren bir seçenek dahildir. Ayrıca, **Planla ekle** seçeneğini de kullanabilirsiniz. Mevcut bütçe planı satırlarını değiştirmek için **Hayır** öğesini veya mevcut bütçe planı satırlarını tutmak ve tahsis edilen tutarlar için yeni satırlar eklemek için **Evet** öğesini seçin.
 
@@ -70,7 +70,7 @@ Ardından, **Bütçe Planlama Yapılandırma** sayfasından bir aşama tahsisat�
 
 Son olarak, istediğiniz iş akışı aşamasında bütçe planlama aşama tahsisatı için bir otomatik görev ekleyin. Aşağıdaki örnekte, iş akışına iki adet bütçe planlama aşaması tahsisatı (kırmızı çerçeve içine alınmıştır) eklenmiştir.
 
-[![Bütçe planlaması aşama tahsisatları](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![Bütçe planlaması aşama tahsisatları.](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 

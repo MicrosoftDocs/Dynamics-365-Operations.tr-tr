@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fae899bcfa8bb2566d1a9aee3f0dbe22bc219edf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f49ae2a65bf590eea13265712621675da87dd621
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825650"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360089"
 ---
 # <a name="scheduled-execution"></a>Planlı yürütme
 
@@ -39,7 +39,7 @@ Zamanlanmış yürütmeyi ayarlamak için iş emri servis düzeylerini kullanabi
 5. **Zamanlanmış yürütme** alanında zaman aralığını seçin.
 6. **Kaydet**'i seçin.
 
-![Planlı yürütme](media/20-setup-for-work-orders.png)
+![Planlı yürütme.](media/20-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

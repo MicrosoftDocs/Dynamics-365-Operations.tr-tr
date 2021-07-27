@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937074"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349686"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alım satım varlıkların sıralama düzenini değiştirme
 
@@ -51,9 +51,9 @@ Bu yordamı tamamlayabilmek için, demo verilerinin çalışma ortamınıza yük
 
 Kanal gezinti hiyerarşisinin görüntüleme sırası, Commerce ürün hiyerarşisi için HQ ve kategoriye göre serbest bırakılan Ürünler için yansıtılır.
 
-![Özel negatif değerlerle sıralanan ürün hiyerarşisi](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Özel negatif değerlerle sıralanan ürün hiyerarşisi.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Ürün hiyerarşisine göre özel sıralanmış, kategoriye göre yayınlanan ürünler](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Ürün hiyerarşisine göre özel sıralanmış, kategoriye göre yayınlanan ürünler.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Kanal gezinme hiyerarşisindeki kategorilerin görüntülenme sırasını konfigüre etme
 
@@ -77,11 +77,11 @@ Bu yordamı tamamlayabilmek için, demo verilerinin çalışma ortamınıza yük
 
 Kanal gezinme hiyerarşisinin görüntüleme sırası HQ, Katalog ve kanallarda yansıtılır.
 
-![Kanal gezinme hiyerarşisi özel sıralandı](./media/ChannelNavCustomSorted.png)
+![Kanal gezinme hiyerarşisi özel sıralandı.](./media/ChannelNavCustomSorted.png)
 
-![Katalog Gezinti hiyerarşisi kanal gezinti hiyerarşisine göre özel sıralandı](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Katalog Gezinti hiyerarşisi kanal gezinti hiyerarşisine göre özel sıralandı.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![Özel sıralı kategorileri olan POS](./media/POSChannelCategoriesCustomSorted.png)
+![Özel sıralı kategorileri olan POS.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
 > Varsayılan olarak, özel sıralama düzeni özelliği kapalıdır. Bu özelliği ve diğer özellikleri nasıl açacağınızı öğrenmek için [Özellik Yönetimi](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)'ne bakın.

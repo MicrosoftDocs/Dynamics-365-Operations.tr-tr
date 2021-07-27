@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796378"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345172"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
@@ -36,7 +36,7 @@ Varsayılan olarak, ürün aramaları mağaza ürün çeşitlerinde yapılır. B
 
 **Kataloğu değiştir** sayfasında, çalışanlar kolayca herhangi bir mağazayı seçebilir veya tüm mağazalar arasındaki ürünler arasından arama yapabilir.
 
-![Katalog değiştirme](./media/Changecatalog.png "Katalog değiştirme")
+![Katalog değiştirme.](./media/Changecatalog.png "Katalog değiştirme")
 
 Bir yerel ürün arama, aşağıdaki ürün özellikleri içerisinde arar:
 
@@ -59,9 +59,9 @@ Bir yerel ürün arama, aşağıdaki ürün özellikleri içerisinde arar:
 - Perakendeciler ürün aramayı, kullanıcılar ürün adlarını yazarken arama sonuçlarını gösterecek şekilde yapılandırabilir. Bu işlev için yeni bir ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan bir grupta kullanılabilir. Bu ayarın adı **Yazarken arama önerilerini göster**'dir. Bu işlev, çalışanların aradıkları ürünü hızlıca bulmalarına yardımcı olabilir çünkü tam adını yazmalarına gerek kalmaz.
 - Ürün arama algoritması şimdi ayrıca aranan terimleri ürünün **Arama adı** özelliğinde de arar.
 
-![Ürün önerileri](./media/Productsuggestions.png "Ürün önerileri")
+![Ürün önerileri.](./media/Productsuggestions.png "Ürün önerileri")
 
-## <a name="customer-search"></a>Müşteri arama
+## <a name="customer-search"></a>Müşteri araması
 
 Müşteri arama, çeşitli amaçlarla müşterileri bulmak için kullanılır. Örneğin, kasiyer bir müşterinin istek listesini veya satın alma geçmişini görüntülemek veya müşteriyi bir harekete eklemek isteyebilir. Arama algoritması arama terimlerini aşağıdaki müşteri özelliklerinde bulunan değerlerle eşleştirir:
 
@@ -83,7 +83,7 @@ Genel olarak aramak için, çalışanlar sayfanın altında bulunan **Sonuçlar�
 
 Diğer tüzel varlıklardan sorgulanan müşteriler için müşteri kimliği gösterilmez, çünkü geçerli şirkette bu müşteriler için bir müşteri kimliği oluşturulmamıştır. Ancak, bir çalışan müşteri ayrıntıları sayfasını açarsa, sistem otomatik olarak bu taraf için bir müşteri kimliği oluşturur ve mağazanın müşteri adres defterini müşteri ile ilişkilendirir. Bu nedenle, müşteri daha sonra yapılan yerel mağaza aramalarında da görünür.
 
-![Global müşteri araması](./media/Globalcustomersearch.png "Global müşteri araması")
+![Global müşteri araması.](./media/Globalcustomersearch.png "Global müşteri araması")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Ek yerel müşteri arama yetenekleri
 
@@ -94,11 +94,11 @@ Kullanıcı bir telefon numarası aradığında sistem müşteri oluşturulurken
 
 Geleneksel müşteri arama birden çok alanda arama yaptığından zaman alabilir. Bunun yerine, kasiyerler adı, e-posta adresi veya telefon numarası gibi tek bir müşteri özelliği için arama yapabilir. Müşteri arama algoritmasının kullandığı özellikler topluca *müşteri arama ölçütü* olarak bilinir. Sistem Yöneticisi bir veya daha fazla ölçütü POS'ta görüntülenecek kısayol olarak kolayca yapılandırabilir. Arama tek bir ölçütle sınırlı olduğundan, yalnızca ilgili arama sonuçları gösterilir ve standart müşteri arama performansına göre çok daha iyi performans elde edilir. Aşağıda POS'taki müşteri arama kısayolları gösterilmektedir.
 
-![Müşteri araması kısayolları](./media/SearchShortcutsPOS.png "Müşteri araması kısayolları")
+![Müşteri araması kısayolları.](./media/SearchShortcutsPOS.png "Müşteri araması kısayolları")
 
 Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Commerce'da **Ticaret parametreleri** sayfasını açması ve **POS arama ölçütü** sekmesinde kısayol olarak gösterilecek tüm ölçütleri seçmesi gerekir.
 
-![Arama kısayollarını yapılandırma](./media/ConfigureShortcutsAX.png "Arama kısayollarını yapılandırma")
+![Arama kısayollarını yapılandırma.](./media/ConfigureShortcutsAX.png "Arama kısayollarını yapılandırma")
 
 > [!NOTE]
 > Çok sayıda kısayol eklerseniz, POS arama çubuğundaki açılan menü kalabalık olur ve çalışanın arama deneyimini etkileyebilir. Yalnızca gerektiği kadar kısayol eklemenizi öneririz.

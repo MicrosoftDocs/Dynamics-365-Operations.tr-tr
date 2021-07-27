@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356331"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3 - Raporu tasarlama)
 
@@ -92,7 +92,7 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 59. Öznitelik Ekle'ye tıklayın.
 60. Ad alanına, 'Açıklama' yazın.
 61. Tamam'a tıklayın.
-![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format1.png)
+![ER İşlem tasarımcısı sayfası.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapor öğelerini veri kaynakları ile eşleme
 1. Eşleme sekmesini tıklatın.
@@ -139,9 +139,9 @@ Bu adımları tamamlamak için öncelikle "ER Mali boyutları veri kaynağı ola
 42. Ağaçta, 'Kök: XML Öğesi\Şirket: XML Özniteliği' öğesini seçin.
 43. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Şirket: Dize' öğesini seçin.
 44. Bağla'yı tıklatın.
-45. Kaydet'i tıklatın.
+45. Kaydet'e tıklayın.
 46. Sayfayı kapatın.
-![ER İşlem tasarımcısı sayfası](../media/er-financial-dimensions-guides-format2.png)
+![ER İşlem tasarımcısı sayfası.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

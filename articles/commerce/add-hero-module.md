@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797659"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347528"
 ---
 # <a name="content-block-module"></a>İçerik blok modülü
 
@@ -46,11 +46,11 @@ Ek olarak, tema her düzen için farklı özellikler sergileyebilir. Bir tema ge
 
 Aşağıdaki resimde, Hero düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-![Hero modülü örneği](./media/Hero.PNG)
+![Hero modülü örneği.](./media/Hero.PNG)
 
 Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-![Özellik modülleri örnekleri](./media/Feature.PNG)
+![Özellik modülleri örnekleri.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>İçerik blok modülü özellikleri
 

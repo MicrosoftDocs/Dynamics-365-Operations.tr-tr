@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352312"
 ---
 # <a name="enable-personalized-recommendations"></a>Kişiselleştirilmiş önerileri etkinleştirme
 
@@ -50,7 +50,7 @@ Kişiselleştirmeyi açmak için aşağıdaki adımları izleyin.
 1. **Kişiselleştirilmiş ürün önerileri** özelliğini seçin.
 1. **Kişiselleştirilmiş ürün önerileri** özellikler bölmesinde **Şimdi etkinleştir**'i seçin.
 
-![Kişiselleştirmeyi açma](./media/FeatureManagement_Personalized.PNG)
+![Kişiselleştirmeyi açma.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Kişiselleştirmeyi etkinleştirdiğinizde, kişiselleştirilmiş ürün önerisi listeleri oluşturma işlemi başlatılır. Bu listelerin kullanılabilmesi ve çevrimiçi olarak ve POS'ta görülebilmesi için bir güne kadar gerekli olabilir.
@@ -73,7 +73,7 @@ Kişiselleştirme etkinleştirildikten sonra, perakendeciler, tüm POS terminall
 
 Aşağıdaki resimde, bir çevrimiçi mağaza sayfasındaki "sizin için seçilenler" listesinin bir örneği gösterilmektedir.
 
-![Çevrimiçi "sizin için seçilenler" listeleri](./media/picksforyou.png)
+![Çevrimiçi "sizin için seçilenler" listeleri.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>POS'ta "müşteri için önerilenler" listeleri
 
@@ -81,7 +81,7 @@ Perakendeciler müşteir seçimi deneyimlerini geliştirmek için, varolan müş
 
 Aşağıdaki resimde, bir POS terminalindeki "Müşteri için önerilenler" listesinin bir örneği gösterilmektedir.
 
-![POS'ta "müşteri için önerilenler" listesi](./media/picksonpos.png)
+![POS'ta "müşteri için önerilenler" listesi.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Varolan öneri listelerine kişiselleştirmeyi Uygula
 
@@ -89,7 +89,7 @@ Perakendeciler, "yeni", "trend", "En çok satan", "Bunları da sevdiler" ve "Sı
 
 Örneğin, oturum açmış bir Kullanıcı aşağıdaki çizimde yer alan "Trend - varsayılan" listesinde görünen siyah izlemeyi ve kahverengi çalışma ön yüklemeleri 'ni zaten satın aldı. Bu nedenle, Kullanıcı "Trend - kişiselleştirilmiş" listesinde gösterildiği gibi, bu ürünler yerine yeni ürünler görürler.
 
-![Kişiselleştirme uygulanıyor](./media/applypersonalization.png)
+![Kişiselleştirme uygulanıyor.](./media/applypersonalization.png)
 
 Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygulamak için, aşağıdaki adımları izleyin.
 
@@ -99,7 +99,7 @@ Ticaret Sitesi Oluşturmada varolan bir öneri listesine kişiselleştirme uygul
 1. **Ürün listesi konfigürasyonu seç** iletişim kutusunda, **Tür**'ün altında, liste türünü seçin.
 1. **Kişiselleştirmeyi Uygula** onay kutusunu seçin ve **Tamam**'ı seçin.
 
-    ![Bir trend listesine kişiselleştirme uygulanıyor](./media/ApplyPersonalizationToTrending.PNG)
+    ![Bir trend listesine kişiselleştirme uygulanıyor.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Sayfa parçasını kaydedin, düzenlemeyi bitirin ve yayımlayın. Sayfa yayımlandıktan sonra, oturum açan kullanıcılar kişiselleştirilmiş liste listeleri görür.
 

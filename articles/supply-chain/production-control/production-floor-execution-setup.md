@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353976"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Üretim katı yürütme arabirimini çalıştıracak bir cihaz ayarlama
 
@@ -70,7 +70,7 @@ Genellikle, üretim katı yürütme arabirimini o amaçla özel olarak kullanıl
 
 Aşağıdaki çizimin üst bölümünde arabirimin varsayılan olarak nasıl göründüğü gösterilmektedir. Alt bölüm, gezinti bölmesi gizli olduğunda tam ekran modunda nasıl göründüğünü gösterir.
 
-![Standart ve tam ekran arabirim karşılaştırması](media/pfei-full-screen.png "Standart ve tam ekran arabirim karşılaştırması")
+![Standart ve tam ekran arabirim karşılaştırması.](media/pfei-full-screen.png "Standart ve tam ekran arabirim karşılaştırması")
 
 ## <a name="extend-the-session-past-12-hours"></a>Oturumu 12 saatten fazla uzatma
 

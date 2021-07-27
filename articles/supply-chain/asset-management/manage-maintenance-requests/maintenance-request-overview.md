@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015890"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344256"
 ---
 # <a name="maintenance-requests"></a>Bakım talepleri
 
@@ -40,7 +40,7 @@ Bakım talepleri, Varlık yönetimi'ndeki herhangi bir varlık için oluşturula
 
 Bakım taleplerini görüntülemek için **Varlık yönetimi** \> **Ortak** \> **Bakım talepleri** \> **Tüm bakım talepleri**, **Etkin bakım talepleri**, ya da **İşlem yapılacak yerleşim bakım talepleri**'ni seçin. Her liste sayfası bir bakım talebi ile ilgili bazı bilgileri gösterir.
 
-![Bakım taleplerini görüntüle](media/01-manage-maintenance-requests.png)
+![Bakım taleplerini görüntüleme.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Çalışan olarak ilişkili olduğunuz işlem yapılacak yerleşimleri veya ilişkili olduğunuz işlem yapılacak yerleşimlere yüklü varlıkları içeren bakım taleplerinin listesini görüntülemek için **İşlem yapılacak yerleşim bakım talepleri** liste sayfasını kullanın. (Bakım çalışanlarında işlem yapılacak yerleri ayarlama hakkında daha fazla bilgi için bkz: [Bakım görevlileri ve çalışan grupları](../setup-for-objects/workers-and-worker-groups.md).)
@@ -49,7 +49,7 @@ Bakım taleplerini görüntülemek için **Varlık yönetimi** \> **Ortak** \> *
 
 Bir kaydın Ayrıntılar görünümünü açmak için, **Tüm bakım talepleri** listesi sayfasında, kılavuz görünümünde, **Bakım talebi** sütununda bir bağlantı seçin.
 
-![Bakım talebi ayrıntılarını görüntüleme](media/02-manage-maintenance-requests.png)
+![Bakım talebi ayrıntılarını görüntüleme.](media/02-manage-maintenance-requests.png)
 
 Eylem Bölmesi'ndeki düğmeler sekmeler halinde düzenlenmiştir. Aşağıdaki tabloda Kıymet Yönetimi'yle ilgili düğmeler kısaca açıklanmaktadır.
 

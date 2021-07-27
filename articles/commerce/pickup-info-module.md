@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353816"
 ---
 # <a name="pickup-information-module"></a>Malzeme çekme bilgileri modülü
 
@@ -40,7 +40,7 @@ Malzeme çekme bilgileri modülü kullanıma alma sayfasında oluşturulursa, an
 
 Aşağıdaki resimde, kullanıma alma sayfasındaki malzeme çekme bilgileri modülü aracılığıyla zaman dilimi seçimi örneği gösterilmektedir.
 
-![Ödeme sayfasındaki teslimat bilgileri modülü örneği](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Ödeme sayfasındaki teslimat bilgileri modülü örneği.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Modül özellikleri
 
@@ -56,11 +56,11 @@ Bir ödeme sayfasına teslim bilgileri modülü ekleme ve gerekli özellikleri a
 
 Aşağıdaki çizimde, malzeme çekme kalemindeki zaman yuvalarını içeren bir e-ticaret kullanıma alma sayfası örneği gösterilmiştir.
 
-![Malzeme çekme kalemindeki zaman yuvalarını içeren bir e-ticaret kullanıma alma sayfası örneği](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Malzeme çekme kalemindeki zaman yuvalarını içeren bir e-ticaret kullanıma alma sayfası örneği.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Müşteri malzeme çekme için zaman aralıkları oluşturma ve güncelleştirme](dev-itpro/pickup-timeslots.md)
+[Müşterinin teslim alması için zaman aralıkları oluşturma ve güncelleştirme](dev-itpro/pickup-timeslots.md)
 
 [Ödeme yapma modülü](add-checkout-module.md)
 

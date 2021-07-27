@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 284fd4047347386b3893684f077a5980f98a6788
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018793"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350012"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>TaxTrans kaydı oluşturulmuyor
 
@@ -26,7 +26,7 @@ ms.locfileid: "6018793"
 
 Bir hareket için **Deftere nakledilen satış vergisi**'ni seçerseniz ancak **Deftere nakledilen satış vergisi** sayfası hiçbir vergi satırı göstermiyor veya bir vergi satırı eksikse, **TaxTrans** kaydı oluşturulmamış olabilir.
 
-[![Satır maddeleri olmayan deftere nakledilen satış vergisi sayfası](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Satır maddeleri olmayan deftere nakledilen satış vergisi sayfası.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Bu sorunu gidermek için, aşağıdaki bölümlerde gereken adımları izleyin.
 
@@ -34,7 +34,7 @@ Bu sorunu gidermek için, aşağıdaki bölümlerde gereken adımları izleyin.
 
 1. Hareketi deftere nakletmeden önce, **Faturayı deftere nakletme** sayfasında hesaplamayı denetlemek için **Satış vergisi**'ni seçin.
 
-    [![Fatura deftere nakli sayfasındaki satış vergisi düğmesi](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![Fatura deftere nakli sayfasındaki satış vergisi düğmesi.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. **Geçici satış vergisi hareketleri** sayfasında, hesaplama sonucunu gözden geçirin. Herhangi bir vergi hesaplanmamışsa bkz. [Vergi hesaplanmıyor veya vergi tutarı sıfır](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
@@ -44,16 +44,16 @@ Bu sorunu gidermek için, aşağıdaki bölümlerde gereken adımları izleyin.
 2. **TaxTrans** kaydını bulmak için **Fiş** sütunu başlığında filtre sembolünü seçin.
 3. Aradığınız satış vergisi kayıtlarını bulursanız, tarihi kontrol edin. Tarih, günlük başlığındaki tarihten farklıysa, ek destek için bir Microsoft servis talebi oluşturun.
 
-    [![Deftere nakledilen satış vergisi sayfası](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Deftere nakledilen satış vergisi sayfası.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Ayrıntıları denetlemek için hata ayıklama
 
 1. Hata ayıklama ve **TmpTaxWorkTrans** ve **TaxUncommitted**'ın doğru oluşturulup oluşturulmadığını tespit etmek hakkında bilgi edinmek için bkz. [TaxTrans'taki alan değeri hatalı](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. **TaxTmpWorkTrans** veya **TaxUncommitted** öğesi doğru oluşturulduysa, **TaxTrans**'ın eklenmeme nedeninde hata ayıklama yapmak için **TaxPost::SaveAndPost()** ve **Tax::SaveAndPost** yönteminde kesme noktası ekleyin.
 
-    [![Kodda eklenen kesme noktaları](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Kodda eklenen kesme noktaları.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Eklenen kesme noktalarının sonuçları](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Eklenen kesme noktalarının sonuçları.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Özelleştirme olup olmadığını belirleyin
 

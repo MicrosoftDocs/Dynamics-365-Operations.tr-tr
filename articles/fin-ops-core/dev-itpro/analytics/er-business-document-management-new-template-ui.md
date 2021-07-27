@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881048"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350196"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>İş belgesi yönetiminde Microsoft Office stili kullanıcı arabirimi
 
@@ -51,18 +51,18 @@ Bu özelliği tüm tüzel kişilikler için açmak üzere bu adımları izleyin.
 
 1. **İş belgesi yönetimi** çalışma alanında **Yeni belge**'yi seçin.
 
-    ![İş belgesi yönetimi çalışma alanı](./media/BDM_overview_new_template1.png)
+    ![İş belgesi yönetimi çalışma alanı.](./media/BDM_overview_new_template1.png)
 
 2. **Seç** sekmesinde, şablon olarak kullanılacak belgeyi ve ardından **Belge oluştur**'u seçin.
 
-    ![İş belgeleri iletişim kutusu](./media/BDM_overview_new_template2.png)
+    ![İş belgeleri iletişim kutusu.](./media/BDM_overview_new_template2.png)
 
 3. Yeni iletişim kutusunda, **Başlık** alanında, başlığı gerektiği gibi değiştirin. Başlık metni, otomatik olarak oluşturulan yeni ER biçimi yapılandırmasını adlandırmak için kullanılır. Bu yapılandırmanın taslak sürümü (**Müşteri FTI raporu (GER) kopyası**) düzenlenen şablonu içerir ve bu ER biçimini geçerli kullanıcı için çalıştırmak üzere kullanılır. Temel ER biçimi yapılandırmasındaki özgün şablon, diğer kullanıcıların tümü için bu ER biçimini çalıştırmada kullanılacaktır.
 4. **Ad** alanında, düzenlenebilir şablonun otomatik olarak oluşturulacak ilk revizyonunun adını değiştirin.
 5. **Yorum** alanında, düzenlenebilir şablonun otomatik olarak oluşturulacak revizyonuna için yorumları güncelleştirin.
 6. Düzenleme işleminin başlangıcını onaylamak için **Tamam**'ı seçin.
 
-    ![Belge oluşturma iletişim kutusu](./media/BDM_overview_new_template3.png)
+    ![Belge oluşturma iletişim kutusu.](./media/BDM_overview_new_template3.png)
 
 **Yeni belge** düğmesi, kullanıcıların başka bir sağlayıcı tarafından sağlanan bir ER biçimi yapılandırmasında şablon oluşturmak ve düzenlemek için kullanılır. Bu örnekte sağlayıcı Microsoft'tur. **Yeni belge**'yi seçtiğiniz zaman, sahibi geçerli ve diğer sağlayıcılar olan tüm şablonları görüntüleyebilirsiniz. Siz şablonu seçtikten sonra şablon düzenleme için açılır. Düzenlenen şablon daha sonra otomatik olarak oluşturulan yeni bir ER biçim yapılandırması içinde depolanır.
 
@@ -71,16 +71,16 @@ Bir şablonu karşıya yüklemeden önce gerekli bilgileri sağlamak için aşa�
 
 1. **İş belgesi yönetimi** çalışma alanında **Yeni belge**'yi seçin.
 
-    ![İş belgesi yönetimi çalışma alanı](./media/BDM_overview_new_template1.png)
+    ![İş belgesi yönetimi çalışma alanı.](./media/BDM_overview_new_template1.png)
     
 2. **Yeni şablon oluştur** sayfasında, **Yükle** sekmesindeki **Şablon** sekmesinde şablon olarak kullanmak istediğiniz Excel dosyasını bulmak ve seçmek için **Gözat**'ı seçin. **Şablon** bölümünde, **Başlık** ve **Açıklama** alanları otomatik olarak doldurulur. Bunlar otomatik olarak oluşturulan yeni ER biçimi yapılandırmasının adını ve açıklamasını belirtir. Bu alanları istediğiniz şekilde düzenleyebilirsiniz.
 3. **Belge Türü** bölümünde, **Ad** alanında iş belgesinin türünü belirtin. Bu değer, doğru veri kaynağını (ER model konfigürasyonu) aramak için kullanılacaktır.
 
-    ![Şablon sekmesi](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Şablon sekmesi.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. **Veri kaynağı** sekmesinde, **Filtre** hızlı sekmesinde **Filtreyi uygula**'yı seçin. **Veri kaynağı** bölümünde, **Ad** alanı otomatik olarak doldurulur veya el ile bir değer seçebilirsiniz. Uygun veri kaynağı adını ad, açıklama, ülke/bölge kodu ve iş belgesi türü ile aramak için filtre kullanabilirsiniz.
 
-    ![Veri kaynağı sekmesi](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Veri kaynağı sekmesi.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > **Filtre** hızlı sekmesi, doğru veri kaynağını (ER model konfigürasyonu) aramak için kullanılır. Karşıya yüklediğiniz belge için en uygun veri kaynağını bulmak üzere tüm filtre alanlarını düzenleyebilirsiniz.
@@ -89,7 +89,7 @@ Bir şablonu karşıya yüklemeden önce gerekli bilgileri sağlamak için aşa�
     
 5. **Eşleme** sekmesinde **Otomatik algıla**'yı seçin. **Kök tanımı** alanı otomatik olarak doldurulur veya el ile bir değer seçebilirsiniz. Bu sekme, şablondan ve modelden gelen öğelerin bitiş eşlemesini gösterir.
 
-    ![Eşleme sekmesi](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Eşleme sekmesi.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > **Şablon yapısı** bölümündeki eşleme, kullanıcının dilindeki ve şablondaki hücre adındaki etiket veya açıklamaların tam eşleşmesini kullanır.
@@ -102,11 +102,11 @@ Elektronik raporlamada bir sağlayıcı yoksa, oluşturabilirsiniz. Etkin sağla
 
 - Sağlayıcı oluşturmak için, **Ad** alanında sağlayıcının adını değiştirin, **İnternet adresi** alanında yeni sağlayıcının internet adresini güncelleştirin ve onaylamak için **Tamam**'ı seçin.
 
-    ![BDM'de yeni sağlayıcı oluşturma](./media/bdm_create_provider.png)
+    ![BDM'de yeni sağlayıcı oluşturma.](./media/bdm_create_provider.png)
     
 - Mevcut sağlayıcıyı etkinleştirmek için **Yapılandırma sağlayıcısı** alanında sağlayıcının adını seçin ve ardından sağlayıcıyı etkin olarak ayarlamak için **Tamam**'ı seçin.
 
-    ![BDM'de sağlayıcıyı etkinleştirme](./media/bdm_choose_provider.png)
+    ![BDM'de sağlayıcıyı etkinleştirme.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Her BDM şablonu yapılandırmanın yazarı olarak sağlayıcıya başvurur. Bu nedenle şablon için etkin bir sağlayıcı gereklidir.

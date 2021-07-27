@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271317"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357870"
 ---
 # <a name="apply-inventory-settings"></a>Stok ayarlarını uygula
 
@@ -68,15 +68,15 @@ Satınalma kutusu, istek listesi, mağaza Seçicisi, sepet ve sepet simgesi mod�
 
 Aşağıdaki resimde yer alan örnekte, bir PDP stokta ("Kullanılabilir") iletisini göstermektedir.
 
-![Stokta bir ileti bulunan PDP modülü örneği](./media/pdp-InStock.png)
+![Stokta bir ileti bulunan PDP modülü örneği.](./media/pdp-InStock.png)
 
 Aşağıdaki resimde yer alan örnekte, bir PDP "Stokta yok" iletisini göstermektedir.
 
-![Stok dışı bir ileti bulunan PDP modülü örneği](./media/pdp-outofstock.png)
+![Stok dışı bir ileti bulunan PDP modülü örneği.](./media/pdp-outofstock.png)
 
 Aşağıdaki resimde yer alan örnekte, bir sepet stokta ("Kullanılabilir") iletisini göstermektedir.
 
-![Stokta bir ileti bulunan sepet modülü örneği](./media/cart-instock.png)
+![Stokta bir ileti bulunan sepet modülü örneği.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936792"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349662"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Kullanıcı oturum açma işlemleri için özel sayfalar ayarlama
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce'te kullanıcı oturum açma akışlarını işlemek amacı
 
 Azure AD B2C kiracınızı ayarladıktan ve Commerce ortamınızla ilişkilendirdikten sonra, Azure portalında **Azure AD B2C** sayfasına gidin ve menüsünde, **İlkeler** altında, **Kullanıcı akışlarını (ilkeler)** seçin.
 
-![Kullanıcı akışları (ilkeler) komutu menüde](./media/B2C_CustomPage_PoliciesMenu.png)
+![Kullanıcı akışları (ilkeler) komutu menüde.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 "Kaydet ve oturum aç", "Profil düzenlemesi" ve "parola sıfırlama" kullanıcı oturum açma akışlarını yapılandırabilirsiniz.
 
@@ -54,13 +54,13 @@ Azure AD B2C kiracınızı ayarladıktan ve Commerce ortamınızla ilişkilendir
 1. **Öznitelik topla** sütununda, **E-posta Adresi**, **Verilen ad** ve **Soyadı** onay kutularını seçin.
 1. **İade talebi** sütununda , **e-posta adreslerinin**, **verilen ad**, **kimlik sağlayıcı**, **soyadı** ve **kullanıcının nesne kodu** onay kutularını seçin.
 
-    ![Seçilen öznitelikler ve talepler](./media/B2C_SignInSignUp_Attributes.png)
+    ![Seçilen öznitelikler ve talepler.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. İlkeyi oluşturmak için **Tamam**'ı seçin.
 1. Yeni ilke adını çift tıklatın ve sonra gezinme bölmesinde **Özellikler**'i seçin.
 1. **JavaScript'i zorlamayı etkinleştir sayfa düzeni (Önizleme)** seçeneğini **açık** olarak ayarlayın.
 
-    ![Yeni ilke için Özellikler sayfası](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Yeni ilke için Özellikler sayfası.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > İlke adı, Commerce ortamında tam olarak referans edilir. (**B2C\_1\_** öneki başvuruya dahil edilecek.) İlkeler, oluşturulduktan sonra yeniden adlandırılamaz. Commerce ortamınız için varolan bir ilkeyi değiştiriyorsanız, özgün ilkeyi silebilir ve aynı ada sahip yeni bir ilke oluşturabilirsiniz. Alternatif olarak, ortam önceden sağlanmış ise, yeni ilke adını bir servis isteği aracılığıyla gönderebilirsiniz.
@@ -150,7 +150,7 @@ Azure portalında **Azure AD B2C** sayfasına dönün ve sonra menüde **ilkeler
     1. **E-posta adresi**, **ad** ve **Soyadı** öznitelikleri için **İsteğe bağlı** sütununda **Hayır**'ı seçin.
 1. **Kaydet**'i seçin.
 
-    ![Yerel hesap kayıt sayfası ilkesi yapılandırması](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Yerel hesap kayıt sayfası ilkesi yapılandırması.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>"Profil düzenleme" ilkesini özel sayfa bilgileriyle güncelleştirme
 
@@ -188,11 +188,11 @@ Modül kitaplığında, oturum açma modülleri, Etiketler ve açıklamalar içi
 
 Örneğin, Unutulan parola bağlantısı için varsayılan metin **parola unutuldu mu?**'dur. Aşağıda bu varsayılan metin oturum açma sayfasında gösterilir.
 
-![Oturum açma sayfasında Unutulan parola bağlantısı için varsayılan metin](./media/B2C_SignUp_ModuleFace.png)
+![Oturum açma sayfasında Unutulan parola bağlantısı için varsayılan metin.](./media/B2C_SignUp_ModuleFace.png)
 
 Ancak, modül kitaplığı oturum açma modülü için Global.json dosyasında **Parolayı unuttunuz mu?** metnini düzenleyebilirsiniz, aşağıdaki şekilde gösterildiği gibi.
 
-![Oturum açma modülünün Global.json dosyasında bağlantı metni güncelleştirildi](./media/B2C_CustomizingStringsForModule.png)
+![Oturum açma modülünün Global.json dosyasında bağlantı metni güncelleştirildi.](./media/B2C_CustomizingStringsForModule.png)
 
 Global.json dosyasını güncelleştirip değişikliklerinizi yayımladıktan sonra, yeni bağlantı metni hem ticaret hem de canlı oturum açma sayfasında bulunan modülde günlükte görüntülenir.
 
