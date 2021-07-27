@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360652"
 ---
 # <a name="configure-integration-with-finance"></a>Finance ile tümleştirmeyi yapılandırma
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055136"
 
 Dynamics 365 Human Resources İle Dynamics 365 Finance'i birleştirmek için, [veri tümleştirici](/powerapps/administrator/data-integrator) alanındaki insan kaynakları finans şablonunu kullanabilirsiniz. Finans şablonuna İnsan Kaynakları işler, pozisyonlar ve çalışanlar için veri akışını etkinleştirir. Şablon verilerin İnsan Kaynakları'nden finansa akmasını sağlar, ancak verilerin finans'tan İnsan Kaynakları akamasına izin vermez.
 
-![Human Resources'tan Finance'e Tümleştirme Akışı](./media/hr-admin-integration-finance-flow.png)
+![Human Resources'tan Finance'e Tümleştirme Akışı.](./media/hr-admin-integration-finance-flow.png)
 
 Human Resources'tan Finance'e çözümü aşağıdaki veri eşitleme türlerini sağlar:
 
@@ -253,6 +253,6 @@ Yinelenen kodlarla ilgili sorunları önlemek için [numara serisine](/dynamics3
 
 Aşağıdaki çizim, Veri Tümleştirici'de bir şablon eşleme örneği gösteriyor. 
 
-![Şablon Eşleme](./media/IntegrationMapping.png)
+![Şablon Eşleme.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

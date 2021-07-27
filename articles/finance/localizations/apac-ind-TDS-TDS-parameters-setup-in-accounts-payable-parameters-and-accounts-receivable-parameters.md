@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023658"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358230"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Borç hesapları ve Alacak hesaplarında TDS parametrelerini ayarlama
 
@@ -38,12 +38,12 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) kesintilerini desteklemek için Borç hesa
     - **İstek** – Kullanıcılar, sipariş satırlarında TDS grubunu güncelleştirmelerini isteyen bir ileti alır.
 4. **Tamam**'ı seçin.
 
-    [![Sipariş satırlarını güncelleştirme iletişim kutusu](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Sipariş satırlarını güncelleştirme iletişim kutusu.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. **Vergi \> Kurulum \> Parametreler \> Borç hesapları parametreleri**'ne gidin.
 6. **Genel** sekmesinde **Teslimat bilgilerine göre böl** hızlı sekmesinde, farklı teslimat adresleri ve vergi hesap numaraları (TAN'lar) olan bir ürün girişini nakletmek ve bölmek için **Ürün girişi** seçeneğini **Evet** olarak ayarlayın. Bu seçenek **Hayır** olarak ayarlanırsa, farklı teslimat adresleri ve TAN'ları bulunan bir satınalma sevk irsaliyesini deftere nakledemezsiniz.
 7. Farklı teslimat adresleri ve TAN'ları olan bir satınalma faturasını deftere nakletmek ve bölmek için **Fatura** seçeneğini **Evet** olarak ayarlayın.
 
-    [![Teslimat bilgilerine göre böl hızlı sekmesi](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Teslimat bilgilerine göre böl hızlı sekmesi.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Sayfayı kapatın.

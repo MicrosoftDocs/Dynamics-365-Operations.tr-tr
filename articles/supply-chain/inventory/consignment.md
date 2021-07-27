@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015865"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360412"
 ---
 # <a name="set-up-consignment"></a>Konsinye ayarlama
 
@@ -61,7 +61,7 @@ Konsinye stok yenileme siparişi, satıcının sipariş edilen stok hareketleri 
 
 **Sahip** boyutu hangi stoğun satıcıya, hangisinin ise teslim alma tüzel kişiliğine ait oluğunu ayırmak için kullanılır. Konsinye stok yenileme emir satırları, satırların tam miktarı alınmadığı veya iptal edilmediği sürece **Açık sipariş** durumuna sahiptirler. Tam miktar alındığında veya iptal edildiğinde, durum **Tamamlandı** olarak değişir. Konsinye stok yenileme siparişiyle bağlantılı olan fiziksel eldeki stok, Kayıt işlemi veya Ürün girişi güncelleştirme işlemi kullanılarak kaydedilir. Madde varışı işleminin bir parçası olarak ya da sipariş satırları el ile güncelleştirilerek kayıt yapılır. Ürün girişi güncelleştirme işlemi kullanıldığında, satıcılara malların teslim alınma bilgilendirmesinde de kullanılabilen ürün girişi günlüğüne kayıt yapılır.
 
-[![Konsinye stok yenileme siparişleri](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Konsinye stok yenileme siparişleri.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Stok sahipliği değişiklik günlüğü
 
@@ -74,7 +74,7 @@ Oluşturulan stok hareketleri, yalnızca nakledilen günlük ile ilişkili olanl
 
 Sipariş oluşturulduktan sonra konsinye satınalma sipariş satırları miktarının güncelleştirilmesi mümkün değildir.
 
-[![Stok sahipliği değişiklik günlüğü](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Stok sahibi değiştirme günlüğü.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Konsinye işlemlerdeki satıcı iş birliği
 
@@ -90,13 +90,13 @@ Satıcı iş birliğini kullanmak için satıcıların ayarlanması hakkında da
 
 Fiziksel gelen konsinye stoğu kaydetmek için bir satıcı sahibi tanımlamanız gerekir. Bu **Stok sahibi** sayfasında yapılır. **Satıcı hesabı**'nı seçtiğinizde bu **Ad** ve **Sahip** alanları için varsayılan değerleri oluşturur. **Sahip** alanındaki değer satıcıya görünür olacaktır, bu nedenle satıcı hesabı adlarınız şirket dışı insanların tanımaları için kolay değilse değiştirmek isteyebilirsiniz. **Sahip** alanını yalnızca **Stok sahibi** kaydını kaydettiğiniz zamana kadar düzenlemek mümkündür. **Ad** alanı satıcı hesabının ilişkilendirildiği tarafın adıyla doldurulur ve değiştirilemez.
 
-[![Stok sahipleri](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Stok sahipleri.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>İzleme boyut grubu
 
 Konsinye işlemlerinde kullanılacak maddeler **Sahip** boyutunun **Etkin** olarak ayarlandığı bir **İzleme boyut grubu** ile ilişkilendirilmelidir. Sahip boyutunda her zaman **Fiziksel stok** ve **Mali stok** seçenekleri seçili olmalıdır. **Boyuta göre tedarik planı** kesinlikle seçilmemelidir.
 
-[![İzleme boyut grubu](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![İzleme boyutu grubu.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

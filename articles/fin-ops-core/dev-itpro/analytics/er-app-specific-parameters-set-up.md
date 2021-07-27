@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751166"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351902"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Her tüzel kişilik için ER biçiminin parametrelerini ayarlama
 
@@ -49,7 +49,7 @@ Bu konudaki örnekleri tamamlamak üzere aşağıdaki rollerden biri için Micro
     
     Aşağıdaki şekil, tamamladığınızda sahip olmanız gereken yapılandırmaları gösterir.
 
-    ![ER yapılandırma sayfası](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
+    ![ER yapılandırma sayfası.](./media/GER-AppSpecParms-ImportedConfigurations.PNG)
 
 ## <a name="set-up-parameters-for-the-demf-company"></a>DEMF şirketi için parametreleri ayarlama
 
@@ -59,7 +59,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 2.  Yapılandırma ağacında **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** biçimini seçin.
 3.  Eylem Bölmesinde, **Yapılandırmalar** sekmesindeki **Uygulama özel parametreleri** grubunda **Ayar**'ı seçin.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     **Uygulama özel parametreleri** sayfasında **LE verilerinin nasıl aranacağını öğrenmek için biçimlendirme** biçiminin **Seçici** veri kaynağı için kuralları yapılandırabilirsiniz.
     
@@ -75,14 +75,14 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 
     Arama, seçim için vergi kodlarının bir listesini gösterir. Bu liste, temel ER biçiminde yapılandırılmış **Model.Data.Tax** veri kaynağı tarafından döndürülür. Bu veri kaynağı **Ad** alanını içerdiğinden her vergi kodunun adı aramada görünür.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  **VAT19** vergi kodunu seçin.
 8.  Yeni kaydın **Arama sonucu** alanında aramayı açmak için açılır menü okunu seçin. Arama, seçimin TaxationLevel biçim numaralandırması için değerlerin listesini gösterir.
 
     Oturum açtığınız kullanıcının tercih ettiği dil olarak Almanca seçiliyse aramadaki değerlerin etiketlerinin temel ER biçiminde çevrilmiş olmaları koşuluyla Almanca olacağını unutmayın. Ek olarak, bir arama veri kaynağının etiketi çevrilmişse bu etiket kullanıcının **Aramalar** sekmesinde tercih ettiği dilde görünür.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  **Normal vergilendirme** değerini seçin.
 
@@ -120,7 +120,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
     
     Bu son kaydı ekleyerek aşağıdaki kuralı tanımlarsınız: Bağımsız değişken olarak geçirilen vergi kodu önceki kuralların herhangi birini karşılamadığında arama veri kaynağı istenen vergilendirme düzeyi olarak **Diğer** değerini döndürür.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. **Durum** alanında **Tamamlandı**'yı seçin.
 
@@ -144,7 +144,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 6.  **InVAT7** vergi kodunu seçin.
 7.  Vergi değeri ve vergi kodu başına uygulanan vergi oranı hakkındaki bilgileri görüntülemek için Eylem Bölmesinde, **Satış vergisi kodu** sekmesinde, **Sorgular** grubunda, **Deftere nakledilen satış vergisi**'ni seçin.
 
-    ![Deftere nakledilen satış vergisi sayfası](./media/GER-AppSpecParms-Statement.PNG)
+    ![Deftere nakledilen satış vergisi sayfası.](./media/GER-AppSpecParms-Statement.PNG)
 
 8.  Deftere nakledilen satış vergisi sayfasını kapatın.
 
@@ -160,7 +160,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 
     Arama şimdi, yapılan seçim için **USMF** şirket vergisinin vergi kodlarının bir listesini sunar.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  **EXEMPT** vergi kodunu seçin.
 9.  Yeni kaydın **Arama sonuçları** alanında **Vergilendirme yok** değerini seçin.
@@ -170,7 +170,7 @@ ER biçimi için uygulamaya özel parametreleri ayarlamak üzere ER çerçevesin
 13. **Durum** alanında **Tamamlandı**'yı seçin.
 14. **Kaydet**'i seçin.
 
-    ![ER uygulaması özel parametreler sayfası](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
+    ![ER uygulaması özel parametreler sayfası.](./media/GER-AppSpecParms-LookupForm-RulesSet2.PNG)
     
 15. **Uygulama özel parametreleri** sayfasını kapatın.
 
@@ -225,13 +225,13 @@ ER biçimi ile uygulamaya özel parametreler arasındaki ilişki, ER biçiminin 
 
 1.  Var olan bir **ERSolutionAppSpecificParametersDesigner** menü öğesini yeniden kullanın veya kendi **ERSolutionAppSpecificParametersDesigner** menü öğenizi uygulayın.
 
-    ![Visual Studio sayfası](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio sayfası.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Şu adımlardan birini izleyin:
 
     1.  Yeni bir menü öğesi düğmesi oluşturun ve **Veri Kaynağı** özelliğini **ERSolutionTable** olarak ayarlayarak **ERSolutionTable** tablosundan ilgili kayda bağlayın.
     
-        ![Visual Studio sayfası](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio sayfası.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Basit bir düğme oluşturun ve aşağıdaki örnekte gösterildiği gibi **Tıklandı** yöntemini geçersiz kılın.
     

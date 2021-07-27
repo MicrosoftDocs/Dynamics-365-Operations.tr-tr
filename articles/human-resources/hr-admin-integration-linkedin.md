@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055112"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360604"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>LinkedIn Talent Hub ile tümleştirme
 
@@ -48,7 +48,7 @@ Bir sistem yöneticisinin LinkedIn Talent Hub ile tümleştirmeyi etkinleştirme
 
 5. **Dynamics 365 Human Resources** sayfasında LinkedIn Talent Hub'ı bağlayacağınız ortamı seçin ve sonra **Bağla**'yı seçin.
 
-    ![LinkedIn Talent Hub işe alma](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub işe alma.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Yalnızca Kullanıcı hesabınızın, hem Human Resources ortamında hem de ilişkili Power Apps ortamında yönetici erişimi olan ortamlara bağlanabilirsiniz. Human Resources bağlantı sayfasında herhangi bir ortam listelenmiyorsa, Human Resources ortamlarını kiracıda lisansladığınızdan ve bağlantı sayfasında oturum açmış olan kullanıcının hem Human Resources ortamı hem de Power Apps ortamı için yönetici izinlerine sahip olduğundan emin olun.
@@ -91,7 +91,7 @@ Aday kayıtlarını Power Apps ortamına yazmak için bağdaştırıcıya gereke
 
 6. Görünümü varsayılan **etkin kullanıcılar** görünümünden **uygulama kullanıcıları** görünümüne değiştirmek için listenin üzerindeki açılan menüyü kullanın.
 
-    ![Uygulama Kullanıcıları görünümü](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Uygulama Kullanıcıları görünümü.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Araç çubuğunda **Yeni**'yi seçin.
 
@@ -163,7 +163,7 @@ Bir aday işe alma sürecinden geçip işe alındığında, aday kaydını Linke
     - **Konum** alanına, çalışanın çalışacağı konumu girin.
     - Çalışanın e-posta adresini girin veya doğrulayın.
 
-![LinkedIn Talent Hub'da HRIS'e Dışa Aktar bölmesi](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![LinkedIn Talent Hub'da HRIS'e Dışa Aktar bölmesi.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Human Resources'ta işe almayı tamamlama
 

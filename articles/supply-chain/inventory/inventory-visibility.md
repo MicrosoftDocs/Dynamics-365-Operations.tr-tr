@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017018"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358110"
 ---
 # <a name="inventory-visibility-add-in"></a>Stok Görünürlüğü Eklentisi
 
@@ -143,7 +143,7 @@ Dataverse'ü kurmaya başlamadan önce, aşağıdakileri gerçekleştirerek kira
 
             Bu değişken hakkında daha fazla bilgi için bu konuda ele alınacak olan [Stok Görünürlüğü tümleştirmesini ayarlama](#setup-inventory-visibility-integration) bölümüne bakın.
 
-        ![Yapılandırma tetikleyicisi](media/configuration-trigger.png "Yapılandırma tetikleyicisi")
+        ![Yapılandırma tetikleyicisi.](media/configuration-trigger.png "Yapılandırma tetikleyicisi")
 
     1. **Aç**'ı seçin.
 
@@ -157,7 +157,7 @@ Stok Görünürlüğü Eklentisi'ni yüklemek için aşağıdakileri yapın:
 1. Ortam sayfasında, **Power Platform tümleştirmesi** bölümünde Dataverse ortamı adını bulabileceğiniz **Ortam eklentileri** bölümünü görene kadar aşağı kaydırın.
 1. **Ortam eklentileri** bölümünde, **Yeni bir eklenti yükleyin**'i seçin.
 
-    ![LCS'deki ortam sayfası](media/inventory-visibility-environment.png "LCS'deki ortam sayfası")
+    ![LCS'deki ortam sayfası.](media/inventory-visibility-environment.png "LCS'deki ortam sayfası")
 
 1. **Yeni eklenti yükleyin** bağlantısını seçin. Kullanılabilir eklentilerin bir listesi görüntülenir.
 1. Listeden **Stok Görünürlüğü**'nü seçin.
@@ -166,7 +166,7 @@ Stok Görünürlüğü Eklentisi'ni yüklemek için aşağıdakileri yapın:
     - **AAD uygulaması (istemci) kimliği**
     - **AAD kiracı kimliği**
 
-    ![Eklenti kurulum sayfası](media/inventory-visibility-setup.png "Eklenti kurulum sayfası")
+    ![Eklenti kurulum sayfası.](media/inventory-visibility-setup.png "Eklenti kurulum sayfası")
 
 1. **Şartlar ve koşullar** onay kutusunu seçerek şartlar ve koşulları kabul edin.
 1. **Yükle**'yi seçin. Eklentinin durumu **Yükleniyor** olarak görünür. İşlem bittiğinde, durumun **Yüklendi** olarak değiştiğini görmek için sayfayı yenileyin.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: c76919c6289fe0c2367cedecc64bbdae9ee86e63
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028239"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358523"
 ---
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
@@ -30,7 +30,7 @@ ms.locfileid: "6028239"
 
 ## <a name="position-forecasting-in-budget-planning"></a>Bütçe planlamada pozisyon tahmini
 
-[![Pozisyon tahmini bileşenleri](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Pozisyon tahmini bileşenleri.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Pozisyon tahmini, pozisyon giderleri için doğru bütçe tutarlarını sağlamak amacıyla üç ana bileşenden yararlanır. Bu tutarlar, daha sonra bütçe hesaplamaları için bir bütçe planı haline getirilebilir. 
 
@@ -42,14 +42,14 @@ Birincil bileşen, tek bir pozisyonla ilgili tüm maliyet verilerini temsil eden
 
 ### <a name="position-forecasting-processes"></a>Pozisyon tahmini işlemleri
 
-[![Pozisyon tahmini işlemlerinin gösterimi](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Pozisyon tahmini işlemlerinin gösterimi.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Tipik bir pozisyon tahmin işleminde, öncelikle ayar bileşenlerini (bütçe maliyet öğeleri ve ücret grupları) oluşturursunuz. Tahmin pozisyonları daha sonra mevcut pozisyonlar esas alınarak oluşturulur. Sonra ayarlamalar yapabilirsiniz. Örneğin, pozisyon ekleyebilir veya sonlandırabilir, ödeme oranlarını ve kazanç maliyetlerini değiştirebilir ve ücret zammı ekleyebilirsiniz. Farklı bütçeleme senaryoları arasındaki karşılaştırmaları kolaylaştırmak için birden çok tahmin pozisyonu sürümü oluşturabilirsiniz. Ardından, tahmin pozisyonlarını bütçe planlarına dahil edebilir ve tahmin pozisyonlarından maliyetleri bütçe planı satırları olarak ekleyebilirsiniz.
 
 Bütçe planları revize edilirken ek tahmin pozisyonu sürümleri oluşturabilirsiniz. Bu yeni sürümler, revizyonlar için bir temel oluşturur.
 
 ## <a name="position-forecasting-setup"></a>Pozisyon tahmini ayarlama
-[![Ayarı vurgulayan çizim](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Ayarı vurgulayan çizim.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Bütçe maliyet öğeleri
 
@@ -86,7 +86,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 Ücret grubunda seçilen kazanç maliyet öğesi, kendi temel ödemeleri ve her adım artışı dahil olmak üzere, gruptaki tahmin pozisyonları için kazanç oluşturduğunuzda kullanılır. **Ücret sabit planı** alanı ücret grubunu İnsan kaynaklarındaki bir sabit ücret planına bağlar. Bu bağlantı bir çalışanın sabit ücret bilgilerini bir tahmin pozisyonuna atar ve böylece bütçe planlamasını daha doğru hale getirebilir. Ücret grubu için ücret kılavuzunun (düzeyler ve adımlar) yapısının sabit ücret planının yapısıyla uyuşması gerektiğini unutmayın. Aksi takdirde, sistem ücret grubu ile sabit ücret planını doğru şekilde bağlayamazsınız.
 
 ## <a name="creating-forecast-positions"></a>Tahmin pozisyonları oluşturma
-[!["Tahmin pozisyonları oluşturma"yı vurgulayan çizim](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[!["Tahmin pozisyonları oluşturma"yı vurgulayan çizim.](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
@@ -115,7 +115,7 @@ Bir tahmin pozisyonu seçildiğinde, **Önerilen** şeklindeki tahmin durumuna s
 Ayrıca tamamen yeni bir tahmin pozisyonu da oluşturabilirsiniz. Mevcut bir görevi ve ayrıca bütçe planlama sürecini ve bütçe planı senaryosunu seçin. Ardından eklemek istediğiniz diğer ayrıntıları ekleyebilirsiniz. Bir kez daha, aynı anda İnsan kaynaklarında yeni bir pozisyon oluşturulur.
 
 ## <a name="working-with-forecast-positions"></a>Tahmin pozisyonları ile çalışma
-[!["Tahmin pozisyonlarını değiştirme"yi vurgulayan çizim](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[!["Tahmin pozisyonlarını değiştirme"yi vurgulayan çizim.](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Bir tahmin pozisyonunun farklı sürümleri
 
@@ -171,7 +171,7 @@ Yeniden hesaplama işlemi değiştirilen tüm tahmin pozisyonlarında otomatik o
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Tahmin pozisyonlarını bütçe planlarına getirme
 
-[!["Bütçe planına ekleme"yi vurgulayan çizim](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[!["Bütçe planına ekleme"yi vurgulayan çizim.](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Tahmin pozisyonları oluşturma ve değiştirmenin amacı bunları bütçe planlarına eklemektir, böylece bütçe planları en doğru bütçe tutarlarını içerir. Tahmin pozisyonlarını bütçe planlarına eklemek için iki yöntem vardır. Bütçe planında oluşturma işlemini veya seçim işlemini kullanabilirsiniz.
 

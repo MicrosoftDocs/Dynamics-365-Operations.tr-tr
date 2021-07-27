@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346214"
 ---
 # <a name="work-hour-control"></a>Çalışma saati denetimi
 
@@ -66,7 +66,7 @@ Aşağıdaki ekran görüntüsü, **Varlık saat denetimi** hesaplamasının bir
 - **Fiili saatler** alanı, iş emirlerinde deftere nakledilir. 
 - **Taahhüt edilen saatler** alanı, şirketinizin iş siparişleri ile ilgili olarak taahhüt edildiği toplam saat miktarını gösterir.
 
-![Varlık saat denetim hesaplaması örneği](media/04-controlling-and-reporting.png)
+![Varlık saat denetim hesaplaması örneği.](media/04-controlling-and-reporting.png)
 
 Bir saat hesaplaması yapmanın bir başka yolu **Tüm varlıklar** veya **Etkin varlıklar** içinde çoklu varlıkları seçmektir. Daha sonra **Genel** Hızlı Sekmesi üzerinde **Saat denetimi** düğmesine tıklayın. Seçilen varlıklar, hızlı sekme **dahil edilecek kayıtlar** alanındaki **varlık** alanına otomatik olarak eklenir. **Varlık saati kontrol** iletişim kutusunda, **Tamam** üzerine tıklayın ve seçilen varlıklar için hesaplama gösterilir. Aynı işlem **Tüm işlem yapılacak yerleşimler** veya **Etkin işlem yapılacak yerleşimler** içindeki işlem yapılacak yerleşimler ve **Tüm iş emirleri** veya **Etkin iş emirleri** içindeki tüm iş emirleri için kullanılabilir.
 

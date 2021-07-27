@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164858"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343637"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Ambar uygulamasından transfer emirleri oluşturma
 
@@ -95,7 +95,7 @@ Mobil cihaz menü öğelerinde transfer emri oluşturmayı ayarlamaya ek olarak 
 
 Her biri ambarlarınızın birindeki (*Ambar 51*) belirli bir konuma yerleştirilen maddelerin karışımını içeren birden çok plakanız var. Çalışanların taranmış plakaların bir koleksiyonu için başka bir ambara (*Ambar 61*) transfer emri oluşturmasına izin veren işlemi etkinleştirmek istiyorsunuz. Sipariş için en son plaka tanımlandıktan sonra, transfer emrini otomatik olarak sevk edip güncelleştireceksiniz.
 
-![Otomatik transfer emri işlemi örneği](media/create-transfer-order-from-app-example.png "Otomatik transfer emri işlemi örneği")
+![Otomatik transfer emri işlemi örneği.](media/create-transfer-order-from-app-example.png "Otomatik transfer emri işlemi örneği")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Transfer emirleri oluşturmak için bir mobil cihaz menü öğesi oluşturma
 

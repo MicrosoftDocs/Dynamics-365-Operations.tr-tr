@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2f0118b197f465113bb894e3e57b3e682e04ef36
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a277ef0634c4ddd5769d278ce6186aac5e84ebfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352530"
 ---
 # <a name="cookie-consent-module"></a>Tanımlama bilgisi izin modülü
 
@@ -35,7 +35,7 @@ Site kullanıcısından tanımlama bilgisi izni alınmazsa, tanımlama bilgisi i
 Bir tanımlama bilgisi izin modülü, sayfa yüklenirken uygulanabilmesi için bir sayfanın başlık bölümünden yapılandırılabilir. Tanımlama bilgisi izin modülü, site kullanıcısına sitedeki tanımlama bilgisi kullanımına ilişkin bilgi veren açık bir iletiye sahip olmalıdır ve sitenin gizlilik sayfasına bir bağlantı sağlamalıdır.
 
 Aşağıdaki resimde, site sayfası üstbilgisinde görüntülenen sitenin gizlilik ilkesi sayfasına verilen bir bağlantı bulunan tanımlama bilgisi izin iletisi örneği gösterilmiştir.
-![Tanımlama bilgisi izin modülü örneği](./media/ecommerce-cookieconsent.png)
+![Tanımlama bilgisi izin modülü örneği.](./media/ecommerce-cookieconsent.png)
 
 ## <a name="cookie-consent-module-properties"></a>Tanımlama bilgisi izin modülünün özellikleri
 

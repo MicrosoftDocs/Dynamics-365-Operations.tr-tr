@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95704b944f86a1cfc0654f0ebf5bc7c79bbeec9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b54b58a29dc23e19f5065363c331351f24267ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808700"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360958"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Bakım talebi yaşam döngüsü durumları
 
@@ -48,7 +48,7 @@ Bakım talebi yaşam döngüsü durumları bir isteğin gidebileceği aşamalar�
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü durumları** sayfasının bir örneği gösterilmektedir.
 
-![Bakım talebi yaşam döngüsü durumları sayfası](media/02-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü durumları sayfası.](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Bakım talebi yaşam döngüsü durumları, yaşam döngüsü durum grupları ve türlerin ilişkili olduğu ve iş emri yaşam döngüsü durumları, yaşam döngüsü durumu grupları ve türlerle aynı şekilde kullanıldığı gibi kullanılabilir. 
@@ -66,9 +66,9 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 
 5. **Yaşam döngüsü durumları** hızlı sekmesinde yaşam döngüsü modeline eklenmesi gereken yaşam döngüsü durumlarını seçin:
 
-    - Yaşam döngüsü modelinde bir yaşam döngüsü durumu kullanmak için durumu **Kalan yaşam döngüsü durumları** bölümünden seçin ve sağ ok düğmesini ![Sağ ok](media/03-setup-for-requests.png) seçerek durumu **Seçili yaşam döngüsü durumları** bölümüne taşıyın.
-    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir durumları seç** düğmesini ![Tüm kullanılabilir durumları seç](media/04-setup-for-requests.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
-    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak için durumu **Seçili yaşam döngüsü durumları** bölümünden seçin ve sol ok düğmesini ![Sol ok](media/05-setup-for-requests.png) seçerek durumu **Kalan yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modeline bir yaşam döngüsü durumu eklemek istiyorsanız, modeli **Kalan yaşam döngüsü durumları** bölümünde seçin ve sonra sağ ok düğmesini ![Sağ ok.](media/03-setup-for-requests.png) seçerek **Seçilen yaşam döngüsü durumları** bölümüne taşıyın.
+    - Yaşam döngüsü modelinde tüm kullanılabilir yaşam döngüsü durumlarını kullanmak için **Tüm kullanılabilir durumları seç** düğmesini ![Tüm kullanılabilir durumları seç.](media/04-setup-for-requests.png) seçin. Tüm yaşam döngüsü durumları **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
+    - Yaşam döngüsü modelinden bir yaşam döngüsü durumunu kaldırmak istiyorsanız, modeli **Seçili yaşam döngüsü durumları** bölümünde seçin ve sonra sol ok düğmesini ![Sol ok.](media/05-setup-for-requests.png) seçerek **Kalan döngüsü durumları** bölümüne taşıyın.
 
 6. **Genel** hızlı sekmesinde, depot onarımını kullanırsanız, **Güncelleştirmeler** bölümündeki alanlar geçerlidir.
 
@@ -77,7 +77,7 @@ Bakım talepleriniz için gerekli yaşam döngüsü durumları oluşturulduktan 
 
 Aşağıdaki çizimde bir **Bakım talebi yaşam döngüsü modelleri** sayfasının bir örneği gösterilmektedir.
 
-![Bakım talebi yaşam döngüsü modelleri sayfası](media/06-setup-for-requests.png)
+![Bakım talebi yaşam döngüsü modelleri sayfası.](media/06-setup-for-requests.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355712"
 ---
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
@@ -32,7 +34,7 @@ Bu konuda, bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve rapor
 
 Bir şirketin kaynak planlama döngüsü genellikle planlama, bütçeleme ve tahmin etkinliklerinden oluşur.
 
-[![Bütçeleme işlevi bileşenleri](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Bütçeleme işlevi bileşenleri.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Hem uzun vadeli stratejik planlama hem de yıllık bütçe planlama işlemleri bir bütçe planı belgesiyle desteklenir. Bütçe planı belgeleri, Microsoft Excel ile sıkı şekilde tümleşiktir. Kullanıcılar sınırsız parasal ve nicel senaryoları yapılandırabilir. Ayrıca hem yukarıdan aşağıya hem de aşağıdan yukarıya bütçeleme yöntemlerini desteklemek üzere bir bütçeleme kuruluş hiyerarşisi tanımlayabilir. Uygulamada bir bütçe oluşturulup onaylandıktan sonra bütçe planını bir bütçe kayıt girişine dönüştürürsünüz. Bütçe kayıt girişleri, bütçeyi korumak ve bütçe kodlarıyla tutarları izlenebilir tutmak için araçlar sağlar. Bütçe kayıt girişleri, orijinal bütçeleri gözden geçirmenize, transferler yapmanıza, önceki yıldan bütçe tutarlarını nakletmenize olanak sağlar. Bir şirket, oluşturulan bütçeye bağlı olarak bütçe kontrolünü etkinleştirebilir. Kontrol düzeyi, kuruluşun kültürüne ve gelişim düzeyine bağlıdır. Daha düşük bir gelişim düzeyindeki kuruluşlar bütçeyi "olduğu gibi" bırakabilir ve bütçe beklentilerini karşılamıyorsa proaktiften çok, reaktif olabilirler. Diğer kuruluşlar bütçe fonları olmadığı zaman kullanıcıların satın almalarını önleyen bütçe kontrolü ilkeleri kullanabilir.
 
@@ -46,9 +48,9 @@ Son olarak, çok olgun kuruluşlar, personelin kuruluş hedefleri hakkında eği
 -   [Excel için bütçe planlama şablonları](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Bütçeleme araçları
-[![Bütçeleme araçları](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Bütçeleme araçları.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-Ek planlama ve bütçeleme yetenekleri vardır ve bunlar genel muhasebe bütçeleriyle tümleşiktir.
+Ek planlama ve bütçeleme yetenekleri kullanılabilir ve bunlar genel muhasebe bütçeleriyle tümleşiktir.
 
 -   **İş gücü bütçeleri**: İş gücü bütçelemesi; pozisyonlar, ücret grupları vb. için ayrıntılı bütçe maliyeti bileşen planlaması içerir.
 -   **Sabit kıymet bütçeleri** – Sabit kıymet bilgilerine dayanarak, planlı amortismanı hesaplayabilir ve sabit kıymetle ilgili diğer planlı hareketleri kaydedebilirsiniz.

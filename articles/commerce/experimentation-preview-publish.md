@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349316"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Deneme önizleme ve yayımlama
 
 Bu konuda, [denemenizi bağlandıktan ve varyasyonlarınızı düzenledikten](experimentation-connect-edit.md) sonra denemenize Dynamics 365 Commerce'ta nasıl önizleme yapacağınız ve denemenizi nasıl yayımlayacağınız açıklanmaktadır. Aşağıdaki diyagramda, Dynamics 365 Commerce'taki bir e-Ticaret web sitesinde deneme ayarlama ve çalıştırmayla ilgili tüm adımlar gösterilmektedir. Ek adımlar ayrı konularda ele alınmıştır.
 
-[ ![Deneme kullanıcı yolculuğu - Önizleme ve Yayımlama](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Deneme kullanıcı yolculuğu - Önizleme ve Yayımlama.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Deneme varyasyonlarınızı önizleme
 Varyasyonlarınızın önizlemesini yapabilir ve istediğiniz gibi görününceye kadar bunları düzenlemeye devam edebilirsiniz.

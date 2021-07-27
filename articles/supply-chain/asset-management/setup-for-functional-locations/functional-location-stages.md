@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360982"
 ---
 # <a name="functional-location-lifecycle-states"></a>İşlem yapılacak yerleşim yaşam döngüsü durumları
 
@@ -56,9 +56,9 @@ Bu konuda Kıymet Yönetimi'nde işlem yapılacak yerleşim yaşam döngüsü du
 1. **Kıymet yönetimi** > **Kurulum** > **İşlem yapılacak yerleşimler** > **Yaşam döngüsü modelleri**'ni seçin.
 2. Yeni bir yaşam döngüsü modeli oluşturmak için **Yeni**'yi seçin.
 3. Yaşam döngüsü modeli kimliğini **Yaşam döngüsü modeli** alanına, yaşam döngüsü modelinin adını da **Ad** alanına ekleyin. **İşlem yapılacak yerleşim türleri** ve **Yaşam döngüsü durumları** alanlarında yaşam döngüsü modelini kullanan işlem yapılacak yerleşim türlerinin sayısını ve yaşam döngüsü modelinde seçili durumların sayısını görebilirsiniz.
-4. **Yaşam döngüsü durumları** hızlı sekmesinde modele eklenmesi gereken durumları seçin. Bu işlem **Kalan yaşam döngüsü durumları** bölümünde bir duruma ve ardından ![ileri ok](media/02-setup-for-functional-locations.png) düğmesine tıklayarak yapılır.
-5. Model için tüm kullanılabilir durumları seçmek isterseniz ![tüm kullanılabilir aşamaları seç](media/03-setup-for-functional-locations.png) düğmesine tıklayın. Tüm durumlar **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
-6. Seçili bir durumu modelden kaldırmak isterseniz **Seçili yaşam döngüsü durumları** bölümünden ve ardından ![geri ok](media/04-setup-for-functional-locations.png) düğmesini seçin.
+4. **Yaşam döngüsü durumları** hızlı sekmesinde modele eklenmesi gereken durumları seçin. Bu işlem **Kalan yaşam döngüsü durumları** bölümünde bir duruma ve ardından ![ileri ok.](media/02-setup-for-functional-locations.png) düğmesine tıklayarak yapılır .
+5. Model için tüm kullanılabilir durumları seçmek isterseniz ![tüm kullanılabilir aşamaları seç.](media/03-setup-for-functional-locations.png) düğmesine tıklayın . Tüm durumlar **Seçili yaşam döngüsü durumları** bölümüne aktarılır.
+6. Seçili bir durumu modelden kaldırmak isterseniz **Seçili yaşam döngüsü durumları** bölümünden ve ardından ![geri ok.](media/04-setup-for-functional-locations.png) düğmesini seçin .
 7. Seçili durumu takip edebilecek yaşam döngüsü durumlarını tanımlamak için **Yaşam döngüsü durumu güncelleştirmeleri**'ni seçin.
 
 

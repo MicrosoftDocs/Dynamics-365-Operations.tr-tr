@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1a47857cbe65c00ad678b2b0372c642abf01b41
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c0bc97f401ad9e097248dfd5afb0baa8edbb6b3c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350682"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>İş akışında paralel etkinlikleri yapılandırma
 
@@ -45,7 +45,7 @@ Bu paralel faaliyete dal eklemek ve paralel faaliyetin dallarını yapılandırm
 1. Paralel faaliyetin dallarını görüntülemek için paralel faaliyete çift tıklayın.
 2. Dal eklemek için **İş akışı öğeleri** alanından **Dal** öğesini tuval üzerinde bir ekleme noktasına sürükleyin. Aşağıdaki şekil bir ekleme noktasını gösterir.
 
-    ![Ekleme noktası](./media/workflow_insertionpoint.gif)
+    ![Ekleme noktası.](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
     > Paralel faaliyetin tüm dalları aynı anda çalıştığından dalların sırası önemli değildir.

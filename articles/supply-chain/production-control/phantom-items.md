@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814790"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360910"
 ---
 # <a name="phantom-items"></a>Hayali maddeler
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814790"
 
 Bu konu, ayrıntılı olarak Hayali hat türünün bir ürün reçetesi (BOM) satırlarında ve formülünde nasıl kullanılabileceğini açıklar. Aşağıdaki çizimde, (a) ürün H ve parçalar F ve G için ürün reçetesidir, ve (b), ürünler H ve parça F için rota tablosudur.
 
-![Ürün H ve parça F](media/product-H-part-F.png)
+![Ürün H ve parça F.](media/product-H-part-F.png)
 
 
 Bu çizim, bir ürün reçetesi yapısını iki düzeyde gösterir. Tamamlanmış ürün H, bir makine montajı için bir ürünü temsil eder. Makine montajı iki parçadan oluşur, iki malzemeye (A ve B) sahip bir elektriksel birim (F) ve iki malzemeye sahip (C ve D) bir paketleme malzemeleri grubu (G). Başka bir malzeme (E), makinenin genel montajında kullanılır.
 
-![Ürün H ve parça F](media/product-H-part-B.png)
+![Ürün H ve parça F.](media/product-H-part-B.png)
 
 önceki şekil, ürün H için Mühendislik Ürün Reçetesini temsil etmektedir. Bu yapı, genel makine montajının parçaları ve bileşenlerine genel bir bakış sağlar. Ancak, ürün tasarımcıları ürün reçetesinin bu şekilde temsil edilmesini tercih etseler de, bu yapı makinenin atölyede nasıl ortaya çıkarıldığını doğru şekilde temsil etmeyebilir. 
 
@@ -53,23 +53,23 @@ Mühendislik BOM ve Üretim BOM arasındaki geçiş, Phantom BOM satır türü i
 ## <a name="multilevel-phantom-bom-structures"></a>Çok düzeyli hayali ürün reçetesi yapıları
 Hayali satır türü çok düzeyli ürün reçetesi yapıları için aşağıdaki şekilde gösterildiği gibi kullanılabilir. Bu şekilde, (a) ürün G için ürün reçetesidir ve (b) parçalar E ve F ve ürün G için rota tablosudur. 
 
-![Ürün G ve parça F rota tablolarıyla](media/product-G-route-sheet-G.png)
+![Ürün G ve parça F rota tablolarıyla.](media/product-G-route-sheet-G.png)
 
 
 Aşağıdaki şekil, ortaya çıkan Üretim ürün reçetesi ve rota tablosunu, parçalar E ve F için ürün reçetesi satırları satır tipinin Hayali olarak yapılandırılması durumunda gösterir. Bu şekilde, (a) ürün G için ürün reçetesidir ve (b), ürün G için rota tablosudur.
 
-![Ürün G](media/product-G.png)
+![Ürün G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Hayali ve rota ağı
 Hayali ürün reçeteleri de bir rota ağına sahip bir ürün reçetesi için kullanılabilir. Bir rota ağında, bir veya daha fazla operasyon paralel olarak çalışabilir. Aşağıdaki şekil, çok düzeyli bir ürün reçetesinde kullanılan bir rota ağına bir örnek göstermektedir. Bu şekilde, (a) ürün G ve parça F için ürün reçetesidir ve (b) bir rota ağına sahip ürün G ve parça F için bir rota tablosudur.
 
-![Ürün G ve parça F](media/product-G-part-F.png)
+![Ürün G ve parça F.](media/product-G-part-F.png)
 
 
 Aşağıdaki çizimde, (a) ürün G ve parça F ve G için ürün reçetesidir, ve (b), ürün G ve parça F için rota tablosudur.
 
-![Ürün G ve parça F rota tablolarıyla](media/product-G-part-F-with-route-sheet.png)
+![Ürün G ve parça F rota tablolarıyla.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -246,8 +246,6 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Mısır için Elektronik Faturalamayı kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: İtalya için Elektronik Faturalamayı kullanmaya başlama
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Meksika için Elektronik Faturalamayı kullanmaya başlama
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Elektronik Faturalamayı ayarlama
@@ -1607,7 +1605,9 @@
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planlama Optimizasyonu uygunluk analizi
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Plana filtre uygulama
+                - name: Planlama Optimizasyonu tarafından kullanılmayan parametreler
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Plana filtreler uygulama
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Talep tahmini ile master planlama
                   href: master-planning/planning-optimization/demand-forecast.md
@@ -1617,10 +1617,12 @@
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Gecikme toleransı (negatif günler)
                   href: master-planning/planning-optimization/delay-tolerance.md
-                - name: Satın alma talepleri
+                - name: Satınalma talepleri
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Üretim planlaması
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Sonsuz kapasiteyle planlama
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Planlama Optimizasyonu ile stok işaretleme
                   href: master-planning/planning-optimization/marking.md
                 - name: Şirketlerarası planlama
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Onay adımlarını yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Harcama gözden geçirenlerini yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: El ile girilen kararları yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Koşullu kararları yapılandırma

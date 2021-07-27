@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193294"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355841"
 ---
 # <a name="ratings-and-reviews-modules"></a>Derecelendirmelere ve inceleme modülleri
 
@@ -42,20 +42,20 @@ Derecelendirme çubuk grafikleri ve ürün değerlendirmeleri, PDP'ler gösteril
  
 Aşağıdaki şekil, bir PDP'de derecelendirmelerin ve gözden geçirme modüllerinin nasıl göründüğünü gösterir.
 
-![PDP'de derecelendirmelere ve inceleme modülleri](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![PDP'de derecelendirmelere ve inceleme modülleri.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > PDP şablonlarını ve düzenlerini en iyi duruma getirme hakkında bilgi için (böylece e-ticaret sitenizde birden çok PDC arasındaki derecelendirme ve değerlendirme modülleriyle ilgili yapılandırmaları paylaşabilirsiniz) [şablonlar ve mizanpajlara genel bakış](templates-layouts-overview.md) konularına bakın.
 
 Aşağıdaki şekil, **Modül Ekle** iletişim kutusunun Dynamics 365 Commerce'te derecelendirmeyi ve İnceleme modüllerini nasıl sunduğunu gösterir.
-![Modül Ekle iletişim kutusu](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Modül Ekle iletişim kutusu.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Gözden geçirme yazma modülü
 
 İnceleme yazma modülü, kullanıcıların bir ürünü oturum açmalarını, derecelendirmesine ve bir ürün incelemesi yazmalarına olanak tanıyan bir **inceleme yaz** düğmesi içerir. Bu modül ayrıca kullanıcıların daha önceden gönderdikleri bir derecelendirme veya gözden geçirmelerini sağlar. Bu modül, bir PDP üzerinde genellikle derecelendirme çubuk grafiği ve ürün incelemeleri liste modüllerinin üzerinde görünür.
 Aşağıdaki şekil, bir müşteri **gözden geçirme yaz** 'ı seçtiğinde beliren bir **gözden geçirme yazma** iletişim kutusunu göstermektedir. Müşteri bu iletişim kutusunu, bir derecelendirme ve İnceleme göndermek için kullanabilir.
 
-![Gözden geçirme iletişim kutusu yazma](media/rnr-eCommerce-write-review-module.png)
+![Gözden geçirme iletişim kutusu yazma.](media/rnr-eCommerce-write-review-module.png)
 
 Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma İnceleme modülünü gösterir.
 
@@ -67,7 +67,7 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken yazma �
 
 Derecelendirmeler çubuk grafik modülü bir derecelendirme çubuk grafik gösterir. Bu modül tipik olarak, bir PDP üzerindeki İnceleme yazma modülü ile ürün değerlendirmeleri listesi modülü arasında görüntülenir.
 Derecelendirme çubuk grafiği modülü için konfigürasyon gerekmez. Modülü PDP şablonuna eklemeniz yeterlidir. Aşağıdaki çizimler, PDP'lerde görüntülenmek üzere derecelendirmeler ve incelemeler modülleri yapılandırıldığında bir PDP şablonunun Dynamics 365 Commerce içinde nasıl göründüğünü gösterir.
-![PDP'lerde görüntülenmek üzere derecelendirme ve İncelemeler yapılandırıldığında PDP şablonu](media/rnr-eCommerce-pdp-reviews-modules.png)
+![PDP'lerde görüntülenmek üzere derecelendirme ve İncelemeler yapılandırıldığında PDP şablonu.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Ürün değerlendirmeleri liste modülü
 
@@ -82,7 +82,7 @@ Aşağıdaki tablo, geliştirme aracında konfigüre etmek için gereken ürün 
 
 Ürün değerlendirmeleri listesi modülü, bir derecelendirme çubuk grafiği modülü ekleyebileceğiniz bir yuva içerir. Aşağıdaki şekil, Dynamics 365 Commerce'teki Ürün İncelemeleri listesi modülünde bir derecelendirme çubuk grafiği modülünü nasıl ekleyekullanabileceğinizi gösterir .
 
-![Ürün eleştiriler listesi modülünde derecelendirme çubuk grafiği modülü ekleme](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Ürün eleştiriler listesi modülünde derecelendirme çubuk grafiği modülü ekleme.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

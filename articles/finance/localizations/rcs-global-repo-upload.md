@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838731"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361240"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Regulatory Configuration Services (RCS) içinde ER yapılandırmaları oluşturma ve bunları Genel depoya yükleme
 
@@ -51,7 +51,7 @@ Ayrıca, şirketiniz için bir RCS ortamının sağlandığından da emin olmal�
 5. Ad ve açıklama girin ve ardından yeni bir türetilmiş sürüm oluşturmak için **Yapılandırma oluştur**'u seçin.
 6. Yeni türetilen yapılandırmayı seçin, sürümün bir tanımını ekleyin ve ardından **Tamam**'ı seçin. Yapılacak yapılandırmanın durumu **Tamamlandı** olarak değişir.
 
-![RCS'de yeni yapılandırma sürümü](media/RCS_CompleteConfig.JPG)
+![RCS'de yeni yapılandırma sürümü.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Yapılandırma durumu değiştirildiğinde bağlı uygulamalarla ilgili bir doğrulama hata mesajı alabilirsiniz. Doğrulamayı kapatmak için **Yapılandırmalar** sekmesindeki Eylem Bölmesi'nde, **Kullanıcı parametreleri**'ni seçin ve ardından **Yapılandırmanın durum değişikliği ve yeniden temellendirmede doğrulamayı atla** seçeneğini **Evet** olarak ayarlayın 
@@ -63,7 +63,7 @@ Kuruluşunuzla, yeni veya türetilmiş bir yapılandırmayı paylaşmak için ya
 1. Yapılandırmanın tamamlanmış sürümünü ve ardından **Depoya yükle**'yi seçin.
 2. **Genel (Microsoft)** seçeneğini ve ardından **Yükle**'yi seçin.
 
-    ![Depo seçeneklerine yükleme](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Depo seçeneklerine yükleme.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Onay iletisi kutusunda **Evet**'i seçin. 
 4. Sürümün açıklamasını gerektiği gibi güncelleştirin ve ardından **Tamam**'ı seçin. 
@@ -73,7 +73,7 @@ Yapılandırmanın durumu **Paylaş** olarak güncelleştirilir ve yapılandırm
 - Dynamics 365 örneğinize aktarın. Daha fazla bilgi için bkz. [(ER) Yapılandırmaları RCS'den içe aktarma](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
 - Üçüncü tarafla veya harici bir kuruluşla paylaşmak için bkz. [RCS, Elektronik raporlama (ER) yapılandırmalarını harici kuruluşlarla paylaşma](rcs-global-repo-share-configuration.md)
 
-    ![Genel depodaki Türetilmiş Intrastat Contoso yapılandırma sürümü](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Genel depodaki Türetilmiş Intrastat Contoso yapılandırma sürümü.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Genel depodan bir yapılandırma silme
 Kuruluşunuzun oluşturmuş olduğu bir yapılandırmayı silmek için aşağıdaki adımları tamamlayın.
@@ -84,11 +84,11 @@ Kuruluşunuzun oluşturmuş olduğu bir yapılandırmayı silmek için aşağıd
 4. **Filtre** hızlı sekmesinde, **Filtre** işlevini kullanarak silmek istediğiniz yapılandırmayı bulun.
 5. **Sürüm** hızlı sekmesinde, silmek istediğiniz yapılandırmayla ilgili sürümü seçin ve **Sil**'i seçin:
 
-    ![Genel depodan bir yapılandırma silme](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Genel depodan bir yapılandırma silme.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. Onay iletisi kutusunda **Evet**'i seçin.
 
-    ![Yapılandırma sürümü onay iletisini silme](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Yapılandırma sürümü onay iletisini silme.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 Yapılandırma sürümü silindi ve onay iletisi gösteriliyor. 
 

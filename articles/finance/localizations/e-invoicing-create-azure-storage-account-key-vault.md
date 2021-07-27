@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357426"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Azure depolama hesabı ve bir anahtar kasası oluşturma
 
@@ -49,7 +49,7 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 5. Depolanan erişim ilkesi eklemek için **İlke ekle**'yi seçin.
 6. **Tanımlayıcı** ve **İzinler** alanlarını uygun şekilde ayarlayın. **İzinler** alanında, tüm izinleri seçmelisiniz.
 
-    ![Blob depolama izni verme](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
+    ![Blob depolama izni verme.](media/e-Invoicing-services-create-azure-resources-grant-blob-permissions.png)
 
 7. Başlangıç ve bitiş tarihlerini girin. Bitiş tarihi gelecekte olmalıdır.
 8. İlkeyi kaydetmek için **Tamam**'ı seçin ve sonra değişikliklerinizi kapsayıcıya kaydedin.
@@ -57,7 +57,7 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 10. Kapsayıcıyı sağ tıklayın ve sonra da **Paylaşılan Erişim İmzasını Al**'ı seçin.
 11. **Paylaşılan Erişim İmzası** iletişim kutusunda, değeri **URI** alanına kopyalayın ve saklayın. Bu değer sonraki yordamda kullanılacak ve *paylaşılan erişim imza URI*'si olarak anılacaktır.
 
-    ![URI değerini seçme ve kopyalama](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+    ![URI değerini seçme ve kopyalama.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Depolama hesabı URI'sini depolamak için anahtar kasasını ayarlama
 
@@ -69,11 +69,11 @@ Bu konuda, iki ana adımı tamamlayacaksınız:
 6. Elektronik faturalama, oluşturduğunuz gizli anahtara doğru güvenli erişim düzeyine vermek için erişim ilkesini ayarlayın. **Ayarlar \> Erişim ilkesi** ögesine gidin ve **Erişim ilkesi ekle**'yi seçin.
 7. **Get** ve **List** işlemleri için gizli anahtar izinlerini ayarlayın.
 
-    ![Servis erişimi verme](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
+    ![Servis erişimi verme.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)
 
 8. **Get** ve **List** işlemleri için sertifika izinlerini ayarlayın.
 
-    ![Sertifika izni verme](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
+    ![Sertifika izni verme.](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
 9. **Sorumlu Seç** alanında, **Seçili yok** seçeneğini belirleyin.
 10. **Sorumlu** iletişim kutusunda, **E-faturalama Hizmeti** ekleyerek sorumluyu seçin.

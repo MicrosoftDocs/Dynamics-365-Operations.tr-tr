@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361173"
 ---
 # <a name="asset-fault-analysis"></a>Kıymet hata analizi
 
@@ -60,7 +60,7 @@ Aşağıdaki ekran görüntüsünde yalnızca **Belirti** düğmesi seçilidir.
 - Hata kayıtları üç hata belirtiyle yapılmaktadır: "hava sızıntısı", "sigorta yanması" ve "donanım sıkıştı".  
 - **Olasılık %** sütununda, tüm yüzdeler %100 kadar toplanır. Olasılık bu arıza Analizi içindeki tüm **belirti** kayıtlarını temel alan bir olasılıktır.
 
-![Şekil 1](media/06-controlling-and-reporting.png)
+![Şekil 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Belirtilere ve döneme göre grupla
 
@@ -69,7 +69,7 @@ Aşağıdaki ekran görüntüsünde , seçili bir dönem içinde hata kayıtlar�
 - Hata belirtileri şimdi her yıl/ay kaydı olarak gösteriliyor.  
 - **Olasılık %** sütununda, her ay için tüm yüzdeleri eklerseniz, bu değerler %100'e kadar toplanır. Olasılık bu arıza Analizi içindeki **belirti** kayıtlarını temel alan bir olasılıktır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata belirtisiyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata belirtinin göstergesi olacaktır.
 
-![Şekil 2](media/07-controlling-and-reporting.png)
+![Şekil 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Birden çok belirtiye ve varlığa göre grupla
 
@@ -84,7 +84,7 @@ Aşağıdaki ekran görüntüsünde, arıza kayıtları ile ilgili daha ayrınt�
 - Hata belirtileri şimdi **Varlı** / **Varlık Türü** / **Belirti** kombinasyonlarına ayrılmıştır.  
 - **Olasılık %** sütununda, **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık bu arıza Analizi içindeki **belirti** kayıtlarını temel alan bir olasılıktır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata belirtisiyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata belirtinin göstergesi olacaktır.
 
-![Şekil 3](media/08-controlling-and-reporting.png)
+![Şekil 3.](media/08-controlling-and-reporting.png)
 
 **İki belirtiye, varlığa ve varlık türüne göre grupla**
 
@@ -92,7 +92,7 @@ Aşağıdaki ekran görüntüsünde **Alan**, **Belirti**, **Varlık** ve **Varl
 
 - **Olasılık %** sütununda, bir varlıktaki **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık, bu hata analizindeki **Belirti** ve **Alan** kombinasyonuna dayanır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata alanıyla ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata alanının göstergesi olacaktır.  
 
-![Şekil 4](media/09-controlling-and-reporting.png)
+![Şekil 4.](media/09-controlling-and-reporting.png)
 
 **Üç belirtiye, varlığa ve varlık türüne göre grupla**
 
@@ -100,7 +100,7 @@ Aşağıdaki ekran görüntüsünde **Tür** eklenmiştir ve bu örnekteki en ay
  
 - **Olasılık %** sütununda, bir varlıktaki **Varlık** / **Varlık türü** / **Belirti** için tüm yüzdeleri toplanırsanız, her biri %100'e ulaşır. Olasılık, bu hata analizindeki **Belirti** ve **Alan** ve **Tür** kombinasyonuna dayanır. Bir kıymette çok sayıda satır varsa, ancak bir satırda büyük bir yüzde değeri varsa, bu hata türüyle ilgili kayıt sayısını sınırlamak için bir yöntem bulmayı daha yakından incelemek amacıyla hata türünün göstergesi olacaktır.
 
-![Şekil 5](media/10-controlling-and-reporting.png)
+![Şekil 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

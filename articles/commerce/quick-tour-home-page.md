@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792207"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352024"
 ---
 # <a name="home-page-overview"></a>Giriş sayfasına genel bakış
 
@@ -31,7 +32,7 @@ Giriş sayfası, alışverişçilerin bir e-ticaret sitesini ziyaret ettiklerind
 
 Aşağıdaki çizimde, modül kitaplığı ve "Fabrikam" teması kullanılarak oluşturulmuş bir ana sayfa örneği gösterilmektedir.
 
-![Giriş sayfası örneği](./media/Homepage2.PNG)
+![Giriş sayfası örneği.](./media/Homepage2.PNG)
 
 Giriş sayfanın üst bölümünde, perakendecinin müşterilerin göz atmasını istediği tüm ürün kategorilerini ve diğer sayfaları gösteren bir başlık yer vardır. Giriş sayfanın alt bölümünde, bir müşterilerin ilgilenebileceği çeşitli konularda hızlı bağlantılar içeren bir altbilgi yer almaktadır.
 
@@ -41,13 +42,13 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 
     Aşağıdaki şekilde, ana bölümdeki ilk öğenin "Yeni Varış" adı adlı bir içerik blokunun hero modülü olduğu giriş sayfası örneği gösterilmektedir.
 
-    ![Hero modülü örneği](./media/Hero.PNG)
+    ![Hero modülü örneği.](./media/Hero.PNG)
 
 - **Özellik** - İçerik bloku modülünün özellik düzeni, ürünleri veya promosyonları bir görüntü ve metin birleşimiyle pazarlamak için kullanılır. Özellik düzenleri bağımsız olarak kullanılabilir veya bir döngü modül içinde barındırılabilir.
 
     Aşağıdaki resimde, özellik düzenine sahip bir içerik bloğu modülü örneği gösterilmektedir.
 
-    ![Özellik modülleri örnekleri](./media/Feature.PNG)
+    ![Özellik modülleri örnekleri.](./media/Feature.PNG)
 
 - **Kutucuk** – bir içerik bloku modülü kutucuk düzeni, çok sütunlu bir düzende bir görüntü ve metin bileşimi kullanarak birden fazla ürün veya ürün kategorisini sergileyerek kullanılır. Bu konunun başlarında görünen bir giriş sayfası gösterimde, **Alışveriş kadınlar**, **Alışveriş erkek** ve **Alışveriş Aksesuarları** kalemlerin üç sütunlu düzeni için içerik yerleşim modülü kullanılır.
 - **Video oynatıcı** – Bir video oynatıcı modülü giriş sayfasındaki video içeriğini sergileyebilecek şekilde kullanılabilir. Bu konunun yukarısında görünen bir giriş sayfasının resmi bir video oynatıcı modülü içerir.
@@ -56,7 +57,7 @@ Giriş sayfasının ana bölümü, ürünleri, kategorileri veya yükseltmeleri 
 
     Aşağıdaki çizimde giriş sayfasındaki ürün önerileri modüllerinin bir örneği gösterilmektedir.
 
-    ![Ürün öneri modüllerine örnekler](./media/Recommendations.PNG)
+    ![Ürün öneri modüllerine örnekler.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Burada listelenen tüm modüller herhangi bir site sayfasında kullanılabilir. Ancak, müşteriler siteyle ilk kez etkileşimde bulunduğu için, giriş sayfasındaki yerleşimleri önemlidir.

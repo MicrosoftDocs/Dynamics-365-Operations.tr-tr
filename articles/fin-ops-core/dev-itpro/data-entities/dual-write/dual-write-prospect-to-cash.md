@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754100"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361430"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Çift yazmada aday müşteriden nakde
 
@@ -33,7 +33,7 @@ Birçok işletmenin önemli bir hedefi, aday müşterileri müşterilere dönü�
 
 Uygulama arabirimlerinde, işleme durumlarına ve fatura bilgilerine gerçek zamanlı olarak erişebilirsiniz. Bu nedenle, teklif ve siparişleri yeniden oluşturmak zorunda kalmadan ürün stoklama, stok işleme ve Supply Chain Management'ta karşılama gibi işlevleri daha kolay yönetebilirsiniz.
 
-![Aday müşteriden nakde için çift yazma veri akışı](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Aday müşteriden nakde için çift yazma veri akışı.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Müşteri ve ilgili kişi tümleştirmesi hakkında bilgi için bkz. [Tümleşik müşteri aslı](customer-mapping.md). Ürün tümleştirmesi hakkında bilgi için bkz. [Birleşik ürün deneyimi](product-mapping.md).
 

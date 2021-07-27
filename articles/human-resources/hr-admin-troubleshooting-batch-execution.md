@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d0b12908993070a41d21ac57d6fb504fc6e3b06a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053527"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357349"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Takılmış toplu işleri sıfırlama
 
@@ -46,11 +46,11 @@ Toplu iş, **çalıştırılıyor** veya **iptal ediliyor** durumunda takılı k
 
 5. **Yeni durum Seç** sayfasında, **bekliyor**'u seçin ve ardından **Tamam**'ı seçin.
 
-   ![Yeni bir toplu iş durumu seç](./media/hr-admin-reset-batch-job-status.png)
+   ![Yeni bir toplu iş durumu seçme.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Toplu işleri çalışma saatleri dışına planlayarak performansını en iyi duruma getirme](hr-admin-troubleshooting-batch-jobs.md)<br>
+[Toplu işleri çalışma saatleri dışına planlayarak performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-jobs.md)<br>
 [Otomatik temizleme görevleriyle performansı en iyi duruma getirme](hr-admin-troubleshooting-batch-history.md)
 
 

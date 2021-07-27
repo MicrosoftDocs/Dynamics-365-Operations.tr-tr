@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186798"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358991"
 ---
 # <a name="note-integration"></a>Not tümleştirmesi
 
@@ -51,23 +51,23 @@ Bir customer engagement uygulamasında bir not oluşturmak ve sonra bir Finance 
 1. Customer engagement uygulamasında bir müşteri için hesap kaydı açın.
 2. **Zaman çizelgesi** bölmesinde artı işaretini (**+**) seçin ve sonra Not oluşturmak için **Not**'u seçin.
 
-    ![Customer engagement uygulamasında bir not oluşturma](media/notes-ce-1.png)
+    ![Customer engagement uygulamasında bir not oluşturma.](media/notes-ce-1.png)
 
 3. Bir başlık ve açıklama girin ve sonra **Not ekle**'yi seçin.
 
-    ![Bir başlık ve açıklama girme](media/notes-ce-2.png)
+    ![Bir başlık ve açıklama girme.](media/notes-ce-2.png)
 
     Yeni Not Müşteri zaman çizelgesine eklenir.
 
-    ![Müşteri zaman çizelgesindeki yeni Not](media/notes-ce-3.png)
+    ![Müşteri zaman çizelgesindeki yeni Not.](media/notes-ce-3.png)
 
 4. Finance and Operations uygulamasında oturum açın ve aynı müşteri kaydını açın. Sağ üst köşedeki **ekler** düğmesi (ataş simgesi) kaydın bir eki olduğunu belirtir.
 
-    ![Ek hakkında bildirim](media/notes-ce-4.png)
+    ![Ek hakkında bildirim.](media/notes-ce-4.png)
 
 5. **Ekler** sayfasını açmak için **ekler** düğmesini seçin. Customer engagement uygulamasında oluşturduğunuz notu bulmanız gerekir.
 
-    ![Customer engagement uygulamasındaki not](media/notes-ce-5.png)
+    ![Customer Engagement uygulamasındaki not.](media/notes-ce-5.png)
 
 Notta yapılan güncelleştirmeler, Finance and Operations uygulaması ve customer engagement uygulaması arasında eşitlenir.
 
@@ -79,21 +79,21 @@ Finance and Operations uygulamasında bir not oluşturmak ve sonra notu bir cust
 
 1. Finance and Operations uygulamasında **ekler** sayfasında, **Yeni** \> **Not**'u seçin.
 
-    ![Finance and Operations uygulamasında bir not oluşturma](media/notes-fo-1.png)
+    ![Finance and Operations uygulamasında bir not oluşturma.](media/notes-fo-1.png)
 
 2. Bir başlık ve kısa bir yönerge kümesi girip **Kaydet**'i seçin.
 
-    ![Bir başlık ve yönerge girme](media/notes-fo-2.png)
+    ![Bir başlık ve yönerge girme.](media/notes-fo-2.png)
 
 3. Customer engagement uygulamasında kaydı güncelleştirin. Yeni notu zaman çizelgesinde bulmanız gerekir.
 
-    ![Customer engagement uygulamasında zaman çizelgesindeki yeni Not](media/notes-fo-3.png)
+    ![Customer Engagement uygulamasında zaman çizelgesindeki yeni Not.](media/notes-fo-3.png)
 
 Bir notu dahili veya harici olarak sınıflandırabilirsiniz.
 
 - Finance and Operations uygulamasında, **ekler** sayfasında notu açın ve sonra **sınırlama** alanında **dahili** veya **harici** seçeneğini belirleyin.
 
-    ![Sınırlama alanı](media/notes-fo-4.png)
+    ![Sınırlama alanı.](media/notes-fo-4.png)
 
 Ayrıca bir URL oluşturabilirsiniz.
 
@@ -101,13 +101,13 @@ Ayrıca bir URL oluşturabilirsiniz.
 2. Bir başlık ve URL'yi girin.
 3. **Sınırlama** alanında, **dahili** veya **harici** seçeneğini belirleyin.
 
-    ![Finance and Operations uygulamasında bir URL oluşturma](media/notes-fo-5.png)
+    ![Finance and Operations uygulamasında bir URL oluşturma.](media/notes-fo-5.png)
 
 4. **Kaydet**'i seçin.
 
     Customer engagement uygulamalarının URL türleri olmadığından, URL not olarak çift yazmayla tümleştirilir.
 
-    ![Customer engagement uygulamasında not olarak görünen URL](media/notes-ce-6.png)
+    ![Customer Engagement uygulamasında not olarak görünen URL.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Dosya ekleri desteklenmez.

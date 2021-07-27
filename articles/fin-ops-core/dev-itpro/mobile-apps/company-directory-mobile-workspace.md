@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 51ed47075ad7fdea490bd0d06831449388ecdf6e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360804"
 ---
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
@@ -77,7 +77,7 @@ Finance and Operations mobil uygulamasını indirip yükleyin:
 3.  İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
 4.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
-[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Yenilemek için çekin.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Şirket dizinini mobil çalışma alanı kullanarak görüntüleyin
 1.  Mobil uygulamada, **Şirket dizini** çalışma alanını seçin. Personellerin bir listesi görüntülenir.

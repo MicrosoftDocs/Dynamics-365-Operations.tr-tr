@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112685"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346558"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Taraf ve genel adres defteri modeline yükseltme
 
@@ -89,7 +89,7 @@ Yükseltmeye hazırlanmak için aşağıdaki etkinlikler gereklidir:
 
 10. Dağıtımdan sonra, veri fabrikasının bağlantılı hizmetini, veri kümelerini ve veri akışını doğrulayın.
 
-   ![Veri kümeleri, veri akışı ve bağlantılı hizmet](media/data-factory-validate.png)
+   ![Veri kümeleri, veri akışı ve bağlantılı hizmet.](media/data-factory-validate.png)
 
 11. **Yönet**'e gidin. **Bağlantılar** altından, **Bağlantılı Hizmet**'i seçin. **DynamicsCrmLinkedService** öğesini seçin. **Bağlantılı hizmeti düzenle ( Dynamics CRM)** formuna aşağıdaki değerleri girin.
 
@@ -154,7 +154,7 @@ Yükseltmeye hazırlanmak için aşağıdaki etkinlikler gereklidir:
 
 7. Veri fabrikasında, aşağıdaki görüntüde gösterildiği şekilde **Şimdi tetikle**'yi seçerek şablonu çalıştırın. Bu işlemin tamamlanması veri hacmine göre birkaç saat sürebilir.
 
-    ![Tetik çalıştırması](media/data-factory-trigger.png)
+    ![Tetik çalıştırması.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > **Hesap**, **İlgili Kişi** ve **Satıcı** için özelleştirmeleriniz varsa şablonu değiştirmeniz gerekir.
@@ -164,7 +164,7 @@ Yükseltmeye hazırlanmak için aşağıdaki etkinlikler gereklidir:
     + Azure blob depolamadan `FONewParty.csv` dosyasını indirin. Yol: `partybootstrapping/output/FONewParty.csv`.
     + `FONewParty.csv` dosyasını bir Excel dosyasına dönüştürüp Excel dosyasını Finance and Operations uygulamasına aktarın. csv içe aktarma işlemi sizin için uygunsa, csv dosyasını doğrudan içe aktarabilirsiniz. Veri hacmine bağlı olarak içe aktarma birkaç saat sürebilir. Daha fazla bilgi için bkz. [Verileri içeri ve dışarı aktarma işlerine genel bakış](../data-import-export-job.md).
 
-    ![Dataverse taraf kayıtlarını içe aktarma](media/data-factory-import-party.png)
+    ![Dataverse taraf kayıtlarını içe aktarma.](media/data-factory-import-party.png)
 
 9. Müşteri etkileşimi uygulamalarında aşağıdaki eklenti adımlarını devre dışı etkinleştirin:
 
@@ -199,7 +199,7 @@ Yükseltmeye hazırlanmak için aşağıdaki etkinlikler gereklidir:
 3. Veri fabrikası, virgülle sınırlanmış csv dosyaları temel alınarak çalışır. Virgül içeren bir alan değeri varsa, sonuçlarla karışabilir. Virgülleri kaldırmanız gerekir.
 4. **İzleme** sekmesi, tüm adımlar ve işlenen veriler hakkında bilgi sağlar. Hata ayıklamak için belirli bir adımı seçin.
 
-    ![İzleme sekmesi](media/data-factory-monitor.png)
+    ![İzleme sekmesi.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Şablon hakkında daha fazla bilgi edinin
 

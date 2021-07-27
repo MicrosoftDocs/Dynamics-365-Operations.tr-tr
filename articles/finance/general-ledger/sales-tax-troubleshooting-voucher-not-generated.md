@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ba23b597b1d7d283b99638fb7d5d91da00afb09c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82357b7fe00b93715f44eb024ac78d7cc1adca84
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356113"
 ---
 # <a name="voucher-isnt-generated"></a>Fiş oluşturulmuyor
 
@@ -26,14 +26,14 @@ ms.locfileid: "6018769"
 
 Bir fiş oluşturulması gerekirken **Fiş hareketleri** sayfasında herhangi bir fiş görüntülenmiyorsa bu sorunu gidermek için aşağıdaki bölümlerdeki adımları izleyin.
 
-[![Fiş görüntülenmeyen fiş hareketleri sayfası](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
+[![Fiş görüntülenmeyen fiş hareketleri sayfası.](./media/voucher-not-generated-Picture1.png)](./media/voucher-not-generated-Picture1.png)
 
 ## <a name="check-the-tax-applicability"></a>Vergi uygulanabilirliğini kontrol edin
 
 1. **Vergi** \> **Periyodik görevler** \> **Henüz transfer edilmemiş alt muhasebe günlük girişleri**'ne gidin.
 2. Defter kaydı varsa bunu seçin ve **Şimdi transfer et**'i seçin.
 
-    [![Henüz transfer edilmemiş alt genel muhasebe günlük girişleri sayfasındaki Şimdi transfer et düğmesi](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
+    [![Henüz transfer edilmemiş alt genel muhasebe günlük girişleri sayfasındaki Şimdi transfer et düğmesi.](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)
 
 3. Fişin oluşturulup oluşturulmadığını görmek için **Fiş hareketleri** sayfasını yeniden açın.
 

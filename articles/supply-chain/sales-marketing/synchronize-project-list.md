@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359849"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Proje listesini Supply Chain Management'tan Field Service'e eşitleme
 
@@ -29,7 +29,7 @@ ms.locfileid: "5828507"
 
 Bu konu projeleri Dynamics 365 Supply Chain Management üzerinden Dynamics 365 Field Service üzerine eşitlemekte kullanılan şablonları ve alttaki görevleri açıklar.
 
-[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 Aşağıdaki şablon ve temel görevler, projelerin Supply Chain Management'tan Field Service'e eşitlemesini çalıştırmak için kullanılır.
@@ -63,7 +63,7 @@ Veri varlığı projeleri için izlemeyi etkinleştir
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projeler (Supply Chain Management'tan Field Service'e): Projeler
 
-[![Veri tümleştirmede şablon eşleme](./media/FSProject1.png)](./media/FSProject1.png)
+[![Veri tümleştirmede şablon eşleme.](./media/FSProject1.png)](./media/FSProject1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

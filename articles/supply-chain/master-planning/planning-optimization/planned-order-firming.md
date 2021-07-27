@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271220"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360388"
 ---
 # <a name="firm-planned-orders"></a>Kesinleşmiş planlı siparişler
 
@@ -81,7 +81,7 @@ Planlı siparişleri el ile kesinleştirmek için, kesinleştirmek istediğiniz 
     - **Döneme göre grupla** ( **Satınalma siparişleri** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz dönemi seçin. Bu seçeneği kullanmak için aynı zamanda **Satıcıya göre gruplandır** seçeneğini seçmeniz gerekir.
     - **Döneme göre grupla** ( **Transferler** bölümünde) – Planlı satınalma siparişlerinin gruplandırılmasını istediğiniz transferi seçin. Siparişler, **Kaynak ambar** ve **Hedef ambar** değerleri temel alınarak gruplandırılır.
 
-    ![Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi](./media/manual-firming.png "Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi")
+    ![Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi.](./media/manual-firming.png "Kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi")
 
 1. **Arka planda çalıştır** hızlı sekmesinde, işi toplu iş modunda çalışacak şekilde ayarlayın. Ancak, el ile kesinleştirme yaparken yinelenen bir zamanlama ayarlamak mantıklı değildir. Alanlar, Supply Chain Management'ta bulunan diğer [arka plan işleri](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) için çalıştıkları gibi çalışır. Ancak, el ile kesinleştirme için toplu işlem yalnızca geçerli olarak seçili planlı siparişleri işler. Sayfada geçerli olarak uygulanan filtrelere uyan siparişleri işlemez.
 1. Ayarlarınızı uygulayıp kesinleştirilmiş siparişler oluşturmak için **Tamam**'ı seçin.
@@ -140,15 +140,15 @@ Sorgu tabanlı kesinleştirme işlemini kullanarak planlı bir siparişi kesinle
     - **İleriki günler için kesinleştirme zaman dilimi** – Master planlama tarafından gelecekte çeşitli gereksinimlerin ve diğer hangi noktaların hesaplanması gerektiğini seçebilirsiniz.
     - **Geçmişteki günler için kesinleştirme zaman dilimi** – Master planlama tarafından geçmişte çeşitli gereksinimlerin ve diğer hangi noktaların hesaplanması gerektiğini seçebilirsiniz.
 
-    ![Planli sipariş kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi](./media/planned-order-firming-main-1.png "Planli sipariş kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi")
+    ![Planli sipariş kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi.](./media/planned-order-firming-main-1.png "Planli sipariş kesinleştirme iletişim kutusundaki parametreler hızlı sekmesi")
 
 1. Siparişe hangi kayıtların dahil edileceğini belirtmek için **Dahil edilecek kayıtlar** hızlı sekmesinde **Filtre** düğmesini seçin. Seçim ölçütünü, sıralama ölçütlerini ve birleşimleri tanımlayabileceğiniz standart bir sorgu iletişim kutusu görüntülenir. Alanlar, Supply Chain Management'ta bulunan diğer sorgular için çalıştıkları gibi çalışır. Buradaki alanlar salt okunurdur ve sorgunuzla ilgili değerleri gösterir.
 
-    ![Planli sipariş kesinleştirme iletişim kutusundaki Dahil edilecek kayıtlar hızlı sekmesi](./media/planned-order-firming-main-2.png "Planli sipariş kesinleştirme iletişim kutusundaki Dahil edilecek kayıtlar hızlı sekmesi")
+    ![Planli sipariş kesinleştirme iletişim kutusundaki Dahil edilecek kayıtlar hızlı sekmesi.](./media/planned-order-firming-main-2.png "Planli sipariş kesinleştirme iletişim kutusundaki Dahil edilecek kayıtlar hızlı sekmesi")
 
 1. Şu ana kadarki ayarlarınıza göre kesinleştirilmiş siparişiniz içeriğini önizlemek için **Önizleme**'yi seçin. Kesinleştirilecektir olan planlı siparişlerin listesi bir ileti olarak gösterilir. Daha sonra, önizleme sırasında amaçladığınız siparişi gösterene kadar ayarlarınızı gerektiği şekilde ayarlayabilirsiniz.
 
-    ![Kesinleştirilmiş sipariş önizleme örneği](./media/planned-order-firming-preview.png "Kesinleştirilmiş sipariş önizleme örneği")
+    ![Kesinleştirilmiş sipariş önizleme örneği.](./media/planned-order-firming-preview.png "Kesinleştirilmiş sipariş önizleme örneği")
 
     > [!WARNING]
     > Bu özellik, filtre ölçütleriyle eşleşen tüm planlı siparişleri kesinleştirir. Planlı siparişlerin kritik olmayan bir şekilde olarak kesinleştirilmesi, istenmeyen satınalma, transfer ve üretim emirlerinin oluşturulmasına neden olabilir. Devam etmeden önce, dahil edilecek kayıtları doğrulamak için **Önizleme** düğmesini kullanın.

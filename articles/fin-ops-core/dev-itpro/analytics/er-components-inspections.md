@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753852"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357678"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Çalışma zamanı sorunlarını önlemek için yapılandırılmış ER bileşenini denetleme
 
@@ -242,7 +242,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 1. ER veri modelini ve ER model eşleme bileşenlerini eşzamanlı olarak yapılandırmaya başlayın.
 2. Veri modeli ağacında **X** adlı bir alan ekleyin ve veri türü olarak **Tamsayı**'yı seçin.
 
-    ![X alanı ve Tamsayı veri türü Veri modeli sayfasındaki veri modeli ağacına eklenir](./media/er-components-inspections-01.png)
+    ![X alanı ve Tamsayı veri türü, Veri modeli sayfasındaki veri modeli ağacına eklenir.](./media/er-components-inspections-01.png)
 
 3. Model eşleme tasarımcısında **veri kaynakları** bölmesinde **Hesaplanan alan** türünün bir veri kaynağını ekleyin.
 4. Yeni veri kaynağını **Y** olarak adlandırın ve `INTVALUE(100)` ifadesini içerecek şekilde yapılandırın.
@@ -250,17 +250,17 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 6. Veri modeli tasarımcısında, **X** alanının veri türünü **Tamsayı**'dan **Int64** olarak değiştirin.
 7. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini doğrulama](./media/er-components-inspections-01.gif)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini doğrulama.](./media/er-components-inspections-01.gif)
 
 8. **Yapılandırmalar** sayfasında seçili ER yapılandırmasının model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Yapılandırmalar sayfasında model eşleme bileşenini denetleme](./media/er-components-inspections-01a.png)
+    ![Yapılandırmalar sayfasında model eşleme bileşenini denetleme.](./media/er-components-inspections-01a.png)
 
 9. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide şu belirtilir: **Y** veri kaynağının döndürdüğü `INTVALUE(100)` ifadesinin **Tamsayı** türündeki değeri, **Int64** türündeki **X** veri modeli alanında depolanamaz.
 
 Aşağıdaki çizimde, uyarıyı yok sayıp model eşlemesini kullanmak üzere yapılandırılmış bir biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasındaki çalışma zamanı hataları](./media/er-components-inspections-01b.png)
+![Biçim tasarımcısı sayfasındaki çalışma zamanı hataları.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -290,7 +290,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 6. Biçim yapısı ağacında, **Y** biçim öğesinin veri türünü **Tamsayı** değerinden **Int64** değerine değiştirin.
 7. **Biçim tasarımcısı** sayfasında, düzenlenebilir biçim bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Biçim tasarımcısı sayfasında tür uyumluluğunu doğrulama](./media/er-components-inspections-02.gif)
+    ![Biçim tasarımcısı sayfasında tür uyumluluğunu doğrulama.](./media/er-components-inspections-02.gif)
 
 8. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide, yapılandırılan ifadenin yalnızca **Int64** değerlerini kabul edebileceği belirtilri. Bu nedenle, **Tamsayı** türünün **X** veri modeli alanının değeri **Y** biçim öğesine girilemez.
 
@@ -317,7 +317,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 1. ER veri modelini ve ER model eşleme bileşenlerini eşzamanlı olarak yapılandırmaya başlayın.
 2. Veri modeli ağacında **X** adlı bir alan ekleyin ve veri türü olarak **Tamsayı**'yı seçin.
 
-    ![Veri modeli sayfasında X alanı ve Tamsayı veri türü ile veri modeli ağacı](./media/er-components-inspections-01.png)
+    ![Veri modeli sayfasında X alanı ve Tamsayı veri türü ile veri modeli ağacı.](./media/er-components-inspections-01.png)
 
 3. Model eşleme tasarımcısında **veri kaynakları** bölmesinde **Hesaplanan alan** türünün bir veri kaynağını ekleyin.
 4. Yeni veri kaynağını **Y** olarak adlandırın ve `INTVALUE(100)` ifadesini içerecek şekilde yapılandırın.
@@ -325,7 +325,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 6. Model eşleme tasarımcısındaki **veri kaynakları** bölmesinde **Y** veri kaynağını silin.
 7. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında düzenlenebilir ER model eşleme bileşenini denetleme](./media/er-components-inspections-03.gif)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir ER modeli eşleme bileşenini denetleme.](./media/er-components-inspections-03.gif)
 
 8. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide, **X** veri modeli alanı bağlamasının **Y** veri kaynağına başvuran yolu içerdiği ancak bu veri kaynağının bulunamadığı belirtilir.
 
@@ -359,13 +359,13 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 8. Yeni iç içe alanı **$AccNumber** olarak adlandırın ve `TRIM(Vendor.AccountNum)` ifadesini içerecek şekilde yapılandırın.
 9. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve **Vendor** veri kaynağındaki `FILTER(Vendor, Vendor.AccountNum="US-101")` ifadesinin sorgulanabildiğini doğrulayın.
 
-    ![İfadenin Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama](./media/er-components-inspections-04.gif)
+    ![İfadenin Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-04.gif)
 
 10. **Vendor** veri kaynağı, **FilteredVendor** veri kaynağı ifadesinin doğrudan SQL deyimine çevrilmesine izin vermeyen **Hesaplanan alan** türünde iç içe alan içerdiğinden doğrulama hatası oluşur.
 
 Aşağıdaki çizimde, uyarıyı yok sayıp model eşlemesini kullanmak üzere yapılandırılmış bir biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırdığınızda oluşan çalışma zamanı hataları](./media/er-components-inspections-04a.png)
+![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırdığınızda oluşan çalışma zamanı hataları.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -396,23 +396,23 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     - Gruplandırılması gereken kayıtların kaynağı olarak **Trans** veri kaynağını seçin.
     - **Yürütme konumu** alanında, bu veri kaynağını veritabanı düzeyinde çalıştırmak istediğinizi belirtmek için **Sorgu**'yu seçin.
 
-    !["Group By" parametrelerini düzenle sayfasında veri kaynağını yapılandırma](./media/er-components-inspections-05a.gif)
+    !["Gruplama Ölçütü" parametrelerini düzenle sayfasında veri kaynağını yapılandırma.](./media/er-components-inspections-05a.gif)
 
 6. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve yapılandırılan **GroupedTrans** veri kaynağının sorgulanabildiğini doğrulayın.
 7. Kırpılan satıcı hesap numarasını almak için **Hesaplanan alan** türünde iç içe bir alan ekleyerek **Trans** veri kaynağını değiştirin.
 8. Yeni veri kaynağını **$AccNumber** olarak adlandırın ve `TRIM(Trans.AccountNum)` ifadesini içerecek şekilde yapılandırın.
 
-    ![Model eşleme tasarımcı sayfasında veri kaynağını yapılandırma](./media/er-components-inspections-05a.png)
+    ![Model eşleme tasarımcı sayfasında veri kaynağını yapılandırma.](./media/er-components-inspections-05a.png)
 
 9. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve yapılandırılan **GroupedTrans** veri kaynağının sorgulanabildiğini doğrulayın.
 
-    ![ER model eşleme bileşenini doğrulama ve GroupedTrans veri kaynağının Model eşleme tasarımsıcı sayfasında sorgulanabildiğini doğrulama](./media/er-components-inspections-05b.png)
+    ![ER model eşleme bileşenini doğrulama ve GroupedTrans veri kaynağının Model eşleme tasarımsıcı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-05b.png)
 
 10. **Trans** veri kaynağı, **GroupedTrans** veri kaynağı çağrısının doğrudan SQL deyimine çevrilmesine izin vermeyen **Hesaplanan alan** türünde iç içe alan içerdiğinden doğrulama hatası oluşur.
 
 Aşağıdaki çizimde, uyarıyı yok sayıp model eşlemesini kullanmak üzere yapılandırılmış bir biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasında uyarı yok sayıldığında oluşan çalışma zamanı hataları](./media/er-components-inspections-05c.png)
+![Biçim tasarımcısı sayfasında uyarı yok sayıldığında oluşan çalışma zamanı hataları.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -448,21 +448,21 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     2. **Vendor.FilteredTrans** veri kaynağını birleştirilecek ikinci kayıt kümesi olarak ekleyin. Tür olarak **INNER** türünü seçin.
     3. **Yürütme** alanında, bu veri kaynağını veritabanı düzeyinde çalıştırmak istediğinizi belirtmek için **Sorgu**'yu seçin.
 
-    ![Birleştirme tasarımcı sayfasında veri kaynağını yapılandırma](./media/er-components-inspections-06a.gif)
+    ![Birleştirme tasarımcısı sayfasında veri kaynağını yapılandırma.](./media/er-components-inspections-06a.gif)
 
 10. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve yapılandırılan **JoinedList** veri kaynağının sorgulanabildiğini doğrulayın.
 11. **Vendor.FilteredTrans** veri kaynağı ifadesini, `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` yerine `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` olacak şekilde değiştirin.
 12. **Model eşleme tasarımcısı** sayfasında düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin ve yapılandırılan **JoinedList** veri kaynağının sorgulanabildiğini doğrulayın.
 
-    ![Düzenlenebilir model eşleme bileşenini doğrulama ve JoinedList veri kaynağının Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama](./media/er-components-inspections-06b.png)
+    ![Düzenlenebilir model eşleme bileşenini doğrulama ve JoinedList veri kaynağının Model eşleme tasarımcısı sayfasında sorgulanabildiğini doğrulama.](./media/er-components-inspections-06b.png)
 
 13. **Vendor.FilteredTrans** veri kaynağı ifadesi doğrudan SQL çağrısına çevrilemediği için doğrulama hatası oluştuğuna dikkat edin. Ek olarak, doğrudan SQL çağrısı **JoinedList** veri kaynağı için çağrının doğrudan SQL deyimine çevrilmesine izin vermez.
 
-    ![Model eşleme tasarımcısı sayfasında JoinedList veri kaynağı doğrulamasının başarısız olmasından kaynaklanan çalışma zamanı hataları](./media/er-components-inspections-06c.png)
+    ![Model eşleme tasarımcısı sayfasında JoinedList veri kaynağı doğrulamasının başarısız olmasından kaynaklanan çalışma zamanı hataları.](./media/er-components-inspections-06c.png)
 
 Aşağıdaki çizimde, uyarıyı yok sayıp model eşlemesini kullanmak üzere yapılandırılmış bir biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırma](./media/er-components-inspections-06e.png)
+![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırma.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -474,7 +474,7 @@ Bu sorunu otomatik olarak düzeltme seçeneği bulunmaz.
 
 Uyarıda tavsiye edilen şekilde, **Vendor.FilteredTrans** veri kaynağı ifadesini `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` yerine tekrar `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` olarak değiştirin.
 
-![Model eşleme tasarımcı sayfasında güncelleştirilmiş veri kaynağı ifadesi](./media/er-components-inspections-06d.png)
+![Model eşleme tasarımcısı sayfasında güncelleştirilmiş veri kaynağı ifadesi.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Seçenek 2
 
@@ -497,11 +497,11 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 9. Yeni veri kaynağını **FilteredVendor** olarak adlandırın ve `WHERE(Vendor, Vendor.AccountNum="US-101")` ifadesini içerecek şekilde yapılandırın.
 10. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini denetleme](./media/er-components-inspections-07a.png)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini denetleme.](./media/er-components-inspections-07a.png)
 
 11. Doğrulama uyarılarında, **FilteredVendor** ve **FilteredTrans** veri kaynakları için **WHERE** işlevi yerine **FILTER** işlevini kullanmanızın önerildiğine dikkat edin.
 
-    ![Model eşleme tasarımcısı sayfasında WHERE işlevi yerine FILTER işlevinin kullanılması için öneri](./media/er-components-inspections-07b.png)
+    ![Model eşleme tasarımcısı sayfasında WHERE işlevi yerine FILTER işlevinin kullanılması için öneri.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -509,7 +509,7 @@ Bu denetim türünün **Uyarılar** sekmesindeki ızgarada gösterilen tüm veri
 
 Alternatif olarak, ızgarada tek bir uyarı satırını seçebilir ve ardından **Seçilenleri düzelt**'i seçebilirsiniz. Bu durumda, ifade yalnızca seçilen uyarıda belirtilen veri kaynağında otomatik olarak değiştirilir.
 
-![Model eşleme tasarımcısı sayfasında WHERE işlevini FILTER işleviyle otomatik olarak değiştirmek için Düzelt'i seçme](./media/er-components-inspections-07c.png)
+![Model eşleme tasarımcısı sayfasında WHERE işlevini FILTER işleviyle otomatik olarak değiştirmek için Düzelt'i seçme.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>El ile çözüm
 
@@ -530,11 +530,11 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 7. Yeni veri kaynağını **FilteredVendorTrans** olarak adlandırın ve `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')` ifadesini içerecek şekilde yapılandırın.
 8. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini denetleme](./media/er-components-inspections-08a.png)
+    ![Model eşleme tasarımcısı sayfasında düzenlenebilir model eşleme bileşenini denetleme.](./media/er-components-inspections-08a.png)
 
 9. Doğrulama uyarısının oluştuğunu göreceksiniz. Bu iletide, **FilteredVendorTrans** veri kaynağı için **ALLITEMS** işlevi yerine **ALLITEMSQUERY** işlevini kullanmanız önerilir.
 
-    ![Model eşleme tasarımcısı sayfasında ALLITEMS işlevi yerine ALLITEMSQUERY işlevinin kullanılması için öneri](./media/er-components-inspections-08b.png)
+    ![Model eşleme tasarımcısı sayfasında ALLITEMS işlevi yerine ALLITEMSQUERY işlevinin kullanılması için öneri.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -542,7 +542,7 @@ Bu denetim türünün **Uyarılar** sekmesindeki ızgarada gösterilen tüm veri
 
 Alternatif olarak, ızgarada tek bir uyarı satırını seçebilir ve ardından **Seçilenleri düzelt**'i seçebilirsiniz. Bu durumda, ifade yalnızca seçilen uyarıda belirtilen veri kaynağında otomatik olarak değiştirilir.
 
-![Model eşleme tasarımcısı sayfasında Seçilenleri düzelt'i seçme](./media/er-components-inspections-08c.png)
+![Model eşleme tasarımcısı sayfasında Seçilenleri düzelt'i seçme.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>El ile çözüm
 
@@ -563,7 +563,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     - **Dize** türünde iç içe bir alan ekleyin ve bu alanı **Name** olarak adlandırın.
     - **Dize** türünde iç içe bir alan ekleyin ve bu alanı **AccountNumber** olarak adlandırın.
 
-    ![Veri modeli sayfasında iç içe alanlar ekleme](./media/er-components-inspections-09a.png)
+    ![Veri modeli sayfasında iç içe alanlar ekleme.](./media/er-components-inspections-09a.png)
 
 6. Model eşleme tasarımcısında **veri kaynakları** bölmesinde **Dynamics 365 for Operations\\Tablo kayıtları** türünün veri kaynağını ekleyin.
 7. Yeni veri kaynağını **Vendor** olarak adlandırın. **Tablo** alanında, bu veri kaynağının VendTable tablosunu isteyeceğini belirtmek için **VendTable** seçeneğini belirleyin.
@@ -577,7 +577,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     - **FilteredVendor.AccountNum** öğesini **Vendor.AccountNumber** öğesine bağlayın.
     - **FilteredVendor.'name()'** öğesini **Vendor.Name** öğesine bağlayın.
 
-    ![Model eşleme tasarımcısı sayfasında veri modeli öğelerini yapılandırma](./media/er-components-inspections-09b.png)
+    ![Model eşleme tasarımcısı sayfasında veri modeli öğelerini yapılandırma.](./media/er-components-inspections-09b.png)
 
 13. Biçim yapısı ağacında, satıcı ayrıntılarını içeren bir giden belgeyi XML biçiminde oluşturmak için aşağıdaki öğeleri ekleyin:
 
@@ -595,15 +595,15 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 
 15. **Biçim tasarımcısı** sayfasında, düzenlenebilir biçim bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Biçim tasarımcısı sayfasında veri kaynaklarına bağladığınız biçim öğelerini doğrulama](./media/er-components-inspections-09c.png)
+    ![Biçim tasarımcısı sayfasında veri kaynaklarına bağladığınız biçim öğelerini doğrulama.](./media/er-components-inspections-09c.png)
 
 16. Doğrulama hatasının oluştuğunu göreceksiniz. Bu iletide, `model.Vendor` listesi boşsa çalışma zamanında yapılandırılmış **Statement\\Party\\Name** ve **Statement\\Party\\AccountNum** biçim bileşenleri için bir hata oluşabileceği belirtilir.
 
-    ![Yapılandırılan biçim bileşenleri için olası bir hata hakkındaki doğrulama hatası](./media/er-components-inspections-09d.png)
+    ![Yapılandırılan biçim bileşenleri için olası bir hata hakkındaki doğrulama hatası.](./media/er-components-inspections-09d.png)
 
 Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çalıştır**'ı seçer ve var olmayan bir satıcının hesap numarasını seçerseniz oluşacak çalışma zamanı hatası gösterilir. İstenen satıcı var olmadığından `model.Vendor` listesi boş olacaktır (kayıt içermeyecektir).
 
-![Biçim eşleme çalışırken oluşan çalışma zamanı hataları](./media/er-components-inspections-09e.png)
+![Biçim eşleme çalışırken oluşan çalışma zamanı hataları.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -615,7 +615,7 @@ Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çal
 
 **Statement\\Party\\Name** biçim öğesini `model.Vendor` veri kaynağı öğesine bağlayabilirsiniz. Çalışma zamanında bu bağ, önce `model.Vendor` veri kaynağını çağırır. `model.Vendor` boş bir kayıt listesi döndürürse iç içe geçmiş biçim bileşenleri çalıştırılmaz. Bu nedenle, bu biçim yapılandırması için herhangi bir doğrulama uyarısı oluşmaz.
 
-![Biçim tasarımcısı sayfasında biçim öğesini veri kaynağı öğesine bağlama](./media/er-components-inspections-09e.gif)
+![Biçim tasarımcısı sayfasında biçim öğesini veri kaynağı öğesine bağlama.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Seçenek 2
 
@@ -626,7 +626,7 @@ Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çal
 
 Bu nedenle, **Statement\\Party\\Name** biçim bileşeni `FIRSTORNULL(model.Vendor).Name` ifadesine bağlandığında doğrulama uyarıları oluşmaz.
 
-![Biçim tasarımcısı sayfasında değiştirilen bağlama doğrulama uyarıların çözer](./media/er-components-inspections-09f.gif)
+![Biçim tasarımcısı sayfasında değiştirilen bağlama doğrulama uyarıların çözer.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Seçenek 3
 
@@ -653,17 +653,17 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 7. Yeni veri kaynağını **FilteredVendor** olarak adlandırın ve `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)` ifadesini içerecek şekilde yapılandırın.
 8. Yapılandırılan **Vendor** veri kaynağını önbelleğe alınmış olarak işaretleyin.
 
-    ![Model eşleme tasarımcısı sayfasında model eşleme bileşenini yapılandırma](./media/er-components-inspections-10a.gif)
+    ![Model eşleme tasarımcısı sayfasında model eşleme bileşenini yapılandırma.](./media/er-components-inspections-10a.gif)
 
 9. **Model eşleme tasarımcısı** sayfasında, düzenlenebilir model eşleme bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Model eşleme tasarımcısı sayfasında ön belleğe alınan Vendor veri kaynağına uygulanan FILTER işlevini doğrulama](./media/er-components-inspections-10a.png)
+    ![Model eşleme tasarımcısı sayfasında ön belleğe alınan Satıcı veri kaynağına uygulanan FILTER işlevini doğrulama.](./media/er-components-inspections-10a.png)
 
 10. Doğrulama hatasının oluştuğunu göreceksiniz. İletide, **FILTER** işlevinin önbelleğe alınan **Vendor** veri kaynağına uygulanamayacağı belirtilir.
 
 Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasında biçim eşleme çalıştırması sırasında oluşan çalışma zamanı hatası](./media/er-components-inspections-10b.png)
+![Biçim tasarımcısı sayfasında biçim eşleme çalıştırması sırasında oluşan çalışma zamanı hatası.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Otomatik çözüm
 
@@ -694,7 +694,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     - **Dize** türünde iç içe bir alan ekleyin ve bu alanı **Name** olarak adlandırın.
     - **Dize** türünde iç içe bir alan ekleyin ve bu alanı **AccountNumber** olarak adlandırın.
 
-    ![Veri modeli sayfasında Satıcı öğesine iç içe alanlar ekleme](./media/er-components-inspections-11a.png)
+    ![Veri modeli sayfasında Satıcı öğesine iç içe alanlar ekleme.](./media/er-components-inspections-11a.png)
 
 6. Model eşleme tasarımcısında **veri kaynakları** bölmesinde **Dynamics 365 for Operations\\Tablo kayıtları** türünün veri kaynağını ekleyin.
 7. Yeni veri kaynağını **Vendor** olarak adlandırın. **Tablo** alanında, bu veri kaynağının VendTable tablosunu isteyeceğini belirtmek için **VendTable** seçeneğini belirleyin.
@@ -710,7 +710,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
     > [!NOTE]
     > **Vendor.Name** veri modeli alanı bağlanmamış olarak kalır.
 
-    ![Yapılandırılan veri kaynaklarına bağlı veri modeli öğeleri ve Model eşleme tasarımcısı sayfasındaki bağlanmamış olarak kalan veri modeli öğesi](./media/er-components-inspections-11b.png)
+    ![Yapılandırılan veri kaynaklarına bağlı veri modeli öğeleri ve Model eşleme tasarımcısı sayfasındaki bağlanmamış olarak kalan veri modeli öğesi.](./media/er-components-inspections-11b.png)
 
 13. Biçim yapısı ağacında, sorgu oluşturulan satıcıların ayrıntılarını içeren bir giden belgeyi XML biçiminde oluşturmak için aşağıdaki öğeleri ekleyin:
 
@@ -729,15 +729,15 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 
 15. **Biçim tasarımcısı** sayfasında, düzenlenebilir biçim bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Biçim tasarımcısı sayfasında ER biçimi bileşenini doğrulama](./media/er-components-inspections-11c.png)
+    ![Biçim tasarımcısı sayfasında ER biçimi bileşenini doğrulama.](./media/er-components-inspections-11c.png)
 
 16. Doğrulama uyarısının oluştuğunu göreceksiniz. Bu iletide, **model.Vendor.Name** veri kaynağı alanının, biçim tarafından kullanılmak üzere yapılandırılan model eşlemesindeki hiçbir veri kaynağına bağlı olmadığı belirtilir. Bu nedenle, **Statement\\Party\\Name** biçim öğesi çalışma zamanında doldurulamayabilir ve çalışma zamanı hatası oluşabilir.
 
-    ![Biçim tasarımcısı sayfasında ER biçimi bileşenini doğrulama](./media/er-components-inspections-11d.png)
+    ![Biçim tasarımcısı sayfasında ER biçimi bileşenini doğrulama.](./media/er-components-inspections-11d.png)
 
 Aşağıdaki çizimde, uyarıyı yok sayıp biçimi çalıştırmak için **Çalıştır**'ı seçerseniz oluşacak çalışma zamanı hatası gösterilir.
 
-![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırma](./media/er-components-inspections-11e.png)
+![Biçim tasarımcısı sayfasında düzenlenebilir biçimi çalıştırma.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 
@@ -766,7 +766,7 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 5. **Excel\\Dosya** öğesinde, A çalışma kitabı dosyasını seçin.
 6. **Biçim tasarımcısı** sayfasında, düzenlenebilir biçim bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Biçim tasarımcısı sayfasındaki çalışma kitabı dosyasının düzenlenebilir biçim bileşenini doğrulama](./media/er-components-inspections-12a.gif)
+    ![Biçim tasarımcısı sayfasındaki çalışma kitabı dosyasının düzenlenebilir biçim bileşenini doğrulama.](./media/er-components-inspections-12a.gif)
 
 7. Doğrulama uyarısının oluştuğunu göreceksiniz. Bu iletide, B.xlsx çalışma kitabı dosyasının hiçbir bileşene bağlanmadığı ve yapılandırma sürümünün durumu değiştirildikten sonra kaldırılacağı belirtilir.
 
@@ -794,11 +794,11 @@ Aşağıdaki adımlarda bu sorunun nasıl oluşabileceği gösterilmektedir.
 4. **Rapor** öğesinin iç içe öğesi olarak **Excel\\Hücre** **Başlık** öğesini ekleyin. **Excel aralığı** alanına **ReportTitle** girin.
 5. **Biçim tasarımcısı** sayfasında, düzenlenebilir biçim bileşenini denetlemek için **Doğrula**'yı seçin.
 
-    ![Biçim tasarımcısı sayfasındaki iç içe öğeleri ve alanları doğrulama](./media/er-components-inspections-13a.png)
+    ![Biçim tasarımcısı sayfasındaki iç içe öğeleri ve alanları doğrulama.](./media/er-components-inspections-13a.png)
 
 6. Doğrulama uyarısının oluştuğunu göreceksiniz. Bu iletide, kullandığınız Excel şablonunun **Sheet1** sayfasında **ReportTitle** adının bulunmadığı belirtilir.
 
-    ![Excel şablonunun Sheet1 sayfasında ReportTitle adının bulunmadığına dair doğrulama uyarısı](./media/er-components-inspections-13b.png)
+    ![Excel şablonunun Sheet1 sayfasında ReportTitle adının bulunmadığına dair doğrulama uyarısı.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Otomatik çözüm
 

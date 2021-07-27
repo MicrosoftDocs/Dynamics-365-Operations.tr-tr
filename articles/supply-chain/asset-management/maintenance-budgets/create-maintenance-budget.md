@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361198"
 ---
 # <a name="create-maintenance-budgets"></a>Bakım bütçeleri oluşturma
 
@@ -50,7 +50,7 @@ Bakım bütçeleri, Varlık Yönetimi'nde kullanılan maliyet türlerini temel a
     > [!NOTE]
     > Bakım bütçesini onayladıktan sonra önce onayı kaldırmadığınız sürece **Bakım bütçesi satırları** sayfasındaki ilgili satırları yeniden hesaplayamaz veya ayarlayamazsınız. Bakım bütçesinin onayını kaldırmak için **Bakım bütçeleri** sayfasından bütçeyi ve ardından **Onayla**'yı seçin. Ardından **Bütçeyi onayla** iletişim kutusunda, **Tamam**'ı seçin.
 
-![Bakım Bütçeleri](media/01-maintenance-budgets.png)
+![Bakım Bütçeleri.](media/01-maintenance-budgets.png)
 
 Ayrıca mevcut bütçeyi kopyalayarak yeni bir bakım bütçesi oluşturabilirsiniz. **Bakım bütçeleri** sayfasında, kopyalanacak bütçeyi ve ardından **Kopyala**'yı seçin. Bu yaklaşım, örneğin bir aylık bir bütçe oluşturduğunuzda ve bunu diğer aylara kopyalamak istediğinizde yararlıdır.
 
