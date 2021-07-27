@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188009"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355047"
 ---
 # <a name="overhead-calculation"></a>Genel gider hesaplaması
 
@@ -48,7 +48,7 @@ Genel gider hesaplama, maliyet muhasebesi ilkelerini doğru sırayla çalıştı
 
 Genel gider hesaplama, sürümden bağımsız olarak çalışır. Bu nedenle, Gerçek sürümden önce Bütçe sürümünü hesaplayabilirsiniz. Genel gider hesaplama dört adımdan oluşur, aşağıdaki çizimde gösterildiği gibi. Her adımda, günlük girişleri olan bir günlük başlığı oluşturulur. Bu günlük başlığı, her hesaplama adımı için giriş verilerini tutar. İlkeler ve kurallar her günlük satırına uygulanır ve maliyet girişleri çıkış olarak oluşturulur. Bu nedenle, her zaman tam izlenebilirliğe sahip olursunuz. 
 
-[![Genel gider hesaplaması](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Genel gider hesaplaması.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektrik genel gideri maliyetini hesapla ve tahsis et
 Mali muhasebede, elektrik gibi bazı maliyetler peşin ödeme olarak kaydedilir. Bu nedenle, Maliyet muhasebesi için ayrıntılı yönetim bilgiler sağlanmaz. Maliyet muhasebesinde doğru yönetimsel bilgileri tüm yönetim birim ve düzeylerinde sağlamak için, maliyetlerin kuruluş birimleri arasında akması gerekir. Bu akış, tüketimin doğru bir kaydına ya da adil bir değerlendirmeye dayanıyor olmalıdır. Genel muhasebede, bir elektrik maliyeti aşağıdaki tabloda gösterildiği gibi deftere nakledilebilir.
@@ -618,7 +618,7 @@ Daha fazla bilgi için [Genel gider hesaplaması gerçekleştir](cost-rollup.md#
 
 Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Finance karşılıklı tahsisat yöntemini desteklemektedir. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. 
 
-[![Karşılıklı yöntemi](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Karşılıklı yöntemi.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Maliyet tahsisatını tanımla
 

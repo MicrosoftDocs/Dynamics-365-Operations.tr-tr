@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f681d08268bdf92212eb5e0c99532bb0827afe7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840377"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344182"
 ---
 # <a name="putaway-clusters"></a>Yerine koyma kümeleri
 
@@ -284,7 +284,7 @@ Kümedeki maddelerin kaldırılabilmeleri için kümenin kapatılması gerekir.
 
     Bu adımı geçersiz kılmak veya atlamak için standart seçeneklere sahipsiniz.
 
-    ![Küme yerine koyma: Sayfayı yerine koyma](media/Cluster_putaway-Put.png "Küme yerine koyma: Sayfayı yerine koyma")
+    ![Küme yerine koyma: Sayfayı yerine koyma.](media/Cluster_putaway-Put.png "Küme yerine koyma: Sayfayı yerine koyma")
 
 1. Kümenin yerine konmasını onaylamak için **Tamam**'ı seçin.
 

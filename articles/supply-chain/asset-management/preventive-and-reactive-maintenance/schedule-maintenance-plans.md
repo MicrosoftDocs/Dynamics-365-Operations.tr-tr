@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837813"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343688"
 ---
 # <a name="schedule-maintenance-plans"></a>Bakım planlarını zamanla
 
@@ -52,14 +52,14 @@ ms.locfileid: "5837813"
 
 5. Varlıklarda bakım zamanlaması girişlerinin oluşturulmasını başlatmak için **Tamam**'a tıklayın. Oluşturulan girişler **Tüm bakım zamanlaması** liste sayfasında gösterilir. Aşağıdaki şekilde bir **Bakım planlarını zamanla** iletişim kutusu örneği gösterilmektedir.
 
-![Şekil 1](media/09-preventive-maintenance.png)
+![Şekil 1.](media/09-preventive-maintenance.png)
 
 - **Bakım planlarını zamanla** iletişim kutusunda düzenli aralıklarla otomatik olarak takvim girişleri oluşturmak için **Arka planda çalıştır** hızlı sekmesinde toplu işler ayarlayabilirsiniz.  
 - Önleyici bakım zamanladığınızda sistem tarihi ve saatinden önceki beklenen başlangıç tarihi ve saatine sahip bakım zamanlaması satırları oluşturulmaz.  
 
 Aşağıdaki şekilde zaman temelli bir bakım planı hesaplamasının grafik resmi gösterilmektedir.  
 
-![Şekil 2](media/10-preventive-maintenance.jpg)
+![Şekil 2.](media/10-preventive-maintenance.jpg)
 
 Sayaç temelli bakım planlarıyla ilgili olarak: Aşağıdaki şekillerde, iki farklı sayaç kaydı döngüsü gösterilmektedir. Bunlar, varlığın (araç) her ay yaklaşık 2.000 km çalışmasının beklendiği "V0001" varlığı için ayarlanan bir bakım planını temel alır.
 
@@ -69,9 +69,9 @@ Sonraki şekilde, her ay 2.000 km veya daha fazla değer kaydedilir. Bu nedenle,
 
 Burada açıklanan örnekler, bir varlıkta gerçekleştirilen tüm sayaç kayıtlarının, varlığın aşınma ve yıpranma eğilimini gösterdiğini belirtir. Bu eğilim, bakım planı zamanlaması sırasında hesaplamaya dayalı olarak kullanılır.
 
-![Şekil 3](media/11-preventive-maintenance.png)
+![Şekil 3.](media/11-preventive-maintenance.png)
 
-![Şekil 4](media/12-preventive-maintenance.png)
+![Şekil 4.](media/12-preventive-maintenance.png)
 
 
 

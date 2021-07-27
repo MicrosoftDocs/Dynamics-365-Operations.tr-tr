@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811690"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350558"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
@@ -61,7 +61,7 @@ Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hamm
 
 Aşağıdaki örnekte üretim emri için montaj ve paketlemeyi kapsayan 10 ve 20 şeklinde iki işi bulunan bir üretim emri gösterilmektedir. Her iş bir miktar malzeme tüketmek üzere ayarlanır. Bu örnekte, zaman çizgisi altında yeşil okla belirtilen serbest bırakma zaman aralığı **(LessThanDate())** ölçütünde belirtilen gün sayısına eşittir. Örneğin, **(LessThanDate(2))** işin serbest bırakılmamış olan miktarlara yalnızca iki günlük zaman aralığında bakması gerektiğini belirtir.
 
-![İki toplu işi bulunan bir üretim emri örneği](media/bach-job-setup.PNG)
+![İki toplu işi bulunan bir üretim emri örneği.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Malzemeyi işlem numarasına göre veya mamul malların miktarıyla orantılı serbest bırakma
 
@@ -78,7 +78,7 @@ Malzemenin serbest bırakılması gereken işlemleri denetlemek için **Ambara s
 
 Aşağıdaki örnekte 10 ve 20 şeklinde iki işlemi bulunan bir üretim emri gösterilmektedir. Bu örnekte, serbest bırakmayı 10 işlemiyle sınırlarsanız yalnızca M9203 malzemesi serbest bırakılacaktır.
 
-![İşlem numarasına göre malzeme serbest bırakma örneği](media/two-operations.PNG)
+![İşlem numarasına göre malzeme serbest bırakma örneği.](media/two-operations.PNG)
 
 Malzemenin, mamul mal miktarına orantılı olarak nasıl serbest bırakılacağı hakkında hızlı bir tanıtım için, YouTube'da [üretim emri serbest bırakma sürecindeki geliştirmeleri](https://www.youtube.com/watch?v=Rm3ojAz6Zu0) hakkındaki kısa videoyu izleyin.
 

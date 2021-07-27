@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353024"
 ---
 # <a name="e-commerce-site-overview"></a>E-ticaret sitesine genel bakış
 
@@ -47,27 +47,27 @@ Bir e-ticaret sitesinin başlatılması sırasında, bir etki alanı adı isteni
 
 LCS 'den Commerce Site Builder 'ı başlattığınızda, **siteler** sayfası görüntülenir. Bu sayfa, aşağıdaki çizimdeki örnekte gösterildiği gibi, **varsayılan** ve **Fabrikam** olmak üzere önceden yapılandırılmış iki siteyi içerir.
 
-![Commerce Site Builder'daki siteler sayfası](media/e-commerce-site-01.png)
+![Commerce site oluşturucudaki siteler sayfası.](media/e-commerce-site-01.png)
 
 Bu sitelerden birini seçtiğinizde, bir etki alanı adı, varsayılan bir çevrimiçi mağaza kanalı, seçili kanal için desteklenen bir dil ve bir yol seçmeniz istenir. Yalnızca bir kanal kullanılıyorsa yolu boş bırakabilirsiniz. Daha sonra Commerce Site Builder'da daha fazla çevrimiçi mağaza kanalı veya dili konfigüre edilebilir. Her ek kanal veya dil benzersiz bir yol gerektirir. Örneğin, tek bir siteyle ilişkilendirilmiş iki çevrimiçi kanallarınız vardır ve sitenin etki alanı adı: `www.fabrikam.com`. Bu durumda, bir kanalın yolu (`https://www.fabrikam.com`) içermeyen varsayılan değer olabilir ve ikinci kanal `https://www.fabrikam.com/site2` URL 'yi alacak olan **site2** gibi yeni bir yola ayarlanabilir. Aşağıdaki çizimde, Commerce Site Builder'da bir site başlatma iletişim kutusu örneği gösterilmektedir.
 
-![Commerce Site Builder 'da site başlatma iletişim kutusu](media/e-commerce-site-02.png)
+![Commerce site oluşturucusunda site başlatma iletişim kutusu.](media/e-commerce-site-02.png)
 
 **Siteler** sayfası **Yeni bir site** düğmesi de içerir. Bu düğmeyi seçtiğinizde görüntülenen iletişim kutusu site başlatma iletişim kutusuna benzer, ancak yeni bir site oluşturmak için kullanılır. Yeni siteler boş. **Varsayılan** ve **Fabrikam** tesislerinde sağlanan varsayılan şablonlar, parçalar, sayfalar ve görüntüler de yer alır . Ancak, gereksinim duyduğunuz gibi, varsayılan içeriğin bir kopyasının yeni boş bir siteye eklenmesini istemek için bir destek bileti açabilirsiniz. Daha fazla bilgi için, bkz [e-ticaret sitesi oluşturma](create-ecommerce-site.md).
 
 Yeni bir site başlatıldıktan sonra, Commerce Site Builder **giriş** sayfası görüntülenir. Bu sayfa, aşağıdaki çizimdeki örnekte gösterildiği gibi, sık kullanılan eylemlere ve kılavuz içeriğine bağlantılar içerir.
 
-![Commerce Site Builder 'da giriş sayfasındaki bağlantılar](media/e-commerce-site-03.png)
+![Commerce site oluşturucudaki giriş sayfasındaki bağlantılar.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Çevrimiçi mağaza kanallarını değiştirin veya bir e-ticaret sitesine çevrimiçi mağaza kanalları ekleyin
 
 Bir e-ticaret sitesi oluşturulduktan sonra, [bir e-ticaret sitesini çevrimiçi kanalla ilişkilendirme](associate-site-online-store.md) adımlarını izleyerek ilişkili olduğu kanalı değiştirebilirsiniz. Aşağıdaki çizimde yer alan örnek, **Kanallar** sayfasında kanal işletim birimi numarası (OUN) nasıl değiştirilebileceği gösterilmiştir (**Site ayarlar \> Kanallar**). Değişiklik yapmayı bitirdikten sonra, **Kaydet ve Yayımla**'yı seçtiğinizden emin olun. Bu şekilde, değişikliğin yayımlanmasını güvence altına alırsınız.
 
-![Commerce Site Builder'daki kanallar sayfası](media/e-commerce-site-04.png)
+![Commerce site oluşturucudaki kanallar sayfası.](media/e-commerce-site-04.png)
 
 **Kanal ekle** 'yi seçerek yeni kanallar ekleyebilirsiniz . Bir kanala yeni diller eklemek için kanalı seçin ve sonra görüntülenen kanal iletişim kutusunda bir **yerel ayar Ekle**'yi seçin. Yerel ayarların iletişim kutusunda görünebilmesi için önce Commerce Headquarters 'daki çevrimiçi mağaza kanalı için önceden konfigüre edilmiş olmaları gerekir.
 
-![Commerce Site Builder 'da kanal iletişim kutusu](media/e-commerce-site-05.png)
+![Commerce site oluşturucuda kanal iletişim kutusu.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Bir Azure B2C kiracısı ayarla
 

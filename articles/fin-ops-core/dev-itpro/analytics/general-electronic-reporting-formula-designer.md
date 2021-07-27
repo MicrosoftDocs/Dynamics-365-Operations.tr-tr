@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dcede0818630329a5608c2d294c9c9f4f749f13
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3cbd4a034b89308c33651c5a923b67bc0eabf413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345774"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
@@ -58,11 +58,11 @@ ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu ver
 
 Bu tür bir ifadenin tasarımı aşağıda gösterilmiştir. Bu örnekte ifade, Intrastat tablosunun **Intrastat.AmountMST** alanının değerini iki ondalık basamağa yuvarlar ve yuvarlanan değeri döndürür.
 
-[![Veri bağlama ifadesi](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Veri bağlama ifadesi.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 Aşağıdaki çizim bu tür bir ifadenin nasıl kullanılabileceğini gösterir. Bu örnekte, tasarlanmış ifadenin sonucu, **Vergi raporlama modeli** veri modelinin **Transaction.InvoicedAmount** bileşenine girilir.
 
-[![Kullanılan veri bağlama ifadesi](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Kullanılan veri bağlama ifadesi.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Çalışma zamanında, tasarlanan formül olan `ROUND (Intrastat.AmountMST, 2)` **AmountMST** alanındaki değeri Intrastat tablosundaki her kayıt için iki ondalık basamağa yuvarlar. Daha sonra yuvarlanan değeri **Vergi raporlama** veri modelinin **Transaction.InvoicedAmount** bileşenine girer.
 
@@ -72,17 +72,17 @@ ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu ver
 
 Bu tür bir dönüştürmenin tasarımı aşağıda gösterilmiştir. Bu örnekte, **TrimmedString** dönüşümü, *Dize* veri türünden gelen verileri baştaki ve sondaki boşlukları kaldırarak keser. Bunun ardından, kesilmiş dize değerini döndürür.
 
-[![Dönüşüm](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Dönüşüm.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 Aşağıdaki çizim bu tür bir dönüştürmenin nasıl kullanılabileceğini gösterir. Bu örnekte, birçok biçim bileşeni metni çıktı olarak çalışma zamanında oluşturulan elektronik belgeye gönderir. Bu biçim bileşenlerinin tümü ada göre **TrimmedString** dönüştürmesine başvurur.
 
-[![Kullanılan dönüştürme](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Kullanılan dönüştürme.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Önceki örnekte yer alan **partyName** gibi biçim bileşenleri **TrimmedString** dönüşümüne referansta bulunur, dönüştürme metni çıktı olarak oluşturulan elektronik belgeye gönderir. Bu metin baştaki ve sondaki boşlukları içermez.
 
 Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirmeyi belirli bir biçim bileşeninin bir bağlamasının tekil ifadesi olarak tanıtabilirsiniz. Aşağıdaki çizim bu türde bir ifadeyi gösterir. Bu örnekte **partyType** biçim bileşeni veri kaynağındaki **Model.Company.RegistrationType** alanından gelen veriyi büyük harfe dönüştüren bir ifade aracılığıyla veri kaynağına bağlıdır. Sonra ifade metni çıktı olarak elektronik belgeye gönderir.
 
-[![Ayrı bir bileşene biçimlendirme uygulama](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Ayrı bir bileşene biçimlendirme uygulama.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>İşlem akış denetimi
 
@@ -98,7 +98,7 @@ ER formül tasarımcısı, elektronik belge oluşturma işlem akışını denetl
 - Hareketin listesi boşsa, doğrulama işlem yürütmesini durdurur ve **YANLIŞ** döndürür.
 - Doğrulama, kullanıcının tercih ettiği dilde SYS70894 etiket metnini içeren bir hata iletisi döndürür.
 
-[![Doğrulama](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Doğrulama.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturma işlemini denetlemek için bir dosya adı oluşturmak için de kullanılabilir. Aşağıdaki çizim, bu türdeki bir işlem akış denetiminin tasarımını gösterir. u örnekteki yapılandırmanın bir açıklaması aşağıdadır:
 
@@ -107,7 +107,7 @@ ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturm
 - Bir ifade, elektronik belge oluşturması için dosya adı ve dosya adı uzantısını birleştirerek bir dosya adı döndürür. İkinci toplu iş ve tüm sonraki toplu işler için, dosya adı toplu iş kimliğini bir sonek olarak içerir.
 - Bir ifade (**DOĞRU** döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.
 
-[![İşlem akış denetimi](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![İşlem akış denetimi.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Belge içeriği denetimi
 
@@ -121,18 +121,18 @@ Aşağıdaki çizim bu türde bir ifadeyi gösterir. (Microsoft tarafından sağ
 - **PaymentNotes** bileşeni ödeme notlarının metnini oluşturmak için kullanılır.
 - **DelimitedSequence** bileşeni, geçerli kredi transferini kapatmak için kullanılan virgülle ayrılmış fatura numaralarını oluşturur.
 
-[![PaymentNotes ve DelimitedSequence bileşenleri](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![PaymentNotes ve DelimitedSequence bileşenleri.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > **PaymentNotes** ve **DelimitedSequence** bileşenleri soru işareti kullanılarak etiketlenir. Soru işareti, bileşen kullanmanın koşullu olduğunu belirtir. Bu durumda, bileşenlerin kullanımı aşağıdaki ölçütlere dayanır:
 >
 > - **PaymentNotes** bileşeni için tanımlanan `@.PaymentsNotes <> ""` ifadesi, popülasyonu **Ustrd** XML öğesine, geçerli kredi transferi için bu metin boş olmadığında ödeme notları metnini etkinleştirir (**Doğru** olarak döndürerek).
 >
->    [![PaymentNotes bileşeni için ifade](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![PaymentNotes bileşeni için ifade.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - **DelimitedSequence** bileşeni için tanımlanmıştır `@.PaymentsNotes = ""` ifadesi, (**DOĞRU** değerini döndürerek) popülasyonu bu kredi transferi için ödeme notları metni boş olduğunda, mevcut kredi transferini düzenlemek için kullanılan virgül fatura numaraları **Ustrd** XML öğesine döndürerek ayırır.
 >
->    [![DelimitedSequence bileşeni için ifade](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![DelimitedSequence bileşeni için ifade.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Bu ayara dayalı olarak, her bir borçlu ödeme, **Ustrd** XML öğesi için oluşturulan ileti, her bir ödeme notu metnini içerecektir veya bu metin boş olduğunda, bu ödemeyi kapatmak için kullanılan virgüllü fatura numaralarıyla ayrılmış metin içerir.
 
@@ -140,7 +140,7 @@ Aşağıdaki çizim bu türde bir ifadeyi gösterir. (Microsoft tarafından sağ
 
 Konfigüre edilen formülün nasıl çalıştığını doğrulamak için **formül Tasarımcısı** sayfasında **test**'i seçin.
 
-[![Bir formülü doğrulamak için test seçme](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Bir formülü doğrulamak için testi seçme.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Formül bağımsız değişkenlerinin değerleri gerektiğinde,**formül Tasarımcısı** sayfasında **test ifadesi** iletişim kutusunu açabilirsiniz. Çoğu durumda, yapılandırılan bağlamalar tasarım zamanında çalıştırılmadığından, bu bağımsız değişkenlerin el ile tanımlanması gerekir. **Formül Tasarımcısı** sayfasındaki **test sonucu** sekmesi yapılandırılan formülün yürütülmesinden elde edilen sonucu gösterir.
 
@@ -148,15 +148,15 @@ Aşağıdaki örnek, Intrastat emtia kodunda yalnızca rakamlar bulunduğundan e
 
 Bu formülü test ettiğinizde, **test ifadesi** iletişim kutusunu, test için Intrastat Emtia kodunun değerini belirtmek için kullanabilirsiniz.
 
-[![Test için Intrastat Emtia kodunu belirtme](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Test için Intrastat Emtia kodunu belirtme.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Intrastat Emtia kodunu belirledikten ve **Tamam**'ı seçtiğinizde, **formül Tasarımcısı** sayfasındaki **test sonucu** sekmesi konfigüre edilen formülün yürütülme sonucunu gösterir. Böylece, sonucun kabul edilebilir olup olmadığı değerlendirebilirsiniz. Sonuç kabul edilebilir değilse, formülü güncelleştirebilir ve tekrar test edebilirsiniz.
 
-[![Test sonucu](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Test sonucu.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Bazı formüller tasarım zamanında sınanamaz. Örneğin, bir formül **test sonucu** sekmesinde görüntülenemeyen bir veri türünün sonucunu döndürebilir. Bu durumda, formülün sınanmamakta olmadığını bildiren bir hata iletisi alırsınız.
 
-[![Hata iletisi](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Hata iletisi.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271413"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350340"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Ölçü birimi ayarlarını uygulama
 
@@ -32,7 +32,7 @@ Bir ürün, "tekli" "çift" ve "düzine" gibi farklı birimlerde satılabilir. C
 
 Aşağıdaki görseldeki örnekte, Commerce genel merkezde bir ürün için **beher** (tekli) satış ölçü birimi yapılandırılmıştır.
 
-![Commerce genel merkezde ölçü birimiyle yapılandırılmış bir ürün örneği](./media/Productunit-headquarters.PNG)
+![Commerce genel merkezde ölçü birimiyle yapılandırılmış bir ürün örneği.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Ölçü birimini uygulama ve gösterme desteği, Commerce sürümü 10.0.19 itibariyle kullanılabilir.
@@ -54,11 +54,11 @@ Aşağıdaki görseldeki örnekte, Commerce genel merkezde bir ürün için **be
 
 Aşağıdaki görselde yer alan örnekte, bir ürün ayrıntıları sayfası (PDP) bir ürünün ölçü birimini (**beher**) gösterir.
 
-![Ölçü birimini gösteren bir PDP örneği](./media/Productunit-PDP.png)
+![Ölçü birimini gösteren bir PDP örneği.](./media/Productunit-PDP.png)
 
 Aşağıdaki görselde yer alan örnekte, bir ürün koleksiyon modülü bir ürünün ölçü birimini (**beher**) gösterir.
 
-![Ölçü birimini gösteren bir ürün koleksiyon modülü örneği](./media/Productunit-productcollection.png)
+![Ölçü birimini gösteren bir ürün koleksiyon modülü örneği.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

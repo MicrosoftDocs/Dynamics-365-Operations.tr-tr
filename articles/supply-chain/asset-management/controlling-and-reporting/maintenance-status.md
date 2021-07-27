@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808628"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354989"
 ---
 # <a name="maintenance-status"></a>Bakım durumu
 
@@ -57,13 +57,13 @@ Varlık Yönetiminde belirli bir döneme ait yeni, etkin ve tamamlanmış bakım
 
 Aşağıdaki ekran görüntüsünde, **Yıl** ve **Ay** düğmeleri etkinleştirilmiştir. Bu **Gruplandırma ölçütü** seçenekleri seçili olduğunda, bakım istekleriyle ve iş emirleriyle ilgili iş yükü ve iş emirleri hakkında genel bakış elde edebilirsiniz. 
 
-![Aylık iş yükü örneği](media/13-controlling-and-reporting.png)
+![Aylık iş yükü örneği.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Örnek 2
 
 Aşağıdaki ekran görüntüsünde, işlem yapılacak yerleşim bilgileri eklendi. Şimdi, coğrafi konumları, fabrikaları veya çalışma alanlarını temsil eden işlem yapılacak konumlar arasında iş yükü ve iş yükünü karşılaştırmak mümkündür. 
 
-![İşlem yapılacak yerleşimlere sahip aylık iş yükü örneği](media/14-controlling-and-reporting.png)
+![İşlem yapılacak yerleşimlere sahip aylık iş yükü örneği.](media/14-controlling-and-reporting.png)
 
 
 

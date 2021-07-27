@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352072"
 ---
 # <a name="account-management-pages-overview"></a>Hesap yönetimi sayfalarına genel bakış
 
@@ -35,7 +36,7 @@ Bir müşteri oturum açıp **hesabımı** seçtiğinde hesap yönetimi giriş s
 
 Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği gösterilmektedir.
 
-![Hesap yönetimi giriş sayfası örneği](./media/Account-Management.PNG)
+![Hesap yönetimi giriş sayfası örneği.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Profilim sayfası
 
@@ -43,7 +44,7 @@ Aşağıdaki çizimde bir hesap yönetimi giriş sayfasının bir örneği göst
 
 Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **profilim** sayfası örneği gösterilmektedir.
 
-![Profil sayfası örneği](./media/Account-Management-MyProfile.PNG)
+![Profilim sayfası örneği.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Adresler sayfası
 
@@ -51,7 +52,7 @@ Aşağıdaki çizimde, modül kitaplığı kullanılarak oluşturulmuş bir **pr
 
 Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösterilmektedir.
 
-![Adresler sayfası örneği](./media/Account-Management-Address.png)
+![Adresler sayfası örneği.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Sipariş geçmişi ve sipariş ayrıntıları sayfaları
 
@@ -59,11 +60,11 @@ Aşağıdaki çizimde bir **Adresler** liste sayfasının bir örneği gösteril
 
 Aşağıdaki çizimde bir **Sipariş geçmişi** liste sayfasının bir örneği gösterilmektedir.
 
-![Sipariş geçmişi sayfası örneği](./media/Account-Management-OrderHistory.PNG)
+![Sipariş geçmişi sayfası örneği.](./media/Account-Management-OrderHistory.PNG)
 
 Aşağıdaki çizimde bir **Sipariş ayrıntıları** liste sayfasının bir örneği gösterilmektedir.
 
-![Sipariş ayrıntıları sayfası örneği](./media/Account-Management-OrderDetails.PNG)
+![Sipariş ayrıntıları sayfası örneği.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Bağlılık programı sayfası
 
@@ -71,7 +72,7 @@ Aşağıdaki çizimde bir **Sipariş ayrıntıları** liste sayfasının bir ör
 
 Aşağıdaki şekilde bir **bağlılık programı** sayfası örneği gösterilmiştir.
 
-![Bağlılık programı sayfası örneği](./media/Account-Management-Loyalty.PNG)
+![Bağlılık programı sayfası örneği.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>İstek listesi sayfası
 
@@ -79,7 +80,7 @@ Aşağıdaki şekilde bir **bağlılık programı** sayfası örneği gösterilm
 
 Aşağıdaki şekilde bir **İstek listesi** sayfası örneği gösterilmiştir.
 
-![İstek listesi sayfası örneği](./media/Account-Management-Wishlist.PNG)
+![İstek listesi sayfası örneği.](./media/Account-Management-Wishlist.PNG)
 
 Hesap yönetimi modülleri ve bunların nasıl yazılacağıyla ilgili daha fazla bilgi için [hesap yönetimi](account-management.md)'ne bakın.
 

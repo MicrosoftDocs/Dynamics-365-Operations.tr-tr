@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799191"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349614"
 ---
 # <a name="create-a-default-customer"></a>Varsayılan müşteri oluşturma
 
@@ -47,7 +47,7 @@ Müşteri grubu oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde, yapılandırılmış birkaç müşteri grubu gösteriliyor.
 
-![Müşteri grupları](media/customer-groups.png)
+![Müşteri grupları.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Müşteri adres defteri oluşturma
 
@@ -63,7 +63,7 @@ Bir müşteri adres defteri oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde örnek bir adres defteri gösterilmektedir.
 
-![Adres defteri](media/address-book.png)
+![Adres defteri.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Varsayılan müşteri oluşturma
 
@@ -86,11 +86,11 @@ Bir varsayılan müşteri oluşturmak için bu adımları izleyin.
 
 Aşağıdaki resimde bir müşteri oluşturma örneği gösteriliyor.
 
-![Varsayılan müşteri oluşturma](media/default-customer-creation.png)
+![Varsayılan müşteri oluşturma.](media/default-customer-creation.png)
 
 Aşağıdaki resimde, bir varsayılan müşteri yapılandırması gösteriliyor.
 
-![Örnek müşteri yapılandırması](media/default-customer-configuration1.png)
+![Örnek müşteri yapılandırması.](media/default-customer-configuration1.png)
 
 Müşteri ayrıntıları ekranındaki varsayılan değerlerin çoğu kalabilir ancak iki değer değiştirilmelidir.
 
@@ -100,7 +100,7 @@ Müşteri ayrıntıları ekranındaki varsayılan değerlerin çoğu kalabilir a
 
 Aşağıdaki resimde bir müşteri yapılandırma örneği gösteriliyor.
 
-![Örnek müşteri yapılandırması](media/default-customer-configuration2.png)
+![Örnek müşteri yapılandırması.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

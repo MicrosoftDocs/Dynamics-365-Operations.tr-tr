@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353552"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Ürün çeşidi başına ölçü birimi dönüşümü
 
@@ -56,7 +56,7 @@ Ana ürünü, birim dönüştürmeyi her çeşit için destekleyecek şekilde ya
     - **Ürün**: Bu değeri seçerseniz ana ürün için birim dönüştürme ayarlayabilirsiniz. Bu birim dönüştürme, birim dönüştürmenin tanımlanmadığı tüm ürün çeşitleri için geri dönüş olarak kullanılacaktır.
     - **Ürün çeşidi**: Bu değeri seçerseniz belirli bir ürün çeşidi için birim dönüştürme ayarlayabilirsiniz. Ürün çeşidini seçmek için **Ürün çeşidi** alanını kullanın.
 
-    ![Yeni bir birim dönüştürme ekleme](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")
+    ![Yeni bir birim dönüştürme ekleme.](media/uom-new-conversion.png "Yeni bir birim dönüştürme ekleme")
 
 1. Birim dönüştürmenizi ayarlamak için sağlanan diğer alanları kullanın.
 1. Yeni birim dönüştürmeyi kaydetmek için **Tamam**'ı seçin.

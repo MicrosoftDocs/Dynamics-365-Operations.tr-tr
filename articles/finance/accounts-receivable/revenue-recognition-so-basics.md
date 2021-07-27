@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce0879565babfbf526e1aa6864482e60cbabd377
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817233"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345608"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Satış siparişlerinde gelir kabulü
 
@@ -36,7 +36,7 @@ Bu konuda, satış siparişleri ve faturalardaki geliri kabul etme konusunda tem
 
 Aşağıdaki satış siparişi girilir ve gelir kabulü için ayarlanan üç madde eklenir.
 
-[![Satış siparişi girme](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Satış siparişi girme.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Gelir kabulü için iki kavram vardır:
 
@@ -47,7 +47,7 @@ Gelir kabulü için iki kavram vardır:
 
     İkinci madde olan S0008, sözleşme desteğini deftere naklet (PCS) maddesi olarak ayarlanan bir servis maddesidir. Sürdürülen mühendislik servisleri, müşteriye 12 aylık dönem üzerinden sağlanır. Bu nedenle, **12M** gelir planı varsayılan olarak ürüne atanır. Bu madde bir PCS maddesi olduğundan sözleşme başlangıç ve bitiş tarihlerinin tanımlanması gerekir. Varsayılan olarak sözleşme başlangıç ve bitiş tarihleri, Madde ayrıntıları – Kurulum sekmesinde bulunur. Gelir planında **12M** için kurulum, aşağıdaki çizimde gösterildiği gibi sözleşme şartları otomatik olarak doldurulacak şekilde tanımlanır.
 
-    [![Gelir planları](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Gelir planları.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     Üçüncü madde olan S0012 donanımdır ve hiçbir gelir planı varsayılan olarak atanmaz. Donanım için gelir, madde faturalandığında kabul edilir.
 
@@ -55,7 +55,7 @@ Gelir kabulü için iki kavram vardır:
 
 Gelir fiyatı ve gelir planı hakkında ek ayrıntıları görüntülemek için satış siparişinin Eylem Bölmesi'ndeki **Yönet** sekmesinde **Gelir kabul** grubunda bulunan düğmeleri kullanın. Bu noktada satış siparişi onaylanmadığından gelir kabulü için kullanılan düğmeler kullanılamaz. Bu düğmeler, satış siparişi karşılamaya yol açan aşamalar üzerinden ilerledikçe kullanılabilir veya kullanılamaz.
 
-[![Satış siparişi başlığı](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![Satış siparişi başlığı.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 İlk üç düğme, gelir kabulü için satış siparişi kurulumundaki maddelere yönelik gelir fiyatı hakkında ayrıntılar sağlar.
 
@@ -70,11 +70,11 @@ Son iki düğme, bir gelir planı bulunan satış siparişindeki bu maddeler iç
 
 Aşağıdaki örnekte, satış siparişi onaylandığında gelir fiyatı tahsisatı gerçekleşmiştir. Gelir fiyatları farklı şekilde tahsis edilse bile **Kabul edilecek gelir** alanındaki toplam tutarın yine de müşteriye faturalanan satış siparişi satırlarının toplamına eşit olması gerektiğini unutmayın. Örneğin, satış siparişi satırlarının toplamı vergi hariç 1.499 Amerikan dolarıdır. Bu nedenle, **Kabul edilecek gelir** değerlerinin toplamı da 1.499 Amerikan doları olmalıdır.
 
-[![Gelir fiyatı tahsisatı](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Gelir fiyatı tahsisatı.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
 Beklenen gelir kabulü planı da oluşturulur. Gelir planında, ertelenecek tutar olarak **Kabul edilecek gelir** değeri kullanılır. Madde S0001'de 300 Amerikan doları yerine 321,21 dolar ve madde S0008'de 100 dolar yerine 160,61 dolar ertelenir. Gelir ertelenmediğinden madde S0012 beklenen planda gösterilmez. Deftere nakil gerçekleşirken madde S0012, gelir genel muhasebe hesabına doğrudan 1.017,18 Amerikan doları nakleder.
 
-[![Beklenen gelir kabulü planı](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Beklenen gelir kabulü planı.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>Sevk irsaliyesi oluşturma
 
@@ -84,17 +84,17 @@ Ardından, satış siparişi için sevk irsaliyesi oluşturulabilir. Sevk irsali
 
 Son adım, satış siparişini faturalamaktır. Faturanın fişine bakarsanız madde S0001 ve S0008 için gelirin ertelendiğini (321,21 + 160,61 = 481,82 Amerikan doları) ve madde S0012 için kalan tutarın gelir olarak deftere nakledildiğini (1.017,18) görürsünüz. Bu değerler, satış siparişi satırlarının toplamıyla eşleşen 1.499 Amerikan doları kadardır.
 
-[![Fiş hareketleri](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Fiş hareketleri.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Faturanın oluşturulmasının ardından gelir kabulü için **Gelir fiyatı tahsisatı**, **Yeni sipariş satırlarıyla fiyatı yeniden tahsis et** ve **Gelir kabulü planı** düğmeleri kullanılabilir ancak **Gelir fiyatı tahsisatını güncelleştir** ve **Beklenen gelir kabulü planı** düğmeleri kullanılamaz.
 
-[![Kullanılabilir gelir kabulü düğmesinin kullanılabilirliği](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Kullanılabilir gelir kabulü düğmesinin kullanılabilirliği.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 **Gelir fiyatı tahsisatı** düğmesi gelir fiyatı hesaplamasını görüntüleyebileceğiniz şekilde yine de kullanılabilir. Onaylamanın ardından satış siparişinde hiçbir şey değişmediyse faturanın deftere nakledilmesi, **Kabul edilecek gelir** alanındaki hesaplanan tutarı değiştirmez.
 
 Beklenen gelir kabulü planı kaldırılır ve son gelir kabulü planıyla değiştirilir. Gelir planı ayrıntıları her satış siparişi satırı için korunur ve sözleşme yükümlülükleri karşılandıkça ertelenen geliri gerçek gelire serbest bırakmak için kullanılır.
 
-[![Son gelir kabulü planı](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![Son gelir kabulü planı.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

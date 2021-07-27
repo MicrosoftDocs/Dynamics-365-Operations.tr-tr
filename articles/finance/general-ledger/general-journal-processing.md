@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352870"
 ---
 # <a name="general-journal-processing"></a>Genel günlük işleme
 
@@ -42,14 +42,14 @@ Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır. Her amaç 
 
 Günlük adı sadece ayarlamalar için kullanılabilir. Bu durumda, yalnızca **defter** hesap türünün tüm şirketler arasında geçerli olduğunu belirtebilirsiniz. 
 
-[![Günlük kontrol hesap tipleri](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Günlük kontrol hesap tipleri.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Günlük adı yalnızca belirli bir kesim veya ana hesap aralığı için kullanılabilir. 
 
-[![Günlük kontrol segmenti](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Günlük kontrol segmenti.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **Otomatik ters** seçeneği genel günlüklerde kullanılabilir. Örneğin, aşağıdaki çizimde gösterildiği gibi gerçek belgenin henüz işlenmemiş olduğu tahakkuk ayarlamanız vardır.
-[![Yevmiye günlüğü tersine çevirme](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Yevmiye günlüğü tersine çevirme.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Günlük girdisi için Microsoft Excel eklentisi, otomasyon ek düzeyi sağlar ve veri girişini kolaylaştırır. **Satırları Excel'de açma** eylemi **yevmiye defteri** ve **günlük fişi** sayfalarında mevcuttur. 
 

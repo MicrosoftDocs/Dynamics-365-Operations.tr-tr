@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270897"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350486"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Perakende kanalları için stok kullanılabilirliğini hesaplama
 
@@ -105,7 +105,7 @@ Commerce sürüm 10.0.9 ve önceki sürümlerde, POS'taki **Stok arama** işlemi
 
 Kanal tarafı hesaplaması doğru yapılandırılıp yönetildiğinde Commerce kanalı veritabanında harekete dayalı veriler kullandığından ancak genel merkez henüz bununla ilgili bilgiye sahip olmayabileceğinden mevcut mağaza stoğuna ilişkin daha güvenilir bir tahmin sağlayabilir. Örneğin, POS'ta stok aramaları için var olan gerçek zamanlı servis aramasını kullanırsanız genel merkez henüz büyük olasılıkla bir ürün için gerçekleşen peşin bir satış hakkında bilgi sahibi olmayacaktır. Bu nedenle, genel merkezin bu ürün için verdiği eldeki stok değeri büyük olasılıkla mağazanın fiili eldeki stokunu bir birim kadar aşabilir. Ancak kanal tarafı hesaplaması kullanırsanız peşin satışı hesaplamaya katılarak gösterilen eldeki değerden düşülebilir. Hem kanal tarafı hesaplamasının hem de gerçek zamanlı servis çağrısının sağladığı değerler yalnızca eldeki stoğa ilişkin tahminler olduğu halde, kanal tarafı hesaplamasının sağladığı değer, geçerli mağaza için daha büyük olasılıkla doğrudur.
 
-Kanal tarafı hesaplama mantığını kullanmak ve gerçek zamanlı servis aramasını kapatmak üzere genel merkezde POS **Stok arama** işlemini yapılandırmak için aşağıdaki adımları izleyin.
+Kanal tarafı hesaplama mantığını kullanmak ve gerçek zamanlı servis çağrılarını kapatmak üzere Commerce Headquarters'da POS **Stok araması** işlemini yapılandırmak için öncelikle Commerce Headquarters'taki **Özellik yönetimi** çalışma alanı üzerinden **En iyi duruma getirilmiş ürün kullanılabilirliği hesaplama** özelliğini etkinleştirmeniz ve ardından bu adımları izlemeniz gerekir.
 
 1. **Retail ve Commerce \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> İşlevsellik profilleri** öğesine tıklayın.
 1. Bir işlev profili seçin.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053503"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344676"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otomatik temizleme görevleriyle performansı en iyi duruma getirme
 
@@ -41,23 +41,23 @@ Toplu iş geçmişinizi temizlemek için bir otomatik görev zamanlayın. Görev
 
 2. **Arama** çubuğunda, **Toplu iş geçmişi temizleme**'yi girin.
 
-   ![Toplu iş geçmişi temizlemeyi arayın](media/talent-batch-history-cleanup-search-bar.png)
+   ![Toplu iş geçmişi temizlemeyi arayın.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. **Geçmiş sınırı (gün)** bölümüne **30** girin.
 
-   ![Geçmiş sınırı ayarını 30 yapın](media/talent-batch-history-cleanup-history-limit.png)
+   ![Geçmiş sınırı ayarını 30 yapın.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. **Arka planda çalıştır**'ı ve sonra **Tekrar** ı seçin.
 
-   ![Yinelemeyi ayarlayın](media/talent-batch-history-cleanup-recurrence.png)
+   ![Yinelemeyi ayarlayın.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. **Yineleme tanımla** altında, **Başlangıç tarihini** ve **Başlangıç saatini** mesai saatlerin dışında veya hafta sonu sırasında oluşacak şekilde ayarlayın ve **BİTİŞ TARİHİ YOK**'u seçin. 
 
-   ![Yineleme başlangıç tarihini ve saatini tanımlayın](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Yineleme başlangıç tarihini ve saatini tanımlayın.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. **YİNELEME DÜZENİ** altında, **Günler**'i seçin ve **BELİRTİLEN ARALIKTAN SONRA TEKRARLA** ayarını **7** yapın.
 
-   ![Temizleme tekrarını haftalık yapın](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Temizleme tekrarını haftalık yapın.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. **Tamam**'ı seçin.
 

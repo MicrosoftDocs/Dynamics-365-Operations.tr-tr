@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020151"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352846"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Vergi hesaplaması performansı, hareketleri etkiliyor
 
@@ -36,7 +36,7 @@ Ardından, aşağıdaki koşullardan herhangi birinin yerine getirilip getirilme
 - Aynı anda birden çok oturum, aynı hareket vergisi hesaplamasını işliyor.
 - Hareketin birden çok satırı var ve görünümler gerçek zamanlı olarak güncelleştiriliyor. Örneğin, bir satırın alanları değiştirildiğinde, **Genel günlük** sayfasındaki **Hesaplanan satış vergisi tutarı** alanı gerçek zamanlı olarak güncelleştirilir.
 
-   [![Günlük fişi sayfasındaki hesaplanan satış vergisi tutarı alanı](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Günlük fişi sayfasındaki hesaplanan satış vergisi tutarı alanı.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Bu durumlardan herhangi biri geçerliyse vergi hesaplamasını erteleyin.
 
@@ -53,11 +53,11 @@ Aşağıdaki sorunların mevcut olup olmadığını belirlemek için çağrı y�
 
 - Hareket, sistemin oturum sona erene kadar yanıt vermemesine neden olur. Bu nedenle, hareket vergi sonucunu hesaplayamıyor. Aşağıdaki görselde, aldığınız "Oturum sona erdi" ileti kutusu gösterilmektedir.
 
-    [![Oturum bitti iletisi](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Oturum bitti iletisi.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - **TaxUncommitted** yöntemleri, diğer yöntemlerden daha fazla zaman alabilir. Örneğin, aşağıdaki görselde **TaxUncommitted::updateTaxUncommitted()** yöntemi 43,347.42 saniye sürer ancak diğer yöntemler 0,09 saniye sürer.
 
-    [![Yöntem süreleri](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Yöntem süreleri.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Vergi hesaplamasını özelleştirme ve çağırma
 

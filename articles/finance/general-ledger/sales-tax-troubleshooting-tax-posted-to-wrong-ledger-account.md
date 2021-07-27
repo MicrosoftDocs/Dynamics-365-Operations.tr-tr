@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020103"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343826"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>Vergi, fişte yanlış genel muhasebe hesabına naklediliyor
 
@@ -30,11 +30,11 @@ Deftere nakledilme sırasında, vergi fişte yanlış genel muhasebe hesabına n
 
 1. **Fiş hareketleri** sayfasında, çalışmak istediğiniz hareketi seçin ve **Deftere nakledilen satış vergisi**'ni seçin.
 
-    [![Fiş hareketleri sayfasındaki deftere nakledilen satış vergisi düğmesi](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Fiş hareketleri sayfasındaki deftere nakledilen satış vergisi düğmesi.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. **Satış vergisi kodu** alanındaki değeri inceleyin. Bu örnekte bu değer **VAT 19**'dur.
 
-    [![Deftere nakledilen satış vergisi sayfasındaki satış vergisi kodu alanı](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Deftere nakledilen satış vergisi sayfasındaki satış vergisi kodu alanı.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Vergi kodunun genel muhasebe deftere nakil grubunu denetleme
 
@@ -45,7 +45,7 @@ Deftere nakledilme sırasında, vergi fişte yanlış genel muhasebe hesabına n
 
 3. **Genel muhasebe deftere nakil grubu** alanındaki değer bir bağlantıdır. Grup yapılandırmasının ayrıntılarını görüntülemek için bağlantıyı seçin. Alternatif olarak, alanı seçin ve basılı tutun (veya sağ tıklayın) ve sonra **Ayrıntıları görüntüle**'yi seçin.
 
-    [![Ayrıntıları görüntüle komutu](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Ayrıntıları görüntüle komutu.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. **Satış vergisi borcu** alanında, hareket türüne göre hesap numarasının doğru olduğundan emin olun. Doğru değilse, deftere nakledilecek hesabı seçin. Bu örnekte, satış siparişinin satış vergisi, satış vergisi borçları hesabı 222200'e nakledilmelidir.
 
@@ -71,11 +71,11 @@ Kodda, deftere nakil hesabı genel muhasebe boyutuna göre belirlenir. Genel muh
 
 1. Bir satış siparişi için, bir **Tax::saveAndPost()** ve **Tax::post()** yöntemlerinde bir kesme noktası ekleyin. **\_ledgerDimension** değerine dikkat edin.
 
-    [![Kesme noktası olan satış siparişi kodu örneği](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Kesme noktası olan satış siparişi kodu örneği.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Bir satınalma siparişi için, **TaxPost::saveAndPost()** ve **TaxPost::postToTaxTrans()** yöntemlerinde bir kesme noktası ekleyin. **\_ledgerDimension** değerine dikkat edin.
 
-    [![Kesme noktası olan satınalma siparişi kodu örneği](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Kesme noktası olan satınalma siparişi kodu örneği.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Genel muhasebe boyutu tarafından kaydedilen kayıt koduna göre veritabanındaki hesabın görüntüleme değerini bulmak için aşağıdaki SQL sorgusunu çalıştırın.
 
@@ -83,7 +83,7 @@ Kodda, deftere nakil hesabı genel muhasebe boyutuna göre belirlenir. Genel muh
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Kayıt kodunun görünüm değeri](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Kayıt kodunun görünüm değeri.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. **_ledgerDimension** değerinin nerede atandığını bulmak için çağrı yığınını inceleyin. Genellikle bu değer **TmpTaxWorkTrans**'tan alınır. Bu durumda, değerin atanma yerini bulmak için **TmpTaxWorkTrans::insert()** ve **TmpTaxWorkTrans::update()** yönteminde bir kesme noktası eklemeniz gerekir.
 

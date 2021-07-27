@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 626393f0c07803eb944e9066c72a24d2cf9ea0ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824016"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356233"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Gelir kabulü yeniden tahsisatı – Senaryo 1
 
@@ -28,25 +28,25 @@ Bu konu, iki satış siparişinin girildiği, ancak yalnızca onaylandığı bir
 
 Bu senaryoda **Genel muhasebe parametreleri** sayfasının (**Gelir kabulü \> Kurulum \> Genel muhasebe parametreleri**) **Gelir kabulü** sekmesinde **Fatura düzeltmelerini Alacak hesaplarına naklet** seçeneği **Hayır** olarak ayarlanmıştır.
 
-[![Fatura düzeltmelerini Alacak hesaplarına deftere naklet seçeneği Hayır olarak ayarlı](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
+[![Fatura düzeltmelerini Alacak hesaplarına deftere naklet seçeneği Hayır olarak ayarlı.](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
 
-US\_SI\_0003 müşterisi için bir satış siparişi oluşturulur. Müşteri bir dizüstü bilgisayar (madde numarası S0012) ve destek planı (madde numarası S0008, "Sürekli Mühendislik Hizmeti") satın alır. Dizüstü bilgisayarın geliri hemen kabul edilir (hiçbir gelir kabulü zamanlaması yoktur). Destek planının geliri, sözleşmedeki tarih aralığında tanımlandığı şekilde ertelenir ve 12 ay içinde kabul edilir.
+US\_SI\_0003 müşterisi için bir satış siparişi oluşturulur. Müşteri bir dizüstü bilgisayar (madde numarası S0012) ve destek planı (madde numarası S0008, "Sürekli Mühendislik Hizmeti") satın alır. Dizüstü bilgisayarın geliri hemen kabul edilir (gelir kabulü planı yoktur). Destek planının geliri, sözleşmedeki tarih aralığında tanımlandığı şekilde ertelenir ve 12 ay içinde kabul edilir.
 
-[![Dizüstü bilgisayar ve destek planı için satış siparişi satırları](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
+[![Dizüstü bilgisayar ve destek planı için satış siparişi satırları.](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
 
 Satış siparişi onaylanır. Gelir fiyatı tahsisatı için her iki madde ayarlandığından, satış siparişi onaylandığında gelir fiyatı hesaplanır. Kabul edilecek geliri **Gelir fiyatı tahsisatı** sayfasında görüntüleyebilirsiniz (**Satış siparişi** sayfasında, Eylem bölmesi, **Yönet** sekmesi, **Gelir kabulü** grubunda, **Gelir fiyatı tahsisatı**'nı seçin). Dizüstü bilgisayar için gelir, Gelir hesabına 1008,01 dolar olarak nakledilir. Destek planı geliri Ertelenmiş gelir hesabına 190,99 dolar olarak nakledilir. Gelir fiyatlarının toplamı, gelir fiyatı tahsisatı (1.199,00 dolar) yakalamak için ayarlanan satırların toplamına eşit olmalıdır.
 
-[![Gelir fiyatı tahsisatı sayfası](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
+[![Gelir fiyatı tahsisatı sayfası.](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
 
 Müşteri, satış anında yükleme hizmetlerini (madde numarası S0001) satın almamayı seçmiştir ancak daha sonra fikir değiştirmiştir. Bu nedenle, aynı müşteri için ikinci bir satış siparişi girilir.
 
-[![Yükleme hizmetleri için satış siparişi satırı](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
+[![Yükleme hizmetleri için satış siparişi satırı.](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
 
 İkinci satış siparişi onaylanır. Bu satış siparişi yalnızca bir satır içerdiğinden, satış siparişi onaylandığında gelir fiyatı tahsisatı yapılmaz. Gelir fiyatı tahsisatı, yalnızca iki veya daha fazla benzersiz madde olduğunda ve bu maddeler gelir fiyatı tahsisatı için ayarlanmışsa gerçekleştirilir.
 
 Bu yeni satış siparişi müşterinin sözleşmesinde yapılan tek değişiklik ise yeniden tahsisat işlemi çalıştırılabilir. İki satış siparişinden birinde, **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et**'i seçerek **Fiyatı yeni sipariş satırlarıyla yeniden tahsis et** sayfasını açın. Alternatif olarak **Gelir kabulü \> Periyodik görevler \> Fiyatı yeni sipariş satırlarıyla yeniden tahsis et**'e gidin. İki satış siparişini ve karşılık gelen satış siparişi satırlarını seçin ve **Yeniden tahsisatı güncelleştir**'i seçin. **Yeniden tahsis edilen tutar** sütunu, her satış siparişi satırının yeni gelir fiyatını gösterir.
 
-[![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfasındaki yeni gelir fiyatları](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
+[![Fiyatı yeni sipariş satırlarıyla yeniden tahsis et sayfasındaki yeni gelir fiyatları.](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
 
 **Beklenen fiş**'i seçerseniz hiçbir fatura deftere nakledilmediği için hiçbir şey gösterilmez.
 
@@ -55,7 +55,7 @@ Yeniden tahsisatı tamamlamak için **İşlem**'i seçin. Deftere hiçbir şey d
 > [!TIP]
 > Bu ek maddelerin neden gösterildiğiyle ilgili bağlam sağlamak için kılavuza **Yeniden tahsisat kodu** ve **Satış siparişi** gibi başka sütunlar ekleyebilirsiniz.
 > 
-> [![Gelir fiyatı tahsisatları sayfasındaki ek sütunlar](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+> [![Gelir fiyatı tahsisatları sayfasındaki ek sütunlar.](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

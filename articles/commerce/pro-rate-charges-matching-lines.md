@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018618"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352192"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Başlık giderlerini eşleşen satış satırlarına eşit dağıt
 
@@ -56,9 +56,9 @@ Bu senaryo, **Eşleşen satış satırlarına eşit dağıt** seçeneği, otomat
 
 Bu senaryoda, kuruluş teslimat modu ilişkisi **99** ve teslimat modu ilişkisi **11** için başlık düzeyi masrafları tanımlamıştır. Teslimat modu **21** için otomatik masraf yapılandırılmamıştır.
 
-![Teslimat modu 99 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf](media/99_disabled.png)
+![Teslimat modu 99 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf.](media/99_disabled.png)
 
-![Teslimat modu 11 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf](media/11_disabled.png)
+![Teslimat modu 11 için eşleşen satır eşit dağıtma kapalı olduğunda otomatik masraf.](media/11_disabled.png)
 
 Bir satış siparişi çağrı merkezinde oluşturulur ve teslimat modu **99** olarak ayarlanır. Bu sipariş beş öğe içerir. İki sipariş satırı, teslimat modu **99** kullanmak üzere yapılandırılmıştır, iki satır teslimat modu **11** kullanmak üzere yapılandırılmıştır ve bir satır teslimat modu **21** kullanmak üzere yapılandırılmıştır, aşağıdaki tabloda gösterildiği gibi.
 
@@ -78,9 +78,9 @@ Bu senaryoda, bir müşteri siparişteki bazı öğeleri iade ederse ve [iade ed
 
 Bu senaryoda, teslimat modu ilişkisi **99** ve teslimat modu ilişkisi **11** için başlık düzeyi masrafları tanımlanmıştır. Ancak, **Eşleşen satış satırlarına eşit dağıt** seçeneği bu otomatik masraf tabloları için **Evet** olarak ayarlanmıştır.
 
-![Teslimat modu 99 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf](media/99_enabled.png)
+![Teslimat modu 99 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf.](media/99_enabled.png)
 
-![Teslimat modu 11 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf](media/11_enabled.png)
+![Teslimat modu 11 için eşleşen satır eşit dağıtma açık olduğunda otomatik masraf.](media/11_enabled.png)
 
 Bu senaryo, beş satır içeren aynı satış siparişini kullanır. Sipariş başlığındaki teslimat modu **99** olarak ayarlanmıştır ancak satış siparişindeki her bir öğenin teslimat modu aşağıdaki tablodaki gibi yapılandırılmıştır.
 
@@ -130,9 +130,9 @@ Otomatik masraf yapılandırması, eşleşen satış satırlarına eşit dağıt
     - Toplam ürün değeri = 15 $
     - **Masraf değeri = 0 $** (Bu müşteri ve teslimat modu için herhangi bir otomatik masraf yapılandırılmamıştır.)
 
-    ![Teslimat modu 11 masrafları, vurgulanan katmana düşer](media/step2mode11.png)
+    ![Teslimat modu 11 masrafları, vurgulanan katmana düşer.](media/step2mode11.png)
 
-    ![Teslimat modu 99 masrafları, vurgulanan katmana düşer](media/step2mode99.png)
+    ![Teslimat modu 99 masrafları, vurgulanan katmana düşer.](media/step2mode99.png)
 
 3. Sistem, her bir satıra uygulanacak masraf değerini, satırın grubun toplam ürün değerine orantısal ilişkisini dikkate alan eşit dağıtma mantığına dayanarak hesaplar.
 
@@ -163,7 +163,7 @@ Otomatik masraf yapılandırması, eşleşen satış satırlarına eşit dağıt
 
 Bu nedenle, bu örnek için öğe 81334'e 5,62 $ tutarında bir navlun masrafı atanacaktır. Bu giderleri satış satırı için **Giderleri koru** sayfasında görebilirsiniz. Aşağıdaki çizim, bu sayfanın öğe 81334 için nasıl gözükeceğini gösterir.
 
-![Öğe 81334 için satış satırında eşit dağıtılmış masraflar](media/proratedlinecharge.png)
+![Öğe 81334 için satış satırında eşit dağıtılmış masraflar.](media/proratedlinecharge.png)
 
 Bu hesaplama yöntemi, kısmi iade senaryoları için kullanılırsa, masraf kodu iade edilebilirse, masrafın yalnızca bu satıra tahsis edilmiş kısmı, öğe iade edildiğinde geri ödenecektir.
 

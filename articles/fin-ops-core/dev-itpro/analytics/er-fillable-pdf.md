@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753300"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355430"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>PDF şablonlarını doldurmak için ER yapılandırmaları tasarlama
 
@@ -115,11 +115,11 @@ Herhangi bir PDF görüntüleyicisinde, indirdiğiniz PDF şablonlarını açın
 
 Aşağıdaki resimde raporun ilk sayfası için PDF şablonu gösterilmektedir.
 
-![Şablon 1](media/rcs-ger-filloutpdf-template1.png)
+![Şablon 1.](media/rcs-ger-filloutpdf-template1.png)
 
 Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmektedir.
 
-![Şablon 2](media/rcs-ger-filloutpdf-template2.png)
+![Şablon 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. **Yapılandırmalar** sayfasında, **Tasarımcı**'yı seçin.
 2. **Kök ekle**'yi seçin.
@@ -146,7 +146,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
 
 12. **Tamam**'ı seçin.
 
-    ![PDF'den içe aktar iletişim kutusu](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![PDF'den içe aktar iletişim kutusu.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Ağaçta, **Çıktı**'yı genişletin.
 
@@ -176,7 +176,7 @@ Aşağıdaki resimde raporun diğer sayfaları için PDF şablonu gösterilmekte
 
     İçe aktarılan PDF belgesinin düzenlenen ER biçimine ekli olduğunu unutmayın.
 
-    ![PDF ekini önizleme](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![PDF ekini önizleme.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. İkinci PDF şablonunu içe aktararak, gerekli bağlamaları veri kaynaklarına ekleyerek bu biçimi tasarlamaya devam edin.
 20. **Kaydet**'i seçin.
@@ -215,7 +215,7 @@ Sonra, **Intrastat denetimi** raporunu PDF formatında oluşturmak için daha ö
 1. **Biçim tasarımcısı** sayfasında **Eşleme** sekmesini seçin.
 2. Ağaçta **Kapsamlı arama \> Sayfalar**'ı genişletin.
 
-    ![Model ağacının genişletilmiş olduğu formül tasarımcısı sayfası](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Model ağacının genişletilmiş olduğu formül tasarımcısı sayfası.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Aaşağıdaki ayrıntıları unutmayın:
 
@@ -238,7 +238,7 @@ Sonra, **Intrastat denetimi** raporunu PDF formatında oluşturmak için daha ö
 
     Bu biçim öğesinin **Ad** özniteliğinin **Correction 1** olarak tanımlandığına dikkat edin. Ayrıca, biçim öğesinin **Ad** ifadesinin **Paging.FldName("Correction",\@.Number)** olarak tanımlandığına dikkat edin.
 
-![Bir eşlemenin seçildiği biçim tasarımcısı](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Bir eşlemenin seçildiği biçim tasarımcısı.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 **Alan** biçimi öğesinin, üst **PDF dosyası** biçim öğesinin şablonu olarak tanımlanan, doldurulabilir bir PDF belgesinin tek bir alanını doldurmak için kullanıldığını unutmayın. **PDF dosyası** biçim öğesi veya iç içe yerleştirilmiş öğelerinin bağlaması, iç içe yerleştirilmiş öğeleri varsa, ilgili PDF alanlarına girilen değeri belirtir. **Alan** biçim öğesinin farklı özellikleri, hangi PDF alanının tek bir biçim öğesi tarafından doldurulacağını belirtmek için kullanılabilir:
 
@@ -275,7 +275,7 @@ Sonra, **Intrastat (Excel 'den içe aktar)** örnek ER biçimini yüklersiniz. B
 
     **Model eşleme için varsayılan** seçeneği **Evet** olarak ayarlandığında, içe aktarılan **Intrastat (Excel'den içe aktar)** ER biçimi, **Intrastat raporu (PDF)** biçimi yapılandırması için varsayılan veri kaynağı olarak atanır. Daha sonra, **Intrastat raporu (PDF)** biçimi yapılandırması çalıştırıldığında, **Intrastat (Excel'den içe aktar)** ER biçimi tarafından ayrıştırılan Excel çalışma kitabının içeriği bildirilmesi gereken dış ticaret hareketlerinin benzetimini yapar. Aşağıdaki şekilde bir Excel çalışma kitabı örneği gösterilmiştir.
 
-    ![Örnek verileri olan Excel çalışma kitabı](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Örnek verileri olan Excel çalışma kitabı.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>ER biçimi yapılandırması çalıştırma
 
@@ -289,11 +289,11 @@ Sonra, **Intrastat (Excel 'den içe aktar)** örnek ER biçimini yüklersiniz. B
 
 Takip eden resim, oluşturulan raporun ilk sayfasının bir örneğini gösterir.
 
-![Oluşturulan raporun ilk sayfası](media/rcs-ger-filloutpdf-generatedreport.png)
+![Oluşturulan raporun ilk sayfası.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Takip eden resim, oluşturulan raporun diğer sayfasının bir örneğini gösterir.
 
-![Oluşturulan raporun diğer sayfası](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Oluşturulan raporun diğer sayfası.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

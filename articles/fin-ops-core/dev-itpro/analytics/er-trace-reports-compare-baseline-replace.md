@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117047"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345876"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Oluşturulan ER raporları sonuçlarının izlenmesini temel değerlerle karşılaştırmak için iyileştirme
 
@@ -57,7 +57,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 
 Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak temel kuralları bu temel için henüz eklenmedi.
 
-![Elektronik raporlama biçimi temelleri sayfası, henüz kural yok](media/GER-BaselineSample-AddBaseline2.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, henüz kural yok.](media/GER-BaselineSample-AddBaseline2.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 ### <a name="make-a-new-baseline-rule"></a>Yeni temel kuralı oluştur
 
@@ -70,7 +70,7 @@ Temel, seçilmiş **ER temellerini öğrenme biçimi** formatında eklendi ancak
 7. **Tamam**'ı seçin.
 8. **Temelleri** seçin.
 
-    ![Elektronik raporlama biçimi temelleri sayfası, temeller seçili](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+    ![Elektronik raporlama biçimi temelleri sayfası, temeller seçili.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
     Oluşturulan giden dosya otomatik olarak yürütülen ER biçiminin temeline iliştirildi. Temel kuralı bu temele otomatik olarak eklendi ve eklenen dosyaya referans da içeriyor.
 
@@ -110,14 +110,14 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 13. **Kaydet** i seçin ve sonra **Test et**'i seçin.
 14. Yapılandırılan ifadeyi yeniden test etmek için tekrar **Test et**'i seçin.
 
-    ![Formül tasarımcısı sayfası](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formül tasarımcısı sayfasının ekran görüntüsü")
+    ![Formül tasarımcısı sayfası.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Formül tasarımcısı sayfasının ekran görüntüsü")
 
     > [!NOTE]
     > **Test sonucu** sekmesi, yapılandırılan ifadenin her çağrıldığında farklı bir tarih ve saat değeri döndürdüğünü gösterir.
 
 15. **Formül tasarımcısı** sayfasını kapatın ve sonra **Kaydet**'i seçin.
 
-    ![Biçim tasarımcısı sayfası](media/GER-BaselineSample-FormatMappingDesign2.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
+    ![Biçim tasarımcısı sayfası.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Biçim tasarımcısı sayfasının ekran görüntüsü")
 
 16. **Biçim tasarımcısı** sayfasını kapatın.
 
@@ -128,7 +128,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 3. Temel listesinde, **ER temellerini öğrenme biçimi**'ni yapılandırmak üzere biçim için yapılandırılan temeli seçin.
 4. Daha önce yapılandırdığınız **Temeller** hızlı sekmesinde temel kuralını kaldırmak için **Sil**'i seçin.
 
-![Elektronik raporlama biçimi temelleri sayfası, silindi](media/GER-BaselineSample-AddBaseline3.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, silindi.](media/GER-BaselineSample-AddBaseline3.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Tasarlanan ER biçiminin bağlaması için değişiklikleri tanımlama
 
@@ -136,7 +136,7 @@ Bu örnekteki adımları tamamlamak için ilk önce [Oluşturulan rapor sonuçla
 2. Biçim bileşenleri ağacında **Çıktı**'yı genişletin, **Çıktı\\Belge**'yi genişletin ve sonra onay kutusunu **Çıktı\\Belge\\ProcessingDateTime** için seçin.
 3. **Tamam**'ı seçin.
 
-![Elektronik raporlama biçimi temelleri sayfası, bileşenler](media/GER-BaselineSample-AddBaseline4.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
+![Elektronik raporlama biçimi temelleri sayfası, bileşenler.](media/GER-BaselineSample-AddBaseline4.PNG "Elektronik raporlama biçimi temelleri sayfasının ekran görüntüsü")
 
 Seçilen ER biçim bileşeni, **Değişiklikler** hızlı sekmesindeki bileşenler listesine eklenmiştir. Taban ER biçimi hata ayıklama modunda çalıştırıldığında, her bileşen için biçimin bağlaması, **Bağlama** sütununda gösterilen bağlama ile değiştirilir. **Değişiklikler** hızlı sekmesinde listelenen bir bileşenin varsayılan bağlamasını değiştirmek için, **Düzenle**'yi seçin.
 
@@ -144,7 +144,7 @@ Seçilen ER biçim bileşeni, **Değişiklikler** hızlı sekmesindeki bileşenl
 
 Bu konunun yukarısındaki "Örnek": temel kurallar ayarını otomatikleştirme" bölümündek adımları takip edin. Bir bildirim, giden dosyanın temel ayarları kullanılarak üretildiğini ve biçim bağlamalarının zorlanmış bir şekilde değiştirilmesini size bildirir.
 
-![Yapılandırmalara ilişkin bildirim sayfası](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Yapılandırmalara ilişkin bildirim sayfasının ekran görüntüsü")
+![Yapılandırmalara ilişkin bildirim sayfası.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Yapılandırmalara ilişkin bildirim sayfasının ekran görüntüsü")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Formaların değiştirilmesine ilişkin uyarıları gizleme
 
@@ -192,11 +192,11 @@ Dışa aktarılan temel ayarları farklı bir ortama aktarılabilir. Ortam önce
 
 Yerel olarak depolanmış bir XML dosyasından ayarları dışa aktarmak için **Elekronik raporlama biçimi temelleri** sayfasında **Dışa aktarı**'ı seçin ve sonra XML dosyasını seçmek için **Gözat**'ı seçin.
 
-![Temel ayarları içe aktar iletişim kutusu](media/GER-BaselineSample-ImportBaseline1.PNG "Temel ayarları içe aktar iletişim kutusunun ekran görüntüsü")
+![Temel ayarları içe aktar iletişim kutusu.](media/GER-BaselineSample-ImportBaseline1.PNG "Temel ayarları içe aktar iletişim kutusunun ekran görüntüsü")
 
 Geçerli belge yönetimi ayarları ve seçili belge türü temel alınarak Microsoft SharePoint Sunucusunda depolanan bir XML dosyasından temel ayarları almak için **Elektronik raporlama biçim temelleri** sayfasında **Kaynaktan içe aktar**'ı seçin. Sonra belge türünü ve XML dosyasını seçin. SharePoint klasöre erişmek için gereken belge türü önceden yapılandırılmalıdır.
 
-![Kaynaktan içe aktar iletişim kutusu](media/GER-BaselineSample-ImportBaseline2.PNG "Kaynaktan içe aktar iletişim kutusunun ekran görüntüsü")
+![Kaynaktan içe aktar iletişim kutusu.](media/GER-BaselineSample-ImportBaseline2.PNG "Kaynaktan içe aktar iletişim kutusunun ekran görüntüsü")
 
 > [!NOTE]
 > Görev kaydediciyi **Kaynağı içe aktar** iletişim kutusunda gereken belge türünü ve dosya adını seçmeye yönelik adımları kaydetmek için kullanabilirsiniz. Bu şekilde, gerekli temel ayarları SharePoint sunucusunda tutabilir ve Regression Suite Automation Tool'u kullanarak otomatik testleri çalıştırdığınızda, bunları bir görev kaydı yürüterek otomatik olarak alabilirsiniz .

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908718"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353432"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>İş planlaması için Gantt şeması
 
@@ -45,12 +45,12 @@ Gantt grafiği iki farklı görünümde açılabilir: **Sipariş görünümü** 
 
 ## <a name="order-view"></a>Sipariş görünümü
 
-[![Sipariş görünümü](./media/orderview.png)](./media/orderview.png)
+[![Sipariş görünümü.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Kaynak görünümü
-[![Kaynak görünümü](./media/resview.png)](./media/resview.png)
+[![Kaynak görünümü.](./media/resview.png)](./media/resview.png)
 
-## <a name="activities"></a>Faaliyetler
+## <a name="activities"></a>Etkinlikler
 Faaliyetler çubuklar şeklinde görünür ve zaman ölçeği ızgarasında planlanan başlangıç ve bitiş zamanıyla organize edilir; çubukların uzunluğu faaliyeti tamamlamak için gereken süreyle orantılıdır. Faaliyetler zaman dilimine göre gösterilir. Bir başlangıç ve bitiş tarihi ile örneğin gün veya saat gibi bir zaman birimi seçtiğiniz menüdeki zaman ölçeğini ayarlayabilirsiniz. Zaman ölçeğini ayarlayarak, faaliyetleri yönetmek istediğiniz zaman aralığına odaklanabilirsiniz. 
 
 Daha iyi bir genel görünümün almak için, faaliyetlerin rengini denetleyebileceğiniz farklı renk seçenekleri bulunur. Faaliyetler için ayrı renkler yapılandırabilir, uygulama için kullanılan genel renk olan tema rengini kullanabilir veya üretim emirleri için renk koduna göre kontrol edilen renk ayarlayabilirsiniz. 
@@ -102,25 +102,25 @@ Bir işin Gannt grafiğinin belirlenen zaman aralığı dışında planlamak mü
 
 Aynı üretim emrine ait olan işler gibi bir faaliyetler ağında, önceki işi ağda seçilen bir işle ilişkili planlamak için **Önceki işleri planla** işlevini kullanabilirsiniz. Aşağıdaki örnekte vurgulanan faaliyet seçili iştir. Diyagram, önceki iş zamanlanmadan önce ve önceki iş zamanlandıktan sonrayı gösterir. 
 
-[![Önceki işi planla](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Önceki işi planla.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Sonraki işleri planla
 
 Faaliyet ağındaki seçili bir işle ilgili olan sonraki işleri planlamak için **Sonraki işleri planla** işlevini kullanabilirsiniz. Aşağıdaki örnekte vurgulanan faaliyet seçili iştir. Diyagram, sonraki iş zamanlanmadan önce ve sonraki iş zamanlandıktan sonrayı gösterir. 
 
-[![Sonraki işi planla](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Sonraki işi planla.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>İşe göre planla
 
 Faaliyet ağındaki seçili bir işle ilgili olan önceki ve sonraki işleri planlamak için **İşe göre planla** işlevini kullanabilirsiniz. Aşağıdaki örnekte vurgulanan faaliyet seçili iştir. Diyagram, iş zamanlanmadan önce ve iş zamanlandıktan sonrayı gösterir. 
 
-[![İşe göre planla](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![İşe göre planla.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>İşleri düzenle
 
 Aynı kaynak üzerindeki seçili faaliyetleri düzenlemek için **Düzenle** işlevini kullanabilirsiniz. Bu faaliyetler aynı faaliyet ağında olabileceği gibi farklı ağlara da ait olabilir. Düzenleme işlevini kullandığınızda seçili eylemler arasındaki zaman boşlukları ortadan kaldırılacaktır. Bu işlevi kaynakların kapasite kullanımını optimize etmek için kullanabilirsiniz. Diyagram, iş zamanlanmadan önce ve iş zamanlandıktan sonrayı gösterir. 
 
-[![İşi düzenle](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![İşi düzenle.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Faaliyetleri bir kaynaktan diğerine atama
 

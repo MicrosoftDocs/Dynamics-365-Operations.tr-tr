@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346632"
 ---
 # <a name="party-and-global-address-book"></a>Taraf ve genel adres defteri
 
@@ -41,7 +41,7 @@ Taraf modeli, özellikle bir taraf birden fazla rol oynadığında kuruluşlar v
 
 Aşağıdaki görselde taraf için veri modeli gösterilmektedir:
 
-![Taraf için veri modeli](media/party-gab-image1.png)
+![Taraf için veri modeli.](media/party-gab-image1.png)
 
 > [!TIP]
 > Yeni bir firma kaydı oluşturmaya çalıştığınızda, kaydı ada göre aramak için **Taraf** alanını kullanın. Bu şekilde, kaydı bulursanız yalnızca seçmeniz gerekir. Sistem, taraftan gelen tüm verileri otomatik olarak doldurur. Gerekli tüm alanları el ile ayarlamanız gerekmez. Bu davranış, kullanıma hazır bir şekilde gönderilen **Firma**, **İlgili Kişi** ve **Satıcı** sayfalarında bulunabilir.
@@ -58,9 +58,9 @@ Genel adres defteri gerektiği kadar posta adresi ve elektronik adres depolar ve
 
 Aşağıdaki resimde genel adres defteri için veri modeli gösterilmektedir.
 
-![Genel adres defteri için veri modeli](media/party-gab-image2.png)
+![Genel adres defteri için veri modeli.](media/party-gab-image2.png)
 
-## <a name="contact"></a>Başvur
+## <a name="contact"></a>İletişim
 
 Müşteri etkileşimi uygulamalarında ilgili kişi bir kişidir. Ancak, **İlgili kişi** tablosu bir kişiyi, bir portal kullanıcısını, bir işletmeden müşteriye (B2C) müşterisini veya bir satıcıyı temsil edecek şekilde aşırı yüklenmiştir. Bu gösterim örtülüdür ve ilgili işlemleri araştırmadan farkı anlayamazsınız. **İlgili kişi** tablosu, **Firma** tablosuyla bire bir (1:1) ilişkisi olacak şekilde sınırlanmıştır. Taraf ve genel adres defteri modelinin bir parçası olarak çift yazma sınıflandırma için açık özellikler sunar ve Çift yazma ilgili kişi ve kuruluş (**Firma** varlığı veya **Satıcı** varlığı) arasında N:N ilişkilere izin verir.
 
@@ -94,7 +94,7 @@ Bu ilişkiler, **taraf için ilgili kişi** tablosunda depolanır. Kullanıma ha
     + **İlişkili ilgili kişi** alanında bir değer seçerseniz, **Kişi** türünde olan şeritli ilgili kişiyi seçersiniz.
     + **İlişkili Firma** veya **İlişkili satıcı** alanında bir değer seçerseniz, bir kuruluş seçersiniz.
 
-    ![İlgili Kişi sayfasındaki İlişkili Kuruluşlar sekmesi](media/party-gab-image3.png)
+    ![İlgili Kişi sayfasındaki İlişkili Kuruluşlar sekmesi.](media/party-gab-image3.png)
 
     Seçiminiz ne olursa olsun, ilişkilendirme taraf düzeyinde oluşturulur ve tarafın tüm rollerine uygulanır ve **Taraf için ilgili kişi** varlığı içinde depolanır.
 
@@ -109,7 +109,7 @@ Hem **Müşteri mi?** alanı hem de **Satıcı mı?** alanlarının **Hayır** o
 
 **Firma**, **İlgili Kişi** ve **Satıcı** formlarında yeni bir **Adresler** sekmesi sunuldu. Bu sekme, aşağıdaki görselde gösterildiği gibi, bir ızgara kullanılarak birden fazla posta adresini destekler.
 
-![Posta adresleri için ızgara](media/party-gab-image4.png)
+![Posta adresleri için ızgara.](media/party-gab-image4.png)
 
 Izgara aşağıdaki sütunları içerir:
 
@@ -121,7 +121,7 @@ Izgara aşağıdaki sütunları içerir:
 
 **Firma** sayfasının **Özet** sekmesindeki **Adres 1** ve **Adres 2** alanları sırasıyla **teslim** ve **fatura** adreslerine karşılık gelir.
 
-![Posta adresleri için özet sekmesi](media/party-gab-image5.png)
+![Posta adresleri için özet sekmesi.](media/party-gab-image5.png)
 
 **İlgili kişi** sayfasının **Özet** sekmesindeki **Adres1**, **Adres 2** ve **Adres 3** alanları sırasıyla **İşletme**, **Teslim** ve **fatura** adreslerine karşılık gelir.
 
@@ -129,7 +129,7 @@ Izgara aşağıdaki sütunları içerir:
 
 **Firma**, **İlgili Kişi** ve **Satıcı** formlarında yeni bir **Elektronik Adresler** sekmesi sunuldu. Bu sekme, aşağıdaki görselde gösterildiği gibi, bir ızgara kullanılarak birden fazla elektronik adresi destekler.
 
-![Elektronik adresler için ızgara](media/party-gab-image6.png)
+![Elektronik adresler için ızgara.](media/party-gab-image6.png)
 
 Izgara aşağıdaki sütunları içerir:
 
@@ -205,7 +205,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     | Taraf kodu (alan) | Tam Eşleşme |
     | Seçim (alan) | (boş) |
 
-    ![Firmalar için tekrarlanan kural](media/duplicate-rule-1.PNG)
+    ![Hesaplar için tekrarlanan kural.](media/duplicate-rule-1.PNG)
 
 10. Aşağıdaki alanları ayarlayarak **İlgili Kişiler** tablosunun yinelenen saptama kuralını genişletin.
 
@@ -221,7 +221,7 @@ Elektronik adresler yalnızca bu kılavuzda kullanılabilir. Gelecekteki sürüm
     | Taraf kodu (alan) | Tam Eşleşme |
     | Seçim (alan) | (boş) |
 
-    ![İlgili kişiler için tekrarlanan kural](media/duplicate-rule-2.PNG)
+    ![İlgili kişiler için tekrarlanan kural.](media/duplicate-rule-2.PNG)
 
 11. Varolan bir çift yazma kullanıcısıysanız, [Taraf ve genel adres defteri modeline yükseltme](upgrade-party-gab.md) bölümündeki talimatları izleyin ve verilerinizi yükseltin.
 
@@ -300,11 +300,11 @@ Daha fazla bilgi için, bkz. [Çift yazma eşleme başvurusu](mapping-reference.
 + **Firma**, **İlgili kişi** ve **Satıcı** formlarının elektronik adres sekmesinde belirlenen elektronik adresler `msdyn_partyelectronicaddress` tablosundan geliyor. Bu bilgiler satış siparişi, teklif ve satınalma siparişi gibi ilişkili hareketlerine akmıyor. Bu sorunu artımlı bir sürümde düzeltmeyi planlıyoruz. Firma ve ilgili kişi kayıtlarındaki elektronik adres alanlarında bulunan veriler; satış siparişi, teklif ve satınalma siparişi gibi hareketler üzerinde çalışmaya devam eder.
 + Finance and Operations uygulamalarında **İlgili kişi ekle** formundan bir ilgili kişi kaydı oluşturabilirsiniz. **İlgili kişiyi görüntüle** formundan yeni bir ilgili kişi oluşturmaya çalıştığınızda eylem başarısız olur. Bu, bilinen bir sorundur.
 
-    ![İlgili Kişi Ekle ile ilgili bilinen sorun](media/party-gab-contact-issue.png)
+    ![İlgili Kişi Ekle ile ilgili bilinen sorun.](media/party-gab-contact-issue.png)
 
 + **İlk eşitleme**, **ContactForParty** üzerindeki **Kullanılabilirlik Başlangıç Tarihi** ve **Kullanılabilirlik Bitiş Tarihi** zaman alanlarını desteklemez çünkü DIXF değeri tamsayı yerine bir dizeye dönüştürür. Dönüştürme, `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32` hatasını tetikler.
 + Örneğin işletme iletişim adresi ve fatura adresi gibi birden fazla sebep için posta adresi kullanıldığında, aşağıdaki görselde gösterildiği üzere `Business;Invoice` olarak görünmelidir. Değerler arasına boşluk eklerseniz hata alırsınız.
 
-    ![Adresle ilgili bilinen sorun](media/party-gab-address-issue.png)
+    ![Adresle ilgili bilinen sorun.](media/party-gab-address-issue.png)
 
 + Finance and Operations uygulamasıyla çift yazma kullanarak ileri tarihli bir posta adresi giremezsiniz çünkü Dataverse tarih geçerliliğini desteklemez. Finance and Operations uygulaması kullanarak ileri tarihli bir posta adresi girerseniz adres Dataverse'e tam olarak eşitlenir ve adresi kullanıcı arabiriminde hemen görürsünüz. Bu kayıtta yapılan tüm güncelleştirmeler, ileri tarihli olduğu ve Finance and Operations uygulamasında güncel olmadığı için hataya neden olur.

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799601"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351381"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Çağrı merkezlerinde iade ödemelerini işleme
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 Commerce Headquarters'da çağrı merkezi kullanıcısı 
 
     Aşağıdaki resimde, müşterinin USD para birimine bağlı bir satış siparişinden ürünleri iade ettiği ve başlangıçta normal veya çek ödeme türü kullanılarak ödendiği bir senaryonun yapılandırması gösterilmektedir. Bu senaryoda, sistem tarafından oluşturulan bir iade çeki aracılığıyla müşteriye iade yapılacaktır. **REF-CHK** AR ödeme yöntemi, iade çeki ödeme türü olarak yapılandırılmıştır.
 
-    ![Normal ve orijinal ödemeleri denetlemek için çağrı merkezi iade yöntemlerini yapılandırma](media/callcenterrefundmethods.png)
+    ![Normal ve orijinal ödemeleri denetlemek için çağrı merkezi iade yöntemlerini yapılandırma.](media/callcenterrefundmethods.png)
 
 - **Kredi kartı**: Oluşturulan bir iade siparişi, kredi kartı kullanılarak ödenen orijinal bir siparişe başvurduğunda, iade ödemeleri için çağrı merkezi mantığı iade siparişine aynı orijinal kredi kartını uygular.
 - **Bağlılık programı kartı**: Oluşturulan bir iade siparişi, müşteri bağlılık kartı kullanılarak ödenen orijinal bir siparişe başvurduğunda, iade ödemeleri için çağrı merkezi mantığı para iadesini aynı bağlılık programı kartına uygular.
@@ -48,7 +48,7 @@ Orijinal sipariş ödeme türü herhangi bir nedenle bilinmiyorsa veya orijinal 
 
 Aşağıdaki resimde, **Çağrı merkezi parametreleri** sayfasının **RMA/İade** sekmesindeki **Ödeme yöntemi** alanı gösterilmektedir.
 
-![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki ödeme yöntemi alanı](media/callcenterrefundparameters.png)
+![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki ödeme yöntemi alanı.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > Daha önce açıklanan iade işleme kuralları, bir çağrı merkezi kullanıcısının Commerce Headquarters'da iptal ettiği siparişler veya sipariş satırları için de geçerlidir. Bir siparişin veya belirli sipariş satırlarının iptali herhangi bir fazla ödemeye neden olursa, iade ödeme satırları oluşturmak için aynı kurallar kullanılır.
@@ -82,7 +82,7 @@ Değiştirme siparişlerindeki ödemeler işlendiğinde, kuruluşların iki seç
 > [!NOTE]
 > Bağlantılı değiştirme emri olmayan bir iade siparişi için, **Kredi uygula** seçeneği için **Evet** ayarı iade siparişi ödeme mantığı üzerinde hiçbir etkiye sahip olmayacaktır çünkü bu ayar yalnızca değiştirme siparişleri için geçerlidir.
 
-![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki Kredi ödeme yöntemi uygula alanı](media/callcenterrefundparameters1.png)
+![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki Kredi ödeme yöntemi uygula alanı.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Değiştirme siparişleri oluşturan kullanıcılar **Kredi uygula** seçeneğini kullanmayı planlıyorsa, **Kredi uygula** seçeneğini **Evet** olarak ayarlamadan önce iade siparişinde **Tamamla** işlevini çalıştırmamalıdır. **Tamamla** işlevi çalıştırıldıktan sonra, geri ödeme hesaplanır ve iade satış siparişine uygulanır. İade ödemesi zaten hesaplandıktan ve uygulandıktan sonra **Kredi uygula** seçeneğini **Evet** olarak ayarlama girişimi, iade ödemesinin yeniden hesaplanmasını tetiklemez ve **Kredi ödeme yöntemini uygula** alanında seçilen ödeme yöntemi uygulanmaz. Bu bağlamda **Kredi uygula** seçeneğinin kullanılması gerekiyorsa, kullanıcının değiştirme siparişini ve RMA'yı silmesi ve ardından baştan başlayıp yeni bir RMA oluşturması gerekir. Bu kez, kullanıcının **Tamamla** işlevini çalıştırılmadan önce **Kredi uygula** seçeneğinin **Evet** olarak ayarlandığından emin olması gerekir.
@@ -91,14 +91,14 @@ Değiştirme siparişlerindeki ödemeler işlendiğinde, kuruluşların iki seç
 
 Çağrı merkezi mantığı, iade ödemesi yöntemini bu konuda daha önce açıklanan şekilde sistematik olarak belirlese de, kullanıcılar bazen bu ödemeleri geçersiz kılmak isteyebilir. Örneğin, bir kullanıcı mevcut iade ödeme satırlarını düzenleyebilir veya kaldırabilir ve yeni ödeme satırları uygulayabilir. Sistem tarafından hesaplanan iade ödemeleri yalnızca doğru geçersiz kılma izinlerine sahip kullanıcılar tarafından değiştirilebilir. Bu izinler Perakende ve Ticaret'teki **Geçersi kılma izinleri** sayfasında yapılandırılabilir. İade ödemesini geçersiz kılmak için kullanıcının **Geçersiz kılma izinleri** sayfasında **Alternatif ödemeye izin ver** seçeneğinin **Evet** olarak ayarlandığı bir güvenlik rolüne bağlanması gerekir.
 
-![Geçersiz kılma izinleri sayfasında alternatif ödemeye izin ver seçeneği](media/overridepermissions.png)
+![Geçersiz kılma izinleri sayfasında alternatif ödemeye izin ver seçeneği.](media/overridepermissions.png)
 
 Alternatif olarak, bir kuruluş **Çağrı merkezi parametreleri** sayfasının **RMA/İade** sekmesinde **Ödeme geçersiz kılmaya izin ver** seçeneğini **Evet** olarak ayarlayabilir. Bu durumda, **Güvenlik Geçersiz Kılma Kodu** alanında bir güvenlik geçersiz kılma kodu seçilmelidir. Güvenlik geçersiz kılma kodu, kullanıcılar ayarlandıktan sonra Commerce Headquarters'da görüntüleyemediğinden, dışarıdan yönetilmesi gereken alfasayısal bir koddur. Güvenlik geçersiz kılma kodu, bir kuruluştaki yalnızca birkaç önemli, güvenilir kişi tarafından bilinmelidir. **Ödeme geçersiz kılmaya izin ver** seçeneği **Evet** olarak ayarlandığında, doğru rol izinlerine sahip olmayan kullanıcılar iade siparişinde ödeme yöntemini değiştirmeye çalışırsa güvenlik geçersiz kılma kodunu girme seçeneğine sahip olurlar. Bu kodu bilmiyorlarsa veya bir yönetici veya süpervizör onlar adına kodu sayfaya giremezse iade ödeme yöntemini geçersiz kılamazlar.
 
 > [!NOTE]
 > Güvenlik geçersiz kılma kodu kaybolur veya unutulursa kuruluş, **Çağrı merkezi parametreleri** sayfasının **RMA/İade** sekmesindeki **Güvenlik Geçersiz Kılma Kodu** alanında yeni bir güvenlik geçersiz kılma kodu tanımlayarak kodu sıfırlamak zorunda kalır.
 
-![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki Ödeme geçersiz kılma parametreleri](media/overridepaymentparameter.png)
+![Çağrı merkezi parametreleri sayfasının RMA/İade sekmesindeki Ödeme geçersiz kılma parametreleri.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Kuruluşlar, kredi kartı ödeme türlerini kullanan iade ödemelerini geçersiz kılmaya çalışmadan önce, kredi kartı işlemcilerinin bağlantısız iadelere izin verdiğini doğrulamalıdır. Birçok işlemci, geri ödemelerin orijinal karta geri nakledilmesini gerektirir. Daha önce yakalaması olmayan bir karta para iadesi yapma girişimi, işlemcide deftere nakil hatalarına neden olabilir.

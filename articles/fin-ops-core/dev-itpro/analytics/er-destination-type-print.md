@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894016"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347936"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Yazıcı hedefi
 
@@ -39,7 +39,7 @@ Başlamadan önce, Belge Yönlendirme Aracısı'nı yükleyip yapılandırmanız
 1. Elektronik Raporlama giden belgelerini Microsoft Office biçimlerinden PDF'e dönüştür
 2. Giden belgeler için Elektronik raporlama hedefi olarak Belge Yönlendirme Aracısı
 
-[![Özellik yönetimi'nde ER yazıcı hedefi özelliğini açma](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Özellik yönetimi'nde ER yazıcı hedefi özelliğini açma.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Uygulanabilirlik
 
@@ -55,7 +55,7 @@ Başlamadan önce, Belge Yönlendirme Aracısı'nı yükleyip yapılandırmanız
 2. **Yazıcı adı** alanında, gerekli ağ yazıcısını seçin.
 3. Oluşturulan çıktıyı daha sonra yazdırmaya hazır olması için yazdırma arşivinde saklamak için **Yazdırma arşivine kaydedilsin mi?** seçeneğini **Evet** olarak ayarlayın. Arşivlenmiş çıktıya daha sonra erişmek için, **Kuruluş yönetimi** \> **Sorgular ve raporlar** \> **Rapor arşivi**'ne gidin.
 
-[![Yazıcı hedefini kullanma](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Yazıcı hedefini kullanma.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > **Yazıcı** hedefini yapılandırdığınız zaman, **PDF'e dönüştür** seçeneğinin etkinleştirilmiş olması gerekmez. Seçenek kapalı olsa bile, yazdırma amacıyla PDF dönüştürme işlemi yapılır.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812926"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347722"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planlama altyapısı performansını iyileştirme
 
@@ -66,11 +66,11 @@ Planlama altyapısının, farklı veri kaynaklarını işleyebilen bir genel alt
 | 10 | İkincil&nbsp;1 | | | | 1 | 20 |
 | 20 | Birincil | | 3.00 | 1.00 | 3 | 0 |
 
-![Örnek rota diyagramı](media/scheduling-engine-route.png "Örnek rota diyagramı")
+![Örnek rota diyagramı.](media/scheduling-engine-route.png "Örnek rota diyagramı")
 
 Bunu altyapıya gönderirken, aşağıdaki şekilde gösterildiği gibi sekiz işe bölünür (büyütmek istediğiniz görüntüyü seçin).
 
-[![Altyapı işlerini planlama](media/scheduling-engine-jobs.png "Planlama altyapısı işleri")](media/scheduling-engine-jobs-large.png)
+[! [Altyapı işleri planlama](media/scheduling-engine-jobs.png "Altyapı işleri planlama."](media/scheduling-engine-jobs-large.png)
 
 İki iş arasındaki standart bağlantı `FinishStart` olur; bir işin bitiş saatinin başka bir işin başlangıç saatinden önce olması gerektiğini belirtir. Kurulumun daha sonra işlemi gerçekleştirecek aynı kaynak tarafından gerçekleştirilmesi gerektiğinden, aralarında `OnSameResource` sınırlamaları bulunur. 10 için birincil ve ikincil operasyon arasındaki işler `StartStart` ve `FinishFinish` bağlantıları bulunur; bu, işlerin aynı anda başlaması ve bitmesi gerektiği anlamına gelir ve birincil ve ikincil için aynı kaynağı engelleyecek `NotOnSameResource` sınırlamaları vardır.
 

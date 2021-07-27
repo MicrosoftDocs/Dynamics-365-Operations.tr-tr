@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019482"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347452"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Dynamics 365 Commerce ve Microsoft Teams tümleştirmesi SSS
 
@@ -45,7 +45,7 @@ Commerce Headquarters'da bir çalışana perakende görev yöneticisi rolü atam
 
 Commerce Headquarters'da, her kuruluşun hiyerarşisi bir veya daha çok amaçla ilişkilendirilir. Microsoft Teams'e sağlamak istediğiniz hiyerarşinin aşağıdaki örnek görüntüde gösterildiği gibi, kendisiyle ilişkilendirilmiş **perakende Raporlama** amacı olduğundan emin olun. 
 
-![Commerce Headquarters'da kuruluş hiyerarşisi amacı örneği](media/d365-commerce-organization-hierarchies-purpose.png)
+![Commerce Headquarters'da kuruluş hiyerarşisi amacı örneği.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Mağaza çalışanlarının Azure Active Directory (Azure AD) kullanarak Commerce satış noktasında (POS) oturum açmasını nasıl sağlarım?
 

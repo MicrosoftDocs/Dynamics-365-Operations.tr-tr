@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 742d49b1b7b46952d0a8bb6c8a33cde2a35d124f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354577"
 ---
 # <a name="configure-task-management"></a>Görev yönetimini yapılandırma
 
@@ -44,7 +44,7 @@ Mağaza yöneticilerinin görev yönetimi izinlerini konfigüre etmek için aşa
 
 Aşağıdaki çizim, mağaza yöneticilerinin görev yönetimi izinlerini konfigüre etmesini gösterir.
 
-![Mağaza yöneticilerinin görev yönetimi izinlerini konfigüre etmesi](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Mağaza yöneticilerinin görev yönetimi izinlerini yapılandırması.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Çalışanlar için izinleri konfigüre et
 
@@ -78,7 +78,7 @@ Görevler için POS bildirimleri yapılandırmak üzere bu adımları izleyin.
 
 Aşağıdaki şekil, **POS işlemleri** sayfasındaki **görev yönetimi** işlemini göstermektedir.
 
-![POS işlemleri sayfasında görev yönetimi işlemi](media/HQ-POS-Tasks-Notifications.png)
+![POS işlemleri sayfasında görev yönetimi işlemi.](media/HQ-POS-Tasks-Notifications.png)
 
 POS bildirimlerinin nasıl yapılandırılacağı hakkında daha fazla bilgi için bkz. [satış noktasında (POS) sipariş bildirimleri göster](notifications-pos.md).
 
@@ -95,7 +95,7 @@ POS uygulaması giriş sayfasında **görevler** kutucuğunu konfigüre etmek i�
 
 Aşağıdaki çizimde POS giriş sayfasındaki **Görevler** kutucuğunun bir örneği gösterilmektedir.
 
-![Bir POS giriş sayfasındaki görevler bölmesi](media/POS-home-screen-tasks-button-image.png)
+![Bir POS giriş sayfasındaki görevler bölmesi.](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

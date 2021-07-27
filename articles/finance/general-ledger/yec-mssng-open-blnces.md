@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 045d0bf11b11c9a353858ce3ca82c698dbceea7c
-ms.sourcegitcommit: 817716c2e96f24af0ef1d7d5323afdeccdc602f3
+ms.openlocfilehash: 4bebf35a8959d4f72d46d4b40e5487f499b2756d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "6028591"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356664"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Yıl sonu kapanışında eksik açılış bakiyeleri
 
@@ -46,15 +46,15 @@ Yıl sonu kapanışını **Önceki kapanışı geri al** seçeneğini **Hayır**
 
 Öncelikle toplu işin durumunu denetleyin. Bir yılı kapatmak bir dizi ayrı görev içerir ancak en önemli adım, görev açıklaması **Adım 5.0.0** olan toplu görevdir. Genel muhasebe için açılış işlemlerini ve isteğe bağlı olarak kapanış işlemlerini deftere nakletme bu adım sırasında gerçekleşir. 
 
-[![Toplu iş geçmişi listesi](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
+[![Toplu iş geçmişi listesi.](./media/yec-mssng-open-blnces-01.png)](./media/yec-mssng-open-blnces-01.png)
 
 Bu adım başarıyla sonlandıysa ancak **Mizan sorgusu** sayfasında (**Genel muhasebe > Sorgular ve raporlar > Mizan**) açılış bakiyelerini göremiyorsanız Bakiyeleri yeniden oluşturma adımının başarıyla tamamlanıp tamamlanmadığını görmek için yıl sonu kapanışı toplu işinin sonuçlarını inceleyin.
 
-[![Yıl sonu kapanışı toplu işinin sonuçları](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
+[![Yıl sonu kapanışı toplu işinin sonuçları.](./media/yec-mssng-open-blnces-02.png)](./media/yec-mssng-open-blnces-02.png)
 
 Bu adım bir nedenle başarısız olursa açılış (ve isteğe bağlı olarak kapanış) işlemleri büyük olasılıkla başarılı şekilde deftere nakledilmiştir. Fiş numarasını belirterek **Fiş hareketleri sorgusu** sayfasını ve kapattığınız yıl için yıl sonu kapanışı iletişim kutusunda sağlanan tarihi kullanarak (**Genel Muhasebe > Sorgular ve raporlar > Fiş hareketleri**) Genel muhasebe işlemlerinin başarıyla deftere nakledildiğini doğrulayabilirsiniz.
 
-[![Fiş hareketleri sorgusu](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
+[![Fiş hareketleri sorgusu.](./media/yec-mssng-open-blnces-03.png)](./media/yec-mssng-open-blnces-03.png)
 
 Açılış (ve isteğe bağlı olarak kapanış) fişleri varsa yıl sonu kapanışını yeniden çalıştırmanız gerekmez. Bunun yerine, nasıl ilerleyeceğiniz hakkında bilgi için sonraki bölüme bakın.
 
@@ -66,7 +66,7 @@ Yıl sonu kapanışında "Bakiyeleri yeniden oluşturma" adımı başarısız ol
 
 Bakiyeleri yeniden oluşturma adımında, Mizan sorgusu oluşturulduğunda kullanılan Genel muhasebe bakiyeleri güncelleştirilir.  Bu, yıl sonu kapanışı işlemindeki son adımdır.  Bu başarısız olan tek adım ise Genel muhasebe işlemleri başarıyla deftere nakledilmiştir.  Yıl sonu kapanışını yeniden çalıştırmanız gerekmez. **Mali boyut kümeleri** sayfasını (**Genel muhasebe > Hesap planı > Boyutlar > Mali boyut kümeleri**) kullanarak bakiyeleri el ile yeniden oluşturma işlemini çalıştırabilirsiniz.
 
-[![Mali boyut kümeleri sayfasında bakiyeleri yeniden oluşturma düğmesi](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
+[![Mali boyut kümeleri sayfasında bakiyeleri yeniden oluşturma düğmesi.](./media/yec-mssng-open-blnces-04.png)](./media/yec-mssng-open-blnces-04.png)
 
 Bu adımın işlenmesi uzun sürerse [Mali boyut kümelerini güncelleştirmek için en iyi uygulamalar](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/best-practices-for-updating-financial-dimension-set-dimension-sets) bölümünde açıklandığı gibi mali boyut kümeleri için en iyi uygulamaları incelemeyi öneririz. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354869"
 ---
 # <a name="manually-created-work-orders"></a>El ile oluşturulmuş iş emirleri
 
@@ -111,7 +111,7 @@ Var olan bir iş emriyle ilgili bir iş emri oluşturabilirsiniz. Bu özellik, �
 
 Aşağıdaki şekilde **İlgili iş emri oluştur** iletişim kutusu örneği gösterilmektedir.
 
-![Şekil 1](media/03-work-orders.png)
+![Şekil 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >**Varlık yönetimi parametreleri** > **İş emirleri** sekmesi > **İlgili iş emri maskesi** alanında ilgili iş emri maskesi ayarlarsanız, iş emri kodları maske ayarına uygun şekilde oluşturulur. İlgili bir iş emri maskesi ayarlanmamışsa, ilgili iş emirleri için sonraki kullanılabilir iş emri kodu kullanılır.
@@ -137,7 +137,7 @@ Var olan bir iş emrinden hızlı şekilde yeni bir iş emri oluşturabilirsiniz
 
 Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği gösterilmektedir.
 
-![Şekil 2](media/04-work-orders.png)
+![Şekil 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Bakım isteğine dayalı iş emri oluşturma
@@ -157,7 +157,7 @@ Aşağıdaki örnekte **İş emrini kopyala** iletişim kutusunun bir örneği g
 
 Aşağıdaki çizimde **İş emri oluştur** iletişim kutusunun bir örneği gösterilmektedir.
 
-![Şekil 3](media/05-work-orders.png)
+![Şekil 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223998"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355406"
 ---
 # <a name="electronic-reporting-formula-language"></a>Elektronik raporlamada formül dili
 
@@ -117,15 +117,15 @@ Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kay
 
 Yapılandırılmış bir veri kaynağının yolu "et" işareti (@) ile başlıyorsa, bu göreli bir yoldur. Kullanılan sıradüzenli ağaç yapısının mutlak yolunun kalan bölümü yerine, "et" işareti gösterilir. Aşağıdaki şekilde bir örneği gösterilmiştir. Burada, `Ledger.'accountingCurrency()'` mutlak yol, **muhasebe** veri kaynağından alınan muhasebe para birimi değerinin, veri modelinin **MuhasebeParaBirimi** alanına girildiğini gösterir.
 
-![ER model eşleme Tasarımcısı sayfasındaki mutlak yol örneği](./media/ER-FormulaLanguage-AbsolutePath.png)
+![ER model eşleme Tasarımcısı sayfasındaki mutlak yol örneği.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Aşağıdaki çizimdeki örnek, göreli bir yolun nasıl kullanıldığını göstermektedir. `@.AccountNum` göreli yolu, **Intrastat** veri kaynağının **AccountNum** alanının (veri modelinin hiyerarşik ağacındaki **AccountNum** alanının bir üst düzeyde görüntülenir) müşteri veya satıcı hesap numarasını girmek için veri kaynağının **AccountNum** alanı kullanılacağını belirtir.
 
-![ER model eşleme Tasarımcısı sayfasındaki göreli yol örneği](./media/ER-FormulaLanguage-RelativePath1.png)
+![ER model eşleme Tasarımcısı sayfasındaki göreli yol örneği.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Mutlak yolun kalan bölümü de [ER formül düzenleyicisinde](general-electronic-reporting-formula-designer.md) gösterilir.
 
-![ER formül Tasarımcısı sayfasında, mutlak yolun kalan bölümü](./media/ER-FormulaLanguage-RelativePath2.png)
+![ER formül Tasarımcısı sayfasında, mutlak yolun kalan bölümü.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Daha fazla bilgi için bkz. [ER model ve biçimlerinin veri bağlamalarında göreli yol kullanma](relative-path-data-bindings-er-models-format.md).
 

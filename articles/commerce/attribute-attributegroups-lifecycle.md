@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346816"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik gruplarını yönetme
 
@@ -70,7 +70,7 @@ ms.locfileid: "5936816"
     - Bir öznitelik türüne **Mercek şekli** adını verin ve şu değerleri ekleyin: **Oval**, **Kare** ve **Dikdörtgen**.
     - Diğer öznitelik türüne **Güneç gözlüğü markası** adını verin ve şu değerleri ekleyin: **Ray ban**, **Aviator** ve **Oakley**.
 
-![Öznitelik türleri](media/AttributeType.png)
+![Öznitelik türleri.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Öznitelik ayarlama
 
@@ -79,7 +79,7 @@ ms.locfileid: "5936816"
 3. **Mercek** adında bir öznitelik oluşturun.
 4. **Öznitelik türü** alanını **Mercek şekli** olarak ayarlayın.
 
-![Öznitelikler](media/Attribute.png)
+![Öznitelikler.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Öznitelik meta verileri
 
@@ -134,7 +134,7 @@ Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013
     - 200 – 500
     - 500 veya üzeri
 
-![Öznitelik filtresi ayarları](media/AttributeFilterSettings.PNG)
+![Öznitelik filtresi ayarları.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Öznitelik grupları
 
@@ -142,7 +142,7 @@ Bu kalan seçeneklerin amacı hakkında bilgi için bkz. [SharePoint Server 2013
 
 Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler ayarlayabilirsiniz. Örneğin, bir öznitelik grubuna renk için öznitelik ekleyebilir ve varsayılan öznitelik değeri olarak **Mavi** seçebilirsiniz. Bu durumda, öznitelik grubu, özniteliklerinden biri olarak renk içeren bir ürüne eklendiğinde **Mavi** bu ürün için varsayılan renk olarak görünür.
 
-![Öznitelik grupları](media/AttributeGroup.png)
+![Öznitelik grupları.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Öznitelik grubu oluşturma
 
@@ -155,7 +155,7 @@ Bir öznitelik grubuna dahil olan öznitelikler için de varsayılan değerler a
 
 Bir veya daha fazla öznitelik grubu, şu türdeki perakende kategorisi hiyerarşilerinde kategori düğümleri ile ilişkilendirilebilir: Commerce ürün hiyerarşisi, Kanal gezinti kategori hiyerarşisi ve Ek ürün kategori hiyerarşisi. Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
 
-![Ürün hiyerarşisi – Ürün öznitelik grupları](media/AGRetailProdHierarchy.PNG)
+![Ürün hiyerarşisi – Ürün öznitelik grupları.](media/AGRetailProdHierarchy.PNG)
 
 Commerce ürün hiyerarşisinde kategorilere öznitelik grupları atamak için şu adımları izleyin.
 
@@ -200,7 +200,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
     3. **Moda Aksesuarlar** kategori düğümünü, **Moda Güneş Gözlükleri** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.
     4. **Erkek giyim** kategori düğümünü, **Pantolonlar** kategorisini ve ardından **Kanal ürün öznitelikleri** hızlı sekmesinde her öznitelik için **Özniteliği ekle**'yi seçin.
 
-![Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları](media/CCPAttrGrp.png)
+![Kanal kategorileri ve ürün öznitelikleri - Öznitelik grupları.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Geçersiz kılınan öznitelik değerleri
 
@@ -214,7 +214,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
 4. Izgaradan gerekli ürünü seçin. Ardından Eylem Bölmesinde, **Ürün** sekmesindeki **Ayar** gurubunda **Ürün öznitelikleri**'ni seçin.
 5. Sol bölmeden bir öznitelik seçin ve ardından sağ bölmede değerini güncelleştirin.
 
-![Ürün ayrıntıları sayfası – Ürün öznitelik grupları](media/ProdDetailsProdAttrValues.png)
+![Ürün ayrıntıları sayfası – Ürün öznitelik grupları.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Katalogdaki ürünlerin öznitelik değerlerini geçersiz kılma
 
@@ -233,7 +233,7 @@ Bir veya daha fazla öznitelik grubu mağaza hiyerarşisindeki bir veya daha faz
     > [!NOTE]
     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri oluşturulursa, tüm ürünlere uygulanır.
 
-![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
+![Katalog ürünü öznitelik grupları.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Kanaldaki ürünlerin öznitelik değerlerini geçersiz kılma
 

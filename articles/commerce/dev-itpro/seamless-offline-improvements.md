@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019969"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348280"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Hediye kartı ve alacak faturası işlemleri için sorunsuz çevrimdışı geçiş
 
@@ -36,7 +36,7 @@ Ancak, POS bir harekette bir hediye kartı eklendikten sonra bağlantıyı kaybe
 
 Çevrimdışı moda geçtikten sonra hediye kartı hareketlerinin sona erdikten sonra işlevselliğin etkinleştirilmesi için **Commerce parametreleri** sayfasındaki **deftere nakil** sekmesine gidin. Bu sekmede, **hediye kartı** hızlı sekmesini bulun ve **çevrimdışı modda sonuçlan hediye kartı hareketlerini** **Evet** olarak ayarlayın.
 
-![Çevrimdışı hediye kartı ayarı](../media/gift.png)
+![Çevrimdışı hediye kartı ayarı.](../media/gift.png)
 
 Commerce parametreleri genellikle önbelleğe alınır. Bu nedenle, bu parametrenin ayarı güncelleştirildikten ve dağıtım zamanlaması, değişikliğin kanalla eşitlenmesi için başlatıldığından, değişikliğin etkili olması 24 saate kadar sürebilir. Değişikliğin hemen etkili olması için, Microsoft Internet Information Services'ı (IIS) sıfırlayın.
 
@@ -46,7 +46,7 @@ Dahili hediye kartları gibi, iade faturaları da Commerce Headquarters'da merke
 
 Çevrimdışı moda geçtikten sonra alacak faturasıyla hareketlerinin sona erdikten sonra işlevselliğin etkinleştirilmesi için **Commerce parametreleri** sayfasındaki **deftere nakil** sekmesine gidin. Bu sekmede, **Alacak Faturası** hızlı sekmesini bulun ve **çevrimdışı modda sonuçlan alacak faturası hareketlerini** **Evet** olarak ayarlayın.
 
-![Çevrimdışı iade faturası ayarı](../media/creditmemo.png)
+![Çevrimdışı iade faturası ayarı.](../media/creditmemo.png)
 
 Commerce parametreleri genellikle önbelleğe alınır. Bu nedenle, bu parametrenin ayarı güncelleştirildikten ve dağıtım zamanlaması, değişikliğin kanalla eşitlenmesi için başlatıldığından, değişikliğin etkili olması 24 saate kadar sürebilir. Değişikliğin hemen etkin hale getirmek için IIS'yi sıfırlayın.
 

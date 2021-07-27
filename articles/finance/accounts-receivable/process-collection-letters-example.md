@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021428"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347820"
 ---
 # <a name="process-collection-letters-example"></a>Tahsilat mektuplarını işleme örneği
 
@@ -40,7 +40,7 @@ Bitirdiğinizde aşağıdaki adımları izleyin.
 
 Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayfasında görüneceği şekilde gösterilmektedir. 
 
-[![Tahsilat mektubu sırası ayarlama](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Tahsilat mektubu sırası ayarlama.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Şimdi bu örnek için gereken iki parametreyi ayarlamanız gerekir.
 
@@ -49,7 +49,7 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
     1. **Tahsilatlar** sekmesinde **tahsilat mektubu kodunu hesaplarken ödemeler ve alacak notlarını yoksay** seçeneğini **Evet** olarak ayarlayın.
     2. **Her seferinde tahsilat mektubu oluştur** alanının **Müşteri** olarak ayarlandığından emin olun.
 
-    [![Alacak Tahsilatları için alacak hesapları parametreleri ayarlama](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Alacak Tahsilatları için alacak hesapları parametreleri ayarlama.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. **Alacak hesapları \> faturalar \> Tüm serbest metin faturaları** kısmına gidin, **Yeni**'yi seçin ve şu adımları izleyin:
 
@@ -74,7 +74,7 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
 5. 4. adımı yineleyin, ancak **birim fiyat** alanına **-200,00** girin.
 6. **Alacak hesapları \>müşteriler \> tüm müşteriler**'e gidin ve müşteri **US-045**'i seçin. Sonra, eylem bölmesinde, daha önce deftere naklettiğiniz müşteri işlemlerini gözden geçirmek üzere **İşlemler \> İşlemler**'i seçin.
 
-    [![Deftere nakledilen müşteri işlemlerini gözden geçirme](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Deftere nakledilen müşteri işlemlerini gözden geçirme.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Şimdi müşteri US-045 için tahsilat mektupları oluşturmanız gerekir.
 
@@ -93,7 +93,7 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
 
     1. Bu tahsilat mektubu dizideki ilk tahsilat mektubu olduğundan, hem başlık, hem işlem satırlarında tahsilat mektubu kodunun **tahsilat mektubu 1** olduğuna dikkat edin. (İşlem satırlarını görüntülemek için, **İşlemler** Hızlı sekmesini seçmeniz gerekebilir.)
 
-   [![Başlıkta ve satırlarda aynı tahsilat mektubu kodunun göründüğünü doğrulama](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Başlıkta ve satırlarda aynı tahsilat mektubu kodunun göründüğünü doğrulama.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Eylem Bölmesinde **Deftere naklet**'i seçin.
     3. **Deftere nakletme tarihi** alanına **1/19/2021** tarihini girin.
@@ -115,7 +115,7 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
 
     1. Başlıktaki tahsilat mektubu kodunun **tahsilat mektubu 1** olduğuna dikkat edin. Ancak, işlem satırlarındaki kod **Tahsilat mektubu 2**'dir.
 
-   [![Başlıkta ve satırlarda farklı tahsilat mektubu kodlarının göründüğünü doğrular](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Başlıkta ve satırlarda farklı tahsilat mektubu kodlarının göründüğünü doğrular.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   **Tahsilat mektubu kodunu hesaplarken ödemeler ve alacak notlarını yoksay** seçeneği **Evet** olarak ayarlandığı için kodlar farklıdır.
 
@@ -123,7 +123,7 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
 
 11. **Alacak ve tahsilatlar \> Kurulum \> Alacak hesapları parametrelerine** gidin ve ardından **Tahsilatlar** sekmesinde, **tahsilat mektubu kodunu hesaplarken ödemeler ve alacak notlarını yoksay** seçeneğini **Hayır** olarak ayarlayın.
 
-    [![Tahsilat mektubu kodunu hesaplarken için ödemeleri ve alacak notlarını yoksayma seçeneğini Hayır olarak ayarlama](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Tahsilat mektubu kodunu hesaplarken için ödemeleri ve alacak notlarını yoksayma seçeneğini Hayır olarak ayarlama.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Şimdi müşteri US-045 için tahsilat mektuplarını tekrar oluşturmanız gerekir.
 
@@ -140,6 +140,6 @@ Aşağıdaki resimde tabloda gösterilen bilgiler, **tahsilat mektupları** sayf
 
 13. **Alacak ve tahsilatlar \> Tahsilat mektubu \> Tahsilat mektuplarını gözden geçir ve izle** bölümüne gidin ve hem başlık, hem işlem satırlarında tahsilat mektubu kodunun **tahsilat mektubu 2** olduğuna dikkat edin.
 
-    [![Başlıkta ve satırlarda aynı tahsilat mektubu kodunun olduğunu tekrar gösterme](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Başlıkta ve satırlarda aynı tahsilat mektubu kodunun olduğunu tekrar gösterme.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     **Tahsilat mektubu kodunu hesaplarken ödemeler ve alacak notlarını yoksay** seçeneği şimdi **Hayır** olarak ayarlandığı için her iki yerde de aynı kod görünür.

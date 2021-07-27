@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818596"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355544"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Yarı yıl amortisman yöntemi
 
@@ -36,7 +36,7 @@ Altı aylık amortisman kuralını kullandığınızda, sistem kıymetin satın 
 > Yıllık amortisman 50.000/5 = 10.000 ve aylık amortisman 10000/12 = 833,33 <br>
 > İlk yıl yıpranma 10.000/2 = 5.000 ve sonraki aylık amortisman 5.000/9 = 555,56
 
-   [![Yarım yıl amortisman kuralı için amortisman planı](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Yarım yıl amortisman kuralı için amortisman planı.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Yarım yıl kuralı ile eklenen uzatılmış amortisman dönemleri, amortismanın daha doğru tahsisatını sağlar. Altı aylık kural, amortisman giderlerini daha eşit şekilde temsil eder ve kar ve zarar raporunun bildirilmesinde yararlı olur.
 

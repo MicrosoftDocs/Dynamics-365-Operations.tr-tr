@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025460"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353792"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>POS'ta stok arama işlemi
 
@@ -45,7 +45,10 @@ Tek bir ürün için stok arama işlemi, bir yerleşim listesi ile ilgili olarak
 
 Yerleşimlerin liste görünümü, aşağıdaki örnek görüntüde gösterildiği gibi, geçerli mağazanın bağlantılı olduğu karşılama gruplarında yapılandırılan tüm mağaza ve ambarları içerir.
 
-![Stok arama işlemi liste görünümü](media/inventory-lookup-list-view.png)
+![Stok arama işlemi liste görünümü.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Geçerli mağazanızın ilişkili karşılama gruplarına dahil edildiğinden emin olun.
 
 Aşağıdaki eylemler, POS uygulama çubuğundan kullanılabilir:
 
@@ -65,7 +68,7 @@ Aşağıdaki eylemler, POS uygulama çubuğundan kullanılabilir:
 - **Harekete ekle** - Bu eylem, ürünü alışveriş sepetine ekler ve kullanıcıyı hareket ekranına yönlendirir.
 
 > [!NOTE]
-> Yerleşime dayalı bir sıralama için, bir yerleşim ve geçerli mağaza arasındaki mesafe, Commerce genel merkezde tanımlanan koordinatlarla (enlem ve boylam) belirlenir. Mağaza için, yerleşim bilgileri mağazayla ilişkilendirilmiş olan faaliyet biriminin birincil adresinde tanımlanmıştır. Mağaza olmayan ambar için, yerleşim bilgileri ambar adresinde tanımlanmıştır. Geçerli mağazada doğru tanımlanmış koordinatlar yoksa, yerleşim temelli sıralama seçeneği listenin en üstündeki geçerli mağazayı görüntüler ve sonra diğer yerleşimleri ada göre sıralar.
+> Yerleşime dayalı bir sıralama için, bir yerleşim ve geçerli mağaza arasındaki mesafe, Commerce genel merkezde tanımlanan koordinatlarla (enlem ve boylam) belirlenir. Mağaza için, yerleşim bilgileri mağazayla ilişkilendirilmiş olan faaliyet biriminin birincil adresinde tanımlanmıştır. Mağaza olmayan ambar için, yerleşim bilgileri ambar adresinde tanımlanmıştır. Geçerli mağazada tanımlanmış koordinatlar yoksa, yerleşim temelli sıralama seçeneği listenin en üstündeki geçerli mağazayı görüntüler ve sonra diğer yerleşimleri ada göre sıralar.
 
 > [!NOTE]
 > **Mağaza kullanılabilirliğini göster**, **Mağaza konumunu göster**, **Mağazada teslim al** ve **Ürünü sevk et** eylemleri, mağaza dışı yerleşimlerde kullanılamaz.
@@ -76,7 +79,7 @@ Aşağıdaki eylemler, POS uygulama çubuğundan kullanılabilir:
 
 Aşağıdaki örnek görüntü, POS'ta bulunan stok arama matrisi görünümünü gösterir.
 
-![Stok arama işlemi matris görünümü](media/inventory-lookup-matrix-view.png)
+![Stok arama işlemi matris görünümü.](media/inventory-lookup-matrix-view.png)
 
 Matris görünümünde, her hücre tek bir çeşidi temsil eder ve sağ alt köşede bulunan eldeki stok (kullanılabilir fiziksel) ve sol üst köşedeki **ayrılmış** (fiziksel ayrılan) ve **sipariş edilmiş** (toplam sipariş edilen) değerleri de görüntülenir. Aşağıdaki tablo, çeşitli eldeki değerlerin anlamını açıklar.
 
@@ -103,7 +106,7 @@ POS kullanıcıları, stok arama işlemine POS'taki diğer sayfalardan da erişe
 
 Aşağıdaki örnek görüntü, POS'taki bir PDP'de stok arama sonuçlarını gösterir.
 
-![Ürün ayrıntıları sayfasından stok arama](media/inventory-lookup-from-product-details-page.png)
+![Ürün ayrıntıları sayfasından stok arama.](media/inventory-lookup-from-product-details-page.png)
 
 Bir ana ürünün PDP'si üzerinde, geçerli mağazanın bir ürünün tüm çeşitlerine ait stok kullanılabilirlik bilgilerini görüntüleyen stok arama matrisi görünümünü başlatmak için uygulama çubuğundaki **Tüm çeşitleri görüntüle** eylemini kullanabilirsiniz. Tek bir ürün için, PDP geçerli mağazada o ürünün eldeki stok (kullanılabilir fiziksel) değerini görüntüler. Ek olarak, diğer mağazalar veya ambarlarda bir ürünün stok kullanılabilirliğini denetlemek üzere stok arama işlemini başlatmak için **Diğer mağazaların stokları** bağlantısını da seçebilirsiniz.
 

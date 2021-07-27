@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804053"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347428"
 ---
 # <a name="templates-and-layouts-overview"></a>Şablonlar ve düzenlere genel bakış
 
@@ -32,7 +33,7 @@ ms.locfileid: "5804053"
 
 Aşağıdaki şekil, sayfa modeli hiyerarşisini işlenmiş bir Web sayfasının arkasında gösterir.
 
-![Sayfa modeli şeması](../commerce/media/page-model-diagram.png)
+![Sayfa modeli şeması.](../commerce/media/page-model-diagram.png)
 
 | Varlık        | Temel işlev |
 |---------------|----------------|
@@ -98,7 +99,7 @@ Hazır ayar düzeni ve özel mizanpajlar, yazma araç takımının farklı böl�
 
 Aşağıdaki çizimler, hazır ayar ve özel düzen senaryolarını gösterir.
 
-![Hazır ayar ve özel düzen senaryoları](../commerce/media/template-figure1.png)
+![Hazır ayar ve özel düzen senaryoları.](../commerce/media/template-figure1.png)
 
 Önceden ayarlanmış mizanpajları kullanmaya başlamak için bkz. [Ön ayar düzenleriyle çalış](work-with-layouts.md).
 
