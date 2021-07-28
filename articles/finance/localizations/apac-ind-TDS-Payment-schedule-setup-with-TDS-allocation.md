@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023666"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358422"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>TDS tahsisatıyla ödeme planlarını ayarlama
 
@@ -31,7 +31,7 @@ Bu konu, Kaynakta Kesilen Vergi (TDS) tahsisatıyla ödeme planlarının nasıl 
 
 1. **Borç hesapları \> Ödeme kurulumu \> Ödeme planları**'na gidin.
 
-    [![Ödeme planları sayfası](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![Ödeme planları sayfası.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. Eylem bölmesinde, ödeme planı oluşturmak üzere **Yeni**'yi seçin ve gerekli ayrıntıları girin.
 3. **Tahsisat** alanında, ödeme planı için ödemeyi tahsis etmek üzere kullanılacak yöntemi seçin:

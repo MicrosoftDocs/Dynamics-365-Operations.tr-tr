@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809746"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344556"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO
 
@@ -53,7 +53,7 @@ Bu örnekte ürün model grubu, fiziksel değeri dahil edecek şekilde işaretle
 
 Yeni cari ortalama maliyet fiyatı, 15,00 ABD Doları tutarında mali olarak güncelleştirilen hareketlerin ortalamasını yansıtır. Aşağıdaki çizimde, **Fiziksel değeri dahil et** seçeneği kullanılmadığında LIFO stok modelinin bu hareket serisindeki etkileri gösterilmiştir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan LIFO](./media/lifowithoutincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan LIFO.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -89,7 +89,7 @@ Hareket 6a, 4b giriş hareketine ayarlanacaktır. Giriş mali değil, yalnızca 
 
 Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
 
-![Fiziksel Değeri Dahil Et Seçeneği ile LIFO](./media/lifowithincludephysicalvalue.gif) 
+![Fiziksel Değeri Dahil Et Seçeneği ile LIFO.](./media/lifowithincludephysicalvalue.gif) 
 
 **Diyagramın anahtarı**
 
@@ -133,7 +133,7 @@ Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziks
 
 Aşağıdaki çizimde çıkışlar ve girişler kullanıldığında LIFO stok modelinin bu hareket serisi üzerindeki etkileri gösterilmiştir. 
 
-![İşaretleme ile LIFO    ](./media/lifowithmarking.gif) 
+![İşaretleme ile LIFO.](./media/lifowithmarking.gif) 
 
 **Diyagram anahtarı**
 

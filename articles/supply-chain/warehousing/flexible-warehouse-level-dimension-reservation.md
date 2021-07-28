@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103058"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343786"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Esnek ambar düzeyi boyut rezervasyonu ilkesi
 
@@ -58,7 +58,7 @@ Bu senaryoda, bir şirket, mamul malların toplu iş numaralarına göre izlendi
 
 Bir *Toplu iş-\[yerleşim\] altı* stok rezervasyon hiyerarşisi ile ilişkilendirilmiş kalemler için toplu iş rezervasyon davranışında istenen esnekliği sağlamak için, stok yöneticilerinin, **Stok rezervasyonu hiyerarşileri** sayfasındaki **Toplu iş numarası** düzeyi için **Talep emrinde rezervasyona izin ver** onay kutusunu işaretlemeleri gerekir.
 
-![Stok rezervasyonu hiyerarşisini esnek hale getirme](media/Flexible-inventory-reservation-hierarchy.png)
+![Stok rezervasyonu hiyerarşisini esnek hale getirme.](media/Flexible-inventory-reservation-hierarchy.png)
 
 Hiyerarşide **Toplu iş numarası** düzeyi seçildiği zaman, o düzeyin üzerindeki ve **Yerleşim** düzeyine kadar olan tüm boyutlar otomatik olarak seçilir. (Varsayılan olarak **Yerleşim** düzeyinin üzerindeki tüm boyutlar önceden seçilmiştir.) Bu davranış, siz sipariş satırında belirli bir toplu iş numarasını rezerve ettikten sonra, toplu iş numarası ve yerleşim arasındaki aralıkta yer alan tüm boyutların da otomatik olarak rezerve edildiği mantığı yansıtır.
 
@@ -145,7 +145,7 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 
 6. **Toplu iş rezervasyonu** sayfasında toplu iş **B11** numaralı toplu işe ait satırı ve ardından **Satırı rezerve et**'i seçin. Otomatik rezervasyon sırasında yerleşimleri ve plakaları atamak için belirlenmiş bir mantık yoktur. Miktarı **Rezervasyon** alanına el ile girebilirsiniz. **Kaynak satırına taahhütlü toplu iş numaraları** hızlı sekmesinde, **B11** numaralı toplu işin **Taahhüt edilen** olarak gösterildiğine dikkat edin.
 
-    ![Toplu iş rezervasyonu sayfasındaki bir satış siparişi satırı için belirli bir toplu iş numarasını taahhüt etme](media/Batch-reservation-form-with-order-committed-reservation.png)
+    ![Toplu iş rezervasyonu sayfasındaki bir satış siparişi satırı için belirli bir toplu iş numarasını taahhüt etme.](media/Batch-reservation-form-with-order-committed-reservation.png)
 
     > [!NOTE]
     > Bir satış siparişi satırındaki miktarın rezervasyonu çoklu toplu işler arasında yapılabilir. Benzer şekilde, aynı toplu işin rezervasyonu birden çok yerleşime ve plakaya karşı yapılabilir (yerleşimler için plakalar etkinleştirilirse).
@@ -154,7 +154,7 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
 
 7. **Ürün bilgileri yönetimi** \> **Ürünler** \> **Serbest bırakılmış ürünler**'e gidin. Kaleminizi ve ardından **Stok yönetimi** \> **Görüntüle** \> **Hareketler**'i seçin.
 
-    ![Bir stok hareketi türü olarak sipariş taahhütlü rezervasyon](media/Inventory-transactions-for-order-committed-reservation.png)
+    ![Bir stok hareketi türü olarak sipariş taahhütlü rezervasyon.](media/Inventory-transactions-for-order-committed-reservation.png)
 
 8. Kalemin, satış siparişi satırı rezervasyonuna ilişkin stok hareketlerini inceleyin.
 
@@ -172,7 +172,7 @@ Bu örnek için, demo verilerinin yüklenmiş olması ve **USMF** demo veri şir
     - Sistem iş oluşturmak için, yerleşim yönergelerini değil sistem çalışma şablonlarını kullanır. Yeni işin oluşturulacağı zamanı belirlemek için, en fazla malzeme çekme satırı veya özel bir ölçü birimi gibi iş şablonları için tanımlanan tüm standart ayarlar uygulanır. Bununla birlikte, sipariş taahhütlü rezervasyon tüm stok boyutlarını zaten belirttiğinden, çekme yerleşimlerinin belirlenmesi ile ilgili yerleşim yönergeleriyle ilişkili kurallar dikkate alınmaz. Bu stok boyutları, ambar depolama düzeyindeki boyutları içerir. Bu nedenle, iş, yerleşim yönergelerine danışmak zorunda kalmadan bu boyutları devralır.
     - Toplu iş numarası, çekme satırında gösterilmez (ilişkili bir *Toplu iş-\[yerleşim\] altı* rezervasyon hiyerarşisi olan bir kalem için oluşturulan iş satırında olduğu gibi). Bunun yerine, "ilk" toplu iş numarası ve tüm diğer depolama boyutları, ilişkili stok hareketlerinden referansta bulunulan iş satırı iş stok hareketinde gösterilir.
 
-        ![Sipariş taahhütlü rezervasyondan kaynaklanan iş için ambar stok hareketi](media/Work-inventory-transactions-for-order-committed-reservation.png)
+        ![Sipariş taahhütlü rezervasyondan kaynaklanan iş için ambar stok hareketi.](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
     - İş oluşturulduktan sonra, **Referans** alanının **Sipariş taahhütlü rezervasyon** olarak ayarlandığı kalem stok hareketi kaldırılır. **Referans** alanının **İş** olarak ayarlandığı stok hareketi, miktarın tüm stok boyutlarında fiziksel rezervasyonu tutar.
 
@@ -207,7 +207,7 @@ Esnek plaka rezervasyonunu kullanabilmeniz için sisteminizde iki özelliğin et
 
 Bir siparişte plaka rezervasyonunu etkinleştirmek için ilgili öğeyle ilişkilendirilmiş olan hiyerarşi için **Stok rezervasyonu hiyerarşileri** sayfasındaki **Plaka** düzeyi için **Talep üzerine rezervasyona izin ver** onay kutusunu işaretlemeniz gerekir.
 
-![Esnek plaka rezervasyon hiyerarşisi için stok rezervasyonu hiyerarşileri sayfası](media/Flexible-LP-reservation-hierarchy.png)
+![Esnek plaka rezervasyon hiyerarşisi için stok rezervasyonu hiyerarşileri sayfası.](media/Flexible-LP-reservation-hierarchy.png)
 
 Plaka rezervasyonunu dağıtımınızdaki herhangi bir noktada, sipariş üzerinde etkinleştirebilirsiniz. Bu değişiklik, değişiklik yapılmadan önce oluşturulan rezervasyonları veya açık ambar işini etkilemez. Ancak, bu rezervasyon hiyerarşisiyle ilişkili bir veya daha fazla kalem için *Siparişte*, *Siparişli rezerve miktar* veya *Fiziksel rezerve miktar* sorun durumuna sahip giden açık stok hareketleri varsa **Talep emrinde rezervasyona izin ver** onay kutusunun işareti kaldırılamaz.
 
@@ -227,7 +227,7 @@ Sipariş taahhütlü bir plaka rezervasyonu kullanan satış siparişi satırı 
 
 Ambar iş maddesi tam palete eşit ve plaka taahhütlü miktarlara sahip satırlardan oluşuyorsa, **Plakaya göre işle** seçeneği *Evet* olarak ayarlanmış bir mobil cihaz menü öğesini kullanarak malzeme çekme işlemini optimize edebilirsiniz. Böylece bir ambar çalışanı, bir işe ait kalemleri tek tek taramak yerine, bir malzeme çekme işlemini tamamlamak için bir plakayı tarayabilir.
 
-![Plakaya göre işle seçeneğinin Evet olarak ayarlandığı mobil cihaz menü öğesi](media/Handle-by-LP-menu-item.png)
+![Plakaya göre işle seçeneğinin Evet olarak ayarlandığı mobil cihaz menü öğesi.](media/Handle-by-LP-menu-item.png)
 
 **Plakaya göre işle** işlevi, çoklu paletleri kapsayan işleri desteklemediğinden, farklı plakalar için ayrı bir iş maddesi olması daha iyidir. Bu yaklaşımı kullanmak için **Sipariş taahhüttlü plaka kimliği** alanını **İş şablonu** sayfasında ,iş üst bilgisi sonu olarak ekleyin.
 
@@ -249,7 +249,7 @@ Bu senaryo, Supply Chain Management için sağlanan standart tanıtım verilerin
 1. **Ad** alanına bir değer girin (örneğin *FlexibleLP*).
 1. **Açıklama** alanına bir değer girin (örneğin *Esnek LP rezervasyonu*).
 1. **Seçili** listede **Toplu iş numarası**, **Seri numarası** ve **Sahip** seçin.
-1. Seçili kayıtları **Kullanılabilir** listesine taşımak için **Kaldır** düğmesini ![geri ok](media/backward-button.png) seçin.
+1. **Kaldır** düğmesini ![geri ok.](media/backward-button.png) seçerek seçil kayıtları **Kullanılabilir** listesine taşıyın.
 1. **Tamam**'ı seçin.
 1. **Plaka** boyut düzeyinin satırında, **Talep emrinde rezervasyona izin ver** onay kutusunu seçin. **Konum** düzeyi otomatik olarak seçilir ve onay kutusunun işaretini kaldıramazsınız.
 1. **Kaydet**'i seçin.

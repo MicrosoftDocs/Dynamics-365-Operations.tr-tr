@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352482"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Kanal gezinme hiyerarşisi oluşturma
 
@@ -49,7 +49,7 @@ Kanal gezinti hiyerarşisi oluşturmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki resimde örnek bir kök düğüm gösteriliyor.
 
-![Örnek kök düğüm](media/create-channel-hierarchy-1.png)
+![Örnek kök düğüm.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Gezinme kategorisi düğümleri oluşturma
 
@@ -65,7 +65,7 @@ Kanaldaki ürün kategorilerini temsil edecek ek gezinme kategorisi düğümleri
 
 Aşağıdaki resimde, tamamlanmış kanal gezinme hiyerarşisinin bir örneği gösteriliyor.
 
-![Örnek kanal hiyerarşisi](media/create-channel-hierarchy-2.png)
+![Örnek kanal hiyerarşisi.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Kategori düğümlerine ürünler ekleme
 
@@ -81,7 +81,7 @@ Kategori düğümlerine ürünler eklemek için bu adımları izleyin.
 
 Aşağıdaki resimde, ürünler eklenmiş bir düğüm örneği gösteriliyor.
 
-![Kategori düğümüne ürünler ekleme](media/create-channel-hierarchy-3.png)
+![Kategori düğümüne ürünler ekleme.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Kategori düğümlerine ürün öznitelik grupları ekleme
 
@@ -97,7 +97,7 @@ Kategori düğümüne ürün öznitelik grubu eklemek için bu adımları izleyi
 
 Aşağıdaki resimde, ürün öznitelik grupları eklenmiş bir düğüm örneği gösteriliyor.
 
-![Düğümdeki ürün öznitelik grupları](media/create-channel-hierarchy-4.png)
+![Düğümdeki ürün öznitelik grupları.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

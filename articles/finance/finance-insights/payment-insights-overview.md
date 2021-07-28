@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186408"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355664"
 ---
 # <a name="customer-payment-predictions-preview"></a>Müşteriye ödeme tahminleri (önizleme)
 
@@ -53,11 +55,11 @@ Her açık fatura için özellik, üç ödeme olasılığından birini atar:
 
 Bu özellik ayrıca beklenen ödemelerin toplu görünümünü de sağlar.
 
-[![Ödeme tahminlerinin toplu görünümü](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Ödeme tahminlerinin toplu görünümü.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Her faturaya, zamanında ödeme yapılma olasılığı atanır. Zamanında ödeme olasılığı yüzde 50'nin altında olan faturalar, tahsilat temsilcisinin ilgilenmesinin gerekebileceğini belirtmek için kırmızı bir daireyle işaretlenir.
 
-[![Ödeme olasılıklarının listesi](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Ödeme olasılıklarının listesi.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Müşteri ödeme tahminleri özelliği, tahmini açıklamak için bağlam hakkında bilgiler de sağlar. Bu bilgiler arasında tahmini etkileyen başlıca etmenler, müşteriyle işin geçerli durumu ve müşterinin geçmiş ödeme davranışıyla ilgili ayrıntılar yer alır.
 

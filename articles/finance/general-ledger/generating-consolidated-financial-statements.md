@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dce0dd216d552d956ba7fdbcb4eebb6ed85b7115
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897876"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348974"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsolide mali tabloları oluşturma
 
@@ -38,19 +38,19 @@ Mali raporlamayı kullanarak konsolide etmek için en kolay yöntem aynı hesap 
 
 Aşağıdaki çizim, konsolide edeceğiniz her bir şirketi tanımlamak için Mali raporlamada raporlama ağacı tanımını nasıl kullanabileceğinizi gösterir.
 
-![Raporlama ağacı tanımı](./media/reporting-tree-definition.png "Raporlama ağacı tanımı")
+![Raporlama ağacı tanımı.](./media/reporting-tree-definition.png "Raporlama ağacı tanımı")
 
 Aşağıdaki çizimde, konsolide edilen raporun gösterdiği üzere raporlama ağacını rapor tanımı ile birlikte kullanırken her bir şirketi ayrı ayrı görüntüleyebilirsiniz. Özet düzeyinde konsolide tutarlar gösterilir.
 
-![Tutar özet düzeyini konsolide etme](./media/consolidate-amount-summary-level.png "Tutar özet düzeyini konsolide etme")
+![Tutar özet düzeyini konsolide etme.](./media/consolidate-amount-summary-level.png "Tutar özet düzeyini konsolide etme")
 
 İhtiyaç duyduğunuz birçok düzeyi içeren çok düzeyli bir raporlama ağacı da oluşturabilirsiniz. Aşağıdaki çizim, dünya çapında bölgelere göre toplamlara sahip olan çok düzeyli bir raporlama ağacı tanımını gösterir.
 
-![Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
+![Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı.](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Bölgelere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
 
 Aşağıdaki çizim, dünya çapında işlevlere göre toplamlara sahip olan çok düzeyli bir raporlama ağacı tanımını gösterir.
 
-![İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
+![İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı.](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "İşlevlere göre toplamları olan çok düzeyli raporlama ağacı tanımı")
 
 ### <a name="viewing-companies-side-by-side"></a>Şirketleri yan yana görüntüleme
 Birçok müşteri şirketlerin yan yana görüldüğü ve bir sütunun konsolide toplamı gösterdiği raporları tercih etmektedir. Raporlama ağacı oluşturduktan sonra bu biçimi kolaylıkla elde edebilirsiniz. Konsolide mali tablolarda şirketleri yan yana görüntülemek için üst düzey adımlar şunlardır.
@@ -61,19 +61,19 @@ Birçok müşteri şirketlerin yan yana görüldüğü ve bir sütunun konsolide
 
 Aşağıdaki çizim, yan yana biçimdeki bir sütun tanımını gösterir.
 
-![Yan yana biçimdeki sütun tanımı](./media/column-definition-side-by-side-format.png "Yan yana biçimdeki sütun tanımı")
+![Yan yana biçimdeki sütun tanımı.](./media/column-definition-side-by-side-format.png "Yan yana biçimdeki sütun tanımı")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Tüzel kişilikten oluşturulan kuruluş yapılarını kullanan konsolidasyonlar
 Boyutları veya tüzel kişilikleri içeren kuruluş hiyerarşileri Mali raporlamada dinamik olarak raporlama ağacı tanımlarını oluşturur. Konsolidasyonları kolaylaştırmanın kolay bir yolu Mali raporlamada raporunuza bir kuruluş hiyerarşisi eklemektir. Financial Reporting aşağıdaki çizimde gösterildiği üzere rapor tarihine bağlı olarak yürürlük tarihinde veya öncesinde kuruluş hiyerarşisini seçer.
 
-![Dinamik olarak raporlama ağacı tanımı oluşturma](./media/dynamically-create-reporting-tree-definitions.png "Dinamik olarak raporlama ağacı tanımı oluşturma")
+![Dinamik olarak raporlama ağacı tanımı oluşturma.](./media/dynamically-create-reporting-tree-definitions.png "Dinamik olarak raporlama ağacı tanımı oluşturma")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Elemeleri içeren konsolidasyonlar
 Eliminasyon hareketleri, konsolidasyon işleminin ortak bir bölümüdür. Bu örnekte konsolidasyon sırasında beş hesap elenmektedir: 142600, 211400, 401420, 401180 ve 510820. Şirketler, şirketlerarası hesaplarını farklı şekilde ayarlayabilir. Örneğin, hesap şirketlerarası hareketlerde kullanılıyorsa bazı şirketler son basamağı 9 olarak ayarlayabilir. Yöntemden bağımsız olarak, şirketlerarası hesapları biliyorsanız konsolide mali tablolarınızda eliminasyonları gösterebilirsiniz.
 
 Aşağıdaki çizim, konsolide gelir tablosu için bir sütun tanımı gösterir. Boyut filtresi kullanılarak her bir şirket için üç adet şirketlerarası kar ve zarar hesabı tanımlanır. F, G ve H sütunları yalnızca USMF, USRT ve DEMF şirketleri için eliminasyon hesaplarını içerir. Bu sütunlar mali tabloda **yazdırılmayacak** şeklinde ayarlanır.
 
-![Sütun tanımı konsolide gelir tablosu](./media/column-definition-consolidated-income-statement.png "Sütun tanımı konsolide gelir tablosu")
+![Sütun tanımı konsolide gelir tablosu.](./media/column-definition-consolidated-income-statement.png "Sütun tanımı konsolide gelir tablosu")
 
 Rapor oluşturulurken eliminasyon tutarları F, G ve H sütunlarında hesaplanır ve I sütununda toplanır. J sütunu konsolide tutarları gösterir. Bu konsolidasyon tutarlarına USMF, USRT ve DEMF şirketleri için olan eliminasyonlar dahil değildir.
 
@@ -82,7 +82,7 @@ Rapor oluşturulurken eliminasyon tutarları F, G ve H sütunlarında hesaplanı
 
 Aşağıdaki çizim, konsolide raporu gösterir.
 
-![Konsolide rapor gelir tablosu](./media/consolidated-report-income-statement.png "Konsolide rapor gelir tablosu")
+![Konsolide rapor gelir tablosu.](./media/consolidated-report-income-statement.png "Konsolide rapor gelir tablosu")
 
 Hesapları, boyutları veya her ikisini birden kullansanız da Mali raporlama size boyut filtreleme yeteneklerini kullanarak eliminasyon girişlerini filtreleme olanağı tanır.
 
@@ -95,20 +95,20 @@ Aşağıdaki çizimde gösterildiği üzere raporlama ağacı tanımında **Topl
 > [!NOTE]
 > Bu sahiplik yüzdesini sadece şirket düzeyinde değil herhangi bir raporlama birimi için de uygulayabilirsiniz. 
 
-![Raporlama ağacı tanım yüzdesini kullanma](./media/Using-reporting-tree-definition-percentage.png "Raporlama ağacı tanım yüzdesini kullanma")
+![Raporlama ağacı tanım yüzdesini kullanma.](./media/Using-reporting-tree-definition-percentage.png "Raporlama ağacı tanım yüzdesini kullanma")
 
 Rapor oluşturulurken Contoso Germany raporu satış tutarının yüzde 100'ünü gösterir ve tutarın yüzde 80'i satışlar için konsolide düzeyde tahsis edilir ve toplanır.
 
 Aşağıdaki çizimde gösterildiği üzere bir şirketin yüzde 1'inden azına sahipseniz **Rapor Ayarları** sayfasının **Ek Seçenekler** sekmesinde **%1'den az toplamaya izin ver** onay kutusunu seçebilirsiniz. Bu durumda raporlama ağacında **Toplama %'si** sütunundaki değerler yüzde 1'den az olarak değerlendirilir. Örneğin **,8** girerseniz konsolide düzey için yüzde 80 değil, yüzde 0,8 toplanır. Alternatif olarak **% 1'den az toplamaya izin ver** onay kutusunu boş bırakarak ve **Toplama %'si** sütununa **,008** girerek de aynı sonuca ulaşabilirsiniz.
 
-![Raporlama ayarı seçenekleri](./media/reporting-setting-options.png "Raporlama ayarı seçenekleri")
+![Raporlama ayarı seçenekleri.](./media/reporting-setting-options.png "Raporlama ayarı seçenekleri")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Konsolide raporda sahipliği ayrı bir satır olarak gösterme
 Azınlık hissesi için başka bir seçenek raporda her bir satırda yan kuruluşu yüzde 100 göstermek ama net gelirden kontrol gücü olmayan hisseyi çıkarmaktır.
 
 Aşağıdaki çizimde gösterildiği üzere mali raporlarda azınlık hissesini hesaplamak için satır tanımında bir **IF THEN ELSE** belirtimi ve sütun kısıtlaması kullanılabilir.
 
-![Konsolide raporda sahipliği ayrı bir satır olarak gösterme](./media/Showing-ownership-separate-row-consolidated-report.png "Konsolide raporda sahipliği ayrı bir satır olarak gösterme")
+![Konsolide raporda sahipliği ayrı bir satır olarak gösterme.](./media/Showing-ownership-separate-row-consolidated-report.png "Konsolide raporda sahipliği ayrı bir satır olarak gösterme")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Tüzel kişilikler arasındaki birden fazla hesap planları
 Çoğunlukla farklı tüzel kişilikler farklı hesap planlarına sahiptir ama hala konsolide mali tablolar oluşturmak isterler. Bu durumda verileri konsolide etmek için mali raporlama kullanılabilir, böylece konsolide mali raporlar oluşturabilirsiniz. Tüzel kişilikler arasında farklı hesap planları varken konsolide etmek için üst düzey adımlar şunlardır.
@@ -122,11 +122,11 @@ Mali boyutlar için birden fazla bağlantı her bir benzersiz şirket hesap plan
 > [!TIP]
 > **Mali Boyutlarla İlişkilendir** hücresi hakkında daha fazla bilgi için Mali Boyutlarla İlişkiyi Belirtin hücresine bakın.
 
-![İlk mali boyutlarla ilişkilendirme hesaplarını ayarlama](./media/set-accounts-first-Link-to-Financial-Dimensions.png "İlk mali boyutlarla ilişkilendirme hesaplarını ayarlama")
+![İlk mali boyutlarla ilişkilendirme hesaplarını ayarlama.](./media/set-accounts-first-Link-to-Financial-Dimensions.png "İlk mali boyutlarla ilişkilendirme hesaplarını ayarlama")
 
 Her bir şirket için satır tanımından hangi mali boyutlarla ilişkilendirmenin kullanılacağını tanımlamak için raporlama ağacı kullanabilirsiniz. Aşağıdaki çizimde gösterildiği üzere E sütununda satır tanımını seçin ve sonrasında F sütununda uygun satır bağlantısını seçin.
 
-![Kullanılan mali boyutlar satır tanımını ilişkilendirme](./media/link-financial-dimensions-row-definition-used.png "Kullanılan mali boyutlar satır tanımını ilişkilendirme")
+![Kullanılan mali boyutlar satır tanımını ilişkilendirme.](./media/link-financial-dimensions-row-definition-used.png "Kullanılan mali boyutlar satır tanımını ilişkilendirme")
 
 > [!TIP]
 > Mali boyutlar için ilişkilendirmeler oluştururken her bir ilişkilendirmenin uygulanacağı şirketi tanımlamak için açıklama kullanın. Bu şekilde, raporlama ağacı oluştururken doğru şirketi çok daha kolay seçebilirsiniz. Sütun tanımında **Raporlama Birimi** alanı her bir sütunu raporlama ağacının bir birimi için kısıtlamanıza olanak sağlar, böylece verileri yan yana görüntüleyebilirsiniz. Bir sütun için belirli bir şirket belirtmezseniz tüm şirketler için konsolide veriler gösterilir.
@@ -146,16 +146,16 @@ Farklı mali dönemlere sahip birden fazla şirket için sütun tanımı tasarla
 
 Aşağıdaki çizimde, USMF şirketi rapor tanımında **Şirket adı** alanında belirtilmektedir. Bu nedenle USMF şirketinin mali takvimi, temel mali takvim olarak kullanılır. Bu örnekte rapor 30 Haziran 2018 için oluşturulurken USMF şirketi rapor tanımında 12 dönem olarak tanımlanan ESAS dönemi kullanır. INMF şirketi 6 dönem olan TEMEL-6'yı kullanır. Her iki sütun da Temmuz 2018 verilerini içerir.
 
-![Esas dönemi raporlama](./media/report-base-period.png "Esas dönemi raporlama")
+![Esas dönemi raporlama.](./media/report-base-period.png "Esas dönemi raporlama")
 
 Aşağıdaki çizim, rapor tanımında konsolidasyon için kullanılmak üzere dönem numarasını veya dönem bitiş tarihini seçmenize olanak tanıyan seçenekleri gösterir.
 
-![Rapor tanımı dönem numarası seçenekleri](./media/options-report-definition-period-number.png "Rapor tanımı dönem numarası seçenekleri")
+![Rapor tanımı dönem numarası seçenekleri.](./media/options-report-definition-period-number.png "Rapor tanımı dönem numarası seçenekleri")
 
 ## <a name="business-unit-consolidations"></a>İş birimi konsolidasyonları
 Bu konuda, konsolidasyon amaçları için Mali raporlamada raporlama ağacı tanımlarının ve kuruluş hiyerarşisinin kullanılmasına odaklanılmaktadır. Ayrıca dünya çapında satışlar veya işlemlerle ilgili raporlar gibi iş birimi konsolidasyon raporları oluşturmak için raporlama ağacını kullanabilirsiniz. Bu raporlar ortak bir ihtiyaçtır. Bunları oluşturmak isterseniz konsolide etmek istediğiniz her bir birim için bir şirket ve bir boyut seçin. Örneğin, aşağıdaki çizimde iş birimi toplamı **Şirket** sütunundaki (A sütunu) her bir şirketi yineleyerek ve **Boyutlar** sütunundaki (D sütunu) her şirket için bir Departman boyut değerleri grubu tanımlayarak gerçekleştirilir.
 
-![İş birimi konsolidasyon raporları](./media/business-unit-consolidation-reports.png "İş birimi konsolidasyon raporları")
+![İş birimi konsolidasyon raporları.](./media/business-unit-consolidation-reports.png "İş birimi konsolidasyon raporları")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Birden fazla raporlama para birimi içeren konsolidasyonlar
 Mali raporlama, birden fazla para biriminde gerçek değer, bütçe, bütçe kontrolü ve bütçe planlama verilerini görüntülerken daha fazla esneklik sağlar. Karşıdan anahtar ayarlama verilerini getirerek, herhangi bir kullanıcı için herhangi bir zamanda herhangi bir para biriminde herhangi bir raporu görüntülemek için Mali raporlamada ek ayarlama yapmanıza gerek kalmaz.
@@ -168,7 +168,7 @@ Aşağıdaki çizimde gösterildiği üzere her bir hesap için ana hesapta **Ma
 - **Mali raporlama döviz kuru türü** alanında, hesaba uygulamak için para birimlerini ve döviz kurlarını içeren döviz kuru türünü seçin. Bu para birimleri ve döviz kurları tablosu, Mali raporlamada gerçek verilere uygulanır.
 - **Para birimi dönüştürme türü** alanında, hesap için döviz kurunu hesaplamada kullanılacak yöntemi seçin. Bu para birim yöntemi, Mali raporlamada hem gerçek değerler hem bütçe verileri için kullanılır.
 
-![Mali raporlama ana hesapları](./media/Financial-reporting-main-accounts.png "Mali raporlama ana hesapları")
+![Mali raporlama ana hesapları.](./media/Financial-reporting-main-accounts.png "Mali raporlama ana hesapları")
 
 Bütçe, bütçe kontrolü ve bütçe planlama verileri için döviz kuru türü **Genel Muhasebe** sayfasında tanımlıdır. Döviz kurlarını çekmek için bu tablo kullanılır ve hesap için atanan para birimi dönüştürme türü kullanılır.
 
@@ -199,15 +199,15 @@ Para birimi dönüştürme düzeltmesi (CTA), bilanço hesaplarını hesaplamak 
 
 - Aşağıdaki çizimde gösterildiği üzere satır tanımında **Yuvarlama Ayarlamaları** sayfasını kullanın.
 
-    ![Para birimi dönüştürme düzeltmesi yuvarlama ayarlamaları](./media/Currency-translation-adjustment-rounding-adjustments.png "Para birimi dönüştürme düzeltmesi yuvarlama ayarlamaları")
+    ![Para birimi dönüştürme düzeltmesi yuvarlama ayarlamaları.](./media/Currency-translation-adjustment-rounding-adjustments.png "Para birimi dönüştürme düzeltmesi yuvarlama ayarlamaları")
 
     Yuvarlama ayarlamasını (CTA), toplam kıymetler satırını, toplam borçlar ve öz varlık satırını ve memnun olduğunuz eşiği göstermesi gereken satırı belirttiğinizde, Mali raporlama farkı hesaplar ve istenilen satıra koyar. Aşağıdaki çizimde gösterildiği üzere **Yuvarlama Ayarlaması** adlı bir satır oluşturulur ve detaya gidilerek gösterilir.
 
-    ![Yuvarlama ayarlaması detayı](./media/rounding-adjustment-drill-down.png "Yuvarlama ayarlaması detayı")
+    ![Yuvarlama ayarlaması detayı.](./media/rounding-adjustment-drill-down.png "Yuvarlama ayarlaması detayı")
 
 - Tüm hesapları kıymetlerden giderlere bir aralığa koyun. Aşağıdaki çizimde gösterildiği üzere fark, yuvarlama ayarlaması (CTA) ile aynı tutarda olur. Bu nedenle bunu, yuvarlama ayarlaması sayfasında atlanan herhangi bir hesap bakiyesi olmadığından emin olmak için denetim toplamı olarak kullanabilirsiniz.
 
-    ![Yuvarlama ayarlaması form denetimi](./media/rounding-adjustment-form-check.png "Yuvarlama ayarlaması form denetimi")
+    ![Yuvarlama ayarlaması form denetimi.](./media/rounding-adjustment-form-check.png "Yuvarlama ayarlaması form denetimi")
 
 ### <a name="balance-calculation-approach"></a>Bakiye hesaplama yaklaşımı
 Mali raporlama, para birimleri kullanılırken doğru şekilde dönüştürülmüş tutarlar elde etmek üzere bakiyeler için aşağıdaki hesaplama yöntemlerini kullanır:

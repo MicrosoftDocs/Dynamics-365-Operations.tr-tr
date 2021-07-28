@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018990"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356811"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Yazılı müşteri faturalarını karma numaralarla arşivle
 
@@ -60,5 +60,5 @@ Müşteri verilerini yapılandırmak ve yazdırılan faturaları otomatik olarak
 
 Yazdırılan fatura için **ekler** sayfasını açın. **Ek** hızlı sekmesinde, **Ek ayrıntılar** alan grubunda, **belge karması numarası** alanında, yazdırılan fatura için hesaplanan kaydedilmiş karma numarayı bulun.
 
-![Ek karma numarası](media/attach-hash-num.jpg)
+![Ek karma numarası.](media/attach-hash-num.jpg)
 

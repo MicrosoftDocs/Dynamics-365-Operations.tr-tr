@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093932"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351669"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Uygunluk kurallarını ve seçeneklerini yapılandırma
 
@@ -137,20 +137,20 @@ Birden çok ölçütü olan kurallar tanımlayabilirsiniz. Uygunluk kuralı içi
 
 Examplem için, Yukarıdaki **etkin çalışanlar** kuralı aşağıdaki ölçütlerden oluşur. Çalışanın **etkin çalışanlar** kuralına dayalı olarak uygun olabilmesi için , çalışanın yasal MF varlığında *ve* tam zamanlı bir pozisyon türüne sahip olması gerekir.  
 
-![Uygunluk kuralı içindeki ölçütler](media/CriteriaWithinAnEligibilityRule.png) 
+![Uygunluk kuralı içindeki ölçütler.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Ölçüt içinde birden çok koşul
 
 Kurallar, tek bir ölçüt içinde çoklu koşulları kullanmak üzere daha fazla genişletilebilir. Çalışan, uygun olması için en az bir koşulu karşılamalıdır. Yukarıdaki örnekte oluşturmak için, **etkin çalışanlar** kuralı, aynı zamanda yarı zamanlı çalışan çalışanları içerecek şekilde daha da genişletilebilir. Sonuç olarak, artık çalışan USMF'de çalışan *ve* tam zamanlı veya yarı zamanlı çalışan olmalıdır.  
 
-![Ölçüt içinde birden çok koşul](media/MultipleConditionsWithinCriteria.png) 
+![Ölçüt içinde birden çok koşul.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Özel alan ölçütündeki uygunluk koşulları 
 Yukarıdakiyle benzerlik olarak, özel alanlar uygunluk kuralları oluştururken ve aynı şekilde çalışırken kullanılabilir. Örneğin, internet maliyetleri bu konumlarda daha yüksek olduğu için evden çalışan Fargo ve Kopenhag çalışanlarına Internet geri ödeme teklif etmek isteyebilirsiniz. Bunu yapmak için, iki özel alan oluşturun: **Office konumu** (seçim listesi) ve **evden çalışma** (onay kutusu). Sonra **WFH Çalışanları** adında bir kural oluşturun. Kural ölçütü, **Office konumu = Fargo** veya **Kopenhag** *ve* **Evden çalışma = Evet** şeklindedir.
 
 En özel uygunluk kurallarının aşağıdaki görüntüde belirtildiği gibi ayarlanması gerekir. 
 
-![Özel alan ölçütündeki uygunluk koşulları](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Özel alan ölçütündeki uygunluk koşulları.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Ürün demetlerini yapılandırma
 

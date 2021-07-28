@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745701"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343946"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Finance and Operations uygulamaları için Yardım deneyimini yapılandırma
 
@@ -32,7 +32,7 @@ Bu konuda, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management,
 
 Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/dynamics365/) sitesinde yayınlanan kavramsal genel bakışları ve diğer konuları içerir. Bu içeriğe daha sonra ürün içi **Yardım** bölmesinden erişilebilir. Aşağıdaki örnek Yardım sisteminin bölümlerini gösterir.
 
-[![Yardım mimarisi](./media/help-architecture.png)](./media/help-architecture.png)
+[![Yardım mimarisi.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Ürün içi Yardım sistemi, docs.microsoft.com ve bağlı diğer web sitelerinden makaleler alır. Ayrıca Microsoft Dynamics Lifecycle Services (LCS) içindeki İş Süreci Modelleyici'de (BPM) saklanan görev kılavuzlarını da çeker.
 
@@ -47,14 +47,14 @@ Finance and Operations uygulamaları, [https://docs.microsoft.com/dynamics365](/
 > - Yardım'ı yapılandırmak için uygulamanın dağıtıldığı kiracıyla aynı kiracıda bir hesap kullanarak oturum açmanız gerekir.
 > - LCS kitaplığına, uygulamanın yerel bir sanal sabit sürücüde (VHD) çalışan bir örneğinden bağlanılamaz.
 
-[![Yardım ayarlarıyla Sistem Parametreleri formu](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Yardım ayarlarıyla Sistem Parametreleri formu.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Çözüm için görev kılavuzlarını yapılandırmak üzere **Sistem parametreleri** sayfasındaki şu adımları izleyin.
 
 > [!IMPORTANT]
 > **Yardım** sekmesini ilk kez açtığınızda Lifecycle Services'e bağlanmanız gerekir. Formun ortasındaki bağlantıyı seçtiğinizden emin olun, bağlantı için bekleyin, iletişim kutusunu kapatın ve **Sistem parametreleri** sayfasına ulaşmak için **Tamam**'ı seçin.
 >
-> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlan")](./media/connect-to-lcs-crop.png)
+> [![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png "LCS'ye bağlan."](./media/connect-to-lcs-crop.png)
 
 1. Bağlanmak için Lifecycle Hizmetleri projesini seçin.
 2. Görev kayıtlarını almak için BPM kitaplıkları (Seçili proje içinde) seçin.

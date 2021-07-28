@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085512"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351164"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektronik raporlama (ER) hedefleri
 
@@ -62,7 +62,7 @@ Bir ER biçimi yapılandırmasının varsayılan davranışı, ER biçimi başla
 > [!NOTE]
 > İş açıklaması, bir ER biçimi eşlemesinin çalışması hakkında bilgi verir. Ayrıca çalıştırılan ER bileşeninin adını da içerir:
 
-[![ER biçimi çalıştırma](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![ER biçimi çalıştırma.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Bu işle ilgili bilgileri birkaç yerde bulabilirsiniz:
 
@@ -74,17 +74,17 @@ Bu işle ilgili bilgileri birkaç yerde bulabilirsiniz:
 
 - İş yürütme sırasında oluşturulan hataların ve uyarıların listesini görmek için **Elektronik raporlama işleri** sayfasında, **Dosyaları göster**'i seçin.
 
-    [![ER işleri listesini gözden geçirme](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![ER işleri listesini gözden geçirme.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Kullanıcı tarafından yapılandırılan davranış
 
 **Elektronik raporlama hedefi** sayfasında, bir yapılandırma için varsayılan davranışı geçersiz kılabilirsiniz. Siz **Yeni** ve ardından **Referans** alanını seçene kadar içe aktarılan yapılandırmalar bu sayfada gösterilmez, hedef ayarlarını oluşturmak için bir yapılandırma seçin.
 
-[![Referans alanında bir yapılandırma seçmek](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Referans alanında bir yapılandırma seçme.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Referans oluşturduktan sonra, başvurulan ER biçiminin her bir **Klasör** veya **Dosya** çıktı bileşeni için bir dosya hedefi oluşturabilirsiniz.
 
-[![Bir dosya hedefi oluşturma](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Bir dosya hedefi oluşturma.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Bunun ardından, **Hedef ayarları** iletişim kutusunda dosya için tekil hedefleri etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
 
@@ -92,7 +92,7 @@ Bunun ardından, **Hedef ayarları** iletişim kutusunda dosya için tekil hedef
 
 Örneğin, Excel biçiminde bir giden belge oluşturmak için kullanılan bir dosya bileşeni için dosya hedeflerini yapılandırmak amacıyla bu özelliği kullanabilirsiniz. Bir hedef ([Arşiv](er-destination-type-archive.md)), özgün Excel dosyasını ER işleri arşivinde depolayacak şekilde ve bir başka hedef de ([E-posta](er-destination-type-email.md)) aynı anda Excel dosyasını PDF biçimine [dönüştürecek](#OutputConversionToPDF) ve PDF dosyasını e-postayla gönderecek şekilde yapılandırılabilir.
 
-[![Tek bir biçim öğesi için birden çok hedef yapılandırma](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Tek bir biçim öğesi için birden çok hedef yapılandırma.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Bir ER biçimi çalıştırdığınızda, biçim bileşenleri için yapılandırılan tüm hedefler her zaman çalıştırılır. Ayrıca, Finance **10.0.17 sürümünde ve sonraki sürümlerde**, ER hedefleri işlevi iyileştirilmiştir ve tek bir ER biçimi için farklı hedef kümelerini yapılandırmanıza izin verir. Bu yapılandırma, her kümeyi belirli bir kullanıcı eylemine göre yapılandırılmış olarak işaretler. Kullanıcının ER biçimini çalıştırarak gerçekleştirdiği eylemin sağlanabilmesi için ER API'si [uzatılmıştır](er-apis-app10-0-17.md). Sağlanan eylem kodu, ER hedeflerine geçirilir. Sağlanan eylem koduna bağlı olarak ER biçiminin farklı hedeflerini çalıştırabilirsiniz. Daha fazla bilgi için bkz. [Eyleme bağlı ER hedeflerini yapılandırma](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Yalnızca içe aktarılan ER yapılandırmaları ve **Elektronik raporlama yapı
 
 Seçilen biçimin dosya hedeflerini yapılandırırken, bunları tüm biçim için yapılandırın.
 
-[![Yapılandırma bağlantısı](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Yapılandırma bağlantısı.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Aynı zamanda, geçerli Finance kurulumuna aktarılmış olan biçimin birden çok [sürümüne](general-electronic-reporting.md#component-versioning) sahip olabilirsiniz. **Referans** alanını seçerken sunulan **Yapılandırma** bağlantısını seçerseniz bunları görüntüleyebilirsiniz.
 
-[![Yapılandırma sürümleri](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Yapılandırma sürümleri.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Varsayılan olarak, yapılandırılan hedefler yalnızca **Tamamlandı** veya **Paylaşıldı** durumundaki bir ER biçimi sürümü çalıştırdığınız zaman uygulanır. Ancak, bazen bir ER biçiminin taslak sürümü çalıştırıldığında, yapılandırılmış hedefleri kullanmanız gerekir. Örneğin, biçiminizin bir taslak sürümünü değiştirirsiniz ve oluşturulan çıktının nasıl teslim edileceğini test etmek için, yapılandırılan hedefleri kullanmak isteyebilirsiniz. Taslak sürüm çalıştırıldığında bir ER biçimine yönelik hedefleri uygulamak için bu adımları izleyin.
 
@@ -128,7 +128,7 @@ Varsayılan olarak, yapılandırılan hedefler yalnızca **Tamamlandı** veya **
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Taslak durumu için hedefleri kullan** seçeneğini **Evet** olarak ayarlayın.
 
-[![Taslak durumu için hedefleri kullan seçeneği](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Taslak durumu için hedefleri kullan seçeneği.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 ER biçiminin taslak sürümünü kullanmak için, ER biçimini buna uygun olarak işaretlemeniz gerekir.
 
@@ -136,11 +136,11 @@ ER biçiminin taslak sürümünü kullanmak için, ER biçimini buna uygun olara
 2. **Yapılandırmalar** sayfasındaki Eylem Bölmesinde, **Yapılandırmalar** sekmesinin **Gelişmiş ayarlar** grubunda **Kullanıcı parametreleri**'ni seçin.
 3. **Ayarı çalıştır** seçeneğini **Evet** olarak ayarlayın.
 
-[![Ayarı çalıştır seçeneği](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Ayarı çalıştır seçeneği.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Siz bu kurulumu tamamlandıktan sonra, **Taslağı çalıştır** seçeneği, değiştirdiğiniz ER biçimleri için kullanılabilir hale gelir. Biçim çalıştırıldığında, biçimin taslak sürümünü kullanmaya başlamak için bu seçeneği **Evet** olarak ayarlayın.
 
-[![Taslağı çalıştır seçeneği](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Taslağı çalıştır seçeneği.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Hedef başarısızlığı işleme
 
@@ -148,7 +148,7 @@ Genellikle, bir ER biçimi, belirli bir iş süreci kapsamında çalıştırıl�
 
 Diyelim ki satıcı ödeme işlemini, **ISO20022 Alacak Transferi** ER biçimi çalıştırılıp ödeme dosyası ve ek belgeler (örneğin kapak sayfası ve kontrol raporu) oluşturulacak şekilde yapılandırıyorsunuz. Bir ödeme ancak kapak sayfası e-posta yoluyla başarılı bir şekilde teslim edilirse başarıyla işlenmiş kabul edilecekse, aşağıdaki çizimde gösterildiği gibi, ilgili dosya hedefindeki **CoveringLetter** bileşeni için **Hata durumunda işlemeyi durdur** onay kutusunu seçmeniz gerekir. Bu durumda, işlem için seçilen ödemenin durumu, yalnızca, oluşturulan kapak sayfasının e-postayla teslimi, Finance kurulumunda yapılandırılmış e-posta sağlayıcısı tarafından başarıyla kabul edildiği zaman **Hiçbiri**'nden **Gönderildi**'ye değişecektir.
 
-[![Dosya hedefi hatası için işlem işlemeyi yapılandırma](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Dosya hedefi hatası için işlem işlemeyi yapılandırma.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Hedefteki **CoveringLetter** bileşeni için **Hata durumunda işlemeyi durdur** onay kutusunun işaretini kaldırırsanız, kapak sayfası e-postayla başarılı bir şekilde teslim edilmese bile ödemenin başarıyla işlendiği kabul edilecektir. Örneğin, alıcının veya gönderenin e-posta adresi eksik veya yanlış olduğu için kapak yazısı gönderilemese bile, **Hiçbiri** olan ödeme durumu **Gönderildi** olarak değiştirilir.
 
@@ -160,7 +160,7 @@ Microsoft Office (Excel veya Word) biçimindeki çıktıyı PDF biçimine dönü
 
 PDF dönüştürme seçeneğinin geçerli Finance kurulumunda kullanılabilmesini sağlamak için **Özellik yönetimi** çalışma alanını açın ve **Elektronik raporlama giden belgelerini Microsoft Office biçimlerinden PDF'e dönüştür** özelliğini etkinleştirin.
 
-[![Özellik yönetiminde giden belgeler için PDF dönüştürme özelliğini açma](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Özellik yönetiminde giden belgeler için PDF dönüştürme özelliğini açma.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Uygulanabilirlik
 
@@ -185,13 +185,13 @@ Katıştırılmış yazı tipi içermeyen bir çıktıyı dönüştürmek için 
 
 PDF dönüştürmeyi bir dosya hedefi için açmak için **PDF'e dönüştür** onay kutusunu seçin.
 
-[![PDF dönüştürmeyi bir dosya hedefi için açma](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![PDF dönüştürmeyi bir dosya hedefi için açma.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">PDF dönüştürmesi için bir sayfa yönlendirmesi seçin</a>
 
 Excel biçiminde bir ER yapılandırması oluşturur ve bunu PDF formatına dönüştürmek istiyorsanız, PDF belgesinin sayfa yönünü belirleyebilirsiniz. Excel biçiminde bir çıktı dosyası üreten bir dosya hedefi için PDF dönüştürmesini açmak üzere **PDF 'ye Dönüştür** onay kutusunu seçtiğinizde, **sayfa yönlendirme** alanı **PDF dönüştürme ayarları** hızlı sekmesinde kullanılabilir. **Sayfa yönlendirme** alanında, tercih edilen yönlendirmeyi seçin.
 
-[![PDF dönüştürmesi için bir sayfa yönlendirmesi seçin](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![PDF dönüştürmesi için bir sayfa yönlendirmesi seçme.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > PDF sayfa yönlendirmesini belirleme seçeneğine sahip olmak için, Finance 10.0.10 sürümünü veya sonraki bir sürümü yüklemelisiniz.
@@ -222,7 +222,7 @@ ER biçiminizin **Klasör** bileşeni için bir hedef yapılandırdığınızda,
     > [!NOTE]
     > **Dosyaları ayır**'ı seçtiğinizde, oluşturulan çıktı bellekte sıkıştırılmış durumda toplanır. Bu nedenle, gerçek dosya boyutu bu sınırı aşabileceği zaman sıkıştırılmış çıktı için en büyük [dosya boyutu sınırı](er-compress-outbound-files.md) uygulanır. Oluşturulan çıktının boyutunun da oldukça büyük olmasını beklediğinizde bu değeri seçmenizi öneririz.
 
-[![Klasör biçimi bileşeni için hedef yapılandırma](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Klasör biçimi bileşeni için hedef yapılandırma.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Sınırlamalar
 

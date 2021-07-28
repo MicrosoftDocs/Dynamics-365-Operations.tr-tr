@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813761"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347128"
 ---
 # <a name="schedule-work-orders"></a>İş emirlerini planla
 
@@ -56,7 +56,7 @@ Yalnızca planlamaya izin veren iş emri yaşam döngüsü durumuna sahip iş em
 
 *Örnek:* Aşağıdaki şekilde, **Beklenen başlangıç** alanına eklenen formül, şu andan itibaren bir hafta ve sonrası olan beklenen başlangıç tarihine sahip tüm iş emirleri için iş emri planlaması oluşturur. Bu formül iş emri planlamasını sürekli olarak çalıştırdığınızda ancak sonraki 5-6 gün için planlanan iş emirlerinin yeniden planlanmadığından emin olmak istediğinizde yararlı olabilir.
 
-![Şekil 1](media/03-work-order-scheduling.png)
+![Şekil 1.](media/03-work-order-scheduling.png)
 
 İş emirleriyle ilgili iş emri türü bir bakım görevlisi için planlama ayarlayabilir (**Varlık yönetimi** > **Kurulum** > **İş emirleri** > **İş emri türleri** > **Bir bakım görevlisi** düğmesi "Evet" olarak ayarlanır). Bu, iş emri türünün bir iş emrinde kullanılıyor olması durumunda, **Bir bakım görevlisi** düğmesinin **Tüm iş emirleri** ayrıntıları sayfası > **Başlık** görünümü > **Planla** hızlı sekmesinde otomatik olarak "Evet" olarak ayarlanacağı anlamına gelir. İş emri planlama sırasında, iş emrinde oluşturulan tüm iş emri işleri aynı bakım çalışanına planlanacaktır. Gerekirse, iş emri işlerinde birçok çalışanın veya bir çalışanın planlanmasına izin vermek için **Tüm iş emirlerindeki** **Bir bakım görevlisi** düğmesindeki seçimi düzenleyebilirsiniz.
 

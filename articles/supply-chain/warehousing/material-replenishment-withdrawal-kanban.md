@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356939"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Çekme kanbanlarıyla stok yenileme
 
@@ -35,7 +35,7 @@ Bu konu, çekme kanbanının malzeme stok yenileme ve üretim etkinlikleri için
 
 Aşağıdaki senaryo, bir çekme sinyalinin bir üretim işlemi için malzemenin yenilenmesini tetikleyen bir kanbanın oluşturulduğu, çekme tabanlı bir stok yenileme sistemini gösterir. 
 
-[![Çekme sinyali, üretim işlemi için bir stok yenilenmesi amacıyla bir kanbanın oluşturulmasını tetikler](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Çekme sinyali, üretim işlemi için bir stok yenilenmesi amacıyla bir kanbanın oluşturulmasını tetikler.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Çekme kanbanı
 2.  Kanban "kaynak" konumu ve ambar işi için koyma konumu
@@ -72,7 +72,7 @@ Ambar konumları ve üretim giriş konumu arasındaki mesafe kısaysa, transfer 
 
 Aşağıdaki senaryoda, çekme kanbanının transfer etkinliği, aynı ambardaki iki konum arasında transfer etmek üzere yapılandırılmıştır. Çekme kanbanının transfer etkinliği, otomatik tamamlanmak üzere ayarlanmıştır. 
 
-[![Kanban çekme işi işlendiğinde transfer etkinliği otomatik tamamlanır](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Kanban çekme işi işlendiğinde transfer etkinliği otomatik tamamlanır.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Hammadde ve üretim için paylaşılan ambar
 2.  Hammaddeler için ambar konumları

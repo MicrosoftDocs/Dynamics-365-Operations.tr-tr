@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e119eee82b1438dd8c3ccbaf2d54962b59fe6ae3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47fd386875e3000d579890ae58a462b643ef1876
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360934"
 ---
 # <a name="counters"></a>Sayaçlar
 
@@ -62,7 +62,7 @@ Bir sayaç kaydı el ile veya üretim saatlerine veya üretilen miktara göre ot
 
 Varlık türleri **Sayaçlar**'daki bir sayaç türüne eklendiğinde bu sayaç otomatik olarak  [Varlık türleri](../setup-for-objects/object-types.md)'ndeki **Sayaçlar** hızlı sekmesinde bulunan varlık türlerine eklenir.
 
-![Şekil 1](media/071-setup-for-objects.png)
+![Şekil 1.](media/071-setup-for-objects.png)
 
 
 

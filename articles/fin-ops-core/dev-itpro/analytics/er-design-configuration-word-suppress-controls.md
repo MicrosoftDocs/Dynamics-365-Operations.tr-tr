@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 8c99203110cfdc7f8123c30488611d55f48e8f67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753621"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348056"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Oluşturulan raporlarda Word içerik denetimlerini gizleme
 
@@ -63,7 +63,7 @@ Ayrıca örnek rapor için aşağıdaki şablonu indirmeli ve kaydetmelisiniz:
     > [!NOTE]
     > Tekrarlanan içerik denetimi, eşlendiği özel XML parçasının alanıyla eşleşen **summarylines** anahtarı tarafından etiketlenir.
 
-    ![Word şablonu düzeni](./media/er-design-configuration-word-suppress-controls-image1.gif)
+    ![Word şablonu düzeni.](./media/er-design-configuration-word-suppress-controls-image1.gif)
 
 ## <a name="select-the-existing-er-report-configuration"></a>Mevcut ER rapor yapılandırmasını seçme
 
@@ -98,7 +98,7 @@ Aşağıdaki adımlarda, daha önce sözü edilen görev kılavuzlarındaki adı
 7. **Tamam**'ı seçin.
 8. **Elektronik rapor parametreleri** iletişim kutusunda **Tamam**'ı seçin ve oluşturulan çıktıyı analiz edin.
 
-    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler](./media/er-design-configuration-word-suppress-controls-image2.gif)
+    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler.](./media/er-design-configuration-word-suppress-controls-image2.gif)
 
     Çıktı Word biçiminde sunulur ve Özet bölümünü içerir.
 
@@ -149,7 +149,7 @@ Oluşturulan bir belgede Özet bölümünü gizlemek istiyorsanız, bu ER biçim
 
 9. Düzenlenebilir biçime yaptığınız değişiklikleri kaydetmek için **Kaydet**'i seçin.
 
-    ![Word biçiminde oluşturulan çıktı](./media/er-design-configuration-word-suppress-controls-image3.gif)
+    ![Word biçiminde oluşturulan çıktı.](./media/er-design-configuration-word-suppress-controls-image3.gif)
 
 ## <a name="run-the-modified-format-to-create-word-output"></a>Word çıktısı oluşturmak için değiştirilen biçimi yürütme
 
@@ -163,7 +163,7 @@ Oluşturulan bir belgede Özet bölümünü gizlemek istiyorsanız, bu ER biçim
 8. **Elektronik rapor parametreleri** iletişim kutusunda **Özet bölümünü gizle** alanında **Evet**'i seçin.
 9. **Tamam**'ı seçin ve oluşturulan çıktıyı analiz edin.
 
-    ![Word biçiminde oluşturulan çıktı](./media/er-design-configuration-word-suppress-controls-image4.gif)
+    ![Word biçiminde oluşturulan çıktı.](./media/er-design-configuration-word-suppress-controls-image4.gif)
 
     Gizlenmiş olduğu için, çıktıda Özet bölümü bulunmadığına dikkat edin.
 

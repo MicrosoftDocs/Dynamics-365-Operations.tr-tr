@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347770"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Stok yenileme yöntemleri ve miktar değişikliği
 
@@ -34,15 +34,15 @@ Planlamayı En İyi Duruma Getirme'de aşağıdaki karşılama kodları kullanı
 
 - **Dönem**: Ürün için bir döneme ait tüm talepleri tek bir siparişte olacak şekilde birleştiren stok karşılama yöntemi. Sipariş dönemin ilk günü için planlanacaktır ve miktarı ayarlanan dönem içindeki net gereksinimleri karşılayacaktır. Dönem, ürüne yapılan ilk taleple başlar ve tanımlanan süreyi olduğu gibi kapsar. Sonraki dönem, ürünün sonraki gereksinimleri itibarıyla başlar. *Dönem* karşılama kodu genellikle tahmin edilemeyen stok çekme, sezondan etkilenen ürünler veya yüksek maliyetli ürünler için kullanılır. Aşağıdaki şekilde bir örneği gösterilmiştir.
 
-    ![Dönem karşılama kodu kullanımı örneği](./media/coverage-code-period.png "Dönem karşılama kodu kullanımı örneği")
+    ![Dönem karşılama kodu kullanımı örneği.](./media/coverage-code-period.png "Dönem karşılama kodu kullanımı örneği")
 
 - **Gereksinim**: Sistemin ürün için her gereksinim başına bir planlı satınalma, transfer veya üretim emri oluşturduğu stok yenileme yöntemidir. Bu yöntem, aralıklı talebi olan pahalı ürünler için kullanılır. *Gereksinim* karşılama kodu genellikle yapılandırılabilir ürünler veya siparişe göre üretim senaryoları için kullanılır. Aşağıdaki şekilde bir örneği gösterilmiştir.
 
-    ![Gereksinim karşılama kodu kullanımı örneği](./media/coverage-code-requirement.png "Gereksinim karşılama kodu kullanımı örneği")
+    ![Gereksinim karşılama kodu kullanımı örneği.](./media/coverage-code-requirement.png "Gereksinim karşılama kodu kullanımı örneği")
 
 - **Minimum/Maksimum** – Stok yenileme yöntemi stok düzeyini temel alır. Tahmin edilen eldeki düzey belirli bir eşiğin altında olduğunda, stoğun belirli bir düzeye kadar yenilenmesini tanımlar. Stok yenileme miktarı maksimum düzey ve eldeki tahmini düzey arasındaki fark olur. *Min./Maks.* karşılama kodu genellikle öngörülebilir stok çekme, hızlı giden öğeler veya daha ucuz ürünler için kullanılır. Aşağıdaki şekilde bir örneği gösterilmiştir.
 
-    ![Min./Maks. karşılama kodu kullanımı örneği](./media/coverage-code-min-max.png "Min./Maks. karşılama kodu kullanımı örneği")
+    ![Min./Maks. karşılama kodu kullanımı örneği.](./media/coverage-code-min-max.png "Min./Maks. karşılama kodu kullanımı örneği")
 
 - **El ile**: Sistemin ürün için satın alma, transfer veya üretim emirleri önermediği stok yenileme yöntemi. Bunun yerine, ürünün planlayıcısı, ürün stoğunun yenilenmesi için gerekli siparişleri oluşturmaktan sorumludur. *Manuel* karşılama kodu genellikle sistem tarafından oluşturulan planlı siparişlerin istenmediği ürünler için kullanılır.
 
