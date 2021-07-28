@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352626"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Çağrı merkezi teslimat şekillerini ve masraflarını yapılandırma
 
@@ -65,11 +65,11 @@ Masraflar belirli bir teslimat şekline, bir teslimat şekli grubuna veya tüm t
 
 Şirketleri genellikle katmanlı masraflar yapılandırır. Bu durumda, müşterinin teslimat için ödeyeceği tutar için, sipariş değeri baz alınır. Katmanlı masrafları yapılandırmak için, **Masraf değeri** alanında masrafın kendisini tanımlamaya ek olarak, **Başlangıç tutarı** ve **Bitiş tutarı** alanlarına değerler girin. Örneğin 50 liradan daha düşük değerli siparişlerde, satıcı, karayoluyla sevkiyat için 5,95 lira masraf alır. Değeri 50 lira ve üzerinde olan ama 100 liradan düşük siparişlerde satıcı 7,95 lira masraf alır. Son olarak, değeri 100 lira ve üzerinde olan siparişlerde satıcı ücretsiz sevkiyat sunar. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
 
-![Sabit katmanlı masraflar örneği](media/fixedtieredcharges.png)
+![Sabit katmanlı masraflar örneği.](media/fixedtieredcharges.png)
 
 İş gereksinimlerinize bağlı olarak, masraflar için bir kategoriler karışımı kullanabilirsiniz. Örneğin değeri 100 liranın altında olan tüm siparişlerde sevkiyat için sabit 9,95 lira masraf vardır. Bu durumda değeri 100 liranın üzerindeki siparişlerde teslimat masrafları, sipariş değerinin yüzde 5'i oranıyla hesaplanır. Aşağıdaki çizimde bu masrafların yapılandırması gösterilmektedir.
 
-![Karma katmanlı masraflar örneği](media/mixedtieredcharges.png)
+![Karma katmanlı masraflar örneği.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Bir çağrı merkezinde sipariş girişi sırasında teslimat şekillerini uygulama
 

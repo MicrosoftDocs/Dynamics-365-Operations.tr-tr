@@ -1,6 +1,6 @@
 ---
-title: Finance Insights için Yapılandırma (10.0.19 sürümüne kadar)
-description: Bu konuda, sisteminizin Finance Insights'da (10.0.19 sürümüne kadar) sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
+title: Finance Insights için Yapılandırma - 10.0.19 sürümü öncesi
+description: Bu konuda, sisteminizin Finance Insights'da (10.0.19 sürümü öncesi) sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 author: ShivamPandey-msft
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ad06bb6d041fc060b3a99538f6d4d0af333180f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 6b578962839a34a1e2ce0311f7d8e7ee57a10927
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186432"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357450"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Mali içgörüler için yapılandırma (önizleme)
+# <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Özel önizleme için Finance Insights yapılandırması (önizleme) - sürüm 10.0.19 öncesi
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "6186432"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Finance Insights'ı ayarlamak için aşağıdaki yordamlar, 10.0.19'a kadar Microsoft Dynamics 365 Finance sürümleri için geçerlidir. Finance Insights'ı sürüm 10.0.20 ve sonrasında ayarlamak için bkz. [Sürüm 10.0.20 ve sonrasında Finance Insights yapılandırmaları](configure-for-fin-insites-PubPrvw.md).
+> Finance Insights'ı ayarlamak için aşağıdaki yordamlar, Microsoft Dynamics 365 Finance 10.0.19 öncesi sürümleri için geçerlidir. Finance Insights'ı sürüm 10.0.20 ve sonrasında ayarlamak için bkz. [Sürüm 10.0.20 ve sonrasında Finance Insights yapılandırmaları](configure-for-fin-insites-PubPrvw.md).
 
 Mali içgörüler, kuruluşunuza güçlü tahmin araçları sunmak için Microsoft Dynamics 365 Finance işlevlerini Microsoft Dataverse, Azure ve AI Builder işlevleriyle bir araya getirir. Bu konuda, sisteminizin Mali içgörülerde sunulan özellikleri kullanabilmesini sağlayacak yapılandırma adımları açıklanmaktadır.
 
@@ -59,7 +59,7 @@ Finance Insights için Dataverse'ü yapılandırmak için aşağıdaki adımlar�
 
     1. **Ortamlar** sayfasını açın.
 
-        [![Ortamlar sayfası](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
+        [![Ortamlar sayfası.](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
     2. Yukarıda oluşturulan Dataverse ortamını seçin ve ardından **Ayarlar**'ı seçin.
     3. **Kaynaklar \> Tüm Eski Ayarlar**'ı seçin.
@@ -792,6 +792,8 @@ Eklenti birkaç dakika içinde yüklenir.
     | CDS Kuruluş URL'si                                     | Yukarıdan kopyalanan Dataverse kuruluş URL'si. |
     | CDS Kuruluş Kimliği                                               | Yukarıdan kopyalanan Dataverse kuruluş kimliği. |
 5. **Bu, Kiracı için varsayılan CDS ortamı mı**'nı etkinleştirin.
+
+Eklentinin yüklenmesi birkaç dakika sürebilir.
     
 ## <a name="configure-the-entity-store"></a>Varlık deposunu yapılandırma
 

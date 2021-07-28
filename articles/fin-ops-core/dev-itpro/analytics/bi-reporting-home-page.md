@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354427"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Power BI giriş sayfasıyla raporlama ve analiz
 
@@ -37,7 +39,7 @@ Bu konu sizi mevcut iş zekası (BI) ve raporlama araçları hakkında bilgi edi
 
 Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkileşim kurabilirler. Sebep-sonuç ilişkisini görebilirler ve çalışma alanından ayrılmadan basit deneme işlemleri gerçekleştirebilirler. Etkileyici, etkileşimli görseller sayesinde kullanıcılarınız verileri keşfedip gizli eğilimleri ortaya çıkarırken eğlenebilir.
 
-![Çalışma alanında Power BI örneği](./media/Power-BI-in-D365-Workspace.png)
+![Çalışma alanında Power BI örneği.](./media/Power-BI-in-D365-Workspace.png)
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
@@ -50,7 +52,7 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 ## <a name="business-documents-and-printing"></a>İş belgeleri ve yazdırma
 Raporlama çözümleri genellikle iş hareketlerini yakalamak ve ayrıntılarını iletmek için kullanılır. Bu nedenle bir raporlama çözümünün ağ yazıcıları gibi mevcut cihazları kullanarak iş verilerinin fiziksel sunumunu oluşturabiliyor olması gerekir. Satış faturaları, müşteri ekstreleri ve çekler iş belgelerine örnek olarak verilebilir.
 
-[![İş belgeleri örneği](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![İş belgeleri örneği.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
@@ -61,7 +63,7 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) çeşitli ülkelerin veya bölgelerin yasal gereksinimlerine uyumlu elektronik belge biçimleri yapılandırmak için kullanabileceğiniz araçtır. Elektronik raporlama uygulamalarından bazıları mali denetim, vergi raporlama ve elektronik faturalamadır.
 
-[![Elektronik raporlama örneği](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Elektronik raporlama örneği.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
@@ -72,7 +74,7 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 ## <a name="financial-reporting"></a>Mali raporlama
 Standart mali raporlar, varsayılan ana hesap kategorilerini kullanabilecek şekilde sağlanır. Rapor tasarımcısını gelir tablosu ve bilanço gibi geleneksel mali tabloları oluşturmak veya değiştirmek için kullanabilirsiniz. Böylece sonuçları kuruluşunuzun diğer üyeleriyle paylaşabilirsiniz. Bilançolar, nakit akışı ve yıllara göre özet mizan mali raporlama örnekleridir.
 
-[![Mali raporlama örneği](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Mali raporlama örneği.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 

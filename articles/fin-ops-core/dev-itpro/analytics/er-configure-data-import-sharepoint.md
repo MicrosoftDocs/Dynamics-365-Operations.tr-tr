@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357630"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma
 
@@ -47,13 +47,13 @@ Bu konudaki örnekleri tamamlamak için şu erişimlere sahip olmanız gerekir:
 - ER model yapılandırması, **1099 Ödemeleri modeli**
 - ER biçim yapılandırması, **Satıcıların hareketlerini Excel'den içe aktarma biçimi**
 
-![SharePoint'ten veri içe aktarmak için ER yapılandırmaları](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![SharePoint'ten veri içe aktarmak için ER yapılandırmaları.](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Veri içe aktarmada kullanılacak gelen dosya örneği
 
 - Excel dosyası **1099import-data.xlsx**: Aktarılması gereken satıcı hareketlerinin bulunduğu dosya.
 
-![SharePoint'ten içeri aktarmak için örnek Excel dosyası](./media/GERImportFromSharePoint-02-Excel.PNG)
+![SharePoint'ten içeri aktarmak için örnek Excel dosyası.](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > Satıcı hareketlerini içe aktarmak için kullanılan biçim, varsayılan model eşleme olarak seçilidir. Bu nedenle, bir model eşlemesi çalıştırıyorsanız, **1099 Ödemeleri modeli** çalıştırıyorsanız ve söz konusu model eşleme **Hedefe** türündeyse, model eşleme, harici dosyalardan içe veri aktarmak için bu biçimi çalıştırır. Ardından bu verileri, uygulama tablolarını güncelleştirmek için kullanır.
@@ -68,7 +68,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
      - Dosyalar içe aktarma kaynağı (ana) (Örnek aşağıdaki ekran görüntüsünde gösterilmektedir)
      - Dosya içe aktarma kaynağı (alternatif)
 
-    ![Dosya içe aktarma kaynağı (ana)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Dosya içe aktarma kaynağı (ana).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (İsteğe bağlı) Dosyaların içe aktarmadan depolanabileceği klasörleri oluşturun. 
 
@@ -87,7 +87,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 |SP Uyarı             |Dosya                |SharePoint     |Dosyalar uyarı klasörü|
 |SP Hatası             |Dosya                |SharePoint     |Dosyalar hata klasörü|
 
-![SharePoint ayarı - yeni belge türü](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![SharePoint ayarı - yeni belge türü.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>ER biçimi için ER kaynaklarını yapılandırma
 1. **Kuruluş yönetimi** \> **Elektronik raporlama** \> **Elektronik raporlama kaynağı**'na tıklayın.
@@ -96,7 +96,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 4. İçeri aktarma işlemi için çok fazla dosya varsa ve sıralaması önemli değilse **Dosyaları içeri aktarmadan önce sırala** ayarını **Sıralama** olarak değiştirme
 5. Daha önce oluşturduğunuz tüm SharePoint klasörlerini seçin.
 
-    [![ER dosyaları kaynak ayarı](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![ER dosyaları kaynak ayarı.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - ER *kaynağı* her bir uygulama şirketi için ayrı ayrı tanımlanır. Bunun aksine, ER *yapılandırmaları* şirketler arasında paylaşılır.
@@ -114,7 +114,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Bir SharePoint klasöründeki Excel dosyalarından verileri içe aktarma
 1. SharePoint'te, satıcı hareketlerini içeren Microsoft Excel, **dosyasını 1099import-data.xlsx**, daha önce oluşturduğunuz **Dosya içe aktarma kaynağı (ana)** SharePoint klasörüne yükleyin.
 
-    [![SharePoint içeriği – İçe aktarma için Microsoft Excel dosyası](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint içeriği – İçe aktarma için Microsoft Excel dosyası.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. **Kaynaklar için dosya durumları** sayfasında **Yenile**'yi seçerek sayfayı yenileyin. SharePoint'e yüklenen Excel dosyası, bu sayfada **Hazır** durumunda gösterilir. Şu anda aşağıdaki durumlar desteklenmektedir:
 
@@ -124,19 +124,19 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
     - **Başarısız**: Dosyayı içeri aktarma işlemi hatalarla veya özel durumlarla tamamlandığında ER raporu tarafından otomatik olarak atanır.
     - **Beklemede**: Bu sayfada kullanıcı tarafından el ile atanır. Bu durum, dosyanın şimdilik içe aktarılmayacağı anlamına gelir. Bu durum, bazı dosyaları içe aktarma işlemini ertelemek için kullanılabilir.
 
-    [![Seçili kaynaklar için yenilenen ER dosyası durumları sayfası](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Seçili kaynaklar için yenilenen ER dosyası durumları sayfası.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>SharePoint dosyalardan içe aktarma
 1. ER yapılandırmaları ağacını açın, **1099 Ödeme modeli**'ni seçin ve ER modeli bileşenleri listesini genişletin.
 2. Seçili ER model yapılandırmasının model eşlemeleri listesini açmak için model eşlemenin adını seçin.
 
-    [![Yapılandırma sayfası](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Yapılandırma sayfası.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Seçili model eşlemeyi çalıştırmak için **Çalıştır**'ı seçin. ER biçimi için dosya kaynaklarını siz yapılandırdığınız için, **Dosya kaynağı** seçeneğinin ayarını gerekli olduğu gibi değiştirebilirsiniz. Bu seçeneğin ayarını korursanız, .xslx dosyaları, yapılandırılmış kaynaklardan (bu örnekte SharePoint klasörleri) içe aktarılır.
 
     Bu örnekte tek bir dosya içe aktarıyorsunuz. Ancak birden çok dosya varsa, bu dosyalar SharePoint klasörüne eklendikleri sırayla içe aktarma işlemine seçilir. Her ER biçimi çalıştırılışında, seçilen dosyalardan biri içe aktarılır.
 
-    [![SharePoint'ten içeri aktarma ve ER model eşlemeyi çalıştırma](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![SharePoint'ten içeri aktarma ve ER model eşlemeyi çalıştırma.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. Model eşleme, toplu iş modunda [katılımsız](#limitations) çalıştırılabilir. Bu durumda, bu ER biçimi bir toplu iş tarafından her çalıştırıldığında, yapılandırılan dosya kaynaklarından tek bir dosya içe aktarılır.
 
@@ -144,11 +144,11 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 
 5. Fiş kodunu (**V-00001** vb.) girin ve **Tamam**'ı seçin.
 
-    [![ER model eşlemesini çalıştırma](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![ER model eşlemesini çalıştırma.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. **Kaynaklar için dosya durumları** sayfasında **Yenile**'yi seçerek sayfayı yenileyin.
 
-    [![Kaynaklar için ER dosyası durumları sayfası](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Kaynaklar için ER dosyası durumları sayfası.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. **Dosyalar** bölümünde, dosyalar listesini inceleyin. **İçe aktarma biçimi için kaynaklar günlüğü** bölümü, Excel dosyası içe aktarma geçmişini verir. Bu dosya başarıyla içe aktarıldığı için SharePoint klasöründe **Silindi** olarak işaretlenir.
 8. **Dosya içe aktarma kaynağı (ana)** SharePoint klasörünü inceleyin. Başarıyla içe aktarılan Excel dosyaları bu klasörden silinmiştir.
@@ -157,12 +157,12 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 
     SharePoint'te **V-00001** kodlu fiş için Excel dosyasından içe aktarılan satıcı hareketleri sayfada gösterilir.
 
-    [![1099 satıcı hareketleri sayfası](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![1099 satıcı hareketleri sayfası.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>Excel dosyasını içe aktarmaya hazırlama
 1. Daha önce kullandığınız Excel dosyasını açın. Satır 3 sütun 1'e, uygulamada bulunmayan bir satıcı kodu ekleyin. Satıra yanlış bir satıcı bilgisi ekleyin.
 
-    [![SharePoint'ten içe aktarma için örnek Microsoft Excel dosyası](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![SharePoint'ten içe aktarma için örnek Microsoft Excel dosyası.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Satıcı hareketlerini içeren güncelleştirilmiş Excel dosyasını **Dosya içe aktarma kaynağı (ana)** SharePoint klasörüne yükleyin.
 3. ER yapılandırmaları ağacını açın, **1099 Ödeme modeli**'ni seçin ve ER modeli bileşenleri listesini genişletin.
@@ -170,7 +170,7 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 5. **Tasarımcı**’yı seçin.
 6. **Doğrulamalar** sekmesinde, içe aktarılan satıcı hesabının uygulamada var olup olmadığını değerlendirmek amacıyla yapılandırılmış doğrulama kuralı için, doğrulama sonrası eylemi değiştirmeniz gerekir. **Doğrulama sonrası eylem** alanının değerini **Yürütmeyi durdur** olarak güncelleştirin, değişikliklerinizi kaydedin ve sayfayı kapatın.
 
-    [![ER model eşleme tasarımcısı sayfası](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![ER model eşleme tasarımcısı sayfası.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Değişikliklerinizi kaydedin ve ER model eşleme tasarımcısını kapatın.
 8. Değiştirilen ER model eşlemesini çalıştırmak için **Çalıştır**'ı seçin.
@@ -178,11 +178,11 @@ Bir SharePoint konumuna elektronik rapor dosyaları depolamak için geçerli şi
 
     Bilgi Günlüğünde, SharePoint klasöründe bir dosyanın yanlış satıcı hesabı içerdiği ve içeri aktarılamayacağını belirten bir bildirim bulunur.
 
-    [![Tamamlanmış ER model eşleme çalıştırma](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Tamamlanmış ER model eşleme çalıştırması.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. **Kaynak için dosya durumları** sayfasında **Yenile**'yi seçin ve ardından **Dosyalar** bölümünde, dosyalar listesini inceleyin.
 
-    [![Seçili kaynaklar için ER dosya durumları sayfası](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![Seçili kaynaklar için ER dosya durumları sayfası.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    **İçe aktarma biçimi için kaynaklar günlüğü** bölümü, içe aktarma işleminin başarısız olduğunu ve dosyanın hala Dosya hatalı SharePoint klasöründe olduğunu (**Silindi** onay kutusu işaretli değildir) gösterir. SharePoint üzerinde bu dosyayı doğru satıcı kodunu ekleyerek düzeltirseniz ve sonra Dosya içe aktarma kaynak (ana) SharePoint klasörüne taşırsanız, dosyayı yeniden içe aktarabilirsiniz.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38386087a74a0881867df89bbe26453dff740be3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803717"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350316"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Perakende hareketi tutarlılık denetleyicisi
 
@@ -38,7 +38,7 @@ Ekstre deftere nakil işlemi tarafından tutarsız işlemler seçildiğinde tuta
 
 Aşağıdaki çizelgede, işlem tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi gösterilmektedir.
 
-![Hareket tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi](./media/validchecker.png "Perakende hareketi tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi")
+![Hareket tutarlılık denetleyicisi ile gerçekleştirilen ekstre deftere nakil işlemi.](./media/validchecker.png "Perakende hareketi tutarlılık denetleyicisi ile gerçekleştirilen deftere nakil işlemi")
 
 **Mağaza hareketlerini doğrula** toplu işlemi, aşağıdaki senaryolar için ticari hareket tablolarının tutarlılığını denetler.
 

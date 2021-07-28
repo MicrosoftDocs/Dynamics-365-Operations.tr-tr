@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355736"
 ---
 # <a name="budget-planning-overview"></a>Bütçe planlamaya genel bakış
 
@@ -40,7 +42,7 @@ Bir organizasyon, bütçe planlamayı yapılandırabilir ve ardından bütçe ha
 - **Bütçe planlama aşamaları** – Bütçe planlama aşamaları, bütçe planının başlangıçtan son onaya kadar olan süreçte takip edeceği adımları tanımlar. Bütçe planlama aşamaları bütçe planlama iş akışlarında düzenlenir.
 - **Bütçe planlama iş akışları** – Bütçe planlama iş akışları, bütçe planlama aşamalarını içerir ve bunları tanımlar. Bütçe planlama iş akışları, bütçeleme iş akışları ile ilişkilidir. Bütçeleme iş akışları, bütçe planlarını bütçe planlama aşamalarıyla taşıyan otomatik ve manuel süreçlerden meydana gelir.
 
-[![Bütçe planlama terminolojisi](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Bütçe planlama terminolojisi.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Tipik görevler
 
@@ -65,11 +67,11 @@ Bu isteğe bağlı, ancak önerilen ilk adım kuruluşunuzun bir bütçeyi form�
 
 Aşağıdaki şekilde, farklı organizasyon düzeyleri için ayrı bütçe planlama iş akışlarının oluşturulduğu genel bir örnek gösterilmiştir. Aşamalar her bir iş akışında tanımlanır ve bütçe verilerini tutmak için her bir aşamaya özel senaryolar atanır. Görevler, verilerin bir aşamadan diğerine taşınması için tamamlanır. Örneğin, tutarlar farklı hesaplara, onaylara veya diğer gözden geçirmelere atanabilir veya bunlar altında birleştirilebilir. Bu örnekte, italik yazılan metin bu aşamada düzenlenemeyen bir senaryoyu ve geçmişe ait olan veya daha erken bir aşamada onaylanmış olan ve bu nedenle değiştirilemeyen verileri gösterir.
 
-[![Bütçe planlama genel şema](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Bütçe planlama genel şeması.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 Aşağıdaki şekilde, şirket genel merkezlerinin başlangıç bütçe temel tutarlarını tahmin ettiği ve bunları Satış departmanlarına dağıttığı bir örnek gösterilmektedir. Satış departmanları ardından tahminlerini kestirir ve bunları genel merkezlere gönderir ve burada bütçe yöneticisi tahminleri bir araya getirir ve düzenler. Son olarak, bütçe yöneticisi, ayarlanmış bütçe tutarlarını gözden geçirilmesi, nihai düzenlemeler ve onay için mali işler müdürüne (CFO) gönderir.
 
-[![Bütçe planlama şeması örneği](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Bütçe planlama şeması örneği.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Bütçe planlama için organizasyon hiyerarşisi
 
@@ -93,7 +95,7 @@ Bir bütçeleme hiyerarşisinin her bir düzeyi için bir bütçe planlama iş a
 
 **Bütçeleme iş akışları** sayfasında bütçe planlama için bütçeleme iş akışı oluşturursunuz. Bu süreç, diğer iş akışlarının oluşturulması için kullanılan sürece benzerdir. Aşağıdaki şekilde Genel merkez için bir iş akışı örneği gösterilmiştir.
 
-[![Bütçe planlama için bütçeleme iş akışı](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Bütçe planlama için bütçeleme iş akışı.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 İş akışı aşağıdaki öğeleri içerir:
 
@@ -141,11 +143,11 @@ Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamas
 
 Bu konunun başında verilen örnek şemada, bir bütçe planındaki tutarların ve genel merkez "Temel" aşamasındaki senaryoların başka bütçe planına ve Satış departmanlarının "Tahmin" aşamasındaki senaryolara aktarılması için bir tahsisat gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 
-[![Aşama tahsisatı](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Aşama tahsisatı.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Ek olarak, örnek şemada Satış departmanları için "Gönderilen" aşamasındaki bütçe planlarından ve senaryolardan Genel merkez "Toplama" aşamasındaki bir ana plana bir toplama işlemi gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 
-[![Toplam](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Toplama.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Öncelikler
 
@@ -163,7 +165,7 @@ Bütçe tutarları sütunlarına ek olarak proje, teklif edilen proje, kıymet v
 
 Örnek şema için, "PY Satışları," "Sözleşmeler" ve "Tahmin" senaryoları için sütunlar oluşturmak isteyebilirsiniz. (Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.) Ardından, mali yılın her bir çeyreği için bu senaryoların birini veya tümünü ayrı sütunlara dağıtabilirsiniz, böylece Satış departmanı yöneticisi her bir dönem için tahmin tutarlarını doğru şekilde girebilir.
 
-[![Sütun ekleme için şema bölümlerinin gösterimi](./media/columns.png)](./media/columns.png)
+[![Sütun ekleme için şema bölümlerinin gösterimi.](./media/columns.png)](./media/columns.png)
 
 Her bir düzen öğesinin (sütunun) düzenlenebilir olup olmayacağını ve bu düzen için oluşturulan bir çalışma sayfası şablonunda mevcut olup olmayacağını da belirtebilirsiniz. Örnek şemada, "Tahmin" aşaması için kullanılan düzende "Tahmin" sütunları düzenlenebilirken, "PY Satışları" ve "Sözleşmeler" sütunları salt okunurdur.
 
@@ -201,7 +203,7 @@ Ayrıca, mevcut bir süreci kopyalayarak yeni bir süreç oluşturmak için **Ey
 
 **Eylemler** menüsündeki bir diğer kullanışlı komut da **Bütçe sürecinin durumunu göster** komutudur. Bu komut, planların iş akışı durumu, tutara ve birime göre özetler ve bütçe planlarına tek tıklamayla ulaşma gibi ilgili verilerle birlikte, bir süreç içindeki bütçe planlarını grafiksel olarak gösterir.
 
-[![Bütçe planlama süreci durumu](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Bütçe planlama süreci durumu.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

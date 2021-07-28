@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791694"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354625"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Dynamics 365 Commerce'de ürün derecelendirmelerini eşitleme
 
@@ -59,7 +59,7 @@ Tiaret planlayıcısı başlatmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki çizimde Commerce'de alt iş örneği gösterilmektedir.
 
-![RetailProductRating alt işi ayrıntıları](media/rnr-hq-ratings-sub-job.png)
+![RetailProductRating alt işi ayrıntıları.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > **RetailProductRating** alt işi bulamazsanız, Commerce Planlayıcısını çalıştırmadan önce **ürün derecelendirmelerini Eşitle** işini ve **1040 CDX** işini zaten çalıştırılmış olabilirsiniz. Bu durumda, **tam veri eşitleme** işini çalıştırmak için aşağıdaki adımları izleyin.
@@ -83,7 +83,7 @@ Derecelendirmeler ve İncelemeler hizmetinden ürün derecelendirmelerini Commer
 
 Aşağıdaki çizimde Commerce'de toplu iş yapılandırması gösterilmektedir.
 
-![Ürün derecelendirmeleri eşitleme toplu işleminin konfigürasyonu](media/rnr-hq-batchjob-recurrence.png)
+![Ürün derecelendirmeleri eşitleme toplu işleminin yapılandırması.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Ürün değerlendirme eşitlemesiyle ilgili toplu işin başarılı olduğunu doğrulayın
 
@@ -95,7 +95,7 @@ Aşağıdaki çizimde Commerce'de toplu iş yapılandırması gösterilmektedir.
 
 Aşağıdaki şekil toplu iş, iki saatlik aralıklarla çalışacak şekilde zamanlandığında, toplu iş ayrıntılarının Commerce olarak bir örneğini gösterir.
 
-![Ürün derecelendirmesi eşitleme işinin ayrıntıları](media/rnr-hq-batchjob-status-checking.png)
+![Ürün derecelendirmesi eşitleme işinin ayrıntıları.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Ürün derecelendirmelerini POS'ta kullanılabilir yapın
 
@@ -113,19 +113,19 @@ POS'ta ürün derecelendirmelerini açmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki çizimde, POS'ta ürün derecelendirmelerinin açılacağı Commerce parametrelerinin konfigürasyonunda bir örnek gösterilmektedir.
 
-![POS'ta ürün değerlendirmeleriyle ilgili Commerce parametrelerinin konfigürasyonu](media/rnr-hq-enable-ratings-in-pos.png)
+![POS'ta ürün değerlendirmeleriyle ilgili Commerce parametrelerinin yapılandırması.](media/rnr-hq-enable-ratings-in-pos.png)
 
 Aşağıdaki çizim, POS'ta ürün derecelendirmeleri örneğini gösterir.
 
-![POS'ta ürün derecelendirmeleri](media/rnr-pos-catalog-ratings.png)
+![POS'ta ürün derecelendirmeleri.](media/rnr-pos-catalog-ratings.png)
 
 Aşağıdaki çizim, çağrı merkezi kanallarında ürün derecelendirmeleri örneğini gösterir.
 
-![Çağrı merkezi kanalında ürün derecelendirmeleri](media/rnr-call-center-ratings.png)
+![Çağrı merkezi kanalında ürün derecelendirmeleri.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-[Derecelendirme ve incelemelere genel bakış](ratings-reviews-overview.md)
+[Derecelendirmelere ve incelemelere genel bakış](ratings-reviews-overview.md)
 
 [Derecelendirme ve incelemeleri kullanmayı kabul etme](opt-in-ratings-reviews.md)
 

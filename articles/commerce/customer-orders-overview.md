@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349638"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Satış Noktası'ndaki (POS) müşteri siparişleri
 
@@ -44,7 +46,7 @@ POS'ta müşteri siparişi işlevini kullanmayı denemeden önce, Commerce yöne
 
 Müşteri siparişlerini kullanmak için, mağaza kanalının kullanabileceği teslimat şekillerini yapılandırmalısınız. Bir mağazadan sipariş satırları müşteriye sevk edildiğinde kullanılabilecek en az bir teslimat şeklini tanımlamalısınız. Ayrıca sipariş satırları bir mağazadan çekildiğinde kullanılabilecek en az bir teslimatın alma şeklini tanımlamalısınız. Teslimat şekilleri Commerce yönetim merkezinde **Teslimat şekilleri** sayfasında tanımlanır. Commerce kanalları için teslimat şeklinin yapılandırılmasına ilişkin daha fazla bilgi için bkz. [Teslimat şekillerini tanımlama](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Teslimat şekilleri sayfası](media/customer-order-modes-of-delivery.png)
+![Teslimat şekilleri sayfası.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Karşılama gruplarını ayarlama
@@ -53,7 +55,7 @@ Bazı mağazalar veya depo konumları müşteri siparişlerini karşılamayabili
 
 Commerce 10.0.12 ve sonraki sürümlerde kuruluşlar, karşılama gruplarında tanımlanan depo veya depo ve mağaza birleşimlerinin sevkiyat, malzeme çekme veya sevkiyat ve malzeme çekme için kullanılıp kullanılmayacağını tanımlayabilir. Bu, sevk edilecek maddeler için müşteri siparişi oluştururken işletmenin hangi ambarların seçilebileceğini ve maddelerin teslim alınması için bir müşteri siparişi oluştururken hangi mağazaların seçilebileceğini belirlemesi için ek esneklik sağlar. Bu yapılandırma seçenekleri kullanmak için **Karşılama grubundan etkinleştirilen "Sevkiyat" veya "Çekme" olarak konumun belirtilebilmesi"** özelliğini etkinleştirmelisiniz. Bir karşılama grubuna bağlı depo bir mağaza değilse, yalnızca sevkiyat konumu olarak yapılandırılabilir. Malzeme çekme için siparişler POS'ta yapılandırıldığında kullanılamaz.
 
-![Karşılama grupları sayfası](media/customer-order-fulfillment-group.png)
+![Karşılama grupları sayfası.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanal ayarlarını yapılandırma
 
@@ -65,7 +67,7 @@ POS'ta müşteri siparişleri ile çalışırken, mağaza kanalının bazı ayar
 - **Hedef esaslı vergi kullan**: Bu seçenek, sevkiyat adresinin, müşterinin adresine sevk edilen sipariş satırlarına uygulanacak vergi grubunu belirlemek için teslimat adresinin kullanılıp kullanılmayacağını gösterir.
 - **Müşteri tabanlı vergi kullan**: Bu seçenek, müşterinin teslimat adresi için tanımlanan vergi grubunun evine sevkiyat için POS'ta oluşturulan müşteri siparişlerinin vergilendirilmesi için kullanılıp kullanılmayacağını gösterir.
 
-![Mağazalar sayfasında mağaza kanalı kurulumu](media/customer-order-all-stores.png)
+![Mağazalar sayfasında mağaza kanalı kurulumu.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Müşteri sipariş parametrelerini ayarlama
 
@@ -80,7 +82,7 @@ POS'ta müşteri siparişlerini oluşturmayı denemeden önce, Commerce yönetim
 - **Sevkiyat masrafı kodu**: **Gelişmiş otomatik masrafları kullan** seçeneği **Evet** olarak ayarlanmışsa, bu parametre ayarının hiçbir etkisi olmaz. Bu seçenek **Hayır** olarak ayarlanmışsa, kullanıcılardan POS'ta müşteri siparişleri oluştururken, sevkiyat masraflarını el ile girmeleri istenir. Kullanıcılar bir sevkiyat masrafı girdiğinde siparişlere uygulanacak Alacak hesapları gider kodunu eşlemek için bu parametreyi kullanın. Masraf kodu, sevkiyat masrafı için mali deftere nakil mantığını tanımlar.
 - **Gelişmiş otomatik masrafları kullan**: POS'ta müşteri siparişleri oluşturulurken sistem tarafından hesaplanan otomatik masrafları kullanmak için bu seçeneği **Evet** olarak ayarlayın. Otomatik masraflar, sevkiyat ücretlerini ve diğer sipariş veya maddeye özel masrafları hesaplamak için kullanılabilir. Gelişmiş otomatik masrafları özelliğini ayarlama ve kullanma hakkında bilgi için bkz. [Çok yönlü kanal gelişmiş otomatik masrafları](./omni-auto-charges.md).
 
-![Commerce parametreleri sayfasındaki müşteri siparişleri sekmesi](media/customer-order-parameters.png)
+![Commerce parametreleri sayfasındaki müşteri siparişleri sekmesi.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>POS'ta hareket ekran düzenlerini güncelleştirme
 
@@ -95,7 +97,7 @@ POS [ekran düzeninin](./pos-screen-layouts.md), müşteri siparişlerinin oluş
 - **Teslimat şeklini değiştir**: Bu işlem, önceden sevkiyat için yapılandırılmış olan satırlar için teslimat şeklini, kullanıcıların "tüm ürünleri sevk et" veya "seçilen ürünleri sevk et" akışının aşamalarının üzerinden yeniden geçmelerine gerek kalmadan teslim etme modunu hızla değiştirmek için kullanılabilir.
 - **Havale geçersiz kılma**: Bu işlem, müşterinin seçili müşteri siparişi için ödeyeceği depozito tutarını değiştirmek için kullanılabilir.
 
-![POS hareket ekranındaki işlemler](media/customer-order-screen-layout.png)
+![POS hareket ekranındaki işlemler.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>POS'ta müşteri siparişleriyle çalışma
 

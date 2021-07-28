@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840425"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360436"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Sevkiyat konsolidasyon ilkelerini yapılandırma
 
@@ -179,7 +179,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde bulunan kılavuzda, **Alan** alanının *Müşteri hesabı* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *US-001* olarak ayarlayın.
 1. Kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Ekle**'yi seçin:
@@ -214,7 +214,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Evet* olarak ayarlayın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusunda, **Birleşimler** sekmesinde, ağaçtaki **Tablolar \> Yük ayrıntıları** öğesini genişletin ve seçin.
 1. **Tablo birleşimi ekle**'yi seçin.
@@ -251,9 +251,9 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Evet* olarak ayarlayın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Müşteri gereksinimi* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde, **Alan** alanının *Müşteri hesabı* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *US-001* olarak ayarlayın.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.
@@ -283,7 +283,7 @@ Bu iş örneğine ait sevkiyat konsolidasyon ilkesini oluşturmak için bu adım
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** listesinde, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusunda, kılavuza aşağıdaki ayarlara sahip bir satır eklemek için **Aralık** sekmesinde **Ekle**'yi seçin:
 
@@ -317,7 +317,7 @@ Genellikle bu iş örneği, [senaryo 1](#scenario-1)'de oluşturduğunuz varsay�
 1. **Açık sevkiyatlarla konsolide et** seçeneğini *Hayır* ayarında bırakın.
 1. Eylem bölmesinde, **Kaydet**'i seçin.
 1. **Konsolidasyon alanları** hızlı sekmesinde bulunan **Kalan alanlar** alanında, **Alan adı** alanının *Teslimat şekli* olarak ayarlandığı satırı seçin.
-1. Alanı **Seçili alanlar** listesine taşımak için **Ekle** düğmesini ![Sağ ok](media/forward-button.png) seçin.
+1. **Ekle** düğmesini ![sağ ok.](media/forward-button.png) seçerek alanı **Seçili alanlar** listesine taşıyın.
 1. Eylem Bölmesi'nde, **Sorgu düzenle**'yi seçin.
 1. Sorgu düzenleyici iletişim kutusundaki **Aralık** sekmesinde, **Alan** alanının *Ambar* olarak ayarlandığı satırı bulun ve bu satır için **Ölçüt** alanını *61-63* olarak ayarlayın.
 1. İletişim kutusunu kapatmak için **Tamam**'ı seçin.

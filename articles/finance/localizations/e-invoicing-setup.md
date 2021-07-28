@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348498"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektronik faturalamayı ayarlama
 
@@ -37,7 +37,7 @@ Yapılandırılabilirlik, dijital dosyalar üzerinden gönderilen ve alınan iç
 
 Aşağıdaki şekil, Elektronik faturalama özelliğinin ana bileşenlerini gösterir.
 
-![Elektronik faturalama özelliğine genel bakış](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Elektronik faturalama özelliğine genel bakış.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Fatura biçimlerindeki ve eylem akışlarındaki çeşitlilikler nedeniyle, özellik kurulumu ülkeye veya bölgeye veya iş gereksinimlerine göre değişebilir.
 
@@ -50,7 +50,7 @@ Kurulum işleminin RCS ortamınızda tamamlanması gereklidir. Yeni bir elektron
 3. **Elektronik faturalama özellikleri** sayfasında, Genel depodan ER veri modeli yapılandırmasını içe aktarmak için **İçe aktar**'ı seçin.
 4. Elektronik faturalama özelliği oluşturmak için **Ekle**'yi seçin. Özelliği sıfırdan oluşturabilir veya var olan bir elektronik faturalama özelliğinden türetebilirsiniz.
 
-    ![Elektronik faturalama özelliği ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Elektronik faturalama özelliği ekleme.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Yeni bir elektronik faturalama özelliği oluşturduğunuzda, bir sürüm numarası vardır ve varsayılan durumu **Taslak** olarak ayarlanır.
@@ -63,21 +63,21 @@ Elektronik faturalama özelliğine ER biçimleri eklemek için aşağıdaki adı
 
 1. Elektronik faturalama özelliği için, **Elektronik faturalama özellikleri** sayfasında, ER dosya biçimi yapılandırması eklemek için, **Yapılandırmalar** sekmesinde **Ekle**'yi seçin.
 
-    ![Elektronik faturalama özelliği yapılandırmalarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Elektronik faturalama özelliği yapılandırmalarını ekleme.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Sıfırdan bir Elektronik faturalama özelliği oluşturduğunuzda, tüm ER dosya biçimi yapılandırmalarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama özelliği türettiğinizde, özgün elektronik faturalama özelliğinden devralındığından, ER dosya biçimi yapılandırmaları otomatik olarak oluşturulur.
 
 2. ER dosya biçimi yapılandırmasını düzenleyebileceğiniz **Biçim tasarımcısı** sayfasını açmak için **Düzenle** seçin.
 
-    ![Elektronik faturalama özelliği yapılandırmalarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Elektronik faturalama özelliği yapılandırmalarını düzenleme.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Biçimi düzenlerken, yapılandırma sürümünün durumu **Taslak** olarak ayarlanır.
 
 3. **Biçim tasarımcısı** sayfasını, dosya biçimi yapılandırmasını değiştirmek için kullanın. Daha fazla bilgi için bkz. [Elektronik belge yapılandırmalarını oluşturma](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Biçim tasarımcısı sayfası](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Biçim tasarımcısı sayfası.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Özellik kurulumları
 
@@ -87,18 +87,18 @@ Elektronik faturalama özelliğine özellik kurulumlarını eklemek için aşağ
 
 1. Elektronik faturalama özelliğine özellik kurulumlarını eklemek için, **Elektronik faturalama özellikleri** sayfasında **Kurulumlar** sekmesinde **Ekle**'yi seçin.
 
-    ![Elektronik faturalama özelliği kurulumlarını ekleme](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Elektronik faturalama özelliği kurulumlarını ekleme.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Sıfırdan bir Elektronik faturalama özelliği oluşturduğunuzda, gereksinim duyduğunuz tüm özellik kurulumlarını el ile eklemeniz gerekir. Var olan bir özellikten Elektronik faturalama özelliği türettiğinizde, özgün elektronik faturalama özelliğinden devralındığından, tüm özellik kurulumları otomatik olarak oluşturulur.
 
 2. Özellik sürümü kurulumunu düzenlemek için **Düzenle** öğesini seçin.
 
-    ![Elektronik faturalama özelliği kurulumlarını düzenleme](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Elektronik faturalama özelliği kurulumlarını düzenleme.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Eylemleri, uygulanabilirlik kurallarını ve değişkenleri yapılandırmak için **Özellik sürümü kurulumu** sayfasını kullanın.
 
-    ![Eylemler, uygulanabilirlik kuralları ve değişkenler](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Eylemler, uygulanabilirlik kuralları ve değişkenler.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Eylemler
 
@@ -113,7 +113,7 @@ Her eylem, eylemin amacını yerine getirmek için gerekli olan parametrelerin �
 - Yeni eylemler eklemek veya var olan eylemleri silmek için **Yeni** veya **Sil**'i seçin.
 - Seçili eylemleri kılavuzda aşağı veya yukarı taşımak için **Yukarı** veya **Aşağı**'yı seçin ve böylece çalıştıkları sırayı değiştirin. Eylemler, kılavuzda göründükleri sırada, üstten alta doğru çalıştırılır.
 
-![Eylemleri yönetme](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Eylemleri yönetme.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 Aşağıdaki tabloda, **Eylemler** hızlı sekmesinde kullanılabilecek alanlar açıklanmaktadır.
 
@@ -129,7 +129,7 @@ Aşağıdaki tabloda, **Eylemler** hızlı sekmesinde kullanılabilecek alanlar 
 
 **Parametreler** hızlı sekmesi, **Eylemler** hızlı sekmesinde seçili olan eyleme ait parametreleri listeler.
 
-![Parametreler hızlı sekmesi](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Parametreler hızlı sekmesi.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 Aşağıdaki tabloda, **Parametreler** hızlı sekmesinde kullanılabilecek alanlar açıklanmaktadır.
 
@@ -259,20 +259,20 @@ Uygulanabilirlik kuralları, özellik kurulumu için kullanım bağlamını beli
 
 1. **Özellik sürümü kurulumu** sayfasında, **Uygulanabilirlik kuralları** sekmesinde, uygulanabilirlik kuralı eklemek için **Yeni**'yi seçin.
 
-    ![Uygulanabilirlik kurallarını yönetme](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Uygulanabilirlik kurallarını yönetme.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Kılavuzda, gruplandırılacak olan yan tümceleri seçin.
 3. **Tümceyi gruplandır**'ı seçin.
 
-    ![Tümceleri gruplama](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Tümceleri gruplama.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Yan tümceler gruplandırıldığında, kılavuza yeni bir sütun eklenir. Bu sütun gruplanmış yan tümceler için mantıksal işleci belirtir.
 
-    ![Gruplanmış yan tümceler için mantıksal işleç](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Gruplanmış yan tümceler için mantıksal işleç.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Yan tümceleri çözmek için, grupları çözülecek gruplandırılmış tümceyi seçin ve sonra da **Yan tümce grubunu çöz** öğesini seçin.
 
-![Yan tümcelerin grubunu çözme](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Yan tümcelerin grubunu çözme.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Bir yan tümcenin grubunu çözdüğünüzde, her zaman en içteki gruplandırma düzeyinden başlayın.
@@ -294,7 +294,7 @@ Değişkenler oluşturabilir ve belirli bir eylemin parametresi için giriş de�
 
 - Değişkenleri yönetmek için, **Özellik sürümü kurulumu** sayfasında **Değişkenler** sekmesinde **Yeni**'yi veya **Sil**'i seçin.
 
-    ![Değişkenleri yönetme](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Değişkenleri yönetme.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 Aşağıdaki tabloda, **Değişkenler** sekmesinde kullanılabilecek alanlar açıklanmaktadır.
 
@@ -310,7 +310,7 @@ Aşağıdaki tabloda, **Değişkenler** sekmesinde kullanılabilecek alanlar aç
 
 - **Özellik sürümü kurulumu** sayfasında, Eylem bölmesinde, özellik sürümü kurulumunu doğrulamak için **Doğrula**'yı seçin.
 
-   ![Doğrula düğmesini seçme](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Doğrula düğmesini seçme.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Doğrulama tüm yapılandırmalarda tutarlılığını denetler. Örneğin, bir eylem için belirli bir parametre zorunlu ise ancak değeri boş kalırsa, doğrulama bu tutarsızlığı algılar ve bir uyarı verilir.
 
@@ -323,7 +323,7 @@ Elektronik faturalama ortamını, Elektronik faturalama özelliği için etkinle
 1. Elektronik faturalama ortamını eklemek için, **Elektronik faturalama özellikleri** sayfasında **Ortamlar** sekmesinde **Etkinleştir**'i seçin.
 2. **Geçerlilik başlangıcı** alanına, yeni ortamın geçerli olacağı tarihi girin.
 
-![Elektronik faturalama ortamını etkinleştirme](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Elektronik faturalama ortamını etkinleştirme.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Kuruluşlar
 

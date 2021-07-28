@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271113"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350582"
 ---
 # <a name="message-processor-messages"></a>İleti işlemci iletileri
 
@@ -88,15 +88,15 @@ Bu örnekte, **Bir İş Olayı gerçekleştiğinde**'yi *Microsoft Power Automat
 
 1. [Power Automate](https://preview.flow.microsoft.com) bölümünde, ardından **JSON'u ayrıştır** ve **Bir e-posta gönder** adımları gelen **Bir İş Olayı gerçekleştiğinde - Fin ve Ops Uygulaması (Dynamics 365)** akış tetikleyicisi için yeni bir otomatik bulut akışı oluşturun.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate otomatik bulut akışı":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Power Automate otomatik bulut akışı.":::
 
 1. **Bir İş Olayı gerçekleştiğinde** adımında, **Kategori**'nin ardından gelen merkez **Örnek**'ini ve ardından **İş olayı** *İleti işlemcisi ileti işlendi*'yi arayabilir veya girebilirsiniz (aşağıdaki resimde gösterildiği üzere).
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Bir İş Olayı gerçekleştiğinde adımı":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Bir İş Olayı gerçekleştiğinde adımı.":::
 
 1. **JSON'u ayrıştır** adımı için genişletilmiş alanları tanımlayan bir **Şema** girin. Supply Chain Management içindeki **İş olayları kataloğu** sayfasında yer alan *Şemayı indir* seçeneğini kullanabilir veya örnek şema metnini yapıştırarak başlatabilirsiniz. Bu örnek metin, aşağıdaki resimde yer alan örnekle ilişkilidir.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate JSON'u ayrıştır adımı":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate JSON'u ayrıştır adımı.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Bu örnekte, **Bir İş Olayı gerçekleştiğinde**'yi *Microsoft Power Automat
 
 1. **E-posta gönder** adımında, alanları tek tek seçebilir veya e-posta gövdesini **Gövde** alanına yapıştırarak başlayabilirsiniz. Bu örnek, aşağıdaki resimde yer alan örnekle ilişkilidir.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate e-posta gönder adımı":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate e-posta gönder adımı.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

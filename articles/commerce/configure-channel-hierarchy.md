@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352602"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Bir kanalı kanal gezinme hiyerarşisini kullanacak şekilde yapılandırma
 
@@ -45,7 +45,7 @@ Kanal gezinme hiyerarşisini kullanacak şekilde kanalı yapılandırmak için b
 
 Aşağıdaki resimde, bir kanalın kanal gezinme hiyerarşisini kullanacak şekilde nasıl yapılandırıldığı gösteriliyor.
 
-![Örnek kanalı yapılandırması](media/configure-channel-hierarchy-1.png)
+![Örnek kanal yapılandırması.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Öznitelik meta verileri ayarla
 
@@ -61,9 +61,9 @@ Aşağıdaki resimde, bir kanalın kanal gezinme hiyerarşisini kullanacak şeki
 
 Aşağıdaki resimde, bir kanal kategori düğümünde yapılandırılmış kanal ürün öznitelikleri kümesi gösteriliyor.
 
-![Kanal kategori düğümündeki kanal öznitelikleri](media/configure-channel-hierarchy-2.png)
+![Kanal kategori düğümündeki kanal öznitelikleri.](media/configure-channel-hierarchy-2.png)
 
-## <a name="publish-changes"></a>Değişiklikleri yayımlama
+## <a name="publish-changes"></a>Değişiklikleri yayımla
 
 Değişikliklerin yürürlüğe girmesi için, değişiklikleri yayımlamanız gerekir.
 
@@ -74,7 +74,7 @@ Değişiklikleri yayımlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, kanal güncelleştirmelerinin nasıl yayımlanacağı gösteriliyor.
 
-![Kanal güncelleştirmelerini yayınla](media/configure-channel-hierarchy-3.png)
+![Kanal güncelleştirmelerini yayınlama.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

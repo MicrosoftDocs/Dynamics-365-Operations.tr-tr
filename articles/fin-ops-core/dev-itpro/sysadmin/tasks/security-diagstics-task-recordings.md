@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358561"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Görev kayıtları için güvenlik tanılaması
 
@@ -39,7 +39,7 @@ Bu konu, bir görev kaydı temel alınarak güvenlik izni gereksinimlerinin nas�
 
 4. **Kullanıcı kimliği** alanında bir kullanıcı seçin. Kullanıcının bazı menü öğeleri için izni yoksa, **Eksik izinler** alanı **Evet** olarak güncelleştirilir.
   
-  ![Güvenlik menü öğesi ayrıntıları sayfası](../media/Security-Menu-Item-Details.png)
+  ![Güvenlik menü öğesi ayrıntıları sayfası.](../media/Security-Menu-Item-Details.png)
 
 5. Eksik izni veren roller, görevler ve ayrıcalıklar gibi güvenlik nesnelerinin listesini görmek için **Referans ekle**'yi seçin.
 6. Listeden bir güvenlik nesnesi seçin:

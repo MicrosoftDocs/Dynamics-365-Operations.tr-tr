@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c94834a491877a69a206f827ad60f12455456e3f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: c91de72f32f70fba09c6b7e3ca284553d0c858b1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188872"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353456"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
@@ -47,7 +47,7 @@ Yalnızca **İşlem** türündeki işleri planlayabilirsiniz. Kanban işi ve faa
 ## <a name="kanban-schedule-board"></a>Kanban zamanlama panosu
 **Kanban planlama panosu** sayfası aşağıda gösterildiği gibi yedi ana öğe içerir. 
 
-![Kanban zamanlama panosu](./media/kanban-schedule-board-1024x554.png)
+![Kanban planlama panosu.](./media/kanban-schedule-board-1024x554.png)
 1.  Eylem Bölmesi
 2.  Filtre alanları
 3.  Planlanmamış işler için düğme
@@ -71,7 +71,7 @@ Kanban planlama panosunun sağladığı genel görünümü geliştirmek için ka
 ## <a name="plan-unplanned-jobs"></a>Planlanmamış işleri planla
 Planlanmamış kanban işlerini **Planlanmamış iş planlama** iletişim kutusundan planlayabilirsiniz. Bu iletişim kutusunu açmak için geçerli planlanmamış iş sayısını gösteren **Planlanmamış işler** düğmesine tıklayın. Alternatif olarak, Eylem Panosundaki **Pano** sekmesinde bulunan **Planlanmamış iş planlama**'yı tıklayın. İletişim kutusu iş hücresi için planlanmamış kanban işlerinin listesini gösterir. Izgaradaki tüm alanları filtrelemek için **Filtre** alanını kullanabilirsiniz. Örneğin, belirli bir ürün için kanban işlerini filtreleyebilirsiniz. Planlamak istediğiniz işlerin listesini filtreledikten sonra, bunları listeden seçin ve **Tamam**'ı tıklayın. İşleri planlamak için otomatik planlama kullanmak üzere **Otomatik planlama** seçeneğini **Evet** olarak ayarlayın. Bu durumda, işler vade tarihlerine göre bir dönem içinde planlanır. İşleri döneme göre de planlayabilirsiniz. **Dönem** alanında bir dönem seçmeniz yeterlidir. Aşağıdaki örnekte **Planlanmamış iş planlama** iletişim kutusu örneği gösterilmektedir. 
 
-![Planlanmamış işleri planla iletişim kutusu](./media/plan-unplanned-jobs-1024x564.png)
+![Planlanmamış işleri planla iletişim kutusu.](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Aynı dönem içindeki kanban işleri serisi
 Dönem içindeki seçilen bir veya daha fazla işin serisini değiştirebilirsiniz. Bu özellik, dönem içindeki bazı işlere öncelik vermek istediğinizde yararlı olabilir. Alternatif olarak, yürütme işlemini en iyi duruma getirmek için aynı ürün özniteliklerine sahip işler için seri düzenlemek isteyebilirsiniz. Seriyi sürükle ve bırak işlemiyle veya Eylem Bölmesindeki **Pano** sekmesinde bulunan **Geri** ve **İleri** menü öğelerini kullanarak değiştirebilirsiniz. 

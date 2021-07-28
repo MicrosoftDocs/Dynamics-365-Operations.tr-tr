@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7c6e4dcbd854cfadbc34f0040dcffd277d32a8d9
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fc9b330926dfc12890d0bc32e68b4b531616fc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357564"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Regression Suite Automation Tool eğitimi ayarlama ve yükleme
 
@@ -67,14 +67,14 @@ RSAT test çalışması için Azure DevOps, test paketi yönetimi, raporlama ve 
 - İş öğesi türüne ilişkin herhangi bir durumu silmeyin.
 - İş öğesi türüne herhangi bir gerekli alan eklemeyin.
 
-![En iyi yöntemler listesi ile ilgili hata iletisi](./media/setup_rsa_tool_02.png)
+![En iyi yöntemler listesi ile ilgili hata iletisi.](./media/setup_rsa_tool_02.png)
 
 Aksi takdirde, bu öğreticide yeni bir Azure DevOps proje oluşturmanız önerilir. Daha fazla bilgi için bkz. [Özel bir Azure DevOps (VSTS) işlem şablonu kullanarak BPM ile eşitleme sorunları](https://blogs.msdn.microsoft.com/lcs/2018/11/28/issues-when-syncing-to-bpm-using-a-custom-azure-devops-vsts-process-template/).
 
 1. Azure DevOps URL'sini açma (`https://dev.azure.com/<Azure DevOps Name>`).
 2. Azure DevOps sayfasının sağ üst köşesinde **Proje oluştur**'u seçin.
 
-    ![Proje düğmesi oluşturma](./media/setup_rsa_tool_03.png)
+    ![Proje oluştur düğmesi.](./media/setup_rsa_tool_03.png)
 
 3. Aşağıdaki alanları doldurun ve **Oluştur**'u seçin:
 
@@ -82,7 +82,7 @@ Aksi takdirde, bu öğreticide yeni bir Azure DevOps proje oluşturmanız öneri
     - **Sürüm kontrolü** –  **Team Foundation Sürüm Kontrolü** nü seçin. **Git** varsayılan seçeneğinin desteklenmediğini unutmayın.
     - **İş maddesi süreci**
 
-    ![Yeni proje iletişim kutusu oluştur](./media/setup_rsa_tool_04.png)
+    ![Yeni proje oluştur iletişim kutusu.](./media/setup_rsa_tool_04.png)
 
 ### <a name="create-a-personal-access-token"></a>Kişisel erişim belirteci oluşturma
 
@@ -90,24 +90,24 @@ Bu öğreticide, bir test durumu kitaplığı oluşturmak ve test olaylarınız�
 
 1. Azure DevOps projenize ait sayfanın sağ üst köşesinde bulunan profil simgesini seçin ve **Güvenlik**'i seçin.
 
-    ![Güvenlik komutu](./media/setup_rsa_tool_05.png)
+    ![Güvenlik komutu.](./media/setup_rsa_tool_05.png)
 
 2. Sol bölmede, **Güvenlik** altında, **Kişisel erişim belirteçleri**'ni seçin. Sonra **Yeni belirteç**'i seçin.
 
-    ![Kullanıcı ayarlarındaki kişisel erişim belirteçleri sekmesinde yeni belirteç düğmesi](./media/setup_rsa_tool_06.png)
+    ![Kullanıcı ayarlarındaki Kişisel erişim belirteçleri sekmesinde bulunan yeni Belirteç düğmesi.](./media/setup_rsa_tool_06.png)
 
 3. Aşağıdaki alanları doldurun ve **Oluştur**'u seçin:
 
-    - **Dosya Adı**
+    - **Kuruluş adı**
     - **Süre sonu (UTC)** – **Özel tanımlanmış** olarak seçeneği belirleyin ve sonra son kullanılabilir tarihi seçmek için tarih seçiciyi kullanın.
     - **Kapsamlar** - **Tam erişim** seçeneğini belirleyin.
 
-    ![Yeni kişisel erişim belirteci iletişim kutusu oluşturma](./media/setup_rsa_tool_07.png)
+    ![Yeni kişisel erişim belirteci oluştur iletişim kutusu.](./media/setup_rsa_tool_07.png)
 
     > [!NOTE]
     > Oluşturulan kişisel erişim belirtecini not edin. RSAT yapılandırmasını kurduğunuzda daha sonra ihtiyacınız olacaktır.
 
-    ![Kişisel erişim belirteci](./media/setup_rsa_tool_08.png)
+    ![Kişisel erişim belirteci.](./media/setup_rsa_tool_08.png)
 
 ## <a name="configure-the-lcs-project"></a>LCS projesini yapılandırma
 
@@ -123,11 +123,11 @@ LCS projeniz için varolan bir müşteri uygulamasını veya ortak projeyi kulla
 1. LCS uygulama projesine gidin.
 2. **Ayarlar** düğmesini (çark simgesi) sayfanın sağ üst köşesinde seçin ve sonra **Dil tercihleri**'ni seçin.
 
-    ![Dil tercihini güncelleştirme](./media/setup_rsa_tool_09.png)
+    ![Dil tercihini güncelleştirme.](./media/setup_rsa_tool_09.png)
 
 3. **Tercih edilen dil** alanında **İngilizce (Amerika Birleşik Devletleri)**'ni, seçin ve sonra **Kaydet**'i seçin.
 
-    ![Kullanıcı ayarlarındaki dil tercihi sekmesi](./media/setup_rsa_tool_10.png)
+    ![Kullanıcı ayarlarındaki dil tercihi sekmesi.](./media/setup_rsa_tool_10.png)
 
 ### <a name="configure-lcs-to-connect-to-the-azure-devops-project"></a>LCS'yi Azure DevOps projesine bağlanacak şekilde yapılandırın
 
@@ -136,67 +136,67 @@ Daha önce yeni bir Azure DevOps projesi oluşturduysanız LCS projesini bu proj
 1. LCS uygulama projesine gidin.
 2. **Menü** düğmesini seçin ve sonra **Proje ayarları**'nı seçin.
 
-    ![Proje sunucu komutu](./media/setup_rsa_tool_11.png)
+    ![Proje ayarları komutu.](./media/setup_rsa_tool_11.png)
 
 3. Sol bölmede **Visual Studio Team Services**'i seçin ve sonra **Setup Visual Studio Team Services**'i seçin.
 
-    ![Proje ayarlarında Visual Studio Team Services sekmesi](./media/setup_rsa_tool_12.png)
+    ![Proje ayarlarındaki Visual Studio Team Services sekmesi.](./media/setup_rsa_tool_12.png)
 
 4. **Azure DevOps sitesi URL'sinde** Azure DevOps sitesinin URL'sini girin. **Kişisel erişim belirteci** alanında, daha önce oluşturulmuş olan kişisel erişim belirtecini girin.
 
     > [!NOTE]
     > VSTS şimdi Azure DevOps olarak bilinmesine rağmen, LCS'yi Azure DevOps projenize bağlamak için eski URL'yi kullanın. Örneğin bu örnekte kullanılan Azure DevOps URL'si: `https://dev.azure.com/D365FOFastTrack/`. Ancak, aşağıdaki çizimde şu şekilde girilmiştir: `https://D365FOFastTrack.visualstudio.com/`.
 
-    ![Kurulum adım 1 Visual Studio Team Services](./media/setup_rsa_tool_13.png)
+    ![Visual Studio Team Services Kurulumundaki 1. Adım.](./media/setup_rsa_tool_13.png)
 
 5. **Devam**'ı seçin.
 6. **Visual Studio Team Services projesi** alanında LCS projesiyle ilişkilendirmek için seçilen sitedeki VSTS projesini seçin. **Süreç şablonu** alanında **Çevik**'i varsayılan olarak ayarlayın. Özel bir şablon için [Yeni bir Azure DevOps projesi oluşturma](#create-a-new-azure-devops-project) bölümündeki en iyi yöntem kılavuzunu gözden geçirin. Sonra **Devam**'ı seçin.
 
-    ![Kurulum adım 2 Visual Studio Team Services](./media/setup_rsa_tool_14.png)
+    ![Visual Studio Team Services Kurulumundaki 2. Adım.](./media/setup_rsa_tool_14.png)
 
 7. Ayarlarınızı gözden geçirip **Kaydet**'i seçin.
 
-    ![Kurulum adım 3 Visual Studio Team Services](./media/setup_rsa_tool_15.png)
+    ![Visual Studio Team Services Kurulumundaki 3. Adım.](./media/setup_rsa_tool_15.png)
 
 8. Adınıza **Yapılandırılmış** Azure DevOps sitesine erişmek ve VSTS ile birleşen özellikleri açmak için LCS'yi yetkilendirmek üzere Yetkilendir'i seçin.
 
-    ![Yetkilendir düğmesi](./media/setup_rsa_tool_16.png)
+    ![Yetkilendir düğmesi.](./media/setup_rsa_tool_16.png)
 
 9. "Visual Studio Team Services'a sizin adınıza bağlanması için LCS'yi yetkilendirmek üzere harici bir siteye yönlendirilmek üzeresiniz. Devam edilsin mi?" sorusunu soracak bir mesaj kutusu görünür **Evet**'i seçin.
 
-    ![İleti kutusu](./media/setup_rsa_tool_17.png)
+    ![İleti kutusu.](./media/setup_rsa_tool_17.png)
 
 10. **Kabul et**'i seçin.
 
-    ![Erişim yetkilendiriliyor](./media/setup_rsa_tool_18.png)
+    ![Yetkilendirilen erişim.](./media/setup_rsa_tool_18.png)
 
 11. Bir kullanıcı olarak yetkiniz varsa UI, LCS proje ayarları sayfasına dönmelisiniz.
 
-    ![Yetkilendiren kullanıcı](./media/setup_rsa_tool_19.png)
+    ![Yetkilendiren kullanıcı.](./media/setup_rsa_tool_19.png)
 
 ### <a name="create-a-new-bpm-library"></a>Yeni BPM kitaplığı oluştur
 
 1. LCS uygulama projesine gidin.
 2. **Menü** düğmesini seçin ve sonra **İş süreci modelleyici**'yi seçin.
 
-    ![İş süreci modelleyici komutu](./media/setup_rsa_tool_20.png)
+    ![İş süreci modelleyici komutu.](./media/setup_rsa_tool_20.png)
 
 3. **Yeni kitaplık**'ı seçin.
 
-    ![Yeni kitaplık oluştur düğmesi](./media/setup_rsa_tool_21.png)
+    ![Yeni kitaplık düğmesi.](./media/setup_rsa_tool_21.png)
 
 4. **Kitaplık adı** alanına bir ad girin ve **oluştur**'u seçin. Bu öğretici için BPM kitaplığını **RSAT** olarak adlandırın.
 
-    ![Yeni kitaplık iletişim kutusu oluşturma](./media/setup_rsa_tool_22.png)
+    ![Yeni kitaplık oluştur iletişim kutusu.](./media/setup_rsa_tool_22.png)
 
 5. Yeni **RSAT** BPM kitaplığını açın.
 6. **Örnek Çekirdek İş Süreci** sürecini seçin ve sağ taraftaki **Düzenle**'yi seçin.
 
-    ![Düzenleme modu düğmesi](./media/setup_rsa_tool_23.png)
+    ![Düzenleme modu düğmesi.](./media/setup_rsa_tool_23.png)
 
 7. Hem **Ad** alanını hem de **Açıklama** alanını **Ürün oluştur** olarak değiştirin. Sonra **Kaydet**'i seçin.
 
-    ![Ad ve Açıklama alanları](./media/setup_rsa_tool_24.png)
+    ![Ad ve Açıklama alanları.](./media/setup_rsa_tool_24.png)
 
 ## <a name="environment"></a>Ortam
 
@@ -219,14 +219,14 @@ Bu adım, LCS ile ilgili olarak görev kayıtlarının istemci aracılığıyla 
 2. **Sistem Yönetimi \> Kurulum \> Sistem parametreleri**'ne gidin.
 3. **Yardım** sekmesinde **Lifecycle Services yardım yapılandırması** alanında ilgili LCS projesini (bu eğiticide **RSAT**) seçin.
 
-    ![Yardım sekmesindeki Lifecycle Services Yardımı yapılandırma sekmesi](./media/setup_rsa_tool_25.png)
+    ![Yardım sekmesindeki Lifecycle Services yardımı yapılandırma alanı.](./media/setup_rsa_tool_25.png)
 
     BPM kitaplıkları uygun LCS projesi altında doldurulur.
 
 4. **Kaydet**'i seçin.
 5. Güncelleştirilmiş Yardım içeriğini görmek için tarayıcıyı yenilemeniz gerekebilir.
 
-    ![Tarayıcıyı yenileme hakkında bildirim](./media/setup_rsa_tool_26.png)
+    ![Tarayıcıyı yenileme hakkında bildirim.](./media/setup_rsa_tool_26.png)
 
 ## <a name="task-recordings"></a>Görev kayıtları
 
@@ -240,54 +240,54 @@ Yeni BPM kitaplığında oluşturulan basit iş sürecine ekleyebileceğiniz ilg
 1. İstemciyi açın.
 2. Ana panoda **Ayarlar** düğmesini (çark simgesi) seçin ve sonra **Görev kaydedici**'yi seçin.
 
-    ![Ayarlar menüsünde Görev kaydedicisini seçme](./media/setup_rsa_tool_27.png)
+    ![Ayarlar menüsünde Görev kaydedicisini seçme.](./media/setup_rsa_tool_27.png)
 
 3. **Kayıt oluştur**'u seçin.
 
-    ![Yeni kayıt oluşturma düğmesi](./media/setup_rsa_tool_28.png)
+    ![Kayıt oluştur düğmesi.](./media/setup_rsa_tool_28.png)
 
 4. **Kayıt adı** ve **Kayıt açıklaması** alanlarını doldurun ve **Başlat**'ı seçin.
 
-    ![Kayıt adı ve Kayıt açıklaması alanları](./media/setup_rsa_tool_29.png)
+    ![Kayıt adı ve Kayıt açıklaması alanları.](./media/setup_rsa_tool_29.png)
 
 5. Ürün oluşturma adımlarını kaydedin. Bitirdiğinizde kaydı durdurmak için **Durdur**'u seçin.
 
-    ![Bir ürün oluşturma adımları](./media/setup_rsa_tool_30.png)
+    ![Bir ürün oluşturma adımları.](./media/setup_rsa_tool_30.png)
 
 6. **Lifecycle Services'e kaydet**'i seçin.
 
-    ![Görev kaydını Lifecycle Services'e kaydetme](./media/setup_rsa_tool_31.png)
+    ![Görev kaydını Lifecycle Services'e kaydetme.](./media/setup_rsa_tool_31.png)
 
     Kitaplık bilgileri LCS'den yüklenir.
 
-    ![Kitaplık bilgileri yükleniyor](./media/setup_rsa_tool_32.png)
+    ![Kitaplık bilgileri yükleniyor.](./media/setup_rsa_tool_32.png)
 
 7. Görev kaydını ilişkilendirmek için BPM kitaplığını seçin. Bu öğretici için, yukarıda oluşturulmuş **RSAT** BPM kitaplığını seçin ve altında **Ürün oluşturma** iş sürecini seçin. Daha sonra **Tamam**'ı seçin.
 
-    ![Görev kaydını bir BPM kitaplığıyla ve bir iş süreciyle ilişkilendirme](./media/setup_rsa_tool_33.png)
+    ![Görev kaydını bir BPM kitaplığıyla ve bir iş süreciyle ilişkilendirme.](./media/setup_rsa_tool_33.png)
 
     Bir "Lifecycle Services'a başarıyla kaydedildi" iletisi görünür.
 
-    ![LCS'ye başarılı bir kayıt ile ilgili ileti](./media/setup_rsa_tool_34.png)
+    ![LCS'ye başarılı şekilde kaydetme hakkında ileti.](./media/setup_rsa_tool_34.png)
 
 8. Görev kaydını yerel olarak kaydetmek ve daha sonra LCS yoluyla BPM ile yüklemek istiyorsanız şu adımları izleyin:
 
     1. Kayıt tamamlandıktan sonra **Bu bilgisayara kaydet**'i seçin.
 
-        ![Bu bilgisayara kaydet](./media/setup_rsa_tool_35.png)
+        ![Bu bilgisayara kaydet.](./media/setup_rsa_tool_35.png)
 
     2. Dosyayı yerel bilgisayarınıza kaydetmek için tarayıcının bildirim çubuğunda **Kaydet** veya **Farklı kaydet** seçeneğini belirleyin.
 
-        ![Bildirim çubuğu](./media/setup_rsa_tool_36.png)
+        ![Bildirim çubuğu.](./media/setup_rsa_tool_36.png)
 
     3. **RSAT** BPM kitaplığına gidin ve görev kaydını kaydedeceğiniz iş sürecini seçin.
     4. **Genel** sekmesinde **Yükle**'yi seçin.
 
-        ![Yükle düğmesi](./media/setup_rsa_tool_37.png)
+        ![Yükle düğmesi.](./media/setup_rsa_tool_37.png)
 
     5. **Gözat**'ı seçin ve daha önce kaydettiğiniz .axtr dosyasını seçin. Sonra **Yükle**'yi seçin.
 
-        ![Karşıya yüklenecek. axtr dosyasını seçme](./media/setup_rsa_tool_38.png)
+        ![Karşıya yüklenecek. axtr dosyasını seçme.](./media/setup_rsa_tool_38.png)
 
 ### <a name="test-the-synchronization-from-bpm-to-azure-devops"></a>BPM ile Azure DevOps eşitlemesini test etme
 
@@ -299,36 +299,36 @@ Bir görev kaydı iş sürecine iliştirildiğinde, (sırasıyla) LCS'deki VSTS 
 1. BPM kitaplığına gidin ve daha önce oluşturduğunuz **RSAT** kitaplığını açın.
 2. Üç nokta düğmesini (**...**) ve **VSTS Eşitleme** öğesini seçin.
 
-    ![Üç nokta menüsünde VSTS eşitleme komutu](./media/setup_rsa_tool_39.png)
+    ![Üç nokta menüsünde VSTS eşitleme komutu.](./media/setup_rsa_tool_39.png)
 
     VSTS eşitleme işlemi tamamlandıktan sonra sol tarafta **Gereksinimler** sekmesi görünür ve bu, ilgili Azure DevOps iş öğesini içerir.
 
     > [!NOTE]
     > Azure DevOps'ta oluşturulan iş öğesi başlığı ön eki olarak BPM kitaplığının adına sahip olacaktır.
 
-    ![Gereksinimler sekmesi](./media/setup_rsa_tool_40.png)
+    ![Gereksinimler sekmesi.](./media/setup_rsa_tool_40.png)
 
 3. Sayfayı yenileyin.
 4. Üç nokta düğmesini (**...**) Ek bir seçenek olan **Test olaylarını eşitle**'de göreceksiniz. Bu seçeneği seçin.
 
-    ![Üç nokta menüsünde test olaylarını eşitle menüsü](./media/setup_rsa_tool_41.png)
+    ![Üç nokta menüsünde test olaylarını eşitle menüsü.](./media/setup_rsa_tool_41.png)
 
     > [!NOTE]
     > **Test olaylarını eşitle** sayfayı yeniledikten sonra da açılmıyorsa BPM için ana sayfaya gidin ve tüm kitaplık için **Test olaylarını eşitle**'yi seçin. Böylece, tüm kitaplık için eşitlemeyi etkili şekilde zorlarsınız.
     >
-    > ![Tüm kitaplık için test olaylarını Eşitlemeyi seçme](./media/setup_rsa_tool_42.png)
+    > ![Tüm kitaplık için test olaylarını eşitle'yi seçme.](./media/setup_rsa_tool_42.png)
 
     Test olaylarını eşitlemeyi tamamlandıktan sonra **Gereksinimler** sekmesinde yeni bir test olayı oluşturulur.
 
-    ![Gereksinimler sekmesinde yeni test olayı](./media/setup_rsa_tool_43.png)
+    ![Gereksinimler sekmesinde yeni test olayı.](./media/setup_rsa_tool_43.png)
 
 5. Azure DevOps projenize gidin ve  **Panolar \> Çalışma Maddeleri**'ni seçin.
 
-    ![Panolar altında Çalışma Maddeleri komutu](./media/setup_rsa_tool_44.png)
+    ![Panolar altında İş öğeleri komutu.](./media/setup_rsa_tool_44.png)
 
 6. BPM eşitlemesi aracılığıyla oluşturduğunuz iş öğesinin ve test olayının varolduğunu doğrulayın.
 
-    ![İş maddesi ve test olayı](./media/setup_rsa_tool_45.png)
+    ![İş öğesi ve test olayı.](./media/setup_rsa_tool_45.png)
 
 ## <a name="install-and-configure-rsat"></a>RSAT'ı yükleme ve Yapılandırma
 
@@ -354,16 +354,16 @@ Kimlik doğrulamayı etkinleştirmek için, RSAT'ın çalıştığı bilgisayara
     > [!NOTE]
     > Sertifikalar yerel bilgisayarda depolandığından **certmgr.msc** değil **certlm.msc** yazdığınızdan emin olun.
 
-    ![D365 otomatik test sertifikası sertifikası](./media/setup_rsa_tool_46.png)
+    ![D365 Otomatik test sertifikası sertifikası.](./media/setup_rsa_tool_46.png)
 
 3. Sertifikada sağa tıklayın ve sonra **Kopyala**'yı seçin.
 4. **Güvenilen Kök Sertifika Yetkilileri \> Sertifikalar**'a gidin.
 
-    ![Güvenilen Kök Sertifika Yetkilileri klasörü altındaki sertifikalar klasörü](./media/setup_rsa_tool_47.png)
+    ![Güvenilen Kök Sertifika Yetkilileri klasörü altındaki sertifikalar klasörü.](./media/setup_rsa_tool_47.png)
 
 5. **Eylem** menüsünde sertifikayı **Güvenilen Kök Sertifika Yetkilileri** konumuna yapıştırmak için **Yapıştır**'ı seçin.
 
-    ![Yapıştır komutu Eylem menüsü](./media/setup_rsa_tool_48.png)
+    ![Eylem menüsündeki Yapıştır komutu.](./media/setup_rsa_tool_48.png)
 
 6. Boşluk veya özel karakterler olmadan yüklü sertifikanın parmak izini almak için bir Windows PowerShell penceresini yönetici olarak açın ve aşağıdaki komutları çalıştırın.
 
@@ -384,11 +384,11 @@ Kimlik doğrulamayı etkinleştirmek için, RSAT'ın çalıştığı bilgisayara
 1. AOS bilgisayarına bir Uzaktan Masaüstü Protokolü (RDP) bağlantısı kurun. Oturum açma ayrıntıları LCS içindeki ortam ayrıntıları sayfasında bulunabilir.
 2. Microsoft Internet Information Services'i (IIS) açın ve site listesinde **AOSService**'i bulun.
 
-    ![Siteler listesinde AOSService](./media/setup_rsa_tool_49.png)
+    ![Siteler listesindeki AOSService.](./media/setup_rsa_tool_49.png)
 
 3. **\<Drive\>: \\AosService\\WebRoot** klasörünü açmak için **Keşfet**'e sağ tıklayın. **wif.config** dosyasını bulun.
 
-    ![WebRoot klasöründe wif.config dosyası](./media/setup_rsa_tool_50.png)
+    ![WebRoot klasöründeki wif.config dosyası.](./media/setup_rsa_tool_50.png)
 
 4. Aşağıdaki örnekte gösterildiği gibi, **wif.config** dosyasını sertifikanız ve yetki adınız için yeni bir yetki girişi ekleyerek günceştirin.
 
@@ -434,11 +434,11 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 1. <https://www.microsoft.com/download/details.aspx?id=57357>'a gidin ve **İndir**'i seçin.
 2. Tüm dosyaları seçin ve sonra **İleri**'yi seçin.
 
-    ![Tüm dosyalar seçiliyor](./media/setup_rsa_tool_51.png)
+    ![Tüm dosyaları seçme.](./media/setup_rsa_tool_51.png)
 
 3. Yükleyiciyi çalıştırmak için .msi paketine çift tıklayın. Yükleme tamamlandığında **Son**'u seçin.
 
-    ![RSAT Yükleyici dosyası](./media/setup_rsa_tool_52.png)
+    ![RSAT Yükleyici dosyası.](./media/setup_rsa_tool_52.png)
 
 ### <a name="install-selenium-and-browser-drivers"></a>Selenium ve tarayıcı sürücülerini yükleme
 
@@ -453,46 +453,46 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
 
 1. Azure DevOps projesine gidin ve **Test Planları**'nı seçin.
 
-    ![Test planları komutu](./media/setup_rsa_tool_53.png)
+    ![Test planları komutu.](./media/setup_rsa_tool_53.png)
 
 2. **Yeni Test Planı**'nı seçin.
 
-    ![Yeni Test Planı düğmesi](./media/setup_rsa_tool_54.png)
+    ![Yeni Test Planı düğmesi.](./media/setup_rsa_tool_54.png)
 
 3. **Ad** alanını doldurun ve sonra **Oluştur**'u seçin. Bu öğretici için test planını **RSAT test planı** olarak adlandırın.
 
-    ![Yeni Test Planı iletişim kutusu](./media/setup_rsa_tool_55.png)
+    ![Yeni Test Planı iletişim kutusu.](./media/setup_rsa_tool_55.png)
 
 4. Artı işaretini (**+**) seçin ve sonra yeni test planı altında **Statik paket** oluşturmak için statik paketi seçin. Yeni test paketini **T01 – Stoka Aktar** olarak adlandırın.
 
     > [!NOTE]
     > Ayrıca, yeni test olaylarını BPM'den otomatik olarak RSAT test paketine çekilmesini istiyorsanız sorgu tabanlı bir paket oluşturabilirsiniz.
 
-    ![Statik bir paket oluşturma](./media/setup_rsa_tool_56.png)
+    ![Statik bir paket oluşturma.](./media/setup_rsa_tool_56.png)
 
 ### <a name="attach-test-cases-to-test-suites"></a>Test paketlerine test olayları iliştirme
 
 1. Test paketine varolan test olaylarını eklemek için sağ taraftan **Varolanı ekle**'yi seçin.
 
-    ![Varolan faaliyeti ekleme düğmesi](./media/setup_rsa_tool_57.png)
+    ![Mevcut ekle düğmesi.](./media/setup_rsa_tool_57.png)
 
 2. **Pakete test olaylarını ekle** sayfasında **Sorguyu çalıştır**'ı seçin, ve sonra test paketine eklenecek test olayını seçin. Bu eğitici için, **Yeni bir ürün oluştur** test olayı seçeneğini belirleyin. Sonra sayfanın sağ alt köşesindeki **Test olayları ekle**'yi seçin (Bu düğme aşağıdaki çizimde gösterilmez).
 
-    ![Sorgu çalıştırma düğmesi](./media/setup_rsa_tool_58.png)
+    ![Sorgu çalıştırma düğmesi.](./media/setup_rsa_tool_58.png)
 
     Test olayı **T01-Stoka Aktar** test paketine eklenir.
 
-    ![Test paketine eklenen test olayı](./media/setup_rsa_tool_59.png)
+    ![Test paketine eklenen test olayı.](./media/setup_rsa_tool_59.png)
 
-### <a name="configure-rsat"></a>RSAT konfigüre et
+### <a name="configure-rsat"></a>RSAT'yi yapılandır
 
 1. RSAT'ı açın.
 
-    ![RSAT simgesi](./media/setup_rsa_tool_60.png)
+    ![RSAT simgesi.](./media/setup_rsa_tool_60.png)
 
 2. The Regression Suite Automation Tool'un Selenium gerektirdiğini, şimdi otomatik olarak karşıdan yükleyip kurmak isteyip istemediğinizi belirten bir uyarı iletisi mi alıyorsunuz? **Evet**'i seçin.
 
-    ![Regression Suite Automation Tool'un Selenium gerektirdiğine dair uyarı iletisi](./media/setup_rsa_tool_61.png)
+    ![Regression Suite Automation Tool'un Selenium gerektirdiğine dair uyarı iletisi.](./media/setup_rsa_tool_61.png)
 
 3. Sağ üst köşedeki **Ayarlar** düğmesini (çark sembolü) seçin ve sonra görünen iletişim kutusunda aşağıdaki alanları doldurun:
 
@@ -506,7 +506,7 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
         > [!NOTE]
         > Ana bilgisayar adını ve SOAP ana bilgisayar adını bulmak için, IIS Yöneticisini açın, **Siteler \> AOSService**'e sağ tıklayın **Bağlama düzenleme**'yi seçin. **Ana bilgisayar adı** sütunundaki değerler, size ana bilgisayar adı ve SOAP ana bilgisayar adı verir (SOAP ana bilgisayar adı URL'de son ek **SOAP**'ye sahiptir).
 
-        ![Ana makine adı sütununda ana bilgisayar adı ve SOAP ana bilgisayar adı](./media/setup_rsa_tool_63.png)
+        ![Ana makine adı sütunundaki Ana bilgisayar adı ve SOAP ana bilgisayar adı.](./media/setup_rsa_tool_63.png)
 
     - **Yönetici kullanıcı adı** – Test ortamında bir yönetici kullanıcısının e-posta adresini girin.
     - **Parmak izi** – Bu öğreticide daha önce anlatıldığı şekilde, kimlik doğrulama sertifikasının parmak izini girin.
@@ -520,7 +520,7 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
     - **Test eylemi zaman aşımı** – bu alan, Finance and Operations ortamı sunucu istekleri için zaman aşımı süresini dakika cinsinden denetler. Genellikle varsayılan değer (2 dakika) yeterli olmalıdır. Ancak, daha yavaş ortamlarda, zaman aşımları ile ilgili hatalar oluşursa bu değeri arttırmak isteyebilirsiniz.
     - **Şirket adı** – Excel parametre dosyaları oluşturulurken varsayılan şirket olarak kullanılacak şirket adını girin. Şirketi daha sonra Excel parametre dosyasını düzenleyerek değiştirebilirsiniz.
 
-    ![Ayarlar iletişim kutusu](./media/setup_rsa_tool_62.png)
+    ![Ayarlar iletişim kutusu.](./media/setup_rsa_tool_62.png)
 
 4. Ayarlarınızı uygulamak ve kaydetmek için **Uygula**'yı seçin.
 
@@ -532,15 +532,15 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
 
 1. Azure DevOps projesinden **RSAT Test Planı**'nı yüklemek için **Yükle**'yi seçin.
 
-    ![Yükle düğmesi](./media/setup_rsa_tool_64.png)
+    ![Yükle düğmesi.](./media/setup_rsa_tool_64.png)
 
 2. **Yeni bir ürün oluştur** test olayını test paketinden seçin ve sonra **Yeni \> Test Yürütmesi ve Parametresi dosyalarını oluştur**'u seçin.
 
-    ![Yeni menüde Test Yürütmesi ve Parametre Dosyaları oluştur komutu](./media/setup_rsa_tool_65.png)
+    ![Yeni menüsünde Test Yürütmesi ve Parametre dosyaları oluştur komutu.](./media/setup_rsa_tool_65.png)
 
     Excel parametre dosyası, RSAT yapılandırmasında belirttiğiniz yerel klasörde oluşturulur. (örneğin **C:\\Temp\\RegressionTool**).
 
-    ![Oluşturulan Excel parametre dosyası](./media/setup_rsa_tool_66.png)
+    ![Oluşturulan Excel parametre dosyası.](./media/setup_rsa_tool_66.png)
 
 3. Parametre dosyalarını kaydetmek istiyorsanız **Yükle**'yi seçin. Tüm seçili test olaylarının test otomasyon dosyaları, ileride kullanılmak üzere Azure DevOps'a yüklenir. (Bu dosyalar Excel test parametre dosyalarını içerir.)
 
@@ -553,33 +553,33 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
     - **.xlsx** – Excel parametre dosyası
     - **.xml** – Kayıt dosyası
 
-    ![Ekler sekmesindeki dosyalar](./media/setup_rsa_tool_67.png)
+    ![Ekler sekmesindeki dosyalar.](./media/setup_rsa_tool_67.png)
 
 5. Çalıştırılacak test olayını seçin ve sonra **Çalıştır**'ı seçin.
 
     > [!NOTE]
     > Test olaylarını çalıştırmadan önce tarayıcı olarak Internet Explorer kullanıyorsanız **Windows Görüntü Ayarları \> Ölçek ve Düzen**'in **%100** olduğundan emin olun. Bu ayarı bir sanal makinede (VM) değiştirmek istemezseniz VM'ye erişmeye çalıştığınız istemci (dizüstü bilgisayar) üzerinde bunu değiştirin. Böylece, çözünürlük ayarları VM görüntü ayarları tarafından devralınır.
 
-    ![Masaüstü çözünürlüğü %100 olarak ayarlandı](./media/setup_rsa_tool_68.png)
+    ![Masaüstü çözünürlüğü %100 olarak ayarlandı.](./media/setup_rsa_tool_68.png)
 
 6. Tarayıcı sürücüleri sistemde yüklü değilse "Bu işlem \<browser name\> sürücüsü gerektirir. Şimdi otomatik olarak karşıdan yükleyip kurmak istiyor musunuz?" uyarısı alacaksınız. **Evet**'i seçin.
 
-    ![Internet Explorer için uyarı iletisi](./media/setup_rsa_tool_69.png)
+    ![Internet Explorer için uyarı iletisi.](./media/setup_rsa_tool_69.png)
 
-    ![Chrome için uyarı iletisi](./media/setup_rsa_tool_70.png)
+    ![Chrome için uyarı iletisi.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
     > Tarayıcı olarak Chrome kullanıyorsanız ve Chrome sürümü doğru olmadığı için oturumun oluşturulmadığını bildiren bir hata iletisi alıyorsanız en son Chrome sürücüsünü <http://chromedriver.chromium.org/downloads> **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Ortak\\Dış\\Selenium** dosyasına indirin.
 
-    ![Chrome için hata uyarısı iletisi](./media/setup_rsa_tool_71.png)
+    ![Chrome için hata iletisi.](./media/setup_rsa_tool_71.png)
 
     Test olayı çalıştırılır ve **Sonuç** alanı güncellenir.
 
-    ![Güncelleştirilmiş Sonuç alanı](./media/setup_rsa_tool_72.png)
+    ![Güncelleştirilmiş Sonuç alanı.](./media/setup_rsa_tool_72.png)
 
     Bu öğreticiyi yazıldığı gibi izlediyseniz **Ürün oluşturmak için görev kaydı** ürün adını sabit kodlanmış değer olarak kaydetmediği için, yeni ürün test olayı oluşturma başarısız olacaktır. Aynı test olayını yeniden çalıştırırsanız ürün zaten varolduğu için bir hata iletisi almalısınız.
 
-    ![Sonuç alanı Başarısız olarak ayarlandı](./media/setup_rsa_tool_72.png)
+    ![Sonuç alanı Başarısız olarak ayarlandı.](./media/setup_rsa_tool_72.png)
 
 ### <a name="view-the-test-results"></a>Test sonuçlarını görüntüleme
 
@@ -587,38 +587,38 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
 
     Hata iletisi alırsınız.
 
-    ![Hata iletisi](./media/setup_rsa_tool_73.png)
+    ![Hata iletisi.](./media/setup_rsa_tool_73.png)
 
 2. Hata iletisinin tamamını görüntülemek için **Ayrıntıları** seçin.
 
-    ![Tüm hata iletisi](./media/setup_rsa_tool_74.png)
+    ![Tüm hata iletisi.](./media/setup_rsa_tool_74.png)
 
 3. Hata iletisinin ayrıntılı bir sürümünü Azure DevOps'ta görüntülemek için **Azure DevOps'da Aç**'ı seçin. Azure DevOps'ta, test olayının durumunu ve ayrıntılı hata iletisini görebilirsiniz.
 
-    ![Azure DevOps'ta ayrıntılı hata iletisi](./media/setup_rsa_tool_75.png)
+    ![Azure DevOps'taki ayrıntılı hata iletisi.](./media/setup_rsa_tool_75.png)
 
 4. Azure DevOps test sonuçlarını doğrudan proje içinde görüntülemek için,**Test Planları \> Test Planları \> Çalıştır**'a gidin. Daha fazla ayrıntı görmek istediğiniz test olayına çift tıklayın.
 
-    ![Azure DevOps'ta test çalışmalarının listesi](./media/setup_rsa_tool_76.png)
+    ![Azure DevOps'taki test çalışmalarının listesi.](./media/setup_rsa_tool_76.png)
 
 5. **Çalıştırma özeti** sekmesi test olayının başarısız olduğunu gösterir, ancak gerçek hata iletisini sağlamaz. Ayrıntılı hata iletisini görüntülemek için **Test sonuçları** sekmesini seçin.
 
-    ![Çalıştırma özeti sekmesi](./media/setup_rsa_tool_77.png)
+    ![Çalıştırma özeti sekmesi.](./media/setup_rsa_tool_77.png)
 
     **Test sonuçları** sekmesi, sonuç ve hata iletisiyle birlikte test olayı bilgilerini sağlar.
 
-    ![Test sonuçları sekmesi](./media/setup_rsa_tool_78.png)
+    ![Test sonuçları sekmesi.](./media/setup_rsa_tool_78.png)
 
 6. Ayrıntılı hata iletisini görüntülemek için ilgili kayda çift tıklayın.
 
-    ![Ayrıntılı hata iletisi](./media/setup_rsa_tool_79.png)
+    ![Ayrıntılı hata iletisi.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
     > Tüm hata iletileri yerel olarak **C:\\Users\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**'te de bulunur.
 
 7. Test olayı sonuçlarını, **Dışa aktar**'ı seçerek test planı düzeyinden de dışa aktarabilirsiniz.
 
-    ![Test planını dışa aktarma](./media/setup_rsa_tool_80.png)
+    ![Test planını dışa aktarma.](./media/setup_rsa_tool_80.png)
 
 ### <a name="modify-the-excel-parameter-file"></a>Excel parametre dosyasını değiştirme
 
@@ -636,23 +636,23 @@ RSAT'ın eski sürümlerinde, Selenium ve Tarayıcı sürücülerini yüklemeniz
     > [!NOTE]
     > **Genel** sekmesine ek olarak the Excel parametre dosyası, test olayının ziyaretlerinin her form sayfası için bir veri sekmesi içerir.
 
-    ![Ürün numarası dosyası](./media/setup_rsa_tool_81.png)
+    ![Ürün numarası alanı.](./media/setup_rsa_tool_81.png)
 
 4. **Kaydet**'i seçip Excel .çalışma sayfasını kapatın.
 5. Excel parametre dosyasını Azure DevOps'a kaydetmek için **Yükle**'yi seçin.
 
-    ![İleti yükleme başarılı](./media/setup_rsa_tool_82.png)
+    ![Başarılı yükleme iletisi.](./media/setup_rsa_tool_82.png)
 
     > [!NOTE]
     > Test olaylarını belirli bir kullanıcı bağlamında çalıştırmak için, kullanıcının e-posta kodunu Excel parametre dosyasının **Genel** sekmesindeki **Test Kullanıcısı** alanına girin. RSAT'ın en son sürümünde, Excel parametre dosyasındaki alanların düzeni güncelleştirildi, ancak kavram aynı kaldı.
     >
-    > ![Test Kullanıcısı alanı](./media/setup_rsa_tool_83.png)
+    > ![Test Kullanıcısı alanı.](./media/setup_rsa_tool_83.png)
 
 ### <a name="validate-the-results"></a>Sonuçları doğrulama
 
 - Test olayını yeniden çalıştırmak için **Çalıştır**'ı seçin ve test olayının geçtiğini doğrulayın. Test sonuçlarını, [View the test results](#view-the-test-results)'ta tanımlandığı gibi görüntüleyebilirsiniz.
 
-    ![Sonuç alanı Başarılı olarak ayarlandı](./media/setup_rsa_tool_84.png)
+    ![Sonuç alanı Başarılı olarak ayarlandı.](./media/setup_rsa_tool_84.png)
 
 ### <a name="chaining-of-test-cases"></a>Test olaylarının zincirlenmesi
 
@@ -666,23 +666,23 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 2. **Ayarlar** düğmesini (çark simgesi) seçin ve sonra **Görev kaydedici**'yi seçin.
 3. **Kaydı Düzenle**'yi seçin.
 
-    ![Kaydı Düzenle düğmesi](./media/setup_rsa_tool_85.png)
+    ![Kaydı Düzenle düğmesi.](./media/setup_rsa_tool_85.png)
 
 4. **Lifecycle Services'tan Aç**'ı seçin.
 
-    ![Lifecycle Services'tan aç düğmesi](./media/setup_rsa_tool_86.png)
+    ![Lifecycle Services'tan aç düğmesi.](./media/setup_rsa_tool_86.png)
 
 5. **Lifecycle Services kitaplığı**'nı seçin.
 
-    ![Lifecycle Services kitaplığını seç düğmesi](./media/setup_rsa_tool_87.png)
+    ![Lifecycle Services kitaplığını seç düğmesi.](./media/setup_rsa_tool_87.png)
 
     BPM kitaplıkları LCS'den yüklenir.
 
-    ![BPM kitaplıkları yükleniyor](./media/setup_rsa_tool_88.png)
+    ![BPM kitaplıkları yükleniyor.](./media/setup_rsa_tool_88.png)
 
 6. BPM kitaplıkları LCS'den yüklendikten sonra **RSAT** BPM kitaplığını seçin ve görev kaydının ilişkilendirildiği **Yeni bir ürün oluştur** iş süreci oluşturun. Daha sonra **Tamam**'ı seçin.
 
-    ![BPM kitaplığı ve iş süreci seçme](./media/setup_rsa_tool_89.png)
+    ![BPM kitaplığı ve iş süreci seçme.](./media/setup_rsa_tool_89.png)
 
 7. Uygun görev kaydının adı **Kayıt adı** alanına girilir. **Başlat**'ı seçin.
 
@@ -694,15 +694,15 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
     > [!NOTE]
     > Yeni adım, bölmesinde seçtiğiniz adımdan **sonra** eklenir.
 
-    ![Adım ekle düğmesi](./media/setup_rsa_tool_91.png)
+    ![Adım ekle düğmesi.](./media/setup_rsa_tool_91.png)
 
 10. **Ürün numarası** alanına sağ tıklayın ve sonra **Görev kaydedici \> Kopyala**'yı seçin.
 
-    ![Komutu kopyalama](./media/setup_rsa_tool_92.png)
+    ![Kopyala komutu.](./media/setup_rsa_tool_92.png)
 
 11. Yeni adım bölmeye eklenir. Daha sonra gereksinim duyacağınız **Ürün numarası** alanındaki değeri not edin.
 
-    ![Yeni adım eklendi](./media/setup_rsa_tool_93.png)
+    ![Yeni adım eklendi.](./media/setup_rsa_tool_93.png)
 
 12. **Düzenlemeyi bitir**'i seçin.
 13.  **Save to Lifecycle Services**'e kaydeti seçin ve yeni görev kaydını, özgün görev kaydının ilişkilendirildiği aynı BPM kitaplığıyla ve iş süreciyle ilişkilendirin. Daha fazla bilgi için [Görev kaydı oluşturma ve bunu BPM kitaplığına kaydetme](#create-a-task-recording-and-save-it-to-the-bpm-library)bölümüne bakın.
@@ -714,7 +714,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 
 16. Yeni Excel parametre dosyasını açmak için **Düzenle**'yi seçin. Çevrimiçi 9 yeni bir **Kaydedilmiş değişken** girişi göreceksiniz. Bu değişken **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**, görev kaydının XML dosyasına kaydedilir ve sonraki testlerde kullanılabilir.
 
-    ![Kaydedilen değişken girişi](./media/setup_rsa_tool_94.png)
+    ![Kaydedilen değişken girişi.](./media/setup_rsa_tool_94.png)
 
 #### <a name="create-a-new-test-case"></a>Yeni bir test olayı oluşturma
 
@@ -722,7 +722,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 2. **Örnek Desteği İş Süreci** sürecini seçin ve sağ taraftaki **Düzenle**'yi seçin.
 3. Hem **Ad** alanını hem de **Açıklama** alanını **Ürünü serbest bırak** olarak değiştirin. Sonra **Kaydet**'i seçin.
 
-    ![Ad ve açıklama bir ürünü serbest bırakmak için değişti](./media/setup_rsa_tool_95.png)
+    ![Ad ve açıklama Ürünü serbest bırak olarak değiştirildi.](./media/setup_rsa_tool_95.png)
 
 #### <a name="create-a-new-task-recording-that-has-a-validate-function"></a>Doğrulama işlevi olan yeni bir görev kaydı oluşturma
 
@@ -731,21 +731,21 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
     > [!NOTE]
     > Zincirleme test olayları için, *alan değerini el ile yazarak* gereksinim duyduğunuz kaydı bulmanız veya filtreleyerek her zaman önerilir. Bu şekilde, söz konusu eylem, sonraki test olayında dikkate alınması gereken kaydı belirleyebilir.
 
-    ![Doğrulama işlevi olan yeni bir görev kaydı](./media/setup_rsa_tool_96.png)
+    ![Doğrulama işlevi olan yeni bir görev kaydı.](./media/setup_rsa_tool_96.png)
 
     Yukarıdaki resimde gösterildiği gibi ürün Quick Filter'la bulunduktan sonra ancak **Ürünleri serbest bırak**'ı seçmeden önce, **Ürün numarası** alanının değerini doğrulamak için ürün kimliğinin daha önce oluşturulmuş ürün kimliği olduğundan emin olun. Değeri doğrulamak için **ürün numarası** alanına sağ tıklayın ve **Görev kaydedici \> Doğrula \> Geçerli Değer**'i seçin.
 
-    ![Geçerli kaydı doğrulama](./media/setup_rsa_tool_97.png)
+    ![Geçerli kaydı doğrulama.](./media/setup_rsa_tool_97.png)
 
 #### <a name="save-the-task-recording-to-bpm"></a>Görev kaydetmeyi BPM'e kaydetme
 
 1. Görev kaydı tamamlandıktan sonra **Lifecycle Services'e kaydet**'i seçin.
 
-    ![Tamamlanan görev kaydını Lifecycle Services'e kaydetme](./media/setup_rsa_tool_98.png)
+    ![Tamamlanan görev kaydını Lifecycle Services'e kaydetme.](./media/setup_rsa_tool_98.png)
 
 2. Kitaplık bilgileri LCS'den yüklenir.
 
-    ![LCS'den kitaplık bilgileri yükleniyor](./media/setup_rsa_tool_99.png)
+    ![LCS'den kitaplık bilgilerini yükleme.](./media/setup_rsa_tool_99.png)
 
 3. Görev kaydını ilişkilendirmek için BPM kitaplığını seçin. Bu öğretici için, yukarıda oluşturulmuş **RSAT** BPM kitaplığını seçin ve altında **Ürünü serbest bırakma** iş sürecini seçin. Daha sonra **Tamam**'ı seçin.
 
@@ -763,22 +763,22 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 3. **Test olaylarını pakete ekle** sayfasında **Sorguyu çalıştır**'ı seçin.
 4. **Bir ürünü serbest bırakmak** için oluşturulan yeni test olayını seçin ve sonra sayfanın sağ alt köşesinde **Test olayları ekle**'yi seçin (Bu düğme aşağıdaki çizimde gösterilmez).
 
-    ![Paket sayfasına test durumları ekleme](./media/setup_rsa_tool_100.png)
+    ![Pakete test olayları ekleme sayfası.](./media/setup_rsa_tool_100.png)
 
     Test paketinin şimdi iki test olayı vardır.
 
-    ![Test paketinin şimdi iki test olayı var](./media/setup_rsa_tool_101.png)
+    ![Test paketindeki iki test olayı.](./media/setup_rsa_tool_101.png)
 
 #### <a name="load-test-cases-into-rsat"></a>RSAT'a test olaylarını yükleme
 
 1. RSAT'ı açın ve **Yükle** yi seçin.
 2. Test olayları yüklenir ve "Bu eylem Excel test veri dosyalarının üzerine yazacak, yerel değişikliklerin kaybolmasına neden olacak. Devam etmek istiyor musunuz?" yazan bir uyarı alacaksınız Excel parametresi dosyalarını yerel sistemde güncelleştirmek ama Azure DevOps'a yüklenen Excel parametre dosyalarını güncelleştirmemek için **Evet**'i seçin.
 
-    ![Bu eylem Excel test veri dosyalarının üzerine yazacak](./media/setup_rsa_tool_102.png)
+    ![Bu eylem Excel test veri dosyalarının üzerine yazacak.](./media/setup_rsa_tool_102.png)
 
     Her iki test olayı da, ilk test olayı için Excel parametre dosyası ile birlikte yüklenir. Son çalıştırmada karşıya **Yükle**'yi seçtiğinizden, parametre dosyaları Azure DevOps'tan çekilir .
 
-    ![Test senaryoları yüklendi](./media/setup_rsa_tool_103.png)
+    ![Test olayları yüklendi.](./media/setup_rsa_tool_103.png)
 
 3. Yalnızca ikinci test olayını seçin ve sonra  **Yeni \> Test Yürütmesi ve Parametre Dosyaları oluştur**'u seçin.
 
@@ -787,7 +787,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 1. Yalnızca ikinci test olayını seçin ve sonra karşılık gelen Excel parametre dosyasını açmak için **Düzenle**'yi seçin.
 2. Kaydedilmiş değişken **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**'yi ilk test olayından ürün numarasının kullanıldığı tüm alanlara kopyalayın ([Kaydedilmiş bir değişken oluşturmak için varolan görev kaydını değiştirme](#modify-an-existing-task-recording-to-create-a-saved-variable) bölümüne bakın). Bu durumda, değişkeni **Ürün numarasına** ve **Ürün Numarasını Doğrula** alanlarını **EcoResProductListPage** sayfasına kopyalarsınız.
 
-    ![Ürün numarası ve ürün numarası doğrulama alanları](./media/setup_rsa_tool_104.png)
+    ![Ürün numarası ve Ürün numarası doğrulama alanları.](./media/setup_rsa_tool_104.png)
 
     > [!NOTE]
     > Değişkenler, yalnızca aynı test olayı sırasında testler arasında geçirilebilir. Değişkenlerin adlarının tam olarak eşleşmesi gerekir.
@@ -800,7 +800,7 @@ Bu bölümde, ilk test olayında bir kaydedilmiş değişken oluşturacak, ikinc
 1. Çalıştırılacak iki test olayını da seçin ve sonra **Çalıştır**'ı seçin.
 2. Her iki test olayının da geçtiğini doğrulayın.
 
-    ![Her iki test çalışması için de sonuç alanı geçildi](./media/setup_rsa_tool_105.png)
+    ![Her iki test olayı için de sonuç alanı geçti olarak ayarlandı.](./media/setup_rsa_tool_105.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

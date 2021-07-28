@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833054"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355239"
 ---
 # <a name="cost-control-workspace"></a>Maliyet kontrolü çalışma alanı 
 
@@ -140,7 +140,7 @@ Bir kılavuz, bir maliyet öğesi boyut hiyerarşi düğümü ile ilişkili her 
 
 Kullanıcılar, ihtiyaç duydukları zaman giriş ayrıntılarına inmek için **Maliyet girişleri** üzerine tıklayabilirler.
 
-![Maliyet girişleri](./media/cost-entries.png)
+![Maliyet girişleri.](./media/cost-entries.png)
 
 Örneğin, kira, maliyet merkezlerine dağıtılmış bir harcamadır. Kendisine ait maliyet merkezinin taşımak zorunda olduğu kira maliyetini anlamak isteyen bir kullanıcı, kiranın nasıl hesaplandığını görmek için ayrıntılara gidebilir.
 
@@ -148,7 +148,7 @@ Kullanılar **Maliyet girişleri** sayfası üzerindeki **Tahsisat tabanı** üz
 
 Aşağıdaki örnekte, tahsisat tabanı **Formül tahsisat tabanı** türündedir ve formül gösterilir. Formülü tanımlayan faktörler listelenir. Ek olarak, bir kılavuz, maliyet nesnesi başına yapılan hesaplamayı gösterir.
 
-![Maliyet nesnesi başına hesaplamalar](./media/cost-entries-allocation-base.png)
+![Maliyet nesnesi başına hesaplamalar.](./media/cost-entries-allocation-base.png)
 
 Ek kaynaklar 
 

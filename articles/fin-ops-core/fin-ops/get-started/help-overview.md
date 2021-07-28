@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923458"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373379"
 ---
 # <a name="help-system"></a>Yardım sistemi
 
@@ -35,7 +37,7 @@ Aşağıdaki uygulamaların kullanıcıları, içeriğe duyarlı Yardıma ve ayn
 
 Tüm bu uygulamalarda, ürüne özel Yardım'a **Yardım** bölmesinden erişebilirsiniz.
 
-![Yardım bölmesi](./media/help-pane-ops-help.png)
+![Yardım bölmesi.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
 
@@ -46,12 +48,23 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/](/dynamics365/)) dah
 
 Herhangi bir arama motorunu kullanarak docs.microsoft.com adresinde içerik bulabilirsiniz. En iyi sonuçları almanız için **site:docs.microsoft.com dynamics 365 "arama terimi"** şeklinde bir site araması kullanmanızı öneririz.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>RSS akışı aracılığıyla değişiklikler hakkında bildirim alma
+<!--## Get notified about changes through an RSS feed
 
-docs.microsoft.com sitesindeki içeriğe ilişkin bir tüm güncelleştirmelerin Çok Basit Besleme (RSS) akışına abone olmak için aşağıdaki bağlantıyı kullanın:
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[RSS akışı](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>Geri bildirim bırakın
 
 Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.
@@ -60,7 +73,7 @@ Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmınd
 
 2. Yorumlarınızı yazmaya başlayın ve sonra **Geri bildirim gönder**'i seçin.
 
-    ![Yorumu gönderin](./media/feedback.png)
+    ![Yorumu gönder.](./media/feedback.png)
 
 > [!NOTE]
 > Belge geribildirimi göndermek istiyorsanız bir GitHub hesabı kullanarak oturum açmanız gerekir. Daha fazla bilgi için bkz. [GitHub profilinizi ayarlama ve yönetme](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -84,11 +97,11 @@ Bir görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol 
 
 Microsoft, Dynamics 365 for Finance and Operations uygulamasının Aralık 2017 sürümünden itibaren ürün sürümleri için görev kılavuzu kitaplıkları yayımladı. Bu konunun [Yardım bölmesinden görev kılavuzlarına erişme](#accessing-task-guides-from-the-help-pane) bölümü, ürününüz için doğru görev kılavuzlarını nasıl bulacağınızı açıklar.
 
-![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
+![Görev kılavuzu okuma görünümü.](./media/task-guide-ops.png)
 
 Yönlendirmeli, etkileşimli deneyime başlamak için, **Yardım** bölmesinin altından **Görev kılavuzunu başlat**'ı seçin. Siyah bir işaretçi, ilk önce nereye gideceğinizi gösterir. Kullanıcı arabiriminde (UI) görünen talimatları izleyin ve verileri, talimatlara uygun olarak girin.
 
-![Görev kılavuzu adım yönergesi](./media/task-guide-step-1-ops.png)
+![Görev kılavuzu adım yönergesi.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Bir görev kılavuzunu yürütürken girdiğiniz veriler gerçektir. Bir üretim ortamındaysanız, veriler kullanmakta olduğunuz şirkette girilir.
@@ -101,7 +114,7 @@ Bazı alanlar, kullanıcıların engellerinin kaldırılmasına yardımcı olaca
 
 Yardım içeriğine erişmek için **Yardım** düğmesini (**?**) ve ardından **Yardım**'ı seçin. Alternatif olarak, **Ctrl+Shift+?** tuşlarına basabilirsiniz. Her iki durumda da **Yardım** bölmesi görüntülenir. **Yardım** bölmesinden, içinde bulunduğunuz ürün alanıyla ilgili kavramsal konulara veya görev kılavuzlarına erişebilirsiniz.
 
-![Yardım bölmesi](./media/help-pane-ops-help.png)
+![Yardım bölmesi.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Yardım bölmesinden yardım konularına erişme
 
@@ -118,13 +131,13 @@ Görev kılavuzlarına **Yardım** bölmesinden erişebilmeniz için sistem yön
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 Sistem yöneticisi bu adımları tamamladıktan sonra **Yardım** bölmesini açabilir ve **Görev kılavuzları**'nı seçebilirsiniz. Şimdi içinde bulunduğunuz sayfa için geçerli olan görev kılavuzlarını göreceksiniz. Görev kılavuzu bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz. **Yardım** bölmesinde bir görev kılavuzunu seçtiğiniz zaman **Yardım** bölmesi, adım adım talimatları gösterir ve siz de görev kılavuzunu yürütebilirsiniz.
 
-![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
+![Görev kılavuzu okuma görünümü.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Microsoft kitaplıkları için çevrilmiş görev kılavuzları nerede?
 

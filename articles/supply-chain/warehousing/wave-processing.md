@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019039"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355494"
 ---
 # <a name="wave-creation-and-processing"></a>Dalga oluşturma ve işleme
 
@@ -42,7 +42,7 @@ Satış siparişleri ve kanban siparişleri için, sipariş için ambarda serbes
 
 Aşağıdaki diyagramda, Sevkiyat dalgaları oluşturma, işleme ve serbest bırakma akışı gösterilmektedir. Sayılar, bu bölümün ilerleyen bölümlerine karşılık gelir.
 
-![Dalga oluşturma işlemi](media/wave-processing-diagram.png "Dalga oluşturma işlemi")
+![Dalga oluşturma işlemi.](media/wave-processing-diagram.png "Dalga oluşturma işlemi")
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -158,7 +158,7 @@ Bir dalga işlendiğinde otomatik kapsayıcı hale getirme işlemi, kapsayıcıl
 
 Aşağıdaki akış çizelgesi, dalga işleme sırasında planlanan işin nasıl oluşturulduğunu gösterir.
 
-![İş oluşturmayı planla](media/schedule-work-creation-process.png)
+![Planlama işi oluşturma.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Planlı iş
 
