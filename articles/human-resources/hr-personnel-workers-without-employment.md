@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356596"
 ---
 # <a name="workers-without-employment"></a>İstihdamı bulunmayan çalışanlar
 
@@ -42,13 +42,13 @@ Varsayılan olarak, **İş kaydı olmayan çalışanlar** formu aşağıdaki rol
 
 2. **Ayrıcalıklar** sekmesinde , **çalışanları korumak** için **ayrıcalıklar** listesine filtre uygulayın.
 
-   [![Ayrıcalık listesini filtreleme](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Ayrıcalık listesini filtreleme.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. **Başvurular** sütununda, **menü öğelerini görüntüle**'yi seçin.
 
 4. **Menü öğelerini görüntüle**'de **HcmWorkersWithoutEmployment**'ı seçin.
 
-   [![Form seç](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Form seçme.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. **İzin vermek** için **Silme** iznini ayarlayın.
 
@@ -56,6 +56,6 @@ Varsayılan olarak, **İş kaydı olmayan çalışanlar** formu aşağıdaki rol
 
 7. **Tümünü yayımla**'yı seçin.
 
-   [![Değişiklikleri yayımla](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Değişiklikleri yayımlama.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

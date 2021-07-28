@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348176"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Oluşturulan belgeler için özel depolama konumu belirtin
 
@@ -39,7 +39,7 @@ Bu topoloji için geliştirme ortamına da erişiminiz olması gerekir.
 
 Geçerli topolojide [yeni bir ER biçimi oluşturun](tasks/er-format-configuration-2016-11.md) bu sayede bir özel depolama konumu ekleyebileceğiniz belgeler oluşturabilirsiniz. Alternatif olarak [bu topolojiye mevcut bir ER biçimi içe aktarın](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Biçim tasarımcısı sayfası](media/er-extend-file-storages-format.png)
+![Biçim tasarımcısı sayfası.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > Oluşturduğunuz veya içe aktardığınız ER biçimi, aşağıdaki biçim öğelerinden en az birini içermelidir:
@@ -58,7 +58,7 @@ Bir ER biçiminin oluşturduğu belgelerin nasıl yönlendirileceğini belirtmek
 3. **Sınıf** alanında, **Dosya ekle** belirtin.
 4. **Grup** alanında, **Dosya** belirtin.
 
-![Belge türleri sayfası](media/er-extend-file-storages-document-type.png)
+![Belge türleri sayfası.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Belge türleri şirkete özeldir. Yapılandırılan hedefle ER biçimini birden fazla şirkette kullanmak için her bir şirkette ayrı bir belge türü yapılandırmalısınız.
@@ -113,14 +113,14 @@ public DocuRef insertFile(
 - **Arşiv** – Bu hedef kullanıldığında ERFormatMappingRunJobTable tablosunda oluşturulan ER biçimi için yeni bir kayıt çalıştırılır. Bu kayıttaki **Arşiv** alanı **Hatalı**'dır. ER biçimi başarıyla çalışırsa, oluşturulan belge bu kayda eklenir ve **AttachingFile()** olayı oluşturulur. Bu ER hedefinde seçilen belge türü, eklenen dosyanın depolama konumunu belirle (Microsoft Azure Depolama veya bir Microsoft SharePoint klasörü).
 - **İş arşivi** – Bu hedef kullanıldığında ERFormatMappingRunJobTable tablosunda oluşturulan ER formunda için yeni bir kayıt çalıştırılır. Bu kayıttaki **Arşiv** alanı **Doğru**'dır. ER biçimi başarıyla çalışırsa, oluşturulan belge bu kayda eklenir ve **AttachingFile()** olayı oluşturulur. ER parametrelerinde yapılandırılan belge türü, iliştirilen dosya için depolama konumunu belirler (Azure Depolama veya bir SharePoint klasörü).
 
-![Elektronik raporlama parametreleri sayfası](media/er-extend-file-storages-parameters.png)
+![Elektronik raporlama parametreleri sayfası.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Bir ER hedefini yapılandırma
 
 1. Oluşturduğunuz veya içe aktardığınız ER biçiminin önceden belirtilen öğelerden biri için (dosya, klasörü, birleştirme veya ek) arşivlenen hedefleri yapılandırın. Yönergeler için bkz. [ER Yapılandır hedefler](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Yapılandırılan hedef için daha önce eklediğiniz belge türünü kullanın. (Bu konudaki örnek için, belge türü **FileX**'tir.)
 
-![Hedef ayarları iletişim kutusu](media/er-extend-file-storages-destination.png)
+![Hedef ayarları iletişim kutusu.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Kaynak kodu değiştir
 

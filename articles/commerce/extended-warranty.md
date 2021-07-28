@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353840"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Genişletilmiş garantiler oluşturma ve yapılandırma
 
@@ -81,7 +81,7 @@ Commerce'te garanti maddesi oluşturmak için aşağıdaki adımları izleyin.
 
     Örneğin, iki yıllık bir garanti için, **Zaman birimi** alanını **Yıl** ve **Zaman uzunluğu** alanını **2** olarak ayarlayın. Alternatif olarak, aşağıdaki resimde gösterildiği gibi **Zaman birimi** alanını **Ay** ve **Zaman uzunluğu** alanını **24** olarak da ayarlayabilirsiniz.
 
-    ![Garanti maddesi için ürün ayrıntıları sayfası](./media/ew-time-properties.png)
+    ![Garanti maddesi için ürün ayrıntıları sayfası.](./media/ew-time-properties.png)
 
 1. Garanti maddesini kaydetmek için **Kaydet**'i seçin.
 1. Satılabilmesi için garanti ürününü şirkete serbest bırakın. Daha fazla bilgi için bkz. [Perakende ürünleri ayarlama](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Commerce'te garanti maddesi oluşturmak için aşağıdaki adımları izleyin.
 
     Örneğin, aşağıdaki şekilde **Fiyat aralığı tabanı** alanı **Temel fiyat** olarak, **Alt sınır** alanı 500 ABD doları ve **Üst sınır** alanının 1000 ABD doları olarak ayarlandığı gösterilir.
     
-    ![Garanti maddesi için serbest bırakılan ürün ayrıntıları sayfası](./media/ew-release-product-details.png)
+    ![Garanti maddesi için serbest bırakılan ürün ayrıntıları sayfası.](./media/ew-release-product-details.png)
 
 1. Garanti maddesini satılacağı kanala tahsis edin. Daha fazla bilgi için bkz. [Ürün çeşitleri ayarlama](set-up-assortments.md).
 
@@ -161,11 +161,11 @@ Commerce'ta garanti grubu ayarlamak için bu adımları izleyin.
 
 Aşağıdaki resimde, garanti verilebilir maddeyle ilgili geçerli satın alma için garanti maddesi ekleme isteminin yer aldığı POS terminal sayfası örneği gösterilmektedir.
 
-![Geçerli satınalma için garanti maddesi ekleme istemi örneği](./media/ew-sell-warranty.png)
+![Geçerli satınalma için garanti maddesi ekleme istemi örneği.](./media/ew-sell-warranty.png)
 
 Aşağıdaki resimde, daha önce satılmış olan bir garanti verilebilir maddeyle ilgili garanti maddesi ekleme özelliğine ilişkin bir örnek gösterilmektedir.
 
-![Daha önce satılmış olan garanti verilebilir madde için garanti maddesi ekleme özelliği örneği](./media/ew-add-warranty-existing.png)
+![Daha önce satılmış olan garanti verilebilir madde için garanti maddesi ekleme özelliği örneği.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Garanti hareketlerini işle
 

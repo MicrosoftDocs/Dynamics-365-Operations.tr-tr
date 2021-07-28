@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354601"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Mağazalara veya personele görev listeleri atama
 
@@ -45,7 +45,7 @@ Görev listesi atama işlemini başlatmak için aşağıdaki adımları izleyin.
 
 Aşağıdaki şekil, **işlem Başlat** iletişim kutusunda depoların nasıl bulunacağı ve seçgeleile ilgili bir örnek göstermektedir.
 
-![İşlem Başlat iletişim kutusunda depoları bulma ve seçme](media/HQ-Assign-Tasks-Lists.png)
+![İşlem Başlat iletişim kutusunda depoları bulma ve seçme.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Görev listelerini yinelenen bir temelde ata
 
@@ -62,7 +62,7 @@ Perakende, bazen "Perşembe kapatma denetim listesi" veya "ay denetim listesinin
 
 Aşağıdaki çizimde, **yinelenme tanımla** iletişim kutusunda sıklık ölçütünün nasıl girmenin bir örneği gösterilmektedir.
 
-![Tekrarı tanımla iletişim kutusunda sıklık ölçütünü girin](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Tekrarı tanımla iletişim kutusunda sıklık ölçütünü girme.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Görev listesi durumunu izle
 

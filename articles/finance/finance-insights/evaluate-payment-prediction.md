@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186750"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349022"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>İlk müşteri ödeme tahmini modelini değerlendirme (önizleme)
 
@@ -33,32 +33,32 @@ Bu konu, Mali İçgörüleri etkinleştirdikten ve ilk modelinizi oluşturup eğ
 
 Microsoft Dynamics 365 Finance'teki **Mali içgörüler parametreleri** sayfasında, doğruluk puanının yanında bir **Model doğruluğunu iyileştir** bağlantısı gösterilir.
 
-[![Model doğruluğunu iyileştir bağlantısı](./media/prediction-model.png)](./media/prediction-model.png)
+[![Model doğruluğunu iyileştir bağlantısı.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Bu bağlantı sizi, geçerli model hakkında daha fazla bilgi edinebileceğiniz AI Builder'a götürür ve modeli iyileştirmeye yönelik adımları içerir. Aşağıdaki şekilde açılan sayfa gösterilir.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Açılan sayfada aşağıdaki bilgiler gösterilir:
 
 - **Performans** bölümünde, model performans derecesi modelin kalitesiyle ilgili bir bakış açısı sağlar. Bu derece hakkında daha fazla bilgi için AI Builder belgelerindeki [Tahmin modeli performansı](/ai-builder/prediction-performance) konusuna bakın.
 - **En etkili veri** bölümü modeliniz için farklı giriş türlerinin ne kadar önemli olduğunu gösterir. Bu listeyi ve ilgili yüzdeleri, bilgilerin işletmeniz ve pazarınızla ilgili olarak mevcut bilgilerinizle tutarlı olup olmadığını belirlemek için değerlendirebilirsiniz.
 
-    [![Tahmin modeli için Performans ve En etkili veri bölümleri](./media/models.png)](./media/models.png)
+    [![Tahmin modeli için Performans ve En etkili veri bölümleri.](./media/models.png)](./media/models.png)
 
 - **Performans** bölümünde, derece ve diğer hususlar hakkında daha fazla bilgi edinmek için **Ayrıntıları göster**'i seçin. Aşağıdaki şekilde, ayrıntılar modelin önerilenden daha az bilgi kullandığını göstermektedir. Bu nedenle, sistem bir uyarı iletisi oluşturmuştur.
 
-    [![Model performansı ile ilgili uyarılar](./media/details.png)](./media/details.png)
+    [![Model performansı ile ilgili uyarılar.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Daha ayrıntılı bilgi
 
 Doğruluk modeli değerlendirmek için iyi bir başlangıç noktası olsa da, performans derecesi bakış açısı sunar, AI Builder değerlendirme için kullanabileceğiniz daha ayrıntılı ölçümler sunar. Ayrıntıları indirmek için **Performans** bölümünde **Modeli kullan** düğmesinin yanındaki üç nokta düğmesini (**...**) seçin ve ardından **Ayrıntılı ölçümleri indir**'i seçin.
 
-[![Ayrıntılı ölçümleri indir komutu](./media/performance.png)](./media/performance.png)
+[![Ayrıntılı ölçümleri indir komutu.](./media/performance.png)](./media/performance.png)
 
 Aşağıdaki şekilde, verileri indirebileceğiniz biçim gösterilmektedir.
 
-[![İndirilen verilerin biçimi](./media/data-format.png)](./media/data-format.png)
+[![İndirilen verilerin biçimi.](./media/data-format.png)](./media/data-format.png)
 
 Sonuçların daha ayrıntılı analizi için "Karışıklık Matrisi" ölçümünü incelemek iyi bir başlangıç noktasıdır. Örneğin, bir önceki şekildeki bu ölçüm için gösterilen verileri burada görebilirsiniz.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193443"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353626"
 ---
 # <a name="benefits-management-workspace"></a>Kazanç yönetimi çalışma alanı
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193443"
 Bu konuda, Dynamics 365 Human Resources'daki **Kazanç yönetimi** çalışma alanı açıklanmaktadır.
 
 > [!NOTE]
-> **Kazanç yönetimi** çalışma alanını görüntülemek için önce Özellik yönetiminde **(Önizleme) Kazanç yönetimi çalışma alanı** özelliğini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br><br>![Kazanç yönetimi çalışma alanını etkinleştirme](./media/hr-benefits-management-workspace-enable.png)
+> **Kazanç yönetimi** çalışma alanını görüntülemek için önce Özellik yönetiminde **(Önizleme) Kazanç yönetimi çalışma alanı** özelliğini etkinleştirmeniz gerekir. Önizleme özelliklerini etkinleştirmeyle ilgili daha fazla bilgi için bkz. [Özellikleri yönetme](hr-admin-manage-features.md).<br><br>![Kazanç yönetimi çalışma alanını etkinleştirme.](./media/hr-benefits-management-workspace-enable.png)
 
 **Kazanç yönetimi** çalışma alanı, dikkatinizi gerektiren kazanç öğelerinin hızlı bir görünümünü sunar. Bu sayfada şunları görebilirsiniz:
 
@@ -43,13 +43,13 @@ Bu konuda, Dynamics 365 Human Resources'daki **Kazanç yönetimi** çalışma al
 - Aktif yaşam olayları olan çalışanlar
 - Herhangi bir plan seçmemiş açık kaydı olan çalışanlar
 
-![Kazanç yönetimi çalışma alanı](./media/hr-benefits-management-workspace.png)
+![Kazanç yönetimi çalışma alanı.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Eylem öğelerini görüntüleme
 
 Bir kutucuk veya sekme seçerek eylem öğelerinizi görüntüleyebilirsiniz. Bir sekme seçerseniz çalışma alanı sayfasında çalışanları görüntüleyebilir ve seçebilirsiniz.
 
-![Eylem öğeleri](./media/hr-benefits-management-workspace-action-items.png)
+![Eylem öğeleri.](./media/hr-benefits-management-workspace-action-items.png)
 
 Bir kutucuk seçerseniz o alanın sayfasına yönlendirilirsiniz. Örneğin, bu kutucuklardan herhangi birini seçmek, üzerinde işlem yapmanız gereken çalışanlar için filtrelenmiş **Çalışan kazanç planları** sayfasını görüntüler:
 
@@ -58,21 +58,21 @@ Bir kutucuk seçerseniz o alanın sayfasına yönlendirilirsiniz. Örneğin, bu 
 - **Kazançlara kaydedildi**
 - **Yeni işe alınan kişi kayıtlı değil**
 
-![Çalışan kazanç planları](./media/hr-benefits-management-workspace-plans.png)
+![Çalışan kazanç planları.](./media/hr-benefits-management-workspace-plans.png)
 
 **Etkin yaşam olayları** veya **Gelecekteki yaşam olayları** kutucuklarını seçmek sizi etkin veya gelecekteki yaşam olayları listesine götürür.
 
-![Yaşam olayları](./media/hr-benefits-management-workspace-life-events.png)
+![Yaşam olayları.](./media/hr-benefits-management-workspace-life-events.png)
 
 ## <a name="processing"></a>İşleniyor
 
 Kayıt uygunluğunu, yaşam olaylarını veya fiyat değişikliği güncelleştirmelerini işlemek için gezinti çubuğunda uygun öğeyi seçin.
 
-![İşleniyor](./media/hr-benefits-management-workspace-processing.png)
+![İşleniyor.](./media/hr-benefits-management-workspace-processing.png)
 
 İşlemin sonuçlarını görmek için sayfadan **İşlem sonuçları**'nı seçin.
 
-![İşlem sonuçları](./media/hr-benefits-management-workspace-process-results.png)
+![İşlem sonuçları.](./media/hr-benefits-management-workspace-process-results.png)
 
 Kazanç işleme hakkında daha fazla bilgi için bkz:
 
@@ -86,13 +86,13 @@ Kazanç işleme hakkında daha fazla bilgi için bkz:
 
 Farklı bir kazanç dönemini görüntülemek için **Dönem** açılır menüsünden seçim yapın.
 
-![Dönem değiştirme](./media/hr-benefits-management-workspace-period.png)
+![Dönem değiştirme.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Daha fazla seçenek görüntüleme
 
 Daha fazla bilgi ve yapabileceğiniz eylemleri görüntülemek için **Bağlantılar**'ı seçin.
 
-![Bağlantılar](./media/hr-benefits-management-workspace-links.png)
+![Bağlantılar.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

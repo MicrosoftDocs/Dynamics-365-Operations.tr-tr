@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188185"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353480"
 ---
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
@@ -51,7 +51,7 @@ Aşağıdaki resim bir satınalma talebinin gözden geçirme amacıyla tek bir b
 -   **Satınalma aracısı** – Bir tedarik işlemi gerçekleştiren kullanıcı belgeyi gözden geçirebilir ve onaylayabilir.
 -   **Talep sahibinin yöneticisi** – Yönetimsel bir inceleme gerçekleştiren ve belgeyi onaylayan kullanıcı.
 
-![Satınalma talebi iş akışını gözden geçirme süreci](./media/purchreqworkflowoverview_submission.gif)  
+![Satınalma talebi iş akışını gözden geçirme süreci.](./media/purchreqworkflowoverview_submission.gif)  
 Bu örnekte, satınalma talepleri için iş akışı süreci aşağıdaki adımları içerir:
 
 1.  Hazırlayan, satınalma talebini gözden geçirilmesi için gönderir.
@@ -74,7 +74,7 @@ Bu örnek için iş akışı sürecine aşağıdaki roller dahil edilir:
 -   **Departman yöneticisi** – Bir harcama incelemesi gerçekleştiren ve belgeyi onaylayan kullanıcı.
 -   **Grup yöneticisi** – İmza yetkisi için bir inceleme gerçekleştiren ve belgeyi onaylayan kullanıcı.
 
-![Satınalma talebi satırı iş akışını gözden geçirme süreci](./media/purchreqlineworkflowoverview.gif)  
+![Satınalma talebi satırı iş akışını gözden geçirme süreci.](./media/purchreqlineworkflowoverview.gif)  
 Bu örnekte, satınalma talebi satırları için iş akışı süreci aşağıdaki adımları içerir:
 
 1.  Hazırlayan, satınalma talebini gözden geçirilmesi için gönderir. Her satır onu iş akışı işlemine dahil edecek şekilde yapılandıran gözden geçiren kişiye yönlendirilir.

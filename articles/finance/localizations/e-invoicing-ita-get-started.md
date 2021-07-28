@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894789"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356089"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>İtalya için Elektronik faturalamayı kullanmaya başlama
 
@@ -59,7 +61,7 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 4. **E-faturaları dışa aktar (IT)** özelliğini seçin ve **içe aktar**'ı seçin.
 
-![E-faturalar dışa aktarma (IT) özelliğini içe aktarma](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![E-faturalar dışa aktarma (IT) özelliğini içe aktarma.](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 **E-faturalar dışa aktarma (IT)** özelliğini Genel depodan içe aktardığınızda, sonraki bölümlerde açıklanan tüm ayarlar da alınır.
 
@@ -67,13 +69,13 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 
 1. **E-faturalama özellikleri** sayfasında, **Sürümler** sekmesinde, **Yeni** ögesini seçin. 
 
-    ![Yeni e-faturalama özellik sürümü ekleme](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Yeni e-faturalama özellik sürümü ekleme.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Sonra, e-faturalama özelliğiyle ilişkilendirilmiş Elektronik raporlama (ER) biçimlerini yapılandırabilirsiniz.
 
 2. **Yapılandırmalar** sekmesinde, yapılandırma sürümlerini yönetmek için **Ekle**'yi seçin.
 
-    ![E-faturalama özellik yapılandırma sürümlerini yönetme](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![E-faturalama özellik yapılandırma sürümlerini yönetme.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Bu adımda, İtalya için e-faturaları dışa aktarmak için kullanılan farklı dosyaların ER biçimlerini ekler ve yapılandırırsınız. İtalyan FatturaPA e-faturalar için, aşağıdaki standart yapılandırmaları veya e-faturalama için kullandığınız gerçek özelleştirilmiş yapılandırmaları kullanın:
 
@@ -85,17 +87,17 @@ RCS kurulumu sırasında şu görevleri tamamlayacaksınız:
 3. Belirli bir ER biçimi dosya yapılandırması seçin.
 4. **Biçim tasarımcısı** sayfasını açmak için **Düzenle** veya **Görüntüle**'yi seçin.
 
-    ![Biçim tasarımcısı sayfasını açma](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Biçim tasarımcısı sayfasını açma.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. **Biçim tasarımcısı** sayfasını, ER biçimi dosya yapılandırmalarını düzenlemek ve görüntülemek için kullanın.
 
-    ![Biçim tasarımcısı sayfası](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Biçim tasarımcısı sayfası.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>E-faturalama özellik kurulumlarını yönetme
 
 - **E-faturalama özellikleri** sayfasında, **Kurulumlar** sekmesinde, E-faturalama özellik kurulumlarını yönetmek için **Ekle**, **Sil** veya **Düzenle** ögesini seçin.
 
-![E-faturalama özellik kurulumlarını yönetme](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![E-faturalama özellik kurulumlarını yönetme.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Bu adımda, XML çıkış dosyalarının **FatturaPA** biçiminde oluşturulması ve dijital imzalanması (gerekirse) dahil olmak üzere elektronik faturalara uygulanabilir olayları yapılandırabilirsiniz.
 
@@ -105,7 +107,7 @@ Bu adımda, XML çıkış dosyalarının **FatturaPA** biçiminde oluşturulmas�
 2. **Düzenle** öğesini seçin.
 3. **Özellik sürümü kurulumu** sayfasında, eylemler listesini yönetmek için **Eylemler** sekmesini seçin. Eylemler, olayın tam olarak yürütülmesi için sırayla çalıştırılması gereken işlemlerin listesini tanımlar.
 
-    ![Eylemler sekmesi](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Eylemler sekmesi.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | Eylem kodu | Eylem adı        | Eylem açıklaması                                     |
     |-----------|--------------------|--------------------------------------------------------|
@@ -114,11 +116,11 @@ Bu adımda, XML çıkış dosyalarının **FatturaPA** biçiminde oluşturulmas�
 
 4. Uygulanabilirlik kurallarını görüntülemek ve sürdürmek için **Uygulanabilirlik kuralları** sekmesini seçin. Uygulanabilirlik kuralları, eylemin çalışacağı bağlamı tanımlar.
 
-    ![Uygulanabilirlik kuralları sekmesi](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Uygulanabilirlik kuralları sekmesi.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Değişkenleri görüntülemek ve sürdürmek için **Değişkenler** sekmesini seçin.
 
-    ![Değişkenler sekmesi](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Değişkenler sekmesi.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Eylemleri çalıştırmak için gerekli olan ortak değişkenleri tanımlayın.
 
@@ -133,7 +135,7 @@ Bu adımda, XML çıkış dosyalarının **FatturaPA** biçiminde oluşturulmas�
 3. **Geçerlilik başlangıcı** alanında, yeni ortamın geçerli olacağı tarihi seçin.
 4. **Etkinleştir**'i seçin. 
 
-![E-faturalama ortamını etkinleştirme](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![E-faturalama ortamını etkinleştirme.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>E-faturalama özelliğini yayımlama
 
@@ -149,7 +151,7 @@ Sürüm durumunu **Tamamlandı** veya **Yayımlandı** olarak değiştirerek e-f
 1. **E-faturalama Özellikleri** sayfasındaki **Sürümler** sekmesinde, **Tamamlandı** durumundaki e-faturalama özelliğinin sürümünü seçin.
 2. **Durumu değiştir \> Yayımla**'yı seçin.
 
-![E-faturalama özelliğinin durumunu değiştirme](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![E-faturalama özelliğinin durumunu değiştirme.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Finance'de Elektronik faturalama tümleştirmesi kurulumu
 
@@ -170,7 +172,7 @@ Finance kurulumu sırasında şu görevleri tamamlayacaksınız:
 1. **Kuruluş yönetimi \> Kurulum \> Elektronik belge parametreleri** bölümüne gidin.
 2. **Özellikler** sekmesinde, **IT00036** özellik referansları için satırlarda **Etkinleştirildi** onay kutusunu seçin.
 
-![FatturaPA özelliğini etkinleştirme](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![FatturaPA özelliğini etkinleştirme.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Elektronik belge yapılandırma
 
@@ -185,7 +187,7 @@ Finance kurulumu sırasında şu görevleri tamamlayacaksınız:
     - **Müşteri fatura günlüğü** için **Müşteri fatura bağlamı**'nı seçin.
     - **Proje faturası** için **Proje fatura bağlamı**'nı seçin.
 
-![Yanıt türlerini ayarlama](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Yanıt türlerini ayarlama.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Elektronik fatura işleme
 
@@ -207,13 +209,13 @@ E-fatura belgelerinizin gerektirdiği gibi belgeleri el ile gönderebilirsiniz.
 2. Herhangi bir belgenin ilk gönderimi için, **Belgeyi yeniden gönder** seçeneğini **Hayır** olarak ayarlayın. Belgeyi servis aracılığıyla yeniden göndermeniz gerekiyorsa, bu seçeneği **Evet** olarak ayarlayın.
 3. **Dahil edilecek kayıtlar** hızlı sekmesinde, gönderilecek belgeleri seçmek üzere bir sorgu oluşturabileceğiniz **Sorgulama** iletişim kutusunu açmak için **Filtre**'yi seçin.
 
-![Elektronik belgeleri gönder iletişim kutusu](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Elektronik belgeleri gönder iletişim kutusu.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Filtre sorgusu
 
 1. **Sorgulama** iletişim kutusunda, hem satış faturaları hem de proje faturaları için filtreleme koşullarını yapılandırın veya gönderilmeyen tüm faturaları dahil etmek için koşulları boş bırakın.
 
-    ![Gönderme filtresi ölçütlerini ayarlama](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Gönderme filtresi ölçütlerini ayarlama.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. **Sorgulama** iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 3. Seçili belgeleri göndermek için **Tamam**'ı seçin.
@@ -227,13 +229,13 @@ Gönderilen tüm belgelerin gönderme günlüklerini görüntüleyebilirsiniz.
 1. **Kuruluş Yönetimi \> Dönemlik \> Elektronik belgeler \> Elektronik belgeleri gönderme günlüğü** sayfasına gidin.
 2. **Belge türü** alanında, gerekli elektronik belgelerle ilgili olarak filtre uygulamak için **Müşteri fatura günlüğü** veya **Proje faturası** seçeneğini belirleyin.
 
-    ![Gönderme günlüklerinin görüntülemek üzere bir belge türü seçme](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Gönderme günlüklerinin görüntülemek üzere bir belge türü seçme.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     **Gönderim durumu** sütununda gösterilen değer, gönderme işleminin durumunu temsil eder. İşlemin yapılandırılmış olarak çalışıp çalışmadığını ve başka bir eylemin gerekli olup olmadığını gösterir.
 
 3. Eylem Bölmesi'nde, gönderme yürütme günlüklerinin ayrıntılarını görüntülemek için **Sorgulamalar \> Gönderme ayrıntıları**'nı seçin.
 
-    ![Gönderme günlüğü ayrıntılarını görüntüleme](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Gönderme günlüğü ayrıntılarını görüntüleme.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. **İşleme eylemleri** hızlı sekmesinde, RCS'de ayarlanan özellik sürümünde yapılandırılan eylemler için yürütme günlüklerini görüntüleyebilirsiniz. **Durum** sütunu eylemin başarıyla çalıştırılıp çalıştırılmadığını gösterir.
 5. **Eylem dosyaları** hızlı sekmesinde, eylemlerin yürütülmesi sırasında oluşturulan ara dosyaları görüntüleyebilirsiniz. Çıkış XML dosyasını **FatturaPA** biçiminde indirmek ve içeriğini görüntülemek için **Görünüm** öğesini seçebilirsiniz.

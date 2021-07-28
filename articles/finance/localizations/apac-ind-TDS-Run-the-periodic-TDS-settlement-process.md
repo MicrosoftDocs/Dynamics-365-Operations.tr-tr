@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023647"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358350"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Dönemsel TDS kapatma işlemini yürütme
 
@@ -31,7 +31,7 @@ Bu konu, dönemsel Kaynakta Kesilen Verginin (TDS) nasıl kapatılacağını aç
 
 1. **Vergi \> Beyanlar \> Stopaj vergisi \> Stopaj vergisi ödemesi**'ne gidin.
 
-    [![Stopaj vergisi ödemesi iletişim kutusu](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![Stopaj vergisi ödemesi iletişim kutusu.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. **Stopaj vergisi ödemesi** iletişim kutusunda, **Vergi türü** alanında **TDS** seçeneğini belirleyin.
 3. **Vergi Hesap Numarası (TAN)** alanında, kapatma işleminin adına çalıştırılacağı Vergi Hesap Numarasını (TAN) seçin.

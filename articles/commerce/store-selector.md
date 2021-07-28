@@ -2,7 +2,8 @@
 title: Mağaza seçicisi modülü
 description: Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021476"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479388"
 ---
 # <a name="store-selector-module"></a>Mağaza seçicisi modülü
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Bu konu mağaza seçici modüllerini kapsamaktadır ve Microsoft Dynamics 365 Commerce'un site sayfalarına nasıl ekleneceğini açıklamaktadır.
 
@@ -50,12 +52,12 @@ Commerce Headquarters'da mağaza konumu için boylam ve enlem değerlerini girme
 1. Sol bölmede ambar konumunu seçin.
 1. **Adresler** hızlı sekmesinde, **Gelişmiş**'i seçin.
 
-    ![Headquarters'daki mağaza ayrıntıları örneği](./media/Store-address.png)
+    ![Headquarters'daki mağaza ayrıntıları örneği.](./media/Store-address.png)
 
 1. Eylem Bölmesi'nde, **Düzenle**'yi seçin.
 1. **Genel** hızlı sekmesinde **Enlem** ve **Boylam** değerlerini girin.
 
-    ![Headquarters'daki bir mağaza için enlem ve boylam ayarı örneği](./media/Store-latitude-longitude.png)
+    ![Headquarters'daki bir mağaza için enlem ve boylam ayarı örneği.](./media/Store-latitude-longitude.png)
 
 1. Eylem bölmesinde, **Kaydet**'i seçin. 
 
@@ -70,7 +72,6 @@ Autosuggest REST API için sitenizin içerik güvenlik ilkesi (CSP) uyarınca a�
 - **script-src** yönergesine, **&#42;.bing.com, &#42;.virtualearth.net** ekleyin.
 - **script style-src** yönergesine **&#42;.bing.com** ekleyin.
 
- 
 ## <a name="pickup-in-store-mode"></a>Mağazadan teslim alma modu
 
 Mağaza seçici modülü,bir ürünün teslim alınabileceği mağazaların listesini gösteren bir **Mağazadan teslim alma** modunu destekler. Ayrıca, listedeki her mağaza için mağaza çalışma saatlerini ve ürün stokunu gösterir. Mağaza seçici modülü, ürün kullanılabilirliğini işlemek ve ürünün seçili mağazadaki teslimat modu **mağazadan teslim** olarak ayarlandığında kullanıcının ürünü sepete eklemesini sağlamak için ürünün bağlamını gerektirir. Daha fazla bilgi için bkz. [Stok ayarları](inventory-settings.md). 
@@ -81,7 +82,7 @@ Bu senaryosunun çalışması için ürünlerin **teslim alma** modu kullanılac
 
 Aşağıdaki resimde, PDP üzerinde kullanılan bir Mağaza Seçicisi modülü örneği gösterilmektedir.
 
-![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği](./media/BOPIS.PNG)
+![Bir ürün detayı sayfasında (PDP) kullanılan mağaza seçici modülü örneği.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Sürüm 10.0.16 ve sonrasında, bir organizasyonun müşteriler için birden çok malzeme çekme modu tanımlamasına izin veren yeni bir özellik etkinleştirilebilir.  Bu özellik etkinleştirilirse, mağaza Seçicisi ve e-ticaretin diğer modülleri, yapılandırıldıysa, büyük olasılıkla çoklu çekme teslim seçenekleri arasından seçim yapmasına olanak verecek şekilde geliştirilecektir.  Bu özellik hakkında daha fazla bilgi edinmek için [Bu belgeye bakın](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ Mağaza seçici modülü **Mağazaları bul** modunu da destekler. Bu mod, kulla
 
 Aşağıdaki çizimde, bir mağaza konumları sayfasındaki harita modülüyle birlikte kullanılan bir mağaza seçici modülü örneği gösterilmektedir.
 
-![Mağaza konumları sayfasında mağaza seçici modülü ile harita modülü örneği](./media/ecommerce-Storelocator.PNG)
+![Mağaza konumları sayfasında mağaza seçici modülü ile harita modülü örneği.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Harita oluşturma
 
@@ -110,6 +111,10 @@ Bir haritada mağaza konumlarını göstermek için mağaza seçici modülü har
 | Otomatik öneri seçenekleri: Maksimum sonuç sayısı | Sayı | Bu özellik, Bing Autosuggest API ile gösterilebilecek otomatik öneri sonuçları sayısının üst sınırını tanımlar. |
 | Arama yarıçapı | Sayı | Bu özellik mil cinsinden arama yarıçapını tanımlar. Herhangi bir değer belirtilmezse, varsayılan arama yarıçapı olan 50 mil değeri kullanılır. |
 | Hizmet koşulları | URL |  Bu özellik, Bing Haritalar hizmetini kullanmak için gerekli olan hizmet koşulları URL'sini belirtir. |
+
+## <a name="site-settings"></a>Site ayarları
+
+Mağaza Seçici modülü, [Sepete ürün ekle ayarlarına](add-cart-settings.md) uyar. Mağaza seçici modülünden bir öğe alışveriş sepetine eklendikten sonra, site kullanıcıları uygun yapılandırılmış iş akışlarını görürler.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Bir sayfaya mağaza seçici modülü ekleme
 

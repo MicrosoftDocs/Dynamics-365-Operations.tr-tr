@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359041"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Excel biçiminde belgeler oluşturmak için bir yapılandırma tasarlama
 
@@ -39,7 +39,7 @@ Excel çalışma kitabı biçiminde giden bir belge oluşturmak için yeni bir E
 
 Yapılandırmanın ER biçimi bileşenini yapılandırmak için Eylem Bölmesi'nde **Tasarımcı**'yı seçin ve ER İşlem tasarımcısında düzenleme için ER biçimi bileşenini açın.
 
-![Yapılandırma sayfası](./media/er-excel-format-add-format.png)
+![Yapılandırmalar sayfası.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Excel dosya bileşeni
 
@@ -47,14 +47,14 @@ Yapılandırmanın ER biçimi bileşenini yapılandırmak için Eylem Bölmesi'n
 
 Excel biçiminde giden bir belge oluşturmak için yapılandırılmış ER biçimine bir **Excel\\File** bileşeni eklemeniz gerekir.
 
-![Excel\File bileşeni](./media/er-excel-format-add-file-component.png)
+![Excel\File bileşeni.](./media/er-excel-format-add-file-component.png)
 
 Giden belgenin düzenini belirtmek için giden belgelerin şablonu olarak **Excel\\File** bileşenine .xlsx uzantısına sahip bir Excel çalışma kitabı ekleyin.
 
 > [!NOTE]
 > Şablonu el ile eklediğinizde [ER parametreleri](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)'nde bu amaçla yapılandırılmış bir [belge türü](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) kullanmanız gerekir.
 
-![Excel\File bileşenine bir ek ekleme](./media/er-excel-format-add-file-component2.png)
+![Excel\File bileşenine bir ek ekleme.](./media/er-excel-format-add-file-component2.png)
 
 Yapılandırılmış ER biçimini çalıştırdığınızda ekteki şablonun nasıl doldurulacağını belirtmek için **Excel\\File** bileşenine iç içe geçirilmiş **Sayfa**, **Aralık** ve **Hücre** bileşenleri eklemelisiniz. Her iç içe geçirilmiş bileşen, adlandırılmış bir Excel öğesi ile ilişkilendirilmelidir.
 
@@ -62,7 +62,7 @@ Yapılandırılmış ER biçimini çalıştırdığınızda ekteki şablonun nas
 
 Yeni bir şablonu boş bir ER biçimine aktarmak için Eylem Panosu'nun **İçe Aktar** sekmesinde **Excel'den İçe Aktar**'ı seçebilirsiniz. Bu örnekte, otomatik olarak bir **Excel\\File** bileşeni oluşturulacak ve içe aktarılan şablon buna eklenecektir. Gereken tüm ER bileşenleri, keşfedilen adlandırılmış Excel öğelerinin listesine göre otomatik olarak oluşturulur.
 
-![Excel'den İçe Aktar'ı seçme](./media/er-excel-format-import-template.png)
+![Excel'den İçe Aktar'ı seçme.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > İsteğe bağlı **Sayfa** öğesini, düzenlenebilir ER biçiminde oluşturmak istiyorsanız **Excel Sayfası biçim öğesi oluşturma** seçeneğini **Evet** olarak ayarlayın.
@@ -79,7 +79,7 @@ ER İşlem tasarımcısının **Eşleme** sekmesinde, bileşenin oluşturulan bi
 - **Etkin** özelliğinin bir ifadesi, çalışma zamanında **Doğru** değerini döndürecek şekilde yapılandırılmışsa veya hiçbir ifade yapılandırılmamışsa uygun çalışma sayfası, oluşturulan belgeye yerleştirilir.
 - **Etkin** özelliğinin bir ifadesi, çalışma zamanında **Yanlış** döndürecek şekilde yapılandırılırsa oluşturulan belge bir çalışma sayfası içermez.
 
-![Sayfa bileşeni örneği](./media/er-excel-format-sheet-component.png)
+![Sayfa bileşeni örneği.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Aralık bileşeni
 
@@ -182,7 +182,7 @@ Güncelleştirilmiş bir şablonu düzenlenebilir bir ER biçimine aktarmak içi
 >
 > Düzenlenebilir ER biçimi, başlangıçta **Sayfa** öğeleri içeriyorsa güncelleştirilmiş bir şablonu içe aktardığınızda **Excel Sayfası biçim öğesi oluşturma** seçeneğini **Evet** olarak ayarlamanızı öneririz. Aksi takdirde, özgün **Sayfa** öğesinin tüm iç içe geçirilmiş öğeleri sıfırdan oluşturulacaktır. Bu nedenle, yeniden oluşturulan biçim öğelerinin tüm bağları güncelleştirilmiş ER biçiminde kaybolacaktır.
 
-![Excel iletişim kutusundan Güncelleştir'de Excel Çalışma Sayfası biçim öğesi oluşturma seçeneği](./media/er-excel-format-update-template.png)
+![Excel iletişim kutusundan Güncelleştir'de Excel Çalışma Sayfası biçim öğesi oluşturma seçeneği.](./media/er-excel-format-update-template.png)
 
 Bu özellik hakkında daha fazla bilgi edinmek için [Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme](modify-electronic-reporting-format-reapply-excel-template.md) bölümündeki adımları izleyin.
 
@@ -190,7 +190,7 @@ Bu özellik hakkında daha fazla bilgi edinmek için [Excel şablonlarını yeni
 
 Düzenlenebilir bir ER biçimini doğruladığınızda Excel adının şu anda kullanılan Excel şablonunda bulunduğundan emin olmak için bir tutarlılık denetimi yapılır. Herhangi bir tutarsızlık size bildirilecektir. Bazı tutarsızlıklar için sorunları otomatik olarak düzeltme seçeneği sunulur.
 
-![Doğrulama hatası iletisi](./media/er-excel-format-validate.png)
+![Doğrulama hatası iletisi.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Excel formüllerinin hesaplamasını denetleme
 
@@ -209,7 +209,7 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
 1. Yazdırılabilir bir serbest metin faturası (FTI) belgesi [oluşturmak](er-generate-printable-fti-forms.md) için sağlanan ER yapılandırmalarını kullanın.
 2. Oluşturulan belgenin alt bilgisini gözden geçirin. Geçerli sayfa numarası ve belgedeki toplam sayfa sayısı hakkında bilgi içerdiğine dikkat edin.
 
-    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-1.gif)
+    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme.](./media/er-fillable-excel-footer-1.gif)
 
 3. ER biçim tasarımcısında gözden geçirmek için örnek ER biçimini [açın](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format).
 
@@ -222,7 +222,7 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
 
     - İkinci **dize** bileşeni, geçerli sayfa numarasını ve geçerli belgedeki toplam sayfa sayısını içeren metni doldurur.
 
-    ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-2.png)
+    ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme.](./media/er-fillable-excel-footer-2.png)
 
 4. Geçerli Sayfa alt bilgisini değiştirmek için örnek ER biçimini özelleştirin:
 
@@ -237,20 +237,20 @@ Microsoft Excel çalışma kitabı biçiminde giden bir belge oluşturulduğunda
         1. İşlem tarihini sağa hizalayan ve 8 punto "Segoe UI Regular" yazı tipinde (**"&R&"Segoe UI, normal"&8"**) sunan bir **dize** bileşeni ekleyin.
         2. İşleme tarihini özel bir biçimde (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd)**) dolduran bir dize **bileşeni** ekleyin.
 
-        ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-3.png)
+        ![Biçim tasarımcısı sayfasında ER biçimi bileşeni alt bilgisini gözden geçirme.](./media/er-fillable-excel-footer-3.png)
 
     4. Türetilmiş **serbest metin faturası (Excel) özel** ER biçiminin taslak sürümünü [tamamlayın](er-quick-start2-customize-report.md#CompleteDerivedFormat).
 
 5. Yazdırma yönetimini örnek ER biçimi yerine, türetilmiş **serbest metin faturası (Excel) özel** ER biçimini kullanacak şekilde [yapılandırın](er-generate-printable-fti-forms.md#configure-print-management).
 6. Yazdırılabilir bir FTI belgesi oluşturun ve oluşturulan belgenin alt bilgisini gözden geçirin.
 
-    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme](./media/er-fillable-excel-footer-4.gif)
+    ![Excel biçiminde Oluşturulan belgenin alt bilgisini gözden geçirme.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 
-[OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama](tasks\er-design-reports-openxml-2016-11.md)
+[OPENXML biçiminde raporlar oluşturmak için yapılandırma tasarlama](tasks\er-design-reports-openxml-2016-11.md)
 
 [Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme](modify-electronic-reporting-format-reapply-excel-template.md)
 

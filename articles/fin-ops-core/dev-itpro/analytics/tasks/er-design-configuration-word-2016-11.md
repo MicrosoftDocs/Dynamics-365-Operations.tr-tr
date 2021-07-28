@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944304"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359423"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Word biçiminde raporlar oluşturmak için Excel şablonlarıyla ER yapılandırmalarını yeniden kullanma
 
@@ -54,14 +54,14 @@ Bu yordamlar, Dynamics 365 for Operations 1611 sürümüne (Kasım 2016) eklenmi
 5. **Tasarımcı**’yı seçin.
 6. **Biçim tasarımcısı** sayfasında, kök biçim öğesinin başlığının Excel şablonunun şu anda kullanıldığını belirttiğini görebilirsiniz.
 
-![Mevcut yapılandırmayı seçme](../media/er-design-configuration-word-2016-11-image01.gif)
+![Mevcut yapılandırmayı seçme.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>İndirilen Word şablonunu inceleme
 
 1. Word masaüstü uygulamasında, daha önce indirdiğiniz **SampleVendPaymDocReport.docx** şablon dosyasını açın.
 2. Şablonun yalnızca ER çıkışı olarak oluşturmak istediğiniz belgenin düzenini içerdiğini doğrulayın.
 
-![Masaüstü uygulamasındaki Word şablon düzeni](../media/er-design-configuration-word-2016-11-image02.png)
+![Masaüstü uygulamasındaki Word şablon düzeni.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>Excel şablonunu Word şablonuyla değiştirin ve özel bir XML bölümü ekleyin
 
@@ -84,7 +84,7 @@ Bu yordamlar, Dynamics 365 for Operations 1611 sürümüne (Kasım 2016) eklenmi
 
 9. Kök biçim öğesinin başlığının Word şablonunun şu anda kullanıldığını belirttiğini görebilirsiniz.
 
-    ![Excel şablonunu Word şablonuyla değiştirme ve özel bir XML bölümü ekleme](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![Excel şablonunu Word şablonuyla değiştirme ve özel bir XML bölümü ekleme.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. **Biçim** sekmesinde, **Ekler**'i seçin.
 
@@ -110,7 +110,7 @@ Bu yordamlar, Dynamics 365 for Operations 1611 sürümüne (Kasım 2016) eklenmi
 1. Word masaüstü uygulamasında **SampleVendPaymDocReportBounded.docx** şablon dosyasını açın.
 2. Şablonun ER çıkışı olarak oluşturmak istediğiniz belgenin düzenini içerdiğini doğrulayın. Çalışma zamanında ER'nin bu şablona gireceği veriler için yer tutucu olarak kullanılan içerik denetimleri, **Rapor** özel XML bölümü öğeleri ile Word belgesinin içerik denetimleri arasında yapılandırılan eşlemelere bağlıdır.
 
-![Masaüstü uygulamasındaki Word şablonunun önizlemesi](../media/er-design-configuration-word-2016-11-image04.png)
+![Masaüstü uygulamasındaki Word şablonunun önizlemesi.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>Özel XML bölümünün içerik denetimleriyle eşlendiği Word şablonunu indirme
 
@@ -144,7 +144,7 @@ Düzenlenebilir biçimin taslak sürümünü çalıştırmak için sürümü [ç
 3. **Satıcı ödemeleri** sayfasında, ızgaradaki tüm satırları seçin.
 4. **Ödeme durumu** \> **Hiçbiri**'ni seçin.
 
-    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Satıcı ödemeleri sayfasındaki işlenecek ödemeler.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Eylem bölmesinde, **Ödeme oluştur**'u seçin.
 6. Gösterilen iletişim kutusunda şu adımları izleyin:
@@ -156,11 +156,11 @@ Düzenlenebilir biçimin taslak sürümünü çalıştırmak için sürümü [ç
 7. **Elektronik rapor parametreleri** iletişim kutusunda **Tamam**'ı seçin.
 8. Oluşturulan çıktı, Word biçiminde sunulur ve işlenen ödemelerin ayrıntılarını içerir. Oluşturulan çıktıyı analiz edin.
 
-    ![Word biçiminde oluşturulan çıktı](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Word biçiminde oluşturulan çıktı.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [Word biçiminde raporlar oluşturmak için yeni bir ER yapılandırması tasarlama](../er-design-configuration-word.md)
+- [Word biçiminde raporlar oluşturmak için yeni ER yapılandırması tasarlama](../er-design-configuration-word.md)
 - [Er kullanarak oluşturduğunuz belgelere resimler ve şekiller katıştırma](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
 
 

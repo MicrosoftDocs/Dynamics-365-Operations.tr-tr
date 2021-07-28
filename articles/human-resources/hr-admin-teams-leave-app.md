@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357373"
 ---
 # <a name="human-resources-app-in-teams"></a>Teams'de Human Resources uygulaması
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053575"
 
 Microsoft Teams platformundaki Microsoft Dynamics 365 Human Resources uygulaması, çalışanların hızlı bir şekilde izin istemelerine ve izin bakiyesi bilgilerini Microsoft Teams platformunda görüntülemelerine olanak tanır. Çalışanlar, bilgi istemek için bir botla etkileşime geçebilir. **İzin** sekmesi, daha ayrıntılı bilgi sağlar. Ek olarak, ekipte yaklaşan izinler hakkında kişilere bilgi ve Human Resources uygulamasının dışındaki sohbetleri gönderebilirler.
 
-![Human Resources Teams izinler uygulaması botu](./media/hr-teams-leave-app-bot.png)
+![Human Resources Teams izinler uygulaması botu.](./media/hr-teams-leave-app-bot.png)
 
-![Human Resources Teams izin uygulaması İzin sekmesi](./media/hr-teams-leave-app-timeoff-tab.png)
+![Human Resources Teams izin uygulaması İzin sekmesi.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Human Resources izin istek kartı](./media/hr-teams-leave-app-chat-card.png)
+![Human Resources izin istek kartı.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Yükleme ve ayarlama
 
@@ -57,11 +57,11 @@ Kullanıcıların Teams uygulamasında izin talebi bildirimlerini almasını ist
 
 4. **Genel** sekmesinde, **Teams uygulaması için bildirimleri etkinleştir** ayarını **Evet** olarak ayarlayın.
 
-   ![Sistem parametrelerinde Teams uygulama bildirimlerini etkinleştirme](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Sistem parametrelerinde Teams uygulama bildirimlerini etkinleştirme.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Tüm kullanıcılar için Teams bildirimlerini açmak için sorulduğunda **Evet**'i seçin.
 
-   ![Tüm kullanıcılar için Teams bildirimlerini etkinleştirme](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Tüm kullanıcılar için Teams bildirimlerini etkinleştirme.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Bireysel kullanıcılar için Teams bildirimlerini açma veya kapatma
 
@@ -77,7 +77,7 @@ Dynamics 365 Human Resources Teams uygulaması için bildirimleri etkinleştirdi
 
 5. Kullanıcı için bildirimleri etkinleştirmek için **Teams uygulaması için bildirimleri etkinleştir** ayarını **Evet** olarak veya kullanıcı için bildirimleri devre dışı bırakmak için **Hayır** olarak ayarlayın.
 
-   ![Kullanıcı seçenekleri İş Akışı sekmesinde Teams uygulaması bildirimlerini etkinleştirme](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Kullanıcı seçenekleri İş Akışı sekmesinde Teams uygulaması bildirimlerini etkinleştirme.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. **Kaydet**'i seçin.
 

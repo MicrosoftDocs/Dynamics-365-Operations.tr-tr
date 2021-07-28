@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054392"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360484"
 ---
 # <a name="authentication"></a>Kimlik Doğrulama
 
@@ -87,7 +87,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 6. **Kayıt**'ı seç.
 
-   [![Azure portalında yeni bir uygulama kaydediliyor](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Azure portalında yeni bir uygulama kaydetme.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD, uygulamanıza benzersiz bir uygulama kimliği (istemci kimliği) atar ve sizi uygulamanızın **genel bakış** sayfasına götürür. Uygulamanıza daha fazla özellik eklemek için, marka ve sertifikalar ve gizlilikler için seçenekler gibi diğer yapılandırma seçeneklerini belirleyebilirsiniz.
 

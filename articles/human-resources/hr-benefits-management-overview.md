@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2f3a5583400b21aa11e88ba48b67e56fdbb05c3f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059076"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353650"
 ---
 # <a name="benefits-management-overview"></a>Kazanç yönetimine genel bakış
 
@@ -42,7 +42,7 @@ Demo verilerine erişmek istiyorsanız korumalı alan ortamınızı yeniden dağ
 
 >[!NOTE]
 >Artık Kazançlar yönetimi formlarını özelleştirebilirsiniz. Artık, kazanç planları için **Kapsama seçeneği**'ne kapsama oranlarıyla ilgili özel alanlar ekleyebilirsiniz. Özel alanlarla çalışma hakkında daha fazla bilgi için bkz. [Özel alanlar](hr-developer-custom-fields.md).
->![Kazançlar yönetimi özel alanları](media/hr-benefits-management-custom-fields.png)
+>![Kazançlar yönetimi özel alanları.](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Kazanç Yönetimni etkinleştirme
 

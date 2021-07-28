@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356524"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Teams'de izin isteklerini yönetme
 
@@ -61,7 +61,7 @@ Bottan şunları isteyebilirsiniz:
 
 - Kendiniz için bir izin isteği başlatın. Örneğin, "izin al" veya "sonraki Perşembe ve Cuma günleri izin almak istiyorum" şeklinde bir ileti gönderin, böylece tatil izin türüne izin vermek üzere daha belirgin olur. 
 
-  ![Teams sohbetinde izin isteği başlatma](./media/hr-teams-leave-app-initiate.png)
+  ![Teams sohbetinde izin isteği başlatma.](./media/hr-teams-leave-app-initiate.png)
 
 - Sohbet botu sizin için bir izin isteği dolduracaktır. **İzin talep et**'i seçin ve isteğinizin ayrıntılarını düzenleyin.
 
@@ -69,11 +69,11 @@ Bottan şunları isteyebilirsiniz:
 
    İzin isteği birimi gün olarak bir yarım gün bırak seçeneğini belirlerseniz, **Diğer Seçenekler** menüsünde **yarım gün tanımı** seçeneğini belirleyerek, zamanı ilk yarım gün veya ikinci yarım gün talep etmek isteyip istemediğinizi belirtebilirsiniz.
    
-   ![Yarım gün tanımı](./media/HalfDayDefinitions.png)
+   ![Yarım gün tanımları.](./media/HalfDayDefinitions.png)
 
 - İzin İsteği ayrıntılarınızı düzenlemeyi tamamladığınızda onaya göndermek için **Gönder** öğesini seçin.
 
-  ![İzin İsteği gönderme](./media/hr-teams-leave-app-submit.png)
+  ![İzin İsteği gönderme.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Teams'de izninizi yönetme
 
@@ -93,7 +93,7 @@ Bottan şunları isteyebilirsiniz:
 
 2. Talep ettiğiniz izin süresi için gün veya günleri girin ve ardından **Ekle**'yi seçin.
 
-   ![Human Resources Teams izin uygulaması izin ekleme](./media/TimeOffHours.png)
+   ![Human Resources Teams izin uygulaması izin ekleme.](./media/TimeOffHours.png)
 
 3. Uygunsa, bir neden kodu girin. Ayrıca açıklama girin ve herhangi bir ek ekleyin.
 
@@ -123,7 +123,7 @@ Teams için Human Resources uygulamasını yükledikten sonra, ekiplere veya soh
 
 1. Ekipte veya Teams'deki bir sohbette, sohbet penceresinin altındaki Human Resources düğmesini seçin.
 
-   ![Sohbet penceresinin altında Human Resources düğmesi](./media/hr-teams-leave-app-chat-button.png)
+   ![Sohbet penceresinin altında Human Resources düğmesi.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Paylaşmak istediğiniz izin isteğini seçin. Bir taslak olarak izin isteğini paylaşmak istiyorsanız, önce **Taslaklar**'ı seçin.
 
@@ -173,11 +173,11 @@ Uygulamada oturum açamazsınız, Microsoft Teams'de oturum açarken kullandığ
 
 Teams'de, **Ayarlar**'da **Uygulama dili**'ne bakın.
 
-![Teams ayarları](./media/hr-teams-leave-app-settings.png)
+![Teams ayarları.](./media/hr-teams-leave-app-settings.png)
 
 Human Resources'ta **Ayarlar**'ı ve ardından **Kullanıcı seçenekleri**'ni seçin. **Dil** alanının Teams'deki **Uygulama dili** alanıyla eşleştiğini doğrulayın.
 
-![Human Resources Kullanıcı seçenekleri](./media/hr-teams-leave-app-user-options.png)
+![Human Resources Kullanıcı seçenekleri.](./media/hr-teams-leave-app-user-options.png)
 
 Hala çeviri sorunları yaşıyorsanız bize bildirin. Bilgi için bkz. [Finance and Operations uygulamaları veya Lifecycle Services (LCS) için destek alma](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816808"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356033"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gelen ve giden varlıklar
 
@@ -42,7 +42,7 @@ Varlık Yönetimi kurulumu, gelen ve giden varlıklarla çalışabilir olup olma
 3. **Bakım talebi durumunu güncelleştir**'i seçin.
 4. **Gelen**'i (veya gelen varlıklar için oluşturduğunuz başka bir yaşam döngüsü durumu) seçin ve **Tamam**'ı seçin.
 
-![Varlıkları gelen olarak kaydetme](media/07-manage-maintenance-requests.png)
+![Varlıkları gelen olarak kaydetme.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Gelen varlıkları alındı olarak kaydetme
 
@@ -51,7 +51,7 @@ Varlık Yönetimi kurulumu, gelen ve giden varlıklarla çalışabilir olup olma
 3. **Varlıkları al**'ı seçin.
 4. **Alındı** alanında tarihi ve saati girin. Daha sonra **Tamam**'ı seçin. Kayıt, **Gelen varlıklar** listesi sayfasından kaldırılır.
 
-![Gelen varlıkları alındı olarak kaydetme](media/08-manage-maintenance-requests.png)
+![Gelen varlıkları alındı olarak kaydetme.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Varlıkları giden olarak kaydetme
 

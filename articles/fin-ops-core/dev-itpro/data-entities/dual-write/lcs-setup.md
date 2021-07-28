@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359375"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services'dan çift yazma kurulumu
 
@@ -40,7 +40,7 @@ LCS **Ortam Ayrıntıları** sayfasından çift yazma ayarlamak için şu adıml
 
 2. **Çift yazma uygulaması** düğmesini seçin.
 
-    ![Power Platform Tümleştirmesi](media/powerplat_integration_step2.png)
+    ![Power Platform tümleştirmesi.](media/powerplat_integration_step2.png)
 
 3. Hüküm ve koşulları inceleyin ve ardından **Yapılandır**'ı seçin.
 
@@ -52,7 +52,7 @@ LCS **Ortam Ayrıntıları** sayfasından çift yazma ayarlamak için şu adıml
 
 7. Geçerli ortamın veritabanları ile Dataverse arasında bağlantı oluşturmak için **Power Platform Ortama bağla**'yı seçin. Bu genellikle 5 dakikadan daha az sürer.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Power Platform ortamı bağlantısı":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Power Platform ortamı bağlantısı.":::
 
 8. Bağlama tamamlandığında, bir köprü görüntülenir. Finance and Operations ortamdaki çift yazma yönetim alanına giriş yapmak için bağlantıyı kullanın. Buradan varlık eşlemeleri ayarlayabilirsiniz.
 

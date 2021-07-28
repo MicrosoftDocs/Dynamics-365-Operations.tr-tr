@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892445"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360748"
 ---
 # <a name="asset-leasing-get-started"></a>Varlık kiralamaya başlama
 
@@ -35,7 +37,7 @@ Muhasebe standartları hakkında daha fazla bilgi için IFRS 16 ve US GAAP ASC 8
 ## <a name="asset-leasing-elements"></a>Varlık kiralama öğeleri
 Aşağıdaki diyagram kiralamalar için iş sürecinin ana öğelerini gösterir.
 
-[![Varlık kiralama öğeleri](./media/overview-01.png)](./media/overview-01.png)
+[![Varlık kiralama öğeleri.](./media/overview-01.png)](./media/overview-01.png)
 
 Kiralanan varlık aşağıdaki ana bileşenleri içerir:
 
@@ -54,7 +56,7 @@ Kıymet kiralama kira bilgilerini, ödeme planlarını, başlangıç ve bitiş t
 
 Aşağıdaki diyagramda kira defteri, kiralama, hesaplanan ödeme planı, kiralama ve kiralama defterleri için sınıflandırma sınamaları ve buna karşılık gelen hesap hareketleri gösterilmektedir.
 
-[![Kiralama, kiralama defteri ve ödeme planı](./media/overview-02.png)](./media/overview-02.png)
+[![Kiralama, kiralama defteri ve ödeme planı.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Kira defteri** - Kiralama defteri kira koşulları, adil değer ve kira ödemeleri gibi tüm kira sözleşmesi bilgilerini içerir. Ayrıca, takip ettiğiniz muhasebe standardını, kira türü ve kiralama sınıflandırması testinde dikkate alınan eşikleri içerir. Kira defteri ayrıca genel muhasebeye nakledilen kira hareketlerini de içerir. 
   
@@ -117,7 +119,7 @@ Yıllık ödeme türü yıllık ödeme ise, ilk dönem dönem sıfır ile başla
 
 Sınıflandırma sınamaları Sahiplik aktarını, Satınalma seçeneği, Kiralama süresi, Net mevcut değer ve Benzersiz varlığı içerir. Aşağıdaki diyagram kira sınıflandırması sınamalarını gösterir.
 
-[![Kira sınıflandırması sınamaları](./media/overview-03.png)](./media/overview-03.png)
+[![Kira sınıflandırması sınamaları.](./media/overview-03.png)](./media/overview-03.png)
 
 Her kira türü, farklı kira hareketleri için muhasebeyi farklı şekilde işler. Hareketler arasında ilk kabul, faiz gideri, kiralama vadesi ödemesi ve kira amortismanı bulunur ve bunlar takip ettiğiniz muhasebe standartlarına dayalıdır (IFRS 16 veya ASC 842). Genel muhasebe hesapları, her hareket türü ve muhasebe çerçevesi için kiralama deftere nakil profili altında tanımlanır.
 
@@ -232,7 +234,7 @@ Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın.
 
    **Ödeme planı** sayfası bir kiralama kodu için gelecekteki ödeme planlamalarını listeler. **İlk kabul** hareketlerini deftere nakledebilmek için **Planlamayı onayla**'yı seçin. 
 
-[![İlk kabul işlevi](./media/overview-13.png)](./media/overview-13.png)
+[![İlk kabul işlevi.](./media/overview-13.png)](./media/overview-13.png)
 
 8. İlk kabul günlüğünü oluşturmak için **İlk kabul**'ü seçin. 
 
@@ -246,7 +248,7 @@ Yeni bir kiralama oluşturmak için aşağıdaki adımları tamamlayın.
 
    **Varlık amortisman planlaması** sayfası, seçilen kira koduyla ilgili amortisman hareketlerini gösterir. 
 
-   [![ROU varlığı hareketleri sayfası](./media/overview-20.png)](./media/overview-20.png)
+   [![ROU varlığı hareketleri sayfası.](./media/overview-20.png)](./media/overview-20.png)
 
    **ROU varlığı hareketleri** sayfası ilk kabulü, birikmiş amortismanı ve varlık bakiyesini listeler. 
 

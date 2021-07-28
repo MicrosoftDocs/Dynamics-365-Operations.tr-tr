@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 067d7035cdb9c8f4bcb2bdac9cf0a33cd4e01079
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fa602d01cadecbf24c2433360f7b2a8ebb0854a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811449"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355167"
 ---
 # <a name="cost-element-dimensions"></a>Maliyet öğesi boyutları
 
@@ -63,7 +63,7 @@ Birincil maliyet öğeleri ve ikincil maliyet öğeleri olmak üzere iki tür ma
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Maliyet öğesi boyutları ve maliyet öğesi boyut üyeleri
 Maliyet öğeleri, *maliyet öğesi boyutları* olarak adlandırılır. Tek tek boyut değerleri *maliyet öğesi boyut üyeleri* olarak adlandırılır. Örneğin, yasal raporlamanızın temeli olan bir ABD hesap planı yapınız (COA) olsun. Bu COA maliyet öğesi boyutu olarak kullanılır. Birincil maliyet öğesi olan hesaplar Maliyet muhasebesinde maliyet öğesi boyut üyeleri olarak temsil edilir. Aşağıdaki ekran görüntüsünde fiili ana hesapları maliyet öğesi boyut üyesi olarak, Ana Hesapların maliyet öğesi boyutu olduğu bir örnek gösterilmektedir. 
 
-[![Maliyet öğesi boyutu olarak Ana Hesapların ekran görüntüsü](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Maliyet öğesi boyutu olarak Ana Hesapların ekran görüntüsü.](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Veri bağlayıcıları üzerinden maliyet öğesi boyut üyelerini içe aktarma
 Maliyet muhasebesinde maliyet öğesi boyut üyelerinin kurulumunu kolaylaştırmak için bir veya daha fazla kaynak sistemden birincil maliyet öğelerini almak üzere önceden inşa edilmiş veya sizin özel olarak inşa ettiğiniz veri bağlayıcılarını kullanabilirsiniz.

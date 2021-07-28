@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350848"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Başlangıç kurulumu sırasında sorunları giderme
 
@@ -42,7 +42,7 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 **Dataverse'e bağlantı kur** sayfa üzerindeki hatalar genellikle tamamlanmamış kurulum veya izin sorunlarından kaynaklanır. Aşağıdaki çizimde gösterildiği gibi, tüm sistem durumu denetiminin **Dataverse'e bağlantı kur** sayfası üzerinden geçerken emin olun. Tüm sistem durumu denetimi başarılı olmadıkça çift-yazma bağlantısı yapamazsınız.
 
-![Başarılı sistem durumu denetimi](media/health_check.png)
+![Başarılı sistem durumu denetimi.](media/health_check.png)
 
 Finance and Operations Ve Dataverse ortamları bağlamak için Azure AD kiracı yöneticisi kimlik bilgileriniz olmalıdır. Ortamları bağladıktan sonra, kullanıcılar kendi hesap kimlik bilgilerini kullanarak oturum açabilir ve mevcut bir tablo eşlemesini güncelleştirebilir.
 
@@ -77,7 +77,7 @@ Uygulama onayı sağlamak için aşağıdaki adımları izleyin.
 4. Çift-yazmayı konfigüre ettiğinizde bağlanan şirketi seçin.
 5. **Varsayılan sahibi olan takım** sütununun bir değere sahip olduğunu doğrulayın. Aşağıdaki çizimde, **Varsayılan sahibi olan takım** sütunu **USMF Çift Yazma** olarak ayarlanmıştır.
 
-    ![Varsayılan sahip olan takım doğrulanıyor](media/default_owning_team.png)
+    ![Varsayılan sahip olan takım doğrulama.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Çift-yazma için bağlanabilen yasal tablo veya şirket sayısı sınırını bulma
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839619"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361126"
 ---
 # <a name="maintenance-plans"></a>Bakım planları
 
@@ -145,23 +145,23 @@ Zaman temelli ve sayaç temelli bakım planı satırlarının kurulum örnekleri
 
 **1. Örnek: Zaman temelli bakım planı satırı:** Haftada bir kez gerçekleşen sabit aralıklarla bir yağlama işi ayarlanabilir. Bu amaçla, **Aralık türü** alanında "Plan tarihinden itibaren yinelenen" seçeneğini belirleyin. Aşağıdaki çizimde bulunan örneğe bakın.
 
-![Haftada bir gerçekleşen sabit aralığa göre ayarlanmış bir servis işi](media/02-preventive-maintenance.png "Haftada bir gerçekleşen sabit aralığa göre ayarlanmış bir servis işi")
+![Haftada bir gerçekleşen sabit aralığa göre ayarlanmış bir servis işi.](media/02-preventive-maintenance.png "Haftada bir gerçekleşen sabit aralığa göre ayarlanmış bir servis işi")
 
 **2. Örnek: Zaman temelli bakım planı satırı:** Yaklaşık olarak haftada bir kez gerçekleştirilecek şekilde bir inceleme işi ayarlanabilir. Bu amaçla, **Aralık türü** alanında "Son iş emrinden itibaren yinelenen" seçeneğini belirleyin. Aşağıdaki çizimde bulunan örneğe bakın.
 
-![Yaklaşık olarak haftada bir kez yapılmaya ayarlanmış denetim işi](media/03-preventive-maintenance.png "Yaklaşık olarak haftada bir kez yapılmaya ayarlanmış denetim işi")
+![Yaklaşık olarak haftada bir kez yapılmaya ayarlanmış denetim işi.](media/03-preventive-maintenance.png "Yaklaşık olarak haftada bir kez yapılmaya ayarlanmış denetim işi")
 
 **3. Örnek: Sayaç temelli bakım planı satırı:** Aşağıdaki grafik çiziminde her 250 saatlik sürenin sonunda yeni bir bakım zamanlaması satırının oluşturulduğu saat sayacı gösterilmektedir. Bu sayaç temelli satır için aralık türü "Başlangıç tarihinden itibaren yinelenen"dir. Başlangıç tarihi, **Tüm kıymetler** ayrıntıları görünümü \> **Kıymet bakım planları** hızlı sekmesi \> **Başlangıç tarihi** alanında veya **İşlem yapılacak yerleşim** ayrıntıları görünümü \> **Bakım planları** hızlı sekmesi \> **Başlangıç tarihi** alanındaki ilgili kıymetlerin başlangıç tarihidir. Bakım zamanlaması satırının eşiğe (+ 250) her ulaşıldığında otomatik olarak oluşturulması nedeniyle bu bir *önleyici* bakım planı örneğidir.
 
-![Düzenli aralıklarla bakım çizelgesi satırları oluşturan bir saat sayacı](media/04-preventive-maintenance.png "Düzenli aralıklarla bakım çizelgesi satırları oluşturan bir saat sayacı")
+![Düzenli aralıklarla bakım çizelgesi satırları oluşturan bir saat sayacı.](media/04-preventive-maintenance.png "Düzenli aralıklarla bakım çizelgesi satırları oluşturan bir saat sayacı")
 
 **4. Örnek: Sayaç temelli bakım planı satırı:** Aşağıdaki grafik çiziminde, fren balatasındaki aşınma ölçülerek sayaç değerindeki azalma gösterilmektedir. Fren balatasında 20 mm. altında bir sayaç kaydı oluşturulduğunda bakım zamanlaması satırı oluşturulur. Bu sayaç temelli satır için aralık türü "Alt sınıra ulaşıldı" veya "Son başlangıç tarihinden itibaren bir kez"dir. Bakım zamanlaması satırının 20 mm. altında ölçüm kaydedilene kadar oluşturulmaması nedeniyle bu bir *reaktif* bakım planı örneğidir.
 
-![Fren balatasındaki aşınmayı ölçen sayaç değerinde azalma](media/05-preventive-maintenance.png "Fren balatasındaki aşınmayı ölçen sayaç değerinde azalma")
+![Fren balatasındaki aşınmayı ölçen sayaç değerinde azalma.](media/05-preventive-maintenance.png "Fren balatasındaki aşınmayı ölçen sayaç değerinde azalma")
 
 **5. Örnek: Sayaç temelli bakım planı satırı:** Aşağıdaki grafik çiziminde -18 santigrat derece eşiğine sahip sayaç gösterilmektedir. -18 santigrat derecenin üzerinde sayaç kaydı yapıldığında bakım zamanlaması satırı oluşturulur. Bu sayaç temelli satır için aralık türü "Üst sınıra ulaşıldı"dır. Bakım zamanlaması satırının -18 santigrat dereceden yüksek ölçüm kaydedilene kadar oluşturulmaması nedeniyle bu bir *reaktif* bakım planı örneğidir.
 
-![-18 santigrat derece eşiğe sahip sayaç](media/06-preventive-maintenance.png "-18 santigrat derece eşiğe sahip sayaç")
+![-18 santigrat derece eşiğe sahip sayaç.](media/06-preventive-maintenance.png "-18 santigrat derece eşiğe sahip sayaç")
 
 - Yeni kıymet oluşturduğunuzda ve bu kıymetin bakım planıyla ilgili bir kıymet türü kullanması durumunda, bakım planı **Tüm nesneler \> Kıymet bakım planları** hızlı sekmesine otomatik olarak eklenir. Ayrıca, **Varlık türü varsayılanları**'nda **Bakım planları** hızlı sekmesine ilgili bakım planları otomatik olarak eklenir.
 - **Bakım planları**'na varlık türleri veya işlem yapılacak yerleşim türleri eklerseniz ya da kaldırırsanız bu değişiklik yalnızca değişikliği yapmanızın ardından oluşturulan yeni varlıklara yansır.
@@ -169,7 +169,7 @@ Zaman temelli ve sayaç temelli bakım planı satırlarının kurulum örnekleri
 
 Aşağıdaki çizimde **Bakım planları** sayfasındaki bir "Kamyon servisi" bakım planı örneği gösterilmektedir.
 
-![Kamyon servis bakım planına örnek](media/07-preventive-maintenance.png "Kamyon servis bakım planına örnek")
+![Kamyon servis bakım planına örnek.](media/07-preventive-maintenance.png "Kamyon servis bakım planına örnek")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Bir varlığa bakım planı ekleme
 
@@ -187,7 +187,7 @@ Aşağıdaki çizimde **Bakım planları** sayfasındaki bir "Kamyon servisi" ba
 
 Aşağıdaki çizimde **Tüm varlıklar** sayfasında bulunan bir varlıktaki bakım planları ayarı örneği gösterilmektedir.
 
-![Bir kıymet üzerinde ayarlanan bakım planları örneği](media/08-preventive-maintenance.png "Bir kıymet üzerinde ayarlanan bakım planları örneği")
+![Bir varlık üzerinde ayarlanan bakım planları örneği.](media/08-preventive-maintenance.png "Bir kıymet üzerinde ayarlanan bakım planları örneği")
 
 <a id="counter-based-maintenance"></a>
 

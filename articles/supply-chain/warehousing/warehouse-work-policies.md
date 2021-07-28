@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838142"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353384"
 ---
 # <a name="work-policies"></a>İş ilkeleri
 
@@ -200,7 +200,7 @@ Satın alma siparişi artık teslim alındı, ancak ilişkilendirilmiş iş yok.
 
 Aşağıdaki örnekte, *PRD-001* ve *PRD-002* olmak üzere iki üretim emri bulunmaktadır. Üretim emri *PRD-001*, *SC1* ürününün *001* konumuna tamamlandı olarak bildirildiği *Derleme* adlı bir işleme sahiptir. Üretim emri *PRD-002*, *Boyama* adlı bir işleme sahiptir ve *001* konumundan *SC* 1 ürününü kullanır. Üretim emri *PRD-002* de *001* konumundan *RM* 1 hammaddesini kullanır. *RM1* hammaddesi, *BULK-001* ambar konumunda depolanır ve hammadde çekmeye yönelik ambar işi tarafından *001* konumuna çekilir. Malzeme çekme işi *PRD-002* üretimi serbest bırakıldığında oluşturulur.
 
-[![Ambar iş ilkeleri](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Ambar iş ilkeleri.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdaki hususları göz önünde bulundurmalısınız:
 

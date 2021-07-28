@@ -932,7 +932,9 @@
                   href: manage-ecommerce-users-roles.md
                 - name: Stok ayarlarını uygulama
                   href: inventory-settings.md
-                - name: Siteniz için arama alt yapısını en iyi duruma getirmeyle (SEO) ilgili konular
+                - name: Sepete ürün ekleme ayarlarını uygulama
+                  href: add-cart-settings.md
+                - name: Siteniz için arama motoru optimizasyonuyla (SEO) ilgili konular
                   href: search-engine-optimization-considerations.md
                 - name: İçerik Güvenliği İlkesini (CSP) yönetme
                   href: manage-csp.md
@@ -1016,11 +1018,15 @@
                       href: customize-site-navigation.md
                     - name: Sayfa URL'si oluşturma
                       href: create-page-URL.md
+                - name: Adventure Works teması
+                  items:
+                    - name: Adventure Works temasına genel bakış
+                      href: adventure-works-theme.md
             - name: Dijital varlıkları yönetme
               items:
                 - name: Dijital varlık yönetimine genel bakış
                   href: dam-overview.md
-                - name: Resimleri karşıya yükleme
+                - name: Görüntüleri karşıya yükleme
                   href: dam-upload-images.md
                 - name: Videoyu karşıya yükleme
                   href: dam-upload-video.md
@@ -1070,6 +1076,16 @@
                       href: add-hero-module.md
                     - name: Video oynatıcı modülü
                       href: add-video-player.md
+                    - name: Etkin görüntü modülü
+                      href: active-image-module.md
+                    - name: Görüntü listesi modülü
+                      href: image-list-module.md
+                    - name: Etkileşimli özellik modülü
+                      href: interactive-feature-module.md
+                    - name: Abonelik modülü
+                      href: subscribe-module.md
+                    - name: Kutucuk listesi modülü
+                      href: tile-list-module.md
                 - name: Üst bilgi ve alt bilgi modülleri
                   items:
                     - name: Üst bilgi modülü
@@ -1314,6 +1330,10 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: localizations/emea-nor-loc-deployment-guidelines.md
+            - name: Rusya
+              items:
+                - name: Rusya için Commerce yerelleştirmesi
+                  href: localizations/rus-commerce-localization.md
             - name: İsveç
               items:
                 - name: Yazar kasa işlevi
@@ -2146,6 +2166,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Onay adımlarını yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/commerce/toc.json
+                    - name: Harcama gözden geçirenlerini yapılandırma
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/commerce/toc.json
                     - name: El ile girilen kararları yapılandırma
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/commerce/toc.json
                     - name: Koşullu kararları yapılandırma
@@ -2558,6 +2580,8 @@
                   href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Kanal veritabanı uzantıları
                   href: dev-itpro/channel-db-extensions.md
+                - name: Bulut Ölçek Birimi uzantılarını kaldırma
+                  href: dev-itpro/retail-sdk/remove-csu-package.md
                 - name: Uzantıyla özel CDX eşitlemesini etkinleştirme
                   href: dev-itpro/cdx-extensibility.md
                 - name: Sipariş özniteliklerini tanımlama ve ayarlama

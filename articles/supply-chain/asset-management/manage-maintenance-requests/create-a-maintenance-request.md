@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102986"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354917"
 ---
 # <a name="create-maintenance-requests"></a>Bakım talepleri oluştur
 
@@ -52,7 +52,7 @@ Bakım görevlileri veya üretim çalışanları, ekipmanların onarımını ger
 11. **Notlar** alanında, gerekli olan ek notları girin.
 12. **Tamam**'ı seçin.
 
-![Bakım talebi oluştur](media/03-manage-maintenance-requests.png)
+![Bakım talebi oluşturma.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Bakım taleplerinin sonraki işlemesi
 
@@ -67,7 +67,7 @@ Ayrıntılar görünümünde, çeşitli bilgileri güncelleştirebilirsiniz. Bur
 - Bir bakım işi türü seçin ve bu bilgiler alakalı ise ilgili bakım iş çeşidi ve bir zanaat seçin.
 - **Enlem** ve **Boylam** alanlarında coğrafi koordinatları girin. Bir bakım talebine eklenen koordinatlar otomatik olarak ilgili iş emri için aktarılır. 
 
-![Bakım talebini güncelleştirme](media/04-manage-maintenance-requests.png)
+![Bakım talebini güncelleştirme.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Bir bakım talebi oluşturduğunuzda bir varlık seçerseniz varlığa bir hata ekleyebilirsiniz. Bakım talebi oluşturulduktan sonra ihtiyacınız olursa daha fazla hata ekleyebilirsiniz. Hata eklemek için **Tüm bakım talepleri** sayfasından **Varlık hatası**'nı seçin.

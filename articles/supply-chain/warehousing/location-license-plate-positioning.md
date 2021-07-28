@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831398"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359775"
 ---
 # <a name="location-license-plate-positioning"></a>Yerleşim plakası konumlandırmasıı
 
@@ -88,7 +88,7 @@ Bu konuda sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğ
 1. **Lisans levhası** seçiliyken, **Tablo bağlaması ekle**'yi seçin.
 1. Görünen tablolar listesinde, **ilişki** sütununda, **Konum lisans levhası konumlandırma (lisans levhası)** seçin. Daha sonra **Stok boyutları** tablo katılmasınına **Konum lisans levhası konumlandırma** eklemek için **Seç**'i seçin.
 
-    ![Tablo birleştirmeleri](media/LpTableJoin.png "Tablo birleştirmeleri")
+    ![Tablo birleştirmeleri.](media/LpTableJoin.png "Tablo birleştirmeleri")
 
 1. Güncelleştirilen birleştirilmiş tabloları onaylamak ve sorgu düzenleyicisini kapatmak için **Tamam** 'ı seçin.
 1. **Yerleşim yönergesi eylemleri** hızlı sekmesinde sorgu düzenleyiciyi açmak için **Sorguyu düzenle**'yi seçin.
@@ -100,7 +100,7 @@ Bu konuda sunulan senaryoya ait *konum lisans levhası konumlandırma* özelliğ
     - **Alan:** *LP Konumu*
     - **Ölçüt:** *1*
 
-    ![Yeni Aralık](media/LpPositionCriteria.png "Yeni Aralık")
+    ![Yeni aralık.](media/LpPositionCriteria.png "Yeni Aralık")
 
 1. Değişikliklerinizi onaylayıp sorgu düzenleyicisi kapatmak için **Tamam**'ı seçin.
 
@@ -275,7 +275,7 @@ Bu senaryo için, kullanıcının, iş yapması amacıyla ambar *61* için ayarl
 1. **Iş kodu Tara/lisans levhası kimlik** sayfasında **kimlik** alanını seçin ve satış satırındaki iş kodunu girin.
 1. Malzeme çekme çalışmasının *A0002* *01A01R1S2B* konumundan maddeyi çekmesini yönlendirdiğine dikkat edin. Bu yönergeyi, madde *A0002* Bu konumdaki *1* konumunda bulunan bir lisans kalıbının açık olması nedeniyle alırsınız.
 
-    ![Pozisyon 1 konumu](media/LocationLicensePlatePositioning.png "Pozisyon 1 konumu")
+    ![Pozisyon 1 konumu.](media/LocationLicensePlatePositioning.png "Pozisyon 1 konumu")
 
 1. Konum için oluşturduğunuz lisans plakası kodunu girin ve satış siparişini seçmek için istemleri izleyin.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941067"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350824"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Başlangıç eşitlemesi sırasında sorunları giderme
 
@@ -38,7 +38,7 @@ Bu konu, Finance and Operations uygulamaları ve Dataverse arasında çift yazma
 
 Eşleme şablonları etkinleştirildikten sonra, haritaların durumu **çalışıyor** olmalıdır. Durum **çalışmıyorsa**, ilk eşitleme sırasında hata meydana geldi. Hataları görüntülemek için **çift-yazma** sayfasında **ilk eşitleme ayrıntıları** sekmesini seçin.
 
-![İlk eşitleme ayrıntıları sekmesinde hata](media/initial_sync_status.png)
+![İlk eşitleme ayrıntıları sekmesinde hata.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>İlk eşitlemeyi tamamlayamıyoruz: 400 Hatalı Istek
 
@@ -85,7 +85,7 @@ Sorunu düzeltmek için şu adımları izleyin.
 1. Finance and Operations Uygulamaya oturum açın.
 2. **Azure Active Directory uygulamalar** sayfasında **DtAppID** istemcisini silin ve sonra yeniden ekleyin.
 
-![Azure AD uygulamaları listesinde DtAppID istemcisi](media/aad_applications.png)
+![Azure AD uygulamaları listesinde DtAppID istemcisi.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>İlk eşitleme sırasında kendi kendine referans veya döngüsel referans hataları
 
@@ -115,11 +115,11 @@ Satıcı tablosunda **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber**
     2. **primarycontactperson** öğesini arayıp **PrimaryContactPersonId** kaynak sütununu bulun.
     3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
-        ![PrimaryContactPersonId sütununu silme](media/vend_selfref3.png)
+        ![PrimaryContactPersonId sütununu silme.](media/vend_selfref3.png)
 
     4. **InvoiceVendorAccountNumber** sütununu silmek için bu adımları tekrarlayın.
 
-        ![InvoiceVendorAccountNumber sütununu silme](media/vend-selfref4.png)
+        ![InvoiceVendorAccountNumber sütununu silme.](media/vend-selfref4.png)
 
     5. Değişikliklerinizi eşlemeye kaydedin.
 
@@ -129,11 +129,11 @@ Satıcı tablosunda **PrimaryContactPersonId** ve **InvoiceVendorAccountNumber**
     2. **Satıcılar V2** tablosunu seçin.
     3. Eylem Bölmesinde, **Seçenekler**'i ve sonra **Değişiklik izleme**'yi seçin.
 
-        ![Değişiklik izleme seçeneğini belirleme](media/selfref_options.png)
+        ![Değişiklik izleme seçeneğini belirleme.](media/selfref_options.png)
 
     4. **Değişiklik izlemeyi devre dışı bırak**'ı seçin.
 
-        ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme](media/selfref_tracking.png)
+        ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme.](media/selfref_tracking.png)
 
 3. **Satıcı v2 (msdyn\_vendors)** eşlemesinin ilk eşitlemesini çalıştırın. İlk eşitleme hatasız olarak çalışmalıdır.
 4. **CDS İlgili Kişileri V2 (ilgili kişiler)** eşlemesi için başlangıç eşitlemesini çalıştırın. İlk eşitlemenin ilgili kişi satırları için de yapılması gerektiğinden, satıcılar tablosundaki birincil ilgili kişi sütununu eşitlemek istiyorsanız bu eşlemeyi eşitlemeniz gerekir.
@@ -162,11 +162,11 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
     2. **contactperson** öğesini arayıp **ContactPersonID** kaynak sütununu bulun.
     3. **Eylemler**'i ve sonra **Sil**'i seçin.
 
-        ![ContactPersonID sütununu silme](media/cust_selfref3.png)
+        ![ContactPersonID sütununu silme.](media/cust_selfref3.png)
 
     4. **InvoiceAccount** sütununu silmek için bu adımları tekrarlayın.
 
-        ![InvoiceAccount sütununu silme](media/cust_selfref4.png)
+        ![InvoiceAccount sütununu silme.](media/cust_selfref4.png)
 
     5. Değişikliklerinizi eşlemeye kaydedin.
 
@@ -176,11 +176,11 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
     2. **Müşteriler V3** tablosunu seçin.
     3. Eylem Bölmesinde, **Seçenekler**'i ve sonra **Değişiklik izleme**'yi seçin.
 
-        ![Değişiklik izleme seçeneğini belirleme](media/selfref_options.png)
+        ![Değişiklik izleme seçeneğini belirleme.](media/selfref_options.png)
 
     4. **Değişiklik izlemeyi devre dışı bırak**'ı seçin.
 
-        ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme](media/selfref_tracking.png)
+        ![Değişiklik İzlemeyi Devre Dışı Bırak'ı seçme.](media/selfref_tracking.png)
 
 3. **Müşteriler V3 (Hesaplar)** eşlemesi için başlangıç eşitlemesini çalıştırın. İlk eşitleme hatasız olarak çalışmalıdır.
 4. **CDS İlgili Kişileri V2 (ilgili kişiler)** eşlemesi için başlangıç eşitlemesini çalıştırın.
@@ -196,7 +196,7 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
 
         Aşağıdaki resimde **CustomerAccount** ve **ContactPersonId**'yi güncelleştiren bir proje gösterilmektedir .
 
-        ![CustomerAccount ve ContactPersonId alanını güncelleştirmek için veri tümleştirme projesi](media/cust_selfref6.png)
+        ![CustomerAccount ve ContactPersonId alanını güncelleştirmek için veri tümleştirme projesi.](media/cust_selfref6.png)
 
     2. Finance and Operations uygulamasında yalnızca filtre ölçütleriyle eşleşen satırların güncelleştirilmesi için şirket ölçütlerini Dataverse tarafında filtreye ekleyin. Filtre eklemek için filtre düğmesini seçin. Ardından, **Sorguyu düzenle** iletişim kutusunda **\_msdyn\_company\_value eq '\<guid\>'** gibi bir filtre sorgusu ekleyebilirsiniz. 
 
@@ -204,7 +204,7 @@ Müşteri tablosunda **ContactPersonID** ve **InvoiceAccount** sütunlarında de
 
         **\_msdyn\_company\_value** için bir filtre sorgusu girmezseniz tüm satırlar eşitlenir.
 
-        ![Filtre sorgusu ekleme](media/cust_selfref7.png)
+        ![Filtre sorgusu ekleme.](media/cust_selfref7.png)
 
     Satırların ilk eşitlenme işlemi şimdi tamamlandı.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 2427e866a1cff91ff0ceca6a71e8052b880c7e5c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4a1cd6460ed93ce46e561071aedee314bf4f088
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056888"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357131"
 ---
 # <a name="create-questionnaires"></a>Anketler oluşturma
 
@@ -92,7 +92,7 @@ Verilerinizi oluşturmaya başlamadan önce tüm parametreleri tanımlamanız ge
 ## <a name="questionnaire-components"></a>Anket bileşenleri
 Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi. İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Yanıt grupları ve yanıtlar
 

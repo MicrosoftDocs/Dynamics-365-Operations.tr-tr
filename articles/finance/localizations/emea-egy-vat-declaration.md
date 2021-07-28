@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186626"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349909"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Mısır için KDV beyannamesi (EG-00002)
 
@@ -77,7 +77,7 @@ Uygulamaya özgü parametreler, rapor oluşturulduğunda vergi işlemlerinin her
 
 Mısır için satış ve Satın alma defteri raporları, Mısır'a özgü işlem, ürün ve belge türleri olarak belirli işlem sınıflandırmalarına karşılık gelen bir sütun kümesi içerir. İşlemler deftere nakledilirken bu yeni sınıflandırmaları yeni giriş verileri olarak eklemek yerine, sınıflandırmalar, Mısır için KDV raporlarının gereksinimlerini karşılayacak şekilde **Yapılandırmalar** > **Uygulamaya özgü parametreler ayarla** > **Ayarla** bölümünde sunulan farklı aramalara göre belirlenecektir. 
 
-![Uygulamaya özgü parametreler sayfası](media/egypt-vat-declaration-setup1.png)
+![Uygulamaya özgü parametreler sayfası.](media/egypt-vat-declaration-setup1.png)
 
 Aşağıdaki arama yapılandırmaları satın alma ve satış KDV defterleri raporlarındaki işlemleri sınıflandırmak için kullanılır:
 
@@ -206,7 +206,7 @@ Microsoft Excel biçiminde KDV iade formu raporu oluşturmak için **Genel kayı
 2. **Satış vergisi** sekmesinde, **vergi seçenekleri** bölümünde **KDV beyannamesi biçim eşlemesi** alanında, **KDV beyanname Excel'i (EG)** seçeneğini belirleyin. Alanı boş bırakırsanız, SSRS biçiminde standart satış vergisi raporu oluşturulur.
 3. **Kategori hiyerarşisi**'ni seçin. Bu kategori, dış ticaret sekmesi işlemlerinde bulunan ve kullanıcıların mal ve servisleri seçip sınıflandırmasına olanak veren Emtia kodunu etkinleştirir. Bu sınıflandırmanın açıklaması satış ve satın alma işlemleri raporlarında ayrıntılı olarak belirtilir. Bu yapılandırma isteğe bağlıdır.
 
-![Beyan formu](media/egypt-vat-declaration-setup2.png)
+![Beyan formu.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>KDV iadesi raporu oluşturma

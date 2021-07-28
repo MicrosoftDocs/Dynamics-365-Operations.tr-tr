@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349782"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Çalışanlar üretim katı yürütme arabirimini nasıl kullanır?
 
@@ -32,7 +32,7 @@ ms.locfileid: "5907729"
 
 Cihaz hazırlandıktan sonra, üzerinde oturum açma sayfası görüntülenir. Bu sayfa, yerel iş hücresi işlerinin durumu hakkında bilgi gösterir. Bu bilgiler periyodik olarak güncelleştirilir. Sayfada, çalışanlar oturum açmak için kendi rozet kimliklerini kullanırlar. Çalışanların Supply Chain Management için bir kullanıcı hesabına sahip olmaları gerekmemesine rağmen, kullanıcıların oturum açarken kullanabileceği *saatine kayıtlı çalışan* hesabı olmalıdır.
 
-![Üretim katı yürütme arabirimi oturum açma sayfası](media/pfei-sign-in-page.png "Üretim katı yürütme arabirimi oturum açma sayfası")
+![Üretim katı yürütme arabirimi oturum açma sayfası.](media/pfei-sign-in-page.png "Üretim katı yürütme arabirimi oturum açma sayfası")
 
 Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileştiğini açıklamaktadır.
 
@@ -40,7 +40,7 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 **Tüm işler** sekmesi, durumu *başlatılmadı*, *durduruldu* veya *Başlatıldı* olan tüm üretim işlerini gösteren bir iş listesi sağlar. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
 
-![Tüm işler sekmesi](media/pfei-all-jobs-tab.png "Tüm işler sekmesi")
+![Tüm işler sekmesi.](media/pfei-all-jobs-tab.png "Tüm işler sekmesi")
 
 İş listesinde aşağıdaki sütunlar vardır. Sayılar, önceki görseldeki sayılara karşılık gelir.
 
@@ -59,7 +59,7 @@ Bu konunun geri kalan bölümleri, çalışanların arabirimle nasıl etkileşti
 
 **Etkin işler** sekmesi, oturum açan çalışanın önceden başlattığı tüm işlerin listesini gösterir. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
 
-![Etkin işler sekmesi](media/pfei-active-jobs-tab.png "Etkin işler sekmesi")
+![Etkin işler sekmesi.](media/pfei-active-jobs-tab.png "Etkin işler sekmesi")
 
 Etkin işler aşağıdaki sütunlar vardır:
 
@@ -76,7 +76,7 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 **Makinem** sekmesi, çalışanların **Tüm işler** sekmesinde ayarlanan filtre dahilindeki makine kaynağına bağlı olan kıymeti seçmesine olanak tanır. Çalışan, en fazla dört seçili sayacın değerlerini ve en son bakım istekleri ve kaydedilmiş kesinti süreleri listelerini okuyarak seçili kıymetin durumunu ve sistem durumunu görüntüleyebilir. Çalışan aynı zamanda seçili kıymet için bakım isteyebilir ve makine kesinti süresini kaydedebilir ve düzenleyebilir. (Bu sekme adı özelleştirilebilir ve sisteminiz için farklı olabilir.)
  
-![Makinem sekmesi](media/pfei-my-machine-tab.png "Makinem sekmesi")
+![Makinem sekmesi.](media/pfei-my-machine-tab.png "Makinem sekmesi")
 
 **Makinem** sekmesi aşağıdaki sütunlara sahiptir. Sayılar, önceki görseldeki sayılara karşılık gelir.
 
@@ -87,7 +87,7 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 1. **Ayarlar**: Seçili makine kıymeti için görüntülenecek sayaçları seçebileceğiniz bir iletişim kutusu açmak için dişli simgesini seçin. Bu sayaçların değerleri, **Kıymet yönetimi** sekmesinin en üstünde gösterilir. **Ayarlar** menüsü (aşağıdaki ekran görüntüsünde gösterilmektedir) en çok dört sayacı etkinleştirmenize olanak tanır. Etkinleştirmek istediğiniz her sayaç için, kutucuğun üst tarafındaki arama alanını kullanarak bir sayaç seçin. Arama alanı, **Kıymet yönetimi** sayfasının en üstünde seçilen kıymetle ilişkilendirilmiş tüm sayaçları listeler. Sayaç için **Toplam** değeri veya en son **Gerçek** değeri izlemek için her sayacı ayarlayın. Örneğin, makinenin kaç saattir çalıştığını takip eden bir sayaç ayarlarsanız bunu **Toplam** olarak ayarlamanız gerekir. En son güncelleştirilen sıcaklığı veya basıncı ölçmek üzere bir sayaç ayarlarsanız, bunu **Gerçek** olacak şekilde ayarlamalısınız. Ayarlarınızı kaydedip iletişim kutusunu kapatmak için **Tamam**'ı seçin.
 
-    ![Makinem sekmesi ayarları](media/pfei-my-machine-tab-settings.png "Makinem sekmesi ayarları")
+    ![Makinem sekmesi ayarları.](media/pfei-my-machine-tab-settings.png "Makinem sekmesi ayarları")
 
 1. **Bakım iste**: Bakım isteği oluşturabileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Açıklama ve bir not girebilirsiniz. Talep, bir Supply Chain Management kullanıcısına gösterilir ve bu kullanıcı bakım isteğini bakım iş emrine dönüştürebilir.
 1. **Kesinti süresini kaydet**: Makinenin kesinti süresini kaydedebileceğiniz bir iletişim kutusu açmak için bu düğmeyi seçin. Bir neden kodu seçebilir ve kesinti süresi için bir tarih/saat aralığı girebilirsiniz. Makinenin kesinti süresi kaydı, makine kıymetinin verimliliğini hesaplamak için kullanılır.
@@ -98,7 +98,7 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 Çalışanlar, **tüm işler** sekmesinde iş seçip **işi Başlat** iletişim kutusunu açmak için **işi Başlat**'ı seçerek bir üretim işi başlatır.
 
-![İş başlatma iletişim kutusu](media/pfei-start-job-dialog.png "İş başlatma iletişim kutusu")
+![İş başlatma iletişim kutusu.](media/pfei-start-job-dialog.png "İş başlatma iletişim kutusu")
 
 Çalışanlar üretim miktarını doğrulamak ve işi başlatmak için **İşi Başlat** iletişim kutusunu kullanırlar. Çalışanlar **miktar** alanını seçip beliren sayısal klavyeyi kullanarak miktarı ayarlayabilir. Ardından çalışanlar, iş üzerinde çalışmaya başlamak için **Başlat**'ı seçer. **İşi Başlat** iletişim kutusu kapatılır ve iş **etkin işler** sekmesine eklenir.
 
@@ -108,13 +108,13 @@ Etkin işler aşağıdaki sütunlar vardır:
 
 Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **İlerlemeyi Raporla**'yı seçerek üretilen sağlam miktarları rapor edebilir. Sonra, **İlerlemeyi Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak sağlam miktarı girer. Varsayılan olarak miktar boştur. Bir miktar girildikten sonra, çalışan, işin durumunu *devam ediyor*, *Durduruldu* veya *tamamlandı* olarak güncelleştirebilir.
 
-![İlerlemeyi raporla iletişim kutusu](media/pfei-report-progress-dialog.png "İlerlemeyi raporla iletişim kutusu")
+![İlerlemeyi raporla iletişim kutusu.](media/pfei-report-progress-dialog.png "İlerlemeyi raporla iletişim kutusu")
 
 ## <a name="reporting-scrap"></a>Hurda raporlaması
 
 Bir çalışan bir işi tamamladığında veya kısmen tamamladığında, **etkin işler** sekmesinde bir iş seçip sonra **Hurdayı Raporla**'yı seçerek hurdayı rapor edebilir. Sonra, **Hurdayı Raporla** iletişim kutusunda, çalışan sayısal klavyeyi kullanarak hurda miktarını girer. Çalışan ayrıca bir neden (*yok*, *makine*, *işleç* veya *malzeme*) seçer.
 
-![Hurda raporla iletişim kutusu](media/pfei-report-scrap-dialog.png "Hurda raporla iletişim kutusu")
+![Hurda raporla iletişim kutusu.](media/pfei-report-scrap-dialog.png "Hurda raporla iletişim kutusu")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Bir iş tamamlama ve yeni bir proje başlatma
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838873"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350084"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Belgeleri ve fişleri kronolojik olarak numaralandırma
 
@@ -69,7 +69,7 @@ Numara serilerini tanımlamak için **Kuruluş yönetimi** > **Numara serileri**
 
 Her numara serisi için bir şirket belirtin. Numara serilerinin segmentleri, dönemler için kronolojik sıra sağlayacak şekilde tanımlanmalıdır. Örneğin, segment adları belirli bir dönemi tanımlayan özel bir önek içerebilir.
 
-![Numara serisi kurulumu](media/chrono-num-sequence.jpg)
+![Numara serisi kurulumu.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Numara serisi gruplarını yapılandırma
 
@@ -77,7 +77,7 @@ Numara serisi gruplarını konfigüre etmek için **Alacak hesapları** > **Kuru
 
 Her grup için, **Referans** bölümünde desteklenen belge referanslarından birini seçin ve **Numara serisi kodu** alanında, daha önce ilgili dönem için oluşturulan bir numara serisine referans verin.
 
-![Numara serisi grubu kurulumu](media/chrono-num-sequence-group.jpg)
+![Numara serisi grubu kurulumu.](media/chrono-num-sequence-group.jpg)
 
 Benzer şekilde, **Borç hesaplarında** ve **Proje yönetimi ve muhasebe** modüllerinde numara serileri gruplarını yapılandırın.
 
@@ -85,7 +85,7 @@ Benzer şekilde, **Borç hesaplarında** ve **Proje yönetimi ve muhasebe** mod�
 
 Numara serisi grupları kronolojisini yapılandırmak için **Kuruluş yönetimi** > **Numara serileri** > **Kronolojik numara serisi grupları**'na gidin. Numara serisi grupları için uygulanabilirlik koşullarını tanımlayın.
 
-![Kronolojik numaralar kurulumu](media/chrono-num-sequence-group-period.jpg)
+![Kronolojik numaralar kurulumu.](media/chrono-num-sequence-group-period.jpg)
 
 | Alan            | Tanım                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Numara serisi grupları kronolojisini yapılandırmak için **Kuruluş yönetimi
 ## <a name="document-posting"></a>Belge deftere nakletme
 Bir belgeyi deftere naklettiğinizde, belgenin deftere nakil tarihi temel alınarak ilgili numara serisi grubu belgeye atanır ve sonra algılanan numara serisine göre bir belge numarası oluşturmak için kullanılır. Sistem, numara serisi grubu atamasıyla ilgili bir ileti sağlar.
 
-![Belge numarası](media/chrono-num-sequence-fti.jpg)
+![Belge numarası.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Bazı ülke/bölgelerde belge numaralandırması için önceden uygulanmış belirli bir mantık vardır. Bu durumda, ülkeye özel mantık, **Kronolojik numaralandırma** özelliğini geçersiz kılar.

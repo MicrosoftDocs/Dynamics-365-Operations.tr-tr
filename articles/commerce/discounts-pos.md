@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792859"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356890"
 ---
 # <a name="show-discounts-in-pos"></a>POS'ta iskontoları gösterme
 
@@ -33,7 +33,7 @@ Promosyonlar, satın alma kararları veren müşterileri motive etmede önemli b
 
 Commerce, "Tüm iskontoları görüntüle" adlı bir işlem içerir. Bu işlem, bir mağazada yürütülen tüm iskontoları gösterir. "Tüm iskontoları görüntüle" işlemi satış noktasındaki (POS) bir düğmeyle eşlenebilir ve söz konusu düğme **Karşılama** sayfasına veya **Hareket** sayfasına eklenebilir. Aşağıdaki örnekte açılan **Tüm iskontolar** sayfasının bir örneği gösterilmektedir.
 
-![Tüm iskontolar sayfası](./media/View_all_discounts.png "Tüm iskontolar sayfası")
+![Tüm iskontolar sayfası.](./media/View_all_discounts.png "Tüm iskontolar sayfası")
 
 İskontoları görüntülemek için, sistem aşağıdaki koşullardan bir veya daha fazlasıyla eşleşen tüm iskontoları arar:
 
@@ -61,11 +61,11 @@ Aşağıdaki örnekler, indirim eşzamanlılık modunun **En iyi fiyat** veya **
 
 Aşağıdaki örnek, indirim eşzamanlılık denetimi **En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok** olarak ayarlandığında kullanılan mantığı gösterir.
 
-![En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı](./media/Model_1.png "En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı").
+![En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı.](./media/Model_1.png "En iyi fiyat ve öncelik içinde bileşim, öncelikler arasında kesinlikle bileşim yok mantığı").
 
 Aşağıdaki örnek, indirim eşzamanlılık denetimi **Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir** olarak ayarlandığında kullanılan mantığı gösterir.
 
-![Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir](./media/Model_2.png "Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir mantığı").
+![Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir.](./media/Model_2.png "Yalnızca öncelik içinde en iyi fiyat, daima öncelik üzerinde birleştir mantığı").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

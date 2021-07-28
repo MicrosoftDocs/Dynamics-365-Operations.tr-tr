@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359617"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service'e genel bakışla tümleştirme
 
@@ -34,7 +34,7 @@ Standart şablonlar özel tümleştirme projeleri oluşturmak için kullanılabi
 
 Field Service tümleştirmesi, mevcut aday-nakit işlevinin üzerine inşa olur.
 
-![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/field-service-integration.png)
+![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/field-service-integration.png)
 
 Field Service ile Supply Chain Management arasındaki tümleştirmenin birinci aşaması Field Service'taki iş emirlerinin ve sözleşmelerin Supply Chain Management'da faturalandırılmasını sağlamaya odaklanır. Desteklenen akış Field Service'da başlar; iş emirlerinden alınan bilgiler Supply Chain Management'a satış siparişleri olarak eşitlenir. Supply Chain Management'ta, satış siparişleri fatura belgeleri oluşturmak için faturalandırılır. Ayrıca, Field Service sözleşme faturalarındaki bilgiler Supply Chain Management'a eşitlenir. Microsoft Dynamics 365 Veri tümleştirici verileri özelleştirilebilir projeleri kullanarak eşitler. Standart şablonlar özel tümleştirme projeleri oluşturmak için kullanılabilir; bu projelerde ek standart ve özel sütunlar ve tablolar tümleştirmeyi ayarlamak ve özel gereksinimleri karşılamak üzere eşlenebilir.
 
@@ -58,7 +58,7 @@ Saha teknisyenlerine, Supply Chain Management'tan stok bilgisi hakkında içgör
 - Dynamics 365 Field Service iş emirleriyle bağlantılı Supply Chain Management projeleri
 - Supply Chain Management projeleri ile bağlantıya sahip Dynamics 365 Field Service iş emirleri, bu proje numarasını satış siparişlerine proje içinden faturalamasına izin vermek için uygular. 
 
-![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme](./media/FSv2overview.png)
+![Supply Chain Management ile Field Service arasında iş süreçlerini eşitleme.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Field Service ile Supply Chain Management arasındaki tümleştirmenin ikinci aşaması aşağıdaki şablonların eşitlenmesini sağlar:
 - Ambarlar (Supply Chain Management'tan Field Service'a) - Supply Chain Management'tan Field Service'a Ambarlar [Gelişmiş Sorgu] 

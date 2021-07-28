@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348719"
 ---
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
 
@@ -35,27 +35,27 @@ Bir kanalın genel ürün karışımı kanala atanan yayımlanmış ürün çeş
 
 Aşağıdaki örnekte, her mağaza için benzersiz bir sınıflama yapılandırılmıştır. Bu durumda, ürün 1 mağaza 1'de kullanılabilir ve yalnızca ürün 2 mağaza 2'de kullanılabilir.
 
-![Her ürün bir mağazada kullanılabilir](./media/Managing-assortments-figure1.png)
+![Her ürün bir mağazada kullanılabilir.](./media/Managing-assortments-figure1.png)
 
 Ürün 2'yi mağaza 1'de kullanılabilir yapmak için, ürünü ürün çeşidi 1'e ekleyebilirsiniz.
 
-![Ürün 2 ürün çeşidi 1'e eklenir](./media/Managing-assortments-figure2.png)
+![Ürün 2 ürün çeşidi 1'e eklenir.](./media/Managing-assortments-figure2.png)
 
 Alternatif olarak, mağaza 1'i ürün çeşidi 2'ye ekleyebilirsiniz.
 
-![Mağaza 1 ürün çeşidi 2'ye eklenir](./media/Managing-assortments-figure3.png)
+![Mağaza 1 ürün çeşidi 2'ye eklenir.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Kuruluş hiyerarşileri
 
 Aynı ürün çeşitlerini paylaşan birden fazla kanal olması durumunda, ürün çeşitlerini Commerce ürün çeşidi kuruluş hiyerarşisini kullanarak yapılandırabilirsiniz. Bir hiyerarşiden düğümler eklendiğinde, bu düğümdeki tüm kanallar ve alt düğümleri dahil edilir.
 
-![Kuruluş hiyerarşisi](./media/Managing-assortments-figure4.png)
+![Kuruluş hiyerarşisi.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Ürün kategorileri
 
 Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanarak ürün grupları ekleyebilirsiniz. Bir veya daha fazla kategori hiyerarşisi düğümü ekleyerek ürün çeşitlerini yapılandırabilirsiniz. Bu durumda, ürün çeşidi bu kategori düğümündeki ve onun alt düğümlerindeki tüm ürünleri içerir.
 
-![Ürün kategorileri](./media/Managing-assortments-figure5.png)
+![Ürün kategorileri.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Dışarıda bırakılan ürünler veya kategoriler
 
@@ -64,7 +64,7 @@ Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanara
 > [!NOTE]
 > Bir ürün tanımına göre bir veya daha fazla ürün çeşidine hem dahil ediliyor hem de dışarıda bırakılıyorsa, ürün daima dışarıda bırakılmış olarak kabul edilir.
 
-![Hariç tutulan ürün](./media/Managing-assortments-figure6.png)
+![Hariç tutulan ürün.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Genel ve serbest bırakılan ürünler
 

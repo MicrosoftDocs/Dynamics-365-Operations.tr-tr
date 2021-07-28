@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356914"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Ürün boyutları için görüntü ayarlarını uygulama
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce, ürün çeşitlerini ayırt etmek için boyut, stil ve re
 
 Commerce site oluşturucusunda, boyut ayarları **Site Ayarlar \> Uzantılar \> Boyut Ayarları** altında tanımlanır. Aşağıdaki resimde, site oluşturucudaki boyut ayarlarına bir örnek gösterilmektedir.
 
-![Commerce site oluşturucusunda site ayarları örneği](./dev-itpro/media/swatch_site_settings.PNG)
+![Commerce site oluşturucusunda site ayarları örneği.](./dev-itpro/media/swatch_site_settings.PNG)
 
 İki boyut ayarı kullanılabilir:
 
@@ -41,13 +41,13 @@ Commerce site oluşturucusunda, boyut ayarları **Site Ayarlar \> Uzantılar \> 
 
     Aşağıdaki resimde, bir e-ticaret sitesindeki PDP'nin renk ve boyut örnekleri içerdiği bir örnek gösterilmektedir. Bu örnekte, renk boyutu için bir altıgen kod yapılandırılır. Bu nedenle, renk örnekleri renk olarak gösterilir. Ancak, boyut boyutu için bir altıgen kod veya resim URL'si yapılandırılmaz. Bu nedenle, metin gösterilir.
 
-    ![E-ticaret ürün ayrıntıları sayfasında renk örneği olarak gösterilen renk boyutu örneği](./dev-itpro/media/swatch_pdp.png)
+    ![E-ticaret ürün ayrıntıları sayfasında renk örneği olarak gösterilen renk boyutu örneği.](./dev-itpro/media/swatch_pdp.png)
 
 - **Ürün kartında görüntülenecek boyutlar** – Listelerde ve liste sayfalarında gösterilen ürün kartlarında hangi boyutların görünleneceğini belirtin. Boyutun ürün kartında görünebilmesi için önce bu ayarın bu boyut için etkinleştirilmesi gerekir. **Görüntü olarak görüntülenecek Boyutlar** ayarı da etkinleştirilmelidir. Ürün kartlarındaki renk örneği seçimi davranışı renk boyutu için en iyi duruma getirilmiştir. Diğer boyutlar için renk örneği seçim davranışını özelleştirmek için bir görünüm uzantısı gerekebilir.
 
     Aşağıdaki resimde, bir e-ticaret sitesindeki liste sayfasının renk örnekleri içeren ürün kartları içerdiği bir örnek gösterilmektedir.
 
-    ![E-ticaret liste sayfasında renk örneği olarak gösterilen renk boyutu örneği](./dev-itpro/media/swatch_searchresults.PNG)
+    ![E-ticaret liste sayfasında renk örneği olarak gösterilen renk boyutu örneği.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Ürün boyutlarını site sayfalarında renk örneği olarak gösterilecek şekilde yapılandırma hakkında bilgi için bkz. [Ürün boyutu değerlerini renk örneği olarak görünecek şekilde yapılandırma](./dev-itpro/dimensions-swatch.md).
 

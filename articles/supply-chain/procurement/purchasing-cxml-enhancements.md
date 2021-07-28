@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825290"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359969"
 ---
 # <a name="purchasing-cxml-enhancements"></a>cXML geliştirmeleri satın alma
 
@@ -38,7 +38,7 @@ Bu özelliği açtıktan sonra, aşağıdaki üç alanda ayarları yapılandırm
 
 Aşağıdaki çizim bu yapılandırmayı özetler.
 
-![cXML özelliklerini ayarlamak için alanlar](media/cxml-settings-areas.png "cXML özelliklerini ayarlamak için alanlar")
+![cXML özelliklerini ayarlamak için alanlar.](media/cxml-settings-areas.png "cXML özelliklerini ayarlamak için alanlar")
 
 Ek olarak, [Satınalma siparişi talebi toplu işini](#po-batch) ayarlamanız gerekir. Bu toplu işlem, teyit edilen satınalma siparişlerini göndermek için kullanılır.
 
@@ -46,7 +46,7 @@ Ek olarak, [Satınalma siparişi talebi toplu işini](#po-batch) ayarlamanız ge
 
 **cXML parametreleri** sayfasını kullanarak satınalma siparişlerini gönderme işleviyle ilgili bazı genel parametreleri ayarlayabilirsiniz.
 
-![cXML parametreleri sayfası](media/cxml-parameters.png "cXML parametreleri sayfası")
+![cXML parametreleri sayfası.](media/cxml-parameters.png "cXML parametreleri sayfası")
 
 **Satın alma ve kaynak hizmeti \> Kurulum \> cXML yönetimi \> cXML parametreleri** bölümüne gidin ve aşağıdaki parametreleri ayarlayın:
 
@@ -67,7 +67,7 @@ Ek olarak, [Satınalma siparişi talebi toplu işini](#po-batch) ayarlamanız ge
 - Bir satıcının, bir talepten oluşturulan tüm yeni satınalma siparişleri için cXML 'yi otomatik olarak kullanmasını sağlayacak şekilde ayarlamak için, **Satın alma ve kaynak hizmeti \> Satıcılar \> Tüm Satıcılar** sayfasına gidin ve ayrıntılar sayfasını açmak için satıcı seçin veya oluşturun. Ardından, **Satınalma siparişi varsayılanları** hızlı sekmesinde, **Satınalma siparişini cXML üzerinden gönder** seçeneğini _Evet_ olarak ayarlayın. cXML bir talepten **oluşturulmamış** yeni satınalma siparişleri için otomatik olarak kullanılıyorsa, bu konuda daha sonraki [Sipariş özelliklerini ayarlama](#set-order-properties) bölümünde açıklandığı **ENABLEMANUALPO** sipariş özelliği ilgili harici kataloglar için _True_ olarak ayarlanmalıdır.
 - Tek tek satınalma siparişleri için, **Satın alma ve kaynak hizmeti \> Satınalma siparişi \> Tüm satınalma siparişleri** sayfasına gidin ve ayrıntılar sayfasını açmak için bir satınalma siparişi seçin veya oluşturun. **Üst bilgi** görünümüne geçin ve **Kurulum** hızlı sekmesinde, **Satınalma siparişini cXML ile gönder** seçeneğini kullanarak ayarlayın.
 
-![Satıcı satınalma siparişleri için varsayılan ayarlar](media/cxml-order-defaults.png "Satıcı satınalma siparişleri için varsayılan ayarlar")
+![Satıcı satınalma siparişleri için varsayılan ayarlar.](media/cxml-order-defaults.png "Satıcı satınalma siparişleri için varsayılan ayarlar")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>cXML kullanmak için harici bir katalog ayarlama
 
@@ -76,7 +76,7 @@ Ek olarak, [Satınalma siparişi talebi toplu işini](#po-batch) ayarlamanız ge
 > [!NOTE]
 > cXML üzerinden gönderilebilecek bir satınalma siparişini teyit ettiğinizde, sistem satınalma siparişiyle ilişkilendirilmiş olan satıcıyı arar ve o satıcıyla ilişkilendirilmiş olan ilk etkin harici kataloğu bulur. Sistem daha sonra satınalma siparişi göndermek için o harici katalogdaki ayarları kullanır. Birden fazla harici katalog ayarlandıysa, sistem satınalma siparişindeki satıcıyı temel alarak bulduğu ilk harici kataloğu kullanır. Bu nedenle, her satıcı için yalnızca bir harici katalog oluşturmanız önerilir.
 
-![Harici katalog ayarları](media/cxml-supplier-catalog.png "Harici katalog ayarları")
+![Harici katalog ayarları.](media/cxml-supplier-catalog.png "Harici katalog ayarları")
 
 ### <a name="set-the-punchout-protocol-type"></a>PunchOut protokol türünü ayarlama
 
@@ -143,11 +143,11 @@ Harici kataloğunuz için tüm özellikleri ayarlamayı ve diğer ayarları yap�
 
 Sistemin bakacağı not tiplerini ayarlamak için, **Satın alma ve kaynak hizmeti \> Kurulum \> Formlar \> Form kurulumu** sayfasına gidin. Daha sonra, **Satınalma siparişi** sekmesinde, **Eklenecek belge türü** alanını, dahil etmek istediğiniz not tipine göre ayarlayın. Belge ekleri değil, yalnızca metin notları dahil edilir.
 
-![Form kurulum sayfası](media/cxml-form-setup.png "Form kurulum sayfası")
+![Form kurulum sayfası.](media/cxml-form-setup.png "Form kurulum sayfası")
 
 Bir satınalma siparişi yalnızca **Tür** alanları **Eklenecek belge türü** alanında seçtiğiniz değere ayarlanmışsa ve **Sınırlama** alanları _Harici_ olarak ayarlanmışsa, ekler bir satınalma siparişine dahil edilir. Bir satınalma siparişi için ekler oluşturmak, görüntülemek veya düzenlemek için, **Satın alma ve kaynak hizmeti \> Tüm satınalma siparişleri** sayfasına gidin satınalma siparişi seçin veya oluşturun, sonra sağ üst köşedeki **Ekler** düğmesini (ataş simgesi) seçin.
 
-![Satıcıya gönderilmek üzere ayarlanan iliştirilmiş not](media/cxml-note-to-vendor.png "Satıcıya gönderilmek üzere ayarlanan iliştirilmiş not")
+![Satıcıya gönderilmek üzere ayarlanan iliştirilmiş not.](media/cxml-note-to-vendor.png "Satıcıya gönderilmek üzere ayarlanan iliştirilmiş not")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Harici katalog PunchOut işlemi için cXML sepeti ileti günlüğünü görüntüleme
 
@@ -155,7 +155,7 @@ Bir harici katalog için **Punchout protokol türü** alanını _cXML_ olarak ay
 
 Harici bir kataloğun günlüğünü açmak için ilgili kataloğu seçin ve Eylem Bölmesi'nde, **cXML sepet ileti günlüğü** sepetini seçin. **cXML sepet iletisi günlüğü** sayfası iade edilmiş sepetlerin listesini, bu sepetlerle ilgili XML'i ve ilgili satınalma talebinde oluşturulan satırları gösterir.
 
-![cXML sepeti ileti günlükleri sayfası](media/cxml-cart-message-log.png "cXML sepeti ileti günlükleri sayfası")
+![cXML sepeti ileti günlükleri sayfası.](media/cxml-cart-message-log.png "cXML sepeti ileti günlükleri sayfası")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Harici katalog PunchOut işlemi için ikincil öğeleri ayarlama
 
@@ -178,21 +178,21 @@ Bir harici kataloğa ikincil öğeler eklemek için, aşağıdaki adımları izl
         - **Soyadı**: Harici kataloğa erişen kullanıcıyla ilişkili ilgili kişinin soyadını kullanın.
         - **Telefon numarası**: Harici kataloğa erişen kullanıcıyla ilişkili ilgili kişinin birincil telefon numarasını kullanın.
 
-![Extrinsic öğesi ayarları](media/cxml-extrinsics.png "Extrinsic öğesi ayarları")
+![Extrinsic öğesi ayarları.](media/cxml-extrinsics.png "Extrinsic öğesi ayarları")
 
 Kullanıcı veya yönetici, ikincil öğeleri göremez ve bu nedenle kullanıcının bir PunchOut işlemi yapana kadar eklenmezler. Bunlar, cXML kurulum isteği iletisindeki **BuyerCookie** ve **BrowserFromPost** öğeleri arasına otomatik olarak eklenecektir. Bu nedenle, harici kataloğu kurarken XML'de el ile kurmanız gerekmez.
 
-![XML'e eklenen extrinsic öğeler](media/cxml-extrinsics-xml.png "XML'e eklenen extrinsic öğeler")
+![XML'e eklenen extrinsic öğeleri.](media/cxml-extrinsics-xml.png "XML'e eklenen extrinsic öğeler")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Satınalma siparişi oluşturma ve işleme
 
 Bir satıcı için satınalma siparişi oluşturduğunuzda, bu satıcıdan alınan **cXML üzerinden satınalma siparişi gönder** seçeneğinin ayarını devralır. Ancak, ayar satınalma siparişinin **Üst bilgi** görünümündeki **Kurulum** hızlı sekmesinde kullanılabilir durumda kalır, böylece daha sonra gerektiği şekilde değişiklik yapabilirsiniz.
 
-![cXML kullanmak için ayarlanan satınalma siparişi](media/cxml-purchase-order.png "cXML kullanmak için ayarlanan satınalma siparişi")
+![cXML kullanmak için ayarlanan satınalma siparişi.](media/cxml-purchase-order.png "cXML kullanmak için ayarlanan satınalma siparişi")
 
 Bir PunchOut akışından gelen satınalma talebi içinden bir satınalma siparişi oluşturduğunuzda, gerekli tüm satır ayrıntıları doldurulacaktır. Böylece, satınalma sipariş satırlarını el ile ekleyebilir veya diğer satınalma siparişlerinden kopyalayabilirsiniz. Gerekli tüm alanları ayarladığınızdan emin olun. Gerekli bu alanlar, cXML iletisinde kullanılacak satıcı numarası olan harici referans numarasını içerir.
 
-![Harici referans numarası örneği](media/cxml-line-details.png "Harici referans numarası örneği")
+![Harici referans numarası örneği.](media/cxml-line-details.png "Harici referans numarası örneği")
 
 Satınalma siparişi için tüm ayrıntıları doldurmayı bitirdiğinizde, onayladığınızdan emin olun. Satınalma siparişi onaylanmadıkça hiçbir ileti gönderilmez. Eylem Bölmesi'nde, **Satınalma** sekmesinde, **Eylemler** grubunda, satınalma siparişini onaylamak için **Onayla**'yı seçin. 
 
@@ -200,17 +200,17 @@ Satınalma siparişi onaylandıktan sonra, **Satınalma siparişi onayları** g�
 
 Her satınalma siparişinde birçok onay olabilir. Her onay, artan bir sayıyla işaretlenmiştir. Aşağıdaki çizimde, satınalma siparişi *00000275*, onay ise *00000275-1* ile işaretlenmiştir. Bu numaralandırma, bir satınalma siparişindeki değişikliklerin bulunduğu standart Supply Chain Management işlevini yansıtır ve bu nedenle satıcıya gönderilmesi gereken cXML iletisi türü onayı temel alarak tanımlanır. Çizimin gösterdiği gibi, **Satınalma siparişi onayları** sayfası **Sipariş gönderme durumu** ve **Sipariş isteği satıcı durumu** alanlarını da içerir. Bu sayfada görebileceğiniz çeşitli durum değerleri hakkında daha fazla bilgi için, bu konunun ilerleyen kısımlarında [Satın alma siparişi taleplerini izleme](#monitor-po-requests) bölümüne bakın.
 
-![Satınalma sipariş onayları sayfası](media/cxml-po-confirmations.png "Satınalma sipariş onayları sayfası")
+![Satınalma sipariş onayları sayfası.](media/cxml-po-confirmations.png "Satınalma sipariş onayları sayfası")
 
 Belgeyle ilgili daha fazla bilgi görüntülemek için kılavuzun üzerindeki **Satınalma siparişi talebi** öğesini seçin.
 
 **Satınalma siparişi talebi** sayfası iki kılavuz içerir. Sayfanın üst kısmındaki kılavuzda, gönderilmek üzere işaretlenmiş her satınalma siparişi için bir kayıt vardır. Sayfanın alt kısmındaki **Satınalma siparişi talep geçmişi** sekmesinde bulunan kılavuz, her bir onayın durumunu göstermek üzere seçili satınalma siparişi için birkaç kayda sahip olabilir. Aşağıdaki şekilde, üst kılavuzda 00000275 numaralı satınalma siparişi ile **Satınalma siparişi talep geçmişi** sekmesindeki kılavuzda 00000275-1 numaralı belge gösterilir.
 
-![Satınalma sipariş talebi sayfası](media/cxml-po-request.png "Satınalma sipariş talebi sayfası")
+![Satınalma sipariş talebi sayfası.](media/cxml-po-request.png "Satınalma sipariş talebi sayfası")
 
 Toplu iş ayarlandıysa ve çalışıyorsa, belge gönderilir. Durum değişikliğini belge gönderildikten sonra görüntüleyebilirsiniz. Aşağıdaki çizimde, **Sipariş gönderme durumu** alanı _Gönderildi_ olarak ayarlanır. Satıcının belgeyi teslim aldığını ve bunu okuyup kendi sisteminde depolayabildiğini belirtmek için **Sipariş talebi satıcı durumu** alanı _Kabul edildi_ olarak ayarlanır. **Satınalma siparişi talebi geçmişi** sekmesindeki kılavuz belgenin gönderildiği saati gösterir. Bu sayfada görebileceğiniz çeşitli durum değerleri hakkında daha fazla bilgi için, [Satın alma siparişi taleplerini izleme](#monitor-po-requests) bölümüne bakın.
 
-![Satınalma siparişi talebi sayfasındaki durum iletileri](media/cxml-po-request-2.png "Satınalma siparişi talebi sayfasındaki durum iletileri")
+![Satınalma siparişi talebi sayfasındaki durum iletileri.](media/cxml-po-request-2.png "Satınalma siparişi talebi sayfasındaki durum iletileri")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Satınalma siparişi talebi toplu işini planlama
 
@@ -226,7 +226,7 @@ Satınalma siparişi talepleri göndermek üzere toplu işlemi etkinleştirmek i
 
 cXML aracılığıyla gönderilebilecek siparişler onaylandıklarında, _Bekleme_ durumuna geçer. [Satınalma siparişi oluştur ve işle](#create-po) bölümünde belirtildiği gibi **Satınalma siparişi talebi** sayfasında satınalma sipariş durumunu görüntüleyebilirsiniz. Her satınalma siparişi talebi, parametrelerine ve verilerine bağlı olarak çeşitli durumlardan birini içerebilir. Bu bölümde, çeşitli durum türleri ve bunların sahip olacakları değerler açıklanmıştır. Bu bilgiler, sorunları yönetmenize ve satınalma siparişlerinizin durumunu anlamanıza yardımcı olabilir.
 
-![Satınalma siparişi talebi sayfasındaki satınalma siparişi durumu iletileri](media/cxml-monitor-po-request.png "Satınalma siparişi talebi sayfasındaki satınalma siparişi durumu iletileri")
+![Satınalma siparişi talebi sayfasındaki satınalma siparişi durumu iletileri.](media/cxml-monitor-po-request.png "Satınalma siparişi talebi sayfasındaki satınalma siparişi durumu iletileri")
 
 **Satınalma siparişi talebi** sayfasının üst kısmındaki kılavuz, aşağıdaki durum değerlerini gösterebilir:
 
@@ -262,17 +262,17 @@ cXML aracılığıyla gönderilebilecek siparişler onaylandıklarında, _Beklem
 
 Satınalma siparişi talebi iletisi için XML'yi görüntülemek üzere, **Satınalma siparişi talebi** sayfasının alt kısmında **Talep XML metni** sekmesini seçin. Bu sekmedeki bilgiler test veya hata doğrulaması sırasında yararlı olabilir. Bilgilerin daha kolay okunmasını sağlamak için onu biçimlendirilmiş bir ileti olarak görüntüleyebilirsiniz. Sekmenin içeriğini bir metin dosyasına kopyalayın ve sonra bir XML düzenleyicisinde görüntüleyin.
 
-![Talep XML metni sekmesi](media/cxml-request-xml-text.png "Talep XML metni sekmesi")
+![Talep XML metni sekmesi.](media/cxml-request-xml-text.png "Talep XML metni sekmesi")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Satıcı yanıtlarının detaylarını görüntüleme
 
 Satıcı onay veya hata yanıtının içeriğini görüntülemek için, **Satınalma siparişi talebi** sayfasının altındaki **Yanıt XML** sekmesini seçin.
 
-![Yanıt XML'si sekmesi](media/cxml-response-xml.png "Yanıt XML'si sekmesi")
+![Yanıt XML'si sekmesi.](media/cxml-response-xml.png "Yanıt XML'si sekmesi")
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-- [PunchOut e-procurement için harici katalog ayarlama](set-up-external-catalog-for-punchout.md)
+- [PunchOut e-tedariki için harici katalog ayarlama](set-up-external-catalog-for-punchout.md)
 - [PunchOut e-procurement için harici katalogları kullanma](use-external-catalogs-for-punchout.md)
 
 

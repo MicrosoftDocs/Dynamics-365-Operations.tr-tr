@@ -12,22 +12,22 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 605792bdc82a311fff9f7f4b8945ca5dde172c54
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 168927e37344a1e6f76490aff32473fd82754c59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5642177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354653"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Dynamics 365 Commerce öğrenme kataloğu 
 
 Dynamics 365 Commerce uygulamalarının bir kullanıcısı olarak rolünüz için doğru çevrimiçi eğitimi, kişi workshops ve olayları bulun.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>İş ve Teknik Karar Vericiler
 

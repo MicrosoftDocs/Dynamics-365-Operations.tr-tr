@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b112bb453e0840120c63038bf8d6897fbf5ff288
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 637d8d211f59711aafe9357dcd48d48f861f722d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798765"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353120"
 ---
 # <a name="navigation-menu-module"></a>Gezinti menüsü modülleri
 
@@ -33,7 +33,7 @@ Gezinti menüsü modüllerinin başlıca amacı, site kullanıcılarının Dynam
 Gezinti menüsü modülü bir sayfanın üst bilgi modülüne eklenebilir. Fabrikam temasında, gezinti menüsü varsayılan olarak iki düzey gösterir. Starter temasında, gezinti menüsü varsayılan olarak üç düzey gösterir. Düzey sayısını değiştirmek için temada bir görünüm uzantısı gereklidir.
 
 Aşağıdaki çizimde, iki düzey kategori hiyerarşisi ve bazı statik menü öğeleri bulunan Fabrikam sitesi için bir gezinti menüsü örneği gösterilmektedir.
-![Gezinti menüsü modülü örneği](./media/ecommerce-header.png)
+![Gezinti menüsü modülü örneği.](./media/ecommerce-header.png)
 
 ## <a name="navigation-menu-module-properties"></a>Gezinti menüsü modüllerinin özellikleri
 
@@ -50,7 +50,7 @@ Aşağıdaki çizimde, iki düzey kategori hiyerarşisi ve bazı statik menü ö
 | Kök menü | dize | Bu özellik, **kök menüyü göster** özelliği **true** olarak ayarlandığında özel bir köke ait metni tanımlamak için kullanılabilir. |
 
 Aşağıdaki çizimde, Fabrikam sitesinin gezinti menüsünde görüntülenen kategori resmi örneği gösterilmektedir.
-![Kategori resimlerine sahip bir gezinti menüsü modülü örneği](./media/ecommerce-categoryimages.PNG)
+![Kategori resimlerine sahip bir gezinti menüsü modülü örneği.](./media/ecommerce-categoryimages.PNG)
 
 ## <a name="add-a-navigation-menu-module-to-a-header-module"></a>Üstbilgi modülüne gezinti menüsü modülü ekleme
 

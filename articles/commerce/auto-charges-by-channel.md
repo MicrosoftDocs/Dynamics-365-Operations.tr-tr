@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349710"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kanala göre otomatik masrafları etkinleştirme ve yapılandırma
 
@@ -66,7 +66,7 @@ Commerce'ta bir kuruluş hiyerarşisi amacına varsayılan bir hiyerarşi atamak
 1. Eylem Bölmesinde **Şimdi çalıştır**'ı seçin.
 1. **1070** **(Kanal yapılandırması**) ve **1110** (**Genel yapılandırma**) işlerini çalıştırmak için önceki iki adımı tekrarlayın.
 
-![Perakende otomatik masraf kuruluşu hiyerarşi amacı yapılandırması](media/Auto-charges-org-hierarchy-purpose.png)
+![Perakende otomatik masraf kuruluşu hiyerarşi amacı yapılandırması.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Kanala göre otomatik masrafları tanımlama
 
@@ -86,7 +86,7 @@ Otomatik masrafları Commerce'ta kanala göre tanımlamak için aşağıdaki ad�
 1. Eylem Bölmesinde **Şimdi çalıştır**'ı seçin.
 1. **1070** **(Kanal yapılandırması**) ve **1110** (**Genel yapılandırma**) işlerini çalıştırmak için önceki iki adımı tekrarlayın.
     
-![Kanala göre tanımlanan otomatik masraflar](media/Auto-charges-line-charge-by-channel.png)
+![Kanala göre tanımlanan otomatik masraflar.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Örnek senaryo
 
@@ -94,7 +94,7 @@ Aşağıdaki örnekte, bir ürünü, ürün San Franscisco'daki bir fiziksel ma�
 
 Kuruluş, aşağıdaki çizimde gösterildiği gibi, **GERİ DÖNÜŞÜM** olarak adlandırılan bir masraf kodu tanımlar.
 
-![GERİ DÖNÜŞÜM masraf kodu](media/Auto-charges-charge-code.png)
+![GERİ DÖNÜŞÜM masraf kodu.](media/Auto-charges-charge-code.png)
 
 Satır düzeyinde otomatik masraf oluşturulur. Aşağıdaki yapılandırmaya sahiptir:
 
@@ -112,13 +112,13 @@ Otomatik masraf satırı oluşturulur. Aşağıdaki yapılandırmaya sahiptir:
 - **Kategori** alanı **Sabit** olarak ayarlanır.
 - **Masraf** alanı **6,25 $** olarak ayarlanır.
 
-![Satır düzeyi otomatik masraf ve otomatik masraflar satırı yapılandırması](media/Auto-charges-recyclingfee-line-fee.png)
+![Satır düzeyi otomatik masraf ve otomatik masraflar satırı yapılandırması.](media/Auto-charges-recyclingfee-line-fee.png)
 
 POS uygulamasında **San Francisco** mağaza kanalında bir satış siparişi oluşturulur. **Masraflar** satırı, **6,25 $** tutarındaki geri dönüşüm ücretini gösterir.
 
 POS uygulamasında **Hareket seçenekleri \> Masraflar \> Masrafları yönet**'i seçerek geri dönüşüm masrafına ait masraf kodunu ve açıklamayı görüntüleyebilirsiniz.
 
-![POS uygulamasındaki geri dönüşüm ücreti](media/pos-auto-charges-recyclingfee-line-fee.png)
+![POS uygulamasındaki geri dönüşüm ücreti.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748909"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350800"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Canlı eşitleme sorunlarını giderme
 
@@ -73,21 +73,21 @@ Her iki tarafta da veri varsa ve sorunun veriyle ilgili olmadığını doğrulam
 
 Bir Finance and Operations uygulamada veri oluşturduğunuzda, aşağıdaki örneğe benzer bir "Hatalı istek" hata iletisi alabilirsiniz.
 
-![Hatalı istek hata iletisi örneği](media/error_record_id_source.png)
+![Hatalı istek hata iletisi örneği.](media/error_record_id_source.png)
 
 Sorunu gidermek için, eksik ayrıcalığını etkinleştirmek amacıyla eşlenen Dynamics 365 Sales veya Dynamics 365 Customer Service departmanı ekibine doğru güvenlik rolünü atamanız gerekir.
 
 1. Finance and Operations uygulamada, veri tümleştirme bağlantısı kümesinde eşlenen iş birimini bulun.
 
-    ![Organizasyon eşleme](media/mapped_business_unit.png)
+    ![Organizasyon eşleme.](media/mapped_business_unit.png)
 
 2. Dynamics 365 model kullanan uygulamadaki ortama oturum açın, **Ayar \> Güvenlik** gidin ve eşlenen departmanın ekibini bulun.
 
-    ![Eşlenen departmanın ekibi](media/setting_security_page.png)
+    ![Eşlenen departmanın ekibi.](media/setting_security_page.png)
 
 3. Düzenleme için takıma ait sayfayı açın ve sonra **takım rollerini Yönet** iletişim kutusunu açmak için **rolleri Yönet**'i seçin.
 
-    ![Rolleri Yönet düğmesi](media/manage_team_roles.png)
+    ![Rolleri Yönet düğmesi.](media/manage_team_roles.png)
 
 4. İlgili tablolar için okuma/yazma ayrıcalığına sahip rolü atayın ve **Tamam**'ı seçin.
 

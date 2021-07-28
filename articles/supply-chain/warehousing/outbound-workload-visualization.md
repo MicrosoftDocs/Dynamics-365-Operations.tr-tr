@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810498"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351429"
 ---
 # <a name="outbound-workload-visualization"></a>Giden iş yükü görselleştirmesi
 
@@ -60,7 +60,7 @@ Bir giden iş yükü görselleştirmesi ayarlamak için aşağıdaki adımları 
     - **Dahil edilecek gün sayısı**: Grafiğin oluşturulması gereken geçmiş gün sayısını girin.
     - **İş emri türü**: Filtre uygulayacak giden iş emri türlerini seçin.
 
-    ![Filtreler sayfasını yapılandırma](media/work-viz-filters-1.png "Filtreler sayfasını yapılandırma")
+    ![Filtreler sayfasını yapılandırma.](media/work-viz-filters-1.png "Filtreler sayfasını yapılandırma")
 
 1. **Giden iş yükü görselleştirmeleri** sayfasına dönmek için **Filtreleri yapılandır** sayfasını kapatın.
 
@@ -70,11 +70,11 @@ Bir giden iş yükü görselleştirmesi ayarlamak için aşağıdaki adımları 
     - **Son yenilenme tarihi**: Bu alan, grafikteki bilgilerin en son güncelleştirildiği tarih ve saati gösterir.
     - **Tahmini/fiili süre**: Sisteminizde iş gücü standartları ayarlanmışsa grafikteki her sütunun üst kısmında bulunan toplu tahmini malzeme çekme sürelerini göstermek için bu seçeneği *Evet* olarak ayarlayın. İş gücü standartlarını kullanmıyorsanız bu seçenek kullanılamaz.
 
-    ![Örnek görselleştirme](media/work-viz-chart.png "Örnek görselleştirme")
+    ![Örnek görselleştirme.](media/work-viz-chart.png "Örnek görselleştirme")
 
 1. İlişkili iş satırı ayrıntılarını görüntülemek için grafikteki herhangi bir çubuğu seçin.
 
-    ![İş satırı ayrıntıları](media/work-viz-work-details.png "İş satırı ayrıntıları")
+    ![İş satırı ayrıntıları.](media/work-viz-work-details.png "İş satırı ayrıntıları")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Örnek: Bölgeler için giden iş yükü görselleştirmesi
 
@@ -92,7 +92,7 @@ Bu örnekte, her bölge için iş satırlarını ve her iş satırının durumun
 
 Aşağıdaki çizimde örnek bir sonuç grafik verilmektedir.
 
-![Bölge ve iş durumu görselleştirmesi](media/work-viz-chart.png "Bölge ve iş durumu görselleştirmesi")
+![Bölge ve iş durumu görselleştirmesi.](media/work-viz-chart.png "Bölge ve iş durumu görselleştirmesi")
 
 Bu grafik, **KAT** ve **TOPLU** adlı iki bölge ve **Boş** adlı bir bölge gösterir. **Boş** bölgesi, herhangi bir bölgenin üyesi olmayan tüm iş satırlarını temsil eder. Grafik, her zaman mümkün olduğunca çok görünürlük sağlamak için tüm alakasız filtrelenmiş verileri **Boş** olarak gösterir. **KAT** bölgesinde, grafik üç kapalı satır ve dört açık satır gösterir. **TOPLU** bölgesinde, grafik dört kapalı satır, bir açık satır ve 24 iptal edilmiş satır gösterir. Son olarak, grafik, herhangi bir bölgenin parçası olmayan ve bu nedenle **Boş** olarak listelenen sekiz kapalı satırı gösterir.
 

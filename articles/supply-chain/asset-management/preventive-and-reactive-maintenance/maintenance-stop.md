@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356500"
 ---
 # <a name="maintenance-downtime-activities"></a>Bakım kesinti süresi faaliyetleri
 
@@ -40,7 +40,7 @@ Bakım kesinti süresi kaydında varlıklar seçildiğinde etkin iş emirleriyle
 
 Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle ilgili bazı bilgileri görmek için **Varlık yönetimi** > **Genel** > **Bakım kesinti süresi faaliyetleri** > **Tüm bakım kesinti süresi faaliyetleri**'ne tıklayın. Ayrıntılar görünümünü açmak için **Bakım kesinti süresi faaliyetleri** sütunundaki bağlantıya tıklayın. Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** listesi örneği gösterilmektedir.
 
-![Şekil 1](media/19-preventive-maintenance.png)
+![Şekil 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Bakım kesinti süresi faaliyeti oluşturma
@@ -61,7 +61,7 @@ Tüm bakım kesinti süresi faaliyetlerinin listesini açmak ve faaliyetlerle il
 
 Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları görünümü örneği gösterilmektedir.
 
-![Şekil 2](media/20-preventive-maintenance.png)
+![Şekil 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Bakım kesinti süresi faaliyeti oluşturmanızın ardından yeni iş emirleri veya bakım zamanlaması satırları oluşturulursa seçilen varlıklarla ilgili iş emri bakım işleri ve bakım zamanlaması satırları otomatik olarak güncelleştirilir. Örneğin, bakım kesinti süresi faaliyetinin oluşturulmasından iki gün sonra varlıklarla ilgili bakım planları veya bakım sıraları zamanlarsanız yeni bakım zamanlaması satırları otomatik olarak bakım kesinti süresi faaliyetine eklenir.
@@ -72,7 +72,7 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 
 10. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam saat sayısı, **Kapasite yükü** özetinde gösterilir. **Kapasite yükü** sekmesi > **Gruplama ölçütü** Eylem Bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Kapasite yükü** hesaplamasının sonuçları gösterilmektedir.
 
-![Şekil 3](media/21-preventive-maintenance.png)
+![Şekil 3.](media/21-preventive-maintenance.png)
 
 11. Kapasite yükünün özetini edinmenizin ardından iş emri bakım işleri veya bakım zamanlaması satırlarında ayarlama yapmak isterseniz **Bakım kesinti süresi etkinlikleri** ayrıntıları özetine dönün ve **Oluşturulan iş emri bakım işleri** ve **Bakım zamanlaması satırları** hızlı sekmelerinde ayarlamak istediğiniz satırları seçin.
 
@@ -89,7 +89,7 @@ Aşağıdaki çizimde bir **Bakım kesinti süresi faaliyetleri** ayrıntıları
 
 16. Hesaplamayı başlatmak için **Tamam**'a tıklayın. Toplam madde tahmini sayısı, **Madde tahmini** özetinde gösterilir. **Madde tahmini** sekmesi > **Şunlara göre grupla...** Eylem Bölmesi gruplarında tahmini saatlerin tahsisatına dair daha ayrıntılı özet edinmek için ilgili düğmelere tıklayın. Aşağıdaki çizimde bir **Madde tahmini** hesaplamasının sonuçları gösterilmektedir.
 
-![Şekil 4](media/22-preventive-maintenance.png)
+![Şekil 4.](media/22-preventive-maintenance.png)
 
 - Varlıkları bir bakım kesinti süresi faaliyetinden diğerine kopyalayabilirsiniz. **Tüm bakım kesinti süresi faaliyetleri**'nde **Bakım kesinti süresi faaliyetlerini kopyala** düğmesini seçin ve **Bakım kesinti süresi faaliyetlerinden** ve **Bakım kesinti süresi faaliyetlerine** alanlarında seçimlerinizi yapıp **Tamam**'a tıklayın.
 - **Tüm bakım kesinti faaliyetleri**'nde ilgili listeleri açmak ve seçilen bakım kesinti süresi faaliyetiyle ilgili satırları görüntülemek için **Bakım zamanlaması satırları** düğmesine veya **Etkin iş emirleri** düğmesine tıklayın.

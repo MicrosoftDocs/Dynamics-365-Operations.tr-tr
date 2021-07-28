@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826774"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351696"
 ---
 # <a name="online-financial-consolidations"></a>Çevrimiçi mali konsolidasyonlar
 
@@ -31,7 +31,7 @@ Kurulumunuzu tamamladıktan sonra **Konsolide et [Çevrimiçi]** sayfasına kons
 ## <a name="criteria"></a>Ölçütler
 **Konsolide et [Çevrimiçi]** sayfasının **Ölçütler** sekmesinde, konsolide edilen hesapları, dönemleri ve veri türünü tanımlayın.
 
-![Ölçütler sekmesi](./media/criteria-consolidate-online.png "Ölçütler sekmesi")
+![Ölçütler sekmesi.](./media/criteria-consolidate-online.png "Ölçütler sekmesi")
 
 Bu sekmedeki çeşitli alanların açıklaması aşağıdaki gibidir:
 
@@ -57,16 +57,16 @@ Bu sekmedeki çeşitli alanların açıklaması aşağıdaki gibidir:
 ## <a name="financial-dimensions"></a>Mali boyutlar
 **Mali boyutlar** sekmesinde konsolidasyon şirketine dahil edilmesi gereken boyutları tanımlayın. Boyut seçmek için **Belirtim** alanını **Boyut** olarak ayarlayın ve ardından konsolidasyon şirketinde boyut düzenini tanımlayın.
 
-![Mali boyutlar sekmesi](./media/financial-dimensions-cons.png "Mali boyutlar sekmesi")
+![Mali boyutlar sekmesi.](./media/financial-dimensions-cons.png "Mali boyutlar sekmesi")
 
 Tanımladığınız düzenden bağımsız olarak **Ana hesap** her zaman ilk segment olur.
 
 ## <a name="legal-entities"></a>Tüzel kişilikler
 **Tüzel kişilikler** sekmesinde, konsolidasyon şirketine dahil edilmesi gereken şirketleri tanımlayın. Ayrıca bu şirketlerin sahiplik yüzdesini de tanımlayabilirsiniz. Yüzde 100'den az bir sahiplik yüzdesi belirtirseniz belirtilen yüzde konsolidasyon şirketinde toplanır. Dönüştürme farkları için **Dönüştürme farklarının hesap türü** alanı, **Otomatik hareketler için hesaplar** sayfasındaki kurulumdan ana hesabı seçmek üzere kullanılır.
 
-![Tüzel kişilikler sekmesi](./media/legal-entities-cons.png "Tüzel kişilikler sekmesi")
+![Tüzel kişilikler sekmesi.](./media/legal-entities-cons.png "Tüzel kişilikler sekmesi")
 
-![Otomatik hareketler için hesaplar sayfası](./media/accounts-for-automatic-cons.png "Otomatik hareketler için hesaplar sayfası")
+![Otomatik hareketler için hesaplar sayfası.](./media/accounts-for-automatic-cons.png "Otomatik hareketler için hesaplar sayfası")
 
 ## <a name="elimination"></a>Eleme
 **Eleme** sekmesinde, elemeleri işlemek üzere üç seçeneğiniz bulunmaktadır:
@@ -75,7 +75,7 @@ Tanımladığınız düzenden bağımsız olarak **Ana hesap** her zaman ilk seg
 - Eleme kuralını seçin ve ardından **Teklif seçenekleri** alanında **Yalnızca deftere naklet** seçeneğini belirleyin. Bu seçenek, konsolidasyon işlemi sırasında elemeyi işler ve her şeyi tek adımda deftere nakleder.
 - Eleme günlüğünü kullanılarak eleme teklifini konsolidasyon işleminden ayrı olarak çalıştırın.
 
-![Eleme sekmesi](./media/elimination-cons-onl.png "Eleme sekmesi")
+![Eleme sekmesi.](./media/elimination-cons-onl.png "Eleme sekmesi")
 
 Elemeler hakkında daha fazla bilgi için bkz. [Eleme kuralları](./elimination-rules.md).
 
@@ -86,7 +86,7 @@ Elemeler hakkında daha fazla bilgi için bkz. [Eleme kuralları](./elimination-
 - **Hareket tarihi**: Döviz kurunu seçmek için her hareketin tarihi kullanılır. Bu seçenek çoğunlukla sabit kıymetler için kullanılır ve çoğunlukla geçmiş oran olarak adlandırılır. Hesap sayfasında çeşitli hareketler için birçok oran bulunduğundan oranın önizlemesini göremezsiniz.
 - **Kullanıcı tanımlı oran**: Bu seçeneği belirledikten sonra istediğiniz döviz kurunu girebilirsiniz. Bu seçenek, ortalama döviz kurları için veya sabit döviz kuruna göre konsolidasyon işlemi yapıyorsanız yararlı olabilir.
 
-![Para birimi çevirme sekmesi](./media/currency-translation-cons-online.png "Para birimi çevirme sekmesi")
+![Para birimi çevirme sekmesi.](./media/currency-translation-cons-online.png "Para birimi çevirme sekmesi")
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 

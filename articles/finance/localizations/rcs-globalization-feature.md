@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7faa9a3cf6a29d8ed126cfcb0e2902b2016d03ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822793"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358158"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) - Küreselleşme özellikleri
 
@@ -53,9 +53,9 @@ Finance and Operations uygulamaları örneğiniz için aşağıdaki adımları i
 1. RCS örneğiniz üzerinde **Özellik yönetimi** kutucuğunu seçin.
 2. **Özellik Yönetimi** çalışma alanında, listeden **Genelleştirme özellikleri**'ni seçin ve **Şimdi etkinleştir**'i seçin.
 
-    ![Özellik yönetiminde Globalizasyon özellikleri](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Özellik yönetiminde Genelleştirme özellikleri.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
-## <a name="globalization-features"></a>Genelleştirme özellikleri
+## <a name="globalization-features"></a>Globalleştirme özellikleri
 
 Genelleştirme özelliğini kullanmak için, onu Global depodan içe aktarmanız ve kendi sürümünüzü oluşturmanız gerekir. Genelleştirme özellikleri eklemenin iki yolu vardır:
 
@@ -67,11 +67,11 @@ Genelleştirme özelliğini kullanmak için, onu Global depodan içe aktarmanız
 1. Bu konuda daha önce anlatıldığı gibi, özellik yönetiminde **Genelleştirme özellikleri** özelliğinin açık olduğundan emin olun.
 2. Yeni **Genelleştirme özellikleri** çalışma alanını açın ve sonra **Özellikler** altında **e-faturalama** döşemesini seçin.
 
-    ![Global Özellikler çalışma alanı](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Genel Özellikler çalışma alanı.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     **E-faturalama özellikleri** sayfası açılır.
 
-    ![e-faturalama özellikleri sayfası](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![e-faturalama özellikleri sayfası.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Türetilmiş Genelleştirme özelliği Ekle
 
@@ -79,27 +79,27 @@ Yeni bir Genelleştirme özelliğini, yayımlanmış veya paylaşılan varolan b
 
 1. **Genel havuz sayfasından içe aktarma özelliğini** açmak için **içe aktar**'ı seçin.
 
-    ![Özelliği genel havuz sayfasından içe aktar](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![Özelliği Genel depo sayfasından içe aktarma.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. En son özellikleri almak için **Eşitle** 'yi seçin.
 
     Eşitlenmiş liste, Microsoft tarafından yayımlandıkları veya başka bir konfigürasyon sağlayıcısı tarafından paylaşıldıklarından dolayı kullanabileceğiniz özellikleri içerir.
 
-    ![Eşitlenen özellik listesi](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Eşitlenen özellik listesi.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Listede içe aktarılacak özellikleri seçin ve **içe aktar**'ı seçin. Seçilen özellikler başarıyla içe aktarıldığında bir ileti alırsınız.
 
-    ![İleti içe aktarma başarılı](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![İleti içe aktarma başarılı.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. **Ekle**'yi seçin ve açılan iletişim kutusunda **varolan sürüme bağlı** seçeneğini belirleyin.
 5. Özellik için bir ad ve açıklama girin.
 6. Kullanılabilen özellikler listesinde, özelliğin temel sürümünü seçin ve sonra **Özellik Oluştur**'u seçin.
 
-    ![Türetilmiş özellik ekleme](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Türetilmiş özellik ekleme.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     Eklediğiniz Özellik oluşturuldu ve **taslak** durumuna sahip.
 
-    ![Taslak durumunda olan türetilmiş Özellik](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Taslak durumunda olan türetilmiş Özellik.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Güncelleştirmelerin gerekli olup olmadığını belirlemek için özellik bileşenlerini gözden geçirin:
 
@@ -120,7 +120,7 @@ Baştan oluşturarak yeni bir Genelleştirme özelliği ekleyebilirsiniz.
 2. Özellik için bir ad ve açıklama girin.
 3. **Özellik oluştur**'u seçin.
 
-    ![Yeni özellik ekleme](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Yeni özellik ekleme.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. **Sürümler** sekmesinde, **geçerlilik tarihi** seçin ve sonra da özelliği tamamlamak için **durumu değiştir**'i seçin. Tamamlanmış özellikler belirli bir ortam için kullanılabilir duruma getirilebilir, böylece Genelleştirme hizmetlerinde kullanılabilir veya Global havuzda yayımlanabilir.
 
@@ -176,7 +176,7 @@ Yapılandırmalar için şu eylemler mevcuttur:
     - Uygulanabilirlik kuralları
     - Değişkenler
 
-![Özellik sürümü kurulum sayfası](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![Özellik sürümü kurulum sayfası.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Ortamlar
 
@@ -193,7 +193,7 @@ Bir Genelleştirme özelliğini harici bir kuruluşla paylaşmak için bu adıml
 2. **Kuruluşlar** sekmesinde **Paylaş**'ı seçin ve açılan iletişim kutusunda kuruluşun etki alanı adını girin.
 3. **Paylaş**'ı seçin.
 
-    ![Bir kuruluşla özelliği paylaşma](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Bir kuruluşla özelliği paylaşma.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 Özellik, seçili kuruluşla paylaşılır ve Genel depodaki bu kuruluş tarafından kullanılabilir. Buradan, özellik kuruluşun RCS örneğine veya Dynamics 365 Finance'e kullanılabilmesi için içe aktarılabilir.
 
@@ -201,7 +201,7 @@ Bir Genelleştirme özelliğini harici bir kuruluşla paylaşmak için bu adıml
 
 Türetilmiş Genelleştirme özelliğini yeni veya güncelleştirilmiş temel özellik sürümüne yeniden temellendirerek oluşturabilirsiniz. Bu şekilde, temel sürümde gerçekleşen değişiklikler otomatik olarak güncelleştirilebilir. Güncelleştirilmiş temel özellik sürümü kaynak konfigürasyon sağlayıcısı tarafından oluşturulur ve daha sonra yayımlanır veya paylaşılıyor.
 
-![Temel özellik sürümü güncelleştirildi](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Temel özellik sürümü güncelleştirildi.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Örneğin, oluşturduğunuz bir özelliğin türetilmiş sürümünü yeniden temellendirmek istiyorsanız, önce genel depodan içe aktararak özelliğin en son sürümünü alırsınız.
 
@@ -209,23 +209,23 @@ Türetilmiş Genelleştirme özelliğini yeni veya güncelleştirilmiş temel ö
 2. En son özellikleri almak için **Eşitle** 'yi seçin.
 3. Özellikler listesinde içe aktarılacak özellikleri seçin ve **içe aktar**'ı seçin.
 
-    ![Bir özelliğin en son sürümünü içe aktarma](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![Bir özelliğin en son sürümünü içe aktarma.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Özellik listesinde, yeniden temellendirme özelliğini seçin.
 5. **Sürüm** sekmesinde, taslak sürümünü oluşturmak için **yeni**'yi seçin.
 
-    ![Yeni taslak sürümü oluşturuldu](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Yeni taslak sürümü oluşturuldu.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. **Yeniden temellendirme** seçin.
 7. **Yeniden temellendirme** iletişim kutusunda, tekrar temellendirgitmek için özelliğin en son sürümünü seçin.
 
-    ![Yeniden temellendirme iletişim kutusu](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Yeniden temellendirme iletişim kutusu.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. **Tamam**'ı seçin.
 9. Özellik bileşenlerini gözden geçirin ve gerekli değişiklikleri yapın.
 10. Yeniden temellendirilen özelliği tamamlamak için **durumu değiştir**'i seçin. Yeniden temellendirme tamamlandığı zaman ek eylemler gerçekleştirebilirsiniz. Örneğin, özelliği yayımlayabilir ve genelleştirme hizmetlerinde kullanılabilir hale getirebilirsiniz.
 
-    ![Özellik durumu tamamlandı olarak güncelleştirildi](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Özellik durumu Tamamlandı olarak güncelleştirildi.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Genelleştirme özellikleri için ortamları konfigüre etme
 
@@ -233,13 +233,13 @@ Genelleştirme hizmetlerinin kullanıcıları, bir Genelleştirme özelliği aya
 
 1. **Genelleştirme özellikleri** çalışma alanında ve sonra **Ortamlar** altında **e-faturalama** döşemesini seçin.
 
-    ![Globalizasyon Özellikler çalışma alanı](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Genelleştirme Özellikleri çalışma alanı.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. **Anahtar kasa parametrelerini** seçin ve sonra bir Azure anahtar kasa parolası oluşturmak için **yeni** 'yi seçin.
 3. Anahtar Kasası için bir ad ve açıklama girin ve sonra **anahtar kasa URI** alanına Azure 'Da anahtar kasa kaynağını tanımlayan URL 'yi girin.
 4. **Sertifikalar** hızlı sekmesinde, sertifikayı eklemek için **Ekle**'yi seçin ve her bir sertifika için bir ad ve açıklama girin.
 
-    ![Sertifika eklendi](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Sertifika eklendi.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Yeni bir ortam oluşturmak için **Yeni**'yi seçin.
 6. Depolama için gereken bir ad, açıklama ve paylaşılan erişim imza belirteci gizli girin.
@@ -248,7 +248,7 @@ Genelleştirme hizmetlerinin kullanıcıları, bir Genelleştirme özelliği aya
 9. Daha fazla kullanıcı eklemek için 7 - 8 arasındaki adımları tekrarlayın.
 10. Ortamı yayımlamak için **Yayımla**'yı seçin.
 
-    ![Yayımlanan ortam](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Yayımlanan ortam.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352168"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>POS'ta müşteri siparişi teslim alımını işleme
 
@@ -32,7 +32,7 @@ Mağaza kullanıcısıysanız **Siparişi geri çağır** işlemini veya POS'tak
 
 Seçili sipariş veya sipariş satırları belirli bir mağazada teslim alım için yapılandırılmamışsa veya sipariş zaten tamamen teslim alınmışsa **Teslim alma** işlemi kullanılamaz.
 
-![Teslim alma işlemi](media/pickupoperation.png)
+![Teslim alma işlemi.](media/pickupoperation.png)
 
 Microsoft Dynamics 365 Commerce 10.0.17 ve sonraki sürümlerinde, **Satış Noktasında teslim alma siparişi işleme için geliştirilmiş kullanıcı deneyimi**, Commerce Headquarters'daki Özellik yönetimi üzerinden açılabilir. Bu özellik kapalıysa, kullanıcılar teslim alım miktarlarını seçemez. Varsayılan olarak, satır için sipariş edilen tam miktar, teslim alınacak miktardır. Bu deneyim sorunlu olabilir çünkü kullanıcılar sipariş karşılama yoluyla teslim alma işlemi gerçekleştirirken teslim alım için bazı maddeleri seçmeyi unutabilirler.
 
@@ -40,13 +40,13 @@ Microsoft Dynamics 365 Commerce 10.0.17 ve sonraki sürümlerinde, **Satış Nok
 
 **Satış Noktası'nda teslim alma siparişi işleme için geliştirilmiş kullanıcı deneyimi** özelliği açıldığında ve **Teslim al** işlemini seçtiğinizde, **Teslim al** iletişim kutusu görüntülenir. Burada, teslim alınacak maddeleri ve miktarları seçebilirsiniz. Varsayılan olarak, teslim alındı veya paketlendi durumda stoku olan sipariş edilmiş herhangi bir miktar, teslim alım için uygun kabul edilir. Varsayılan olarak, bu miktar teslim alma miktarı olarak ayarlanır. Miktarın 0 (sıfır) olmaması ve seçili satır için toplam açık (yani, faturalanmamış) miktarı aşmaması koşuluyla, girilen miktarı değiştirebilirsiniz.
 
-![Teslim al iletişim kutusu](media/pickupselect.png)
+![Teslim al iletişim kutusu.](media/pickupselect.png)
 
 Teslim alınacak miktarları seçtikten sonra **Teslim al**'ı seçtiğinizde hareket sayfası görüntülenir. [Çok yönlü kanal ödemeleri](omni-channel-payments.md) özelliği açıksa ve önceden yetkilendirilmiş kredi kartı ödemeleri varsa ödemeyi uygulamanız gerekir.
 
 Hareket sayfasında, sistem seçilen satın alma maddeleri için ödenmesi gereken toplamı hesaplayarak ve daha önce uygulanan para yatırmaları veya yetkili kredi kartı ödemelerini çıkararak vadesi gelen tutarları hesaplar. Teslim alma hareketini tamamlamak için ödemeyi işlemeniz gerekir. Hareket sayfasının [ekran düzeni](pos-screen-layouts.md) **Hareketi sonlandır** işlemini de kapsayacak şekilde yapılandırılmışsa ve borç miktarı yoksa, bir ödeme yöntemi seçmeden hareketi tamamlayabilirsiniz. **Hareketi sonlandır** işlemi kullanılamıyorsa, bir ödeme yöntemi seçmek zorunda kalmadan hareketi sonuçlandırmak için **Toplamlar** bölmesinde **Borç tutarı: 0,00 TL** bağlantısını seçebilirsiniz.
 
-![Müşteri siparişi teslim alma hareketi için hareket sayfası](media/pickupcart.png)
+![Müşteri siparişi teslim alma hareketi için hareket sayfası.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Teslim alma satırlarını veya miktarlarını değiştirme
 
@@ -54,7 +54,7 @@ Teslim alınacak maddeleri seçtikten sonra teslim alma miktarını değiştirme
 
 **Satış Noktası'nda teslim alma siparişi işleme için geliştirilmiş kullanıcı deneyimi** özelliği açıksa kuruluşlar hareket sayfasının ekran düzenine **Teslim alma satırlarını değiştir** işlemi için bir düğme ekleyebilir. POS'ta teslim alma hareketi sepetini oluşturup maddeleri seçtikten sonra, teslim alma maddelerini değiştirmeniz gerekiyorsa ancak tüm hareketi geçersiz kılmak istemiyorsanız **Teslim alma satırlarını değiştir**'i seçebilirsiniz. Görüntülenen **Teslim alma satırlarını değiştir** iletişim kutusunda, teslim alma maddelerini ve miktarlarını değiştirebilirsiniz. İşlem sepeti daha sonra değişikliklerinizi yansıtacak şekilde güncelleştirilir.
 
-![Teslim alma maddelerini değiştir iletişim kutusu](media/pickupchange.png)
+![Teslim alma maddelerini değiştir iletişim kutusu.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

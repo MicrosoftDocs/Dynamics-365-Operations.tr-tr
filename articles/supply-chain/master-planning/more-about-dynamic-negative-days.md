@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097246"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354749"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatif günler ve dinamik negatif günler
 
@@ -43,7 +43,7 @@ Bu konu, bu bilgileri anlamanıza yardımcı olması için üç kuramsal senaryo
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
-![Senaryo 1'in grafik görünümü](./media/negative-days-1.jpg)
+![Senaryo 1'in grafik görünümü.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Olay A: Negatif günler maddenin sağlama süresinden daha küçüktür
 
@@ -51,11 +51,11 @@ Negatif günleri maddenin sağlama süresinden daha az olan bir sayıya ayarlars
 
 Aşağıdaki resim bu olayın ekran görüntüsünü gösterir.
 
-![Olay A senaryo 1 için ekran görüntüsü](./media/negative-days-2.png)
+![Senaryo 1 için olay A'nın ekran görüntüsü.](./media/negative-days-2.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay A senaryo 1 için grafik görünümü](./media/negative-days-3.png)
+![Senaryo 1 için Olay A'nın grafik görünümü.](./media/negative-days-3.png)
 
 MRP performansı ve planlama tedirginliğini dikkate alırsanız bu olay iyi sonuç vermez. MRP yeni bir planlı sipariş oluşturmalı ve gecikmeleri ve eylemleri hesaplamalıdır. Bu görevler zaman alabilir. Bu olay, planınıza daha fazla hareket de ekler. Diğer taraftan, satış siparişi yedi gün değil, yalnızca altı gün gecikir.
 
@@ -73,11 +73,11 @@ Dinamik negatif günler zaman dilimi = Satınalma sağlama süresi + Negatif gü
 
 Dinamik negatif günler kullanıldığında, MRP'nin girişler için aradığı zaman dilimi şimdi 6 + 2 + 0 = 8 gündür. MRP varolan satınalma siparişini bulur ve satış siparişini buna göre ilişkilendirir. Yeni planlı siparişler oluşturulmaz. Bu nedenle, MRP için çalışma süresi daha kısadır. Aşağıdaki şekil, DemoProduct maddesiyle ilgili net gereksinimleri gösterir.
 
-![Senaryo 1 C olayı için net gereksinimler](./media/negative-days-4.png)
+![Senaryo 1 Olay C için net gereksinimler.](./media/negative-days-4.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay C senaryo 1 için grafik görünümü](./media/negative-days-5.png)
+![Senaryo 1 olay C'nin grafik görünümü.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Olay D: Yalnızca dinamik negatif günleri kullan
 
@@ -85,11 +85,11 @@ Negatif günleri **0**'a (sıfır) ayarlarsanız ve yalnızca dinamik negatif g�
 
 Aşağıdaki resim bu olay için ekran görüntüsünü gösterir.
 
-![Olay D senaryo 1 için ekran görüntüsü](./media/negative-days-6.png)
+![Senaryo 1 Olay D'nin ekran görüntüsü.](./media/negative-days-6.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay D senaryo 1 için grafik görünümü](./media/negative-days-7.png)
+![Senaryo 1 Olay D'nin grafik görünümü.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Olay E: Hem maddenin teslim süresinden daha fazla olan negatif günleri hem de dinamik negatif günlerin zaman dilimlerini kullanın
 
@@ -106,7 +106,7 @@ Maddenin sağlama süresi boyunca bir süre talep alabilirsiniz. Bu senaryoya bi
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
-![Senaryo 2'in grafik görünümü](./media/negative-days-8.png)
+![Senaryo 2'nin grafik görünümü.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Olay A: Negatif günler maddenin sağlama süresinden daha küçüktür
 
@@ -114,11 +114,11 @@ Negatif günleri maddenin sağlama süresinden daha az olan bir sayıya ayarlars
 
 Aşağıdaki resim bu olay için ekran görüntüsünü gösterir.
 
-![Olay A senaryo 2 için ekran görüntüsü](./media/negative-days-9.png)
+![Senaryo 2 için olay A'nın ekran görüntüsü.](./media/negative-days-9.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay A senaryo 2 için grafik görünümü](./media/negative-days-10.png)
+![Senaryo 2 için Olay A'nın grafik görünümü.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Olay B: Negatif günler maddenin sağlama süresinden daha büyüktür
 
@@ -130,11 +130,11 @@ Bu olay Senaryo 1 için olay C'ye benzer, çünkü dinamik negatif günler de o 
 
 Aşağıdaki resim bu olayın ekran görüntüsünü gösterir.
 
-![Olay C senaryo 2 için ekran görüntüsü](./media/negative-days-11.png)
+![Senaryo 2 olay C'nin ekran görüntüsü.](./media/negative-days-11.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay C senaryo 2 için grafik görünümü](./media/negative-days-12.png)
+![Senaryo 2 olay C'nin grafik görünümü.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Olay D: Yalnızca dinamik negatif günleri kullan
 
@@ -155,7 +155,7 @@ Maddenin sağlama süresinden sonra talep alabilirsiniz. Bu senaryoya bir örnek
 
 Aşağıdaki çizim, bu senaryonun grafiksel bir görünümünü göstermektedir.
 
-![Senaryo 3'in grafik görünümü](./media/negative-days-13.png)
+![Senaryo 3'nin grafik görünümü.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Olay A: Negatif günler maddenin sağlama süresinden daha küçüktür
 
@@ -163,11 +163,11 @@ Negatif günleri maddenin sağlama süresinden daha düşük bir sayıya ayarlar
 
 Aşağıdaki resim bu olayın ekran görüntüsünü gösterir.
 
-![Olay A senaryo 3 için ekran görüntüsü](./media/negative-days-14.png)
+![Senaryo 3 için olay A'nın ekran görüntüsü.](./media/negative-days-14.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay A senaryo 3 için grafik görünümü](./media/negative-days-15.png)
+![Senaryo 3 için Olay A'nın grafik görünümü.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Önceki ekran görüntüsünde, satınalma siparişinin gereksinim tarihi 12 Ocak'tır. Bu ekran görüntüsü 2015 tarihinde çekildiği için, 11 Ocak Pazar günü olan MRP, gereksinim tarihini 12 Ocak Pazartesi olan bir sonraki çalışma gününe taşındı. Bununla birlikte, satınalma siparişinin teslim tarihi 11 Ocak'tır.
@@ -178,11 +178,11 @@ Negatif günleri maddenin sağlama süresine göre daha büyük bir sayıya ayar
 
 Aşağıdaki resim bu olayın ekran görüntüsünü gösterir.
 
-![Olay B senaryo 3 için ekran görüntüsü](./media/negative-days-16.png)
+![Senaryo 3 olay B'nin ekran görüntüsü.](./media/negative-days-16.png)
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay B senaryo 3 için grafik görünümü](./media/negative-days-17.png)
+![Senaryo 3 olay B'nin grafik görünümü.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Olay C: Maddenin teslimat süresini otomatik olarak negatif gün zaman dilimi ile ilişkilendirme
 
@@ -192,7 +192,7 @@ Dinamik negatif günler zaman dilimi 6 + 2 – 7 = 1 gündür. Ancak, bu olayda,
 
 Aşağıdaki çizim, bu olayda ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Olay C senaryo 3 için grafik görünümü](./media/negative-days-18.png)
+![Senaryo 3 olay C'nin grafik görünümü.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Olay D: Yalnızca dinamik negatif günleri kullan
 
@@ -219,11 +219,11 @@ Negatif günleri uzun bir zaman dilimine ayarlamak ve sonra da eylem iletileriyl
 
 Aşağıdaki çizim, ne yaşandığının grafiksel bir görünümünü göstermektedir.
 
-![Örneğin grafik incelemesi](./media/negative-days-19.png)
+![Örneğin grafik incelemesi.](./media/negative-days-19.png)
 
 MRP aşağıdaki sonuçları verir.
 
-![Sonuçlar örneği 1](./media/negative-days-20.png)
+![Sonuçlar örneği 1.](./media/negative-days-20.png)
 
 Önceki ekran görüntüsünde, satış siparişi gereksinim tarihi 10 Ocak yerine 9 Ocak'tır. Bu ekran görüntüsü 2015 tarihinde çekildiği için, 10 Ocak Cumartesi günü olan MRP, gereksinim tarihini 9 Ocak Cuma olan bir önceki çalışma gününe taşındı.
 
@@ -233,7 +233,7 @@ Sonuçlar yanlış, ancak MRP'nin tüm gecikmeleri ve önerileri oluşturması g
 
 Negatif günleri maddenin sağlama süresine daha yakın bir sayıya kadar azaltırsanız ve dinamik negatif günler kullanırsanız, MRP aşağıdaki sonuçları verir.
 
-![Sonuçlar örneği 2](./media/negative-days-21.png)
+![Sonuçlar örneği 2.](./media/negative-days-21.png)
 
 MRP, ilk satış siparişine iliştirilmiş bir planlı sipariş oluşturur. Daha sonra, beklenildiği gibi, ikinci satış siparişi negatif günler ayarına göre varolan satınalma siparişine karşı iliştirilir. Bu planlama sonucu da doğrudur ve MRP için çalışma süresi daha kısa olabilir. Bu olayda, eylem iletileriyle nasıl çalışacağının anlaşılması ve bilinmesi gerekli değildir.
 

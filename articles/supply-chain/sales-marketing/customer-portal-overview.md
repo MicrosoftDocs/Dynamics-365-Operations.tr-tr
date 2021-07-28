@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907851"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353950"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management için Müşteri portalına genel bakış
 
@@ -63,7 +64,7 @@ Müşteri Portalı, Power Apps portal şablonu olarak sağlanır. Bunlar Power A
 
 [Çift yazma](/powerapps/maker/portals/overview), müşteri etkileşimi uygulamaları ile Finance and Operations uygulamaları arasında gerçek zamanlıya yakın etkileşim sağlayan hazır bir altyapı ürünüdür. Çift-yazma, Finance and Operations uygulamalar ve Microsoft Dataverse arasında çift yönlü tümleştirme sağlar. Bu nedenle, uygulamalar arasında tümleşik bir kullanıcı deneyimi sağlar. Müşteri portalı, çift yazma ile eşitlenen tablolara bağlıdır. Supply Chain Management'tan alınan verilerin Müşteri portalında gösterilebilmesi için uygun tüm tablolarda çift yazmanın etkinleştirilmiş olması gerekir.
 
-![Müşteri portalına bağımlılıklar](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
+![Müşteri portalı bağımlılıkları.](media/customer-portal-elements.png "Müşteri portalına bağımlılıklar")
 
 Müşteri Portalı, Supply Chain Management yüklemesinden veri kullanan dışarıdan bakan bir Web sitesi oluşturmak amacıyla Power Apps portalları kullanmak isteyen kuruluşlar için bir başlangıç noktası görevi görür. Kuruluşların çift-yazılır, Supply Chain Management ve Power Apps portallara bağlanmasına yardımcı olur.
 

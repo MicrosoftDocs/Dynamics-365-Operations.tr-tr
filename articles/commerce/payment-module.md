@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 09c7504eda0d389738b9d13b73f33472dc8f5fe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d4aaa40ee0128a281fe76072e021774a52c9a9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352336"
 ---
 # <a name="payment-module"></a>Ödeme modülü
 
@@ -46,7 +46,7 @@ Adyen ödeme bağlayıcısı güçlü müşteri kimlik doğrulamasını (SCA) da
 
 Aşağıdaki resimde, Adyen ödeme sayfasındaki hediye kartı, bağlılık ve ödeme modülleri gösterilmektedir.
 
-![Ödeme sayfasındaki hediye kartı, bağlılık programı, Adyen ve ödeme modüllerini gösteren örnek](./media/ecommerce-payments.PNG)
+![Ödeme sayfasındaki hediye kartı, bağlılık programı, Adyen ve ödeme modüllerini gösteren örnek.](./media/ecommerce-payments.PNG)
 
 ## <a name="dynamics-365-payment-connector-for-paypal"></a>PayPal için Dynamics 365 Payment Connector
 
@@ -59,10 +59,10 @@ Kullanıma alma sayfasında, adyen ve PayPal bağlayıcılarının her ikisi bir
 Tüm faturalama ile ilgili bilgiler, iframe içinde PayPal tarafından işlendiğinden, PayPal ödeme Bağlayıcısı bir faturalama adresi modülü gerektirmiyor. Ancak sevkiyat adresi ve teslim seçenekleri modülleri gereklidir.
 
 Aşağıdaki şekil, biri bir kullanıma alma sayfasında bulunan, diğeri de bir adyen ödeme Bağlayıcısı ve diğeri PayPal ödeme Bağlayıcısı ile konfigüre edilen iki ödeme modülü örneği göstermektedir.
-![Ödeme sayfasındaki Adyen ve Paypal modüllerini gösteren örnek](./media/ecommerce-paypal.png)
+![Ödeme sayfasındaki Adyen ve Paypal modüllerini gösteren örnek.](./media/ecommerce-paypal.png)
 
 Aşağıdaki çizimde, PayPal düğmesi kullanılarak çağrılan PayPal iframe dosyasının bir örneği gösterilmektedir. 
-![Kullanıma alma sayfasında Paypal iframe örneği](./media/ecommerce-paypal-iframe.png)
+![Kullanıma alma sayfasında Paypal iframe örneği.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Ödeme modülü özellikleri
 
@@ -76,7 +76,7 @@ Aşağıdaki çizimde, PayPal düğmesi kullanılarak çağrılan PayPal iframe 
 |Birincil ödemedir|  **Doğru** veya **yanlış** | Değer **doğru** ise , kullanıma alma sayfasındaki birincil ödeme bağlayıcısından alınan tüm hata iletileri oluşturulur. Adyen ve PayPal ödeme bağlayıcıları yapılandırılırsa, adyen ile **doğru** değerini Commerce sürüm 10.0.14'e eklenmiş olarak ayarlayın.|
 
 Aşağıdaki çizimde, Commerce Headquarters 'da ödeme Bağlayıcısı konfigürasyonunda "PayPal" olarak ayarlanan **Desteklenen ödeme tipleri** değerinin bir örneği gösterilmektedir.
-![Commerce Headquarters'da desteklenen ödeme tipleri örneği](./media/ecommerce-paymenttendertypes.png)
+![Commerce Headquarters'da desteklenen ödeme tipleri örneği.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Fatura adresi
 

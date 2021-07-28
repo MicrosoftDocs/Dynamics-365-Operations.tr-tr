@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351061"
 ---
 # <a name="er-migration-cleanup"></a>ER geçişi temizleme 
 
@@ -30,11 +30,11 @@ Finance kurulumlarınızı yönetirken, geçerli kurulumu başka bir konuma geç
 
 İiş belgeleri oluşturmak için şablon kullanan bir ER biçimini çalıştırmaya çalışırsanız bir özel durum oluşur ve eksik şablon hakkında bilgilendirilirsiniz. Ayrıca, şablonu içeren ER biçimi yapılandırmasını silmek ve yeniden içe aktarmak için ER geçiş temizleme seçeneğini de kullanabilirsiniz.
 
-[![ER biçimi çalıştırma](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![ER biçimi çalıştırma.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 **Yapılandırmalar** sayfasına giderseniz (**Kuruluş yönetimi** \> **Elektronik raporlama** \> **Yapılandırmalar**) ve yapılandırmalar ağacında, şablon kullanan bir ER biçimi yapılandırmasını silmeye çalışırsanız benzer bir hata alırsınız.
 
-[![ER biçimi silme](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![ER biçimi silme.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Erişemediğiniz ER şablonlarınız ile ilgili sorunları gidermek için aşağıdaki adımları tamamlayın.
 
@@ -50,7 +50,7 @@ Erişemediğiniz ER şablonlarınız ile ilgili sorunları gidermek için aşağ
 >
 > Başvurulan şablon Blob depolamada kullanılabilir durumdayken bir ER biçimi yapılandırmasını silmek için **Geçiş temizleme** seçeneğini kullanırsanız, yalnozca uygulama veritabanındaki ilgili yapılandırma yapılarını silersiniz. Blob depolama alanındaki şablonun fiziksel dosyası kalır. Blob depolama alanında dosya üzerine yazmaya artık izin verilmez. Daha fazla bilgi için bkz. [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Ek olarak, bu ortamdaki Geçiş temizleme özelliği kullanılarak silinen yapılandırmaların artık yeniden içe aktarılması mümkün olmayacaktır. Bu sorunu gidermek için, karşılık gelen dosyayı Blob depolama alanında bulmanız ve el ile silmeniz gerekir.
 
-[![ER biçimini içe aktarma](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![ER biçimini içe aktarma.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Uygulama örneğinizi bir kereden fazla geçiş hedefi olarak kullanılan ve Blob depolamanın zaten ER şablon dosyalarını içerdiği başka bir konuma geçirdiğinizde benzer bir sorun oluşabilir.
 

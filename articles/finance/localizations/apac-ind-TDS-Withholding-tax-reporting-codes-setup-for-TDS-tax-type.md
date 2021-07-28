@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023668"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361298"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>TDS vergi türü için stopaj vergisi raporlama kodlarını ayarlama
 
@@ -31,7 +31,7 @@ Stopaj vergisi raporlama kodları, Kaynakta Kesilen Vergi (TDS) için Form 26Q v
 
 1. **Vergi \> Kurulum \> Stopaj vergisi \> Stopaj vergisi raporlama kodları**'na gidin.
 
-    [![Stopaj vergisi raporlama kodları sayfası](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Stopaj vergisi raporlama kodları sayfası.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. TDS vergi türü için stopaj vergisi raporlama kodlarını belirlemek üzere **Vergi türü** alanında **TDS**'yi seçin.
 3. **Stopaj vergisi bileşeni** alanında, adına stopaj vergisi raporlama kodunu tanımladığınız TDS bileşenini seçin. **Stopaj vergisi bileşen grubu** alanı, tanımladığınız TDS bileşeni için tanımlanan TDS bileşen grubunu gösterir.

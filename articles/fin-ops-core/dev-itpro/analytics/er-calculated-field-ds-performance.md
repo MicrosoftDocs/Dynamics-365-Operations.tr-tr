@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944861"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349196"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Parametreli HESAPLANAN ALAN veri kaynakları ekleyerek ER çözümleri performansını iyileştirme
 
@@ -56,7 +56,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
     2. ER yapılandırması için XML biçiminde uygun dosyayı seçmek için **Gözat**'ı seçin.
     3. **Tamam**'ı seçin.
 
-![Yapılandırmalar sayfasında içe aktarılan yapılandırmalar](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Yapılandırmalar sayfasında içe aktarılan yapılandırmalar.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Örnek ER çözümüne göz atma
 
@@ -76,7 +76,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 
     Bu yapılandırmadaki model eşlemesi, bu model için oluşturulan ve Finance'de yürütülen ER biçimleri için temel veri modelini uygular. Bu nedenle **Trans** veri kaynaklarının içeriği soyut **model** veri kaynakları gibi ER biçimleri için sunulur.
 
-    ![Model eşleme tasarımcı sayfasında Trans veri kaynağı](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Model eşleme tasarımcı sayfasında Trans veri kaynağı.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. **Model eşleme tasarımcısı** sayfasını kapatın
 5. **Veri kaynağı modeli eşleme** sayfasını kapatın.
@@ -90,7 +90,7 @@ Satıcı hareketleri sunan yeni bir rapor oluşturmak üzere yeni bir ER çözü
 
     Bu ER biçimi, XML biçiminde satıcı hareketleri raporu oluşturmak için tasarlanmıştır.
 
-    ![Biçim tasarımcısı sayfasında veri kaynaklarını ve yapılandırılmış biçim öğelerinin bağlarını biçimlendirme](media/er-calculated-field-ds-performance-format.png)
+    ![Biçim tasarımcısı sayfasında veri kaynaklarını ve yapılandırılmış biçim öğelerinin bağlarını biçimlendirme.](media/er-calculated-field-ds-performance-format.png)
 
 5. **Biçim tasarımcısı** sayfasını kapatın.
 
@@ -103,7 +103,7 @@ ER çözümünün ilk sürümünü tasarlamayı bitirdiğinizi varsayalım. Şim
 1. **DEMF** şirketini seçin.
 2. Bir ER biçimi çalıştırılırken, performans izleme oluşturmak için [ER performans izlemesini aç](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) adımlarını izleyin.
 
-    ![Kullanıcı parametreleri iletişim kutusu](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Kullanıcı parametreleri iletişim kutusu.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>ER biçimini çalıştır
 
@@ -124,7 +124,7 @@ Geçerli model eşleştirmesinin bazı veri kaynağı öğeleri için yeni bilgi
 - Veri kaynağı kullanılarak veri almada harcanan gerçek süre
 - Aynı zaman, tüm model eşleşmesinin yürütülmesi için harcanan toplam sürenin yüzdesi olarak ifade edilen saat
 
-![Model eşleme tasarımcısı sayfasında yürütme zamanı ayrıntıları](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Model eşleme tasarımcısı sayfasında yürütme zamanı ayrıntıları.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 **Performans istatistikleri** kılavuzunda, **Trans** veri kaynağının VendTrans tablosunu bir kez çağırdığı gösterilir. **Trans** veri kaynağının **\[265\]\[Q:265\]** değeri, uygulama tablosundan 265 satıcı hareketinin getirildiğini ve veri modeline döndürüldüğünü gösterir.
 
@@ -137,7 +137,7 @@ Geçerli model eşleştirmesinin bazı veri kaynağı öğeleri için yeni bilgi
 
 - Alınan hareketler yalnızca beş satıcı için deftere nakledildiğinden, tekrarlandırılmış her satıcı hareketi için satıcı tablosu çağrılır. 530 çağrının 525 tanesi çoğaltılır. Aşağıdaki şekilde, tekrarlanan çağrılar (veritabanı istekleri) hakkında aldığınız ileti gösterilir.
 
-![Model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Model eşleme tasarımcısı sayfasındaki yinelenen veritabanı istekleri hakkında ileti.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Toplam model eşleme yürütme süresinin (yaklaşık sekiz saniye), yüzde 80'ninden fazlasının (yaklaşık 6 saniye) VendTable uygulama tablosundan değerleri alırken harcandığını unutmayın. Bu yüzde beş satıcının iki özniteliği için çok büyük olup, VendTrans uygulama tablosundaki bilginin hacmiyle karşılaştırılır.
 
@@ -172,7 +172,7 @@ Veritabanında çoğaltılan çağrıların engellenmesine yardımcı olmak amac
     3. İletişim kutusunda, **Ad** alanına **Kutu** girin.
     3. **Tamam**'ı seçin.
 
-    ![Model eşleme tasarımcı sayfasında Kutu veri kaynağı](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Model eşleme tasarımcı sayfasında Kutu veri kaynağı.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. **Hesaplanan alan** türüne ait parametreli bir veri kaynağı eklemek için aşağıdaki adımları izleyin:
 
@@ -208,7 +208,7 @@ Veritabanında çoğaltılan çağrıların engellenmesine yardımcı olmak amac
 
 9. **Kaydet**'i seçin.
 
-    ![Model eşleme tasarımcı sayfasında Vend veri kaynağı](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Model eşleme tasarımcı sayfasında Vend veri kaynağı.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. **Model eşleme tasarımcısı** sayfasını kapatın
 11. **Model eşlemeleri** sayfasını kapatın
@@ -232,11 +232,11 @@ Yeni bir performans izleme oluşturmak için bu konuda daha önce işlenen [ER b
 
 Model eşleştirmesinde yaptığınız ayarlamaların veritabanındaki yinelenen sorguları elediğine dikkat edin. Bu model eşleme için veritabanı tablolarına ve veri kaynaklarına yapılan çağrı sayısı da azaltılmıştır.
 
-![Model eşleme tasarımcı sayfası 1'de bilgiyi izleme](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Model eşleme tasarımcı sayfası 1'de bilgiyi izleme.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Toplam yürütme süresi yaklaşık 20 kat düşürüldü (yaklaşık 8 saniyeden 400 milisaniyeye). Bu nedenle, tüm ER çözümü performansı iyileştirilmiştir.
 
-![Model eşleme tasarımcı sayfası 2'de bilgiyi izleme](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Model eşleme tasarımcı sayfası 2'de bilgiyi izleme.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Ek 1: Örnek Microsoft ER çözümünün bileşenlerini indirme
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349436"
 ---
 # <a name="recall-order-operation-in-pos"></a>Satış noktasında sipariş işlemini geri çekme
 
@@ -29,7 +29,7 @@ Bu işlevi etkinleştirmek için, Commerce Headquarters'daki **Özellik yönetim
 
 **Sipariş geri çekme** işlemi düğmesinin yapılandırması, kuruluşların işlemi önceden tanımlanmış bir görüntü ile dağıtmasını sağlar.
 
-![Düğme grubu yapılandırması](media/recallorderbuttongrid.png)
+![Düğme grubu yapılandırması.](media/recallorderbuttongrid.png)
 
 Ekran seçenekleri şunlardır:
 - **Hiçbiri** – Bu seçenek, işlemi belirli bir ekran olmadan dağıtır. Kullanıcı bu yapılandırmayla işlemi açtığında, sipariş araması ve bulması veya önceden tanımlanmış bir sipariş filtresi seçmesi istenir.
@@ -42,11 +42,11 @@ POS'tan **Sipariş geri çekme** işlemi başlatılırken, görüntü **Hiçbiri
 - Filtre ölçütüne uyan siparişleri bulmak üzere filtreleme mekanizmasını kullanmak için uygulama çubuğunda **Siparişleri ara** veya **Ara ve filtrele** simgesini seçin.
 - **Siparişleri Göster** açılır menüsünden (karşılanacak siparişler, alınacak siparişler veya sevk edilecek siparişler) önceden tanımlanmış filtreler arasından seçim yapın.
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Arama ölçütleri uygulandıktan sonra, uygulama eşleşen satış siparişlerinin listesini görüntüler. Arama/filtre seçeneklerini kullanırken, alınan siparişlerin kullanıcının geçerli mağazasıyla bağlantılı siparişler olması gerekmediğini göz önünde bulundurun. Bu arama işlemi, sipariş başka bir mağaza/kanal ya da ambar konumu tarafından oluşturulmuş veya karşılanacak olsa bile arama ölçütleriyle eşleşen tüm müşteri siparişlerini alır ve görüntüler.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Bir kullanıcı ek ayrıntıları görüntülemek için listeden bir sipariş seçebilir. Ekranın sağ tarafındaki bilgi paneli sipariş satırı detayları, teslimat detayları ve karşılama detayları da dahil olmak üzere seçili siparişle ilgili özellikleri görüntüler.
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907703"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348769"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Master planlama için Planlama İyileştirmesi'ne geçiş
 
@@ -65,7 +65,7 @@ Gerekli özellikler kullanıma sunulduktan sonra, Microsoft özel durum süresi 
 
 Aşağıdaki akış çizelgesi, bu konuda sağlanan bilgileri özetler ve böylece bir özel durum istemeniz gerekip gerekmediğini hızlı bir şekilde öğrenebilirsiniz. Bir özel durum talep etmeniz gerekiyorsa, lütfen [Planlama Optimizasyonu geçiş ve özel durum anketini](https://go.microsoft.com/fwlink/?linkid=2144962) doldurup gönderin.
 
-![Özel durum akış çizelgesi](media/exception-diagram.png "Özel durum akış çizelgesi")
+![Özel durum akış çizelgesi.](media/exception-diagram.png "Özel durum akış çizelgesi")
 
 > [!NOTE]
 > Yalnızca üretim ortamı içeren veya içerecek kiracılar için bir özel durum isteyebilirsiniz. Yalnızca korumalı alan ortamlarına sahip kiracılar için istekte bulunamazsınız. Hizmet olarak altyapı (IaaS) korumalı alan ortamında bir Planlama İyileştirmesi özel durum hatasını devre dışı bırakmanız gerekiyorsa [Korumalı alan ortamları](#faq-sandbox) bölümünde sağlanan SQL sorgusunu çalıştırın.
